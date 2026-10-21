@@ -1,0 +1,59 @@
+{
+  "batchId": "batch-006",
+  "date": "2026-10-22",
+  "url": "https://audience20060904-lang.github.io/Reading/",
+  "repositoryVisibility": "public",
+  "sourceCommit": "ba056f24d567a71b345559d0f5cf9ef43803aced",
+  "deploymentCommit": "96acdebed703bb2831e4b383ba13b7ca97ddbd89",
+  "workflowRun": "https://github.com/audience20060904-lang/Reading/actions/runs/39632251141",
+  "workflowConclusion": "success",
+  "offlineVersion": "e906d2067f8c2c4f",
+  "addedQuestionIds": [
+    "q-c02-028",
+    "q-c02-029"
+  ],
+  "readingUnitIds": [
+    "c02-s01-p017-03608-r002-004",
+    "c02-s01-p017-03608-r005-007"
+  ],
+  "sourceReview": {
+    "pdfPage": 17,
+    "pdfSha256": "be25c859f1bd894a4b0d1cff024ded1297f6a96a8e8ddabea1e3abcf89160a50",
+    "record": "source/short-questions/review-chapter-02-next-two.json",
+    "method": "核验上传 PDF 指纹，渲染完整第 17 页并视觉对照原文。"
+  },
+  "coverage": {
+    "questions": 106,
+    "readingUnits": 1053,
+    "preparedUnits": 106,
+    "unpreparedUnits": 947,
+    "candidateSentences": 3152,
+    "contextSentences": 258,
+    "contextOnlySentences": 91,
+    "evidenceSentences": 167,
+    "notDirectlyQuestioned": 2985,
+    "fullCoverage": false
+  },
+  "validation": {
+    "unitTests": 54,
+    "localGeneralBrowserChecks": 25,
+    "localNewPassageBrowserChecks": 5,
+    "liveNewPassageBrowserChecks": 5,
+    "productionBuild": "passed",
+    "previousPublishedQuestionObjectsUnchanged": 104,
+    "liveAssetIntegrity": "all offline-manifest files and SW match tested dist byte-for-byte",
+    "interaction": "two consecutive new units submitted with one wrong and one correct selection; question and options translated only after submission; full translation last; 2 vocabulary entries per question; next/previous and reload preserve history",
+    "offline": "browser-simulated offline restores new question and submitted explanation; general local suite also stops HTTP server and reloads cached app"
+  },
+  "limits": [
+    "390px Edge 视口不是实体手机；模拟离线不是关闭 Windows 网卡。",
+    "浏览器记录均为隔离环境中的合成作答，未访问或上传用户真实学习数据。",
+    "题目内容保持预先编写，不调用运行时 AI API；James 引述不当作实验，69% 不解释成健康改善的因果比例。",
+    "全书尚有 947 个短段待配题，每段一题也不代表每句都直接充当证据。"
+  ],
+  "nextBatch": {
+    "chapterId": "c02",
+    "readingUnitId": "c02-s01-p017-05558-r003-006",
+    "pdfPage": 17
+  }
+}
