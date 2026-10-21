@@ -8,3 +8,5 @@
 @media(prefers-reduced-motion:reduce){*,*:before,*:after{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
 
 html,body{background:var(--bg);color:var(--ink)}
+
+.passage-translation{border-top:1px solid var(--line);margin-top:28px;padding-top:4px}.passage-translation .translated-passage{font-size:15px;line-height:2.1;color:var(--ink);white-space:pre-line;margin-bottom:0}.passage-translation>.small{font-size:12px;line-height:1.8;margin-bottom:12px}

@@ -22,9 +22,10 @@ try{
  await page.getByRole('button',{name:'Ask ChatGPT',exact:true}).click();assert(!(await page.locator('#chat-message').inputValue()).includes('正确答案'));await page.getByRole('button',{name:'关闭讨论'}).click();check('提交前 ChatGPT 消息不泄露答案');
  await page.screenshot({path:'qa/desktop-practice.png',fullPage:true});
  const bank=JSON.parse(await readFile('public/data/questions.json','utf8'));const wrong=(bank[0].answer+1)%4;
- await page.getByRole('radio').nth(wrong).click();await page.getByRole('button',{name:'提交答案',exact:true}).click();await page.locator('.explanation').waitFor();assert((await page.locator('.result').innerText()).includes('错误'));assert.equal((await saved()).attempts.length,1);check('错误提交、正确答案与五部分解析、IndexedDB 真实记录');
+ await page.getByRole('radio').nth(wrong).click();assert.equal(await page.locator('.passage-translation').count(),0);await page.getByRole('button',{name:'提交答案',exact:true}).click();await page.locator('.explanation').waitFor();assert((await page.locator('.result').innerText()).includes('错误'));assert.equal((await saved()).attempts.length,1);check('错误提交、正确答案与五部分解析、IndexedDB 真实记录');
+ const translation=page.locator('.explain-body > .passage-translation');await translation.waitFor();assert((await translation.innerText()).includes('种植水稻和茶叶'));assert(await page.evaluate(()=>document.querySelector('.explain-body')?.lastElementChild?.classList.contains('passage-translation')));await translation.screenshot({path:'qa/passage-translation.png'});check('整段译文提交前隐藏、提交后位于解析最下方，覆盖全部英文片段');
  await page.getByRole('button',{name:'Ask ChatGPT',exact:true}).click();assert((await page.locator('#chat-message').inputValue()).includes('正确答案'));await page.getByRole('button',{name:'关闭讨论'}).click();
- await page.reload();await page.locator('.explanation').waitFor();assert.equal((await saved()).attempts.length,1);check('刷新恢复已提交解析，未重复记分');
+ await page.reload();await page.locator('.explanation').waitFor();assert((await page.locator('.passage-translation').innerText()).includes('种植水稻和茶叶'));assert.equal((await saved()).attempts.length,1);check('刷新恢复已提交解析，未重复记分');
  await page.getByRole('button',{name:'下一题',exact:true}).click();await page.waitForFunction(()=>document.querySelector('.question-prompt')?.textContent?.includes('earlier generations'));assert.equal(await page.locator('.explanation').count(),0);
  await page.getByRole('button',{name:'上一题',exact:true}).click();await page.locator('.explanation').waitFor();check('上下题遵循阅读顺序，返回时恢复历史解析');
  await page.getByRole('button',{name:'收藏 known for',exact:true}).click();
