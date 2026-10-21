@@ -6,14 +6,15 @@ import {emptyState,grade,newSession,restoreSession,neighbor} from '../src/core';
 import baseline from './fixtures/batch002-fingerprints.json';
 const book=JSON.parse(readFileSync('public/data/book.json','utf8')) as Book;
 const qs=JSON.parse(readFileSync('public/data/questions.json','utf8')) as Question[];
+const legacy=JSON.parse(readFileSync('source/archive/questions-v1.json','utf8')) as Question[];
 const batch=qs.filter(q=>q.chapterId==='c02'&&Number(q.id.slice(-3))>=13&&Number(q.id.slice(-3))<=27);
 
 describe('第三批内容和旧记录兼容',()=>{
  it('保留前两批每道题的 ID、内容与指纹',()=>{
-  for(const [id,fingerprint] of Object.entries(baseline))expect(qs.find(q=>q.id===id)?.fingerprint,id).toBe(fingerprint);
+  for(const [id,fingerprint] of Object.entries(baseline)){expect(legacy.find(q=>q.id===id)?.fingerprint,id).toBe(fingerprint);expect(qs.find(q=>q.id===id)?.version).toBeGreaterThan(1);}
  });
  it('新题按原书位置插入，旧会话按 ID 恢复，不按数组下标错位',()=>{
-  const old=qs.find(q=>q.id==='q-c02-007')!,state=emptyState(),attempt=grade(old,old.answer,state,2400);
+  const old=legacy.find(q=>q.id==='q-c02-007')!,state=emptyState(),attempt=grade(old,old.answer,state,2400);
   state.attempts=[attempt];state.session={...newSession(old),attemptId:attempt.id,selected:attempt.selected};
   expect(neighbor(qs,'q-c02-006',1)?.id).toBe('q-c02-013');
   expect(restoreSession(state,qs).session?.questionId).toBe(old.id);

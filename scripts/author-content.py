@@ -280,16 +280,17 @@ for s in b['sentences']:s['review']='visual-proofread' if s['paragraphId'] in re
 (ROOT/'public/data/questions.json').write_text(json.dumps(out,ensure_ascii=False,indent=2),encoding='utf-8')
 catalog_path=ROOT/'src/data/passage-translations.json'
 catalog=json.loads(catalog_path.read_text(encoding='utf-8'))
-previous={e['questionId']:e for e in catalog['entries']}
-entries=[]
+previous={(e['questionId'],e['passage']):e for e in catalog['entries']}
 for q in out:
- if q['id'] in previous:
-  entry=previous[q['id']]
-  assert entry['passage']==q['passage'] and entry['sourceFingerprint']==q['fingerprint'], ('Review translation after content change',q['id'])
+ key=(q['id'],q['passage'])
+ if key in previous:
+  assert previous[key]['passage']==q['passage'], ('Review translation after content change',q['id'])
  else:
   assert q.get('translation'), ('Missing full-passage translation',q['id'])
-  entry=dict(questionId=q['id'],passage=q['passage'],sourceFingerprint=q['fingerprint'],translation=q['translation'])
- entries.append(entry)
-catalog['entries']=entries
+  catalog['entries'].append(dict(questionId=q['id'],passage=q['passage'],sourceFingerprint=q['fingerprint'],translation=q['translation']))
 catalog_path.write_text(json.dumps(catalog,ensure_ascii=False,indent=2),encoding='utf-8')
-print(f'Wrote {len(out)} curated questions. No full coverage claim.')
+legacy_path=ROOT/'source/archive/questions-v1.json'
+legacy=json.loads(legacy_path.read_text(encoding='utf8'))
+assert {q['id']:q['fingerprint'] for q in out}=={q['id']:q['fingerprint'] for q in legacy}, 'Preserve legacy revisions; author new short-unit revisions explicitly'
+runpy.run_path(str(ROOT/'scripts/prepare-short-reading.py'),run_name='__main__')
+print(f'Wrote {len(out)} legacy-compatible short questions. No full coverage claim.')

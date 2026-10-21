@@ -38,14 +38,14 @@ async function waitVersion(expected){
 }
 const state=()=>page.evaluate(()=>new Promise((resolve,reject)=>{const r=indexedDB.open('life-three-dimensions-study-v1',1);r.onsuccess=()=>{const db=r.result,q=db.transaction('study').objectStore('study').get('state');q.onsuccess=()=>{db.close();resolve(q.result);};q.onerror=reject;};r.onerror=reject;}));
 try{
- await page.goto('http://127.0.0.1:4188/Reading/');await page.locator('.question-prompt').waitFor();assert((await page.locator('.session-count').innerText()).includes('/ 45'));
+ await page.goto('http://127.0.0.1:4188/Reading/');await page.locator('.question-prompt').waitFor();assert((await page.locator('.session-count').innerText()).includes('已备 45 题'));
  await page.getByRole('radio').nth(0).click();await page.getByRole('button',{name:'提交答案',exact:true}).click();await page.locator('.explanation').waitFor();await waitVersion('old-'+version);
  const before=await state();assert.equal(before.attempts.length,1);
  phase=1;await page.evaluate(async()=>{await (await navigator.serviceWorker.getRegistration()).update();});await waitVersion('stale-'+version);await page.reload();await page.locator('.explanation').waitFor();
- assert((await page.locator('.session-count').innerText()).includes('/ 45'));check('复现旧策略将仍有效的 45 题 HTTP 缓存复制进新 SW 缓存');
+ assert((await page.locator('.session-count').innerText()).includes('已备 45 题'));check('复现旧策略将仍有效的 45 题 HTTP 缓存复制进新 SW 缓存');
  const hits=questionFetches;
  phase=2;await page.evaluate(async()=>{await (await navigator.serviceWorker.getRegistration()).update();});await waitVersion(version);await page.reload();await page.locator('.explanation').waitFor();
- assert((await page.locator('.session-count').innerText()).includes('/ 60'));assert(questionFetches>hits,'New install must refresh questions from server');assert.deepEqual((await state()).attempts,before.attempts);assert.equal((await state()).session.attemptId,before.session.attemptId);
- assert((await page.locator('.passage-translation').innerText()).includes('种植水稻和茶叶'));check('修复后安装强制刷新正文题库至 60 题，并保留旧成绩、位置与译文');result.passed=true;
+ assert((await page.locator('.session-count').innerText()).includes('已备 '+bank.length+' 题'));assert(questionFetches>hits,'New install must refresh questions from server');assert.deepEqual((await state()).attempts,before.attempts);assert.equal((await state()).session.attemptId,before.session.attemptId);
+ assert((await page.locator('.passage-translation').innerText()).includes('绿茶和小柑橘'));check('修复后安装强制刷新正文题库至最新题数，并保留旧成绩、位置与译文');result.passed=true;
 }catch(e){result.error=String(e);console.error(e);process.exitCode=1;await page.screenshot({path:'qa/cache-update-failure.png',fullPage:true}).catch(()=>{});}
 finally{await mkdir('qa',{recursive:true});await writeFile('qa/cache-update-results.json',JSON.stringify(result,null,2));await browser.close();await new Promise(r=>server.close(r));}
