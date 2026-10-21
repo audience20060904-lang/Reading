@@ -1,0 +1,60 @@
+{
+  "batchId": "batch-004",
+  "date": "2026-10-21",
+  "url": "https://audience20060904-lang.github.io/Reading/",
+  "repositoryVisibility": "public",
+  "sourceCommit": "825f6fa293412d54af7981d7fbedf39a9971ff78",
+  "deploymentCommit": "4074d75bb9bac1f4a420c2f3e1c55c417bf1374c",
+  "workflowRun": "https://github.com/audience20060904-lang/Reading/actions/runs/39602273809",
+  "workflowConclusion": "success",
+  "offlineVersion": "d8670d0c21e76eca",
+  "changes": [
+    "三类解析：问题与选项分析、重点词汇、原文整段参考译文。问题和四项译文仅在提交后显示。",
+    "以连续且互不重复的短段呈现全部候选正文句。旧题修订为 v2，旧成绩仍按历史快照回看。",
+    "补齐开篇第一小节的 16 个短段练习，新增 q-c01-034 至 q-c01-040。"
+  ],
+  "readingCoverage": {
+    "candidateSentences": 3152,
+    "includedSentences": 3152,
+    "missingSentenceIds": 0,
+    "duplicateSentenceIds": 0,
+    "units": 1053,
+    "unitsWithQuestions": 67,
+    "unitsWithoutQuestions": 986,
+    "allSentencesIncluded": true,
+    "allQuestionsPrepared": false,
+    "usuallyMaxWords": 90,
+    "absoluteMaxWords": 108,
+    "over90WordUnits": 4
+  },
+  "questionCoverage": {
+    "questions": 67,
+    "contextSentences": 169,
+    "contextOnlySentences": 67,
+    "evidenceSentences": 102,
+    "notDirectlyQuestioned": 3050,
+    "visuallyCheckedParagraphs": 56,
+    "mappedCandidateSentencesInCheckedParagraphs": 417,
+    "fullCoverage": false
+  },
+  "validation": {
+    "unitTests": 50,
+    "localBrowserChecks": 25,
+    "liveBrowserChecks": 9,
+    "productionBuild": "passed",
+    "liveAssets": "all deployment files match tested dist",
+    "oldLiveV1Upgrade": "real old live cache and synthetic submission upgraded to current worker; prior attempts unchanged",
+    "authoringRegeneration": "key content artifacts unchanged"
+  },
+  "limits": [
+    "候选句完整纳入阅读清单不代表人工最终分句或全书配题完成；986 个短段仍缺题目及对应中文材料。",
+    "417 是已视觉核对段落中的候选句映射数，不是逐句人工定稿总数。",
+    "390px Edge 浏览器视口不是实体手机；线上离线测试使用浏览器模拟断网。本地另验证停止 HTTP 服务后缓存重载；没有关闭 Windows 网卡。",
+    "升级验证使用隔离浏览器及合成作答，没有读取或上传用户真实学习数据。"
+  ],
+  "nextBatch": {
+    "chapterId": "c01",
+    "readingUnitId": "c01-s02-p009-00982-r001-004",
+    "action": "按短段阅读顺序补齐题目和中文材料，核对引用与证据后更新每章待办。"
+  }
+}
