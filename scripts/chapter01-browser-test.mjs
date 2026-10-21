@@ -12,7 +12,7 @@ const live=!!process.env.READING_TEST_URL,bank=JSON.parse(await readFile('public
 const report={url:base,checks:[],limits:['隔离 Edge 中合成作答；390px 视口不是实体手机；离线为浏览器模拟。']};
 const check=s=>{report.checks.push(s);console.log('PASS '+s);};await mkdir('qa',{recursive:true});
 const browser=await chromium.launch({headless:true,...(process.platform==='win32'?{executablePath:process.env.BROWSER_PATH||'C:/Program Files (x86)/Microsoft/Edge/Application/msedge.exe'}:{})});
-const ctx=await browser.newContext({viewport:{width:390,height:844}}),page=await ctx.newPage();const errors=[];page.on('pageerror',e=>errors.push(String(e)));
+const ctx=await browser.newContext({viewport:{width:390,height:844},...(process.env.READING_TEST_PROXY?{proxy:{server:process.env.READING_TEST_PROXY}}:{})}),page=await ctx.newPage();const errors=[];page.on('pageerror',e=>errors.push(String(e)));
 const state=()=>page.evaluate(()=>new Promise((resolve,reject)=>{const r=indexedDB.open('life-three-dimensions-study-v1',1);r.onsuccess=()=>{const db=r.result,q=db.transaction('study').objectStore('study').get('state');q.onsuccess=()=>{db.close();resolve(q.result);};q.onerror=reject;};r.onerror=reject;}));
 try{
  for(const p of [...manifest.files,'./sw.js']){const r=await page.request.get(new URL(p,base).href+'?verify='+manifest.version);assert.equal(r.status(),200,p);assert.equal(createHash('sha256').update(await r.body()).digest('hex'),createHash('sha256').update(await readFile(resolve(root,p))).digest('hex'),p);}
