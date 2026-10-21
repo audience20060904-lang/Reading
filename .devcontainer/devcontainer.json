@@ -1,0 +1,8 @@
+{
+  "name": "Private Reading Studio",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:1-22-bookworm",
+  "postCreateCommand": "npm ci && npm run content:check && npm test && npm run build",
+  "forwardPorts": [4173],
+  "portsAttributes": {"4173": {"label": "Reading Studio (keep Private)", "onAutoForward": "notify"}},
+  "postStartCommand": "echo 'Ready. Run: npm run preview -- --host 0.0.0.0 --port 4173. Confirm the Ports panel visibility is Private before opening.'"
+}
