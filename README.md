@@ -1,4 +1,4 @@
-# 三维 · 私人 IELTS 阅读工作室
+# 三维 · IELTS 阅读工作室
 
 只学习 Shigehiro Oishi 的 *Life in Three Dimensions: How Curiosity, Exploration, and Experience Make a Fuller, Better Life*。React + TypeScript + Vite + IndexedDB；无 AI API、无运行时出题、无注册、无云端学习数据库。
 
@@ -85,19 +85,26 @@ npm run test:browser
 
 验证包含：桌面 / 390px 手机截图、提交前消息无答案、真实提交 / 刷新 / 重练 / 备份恢复、根与子路径缓存、浏览器 `setOffline` 模拟断网，以及**实际停止 HTTP 服务后的页面重载与记录恢复**。没有关闭 Windows 网卡；模拟断网与服务停止测试分别记录，不能声称物理断网测试。
 
-## 私人 GitHub 与浏览器入口
+## 公开网页、手机使用与私人源码
 
-使用仅含初始化 README 的既有 Private 仓库 `audience20060904-lang/Reading`。建议名称 `life-in-three-dimensions-reading` 本次未找到；连接器没有新建仓库工具，没有声称成功新建它。写入前后均检查 Private 与 push 权限。
+用户于 2026-10-21 确认：任何人都可通过网页使用。网页访问范围改为 Public，GitHub 源码仓库仍为 Private。
 
-**源码仓库地址不是网页地址。** 本次提供本地浏览器入口与 Codespaces 配置；不启用公开 Pages，不创建付费运行资源。Private 仓库不等于 Pages 私人，含全书内容的构建不能未经确认公开发布。
+公开网页入口：https://life-three-dimensions-reading.stablestork18.chatgpt.site
 
-若以后自行选择 Codespaces：它可能消耗计费额度，先查看账户余额 / 费用，再由你手动创建。配置在 `.devcontainer/devcontainer.json`；进入后运行：
+此地址由 Sites 托管，不是 GitHub Pages。当前 GitHub 连接器不支持 Pages 管理接口，浏览器也未能连接 Pages 设置页，因此使用 Sites 发布。部署配置保存在 `.openai/hosting.json`；不创建 Codespace。
+
+手机用 Safari / Chrome 打开上述 HTTPS 地址，无需启动电脑上的本地服务。可以添加到主屏幕；第一次在线打开后等待离线缓存完成。每位访问者的作答、阅读标记、难词只存在各自浏览器的 IndexedDB 中，不会读取或共享你的真实学习记录。
+
+手机与电脑的学习记录不自动同步。在旧设备导出 JSON 备份，传到新设备后在设置页导入。旧的 localhost 记录也不会自动出现在公网域名下。
+
+公开的是书籍原文、预先编写题库与网页静态资源；学习备份、凭据、访问令牌、node_modules、缓存不发布。源码仍保存在 `audience20060904-lang/Reading` Private 仓库。
+
+Codespaces 配置继续保留作为可选开发入口，未创建运行资源。以后若自行使用，它可能消耗计费额度，需保持转发端口 Private：
 
 ```sh
 npm run preview -- --host 0.0.0.0 --port 4173 --strictPort
+gh codespace ports visibility 4173:private -c "$CODESPACE_NAME"
 ```
-
-打开 Ports 面板，确认 4173 的 Visibility 是 **Private**，再打开它给出的浏览器地址；可用 `gh codespace ports visibility 4173:private -c "$CODESPACE_NAME"` 强制设置。GitHub 文档说明默认转发端口为 Private，只允许创建者登录访问；配置文件本身不应被视为无法更改的访问控制：[GitHub Codespaces 安全](https://docs.github.com/en/codespaces/reference/security-in-github-codespaces)、[端口访问范围](https://docs.github.com/en/codespaces/developing-in-a-codespace/forwarding-ports-in-your-codespace)。没有创建 Codespace，因此不存在可报告的 `*.app.github.dev` 运行链接。
 
 ## 继续处理内容
 
