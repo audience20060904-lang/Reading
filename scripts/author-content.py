@@ -3,7 +3,7 @@ Explanations, questions and learner examples are authored learning material.
 No API, runtime generation, repeated fill-in templates, or invented book content.
 """
 from pathlib import Path
-import json, hashlib, random, re
+import json, hashlib, random, re, runpy
 ROOT=Path(__file__).resolve().parents[1]
 b=json.loads((ROOT/'public/data/book.json').read_text(encoding='utf-8')); out=[]
 def vocab(word,meaning,context,example,*collocations):return dict(word=word,meaning=meaning,context=context,example=example,collocations=list(collocations))
@@ -264,11 +264,32 @@ add(52,'有限推断','What limitation of the satisficer mindset does the author
 '作者承认日常使用 satisficer，但指出满足现状可能阻碍必要挑战与个人成长。此处是条件性的不足，不是否定全部价值。',['A 文中说 I actively use it，never 相反。','B 对应 content with status quo → discourages...growth，保留 can。','C 原文没有财富必然下降。','D 与前面例子的反事实数量方向相反，也没有 always。'],['But this mindset can have a dark side as well.','For instance, it makes you content with the status quo, which in turn discourages you from embracing necessary challenges and personal growth.'],['statusquo'],
 'which in turn... 为非限制性定语从句，对前面的满足现状状态作结果补充；discourage somebody from doing 中 from 后用动名词 embracing。',
 '立场题同时保留肯定与限制。can have a dark side 不能扩大成从无价值，也不能缩成只有好处。',ctx='all',support='inference')
-# Only the first source paragraph has completed visual word-level proofreading so far.
-# More reviewed paragraphs are appended to source/reviews.json after actual inspection.
+# Append separately saved editorial batches without renumbering existing questions.
+runpy.run_path(str(ROOT/'scripts/batches/chapter02-expansion.py'),init_globals=globals())
+sentence_order={s['id']:i for i,s in enumerate(b['sentences'])}
+out.sort(key=lambda q:min(sentence_order[sid] for e in q['evidence'] for sid in e['sentenceIds']))
+# Reviews record actual visual comparison, independently of question coverage.
 reviews=json.loads((ROOT/'source/reviews.json').read_text(encoding='utf-8')) if (ROOT/'source/reviews.json').exists() else []
 reviewed={r['paragraphId'] for r in reviews if r['status']=='visual-proofread'}
+for r in reviews:
+ if r.get('reviewedTextSha256'):
+  p=next(p for p in b['paragraphs'] if p['id']==r['paragraphId'])
+  assert hashlib.sha256(p['text'].encode()).hexdigest()==r['reviewedTextSha256'], ('Stale visual review',p['id'])
 for s in b['sentences']:s['review']='visual-proofread' if s['paragraphId'] in reviewed else 'candidate'
 (ROOT/'public/data/book.json').write_text(json.dumps(b,ensure_ascii=False,indent=2),encoding='utf-8')
 (ROOT/'public/data/questions.json').write_text(json.dumps(out,ensure_ascii=False,indent=2),encoding='utf-8')
+catalog_path=ROOT/'src/data/passage-translations.json'
+catalog=json.loads(catalog_path.read_text(encoding='utf-8'))
+previous={e['questionId']:e for e in catalog['entries']}
+entries=[]
+for q in out:
+ if q['id'] in previous:
+  entry=previous[q['id']]
+  assert entry['passage']==q['passage'] and entry['sourceFingerprint']==q['fingerprint'], ('Review translation after content change',q['id'])
+ else:
+  assert q.get('translation'), ('Missing full-passage translation',q['id'])
+  entry=dict(questionId=q['id'],passage=q['passage'],sourceFingerprint=q['fingerprint'],translation=q['translation'])
+ entries.append(entry)
+catalog['entries']=entries
+catalog_path.write_text(json.dumps(catalog,ensure_ascii=False,indent=2),encoding='utf-8')
 print(f'Wrote {len(out)} curated questions. No full coverage claim.')
