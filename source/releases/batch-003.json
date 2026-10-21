@@ -1,0 +1,58 @@
+{
+  "batchId": "batch-003",
+  "date": "2026-10-21",
+  "url": "https://audience20060904-lang.github.io/Reading/",
+  "repositoryVisibility": "public",
+  "sourceCommit": "9ce89b3e19ee6908c01225ebdbf94cc77799a225",
+  "deploymentCommit": "6e348db53ac85acb42d62fd03f381b4fafe7cd43",
+  "workflowRun": "https://github.com/audience20060904-lang/Reading/actions/runs/39547281869",
+  "workflowConclusion": "success",
+  "offlineVersion": "d85eb28e30112ab2",
+  "addedQuestionIds": [
+    "q-c02-013",
+    "q-c02-014",
+    "q-c02-015",
+    "q-c02-016",
+    "q-c02-017",
+    "q-c02-018",
+    "q-c02-019",
+    "q-c02-020",
+    "q-c02-021",
+    "q-c02-022",
+    "q-c02-023",
+    "q-c02-024",
+    "q-c02-025",
+    "q-c02-026",
+    "q-c02-027"
+  ],
+  "coverage": {
+    "questions": 60,
+    "candidateSentences": 3152,
+    "proofreadSentences": 417,
+    "contextSentences": 371,
+    "contextOnlySentences": 275,
+    "evidenceSentences": 96,
+    "notDirectlyQuestioned": 3056,
+    "fullCoverage": false
+  },
+  "validation": {
+    "unitTests": 36,
+    "localBrowserChecks": 22,
+    "liveBrowserChecks": 7,
+    "liveUpgradeChecks": 5,
+    "oldQuestionFingerprintsUnchanged": 45,
+    "productionBuild": "passed",
+    "authoringRegeneration": "no tracked changes"
+  },
+  "limits": [
+    "原页核对句子数是已对照段落内的自动候选句映射，不是人工定稿分句总数。",
+    "真实 Edge 的手机视口检查，不是实体手机测试。",
+    "离线包括本地 HTTP 服务停止及浏览器模拟断网，不是关闭 Windows 网卡。",
+    "线上升级测试使用隔离浏览器和合成记录；没有读取或上传用户真实学习数据。"
+  ],
+  "nextBatch": {
+    "chapterId": "c03",
+    "pdfPage": 27,
+    "carryForward": "第 1、2 章 remainingEvidenceIds 继续保留并回补。"
+  }
+}
