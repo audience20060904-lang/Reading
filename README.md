@@ -60,9 +60,9 @@ npm run preview -- --port 4173 --strictPort
 
 先在线打开生产页面，在设置中确认“离线缓存已就绪”。可用 Edge / Chrome 的“安装应用”或添加到主屏幕；缓存完成后，同一地址可以离线打开。首次安装 / 缓存需要网络，浏览器可能回收长期未用的缓存；个人进度请备份。
 
-正文 / 题库是静态 JSON，个人进度在独立 IndexedDB。更新题库后先备份，再更新源码、运行检查 / 构建，启动同一端口并在线重载。Service Worker 内容指纹变化时安装新缓存，删除**同作用域**旧版本；根路径和 `/reading/` 路径缓存互不清除。旧作答使用历史快照，不按新答案重算。
+正文 / 题库是静态 JSON，个人进度在独立 IndexedDB。更新题库后先备份，再更新源码、运行检查 / 构建，启动同一端口并在线重载。Service Worker 内容指纹变化时安装新缓存，删除**同作用域**旧版本；根路径和 `/Reading/` 路径缓存互不清除。旧作答使用历史快照，不按新答案重算。
 
-Vite 默认 `base: './'`，manifest 的 id / scope / start_url、脚本 / JSON 请求、Service Worker 注册均相对当前部署目录；已实际测试根路径与 `/reading/`。要指定固定子路径可设置 `APP_BASE=/Reading/` 后构建。不要随意换协议、域名或端口：IndexedDB 按浏览器 origin 隔离。换设备 / 浏览器时用 JSON 恢复。
+Vite 默认 `base: './'`，manifest 的 id / scope / start_url、脚本 / JSON 请求、Service Worker 注册均相对当前部署目录；已实际测试根路径与 `/Reading/`。要指定固定子路径可设置 `APP_BASE=/Reading/` 后构建。不要随意换协议、域名或端口：IndexedDB 按浏览器 origin 隔离。换设备 / 浏览器时用 JSON 恢复。
 
 ## 备份与恢复
 
@@ -85,26 +85,44 @@ npm run test:browser
 
 验证包含：桌面 / 390px 手机截图、提交前消息无答案、真实提交 / 刷新 / 重练 / 备份恢复、根与子路径缓存、浏览器 `setOffline` 模拟断网，以及**实际停止 HTTP 服务后的页面重载与记录恢复**。没有关闭 Windows 网卡；模拟断网与服务停止测试分别记录，不能声称物理断网测试。
 
-## 公开网页、手机使用与私人源码
+## GitHub Pages、手机使用与私人源码
 
-用户于 2026-10-21 确认：任何人都可通过网页使用。网页访问范围改为 Public，GitHub 源码仓库仍为 Private。
+用户于 2026-10-21 确认：任何人都可通过网页使用，随后指定使用 GitHub Pages。GitHub 源码仓库仍为 Private：https://github.com/audience20060904-lang/Reading
 
-公开网页入口：https://life-three-dimensions-reading.stablestork18.chatgpt.site
+`main` 保存源码；`gh-pages` 保存已经构建的网页，包括完整题库、原文、整段译文及离线资源，根目录含 `.nojekyll`。没有上传真实学习备份、凭据、访问令牌、node_modules 或测试缓存。未创建 Codespace 或购买套餐。
 
-此地址由 Sites 托管，不是 GitHub Pages。当前 GitHub 连接器不支持 Pages 管理接口，浏览器也未能连接 Pages 设置页，因此使用 Sites 发布。部署配置保存在 `.openai/hosting.json`；不创建 Codespace。
+**状态：发布文件已经准备并上传；Pages 设置需要仓库所有者启用，尚未验证 GitHub 公网地址上线。** 当前连接器可写代码，不能操作 Pages 管理接口；仓库所有者有 admin 权限不等于连接器有 Pages / Administration 权限。
 
-手机用 Safari / Chrome 打开上述 HTTPS 地址，无需启动电脑上的本地服务。可以添加到主屏幕；第一次在线打开后等待离线缓存完成。每位访问者的作答、阅读标记、难词只存在各自浏览器的 IndexedDB 中，不会读取或共享你的真实学习记录。
+首次启用：
 
-手机与电脑的学习记录不自动同步。在旧设备导出 JSON 备份，传到新设备后在设置页导入。旧的 localhost 记录也不会自动出现在公网域名下。
+1. 打开 https://github.com/audience20060904-lang/Reading/settings/pages 。
+2. Source 选择 **Deploy from a branch**。
+3. Branch 选择 **gh-pages**，文件夹选择 **/ (root)**，点击 **Save**。
+4. 等待 Pages 部署成功后，点击 **Visit site**，确认地址、起始句及提交后底部整段译文。
 
-公开的是书籍原文、预先编写题库与网页静态资源；学习备份、凭据、访问令牌、node_modules、缓存不发布。源码仍保存在 `audience20060904-lang/Reading` Private 仓库。
+预期的 GitHub 网页地址为 **https://audience20060904-lang.github.io/Reading/**。在 GitHub 显示部署成功并实际打开前，不应把此地址称为已经可用。
 
-Codespaces 配置继续保留作为可选开发入口，未创建运行资源。以后若自行使用，它可能消耗计费额度，需保持转发端口 Private：
+[GitHub 官方要求](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site)：Free 账户只能从 Public 仓库使用 Pages；Private 仓库需要 Pro / Team / Enterprise 等支持的套餐。当前无法读取账户套餐；若设置页提示升级，请先决定套餐或其他发布方式，**不要擅自把 Private 源码仓库改成 Public**。Pages 的网页可公开访问，即使源仓库是 Private。
 
-```sh
-npm run preview -- --host 0.0.0.0 --port 4173 --strictPort
-gh codespace ports visibility 4173:private -c "$CODESPACE_NAME"
+构建和更新：
+
+```powershell
+npm ci
+npm run content:check
+npm test
+npm run build:pages
+npm run test:browser
 ```
+
+`build:pages` 先执行完整生产构建 / 离线缓存生成，再检查 HTML、manifest、缓存清单中的资源均能在 `/Reading/` 下解析，最后写入 `.nojekyll`。把新 `dist/` 的**内容**更新到 `gh-pages` 分支根目录，不要把 `dist` 文件夹整体嵌套进去；删除上一版本不再使用的构建文件。保留分支历史，用普通提交更新，不需要强推。设置页来源配置一次即可，后续更新该分支会重新发布。只更新 main 源码不会自动更新 gh-pages。
+
+验证脚本使用真实 Edge，分别加载 `/` 与区分大小写的 `/Reading/`，验证缓存作用域隔离与离线重载。它验证本地构建，不等于 GitHub 托管已上线，也不等于实体手机测试。
+
+GitHub 网页上线后，手机 Safari / Chrome 打开 HTTPS 地址即可，无需启动电脑服务。首次在线打开并等待“离线缓存已就绪”后可添加到主屏幕。每位访问者的作答、阅读标记和难词只保存在各自浏览器的 IndexedDB。
+
+设备之间、localhost 与公网域名之间、此前 Sites 域名与 GitHub 域名之间，记录都不会自动同步。使用 JSON 备份在新地址导入。旧 Sites 站点 https://life-three-dimensions-reading.stablestork18.chatgpt.site 仍保留；它不是 GitHub Pages，也不能作为 GitHub 已上线的证明。
+
+Codespaces 配置仅作为可选开发入口保留，未创建运行资源。若自行使用，注意计费额度并保持转发端口 Private。
 
 ## 继续处理内容
 
