@@ -14,23 +14,24 @@ source/pages.json 保留原始提取。public/data/book.json 保存章节、小�
 
 3,152 个候选句按原书顺序恰好一次，分为 1,053 段。通常不超过 90 词，4 段为保持整句 / 证据达到 91–108 词。不截断、改写或拼接不连续原句。
 
-旧 60 题修订为 v2，新增 q-c01-034 至 q-c01-040，共 67 题。第 1 章第 1 小节 31 句、16 段均有题目及中文材料；其他 986 段尚未配题，保留阅读，不生成占位题。
+旧 60 题修订为 v2，另有 q-c01-034 至 q-c01-077，共 104 题。第 1 章五个小节 177 个候选句、77 段均有题目及中文材料；其余 949 段尚未配题，保留阅读，不生成占位题。
 
 解析仅为问题 / 四项分析（含译文）、词汇、整段译文。当前数据删除总述、语法、策略，历史快照不变。
 
-当前上下文 169 个候选句，直接证据 102 个，仅上下文 67 个；3,050 个候选句尚无直接证据题。原文全部纳入不等于题库完成，fullCoverage 仍为 false。
+当前上下文 252 个候选句，直接证据 163 个，仅上下文 89 个；2,989 个候选句尚无直接证据题。第 1 章仍有 59 个候选句只作上下文；每段一题不等于逐句证据覆盖。fullCoverage 仍为 false。
 
 ## 编写文件
 
 - source/archive/questions-v1.json：旧 60 题及指纹，不是个人作答记录。
 - scripts/batches/short-passages.py：60 题 v2 的固定原句范围和手写译文。
-- source/short-questions/additional.json：新短段题作者稿，当前含开篇 7 题，绑定已有短段，包含双语问题 / 选项、四项分析、证据、词汇和整段译文。
+- source/short-questions/additional.json：新短段题作者稿，当前含 44 题，绑定已有短段，包含双语问题 / 选项、四项分析、证据、词汇和整段译文。
 - scripts/batches/opening-section-completion.py：这 7 题的种子稿，不要用它覆盖后续新成果。
+- scripts/batches/chapter-01-completion.py：其余 37 题的逐题作者稿，按 ID 合并，不覆盖已更改作者稿。source/short-questions/review-chapter-01.json 记录本批 PDF 第 9–16 页视觉核对及对应段落指纹。
 - scripts/batches/question-translations.py：旧 60 题的手写问题 / 选项译文；新题取其明确编写的 promptZh / optionsZh，英文不匹配时拒绝沿用。
 - scripts/prepare-short-reading.py：验证与拼装预先编写内容、计算指纹，不生成缺失问题。
 - src/data/passage-translations.json：按题目 ID 和原文匹配，保留历史文本译文。
 - public/data/reading-plan.json：短段顺序、词数、来源句子和配题状态。
-- source/content-tasks.json：完整未配题短段 / 未配证据句子清单，下一缺口 c01-s02-p009-00982-r001-004，PDF 第 9 页。
+- source/content-tasks.json：完整未配题短段 / 未配证据句子清单，下一缺口 c02-s01-p017-03608-r002-004，PDF 第 17 页。章节 partial 状态保留，表示仍未完成逐句直接证据覆盖。
 
 ## 继续补题
 
@@ -46,12 +47,13 @@ source/pages.json 保留原始提取。public/data/book.json 保存章节、小�
     npm test
     npm run build:pages
     npm run test:browser
+    npm run test:chapter01
 
 python scripts/author-content.py 可以重建旧 60 题，再恢复 v2 和 additional.json 新题，已验证关键 JSON 逐字节重建一致。没有 ID 迁移方案时，不运行 extract.py 覆盖 book.json。
 
 ## 验证与发布
 
-50 项自动测试、25 项本地浏览器检查。验证整书句子恰好一次、连续顺序、原文切片、词数、证据；浏览器逐段走过开篇七句，五段均配题且无遗漏重复。
+54 项自动测试、25 项通用浏览器检查及 5 项整章浏览器检查。整章套件逐段真实提交第 1 章 77 道题、比对 177 个候选句和完整段落原文，检查每题双语解析、统计与恢复。tests/fixtures/batch004-fingerprints.json 锁定本批之前 67 道题，防止静默修改历史题库。
 
 缓存测试复现旧 HTTP 数据复用问题，再验证强制刷新后题数更新、旧成绩位置不变。另有实际停止本地服务重载及浏览器模拟断网；不是实体手机或关闭网卡测试。
 
