@@ -60,7 +60,7 @@ npm run preview -- --port 4173 --strictPort
 
 先在线打开生产页面，在设置中确认“离线缓存已就绪”。可用 Edge / Chrome 的“安装应用”或添加到主屏幕；缓存完成后，同一地址可以离线打开。首次安装 / 缓存需要网络，浏览器可能回收长期未用的缓存；个人进度请备份。
 
-正文 / 题库是静态 JSON，个人进度在独立 IndexedDB。更新题库后先备份，再更新源码、运行检查 / 构建，启动同一端口并在线重载。Service Worker 内容指纹变化时安装新缓存，删除**同作用域**旧版本；根路径和 `/Reading/` 路径缓存互不清除。旧作答使用历史快照，不按新答案重算。
+正文 / 题库是静态 JSON，个人进度在独立 IndexedDB。更新题库后先备份，再更新源码、运行检查 / 构建，启动同一端口并在线重载。Service Worker 的资源及缓存生成逻辑指纹变化时安装新缓存；安装使用 `Request(cache: reload)` 强制刷新 HTTP 缓存中的旧正文 / 题库，避免把旧 45 题复制进新缓存。更新时先在线刷新，待新缓存就绪后再重载。新 worker 安装成功后，删除**同作用域**旧版本；根路径和 `/Reading/` 路径缓存互不清除。旧作答使用历史快照，不按新答案重算。
 
 Vite 默认 `base: './'`，manifest 的 id / scope / start_url、脚本 / JSON 请求、Service Worker 注册均相对当前部署目录；已实际测试根路径与 `/Reading/`。要指定固定子路径可设置 `APP_BASE=/Reading/` 后构建。不要随意换协议、域名或端口：IndexedDB 按浏览器 origin 隔离。换设备 / 浏览器时用 JSON 恢复。
 
@@ -79,7 +79,7 @@ npm run build
 npm run test:browser
 ```
 
-当前自动测试 36 项；浏览器检查 20 项。覆盖答案判断、统计、IndexedDB 持久化、顺序 / 上下题、备份 / 导入、起始句、来源匹配、报告与虚假覆盖声明、离线构建合同。
+当前自动测试 36 项；浏览器检查 22 项。覆盖答案判断、统计、IndexedDB 持久化、顺序 / 上下题、备份 / 导入、起始句、来源匹配、报告与虚假覆盖声明、离线构建合同。
 
 浏览器脚本使用真实 Chromium / Edge。若环境没有 Playwright：先 `npm install --no-save playwright`，再 `npx playwright install chromium`；Windows 默认使用已安装的 Edge，可用 `BROWSER_PATH` 指定可执行文件。Codex 本机使用其自带 Playwright，无需安装浏览器。脚本创建临时学习记录，仅写入 `qa/`（Git 忽略），不会污染用户 4173 端口的数据。
 

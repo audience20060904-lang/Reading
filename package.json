@@ -9,7 +9,7 @@
     "build:pages": "npm run build && node scripts/prepare-github-pages.mjs",
     "preview": "vite preview --host 127.0.0.1",
     "test": "vitest run",
-    "test:browser": "node scripts/browser-test.mjs",
+    "test:browser": "node scripts/browser-test.mjs && node scripts/cache-update-test.mjs",
     "content:check": "node scripts/content-check.mjs"
   },
   "dependencies": {
