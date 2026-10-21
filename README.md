@@ -85,24 +85,19 @@ npm run test:browser
 
 验证包含：桌面 / 390px 手机截图、提交前消息无答案、真实提交 / 刷新 / 重练 / 备份恢复、根与子路径缓存、浏览器 `setOffline` 模拟断网，以及**实际停止 HTTP 服务后的页面重载与记录恢复**。没有关闭 Windows 网卡；模拟断网与服务停止测试分别记录，不能声称物理断网测试。
 
-## GitHub Pages、手机使用与私人源码
+## GitHub Pages、手机使用与公开源码
 
-用户于 2026-10-21 确认：任何人都可通过网页使用，随后指定使用 GitHub Pages。GitHub 源码仓库仍为 Private：https://github.com/audience20060904-lang/Reading
+用户于 2026-10-21 明确同意将 Reading 仓库改为 Public，以免费使用 GitHub Pages；此授权更新了最初要求 Private 的决定。源码仓库：https://github.com/audience20060904-lang/Reading
+
+**正式网页：https://audience20060904-lang.github.io/Reading/**
+
+已于 2026-10-21 成功部署，GitHub [Pages 部署记录](https://github.com/audience20060904-lang/Reading/actions/runs/39544582095) 为 success；匿名 HTTPS 返回 200。真实 Edge 线上验证 7 项通过：起始原文 / 四选项 / 未提交隐藏解析、9 个线上文件与本地已测构建逐字节一致、390px 布局、提交反馈及最底部整段译文、刷新恢复、子路径缓存 / 模拟离线重载、无运行时异常。没有声称已在实体手机或关闭 Windows 网卡后测试。
 
 `main` 保存源码；`gh-pages` 保存已经构建的网页，包括完整题库、原文、整段译文及离线资源，根目录含 `.nojekyll`。没有上传真实学习备份、凭据、访问令牌、node_modules 或测试缓存。未创建 Codespace 或购买套餐。
 
-**状态：发布文件已经准备并上传；Pages 设置需要仓库所有者启用，尚未验证 GitHub 公网地址上线。** 当前连接器可写代码，不能操作 Pages 管理接口；仓库所有者有 admin 权限不等于连接器有 Pages / Administration 权限。
+Pages 已设为 **Deploy from a branch → gh-pages → / (root)**，无需再次启用。GitHub 连接器缺少 Pages 管理能力，本次通过本机 Git Credential Manager 中正确账号已有的登录授权，调用 GitHub 官方接口完成公开和启用；授权值仅在进程内存中使用，没有写入项目或输出。
 
-首次启用：
-
-1. 打开 https://github.com/audience20060904-lang/Reading/settings/pages 。
-2. Source 选择 **Deploy from a branch**。
-3. Branch 选择 **gh-pages**，文件夹选择 **/ (root)**，点击 **Save**。
-4. 等待 Pages 部署成功后，点击 **Visit site**，确认地址、起始句及提交后底部整段译文。
-
-预期的 GitHub 网页地址为 **https://audience20060904-lang.github.io/Reading/**。在 GitHub 显示部署成功并实际打开前，不应把此地址称为已经可用。
-
-[GitHub 官方要求](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site)：Free 账户只能从 Public 仓库使用 Pages；Private 仓库需要 Pro / Team / Enterprise 等支持的套餐。当前无法读取账户套餐；若设置页提示升级，请先决定套餐或其他发布方式，**不要擅自把 Private 源码仓库改成 Public**。Pages 的网页可公开访问，即使源仓库是 Private。
+[GitHub 官方要求](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site)：Free 账户可从 Public 仓库使用 Pages。当前网页和仓库均公开；所有访问者可查看 / 下载网页资源与源码，个人学习记录仍仅保存在各自浏览器中。
 
 构建和更新：
 
@@ -116,9 +111,9 @@ npm run test:browser
 
 `build:pages` 先执行完整生产构建 / 离线缓存生成，再检查 HTML、manifest、缓存清单中的资源均能在 `/Reading/` 下解析，最后写入 `.nojekyll`。把新 `dist/` 的**内容**更新到 `gh-pages` 分支根目录，不要把 `dist` 文件夹整体嵌套进去；删除上一版本不再使用的构建文件。保留分支历史，用普通提交更新，不需要强推。设置页来源配置一次即可，后续更新该分支会重新发布。只更新 main 源码不会自动更新 gh-pages。
 
-验证脚本使用真实 Edge，分别加载 `/` 与区分大小写的 `/Reading/`，验证缓存作用域隔离与离线重载。它验证本地构建，不等于 GitHub 托管已上线，也不等于实体手机测试。
+验证脚本使用真实 Edge，分别加载 `/` 与区分大小写的 `/Reading/`，验证缓存作用域隔离与离线重载。该脚本验证本地构建；线上部署已另行验证，但没有进行实体手机测试。
 
-GitHub 网页上线后，手机 Safari / Chrome 打开 HTTPS 地址即可，无需启动电脑服务。首次在线打开并等待“离线缓存已就绪”后可添加到主屏幕。每位访问者的作答、阅读标记和难词只保存在各自浏览器的 IndexedDB。
+手机 Safari / Chrome 打开上述 GitHub HTTPS 地址即可，无需启动电脑服务。首次在线打开并等待“离线缓存已就绪”后可添加到主屏幕。每位访问者的作答、阅读标记和难词只保存在各自浏览器的 IndexedDB。
 
 设备之间、localhost 与公网域名之间、此前 Sites 域名与 GitHub 域名之间，记录都不会自动同步。使用 JSON 备份在新地址导入。旧 Sites 站点 https://life-three-dimensions-reading.stablestork18.chatgpt.site 仍保留；它不是 GitHub Pages，也不能作为 GitHub 已上线的证明。
 
