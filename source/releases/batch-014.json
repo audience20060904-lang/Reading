@@ -1,0 +1,103 @@
+{
+  "batchId": "batch-014",
+  "date": "2026-10-22",
+  "url": "https://audience20060904-lang.github.io/Reading/",
+  "repositoryVisibility": "public",
+  "sourceCommit": "19ff8d0a3404886a9347de97a0540a70e6e8fd43",
+  "deploymentCommit": "dfddc8c7aff417c295242f873e7e54f2204d6c9f",
+  "workflowRun": "https://github.com/audience20060904-lang/Reading/actions/runs/39755264578",
+  "workflowConclusion": "success",
+  "offlineVersion": "3e21ca32b993ee6a",
+  "addedQuestionIds": [
+    "q-c06-006",
+    "q-c06-007",
+    "q-c06-008",
+    "q-c06-009",
+    "q-c06-010",
+    "q-c06-011",
+    "q-c06-012",
+    "q-c06-013",
+    "q-c06-014",
+    "q-c06-015",
+    "q-c06-016",
+    "q-c06-017",
+    "q-c06-018",
+    "q-c06-019",
+    "q-c06-020",
+    "q-c06-021",
+    "q-c06-022",
+    "q-c06-023",
+    "q-c06-024",
+    "q-c06-025",
+    "q-c06-026",
+    "q-c06-027",
+    "q-c06-028",
+    "q-c06-029",
+    "q-c06-030"
+  ],
+  "preparedReadingUnits": 25,
+  "newContextCandidateSentences": 69,
+  "newEvidenceCandidateSentences": 32,
+  "targetManifest": "source/short-questions/batch014-targets.json",
+  "sourceReview": {
+    "pdfPages": [
+      54,
+      55,
+      56,
+      57
+    ],
+    "pdfSha256": "be25c859f1bd894a4b0d1cff024ded1297f6a96a8e8ddabea1e3abcf89160a50",
+    "recheckedParagraphs": 12,
+    "newlyRecordedParagraphs": 12,
+    "record": "source/short-questions/review-chapter06-next25.json",
+    "uniqueVisuallyCheckedParagraphsOverall": 147,
+    "mappedCandidateSentencesInReviewedParagraphs": 994,
+    "newlyMappedCandidateSentences": 69,
+    "note": "完整原页视觉对照，含跨页文本；保留原句与来源指纹。候选分句数量不冒充人工最终分句。"
+  },
+  "coverage": {
+    "questions": 353,
+    "readingUnits": 1053,
+    "preparedUnits": 353,
+    "unpreparedUnits": 700,
+    "candidateSentences": 3152,
+    "contextSentences": 994,
+    "contextOnlySentences": 458,
+    "evidenceSentences": 536,
+    "notDirectlyQuestioned": 2616,
+    "fullCoverage": false
+  },
+  "validation": {
+    "unitTests": 90,
+    "localGeneralBrowserChecks": 25,
+    "localBatchBrowserChecks": 5,
+    "liveBatchBrowserChecks": 5,
+    "walkedReadingUnitsPerRun": 25,
+    "newUnitsVisitedPerRun": 25,
+    "existingInterleavedUnitsPerRun": 0,
+    "syntheticAttemptsPerRun": 26,
+    "productionBuild": "passed",
+    "previousPublishedQuestionObjectsUnchanged": 328,
+    "authoringRegeneration": "25-question seed and nine content artifacts byte-for-byte reproducible",
+    "liveAssetIntegrity": "all offline-manifest assets and SW match tested dist byte-for-byte",
+    "navigation": "all 25 consecutive new chapter 6 units submitted locally and live; original paragraph text reconstructed exactly; bilingual options, vocabulary and final full passage translation verified for every new unit",
+    "history": "previous synthetic attempt unchanged; statistics, reload and history view correct; 328 earlier fingerprints protected",
+    "offline": "browser-simulated offline restores new submitted explanation; local general suite also stops HTTP service and reloads cache"
+  },
+  "limits": [
+    "每段一题不等于每句直接作为证据：69个新增上下文候选句中32个直接用于证据。",
+    "全书仍有700个短段未配题；候选分句不冒充人工最终审校数量。",
+    "390px Edge视口不是实体手机；模拟离线不等于关闭Windows网卡。",
+    "所有作答为隔离环境合成记录，未访问或上传真实个人学习数据。",
+    "区分讣告文本、实际内心生活、文学人物和条件性评分；原书数字不一致如实注明，不擅自修正或假设分母。"
+  ],
+  "nextBatch": {
+    "chapterId": "c06",
+    "readingUnitId": "c06-s02-p058-00750-r001-004",
+    "pdfPage": 58
+  },
+  "sourceNotes": {
+    "record": "source/short-questions/batch014-source-notes.json",
+    "note": "原书印为111份讣告、40人和34.5%，三者不能直接一致换算。保留英文及印刷数值，中文解析和译文标明差异，不猜测正确分母。"
+  }
+}
