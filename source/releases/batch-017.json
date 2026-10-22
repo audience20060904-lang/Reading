@@ -1,0 +1,113 @@
+{
+  "batchId": "batch-017",
+  "date": "2026-10-22",
+  "url": "https://audience20060904-lang.github.io/Reading/",
+  "repositoryVisibility": "public",
+  "sourceCommit": "a9c15f5795942bc7e3fc94ba4080416c583f8b35",
+  "deploymentCommit": "9c7f35528761ff57b92dc7096c3437825740ecd9",
+  "workflowRun": "https://github.com/audience20060904-lang/Reading/actions/runs/39766639129",
+  "workflowConclusion": "success",
+  "offlineVersion": "144deec2d438ec11",
+  "addedQuestionIds": [
+    "q-c06-081",
+    "q-c06-082",
+    "q-c06-083",
+    "q-c06-084",
+    "q-c06-085",
+    "q-c06-086",
+    "q-c06-087",
+    "q-c06-088",
+    "q-c06-089",
+    "q-c06-090",
+    "q-c06-091",
+    "q-c07-001",
+    "q-c07-002",
+    "q-c07-003",
+    "q-c07-004",
+    "q-c07-005",
+    "q-c07-006",
+    "q-c07-007",
+    "q-c07-008",
+    "q-c07-009",
+    "q-c07-010",
+    "q-c07-011",
+    "q-c07-012",
+    "q-c07-013",
+    "q-c07-014"
+  ],
+  "preparedReadingUnits": 25,
+  "newContextCandidateSentences": 86,
+  "newEvidenceCandidateSentences": 34,
+  "targetManifest": "source/short-questions/batch017-targets.json",
+  "sourceReview": {
+    "pdfPages": [
+      65,
+      66,
+      67,
+      68,
+      69
+    ],
+    "pdfSha256": "be25c859f1bd894a4b0d1cff024ded1297f6a96a8e8ddabea1e3abcf89160a50",
+    "recheckedParagraphs": 11,
+    "newlyRecordedParagraphs": 11,
+    "record": "source/short-questions/review-chapter06-07-next25.json",
+    "uniqueVisuallyCheckedParagraphsOverall": 184,
+    "mappedCandidateSentencesInReviewedParagraphs": 1228,
+    "newlyMappedCandidateSentences": 86,
+    "note": "完整 PDF 65–69 原页视觉核对，包含第6章结尾跨页文字与第7章开篇；11个新来源段落共86个新增候选句映射。不把候选分句数当成人工最终句数，不把全部上下文视为直接证据。"
+  },
+  "coverage": {
+    "questions": 428,
+    "readingUnits": 1053,
+    "preparedUnits": 428,
+    "unpreparedUnits": 625,
+    "candidateSentences": 3152,
+    "contextSentences": 1228,
+    "contextOnlySentences": 598,
+    "evidenceSentences": 630,
+    "notDirectlyQuestioned": 2522,
+    "fullCoverage": false
+  },
+  "validation": {
+    "unitTests": 108,
+    "localGeneralBrowserChecks": 25,
+    "localBatchBrowserChecks": 5,
+    "liveBatchBrowserChecks": 5,
+    "walkedReadingUnitsPerRun": 25,
+    "newUnitsVisitedPerRun": 25,
+    "existingInterleavedUnitsPerRun": 0,
+    "syntheticAttemptsPerRun": 26,
+    "productionBuild": "passed",
+    "previousPublishedQuestionObjectsUnchanged": 403,
+    "authoringRegeneration": "25-question seed and nine content artifacts byte-for-byte reproducible",
+    "liveAssetIntegrity": "all offline-manifest assets and SW match tested dist byte-for-byte",
+    "navigation": "all 25 consecutive new units submitted locally and live across chapters 6 and 7; original paragraph ranges reconstructed exactly; bilingual options, vocabulary and final full passage translation verified for every new unit",
+    "history": "previous synthetic attempt unchanged; statistics, reload and history view correct; 403 earlier fingerprints protected",
+    "offline": "browser-simulated offline restores new submitted explanation; local general suite also stops HTTP service and reloads cache",
+    "readingUnitIdsAndRangesUnchanged": 1053,
+    "newAnswerPositionCounts": [
+      7,
+      6,
+      6,
+      6
+    ]
+  },
+  "limits": [
+    "每单元一题不等于逐句证据覆盖：86个新增上下文候选句中34个直接用于证据。",
+    "第1–6章全部短段单元已配题，第7章前14个单元已配题；全书仍有625个短段未配题，2522个候选句尚无直接证据题。",
+    "原页审阅、上下文与直接证据分别统计，候选句数不冒充人工最终分句。",
+    "390px Edge视口不是实体手机；浏览器模拟离线不等于关闭Windows网卡，通用本地套件另行停止HTTP服务后重载。",
+    "所有作答为隔离环境合成记录，未访问或上传真实个人学习数据。",
+    "保留非决定性、perhaps/may/could 与 would have responded 的限定；句子补全任务不等于实际家务行为，样本为240名男性，不将人物特质当临床诊断，不把竞技人物叙事推广成普遍因果。",
+    "奖牌表述依原书叙述时点保留，不冒充最新赛事核验；人物政治信念的描述不作关于实际群体的风险证据。"
+  ],
+  "nextBatch": {
+    "chapterId": "c07",
+    "readingUnitId": "c07-s01-p069-06795-r001-004",
+    "pdfPage": 69,
+    "pdfPages": [
+      69,
+      70
+    ]
+  }
+}
