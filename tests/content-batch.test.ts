@@ -16,7 +16,9 @@ describe('第三批内容和旧记录兼容',()=>{
  it('新题按原书位置插入，旧会话按 ID 恢复，不按数组下标错位',()=>{
   const old=legacy.find(q=>q.id==='q-c02-007')!,state=emptyState(),attempt=grade(old,old.answer,state,2400);
   state.attempts=[attempt];state.session={...newSession(old),attemptId:attempt.id,selected:attempt.selected};
-  expect(neighbor(qs,'q-c02-006',1)?.id).toBe('q-c02-013');
+  const originalQuestions=qs.filter(q=>legacy.some(old=>old.id===q.id));
+  expect(neighbor(originalQuestions,'q-c02-006',1)?.id).toBe('q-c02-013');
+  expect(neighbor(qs,'q-c02-006',1)?.id).toBe('q-c02-044');
   expect(restoreSession(state,qs).session?.questionId).toBe(old.id);
   expect(restoreSession(state,qs).attempts[0].snapshot.fingerprint).toBe(baseline['q-c02-007']);
  });
