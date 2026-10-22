@@ -14,7 +14,7 @@ describe('按原阅读顺序补齐 25 段并跨入第 4 章',()=>{
   expect(Object.keys(baseline)).toHaveLength(203);
   for(const [id,fp] of Object.entries(baseline))expect(qs.find(q=>q.id===id)?.fingerprint,id).toBe(fp);
  });
- it('恰好填补接下来的 50 个缺口且保留原句和双语材料',()=>{
+ it('恰好填补接下来的 25 个缺口且保留原句和双语材料',()=>{
   const originalPending=plan.units.filter(u=>!u.questionId||!(u.questionId in baseline));
   expect(targets).toHaveLength(25);expect(originalPending.slice(0,25).map(u=>u.id)).toEqual(targets.map(t=>t.readingUnitId));
   const added=targets.map(t=>qs.find(q=>q.id===t.questionId)!);expect(added.filter(q=>q.chapterId==='c03')).toHaveLength(7);expect(added.filter(q=>q.chapterId==='c04')).toHaveLength(18);
@@ -29,8 +29,8 @@ describe('按原阅读顺序补齐 25 段并跨入第 4 章',()=>{
    for(const e of q.evidence){const start=p.text.indexOf(q.passage)+q.passage.indexOf(e.quote),end=start+e.quote.length;expect(e.sentenceIds).toEqual(q.sentenceIds.filter(id=>{const s=b.sentences.find(s=>s.id===id)!;return s.start<end&&s.end>start;}));for(const r of e.sources)expect(reviews.checkedPdfPages).toContain(r.pdfPage);}
   }
  });
- it('203 段有题、825 段待办，拒绝虚假全覆盖',()=>{
-  const c=read('public/data/coverage.json'),tasks=read('source/content-tasks.json');expect(qs).toHaveLength(228);expect(plan.coverage.unitsWithoutQuestions).toBe(825);expect(c.fullCoverage).toBe(false);expect(c.contextOnlySentences).toBeGreaterThan(0);expect(c.notDirectlyQuestioned).toBeGreaterThan(0);
+ it('本批发布时 228 段有题、825 段待办，拒绝虚假全覆盖',()=>{
+  const c=read('public/data/coverage.json'),tasks=read('source/content-tasks.json'),historicalIds=new Set([...Object.keys(baseline),...targets.map(t=>t.questionId)]);expect(qs.length).toBeGreaterThanOrEqual(228);expect(historicalIds.size).toBe(228);expect(plan.units.filter(u=>!u.questionId||!historicalIds.has(u.questionId))).toHaveLength(825);expect(c.fullCoverage).toBe(false);expect(c.contextOnlySentences).toBeGreaterThan(0);expect(c.notDirectlyQuestioned).toBeGreaterThan(0);
   expect(plan.units.filter(u=>u.chapterId==='c03').every(u=>u.questionId)).toBe(true);
   expect(tasks.readingPlan.remainingUnitIds).toEqual(plan.units.filter(u=>!u.questionId).map(u=>u.id));expect(tasks.nextBatch.readingUnitId).toBe(tasks.readingPlan.remainingUnitIds[0]);
  });
