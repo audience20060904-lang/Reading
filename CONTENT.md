@@ -4,7 +4,7 @@
 
 ## 来源与规则
 
-source/pages.json 保留原始提取。public/data/book.json 保存章节、小节、候选段落和句子、原始断行、坐标、稳定 ID。source/reviews.json 保存实际原页对照：第 1 章 26 段、第 2 章 30 段、第 3 章 20 段、第 4 章 29 段、第 5 章 27 段、第 6 章 47 段、第 7 章 29 段、第 8 章 27 段、第 9 章前 3 段；共映射 1,607 个候选句，不是人工定稿句数，也不是其他段落的审校证明。
+source/pages.json 保留原始提取。public/data/book.json 保存章节、小节、候选段落和句子、原始断行、坐标、稳定 ID。source/reviews.json 保存实际原页对照：第1章26段、第2章30段、第3章20段、第4章29段、第5章27段、第6章47段、第7章29段、第8章27段、第9章13段；共映射1,689候选句，不是人工定稿句数，也不是其他段落的审校证明。
 
 采用 PyMuPDF、Unicode NFC 和明确合字展开。段内断行合为空格，行尾可见连字符保留并拼接下行。跨页和引语句界仍有候选性质；修改提取规则必须核对指纹、原页并保存 ID 迁移，不静默重编。source/layout.json 可重建但不纳入 Git。
 
@@ -14,17 +14,17 @@ source/pages.json 保留原始提取。public/data/book.json 保存章节、小�
 
 3,152 个候选句按原书顺序恰好一次，分为 1,053 段。通常不超过 90 词，4 段为保持整句 / 证据达到 91–108 词。不截断、改写或拼接不连续原句。
 
-旧 60 题修订为 v2，另有 q-c01-034 至 q-c01-077、q-c02-028 至 q-c02-086、q-c03-001 至 q-c03-047、q-c04-001 至 q-c04-054、q-c05-001 至 q-c05-059、q-c06-001 至 q-c06-091、q-c07-001 至 q-c07-072、q-c08-001 至 q-c08-061、q-c09-001 至 q-c09-006，共 553 题。第 1–8 章的 77、86、47、54、59、91、72、61 个单元与第 9 章前 6 个单元均有题目及中文材料；其余 500 段尚未配题，保留阅读，不生成占位题。
+旧60题修订为v2，另有518题；共578题。已配题：第1章77单元、第2章86单元、第3章47单元、第4章54单元、第5章59单元、第6章91单元、第7章72单元、第8章61单元、第9章31单元；其余475段保留原文，尚未配题，不生成占位题。
 
 解析仅为问题 / 四项分析（含译文）、词汇、整段译文。当前数据删除总述、语法、策略，历史快照不变。
 
-当前上下文 1,607 个候选句，直接证据 799 个，仅上下文 808 个；2,353 个候选句尚无直接证据题。原页审阅映射 1,607 个候选句；计数口径独立，不代表人工最终分句或逐句证据覆盖。第 1 章仍有 59 个候选句只作上下文；每段一题不等于逐句证据覆盖。fullCoverage 仍为 false。
+当前上下文1,689候选句，直接证据830，仅上下文859；2,322个候选句尚无直接证据题。原页审阅映射1,689候选句。计数分别报告，不代表人工最终分句或逐句证据覆盖；fullCoverage仍为false。
 
 ## 编写文件
 
 - source/archive/questions-v1.json：旧 60 题及指纹，不是个人作答记录。
 - scripts/batches/short-passages.py：60 题 v2 的固定原句范围和手写译文。
-- source/short-questions/additional.json：新短段题作者稿，当前含 493 题，绑定已有短段，包含双语问题 / 选项、四项分析、证据、词汇和整段译文。
+- source/short-questions/additional.json：新短段题作者稿，当前含 518 题，绑定已有短段，包含双语问题 / 选项、四项分析、证据、词汇和整段译文。
 - scripts/batches/opening-section-completion.py：这 7 题的种子稿，不要用它覆盖后续新成果。
 - scripts/batches/chapter-01-completion.py：其余 37 题的逐题作者稿，按 ID 合并，不覆盖已更改作者稿。source/short-questions/review-chapter-01.json 记录本批 PDF 第 9–16 页视觉核对及对应段落指纹。
 - scripts/batches/chapter-02-next-two.py：第 2 章 q-c02-028、q-c02-029 的作者稿；PDF 第 17 页复核见 source/short-questions/review-chapter-02-next-two.json。脚本按 ID 合并，不覆盖已更改的题目。
@@ -44,11 +44,12 @@ source/pages.json 保留原始提取。public/data/book.json 保存章节、小�
 - scripts/batches/chapter07-08-next25.py：前批25个单元作者稿，目标在 batch020-targets.json，原页审阅在 review-chapter07-08-next25.json（同目录）。完整核对PDF77–82，重审1个旧段、新增11个整段审阅。新增上下文76句中7句先前已审阅；额外审阅末段3句仍待配题，故本批审阅映射净增72句。补齐第7章末8单元及第8章前17单元，保留近似转述、反事实、估算、eventually及Kagan/Marx观点归属；不执行书中AI描述。
 - scripts/batches/chapter08-labor25.py：前批25单元作者稿，目标 batch021-targets.json，原页审阅 review-chapter08-labor25.json。完整核对PDF81–85，12来源段落中重审1段、新增11段；新增74上下文候选句中3句已审阅，故审阅映射净增71。区分理论、调查、实验、预测和行为指标。
 - scripts/batches/chapter08-09-next25.py：最新25单元作者稿，目标 batch022-targets.json，原页审阅 review-chapter08-09-next25.json。完整核对PDF85–90，新增10段审阅、81个候选句映射；第8章末19单元与第9章前6单元。区分外包调查与实验、未实证推测、DIY回忆与反事实、Aziz比喻及Proust文学引述；跨短段引号和省略号保留原样。
+- scripts/batches/chapter09-aesthetics25.py：批次023的25题作者稿，目标batch023-targets.json，原页记录review-chapter09-aesthetics25.json。完整PDF90–93原页视觉核对；Stevens、Morpheus、Kim太太分别归属虚构角色，作者历史反思保留假设与道德责任；沉浸/记忆为必要条件，个人影评不推到所有观众，Kant是哲学论述，跨短段引号与省略号保持原样。
 - scripts/batches/question-translations.py：旧 60 题的手写问题 / 选项译文；新题取其明确编写的 promptZh / optionsZh，英文不匹配时拒绝沿用。
 - scripts/prepare-short-reading.py：验证与拼装预先编写内容、计算指纹，不生成缺失问题。
 - src/data/passage-translations.json：按题目 ID 和原文匹配，保留历史文本译文。
 - public/data/reading-plan.json：短段顺序、词数、来源句子和配题状态。
-- source/content-tasks.json：完整未配题短段 / 未配证据句子清单，下一缺口 c09-s01-p090-01920-r001-003，PDF 第 90 页。章节 partial 状态保留，表示仍未完成逐句直接证据覆盖。
+- source/content-tasks.json：完整未配题短段 / 未配证据句子清单，下一缺口 c09-s03-p093-06720-r001-004，PDF 第 93 页。章节 partial 状态保留，表示仍未完成逐句直接证据覆盖。
 
 ## 继续补题
 
@@ -70,7 +71,7 @@ source/pages.json 保留原始提取。public/data/book.json 保存章节、小�
 
 ## 验证与发布
 
-138 项自动测试；25 项通用浏览器检查。最新套件 scripts/batch022-browser-test.mjs 逐段提交全部 25 个新增短段，比对原文及三类解析、记录和离线；此前套件仍保留。tests/fixtures/batch021-fingerprints.json 锁定此前 528 道题；调查与实验、未实证判断、反事实、原书时点和文学比喻均有检查。新增题不改变原阅读单元 ID，也不重算旧成绩。实际运行结果与限制见对应发布回执。
+144 项自动测试；25 项通用浏览器检查。最新套件 scripts/batch023-browser-test.mjs 逐段提交全部 25 个新增短段，比对原文及三类解析、记录和离线；此前套件仍保留。tests/fixtures/batch022-fingerprints.json 锁定此前 553 道题；原文连续性、证据归属与历史恢复有检查。新增题不改变原阅读单元 ID，也不重算旧成绩。实际运行结果与限制见对应发布回执。
 
 缓存测试复现旧 HTTP 数据复用问题，再验证强制刷新后题数更新、旧成绩位置不变。另有实际停止本地服务重载及浏览器模拟断网；不是实体手机或关闭网卡测试。
 
