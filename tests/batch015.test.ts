@@ -30,7 +30,7 @@ describe('第 6 章人格与丰富性连续补齐 25 个单元',()=>{
   }
  });
  it('378 段有题、675 段待办，拒绝虚假全覆盖',()=>{
-  const c=read('public/data/coverage.json'),tasks=read('source/content-tasks.json');expect(qs).toHaveLength(378);expect(plan.coverage.unitsWithoutQuestions).toBe(675);expect(c.fullCoverage).toBe(false);expect(c.contextOnlySentences).toBeGreaterThan(0);expect(c.notDirectlyQuestioned).toBeGreaterThan(0);
+  const c=read('public/data/coverage.json'),tasks=read('source/content-tasks.json'),historicalIds=new Set([...Object.keys(baseline),...targets.map(t=>t.questionId)]);expect(qs.length).toBeGreaterThanOrEqual(378);expect(historicalIds.size).toBe(378);expect(plan.units.filter(u=>!u.questionId||!historicalIds.has(u.questionId))).toHaveLength(675);expect(c.fullCoverage).toBe(false);expect(c.contextOnlySentences).toBeGreaterThan(0);expect(c.notDirectlyQuestioned).toBeGreaterThan(0);
   expect(plan.units.filter(u=>u.chapterId==='c05').every(u=>u.questionId)).toBe(true);
   expect(tasks.readingPlan.remainingUnitIds).toEqual(plan.units.filter(u=>!u.questionId).map(u=>u.id));expect(tasks.nextBatch.readingUnitId).toBe(tasks.readingPlan.remainingUnitIds[0]);
  });
@@ -44,5 +44,5 @@ it('保留短语尾段及非决定性相关解释，审阅范围不冒充题目�
  const fragment=qs.find(q=>q.id==='q-c06-032')!,correlation=qs.find(q=>q.id==='q-c06-039')!,reciprocal=qs.find(q=>q.id==='q-c06-042')!;
  expect(fragment.passage).toBe('and so on.');expect(fragment.analyses.join(' ')).toContain('不是一个独立完整句');
  expect(correlation.passage).toContain('.47');expect(correlation.analyses.join(' ')).toContain('不是人数百分比');expect(reciprocal.analyses.join(' ')).toContain('不是本段单独证明');
- const c=read('public/data/coverage.json');expect(c.proofreadSentences).toBeGreaterThan(c.contextSentences);expect(c.contextSentences).toBeGreaterThan(c.evidenceSentences);
+ const c=read('public/data/coverage.json'),historicalIds=new Set([...Object.keys(baseline),...targets.map(t=>t.questionId)]),historicalContext=new Set(qs.filter(q=>historicalIds.has(q.id)).flatMap(q=>q.sentenceIds));expect(c.proofreadSentences).toBeGreaterThan(historicalContext.size);expect(c.contextSentences).toBeGreaterThan(c.evidenceSentences);
 });
