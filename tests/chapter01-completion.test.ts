@@ -36,6 +36,6 @@ describe('第 1 章补齐与已发布内容保护',()=>{
   const tasks=JSON.parse(readFileSync('source/content-tasks.json','utf8'));
   expect(tasks.chapters.find((c:any)=>c.id==='c01').remainingReadingUnitIds).toEqual([]);
   expect(tasks.chapters.find((c:any)=>c.id==='c01').remainingEvidenceIds.length).toBeGreaterThan(0);
-  expect(tasks.nextBatch.chapterId).toBe('c02');expect(plan.coverage.allQuestionsPrepared).toBe(false);
+  expect(tasks.nextBatch.chapterId).toBe(plan.units.find(u=>!u.questionId)?.chapterId);expect(plan.coverage.allQuestionsPrepared).toBe(false);
  });
 });

@@ -27,7 +27,7 @@ describe('按阅读顺序补齐 45 段',()=>{
   }
  });
  it('新增 45 段不伪称逐句证据全覆盖，剩余缺口仍完整可恢复',()=>{
-  const c=read('public/data/coverage.json'),tasks=read('source/content-tasks.json');expect(qs).toHaveLength(153);expect(plan.coverage.unitsWithoutQuestions).toBe(900);expect(c.fullCoverage).toBe(false);expect(c.contextOnlySentences).toBeGreaterThan(0);
+  const c=read('public/data/coverage.json'),tasks=read('source/content-tasks.json');const historicalIds=new Set([...Object.keys(baseline),...targets.map(t=>t.questionId)]);expect(qs.length).toBeGreaterThanOrEqual(153);expect(historicalIds.size).toBe(153);expect(plan.units.filter(u=>!u.questionId||!historicalIds.has(u.questionId))).toHaveLength(900);expect(c.fullCoverage).toBe(false);expect(c.contextOnlySentences).toBeGreaterThan(0);
   expect(tasks.readingPlan.remainingUnitIds).toEqual(plan.units.filter(u=>!u.questionId).map(u=>u.id));expect(tasks.nextBatch.readingUnitId).toBe(tasks.readingPlan.remainingUnitIds[0]);
  });
  it('批量插入后旧位置、旧答案与历史快照按稳定 ID 恢复',()=>{
