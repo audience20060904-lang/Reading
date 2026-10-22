@@ -4,7 +4,7 @@
 
 ## 来源与规则
 
-source/pages.json 保留原始提取。public/data/book.json 保存章节、小节、候选段落和句子、原始断行、坐标、稳定 ID。source/reviews.json 保存实际原页对照：第1章26段、第2章30段、第3章20段、第4章29段、第5章27段、第6章47段、第7章29段、第8章27段、第9章25段；共映射1,763候选句，不是人工定稿句数，也不是其他段落的审校证明。
+source/pages.json 保留原始提取。public/data/book.json 保存章节、小节、候选段落和句子、原始断行、坐标、稳定 ID。source/reviews.json 保存实际原页对照：第1章26段、第2章30段、第3章20段、第4章29段、第5章27段、第6章47段、第7章29段、第8章27段、第9章35段；共映射1,834候选句，不是人工定稿句数，也不是其他段落的审校证明。
 
 采用 PyMuPDF、Unicode NFC 和明确合字展开。段内断行合为空格，行尾可见连字符保留并拼接下行。跨页和引语句界仍有候选性质；修改提取规则必须核对指纹、原页并保存 ID 迁移，不静默重编。source/layout.json 可重建但不纳入 Git。
 
@@ -14,17 +14,17 @@ source/pages.json 保留原始提取。public/data/book.json 保存章节、小�
 
 3,152 个候选句按原书顺序恰好一次，分为 1,053 段。通常不超过 90 词，4 段为保持整句 / 证据达到 91–108 词。不截断、改写或拼接不连续原句。
 
-旧60题修订为v2，另有543题；共603题。已配题：第1章77单元、第2章86单元、第3章47单元、第4章54单元、第5章59单元、第6章91单元、第7章72单元、第8章61单元、第9章56单元；其余450段保留原文，尚未配题，不生成占位题。
+旧60题修订为v2，另有568题；共628题。已配题：第1章77单元、第2章86单元、第3章47单元、第4章54单元、第5章59单元、第6章91单元、第7章72单元、第8章61单元、第9章81单元；其余425段保留原文，尚未配题，不生成占位题。
 
 解析仅为问题 / 四项分析（含译文）、词汇、整段译文。当前数据删除总述、语法、策略，历史快照不变。
 
-当前上下文1,763候选句，直接证据860，仅上下文903；2,292个候选句尚无直接证据题。原页审阅映射1,763候选句。计数分别报告，不代表人工最终分句或逐句证据覆盖；fullCoverage仍为false。
+当前上下文1,834候选句，直接证据892，仅上下文942；2,260个候选句尚无直接证据题。原页审阅映射1,834候选句。计数分别报告，不代表人工最终分句或逐句证据覆盖；fullCoverage仍为false。
 
 ## 编写文件
 
 - source/archive/questions-v1.json：旧 60 题及指纹，不是个人作答记录。
 - scripts/batches/short-passages.py：60 题 v2 的固定原句范围和手写译文。
-- source/short-questions/additional.json：新短段题作者稿，当前含 543 题，绑定已有短段，包含双语问题 / 选项、四项分析、证据、词汇和整段译文。
+- source/short-questions/additional.json：新短段题作者稿，当前含 568 题，绑定已有短段，包含双语问题 / 选项、四项分析、证据、词汇和整段译文。
 - scripts/batches/opening-section-completion.py：这 7 题的种子稿，不要用它覆盖后续新成果。
 - scripts/batches/chapter-01-completion.py：其余 37 题的逐题作者稿，按 ID 合并，不覆盖已更改作者稿。source/short-questions/review-chapter-01.json 记录本批 PDF 第 9–16 页视觉核对及对应段落指纹。
 - scripts/batches/chapter-02-next-two.py：第 2 章 q-c02-028、q-c02-029 的作者稿；PDF 第 17 页复核见 source/short-questions/review-chapter-02-next-two.json。脚本按 ID 合并，不覆盖已更改的题目。
@@ -46,11 +46,12 @@ source/pages.json 保留原始提取。public/data/book.json 保存章节、小�
 - scripts/batches/chapter08-09-next25.py：最新25单元作者稿，目标 batch022-targets.json，原页审阅 review-chapter08-09-next25.json。完整核对PDF85–90，新增10段审阅、81个候选句映射；第8章末19单元与第9章前6单元。区分外包调查与实验、未实证推测、DIY回忆与反事实、Aziz比喻及Proust文学引述；跨短段引号和省略号保留原样。
 - scripts/batches/chapter09-aesthetics25.py：批次023的25题作者稿，目标batch023-targets.json，原页记录review-chapter09-aesthetics25.json。完整PDF90–93原页视觉核对；Stevens、Morpheus、Kim太太分别归属虚构角色，作者历史反思保留假设与道德责任；沉浸/记忆为必要条件，个人影评不推到所有观众，Kant是哲学论述，跨短段引号与省略号保持原样。
 - scripts/batches/chapter09-data25.py：批次024的25题作者稿，目标batch024-targets.json，原页记录review-chapter09-data25.json。完整PDF93–97原页视觉核对；Rollins/Brooks/Heidegger/Rothko观点与个人体验分别归属，maybe不改确定因果；愉悦和趣味评分分开，同一首诗有无背景信息不改成不同文本；5000余人童年阅读调查为回顾自报相关，统计控制不证明因果、不为所有读者贴标签；末段只引出多视角实验，未提前宣称结果。
+- scripts/batches/chapter09-figures-sports25.py：批次025的25题作者稿，目标batch025-targets.json，原页记录review-chapter09-figures-sports25.json。完整PDF98–102原页视觉核对，含图2/3和跨页正文；题目仅依赖文字证据，辅助图仍另列结构化待办。视觉丰富评分不等同幸福，perhaps为未直接测得的过程解释；体育按原书叙述，不独立保证历史细节或推广逆袭必胜；under the right circumstances条件保留，Proust多世界是文学引述和比喻。
 - scripts/batches/question-translations.py：旧 60 题的手写问题 / 选项译文；新题取其明确编写的 promptZh / optionsZh，英文不匹配时拒绝沿用。
 - scripts/prepare-short-reading.py：验证与拼装预先编写内容、计算指纹，不生成缺失问题。
 - src/data/passage-translations.json：按题目 ID 和原文匹配，保留历史文本译文。
 - public/data/reading-plan.json：短段顺序、词数、来源句子和配题状态。
-- source/content-tasks.json：完整未配题短段 / 未配证据句子清单，下一缺口 c09-s04-p098-04042-r001-004，PDF 第 98 页。章节 partial 状态保留，表示仍未完成逐句直接证据覆盖。
+- source/content-tasks.json：完整未配题短段 / 未配证据句子清单，下一缺口 c09-s06-p102-03675-r001-004，PDF 第 102 页。章节 partial 状态保留，表示仍未完成逐句直接证据覆盖。
 
 ## 继续补题
 
@@ -72,7 +73,7 @@ source/pages.json 保留原始提取。public/data/book.json 保存章节、小�
 
 ## 验证与发布
 
-150 项自动测试；25 项通用浏览器检查。最新套件 scripts/batch024-browser-test.mjs 逐段提交全部 25 个新增短段，比对原文及三类解析、记录和离线；此前套件仍保留。tests/fixtures/batch023-fingerprints.json 锁定此前 578 道题；原文连续性、证据归属与历史恢复有检查。新增题不改变原阅读单元 ID，也不重算旧成绩。实际运行结果与限制见对应发布回执。
+156 项自动测试；25 项通用浏览器检查。最新套件 scripts/batch025-browser-test.mjs 逐段提交全部 25 个新增短段，比对原文及三类解析、记录和离线；此前套件仍保留。tests/fixtures/batch024-fingerprints.json 锁定此前 603 道题；原文连续性、证据归属与历史恢复有检查。新增题不改变原阅读单元 ID，也不重算旧成绩。实际运行结果与限制见对应发布回执。
 
 缓存测试复现旧 HTTP 数据复用问题，再验证强制刷新后题数更新、旧成绩位置不变。另有实际停止本地服务重载及浏览器模拟断网；不是实体手机或关闭网卡测试。
 
