@@ -1,0 +1,62 @@
+{
+  "batchId": "batch-007",
+  "date": "2026-10-22",
+  "url": "https://audience20060904-lang.github.io/Reading/",
+  "repositoryVisibility": "public",
+  "sourceCommit": "94bf91ffc3a2543364c1d7b2ff31f2ea045e5c19",
+  "deploymentCommit": "e38d20f02318ad13b9bebfcde1a079590d33b31a",
+  "workflowRun": "https://github.com/audience20060904-lang/Reading/actions/runs/39724523216",
+  "workflowConclusion": "success",
+  "offlineVersion": "553817253832b404",
+  "addedQuestionIds": [
+    "q-c02-030",
+    "q-c02-031"
+  ],
+  "readingUnitIds": [
+    "c02-s01-p017-05558-r003-006",
+    "c02-s01-p017-05558-r007-008"
+  ],
+  "sourceReview": {
+    "pdfPages": [
+      17,
+      18
+    ],
+    "pdfSha256": "be25c859f1bd894a4b0d1cff024ded1297f6a96a8e8ddabea1e3abcf89160a50",
+    "record": "source/short-questions/review-chapter-02-madison.json",
+    "method": "完整第 17、18 页 PNG 视觉复核，包含跨页句尾；不改写原句，不推断姐妹长幼。"
+  },
+  "coverage": {
+    "questions": 108,
+    "readingUnits": 1053,
+    "preparedUnits": 108,
+    "unpreparedUnits": 945,
+    "candidateSentences": 3152,
+    "contextSentences": 264,
+    "contextOnlySentences": 93,
+    "evidenceSentences": 171,
+    "notDirectlyQuestioned": 2981,
+    "fullCoverage": false
+  },
+  "validation": {
+    "unitTests": 54,
+    "localGeneralBrowserChecks": 25,
+    "localNewPassageBrowserChecks": 5,
+    "liveNewPassageBrowserChecks": 5,
+    "productionBuild": "passed",
+    "previousPublishedQuestionObjectsUnchanged": 106,
+    "liveAssetIntegrity": "all offline-manifest files and SW match tested dist byte-for-byte",
+    "interaction": "two consecutive new units submitted with one wrong and one correct choice; bilingual question and four option analyses appear after submission; two vocabulary entries and complete translation per unit; navigation through next unprepared unit and back; prior attempt and statistics preserved on reload",
+    "offline": "browser-simulated offline restores submitted new question; local general suite also stops HTTP service and reloads cached app"
+  },
+  "limits": [
+    "390px 隔离 Edge 视口不是实体手机；浏览器模拟断网不是关闭 Windows 网卡。",
+    "所有浏览器作答均为合成记录；未读取或上传真实个人备份。",
+    "区分线上表象、本人感受和客观判断，不从个案事件臆断单一因果。",
+    "全书仍有 945 段待配题；每段配题不等于每句直接证据覆盖。"
+  ],
+  "nextBatch": {
+    "chapterId": "c02",
+    "readingUnitId": "c02-s01-p018-01140-r001-004",
+    "pdfPage": 18
+  }
+}
