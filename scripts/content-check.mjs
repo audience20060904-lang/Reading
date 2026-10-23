@@ -1,6 +1,15 @@
 import {readFile,writeFile} from 'node:fs/promises';
 import {createHash} from 'node:crypto';
 import assert from 'node:assert/strict';
+async function saveGenerated(path,content){
+ try{if(await readFile(path,'utf8')===content)return;}catch(error){if(error.code!=='ENOENT')throw error;}
+ for(let attempt=0;;attempt++){
+  try{await writeFile(path,content);return;}catch(error){
+   if(attempt>=4||!['UNKNOWN','EACCES','EBUSY','EPERM'].includes(error.code))throw error;
+   await new Promise(resolve=>setTimeout(resolve,100*(attempt+1)));
+  }
+ }
+}
 const book=JSON.parse(await readFile('public/data/book.json','utf8')),qs=JSON.parse(await readFile('public/data/questions.json','utf8'));
 export function canonical(v){if(Array.isArray(v))return '['+v.map(canonical).join(',')+']';if(v&&typeof v==='object')return '{'+Object.keys(v).sort().map(k=>JSON.stringify(k)+':'+canonical(v[k])).join(',')+'}';return JSON.stringify(v);}
 assert.equal(book.sentences[0].text,'Yoshi was born in a small mountain town on the island of Kyushu, Japan, known for its green tea and clementines.');
@@ -19,7 +28,11 @@ assert.equal(readingPlan.coverage.allQuestionsPrepared,readingPlan.units.every(u
 for(const q of qs){const unit=readingPlan.units.find(u=>u.id===q.readingUnitId);assert.equal(unit.questionId,q.id);assert.deepEqual(unit.sentenceIds,q.sentenceIds);}
 const context=new Set(qs.flatMap(q=>q.sentenceIds)),evidence=new Set(qs.flatMap(q=>q.evidence.flatMap(e=>e.sentenceIds)));
 const report={pdfPages:book.pdfPages,chapters:book.chapters.length,sections:book.sections.length,candidateParagraphs:book.paragraphs.length,candidateSentences:book.sentences.length,proofreadSentences:book.sentences.filter(s=>s.review==='visual-proofread').length,contextSentences:context.size,contextOnlySentences:[...context].filter(id=>!evidence.has(id)).length,evidenceSentences:evidence.size,notDirectlyQuestioned:book.sentences.length-evidence.size,questions:qs.length,excludedBlocks:book.excluded.length,fullCoverage:false,byChapter:book.chapters.map(c=>{const ss=book.sentences.filter(s=>s.chapterId===c.id);return {id:c.id,candidates:ss.length,proofread:ss.filter(s=>s.review==='visual-proofread').length,context:ss.filter(s=>context.has(s.id)).length,evidence:ss.filter(s=>evidence.has(s.id)).length,questions:qs.filter(q=>q.chapterId===c.id).length};}),notice:'自动分句仅为候选；审校、上下文和直接证据分别计数。即使每节有题，也不等于逐句覆盖。未配题内容保留原文及待办，不生成占位题。'};
-await writeFile('public/data/coverage.json',JSON.stringify(report,null,2));
+const sourceAudit=JSON.parse(await readFile('source/content-audit-tasks.json','utf8'));
+const pendingAudit=sourceAudit.tasks.filter(t=>!['resolved','completed'].includes(t.status));
+report.sourceAudit={status:sourceAudit.status,knownPendingBodyBlocks:pendingAudit.filter(t=>t.status==='pending-body-inclusion').length,pendingTaskIds:pendingAudit.map(t=>t.id),record:'source/content-audit-tasks.json'};
+if(pendingAudit.length)report.notice+=` 另有 ${report.sourceAudit.knownPendingBodyBlocks} 段已确认的章首正文尚未纳入阅读链路；章首排除与正文辅助材料仍待源文审计。现有短段仅覆盖既有候选池，不能当作全书完整分段。`;
+await saveGenerated('public/data/coverage.json',JSON.stringify(report,null,2));
 const batches=[
  {id:'batch-001',status:'saved',chapter:'c01',questionIds:qs.filter(q=>q.chapterId==='c01'&&Number(q.id.slice(-3))<=33).map(q=>q.id),note:'第 1 章逐题编写；不代表逐句配题完成'},
  {id:'batch-002',status:'saved',chapter:'c02',questionIds:qs.filter(q=>q.chapterId==='c02'&&Number(q.id.slice(-3))<=12).map(q=>q.id),note:'第 2 章最初 12 题；原 v1 指纹保存在归档，当前已修订为 v2'},
@@ -84,7 +97,9 @@ const batches=[
  {"id": "batch-034", "status": "saved", "chapters": ["c12"], "newQuestionIds": ["q-c12-015", "q-c12-016", "q-c12-017", "q-c12-018", "q-c12-019", "q-c12-020", "q-c12-021", "q-c12-022", "q-c12-023", "q-c12-024", "q-c12-025", "q-c12-026", "q-c12-027", "q-c12-028", "q-c12-029", "q-c12-030", "q-c12-031", "q-c12-032", "q-c12-033", "q-c12-034", "q-c12-035", "q-c12-036", "q-c12-037", "q-c12-038", "q-c12-039"], "reviewedPdfPages": [135, 136, 137, 138, 139], "note": "完整PDF135–139原页视觉核对。Wilson/Ross的自我评价与Tim Wilson/Linville干预分开；跑步时间是假设且用时增加不作提高；GPA信息组+0.34/转出5%与控制组-0.05/25%不交换，GRE表现与GPA预期分开，不补随机化或人人效果。科学家材料分挣扎/成就而后相同三节课，25年属爱因斯坦未完成尝试；must have normalized是作者机制推断，不当已直接测量。故事编辑保留坏经历不编造事件；Woolf为I bet修辞而非实验，不建议主动经历灾害。人生故事访谈从目录到场景再未来与主题，引用提示为材料不执行。保留既有切分中的单句短单元及未闭合引号跨单元，不重复句子；E = mc2保持提取原文。整段审阅若含后续未配题句另计，绝不宣称逐句直接证据全覆盖。"}
 ,
  {"id": "batch-035", "status": "saved", "chapters": ["c12"], "newQuestionIds": ["q-c12-040", "q-c12-041", "q-c12-042", "q-c12-043", "q-c12-044", "q-c12-045", "q-c12-046", "q-c12-047", "q-c12-048", "q-c12-049", "q-c12-050", "q-c12-051", "q-c12-052", "q-c12-053", "q-c12-054", "q-c12-055", "q-c12-056", "q-c12-057", "q-c12-058", "q-c12-059", "q-c12-060", "q-c12-061", "q-c12-062", "q-c12-063", "q-c12-064"], "reviewedPdfPages": [139, 140, 141, 142], "note": "完整PDF139–142原页视觉核对。叙事人格关联、自报和tend不作因果；英雄提示研究与作者most likely心理丰富推测分开，不补随机化。感觉寻求者记忆任务为组间比较，反思不足为可能解释，不声称新奇导致损伤；百万富翁为心理积累比喻。馆藏对话保留跨单元引号、时间线索与试探确认，不重复或补句；af Klint创作先后及死后公开愿望依原书，不把无直接先锋联系扩大为无一切影响。复述帮助记忆但不保证准确。Beloved中Sixo为文学人物，She gather等人物用语原样保留，不改作标准语法或实验；电影角色与演员分开。海明威1930存箱、1956重得、后来回忆录，未补出版年；moveable feast为比喻。Pennebaker为书中写作益处概述，can不扩成人人立即治愈。保留旧ID范围与短句单元；候选句、原页审阅、上下文、直接证据分别计数。"}
+,
+ {"id": "batch-036", "status": "saved", "chapters": ["c12", "c13"], "newQuestionIds": ["q-c12-065", "q-c12-066", "q-c13-001", "q-c13-002", "q-c13-003", "q-c13-004", "q-c13-005", "q-c13-006", "q-c13-007", "q-c13-008", "q-c13-009", "q-c13-010", "q-c13-011", "q-c13-012", "q-c13-013", "q-c13-014", "q-c13-015", "q-c13-016", "q-c13-017", "q-c13-018", "q-c13-019", "q-c13-020", "q-c13-021", "q-c13-022", "q-c13-023"], "reviewedPdfPages": [142, 143, 144, 145, 146, 147], "note": "完整PDF142–147原页视觉核对含12章末143与13章首144。文学例证非实验；MIDUS1995/2005为既有数据关联分析，不补随机搬迁。内向者could/tend限定不扩为人人必然；当时尚未明确心理丰富概念，所以未测其效果。读者邮件与自报不作总体诊断/因果，Mary的real trauma为自我比较不认可贬低痛苦；作者not a clinical psychologist和hope/might原样保留。父母决定搬迁、树根为比喻、个案可兼具代价与收益。Tom跨页Once we / actually lived两单元保留来源ID与字符，标注非独立最终句界，不补句不重复。D.J.45次为一生、11校为12年；最后引文未闭合续后段。发现13章首144页block5实为作者导语却被旧规则列为epigraph-or-subtitle，另存正文补入审计待办，现有1053单元不得当全书完整分段。"}
 ];
 const tasks={schemaVersion:1,pdfSha256:book.pdfSha256,extractionVersion:book.extractionVersion,batches,readingPlan:{units:readingPlan.units.length,includedCandidateSentences:flattened.length,duplicateSentenceIds:[],missingSentenceIds:[],remainingUnitIds:readingPlan.units.filter(u=>!u.questionId).map(u=>u.id),legacyArchive:'source/archive/questions-v1.json',currentQuestionVersion:2,completedSections:book.sections.filter(s=>readingPlan.units.filter(u=>u.sectionId===s.id).every(u=>u.questionId)).map(s=>s.id)},chapters:book.chapters.map(c=>({id:c.id,title:c.title,pdfPage:c.pdfPage,status:qs.some(q=>q.chapterId===c.id)?'partial':'not-authored',candidateSentences:book.sentences.filter(s=>s.chapterId===c.id).length,remainingReadingUnitIds:readingPlan.units.filter(u=>u.chapterId===c.id&&!u.questionId).map(u=>u.id),remainingProofreadIds:book.sentences.filter(s=>s.chapterId===c.id&&s.review!=='visual-proofread').map(s=>s.id),remainingEvidenceIds:book.sentences.filter(s=>s.chapterId===c.id&&!evidence.has(s.id)).map(s=>s.id),sections:book.sections.filter(s=>s.chapterId===c.id).map(s=>({id:s.id,title:s.title,status:qs.some(q=>q.sectionId===s.id)?'partial':'not-authored',questionIds:qs.filter(q=>q.sectionId===s.id).map(q=>q.id)}))})),nextBatch:{chapterId:readingPlan.units.find(u=>!u.questionId)?.chapterId,readingUnitId:readingPlan.units.find(u=>!u.questionId)?.id,action:'按全书短段顺序补齐尚无题目和中文材料的片段；原文完整纳入不等于全书题库完成。旧 v1 快照已归档，当前短段题为 v2。'},excluded:book.excluded};
-await writeFile('source/content-tasks.json',JSON.stringify(tasks,null,2));
+await saveGenerated('source/content-tasks.json',JSON.stringify(tasks,null,2));
 console.log(JSON.stringify({...report,byChapter:undefined},null,2));

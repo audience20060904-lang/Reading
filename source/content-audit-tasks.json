@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "pdfSha256": "be25c859f1bd894a4b0d1cff024ded1297f6a96a8e8ddabea1e3abcf89160a50",
+  "date": "2026-10-23",
+  "status": "open",
+  "notice": "Existing 1053 unit coverage is not complete book coverage. Finish numbered-unit batches, then resolve these source-audit tasks before goal completion. Preserve all published source IDs and fingerprints; new genuine body material must be added rather than silently excluded.",
+  "tasks": [
+    {
+      "id": "audit-c13-opening-p144-b005",
+      "status": "pending-body-inclusion",
+      "chapterId": "c13",
+      "source": {
+        "pdfPage": 144,
+        "block": 5
+      },
+      "text": "Before reaching the book’s conclusion, I want to touch on two remaining questions. I hope by now you agree that there is a point to a life of exploration, curiosity, and psychological richness. But, first, you might be wondering if there is such a thing as too much psychological richness? I do, too. Second, most of the facilitators of psychological richness that I have discussed so far are on the side of “go” rather than “stay.” Can we also gain psychological richness by staying, or from familiar objects and people?",
+      "textSha256": "5dd51e30b0102c2a04f686e3f73893b1c638d80d5e4abb21c5ef3c4a388e07be",
+      "legacyKind": "epigraph-or-subtitle",
+      "finding": "Visually verified authorial introduction containing the two questions of chapter13; incorrectly excluded by the pre-first-numbered-section fallback rule.",
+      "requiredActions": [
+        "Add actual body prose with stable additive source and sentence IDs, retaining raw extraction and old question fingerprints.",
+        "Prepare continuous short reading units, authored questions and complete Chinese materials; publish and verify as for other content.",
+        "Reclassify exclusion and correct totals without claiming finalized automatic sentence counts."
+      ]
+    },
+    {
+      "id": "audit-all-chapter-opening-exclusions",
+      "status": "pending-full-audit",
+      "scope": "All epigraph-or-subtitle entries and body-support pending materials across the actual PDF",
+      "finding": "One confirmed misclassification means the generic pre-section exclusion rule requires a full source audit.",
+      "requiredActions": [
+        "Inspect actual PDF pages for every pre-section entry and distinguish epigraph, attribution, subtitle and genuine body prose.",
+        "Include genuine body prose and necessary pending body support; document legitimate non-body exclusions individually.",
+        "Keep all coverage categories separate and reject a complete-book claim while genuine body gaps remain."
+      ]
+    }
+  ]
+}

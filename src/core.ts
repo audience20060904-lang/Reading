@@ -1,4 +1,5 @@
 import type {Attempt,Book,Coverage,Question,StudyState,Session,ReadingPlan} from './types';
+import sourceAudit from '../source/content-audit-tasks.json';
 export const BOOK_ID='life-three-dimensions';
 export const letters=['A','B','C','D'];
 export const emptyState=():StudyState=>({schemaVersion:1,bookId:BOOK_ID,attempts:[],session:null,readSections:[],readSentences:[],favorites:[],theme:'light',fontSize:20,updatedAt:new Date().toISOString()});
@@ -32,9 +33,12 @@ export function readingProgress(state:StudyState,book:Book){const ids=new Set(st
 export function coverage(book:Book,questions:Question[]):Coverage{
  const ctx=new Set(questions.flatMap(q=>q.sentenceIds)),ev=new Set(questions.flatMap(q=>q.evidence.flatMap(e=>e.sentenceIds)));
  const byChapter=book.chapters.map(c=>{const ss=book.sentences.filter(s=>s.chapterId===c.id);return {id:c.id,candidates:ss.length,proofread:ss.filter(s=>s.review==='visual-proofread').length,context:ss.filter(s=>ctx.has(s.id)).length,evidence:ss.filter(s=>ev.has(s.id)).length,questions:questions.filter(q=>q.chapterId===c.id).length};});
- return {pdfPages:book.pdfPages,chapters:book.chapters.length,sections:book.sections.length,candidateParagraphs:book.paragraphs.length,candidateSentences:book.sentences.length,proofreadSentences:book.sentences.filter(s=>s.review==='visual-proofread').length,contextSentences:ctx.size,contextOnlySentences:[...ctx].filter(id=>!ev.has(id)).length,evidenceSentences:ev.size,notDirectlyQuestioned:book.sentences.length-ev.size,questions:questions.length,excludedBlocks:book.excluded.length,fullCoverage:false,byChapter,notice:'自动分句仅为候选；审校、上下文和直接证据分别计数。即使每节有题，也不等于逐句覆盖。未配题内容保留原文及待办，不生成占位题。'};
+ const pendingAudit=sourceAudit.tasks.filter(t=>!['resolved','completed'].includes(t.status));
+ const audit={status:sourceAudit.status,knownPendingBodyBlocks:pendingAudit.filter(t=>t.status==='pending-body-inclusion').length,pendingTaskIds:pendingAudit.map(t=>t.id),record:'source/content-audit-tasks.json'};
+ const notice='自动分句仅为候选；审校、上下文和直接证据分别计数。即使每节有题，也不等于逐句覆盖。未配题内容保留原文及待办，不生成占位题。'+(pendingAudit.length?` 另有 ${audit.knownPendingBodyBlocks} 段已确认的章首正文尚未纳入阅读链路；章首排除与正文辅助材料仍待源文审计。现有短段仅覆盖既有候选池，不能当作全书完整分段。`:'');
+ return {pdfPages:book.pdfPages,chapters:book.chapters.length,sections:book.sections.length,candidateParagraphs:book.paragraphs.length,candidateSentences:book.sentences.length,proofreadSentences:book.sentences.filter(s=>s.review==='visual-proofread').length,contextSentences:ctx.size,contextOnlySentences:[...ctx].filter(id=>!ev.has(id)).length,evidenceSentences:ev.size,notDirectlyQuestioned:book.sentences.length-ev.size,questions:questions.length,excludedBlocks:book.excluded.length,fullCoverage:false,byChapter,notice,sourceAudit:audit};
 }
-export function assertCoverageClaim(report:Coverage,claim:boolean){if(claim && (report.notDirectlyQuestioned>0||report.proofreadSentences<report.candidateSentences))throw new Error('拒绝虚假全覆盖声明');}
+export function assertCoverageClaim(report:Coverage,claim:boolean){if(claim && (report.notDirectlyQuestioned>0||report.proofreadSentences<report.candidateSentences||Boolean(report.sourceAudit?.pendingTaskIds.length)))throw new Error('拒绝虚假全覆盖声明');}
 export function chatMessage(q:Question,book:Book,doubt:string,attempt?:Attempt){
  const chapter=book.chapters.find(c=>c.id===q.chapterId),sec=book.sections.find(s=>s.id===q.sectionId);
  return [`我正在练习 IELTS 阅读。请用中文解释，原文措辞请保留。`,`书名：${book.title}`,`作者：${book.author}`,`Chapter ${chapter?.number}: ${chapter?.title} / ${sec?.title}`,`位置：${q.paragraphId} / PDF ${[...new Set(q.evidence.flatMap(e=>e.sources.map(s=>s.pdfPage)))].join(', ')}`,`题目 ID：${q.id} v${q.version}`,`原文：\n${q.passage}`,`问题：${q.prompt}`,...q.options.map((o,i)=>`${letters[i]}. ${o}`),...(attempt?[`我的答案：${letters[attempt.selected]}`,`正确答案：${letters[attempt.correctAnswer]}`]:[]),`我的疑问：${doubt||'请帮我理解本题的原文和解题思路。'}`].join('\n\n');
