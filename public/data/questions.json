@@ -50483,5 +50483,1951 @@
     "support": "explicit",
     "editorialStatus": "PDF第102–107页原页核对；引述/设问/调查偏好/模拟/历史叙事分开；百分比与跳跃次数保持单位，37%模型不当现实保证；Very few保留省略回答原样，图4辅助材料不冒充已结构化",
     "fingerprint": "e7b1583ea0013bf249816f1e036ee2bcbd56b11656d0af84ee4e6ee73076d1e4"
+  },
+  {
+    "id": "q-c10-023",
+    "version": 1,
+    "readingUnitId": "c10-s03-p106-06135-r008-009",
+    "chapterId": "c10",
+    "sectionId": "c10-s03",
+    "paragraphId": "c10-s03-p106-06135",
+    "sentenceIds": [
+      "c10-s03-p106-06135-s008",
+      "c10-s03-p106-06135-s009"
+    ],
+    "passage": "The CDC data indicates that those who spend less time exploring (those who get married quickly after starting a serious relationship) are indeed more likely to end their marriage in divorce than those who spend more time exploring before marriage. So, on average, the more exploration, the more marital stability.",
+    "prompt": "Which conclusion is supported by the CDC data as described?",
+    "options": [
+      "Longer exploration guarantees that a marriage will last.",
+      "Shorter exploration is associated with a greater likelihood of divorce.",
+      "Divorce causes couples to shorten their premarital exploration.",
+      "Every long exploration ends in marriage."
+    ],
+    "answer": 1,
+    "type": "推断",
+    "promptZh": "按片段描述，CDC 数据支持哪项结论？",
+    "optionsZh": [
+      "探索久保证婚姻持续。",
+      "探索较短与更高离婚可能性相关。",
+      "离婚导致婚前探索缩短。",
+      "每次长期探索都以婚姻告终。"
+    ],
+    "analyses": [
+      "A on average 是平均趋势，不能保证个体结果。",
+      "B more likely 明示两组离婚可能性的比较；观察性数据不能单独证明因果。",
+      "C 颠倒时间和论证方向，原文没有检验反向因果。",
+      "D 数据讨论已婚者的稳定性，没有追踪每次探索是否结婚。"
+    ],
+    "evidence": [
+      {
+        "quote": "more likely to end their marriage in divorce than those who spend more time exploring before marriage.",
+        "sentenceIds": [
+          "c10-s03-p106-06135-s008"
+        ],
+        "sources": [
+          {
+            "pdfPage": 107,
+            "block": 0,
+            "bbox": [
+              76.99,
+              75,
+              535.01,
+              323.52
+            ]
+          }
+        ]
+      }
+    ],
+    "vocabulary": [
+      {
+        "word": "marital stability",
+        "meaning": "婚姻稳定性",
+        "context": "指婚姻维持的平均趋势，不是个人必然结果",
+        "example": "The survey examined marital stability over time.",
+        "collocations": [
+          "marital stability",
+          "greater marital stability"
+        ]
+      }
+    ],
+    "translation": "CDC 数据表明，花较少时间探索的人（开始认真交往后很快结婚的人），确实比婚前花更多时间探索的人更可能以离婚结束婚姻。因此，平均而言，探索越多，婚姻越稳定。",
+    "support": "explicit",
+    "editorialStatus": "完整PDF106–111原页视觉核对及跨页拼接；CDC关联不作因果保证；100/1000候选、14%/3%与前10%目标分开。费城许可证、荷兰个人筛选与MIT友谊提名单位分开，众数/中位数与测量时点不混用；Cupid为比喻；宿舍随机背景按作者概括保留，不冒充完整随机试验方案。功能距离研究与后续曝光机制实验分开。末段完整审阅含未配题词频比较，未声称全书逐句证据覆盖。",
+    "fingerprint": "7df1e69ea58df3190c2a96e0bbec1e6e9ceb111baa06da58f64124b13fa50d5f"
+  },
+  {
+    "id": "q-c10-024",
+    "version": 1,
+    "readingUnitId": "c10-s03-p107-03285-r001-004",
+    "chapterId": "c10",
+    "sectionId": "c10-s03",
+    "paragraphId": "c10-s03-p107-03285",
+    "sentenceIds": [
+      "c10-s03-p107-03285-s001",
+      "c10-s03-p107-03285-s002",
+      "c10-s03-p107-03285-s003",
+      "c10-s03-p107-03285-s004"
+    ],
+    "passage": "The CDC data are consistent with the 37 percent rule. However, Peter Todd and Geoffrey Miller take issue with the 37 percent rule on several grounds. For example, animals can’t really tell the difference between the best possible mate and a top 10 percent mate. Also, for animals, finding the best mate isn’t critical.",
+    "prompt": "Why do Todd and Miller question the 37 percent rule here?",
+    "options": [
+      "CDC data directly contradict all search models.",
+      "Animals can always identify the single best mate.",
+      "Finding a top-tier mate may matter more than identifying the single best one.",
+      "The rule requires animals to choose the worst available mate."
+    ],
+    "answer": 2,
+    "type": "逻辑关系",
+    "promptZh": "Todd 和 Miller 在这里为何质疑 37% 规则？",
+    "optionsZh": [
+      "CDC 数据直接反驳全部搜索模型。",
+      "动物总能辨认唯一最优配偶。",
+      "找到优质对象可能比认出唯一最优者更重要。",
+      "规则要求动物选最差对象。"
+    ],
+    "analyses": [
+      "A consistent with 明说数据与规则相符，不是矛盾。",
+      "B can’t really tell 恰表明难以区分。",
+      "C best possible 与 top 10 percent 的区别，以及 isn’t critical，支持改变最优目标的质疑。",
+      "D 文中没有最差对象这一要求。这里只列质疑理由，尚未给新搜索比例。"
+    ],
+    "evidence": [
+      {
+        "quote": "animals can’t really tell the difference between the best possible mate and a top 10 percent mate.",
+        "sentenceIds": [
+          "c10-s03-p107-03285-s003"
+        ],
+        "sources": [
+          {
+            "pdfPage": 107,
+            "block": 1,
+            "bbox": [
+              76.99,
+              328.5,
+              535.01,
+              655.02
+            ]
+          }
+        ]
+      },
+      {
+        "quote": "for animals, finding the best mate isn’t critical.",
+        "sentenceIds": [
+          "c10-s03-p107-03285-s004"
+        ],
+        "sources": [
+          {
+            "pdfPage": 107,
+            "block": 1,
+            "bbox": [
+              76.99,
+              328.5,
+              535.01,
+              655.02
+            ]
+          }
+        ]
+      }
+    ],
+    "vocabulary": [
+      {
+        "word": "take issue with",
+        "meaning": "对……提出异议",
+        "context": "对规则的适用理由提出质疑，不等于全盘否定数据",
+        "example": "The reviewer took issue with the proposed criterion.",
+        "collocations": [
+          "take issue with a rule",
+          "take issue on several grounds"
+        ]
+      }
+    ],
+    "translation": "CDC 数据与 37% 规则相符。不过，Peter Todd 和 Geoffrey Miller 从几个方面质疑该规则。例如，动物实际上难以区分最好的配偶与位居前 10% 的配偶。而且，对动物来说，找到最好的配偶并非至关重要。",
+    "support": "explicit",
+    "editorialStatus": "完整PDF106–111原页视觉核对及跨页拼接；CDC关联不作因果保证；100/1000候选、14%/3%与前10%目标分开。费城许可证、荷兰个人筛选与MIT友谊提名单位分开，众数/中位数与测量时点不混用；Cupid为比喻；宿舍随机背景按作者概括保留，不冒充完整随机试验方案。功能距离研究与后续曝光机制实验分开。末段完整审阅含未配题词频比较，未声称全书逐句证据覆盖。",
+    "fingerprint": "9f0d8718b43b7179a81f3ecd43cd8d77773966c2439876d29ee637e5ed4fcffc"
+  },
+  {
+    "id": "q-c10-025",
+    "version": 1,
+    "readingUnitId": "c10-s03-p107-03285-r005-007",
+    "chapterId": "c10",
+    "sectionId": "c10-s03",
+    "paragraphId": "c10-s03-p107-03285",
+    "sentenceIds": [
+      "c10-s03-p107-03285-s005",
+      "c10-s03-p107-03285-s006",
+      "c10-s03-p107-03285-s007"
+    ],
+    "passage": "Rather, being able to find one of the best options is (e.g., the top 10 percent). What if we change the criterion from the best option to one of the best options? Now a more cursory search—looking at the first 14 percent instead of the first 37 percent—yields the highest probability of success, when the number of potential mates is set to 100.",
+    "prompt": "Under what condition does examining the first 14 percent yield the highest success probability?",
+    "options": [
+      "There are 100 potential mates and success means finding one of the best options.",
+      "There are 1,000 potential mates and success means finding the single best.",
+      "The goal remains the single best among 100 candidates.",
+      "The first 14 percent must all become partners."
+    ],
+    "answer": 0,
+    "type": "细节",
+    "promptZh": "在什么条件下，先看 14% 的成功概率最高？",
+    "optionsZh": [
+      "100 个候选，成功目标是优质选项之一。",
+      "1,000 个候选，目标是唯一最优者。",
+      "100 个候选，目标仍是唯一最优者。",
+      "前 14% 必须全成为伴侣。"
+    ],
+    "analyses": [
+      "A change...one of the best 与 set to 100 同时限定结果。",
+      "B 候选数和成功标准都换了。",
+      "C 忽略从 best 到 one of the best 的关键变化。",
+      "D looking at 是考察，不是与所有人建立伴侣关系。模型概率不能当现实成功承诺。"
+    ],
+    "evidence": [
+      {
+        "quote": "change the criterion from the best option to one of the best options?",
+        "sentenceIds": [
+          "c10-s03-p107-03285-s006"
+        ],
+        "sources": [
+          {
+            "pdfPage": 107,
+            "block": 1,
+            "bbox": [
+              76.99,
+              328.5,
+              535.01,
+              655.02
+            ]
+          }
+        ]
+      },
+      {
+        "quote": "looking at the first 14 percent instead of the first 37 percent",
+        "sentenceIds": [
+          "c10-s03-p107-03285-s007"
+        ],
+        "sources": [
+          {
+            "pdfPage": 107,
+            "block": 1,
+            "bbox": [
+              76.99,
+              328.5,
+              535.01,
+              655.02
+            ]
+          }
+        ]
+      },
+      {
+        "quote": "when the number of potential mates is set to 100.",
+        "sentenceIds": [
+          "c10-s03-p107-03285-s007"
+        ],
+        "sources": [
+          {
+            "pdfPage": 107,
+            "block": 1,
+            "bbox": [
+              76.99,
+              328.5,
+              535.01,
+              655.02
+            ]
+          }
+        ]
+      }
+    ],
+    "vocabulary": [
+      {
+        "word": "cursory",
+        "meaning": "简略的；较不深入的",
+        "context": "相对于考察 37%，先考察的比例更小",
+        "example": "A cursory search revealed several promising choices.",
+        "collocations": [
+          "a cursory search",
+          "a more cursory search"
+        ]
+      }
+    ],
+    "translation": "相反，重要的是能找到最佳选项中的一个（如前 10%）。如果把标准从唯一最佳改成最佳选项之一，会怎样？当潜在配偶数设为 100 时，更简略的搜索——先看 14% 而不是 37%——带来最高成功概率。",
+    "support": "explicit",
+    "editorialStatus": "完整PDF106–111原页视觉核对及跨页拼接；CDC关联不作因果保证；100/1000候选、14%/3%与前10%目标分开。费城许可证、荷兰个人筛选与MIT友谊提名单位分开，众数/中位数与测量时点不混用；Cupid为比喻；宿舍随机背景按作者概括保留，不冒充完整随机试验方案。功能距离研究与后续曝光机制实验分开。末段完整审阅含未配题词频比较，未声称全书逐句证据覆盖。",
+    "fingerprint": "ecb16e572083ce4b96d8fa5e672b86dbbcecea8d7e834f2179bfdbc5b5e1afdf"
+  },
+  {
+    "id": "q-c10-026",
+    "version": 1,
+    "readingUnitId": "c10-s03-p107-03285-r008-009",
+    "chapterId": "c10",
+    "sectionId": "c10-s03",
+    "paragraphId": "c10-s03-p107-03285",
+    "sentenceIds": [
+      "c10-s03-p107-03285-s008",
+      "c10-s03-p107-03285-s009"
+    ],
+    "passage": "When the number of potential mates is set to 1,000, an even more cursory search of just 3 percent yields the highest probability of finding someone from the top 10 percent. In other words, if there were 100 potential mates, you would only need to look at the first 14 mates carefully and then pick the next mate that is better than the best one from the first 14.",
+    "prompt": "What procedure is described for 100 potential mates?",
+    "options": [
+      "Reject all candidates after examining the first 14.",
+      "Choose the best of the first 14 retrospectively.",
+      "Select exactly the fourteenth candidate regardless of quality.",
+      "Examine the first 14, then choose the next candidate who exceeds their best."
+    ],
+    "answer": 3,
+    "type": "细节",
+    "promptZh": "100 个潜在对象时，片段描述什么步骤？",
+    "optionsZh": [
+      "考察前 14 个后拒绝所有人。",
+      "回头选择前 14 个中最好的。",
+      "不论质量直接选第 14 个。",
+      "考察前 14 个，再选随后超过其中最佳者的对象。"
+    ],
+    "analyses": [
+      "A then pick 明确还要选择。",
+      "B next mate 表示随后遇见者，不是回头挑。",
+      "C 14 是基准样本数，不是固定获选序号。",
+      "D better than the best one from the first 14 明示比较门槛。开头 3% 是 1,000 候选时的搜索比例，不是前 10% 的质量标准。"
+    ],
+    "evidence": [
+      {
+        "quote": "look at the first 14 mates carefully and then pick the next mate that is better than the best one from the first 14.",
+        "sentenceIds": [
+          "c10-s03-p107-03285-s009"
+        ],
+        "sources": [
+          {
+            "pdfPage": 107,
+            "block": 1,
+            "bbox": [
+              76.99,
+              328.5,
+              535.01,
+              655.02
+            ]
+          }
+        ]
+      }
+    ],
+    "vocabulary": [
+      {
+        "word": "potential",
+        "meaning": "潜在的；可能的",
+        "context": "尚未成为实际伴侣的候选对象",
+        "example": "The list included a hundred potential applicants.",
+        "collocations": [
+          "potential mates",
+          "potential candidates"
+        ]
+      }
+    ],
+    "translation": "当潜在配偶数设为 1,000 时，只先搜索 3% 这一更简略的做法，找到前 10% 对象的概率最高。换句话说，若有 100 个潜在对象，你只需仔细考察前 14 个，再选随后遇到的、比前 14 个中最佳者更好的人。",
+    "support": "explicit",
+    "editorialStatus": "完整PDF106–111原页视觉核对及跨页拼接；CDC关联不作因果保证；100/1000候选、14%/3%与前10%目标分开。费城许可证、荷兰个人筛选与MIT友谊提名单位分开，众数/中位数与测量时点不混用；Cupid为比喻；宿舍随机背景按作者概括保留，不冒充完整随机试验方案。功能距离研究与后续曝光机制实验分开。末段完整审阅含未配题词频比较，未声称全书逐句证据覆盖。",
+    "fingerprint": "da31547818f585d67c50463992701b4a0d73036e5a345b1a7d5abf243ad02a7c"
+  },
+  {
+    "id": "q-c10-027",
+    "version": 1,
+    "readingUnitId": "c10-s03-p107-03285-r010-011",
+    "chapterId": "c10",
+    "sectionId": "c10-s03",
+    "paragraphId": "c10-s03-p107-03285",
+    "sentenceIds": [
+      "c10-s03-p107-03285-s010",
+      "c10-s03-p107-03285-s011"
+    ],
+    "passage": "In the case of 1,000 potential mates, you would need to look at 30 mates carefully and pick the next one that is better than the best of the first 30. A lot more reasonable than the 37 percent rule.",
+    "prompt": "Which statement restates the rule for 1,000 potential mates?",
+    "options": [
+      "Choose one of the first 30 without comparing later candidates.",
+      "Use the best of the first 30 as a benchmark for a subsequent choice.",
+      "Wait until all 1,000 have been considered before choosing.",
+      "Treat the first 30 as the only acceptable partners."
+    ],
+    "answer": 1,
+    "type": "同义改写",
+    "promptZh": "哪项准确改述 1,000 个候选时的规则？",
+    "optionsZh": [
+      "不比较后来对象，直接选前 30 个之一。",
+      "以前 30 个中最好者为基准，选择后来的对象。",
+      "看完全部 1,000 个才选择。",
+      "只有前 30 个才可接受。"
+    ],
+    "analyses": [
+      "A next one 表示选择在基准组之后。",
+      "B better than the best of the first 30 保留基准与后续选择关系。",
+      "C 无需看遍全部的步骤。",
+      "D 前 30 个用于考察，不是唯一获选范围。末句是作者认为更合理的评价，不是保证每人幸福。"
+    ],
+    "evidence": [
+      {
+        "quote": "look at 30 mates carefully and pick the next one that is better than the best of the first 30.",
+        "sentenceIds": [
+          "c10-s03-p107-03285-s010"
+        ],
+        "sources": [
+          {
+            "pdfPage": 107,
+            "block": 1,
+            "bbox": [
+              76.99,
+              328.5,
+              535.01,
+              655.02
+            ]
+          }
+        ]
+      }
+    ],
+    "vocabulary": [
+      {
+        "word": "reasonable",
+        "meaning": "合理的；切实的",
+        "context": "评价比 37% 的搜索负担更可行",
+        "example": "The revised target seemed more reasonable.",
+        "collocations": [
+          "more reasonable than",
+          "a reasonable search strategy"
+        ]
+      }
+    ],
+    "translation": "若有 1,000 个潜在对象，你需要仔细考察 30 个，再选接下来比前 30 个中最佳者更好的人。这比 37% 规则合理多了。",
+    "support": "explicit",
+    "editorialStatus": "完整PDF106–111原页视觉核对及跨页拼接；CDC关联不作因果保证；100/1000候选、14%/3%与前10%目标分开。费城许可证、荷兰个人筛选与MIT友谊提名单位分开，众数/中位数与测量时点不混用；Cupid为比喻；宿舍随机背景按作者概括保留，不冒充完整随机试验方案。功能距离研究与后续曝光机制实验分开。末段完整审阅含未配题词频比较，未声称全书逐句证据覆盖。",
+    "fingerprint": "61139ba116d3701e3b9baa4fe8a3f17258656d84725482f5f926f3540d24b1ca"
+  },
+  {
+    "id": "q-c10-028",
+    "version": 1,
+    "readingUnitId": "c10-s03-p107-06600-r001-004",
+    "chapterId": "c10",
+    "sectionId": "c10-s03",
+    "paragraphId": "c10-s03-p107-06600",
+    "sentenceIds": [
+      "c10-s03-p107-06600-s001",
+      "c10-s03-p107-06600-s002",
+      "c10-s03-p107-06600-s003",
+      "c10-s03-p107-06600-s004"
+    ],
+    "passage": "In the end, Todd and Miller argue that the “take a dozen” heuristic, regardless of the problem set, does a pretty good job of finding a top 10 percent option. This means when you next look for a new romantic partner or a new apartment, you had better consider at least a dozen before making a decision. Though it is a lot easier than the 37 percent rule, the “take a dozen” heuristic is still pretty demanding. How do people have twelve serious relationships before marriage?",
+    "prompt": "Why does the author ask about twelve serious relationships?",
+    "options": [
+      "To report that twelve relationships guarantee a successful marriage.",
+      "To show that apartments and partners have identical search costs.",
+      "To question whether a simpler heuristic can still be difficult in practice.",
+      "To claim that Todd and Miller require exactly twelve marriages."
+    ],
+    "answer": 2,
+    "type": "作者意图",
+    "promptZh": "作者为何追问怎样拥有十二段认真交往？",
+    "optionsZh": [
+      "报告十二段关系保证婚姻成功。",
+      "表明找房和择偶成本完全一样。",
+      "质疑较简单的经验规则在现实中仍可能很难。",
+      "称两研究者要求恰好十二次婚姻。"
+    ],
+    "analyses": [
+      "A does a pretty good job 是启发式评价，不是保证。",
+      "B 两种寻找情境作例子，未比较成本相等。",
+      "C Though...easier...still pretty demanding 后的设问突出实践难度。",
+      "D serious relationships 是认真交往，既不是十二次婚姻，也不是精确必须十二。"
+    ],
+    "evidence": [
+      {
+        "quote": "Though it is a lot easier than the 37 percent rule, the “take a dozen” heuristic is still pretty demanding.",
+        "sentenceIds": [
+          "c10-s03-p107-06600-s003"
+        ],
+        "sources": [
+          {
+            "pdfPage": 108,
+            "block": 0,
+            "bbox": [
+              76.99,
+              75,
+              535.01,
+              187.02
+            ]
+          }
+        ]
+      }
+    ],
+    "vocabulary": [
+      {
+        "word": "heuristic",
+        "meaning": "启发式方法；经验规则",
+        "context": "简化搜索的参考方法，不是保证最优的定理",
+        "example": "The team used a simple heuristic to narrow the list.",
+        "collocations": [
+          "a useful heuristic",
+          "the “take a dozen” heuristic"
+        ]
+      }
+    ],
+    "translation": "最终，Todd 和 Miller 认为，无论问题集合如何，“先考察一打”的经验规则在找到前 10% 选项方面表现相当不错。这意味着，下次找新伴侣或新公寓，最好至少考察一打再决定。尽管比 37% 规则容易得多，它仍很苛刻。人们怎么在结婚前拥有十二段认真的交往呢？",
+    "support": "explicit",
+    "editorialStatus": "完整PDF106–111原页视觉核对及跨页拼接；CDC关联不作因果保证；100/1000候选、14%/3%与前10%目标分开。费城许可证、荷兰个人筛选与MIT友谊提名单位分开，众数/中位数与测量时点不混用；Cupid为比喻；宿舍随机背景按作者概括保留，不冒充完整随机试验方案。功能距离研究与后续曝光机制实验分开。末段完整审阅含未配题词频比较，未声称全书逐句证据覆盖。",
+    "fingerprint": "6b7d3ed7b95f06b59d5db2b5d2d2380d7507b472232e989ef16292b71424beb2"
+  },
+  {
+    "id": "q-c10-029",
+    "version": 1,
+    "readingUnitId": "c10-s03-p107-06600-r005-005",
+    "chapterId": "c10",
+    "sectionId": "c10-s03",
+    "paragraphId": "c10-s03-p107-06600",
+    "sentenceIds": [
+      "c10-s03-p107-06600-s005"
+    ],
+    "passage": "Kepler did a rather thorough job of considering eleven candidates over two years—pretty close to Todd and Miller’s “take a dozen” heuristic.",
+    "prompt": "How does Kepler’s search compare with the “take a dozen” heuristic?",
+    "options": [
+      "His eleven candidates were close to the suggested dozen.",
+      "He considered twelve candidates every year.",
+      "He evaluated only two candidates over eleven years.",
+      "His search exactly matched twelve candidates in two months."
+    ],
+    "answer": 0,
+    "type": "细节",
+    "promptZh": "Kepler 的搜索与“考察一打”规则怎样比较？",
+    "optionsZh": [
+      "十一名候选接近建议的一打。",
+      "每年考察十二名。",
+      "十一年仅考察两名。",
+      "两个月恰好考察十二名。"
+    ],
+    "analyses": [
+      "A eleven 与 dozen 接近，pretty close 明示并非精确相同。",
+      "B eleven...over two years 不支持每年十二。",
+      "C 颠倒了人数与时间。",
+      "D 人数与时间均不符。这里按书中历史叙事作比较，不是新实验。"
+    ],
+    "evidence": [
+      {
+        "quote": "considering eleven candidates over two years—pretty close",
+        "sentenceIds": [
+          "c10-s03-p107-06600-s005"
+        ],
+        "sources": [
+          {
+            "pdfPage": 108,
+            "block": 0,
+            "bbox": [
+              76.99,
+              75,
+              535.01,
+              187.02
+            ]
+          }
+        ]
+      }
+    ],
+    "vocabulary": [
+      {
+        "word": "thorough",
+        "meaning": "周密的；细致的",
+        "context": "形容两年考察十一名对象的做法",
+        "example": "She made a thorough comparison before deciding.",
+        "collocations": [
+          "a thorough job",
+          "a thorough search"
+        ]
+      }
+    ],
+    "translation": "Kepler 两年间考察了十一名候选，做得相当周密——已经很接近 Todd 和 Miller 的“考察一打”经验规则。",
+    "support": "explicit",
+    "editorialStatus": "完整PDF106–111原页视觉核对及跨页拼接；CDC关联不作因果保证；100/1000候选、14%/3%与前10%目标分开。费城许可证、荷兰个人筛选与MIT友谊提名单位分开，众数/中位数与测量时点不混用；Cupid为比喻；宿舍随机背景按作者概括保留，不冒充完整随机试验方案。功能距离研究与后续曝光机制实验分开。末段完整审阅含未配题词频比较，未声称全书逐句证据覆盖。",
+    "fingerprint": "5f92b9c519dacf13364625344d715965d7378e8e2d05733d211439c1435253dc"
+  },
+  {
+    "id": "q-c10-030",
+    "version": 1,
+    "readingUnitId": "c10-s04-p108-02430-r001-003",
+    "chapterId": "c10",
+    "sectionId": "c10-s04",
+    "paragraphId": "c10-s04-p108-02430",
+    "sentenceIds": [
+      "c10-s04-p108-02430-s001",
+      "c10-s04-p108-02430-s002",
+      "c10-s04-p108-02430-s003"
+    ],
+    "passage": "If Kepler and the statisticians above have figured out the optimal solution to many of our decisions, why don’t we explore more? Aside from search cost and rejection probability, what else is key? And can it tell us something about the psychologically rich life?",
+    "prompt": "What question organizes this short passage?",
+    "options": [
+      "How to calculate a new exact search percentage.",
+      "Whether all decisions have already been experimentally solved.",
+      "Why rejection never affects real choices.",
+      "What besides cost and possible rejection may explain limited exploration."
+    ],
+    "answer": 3,
+    "type": "主旨",
+    "promptZh": "本短段围绕什么问题？",
+    "optionsZh": [
+      "如何计算新的精确搜索比例。",
+      "是否所有决策都已被实验解决。",
+      "为何拒绝从不影响选择。",
+      "成本和拒绝风险之外，什么解释探索不足。"
+    ],
+    "analyses": [
+      "A 没有新比例计算。",
+      "B If 是设问前提，不是全部问题已解决的结论。",
+      "C Aside from 承认已有这两因素，不是否认。",
+      "D why don’t we explore more 与 what else is key 概括中心，并连向心理丰富人生。"
+    ],
+    "evidence": [
+      {
+        "quote": "Aside from search cost and rejection probability, what else is key?",
+        "sentenceIds": [
+          "c10-s04-p108-02430-s002"
+        ],
+        "sources": [
+          {
+            "pdfPage": 108,
+            "block": 2,
+            "bbox": [
+              76.99,
+              243,
+              535,
+              316.02
+            ]
+          }
+        ]
+      }
+    ],
+    "vocabulary": [
+      {
+        "word": "Aside from",
+        "meaning": "除了……之外",
+        "context": "暂把已讨论的因素放一边，追问其他解释",
+        "example": "Aside from time, access also affects exploration.",
+        "collocations": [
+          "aside from cost",
+          "aside from these factors"
+        ]
+      }
+    ],
+    "translation": "如果 Kepler 和上述统计学家已找出许多决策的最优解，我们为何不多探索？除了搜索成本与被拒概率，还有什么关键因素？它能告诉我们关于心理丰富人生的什么呢？",
+    "support": "explicit",
+    "editorialStatus": "完整PDF106–111原页视觉核对及跨页拼接；CDC关联不作因果保证；100/1000候选、14%/3%与前10%目标分开。费城许可证、荷兰个人筛选与MIT友谊提名单位分开，众数/中位数与测量时点不混用；Cupid为比喻；宿舍随机背景按作者概括保留，不冒充完整随机试验方案。功能距离研究与后续曝光机制实验分开。末段完整审阅含未配题词频比较，未声称全书逐句证据覆盖。",
+    "fingerprint": "b9716312f9a1881f4f8263e01f5322a2be2c56ad958a4f04befcdb21e10adb83"
+  },
+  {
+    "id": "q-c10-031",
+    "version": 1,
+    "readingUnitId": "c10-s04-p108-03210-r001-004",
+    "chapterId": "c10",
+    "sectionId": "c10-s04",
+    "paragraphId": "c10-s04-p108-03210",
+    "sentenceIds": [
+      "c10-s04-p108-03210-s001",
+      "c10-s04-p108-03210-s002",
+      "c10-s04-p108-03210-s003",
+      "c10-s04-p108-03210-s004"
+    ],
+    "passage": "An answer might lie in sociology and social psychology. James Bossard, a sociologist at the University of Pennsylvania, obtained 5,000 marriage licenses submitted in Philadelphia and surrounding counties in 1931, and examined where the pairs had lived at the time of application. In order to learn about the geography of marriage in Philadelphia, Bossard wanted to see how far people lived from each other before they decided to get married. If bachelors and bachelorettes explored their options widely, many would marry someone who lived far away from them.",
+    "prompt": "What did Bossard examine in the marriage licenses?",
+    "options": [
+      "How satisfied each couple was after fifty years.",
+      "Where each partner had lived when applying.",
+      "Whether online dating caused their marriage.",
+      "The number of rejected proposals per applicant."
+    ],
+    "answer": 1,
+    "type": "细节",
+    "promptZh": "Bossard 在结婚许可资料中考察什么？",
+    "optionsZh": [
+      "五十年后婚姻满意度。",
+      "双方提出申请时住在哪里。",
+      "网恋是否导致结婚。",
+      "每位申请者求婚被拒次数。"
+    ],
+    "analyses": [
+      "A 未报告长期满意度追踪。",
+      "B examined where...at the time of application 明示住址与时点。",
+      "C 资料是 1931 年，当前片段也没网恋变量。",
+      "D 未记录求婚拒绝次数。5,000 是许可证数，不是每人的候选人数。"
+    ],
+    "evidence": [
+      {
+        "quote": "obtained 5,000 marriage licenses submitted in Philadelphia and surrounding counties in 1931, and examined where the pairs had lived at the time of application.",
+        "sentenceIds": [
+          "c10-s04-p108-03210-s002"
+        ],
+        "sources": [
+          {
+            "pdfPage": 108,
+            "block": 3,
+            "bbox": [
+              76.99,
+              321,
+              535.01,
+              472.02
+            ]
+          }
+        ]
+      }
+    ],
+    "vocabulary": [
+      {
+        "word": "licenses",
+        "meaning": "许可证；执照",
+        "context": "这里是结婚许可资料，提供配对和住址信息",
+        "example": "The researcher examined historical marriage licenses.",
+        "collocations": [
+          "marriage licenses",
+          "submit a license application"
+        ]
+      }
+    ],
+    "translation": "答案也许在社会学和社会心理学中。宾夕法尼亚大学社会学家 James Bossard 获得 1931 年费城及周边各县提交的 5,000 份结婚许可，考察双方申请时的住址。为了解费城婚姻的地理分布，他想看人们决定结婚前相隔多远。如果单身男女广泛探索，许多人就会与住得很远的人结婚。",
+    "support": "explicit",
+    "editorialStatus": "完整PDF106–111原页视觉核对及跨页拼接；CDC关联不作因果保证；100/1000候选、14%/3%与前10%目标分开。费城许可证、荷兰个人筛选与MIT友谊提名单位分开，众数/中位数与测量时点不混用；Cupid为比喻；宿舍随机背景按作者概括保留，不冒充完整随机试验方案。功能距离研究与后续曝光机制实验分开。末段完整审阅含未配题词频比较，未声称全书逐句证据覆盖。",
+    "fingerprint": "19e1845eca1ed9d09a85b1dd4ff28587add8bb9c84fdd420286dd266062b8522"
+  },
+  {
+    "id": "q-c10-032",
+    "version": 1,
+    "readingUnitId": "c10-s04-p108-04770-r001-004",
+    "chapterId": "c10",
+    "sectionId": "c10-s04",
+    "paragraphId": "c10-s04-p108-04770",
+    "sentenceIds": [
+      "c10-s04-p108-04770-s001",
+      "c10-s04-p108-04770-s002",
+      "c10-s04-p108-04770-s003",
+      "c10-s04-p108-04770-s004"
+    ],
+    "passage": "It turned out that Philadelphians in the 1930s found their partners nearby. Only 890 couples, or 17.8 percent, were made up of a partner living in Philadelphia and the other living outside the city before marriage. The remaining 82.2 percent of the couples had lived separately in Philadelphia before marriage. The most famous findings from this research were that over half of the couples had lived within twenty blocks of each other before marriage, and that 33.58 percent of them had lived within five blocks or less!",
+    "prompt": "Which numerical statement accurately describes the findings?",
+    "options": [
+      "82.2 percent had lived together before marriage.",
+      "17.8 percent had both lived outside Philadelphia.",
+      "Over half had lived within twenty blocks of each other.",
+      "33.58 percent had lived more than twenty blocks apart."
+    ],
+    "answer": 2,
+    "type": "细节",
+    "promptZh": "哪项数字描述符合结果？",
+    "optionsZh": [
+      "82.2% 婚前已同居。",
+      "17.8% 双方均住市外。",
+      "超过一半婚前相距不超过二十个街区。",
+      "33.58% 相距超过二十个街区。"
+    ],
+    "analyses": [
+      "A lived separately 是各自居住，并非同居。",
+      "B 17.8% 是一方市内、一方市外。",
+      "C over half...within twenty blocks 直接支持。",
+      "D 33.58% 对应五个街区或更近，不是二十个以上。各百分比描述的范围不能混用。"
+    ],
+    "evidence": [
+      {
+        "quote": "over half of the couples had lived within twenty blocks of each other before marriage",
+        "sentenceIds": [
+          "c10-s04-p108-04770-s004"
+        ],
+        "sources": [
+          {
+            "pdfPage": 108,
+            "block": 4,
+            "bbox": [
+              76.99,
+              477,
+              535.01,
+              686.52
+            ]
+          }
+        ]
+      }
+    ],
+    "vocabulary": [
+      {
+        "word": "separately",
+        "meaning": "分开地；各自地",
+        "context": "双方都在费城，但婚前各自居住",
+        "example": "The two researchers worked separately before comparing notes.",
+        "collocations": [
+          "live separately",
+          "separately in the same city"
+        ]
+      }
+    ],
+    "translation": "结果表明，1930 年代费城人在附近找到伴侣。只有 890 对，即 17.8%，婚前一方住费城、一方住市外。其余 82.2% 婚前各自住在费城。最著名的结果是，超过一半的夫妻婚前彼此住在二十个街区内，33.58% 相距五个街区或更近！",
+    "support": "explicit",
+    "editorialStatus": "完整PDF106–111原页视觉核对及跨页拼接；CDC关联不作因果保证；100/1000候选、14%/3%与前10%目标分开。费城许可证、荷兰个人筛选与MIT友谊提名单位分开，众数/中位数与测量时点不混用；Cupid为比喻；宿舍随机背景按作者概括保留，不冒充完整随机试验方案。功能距离研究与后续曝光机制实验分开。末段完整审阅含未配题词频比较，未声称全书逐句证据覆盖。",
+    "fingerprint": "f3c2bfe64b2d2380834ac0061f92e4b384db5b8a8dfcbc41af920706b13f832f"
+  },
+  {
+    "id": "q-c10-033",
+    "version": 1,
+    "readingUnitId": "c10-s04-p108-04770-r005-007",
+    "chapterId": "c10",
+    "sectionId": "c10-s04",
+    "paragraphId": "c10-s04-p108-04770",
+    "sentenceIds": [
+      "c10-s04-p108-04770-s005",
+      "c10-s04-p108-04770-s006",
+      "c10-s04-p108-04770-s007"
+    ],
+    "passage": "Although eligible bachelors and bachelorettes in a large city like Philadelphia have literally hundreds of thousands of potential mates, the majority of them appeared to consider only those who lived close to them. How else would the majority of matches have been made within twenty city blocks? Reflecting upon his findings, Bossard commented, “Cupid may have wings, but apparently they are not adapted for long flights.”",
+    "prompt": "What does Bossard’s comment about Cupid’s wings illustrate?",
+    "options": [
+      "Partners often came from a restricted local area despite many possible candidates.",
+      "The study measured the actual flight distance of birds.",
+      "Most couples deliberately compared every candidate in the city.",
+      "The city offered very few potential partners in total."
+    ],
+    "answer": 0,
+    "type": "作者意图",
+    "promptZh": "Bossard 关于丘比特翅膀的评论说明什么？",
+    "optionsZh": [
+      "虽有众多潜在人选，伴侣常来自有限的邻近区域。",
+      "研究测量鸟的实际飞行距离。",
+      "多数夫妇刻意比较过全市每个候选。",
+      "全市潜在伴侣总数极少。"
+    ],
+    "analyses": [
+      "A hundreds of thousands 与 only...close 对照，翅膀比喻概括局部配对。",
+      "B Cupid 是引述中的比喻，不是鸟类实验。",
+      "C appeared to consider only 并非核实每人所有考察行为，更不支持全市比较。",
+      "D 城市候选数恰被说成非常多。"
+    ],
+    "evidence": [
+      {
+        "quote": "the majority of them appeared to consider only those who lived close to them.",
+        "sentenceIds": [
+          "c10-s04-p108-04770-s005"
+        ],
+        "sources": [
+          {
+            "pdfPage": 108,
+            "block": 4,
+            "bbox": [
+              76.99,
+              477,
+              535.01,
+              686.52
+            ]
+          }
+        ]
+      }
+    ],
+    "vocabulary": [
+      {
+        "word": "eligible",
+        "meaning": "符合条件的；适宜的",
+        "context": "eligible bachelors and bachelorettes 指适婚单身男女",
+        "example": "The event welcomed eligible applicants from nearby towns.",
+        "collocations": [
+          "eligible bachelors",
+          "eligible candidates"
+        ]
+      }
+    ],
+    "translation": "虽然费城这样的大城市中，适婚单身男女确有数十万潜在伴侣，多数人似乎只考虑住得近的人。否则，怎么会有多数配对出现在二十个街区内？Bossard 回顾结果时评论：“丘比特也许有翅膀，但显然不适合长途飞行。”",
+    "support": "explicit",
+    "editorialStatus": "完整PDF106–111原页视觉核对及跨页拼接；CDC关联不作因果保证；100/1000候选、14%/3%与前10%目标分开。费城许可证、荷兰个人筛选与MIT友谊提名单位分开，众数/中位数与测量时点不混用；Cupid为比喻；宿舍随机背景按作者概括保留，不冒充完整随机试验方案。功能距离研究与后续曝光机制实验分开。末段完整审阅含未配题词频比较，未声称全书逐句证据覆盖。",
+    "fingerprint": "95114cb42dbffe0c0de9ddaa4ca55ac9674d098f9cc7bdbc23d22810f3e14351"
+  },
+  {
+    "id": "q-c10-034",
+    "version": 1,
+    "readingUnitId": "c10-s04-p109-01140-r001-004",
+    "chapterId": "c10",
+    "sectionId": "c10-s04",
+    "paragraphId": "c10-s04-p109-01140",
+    "sentenceIds": [
+      "c10-s04-p109-01140-s001",
+      "c10-s04-p109-01140-s002",
+      "c10-s04-p109-01140-s003",
+      "c10-s04-p109-01140-s004"
+    ],
+    "passage": "Living nearby could indicate many factors. For one thing, in 1931 Philadelphia was ethnically and racially segregated. Thus, proximity also meant shared cultural, linguistic, and religious backgrounds, which was particularly important then. Proximity also meant that people were more likely to have interactions nearby than they would with people who lived farther away.",
+    "prompt": "Why should proximity in 1931 Philadelphia not be treated as an isolated explanation?",
+    "options": [
+      "Residents had been randomly allocated to all neighborhoods.",
+      "Distance was measured only after marriage.",
+      "Shared backgrounds were explicitly ruled out.",
+      "Nearby residence could also reflect shared backgrounds and more opportunities to interact."
+    ],
+    "answer": 3,
+    "type": "推断",
+    "promptZh": "为何不能把 1931 年费城的近距离当成孤立解释？",
+    "optionsZh": [
+      "居民已被随机分配至所有街区。",
+      "只在结婚后量距离。",
+      "共同背景被明确排除。",
+      "住得近也可能反映共同背景和更多接触机会。"
+    ],
+    "analyses": [
+      "A 原文描述族裔和种族隔离，而非随机分配。",
+      "B 此处解释近邻可能意味着什么，未改测量时点。",
+      "C shared...backgrounds 明确列为可能因素。",
+      "D many factors 后列两类机制，不能由观察直接断定纯距离因果。"
+    ],
+    "evidence": [
+      {
+        "quote": "Living nearby could indicate many factors.",
+        "sentenceIds": [
+          "c10-s04-p109-01140-s001"
+        ],
+        "sources": [
+          {
+            "pdfPage": 109,
+            "block": 1,
+            "bbox": [
+              76.99,
+              114,
+              535,
+              245.52
+            ]
+          }
+        ]
+      },
+      {
+        "quote": "proximity also meant shared cultural, linguistic, and religious backgrounds",
+        "sentenceIds": [
+          "c10-s04-p109-01140-s003"
+        ],
+        "sources": [
+          {
+            "pdfPage": 109,
+            "block": 1,
+            "bbox": [
+              76.99,
+              114,
+              535,
+              245.52
+            ]
+          }
+        ]
+      }
+    ],
+    "vocabulary": [
+      {
+        "word": "segregated",
+        "meaning": "隔离的；分隔居住的",
+        "context": "描述当时按族裔和种族形成的居住格局",
+        "example": "The historical map showed a segregated city.",
+        "collocations": [
+          "ethnically segregated",
+          "racially segregated"
+        ]
+      }
+    ],
+    "translation": "住得近可能意味着许多因素。首先，1931 年费城存在族裔与种族隔离。因此，近距离也意味着共同的文化、语言、宗教背景，这在当时尤其重要。近距离还意味着，人们比起远处的人，更可能与附近的人发生接触。",
+    "support": "explicit",
+    "editorialStatus": "完整PDF106–111原页视觉核对及跨页拼接；CDC关联不作因果保证；100/1000候选、14%/3%与前10%目标分开。费城许可证、荷兰个人筛选与MIT友谊提名单位分开，众数/中位数与测量时点不混用；Cupid为比喻；宿舍随机背景按作者概括保留，不冒充完整随机试验方案。功能距离研究与后续曝光机制实验分开。末段完整审阅含未配题词频比较，未声称全书逐句证据覆盖。",
+    "fingerprint": "5a947023ea6b1a1d2315fa4362f6108d40f8fcf81d8dacfe1308ca47c4bd1796"
+  },
+  {
+    "id": "q-c10-035",
+    "version": 1,
+    "readingUnitId": "c10-s04-p109-01140-r005-005",
+    "chapterId": "c10",
+    "sectionId": "c10-s04",
+    "paragraphId": "c10-s04-p109-01140",
+    "sentenceIds": [
+      "c10-s04-p109-01140-s005"
+    ],
+    "passage": "That is, the chance of acquaintanceship was dramatically higher if they lived close by.",
+    "prompt": "Which statement best restates this sentence?",
+    "options": [
+      "Nearby residents inevitably became close friends.",
+      "People living close together were much more likely to become acquainted.",
+      "Distant residents were more likely to meet by chance.",
+      "Acquaintanceship determined everyone’s exact address."
+    ],
+    "answer": 1,
+    "type": "同义改写",
+    "promptZh": "哪项最准确改述此句？",
+    "optionsZh": [
+      "近邻必定成为密友。",
+      "住得近的人相识的可能性大得多。",
+      "远处居民更可能偶遇。",
+      "相识决定每个人的具体住址。"
+    ],
+    "analyses": [
+      "A chance 是可能性，acquaintanceship 只是相识，不保证密友。",
+      "B dramatically higher 准确对应 much more likely。",
+      "C 把近与远的比较方向颠倒。",
+      "D 条件句谈近距离下相识概率，不是相识决定住址。"
+    ],
+    "evidence": [
+      {
+        "quote": "the chance of acquaintanceship was dramatically higher if they lived close by.",
+        "sentenceIds": [
+          "c10-s04-p109-01140-s005"
+        ],
+        "sources": [
+          {
+            "pdfPage": 109,
+            "block": 1,
+            "bbox": [
+              76.99,
+              114,
+              535,
+              245.52
+            ]
+          }
+        ]
+      }
+    ],
+    "vocabulary": [
+      {
+        "word": "acquaintanceship",
+        "meaning": "相识；认识的关系",
+        "context": "从不认识到彼此认识，不自动等于深厚友谊",
+        "example": "Their acquaintanceship began with a brief conversation.",
+        "collocations": [
+          "the chance of acquaintanceship",
+          "develop an acquaintanceship"
+        ]
+      }
+    ],
+    "translation": "也就是说，如果彼此住得近，相识的可能性就大得多。",
+    "support": "explicit",
+    "editorialStatus": "完整PDF106–111原页视觉核对及跨页拼接；CDC关联不作因果保证；100/1000候选、14%/3%与前10%目标分开。费城许可证、荷兰个人筛选与MIT友谊提名单位分开，众数/中位数与测量时点不混用；Cupid为比喻；宿舍随机背景按作者概括保留，不冒充完整随机试验方案。功能距离研究与后续曝光机制实验分开。末段完整审阅含未配题词频比较，未声称全书逐句证据覆盖。",
+    "fingerprint": "0241001556ae6be0a74b0cfb0b5e37d70443993698c5a4c5368d51e65a623fa1"
+  },
+  {
+    "id": "q-c10-036",
+    "version": 1,
+    "readingUnitId": "c10-s04-p109-02505-r001-004",
+    "chapterId": "c10",
+    "sectionId": "c10-s04",
+    "paragraphId": "c10-s04-p109-02505",
+    "sentenceIds": [
+      "c10-s04-p109-02505-s001",
+      "c10-s04-p109-02505-s002",
+      "c10-s04-p109-02505-s003",
+      "c10-s04-p109-02505-s004"
+    ],
+    "passage": "You might say, well, the Philadelphia study is great, but that was 1931. A lot has changed, including where people live, how they meet, and whom they marry. In 1931, it was nearly impossible to marry someone of a different race. Even among the white population, people from different religions rarely married each other.",
+    "prompt": "Why does the author introduce the objection that the study was conducted in 1931?",
+    "options": [
+      "To invite consideration of whether findings transfer across changing social conditions.",
+      "To announce that the original licenses were fabricated.",
+      "To show that cross-religious marriage was then the norm.",
+      "To establish that where people live has remained unchanged."
+    ],
+    "answer": 0,
+    "type": "作者意图",
+    "promptZh": "作者为何引入“那可是 1931 年”的异议？",
+    "optionsZh": [
+      "引导考虑社会条件改变后结果是否仍适用。",
+      "宣布原许可系伪造。",
+      "说明当时跨宗教婚姻是常态。",
+      "确立居住方式从未变化。"
+    ],
+    "analyses": [
+      "A A lot has changed 后列居住、相识和婚配变化，提出时代适用性问题。",
+      "B 没质疑资料真实性。",
+      "C rarely married 恰表明罕见。",
+      "D changed 明示变化。作者引入可能反驳，不代表此处已判定邻近效应消失。"
+    ],
+    "evidence": [
+      {
+        "quote": "A lot has changed, including where people live, how they meet, and whom they marry.",
+        "sentenceIds": [
+          "c10-s04-p109-02505-s002"
+        ],
+        "sources": [
+          {
+            "pdfPage": 109,
+            "block": 2,
+            "bbox": [
+              76.99,
+              250.5,
+              535.01,
+              382.02
+            ]
+          }
+        ]
+      }
+    ],
+    "vocabulary": [
+      {
+        "word": "rarely",
+        "meaning": "很少；罕有",
+        "context": "修饰当时白人中跨宗教婚配的频率，不能改成绝不发生",
+        "example": "They rarely met outside their neighborhood.",
+        "collocations": [
+          "rarely marry",
+          "rarely encounter"
+        ]
+      }
+    ],
+    "translation": "你也许会说，费城研究不错，但那是 1931 年。许多事情已经改变，包括住在哪里、怎样相识、与谁结婚。1931 年，与不同种族的人结婚几乎不可能。即使白人内部，不同宗教的人也很少通婚。",
+    "support": "explicit",
+    "editorialStatus": "完整PDF106–111原页视觉核对及跨页拼接；CDC关联不作因果保证；100/1000候选、14%/3%与前10%目标分开。费城许可证、荷兰个人筛选与MIT友谊提名单位分开，众数/中位数与测量时点不混用；Cupid为比喻；宿舍随机背景按作者概括保留，不冒充完整随机试验方案。功能距离研究与后续曝光机制实验分开。末段完整审阅含未配题词频比较，未声称全书逐句证据覆盖。",
+    "fingerprint": "8b7c8a4dfa79a4f606413f15f79d37e463b94cecd5723c78f1cb3926b9dd38a6"
+  },
+  {
+    "id": "q-c10-037",
+    "version": 1,
+    "readingUnitId": "c10-s04-p109-02505-r005-006",
+    "chapterId": "c10",
+    "sectionId": "c10-s04",
+    "paragraphId": "c10-s04-p109-02505",
+    "sentenceIds": [
+      "c10-s04-p109-02505-s005",
+      "c10-s04-p109-02505-s006"
+    ],
+    "passage": "Now, with the popularity of online dating platforms, the number of potential mates seems to have exponentially grown. Is the residential proximity effect a thing of the past?",
+    "prompt": "What is the function of the question about the residential proximity effect?",
+    "options": [
+      "It confirms that online dating has eliminated proximity.",
+      "It denies any increase in the apparent pool of partners.",
+      "It asks whether an apparent expansion of choice has made proximity outdated.",
+      "It measures the exact rate of growth in online users."
+    ],
+    "answer": 2,
+    "type": "逻辑关系",
+    "promptZh": "关于居住邻近效应的问句起什么作用？",
+    "optionsZh": [
+      "确认网恋已消除邻近影响。",
+      "否认潜在对象看来有所增加。",
+      "追问选择范围似乎扩大后，邻近影响是否已过时。",
+      "测量网民增长的精确速率。"
+    ],
+    "analyses": [
+      "A 问句不是肯定结论。",
+      "B seems...grown 表示看来增长。",
+      "C Now...online dating 后提出过去效应是否仍在的研究问题。",
+      "D exponentially 在此为作者描述，没有具体增长率或测量。"
+    ],
+    "evidence": [
+      {
+        "quote": "the number of potential mates seems to have exponentially grown. Is the residential proximity effect a thing of the past?",
+        "sentenceIds": [
+          "c10-s04-p109-02505-s005",
+          "c10-s04-p109-02505-s006"
+        ],
+        "sources": [
+          {
+            "pdfPage": 109,
+            "block": 2,
+            "bbox": [
+              76.99,
+              250.5,
+              535.01,
+              382.02
+            ]
+          }
+        ]
+      }
+    ],
+    "vocabulary": [
+      {
+        "word": "a thing of the past",
+        "meaning": "已经过时或不复存在的事物",
+        "context": "问旧有邻近影响是否仍然存在",
+        "example": "The editor asked whether paper-only forms were a thing of the past.",
+        "collocations": [
+          "be a thing of the past",
+          "become a thing of the past"
+        ]
+      }
+    ],
+    "translation": "如今，随着在线约会平台普及，潜在伴侣数量似乎呈指数式增长。居住邻近效应是否已经成为过去？",
+    "support": "explicit",
+    "editorialStatus": "完整PDF106–111原页视觉核对及跨页拼接；CDC关联不作因果保证；100/1000候选、14%/3%与前10%目标分开。费城许可证、荷兰个人筛选与MIT友谊提名单位分开，众数/中位数与测量时点不混用；Cupid为比喻；宿舍随机背景按作者概括保留，不冒充完整随机试验方案。功能距离研究与后续曝光机制实验分开。末段完整审阅含未配题词频比较，未声称全书逐句证据覆盖。",
+    "fingerprint": "e7df94ebb8e27314def2634c7af16ca2b88707cb37cb54b3748fc0431d52d9c7"
+  },
+  {
+    "id": "q-c10-038",
+    "version": 1,
+    "readingUnitId": "c10-s04-p109-03870-r001-003",
+    "chapterId": "c10",
+    "sectionId": "c10-s04",
+    "paragraphId": "c10-s04-p109-03870",
+    "sentenceIds": [
+      "c10-s04-p109-03870-s001",
+      "c10-s04-p109-03870-s002",
+      "c10-s04-p109-03870-s003"
+    ],
+    "passage": "Karen Haandrikman and her colleagues asked this exact question, looking at the vital statistics for the entire population of the Netherlands. Yes, you read that right: the entire population of the Netherlands. More specifically, they selected 289,248 individuals who started cohabitation as domestic partners between January 1, 2004, and December 31, 2004.",
+    "prompt": "Who was specifically selected for the Dutch study?",
+    "options": [
+      "289,248 newly married couples from all European countries.",
+      "Every Dutch citizen regardless of relationship status or year.",
+      "Only people who met through online dating platforms.",
+      "289,248 individuals who began cohabiting as domestic partners during 2004."
+    ],
+    "answer": 3,
+    "type": "细节",
+    "promptZh": "荷兰研究具体选取了谁？",
+    "optionsZh": [
+      "欧洲各国 289,248 对新婚夫妻。",
+      "不论关系和年份的每位荷兰公民。",
+      "只选在线平台认识的人。",
+      "2004 年开始以伴侣身份同居的 289,248 名个人。"
+    ],
+    "analyses": [
+      "A individuals 不是 couples，且范围是荷兰。",
+      "B entire population 描述总体统计资料，More specifically 后有实际筛选条件。",
+      "C 没按认识平台筛选。",
+      "D 人数、身份与全年起止日期准确。不能把个人数当夫妻对数。"
+    ],
+    "evidence": [
+      {
+        "quote": "they selected 289,248 individuals who started cohabitation as domestic partners between January 1, 2004, and December 31, 2004.",
+        "sentenceIds": [
+          "c10-s04-p109-03870-s003"
+        ],
+        "sources": [
+          {
+            "pdfPage": 109,
+            "block": 3,
+            "bbox": [
+              76.99,
+              387,
+              535,
+              479.52
+            ]
+          }
+        ]
+      }
+    ],
+    "vocabulary": [
+      {
+        "word": "cohabitation",
+        "meaning": "同居",
+        "context": "以伴侣身份开始共同居住，不等于办理婚姻",
+        "example": "The study recorded addresses before cohabitation.",
+        "collocations": [
+          "start cohabitation",
+          "prior to cohabitation"
+        ]
+      }
+    ],
+    "translation": "Karen Haandrikman 及同事提出了同一问题，查看荷兰全体人口的人口动态统计。没错，你没看错：荷兰全体人口。更具体说，他们选取 2004 年 1 月 1 日至 12 月 31 日开始以伴侣身份同居的 289,248 名个人。",
+    "support": "explicit",
+    "editorialStatus": "完整PDF106–111原页视觉核对及跨页拼接；CDC关联不作因果保证；100/1000候选、14%/3%与前10%目标分开。费城许可证、荷兰个人筛选与MIT友谊提名单位分开，众数/中位数与测量时点不混用；Cupid为比喻；宿舍随机背景按作者概括保留，不冒充完整随机试验方案。功能距离研究与后续曝光机制实验分开。末段完整审阅含未配题词频比较，未声称全书逐句证据覆盖。",
+    "fingerprint": "32776c5cfe684c728a6e749089bc8c017b64ab6683d4694a7ba8bc1c7a36ca88"
+  },
+  {
+    "id": "q-c10-039",
+    "version": 1,
+    "readingUnitId": "c10-s04-p109-04845-r001-003",
+    "chapterId": "c10",
+    "sectionId": "c10-s04",
+    "paragraphId": "c10-s04-p109-04845",
+    "sentenceIds": [
+      "c10-s04-p109-04845-s001",
+      "c10-s04-p109-04845-s002",
+      "c10-s04-p109-04845-s003"
+    ],
+    "passage": "First, the researchers looked at where each individual had lived prior to cohabitation. Because there was a chance that those who submitted the cohabitation application as partners during 2004 had already been living together, the researchers also looked at the residential distance between each partner roughly five years prior to cohabitation. Both sets of data showed that the most common residential distance between partners prior to cohabitation was just one kilometer, or .62 miles.",
+    "prompt": "Why did researchers also examine addresses roughly five years earlier?",
+    "options": [
+      "Some applicants might already have been living together when submitting their application.",
+      "Earlier addresses were guaranteed to reveal each person’s birthplace.",
+      "The application records contained no residential information.",
+      "All partners had separated exactly five years before applying."
+    ],
+    "answer": 0,
+    "type": "逻辑关系",
+    "promptZh": "为何还考察约五年前的住址？",
+    "optionsZh": [
+      "部分申请者提出申请时可能已经同居。",
+      "早期住址保证等于出生地。",
+      "申请记录完全没有住址信息。",
+      "所有伴侣都在申请前恰好五年分开。"
+    ],
+    "analyses": [
+      "A Because...chance...already been living together 给出补充测量的理由。",
+      "B 五年前地址不等于出生地。",
+      "C First...looked at where...lived 表明有住址资料。",
+      "D 没有分手时间信息，roughly 也非精确五年。两套数据的最常见距离是众数，不能称所有人都隔一公里。"
+    ],
+    "evidence": [
+      {
+        "quote": "there was a chance that those who submitted the cohabitation application as partners during 2004 had already been living together",
+        "sentenceIds": [
+          "c10-s04-p109-04845-s002"
+        ],
+        "sources": [
+          {
+            "pdfPage": 109,
+            "block": 4,
+            "bbox": [
+              76.99,
+              484.5,
+              535.01,
+              713.52
+            ]
+          }
+        ]
+      }
+    ],
+    "vocabulary": [
+      {
+        "word": "prior to",
+        "meaning": "在……之前",
+        "context": "标记测量相对于开始同居的时间",
+        "example": "They compared the records prior to publication.",
+        "collocations": [
+          "prior to cohabitation",
+          "five years prior to"
+        ]
+      }
+    ],
+    "translation": "首先，研究者查看每个人开始同居前住在哪里。因为 2004 年以伴侣身份提交同居申请的人可能已经住在一起，研究者也查看双方在开始同居大约五年前的居住距离。两套数据都表明，同居前双方最常见的居住距离只有一公里，即 0.62 英里。",
+    "support": "explicit",
+    "editorialStatus": "完整PDF106–111原页视觉核对及跨页拼接；CDC关联不作因果保证；100/1000候选、14%/3%与前10%目标分开。费城许可证、荷兰个人筛选与MIT友谊提名单位分开，众数/中位数与测量时点不混用；Cupid为比喻；宿舍随机背景按作者概括保留，不冒充完整随机试验方案。功能距离研究与后续曝光机制实验分开。末段完整审阅含未配题词频比较，未声称全书逐句证据覆盖。",
+    "fingerprint": "810ecf3e1dec1e838c55b1c5ea339a975059e3db8315895aeba7d57380166585"
+  },
+  {
+    "id": "q-c10-040",
+    "version": 1,
+    "readingUnitId": "c10-s04-p109-04845-r004-006",
+    "chapterId": "c10",
+    "sectionId": "c10-s04",
+    "paragraphId": "c10-s04-p109-04845",
+    "sentenceIds": [
+      "c10-s04-p109-04845-s004",
+      "c10-s04-p109-04845-s005",
+      "c10-s04-p109-04845-s006"
+    ],
+    "passage": "Roughly 13 percent of newly cohabiting couples had lived roughly one kilometer away from each other right before they started cohabitating; roughly 10.5 percent of them had lived roughly one kilometer away five years before they started cohabitating. The median distance was 6.2 kilometers (3.85 miles) right before cohabitation, 7.8 kilometers (4.85 miles) five years before, and 22.9 kilometers (14.23 miles) at birth. That is, half of Dutch people who started cohabitating in 2004 chose a partner who had been born less than fifteen miles away from their own birthplace.",
+    "prompt": "Which statement correctly interprets the reported distances?",
+    "options": [
+      "One kilometer was the median distance at birth.",
+      "The median distance at birth was 22.9 kilometers.",
+      "Thirteen percent had lived one kilometer apart five years earlier.",
+      "Every couple had lived less than fifteen miles apart before cohabitation."
+    ],
+    "answer": 1,
+    "type": "细节",
+    "promptZh": "哪项正确理解所报距离？",
+    "optionsZh": [
+      "出生地距离中位数是一公里。",
+      "出生地之间距离中位数为 22.9 公里。",
+      "五年前相距一公里者占 13%。",
+      "每对伴侣同居前都相距不到十五英里。"
+    ],
+    "analyses": [
+      "A 一公里是前文最常见距离，此处出生地中位数为 22.9 公里。",
+      "B 22.9...at birth 精确对应。",
+      "C 13% 是即将同居前，五年前约 10.5%。",
+      "D half 与出生地关系不能变成所有人同居前住址。中位数 6.2/7.8/22.9 需分别对应三个时点。"
+    ],
+    "evidence": [
+      {
+        "quote": "The median distance was 6.2 kilometers (3.85 miles) right before cohabitation, 7.8 kilometers (4.85 miles) five years before, and 22.9 kilometers (14.23 miles) at birth.",
+        "sentenceIds": [
+          "c10-s04-p109-04845-s005"
+        ],
+        "sources": [
+          {
+            "pdfPage": 109,
+            "block": 4,
+            "bbox": [
+              76.99,
+              484.5,
+              535.01,
+              713.52
+            ]
+          },
+          {
+            "pdfPage": 110,
+            "block": 0,
+            "bbox": [
+              76.99,
+              75,
+              535.01,
+              206.52
+            ]
+          }
+        ]
+      }
+    ],
+    "vocabulary": [
+      {
+        "word": "median",
+        "meaning": "中位数的",
+        "context": "按大小排序处于中间位置的距离，不是平均数或最常见值",
+        "example": "The median distance was lower than the mean.",
+        "collocations": [
+          "median distance",
+          "median value"
+        ]
+      }
+    ],
+    "translation": "新同居伴侣中，约 13% 在开始同居前相距约一公里；约 10.5% 在开始同居五年前相距约一公里。同居前即刻的距离中位数为 6.2 公里（3.85 英里），五年前为 7.8 公里（4.85 英里），出生时为 22.9 公里（14.23 英里）。也就是说，2004 年开始同居的荷兰人中，一半选择的伴侣，其出生地离自己的出生地不到十五英里。",
+    "support": "explicit",
+    "editorialStatus": "完整PDF106–111原页视觉核对及跨页拼接；CDC关联不作因果保证；100/1000候选、14%/3%与前10%目标分开。费城许可证、荷兰个人筛选与MIT友谊提名单位分开，众数/中位数与测量时点不混用；Cupid为比喻；宿舍随机背景按作者概括保留，不冒充完整随机试验方案。功能距离研究与后续曝光机制实验分开。末段完整审阅含未配题词频比较，未声称全书逐句证据覆盖。",
+    "fingerprint": "c930b48913468c6fe36df5154c075f81b5ea1dda59534186400a5db94204ee1c"
+  },
+  {
+    "id": "q-c10-041",
+    "version": 1,
+    "readingUnitId": "c10-s04-p109-04845-r007-010",
+    "chapterId": "c10",
+    "sectionId": "c10-s04",
+    "paragraphId": "c10-s04-p109-04845",
+    "sentenceIds": [
+      "c10-s04-p109-04845-s007",
+      "c10-s04-p109-04845-s008",
+      "c10-s04-p109-04845-s009",
+      "c10-s04-p109-04845-s010"
+    ],
+    "passage": "These statistics suggest an astonishingly small world, even for a quite cosmopolitan European country. Online dating became popular in the early 2000s. Yet Cupid in the Netherlands in 2004 was no different from Cupid in Philadelphia in 1931—not adapted for long flights. What does this tell us?",
+    "prompt": "What does the comparison with Cupid in Philadelphia suggest?",
+    "options": [
+      "Every Dutch partner in 2004 had met online.",
+      "The Internet had proved incapable of forming any relationship.",
+      "Geographical closeness still characterized partnerships in the Dutch data.",
+      "The two studies measured exactly the same distance percentages."
+    ],
+    "answer": 2,
+    "type": "推断",
+    "promptZh": "与费城丘比特的比较提示什么？",
+    "optionsZh": [
+      "2004 年所有荷兰伴侣都在网上认识。",
+      "互联网被证明不能形成任何关系。",
+      "荷兰数据中的伴侣配对仍有地理邻近特征。",
+      "两研究测得完全相同的距离百分比。"
+    ],
+    "analyses": [
+      "A online dating became popular 是时代背景，不是每人的相识渠道。",
+      "B 未实验检验互联网能否形成关系。",
+      "C Yet...no different...not adapted for long flights 比喻邻近现象仍在。",
+      "D 比较的是共同趋势，不是统计量完全相等。这些数据不能单独识别网恋的因果效果。"
+    ],
+    "evidence": [
+      {
+        "quote": "Yet Cupid in the Netherlands in 2004 was no different from Cupid in Philadelphia in 1931—not adapted for long flights.",
+        "sentenceIds": [
+          "c10-s04-p109-04845-s009"
+        ],
+        "sources": [
+          {
+            "pdfPage": 110,
+            "block": 0,
+            "bbox": [
+              76.99,
+              75,
+              535.01,
+              206.52
+            ]
+          }
+        ]
+      }
+    ],
+    "vocabulary": [
+      {
+        "word": "cosmopolitan",
+        "meaning": "国际化的；文化多元的",
+        "context": "强调即便在这样的国家，配对地理范围仍出人意料地小",
+        "example": "The city is known for its cosmopolitan population.",
+        "collocations": [
+          "a cosmopolitan country",
+          "a cosmopolitan city"
+        ]
+      }
+    ],
+    "translation": "这些统计提示，即使对一个相当国际化的欧洲国家，世界也小得惊人。在线约会在 2000 年代初流行起来。然而，2004 年荷兰的丘比特与 1931 年费城的并无不同——不适合长途飞行。这告诉我们什么？",
+    "support": "explicit",
+    "editorialStatus": "完整PDF106–111原页视觉核对及跨页拼接；CDC关联不作因果保证；100/1000候选、14%/3%与前10%目标分开。费城许可证、荷兰个人筛选与MIT友谊提名单位分开，众数/中位数与测量时点不混用；Cupid为比喻；宿舍随机背景按作者概括保留，不冒充完整随机试验方案。功能距离研究与后续曝光机制实验分开。末段完整审阅含未配题词频比较，未声称全书逐句证据覆盖。",
+    "fingerprint": "b9f8ad15cd6a92769cf8085b5e51be8e61b39385ddfc9c83edeba7329eecd080"
+  },
+  {
+    "id": "q-c10-042",
+    "version": 1,
+    "readingUnitId": "c10-s05-p110-02625-r001-002",
+    "chapterId": "c10",
+    "sectionId": "c10-s05",
+    "paragraphId": "c10-s05-p110-02625",
+    "sentenceIds": [
+      "c10-s05-p110-02625-s001",
+      "c10-s05-p110-02625-s002"
+    ],
+    "passage": "In the late 1940s, social psychologists Leon Festinger, Stan Schachter, and Kurt Back were also interested in distance and relationships when they set out to examine friendship formation in two MIT residential complexes: Westgate and Westgate West. Unlike the city of Philadelphia, there were no ethnic enclaves—no Chinatown where Chinese immigrants would gravitate, for example—so the selection effect (i.e., a resident choosing to live in a particular area) was kept to a minimum.",
+    "prompt": "Why was the selection effect minimized in the MIT setting?",
+    "options": [
+      "Unlike Philadelphia, the complexes lacked ethnic enclaves that attracted particular groups.",
+      "Researchers required all residents to choose the same three friends.",
+      "The study excluded every resident born outside the city.",
+      "Every resident was allowed to select a neighborhood by religion."
+    ],
+    "answer": 0,
+    "type": "逻辑关系",
+    "promptZh": "MIT 场景为何使选择效应减小？",
+    "optionsZh": [
+      "不同于费城，公寓群没有吸引特定群体的族裔聚居区。",
+      "研究者要求大家选同样三个朋友。",
+      "排除了所有外地出生居民。",
+      "每人可按宗教自选社区。"
+    ],
+    "analyses": [
+      "A no ethnic enclaves 后 so 给出减小居住自选效应的原因。",
+      "B 选择朋友的提问不等于指定朋友。",
+      "C 没有这类排除标准。",
+      "D 按背景自选正是要尽量减小的效应。minimum 是尽量少，不等于所有混杂因素均被完全消除。"
+    ],
+    "evidence": [
+      {
+        "quote": "there were no ethnic enclaves",
+        "sentenceIds": [
+          "c10-s05-p110-02625-s002"
+        ],
+        "sources": [
+          {
+            "pdfPage": 110,
+            "block": 2,
+            "bbox": [
+              76.99,
+              262.5,
+              535.01,
+              394.02
+            ]
+          }
+        ]
+      },
+      {
+        "quote": "the selection effect (i.e., a resident choosing to live in a particular area) was kept to a minimum.",
+        "sentenceIds": [
+          "c10-s05-p110-02625-s002"
+        ],
+        "sources": [
+          {
+            "pdfPage": 110,
+            "block": 2,
+            "bbox": [
+              76.99,
+              262.5,
+              535.01,
+              394.02
+            ]
+          }
+        ]
+      }
+    ],
+    "vocabulary": [
+      {
+        "word": "enclaves",
+        "meaning": "聚居区；飞地",
+        "context": "ethnic enclaves 指特定族裔集中居住的区域",
+        "example": "The historian studied ethnic enclaves in the port city.",
+        "collocations": [
+          "ethnic enclaves",
+          "live in an enclave"
+        ]
+      }
+    ],
+    "translation": "1940 年代末，社会心理学家 Leon Festinger、Stan Schachter 和 Kurt Back 考察 MIT 的 Westgate 与 Westgate West 两处住宅群中的友谊形成，也关注距离与关系。不同于费城，这里没有族裔聚居区，例如吸引中国移民聚居的唐人街，因此选择效应（居民选择住在某个特定区域）被尽量减小。",
+    "support": "explicit",
+    "editorialStatus": "完整PDF106–111原页视觉核对及跨页拼接；CDC关联不作因果保证；100/1000候选、14%/3%与前10%目标分开。费城许可证、荷兰个人筛选与MIT友谊提名单位分开，众数/中位数与测量时点不混用；Cupid为比喻；宿舍随机背景按作者概括保留，不冒充完整随机试验方案。功能距离研究与后续曝光机制实验分开。末段完整审阅含未配题词频比较，未声称全书逐句证据覆盖。",
+    "fingerprint": "c61b507a1b115c78d1e53f9317918515e5eeefde0c8fb5db76eab832f2df06e7"
+  },
+  {
+    "id": "q-c10-043",
+    "version": 1,
+    "readingUnitId": "c10-s05-p110-03990-r001-004",
+    "chapterId": "c10",
+    "sectionId": "c10-s05",
+    "paragraphId": "c10-s05-p110-03990",
+    "sentenceIds": [
+      "c10-s05-p110-03990-s001",
+      "c10-s05-p110-03990-s002",
+      "c10-s05-p110-03990-s003",
+      "c10-s05-p110-03990-s004"
+    ],
+    "passage": "Festinger and colleagues knew exactly where all the participants in this study lived, and asked one simple question: “What three people in Westgate or Westgate West do you see most of socially?” In the microcosm of a college dorm, their research replicated the Philadelphia and Dutch findings: 112 out of the possible 187 friendship nominations, or 60 percent, lived next door or in the unit connected directly through staircases. Only seven nominations were made of someone living four units away or more. So, physical distance clearly matters.",
+    "prompt": "What does the figure of 112 out of 187 refer to?",
+    "options": [
+      "Participants who had exactly three next-door friends.",
+      "Residents who lived four or more units away from everyone.",
+      "Couples who had applied for marriage licenses.",
+      "Friendship nominations involving someone next door or directly linked by stairs."
+    ],
+    "answer": 3,
+    "type": "细节",
+    "promptZh": "112/187 这个数字指什么？",
+    "optionsZh": [
+      "恰有三个隔壁朋友的参与者。",
+      "与所有人都相隔四个单元以上的居民。",
+      "申请结婚许可的夫妇。",
+      "被提名朋友住隔壁或在楼梯直接连通单元的提名。"
+    ],
+    "analyses": [
+      "A 分母为 friendship nominations，不是满足某条件的人数。",
+      "B 四单元或以上只有七次提名。",
+      "C 当前是友谊研究，非结婚许可。",
+      "D 112...187...60 percent 对应紧邻或楼梯直连。提名次数不能自动当独立居民数。"
+    ],
+    "evidence": [
+      {
+        "quote": "112 out of the possible 187 friendship nominations, or 60 percent, lived next door or in the unit connected directly through staircases.",
+        "sentenceIds": [
+          "c10-s05-p110-03990-s002"
+        ],
+        "sources": [
+          {
+            "pdfPage": 110,
+            "block": 3,
+            "bbox": [
+              76.99,
+              399,
+              535.01,
+              686.52
+            ]
+          }
+        ]
+      }
+    ],
+    "vocabulary": [
+      {
+        "word": "nominations",
+        "meaning": "提名；被指名的对象记录",
+        "context": "受访者说出常社交的朋友产生的记录，不是随机分配",
+        "example": "The survey collected friendship nominations from residents.",
+        "collocations": [
+          "friendship nominations",
+          "make a nomination"
+        ]
+      }
+    ],
+    "translation": "Festinger 及同事确切知道参与者住在哪里，并问一个简单问题：“你在 Westgate 或 Westgate West 社交见得最多的三个人是谁？”在大学宿舍这个小世界里，结果重现了费城与荷兰的发现：187 个可能的友谊提名中，112 个，即 60%，住在隔壁或楼梯直接连通的单元。只有七次提名指向相隔四个单元或更远的人。所以，物理距离显然重要。",
+    "support": "explicit",
+    "editorialStatus": "完整PDF106–111原页视觉核对及跨页拼接；CDC关联不作因果保证；100/1000候选、14%/3%与前10%目标分开。费城许可证、荷兰个人筛选与MIT友谊提名单位分开，众数/中位数与测量时点不混用；Cupid为比喻；宿舍随机背景按作者概括保留，不冒充完整随机试验方案。功能距离研究与后续曝光机制实验分开。末段完整审阅含未配题词频比较，未声称全书逐句证据覆盖。",
+    "fingerprint": "764c51a47dcb0c3fa01d330335cf1b8c1c519d4486378e22409d70d980c68d1a"
+  },
+  {
+    "id": "q-c10-044",
+    "version": 1,
+    "readingUnitId": "c10-s05-p110-03990-r005-007",
+    "chapterId": "c10",
+    "sectionId": "c10-s05",
+    "paragraphId": "c10-s05-p110-03990",
+    "sentenceIds": [
+      "c10-s05-p110-03990-s005",
+      "c10-s05-p110-03990-s006",
+      "c10-s05-p110-03990-s007"
+    ],
+    "passage": "The other interesting finding from the study was that functional distance also matters. Those who lived close to the staircases were far more likely to become friends with someone living on a different floor than those who lived farther away from the staircases. What this suggests is that physical and functional distance dictate the probability of a chance meeting, and that the more frequently one meets someone informally, the more likely it is that a friendship emerges.",
+    "prompt": "What does functional distance help explain here?",
+    "options": [
+      "Why floor numbers alone perfectly predict every friendship.",
+      "Why everyone near stairs becomes friends immediately.",
+      "Why convenient routes can increase informal encounters and friendship opportunities.",
+      "Why physical distance ceases to matter near staircases."
+    ],
+    "answer": 2,
+    "type": "同义改写",
+    "promptZh": "这里的功能距离帮助解释什么？",
+    "optionsZh": [
+      "仅靠楼层号码便能完美预测每段友谊。",
+      "为何楼梯旁的人马上全成朋友。",
+      "方便的动线为何增加非正式相遇与交友机会。",
+      "为何楼梯附近物理距离就无关紧要。"
+    ],
+    "analyses": [
+      "A 文中比较相遇机会，没有确定性预测。",
+      "B more likely 是概率而非必然，且没有立即的时限。",
+      "C 楼梯位置影响跨楼层接触，反复偶遇提高形成友谊可能性。",
+      "D physical and functional 表明两者都相关。这里是研究结果和机制解释，不是此片段中的随机曝光实验。"
+    ],
+    "evidence": [
+      {
+        "quote": "Those who lived close to the staircases were far more likely to become friends with someone living on a different floor",
+        "sentenceIds": [
+          "c10-s05-p110-03990-s006"
+        ],
+        "sources": [
+          {
+            "pdfPage": 110,
+            "block": 3,
+            "bbox": [
+              76.99,
+              399,
+              535.01,
+              686.52
+            ]
+          }
+        ]
+      },
+      {
+        "quote": "the more frequently one meets someone informally, the more likely it is that a friendship emerges.",
+        "sentenceIds": [
+          "c10-s05-p110-03990-s007"
+        ],
+        "sources": [
+          {
+            "pdfPage": 110,
+            "block": 3,
+            "bbox": [
+              76.99,
+              399,
+              535.01,
+              686.52
+            ]
+          }
+        ]
+      }
+    ],
+    "vocabulary": [
+      {
+        "word": "functional distance",
+        "meaning": "功能距离",
+        "context": "受楼梯等通行动线影响的实际接触便利程度",
+        "example": "A shared entrance can reduce functional distance between neighbors.",
+        "collocations": [
+          "physical and functional distance",
+          "reduce functional distance"
+        ]
+      }
+    ],
+    "translation": "研究另一个有趣发现是，功能距离也重要。住楼梯旁的人比离楼梯远的人，更可能与不同楼层的人交朋友。这提示，物理距离与功能距离决定偶遇概率；非正式见某人越频繁，越可能产生友谊。",
+    "support": "explicit",
+    "editorialStatus": "完整PDF106–111原页视觉核对及跨页拼接；CDC关联不作因果保证；100/1000候选、14%/3%与前10%目标分开。费城许可证、荷兰个人筛选与MIT友谊提名单位分开，众数/中位数与测量时点不混用；Cupid为比喻；宿舍随机背景按作者概括保留，不冒充完整随机试验方案。功能距离研究与后续曝光机制实验分开。末段完整审阅含未配题词频比较，未声称全书逐句证据覆盖。",
+    "fingerprint": "7ae17eba32ade46b8e9660a0a8be0268a89e364bde655c12686db864c84f8fe9"
+  },
+  {
+    "id": "q-c10-045",
+    "version": 1,
+    "readingUnitId": "c10-s05-p110-03990-r008-009",
+    "chapterId": "c10",
+    "sectionId": "c10-s05",
+    "paragraphId": "c10-s05-p110-03990",
+    "sentenceIds": [
+      "c10-s05-p110-03990-s008",
+      "c10-s05-p110-03990-s009"
+    ],
+    "passage": "In the context of college dorms, where cultural, ethnic, and religious backgrounds are randomized, Festinger’s findings point to the surprising power of geography and repeated chance meetings. But why do chance encounters matter?",
+    "prompt": "What is the purpose of the final question?",
+    "options": [
+      "To move from the pattern of chance encounters to a question about its mechanism.",
+      "To deny that geography has any power in dormitories.",
+      "To claim all residents share identical religious beliefs.",
+      "To introduce a measured effect of online dating platforms."
+    ],
+    "answer": 0,
+    "type": "作者意图",
+    "promptZh": "末尾问题有什么作用？",
+    "optionsZh": [
+      "从偶遇与关系的模式转向追问机制。",
+      "否认地理在宿舍中的影响。",
+      "声称所有居民宗教信仰相同。",
+      "引入网恋平台的实测效果。"
+    ],
+    "analyses": [
+      "A But why...matter 追问已描述现象为何发生，尚未在当前段给机制答案。",
+      "B surprising power 明确强调影响。",
+      "C randomized 不能改成背景完全相同；此处按作者概括保留，不冒充详尽随机试验方案。",
+      "D 当前无平台测量。"
+    ],
+    "evidence": [
+      {
+        "quote": "Festinger’s findings point to the surprising power of geography and repeated chance meetings. But why do chance encounters matter?",
+        "sentenceIds": [
+          "c10-s05-p110-03990-s008",
+          "c10-s05-p110-03990-s009"
+        ],
+        "sources": [
+          {
+            "pdfPage": 110,
+            "block": 3,
+            "bbox": [
+              76.99,
+              399,
+              535.01,
+              686.52
+            ]
+          },
+          {
+            "pdfPage": 111,
+            "block": 0,
+            "bbox": [
+              76.99,
+              75,
+              535,
+              109.02
+            ]
+          }
+        ]
+      }
+    ],
+    "vocabulary": [
+      {
+        "word": "encounters",
+        "meaning": "相遇；接触",
+        "context": "chance encounters 指非预先安排的偶遇",
+        "example": "Repeated encounters made the neighbors familiar to each other.",
+        "collocations": [
+          "chance encounters",
+          "repeated encounters"
+        ]
+      }
+    ],
+    "translation": "在大学宿舍这一背景中，文化、族裔、宗教背景是随机分布的；Festinger 的发现指向地理位置和反复偶遇的惊人力量。但偶遇为什么重要？",
+    "support": "explicit",
+    "editorialStatus": "完整PDF106–111原页视觉核对及跨页拼接；CDC关联不作因果保证；100/1000候选、14%/3%与前10%目标分开。费城许可证、荷兰个人筛选与MIT友谊提名单位分开，众数/中位数与测量时点不混用；Cupid为比喻；宿舍随机背景按作者概括保留，不冒充完整随机试验方案。功能距离研究与后续曝光机制实验分开。末段完整审阅含未配题词频比较，未声称全书逐句证据覆盖。",
+    "fingerprint": "6a7357ce8ad5f43c81af8a3e55d9541fe832fc031b88bda63b038370a4bf9a77"
+  },
+  {
+    "id": "q-c10-046",
+    "version": 1,
+    "readingUnitId": "c10-s06-p111-01650-r001-003",
+    "chapterId": "c10",
+    "sectionId": "c10-s06",
+    "paragraphId": "c10-s06-p111-01650",
+    "sentenceIds": [
+      "c10-s06-p111-01650-s001",
+      "c10-s06-p111-01650-s002",
+      "c10-s06-p111-01650-s003"
+    ],
+    "passage": "At their best, social psychologists work by identifying an association between two variables in the real world (e.g., residential proximity and friendship), then test causal mechanisms, or what accounts for the observed correlation. What repeated chance meetings do is increase familiarity. Bob Zajonc, one of the greatest social psychologists of all time, zeroed in on the familiarity effect, or what he called the “mere exposure effect,” in a series of experiments.",
+    "prompt": "What research sequence does the author describe?",
+    "options": [
+      "Observe a correlation and immediately declare it causal.",
+      "Identify a real-world association, then test possible causal mechanisms.",
+      "Reject all field observations before examining any variables.",
+      "Treat familiarity as identical to residential distance."
+    ],
+    "answer": 1,
+    "type": "逻辑关系",
+    "promptZh": "作者描述了怎样的研究顺序？",
+    "optionsZh": [
+      "观察相关后马上宣布因果。",
+      "先识别现实关联，再检验可能的因果机制。",
+      "考察变量前拒绝全部实地观察。",
+      "把熟悉感等同居住距离。"
+    ],
+    "analyses": [
+      "A then test 表明相关之后还需检验，不能直接宣称因果。",
+      "B identifying...association...then test causal mechanisms 对应研究顺序。",
+      "C 现实观察是出发点而非被全盘拒绝。",
+      "D 重复相遇增加熟悉感，不是熟悉感等于米数。Zajonc 实验被引入，但本段未给完整实验条件。"
+    ],
+    "evidence": [
+      {
+        "quote": "identifying an association between two variables in the real world",
+        "sentenceIds": [
+          "c10-s06-p111-01650-s001"
+        ],
+        "sources": [
+          {
+            "pdfPage": 111,
+            "block": 2,
+            "bbox": [
+              76.99,
+              165,
+              535.01,
+              277.02
+            ]
+          }
+        ]
+      },
+      {
+        "quote": "then test causal mechanisms, or what accounts for the observed correlation.",
+        "sentenceIds": [
+          "c10-s06-p111-01650-s001"
+        ],
+        "sources": [
+          {
+            "pdfPage": 111,
+            "block": 2,
+            "bbox": [
+              76.99,
+              165,
+              535.01,
+              277.02
+            ]
+          }
+        ]
+      }
+    ],
+    "vocabulary": [
+      {
+        "word": "zeroed in on",
+        "meaning": "集中研究；把注意力对准",
+        "context": "表示 Zajonc 聚焦熟悉感效应",
+        "example": "The investigator zeroed in on a possible mechanism.",
+        "collocations": [
+          "zero in on a mechanism",
+          "zero in on an effect"
+        ]
+      }
+    ],
+    "translation": "社会心理学家做得最好时，会先识别现实中两个变量的关联（例如居住邻近与友谊），再检验因果机制，也就是解释所观察相关的因素。反复偶遇会增加熟悉感。Bob Zajonc 是最杰出的社会心理学家之一，他通过一系列实验聚焦熟悉感效应，或他所称的“单纯曝光效应”。",
+    "support": "explicit",
+    "editorialStatus": "完整PDF106–111原页视觉核对及跨页拼接；CDC关联不作因果保证；100/1000候选、14%/3%与前10%目标分开。费城许可证、荷兰个人筛选与MIT友谊提名单位分开，众数/中位数与测量时点不混用；Cupid为比喻；宿舍随机背景按作者概括保留，不冒充完整随机试验方案。功能距离研究与后续曝光机制实验分开。末段完整审阅含未配题词频比较，未声称全书逐句证据覆盖。",
+    "fingerprint": "5bf700c363ebc9e99ba6240987e26e72cc6f1f3f097f912799cb29c85c970bff"
+  },
+  {
+    "id": "q-c10-047",
+    "version": 1,
+    "readingUnitId": "c10-s06-p111-02820-r001-003",
+    "chapterId": "c10",
+    "sectionId": "c10-s06",
+    "paragraphId": "c10-s06-p111-02820",
+    "sentenceIds": [
+      "c10-s06-p111-02820-s001",
+      "c10-s06-p111-02820-s002",
+      "c10-s06-p111-02820-s003"
+    ],
+    "passage": "Even before he conducted this series of experiments, Zajonc made an ingenious refinement of previous research on word frequency and its link to perceived “desirability” of a word (i.e., how good or bad a word sounds). Word frequency was measured by how often each word appeared in published books and magazines in the 1920s and 1930s, in painstaking work conducted by Edward Thorndike and Irving Lorge. Desirability was determined by aggregating English speakers’ ratings of various English words.",
+    "prompt": "How was word desirability determined in the earlier work?",
+    "options": [
+      "By counting printed occurrences without asking any speakers.",
+      "By measuring how long words took to pronounce.",
+      "By checking whether words came from Turkish.",
+      "By combining English speakers’ ratings of English words."
+    ],
+    "answer": 3,
+    "type": "细节",
+    "promptZh": "早期研究如何确定词语的讨喜程度？",
+    "optionsZh": [
+      "不问说话者，只数印刷出现次数。",
+      "测量发音所需时间。",
+      "检查词是否来自土耳其语。",
+      "汇总英语使用者对英语词语的评分。"
+    ],
+    "analyses": [
+      "A 印刷出现次数测 word frequency，不是 desirability。",
+      "B 没用发音时长定义好坏感受。",
+      "C 当前片段未涉及土耳其语；不能把后续实验材料提前当此处方法。",
+      "D aggregating...ratings 直接给出操作定义。这里介绍既有测量和改进背景，尚不能由此断定词频导致喜欢。"
+    ],
+    "evidence": [
+      {
+        "quote": "Desirability was determined by aggregating English speakers’ ratings of various English words.",
+        "sentenceIds": [
+          "c10-s06-p111-02820-s003"
+        ],
+        "sources": [
+          {
+            "pdfPage": 111,
+            "block": 3,
+            "bbox": [
+              76.99,
+              282,
+              535.01,
+              530.52
+            ]
+          }
+        ]
+      }
+    ],
+    "vocabulary": [
+      {
+        "word": "aggregating",
+        "meaning": "汇总；合并",
+        "context": "将多个英语使用者评分合并，区别于统计词出现次数",
+        "example": "The analyst summarized the results by aggregating individual ratings.",
+        "collocations": [
+          "aggregate ratings",
+          "aggregate individual responses"
+        ]
+      }
+    ],
+    "translation": "甚至在做这一系列实验之前，Zajonc 就对以往词频及其与词语“讨喜程度”（即一个词听起来多好或多不好）关系的研究作了巧妙改进。词频按每个词在 1920 与 1930 年代出版的书籍和杂志中出现的次数测量，这是 Edward Thorndike 与 Irving Lorge 细致辛劳的成果。讨喜程度则通过汇总英语使用者对各种英语词的评分确定。",
+    "support": "explicit",
+    "editorialStatus": "完整PDF106–111原页视觉核对及跨页拼接；CDC关联不作因果保证；100/1000候选、14%/3%与前10%目标分开。费城许可证、荷兰个人筛选与MIT友谊提名单位分开，众数/中位数与测量时点不混用；Cupid为比喻；宿舍随机背景按作者概括保留，不冒充完整随机试验方案。功能距离研究与后续曝光机制实验分开。末段完整审阅含未配题词频比较，未声称全书逐句证据覆盖。",
+    "fingerprint": "a013dfcb903378c967410977b6481caa4d7c44c047110ac9a91af8828a60b0fe"
   }
 ]
