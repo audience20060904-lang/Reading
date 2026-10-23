@@ -1,0 +1,123 @@
+{
+  "batchId": "batch-036",
+  "date": "2026-10-24",
+  "url": "https://audience20060904-lang.github.io/Reading/",
+  "repositoryVisibility": "public",
+  "sourceCommit": "c1ece6826ba339f626c4e658fdcd4b070b951231",
+  "deploymentCommit": "5a0a38e9e0926c2b4df3df4e569e04c97e82b0b6",
+  "workflowRun": "https://github.com/audience20060904-lang/Reading/actions/runs/39996021195",
+  "workflowStatus": "completed",
+  "workflowConclusion": "success",
+  "verificationBasis": "Live browser tests and byte-identical deployed assets; workflow state recorded independently without assuming completion.",
+  "offlineVersion": "e3c3398bfac482f2",
+  "addedQuestionIds": [
+    "q-c12-065",
+    "q-c12-066",
+    "q-c13-001",
+    "q-c13-002",
+    "q-c13-003",
+    "q-c13-004",
+    "q-c13-005",
+    "q-c13-006",
+    "q-c13-007",
+    "q-c13-008",
+    "q-c13-009",
+    "q-c13-010",
+    "q-c13-011",
+    "q-c13-012",
+    "q-c13-013",
+    "q-c13-014",
+    "q-c13-015",
+    "q-c13-016",
+    "q-c13-017",
+    "q-c13-018",
+    "q-c13-019",
+    "q-c13-020",
+    "q-c13-021",
+    "q-c13-022",
+    "q-c13-023"
+  ],
+  "preparedReadingUnits": 25,
+  "newContextCandidateSentences": 72,
+  "newEvidenceCandidateSentences": 38,
+  "targetManifest": "source/short-questions/batch036-targets.json",
+  "sourceReview": {
+    "pdfPages": [
+      142,
+      143,
+      144,
+      145,
+      146,
+      147
+    ],
+    "pdfSha256": "be25c859f1bd894a4b0d1cff024ded1297f6a96a8e8ddabea1e3abcf89160a50",
+    "recheckedParagraphs": 14,
+    "newlyRecordedParagraphs": 14,
+    "record": "source/short-questions/review-chapter12-13-moving25.json",
+    "uniqueVisuallyCheckedParagraphsOverall": 392,
+    "mappedCandidateSentencesInReviewedParagraphs": 2670,
+    "newlyMappedCandidateSentences": 73,
+    "oldReviewedInNewContext": 0,
+    "extraReviewedUnprepared": 1,
+    "note": "完整PDF142–147原页视觉核对含12章末143与13章首144。文学例证非实验；MIDUS1995/2005为既有数据关联分析，不补随机搬迁。内向者could/tend限定不扩为人人必然；当时尚未明确心理丰富概念，所以未测其效果。读者邮件与自报不作总体诊断/因果，Mary的real trauma为自我比较不认可贬低痛苦；作者not a clinical psychologist和hope/might原样保留。父母决定搬迁、树根为比喻、个案可兼具代价与收益。Tom跨页Once we / actually lived两单元保留来源ID与字符，标注非独立最终句界，不补句不重复。D.J.45次为一生、11校为12年；最后引文未闭合续后段。发现13章首144页block5实为作者导语却被旧规则列为epigraph-or-subtitle，另存正文补入审计待办，现有1053单元不得当全书完整分段。"
+  },
+  "coverage": {
+    "questions": 903,
+    "readingUnits": 1053,
+    "preparedUnits": 903,
+    "unpreparedUnits": 150,
+    "candidateSentences": 3152,
+    "contextSentences": 2669,
+    "contextOnlySentences": 1410,
+    "evidenceSentences": 1259,
+    "notDirectlyQuestioned": 1893,
+    "fullCoverage": false,
+    "sourceAudit": {
+      "status": "open",
+      "knownPendingBodyBlocks": 1,
+      "pendingTaskIds": [
+        "audit-c13-opening-p144-b005",
+        "audit-all-chapter-opening-exclusions"
+      ],
+      "record": "source/content-audit-tasks.json"
+    }
+  },
+  "validation": {
+    "unitTests": 222,
+    "localGeneralBrowserChecks": 25,
+    "localBatchBrowserChecks": 5,
+    "liveBatchBrowserChecks": 5,
+    "walkedReadingUnitsPerRun": 25,
+    "newUnitsVisitedPerRun": 25,
+    "syntheticAttemptsPerRun": 26,
+    "productionBuild": "passed",
+    "previousPublishedQuestionObjectsUnchanged": 878,
+    "readingUnitIdsAndRangesUnchanged": 1053,
+    "authoringRegeneration": "nine content artifacts byte-for-byte reproducible",
+    "newAnswerPositionCounts": [
+      7,
+      6,
+      6,
+      6
+    ],
+    "liveAssetIntegrity": "all manifest assets and SW match tested build byte-for-byte",
+    "navigation": "all 25 units traversed in original order with exact paragraph reconstruction, bilingual options, vocabulary and final translation",
+    "history": "previous synthetic attempt unchanged; statistics, reload, history view and IndexedDB recovery verified",
+    "offline": "browser simulated offline and general local suite real HTTP service shutdown/cache reload",
+    "initialFailureAndFix": "The first 222-test run found the browser-side coverage calculation missing the newly recorded source-audit gap. Synchronized core calculation and exported report, and added a guard rejecting completion while source-audit tasks remain. A subsequent regeneration hit Windows UNKNOWN opening content-tasks.json; unchanged generated files are now skipped and transient write errors retried up to five attempts. The complete nine-artifact regeneration then passed byte-for-byte and all 222 tests passed. Production build passed. Source review was performed 2026-10-23; browser verification/publication resumed on client date 2026-10-24."
+  },
+  "sourceNotes": "source/short-questions/batch036-source-notes.json",
+  "limits": [
+    "每段一题不等于逐句证据覆盖：本批上下文72个候选句、直接证据38个。",
+    "尚有150个短段未配题，1893个候选句无直接证据题。候选句不是人工最终分句；原页审阅、上下文、直接证据分别计数。",
+    "390px Edge视口不是实体手机；模拟离线不等于关闭Windows网卡，通用本地套件另行停止HTTP服务后重载。",
+    "所有作答为隔离合成记录，未读取或上传真实学习数据。",
+    "完整PDF142–147原页视觉核对含12章末143与13章首144。文学例证非实验；MIDUS1995/2005为既有数据关联分析，不补随机搬迁。内向者could/tend限定不扩为人人必然；当时尚未明确心理丰富概念，所以未测其效果。读者邮件与自报不作总体诊断/因果，Mary的real trauma为自我比较不认可贬低痛苦；作者not a clinical psychologist和hope/might原样保留。父母决定搬迁、树根为比喻、个案可兼具代价与收益。Tom跨页Once we / actually lived两单元保留来源ID与字符，标注非独立最终句界，不补句不重复。D.J.45次为一生、11校为12年；最后引文未闭合续后段。发现13章首144页block5实为作者导语却被旧规则列为epigraph-or-subtitle，另存正文补入审计待办，现有1053单元不得当全书完整分段。",
+    "现有1053短段之外仍有已确认的章首正文缺口及全章首/辅助材料审计待办，详见source/content-audit-tasks.json；不能据现有候选池断言全书完整。"
+  ],
+  "nextBatch": {
+    "chapterId": "c13",
+    "readingUnitId": "c13-s01-p147-03675-r009-009",
+    "pdfPage": 147
+  }
+}
