@@ -42,7 +42,7 @@ describe('批次036连续25单元',()=>{
   const notes=read('source/short-questions/batch036-source-notes.json');expect(notes.crossPageContinuation.questionIds).toEqual(['q-c13-018','q-c13-019']);
   expect(q('q-c13-018').passage).toMatch(/Once we$/);expect(q('q-c13-019').passage).toMatch(/^actually lived/);expect(q('q-c13-019').options[q('q-c13-019').answer]).toContain('Four years in one house');
   expect(q('q-c13-006').analyses.join('')).toContain('个人经历');expect(q('q-c13-015').passage).toContain('not a clinical psychologist');expect(q('q-c13-016').passage).toContain('might be able');
-  const a=read('source/content-audit-tasks.json'),c=read('public/data/coverage.json');expect(a.status).toBe('open');expect(a.tasks.find((t:any)=>t.id==='audit-c13-opening-p144-b005').text).toContain('Before reaching the book’s conclusion');expect(c.sourceAudit.knownPendingBodyBlocks).toBe(1);expect(c.notice).toContain('不能当作全书完整分段');expect(c.fullCoverage).toBe(false);
-  expect(()=>assertCoverageClaim({...c,notDirectlyQuestioned:0,proofreadSentences:c.candidateSentences},true)).toThrow('虚假全覆盖');
+  const a=read('source/content-audit-tasks.json'),c=read('public/data/coverage.json'),snapshot=read('source/releases/batch-036.json').coverage;expect(a.tasks.find((t:any)=>t.id==='audit-c13-opening-p144-b005').text).toContain('Before reaching the book’s conclusion');expect(snapshot.sourceAudit.knownPendingBodyBlocks).toBe(1);expect(c.sourceAudit.knownPendingBodyBlocks).toBe(a.tasks.filter((t:any)=>t.status==='pending-body-inclusion').length);if(c.sourceAudit.pendingTaskIds.length)expect(c.notice).toContain('不能当作全书完整分段');expect(c.fullCoverage).toBe(false);
+  expect(()=>assertCoverageClaim({...c,notDirectlyQuestioned:0,proofreadSentences:c.candidateSentences,sourceAudit:{...c.sourceAudit,pendingTaskIds:['unresolved-source-gap']}},true)).toThrow('虚假全覆盖');
  });
 });

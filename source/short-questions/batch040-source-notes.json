@@ -1,0 +1,28 @@
+{
+  "batchId": "batch-040",
+  "date": "2026-10-24",
+  "pdfSha256": "be25c859f1bd894a4b0d1cff024ded1297f6a96a8e8ddabea1e3abcf89160a50",
+  "checkedPdfPages": [
+    160
+  ],
+  "confirmedMisclassification": {
+    "id": "audit-c14-opening-p160-b005",
+    "status": "pending-body-inclusion",
+    "chapterId": "c14",
+    "source": {
+      "pdfPage": 160,
+      "block": 5
+    },
+    "text": "In this book, I introduced the new concept of a psychologically rich life, adding to the two better-known paths to a good life: a happy life and a meaningful life. Now that you know the ingredients of a happy life, a meaningful life, and a psychologically rich life, let’s see if you can start seeing the world through a new lens: life in three dimensions.",
+    "textSha256": "5d9bd143d1bccd60535cd9acb2c295c50ff11b16cb9f62816b498cce4021a75d",
+    "legacyKind": "epigraph-or-subtitle",
+    "finding": "2026-10-24 actual PDF160 visually verified: authorial introductory body paragraph below the attributed Eugene Levy epigraph and above numbered section1; incorrectly excluded by pre-section fallback.",
+    "requiredActions": [
+      "Include actual opening body with stable additive source and sentence IDs, retaining raw extraction and every published question fingerprint.",
+      "Author continuous reading units and complete bilingual learning materials; build and publish with browser validation.",
+      "Correct exclusion classification and complete all opening/body-support source-audit tasks before declaring book completion."
+    ]
+  },
+  "status": "pending-additive-body-inclusion",
+  "note": "Classifying and retaining this paragraph is not the same as including it in the reading chain or preparing a question. Both confirmed opening-body gaps remain pending in source/content-audit-tasks.json."
+}

@@ -4,29 +4,29 @@
 
 ## 来源与规则
 
-source/pages.json 保留原始提取。public/data/book.json 保存章节、小节、候选段落和句子、原始断行、坐标、稳定 ID。source/reviews.json 保存实际原页对照：第1章26段、第2章30段、第3章20段、第4章29段、第5章27段、第6章47段、第7章29段、第8章27段、第9章37段、第10章53段、第11章28段、第12章26段、第13章43段；共映射2,911候选句，不是人工定稿句数，也不是其他段落的审校证明。
+source/pages.json 保留原始提取。public/data/book.json 保存章节、小节、候选段落和句子、原始断行、坐标、稳定 ID。source/reviews.json 保存实际原页对照：第1章26段、第2章30段、第3章20段、第4章29段、第5章27段、第6章47段、第7章29段、第8章27段、第9章37段、第10章53段、第11章28段、第12章26段、第13章45段、第14章9段；共映射2,995候选句，不是人工定稿句数，也不是其他段落的审校证明。
 
 采用 PyMuPDF、Unicode NFC 和明确合字展开。段内断行合为空格，行尾可见连字符保留并拼接下行。跨页和引语句界仍有候选性质；修改提取规则必须核对指纹、原页并保存 ID 迁移，不静默重编。source/layout.json 可重建但不纳入 Git。
 
 章首引文、目录、题献、致谢、注释、附录、索引等有排除原因；表格、图注、非编号标题是待结构化辅助材料。
 
-重要源文审计待办：source/content-audit-tasks.json 记录第13章 PDF144块5作者导语被旧规则误归为 epigraph-or-subtitle，已确认是尚未纳入阅读链路的正文。必须补入并编写材料，同时按实际PDF复核所有章首排除项和辅助材料；现有1,053单元完成后仍需继续，不能把既有候选池声称为全书完整正文。原始排除记录暂保留用于追溯，不视为合法非正文结论。q-c13-018/019 的跨页同一句亦在 batch036-source-notes.json 明确标记。
+重要源文审计待办：source/content-audit-tasks.json 记录第13章 PDF144块5和第14章 PDF160块5两段作者导语被旧规则误归为 epigraph-or-subtitle，均已确认是尚未纳入阅读链路的正文。必须补入并编写材料，同时按实际PDF复核所有章首排除项和辅助材料；现有1,053单元完成后仍需继续，不能把既有候选池声称为全书完整正文。原始排除记录暂保留用于追溯，不视为合法非正文结论。q-c13-018/019 的跨页同一句亦在 batch036-source-notes.json 明确标记。
 
 ## 当前版本
 
 3,152 个候选句按原书顺序恰好一次，分为 1,053 段。通常不超过 90 词，4 段为保持整句 / 证据达到 91–108 词。不截断、改写或拼接不连续原句。
 
-旧60题修订为v2，另有918题；共978题。已配题：第1章77单元、第2章86单元、第3章47单元、第4章54单元、第5章59单元、第6章91单元、第7章72单元、第8章61单元、第9章84单元、第10章119单元、第11章64单元、第12章66单元、第13章98单元；其余75段保留原文，尚未配题，不生成占位题。
+旧60题修订为v2，另有943题；共1003题。已配题：第1章77单元、第2章86单元、第3章47单元、第4章54单元、第5章59单元、第6章91单元、第7章72单元、第8章61单元、第9章84单元、第10章119单元、第11章64单元、第12章66单元、第13章101单元、第14章22单元；其余50段保留原文，尚未配题，不生成占位题。
 
 解析仅为问题 / 四项分析（含译文）、词汇、整段译文。当前数据删除总述、语法、策略，历史快照不变。
 
-当前上下文2,911候选句，直接证据1,376，仅上下文1,535；1,776个候选句尚无直接证据题。原页审阅映射2,911候选句。计数分别报告，不代表人工最终分句或逐句证据覆盖；fullCoverage仍为false。
+当前上下文2,995候选句，直接证据1,419，仅上下文1,576；1,733个候选句尚无直接证据题。原页审阅映射2,995候选句。计数分别报告，不代表人工最终分句或逐句证据覆盖；fullCoverage仍为false。
 
 ## 编写文件
 
 - source/archive/questions-v1.json：旧 60 题及指纹，不是个人作答记录。
 - scripts/batches/short-passages.py：60 题 v2 的固定原句范围和手写译文。
-- source/short-questions/additional.json：新短段题作者稿，当前含 918 题，绑定已有短段，包含双语问题 / 选项、四项分析、证据、词汇和整段译文。
+- source/short-questions/additional.json：新短段题作者稿，当前含 943 题，绑定已有短段，包含双语问题 / 选项、四项分析、证据、词汇和整段译文。
 - scripts/batches/opening-section-completion.py：这 7 题的种子稿，不要用它覆盖后续新成果。
 - scripts/batches/chapter-01-completion.py：其余 37 题的逐题作者稿，按 ID 合并，不覆盖已更改作者稿。source/short-questions/review-chapter-01.json 记录本批 PDF 第 9–16 页视觉核对及对应段落指纹。
 - scripts/batches/chapter-02-next-two.py：第 2 章 q-c02-028、q-c02-029 的作者稿；PDF 第 17 页复核见 source/short-questions/review-chapter-02-next-two.json。脚本按 ID 合并，不覆盖已更改的题目。
@@ -64,11 +64,12 @@ source/pages.json 保留原始提取。public/data/book.json 保存章节、小�
 - scripts/batches/chapter13-extremes-familiar25.py：批次037的25题作者稿，目标batch037-targets.json，原页记录review-chapter13-extremes-familiar25.json。完整PDF147–151原页视觉核对。D.J.来信续句与不同人过量阈值按原文，不设统一次数。Taylor Mac连续24小时现场非录音/24场；Morris/Needham为评论个人体验，非控制实验。舞台扮演偏见不等于认同偏见；imaginary bus非真实出行自传，seismic/roof为修辞，7am还有5小时。q-c13-032承接闭引号原字保留。作者肯定丰富又犹豫，健康风险might及occasionally、might consider不扩为人人持续冒险；Polley是作品例子非疗效试验或文档行动指令。A/B哲学人物立场分清、presumably保留。妻子1991相识/1999结婚/约2010挂画，作者must be happy为观察推测非诊断；此前焦虑与画作欢快可以并存。boy是感叹，most非全部；B内在感恩为归属明确的哲学宗教主张，不提前援引下一段实验当本段证据。原有额外正文审计待办仍开放，候选池无漏ID不等于全书正文无遗漏。
 - scripts/batches/chapter13-love-craft25.py：批次038的25题作者稿，目标batch038-targets.json，原页记录review-chapter13-love-craft25.json。完整PDF151–155原页视觉核对。Fincham研究明确随机组、四周每天至少一次为伴侣祈祷，控制组回想当日活动，结果自报；less likely非零不忠，holy是felt非宗教真理证明。B历史/音乐比喻归哲学角色，育儿例子不作无子女无情谊。万圣节事故细节作者省略不补造。Aron新奇任务路线/枕头约束与轮流滚球控制分开；63对为复现新样本，后续讨论亲爱动作是行为结果。40%自报十年以上婚姻属另一研究线，不混63对或影像样本；21.4是平均年限，激活奖励相关脑区不等于直接测同量多巴胺。self-expansion为理论，due in part/could非唯一因果保证；夫妻旅行采访非随机研究。Jiro例子锚定2011纪录片当时年龄与书载星级，顾客seemed非盲法试吃；30至45分钟、九岁离家40岁开店、十年清洁/200次个案不推广硬规则。私人/公开竞技是作者解释比较，不当临床证明或人物今日健康断言。额外章首正文及辅助材料源文审计仍开放，不宣称全书完整覆盖。
 - scripts/batches/chapter13-devotion-art25.py：批次039的25题作者稿，目标batch039-targets.json，原页记录review-chapter13-devotion-art25.json。完整PDF155–158原页视觉核对。Jiro有竞争者但未同等被紧盯比较，不改成毫无竞争；toes为警醒习语，反刍解释非普遍临床因果，童年玩心出自同学访谈。职业路径provided that深度足够才可探索，one way非唯一。Spotify11,861,427/30,561,926为as of this writing快照非实时；大学生偏好为作者观察，音乐多样性One possible explanation与Pet Sounds反事实不作已证因果，承认Beach Boys作品也多样，作曲者比较仅归本段。Yesterday情节为电影非现实，哭泣为作者歌词共鸣不补歌词或全家反应。怀旧有联系/意义等益处，熟悉对象中新发现区别于纯怀旧。Offill重读人物Septimus/Clarissa/Peter按阶段，不混小说人物与现实作者，fifty-second year保留原措辞不擅算已满52。Peter/Sally/Richard角色与话语分清；brain/heart为文学比喻，Not a word为人物答话，and laughed续接旧边界不当独立最终句。吸引原因mystery不补造；文学例证非实验。额外正文审计待办保持开放，不以候选池完整代替全书正文完整。
+- scripts/batches/chapter13-14-evaluation25.py：批次040的25题作者稿，目标batch040-targets.json，原页记录review-chapter13-14-evaluation25.json。完整PDF159–163原页视觉核对。温故知新是谚语非加热操作，B/Aron/Jiro证据类型分开；Jazz人物对话为能动性例子非控制世界的科学保证。James公式pretentions保留原拼写并依段释aspirations，happiness模型To simplify to extreme非精密诊断，文化emphasis非每位国民。Payscale超过两百万人502职业为问卷，满意和意义数字按职业/指标匹配；median薪资与average满意是职业聚合相关，不改成个人加薪因果。社工/警察工资解释might/perhaps保留，艺术职业丰富为My guess，Payscale未测该维，不把作者创造力对照扩成各职业所有个人绝无创造。旅行情境比较非实际旅游推荐，could great/disaster保持不确定。新确认160页块5作者开章正文误归引文，追加audit-c14-opening-p160-b005；连同144页开章正文待补入，现有候选池不代表全书正文完整。
 - scripts/batches/question-translations.py：旧 60 题的手写问题 / 选项译文；新题取其明确编写的 promptZh / optionsZh，英文不匹配时拒绝沿用。
 - scripts/prepare-short-reading.py：验证与拼装预先编写内容、计算指纹，不生成缺失问题。
 - src/data/passage-translations.json：按题目 ID 和原文匹配，保留历史文本译文。
 - public/data/reading-plan.json：短段顺序、词数、来源句子和配题状态。
-- source/content-tasks.json：完整未配题短段 / 未配证据句子清单，下一缺口 c13-s08-p159-00982-r001-004，PDF 第 159 页。章节 partial 状态保留，表示仍未完成逐句直接证据覆盖。
+- source/content-tasks.json：完整未配题短段 / 未配证据句子清单，下一缺口 c14-s03-p163-04380-r001-004，PDF 第 163 页。章节 partial 状态保留，表示仍未完成逐句直接证据覆盖。
 
 ## 继续补题
 
@@ -90,7 +91,7 @@ source/pages.json 保留原始提取。public/data/book.json 保存章节、小�
 
 ## 验证与发布
 
-240 项自动测试；25 项通用浏览器检查。最新套件 scripts/batch039-browser-test.mjs 逐段提交全部 25 个新增短段，比对原文及三类解析、记录和离线；此前套件仍保留。tests/fixtures/batch038-fingerprints.json 锁定此前 953 道题；原文连续性、证据归属与历史恢复有检查。新增题不改变原阅读单元 ID，也不重算旧成绩。实际运行结果与限制见对应发布回执。
+246 项自动测试；25 项通用浏览器检查。最新套件 scripts/batch040-browser-test.mjs 逐段提交全部 25 个新增短段，比对原文及三类解析、记录和离线；此前套件仍保留。tests/fixtures/batch039-fingerprints.json 锁定此前 978 道题；原文连续性、证据归属与历史恢复有检查。新增题不改变原阅读单元 ID，也不重算旧成绩。实际运行结果与限制见对应发布回执。
 
 缓存测试复现旧 HTTP 数据复用问题，再验证强制刷新后题数更新、旧成绩位置不变。另有实际停止本地服务重载及浏览器模拟断网；不是实体手机或关闭网卡测试。
 

@@ -4,12 +4,12 @@
   "sections": 87,
   "candidateParagraphs": 457,
   "candidateSentences": 3152,
-  "proofreadSentences": 2911,
-  "contextSentences": 2911,
-  "contextOnlySentences": 1535,
-  "evidenceSentences": 1376,
-  "notDirectlyQuestioned": 1776,
-  "questions": 978,
+  "proofreadSentences": 2995,
+  "contextSentences": 2995,
+  "contextOnlySentences": 1576,
+  "evidenceSentences": 1419,
+  "notDirectlyQuestioned": 1733,
+  "questions": 1003,
   "excludedBlocks": 179,
   "fullCoverage": false,
   "byChapter": [
@@ -112,27 +112,28 @@
     {
       "id": "c13",
       "candidates": 319,
-      "proofread": 308,
-      "context": 308,
-      "evidence": 153,
-      "questions": 98
+      "proofread": 319,
+      "context": 319,
+      "evidence": 159,
+      "questions": 101
     },
     {
       "id": "c14",
       "candidates": 230,
-      "proofread": 0,
-      "context": 0,
-      "evidence": 0,
-      "questions": 0
+      "proofread": 73,
+      "context": 73,
+      "evidence": 37,
+      "questions": 22
     }
   ],
-  "notice": "自动分句仅为候选；审校、上下文和直接证据分别计数。即使每节有题，也不等于逐句覆盖。未配题内容保留原文及待办，不生成占位题。 另有 1 段已确认的章首正文尚未纳入阅读链路；章首排除与正文辅助材料仍待源文审计。现有短段仅覆盖既有候选池，不能当作全书完整分段。",
+  "notice": "自动分句仅为候选；审校、上下文和直接证据分别计数。即使每节有题，也不等于逐句覆盖。未配题内容保留原文及待办，不生成占位题。 另有 2 段已确认的章首正文尚未纳入阅读链路；章首排除与正文辅助材料仍待源文审计。现有短段仅覆盖既有候选池，不能当作全书完整分段。",
   "sourceAudit": {
     "status": "open",
-    "knownPendingBodyBlocks": 1,
+    "knownPendingBodyBlocks": 2,
     "pendingTaskIds": [
       "audit-c13-opening-p144-b005",
-      "audit-all-chapter-opening-exclusions"
+      "audit-all-chapter-opening-exclusions",
+      "audit-c14-opening-p160-b005"
     ],
     "record": "source/content-audit-tasks.json"
   }
