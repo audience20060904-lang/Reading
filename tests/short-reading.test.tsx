@@ -4,6 +4,7 @@ import {renderToStaticMarkup} from 'react-dom/server';
 import type {Book,Question,ReadingPlan} from '../src/types';
 import {emptyState,exportBackup,grade,parseBackup,restoreReadingState,restoreSession,statistics,studySummary} from '../src/core';
 import AnswerExplanation from '../src/AnswerExplanation';
+import ReadingPractice from '../src/ReadingPractice';
 import {getQuestionTranslation} from '../src/questionTranslations';
 const book=JSON.parse(readFileSync('public/data/book.json','utf8')) as Book;
 const qs=JSON.parse(readFileSync('public/data/questions.json','utf8')) as Question[];
@@ -61,4 +62,38 @@ describe('只保留选项分析、词汇和整段译文',()=>{
   expect(html).not.toContain('语法解析');expect(html).not.toContain('IELTS 阅读技巧');expect(html).not.toContain('一、原文理解');expect(html.lastIndexOf('passage-translation')).toBeGreaterThan(html.lastIndexOf('vocab-grid'));
  });
  it('英文题目或选项变动后，不套用不匹配的旧译文',()=>{expect(getQuestionTranslation({...qs[0],prompt:'Changed'})).toBeUndefined();expect(getQuestionTranslation({...qs[0],options:[...qs[0].options].reverse() as Question['options']})).toBeUndefined();});
+});
+
+describe('小节标题与提交后的原文位置',()=>{
+ const renderPractice=(q:Question,submitted=false)=>{
+  const state=emptyState();state.readingUnitId=q.readingUnitId;state.session={questionId:q.id,attemptId:null,selected:null,startedAt:1,elapsedBefore:0};
+  const attempt=submitted?grade(q,q.answer,state,100):undefined;
+  return renderToStaticMarkup(<ReadingPractice book={book} questions={qs} plan={plan} state={state} question={q} attempt={attempt} busy={false} onUnit={()=>{}} onSelect={()=>{}} onSubmit={()=>{}} onChat={()=>{}} onSource={()=>{}} onFavorite={()=>{}} onMark={()=>{}} onRetry={()=>{}}/>);
+ };
+ it('页首使用当前真实小节标题，切换小节时同步更新，移除三行介绍',()=>{
+  const next=qs.find(q=>q.sectionId!==qs[0].sectionId)!;
+  for(const q of [qs[0],next]){
+   const html=renderPractice(q),title=book.sections.find(s=>s.id===q.sectionId)!.title.replace(/^\d+\. /,'');
+   expect(html).toContain(`<h1 lang="en">${title}</h1>`);
+   for(const old of ['READ IN ORDER','读一小段，向前一点。','全书原句连续排列，每句只出现一次。'])expect(html).not.toContain(old);
+  }
+ });
+ it('提交前原文只在题目前出现，选择答案不泄露译文',()=>{
+  const html=renderPractice(qs[0]);
+  expect([...html.matchAll(/class="passage"/g)]).toHaveLength(1);
+  expect(html.indexOf('class="passage"')).toBeLessThan(html.indexOf('class="question-card"'));
+  expect(html).not.toContain('class="passage-translation"');expect(html).not.toContain('详细中文解析');
+ });
+ it('提交后原文只在第三部分中文释义上方出现，来源与字号保留',()=>{
+  const html=renderPractice(qs[0],true);
+  expect([...html.matchAll(/class="passage"/g)]).toHaveLength(1);
+  expect(html.indexOf('三、原文整段参考译文')).toBeLessThan(html.indexOf('class="passage"'));
+  expect(html.indexOf('class="passage"')).toBeLessThan(html.indexOf('class="translated-passage"'));
+  expect(html).toContain('来源、句子 ID 与排版规则');expect(html).toContain(`font-size:${emptyState().fontSize}px`);
+ });
+ it('无法匹配译文的历史快照仍显示原始英文，明确说明译文缺失',()=>{
+  const q={...qs[0],passage:'An unmatched historical passage.'};
+  const html=renderToStaticMarkup(<AnswerExplanation question={q} attempt={grade(q,q.answer,emptyState(),100)} favorites={[]} onFavorite={()=>{}}/>);
+  expect(html).toContain(q.passage);expect(html).toContain('此历史版本的整段译文尚未整理。');
+ });
 });

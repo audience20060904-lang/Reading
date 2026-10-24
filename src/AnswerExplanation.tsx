@@ -1,9 +1,10 @@
 import {Bookmark,Check,X} from 'lucide-react';
+import type {ReactNode} from 'react';
 import type {Attempt,Question,Vocabulary} from './types';
 import {letters} from './core';
 import {getQuestionTranslation} from './questionTranslations';
 import PassageTranslation from './PassageTranslation';
-export default function AnswerExplanation({question:q,attempt,favorites,onFavorite}:{question:Question;attempt?:Attempt;favorites:Vocabulary[];onFavorite:(v:Vocabulary)=>void}){
+export default function AnswerExplanation({question:q,attempt,favorites,onFavorite,original}:{question:Question;attempt?:Attempt;favorites:Vocabulary[];onFavorite:(v:Vocabulary)=>void;original?:ReactNode}){
  if(!attempt)return null;
  const translated=getQuestionTranslation(q);
  return <section className="explanation" aria-label="详细中文解析">
@@ -14,7 +15,7 @@ export default function AnswerExplanation({question:q,attempt,favorites,onFavori
    {q.analyses.map((a,i)=><div className={`analysis ${i===q.answer?'correct-analysis':''}`} key={i}><b>{letters[i]} {i===q.answer?'✓':''}</b><div className="option-analysis-copy"><p lang="en">{q.options[i]}</p><p className="option-translation" lang="zh-CN">{translated?.options[i]??'此历史版本的选项译文尚未整理。'}</p><p className="option-reason">{a.replace(/^[A-D]\s*/, '')}</p></div></div>)}
    <h3>二、重点词汇</h3><p className="muted small">英文例句为学习者编写，不是书中引文。</p>
    <div className="vocab-grid">{q.vocabulary.map(v=><article className="vocab" key={v.word}><button className={`bookmark ${favorites.some(x=>x.word===v.word)?'saved':''}`} onClick={()=>onFavorite(v)} aria-label={`收藏 ${v.word}`}><Bookmark size={17}/></button><h4 lang="en">{v.word}</h4><p>{v.meaning}</p><p className="muted">本句语境：{v.context}</p><p lang="en" className="example">{v.example}</p><p className="small">常见搭配：{v.collocations.join(' · ')}</p></article>)}</div>
-   <PassageTranslation question={q} submitted/>
+   <PassageTranslation question={q} submitted original={original}/>
   </div>
  </section>;
 }
