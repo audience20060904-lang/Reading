@@ -1,0 +1,121 @@
+{
+  "batchId": "batch-038",
+  "date": "2026-10-24",
+  "url": "https://audience20060904-lang.github.io/Reading/",
+  "repositoryVisibility": "public",
+  "sourceCommit": "bed3afed9e439c3cc5f8285b72f297d574ce6b4d",
+  "deploymentCommit": "ae8aa26b66f408325d73429afa701fa4c8619003",
+  "workflowRun": "https://github.com/audience20060904-lang/Reading/actions/runs/40054732195",
+  "workflowStatus": "completed",
+  "workflowConclusion": "success",
+  "verificationBasis": "Live browser tests and byte-identical deployed assets; workflow state recorded independently without assuming completion.",
+  "offlineVersion": "ebb2c06071ac20c0",
+  "addedQuestionIds": [
+    "q-c13-049",
+    "q-c13-050",
+    "q-c13-051",
+    "q-c13-052",
+    "q-c13-053",
+    "q-c13-054",
+    "q-c13-055",
+    "q-c13-056",
+    "q-c13-057",
+    "q-c13-058",
+    "q-c13-059",
+    "q-c13-060",
+    "q-c13-061",
+    "q-c13-062",
+    "q-c13-063",
+    "q-c13-064",
+    "q-c13-065",
+    "q-c13-066",
+    "q-c13-067",
+    "q-c13-068",
+    "q-c13-069",
+    "q-c13-070",
+    "q-c13-071",
+    "q-c13-072",
+    "q-c13-073"
+  ],
+  "preparedReadingUnits": 25,
+  "newContextCandidateSentences": 76,
+  "newEvidenceCandidateSentences": 40,
+  "targetManifest": "source/short-questions/batch038-targets.json",
+  "sourceReview": {
+    "pdfPages": [
+      151,
+      152,
+      153,
+      154,
+      155
+    ],
+    "pdfSha256": "be25c859f1bd894a4b0d1cff024ded1297f6a96a8e8ddabea1e3abcf89160a50",
+    "recheckedParagraphs": 11,
+    "newlyRecordedParagraphs": 11,
+    "record": "source/short-questions/review-chapter13-love-craft25.json",
+    "uniqueVisuallyCheckedParagraphsOverall": 413,
+    "mappedCandidateSentencesInReviewedParagraphs": 2833,
+    "newlyMappedCandidateSentences": 87,
+    "oldReviewedInNewContext": 0,
+    "extraReviewedUnprepared": 11,
+    "note": "完整PDF151–155原页视觉核对。Fincham研究明确随机组、四周每天至少一次为伴侣祈祷，控制组回想当日活动，结果自报；less likely非零不忠，holy是felt非宗教真理证明。B历史/音乐比喻归哲学角色，育儿例子不作无子女无情谊。万圣节事故细节作者省略不补造。Aron新奇任务路线/枕头约束与轮流滚球控制分开；63对为复现新样本，后续讨论亲爱动作是行为结果。40%自报十年以上婚姻属另一研究线，不混63对或影像样本；21.4是平均年限，激活奖励相关脑区不等于直接测同量多巴胺。self-expansion为理论，due in part/could非唯一因果保证；夫妻旅行采访非随机研究。Jiro例子锚定2011纪录片当时年龄与书载星级，顾客seemed非盲法试吃；30至45分钟、九岁离家40岁开店、十年清洁/200次个案不推广硬规则。私人/公开竞技是作者解释比较，不当临床证明或人物今日健康断言。额外章首正文及辅助材料源文审计仍开放，不宣称全书完整覆盖。"
+  },
+  "coverage": {
+    "questions": 953,
+    "readingUnits": 1053,
+    "preparedUnits": 953,
+    "unpreparedUnits": 100,
+    "candidateSentences": 3152,
+    "contextSentences": 2822,
+    "contextOnlySentences": 1487,
+    "evidenceSentences": 1335,
+    "notDirectlyQuestioned": 1817,
+    "fullCoverage": false,
+    "sourceAudit": {
+      "status": "open",
+      "knownPendingBodyBlocks": 1,
+      "pendingTaskIds": [
+        "audit-c13-opening-p144-b005",
+        "audit-all-chapter-opening-exclusions"
+      ],
+      "record": "source/content-audit-tasks.json"
+    }
+  },
+  "validation": {
+    "unitTests": 234,
+    "localGeneralBrowserChecks": 25,
+    "localBatchBrowserChecks": 5,
+    "liveBatchBrowserChecks": 5,
+    "walkedReadingUnitsPerRun": 25,
+    "newUnitsVisitedPerRun": 25,
+    "syntheticAttemptsPerRun": 26,
+    "productionBuild": "passed",
+    "previousPublishedQuestionObjectsUnchanged": 928,
+    "readingUnitIdsAndRangesUnchanged": 1053,
+    "authoringRegeneration": "nine content artifacts byte-for-byte reproducible",
+    "newAnswerPositionCounts": [
+      7,
+      6,
+      6,
+      6
+    ],
+    "liveAssetIntegrity": "all manifest assets and SW match tested build byte-for-byte",
+    "navigation": "all 25 units traversed in original order with exact paragraph reconstruction, bilingual options, vocabulary and final translation",
+    "history": "previous synthetic attempt unchanged; statistics, reload, history view and IndexedDB recovery verified",
+    "offline": "browser simulated offline and general local suite real HTTP service shutdown/cache reload",
+    "initialFailureAndFix": "The first 234-test run had 233 passing tests and one assertion looking for the exact Chinese label 自报 in an analysis field that used reported instead. The correct bilingual option already explicitly said 自报, and the analysis distinguished reporting from continuous researcher observation. Corrected the test to verify those user-visible fields; no source text or prior question was changed and publication did not proceed until the complete suite passed."
+  },
+  "limits": [
+    "每段一题不等于逐句证据覆盖：本批上下文76个候选句、直接证据40个。",
+    "尚有100个短段未配题，1817个候选句无直接证据题。候选句不是人工最终分句；原页审阅、上下文、直接证据分别计数。",
+    "390px Edge视口不是实体手机；模拟离线不等于关闭Windows网卡，通用本地套件另行停止HTTP服务后重载。",
+    "所有作答为隔离合成记录，未读取或上传真实学习数据。",
+    "完整PDF151–155原页视觉核对。Fincham研究明确随机组、四周每天至少一次为伴侣祈祷，控制组回想当日活动，结果自报；less likely非零不忠，holy是felt非宗教真理证明。B历史/音乐比喻归哲学角色，育儿例子不作无子女无情谊。万圣节事故细节作者省略不补造。Aron新奇任务路线/枕头约束与轮流滚球控制分开；63对为复现新样本，后续讨论亲爱动作是行为结果。40%自报十年以上婚姻属另一研究线，不混63对或影像样本；21.4是平均年限，激活奖励相关脑区不等于直接测同量多巴胺。self-expansion为理论，due in part/could非唯一因果保证；夫妻旅行采访非随机研究。Jiro例子锚定2011纪录片当时年龄与书载星级，顾客seemed非盲法试吃；30至45分钟、九岁离家40岁开店、十年清洁/200次个案不推广硬规则。私人/公开竞技是作者解释比较，不当临床证明或人物今日健康断言。额外章首正文及辅助材料源文审计仍开放，不宣称全书完整覆盖。",
+    "现有1053短段之外仍有已确认的章首正文缺口及全章首/辅助材料审计待办，详见source/content-audit-tasks.json；不能据现有候选池断言全书完整。"
+  ],
+  "nextBatch": {
+    "chapterId": "c13",
+    "readingUnitId": "c13-s05-p155-01140-r004-007",
+    "pdfPage": 155
+  }
+}
