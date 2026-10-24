@@ -1,0 +1,125 @@
+{
+  "batchId": "batch-041",
+  "date": "2026-10-24",
+  "url": "https://audience20060904-lang.github.io/Reading/",
+  "repositoryVisibility": "public",
+  "sourceCommit": "ef3f10adba47d1670afabf1dddcedbb23878646e",
+  "deploymentCommit": "303ada1a2f123450c9e6527e54fb41d2f7d8e343",
+  "workflowRun": "https://github.com/audience20060904-lang/Reading/actions/runs/40081429951",
+  "workflowStatus": "completed",
+  "workflowConclusion": "success",
+  "verificationBasis": "Live browser tests and byte-identical deployed assets; workflow state recorded independently without assuming completion.",
+  "offlineVersion": "2fa5f1d8851879bb",
+  "addedQuestionIds": [
+    "q-c14-023",
+    "q-c14-024",
+    "q-c14-025",
+    "q-c14-026",
+    "q-c14-027",
+    "q-c14-028",
+    "q-c14-029",
+    "q-c14-030",
+    "q-c14-031",
+    "q-c14-032",
+    "q-c14-033",
+    "q-c14-034",
+    "q-c14-035",
+    "q-c14-036",
+    "q-c14-037",
+    "q-c14-038",
+    "q-c14-039",
+    "q-c14-040",
+    "q-c14-041",
+    "q-c14-042",
+    "q-c14-043",
+    "q-c14-044",
+    "q-c14-045",
+    "q-c14-046",
+    "q-c14-047"
+  ],
+  "preparedReadingUnits": 25,
+  "newContextCandidateSentences": 81,
+  "newEvidenceCandidateSentences": 42,
+  "targetManifest": "source/short-questions/batch041-targets.json",
+  "sourceReview": {
+    "pdfPages": [
+      163,
+      164,
+      165,
+      166
+    ],
+    "pdfSha256": "be25c859f1bd894a4b0d1cff024ded1297f6a96a8e8ddabea1e3abcf89160a50",
+    "recheckedParagraphs": 11,
+    "newlyRecordedParagraphs": 11,
+    "record": "source/short-questions/review-chapter14-travel-paths25.json",
+    "uniqueVisuallyCheckedParagraphsOverall": 444,
+    "mappedCandidateSentencesInReviewedParagraphs": 3076,
+    "newlyMappedCandidateSentences": 81,
+    "oldReviewedInNewContext": 0,
+    "extraReviewedUnprepared": 0,
+    "note": "完整PDF163–166原页视觉核对。游轮/背包为比喻非旅游产品推荐；九国受访中many Americans非全体，一名UVA学生非九国统一答案。700机票/250三十日通票为作者昔日回忆非当前报价；1988市中心描述不扩为今日城市安全结论。末程三天约70小时、20美元被骗等于日预算非全程旅费。男子承诺与实际消失分段区分，骑警经历个人叙述不推广群体。Chicago聚会后才知Wisconsin，不补路线/绑架；饮酒和接受邀请为回忆非给读者行动要求。Foer同名主人公为小说例证，heritage/coherence/significance关联意义不强制人生路径。志愿项目只作书中例子非质量认证；朋友/地点示例非互斥类型。歌曲为艺术引述非实证城市承诺。作者明确not best/not always better/one way，三维可共存，Sacks seemed与Linda seems保留；1980年代in earnest不否认古代哲思；未来第四维might/文化差异likely非已发现。既有候选池与两段额外开章正文/辅助材料审计仍区分，不宣称全书完成。"
+  },
+  "coverage": {
+    "questions": 1028,
+    "readingUnits": 1053,
+    "preparedUnits": 1028,
+    "unpreparedUnits": 25,
+    "candidateSentences": 3152,
+    "contextSentences": 3076,
+    "contextOnlySentences": 1615,
+    "evidenceSentences": 1461,
+    "notDirectlyQuestioned": 1691,
+    "fullCoverage": false,
+    "sourceAudit": {
+      "status": "open",
+      "knownPendingBodyBlocks": 2,
+      "pendingTaskIds": [
+        "audit-c13-opening-p144-b005",
+        "audit-all-chapter-opening-exclusions",
+        "audit-c14-opening-p160-b005"
+      ],
+      "record": "source/content-audit-tasks.json"
+    }
+  },
+  "validation": {
+    "unitTests": 256,
+    "localGeneralBrowserChecks": 25,
+    "localBatchBrowserChecks": 5,
+    "liveBatchBrowserChecks": 5,
+    "walkedReadingUnitsPerRun": 25,
+    "newUnitsVisitedPerRun": 25,
+    "syntheticAttemptsPerRun": 26,
+    "productionBuild": "passed",
+    "previousPublishedQuestionObjectsUnchanged": 1003,
+    "readingUnitIdsAndRangesUnchanged": 1053,
+    "authoringRegeneration": "nine content artifacts byte-for-byte reproducible",
+    "newAnswerPositionCounts": [
+      8,
+      5,
+      6,
+      6
+    ],
+    "liveAssetIntegrity": "all manifest assets and SW match tested build byte-for-byte",
+    "navigation": "all 25 units traversed in original order with exact paragraph reconstruction, bilingual options, vocabulary and final translation",
+    "history": "previous synthetic attempt unchanged; statistics, reload, history view and IndexedDB recovery verified",
+    "offline": "browser simulated offline and general local suite real HTTP service shutdown/cache reload",
+    "interface": "Current source section heading; exactly one original passage before submission above the question and after submission above the Chinese translation in part III. Verified locally and live on all 25 new questions, with reload and history recovery."
+  },
+  "limits": [
+    "每段一题不等于逐句证据覆盖：本批上下文为81个候选句，直接证据为42个候选句。",
+    "现有1053个短段中还有25段未配题；1691个候选句尚无直接证据题。候选句不等于人工最终分句。",
+    "现有候选池之外，两段已确认的开章正文及全书开章、辅助材料审计仍待处理，详见source/content-audit-tasks.json，不能据此宣称全书完成。",
+    "390px Edge视口测试不是实体手机测试；浏览器模拟离线不等于关闭Windows网卡，通用本地套件另行停止HTTP服务后验证缓存重载。",
+    "所有测试作答均为隔离合成记录，未读取或上传真实个人学习数据。",
+    "完整PDF163–166原页视觉核对。游轮/背包为比喻非旅游产品推荐；九国受访中many Americans非全体，一名UVA学生非九国统一答案。700机票/250三十日通票为作者昔日回忆非当前报价；1988市中心描述不扩为今日城市安全结论。末程三天约70小时、20美元被骗等于日预算非全程旅费。男子承诺与实际消失分段区分，骑警经历个人叙述不推广群体。Chicago聚会后才知Wisconsin，不补路线/绑架；饮酒和接受邀请为回忆非给读者行动要求。Foer同名主人公为小说例证，heritage/coherence/significance关联意义不强制人生路径。志愿项目只作书中例子非质量认证；朋友/地点示例非互斥类型。歌曲为艺术引述非实证城市承诺。作者明确not best/not always better/one way，三维可共存，Sacks seemed与Linda seems保留；1980年代in earnest不否认古代哲思；未来第四维might/文化差异likely非已发现。既有候选池与两段额外开章正文/辅助材料审计仍区分，不宣称全书完成。"
+  ],
+  "nextBatch": {
+    "chapterId": "c14",
+    "readingUnitId": "c14-s04-p166-05940-r001-004",
+    "pdfPage": 166
+  },
+  "interfaceChanges": [
+    "Practice page heading uses the current original English section title instead of the three introductory lines.",
+    "After submission, the sole original passage and its source details move above the Chinese translation in explanation part III. Before submission the passage remains above the question."
+  ]
+}
