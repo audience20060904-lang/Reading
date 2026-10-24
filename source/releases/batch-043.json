@@ -1,0 +1,247 @@
+{
+  "batchId": "batch-043",
+  "date": "2026-10-24",
+  "url": "https://audience20060904-lang.github.io/Reading/",
+  "repositoryVisibility": "public",
+  "sourceCommit": "b18e48388e9620a0ca49ac14256e23a872f0ebc6",
+  "deploymentCommit": "d628f7b65340cf6885be4ff09bc8e004ff180c56",
+  "workflowRun": "https://github.com/audience20060904-lang/Reading/actions/runs/40083169118",
+  "workflowStatus": "completed",
+  "workflowConclusion": "success",
+  "offlineVersion": "f3e42a0cf8e6f1b0",
+  "addedQuestionIds": [
+    "q-c13-102",
+    "q-c13-103",
+    "q-c14-073"
+  ],
+  "preparedReadingUnits": 3,
+  "newContextCandidateSentences": 8,
+  "newEvidenceCandidateSentences": 4,
+  "targetManifest": "source/short-questions/batch043-targets.json",
+  "sourceReview": {
+    "pdfSha256": "be25c859f1bd894a4b0d1cff024ded1297f6a96a8e8ddabea1e3abcf89160a50",
+    "newBodyPdfPages": [
+      144,
+      160
+    ],
+    "allAuditPdfPages": [
+      7,
+      11,
+      12,
+      15,
+      17,
+      27,
+      35,
+      44,
+      53,
+      54,
+      68,
+      79,
+      89,
+      98,
+      99,
+      103,
+      104,
+      122,
+      133,
+      144,
+      160
+    ],
+    "auditedBlocks": 49,
+    "bodyParagraphsAdded": 2,
+    "supportBlocksRestored": 17,
+    "supportMaterialsRestored": 8,
+    "originalNumberedSections": 87,
+    "unnumberedOpeningGroups": 2,
+    "record": "source/source-audit-review.json",
+    "authoring": "scripts/batches/audited-openings.py",
+    "paragraphReviewRecord": "source/short-questions/review-audited-openings.json"
+  },
+  "coverage": {
+    "pdfPages": 264,
+    "chapters": 14,
+    "sections": 87,
+    "readingGroups": 89,
+    "supportMaterials": 8,
+    "candidateParagraphs": 459,
+    "candidateSentences": 3160,
+    "proofreadSentences": 3160,
+    "contextSentences": 3160,
+    "contextOnlySentences": 1662,
+    "evidenceSentences": 1498,
+    "notDirectlyQuestioned": 1662,
+    "questions": 1056,
+    "excludedBlocks": 160,
+    "fullCoverage": false,
+    "byChapter": [
+      {
+        "id": "c01",
+        "candidates": 177,
+        "proofread": 177,
+        "context": 177,
+        "evidence": 118,
+        "questions": 77
+      },
+      {
+        "id": "c02",
+        "candidates": 240,
+        "proofread": 240,
+        "context": 240,
+        "evidence": 130,
+        "questions": 86
+      },
+      {
+        "id": "c03",
+        "candidates": 138,
+        "proofread": 138,
+        "context": 138,
+        "evidence": 79,
+        "questions": 47
+      },
+      {
+        "id": "c04",
+        "candidates": 167,
+        "proofread": 167,
+        "context": 167,
+        "evidence": 80,
+        "questions": 54
+      },
+      {
+        "id": "c05",
+        "candidates": 190,
+        "proofread": 190,
+        "context": 190,
+        "evidence": 91,
+        "questions": 59
+      },
+      {
+        "id": "c06",
+        "candidates": 269,
+        "proofread": 269,
+        "context": 269,
+        "evidence": 115,
+        "questions": 91
+      },
+      {
+        "id": "c07",
+        "candidates": 226,
+        "proofread": 226,
+        "context": 226,
+        "evidence": 95,
+        "questions": 72
+      },
+      {
+        "id": "c08",
+        "candidates": 183,
+        "proofread": 183,
+        "context": 183,
+        "evidence": 85,
+        "questions": 61
+      },
+      {
+        "id": "c09",
+        "candidates": 254,
+        "proofread": 254,
+        "context": 254,
+        "evidence": 103,
+        "questions": 84
+      },
+      {
+        "id": "c10",
+        "candidates": 368,
+        "proofread": 368,
+        "context": 368,
+        "evidence": 147,
+        "questions": 119
+      },
+      {
+        "id": "c11",
+        "candidates": 195,
+        "proofread": 195,
+        "context": 195,
+        "evidence": 79,
+        "questions": 64
+      },
+      {
+        "id": "c12",
+        "candidates": 196,
+        "proofread": 196,
+        "context": 196,
+        "evidence": 101,
+        "questions": 66
+      },
+      {
+        "id": "c13",
+        "candidates": 325,
+        "proofread": 325,
+        "context": 325,
+        "evidence": 162,
+        "questions": 103
+      },
+      {
+        "id": "c14",
+        "candidates": 232,
+        "proofread": 232,
+        "context": 232,
+        "evidence": 113,
+        "questions": 73
+      }
+    ],
+    "notice": "自动分句仅为候选；审校、上下文和直接证据分别计数。即使每节有题，也不等于逐句覆盖。未配题内容保留原文及待办，不生成占位题。",
+    "sourceAudit": {
+      "status": "completed",
+      "knownPendingBodyBlocks": 0,
+      "pendingTaskIds": [],
+      "record": "source/content-audit-tasks.json"
+    },
+    "readingUnits": 1056,
+    "preparedUnits": 1056,
+    "unpreparedUnits": 0,
+    "originalReadingUnitsRetained": 1053
+  },
+  "validation": {
+    "unitTests": 272,
+    "productionBuild": "passed",
+    "localGeneralBrowserChecks": 25,
+    "localBatchBrowserChecks": 5,
+    "liveBatchBrowserChecks": 5,
+    "previousPublishedQuestionObjectsUnchanged": 1053,
+    "previousReadingUnitObjectsUnchanged": 1053,
+    "authoringRegeneration": "nine artifacts byte-for-byte reproducible after additive apply and authored content regeneration",
+    "liveAssetIntegrity": "all 12 manifest assets and SW match tested build byte-for-byte, including PNG figure bytes",
+    "syntheticAttemptsPerAuditRun": 4,
+    "history": "old attempt unchanged; statistics, historic view and reload verified",
+    "interface": "new opening headings; submit-gated translations; English passage appears once directly above final Chinese translation",
+    "support": "all 8 groups rendered in source order; original table values and three actual PDF figures display on 390px browser viewport",
+    "offline": "audit browser offline reload recovers figures and new submitted explanations; general suite additionally shuts down its actual local HTTP server",
+    "initialFailuresAndFixes": [
+      "Windows temporary write errors during regeneration: identical generated files now skip reopening, relevant transient writes retry boundedly, unnecessary interim legacy question output removed; nine final artifacts then reproduced byte-for-byte.",
+      "Historical batch tests now use the immutable original 1053-unit pool while dedicated audit tests validate all additive units and original objects.",
+      "New QA server reads a file before writing 200 headers; offline lazy-image check scrolls the image into view and waits boundedly. These were QA harness issues."
+    ]
+  },
+  "limits": [
+    "全部已知14章叙事正文短段均已配题，不等于每句都有独立直接证据题。1498个候选句直接作证据，1662个仅作上下文。",
+    "3160为候选句计数；原页审阅映射不等于旧3152句已人工最终审定句界。新增8句的边界已核对，历史跨页与日语续片例外保留在来源说明中。",
+    "8组标题、表格和图示不计入叙事候选句、题目数或答题成绩。章首引文、书前和书后材料有单列排除原因。",
+    "390px Edge不等于实体手机；浏览器模拟离线不等于关闭Windows网卡。",
+    "所有测试作答为隔离合成记录，未读取或上传真实学习数据。"
+  ],
+  "nextBatch": {
+    "phase": "no-pending-reading-or-source-audit-tasks",
+    "remainingReadingUnitIds": [],
+    "pendingSourceAuditTaskIds": [],
+    "optionalFurtherWork": "Only if requested: add more direct-evidence exercises without altering existing fingerprints or historical scores."
+  },
+  "thisUserRequest": {
+    "addedQuestions": 28,
+    "batches": [
+      "batch-042",
+      "batch-043"
+    ],
+    "previousPreparedQuestions": 1028,
+    "currentPreparedQuestions": 1056,
+    "questionBacklog": 0,
+    "knownBodyAuditBacklog": 0
+  }
+}
