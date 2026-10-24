@@ -1,0 +1,121 @@
+{
+  "batchId": "batch-039",
+  "date": "2026-10-24",
+  "url": "https://audience20060904-lang.github.io/Reading/",
+  "repositoryVisibility": "public",
+  "sourceCommit": "3cd5d80d03392087090a74dcf389f051299fd300",
+  "deploymentCommit": "481e9bcb68b6dbf4778b24155c9075dc6c30c989",
+  "workflowRun": "https://github.com/audience20060904-lang/Reading/actions/runs/40055183974",
+  "workflowStatus": "completed",
+  "workflowConclusion": "success",
+  "verificationBasis": "Live browser tests and byte-identical deployed assets; workflow state recorded independently without assuming completion.",
+  "offlineVersion": "9aba9f857e18dad0",
+  "addedQuestionIds": [
+    "q-c13-074",
+    "q-c13-075",
+    "q-c13-076",
+    "q-c13-077",
+    "q-c13-078",
+    "q-c13-079",
+    "q-c13-080",
+    "q-c13-081",
+    "q-c13-082",
+    "q-c13-083",
+    "q-c13-084",
+    "q-c13-085",
+    "q-c13-086",
+    "q-c13-087",
+    "q-c13-088",
+    "q-c13-089",
+    "q-c13-090",
+    "q-c13-091",
+    "q-c13-092",
+    "q-c13-093",
+    "q-c13-094",
+    "q-c13-095",
+    "q-c13-096",
+    "q-c13-097",
+    "q-c13-098"
+  ],
+  "preparedReadingUnits": 25,
+  "newContextCandidateSentences": 89,
+  "newEvidenceCandidateSentences": 41,
+  "targetManifest": "source/short-questions/batch039-targets.json",
+  "sourceReview": {
+    "pdfPages": [
+      155,
+      156,
+      157,
+      158
+    ],
+    "pdfSha256": "be25c859f1bd894a4b0d1cff024ded1297f6a96a8e8ddabea1e3abcf89160a50",
+    "recheckedParagraphs": 10,
+    "newlyRecordedParagraphs": 9,
+    "record": "source/short-questions/review-chapter13-devotion-art25.json",
+    "uniqueVisuallyCheckedParagraphsOverall": 422,
+    "mappedCandidateSentencesInReviewedParagraphs": 2911,
+    "newlyMappedCandidateSentences": 78,
+    "oldReviewedInNewContext": 11,
+    "extraReviewedUnprepared": 0,
+    "note": "完整PDF155–158原页视觉核对。Jiro有竞争者但未同等被紧盯比较，不改成毫无竞争；toes为警醒习语，反刍解释非普遍临床因果，童年玩心出自同学访谈。职业路径provided that深度足够才可探索，one way非唯一。Spotify11,861,427/30,561,926为as of this writing快照非实时；大学生偏好为作者观察，音乐多样性One possible explanation与Pet Sounds反事实不作已证因果，承认Beach Boys作品也多样，作曲者比较仅归本段。Yesterday情节为电影非现实，哭泣为作者歌词共鸣不补歌词或全家反应。怀旧有联系/意义等益处，熟悉对象中新发现区别于纯怀旧。Offill重读人物Septimus/Clarissa/Peter按阶段，不混小说人物与现实作者，fifty-second year保留原措辞不擅算已满52。Peter/Sally/Richard角色与话语分清；brain/heart为文学比喻，Not a word为人物答话，and laughed续接旧边界不当独立最终句。吸引原因mystery不补造；文学例证非实验。额外正文审计待办保持开放，不以候选池完整代替全书正文完整。"
+  },
+  "coverage": {
+    "questions": 978,
+    "readingUnits": 1053,
+    "preparedUnits": 978,
+    "unpreparedUnits": 75,
+    "candidateSentences": 3152,
+    "contextSentences": 2911,
+    "contextOnlySentences": 1535,
+    "evidenceSentences": 1376,
+    "notDirectlyQuestioned": 1776,
+    "fullCoverage": false,
+    "sourceAudit": {
+      "status": "open",
+      "knownPendingBodyBlocks": 1,
+      "pendingTaskIds": [
+        "audit-c13-opening-p144-b005",
+        "audit-all-chapter-opening-exclusions"
+      ],
+      "record": "source/content-audit-tasks.json"
+    }
+  },
+  "validation": {
+    "unitTests": 240,
+    "localGeneralBrowserChecks": 25,
+    "localBatchBrowserChecks": 5,
+    "liveBatchBrowserChecks": 5,
+    "walkedReadingUnitsPerRun": 25,
+    "newUnitsVisitedPerRun": 25,
+    "syntheticAttemptsPerRun": 26,
+    "productionBuild": "passed",
+    "previousPublishedQuestionObjectsUnchanged": 953,
+    "readingUnitIdsAndRangesUnchanged": 1053,
+    "authoringRegeneration": "nine content artifacts byte-for-byte reproducible",
+    "newAnswerPositionCounts": [
+      6,
+      6,
+      7,
+      6
+    ],
+    "liveAssetIntegrity": "all manifest assets and SW match tested build byte-for-byte",
+    "navigation": "all 25 units traversed in original order with exact paragraph reconstruction, bilingual options, vocabulary and final translation",
+    "history": "previous synthetic attempt unchanged; statistics, reload, history view and IndexedDB recovery verified",
+    "offline": "browser simulated offline and general local suite real HTTP service shutdown/cache reload",
+    "initialFailureAndFix": "The first 240-test run had 239 passing tests. One new wording assertion expected 文学, while the authored analysis explicitly said 小说对白 and 不是医学实验. Corrected the assertion to verify the actual non-medical interpretation and selected English option; source text, authored answers, and all previously published questions were unchanged. Full suite and build were rerun before any publication."
+  },
+  "sourceNotes": "source/short-questions/batch039-source-notes.json",
+  "limits": [
+    "每段一题不等于逐句证据覆盖：本批上下文89个候选句、直接证据41个。",
+    "尚有75个短段未配题，1776个候选句无直接证据题。候选句不是人工最终分句；原页审阅、上下文、直接证据分别计数。",
+    "390px Edge视口不是实体手机；模拟离线不等于关闭Windows网卡，通用本地套件另行停止HTTP服务后重载。",
+    "所有作答为隔离合成记录，未读取或上传真实学习数据。",
+    "完整PDF155–158原页视觉核对。Jiro有竞争者但未同等被紧盯比较，不改成毫无竞争；toes为警醒习语，反刍解释非普遍临床因果，童年玩心出自同学访谈。职业路径provided that深度足够才可探索，one way非唯一。Spotify11,861,427/30,561,926为as of this writing快照非实时；大学生偏好为作者观察，音乐多样性One possible explanation与Pet Sounds反事实不作已证因果，承认Beach Boys作品也多样，作曲者比较仅归本段。Yesterday情节为电影非现实，哭泣为作者歌词共鸣不补歌词或全家反应。怀旧有联系/意义等益处，熟悉对象中新发现区别于纯怀旧。Offill重读人物Septimus/Clarissa/Peter按阶段，不混小说人物与现实作者，fifty-second year保留原措辞不擅算已满52。Peter/Sally/Richard角色与话语分清；brain/heart为文学比喻，Not a word为人物答话，and laughed续接旧边界不当独立最终句。吸引原因mystery不补造；文学例证非实验。额外正文审计待办保持开放，不以候选池完整代替全书正文完整。",
+    "现有1053短段之外仍有已确认的章首正文缺口及全章首/辅助材料审计待办，详见source/content-audit-tasks.json；不能据现有候选池断言全书完整。"
+  ],
+  "nextBatch": {
+    "chapterId": "c13",
+    "readingUnitId": "c13-s08-p159-00982-r001-004",
+    "pdfPage": 159
+  }
+}
