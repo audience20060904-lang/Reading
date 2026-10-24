@@ -1,0 +1,124 @@
+{
+  "batchId": "batch-042",
+  "date": "2026-10-24",
+  "url": "https://audience20060904-lang.github.io/Reading/",
+  "repositoryVisibility": "public",
+  "sourceCommit": "6c9cb8de38b02086c9269c2321943a3e5dba3661",
+  "deploymentCommit": "da8a01dce2515084d591b0ba224f88d66d2737fa",
+  "workflowRun": "https://github.com/audience20060904-lang/Reading/actions/runs/40082351647",
+  "workflowStatus": "completed",
+  "workflowConclusion": "success",
+  "verificationBasis": "Live browser tests and byte-identical deployed assets; workflow state recorded independently without assuming completion.",
+  "offlineVersion": "60e6908fb6eeff6e",
+  "addedQuestionIds": [
+    "q-c14-048",
+    "q-c14-049",
+    "q-c14-050",
+    "q-c14-051",
+    "q-c14-052",
+    "q-c14-053",
+    "q-c14-054",
+    "q-c14-055",
+    "q-c14-056",
+    "q-c14-057",
+    "q-c14-058",
+    "q-c14-059",
+    "q-c14-060",
+    "q-c14-061",
+    "q-c14-062",
+    "q-c14-063",
+    "q-c14-064",
+    "q-c14-065",
+    "q-c14-066",
+    "q-c14-067",
+    "q-c14-068",
+    "q-c14-069",
+    "q-c14-070",
+    "q-c14-071",
+    "q-c14-072"
+  ],
+  "preparedReadingUnits": 25,
+  "newContextCandidateSentences": 76,
+  "newEvidenceCandidateSentences": 33,
+  "targetManifest": "source/short-questions/batch042-targets.json",
+  "sourceReview": {
+    "pdfPages": [
+      166,
+      167,
+      168,
+      169
+    ],
+    "pdfSha256": "be25c859f1bd894a4b0d1cff024ded1297f6a96a8e8ddabea1e3abcf89160a50",
+    "recheckedParagraphs": 13,
+    "newlyRecordedParagraphs": 13,
+    "record": "source/short-questions/review-chapter14-final25.json",
+    "uniqueVisuallyCheckedParagraphsOverall": 457,
+    "mappedCandidateSentencesInReviewedParagraphs": 3152,
+    "newlyMappedCandidateSentences": 76,
+    "oldReviewedInNewContext": 0,
+    "extraReviewedUnprepared": 0,
+    "note": "完整PDF166–169原页视觉核对。Top Ten是玩心式总结，非实验排行；Calhoun回忆与作者建议不作普遍安全承诺。often/may/once in a while/at least范围保留；文学比喻、Ed诗歌与当天感受关联区分，不改成实证因果。既有PDF167→168的sitting/quietly和168→169的Stop by a/gallery边界为跨页续文，固定原句及ID不重复补字，详见batch042-source-notes.json。既有池配题完成仍有章首正文/辅助材料源文审计待办。"
+  },
+  "coverage": {
+    "questions": 1053,
+    "readingUnits": 1053,
+    "preparedUnits": 1053,
+    "unpreparedUnits": 0,
+    "candidateSentences": 3152,
+    "contextSentences": 3152,
+    "contextOnlySentences": 1658,
+    "evidenceSentences": 1494,
+    "notDirectlyQuestioned": 1658,
+    "fullCoverage": false,
+    "sourceAudit": {
+      "status": "open",
+      "knownPendingBodyBlocks": 2,
+      "pendingTaskIds": [
+        "audit-c13-opening-p144-b005",
+        "audit-all-chapter-opening-exclusions",
+        "audit-c14-opening-p160-b005"
+      ],
+      "record": "source/content-audit-tasks.json"
+    }
+  },
+  "validation": {
+    "unitTests": 262,
+    "localGeneralBrowserChecks": 25,
+    "localBatchBrowserChecks": 5,
+    "liveBatchBrowserChecks": 5,
+    "walkedReadingUnitsPerRun": 25,
+    "newUnitsVisitedPerRun": 25,
+    "syntheticAttemptsPerRun": 26,
+    "productionBuild": "passed",
+    "previousPublishedQuestionObjectsUnchanged": 1028,
+    "readingUnitIdsAndRangesUnchanged": 1053,
+    "authoringRegeneration": "nine content artifacts byte-for-byte reproducible",
+    "newAnswerPositionCounts": [
+      6,
+      6,
+      7,
+      6
+    ],
+    "liveAssetIntegrity": "all manifest assets and SW match tested build byte-for-byte",
+    "navigation": "all 25 units traversed in original order with exact paragraph reconstruction, bilingual options, vocabulary and final translation",
+    "history": "previous synthetic attempt unchanged; statistics, reload, history view and IndexedDB recovery verified",
+    "offline": "browser simulated offline and general local suite real HTTP service shutdown/cache reload",
+    "initialFailureAndFix": "Final unit preparation exposed a hard-coded false allQuestionsPrepared flag. It now derives from actual unit question references; fullCoverage remains false and source-audit pending tasks remain explicit."
+  },
+  "sourceNotes": "source/short-questions/batch042-source-notes.json",
+  "limits": [
+    "现有1053短段均配题，仍有两段已确认开章正文待纳入及全体章首/辅助材料审计待办。",
+    "3152为候选分句，不是人工最终句数；1494候选句为直接证据，1658仅在上下文，不能宣称逐句直接证据全覆盖。",
+    "本批76候选句入上下文、33候选句作直接证据，旧跨页边界逐项见batch042-source-notes.json。",
+    "隔离Edge390px测试不是实体手机；模拟离线不等于关闭网卡，另有停止HTTP服务的缓存重载验证。",
+    "所有测试为合成记录，未读取或上传真实个人学习数据。"
+  ],
+  "nextBatch": {
+    "phase": "source-audit",
+    "taskIds": [
+      "audit-c13-opening-p144-b005",
+      "audit-all-chapter-opening-exclusions",
+      "audit-c14-opening-p160-b005"
+    ]
+  }
+}
