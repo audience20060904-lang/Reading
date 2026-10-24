@@ -1,3 +1,4 @@
+import {originalReadingPool} from './original-reading-pool';
 import {describe,it,expect} from 'vitest';
 import {readFileSync} from 'node:fs';
 import {createHash} from 'node:crypto';
@@ -6,7 +7,7 @@ import type {Book,Question,ReadingPlan} from '../src/types';
 import {emptyState,grade,exportBackup,parseBackup,restoreReadingState,statistics} from '../src/core';
 import {getQuestionTranslation} from '../src/questionTranslations';
 const read=(p:string)=>JSON.parse(readFileSync(p,'utf8'));
-const b=read('public/data/book.json') as Book,qs=read('public/data/questions.json') as Question[],plan=read('public/data/reading-plan.json') as ReadingPlan;
+const b=read('public/data/book.json') as Book,qs=read('public/data/questions.json') as Question[],plan=originalReadingPool(read('public/data/reading-plan.json') as ReadingPlan);
 const targets=read('source/short-questions/batch042-targets.json').targets as {questionId:string;readingUnitId:string;passageSha256:string}[];
 const hash=(s:string)=>createHash('sha256').update(s).digest('hex');
 const q=(id:string)=>qs.find(q=>q.id===id)!;
@@ -44,7 +45,7 @@ describe('批次042连续25单元',()=>{
   const n=q('q-c14-070');expect(n.options[n.answer]).toContain('As an association');expect(n.analyses[0]).toContain('因果保证');
   const end=q('q-c14-072');expect(end.passage).toContain('why didn’t you?');expect(end.passage).toContain('why don’t you?');
   const notes=read('source/short-questions/batch042-source-notes.json');expect(notes.crossPageContinuations.map((x:any)=>x.boundary)).toEqual(['sitting | quietly','Stop by a | gallery']);
-  const tasks=read('source/content-tasks.json');expect(tasks.nextBatch.phase).toBe('source-audit');expect(tasks.nextBatch.pendingSourceAuditTaskIds.length).toBeGreaterThan(0);
-  expect(plan.coverage.allQuestionsPrepared).toBe(true);expect(read('public/data/coverage.json').sourceAudit.knownPendingBodyBlocks).toBe(2);
+  const snapshot=read('source/releases/batch-042.json');expect(snapshot.nextBatch.phase).toBe('source-audit');expect(snapshot.nextBatch.taskIds.length).toBeGreaterThan(0);
+  expect(plan.coverage.allQuestionsPrepared).toBe(true);expect(snapshot.coverage.sourceAudit.knownPendingBodyBlocks).toBe(2);
  });
 });

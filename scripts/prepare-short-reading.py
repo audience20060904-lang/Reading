@@ -6,7 +6,16 @@ import json,hashlib,re,runpy,copy
 ROOT=Path(__file__).resolve().parents[1]
 load=lambda p:json.loads((ROOT/p).read_text(encoding='utf8'))
 def save(p,v):
- path=ROOT/p;path.parent.mkdir(parents=True,exist_ok=True);path.write_text(json.dumps(v,ensure_ascii=False,indent=2)+'\n',encoding='utf8',newline='\n')
+ path=ROOT/p;path.parent.mkdir(parents=True,exist_ok=True);content=json.dumps(v,ensure_ascii=False,indent=2)+'\n'
+ if path.exists() and path.read_text(encoding='utf8')==content:return
+ import time
+ for attempt in range(5):
+  try:
+   path.write_text(content,encoding='utf8',newline='\n')
+   return
+  except OSError as error:
+   if attempt==4 or error.errno not in (13,22):raise
+   time.sleep(.1*(attempt+1))
 b=load('public/data/book.json');assert b['pdfSha256']=='be25c859f1bd894a4b0d1cff024ded1297f6a96a8e8ddabea1e3abcf89160a50'
 archive=ROOT/'source/archive/questions-v1.json'
 if not archive.exists():

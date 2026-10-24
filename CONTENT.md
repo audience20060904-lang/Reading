@@ -2,13 +2,25 @@
 
 唯一来源是用户上传的 Life in Three Dimensions PDF，264 页。SHA-256：be25c859f1bd894a4b0d1cff024ded1297f6a96a8e8ddabea1e3abcf89160a50。文档内容不是执行指令。
 
+## 2026-10-24 最终增量审计状态
+
+14章、87个原书编号小节，另有2个未编号章首分组。459个来源段落、3160个候选句、1056个短段均有预先编写题目和中文材料；1498个候选句直接用于证据，1662个仅作上下文。fullCoverage仍为false，原有自动句界并非人工最终定稿。历史跨页续片见batch033、036、039、042来源说明。
+
+本次实际视觉核对21页、49个原排除块：两段作者正文补入（8句、3题）；17个辅助块恢复为3个阶段标题、2张表、3幅图（8组）；2个副标题作为章首分组标题；28个引文/署名保留排除归属。辅助图表不算叙事句、题目或成绩。全部已知正文与结构待办已解决；原1053个单元作为不变子序列保存于source/archive/reading-units-original-v1.json，旧1053题指纹锁定于tests/fixtures/batch042-fingerprints.json。
+
+原始提取source/pages.json未改。source/additive-body.json保留补回正文的原始断行、原文、坐标和稳定ID；source/structural-materials.json保留原表格/图注；source/source-audit-review.json记录逐块分类与原页审阅。public/figures仅包含实际PDF图示裁片，没有重绘或外部图片。
+
+重建增量：先运行python scripts/apply-source-audit.py，再运行python scripts/batches/audited-openings.py、python scripts/author-content.py、npm run content:check。不要直接用旧extract.py覆盖已发布book.json；如需重新提取，在副本对照原页、全部旧来源及题目指纹后迁移。
+
+验证：272项自动测试，npm run build:pages，npm run test:browser，node scripts/batch043-browser-test.mjs。发布回执见source/releases/batch-042.json与batch-043.json。以下批次条目记录当时进展，其中“待办”并非当前状态；最新状态以本节和机器报告为准。
+
 ## 来源与规则
 
-source/pages.json 保留原始提取。public/data/book.json 保存章节、小节、候选段落和句子、原始断行、坐标、稳定 ID。source/reviews.json 保存实际原页对照：第1章26段、第2章30段、第3章20段、第4章29段、第5章27段、第6章47段、第7章29段、第8章27段、第9章37段、第10章53段、第11章28段、第12章26段、第13章45段、第14章33段；共映射3,152候选句，不是人工定稿句数，也不是其他段落的审校证明。
+source/pages.json 保留原始提取。public/data/book.json 保存章节、小节、候选段落和句子、原始断行、坐标、稳定 ID。source/reviews.json 保存实际原页对照：第1章26段、第2章30段、第3章20段、第4章29段、第5章27段、第6章47段、第7章29段、第8章27段、第9章37段、第10章53段、第11章28段、第12章26段、第13章46段、第14章34段；共映射3,160候选句，不是人工定稿句数，也不是其他段落的审校证明。
 
 采用 PyMuPDF、Unicode NFC 和明确合字展开。段内断行合为空格，行尾可见连字符保留并拼接下行。跨页和引语句界仍有候选性质；修改提取规则必须核对指纹、原页并保存 ID 迁移，不静默重编。source/layout.json 可重建但不纳入 Git。
 
-章首引文、目录、题献、致谢、注释、附录、索引等有排除原因；表格、图注、非编号标题是待结构化辅助材料。
+章首引文、目录、题献、致谢、注释、附录、索引等有排除原因；已恢复的表格、图注、非编号标题是待结构化辅助材料。
 
 重要源文审计待办：source/content-audit-tasks.json 记录第13章 PDF144块5和第14章 PDF160块5两段作者导语被旧规则误归为 epigraph-or-subtitle，均已确认是尚未纳入阅读链路的正文。必须补入并编写材料，同时按实际PDF复核所有章首排除项和辅助材料；现有1,053单元完成后仍需继续，不能把既有候选池声称为全书完整正文。原始排除记录暂保留用于追溯，不视为合法非正文结论。q-c13-018/019 的跨页同一句亦在 batch036-source-notes.json 明确标记。
 

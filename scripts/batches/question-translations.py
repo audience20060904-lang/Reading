@@ -75,5 +75,15 @@ for q in qs:
   assert old[q['id']]['prompt']==q['prompt'] and old[q['id']]['options']==q['options'],('Recheck translation after English change',q['id'])
  z=T.get(q['id'],[q.get('promptZh'),*q.get('optionsZh',[])]);assert len(z)==5
  entries.append(dict(questionId=q['id'],prompt=q['prompt'],options=q['options'],promptZh=z[0],optionsZh=z[1:]))
-path.write_text(json.dumps(dict(version=1,note='预先编写；英文题目和选项精确匹配后使用，仅提交后显示。',entries=entries),ensure_ascii=False,indent=2),encoding='utf8',newline='\n')
+content=json.dumps(dict(version=1,note='预先编写；英文题目和选项精确匹配后使用，仅提交后显示。',entries=entries),ensure_ascii=False,indent=2)
+# Identical regeneration should not reopen a large file held briefly by Windows.
+if not path.exists() or path.read_text(encoding='utf8')!=content:
+ import time
+ for attempt in range(5):
+  try:
+   path.write_text(content,encoding='utf8',newline='\n')
+   break
+  except OSError as error:
+   if attempt==4 or error.errno not in (13,22):raise
+   time.sleep(.1*(attempt+1))
 print('Saved',len(entries),'question and option translations')

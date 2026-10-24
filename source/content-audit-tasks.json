@@ -2,12 +2,12 @@
   "schemaVersion": 1,
   "pdfSha256": "be25c859f1bd894a4b0d1cff024ded1297f6a96a8e8ddabea1e3abcf89160a50",
   "date": "2026-10-23",
-  "status": "open",
-  "notice": "Existing 1053 unit coverage is not complete book coverage. Finish numbered-unit batches, then resolve these source-audit tasks before goal completion. Preserve all published source IDs and fingerprints; new genuine body material must be added rather than silently excluded.",
+  "status": "completed",
+  "notice": "原有1053短段之外，两段误排除的作者正文已按原页位置补入为3个短段；全部32章首及17辅助材料块均按实际PDF视觉审阅，8组辅助材料恢复至原文浏览。保留原始提取、旧题指纹和原有阅读单元，候选句、上下文与直接证据仍分别统计。",
   "tasks": [
     {
       "id": "audit-c13-opening-p144-b005",
-      "status": "pending-body-inclusion",
+      "status": "resolved",
       "chapterId": "c13",
       "source": {
         "pdfPage": 144,
@@ -21,22 +21,36 @@
         "Add actual body prose with stable additive source and sentence IDs, retaining raw extraction and old question fingerprints.",
         "Prepare continuous short reading units, authored questions and complete Chinese materials; publish and verify as for other content.",
         "Reclassify exclusion and correct totals without claiming finalized automatic sentence counts."
-      ]
+      ],
+      "resolution": {
+        "date": "2026-10-24",
+        "reviewRecord": "source/source-audit-review.json",
+        "additiveSource": "source/additive-body.json",
+        "structuralMaterials": "source/structural-materials.json",
+        "publicationReceipt": "source/releases/batch-043.json"
+      }
     },
     {
       "id": "audit-all-chapter-opening-exclusions",
-      "status": "pending-full-audit",
+      "status": "resolved",
       "scope": "All epigraph-or-subtitle entries and body-support pending materials across the actual PDF",
       "finding": "One confirmed misclassification means the generic pre-section exclusion rule requires a full source audit.",
       "requiredActions": [
         "Inspect actual PDF pages for every pre-section entry and distinguish epigraph, attribution, subtitle and genuine body prose.",
         "Include genuine body prose and necessary pending body support; document legitimate non-body exclusions individually.",
         "Keep all coverage categories separate and reject a complete-book claim while genuine body gaps remain."
-      ]
+      ],
+      "resolution": {
+        "date": "2026-10-24",
+        "reviewRecord": "source/source-audit-review.json",
+        "additiveSource": "source/additive-body.json",
+        "structuralMaterials": "source/structural-materials.json",
+        "publicationReceipt": "source/releases/batch-043.json"
+      }
     },
     {
       "id": "audit-c14-opening-p160-b005",
-      "status": "pending-body-inclusion",
+      "status": "resolved",
       "chapterId": "c14",
       "source": {
         "pdfPage": 160,
@@ -50,7 +64,14 @@
         "Include actual opening body with stable additive source and sentence IDs, retaining raw extraction and every published question fingerprint.",
         "Author continuous reading units and complete bilingual learning materials; build and publish with browser validation.",
         "Correct exclusion classification and complete all opening/body-support source-audit tasks before declaring book completion."
-      ]
+      ],
+      "resolution": {
+        "date": "2026-10-24",
+        "reviewRecord": "source/source-audit-review.json",
+        "additiveSource": "source/additive-body.json",
+        "structuralMaterials": "source/structural-materials.json",
+        "publicationReceipt": "source/releases/batch-043.json"
+      }
     }
   ],
   "updated": "2026-10-24"

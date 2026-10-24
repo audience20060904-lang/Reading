@@ -277,7 +277,8 @@ for r in reviews:
   assert hashlib.sha256(p['text'].encode()).hexdigest()==r['reviewedTextSha256'], ('Stale visual review',p['id'])
 for s in b['sentences']:s['review']='visual-proofread' if s['paragraphId'] in reviewed else 'candidate'
 (ROOT/'public/data/book.json').write_text(json.dumps(b,ensure_ascii=False,indent=2),encoding='utf-8')
-(ROOT/'public/data/questions.json').write_text(json.dumps(out,ensure_ascii=False,indent=2),encoding='utf-8')
+if not (ROOT/'source/archive/questions-v1.json').exists():
+ (ROOT/'public/data/questions.json').write_text(json.dumps(out,ensure_ascii=False,indent=2),encoding='utf-8')
 catalog_path=ROOT/'src/data/passage-translations.json'
 catalog=json.loads(catalog_path.read_text(encoding='utf-8'))
 previous={(e['questionId'],e['passage']):e for e in catalog['entries']}

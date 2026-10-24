@@ -1,3 +1,4 @@
+import {originalReadingPool} from './original-reading-pool';
 import {describe,it,expect} from 'vitest';
 import {readFileSync} from 'node:fs';
 import {createHash} from 'node:crypto';
@@ -6,7 +7,7 @@ import type {Book,Question,ReadingPlan} from '../src/types';
 import {emptyState,grade,exportBackup,parseBackup,restoreReadingState,statistics} from '../src/core';
 import {getQuestionTranslation} from '../src/questionTranslations';
 const read=(p:string)=>JSON.parse(readFileSync(p,'utf8'));
-const b=read('public/data/book.json') as Book,qs=read('public/data/questions.json') as Question[],plan=read('public/data/reading-plan.json') as ReadingPlan;
+const b=read('public/data/book.json') as Book,qs=read('public/data/questions.json') as Question[],plan=originalReadingPool(read('public/data/reading-plan.json') as ReadingPlan);
 const targets=read('source/short-questions/batch033-targets.json').targets as {questionId:string;readingUnitId:string;passageSha256:string}[];
 const hash=(s:string)=>createHash('sha256').update(s).digest('hex');
 const q=(id:string)=>qs.find(q=>q.id===id)!;
