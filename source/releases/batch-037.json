@@ -1,0 +1,120 @@
+{
+  "batchId": "batch-037",
+  "date": "2026-10-24",
+  "url": "https://audience20060904-lang.github.io/Reading/",
+  "repositoryVisibility": "public",
+  "sourceCommit": "d1a848b11f1813cabde9a25222b9d418f124c3e8",
+  "deploymentCommit": "08b768fbdc7d32b30c18ee747d248e3da1d04be9",
+  "workflowRun": "https://github.com/audience20060904-lang/Reading/actions/runs/40054292972",
+  "workflowStatus": "completed",
+  "workflowConclusion": "success",
+  "verificationBasis": "Live browser tests and byte-identical deployed assets; workflow state recorded independently without assuming completion.",
+  "offlineVersion": "31f0a261ff54e571",
+  "addedQuestionIds": [
+    "q-c13-024",
+    "q-c13-025",
+    "q-c13-026",
+    "q-c13-027",
+    "q-c13-028",
+    "q-c13-029",
+    "q-c13-030",
+    "q-c13-031",
+    "q-c13-032",
+    "q-c13-033",
+    "q-c13-034",
+    "q-c13-035",
+    "q-c13-036",
+    "q-c13-037",
+    "q-c13-038",
+    "q-c13-039",
+    "q-c13-040",
+    "q-c13-041",
+    "q-c13-042",
+    "q-c13-043",
+    "q-c13-044",
+    "q-c13-045",
+    "q-c13-046",
+    "q-c13-047",
+    "q-c13-048"
+  ],
+  "preparedReadingUnits": 25,
+  "newContextCandidateSentences": 77,
+  "newEvidenceCandidateSentences": 36,
+  "targetManifest": "source/short-questions/batch037-targets.json",
+  "sourceReview": {
+    "pdfPages": [
+      147,
+      148,
+      149,
+      150,
+      151
+    ],
+    "pdfSha256": "be25c859f1bd894a4b0d1cff024ded1297f6a96a8e8ddabea1e3abcf89160a50",
+    "recheckedParagraphs": 11,
+    "newlyRecordedParagraphs": 10,
+    "record": "source/short-questions/review-chapter13-extremes-familiar25.json",
+    "uniqueVisuallyCheckedParagraphsOverall": 402,
+    "mappedCandidateSentencesInReviewedParagraphs": 2746,
+    "newlyMappedCandidateSentences": 76,
+    "oldReviewedInNewContext": 1,
+    "extraReviewedUnprepared": 0,
+    "note": "完整PDF147–151原页视觉核对。D.J.来信续句与不同人过量阈值按原文，不设统一次数。Taylor Mac连续24小时现场非录音/24场；Morris/Needham为评论个人体验，非控制实验。舞台扮演偏见不等于认同偏见；imaginary bus非真实出行自传，seismic/roof为修辞，7am还有5小时。q-c13-032承接闭引号原字保留。作者肯定丰富又犹豫，健康风险might及occasionally、might consider不扩为人人持续冒险；Polley是作品例子非疗效试验或文档行动指令。A/B哲学人物立场分清、presumably保留。妻子1991相识/1999结婚/约2010挂画，作者must be happy为观察推测非诊断；此前焦虑与画作欢快可以并存。boy是感叹，most非全部；B内在感恩为归属明确的哲学宗教主张，不提前援引下一段实验当本段证据。原有额外正文审计待办仍开放，候选池无漏ID不等于全书正文无遗漏。"
+  },
+  "coverage": {
+    "questions": 928,
+    "readingUnits": 1053,
+    "preparedUnits": 928,
+    "unpreparedUnits": 125,
+    "candidateSentences": 3152,
+    "contextSentences": 2746,
+    "contextOnlySentences": 1451,
+    "evidenceSentences": 1295,
+    "notDirectlyQuestioned": 1857,
+    "fullCoverage": false,
+    "sourceAudit": {
+      "status": "open",
+      "knownPendingBodyBlocks": 1,
+      "pendingTaskIds": [
+        "audit-c13-opening-p144-b005",
+        "audit-all-chapter-opening-exclusions"
+      ],
+      "record": "source/content-audit-tasks.json"
+    }
+  },
+  "validation": {
+    "unitTests": 228,
+    "localGeneralBrowserChecks": 25,
+    "localBatchBrowserChecks": 5,
+    "liveBatchBrowserChecks": 5,
+    "walkedReadingUnitsPerRun": 25,
+    "newUnitsVisitedPerRun": 25,
+    "syntheticAttemptsPerRun": 26,
+    "productionBuild": "passed",
+    "previousPublishedQuestionObjectsUnchanged": 903,
+    "readingUnitIdsAndRangesUnchanged": 1053,
+    "authoringRegeneration": "nine content artifacts byte-for-byte reproducible",
+    "newAnswerPositionCounts": [
+      7,
+      6,
+      6,
+      6
+    ],
+    "liveAssetIntegrity": "all manifest assets and SW match tested build byte-for-byte",
+    "navigation": "all 25 units traversed in original order with exact paragraph reconstruction, bilingual options, vocabulary and final translation",
+    "history": "previous synthetic attempt unchanged; statistics, reload, history view and IndexedDB recovery verified",
+    "offline": "browser simulated offline and general local suite real HTTP service shutdown/cache reload"
+  },
+  "limits": [
+    "每段一题不等于逐句证据覆盖：本批上下文77个候选句、直接证据36个。",
+    "尚有125个短段未配题，1857个候选句无直接证据题。候选句不是人工最终分句；原页审阅、上下文、直接证据分别计数。",
+    "390px Edge视口不是实体手机；模拟离线不等于关闭Windows网卡，通用本地套件另行停止HTTP服务后重载。",
+    "所有作答为隔离合成记录，未读取或上传真实学习数据。",
+    "完整PDF147–151原页视觉核对。D.J.来信续句与不同人过量阈值按原文，不设统一次数。Taylor Mac连续24小时现场非录音/24场；Morris/Needham为评论个人体验，非控制实验。舞台扮演偏见不等于认同偏见；imaginary bus非真实出行自传，seismic/roof为修辞，7am还有5小时。q-c13-032承接闭引号原字保留。作者肯定丰富又犹豫，健康风险might及occasionally、might consider不扩为人人持续冒险；Polley是作品例子非疗效试验或文档行动指令。A/B哲学人物立场分清、presumably保留。妻子1991相识/1999结婚/约2010挂画，作者must be happy为观察推测非诊断；此前焦虑与画作欢快可以并存。boy是感叹，most非全部；B内在感恩为归属明确的哲学宗教主张，不提前援引下一段实验当本段证据。原有额外正文审计待办仍开放，候选池无漏ID不等于全书正文无遗漏。",
+    "现有1053短段之外仍有已确认的章首正文缺口及全章首/辅助材料审计待办，详见source/content-audit-tasks.json；不能据现有候选池断言全书完整。"
+  ],
+  "nextBatch": {
+    "chapterId": "c13",
+    "readingUnitId": "c13-s03-p151-01335-r001-004",
+    "pdfPage": 151
+  }
+}
