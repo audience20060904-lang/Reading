@@ -32,12 +32,12 @@ describe('全书连续短段',()=>{
   const s=emptyState();s.readingLayoutVersion=2;s.readingUnitId=qs[1].readingUnitId;s.session={questionId:qs[0].id,attemptId:null,selected:1,startedAt:1,elapsedBefore:0};const fixed=restoreReadingState(s,qs,plan);expect(fixed.session?.questionId).toBe(qs[1].id);expect(fixed.session?.selected).toBeNull();
  });
  it('原文全包含与配题全完成分开，待补充片段不伪造成题目',()=>{
-  expect(plan.coverage.allSentencesIncluded).toBe(true);expect(plan.coverage.allQuestionsPrepared).toBe(false);
+  expect(plan.coverage.allSentencesIncluded).toBe(true);expect(plan.coverage.allQuestionsPrepared).toBe(plan.units.every(u=>u.questionId));
   expect(plan.units.filter(u=>u.questionId).length).toBe(qs.length);expect(plan.units.filter(u=>!u.questionId).length).toBe(plan.coverage.unitsWithoutQuestions);
  });
  it('无题短段的位置可持久化与备份恢复，不产生或恢复虚假作答',()=>{
-  const s=emptyState();s.readingUnitId=plan.units.find(u=>!u.questionId)!.id;s.session=null;
-  expect(restoreSession(parseBackup(exportBackup(s)),qs)).toEqual(s);expect(statistics(s).total).toBe(0);
+  const fixture={...plan,units:plan.units.map((u,i)=>i===0?{...u,questionId:null}:u)};const s=emptyState();s.readingLayoutVersion=2;s.readingUnitId=fixture.units[0].id;s.session=null;
+  expect(restoreReadingState(parseBackup(exportBackup(s)),qs,fixture)).toEqual(s);expect(statistics(s).total).toBe(0);
   expect(studySummary(s,book,qs,plan)).toContain(s.readingUnitId);expect(()=>parseBackup(exportBackup({...s,readingUnitId:44 as unknown as string}))).toThrow();
  });
  it('首次升级进入新版短段，不复用旧版答案；全部历史成绩保持原样',()=>{

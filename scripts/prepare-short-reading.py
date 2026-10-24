@@ -78,7 +78,7 @@ for q in active:
  unit=unit_by_q[q['id']];q['readingUnitId']=unit['id'];q.pop('fingerprint',None)
  q['fingerprint']=hashlib.sha256(json.dumps(q,ensure_ascii=False,sort_keys=True,separators=(',',':')).encode()).hexdigest()
  if (q['id'],q['fingerprint']) not in known:entries.append(dict(questionId=q['id'],passage=q['passage'],sourceFingerprint=q['fingerprint'],translation=q['translation']))
-plan=dict(version=1,pdfSha256=b['pdfSha256'],rule='同一来源段落内连续原句；一般不超过 90 词；不切断原句或完整证据，少量片段最多 110 词。每个候选句按原书顺序恰好出现一次。',coverage=dict(totalCandidateSentences=len(ss),includedSentences=len(flattened),duplicateSentenceIds=[],missingSentenceIds=[],units=len(units),unitsWithQuestions=len(active),unitsWithoutQuestions=len(units)-len(active),maxWords=max(u['wordCount'] for u in units),over90Words=[u['id'] for u in units if u['wordCount']>90],allSentencesIncluded=True,allQuestionsPrepared=False),units=units)
+plan=dict(version=1,pdfSha256=b['pdfSha256'],rule='同一来源段落内连续原句；一般不超过 90 词；不切断原句或完整证据，少量片段最多 110 词。每个候选句按原书顺序恰好出现一次。',coverage=dict(totalCandidateSentences=len(ss),includedSentences=len(flattened),duplicateSentenceIds=[],missingSentenceIds=[],units=len(units),unitsWithQuestions=len(active),unitsWithoutQuestions=len(units)-len(active),maxWords=max(u['wordCount'] for u in units),over90Words=[u['id'] for u in units if u['wordCount']>90],allSentencesIncluded=True,allQuestionsPrepared=all(u['questionId'] for u in units)),units=units)
 catalog['entries']=list({(e['questionId'],e['passage']):e for e in entries}.values())
 save('public/data/questions.json',active);save('public/data/reading-plan.json',plan);save('src/data/passage-translations.json',catalog)
 runpy.run_path(str(ROOT/'scripts/batches/question-translations.py'),run_name='__main__')

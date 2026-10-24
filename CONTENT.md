@@ -4,7 +4,7 @@
 
 ## 来源与规则
 
-source/pages.json 保留原始提取。public/data/book.json 保存章节、小节、候选段落和句子、原始断行、坐标、稳定 ID。source/reviews.json 保存实际原页对照：第1章26段、第2章30段、第3章20段、第4章29段、第5章27段、第6章47段、第7章29段、第8章27段、第9章37段、第10章53段、第11章28段、第12章26段、第13章45段、第14章20段；共映射3,076候选句，不是人工定稿句数，也不是其他段落的审校证明。
+source/pages.json 保留原始提取。public/data/book.json 保存章节、小节、候选段落和句子、原始断行、坐标、稳定 ID。source/reviews.json 保存实际原页对照：第1章26段、第2章30段、第3章20段、第4章29段、第5章27段、第6章47段、第7章29段、第8章27段、第9章37段、第10章53段、第11章28段、第12章26段、第13章45段、第14章33段；共映射3,152候选句，不是人工定稿句数，也不是其他段落的审校证明。
 
 采用 PyMuPDF、Unicode NFC 和明确合字展开。段内断行合为空格，行尾可见连字符保留并拼接下行。跨页和引语句界仍有候选性质；修改提取规则必须核对指纹、原页并保存 ID 迁移，不静默重编。source/layout.json 可重建但不纳入 Git。
 
@@ -16,17 +16,17 @@ source/pages.json 保留原始提取。public/data/book.json 保存章节、小�
 
 3,152 个候选句按原书顺序恰好一次，分为 1,053 段。通常不超过 90 词，4 段为保持整句 / 证据达到 91–108 词。不截断、改写或拼接不连续原句。
 
-旧60题修订为v2，另有968题；共1028题。已配题：第1章77单元、第2章86单元、第3章47单元、第4章54单元、第5章59单元、第6章91单元、第7章72单元、第8章61单元、第9章84单元、第10章119单元、第11章64单元、第12章66单元、第13章101单元、第14章47单元；其余25段保留原文，尚未配题，不生成占位题。
+旧60题修订为v2，另有993题；共1053题。已配题：第1章77单元、第2章86单元、第3章47单元、第4章54单元、第5章59单元、第6章91单元、第7章72单元、第8章61单元、第9章84单元、第10章119单元、第11章64单元、第12章66单元、第13章101单元、第14章72单元；其余0段保留原文，尚未配题，不生成占位题。
 
 解析仅为问题 / 四项分析（含译文）、词汇、整段译文。当前数据删除总述、语法、策略，历史快照不变。
 
-当前上下文3,076候选句，直接证据1,461，仅上下文1,615；1,691个候选句尚无直接证据题。原页审阅映射3,076候选句。计数分别报告，不代表人工最终分句或逐句证据覆盖；fullCoverage仍为false。
+当前上下文3,152候选句，直接证据1,494，仅上下文1,658；1,658个候选句尚无直接证据题。原页审阅映射3,152候选句。计数分别报告，不代表人工最终分句或逐句证据覆盖；fullCoverage仍为false。
 
 ## 编写文件
 
 - source/archive/questions-v1.json：旧 60 题及指纹，不是个人作答记录。
 - scripts/batches/short-passages.py：60 题 v2 的固定原句范围和手写译文。
-- source/short-questions/additional.json：新短段题作者稿，当前含 968 题，绑定已有短段，包含双语问题 / 选项、四项分析、证据、词汇和整段译文。
+- source/short-questions/additional.json：新短段题作者稿，当前含 993 题，绑定已有短段，包含双语问题 / 选项、四项分析、证据、词汇和整段译文。
 - scripts/batches/opening-section-completion.py：这 7 题的种子稿，不要用它覆盖后续新成果。
 - scripts/batches/chapter-01-completion.py：其余 37 题的逐题作者稿，按 ID 合并，不覆盖已更改作者稿。source/short-questions/review-chapter-01.json 记录本批 PDF 第 9–16 页视觉核对及对应段落指纹。
 - scripts/batches/chapter-02-next-two.py：第 2 章 q-c02-028、q-c02-029 的作者稿；PDF 第 17 页复核见 source/short-questions/review-chapter-02-next-two.json。脚本按 ID 合并，不覆盖已更改的题目。
@@ -66,11 +66,12 @@ source/pages.json 保留原始提取。public/data/book.json 保存章节、小�
 - scripts/batches/chapter13-devotion-art25.py：批次039的25题作者稿，目标batch039-targets.json，原页记录review-chapter13-devotion-art25.json。完整PDF155–158原页视觉核对。Jiro有竞争者但未同等被紧盯比较，不改成毫无竞争；toes为警醒习语，反刍解释非普遍临床因果，童年玩心出自同学访谈。职业路径provided that深度足够才可探索，one way非唯一。Spotify11,861,427/30,561,926为as of this writing快照非实时；大学生偏好为作者观察，音乐多样性One possible explanation与Pet Sounds反事实不作已证因果，承认Beach Boys作品也多样，作曲者比较仅归本段。Yesterday情节为电影非现实，哭泣为作者歌词共鸣不补歌词或全家反应。怀旧有联系/意义等益处，熟悉对象中新发现区别于纯怀旧。Offill重读人物Septimus/Clarissa/Peter按阶段，不混小说人物与现实作者，fifty-second year保留原措辞不擅算已满52。Peter/Sally/Richard角色与话语分清；brain/heart为文学比喻，Not a word为人物答话，and laughed续接旧边界不当独立最终句。吸引原因mystery不补造；文学例证非实验。额外正文审计待办保持开放，不以候选池完整代替全书正文完整。
 - scripts/batches/chapter13-14-evaluation25.py：批次040的25题作者稿，目标batch040-targets.json，原页记录review-chapter13-14-evaluation25.json。完整PDF159–163原页视觉核对。温故知新是谚语非加热操作，B/Aron/Jiro证据类型分开；Jazz人物对话为能动性例子非控制世界的科学保证。James公式pretentions保留原拼写并依段释aspirations，happiness模型To simplify to extreme非精密诊断，文化emphasis非每位国民。Payscale超过两百万人502职业为问卷，满意和意义数字按职业/指标匹配；median薪资与average满意是职业聚合相关，不改成个人加薪因果。社工/警察工资解释might/perhaps保留，艺术职业丰富为My guess，Payscale未测该维，不把作者创造力对照扩成各职业所有个人绝无创造。旅行情境比较非实际旅游推荐，could great/disaster保持不确定。新确认160页块5作者开章正文误归引文，追加audit-c14-opening-p160-b005；连同144页开章正文待补入，现有候选池不代表全书正文完整。
 - scripts/batches/chapter14-travel-paths25.py：批次041的25题作者稿，目标batch041-targets.json，原页记录review-chapter14-travel-paths25.json。完整PDF163–166原页视觉核对。游轮/背包为比喻非旅游产品推荐；九国受访中many Americans非全体，一名UVA学生非九国统一答案。700机票/250三十日通票为作者昔日回忆非当前报价；1988市中心描述不扩为今日城市安全结论。末程三天约70小时、20美元被骗等于日预算非全程旅费。男子承诺与实际消失分段区分，骑警经历个人叙述不推广群体。Chicago聚会后才知Wisconsin，不补路线/绑架；饮酒和接受邀请为回忆非给读者行动要求。Foer同名主人公为小说例证，heritage/coherence/significance关联意义不强制人生路径。志愿项目只作书中例子非质量认证；朋友/地点示例非互斥类型。歌曲为艺术引述非实证城市承诺。作者明确not best/not always better/one way，三维可共存，Sacks seemed与Linda seems保留；1980年代in earnest不否认古代哲思；未来第四维might/文化差异likely非已发现。既有候选池与两段额外开章正文/辅助材料审计仍区分，不宣称全书完成。
+- scripts/batches/chapter14-final25.py：批次042的25题作者稿，目标batch042-targets.json，原页记录review-chapter14-final25.json。完整PDF166–169原页视觉核对。Top Ten是玩心式总结，非实验排行；Calhoun回忆与作者建议不作普遍安全承诺。often/may/once in a while/at least范围保留；文学比喻、Ed诗歌与当天感受关联区分，不改成实证因果。既有PDF167→168的sitting/quietly和168→169的Stop by a/gallery边界为跨页续文，固定原句及ID不重复补字，详见batch042-source-notes.json。既有池配题完成仍有章首正文/辅助材料源文审计待办。
 - scripts/batches/question-translations.py：旧 60 题的手写问题 / 选项译文；新题取其明确编写的 promptZh / optionsZh，英文不匹配时拒绝沿用。
 - scripts/prepare-short-reading.py：验证与拼装预先编写内容、计算指纹，不生成缺失问题。
 - src/data/passage-translations.json：按题目 ID 和原文匹配，保留历史文本译文。
 - public/data/reading-plan.json：短段顺序、词数、来源句子和配题状态。
-- source/content-tasks.json：完整未配题短段 / 未配证据句子清单，下一缺口 c14-s04-p166-05940-r001-004，PDF 第 166 页。章节 partial 状态保留，表示仍未完成逐句直接证据覆盖。
+- source/content-tasks.json：完整未配题短段 / 未配证据句子清单，下一缺口 source-audit（已确认章首正文与辅助材料审计），PDF 第 144 页。章节 partial 状态保留，表示仍未完成逐句直接证据覆盖。
 
 ## 继续补题
 
@@ -92,7 +93,7 @@ source/pages.json 保留原始提取。public/data/book.json 保存章节、小�
 
 ## 验证与发布
 
-252 项自动测试；25 项通用浏览器检查。最新套件 scripts/batch041-browser-test.mjs 逐段提交全部 25 个新增短段，比对原文及三类解析、记录和离线；此前套件仍保留。tests/fixtures/batch040-fingerprints.json 锁定此前 1003 道题；原文连续性、证据归属与历史恢复有检查。新增题不改变原阅读单元 ID，也不重算旧成绩。实际运行结果与限制见对应发布回执。
+262 项自动测试；25 项通用浏览器检查。最新套件 scripts/batch042-browser-test.mjs 逐段提交全部 25 个新增短段，比对原文及三类解析、记录和离线；此前套件仍保留。tests/fixtures/batch041-fingerprints.json 锁定此前 1028 道题；原文连续性、证据归属与历史恢复有检查。新增题不改变原阅读单元 ID，也不重算旧成绩。实际运行结果与限制见对应发布回执。
 
 缓存测试复现旧 HTTP 数据复用问题，再验证强制刷新后题数更新、旧成绩位置不变。另有实际停止本地服务重载及浏览器模拟断网；不是实体手机或关闭网卡测试。
 
