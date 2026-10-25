@@ -1,0 +1,205 @@
+{
+  "schemaVersion": 1,
+  "kind": "feature-content-expansion",
+  "date": "2026-10-25",
+  "feature": "expanded-offline-contextual-word-lookup",
+  "url": "https://audience20060904-lang.github.io/Reading/",
+  "repositoryVisibility": "public",
+  "sourceCommit": "f76380b3a83f4b56a018983718183aeaa80b86ee",
+  "deploymentCommit": "3255f785d18a717a9e0d889521c7b5551e0d4c67",
+  "previousReceipt": "source/releases/word-lookup-2026-10-25.json",
+  "workflowRun": "https://github.com/audience20060904-lang/Reading/actions/runs/40155997069",
+  "workflowStatus": "completed",
+  "workflowConclusion": "success",
+  "offlineVersion": "1e6560cedc713b92",
+  "wordCoverage": {
+    "entries": 475,
+    "occurrences": 624,
+    "paragraphs": 345,
+    "chapters": 14,
+    "byChapter": {
+      "c01": 62,
+      "c02": 74,
+      "c03": 35,
+      "c04": 41,
+      "c05": 40,
+      "c06": 56,
+      "c07": 37,
+      "c08": 19,
+      "c09": 27,
+      "c10": 66,
+      "c11": 40,
+      "c12": 36,
+      "c13": 55,
+      "c14": 36
+    },
+    "addedEntries": 318,
+    "addedOccurrences": 419,
+    "previousEntriesPreserved": 157,
+    "previousOccurrencesPreserved": 205,
+    "baseline": "tests/fixtures/word-lookups-v1.json",
+    "review": "source/word-lookup-review.json",
+    "authoring": "source/word-lexicon.tsv"
+  },
+  "validation": {
+    "unitTests": 283,
+    "productionBuild": "passed",
+    "generalBrowserChecks": 25,
+    "localWordLookupChecks": 8,
+    "liveWordLookupChecks": 8,
+    "newOccurrencesVisitedPerRun": 24,
+    "newCoverage": "One new occurrence in each of 14 chapters, plus 10 familiar-word sense cases",
+    "liveAssetIntegrity": "All manifest assets and SW byte-identical to tested build",
+    "oldQuestionObjectsUnchanged": 1056,
+    "bookAndReadingPlanUnchanged": true,
+    "previousLexicalEntriesAndOccurrencesUnchanged": true,
+    "lexicalFilesByteReproducible": true,
+    "offline": "Browser offline simulation locally/live; local suite additionally stopped actual HTTP server and reopened a word card after cached reload",
+    "interface": "Light/dark, 390px mobile and desktop, Enter/Tab/Escape/backdrop closing and focus recovery"
+  },
+  "limits": [
+    "475词条与624处具体语境标注仍是精选词表，不是所有难词的完整覆盖或官方难度等级。",
+    "语境义来自既有预先编写词汇条目；其他常见义单独整理，不调用运行时AI或在线词典。",
+    "没有其他独立常用义的词不凑第二义，普通词不会批量标蓝。",
+    "390px Edge不是实体手机测试；模拟离线与关闭Windows网卡不同。",
+    "浏览器作答均为隔离合成记录，未读取或上传真实个人数据。"
+  ],
+  "coverage": {
+    "pdfPages": 264,
+    "chapters": 14,
+    "sections": 87,
+    "readingGroups": 89,
+    "supportMaterials": 8,
+    "candidateParagraphs": 459,
+    "candidateSentences": 3160,
+    "proofreadSentences": 3160,
+    "contextSentences": 3160,
+    "contextOnlySentences": 1662,
+    "evidenceSentences": 1498,
+    "notDirectlyQuestioned": 1662,
+    "questions": 1056,
+    "excludedBlocks": 160,
+    "fullCoverage": false,
+    "byChapter": [
+      {
+        "id": "c01",
+        "candidates": 177,
+        "proofread": 177,
+        "context": 177,
+        "evidence": 118,
+        "questions": 77
+      },
+      {
+        "id": "c02",
+        "candidates": 240,
+        "proofread": 240,
+        "context": 240,
+        "evidence": 130,
+        "questions": 86
+      },
+      {
+        "id": "c03",
+        "candidates": 138,
+        "proofread": 138,
+        "context": 138,
+        "evidence": 79,
+        "questions": 47
+      },
+      {
+        "id": "c04",
+        "candidates": 167,
+        "proofread": 167,
+        "context": 167,
+        "evidence": 80,
+        "questions": 54
+      },
+      {
+        "id": "c05",
+        "candidates": 190,
+        "proofread": 190,
+        "context": 190,
+        "evidence": 91,
+        "questions": 59
+      },
+      {
+        "id": "c06",
+        "candidates": 269,
+        "proofread": 269,
+        "context": 269,
+        "evidence": 115,
+        "questions": 91
+      },
+      {
+        "id": "c07",
+        "candidates": 226,
+        "proofread": 226,
+        "context": 226,
+        "evidence": 95,
+        "questions": 72
+      },
+      {
+        "id": "c08",
+        "candidates": 183,
+        "proofread": 183,
+        "context": 183,
+        "evidence": 85,
+        "questions": 61
+      },
+      {
+        "id": "c09",
+        "candidates": 254,
+        "proofread": 254,
+        "context": 254,
+        "evidence": 103,
+        "questions": 84
+      },
+      {
+        "id": "c10",
+        "candidates": 368,
+        "proofread": 368,
+        "context": 368,
+        "evidence": 147,
+        "questions": 119
+      },
+      {
+        "id": "c11",
+        "candidates": 195,
+        "proofread": 195,
+        "context": 195,
+        "evidence": 79,
+        "questions": 64
+      },
+      {
+        "id": "c12",
+        "candidates": 196,
+        "proofread": 196,
+        "context": 196,
+        "evidence": 101,
+        "questions": 66
+      },
+      {
+        "id": "c13",
+        "candidates": 325,
+        "proofread": 325,
+        "context": 325,
+        "evidence": 162,
+        "questions": 103
+      },
+      {
+        "id": "c14",
+        "candidates": 232,
+        "proofread": 232,
+        "context": 232,
+        "evidence": 113,
+        "questions": 73
+      }
+    ],
+    "notice": "自动分句仅为候选；审校、上下文和直接证据分别计数。即使每节有题，也不等于逐句覆盖。未配题内容保留原文及待办，不生成占位题。",
+    "sourceAudit": {
+      "status": "completed",
+      "knownPendingBodyBlocks": 0,
+      "pendingTaskIds": [],
+      "record": "source/content-audit-tasks.json"
+    }
+  }
+}
