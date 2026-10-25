@@ -1936,17 +1936,7 @@
       "candidateSentences": 177,
       "remainingReadingUnitIds": [],
       "remainingProofreadIds": [],
-      "remainingEvidenceIds": [
-        "c01-s04-p014-03090-s002",
-        "c01-s04-p014-03090-s003",
-        "c01-s04-p014-03090-s004",
-        "c01-s04-p014-03090-s006",
-        "c01-s04-p014-04650-s003",
-        "c01-s05-p015-01260-s002",
-        "c01-s05-p015-04972-s006",
-        "c01-s05-p016-01725-s005",
-        "c01-s05-p016-01725-s006"
-      ],
+      "remainingEvidenceIds": [],
       "sections": [
         {
           "id": "c01-s01",
@@ -2087,7 +2077,12 @@
             "qe-c01-0047",
             "qe-c01-0048",
             "qe-c01-0049",
-            "qe-c01-0050"
+            "qe-c01-0050",
+            "qe-c01-0051",
+            "qe-c01-0052",
+            "qe-c01-0053",
+            "qe-c01-0054",
+            "qe-c01-0055"
           ]
         },
         {
@@ -2107,7 +2102,11 @@
             "q-c01-032",
             "q-c01-076",
             "q-c01-077",
-            "q-c01-033"
+            "q-c01-033",
+            "qe-c01-0056",
+            "qe-c01-0057",
+            "qe-c01-0058",
+            "qe-c01-0059"
           ]
         }
       ]
@@ -2121,22 +2120,6 @@
       "remainingReadingUnitIds": [],
       "remainingProofreadIds": [],
       "remainingEvidenceIds": [
-        "c02-s01-p017-03608-s006",
-        "c02-s01-p017-03608-s007",
-        "c02-s01-p017-05558-s002",
-        "c02-s01-p017-05558-s003",
-        "c02-s01-p017-05558-s008",
-        "c02-s01-p018-01140-s003",
-        "c02-s01-p018-01140-s004",
-        "c02-s01-p018-02310-s001",
-        "c02-s01-p018-02310-s002",
-        "c02-s01-p018-02310-s004",
-        "c02-s01-p018-02310-s006",
-        "c02-s01-p018-02310-s007",
-        "c02-s01-p018-02310-s008",
-        "c02-s01-p018-04650-s001",
-        "c02-s01-p018-04650-s002",
-        "c02-s01-p018-04650-s005",
         "c02-s01-p018-06795-s001",
         "c02-s01-p018-06795-s002",
         "c02-s01-p018-06795-s003",
@@ -2252,7 +2235,23 @@
             "q-c02-037",
             "q-c02-003",
             "q-c02-038",
-            "q-c02-039"
+            "q-c02-039",
+            "qe-c02-0001",
+            "qe-c02-0002",
+            "qe-c02-0003",
+            "qe-c02-0004",
+            "qe-c02-0005",
+            "qe-c02-0006",
+            "qe-c02-0007",
+            "qe-c02-0008",
+            "qe-c02-0009",
+            "qe-c02-0010",
+            "qe-c02-0011",
+            "qe-c02-0012",
+            "qe-c02-0013",
+            "qe-c02-0014",
+            "qe-c02-0015",
+            "qe-c02-0016"
           ]
         },
         {
@@ -6350,7 +6349,7 @@
   "evidenceQuestionProgress": {
     "catalog": "public/data/evidence-questions.json",
     "taskRecord": "source/evidence-tasks.json",
-    "preparedSupplementalQuestions": 50,
+    "preparedSupplementalQuestions": 75,
     "baselinePrimaryQuestions": 1056
   },
   "sentenceBoundaryRepairs": {

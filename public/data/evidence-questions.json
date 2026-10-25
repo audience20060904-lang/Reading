@@ -3993,5 +3993,1972 @@
     ],
     "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
     "fingerprint": "c9d99b328a0e4b0fc466c8cc6bd0a711ea1a0a0b9143a6d95d06e66fbed2aeda"
+  },
+  {
+    "id": "qe-c01-0051",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-003",
+    "parentQuestionId": "q-c01-067",
+    "chapterId": "c01",
+    "sectionId": "c01-s04",
+    "paragraphId": "c01-s04-p014-03090",
+    "readingUnitId": "c01-s04-p014-03090-r002-005",
+    "sentenceIds": [
+      "c01-s04-p014-03090-s002",
+      "c01-s04-p014-03090-s003",
+      "c01-s04-p014-03090-s004",
+      "c01-s04-p014-03090-s005"
+    ],
+    "passage": "When you’re devoted to making a difference in the world, your life certainly has a point. You see the fruits of your labor, your legacy. There is a reason for your existence. But when your efforts are not making a clear difference, it is harder to see the point of your life.",
+    "prompt": "What does having 'a point' mean when a person is devoted to making a difference?",
+    "promptZh": "当一个人致力于产生积极影响时，人生有 a point 是什么意思？",
+    "options": [
+      "Having a fixed location on a map.",
+      "Receiving a score for every action.",
+      "Having a sense of purpose in life.",
+      "Knowing exactly when a task will end."
+    ],
+    "optionsZh": [
+      "在地图上有固定位置。",
+      "每个行为都得到分数。",
+      "感到人生有目标和意义。",
+      "确切知道任务何时结束。"
+    ],
+    "answer": 2,
+    "type": "语境词义",
+    "support": "explicit",
+    "analyses": [
+      "A point 在这里与人生意义有关，不是地理坐标。",
+      "B 本句没有评分制度，不能套用分数义。",
+      "C making a difference 与 life certainly has a point 相连，说明付出影响让人感到人生有意义。",
+      "D 句子讨论存在的目的，没有任务截止时间。"
+    ],
+    "vocabulary": [
+      {
+        "word": "devoted",
+        "meaning": "投入的；献身于某事的",
+        "context": "devoted to making a difference 指致力于让世界发生积极变化。",
+        "example": "She is devoted to improving access to local libraries.",
+        "collocations": [
+          "be devoted to doing something",
+          "devoted to a cause"
+        ]
+      }
+    ],
+    "translation": "当你致力于为世界带来改变时，你的人生当然有其意义。你看得到自己的劳动成果、留下的影响。你的存在有了理由。但当努力没有带来明确改变时，人生的意义就更难看清了。",
+    "evidenceTargetIds": [
+      "c01-s04-p014-03090-s002"
+    ],
+    "evidence": [
+      {
+        "quote": "When you’re devoted to making a difference in the world, your life certainly has a point.",
+        "sentenceIds": [
+          "c01-s04-p014-03090-s002"
+        ],
+        "sources": [
+          {
+            "pdfPage": 14,
+            "block": 2,
+            "bbox": [
+              76.99,
+              309,
+              535.01,
+              460.02
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "2500efddccfd163fe38d8c7ce90c3c97892b57b2c95d2b7d06950faf896e992c"
+  },
+  {
+    "id": "qe-c01-0052",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-003",
+    "parentQuestionId": "q-c01-067",
+    "chapterId": "c01",
+    "sectionId": "c01-s04",
+    "paragraphId": "c01-s04-p014-03090",
+    "readingUnitId": "c01-s04-p014-03090-r002-005",
+    "sentenceIds": [
+      "c01-s04-p014-03090-s002",
+      "c01-s04-p014-03090-s003",
+      "c01-s04-p014-03090-s004",
+      "c01-s04-p014-03090-s005"
+    ],
+    "passage": "When you’re devoted to making a difference in the world, your life certainly has a point. You see the fruits of your labor, your legacy. There is a reason for your existence. But when your efforts are not making a clear difference, it is harder to see the point of your life.",
+    "prompt": "What are 'the fruits of your labor' in this context?",
+    "promptZh": "本语境中 the fruits of your labor 指什么？",
+    "options": [
+      "The results and lasting effects of your efforts.",
+      "The agricultural products grown near your home.",
+      "Only the wages paid for your working hours.",
+      "The benefits that others obtain without your involvement."
+    ],
+    "optionsZh": [
+      "努力带来的成果和持久影响。",
+      "在家附近种植的农产品。",
+      "仅指按工时领取的工资。",
+      "别人在没有你参与时获得的益处。"
+    ],
+    "answer": 0,
+    "type": "语境词义",
+    "support": "explicit",
+    "analyses": [
+      "A fruits 是成果的比喻，your legacy 进一步指向自己留下的影响。",
+      "B 这里不是农业收成，不能取字面义。",
+      "C 成果的范围比工资更广，only 缩小了原意。",
+      "D your labor 强调自己的付出，不能改为自己完全未参与。"
+    ],
+    "vocabulary": [
+      {
+        "word": "fruits of your labor",
+        "meaning": "劳动或努力的成果",
+        "context": "用成果与 legacy 说明人能看到自身付出留下的影响。",
+        "example": "After months of rehearsal, the musicians enjoyed the fruits of their labor.",
+        "collocations": [
+          "enjoy the fruits of your labor",
+          "see the fruits of your labor"
+        ]
+      }
+    ],
+    "translation": "当你致力于为世界带来改变时，你的人生当然有其意义。你看得到自己的劳动成果、留下的影响。你的存在有了理由。但当努力没有带来明确改变时，人生的意义就更难看清了。",
+    "evidenceTargetIds": [
+      "c01-s04-p014-03090-s003"
+    ],
+    "evidence": [
+      {
+        "quote": "You see the fruits of your labor, your legacy.",
+        "sentenceIds": [
+          "c01-s04-p014-03090-s003"
+        ],
+        "sources": [
+          {
+            "pdfPage": 14,
+            "block": 2,
+            "bbox": [
+              76.99,
+              309,
+              535.01,
+              460.02
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "a89fcbd966832674bc38523bf9ecac42145b9d4fbc9050416f0c96dc6cbb27c3"
+  },
+  {
+    "id": "qe-c01-0053",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-003",
+    "parentQuestionId": "q-c01-067",
+    "chapterId": "c01",
+    "sectionId": "c01-s04",
+    "paragraphId": "c01-s04-p014-03090",
+    "readingUnitId": "c01-s04-p014-03090-r002-005",
+    "sentenceIds": [
+      "c01-s04-p014-03090-s002",
+      "c01-s04-p014-03090-s003",
+      "c01-s04-p014-03090-s004",
+      "c01-s04-p014-03090-s005"
+    ],
+    "passage": "When you’re devoted to making a difference in the world, your life certainly has a point. You see the fruits of your labor, your legacy. There is a reason for your existence. But when your efforts are not making a clear difference, it is harder to see the point of your life.",
+    "prompt": "Which statement best paraphrases 'There is a reason for your existence'?",
+    "promptZh": "哪项最贴近 There is a reason for your existence 的意思？",
+    "options": [
+      "You can explain the biological origins of human beings.",
+      "You know that everyone must follow the same ambition.",
+      "You have evidence that your achievements will last forever.",
+      "You feel that your being here serves a purpose."
+    ],
+    "optionsZh": [
+      "你能解释人类的生物学起源。",
+      "你知道每个人必须追求相同抱负。",
+      "你有证据证明自己的成就将永远存在。",
+      "你感到自己的存在有一个目的。"
+    ],
+    "answer": 3,
+    "type": "同义改写",
+    "support": "explicit",
+    "analyses": [
+      "A reason 在本段指人生意义，不是物种起源。",
+      "B 没有 everyone 或 same ambition，不能扩为统一目标。",
+      "C 有存在的理由不等于能证明成就永恒。",
+      "D reason for your existence 对应自己的存在有何目的，保留意义语境。"
+    ],
+    "vocabulary": [
+      {
+        "word": "existence",
+        "meaning": "存在；生存",
+        "context": "your existence 指自己的存在，reason for 询问其目的和意义。",
+        "example": "The novel asks how ordinary people find a purpose in their existence.",
+        "collocations": [
+          "a reason for your existence",
+          "human existence"
+        ]
+      }
+    ],
+    "translation": "当你致力于为世界带来改变时，你的人生当然有其意义。你看得到自己的劳动成果、留下的影响。你的存在有了理由。但当努力没有带来明确改变时，人生的意义就更难看清了。",
+    "evidenceTargetIds": [
+      "c01-s04-p014-03090-s004"
+    ],
+    "evidence": [
+      {
+        "quote": "There is a reason for your existence.",
+        "sentenceIds": [
+          "c01-s04-p014-03090-s004"
+        ],
+        "sources": [
+          {
+            "pdfPage": 14,
+            "block": 2,
+            "bbox": [
+              76.99,
+              309,
+              535.01,
+              460.02
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "a2e443c00067026cb157a6db298a56066abdf494476fac3aae1463c88ec9a678"
+  },
+  {
+    "id": "qe-c01-0054",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-003",
+    "parentQuestionId": "q-c01-068",
+    "chapterId": "c01",
+    "sectionId": "c01-s04",
+    "paragraphId": "c01-s04-p014-03090",
+    "readingUnitId": "c01-s04-p014-03090-r006-008",
+    "sentenceIds": [
+      "c01-s04-p014-03090-s006",
+      "c01-s04-p014-03090-s007",
+      "c01-s04-p014-03090-s008"
+    ],
+    "passage": "The Scottish singer-songwriter Lewis Capaldi sang in the song “Pointless”: “Of all the dreams I’m chasing…Everything is pointless without you.” Imagine that he broke up with this woman. His dedication would be wasted, and his life would feel pointless.",
+    "prompt": "What kind of material introduces the discussion of life feeling pointless without someone?",
+    "promptZh": "作者用哪种材料引出失去某人后人生可能显得无意义的讨论？",
+    "options": [
+      "A controlled experiment conducted by Lewis Capaldi.",
+      "A lyric from a song performed by Lewis Capaldi.",
+      "A documented account of Capaldi's actual breakup.",
+      "A statistical survey of Scottish relationships."
+    ],
+    "optionsZh": [
+      "卡帕尔迪进行的对照实验。",
+      "卡帕尔迪演唱歌曲中的歌词。",
+      "卡帕尔迪真实分手事件的实录。",
+      "苏格兰恋爱关系的统计调查。"
+    ],
+    "answer": 1,
+    "type": "观点归属",
+    "support": "explicit",
+    "analyses": [
+      "A sang in the song 标明歌曲引述，没有实验分组。",
+      "B 句子说明演唱者和歌名，引用歌词作为意义依附于关系的例子。",
+      "C 后面的 Imagine 提示设想，不能据此声称歌手真的分手。",
+      "D 没有调查样本，歌曲不能当作总体统计结论。"
+    ],
+    "vocabulary": [
+      {
+        "word": "pointless",
+        "meaning": "无意义的；没有目的的",
+        "context": "歌词表达失去所爱之人时的无意义感，是艺术表达而非实验结论。",
+        "example": "Without a clear question, the discussion felt pointless.",
+        "collocations": [
+          "feel pointless",
+          "a pointless exercise"
+        ]
+      }
+    ],
+    "translation": "苏格兰创作歌手 Lewis Capaldi 在《Pointless》中唱道：“在我追逐的所有梦想中……没有你，一切都毫无意义。”设想他与这名女子分手：他的投入就会付诸东流，他的人生也会感觉失去了意义。",
+    "evidenceTargetIds": [
+      "c01-s04-p014-03090-s006"
+    ],
+    "evidence": [
+      {
+        "quote": "The Scottish singer-songwriter Lewis Capaldi sang in the song “Pointless”: “Of all the dreams I’m chasing…Everything is pointless without you.”",
+        "sentenceIds": [
+          "c01-s04-p014-03090-s006"
+        ],
+        "sources": [
+          {
+            "pdfPage": 14,
+            "block": 2,
+            "bbox": [
+              76.99,
+              309,
+              535.01,
+              460.02
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "bd94978d818818c4ebdc3a7bb33437e450ed4cd359bf04685b299bfac25ae2c7"
+  },
+  {
+    "id": "qe-c01-0055",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-003",
+    "parentQuestionId": "q-c01-028",
+    "chapterId": "c01",
+    "sectionId": "c01-s04",
+    "paragraphId": "c01-s04-p014-04650",
+    "readingUnitId": "c01-s04-p014-04650-r001-004",
+    "sentenceIds": [
+      "c01-s04-p014-04650-s001",
+      "c01-s04-p014-04650-s002",
+      "c01-s04-p014-04650-s003",
+      "c01-s04-p014-04650-s004"
+    ],
+    "passage": "Tolstoy was happy and productive. Yet, without any obvious loss, he had a sudden existential crisis at about the age of fifty (years after the publication of War and Peace): “I had a good wife who loved me and whom I loved; good children and a large property which was increasing with no pains taken on my part. I was more respected by my kinsfolk and acquaintance than I had ever been; I was loaded with praise by strangers; and without exaggeration I could believe my name already famous…. And yet I could give no reasonable meaning to any actions of my life.”",
+    "prompt": "How does Tolstoy describe the recognition he received in the quoted passage?",
+    "promptZh": "托尔斯泰在引文中怎样描述自己受到的认可？",
+    "options": [
+      "His relatives had stopped respecting him after his success.",
+      "Only his closest family knew that he was a writer.",
+      "Relatives respected him more, and strangers praised him.",
+      "He had lost his reputation because his property declined."
+    ],
+    "optionsZh": [
+      "他成功后亲属不再尊重他。",
+      "只有最亲近的家人知道他是作家。",
+      "亲属更加尊重他，陌生人也赞扬他。",
+      "他因财产减少而失去名声。"
+    ],
+    "answer": 2,
+    "type": "细节",
+    "support": "explicit",
+    "analyses": [
+      "A more respected...than I had ever been 与不再尊重相反。",
+      "B praise by strangers 和 name already famous 排除了仅家人知道。",
+      "C kinsfolk and acquaintance 的尊重及 strangers 的赞扬都在本句明示。",
+      "D 本句没有名誉丧失；前面的引文还说财产增加。不能把后面的意义危机改写成外部声望下降。"
+    ],
+    "vocabulary": [
+      {
+        "word": "kinsfolk",
+        "meaning": "亲属；亲戚（较旧式用法）",
+        "context": "与 acquaintance 并列指亲属熟人，随后另说陌生人的赞扬。",
+        "example": "Her kinsfolk gathered to celebrate her return.",
+        "collocations": [
+          "kinsfolk and acquaintance",
+          "one's kinsfolk"
+        ]
+      }
+    ],
+    "translation": "托尔斯泰曾幸福而多产。然而，在没有明显损失的情况下，他在大约五十岁时，也就是《战争与和平》出版多年后，突然经历存在危机：“我有一个爱我、我也爱的好妻子；有好孩子，还有一大片无需我费力就不断增值的地产。我比以往更受亲友尊敬，陌生人对我赞誉有加；毫不夸张地说，我相信自己的名字已经出名……然而，我却无法为自己人生中的任何行动赋予合理意义。”",
+    "evidenceTargetIds": [
+      "c01-s04-p014-04650-s003"
+    ],
+    "evidence": [
+      {
+        "quote": "I was more respected by my kinsfolk and acquaintance than I had ever been; I was loaded with praise by strangers; and without exaggeration I could believe my name already famous….",
+        "sentenceIds": [
+          "c01-s04-p014-04650-s003"
+        ],
+        "sources": [
+          {
+            "pdfPage": 14,
+            "block": 3,
+            "bbox": [
+              76.99,
+              465,
+              535.01,
+              635.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "ddd8a7176e625b9cb98dfccb2ec61e40174ec6ff67e68e6a6c9f4ce9591e2de7"
+  },
+  {
+    "id": "qe-c01-0056",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-003",
+    "parentQuestionId": "q-c01-070",
+    "chapterId": "c01",
+    "sectionId": "c01-s05",
+    "paragraphId": "c01-s05-p015-01260",
+    "readingUnitId": "c01-s05-p015-01260-r001-003",
+    "sentenceIds": [
+      "c01-s05-p015-01260-s001",
+      "c01-s05-p015-01260-s002",
+      "c01-s05-p015-01260-s003"
+    ],
+    "passage": "Psychological richness is different from happiness and meaning in the sense that it is not about an overall feeling of where life is going or what the point of your life is, but about an experience, or more precisely the accumulation of experiences over time. In the same way that material richness can be quantified by money—the more money you have, the richer you are materially—psychological richness can be quantified by experiences. The more interesting experiences and stories you have, the more psychologically rich you are.",
+    "prompt": "Which pairing expresses the analogy used to explain psychological richness?",
+    "promptZh": "哪组对应关系表达了解释心理丰富性的类比？",
+    "options": [
+      "Money relates to material richness; experiences relate to psychological richness.",
+      "Money relates to psychological richness; experiences relate only to physical health.",
+      "Material richness depends on stories; psychological richness depends on income.",
+      "Material and psychological richness are both defined solely by money."
+    ],
+    "optionsZh": [
+      "金钱对应物质富裕，经历对应心理丰富。",
+      "金钱对应心理丰富，经历只对应身体健康。",
+      "物质富裕取决于故事，心理丰富取决于收入。",
+      "物质富裕和心理丰富都仅由金钱界定。"
+    ],
+    "answer": 0,
+    "type": "逻辑关系",
+    "support": "explicit",
+    "analyses": [
+      "A In the same way that 引出类比，两边衡量对象分别为 money 与 experiences。",
+      "B 换错了 money 的对应对象，并添加 only physical health。",
+      "C 将类比两端的对应关系倒置。",
+      "D 心理丰富对应 experiences，不能删掉区别；本句也没有提供精确临床计量公式。"
+    ],
+    "vocabulary": [
+      {
+        "word": "quantified",
+        "meaning": "被量化；用数量衡量",
+        "context": "在类比中分别用金钱与经历说明丰富程度，不等于存在精确统一的心理量尺。",
+        "example": "The amount of waste can be quantified by weighing it each day.",
+        "collocations": [
+          "be quantified by",
+          "quantify a change"
+        ]
+      }
+    ],
+    "translation": "心理丰富不同于幸福和意义：它关注的不是人生走向的总体感受，也不是人生的目的，而是经历，更准确地说，是随着时间累积的经历。正如物质丰富可以用金钱量化——钱越多，物质上越富有——心理丰富也可以用经历来量化。有趣的经历和故事越多，心理上就越丰富。",
+    "evidenceTargetIds": [
+      "c01-s05-p015-01260-s002"
+    ],
+    "evidence": [
+      {
+        "quote": "In the same way that material richness can be quantified by money—the more money you have, the richer you are materially—psychological richness can be quantified by experiences.",
+        "sentenceIds": [
+          "c01-s05-p015-01260-s002"
+        ],
+        "sources": [
+          {
+            "pdfPage": 15,
+            "block": 1,
+            "bbox": [
+              76.99,
+              126,
+              535.01,
+              355.02
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "f75cf58b5b0392480d8f468a5602c5cf22c33ca64c5405ecfd17f5c32853c452"
+  },
+  {
+    "id": "qe-c01-0057",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-003",
+    "parentQuestionId": "q-c01-074",
+    "chapterId": "c01",
+    "sectionId": "c01-s05",
+    "paragraphId": "c01-s05-p015-04972",
+    "readingUnitId": "c01-s05-p015-04972-r006-007",
+    "sentenceIds": [
+      "c01-s05-p015-04972-s006",
+      "c01-s05-p015-04972-s007"
+    ],
+    "passage": "Therefore, anyone can benefit from the lessons of psychological richness research. By reminding ourselves that what counts is not just the destination but also the journey, we learn to find value in seeking new experiences and new knowledge, hopefully leading to a life without regrets, or at least fewer regrets.",
+    "prompt": "Who does the author say can benefit from the lessons of psychological richness research?",
+    "promptZh": "作者说谁可以从心理丰富性研究的启示中获益？",
+    "options": [
+      "Only people who leave their home country.",
+      "Only researchers who collect the original data.",
+      "Only people already dissatisfied with every aspect of life.",
+      "Anyone, rather than one narrowly specified group."
+    ],
+    "optionsZh": [
+      "只有离开祖国的人。",
+      "只有收集原始数据的研究者。",
+      "只有已对生活各方面都不满的人。",
+      "任何人，不局限于某个狭小群体。"
+    ],
+    "answer": 3,
+    "type": "细节",
+    "support": "explicit",
+    "analyses": [
+      "A anyone 没有出国条件。",
+      "B lessons 可以被一般人借鉴，并不限于研究者。",
+      "C 没有要求先对一切不满，only 添加了条件。",
+      "D anyone can benefit 明示开放范围。can 表示可以，不保证每个人得到相同结果。"
+    ],
+    "vocabulary": [
+      {
+        "word": "benefit from",
+        "meaning": "从……获益",
+        "context": "指从研究启示中得到帮助，不承诺所有人都拥有完全无悔的人生。",
+        "example": "New volunteers can benefit from the experience of older members.",
+        "collocations": [
+          "benefit from research",
+          "benefit from experience"
+        ]
+      }
+    ],
+    "translation": "因此，任何人都可以从心理丰富研究的启示中受益。提醒自己重要的不只是目的地，还有旅程本身，我们便能学着在寻求新经历和新知识中发现价值，希望由此过上没有遗憾的人生，或者至少少一些遗憾。",
+    "evidenceTargetIds": [
+      "c01-s05-p015-04972-s006"
+    ],
+    "evidence": [
+      {
+        "quote": "Therefore, anyone can benefit from the lessons of psychological richness research.",
+        "sentenceIds": [
+          "c01-s05-p015-04972-s006"
+        ],
+        "sources": [
+          {
+            "pdfPage": 15,
+            "block": 7,
+            "bbox": [
+              76.99,
+              497.25,
+              535.01,
+              687.27
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "94ceb734b7890ac05b6c2a1b27808e96db56658b264dc0deed24d5e623104e0d"
+  },
+  {
+    "id": "qe-c01-0058",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-003",
+    "parentQuestionId": "q-c01-033",
+    "chapterId": "c01",
+    "sectionId": "c01-s05",
+    "paragraphId": "c01-s05-p016-01725",
+    "readingUnitId": "c01-s05-p016-01725-r004-007",
+    "sentenceIds": [
+      "c01-s05-p016-01725-s004",
+      "c01-s05-p016-01725-s005",
+      "c01-s05-p016-01725-s006",
+      "c01-s05-p016-01725-s007"
+    ],
+    "passage": "Do you need to accumulate experiences firsthand, or do vicarious experiences count as well? What are the benefits of a psychologically rich life? How can we enrich our lives psychologically? This book will venture deeply into these questions.",
+    "prompt": "What aspect of a psychologically rich life is the question about 'benefits' asking the book to explore?",
+    "promptZh": "关于 benefits 的问句要求本书探讨心理丰富生活的哪个方面？",
+    "options": [
+      "The number of countries a person must visit.",
+      "The advantages or positive outcomes it may offer.",
+      "The exact financial cost of each experience.",
+      "The identity of every researcher in the field."
+    ],
+    "optionsZh": [
+      "一个人必须访问的国家数量。",
+      "它可能带来的益处或积极结果。",
+      "每次经历的确切经济成本。",
+      "该领域每位研究者的身份。"
+    ],
+    "answer": 1,
+    "type": "作者意图",
+    "support": "explicit",
+    "analyses": [
+      "A benefits 询问益处，不规定旅行国家数。",
+      "B What are the benefits... 把焦点放在这种生活带来的好处；问句本身尚未列出结论。",
+      "C 没有 exact financial cost，不能把心理丰富等同于预算。",
+      "D 问句对象是生活益处，不是学者名录。"
+    ],
+    "vocabulary": [
+      {
+        "word": "benefits",
+        "meaning": "益处；有利的结果",
+        "context": "章末一组待探讨问题中的词，表示心理丰富生活可能带来的好处。",
+        "example": "The report examines the benefits of maintaining a reading habit.",
+        "collocations": [
+          "the benefits of something",
+          "potential benefits"
+        ]
+      }
+    ],
+    "translation": "你需要亲身积累经历，还是通过他人获得的间接经历也算？心理丰富的人生有什么好处？我们如何从心理层面丰富人生？本书将深入探索这些问题。",
+    "evidenceTargetIds": [
+      "c01-s05-p016-01725-s005"
+    ],
+    "evidence": [
+      {
+        "quote": "What are the benefits of a psychologically rich life?",
+        "sentenceIds": [
+          "c01-s05-p016-01725-s005"
+        ],
+        "sources": [
+          {
+            "pdfPage": 16,
+            "block": 2,
+            "bbox": [
+              76.99,
+              172.5,
+              535.01,
+              284.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "59feed284e72e41e519f367db3275925d563febc1758e78b0450d8be4cc18c94"
+  },
+  {
+    "id": "qe-c01-0059",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-003",
+    "parentQuestionId": "q-c01-033",
+    "chapterId": "c01",
+    "sectionId": "c01-s05",
+    "paragraphId": "c01-s05-p016-01725",
+    "readingUnitId": "c01-s05-p016-01725-r004-007",
+    "sentenceIds": [
+      "c01-s05-p016-01725-s004",
+      "c01-s05-p016-01725-s005",
+      "c01-s05-p016-01725-s006",
+      "c01-s05-p016-01725-s007"
+    ],
+    "passage": "Do you need to accumulate experiences firsthand, or do vicarious experiences count as well? What are the benefits of a psychologically rich life? How can we enrich our lives psychologically? This book will venture deeply into these questions.",
+    "prompt": "What does 'How can we enrich our lives psychologically?' primarily ask about?",
+    "promptZh": "How can we enrich our lives psychologically? 主要询问什么？",
+    "options": [
+      "Whether wealth is the only valid life goal.",
+      "How to decide that happiness has no value.",
+      "Ways of making our lives psychologically richer.",
+      "The total number of people who have written autobiographies."
+    ],
+    "optionsZh": [
+      "财富是否是唯一有效的人生目标。",
+      "怎样断定幸福毫无价值。",
+      "让生活在心理上更丰富的方法。",
+      "写过自传的人的总数。"
+    ],
+    "answer": 2,
+    "type": "主旨",
+    "support": "explicit",
+    "analyses": [
+      "A psychologically 指心理层面，不提出财富是唯一目标。",
+      "B enrich 不等于否定幸福的价值。",
+      "C How can we 引出方式或途径，后面说明要丰富的是心理生活。",
+      "D 没有人口计数或自传作者名录。这是后文待回答的问题，不是已经给出的做法清单。"
+    ],
+    "vocabulary": [
+      {
+        "word": "enrich",
+        "meaning": "使丰富；使更充实",
+        "context": "增加生活在心理体验上的丰富程度，不是单指增加钱财。",
+        "example": "Learning a new language can enrich everyday conversations.",
+        "collocations": [
+          "enrich our lives",
+          "enrich an experience"
+        ]
+      }
+    ],
+    "translation": "你需要亲身积累经历，还是通过他人获得的间接经历也算？心理丰富的人生有什么好处？我们如何从心理层面丰富人生？本书将深入探索这些问题。",
+    "evidenceTargetIds": [
+      "c01-s05-p016-01725-s006"
+    ],
+    "evidence": [
+      {
+        "quote": "How can we enrich our lives psychologically?",
+        "sentenceIds": [
+          "c01-s05-p016-01725-s006"
+        ],
+        "sources": [
+          {
+            "pdfPage": 16,
+            "block": 2,
+            "bbox": [
+              76.99,
+              172.5,
+              535.01,
+              284.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "8be8bf7d1fe5bb808ee75788d57be2ff1e8004ac7f1408801346c0ccbfc1d94d"
+  },
+  {
+    "id": "qe-c02-0001",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-003",
+    "parentQuestionId": "q-c02-029",
+    "chapterId": "c02",
+    "sectionId": "c02-s01",
+    "paragraphId": "c02-s01-p017-03608",
+    "readingUnitId": "c02-s01-p017-03608-r005-007",
+    "sentenceIds": [
+      "c02-s01-p017-03608-s005",
+      "c02-s01-p017-03608-s006",
+      "c02-s01-p017-03608-s007"
+    ],
+    "passage": "It is a goal shared by many across the globe; in a large international study conducted by Ed Diener, 69 percent of respondents rated happiness as extremely important (a perfect 7 on a 1 to 7 point scale), ahead of money, love, and health. It is a worthy goal, as research shows that happy people are healthier and more prosocial. They’re also better workers, and they live longer than unhappy people.",
+    "prompt": "Which findings are explicitly used to support calling happiness a 'worthy goal'?",
+    "promptZh": "作者明确用哪组研究描述支持幸福是 worthy goal？",
+    "options": [
+      "Happy people are healthier and more prosocial.",
+      "Happy people earn the highest incomes in every occupation.",
+      "Happy people never experience pressure or disappointment.",
+      "Happy people value money more than love and health."
+    ],
+    "optionsZh": [
+      "幸福的人更健康，也更亲社会。",
+      "幸福的人在每个职业中收入最高。",
+      "幸福的人从不经历压力或失望。",
+      "幸福的人把金钱看得比爱和健康更重要。"
+    ],
+    "answer": 0,
+    "type": "细节",
+    "support": "explicit",
+    "analyses": [
+      "A as research shows 后给出 healthier and more prosocial，直接支持 worthy goal。",
+      "B 没有收入、每个职业或最高排名。",
+      "C healthier 不等于绝无压力，never 超出原文。",
+      "D 前文的重要性排序不能改成幸福的人只重金钱。按书中描述作答，不推出追求幸福必然造成健康改善。"
+    ],
+    "vocabulary": [
+      {
+        "word": "prosocial",
+        "meaning": "亲社会的；有益于他人或群体的",
+        "context": "与 healthier 并列，描述对他人或社会有益的倾向。",
+        "example": "Sharing resources is one example of prosocial behaviour.",
+        "collocations": [
+          "prosocial behaviour",
+          "more prosocial"
+        ]
+      }
+    ],
+    "translation": "这是全球许多人共同追求的目标。在 Ed Diener 主持的一项大型国际研究中，69% 的受访者认为幸福极其重要，在 1 至 7 分的量表上给出满分 7 分，其重要性排在金钱、爱情和健康之前。这是一个值得追求的目标，因为研究表明，幸福的人更健康，也更具亲社会倾向。他们在工作中表现更好，寿命也比不幸福的人更长。",
+    "evidenceTargetIds": [
+      "c02-s01-p017-03608-s006"
+    ],
+    "evidence": [
+      {
+        "quote": "It is a worthy goal, as research shows that happy people are healthier and more prosocial.",
+        "sentenceIds": [
+          "c02-s01-p017-03608-s006"
+        ],
+        "sources": [
+          {
+            "pdfPage": 17,
+            "block": 5,
+            "bbox": [
+              76.99,
+              360.75,
+              535.01,
+              550.77
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "8049b92b1a045b8378c9e6c57cd50e0a99bb7f0c51bd65a6853dd693be4605bd"
+  },
+  {
+    "id": "qe-c02-0002",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-003",
+    "parentQuestionId": "q-c02-029",
+    "chapterId": "c02",
+    "sectionId": "c02-s01",
+    "paragraphId": "c02-s01-p017-03608",
+    "readingUnitId": "c02-s01-p017-03608-r005-007",
+    "sentenceIds": [
+      "c02-s01-p017-03608-s005",
+      "c02-s01-p017-03608-s006",
+      "c02-s01-p017-03608-s007"
+    ],
+    "passage": "It is a goal shared by many across the globe; in a large international study conducted by Ed Diener, 69 percent of respondents rated happiness as extremely important (a perfect 7 on a 1 to 7 point scale), ahead of money, love, and health. It is a worthy goal, as research shows that happy people are healthier and more prosocial. They’re also better workers, and they live longer than unhappy people.",
+    "prompt": "Who does 'They' refer to in 'They’re also better workers'?",
+    "promptZh": "They’re also better workers 中 They 指谁？",
+    "options": [
+      "Only the researchers conducting the study.",
+      "All people who rated money as important.",
+      "Only people who took part in every international survey.",
+      "The happy people mentioned in the preceding sentence."
+    ],
+    "optionsZh": [
+      "仅指开展研究的研究者。",
+      "所有把金钱评为重要的人。",
+      "仅指参加了每一项国际调查的人。",
+      "前一句提到的幸福的人。"
+    ],
+    "answer": 3,
+    "type": "逻辑关系",
+    "support": "explicit",
+    "analyses": [
+      "A 研究者不是前句比较的主体。",
+      "B 前文没有用金钱重要性划出 They 的人群。",
+      "C every international survey 是额外限制。",
+      "D happy people 是前句复数主体，also 承接同一群体；与 unhappy people 的比较也印证这一点。"
+    ],
+    "vocabulary": [
+      {
+        "word": "also",
+        "meaning": "也；还",
+        "context": "承接前一句的健康和亲社会表现，为同一群体添加工作和寿命方面的描述。",
+        "example": "The course develops reading skills and also introduces new vocabulary.",
+        "collocations": [
+          "also be",
+          "not only ... but also"
+        ]
+      }
+    ],
+    "translation": "这是全球许多人共同追求的目标。在 Ed Diener 主持的一项大型国际研究中，69% 的受访者认为幸福极其重要，在 1 至 7 分的量表上给出满分 7 分，其重要性排在金钱、爱情和健康之前。这是一个值得追求的目标，因为研究表明，幸福的人更健康，也更具亲社会倾向。他们在工作中表现更好，寿命也比不幸福的人更长。",
+    "evidenceTargetIds": [
+      "c02-s01-p017-03608-s007"
+    ],
+    "evidence": [
+      {
+        "quote": "It is a worthy goal, as research shows that happy people are healthier and more prosocial. They’re also better workers, and they live longer than unhappy people.",
+        "sentenceIds": [
+          "c02-s01-p017-03608-s006",
+          "c02-s01-p017-03608-s007"
+        ],
+        "sources": [
+          {
+            "pdfPage": 17,
+            "block": 5,
+            "bbox": [
+              76.99,
+              360.75,
+              535.01,
+              550.77
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "8eef8c721379a5e24bb96612489e6a2dbe3491c42f1f00598011d0d3b7152256"
+  },
+  {
+    "id": "qe-c02-0003",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-003",
+    "parentQuestionId": "q-c02-002",
+    "chapterId": "c02",
+    "sectionId": "c02-s01",
+    "paragraphId": "c02-s01-p017-05558",
+    "readingUnitId": "c02-s01-p017-05558-r001-002",
+    "sentenceIds": [
+      "c02-s01-p017-05558-s001",
+      "c02-s01-p017-05558-s002"
+    ],
+    "passage": "The irony is that our blind pursuit of happiness sometimes leads to unhappiness. We put undue pressure and stress on ourselves to always be happy, preventing ourselves from reaping the benefits.",
+    "prompt": "How can pressure to be happy become counterproductive, according to the sentence?",
+    "promptZh": "根据本句，要求自己幸福的压力怎样会适得其反？",
+    "options": [
+      "It makes every enjoyable activity medically harmful.",
+      "It can keep people from gaining the benefits they seek.",
+      "It removes the need for any social relationships.",
+      "It guarantees that all unhappy people become better workers."
+    ],
+    "optionsZh": [
+      "它使每种愉快活动都在医学上有害。",
+      "它可能妨碍人获得原本寻求的益处。",
+      "它消除了社会关系的必要性。",
+      "它保证所有不幸福的人都会成为更好的员工。"
+    ],
+    "answer": 1,
+    "type": "逻辑关系",
+    "support": "explicit",
+    "analyses": [
+      "A 原文针对 undue pressure，不是所有愉快活动。",
+      "B preventing ourselves from reaping the benefits 说明过度施压妨碍获益。",
+      "C 没有说社会关系不再必要。",
+      "D better workers 属于前面的描述，不能移为压力的确定结果。"
+    ],
+    "vocabulary": [
+      {
+        "word": "undue",
+        "meaning": "过度的；不适当的",
+        "context": "修饰为了始终幸福而给自己的过度压力。",
+        "example": "The deadline placed undue pressure on the small team.",
+        "collocations": [
+          "undue pressure",
+          "undue stress"
+        ]
+      }
+    ],
+    "translation": "讽刺的是，我们盲目追求幸福，有时反而带来不幸福。我们给自己施加过度压力，要求自己时时快乐，结果阻碍了自己从幸福中受益。",
+    "evidenceTargetIds": [
+      "c02-s01-p017-05558-s002"
+    ],
+    "evidence": [
+      {
+        "quote": "We put undue pressure and stress on ourselves to always be happy, preventing ourselves from reaping the benefits.",
+        "sentenceIds": [
+          "c02-s01-p017-05558-s002"
+        ],
+        "sources": [
+          {
+            "pdfPage": 17,
+            "block": 6,
+            "bbox": [
+              76.99,
+              555.75,
+              535.01,
+              706.77
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "2532e6f32631d63cb289c325454543f268e0547f4879a9c6440583479ddf9169"
+  },
+  {
+    "id": "qe-c02-0004",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-003",
+    "parentQuestionId": "q-c02-030",
+    "chapterId": "c02",
+    "sectionId": "c02-s01",
+    "paragraphId": "c02-s01-p017-05558",
+    "readingUnitId": "c02-s01-p017-05558-r003-006",
+    "sentenceIds": [
+      "c02-s01-p017-05558-s003",
+      "c02-s01-p017-05558-s004",
+      "c02-s01-p017-05558-s005",
+      "c02-s01-p017-05558-s006"
+    ],
+    "passage": "Take Madison Holleran, a “popular, attractive, and talented” first-year student at the University of Pennsylvania. According to The New York Times, she “posted images that show her smiling, dappled in sunshine or kicking back at a party.” Her social media epitomized happiness. Yet her reality was more tenuous.",
+    "prompt": "How is Madison Holleran introduced in this passage?",
+    "promptZh": "本段最初怎样介绍麦迪逊·霍勒兰？",
+    "options": [
+      "As a first-year student at the University of Pennsylvania.",
+      "As a graduate researcher at the Centers for Disease Control.",
+      "As a teacher reporting on her former university students.",
+      "As a journalist conducting an international happiness survey."
+    ],
+    "optionsZh": [
+      "宾夕法尼亚大学一年级学生。",
+      "美国疾控中心的研究生研究人员。",
+      "讲述昔日大学学生经历的教师。",
+      "进行国际幸福调查的记者。"
+    ],
+    "answer": 0,
+    "type": "细节",
+    "support": "explicit",
+    "analyses": [
+      "A first-year student at the University of Pennsylvania 明示身份和学校。",
+      "B CDC 是后文统计来源，不是她的身份；graduate 与 first-year 不符。",
+      "C 本句称她为学生，不是教师。",
+      "D 新闻报道和幸福调查是周围材料，不能把这些角色移给她。"
+    ],
+    "vocabulary": [
+      {
+        "word": "Take",
+        "meaning": "以……为例（引入例子）",
+        "context": "Take Madison Holleran 让读者考虑这个案例，不是命令带走某个人。",
+        "example": "Take public transport: a short journey can reveal many parts of a city.",
+        "collocations": [
+          "take ... for example",
+          "take the case of"
+        ]
+      }
+    ],
+    "translation": "以 Madison Holleran 为例，她是宾夕法尼亚大学一名“受欢迎、外表出众且才华横溢”的一年级学生。据《纽约时报》报道，她“发布的照片中，自己或面带笑容，或沐浴在斑驳阳光里，或在聚会上放松休闲”。她的社交媒体俨然是幸福的典型写照。然而，她的现实生活却没有那么稳固。",
+    "evidenceTargetIds": [
+      "c02-s01-p017-05558-s003"
+    ],
+    "evidence": [
+      {
+        "quote": "Take Madison Holleran, a “popular, attractive, and talented” first-year student at the University of Pennsylvania.",
+        "sentenceIds": [
+          "c02-s01-p017-05558-s003"
+        ],
+        "sources": [
+          {
+            "pdfPage": 17,
+            "block": 6,
+            "bbox": [
+              76.99,
+              555.75,
+              535.01,
+              706.77
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "ef8ddf256b0efaf92c9e3db8322c24ff75eae1f7ce35805f7f279f619a2d504b"
+  },
+  {
+    "id": "qe-c02-0005",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-003",
+    "parentQuestionId": "q-c02-031",
+    "chapterId": "c02",
+    "sectionId": "c02-s01",
+    "paragraphId": "c02-s01-p017-05558",
+    "readingUnitId": "c02-s01-p017-05558-r007-008",
+    "sentenceIds": [
+      "c02-s01-p017-05558-s007",
+      "c02-s01-p017-05558-s008"
+    ],
+    "passage": "To her sister, she revealed feeling that her social life was inferior to that of her friends. On January 17, 2014, Madison jumped off the top of a parking garage and took her own life.",
+    "prompt": "In which year did the tragic event involving Madison occur, according to the passage?",
+    "promptZh": "根据原文，麦迪逊遭遇的悲剧发生在哪一年？",
+    "options": [
+      "2000.",
+      "2018.",
+      "2014.",
+      "2020."
+    ],
+    "optionsZh": [
+      "2000 年。",
+      "2018 年。",
+      "2014 年。",
+      "2020 年。"
+    ],
+    "answer": 2,
+    "type": "细节",
+    "support": "explicit",
+    "analyses": [
+      "A 2000 是后文统计区间起点，不是事件年份。",
+      "B 2018 出现在后文统计中，不能移到个人事件。",
+      "C On January 17, 2014 明确标明事件时间；本题核对时间信息。",
+      "D 2020 是后文另一组统计的年份，不是这里的日期。"
+    ],
+    "vocabulary": [
+      {
+        "word": "took her own life",
+        "meaning": "自杀身亡（对既往事件的中性表述）",
+        "context": "叙述已经发生的悲剧，不是美化表达，也不说明单一成因。",
+        "example": "The report uses the phrase 'took her own life' when describing a past tragedy.",
+        "collocations": [
+          "take one's own life",
+          "a report of a tragic death"
+        ]
+      }
+    ],
+    "translation": "她向姐妹透露，觉得自己的社交生活不如朋友们。2014 年 1 月 17 日，Madison 从一座停车楼的顶部跳下，结束了自己的生命。",
+    "evidenceTargetIds": [
+      "c02-s01-p017-05558-s008"
+    ],
+    "evidence": [
+      {
+        "quote": "On January 17, 2014, Madison jumped off the top of a parking garage and took her own life.",
+        "sentenceIds": [
+          "c02-s01-p017-05558-s008"
+        ],
+        "sources": [
+          {
+            "pdfPage": 18,
+            "block": 0,
+            "bbox": [
+              76.99,
+              75,
+              535,
+              109.02
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "e9efca895f9f2617323d09b3499a32b1221cb373f2f68bfda854f52a81c4d177"
+  },
+  {
+    "id": "qe-c02-0006",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-003",
+    "parentQuestionId": "q-c02-032",
+    "chapterId": "c02",
+    "sectionId": "c02-s01",
+    "paragraphId": "c02-s01-p018-01140",
+    "readingUnitId": "c02-s01-p018-01140-r001-004",
+    "sentenceIds": [
+      "c02-s01-p018-01140-s001",
+      "c02-s01-p018-01140-s002",
+      "c02-s01-p018-01140-s003",
+      "c02-s01-p018-01140-s004"
+    ],
+    "passage": "Suicide is an extremely complex behavior. Madison’s suicide must have been driven not just from feeling inferior to her friends’ social lives, but also from many other things. What is shocking is how good she was at pretending to be happy in public, and that a person who appeared so well adjusted and happy also had profound inner struggles leading to a tragic fate. Was she an exception or a rule?",
+    "prompt": "What contrast does the narrator find shocking in Madison's case?",
+    "promptZh": "叙述者在麦迪逊的案例中感到震惊的对照是什么？",
+    "options": [
+      "She was publicly unhappy but privately free from every difficulty.",
+      "Her public appearance of happiness concealed profound inner struggles.",
+      "Her friends all knew exactly how she felt at every moment.",
+      "Her difficulties were fully explained by one single social comparison."
+    ],
+    "optionsZh": [
+      "她公开表现不幸福，私下却没有任何困难。",
+      "公开呈现的幸福掩盖了深刻的内心挣扎。",
+      "朋友们每一刻都确切知道她的感受。",
+      "她的困难已由一次社会比较完整解释。"
+    ],
+    "answer": 1,
+    "type": "逻辑关系",
+    "support": "explicit",
+    "analyses": [
+      "A 倒置了 appeared...happy 与 inner struggles 的关系。",
+      "B pretending to be happy in public 与 profound inner struggles 形成外表和内心的对照。",
+      "C 擅长呈现幸福不支持别人总知道真实感受。",
+      "D 前文强调复杂性及 many other things，不能归为单一原因，也不能由外表判断个体风险。"
+    ],
+    "vocabulary": [
+      {
+        "word": "well adjusted",
+        "meaning": "适应良好的",
+        "context": "appeared 限定为外在印象，不代表没有内心困难或临床上的确定判断。",
+        "example": "The character appears well adjusted at school but worries about fitting in.",
+        "collocations": [
+          "appear well adjusted",
+          "a well-adjusted person"
+        ]
+      }
+    ],
+    "translation": "自杀是一种极其复杂的行为。Madison 的自杀，驱动因素一定不只是觉得自己的社交生活不如朋友，还包括许多其他事情。令人震惊的是，她如此善于在公众面前装作快乐；一个看上去适应良好、很幸福的人，也有深刻的内心挣扎，最终走向悲剧。她是例外，还是普遍情形？",
+    "evidenceTargetIds": [
+      "c02-s01-p018-01140-s003"
+    ],
+    "evidence": [
+      {
+        "quote": "What is shocking is how good she was at pretending to be happy in public, and that a person who appeared so well adjusted and happy also had profound inner struggles leading to a tragic fate.",
+        "sentenceIds": [
+          "c02-s01-p018-01140-s003"
+        ],
+        "sources": [
+          {
+            "pdfPage": 18,
+            "block": 1,
+            "bbox": [
+              76.99,
+              114,
+              535.01,
+              226.02
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "608470f15c388cc422802253f12fc247682cedc9036f4d2d5f4a8c15cb6b2685"
+  },
+  {
+    "id": "qe-c02-0007",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-003",
+    "parentQuestionId": "q-c02-032",
+    "chapterId": "c02",
+    "sectionId": "c02-s01",
+    "paragraphId": "c02-s01-p018-01140",
+    "readingUnitId": "c02-s01-p018-01140-r001-004",
+    "sentenceIds": [
+      "c02-s01-p018-01140-s001",
+      "c02-s01-p018-01140-s002",
+      "c02-s01-p018-01140-s003",
+      "c02-s01-p018-01140-s004"
+    ],
+    "passage": "Suicide is an extremely complex behavior. Madison’s suicide must have been driven not just from feeling inferior to her friends’ social lives, but also from many other things. What is shocking is how good she was at pretending to be happy in public, and that a person who appeared so well adjusted and happy also had profound inner struggles leading to a tragic fate. Was she an exception or a rule?",
+    "prompt": "What does the question 'Was she an exception or a rule?' invite the reader to consider?",
+    "promptZh": "Was she an exception or a rule? 引导读者思考什么？",
+    "options": [
+      "Which university rule Madison had broken.",
+      "Whether one case can establish the cause of every tragedy.",
+      "Why all people with similar appearances must feel the same.",
+      "Whether the case is unusual or reflects a more widespread pattern."
+    ],
+    "optionsZh": [
+      "麦迪逊违反了哪条校规。",
+      "一个案例是否能确定所有悲剧的原因。",
+      "为何外表相似的所有人都必然有相同感受。",
+      "这个案例是个别现象，还是反映较广泛的情形。"
+    ],
+    "answer": 3,
+    "type": "作者意图",
+    "support": "explicit",
+    "analyses": [
+      "A rule 与 exception 对照指通常情形，不是校规。",
+      "B 问句关注是否常见，没有用个案建立普遍因果。",
+      "C 并未断言所有外表相似者感受相同。",
+      "D exception or a rule 对照个别与常态，以疑问转向普遍性问题；本身还未证明答案。"
+    ],
+    "vocabulary": [
+      {
+        "word": "rule",
+        "meaning": "常态；通常情况（此处不是规章）",
+        "context": "与 exception 配对，询问案例是否代表更常见的情况。",
+        "example": "In this quiet town, a traffic jam is the exception rather than the rule.",
+        "collocations": [
+          "the exception rather than the rule",
+          "as a rule"
+        ]
+      }
+    ],
+    "translation": "自杀是一种极其复杂的行为。Madison 的自杀，驱动因素一定不只是觉得自己的社交生活不如朋友，还包括许多其他事情。令人震惊的是，她如此善于在公众面前装作快乐；一个看上去适应良好、很幸福的人，也有深刻的内心挣扎，最终走向悲剧。她是例外，还是普遍情形？",
+    "evidenceTargetIds": [
+      "c02-s01-p018-01140-s004"
+    ],
+    "evidence": [
+      {
+        "quote": "Was she an exception or a rule?",
+        "sentenceIds": [
+          "c02-s01-p018-01140-s004"
+        ],
+        "sources": [
+          {
+            "pdfPage": 18,
+            "block": 1,
+            "bbox": [
+              76.99,
+              114,
+              535.01,
+              226.02
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "6bafa3dc2832f6b3cf9525404db4646465de2d1880eecc582086aa483b90a450"
+  },
+  {
+    "id": "qe-c02-0008",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-003",
+    "parentQuestionId": "q-c02-033",
+    "chapterId": "c02",
+    "sectionId": "c02-s01",
+    "paragraphId": "c02-s01-p018-02310",
+    "readingUnitId": "c02-s01-p018-02310-r001-004",
+    "sentenceIds": [
+      "c02-s01-p018-02310-s001",
+      "c02-s01-p018-02310-s002",
+      "c02-s01-p018-02310-s003",
+      "c02-s01-p018-02310-s004"
+    ],
+    "passage": "According to vital statistics from the Centers for Disease Control (CDC), suicide among Americans increased 38 percent between 2000 to 2018. Suicide is still somewhat rare. In the peak year of 2018, the rate of Americans dying by suicide reached 14 out of 100,000, a figure that might make Madison’s case seem like the exception. However, suicidal ideation is not.",
+    "prompt": "Which time span is attached to the reported 38 percent increase in the CDC statistics?",
+    "promptZh": "书中 CDC 统计里，38% 的增幅对应哪段时间？",
+    "options": [
+      "From 2000 to 2018.",
+      "From 2018 to 2020.",
+      "During the single year 2014.",
+      "From 2000 to the present day."
+    ],
+    "optionsZh": [
+      "2000 年至 2018 年。",
+      "2018 年至 2020 年。",
+      "仅 2014 年这一年。",
+      "2000 年至今天。"
+    ],
+    "answer": 0,
+    "type": "细节",
+    "support": "explicit",
+    "analyses": [
+      "A increased 38 percent between 2000 to 2018 明示历史区间。",
+      "B 2020 属于另一组数据，不能拼接区间。",
+      "C 2014 是个案年份，不是增幅区间。",
+      "D 区间止于 2018，不能自动延长到今天；38 percent 也不是全部人口占比或 38 个百分点。"
+    ],
+    "vocabulary": [
+      {
+        "word": "vital statistics",
+        "meaning": "人口动态统计（出生、死亡等数据）",
+        "context": "指 CDC 的统计资料，不是泛指重要数字。",
+        "example": "The archive stores historical vital statistics for the region.",
+        "collocations": [
+          "vital statistics from an agency",
+          "collect vital statistics"
+        ]
+      }
+    ],
+    "translation": "根据美国疾病控制中心（CDC）的人口动态统计，2000 至 2018 年间，美国人的自杀情况增加了 38%。自杀仍相对少见。在达到高点的 2018 年，美国人死于自杀的比率为每十万人中十四人，这个数字可能让 Madison 的个案看起来像例外。然而，自杀意念却并非如此少见。",
+    "evidenceTargetIds": [
+      "c02-s01-p018-02310-s001"
+    ],
+    "evidence": [
+      {
+        "quote": "According to vital statistics from the Centers for Disease Control (CDC), suicide among Americans increased 38 percent between 2000 to 2018.",
+        "sentenceIds": [
+          "c02-s01-p018-02310-s001"
+        ],
+        "sources": [
+          {
+            "pdfPage": 18,
+            "block": 2,
+            "bbox": [
+              76.99,
+              231,
+              535.01,
+              460.02
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "8e736e9d5473320ec982b126a2a0739aed71ab6c2f3ec67cd06249e3c2df9efc"
+  },
+  {
+    "id": "qe-c02-0009",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-003",
+    "parentQuestionId": "q-c02-033",
+    "chapterId": "c02",
+    "sectionId": "c02-s01",
+    "paragraphId": "c02-s01-p018-02310",
+    "readingUnitId": "c02-s01-p018-02310-r001-004",
+    "sentenceIds": [
+      "c02-s01-p018-02310-s001",
+      "c02-s01-p018-02310-s002",
+      "c02-s01-p018-02310-s003",
+      "c02-s01-p018-02310-s004"
+    ],
+    "passage": "According to vital statistics from the Centers for Disease Control (CDC), suicide among Americans increased 38 percent between 2000 to 2018. Suicide is still somewhat rare. In the peak year of 2018, the rate of Americans dying by suicide reached 14 out of 100,000, a figure that might make Madison’s case seem like the exception. However, suicidal ideation is not.",
+    "prompt": "What does 'somewhat' contribute to 'Suicide is still somewhat rare'?",
+    "promptZh": "Suicide is still somewhat rare 中 somewhat 有什么作用？",
+    "options": [
+      "It changes 'rare' into a claim that no cases exist.",
+      "It states that the issue has no importance.",
+      "It qualifies the degree to which the event is described as rare.",
+      "It guarantees that any particular individual is safe."
+    ],
+    "optionsZh": [
+      "把 rare 变成完全不存在案例的断言。",
+      "声称问题毫不重要。",
+      "对所说的罕见程度作出限定。",
+      "保证任何特定个体都安全。"
+    ],
+    "answer": 2,
+    "type": "语境词义",
+    "support": "explicit",
+    "analyses": [
+      "A rare 并非零发生，somewhat 也不表示绝对不存在。",
+      "B 频率描述不能等同重要性评价。",
+      "C somewhat 表示某种程度上，保留程度限定，不能删成绝对判断。",
+      "D 总体频率不能保证个体安全，本句没有这种保证。"
+    ],
+    "vocabulary": [
+      {
+        "word": "somewhat",
+        "meaning": "有些；在某种程度上",
+        "context": "修饰 rare，给总体频率描述加上程度限定。",
+        "example": "The revised timetable is somewhat easier to follow.",
+        "collocations": [
+          "somewhat rare",
+          "somewhat different"
+        ]
+      }
+    ],
+    "translation": "根据美国疾病控制中心（CDC）的人口动态统计，2000 至 2018 年间，美国人的自杀情况增加了 38%。自杀仍相对少见。在达到高点的 2018 年，美国人死于自杀的比率为每十万人中十四人，这个数字可能让 Madison 的个案看起来像例外。然而，自杀意念却并非如此少见。",
+    "evidenceTargetIds": [
+      "c02-s01-p018-02310-s002"
+    ],
+    "evidence": [
+      {
+        "quote": "Suicide is still somewhat rare.",
+        "sentenceIds": [
+          "c02-s01-p018-02310-s002"
+        ],
+        "sources": [
+          {
+            "pdfPage": 18,
+            "block": 2,
+            "bbox": [
+              76.99,
+              231,
+              535.01,
+              460.02
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "feb0b9260d35838c5e9dc96d208005a5a5e7b9ac5e51f9fc7055a0ec8a04b913"
+  },
+  {
+    "id": "qe-c02-0010",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-003",
+    "parentQuestionId": "q-c02-033",
+    "chapterId": "c02",
+    "sectionId": "c02-s01",
+    "paragraphId": "c02-s01-p018-02310",
+    "readingUnitId": "c02-s01-p018-02310-r001-004",
+    "sentenceIds": [
+      "c02-s01-p018-02310-s001",
+      "c02-s01-p018-02310-s002",
+      "c02-s01-p018-02310-s003",
+      "c02-s01-p018-02310-s004"
+    ],
+    "passage": "According to vital statistics from the Centers for Disease Control (CDC), suicide among Americans increased 38 percent between 2000 to 2018. Suicide is still somewhat rare. In the peak year of 2018, the rate of Americans dying by suicide reached 14 out of 100,000, a figure that might make Madison’s case seem like the exception. However, suicidal ideation is not.",
+    "prompt": "What is left understood after 'not' in 'However, suicidal ideation is not'?",
+    "promptZh": "However, suicidal ideation is not 中 not 后省略了什么含义？",
+    "options": [
+      "Not possible to discuss.",
+      "Not rare, in contrast to the preceding description.",
+      "Not a serious matter for anyone.",
+      "Not something that involves thoughts."
+    ],
+    "optionsZh": [
+      "不可能讨论。",
+      "并不罕见，与前面的描述构成对照。",
+      "对任何人都不是严重问题。",
+      "不是涉及想法的事情。"
+    ],
+    "answer": 1,
+    "type": "逻辑关系",
+    "support": "explicit",
+    "analyses": [
+      "A 可从前文补回的性质是 rare，不是 possible to discuss。",
+      "B However 引出对照：前面说死亡事件相对罕见，接着说自杀意念不罕见。要区分想法与死亡事件。",
+      "C not rare 不等于 not serious，不能偷换维度。",
+      "D ideation 指想法或意念，不能否认涉及思想。本句也不是保证想法不会发展成行动。"
+    ],
+    "vocabulary": [
+      {
+        "word": "suicidal ideation",
+        "meaning": "自杀意念；有关自杀的想法",
+        "context": "与死亡事件频率作区分，不把想法、尝试和死亡三个统计对象混同。",
+        "example": "The report distinguishes suicidal ideation from reported attempts.",
+        "collocations": [
+          "report suicidal ideation",
+          "the frequency of suicidal ideation"
+        ]
+      }
+    ],
+    "translation": "根据美国疾病控制中心（CDC）的人口动态统计，2000 至 2018 年间，美国人的自杀情况增加了 38%。自杀仍相对少见。在达到高点的 2018 年，美国人死于自杀的比率为每十万人中十四人，这个数字可能让 Madison 的个案看起来像例外。然而，自杀意念却并非如此少见。",
+    "evidenceTargetIds": [
+      "c02-s01-p018-02310-s004"
+    ],
+    "evidence": [
+      {
+        "quote": "Suicide is still somewhat rare. In the peak year of 2018, the rate of Americans dying by suicide reached 14 out of 100,000, a figure that might make Madison’s case seem like the exception. However, suicidal ideation is not.",
+        "sentenceIds": [
+          "c02-s01-p018-02310-s002",
+          "c02-s01-p018-02310-s003",
+          "c02-s01-p018-02310-s004"
+        ],
+        "sources": [
+          {
+            "pdfPage": 18,
+            "block": 2,
+            "bbox": [
+              76.99,
+              231,
+              535.01,
+              460.02
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "542c29a7fde0894567655cad6c241d2e025bb7a02b7ecf903e415505dfe87903"
+  },
+  {
+    "id": "qe-c02-0011",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-003",
+    "parentQuestionId": "q-c02-034",
+    "chapterId": "c02",
+    "sectionId": "c02-s01",
+    "paragraphId": "c02-s01-p018-02310",
+    "readingUnitId": "c02-s01-p018-02310-r005-008",
+    "sentenceIds": [
+      "c02-s01-p018-02310-s005",
+      "c02-s01-p018-02310-s006",
+      "c02-s01-p018-02310-s007",
+      "c02-s01-p018-02310-s008"
+    ],
+    "passage": "According to the CDC, in 2020 there were 1.2 million suicide attempts and 12.2 million American adults who “seriously” thought about suicide. That means roughly 1 in 20 American adults seriously thought about dying by suicide that year. That is a lot. If you look at the frequency of suicidal thoughts, then, Madison’s case doesn’t seem so rare.",
+    "prompt": "What does the estimate 'roughly 1 in 20 American adults' describe?",
+    "promptZh": "roughly 1 in 20 American adults 这个估计描述什么？",
+    "options": [
+      "Adults who died by suicide in every year of the study.",
+      "People of all ages who attempted suicide in 2018.",
+      "Adults who felt unhappy at least once in their lives.",
+      "Adults who seriously thought about suicide in the year discussed."
+    ],
+    "optionsZh": [
+      "研究每一年自杀身亡的成年人。",
+      "2018 年所有年龄中尝试自杀的人。",
+      "一生中至少一次不快乐的成年人。",
+      "所讨论的那一年认真想过自杀的成年人。"
+    ],
+    "answer": 3,
+    "type": "细节",
+    "support": "explicit",
+    "analyses": [
+      "A thought about 不等于死亡，that year 也不是每一年。",
+      "B 对象是 American adults，且指想法，不是所有年龄的尝试；年份承接 2020。",
+      "C 不能把 seriously thought about suicide 淡化为一生中普通的不快乐。",
+      "D 保留成人、认真想过、当年三个限定。roughly 是近似比例，不是逐组精确计数。"
+    ],
+    "vocabulary": [
+      {
+        "word": "roughly",
+        "meaning": "大约；近似地",
+        "context": "1 in 20 是便于理解的近似比例，不是每组精确计数。",
+        "example": "Roughly one in five visitors returned the questionnaire.",
+        "collocations": [
+          "roughly one in twenty",
+          "roughly equal"
+        ]
+      }
+    ],
+    "translation": "根据 CDC 的数据，2020 年发生了 120 万次自杀尝试，另有 1,220 万美国成年人“认真”想过自杀。这意味着当年约每二十名美国成年人中，就有一人认真想过以自杀方式死亡。这个数字很大。因此，若看自杀想法的出现频率，Madison 的个案似乎就没那么罕见了。",
+    "evidenceTargetIds": [
+      "c02-s01-p018-02310-s006"
+    ],
+    "evidence": [
+      {
+        "quote": "That means roughly 1 in 20 American adults seriously thought about dying by suicide that year.",
+        "sentenceIds": [
+          "c02-s01-p018-02310-s006"
+        ],
+        "sources": [
+          {
+            "pdfPage": 18,
+            "block": 2,
+            "bbox": [
+              76.99,
+              231,
+              535.01,
+              460.02
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "15a06d788acf3dd99e6a2ebba4d33da1fce6c9be7bcabc89f7fa8f6c02fd4743"
+  },
+  {
+    "id": "qe-c02-0012",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-003",
+    "parentQuestionId": "q-c02-034",
+    "chapterId": "c02",
+    "sectionId": "c02-s01",
+    "paragraphId": "c02-s01-p018-02310",
+    "readingUnitId": "c02-s01-p018-02310-r005-008",
+    "sentenceIds": [
+      "c02-s01-p018-02310-s005",
+      "c02-s01-p018-02310-s006",
+      "c02-s01-p018-02310-s007",
+      "c02-s01-p018-02310-s008"
+    ],
+    "passage": "According to the CDC, in 2020 there were 1.2 million suicide attempts and 12.2 million American adults who “seriously” thought about suicide. That means roughly 1 in 20 American adults seriously thought about dying by suicide that year. That is a lot. If you look at the frequency of suicidal thoughts, then, Madison’s case doesn’t seem so rare.",
+    "prompt": "What is the narrator reacting to with 'That is a lot'?",
+    "promptZh": "叙述者说 That is a lot 时，对什么作出反应？",
+    "options": [
+      "The scale of serious suicidal thoughts among adults just described.",
+      "The number of countries included in a travel programme.",
+      "The total number of happiness research papers published.",
+      "A guaranteed count of deaths among each group of twenty adults."
+    ],
+    "optionsZh": [
+      "刚描述的成年人中认真想过自杀的规模。",
+      "旅行项目包含的国家数量。",
+      "已发表幸福研究论文的总数。",
+      "每二十名成年人中必定发生的死亡人数。"
+    ],
+    "answer": 0,
+    "type": "逻辑关系",
+    "support": "explicit",
+    "analyses": [
+      "A That 回指紧前面的约二十分之一成人的想法规模，a lot 表达对数量之大的反应。",
+      "B 本段没有旅行项目。",
+      "C 统计的是人及其想法，不是论文。",
+      "D 前句是近似想法比例，不是死亡数或必然配额。此处的评价不是赞许。"
+    ],
+    "vocabulary": [
+      {
+        "word": "seriously",
+        "meaning": "认真地；严肃地",
+        "context": "限定想法程度，但仍是 thought about，不能替换成已采取行动。",
+        "example": "She seriously considered changing her university course.",
+        "collocations": [
+          "seriously consider",
+          "seriously think about"
+        ]
+      }
+    ],
+    "translation": "根据 CDC 的数据，2020 年发生了 120 万次自杀尝试，另有 1,220 万美国成年人“认真”想过自杀。这意味着当年约每二十名美国成年人中，就有一人认真想过以自杀方式死亡。这个数字很大。因此，若看自杀想法的出现频率，Madison 的个案似乎就没那么罕见了。",
+    "evidenceTargetIds": [
+      "c02-s01-p018-02310-s007"
+    ],
+    "evidence": [
+      {
+        "quote": "That means roughly 1 in 20 American adults seriously thought about dying by suicide that year. That is a lot.",
+        "sentenceIds": [
+          "c02-s01-p018-02310-s006",
+          "c02-s01-p018-02310-s007"
+        ],
+        "sources": [
+          {
+            "pdfPage": 18,
+            "block": 2,
+            "bbox": [
+              76.99,
+              231,
+              535.01,
+              460.02
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "666614b87b92c344d5ec560c1b1ff7268356bb0c8fa3ca081801f679103b99d0"
+  },
+  {
+    "id": "qe-c02-0013",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-003",
+    "parentQuestionId": "q-c02-034",
+    "chapterId": "c02",
+    "sectionId": "c02-s01",
+    "paragraphId": "c02-s01-p018-02310",
+    "readingUnitId": "c02-s01-p018-02310-r005-008",
+    "sentenceIds": [
+      "c02-s01-p018-02310-s005",
+      "c02-s01-p018-02310-s006",
+      "c02-s01-p018-02310-s007",
+      "c02-s01-p018-02310-s008"
+    ],
+    "passage": "According to the CDC, in 2020 there were 1.2 million suicide attempts and 12.2 million American adults who “seriously” thought about suicide. That means roughly 1 in 20 American adults seriously thought about dying by suicide that year. That is a lot. If you look at the frequency of suicidal thoughts, then, Madison’s case doesn’t seem so rare.",
+    "prompt": "On what basis does the narrator say Madison's case 'doesn’t seem so rare'?",
+    "promptZh": "叙述者基于什么说麦迪逊的案例 doesn't seem so rare？",
+    "options": [
+      "The number of images Madison posted online.",
+      "A claim that all university students have identical experiences.",
+      "The frequency of suicidal thoughts rather than death rates alone.",
+      "The number of newspapers that covered the story."
+    ],
+    "optionsZh": [
+      "麦迪逊发布的网络图片数量。",
+      "所有大学生经历完全相同的断言。",
+      "自杀想法的频率，而非仅死亡率。",
+      "报道此事的报纸数量。"
+    ],
+    "answer": 2,
+    "type": "逻辑关系",
+    "support": "explicit",
+    "analyses": [
+      "A 条件从句是 frequency of suicidal thoughts，不是图片数。",
+      "B 没说所有学生经历相同。",
+      "C If you look at... 明示判断指标；作者转向想法频率，不能与死亡统计混为一谈。",
+      "D 条件中没有新闻数量。这个比较不能单独证明个案成因或预测个体。"
+    ],
+    "vocabulary": [
+      {
+        "word": "frequency",
+        "meaning": "发生频率；出现的经常程度",
+        "context": "特指想法的出现频率，必须与死亡率所衡量的事件区分。",
+        "example": "The survey recorded the frequency of visits to the library.",
+        "collocations": [
+          "the frequency of thoughts",
+          "measure frequency"
+        ]
+      }
+    ],
+    "translation": "根据 CDC 的数据，2020 年发生了 120 万次自杀尝试，另有 1,220 万美国成年人“认真”想过自杀。这意味着当年约每二十名美国成年人中，就有一人认真想过以自杀方式死亡。这个数字很大。因此，若看自杀想法的出现频率，Madison 的个案似乎就没那么罕见了。",
+    "evidenceTargetIds": [
+      "c02-s01-p018-02310-s008"
+    ],
+    "evidence": [
+      {
+        "quote": "If you look at the frequency of suicidal thoughts, then, Madison’s case doesn’t seem so rare.",
+        "sentenceIds": [
+          "c02-s01-p018-02310-s008"
+        ],
+        "sources": [
+          {
+            "pdfPage": 18,
+            "block": 2,
+            "bbox": [
+              76.99,
+              231,
+              535.01,
+              460.02
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "3aa5b9ac5ed85c34263dd829d8a7ee14f3c4dcab97bd3739b5612e950f93a572"
+  },
+  {
+    "id": "qe-c02-0014",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-003",
+    "parentQuestionId": "q-c02-036",
+    "chapterId": "c02",
+    "sectionId": "c02-s01",
+    "paragraphId": "c02-s01-p018-04650",
+    "readingUnitId": "c02-s01-p018-04650-r001-004",
+    "sentenceIds": [
+      "c02-s01-p018-04650-s001",
+      "c02-s01-p018-04650-s002",
+      "c02-s01-p018-04650-s003",
+      "c02-s01-p018-04650-s004"
+    ],
+    "passage": "At the core of the pressure to be happy is the American cultural construction of happiness as something achievable. In one study, American college students were asked to write about anything that came to mind when they thought about “happiness.” Many wrote something like, “Happiness is a reward for all the hard work you employ” and “Happiness is the feeling of succeeding.” One student wrote simply that happiness is a “victory”!",
+    "prompt": "What does 'cultural construction' mean in the account of American views of happiness?",
+    "promptZh": "关于美国幸福观的 cultural construction 在这里是什么意思？",
+    "options": [
+      "A building designed to house happiness researchers.",
+      "A culturally shaped understanding of what happiness is.",
+      "A biological instruction identical in every population.",
+      "A guarantee that achievement makes every person happy."
+    ],
+    "optionsZh": [
+      "为幸福研究者设计的大楼。",
+      "由文化塑造的对幸福的理解。",
+      "在每个人群中完全相同的生物指令。",
+      "成就使每个人幸福的保证。"
+    ],
+    "answer": 1,
+    "type": "语境词义",
+    "support": "explicit",
+    "analyses": [
+      "A construction 是抽象的观念建构，不是建筑物。",
+      "B as something achievable 说明文化理解把幸福看作可达成的东西，作者将其与压力联系。",
+      "C American cultural 限定背景，不是所有人共有的生物指令。",
+      "D 文化观念不是每个人成功后必然幸福的实证保证。"
+    ],
+    "vocabulary": [
+      {
+        "word": "construction",
+        "meaning": "建构；形成的理解框架",
+        "context": "cultural construction 指文化塑造的幸福观，不是施工或生物事实。",
+        "example": "The essay examines the cultural construction of success.",
+        "collocations": [
+          "cultural construction",
+          "the construction of an idea"
+        ]
+      }
+    ],
+    "translation": "必须快乐的压力，其核心是美国文化将幸福建构为一种可以实现的东西。在一项研究中，美国大学生被要求写下想到“幸福”时浮现的任何内容。许多人写道，幸福是所有辛勤努力的回报，或幸福是成功时的感受。一名学生干脆把幸福称为一场“胜利”！",
+    "evidenceTargetIds": [
+      "c02-s01-p018-04650-s001"
+    ],
+    "evidence": [
+      {
+        "quote": "At the core of the pressure to be happy is the American cultural construction of happiness as something achievable.",
+        "sentenceIds": [
+          "c02-s01-p018-04650-s001"
+        ],
+        "sources": [
+          {
+            "pdfPage": 18,
+            "block": 3,
+            "bbox": [
+              76.99,
+              465,
+              535.01,
+              674.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "d422fa4ceb78253dd0fa2db7d39f7517bb6f4be88ae16b457f8a9b4fbe9469ca"
+  },
+  {
+    "id": "qe-c02-0015",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-003",
+    "parentQuestionId": "q-c02-036",
+    "chapterId": "c02",
+    "sectionId": "c02-s01",
+    "paragraphId": "c02-s01-p018-04650",
+    "readingUnitId": "c02-s01-p018-04650-r001-004",
+    "sentenceIds": [
+      "c02-s01-p018-04650-s001",
+      "c02-s01-p018-04650-s002",
+      "c02-s01-p018-04650-s003",
+      "c02-s01-p018-04650-s004"
+    ],
+    "passage": "At the core of the pressure to be happy is the American cultural construction of happiness as something achievable. In one study, American college students were asked to write about anything that came to mind when they thought about “happiness.” Many wrote something like, “Happiness is a reward for all the hard work you employ” and “Happiness is the feeling of succeeding.” One student wrote simply that happiness is a “victory”!",
+    "prompt": "What task were the American college students given in the study described?",
+    "promptZh": "这项研究让美国大学生完成什么任务？",
+    "options": [
+      "Rank happiness and money on a seven-point scale.",
+      "Choose one correct definition from four options.",
+      "Record their income before and after graduation.",
+      "Write whatever came to mind when thinking about happiness."
+    ],
+    "optionsZh": [
+      "在七点量表上给幸福和金钱排序。",
+      "从四个选项中选择一个正确定义。",
+      "记录毕业前后的收入。",
+      "写下想到幸福时脑海里出现的任何内容。"
+    ],
+    "answer": 3,
+    "type": "细节",
+    "support": "explicit",
+    "analyses": [
+      "A 七点量表属于前面的另一项研究，不能移用。",
+      "B anything that came to mind 是开放联想，不是四选一。",
+      "C 没有毕业或收入追踪。",
+      "D were asked to write about anything that came to mind 交代了任务及提示词幸福。"
+    ],
+    "vocabulary": [
+      {
+        "word": "came to mind",
+        "meaning": "浮现在脑海中；被想到",
+        "context": "让学生围绕幸福自由联想，不是背诵预定答案。",
+        "example": "When I saw the old photograph, a childhood memory came to mind.",
+        "collocations": [
+          "come to mind",
+          "the first thing that comes to mind"
+        ]
+      }
+    ],
+    "translation": "必须快乐的压力，其核心是美国文化将幸福建构为一种可以实现的东西。在一项研究中，美国大学生被要求写下想到“幸福”时浮现的任何内容。许多人写道，幸福是所有辛勤努力的回报，或幸福是成功时的感受。一名学生干脆把幸福称为一场“胜利”！",
+    "evidenceTargetIds": [
+      "c02-s01-p018-04650-s002"
+    ],
+    "evidence": [
+      {
+        "quote": "In one study, American college students were asked to write about anything that came to mind when they thought about “happiness.”",
+        "sentenceIds": [
+          "c02-s01-p018-04650-s002"
+        ],
+        "sources": [
+          {
+            "pdfPage": 18,
+            "block": 3,
+            "bbox": [
+              76.99,
+              465,
+              535.01,
+              674.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "9291988b8a71f48b4eab8081ce0858501e9d821f466657f3508e583916b646f7"
+  },
+  {
+    "id": "qe-c02-0016",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-003",
+    "parentQuestionId": "q-c02-037",
+    "chapterId": "c02",
+    "sectionId": "c02-s01",
+    "paragraphId": "c02-s01-p018-04650",
+    "readingUnitId": "c02-s01-p018-04650-r005-006",
+    "sentenceIds": [
+      "c02-s01-p018-04650-s005",
+      "c02-s01-p018-04650-s006"
+    ],
+    "passage": "That is, there is a strong association between happiness and success. Another study asked college students to write about “different aspects, features, or effects of either happiness or unhappiness.”",
+    "prompt": "What is meant by a 'strong association between happiness and success' here?",
+    "promptZh": "这里 a strong association between happiness and success 是什么意思？",
+    "options": [
+      "The two ideas are closely linked in the account being discussed.",
+      "Success has been proven to cause happiness for every person.",
+      "The words name exactly the same thing in every culture.",
+      "An organisation called Happiness and Success has been established."
+    ],
+    "optionsZh": [
+      "在所讨论的认识中，这两个概念联系紧密。",
+      "已证明成功会让每个人幸福。",
+      "在所有文化中两个词指完全相同的事物。",
+      "建立了一个叫幸福与成功的组织。"
+    ],
+    "answer": 0,
+    "type": "同义改写",
+    "support": "explicit",
+    "analyses": [
+      "A association between 表示联系，That is 概括前述幸福与成就的联系。",
+      "B 关联不能改写为对每个人都成立的确定因果。",
+      "C 联系不等于定义相同，every culture 也扩大了范围。",
+      "D association 在这里不是协会。不能把观念关联当作新实验的因果结论。"
+    ],
+    "vocabulary": [
+      {
+        "word": "association",
+        "meaning": "联系；关联（此处不是协会）",
+        "context": "概括所讨论的理解中幸福与成功联系紧密，不保证某种因果。",
+        "example": "The article explores the association between reading habits and curiosity.",
+        "collocations": [
+          "an association between two things",
+          "a strong association"
+        ]
+      }
+    ],
+    "translation": "也就是说，幸福与成功之间有很强的联系。另一项研究要求大学生写下“幸福或不幸福的不同方面、特征或影响”。",
+    "evidenceTargetIds": [
+      "c02-s01-p018-04650-s005"
+    ],
+    "evidence": [
+      {
+        "quote": "That is, there is a strong association between happiness and success.",
+        "sentenceIds": [
+          "c02-s01-p018-04650-s005"
+        ],
+        "sources": [
+          {
+            "pdfPage": 18,
+            "block": 3,
+            "bbox": [
+              76.99,
+              465,
+              535.01,
+              674.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "d87a0d6df845e091438394b741fcbda2005b11d53ccf320a60d538a8843427b4"
   }
 ]

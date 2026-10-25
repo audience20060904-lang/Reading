@@ -35,7 +35,14 @@ describe('第 1 章补齐与已发布内容保护',()=>{
   expect(get('q-c01-046').analyses[0]).toContain('perhaps');
   const tasks=JSON.parse(readFileSync('source/content-tasks.json','utf8'));
   expect(tasks.chapters.find((c:any)=>c.id==='c01').remainingReadingUnitIds).toEqual([]);
-  expect(tasks.chapters.find((c:any)=>c.id==='c01').remainingEvidenceIds.length).toBeGreaterThan(0);
+  // Supplemental evidence can legitimately close this chapter's gaps. Check the
+  // actual source IDs instead of freezing an old nonzero count forever.
+  const supplements=JSON.parse(readFileSync('public/data/evidence-questions.json','utf8')) as Question[];
+  const repairs=JSON.parse(readFileSync('src/data/sentence-repair-catalog.json','utf8')).questions as Question[];
+  const replacements=new Map(repairs.map(q=>[q.id,q]));
+  const evidenced=new Set([...qs.map(q=>replacements.get(q.id)??q),...supplements].flatMap(q=>q.evidence.flatMap(e=>e.sentenceIds)));
+  expect(tasks.chapters.find((c:any)=>c.id==='c01').remainingEvidenceIds).toEqual(b.sentences.filter(s=>s.chapterId==='c01'&&!evidenced.has(s.id)).map(s=>s.id));
+  expect(JSON.parse(readFileSync('public/data/coverage.json','utf8')).fullCoverage).toBe(false);
   expect(tasks.nextBatch.chapterId).toBe(plan.units.find(u=>!u.questionId)?.chapterId);expect(plan.coverage.allQuestionsPrepared).toBe(plan.units.every(u=>u.questionId));
  });
 });
