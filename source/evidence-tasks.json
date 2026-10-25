@@ -5,7 +5,7 @@
   "initialRemaining": 1661,
   "status": "in-progress",
   "preparedQuestionCount": 50,
-  "publishedQuestionCount": 25,
+  "publishedQuestionCount": 50,
   "directEvidence": 1549,
   "remainingSentenceIds": [
     "c01-s04-p014-03090-s002",
@@ -1659,7 +1659,7 @@
     },
     {
       "id": "evidence-002",
-      "status": "prepared-not-yet-published",
+      "status": "published-and-verified",
       "questionCount": 25,
       "questionIds": [
         "qe-c01-0026",
@@ -1690,7 +1690,7 @@
       ],
       "targetRecord": "source/evidence-questions/batch002-targets.json",
       "authorRecord": "source/evidence-questions/batch002-author.json",
-      "receipt": null
+      "receipt": "source/releases/evidence-002.json"
     }
   ],
   "notice": "Prepared is distinct from published. Candidate IDs retain original automatic segmentation and are not a final human sentence count. Old questions, original source units and real study history are preserved."
