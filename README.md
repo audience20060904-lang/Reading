@@ -8,7 +8,7 @@
 <!-- evidence-progress:start -->
 ## 逐句直接证据补题 · 进行中
 
-当前本地已准备25道逐句补题，已验证发布0道；尚未发布的本地批次不得当作线上完成。总题库1081题（1056道主问题＋25道补题），1524个候选句有直接证据题，仍有1636个候选句待补。后文1499/1661等数值记录此前修复阶段，当前以本节、public/data/coverage.json及真实发布回执为准。
+当前本地已准备25道逐句补题，已验证发布25道；尚未发布的本地批次不得当作线上完成。总题库1081题（1056道主问题＋25道补题），1524个候选句有直接证据题，仍有1636个候选句待补。后文1499/1661等数值记录此前修复阶段，当前以本节、public/data/coverage.json及真实发布回执为准。
 
 <!-- evidence-progress:end -->
 
@@ -54,7 +54,7 @@ Windows 双击 start-reading.cmd，或使用 Node.js 22.12+ 执行：
 
 打开 http://127.0.0.1:4173/ 。开发使用 npm run dev。不要用 file:// 双击 HTML，离线只在生产构建中工作。
 
-当前313项自动测试。通用浏览器套件25项；末尾25段使用 node scripts/batch042-browser-test.mjs。来源审计和新增3题使用 node scripts/batch043-browser-test.mjs，检查原页顺序、旧题指纹和成绩、图表恢复、子路径与离线缓存。所有浏览器作答均为隔离合成记录，实际发布结果记录在对应回执中。
+当前316项自动测试。通用浏览器套件25项；末尾25段使用 node scripts/batch042-browser-test.mjs。来源审计和新增3题使用 node scripts/batch043-browser-test.mjs，检查原页顺序、旧题指纹和成绩、图表恢复、子路径与离线缓存。所有浏览器作答均为隔离合成记录，实际发布结果记录在对应回执中。
 
 脚本使用 Playwright 和 Chromium；Windows 默认 Edge，可设置 BROWSER_PATH。缺少依赖时安装 npm install --no-save playwright，再执行 npx playwright install chromium。QA 使用隔离浏览器和合成记录，仅写入被忽略的 qa/，不读取用户 4173 端口数据。
 

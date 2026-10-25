@@ -2,6 +2,7 @@
 import {readFile,writeFile,readdir} from 'node:fs/promises';
 import {createHash} from 'node:crypto';
 import assert from 'node:assert/strict';
+import {matchEvidence} from './evidence-source.mjs';
 const read=async p=>JSON.parse(await readFile(p,'utf8'));
 const canonical=v=>Array.isArray(v)?'['+v.map(canonical).join(',')+']':v&&typeof v==='object'?'{'+Object.keys(v).sort().map(k=>JSON.stringify(k)+':'+canonical(v[k])).join(',')+'}':JSON.stringify(v);
 const hash=s=>createHash('sha256').update(s).digest('hex');
@@ -12,11 +13,13 @@ const sentences=new Map(book.sentences.map(s=>[s.id,s])),originalEvidence=new Se
 for(const name of (await readdir('source/evidence-questions')).filter(n=>/^batch\d+-author\.json$/.test(n)).sort()){
  const author=await read('source/evidence-questions/'+name),targets=await read('source/evidence-questions/'+name.replace('-author','-targets'));
  assert.equal(targets.pdfSha256,book.pdfSha256);assert.equal(author.id,targets.id);assert(targets.targets.length<=25);assert.equal(author.questions.length,targets.targets.length,'Unfinished batch: preserve draft; do not publish partial or placeholder questions');
+ const beforeBatch=new Set(all.flatMap(q=>q.evidence.flatMap(e=>e.sentenceIds)));assert.equal(targets.previousRemaining,book.sentences.length-beforeBatch.size);
  const order=new Set();for(const row of author.questions){
   assert(!order.has(row.order));order.add(row.order);const t=targets.targets.find(t=>t.order===row.order);assert(t);const s=sentences.get(t.sentenceId),parent=primary.find(q=>q.id===t.parentQuestionId);assert(s&&parent);assert(!originalEvidence.has(s.id));assert(!authoredTargets.has(s.id),'Do not target the same gap twice');authoredTargets.add(s.id);assert(parent.sentenceIds.includes(s.id));assert.equal(hash(s.text),t.sentenceSha256);assert.equal(s.text,t.sentenceText);assert.equal(parent.fingerprint,t.parentFingerprint);assert.equal(hash(parent.passage),t.passageSha256);assert.equal(parent.readingUnitId,t.readingUnitId);assert(!ids.has(t.questionId));ids.add(t.questionId);
   assert(typeof row.prompt==='string'&&row.prompt.endsWith('?'));assert(row.promptZh);for(const field of ['options','optionsZh','analyses'])assert(row[field].length===4&&row[field].every(x=>typeof x==='string'&&x.trim()));assert.equal(new Set(row.options).size,4);assert(Number.isInteger(row.answer)&&row.answer>=0&&row.answer<4);assert(row.vocabulary.length>0);assert(parent.passage.includes(s.text),'Evidence must be an exact source substring');
   for(const v of row.vocabulary){assert(v.word&&v.meaning&&v.context&&v.example&&v.collocations.length);assert(parent.passage.toLowerCase().includes(v.word.toLowerCase()),v.word);}
-  const q={id:t.questionId,version:1,family:'sentence-evidence',batchId:author.id,parentQuestionId:parent.id,chapterId:s.chapterId,sectionId:s.sectionId,paragraphId:parent.paragraphId,readingUnitId:parent.readingUnitId,sentenceIds:[...parent.sentenceIds],passage:parent.passage,prompt:row.prompt,promptZh:row.promptZh,options:row.options,optionsZh:row.optionsZh,answer:row.answer,type:row.type,support:row.support,analyses:row.analyses,vocabulary:row.vocabulary,translation:parent.translation,evidenceTargetIds:[s.id],evidence:[{quote:s.text,sentenceIds:[s.id],sources:s.sources}],editorialStatus:'逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。',...(parent.sourceSegments?{sourceSegments:parent.sourceSegments}:{})};
+  assert(!beforeBatch.has(s.id),'Target was already evidenced before this batch');
+  const q={id:t.questionId,version:1,family:'sentence-evidence',batchId:author.id,parentQuestionId:parent.id,chapterId:s.chapterId,sectionId:s.sectionId,paragraphId:parent.paragraphId,readingUnitId:parent.readingUnitId,sentenceIds:[...parent.sentenceIds],passage:parent.passage,prompt:row.prompt,promptZh:row.promptZh,options:row.options,optionsZh:row.optionsZh,answer:row.answer,type:row.type,support:row.support,analyses:row.analyses,vocabulary:row.vocabulary,translation:parent.translation,evidenceTargetIds:[s.id],evidence:[matchEvidence(book,parent,s.id,row.evidenceQuote??s.text)],editorialStatus:'逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。',...(parent.sourceSegments?{sourceSegments:parent.sourceSegments}:{})};
   assert(q.translation);q.fingerprint=hash(canonical(q));supplemental.push(q);all.push(q);
  }
  const receipt=`source/releases/evidence-${String(Number(name.match(/\d+/)[0])).padStart(3,'0')}.json`;const released=await read(receipt).catch(()=>null);
