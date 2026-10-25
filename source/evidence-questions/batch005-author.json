@@ -1,0 +1,962 @@
+{
+  "schemaVersion": 1,
+  "id": "evidence-005",
+  "status": "authored",
+  "evidenceRule": "frozen-target-sentence",
+  "questions": [
+    {
+      "order": 1,
+      "prompt": "How did people feel after talking to a stranger, compared with their expectations?",
+      "promptZh": "与预期相比，人们和陌生人交谈后的感受如何？",
+      "options": [
+        "Exactly as unhappy as they had predicted.",
+        "Less happy than they had anticipated.",
+        "Far happier than they had anticipated.",
+        "No happier than people who did not speak to anyone."
+      ],
+      "optionsZh": [
+        "恰好和预计的一样不幸福。",
+        "比自己预想的更不幸福。",
+        "比自己预想的幸福得多。",
+        "不比没有与人交谈的人更幸福。"
+      ],
+      "answer": 2,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A 把 happier 改成 unhappy，且删除比较差距。",
+        "B far happier 表明实际更幸福，不是低于预期。",
+        "C far happier than they had anticipated 明示实际感受高于预期。",
+        "D 句子比较实际感受与预期，没有给出与不交谈组相同的结论。"
+      ],
+      "vocabulary": [
+        {
+          "word": "anticipated",
+          "meaning": "预料；预期",
+          "context": "比较的是交谈后的幸福感与事先预期，不是把研究者的预测当参与者的预测。",
+          "example": "The discussion was more useful than she had anticipated.",
+          "collocations": [
+            "than anticipated",
+            "anticipate an outcome"
+          ]
+        }
+      ]
+    },
+    {
+      "order": 2,
+      "prompt": "What does saying that findings 'have been replicated' indicate?",
+      "promptZh": "说研究发现 have been replicated 表示什么？",
+      "options": [
+        "The findings were reproduced in further research.",
+        "The original report was merely mentioned in a newspaper.",
+        "Every future study must produce identical results.",
+        "The authors decided not to conduct any more research."
+      ],
+      "optionsZh": [
+        "后续研究再现了这些发现。",
+        "原报告只是被报纸提到。",
+        "未来每项研究都必须有相同结果。",
+        "作者决定不再开展研究。"
+      ],
+      "answer": 0,
+      "type": "语境词义",
+      "support": "explicit",
+      "analyses": [
+        "A replicated 指在进一步研究中再现结果；这是本句对这些发现的描述。",
+        "B 新闻提及不是科学复现，不能混淆。",
+        "C 已有复现不等于保证每个未来研究都相同。",
+        "D 句子没有研究停止的决定。注意不能把上一段微笑实验的混合结果与这里的发现混为一组。"
+      ],
+      "vocabulary": [
+        {
+          "word": "replicated",
+          "meaning": "被复现；经重复研究再现",
+          "context": "描述研究结果在进一步研究中再现，不只是媒体转述。",
+          "example": "The pattern was replicated in a second sample.",
+          "collocations": [
+            "replicate findings",
+            "be replicated in another study"
+          ]
+        }
+      ]
+    },
+    {
+      "order": 3,
+      "prompt": "What differed between the conditions in the anagram experiment?",
+      "promptZh": "字母重组实验中，各条件的差别是什么？",
+      "options": [
+        "Whether anagrams were solved with or without a time limit.",
+        "Whether correct solutions earned a financial reward.",
+        "Whether participants chose their own tasks or were assigned them.",
+        "Whether participants were put under pressure to be happy."
+      ],
+      "optionsZh": [
+        "是否在限时条件下解决字母重组题。",
+        "正确解题是否获得经济奖励。",
+        "参与者自己选任务还是被分派任务。",
+        "参与者是否承受必须幸福的压力。"
+      ],
+      "answer": 3,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A 本句操纵的是幸福压力，没有限时变量。",
+        "B 原句没有金钱奖励设置。",
+        "C 本句未设置任务选择权的比较。",
+        "D with or without the pressure to be happy 明示条件差异。"
+      ],
+      "vocabulary": [
+        {
+          "word": "anagrams",
+          "meaning": "字母重组词；变位词",
+          "context": "参与者要尝试解决的文字任务，条件差异在于是否有必须幸福的压力。",
+          "example": "The puzzle book includes several anagrams.",
+          "collocations": [
+            "solve anagrams",
+            "an anagram task"
+          ]
+        }
+      ]
+    },
+    {
+      "order": 4,
+      "prompt": "How does 'In short' function before the statement about a happiness trap?",
+      "promptZh": "幸福陷阱判断前的 In short 起什么作用？",
+      "options": [
+        "It introduces a new experimental method.",
+        "It summarises the preceding discussion of emotional pressure.",
+        "It reverses the meaning of the preceding finding.",
+        "It restricts the preceding finding to one individual."
+      ],
+      "optionsZh": [
+        "引入一种新的实验方法。",
+        "概括前面对情绪压力的讨论。",
+        "倒转前一发现的意思。",
+        "把前面的发现限定到单个个体。"
+      ],
+      "answer": 1,
+      "type": "逻辑关系",
+      "support": "explicit",
+      "analyses": [
+        "A In short 引出概括，不是新实验方法。",
+        "B In short 标示概括，把前面的双重情绪压力归结为陷阱。",
+        "C 前句的幸福压力与避免悲伤愤怒的压力支持后句，没有倒转。",
+        "D many Americans 指多人，并非单一个体。"
+      ],
+      "vocabulary": [
+        {
+          "word": "stuck",
+          "meaning": "受困；陷入而难以摆脱",
+          "context": "stuck in a happiness trap 是被情绪期待困住的比喻，不是物理上被锁住。",
+          "example": "The group felt stuck in a cycle of repeated arguments.",
+          "collocations": [
+            "be stuck in a trap",
+            "feel stuck"
+          ]
+        }
+      ],
+      "evidenceQuote": "Furthermore, these researchers found that individuals who feel pressure to feel happy also feel pressure not to feel sadness and anger. In short, many Americans are stuck in a happiness trap."
+    },
+    {
+      "order": 5,
+      "prompt": "What kind of evidence is introduced by 'an experience I had multiple times'?",
+      "promptZh": "an experience I had multiple times 引入哪类材料？",
+      "options": [
+        "A population survey of New York residents.",
+        "A first-person account of a repeated personal experience.",
+        "A story the advisor told the narrator about someone else.",
+        "An account of a single occasion with no suggestion of repetition."
+      ],
+      "optionsZh": [
+        "一项纽约居民总体调查。",
+        "反复发生过的个人经历的第一人称叙述。",
+        "导师告诉作者的他人故事。",
+        "一次单独事件的叙述，没有重复的意思。"
+      ],
+      "answer": 1,
+      "type": "观点归属",
+      "support": "explicit",
+      "analyses": [
+        "A multiple times 指作者多次经历，不是居民调查样本。",
+        "B I had、when I lived in New York City 标明作者自己的经历，multiple times 说明不止一次。",
+        "C 本句说 I had，导师转述的故事属于后面另一段。",
+        "D multiple times 明确表示多次，不能删去次数限定。"
+      ],
+      "vocabulary": [
+        {
+          "word": "multiple times",
+          "meaning": "多次；不止一次",
+          "context": "限定作者经历的次数，不能据此推出所有居民都经历相同事情。",
+          "example": "She revised the paragraph multiple times before submitting it.",
+          "collocations": [
+            "happen multiple times",
+            "read something multiple times"
+          ]
+        }
+      ]
+    },
+    {
+      "order": 6,
+      "prompt": "What detail is given about the building where the narrator lived?",
+      "promptZh": "作者居住的大楼有什么特点？",
+      "options": [
+        "It was staffed by several door attendants at all times.",
+        "It belonged to the Chinese restaurant.",
+        "It admitted only university professors.",
+        "It did not have a door attendant."
+      ],
+      "optionsZh": [
+        "始终有多名门房值班。",
+        "属于那家中餐馆。",
+        "只允许大学教授进入。",
+        "没有门房。"
+      ],
+      "answer": 3,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A without 与始终配备相反。",
+        "B 后文餐馆是外卖来源，没有产权关系。",
+        "C 作者的学术身份不能改成大楼的准入规定。",
+        "D without a door attendant 明确给出建筑的人员配置。"
+      ],
+      "vocabulary": [
+        {
+          "word": "door attendant",
+          "meaning": "门房；门口服务人员",
+          "context": "指大楼门口的工作人员，without 说明该楼没有这项配置。",
+          "example": "The visitor asked the door attendant for directions.",
+          "collocations": [
+            "a building with a door attendant",
+            "work as a door attendant"
+          ]
+        }
+      ]
+    },
+    {
+      "order": 7,
+      "prompt": "Which feeling does the narrator explicitly report?",
+      "promptZh": "作者明确说自己有什么感受？",
+      "options": [
+        "Feeling offended or disrespected.",
+        "He felt grateful without feeling offended.",
+        "He regretted insulting someone else.",
+        "Complete indifference to the experience."
+      ],
+      "optionsZh": [
+        "感到被冒犯或不受尊重。",
+        "他只有感激，没有感到冒犯。",
+        "他因自己冒犯别人而后悔。",
+        "对经历完全无所谓。"
+      ],
+      "answer": 0,
+      "type": "语境词义",
+      "support": "explicit",
+      "analyses": [
+        "A insulted 表示感到受辱、被冒犯，属于作者报告自己的主观感受。",
+        "B felt insulted 明示冒犯感，不能改成只有感激。",
+        "C I felt insulted 是感到被冒犯，不是后悔自己冒犯别人，施受关系颠倒。",
+        "D 感到被冒犯不等于毫不在意；也不能据此确证别人心中的全部动机。"
+      ],
+      "vocabulary": [
+        {
+          "word": "insulted",
+          "meaning": "感到受辱的；被冒犯的",
+          "context": "I felt 指作者的感受报告，不是对另一人心理动机的完整证明。",
+          "example": "He felt insulted when his careful work was dismissed without being read.",
+          "collocations": [
+            "feel insulted",
+            "be insulted by a remark"
+          ]
+        }
+      ]
+    },
+    {
+      "order": 8,
+      "prompt": "What does 'But stuff happens, right?' suggest in the narrator's response?",
+      "promptZh": "But stuff happens, right? 在作者回应中表达什么？",
+      "options": [
+        "A guarantee that unpleasant events are always harmless.",
+        "A claim that the earlier incident never occurred.",
+        "An acknowledgement that unpleasant things sometimes happen in life.",
+        "A plan to repeat the same incident deliberately."
+      ],
+      "optionsZh": [
+        "保证不愉快事件总是无害。",
+        "声称前面的事情从未发生。",
+        "承认生活中有时会发生不愉快的事。",
+        "计划故意重复同一事件。"
+      ],
+      "answer": 2,
+      "type": "语境词义",
+      "support": "explicit",
+      "analyses": [
+        "A 接受不愉快会发生，不等于保证任何事件无害。",
+        "B stuff happens 承认发生，并非否认。",
+        "C But 承接前面的受辱感，以口语反问承认人生中会有这种遭遇；不是说感受不真实。",
+        "D 没有故意重复的计划。"
+      ],
+      "vocabulary": [
+        {
+          "word": "stuff happens",
+          "meaning": "事情总会发生；人生难免遇到状况（口语）",
+          "context": "在承认不快后表达对生活偶发遭遇的接受，不是事件原因的科学解释。",
+          "example": "The coach acknowledged the setback and said that stuff happens.",
+          "collocations": [
+            "stuff happens",
+            "but stuff happens"
+          ]
+        }
+      ]
+    },
+    {
+      "order": 9,
+      "prompt": "At what stage of his studies did the advisor tell the narrator this story?",
+      "promptZh": "导师是在作者学习生涯的哪个阶段告诉他这个故事的？",
+      "options": [
+        "When he was a first-year PhD student.",
+        "After he had obtained his first professorship.",
+        "While applying to enter an undergraduate programme.",
+        "When he was a fifth-year PhD student."
+      ],
+      "optionsZh": [
+        "博士第一年。",
+        "已获得第一个教授职位后。",
+        "申请本科入学时。",
+        "博士第五年。"
+      ],
+      "answer": 3,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A fifth-year 不是 first-year，学年被换错。",
+        "B 本句时间仍为博士学生阶段。",
+        "C PhD 与本科申请是不同阶段。",
+        "D when I was a fifth-year PhD student 直接给出时间。"
+      ],
+      "vocabulary": [
+        {
+          "word": "advisor",
+          "meaning": "导师；指导者",
+          "context": "作者博士阶段的导师，后来在电话中向卡尼曼介绍作者。",
+          "example": "Her advisor suggested a new direction for the thesis.",
+          "collocations": [
+            "a PhD advisor",
+            "ask an advisor for guidance"
+          ]
+        }
+      ]
+    },
+    {
+      "order": 10,
+      "prompt": "Who called Ed Diener to ask about the narrator?",
+      "promptZh": "谁打电话给埃德·迪纳询问作者的情况？",
+      "options": [
+        "Ed Diener, calling Kahneman about the narrator.",
+        "Daniel Kahneman, described as a psychologist at Princeton.",
+        "The narrator, calling Diener to ask about Kahneman.",
+        "Kahneman, calling the narrator to ask about Diener."
+      ],
+      "optionsZh": [
+        "埃德·迪纳打给卡尼曼询问作者。",
+        "被介绍为普林斯顿心理学家的丹尼尔·卡尼曼。",
+        "作者打给迪纳询问卡尼曼。",
+        "卡尼曼打给作者询问迪纳。"
+      ],
+      "answer": 1,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A 倒置来电者与接电话的导师。",
+        "B Daniel Kahneman 是 called 的主语，Ed Diener 是被打电话的导师。",
+        "C 作者是被询问的人，不是这次来电者。",
+        "D 来电者虽对，但接电话者和被询问对象被换错。"
+      ],
+      "vocabulary": [
+        {
+          "word": "called",
+          "meaning": "打电话（此处与 up 搭配）",
+          "context": "called my advisor ... up 表示卡尼曼致电导师，不是给导师取名字。",
+          "example": "She called her supervisor up to discuss the application.",
+          "collocations": [
+            "call someone up",
+            "call an advisor"
+          ]
+        }
+      ]
+    },
+    {
+      "order": 11,
+      "prompt": "What quality did Kahneman ask whether Shige possessed?",
+      "promptZh": "卡尼曼询问 Shige 是否具有哪种特质？",
+      "options": [
+        "A cocky or overly self-assured manner.",
+        "Perfect knowledge of every research method.",
+        "An inability to work with an advisor.",
+        "A preference for avoiding academic jobs."
+      ],
+      "optionsZh": [
+        "自负或过度自信的姿态。",
+        "完全掌握所有研究方法。",
+        "无法与导师共事。",
+        "倾向于回避学术工作。"
+      ],
+      "answer": 0,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A Is Shige cocky? 直接询问这种自信甚至自负的姿态；问句不等于已经认定他具有。",
+        "B 问句词语是 cocky，不是研究方法水平。",
+        "C 没有询问与导师合作能力。",
+        "D 作者在申请职位，问句没有回避学术工作的内容。"
+      ],
+      "vocabulary": [
+        {
+          "word": "cocky",
+          "meaning": "过分自信的；自负的",
+          "context": "是卡尼曼在转述电话中询问的特质，不是作者获得的临床标签。",
+          "example": "The character sounded cocky until he faced a difficult question.",
+          "collocations": [
+            "a cocky attitude",
+            "sound cocky"
+          ]
+        }
+      ]
+    },
+    {
+      "order": 12,
+      "prompt": "Which speaker gives the short reply 'No, he’s not'?",
+      "promptZh": "谁作出了 No, he’s not 这一简短回答？",
+      "options": [
+        "The narrator's wife.",
+        "The narrator's lab mate.",
+        "The narrator's advisor.",
+        "Kahneman himself."
+      ],
+      "optionsZh": [
+        "作者妻子。",
+        "作者同实验室同学。",
+        "作者导师。",
+        "卡尼曼本人。"
+      ],
+      "answer": 2,
+      "type": "观点归属",
+      "support": "explicit",
+      "analyses": [
+        "A 句首不是妻子。",
+        "B 本句没有同学发言。",
+        "C My advisor said 清楚标明这句回答的说话人；这里不把转述对话当作人物性格已获客观测量。",
+        "D 下一句才是 Kahneman said，不可将相邻发言者倒置。"
+      ],
+      "vocabulary": [
+        {
+          "word": "advisor",
+          "meaning": "导师；顾问",
+          "context": "My advisor said 是引语归属标记，帮助区分连续对话的发言者。",
+          "example": "The advisor answered the interviewer's question carefully.",
+          "collocations": [
+            "the advisor said",
+            "an academic advisor"
+          ]
+        }
+      ]
+    },
+    {
+      "order": 13,
+      "prompt": "According to Kahneman's quoted remark, what is needed to 'survive at Princeton'?",
+      "promptZh": "按卡尼曼在引语中的说法，在普林斯顿生存需要什么？",
+      "options": [
+        "Following the advisor without ever questioning him.",
+        "Being cocky.",
+        "Already holding a secure job offer before applying.",
+        "Remaining modest and avoiding attention."
+      ],
+      "optionsZh": [
+        "从不质疑地听从导师。",
+        "有自负或强势自信的姿态。",
+        "申请前已有稳定的职位录用。",
+        "保持谦逊并避免引人注意。"
+      ],
+      "answer": 1,
+      "type": "观点归属",
+      "support": "explicit",
+      "analyses": [
+        "A 引语给出的要求是 cocky，没有这种服从条件。",
+        "B you have to be cocky 是卡尼曼引语中的要求。只是在辨认他的说法，不是作者证明的普遍招聘条件。",
+        "C 没有要求先获录用，更不能将申请与生存条件混同。",
+        "D 这与 cocky 的自负或强势自信含义不符。"
+      ],
+      "vocabulary": [
+        {
+          "word": "survive",
+          "meaning": "撑下去；应付环境（此处为比喻义）",
+          "context": "在这段职业谈话中指适应竞争环境，不是字面上的生命危险统计。",
+          "example": "She learned to survive in a highly competitive workplace.",
+          "collocations": [
+            "survive in a competitive environment",
+            "survive at an institution"
+          ]
+        }
+      ]
+    },
+    {
+      "order": 14,
+      "prompt": "What does 'I suppose' add to the narrator's comment about what a good advisor does?",
+      "promptZh": "作者评价好导师会怎么做时，I suppose 增加了什么语气？",
+      "options": [
+        "A qualified, personal judgement rather than an unreserved assertion.",
+        "A confident rule about how every good advisor behaves.",
+        "A quotation of Kahneman defining good supervision.",
+        "A denial that the advisor took any action."
+      ],
+      "optionsZh": [
+        "带保留的个人评价，而非毫无保留的断言。",
+        "关于每位好导师都会如何行动的确定规则。",
+        "引述卡尼曼对良好指导的定义。",
+        "否认导师采取了任何行动。"
+      ],
+      "answer": 0,
+      "type": "语境词义",
+      "support": "explicit",
+      "analyses": [
+        "A I suppose 表达我想、姑且认为的主观保留，不能删成经验证的普遍好导师标准。",
+        "B I suppose 是主观保留，不是普遍且确定的规则。",
+        "C I 标记作者的评语，不是卡尼曼的直接引语。",
+        "D did 明确说做了，suppose 不是否认行动。"
+      ],
+      "vocabulary": [
+        {
+          "word": "I suppose",
+          "meaning": "我想；我猜；姑且认为",
+          "context": "给作者的评价加上主观保留，不能把轻微反讽强行当作确定的研究结论。",
+          "example": "I suppose the new route will be quieter, though I have not tried it.",
+          "collocations": [
+            "I suppose so",
+            "I suppose that"
+          ]
+        }
+      ]
+    },
+    {
+      "order": 15,
+      "prompt": "Which response does the narrator treat as expected when events such as these happen?",
+      "promptZh": "类似事件发生时，作者把哪种反应视为预期会有的？",
+      "options": [
+        "Feeling no disappointment after such events.",
+        "Feeling pleased that the event occurred.",
+        "Feeling certain that the event will bring future benefits.",
+        "Feeling bad."
+      ],
+      "optionsZh": [
+        "这种事件后完全不失望。",
+        "为事件发生感到高兴。",
+        "确定事件必会带来未来益处。",
+        "感觉难受。"
+      ],
+      "answer": 3,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A will feel bad 不支持毫无难受。",
+        "B feel bad 与为发生而高兴相反。",
+        "C 没有确定的未来收益判断，本句仅描述当前负面感受。",
+        "D when...you will feel bad 将这类事件与难受的反应相连，后句再问怎样回应。"
+      ],
+      "vocabulary": [
+        {
+          "word": "feel bad",
+          "meaning": "感觉难受；心情不好",
+          "context": "在这里指经历挫折后的情绪，不限于道德上的内疚。",
+          "example": "She felt bad after the disappointing meeting.",
+          "collocations": [
+            "feel bad about something",
+            "make someone feel bad"
+          ]
+        }
+      ]
+    },
+    {
+      "order": 16,
+      "prompt": "What do people under pressure to feel happy try to do, according to the passage?",
+      "promptZh": "按原文，承受必须幸福之压力的人会尝试做什么？",
+      "options": [
+        "They spend little effort trying to change their moods.",
+        "They use only healthy ways of improving their moods.",
+        "Try almost anything to repair their moods.",
+        "They accept bad feelings without attempting to change them."
+      ],
+      "optionsZh": [
+        "很少努力改变心情。",
+        "只用健康方式改善心情。",
+        "几乎什么办法都试，以修复情绪。",
+        "接纳坏心情而不试着改变。"
+      ],
+      "answer": 2,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A try almost anything 表示积极尝试，与很少努力相反。",
+        "B 后句明确分出健康与不健康方式，only 扩大了保证。",
+        "C 本句直接这样描述；almost 保留程度，后句还分健康与不健康方式，并非所有方式都被赞成。",
+        "D 这是后面另一类人的态度，不能套到本句承受压力的人身上。"
+      ],
+      "vocabulary": [
+        {
+          "word": "repair their moods",
+          "meaning": "修复或改善他们的心情",
+          "context": "repair 用于情绪恢复的比喻，不是物理修理；积极尝试也不保证方法健康。",
+          "example": "After a difficult day, they hoped a quiet walk would repair their moods.",
+          "collocations": [
+            "mood repair",
+            "repair a negative mood"
+          ]
+        }
+      ]
+    },
+    {
+      "order": 17,
+      "prompt": "What does the author say he personally does when feeling down?",
+      "promptZh": "作者说自己心情低落时会做什么？",
+      "options": [
+        "Go hiking whenever he feels sad.",
+        "Buy something every time he feels sad.",
+        "Listen to his favourite songs.",
+        "Reinterpret every incident before listening to music."
+      ],
+      "optionsZh": [
+        "每次难过都去远足。",
+        "每次难过都购物。",
+        "听自己喜欢的歌曲。",
+        "听歌前先重解每个事件。"
+      ],
+      "answer": 2,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A 远足是前面健康方式的一般例子，本句自述是听歌，whenever 也过度限定。",
+        "B 购物是前面不健康方式的一般例子，并非这句作者的自述。",
+        "C Personally 与 I listen to my favorite songs 标明个人做法。",
+        "D 本句未规定先重解事件，也没有 every 的固定步骤。"
+      ],
+      "vocabulary": [
+        {
+          "word": "feel down",
+          "meaning": "心情低落",
+          "context": "down 在此为情绪义，不表示身体位置向下。",
+          "example": "She felt down after the plan was cancelled.",
+          "collocations": [
+            "feel down",
+            "when I feel down"
+          ]
+        }
+      ]
+    },
+    {
+      "order": 18,
+      "prompt": "What does the author mean by saying he sometimes 'sing[s] along'?",
+      "promptZh": "作者说有时 sing along 是什么意思？",
+      "options": [
+        "He replaces every song with a lecture.",
+        "He stops listening to music entirely.",
+        "He sings instead of listening to any recording.",
+        "He joins in singing with the song he is listening to."
+      ],
+      "optionsZh": [
+        "把每首歌都换成讲座。",
+        "完全停止听音乐。",
+        "唱歌而不听任何录音。",
+        "跟着正在听的歌一起唱。"
+      ],
+      "answer": 3,
+      "type": "语境词义",
+      "support": "explicit",
+      "analyses": [
+        "A sing along 不是替换歌曲。",
+        "B even sing 是在听之外添加唱，不是停止听。",
+        "C along 表示跟着唱，不是 instead of listening 的替代关系。",
+        "D along 表示跟着唱；前句听喜爱的歌提供了所跟随的对象。"
+      ],
+      "vocabulary": [
+        {
+          "word": "sing along",
+          "meaning": "跟着唱",
+          "context": "在听喜爱的歌曲时加入歌唱，sometimes 表示并非每次。",
+          "example": "The children began to sing along with the recording.",
+          "collocations": [
+            "sing along with a song",
+            "sing along to music"
+          ]
+        }
+      ],
+      "evidenceQuote": "Personally, when I feel down, I listen to my favorite songs. Sometimes I even sing along."
+    },
+    {
+      "order": 19,
+      "prompt": "What alternative to listening and singing does the narrator mention with 'Other times'?",
+      "promptZh": "Other times 引出作者除听歌和跟唱外的什么做法？",
+      "options": [
+        "Interviewing his former advisor.",
+        "Talking to his wife.",
+        "Taking a nap while his wife is available to talk.",
+        "Relying exclusively on solitary activities."
+      ],
+      "optionsZh": [
+        "采访昔日导师。",
+        "和妻子交谈。",
+        "妻子可以交谈时去小睡。",
+        "只依靠独自进行的活动。"
+      ],
+      "answer": 1,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A 这句的交谈对象不是导师。",
+        "B I talk to my wife 明确给出另一做法。",
+        "C 后句把小睡放在妻子不在的条件下，不能反转条件或替换本句交谈。",
+        "D 与妻子交谈是人际活动，不能说 exclusively solitary。"
+      ],
+      "vocabulary": [
+        {
+          "word": "Other times",
+          "meaning": "另一些时候",
+          "context": "与 Sometimes 对照，列举不同情况下的个人做法，不表示固定先后步骤。",
+          "example": "Sometimes I read on the train; other times, I look out of the window.",
+          "collocations": [
+            "sometimes ... other times",
+            "at other times"
+          ]
+        }
+      ]
+    },
+    {
+      "order": 20,
+      "prompt": "How might the divorced father positively reinterpret his situation in the example?",
+      "promptZh": "例子中的离异父亲可能怎样积极重解处境？",
+      "options": [
+        "As an opportunity to spend more time on hobbies while his ex-wife has custody.",
+        "As proof that he has failed in every area of life.",
+        "As a permanent loss of every source of meaning.",
+        "As a chance to have custody and spend more time caring for the children himself."
+      ],
+      "optionsZh": [
+        "在前妻监护孩子时，把它视为有更多时间投入爱好的机会。",
+        "视为自己人生各方面都失败的证明。",
+        "视为永久失去全部意义来源。",
+        "视为自己取得监护、增加亲自照看孩子时间的机会。"
+      ],
+      "answer": 0,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A might reinterpret 和 opportunity 对应设想中的积极重解；这是示例，不是现实个案的既定结果或对监护安排的建议。",
+        "B 例子是积极重解机会，不是把失败扩大到所有方面。",
+        "C 本例没有 permanent 或 every，反而从中寻找机会。",
+        "D 原句说前妻监护孩子、他有更多爱好时间，监护对象和活动被错配。"
+      ],
+      "vocabulary": [
+        {
+          "word": "custody",
+          "meaning": "监护；监护权",
+          "context": "在本例指前妻对孩子的监护，不是被警方拘留的意思。",
+          "example": "The article explains how custody arrangements affect family routines.",
+          "collocations": [
+            "have custody of children",
+            "child custody"
+          ]
+        }
+      ]
+    },
+    {
+      "order": 21,
+      "prompt": "What possible effect is linked to seeing the divorce from the other person's perspective?",
+      "promptZh": "从对方角度看离婚事件可能产生什么效果？",
+      "options": [
+        "It must permanently remove every painful feeling.",
+        "It proves the other person caused every problem.",
+        "It encourages them to stop considering any alternative perspective.",
+        "It could reduce the negative reaction to the triggering event."
+      ],
+      "optionsZh": [
+        "必然永久消除所有痛苦感受。",
+        "证明对方造成了所有问题。",
+        "促使他们不再考虑任何其他角度。",
+        "可能减轻对触发事件的负面反应。"
+      ],
+      "answer": 3,
+      "type": "逻辑关系",
+      "support": "explicit",
+      "analyses": [
+        "A could 不能变成 must permanently，也不是所有情绪。",
+        "B 换角度并非确定归咎对方。",
+        "C start seeing...the other person’s perspective 正是增加另一个角度，不是停止考虑。",
+        "D which could dampen... 指出可能减弱负面反应，保留 could。"
+      ],
+      "vocabulary": [
+        {
+          "word": "dampen",
+          "meaning": "减弱；抑制（此处为抽象义）",
+          "context": "指负面反应可能减轻，不是让某物变湿，也不是保证消除情绪。",
+          "example": "The delay dampened their initial enthusiasm.",
+          "collocations": [
+            "dampen a reaction",
+            "dampen enthusiasm"
+          ]
+        }
+      ]
+    },
+    {
+      "order": 22,
+      "prompt": "What time shift is used in 'Five years later, will I be suffering in the same way'?",
+      "promptZh": "Five years later, will I be suffering in the same way? 使用了什么时间视角？",
+      "options": [
+        "A return to an exact event five years before the present.",
+        "Imagining whether present suffering will feel the same five years into the future.",
+        "A claim that suffering can never change over any period.",
+        "A report that every participant was followed for exactly five years."
+      ],
+      "optionsZh": [
+        "返回当下五年前的一个确切事件。",
+        "想象五年后是否还会以同样方式痛苦。",
+        "宣称痛苦在任何时期都绝不变化。",
+        "报告每位参与者都被追踪恰好五年。"
+      ],
+      "answer": 1,
+      "type": "作者意图",
+      "support": "explicit",
+      "analyses": [
+        "A later 与 will 指向未来，不是过去。",
+        "B 问句把自己放到五年后，考察当前感受是否仍相同，属于换用未来视角。",
+        "C 问号表示思考，并未断言永不变化。",
+        "D 这是自问的例子，不是五年纵向研究方法。"
+      ],
+      "vocabulary": [
+        {
+          "word": "suffering",
+          "meaning": "受苦；感到痛苦",
+          "context": "will I be suffering 把痛苦放进未来假想中，不是对未来结果的保证。",
+          "example": "The character wonders whether she will still be suffering a year later.",
+          "collocations": [
+            "suffer in the same way",
+            "emotional suffering"
+          ]
+        }
+      ]
+    },
+    {
+      "order": 23,
+      "prompt": "Who are 'These people' in the statement about time healing everything?",
+      "promptZh": "关于时间治愈一切的句子中 These people 指谁？",
+      "options": [
+        "Only participants required to behave like extraverts.",
+        "People who urgently try almost anything to repair every bad mood.",
+        "People described as feeling less pressure to be happy and accepting occasional bad moods.",
+        "People who treat occasional unhappiness as proof of failure."
+      ],
+      "optionsZh": [
+        "仅指被要求表现外向的参与者。",
+        "急于几乎什么都试以修复每次坏心情的人。",
+        "前面所说较少承受幸福压力、接纳偶尔坏心情的人。",
+        "把偶尔不幸福视为失败证明的人。"
+      ],
+      "answer": 2,
+      "type": "逻辑关系",
+      "support": "explicit",
+      "analyses": [
+        "A 不是前面外向实验的人群。",
+        "B 这是本段对照的另一类人，不是 These people 的近处先行对象。",
+        "C These people 承接本段那些不那么急于修复情绪、认为偶尔难受正常的人。",
+        "D 本段的人认为偶尔难受正常，方向被颠倒。"
+      ],
+      "vocabulary": [
+        {
+          "word": "heals",
+          "meaning": "治愈；使伤痛缓解（此处为比喻）",
+          "context": "time heals everything 是所述人群的信念，heals 描写情绪恢复而不是外伤处理步骤。",
+          "example": "In the memoir, the writer hopes that time heals old disappointments.",
+          "collocations": [
+            "time heals",
+            "heal emotional wounds"
+          ]
+        }
+      ],
+      "evidenceQuote": "In contrast, those who don’t feel pressure to feel happy would not do as much to repair a negative mood, as they think it is only natural to feel bad once in a while. Here there is more emotional acceptance. These people believe that time heals everything."
+    },
+    {
+      "order": 24,
+      "prompt": "What stance does 'And they are right' express toward the preceding belief?",
+      "promptZh": "And they are right 对前面的信念表达什么立场？",
+      "options": [
+        "The narrator endorses the belief just reported.",
+        "The narrator rejects the belief just reported.",
+        "The narrator neither agrees nor disagrees with that belief.",
+        "The narrator presents the opposite belief as correct."
+      ],
+      "optionsZh": [
+        "叙述者认同刚转述的信念。",
+        "叙述者拒绝刚转述的信念。",
+        "叙述者对信念既不赞成也不反对。",
+        "叙述者把相反信念说成正确。"
+      ],
+      "answer": 0,
+      "type": "观点归属",
+      "support": "explicit",
+      "analyses": [
+        "A 作者以 are right 表达认同；这是辨认文中立场，不把修辞概括包装成逐个情境都适用的实证保证。",
+        "B are right 明示认可，不是拒绝。",
+        "C right 是有方向的评价，不是完全中立。",
+        "D they 回指持有前述信念的人，没有转向相反信念。"
+      ],
+      "vocabulary": [
+        {
+          "word": "right",
+          "meaning": "正确的；有道理的（此处为评价义）",
+          "context": "不是方向上的右，而是作者对前述信念的认可。",
+          "example": "I think you are right about the need for clearer instructions.",
+          "collocations": [
+            "be right about",
+            "think someone is right"
+          ]
+        }
+      ],
+      "evidenceQuote": "In contrast, those who don’t feel pressure to feel happy would not do as much to repair a negative mood, as they think it is only natural to feel bad once in a while. Here there is more emotional acceptance. These people believe that time heals everything. And they are right."
+    },
+    {
+      "order": 25,
+      "prompt": "Who is credited with calling this the 'psychological immune system'?",
+      "promptZh": "文中将 psychological immune system 这一称呼归于谁？",
+      "options": [
+        "Ed Diener and Daniel Kahneman.",
+        "Barry Schwartz and his colleagues.",
+        "Dan Gilbert, Tim Wilson, and their colleagues.",
+        "William James alone."
+      ],
+      "optionsZh": [
+        "埃德·迪纳和丹尼尔·卡尼曼。",
+        "巴里·施瓦茨及其同事。",
+        "丹·吉尔伯特、蒂姆·威尔逊及其同事。",
+        "只有威廉·詹姆斯。"
+      ],
+      "answer": 2,
+      "type": "观点归属",
+      "support": "explicit",
+      "analyses": [
+        "A 这是前面招聘故事中的人物组合，不是命名句给出的研究者。",
+        "B 施瓦茨在后文另一议题出现，不是本句术语归属。",
+        "C This is what Dan Gilbert, Tim Wilson, and their colleagues call... 直接给出命名归属。",
+        "D 詹姆斯在前面哲学引文出现，命名句明确列出另一组研究者。"
+      ],
+      "vocabulary": [
+        {
+          "word": "psychological immune system",
+          "meaning": "心理免疫系统",
+          "context": "研究者用于说明自然情绪恢复能力的称呼，与后句生物免疫系统构成类比。",
+          "example": "The lecturer used the psychological immune system as a metaphor for emotional recovery.",
+          "collocations": [
+            "the psychological immune system",
+            "a psychological immune response"
+          ]
+        }
+      ]
+    }
+  ]
+}
