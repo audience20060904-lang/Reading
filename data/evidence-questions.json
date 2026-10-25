@@ -1973,5 +1973,2025 @@
     ],
     "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
     "fingerprint": "5729af56951987052b7d26eb6c551d5c3faf56d692811a61136fa7e676a7c06b"
+  },
+  {
+    "id": "qe-c01-0026",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-002",
+    "parentQuestionId": "q-c01-051",
+    "chapterId": "c01",
+    "sectionId": "c01-s03",
+    "paragraphId": "c01-s03-p011-01650",
+    "readingUnitId": "c01-s03-p011-01650-r001-004",
+    "sentenceIds": [
+      "c01-s03-p011-01650-s001",
+      "c01-s03-p011-01650-s002",
+      "c01-s03-p011-01650-s003",
+      "c01-s03-p011-01650-s004"
+    ],
+    "passage": "Oliver Sacks’s story presents a quandary. He had depression and a long period of inner struggle, yet he kept exploring new frontiers. His 2015 autobiography was fittingly entitled On the Move: A Life. Neither personal happiness and contentment nor self-sacrifice and virtue fully capture what was so admirable about Sacks’s life.",
+    "prompt": "What does 'a quandary' mean in the description of Sacks's story?",
+    "promptZh": "描述萨克斯经历的 a quandary 是什么意思？",
+    "options": [
+      "A complete explanation already accepted by everyone.",
+      "A difficult puzzle or problem to understand.",
+      "A medical diagnosis made by the narrator.",
+      "A practical plan for travelling to new places."
+    ],
+    "optionsZh": [
+      "一个已经得到所有人接受的完整解释。",
+      "一个不容易理解或解决的疑难问题。",
+      "叙述者作出的医学诊断。",
+      "一份前往新地方的具体旅行计划。"
+    ],
+    "answer": 1,
+    "type": "语境词义",
+    "support": "explicit",
+    "analyses": [
+      "A quandary 指疑难之处，并不是已经形成共识的答案。",
+      "B 后文对照内心挣扎与持续探索，又指出幸福和自我牺牲都不能概括其人生，说明这里是一个难以解释的问题。",
+      "C 这个词评价故事带来的概念难题，不是对萨克斯作出新的临床诊断。",
+      "D exploring new frontiers 不能把 quandary 改成具体旅游行程。"
+    ],
+    "vocabulary": [
+      {
+        "word": "quandary",
+        "meaning": "疑难；困惑；进退两难的问题",
+        "context": "萨克斯的经历难以仅用幸福或意义两个维度概括，由此引出概念上的疑难。",
+        "example": "The unexpected result left the researchers in a quandary.",
+        "collocations": [
+          "present a quandary",
+          "be in a quandary"
+        ]
+      }
+    ],
+    "translation": "Oliver Sacks 的故事提出了一个难题。他患有抑郁，也经历了长期内心挣扎，却一直探索新的领域。他在 2015 年出版的自传恰如其分地题为《On the Move: A Life》。个人幸福与满足，或自我牺牲与美德，都无法充分概括 Sacks 的人生何以如此令人钦佩。",
+    "evidenceTargetIds": [
+      "c01-s03-p011-01650-s001"
+    ],
+    "evidence": [
+      {
+        "quote": "Oliver Sacks’s story presents a quandary.",
+        "sentenceIds": [
+          "c01-s03-p011-01650-s001"
+        ],
+        "sources": [
+          {
+            "pdfPage": 11,
+            "block": 2,
+            "bbox": [
+              76.99,
+              165,
+              535.01,
+              374.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "4958c7a4b8c1d89c3404a11fab3a30403077a8c9deb5cee3d331752612c112bf"
+  },
+  {
+    "id": "qe-c01-0027",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-002",
+    "parentQuestionId": "q-c01-051",
+    "chapterId": "c01",
+    "sectionId": "c01-s03",
+    "paragraphId": "c01-s03-p011-01650",
+    "readingUnitId": "c01-s03-p011-01650-r001-004",
+    "sentenceIds": [
+      "c01-s03-p011-01650-s001",
+      "c01-s03-p011-01650-s002",
+      "c01-s03-p011-01650-s003",
+      "c01-s03-p011-01650-s004"
+    ],
+    "passage": "Oliver Sacks’s story presents a quandary. He had depression and a long period of inner struggle, yet he kept exploring new frontiers. His 2015 autobiography was fittingly entitled On the Move: A Life. Neither personal happiness and contentment nor self-sacrifice and virtue fully capture what was so admirable about Sacks’s life.",
+    "prompt": "What kind of work was On the Move: A Life, published in 2015?",
+    "promptZh": "2015 年出版的《On the Move: A Life》属于哪类作品？",
+    "options": [
+      "A clinical textbook written for his students.",
+      "A fictional story about an unnamed traveller.",
+      "A collection of interviews with other writers.",
+      "An autobiography recounting Sacks's own life."
+    ],
+    "optionsZh": [
+      "为学生写的临床教科书。",
+      "关于一位无名旅行者的虚构故事。",
+      "对其他作家的访谈集。",
+      "讲述萨克斯自己人生的自传。"
+    ],
+    "answer": 3,
+    "type": "细节",
+    "support": "explicit",
+    "analyses": [
+      "A 本句直接称它为 autobiography，没有称其为教科书。",
+      "B autobiography 与虚构的无名人物故事不符。",
+      "C 自传的主体是作者本人，不是采访其他作家的合集。",
+      "D His 2015 autobiography 明确说明作品类型及所属人物。不能仅凭标题中的 Move 把它当成旅游手册。"
+    ],
+    "vocabulary": [
+      {
+        "word": "autobiography",
+        "meaning": "自传",
+        "context": "指萨克斯讲述自己人生的作品，与由别人撰写的传记或虚构小说有别。",
+        "example": "Her autobiography describes her early years as a musician.",
+        "collocations": [
+          "publish an autobiography",
+          "write one's autobiography"
+        ]
+      }
+    ],
+    "translation": "Oliver Sacks 的故事提出了一个难题。他患有抑郁，也经历了长期内心挣扎，却一直探索新的领域。他在 2015 年出版的自传恰如其分地题为《On the Move: A Life》。个人幸福与满足，或自我牺牲与美德，都无法充分概括 Sacks 的人生何以如此令人钦佩。",
+    "evidenceTargetIds": [
+      "c01-s03-p011-01650-s003"
+    ],
+    "evidence": [
+      {
+        "quote": "His 2015 autobiography was fittingly entitled On the Move: A Life.",
+        "sentenceIds": [
+          "c01-s03-p011-01650-s003"
+        ],
+        "sources": [
+          {
+            "pdfPage": 11,
+            "block": 2,
+            "bbox": [
+              76.99,
+              165,
+              535.01,
+              374.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "21ebe953e7111592a7d8767b8fc042e29f0da1be3df50217d091ec648e7baa98"
+  },
+  {
+    "id": "qe-c01-0028",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-002",
+    "parentQuestionId": "q-c01-019",
+    "chapterId": "c01",
+    "sectionId": "c01-s03",
+    "paragraphId": "c01-s03-p011-03795",
+    "readingUnitId": "c01-s03-p011-03795-r001-007",
+    "sentenceIds": [
+      "c01-s03-p011-03795-s001",
+      "c01-s03-p011-03795-s002",
+      "c01-s03-p011-03795-s003",
+      "c01-s03-p011-03795-s004",
+      "c01-s03-p011-03795-s005",
+      "c01-s03-p011-03795-s006",
+      "c01-s03-p011-03795-s007"
+    ],
+    "passage": "A good analogy is dark vs. sweet chocolate. When you eat a fine, dark chocolate, you immediately notice that it is different from a typical, sugary chocolate. It is sweet but also bitter, or even salty. It keeps you surprised, and it has heightened intensity, complexity, and depth. In other words, it’s rich. Likewise, a psychologically rich experience is different from a typical experience; there is something unexpected and powerful. It has a variety of qualities, not just good or bad.",
+    "prompt": "Which comparison introduces the explanation of psychological richness?",
+    "promptZh": "作者用哪种比较引出对心理丰富性的解释？",
+    "options": [
+      "Dark chocolate compared with sweet chocolate.",
+      "Chocolate compared with the price of travel.",
+      "Different diets ranked by their medical benefits.",
+      "Chocolate makers compared by their earnings."
+    ],
+    "optionsZh": [
+      "黑巧克力与甜巧克力的比较。",
+      "巧克力与旅行价格的比较。",
+      "按医疗益处排列不同饮食。",
+      "按收入比较巧克力制造商。"
+    ],
+    "answer": 0,
+    "type": "细节",
+    "support": "explicit",
+    "analyses": [
+      "A A good analogy is dark vs. sweet chocolate 直接给出比较的两端。",
+      "B 句中没有旅行费用这一比较项。",
+      "C analogy 是帮助理解的类比，不是饮食疗效排序。",
+      "D 原文讨论体验的性质，而非制造商收入或商业竞争。"
+    ],
+    "vocabulary": [
+      {
+        "word": "analogy",
+        "meaning": "类比；帮助理解的相似性比较",
+        "context": "借巧克力的味觉层次说明心理丰富体验的多样与复杂，不是医学实验。",
+        "example": "She used a map analogy to explain the structure of the argument.",
+        "collocations": [
+          "a useful analogy",
+          "draw an analogy"
+        ]
+      }
+    ],
+    "translation": "黑巧克力与甜巧克力是个很好的类比。品尝优质黑巧克力时，你马上会发现它不同于普通的高糖巧克力。它甜中带苦，甚至带咸味。它让你感到意外，具有更强的浓度、复杂性和层次。换言之，它很丰富。同样，心理丰富的经历也不同于一般经历；其中有某种出乎意料且强烈的东西。它具有多种特质，而不只是好或坏。",
+    "evidenceTargetIds": [
+      "c01-s03-p011-03795-s001"
+    ],
+    "evidence": [
+      {
+        "quote": "A good analogy is dark vs. sweet chocolate.",
+        "sentenceIds": [
+          "c01-s03-p011-03795-s001"
+        ],
+        "sources": [
+          {
+            "pdfPage": 11,
+            "block": 3,
+            "bbox": [
+              76.99,
+              379.5,
+              535.01,
+              569.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "ceef2f0bc4a41004fa7ed7debf677e7b248561af22081058d06f2c997716ac1e"
+  },
+  {
+    "id": "qe-c01-0029",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-002",
+    "parentQuestionId": "q-c01-019",
+    "chapterId": "c01",
+    "sectionId": "c01-s03",
+    "paragraphId": "c01-s03-p011-03795",
+    "readingUnitId": "c01-s03-p011-03795-r001-007",
+    "sentenceIds": [
+      "c01-s03-p011-03795-s001",
+      "c01-s03-p011-03795-s002",
+      "c01-s03-p011-03795-s003",
+      "c01-s03-p011-03795-s004",
+      "c01-s03-p011-03795-s005",
+      "c01-s03-p011-03795-s006",
+      "c01-s03-p011-03795-s007"
+    ],
+    "passage": "A good analogy is dark vs. sweet chocolate. When you eat a fine, dark chocolate, you immediately notice that it is different from a typical, sugary chocolate. It is sweet but also bitter, or even salty. It keeps you surprised, and it has heightened intensity, complexity, and depth. In other words, it’s rich. Likewise, a psychologically rich experience is different from a typical experience; there is something unexpected and powerful. It has a variety of qualities, not just good or bad.",
+    "prompt": "What contrast does the sentence make when describing fine dark chocolate?",
+    "promptZh": "这句话描述优质黑巧克力时作了什么对照？",
+    "options": [
+      "It proves that every sweet food reduces happiness.",
+      "It says that all chocolate has exactly the same taste.",
+      "It contrasts it with ordinary chocolate that is very sugary.",
+      "It judges chocolate entirely by how much it costs."
+    ],
+    "optionsZh": [
+      "它证明所有甜食都会降低幸福感。",
+      "它说所有巧克力的味道都完全相同。",
+      "它将其与普通的高糖巧克力作对照。",
+      "它完全按价格评价巧克力。"
+    ],
+    "answer": 2,
+    "type": "同义改写",
+    "support": "explicit",
+    "analyses": [
+      "A 原文没有饮食对幸福的因果试验，不能扩大成所有甜食有害。",
+      "B different from 明确指出差异，并非完全相同。",
+      "C fine, dark chocolate 与 typical, sugary chocolate 构成句中的直接对照。",
+      "D fine 在这里并不提供价格数据，句子也没有按成本排序。"
+    ],
+    "vocabulary": [
+      {
+        "word": "sugary",
+        "meaning": "含糖多的；很甜的",
+        "context": "修饰 typical chocolate，用来与优质黑巧克力形成味觉对照。",
+        "example": "The drink tasted too sugary for her.",
+        "collocations": [
+          "a sugary drink",
+          "typical sugary chocolate"
+        ]
+      }
+    ],
+    "translation": "黑巧克力与甜巧克力是个很好的类比。品尝优质黑巧克力时，你马上会发现它不同于普通的高糖巧克力。它甜中带苦，甚至带咸味。它让你感到意外，具有更强的浓度、复杂性和层次。换言之，它很丰富。同样，心理丰富的经历也不同于一般经历；其中有某种出乎意料且强烈的东西。它具有多种特质，而不只是好或坏。",
+    "evidenceTargetIds": [
+      "c01-s03-p011-03795-s002"
+    ],
+    "evidence": [
+      {
+        "quote": "When you eat a fine, dark chocolate, you immediately notice that it is different from a typical, sugary chocolate.",
+        "sentenceIds": [
+          "c01-s03-p011-03795-s002"
+        ],
+        "sources": [
+          {
+            "pdfPage": 11,
+            "block": 3,
+            "bbox": [
+              76.99,
+              379.5,
+              535.01,
+              569.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "fa9f74111414b78f7ec7a6bdd0de591854d373a28fb71da9daa1f74c98e91340"
+  },
+  {
+    "id": "qe-c01-0030",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-002",
+    "parentQuestionId": "q-c01-019",
+    "chapterId": "c01",
+    "sectionId": "c01-s03",
+    "paragraphId": "c01-s03-p011-03795",
+    "readingUnitId": "c01-s03-p011-03795-r001-007",
+    "sentenceIds": [
+      "c01-s03-p011-03795-s001",
+      "c01-s03-p011-03795-s002",
+      "c01-s03-p011-03795-s003",
+      "c01-s03-p011-03795-s004",
+      "c01-s03-p011-03795-s005",
+      "c01-s03-p011-03795-s006",
+      "c01-s03-p011-03795-s007"
+    ],
+    "passage": "A good analogy is dark vs. sweet chocolate. When you eat a fine, dark chocolate, you immediately notice that it is different from a typical, sugary chocolate. It is sweet but also bitter, or even salty. It keeps you surprised, and it has heightened intensity, complexity, and depth. In other words, it’s rich. Likewise, a psychologically rich experience is different from a typical experience; there is something unexpected and powerful. It has a variety of qualities, not just good or bad.",
+    "prompt": "How is 'rich' being used in the chocolate comparison?",
+    "promptZh": "巧克力类比中的 rich 是怎样使用的？",
+    "options": [
+      "To mean that the chocolate is expensive to buy.",
+      "To describe intensity, complexity, and depth of experience.",
+      "To state that the eater has accumulated great wealth.",
+      "To guarantee that the chocolate improves physical health."
+    ],
+    "optionsZh": [
+      "指巧克力购买价格昂贵。",
+      "描述体验的强度、复杂性和层次。",
+      "说明食用者已积累大量财富。",
+      "保证巧克力能改善身体健康。"
+    ],
+    "answer": 1,
+    "type": "语境词义",
+    "support": "explicit",
+    "analyses": [
+      "A 这里的解释指向 intensity、complexity、depth，不是售价。",
+      "B In other words 将前面的惊喜、强度、复杂性与深度重新概括为 rich。",
+      "C rich 的对象是巧克力体验，不是食用者的财富。",
+      "D 原文是类比中的体验描述，没有给出健康效果保证。"
+    ],
+    "vocabulary": [
+      {
+        "word": "rich",
+        "meaning": "丰富的；浓郁而有层次的",
+        "context": "不是富有，而是具有强度、复杂性和深度的多层体验。",
+        "example": "The story offers a rich mixture of humour and sadness.",
+        "collocations": [
+          "a rich experience",
+          "rich in complexity"
+        ]
+      }
+    ],
+    "translation": "黑巧克力与甜巧克力是个很好的类比。品尝优质黑巧克力时，你马上会发现它不同于普通的高糖巧克力。它甜中带苦，甚至带咸味。它让你感到意外，具有更强的浓度、复杂性和层次。换言之，它很丰富。同样，心理丰富的经历也不同于一般经历；其中有某种出乎意料且强烈的东西。它具有多种特质，而不只是好或坏。",
+    "evidenceTargetIds": [
+      "c01-s03-p011-03795-s005"
+    ],
+    "evidence": [
+      {
+        "quote": "It keeps you surprised, and it has heightened intensity, complexity, and depth. In other words, it’s rich.",
+        "sentenceIds": [
+          "c01-s03-p011-03795-s004",
+          "c01-s03-p011-03795-s005"
+        ],
+        "sources": [
+          {
+            "pdfPage": 11,
+            "block": 3,
+            "bbox": [
+              76.99,
+              379.5,
+              535.01,
+              569.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "98dd62c13fecc8d44f7da9d302cbd1bf2ad8e8cf519cde1ebcf896b57cdbd2af"
+  },
+  {
+    "id": "qe-c01-0031",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-002",
+    "parentQuestionId": "q-c01-019",
+    "chapterId": "c01",
+    "sectionId": "c01-s03",
+    "paragraphId": "c01-s03-p011-03795",
+    "readingUnitId": "c01-s03-p011-03795-r001-007",
+    "sentenceIds": [
+      "c01-s03-p011-03795-s001",
+      "c01-s03-p011-03795-s002",
+      "c01-s03-p011-03795-s003",
+      "c01-s03-p011-03795-s004",
+      "c01-s03-p011-03795-s005",
+      "c01-s03-p011-03795-s006",
+      "c01-s03-p011-03795-s007"
+    ],
+    "passage": "A good analogy is dark vs. sweet chocolate. When you eat a fine, dark chocolate, you immediately notice that it is different from a typical, sugary chocolate. It is sweet but also bitter, or even salty. It keeps you surprised, and it has heightened intensity, complexity, and depth. In other words, it’s rich. Likewise, a psychologically rich experience is different from a typical experience; there is something unexpected and powerful. It has a variety of qualities, not just good or bad.",
+    "prompt": "What does 'not just good or bad' suggest about a psychologically rich experience?",
+    "promptZh": "not just good or bad 对心理丰富体验提出了什么看法？",
+    "options": [
+      "It must contain positive feelings and no negative ones.",
+      "Its value can always be reduced to a single rating.",
+      "Its only distinguishing feature is how long it lasts.",
+      "Its qualities extend beyond a simple positive-or-negative label."
+    ],
+    "optionsZh": [
+      "它只能有积极感受，不能有消极感受。",
+      "它的价值总能缩减成单一评分。",
+      "它唯一的区别在于持续时间。",
+      "它的性质超出了简单的好坏二分标签。"
+    ],
+    "answer": 3,
+    "type": "有限推断",
+    "support": "limited-inference",
+    "analyses": [
+      "A not just good or bad 不排除消极性质，不能改成只有积极感受。",
+      "B a variety of qualities 强调多种特质，不支持完全压缩成单一评价。",
+      "C 本句没有把持续时间当成唯一标准。",
+      "D 多种特质加上 not just，支持不能只用好或坏两个标签来概括；这也不是说所有心理丰富体验都必然令人愉快。"
+    ],
+    "vocabulary": [
+      {
+        "word": "a variety of",
+        "meaning": "多种多样的",
+        "context": "强调体验可具有不同性质，而非只有单一的正面或负面评价。",
+        "example": "The programme introduces a variety of perspectives.",
+        "collocations": [
+          "a variety of qualities",
+          "a wide variety of experiences"
+        ]
+      }
+    ],
+    "translation": "黑巧克力与甜巧克力是个很好的类比。品尝优质黑巧克力时，你马上会发现它不同于普通的高糖巧克力。它甜中带苦，甚至带咸味。它让你感到意外，具有更强的浓度、复杂性和层次。换言之，它很丰富。同样，心理丰富的经历也不同于一般经历；其中有某种出乎意料且强烈的东西。它具有多种特质，而不只是好或坏。",
+    "evidenceTargetIds": [
+      "c01-s03-p011-03795-s007"
+    ],
+    "evidence": [
+      {
+        "quote": "It has a variety of qualities, not just good or bad.",
+        "sentenceIds": [
+          "c01-s03-p011-03795-s007"
+        ],
+        "sources": [
+          {
+            "pdfPage": 11,
+            "block": 3,
+            "bbox": [
+              76.99,
+              379.5,
+              535.01,
+              569.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "883d309c830181a97572fe13a7aa3652a92274a935101ae880e2b59fe0f12608"
+  },
+  {
+    "id": "qe-c01-0032",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-002",
+    "parentQuestionId": "q-c01-058",
+    "chapterId": "c01",
+    "sectionId": "c01-s03",
+    "paragraphId": "c01-s03-p012-04612",
+    "readingUnitId": "c01-s03-p012-04612-r001-004",
+    "sentenceIds": [
+      "c01-s03-p012-04612-s001",
+      "c01-s03-p012-04612-s002",
+      "c01-s03-p012-04612-s003",
+      "c01-s03-p012-04612-s004"
+    ],
+    "passage": "Over the last two decades, well-being researchers have debated the relative importance of hedonic vs. eudaimonic well-being. For example, people who say their lives are easy tend also to say they are happy, but don’t necessarily say their lives are meaningful. Workers are happier during a break than during work. However, they feel more engaged during the work than during the break.",
+    "prompt": "What issue have the well-being researchers debated during the period described?",
+    "promptZh": "在书中所说的这段时期，幸福感研究者争论的是什么问题？",
+    "options": [
+      "The relative importance of hedonic and eudaimonic well-being.",
+      "Whether every enjoyable activity produces the same income.",
+      "The exact number of genes shared by all happy people.",
+      "Whether psychology should exclude all accounts of meaningful lives."
+    ],
+    "optionsZh": [
+      "享乐型与实现型幸福感的相对重要性。",
+      "所有愉快活动是否带来相同收入。",
+      "所有幸福者共同具有的基因确切数量。",
+      "心理学是否应排除所有有意义生活的叙述。"
+    ],
+    "answer": 0,
+    "type": "主旨",
+    "support": "explicit",
+    "analyses": [
+      "A debated the relative importance of hedonic vs. eudaimonic well-being 直接说明争论对象。",
+      "B 该句没有讨论活动收入，也没有宣称相同。",
+      "C 后面的基因表达研究不能倒换成这里争论的是基因数量。",
+      "D 相对重要性之争不等于要求排除意义研究。last two decades 是书中叙述的时间范围，不是自动更新到今天的统计。"
+    ],
+    "vocabulary": [
+      {
+        "word": "relative importance",
+        "meaning": "相对重要性",
+        "context": "比较两个维度各自有多重要，不是询问其中某一个是否存在。",
+        "example": "The study considered the relative importance of cost and convenience.",
+        "collocations": [
+          "debate the relative importance",
+          "the relative importance of two factors"
+        ]
+      }
+    ],
+    "translation": "过去二十年里，幸福研究者一直在争论享乐式幸福与实现式幸福的相对重要性。例如，说自己生活轻松的人，往往也说自己幸福，却不一定说人生有意义。工作者在休息时比工作时更幸福。然而，他们在工作时比休息时感觉更投入。",
+    "evidenceTargetIds": [
+      "c01-s03-p012-04612-s001"
+    ],
+    "evidence": [
+      {
+        "quote": "Over the last two decades, well-being researchers have debated the relative importance of hedonic vs. eudaimonic well-being.",
+        "sentenceIds": [
+          "c01-s03-p012-04612-s001"
+        ],
+        "sources": [
+          {
+            "pdfPage": 12,
+            "block": 4,
+            "bbox": [
+              76.99,
+              461.25,
+              535.01,
+              709.77
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "7c596e2085f5dc785190a7b498dbfa32e9a60d0eb9f0e0c1b703179fa78a8c9d"
+  },
+  {
+    "id": "qe-c01-0033",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-002",
+    "parentQuestionId": "q-c01-058",
+    "chapterId": "c01",
+    "sectionId": "c01-s03",
+    "paragraphId": "c01-s03-p012-04612",
+    "readingUnitId": "c01-s03-p012-04612-r001-004",
+    "sentenceIds": [
+      "c01-s03-p012-04612-s001",
+      "c01-s03-p012-04612-s002",
+      "c01-s03-p012-04612-s003",
+      "c01-s03-p012-04612-s004"
+    ],
+    "passage": "Over the last two decades, well-being researchers have debated the relative importance of hedonic vs. eudaimonic well-being. For example, people who say their lives are easy tend also to say they are happy, but don’t necessarily say their lives are meaningful. Workers are happier during a break than during work. However, they feel more engaged during the work than during the break.",
+    "prompt": "What distinction is made about people who say their lives are easy?",
+    "promptZh": "对于那些自称生活轻松的人，原文作出了什么区分？",
+    "options": [
+      "An easy life guarantees both happiness and a strong sense of meaning.",
+      "An easy life usually excludes happiness while reliably creating deep meaning.",
+      "They tend to report happiness, but not necessarily a meaningful life.",
+      "They invariably judge happiness and meaning to be exactly the same thing."
+    ],
+    "optionsZh": [
+      "轻松的生活保证幸福感和强烈意义感同时存在。",
+      "轻松生活通常排除幸福，却可靠地带来深刻意义。",
+      "他们往往说自己幸福，但未必说生活有意义。",
+      "他们毫无例外地认为幸福和意义完全相同。"
+    ],
+    "answer": 2,
+    "type": "逻辑关系",
+    "support": "explicit",
+    "analyses": [
+      "A tend 与 don’t necessarily 都保留了限定，不能改成保证。",
+      "B 把原文中幸福与意义的关系倒置了。",
+      "C say...easy、tend...happy 和 don’t necessarily...meaningful 分别对应自报、倾向与非必然联系。",
+      "D 这里没有 invariably 或 exactly the same 的普遍判断。也不能由自报之间的倾向直接推导出生活轻松必然造成某种结果。"
+    ],
+    "vocabulary": [
+      {
+        "word": "tend",
+        "meaning": "往往；倾向于",
+        "context": "表示自评轻松与自评幸福常一起出现，但不是所有人的确定规则。",
+        "example": "People tend to remember unusual events more clearly.",
+        "collocations": [
+          "tend to say",
+          "tend to be associated with"
+        ]
+      }
+    ],
+    "translation": "过去二十年里，幸福研究者一直在争论享乐式幸福与实现式幸福的相对重要性。例如，说自己生活轻松的人，往往也说自己幸福，却不一定说人生有意义。工作者在休息时比工作时更幸福。然而，他们在工作时比休息时感觉更投入。",
+    "evidenceTargetIds": [
+      "c01-s03-p012-04612-s002"
+    ],
+    "evidence": [
+      {
+        "quote": "For example, people who say their lives are easy tend also to say they are happy, but don’t necessarily say their lives are meaningful.",
+        "sentenceIds": [
+          "c01-s03-p012-04612-s002"
+        ],
+        "sources": [
+          {
+            "pdfPage": 12,
+            "block": 4,
+            "bbox": [
+              76.99,
+              461.25,
+              535.01,
+              709.77
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "f4637ef496a666cd5dd48c02c09a94c7c3070afee59e915da498e5b214bad3ea"
+  },
+  {
+    "id": "qe-c01-0034",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-002",
+    "parentQuestionId": "q-c01-022",
+    "chapterId": "c01",
+    "sectionId": "c01-s03",
+    "paragraphId": "c01-s03-p012-04612",
+    "readingUnitId": "c01-s03-p012-04612-r005-008",
+    "sentenceIds": [
+      "c01-s03-p012-04612-s005",
+      "c01-s03-p012-04612-s006",
+      "c01-s03-p012-04612-s007",
+      "c01-s03-p012-04612-s008"
+    ],
+    "passage": "Some researchers even claimed to have found different epigenetic patterns between hedonic and eudaimonic well-being, suggesting that our very genes are expressed differently. However, other researchers found that almost all people who say they are happy tend to also say that their lives are meaningful, and vice versa. The overlap between hedonic and eudaimonic well-being is so great that some researchers argue that they are virtually the same thing. Others argue that both happiness and meaning in life are so important that there is no point debating which is more important.",
+    "prompt": "Which qualification matters when reading the claim about epigenetic patterns?",
+    "promptZh": "阅读关于表观遗传模式的说法时，哪项限定很重要？",
+    "options": [
+      "It establishes that every life choice permanently changes all genes.",
+      "It proves that happy people cannot also find meaning in life.",
+      "It identifies a different genetic code for each well-being category.",
+      "It reports a claim by some researchers, suggesting differences in gene expression."
+    ],
+    "optionsZh": [
+      "它确立了每种生活选择都会永久改变所有基因。",
+      "它证明幸福的人不可能同时找到人生意义。",
+      "它为每种幸福感类型识别出不同的遗传密码。",
+      "它转述部分研究者的发现主张，提示基因表达上的差别。"
+    ],
+    "answer": 3,
+    "type": "观点归属",
+    "support": "explicit",
+    "analyses": [
+      "A some researchers claimed 和 suggesting 不能扩大为每种选择、永久、所有基因的确定因果。",
+      "B 本句没有断言幸福与意义互斥，后文还讨论两者重叠。",
+      "C genes are expressed differently 指表达方式，不能替换成遗传密码本身不同。",
+      "D 保留了研究者范围、claimed 的转述性质和 suggesting 的推示程度，不把争论中的说法包装成普遍定论。"
+    ],
+    "vocabulary": [
+      {
+        "word": "expressed",
+        "meaning": "表达；表现出来（此处指基因表达）",
+        "context": "原文谈 genes are expressed differently，不能偷换成基因数量或遗传密码必然不同。",
+        "example": "The researchers examined how the gene was expressed under different conditions.",
+        "collocations": [
+          "genes are expressed",
+          "gene expression patterns"
+        ]
+      }
+    ],
+    "translation": "一些研究者甚至声称，在享乐型与实现型幸福感之间发现了不同的表观遗传模式，暗示连基因表达都不相同。然而，其他研究者发现，几乎所有说自己幸福的人，也倾向于认为人生有意义，反之亦然。两类幸福感的重叠如此之大，以至于有些研究者认为它们实际上是同一件事。另一些人则认为，幸福与人生意义都非常重要，没有必要争论谁更重要。",
+    "evidenceTargetIds": [
+      "c01-s03-p012-04612-s005"
+    ],
+    "evidence": [
+      {
+        "quote": "Some researchers even claimed to have found different epigenetic patterns between hedonic and eudaimonic well-being, suggesting that our very genes are expressed differently.",
+        "sentenceIds": [
+          "c01-s03-p012-04612-s005"
+        ],
+        "sources": [
+          {
+            "pdfPage": 12,
+            "block": 4,
+            "bbox": [
+              76.99,
+              461.25,
+              535.01,
+              709.77
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "31a714eadce820a0c8d9da17b32968b3d8d7e2ce18406b37bb7fa66e43eed190"
+  },
+  {
+    "id": "qe-c01-0035",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-002",
+    "parentQuestionId": "q-c01-023",
+    "chapterId": "c01",
+    "sectionId": "c01-s04",
+    "paragraphId": "c01-s04-p013-00982",
+    "readingUnitId": "c01-s04-p013-00982-r002-007",
+    "sentenceIds": [
+      "c01-s04-p013-00982-s002",
+      "c01-s04-p013-00982-s003",
+      "c01-s04-p013-00982-s004",
+      "c01-s04-p013-00982-s005",
+      "c01-s04-p013-00982-s006",
+      "c01-s04-p013-00982-s007"
+    ],
+    "passage": "My own take is that happiness and meaning are both important. But they do not capture an adventurous, unconventional, and dramatic life like Sacks’s. So psychologists have never had the adequate vocabulary to describe such a life. In a way, the happiness vs. meaning debates parallel debates in psychology over the most important factor in predicting intelligence: nature (genetics) or nurture (environment). In the end, both nature and nurture are important. Then Carol Dweck proposed and popularized a third idea: the growth mindset.",
+    "prompt": "What limitation of happiness and meaning does the narrator identify?",
+    "promptZh": "叙述者指出幸福与意义这两个概念有什么局限？",
+    "options": [
+      "They have no importance in any account of a good life.",
+      "They do not fully describe an adventurous life such as Sacks's.",
+      "They can explain only the careers of people who never write.",
+      "They necessarily contradict every unconventional life choice."
+    ],
+    "optionsZh": [
+      "它们在任何美好生活的描述中都不重要。",
+      "它们不能充分描述萨克斯那样充满冒险的人生。",
+      "它们只能解释从未写作的人的职业。",
+      "它们必然反对每种不循常规的人生选择。"
+    ],
+    "answer": 1,
+    "type": "主旨",
+    "support": "explicit",
+    "analyses": [
+      "A 前一句承认两者都重要，不能把局限改成毫无重要性。",
+      "B do not capture...adventurous, unconventional, and dramatic life 直接指出描述能力不足。",
+      "C 原文没有把写作与否设为这两个概念的适用边界。",
+      "D 不能充分描述并不等于必然反对或否定每项选择。"
+    ],
+    "vocabulary": [
+      {
+        "word": "capture",
+        "meaning": "准确体现；充分概括",
+        "context": "此处不是抓住某人，而是两个概念能否把一种人生的特质说清楚。",
+        "example": "The photograph captures the atmosphere of the celebration.",
+        "collocations": [
+          "capture an experience",
+          "fully capture a quality"
+        ]
+      }
+    ],
+    "translation": "我的看法是，幸福与意义都重要。但它们无法概括萨克斯那样充满探索、不循常规、富有戏剧性的人生。因此，心理学家一直缺乏恰当的词汇来描述这种人生。在某种程度上，幸福与意义之争，就像心理学中关于预测智力最重要因素的争论：是先天，也就是遗传，还是后天，也就是环境？最终，两者都重要。后来，卡罗尔·德韦克提出并推广了第三个概念：成长型思维。",
+    "evidenceTargetIds": [
+      "c01-s04-p013-00982-s003"
+    ],
+    "evidence": [
+      {
+        "quote": "But they do not capture an adventurous, unconventional, and dramatic life like Sacks’s.",
+        "sentenceIds": [
+          "c01-s04-p013-00982-s003"
+        ],
+        "sources": [
+          {
+            "pdfPage": 13,
+            "block": 1,
+            "bbox": [
+              76.99,
+              98.25,
+              535.01,
+              327.27
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "222b38ae11fefe0cc3297f5ebf1dfbf55956bfa4f9cf0b77ddf73da583d62514"
+  },
+  {
+    "id": "qe-c01-0036",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-002",
+    "parentQuestionId": "q-c01-023",
+    "chapterId": "c01",
+    "sectionId": "c01-s04",
+    "paragraphId": "c01-s04-p013-00982",
+    "readingUnitId": "c01-s04-p013-00982-r002-007",
+    "sentenceIds": [
+      "c01-s04-p013-00982-s002",
+      "c01-s04-p013-00982-s003",
+      "c01-s04-p013-00982-s004",
+      "c01-s04-p013-00982-s005",
+      "c01-s04-p013-00982-s006",
+      "c01-s04-p013-00982-s007"
+    ],
+    "passage": "My own take is that happiness and meaning are both important. But they do not capture an adventurous, unconventional, and dramatic life like Sacks’s. So psychologists have never had the adequate vocabulary to describe such a life. In a way, the happiness vs. meaning debates parallel debates in psychology over the most important factor in predicting intelligence: nature (genetics) or nurture (environment). In the end, both nature and nurture are important. Then Carol Dweck proposed and popularized a third idea: the growth mindset.",
+    "prompt": "What relationship does 'So' mark in the sentence about psychological vocabulary?",
+    "promptZh": "谈到心理学词汇的句子中，So 标志着什么关系？",
+    "options": [
+      "A consequence of the preceding concepts failing to describe that kind of life.",
+      "A denial that psychologists have ever studied happiness.",
+      "A change from life experiences to an unrelated language examination.",
+      "A comparison showing that all existing concepts are identical."
+    ],
+    "optionsZh": [
+      "前面那些概念无法描述这种人生所带来的结果。",
+      "否认心理学家曾研究过幸福。",
+      "从人生经历转向无关的语言考试。",
+      "比较并说明所有已有概念都相同。"
+    ],
+    "answer": 0,
+    "type": "逻辑关系",
+    "support": "limited-inference",
+    "analyses": [
+      "A 前句指出幸福与意义不足以概括这种人生，So 引出缺乏 adequate vocabulary 的概念描述问题。",
+      "B 缺乏某类合适词汇不等于从未研究幸福。",
+      "C vocabulary 是概念表达工具，不是在引入语言考试。",
+      "D So 在此衔接因果论证，不是说明所有概念相同；这也不是一个实验性因果测量。"
+    ],
+    "vocabulary": [
+      {
+        "word": "adequate",
+        "meaning": "足够的；适当的",
+        "context": "adequate vocabulary 指足以描述这类人生的合适概念词汇。",
+        "example": "The report did not provide an adequate explanation of the difference.",
+        "collocations": [
+          "adequate vocabulary",
+          "an adequate description"
+        ]
+      }
+    ],
+    "translation": "我的看法是，幸福与意义都重要。但它们无法概括萨克斯那样充满探索、不循常规、富有戏剧性的人生。因此，心理学家一直缺乏恰当的词汇来描述这种人生。在某种程度上，幸福与意义之争，就像心理学中关于预测智力最重要因素的争论：是先天，也就是遗传，还是后天，也就是环境？最终，两者都重要。后来，卡罗尔·德韦克提出并推广了第三个概念：成长型思维。",
+    "evidenceTargetIds": [
+      "c01-s04-p013-00982-s004"
+    ],
+    "evidence": [
+      {
+        "quote": "So psychologists have never had the adequate vocabulary to describe such a life.",
+        "sentenceIds": [
+          "c01-s04-p013-00982-s004"
+        ],
+        "sources": [
+          {
+            "pdfPage": 13,
+            "block": 1,
+            "bbox": [
+              76.99,
+              98.25,
+              535.01,
+              327.27
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "53103272a7ca36098ca6ac6ebc4b3d5d2e7cc19975891866f14895f258edc201"
+  },
+  {
+    "id": "qe-c01-0037",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-002",
+    "parentQuestionId": "q-c01-023",
+    "chapterId": "c01",
+    "sectionId": "c01-s04",
+    "paragraphId": "c01-s04-p013-00982",
+    "readingUnitId": "c01-s04-p013-00982-r002-007",
+    "sentenceIds": [
+      "c01-s04-p013-00982-s002",
+      "c01-s04-p013-00982-s003",
+      "c01-s04-p013-00982-s004",
+      "c01-s04-p013-00982-s005",
+      "c01-s04-p013-00982-s006",
+      "c01-s04-p013-00982-s007"
+    ],
+    "passage": "My own take is that happiness and meaning are both important. But they do not capture an adventurous, unconventional, and dramatic life like Sacks’s. So psychologists have never had the adequate vocabulary to describe such a life. In a way, the happiness vs. meaning debates parallel debates in psychology over the most important factor in predicting intelligence: nature (genetics) or nurture (environment). In the end, both nature and nurture are important. Then Carol Dweck proposed and popularized a third idea: the growth mindset.",
+    "prompt": "Why is the nature-versus-nurture debate introduced here?",
+    "promptZh": "这里为什么引入先天与后天之争？",
+    "options": [
+      "To prove that happiness is inherited and never affected by surroundings.",
+      "To show that intelligence and meaning are interchangeable terms.",
+      "To compare another debate over the relative importance of two established factors.",
+      "To announce a new test that directly measures psychological richness."
+    ],
+    "optionsZh": [
+      "为了证明幸福来自遗传且从不受环境影响。",
+      "为了说明智力与意义是可互换的词语。",
+      "为了类比另一场关于两个既有因素相对重要性的争论。",
+      "为了宣布一项直接测量心理丰富性的新测试。"
+    ],
+    "answer": 2,
+    "type": "作者意图",
+    "support": "explicit",
+    "analyses": [
+      "A 段落用的是论辩结构的类比，没有证明幸福只受遗传影响。",
+      "B parallel debates 不表示两个研究对象或术语相同。",
+      "C In a way...parallel debates 将幸福/意义之争与先天/后天之争相比较。",
+      "D 本句没有提供测量心理丰富性的新测试；不能把类比读成实验方法。"
+    ],
+    "vocabulary": [
+      {
+        "word": "parallel",
+        "meaning": "与……相似；形成对应关系",
+        "context": "指两场争论在比较两个因素重要性这一结构上相似，不表示结论或研究对象完全相同。",
+        "example": "The discussion parallels an earlier debate about education.",
+        "collocations": [
+          "parallel a debate",
+          "parallel developments"
+        ]
+      }
+    ],
+    "translation": "我的看法是，幸福与意义都重要。但它们无法概括萨克斯那样充满探索、不循常规、富有戏剧性的人生。因此，心理学家一直缺乏恰当的词汇来描述这种人生。在某种程度上，幸福与意义之争，就像心理学中关于预测智力最重要因素的争论：是先天，也就是遗传，还是后天，也就是环境？最终，两者都重要。后来，卡罗尔·德韦克提出并推广了第三个概念：成长型思维。",
+    "evidenceTargetIds": [
+      "c01-s04-p013-00982-s005"
+    ],
+    "evidence": [
+      {
+        "quote": "In a way, the happiness vs. meaning debates parallel debates in psychology over the most important factor in predicting intelligence: nature (genetics) or nurture (environment).",
+        "sentenceIds": [
+          "c01-s04-p013-00982-s005"
+        ],
+        "sources": [
+          {
+            "pdfPage": 13,
+            "block": 1,
+            "bbox": [
+              76.99,
+              98.25,
+              535.01,
+              327.27
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "405c514e29127534f80f8c7611138a848fdf72e9598d120fb602adc12e45778d"
+  },
+  {
+    "id": "qe-c01-0038",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-002",
+    "parentQuestionId": "q-c01-061",
+    "chapterId": "c01",
+    "sectionId": "c01-s04",
+    "paragraphId": "c01-s04-p013-03322",
+    "readingUnitId": "c01-s04-p013-03322-r001-004",
+    "sentenceIds": [
+      "c01-s04-p013-03322-s001",
+      "c01-s04-p013-03322-s002",
+      "c01-s04-p013-03322-s003",
+      "c01-s04-p013-03322-s004"
+    ],
+    "passage": "Over dinner one day, my wife asked me if I could fix the broken window sash cords in our living room (our late-nineteenth-century Victorian house had original double-hung windows that still operated with sash cords). I answered, “We should just hire someone. I’m not handy.” Our second son, who was in middle school, immediately responded, “Dad, that’s a fixed mindset!",
+    "prompt": "What repair did the narrator's wife ask about over dinner?",
+    "promptZh": "晚餐时，叙述者的妻子问他能否修理什么？",
+    "options": [
+      "The kitchen furniture in a newly built house.",
+      "The sash cords of the living-room windows.",
+      "The entire exterior of a modern apartment block.",
+      "The heating system in their son's classroom."
+    ],
+    "optionsZh": [
+      "新建房屋中的厨房家具。",
+      "客厅窗户上的窗绳。",
+      "一栋现代公寓楼的全部外墙。",
+      "儿子教室里的供暖系统。"
+    ],
+    "answer": 1,
+    "type": "细节",
+    "support": "explicit",
+    "analyses": [
+      "A 原文是 living room 的窗绳，而且房屋建于十九世纪末，不是新房的厨房家具。",
+      "B fix the broken window sash cords in our living room 直接说明请求修理的对象与位置。",
+      "C 括号交代的是旧式窗户的结构背景，没有提出重修现代公寓外墙。",
+      "D 妻子的提问没有涉及学校教室或供暖系统。"
+    ],
+    "vocabulary": [
+      {
+        "word": "sash cords",
+        "meaning": "窗绳；升降窗的绳索",
+        "context": "旧式双悬窗仍用这种绳索操作，本句只说明待修理部件，不提供维修操作指南。",
+        "example": "The old window needed new sash cords.",
+        "collocations": [
+          "window sash cords",
+          "repair broken sash cords"
+        ]
+      }
+    ],
+    "translation": "有一天吃晚饭时，妻子问我能否修好客厅里坏掉的窗绳；我们那座十九世纪末的维多利亚式住宅仍保留原装的上下推拉窗，靠窗绳操作。我回答：“直接请人来吧。我不擅长动手。”当时读初中的二儿子立刻回应：“爸爸，那是固定型思维！",
+    "evidenceTargetIds": [
+      "c01-s04-p013-03322-s001"
+    ],
+    "evidence": [
+      {
+        "quote": "Over dinner one day, my wife asked me if I could fix the broken window sash cords in our living room (our late-nineteenth-century Victorian house had original double-hung windows that still operated with sash cords).",
+        "sentenceIds": [
+          "c01-s04-p013-03322-s001"
+        ],
+        "sources": [
+          {
+            "pdfPage": 13,
+            "block": 2,
+            "bbox": [
+              76.99,
+              332.25,
+              535,
+              561.27
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "40e165ccfa52ed7888e0a6a078f37bdadca2c0329a18096e3e068b79904433b2"
+  },
+  {
+    "id": "qe-c01-0039",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-002",
+    "parentQuestionId": "q-c01-061",
+    "chapterId": "c01",
+    "sectionId": "c01-s04",
+    "paragraphId": "c01-s04-p013-03322",
+    "readingUnitId": "c01-s04-p013-03322-r001-004",
+    "sentenceIds": [
+      "c01-s04-p013-03322-s001",
+      "c01-s04-p013-03322-s002",
+      "c01-s04-p013-03322-s003",
+      "c01-s04-p013-03322-s004"
+    ],
+    "passage": "Over dinner one day, my wife asked me if I could fix the broken window sash cords in our living room (our late-nineteenth-century Victorian house had original double-hung windows that still operated with sash cords). I answered, “We should just hire someone. I’m not handy.” Our second son, who was in middle school, immediately responded, “Dad, that’s a fixed mindset!",
+    "prompt": "How did the narrator's second son respond to his father's reaction?",
+    "promptZh": "叙述者的二儿子如何回应父亲的反应？",
+    "options": [
+      "He agreed that his father could never improve at repairs.",
+      "He offered a professional medical diagnosis of his father.",
+      "He identified the reaction as a fixed mindset.",
+      "He said that his mother should not have asked the question."
+    ],
+    "optionsZh": [
+      "他同意父亲永远不可能提高修理能力。",
+      "他对父亲作出了专业医学诊断。",
+      "他把这种反应称为固定型思维。",
+      "他说母亲不该问这个问题。"
+    ],
+    "answer": 2,
+    "type": "观点归属",
+    "support": "explicit",
+    "analyses": [
+      "A fixed mindset 这一评价是在挑战父亲的自我限制，不是同意他永远不会改善。",
+      "B 儿子的日常回应不是专业临床诊断。",
+      "C immediately responded...that’s a fixed mindset 是原文直接给出的回应。",
+      "D 被评价的是父亲的反应，并非指责母亲不该提问。"
+    ],
+    "vocabulary": [
+      {
+        "word": "fixed mindset",
+        "meaning": "固定型思维；把能力看作难以改变的心态",
+        "context": "儿子用它评价父亲“我不擅长动手”的反应，不是正式诊断或能力测验结果。",
+        "example": "A fixed mindset can make a new skill seem permanently out of reach.",
+        "collocations": [
+          "a fixed mindset",
+          "challenge a fixed mindset"
+        ]
+      }
+    ],
+    "translation": "有一天吃晚饭时，妻子问我能否修好客厅里坏掉的窗绳；我们那座十九世纪末的维多利亚式住宅仍保留原装的上下推拉窗，靠窗绳操作。我回答：“直接请人来吧。我不擅长动手。”当时读初中的二儿子立刻回应：“爸爸，那是固定型思维！",
+    "evidenceTargetIds": [
+      "c01-s04-p013-03322-s004"
+    ],
+    "evidence": [
+      {
+        "quote": "Our second son, who was in middle school, immediately responded, “Dad, that’s a fixed mindset!",
+        "sentenceIds": [
+          "c01-s04-p013-03322-s004"
+        ],
+        "sources": [
+          {
+            "pdfPage": 13,
+            "block": 2,
+            "bbox": [
+              76.99,
+              332.25,
+              535,
+              561.27
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "5bb914957aa883c669be97e9349e39a8c96624bc3ba9704f4ae9c6f9be792532"
+  },
+  {
+    "id": "qe-c01-0040",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-002",
+    "parentQuestionId": "q-c01-064",
+    "chapterId": "c01",
+    "sectionId": "c01-s04",
+    "paragraphId": "c01-s04-p013-05662",
+    "readingUnitId": "c01-s04-p013-05662-r001-004",
+    "sentenceIds": [
+      "c01-s04-p013-05662-s001",
+      "c01-s04-p013-05662-s002",
+      "c01-s04-p013-05662-s003",
+      "c01-s04-p013-05662-s004"
+    ],
+    "passage": "How, then, is psychological richness different from happiness and meaning? The main body of my book answers this question in detail (see Table 1 for a brief summary). But, very briefly, happiness is a subjective feeling that rises and falls to indicate where one’s life stands. It is a bit like a balloon.",
+    "prompt": "Which three concepts are being compared in the opening question?",
+    "promptZh": "开头的问题正在比较哪三个概念？",
+    "options": [
+      "Happiness, income, and professional recognition.",
+      "Intelligence, genetics, and the environment.",
+      "Childhood, adulthood, and retirement.",
+      "Psychological richness, happiness, and meaning."
+    ],
+    "optionsZh": [
+      "幸福、收入、职业认可。",
+      "智力、遗传、环境。",
+      "童年、成年、退休。",
+      "心理丰富性、幸福、意义。"
+    ],
+    "answer": 3,
+    "type": "细节",
+    "support": "explicit",
+    "analyses": [
+      "A 收入与职业认可不在这一句列出的三项中。",
+      "B 这些来自前面的类比，不是当前问题的比较对象。",
+      "C 句子没有在比较三个年龄阶段。",
+      "D psychological richness different from happiness and meaning 明确列出这三个概念，并询问它们的差异。"
+    ],
+    "vocabulary": [
+      {
+        "word": "different from",
+        "meaning": "与……不同",
+        "context": "提出心理丰富性与幸福、意义的区别，尚未在这一问句本身给出全部答案。",
+        "example": "The second account is different from the first in several ways.",
+        "collocations": [
+          "different from happiness",
+          "be different from something"
+        ]
+      }
+    ],
+    "translation": "那么，心理丰富与幸福和意义有什么不同？本书主体会详细回答这个问题，表 1 则提供简要总结。不过，简而言之，幸福是一种会上下起伏、反映人生当前处境的主观感受。它有点像气球。",
+    "evidenceTargetIds": [
+      "c01-s04-p013-05662-s001"
+    ],
+    "evidence": [
+      {
+        "quote": "How, then, is psychological richness different from happiness and meaning?",
+        "sentenceIds": [
+          "c01-s04-p013-05662-s001"
+        ],
+        "sources": [
+          {
+            "pdfPage": 13,
+            "block": 3,
+            "bbox": [
+              76.99,
+              566.25,
+              535.01,
+              717.27
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "e794ef8ee85c3b8be52daabd0cc76c300a605fc9b45690fed27e0a7ff7af1016"
+  },
+  {
+    "id": "qe-c01-0041",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-002",
+    "parentQuestionId": "q-c01-064",
+    "chapterId": "c01",
+    "sectionId": "c01-s04",
+    "paragraphId": "c01-s04-p013-05662",
+    "readingUnitId": "c01-s04-p013-05662-r001-004",
+    "sentenceIds": [
+      "c01-s04-p013-05662-s001",
+      "c01-s04-p013-05662-s002",
+      "c01-s04-p013-05662-s003",
+      "c01-s04-p013-05662-s004"
+    ],
+    "passage": "How, then, is psychological richness different from happiness and meaning? The main body of my book answers this question in detail (see Table 1 for a brief summary). But, very briefly, happiness is a subjective feeling that rises and falls to indicate where one’s life stands. It is a bit like a balloon.",
+    "prompt": "Where is the reader directed for a brief summary rather than the detailed discussion?",
+    "promptZh": "如果读者想看简短概括而非详细讨论，作者指向哪里？",
+    "options": [
+      "Table 1.",
+      "The title of Sacks's autobiography.",
+      "The final paragraph of the acknowledgements.",
+      "A separate test administered by the narrator's son."
+    ],
+    "optionsZh": [
+      "表 1。",
+      "萨克斯自传的标题。",
+      "致谢部分的最后一段。",
+      "叙述者儿子主持的另一项测试。"
+    ],
+    "answer": 0,
+    "type": "细节",
+    "support": "explicit",
+    "analyses": [
+      "A see Table 1 for a brief summary 是明确的阅读指引。",
+      "B 自传标题属于前面的萨克斯例子，不是这里指定的概括位置。",
+      "C 本句没有提及致谢段落。",
+      "D 儿子回应父亲的故事并不是一项测试。句子把正文的 in detail 与表格的 brief summary 区分开来。"
+    ],
+    "vocabulary": [
+      {
+        "word": "brief summary",
+        "meaning": "简短概括；简要总结",
+        "context": "与正文中的详细回答相对，指表1提供的简要整理。",
+        "example": "The final page contains a brief summary of the findings.",
+        "collocations": [
+          "a brief summary",
+          "provide a summary"
+        ]
+      }
+    ],
+    "translation": "那么，心理丰富与幸福和意义有什么不同？本书主体会详细回答这个问题，表 1 则提供简要总结。不过，简而言之，幸福是一种会上下起伏、反映人生当前处境的主观感受。它有点像气球。",
+    "evidenceTargetIds": [
+      "c01-s04-p013-05662-s002"
+    ],
+    "evidence": [
+      {
+        "quote": "The main body of my book answers this question in detail (see Table 1 for a brief summary).",
+        "sentenceIds": [
+          "c01-s04-p013-05662-s002"
+        ],
+        "sources": [
+          {
+            "pdfPage": 13,
+            "block": 3,
+            "bbox": [
+              76.99,
+              566.25,
+              535.01,
+              717.27
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "07e06d109587f20e4ff676d26968576de2bbbbd04ddb31a0537c039882d1a9d7"
+  },
+  {
+    "id": "qe-c01-0042",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-002",
+    "parentQuestionId": "q-c01-025",
+    "chapterId": "c01",
+    "sectionId": "c01-s04",
+    "paragraphId": "c01-s04-p013-05662",
+    "readingUnitId": "c01-s04-p013-05662-r011-015",
+    "sentenceIds": [
+      "c01-s04-p013-05662-s011",
+      "c01-s04-p013-05662-s012",
+      "c01-s04-p013-05662-s013",
+      "c01-s04-p013-05662-s014",
+      "c01-s04-p013-05662-s015"
+    ],
+    "passage": "In another sense, happiness is like your batting average in baseball. It goes up and down, but what matters most is the frequency of your hits. An infield hit is as worthy as a huge home run when it comes to the batting average. You should aim for as many hits as possible. In other words, frequent small, pleasant social interactions add up to long-term happiness more quickly than occasional big promotions.",
+    "prompt": "What is happiness compared with in this particular sentence?",
+    "promptZh": "在这一句中，幸福被比作什么？",
+    "options": [
+      "The total home runs across an entire career.",
+      "The longest home run in a single game.",
+      "The salary received by a successful player.",
+      "A player's batting average."
+    ],
+    "optionsZh": [
+      "整个职业生涯的全垒打总数。",
+      "一场比赛中距离最远的全垒打。",
+      "成功球员获得的薪水。",
+      "球员的击球率。"
+    ],
+    "answer": 3,
+    "type": "细节",
+    "support": "explicit",
+    "analyses": [
+      "A 职业生涯全垒打总数是后面说明心理丰富性的另一类比，不能移到本句。",
+      "B 本句没有把幸福比作单次击球的最大距离。",
+      "C 原文没有使用薪水这一指标。",
+      "D happiness is like your batting average in baseball 是直接对应。类比帮助理解概念，并不把幸福变成真实棒球统计。"
+    ],
+    "vocabulary": [
+      {
+        "word": "batting average",
+        "meaning": "击球率；打击率",
+        "context": "棒球中的统计指标，被作者用来类比会随表现波动的幸福感。",
+        "example": "The player's batting average improved during the season.",
+        "collocations": [
+          "a high batting average",
+          "improve one's batting average"
+        ]
+      }
+    ],
+    "translation": "从另一个角度看，幸福就像棒球中的击球率。它有升有降，但最重要的是击中球的频率。就击球率而言，一次内场安打与一记大号全垒打同样有价值。你的目标应当是尽可能多地击出安打。换言之，频繁的小型愉快社交互动，比偶尔的大幅晋升更快地积累起长久幸福。",
+    "evidenceTargetIds": [
+      "c01-s04-p013-05662-s011"
+    ],
+    "evidence": [
+      {
+        "quote": "In another sense, happiness is like your batting average in baseball.",
+        "sentenceIds": [
+          "c01-s04-p013-05662-s011"
+        ],
+        "sources": [
+          {
+            "pdfPage": 13,
+            "block": 3,
+            "bbox": [
+              76.99,
+              566.25,
+              535.01,
+              717.27
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "70eae7aef71662ecf4c711afe1c2ac071654459af4e7df9bb7a181adfde62396"
+  },
+  {
+    "id": "qe-c01-0043",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-002",
+    "parentQuestionId": "q-c01-025",
+    "chapterId": "c01",
+    "sectionId": "c01-s04",
+    "paragraphId": "c01-s04-p013-05662",
+    "readingUnitId": "c01-s04-p013-05662-r011-015",
+    "sentenceIds": [
+      "c01-s04-p013-05662-s011",
+      "c01-s04-p013-05662-s012",
+      "c01-s04-p013-05662-s013",
+      "c01-s04-p013-05662-s014",
+      "c01-s04-p013-05662-s015"
+    ],
+    "passage": "In another sense, happiness is like your batting average in baseball. It goes up and down, but what matters most is the frequency of your hits. An infield hit is as worthy as a huge home run when it comes to the batting average. You should aim for as many hits as possible. In other words, frequent small, pleasant social interactions add up to long-term happiness more quickly than occasional big promotions.",
+    "prompt": "What matters most within the batting-average analogy?",
+    "promptZh": "在击球率的类比中，最重要的是什么？",
+    "options": [
+      "The distance reached by the single biggest hit.",
+      "How frequently the player gets a hit.",
+      "Preventing the average from ever going down.",
+      "Receiving the same score in every game."
+    ],
+    "optionsZh": [
+      "最大的一次击球飞出的距离。",
+      "球员击出安打的频率。",
+      "使击球率永远不下降。",
+      "每场比赛都得到相同分数。"
+    ],
+    "answer": 1,
+    "type": "细节",
+    "support": "explicit",
+    "analyses": [
+      "A frequency 说的是频率，不是单次击球的距离。",
+      "B what matters most is the frequency of your hits 直接给出核心标准。",
+      "C goes up and down 承认波动，不能改成永不下降。",
+      "D 本句没有要求每场分数相同，也不能把平均表现误作每次都完全一致。"
+    ],
+    "vocabulary": [
+      {
+        "word": "frequency",
+        "meaning": "频率；发生的频繁程度",
+        "context": "强调击出安打有多频繁，而不是某一次击球有多壮观。",
+        "example": "The diary recorded the frequency of pleasant daily interactions.",
+        "collocations": [
+          "the frequency of hits",
+          "high frequency"
+        ]
+      }
+    ],
+    "translation": "从另一个角度看，幸福就像棒球中的击球率。它有升有降，但最重要的是击中球的频率。就击球率而言，一次内场安打与一记大号全垒打同样有价值。你的目标应当是尽可能多地击出安打。换言之，频繁的小型愉快社交互动，比偶尔的大幅晋升更快地积累起长久幸福。",
+    "evidenceTargetIds": [
+      "c01-s04-p013-05662-s012"
+    ],
+    "evidence": [
+      {
+        "quote": "It goes up and down, but what matters most is the frequency of your hits.",
+        "sentenceIds": [
+          "c01-s04-p013-05662-s012"
+        ],
+        "sources": [
+          {
+            "pdfPage": 13,
+            "block": 3,
+            "bbox": [
+              76.99,
+              566.25,
+              535.01,
+              717.27
+            ]
+          },
+          {
+            "pdfPage": 14,
+            "block": 0,
+            "bbox": [
+              76.99,
+              75,
+              535.01,
+              148.02
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "b45343276a98b612640c171f412fcdf56da290e07a1cb9166db66e78203231c0"
+  },
+  {
+    "id": "qe-c01-0044",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-002",
+    "parentQuestionId": "q-c01-025",
+    "chapterId": "c01",
+    "sectionId": "c01-s04",
+    "paragraphId": "c01-s04-p013-05662",
+    "readingUnitId": "c01-s04-p013-05662-r011-015",
+    "sentenceIds": [
+      "c01-s04-p013-05662-s011",
+      "c01-s04-p013-05662-s012",
+      "c01-s04-p013-05662-s013",
+      "c01-s04-p013-05662-s014",
+      "c01-s04-p013-05662-s015"
+    ],
+    "passage": "In another sense, happiness is like your batting average in baseball. It goes up and down, but what matters most is the frequency of your hits. An infield hit is as worthy as a huge home run when it comes to the batting average. You should aim for as many hits as possible. In other words, frequent small, pleasant social interactions add up to long-term happiness more quickly than occasional big promotions.",
+    "prompt": "In what respect are an infield hit and a huge home run said to be equally worthy?",
+    "promptZh": "内场安打与大号全垒打在哪个方面被说成同样有价值？",
+    "options": [
+      "They both count as hits for the batting average.",
+      "They always bring in exactly the same number of runs.",
+      "A home run improves the average more than an infield hit.",
+      "Their value is identical in every aspect of baseball."
+    ],
+    "optionsZh": [
+      "计算击球率时，它们都算安打。",
+      "它们总能带来完全相同的得分。",
+      "全垒打比内场安打更能提高击球率。",
+      "它们在棒球的所有方面都具有完全相同的价值。"
+    ],
+    "answer": 0,
+    "type": "逻辑关系",
+    "support": "explicit",
+    "analyses": [
+      "A as worthy as 的相等关系由 when it comes to the batting average 限定，指击球率这一指标。",
+      "B 句子没有说得分数量也相同，不能把一个统计指标的等价扩大到得分。",
+      "C 这与 as worthy as 在该指标上的对等关系相反。",
+      "D every aspect 超出 when it comes to 所限定的范围。"
+    ],
+    "vocabulary": [
+      {
+        "word": "when it comes to",
+        "meaning": "说到；就……而言",
+        "context": "把比较范围限定在 batting average，不是棒球所有指标。",
+        "example": "The two options are similar when it comes to cost.",
+        "collocations": [
+          "when it comes to a particular measure",
+          "when it comes to performance"
+        ]
+      }
+    ],
+    "translation": "从另一个角度看，幸福就像棒球中的击球率。它有升有降，但最重要的是击中球的频率。就击球率而言，一次内场安打与一记大号全垒打同样有价值。你的目标应当是尽可能多地击出安打。换言之，频繁的小型愉快社交互动，比偶尔的大幅晋升更快地积累起长久幸福。",
+    "evidenceTargetIds": [
+      "c01-s04-p013-05662-s013"
+    ],
+    "evidence": [
+      {
+        "quote": "An infield hit is as worthy as a huge home run when it comes to the batting average.",
+        "sentenceIds": [
+          "c01-s04-p013-05662-s013"
+        ],
+        "sources": [
+          {
+            "pdfPage": 14,
+            "block": 0,
+            "bbox": [
+              76.99,
+              75,
+              535.01,
+              148.02
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "aba1ab46c697bf710a6bc9547a908a49585c19a51e2dffb58745ac86ed698fb4"
+  },
+  {
+    "id": "qe-c01-0045",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-002",
+    "parentQuestionId": "q-c01-025",
+    "chapterId": "c01",
+    "sectionId": "c01-s04",
+    "paragraphId": "c01-s04-p013-05662",
+    "readingUnitId": "c01-s04-p013-05662-r011-015",
+    "sentenceIds": [
+      "c01-s04-p013-05662-s011",
+      "c01-s04-p013-05662-s012",
+      "c01-s04-p013-05662-s013",
+      "c01-s04-p013-05662-s014",
+      "c01-s04-p013-05662-s015"
+    ],
+    "passage": "In another sense, happiness is like your batting average in baseball. It goes up and down, but what matters most is the frequency of your hits. An infield hit is as worthy as a huge home run when it comes to the batting average. You should aim for as many hits as possible. In other words, frequent small, pleasant social interactions add up to long-term happiness more quickly than occasional big promotions.",
+    "prompt": "Which everyday approach best fits the recommendation to aim for many hits?",
+    "promptZh": "哪种日常做法最符合尽量多击出安打这一类比中的建议？",
+    "options": [
+      "Rely entirely on one rare major promotion.",
+      "Judge life only by the size of occasional rewards.",
+      "Seek frequent small, pleasant social experiences.",
+      "Avoid social contact unless it brings an exceptional success."
+    ],
+    "optionsZh": [
+      "完全依赖一次罕见的重大晋升。",
+      "只用偶尔获得的奖励大小来判断生活。",
+      "争取频繁、微小而愉快的社交体验。",
+      "除非能带来非凡成功，否则避免社交接触。"
+    ],
+    "answer": 2,
+    "type": "有限推断",
+    "support": "limited-inference",
+    "analyses": [
+      "A rare major promotion 属于作者用来对照的偶发大事件，不是 many hits 的对应。",
+      "B 这里强调频繁程度，而不是只追求偶尔的大奖励。",
+      "C In other words 将击球类比明确落到 frequent small, pleasant social interactions 上，支持这一日常对应。",
+      "D 不能把频繁的小型愉快互动改成仅在有重大成功时才社交；此建议也不是人人达到固定幸福值的保证。"
+    ],
+    "vocabulary": [
+      {
+        "word": "aim for",
+        "meaning": "以……为目标；努力争取",
+        "context": "在类比中争取更多安打，进而说明频繁的小型愉快互动的重要性。",
+        "example": "Aim for small improvements that you can maintain.",
+        "collocations": [
+          "aim for improvement",
+          "aim for as many as possible"
+        ]
+      }
+    ],
+    "translation": "从另一个角度看，幸福就像棒球中的击球率。它有升有降，但最重要的是击中球的频率。就击球率而言，一次内场安打与一记大号全垒打同样有价值。你的目标应当是尽可能多地击出安打。换言之，频繁的小型愉快社交互动，比偶尔的大幅晋升更快地积累起长久幸福。",
+    "evidenceTargetIds": [
+      "c01-s04-p013-05662-s014"
+    ],
+    "evidence": [
+      {
+        "quote": "You should aim for as many hits as possible. In other words, frequent small, pleasant social interactions add up to long-term happiness more quickly than occasional big promotions.",
+        "sentenceIds": [
+          "c01-s04-p013-05662-s014",
+          "c01-s04-p013-05662-s015"
+        ],
+        "sources": [
+          {
+            "pdfPage": 14,
+            "block": 0,
+            "bbox": [
+              76.99,
+              75,
+              535.01,
+              148.02
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "e1c082a306d85623cfd385e8fb643b56b6a18ba95cef9c6f64ac7558e164eeb5"
+  },
+  {
+    "id": "qe-c01-0046",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-002",
+    "parentQuestionId": "q-c01-026",
+    "chapterId": "c01",
+    "sectionId": "c01-s04",
+    "paragraphId": "c01-s04-p014-01530",
+    "readingUnitId": "c01-s04-p014-01530-r001-006",
+    "sentenceIds": [
+      "c01-s04-p014-01530-s001",
+      "c01-s04-p014-01530-s002",
+      "c01-s04-p014-01530-s003",
+      "c01-s04-p014-01530-s004",
+      "c01-s04-p014-01530-s005",
+      "c01-s04-p014-01530-s006"
+    ],
+    "passage": "The snag is that happiness—like the batting average—changes over time; one season you hit well; another season not so well. In The Varieties of Religious Experience, William James declared, “To begin with, how can things so insecure as the successful experiences of this world afford a stable anchorage? A chain is no stronger than its weakest link, and life is after all a chain. In the healthiest and most prosperous existence, how many links of illness, danger, and disaster are always interposed?” So it goes. The fragility of happiness.",
+    "prompt": "What question does William James raise in the quotation?",
+    "promptZh": "威廉·詹姆斯在引文中提出了什么问题？",
+    "options": [
+      "How a physical harbour should be designed for safer ships.",
+      "Which successful person has accumulated the greatest wealth.",
+      "Which experiment proves that happiness will never change.",
+      "Whether insecure worldly successes can provide a stable foundation."
+    ],
+    "optionsZh": [
+      "怎样设计实体港口才能使船更安全。",
+      "哪位成功人士积累了最多财富。",
+      "哪项实验能证明幸福永不改变。",
+      "不稳固的世间成功能否提供牢靠的基础。"
+    ],
+    "answer": 3,
+    "type": "主旨",
+    "support": "explicit",
+    "analyses": [
+      "A stable anchorage 在这里是人生基础的比喻，不是港口工程问题。",
+      "B 引文质疑成功的稳固性，没有给成功人士排财富名次。",
+      "C 这是一段思想性引述，而不是报告一个证明幸福不变的实验。",
+      "D how can things so insecure...afford a stable anchorage 直接质疑不稳定经历能否成为稳固依靠。"
+    ],
+    "vocabulary": [
+      {
+        "word": "anchorage",
+        "meaning": "锚地；此处喻稳固依靠或基础",
+        "context": "James 用航海意象询问世间成功能否给人生提供可靠支撑。",
+        "example": "A lasting friendship gave her a sense of anchorage during the move.",
+        "collocations": [
+          "a stable anchorage",
+          "provide anchorage"
+        ]
+      }
+    ],
+    "translation": "问题在于，幸福就像击球率，会随时间变化；这个赛季打得好，下个赛季却未必。威廉·詹姆斯在《宗教经验之种种》中宣称：“首先，这世上如此不稳定的成功经历，怎么能提供稳固的锚点？链条的强度取决于最薄弱的一环，而人生终究是一条链。在最健康、最富足的人生里，也总会插入多少疾病、危险与灾难的环节啊？”事情就是如此。幸福是脆弱的。",
+    "evidenceTargetIds": [
+      "c01-s04-p014-01530-s002"
+    ],
+    "evidence": [
+      {
+        "quote": "In The Varieties of Religious Experience, William James declared, “To begin with, how can things so insecure as the successful experiences of this world afford a stable anchorage?",
+        "sentenceIds": [
+          "c01-s04-p014-01530-s002"
+        ],
+        "sources": [
+          {
+            "pdfPage": 14,
+            "block": 1,
+            "bbox": [
+              76.99,
+              153,
+              535.01,
+              304.02
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "f350212a7df819c460d084c13c99b4c75137bebd775aaa55c3fc2fb47525fe4e"
+  },
+  {
+    "id": "qe-c01-0047",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-002",
+    "parentQuestionId": "q-c01-026",
+    "chapterId": "c01",
+    "sectionId": "c01-s04",
+    "paragraphId": "c01-s04-p014-01530",
+    "readingUnitId": "c01-s04-p014-01530-r001-006",
+    "sentenceIds": [
+      "c01-s04-p014-01530-s001",
+      "c01-s04-p014-01530-s002",
+      "c01-s04-p014-01530-s003",
+      "c01-s04-p014-01530-s004",
+      "c01-s04-p014-01530-s005",
+      "c01-s04-p014-01530-s006"
+    ],
+    "passage": "The snag is that happiness—like the batting average—changes over time; one season you hit well; another season not so well. In The Varieties of Religious Experience, William James declared, “To begin with, how can things so insecure as the successful experiences of this world afford a stable anchorage? A chain is no stronger than its weakest link, and life is after all a chain. In the healthiest and most prosperous existence, how many links of illness, danger, and disaster are always interposed?” So it goes. The fragility of happiness.",
+    "prompt": "What is implied by comparing life to a chain with a weakest link?",
+    "promptZh": "把人生比作有最薄弱一环的链条，暗示了什么？",
+    "options": [
+      "Every part of life must remain equally successful at all times.",
+      "An otherwise strong life can still be vulnerable through its weak points.",
+      "The number of links gives an exact formula for a person's happiness.",
+      "A single success makes all later illness and danger impossible."
+    ],
+    "optionsZh": [
+      "人生每一部分在所有时候都必须同样成功。",
+      "整体看似强健的人生仍可能因薄弱处而脆弱。",
+      "链环数量给出了个人幸福的精确公式。",
+      "一次成功就能使日后的疾病和危险都不可能发生。"
+    ],
+    "answer": 1,
+    "type": "有限推断",
+    "support": "limited-inference",
+    "analyses": [
+      "A no stronger than its weakest link 强调限制与脆弱点，不是宣布各部分始终同等成功的要求。",
+      "B 最薄弱一环会限制整条链的强度，这一比喻支持整体仍会受薄弱处影响的有限推断。",
+      "C 链条是修辞比喻，不能擅自改成按链环数量计算幸福的公式。",
+      "D 比喻并不赋予成功消除后续风险的保证，后文恰恰继续谈疾病与危险。"
+    ],
+    "vocabulary": [
+      {
+        "word": "weakest link",
+        "meaning": "最薄弱的环节",
+        "context": "用链条的薄弱一环比喻人生稳固性受到脆弱处限制，不是在评价某个人的价值。",
+        "example": "An outdated component became the weakest link in the system.",
+        "collocations": [
+          "the weakest link in a chain",
+          "no stronger than its weakest link"
+        ]
+      }
+    ],
+    "translation": "问题在于，幸福就像击球率，会随时间变化；这个赛季打得好，下个赛季却未必。威廉·詹姆斯在《宗教经验之种种》中宣称：“首先，这世上如此不稳定的成功经历，怎么能提供稳固的锚点？链条的强度取决于最薄弱的一环，而人生终究是一条链。在最健康、最富足的人生里，也总会插入多少疾病、危险与灾难的环节啊？”事情就是如此。幸福是脆弱的。",
+    "evidenceTargetIds": [
+      "c01-s04-p014-01530-s003"
+    ],
+    "evidence": [
+      {
+        "quote": "A chain is no stronger than its weakest link, and life is after all a chain.",
+        "sentenceIds": [
+          "c01-s04-p014-01530-s003"
+        ],
+        "sources": [
+          {
+            "pdfPage": 14,
+            "block": 1,
+            "bbox": [
+              76.99,
+              153,
+              535.01,
+              304.02
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "59a58aed14de1e3b0e7027350490ebb2040e8ba449b402ed94b2b40ca6a084fd"
+  },
+  {
+    "id": "qe-c01-0048",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-002",
+    "parentQuestionId": "q-c01-026",
+    "chapterId": "c01",
+    "sectionId": "c01-s04",
+    "paragraphId": "c01-s04-p014-01530",
+    "readingUnitId": "c01-s04-p014-01530-r001-006",
+    "sentenceIds": [
+      "c01-s04-p014-01530-s001",
+      "c01-s04-p014-01530-s002",
+      "c01-s04-p014-01530-s003",
+      "c01-s04-p014-01530-s004",
+      "c01-s04-p014-01530-s005",
+      "c01-s04-p014-01530-s006"
+    ],
+    "passage": "The snag is that happiness—like the batting average—changes over time; one season you hit well; another season not so well. In The Varieties of Religious Experience, William James declared, “To begin with, how can things so insecure as the successful experiences of this world afford a stable anchorage? A chain is no stronger than its weakest link, and life is after all a chain. In the healthiest and most prosperous existence, how many links of illness, danger, and disaster are always interposed?” So it goes. The fragility of happiness.",
+    "prompt": "What point is made by mentioning even the healthiest and most prosperous lives?",
+    "promptZh": "提到即使最健康、最富足的人生，是为了说明什么？",
+    "options": [
+      "Wealth itself necessarily causes illness and disaster.",
+      "Healthy and wealthy people are immune to danger.",
+      "Even favourable lives remain open to disruption and hardship.",
+      "Every disaster reliably increases the happiness of its victims."
+    ],
+    "optionsZh": [
+      "财富本身必然造成疾病与灾难。",
+      "健康富足者不会遭遇危险。",
+      "即使条件优越的人生也仍可能受到困难和变故影响。",
+      "每场灾难都能可靠地提升受害者的幸福。"
+    ],
+    "answer": 2,
+    "type": "作者意图",
+    "support": "limited-inference",
+    "analyses": [
+      "A 把最有利条件下仍有风险，倒换成财富造成风险，原文没有这种因果断言。",
+      "B illness, danger, and disaster 的插入恰好否定完全免疫的理解。",
+      "C healthiest and most prosperous 是让步式强调，说明优越条件也不能使人生完全免于变故。",
+      "D 这里谈脆弱性，没有主张受害者必从灾难中获益；更不能把修辞概括当成个体恢复保证。"
+    ],
+    "vocabulary": [
+      {
+        "word": "prosperous",
+        "meaning": "富足的；兴旺的",
+        "context": "与 healthiest 并列，形容看似条件有利的生活，不等同于作者提出的心理丰富性。",
+        "example": "The town became prosperous as trade expanded.",
+        "collocations": [
+          "a prosperous existence",
+          "a prosperous community"
+        ]
+      }
+    ],
+    "translation": "问题在于，幸福就像击球率，会随时间变化；这个赛季打得好，下个赛季却未必。威廉·詹姆斯在《宗教经验之种种》中宣称：“首先，这世上如此不稳定的成功经历，怎么能提供稳固的锚点？链条的强度取决于最薄弱的一环，而人生终究是一条链。在最健康、最富足的人生里，也总会插入多少疾病、危险与灾难的环节啊？”事情就是如此。幸福是脆弱的。",
+    "evidenceTargetIds": [
+      "c01-s04-p014-01530-s004"
+    ],
+    "evidence": [
+      {
+        "quote": "In the healthiest and most prosperous existence, how many links of illness, danger, and disaster are always interposed?”",
+        "sentenceIds": [
+          "c01-s04-p014-01530-s004"
+        ],
+        "sources": [
+          {
+            "pdfPage": 14,
+            "block": 1,
+            "bbox": [
+              76.99,
+              153,
+              535.01,
+              304.02
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "de7a32f00dcea63a22847f4c5ac9f201e33171d0a49a0fe85403e1cb17421372"
+  },
+  {
+    "id": "qe-c01-0049",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-002",
+    "parentQuestionId": "q-c01-026",
+    "chapterId": "c01",
+    "sectionId": "c01-s04",
+    "paragraphId": "c01-s04-p014-01530",
+    "readingUnitId": "c01-s04-p014-01530-r001-006",
+    "sentenceIds": [
+      "c01-s04-p014-01530-s001",
+      "c01-s04-p014-01530-s002",
+      "c01-s04-p014-01530-s003",
+      "c01-s04-p014-01530-s004",
+      "c01-s04-p014-01530-s005",
+      "c01-s04-p014-01530-s006"
+    ],
+    "passage": "The snag is that happiness—like the batting average—changes over time; one season you hit well; another season not so well. In The Varieties of Religious Experience, William James declared, “To begin with, how can things so insecure as the successful experiences of this world afford a stable anchorage? A chain is no stronger than its weakest link, and life is after all a chain. In the healthiest and most prosperous existence, how many links of illness, danger, and disaster are always interposed?” So it goes. The fragility of happiness.",
+    "prompt": "Which attitude best fits the narrator's 'So it goes' after the quotation?",
+    "promptZh": "引文之后的 So it goes 最符合叙述者哪种态度？",
+    "options": [
+      "A resigned acknowledgement of life's recurring vulnerability.",
+      "Celebration that worldly success guarantees permanent security.",
+      "Excitement about a newly completed laboratory experiment.",
+      "An accusation that readers deliberately cause every misfortune."
+    ],
+    "optionsZh": [
+      "对人生反复出现的脆弱性的一种无奈承认。",
+      "庆祝世间成功能保证永久安全。",
+      "对刚完成的一项实验室实验感到兴奋。",
+      "指责读者有意造成每一场不幸。"
+    ],
+    "answer": 0,
+    "type": "作者态度",
+    "support": "limited-inference",
+    "analyses": [
+      "A 在关于疾病、危险和灾难会介入人生的引文之后，这句简短回应承认生活往往就是如此，带有无奈而非欢庆。",
+      "B 前面的质疑削弱了成功能作永久依靠的想法，并没有庆祝安全保证。",
+      "C 段落没有转入实验完成的消息，James 的话是思想性引述。",
+      "D 短语没有把所有不幸的责任推给读者；不能添上 deliberately 这一动机。"
+    ],
+    "vocabulary": [
+      {
+        "word": "So it goes",
+        "meaning": "事情就是如此；人生常常如此",
+        "context": "此处承接对不稳定与风险的感叹，不是庆祝一切都按计划成功。",
+        "example": "The plan changed again, and he shrugged: so it goes.",
+        "collocations": [
+          "so it goes",
+          "as things go"
+        ]
+      }
+    ],
+    "translation": "问题在于，幸福就像击球率，会随时间变化；这个赛季打得好，下个赛季却未必。威廉·詹姆斯在《宗教经验之种种》中宣称：“首先，这世上如此不稳定的成功经历，怎么能提供稳固的锚点？链条的强度取决于最薄弱的一环，而人生终究是一条链。在最健康、最富足的人生里，也总会插入多少疾病、危险与灾难的环节啊？”事情就是如此。幸福是脆弱的。",
+    "evidenceTargetIds": [
+      "c01-s04-p014-01530-s005"
+    ],
+    "evidence": [
+      {
+        "quote": "In the healthiest and most prosperous existence, how many links of illness, danger, and disaster are always interposed?” So it goes.",
+        "sentenceIds": [
+          "c01-s04-p014-01530-s004",
+          "c01-s04-p014-01530-s005"
+        ],
+        "sources": [
+          {
+            "pdfPage": 14,
+            "block": 1,
+            "bbox": [
+              76.99,
+              153,
+              535.01,
+              304.02
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "edc7e163003dc473f8831ccac8443519f484c9cb2e29eb425ce5d0cb4551c13e"
+  },
+  {
+    "id": "qe-c01-0050",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-002",
+    "parentQuestionId": "q-c01-026",
+    "chapterId": "c01",
+    "sectionId": "c01-s04",
+    "paragraphId": "c01-s04-p014-01530",
+    "readingUnitId": "c01-s04-p014-01530-r001-006",
+    "sentenceIds": [
+      "c01-s04-p014-01530-s001",
+      "c01-s04-p014-01530-s002",
+      "c01-s04-p014-01530-s003",
+      "c01-s04-p014-01530-s004",
+      "c01-s04-p014-01530-s005",
+      "c01-s04-p014-01530-s006"
+    ],
+    "passage": "The snag is that happiness—like the batting average—changes over time; one season you hit well; another season not so well. In The Varieties of Religious Experience, William James declared, “To begin with, how can things so insecure as the successful experiences of this world afford a stable anchorage? A chain is no stronger than its weakest link, and life is after all a chain. In the healthiest and most prosperous existence, how many links of illness, danger, and disaster are always interposed?” So it goes. The fragility of happiness.",
+    "prompt": "How does the final phrase 'The fragility of happiness' function in the paragraph?",
+    "promptZh": "段末的 The fragility of happiness 在本段中起什么作用？",
+    "options": [
+      "It dismisses all the preceding examples as irrelevant.",
+      "It sums up happiness as vulnerable rather than secure.",
+      "It announces a new controlled experiment.",
+      "It identifies the narrator's income as the only issue."
+    ],
+    "optionsZh": [
+      "它把前面的所有例子都斥为无关。",
+      "它用幸福的脆弱性概括前面的论述。",
+      "它宣布一项新的对照实验。",
+      "它认定叙述者的收入是唯一问题。"
+    ],
+    "answer": 1,
+    "type": "逻辑关系",
+    "support": "limited-inference",
+    "analyses": [
+      "A 这一短语概括前面的波动与脆弱，并没有否定前文相关性。",
+      "B fragility 作为简短结语，收束击球率波动、稳固锚点和薄弱链环的说明。",
+      "C 没有实验方法或分组信息，不能把概括短语当成研究设计。",
+      "D 本段谈的是幸福的稳固性，不是仅讨论作者收入。这里保留原书的名词性短语，不为它补造一个新英文句子。"
+    ],
+    "vocabulary": [
+      {
+        "word": "fragility",
+        "meaning": "脆弱性；容易受损或改变的性质",
+        "context": "概括幸福可能随境遇波动而难以永久稳固的性质，不是说幸福不存在。",
+        "example": "The storm revealed the fragility of the old bridge.",
+        "collocations": [
+          "the fragility of happiness",
+          "reveal the fragility of something"
+        ]
+      }
+    ],
+    "translation": "问题在于，幸福就像击球率，会随时间变化；这个赛季打得好，下个赛季却未必。威廉·詹姆斯在《宗教经验之种种》中宣称：“首先，这世上如此不稳定的成功经历，怎么能提供稳固的锚点？链条的强度取决于最薄弱的一环，而人生终究是一条链。在最健康、最富足的人生里，也总会插入多少疾病、危险与灾难的环节啊？”事情就是如此。幸福是脆弱的。",
+    "evidenceTargetIds": [
+      "c01-s04-p014-01530-s006"
+    ],
+    "evidence": [
+      {
+        "quote": "The fragility of happiness.",
+        "sentenceIds": [
+          "c01-s04-p014-01530-s006"
+        ],
+        "sources": [
+          {
+            "pdfPage": 14,
+            "block": 1,
+            "bbox": [
+              76.99,
+              153,
+              535.01,
+              304.02
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "c9d99b328a0e4b0fc466c8cc6bd0a711ea1a0a0b9143a6d95d06e66fbed2aeda"
   }
 ]
