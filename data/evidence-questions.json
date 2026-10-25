@@ -5960,5 +5960,1983 @@
     ],
     "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
     "fingerprint": "d87a0d6df845e091438394b741fcbda2005b11d53ccf320a60d538a8843427b4"
+  },
+  {
+    "id": "qe-c02-0017",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-004",
+    "parentQuestionId": "q-c02-038",
+    "chapterId": "c02",
+    "sectionId": "c02-s01",
+    "paragraphId": "c02-s01-p018-06795",
+    "readingUnitId": "c02-s01-p018-06795-r001-004",
+    "sentenceIds": [
+      "c02-s01-p018-06795-s001",
+      "c02-s01-p018-06795-s002",
+      "c02-s01-p018-06795-s003",
+      "c02-s01-p018-06795-s004"
+    ],
+    "passage": "If happiness is a victory, the pursuit of happiness is equated with the pursuit of a victory. Success brings happiness. Failure begets unhappiness. To many, if you are not happy, you are not successful.",
+    "prompt": "If happiness is treated as a victory, what does pursuing happiness become equated with?",
+    "promptZh": "如果把幸福视为胜利，追求幸福就被等同于什么？",
+    "options": [
+      "Seeking a victory.",
+      "Avoiding every ambition.",
+      "Rejecting all cultural expectations.",
+      "Accepting that success has no meaning."
+    ],
+    "optionsZh": [
+      "寻求胜利。",
+      "避免任何抱负。",
+      "拒绝所有文化期待。",
+      "认定成功没有意义。"
+    ],
+    "answer": 0,
+    "type": "逻辑关系",
+    "support": "explicit",
+    "analyses": [
+      "A If 引出这一观念的条件，后半句明说 the pursuit of a victory。",
+      "B 这段观念强调追求胜利，不是避免抱负。",
+      "C 并非拒绝文化期待，而是解释一种文化观念如何运作。",
+      "D equated with 表示把两种追求等同，不是否定成功的意义。这是作者分析的条件性观念，不是普遍因果定律。"
+    ],
+    "vocabulary": [
+      {
+        "word": "equated",
+        "meaning": "被等同；被视为相同",
+        "context": "is equated with 指在所述观念下把幸福的追求等同于胜利的追求。",
+        "example": "The value of a book should not be equated with its price.",
+        "collocations": [
+          "be equated with",
+          "equate one thing with another"
+        ]
+      }
+    ],
+    "translation": "如果幸福就是胜利，追求幸福就被等同于追求胜利。成功带来幸福，失败产生不幸福。对许多人来说，如果你不幸福，你就是不成功。",
+    "evidenceTargetIds": [
+      "c02-s01-p018-06795-s001"
+    ],
+    "evidence": [
+      {
+        "quote": "If happiness is a victory, the pursuit of happiness is equated with the pursuit of a victory.",
+        "sentenceIds": [
+          "c02-s01-p018-06795-s001"
+        ],
+        "sources": [
+          {
+            "pdfPage": 18,
+            "block": 4,
+            "bbox": [
+              76.99,
+              679.5,
+              535.01,
+              713.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "c758b38f6d50cccd5645c8975b4e4545b6fe867fec4f621c6a76d2f893cec1c9"
+  },
+  {
+    "id": "qe-c02-0018",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-004",
+    "parentQuestionId": "q-c02-038",
+    "chapterId": "c02",
+    "sectionId": "c02-s01",
+    "paragraphId": "c02-s01-p018-06795",
+    "readingUnitId": "c02-s01-p018-06795-r001-004",
+    "sentenceIds": [
+      "c02-s01-p018-06795-s001",
+      "c02-s01-p018-06795-s002",
+      "c02-s01-p018-06795-s003",
+      "c02-s01-p018-06795-s004"
+    ],
+    "passage": "If happiness is a victory, the pursuit of happiness is equated with the pursuit of a victory. Success brings happiness. Failure begets unhappiness. To many, if you are not happy, you are not successful.",
+    "prompt": "Within the cultural narrative being described, what is said to bring happiness?",
+    "promptZh": "在所描述的文化叙事中，什么被说成会带来幸福？",
+    "options": [
+      "Avoiding competition.",
+      "Success.",
+      "Withdrawing from relationships.",
+      "Concealing every achievement."
+    ],
+    "optionsZh": [
+      "避免竞争。",
+      "成功。",
+      "退出人际关系。",
+      "隐藏每项成就。"
+    ],
+    "answer": 1,
+    "type": "观点归属",
+    "support": "explicit",
+    "analyses": [
+      "A 本句的主语是 Success，不是避免竞争。",
+      "B Success brings happiness 直接表达所分析观念中的联系。不能脱离全段当作作者对每个人的幸福保证。",
+      "C 没有退出关系的说法。",
+      "D 原句不涉及隐藏成就。与后面 failure 的对照一起看，这里在铺陈成功等于幸福的文化逻辑。"
+    ],
+    "vocabulary": [
+      {
+        "word": "Success",
+        "meaning": "成功；达成目标",
+        "context": "在这段文化叙事中被视为带来幸福的东西，不是本句证明的普遍规律。",
+        "example": "The team defined success as completing the project on time.",
+        "collocations": [
+          "achieve success",
+          "personal success"
+        ]
+      }
+    ],
+    "translation": "如果幸福就是胜利，追求幸福就被等同于追求胜利。成功带来幸福，失败产生不幸福。对许多人来说，如果你不幸福，你就是不成功。",
+    "evidenceTargetIds": [
+      "c02-s01-p018-06795-s002"
+    ],
+    "evidence": [
+      {
+        "quote": "Success brings happiness.",
+        "sentenceIds": [
+          "c02-s01-p018-06795-s002"
+        ],
+        "sources": [
+          {
+            "pdfPage": 18,
+            "block": 4,
+            "bbox": [
+              76.99,
+              679.5,
+              535.01,
+              713.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "f0932f32ab27b8cb03ade0500911788924df3fc5d58d7fe5b46d07bbfab7d6ea"
+  },
+  {
+    "id": "qe-c02-0019",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-004",
+    "parentQuestionId": "q-c02-038",
+    "chapterId": "c02",
+    "sectionId": "c02-s01",
+    "paragraphId": "c02-s01-p018-06795",
+    "readingUnitId": "c02-s01-p018-06795-r001-004",
+    "sentenceIds": [
+      "c02-s01-p018-06795-s001",
+      "c02-s01-p018-06795-s002",
+      "c02-s01-p018-06795-s003",
+      "c02-s01-p018-06795-s004"
+    ],
+    "passage": "If happiness is a victory, the pursuit of happiness is equated with the pursuit of a victory. Success brings happiness. Failure begets unhappiness. To many, if you are not happy, you are not successful.",
+    "prompt": "What does 'begets' mean in 'Failure begets unhappiness'?",
+    "promptZh": "Failure begets unhappiness 中 begets 是什么意思？",
+    "options": [
+      "Accurately measures.",
+      "Is completely unrelated to.",
+      "Conceals from other people.",
+      "Brings about or gives rise to."
+    ],
+    "optionsZh": [
+      "精确测量。",
+      "与……完全无关。",
+      "向别人隐瞒。",
+      "引起或产生。"
+    ],
+    "answer": 3,
+    "type": "语境词义",
+    "support": "explicit",
+    "analyses": [
+      "A begets 不是测量义。",
+      "B begets 表达产生的联系，不是毫无关联。",
+      "C 这里不是描述隐藏感受。",
+      "D begets 的词义是产生、带来；该句延续成功与幸福相连的文化叙事，不应因此认定每次失败都必然造成同样感受。"
+    ],
+    "vocabulary": [
+      {
+        "word": "begets",
+        "meaning": "产生；引起（较正式用法）",
+        "context": "在这段观念叙述中连接 failure 与 unhappiness，词义解释不等于认可普遍因果。",
+        "example": "In the fable, one misunderstanding begets another.",
+        "collocations": [
+          "failure begets unhappiness",
+          "one problem begets another"
+        ]
+      }
+    ],
+    "translation": "如果幸福就是胜利，追求幸福就被等同于追求胜利。成功带来幸福，失败产生不幸福。对许多人来说，如果你不幸福，你就是不成功。",
+    "evidenceTargetIds": [
+      "c02-s01-p018-06795-s003"
+    ],
+    "evidence": [
+      {
+        "quote": "Failure begets unhappiness.",
+        "sentenceIds": [
+          "c02-s01-p018-06795-s003"
+        ],
+        "sources": [
+          {
+            "pdfPage": 18,
+            "block": 4,
+            "bbox": [
+              76.99,
+              679.5,
+              535.01,
+              713.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "167c5e9733b68465917e3d573cf33ded5f53f381ada6783801cda13ad093d425"
+  },
+  {
+    "id": "qe-c02-0020",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-004",
+    "parentQuestionId": "q-c02-039",
+    "chapterId": "c02",
+    "sectionId": "c02-s01",
+    "paragraphId": "c02-s01-p018-06795",
+    "readingUnitId": "c02-s01-p018-06795-r005-007",
+    "sentenceIds": [
+      "c02-s01-p018-06795-s005",
+      "c02-s01-p018-06795-s006",
+      "c02-s01-p018-06795-s007"
+    ],
+    "passage": "If you are unhappy, you are a loser. The pressure to be happy might come from this cultural narrative of happiness as a sign of success. In Saul Steinberg’s iconic 1959 New Yorker cover, Prosperity wins the contest of the Pursuit of Happiness, suggesting that it takes success and prosperity to be happy.",
+    "prompt": "Which judgement does the cultural narrative attach to being unhappy?",
+    "promptZh": "这段文化叙事给不幸福的人贴上什么评价？",
+    "options": [
+      "They must be financially independent.",
+      "They are automatically wiser than others.",
+      "They are losers.",
+      "They have proved that all ambitions are pointless."
+    ],
+    "optionsZh": [
+      "他们必定经济独立。",
+      "他们自动比别人更明智。",
+      "他们是失败者。",
+      "他们证明所有抱负都无意义。"
+    ],
+    "answer": 2,
+    "type": "观点归属",
+    "support": "explicit",
+    "analyses": [
+      "A 目标句没有经济独立的信息。",
+      "B 并未把不幸福解释为更明智。",
+      "C If you are unhappy, you are a loser 表达的是正在被作者分析的文化标签；后句说这种叙事可能造成压力，并非作者认可这个标签。",
+      "D 对人的失败标签不等于证明所有抱负无意义。"
+    ],
+    "vocabulary": [
+      {
+        "word": "loser",
+        "meaning": "失败者；输家",
+        "context": "是所批判文化叙事贴给不幸福者的标签，不是对读者或所有不幸福者的事实判定。",
+        "example": "The film challenges the habit of calling someone a loser after one setback.",
+        "collocations": [
+          "label someone a loser",
+          "a winner or a loser"
+        ]
+      }
+    ],
+    "translation": "如果你不幸福，你就是个失败者。必须幸福的压力，也许来自这种把幸福看作成功标志的文化叙事。Saul Steinberg 那幅具有代表性的 1959 年《纽约客》封面上，“富裕”赢得“追求幸福”的竞赛，暗示必须成功而富裕才能幸福。",
+    "evidenceTargetIds": [
+      "c02-s01-p018-06795-s005"
+    ],
+    "evidence": [
+      {
+        "quote": "If you are unhappy, you are a loser.",
+        "sentenceIds": [
+          "c02-s01-p018-06795-s005"
+        ],
+        "sources": [
+          {
+            "pdfPage": 19,
+            "block": 0,
+            "bbox": [
+              76.99,
+              75,
+              535.01,
+              167.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "bf3c509cc0cd414d0e19c57f483e837d971378cbd35b3797a9ccd6cfd7090e27"
+  },
+  {
+    "id": "qe-c02-0021",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-004",
+    "parentQuestionId": "q-c02-040",
+    "chapterId": "c02",
+    "sectionId": "c02-s02",
+    "paragraphId": "c02-s02-p019-02235",
+    "readingUnitId": "c02-s02-p019-02235-r001-002",
+    "sentenceIds": [
+      "c02-s02-p019-02235-s001",
+      "c02-s02-p019-02235-s002"
+    ],
+    "passage": "What happiness researchers found was quite different from the achievement-oriented concept of happiness; a victory rarely results in everlasting (or even long-lasting) happiness. The effect of a major accomplishment like a promotion on happiness seems to disappear within six months.",
+    "prompt": "How do the research findings contrast with the achievement-oriented concept of happiness?",
+    "promptZh": "研究发现怎样与成就导向的幸福观形成对照？",
+    "options": [
+      "Victories rarely create happiness that lasts indefinitely.",
+      "Every victory produces permanent happiness.",
+      "Accomplishments never produce any joy at all.",
+      "A victory has exactly the same emotional effect on everyone."
+    ],
+    "optionsZh": [
+      "胜利很少带来无限持续的幸福。",
+      "每次胜利都产生永久幸福。",
+      "成就绝不带来任何喜悦。",
+      "胜利对所有人的情绪影响完全相同。"
+    ],
+    "answer": 0,
+    "type": "逻辑关系",
+    "support": "explicit",
+    "analyses": [
+      "A rarely results in everlasting (or even long-lasting) happiness 直接限制了胜利的持久效果。",
+      "B 把 rarely 倒置成 every，且抹去对持久性的质疑。",
+      "C 不持久不等于从未有喜悦。",
+      "D 本句没有完全一致的个体效果，不能添加 exactly the same。"
+    ],
+    "vocabulary": [
+      {
+        "word": "everlasting",
+        "meaning": "永恒的；永久持续的",
+        "context": "rarely 限制了胜利导致这种永久幸福的可能，并不否认短暂喜悦。",
+        "example": "The poem imagines an everlasting friendship.",
+        "collocations": [
+          "everlasting happiness",
+          "an everlasting effect"
+        ]
+      }
+    ],
+    "translation": "幸福研究者的发现与成就导向的幸福观很不一样：一次胜利很少带来永久的，甚至长期的幸福。像晋升这样的重大成就对幸福的影响，似乎会在六个月内消失。",
+    "evidenceTargetIds": [
+      "c02-s02-p019-02235-s001"
+    ],
+    "evidence": [
+      {
+        "quote": "What happiness researchers found was quite different from the achievement-oriented concept of happiness; a victory rarely results in everlasting (or even long-lasting) happiness.",
+        "sentenceIds": [
+          "c02-s02-p019-02235-s001"
+        ],
+        "sources": [
+          {
+            "pdfPage": 19,
+            "block": 2,
+            "bbox": [
+              76.99,
+              223.5,
+              535.01,
+              550.02
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "3a22e92b40d4a591eb3e2877a7771d9778d297d6f4f26cebc8a6064dcdf1f1a9"
+  },
+  {
+    "id": "qe-c02-0022",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-004",
+    "parentQuestionId": "q-c02-041",
+    "chapterId": "c02",
+    "sectionId": "c02-s02",
+    "paragraphId": "c02-s02-p019-02235",
+    "readingUnitId": "c02-s02-p019-02235-r004-007",
+    "sentenceIds": [
+      "c02-s02-p019-02235-s004",
+      "c02-s02-p019-02235-s005",
+      "c02-s02-p019-02235-s006",
+      "c02-s02-p019-02235-s007"
+    ],
+    "passage": "In one study, Dan Gilbert and colleagues asked untenured assistant professors how happy they would feel if they got tenure, as well as how unhappy they would feel if they were denied tenure. It sounds like an obvious question. Indeed, the assistant professors all said they would be delighted if they got tenure and would be devastated if they were denied tenure. Next, the researchers interviewed former assistant professors who did get tenure and others who did not get tenure.",
+    "prompt": "What is the narrator's initial comment on asking professors to predict their feelings about tenure?",
+    "promptZh": "作者起初怎样评价让教授预测获得或未获终身教职后的感受这个问题？",
+    "options": [
+      "It is impossible to understand.",
+      "It sounds straightforward or obvious.",
+      "It has no connection with their careers.",
+      "It has already been answered by measuring their salaries."
+    ],
+    "optionsZh": [
+      "它无法理解。",
+      "它听上去直截了当、答案显然。",
+      "它与他们的职业无关。",
+      "它已通过测量工资得到回答。"
+    ],
+    "answer": 1,
+    "type": "语境词义",
+    "support": "explicit",
+    "analyses": [
+      "A obvious 与无法理解相反。",
+      "B It sounds like an obvious question 说的是问题初看显然；sounds 不意味着预测已被实际经历验证。",
+      "C tenure 与这些教授的职业相关，不能说无关。",
+      "D 问题询问预期感受，不是工资测量。"
+    ],
+    "vocabulary": [
+      {
+        "word": "obvious",
+        "meaning": "明显的；似乎不言自明的",
+        "context": "sounds like 保留初步印象，不能据此认定预测准确。",
+        "example": "At first, the answer seemed obvious, but the evidence was more complicated.",
+        "collocations": [
+          "an obvious question",
+          "seem obvious"
+        ]
+      }
+    ],
+    "translation": "在一项研究中，Dan Gilbert 和同事询问尚未获得终身教职的助理教授：如果获得，会有多幸福；如果遭拒，又会有多不幸福。这听起来像个答案明显的问题。确实，他们都说，获得会欣喜，遭拒会受到沉重打击。接着，研究者访谈了以前的助理教授，其中一些获得了终身教职，另一些没有。",
+    "evidenceTargetIds": [
+      "c02-s02-p019-02235-s005"
+    ],
+    "evidence": [
+      {
+        "quote": "In one study, Dan Gilbert and colleagues asked untenured assistant professors how happy they would feel if they got tenure, as well as how unhappy they would feel if they were denied tenure. It sounds like an obvious question.",
+        "sentenceIds": [
+          "c02-s02-p019-02235-s004",
+          "c02-s02-p019-02235-s005"
+        ],
+        "sources": [
+          {
+            "pdfPage": 19,
+            "block": 2,
+            "bbox": [
+              76.99,
+              223.5,
+              535.01,
+              550.02
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "b60f1bbb3f0cf74670c9715154052b03378c229742dceb4b4f61c920171a502a"
+  },
+  {
+    "id": "qe-c02-0023",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-004",
+    "parentQuestionId": "q-c02-041",
+    "chapterId": "c02",
+    "sectionId": "c02-s02",
+    "paragraphId": "c02-s02-p019-02235",
+    "readingUnitId": "c02-s02-p019-02235-r004-007",
+    "sentenceIds": [
+      "c02-s02-p019-02235-s004",
+      "c02-s02-p019-02235-s005",
+      "c02-s02-p019-02235-s006",
+      "c02-s02-p019-02235-s007"
+    ],
+    "passage": "In one study, Dan Gilbert and colleagues asked untenured assistant professors how happy they would feel if they got tenure, as well as how unhappy they would feel if they were denied tenure. It sounds like an obvious question. Indeed, the assistant professors all said they would be delighted if they got tenure and would be devastated if they were denied tenure. Next, the researchers interviewed former assistant professors who did get tenure and others who did not get tenure.",
+    "prompt": "What emotional outcomes did the assistant professors predict?",
+    "promptZh": "助理教授们预测自己会有什么情绪结果？",
+    "options": [
+      "Equal happiness whether tenure was granted or denied.",
+      "Disappointment after tenure and relief after rejection.",
+      "No emotional response to either outcome.",
+      "Delight if granted tenure and devastation if denied it."
+    ],
+    "optionsZh": [
+      "获得或被拒终身教职都同样幸福。",
+      "获得后失望，被拒后释然。",
+      "两种结果都没有情绪反应。",
+      "获得后欣喜，被拒后极度失落。"
+    ],
+    "answer": 3,
+    "type": "细节",
+    "support": "explicit",
+    "analyses": [
+      "A 本句明确区分 delighted 与 devastated，不是相同。",
+      "B 倒置了两种结果的预期感受。",
+      "C 两个强烈情绪词都不支持毫无反应。",
+      "D said they would、if 标明预测与条件，不是后来访谈的实际结果。"
+    ],
+    "vocabulary": [
+      {
+        "word": "devastated",
+        "meaning": "极度悲痛的；深受打击的",
+        "context": "指教授预测被拒终身教职时会有的强烈失落，不代表研究已证实实际都如此。",
+        "example": "He expected to be devastated if his application failed.",
+        "collocations": [
+          "feel devastated",
+          "be devastated by a loss"
+        ]
+      }
+    ],
+    "translation": "在一项研究中，Dan Gilbert 和同事询问尚未获得终身教职的助理教授：如果获得，会有多幸福；如果遭拒，又会有多不幸福。这听起来像个答案明显的问题。确实，他们都说，获得会欣喜，遭拒会受到沉重打击。接着，研究者访谈了以前的助理教授，其中一些获得了终身教职，另一些没有。",
+    "evidenceTargetIds": [
+      "c02-s02-p019-02235-s006"
+    ],
+    "evidence": [
+      {
+        "quote": "Indeed, the assistant professors all said they would be delighted if they got tenure and would be devastated if they were denied tenure.",
+        "sentenceIds": [
+          "c02-s02-p019-02235-s006"
+        ],
+        "sources": [
+          {
+            "pdfPage": 19,
+            "block": 2,
+            "bbox": [
+              76.99,
+              223.5,
+              535.01,
+              550.02
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "a914bef8d0ff0190e45b4e2a460a8149857a1b4968ca5f0c34bd67830ff77df8"
+  },
+  {
+    "id": "qe-c02-0024",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-004",
+    "parentQuestionId": "q-c02-043",
+    "chapterId": "c02",
+    "sectionId": "c02-s02",
+    "paragraphId": "c02-s02-p019-05550",
+    "readingUnitId": "c02-s02-p019-05550-r001-004",
+    "sentenceIds": [
+      "c02-s02-p019-05550-s001",
+      "c02-s02-p019-05550-s002",
+      "c02-s02-p019-05550-s003",
+      "c02-s02-p019-05550-s004"
+    ],
+    "passage": "The first insight from the science of happiness is that people overestimate the role of success in their own happiness. The joy of a big promotion, marriage, or a first child is relatively short-lived. It is not a big win that brings happiness. Rather, it’s the small things in life, like having a coffee with your best friend every day, that build long-term happiness.",
+    "prompt": "What is the first insight the author draws from happiness research?",
+    "promptZh": "作者从幸福研究中概括出的第一个认识是什么？",
+    "options": [
+      "Success is the only possible source of happiness.",
+      "People underestimate every effect of failure.",
+      "People exaggerate how much success determines their happiness.",
+      "All personal achievements have exactly zero emotional effect."
+    ],
+    "optionsZh": [
+      "成功是幸福唯一可能来源。",
+      "人们低估失败的所有影响。",
+      "人们夸大成功对自身幸福的作用。",
+      "所有个人成就的情绪影响恰好为零。"
+    ],
+    "answer": 2,
+    "type": "主旨",
+    "support": "explicit",
+    "analyses": [
+      "A overestimate the role of success 是批评高估，不是确认唯一来源。",
+      "B 目标句讲成功的作用，不是失败的每一种影响。",
+      "C exaggerate 对应 overestimate，保留对成功作用估计过高的中心意思。",
+      "D 高估不等于实际作用为零，all 与 exactly 扩大原文。"
+    ],
+    "vocabulary": [
+      {
+        "word": "overestimate",
+        "meaning": "高估",
+        "context": "估计成功对幸福的作用过大，而不是说成功完全无效。",
+        "example": "We may overestimate how much time a simple task will require.",
+        "collocations": [
+          "overestimate the role of",
+          "overestimate an effect"
+        ]
+      }
+    ],
+    "translation": "幸福科学的第一个启示是，人们高估了成功在自身幸福中的作用。重大晋升、结婚或第一个孩子出生的喜悦，都相对短暂。带来幸福的不是一次大胜。相反，生活中的小事，比如每天和最好的朋友喝杯咖啡，才会积累长期幸福。",
+    "evidenceTargetIds": [
+      "c02-s02-p019-05550-s001"
+    ],
+    "evidence": [
+      {
+        "quote": "The first insight from the science of happiness is that people overestimate the role of success in their own happiness.",
+        "sentenceIds": [
+          "c02-s02-p019-05550-s001"
+        ],
+        "sources": [
+          {
+            "pdfPage": 19,
+            "block": 3,
+            "bbox": [
+              76.99,
+              555,
+              535.01,
+              686.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "33bac6c470c0af9647ebf99dd91c8017e547f6ec61ea46f0926da6fee335b820"
+  },
+  {
+    "id": "qe-c02-0025",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-004",
+    "parentQuestionId": "q-c02-043",
+    "chapterId": "c02",
+    "sectionId": "c02-s02",
+    "paragraphId": "c02-s02-p019-05550",
+    "readingUnitId": "c02-s02-p019-05550-r001-004",
+    "sentenceIds": [
+      "c02-s02-p019-05550-s001",
+      "c02-s02-p019-05550-s002",
+      "c02-s02-p019-05550-s003",
+      "c02-s02-p019-05550-s004"
+    ],
+    "passage": "The first insight from the science of happiness is that people overestimate the role of success in their own happiness. The joy of a big promotion, marriage, or a first child is relatively short-lived. It is not a big win that brings happiness. Rather, it’s the small things in life, like having a coffee with your best friend every day, that build long-term happiness.",
+    "prompt": "Which description matches the joy associated with the major events listed?",
+    "promptZh": "哪项符合原文对所列重大事件带来喜悦的描述？",
+    "options": [
+      "It is relatively short-lived.",
+      "It steadily increases forever.",
+      "It never occurs after marriage.",
+      "It is measured solely by the size of a salary."
+    ],
+    "optionsZh": [
+      "它相对短暂。",
+      "它永远持续上升。",
+      "婚后从不出现这种喜悦。",
+      "只用工资数额衡量它。"
+    ],
+    "answer": 0,
+    "type": "细节",
+    "support": "explicit",
+    "analyses": [
+      "A relatively short-lived 直接说明升职、结婚或第一个孩子带来的喜悦持续时间。",
+      "B short-lived 不支持永远上升。",
+      "C marriage 正是例子之一，不能改为从未喜悦。",
+      "D 句中比较的是喜悦持续性，没有工资测量。relatively 也不能省成毫无感受。"
+    ],
+    "vocabulary": [
+      {
+        "word": "short-lived",
+        "meaning": "短暂的；持续时间短的",
+        "context": "相对短暂的是这些大事件带来的喜悦，不是婚姻或亲子关系本身的寿命。",
+        "example": "The improvement in the weather was short-lived.",
+        "collocations": [
+          "relatively short-lived",
+          "short-lived joy"
+        ]
+      }
+    ],
+    "translation": "幸福科学的第一个启示是，人们高估了成功在自身幸福中的作用。重大晋升、结婚或第一个孩子出生的喜悦，都相对短暂。带来幸福的不是一次大胜。相反，生活中的小事，比如每天和最好的朋友喝杯咖啡，才会积累长期幸福。",
+    "evidenceTargetIds": [
+      "c02-s02-p019-05550-s002"
+    ],
+    "evidence": [
+      {
+        "quote": "The joy of a big promotion, marriage, or a first child is relatively short-lived.",
+        "sentenceIds": [
+          "c02-s02-p019-05550-s002"
+        ],
+        "sources": [
+          {
+            "pdfPage": 19,
+            "block": 3,
+            "bbox": [
+              76.99,
+              555,
+              535.01,
+              686.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "aebd1dfbf2f3aafec924184a7557cef4dd9a7bf1df7e256b8f0d700b5eb4209f"
+  },
+  {
+    "id": "qe-c02-0026",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-004",
+    "parentQuestionId": "q-c02-043",
+    "chapterId": "c02",
+    "sectionId": "c02-s02",
+    "paragraphId": "c02-s02-p019-05550",
+    "readingUnitId": "c02-s02-p019-05550-r001-004",
+    "sentenceIds": [
+      "c02-s02-p019-05550-s001",
+      "c02-s02-p019-05550-s002",
+      "c02-s02-p019-05550-s003",
+      "c02-s02-p019-05550-s004"
+    ],
+    "passage": "The first insight from the science of happiness is that people overestimate the role of success in their own happiness. The joy of a big promotion, marriage, or a first child is relatively short-lived. It is not a big win that brings happiness. Rather, it’s the small things in life, like having a coffee with your best friend every day, that build long-term happiness.",
+    "prompt": "What assumption does 'It is not a big win that brings happiness' reject in this paragraph?",
+    "promptZh": "本段中 It is not a big win that brings happiness 否定哪种想法？",
+    "options": [
+      "Every small interaction must end in conflict.",
+      "A major victory is the central basis of lasting happiness.",
+      "Close friendships can include ordinary daily activities.",
+      "The frequency of pleasant experiences deserves attention."
+    ],
+    "optionsZh": [
+      "每次小互动都必然以冲突结束。",
+      "一次重大胜利是持久幸福的核心基础。",
+      "亲密友谊可以包含普通日常活动。",
+      "愉快经历的频率值得注意。"
+    ],
+    "answer": 1,
+    "type": "作者意图",
+    "support": "explicit",
+    "analyses": [
+      "A 原文没有每次互动冲突的说法。",
+      "B not a big win 针对大胜利观念，后文 Rather 转向小事积累；段落主题是长期幸福，不是说胜利从无短暂喜悦。",
+      "C 友谊中的日常活动是后面的正面例子，没有被否定。",
+      "D 频率是作者随后强调的方向，并非被拒绝的观点。"
+    ],
+    "vocabulary": [
+      {
+        "word": "big win",
+        "meaning": "重大胜利；显著成功",
+        "context": "被对照于日常小事，否定其作为长期幸福核心来源的想法。",
+        "example": "She celebrated the big win but continued her daily practice.",
+        "collocations": [
+          "a big win",
+          "celebrate a win"
+        ]
+      }
+    ],
+    "translation": "幸福科学的第一个启示是，人们高估了成功在自身幸福中的作用。重大晋升、结婚或第一个孩子出生的喜悦，都相对短暂。带来幸福的不是一次大胜。相反，生活中的小事，比如每天和最好的朋友喝杯咖啡，才会积累长期幸福。",
+    "evidenceTargetIds": [
+      "c02-s02-p019-05550-s003"
+    ],
+    "evidence": [
+      {
+        "quote": "It is not a big win that brings happiness.",
+        "sentenceIds": [
+          "c02-s02-p019-05550-s003"
+        ],
+        "sources": [
+          {
+            "pdfPage": 19,
+            "block": 3,
+            "bbox": [
+              76.99,
+              555,
+              535.01,
+              686.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "469cb5112b56affa2b74e46462036b9a3e8cc5450f86c96e2f93b2c908ba5d9c"
+  },
+  {
+    "id": "qe-c02-0027",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-004",
+    "parentQuestionId": "q-c02-006",
+    "chapterId": "c02",
+    "sectionId": "c02-s02",
+    "paragraphId": "c02-s02-p019-05550",
+    "readingUnitId": "c02-s02-p019-05550-r005-007",
+    "sentenceIds": [
+      "c02-s02-p019-05550-s005",
+      "c02-s02-p019-05550-s006",
+      "c02-s02-p019-05550-s007"
+    ],
+    "passage": "Happiness is the frequency, not the intensity, of positive events. Relatedly, studies show that happiness is the product of close relationships rather than personal accomplishments. That is, happiness is not personal success, but interpersonal success.",
+    "prompt": "What does 'interpersonal success' emphasise in the contrast with personal success?",
+    "promptZh": "与 personal success 对照时，interpersonal success 强调什么？",
+    "options": [
+      "Winning a promotion ahead of every colleague.",
+      "Collecting accomplishments without involving anyone else.",
+      "Avoiding social contact in order to work harder.",
+      "Doing well in close relationships with other people."
+    ],
+    "optionsZh": [
+      "升职时战胜所有同事。",
+      "不涉及他人地收集成就。",
+      "为更努力工作而避免社交。",
+      "与他人建立和维系良好亲密关系。"
+    ],
+    "answer": 3,
+    "type": "同义改写",
+    "support": "explicit",
+    "analyses": [
+      "A 升职属于前面个人成就的例子，不是这里 interpersonal 的重点。",
+      "B without anyone else 与 interpersonal 的人际含义相反。",
+      "C 避免接触也与 close relationships 不符。",
+      "D That is 重述前面的亲密关系观点，用 interpersonal 对照 personal accomplishments。"
+    ],
+    "vocabulary": [
+      {
+        "word": "interpersonal",
+        "meaning": "人际的；人与人之间的",
+        "context": "指 close relationships，区别于以个人成就为中心的成功。",
+        "example": "The workshop helped the students develop interpersonal skills.",
+        "collocations": [
+          "interpersonal success",
+          "interpersonal relationships"
+        ]
+      }
+    ],
+    "translation": "幸福在于积极事件的频率，而非强度。相关研究还显示，幸福是亲密关系的产物，而非个人成就的产物。也就是说，幸福不在于个人成功，而在于人际成功。",
+    "evidenceTargetIds": [
+      "c02-s02-p019-05550-s007"
+    ],
+    "evidence": [
+      {
+        "quote": "Happiness is the frequency, not the intensity, of positive events. Relatedly, studies show that happiness is the product of close relationships rather than personal accomplishments. That is, happiness is not personal success, but interpersonal success.",
+        "sentenceIds": [
+          "c02-s02-p019-05550-s005",
+          "c02-s02-p019-05550-s006",
+          "c02-s02-p019-05550-s007"
+        ],
+        "sources": [
+          {
+            "pdfPage": 19,
+            "block": 3,
+            "bbox": [
+              76.99,
+              555,
+              535.01,
+              686.52
+            ]
+          },
+          {
+            "pdfPage": 20,
+            "block": 0,
+            "bbox": [
+              76.99,
+              75,
+              535.01,
+              109.02
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "3a2251349aaa39969f1f065718417104ac58c2fe8fcaaba302542e6c3c6428d4"
+  },
+  {
+    "id": "qe-c02-0028",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-004",
+    "parentQuestionId": "q-c02-044",
+    "chapterId": "c02",
+    "sectionId": "c02-s03",
+    "paragraphId": "c02-s03-p020-01650",
+    "readingUnitId": "c02-s03-p020-01650-r001-003",
+    "sentenceIds": [
+      "c02-s03-p020-01650-s001",
+      "c02-s03-p020-01650-s002",
+      "c02-s03-p020-01650-s003"
+    ],
+    "passage": "So why do people fake happiness? There is, of course, the saying “Fake it till you make it.” Many people take to heart the belief that if you continue to pretend you are successful, you will eventually succeed.",
+    "prompt": "What issue does the opening question about faking happiness introduce?",
+    "promptZh": "So why do people fake happiness? 引出了什么问题？",
+    "options": [
+      "How to measure the memory of a mobile phone.",
+      "Whether all happiness research should be abandoned.",
+      "Why people present happiness that they may not actually feel.",
+      "How to prove that every happy person is pretending."
+    ],
+    "optionsZh": [
+      "如何测量手机内存。",
+      "是否应放弃所有幸福研究。",
+      "人们为何呈现自己可能并未真正感到的幸福。",
+      "如何证明每个幸福的人都在伪装。"
+    ],
+    "answer": 2,
+    "type": "作者意图",
+    "support": "explicit",
+    "analyses": [
+      "A 手机案例出现在后面，此问句的主题仍是伪装幸福。",
+      "B 没有弃用全部研究的意思。",
+      "C why 请求解释行为动机，fake happiness 指表现出未必真实的幸福。",
+      "D some people 的行为问题不能扩大为每个幸福者都假装。"
+    ],
+    "vocabulary": [
+      {
+        "word": "fake",
+        "meaning": "假装；伪装",
+        "context": "此处作动词，指呈现幸福的外观而非真实感受。",
+        "example": "The actor had to fake surprise during the rehearsal.",
+        "collocations": [
+          "fake happiness",
+          "fake a smile"
+        ]
+      }
+    ],
+    "translation": "那么，人们为什么假装幸福？当然，有句俗话叫“先装得像，直到真的做到”。许多人深信，如果持续装作成功，最终就会成功。",
+    "evidenceTargetIds": [
+      "c02-s03-p020-01650-s001"
+    ],
+    "evidence": [
+      {
+        "quote": "So why do people fake happiness?",
+        "sentenceIds": [
+          "c02-s03-p020-01650-s001"
+        ],
+        "sources": [
+          {
+            "pdfPage": 20,
+            "block": 2,
+            "bbox": [
+              76.99,
+              165,
+              535.01,
+              452.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "05bcd4bd702d7a81573bb775aacf45f556a99c602657c03ff542b15f9046d33d"
+  },
+  {
+    "id": "qe-c02-0029",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-004",
+    "parentQuestionId": "q-c02-044",
+    "chapterId": "c02",
+    "sectionId": "c02-s03",
+    "paragraphId": "c02-s03-p020-01650",
+    "readingUnitId": "c02-s03-p020-01650-r001-003",
+    "sentenceIds": [
+      "c02-s03-p020-01650-s001",
+      "c02-s03-p020-01650-s002",
+      "c02-s03-p020-01650-s003"
+    ],
+    "passage": "So why do people fake happiness? There is, of course, the saying “Fake it till you make it.” Many people take to heart the belief that if you continue to pretend you are successful, you will eventually succeed.",
+    "prompt": "How is 'Fake it till you make it' introduced in the passage?",
+    "promptZh": "本段怎样引入 Fake it till you make it？",
+    "options": [
+      "As a familiar saying.",
+      "As a measured result from the tenure study.",
+      "As the title of a psychological diagnostic test.",
+      "As proof that pretending always works."
+    ],
+    "optionsZh": [
+      "作为一句熟悉的说法。",
+      "作为终身教职研究测得的结果。",
+      "作为心理诊断测试的名称。",
+      "作为伪装总有效的证明。"
+    ],
+    "answer": 0,
+    "type": "观点归属",
+    "support": "explicit",
+    "analyses": [
+      "A the saying 明示是俗语或常见说法。",
+      "B 这里不是前项研究的测量结果。",
+      "C 没有测试名称或诊断程序。",
+      "D 引述俗语并不证明其中策略永远有效；不要把信念当作实验证据。"
+    ],
+    "vocabulary": [
+      {
+        "word": "saying",
+        "meaning": "俗语；常见说法",
+        "context": "the saying 标示引述性质，不等于已获证明的心理定律。",
+        "example": "The teacher discussed the meaning of a familiar saying.",
+        "collocations": [
+          "a familiar saying",
+          "as the saying goes"
+        ]
+      }
+    ],
+    "translation": "那么，人们为什么假装幸福？当然，有句俗话叫“先装得像，直到真的做到”。许多人深信，如果持续装作成功，最终就会成功。",
+    "evidenceTargetIds": [
+      "c02-s03-p020-01650-s002"
+    ],
+    "evidence": [
+      {
+        "quote": "There is, of course, the saying “Fake it till you make it.”",
+        "sentenceIds": [
+          "c02-s03-p020-01650-s002"
+        ],
+        "sources": [
+          {
+            "pdfPage": 20,
+            "block": 2,
+            "bbox": [
+              76.99,
+              165,
+              535.01,
+              452.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "a4ae6debf96f579a2c7a53b412846cdd0466991f690617ad7cc4cf2c37021dfc"
+  },
+  {
+    "id": "qe-c02-0030",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-004",
+    "parentQuestionId": "q-c02-045",
+    "chapterId": "c02",
+    "sectionId": "c02-s03",
+    "paragraphId": "c02-s03-p020-01650",
+    "readingUnitId": "c02-s03-p020-01650-r004-007",
+    "sentenceIds": [
+      "c02-s03-p020-01650-s004",
+      "c02-s03-p020-01650-s005",
+      "c02-s03-p020-01650-s006",
+      "c02-s03-p020-01650-s007"
+    ],
+    "passage": "Quentin Tarantino, who went on to write and direct the iconic film Pulp Fiction among others, was working as a clerk at a video store in Manhattan Beach, California, when, in order to get his first Hollywood job as a production assistant, he lied, saying that he had worked in the movie industry. Steve Jobs faked it till he made it, too. The first iPhone had a memory problem. It could not run multiple programs simultaneously.",
+    "prompt": "According to the account, why did Tarantino claim previous film-industry experience?",
+    "promptZh": "按书中叙述，塔伦蒂诺为何声称自己有电影行业经历？",
+    "options": [
+      "To explain why he refused to leave the video store.",
+      "To secure his first Hollywood job as a production assistant.",
+      "To demonstrate that he had already directed every major film.",
+      "To persuade researchers to include him in a happiness experiment."
+    ],
+    "optionsZh": [
+      "解释自己为何拒绝离开录像店。",
+      "为得到在好莱坞担任制作助理的第一份工作。",
+      "证明自己已经执导所有重要电影。",
+      "说服研究者把他纳入幸福实验。"
+    ],
+    "answer": 1,
+    "type": "细节",
+    "support": "explicit",
+    "analyses": [
+      "A 当时在录像店工作是背景，不是拒绝离开的理由。",
+      "B in order to get his first Hollywood job as a production assistant 明示目的。",
+      "C 后来编导影片不等于当时已导演所有重要作品。",
+      "D 这是职业轶事，没有幸福实验招募。这里是在理解书中叙述，并非鼓励虚假简历。"
+    ],
+    "vocabulary": [
+      {
+        "word": "production assistant",
+        "meaning": "制作助理",
+        "context": "他希望得到的第一份好莱坞职位，不是其后来导演身份。",
+        "example": "The production assistant helped organise the filming schedule.",
+        "collocations": [
+          "work as a production assistant",
+          "a job as a production assistant"
+        ]
+      }
+    ],
+    "translation": "Quentin Tarantino 后来编剧并执导了《低俗小说》等知名电影；当时他在加利福尼亚州曼哈顿海滩一家录像店做店员。为了获得第一份好莱坞制片助理工作，他谎称曾在电影业工作。Steve Jobs 也是先装得像，直到真正做到。第一代 iPhone 有内存问题，无法同时运行多个程序。",
+    "evidenceTargetIds": [
+      "c02-s03-p020-01650-s004"
+    ],
+    "evidence": [
+      {
+        "quote": "Quentin Tarantino, who went on to write and direct the iconic film Pulp Fiction among others, was working as a clerk at a video store in Manhattan Beach, California, when, in order to get his first Hollywood job as a production assistant, he lied, saying that he had worked in the movie industry.",
+        "sentenceIds": [
+          "c02-s03-p020-01650-s004"
+        ],
+        "sources": [
+          {
+            "pdfPage": 20,
+            "block": 2,
+            "bbox": [
+              76.99,
+              165,
+              535.01,
+              452.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "17fffc662a0f95061b0255cfe6c6b81aa959a3c45ca5f5a253003d1faebdd643"
+  },
+  {
+    "id": "qe-c02-0031",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-004",
+    "parentQuestionId": "q-c02-045",
+    "chapterId": "c02",
+    "sectionId": "c02-s03",
+    "paragraphId": "c02-s03-p020-01650",
+    "readingUnitId": "c02-s03-p020-01650-r004-007",
+    "sentenceIds": [
+      "c02-s03-p020-01650-s004",
+      "c02-s03-p020-01650-s005",
+      "c02-s03-p020-01650-s006",
+      "c02-s03-p020-01650-s007"
+    ],
+    "passage": "Quentin Tarantino, who went on to write and direct the iconic film Pulp Fiction among others, was working as a clerk at a video store in Manhattan Beach, California, when, in order to get his first Hollywood job as a production assistant, he lied, saying that he had worked in the movie industry. Steve Jobs faked it till he made it, too. The first iPhone had a memory problem. It could not run multiple programs simultaneously.",
+    "prompt": "What does 'too' connect Steve Jobs's story with in this context?",
+    "promptZh": "这里 too 将乔布斯的故事与前面的什么联系起来？",
+    "options": [
+      "An identical job at the same video store.",
+      "The same scientific experiment with assistant professors.",
+      "A claim that neither man ever achieved professional success.",
+      "Another example of presenting success before fully achieving it."
+    ],
+    "optionsZh": [
+      "同一家录像店的相同工作。",
+      "针对助理教授的同一科学实验。",
+      "两人都从未获得职业成功的断言。",
+      "另一个在完全实现成功之前先呈现成功的例子。"
+    ],
+    "answer": 3,
+    "type": "逻辑关系",
+    "support": "explicit",
+    "analyses": [
+      "A too 承接 fake it，不说明乔布斯也在同店工作。",
+      "B 前文此处是塔伦蒂诺职业案例，不是教授实验。",
+      "C till he made it 不支持从未成功。",
+      "D too 将乔布斯加入前面的先假装、后做到的案例链；不能由共同点推出所有细节相同。"
+    ],
+    "vocabulary": [
+      {
+        "word": "too",
+        "meaning": "也；同样",
+        "context": "连接乔布斯与塔伦蒂诺作为同一叙述主题的两个例子。",
+        "example": "The second speaker had changed careers, too.",
+        "collocations": [
+          "did so too",
+          "too, in this context"
+        ]
+      }
+    ],
+    "translation": "Quentin Tarantino 后来编剧并执导了《低俗小说》等知名电影；当时他在加利福尼亚州曼哈顿海滩一家录像店做店员。为了获得第一份好莱坞制片助理工作，他谎称曾在电影业工作。Steve Jobs 也是先装得像，直到真正做到。第一代 iPhone 有内存问题，无法同时运行多个程序。",
+    "evidenceTargetIds": [
+      "c02-s03-p020-01650-s005"
+    ],
+    "evidence": [
+      {
+        "quote": "Quentin Tarantino, who went on to write and direct the iconic film Pulp Fiction among others, was working as a clerk at a video store in Manhattan Beach, California, when, in order to get his first Hollywood job as a production assistant, he lied, saying that he had worked in the movie industry. Steve Jobs faked it till he made it, too.",
+        "sentenceIds": [
+          "c02-s03-p020-01650-s004",
+          "c02-s03-p020-01650-s005"
+        ],
+        "sources": [
+          {
+            "pdfPage": 20,
+            "block": 2,
+            "bbox": [
+              76.99,
+              165,
+              535.01,
+              452.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "276a857ac94e0d5f843558f837eaa2128f96c710fc8ea6f8e4ba49517b8a921d"
+  },
+  {
+    "id": "qe-c02-0032",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-004",
+    "parentQuestionId": "q-c02-046",
+    "chapterId": "c02",
+    "sectionId": "c02-s03",
+    "paragraphId": "c02-s03-p020-01650",
+    "readingUnitId": "c02-s03-p020-01650-r008-009",
+    "sentenceIds": [
+      "c02-s03-p020-01650-s008",
+      "c02-s03-p020-01650-s009"
+    ],
+    "passage": "At the product launch of the first iPhone, Steve Jobs used multiple iPhones, switching to a new one as soon as the old one crashed during the demonstration. It also had a bandwidth problem.",
+    "prompt": "What additional technical issue is mentioned after the account of switching iPhones?",
+    "promptZh": "讲述切换 iPhone 后，原文还提到什么技术问题？",
+    "options": [
+      "A permanently broken camera lens.",
+      "An inability to display any text.",
+      "A bandwidth problem.",
+      "A complete absence of a battery."
+    ],
+    "optionsZh": [
+      "摄像镜头永久损坏。",
+      "无法显示任何文字。",
+      "带宽问题。",
+      "完全没有电池。"
+    ],
+    "answer": 2,
+    "type": "细节",
+    "support": "explicit",
+    "analyses": [
+      "A 目标句没有镜头信息。",
+      "B 没有无法显示文字的说法。",
+      "C It also had a bandwidth problem 直接给出新增问题，also 表示在既有问题之外。",
+      "D 没有电池缺失信息。不要把 memory 与 bandwidth 当作同一种问题。"
+    ],
+    "vocabulary": [
+      {
+        "word": "bandwidth",
+        "meaning": "带宽；通信连接的数据传输容量",
+        "context": "原文将它与内存问题分开，随后以连接不佳说明这一方面。",
+        "example": "The video call needs more bandwidth than a short text message.",
+        "collocations": [
+          "a bandwidth problem",
+          "limited bandwidth"
+        ]
+      }
+    ],
+    "translation": "第一代 iPhone 的发布会上，Steve Jobs 使用了多部 iPhone；演示中旧的一部一崩溃，他就换上一部新的。它还有带宽问题。",
+    "evidenceTargetIds": [
+      "c02-s03-p020-01650-s009"
+    ],
+    "evidence": [
+      {
+        "quote": "It also had a bandwidth problem.",
+        "sentenceIds": [
+          "c02-s03-p020-01650-s009"
+        ],
+        "sources": [
+          {
+            "pdfPage": 20,
+            "block": 2,
+            "bbox": [
+              76.99,
+              165,
+              535.01,
+              452.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "540f25fe9cb18f9a3de58fc10cdad1b9f2901aa030bfca108030d0270a6f64e4"
+  },
+  {
+    "id": "qe-c02-0033",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-004",
+    "parentQuestionId": "q-c02-013",
+    "chapterId": "c02",
+    "sectionId": "c02-s03",
+    "paragraphId": "c02-s03-p020-01650",
+    "readingUnitId": "c02-s03-p020-01650-r010-012",
+    "sentenceIds": [
+      "c02-s03-p020-01650-s010",
+      "c02-s03-p020-01650-s011",
+      "c02-s03-p020-01650-s012"
+    ],
+    "passage": "So, when the iPhone onstage had a poor connection, they faked it and consistently showed five bars of signal. Eventually, Apple fixed the memory problem. Likewise, might many Americans assume that, if they pretend to be happy, they will eventually become happy?",
+    "prompt": "What discrepancy does the account describe during the onstage iPhone demonstration?",
+    "promptZh": "原文描述现场 iPhone 演示出现了什么不一致？",
+    "options": [
+      "The display showed five signal bars despite a poor connection.",
+      "A strong connection was shown as having no signal.",
+      "Every phone was removed before the demonstration began.",
+      "The signal display accurately warned the audience of each connection failure."
+    ],
+    "optionsZh": [
+      "连接不佳，却显示五格信号。",
+      "连接很强，却显示完全无信号。",
+      "演示开始前所有手机都被移走。",
+      "信号显示准确警告观众每次连接故障。"
+    ],
+    "answer": 0,
+    "type": "细节",
+    "support": "explicit",
+    "analyses": [
+      "A poor connection 与 consistently showed five bars of signal 形成实际连接和显示之间的落差。",
+      "B 把两端强弱倒置。",
+      "C 原句说 onstage，并未说演示前全部移走。",
+      "D they faked it 不支持准确反映故障。按书中轶事作答，不把案例当作幸福实验。"
+    ],
+    "vocabulary": [
+      {
+        "word": "consistently",
+        "meaning": "始终如一地；持续地",
+        "context": "修饰 showed，指一直显示五格，不是连接一直良好。",
+        "example": "The indicator consistently showed the same reading.",
+        "collocations": [
+          "consistently show",
+          "perform consistently"
+        ]
+      }
+    ],
+    "translation": "因此，当台上的 iPhone 连接不佳时，他们作了假，始终显示五格信号。后来，苹果修复了内存问题。同样地，许多美国人是否也会以为，只要假装幸福，最终就会真的幸福呢？",
+    "evidenceTargetIds": [
+      "c02-s03-p020-01650-s010"
+    ],
+    "evidence": [
+      {
+        "quote": "So, when the iPhone onstage had a poor connection, they faked it and consistently showed five bars of signal.",
+        "sentenceIds": [
+          "c02-s03-p020-01650-s010"
+        ],
+        "sources": [
+          {
+            "pdfPage": 20,
+            "block": 2,
+            "bbox": [
+              76.99,
+              165,
+              535.01,
+              452.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "bacbc7548e4682ff547347d3e4a8961d5f6063de6c9d48845e71f42a814631e8"
+  },
+  {
+    "id": "qe-c02-0034",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-004",
+    "parentQuestionId": "q-c02-013",
+    "chapterId": "c02",
+    "sectionId": "c02-s03",
+    "paragraphId": "c02-s03-p020-01650",
+    "readingUnitId": "c02-s03-p020-01650-r010-012",
+    "sentenceIds": [
+      "c02-s03-p020-01650-s010",
+      "c02-s03-p020-01650-s011",
+      "c02-s03-p020-01650-s012"
+    ],
+    "passage": "So, when the iPhone onstage had a poor connection, they faked it and consistently showed five bars of signal. Eventually, Apple fixed the memory problem. Likewise, might many Americans assume that, if they pretend to be happy, they will eventually become happy?",
+    "prompt": "Which problem does the passage say Apple eventually fixed?",
+    "promptZh": "原文说苹果最终修复了什么问题？",
+    "options": [
+      "Every difficulty with human happiness.",
+      "The memory problem.",
+      "All mobile networks throughout the world.",
+      "The problem of predicting professors' emotions."
+    ],
+    "optionsZh": [
+      "人类幸福的一切困难。",
+      "内存问题。",
+      "全世界所有移动网络。",
+      "预测教授情绪的问题。"
+    ],
+    "answer": 1,
+    "type": "细节",
+    "support": "explicit",
+    "analyses": [
+      "A Apple fixed 的宾语是 memory problem，不是幸福的所有困难。",
+      "B Eventually, Apple fixed the memory problem 明示最终解决的对象。",
+      "C 不能把一个设备问题扩大成全球所有网络。",
+      "D 教授情绪属于前面另一案例，没有苹果参与。"
+    ],
+    "vocabulary": [
+      {
+        "word": "Eventually",
+        "meaning": "最终；后来终于",
+        "context": "交代案例中的后续解决，不保证先假装就必然解决所有问题。",
+        "example": "After several revisions, the team eventually solved the problem.",
+        "collocations": [
+          "eventually fix a problem",
+          "eventually succeed"
+        ]
+      }
+    ],
+    "translation": "因此，当台上的 iPhone 连接不佳时，他们作了假，始终显示五格信号。后来，苹果修复了内存问题。同样地，许多美国人是否也会以为，只要假装幸福，最终就会真的幸福呢？",
+    "evidenceTargetIds": [
+      "c02-s03-p020-01650-s011"
+    ],
+    "evidence": [
+      {
+        "quote": "Eventually, Apple fixed the memory problem.",
+        "sentenceIds": [
+          "c02-s03-p020-01650-s011"
+        ],
+        "sources": [
+          {
+            "pdfPage": 20,
+            "block": 2,
+            "bbox": [
+              76.99,
+              165,
+              535.01,
+              452.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "561440b83deb1a70e2984a5c9623aa438098aa1ecfc99e6a6446da4ab7ec3402"
+  },
+  {
+    "id": "qe-c02-0035",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-004",
+    "parentQuestionId": "q-c02-047",
+    "chapterId": "c02",
+    "sectionId": "c02-s03",
+    "paragraphId": "c02-s03-p020-04575",
+    "readingUnitId": "c02-s03-p020-04575-r001-004",
+    "sentenceIds": [
+      "c02-s03-p020-04575-s001",
+      "c02-s03-p020-04575-s002",
+      "c02-s03-p020-04575-s003",
+      "c02-s03-p020-04575-s004"
+    ],
+    "passage": "We don’t know definitively whether most Americans assume pretending to be happy will make them happy. Even so, there is a famous experiment in which participants held a pen in their mouth so as to mimic either smiling or not smiling. They then saw several cartoons and rated how funny they were. What the researchers found was quite striking.",
+    "prompt": "What uncertainty does the author explicitly acknowledge?",
+    "promptZh": "作者明确承认了哪项不确定性？",
+    "options": [
+      "Whether the iPhone was ever mentioned in the book.",
+      "Whether tenure was relevant to the earlier study.",
+      "Whether any participant ever saw a cartoon.",
+      "Whether most Americans believe pretending to be happy will make them happy."
+    ],
+    "optionsZh": [
+      "书中是否提过 iPhone。",
+      "终身教职是否与前项研究相关。",
+      "是否有参与者看过漫画。",
+      "多数美国人是否相信假装幸福会让自己变幸福。"
+    ],
+    "answer": 3,
+    "type": "观点归属",
+    "support": "explicit",
+    "analyses": [
+      "A 前文已经出现 iPhone，不是这里承认的未知。",
+      "B 未知项不是教授研究。",
+      "C 后文漫画任务不等于此处未知的总体信念。",
+      "D We don’t know definitively whether most Americans assume... 保留了不确定程度、most Americans 的范围以及信念对象。不能删成大家都相信。"
+    ],
+    "vocabulary": [
+      {
+        "word": "definitively",
+        "meaning": "确定地；有定论地",
+        "context": "don’t know definitively 承认没有确定答案，不是证明该信念必然真或假。",
+        "example": "The small survey could not answer the question definitively.",
+        "collocations": [
+          "know definitively",
+          "answer definitively"
+        ]
+      }
+    ],
+    "translation": "我们并不能确定，多数美国人是否认为假装幸福就会使自己幸福。即便如此，有一个著名实验，让参与者嘴里叼着笔，以模拟微笑或不微笑。随后，他们观看几幅漫画，并评价其好笑程度。研究者的发现相当惊人。",
+    "evidenceTargetIds": [
+      "c02-s03-p020-04575-s001"
+    ],
+    "evidence": [
+      {
+        "quote": "We don’t know definitively whether most Americans assume pretending to be happy will make them happy.",
+        "sentenceIds": [
+          "c02-s03-p020-04575-s001"
+        ],
+        "sources": [
+          {
+            "pdfPage": 20,
+            "block": 3,
+            "bbox": [
+              76.99,
+              457.5,
+              535.01,
+              667.02
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "bf2515671498ed7977d22c995134993da412dc69faae05705091d8199929fa74"
+  },
+  {
+    "id": "qe-c02-0036",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-004",
+    "parentQuestionId": "q-c02-047",
+    "chapterId": "c02",
+    "sectionId": "c02-s03",
+    "paragraphId": "c02-s03-p020-04575",
+    "readingUnitId": "c02-s03-p020-04575-r001-004",
+    "sentenceIds": [
+      "c02-s03-p020-04575-s001",
+      "c02-s03-p020-04575-s002",
+      "c02-s03-p020-04575-s003",
+      "c02-s03-p020-04575-s004"
+    ],
+    "passage": "We don’t know definitively whether most Americans assume pretending to be happy will make them happy. Even so, there is a famous experiment in which participants held a pen in their mouth so as to mimic either smiling or not smiling. They then saw several cartoons and rated how funny they were. What the researchers found was quite striking.",
+    "prompt": "What were participants asked to mimic in the pen experiment?",
+    "promptZh": "持笔实验要求参与者模仿什么？",
+    "options": [
+      "Either smiling or not smiling, using a pen held in the mouth.",
+      "The working habits of successful film directors.",
+      "A professor receiving or losing tenure.",
+      "Different mobile-phone signal displays."
+    ],
+    "optionsZh": [
+      "把笔含在嘴里，模仿微笑或不微笑。",
+      "成功电影导演的工作习惯。",
+      "教授获得或被拒终身教职。",
+      "不同的手机信号显示。"
+    ],
+    "answer": 0,
+    "type": "细节",
+    "support": "explicit",
+    "analyses": [
+      "A held a pen in their mouth so as to mimic either smiling or not smiling 交代实验操作。",
+      "B 导演轶事不是这个实验的操作。",
+      "C 终身教职属于另一研究。",
+      "D 手机信号是前面类比故事，不是参与者的实验任务。这里只报告书中方法，不将其当作疗效建议。"
+    ],
+    "vocabulary": [
+      {
+        "word": "mimic",
+        "meaning": "模仿；模拟",
+        "context": "用持笔方式模拟微笑或不微笑的面部状态，不等于要求真实心情已改变。",
+        "example": "The student tried to mimic the rhythm of the speaker's voice.",
+        "collocations": [
+          "mimic a smile",
+          "mimic a movement"
+        ]
+      }
+    ],
+    "translation": "我们并不能确定，多数美国人是否认为假装幸福就会使自己幸福。即便如此，有一个著名实验，让参与者嘴里叼着笔，以模拟微笑或不微笑。随后，他们观看几幅漫画，并评价其好笑程度。研究者的发现相当惊人。",
+    "evidenceTargetIds": [
+      "c02-s03-p020-04575-s002"
+    ],
+    "evidence": [
+      {
+        "quote": "Even so, there is a famous experiment in which participants held a pen in their mouth so as to mimic either smiling or not smiling.",
+        "sentenceIds": [
+          "c02-s03-p020-04575-s002"
+        ],
+        "sources": [
+          {
+            "pdfPage": 20,
+            "block": 3,
+            "bbox": [
+              76.99,
+              457.5,
+              535.01,
+              667.02
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "f72c4d671cb011a0ffd2d1a380e599daaf4a1594400774d416ad64dfb16f834f"
+  },
+  {
+    "id": "qe-c02-0037",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-004",
+    "parentQuestionId": "q-c02-047",
+    "chapterId": "c02",
+    "sectionId": "c02-s03",
+    "paragraphId": "c02-s03-p020-04575",
+    "readingUnitId": "c02-s03-p020-04575-r001-004",
+    "sentenceIds": [
+      "c02-s03-p020-04575-s001",
+      "c02-s03-p020-04575-s002",
+      "c02-s03-p020-04575-s003",
+      "c02-s03-p020-04575-s004"
+    ],
+    "passage": "We don’t know definitively whether most Americans assume pretending to be happy will make them happy. Even so, there is a famous experiment in which participants held a pen in their mouth so as to mimic either smiling or not smiling. They then saw several cartoons and rated how funny they were. What the researchers found was quite striking.",
+    "prompt": "What does 'striking' indicate in the narrator's introduction to the findings?",
+    "promptZh": "作者引出结果时，striking 表示什么？",
+    "options": [
+      "Physically violent.",
+      "Impossible to describe in words.",
+      "Remarkable or surprising.",
+      "Unrelated to the research question."
+    ],
+    "optionsZh": [
+      "具有肢体暴力的。",
+      "无法用语言描述的。",
+      "引人注目或令人惊讶的。",
+      "与研究问题无关的。"
+    ],
+    "answer": 2,
+    "type": "语境词义",
+    "support": "explicit",
+    "analyses": [
+      "A striking 在评价发现时不是击打或暴力义。",
+      "B 并非无法描述，后文还会说明结果。",
+      "C quite striking 评价发现显著、令人惊讶；本句尚未给出具体结果。",
+      "D 没有无关之意，也不能仅凭 striking 宣称结果不可质疑或已普遍复现。"
+    ],
+    "vocabulary": [
+      {
+        "word": "striking",
+        "meaning": "引人注目的；显著的；令人惊讶的",
+        "context": "描述叙述者对结果的印象，不等于结果没有争议。",
+        "example": "The two accounts show a striking difference in emphasis.",
+        "collocations": [
+          "quite striking",
+          "a striking finding"
+        ]
+      }
+    ],
+    "translation": "我们并不能确定，多数美国人是否认为假装幸福就会使自己幸福。即便如此，有一个著名实验，让参与者嘴里叼着笔，以模拟微笑或不微笑。随后，他们观看几幅漫画，并评价其好笑程度。研究者的发现相当惊人。",
+    "evidenceTargetIds": [
+      "c02-s03-p020-04575-s004"
+    ],
+    "evidence": [
+      {
+        "quote": "What the researchers found was quite striking.",
+        "sentenceIds": [
+          "c02-s03-p020-04575-s004"
+        ],
+        "sources": [
+          {
+            "pdfPage": 20,
+            "block": 3,
+            "bbox": [
+              76.99,
+              457.5,
+              535.01,
+              667.02
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "8907a9819c581fa23e133708400f9f3f4a581234c2e93461c4475fad62b52920"
+  },
+  {
+    "id": "qe-c02-0038",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-004",
+    "parentQuestionId": "q-c02-048",
+    "chapterId": "c02",
+    "sectionId": "c02-s03",
+    "paragraphId": "c02-s03-p020-04575",
+    "readingUnitId": "c02-s03-p020-04575-r005-006",
+    "sentenceIds": [
+      "c02-s03-p020-04575-s005",
+      "c02-s03-p020-04575-s006"
+    ],
+    "passage": "Those in the “smile” condition rated the same cartoons as funnier than those in the non-smile condition! Just moving their facial muscles to look like a smiley face made them enjoy the cartoons more.",
+    "prompt": "What effect of the facial movement is reported in the cartoon experiment?",
+    "promptZh": "漫画实验报告这种面部运动产生了什么效果？",
+    "options": [
+      "It established a permanent cure for every form of sadness.",
+      "It made participants enjoy the cartoons more in that experiment.",
+      "It proved all attempts at replication would succeed.",
+      "It changed the content of the cartoons shown to each group."
+    ],
+    "optionsZh": [
+      "它确立了治愈所有悲伤的永久办法。",
+      "它使该实验中的参与者更享受漫画。",
+      "它证明所有重复实验都会成功。",
+      "它改变了每组观看的漫画内容。"
+    ],
+    "answer": 1,
+    "type": "细节",
+    "support": "explicit",
+    "analyses": [
+      "A 结果针对看漫画的感受，不是任何悲伤的永久疗法。",
+      "B made them enjoy the cartoons more 是本句报告的实验内效果。",
+      "C 单次结果不能保证复现，后文还介绍混合的复现情况。",
+      "D 句子描述面部动作，不是更换漫画；前句还明确 same cartoons。"
+    ],
+    "vocabulary": [
+      {
+        "word": "facial muscles",
+        "meaning": "面部肌肉",
+        "context": "指用来形成类似笑脸的面部运动，不能直接替代为整个人生幸福。",
+        "example": "The actor relaxed his facial muscles before the next scene.",
+        "collocations": [
+          "move facial muscles",
+          "facial muscle movement"
+        ]
+      }
+    ],
+    "translation": "处于“微笑”条件的参与者，认为同样的漫画比不微笑条件的参与者认为的更好笑！仅仅移动面部肌肉，使自己看起来面带笑容，就让他们更喜欢这些漫画。",
+    "evidenceTargetIds": [
+      "c02-s03-p020-04575-s006"
+    ],
+    "evidence": [
+      {
+        "quote": "Just moving their facial muscles to look like a smiley face made them enjoy the cartoons more.",
+        "sentenceIds": [
+          "c02-s03-p020-04575-s006"
+        ],
+        "sources": [
+          {
+            "pdfPage": 20,
+            "block": 3,
+            "bbox": [
+              76.99,
+              457.5,
+              535.01,
+              667.02
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "ced752e984cc06f103280b4571a6277baa79747241a7fe162e9b6ad57d613b57"
+  },
+  {
+    "id": "qe-c02-0039",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-004",
+    "parentQuestionId": "q-c02-007",
+    "chapterId": "c02",
+    "sectionId": "c02-s03",
+    "paragraphId": "c02-s03-p020-04575",
+    "readingUnitId": "c02-s03-p020-04575-r007-009",
+    "sentenceIds": [
+      "c02-s03-p020-04575-s007",
+      "c02-s03-p020-04575-s008",
+      "c02-s03-p020-04575-s009"
+    ],
+    "passage": "Some failed to replicate the original findings, though others were able to replicate them. Nonetheless, the original experiment has been mentioned in major news outlets. As a result, many believe that when you are sad, you should put on a happy face.",
+    "prompt": "What does 'Nonetheless' mark when the author mentions major news outlets?",
+    "promptZh": "提到主流新闻媒体时，Nonetheless 标示什么关系？",
+    "options": [
+      "The original experiment was never reported anywhere.",
+      "Media coverage proves every replication succeeded.",
+      "The news outlets performed the original experiment themselves.",
+      "The experiment received coverage despite mixed replication results."
+    ],
+    "optionsZh": [
+      "原实验从未在任何地方报道。",
+      "媒体报道证明每次复现都成功。",
+      "新闻机构亲自开展了原实验。",
+      "尽管复现结果不一，原实验仍得到报道。"
+    ],
+    "answer": 3,
+    "type": "逻辑关系",
+    "support": "explicit",
+    "analyses": [
+      "A has been mentioned 与从未报道相反。",
+      "B 报道与科学复现成功是两个问题，不能互相替代。",
+      "C mentioned in 不等于由媒体亲自实验。",
+      "D Nonetheless 承接前句部分失败、部分成功的复现情况，构成让步转折。"
+    ],
+    "vocabulary": [
+      {
+        "word": "Nonetheless",
+        "meaning": "尽管如此；然而仍然",
+        "context": "将混合复现情况与原实验仍获媒体报道连接，不抹去研究限制。",
+        "example": "The route was difficult; nonetheless, the walkers continued carefully.",
+        "collocations": [
+          "nonetheless remain",
+          "nonetheless be mentioned"
+        ]
+      }
+    ],
+    "translation": "一些人未能复现原始发现，另一些人则成功了。尽管如此，主流新闻媒体一直提到最初的实验。结果，许多人相信，悲伤时就应该摆出一张快乐的脸。",
+    "evidenceTargetIds": [
+      "c02-s03-p020-04575-s008"
+    ],
+    "evidence": [
+      {
+        "quote": "Some failed to replicate the original findings, though others were able to replicate them. Nonetheless, the original experiment has been mentioned in major news outlets.",
+        "sentenceIds": [
+          "c02-s03-p020-04575-s007",
+          "c02-s03-p020-04575-s008"
+        ],
+        "sources": [
+          {
+            "pdfPage": 20,
+            "block": 3,
+            "bbox": [
+              76.99,
+              457.5,
+              535.01,
+              667.02
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "2bceab66c395323d8a35ddf7b260f89df040afcf2d583404fbfb9769bdd92eb4"
+  },
+  {
+    "id": "qe-c02-0040",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-004",
+    "parentQuestionId": "q-c02-007",
+    "chapterId": "c02",
+    "sectionId": "c02-s03",
+    "paragraphId": "c02-s03-p020-04575",
+    "readingUnitId": "c02-s03-p020-04575-r007-009",
+    "sentenceIds": [
+      "c02-s03-p020-04575-s007",
+      "c02-s03-p020-04575-s008",
+      "c02-s03-p020-04575-s009"
+    ],
+    "passage": "Some failed to replicate the original findings, though others were able to replicate them. Nonetheless, the original experiment has been mentioned in major news outlets. As a result, many believe that when you are sad, you should put on a happy face.",
+    "prompt": "What belief does the author link to the experiment's media coverage?",
+    "promptZh": "作者把实验的媒体报道与哪种流行看法联系起来？",
+    "options": [
+      "When sad, people should put on a happy face.",
+      "All cartoons are equally funny to every person.",
+      "Only scientists ever experience sadness.",
+      "Every published experiment has identical replication results."
+    ],
+    "optionsZh": [
+      "难过时应该摆出笑脸。",
+      "所有漫画对每个人都同样好笑。",
+      "只有科学家会难过。",
+      "每个已发表实验的复现结果都相同。"
+    ],
+    "answer": 0,
+    "type": "观点归属",
+    "support": "explicit",
+    "analyses": [
+      "A As a result, many believe... 明示报道之后许多人形成的看法；是信念的归属，不是作者保证策略对所有人有效。",
+      "B 没有所有漫画、每个人的统一判断。",
+      "C many 的信念不支持只有科学家难过。",
+      "D 前句恰说复现结果不同，不能改成全部一致。"
+    ],
+    "vocabulary": [
+      {
+        "word": "put on a happy face",
+        "meaning": "摆出笑脸；表现得开心",
+        "context": "many believe 的内容，不能自动当作改善所有悲伤的有效处方。",
+        "example": "In the play, the character puts on a happy face to hide his disappointment.",
+        "collocations": [
+          "put on a happy face",
+          "put on a cheerful expression"
+        ]
+      }
+    ],
+    "translation": "一些人未能复现原始发现，另一些人则成功了。尽管如此，主流新闻媒体一直提到最初的实验。结果，许多人相信，悲伤时就应该摆出一张快乐的脸。",
+    "evidenceTargetIds": [
+      "c02-s03-p020-04575-s009"
+    ],
+    "evidence": [
+      {
+        "quote": "Some failed to replicate the original findings, though others were able to replicate them. Nonetheless, the original experiment has been mentioned in major news outlets. As a result, many believe that when you are sad, you should put on a happy face.",
+        "sentenceIds": [
+          "c02-s03-p020-04575-s007",
+          "c02-s03-p020-04575-s008",
+          "c02-s03-p020-04575-s009"
+        ],
+        "sources": [
+          {
+            "pdfPage": 20,
+            "block": 3,
+            "bbox": [
+              76.99,
+              457.5,
+              535.01,
+              667.02
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "0b86450e36cc6598d6e9e0fd881c2c8088c6827ae36f28421d871893a5abc54e"
+  },
+  {
+    "id": "qe-c02-0041",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-004",
+    "parentQuestionId": "q-c02-014",
+    "chapterId": "c02",
+    "sectionId": "c02-s03",
+    "paragraphId": "c02-s03-p020-06720",
+    "readingUnitId": "c02-s03-p020-06720-r001-004",
+    "sentenceIds": [
+      "c02-s03-p020-06720-s001",
+      "c02-s03-p020-06720-s002",
+      "c02-s03-p020-06720-s003",
+      "c02-s03-p020-06720-s004"
+    ],
+    "passage": "There have also been many experiments in which participants were asked to behave like extraverts. Afterward, they reported more happiness than those who were asked to behave normally. Surprisingly, the intervention worked even for natural introverts. Similarly, when people were asked to talk to a stranger (i.e., acting like an extravert), people felt far happier than they had anticipated.",
+    "prompt": "What behaviour were participants instructed to adopt in the experiments mentioned next?",
+    "promptZh": "接下来提到的实验要求参与者采取什么行为？",
+    "options": [
+      "Avoiding all interactions with strangers.",
+      "Reporting no emotion under any circumstances.",
+      "Behaving like extraverts.",
+      "Changing their personality permanently before the study."
+    ],
+    "optionsZh": [
+      "避免与陌生人的所有互动。",
+      "在任何情况下都报告没有情绪。",
+      "表现得像外向者。",
+      "在研究前永久改变人格。"
+    ],
+    "answer": 2,
+    "type": "细节",
+    "support": "explicit",
+    "analyses": [
+      "A asked to behave like extraverts 不等于回避所有互动。",
+      "B 没有要求报告毫无情绪。",
+      "C 本句直接说明要求采取类似外向者的行为。",
+      "D behave like 是行为操作，不是证明人格永久改变；不能把实验任务夸大为人格置换。"
+    ],
+    "vocabulary": [
+      {
+        "word": "extraverts",
+        "meaning": "外向者",
+        "context": "behave like extraverts 指按要求采取类似外向者的行为，不要求参与者天生就是外向者。",
+        "example": "The discussion included both introverts and extraverts.",
+        "collocations": [
+          "behave like extraverts",
+          "natural extraverts"
+        ]
+      }
+    ],
+    "translation": "还有许多实验要求参与者表现得像外向者。事后，他们报告的幸福感比被要求正常表现的人更高。令人惊讶的是，这种干预甚至对天性内向者也有效。同样，当人们被要求与陌生人交谈，也就是表现得像外向者时，他们感到的幸福远远超过自己事先的预期。",
+    "evidenceTargetIds": [
+      "c02-s03-p020-06720-s001"
+    ],
+    "evidence": [
+      {
+        "quote": "There have also been many experiments in which participants were asked to behave like extraverts.",
+        "sentenceIds": [
+          "c02-s03-p020-06720-s001"
+        ],
+        "sources": [
+          {
+            "pdfPage": 20,
+            "block": 4,
+            "bbox": [
+              76.99,
+              672,
+              535.01,
+              706.02
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "b2befd15dc46124abb091d89ad9e6da85c7f188587bc6444d387236061d2ab4f"
   }
 ]
