@@ -1,0 +1,983 @@
+{
+  "schemaVersion": 1,
+  "id": "evidence-018",
+  "status": "authored",
+  "evidenceRule": "frozen-target-sentence",
+  "questions": [
+    {
+      "order": 1,
+      "prompt": "What does the capitalised 'AND' require in the researchers' additional question?",
+      "promptZh": "研究者补充问题中大写 AND 要求什么？",
+      "options": [
+        "At least one of the three life qualities.",
+        "A choice between happiness and meaning only.",
+        "Psychological richness with neither other quality.",
+        "Happiness, meaning, and psychological richness in the same life."
+      ],
+      "optionsZh": [
+        "三种生活品质至少一种。",
+        "仅在幸福与意义之间选一种。",
+        "仅心理丰富，没有另两者。",
+        "同一个人生同时有幸福、意义及心理丰富。"
+      ],
+      "answer": 3,
+      "type": "逻辑关系",
+      "support": "explicit",
+      "analyses": [
+        "A AND 不是 OR，至少一种不足。",
+        "B 没有把心理丰富排除。",
+        "C 与三个条件同时满足相反。",
+        "D 大写强调交集，后文 two who did it all 是三者兼具，不是把各类人数相加。"
+      ],
+      "vocabulary": [
+        {
+          "word": "AND",
+          "meaning": "并且；同时具备（连接条件）",
+          "context": "这里强调三个条件的交集，与任一条件即可的 or 区分。",
+          "example": "The room must be quiet and well lit.",
+          "collocations": [
+            "happy, meaningful, AND rich",
+            "meet A and B"
+          ]
+        }
+      ],
+      "evidenceQuote": "We also looked at how many of them led a happy, meaningful, AND psychologically rich life. There were two who did it all: Nicholas Clinch (lawyer, mountaineer, and onetime executive director of the Sierra Club) and Simon Ramo (engineer, inventor, and author). As can be seen in the Venn diagram below, ten people led a rich and meaningful life, eight people led a happy and meaningful life, and three led a rich and happy life."
+    },
+    {
+      "order": 2,
+      "prompt": "Which pair is reported as having ten people in the quoted comparison?",
+      "promptZh": "该比较中，哪一对生活品质报告为十人？",
+      "options": [
+        "Richness and meaning.",
+        "Happiness and meaning.",
+        "Richness and happiness.",
+        "Happiness and neither other quality."
+      ],
+      "optionsZh": [
+        "心理丰富与意义。",
+        "幸福与意义。",
+        "心理丰富与幸福。",
+        "幸福且没有另两种品质。"
+      ],
+      "answer": 0,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A ten people led a rich and meaningful life 逐字给出对应。",
+        "B 这对是 eight，不是 ten。",
+        "C 这对是 three，不是 ten。",
+        "D 原句并未给这个排他类别的十人结果；成对交集不能擅改成只有两者。"
+      ],
+      "vocabulary": [
+        {
+          "word": "Venn diagram",
+          "meaning": "维恩图；展示集合交叠的图",
+          "context": "用来展示不同生活类别重叠；成对交集可以包括三者兼具的人。",
+          "example": "A Venn diagram shows which features the two groups share.",
+          "collocations": [
+            "in the Venn diagram",
+            "overlap in a Venn diagram"
+          ]
+        }
+      ],
+      "evidenceQuote": "We also looked at how many of them led a happy, meaningful, AND psychologically rich life. There were two who did it all: Nicholas Clinch (lawyer, mountaineer, and onetime executive director of the Sierra Club) and Simon Ramo (engineer, inventor, and author). As can be seen in the Venn diagram below, ten people led a rich and meaningful life, eight people led a happy and meaningful life, and three led a rich and happy life."
+    },
+    {
+      "order": 3,
+      "prompt": "Why does 'That said' introduce a limitation of the New York Times sample?",
+      "promptZh": "That said 为何引出纽约时报样本的局限？",
+      "options": [
+        "The obituaries contain no information about individual lives.",
+        "The previous ratings were all secretly invented.",
+        "The newspaper tends to feature extraordinary people who are not representative of the general population.",
+        "The newspaper only prints the lives of its research assistants."
+      ],
+      "optionsZh": [
+        "讣告完全没有个人人生信息。",
+        "此前评分全部暗中编造。",
+        "报纸往往报道非凡人物，不能代表一般人口。",
+        "报纸只刊登研究助理的生平。"
+      ],
+      "answer": 2,
+      "type": "逻辑关系",
+      "support": "explicit",
+      "analyses": [
+        "A 局限在代表性，不是零信息。",
+        "B 文中未否定数据真实性。",
+        "C extraordinary 与 not representative 说明让步转向。",
+        "D 评分者不等于被报道人物；tend to 不等于所有讣告无例外只报名人。"
+      ],
+      "vocabulary": [
+        {
+          "word": "feature",
+          "meaning": "重点介绍；刊载人物",
+          "context": "这里是报道某类人的动词，不是面部特征或研究特质名词。",
+          "example": "The magazine often features local artists.",
+          "collocations": [
+            "feature extraordinary individuals",
+            "people featured in obituaries"
+          ]
+        }
+      ],
+      "evidenceQuote": "That said, New York Times obituaries tend to feature extraordinary individuals, like Muhammad Ali. Certainly, their lives are not representative of the general population. So, next, we hired three other research assistants to code 116 obituaries found in The Daily Progress, a local newspaper in Charlottesville, Virginia, in June, July, and August 2016. We again made sure that the ratings were reliable before analyzing the data."
+    },
+    {
+      "order": 4,
+      "prompt": "What was checked before the Daily Progress data were analysed?",
+      "promptZh": "分析 Daily Progress 数据前，研究者检查了什么？",
+      "options": [
+        "That all profiles had exactly the same length.",
+        "That the ratings were reliable.",
+        "That every subject met the richness threshold.",
+        "That the local sample matched national demographics perfectly."
+      ],
+      "optionsZh": [
+        "所有人物介绍字数完全一致。",
+        "评分具有可靠性。",
+        "每位对象都达到丰富阈值。",
+        "地方样本与全国人口特征完美一致。"
+      ],
+      "answer": 1,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A 未说字数统一，后文反而讨论篇幅差异。",
+        "B made sure...ratings were reliable 是明确步骤。",
+        "C 可靠性检查不等于要求人人达标。",
+        "D 可靠评分不自动保证总体代表性；before 指检查在分析之前。"
+      ],
+      "vocabulary": [
+        {
+          "word": "reliable",
+          "meaning": "可靠的；具有可靠性的",
+          "context": "修饰评分质量，不等于证明样本对全人口完全代表。",
+          "example": "Reliable measurements are important before comparing results.",
+          "collocations": [
+            "ratings were reliable",
+            "reliable data"
+          ]
+        }
+      ],
+      "evidenceQuote": "That said, New York Times obituaries tend to feature extraordinary individuals, like Muhammad Ali. Certainly, their lives are not representative of the general population. So, next, we hired three other research assistants to code 116 obituaries found in The Daily Progress, a local newspaper in Charlottesville, Virginia, in June, July, and August 2016. We again made sure that the ratings were reliable before analyzing the data."
+    },
+    {
+      "order": 5,
+      "prompt": "What is being counted by the question about 'these Virginians'?",
+      "promptZh": "these Virginians 的问句在计算什么？",
+      "options": [
+        "Every resident of Virginia who has ever travelled abroad.",
+        "Only the research assistants born in Virginia.",
+        "The profiled people perceived to have led psychologically rich lives.",
+        "The number of newspapers published in Virginia."
+      ],
+      "optionsZh": [
+        "曾出国的全部弗吉尼亚居民。",
+        "仅出生在弗吉尼亚的研究助理。",
+        "被介绍者中，被评为心理丰富的人数。",
+        "弗吉尼亚发行报纸的数量。"
+      ],
+      "answer": 2,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A these 回指本研究被介绍的人，不能推广全部居民。",
+        "B 助理不是被评价的人生对象。",
+        "C were perceived 保留他评分类，不是对象本人直接自报。",
+        "D 问人数与生活类别，不是报纸数量。"
+      ],
+      "vocabulary": [
+        {
+          "word": "perceived",
+          "meaning": "被认为；被判断为",
+          "context": "在此指根据讣告评价人生，不是直接观察其每一段生活。",
+          "example": "Her contribution was perceived to be important by the reviewers.",
+          "collocations": [
+            "were perceived to have",
+            "perceived as"
+          ]
+        }
+      ],
+      "evidenceQuote": "How many of these Virginians were perceived to have led a psychologically rich life? Using the same criterion (an average of 3.67 or higher on the 1 to 5 point scale), only five out of 116 (4.3 percent) qualified. Is it true that people featured in The Daily Progress are less likely to have led a psychologically rich life? It could be that these folks led less adventurous lives than the cosmopolitans featured in The New York Times."
+    },
+    {
+      "order": 6,
+      "prompt": "What does 'Is it true that ...?' do after the lower local-sample result?",
+      "promptZh": "地方样本较低结果后的 Is it true that ...? 起什么作用？",
+      "options": [
+        "It declares that every local resident certainly lived less richly.",
+        "It proves that local newspapers cause uninteresting lives.",
+        "It dismisses the comparison without considering it.",
+        "It questions whether the lower rating necessarily reflects less-rich actual lives."
+      ],
+      "optionsZh": [
+        "断言每位地方居民一定过得不丰富。",
+        "证明地方报纸导致无趣人生。",
+        "不予考虑便抛弃比较。",
+        "追问较低评分是否必然反映实际生活较不丰富。"
+      ],
+      "answer": 3,
+      "type": "作者意图",
+      "support": "explicit",
+      "analyses": [
+        "A 问句不是对所有居民的确定结论。",
+        "B 文本样本比较并不证明报纸造成生活结果。",
+        "C 后面提出可能解释，仍在考察。",
+        "D 反问式研究问题区分评分结果与生活本身，不把评估差异直接当因果事实。"
+      ],
+      "vocabulary": [
+        {
+          "word": "less likely",
+          "meaning": "可能性较低；较不容易",
+          "context": "这里问被报道者是否真的较少过这种生活，不能读成不可能。",
+          "example": "A shorter report may be less likely to include background details.",
+          "collocations": [
+            "less likely to have",
+            "Is it true that"
+          ]
+        }
+      ],
+      "evidenceQuote": "How many of these Virginians were perceived to have led a psychologically rich life? Using the same criterion (an average of 3.67 or higher on the 1 to 5 point scale), only five out of 116 (4.3 percent) qualified. Is it true that people featured in The Daily Progress are less likely to have led a psychologically rich life? It could be that these folks led less adventurous lives than the cosmopolitans featured in The New York Times."
+    },
+    {
+      "order": 7,
+      "prompt": "How strongly is the 'less adventurous lives' explanation presented?",
+      "promptZh": "较少冒险生活这一解释的语气有多强？",
+      "options": [
+        "As one possibility, signalled by 'It could be'.",
+        "As a proven cause applying to every Virginian.",
+        "As a quotation directly supplied by all the deceased subjects.",
+        "As proof that obituary length is identical in the two newspapers."
+      ],
+      "optionsZh": [
+        "由 It could be 标出的可能解释。",
+        "适用于每位弗吉尼亚人的已证实原因。",
+        "由所有逝者直接提供的引语。",
+        "证明两份报纸讣告长度相同。"
+      ],
+      "answer": 0,
+      "type": "语气与范围",
+      "support": "explicit",
+      "analyses": [
+        "A could 保留可能性，不能擅升为确定结论。",
+        "B 没有 every 或已证明因果。",
+        "C 不是逝者直接访谈。",
+        "D 这句关于生活冒险程度，并未证明篇幅一致；后面还有另一解释。"
+      ],
+      "vocabulary": [
+        {
+          "word": "cosmopolitans",
+          "meaning": "见多识广、具有世界眼光的人",
+          "context": "本句指纽约时报报道的人物形象，不代表每位纽约人或持某政治立场者。",
+          "example": "The travellers described themselves as cosmopolitans at home in many cities.",
+          "collocations": [
+            "cosmopolitans featured in",
+            "a cosmopolitan outlook"
+          ]
+        }
+      ],
+      "evidenceQuote": "How many of these Virginians were perceived to have led a psychologically rich life? Using the same criterion (an average of 3.67 or higher on the 1 to 5 point scale), only five out of 116 (4.3 percent) qualified. Is it true that people featured in The Daily Progress are less likely to have led a psychologically rich life? It could be that these folks led less adventurous lives than the cosmopolitans featured in The New York Times."
+    },
+    {
+      "order": 8,
+      "prompt": "What is noteworthy about the sixty-six people mentioned?",
+      "promptZh": "关于所提六十六人，值得注意的是什么？",
+      "options": [
+        "They all qualified as psychologically rich.",
+        "They were rated as having led happy lives, representing 56.9 percent in that sample.",
+        "They were all the newspaper's obituary writers.",
+        "They were excluded before any ratings were made."
+      ],
+      "optionsZh": [
+        "他们都被归为心理丰富。",
+        "他们被评为生活幸福，占该样本56.9%。",
+        "他们都是报纸讣告作者。",
+        "他们都在评分前被排除。"
+      ],
+      "answer": 1,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A happy 不能替换为 psychologically rich。",
+        "B sixty-six 与56.9 percent 对应幸福类别。",
+        "C 被介绍的人不等于文本作者。",
+        "D 原文明示 rated，不是被排除；不能把样本比例推为全州比例。"
+      ],
+      "vocabulary": [
+        {
+          "word": "noteworthy",
+          "meaning": "值得注意的",
+          "context": "引出值得关注的幸福评分结果，不是说前面的篇幅局限已经消失。",
+          "example": "The difference between the two reports is noteworthy.",
+          "collocations": [
+            "it is noteworthy that",
+            "a noteworthy finding"
+          ]
+        }
+      ],
+      "evidenceQuote": "An alternative explanation is that the obituaries in The Daily Progress are shorter than those in The New York Times, leaving out potentially interesting details. On the other hand, it is noteworthy that sixty-six (or 56.9 percent of subjects) were rated to have led a happy life. Likewise, ninety-six (82.8 percent) were rated to have led a meaningful life."
+    },
+    {
+      "order": 9,
+      "prompt": "What relationship does 'Likewise' establish before the meaningful-life figure?",
+      "promptZh": "意义生活数字前的 Likewise 建立什么关系？",
+      "options": [
+        "It reverses the meaning of the preceding happiness result.",
+        "It says exactly the same people must be in both categories.",
+        "It adds a parallel finding for another rated life dimension.",
+        "It replaces the ninety-six count with sixty-six."
+      ],
+      "optionsZh": [
+        "推翻前面的幸福结果。",
+        "说明两类必然是完全同一批人。",
+        "为另一生活维度补入平行结果。",
+        "把九十六人数改为六十六。"
+      ],
+      "answer": 2,
+      "type": "逻辑关系",
+      "support": "explicit",
+      "analyses": [
+        "A Likewise 是平行补充，不是反转。",
+        "B 平行列结果不能推出人群完全相同。",
+        "C 从幸福评分转向有意义评分，两者都报告对应人数比例。",
+        "D 本句给 ninety-six 与82.8%，不可混淆上一类数字。"
+      ],
+      "vocabulary": [
+        {
+          "word": "Likewise",
+          "meaning": "同样地；类似地",
+          "context": "连接平行的评级发现，不是要求人数或成员完全相同。",
+          "example": "The first team improved its score. Likewise, the second team performed better.",
+          "collocations": [
+            "Likewise, ... were rated",
+            "likewise reported"
+          ]
+        }
+      ],
+      "evidenceQuote": "An alternative explanation is that the obituaries in The Daily Progress are shorter than those in The New York Times, leaving out potentially interesting details. On the other hand, it is noteworthy that sixty-six (or 56.9 percent of subjects) were rated to have led a happy life. Likewise, ninety-six (82.8 percent) were rated to have led a meaningful life."
+    },
+    {
+      "order": 10,
+      "prompt": "What shared limitation motivates extending the obituary research beyond the first two newspapers?",
+      "promptZh": "前两份报纸的哪项共同局限促使研究向外扩展？",
+      "options": [
+        "They mainly feature Americans.",
+        "They only publish profiles of athletes.",
+        "Neither newspaper permits any ratings.",
+        "Both newspapers are based in Singapore."
+      ],
+      "optionsZh": [
+        "它们主要报道美国人。",
+        "它们只刊登运动员介绍。",
+        "两份报纸都不允许评分。",
+        "两份报纸都位于新加坡。"
+      ],
+      "answer": 0,
+      "type": "逻辑关系",
+      "support": "explicit",
+      "analyses": [
+        "A mainly feature Americans 引出美国之外的问题。",
+        "B 没有只限运动员。",
+        "C 已经完成评分，不存在该禁令。",
+        "D 新加坡报纸是随后加入的海峡时报，不是前两份。mainly 不等于绝无其他国籍。"
+      ],
+      "vocabulary": [
+        {
+          "word": "mainly",
+          "meaning": "主要地；大多",
+          "context": "限定报道人群的倾向，不是100%绝对排除其他人。",
+          "example": "The collection mainly contains letters from former students.",
+          "collocations": [
+            "mainly feature",
+            "mainly Americans"
+          ]
+        }
+      ],
+      "evidenceQuote": "As interesting as these findings are, The New York Times and The Daily Progress mainly feature Americans. We wondered if people lead more psychologically rich lives outside of the U.S. We had two other research assistants code 111 obituaries in The Straits Times, a Singaporean newspaper. How many of the Straits Times folks were rated to have led a psychologically rich life? Forty!"
+    },
+    {
+      "order": 11,
+      "prompt": "What does the question about the Straits Times people ask the researchers to identify?",
+      "promptZh": "关于海峡时报人物的问句要求找出什么？",
+      "options": [
+        "How many people read the newspaper each week.",
+        "Which subjects had the highest bank balances.",
+        "How many research assistants were Singaporean.",
+        "The number of profiled lives rated as psychologically rich."
+      ],
+      "optionsZh": [
+        "每周多少人读该报。",
+        "哪些对象银行余额最高。",
+        "多少研究助理是新加坡人。",
+        "被介绍人生中被评为心理丰富的数量。"
+      ],
+      "answer": 3,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A folks 指讣告被介绍的人，不是报纸读者。",
+        "B rich 在此心理含义，非财富排名。",
+        "C 问的是被评人生，不是助理国籍。",
+        "D how many 与 were rated...psychologically rich 明确计数目标。"
+      ],
+      "vocabulary": [
+        {
+          "word": "were rated",
+          "meaning": "被评分；被评为",
+          "context": "是研究者依据讣告作出的评级，不是人物自己的在线答卷。",
+          "example": "The accounts were rated independently by two readers.",
+          "collocations": [
+            "were rated to have led",
+            "lives were rated"
+          ]
+        }
+      ],
+      "evidenceQuote": "As interesting as these findings are, The New York Times and The Daily Progress mainly feature Americans. We wondered if people lead more psychologically rich lives outside of the U.S. We had two other research assistants code 111 obituaries in The Straits Times, a Singaporean newspaper. How many of the Straits Times folks were rated to have led a psychologically rich life? Forty!"
+    },
+    {
+      "order": 12,
+      "prompt": "What count is given by the standalone reply 'Forty!'?",
+      "promptZh": "独立回答 Forty! 给出的是什么计数？",
+      "options": [
+        "Forty research assistants reading each newspaper.",
+        "Forty Straits Times profiles rated as psychologically rich.",
+        "Forty happy lives in the Daily Progress sample.",
+        "Forty countries represented in the newspaper study."
+      ],
+      "optionsZh": [
+        "每份报纸由四十名助理阅读。",
+        "海峡时报人物中四十个被评为心理丰富。",
+        "Daily Progress 中四十个幸福人生。",
+        "报纸研究涵盖四十个国家。"
+      ],
+      "answer": 1,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A 两名助理与四十个被评人生不能混同。",
+        "B Forty 回答紧邻的心理丰富人数问题，按原页保留。",
+        "C 不是另一报纸的幸福类别。",
+        "D 未给四十国家；原页111份、40人与后文34.5%不能一致换算，不自行改数或据此反推分母。"
+      ],
+      "vocabulary": [
+        {
+          "word": "Forty",
+          "meaning": "四十",
+          "context": "在此省略重复的主语与谓语，回答前句多少被评为心理丰富；不是比例。",
+          "example": "Forty students signed up for the reading group.",
+          "collocations": [
+            "Forty!",
+            "forty profiles"
+          ]
+        }
+      ],
+      "evidenceQuote": "As interesting as these findings are, The New York Times and The Daily Progress mainly feature Americans. We wondered if people lead more psychologically rich lives outside of the U.S. We had two other research assistants code 111 obituaries in The Straits Times, a Singaporean newspaper. How many of the Straits Times folks were rated to have led a psychologically rich life? Forty!"
+    },
+    {
+      "order": 13,
+      "prompt": "What comparison is explicitly made with the Straits Times richness percentage?",
+      "promptZh": "关于海峡时报心理丰富比例，原文明示哪种比较？",
+      "options": [
+        "It is the same as in the two American newspapers.",
+        "It is lower than in both earlier newspapers.",
+        "It is far higher than in the first two newspapers.",
+        "It measures Singapore's total population rather than profiled lives."
+      ],
+      "optionsZh": [
+        "与两份美国报纸相同。",
+        "低于之前两份报纸。",
+        "远高于之前两份报纸。",
+        "测量新加坡全体人口而非被介绍人生。"
+      ],
+      "answer": 2,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A far more 排除相同。",
+        "B 比较方向反了。",
+        "C 原文34.5 percent、far more than in the first two newspapers 明示比较，不要求自行换算。",
+        "D 范围是讣告人物，不是全国总体；原书前段111份、40人与该百分比不一致，保留并注明而不改写分母。"
+      ],
+      "vocabulary": [
+        {
+          "word": "That is",
+          "meaning": "也就是说；换言之",
+          "context": "此处将作者刚给的数量改以比例陈述，但原书数字存在换算不一致，不据此自行纠正。",
+          "example": "The task is optional. That is, you may choose whether to do it.",
+          "collocations": [
+            "That is, ...",
+            "that is to say"
+          ]
+        }
+      ],
+      "evidenceQuote": "That is, 34.5 percent of the people featured in Straits Times obituaries were rated to have led a rich life, far more than in the first two newspapers. Meanwhile, twenty-five (21.6 percent) were rated to have led a happy life, and sixty-five (56.5 percent) were rated to have led a meaningful life. Eight individuals (6.9 percent) were deemed to have it all: happy, meaningful, AND psychologically rich, including I. M. Pei (architect) and Tow Siang Hwa (gynecologist and pastor)."
+    },
+    {
+      "order": 14,
+      "prompt": "Which pairing correctly matches the two life categories reported with 'Meanwhile'?",
+      "promptZh": "Meanwhile 所引两类生活，哪项人数对应正确？",
+      "options": [
+        "Twenty-five happy lives and sixty-five meaningful lives.",
+        "Sixty-five happy lives and twenty-five meaningful lives.",
+        "Twenty-five psychologically rich lives and sixty-five happy lives.",
+        "Sixty-five lives that necessarily met all three criteria."
+      ],
+      "optionsZh": [
+        "幸福二十五人，有意义六十五人。",
+        "幸福六十五人，有意义二十五人。",
+        "心理丰富二十五人，幸福六十五人。",
+        "六十五人必然同时满足三项标准。"
+      ],
+      "answer": 0,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A twenty-five...happy 与 sixty-five...meaningful 正确配对。",
+        "B 两类人数互换。",
+        "C 把幸福换成丰富，并错配另一人数。",
+        "D 单类意义人数不等于三者交集；原书所给21.6%与56.5%按页保留，不反推统一分母。"
+      ],
+      "vocabulary": [
+        {
+          "word": "Meanwhile",
+          "meaning": "与此同时；另一方面（补述并列结果）",
+          "context": "此处补述其他维度的评级，不是说幸福与意义必须同时发生在同一人身上。",
+          "example": "Meanwhile, the second group reported a different pattern.",
+          "collocations": [
+            "Meanwhile, ... were rated",
+            "meanwhile reported"
+          ]
+        }
+      ],
+      "evidenceQuote": "That is, 34.5 percent of the people featured in Straits Times obituaries were rated to have led a rich life, far more than in the first two newspapers. Meanwhile, twenty-five (21.6 percent) were rated to have led a happy life, and sixty-five (56.5 percent) were rated to have led a meaningful life. Eight individuals (6.9 percent) were deemed to have it all: happy, meaningful, AND psychologically rich, including I. M. Pei (architect) and Tow Siang Hwa (gynecologist and pastor)."
+    },
+    {
+      "order": 15,
+      "prompt": "What larger issue does the author return to at this point?",
+      "promptZh": "作者此时回到哪个更大议题？",
+      "options": [
+        "Whether meaningful lives require the same occupation.",
+        "Whether every rich person must be wealthy.",
+        "Whether obituary writers should avoid ordinary people.",
+        "Whether a good life is possible without happiness or meaning."
+      ],
+      "optionsZh": [
+        "有意义人生是否要求同一职业。",
+        "心理丰富者是否必须富有。",
+        "讣告作者是否应避开普通人。",
+        "没有幸福或意义，是否仍可能有美好生活。"
+      ],
+      "answer": 3,
+      "type": "主旨",
+      "support": "explicit",
+      "analyses": [
+        "A 未限定共同职业。",
+        "B rich 的心理含义不能换成财富。",
+        "C 本句不提出讣告编辑政策。",
+        "D big question 后完整问句明确命题；possible 不是说人人都缺少幸福和意义。"
+      ],
+      "vocabulary": [
+        {
+          "word": "brings us back",
+          "meaning": "使我们回到；重新引向前述问题",
+          "context": "表示论述回扣，而不是现实地点上的返回。",
+          "example": "This example brings us back to the original question.",
+          "collocations": [
+            "bring us back to",
+            "the big question"
+          ]
+        }
+      ],
+      "evidenceQuote": "It brings us back to the big question: Is it possible to lead a good life without happiness or meaning? Goldmund’s life, for example, was probably rated low in happiness and meaning, but high in psychological richness. The relative independence of the three forms of a good life evident in the obituary studies shows that it is possible to lead a psychologically rich life without happiness or meaning."
+    },
+    {
+      "order": 16,
+      "prompt": "How is Goldmund's life characterised in the author's example?",
+      "promptZh": "作者例子里，Goldmund 的人生怎样被描述？",
+      "options": [
+        "Certainly high in all three dimensions according to an actual obituary rating.",
+        "Probably low in happiness and meaning, but high in psychological richness.",
+        "Probably wealthy but lacking any unusual experience.",
+        "Certainly low in psychological richness but high in happiness."
+      ],
+      "optionsZh": [
+        "根据实际讣告评分，确定三维都高。",
+        "大概幸福与意义较低，但心理丰富高。",
+        "大概有钱，却没有任何不寻常经历。",
+        "确定心理丰富低、幸福高。"
+      ],
+      "answer": 1,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A probably 不是 certainly，人物例证也不等于某份实际讣告记录。",
+        "B 保留 probable 语气和三维高低方向。",
+        "C rich 不是财富，原句没有这个推断。",
+        "D 将高低方向倒置；这里是作品人物例证，不能写成实验参与者实测结论。"
+      ],
+      "vocabulary": [
+        {
+          "word": "probably",
+          "meaning": "大概；很可能",
+          "context": "限定这一个人物例子的判断强度，不是已获得实际评分记录的保证。",
+          "example": "The letter was probably written during the summer.",
+          "collocations": [
+            "was probably rated",
+            "probably low in"
+          ]
+        }
+      ],
+      "evidenceQuote": "It brings us back to the big question: Is it possible to lead a good life without happiness or meaning? Goldmund’s life, for example, was probably rated low in happiness and meaning, but high in psychological richness. The relative independence of the three forms of a good life evident in the obituary studies shows that it is possible to lead a psychologically rich life without happiness or meaning."
+    },
+    {
+      "order": 17,
+      "prompt": "What does the sentence beginning 'In addition' report identifying?",
+      "promptZh": "In addition 开头的句子报告找出了什么？",
+      "options": [
+        "Eight raters who had written New York Times obituaries.",
+        "Eight happy lives with neither meaning nor richness.",
+        "Eight New York Times profiles rated as both rich and meaningful.",
+        "Eight people randomly assigned to become psychologically rich."
+      ],
+      "optionsZh": [
+        "八名写纽约时报讣告的评分者。",
+        "八个既无意义也不丰富的幸福人生。",
+        "八个纽约时报人物被评为既心理丰富又有意义。",
+        "八位被随机分配为心理丰富的人。"
+      ],
+      "answer": 2,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A eight individuals 是被评价对象，不是助理人数。",
+        "B 两个维度都被替换。",
+        "C 按该句原文保留 eight、New York Times、rich and meaningful。",
+        "D 讣告评价不是人生随机分派；前面成对交集报告十人的另一句也保留原样，不把此处八人擅改为十人或自行补排他条件。"
+      ],
+      "vocabulary": [
+        {
+          "word": "identified",
+          "meaning": "识别出；找出",
+          "context": "在讣告资料中按评级识别对象，不是安排人去过某种人生。",
+          "example": "The reviewers identified several recurring themes.",
+          "collocations": [
+            "identified eight individuals",
+            "identify a pattern"
+          ]
+        }
+      ],
+      "evidenceQuote": "In addition, we identified eight individuals in the New York Times obituaries who were rated to have led a rich and meaningful life. Steve Jobs is a real-life example. He was often angry and alienated many people around him. He might not have led a happy life, but it was an interesting one, full of adventures and learning."
+    },
+    {
+      "order": 18,
+      "prompt": "What role does Steve Jobs play in this passage?",
+      "promptZh": "Steve Jobs 在这段中充当什么角色？",
+      "options": [
+        "A real-life illustration of an interesting life that might not be happy.",
+        "One of the three research assistants who rated every obituary.",
+        "The fictional character used in place of Goldmund.",
+        "Proof that all successful people experience equal happiness."
+      ],
+      "optionsZh": [
+        "现实中有趣却可能不幸福人生的例子。",
+        "给每份讣告评分的三位助理之一。",
+        "替代 Goldmund 的虚构人物。",
+        "所有成功人士同等幸福的证明。"
+      ],
+      "answer": 0,
+      "type": "作者意图",
+      "support": "explicit",
+      "analyses": [
+        "A real-life example 与后文 might not...happy,but...interesting 相接。",
+        "B 例证人物不是研究助理。",
+        "C real-life 明确不是虚构人物。",
+        "D 一个例子及 might 不能支持所有人同样幸福，也不能据此认定他属于该月讣告样本。"
+      ],
+      "vocabulary": [
+        {
+          "word": "real-life",
+          "meaning": "现实生活中的；真实人物的",
+          "context": "区别于文学人物例证，不保证其就是研究当月实际取样对象。",
+          "example": "The chapter follows the novel with a real-life example.",
+          "collocations": [
+            "a real-life example",
+            "real-life experience"
+          ]
+        }
+      ],
+      "evidenceQuote": "In addition, we identified eight individuals in the New York Times obituaries who were rated to have led a rich and meaningful life. Steve Jobs is a real-life example. He was often angry and alienated many people around him. He might not have led a happy life, but it was an interesting one, full of adventures and learning."
+    },
+    {
+      "order": 19,
+      "prompt": "What does 'alienated many people around him' mean in the account?",
+      "promptZh": "该叙述中 alienated many people around him 是什么意思？",
+      "options": [
+        "He made everyone agree with all his decisions.",
+        "He became distant only from people he had never met.",
+        "He sent every colleague to live overseas.",
+        "He caused many people close to him to feel estranged."
+      ],
+      "optionsZh": [
+        "他使所有人同意他的所有决定。",
+        "他只与从未见过的人疏远。",
+        "他让每位同事去海外居住。",
+        "他使周围许多人感到疏离。"
+      ],
+      "answer": 3,
+      "type": "语境词义",
+      "support": "explicit",
+      "analyses": [
+        "A alienated 与普遍认同相反。",
+        "B around him 指周围的人，不能换成仅陌生人。",
+        "C 不是地理外派，many 也不是 every。",
+        "D 指人际疏离；本书人物描述不是对所有关系或医学状况的诊断。"
+      ],
+      "vocabulary": [
+        {
+          "word": "alienated",
+          "meaning": "使疏远；使产生隔阂",
+          "context": "描述与周围人的关系变差，不是外星人或遣送异国。",
+          "example": "His dismissive comments alienated some members of the team.",
+          "collocations": [
+            "alienate people",
+            "feel alienated"
+          ]
+        }
+      ],
+      "evidenceQuote": "In addition, we identified eight individuals in the New York Times obituaries who were rated to have led a rich and meaningful life. Steve Jobs is a real-life example. He was often angry and alienated many people around him. He might not have led a happy life, but it was an interesting one, full of adventures and learning."
+    },
+    {
+      "order": 20,
+      "prompt": "Which interpretation of 'a distinct kind of good life' fits the conclusion?",
+      "promptZh": "结论中 a distinct kind of good life 怎样理解才合文意？",
+      "options": [
+        "Exploration makes happiness and meaning impossible.",
+        "A life of exploration is a distinguishable form of a good life that can coexist with the others.",
+        "Psychological richness is merely another name for happiness.",
+        "Only people who lack meaning can explore anything."
+      ],
+      "optionsZh": [
+        "探索使幸福和意义不可能。",
+        "探索生活是一种可区分、也能与另两者并存的美好生活。",
+        "心理丰富只是幸福的别名。",
+        "只有毫无意义者才能探索。"
+      ],
+      "answer": 1,
+      "type": "主旨",
+      "support": "explicit",
+      "analyses": [
+        "A 前文明确 some people 三者兼有。",
+        "B distinct 说概念可区分，不等于相互排斥。",
+        "C 抹去区别。",
+        "D 把可独立存在误读为只有缺乏意义才能拥有；本段没有这种必要条件。"
+      ],
+      "vocabulary": [
+        {
+          "word": "distinct",
+          "meaning": "不同的；可区分的",
+          "context": "此处不等于互不相容或绝对独立，没有排除同一人兼具多个维度。",
+          "example": "The two skills are distinct, although they often work together.",
+          "collocations": [
+            "a distinct kind of",
+            "distinct from"
+          ]
+        }
+      ],
+      "evidenceQuote": "Equally important is that some people do lead a psychologically rich as well as a happy and meaningful life. Alison Gopnik’s post–midlife crisis life is just that. So is the life of Linda, the taxi driver. In sum, our research supports that a life of exploration is a distinct kind of good life, a psychologically rich one."
+    },
+    {
+      "order": 21,
+      "prompt": "What question opens the personality section?",
+      "promptZh": "人格部分以什么问题开头？",
+      "options": [
+        "Which newspaper contains the longest obituary.",
+        "Whether the Big Five are five particular people's biographies.",
+        "Whether personality characteristics differentiate rich lives from happy or meaningful lives.",
+        "Whether personality can be inferred solely from bank balances."
+      ],
+      "optionsZh": [
+        "哪份报纸的讣告最长。",
+        "大五是否是五个特定人物的传记。",
+        "人格特征能否区分心理丰富与幸福或有意义生活者。",
+        "能否只靠银行余额推断人格。"
+      ],
+      "answer": 2,
+      "type": "主旨",
+      "support": "explicit",
+      "analyses": [
+        "A 已从文本评级转向人格问题。",
+        "B Big Five 指特质分类而不是五个人。",
+        "C differentiate 明确要考察的区分关系。",
+        "D 没有金钱单一指标；开头问句本身不预先给出确定答案。"
+      ],
+      "vocabulary": [
+        {
+          "word": "differentiate",
+          "meaning": "区分；使有差别",
+          "context": "询问不同生活者是否具有可区分的人格特征，不是改变他们的人生。",
+          "example": "These features help differentiate the two writing styles.",
+          "collocations": [
+            "differentiate A from B",
+            "characteristics that differentiate"
+          ]
+        }
+      ],
+      "evidenceQuote": "Are there any personality characteristics that differentiate those who lead a psychologically rich life from those who lead a happy or a meaningful life? To answer this question, we need to know the basics of personality psychology. Since I used to teach an intro to personality psychology class, I’m equipped to deliver this five-minute lecture on the Big Five personality traits."
+    },
+    {
+      "order": 22,
+      "prompt": "Why does the author mention having taught an introductory personality course?",
+      "promptZh": "作者为什么提到自己教过人格心理学导论？",
+      "options": [
+        "To explain his preparation for a brief introduction to the Big Five.",
+        "To claim that his students rated every obituary in the study.",
+        "To promise a complete degree course in five minutes.",
+        "To replace empirical research with his personal authority alone."
+      ],
+      "optionsZh": [
+        "说明自己有基础简要介绍大五人格。",
+        "声称他的学生评分了研究中每份讣告。",
+        "承诺五分钟完成完整学位课程。",
+        "单凭个人权威代替实证研究。"
+      ],
+      "answer": 0,
+      "type": "作者意图",
+      "support": "explicit",
+      "analyses": [
+        "A Since 引出教课经历作为能做简短介绍的理由。",
+        "B 没有说学生就是评分助理。",
+        "C five-minute lecture 是简要说明，不是完整课程。",
+        "D 只是安排背景介绍，并非宣布不需研究证据。"
+      ],
+      "vocabulary": [
+        {
+          "word": "equipped",
+          "meaning": "具备所需知识或能力的；准备好的",
+          "context": "I'm equipped to deliver 指有能力讲解，不是携带某件实体装备。",
+          "example": "After the training, she felt equipped to lead the discussion.",
+          "collocations": [
+            "equipped to deliver",
+            "well equipped to explain"
+          ]
+        }
+      ],
+      "evidenceQuote": "Are there any personality characteristics that differentiate those who lead a psychologically rich life from those who lead a happy or a meaningful life? To answer this question, we need to know the basics of personality psychology. Since I used to teach an intro to personality psychology class, I’m equipped to deliver this five-minute lecture on the Big Five personality traits."
+    },
+    {
+      "order": 23,
+      "prompt": "What does 'A bit of history first' signal?",
+      "promptZh": "A bit of history first 预示什么？",
+      "options": [
+        "The author is ending the personality discussion immediately.",
+        "All later evidence must be ignored because it is old.",
+        "The next topic is the narrator's personal childhood.",
+        "A short historical background will precede the explanation."
+      ],
+      "optionsZh": [
+        "作者马上结束人格讨论。",
+        "因为年代久远，后续所有证据都须忽略。",
+        "接下来是作者个人童年。",
+        "正式解释前先给一点历史背景。"
+      ],
+      "answer": 3,
+      "type": "篇章结构",
+      "support": "explicit",
+      "analyses": [
+        "A first 引出前置内容，不是结束。",
+        "B 没有否定历史研究价值。",
+        "C 后句是 Allport 与 Odbert 研究史，不是作者童年。",
+        "D a bit 限定篇幅，first 标记说明顺序。"
+      ],
+      "vocabulary": [
+        {
+          "word": "A bit of",
+          "meaning": "一点；少量的",
+          "context": "修饰历史背景篇幅，不表示信息必然不准确。",
+          "example": "A bit of background will make the example easier to understand.",
+          "collocations": [
+            "a bit of history",
+            "a bit of background"
+          ]
+        }
+      ],
+      "evidenceQuote": "A bit of history first. In 1936, psychologists Gordon W. Allport and Henry S. Odbert set out to identify all the words describing personality or personal behavior in Webster’s 1925 New International Dictionary. That dictionary contained roughly 400,000 entries, of which they found 17,953 personal descriptors, or 4.5 percent of the English vocabulary recorded there. Personality is often defined as characteristic patterns of thinking, feeling, and behavior, so the researchers removed all the words about temporary states, such as “frantic” and “rejoicing.”"
+    },
+    {
+      "order": 24,
+      "prompt": "Which task did Allport and Odbert begin in 1936?",
+      "promptZh": "Allport 与 Odbert 在1936年开始做什么？",
+      "options": [
+        "They published the 1925 dictionary after the obituary study.",
+        "They sought all words describing personality or personal behaviour in Webster's 1925 dictionary.",
+        "They directly measured the personality of every dictionary reader.",
+        "They removed all personality terms before recording any of them."
+      ],
+      "optionsZh": [
+        "他们在讣告研究后出版1925年词典。",
+        "他们在Webster的1925年词典中寻找描述人格或个人行为的词。",
+        "他们直接测量每位词典读者的人格。",
+        "他们未记录便删去所有人格词。"
+      ],
+      "answer": 1,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A 1936 是研究起点，1925 修饰词典版本，且讣告研究在2016年。",
+        "B set out to identify...words 明确目标及材料。",
+        "C 分析词汇不等于普测词典读者。",
+        "D 是先识别描述词，不是删除所有词。"
+      ],
+      "vocabulary": [
+        {
+          "word": "set out to",
+          "meaning": "着手；开始有目的地做某事",
+          "context": "指确立识别词汇的研究目标，不是出发旅行。",
+          "example": "The researchers set out to compare the two accounts.",
+          "collocations": [
+            "set out to identify",
+            "set out to study"
+          ]
+        }
+      ],
+      "evidenceQuote": "A bit of history first. In 1936, psychologists Gordon W. Allport and Henry S. Odbert set out to identify all the words describing personality or personal behavior in Webster’s 1925 New International Dictionary. That dictionary contained roughly 400,000 entries, of which they found 17,953 personal descriptors, or 4.5 percent of the English vocabulary recorded there. Personality is often defined as characteristic patterns of thinking, feeling, and behavior, so the researchers removed all the words about temporary states, such as “frantic” and “rejoicing.”"
+    },
+    {
+      "order": 25,
+      "prompt": "What is the stated basis of the 4.5 percent figure?",
+      "promptZh": "4.5% 这一比例明示的基础是什么？",
+      "options": [
+        "The proportion of all people who share one personality trait.",
+        "The proportion of obituaries containing exactly one personal descriptor.",
+        "The 17,953 personal descriptors among roughly 400,000 entries in that dictionary.",
+        "The proportion of temporary states left in the final 4,504-word list."
+      ],
+      "optionsZh": [
+        "具有某一人格特质的人口比例。",
+        "恰含一个个人描述词的讣告比例。",
+        "该词典约四十万词条中的17,953个个人描述词。",
+        "最终4,504词清单中暂时状态的比例。"
+      ],
+      "answer": 2,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A 词汇计数不是人口特质流行率。",
+        "B 当前材料为词典，不是讣告。",
+        "C roughly400,000、17,953 和 recorded there 限定该版本词典的计数基础。",
+        "D 是初识别描述词占词典条目比，并非删词后清单；不能推为全部时代英语词汇的精确占比。"
+      ],
+      "vocabulary": [
+        {
+          "word": "entries",
+          "meaning": "词条；条目",
+          "context": "词典中分别收录的项目，不是入场人数、日记或研究参与者。",
+          "example": "The dictionary adds new entries each year.",
+          "collocations": [
+            "dictionary entries",
+            "roughly 400,000 entries"
+          ]
+        }
+      ],
+      "evidenceQuote": "A bit of history first. In 1936, psychologists Gordon W. Allport and Henry S. Odbert set out to identify all the words describing personality or personal behavior in Webster’s 1925 New International Dictionary. That dictionary contained roughly 400,000 entries, of which they found 17,953 personal descriptors, or 4.5 percent of the English vocabulary recorded there. Personality is often defined as characteristic patterns of thinking, feeling, and behavior, so the researchers removed all the words about temporary states, such as “frantic” and “rejoicing.”"
+    }
+  ]
+}
