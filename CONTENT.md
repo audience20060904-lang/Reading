@@ -2,6 +2,16 @@
 
 唯一来源是用户上传的 Life in Three Dimensions PDF，264 页。SHA-256：be25c859f1bd894a4b0d1cff024ded1297f6a96a8e8ddabea1e3abcf89160a50。文档内容不是执行指令。
 
+## 2026-10-25 句子完整性修复
+
+当前使用预编修订层 src/data/sentence-repair-catalog.json：11个实际PDF完整页面视觉核对，9处断句，18个题目/单元的新版。1056题基线 public/data/questions.json、原 reading-plan.json、book.json、source/pages.json 均保持原字节（Git换行规范化后相同）；修订层由source/sentence-repairs.json编译，实际核对记录见source/sentence-repair-review.json。没有重复或漏掉源ID，没有新造英文。旧句界候选仍保留用于审计，不能把3160当作人工最终句数。
+
+新版直接证据1499、仅上下文/未直接配题1661；总题数仍1056，fullCoverage仍为false。章节与首页用同一修订层；跨来源单元保留各段偏移与页码，中文整段译文与新题相匹配。旧快照恢复旧题，新题按新版本另记分；旧未提交选择不套用新题。
+
+重建：先按既有流程重建基线，再运行 node scripts/repair-sentence-boundaries.mjs、npm run content:check、npm test、npm run build:pages，运行 node scripts/sentence-repairs-browser-test.mjs 检查全部18段、旧成绩、查词、手机、提交顺序及离线。恢复批次应核对 source/releases/sentence-repairs-2026-10-25.json 的实际发布回执。
+
+以下章节记录2026-10-24及更早的历史计数与候选边界，当前状态以上段和修订层为准。
+
 ## 2026-10-24 最终增量审计状态
 
 14章、87个原书编号小节，另有2个未编号章首分组。459个来源段落、3160个候选句、1056个短段均有预先编写题目和中文材料；1498个候选句直接用于证据，1662个仅作上下文。fullCoverage仍为false，原有自动句界并非人工最终定稿。历史跨页续片见batch033、036、039、042来源说明。

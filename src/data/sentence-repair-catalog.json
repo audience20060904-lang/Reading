@@ -1,0 +1,2143 @@
+{
+  "schemaVersion": 1,
+  "id": "sentence-boundaries-2026-10-25",
+  "pdfSha256": "be25c859f1bd894a4b0d1cff024ded1297f6a96a8e8ddabea1e3abcf89160a50",
+  "rule": "仅重新分配相邻单元中的已有候选句ID；同段保持精确切片，已核对的英文跨页用一个空格相接，日语断行字符直接相接。每个源字符和候选句ID保留且不重复，不添加推测词语。原始book、questions、reading-plan作为发布基线保留，生成独立active文件。",
+  "baselineFingerprints": {
+    "q-c05-039": "b7f0df8c053b80dccaf2b880e04a188779127a9f724bd7e1d0df63997edbf9e0",
+    "q-c05-040": "52d9f5b56a51731087c5c59bb0da738d71daa76cb5c44c56eb28f9a3dc69c8c0",
+    "q-c06-031": "5618ccd9c1e052ac09af408d1d331b0449a2e9603ad297b22218fb5497af14eb",
+    "q-c06-032": "dcbaf5d59bb6dfe07832db2e73ddf3517214f2abe028259b1ad9e05ff89d48c6",
+    "q-c10-001": "850b041162857e65bbf53f2d4ad815b8d665ed4c20dde0db9136973cd5c2322d",
+    "q-c10-002": "d192640390ce1bae2a5e9d9d5c719db5ef1964fcfb55ae9366cbc2374752de14",
+    "q-c10-064": "622dd4d19ec1702b377ce89122439400348232598af421ce7d006305074d9864",
+    "q-c10-065": "396880af35e885ee666868993ce596ced2b054460ab026b13e2786c88048cdd7",
+    "q-c11-061": "d5e827d261fa508b60fc1a14ce5bc7799f4adaeae45e7982cb2ded6b052d8db0",
+    "q-c11-062": "caa2bc754809d8f0cde3a4b51f9ade846d0fbd9dfa7c2e1fd53c412bf13f8914",
+    "q-c13-018": "3d9b843d13241058d17f4eabddde534b89d5ce60cbe801a790ae1139ec0a1a44",
+    "q-c13-019": "5a94a0b323af4fab828c03325a6295973d3b159f897a53092dcff9007c9973c8",
+    "q-c13-096": "165bf8df78988f38301dc421e97f67494c002c987ed17da9864644285f32e2ea",
+    "q-c13-097": "4472497b873bccffd170681fc0ca112f9bd9b29aff8910fc29889524ddcf798d",
+    "q-c14-056": "f0434792cde624c041b15d18bf306b7cdc5cea2a0ab320d8574d180c9c0557c6",
+    "q-c14-057": "cd08d49815503bca1471e472d93071547d82c456d23076e70fa0bf6204cd4b20",
+    "q-c14-065": "958e8acabf72795708d0434ba665643f3ed76e1a586ff8a1c1c4ef8e8ffab93e",
+    "q-c14-066": "5001bcce4dc4f36fc96eba122e3b721fa5c06775271c69d6aae214ef8d1a66fa"
+  },
+  "questions": [
+    {
+      "id": "q-c05-039",
+      "version": 2,
+      "readingUnitId": "c05-s04-p049-04260-r001-004",
+      "chapterId": "c05",
+      "sectionId": "c05-s04",
+      "paragraphId": "c05-s04-p049-04260",
+      "sentenceIds": [
+        "c05-s04-p049-04260-s001",
+        "c05-s04-p049-04260-s002",
+        "c05-s04-p049-04260-s003",
+        "c05-s04-p049-04260-s004",
+        "c05-s04-p049-04260-s005"
+      ],
+      "passage": "I don’t remember many conversations I had in Tokyo with professors, deans, or even friends around that time. Yet many things that happened during my study abroad are still vivid in my memory. For instance, I shared my dorm room with a student named Mike. I’d often pick up the phone and hear, “Is Mike there?” and I’d say, “No.”",
+      "prompt": "What memory contrast introduces the dorm-room example?",
+      "options": [
+        "Many study-abroad events remain vivid, unlike numerous conversations from the same period in Tokyo.",
+        "The author remembers every Tokyo conversation but nothing from abroad.",
+        "Only conversations about music are remembered from either country.",
+        "All memories of his roommate Mike have disappeared."
+      ],
+      "answer": 0,
+      "type": "主旨",
+      "promptZh": "宿舍例子前，作者先作了什么记忆对比？",
+      "optionsZh": [
+        "许多留学事件仍清晰，而同期在东京的许多谈话已记不清。",
+        "东京每次谈话都记得，国外一件事也不记得。",
+        "两个国家都只记得音乐谈话。",
+        "与室友 Mike 有关的记忆全部消失。"
+      ],
+      "analyses": [
+        "A don’t remember many 对照 still vivid，正是例子引出的对比。",
+        "B 把两地的记忆状态倒置，并扩大为每次与全无。",
+        "C 本段没有 only music，下一例是接电话。",
+        "D 作者正举出与 Mike 同住和接电话的清晰记忆。"
+      ],
+      "evidence": [
+        {
+          "quote": "I don’t remember many conversations I had in Tokyo",
+          "sentenceIds": [
+            "c05-s04-p049-04260-s001"
+          ],
+          "sources": [
+            {
+              "pdfPage": 49,
+              "block": 1,
+              "bbox": [
+                76.99,
+                426,
+                535,
+                577.02
+              ]
+            }
+          ]
+        },
+        {
+          "quote": "many things that happened during my study abroad are still vivid in my memory.",
+          "sentenceIds": [
+            "c05-s04-p049-04260-s002"
+          ],
+          "sources": [
+            {
+              "pdfPage": 49,
+              "block": 1,
+              "bbox": [
+                76.99,
+                426,
+                535,
+                577.02
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "vivid",
+          "meaning": "鲜明的；清晰如在眼前的",
+          "context": "形容多年后留学记忆的鲜明程度，不保证每个细节绝对准确",
+          "example": "She has vivid memories of her first day in the city.",
+          "collocations": [
+            "a vivid memory",
+            "remain vivid"
+          ]
+        }
+      ],
+      "translation": "那段时期，在东京与教授、院长甚至朋友的许多谈话，我都记不清了。但留学期间发生的许多事情，仍在记忆中鲜明如昨。例如，我与一位叫 Mike 的学生同住宿舍。我常接起电话，听到：“Mike 在吗？”我便回答：“不在。”",
+      "support": "explicit",
+      "editorialStatus": "按实际PDF修复相邻单元断句；原字符、源ID与阅读次序保留，旧版本和作答快照不改写。",
+      "sourceSegments": [
+        {
+          "paragraphId": "c05-s04-p049-04260",
+          "start": 0,
+          "end": 328,
+          "separator": "",
+          "text": "I don’t remember many conversations I had in Tokyo with professors, deans, or even friends around that time. Yet many things that happened during my study abroad are still vivid in my memory. For instance, I shared my dorm room with a student named Mike. I’d often pick up the phone and hear, “Is Mike there?” and I’d say, “No.”"
+        }
+      ],
+      "boundaryRepair": "sentence-boundaries-2026-10-25",
+      "fingerprint": "fc9ebdc068e478897d5ddf17f09bb1e9fdb2fba24627f6e27eb8880cb5ce31b2"
+    },
+    {
+      "id": "q-c05-040",
+      "version": 2,
+      "readingUnitId": "c05-s04-p049-04260-r005-008",
+      "chapterId": "c05",
+      "sectionId": "c05-s04",
+      "paragraphId": "c05-s04-p049-04260",
+      "sentenceIds": [
+        "c05-s04-p049-04260-s006",
+        "c05-s04-p049-04260-s007",
+        "c05-s04-p049-04260-s008"
+      ],
+      "passage": "Then the voice on the other end usually said, “Could you tell him so-and-so called?” Since I was still learning English, I was never able to make out who this was, so I needed to ask, “Could you please spell it out?” so I could write it down.",
+      "prompt": "Why did the narrator ask callers to spell out their names?",
+      "options": [
+        "He was testing whether callers could spell English words.",
+        "His limited English listening made their identities difficult to make out.",
+        "He wanted to prevent Mike from receiving messages.",
+        "Every caller refused to say whom they wanted to reach."
+      ],
+      "answer": 1,
+      "type": "逻辑关系",
+      "promptZh": "叙述者为什么要求来电者拼出姓名？",
+      "optionsZh": [
+        "测试来电者能否拼写英语。",
+        "英语听力有限，难以听清来电者身份。",
+        "阻止 Mike 收到留言。",
+        "每位来电者都拒绝说明找谁。"
+      ],
+      "analyses": [
+        "A 目的是自己 write it down，没有考查来电者。",
+        "B Since I was still learning English 解释 make out 困难，so 引出拼写请求。",
+        "C Could you tell him 是传达留言，不是拦截。",
+        "D 片段并未说每个人拒绝说明对象。"
+      ],
+      "evidence": [
+        {
+          "quote": "Since I was still learning English, I was never able to make out who this was",
+          "sentenceIds": [
+            "c05-s04-p049-04260-s007"
+          ],
+          "sources": [
+            {
+              "pdfPage": 49,
+              "block": 1,
+              "bbox": [
+                76.99,
+                426,
+                535,
+                577.02
+              ]
+            }
+          ]
+        },
+        {
+          "quote": "Could you please spell it out?",
+          "sentenceIds": [
+            "c05-s04-p049-04260-s007"
+          ],
+          "sources": [
+            {
+              "pdfPage": 49,
+              "block": 1,
+              "bbox": [
+                76.99,
+                426,
+                535,
+                577.02
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "make out",
+          "meaning": "辨认；听清",
+          "context": "这里指从电话语音中辨认身份，不等于是否认识单词",
+          "example": "I could barely make out the name over the noisy connection.",
+          "collocations": [
+            "make out a name",
+            "make out what someone says"
+          ]
+        }
+      ],
+      "translation": "电话另一头通常接着说：“能告诉他某某来过电话吗？”由于我还在学英语，总听不清对方是谁，就需要问：“能请你拼出来吗？”这样才能记下。",
+      "support": "explicit",
+      "editorialStatus": "按实际PDF修复相邻单元断句；原字符、源ID与阅读次序保留，旧版本和作答快照不改写。",
+      "sourceSegments": [
+        {
+          "paragraphId": "c05-s04-p049-04260",
+          "start": 329,
+          "end": 571,
+          "separator": "",
+          "text": "Then the voice on the other end usually said, “Could you tell him so-and-so called?” Since I was still learning English, I was never able to make out who this was, so I needed to ask, “Could you please spell it out?” so I could write it down."
+        }
+      ],
+      "boundaryRepair": "sentence-boundaries-2026-10-25",
+      "fingerprint": "34ac6009319a56532f46adaa748f870af904254adcf7e9d700ddbcfb33feec94"
+    },
+    {
+      "id": "q-c06-031",
+      "version": 2,
+      "readingUnitId": "c06-s02-p058-00750-r001-004",
+      "chapterId": "c06",
+      "sectionId": "c06-s02",
+      "paragraphId": "c06-s02-p058-00750",
+      "sentenceIds": [
+        "c06-s02-p058-00750-s001"
+      ],
+      "passage": "Later, psychologists had a large pool of participants rate themselves using many of the original Allport-Odbert terms, then applied the statistical technique of factor analysis to sort the terms into larger groups, or “factors.”",
+      "prompt": "How did the psychologists organise the personality terms into broader factors?",
+      "options": [
+        "They asked raters to choose the five most familiar words without statistical analysis.",
+        "They collected self-ratings and used factor analysis to group the terms.",
+        "They treated the 187 students as 187 independent personality factors.",
+        "They replaced all self-ratings with observations of the students’ parents."
+      ],
+      "answer": 1,
+      "type": "细节",
+      "promptZh": "心理学家怎样把人格词汇整理为更宽泛的因子？",
+      "optionsZh": [
+        "让评分者不经统计分析选出最熟悉的五个词。",
+        "收集自我评分，再用因素分析把词汇归组。",
+        "把 187 名学生视为 187 个独立人格因子。",
+        "把所有自评换成对学生父母的观察。"
+      ],
+      "analyses": [
+        "A 原文明确用了 factor analysis，非仅凭熟悉度选择。",
+        "B rate themselves 后接 applied...factor analysis，顺序与方法均对应。",
+        "C 因子是把词语评分归类形成的组，不能把一个参与者人数值当作因子数。",
+        "D themselves 表示自评，没有父母观察这一程序。"
+      ],
+      "evidence": [
+        {
+          "quote": "rate themselves using many of the original Allport-Odbert terms, then applied the statistical technique of factor analysis",
+          "sentenceIds": [
+            "c06-s02-p058-00750-s001"
+          ],
+          "sources": [
+            {
+              "pdfPage": 58,
+              "block": 0,
+              "bbox": [
+                76.99,
+                75,
+                535.01,
+                187.02
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "factor analysis",
+          "meaning": "因素分析",
+          "context": "把许多词条的评分整理为较大组的统计方法，不是按人数命名人格类型",
+          "example": "The researchers used factor analysis to examine how the ratings clustered.",
+          "collocations": [
+            "apply factor analysis",
+            "a statistical technique"
+          ]
+        }
+      ],
+      "translation": "后来，心理学家让大量参与者用原来 Allport–Odbert 词表中的许多词自我评分，再运用因素分析这种统计方法，把词汇整理为较大的组，即“因子”。",
+      "support": "explicit",
+      "editorialStatus": "按实际PDF修复相邻单元断句；原字符、源ID与阅读次序保留，旧版本和作答快照不改写。",
+      "sourceSegments": [
+        {
+          "paragraphId": "c06-s02-p058-00750",
+          "start": 0,
+          "end": 228,
+          "separator": "",
+          "text": "Later, psychologists had a large pool of participants rate themselves using many of the original Allport-Odbert terms, then applied the statistical technique of factor analysis to sort the terms into larger groups, or “factors.”"
+        }
+      ],
+      "boundaryRepair": "sentence-boundaries-2026-10-25",
+      "fingerprint": "6dba227c56fb46052fba1893a1b8a89ec204d44802b3f4a31521f57dec5f7e4e"
+    },
+    {
+      "id": "q-c06-032",
+      "version": 2,
+      "readingUnitId": "c06-s02-p058-00750-r005-005",
+      "chapterId": "c06",
+      "sectionId": "c06-s02",
+      "paragraphId": "c06-s02-p058-00750",
+      "sentenceIds": [
+        "c06-s02-p058-00750-s002",
+        "c06-s02-p058-00750-s003",
+        "c06-s02-p058-00750-s004",
+        "c06-s02-p058-00750-s005"
+      ],
+      "passage": "For example, Lew Goldberg had 187 college students rate themselves on 1,710 terms: “How jolly are you in general? How reserved are you in general? How sadistic are you in general?” and so on.",
+      "prompt": "What does the expression “and so on” indicate?",
+      "options": [
+        "The sequence has reached its final item.",
+        "The next item contradicts every earlier example.",
+        "Further similar items could be added.",
+        "The examples must be repeated in reverse order."
+      ],
+      "answer": 2,
+      "type": "语境词义",
+      "promptZh": "and so on 这个表达表示什么？",
+      "optionsZh": [
+        "这一列举已到最后一项。",
+        "下一项将反驳之前所有例子。",
+        "还可继续列出类似项目。",
+        "必须把例子倒过来重复。"
+      ],
+      "analyses": [
+        "A 省略后续类似项目，不是宣告没有其他项目。",
+        "B 不含转折或反驳关系。",
+        "C 是“等等、诸如此类”的意思，提示列举未穷尽。",
+        "D and so on 表示还可继续列举同类项目，不涉及倒序；这里列出的自评问题只是例子，并非全部1,710项。"
+      ],
+      "evidence": [
+        {
+          "quote": "and so on.",
+          "sentenceIds": [
+            "c06-s02-p058-00750-s005"
+          ],
+          "sources": [
+            {
+              "pdfPage": 58,
+              "block": 0,
+              "bbox": [
+                76.99,
+                75,
+                535.01,
+                187.02
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "and so on",
+          "meaning": "等等；诸如此类",
+          "context": "表示列出的自评问题并非全部，后面还可以有同类问题。",
+          "example": "The pack contains pencils, rulers, erasers, and so on.",
+          "collocations": [
+            "and so on",
+            "and so forth"
+          ]
+        }
+      ],
+      "translation": "例如，Lew Goldberg 让 187 名大学生就 1,710 个词自评：“你一般有多快活？一般有多内敛？一般有多残虐？”等等。",
+      "support": "explicit",
+      "editorialStatus": "按实际PDF修复相邻单元断句；原字符、源ID与阅读次序保留，旧版本和作答快照不改写。",
+      "sourceSegments": [
+        {
+          "paragraphId": "c06-s02-p058-00750",
+          "start": 229,
+          "end": 420,
+          "separator": "",
+          "text": "For example, Lew Goldberg had 187 college students rate themselves on 1,710 terms: “How jolly are you in general? How reserved are you in general? How sadistic are you in general?” and so on."
+        }
+      ],
+      "boundaryRepair": "sentence-boundaries-2026-10-25",
+      "fingerprint": "c94269465bcd8fae1449fba73596e05fbfe6131ef8a0e1890465fb3faefb3c2e"
+    },
+    {
+      "id": "q-c10-001",
+      "version": 2,
+      "readingUnitId": "c10-s01-p103-03848-r001-004",
+      "chapterId": "c10",
+      "sectionId": "c10-s01",
+      "paragraphId": "c10-s01-p103-03848",
+      "sentenceIds": [
+        "c10-s01-p103-03848-s001",
+        "c10-s01-p103-03848-s002",
+        "c10-s01-p103-03848-s003"
+      ],
+      "passage": "A WWE match could be an interesting weekend outing. A visit to a national park might evoke awe and wonder you rarely experience in your everyday life. Schindler’s List will make you cry and cry.",
+      "prompt": "What role do the WWE, park and film examples play?",
+      "options": [
+        "They report three randomized experimental conditions.",
+        "They rank the activities by their measured benefits.",
+        "They establish that all viewers react identically.",
+        "They introduce experiences associated with interest, awe or strong emotion."
+      ],
+      "answer": 3,
+      "type": "作者意图",
+      "promptZh": "WWE、公园与电影的例子起什么作用？",
+      "optionsZh": [
+        "报告三个随机实验条件。",
+        "按测得益处排序。",
+        "确立所有观众反应一致。",
+        "引入可能带来兴趣、敬畏或强烈情绪的体验。"
+      ],
+      "analyses": [
+        "A 没有实验设计或随机分组。",
+        "B 没有收益排序或量化测量。",
+        "C could、might 的例子不能扩大为人人相同。",
+        "D 三种体验分别关联有趣、敬畏和感动；这只是引入体验的例子，并未测量或证明它们的收益。"
+      ],
+      "evidence": [
+        {
+          "quote": "A WWE match could be an interesting weekend outing.",
+          "sentenceIds": [
+            "c10-s01-p103-03848-s001"
+          ],
+          "sources": [
+            {
+              "pdfPage": 103,
+              "block": 5,
+              "bbox": [
+                76.99,
+                384.75,
+                535.01,
+                516.27
+              ]
+            }
+          ]
+        },
+        {
+          "quote": "A visit to a national park might evoke awe and wonder",
+          "sentenceIds": [
+            "c10-s01-p103-03848-s002"
+          ],
+          "sources": [
+            {
+              "pdfPage": 103,
+              "block": 5,
+              "bbox": [
+                76.99,
+                384.75,
+                535.01,
+                516.27
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "outing",
+          "meaning": "外出活动；短途出游",
+          "context": "形容周末去看比赛，不是移居或长期探险",
+          "example": "The museum visit made a pleasant weekend outing.",
+          "collocations": [
+            "a weekend outing",
+            "an interesting outing"
+          ]
+        }
+      ],
+      "translation": "看一场 WWE 比赛可能是有趣的周末外出。去国家公园，也许唤起平常少有的敬畏与惊叹。Schindler’s List 会让你哭个不停。",
+      "support": "explicit",
+      "editorialStatus": "按实际PDF修复相邻单元断句；原字符、源ID与阅读次序保留，旧版本和作答快照不改写。",
+      "sourceSegments": [
+        {
+          "paragraphId": "c10-s01-p103-03848",
+          "start": 0,
+          "end": 194,
+          "separator": "",
+          "text": "A WWE match could be an interesting weekend outing. A visit to a national park might evoke awe and wonder you rarely experience in your everyday life. Schindler’s List will make you cry and cry."
+        }
+      ],
+      "boundaryRepair": "sentence-boundaries-2026-10-25",
+      "fingerprint": "5ea4b6d9ef5d7cfab6cd9a24df07a4cc6c9e2ce334f8a1ba1f2c2067c5ad4b24"
+    },
+    {
+      "id": "q-c10-002",
+      "version": 2,
+      "readingUnitId": "c10-s01-p103-03848-r005-008",
+      "chapterId": "c10",
+      "sectionId": "c10-s01",
+      "paragraphId": "c10-s01-p103-03848",
+      "sentenceIds": [
+        "c10-s01-p103-03848-s004",
+        "c10-s01-p103-03848-s005",
+        "c10-s01-p103-03848-s006",
+        "c10-s01-p103-03848-s007",
+        "c10-s01-p103-03848-s008"
+      ],
+      "passage": "“So what?” you might ask (despite reading the last chapter). Aren’t these activities all what the philosopher Blaise Pascal would have called “diversions”? Other than filling people’s time to avoid boredom, do these activities have any genuine benefits? In other words, what is the point of exploration?",
+      "prompt": "What doubt is raised about exploration?",
+      "options": [
+        "Whether every activity has already been shown to be harmful.",
+        "Whether Pascal personally attended all these events.",
+        "Whether these experiences offer benefits beyond filling time and avoiding boredom.",
+        "Whether people can ever feel bored at all."
+      ],
+      "answer": 2,
+      "type": "主旨",
+      "promptZh": "这里对探索提出什么疑问？",
+      "optionsZh": [
+        "每种活动是否已被证明有害。",
+        "Pascal 是否亲自参加过这些活动。",
+        "这些体验除了打发时间、避免无聊，还有没有益处。",
+        "人是否可能无聊。"
+      ],
+      "analyses": [
+        "A genuine benefits 是追问，不是已证明有害。",
+        "B would have called 是作者设想的哲学归类，不是 Pascal 的行程。",
+        "C Other than filling...genuine benefits 与 point of exploration 概括质疑。",
+        "D avoid boredom 已承认无聊这一可能。设问提出研究动机，不能把怀疑读成作者已宣布全部无益。"
+      ],
+      "evidence": [
+        {
+          "quote": "Other than filling people’s time to avoid boredom, do these activities have any genuine benefits?",
+          "sentenceIds": [
+            "c10-s01-p103-03848-s007"
+          ],
+          "sources": [
+            {
+              "pdfPage": 103,
+              "block": 5,
+              "bbox": [
+                76.99,
+                384.75,
+                535.01,
+                516.27
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "diversions",
+          "meaning": "消遣；转移注意的活动",
+          "context": "片段借哲学家的概念质疑是否只是打发时间",
+          "example": "The games offered diversions during the long journey.",
+          "collocations": [
+            "mere diversions",
+            "activities as diversions"
+          ]
+        }
+      ],
+      "translation": "“那又怎样？”你也许会这样问，尽管刚读完上一章。这些活动不都是哲学家 Blaise Pascal 可能称作“消遣”的东西吗？除了填满时间、避免无聊，它们有什么真正益处？换句话说，探索有什么意义？",
+      "support": "explicit",
+      "editorialStatus": "按实际PDF修复相邻单元断句；原字符、源ID与阅读次序保留，旧版本和作答快照不改写。",
+      "sourceSegments": [
+        {
+          "paragraphId": "c10-s01-p103-03848",
+          "start": 195,
+          "end": 498,
+          "separator": "",
+          "text": "“So what?” you might ask (despite reading the last chapter). Aren’t these activities all what the philosopher Blaise Pascal would have called “diversions”? Other than filling people’s time to avoid boredom, do these activities have any genuine benefits? In other words, what is the point of exploration?"
+        }
+      ],
+      "boundaryRepair": "sentence-boundaries-2026-10-25",
+      "fingerprint": "fac907321c2858bc5ff1f6b369ed533bd313bfe946766ed8d3e359a37273ed56"
+    },
+    {
+      "id": "q-c10-064",
+      "version": 2,
+      "readingUnitId": "c10-s07-p114-00750-r001-004",
+      "chapterId": "c10",
+      "sectionId": "c10-s07",
+      "paragraphId": "c10-s07-p114-00750",
+      "sentenceIds": [
+        "c10-s07-p114-00750-s001",
+        "c10-s07-p114-00750-s002",
+        "c10-s07-p114-00750-s003",
+        "c10-s07-p114-00750-s004",
+        "c10-s07-p114-00750-s005"
+      ],
+      "passage": "When I was in Charlottesville, I would go to a local coffee shop every day and never went to Starbucks. But when I was traveling, I would realize that all of a sudden I loved going to Starbucks. When I was in the psychology building (Gilmer Hall) in Charlottesville and saw a graduate student walking by, I would greet them with a very curt “hey.” When I saw the same graduate student at a conference in Las Vegas, I went “Hey, Gary, so nice to see you!” and almost hugged him.",
+      "prompt": "How did the author’s responses change when he travelled?",
+      "options": [
+        "He avoided Starbucks both at home and away.",
+        "He welcomed familiar stores and people more warmly away from home.",
+        "He greeted the student more curtly in Las Vegas.",
+        "He visited Starbucks every day in Charlottesville."
+      ],
+      "answer": 1,
+      "type": "细节",
+      "promptZh": "旅行时作者的反应怎样变化？",
+      "optionsZh": [
+        "在家出门都避开 Starbucks。",
+        "出门时更热情地欢迎熟悉店铺和熟人。",
+        "在 Las Vegas 更冷淡招呼学生。",
+        "在 Charlottesville 天天去 Starbucks。"
+      ],
+      "analyses": [
+        "A traveling 时突然喜欢去，与此相反。",
+        "B 咖啡店偏好和对同一学生的招呼都随地点变化。",
+        "C curt hey 是校内，旅行见面更热情。",
+        "D 在当地去 local coffee shop，never went to Starbucks。这里是个人轶事，不是群体实验结果。"
+      ],
+      "evidence": [
+        {
+          "quote": "when I was traveling, I would realize that all of a sudden I loved going to Starbucks.",
+          "sentenceIds": [
+            "c10-s07-p114-00750-s002"
+          ],
+          "sources": [
+            {
+              "pdfPage": 114,
+              "block": 0,
+              "bbox": [
+                76.99,
+                75,
+                535.01,
+                265.02
+              ]
+            }
+          ]
+        },
+        {
+          "quote": "Hey, Gary, so nice to see you!",
+          "sentenceIds": [
+            "c10-s07-p114-00750-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 114,
+              "block": 0,
+              "bbox": [
+                76.99,
+                75,
+                535.01,
+                265.02
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "curt",
+          "meaning": "简短而冷淡的",
+          "context": "描述校园内随意冷淡的 hey，与外地热情招呼形成对比",
+          "example": "He answered with a curt greeting.",
+          "collocations": [
+            "a curt greeting",
+            "a curt “hey”"
+          ]
+        }
+      ],
+      "translation": "在 Charlottesville，我天天去本地咖啡店，从不去 Starbucks。但旅行时，我忽然发现自己爱去 Starbucks。在 Charlottesville 的心理学楼 Gilmer Hall 看到研究生经过，我会很简短地说声 hey。在 Las Vegas 的会议看到同一名学生，我会说：“嘿，Gary，见到你真高兴！”而且差点拥抱他。",
+      "support": "explicit",
+      "editorialStatus": "按实际PDF修复相邻单元断句；原字符、源ID与阅读次序保留，旧版本和作答快照不改写。",
+      "sourceSegments": [
+        {
+          "paragraphId": "c10-s07-p114-00750",
+          "start": 0,
+          "end": 477,
+          "separator": "",
+          "text": "When I was in Charlottesville, I would go to a local coffee shop every day and never went to Starbucks. But when I was traveling, I would realize that all of a sudden I loved going to Starbucks. When I was in the psychology building (Gilmer Hall) in Charlottesville and saw a graduate student walking by, I would greet them with a very curt “hey.” When I saw the same graduate student at a conference in Las Vegas, I went “Hey, Gary, so nice to see you!” and almost hugged him."
+        }
+      ],
+      "boundaryRepair": "sentence-boundaries-2026-10-25",
+      "fingerprint": "1ba685c3f7c6a76c572eb5c35f822cc76cc5c1f96f7265e8f5cc7242de02672e"
+    },
+    {
+      "id": "q-c10-065",
+      "version": 2,
+      "readingUnitId": "c10-s07-p114-00750-r005-008",
+      "chapterId": "c10",
+      "sectionId": "c10-s07",
+      "paragraphId": "c10-s07-p114-00750",
+      "sentenceIds": [
+        "c10-s07-p114-00750-s006",
+        "c10-s07-p114-00750-s007",
+        "c10-s07-p114-00750-s008"
+      ],
+      "passage": "Would I ever hug him in Gilmer Hall? No chance. So, a familiar person or store seems to be particularly attractive when you are away from familiar places and surrounded by strangers.",
+      "prompt": "What tentative explanation follows the author’s near-hug?",
+      "options": [
+        "He habitually hugged Gary in Gilmer Hall.",
+        "Strangers become less noticeable in familiar places.",
+        "Familiar people or stores may seem especially attractive amid unfamiliar surroundings.",
+        "Every traveller always embraces familiar students."
+      ],
+      "answer": 2,
+      "type": "推断",
+      "promptZh": "差点拥抱之后，作者提出什么初步解释？",
+      "optionsZh": [
+        "在 Gilmer Hall 习惯拥抱 Gary。",
+        "熟悉地方让陌生人较不显眼。",
+        "陌生环境中，熟人或熟悉店铺可能格外有吸引力。",
+        "每位旅客总会拥抱熟悉学生。"
+      ],
+      "analyses": [
+        "A No chance 否定在校内拥抱。",
+        "B 不是当前解释的内容。",
+        "C seems...particularly...away...strangers 是作者的暂时概括，不能去掉限定。",
+        "D almost 指差点拥抱，不是实际拥抱；个人轶事也不能扩大为所有旅客的固定行为。"
+      ],
+      "evidence": [
+        {
+          "quote": "a familiar person or store seems to be particularly attractive when you are away from familiar places and surrounded by strangers.",
+          "sentenceIds": [
+            "c10-s07-p114-00750-s008"
+          ],
+          "sources": [
+            {
+              "pdfPage": 114,
+              "block": 0,
+              "bbox": [
+                76.99,
+                75,
+                535.01,
+                265.02
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "surrounded",
+          "meaning": "被围绕；身处……之中",
+          "context": "身处陌生人中时熟悉者的吸引可能更突出",
+          "example": "She felt reassured by a familiar face when surrounded by strangers.",
+          "collocations": [
+            "surrounded by strangers",
+            "away from familiar places"
+          ]
+        }
+      ],
+      "translation": "我会在 Gilmer Hall 拥抱他吗？绝不可能。因此，当你远离熟悉地点、身处陌生人之中时，一个熟人或熟悉店铺似乎会格外有吸引力。",
+      "support": "explicit",
+      "editorialStatus": "按实际PDF修复相邻单元断句；原字符、源ID与阅读次序保留，旧版本和作答快照不改写。",
+      "sourceSegments": [
+        {
+          "paragraphId": "c10-s07-p114-00750",
+          "start": 478,
+          "end": 660,
+          "separator": "",
+          "text": "Would I ever hug him in Gilmer Hall? No chance. So, a familiar person or store seems to be particularly attractive when you are away from familiar places and surrounded by strangers."
+        }
+      ],
+      "boundaryRepair": "sentence-boundaries-2026-10-25",
+      "fingerprint": "d405d6d938e5f744108b4748132c0e436eaa089fc01eac9d73dfdd4bb82dc57f"
+    },
+    {
+      "id": "q-c11-061",
+      "version": 2,
+      "readingUnitId": "c11-s07-p131-03795-r005-007",
+      "chapterId": "c11",
+      "sectionId": "c11-s07",
+      "paragraphId": "c11-s07-p131-03795",
+      "sentenceIds": [
+        "c11-s07-p131-03795-s005",
+        "c11-s07-p131-03795-s006"
+      ],
+      "passage": "The great surprise of resilience research is the ordinariness of the phenomena. Resilience appears to be a common phenomenon that results in most cases from the operation of basic human adaptational systems.”",
+      "prompt": "What is the surprising conclusion about resilience?",
+      "options": [
+        "It commonly emerges from basic human adaptation rather than rare invincibility.",
+        "It is always a property possessed by only one exceptional child.",
+        "It guarantees that no survivor feels pain.",
+        "It requires falling exactly seven times in a literal test."
+      ],
+      "answer": 0,
+      "type": "主旨",
+      "promptZh": "关于韧性的惊人结论是什么？",
+      "optionsZh": [
+        "常来自基本适应系统，而非罕见无敌。",
+        "永远只属一名特殊儿童。",
+        "保证幸存者无痛。",
+        "必须真实测试恰跌七次。"
+      ],
+      "analyses": [
+        "A ordinariness/common/basic adaptational systems共同支持。",
+        "B common与only相反。",
+        "C 韧性不是无痛保证。",
+        "D 本段讲韧性与基本适应机制，并没有设置或规定跌倒次数的实验。"
+      ],
+      "evidence": [
+        {
+          "quote": "Resilience appears to be a common phenomenon that results in most cases from the operation of basic human adaptational systems.",
+          "sentenceIds": [
+            "c11-s07-p131-03795-s006"
+          ],
+          "sources": [
+            {
+              "pdfPage": 131,
+              "block": 3,
+              "bbox": [
+                76.99,
+                379.5,
+                535.02,
+                608.52
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "ordinariness",
+          "meaning": "普通性；普遍性",
+          "context": "与把韧性视为超人特质的旧印象对照",
+          "example": "The review emphasized the ordinariness of resilience.",
+          "collocations": [
+            "ordinariness of a phenomenon",
+            "basic adaptational systems"
+          ]
+        }
+      ],
+      "translation": "韧性研究最大的惊喜是这一现象的普通性。韧性看来很常见，多数情况下源自人类基本适应系统的运作。",
+      "support": "explicit",
+      "editorialStatus": "按实际PDF修复相邻单元断句；原字符、源ID与阅读次序保留，旧版本和作答快照不改写。",
+      "sourceSegments": [
+        {
+          "paragraphId": "c11-s07-p131-03795",
+          "start": 562,
+          "end": 770,
+          "separator": "",
+          "text": "The great surprise of resilience research is the ordinariness of the phenomena. Resilience appears to be a common phenomenon that results in most cases from the operation of basic human adaptational systems.”"
+        }
+      ],
+      "boundaryRepair": "sentence-boundaries-2026-10-25",
+      "fingerprint": "84e01ba1ee5561efa8b3856e5aea3d33368ee966baec32b3ec8fefb186fd8f35"
+    },
+    {
+      "id": "q-c11-062",
+      "version": 2,
+      "readingUnitId": "c11-s07-p131-06135-r001-001",
+      "chapterId": "c11",
+      "sectionId": "c11-s07",
+      "paragraphId": "c11-s07-p131-06135",
+      "sentenceIds": [
+        "c11-s07-p131-03795-s007",
+        "c11-s07-p131-06135-s001"
+      ],
+      "passage": "Research provides empirical evidence for a popular Japanese proverb: “Fall seven times, stand up an eighth time” (七転八起).",
+      "prompt": "What does the Japanese proverb suggest about responding to repeated setbacks?",
+      "options": [
+        "Recovery depends on having exceptional personal powers.",
+        "Further efforts should stop after repeated failures.",
+        "Resilience requires avoiding all future setbacks.",
+        "Continue getting up after falling repeatedly."
+      ],
+      "answer": 3,
+      "type": "推断",
+      "promptZh": "此印刷续片在原段落中起什么作用？",
+      "optionsZh": [
+        "开始新的COVID结果。",
+        "完整新小节标题。",
+        "给出韧性数值估计。",
+        "结束上一短段开始的括号内日语谚语。"
+      ],
+      "analyses": [
+        "A 谚语讲反复跌倒后再站起，并未把恢复能力归因于少数人的特殊天赋。",
+        "B stand up an eighth time 与停止尝试的说法相反。",
+        "C 原文保留了 fall 的情境，并没有要求或保证避免所有挫折。",
+        "D 跌倒后再次站起，支持面对反复挫折仍继续尝试的有限推断；谚语并非要求字面跌倒七次的实验程序，也不保证任何人的恢复结果。"
+      ],
+      "evidence": [
+        {
+          "quote": "“Fall seven times, stand up an eighth time” (七転八起).",
+          "sentenceIds": [
+            "c11-s07-p131-03795-s007",
+            "c11-s07-p131-06135-s001"
+          ],
+          "sources": [
+            {
+              "pdfPage": 131,
+              "block": 3,
+              "bbox": [
+                76.99,
+                379.5,
+                535.02,
+                608.52
+              ]
+            },
+            {
+              "pdfPage": 131,
+              "block": 4,
+              "bbox": [
+                76.99,
+                613.5,
+                96.99,
+                628.02
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "stand up",
+          "meaning": "站起来；重新振作",
+          "context": "谚语以跌倒后重新站起，比喻遇到挫折后继续尝试，不保证人人必然恢复。",
+          "example": "After a setback, she chose to stand up and try again.",
+          "collocations": [
+            "stand up again",
+            "stand up after a fall"
+          ]
+        }
+      ],
+      "translation": "研究为一句广为人知的日本谚语提供了实证依据：“跌倒七次，第八次站起来”（七転八起）。",
+      "support": "limited-inference",
+      "editorialStatus": "按实际PDF修复相邻单元断句；原字符、源ID与阅读次序保留，旧版本和作答快照不改写。",
+      "sourceSegments": [
+        {
+          "paragraphId": "c11-s07-p131-03795",
+          "start": 771,
+          "end": 888,
+          "separator": "",
+          "text": "Research provides empirical evidence for a popular Japanese proverb: “Fall seven times, stand up an eighth time” (七転八"
+        },
+        {
+          "paragraphId": "c11-s07-p131-06135",
+          "start": 0,
+          "end": 3,
+          "separator": "",
+          "text": "起)."
+        }
+      ],
+      "boundaryRepair": "sentence-boundaries-2026-10-25",
+      "fingerprint": "1e9d5f44313f0af90c766a9aa495fda179535251c9b3ab9050d8ac45bc5c5bca"
+    },
+    {
+      "id": "q-c13-018",
+      "version": 2,
+      "readingUnitId": "c13-s01-p146-06202-r001-003",
+      "chapterId": "c13",
+      "sectionId": "c13-s01",
+      "paragraphId": "c13-s01-p146-06202",
+      "sentenceIds": [
+        "c13-s01-p146-06202-s001",
+        "c13-s01-p146-06202-s002"
+      ],
+      "passage": "I read with interest this morning a report on your recent paper dealing with children who move frequently (UVA Today). I have been interested in this topic for quite a while as I grew up in a Navy family and moved, during my childhood years, every 2–3 years.",
+      "prompt": "What background does the letter writer give for his interest in frequent childhood moves?",
+      "options": [
+        "He grew up in a Navy family and moved every two to three years.",
+        "He organized the MIDUS data collection in 1995 and 2005.",
+        "He moved just once after reading the UVA Today article.",
+        "He had already proved that every military child benefits from moving."
+      ],
+      "answer": 0,
+      "type": "细节",
+      "promptZh": "写信者以什么背景解释对童年频繁搬迁的兴趣？",
+      "optionsZh": [
+        "海军家庭长大，每两三年搬一次。",
+        "组织1995和2005的MIDUS收集。",
+        "读报道后才搬过一次。",
+        "已经证明所有军人孩子都受益。"
+      ],
+      "analyses": [
+        "A grew up...Navy family与every2–3years是个人经历的明确说明。",
+        "B 把MIDUS研究者角色移给来信者。",
+        "C childhood years不等于读报道后才搬一次。",
+        "D 这封来信给出个人童年经历，没有证明所有军人家庭的孩子都会从搬迁中获益。"
+      ],
+      "evidence": [
+        {
+          "quote": "I grew up in a Navy family and moved, during my childhood years, every 2–3 years.",
+          "sentenceIds": [
+            "c13-s01-p146-06202-s002"
+          ],
+          "sources": [
+            {
+              "pdfPage": 146,
+              "block": 4,
+              "bbox": [
+                96.68,
+                620.25,
+                515.32,
+                693.27
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "Navy",
+          "meaning": "海军",
+          "context": "指来信者成长家庭的军种背景，不自动说明全部搬迁原因",
+          "example": "He grew up in a Navy family that moved frequently.",
+          "collocations": [
+            "a Navy family",
+            "every two to three years"
+          ]
+        }
+      ],
+      "translation": "今早我很感兴趣地读了《UVA Today》关于你近期研究经常搬家的孩子那篇论文的报道。我关注这个话题已很久，因为我在海军家庭长大，童年每两三年就搬一次。",
+      "support": "explicit",
+      "editorialStatus": "按实际PDF修复相邻单元断句；原字符、源ID与阅读次序保留，旧版本和作答快照不改写。",
+      "sourceSegments": [
+        {
+          "paragraphId": "c13-s01-p146-06202",
+          "start": 0,
+          "end": 258,
+          "separator": "",
+          "text": "I read with interest this morning a report on your recent paper dealing with children who move frequently (UVA Today). I have been interested in this topic for quite a while as I grew up in a Navy family and moved, during my childhood years, every 2–3 years."
+        }
+      ],
+      "boundaryRepair": "sentence-boundaries-2026-10-25",
+      "fingerprint": "a18cefe83d8191b99d81518890207616211114d5df56babdde11787e4713fffc"
+    },
+    {
+      "id": "q-c13-019",
+      "version": 2,
+      "readingUnitId": "c13-s01-p147-00750-r001-001",
+      "chapterId": "c13",
+      "sectionId": "c13-s01",
+      "paragraphId": "c13-s01-p147-00750",
+      "sentenceIds": [
+        "c13-s01-p146-06202-s003",
+        "c13-s01-p147-00750-s001"
+      ],
+      "passage": "Once we actually lived in the same house for 4 years, but I changed schools 3 times during that period….",
+      "prompt": "What contrast is stated in this continuation of the letter?",
+      "options": [
+        "Four moves occurred without any school change.",
+        "Three years in one school involved four house changes.",
+        "Four years in one house still included three school changes.",
+        "The writer changed neither home nor school during the period."
+      ],
+      "answer": 2,
+      "type": "细节",
+      "promptZh": "这段来信续文陈述什么反差？",
+      "optionsZh": [
+        "搬四次但没换校。",
+        "一校三年内换四次住处。",
+        "同一住处四年，仍换三次学校。",
+        "期间住处学校都没变。"
+      ],
+      "analyses": [
+        "A lived in the same house不是搬四次。",
+        "B 把4years与3times及house/schools交叉错配。",
+        "C 同屋四年与期间三次换校由but相连，准确保留两种稳定性之别。",
+        "D 原文明说 changed schools 3 times，因此不能说住处与学校都没有改变。"
+      ],
+      "evidence": [
+        {
+          "quote": "actually lived in the same house for 4 years, but I changed schools 3 times during that period",
+          "sentenceIds": [
+            "c13-s01-p147-00750-s001"
+          ],
+          "sources": [
+            {
+              "pdfPage": 147,
+              "block": 0,
+              "bbox": [
+                96.68,
+                75,
+                515.31,
+                109.02
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "during that period",
+          "meaning": "在那段期间",
+          "context": "指同一住处居住的四年，不是全部童年",
+          "example": "She changed classes twice during that period.",
+          "collocations": [
+            "during that period",
+            "change schools"
+          ]
+        }
+      ],
+      "translation": "有一次，我们其实在同一所房子里住过四年，但那段期间我换了三次学校……",
+      "support": "explicit",
+      "editorialStatus": "按实际PDF修复相邻单元断句；原字符、源ID与阅读次序保留，旧版本和作答快照不改写。",
+      "sourceSegments": [
+        {
+          "paragraphId": "c13-s01-p146-06202",
+          "start": 259,
+          "end": 266,
+          "separator": "",
+          "text": "Once we"
+        },
+        {
+          "paragraphId": "c13-s01-p147-00750",
+          "start": 0,
+          "end": 96,
+          "separator": " ",
+          "text": "actually lived in the same house for 4 years, but I changed schools 3 times during that period…."
+        }
+      ],
+      "boundaryRepair": "sentence-boundaries-2026-10-25",
+      "fingerprint": "b6a35d7b02e0543047255fc63edfc4bb1a84f6e1f3e2288f36464032f581c09e"
+    },
+    {
+      "id": "q-c13-096",
+      "version": 2,
+      "readingUnitId": "c13-s07-p158-05040-r001-004",
+      "chapterId": "c13",
+      "sectionId": "c13-s07",
+      "paragraphId": "c13-s07-p158-05040",
+      "sentenceIds": [
+        "c13-s07-p158-05040-s001",
+        "c13-s07-p158-05040-s002",
+        "c13-s07-p158-05040-s003",
+        "c13-s07-p158-05040-s004",
+        "c13-s07-p158-05040-s005"
+      ],
+      "passage": "For a well-educated and well-traveled person, Peter is truly clueless as to what he wants in his life. When he was young, he thought he would be a writer. Sally asked, “Have you written?” Peter replied, at age fifty-two, “Not a word!” and laughed.",
+      "prompt": "What discrepancy about Peter is emphasized?",
+      "options": [
+        "He lacked any education but published several novels.",
+        "He had fulfilled every youthful ambition before fifty-two.",
+        "He never expressed any interest in becoming a writer.",
+        "Despite education, travel, and a youthful writing ambition, he says he has written nothing."
+      ],
+      "answer": 3,
+      "type": "逻辑关系",
+      "promptZh": "本段强调Peter什么落差？",
+      "optionsZh": [
+        "无教育却出版多部小说。",
+        "52岁前实现所有青年抱负。",
+        "从未想过当作家。",
+        "受过教育、旅行多、年轻想写作，却说一字未写。"
+      ],
+      "analyses": [
+        "A well-educated与缺乏教育相反；Not a word也不支持已出版。",
+        "B truly clueless及未写字与全部实现相反。",
+        "C thought he would be a writer直接否定。",
+        "D 资历、抱负与实际自述之间的反差明确；这是对小说人物的讨论，不是说本书作者未写过字。"
+      ],
+      "evidence": [
+        {
+          "quote": "When he was young, he thought he would be a writer.",
+          "sentenceIds": [
+            "c13-s07-p158-05040-s002"
+          ],
+          "sources": [
+            {
+              "pdfPage": 158,
+              "block": 2,
+              "bbox": [
+                76.99,
+                504,
+                535.01,
+                694.02
+              ]
+            }
+          ]
+        },
+        {
+          "quote": "Peter replied, at age fifty-two, “Not a word!”",
+          "sentenceIds": [
+            "c13-s07-p158-05040-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 158,
+              "block": 2,
+              "bbox": [
+                76.99,
+                504,
+                535.01,
+                694.02
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "clueless",
+          "meaning": "茫然的；毫无头绪的",
+          "context": "这里指不知道自己人生想要什么，不等于没受教育",
+          "example": "Despite his experience, he remained clueless about what he wanted next.",
+          "collocations": [
+            "clueless as to",
+            "a youthful ambition"
+          ]
+        }
+      ],
+      "translation": "Peter 受过良好教育，也游历甚广，却对自己人生想要什么十分茫然。年轻时，他以为会成为作家。Sally 问：“你写了吗？”52 岁的 Peter 答：“一字没写！”并笑了起来。",
+      "support": "explicit",
+      "editorialStatus": "按实际PDF修复相邻单元断句；原字符、源ID与阅读次序保留，旧版本和作答快照不改写。",
+      "sourceSegments": [
+        {
+          "paragraphId": "c13-s07-p158-05040",
+          "start": 0,
+          "end": 247,
+          "separator": "",
+          "text": "For a well-educated and well-traveled person, Peter is truly clueless as to what he wants in his life. When he was young, he thought he would be a writer. Sally asked, “Have you written?” Peter replied, at age fifty-two, “Not a word!” and laughed."
+        }
+      ],
+      "boundaryRepair": "sentence-boundaries-2026-10-25",
+      "fingerprint": "b79303b349f01a123039aede508fca20f0003bcfccc74e8df1cdff1dd33a4cda"
+    },
+    {
+      "id": "q-c13-097",
+      "version": 2,
+      "readingUnitId": "c13-s07-p158-05040-r005-008",
+      "chapterId": "c13",
+      "sectionId": "c13-s07",
+      "paragraphId": "c13-s07-p158-05040",
+      "sentenceIds": [
+        "c13-s07-p158-05040-s006",
+        "c13-s07-p158-05040-s007",
+        "c13-s07-p158-05040-s008"
+      ],
+      "passage": "Throughout the novel, Peter thinks about Clarissa, Clarissa in childhood, adolescence, and adulthood. Although he found love in India, he could not keep his eyes off her. What is so attractive about Clarissa?",
+      "prompt": "What can be inferred about Peter’s attention to Clarissa?",
+      "options": [
+        "Love in India erased all memories of Clarissa.",
+        "His attachment to Clarissa persists despite another love in India.",
+        "He remembers Clarissa only as a stranger at the party.",
+        "The author has already explained exactly why she attracts him."
+      ],
+      "answer": 1,
+      "type": "推断",
+      "promptZh": "关于Peter对Clarissa的关注，能推什么？",
+      "optionsZh": [
+        "在印度的爱抹掉所有Clarissa记忆。",
+        "虽在印度另有爱情，对Clarissa的牵挂仍在。",
+        "只把她记作派对陌生人。",
+        "作者已精确解释她为何吸引他。"
+      ],
+      "analyses": [
+        "A Throughout the novel...thinks about明显不是抹去。",
+        "B Although...found love in India...could not keep eyes off her支持牵挂仍存，不据此补写具体关系行为。",
+        "C childhood/adolescence/adulthood均被回想，不是仅陌生人。",
+        "D 末句仍在询问吸引力的原因，没有给出确切解释；本段讨论小说人物，不能当作实验结论。"
+      ],
+      "evidence": [
+        {
+          "quote": "Although he found love in India, he could not keep his eyes off her.",
+          "sentenceIds": [
+            "c13-s07-p158-05040-s007"
+          ],
+          "sources": [
+            {
+              "pdfPage": 158,
+              "block": 2,
+              "bbox": [
+                76.99,
+                504,
+                535.01,
+                694.02
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "could not keep his eyes off",
+          "meaning": "无法把目光从……移开",
+          "context": "这里表示持续被吸引，不是眼睛受伤的字面症状",
+          "example": "He could not keep his eyes off the familiar face.",
+          "collocations": [
+            "keep one’s eyes off",
+            "throughout the novel"
+          ]
+        }
+      ],
+      "translation": "整部小说里，Peter 都想着 Clarissa，童年、少年、成年时的她。虽然在印度找到了爱情，他仍无法把目光从她身上移开。Clarissa 究竟有什么吸引力？",
+      "support": "limited-inference",
+      "editorialStatus": "按实际PDF修复相邻单元断句；原字符、源ID与阅读次序保留，旧版本和作答快照不改写。",
+      "sourceSegments": [
+        {
+          "paragraphId": "c13-s07-p158-05040",
+          "start": 248,
+          "end": 456,
+          "separator": "",
+          "text": "Throughout the novel, Peter thinks about Clarissa, Clarissa in childhood, adolescence, and adulthood. Although he found love in India, he could not keep his eyes off her. What is so attractive about Clarissa?"
+        }
+      ],
+      "boundaryRepair": "sentence-boundaries-2026-10-25",
+      "fingerprint": "9245b749bbf31ada95aeba5433365a91bb3b54970f607c9fa9c8d9ef0f20f416"
+    },
+    {
+      "id": "q-c14-056",
+      "version": 2,
+      "readingUnitId": "c14-s04-p167-06585-r001-003",
+      "chapterId": "c14",
+      "sectionId": "c14-s04",
+      "paragraphId": "c14-s04-p167-06585",
+      "sentenceIds": [
+        "c14-s04-p167-06585-s001",
+        "c14-s04-p167-06585-s002",
+        "c14-s04-p167-06585-s003",
+        "c14-s04-p168-00750-s001"
+      ],
+      "passage": "7. “Take a Dozen”: Both pigeons and humans don’t explore enough. The comfort of familiarity is so powerfully attractive that we forget the joy of exploration, eating the same snack, going to the same chain, and sitting quietly on our commute.",
+      "prompt": "What obstacle to exploration is identified in this excerpt?",
+      "options": [
+        "The powerful attraction of familiar routines.",
+        "The complete disappearance of familiar restaurants.",
+        "An inability to distinguish pigeons from humans.",
+        "A requirement to change snacks on every journey."
+      ],
+      "answer": 0,
+      "type": "主旨",
+      "promptZh": "这段指出探索的什么障碍？",
+      "optionsZh": [
+        "熟悉惯例具有强大吸引力。",
+        "熟悉餐厅完全消失。",
+        "无法分辨鸽子与人。",
+        "每趟旅程都必须换零食。"
+      ],
+      "analyses": [
+        "A comfort of familiarity…powerfully attractive为核心解释。",
+        "B going to the same chain恰说明重复光顾。",
+        "C pigeons/humans是并列比较，不是识别障碍。",
+        "D eating the same snack 是重复选择的例子，并未提出每趟旅程都换零食的规则。"
+      ],
+      "evidence": [
+        {
+          "quote": "The comfort of familiarity is so powerfully attractive that we forget the joy of exploration",
+          "sentenceIds": [
+            "c14-s04-p167-06585-s003"
+          ],
+          "sources": [
+            {
+              "pdfPage": 167,
+              "block": 4,
+              "bbox": [
+                88.24,
+                658.5,
+                535,
+                712.02
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "familiarity",
+          "meaning": "熟悉；熟悉感",
+          "context": "熟悉带来的舒适吸引人重复既有选择",
+          "example": "Familiarity can make a place feel comfortable.",
+          "collocations": [
+            "the comfort of familiarity",
+            "the joy of exploration"
+          ]
+        }
+      ],
+      "translation": "7. “先试十二个”：鸽子和人都探索得不够。熟悉感带来的舒适如此有吸引力，让我们忘了探索的乐趣，吃同样的零食、去同一家连锁店，并在通勤途中静静坐着。",
+      "support": "explicit",
+      "editorialStatus": "按实际PDF修复相邻单元断句；原字符、源ID与阅读次序保留，旧版本和作答快照不改写。",
+      "sourceSegments": [
+        {
+          "paragraphId": "c14-s04-p167-06585",
+          "start": 0,
+          "end": 218,
+          "separator": "",
+          "text": "7. “Take a Dozen”: Both pigeons and humans don’t explore enough. The comfort of familiarity is so powerfully attractive that we forget the joy of exploration, eating the same snack, going to the same chain, and sitting"
+        },
+        {
+          "paragraphId": "c14-s04-p168-00750",
+          "start": 0,
+          "end": 23,
+          "separator": " ",
+          "text": "quietly on our commute."
+        }
+      ],
+      "boundaryRepair": "sentence-boundaries-2026-10-25",
+      "fingerprint": "deb831627b1e1b885b9cb3e3d01bce4190a617f0cb1080ed5a952f48509c67ff"
+    },
+    {
+      "id": "q-c14-057",
+      "version": 2,
+      "readingUnitId": "c14-s04-p168-00750-r001-003",
+      "chapterId": "c14",
+      "sectionId": "c14-s04",
+      "paragraphId": "c14-s04-p168-00750",
+      "sentenceIds": [
+        "c14-s04-p168-00750-s002",
+        "c14-s04-p168-00750-s003"
+      ],
+      "passage": "But acknowledge this bias and we can overcome it; the “take a dozen” heuristic reminds us to explore at least twelve potential mates, apartments, restaurants, etc., before we take our pick. We make a better decision when we explore more.",
+      "prompt": "What does the “take a dozen” heuristic recommend before making a choice?",
+      "options": [
+        "Choosing the first familiar option to avoid effort.",
+        "Comparing exactly twelve countries on every trip.",
+        "Exploring at least twelve possibilities before selecting one.",
+        "Keeping twelve apartments at the same time."
+      ],
+      "answer": 2,
+      "type": "细节",
+      "promptZh": "“先试十二个”的启发式建议在选择前做什么？",
+      "optionsZh": [
+        "为省事选第一个熟悉选项。",
+        "每趟旅行恰好比较十二国。",
+        "选定之前探索至少十二种可能。",
+        "同时保留十二套公寓。"
+      ],
+      "analyses": [
+        "A 与explore before take our pick相反。",
+        "B at least不是exactly；对象例举伴侣、公寓、餐厅等，非只限国家。",
+        "C at least twelve与before take our pick直接支持。",
+        "D explore 指探索潜在选择，不等于同时占有十二套公寓。"
+      ],
+      "evidence": [
+        {
+          "quote": "explore at least twelve potential mates, apartments, restaurants, etc., before we take our pick.",
+          "sentenceIds": [
+            "c14-s04-p168-00750-s002"
+          ],
+          "sources": [
+            {
+              "pdfPage": 168,
+              "block": 0,
+              "bbox": [
+                103.24,
+                75,
+                535,
+                148.02
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "heuristic",
+          "meaning": "启发式；经验性决策方法",
+          "context": "作者以至少探索十二种可能的经验规则提醒人克服熟悉偏好，非保证每次最优",
+          "example": "A simple heuristic can guide an initial search.",
+          "collocations": [
+            "a decision heuristic",
+            "take our pick"
+          ]
+        }
+      ],
+      "translation": "但承认这种偏向，我们便能克服它；“先试十二个”的启发式提醒我们，选定之前至少探索十二个潜在伴侣、公寓、餐厅等。探索更多，我们就能做出更好的决定。",
+      "support": "explicit",
+      "editorialStatus": "按实际PDF修复相邻单元断句；原字符、源ID与阅读次序保留，旧版本和作答快照不改写。",
+      "sourceSegments": [
+        {
+          "paragraphId": "c14-s04-p168-00750",
+          "start": 24,
+          "end": 261,
+          "separator": "",
+          "text": "But acknowledge this bias and we can overcome it; the “take a dozen” heuristic reminds us to explore at least twelve potential mates, apartments, restaurants, etc., before we take our pick. We make a better decision when we explore more."
+        }
+      ],
+      "boundaryRepair": "sentence-boundaries-2026-10-25",
+      "fingerprint": "8565647d8211405e76dd145edf00f6b6a7b7f91ac75199583a63913acc6981f9"
+    },
+    {
+      "id": "q-c14-065",
+      "version": 2,
+      "readingUnitId": "c14-s04-p168-06390-r005-008",
+      "chapterId": "c14",
+      "sectionId": "c14-s04",
+      "paragraphId": "c14-s04-p168-06390",
+      "sentenceIds": [
+        "c14-s04-p168-06390-s005",
+        "c14-s04-p168-06390-s006",
+        "c14-s04-p168-06390-s007"
+      ],
+      "passage": "Deviate from routines from time to time. Be Alice in Alice in Wonderland! Seek the unknown.",
+      "prompt": "What is the purpose of the reference to Alice in Wonderland?",
+      "options": [
+        "To encourage occasional departures from routine and curiosity about the unknown.",
+        "To require readers to imitate every action of a fictional character.",
+        "To say that real-life routines are always harmful.",
+        "To provide evidence from an experiment on reading speed."
+      ],
+      "answer": 0,
+      "type": "作者意图",
+      "promptZh": "提到《爱丽丝梦游仙境》的意图是什么？",
+      "optionsZh": [
+        "鼓励偶尔离开惯例、好奇未知。",
+        "要求逐一模仿虚构人物所有行为。",
+        "宣称现实中的惯例总有害。",
+        "提供阅读速度实验的证据。"
+      ],
+      "analyses": [
+        "A from time to time和Seek the unknown为比喻提供定位。",
+        "B Be Alice是文学式鼓励，不是逐项行为命令。",
+        "C 偶尔偏离不等于总有害。",
+        "D 文学角色是鼓励探索的比喻，不构成关于阅读速度的实验依据。"
+      ],
+      "evidence": [
+        {
+          "quote": "Deviate from routines from time to time. Be Alice in Alice in Wonderland! Seek the unknown.",
+          "sentenceIds": [
+            "c14-s04-p168-06390-s005",
+            "c14-s04-p168-06390-s006",
+            "c14-s04-p168-06390-s007"
+          ],
+          "sources": [
+            {
+              "pdfPage": 168,
+              "block": 4,
+              "bbox": [
+                88.24,
+                639,
+                535.01,
+                712.02
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "deviate from",
+          "meaning": "偏离",
+          "context": "偶尔改变惯例，保留from time to time的频率限制",
+          "example": "We deviated from our usual route on Saturday.",
+          "collocations": [
+            "deviate from a routine",
+            "from time to time"
+          ]
+        }
+      ],
+      "translation": "时不时偏离惯例。像《爱丽丝梦游仙境》中的 Alice 那样！去寻找未知。",
+      "support": "explicit",
+      "editorialStatus": "按实际PDF修复相邻单元断句；原字符、源ID与阅读次序保留，旧版本和作答快照不改写。",
+      "sourceSegments": [
+        {
+          "paragraphId": "c14-s04-p168-06390",
+          "start": 184,
+          "end": 275,
+          "separator": "",
+          "text": "Deviate from routines from time to time. Be Alice in Alice in Wonderland! Seek the unknown."
+        }
+      ],
+      "boundaryRepair": "sentence-boundaries-2026-10-25",
+      "fingerprint": "b3e19abd31d9add6bbf238a4a4103694907b3ef27b46199056cbae4e451e93df"
+    },
+    {
+      "id": "q-c14-066",
+      "version": 2,
+      "readingUnitId": "c14-s04-p169-00750-r001-002",
+      "chapterId": "c14",
+      "sectionId": "c14-s04",
+      "paragraphId": "c14-s04-p169-00750",
+      "sentenceIds": [
+        "c14-s04-p168-06390-s008",
+        "c14-s04-p169-00750-s001",
+        "c14-s04-p169-00750-s002"
+      ],
+      "passage": "Stop by a gallery, a used bookstore, or a Goodwill store. You never know what you will find.",
+      "prompt": "What attitude is conveyed by “You never know what you will find”?",
+      "options": [
+        "Confidence that every visit will produce a valuable purchase.",
+        "A warning that galleries contain the same things as shops.",
+        "A demand to avoid places without a fixed shopping list.",
+        "Openness to unexpected discoveries."
+      ],
+      "answer": 3,
+      "type": "推断",
+      "promptZh": "“You never know what you will find”表达什么态度？",
+      "optionsZh": [
+        "确信每次造访都会买到值钱东西。",
+        "警告画廊和商店物品相同。",
+        "要求没固定购物清单就别去。",
+        "对意外发现保持开放。"
+      ],
+      "analyses": [
+        "A 未知发现不是保证购买获利。",
+        "B 场所并列不表示内容相同。",
+        "C 与never know所含开放性不符。",
+        "D You never know what you will find 表达对意外发现的开放态度，不是保证每次探访都能获得好处。"
+      ],
+      "evidence": [
+        {
+          "quote": "You never know what you will find.",
+          "sentenceIds": [
+            "c14-s04-p169-00750-s002"
+          ],
+          "sources": [
+            {
+              "pdfPage": 169,
+              "block": 0,
+              "bbox": [
+                103.24,
+                75,
+                535,
+                109.02
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "used bookstore",
+          "meaning": "旧书店；二手书店",
+          "context": "作者列举可顺路探访的场所之一",
+          "example": "I found an old travel journal in a used bookstore.",
+          "collocations": [
+            "browse a used bookstore",
+            "stop by a gallery"
+          ]
+        }
+      ],
+      "translation": "顺路去一家画廊、旧书店或 Goodwill 店。你永远不知道会发现什么。",
+      "support": "limited-inference",
+      "editorialStatus": "按实际PDF修复相邻单元断句；原字符、源ID与阅读次序保留，旧版本和作答快照不改写。",
+      "sourceSegments": [
+        {
+          "paragraphId": "c14-s04-p168-06390",
+          "start": 276,
+          "end": 285,
+          "separator": "",
+          "text": "Stop by a"
+        },
+        {
+          "paragraphId": "c14-s04-p169-00750",
+          "start": 0,
+          "end": 82,
+          "separator": " ",
+          "text": "gallery, a used bookstore, or a Goodwill store. You never know what you will find."
+        }
+      ],
+      "boundaryRepair": "sentence-boundaries-2026-10-25",
+      "fingerprint": "7c6d5d9b99c0425cb2d9526974e17a0fc269b6e7ca5dc68ee7be087a132fbbf2"
+    }
+  ],
+  "units": [
+    {
+      "id": "c05-s04-p049-04260-r001-004",
+      "chapterId": "c05",
+      "sectionId": "c05-s04",
+      "paragraphId": "c05-s04-p049-04260",
+      "sentenceIds": [
+        "c05-s04-p049-04260-s001",
+        "c05-s04-p049-04260-s002",
+        "c05-s04-p049-04260-s003",
+        "c05-s04-p049-04260-s004",
+        "c05-s04-p049-04260-s005"
+      ],
+      "wordCount": 60,
+      "questionId": "q-c05-039",
+      "pdfPages": [
+        49
+      ],
+      "sourceSegments": [
+        {
+          "paragraphId": "c05-s04-p049-04260",
+          "start": 0,
+          "end": 328,
+          "separator": "",
+          "text": "I don’t remember many conversations I had in Tokyo with professors, deans, or even friends around that time. Yet many things that happened during my study abroad are still vivid in my memory. For instance, I shared my dorm room with a student named Mike. I’d often pick up the phone and hear, “Is Mike there?” and I’d say, “No.”"
+        }
+      ]
+    },
+    {
+      "id": "c05-s04-p049-04260-r005-008",
+      "chapterId": "c05",
+      "sectionId": "c05-s04",
+      "paragraphId": "c05-s04-p049-04260",
+      "sentenceIds": [
+        "c05-s04-p049-04260-s006",
+        "c05-s04-p049-04260-s007",
+        "c05-s04-p049-04260-s008"
+      ],
+      "wordCount": 48,
+      "questionId": "q-c05-040",
+      "pdfPages": [
+        49
+      ],
+      "sourceSegments": [
+        {
+          "paragraphId": "c05-s04-p049-04260",
+          "start": 329,
+          "end": 571,
+          "separator": "",
+          "text": "Then the voice on the other end usually said, “Could you tell him so-and-so called?” Since I was still learning English, I was never able to make out who this was, so I needed to ask, “Could you please spell it out?” so I could write it down."
+        }
+      ]
+    },
+    {
+      "id": "c06-s02-p058-00750-r001-004",
+      "chapterId": "c06",
+      "sectionId": "c06-s02",
+      "paragraphId": "c06-s02-p058-00750",
+      "sentenceIds": [
+        "c06-s02-p058-00750-s001"
+      ],
+      "wordCount": 34,
+      "questionId": "q-c06-031",
+      "pdfPages": [
+        58
+      ],
+      "sourceSegments": [
+        {
+          "paragraphId": "c06-s02-p058-00750",
+          "start": 0,
+          "end": 228,
+          "separator": "",
+          "text": "Later, psychologists had a large pool of participants rate themselves using many of the original Allport-Odbert terms, then applied the statistical technique of factor analysis to sort the terms into larger groups, or “factors.”"
+        }
+      ]
+    },
+    {
+      "id": "c06-s02-p058-00750-r005-005",
+      "chapterId": "c06",
+      "sectionId": "c06-s02",
+      "paragraphId": "c06-s02-p058-00750",
+      "sentenceIds": [
+        "c06-s02-p058-00750-s002",
+        "c06-s02-p058-00750-s003",
+        "c06-s02-p058-00750-s004",
+        "c06-s02-p058-00750-s005"
+      ],
+      "wordCount": 34,
+      "questionId": "q-c06-032",
+      "pdfPages": [
+        58
+      ],
+      "sourceSegments": [
+        {
+          "paragraphId": "c06-s02-p058-00750",
+          "start": 229,
+          "end": 420,
+          "separator": "",
+          "text": "For example, Lew Goldberg had 187 college students rate themselves on 1,710 terms: “How jolly are you in general? How reserved are you in general? How sadistic are you in general?” and so on."
+        }
+      ]
+    },
+    {
+      "id": "c10-s01-p103-03848-r001-004",
+      "chapterId": "c10",
+      "sectionId": "c10-s01",
+      "paragraphId": "c10-s01-p103-03848",
+      "sentenceIds": [
+        "c10-s01-p103-03848-s001",
+        "c10-s01-p103-03848-s002",
+        "c10-s01-p103-03848-s003"
+      ],
+      "wordCount": 35,
+      "questionId": "q-c10-001",
+      "pdfPages": [
+        103
+      ],
+      "sourceSegments": [
+        {
+          "paragraphId": "c10-s01-p103-03848",
+          "start": 0,
+          "end": 194,
+          "separator": "",
+          "text": "A WWE match could be an interesting weekend outing. A visit to a national park might evoke awe and wonder you rarely experience in your everyday life. Schindler’s List will make you cry and cry."
+        }
+      ]
+    },
+    {
+      "id": "c10-s01-p103-03848-r005-008",
+      "chapterId": "c10",
+      "sectionId": "c10-s01",
+      "paragraphId": "c10-s01-p103-03848",
+      "sentenceIds": [
+        "c10-s01-p103-03848-s004",
+        "c10-s01-p103-03848-s005",
+        "c10-s01-p103-03848-s006",
+        "c10-s01-p103-03848-s007",
+        "c10-s01-p103-03848-s008"
+      ],
+      "wordCount": 47,
+      "questionId": "q-c10-002",
+      "pdfPages": [
+        103
+      ],
+      "sourceSegments": [
+        {
+          "paragraphId": "c10-s01-p103-03848",
+          "start": 195,
+          "end": 498,
+          "separator": "",
+          "text": "“So what?” you might ask (despite reading the last chapter). Aren’t these activities all what the philosopher Blaise Pascal would have called “diversions”? Other than filling people’s time to avoid boredom, do these activities have any genuine benefits? In other words, what is the point of exploration?"
+        }
+      ]
+    },
+    {
+      "id": "c10-s07-p114-00750-r001-004",
+      "chapterId": "c10",
+      "sectionId": "c10-s07",
+      "paragraphId": "c10-s07-p114-00750",
+      "sentenceIds": [
+        "c10-s07-p114-00750-s001",
+        "c10-s07-p114-00750-s002",
+        "c10-s07-p114-00750-s003",
+        "c10-s07-p114-00750-s004",
+        "c10-s07-p114-00750-s005"
+      ],
+      "wordCount": 91,
+      "questionId": "q-c10-064",
+      "pdfPages": [
+        114
+      ],
+      "sourceSegments": [
+        {
+          "paragraphId": "c10-s07-p114-00750",
+          "start": 0,
+          "end": 477,
+          "separator": "",
+          "text": "When I was in Charlottesville, I would go to a local coffee shop every day and never went to Starbucks. But when I was traveling, I would realize that all of a sudden I loved going to Starbucks. When I was in the psychology building (Gilmer Hall) in Charlottesville and saw a graduate student walking by, I would greet them with a very curt “hey.” When I saw the same graduate student at a conference in Las Vegas, I went “Hey, Gary, so nice to see you!” and almost hugged him."
+        }
+      ]
+    },
+    {
+      "id": "c10-s07-p114-00750-r005-008",
+      "chapterId": "c10",
+      "sectionId": "c10-s07",
+      "paragraphId": "c10-s07-p114-00750",
+      "sentenceIds": [
+        "c10-s07-p114-00750-s006",
+        "c10-s07-p114-00750-s007",
+        "c10-s07-p114-00750-s008"
+      ],
+      "wordCount": 32,
+      "questionId": "q-c10-065",
+      "pdfPages": [
+        114
+      ],
+      "sourceSegments": [
+        {
+          "paragraphId": "c10-s07-p114-00750",
+          "start": 478,
+          "end": 660,
+          "separator": "",
+          "text": "Would I ever hug him in Gilmer Hall? No chance. So, a familiar person or store seems to be particularly attractive when you are away from familiar places and surrounded by strangers."
+        }
+      ]
+    },
+    {
+      "id": "c11-s07-p131-03795-r005-007",
+      "chapterId": "c11",
+      "sectionId": "c11-s07",
+      "paragraphId": "c11-s07-p131-03795",
+      "sentenceIds": [
+        "c11-s07-p131-03795-s005",
+        "c11-s07-p131-03795-s006"
+      ],
+      "wordCount": 32,
+      "questionId": "q-c11-061",
+      "pdfPages": [
+        131
+      ],
+      "sourceSegments": [
+        {
+          "paragraphId": "c11-s07-p131-03795",
+          "start": 562,
+          "end": 770,
+          "separator": "",
+          "text": "The great surprise of resilience research is the ordinariness of the phenomena. Resilience appears to be a common phenomenon that results in most cases from the operation of basic human adaptational systems.”"
+        }
+      ]
+    },
+    {
+      "id": "c11-s07-p131-06135-r001-001",
+      "chapterId": "c11",
+      "sectionId": "c11-s07",
+      "paragraphId": "c11-s07-p131-06135",
+      "sentenceIds": [
+        "c11-s07-p131-03795-s007",
+        "c11-s07-p131-06135-s001"
+      ],
+      "wordCount": 18,
+      "questionId": "q-c11-062",
+      "pdfPages": [
+        131
+      ],
+      "sourceSegments": [
+        {
+          "paragraphId": "c11-s07-p131-03795",
+          "start": 771,
+          "end": 888,
+          "separator": "",
+          "text": "Research provides empirical evidence for a popular Japanese proverb: “Fall seven times, stand up an eighth time” (七転八"
+        },
+        {
+          "paragraphId": "c11-s07-p131-06135",
+          "start": 0,
+          "end": 3,
+          "separator": "",
+          "text": "起)."
+        }
+      ]
+    },
+    {
+      "id": "c13-s01-p146-06202-r001-003",
+      "chapterId": "c13",
+      "sectionId": "c13-s01",
+      "paragraphId": "c13-s01-p146-06202",
+      "sentenceIds": [
+        "c13-s01-p146-06202-s001",
+        "c13-s01-p146-06202-s002"
+      ],
+      "wordCount": 48,
+      "questionId": "q-c13-018",
+      "pdfPages": [
+        146
+      ],
+      "sourceSegments": [
+        {
+          "paragraphId": "c13-s01-p146-06202",
+          "start": 0,
+          "end": 258,
+          "separator": "",
+          "text": "I read with interest this morning a report on your recent paper dealing with children who move frequently (UVA Today). I have been interested in this topic for quite a while as I grew up in a Navy family and moved, during my childhood years, every 2–3 years."
+        }
+      ]
+    },
+    {
+      "id": "c13-s01-p147-00750-r001-001",
+      "chapterId": "c13",
+      "sectionId": "c13-s01",
+      "paragraphId": "c13-s01-p147-00750",
+      "sentenceIds": [
+        "c13-s01-p146-06202-s003",
+        "c13-s01-p147-00750-s001"
+      ],
+      "wordCount": 20,
+      "questionId": "q-c13-019",
+      "pdfPages": [
+        146,
+        147
+      ],
+      "sourceSegments": [
+        {
+          "paragraphId": "c13-s01-p146-06202",
+          "start": 259,
+          "end": 266,
+          "separator": "",
+          "text": "Once we"
+        },
+        {
+          "paragraphId": "c13-s01-p147-00750",
+          "start": 0,
+          "end": 96,
+          "separator": " ",
+          "text": "actually lived in the same house for 4 years, but I changed schools 3 times during that period…."
+        }
+      ]
+    },
+    {
+      "id": "c13-s07-p158-05040-r001-004",
+      "chapterId": "c13",
+      "sectionId": "c13-s07",
+      "paragraphId": "c13-s07-p158-05040",
+      "sentenceIds": [
+        "c13-s07-p158-05040-s001",
+        "c13-s07-p158-05040-s002",
+        "c13-s07-p158-05040-s003",
+        "c13-s07-p158-05040-s004",
+        "c13-s07-p158-05040-s005"
+      ],
+      "wordCount": 44,
+      "questionId": "q-c13-096",
+      "pdfPages": [
+        158
+      ],
+      "sourceSegments": [
+        {
+          "paragraphId": "c13-s07-p158-05040",
+          "start": 0,
+          "end": 247,
+          "separator": "",
+          "text": "For a well-educated and well-traveled person, Peter is truly clueless as to what he wants in his life. When he was young, he thought he would be a writer. Sally asked, “Have you written?” Peter replied, at age fifty-two, “Not a word!” and laughed."
+        }
+      ]
+    },
+    {
+      "id": "c13-s07-p158-05040-r005-008",
+      "chapterId": "c13",
+      "sectionId": "c13-s07",
+      "paragraphId": "c13-s07-p158-05040",
+      "sentenceIds": [
+        "c13-s07-p158-05040-s006",
+        "c13-s07-p158-05040-s007",
+        "c13-s07-p158-05040-s008"
+      ],
+      "wordCount": 33,
+      "questionId": "q-c13-097",
+      "pdfPages": [
+        158
+      ],
+      "sourceSegments": [
+        {
+          "paragraphId": "c13-s07-p158-05040",
+          "start": 248,
+          "end": 456,
+          "separator": "",
+          "text": "Throughout the novel, Peter thinks about Clarissa, Clarissa in childhood, adolescence, and adulthood. Although he found love in India, he could not keep his eyes off her. What is so attractive about Clarissa?"
+        }
+      ]
+    },
+    {
+      "id": "c14-s04-p167-06585-r001-003",
+      "chapterId": "c14",
+      "sectionId": "c14-s04",
+      "paragraphId": "c14-s04-p167-06585",
+      "sentenceIds": [
+        "c14-s04-p167-06585-s001",
+        "c14-s04-p167-06585-s002",
+        "c14-s04-p167-06585-s003",
+        "c14-s04-p168-00750-s001"
+      ],
+      "wordCount": 41,
+      "questionId": "q-c14-056",
+      "pdfPages": [
+        167,
+        168
+      ],
+      "sourceSegments": [
+        {
+          "paragraphId": "c14-s04-p167-06585",
+          "start": 0,
+          "end": 218,
+          "separator": "",
+          "text": "7. “Take a Dozen”: Both pigeons and humans don’t explore enough. The comfort of familiarity is so powerfully attractive that we forget the joy of exploration, eating the same snack, going to the same chain, and sitting"
+        },
+        {
+          "paragraphId": "c14-s04-p168-00750",
+          "start": 0,
+          "end": 23,
+          "separator": " ",
+          "text": "quietly on our commute."
+        }
+      ]
+    },
+    {
+      "id": "c14-s04-p168-00750-r001-003",
+      "chapterId": "c14",
+      "sectionId": "c14-s04",
+      "paragraphId": "c14-s04-p168-00750",
+      "sentenceIds": [
+        "c14-s04-p168-00750-s002",
+        "c14-s04-p168-00750-s003"
+      ],
+      "wordCount": 40,
+      "questionId": "q-c14-057",
+      "pdfPages": [
+        168
+      ],
+      "sourceSegments": [
+        {
+          "paragraphId": "c14-s04-p168-00750",
+          "start": 24,
+          "end": 261,
+          "separator": "",
+          "text": "But acknowledge this bias and we can overcome it; the “take a dozen” heuristic reminds us to explore at least twelve potential mates, apartments, restaurants, etc., before we take our pick. We make a better decision when we explore more."
+        }
+      ]
+    },
+    {
+      "id": "c14-s04-p168-06390-r005-008",
+      "chapterId": "c14",
+      "sectionId": "c14-s04",
+      "paragraphId": "c14-s04-p168-06390",
+      "sentenceIds": [
+        "c14-s04-p168-06390-s005",
+        "c14-s04-p168-06390-s006",
+        "c14-s04-p168-06390-s007"
+      ],
+      "wordCount": 16,
+      "questionId": "q-c14-065",
+      "pdfPages": [
+        168
+      ],
+      "sourceSegments": [
+        {
+          "paragraphId": "c14-s04-p168-06390",
+          "start": 184,
+          "end": 275,
+          "separator": "",
+          "text": "Deviate from routines from time to time. Be Alice in Alice in Wonderland! Seek the unknown."
+        }
+      ]
+    },
+    {
+      "id": "c14-s04-p169-00750-r001-002",
+      "chapterId": "c14",
+      "sectionId": "c14-s04",
+      "paragraphId": "c14-s04-p169-00750",
+      "sentenceIds": [
+        "c14-s04-p168-06390-s008",
+        "c14-s04-p169-00750-s001",
+        "c14-s04-p169-00750-s002"
+      ],
+      "wordCount": 18,
+      "questionId": "q-c14-066",
+      "pdfPages": [
+        168,
+        169
+      ],
+      "sourceSegments": [
+        {
+          "paragraphId": "c14-s04-p168-06390",
+          "start": 276,
+          "end": 285,
+          "separator": "",
+          "text": "Stop by a"
+        },
+        {
+          "paragraphId": "c14-s04-p169-00750",
+          "start": 0,
+          "end": 82,
+          "separator": " ",
+          "text": "gallery, a used bookstore, or a Goodwill store. You never know what you will find."
+        }
+      ]
+    }
+  ],
+  "coverage": {
+    "totalCandidateSentences": 3160,
+    "includedSentences": 3160,
+    "duplicateSentenceIds": [],
+    "missingSentenceIds": [],
+    "units": 1056,
+    "unitsWithQuestions": 1056,
+    "unitsWithoutQuestions": 0,
+    "maxWords": 108,
+    "over90Words": [
+      "c01-s02-p010-05625-r001-003",
+      "c01-s03-p012-04612-r005-008",
+      "c01-s04-p014-04650-r001-004",
+      "c06-s03-p058-05745-r002-002",
+      "c10-s07-p114-00750-r001-004"
+    ],
+    "allSentencesIncluded": true,
+    "allQuestionsPrepared": true
+  }
+}

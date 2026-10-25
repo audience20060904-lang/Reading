@@ -4539,7 +4539,6 @@
         "c11-s07-p131-03795-s002",
         "c11-s07-p131-03795-s004",
         "c11-s07-p131-03795-s005",
-        "c11-s07-p131-03795-s007",
         "c11-s07-p131-06330-s001",
         "c11-s07-p131-06330-s003",
         "c11-s07-p131-06330-s004"
@@ -6347,5 +6346,14 @@
       "kind": "back-matter",
       "reason": "致谢、注释、附录、索引、作者介绍或出版推广，不计正文候选句子"
     }
-  ]
+  ],
+  "sentenceBoundaryRepairs": {
+    "id": "sentence-boundaries-2026-10-25",
+    "boundaries": 9,
+    "revisedQuestions": 18,
+    "status": "compiled-and-source-reviewed",
+    "catalog": "src/data/sentence-repair-catalog.json",
+    "review": "source/sentence-repair-review.json",
+    "baselineRetained": true
+  }
 }

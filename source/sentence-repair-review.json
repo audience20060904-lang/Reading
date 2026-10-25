@@ -1,0 +1,247 @@
+{
+  "schemaVersion": 1,
+  "id": "sentence-boundaries-2026-10-25",
+  "date": "2026-10-25",
+  "pdfSha256": "be25c859f1bd894a4b0d1cff024ded1297f6a96a8e8ddabea1e3abcf89160a50",
+  "reviewer": "Codex PDF original-page visual review",
+  "reviewScope": "Sentence-boundary continuity only, not finalized manual segmentation of all 3160 candidate IDs",
+  "pages": [
+    {
+      "pdfPage": 49,
+      "renderSha256": "7694ee7ae88eee540541b3ff20d0f28d10402f4c30da80c9d3493e1bf9c20842",
+      "method": "Actual original PDF rendered with Poppler at scale-to 1400 and complete page visually inspected"
+    },
+    {
+      "pdfPage": 58,
+      "renderSha256": "5c3b8d1cfd5f9c22e3ccfbf6d46743ddf12e1f92812af63556b1ef24178b76dc",
+      "method": "Actual original PDF rendered with Poppler at scale-to 1400 and complete page visually inspected"
+    },
+    {
+      "pdfPage": 103,
+      "renderSha256": "15c1a9238168f10d98a55cafb6e360596b78cf2988d67f8876f919e27a6504e3",
+      "method": "Actual original PDF rendered with Poppler at scale-to 1400 and complete page visually inspected"
+    },
+    {
+      "pdfPage": 114,
+      "renderSha256": "158ca0741850f8445db26dca5e714c6c36913588b7999d603b00daa85fcbd09a",
+      "method": "Actual original PDF rendered with Poppler at scale-to 1400 and complete page visually inspected"
+    },
+    {
+      "pdfPage": 131,
+      "renderSha256": "e18e73068f57d447d3a9a1d1756ffefe6abecbe824c0fb6863189906635dbb7b",
+      "method": "Actual original PDF rendered with Poppler at scale-to 1400 and complete page visually inspected"
+    },
+    {
+      "pdfPage": 146,
+      "renderSha256": "c4a5440f346587d50fe06ad28534a1a3d5411ac863f5dbae0f06b888d49e95b9",
+      "method": "Actual original PDF rendered with Poppler at scale-to 1400 and complete page visually inspected"
+    },
+    {
+      "pdfPage": 147,
+      "renderSha256": "fabbce441025591c83a6f9fdf8edc96c0df69c2e122e33e17d8f3629e14f1c3f",
+      "method": "Actual original PDF rendered with Poppler at scale-to 1400 and complete page visually inspected"
+    },
+    {
+      "pdfPage": 158,
+      "renderSha256": "e0a2046fc3fe942ab3a1afe9107a97b5df14b23f4485f6cc497411dd255f97ec",
+      "method": "Actual original PDF rendered with Poppler at scale-to 1400 and complete page visually inspected"
+    },
+    {
+      "pdfPage": 167,
+      "renderSha256": "82bb8d5d0ff85636dc324e0bf5b8e55d8cb7b6b3d359979049fdc1960066aec4",
+      "method": "Actual original PDF rendered with Poppler at scale-to 1400 and complete page visually inspected"
+    },
+    {
+      "pdfPage": 168,
+      "renderSha256": "04b59044b8169cb6340225fc3b501f527db42941ccacb3345f845ff8c46ca396",
+      "method": "Actual original PDF rendered with Poppler at scale-to 1400 and complete page visually inspected"
+    },
+    {
+      "pdfPage": 169,
+      "renderSha256": "7d821d0c13789c9362d19bce9ca46a0663433dce59037d6927cd5dc0397838a1",
+      "method": "Actual original PDF rendered with Poppler at scale-to 1400 and complete page visually inspected"
+    }
+  ],
+  "pairs": [
+    {
+      "left": "q-c05-039",
+      "right": "q-c05-040",
+      "direction": "right-to-left",
+      "sentenceIds": [
+        "c05-s04-p049-04260-s005"
+      ],
+      "reason": "问话后的and I’d say属于同一句，不能让下一段从答话连接词开始。",
+      "status": "visually-verified-and-compiled",
+      "beforeFingerprints": {
+        "q-c05-039": "b7f0df8c053b80dccaf2b880e04a188779127a9f724bd7e1d0df63997edbf9e0",
+        "q-c05-040": "52d9f5b56a51731087c5c59bb0da738d71daa76cb5c44c56eb28f9a3dc69c8c0"
+      },
+      "afterFingerprints": {
+        "q-c05-039": "fc9ebdc068e478897d5ddf17f09bb1e9fdb2fba24627f6e27eb8880cb5ce31b2",
+        "q-c05-040": "34ac6009319a56532f46adaa748f870af904254adcf7e9d700ddbcfb33feec94"
+      }
+    },
+    {
+      "left": "q-c06-031",
+      "right": "q-c06-032",
+      "direction": "left-to-right",
+      "sentenceIds": [
+        "c06-s02-p058-00750-s002",
+        "c06-s02-p058-00750-s003",
+        "c06-s02-p058-00750-s004"
+      ],
+      "reason": "将整个Goldberg问卷例句和and so on放在同一段，前段保留完整因素分析说明。",
+      "status": "visually-verified-and-compiled",
+      "beforeFingerprints": {
+        "q-c06-031": "5618ccd9c1e052ac09af408d1d331b0449a2e9603ad297b22218fb5497af14eb",
+        "q-c06-032": "dcbaf5d59bb6dfe07832db2e73ddf3517214f2abe028259b1ad9e05ff89d48c6"
+      },
+      "afterFingerprints": {
+        "q-c06-031": "6dba227c56fb46052fba1893a1b8a89ec204d44802b3f4a31521f57dec5f7e4e",
+        "q-c06-032": "c94269465bcd8fae1449fba73596e05fbfe6131ef8a0e1890465fb3faefb3c2e"
+      }
+    },
+    {
+      "left": "q-c10-001",
+      "right": "q-c10-002",
+      "direction": "left-to-right",
+      "sentenceIds": [
+        "c10-s01-p103-03848-s004"
+      ],
+      "reason": "把“So what?”与you might ask保留在同一句。",
+      "status": "visually-verified-and-compiled",
+      "beforeFingerprints": {
+        "q-c10-001": "850b041162857e65bbf53f2d4ad815b8d665ed4c20dde0db9136973cd5c2322d",
+        "q-c10-002": "d192640390ce1bae2a5e9d9d5c719db5ef1964fcfb55ae9366cbc2374752de14"
+      },
+      "afterFingerprints": {
+        "q-c10-001": "5ea4b6d9ef5d7cfab6cd9a24df07a4cc6c9e2ce334f8a1ba1f2c2067c5ad4b24",
+        "q-c10-002": "fac907321c2858bc5ff1f6b369ed533bd313bfe946766ed8d3e359a37273ed56"
+      }
+    },
+    {
+      "left": "q-c10-064",
+      "right": "q-c10-065",
+      "direction": "right-to-left",
+      "sentenceIds": [
+        "c10-s07-p114-00750-s005"
+      ],
+      "reason": "and almost hugged him是会议问候后同一句的动作。",
+      "status": "visually-verified-and-compiled",
+      "beforeFingerprints": {
+        "q-c10-064": "622dd4d19ec1702b377ce89122439400348232598af421ce7d006305074d9864",
+        "q-c10-065": "396880af35e885ee666868993ce596ced2b054460ab026b13e2786c88048cdd7"
+      },
+      "afterFingerprints": {
+        "q-c10-064": "1ba685c3f7c6a76c572eb5c35f822cc76cc5c1f96f7265e8f5cc7242de02672e",
+        "q-c10-065": "d405d6d938e5f744108b4748132c0e436eaa089fc01eac9d73dfdd4bb82dc57f"
+      }
+    },
+    {
+      "left": "q-c11-061",
+      "right": "q-c11-062",
+      "direction": "left-to-right",
+      "sentenceIds": [
+        "c11-s07-p131-03795-s007"
+      ],
+      "reason": "日语七転八起是同一谚语，不能把最后一个字独立成题。",
+      "join": "",
+      "status": "visually-verified-and-compiled",
+      "beforeFingerprints": {
+        "q-c11-061": "d5e827d261fa508b60fc1a14ce5bc7799f4adaeae45e7982cb2ded6b052d8db0",
+        "q-c11-062": "caa2bc754809d8f0cde3a4b51f9ade846d0fbd9dfa7c2e1fd53c412bf13f8914"
+      },
+      "afterFingerprints": {
+        "q-c11-061": "84e01ba1ee5561efa8b3856e5aea3d33368ee966baec32b3ec8fefb186fd8f35",
+        "q-c11-062": "1e9d5f44313f0af90c766a9aa495fda179535251c9b3ab9050d8ac45bc5c5bca"
+      }
+    },
+    {
+      "left": "q-c13-018",
+      "right": "q-c13-019",
+      "direction": "left-to-right",
+      "sentenceIds": [
+        "c13-s01-p146-06202-s003"
+      ],
+      "reason": "Once we与下一PDF页actually lived合为完整原句。",
+      "join": " ",
+      "status": "visually-verified-and-compiled",
+      "beforeFingerprints": {
+        "q-c13-018": "3d9b843d13241058d17f4eabddde534b89d5ce60cbe801a790ae1139ec0a1a44",
+        "q-c13-019": "5a94a0b323af4fab828c03325a6295973d3b159f897a53092dcff9007c9973c8"
+      },
+      "afterFingerprints": {
+        "q-c13-018": "a18cefe83d8191b99d81518890207616211114d5df56babdde11787e4713fffc",
+        "q-c13-019": "b6a35d7b02e0543047255fc63edfc4bb1a84f6e1f3e2288f36464032f581c09e"
+      }
+    },
+    {
+      "left": "q-c13-096",
+      "right": "q-c13-097",
+      "direction": "right-to-left",
+      "sentenceIds": [
+        "c13-s07-p158-05040-s005"
+      ],
+      "reason": "and laughed是Peter答话后同一句的动作。",
+      "status": "visually-verified-and-compiled",
+      "beforeFingerprints": {
+        "q-c13-096": "165bf8df78988f38301dc421e97f67494c002c987ed17da9864644285f32e2ea",
+        "q-c13-097": "4472497b873bccffd170681fc0ca112f9bd9b29aff8910fc29889524ddcf798d"
+      },
+      "afterFingerprints": {
+        "q-c13-096": "b79303b349f01a123039aede508fca20f0003bcfccc74e8df1cdff1dd33a4cda",
+        "q-c13-097": "9245b749bbf31ada95aeba5433365a91bb3b54970f607c9fa9c8d9ef0f20f416"
+      }
+    },
+    {
+      "left": "q-c14-056",
+      "right": "q-c14-057",
+      "direction": "right-to-left",
+      "sentenceIds": [
+        "c14-s04-p168-00750-s001"
+      ],
+      "reason": "sitting quietly on our commute不能在PDF页边界分开。",
+      "join": " ",
+      "status": "visually-verified-and-compiled",
+      "beforeFingerprints": {
+        "q-c14-056": "f0434792cde624c041b15d18bf306b7cdc5cea2a0ab320d8574d180c9c0557c6",
+        "q-c14-057": "cd08d49815503bca1471e472d93071547d82c456d23076e70fa0bf6204cd4b20"
+      },
+      "afterFingerprints": {
+        "q-c14-056": "deb831627b1e1b885b9cb3e3d01bce4190a617f0cb1080ed5a952f48509c67ff",
+        "q-c14-057": "8565647d8211405e76dd145edf00f6b6a7b7f91ac75199583a63913acc6981f9"
+      }
+    },
+    {
+      "left": "q-c14-065",
+      "right": "q-c14-066",
+      "direction": "left-to-right",
+      "sentenceIds": [
+        "c14-s04-p168-06390-s008"
+      ],
+      "reason": "Stop by a gallery是同一个祈使句。",
+      "join": " ",
+      "status": "visually-verified-and-compiled",
+      "beforeFingerprints": {
+        "q-c14-065": "958e8acabf72795708d0434ba665643f3ed76e1a586ff8a1c1c4ef8e8ffab93e",
+        "q-c14-066": "5001bcce4dc4f36fc96eba122e3b721fa5c06775271c69d6aae214ef8d1a66fa"
+      },
+      "afterFingerprints": {
+        "q-c14-065": "b3e19abd31d9add6bbf238a4a4103694907b3ef27b46199056cbae4e451e93df",
+        "q-c14-066": "7c6d5d9b99c0425cb2d9526974e17a0fc269b6e7ca5dc68ee7be087a132fbbf2"
+      }
+    }
+  ],
+  "preserved": [
+    "All 1056 baseline question objects and fingerprints",
+    "All original book paragraphs, raw blocks, sentence IDs and coordinates",
+    "All 1056 reading unit IDs and original reading order",
+    "All pre-existing question translations and passage translations",
+    "Real personal study data was not read, imported or changed"
+  ],
+  "remaining": [
+    "Candidate sentence IDs retain original automatic boundaries for audit; displayed boundaries are corrected for these nine reviewed cases.",
+    "Original intentional elliptical prose, quotation punctuation, colon-led introductions and letter signatures are not rewritten.",
+    "1661 candidate sentence IDs still have no direct evidence question; context coverage is not direct-evidence coverage."
+  ]
+}
