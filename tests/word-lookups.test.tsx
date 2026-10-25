@@ -7,6 +7,7 @@ import WordText from '../src/WordLookup';
 import ReadingPractice from '../src/ReadingPractice';
 import {getWordLookups} from '../src/wordLookups';
 import catalog from '../src/data/word-lookups.json';
+import baseline from './fixtures/word-lookups-v1.json';
 const read=(path:string)=>JSON.parse(readFileSync(path,'utf8'));
 const book=read('public/data/book.json') as Book,qs=read('public/data/questions.json') as Question[],plan=read('public/data/reading-plan.json') as ReadingPlan;
 const occurrences=Object.values(catalog.paragraphs).flat();
@@ -14,11 +15,11 @@ const textContent=(html:string)=>html.replace(/<[^>]*>/g,'').replace(/&amp;/g,'&
 
 describe('针对具体原文的离线查词',()=>{
  it('每个标注都对应真实原文字符、稳定位置和所属句子',()=>{
-  expect(occurrences).toHaveLength(205);expect(new Set(occurrences.map(o=>o.id)).size).toBe(205);
+  expect(occurrences).toHaveLength(624);expect(new Set(occurrences.map(o=>o.id)).size).toBe(624);
   for(const o of occurrences){const p=book.paragraphs.find(p=>p.id===o.paragraphId)!;expect(p.text.slice(o.start,o.end),o.id).toBe(o.text);expect(o.sentenceIds).toEqual(book.sentences.filter(s=>s.paragraphId===p.id&&s.start<o.end&&s.end>o.start).map(s=>s.id));}
  });
  it('仅预先选择的难词、熟词偏义或词组可查，普通词不泛化标蓝',()=>{
-  expect(catalog.entries).toHaveLength(157);for(const e of catalog.entries)expect(['difficult','shifted']).toContain(e.kind);
+  expect(catalog.entries).toHaveLength(475);for(const e of catalog.entries)expect(['difficult','shifted']).toContain(e.kind);
   const first=book.sentences[0];expect(getWordLookups(first.paragraphId,first.text,first.start).map(o=>o.text)).toEqual(['clementines']);
   expect(getWordLookups(first.paragraphId,'Yoshi',0)).toEqual([]);
  });
@@ -51,5 +52,12 @@ describe('针对具体原文的离线查词',()=>{
   const q={...qs[0],passage:'Changed historical wording with clementines.',fingerprint:'historical-example'},state=emptyState();state.readingUnitId=q.readingUnitId;state.session={questionId:q.id,attemptId:null,selected:0,startedAt:1,elapsedBefore:0};
   const html=renderToStaticMarkup(<ReadingPractice book={book} questions={qs} plan={plan} state={state} question={q} attempt={grade(q,q.answer,state,100)} busy={false} onUnit={()=>{}} onSelect={()=>{}} onSubmit={()=>{}} onChat={()=>{}} onSource={()=>{}} onFavorite={()=>{}} onMark={()=>{}} onRetry={()=>{}}/>);
   expect(html).toContain(q.passage);expect(html).not.toContain('lookup-word');
+ });
+ it('扩充后保留首批全部词义和位置，并补足14章的实际语境标注',()=>{
+  for(const e of baseline.entries)expect(catalog.entries.find(x=>x.id===e.id)).toEqual(e);
+  for(const o of Object.values(baseline.paragraphs).flat())expect(occurrences.find(x=>x.id===o.id)).toEqual(o);
+  const originalIds=new Set(Object.values(baseline.paragraphs).flat().map(o=>o.id)),added=occurrences.filter(o=>!originalIds.has(o.id));expect(added).toHaveLength(419);
+  for(const c of book.chapters)expect(added.some(o=>book.paragraphs.find(p=>p.id===o.paragraphId)?.chapterId===c.id),c.id).toBe(true);
+  expect(catalog.entries.find(e=>e.id==='concrete')?.otherMeanings.join('')).toContain('混凝土');expect(catalog.entries.find(e=>e.id==='principal')?.otherMeanings.join('')).toContain('本金');
  });
 });
