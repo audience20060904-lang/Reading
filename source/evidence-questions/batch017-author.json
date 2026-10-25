@@ -1,0 +1,975 @@
+{
+  "schemaVersion": 1,
+  "id": "evidence-017",
+  "status": "authored",
+  "evidenceRule": "frozen-target-sentence",
+  "questions": [
+    {
+      "order": 1,
+      "prompt": "Whose position is expressed by the claim that sorrow and longing 'make us whole'?",
+      "promptZh": "悲伤与渴望使我们完整，这一主张归属于谁？",
+      "options": [
+        "The participants who completed the diary survey.",
+        "The three obituary raters.",
+        "Susan Cain in Bittersweet.",
+        "A quoted college student's anonymous report."
+      ],
+      "optionsZh": [
+        "填写日记问卷的参与者。",
+        "三位讣告评分者。",
+        "《Bittersweet》中的 Susan Cain。",
+        "某匿名大学生报告的引文。"
+      ],
+      "answer": 2,
+      "type": "观点归属",
+      "support": "explicit",
+      "analyses": [
+        "A 不是日记参与者的话。",
+        "B 讣告研究在下一章，不是该引语来源。",
+        "C Susan Cain contends that 明示观点归属。",
+        "D 没有匿名大学生发言；引述一本书的主张不能直接当成本段新实验结论。"
+      ],
+      "vocabulary": [
+        {
+          "word": "contends",
+          "meaning": "主张；认为",
+          "context": "引出 Cain 在书中的论点，不等于作者此句已以实验独立证实。",
+          "example": "The essay contends that ordinary experiences deserve attention.",
+          "collocations": [
+            "contends that",
+            "contend in a book"
+          ]
+        }
+      ]
+    },
+    {
+      "order": 2,
+      "prompt": "Which capacities does Cain link to negative emotions?",
+      "promptZh": "Cain 把哪些能力与负面情绪联系起来？",
+      "options": [
+        "Greater empathy and creativity.",
+        "Better hearing and faster reading.",
+        "Perfect happiness with no sorrow.",
+        "Reduced ability to understand other people."
+      ],
+      "optionsZh": [
+        "更强同理心与创造力。",
+        "更好听力与更快阅读。",
+        "没有悲伤的完美幸福。",
+        "更弱的理解他人能力。"
+      ],
+      "answer": 0,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A more empathetic and even more creative 直接对应。",
+        "B 本句不讨论听力阅读。",
+        "C 主张负面情绪的作用，不是消除悲伤。",
+        "D empathetic 指更能体会他人，与选项相反；She 仍指 Cain，而非未具名研究参与者。"
+      ],
+      "vocabulary": [
+        {
+          "word": "empathetic",
+          "meaning": "有同理心的；能体会他人感受的",
+          "context": "描述 Cain 所主张的理解他人能力，不只是自己情绪强烈。",
+          "example": "An empathetic listener tries to understand another person's feelings.",
+          "collocations": [
+            "more empathetic",
+            "an empathetic response"
+          ]
+        }
+      ],
+      "evidenceQuote": "In her popular book Bittersweet, Susan Cain contends that “light and dark, birth and death—bitter and sweet—are forever paired” and that negative emotions such as sorrow and longing “make us whole.” She argues that negative emotions play a central role in our emotional lives and make us more empathetic and even more creative. Similarly, I think that negative emotions such as sorrow and longing, along with positive emotions, make our lives psychologically richer."
+    },
+    {
+      "order": 3,
+      "prompt": "What issue is introduced by the question about emotional complexity?",
+      "promptZh": "关于情绪复杂性的问句引出什么议题？",
+      "options": [
+        "Whether money can eliminate all negative feelings.",
+        "Which poet wrote the longest account of a happy day.",
+        "How to replace psychological richness with physical fitness.",
+        "How emotional complexity relates to psychological richness."
+      ],
+      "optionsZh": [
+        "金钱能否消除所有负面感受。",
+        "哪位诗人写了最长的幸福一天描述。",
+        "如何用体能替代心理丰富。",
+        "情绪复杂性与心理丰富有什么关系。"
+      ],
+      "answer": 3,
+      "type": "作者意图",
+      "support": "explicit",
+      "analyses": [
+        "A 没有将议题限定为金钱。",
+        "B 不问诗作长度或排名。",
+        "C 不讨论体能替代。",
+        "D What role...play 直接提出待研究关系，后文六项研究承接；问句本身还不是答案。"
+      ],
+      "vocabulary": [
+        {
+          "word": "emotional complexity",
+          "meaning": "情绪复杂性",
+          "context": "此处研究正负情绪组合的作用，不是简单将情绪复杂等同于心理问题。",
+          "example": "The novel explores emotional complexity through mixed feelings.",
+          "collocations": [
+            "the role of emotional complexity",
+            "emotional complexity in a life"
+          ]
+        }
+      ],
+      "evidenceQuote": "What role does emotional complexity play in psychological richness? In six studies, we explored the role of positive and negative emotions in happiness, meaning, and psychological richness. In all six, those who were leading a happy life experienced a lot of joy, contentment, and pleasantness but infrequently experienced sadness, anger, and fear. Those who were leading a meaningful life were quite similar to those leading a happy life in that they had more positive emotions than negative emotions."
+    },
+    {
+      "order": 4,
+      "prompt": "What is the stated scope of the six studies?",
+      "promptZh": "六项研究明示的考察范围是什么？",
+      "options": [
+        "Only fear and its effects on college grades.",
+        "Only positive feelings in a single diary entry.",
+        "Positive and negative emotions across happiness, meaning, and richness.",
+        "The wealth of six famous writers."
+      ],
+      "optionsZh": [
+        "仅恐惧及其对成绩的影响。",
+        "仅单篇日记的正面感受。",
+        "正负情绪在幸福、意义及心理丰富中的作用。",
+        "六位著名作家的财富。"
+      ],
+      "answer": 2,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A 情绪和结果的范围都被缩窄。",
+        "B six studies 不是单篇日记，也非只有正面。",
+        "C 保留两类情绪和三个生活维度。",
+        "D six 修饰研究数量，不是人物人数，richness 也不是财富。"
+      ],
+      "vocabulary": [
+        {
+          "word": "explored",
+          "meaning": "探索；考察",
+          "context": "是研究这些情绪与不同生活维度的作用，不是地理探险。",
+          "example": "The study explored how students described their daily experiences.",
+          "collocations": [
+            "explore the role of",
+            "explored in six studies"
+          ]
+        }
+      ]
+    },
+    {
+      "order": 5,
+      "prompt": "Which pattern characterises happy lives in all six studies?",
+      "promptZh": "六项研究中，幸福生活呈现哪种情绪模式？",
+      "options": [
+        "No negative emotion ever occurred.",
+        "Joy and pleasantness were frequent, while sadness, anger, and fear were infrequent.",
+        "Negative emotions were always more frequent than positive ones.",
+        "Joy and fear were measured only among the same six people."
+      ],
+      "optionsZh": [
+        "绝无任何负面情绪。",
+        "喜悦、愉悦较多，悲伤、愤怒、恐惧较少。",
+        "负面情绪总比正面多。",
+        "只对同样六个人测了喜悦与恐惧。"
+      ],
+      "answer": 1,
+      "type": "同义改写",
+      "support": "explicit",
+      "analyses": [
+        "A infrequently 是少见，不是从不。",
+        "B a lot of 与 infrequently 的对照吻合。",
+        "C 正负频率被倒置。",
+        "D 六是研究数，不是人数，原句也未给这个人员限制。"
+      ],
+      "vocabulary": [
+        {
+          "word": "contentment",
+          "meaning": "满足；知足的感受",
+          "context": "列在正面感受中，不是一本书的内容。",
+          "example": "She felt a quiet sense of contentment after finishing the work.",
+          "collocations": [
+            "joy and contentment",
+            "a sense of contentment"
+          ]
+        }
+      ]
+    },
+    {
+      "order": 6,
+      "prompt": "What did the final experiment seek to test?",
+      "promptZh": "最后一个实验要检验什么？",
+      "options": [
+        "Whether participants could be made to experience a week with no difficulties.",
+        "Whether every worst event should be repeated in real life.",
+        "Whether two positive events always produce greater happiness.",
+        "Whether participants could be made to feel that their preceding week had been richer."
+      ],
+      "optionsZh": [
+        "能否让参与者度过毫无困难的一周。",
+        "是否应现实重演每件最坏事件。",
+        "两件正面事件是否总带来更多幸福。",
+        "能否让参与者觉得刚过去的一周更丰富。"
+      ],
+      "answer": 3,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A make people feel like...richer 不等于消除困难。",
+        "B 实际任务是写回忆，不是强迫经历坏事。",
+        "C 此句的目标是丰富感而非该必然幸福论。",
+        "D 保留 tested whether 的研究目的和 feel like 的主观评价。"
+      ],
+      "vocabulary": [
+        {
+          "word": "feel like",
+          "meaning": "感觉好像；觉得自己……",
+          "context": "后接 they had a richer week，谈对过去一周的感受，不是想做某事。",
+          "example": "After the discussion, I felt like I understood the story better.",
+          "collocations": [
+            "feel like they had",
+            "feel like something has changed"
+          ]
+        }
+      ],
+      "evidenceQuote": "In the final experiment, we tested whether we could make people feel like they had a richer week. Some participants wrote about the best event and the worst event they had experienced over the previous seven days, while other participants wrote about their best event and their second-best event. After the writing task, they evaluated their lives over the previous week, reflecting on how much the writing task had made them think differently about themselves and the world (perspective change, in other words)."
+    },
+    {
+      "order": 7,
+      "prompt": "When and what did the participants evaluate after writing?",
+      "promptZh": "写作后，参与者评价了什么以及哪个时间范围？",
+      "options": [
+        "Their previous week and how differently they now thought about themselves and the world.",
+        "Their entire future and guaranteed career success.",
+        "The researchers' handwriting before starting the task.",
+        "Only the number of words in another participant's essay."
+      ],
+      "optionsZh": [
+        "过去一周，以及对自身和世界的看法改变多少。",
+        "整个未来及确定的事业成功。",
+        "开始任务前研究者的字迹。",
+        "仅另一位参与者文章的字数。"
+      ],
+      "answer": 0,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A After 与 previous week 标明评价时点和回顾范围，括号解释为视角变化。",
+        "B 不是未来预测，更非保证事业。",
+        "C 时序和评价对象都不对。",
+        "D 不评价他人文章字数。"
+      ],
+      "vocabulary": [
+        {
+          "word": "reflecting on",
+          "meaning": "反思；认真回想",
+          "context": "此处指思考写作使看法改变多少，不是镜面反射。",
+          "example": "She spent the evening reflecting on what she had learned.",
+          "collocations": [
+            "reflect on an experience",
+            "reflecting on how much"
+          ]
+        }
+      ],
+      "evidenceQuote": "In the final experiment, we tested whether we could make people feel like they had a richer week. Some participants wrote about the best event and the worst event they had experienced over the previous seven days, while other participants wrote about their best event and their second-best event. After the writing task, they evaluated their lives over the previous week, reflecting on how much the writing task had made them think differently about themselves and the world (perspective change, in other words)."
+    },
+    {
+      "order": 8,
+      "prompt": "Which group reported a greater degree of perspective change?",
+      "promptZh": "哪组报告的视角变化程度更大？",
+      "options": [
+        "Participants who wrote about two positive events.",
+        "The people who did not complete any writing task.",
+        "Participants who wrote about both their best and worst events.",
+        "Both groups reported precisely equal change."
+      ],
+      "optionsZh": [
+        "写两件正面事件者。",
+        "完全没做写作任务者。",
+        "写最好和最坏事件者。",
+        "两组报告完全相等。"
+      ],
+      "answer": 2,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A 把比较方向倒置。",
+        "B 本句比较的是两种写作条件，不是未写作组。",
+        "C both the best and the worst 对应较大自报变化。",
+        "D greater degree 排除完全相等；reported 应保留，不能说已客观量尽所有认知变化。"
+      ],
+      "vocabulary": [
+        {
+          "word": "degree",
+          "meaning": "程度",
+          "context": "修饰 perspective change 的多少，不指学历或温度。",
+          "example": "The two accounts show a different degree of detail.",
+          "collocations": [
+            "a greater degree of",
+            "degree of perspective change"
+          ]
+        }
+      ]
+    },
+    {
+      "order": 9,
+      "prompt": "What does 'increased the likelihood' mean in the account of the writing task?",
+      "promptZh": "关于写作任务的 increased the likelihood 表示什么？",
+      "options": [
+        "Every participant necessarily changed perspective.",
+        "Perspective change became more likely in the reported experiment.",
+        "Perspective change was eliminated.",
+        "Writing proved that happiness and richness are identical."
+      ],
+      "optionsZh": [
+        "每位参与者都必然改变视角。",
+        "在所述实验中，视角变化的可能性提高。",
+        "视角变化被消除。",
+        "写作证明幸福等于心理丰富。"
+      ],
+      "answer": 1,
+      "type": "语境词义",
+      "support": "explicit",
+      "analyses": [
+        "A 可能性提高不等于百分之百。",
+        "B 忠实保留 likelihood 的概率强度与本实验范围。",
+        "C increased 不是消除。",
+        "D 本句不建立两个维度等同，也不证明所有生活场景都同效。"
+      ],
+      "vocabulary": [
+        {
+          "word": "likelihood",
+          "meaning": "可能性；发生的概率",
+          "context": "不同于确定发生；限定本段写作实验的描述。",
+          "example": "The new timetable increased the likelihood of arriving on time.",
+          "collocations": [
+            "increase the likelihood",
+            "likelihood of perspective change"
+          ]
+        }
+      ],
+      "evidenceQuote": "We found that compared to the participants who wrote about two positive events, those who wrote about both the best and the worst events reported a greater degree of perspective change. Writing about the worst event, in short, increased the likelihood of perspective change. Most important, the more perspective changes they reported, the psychologically richer they reported their lives to be. Interestingly, the more perspective change they reported, the less happiness they reported."
+    },
+    {
+      "order": 10,
+      "prompt": "What does 'ingredients' mean in the chapter's concluding question?",
+      "promptZh": "本章总结问句中的 ingredients 是什么意思？",
+      "options": [
+        "The elements that contribute to psychological richness.",
+        "The foods served during a semester abroad.",
+        "The chemical substances found in brain tissue.",
+        "A list of required university courses."
+      ],
+      "optionsZh": [
+        "构成或促成心理丰富的要素。",
+        "留学一学期期间供应的食物。",
+        "脑组织中的化学物质。",
+        "大学必修课清单。"
+      ],
+      "answer": 0,
+      "type": "语境词义",
+      "support": "explicit",
+      "analyses": [
+        "A 下一句 common elements 及新奇、多样等列举解释这个比喻。",
+        "B 并非食谱，即使原词常有食材义。",
+        "C 没有化学成分测量。",
+        "D 不问课程要求。"
+      ],
+      "vocabulary": [
+        {
+          "word": "ingredients",
+          "meaning": "要素；组成成分（此处为比喻）",
+          "context": "从烹饪食材义转为丰富生活的组成因素。",
+          "example": "Trust is one of the ingredients of a strong friendship.",
+          "collocations": [
+            "ingredients of psychological richness",
+            "key ingredients"
+          ]
+        }
+      ],
+      "evidenceQuote": "So what are the ingredients of psychological richness? The examples in this chapter, ranging from Grace’s WWE outing to an atypical day to a semester abroad, had some common elements. Novelty: there’s something different from the same old, same old. Diversity: a wide range of attention and emotion is deployed."
+    },
+    {
+      "order": 11,
+      "prompt": "Why are the WWE outing, an atypical day, and a semester abroad listed together?",
+      "promptZh": "为何把 WWE 之行、不典型的一天与留学一学期并列？",
+      "options": [
+        "To show that all three lasted exactly one semester.",
+        "To claim that all involved professional wrestling.",
+        "To rank them by the amount of money spent.",
+        "To draw out common elements across experiences of different kinds."
+      ],
+      "optionsZh": [
+        "说明三者都恰好持续一学期。",
+        "宣称三者都涉及职业摔角。",
+        "按花钱多少给三者排名。",
+        "从不同类型经历中提炼共同要素。"
+      ],
+      "answer": 3,
+      "type": "作者意图",
+      "support": "explicit",
+      "analyses": [
+        "A 时间尺度明显不同。",
+        "B WWE 只对应其中一例。",
+        "C 无消费金额排名。",
+        "D ranging from...to...与 common elements 表明用多样例子归纳共享特点。"
+      ],
+      "vocabulary": [
+        {
+          "word": "ranging from",
+          "meaning": "范围从……延伸到……；涵盖",
+          "context": "连接不同类型与时长的例子，不表示按好坏或价格排名。",
+          "example": "The festival includes activities ranging from music to outdoor games.",
+          "collocations": [
+            "ranging from A to B",
+            "a range of examples"
+          ]
+        }
+      ],
+      "evidenceQuote": "So what are the ingredients of psychological richness? The examples in this chapter, ranging from Grace’s WWE outing to an atypical day to a semester abroad, had some common elements. Novelty: there’s something different from the same old, same old. Diversity: a wide range of attention and emotion is deployed."
+    },
+    {
+      "order": 12,
+      "prompt": "How is 'Challenge' defined in the summary?",
+      "promptZh": "总结怎样界定 Challenge？",
+      "options": [
+        "Life becomes entirely predictable and effortless.",
+        "Life is guaranteed to be dangerous.",
+        "Life is more difficult and complex than usual.",
+        "Life has no emotional variety."
+      ],
+      "optionsZh": [
+        "生活变得完全可预测、毫不费力。",
+        "生活必定危险。",
+        "生活比通常更困难、更复杂。",
+        "生活毫无情绪多样性。"
+      ],
+      "answer": 2,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A 与 more difficult and complex 相反。",
+        "B 困难复杂不等于必然危险。",
+        "C 保留 than usual 的相对个人常态比较。",
+        "D 未把挑战界定为缺乏情绪变化，也不要求每个人承受同样绝对难度。"
+      ],
+      "vocabulary": [
+        {
+          "word": "complex",
+          "meaning": "复杂的",
+          "context": "与 difficult 并列；是比通常更复杂，不是必然无法处理。",
+          "example": "The revised plan is more complex than the original one.",
+          "collocations": [
+            "difficult and complex",
+            "more complex than usual"
+          ]
+        }
+      ]
+    },
+    {
+      "order": 13,
+      "prompt": "What does 'Memorable: life is vivid' emphasise?",
+      "promptZh": "Memorable: life is vivid 强调什么？",
+      "options": [
+        "The absence of any difficult experience.",
+        "A clear, striking quality that makes experience stand out.",
+        "A requirement to record every moment in writing.",
+        "The ability to remember all facts with complete accuracy."
+      ],
+      "optionsZh": [
+        "完全没有困难经历。",
+        "使经历鲜明突出的生动性。",
+        "必须把每一刻写下来。",
+        "能完全准确记住所有事实。"
+      ],
+      "answer": 1,
+      "type": "语境词义",
+      "support": "explicit",
+      "analyses": [
+        "A 难忘不等于毫无困难，前一句还明确有挑战。",
+        "B vivid 解释 memorable，强调鲜明生动。",
+        "C 未要求日记记录。",
+        "D 鲜明记忆不等于全部事实零误差，也不是正式记忆测验。"
+      ],
+      "vocabulary": [
+        {
+          "word": "vivid",
+          "meaning": "鲜明的；生动的",
+          "context": "描述体验突出的感受，不保证记忆细节完全准确。",
+          "example": "Her account gave me a vivid impression of the journey.",
+          "collocations": [
+            "a vivid memory",
+            "life is vivid"
+          ]
+        }
+      ],
+      "evidenceQuote": "Challenge: life is more difficult and complex than usual. Memorable: life is vivid. Above all, you learn something new. You gain some new perspective."
+    },
+    {
+      "order": 14,
+      "prompt": "What does 'paint a clear picture' mean when applied to the findings?",
+      "promptZh": "把研究发现说成 paint a clear picture 是什么意思？",
+      "options": [
+        "The researchers replaced their results with an artwork.",
+        "Only visual experiences can produce psychological richness.",
+        "The findings collectively clarify the distinctions being summarised.",
+        "The findings prove that happiness, meaning, and richness are identical."
+      ],
+      "optionsZh": [
+        "研究者用艺术品替代结果。",
+        "只有视觉体验能带来心理丰富。",
+        "研究发现共同使总结的区别更清楚。",
+        "研究证明幸福、意义及丰富完全相同。"
+      ],
+      "answer": 2,
+      "type": "语境词义",
+      "support": "explicit",
+      "analyses": [
+        "A 是比喻，不是真正作画。",
+        "B picture 不限定体验感官。",
+        "C Together 指多项发现合起来说明后面的三个维度。",
+        "D 后文分别列各自关键因素，并未说等同。"
+      ],
+      "vocabulary": [
+        {
+          "word": "paint a clear picture",
+          "meaning": "清楚呈现整体情况；描绘清晰图景",
+          "context": "综合发现的比喻表达，不是视觉艺术实验。",
+          "example": "Together, the interviews paint a clear picture of daily life.",
+          "collocations": [
+            "findings paint a picture",
+            "paint a clear picture"
+          ]
+        }
+      ],
+      "evidenceQuote": "Together, our findings paint a clear picture (see also Table 1 in Chapter 1). Simplifying one’s life so as to have reliably positive experiences, or contentment, is key to happiness. Dedicating one’s life to others with compassion is key to meaning. Experiencing the unusual, challenging oneself, and learning new things—though frustrating and unpleasant at times—are key to psychological richness."
+    },
+    {
+      "order": 15,
+      "prompt": "What is the effect of 'As interesting as ... are' in the chapter opening?",
+      "promptZh": "章首 As interesting as ... are 有什么作用？",
+      "options": [
+        "It concedes that the lives are interesting before noting that they seem exceptional.",
+        "It denies that either life contains anything interesting.",
+        "It states that both lives are typical of every ordinary person.",
+        "It establishes that one life is twice as interesting as the other."
+      ],
+      "optionsZh": [
+        "承认人生有趣，同时指出它们似乎非凡。",
+        "否认两个人生有任何趣味。",
+        "说两个人生代表每个普通人。",
+        "证明一个人生比另一个有趣两倍。"
+      ],
+      "answer": 0,
+      "type": "语法与含义",
+      "support": "explicit",
+      "analyses": [
+        "A 此结构让步，后半 they also feel exceptional 构成议论转向。",
+        "B 没有否定有趣。",
+        "C exceptional 与普通普遍代表不同，后文才提出普遍性问题。",
+        "D 不是两人间的倍数比较。"
+      ],
+      "vocabulary": [
+        {
+          "word": "exceptional",
+          "meaning": "非同寻常的；特殊的",
+          "context": "提示这些有趣个案可能较特殊，不足以直接说明普通人中的普遍程度。",
+          "example": "An exceptional case may not represent the whole group.",
+          "collocations": [
+            "feel exceptional",
+            "an exceptional life"
+          ]
+        }
+      ],
+      "evidenceQuote": "As interesting as Joy Ryan and Linda’s lives are, they also feel exceptional. How common is it for ordinary folks to live a psychologically rich life? Is there any scientific evidence that a sizable number of people are leading psychologically rich lives? Our lab set out to quantify psychological richness in people’s lives and determine how common it is."
+    },
+    {
+      "order": 16,
+      "prompt": "What does the question about 'ordinary folks' seek to find out?",
+      "promptZh": "关于 ordinary folks 的问题想了解什么？",
+      "options": [
+        "Which exceptional person has the largest fortune.",
+        "Whether all ordinary people dislike unusual experiences.",
+        "The exact age at which people become psychologically rich.",
+        "How widespread psychologically rich lives are among ordinary people."
+      ],
+      "optionsZh": [
+        "哪位特殊人物最富有。",
+        "所有普通人是否都讨厌不寻常经历。",
+        "人们达到心理丰富的确切年龄。",
+        "心理丰富生活在普通人中有多普遍。"
+      ],
+      "answer": 3,
+      "type": "作者意图",
+      "support": "explicit",
+      "analyses": [
+        "A rich life 指心理丰富，且不问财富排名。",
+        "B 问多常见，不预先断言所有人态度。",
+        "C 未问年龄临界点。",
+        "D How common 与 ordinary folks 直接定位普遍程度及人群。"
+      ],
+      "vocabulary": [
+        {
+          "word": "folks",
+          "meaning": "人们；普通人（较口语）",
+          "context": "ordinary folks 指一般人群，与前文特殊个案形成对照。",
+          "example": "The service is designed for ordinary folks with busy lives.",
+          "collocations": [
+            "ordinary folks",
+            "local folks"
+          ]
+        }
+      ],
+      "evidenceQuote": "As interesting as Joy Ryan and Linda’s lives are, they also feel exceptional. How common is it for ordinary folks to live a psychologically rich life? Is there any scientific evidence that a sizable number of people are leading psychologically rich lives? Our lab set out to quantify psychological richness in people’s lives and determine how common it is."
+    },
+    {
+      "order": 17,
+      "prompt": "What sort of support does the author request for the prevalence claim?",
+      "promptZh": "作者为心理丰富具有一定普遍性的说法寻求哪种支持？",
+      "options": [
+        "Only another memorable story about one exceptional person.",
+        "Scientific evidence that a sizable number of people lead such lives.",
+        "A guarantee that every individual is psychologically rich.",
+        "Proof that rich people always have psychologically rich lives."
+      ],
+      "optionsZh": [
+        "仅再讲一个特殊人物的难忘故事。",
+        "相当多的人过这种生活的科学证据。",
+        "每个人都心理丰富的保证。",
+        "有钱人总是心理丰富的证明。"
+      ],
+      "answer": 1,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A 问科学证据，超出单一故事。",
+        "B scientific evidence 与 sizable number 保留证据要求及范围。",
+        "C sizable number 不是 everyone。",
+        "D 没有金钱与心理丰富恒等的主张。"
+      ],
+      "vocabulary": [
+        {
+          "word": "sizable",
+          "meaning": "相当大的；数目可观的",
+          "context": "修饰 number，不等于绝大多数或全部，也未在问句中给出固定百分比。",
+          "example": "A sizable number of students attended the discussion.",
+          "collocations": [
+            "a sizable number of",
+            "a sizable group"
+          ]
+        }
+      ],
+      "evidenceQuote": "As interesting as Joy Ryan and Linda’s lives are, they also feel exceptional. How common is it for ordinary folks to live a psychologically rich life? Is there any scientific evidence that a sizable number of people are leading psychologically rich lives? Our lab set out to quantify psychological richness in people’s lives and determine how common it is."
+    },
+    {
+      "order": 18,
+      "prompt": "What tool did the researchers identify for evaluating lives after they ended?",
+      "promptZh": "研究者找到什么工具，来评价已经结束的人生？",
+      "options": [
+        "Weekly self-reports completed by the people during their lifetimes.",
+        "University entrance scores from the people profiled.",
+        "Obituaries describing people's life stories.",
+        "Only the amount left in each person's bank account."
+      ],
+      "optionsZh": [
+        "这些人在生前填写的每周自报。",
+        "被介绍者的大学入学成绩。",
+        "记述人生故事的讣告。",
+        "仅每人银行余额。"
+      ],
+      "answer": 2,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A 此处说生命结束后通过讣告评价，而不是生前周报。",
+        "B 此段未把大学入学成绩当作回顾人生的材料。",
+        "C valuable tool...in their obituaries 指明材料。",
+        "D 并非仅金钱评价，后文分幸福、意义与丰富。"
+      ],
+      "vocabulary": [
+        {
+          "word": "obituaries",
+          "meaning": "讣告；逝者生平介绍",
+          "context": "本研究用作讲述人生的文本资料，不是逝者本人对量表的回答。",
+          "example": "The archive contains obituaries of local musicians.",
+          "collocations": [
+            "read obituaries",
+            "analyze obituary contents"
+          ]
+        }
+      ]
+    },
+    {
+      "order": 19,
+      "prompt": "What does 'Perhaps' signal about the proposed obituary analysis?",
+      "promptZh": "讣告分析设想中的 Perhaps 表示什么？",
+      "options": [
+        "The authors are proposing a possible way to assess the three life dimensions.",
+        "The method is already guaranteed to measure every life without error.",
+        "Only the deceased person's income will be counted.",
+        "The authors have ruled out studying life stories altogether."
+      ],
+      "optionsZh": [
+        "作者提出一种可能评价三个维度的方法。",
+        "该方法已保证对所有人生测量无误。",
+        "只计算逝者收入。",
+        "作者已排除研究人生故事。"
+      ],
+      "answer": 0,
+      "type": "语气与范围",
+      "support": "explicit",
+      "analyses": [
+        "A Perhaps 与 could 标记可能途径，不是无条件保证。",
+        "B 将试探语气过度强化为完美测量。",
+        "C 维度明确为 happy, meaningful, psychologically rich。",
+        "D 正在提出分析而非放弃。"
+      ],
+      "vocabulary": [
+        {
+          "word": "Perhaps",
+          "meaning": "也许；可能",
+          "context": "与 could 配合，保留研究设想的试探性。",
+          "example": "Perhaps these letters could help us understand her decisions.",
+          "collocations": [
+            "Perhaps we could",
+            "perhaps by analyzing"
+          ]
+        }
+      ],
+      "evidenceQuote": "We realized that we had a valuable tool to evaluate people’s lives at the end of them, in their obituaries. Every obituary tells a life story. Perhaps by analyzing their contents, we could figure out how happy, meaningful, and psychologically rich a person’s life was. By coding hundreds of obituaries for different life characteristics, we could cover a wide swath of people, from CEOs and politicians to musicians and athletes."
+    },
+    {
+      "order": 20,
+      "prompt": "Which description correctly matches the obituary study's materials and raters?",
+      "promptZh": "哪项正确对应讣告研究的材料与评分者？",
+      "options": [
+        "Twelve assistants rated 101 obituaries using three themes.",
+        "Three assistants rated 101 student diaries rather than obituaries.",
+        "Three assistants rated twelve obituaries from June 2016.",
+        "Three assistants rated 101 New York Times obituaries using twelve themes in June 2016."
+      ],
+      "optionsZh": [
+        "十二名助理按三个主题评分101份讣告。",
+        "三名助理评分101份学生日记，而不是讣告。",
+        "三名助理评分2016年六月的十二份讣告。",
+        "三名助理在2016年六月按十二主题评分101份纽约时报讣告。"
+      ],
+      "answer": 3,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A 三名是助理数，十二是主题数，不能互换。",
+        "B 材料是 New York Times obituaries，不是前章的学生日记。",
+        "C 十二是主题数，不是讣告数。",
+        "D three、101、June 2016、twelve 分别修饰不同对象，不能互换。"
+      ],
+      "vocabulary": [
+        {
+          "word": "rate",
+          "meaning": "评分；评价",
+          "context": "read and rate 指阅读并评分，不是汇率或速度。",
+          "example": "Two reviewers will rate each account independently.",
+          "collocations": [
+            "read and rate",
+            "rate an obituary"
+          ]
+        }
+      ]
+    },
+    {
+      "order": 21,
+      "prompt": "How were the raters asked to score each life?",
+      "promptZh": "评分者被要求怎样给每个人生打分？",
+      "options": [
+        "By ranking all 101 people from youngest to oldest.",
+        "By recording only a yes-or-no answer about employment.",
+        "On a 1-to-5 scale using questions about happiness, fulfilment, and interest.",
+        "On a twelve-point scale based only on the obituary's length."
+      ],
+      "optionsZh": [
+        "把101人按年龄从小到大排名。",
+        "仅记录是否就业的是非答案。",
+        "用一至五分量表，回答幸福、充实和有趣等问题。",
+        "用十二分制且仅按讣告长度。"
+      ],
+      "answer": 2,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A 不是年龄排名。",
+        "B 原文有多种生活评价，不是单一就业题。",
+        "C scale of1to5 及所举三类问题吻合。",
+        "D 十二主题不等于十二分制，也不是字数评分。"
+      ],
+      "vocabulary": [
+        {
+          "word": "scale",
+          "meaning": "评分量表；等级范围",
+          "context": "a scale of1to5 是评分范围，不是称重器、比例尺或样本人数。",
+          "example": "Please rate the difficulty on a scale of one to five.",
+          "collocations": [
+            "on a scale of",
+            "a five-point scale"
+          ]
+        }
+      ]
+    },
+    {
+      "order": 22,
+      "prompt": "What is the first counting question asked about the people profiled?",
+      "promptZh": "对被介绍的人，首先提出的计数问题是什么？",
+      "options": [
+        "How long each obituary took to write.",
+        "How many led happy, meaningful, or psychologically rich lives.",
+        "How many readers subscribed to the newspaper.",
+        "Which single person caused the other people's happiness."
+      ],
+      "optionsZh": [
+        "每篇讣告写作耗时多久。",
+        "有多少人过幸福、有意义或心理丰富的生活。",
+        "多少读者订阅报纸。",
+        "哪个人造成其他人幸福。"
+      ],
+      "answer": 1,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A 不问写作时间。",
+        "B how many...led...明确计数对象及类别。",
+        "C people profiled 是被介绍的逝者，不是订户。",
+        "D 不是寻找个体间的因果关系。"
+      ],
+      "vocabulary": [
+        {
+          "word": "profiled",
+          "meaning": "被介绍生平的；被作人物介绍的",
+          "context": "指讣告所记述的人，不是文章读者或研究评分者。",
+          "example": "The people profiled in the article worked in different fields.",
+          "collocations": [
+            "people profiled",
+            "profile a person's life"
+          ]
+        }
+      ],
+      "evidenceQuote": "First, how many of the people profiled led a happy life, a meaningful life, or a psychologically rich life? In order for a person’s life to be classified as happy, meaningful, or psychologically rich, the three raters had to assign it an average score of at least 3.67 out of 5 across four items. This is quite a high bar. According to this criterion, fifteen people of the 101 obituaries featured in The New York Times that month led a psychologically rich life."
+    },
+    {
+      "order": 23,
+      "prompt": "What does the author call 'quite a high bar'?",
+      "promptZh": "作者所说 quite a high bar 指什么？",
+      "options": [
+        "The requirement of an average score of at least 3.67 out of 5 across four items.",
+        "The height of the newspaper's office building.",
+        "A rule that all101 lives must receive the same score.",
+        "The requirement that every score must be exactly5."
+      ],
+      "optionsZh": [
+        "四项指标上五分中平均至少3.67的要求。",
+        "报社办公楼高度。",
+        "要求101个人生全部同分的规则。",
+        "要求每个评分恰好为五分。"
+      ],
+      "answer": 0,
+      "type": "语境词义",
+      "support": "explicit",
+      "analyses": [
+        "A This 承接前句分类阈值；bar 比喻标准门槛。",
+        "B 不是实体高度。",
+        "C 分类阈值不是强制所有人同分。",
+        "D at least3.67 不是每次必须5；不能把平均与单项混同。"
+      ],
+      "vocabulary": [
+        {
+          "word": "high bar",
+          "meaning": "高标准；高门槛",
+          "context": "这里指分类阈值严格，不是高处的栏杆或酒吧。",
+          "example": "Requiring three independent approvals sets a high bar.",
+          "collocations": [
+            "quite a high bar",
+            "set a high bar"
+          ]
+        }
+      ],
+      "evidenceQuote": "First, how many of the people profiled led a happy life, a meaningful life, or a psychologically rich life? In order for a person’s life to be classified as happy, meaningful, or psychologically rich, the three raters had to assign it an average score of at least 3.67 out of 5 across four items. This is quite a high bar. According to this criterion, fifteen people of the 101 obituaries featured in The New York Times that month led a psychologically rich life."
+    },
+    {
+      "order": 24,
+      "prompt": "Which statement preserves the scope of the fifteen-person result?",
+      "promptZh": "哪项保留了十五人结果的适用范围？",
+      "options": [
+        "Exactly fifteen people in the whole world have rich lives.",
+        "Fifteen participants in the earlier student diary study met the criterion.",
+        "Every newspaper obituary must be psychologically rich.",
+        "Fifteen of that month's101 profiled lives met the study's richness criterion."
+      ],
+      "optionsZh": [
+        "全世界恰好十五人心理丰富。",
+        "前一学生日记研究中十五位参与者达标。",
+        "所有报纸讣告都必然心理丰富。",
+        "按研究标准，当月101个被介绍的人生中十五个符合丰富类别。"
+      ],
+      "answer": 3,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A 把指定样本扩大为全世界。",
+        "B 十五来自当月讣告样本，不能移到前一日记研究。",
+        "C 未说每份讣告都达标。",
+        "D 保留 According to this criterion、that month 和101 的范围；不能把文本分类等同于全体人口比例。"
+      ],
+      "vocabulary": [
+        {
+          "word": "criterion",
+          "meaning": "判定标准；准则",
+          "context": "单数指刚说明的分类阈值，不是报纸销量或个人自述标准。",
+          "example": "Each application was checked against the same criterion.",
+          "collocations": [
+            "according to this criterion",
+            "meet a criterion"
+          ]
+        }
+      ],
+      "evidenceQuote": "First, how many of the people profiled led a happy life, a meaningful life, or a psychologically rich life? In order for a person’s life to be classified as happy, meaningful, or psychologically rich, the three raters had to assign it an average score of at least 3.67 out of 5 across four items. This is quite a high bar. According to this criterion, fifteen people of the 101 obituaries featured in The New York Times that month led a psychologically rich life."
+    },
+    {
+      "order": 25,
+      "prompt": "What comparison does the author draw from the category counts?",
+      "promptZh": "作者从类别人数作出什么比较？",
+      "options": [
+        "Psychologically rich lives outnumber both other categories.",
+        "Every happy life must also count as psychologically rich.",
+        "Happy lives and meaningful lives each outnumber psychologically rich lives in this sample.",
+        "Happiness and meaning are absent from all psychologically rich lives."
+      ],
+      "optionsZh": [
+        "心理丰富人数超过另两类。",
+        "每个幸福人生都必属心理丰富。",
+        "在该样本中，幸福和有意义两类各自都多于心理丰富。",
+        "所有心理丰富人生都没有幸福和意义。"
+      ],
+      "answer": 2,
+      "type": "逻辑关系",
+      "support": "explicit",
+      "analyses": [
+        "A 原句 more people...happy or meaningful than...rich 方向相反。",
+        "B 人数比较不能推出个体集合包含。",
+        "C 前句两类各三十二，均多于丰富类十五。",
+        "D 类别可重叠，人数差不等于互斥；不能直接把32加32当成去重64人。"
+      ],
+      "vocabulary": [
+        {
+          "word": "In general",
+          "meaning": "总体而言；概括来说",
+          "context": "总结所述样本的类别比较，而非把结果无条件推广到全体人口。",
+          "example": "In general, the shorter tasks received higher completion rates.",
+          "collocations": [
+            "In general, then",
+            "in general terms"
+          ]
+        }
+      ],
+      "evidenceQuote": "In contrast, thirty-two people led a happy life, and another thirty-two people led a meaningful life (see Figure 1). In general, then, there were more people who led a happy or meaningful life than those who led a psychologically rich life."
+    }
+  ]
+}
