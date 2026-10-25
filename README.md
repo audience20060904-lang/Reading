@@ -41,7 +41,7 @@ Windows 双击 start-reading.cmd，或使用 Node.js 22.12+ 执行：
 
 打开 http://127.0.0.1:4173/ 。开发使用 npm run dev。不要用 file:// 双击 HTML，离线只在生产构建中工作。
 
-当前272项自动测试。通用浏览器套件25项；末尾25段使用 node scripts/batch042-browser-test.mjs。来源审计和新增3题使用 node scripts/batch043-browser-test.mjs，检查原页顺序、旧题指纹和成绩、图表恢复、子路径与离线缓存。所有浏览器作答均为隔离合成记录，实际发布结果记录在对应回执中。
+当前282项自动测试。通用浏览器套件25项；末尾25段使用 node scripts/batch042-browser-test.mjs。来源审计和新增3题使用 node scripts/batch043-browser-test.mjs，检查原页顺序、旧题指纹和成绩、图表恢复、子路径与离线缓存。所有浏览器作答均为隔离合成记录，实际发布结果记录在对应回执中。
 
 脚本使用 Playwright 和 Chromium；Windows 默认 Edge，可设置 BROWSER_PATH。缺少依赖时安装 npm install --no-save playwright，再执行 npx playwright install chromium。QA 使用隔离浏览器和合成记录，仅写入被忽略的 qa/，不读取用户 4173 端口数据。
 
@@ -54,6 +54,14 @@ Windows 双击 start-reading.cmd，或使用 Node.js 22.12+ 执行：
 此前批次的作者稿、冻结目标、审阅和发布回执均保留。末尾25题见scripts/batches/chapter14-final25.py与batch-042回执；本次补漏见scripts/batches/audited-openings.py、batch043-targets.json、review-audited-openings.json及batch-043回执。source/additive-body.json保存新增原始块，source/structural-materials.json保存结构化图表及来源。
 
 包括桌面、390px 手机视口、浏览器模拟断网及实际停止本地 HTTP 服务后的重载；不是实体手机或关闭 Windows 网卡测试。
+
+## 点击查词
+
+阅读练习和章节原文中的淡蓝色词可点击，显示“本段中的意思”和“其他常见意思”。只标注预先选定的难词、熟词偏义或词组，未标蓝的普通词不会弹窗。当前157个实际可查词条、205处具体语境标注，分布于14章；这是精选词表，不表示所有难词均已收录。常用义较单一的词不会强行列出第二义。
+
+查词支持手机、键盘Tab/Enter、Escape和点击遮罩关闭，关闭后焦点返回原词。弹窗不显示题目答案或整段翻译，也不产生作答、已读或成绩记录。首次缓存完成后全部释义可离线查看，不调用AI或在线词典。旧题和历史快照不改写；无法精确匹配来源的旧片段保持纯文本。
+
+词表作者稿：source/word-lexicon.tsv；位置与语境义由scripts/prepare-word-lookups.py编译到src/data/word-lookups.json，范围报告在source/word-lookup-review.json。上下文词义来自已编写词汇条目的meaning，而非选项分析；其他义项为另行整理的词义说明，不是原书英文引文。更新后运行该脚本、npm test、npm run build:pages及node scripts/word-lookup-browser-test.mjs。
 
 ## 阅读与旧记录
 

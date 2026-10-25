@@ -1,0 +1,55 @@
+import {describe,it,expect} from 'vitest';
+import {readFileSync} from 'node:fs';
+import {renderToStaticMarkup} from 'react-dom/server';
+import type {Book,Question,ReadingPlan} from '../src/types';
+import {emptyState,grade} from '../src/core';
+import WordText from '../src/WordLookup';
+import ReadingPractice from '../src/ReadingPractice';
+import {getWordLookups} from '../src/wordLookups';
+import catalog from '../src/data/word-lookups.json';
+const read=(path:string)=>JSON.parse(readFileSync(path,'utf8'));
+const book=read('public/data/book.json') as Book,qs=read('public/data/questions.json') as Question[],plan=read('public/data/reading-plan.json') as ReadingPlan;
+const occurrences=Object.values(catalog.paragraphs).flat();
+const textContent=(html:string)=>html.replace(/<[^>]*>/g,'').replace(/&amp;/g,'&').replace(/&quot;/g,'"').replace(/&#x27;/g,"'").replace(/&lt;/g,'<').replace(/&gt;/g,'>');
+
+describe('针对具体原文的离线查词',()=>{
+ it('每个标注都对应真实原文字符、稳定位置和所属句子',()=>{
+  expect(occurrences).toHaveLength(205);expect(new Set(occurrences.map(o=>o.id)).size).toBe(205);
+  for(const o of occurrences){const p=book.paragraphs.find(p=>p.id===o.paragraphId)!;expect(p.text.slice(o.start,o.end),o.id).toBe(o.text);expect(o.sentenceIds).toEqual(book.sentences.filter(s=>s.paragraphId===p.id&&s.start<o.end&&s.end>o.start).map(s=>s.id));}
+ });
+ it('仅预先选择的难词、熟词偏义或词组可查，普通词不泛化标蓝',()=>{
+  expect(catalog.entries).toHaveLength(157);for(const e of catalog.entries)expect(['difficult','shifted']).toContain(e.kind);
+  const first=book.sentences[0];expect(getWordLookups(first.paragraphId,first.text,first.start).map(o=>o.text)).toEqual(['clementines']);
+  expect(getWordLookups(first.paragraphId,'Yoshi',0)).toEqual([]);
+ });
+ it('所有正文的英文文本在加入按钮后逐字不变',()=>{
+  for(const p of book.paragraphs){const html=renderToStaticMarkup(<WordText paragraphId={p.id} text={p.text} start={0}/>);expect(textContent(html),p.id).toBe(p.text);}
+ });
+ it('同段标注不重叠，不重复渲染任何字符',()=>{
+  for(const list of Object.values(catalog.paragraphs)){for(let i=1;i<list.length;i++)expect(list[i].start).toBeGreaterThanOrEqual(list[i-1].end);}
+ });
+ it('只返回当前片段中的完整词，不把相邻段落的释义带进来',()=>{
+  const o=occurrences[0];expect(getWordLookups(o.paragraphId,o.text,o.start)).toHaveLength(1);expect(getWordLookups(o.paragraphId,o.text.slice(1),o.start+1)).toEqual([]);
+  expect(getWordLookups(o.paragraphId,'Different text',o.start)).toEqual([]);expect(getWordLookups('unknown',o.text,o.start)).toEqual([]);expect(getWordLookups(o.paragraphId,o.text,-1)).toEqual([]);
+ });
+ it('屈折词形可显示词典词头，语境义与常见义分开预存',()=>{
+  const p=book.paragraphs.find(p=>p.text.includes('cultivating rice and tea'))!,word=getWordLookups(p.id,p.text,0).find(w=>w.text==='cultivating')!;
+  expect(word.entry.headword).toBe('cultivate');expect(word.contextMeaning).toContain('种植');expect(word.entry.otherMeanings.join('')).toContain('培养');
+ });
+ it('熟词偏义保留本段解释，不使用同拼写的全局猜义',()=>{
+  const p=book.paragraphs.find(p=>p.id===qs.find(q=>q.vocabulary.some(v=>v.word==='pool'))!.paragraphId)!;
+  const word=getWordLookups(p.id,p.text,0).find(w=>w.text.toLowerCase()==='pool')!;expect(word.contextMeaning).toContain('候选');expect(word.entry.otherMeanings.join('')).toContain('游泳池');
+ });
+ it('单一常用义的词不编造第二义，全部语境义不包含答案标记',()=>{
+  expect(catalog.entries.find(e=>e.id==='clementine')?.otherMeanings).toEqual([]);
+  for(const o of occurrences)expect(o.contextMeaning).not.toMatch(/正确答案|选项|答案为/);
+ });
+ it('标注是可聚焦的真实按钮，未点击时不渲染词义弹窗',()=>{
+  const p=book.paragraphs[0],html=renderToStaticMarkup(<WordText paragraphId={p.id} text={p.text} start={0}/>);expect(html).toContain('aria-haspopup="dialog"');expect(html).toContain('aria-label="查词 clementines"');expect(html).not.toContain('本段中的意思');expect(html).not.toContain('其他常见意思');
+ });
+ it('无法匹配原文位置的历史快照仍为纯原文，不错套当前释义',()=>{
+  const q={...qs[0],passage:'Changed historical wording with clementines.',fingerprint:'historical-example'},state=emptyState();state.readingUnitId=q.readingUnitId;state.session={questionId:q.id,attemptId:null,selected:0,startedAt:1,elapsedBefore:0};
+  const html=renderToStaticMarkup(<ReadingPractice book={book} questions={qs} plan={plan} state={state} question={q} attempt={grade(q,q.answer,state,100)} busy={false} onUnit={()=>{}} onSelect={()=>{}} onSubmit={()=>{}} onChat={()=>{}} onSource={()=>{}} onFavorite={()=>{}} onMark={()=>{}} onRetry={()=>{}}/>);
+  expect(html).toContain(q.passage);expect(html).not.toContain('lookup-word');
+ });
+});

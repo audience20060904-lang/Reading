@@ -10,7 +10,7 @@ const root=resolve('dist'),mime={'.html':'text/html','.js':'text/javascript','.c
 const subpath='/Reading';
 const server=createServer(async(req,res)=>{try{let p=decodeURIComponent(new URL(req.url,'http://local').pathname);if(p.startsWith(subpath+'/'))p=p.slice(subpath.length);if(p==='/')p='/index.html';const file=resolve(root,'.'+p);if(!file.startsWith(root+sep))throw new Error('Path denied');const data=await readFile(file);res.writeHead(200,{'Content-Type':mime[extname(p)]||'application/octet-stream','Cache-Control':'no-store'});res.end(data);}catch{res.writeHead(404);res.end('Not found');}});
 await new Promise(r=>server.listen(4187,'127.0.0.1',r));
-const base='http://127.0.0.1:4187';const result={date:'2026-10-24',browser:'Microsoft Edge (Chromium), real headless browser',checks:[],limits:['浏览器 setOffline 属于浏览器断网模拟；另行停止 HTTP 服务后重载验证缓存。未关闭 Windows 网卡，未创建付费云资源。']};
+const base='http://127.0.0.1:4187';const result={date:new Intl.DateTimeFormat('en-CA',{timeZone:'Asia/Shanghai'}).format(new Date()),browser:'Microsoft Edge (Chromium), real headless browser',checks:[],limits:['浏览器 setOffline 属于浏览器断网模拟；另行停止 HTTP 服务后重载验证缓存。未关闭 Windows 网卡，未创建付费云资源。']};
 const browser=await chromium.launch({headless:true,...(process.platform==='win32'?{executablePath:process.env.BROWSER_PATH||'C:/Program Files (x86)/Microsoft/Edge/Application/msedge.exe'}:{})});
 const ctx=await browser.newContext({viewport:{width:1440,height:1000},acceptDownloads:true,permissions:['clipboard-read','clipboard-write']});const page=await ctx.newPage(),errors=[];
 page.on('pageerror',e=>errors.push(String(e)));
