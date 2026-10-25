@@ -5,6 +5,13 @@
 网页：https://audience20060904-lang.github.io/Reading/
 公开源码：https://github.com/audience20060904-lang/Reading
 
+<!-- evidence-progress:start -->
+## 逐句直接证据补题 · 进行中
+
+当前本地已准备25道逐句补题，已验证发布0道；尚未发布的本地批次不得当作线上完成。总题库1081题（1056道主问题＋25道补题），1524个候选句有直接证据题，仍有1636个候选句待补。后文1499/1661等数值记录此前修复阶段，当前以本节、public/data/coverage.json及真实发布回执为准。
+
+<!-- evidence-progress:end -->
+
 ## 当前短段版
 
 界面使用黑白灰、蓝色操作强调、系统字体与居中单列阅读布局。桌面为顶部导航，手机为底部五项导航；全站支持浅色、深色主题和减少动态效果偏好。原文、题目与已提交解析的顺序保持不变，淡蓝查词保留。样式在src/design.css，响应式检查可运行node scripts/ui-redesign-browser-test.mjs（桌面、320/390px手机、768/1024px视口）。
@@ -47,7 +54,7 @@ Windows 双击 start-reading.cmd，或使用 Node.js 22.12+ 执行：
 
 打开 http://127.0.0.1:4173/ 。开发使用 npm run dev。不要用 file:// 双击 HTML，离线只在生产构建中工作。
 
-当前304项自动测试。通用浏览器套件25项；末尾25段使用 node scripts/batch042-browser-test.mjs。来源审计和新增3题使用 node scripts/batch043-browser-test.mjs，检查原页顺序、旧题指纹和成绩、图表恢复、子路径与离线缓存。所有浏览器作答均为隔离合成记录，实际发布结果记录在对应回执中。
+当前313项自动测试。通用浏览器套件25项；末尾25段使用 node scripts/batch042-browser-test.mjs。来源审计和新增3题使用 node scripts/batch043-browser-test.mjs，检查原页顺序、旧题指纹和成绩、图表恢复、子路径与离线缓存。所有浏览器作答均为隔离合成记录，实际发布结果记录在对应回执中。
 
 脚本使用 Playwright 和 Chromium；Windows 默认 Edge，可设置 BROWSER_PATH。缺少依赖时安装 npm install --no-save playwright，再执行 npx playwright install chromium。QA 使用隔离浏览器和合成记录，仅写入被忽略的 qa/，不读取用户 4173 端口数据。
 
@@ -124,3 +131,11 @@ Pages 来源为 Deploy from a branch → gh-pages → / (root)。build:pages 验
 旧 Sites 站点与 GitHub Pages 域名不同，记录不自动互通。Codespaces 配置仅保留为可选入口；未创建资源，若自行使用须注意计费并保持端口 Private。
 
 断句修订的重建顺序：node scripts/repair-sentence-boundaries.mjs → npm run content:check → npm test → npm run build:pages → node scripts/sentence-repairs-browser-test.mjs。编译器只拼装已写好且已审阅的JSON，验证基线、来源和字符，不生成题目。任何原稿流水线重建后均须再次运行断句编译器；不得静默覆盖已发布基线。
+
+## 继续逐句直接证据任务
+
+先检查 source/evidence-tasks.json、Git、source/releases/evidence-*.json；有未发布批次必须恢复。运行 node scripts/start-evidence-batch.mjs 会优先返回现有批次；只有前批真实发布后才冻结最前面的至多25个缺口及原文/父题指纹。作者手动编写batchNNN-author.json，保留实际PDF整页核对与逐题审阅到batchNNN-review.json；不运行AI API，不在网站生成题目。
+
+完整作者稿经 node scripts/compile-evidence-questions.mjs 编译为 public/data/evidence-questions.json，再运行 npm run content:check、npm test、npm run build:pages、node scripts/evidence-browser-test.mjs。EVIDENCE_BATCH=001指定批次；READING_TEST_URL和READING_TEST_PROXY可用于线上验证。通过构建、浏览器与线上资源指纹核对后保存真实回执，再继续下一批。已发布题目指纹不能被静默覆盖。
+
+主问题与补题共用原来的短段，界面显示本段第几题；提交后手动点击下一题，最后一题后才进入下一段。原文只有一个显示实例，阅读单元与源ID不复制。新题自带问题/选项中文译文和整段翻译，导出JSON时完整保留。纯本地存档和历史成绩不变；手动已读不冒充答题。

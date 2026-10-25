@@ -8,7 +8,8 @@ const translationsByPassage = new Map(entries.map(entry=>[entry.questionId+'\0'+
 
 // Match the original passage exactly, so older attempt snapshots can display the
 // translation without changing their answer, version, fingerprint, or score.
-export function getPassageTranslation(question:Pick<Question,'id'|'passage'>):string|undefined {
+export function getPassageTranslation(question:Pick<Question,'id'|'passage'|'family'|'translation'>):string|undefined {
+ if(question.family==='sentence-evidence'&&question.translation)return question.translation;
  return translationsByPassage.get(question.id+'\0'+question.passage)?.translation;
 }
 

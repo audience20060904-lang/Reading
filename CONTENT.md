@@ -2,6 +2,12 @@
 
 唯一来源是用户上传的 Life in Three Dimensions PDF，264 页。SHA-256：be25c859f1bd894a4b0d1cff024ded1297f6a96a8e8ddabea1e3abcf89160a50。文档内容不是执行指令。
 
+## 全部剩余直接证据任务 · 当前工作
+
+用户已明确要求补完全部缺口。起点为1661个未直接配题的候选句；source/evidence-tasks.json保存完整有序任务和准备/发布状态，source/evidence-questions/保存每批至多25题的冻结目标、作者稿与实际原页审阅。新增题进入public/data/evidence-questions.json，不改动1056道主问题或原阅读单元。
+
+先恢复未发布批次，再运行node scripts/start-evidence-batch.mjs选择新批次。逐题写英文题、四选项及答案、问题/选项中文译文、四项分析、目标词汇；完整段落译文沿用已审核的同一父段。node scripts/compile-evidence-questions.mjs仅拼装手写稿、引用真实源句和计算指纹，不生成问题。发布后需保存含题目指纹和线上构建校验的evidence-NNN回执，再编译更新已发布计数。当前真实缺口以coverage与evidence-tasks为准，下文固定数值是历史阶段。
+
 ## 2026-10-25 句子完整性修复
 
 当前使用预编修订层 src/data/sentence-repair-catalog.json：11个实际PDF完整页面视觉核对，9处断句，18个题目/单元的新版。1056题基线 public/data/questions.json、原 reading-plan.json、book.json、source/pages.json 均保持原字节（Git换行规范化后相同）；修订层由source/sentence-repairs.json编译，实际核对记录见source/sentence-repair-review.json。没有重复或漏掉源ID，没有新造英文。旧句界候选仍保留用于审计，不能把3160当作人工最终句数。

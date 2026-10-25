@@ -9,6 +9,7 @@ try{({chromium}=await import('playwright'));}catch{({chromium}=await import(path
 const root=resolve('dist'),bank=JSON.parse(await readFile(join(root,'data/questions.json'),'utf8'));
 const baseline=JSON.parse(await readFile('tests/fixtures/batch002-fingerprints.json','utf8'));
 const legacy=JSON.stringify(bank.filter(q=>baseline[q.id]));
+const extraBank=JSON.parse(await readFile(join(root,'data/evidence-questions.json'),'utf8'));
 const worker=await readFile(join(root,'sw.js'),'utf8'),version=JSON.parse(await readFile(join(root,'offline-manifest.json'),'utf8')).version;
 const oldWorker=worker.replace('await c.addAll(requests)','await c.addAll(FILES)');
 assert.notEqual(worker,oldWorker,'Regression needs the current install code');
@@ -21,6 +22,7 @@ const server=createServer(async(req,res)=>{try{
  let data;
  if(path==='/sw.js')data=phase===2?worker:oldWorker.replaceAll(version,(phase===0?'old-':'stale-')+version);
  else if(path==='/data/questions.json'){questionFetches++;data=phase===0?legacy:JSON.stringify(bank);}
+ else if(path==='/data/evidence-questions.json')data=phase===0?'[]':JSON.stringify(extraBank);
  else data=await readFile(file);
  res.writeHead(200,{'Content-Type':mime[extname(path)]||'application/octet-stream','Cache-Control':path==='/sw.js'?'no-cache':'public, max-age=3600'});res.end(data);
 }catch{res.writeHead(404);res.end('Not found');}});
@@ -43,10 +45,10 @@ try{
  await page.getByRole('radio').nth(0).click();await page.getByRole('button',{name:'提交答案',exact:true}).click();await page.locator('.explanation').waitFor();await waitVersion('old-'+version);
  const before=await state();assert.equal(before.attempts.length,1);
  phase=1;await page.evaluate(async()=>{await (await navigator.serviceWorker.getRegistration()).update();});await waitVersion('stale-'+version);await page.reload();await page.locator('.explanation').waitFor();
- assert.equal(await cachedQuestionCount(),45);check('复现旧策略将仍有效的 45 题 HTTP 缓存复制进新 SW 缓存');
+ assert.equal(await cachedQuestionCount(),45);assert.equal(await page.evaluate(async()=>(await (await fetch(new URL('data/evidence-questions.json',document.baseURI))).json()).length),0);check('复现旧策略将仍有效的 45 题 HTTP 缓存复制进新 SW 缓存');
  const hits=questionFetches;
  phase=2;await page.evaluate(async()=>{await (await navigator.serviceWorker.getRegistration()).update();});await waitVersion(version);await page.reload();await page.locator('.explanation').waitFor();
- assert.equal(await cachedQuestionCount(),bank.length);assert(questionFetches>hits,'New install must refresh questions from server');assert.deepEqual((await state()).attempts,before.attempts);assert.equal((await state()).session.attemptId,before.session.attemptId);
+ assert.equal(await cachedQuestionCount(),bank.length);assert.equal(await page.evaluate(async()=>(await (await fetch(new URL('data/evidence-questions.json',document.baseURI))).json()).length),extraBank.length);assert(questionFetches>hits,'New install must refresh questions from server');assert.deepEqual((await state()).attempts,before.attempts);assert.equal((await state()).session.attemptId,before.session.attemptId);
  assert((await page.locator('.passage-translation').innerText()).includes('绿茶和小柑橘'));check('修复后安装强制刷新正文题库至最新题数，并保留旧成绩、位置与译文');result.passed=true;
 }catch(e){result.error=String(e);console.error(e);process.exitCode=1;await page.screenshot({path:'qa/cache-update-failure.png',fullPage:true}).catch(()=>{});}
 finally{await mkdir('qa',{recursive:true});await writeFile('qa/cache-update-results.json',JSON.stringify(result,null,2));await browser.close();await new Promise(r=>server.close(r));}
