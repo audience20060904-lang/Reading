@@ -1,0 +1,67 @@
+{
+  "schemaVersion": 1,
+  "kind": "ui-redesign",
+  "date": "2026-10-25",
+  "url": "https://audience20060904-lang.github.io/Reading/",
+  "repositoryVisibility": "public",
+  "sourceCommit": "32d85388f98991319a1af17f14b47fd5d06ac21e",
+  "deploymentCommit": "eada35a27a4122c9264d3f2bae15767d37902ff1",
+  "workflowRun": "https://github.com/audience20060904-lang/Reading/actions/runs/40160741547",
+  "workflowStatus": "completed",
+  "workflowConclusion": "success",
+  "offlineVersion": "cea05780ce0e41dc",
+  "changes": [
+    "采用中性黑白灰、蓝色主要操作、系统字体与简洁卡片，移除装饰书封和左侧全局导航。",
+    "桌面为顶部导航与居中单列阅读；手机为底部五项导航，页面留出底部空间。",
+    "保留真实小节标题与先阅读、选择、提交、解析、手动下一段的顺序；提交后英文仍在第三部分中文译文上方。",
+    "选中状态用蓝色，正确与错误保持绿色、红色，避免混淆。",
+    "章节原文、统计、错题、设置、查词、数据模态框统一样式；手机图表提供横向浏览提示。",
+    "长PDF指纹正确换行，移动端标题与统计数字自适应，CSS动画与过渡遵循减少动态效果偏好。"
+  ],
+  "validation": {
+    "unitTests": 283,
+    "productionBuild": "passed",
+    "generalBrowserChecks": 25,
+    "localUiChecks": 8,
+    "liveUiChecks": 8,
+    "localWordLookupChecks": 8,
+    "liveWordLookupChecks": 8,
+    "wordOccurrencesVisitedPerWordRun": 24,
+    "liveAssetIntegrity": "All manifest assets and SW byte-identical to tested build",
+    "viewports": [
+      320,
+      390,
+      768,
+      1024,
+      1440
+    ],
+    "desktop": "1440x1100 Edge",
+    "mobile": "390x844 Edge, plus additional width checks",
+    "themes": "Light and dark",
+    "history": "Synthetic incorrect answer saved once; page switches, dictionary and cached reload preserve it without duplicate scoring",
+    "offline": "UI and word-card browser simulations; general and word local suites also stop actual HTTP service before cached reload",
+    "reducedMotion": "CSS transitions and animations disabled for prefers-reduced-motion: reduce",
+    "initialIssueAndFix": "Mobile settings fingerprint overflow fixed using real text wrapping, not hiding page overflow."
+  },
+  "unchanged": {
+    "questionObjects": 1056,
+    "wordEntries": 475,
+    "wordOccurrences": 624,
+    "files": [
+      "public/data/book.json",
+      "public/data/questions.json",
+      "public/data/reading-plan.json",
+      "public/data/coverage.json",
+      "source/content-tasks.json",
+      "src/data/word-lookups.json",
+      "src/data/passage-translations.json",
+      "src/data/question-translations.json"
+    ],
+    "personalData": "No real user browser profile, IndexedDB or backups accessed; only isolated synthetic test state."
+  },
+  "limits": [
+    "手机验证为浏览器视口，不是实体iPhone或Android设备测试。",
+    "浏览器模拟离线不等于关闭Windows网卡；实际停止HTTP服务的缓存重载单独验证。",
+    "UI更改不增加题库覆盖，不改动原文、题目指纹或已保存成绩。"
+  ]
+}
