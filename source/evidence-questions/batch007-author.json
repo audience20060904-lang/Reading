@@ -1,0 +1,962 @@
+{
+  "schemaVersion": 1,
+  "id": "evidence-007",
+  "status": "authored",
+  "evidenceRule": "frozen-target-sentence",
+  "questions": [
+    {
+      "order": 1,
+      "prompt": "How did Johnson carry his belongings on move-in day?",
+      "promptZh": "约翰逊在搬入宿舍那天用什么装随身物品？",
+      "options": [
+        "In new suitcases matching the other students' luggage.",
+        "In boxes supplied by the university.",
+        "In several black trash bags.",
+        "In the house-painting equipment his father used."
+      ],
+      "optionsZh": [
+        "和其他同学行李相同的新旅行箱。",
+        "大学提供的箱子。",
+        "几个黑色垃圾袋。",
+        "父亲使用的房屋粉刷设备。"
+      ],
+      "answer": 2,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A suitcases 是随后其他学生的行李，不能移给约翰逊。",
+        "B 没有大学供箱的情节。",
+        "C a bunch of black trash bags 明确给出容器。",
+        "D 父亲职业不等于用粉刷设备装物品，修饰信息错配。"
+      ],
+      "vocabulary": [
+        {
+          "word": "move-in day",
+          "meaning": "搬入日；入住日",
+          "context": "指搬进学校住处的那一天，是行李比较发生的情境。",
+          "example": "On move-in day, volunteers helped students find their rooms.",
+          "collocations": [
+            "on move-in day",
+            "a university move-in day"
+          ]
+        }
+      ]
+    },
+    {
+      "order": 2,
+      "prompt": "What difference did Johnson notice between himself and other UVA students?",
+      "promptZh": "约翰逊注意到自己与 UVA 其他学生有什么不同？",
+      "options": [
+        "The others carried their belongings in suitcases.",
+        "The others were all from Tennessee too.",
+        "The others had been required to bring black trash bags.",
+        "The others were applying to UVA rather than moving in."
+      ],
+      "optionsZh": [
+        "其他人用旅行箱装物品。",
+        "其他人也全来自田纳西。",
+        "其他人被要求带黑色垃圾袋。",
+        "其他人在申请 UVA 而不是入住。"
+      ],
+      "answer": 0,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A other UVA kids...in suitcases 给出他观察到的差异。",
+        "B Tennessee 修饰 Johnson，不能扩大到所有其他人。",
+        "C 垃圾袋是他的装物方式，句中也没有统一要求。",
+        "D 搬入日所见不能换成正在申请学校。"
+      ],
+      "vocabulary": [
+        {
+          "word": "suitcases",
+          "meaning": "旅行箱；行李箱",
+          "context": "与 Johnson 的黑色垃圾袋形成可见的行李差异，不自动证明其他人的全部经济状况。",
+          "example": "They packed the books carefully into two suitcases.",
+          "collocations": [
+            "carry things in suitcases",
+            "pack a suitcase"
+          ]
+        }
+      ]
+    },
+    {
+      "order": 3,
+      "prompt": "Who was a house painter in the sentence about Johnson's question?",
+      "promptZh": "约翰逊提问的句子中，谁是房屋油漆工？",
+      "options": [
+        "Johnson himself.",
+        "Another UVA student.",
+        "The narrator of the book.",
+        "Johnson's father."
+      ],
+      "optionsZh": [
+        "约翰逊本人。",
+        "另一位 UVA 学生。",
+        "本书作者。",
+        "约翰逊父亲。"
+      ],
+      "answer": 3,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A who was a house painter 紧接 his dad，不修饰 he 所指的儿子。",
+        "B 没有修饰其他学生。",
+        "C 作者转述故事，不是句中这位父亲。",
+        "D 非限定性关系从句说明 his dad 的职业。不要把靠近的两个男性角色混淆。"
+      ],
+      "vocabulary": [
+        {
+          "word": "house painter",
+          "meaning": "房屋油漆工；房屋粉刷工",
+          "context": "who was a house painter 提供父亲职业的补充信息。",
+          "example": "The house painter prepared the walls before applying a new coat.",
+          "collocations": [
+            "work as a house painter",
+            "a house painter by trade"
+          ]
+        }
+      ]
+    },
+    {
+      "order": 4,
+      "prompt": "What role does the question about the father's answer play in the narration?",
+      "promptZh": "What was his dad’s answer? 在叙述中的直接作用是什么？",
+      "options": [
+        "It asks the reader to reconsider whether Johnson was admitted to UVA.",
+        "It creates anticipation for the father's reply in the next line.",
+        "It explains how the father earned his income.",
+        "It reports that the father refused to answer any question."
+      ],
+      "optionsZh": [
+        "让读者重新考虑约翰逊是否被 UVA 录取。",
+        "引起读者对紧接着父亲回答的期待。",
+        "解释父亲怎样获得收入。",
+        "报告父亲拒绝回答任何问题。"
+      ],
+      "answer": 1,
+      "type": "作者意图",
+      "support": "explicit",
+      "analyses": [
+        "A 问句焦点是父亲怎样回答行李问题，不是录取。",
+        "B 叙述者插入问句，再接引语，形成提问—揭示回答的叙述节奏。",
+        "C 父亲职业在前句已交代，问句未询问收入。",
+        "D 问他的 answer 不等于说拒答；下一句也有回答。"
+      ],
+      "vocabulary": [
+        {
+          "word": "answer",
+          "meaning": "回答；回应（此处为名词）",
+          "context": "his dad’s answer 的所属关系标明要揭示父亲的回应，而非儿子的答案。",
+          "example": "The interviewer paused before giving the guest's answer.",
+          "collocations": [
+            "an answer to a question",
+            "give an answer"
+          ]
+        }
+      ]
+    },
+    {
+      "order": 5,
+      "prompt": "What message is conveyed by the father's reply, 'it is OK to be different'?",
+      "promptZh": "父亲说 it is OK to be different 传达什么？",
+      "options": [
+        "Belongings must look identical before students can belong.",
+        "Every difference proves one person is superior.",
+        "Differences can be accepted without treating them as inferiority.",
+        "Students should obtain suitcases before speaking to others."
+      ],
+      "optionsZh": [
+        "物品必须看起来相同才有归属感。",
+        "任何差异都证明一方优越。",
+        "可以接纳差异，不必把它当成低人一等。",
+        "学生应先买旅行箱再与别人说话。"
+      ],
+      "answer": 2,
+      "type": "有限推断",
+      "support": "limited-inference",
+      "analyses": [
+        "A 与 OK to be different 相反。",
+        "B 允许不同不意味着差异必然证明优越。",
+        "C 在行李对比和随后 feel inferior 的语境下，父亲的回应支持接纳不同而非自卑这一有限推断。",
+        "D 没有购买或交谈前置条件；不要为父亲编造承诺。"
+      ],
+      "vocabulary": [
+        {
+          "word": "different",
+          "meaning": "不同的；有差异的",
+          "context": "在父亲回应中不带必然低人一等的评价，不能与 inferior 混同。",
+          "example": "The two students had different backgrounds but shared an interest in history.",
+          "collocations": [
+            "be different",
+            "different from others"
+          ]
+        }
+      ],
+      "evidenceQuote": "On move-in day, Johnson, an African American from Tennessee, was carrying his stuff in a bunch of black trash bags. He noticed other UVA kids were carrying their stuff in suitcases. So he asked his dad, who was a house painter, “Why don’t we have suitcases?” What was his dad’s answer? “Son, it is OK to be different.” When you feel inferior to others who are showing off on social media, remember Mr. Johnson’s dad. It is OK to be different."
+    },
+    {
+      "order": 6,
+      "prompt": "What does the short question 'The secret?' refer back to?",
+      "promptZh": "简短问句 The secret? 回指什么？",
+      "options": [
+        "A private admissions policy at UVA.",
+        "The identity of the journalist who reported Johnson's story.",
+        "A method for comparing university fees.",
+        "The key to happiness that the BBC sought among the Danes."
+      ],
+      "optionsZh": [
+        "UVA 私下的招生政策。",
+        "报道约翰逊故事的记者身份。",
+        "比较大学费用的方法。",
+        "BBC 向丹麦人探寻的幸福关键。"
+      ],
+      "answer": 3,
+      "type": "逻辑关系",
+      "support": "explicit",
+      "analyses": [
+        "A 本小段已经转向丹麦幸福，不是招生政策。",
+        "B 问句没有追问记者姓名。",
+        "C 学费属于前面另一例子。",
+        "D 前一句 in search of the key to happiness 是 The secret 的先行语境。原书的短问句保留，不补造完整英文句。"
+      ],
+      "vocabulary": [
+        {
+          "word": "secret",
+          "meaning": "秘诀；关键（此处为引申义）",
+          "context": "不是必须保密的文件，而是承接 key to happiness 所指的幸福诀窍。",
+          "example": "The baker said patience was the secret to good bread.",
+          "collocations": [
+            "the secret to happiness",
+            "the key to happiness"
+          ]
+        }
+      ],
+      "evidenceQuote": "Since Denmark often ranks as one of the happiest countries in the world, the BBC went to the Danes in search of the key to happiness. The secret?"
+    },
+    {
+      "order": 7,
+      "prompt": "What do many Danes say about their expectations of life?",
+      "promptZh": "许多丹麦人怎样描述自己的生活期待？",
+      "options": [
+        "They do not expect much in life.",
+        "They demand the best possible outcome in every area.",
+        "They all report the same exact level of happiness.",
+        "They believe happiness requires constantly surpassing others."
+      ],
+      "optionsZh": [
+        "他们对生活不作过多期待。",
+        "他们要求各方面都达到最优结果。",
+        "他们全都报告完全相同的幸福程度。",
+        "他们认为幸福需要不断超越别人。"
+      ],
+      "answer": 0,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A said they don’t expect much in life 明示自报的期待特点。",
+        "B 与 don't expect much 相反。",
+        "C many 不能换成 all，也没有统一精确分数。",
+        "D 这段知足观念不是持续胜过别人的比较。自报说法不构成全民实验结论。"
+      ],
+      "vocabulary": [
+        {
+          "word": "expect",
+          "meaning": "期待；预期",
+          "context": "don’t expect much 描述生活期望不高，不能理解为完全没有期望或能力。",
+          "example": "They expect a quiet weekend rather than a perfect holiday.",
+          "collocations": [
+            "expect much from life",
+            "lower what one expects"
+          ]
+        }
+      ]
+    },
+    {
+      "order": 8,
+      "prompt": "What change is recommended in 'Lower your expectations'?",
+      "promptZh": "Lower your expectations 建议作出什么改变？",
+      "options": [
+        "Make every expectation more demanding.",
+        "Refuse to make any decisions at all.",
+        "Reduce how much you expect.",
+        "Assume everyone else must change to satisfy you."
+      ],
+      "optionsZh": [
+        "使每项期待更苛刻。",
+        "拒绝作任何决定。",
+        "降低自己期待的程度。",
+        "认定其他人必须改变来满足自己。"
+      ],
+      "answer": 2,
+      "type": "语境词义",
+      "support": "explicit",
+      "analyses": [
+        "A lower 与提高要求相反。",
+        "B 降低期待不等于不作决定。",
+        "C Lower 作祈使动词，宾语是 expectations，建议减少期待。",
+        "D 宾语是 your expectations，不是命令别人改变。不能由这一简短建议推出完全放弃成长。"
+      ],
+      "vocabulary": [
+        {
+          "word": "Lower",
+          "meaning": "降低（此处作动词）",
+          "context": "Lower your expectations 是对期待程度的调整，不是把 lower 误当形容词或方位。",
+          "example": "The team agreed to lower its initial estimate.",
+          "collocations": [
+            "lower your expectations",
+            "lower a target"
+          ]
+        }
+      ]
+    },
+    {
+      "order": 9,
+      "prompt": "What does 'content' mean in 'Be content with what you have'?",
+      "promptZh": "Be content with what you have 中 content 是什么意思？",
+      "options": [
+        "The information contained in a written document.",
+        "Satisfied with what one already has.",
+        "Certain that all future ambitions will be achieved.",
+        "Unable to notice any difference between choices."
+      ],
+      "optionsZh": [
+        "书面文件包含的信息。",
+        "对自己已有的东西感到满足。",
+        "确定未来所有抱负都会实现。",
+        "无法注意选择之间的任何差异。"
+      ],
+      "answer": 1,
+      "type": "语境词义",
+      "support": "explicit",
+      "analyses": [
+        "A content 在这里是形容词满足的，不是名词内容。",
+        "B be content with 表示对已有东西知足。",
+        "C 满足已有不等于保证未来一切实现。",
+        "D 知足是态度，不是辨别能力丧失。此建议归为文中 Danish wisdom，不必扩为所有人的一致信条。"
+      ],
+      "vocabulary": [
+        {
+          "word": "content",
+          "meaning": "满足的；知足的",
+          "context": "be content with 的形容词用法，注意与名词内容的不同。",
+          "example": "She was content with a simple meal after the long walk.",
+          "collocations": [
+            "be content with",
+            "feel content"
+          ]
+        }
+      ]
+    },
+    {
+      "order": 10,
+      "prompt": "Where does the narrator say he actively uses the satisficer mindset?",
+      "promptZh": "作者说自己在哪些情形主动使用满意即可的心态？",
+      "options": [
+        "Only when writing philosophical novels.",
+        "Only when rejecting every challenging opportunity.",
+        "In every area of life without exception.",
+        "When buying, planning, or making everyday decisions."
+      ],
+      "optionsZh": [
+        "只在写哲学小说时。",
+        "只在拒绝所有挑战机会时。",
+        "毫无例外地用于生活每个方面。",
+        "购物、计划或作日常决定时。"
+      ],
+      "answer": 3,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A 本句没有写小说情形。",
+        "B use it 不等于拒绝所有挑战；作者随后还讨论局限。",
+        "C 前面 I don’t think so 拒绝把一种心态全面凌驾另一种，不能扩大为每个方面。",
+        "D buying something、planning something、making everyday decisions 是明示的使用范围。"
+      ],
+      "vocabulary": [
+        {
+          "word": "everyday",
+          "meaning": "日常的",
+          "context": "everyday decisions 是普通日常选择，不等于无例外地覆盖一切重大人生挑战。",
+          "example": "The course connects new vocabulary with everyday situations.",
+          "collocations": [
+            "everyday decisions",
+            "everyday life"
+          ]
+        }
+      ],
+      "evidenceQuote": "Does this mean that we should promote the satisficer mindset over the maximizer mindset? I don’t think so. There is an important place in life for the satisficer mindset. I actively use it when I am buying something, planning something, or making everyday decisions."
+    },
+    {
+      "order": 11,
+      "prompt": "Which work supplies the quotation about being lured into a 'small virtue'?",
+      "promptZh": "关于被诱入 small virtue 的引文来自哪部作品？",
+      "options": [
+        "Thus Spoke Zarathustra.",
+        "Brave New World.",
+        "The Land of Happy.",
+        "The Varieties of Religious Experience."
+      ],
+      "optionsZh": [
+        "《查拉图斯特拉如是说》。",
+        "《美丽新世界》。",
+        "《快乐之国》。",
+        "《宗教经验之种种》。"
+      ],
+      "answer": 0,
+      "type": "观点归属",
+      "support": "explicit",
+      "analyses": [
+        "A In Thus Spoke Zarathustra...as follows 直接标明作品来源。",
+        "B 是前面另一小说案例，不能交换出处。",
+        "C 是后面诗歌案例，非此段引文。",
+        "D 是第一章引用威廉·詹姆斯的作品，不是这句。哲学引文不能当成实验结果。"
+      ],
+      "vocabulary": [
+        {
+          "word": "lure",
+          "meaning": "诱使；引诱",
+          "context": "引文以 laud and lure 表达被赞扬并诱入小美德的吸引力，非实验操纵术语。",
+          "example": "The promise of an easy solution can lure people into ignoring difficult questions.",
+          "collocations": [
+            "lure someone into",
+            "laud and lure"
+          ]
+        }
+      ]
+    },
+    {
+      "order": 12,
+      "prompt": "Within the quoted criticism, what is blamed for people becoming 'smaller'?",
+      "promptZh": "在引述的批评中，人们变得 smaller 被归因于什么？",
+      "options": [
+        "Their lack of money compared with other students.",
+        "Their failure to follow the same daily routine.",
+        "The physical difficulty of climbing a mountain.",
+        "Their doctrine of happiness and virtue."
+      ],
+      "optionsZh": [
+        "与其他学生相比缺钱。",
+        "没有遵守相同日程。",
+        "登山在体力上的困难。",
+        "他们关于幸福与美德的信条。"
+      ],
+      "answer": 3,
+      "type": "观点归属",
+      "support": "explicit",
+      "analyses": [
+        "A 这里不是前面行李或财富差距的故事。",
+        "B 没有日程原因。",
+        "C 登山意象在后面，不能倒填为此句原因。",
+        "D but this is due to their doctrine of happiness and virtue 明示引文归因。smaller 属于哲学性批评，不是测量身高下降的实验。"
+      ],
+      "vocabulary": [
+        {
+          "word": "doctrine",
+          "meaning": "信条；学说",
+          "context": "在引文中指关于幸福和美德的一套观念，因果归属仍是引文观点。",
+          "example": "The essay questions the doctrine that progress must always mean higher income.",
+          "collocations": [
+            "a doctrine of happiness",
+            "follow a doctrine"
+          ]
+        }
+      ]
+    },
+    {
+      "order": 13,
+      "prompt": "What does 'resignation' mean in the quoted criticism of a 'small happiness'?",
+      "promptZh": "批评 small happiness 的引文中，resignation 是什么意思？",
+      "options": [
+        "Leaving a paid position by submitting a formal notice.",
+        "Resigned acceptance of a limited or modest happiness.",
+        "A prediction that every ambitious goal will be achieved.",
+        "An enthusiastic demand for ever greater conventional success."
+      ],
+      "optionsZh": [
+        "正式通知辞去有薪职位。",
+        "对有限或小幸福的顺从接受。",
+        "预测每个抱负都会达成。",
+        "热切要求更多传统成功。"
+      ],
+      "answer": 1,
+      "type": "语境词义",
+      "support": "explicit",
+      "analyses": [
+        "A 这里不是雇佣关系中的辞职。",
+        "B Modestly to embrace a small happiness 与 that they call resignation 对应，指认命式或克制的接受。",
+        "C 接受有限幸福不等于预测全目标实现。",
+        "D modestly 与不断热切扩张要求不符。这里只理解哲学引文的词义，不代替作者作经验判断。"
+      ],
+      "vocabulary": [
+        {
+          "word": "resignation",
+          "meaning": "无奈接受；顺从认命（此处不是辞职）",
+          "context": "引文将拥抱小幸福称为 resignation，词义在哲学批评语境中确定。",
+          "example": "He accepted the delay with resignation rather than enthusiasm.",
+          "collocations": [
+            "accept with resignation",
+            "a sense of resignation"
+          ]
+        }
+      ]
+    },
+    {
+      "order": 14,
+      "prompt": "How does Zarathustra describe himself in the quotation?",
+      "promptZh": "查拉图斯特拉在引文中怎样描述自己？",
+      "options": [
+        "A settled observer who avoids every journey.",
+        "A university student choosing the least expensive course.",
+        "A wanderer and a mountain climber.",
+        "A person who seeks only a conflict-free routine."
+      ],
+      "optionsZh": [
+        "回避一切旅途的定居观察者。",
+        "选择最低价课程的大学生。",
+        "漫游者和登山者。",
+        "只寻求没有冲突的日常的人。"
+      ],
+      "answer": 2,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A wanderer 与回避旅途相反。",
+        "B 学校选择是前面另一例子。",
+        "C I am a wanderer and a mountain climber 是直接自述，引语前标明 said to himself。",
+        "D 前句对照 conventional comfortable life，不能改成只求无冲突。人物自述不是作者实际登山履历。"
+      ],
+      "vocabulary": [
+        {
+          "word": "wanderer",
+          "meaning": "漫游者；四处行走探索的人",
+          "context": "这里为查拉图斯特拉自述的形象，与安稳传统生活相对照。",
+          "example": "The novel follows a wanderer through unfamiliar towns.",
+          "collocations": [
+            "the life of a wanderer",
+            "a wanderer and a climber"
+          ]
+        }
+      ]
+    },
+    {
+      "order": 15,
+      "prompt": "What direction is emphasised by 'Only now are you going your way to greatness'?",
+      "promptZh": "Only now are you going your way to greatness 强调什么方向？",
+      "options": [
+        "A definite instruction to stop travelling immediately.",
+        "A claim that greatness has already ended.",
+        "A retreat into an entirely predictable routine.",
+        "A newly beginning movement toward greatness."
+      ],
+      "optionsZh": [
+        "立即停止旅行的明确指令。",
+        "伟大已经结束的说法。",
+        "退回完全可预测的日常。",
+        "现在才开始迈向伟大。"
+      ],
+      "answer": 3,
+      "type": "同义改写",
+      "support": "explicit",
+      "analyses": [
+        "A going your way to greatness 不是停止旅行。",
+        "B going...to 指走向，不是已经结束。",
+        "C 当前上下文的漫游、登山意象不指退回固定常规。",
+        "D Only now 强调现在才，倒装 are you going 不改变向伟大迈进的意思。这是人物引语，不是某项实验的结果。"
+      ],
+      "vocabulary": [
+        {
+          "word": "greatness",
+          "meaning": "伟大；卓越",
+          "context": "引文中的追求方向，不能据此保证旅途必然带来世俗名利。",
+          "example": "The speech described greatness as an aspiration rather than a reward already earned.",
+          "collocations": [
+            "a path to greatness",
+            "strive for greatness"
+          ]
+        }
+      ]
+    },
+    {
+      "order": 16,
+      "prompt": "What kind of people is Zarathustra described as a friend of?",
+      "promptZh": "文中把查拉图斯特拉描述为哪类人的朋友？",
+      "options": [
+        "Only people who never leave their familiar surroundings.",
+        "People who travel far and do not insist on a life without danger.",
+        "Only people whose chief aim is to remain socially conventional.",
+        "People who require every journey to be entirely predictable."
+      ],
+      "optionsZh": [
+        "仅从不离开熟悉环境的人。",
+        "远行且不执意要求无风险生活的人。",
+        "仅以保持社会惯例为首要目标的人。",
+        "要求每次旅程完全可预测的人。"
+      ],
+      "answer": 1,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A travel far 与从不离开相反。",
+        "B friend of all who travel far and do not like to live without danger 直接刻画了人群。",
+        "C 这段赞许探索者，不是仅追随常规者。",
+        "D 未要求旅程完全可预测，和无风险偏好也不符。这里是文学人物形象，不能转为现实中必须主动冒险的行为要求。"
+      ],
+      "vocabulary": [
+        {
+          "word": "travel far",
+          "meaning": "远行；到很远的地方旅行",
+          "context": "在文学引文中刻画探索者的形象，不是研究测得的旅行里程。",
+          "example": "The story follows friends who travel far beyond their hometown.",
+          "collocations": [
+            "travel far",
+            "those who travel far"
+          ]
+        }
+      ]
+    },
+    {
+      "order": 17,
+      "prompt": "Which emotions does 'These emotions' refer to in the chapter's conclusion?",
+      "promptZh": "本章结语中 These emotions 回指哪些情绪？",
+      "options": [
+        "Only satisfaction after winning a competition.",
+        "Only happiness produced by daily comfort.",
+        "Sadness, anger, or fear mentioned in the preceding sentence.",
+        "Emotions that the author says must never be felt."
+      ],
+      "optionsZh": [
+        "只有赢得比赛后的满足。",
+        "只有日常舒适产生的幸福。",
+        "前一句的悲伤、愤怒或恐惧。",
+        "作者说绝不能感受的情绪。"
+      ],
+      "answer": 2,
+      "type": "逻辑关系",
+      "support": "explicit",
+      "analyses": [
+        "A 前一句没有把胜利满足作为先行对象。",
+        "B These 接的是 sad, angry, or fearful，不是只有幸福。",
+        "C 最近先行语句说明偶尔有这些情绪正常，随后说它们增加内心复杂和丰富。",
+        "D OK to be... 与绝不能感受相反；every now and then 仍有限定。"
+      ],
+      "vocabulary": [
+        {
+          "word": "inner life",
+          "meaning": "内心生活；内在体验",
+          "context": "指情绪与心理体验的层次，不是外在经济财富。",
+          "example": "The diary offers a glimpse of the writer's inner life.",
+          "collocations": [
+            "a rich inner life",
+            "complexity in one's inner life"
+          ]
+        }
+      ],
+      "evidenceQuote": "If you feel pressure to feel happy all the time, remember that it is OK to be sad, angry, or fearful every now and then. These emotions add complexity and richness to your inner life."
+    },
+    {
+      "order": 18,
+      "prompt": "What does the author say to readers who are already happy with their lives?",
+      "promptZh": "作者对已经满意自己生活的读者说什么？",
+      "options": [
+        "They are doing great.",
+        "Their happiness proves they are selfish.",
+        "They must replace every source of comfort immediately.",
+        "They cannot benefit from reflecting on their mindset."
+      ],
+      "optionsZh": [
+        "他们已经做得很好。",
+        "他们的幸福证明自私。",
+        "他们必须立即替换所有舒适来源。",
+        "他们不可能从反思心态中受益。"
+      ],
+      "answer": 0,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A if you’re already happy...you’re doing great 直接肯定这种情况。",
+        "B 没有把幸福判为自私。",
+        "C 肯定幸福不是命令立即抛弃全部舒适。",
+        "D 后面仍邀请反思，不能把肯定变成禁止反思。条件句不声称所有人都已经幸福。"
+      ],
+      "vocabulary": [
+        {
+          "word": "already",
+          "meaning": "已经",
+          "context": "限定作者肯定的是那些当前已经满意生活的人，不是把现状强加给每位读者。",
+          "example": "If you have already finished, you can review your answers.",
+          "collocations": [
+            "already happy",
+            "already satisfied"
+          ]
+        }
+      ]
+    },
+    {
+      "order": 19,
+      "prompt": "What does the author ask the reader to do after acknowledging existing happiness?",
+      "promptZh": "肯定已有的幸福之后，作者请读者做什么？",
+      "options": [
+        "Assume that contentment is the only possible good life.",
+        "Reject all ordinary decisions made in the past.",
+        "Prove that every maximizer is unhappy.",
+        "Pause to reflect on the satisficer mindset."
+      ],
+      "optionsZh": [
+        "认定知足是唯一可能的好生活。",
+        "拒绝过去所有普通决定。",
+        "证明每个最优追求者都不幸福。",
+        "停下来反思满意即可的心态。"
+      ],
+      "answer": 3,
+      "type": "作者意图",
+      "support": "explicit",
+      "analyses": [
+        "A 本段结尾说幸福不是唯一方式，不能改成唯一。",
+        "B reflect 不等于拒绝所有旧决定。",
+        "C 没有要求证明每个 maximizer 的情绪。",
+        "D But take a moment to reflect... 明示邀请审视心态，并非要求永久放弃它。"
+      ],
+      "vocabulary": [
+        {
+          "word": "reflect on",
+          "meaning": "反思；认真思考",
+          "context": "邀请读者审视 satisficer mindset 的局限，而非一概否定知足。",
+          "example": "She took time to reflect on what she wanted from the next year.",
+          "collocations": [
+            "reflect on a mindset",
+            "take a moment to reflect"
+          ]
+        }
+      ]
+    },
+    {
+      "order": 20,
+      "prompt": "What does 'fans' mean in 'Happiness has many fans'?",
+      "promptZh": "Happiness has many fans 中 fans 是什么意思？",
+      "options": [
+        "People whose happiness has been measured at the same score.",
+        "Supporters or admirers of happiness as a goal.",
+        "Only the critics who reject happiness.",
+        "Members of a research sample selected at random."
+      ],
+      "optionsZh": [
+        "幸福都被测得相同分数的人。",
+        "支持或推崇幸福这一目标的人。",
+        "仅指拒绝幸福的批评者。",
+        "随机选出的研究样本成员。"
+      ],
+      "answer": 1,
+      "type": "语境词义",
+      "support": "explicit",
+      "analyses": [
+        "A fans 不是具体评分群体。",
+        "B 这里以拟人化方式说幸福有许多支持者，后面与 doubters 相对。",
+        "C critics/doubters 是反面一端，不是 fans 的意思。",
+        "D 没有抽样方法，不能当成实验人数。"
+      ],
+      "vocabulary": [
+        {
+          "word": "fans",
+          "meaning": "支持者；爱好者",
+          "context": "不是风扇，也不是有统一情绪分数的人，指对幸福持推崇态度者。",
+          "example": "The proposal gained fans as more people heard the argument.",
+          "collocations": [
+            "many fans",
+            "fans of an idea"
+          ]
+        }
+      ]
+    },
+    {
+      "order": 21,
+      "prompt": "How is Flaubert's remark about requirements for happiness presented?",
+      "promptZh": "福楼拜关于幸福条件的说法以什么方式呈现？",
+      "options": [
+        "As the narrator's own final definition of happiness.",
+        "As a controlled study of volunteering.",
+        "As a sceptical view expressed in a letter to Louise Colet.",
+        "As a diagnostic rule established by a medical survey."
+      ],
+      "optionsZh": [
+        "作为叙述者自己的最终幸福定义。",
+        "作为志愿活动的对照研究。",
+        "作为写给路易丝·科莱信中的怀疑看法。",
+        "作为医学调查确立的诊断规则。"
+      ],
+      "answer": 2,
+      "type": "观点归属",
+      "support": "explicit",
+      "analyses": [
+        "A Flaubert wrote to 明确另一个说话来源，不能移给叙述者。",
+        "B 书信中的讽刺性看法不是志愿实验。",
+        "C 句子给出作者和收信人，语境列举幸福的怀疑者，应按书信观点理解。",
+        "D 尖锐引语不等于经验证的诊断标准，也不能据此给所有幸福者贴标签。"
+      ],
+      "vocabulary": [
+        {
+          "word": "requirements",
+          "meaning": "必要条件；要求",
+          "context": "是福楼拜书信中的尖锐说法，不是本书建立的医学条件。",
+          "example": "The guide lists the basic requirements for submitting an application.",
+          "collocations": [
+            "requirements for something",
+            "meet requirements"
+          ]
+        }
+      ]
+    },
+    {
+      "order": 22,
+      "prompt": "What qualification accompanies the description of Silverstein's poem as the most poignant critique?",
+      "promptZh": "把西尔弗斯坦的诗称为最尖锐感人的批评时，有什么限定？",
+      "options": [
+        "The judgement is introduced with 'might be'.",
+        "It is said to have been proved by every reader's vote.",
+        "It is described as the only poem ever written about happiness.",
+        "The narrator states that no other critique has any value."
+      ],
+      "optionsZh": [
+        "该评价用 might be 引出。",
+        "说是每位读者投票证明的。",
+        "称它为唯一写过幸福的诗。",
+        "断言其他任何批评都无价值。"
+      ],
+      "answer": 0,
+      "type": "观点归属",
+      "support": "explicit",
+      "analyses": [
+        "A might be 保留评价的可能性，poignant 是对批评力度的描述。",
+        "B 没有全体读者投票或证明。",
+        "C most poignant 不等于唯一作品。",
+        "D 比较性评价不抹去其他作品价值，不能去掉 might 的保留。"
+      ],
+      "vocabulary": [
+        {
+          "word": "poignant",
+          "meaning": "尖锐而动人的；令人感触深的",
+          "context": "形容诗歌批评带来的感触，不是实验效应量。",
+          "example": "The final scene offers a poignant reminder of what was lost.",
+          "collocations": [
+            "a poignant critique",
+            "a poignant reminder"
+          ]
+        }
+      ]
+    },
+    {
+      "order": 23,
+      "prompt": "What does being 'down on happiness' mean in the rhetorical question?",
+      "promptZh": "反问中 down on happiness 是什么意思？",
+      "options": [
+        "Being physically below a written happiness score.",
+        "Having fewer opportunities to study happiness.",
+        "Being unable to feel any emotion.",
+        "Being critical or disapproving of happiness."
+      ],
+      "optionsZh": [
+        "位置处于书面幸福分数下方。",
+        "拥有较少研究幸福的机会。",
+        "无法感受任何情绪。",
+        "对幸福持批评或不赞同态度。"
+      ],
+      "answer": 3,
+      "type": "语境词义",
+      "support": "explicit",
+      "analyses": [
+        "A down on 是态度表达，不是位置关系。",
+        "B 不是研究机会数量。",
+        "C 批评一个观念不等于无法感受情绪。",
+        "D 后文 One common critique 直接展开批评理由，支持此处 down on 的不赞同义；不把修辞问题当作临床诊断。"
+      ],
+      "vocabulary": [
+        {
+          "word": "down on",
+          "meaning": "不赞成；批评（口语）",
+          "context": "问为什么对幸福如此批评，不是说某个读者情绪低落。",
+          "example": "The reviewer was down on the plan because it ignored local needs.",
+          "collocations": [
+            "be down on an idea",
+            "so down on something"
+          ]
+        }
+      ]
+    },
+    {
+      "order": 24,
+      "prompt": "What comparison about volunteering is explicitly made?",
+      "promptZh": "原文明示了关于志愿服务的哪项比较？",
+      "options": [
+        "Unhappy people volunteer more than happy people.",
+        "Happy and unhappy people never differ in volunteering.",
+        "Happy people volunteer more than unhappy people.",
+        "Only unhappy people are allowed to volunteer."
+      ],
+      "optionsZh": [
+        "不幸福的人比幸福的人更多做志愿服务。",
+        "两类人的志愿活动从无差异。",
+        "幸福的人比不幸福的人更多做志愿服务。",
+        "只允许不幸福的人做志愿服务。"
+      ],
+      "answer": 2,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A 交换比较方向。",
+        "B more than 与从无差异相反。",
+        "C Happy people volunteer more than unhappy people 直接给出方向。",
+        "D 比较频率不是资格规定；不能由群体比较推出某人幸福必然导致志愿行动。"
+      ],
+      "vocabulary": [
+        {
+          "word": "volunteer",
+          "meaning": "自愿提供服务；做志愿者（此处为动词）",
+          "context": "描述帮助行为，非报名参加当前试验的要求。",
+          "example": "They volunteer at the community library on weekends.",
+          "collocations": [
+            "volunteer more",
+            "volunteer at a community centre"
+          ]
+        }
+      ]
+    },
+    {
+      "order": 25,
+      "prompt": "What does 'at the expense of one’s own happiness' mean in Tartt's suggestion?",
+      "promptZh": "塔特建议中的 at the expense of one's own happiness 是什么意思？",
+      "options": [
+        "Calculating a financial fee for every helpful action.",
+        "Making others happy even if this sacrifices one's own happiness.",
+        "Helping only when one's own happiness is guaranteed to increase.",
+        "Treating others' happiness as less important in every circumstance."
+      ],
+      "optionsZh": [
+        "为每次助人计算经济收费。",
+        "即便牺牲自己的幸福，也让别人幸福。",
+        "只有保证自己幸福增加时才帮助。",
+        "任何情况下都把别人幸福视为更不重要。"
+      ],
+      "answer": 1,
+      "type": "语境词义",
+      "support": "explicit",
+      "analyses": [
+        "A expense 是以……为代价的短语义，并非收费。",
+        "B even at the expense of 明确容许自己的幸福付出代价；这是小说家提出的看法。",
+        "C even if sacrifice 与 only when guaranteed gain 相反。",
+        "D 该建议重视别人幸福，不是总把别人放低。不能把引述的价值看法当作唯一合法生活方式或实验结论。"
+      ],
+      "vocabulary": [
+        {
+          "word": "at the expense of",
+          "meaning": "以……为代价；牺牲……",
+          "context": "指让自己幸福受损的可能代价，而非金钱支出。",
+          "example": "The team sought speed, but not at the expense of accuracy.",
+          "collocations": [
+            "at the expense of accuracy",
+            "at one's own expense"
+          ]
+        }
+      ]
+    }
+  ]
+}

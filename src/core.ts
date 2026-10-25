@@ -3,7 +3,11 @@ import sourceAudit from '../source/content-audit-tasks.json';
 export const BOOK_ID='life-three-dimensions';
 export const letters=['A','B','C','D'];
 export const emptyState=():StudyState=>({schemaVersion:1,bookId:BOOK_ID,attempts:[],session:null,readSections:[],readSentences:[],favorites:[],theme:'light',fontSize:20,updatedAt:new Date().toISOString()});
-export function orderedQuestions(qs:Question[],book:Book){const order=new Map(book.sentences.map((s,i)=>[s.id,i]));const position=(q:Question)=>Math.min(...q.evidence.flatMap(e=>e.sentenceIds.map(id=>order.get(id)??Infinity)));const unitPosition=(q:Question)=>Math.min(...q.sentenceIds.map(id=>order.get(id)??Infinity));return [...qs].sort((a,b)=>unitPosition(a)-unitPosition(b)||Number(!!a.parentQuestionId)-Number(!!b.parentQuestionId)||position(a)-position(b)||a.id.localeCompare(b.id));}
+export function orderedQuestions(qs:Question[],book:Book){const order=new Map(book.sentences.map((s,i)=>[s.id,i]));
+ // A contextual quote may reach back to an earlier sentence. The authored
+ // target determines a supplement's reading position, not that quote's start.
+ const position=(q:Question)=>Math.min(...(q.evidenceTargetIds?.length?q.evidenceTargetIds:q.evidence.flatMap(e=>e.sentenceIds)).map(id=>order.get(id)??Infinity));
+ const unitPosition=(q:Question)=>Math.min(...q.sentenceIds.map(id=>order.get(id)??Infinity));return [...qs].sort((a,b)=>unitPosition(a)-unitPosition(b)||Number(!!a.parentQuestionId)-Number(!!b.parentQuestionId)||position(a)-position(b)||a.id.localeCompare(b.id));}
 export function neighbor(qs:Question[],id:string,delta:number){const i=qs.findIndex(q=>q.id===id);return i<0?null:qs[i+delta]??null;}
 export function newSession(q:Question):Session{return {questionId:q.id,fingerprint:q.fingerprint,attemptId:null,selected:null,startedAt:Date.now(),elapsedBefore:0};}
 export function restoreReadingState(state:StudyState,qs:Question[],plan:ReadingPlan):StudyState {
