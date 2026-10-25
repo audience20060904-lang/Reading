@@ -1,0 +1,93 @@
+{
+  "schemaVersion": 1,
+  "kind": "sentence-boundary-repairs",
+  "date": "2026-10-25",
+  "url": "https://audience20060904-lang.github.io/Reading/",
+  "sourceCommit": "ee1955b6817cdd393a52452fa1c4dc8ee778e2a8",
+  "deploymentCommit": "827bc3bbe481d6c1fd45dfbbab57b0eca82c4036",
+  "workflowRun": "https://github.com/audience20060904-lang/Reading/actions/runs/40181183957",
+  "workflowStatus": "completed",
+  "workflowConclusion": "success",
+  "offlineVersion": "608b55293417e5f5",
+  "repositoryVisibility": "public",
+  "content": {
+    "repairedBoundaries": 9,
+    "revisedQuestions": 18,
+    "newQuestionIds": 0,
+    "questionCount": 1056,
+    "readingUnits": 1056,
+    "candidateSentenceIds": 3160,
+    "directEvidence": 1499,
+    "contextOnly": 1661,
+    "notDirectlyQuestioned": 1661,
+    "fullCoverage": false,
+    "reviewedPdfPages": [
+      49,
+      58,
+      103,
+      114,
+      131,
+      146,
+      147,
+      158,
+      167,
+      168,
+      169
+    ],
+    "sourceReview": "source/sentence-repair-review.json",
+    "authorDraft": "source/sentence-repairs.json",
+    "compiledCatalog": "src/data/sentence-repair-catalog.json"
+  },
+  "changes": [
+    "修复问话/动作续接、and so on、日语谚语和三处PDF跨页等9个边界，18段展示完整原句。",
+    "相邻单元之间转移已有候选句ID；原书顺序、所有源字符和1056个单元ID保留，无重复或遗漏，不增加推测词。",
+    "原1056题发布基线不变，18个独立预编新版附有逐字来源片段、问题/四项中文分析、词汇和完整段落译文。",
+    "单字起).来源辨识题改为完整七転八起谚语的有限推断题，不把比喻当作实验程序或恢复保证。",
+    "修订层在构建前编译并静态打包，运行时仅选用已准备的JSON记录，不生成题目、不调用AI。",
+    "提交前不显示解析，提交后完整原文仍仅出现于第三部分中文译文上方；章节浏览按同一修订层连续显示。",
+    "旧已提交记录保持原快照、指纹、答案及用时；重练按新版新增记录。旧未提交选择在修订后清空，防止套用于不同版本。",
+    "保留纯本地存档、恢复点、保护存储、JSON/CSV备份和离线使用。"
+  ],
+  "validation": {
+    "unitTests": 304,
+    "productionBuild": "passed",
+    "generalBrowserChecks": 25,
+    "localRepairChecks": 8,
+    "liveRepairChecks": 8,
+    "localUiChecks": 8,
+    "liveUiChecks": 8,
+    "localWordLookupChecks": 8,
+    "liveWordLookupChecks": 8,
+    "localArchiveChecks": 10,
+    "allRevisedPassagesVisitedPerRepairRun": 18,
+    "liveAssetIntegrity": "All manifest resources and Service Worker byte-identical to final tested build",
+    "viewports": [
+      320,
+      390,
+      1440
+    ],
+    "themes": [
+      "light",
+      "dark"
+    ],
+    "history": "Synthetic old q-c11-062 snapshot retained byte-for-byte; retry uses new fingerprint and adds a distinct record",
+    "offline": "Browser simulation plus actual local HTTP server shutdown and cached reload; original passages, translations, lookup and both historical versions retained"
+  },
+  "preserved": {
+    "immutableBaselineFiles": [
+      "public/data/book.json",
+      "public/data/questions.json",
+      "public/data/reading-plan.json",
+      "source/pages.json",
+      "src/data/word-lookups.json"
+    ],
+    "oldTranslationEntries": "All previous entries retained unchanged; new version translations appended",
+    "sourceBook": "Original paragraphs, raw extraction, sentence IDs and coordinates unchanged",
+    "personalData": "No actual user browser profile, IndexedDB, backups or credentials accessed; tests use isolated synthetic data only"
+  },
+  "limits": [
+    "3160仍为原始候选句ID，不等于人工最终句数；本批核对9个边界，不声称全书句界已全部定稿。",
+    "全书上下文包含全部候选句，但仍有1661个候选句没有直接证据题；fullCoverage保持false。",
+    "手机测试为Edge视口，不是实体手机测试；浏览器模拟断网与实际停止本地HTTP服务分开记录。"
+  ]
+}
