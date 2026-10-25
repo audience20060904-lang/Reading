@@ -1,0 +1,965 @@
+{
+  "schemaVersion": 1,
+  "id": "evidence-012",
+  "status": "authored",
+  "evidenceRule": "frozen-target-sentence",
+  "questions": [
+    {
+      "order": 1,
+      "prompt": "Where did Jobs work after dropping out of college in the account?",
+      "promptZh": "按这段叙述，乔布斯离开大学后在哪里工作？",
+      "options": [
+        "In his father's garage.",
+        "In an apple orchard.",
+        "In a historical archive at Caltech.",
+        "In Lucasfilm's computer graphics division."
+      ],
+      "optionsZh": [
+        "在父亲车库。",
+        "在苹果园。",
+        "在加州理工的历史档案馆。",
+        "在卢卡斯影业的计算机图形部门。"
+      ],
+      "answer": 1,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A 车库是此前家庭活动场景，不是本句退学后工作地点。",
+        "B After dropping out of college, Jobs worked in an apple orchard 明示时间顺序和地点。",
+        "C 把前面 Gopnik 的学术探寻地点移给了 Jobs，本句没有这个工作。",
+        "D 购买图形部门属于后来事业阶段，不能替换本句退学后果园工作。"
+      ],
+      "vocabulary": [
+        {
+          "word": "orchard",
+          "meaning": "果园",
+          "context": "an apple orchard 是种植苹果的果园，不是 Apple 公司部门。",
+          "example": "The family walked through the orchard after lunch.",
+          "collocations": [
+            "an apple orchard",
+            "work in an orchard"
+          ]
+        }
+      ]
+    },
+    {
+      "order": 2,
+      "prompt": "Which age and duration are given for Jobs's search in India?",
+      "promptZh": "关于乔布斯在印度的寻找，原文给出的年龄和时长是什么？",
+      "options": [
+        "Nineteen years old, staying for seven years.",
+        "Seven years old, staying for nineteen months.",
+        "Nineteen years old, spending seven months there.",
+        "Thirty years old, spending seven months there."
+      ],
+      "optionsZh": [
+        "十九岁，停留七年。",
+        "七岁，停留十九个月。",
+        "十九岁，在那里度过七个月。",
+        "三十岁，在那里度过七个月。"
+      ],
+      "answer": 2,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A seven months 不是 seven years。",
+        "B 把年龄与时间数值交换。",
+        "C When he was nineteen 与 spending seven months 分别限定年龄和时长。",
+        "D 三十岁属于后面事业阶段，不能套用此行年龄。spending 是补充行程信息，不表示寻找目标已实现。"
+      ],
+      "vocabulary": [
+        {
+          "word": "in search of",
+          "meaning": "寻找；为了寻求",
+          "context": "说明旅行的目标是寻找导师与精神觉悟，不保证实际获得目标。",
+          "example": "The researcher visited several libraries in search of the original letter.",
+          "collocations": [
+            "in search of a guide",
+            "go in search of something"
+          ]
+        }
+      ]
+    },
+    {
+      "order": 3,
+      "prompt": "What does 'he did gain a new perspective' explicitly establish?",
+      "promptZh": "he did gain a new perspective 明确说明什么？",
+      "options": [
+        "The trip did yield a new way of seeing things.",
+        "He achieved every original goal without difficulty.",
+        "The trip produced no change in his outlook.",
+        "He proved that all travellers share the same insight."
+      ],
+      "optionsZh": [
+        "旅程确实带来新的看法。",
+        "毫无困难地完成全部原目标。",
+        "旅程没有改变其看法。",
+        "证明所有旅行者获得相同洞见。"
+      ],
+      "answer": 0,
+      "type": "逻辑关系",
+      "support": "explicit",
+      "analyses": [
+        "A did gain 是强调确有所得，perspective 指新的观察理解方式。",
+        "B 获得一种收获不等于所有目标都完成。",
+        "C 与 gain a new perspective 相反。",
+        "D 单人反思不能扩成所有旅行者的统一结果。But 表示转折，不抹去先前遭遇的困难。"
+      ],
+      "vocabulary": [
+        {
+          "word": "perspective",
+          "meaning": "视角；看法",
+          "context": "指理解生活的方式，而非必须是相机的拍摄角度。",
+          "example": "Reading the other account gave her a different perspective.",
+          "collocations": [
+            "gain a new perspective",
+            "shift one's perspective"
+          ]
+        }
+      ]
+    },
+    {
+      "order": 4,
+      "prompt": "How is the quoted comparison of intellect and intuition presented?",
+      "promptZh": "关于理智与直觉的引述比较以什么方式呈现？",
+      "options": [
+        "As a controlled measurement of every population in the world.",
+        "As proof that rural people have no capacity to think.",
+        "As a command for all readers to abandon reasoning.",
+        "As a retrospective personal reflection."
+      ],
+      "optionsZh": [
+        "作为对世界每个人群的控制测量。",
+        "作为乡村居民没有思考能力的证明。",
+        "作为要求所有读者放弃推理的命令。",
+        "作为回顾性的个人反思。"
+      ],
+      "answer": 3,
+      "type": "观点归属",
+      "support": "explicit",
+      "analyses": [
+        "A Decades later he reflected 标明回忆，没有对所有人群的实验测量。",
+        "B don’t use their intellect like we do 不等于没有思考能力，不能以群体概括替人作能力判定。",
+        "C 引述个人比较并不命令读者停止思考。",
+        "D 保留个人反思的材料性质，不把关于直觉的广泛说法变成已验证的人口能力排名。"
+      ],
+      "vocabulary": [
+        {
+          "word": "intuition",
+          "meaning": "直觉；未经有意识推演的直接判断",
+          "context": "引语把它与 intellect 对照，是被引述的经验看法，不是给群体作实测智力评级。",
+          "example": "Her intuition suggested a pattern, which she then checked carefully.",
+          "collocations": [
+            "use intuition",
+            "intellect and intuition"
+          ]
+        }
+      ],
+      "evidenceQuote": "But, he did gain a new perspective during his trip. Decades later he reflected, “Coming back to America was, for me, much more of a cultural shock than going to India. The people in the Indian countryside don’t use their intellect like we do, they use their intuition instead, and their intuition is far more developed than in the rest of the world…."
+    },
+    {
+      "order": 5,
+      "prompt": "What does the sentence say Jobs eventually learned to use?",
+      "promptZh": "句子说乔布斯最终学会运用什么？",
+      "options": [
+        "Only intuition, while rejecting intellect entirely.",
+        "Only intellect, with no place for intuition.",
+        "Both intellect and intuition.",
+        "Neither intellect nor intuition."
+      ],
+      "optionsZh": [
+        "只有直觉，完全拒绝理智。",
+        "只有理智，不容直觉。",
+        "理智与直觉两者。",
+        "既不用理智也不用直觉。"
+      ],
+      "answer": 2,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A both 排除只有直觉。",
+        "B and his intuition 不能删除。",
+        "C both his intellect and his intuition 明确包含两者。",
+        "D both...and 与 neither...nor 相反。eventually 说明后来掌握，不是从一开始就毫无学习过程。"
+      ],
+      "vocabulary": [
+        {
+          "word": "mastered",
+          "meaning": "掌握；熟练运用",
+          "context": "mastered how to use 表示学会运用，不是控制别人或获得职位头衔。",
+          "example": "She gradually mastered how to organise a clear argument.",
+          "collocations": [
+            "master a skill",
+            "master how to use something"
+          ]
+        }
+      ]
+    },
+    {
+      "order": 6,
+      "prompt": "What did Jobs buy in January 1986, according to the passage?",
+      "promptZh": "按原文，乔布斯在 1986 年 1 月买下什么？",
+      "options": [
+        "NeXT as an already established company owned by someone else.",
+        "Lucasfilm's computer graphics division.",
+        "The whole of Lucasfilm rather than one division.",
+        "Only the completed film Toy Story."
+      ],
+      "optionsZh": [
+        "别人已创立的 NeXT 公司。",
+        "卢卡斯影业的计算机图形部门。",
+        "整个卢卡斯影业而非一个部门。",
+        "仅已制作完成的《Toy Story》。"
+      ],
+      "answer": 1,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A 前句说 started his own...NeXT，不是此时买下别人公司。",
+        "B bought Lucasfilm’s computer graphics division in January 1986 明示对象。",
+        "C division 不能扩大为整家公司。",
+        "D first feature film 标为1995，不能换成1986买下一部已经完成的该片。"
+      ],
+      "vocabulary": [
+        {
+          "word": "division",
+          "meaning": "部门；业务分部",
+          "context": "computer graphics division 是企业组成部分，不是数学除法或完整电影本身。",
+          "example": "The company opened a new design division.",
+          "collocations": [
+            "a computer graphics division",
+            "buy a business division"
+          ]
+        }
+      ]
+    },
+    {
+      "order": 7,
+      "prompt": "Which release is listed for 2007 in the passage's sequence?",
+      "promptZh": "原文产品时间序列把哪项发布列在 2007 年？",
+      "options": [
+        "The iPod.",
+        "The iMac.",
+        "The iPad.",
+        "The iPhone."
+      ],
+      "optionsZh": [
+        "iPod。",
+        "iMac。",
+        "iPad。",
+        "iPhone。"
+      ],
+      "answer": 3,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A 这段将 iPod 与2001配对，不是2007。",
+        "B 原页这一序列将 iMac 与2002配对，不是2007。",
+        "C iPad 对应2010。",
+        "D the iPhone in 2007 是原句配对。本题按书中这段时间线定位，不把其全部历史叙述转换为实时产品信息。"
+      ],
+      "vocabulary": [
+        {
+          "word": "release",
+          "meaning": "推出；发布（此处为名词）",
+          "context": "with the release of 说明产品推出，不是释放被关押者的意思。",
+          "example": "The team prepared documentation before the release of the software.",
+          "collocations": [
+            "the release of a product",
+            "a product release"
+          ]
+        }
+      ]
+    },
+    {
+      "order": 8,
+      "prompt": "How is the woman Jobs invited to his bedside described?",
+      "promptZh": "乔布斯请到床边的女性被怎样介绍？",
+      "options": [
+        "Apple's human resources director in the early 1980s.",
+        "The biographer who wrote his entire life story.",
+        "The head of Lucasfilm's graphics division in 1995.",
+        "A colleague whose Apple connection began only in the late 1990s."
+      ],
+      "optionsZh": [
+        "苹果在20世纪80年代早期的人力资源主管。",
+        "写他全部生平的传记作者。",
+        "1995年卢卡斯图形部门负责人。",
+        "一位直到20世纪90年代后期才与苹果有联系的同事。"
+      ],
+      "answer": 0,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A who was Apple’s human resources director in the early 1980s 是明确身份说明。",
+        "B 传记作者 Walter Isaacson 属于后面另一人物。",
+        "C 不能把之前公司的业务分部职位移给她。",
+        "D early 1980s 与 only in the late 1990s 的时间不符。"
+      ],
+      "vocabulary": [
+        {
+          "word": "human resources director",
+          "meaning": "人力资源主管",
+          "context": "是被邀请者的此前职业背景，不是 Jobs 自己的职位或电影导演。",
+          "example": "The human resources director discussed the recruitment process.",
+          "collocations": [
+            "a human resources director",
+            "work in human resources"
+          ]
+        }
+      ]
+    },
+    {
+      "order": 9,
+      "prompt": "What did Jobs ask her to tell him?",
+      "promptZh": "乔布斯请她告诉自己什么？",
+      "options": [
+        "How he could improve Apple's personnel policies.",
+        "What he had been like when he was young.",
+        "What she thought of his latest product design.",
+        "Why he had been fired in 1985."
+      ],
+      "optionsZh": [
+        "他怎样改进苹果的人事政策。",
+        "自己年轻时是什么样。",
+        "她怎样评价他最新的产品设计。",
+        "他为何在1985年被解雇。"
+      ],
+      "answer": 1,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A 她的职业背景不代表这次问的就是人事政策，原句问年轻时的自己。",
+        "B Tell me, what was I like when I was young? 明确请求回忆年轻时的自己。",
+        "C what was I like 的对象是他本人，不是某个新产品。",
+        "D 被解雇是前文事件，不能替换这次询问的个人特征。"
+      ],
+      "vocabulary": [
+        {
+          "word": "what was I like",
+          "meaning": "我当时是什么样的人",
+          "context": "what ... like 询问特征和印象，区别于 what did I like 询问喜好。",
+          "example": "She asked her old friend, 'What was I like at school?'",
+          "collocations": [
+            "what someone was like",
+            "what was it like"
+          ]
+        }
+      ]
+    },
+    {
+      "order": 10,
+      "prompt": "What does 'That' refer to in 'That turned out to be true'?",
+      "promptZh": "That turned out to be true 中 That 回指什么？",
+      "options": [
+        "That every product would succeed immediately.",
+        "That Jobs would never learn anything new.",
+        "The statement that the journey is the reward.",
+        "A promise that difficult experiences would never occur."
+      ],
+      "optionsZh": [
+        "每件产品都会立即成功。",
+        "乔布斯再也不会学到新东西。",
+        "旅程本身就是回报这一说法。",
+        "困难经历绝不发生的承诺。"
+      ],
+      "answer": 2,
+      "type": "逻辑关系",
+      "support": "explicit",
+      "analyses": [
+        "A 上一句没有每件产品立即成功的说法。",
+        "B 后面反而强调学到了东西。",
+        "C The journey is the reward 是最近被引述的命题，That 承接它作回顾性评价。",
+        "D 过程有价值不等于承诺绝无困难。这是对格言的个人认同，不是普遍收益保证或实验结论。"
+      ],
+      "vocabulary": [
+        {
+          "word": "turned out",
+          "meaning": "结果发现；后来证明是",
+          "context": "在这段对话中表示回顾后认为先前格言正确，不必然是科学实验证明。",
+          "example": "The apparently simple question turned out to be difficult.",
+          "collocations": [
+            "turn out to be true",
+            "turn out differently"
+          ]
+        }
+      ],
+      "evidenceQuote": "You told us, ‘The journey is the reward.’ That turned out to be true.”"
+    },
+    {
+      "order": 11,
+      "prompt": "What is left understood after 'did' in Jobs's final 'I really did'?",
+      "promptZh": "乔布斯最后 I really did 中 did 后省略了什么？",
+      "options": [
+        "Make every colleague find him easy to work with.",
+        "Avoid every mistake throughout his career.",
+        "Personally direct the film Toy Story.",
+        "Learn some things along the way."
+      ],
+      "optionsZh": [
+        "让每个同事都觉得他好相处。",
+        "职业生涯中避免所有错误。",
+        "亲自执导《Toy Story》。",
+        "在一路经历中学到一些东西。"
+      ],
+      "answer": 3,
+      "type": "语法与含义",
+      "support": "explicit",
+      "analyses": [
+        "A easy to work with 不在最近的 did learn 语境。",
+        "B 从学习不能反推从未犯错。",
+        "C 电影商业故事不是这句省略的动词内容。",
+        "D 前面重复 I did learn some things，结尾 did 代回 learn...，really 加强确实学过的意思。保留原书的短引语，不给英文原句补造新词。"
+      ],
+      "vocabulary": [
+        {
+          "word": "really did",
+          "meaning": "的确如此；确实做过（强调与省略）",
+          "context": "did 承接前面的 learn some things，而不是无具体指代的另一个动作。",
+          "example": "She said she would read the chapter, and she really did.",
+          "collocations": [
+            "really did learn",
+            "I really did"
+          ]
+        }
+      ],
+      "evidenceQuote": "You told us, ‘The journey is the reward.’ That turned out to be true.” Jobs responded, “I did learn some things along the way…I did learn some things. I really did.”"
+    },
+    {
+      "order": 12,
+      "prompt": "What transition is prepared by the reference to 'outwardly extraordinary, accomplished people'?",
+      "promptZh": "提到 outwardly extraordinary, accomplished people 为下文准备什么过渡？",
+      "options": [
+        "From visibly accomplished people to the sort of person encountered in everyday life.",
+        "From ordinary people to proof that only famous careers can be rich.",
+        "From personal accounts to characters in another novel.",
+        "From past accomplishments to predictions about Jobs's future career."
+      ],
+      "optionsZh": [
+        "从外在成就突出的人转向日常会遇到的一般人。",
+        "从普通人转到证明只有名人事业能丰富。",
+        "从个人叙述转向另一部小说的人物。",
+        "从既有成就转向对 Jobs 未来事业的预测。"
+      ],
+      "answer": 0,
+      "type": "作者意图",
+      "support": "explicit",
+      "analyses": [
+        "A 后面的 What about...every day? 直接引出一般人的生活故事。",
+        "B 这个转向恰不把丰富人生限定给名人。",
+        "C 下一问是日常遇到的一般人，不是宣布再转向小说人物。",
+        "D 这里转向 ordinary people 的故事，不是预测 Jobs 后续事业。"
+      ],
+      "vocabulary": [
+        {
+          "word": "outwardly",
+          "meaning": "从外在看；表面上",
+          "context": "限定 extraordinary, accomplished 的外在可见印象，不自动等同内在幸福或意义。",
+          "example": "Outwardly, the routine looked unchanged, but her interests had broadened.",
+          "collocations": [
+            "outwardly successful",
+            "outwardly accomplished"
+          ]
+        }
+      ],
+      "evidenceQuote": "Those are the stories of outwardly extraordinary, accomplished people. What about the story of the type of person we all encounter every day?"
+    },
+    {
+      "order": 13,
+      "prompt": "Which family detail is stated about Joy Ryan?",
+      "promptZh": "文中明确给出乔伊·瑞安的哪项家庭信息？",
+      "options": [
+        "She married in 1994 and raised two children there.",
+        "She married in 1949 but never raised children there.",
+        "She married in 1949 and raised three children there.",
+        "She married in 1986 and raised three grandchildren there."
+      ],
+      "optionsZh": [
+        "1994年结婚并在那里养育两个孩子。",
+        "1949年结婚，但从未在那里养育孩子。",
+        "1949年结婚并在那里养育三个孩子。",
+        "1986年结婚并在那里养育三个孙辈。"
+      ],
+      "answer": 2,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A 1994 属于后面的丧偶年份，子女数也被换错。",
+        "B raised three children 与从未养育相反。",
+        "C married in 1949 和 raised three children 两项明示细节都保留。",
+        "D 改错年份，也把 children 换成 grandchildren。there 承接之前居住地点，不应另造城市。"
+      ],
+      "vocabulary": [
+        {
+          "word": "raised",
+          "meaning": "养育；抚养（此处不是举高）",
+          "context": "raised three children 指养育三个子女，不是增加数字或抬起物件。",
+          "example": "They raised their children in a small town.",
+          "collocations": [
+            "raise three children",
+            "be raised in a town"
+          ]
+        }
+      ]
+    },
+    {
+      "order": 14,
+      "prompt": "Which sequence of losses matches Joy's account?",
+      "promptZh": "哪种丧失经历的顺序符合乔伊的叙述？",
+      "options": [
+        "Her husband died in 1994, and she lost two adult children about a decade later.",
+        "She lost two adult children in 1994, and her husband died a decade later.",
+        "Her husband and two adult children all died in the same year, 1994.",
+        "Her husband died in 1949, and she lost two children in 1994."
+      ],
+      "optionsZh": [
+        "丈夫1994年去世，约十年后失去两个成年子女。",
+        "1994年失去两个成年子女，十年后丈夫去世。",
+        "丈夫与两个成年子女都在1994年同年去世。",
+        "丈夫1949年去世，1994年失去两个孩子。"
+      ],
+      "answer": 0,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A 保留 her husband...1994 与 a decade later...two adult children 的人物和时间顺序。",
+        "B 交换两类亲人与时间。",
+        "C a decade later 不是同年。",
+        "D 1949 是结婚年份，不能换成丧偶年份。不能将家庭遭遇改写成她主动选择的结果。"
+      ],
+      "vocabulary": [
+        {
+          "word": "was marked by",
+          "meaning": "以……为特征；受到……重大影响",
+          "context": "her life was marked by tragedies 指不幸事件深刻影响其生活，不是说每一刻全无别的经历。",
+          "example": "The early years of the project were marked by frequent changes.",
+          "collocations": [
+            "be marked by tragedies",
+            "a period marked by change"
+          ]
+        }
+      ]
+    },
+    {
+      "order": 15,
+      "prompt": "How old was Brad Ryan at the time described?",
+      "promptZh": "文中所述当时，布拉德·瑞安多少岁？",
+      "options": [
+        "Eighty-five.",
+        "Sixty-seven.",
+        "Ten.",
+        "Thirty-four."
+      ],
+      "optionsZh": [
+        "85岁。",
+        "67岁。",
+        "10岁。",
+        "34岁。"
+      ],
+      "answer": 3,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A 85 与祖母后面旅行前的年纪有关，不是 Brad。",
+        "B 67 是祖母在同屋居住的年数，不是 Brad 年龄。",
+        "C 10 是后文疏远的年数，不能当作他的年龄。",
+        "D Brad Ryan was thirty-four at the time 直接说明。at the time 是书中故事当时，不是今天的实时年龄。"
+      ],
+      "vocabulary": [
+        {
+          "word": "at the time",
+          "meaning": "在当时",
+          "context": "将年龄限定到故事时点，不能随着当前日期自动当作现龄。",
+          "example": "She was a student at the time of the interview.",
+          "collocations": [
+            "at the time",
+            "thirty-four at the time"
+          ]
+        }
+      ]
+    },
+    {
+      "order": 16,
+      "prompt": "What relationship history is given before Brad's phone call?",
+      "promptZh": "布拉德打电话前，文中交代了什么关系背景？",
+      "options": [
+        "He and his grandmother had spoken daily for the previous ten years.",
+        "They had only recently resumed talking after ten years of estrangement.",
+        "He had first met his grandmother exactly ten years earlier.",
+        "They resumed contact only after the whole journey had ended."
+      ],
+      "optionsZh": [
+        "此前十年他每天与祖母交谈。",
+        "疏远十年后，他们不久前才重新交谈。",
+        "他恰好十年前才第一次见祖母。",
+        "整个旅行结束之后他们才恢复联系。"
+      ],
+      "answer": 1,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A estrangement 与每日密切交谈相反。",
+        "B had only recently started talking...after a ten-year stretch 给出疏远之后刚恢复联系的顺序。",
+        "C 疏远不等于从未见过或首次相识。",
+        "D had started 表示当前电话之前已开始恢复，不是旅行结束后。"
+      ],
+      "vocabulary": [
+        {
+          "word": "estrangement",
+          "meaning": "疏远；关系隔阂或断联状态",
+          "context": "指家庭关系的长期疏离，不是法律上的陌生人或第一次见面。",
+          "example": "The cousins began speaking again after a period of estrangement.",
+          "collocations": [
+            "a stretch of estrangement",
+            "years of estrangement"
+          ]
+        }
+      ]
+    },
+    {
+      "order": 17,
+      "prompt": "What does 'much less' add to the description of what Joy had never seen?",
+      "promptZh": "much less 怎样补充乔伊从未见过的事物清单？",
+      "options": [
+        "She had seen mountains but had never seen the ocean.",
+        "She had visited glaciers even though she had not seen mountains.",
+        "She had not seen mountains or the ocean, let alone the further examples listed.",
+        "She had seen every item but regarded the later ones as less beautiful."
+      ],
+      "optionsZh": [
+        "见过山，却没见过海洋。",
+        "没见过山，却已经去过冰川。",
+        "连山和海洋都未见过，更不用说后列的其他事物。",
+        "每样都见过，只觉得后列的较不美。"
+      ],
+      "answer": 2,
+      "type": "逻辑关系",
+      "support": "explicit",
+      "analyses": [
+        "A never seen a mountain or the ocean 不能删成山已经见过。",
+        "B much less 加强未见过的范围，不允许反向改成冰川已去。",
+        "C 此处相当于 let alone，将后列冰川、沙漠、动物等也纳入从未见的递进。",
+        "D much less 不是评价美感高低，本句也不是都见过。"
+      ],
+      "vocabulary": [
+        {
+          "word": "much less",
+          "meaning": "更不用说；遑论（否定后的递进）",
+          "context": "在 never...much less... 中扩展未见过的范围，不是数量少很多的比较。",
+          "example": "He had never crossed the county, much less travelled abroad.",
+          "collocations": [
+            "never ... much less ...",
+            "much less a glacier"
+          ]
+        }
+      ]
+    },
+    {
+      "order": 18,
+      "prompt": "Which activity is associated with New River Gorge National Park in the passage?",
+      "promptZh": "原文把哪项活动与新河峡谷国家公园联系起来？",
+      "options": [
+        "Helicoptering over glaciers.",
+        "Watching a whale near the Channel Islands.",
+        "Being trapped in a bison herd in Yellowstone.",
+        "Ziplining."
+      ],
+      "optionsZh": [
+        "乘直升机飞越冰川。",
+        "在海峡群岛附近看鲸鱼。",
+        "在黄石被野牛群围住。",
+        "滑索。"
+      ],
+      "answer": 3,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A 冰川直升机属于前句 Alaska 的经历。",
+        "B 鲸鱼经历对应 Channel Islands，不是此公园。",
+        "C 野牛对应 Yellowstone，地点错配。",
+        "D zipline in New River Gorge National Park...West Virginia 明示配对。书中关于当时年龄纪录的叙述不等于今天最新纪录查询。"
+      ],
+      "vocabulary": [
+        {
+          "word": "zipline",
+          "meaning": "乘滑索；沿高架钢索滑行（此处为动词）",
+          "context": "只是故事列出的活动，不能据此推断所有年龄或健康状态都适合该活动。",
+          "example": "The visitor described seeing the valley while ziplining.",
+          "collocations": [
+            "zipline in a park",
+            "go ziplining"
+          ]
+        }
+      ]
+    },
+    {
+      "order": 19,
+      "prompt": "Which period does the statement that Joy's life 'had been far from' psychologically rich refer to?",
+      "promptZh": "说乔伊的生活 had been far from 心理丰富，指向哪个时期？",
+      "options": [
+        "Her earlier plain routine before the later expedition experiences.",
+        "Only her current account of wonder during the interview.",
+        "Every year of her life, including all future years.",
+        "Brad's life rather than Joy's."
+      ],
+      "optionsZh": [
+        "后来探险经历之前较早的平淡生活。",
+        "仅访谈时描述惊奇的当前阶段。",
+        "她所有人生年份，包括全部未来。",
+        "布拉德而非乔伊的人生。"
+      ],
+      "answer": 0,
+      "type": "逻辑关系",
+      "support": "explicit",
+      "analyses": [
+        "A Just nine years ago...plain life 与 had been 标示此前阶段，后面访谈谈的是后来旅程。",
+        "B 把早期评述误套到后期惊奇经历。",
+        "C 过去阶段不等于永久以及未来全部。",
+        "D Joy’s life 明确主体，不是 Brad。这里理解叙述时间，不据此诊断个人或保证旅行有疗效。"
+      ],
+      "vocabulary": [
+        {
+          "word": "far from",
+          "meaning": "远非；完全谈不上（此处为程度义）",
+          "context": "far from a psychologically rich one 不是物理距离，而是形容此前生活与丰富体验相距很大。",
+          "example": "The task was far from simple.",
+          "collocations": [
+            "far from ordinary",
+            "far from a rich life"
+          ]
+        }
+      ],
+      "evidenceQuote": "Watching Brad and Joy in an interview with PBS NewsHour, one can’t help but notice the sparkle of wonder in their eyes as they describe their expedition. Just nine years ago Joy was living a plain life, distanced from Brad and battling depression. Joy’s life had been far from a psychologically rich one."
+    },
+    {
+      "order": 20,
+      "prompt": "What does the introduction 'In her own words' signal?",
+      "promptZh": "In her own words 这一引导语标示什么？",
+      "options": [
+        "An outside expert's interpretation replacing her account.",
+        "A shift to her own quoted voice.",
+        "A claim that she refused to say anything in the interview.",
+        "A summary written entirely in Brad's voice."
+      ],
+      "optionsZh": [
+        "以外部专家解释取代她的叙述。",
+        "转入引述她本人的声音。",
+        "声称她在采访中拒绝发言。",
+        "完全以布拉德口吻写的总结。"
+      ],
+      "answer": 1,
+      "type": "作者意图",
+      "support": "explicit",
+      "analyses": [
+        "A own words 强调本人措辞，不是换成外部解释。",
+        "B 在 Joy 的叙述后以冒号引出本人引语，标示声音来源的切换。",
+        "C 介绍本人引语不等于拒绝发言。",
+        "D her 指当前被讨论的 Joy，不是 Brad。保留原页短引导片段，不编造额外英文句子。"
+      ],
+      "vocabulary": [
+        {
+          "word": "own words",
+          "meaning": "本人的话；自己的措辞",
+          "context": "强调引述来源而非别人替其定义感受，不表示已独立测量每个经历。",
+          "example": "The report lets the interviewee explain the event in her own words.",
+          "collocations": [
+            "in her own words",
+            "describe something in one's own words"
+          ]
+        }
+      ],
+      "evidenceQuote": "Watching Brad and Joy in an interview with PBS NewsHour, one can’t help but notice the sparkle of wonder in their eyes as they describe their expedition. Just nine years ago Joy was living a plain life, distanced from Brad and battling depression. Joy’s life had been far from a psychologically rich one. In her own words:"
+    },
+    {
+      "order": 21,
+      "prompt": "What does 'miraculous' convey in the quoted description of the trip?",
+      "promptZh": "旅行引语中的 miraculous 表达什么感受？",
+      "options": [
+        "Routine and entirely predictable.",
+        "Deeply disappointing and lacking any beauty.",
+        "Amazingly wonderful in her personal description.",
+        "Scientifically proved to be beyond all natural explanation."
+      ],
+      "optionsZh": [
+        "例行且完全可预测。",
+        "极其失望且没有任何美。",
+        "在她个人叙述中奇妙得令人惊叹。",
+        "经科学证明超出所有自然解释。"
+      ],
+      "answer": 2,
+      "type": "语境词义",
+      "support": "explicit",
+      "analyses": [
+        "A beautiful, wonderful 与 miraculous 的惊叹不等于平淡可预测。",
+        "B 把正面评价取反。",
+        "C 这里是本人对发现美妙事物的强烈赞叹，不是实验测量。",
+        "D 日常引语的奇迹般感受不能改成已证明超自然事件。"
+      ],
+      "vocabulary": [
+        {
+          "word": "miraculous",
+          "meaning": "奇妙得令人惊叹的；奇迹般的",
+          "context": "此语境表达主观惊奇与赞赏，不声称证明超自然机制。",
+          "example": "The sudden improvement in the weather felt almost miraculous to the walkers.",
+          "collocations": [
+            "seem miraculous",
+            "a miraculous experience"
+          ]
+        }
+      ]
+    },
+    {
+      "order": 22,
+      "prompt": "How should 'I’ve enjoyed every minute of it' be read in this passage?",
+      "promptZh": "本段 I’ve enjoyed every minute of it 应怎样理解？",
+      "options": [
+        "An independent minute-by-minute measurement by the book's narrator.",
+        "A universal promise that travelling is pleasant for everyone.",
+        "A rejection of the beauty described in the preceding sentence.",
+        "An enthusiastic first-person evaluation of her own experience."
+      ],
+      "optionsZh": [
+        "本书作者独立逐分钟测量的结果。",
+        "旅行让任何人愉快的普遍承诺。",
+        "否定前句描述的美好。",
+        "她对自己经历的热情第一人称评价。"
+      ],
+      "answer": 3,
+      "type": "观点归属",
+      "support": "explicit",
+      "analyses": [
+        "A I’ve enjoyed 是自述，不是作者逐分钟独立记录。",
+        "B 个人引语不能变成对所有旅行者的保证。",
+        "C And 承接正面体验，不是撤回美好评价。",
+        "D 保留个人声音和强烈肯定的表达，不将修辞性的每一分钟当作全程科学计时数据。"
+      ],
+      "vocabulary": [
+        {
+          "word": "enjoyed",
+          "meaning": "享受；感到愉快",
+          "context": "现在完成时回顾体验中的喜悦，是自报感受而非普遍规律。",
+          "example": "She has enjoyed discussing the stories with her friends.",
+          "collocations": [
+            "enjoy every minute of",
+            "enjoy an experience"
+          ]
+        }
+      ]
+    },
+    {
+      "order": 23,
+      "prompt": "What route was the narrator travelling on in the taxi?",
+      "promptZh": "作者乘出租车时的路线是什么？",
+      "options": [
+        "From the airport to a hotel in Riverside.",
+        "From his hotel in Riverside to the airport.",
+        "From a hotel in Duncan Falls to a national park.",
+        "From the airport directly to UC Riverside's campus."
+      ],
+      "optionsZh": [
+        "机场到里弗赛德的酒店。",
+        "里弗赛德酒店到机场。",
+        "邓肯福尔斯酒店到国家公园。",
+        "机场直接到加州大学里弗赛德分校校园。"
+      ],
+      "answer": 1,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A 把 from 与 to 的方向倒置。",
+        "B from my hotel in Riverside, California, to the airport 是原句路线。",
+        "C Duncan Falls 属于前面 Joy 生活的地点，不是作者这次出租车路线。",
+        "D 学校是作者访问背景，不是本句行程的终点。日期也限定为2022年3月11日。"
+      ],
+      "vocabulary": [
+        {
+          "word": "taking a taxi",
+          "meaning": "乘出租车",
+          "context": "take 在此表示使用交通工具，不是偷走或拿走一辆车。",
+          "example": "They were taking a taxi from the station to the hotel.",
+          "collocations": [
+            "take a taxi to the airport",
+            "take a taxi from a hotel"
+          ]
+        }
+      ]
+    },
+    {
+      "order": 24,
+      "prompt": "What does 'I’ll call her Linda' establish?",
+      "promptZh": "I'll call her Linda 确立什么？",
+      "options": [
+        "How the narrator will refer to the driver, without confirming her legal name.",
+        "That her legal name has been independently verified as Linda.",
+        "That the narrator plans to telephone her after the ride.",
+        "That Linda is the narrator's own name."
+      ],
+      "optionsZh": [
+        "作者在故事中怎样称呼司机，并未确认其法定姓名。",
+        "已独立核实其法定姓名为 Linda。",
+        "作者计划乘车后给她打电话。",
+        "Linda 是作者自己的名字。"
+      ],
+      "answer": 0,
+      "type": "有限推断",
+      "support": "limited-inference",
+      "analyses": [
+        "A call her Linda 是命名式用法，只确定叙述称呼，不能据此确认真实姓名，也不能反向断言一定不是本名。",
+        "B 原句没有法律身份核实信息。",
+        "C call 在这里后接人和名字，不是打电话。",
+        "D her 是司机，I 是作者，不能交换代词对象。"
+      ],
+      "vocabulary": [
+        {
+          "word": "call her",
+          "meaning": "把她称作（此处不是给她打电话）",
+          "context": "call her Linda 用一个称呼介绍叙事人物，不确认真实姓名。",
+          "example": "In this example, I will call her Alex.",
+          "collocations": [
+            "call someone by a name",
+            "I'll call her ..."
+          ]
+        }
+      ]
+    },
+    {
+      "order": 25,
+      "prompt": "What earlier career history is given for the driver?",
+      "promptZh": "原文给司机交代了什么此前职业经历？",
+      "options": [
+        "She was still working full-time for the county and had not retired.",
+        "She had only ever driven taxis and had no earlier government work.",
+        "She had worked for a county government and retired years before.",
+        "She had retired from Apple's human resources department in the early 1980s."
+      ],
+      "optionsZh": [
+        "仍全职为县政府工作，未退休。",
+        "一直只开出租，没有政府工作经历。",
+        "曾为县政府工作，数年前已退休。",
+        "20世纪80年代早期从苹果人资部门退休。"
+      ],
+      "answer": 2,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A had...retired 与尚未退休相反。",
+        "B had worked for a county government 不能删除。",
+        "C 保留过去政府工作和在当前出租车故事之前数年退休的顺序。",
+        "D 苹果人资主管是前面乔布斯故事中的另一个人物，不能转移给司机。"
+      ],
+      "vocabulary": [
+        {
+          "word": "county government",
+          "meaning": "县级政府；县政府",
+          "context": "不是公司董事会或全国中央政府，属于司机先前的工作单位。",
+          "example": "She had worked for a county government before changing jobs.",
+          "collocations": [
+            "work for a county government",
+            "retire from government work"
+          ]
+        }
+      ],
+      "evidenceQuote": "On March 11, 2022, I was taking a taxi from my hotel in Riverside, California, to the airport. The driver—I’ll call her Linda—told me her life story, and what a story that was. She had worked for a county government and retired years before."
+    }
+  ]
+}
