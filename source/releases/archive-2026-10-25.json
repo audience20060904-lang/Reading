@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 1,
+  "kind": "chapter-progress-and-local-archive",
+  "date": "2026-10-25",
+  "url": "https://audience20060904-lang.github.io/Reading/",
+  "repositoryVisibility": "public",
+  "sourceCommit": "2b04105e705498111aaf7bc1f7779e4eda678703",
+  "deploymentCommit": "1be0846d4a2df9915290bc54b2cdaeba51e9893a",
+  "workflowRun": "https://github.com/audience20060904-lang/Reading/actions/runs/40171744217",
+  "workflowStatus": "completed",
+  "workflowConclusion": "success",
+  "offlineVersion": "f8b4e02aef28877f",
+  "changes": [
+    "页首用当前Chapter和本章位置百分比替换全书短段/题目计数。百分比=当前短段章内顺序号/本章短段数，不表示已完成或已读。",
+    "保留IndexedDB数据库版本1与旧state键；保存事务内保留3个不同状态恢复点，纯计时不挤占恢复点。",
+    "事务修订号防止旧标签页覆盖新记录，队列处理保留最新选择、快照与已累计用时。",
+    "损坏主记录尝试有效恢复点；全部损坏时可经确认从本地JSON恢复，不偷偷清空记录。",
+    "根据用户最新确认仅本地保存，移除在线存档入口、接口和加密模块，不需要云端服务、账户、私有仓库或访问令牌。",
+    "可申请浏览器持久存储，保留JSON完整备份与CSV导出；跨设备使用JSON手动迁移。"
+  ],
+  "validation": {
+    "unitTests": 292,
+    "productionBuild": "passed",
+    "generalBrowserChecks": 25,
+    "localArchiveChecks": 10,
+    "liveArchiveChecks": 10,
+    "localUiChecks": 8,
+    "liveUiChecks": 8,
+    "localWordLookupChecks": 8,
+    "liveWordLookupChecks": 8,
+    "liveAssetIntegrity": "All manifest assets and Service Worker byte-identical to final tested build",
+    "browser": "Isolated synthetic Edge contexts; 1440 desktop, 390 and 320 mobile viewports; light and dark",
+    "timing": "A five-second timing checkpoint survives page navigation and font preference persistence",
+    "localPersistence": "Old v1 state, checkpoint recovery, corrupted state preservation, invalid backup rejection and tab conflict tested",
+    "noCloud": "No cloud archive UI or token input; browser test observes no requests outside website origin",
+    "offline": "Browser simulation plus actual local HTTP shutdown and cached reload; general and word suites repeat own offline checks"
+  },
+  "storage": {
+    "mode": "local-only",
+    "userPreference": "用户明确回复：本地",
+    "database": "IndexedDB v1, original study/state retained",
+    "checkpoints": 3,
+    "crossDevice": "Manual JSON export/import only",
+    "privateRepositoryCreated": false,
+    "paidResourcesCreated": false,
+    "personalDataUploaded": false
+  },
+  "unchanged": {
+    "questionObjects": 1056,
+    "wordEntries": 475,
+    "wordOccurrences": 624,
+    "files": [
+      "public/data/book.json",
+      "public/data/questions.json",
+      "public/data/reading-plan.json",
+      "public/data/coverage.json",
+      "source/content-tasks.json",
+      "src/data/word-lookups.json",
+      "src/data/passage-translations.json",
+      "src/data/question-translations.json"
+    ],
+    "personalData": "No real user browser profile, IndexedDB, tokens or study backups accessed."
+  },
+  "limits": [
+    "学习记录仅保存在当前浏览器；手机和电脑不自动同步，清除浏览器数据仍会删除本地记录与恢复点。",
+    "手机使用浏览器视口验证，不是实体手机测试。",
+    "题库与证据覆盖不变；仍有1662个候选句仅作上下文，不能宣称逐句直接证据全覆盖。"
+  ]
+}
