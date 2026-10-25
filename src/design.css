@@ -45,26 +45,11 @@ body { color: var(--ink); background: var(--bg); }
 .chapter-progress .progress-bar { margin: 8px 0; height: 4px; }
 .chapter-progress details { font-size: 11px; color: var(--muted); }
 .chapter-progress details p { font-size: 11px; line-height: 1.7; }
-.cloud-archive h2 { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
-.cloud-fields { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 16px; margin-top: 22px; }
-.cloud-fields label { font-size: 12px; color: var(--muted); }
-.cloud-fields input { display: block; width: 100%; margin-top: 8px; min-height: 44px; font-size: 16px; }
-.cloud-help { font-size: 12px; line-height: 1.9; color: var(--muted); }
-.cloud-help ol { padding-left: 20px; }
-.cloud-help a { color: var(--accent); }
-.cloud-status { color: var(--success); }
-.archive-comparison { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 12px; margin-top: 20px; }
-.archive-comparison>div { background: var(--bg); border-radius: 12px; padding: 16px; min-width: 0; }
-.archive-comparison b,.archive-comparison span,.archive-comparison small { display: block; line-height: 1.9; overflow-wrap: anywhere; }
-.archive-comparison span { font-size: 12px; }
-.archive-comparison small { font-size: 11px; color: var(--muted); }
 .startup-recovery { width: min(760px,100%); text-align: left; }
-.startup-recovery>.cloud-archive { margin-top: 24px; }
 @media(max-width:760px) {
  .chapter-progress { flex-basis: auto; text-align: left; width: 100%; max-width: 260px; margin-top: 14px; }
  .chapter-progress>small { display: inline-block; margin-right: 12px; }
  .chapter-progress strong { display: inline; font-size: 26px; }
- .cloud-fields,.archive-comparison { grid-template-columns: minmax(0,1fr); }
  .setting-row { flex-wrap: wrap; }
  .setting-row small { display: block; margin: 8px 0 0; }
 }
