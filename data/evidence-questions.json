@@ -1,0 +1,1977 @@
+[
+  {
+    "id": "qe-c01-0001",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-001",
+    "parentQuestionId": "q-c01-034",
+    "chapterId": "c01",
+    "sectionId": "c01-s01",
+    "paragraphId": "c01-s01-p007-03458",
+    "readingUnitId": "c01-s01-p007-03458-r004-006",
+    "sentenceIds": [
+      "c01-s01-p007-03458-s004",
+      "c01-s01-p007-03458-s005",
+      "c01-s01-p007-03458-s006"
+    ],
+    "passage": "At the age of twenty-seven, Yoshi married a woman from a neighboring town and had three children. He played in a neighborhood softball league into his fifties and enjoyed annual neighborhood association trips to various hot springs. He still lives in the same town; he still has the same wife; and he still has the same close friends he has known since elementary school.",
+    "prompt": "Which detail about Yoshi's marriage is stated?",
+    "promptZh": "原文明说了关于 Yoshi 婚姻的哪项细节？",
+    "options": [
+      "He married after moving to a distant city.",
+      "His wife came from a nearby town.",
+      "His wife grew up in his own hometown.",
+      "He had two children with a woman from Tokyo."
+    ],
+    "optionsZh": [
+      "他搬到遥远的城市后结婚。",
+      "他的妻子来自邻近城镇。",
+      "他的妻子在他自己的家乡长大。",
+      "他与一名东京女子育有两个孩子。"
+    ],
+    "answer": 1,
+    "type": "细节",
+    "support": "explicit",
+    "analyses": [
+      "A 句子说的是来自邻镇的女子，没有说他先迁往远方城市。",
+      "B a woman from a neighboring town 直接对应来自附近城镇的妻子。",
+      "C neighboring town 指邻近的另一个城镇，不能换成他自己的家乡。",
+      "D 原文是 three children，且妻子来自邻镇；两个孩子和东京属于混淆人物与地点的干扰信息。"
+    ],
+    "vocabulary": [
+      {
+        "word": "neighboring",
+        "meaning": "邻近的；相邻的",
+        "context": "修饰 town，说明妻子的来处与 Yoshi 的城镇相邻，不是同一城镇。",
+        "example": "The two neighboring towns share a railway station.",
+        "collocations": [
+          "a neighboring town",
+          "neighboring communities"
+        ]
+      }
+    ],
+    "translation": "二十七岁时，Yoshi 娶了一位邻镇女子，并有了三个孩子。他五十多岁时仍参加邻里垒球联赛，也喜欢每年随邻里协会前往各处温泉旅行。他仍住在同一个小镇，仍与同一位妻子相伴，也仍拥有从小学起就认识的同一批亲密朋友。",
+    "evidenceTargetIds": [
+      "c01-s01-p007-03458-s004"
+    ],
+    "evidence": [
+      {
+        "quote": "At the age of twenty-seven, Yoshi married a woman from a neighboring town and had three children.",
+        "sentenceIds": [
+          "c01-s01-p007-03458-s004"
+        ],
+        "sources": [
+          {
+            "pdfPage": 7,
+            "block": 5,
+            "bbox": [
+              76.99,
+              345.75,
+              535.01,
+              594.27
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "874d85f25a43ca7e212187e493b3118e38d6b57d322640f3abbe290eecddca85"
+  },
+  {
+    "id": "qe-c01-0002",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-001",
+    "parentQuestionId": "q-c01-034",
+    "chapterId": "c01",
+    "sectionId": "c01-s01",
+    "paragraphId": "c01-s01-p007-03458",
+    "readingUnitId": "c01-s01-p007-03458-r004-006",
+    "sentenceIds": [
+      "c01-s01-p007-03458-s004",
+      "c01-s01-p007-03458-s005",
+      "c01-s01-p007-03458-s006"
+    ],
+    "passage": "At the age of twenty-seven, Yoshi married a woman from a neighboring town and had three children. He played in a neighborhood softball league into his fifties and enjoyed annual neighborhood association trips to various hot springs. He still lives in the same town; he still has the same wife; and he still has the same close friends he has known since elementary school.",
+    "prompt": "What does 'into his fifties' tell us about Yoshi's softball activity?",
+    "promptZh": "into his fifties 说明了 Yoshi 参加垒球活动的什么情况？",
+    "options": [
+      "It continued after he had turned fifty.",
+      "It began only when he turned fifty.",
+      "It ended before he reached fifty.",
+      "It lasted for exactly fifty years."
+    ],
+    "optionsZh": [
+      "他五十岁以后仍继续参加。",
+      "他直到五十岁才开始参加。",
+      "他不到五十岁就停止参加。",
+      "他恰好参加了五十年。"
+    ],
+    "answer": 0,
+    "type": "语境词义",
+    "support": "explicit",
+    "analyses": [
+      "A into his fifties 表示这项活动持续到他五十多岁时，支持五十岁以后仍参加。",
+      "B into 表示持续进入某一年龄阶段，并不提供开始的年龄。",
+      "C before fifty 与持续到五十多岁的意思相反。",
+      "D his fifties 是五十多岁这一年龄阶段，不是五十年的活动总时长。"
+    ],
+    "vocabulary": [
+      {
+        "word": "into his fifties",
+        "meaning": "一直到他五十多岁时",
+        "context": "说明参与垒球的活动持续进入五十多岁，未给出准确停止年份。",
+        "example": "She continued running competitively into her fifties.",
+        "collocations": [
+          "continue into one's fifties",
+          "work into one's seventies"
+        ]
+      }
+    ],
+    "translation": "二十七岁时，Yoshi 娶了一位邻镇女子，并有了三个孩子。他五十多岁时仍参加邻里垒球联赛，也喜欢每年随邻里协会前往各处温泉旅行。他仍住在同一个小镇，仍与同一位妻子相伴，也仍拥有从小学起就认识的同一批亲密朋友。",
+    "evidenceTargetIds": [
+      "c01-s01-p007-03458-s005"
+    ],
+    "evidence": [
+      {
+        "quote": "He played in a neighborhood softball league into his fifties and enjoyed annual neighborhood association trips to various hot springs.",
+        "sentenceIds": [
+          "c01-s01-p007-03458-s005"
+        ],
+        "sources": [
+          {
+            "pdfPage": 7,
+            "block": 5,
+            "bbox": [
+              76.99,
+              345.75,
+              535.01,
+              594.27
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "1c46ec035a47aa9a3ce49f20179bb4c62cf425726c2f591534348a827fe89945"
+  },
+  {
+    "id": "qe-c01-0003",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-001",
+    "parentQuestionId": "q-c01-035",
+    "chapterId": "c01",
+    "sectionId": "c01-s01",
+    "paragraphId": "c01-s01-p007-05992",
+    "readingUnitId": "c01-s01-p007-05992-r001-002",
+    "sentenceIds": [
+      "c01-s01-p007-05992-s001",
+      "c01-s01-p007-05992-s002"
+    ],
+    "passage": "Yoshi is my father, and I am his son a world away. After my eighteenth birthday, it took me exactly eighteen days to leave our small town for college in Tokyo.",
+    "prompt": "How does the sentence connect Yoshi to the narrator?",
+    "promptZh": "这句话怎样说明 Yoshi 与叙述者的关系？",
+    "options": [
+      "They are former classmates living in different cities.",
+      "Yoshi taught the narrator before he went abroad.",
+      "Yoshi is another name for the narrator himself.",
+      "They are father and son, living a world apart."
+    ],
+    "optionsZh": [
+      "他们是住在不同城市的昔日同学。",
+      "Yoshi 曾在叙述者出国前教过他。",
+      "Yoshi 是叙述者本人的另一个名字。",
+      "他们是父子，彼此相隔遥远。"
+    ],
+    "answer": 3,
+    "type": "细节",
+    "support": "explicit",
+    "analyses": [
+      "A my father 与 his son 明确给出父子关系，不是同学关系。",
+      "B 本句没有教师身份或教学经历，不能由父子关系补出。",
+      "C and I am his son 将两个人区分开来，并非同一人的两个名字。",
+      "D Yoshi is my father 对应父亲，I am his son 对应儿子；a world away 表达双方相隔很远。"
+    ],
+    "vocabulary": [
+      {
+        "word": "a world away",
+        "meaning": "相隔遥远；迥然不同",
+        "context": "此处首先把父亲与远在另一端的儿子联系起来，后文继续对照两人的生活轨迹。",
+        "example": "Her new home felt a world away from the village where she grew up.",
+        "collocations": [
+          "a world away from",
+          "feel a world away"
+        ]
+      }
+    ],
+    "translation": "Yoshi 是我的父亲，而我这个儿子却身在遥远的另一方。十八岁生日后，过了恰好十八天，我就离开我们的小镇，去东京上大学。",
+    "evidenceTargetIds": [
+      "c01-s01-p007-05992-s001"
+    ],
+    "evidence": [
+      {
+        "quote": "Yoshi is my father, and I am his son a world away.",
+        "sentenceIds": [
+          "c01-s01-p007-05992-s001"
+        ],
+        "sources": [
+          {
+            "pdfPage": 7,
+            "block": 6,
+            "bbox": [
+              76.99,
+              599.25,
+              535.01,
+              711.27
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "37c7415d0ec158dbf9495a66d3188955590fd24cf5fe03ad530b3a6ebe459812"
+  },
+  {
+    "id": "qe-c01-0004",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-001",
+    "parentQuestionId": "q-c01-036",
+    "chapterId": "c01",
+    "sectionId": "c01-s01",
+    "paragraphId": "c01-s01-p007-05992",
+    "readingUnitId": "c01-s01-p007-05992-r004-005",
+    "sentenceIds": [
+      "c01-s01-p007-05992-s004",
+      "c01-s01-p007-05992-s005"
+    ],
+    "passage": "Before I started the program in Maine, I attended a summer English program on Staten Island in New York City. I had just broken up with my girlfriend in Tokyo and was tired of being in a relationship.",
+    "prompt": "What was the narrator's attitude towards relationships before the summer programme?",
+    "promptZh": "参加暑期项目之前，叙述者对恋爱关系持什么态度？",
+    "options": [
+      "He was planning to reunite with his former girlfriend.",
+      "He wanted his girlfriend in Tokyo to join him abroad.",
+      "He had recently ended a relationship and felt weary of it.",
+      "He decided that a relationship should replace studying abroad."
+    ],
+    "optionsZh": [
+      "他打算与前女友复合。",
+      "他希望东京的女友与他一同出国。",
+      "他刚结束一段恋情，对恋爱关系感到疲惫。",
+      "他决定用恋爱代替出国学习。"
+    ],
+    "answer": 2,
+    "type": "同义改写",
+    "support": "explicit",
+    "analyses": [
+      "A broken up 表示已经分手；本句没有复合计划。",
+      "B 句中女友在 Tokyo 是过去恋情的背景，没有邀请同行。",
+      "C had just broken up 对应刚结束恋情，was tired of being in a relationship 对应对恋爱感到疲惫。",
+      "D 原文描述感情状态，没有说他放弃或替换留学计划；也不能扩大成永久拒绝恋爱。"
+    ],
+    "vocabulary": [
+      {
+        "word": "broken up",
+        "meaning": "分手；结束恋爱关系",
+        "context": "had just broken up 表示在叙述的那个过去时点之前刚与东京的女友分手。",
+        "example": "They had broken up before he moved to another city.",
+        "collocations": [
+          "break up with someone",
+          "have just broken up"
+        ]
+      }
+    ],
+    "translation": "开始缅因州的课程之前，我在纽约市的斯塔滕岛参加了一个暑期英语课程。我刚与东京的女友分手，也厌倦了处于恋爱关系之中。",
+    "evidenceTargetIds": [
+      "c01-s01-p007-05992-s005"
+    ],
+    "evidence": [
+      {
+        "quote": "I had just broken up with my girlfriend in Tokyo and was tired of being in a relationship.",
+        "sentenceIds": [
+          "c01-s01-p007-05992-s005"
+        ],
+        "sources": [
+          {
+            "pdfPage": 7,
+            "block": 6,
+            "bbox": [
+              76.99,
+              599.25,
+              535.01,
+              711.27
+            ]
+          },
+          {
+            "pdfPage": 8,
+            "block": 0,
+            "bbox": [
+              76.99,
+              75,
+              535.01,
+              323.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "7c4f7c3642ccaa50d2637781968e26f7c1057ce06808342e338e5428c945cdb7"
+  },
+  {
+    "id": "qe-c01-0005",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-001",
+    "parentQuestionId": "q-c01-037",
+    "chapterId": "c01",
+    "sectionId": "c01-s01",
+    "paragraphId": "c01-s01-p007-05992",
+    "readingUnitId": "c01-s01-p007-05992-r008-011",
+    "sentenceIds": [
+      "c01-s01-p007-05992-s008",
+      "c01-s01-p007-05992-s009",
+      "c01-s01-p007-05992-s010",
+      "c01-s01-p007-05992-s011"
+    ],
+    "passage": "She was about to start graduate school in Boston. I was about to start a year in Lewiston, Maine. During the 1991–1992 academic year, I took a Greyhound bus to Boston to see her every weekend. In May, I had to go back to Tokyo.",
+    "prompt": "What was the Korean student about to do?",
+    "promptZh": "那位韩国学生即将做什么？",
+    "options": [
+      "Begin graduate studies in Boston.",
+      "Start a year of study in Lewiston.",
+      "Return to Tokyo to finish college.",
+      "Take a job with Japan's Ministry of Education."
+    ],
+    "optionsZh": [
+      "在波士顿开始研究生学习。",
+      "在刘易斯顿开始一年的学习。",
+      "回东京完成大学学业。",
+      "到日本文部省工作。"
+    ],
+    "answer": 0,
+    "type": "细节",
+    "support": "explicit",
+    "analyses": [
+      "A She was about to start graduate school in Boston 明确给出她的计划。",
+      "B Lewiston 是叙述者接下来一年的所在地点，不能交换两人的去向。",
+      "C 回 Tokyo 是叙述者稍后五月的经历，不是这位学生的安排。",
+      "D 文部省工作是叙述者留学前的职业打算，不属于她。"
+    ],
+    "vocabulary": [
+      {
+        "word": "graduate school",
+        "meaning": "研究生院；研究生阶段学习",
+        "context": "说明她即将在 Boston 开始研究生教育，未指明具体大学或学位。",
+        "example": "He plans to apply to graduate school next year.",
+        "collocations": [
+          "start graduate school",
+          "apply to graduate school"
+        ]
+      }
+    ],
+    "translation": "她即将在波士顿开始研究生学习。我则即将在缅因州刘易斯顿开始一年的生活。在 1991—1992 学年，我每个周末都乘灰狗巴士去波士顿看她。五月，我不得不回到东京。",
+    "evidenceTargetIds": [
+      "c01-s01-p007-05992-s008"
+    ],
+    "evidence": [
+      {
+        "quote": "She was about to start graduate school in Boston.",
+        "sentenceIds": [
+          "c01-s01-p007-05992-s008"
+        ],
+        "sources": [
+          {
+            "pdfPage": 8,
+            "block": 0,
+            "bbox": [
+              76.99,
+              75,
+              535.01,
+              323.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "3aa9d26b30eee6a384f152142de7f88ca8f35592433c2472b47524726cffdb22"
+  },
+  {
+    "id": "qe-c01-0006",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-001",
+    "parentQuestionId": "q-c01-037",
+    "chapterId": "c01",
+    "sectionId": "c01-s01",
+    "paragraphId": "c01-s01-p007-05992",
+    "readingUnitId": "c01-s01-p007-05992-r008-011",
+    "sentenceIds": [
+      "c01-s01-p007-05992-s008",
+      "c01-s01-p007-05992-s009",
+      "c01-s01-p007-05992-s010",
+      "c01-s01-p007-05992-s011"
+    ],
+    "passage": "She was about to start graduate school in Boston. I was about to start a year in Lewiston, Maine. During the 1991–1992 academic year, I took a Greyhound bus to Boston to see her every weekend. In May, I had to go back to Tokyo.",
+    "prompt": "What does 'was about to start' mean in the narrator's sentence?",
+    "promptZh": "叙述者句中的 was about to start 是什么意思？",
+    "options": [
+      "He had already completed the planned year.",
+      "He was shortly going to begin the year.",
+      "He might begin it at an unspecified distant date.",
+      "He had decided not to begin it after all."
+    ],
+    "optionsZh": [
+      "他已经完成计划中的这一年。",
+      "他当时很快就要开始这一年。",
+      "他可能在不确定的遥远日期才开始。",
+      "他最终决定不开始这一年。"
+    ],
+    "answer": 1,
+    "type": "语境词义",
+    "support": "explicit",
+    "analyses": [
+      "A was about to 表示过去某时即将发生，不表示已经完成。",
+      "B be about to do 表示马上或很快要做某事，符合即将开始在 Lewiston 的一年。",
+      "C 这一结构强调临近，不是遥远而不确定的可能。",
+      "D 本句没有否定或取消计划；not begin 改写了原意。"
+    ],
+    "vocabulary": [
+      {
+        "word": "about to",
+        "meaning": "即将；正要",
+        "context": "在过去时叙事中表示当时即将开始在 Lewiston, Maine 的一年。",
+        "example": "The train was about to leave when she reached the platform.",
+        "collocations": [
+          "be about to start",
+          "be about to leave"
+        ]
+      }
+    ],
+    "translation": "她即将在波士顿开始研究生学习。我则即将在缅因州刘易斯顿开始一年的生活。在 1991—1992 学年，我每个周末都乘灰狗巴士去波士顿看她。五月，我不得不回到东京。",
+    "evidenceTargetIds": [
+      "c01-s01-p007-05992-s009"
+    ],
+    "evidence": [
+      {
+        "quote": "I was about to start a year in Lewiston, Maine.",
+        "sentenceIds": [
+          "c01-s01-p007-05992-s009"
+        ],
+        "sources": [
+          {
+            "pdfPage": 8,
+            "block": 0,
+            "bbox": [
+              76.99,
+              75,
+              535.01,
+              323.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "ce1ffb3f10b26510f034eb52595d2a5624ebd7a70273febe214d65ae40d7cc12"
+  },
+  {
+    "id": "qe-c01-0007",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-001",
+    "parentQuestionId": "q-c01-037",
+    "chapterId": "c01",
+    "sectionId": "c01-s01",
+    "paragraphId": "c01-s01-p007-05992",
+    "readingUnitId": "c01-s01-p007-05992-r008-011",
+    "sentenceIds": [
+      "c01-s01-p007-05992-s008",
+      "c01-s01-p007-05992-s009",
+      "c01-s01-p007-05992-s010",
+      "c01-s01-p007-05992-s011"
+    ],
+    "passage": "She was about to start graduate school in Boston. I was about to start a year in Lewiston, Maine. During the 1991–1992 academic year, I took a Greyhound bus to Boston to see her every weekend. In May, I had to go back to Tokyo.",
+    "prompt": "What did the narrator have to do in May?",
+    "promptZh": "五月时，叙述者不得不做什么？",
+    "options": [
+      "Move permanently to Chicago.",
+      "Begin graduate school in Boston.",
+      "Join an annual trip with his school friends.",
+      "Return to Tokyo."
+    ],
+    "optionsZh": [
+      "永久搬到芝加哥。",
+      "在波士顿开始研究生学习。",
+      "参加与同学的年度旅行。",
+      "返回东京。"
+    ],
+    "answer": 3,
+    "type": "细节",
+    "support": "explicit",
+    "analyses": [
+      "A 本句只交代回 Tokyo，不是永久迁居 Chicago。",
+      "B Boston 的研究生计划属于前文的女学生，不能移给叙述者。",
+      "C 本句没有旅行或同学聚会；这是把父亲的熟悉生活混入叙述者的行程。",
+      "D In May, I had to go back to Tokyo 直接说明时间和必须返回的地点。"
+    ],
+    "vocabulary": [
+      {
+        "word": "had to",
+        "meaning": "不得不；必须（过去时）",
+        "context": "说明五月返回 Tokyo 的必要性，没有交代具体原因。",
+        "example": "She had to return home before the course ended.",
+        "collocations": [
+          "had to go back",
+          "had to return"
+        ]
+      }
+    ],
+    "translation": "她即将在波士顿开始研究生学习。我则即将在缅因州刘易斯顿开始一年的生活。在 1991—1992 学年，我每个周末都乘灰狗巴士去波士顿看她。五月，我不得不回到东京。",
+    "evidenceTargetIds": [
+      "c01-s01-p007-05992-s011"
+    ],
+    "evidence": [
+      {
+        "quote": "In May, I had to go back to Tokyo.",
+        "sentenceIds": [
+          "c01-s01-p007-05992-s011"
+        ],
+        "sources": [
+          {
+            "pdfPage": 8,
+            "block": 0,
+            "bbox": [
+              76.99,
+              75,
+              535.01,
+              323.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "613cab81409c4583d6fc16290d2e05c6e2f56d2bdceeefde33230cc2990c28ba"
+  },
+  {
+    "id": "qe-c01-0008",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-001",
+    "parentQuestionId": "q-c01-039",
+    "chapterId": "c01",
+    "sectionId": "c01-s01",
+    "paragraphId": "c01-s01-p007-05992",
+    "readingUnitId": "c01-s01-p007-05992-r014-016",
+    "sentenceIds": [
+      "c01-s01-p007-05992-s014",
+      "c01-s01-p007-05992-s015",
+      "c01-s01-p007-05992-s016"
+    ],
+    "passage": "Next were stops of varying lengths in New York City; Champaign, Illinois; Minneapolis, Minnesota; and Charlottesville, Virginia, before moving onward to Chicago. Along the way, I married the Korean woman I met on Staten Island and we had two children, born in two different cities. I have not seen any of my elementary school friends in years.",
+    "prompt": "Which city comes after the listed stops of varying lengths?",
+    "promptZh": "在那些停留长短不一的地点之后，叙述者又前往哪座城市？",
+    "options": [
+      "Minneapolis.",
+      "New York City.",
+      "Chicago.",
+      "Charlottesville."
+    ],
+    "optionsZh": [
+      "明尼阿波利斯。",
+      "纽约市。",
+      "芝加哥。",
+      "夏洛茨维尔。"
+    ],
+    "answer": 2,
+    "type": "逻辑关系",
+    "support": "explicit",
+    "analyses": [
+      "A Minneapolis 是分号列出的途中停留地点之一，不是 onward to 后的地点。",
+      "B New York City 位于清单开头，不能当作之后前往的终点。",
+      "C before moving onward to Chicago 明确把 Chicago 放在所列停留之后。",
+      "D Charlottesville 紧邻末尾但仍在停留清单之内，容易与其后的 Chicago 混淆。"
+    ],
+    "vocabulary": [
+      {
+        "word": "onward",
+        "meaning": "继续向前；再往前",
+        "context": "moving onward to 表示经过此前各站后继续迁往 Chicago。",
+        "example": "After a short stay in the capital, they travelled onward to the coast.",
+        "collocations": [
+          "move onward to",
+          "travel onward"
+        ]
+      }
+    ],
+    "translation": "接下来，我在纽约市、伊利诺伊州香槟市、明尼苏达州明尼阿波利斯市和弗吉尼亚州夏洛茨维尔市先后停留，时长不一，然后继续迁往芝加哥。在这一路上，我与在斯塔滕岛认识的韩国女子结婚，有了两个孩子，他们分别出生于两座不同的城市。我已经多年没见过任何小学朋友了。",
+    "evidenceTargetIds": [
+      "c01-s01-p007-05992-s014"
+    ],
+    "evidence": [
+      {
+        "quote": "Next were stops of varying lengths in New York City; Champaign, Illinois; Minneapolis, Minnesota; and Charlottesville, Virginia, before moving onward to Chicago.",
+        "sentenceIds": [
+          "c01-s01-p007-05992-s014"
+        ],
+        "sources": [
+          {
+            "pdfPage": 8,
+            "block": 0,
+            "bbox": [
+              76.99,
+              75,
+              535.01,
+              323.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "ebf7ee6903a203261478253403281803047e1f1db61eda9841fdc502dd7f8c8c"
+  },
+  {
+    "id": "qe-c01-0009",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-001",
+    "parentQuestionId": "q-c01-039",
+    "chapterId": "c01",
+    "sectionId": "c01-s01",
+    "paragraphId": "c01-s01-p007-05992",
+    "readingUnitId": "c01-s01-p007-05992-r014-016",
+    "sentenceIds": [
+      "c01-s01-p007-05992-s014",
+      "c01-s01-p007-05992-s015",
+      "c01-s01-p007-05992-s016"
+    ],
+    "passage": "Next were stops of varying lengths in New York City; Champaign, Illinois; Minneapolis, Minnesota; and Charlottesville, Virginia, before moving onward to Chicago. Along the way, I married the Korean woman I met on Staten Island and we had two children, born in two different cities. I have not seen any of my elementary school friends in years.",
+    "prompt": "What can safely be concluded about the narrator's elementary-school friends?",
+    "promptZh": "关于叙述者的小学朋友，能够有依据地得出哪项结论？",
+    "options": [
+      "He deliberately ended every friendship with them.",
+      "He has not seen any of them for years.",
+      "They all moved to cities close to where he lives.",
+      "He meets them every spring for a local celebration."
+    ],
+    "optionsZh": [
+      "他有意结束了与他们每个人的友谊。",
+      "他已经多年没有见过其中任何人。",
+      "他们都搬到了离他住所很近的城市。",
+      "他每年春天都会在当地庆典上与他们见面。"
+    ],
+    "answer": 1,
+    "type": "有限推断",
+    "support": "limited-inference",
+    "analyses": [
+      "A 没有见面不等于主动结束所有友谊，deliberately 是添加的动机。",
+      "B have not seen any...in years 直接支持多年没有见到任何一位小学朋友。",
+      "C 本句没有提供朋友们的迁居去向，更不能推广为 all。",
+      "D 每年见面与多年没见相反；也不能把父亲的季节性活动移给叙述者。本句不排除其他形式的联系。"
+    ],
+    "vocabulary": [
+      {
+        "word": "in years",
+        "meaning": "多年来（常与否定或比较结构连用）",
+        "context": "与 have not seen 连用，说明距离最近见面已经过去多年，未给出确切年数。",
+        "example": "I have not visited that street in years.",
+        "collocations": [
+          "have not seen someone in years",
+          "the best result in years"
+        ]
+      }
+    ],
+    "translation": "接下来，我在纽约市、伊利诺伊州香槟市、明尼苏达州明尼阿波利斯市和弗吉尼亚州夏洛茨维尔市先后停留，时长不一，然后继续迁往芝加哥。在这一路上，我与在斯塔滕岛认识的韩国女子结婚，有了两个孩子，他们分别出生于两座不同的城市。我已经多年没见过任何小学朋友了。",
+    "evidenceTargetIds": [
+      "c01-s01-p007-05992-s016"
+    ],
+    "evidence": [
+      {
+        "quote": "I have not seen any of my elementary school friends in years.",
+        "sentenceIds": [
+          "c01-s01-p007-05992-s016"
+        ],
+        "sources": [
+          {
+            "pdfPage": 8,
+            "block": 0,
+            "bbox": [
+              76.99,
+              75,
+              535.01,
+              323.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "cd188e16384e4fbc29298e5de9ec84312a8ca9cef03de2df59d41c3dbd32cc3a"
+  },
+  {
+    "id": "qe-c01-0010",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-001",
+    "parentQuestionId": "q-c01-040",
+    "chapterId": "c01",
+    "sectionId": "c01-s01",
+    "paragraphId": "c01-s01-p008-04260",
+    "readingUnitId": "c01-s01-p008-04260-r001-004",
+    "sentenceIds": [
+      "c01-s01-p008-04260-s001",
+      "c01-s01-p008-04260-s002",
+      "c01-s01-p008-04260-s003",
+      "c01-s01-p008-04260-s004"
+    ],
+    "passage": "My father’s life has been stable, familiar, and comfortable. An annual cherry blossom party in spring, the Obon dance festival in summer, a foliage tour in fall, and hot springs in winter. It’s a cozy life, a good life. My life, on the other hand, has been far less stable, far less familiar, and far more stressful with constant deadlines for lecturing, grading, and writing mixed with countless rejections (e.g., grants, papers, book proposals, job applications).",
+    "prompt": "Which seasonal pairing matches the father's routine?",
+    "promptZh": "哪一组活动与季节的对应符合父亲的日常生活？",
+    "options": [
+      "A cherry blossom party — autumn.",
+      "A foliage tour — winter.",
+      "The Obon dance festival — summer.",
+      "Hot springs — spring."
+    ],
+    "optionsZh": [
+      "赏樱聚会——秋天。",
+      "赏叶之旅——冬天。",
+      "盂兰盆舞节——夏天。",
+      "温泉——春天。"
+    ],
+    "answer": 2,
+    "type": "细节",
+    "support": "explicit",
+    "analyses": [
+      "A 原文把 cherry blossom party 放在 spring，不是秋天。",
+      "B foliage tour 对应 fall，即秋天，不是冬天。",
+      "C the Obon dance festival in summer 是原文的直接对应。",
+      "D hot springs 在本句对应 winter，不是春天。各项只是父亲生活中的季节安排，不能读成所有人的统一时间表。"
+    ],
+    "vocabulary": [
+      {
+        "word": "foliage",
+        "meaning": "树叶；枝叶（统称）",
+        "context": "foliage tour 在秋季活动清单中指观赏秋叶的行程。",
+        "example": "The autumn foliage attracted visitors to the valley.",
+        "collocations": [
+          "autumn foliage",
+          "a foliage tour"
+        ]
+      }
+    ],
+    "translation": "父亲的生活一直稳定、熟悉而舒适。春天是每年的赏樱聚会，夏天是盂兰盆舞节，秋天是赏叶之旅，冬天则泡温泉。这是一种温馨的生活，一种美好生活。相比之下，我的人生远没有那么稳定和熟悉，压力却大得多：讲课、评分和写作的截止期限不断，还夹杂着无数次拒绝，例如资助、论文、图书提案和求职申请遭拒。",
+    "evidenceTargetIds": [
+      "c01-s01-p008-04260-s002"
+    ],
+    "evidence": [
+      {
+        "quote": "An annual cherry blossom party in spring, the Obon dance festival in summer, a foliage tour in fall, and hot springs in winter.",
+        "sentenceIds": [
+          "c01-s01-p008-04260-s002"
+        ],
+        "sources": [
+          {
+            "pdfPage": 8,
+            "block": 2,
+            "bbox": [
+              76.99,
+              426,
+              535.01,
+              655.02
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "b2ea114b7e5955467868e86875d9674d02f609889e5bbbebd324d849b0001d28"
+  },
+  {
+    "id": "qe-c01-0011",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-001",
+    "parentQuestionId": "q-c01-040",
+    "chapterId": "c01",
+    "sectionId": "c01-s01",
+    "paragraphId": "c01-s01-p008-04260",
+    "readingUnitId": "c01-s01-p008-04260-r001-004",
+    "sentenceIds": [
+      "c01-s01-p008-04260-s001",
+      "c01-s01-p008-04260-s002",
+      "c01-s01-p008-04260-s003",
+      "c01-s01-p008-04260-s004"
+    ],
+    "passage": "My father’s life has been stable, familiar, and comfortable. An annual cherry blossom party in spring, the Obon dance festival in summer, a foliage tour in fall, and hot springs in winter. It’s a cozy life, a good life. My life, on the other hand, has been far less stable, far less familiar, and far more stressful with constant deadlines for lecturing, grading, and writing mixed with countless rejections (e.g., grants, papers, book proposals, job applications).",
+    "prompt": "What quality of the father's life does 'cozy' emphasise?",
+    "promptZh": "cozy 强调了父亲生活的哪种特质？",
+    "options": [
+      "Constant adventure and unpredictability.",
+      "Public recognition and professional status.",
+      "Rapid increases in wealth.",
+      "Comfort and a reassuring sense of familiarity."
+    ],
+    "optionsZh": [
+      "不断的冒险与不可预测性。",
+      "公众认可与职业地位。",
+      "财富的迅速增长。",
+      "舒适以及令人安心的熟悉感。"
+    ],
+    "answer": 3,
+    "type": "语境词义",
+    "support": "explicit",
+    "analyses": [
+      "A cozy 的语境是熟悉、安稳的生活，不是不断冒险。",
+      "B 本句的评价没有把生活品质归结为名望或职位。",
+      "C good life 不能在这里直接缩成收入增长，cozy 也没有财富增速之义。",
+      "D cozy 与周围 stable、familiar、comfortable 的描写一致，突出温馨舒适与熟悉感。"
+    ],
+    "vocabulary": [
+      {
+        "word": "cozy",
+        "meaning": "温馨舒适的；安逸的",
+        "context": "评价父亲熟悉而稳定的日常生活，不等同于豪华或富裕。",
+        "example": "They enjoyed a cozy evening with old friends.",
+        "collocations": [
+          "a cozy life",
+          "a cozy evening"
+        ]
+      }
+    ],
+    "translation": "父亲的生活一直稳定、熟悉而舒适。春天是每年的赏樱聚会，夏天是盂兰盆舞节，秋天是赏叶之旅，冬天则泡温泉。这是一种温馨的生活，一种美好生活。相比之下，我的人生远没有那么稳定和熟悉，压力却大得多：讲课、评分和写作的截止期限不断，还夹杂着无数次拒绝，例如资助、论文、图书提案和求职申请遭拒。",
+    "evidenceTargetIds": [
+      "c01-s01-p008-04260-s003"
+    ],
+    "evidence": [
+      {
+        "quote": "It’s a cozy life, a good life.",
+        "sentenceIds": [
+          "c01-s01-p008-04260-s003"
+        ],
+        "sources": [
+          {
+            "pdfPage": 8,
+            "block": 2,
+            "bbox": [
+              76.99,
+              426,
+              535.01,
+              655.02
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "6189117b00fa5094b9c94a2c112930169898c6f3077c4221cefc1161d26b86b3"
+  },
+  {
+    "id": "qe-c01-0012",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-001",
+    "parentQuestionId": "q-c01-041",
+    "chapterId": "c01",
+    "sectionId": "c01-s02",
+    "paragraphId": "c01-s02-p009-00982",
+    "readingUnitId": "c01-s02-p009-00982-r001-004",
+    "sentenceIds": [
+      "c01-s02-p009-00982-s001",
+      "c01-s02-p009-00982-s002",
+      "c01-s02-p009-00982-s003",
+      "c01-s02-p009-00982-s004"
+    ],
+    "passage": "I think back to when I was graduating high school, when I was faced with the question framed in the immortal words of The Clash: “Should I stay or should I go?” It was easy, then. Just go. As I get older, though, it has become more and more difficult.",
+    "prompt": "At what stage does the narrator recall facing the stay-or-go question?",
+    "promptZh": "叙述者回忆自己在什么时候面对留下还是离开的抉择？",
+    "options": [
+      "When he was graduating from high school.",
+      "When his children were in middle and high school.",
+      "After taking a university job in New York City.",
+      "After meeting the Korean student on Staten Island."
+    ],
+    "optionsZh": [
+      "高中即将毕业时。",
+      "他的孩子们读初高中时。",
+      "到纽约市的大学任职之后。",
+      "在斯塔滕岛认识韩国学生之后。"
+    ],
+    "answer": 0,
+    "type": "细节",
+    "support": "explicit",
+    "analyses": [
+      "A when I was graduating high school 明确限定了这一回忆的时间。",
+      "B 孩子读初高中出现在后文另一次搬迁决定中，不能移到这里。",
+      "C New York City 的任职属于更晚的人生阶段。",
+      "D 认识韩国学生发生在大学期间的暑期学习阶段，也不是本句所说的高中毕业时。"
+    ],
+    "vocabulary": [
+      {
+        "word": "was faced with",
+        "meaning": "当时面临；需要面对",
+        "context": "叙述者高中毕业时面临去留抉择，而不是有人替他作出了决定。",
+        "example": "She was faced with a difficult choice after graduation.",
+        "collocations": [
+          "be faced with a choice",
+          "be faced with a question"
+        ]
+      }
+    ],
+    "translation": "我想起高中即将毕业的时候，当时面临的选择可用 The Clash 那句不朽的歌词来表达：“我该留下，还是该离开？”那时很容易：走就是了。但随着年龄增长，这个选择变得越来越困难。",
+    "evidenceTargetIds": [
+      "c01-s02-p009-00982-s001"
+    ],
+    "evidence": [
+      {
+        "quote": "I think back to when I was graduating high school, when I was faced with the question framed in the immortal words of The Clash: “Should I stay or should I go?”",
+        "sentenceIds": [
+          "c01-s02-p009-00982-s001"
+        ],
+        "sources": [
+          {
+            "pdfPage": 9,
+            "block": 1,
+            "bbox": [
+              76.99,
+              98.25,
+              535.01,
+              346.77
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "9a35144642525d04ae7bdc8f8f91fc2f26be11a0cd40b1e4a01e40fa47ec70ef"
+  },
+  {
+    "id": "qe-c01-0013",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-001",
+    "parentQuestionId": "q-c01-042",
+    "chapterId": "c01",
+    "sectionId": "c01-s02",
+    "paragraphId": "c01-s02-p009-00982",
+    "readingUnitId": "c01-s02-p009-00982-r005-008",
+    "sentenceIds": [
+      "c01-s02-p009-00982-s005",
+      "c01-s02-p009-00982-s006",
+      "c01-s02-p009-00982-s007",
+      "c01-s02-p009-00982-s008"
+    ],
+    "passage": "This question has been at the center of both my personal life and my academic research for decades. I imagine most of you have also asked yourselves that very same question, not just once or twice, but many times over. Some of you might be like my father: loyal, prudent, and nostalgic, prioritizing a stable life. Others may be more like me: impressionable, whimsical, and risk-taking, embracing an adventurous life.",
+    "prompt": "Which two areas has the stay-or-go question influenced for decades?",
+    "promptZh": "几十年来，去留问题一直影响着哪两个领域？",
+    "options": [
+      "His father's career and his mother's studies.",
+      "Only his teaching duties and grant applications.",
+      "His personal life and his academic research.",
+      "One brief college decision and no later choices."
+    ],
+    "optionsZh": [
+      "父亲的职业和母亲的学业。",
+      "仅他的教学职责和基金申请。",
+      "他的个人生活和学术研究。",
+      "仅一次短暂的大学抉择，此后不再涉及。"
+    ],
+    "answer": 2,
+    "type": "细节",
+    "support": "explicit",
+    "analyses": [
+      "A both my personal life and my academic research 的 my 指叙述者，不能换成父母。",
+      "B only 缩小了范围，也把 personal life 排除在外。",
+      "C 原文明确并列个人生活与学术研究，并用 for decades 表示持续多年。",
+      "D at the center...for decades 不支持只影响一次短暂决定。"
+    ],
+    "vocabulary": [
+      {
+        "word": "at the center of",
+        "meaning": "处于……的核心；是……的中心问题",
+        "context": "表示去留抉择长期贯穿个人生活和学术研究，不是地理中心。",
+        "example": "Trust is at the center of their collaboration.",
+        "collocations": [
+          "at the center of a debate",
+          "at the center of one's research"
+        ]
+      }
+    ],
+    "translation": "几十年来，这个问题一直处于我的个人生活和学术研究的中心。我想，你们大多数人也曾问过自己同样的问题，而且不止一两次，而是反复多次。有些人可能像父亲一样，忠诚、审慎而念旧，把稳定生活放在首位。另一些人也许更像我，易受触动、随性而愿意冒险，拥抱充满冒险的生活。",
+    "evidenceTargetIds": [
+      "c01-s02-p009-00982-s005"
+    ],
+    "evidence": [
+      {
+        "quote": "This question has been at the center of both my personal life and my academic research for decades.",
+        "sentenceIds": [
+          "c01-s02-p009-00982-s005"
+        ],
+        "sources": [
+          {
+            "pdfPage": 9,
+            "block": 1,
+            "bbox": [
+              76.99,
+              98.25,
+              535.01,
+              346.77
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "8ad4bfaaf55682d996f2e42c3c0252ce32dd56e1f3b22e5c5b774f9c7668c8f1"
+  },
+  {
+    "id": "qe-c01-0014",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-001",
+    "parentQuestionId": "q-c01-042",
+    "chapterId": "c01",
+    "sectionId": "c01-s02",
+    "paragraphId": "c01-s02-p009-00982",
+    "readingUnitId": "c01-s02-p009-00982-r005-008",
+    "sentenceIds": [
+      "c01-s02-p009-00982-s005",
+      "c01-s02-p009-00982-s006",
+      "c01-s02-p009-00982-s007",
+      "c01-s02-p009-00982-s008"
+    ],
+    "passage": "This question has been at the center of both my personal life and my academic research for decades. I imagine most of you have also asked yourselves that very same question, not just once or twice, but many times over. Some of you might be like my father: loyal, prudent, and nostalgic, prioritizing a stable life. Others may be more like me: impressionable, whimsical, and risk-taking, embracing an adventurous life.",
+    "prompt": "What does the narrator imagine about his readers?",
+    "promptZh": "叙述者设想读者有过怎样的经历？",
+    "options": [
+      "They have all chosen adventure over stability.",
+      "They asked him the question only once or twice.",
+      "They have never considered the question themselves.",
+      "They have repeatedly asked themselves the same question."
+    ],
+    "optionsZh": [
+      "他们都选择冒险而不是稳定。",
+      "他们只向他问过一两次这个问题。",
+      "他们从未亲自思考过这个问题。",
+      "他们曾反复向自己提出同样的问题。"
+    ],
+    "answer": 3,
+    "type": "同义改写",
+    "support": "explicit",
+    "analyses": [
+      "A 本句只推测 most of you 思考过去留问题，没有说明所有人的选择结果。",
+      "B asked yourselves 是问自己，不是问作者；many times over 也不是仅一两次。",
+      "C also asked yourselves 与从未思考相反。",
+      "D not just once or twice, but many times over 直接支持反复自问；I imagine 表明这是叙述者的设想而非调查统计。"
+    ],
+    "vocabulary": [
+      {
+        "word": "many times over",
+        "meaning": "反复多次；一次又一次",
+        "context": "强调读者可能不止一两次面对同样的去留问题，未给出具体次数。",
+        "example": "She reconsidered the decision many times over.",
+        "collocations": [
+          "ask oneself many times over",
+          "think something over"
+        ]
+      }
+    ],
+    "translation": "几十年来，这个问题一直处于我的个人生活和学术研究的中心。我想，你们大多数人也曾问过自己同样的问题，而且不止一两次，而是反复多次。有些人可能像父亲一样，忠诚、审慎而念旧，把稳定生活放在首位。另一些人也许更像我，易受触动、随性而愿意冒险，拥抱充满冒险的生活。",
+    "evidenceTargetIds": [
+      "c01-s02-p009-00982-s006"
+    ],
+    "evidence": [
+      {
+        "quote": "I imagine most of you have also asked yourselves that very same question, not just once or twice, but many times over.",
+        "sentenceIds": [
+          "c01-s02-p009-00982-s006"
+        ],
+        "sources": [
+          {
+            "pdfPage": 9,
+            "block": 1,
+            "bbox": [
+              76.99,
+              98.25,
+              535.01,
+              346.77
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "49b2da36ed55ef90682fcb5c398663fd5b7a04e111a5bc6437c73b93fc294845"
+  },
+  {
+    "id": "qe-c01-0015",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-001",
+    "parentQuestionId": "q-c01-012",
+    "chapterId": "c01",
+    "sectionId": "c01-s02",
+    "paragraphId": "c01-s02-p009-04298",
+    "readingUnitId": "c01-s02-p009-04298-r001-006",
+    "sentenceIds": [
+      "c01-s02-p009-04298-s001",
+      "c01-s02-p009-04298-s002",
+      "c01-s02-p009-04298-s003",
+      "c01-s02-p009-04298-s004",
+      "c01-s02-p009-04298-s005",
+      "c01-s02-p009-04298-s006"
+    ],
+    "passage": "When author Donna Tartt was asked what questions she was grappling with in her novel The Goldfinch, she said, “What is a good life?…To be happy oneself? Is it personal happiness? Or is it to make other people happy even at the expense of one’s own happiness?” Tartt’s question is profound. Should we strive to be happy? Or should we work for others’ happiness before thinking of our own?",
+    "prompt": "What prompted Donna Tartt's quoted response?",
+    "promptZh": "什么提问引出了 Donna Tartt 的这段回答？",
+    "options": [
+      "A question about the issues she was exploring in The Goldfinch.",
+      "A request to summarise the narrator's psychological experiments.",
+      "An inquiry into her plans to leave her hometown for college.",
+      "A survey asking her to rank countries by happiness."
+    ],
+    "optionsZh": [
+      "有人问她在《金翅雀》中探讨哪些问题。",
+      "有人要求她概括叙述者的心理学实验。",
+      "有人询问她离乡上大学的计划。",
+      "一项要求她按幸福程度给国家排名的调查。"
+    ],
+    "answer": 0,
+    "type": "细节",
+    "support": "explicit",
+    "analyses": [
+      "A was asked what questions she was grappling with in her novel The Goldfinch 直接说明提问背景。",
+      "B 本句说的是小说中的问题，不是她参与或总结心理实验。",
+      "C 离乡抉择属于叙述者的经历，没有移给 Tartt。",
+      "D 原文没有国家排名或问卷调查；这里是引用作家对作品主题的回答。"
+    ],
+    "vocabulary": [
+      {
+        "word": "grappling with",
+        "meaning": "努力思考或处理；与……艰难应对",
+        "context": "表示 Tartt 在小说中认真探索的问题，不是字面的身体搏斗。",
+        "example": "The novel grapples with questions of loyalty and loss.",
+        "collocations": [
+          "grapple with a question",
+          "grapple with a difficult issue"
+        ]
+      }
+    ],
+    "translation": "有人问作家唐娜·塔特，她在小说《金翅雀》中努力探讨什么问题。她说：“什么是美好生活？……让自己幸福吗？是个人幸福吗？还是即使牺牲自己的幸福，也要让别人幸福？”塔特的问题很深刻。我们应该努力让自己幸福吗？还是应该先为他人的幸福努力，再考虑自己的？",
+    "evidenceTargetIds": [
+      "c01-s02-p009-04298-s001"
+    ],
+    "evidence": [
+      {
+        "quote": "When author Donna Tartt was asked what questions she was grappling with in her novel The Goldfinch, she said, “What is a good life?…To be happy oneself?",
+        "sentenceIds": [
+          "c01-s02-p009-04298-s001"
+        ],
+        "sources": [
+          {
+            "pdfPage": 9,
+            "block": 3,
+            "bbox": [
+              76.99,
+              429.75,
+              535.01,
+              541.77
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "18f6f4e10b9ccb72a2b47e44b51633b50f08341b91dfbaf4438f6c6234cdf50a"
+  },
+  {
+    "id": "qe-c01-0016",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-001",
+    "parentQuestionId": "q-c01-012",
+    "chapterId": "c01",
+    "sectionId": "c01-s02",
+    "paragraphId": "c01-s02-p009-04298",
+    "readingUnitId": "c01-s02-p009-04298-r001-006",
+    "sentenceIds": [
+      "c01-s02-p009-04298-s001",
+      "c01-s02-p009-04298-s002",
+      "c01-s02-p009-04298-s003",
+      "c01-s02-p009-04298-s004",
+      "c01-s02-p009-04298-s005",
+      "c01-s02-p009-04298-s006"
+    ],
+    "passage": "When author Donna Tartt was asked what questions she was grappling with in her novel The Goldfinch, she said, “What is a good life?…To be happy oneself? Is it personal happiness? Or is it to make other people happy even at the expense of one’s own happiness?” Tartt’s question is profound. Should we strive to be happy? Or should we work for others’ happiness before thinking of our own?",
+    "prompt": "What possibility does 'Is it personal happiness?' raise?",
+    "promptZh": "Is it personal happiness? 提出了哪一种可能？",
+    "options": [
+      "That personal happiness has already been ruled out.",
+      "That a good life might be understood as one's own happiness.",
+      "That other people's happiness is impossible to influence.",
+      "That academic research has supplied a final definition."
+    ],
+    "optionsZh": [
+      "个人幸福已经被排除。",
+      "美好生活也许可以理解为自己的幸福。",
+      "别人的幸福不可能受到影响。",
+      "学术研究已经给出了最终定义。"
+    ],
+    "answer": 1,
+    "type": "逻辑关系",
+    "support": "limited-inference",
+    "analyses": [
+      "A 疑问句提出个人幸福这一候选理解，并未排除它。",
+      "B 结合前面的 What is a good life，这句是在追问个人幸福是否就是美好生活的内涵。",
+      "C 本句没有断言对别人幸福的影响能力。",
+      "D 这是被引用的开放式问题，不是已经得到研究定论的定义。"
+    ],
+    "vocabulary": [
+      {
+        "word": "personal happiness",
+        "meaning": "个人幸福；自身的幸福感",
+        "context": "作为美好生活的一种可能理解，与后面让他人幸福的选择形成对照。",
+        "example": "The discussion distinguished personal happiness from public success.",
+        "collocations": [
+          "pursue personal happiness",
+          "one's own happiness"
+        ]
+      }
+    ],
+    "translation": "有人问作家唐娜·塔特，她在小说《金翅雀》中努力探讨什么问题。她说：“什么是美好生活？……让自己幸福吗？是个人幸福吗？还是即使牺牲自己的幸福，也要让别人幸福？”塔特的问题很深刻。我们应该努力让自己幸福吗？还是应该先为他人的幸福努力，再考虑自己的？",
+    "evidenceTargetIds": [
+      "c01-s02-p009-04298-s002"
+    ],
+    "evidence": [
+      {
+        "quote": "Is it personal happiness?",
+        "sentenceIds": [
+          "c01-s02-p009-04298-s002"
+        ],
+        "sources": [
+          {
+            "pdfPage": 9,
+            "block": 3,
+            "bbox": [
+              76.99,
+              429.75,
+              535.01,
+              541.77
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "46826da839681ee51c73d51c9f94f2792c774e39922567cb385ae6bb840c38bb"
+  },
+  {
+    "id": "qe-c01-0017",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-001",
+    "parentQuestionId": "q-c01-012",
+    "chapterId": "c01",
+    "sectionId": "c01-s02",
+    "paragraphId": "c01-s02-p009-04298",
+    "readingUnitId": "c01-s02-p009-04298-r001-006",
+    "sentenceIds": [
+      "c01-s02-p009-04298-s001",
+      "c01-s02-p009-04298-s002",
+      "c01-s02-p009-04298-s003",
+      "c01-s02-p009-04298-s004",
+      "c01-s02-p009-04298-s005",
+      "c01-s02-p009-04298-s006"
+    ],
+    "passage": "When author Donna Tartt was asked what questions she was grappling with in her novel The Goldfinch, she said, “What is a good life?…To be happy oneself? Is it personal happiness? Or is it to make other people happy even at the expense of one’s own happiness?” Tartt’s question is profound. Should we strive to be happy? Or should we work for others’ happiness before thinking of our own?",
+    "prompt": "What trade-off is posed in Tartt's question about making others happy?",
+    "promptZh": "Tartt 关于让别人幸福的问题提出了怎样的取舍？",
+    "options": [
+      "Making others happy while guaranteeing one's own happiness.",
+      "Choosing public praise over professional achievement.",
+      "Giving up one's own happiness for other people's happiness.",
+      "Giving other people responsibility for one's career."
+    ],
+    "optionsZh": [
+      "让别人幸福的同时保证自己的幸福。",
+      "在公众赞誉与职业成就之间选择前者。",
+      "为了别人的幸福牺牲自己的幸福。",
+      "让别人对自己的职业负责。"
+    ],
+    "answer": 2,
+    "type": "同义改写",
+    "support": "explicit",
+    "analyses": [
+      "A even at the expense of 明确容许自己付出代价，不是双方幸福都有保证。",
+      "B 本句比较的是自己与他人的幸福，没有比较名望和职业。",
+      "C make other people happy 与 at the expense of one's own happiness 分别对应他人获益和自己付出的幸福代价。",
+      "D 没有职业责任转交的内容。Tartt 是提出这一问题，并非在此宣布必须选择自我牺牲。"
+    ],
+    "vocabulary": [
+      {
+        "word": "at the expense of",
+        "meaning": "以……为代价；损及……",
+        "context": "指让别人幸福可能要付出自己幸福的代价，不是金钱开销。",
+        "example": "She refused to improve productivity at the expense of staff wellbeing.",
+        "collocations": [
+          "at the expense of one's happiness",
+          "gain something at the expense of something else"
+        ]
+      }
+    ],
+    "translation": "有人问作家唐娜·塔特，她在小说《金翅雀》中努力探讨什么问题。她说：“什么是美好生活？……让自己幸福吗？是个人幸福吗？还是即使牺牲自己的幸福，也要让别人幸福？”塔特的问题很深刻。我们应该努力让自己幸福吗？还是应该先为他人的幸福努力，再考虑自己的？",
+    "evidenceTargetIds": [
+      "c01-s02-p009-04298-s003"
+    ],
+    "evidence": [
+      {
+        "quote": "Or is it to make other people happy even at the expense of one’s own happiness?”",
+        "sentenceIds": [
+          "c01-s02-p009-04298-s003"
+        ],
+        "sources": [
+          {
+            "pdfPage": 9,
+            "block": 3,
+            "bbox": [
+              76.99,
+              429.75,
+              535.01,
+              541.77
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "702382228eb262e2008ee024ab33128be24bed06fc90d0d31a3be965e4829135"
+  },
+  {
+    "id": "qe-c01-0018",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-001",
+    "parentQuestionId": "q-c01-012",
+    "chapterId": "c01",
+    "sectionId": "c01-s02",
+    "paragraphId": "c01-s02-p009-04298",
+    "readingUnitId": "c01-s02-p009-04298-r001-006",
+    "sentenceIds": [
+      "c01-s02-p009-04298-s001",
+      "c01-s02-p009-04298-s002",
+      "c01-s02-p009-04298-s003",
+      "c01-s02-p009-04298-s004",
+      "c01-s02-p009-04298-s005",
+      "c01-s02-p009-04298-s006"
+    ],
+    "passage": "When author Donna Tartt was asked what questions she was grappling with in her novel The Goldfinch, she said, “What is a good life?…To be happy oneself? Is it personal happiness? Or is it to make other people happy even at the expense of one’s own happiness?” Tartt’s question is profound. Should we strive to be happy? Or should we work for others’ happiness before thinking of our own?",
+    "prompt": "How does the narrator evaluate Tartt's question?",
+    "promptZh": "叙述者怎样评价 Tartt 提出的问题？",
+    "options": [
+      "As a shallow question with no serious implications.",
+      "As a claim that experiments have already disproved.",
+      "As a problem relevant only to professional novelists.",
+      "As a deep question deserving serious reflection."
+    ],
+    "optionsZh": [
+      "一个没有严肃含义的肤浅问题。",
+      "一个已经被实验推翻的主张。",
+      "一个只与职业小说家有关的问题。",
+      "一个值得认真思考的深刻问题。"
+    ],
+    "answer": 3,
+    "type": "作者态度",
+    "support": "explicit",
+    "analyses": [
+      "A profound 是深刻的，不是 shallow。",
+      "B question 是问题；本句没有说已有实验将其推翻。",
+      "C 作者的评价没有 only novelists 这一范围限制，前后也在讨论一般人的生活选择。",
+      "D profound 直接体现作者认为它有深度，值得认真思考；这不等于作者已给出答案。"
+    ],
+    "vocabulary": [
+      {
+        "word": "profound",
+        "meaning": "深刻的；意义深远的",
+        "context": "用于评价一个涉及美好生活和幸福取舍的问题有思想深度。",
+        "example": "The conversation raised a profound question about responsibility.",
+        "collocations": [
+          "a profound question",
+          "a profound insight"
+        ]
+      }
+    ],
+    "translation": "有人问作家唐娜·塔特，她在小说《金翅雀》中努力探讨什么问题。她说：“什么是美好生活？……让自己幸福吗？是个人幸福吗？还是即使牺牲自己的幸福，也要让别人幸福？”塔特的问题很深刻。我们应该努力让自己幸福吗？还是应该先为他人的幸福努力，再考虑自己的？",
+    "evidenceTargetIds": [
+      "c01-s02-p009-04298-s004"
+    ],
+    "evidence": [
+      {
+        "quote": "Tartt’s question is profound.",
+        "sentenceIds": [
+          "c01-s02-p009-04298-s004"
+        ],
+        "sources": [
+          {
+            "pdfPage": 9,
+            "block": 3,
+            "bbox": [
+              76.99,
+              429.75,
+              535.01,
+              541.77
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "932396af079de23384f0bf1c7d54d5963c3a9e00f05d04239b473710fa5d59dd"
+  },
+  {
+    "id": "qe-c01-0019",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-001",
+    "parentQuestionId": "q-c01-044",
+    "chapterId": "c01",
+    "sectionId": "c01-s02",
+    "paragraphId": "c01-s02-p009-05468",
+    "readingUnitId": "c01-s02-p009-05468-r001-004",
+    "sentenceIds": [
+      "c01-s02-p009-05468-s001",
+      "c01-s02-p009-05468-s002",
+      "c01-s02-p009-05468-s003",
+      "c01-s02-p009-05468-s004"
+    ],
+    "passage": "First, what is personal happiness? What makes you happy? Freedom to do whatever you want to do? Pursuing and accomplishing your career goals?",
+    "prompt": "What does 'First' introduce here?",
+    "promptZh": "这里的 First 引出了什么？",
+    "options": [
+      "An initial examination of what personal happiness means.",
+      "The first experiment proving the best life for everyone.",
+      "A completed answer to the meaning of every human life.",
+      "The first event in the father's childhood."
+    ],
+    "optionsZh": [
+      "先开始探讨个人幸福究竟意味着什么。",
+      "第一个证明人人最佳生活方式的实验。",
+      "对所有人生意义问题的完整答案。",
+      "父亲童年发生的第一件事。"
+    ],
+    "answer": 0,
+    "type": "逻辑关系",
+    "support": "explicit",
+    "analyses": [
+      "A First 后紧接 what is personal happiness，标志先从个人幸福的含义开始探问。",
+      "B 句中没有实验程序或人人适用的证明。",
+      "C 这里仍是问句，不能改成已经完成的全面答案。",
+      "D First 表示论述顺序，而非父亲生平事件的时间顺序。"
+    ],
+    "vocabulary": [
+      {
+        "word": "First",
+        "meaning": "首先；第一步",
+        "context": "作为论述次序标志，引入对个人幸福的第一层追问。",
+        "example": "First, we need to decide what the term means.",
+        "collocations": [
+          "first of all",
+          "first examine a question"
+        ]
+      }
+    ],
+    "translation": "首先，什么是个人幸福？什么使你快乐？是想做什么就做什么的自由吗？是追求并实现自己的职业目标吗？",
+    "evidenceTargetIds": [
+      "c01-s02-p009-05468-s001"
+    ],
+    "evidence": [
+      {
+        "quote": "First, what is personal happiness?",
+        "sentenceIds": [
+          "c01-s02-p009-05468-s001"
+        ],
+        "sources": [
+          {
+            "pdfPage": 9,
+            "block": 4,
+            "bbox": [
+              76.99,
+              546.75,
+              535.01,
+              717.27
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "0d41c30e91db9711de89569231fce88c8fd0a7ed9a34648c56da6f3875a41d78"
+  },
+  {
+    "id": "qe-c01-0020",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-001",
+    "parentQuestionId": "q-c01-045",
+    "chapterId": "c01",
+    "sectionId": "c01-s02",
+    "paragraphId": "c01-s02-p009-05468",
+    "readingUnitId": "c01-s02-p009-05468-r005-006",
+    "sentenceIds": [
+      "c01-s02-p009-05468-s005",
+      "c01-s02-p009-05468-s006"
+    ],
+    "passage": "A trip to the beach or the spa? I have made many selfish decisions in life, including moving to New York City to take a job at a prestigious university while my sons were still in middle and high school.",
+    "prompt": "What role does the beach-or-spa example play?",
+    "promptZh": "海滩或水疗中心的例子在这里起什么作用？",
+    "options": [
+      "It prescribes the same activity for every reader.",
+      "It offers leisure activities as possible sources of happiness.",
+      "It reports the winning treatment in a clinical experiment.",
+      "It shows that travel cannot contribute to pleasure."
+    ],
+    "optionsZh": [
+      "它规定每个读者都应参加同样的活动。",
+      "它把休闲活动作为可能带来幸福的例子。",
+      "它报告一项临床实验中最有效的治疗。",
+      "它表明旅行不能带来快乐。"
+    ],
+    "answer": 1,
+    "type": "作者意图",
+    "support": "limited-inference",
+    "analyses": [
+      "A 原文以问句列举可能性，没有要求所有读者照做。",
+      "B 在 What makes you happy 的语境下，海滩或水疗之旅是供思考的休闲活动例子。",
+      "C 没有临床实验或疗效比较，不能把 spa 直接读成医学治疗结论。",
+      "D 列出旅行作为可能例子，并不否定它能带来快乐。"
+    ],
+    "vocabulary": [
+      {
+        "word": "spa",
+        "meaning": "水疗中心；提供休闲护理的场所",
+        "context": "在此与海滩一起作为休闲出行的例子，并非医疗处方。",
+        "example": "They spent a relaxing afternoon at the spa.",
+        "collocations": [
+          "a trip to the spa",
+          "a spa visit"
+        ]
+      }
+    ],
+    "translation": "是去海滩或水疗中心一趟吗？我一生中做过许多自私的决定，其中包括在儿子们还分别读初中和高中的时候，为了到一所享有声望的大学任职而搬到纽约市。",
+    "evidenceTargetIds": [
+      "c01-s02-p009-05468-s005"
+    ],
+    "evidence": [
+      {
+        "quote": "A trip to the beach or the spa?",
+        "sentenceIds": [
+          "c01-s02-p009-05468-s005"
+        ],
+        "sources": [
+          {
+            "pdfPage": 9,
+            "block": 4,
+            "bbox": [
+              76.99,
+              546.75,
+              535.01,
+              717.27
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "45f0b5d3b69ecb0ece29795944d9eb5b399f3b8d0ca7c0725382d94a8570c96b"
+  },
+  {
+    "id": "qe-c01-0021",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-001",
+    "parentQuestionId": "q-c01-047",
+    "chapterId": "c01",
+    "sectionId": "c01-s02",
+    "paragraphId": "c01-s02-p009-05468",
+    "readingUnitId": "c01-s02-p009-05468-r011-012",
+    "sentenceIds": [
+      "c01-s02-p009-05468-s011",
+      "c01-s02-p009-05468-s012"
+    ],
+    "passage": "Ironically, years later, he seems to be happier with his decision than I. This may sound like the makings of a Chinese proverb, but it illustrates a larger truth: psychological research shows that trying to make others happy will make you happy, while trying to make yourself happy sometimes fails to do so. Indeed, psychologists have found that prosocial spending, writing gratitude letters, and having a satisficer (i.e., happy with good enough) mindset all promote happiness.",
+    "prompt": "Which set is identified as promoting happiness in the sentence?",
+    "promptZh": "这句话将哪一组因素列为有助于促进幸福？",
+    "options": [
+      "Spending only on oneself, receiving thanks, and seeking perfection.",
+      "Avoiding purchases, writing complaints, and accepting every option.",
+      "Prosocial spending, gratitude letters, and a good-enough mindset.",
+      "Increasing income, collecting praise, and comparing every alternative."
+    ],
+    "optionsZh": [
+      "只为自己花钱、接受感谢、追求完美。",
+      "避免消费、写投诉信、接受所有选项。",
+      "亲社会消费、感恩信、接受足够好的心态。",
+      "增加收入、积累赞誉、比较所有备选方案。"
+    ],
+    "answer": 2,
+    "type": "细节",
+    "support": "explicit",
+    "analyses": [
+      "A prosocial spending 不是只为自己花钱；writing gratitude letters 是写出感谢，而非只接受感谢；good enough 也不等于完美。",
+      "B 本句没有避免消费或写投诉信，满足者也不表示无条件接受所有选项。",
+      "C 三项分别对应 prosocial spending、writing gratitude letters、satisficer...happy with good enough，内容完整且顺序一致。",
+      "D 这些是替换进去的其他目标，原句没有把它们列为这一组研究发现；本句的概括也不构成人人必然幸福的保证。"
+    ],
+    "vocabulary": [
+      {
+        "word": "satisficer",
+        "meaning": "满足者；接受足够好选项的人",
+        "context": "原文括号解释为 happy with good enough，强调不执着于每次都达到最优。",
+        "example": "As a satisficer, he chose an option that met his main needs.",
+        "collocations": [
+          "a satisficer mindset",
+          "be happy with good enough"
+        ]
+      }
+    ],
+    "translation": "具有讽刺意味的是，多年后，父亲似乎比我更满意自己的决定。这听起来像是中国谚语的素材，却说明了一个更普遍的道理：心理学研究显示，努力让别人幸福也会使自己幸福，而努力让自己幸福有时反而做不到。的确，心理学家发现，亲社会支出、写感恩信，以及知足者心态，也就是对足够好的结果感到满意，都能促进幸福。",
+    "evidenceTargetIds": [
+      "c01-s02-p009-05468-s012"
+    ],
+    "evidence": [
+      {
+        "quote": "Indeed, psychologists have found that prosocial spending, writing gratitude letters, and having a satisficer (i.e., happy with good enough) mindset all promote happiness.",
+        "sentenceIds": [
+          "c01-s02-p009-05468-s012"
+        ],
+        "sources": [
+          {
+            "pdfPage": 10,
+            "block": 0,
+            "bbox": [
+              76.99,
+              75,
+              535.01,
+              284.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "3f68abe362fb74ba1e0209654c061d58d41981a6152ef9f1bce536cad4b6cec1"
+  },
+  {
+    "id": "qe-c01-0022",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-001",
+    "parentQuestionId": "q-c01-048",
+    "chapterId": "c01",
+    "sectionId": "c01-s02",
+    "paragraphId": "c01-s02-p010-02895",
+    "readingUnitId": "c01-s02-p010-02895-r001-002",
+    "sentenceIds": [
+      "c01-s02-p010-02895-s001",
+      "c01-s02-p010-02895-s002"
+    ],
+    "passage": "Perhaps the key to my father’s good life has been his decision to put the needs of others—my mother and family tradition—above his own. But is a life of self-sacrifice and virtue—which we might call a “meaningful life”—a life without regrets?",
+    "prompt": "What does 'Perhaps' signal about the proposed key to the father's good life?",
+    "promptZh": "Perhaps 表明作者对于父亲过上美好生活的关键原因持何种态度？",
+    "options": [
+      "The father has publicly proved a universal rule.",
+      "The proposed explanation has been ruled out.",
+      "The cause is certain and applies to every family.",
+      "Prioritising others is offered as a possible explanation."
+    ],
+    "optionsZh": [
+      "父亲已公开证明一条普遍规律。",
+      "所提出的解释已经被排除。",
+      "原因是确定的，且适用于每个家庭。",
+      "优先照顾他人被提出为一种可能解释。"
+    ],
+    "answer": 3,
+    "type": "有限推断",
+    "support": "limited-inference",
+    "analyses": [
+      "A 本句是作者用 Perhaps 提出解释，不是父亲公开作出的普遍证明。",
+      "B Perhaps 保留一种可能，不是将其排除。",
+      "C 去掉 perhaps 并加上 every family，把个人解释扩大成确定普遍因果。",
+      "D 原文谨慎地把父亲优先母亲和家庭传统的选择，作为美好生活的一种可能关键。"
+    ],
+    "vocabulary": [
+      {
+        "word": "Perhaps",
+        "meaning": "也许；可能",
+        "context": "限定作者对父亲幸福原因的解释，提醒读者不要读成已证实的唯一原因。",
+        "example": "Perhaps her changed expectations explain part of the difference.",
+        "collocations": [
+          "perhaps the key",
+          "perhaps one reason"
+        ]
+      }
+    ],
+    "translation": "也许，父亲美好生活的关键在于，他决定把别人的需要——母亲以及家庭传统——放在自身需要之上。但一种充满自我牺牲和美德、我们或许称为“有意义”的人生，就是没有遗憾的人生吗？",
+    "evidenceTargetIds": [
+      "c01-s02-p010-02895-s001"
+    ],
+    "evidence": [
+      {
+        "quote": "Perhaps the key to my father’s good life has been his decision to put the needs of others—my mother and family tradition—above his own.",
+        "sentenceIds": [
+          "c01-s02-p010-02895-s001"
+        ],
+        "sources": [
+          {
+            "pdfPage": 10,
+            "block": 1,
+            "bbox": [
+              76.99,
+              289.5,
+              535.01,
+              557.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "bb60f470d98d189234629e2c7738a498b37c7ee9c03b47afec567de927f71b83"
+  },
+  {
+    "id": "qe-c01-0023",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-001",
+    "parentQuestionId": "q-c01-050",
+    "chapterId": "c01",
+    "sectionId": "c01-s02",
+    "paragraphId": "c01-s02-p010-02895",
+    "readingUnitId": "c01-s02-p010-02895-r007-008",
+    "sentenceIds": [
+      "c01-s02-p010-02895-s007",
+      "c01-s02-p010-02895-s008"
+    ],
+    "passage": "French philosopher Jean-Paul Sartre would have called this a life of “bad faith.” An example is found in Toni Morrison’s novel Sula, where Nel Wright puts aside her childhood dreams of adventure to seek perfection in her role as a wife and mother, just as her family expects of her.",
+    "prompt": "According to the narrator, whose terminology would describe this life as one of 'bad faith'?",
+    "promptZh": "按叙述者的说法，哪位思想家的术语会将这种生活描述为“自欺”的生活？",
+    "options": [
+      "Jean-Paul Sartre's.",
+      "Donna Tartt's.",
+      "Toni Morrison's.",
+      "The Clash's."
+    ],
+    "optionsZh": [
+      "让-保罗·萨特的。",
+      "唐娜·塔特的。",
+      "托妮·莫里森的。",
+      "冲撞乐队的。"
+    ],
+    "answer": 0,
+    "type": "观点归属",
+    "support": "explicit",
+    "analyses": [
+      "A 原文明说 French philosopher Jean-Paul Sartre，并用 would have called 表示作者借用这一哲学描述。",
+      "B Tartt 在前文提出美好生活与幸福的取舍问题，不是本句归属的哲学家。",
+      "C Morrison 在后面的小说例子中出现，不是 bad faith 标签在本句中的归属。",
+      "D The Clash 提供去留问题的歌词表达，不是这里的哲学术语来源。would have called 也不等于作者声称引用了萨特针对其父亲的逐字原话。"
+    ],
+    "vocabulary": [
+      {
+        "word": "bad faith",
+        "meaning": "自欺；不忠于自身愿望的状态（此处哲学语境）",
+        "context": "作者借用萨特的说法讨论为既定角色而放下自身愿望的生活，不是一般的欠信用债务。",
+        "example": "The essay examines bad faith as a way of avoiding an authentic choice.",
+        "collocations": [
+          "a life of bad faith",
+          "Sartre's idea of bad faith"
+        ]
+      }
+    ],
+    "translation": "法国哲学家让-保罗·萨特会把这种人生称为“自欺”的人生。托妮·莫里森的小说《秀拉》里有一个例子：Nel Wright 搁置了儿时冒险的梦想，转而追求在妻子和母亲的角色上做到完美，正如家人对她的期待。",
+    "evidenceTargetIds": [
+      "c01-s02-p010-02895-s007"
+    ],
+    "evidence": [
+      {
+        "quote": "French philosopher Jean-Paul Sartre would have called this a life of “bad faith.”",
+        "sentenceIds": [
+          "c01-s02-p010-02895-s007"
+        ],
+        "sources": [
+          {
+            "pdfPage": 10,
+            "block": 1,
+            "bbox": [
+              76.99,
+              289.5,
+              535.01,
+              557.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "c202510abee358bc1298f5ac9ae856ac7ed4e4ad4040f68cd224e8f7020f1872"
+  },
+  {
+    "id": "qe-c01-0024",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-001",
+    "parentQuestionId": "q-c01-017",
+    "chapterId": "c01",
+    "sectionId": "c01-s02",
+    "paragraphId": "c01-s02-p010-05625",
+    "readingUnitId": "c01-s02-p010-05625-r001-003",
+    "sentenceIds": [
+      "c01-s02-p010-05625-s001",
+      "c01-s02-p010-05625-s002",
+      "c01-s02-p010-05625-s003"
+    ],
+    "passage": "At the opposite end of the spectrum is the neurologist and writer Oliver Sacks, who was an enthusiastic Hells Angels motorcyclist, bodybuilder, and LSD user before launching his writing career. He struggled with depression in his college days; his own mother told him that she wished he had never been born when she learned that he was gay; and he spent thirty-five years of his adult life celibate. Yet, even though he had some tough years, his life was full of adventure and curiosity, challenged professional boundaries, and was deeply experientially and emotionally rich—it was an authentic life, the kind that Sartre would have approved of.",
+    "prompt": "Which activities are placed before the launch of Oliver Sacks's writing career?",
+    "promptZh": "哪些活动被放在 Oliver Sacks 开始写作生涯之前？",
+    "options": [
+      "Teaching literature, writing novels, and running a publishing firm.",
+      "Motorcycling with Hells Angels, bodybuilding, and using LSD.",
+      "Farming, playing neighborhood softball, and visiting hot springs.",
+      "Conducting happiness surveys, directing films, and composing songs."
+    ],
+    "optionsZh": [
+      "教文学、写小说、经营出版公司。",
+      "参与地狱天使摩托骑行、健美、使用 LSD。",
+      "务农、参加社区垒球、泡温泉。",
+      "做幸福感调查、执导电影、创作歌曲。"
+    ],
+    "answer": 1,
+    "type": "细节",
+    "support": "explicit",
+    "analyses": [
+      "A 这些活动不是该句列出的前期经历，不能由 writer 身份补出。",
+      "B enthusiastic Hells Angels motorcyclist, bodybuilder, and LSD user 与 before launching his writing career 明确对应。",
+      "C 这些来自父亲生活的活动，属于人物归属错配。",
+      "D 把书中其他主题拼成了不存在的个人经历。本题只辨识作者的生平叙述，不将使用药物的经历当成建议或好处证明。"
+    ],
+    "vocabulary": [
+      {
+        "word": "launching",
+        "meaning": "开始；开启",
+        "context": "launching his writing career 指开启写作生涯，不是发射物体。",
+        "example": "She worked as a teacher before launching her writing career.",
+        "collocations": [
+          "launch a career",
+          "launch a writing career"
+        ]
+      }
+    ],
+    "translation": "处于另一端的是神经科医生兼作家奥利弗·萨克斯；开始写作生涯前，他曾热衷于“地狱天使”摩托骑行、健美和使用 LSD。他大学时曾与抑郁抗争；母亲得知他是同性恋后，竟说希望他从未出生；他成年生活中有三十五年保持独身。然而，尽管经历艰难，他的人生充满探索和好奇，挑战职业界限，在经历与情感上都极为丰富——那是真实的人生，是萨特会赞同的那一种。",
+    "evidenceTargetIds": [
+      "c01-s02-p010-05625-s001"
+    ],
+    "evidence": [
+      {
+        "quote": "At the opposite end of the spectrum is the neurologist and writer Oliver Sacks, who was an enthusiastic Hells Angels motorcyclist, bodybuilder, and LSD user before launching his writing career.",
+        "sentenceIds": [
+          "c01-s02-p010-05625-s001"
+        ],
+        "sources": [
+          {
+            "pdfPage": 10,
+            "block": 2,
+            "bbox": [
+              76.99,
+              562.5,
+              535.01,
+              694.02
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "3b83dc865cf5e0e096c1d19c999e1235eb94b6b5293e1664aff7bf300e22edfc"
+  },
+  {
+    "id": "qe-c01-0025",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-001",
+    "parentQuestionId": "q-c01-017",
+    "chapterId": "c01",
+    "sectionId": "c01-s02",
+    "paragraphId": "c01-s02-p010-05625",
+    "readingUnitId": "c01-s02-p010-05625-r001-003",
+    "sentenceIds": [
+      "c01-s02-p010-05625-s001",
+      "c01-s02-p010-05625-s002",
+      "c01-s02-p010-05625-s003"
+    ],
+    "passage": "At the opposite end of the spectrum is the neurologist and writer Oliver Sacks, who was an enthusiastic Hells Angels motorcyclist, bodybuilder, and LSD user before launching his writing career. He struggled with depression in his college days; his own mother told him that she wished he had never been born when she learned that he was gay; and he spent thirty-five years of his adult life celibate. Yet, even though he had some tough years, his life was full of adventure and curiosity, challenged professional boundaries, and was deeply experientially and emotionally rich—it was an authentic life, the kind that Sartre would have approved of.",
+    "prompt": "What does the thirty-five-year period refer to?",
+    "promptZh": "三十五年这一时段指什么？",
+    "options": [
+      "The length of Sacks's depression while he was at college.",
+      "The time he spent launching his first writing project.",
+      "His period of celibacy during adult life.",
+      "The years he spent living in his mother's home."
+    ],
+    "optionsZh": [
+      "萨克斯大学期间抑郁持续的时间。",
+      "他启动首个写作项目所花的时间。",
+      "他成年生活中保持独身的时间。",
+      "他住在母亲家中的年数。"
+    ],
+    "answer": 2,
+    "type": "细节",
+    "support": "explicit",
+    "analyses": [
+      "A college days 说明抑郁经历发生的阶段，并没有说持续三十五年。",
+      "B 三十五年没有修饰写作项目或创作时间。",
+      "C spent thirty-five years of his adult life celibate 明确给出年数与所描述的成年生活状态。",
+      "D 本句没有提供与母亲同住的年数。分号并列多种经历，不能把时长错接到别的分句，也不能由母亲的话补出确定的临床因果。"
+    ],
+    "vocabulary": [
+      {
+        "word": "celibate",
+        "meaning": "独身的；不从事性关系的",
+        "context": "在该句中描述他成年生活中持续三十五年的个人状态，不说明其原因。",
+        "example": "The biography describes a long period when he remained celibate.",
+        "collocations": [
+          "remain celibate",
+          "a celibate life"
+        ]
+      }
+    ],
+    "translation": "处于另一端的是神经科医生兼作家奥利弗·萨克斯；开始写作生涯前，他曾热衷于“地狱天使”摩托骑行、健美和使用 LSD。他大学时曾与抑郁抗争；母亲得知他是同性恋后，竟说希望他从未出生；他成年生活中有三十五年保持独身。然而，尽管经历艰难，他的人生充满探索和好奇，挑战职业界限，在经历与情感上都极为丰富——那是真实的人生，是萨特会赞同的那一种。",
+    "evidenceTargetIds": [
+      "c01-s02-p010-05625-s002"
+    ],
+    "evidence": [
+      {
+        "quote": "He struggled with depression in his college days; his own mother told him that she wished he had never been born when she learned that he was gay; and he spent thirty-five years of his adult life celibate.",
+        "sentenceIds": [
+          "c01-s02-p010-05625-s002"
+        ],
+        "sources": [
+          {
+            "pdfPage": 10,
+            "block": 2,
+            "bbox": [
+              76.99,
+              562.5,
+              535.01,
+              694.02
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "5729af56951987052b7d26eb6c551d5c3faf56d692811a61136fa7e676a7c06b"
+  }
+]
