@@ -1,0 +1,967 @@
+{
+  "schemaVersion": 1,
+  "id": "evidence-013",
+  "status": "authored",
+  "evidenceRule": "frozen-target-sentence",
+  "questions": [
+    {
+      "order": 1,
+      "prompt": "Which answers did the narrator give about his visit and job at that time?",
+      "promptZh": "作者对访问目的和当时职业给出了哪组回答？",
+      "options": [
+        "He was visiting UC Riverside and was a professor at the University of Virginia.",
+        "He was visiting the University of Virginia and was a professor at UC Riverside.",
+        "He was retiring from county government and visiting seven grandchildren.",
+        "He was a taxi driver visiting a professor at Riverside."
+      ],
+      "optionsZh": [
+        "访问加州大学里弗赛德分校，当时是弗吉尼亚大学教授。",
+        "访问弗吉尼亚大学，当时是加州大学里弗赛德分校教授。",
+        "从县政府退休并探望七个孙辈。",
+        "是去里弗赛德看教授的出租车司机。"
+      ],
+      "answer": 0,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A 两个括号分别给出 visiting UC Riverside 与 professor at the University of Virginia at the time。",
+        "B 把访问学校与任职学校交换。",
+        "C 退休与七个孙辈是司机的人生信息，不是作者的回答。",
+        "D 作者是乘客，不是本句司机。at the time 限定故事当时，不应当作今天任职信息。"
+      ],
+      "vocabulary": [
+        {
+          "word": "visiting",
+          "meaning": "访问；去拜访（此处不等于任职）",
+          "context": "访问 UC Riverside 与在 University of Virginia 任职是不同关系。",
+          "example": "She was visiting a research centre to discuss its archive.",
+          "collocations": [
+            "visit a university",
+            "be visiting a campus"
+          ]
+        }
+      ]
+    },
+    {
+      "order": 2,
+      "prompt": "What is the immediate purpose of the narrator's surprised question about carrying grandchildren?",
+      "promptZh": "作者惊讶地追问她亲自孕育孙辈，直接起什么作用？",
+      "options": [
+        "It announces that he has already verified every medical detail.",
+        "It asks how she transported children in her taxi.",
+        "It expresses surprise and opens the way for her explanation.",
+        "It proves that her account must be false."
+      ],
+      "optionsZh": [
+        "宣布他已核实每项医疗细节。",
+        "询问她怎样用出租车运送孩子。",
+        "表达惊讶并引出她的解释。",
+        "证明她的叙述必定虚假。"
+      ],
+      "answer": 2,
+      "type": "作者意图",
+      "support": "explicit",
+      "analyses": [
+        "A 问句不是已完成全部核实的声明。",
+        "B carried 在后文妊娠语境中不是搭载乘客。",
+        "C Wait 和追问表现出意料之外，So she went on to explain 接着提供解释。",
+        "D 惊讶和疑问不等于证明对方说假话。不要把个人叙述改成临床试验或普遍可行性结论。"
+      ],
+      "vocabulary": [
+        {
+          "word": "carried",
+          "meaning": "怀孕并孕育；妊娠（此语境）",
+          "context": "carried her grandkids 由 gestational carrier 的解释明确，不是抱着或开车运送。",
+          "example": "The memoir describes her experience of carrying a child for a family member.",
+          "collocations": [
+            "carry a child",
+            "a gestational carrier"
+          ]
+        }
+      ],
+      "evidenceQuote": "Wait, she had carried her grandkids?"
+    },
+    {
+      "order": 3,
+      "prompt": "What does the past continuous 'was hearing' place alongside his disbelief?",
+      "promptZh": "过去进行时 was hearing 把什么活动放在作者难以置信的同时？",
+      "options": [
+        "Reading a medical report long before the taxi ride.",
+        "Listening to the story as it was being told at that time.",
+        "Predicting a conversation that had not yet happened.",
+        "Writing an article years before meeting the driver."
+      ],
+      "optionsZh": [
+        "乘车很久以前阅读医疗报告。",
+        "在当时听对方正在讲述的故事。",
+        "预测尚未发生的对话。",
+        "遇到司机多年前写文章。"
+      ],
+      "answer": 1,
+      "type": "语法与含义",
+      "support": "explicit",
+      "analyses": [
+        "A hearing 不是阅读，也没有以前医疗报告。",
+        "B was hearing 描述当时进行中的听述活动，与 couldn’t believe 的反应并置。",
+        "C 过去进行时不是未来预测。",
+        "D 作者回忆的活动是听故事，不是多年前写作。这种时间表达不单独确认故事每项事实。"
+      ],
+      "vocabulary": [
+        {
+          "word": "was hearing",
+          "meaning": "当时正在听到；过去进行中的听述",
+          "context": "强调反应发生时正在接收的故事，不是已经独立核实的医疗数据。",
+          "example": "He was hearing the explanation for the first time.",
+          "collocations": [
+            "what I was hearing",
+            "was hearing a story"
+          ]
+        }
+      ]
+    },
+    {
+      "order": 4,
+      "prompt": "What role does Linda say she performed for her daughter and son-in-law?",
+      "promptZh": "琳达说自己为女儿和女婿承担什么角色？",
+      "options": [
+        "She used her own eggs as the stated genetic source.",
+        "She cared for the children only after birth without carrying a pregnancy.",
+        "She adopted all seven grandchildren rather than giving birth to any.",
+        "She acted as a gestational carrier."
+      ],
+      "optionsZh": [
+        "使用自己的卵子作为所述遗传来源。",
+        "只在出生后照看，没有承担妊娠。",
+        "收养全部七个孙辈，未生育任何一个。",
+        "承担妊娠代孕者角色。"
+      ],
+      "answer": 3,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A 原句写 daughter’s eggs，不能换成她自己的卵子。",
+        "B became a surrogate mother (gestational carrier) 不等于只出生后照看。",
+        "C 不能把亲自孕育的叙述换成全部收养。",
+        "D 直接对应原文括号中的角色。此为司机对个人经历的解释，不是关于特定年龄妊娠安全性或普遍成功率的研究。"
+      ],
+      "vocabulary": [
+        {
+          "word": "gestational carrier",
+          "meaning": "妊娠代孕者；替他人承担妊娠的人",
+          "context": "原文用括号解释 surrogate mother 的具体角色，阅读时与遗传来源及出生后照料区分。",
+          "example": "The article uses the term gestational carrier when describing the family account.",
+          "collocations": [
+            "act as a gestational carrier",
+            "a surrogate mother"
+          ]
+        }
+      ]
+    },
+    {
+      "order": 5,
+      "prompt": "How does the narrator describe Linda while she told the story?",
+      "promptZh": "作者怎样描述琳达讲故事时的状态？",
+      "options": [
+        "She refused to continue telling it.",
+        "She was confirmed to have cried without stopping throughout the ride.",
+        "She was almost crying.",
+        "She appeared entirely unaffected by it."
+      ],
+      "optionsZh": [
+        "拒绝继续讲述。",
+        "被确认为全程不停哭泣。",
+        "几乎要哭出来。",
+        "看起来完全不受触动。"
+      ],
+      "answer": 2,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A as she told me 表明在讲，不是拒绝。",
+        "B almost 不能删掉成为已确定全程不断哭泣。",
+        "C almost crying 保留接近流泪的程度。",
+        "D 与近乎流泪的观察相反。作者观察与她的自述都不是精确情绪量表。"
+      ],
+      "vocabulary": [
+        {
+          "word": "almost crying",
+          "meaning": "几乎哭出来；快要落泪",
+          "context": "almost 修饰情绪外在表现，不应改成全程已哭或完全无情绪。",
+          "example": "She was almost crying when she finished the story.",
+          "collocations": [
+            "be almost crying",
+            "almost in tears"
+          ]
+        }
+      ]
+    },
+    {
+      "order": 6,
+      "prompt": "Which pair of actions is reported in connection with the births she carried?",
+      "promptZh": "关于她承担的分娩，原文报告了哪组事情？",
+      "options": [
+        "She had C-sections and breastfed the children.",
+        "She had C-sections but never breastfed them.",
+        "She avoided C-sections and did not feed either child.",
+        "She gave birth by C-section to all seven grandchildren."
+      ],
+      "optionsZh": [
+        "接受剖宫产并哺乳。",
+        "接受剖宫产但从未哺乳。",
+        "没有剖宫产，也未喂养两个孩子。",
+        "全部七个孙辈都由她剖宫产生育。"
+      ],
+      "answer": 0,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A had a C-section...and breastfed each one 是原句并列信息，末句把亲自孕育的人数限定为两个。",
+        "B 与 breastfed each one 相反。",
+        "C 同时否定了两项明示经历。",
+        "D all seven 都特别不等于全部由她孕育，原文说 the two she carried。这里核对叙述范围，不增加医疗做法。"
+      ],
+      "vocabulary": [
+        {
+          "word": "each one",
+          "meaning": "每一个（指当前特定集合中的成员）",
+          "context": "结合 the two she carried 理解所指，不要把集合扩大为所有七个孙辈。",
+          "example": "There were two letters, and she read each one carefully.",
+          "collocations": [
+            "each one of the two",
+            "each one separately"
+          ]
+        }
+      ],
+      "evidenceQuote": "Linda was almost crying as she told me the story. She had a C-section for each grandchild’s birth and breastfed each one. When I asked if she felt like they were her own children, she confessed that, while all seven grandkids are special, she shared a special bond with the two she carried."
+    },
+    {
+      "order": 7,
+      "prompt": "What does 'Her story only got more interesting from there' prepare the reader for?",
+      "promptZh": "Her story only got more interesting from there 为读者准备什么？",
+      "options": [
+        "The end of the account with no further events.",
+        "Another striking part of the story that follows.",
+        "A declaration that the earlier story has been disproved.",
+        "A statement that the listener already knew every later detail."
+      ],
+      "optionsZh": [
+        "没有后续事件的故事终结。",
+        "接下来另一个引人注目的部分。",
+        "宣布此前故事已被推翻。",
+        "说明听者早知道所有后续细节。"
+      ],
+      "answer": 1,
+      "type": "逻辑关系",
+      "support": "explicit",
+      "analyses": [
+        "A more interesting from there 表示继续推进，不是结束。",
+        "B 下句转到捐肾经历，首句是对叙述进一步展开的铺垫。",
+        "C 更有趣不等于前文已被证伪。",
+        "D 没有听者早知全部的说法。from there 是叙述进展点，不一定指出租车换了物理路线。"
+      ],
+      "vocabulary": [
+        {
+          "word": "from there",
+          "meaning": "从那以后；从这一点往下",
+          "context": "这里推进故事层次，不是给出新的地址。",
+          "example": "The discussion became more detailed from there.",
+          "collocations": [
+            "from there on",
+            "develop from there"
+          ]
+        }
+      ]
+    },
+    {
+      "order": 8,
+      "prompt": "To whom did Linda say she had donated a kidney?",
+      "promptZh": "琳达说自己把一个肾捐给了谁？",
+      "options": [
+        "Her son-in-law.",
+        "Her current husband, whom she had never divorced.",
+        "Her daughter.",
+        "Her ex-husband."
+      ],
+      "optionsZh": [
+        "女婿。",
+        "从未离婚的现任丈夫。",
+        "女儿。",
+        "前夫。"
+      ],
+      "answer": 3,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A 女婿属于前面的另一家庭经历，不是此句受捐者。",
+        "B ex-husband 的 ex- 不能删除。",
+        "C 女儿是此前妊娠故事的对象，不是这里捐肾对象。",
+        "D donated one of her kidneys to her ex-husband 明示受捐者。mentioned 标明她所述经历，不是当前医疗建议。"
+      ],
+      "vocabulary": [
+        {
+          "word": "ex-husband",
+          "meaning": "前夫",
+          "context": "ex- 表示曾经的关系；不能换成现任丈夫、女婿或其他亲属。",
+          "example": "The novel describes how she remained in contact with her ex-husband.",
+          "collocations": [
+            "her ex-husband",
+            "a former husband"
+          ]
+        }
+      ]
+    },
+    {
+      "order": 9,
+      "prompt": "Which children are identified as twins in Linda's account?",
+      "promptZh": "琳达的叙述把哪几个孩子说明为双胞胎？",
+      "options": [
+        "Two of her four children.",
+        "Two of her seven grandchildren.",
+        "All four of her children as one set.",
+        "Two pairs of twins making up all four children."
+      ],
+      "optionsZh": [
+        "四个子女中的两个。",
+        "七个孙辈中的两个。",
+        "四个子女全部是一胎。",
+        "四个子女全部由两对双胞胎组成。"
+      ],
+      "answer": 0,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A two of the four (twins!) 明示她四个子女中的两人，随后接生育时点。",
+        "B 把 children 的四人集合换成孙辈七人集合。",
+        "C two 不能扩大为四个同胎。",
+        "D 一对双胞胎不等于给全部四个都配成两对。原候选ID在括号感叹号处误分，本题证据引用原页完整句，不将片段冒充独立完整句。"
+      ],
+      "vocabulary": [
+        {
+          "word": "twins",
+          "meaning": "双胞胎",
+          "context": "括号内说明四个子女中有两个是一对双胞胎，不指后来亲自孕育的两个孙辈。",
+          "example": "The twins chose different subjects at university.",
+          "collocations": [
+            "a pair of twins",
+            "have twins"
+          ]
+        }
+      ],
+      "evidenceQuote": "She had had two of the four (twins!) at age eighteen before they met."
+    },
+    {
+      "order": 10,
+      "prompt": "When had Linda had the twins in relation to meeting her husband?",
+      "promptZh": "相对于结识丈夫，琳达何时生下双胞胎？",
+      "options": [
+        "At fifty-two, after they met.",
+        "At fifty-five, after her retirement.",
+        "At eighteen, before they met.",
+        "At eighteen, after they met."
+      ],
+      "optionsZh": [
+        "52岁，两人结识之后。",
+        "55岁，退休之后。",
+        "18岁，两人结识之前。",
+        "18岁，两人结识之后。"
+      ],
+      "answer": 2,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A 52 属于此前孕育孙辈叙述，不能套用本人双胞胎。",
+        "B 55 同样属于此前另一阶段，本句不是退休后。",
+        "C at age eighteen before they met 保留年龄和相对顺序，完整证据把它接回 twins 的主句。",
+        "D before 不能反转为 after。候选ID虽为续接片段，英文原页完整句保留引用。"
+      ],
+      "vocabulary": [
+        {
+          "word": "before they met",
+          "meaning": "在他们相识之前",
+          "context": "before 限定先后，不提供孩子生父身份或其他未说出的家庭推断。",
+          "example": "The letter had been written before they met.",
+          "collocations": [
+            "before they met",
+            "years before a meeting"
+          ]
+        }
+      ],
+      "evidenceQuote": "She had had two of the four (twins!) at age eighteen before they met."
+    },
+    {
+      "order": 11,
+      "prompt": "How does Linda frame the kidney donation in this explanation?",
+      "promptZh": "这段解释中，琳达怎样看待捐肾行为？",
+      "options": [
+        "As an exchange for guaranteed financial support in the future.",
+        "As proof of the extreme altruism she explicitly claimed for herself.",
+        "As evidence that all four children had failed.",
+        "As the right thing to do for the person who had provided family stability."
+      ],
+      "optionsZh": [
+        "换取未来保证经济支持的交易。",
+        "自己明确宣称极度利他的证明。",
+        "四个孩子都失败的证据。",
+        "对曾提供家庭稳定的人做正确的事。"
+      ],
+      "answer": 3,
+      "type": "观点归属",
+      "support": "explicit",
+      "analyses": [
+        "A 解释回顾曾有的稳定支持，没有未来交易条件。",
+        "B 前段她反而不认领作者所说极端利他的标签，不能倒换。",
+        "C 原文说孩子都 very successful，不是都失败。",
+        "D Linda explained 和结句 right thing to do 连在一起表达她的伦理理解；并非对其他人作同样医疗或道德要求。"
+      ],
+      "vocabulary": [
+        {
+          "word": "the right thing to do",
+          "meaning": "应该做的正确之事",
+          "context": "是她如何解释自身选择的价值评价，不是作者提供给每个人的统一做法。",
+          "example": "In the story, returning the lost letter felt like the right thing to do.",
+          "collocations": [
+            "do the right thing",
+            "the right thing to do"
+          ]
+        }
+      ],
+      "evidenceQuote": "Linda explained that she could never have raised four kids who all turned out to be very successful without having the stability that her (now ex) husband had provided. She had had two of the four (twins!) at age eighteen before they met. Giving a kidney to him was the right thing to do."
+    },
+    {
+      "order": 12,
+      "prompt": "What does 'sing the praises of California' mean here?",
+      "promptZh": "sing the praises of California 在这里是什么意思？",
+      "options": [
+        "Perform a song listing every California town.",
+        "Speak enthusiastically in praise of California.",
+        "Criticise California for lacking mountains and ocean.",
+        "Request to leave California because retirement is impossible there."
+      ],
+      "optionsZh": [
+        "唱出列举所有加州城镇的歌曲。",
+        "热情赞美加州。",
+        "批评加州没有山和海。",
+        "因加州无法退休而请求离开。"
+      ],
+      "answer": 1,
+      "type": "语境词义",
+      "support": "explicit",
+      "analyses": [
+        "A 是赞美的习语，不要求实际唱歌或列城镇。",
+        "B 她称赞山、沙漠、海洋及退休旅行生活，符合热情赞扬。",
+        "C 原句正列举这些地貌，不是说不存在。",
+        "D loves being retired 不支持退休不可能的请求。这里只理解个人喜好，不作旅行推荐。"
+      ],
+      "vocabulary": [
+        {
+          "word": "sing the praises of",
+          "meaning": "大加赞扬；热情称赞",
+          "context": "习语，不能按字面误成实际唱歌。",
+          "example": "The students sang the praises of their patient tutor.",
+          "collocations": [
+            "sing the praises of a place",
+            "sing someone's praises"
+          ]
+        }
+      ]
+    },
+    {
+      "order": 13,
+      "prompt": "Which travel timeline matches Linda's account?",
+      "promptZh": "哪条旅行时间线符合琳达的叙述？",
+      "options": [
+        "She had just returned from two months in France and spent three months in Southeast Asia the previous year.",
+        "She spent two months in each of Vietnam, Cambodia, and Thailand after three months in France.",
+        "She had just returned from three months in France and spent two months in Vietnam, Cambodia, and Thailand the previous year.",
+        "Both the recent three-month trip and the previous year's two-month trip were to France."
+      ],
+      "optionsZh": [
+        "刚从法国两个月回来，前一年在东南亚三个月。",
+        "法国三个月之后，在越南、柬埔寨、泰国每国各两个月。",
+        "刚从法国三个月回来，前一年在越南、柬埔寨、泰国共两个月。",
+        "最近三个月和前一年两个月两次都去法国。"
+      ],
+      "answer": 2,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A 两段时长交换。",
+        "B two months 修饰那次包括三个国家的行程，不能扩成每国各两个月，也未给出该先后安排。",
+        "C 保留 just returned、three months in France 与 two months the previous year in 三个国家的对应。",
+        "D 前一年目的地不是法国。这些相对时间依书中故事时点，不自动当作当前旅行安排。"
+      ],
+      "vocabulary": [
+        {
+          "word": "the previous year",
+          "meaning": "前一年",
+          "context": "相对故事当时的年份，不是相对今天；不必自行补造未给出的具体年号。",
+          "example": "She had visited the archive the previous year.",
+          "collocations": [
+            "during the previous year",
+            "the previous year in a narrative"
+          ]
+        }
+      ]
+    },
+    {
+      "order": 14,
+      "prompt": "What does 'What an interesting life, I thought' convey?",
+      "promptZh": "What an interesting life, I thought 表达什么？",
+      "options": [
+        "The narrator's enthusiastic personal reaction to the story.",
+        "Linda's exact self-description rather than the narrator's view.",
+        "The official result of a formal personality measurement.",
+        "A rejection of the idea that experiential richness can exist without wealth."
+      ],
+      "optionsZh": [
+        "作者对这个故事的热情个人反应。",
+        "琳达的原话自评，而非作者看法。",
+        "正式人格测量的官方结果。",
+        "否认没有财富也可能拥有丰富体验。"
+      ],
+      "answer": 0,
+      "type": "作者意图",
+      "support": "explicit",
+      "analyses": [
+        "A I thought 标明叙述者的内心评价，What an...是赞叹。",
+        "B 不是以 Linda said 引入，不能换掉说话者。",
+        "C 一句个人反应不是量表官方结果。",
+        "D 后句还区分财务与心理丰富，不能解为排斥这种区分。"
+      ],
+      "vocabulary": [
+        {
+          "word": "What an",
+          "meaning": "多么……啊（赞叹结构）",
+          "context": "What an interesting life 是感叹而非要求读者提供某项生活清单。",
+          "example": "What an unexpected turn of events!",
+          "collocations": [
+            "what an interesting life",
+            "what an experience"
+          ]
+        }
+      ]
+    },
+    {
+      "order": 15,
+      "prompt": "What is the status of 'I think it’s also fair to say' in the assessment of Linda?",
+      "promptZh": "评价琳达时，I think it's also fair to say 属于什么性质？",
+      "options": [
+        "An independently measured guarantee about everyone with the same lifestyle.",
+        "The narrator's qualified appraisal of her happiness and meaningful life.",
+        "Linda's claim that she has never felt unhappy at any time.",
+        "A denial that psychological richness and happiness can overlap."
+      ],
+      "optionsZh": [
+        "对所有同样生活者的独立测量保证。",
+        "作者对她幸福与意义人生的带限定评价。",
+        "琳达宣称自己任何时候都没不幸福过。",
+        "否认心理丰富和幸福可以重叠。"
+      ],
+      "answer": 1,
+      "type": "观点归属",
+      "support": "explicit",
+      "analyses": [
+        "A 没有全人群测量或保证，I think 表示作者判断。",
+        "B fair to say 表示作者认为这样评价合理，保留个人评估语气。",
+        "C 主语 I 是作者，也没有 never unhappy 的时间绝对化。",
+        "D also 正是在已经心理丰富之外再加幸福和意义，不是排除同时拥有。"
+      ],
+      "vocabulary": [
+        {
+          "word": "fair to say",
+          "meaning": "可以合理地说；这样评价是公允的",
+          "context": "表明判断力度与合理性，不是肤色、集市或毫无限定的独立测量。",
+          "example": "It is fair to say that the discussion raised several new questions.",
+          "collocations": [
+            "fair to say that",
+            "I think it is fair to say"
+          ]
+        }
+      ],
+      "evidenceQuote": "What an interesting life, I thought. Linda might not be financially rich, but she is psychologically and experientially rich. I think it’s also fair to say that she is happy, and that she has led a meaningful life as well."
+    },
+    {
+      "order": 16,
+      "prompt": "What does 'contribute to' mean in the question about psychological richness?",
+      "promptZh": "关于心理丰富性的问句中 contribute to 是什么意思？",
+      "options": [
+        "Make impossible.",
+        "Be entirely caused by.",
+        "Provide money directly for, and nothing else.",
+        "Play a part in bringing about or adding to."
+      ],
+      "optionsZh": [
+        "使不可能。",
+        "完全由……导致。",
+        "仅直接出钱支持。",
+        "对形成或增加某事起一部分作用。"
+      ],
+      "answer": 3,
+      "type": "语境词义",
+      "support": "explicit",
+      "analyses": [
+        "A contribute to 不是阻止形成的否定义。",
+        "B 把作用方向反转，还加上 entirely。",
+        "C 这里的 experiences 不是只在说出钱，不能取财务捐助的窄义。",
+        "D 问的是哪类经历帮助构成或增加心理丰富；问句本身尚未给出所有经历的确定结论。"
+      ],
+      "vocabulary": [
+        {
+          "word": "contribute to",
+          "meaning": "有助于；促成；构成一部分",
+          "context": "主语是经历，宾语是心理丰富，不是仅指捐钱，也不意味着唯一充分原因。",
+          "example": "Careful examples contribute to a clearer explanation.",
+          "collocations": [
+            "contribute to richness",
+            "contribute to an outcome"
+          ]
+        }
+      ]
+    },
+    {
+      "order": 17,
+      "prompt": "What research activity did the author conduct in September 2015?",
+      "promptZh": "作者在2015年9月开展了什么研究活动？",
+      "options": [
+        "Two focus-group meetings.",
+        "One nationwide poll of all adults.",
+        "Two randomised clinical trials.",
+        "Two focus-group meetings in September 2005."
+      ],
+      "optionsZh": [
+        "两次焦点小组讨论。",
+        "覆盖全国所有成年人的一次调查。",
+        "两项随机临床试验。",
+        "2005年9月的两次焦点小组讨论。"
+      ],
+      "answer": 0,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A held two focus group meetings in September 2015 明示形式、次数与月份年份。",
+        "B 小组成员是身边的研究助理和研究生博士后，不是全国所有成年人。",
+        "C 文中没有随机临床分组，不能升级研究设计。",
+        "D 把2015改成2005。本题不把焦点小组的观察当作全国代表性比例。"
+      ],
+      "vocabulary": [
+        {
+          "word": "held",
+          "meaning": "举行；组织（此处不是拿着）",
+          "context": "held...meetings 描述组织小组活动，不是持有某个物体。",
+          "example": "The department held a discussion about the new reading programme.",
+          "collocations": [
+            "hold a meeting",
+            "hold two focus groups"
+          ]
+        }
+      ]
+    },
+    {
+      "order": 18,
+      "prompt": "What were group members first asked to do?",
+      "promptZh": "小组成员首先被请做什么？",
+      "options": [
+        "Predict what they would do the following weekend.",
+        "Review their entire professional careers instead of that weekend.",
+        "Reflect on their weekend and recall what they did.",
+        "Rate happiness before considering any activities."
+      ],
+      "optionsZh": [
+        "预测下个周末会做什么。",
+        "回顾整个职业生涯而非那个周末。",
+        "回想周末并想想做过什么。",
+        "先不考虑活动就评幸福。"
+      ],
+      "answer": 2,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A their weekend 的回顾不是未来预测。",
+        "B 本句范围是周末，不是整个职业生涯。",
+        "C First...reflect on their weekend and think about what they did 明示第一步。",
+        "D 先回想活动，Then 才问 happiest event，不能反转程序。"
+      ],
+      "vocabulary": [
+        {
+          "word": "reflect on",
+          "meaning": "回想；认真思考",
+          "context": "这里是回顾刚过去的周末活动，不是照镜子或预测下一周。",
+          "example": "Take a moment to reflect on what you read yesterday.",
+          "collocations": [
+            "reflect on a weekend",
+            "reflect on past activities"
+          ]
+        }
+      ],
+      "evidenceQuote": "To find out, I held two focus group meetings in September 2015. One group consisted of my undergraduate research assistants, and the other consisted of my graduate students and postdocs at UVA. First, I asked them to reflect on their weekend and think about what they did."
+    },
+    {
+      "order": 19,
+      "prompt": "Which dimension did the next question ask participants to evaluate after recalling their weekend?",
+      "promptZh": "回顾周末后，下一个问题让参与者评价哪一维度？",
+      "options": [
+        "The most meaningful event.",
+        "The happiest event.",
+        "The most psychologically rich event.",
+        "The most financially rewarding event."
+      ],
+      "optionsZh": [
+        "最有意义的事件。",
+        "最幸福的事件。",
+        "心理体验最丰富的事件。",
+        "经济回报最高的事件。"
+      ],
+      "answer": 1,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A 意义问题是后面另一问，不是回想后紧接的一问。",
+        "B Then I asked what the happiest event was 明示此时的评价维度。",
+        "C 心理丰富是在更后的 Finally 才问，顺序不可交换。",
+        "D 这套问题未把财务回报列成该步。"
+      ],
+      "vocabulary": [
+        {
+          "word": "happiest",
+          "meaning": "最幸福的；最愉快的",
+          "context": "最高级用于让参与者在自己周末事件中选出这一维度，不是寻找全世界最幸福的人。",
+          "example": "Which moment of the visit was the happiest for you?",
+          "collocations": [
+            "the happiest event",
+            "the happiest moment"
+          ]
+        }
+      ],
+      "evidenceQuote": "To find out, I held two focus group meetings in September 2015. One group consisted of my undergraduate research assistants, and the other consisted of my graduate students and postdocs at UVA. First, I asked them to reflect on their weekend and think about what they did. Then I asked what the happiest event was."
+    },
+    {
+      "order": 20,
+      "prompt": "What aspect does the 'most meaningful event' question turn to after happiness?",
+      "promptZh": "幸福之后的 most meaningful event 问题转向什么方面？",
+      "options": [
+        "Only the money spent on the activity.",
+        "Pleasantness without regard to significance.",
+        "Novelty and unusualness as the only criterion.",
+        "Meaning and significance, illustrated by helping or volunteering."
+      ],
+      "optionsZh": [
+        "只看活动花费。",
+        "不考虑意义的愉快程度。",
+        "把新奇罕见作为唯一标准。",
+        "意义与重要性，例如帮助别人或志愿服务。"
+      ],
+      "answer": 3,
+      "type": "逻辑关系",
+      "support": "explicit",
+      "analyses": [
+        "A 本段没有费用评价。",
+        "B 继续只评愉快不能体现从 happiest 转到 meaningful 的区分。",
+        "C 新奇不是该问题在此段用答案举例的核心，且 only 过度。",
+        "D 下句 helping someone、religious service、volunteering 说明所转向的意义维度；不能将不同提问维度混成同一个评分。"
+      ],
+      "vocabulary": [
+        {
+          "word": "meaningful",
+          "meaning": "有意义的；具有重要性和目的感的",
+          "context": "此处是与 happiest、psychologically rich 分开的提问维度，不等于活动必定愉悦。",
+          "example": "The volunteer described the conversation as meaningful even though it was difficult.",
+          "collocations": [
+            "a meaningful event",
+            "find an activity meaningful"
+          ]
+        }
+      ],
+      "evidenceQuote": "The majority answered that going out with friends or family was their happiest event. Then I asked what the most meaningful event was. The majority of answers involved helping someone, attending a religious service, or volunteering."
+    },
+    {
+      "order": 21,
+      "prompt": "What was the final event category asked about in this sequence?",
+      "promptZh": "这一提问序列最后询问哪类事件？",
+      "options": [
+        "The most psychologically rich event.",
+        "The happiest event.",
+        "The most meaningful event.",
+        "The most financially rewarding event."
+      ],
+      "optionsZh": [
+        "心理体验最丰富的事件。",
+        "最幸福的事件。",
+        "最有意义的事件。",
+        "经济回报最高的事件。"
+      ],
+      "answer": 0,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A Finally...most psychologically rich event 明示收尾的维度。",
+        "B 幸福问题在前面，不是 Finally。",
+        "C 意义问题也是前一步，不能替换最终维度。",
+        "D rich 在此修饰 psychological experience，不是财务回报。"
+      ],
+      "vocabulary": [
+        {
+          "word": "Finally",
+          "meaning": "最后；在一系列步骤的末尾",
+          "context": "组织提问顺序，不等于已经宣布每个研究问题的最终答案。",
+          "example": "Finally, the group discussed what surprised them.",
+          "collocations": [
+            "finally I asked",
+            "first ... then ... finally"
+          ]
+        }
+      ]
+    },
+    {
+      "order": 22,
+      "prompt": "What does calling Grace's and Rachel's answers 'most memorable' establish?",
+      "promptZh": "把格雷斯和瑞秋的回答称为 most memorable 说明什么？",
+      "options": [
+        "Their answers were proved representative of all students.",
+        "Their answers described only uniformly happy events.",
+        "Their answers particularly stood out and were worth remembering.",
+        "The two accounts were identical in every detail."
+      ],
+      "optionsZh": [
+        "回答被证明代表所有学生。",
+        "回答只描述始终幸福的事件。",
+        "回答格外突出、令人记住。",
+        "两人叙述的每个细节都相同。"
+      ],
+      "answer": 2,
+      "type": "语境词义",
+      "support": "explicit",
+      "analyses": [
+        "A memorable 不意味着代表性已经验证。",
+        "B 记忆深刻不等于只愉快，后面故事含复杂情绪。",
+        "C memorable 描述令人难忘，most 加强在这批回答中的突出程度。",
+        "D 两人分别提供不同经历，不能从并列姓名推出内容相同。"
+      ],
+      "vocabulary": [
+        {
+          "word": "memorable",
+          "meaning": "令人难忘的；值得记住的",
+          "context": "是作者对回答的回顾评价，不等于最高成绩、最幸福或总体代表性。",
+          "example": "The unexpected ending made the discussion memorable.",
+          "collocations": [
+            "a memorable answer",
+            "the most memorable experience"
+          ]
+        }
+      ]
+    },
+    {
+      "order": 23,
+      "prompt": "Which profile and first-time event match Grace's account?",
+      "promptZh": "哪组身份与首次经历符合格雷斯的叙述？",
+      "options": [
+        "A sophomore from central Virginia who visited her apartment lounge.",
+        "A graduate student from a D.C. suburb who attended wrestling alone.",
+        "A sophomore from a D.C. suburb who regularly attended professional wrestling.",
+        "A sophomore from a D.C. suburb attending her first professional wrestling event with friends."
+      ],
+      "optionsZh": [
+        "来自弗吉尼亚中部、去公寓休息室的二年级学生。",
+        "来自华盛顿郊区、独自看摔跤的研究生。",
+        "来自华盛顿郊区、经常看职业摔跤的二年级学生。",
+        "来自华盛顿郊区、首次与朋友看职业摔跤的二年级学生。"
+      ],
+      "answer": 3,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A 中部弗吉尼亚与公寓休息室是后面 Rachel 的经历，人物错配。",
+        "B sophomore 不是研究生，with friends 不是独自。",
+        "C first 不支持已经经常参加。",
+        "D 两个原页句子分别提供出身年级和第一次活动，同一稳定候选ID覆盖它们，不因此宣称它是最终人工定稿的一句。"
+      ],
+      "vocabulary": [
+        {
+          "word": "sophomore",
+          "meaning": "大学二年级学生（此处语境）",
+          "context": "这里说明 Grace 的年级，与 graduate student 区分，后面的 Rachel 也是同年级。",
+          "example": "As a sophomore, he began helping with the reading group.",
+          "collocations": [
+            "a college sophomore",
+            "a sophomore at UVA"
+          ]
+        }
+      ]
+    },
+    {
+      "order": 24,
+      "prompt": "Which description best fits her emotional response to the event?",
+      "promptZh": "哪项最符合她对该事件的情绪反应？",
+      "options": [
+        "Uniformly pleasant reactions with no distress.",
+        "A mixture of pleasant and painful feelings, ending in being deeply moved.",
+        "Only mild surprise with no emotional involvement.",
+        "Only pain and outrage, with no laughter or cheering."
+      ],
+      "optionsZh": [
+        "全部愉快，没有难受。",
+        "愉快和痛苦情绪交织，最终深受感动。",
+        "只有轻微惊讶，没有情绪投入。",
+        "只有痛苦愤怒，没有欢笑或欢呼。"
+      ],
+      "answer": 1,
+      "type": "同义改写",
+      "support": "explicit",
+      "analyses": [
+        "A outraged and pained 不能删掉。",
+        "B laughed、cheered 与 outraged、pained 并存，ultimately deeply moved 表示结尾感动，保留复杂的情绪轨迹。",
+        "C mild surprise 不是本句这些强烈反应的概括。",
+        "D 删除了 laughed、cheered 这一面。心理丰富不等于单一快乐。"
+      ],
+      "vocabulary": [
+        {
+          "word": "moved",
+          "meaning": "受感动的（此处为情绪义）",
+          "context": "deeply moved 不是身体被搬到另一地点，描述事件引发的内在反应。",
+          "example": "She was deeply moved by the final letter.",
+          "collocations": [
+            "deeply moved",
+            "be moved by an experience"
+          ]
+        }
+      ]
+    },
+    {
+      "order": 25,
+      "prompt": "Where is Rachel said to be from?",
+      "promptZh": "原文说瑞秋来自哪里？",
+      "options": [
+        "A suburb of Washington D.C.",
+        "California.",
+        "Central Virginia.",
+        "Duncan Falls, Ohio."
+      ],
+      "optionsZh": [
+        "华盛顿特区郊区。",
+        "加利福尼亚。",
+        "弗吉尼亚中部。",
+        "俄亥俄州邓肯福尔斯。"
+      ],
+      "answer": 2,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A 华盛顿郊区是前面 Grace 的出身，不能交换。",
+        "B 加州是前面出租车故事地点，不是 Rachel 出身。",
+        "C from central Virginia 明示来源。",
+        "D Duncan Falls 是 Joy 居住地，不是这里的学生。at UVA 是就读关系，from 是出身关系，也应区分。"
+      ],
+      "vocabulary": [
+        {
+          "word": "central",
+          "meaning": "中部的；位于中心区域的",
+          "context": "central Virginia 是地域范围，不是 central government 或所有学校的中心部门。",
+          "example": "The town lies in the central part of the region.",
+          "collocations": [
+            "central Virginia",
+            "the central part of a region"
+          ]
+        }
+      ]
+    }
+  ]
+}
