@@ -13925,5 +13925,1973 @@
     ],
     "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
     "fingerprint": "82f8629fe4fd4b56dc68f82ec4bcb92b1456e52e641595d46ff7d96df4de8574"
+  },
+  {
+    "id": "qe-c03-0007",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-008",
+    "parentQuestionId": "q-c03-005",
+    "chapterId": "c03",
+    "sectionId": "c03-s01",
+    "paragraphId": "c03-s01-p028-00750",
+    "readingUnitId": "c03-s01-p028-00750-r001-004",
+    "sentenceIds": [
+      "c03-s01-p028-00750-s001",
+      "c03-s01-p028-00750-s002",
+      "c03-s01-p028-00750-s003",
+      "c03-s01-p028-00750-s004"
+    ],
+    "passage": "The novelist Donna Tartt suggested that it is “to make other people happy even at the expense of one’s own happiness”—in other words, what many scholars call a “meaningful life.” Meaning in life is typically defined by significance, purpose, and coherence. First, a meaningful life is a life that matters. It matters not just to one’s family members and friends, but also to strangers.",
+    "prompt": "Which three features typically define meaning in life in the passage?",
+    "promptZh": "文中通常用哪三个特征界定人生意义？",
+    "options": [
+      "Comfort, financial security, and fame.",
+      "Novelty, pleasure, and constant excitement.",
+      "Achievement, popularity, and perfect happiness.",
+      "Significance, purpose, and coherence."
+    ],
+    "optionsZh": [
+      "舒适、经济安全和名声。",
+      "新奇、愉悦和持续兴奋。",
+      "成就、受欢迎和完美幸福。",
+      "重要性、目的和连贯性。"
+    ],
+    "answer": 3,
+    "type": "细节",
+    "support": "explicit",
+    "analyses": [
+      "A 不是本句列出的三项。",
+      "B 新奇等概念不能替换这句对意义的定义。",
+      "C 原文没有把完美幸福或名望列为必要项。",
+      "D significance, purpose, and coherence 是明示三项，typically 保留通常定义的范围。"
+    ],
+    "vocabulary": [
+      {
+        "word": "coherence",
+        "meaning": "连贯性；各部分构成一致整体的性质",
+        "context": "与意义的重要性和目的并列，后文以经历在指导原则下相互连合解释。",
+        "example": "The final paragraph gives the argument a stronger sense of coherence.",
+        "collocations": [
+          "a sense of coherence",
+          "coherence in life"
+        ]
+      }
+    ],
+    "translation": "小说家 Donna Tartt 提出，美好生活就是“让别人幸福，即使以牺牲自己的幸福为代价”——换言之，许多学者所说的“有意义的生活”。生命意义通常由重要性、目的和连贯性来界定。首先，有意义的生活是有分量的生活。它不仅对自己的家人朋友有分量，对陌生人也如此。",
+    "evidenceTargetIds": [
+      "c03-s01-p028-00750-s002"
+    ],
+    "evidence": [
+      {
+        "quote": "Meaning in life is typically defined by significance, purpose, and coherence.",
+        "sentenceIds": [
+          "c03-s01-p028-00750-s002"
+        ],
+        "sources": [
+          {
+            "pdfPage": 28,
+            "block": 0,
+            "bbox": [
+              76.99,
+              75,
+              535.01,
+              265.02
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "e687fa5ff5ec27207e3541c4e3aa6d4f0b4c1536fa9759c4cf95e90add0adc76"
+  },
+  {
+    "id": "qe-c03-0008",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-008",
+    "parentQuestionId": "q-c03-006",
+    "chapterId": "c03",
+    "sectionId": "c03-s01",
+    "paragraphId": "c03-s01-p028-00750",
+    "readingUnitId": "c03-s01-p028-00750-r005-008",
+    "sentenceIds": [
+      "c03-s01-p028-00750-s005",
+      "c03-s01-p028-00750-s006",
+      "c03-s01-p028-00750-s007",
+      "c03-s01-p028-00750-s008"
+    ],
+    "passage": "A meaningful life is a life that makes a difference in the world. Second, a meaningful life has a clear purpose. A person who leads a meaningful life knows where they’re going. There is a clear sense of direction and a guiding principle.",
+    "prompt": "What does a meaningful life do, according to the sentence about making a difference?",
+    "promptZh": "按 makes a difference 这一句，有意义的人生会怎样？",
+    "options": [
+      "It requires receiving public recognition for every action.",
+      "It has an effect or impact in the world.",
+      "It avoids any involvement with other people.",
+      "It is defined entirely by how happy a person feels at every moment."
+    ],
+    "optionsZh": [
+      "要求每个行为都获得公众认可。",
+      "在世界上产生作用或影响。",
+      "避免与他人发生任何联系。",
+      "完全由人每一刻的幸福感来界定。"
+    ],
+    "answer": 1,
+    "type": "同义改写",
+    "support": "explicit",
+    "analyses": [
+      "A 有影响不等于每次得到公开认可。",
+      "B makes a difference 对应产生有分量的作用，不是 mere appearance。",
+      "C 与在世界上产生影响的意思不符。",
+      "D 本句定义的是意义，不是每刻幸福感的唯一指标。"
+    ],
+    "vocabulary": [
+      {
+        "word": "makes a difference",
+        "meaning": "产生作用；带来影响",
+        "context": "本句强调意义的影响维度，而非简单制造差异或得到名声。",
+        "example": "Her patient explanation makes a difference to new students.",
+        "collocations": [
+          "make a difference in the world",
+          "make a positive difference"
+        ]
+      }
+    ],
+    "translation": "有意义的生活会在世界上产生影响。其次，有意义的生活有明确目的。过着有意义生活的人知道自己往哪里走。他们有清晰的方向感，也有指导原则。",
+    "evidenceTargetIds": [
+      "c03-s01-p028-00750-s005"
+    ],
+    "evidence": [
+      {
+        "quote": "A meaningful life is a life that makes a difference in the world.",
+        "sentenceIds": [
+          "c03-s01-p028-00750-s005"
+        ],
+        "sources": [
+          {
+            "pdfPage": 28,
+            "block": 0,
+            "bbox": [
+              76.99,
+              75,
+              535.01,
+              265.02
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "7092f8536ec0e847e64a5646bc531876efd9ccd78bdbe514d572ac6772b4890e"
+  },
+  {
+    "id": "qe-c03-0009",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-008",
+    "parentQuestionId": "q-c03-007",
+    "chapterId": "c03",
+    "sectionId": "c03-s01",
+    "paragraphId": "c03-s01-p028-00750",
+    "readingUnitId": "c03-s01-p028-00750-r009-010",
+    "sentenceIds": [
+      "c03-s01-p028-00750-s009",
+      "c03-s01-p028-00750-s010"
+    ],
+    "passage": "Third, a meaningful life is well organized. All of a person’s divergent experiences fit together under their own guiding principles.",
+    "prompt": "What does 'well organized' emphasise about a meaningful life here?",
+    "promptZh": "这里 well organized 强调有意义人生的哪一方面？",
+    "options": [
+      "A coherent arrangement of experiences under guiding principles.",
+      "Keeping every physical possession in a labelled box.",
+      "Following a schedule identical to everyone else's.",
+      "Avoiding all experiences that differ from one another."
+    ],
+    "optionsZh": [
+      "不同经历在指导原则下形成连贯结构。",
+      "把所有物品放在标有标签的箱子里。",
+      "遵守和所有人完全相同的日程。",
+      "避免任何彼此不同的经历。"
+    ],
+    "answer": 0,
+    "type": "语境词义",
+    "support": "explicit",
+    "analyses": [
+      "A 后句 All...divergent experiences fit together under...guiding principles 解释有条理的心理连贯性。",
+      "B 不是家居收纳的字面义。",
+      "C their own guiding principles 不等于人人同一日程。",
+      "D divergent experiences 仍可以存在，关键是相互连接而不是全部取消差异。"
+    ],
+    "vocabulary": [
+      {
+        "word": "organized",
+        "meaning": "有条理的；组织成整体的",
+        "context": "在此结合经历的连贯性理解，不限于整齐安排物件。",
+        "example": "The essay is well organized around a clear central argument.",
+        "collocations": [
+          "well organized",
+          "organized around a principle"
+        ]
+      }
+    ],
+    "translation": "第三，有意义的生活组织有序。一个人种种不同的经历，都能在其自己的指导原则下相互契合。",
+    "evidenceTargetIds": [
+      "c03-s01-p028-00750-s009"
+    ],
+    "evidence": [
+      {
+        "quote": "Third, a meaningful life is well organized. All of a person’s divergent experiences fit together under their own guiding principles.",
+        "sentenceIds": [
+          "c03-s01-p028-00750-s009",
+          "c03-s01-p028-00750-s010"
+        ],
+        "sources": [
+          {
+            "pdfPage": 28,
+            "block": 0,
+            "bbox": [
+              76.99,
+              75,
+              535.01,
+              265.02
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "e65ea4f4a836ede25cd98bd492c3e4be8edbf1a8b8a17fccb025181bee998028"
+  },
+  {
+    "id": "qe-c03-0010",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-008",
+    "parentQuestionId": "q-c03-008",
+    "chapterId": "c03",
+    "sectionId": "c03-s01",
+    "paragraphId": "c03-s01-p028-02700",
+    "readingUnitId": "c03-s01-p028-02700-r001-003",
+    "sentenceIds": [
+      "c03-s01-p028-02700-s001",
+      "c03-s01-p028-02700-s002",
+      "c03-s01-p028-02700-s003"
+    ],
+    "passage": "In contrast, a meaningless life is a life that does not make any difference in the world. Anthropologist David Graeber, in his book Bullshit Jobs: A Theory, argues that there are millions of people around the world who are toiling away their lives in meaningless jobs. He defines a bullshit job as a job that the person who is doing it can’t really justify the existence of that job.",
+    "prompt": "What contrast is introduced in the description of a meaningless life?",
+    "promptZh": "描述无意义人生时，引入了什么对照？",
+    "options": [
+      "Fame is contrasted with a high income.",
+      "One occupation is declared more prestigious than every other.",
+      "Making a difference is contrasted with making no difference in the world.",
+      "All repetitive work is contrasted with all meaningful relationships."
+    ],
+    "optionsZh": [
+      "名声与高收入的对照。",
+      "宣布某一职业比其他所有职业更有声望。",
+      "在世界上产生影响与没有产生影响的对照。",
+      "所有重复工作与所有有意义关系的对照。"
+    ],
+    "answer": 2,
+    "type": "逻辑关系",
+    "support": "explicit",
+    "analyses": [
+      "A In contrast 在这里不是比较收入和名声。",
+      "B 没有职业声望排名。",
+      "C does not make any difference 与前述 makes a difference 形成否定性对照。",
+      "D 这一句没有把工作与关系分成两组，也不能由后面职业例子推断所有重复工作无意义。"
+    ],
+    "vocabulary": [
+      {
+        "word": "In contrast",
+        "meaning": "相反；形成对照的是",
+        "context": "把意义的影响维度与其缺失相对照，不是另立职业优劣榜。",
+        "example": "The first route is busy; in contrast, the second is usually quiet.",
+        "collocations": [
+          "in contrast to",
+          "in contrast"
+        ]
+      }
+    ],
+    "translation": "相比之下，无意义的生活是对世界不产生任何影响的生活。人类学家 David Graeber 在《毫无意义的工作：一种理论》中认为，世界各地有数百万人正辛苦地把生命耗费在无意义的工作上。他把这种工作定义为：连从事它的人自己都无法真正说明其存在理由的工作。",
+    "evidenceTargetIds": [
+      "c03-s01-p028-02700-s001"
+    ],
+    "evidence": [
+      {
+        "quote": "In contrast, a meaningless life is a life that does not make any difference in the world.",
+        "sentenceIds": [
+          "c03-s01-p028-02700-s001"
+        ],
+        "sources": [
+          {
+            "pdfPage": 28,
+            "block": 1,
+            "bbox": [
+              76.99,
+              270,
+              535,
+              596.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "92822e101aa5739bcd89f612455c5e89b0ef76b7cde7d52b5b3c637138107c38"
+  },
+  {
+    "id": "qe-c03-0011",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-008",
+    "parentQuestionId": "q-c03-008",
+    "chapterId": "c03",
+    "sectionId": "c03-s01",
+    "paragraphId": "c03-s01-p028-02700",
+    "readingUnitId": "c03-s01-p028-02700-r001-003",
+    "sentenceIds": [
+      "c03-s01-p028-02700-s001",
+      "c03-s01-p028-02700-s002",
+      "c03-s01-p028-02700-s003"
+    ],
+    "passage": "In contrast, a meaningless life is a life that does not make any difference in the world. Anthropologist David Graeber, in his book Bullshit Jobs: A Theory, argues that there are millions of people around the world who are toiling away their lives in meaningless jobs. He defines a bullshit job as a job that the person who is doing it can’t really justify the existence of that job.",
+    "prompt": "Whose argument about millions of people in meaningless jobs is being reported?",
+    "promptZh": "关于数百万人从事无意义工作的论点被归于谁？",
+    "options": [
+      "Donna Tartt, presenting a definition of happiness.",
+      "David Graeber, in Bullshit Jobs: A Theory.",
+      "Michael Steger, reporting the informant survey.",
+      "Michelle Obama, addressing CUNY graduates."
+    ],
+    "optionsZh": [
+      "唐娜·塔特在定义幸福。",
+      "大卫·格雷伯，在《Bullshit Jobs: A Theory》中。",
+      "迈克尔·斯蒂格，在报告知情人调查。",
+      "米歇尔·奥巴马，向 CUNY 毕业生讲话。"
+    ],
+    "answer": 1,
+    "type": "观点归属",
+    "support": "explicit",
+    "analyses": [
+      "A 塔特是前面关于他人幸福的引述来源，不是这条工作论点。",
+      "B Anthropologist David Graeber...argues 清楚给出人物、著作和论点归属。",
+      "C 斯蒂格属于后面的意义自报研究。",
+      "D 毕业演讲不是本句出处。不能把 argues 的转述性质抹成作者亲自统计证实。"
+    ],
+    "vocabulary": [
+      {
+        "word": "toiling",
+        "meaning": "辛苦劳动；长时间劳作",
+        "context": "toiling away their lives 带有耗费一生劳动的评价色彩，属于格雷伯论点的转述。",
+        "example": "The workers were toiling in the fields throughout the afternoon.",
+        "collocations": [
+          "toil away",
+          "toil for long hours"
+        ]
+      }
+    ],
+    "translation": "相比之下，无意义的生活是对世界不产生任何影响的生活。人类学家 David Graeber 在《毫无意义的工作：一种理论》中认为，世界各地有数百万人正辛苦地把生命耗费在无意义的工作上。他把这种工作定义为：连从事它的人自己都无法真正说明其存在理由的工作。",
+    "evidenceTargetIds": [
+      "c03-s01-p028-02700-s002"
+    ],
+    "evidence": [
+      {
+        "quote": "Anthropologist David Graeber, in his book Bullshit Jobs: A Theory, argues that there are millions of people around the world who are toiling away their lives in meaningless jobs.",
+        "sentenceIds": [
+          "c03-s01-p028-02700-s002"
+        ],
+        "sources": [
+          {
+            "pdfPage": 28,
+            "block": 1,
+            "bbox": [
+              76.99,
+              270,
+              535,
+              596.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "ff00281656a124100fd2f7d7069fafeda6a7749cb57f2a24a50a7190a70aaa01"
+  },
+  {
+    "id": "qe-c03-0012",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-008",
+    "parentQuestionId": "q-c03-009",
+    "chapterId": "c03",
+    "sectionId": "c03-s01",
+    "paragraphId": "c03-s01-p028-02700",
+    "readingUnitId": "c03-s01-p028-02700-r004-007",
+    "sentenceIds": [
+      "c03-s01-p028-02700-s004",
+      "c03-s01-p028-02700-s005",
+      "c03-s01-p028-02700-s006",
+      "c03-s01-p028-02700-s007"
+    ],
+    "passage": "Meaningless jobs, according to Graeber, are not just repetitive factory or clerical jobs, but also include corporate lawyers, public relations consultants, telemarketers, and brand managers. For instance, he claims that most corporate lawyers secretly believe that the world would probably be a better place if they did not exist. Of course, people can make a difference in the world outside of their jobs. So this doesn’t mean corporate lawyers and public relations consultants lead meaningless lives.",
+    "prompt": "Which reading preserves the scope of Graeber's list of supposedly meaningless jobs?",
+    "promptZh": "哪项保留格雷伯所谓无意义工作清单的范围？",
+    "options": [
+      "Only repetitive factory jobs are included.",
+      "Corporate lawyers are explicitly excluded.",
+      "The list is restricted to jobs with no office duties.",
+      "The list extends beyond repetitive work to some professional roles."
+    ],
+    "optionsZh": [
+      "只包括重复性工厂工作。",
+      "明确排除公司律师。",
+      "清单仅限没有办公职责的工作。",
+      "清单超出重复性工作，还包括部分专业职业。"
+    ],
+    "answer": 3,
+    "type": "细节",
+    "support": "explicit",
+    "analyses": [
+      "A not just...but also 明确否定只含工厂工作的范围。",
+      "B corporate lawyers 被列入，而非排除。",
+      "C 没有无办公职责的限制，clerical jobs 也在原文中。",
+      "D 保留了扩展范围和 according to Graeber 的归属。原文随后强调工作评判不等于整个生命无意义。"
+    ],
+    "vocabulary": [
+      {
+        "word": "clerical",
+        "meaning": "文书的；办公室事务性的",
+        "context": "与 factory 并列，之后作者转述专业职业也被纳入的观点。",
+        "example": "The assistant handles routine clerical work each morning.",
+        "collocations": [
+          "clerical jobs",
+          "clerical duties"
+        ]
+      }
+    ],
+    "translation": "依 Graeber 之见，无意义的工作不只是重复性的工厂工作或文书工作，也包括公司律师、公关顾问、电话营销员和品牌经理。例如，他声称多数公司律师暗自认为，如果自己这类职业不存在，世界可能会更好。当然，人也可以在工作之外对世界产生影响。因此，这并不意味着公司律师和公关顾问就过着无意义的生活。",
+    "evidenceTargetIds": [
+      "c03-s01-p028-02700-s004"
+    ],
+    "evidence": [
+      {
+        "quote": "Meaningless jobs, according to Graeber, are not just repetitive factory or clerical jobs, but also include corporate lawyers, public relations consultants, telemarketers, and brand managers.",
+        "sentenceIds": [
+          "c03-s01-p028-02700-s004"
+        ],
+        "sources": [
+          {
+            "pdfPage": 28,
+            "block": 1,
+            "bbox": [
+              76.99,
+              270,
+              535,
+              596.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "ec1f50b774271853bf05347edbd1a17af97df4e71c6c97676d3ee4f0f6571595"
+  },
+  {
+    "id": "qe-c03-0013",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-008",
+    "parentQuestionId": "q-c03-009",
+    "chapterId": "c03",
+    "sectionId": "c03-s01",
+    "paragraphId": "c03-s01-p028-02700",
+    "readingUnitId": "c03-s01-p028-02700-r004-007",
+    "sentenceIds": [
+      "c03-s01-p028-02700-s004",
+      "c03-s01-p028-02700-s005",
+      "c03-s01-p028-02700-s006",
+      "c03-s01-p028-02700-s007"
+    ],
+    "passage": "Meaningless jobs, according to Graeber, are not just repetitive factory or clerical jobs, but also include corporate lawyers, public relations consultants, telemarketers, and brand managers. For instance, he claims that most corporate lawyers secretly believe that the world would probably be a better place if they did not exist. Of course, people can make a difference in the world outside of their jobs. So this doesn’t mean corporate lawyers and public relations consultants lead meaningless lives.",
+    "prompt": "Which wording accurately preserves the status of the statement about corporate lawyers' private beliefs?",
+    "promptZh": "哪项准确保留关于公司律师私下想法之说的性质？",
+    "options": [
+      "It is Graeber's claim about what most of them secretly believe, with 'probably' qualifying the imagined outcome.",
+      "It is a direct confession from every corporate lawyer interviewed by the narrator.",
+      "It proves that all corporate lawyers have meaningless lives.",
+      "It establishes that removing every legal service would certainly improve the world."
+    ],
+    "optionsZh": [
+      "这是格雷伯对多数人私下信念的主张，probably 限定所设想的结果。",
+      "这是作者采访的每位公司律师的直接坦白。",
+      "它证明所有公司律师的人生无意义。",
+      "它确立取消每种法律服务必定改善世界。"
+    ],
+    "answer": 0,
+    "type": "观点归属",
+    "support": "explicit",
+    "analyses": [
+      "A he claims、most、secretly believe、would probably 分别保留转述、范围、信念与不确定性。",
+      "B 没有作者逐一采访，更不是 every。",
+      "C 后文直接否定从职业判断推为整个人生无意义。",
+      "D probably 不能改为 certainly，特定职业主张也不能扩到全部法律服务。"
+    ],
+    "vocabulary": [
+      {
+        "word": "claims",
+        "meaning": "声称；提出主张",
+        "context": "提示对格雷伯说法的归属，不是读者已经得到完整独立验证的事实。",
+        "example": "The writer claims that the new policy will change working habits.",
+        "collocations": [
+          "claim that",
+          "a claim about private beliefs"
+        ]
+      }
+    ],
+    "translation": "依 Graeber 之见，无意义的工作不只是重复性的工厂工作或文书工作，也包括公司律师、公关顾问、电话营销员和品牌经理。例如，他声称多数公司律师暗自认为，如果自己这类职业不存在，世界可能会更好。当然，人也可以在工作之外对世界产生影响。因此，这并不意味着公司律师和公关顾问就过着无意义的生活。",
+    "evidenceTargetIds": [
+      "c03-s01-p028-02700-s005"
+    ],
+    "evidence": [
+      {
+        "quote": "For instance, he claims that most corporate lawyers secretly believe that the world would probably be a better place if they did not exist.",
+        "sentenceIds": [
+          "c03-s01-p028-02700-s005"
+        ],
+        "sources": [
+          {
+            "pdfPage": 28,
+            "block": 1,
+            "bbox": [
+              76.99,
+              270,
+              535,
+              596.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "88c4cdee575a73738afaa3e87e2845f25cbc3c8a018da38c29212ffc73213086"
+  },
+  {
+    "id": "qe-c03-0014",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-008",
+    "parentQuestionId": "q-c03-010",
+    "chapterId": "c03",
+    "sectionId": "c03-s01",
+    "paragraphId": "c03-s01-p028-02700",
+    "readingUnitId": "c03-s01-p028-02700-r008-011",
+    "sentenceIds": [
+      "c03-s01-p028-02700-s008",
+      "c03-s01-p028-02700-s009",
+      "c03-s01-p028-02700-s010",
+      "c03-s01-p028-02700-s011"
+    ],
+    "passage": "But if you are not making any positive difference in the world, your life may feel pointless. Likewise, a meaningless life has no clear purpose. People without a clear purpose tend to go through their lives aimlessly. Finally, a meaningless life feels torn and highly fragmented.",
+    "prompt": "What does 'tend to' qualify in the statement about people without a clear purpose?",
+    "promptZh": "关于缺少明确目的的人，tend to 限定了什么？",
+    "options": [
+      "It makes aimlessness impossible for anyone else.",
+      "It proves every person without a purpose behaves identically.",
+      "It describes a tendency toward aimlessness rather than an exceptionless rule.",
+      "It guarantees that a clear purpose prevents all difficulties."
+    ],
+    "optionsZh": [
+      "让其他任何人都不可能迷茫。",
+      "证明每个缺少目的的人行为完全相同。",
+      "描述无目标生活的倾向，而非没有例外的规则。",
+      "保证明确目的能防止所有困难。"
+    ],
+    "answer": 2,
+    "type": "逻辑关系",
+    "support": "explicit",
+    "analyses": [
+      "A 该群体的倾向不能排除他人可能迷茫。",
+      "B tend 不能扩大为 every 和 identical。",
+      "C tend to...aimlessly 保留往往如此的程度，不是个体保证。",
+      "D 本句没有清晰目的能阻止所有困难的逆向保证。"
+    ],
+    "vocabulary": [
+      {
+        "word": "aimlessly",
+        "meaning": "漫无目标地；没有明确方向地",
+        "context": "与 without a clear purpose 相呼应，仍受 tend to 限定。",
+        "example": "They wandered aimlessly until they found a map.",
+        "collocations": [
+          "go through life aimlessly",
+          "wander aimlessly"
+        ]
+      }
+    ],
+    "translation": "但如果你没有给世界带来任何正面影响，你的人生可能会让你觉得毫无意义。同样，无意义的生活没有明确目的。没有明确目的的人往往漫无目标地度过人生。最后，无意义的生活让人感到撕裂、极为破碎。",
+    "evidenceTargetIds": [
+      "c03-s01-p028-02700-s010"
+    ],
+    "evidence": [
+      {
+        "quote": "People without a clear purpose tend to go through their lives aimlessly.",
+        "sentenceIds": [
+          "c03-s01-p028-02700-s010"
+        ],
+        "sources": [
+          {
+            "pdfPage": 28,
+            "block": 1,
+            "bbox": [
+              76.99,
+              270,
+              535,
+              596.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "e26d99bd25c246d4f09c1c9fffff6ac954198f8385e47e1070a64caae31244ab"
+  },
+  {
+    "id": "qe-c03-0015",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-008",
+    "parentQuestionId": "q-c03-012",
+    "chapterId": "c03",
+    "sectionId": "c03-s02",
+    "paragraphId": "c03-s02-p028-06525",
+    "readingUnitId": "c03-s02-p028-06525-r001-004",
+    "sentenceIds": [
+      "c03-s02-p028-06525-s001",
+      "c03-s02-p028-06525-s002",
+      "c03-s02-p028-06525-s003",
+      "c03-s02-p028-06525-s004"
+    ],
+    "passage": "Needless to say, a meaningful life sounds a lot more appealing than a meaningless one. Thus, people say you should find a reason for living— whether via career, religion, social roles (e.g., parenthood), scientific discovery, or social change. Many commencement speakers preach along these lines, including Michelle Obama in her speech to CUNY’s class of 2016: “Be great. Build great lives for yourselves….",
+    "prompt": "What does the narrator describe as more appealing?",
+    "promptZh": "叙述者把什么描述为更有吸引力？",
+    "options": [
+      "A meaningless life compared with a meaningful one.",
+      "A meaningful life compared with a meaningless one.",
+      "Every highly paid job compared with every other occupation.",
+      "Fame compared with helping family members."
+    ],
+    "optionsZh": [
+      "无意义人生相对于有意义人生。",
+      "有意义人生相对于无意义人生。",
+      "所有高薪工作相对于其他任何职业。",
+      "名声相对于帮助家人。"
+    ],
+    "answer": 1,
+    "type": "细节",
+    "support": "explicit",
+    "analyses": [
+      "A 比较方向颠倒。",
+      "B a meaningful life sounds a lot more appealing than a meaningless one 明示方向。",
+      "C 没有收入或职业排名。",
+      "D 没有名声与家庭的比较。sounds 表达吸引力印象，不是对每个人实际生活的测量。"
+    ],
+    "vocabulary": [
+      {
+        "word": "appealing",
+        "meaning": "有吸引力的；令人向往的",
+        "context": "描述有意义人生听起来更值得向往，不等于实际成就门槛。",
+        "example": "The idea of a quieter study space sounded appealing.",
+        "collocations": [
+          "sound appealing",
+          "an appealing idea"
+        ]
+      }
+    ],
+    "translation": "不用说，有意义的生活听起来比无意义的生活更有吸引力。因此，人们说你应该找到活着的理由——可以通过事业、宗教、社会角色（如为人父母）、科学发现或社会变革来寻找。许多毕业典礼演讲者都作过类似劝勉，包括 Michelle Obama 在纽约市立大学 2016 届毕业典礼上的话：“成就伟大。为你们自己建立出色的人生……”",
+    "evidenceTargetIds": [
+      "c03-s02-p028-06525-s001"
+    ],
+    "evidence": [
+      {
+        "quote": "Needless to say, a meaningful life sounds a lot more appealing than a meaningless one.",
+        "sentenceIds": [
+          "c03-s02-p028-06525-s001"
+        ],
+        "sources": [
+          {
+            "pdfPage": 28,
+            "block": 3,
+            "bbox": [
+              76.99,
+              652.5,
+              535.01,
+              706.02
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "b5bca8cb604e5c8df9432b1834c9962170f25f64e7ec08fe9a0c5b57344eddd9"
+  },
+  {
+    "id": "qe-c03-0016",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-008",
+    "parentQuestionId": "q-c03-012",
+    "chapterId": "c03",
+    "sectionId": "c03-s02",
+    "paragraphId": "c03-s02-p028-06525",
+    "readingUnitId": "c03-s02-p028-06525-r001-004",
+    "sentenceIds": [
+      "c03-s02-p028-06525-s001",
+      "c03-s02-p028-06525-s002",
+      "c03-s02-p028-06525-s003",
+      "c03-s02-p028-06525-s004"
+    ],
+    "passage": "Needless to say, a meaningful life sounds a lot more appealing than a meaningless one. Thus, people say you should find a reason for living— whether via career, religion, social roles (e.g., parenthood), scientific discovery, or social change. Many commencement speakers preach along these lines, including Michelle Obama in her speech to CUNY’s class of 2016: “Be great. Build great lives for yourselves….",
+    "prompt": "Who is cited as addressing CUNY's class of 2016?",
+    "promptZh": "文中举出谁向 CUNY 2016 届毕业生发表讲话？",
+    "options": [
+      "Donna Tartt.",
+      "Dr. Donna Adams-Pickett.",
+      "Michael Steger.",
+      "Michelle Obama."
+    ],
+    "optionsZh": [
+      "唐娜·塔特。",
+      "唐娜·亚当斯-皮克特医生。",
+      "迈克尔·斯蒂格。",
+      "米歇尔·奥巴马。"
+    ],
+    "answer": 3,
+    "type": "细节",
+    "support": "explicit",
+    "analyses": [
+      "A 塔特属于之前的小说家建议，不是该演讲归属。",
+      "B 医生是后面理想付诸实践的例子，不能倒换成这场讲话者。",
+      "C 斯蒂格是后文研究者。",
+      "D including Michelle Obama in her speech to CUNY’s class of 2016 明示人物与届别。此候选单元在引语中截分，保留原文不补造后句。"
+    ],
+    "vocabulary": [
+      {
+        "word": "commencement",
+        "meaning": "毕业典礼",
+        "context": "commencement speakers 指毕业典礼讲话者，不是实验参与者。",
+        "example": "The students listened to the commencement address in the main hall.",
+        "collocations": [
+          "commencement speakers",
+          "a commencement speech"
+        ]
+      }
+    ],
+    "translation": "不用说，有意义的生活听起来比无意义的生活更有吸引力。因此，人们说你应该找到活着的理由——可以通过事业、宗教、社会角色（如为人父母）、科学发现或社会变革来寻找。许多毕业典礼演讲者都作过类似劝勉，包括 Michelle Obama 在纽约市立大学 2016 届毕业典礼上的话：“成就伟大。为你们自己建立出色的人生……”",
+    "evidenceTargetIds": [
+      "c03-s02-p028-06525-s003"
+    ],
+    "evidence": [
+      {
+        "quote": "Many commencement speakers preach along these lines, including Michelle Obama in her speech to CUNY’s class of 2016: “Be great.",
+        "sentenceIds": [
+          "c03-s02-p028-06525-s003"
+        ],
+        "sources": [
+          {
+            "pdfPage": 29,
+            "block": 0,
+            "bbox": [
+              76.99,
+              75,
+              535.01,
+              148.02
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "4d0df14dc53541b476e8ea495b4fd3783eec62a54f11d9118fdf25bc672ceb7a"
+  },
+  {
+    "id": "qe-c03-0017",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-008",
+    "parentQuestionId": "q-c03-012",
+    "chapterId": "c03",
+    "sectionId": "c03-s02",
+    "paragraphId": "c03-s02-p028-06525",
+    "readingUnitId": "c03-s02-p028-06525-r001-004",
+    "sentenceIds": [
+      "c03-s02-p028-06525-s001",
+      "c03-s02-p028-06525-s002",
+      "c03-s02-p028-06525-s003",
+      "c03-s02-p028-06525-s004"
+    ],
+    "passage": "Needless to say, a meaningful life sounds a lot more appealing than a meaningless one. Thus, people say you should find a reason for living— whether via career, religion, social roles (e.g., parenthood), scientific discovery, or social change. Many commencement speakers preach along these lines, including Michelle Obama in her speech to CUNY’s class of 2016: “Be great. Build great lives for yourselves….",
+    "prompt": "What is 'Build great lives for yourselves' doing within the quoted speech?",
+    "promptZh": "引述演讲中的 Build great lives for yourselves 起什么作用？",
+    "options": [
+      "It reports a completed experiment about graduates.",
+      "It predicts that all listeners have already achieved greatness.",
+      "It urges the listeners to create great lives for themselves.",
+      "It instructs listeners to assess someone else's annual income."
+    ],
+    "optionsZh": [
+      "报告关于毕业生的已完成实验。",
+      "预测所有听众已达伟大成就。",
+      "鼓励听众为自己创造出色人生。",
+      "指示听众评估别人的年收入。"
+    ],
+    "answer": 2,
+    "type": "作者意图",
+    "support": "explicit",
+    "analyses": [
+      "A 这是演讲劝勉，不是实验报告。",
+      "B Build 是祈使号召，不是已经完成的事实。",
+      "C yourselves 强调听众自己，Build 邀请他们行动。",
+      "D 没有收入评估任务。这里不把鼓励语当作保证所有毕业生达成同一结果。"
+    ],
+    "vocabulary": [
+      {
+        "word": "yourselves",
+        "meaning": "你们自己（反身代词）",
+        "context": "for yourselves 指向听众自己的生活，而非作者个人或一项收入指标。",
+        "example": "You can decide for yourselves which reading routine suits you.",
+        "collocations": [
+          "for yourselves",
+          "build lives for yourselves"
+        ]
+      }
+    ],
+    "translation": "不用说，有意义的生活听起来比无意义的生活更有吸引力。因此，人们说你应该找到活着的理由——可以通过事业、宗教、社会角色（如为人父母）、科学发现或社会变革来寻找。许多毕业典礼演讲者都作过类似劝勉，包括 Michelle Obama 在纽约市立大学 2016 届毕业典礼上的话：“成就伟大。为你们自己建立出色的人生……”",
+    "evidenceTargetIds": [
+      "c03-s02-p028-06525-s004"
+    ],
+    "evidence": [
+      {
+        "quote": "Build great lives for yourselves….",
+        "sentenceIds": [
+          "c03-s02-p028-06525-s004"
+        ],
+        "sources": [
+          {
+            "pdfPage": 29,
+            "block": 0,
+            "bbox": [
+              76.99,
+              75,
+              535.01,
+              148.02
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "372f111c70af410a2c4dc512585593c6c08747590b7ad15d61b2dc00bda1791b"
+  },
+  {
+    "id": "qe-c03-0018",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-008",
+    "parentQuestionId": "q-c03-014",
+    "chapterId": "c03",
+    "sectionId": "c03-s02",
+    "paragraphId": "c03-s02-p029-01530",
+    "readingUnitId": "c03-s02-p029-01530-r001-004",
+    "sentenceIds": [
+      "c03-s02-p029-01530-s001",
+      "c03-s02-p029-01530-s002",
+      "c03-s02-p029-01530-s003",
+      "c03-s02-p029-01530-s004"
+    ],
+    "passage": "Dr. Donna Adams-Pickett did exactly what Michele Obama promoted. As a child, she learned that her paternal grandmother, who lived on a tobacco farm, died while giving birth. The baby died as well, and her father was left motherless at age twelve. After hearing this story, she was determined to become an ob-gyn doctor.",
+    "prompt": "What role does the opening statement about Dr. Adams-Pickett play?",
+    "promptZh": "关于亚当斯-皮克特医生的开头一句起什么作用？",
+    "options": [
+      "It presents her as an example of putting the previously promoted ideal into practice.",
+      "It introduces her as a critic rejecting the ideal entirely.",
+      "It identifies her as the author of the commencement speech.",
+      "It reports that the ideal was disproved by an admissions experiment."
+    ],
+    "optionsZh": [
+      "把她作为将前面倡导的理想付诸实践的例子。",
+      "把她介绍为完全拒绝理想的批评者。",
+      "把她认作毕业演讲作者。",
+      "报告理想被录取实验推翻。"
+    ],
+    "answer": 0,
+    "type": "作者意图",
+    "support": "explicit",
+    "analyses": [
+      "A did exactly what...promoted 直接把她的经历与前面倡导的方向连接，随后展开传记例子。",
+      "B did exactly 与完全拒绝相反。",
+      "C 她是践行者，不是本句所指讲话的作者。",
+      "D 没有录取实验或推翻理想的结果。保留原书本句 Michele 的原始拼写，不擅改来源。"
+    ],
+    "vocabulary": [
+      {
+        "word": "promoted",
+        "meaning": "倡导；提倡（此处不是升职）",
+        "context": "指前面演讲提倡的理想，did what...promoted 将倡导与实践连接。",
+        "example": "The campaign promoted the value of helping neighbours.",
+        "collocations": [
+          "promote an ideal",
+          "promote a way of life"
+        ]
+      }
+    ],
+    "translation": "Donna Adams-Pickett 医生确实践行了 Michele Obama 所提倡的事。小时候，她得知住在烟草农场的祖母在分娩时去世，婴儿也没能活下来，她父亲十二岁就失去了母亲。听到这个故事后，她下定决心成为妇产科医生。",
+    "evidenceTargetIds": [
+      "c03-s02-p029-01530-s001"
+    ],
+    "evidence": [
+      {
+        "quote": "Dr. Donna Adams-Pickett did exactly what Michele Obama promoted.",
+        "sentenceIds": [
+          "c03-s02-p029-01530-s001"
+        ],
+        "sources": [
+          {
+            "pdfPage": 29,
+            "block": 1,
+            "bbox": [
+              76.99,
+              153,
+              535.01,
+              401.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "00318b6122503a80a0375548af15c0c39819faf20f03886b65bb3b93e653e841"
+  },
+  {
+    "id": "qe-c03-0019",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-008",
+    "parentQuestionId": "q-c03-015",
+    "chapterId": "c03",
+    "sectionId": "c03-s02",
+    "paragraphId": "c03-s02-p029-01530",
+    "readingUnitId": "c03-s02-p029-01530-r005-006",
+    "sentenceIds": [
+      "c03-s02-p029-01530-s005",
+      "c03-s02-p029-01530-s006"
+    ],
+    "passage": "As she shared with PBS NewsHour, Dr. Adams-Pickett delivered over 6,000 babies over the last twenty years in Augusta, Georgia, an area located in a maternity care desert. Her life is certainly meaningful, as she has a clear purpose (provide good maternal care to the people of Georgia, especially Black women, who have a much higher rate of maternal mortality before and after delivery than other women) and significance (some mothers and babies might have died without her care).",
+    "prompt": "What does Dr. Adams-Pickett report to PBS NewsHour in the passage?",
+    "promptZh": "文中亚当斯-皮克特医生向 PBS NewsHour 讲述了什么？",
+    "options": [
+      "Exactly 6,000 births across all of Georgia in a single year.",
+      "More than 6,000 deliveries over the twenty-year period described, in Augusta.",
+      "Fewer than 600 deliveries before leaving medical practice.",
+      "A controlled experiment proving identical outcomes for all mothers."
+    ],
+    "optionsZh": [
+      "一年内在整个佐治亚州恰好接生 6000 次。",
+      "所述二十年间在奥古斯塔接生超过 6000 名婴儿。",
+      "退出医疗工作前接生少于 600 名婴儿。",
+      "证明所有母亲结局相同的对照实验。"
+    ],
+    "answer": 1,
+    "type": "细节",
+    "support": "explicit",
+    "analyses": [
+      "A over 不等于 exactly，twenty years 不是一年，地点也被扩大。",
+      "B 保留 shared with PBS NewsHour 的自述来源、over 6,000、二十年和 Augusta。",
+      "C 数量和离职情节均不符合原文。",
+      "D 个人工作经历不是随机对照实验，也没有相同结局保证。last twenty years 是书中叙述范围，不自动滚动到今天。"
+    ],
+    "vocabulary": [
+      {
+        "word": "delivered",
+        "meaning": "接生（此处为产科语境）",
+        "context": "delivered babies 指协助婴儿出生，不是递送包裹。",
+        "example": "The doctor delivered a baby during her night shift.",
+        "collocations": [
+          "deliver a baby",
+          "deliver over six thousand babies"
+        ]
+      }
+    ],
+    "translation": "Adams-Pickett 医生向 PBS《新闻时刻》分享说，过去二十年，她在佐治亚州奥古斯塔接生了六千多名婴儿；当地是孕产照护资源匮乏地区。她的人生无疑有意义：有明确目的——为佐治亚居民提供良好孕产照护，尤其关注分娩前后孕产死亡率远高于其他女性的黑人女性；也有重要性——如果没有她的照护，一些母亲与婴儿可能已经死亡。",
+    "evidenceTargetIds": [
+      "c03-s02-p029-01530-s005"
+    ],
+    "evidence": [
+      {
+        "quote": "As she shared with PBS NewsHour, Dr. Adams-Pickett delivered over 6,000 babies over the last twenty years in Augusta, Georgia, an area located in a maternity care desert.",
+        "sentenceIds": [
+          "c03-s02-p029-01530-s005"
+        ],
+        "sources": [
+          {
+            "pdfPage": 29,
+            "block": 1,
+            "bbox": [
+              76.99,
+              153,
+              535.01,
+              401.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "b896b50de1ac7c95cb6f52178c515796d9be80b108c5eb0b6490c1cb2ccc9b1b"
+  },
+  {
+    "id": "qe-c03-0020",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-008",
+    "parentQuestionId": "q-c03-017",
+    "chapterId": "c03",
+    "sectionId": "c03-s02",
+    "paragraphId": "c03-s02-p029-04065",
+    "readingUnitId": "c03-s02-p029-04065-r001-004",
+    "sentenceIds": [
+      "c03-s02-p029-04065-s001",
+      "c03-s02-p029-04065-s002",
+      "c03-s02-p029-04065-s003",
+      "c03-s02-p029-04065-s004"
+    ],
+    "passage": "When we think of people who live meaningful lives, we might think of those who have done great things, like Dr. Donna Adams-Pickett, Michelle Obama, or Barack Obama—the kind of people who give graduation speeches! These are extraordinary achievements. These people are heroes. However, these accomplishments are so rare that it’s hard to imagine ever achieving such feats.",
+    "prompt": "What tendency in imagining meaningful lives does the narrator describe?",
+    "promptZh": "作者描述人们想象有意义人生时的什么倾向？",
+    "options": [
+      "We never associate meaning with public achievements.",
+      "We know that only commencement speakers can have meaning.",
+      "We have measured every hero's private sense of meaning.",
+      "We may think first of people known for doing great things."
+    ],
+    "optionsZh": [
+      "我们从不把意义与公众成就联系。",
+      "我们知道只有毕业演讲者能有意义。",
+      "我们已测量每位英雄私下的意义感。",
+      "我们可能先想到因伟大事迹而知名的人。"
+    ],
+    "answer": 3,
+    "type": "主旨",
+    "support": "explicit",
+    "analyses": [
+      "A might think of those who have done great things 与从不联系相反。",
+      "B might think 是常见印象，不是 only 的资格规定。",
+      "C 本句没有逐人测量。",
+      "D 保留 might 和列举杰出人物的心理联想，不把印象变成意义的必要条件。"
+    ],
+    "vocabulary": [
+      {
+        "word": "might",
+        "meaning": "可能（此处表示联想的可能性）",
+        "context": "we might think 不宣称所有人必定这样想。",
+        "example": "Readers might think first of a famous explorer.",
+        "collocations": [
+          "might think of",
+          "might associate something with"
+        ]
+      }
+    ],
+    "translation": "想到过着有意义生活的人，我们也许会想到做过大事的 Donna Adams-Pickett 医生、Michelle Obama 或 Barack Obama——就是那些在毕业典礼上演讲的人！这些都是非凡的成就，这些人都是英雄。然而，这样的成就非常罕见，让人难以想象自己也能完成这样的壮举。",
+    "evidenceTargetIds": [
+      "c03-s02-p029-04065-s001"
+    ],
+    "evidence": [
+      {
+        "quote": "When we think of people who live meaningful lives, we might think of those who have done great things, like Dr. Donna Adams-Pickett, Michelle Obama, or Barack Obama—the kind of people who give graduation speeches!",
+        "sentenceIds": [
+          "c03-s02-p029-04065-s001"
+        ],
+        "sources": [
+          {
+            "pdfPage": 29,
+            "block": 2,
+            "bbox": [
+              76.99,
+              406.5,
+              535.01,
+              577.02
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "1b3533e38fe47107385524936a0c37013e0ac44f304cde72c46181826427b9c4"
+  },
+  {
+    "id": "qe-c03-0021",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-008",
+    "parentQuestionId": "q-c03-017",
+    "chapterId": "c03",
+    "sectionId": "c03-s02",
+    "paragraphId": "c03-s02-p029-04065",
+    "readingUnitId": "c03-s02-p029-04065-r001-004",
+    "sentenceIds": [
+      "c03-s02-p029-04065-s001",
+      "c03-s02-p029-04065-s002",
+      "c03-s02-p029-04065-s003",
+      "c03-s02-p029-04065-s004"
+    ],
+    "passage": "When we think of people who live meaningful lives, we might think of those who have done great things, like Dr. Donna Adams-Pickett, Michelle Obama, or Barack Obama—the kind of people who give graduation speeches! These are extraordinary achievements. These people are heroes. However, these accomplishments are so rare that it’s hard to imagine ever achieving such feats.",
+    "prompt": "How does the narrator characterise the achievements just mentioned?",
+    "promptZh": "作者怎样评价刚提到的成就？",
+    "options": [
+      "As ordinary activities performed identically by everyone.",
+      "As achievements that have not actually been described.",
+      "As extraordinary achievements.",
+      "As proof that no less famous life can matter."
+    ],
+    "optionsZh": [
+      "人人以同样方式完成的普通活动。",
+      "尚未实际描述过的成就。",
+      "非凡的成就。",
+      "证明不那么著名的人生毫无价值。"
+    ],
+    "answer": 2,
+    "type": "细节",
+    "support": "explicit",
+    "analyses": [
+      "A extraordinary 与普通一致活动相反。",
+      "B These 指向前面已经列举的人物伟业。",
+      "C 本句用 extraordinary 直接作正面评价。",
+      "D 评价卓越不等于排除普通人生意义，后面还讨论这种误解。"
+    ],
+    "vocabulary": [
+      {
+        "word": "extraordinary",
+        "meaning": "非凡的；超出普通水平的",
+        "context": "修饰成就的杰出程度，不是说有意义人生必须达到这种门槛。",
+        "example": "The team showed extraordinary patience during the project.",
+        "collocations": [
+          "extraordinary achievements",
+          "an extraordinary effort"
+        ]
+      }
+    ],
+    "translation": "想到过着有意义生活的人，我们也许会想到做过大事的 Donna Adams-Pickett 医生、Michelle Obama 或 Barack Obama——就是那些在毕业典礼上演讲的人！这些都是非凡的成就，这些人都是英雄。然而，这样的成就非常罕见，让人难以想象自己也能完成这样的壮举。",
+    "evidenceTargetIds": [
+      "c03-s02-p029-04065-s002"
+    ],
+    "evidence": [
+      {
+        "quote": "When we think of people who live meaningful lives, we might think of those who have done great things, like Dr. Donna Adams-Pickett, Michelle Obama, or Barack Obama—the kind of people who give graduation speeches! These are extraordinary achievements.",
+        "sentenceIds": [
+          "c03-s02-p029-04065-s001",
+          "c03-s02-p029-04065-s002"
+        ],
+        "sources": [
+          {
+            "pdfPage": 29,
+            "block": 2,
+            "bbox": [
+              76.99,
+              406.5,
+              535.01,
+              577.02
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "fe934e81db30ab5ea9ef827c210f46e954c2fb8b54c627a6d57996d1e3178795"
+  },
+  {
+    "id": "qe-c03-0022",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-008",
+    "parentQuestionId": "q-c03-017",
+    "chapterId": "c03",
+    "sectionId": "c03-s02",
+    "paragraphId": "c03-s02-p029-04065",
+    "readingUnitId": "c03-s02-p029-04065-r001-004",
+    "sentenceIds": [
+      "c03-s02-p029-04065-s001",
+      "c03-s02-p029-04065-s002",
+      "c03-s02-p029-04065-s003",
+      "c03-s02-p029-04065-s004"
+    ],
+    "passage": "When we think of people who live meaningful lives, we might think of those who have done great things, like Dr. Donna Adams-Pickett, Michelle Obama, or Barack Obama—the kind of people who give graduation speeches! These are extraordinary achievements. These people are heroes. However, these accomplishments are so rare that it’s hard to imagine ever achieving such feats.",
+    "prompt": "Who are described as 'heroes' at this point in the discussion?",
+    "promptZh": "此处被称为 heroes 的是谁？",
+    "options": [
+      "The people just cited for their great achievements.",
+      "All respondents who answered yes to a Gallup question.",
+      "Only corporate lawyers in Graeber's examples.",
+      "Every person who speaks at any graduation ceremony."
+    ],
+    "optionsZh": [
+      "刚因伟大成就而举出的人物。",
+      "所有对盖洛普问题回答是的受访者。",
+      "只指格雷伯例子中的公司律师。",
+      "在任何毕业典礼讲话的每个人。"
+    ],
+    "answer": 0,
+    "type": "逻辑关系",
+    "support": "explicit",
+    "analyses": [
+      "A These people 回指上一段当前所举的杰出人物。",
+      "B 此处尚未在这个段落引入后面的问卷受访者。",
+      "C 职业清单是另一段，不能移作近处指代。",
+      "D 例举人物与演讲者形象不构成所有演讲者都是英雄的普遍命题。"
+    ],
+    "vocabulary": [
+      {
+        "word": "heroes",
+        "meaning": "英雄；受推崇的杰出人物",
+        "context": "作者对所举人物的评价，不是调查中以固定门槛划分的统计变量。",
+        "example": "The article honours local heroes who helped their neighbours.",
+        "collocations": [
+          "regard people as heroes",
+          "everyday heroes"
+        ]
+      }
+    ],
+    "translation": "想到过着有意义生活的人，我们也许会想到做过大事的 Donna Adams-Pickett 医生、Michelle Obama 或 Barack Obama——就是那些在毕业典礼上演讲的人！这些都是非凡的成就，这些人都是英雄。然而，这样的成就非常罕见，让人难以想象自己也能完成这样的壮举。",
+    "evidenceTargetIds": [
+      "c03-s02-p029-04065-s003"
+    ],
+    "evidence": [
+      {
+        "quote": "When we think of people who live meaningful lives, we might think of those who have done great things, like Dr. Donna Adams-Pickett, Michelle Obama, or Barack Obama—the kind of people who give graduation speeches! These are extraordinary achievements. These people are heroes.",
+        "sentenceIds": [
+          "c03-s02-p029-04065-s001",
+          "c03-s02-p029-04065-s002",
+          "c03-s02-p029-04065-s003"
+        ],
+        "sources": [
+          {
+            "pdfPage": 29,
+            "block": 2,
+            "bbox": [
+              76.99,
+              406.5,
+              535.01,
+              577.02
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "5137f4d87145c0d863cb391bb02951f087c108e9deeb5ec381f09c4fbf003ce0"
+  },
+  {
+    "id": "qe-c03-0023",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-008",
+    "parentQuestionId": "q-c03-018",
+    "chapterId": "c03",
+    "sectionId": "c03-s02",
+    "paragraphId": "c03-s02-p029-04065",
+    "readingUnitId": "c03-s02-p029-04065-r005-006",
+    "sentenceIds": [
+      "c03-s02-p029-04065-s005",
+      "c03-s02-p029-04065-s006"
+    ],
+    "passage": "Like the happiness trap, there is also a meaning trap. The first element of the meaning trap is that the type of accomplishment associated with a meaningful life is so grand that aiming for it will set us up for a failure.",
+    "prompt": "What comparison is introduced by 'Like the happiness trap'?",
+    "promptZh": "Like the happiness trap 引入什么比较？",
+    "options": [
+      "It proves the two traps have identical mechanisms in every detail.",
+      "It says the pursuit of meaning is always useless.",
+      "It states that happiness has already been excluded from the book.",
+      "It introduces a trap associated with meaning by analogy with the earlier happiness trap."
+    ],
+    "optionsZh": [
+      "证明两个陷阱的所有机制细节都相同。",
+      "说追求意义永远没有用。",
+      "说幸福已从本书中排除。",
+      "以此前幸福陷阱作类比，引入与意义有关的陷阱。"
+    ],
+    "answer": 3,
+    "type": "逻辑关系",
+    "support": "explicit",
+    "analyses": [
+      "A Like 表示类比，不能扩大为每个细节完全相同。",
+      "B 有追求陷阱不等于意义永远无用。",
+      "C 本句仍明确联系 happiness trap，并未排除。",
+      "D also a meaning trap 是把前面概念扩展到意义追求的过渡。"
+    ],
+    "vocabulary": [
+      {
+        "word": "trap",
+        "meaning": "陷阱；困住人的思维或行为模式",
+        "context": "meaning trap 是目标追求的比喻，不是实体捕捉装置。",
+        "example": "The essay warns of the trap of comparing every choice with an ideal option.",
+        "collocations": [
+          "a meaning trap",
+          "fall into a trap"
+        ]
+      }
+    ],
+    "translation": "就像幸福陷阱一样，也存在意义陷阱。意义陷阱的第一个因素是：人们把有意义的生活与过于宏大的成就联系起来，以至于追求那种成就会让自己陷入失败。",
+    "evidenceTargetIds": [
+      "c03-s02-p029-04065-s005"
+    ],
+    "evidence": [
+      {
+        "quote": "Like the happiness trap, there is also a meaning trap.",
+        "sentenceIds": [
+          "c03-s02-p029-04065-s005"
+        ],
+        "sources": [
+          {
+            "pdfPage": 29,
+            "block": 2,
+            "bbox": [
+              76.99,
+              406.5,
+              535.01,
+              577.02
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "65dc92085251f723d653e4db91c9a67eaf86b61126217c18b6be12a9bc4424ae"
+  },
+  {
+    "id": "qe-c03-0024",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-008",
+    "parentQuestionId": "q-c03-019",
+    "chapterId": "c03",
+    "sectionId": "c03-s03",
+    "paragraphId": "c03-s03-p029-06330",
+    "readingUnitId": "c03-s03-p029-06330-r001-003",
+    "sentenceIds": [
+      "c03-s03-p029-06330-s001",
+      "c03-s03-p029-06330-s002",
+      "c03-s03-p029-06330-s003"
+    ],
+    "passage": "The second element of the meaning trap is that people tend to misunderstand what is required. These images of heroes with supersized ambitions do not necessarily fit with the research findings. Although many people think that the number of people who lead a meaningful life is small, survey data show that, in fact, most people say they do have a meaningful life.",
+    "prompt": "What is identified as the second element of the meaning trap?",
+    "promptZh": "意义陷阱的第二个要素被说成是什么？",
+    "options": [
+      "A total absence of research on meaning.",
+      "A legal requirement to give a commencement speech.",
+      "A tendency to misunderstand what a meaningful life requires.",
+      "The fact that all people have exactly the same ambitions."
+    ],
+    "optionsZh": [
+      "完全没有意义研究。",
+      "必须发表毕业演讲的法律规定。",
+      "误解有意义人生需要什么的倾向。",
+      "所有人抱负完全相同的事实。"
+    ],
+    "answer": 2,
+    "type": "细节",
+    "support": "explicit",
+    "analyses": [
+      "A 后文正引用 research findings，不是完全没有研究。",
+      "B 英雄和演讲是印象，没有法律条件。",
+      "C tend to misunderstand what is required 直接给出第二要素。",
+      "D 不是测得抱负人人相同；tend 仍保留倾向性。不能与第一要素的大目标导致挫败混作一个说法。"
+    ],
+    "vocabulary": [
+      {
+        "word": "required",
+        "meaning": "被需要；被要求具备的",
+        "context": "what is required 指意义人生被认为需要的条件，不是法律规定。",
+        "example": "The guide explains what is required for the application.",
+        "collocations": [
+          "what is required",
+          "be required for a task"
+        ]
+      }
+    ],
+    "translation": "意义陷阱的第二个因素是，人们往往误解了所需条件。那些抱负超大的英雄形象，并不一定符合研究结果。虽然许多人认为过着有意义生活的人很少，但调查数据显示，实际上，多数人说自己确实有意义的生活。",
+    "evidenceTargetIds": [
+      "c03-s03-p029-06330-s001"
+    ],
+    "evidence": [
+      {
+        "quote": "The second element of the meaning trap is that people tend to misunderstand what is required.",
+        "sentenceIds": [
+          "c03-s03-p029-06330-s001"
+        ],
+        "sources": [
+          {
+            "pdfPage": 29,
+            "block": 4,
+            "bbox": [
+              76.99,
+              633,
+              535,
+              706.02
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "cd014afa797098331ca517e6e2ced885f8af2bd99e5fe57968010b5f4dad62ab"
+  },
+  {
+    "id": "qe-c03-0025",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-008",
+    "parentQuestionId": "q-c03-019",
+    "chapterId": "c03",
+    "sectionId": "c03-s03",
+    "paragraphId": "c03-s03-p029-06330",
+    "readingUnitId": "c03-s03-p029-06330-r001-003",
+    "sentenceIds": [
+      "c03-s03-p029-06330-s001",
+      "c03-s03-p029-06330-s002",
+      "c03-s03-p029-06330-s003"
+    ],
+    "passage": "The second element of the meaning trap is that people tend to misunderstand what is required. These images of heroes with supersized ambitions do not necessarily fit with the research findings. Although many people think that the number of people who lead a meaningful life is small, survey data show that, in fact, most people say they do have a meaningful life.",
+    "prompt": "What limitation is placed on images of heroes with supersized ambitions?",
+    "promptZh": "对于抱负巨大的英雄形象，原文作出什么限定？",
+    "options": [
+      "They always match all research findings exactly.",
+      "They do not necessarily fit the research findings.",
+      "They prove that every person needs a bigger ambition.",
+      "They are said to be impossible to imagine."
+    ],
+    "optionsZh": [
+      "它们总与所有研究发现完全一致。",
+      "它们未必符合研究发现。",
+      "它们证明每个人都需要更大抱负。",
+      "它们被说成无法想象。"
+    ],
+    "answer": 1,
+    "type": "逻辑关系",
+    "support": "explicit",
+    "analyses": [
+      "A do not necessarily 不能倒转为 always exactly。",
+      "B 保留了未必一致的限定，不把它扩大成完全毫无关系。",
+      "C 句子在质疑这种形象与研究的符合程度，并未要求每个人加大抱负。",
+      "D 能讨论这些形象不等于说无法想象。"
+    ],
+    "vocabulary": [
+      {
+        "word": "supersized",
+        "meaning": "超大的；规模特别大的",
+        "context": "修饰 ambitions，强调英雄形象里的庞大抱负，不表示调查中每个人的抱负。",
+        "example": "The plan began with supersized ambitions but a very small budget.",
+        "collocations": [
+          "supersized ambitions",
+          "a supersized goal"
+        ]
+      }
+    ],
+    "translation": "意义陷阱的第二个因素是，人们往往误解了所需条件。那些抱负超大的英雄形象，并不一定符合研究结果。虽然许多人认为过着有意义生活的人很少，但调查数据显示，实际上，多数人说自己确实有意义的生活。",
+    "evidenceTargetIds": [
+      "c03-s03-p029-06330-s002"
+    ],
+    "evidence": [
+      {
+        "quote": "These images of heroes with supersized ambitions do not necessarily fit with the research findings.",
+        "sentenceIds": [
+          "c03-s03-p029-06330-s002"
+        ],
+        "sources": [
+          {
+            "pdfPage": 29,
+            "block": 4,
+            "bbox": [
+              76.99,
+              633,
+              535,
+              706.02
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "797eddd705bbc7c6a9cf6fc847fcfe84f346f2b938a1747b1673694c35031c30"
+  },
+  {
+    "id": "qe-c03-0026",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-008",
+    "parentQuestionId": "q-c03-021",
+    "chapterId": "c03",
+    "sectionId": "c03-s03",
+    "paragraphId": "c03-s03-p030-01530",
+    "readingUnitId": "c03-s03-p030-01530-r001-004",
+    "sentenceIds": [
+      "c03-s03-p030-01530-s001",
+      "c03-s03-p030-01530-s002",
+      "c03-s03-p030-01530-s003",
+      "c03-s03-p030-01530-s004"
+    ],
+    "passage": "How is it possible that we think the meaningful life is for overachieving heroes, yet most people say their lives are meaningful? One answer might lie in how the question about meaning in life was asked. The Gallup survey phrased it like this: “Do you feel your life has an important purpose or meaning?” with a yes-or-no answer format.",
+    "prompt": "What apparent puzzle does the question about overachieving heroes raise?",
+    "promptZh": "关于 overachieving heroes 的问句提出什么表面矛盾？",
+    "options": [
+      "Meaning is imagined as reserved for exceptional heroes, yet most people report having it.",
+      "Everyone reports no meaning, although every person is publicly famous.",
+      "Heroes are thought to reject purpose, while surveys measure only their income.",
+      "All surveys ask about happiness, but none asks about meaning."
+    ],
+    "optionsZh": [
+      "意义似乎属于卓越英雄，但多数人自报有意义。",
+      "所有人报告没意义，尽管人人有公众名气。",
+      "人们认为英雄拒绝目的，而调查只测收入。",
+      "所有调查问幸福，没有调查问意义。"
+    ],
+    "answer": 0,
+    "type": "主旨",
+    "support": "explicit",
+    "analyses": [
+      "A we think...for overachieving heroes 与 yet most people say...meaningful 是问句两端。",
+      "B 方向相反，也没有人人有名的说法。",
+      "C 调查对象在此是意义感，不是仅收入。",
+      "D 下一句还会给出意义问法，不能说从无问题。问句对照印象与自报，不证明谁的生活真实价值高低。"
+    ],
+    "vocabulary": [
+      {
+        "word": "overachieving",
+        "meaning": "成就格外突出的；超额完成目标的",
+        "context": "修饰英雄形象，和 most people 自报有意义形成对照。",
+        "example": "The story contrasts an overachieving student with a friend who prefers a quieter routine.",
+        "collocations": [
+          "overachieving heroes",
+          "an overachieving student"
+        ]
+      }
+    ],
+    "translation": "我们以为有意义的生活属于成就非凡的英雄，为什么大多数人却说自己的人生有意义？一个答案也许在于有关生命意义的问题是怎样问的。Gallup 的问题这样表述：“你是否觉得自己的人生有重要的目的或意义？”回答形式为“是”或“否”。",
+    "evidenceTargetIds": [
+      "c03-s03-p030-01530-s001"
+    ],
+    "evidence": [
+      {
+        "quote": "How is it possible that we think the meaningful life is for overachieving heroes, yet most people say their lives are meaningful?",
+        "sentenceIds": [
+          "c03-s03-p030-01530-s001"
+        ],
+        "sources": [
+          {
+            "pdfPage": 30,
+            "block": 1,
+            "bbox": [
+              76.99,
+              153,
+              535.01,
+              323.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "11a401755fc24ae4c0fb1845fcc9583b56196d459d414f382d45209945ec5632"
+  },
+  {
+    "id": "qe-c03-0027",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-008",
+    "parentQuestionId": "q-c03-021",
+    "chapterId": "c03",
+    "sectionId": "c03-s03",
+    "paragraphId": "c03-s03-p030-01530",
+    "readingUnitId": "c03-s03-p030-01530-r001-004",
+    "sentenceIds": [
+      "c03-s03-p030-01530-s001",
+      "c03-s03-p030-01530-s002",
+      "c03-s03-p030-01530-s003",
+      "c03-s03-p030-01530-s004"
+    ],
+    "passage": "How is it possible that we think the meaningful life is for overachieving heroes, yet most people say their lives are meaningful? One answer might lie in how the question about meaning in life was asked. The Gallup survey phrased it like this: “Do you feel your life has an important purpose or meaning?” with a yes-or-no answer format.",
+    "prompt": "What possible explanation does the author offer for the survey puzzle?",
+    "promptZh": "作者为调查中的表面矛盾提出什么可能解释？",
+    "options": [
+      "Only heroes were allowed to answer the survey.",
+      "Every respondent was paid to answer yes.",
+      "The meaning question was never actually asked.",
+      "The way the question about meaning was worded may be part of the answer."
+    ],
+    "optionsZh": [
+      "只有英雄被允许答问卷。",
+      "每位受访者都因回答是而获酬。",
+      "实际上从未询问意义问题。",
+      "有关意义的问题怎样措辞，可能是部分解释。"
+    ],
+    "answer": 3,
+    "type": "观点归属",
+    "support": "explicit",
+    "analyses": [
+      "A 没有英雄入样条件。",
+      "B 没有付费换取肯定回答的设置。",
+      "C how...was asked 假定问题被问过，不是否定存在。",
+      "D One answer might lie in 保留一个可能解释，而非确认唯一原因。不能把可能的问法影响当作所有自报皆假的证明。"
+    ],
+    "vocabulary": [
+      {
+        "word": "might lie in",
+        "meaning": "可能在于；可能由……解释",
+        "context": "限定答案的可能来源，one answer 也不排除其他因素。",
+        "example": "The reason for the difference might lie in the timing of the survey.",
+        "collocations": [
+          "an answer might lie in",
+          "the explanation lies in"
+        ]
+      }
+    ],
+    "translation": "我们以为有意义的生活属于成就非凡的英雄，为什么大多数人却说自己的人生有意义？一个答案也许在于有关生命意义的问题是怎样问的。Gallup 的问题这样表述：“你是否觉得自己的人生有重要的目的或意义？”回答形式为“是”或“否”。",
+    "evidenceTargetIds": [
+      "c03-s03-p030-01530-s002"
+    ],
+    "evidence": [
+      {
+        "quote": "One answer might lie in how the question about meaning in life was asked.",
+        "sentenceIds": [
+          "c03-s03-p030-01530-s002"
+        ],
+        "sources": [
+          {
+            "pdfPage": 30,
+            "block": 1,
+            "bbox": [
+              76.99,
+              153,
+              535.01,
+              323.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "2bf45d4f801569957ac0c41732b256a69eba4cb5e5aad1a54f79e72b2b80ea3c"
+  },
+  {
+    "id": "qe-c03-0028",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-008",
+    "parentQuestionId": "q-c03-022",
+    "chapterId": "c03",
+    "sectionId": "c03-s03",
+    "paragraphId": "c03-s03-p030-01530",
+    "readingUnitId": "c03-s03-p030-01530-r005-007",
+    "sentenceIds": [
+      "c03-s03-p030-01530-s005",
+      "c03-s03-p030-01530-s006",
+      "c03-s03-p030-01530-s007"
+    ],
+    "passage": "To say, “No, my life has no purpose nor meaning,” is almost to say one’s life is pointless. Those who did not feel like their lives were utterly pointless were likely to say yes to this question. This means that even if someone did not feel their life was particularly meaningful, they might have said yes.",
+    "prompt": "What does the author say is almost implied by answering that one's life has no purpose or meaning?",
+    "promptZh": "作者说，回答人生没有目的和意义，几乎相当于表达什么？",
+    "options": [
+      "That one's career is not the highest-paid occupation.",
+      "That all other people's lives are pointless.",
+      "That one's own life is pointless.",
+      "That one has never experienced an unpleasant emotion."
+    ],
+    "optionsZh": [
+      "自己的职业收入不是最高。",
+      "所有其他人的人生都无意义。",
+      "自己的人生没有价值或意义。",
+      "自己从未有过不愉快情绪。"
+    ],
+    "answer": 2,
+    "type": "同义改写",
+    "support": "explicit",
+    "analyses": [
+      "A 本句不是收入排序。",
+      "B one’s life 指自己，不是所有其他人。",
+      "C almost to say one’s life is pointless 给出作者认为接近的语义后果。",
+      "D 目的与意义的否定不是否认负面情绪。almost 仍是近似语义判断，不能抹成两个回答逐字完全相同。"
+    ],
+    "vocabulary": [
+      {
+        "word": "pointless",
+        "meaning": "无目的的；无意义的",
+        "context": "用于解释强烈否定目的与意义的回答听起来意味着什么，不等于作者已判断受访者人生价值。",
+        "example": "The character worried that his routine had become pointless.",
+        "collocations": [
+          "feel pointless",
+          "a pointless routine"
+        ]
+      }
+    ],
+    "translation": "说“不，我的人生既无目的也无意义”，几乎等于说自己的人生毫无价值。那些不觉得自己的人生全然无意义的人，很可能会回答“是”。这意味着，即便某人并不觉得自己的人生特别有意义，也可能回答“是”。",
+    "evidenceTargetIds": [
+      "c03-s03-p030-01530-s005"
+    ],
+    "evidence": [
+      {
+        "quote": "To say, “No, my life has no purpose nor meaning,” is almost to say one’s life is pointless.",
+        "sentenceIds": [
+          "c03-s03-p030-01530-s005"
+        ],
+        "sources": [
+          {
+            "pdfPage": 30,
+            "block": 1,
+            "bbox": [
+              76.99,
+              153,
+              535.01,
+              323.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "6cd5d14e0d10eaec0e12cc6ad9fc2702728e5eda3b46dc320fecc0f03aad5a79"
+  },
+  {
+    "id": "qe-c03-0029",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-008",
+    "parentQuestionId": "q-c03-025",
+    "chapterId": "c03",
+    "sectionId": "c03-s04",
+    "paragraphId": "c03-s04-p030-05160",
+    "readingUnitId": "c03-s04-p030-05160-r001-004",
+    "sentenceIds": [
+      "c03-s04-p030-05160-s001",
+      "c03-s04-p030-05160-s002",
+      "c03-s04-p030-05160-s003",
+      "c03-s04-p030-05160-s004"
+    ],
+    "passage": "Still, the fact that 28.5 percent of Americans report having a real purpose in life and another 54.9 percent report having a more or less real purpose is impressive. Are there so many heroic individuals making a difference in the U.S.? Or is this some kind of overly positive illusion? It turns out that this is not simply a self-reporting bias.",
+    "prompt": "Which distinction is preserved in the percentages about reported purpose?",
+    "promptZh": "关于目的感的两个百分比，哪项区分准确？",
+    "options": [
+      "28.5 percent report a real purpose, while another 54.9 percent report a more or less real purpose.",
+      "54.9 percent report no purpose, while 28.5 percent refuse to answer.",
+      "Both figures count people independently confirmed as heroic achievers.",
+      "28.5 percent and 54.9 percent both describe exactly the same answer category."
+    ],
+    "optionsZh": [
+      "28.5% 报告真实目的，另有 54.9% 报告多少有些真实目的。",
+      "54.9% 报告没目的，28.5% 拒答。",
+      "两数字都统计被独立确认为英雄成就者的人。",
+      "28.5% 与 54.9% 都是完全同一回答类别。"
+    ],
+    "answer": 0,
+    "type": "细节",
+    "support": "explicit",
+    "analyses": [
+      "A report...a real purpose 与 another...more or less real purpose 保留两个类别和自报性质。",
+      "B 把有目的改成无目的及拒答。",
+      "C report 不等于独立验证英雄身份。",
+      "D another 标示另一类别，限定程度也不相同。不能把书中历史调查当成今天实时人口比例。"
+    ],
+    "vocabulary": [
+      {
+        "word": "more or less",
+        "meaning": "或多或少；大致",
+        "context": "对 real purpose 加上程度限定，不能与完全没有或完全一样混为一类。",
+        "example": "The two explanations are more or less consistent.",
+        "collocations": [
+          "more or less real",
+          "more or less the same"
+        ]
+      }
+    ],
+    "translation": "尽管如此，28.5% 的美国人报告人生有真正目的，另有 54.9% 报告多少有些真正目的，这仍令人印象深刻。美国真有这么多发挥影响的英雄人物吗？还是某种过度正面的幻觉？结果表明，这并不只是自报偏差。",
+    "evidenceTargetIds": [
+      "c03-s04-p030-05160-s001"
+    ],
+    "evidence": [
+      {
+        "quote": "Still, the fact that 28.5 percent of Americans report having a real purpose in life and another 54.9 percent report having a more or less real purpose is impressive.",
+        "sentenceIds": [
+          "c03-s04-p030-05160-s001"
+        ],
+        "sources": [
+          {
+            "pdfPage": 30,
+            "block": 4,
+            "bbox": [
+              76.99,
+              516,
+              535.01,
+              706.02
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "ab631c8ae395868b1974c52b3da5b20e380b7bfb2d07d2b57ae1f063ab4d4367"
+  },
+  {
+    "id": "qe-c03-0030",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-008",
+    "parentQuestionId": "q-c03-025",
+    "chapterId": "c03",
+    "sectionId": "c03-s04",
+    "paragraphId": "c03-s04-p030-05160",
+    "readingUnitId": "c03-s04-p030-05160-r001-004",
+    "sentenceIds": [
+      "c03-s04-p030-05160-s001",
+      "c03-s04-p030-05160-s002",
+      "c03-s04-p030-05160-s003",
+      "c03-s04-p030-05160-s004"
+    ],
+    "passage": "Still, the fact that 28.5 percent of Americans report having a real purpose in life and another 54.9 percent report having a more or less real purpose is impressive. Are there so many heroic individuals making a difference in the U.S.? Or is this some kind of overly positive illusion? It turns out that this is not simply a self-reporting bias.",
+    "prompt": "What does 'not simply a self-reporting bias' rule out?",
+    "promptZh": "not simply a self-reporting bias 排除了哪种解释方式？",
+    "options": [
+      "Any possibility that self-reports can contain error.",
+      "Explaining the finding solely as a self-reporting bias.",
+      "The use of reports from friends or family members.",
+      "The possibility that ordinary people can report meaning."
+    ],
+    "optionsZh": [
+      "自报有任何误差的可能。",
+      "仅用自报偏差解释这个发现。",
+      "使用亲友评价。",
+      "普通人可以报告意义感的可能。"
+    ],
+    "answer": 1,
+    "type": "逻辑关系",
+    "support": "explicit",
+    "analyses": [
+      "A not simply 不等于完全零偏差。",
+      "B simply 限定仅仅如此，作者拒绝把结果全部归为自报偏差。",
+      "C 本句没有排除亲友报告，后文反而引入。",
+      "D 作者讨论普通人自报，不是否定其可能。不能据此声称每份自评都逐字客观无误。"
+    ],
+    "vocabulary": [
+      {
+        "word": "self-reporting bias",
+        "meaning": "自报偏差；由个人自我报告带来的偏差",
+        "context": "not simply 限定解释力度，并未宣布自报完全不存在偏差。",
+        "example": "The researchers used a second source of information to examine possible self-reporting bias.",
+        "collocations": [
+          "self-reporting bias",
+          "a possible reporting bias"
+        ]
+      }
+    ],
+    "translation": "尽管如此，28.5% 的美国人报告人生有真正目的，另有 54.9% 报告多少有些真正目的，这仍令人印象深刻。美国真有这么多发挥影响的英雄人物吗？还是某种过度正面的幻觉？结果表明，这并不只是自报偏差。",
+    "evidenceTargetIds": [
+      "c03-s04-p030-05160-s004"
+    ],
+    "evidence": [
+      {
+        "quote": "It turns out that this is not simply a self-reporting bias.",
+        "sentenceIds": [
+          "c03-s04-p030-05160-s004"
+        ],
+        "sources": [
+          {
+            "pdfPage": 30,
+            "block": 4,
+            "bbox": [
+              76.99,
+              516,
+              535.01,
+              706.02
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "3af84b549de07529f063b3698a9973e3f4fbbc9baed98f43e99d115dbde9b8ef"
+  },
+  {
+    "id": "qe-c03-0031",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-008",
+    "parentQuestionId": "q-c03-026",
+    "chapterId": "c03",
+    "sectionId": "c03-s04",
+    "paragraphId": "c03-s04-p030-05160",
+    "readingUnitId": "c03-s04-p030-05160-r005-008",
+    "sentenceIds": [
+      "c03-s04-p030-05160-s005",
+      "c03-s04-p030-05160-s006",
+      "c03-s04-p030-05160-s007",
+      "c03-s04-p030-05160-s008"
+    ],
+    "passage": "Psychologist Michael Steger and colleagues asked participants to report how meaningful they feel their lives are. In addition, he asked their friends and family members to report the participant’s meaning in life. If the high percentage of self-reported meaning in life is only an illusion, informant reports would not correlate with self-reports. What he found was different: self-reported meaning in life is correlated with informant-reported meaning in life.",
+    "prompt": "What did Steger and colleagues first ask participants to report?",
+    "promptZh": "斯蒂格及同事首先请参与者报告什么？",
+    "options": [
+      "Their friends' annual salaries.",
+      "The number of graduation speeches they had given.",
+      "How meaningful they felt their own lives were.",
+      "A clinical diagnosis of every family member."
+    ],
+    "optionsZh": [
+      "朋友的年薪。",
+      "自己发表毕业演讲的次数。",
+      "自己觉得人生多有意义。",
+      "对每位家人的临床诊断。"
+    ],
+    "answer": 2,
+    "type": "细节",
+    "support": "explicit",
+    "analyses": [
+      "A 本句没有薪资问题。",
+      "B 演讲英雄是前面印象讨论，不是这里的问卷项目。",
+      "C report how meaningful they feel their lives are 是参与者对自身意义感的报告。",
+      "D 亲友后来提供的是知情评价，不是参与者诊断家人。注意 self-report 与 informant report 的对象角色。"
+    ],
+    "vocabulary": [
+      {
+        "word": "participants",
+        "meaning": "研究参与者",
+        "context": "先对自己人生意义感作报告的人，区别于随后被询问的朋友和家人。",
+        "example": "Participants completed the questionnaire before the interview.",
+        "collocations": [
+          "ask participants to report",
+          "study participants"
+        ]
+      }
+    ],
+    "translation": "心理学家 Michael Steger 与同事请参与者报告自己觉得人生多有意义。此外，他还请参与者的朋友和家人评价这个人的生命意义。如果自报有意义的高比例只是一种幻觉，知情人的报告便不会与自报相关。他发现的却不同：自报的生命意义与知情人报告的生命意义存在相关。",
+    "evidenceTargetIds": [
+      "c03-s04-p030-05160-s005"
+    ],
+    "evidence": [
+      {
+        "quote": "Psychologist Michael Steger and colleagues asked participants to report how meaningful they feel their lives are.",
+        "sentenceIds": [
+          "c03-s04-p030-05160-s005"
+        ],
+        "sources": [
+          {
+            "pdfPage": 30,
+            "block": 4,
+            "bbox": [
+              76.99,
+              516,
+              535.01,
+              706.02
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "18b7eb105ebb84fe271ff1d66f174c48ea6d45fd0b8fd76723bc0d30c3fc6946"
   }
 ]
