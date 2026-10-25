@@ -1,0 +1,968 @@
+{
+  "schemaVersion": 1,
+  "id": "evidence-014",
+  "status": "authored",
+  "evidenceRule": "frozen-target-sentence",
+  "questions": [
+    {
+      "order": 1,
+      "prompt": "Where did Rachel encounter the unusual situation that weekend?",
+      "promptZh": "那个周末，瑞秋在哪里遇到不寻常情况？",
+      "options": [
+        "At Grace's professional wrestling event.",
+        "In a classroom at another university.",
+        "Outside a national park with her family.",
+        "In a lounge of her apartment building."
+      ],
+      "optionsZh": [
+        "格雷斯观看的职业摔跤现场。",
+        "另一所大学的教室。",
+        "和家人在国家公园外。",
+        "自己公寓楼的休息室。"
+      ],
+      "answer": 3,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A 摔跤是 Grace 的经历，不是 Rachel 的场景。",
+        "B 原句没有另一学校教室。",
+        "C 国家公园属于前面另一故事，不能混入。",
+        "D went to a lounge of her apartment building 明示地点。same weekend 将两人经历放在同一周末，不表示同一场所。"
+      ],
+      "vocabulary": [
+        {
+          "word": "encountered",
+          "meaning": "偶然遇到；碰见",
+          "context": "encountered something unusual 强调遇到不寻常情形，没有说事先约定。",
+          "example": "She encountered an unfamiliar argument while reading the chapter.",
+          "collocations": [
+            "encounter something unusual",
+            "encounter a situation"
+          ]
+        }
+      ]
+    },
+    {
+      "order": 2,
+      "prompt": "How is the temperature in the lounge described?",
+      "promptZh": "休息室的温度被怎样描述？",
+      "options": [
+        "Extremely freezing, as measured by a thermometer.",
+        "Not warm.",
+        "Warmer than every room outside the building.",
+        "Very hot."
+      ],
+      "optionsZh": [
+        "经温度计测得极度严寒。",
+        "并不暖和。",
+        "比楼外每个房间都暖。",
+        "非常热。"
+      ],
+      "answer": 1,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A not warm 不等于极度严寒，也没有温度计数据。",
+        "B It was not warm in the lounge 是原句的程度。",
+        "C 没有跨房间温度排名。",
+        "D very hot 与 not warm 相反。不能仅凭这句就补造设备故障或他脱衣的确定原因。"
+      ],
+      "vocabulary": [
+        {
+          "word": "not warm",
+          "meaning": "并不暖和",
+          "context": "否定 warm 的描述不自动等于 freezing 或给出精确温度。",
+          "example": "The reading room was not warm, so she kept her coat on.",
+          "collocations": [
+            "not particularly warm",
+            "not warm in the lounge"
+          ]
+        }
+      ]
+    },
+    {
+      "order": 3,
+      "prompt": "Which reading preserves the qualification in the description of his behaviour?",
+      "promptZh": "哪项保留了对男子行为描述中的限定？",
+      "options": [
+        "He did not appear to be showing off; his actual motive was not established with certainty.",
+        "He was definitely a bodybuilder deliberately showing off.",
+        "The narrator proved that he could not feel self-conscious.",
+        "Not being well built proved that he was ill."
+      ],
+      "optionsZh": [
+        "看起来不像炫耀，但实际动机并未被确定证实。",
+        "他肯定是刻意炫耀的健美者。",
+        "作者证明他不可能感到不自在。",
+        "体格不健壮证明他生病。"
+      ],
+      "answer": 0,
+      "type": "逻辑关系",
+      "support": "explicit",
+      "analyses": [
+        "A didn’t seem 保留外在判断，不把动机当作已知事实。",
+        "B seem 与 definitely 不同，not particularly well built 也不能改成确定健美者。",
+        "C 未经说明不能推断或证明内在自我意识。",
+        "D 体格描述不构成疾病诊断。as 连接文中判断理由，不让它成为对人心理或健康的全知结论。"
+      ],
+      "vocabulary": [
+        {
+          "word": "showing off",
+          "meaning": "炫耀；刻意展示以引人注意",
+          "context": "这里以 didn’t seem to 限定，不是已确认他脱衣的动机。",
+          "example": "The character worried that his enthusiastic explanation sounded like showing off.",
+          "collocations": [
+            "show off one's body",
+            "seem to be showing off"
+          ]
+        }
+      ]
+    },
+    {
+      "order": 4,
+      "prompt": "What does the question comparing Grace and Rachel invite the reader to evaluate?",
+      "promptZh": "比较格雷斯和瑞秋的问句邀请读者评价什么？",
+      "options": [
+        "Which student earned more money that weekend.",
+        "Which student should replace the other in the focus group.",
+        "Which of the two experiences was psychologically richer.",
+        "Which event happened earlier in the year."
+      ],
+      "optionsZh": [
+        "谁那个周末赚的钱更多。",
+        "谁应该取代另一人加入小组。",
+        "两种经历哪一种心理上更丰富。",
+        "哪件事在当年更早发生。"
+      ],
+      "answer": 2,
+      "type": "作者意图",
+      "support": "explicit",
+      "analyses": [
+        "A richer 由 psychologically 限定，不是收入比较。",
+        "B 没有更换成员的要求。",
+        "C In your opinion...which experience is psychologically richer 明示邀请比较的维度。",
+        "D 两件事在同一周末，问句也不是排时间顺序。"
+      ],
+      "vocabulary": [
+        {
+          "word": "outing",
+          "meaning": "短途外出；一次外出活动",
+          "context": "Grace’s WWE outing 指看比赛的外出，不表示将个人隐私公开的另一词义。",
+          "example": "The group planned an outing to a small museum.",
+          "collocations": [
+            "a weekend outing",
+            "a WWE outing"
+          ]
+        }
+      ]
+    },
+    {
+      "order": 5,
+      "prompt": "Why can both events be described as novel in this comparison?",
+      "promptZh": "为什么在这个比较中，两件事都可被称为新奇？",
+      "options": [
+        "Both students had regularly repeated the same activity before.",
+        "Both students had attended professional wrestling together many times.",
+        "Grace had already often seen the same shirtless man.",
+        "Neither student had previously encountered her respective experience."
+      ],
+      "optionsZh": [
+        "两人此前都经常重复同一活动。",
+        "两人以前多次一起看职业摔跤。",
+        "格雷斯以前已常见同一没穿上衣的男子。",
+        "两人此前都没有遇到各自那种经历。"
+      ],
+      "answer": 3,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A 两处 had never 与经常重复相反。",
+        "B 她们不是共同多次去看摔跤。",
+        "C 将 Rachel 的场景移给 Grace，也删了 never。",
+        "D Grace 首次看比赛、Rachel 首次见公共区如此打字者，分别构成个人的新奇性。新奇本身尚不证明两者同样丰富。"
+      ],
+      "vocabulary": [
+        {
+          "word": "ordinary",
+          "meaning": "普通的；并非特别出众的",
+          "context": "ordinary guy 描述所见男子，并不等于经历本身对 Rachel 很寻常。",
+          "example": "An ordinary conversation led to an unexpected question.",
+          "collocations": [
+            "an ordinary guy",
+            "an ordinary experience"
+          ]
+        }
+      ]
+    },
+    {
+      "order": 6,
+      "prompt": "What does calling both experiences 'interesting' establish at this point?",
+      "promptZh": "此时把两种经历都称作 interesting 确立什么？",
+      "options": [
+        "Both are judged interesting, without yet establishing equal psychological richness.",
+        "Both have been shown to be equally emotionally complex.",
+        "Only Rachel's experience attracts any interest.",
+        "Neither can be interesting without a laboratory experiment."
+      ],
+      "optionsZh": [
+        "两者都有趣，但尚未确立心理丰富性相同。",
+        "两者已被证明情绪复杂程度相同。",
+        "只有瑞秋的经历有任何趣味。",
+        "没有实验室实验就都不能有趣。"
+      ],
+      "answer": 0,
+      "type": "逻辑关系",
+      "support": "explicit",
+      "analyses": [
+        "A Both are certainly interesting 只肯定共同有趣，没有说 equally rich。",
+        "B interesting 与相同情绪复杂性不是同一断言。",
+        "C Both 不能换成只有 Rachel。",
+        "D 日常评价不以实验室检验为必要条件。要区分已经明说的特质与仍待比较的特质。"
+      ],
+      "vocabulary": [
+        {
+          "word": "certainly",
+          "meaning": "当然；确实",
+          "context": "加强的是 interesting 的肯定，不把同一确定程度转移到尚未建立的等丰富结论。",
+          "example": "The two accounts are certainly interesting, though they support different conclusions.",
+          "collocations": [
+            "certainly interesting",
+            "certainly not identical"
+          ]
+        }
+      ]
+    },
+    {
+      "order": 7,
+      "prompt": "What role does 'But were they rich?' play before the contrasts that follow?",
+      "promptZh": "在后面的对照之前，But were they rich? 起什么作用？",
+      "options": [
+        "It cancels the possibility of comparing the experiences.",
+        "It opens a closer assessment of richness using the following contrasts.",
+        "It announces that both experiences were expensive.",
+        "It states that novelty alone has already settled the whole question."
+      ],
+      "optionsZh": [
+        "取消比较这些经历的可能。",
+        "开启借后续对照深入评价丰富性的分析。",
+        "宣布两件事都很昂贵。",
+        "断言仅凭新奇已解决全部问题。"
+      ],
+      "answer": 1,
+      "type": "作者意图",
+      "support": "explicit",
+      "analyses": [
+        "A 下文 First、Second 正在展开比较。",
+        "B 问句引出情绪强度复杂性和视角变化的两项分析，不是直接给两者划等号。",
+        "C rich 在此不是经济费用。",
+        "D 问句与后续分析说明不能只凭一个标签就结束判断。两场小组经历的对照也不是普遍因果实验。"
+      ],
+      "vocabulary": [
+        {
+          "word": "whereas",
+          "meaning": "而；相比之下",
+          "context": "下句用 whereas 把 Grace 多种强烈情绪与 Rachel 较轻反应相对照。",
+          "example": "One reader preferred the plot, whereas another focused on the language.",
+          "collocations": [
+            "whereas one person ... another ...",
+            "whereas Grace ... Rachel ..."
+          ]
+        }
+      ],
+      "evidenceQuote": "But were they rich? First, whereas Grace experienced a lot of different, intense emotions, such as excitement, joy, fear, anger, and surprise, Rachel experienced only mild surprise and apprehension. So Grace’s WWE experience was far more emotionally complex than Rachel’s. Second, Grace went into her experience with some preconceptions of what a WWE match would be like, but came back with a different perspective, learning, for instance, that WWE supports an anti-bullying campaign and that many kids admire wrestlers."
+    },
+    {
+      "order": 8,
+      "prompt": "What supports the conclusion that Grace's experience was more emotionally complex?",
+      "promptZh": "什么支持格雷斯经历在情绪上更复杂的结论？",
+      "options": [
+        "Rachel alone felt many different intense emotions.",
+        "The two students reported exactly the same intensity.",
+        "Grace felt only mild surprise and no other emotion.",
+        "Grace had many varied intense emotions, while Rachel had only mild surprise and apprehension."
+      ],
+      "optionsZh": [
+        "只有瑞秋感到多种强烈情绪。",
+        "两人报告完全同等强度。",
+        "格雷斯只有轻微惊讶，没有其他情绪。",
+        "格雷斯情绪多样且强烈，瑞秋只有轻度惊讶和不安。"
+      ],
+      "answer": 3,
+      "type": "逻辑关系",
+      "support": "explicit",
+      "analyses": [
+        "A 交换了人物。",
+        "B whereas 和 only mild 明确区分反应。",
+        "C 把 Rachel 的较轻反应移给 Grace。",
+        "D 前句列 excitement、joy、fear、anger、surprise，与 mild surprise and apprehension 对比，支撑 So 后的判断。复杂不等于只有快乐或临床不稳定。"
+      ],
+      "vocabulary": [
+        {
+          "word": "emotionally complex",
+          "meaning": "情绪复杂的；多种情绪交织的",
+          "context": "说明反应的种类和强度，不是给参与者作精神疾病诊断。",
+          "example": "The ending was emotionally complex, combining relief with sadness.",
+          "collocations": [
+            "an emotionally complex experience",
+            "emotional complexity"
+          ]
+        }
+      ],
+      "evidenceQuote": "But were they rich? First, whereas Grace experienced a lot of different, intense emotions, such as excitement, joy, fear, anger, and surprise, Rachel experienced only mild surprise and apprehension. So Grace’s WWE experience was far more emotionally complex than Rachel’s."
+    },
+    {
+      "order": 9,
+      "prompt": "What changed between Grace's expectations and her return from the event?",
+      "promptZh": "格雷斯入场预期与离场之后相比，有什么变化？",
+      "options": [
+        "All her preconceptions were confirmed without any change.",
+        "She changed her destination but not her view.",
+        "She revised her perspective after learning new information.",
+        "She proved every unexpected event produces the same insight."
+      ],
+      "optionsZh": [
+        "所有预设全被确认，没有变化。",
+        "只改变目的地，不改变看法。",
+        "学到新信息后修正了视角。",
+        "证明每件意外事件产生相同洞见。"
+      ],
+      "answer": 2,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A but came back with a different perspective 与完全未变相反。",
+        "B perspective 是看法，不是旅途目的地。",
+        "C 原句给出 preconceptions 到 different perspective 的变化，并列反霸凌及儿童榜样相关认识作为例子。",
+        "D 个体故事不能扩大为每个意外事件的确定规律；书中对 WWE 的描述也不是今天的实时机构评估。"
+      ],
+      "vocabulary": [
+        {
+          "word": "preconceptions",
+          "meaning": "先入之见；尚未充分接触前的预设",
+          "context": "指她对 WWE 活动原有的想法，不是体验后才形成的全部新认识。",
+          "example": "The unfamiliar account challenged several of her preconceptions.",
+          "collocations": [
+            "preconceptions about an event",
+            "challenge preconceptions"
+          ]
+        }
+      ]
+    },
+    {
+      "order": 10,
+      "prompt": "What function does 'That is' serve in the sentence about Grace's changed perspective?",
+      "promptZh": "说格雷斯视角改变时，That is 起什么作用？",
+      "options": [
+        "It reverses the preceding account completely.",
+        "It restates or clarifies the point in a concise form.",
+        "It marks a jump to a much later historical period.",
+        "It introduces the exact financial cost of the event."
+      ],
+      "optionsZh": [
+        "彻底倒转此前叙述。",
+        "用简明形式重述或澄清要点。",
+        "标记跳到更晚的历史时期。",
+        "引入活动确切经济费用。"
+      ],
+      "answer": 1,
+      "type": "逻辑关系",
+      "support": "explicit",
+      "analyses": [
+        "A That is 是解释性承接，不是否认。",
+        "B 后面的 changed after the event 简洁归纳视角变化，符合换句话说。",
+        "C 不是表示后来某一历史年代。",
+        "D 没有费用数据。不要把连接语误看成新的研究结果。"
+      ],
+      "vocabulary": [
+        {
+          "word": "That is",
+          "meaning": "也就是说；换句话说",
+          "context": "用于解释或归纳，不是时间标记。",
+          "example": "The option is too broad; that is, it adds a claim the passage does not make.",
+          "collocations": [
+            "that is",
+            "that is to say"
+          ]
+        }
+      ]
+    },
+    {
+      "order": 11,
+      "prompt": "What distinction is established by Rachel's novel experience not changing her perspective?",
+      "promptZh": "瑞秋经历新奇却没有改变视角，确立什么区分？",
+      "options": [
+        "An unusual experience can occur without a change in perspective.",
+        "Every novel experience necessarily changes perspective.",
+        "Rachel's novelty proves stronger emotions than Grace's.",
+        "Both students' perspectives changed in the same way."
+      ],
+      "optionsZh": [
+        "不寻常经历可以不伴随视角改变。",
+        "每种新奇经历必然改变视角。",
+        "瑞秋的新奇证明其情绪比格雷斯更强。",
+        "两人视角以相同方式改变。"
+      ],
+      "answer": 0,
+      "type": "逻辑关系",
+      "support": "explicit",
+      "analyses": [
+        "A novel and unusual, but...did not change 明示新奇与视角变化是可区分的。",
+        "B 本句恰给出并非必然的对照。",
+        "C 新奇不直接证明情绪更强，前文还作不同对比。",
+        "D Grace changed 与 Rachel did not 不可抹成相同。这里不额外断言所有新奇经历都没有价值。"
+      ],
+      "vocabulary": [
+        {
+          "word": "novel",
+          "meaning": "新颖的；前所未有的（此处为形容词）",
+          "context": "与 unusual 并列，不是名词小说，也不保证认知视角必然变化。",
+          "example": "The task introduced a novel way of comparing the accounts.",
+          "collocations": [
+            "a novel experience",
+            "novel and unusual"
+          ]
+        }
+      ]
+    },
+    {
+      "order": 12,
+      "prompt": "What unit of experience does the question about being rich or not rich turn to?",
+      "promptZh": "关于 rich or not rich 的问句把分析转向什么经验单位？",
+      "options": [
+        "A whole professional career.",
+        "An entire nation's culture.",
+        "An individual day.",
+        "A full university degree programme."
+      ],
+      "optionsZh": [
+        "完整职业生涯。",
+        "整个国家的文化。",
+        "单独的一天。",
+        "整个大学学位项目。"
+      ],
+      "answer": 2,
+      "type": "主旨",
+      "support": "explicit",
+      "analyses": [
+        "A makes a day 的单位不是终身职业。",
+        "B 没有转为全民族文化比较。",
+        "C 问句两次围绕 a day，前句则从 weekend outing 过渡到一天。",
+        "D 不是完整学位时期。问题尚在提出分析方向，不把答案预先当作已证实的全日配方。"
+      ],
+      "vocabulary": [
+        {
+          "word": "figured out",
+          "meaning": "弄清；想明白",
+          "context": "前句 Now that we have figured out 回顾周末外出的分析，再转向一天这一单位。",
+          "example": "They figured out which detail supported the answer.",
+          "collocations": [
+            "figure out what makes something rich",
+            "figure out a distinction"
+          ]
+        }
+      ]
+    },
+    {
+      "order": 13,
+      "prompt": "What does 'Relatedly' do when the author asks about a happy or meaningful day?",
+      "promptZh": "作者问到幸福或有意义的一天时，Relatedly 起什么作用？",
+      "options": [
+        "It announces an unrelated story with no link to richness.",
+        "It connects related aspects of evaluating a day.",
+        "It states that the three dimensions are identical.",
+        "It changes the time of the research to another decade."
+      ],
+      "optionsZh": [
+        "宣布一个与丰富性毫无关系的新故事。",
+        "连接评价一天的相关方面。",
+        "断言三个维度完全相同。",
+        "把研究时间换到另一年代。"
+      ],
+      "answer": 1,
+      "type": "逻辑关系",
+      "support": "explicit",
+      "analyses": [
+        "A related 明示有联系，不是毫不相干。",
+        "B 从心理丰富的一天连到幸福或意义，拓展相邻比较维度。",
+        "C 有关联不等于相同，不应把三种问题混成一个。",
+        "D 不是时间日期连接词。"
+      ],
+      "vocabulary": [
+        {
+          "word": "Relatedly",
+          "meaning": "相关地；与此相联系地",
+          "context": "连接主题相关的问题，不表示之前的问题已全部得到同一个答案。",
+          "example": "The essay asks about curiosity; relatedly, it considers how people respond to novelty.",
+          "collocations": [
+            "relatedly, what ...",
+            "a related question"
+          ]
+        }
+      ],
+      "evidenceQuote": "Now that we have figured out what makes a weekend outing psychologically rich, what about a psychologically rich day? What makes a day psychologically rich or not rich? Relatedly, what makes a day happy or meaningful?"
+    },
+    {
+      "order": 14,
+      "prompt": "Which poet and poem introduce the morning-routine example?",
+      "promptZh": "哪位诗人和哪首诗引入晨间日常的例子？",
+      "options": [
+        "Raymond Carver — Otherwise.",
+        "Jane Kenyon — Happiness.",
+        "Shel Silverstein — Otherwise.",
+        "Raymond Carver — Happiness."
+      ],
+      "optionsZh": [
+        "雷蒙德·卡佛——《Otherwise》。",
+        "简·肯扬——《Happiness》。",
+        "谢尔·希尔弗斯坦——《Otherwise》。",
+        "雷蒙德·卡佛——《Happiness》。"
+      ],
+      "answer": 3,
+      "type": "观点归属",
+      "support": "explicit",
+      "analyses": [
+        "A 当前句为 Happiness，不是 Otherwise。",
+        "B 不能把后面的 Kenyon 与当前 Carver 交换。",
+        "C 不是此段诗人与作品的配对。",
+        "D In his poem Happiness, Raymond Carver... 明示出处。诗歌例子不是实验参与者的正式测量。"
+      ],
+      "vocabulary": [
+        {
+          "word": "routines",
+          "meaning": "日常惯常活动；例行生活",
+          "context": "morning routines 指清晨平常活动，不是摔跤比赛规则或严格实验步骤。",
+          "example": "Her morning routines include reading quietly by the window.",
+          "collocations": [
+            "morning routines",
+            "daily routines"
+          ]
+        }
+      ]
+    },
+    {
+      "order": 15,
+      "prompt": "What is Carver doing in the scene as described?",
+      "promptZh": "按这段描写，卡佛正在场景中做什么？",
+      "options": [
+        "Sitting by a window with coffee and looking out.",
+        "Delivering newspapers with a friend up a driveway.",
+        "Standing outside and discussing work with the newspaper boy.",
+        "Walking to a wrestling event with university students."
+      ],
+      "optionsZh": [
+        "端着咖啡坐在窗边向外看。",
+        "与朋友沿车道送报。",
+        "站在外面与报童讨论工作。",
+        "与大学生走去看摔跤。"
+      ],
+      "answer": 0,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A sitting by the window with a cup of coffee and looking out 明示姿态、物品与动作。",
+        "B 报童与朋友是他看到的人，不是他自己的动作。",
+        "C 没有他在室外与报童交谈的细节。",
+        "D 是前面另一组人物的活动，不是此诗场景。不能把描写改成喝咖啡必然制造幸福的因果。"
+      ],
+      "vocabulary": [
+        {
+          "word": "looking out",
+          "meaning": "向外看",
+          "context": "坐在窗边向外观看，不是命令某人小心的 Look out!。",
+          "example": "She was looking out of the window when she noticed the visitors.",
+          "collocations": [
+            "look out of a window",
+            "sit looking out"
+          ]
+        }
+      ]
+    },
+    {
+      "order": 16,
+      "prompt": "How does happiness arrive in the quoted 'It comes on unexpectedly'?",
+      "promptZh": "引文 It comes on unexpectedly 怎样描述幸福的到来？",
+      "options": [
+        "Exactly according to a fixed appointment.",
+        "Only as the guaranteed result of drinking coffee.",
+        "Unexpectedly rather than as a fully scheduled event.",
+        "Only after a long discussion proves it should happen."
+      ],
+      "optionsZh": [
+        "严格按照固定预约。",
+        "只作为喝咖啡必然造成的结果。",
+        "出乎意料，而非完全预定的事件。",
+        "只有长篇讨论证明应发生后。"
+      ],
+      "answer": 2,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A unexpectedly 与固定预约相反。",
+        "B 并列场景不证明咖啡是唯一充分原因。",
+        "C 保留诗中不期而至的特点，前面的 Happiness 标明 It 所指。",
+        "D 没有讨论先证明再出现的程序。诗歌表达不能转换成一项触发幸福的普遍实验配方。"
+      ],
+      "vocabulary": [
+        {
+          "word": "unexpectedly",
+          "meaning": "意外地；未预料到地",
+          "context": "描写诗中幸福出现的方式，不是必然发生或可以精确安排。",
+          "example": "An ordinary conversation unexpectedly changed her view.",
+          "collocations": [
+            "come on unexpectedly",
+            "appear unexpectedly"
+          ]
+        }
+      ],
+      "evidenceQuote": "In his poem “Happiness,” Raymond Carver describes his morning routines. He is sitting by the window with a cup of coffee and looking out. He sees the newspaper boy with his friend walking up to his driveway, just smiling: “Happiness. It comes on unexpectedly."
+    },
+    {
+      "order": 17,
+      "prompt": "What limited interpretation is supported by happiness going 'beyond' morning talk about it?",
+      "promptZh": "幸福超出清晨对它的谈论，支持哪种有限理解？",
+      "options": [
+        "Talking alone is proved to create happiness for everyone.",
+        "The felt moment is portrayed as exceeding what ordinary talk about it captures.",
+        "The poet supplies a precise scientific definition of happiness.",
+        "The passage says the experience has no value because it is ordinary."
+      ],
+      "optionsZh": [
+        "已证明仅交谈就能让所有人幸福。",
+        "感受到的时刻被描写为超出日常谈论所能概括。",
+        "诗人提供精确的科学幸福定义。",
+        "因经历普通而认定它没有价值。"
+      ],
+      "answer": 1,
+      "type": "有限推断",
+      "support": "limited-inference",
+      "analyses": [
+        "A 没有关于所有人的交谈因果试验。",
+        "B goes beyond...talk 是诗性对比，结合下一句在平凡场景中找到幸福，可作这一有限理解。",
+        "C 诗句不是量化科学定义。",
+        "D 下一句说 finds happiness，不是无价值。这是解释诗中体验与语言的关系，不推广为说话绝不可能有价值。"
+      ],
+      "vocabulary": [
+        {
+          "word": "goes beyond",
+          "meaning": "超出；不止于",
+          "context": "这里比较体验与谈论它的语言，不表示某件事在所有评价维度都更好。",
+          "example": "The question goes beyond the information in the paragraph.",
+          "collocations": [
+            "go beyond words",
+            "go beyond a description"
+          ]
+        }
+      ],
+      "evidenceQuote": "And goes beyond, really, any early morning talk about it.” Carver finds happiness in this mundane scene."
+    },
+    {
+      "order": 18,
+      "prompt": "What does 'mundane' mean in the scene where Carver finds happiness?",
+      "promptZh": "卡佛找到幸福的场景中，mundane 是什么意思？",
+      "options": [
+        "Entirely worthless.",
+        "Unprecedented and impossible to repeat.",
+        "Scientifically controlled.",
+        "Ordinary and everyday."
+      ],
+      "optionsZh": [
+        "完全毫无价值。",
+        "前所未有且无法重复。",
+        "经过科学控制。",
+        "平常、日常的。"
+      ],
+      "answer": 3,
+      "type": "语境词义",
+      "support": "explicit",
+      "analyses": [
+        "A 普通常规不等于毫无价值，作者正说从中找到幸福。",
+        "B 后句 predictable, repeatable 与无法重复相反。",
+        "C 没有控制实验环境。",
+        "D mundane 与可预料、可重复的日常场景相呼应；仍可带来珍贵感受。"
+      ],
+      "vocabulary": [
+        {
+          "word": "mundane",
+          "meaning": "平常的；日常的；世俗琐常的",
+          "context": "此处不是贬为无价值，而是强调幸福可在平凡日常出现。",
+          "example": "The memoir finds interest in mundane tasks such as washing dishes.",
+          "collocations": [
+            "a mundane scene",
+            "mundane routines"
+          ]
+        }
+      ]
+    },
+    {
+      "order": 19,
+      "prompt": "What relationship is stated in 'If you don’t pay attention, you might miss it'?",
+      "promptZh": "If you don't pay attention, you might miss it 陈述什么关系？",
+      "options": [
+        "Inattention may lead to missing the experience, without making the outcome certain.",
+        "Paying attention guarantees happiness in every case.",
+        "Everyone who is inattentive must miss every pleasant moment.",
+        "Missing it proves that no heartwarming experience occurred."
+      ],
+      "optionsZh": [
+        "不留意可能错过体验，但结果不是确定的。",
+        "留意保证任何情况下都幸福。",
+        "每个不留意的人都必定错过每个愉快时刻。",
+        "错过证明没有任何暖心经历发生。"
+      ],
+      "answer": 0,
+      "type": "逻辑关系",
+      "support": "explicit",
+      "analyses": [
+        "A If 给条件、might 给可能结果，保留二者力度。",
+        "B 不能由此推逆向的普遍保证。",
+        "C might 不能升级为 must，也没有 every moment。",
+        "D 没注意到不等于事情客观未发生。注意条件、可能性和事实不存在之间的差别。"
+      ],
+      "vocabulary": [
+        {
+          "word": "might",
+          "meaning": "可能；也许",
+          "context": "此处保留错过的可能性，不是一定会或一定不会。",
+          "example": "Without the context, a reader might misunderstand the phrase.",
+          "collocations": [
+            "might miss something",
+            "if ... might ..."
+          ]
+        }
+      ],
+      "evidenceQuote": "If you don’t pay attention, you might miss it. A happy day comes from noticing something heartwarming, having a good laugh with friends, and, according to Carver, not thinking about death, ambition, love, or anything too deep."
+    },
+    {
+      "order": 20,
+      "prompt": "What rhetorical move starts the discussion of meaningful days?",
+      "promptZh": "关于有意义的一天的讨论以什么论述动作开始？",
+      "options": [
+        "It immediately gives a numerical score for all days.",
+        "It reports the result of a nationwide opinion poll.",
+        "It asks a definition question before exploring the opposite concept.",
+        "It states that paid work is the sole requirement."
+      ],
+      "optionsZh": [
+        "立即给所有天数一个数值评分。",
+        "报告全国民调结果。",
+        "先提出定义问题，再探讨其反面概念。",
+        "断言有薪工作是唯一条件。"
+      ],
+      "answer": 2,
+      "type": "作者意图",
+      "support": "explicit",
+      "analyses": [
+        "A 本段没有数值量表。",
+        "B 不是民调报告。",
+        "C What is a meaningful day? 先发问，后面 flip...meaningless day 转向反面寻找切入口。",
+        "D day wasted、pointless 不等于唯一有薪工作标准，也不能添加 sole。"
+      ],
+      "vocabulary": [
+        {
+          "word": "meaningful day",
+          "meaning": "有意义的一天",
+          "context": "这一节讨论日常层面的目的和价值，并非只有非凡成就或有薪工作才算。",
+          "example": "A quiet conversation can be part of a meaningful day.",
+          "collocations": [
+            "make a day meaningful",
+            "a meaningful day"
+          ]
+        }
+      ],
+      "evidenceQuote": "What is a meaningful day? This question is a bit more difficult to answer. When you flip the question to ask what a meaningless day is, all of sudden it becomes much easier to answer. A meaningless day is a day wasted, an utterly pointless day."
+    },
+    {
+      "order": 21,
+      "prompt": "What qualification is conveyed by 'a bit more difficult to answer'?",
+      "promptZh": "a bit more difficult to answer 保留什么程度限定？",
+      "options": [
+        "Impossible for anyone to answer.",
+        "Easier than every other question in the book.",
+        "Already resolved by a single fixed measurement.",
+        "Somewhat harder, without being declared unanswerable."
+      ],
+      "optionsZh": [
+        "任何人都不可能回答。",
+        "比书中每个其他问题都简单。",
+        "已由单一固定测量解决。",
+        "稍难一些，但没有宣布无法回答。"
+      ],
+      "answer": 3,
+      "type": "语境词义",
+      "support": "explicit",
+      "analyses": [
+        "A difficult 不等于 impossible，a bit 更不能删除。",
+        "B more difficult 的方向不是更容易，也无全书排名。",
+        "C 本句在评价回答难度，没有已经测定的答案。",
+        "D a bit 限定稍微，保留相对困难而非绝对不可回答的程度。"
+      ],
+      "vocabulary": [
+        {
+          "word": "a bit",
+          "meaning": "稍微；一点",
+          "context": "缩小 difficult 的程度，不能抹成完全无法解答。",
+          "example": "The second paragraph is a bit harder to interpret.",
+          "collocations": [
+            "a bit more difficult",
+            "a bit harder"
+          ]
+        }
+      ],
+      "evidenceQuote": "What is a meaningful day? This question is a bit more difficult to answer."
+    },
+    {
+      "order": 22,
+      "prompt": "How is a meaningless day defined in the passage?",
+      "promptZh": "原文怎样界定无意义的一天？",
+      "options": [
+        "A day wasted and utterly pointless.",
+        "Any day without paid work.",
+        "Any day without novelty.",
+        "Any day without constant pleasure."
+      ],
+      "optionsZh": [
+        "浪费掉、全然没有价值的一天。",
+        "任何没有有薪工作的一天。",
+        "任何没有新奇的一天。",
+        "任何没有持续快乐的一天。"
+      ],
+      "answer": 0,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A a day wasted, an utterly pointless day 是原句定义。",
+        "B 原句没有把没有有薪工作设为充分条件。",
+        "C 没新奇与没意义是不同维度，不能混同。",
+        "D 同样不能把不持续快乐等同毫无意义。不要从一句定义擅加付薪、戏剧性或时刻愉悦的门槛。"
+      ],
+      "vocabulary": [
+        {
+          "word": "utterly",
+          "meaning": "彻底地；全然",
+          "context": "强化 pointless 的判断，不是表示只有一点或有时。",
+          "example": "The two interpretations are utterly different.",
+          "collocations": [
+            "utterly pointless",
+            "utterly wasted"
+          ]
+        }
+      ]
+    },
+    {
+      "order": 23,
+      "prompt": "What role does the possibility of writing a letter play?",
+      "promptZh": "也许写了一封信这一可能情形起什么作用？",
+      "options": [
+        "It proves that every reader actually wrote a letter that day.",
+        "It requires letter-writing in every meaningful day.",
+        "It supplies an ordinary example of something one may have accomplished.",
+        "It excludes ordinary tasks from having any meaning."
+      ],
+      "optionsZh": [
+        "证明每位读者当天都写了信。",
+        "要求每个有意义的日子都必须写信。",
+        "提供一个可能完成过的普通事情的例子。",
+        "排除日常事情的任何意义。"
+      ],
+      "answer": 2,
+      "type": "作者意图",
+      "support": "explicit",
+      "analyses": [
+        "A Maybe 标示可能，不是核实读者历史。",
+        "B for instance 是举例，不是必要条件。",
+        "C 与后面 helped、laundry、got something done 一起作为日常有所完成的例子。",
+        "D 作者用日常事举例，不能解作排除日常价值。"
+      ],
+      "vocabulary": [
+        {
+          "word": "for instance",
+          "meaning": "例如；比如",
+          "context": "引入可替换的例子，不是宣布只有这一件事才算。",
+          "example": "Small actions, for instance leaving a useful note, can help a group work together.",
+          "collocations": [
+            "for instance",
+            "maybe ... for instance"
+          ]
+        }
+      ],
+      "evidenceQuote": "Maybe you wrote a letter, for instance. You helped someone. You did laundry or exercised. You got something done, and the day was not totally wasted."
+    },
+    {
+      "order": 24,
+      "prompt": "Does 'You helped someone' specify the identity of the person helped?",
+      "promptZh": "You helped someone 是否说明了受助者身份？",
+      "options": [
+        "Yes, it must be a family member.",
+        "No, the person's identity is left unspecified.",
+        "Yes, it names a particular researcher.",
+        "Yes, it must be the author himself."
+      ],
+      "optionsZh": [
+        "说明了，必须是家人。",
+        "没有，身份未被具体说明。",
+        "说明了，点名某位研究者。",
+        "说明了，必须是作者本人。"
+      ],
+      "answer": 1,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A someone 没有限为家属。",
+        "B 不定代词仅表示某个人，未给姓名或关系；不能擅补身份。",
+        "C 句中没有研究者姓名。",
+        "D 也未说是作者本人，You 是示例中的读者视角，不是真实答题或助人记录。"
+      ],
+      "vocabulary": [
+        {
+          "word": "someone",
+          "meaning": "某个人；有人",
+          "context": "不指明身份，不能把未说出的具体关系当作证据。",
+          "example": "Someone left a helpful comment beside the paragraph.",
+          "collocations": [
+            "help someone",
+            "do something for someone"
+          ]
+        }
+      ]
+    },
+    {
+      "order": 25,
+      "prompt": "What concluding point is supported by the example of much-needed rest?",
+      "promptZh": "急需休息的例子支持什么结语？",
+      "options": [
+        "Only visible paid work can make a day meaningful.",
+        "Rest always makes a day meaningless.",
+        "There are different routes to a meaningful day, which may include needed rest.",
+        "Every meaningful day must feel like a dramatic adventure."
+      ],
+      "optionsZh": [
+        "只有可见的有薪工作能让一天有意义。",
+        "休息总使一天无意义。",
+        "有意义的一天有不同路径，可能包括必要休息。",
+        "每个有意义日子都必须像戏剧性冒险。"
+      ],
+      "answer": 2,
+      "type": "逻辑关系",
+      "support": "explicit",
+      "analyses": [
+        "A Even if you didn’t get much done 已允许产出不多的情形，不能只限有薪工作。",
+        "B 原文将 much-needed rest 作为为另一天做准备的可能价值。",
+        "C rest 例子与 There are many ways 的结语相连，保留 maybe 的可能性。",
+        "D 意义不等于冒险的丰富性，原文没有每一天都要戏剧化的标准。"
+      ],
+      "vocabulary": [
+        {
+          "word": "much-needed",
+          "meaning": "急需的；很有必要的",
+          "context": "限定这里的休息是所需的、可为之后活动作准备，不是给所有闲置状态作同一保证。",
+          "example": "A much-needed break helped her return to the passage with fresh attention.",
+          "collocations": [
+            "much-needed rest",
+            "a much-needed break"
+          ]
+        }
+      ],
+      "evidenceQuote": "Even if you didn’t get much done, maybe you got some much-needed rest to prepare you for another day of hard work. There are many ways to make a day meaningful."
+    }
+  ]
+}
