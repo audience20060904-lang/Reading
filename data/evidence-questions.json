@@ -27814,5 +27814,1994 @@
     ],
     "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
     "fingerprint": "a18d062510a5d1d8869afe7fca8c538cbe43dacfe9c4ce8323a12bfb9d49eb5b"
+  },
+  {
+    "id": "qe-c05-0036",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-015",
+    "parentQuestionId": "q-c05-020",
+    "chapterId": "c05",
+    "sectionId": "c05-s02",
+    "paragraphId": "c05-s02-p046-05662",
+    "readingUnitId": "c05-s02-p046-05662-r001-004",
+    "sentenceIds": [
+      "c05-s02-p046-05662-s001",
+      "c05-s02-p046-05662-s002",
+      "c05-s02-p046-05662-s003",
+      "c05-s02-p046-05662-s004"
+    ],
+    "passage": "Like Raymond Carver, Jane Kenyon writes about her routines in her poem “Otherwise.” She gets out of bed, eats breakfast, has lunch, takes a nap, eats dinner, and sleeps. Nothing special, except that she might have been unable to get out of bed, unable to do all the routines. There are many counterfactuals in “Otherwise.”",
+    "prompt": "What similarity does 'Like Raymond Carver' establish for Jane Kenyon?",
+    "promptZh": "Like Raymond Carver 给简·肯扬建立什么相似点？",
+    "options": [
+      "Both poets wrote a poem with exactly the same title.",
+      "Both are presented as writing about ordinary routines.",
+      "Both conducted the same college diary study.",
+      "Both reject daily routines as entirely worthless."
+    ],
+    "optionsZh": [
+      "两人写了标题完全相同的诗。",
+      "两人都被介绍为书写平常日常。",
+      "两人进行了同一项大学生日记研究。",
+      "两人都认为日常完全无价值。"
+    ],
+    "answer": 1,
+    "type": "逻辑关系",
+    "support": "explicit",
+    "analyses": [
+      "A 前段 Carver 的 Happiness 与这里 Otherwise 不是同名。",
+      "B Like...writes about her routines 明示比较维度，不必把两人的所有特点都视为相同。",
+      "C 诗歌讨论不是日记研究，研究者在后面另行介绍。",
+      "D 原文借反事实珍惜普通生活，不是全盘否定。"
+    ],
+    "vocabulary": [
+      {
+        "word": "routines",
+        "meaning": "日常活动；惯常做的事",
+        "context": "Kenyon 的吃饭、休息等普通活动是诗歌素材，不能当成给所有人的严格作息方案。",
+        "example": "The poem gives familiar routines a new significance.",
+        "collocations": [
+          "write about routines",
+          "ordinary routines"
+        ]
+      }
+    ],
+    "translation": "像 Raymond Carver 一样，Jane Kenyon 在《Otherwise》中写日常生活：起床、吃早饭、吃午饭、午睡、吃晚饭、睡觉。没什么特别，除了她本可能无法起床、无法完成这些日常活动。《Otherwise》中有许多这样的反事实设想。",
+    "evidenceTargetIds": [
+      "c05-s02-p046-05662-s001"
+    ],
+    "evidence": [
+      {
+        "quote": "Like Raymond Carver, Jane Kenyon writes about her routines in her poem “Otherwise.”",
+        "sentenceIds": [
+          "c05-s02-p046-05662-s001"
+        ],
+        "sources": [
+          {
+            "pdfPage": 46,
+            "block": 4,
+            "bbox": [
+              76.99,
+              566.25,
+              535.01,
+              717.27
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "1d79fc005e4073e83d9d64a2dd1bc1c20e36ea0a83f5bbf8884db5bf955ad628"
+  },
+  {
+    "id": "qe-c05-0037",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-015",
+    "parentQuestionId": "q-c05-020",
+    "chapterId": "c05",
+    "sectionId": "c05-s02",
+    "paragraphId": "c05-s02-p046-05662",
+    "readingUnitId": "c05-s02-p046-05662-r001-004",
+    "sentenceIds": [
+      "c05-s02-p046-05662-s001",
+      "c05-s02-p046-05662-s002",
+      "c05-s02-p046-05662-s003",
+      "c05-s02-p046-05662-s004"
+    ],
+    "passage": "Like Raymond Carver, Jane Kenyon writes about her routines in her poem “Otherwise.” She gets out of bed, eats breakfast, has lunch, takes a nap, eats dinner, and sleeps. Nothing special, except that she might have been unable to get out of bed, unable to do all the routines. There are many counterfactuals in “Otherwise.”",
+    "prompt": "What kind of activities make up the list of getting up, meals, a nap, and sleep?",
+    "promptZh": "起床、吃饭、午睡和睡眠这一清单由哪类活动组成？",
+    "options": [
+      "Ordinary daily routines.",
+      "Exceptional journeys undertaken only once.",
+      "Steps in a controlled clinical experiment.",
+      "A list of professional awards."
+    ],
+    "optionsZh": [
+      "平常的日常活动。",
+      "一生仅有一次的非凡旅程。",
+      "临床对照实验步骤。",
+      "专业奖项清单。"
+    ],
+    "answer": 0,
+    "type": "主旨",
+    "support": "explicit",
+    "analyses": [
+      "A 列举起居饮食与睡眠，接下来还说 Nothing special，对应平常生活。",
+      "B 这些是可重复的活动，不是罕见旅程。",
+      "C 此处为诗歌描写，没有实验分组或治疗程序。",
+      "D 不是成就奖项，不能把日常与名望混同。"
+    ],
+    "vocabulary": [
+      {
+        "word": "takes a nap",
+        "meaning": "小睡；午睡",
+        "context": "与 eats、sleeps 并列，是普通起居的一项，不等于整夜睡眠或科学规定时长。",
+        "example": "She takes a nap after lunch when her schedule allows.",
+        "collocations": [
+          "take a nap",
+          "a short nap"
+        ]
+      }
+    ],
+    "translation": "像 Raymond Carver 一样，Jane Kenyon 在《Otherwise》中写日常生活：起床、吃早饭、吃午饭、午睡、吃晚饭、睡觉。没什么特别，除了她本可能无法起床、无法完成这些日常活动。《Otherwise》中有许多这样的反事实设想。",
+    "evidenceTargetIds": [
+      "c05-s02-p046-05662-s002"
+    ],
+    "evidence": [
+      {
+        "quote": "She gets out of bed, eats breakfast, has lunch, takes a nap, eats dinner, and sleeps.",
+        "sentenceIds": [
+          "c05-s02-p046-05662-s002"
+        ],
+        "sources": [
+          {
+            "pdfPage": 46,
+            "block": 4,
+            "bbox": [
+              76.99,
+              566.25,
+              535.01,
+              717.27
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "c6fb7574cc486658c0853d6d260ee3fd7823751f1625c2fcca5494013e866c93"
+  },
+  {
+    "id": "qe-c05-0038",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-015",
+    "parentQuestionId": "q-c05-021",
+    "chapterId": "c05",
+    "sectionId": "c05-s02",
+    "paragraphId": "c05-s02-p046-05662",
+    "readingUnitId": "c05-s02-p046-05662-r005-008",
+    "sentenceIds": [
+      "c05-s02-p046-05662-s005",
+      "c05-s02-p046-05662-s006",
+      "c05-s02-p046-05662-s007",
+      "c05-s02-p046-05662-s008"
+    ],
+    "passage": "It could have been a lot worse, which makes this typical day precious. It’s clear that she cherishes her mundane life. A meaningful day is not just a day with explicit gains. It is also a day you appreciate because “one day, I know, it will be otherwise.”",
+    "prompt": "What does 'cherishes her mundane life' mean in this discussion?",
+    "promptZh": "cherishes her mundane life 在这段讨论中是什么意思？",
+    "options": [
+      "She considers ordinary life entirely worthless.",
+      "She rejects any appreciation unless she wins an award.",
+      "She is unable to recognise familiar routines.",
+      "She values and treasures her ordinary life."
+    ],
+    "optionsZh": [
+      "认为日常生活全无价值。",
+      "没有获奖就拒绝感激。",
+      "无法识别熟悉日常。",
+      "珍视自己的平常生活。"
+    ],
+    "answer": 3,
+    "type": "语境词义",
+    "support": "explicit",
+    "analyses": [
+      "A cherishes 与毫不珍惜相反。",
+      "B 没有获奖前提，后句还说 not just explicit gains。",
+      "C 不是认知辨认能力的描述。",
+      "D cherishes 表示珍爱；mundane 是日常而非无价值，这与前句觉得平常一天 precious 相连。"
+    ],
+    "vocabulary": [
+      {
+        "word": "cherishes",
+        "meaning": "珍惜；珍爱",
+        "context": "珍视日常生活，不意味着所有生活情境都相同或排斥任何变化。",
+        "example": "She cherishes the quiet conversations she has with old friends.",
+        "collocations": [
+          "cherish a mundane life",
+          "cherish a memory"
+        ]
+      }
+    ],
+    "translation": "事情本可能糟得多，这使寻常的一天变得珍贵。她显然珍惜平凡的生活。有意义的一天不只是有明确收获的一天，也可以是让你心怀感激的一天，因为“有一天，我知道，一切会变成别样”。",
+    "evidenceTargetIds": [
+      "c05-s02-p046-05662-s006"
+    ],
+    "evidence": [
+      {
+        "quote": "It’s clear that she cherishes her mundane life.",
+        "sentenceIds": [
+          "c05-s02-p046-05662-s006"
+        ],
+        "sources": [
+          {
+            "pdfPage": 46,
+            "block": 4,
+            "bbox": [
+              76.99,
+              566.25,
+              535.01,
+              717.27
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "4641a41fc76435438f14b0806ef0eb6a0b76fdc4d7160eb525634bda2a6ce033"
+  },
+  {
+    "id": "qe-c05-0039",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-015",
+    "parentQuestionId": "q-c05-021",
+    "chapterId": "c05",
+    "sectionId": "c05-s02",
+    "paragraphId": "c05-s02-p046-05662",
+    "readingUnitId": "c05-s02-p046-05662-r005-008",
+    "sentenceIds": [
+      "c05-s02-p046-05662-s005",
+      "c05-s02-p046-05662-s006",
+      "c05-s02-p046-05662-s007",
+      "c05-s02-p046-05662-s008"
+    ],
+    "passage": "It could have been a lot worse, which makes this typical day precious. It’s clear that she cherishes her mundane life. A meaningful day is not just a day with explicit gains. It is also a day you appreciate because “one day, I know, it will be otherwise.”",
+    "prompt": "How does the thought that life will one day be 'otherwise' support appreciation of the day?",
+    "promptZh": "想到生活终有一天会 otherwise，怎样支持对当天的珍惜？",
+    "options": [
+      "It proves tomorrow must be identical to today.",
+      "It guarantees that every future change will be pleasant.",
+      "Awareness that circumstances can change makes the present ordinary day worth appreciating.",
+      "It makes a numerical achievement necessary before any appreciation."
+    ],
+    "optionsZh": [
+      "证明明天必须与今天相同。",
+      "保证未来所有变化愉快。",
+      "意识到处境可能改变，使眼前普通一天值得珍惜。",
+      "使数值化成就成为一切珍惜的先决条件。"
+    ],
+    "answer": 2,
+    "type": "有限推断",
+    "support": "limited-inference",
+    "analyses": [
+      "A otherwise 意为别样，不是必定不变。",
+      "B 没有所有变化都愉快的保证，前句还想象可能糟得多。",
+      "C could have been worse、precious 与引用将来会不同相连，支持珍惜当前日常的有限理解。",
+      "D not just explicit gains 否定仅看明确收获的门槛，不提供数值要求。不要补造诗人预言的具体日期或事件。"
+    ],
+    "vocabulary": [
+      {
+        "word": "otherwise",
+        "meaning": "以别样方式；处境不同",
+        "context": "在诗歌引语中指有一天生活会与当前不同，不是对某个具体未来事件的精确预测。",
+        "example": "The day seemed ordinary, but circumstances could have been otherwise.",
+        "collocations": [
+          "it will be otherwise",
+          "things could be otherwise"
+        ]
+      }
+    ],
+    "translation": "事情本可能糟得多，这使寻常的一天变得珍贵。她显然珍惜平凡的生活。有意义的一天不只是有明确收获的一天，也可以是让你心怀感激的一天，因为“有一天，我知道，一切会变成别样”。",
+    "evidenceTargetIds": [
+      "c05-s02-p046-05662-s008"
+    ],
+    "evidence": [
+      {
+        "quote": "It could have been a lot worse, which makes this typical day precious. It’s clear that she cherishes her mundane life. A meaningful day is not just a day with explicit gains. It is also a day you appreciate because “one day, I know, it will be otherwise.”",
+        "sentenceIds": [
+          "c05-s02-p046-05662-s005",
+          "c05-s02-p046-05662-s006",
+          "c05-s02-p046-05662-s007",
+          "c05-s02-p046-05662-s008"
+        ],
+        "sources": [
+          {
+            "pdfPage": 46,
+            "block": 4,
+            "bbox": [
+              76.99,
+              566.25,
+              535.01,
+              717.27
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "e8c8349b4d41a02e0a09cc685ef333d849883a45c5db493d1cac63eccf475656"
+  },
+  {
+    "id": "qe-c05-0040",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-015",
+    "parentQuestionId": "q-c05-022",
+    "chapterId": "c05",
+    "sectionId": "c05-s02",
+    "paragraphId": "c05-s02-p047-00750",
+    "readingUnitId": "c05-s02-p047-00750-r001-004",
+    "sentenceIds": [
+      "c05-s02-p047-00750-s001",
+      "c05-s02-p047-00750-s002",
+      "c05-s02-p047-00750-s003",
+      "c05-s02-p047-00750-s004"
+    ],
+    "passage": "What about a psychologically rich day? Mary Oliver in her poem “Wild Geese” tells us that we don’t have to be extraordinarily good or virtuous, that despair is a part of life, and that insignificance is a part of existence. Even so, she encourages us to be like wild geese: “the world offers itself to your imagination.” The world has so much to offer and explore: “harsh and exciting.”",
+    "prompt": "Which dimension does the question 'What about a psychologically rich day' bring into focus?",
+    "promptZh": "What about a psychologically rich day 把哪个维度带入焦点？",
+    "options": [
+      "Only daily pleasure.",
+      "Only moral goodness.",
+      "Financial wealth.",
+      "Psychological richness."
+    ],
+    "optionsZh": [
+      "只有日常愉悦。",
+      "只有道德善良。",
+      "财务财富。",
+      "心理丰富性。"
+    ],
+    "answer": 3,
+    "type": "主旨",
+    "support": "explicit",
+    "analyses": [
+      "A 不是继续只问开心，psychologically rich 有明确不同名称。",
+      "B 后文诗歌还说不必格外有德，不能把道德完美设为唯一维度。",
+      "C psychologically 排除了财务 rich 的偷换。",
+      "D 问句引入第三个日常体验维度，并以 Oliver 的诗继续讨论。"
+    ],
+    "vocabulary": [
+      {
+        "word": "What about",
+        "meaning": "那么……呢；把相关话题引向另一对象",
+        "context": "在这里从前面的幸福和意义日子转到心理丰富，不是已经得出的数值答案。",
+        "example": "We have considered the plot; what about the narrator's perspective?",
+        "collocations": [
+          "what about a rich day",
+          "what about another possibility"
+        ]
+      }
+    ],
+    "translation": "那么，心理丰富的一天呢？Mary Oliver 在《Wild Geese》中告诉我们：不必格外善良或有德，绝望是生活的一部分，渺小也是存在的一部分。即便如此，她鼓励我们像野雁：“世界向你的想象力敞开自己。”世界有如此多可提供、可探索的东西：“严酷而令人兴奋。”",
+    "evidenceTargetIds": [
+      "c05-s02-p047-00750-s001"
+    ],
+    "evidence": [
+      {
+        "quote": "What about a psychologically rich day?",
+        "sentenceIds": [
+          "c05-s02-p047-00750-s001"
+        ],
+        "sources": [
+          {
+            "pdfPage": 47,
+            "block": 0,
+            "bbox": [
+              76.99,
+              75,
+              535.01,
+              206.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "3a794af4b0ee431699434053ca10af31fae9875973fcc0b3c12c80504a70d9bb"
+  },
+  {
+    "id": "qe-c05-0041",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-015",
+    "parentQuestionId": "q-c05-022",
+    "chapterId": "c05",
+    "sectionId": "c05-s02",
+    "paragraphId": "c05-s02-p047-00750",
+    "readingUnitId": "c05-s02-p047-00750-r001-004",
+    "sentenceIds": [
+      "c05-s02-p047-00750-s001",
+      "c05-s02-p047-00750-s002",
+      "c05-s02-p047-00750-s003",
+      "c05-s02-p047-00750-s004"
+    ],
+    "passage": "What about a psychologically rich day? Mary Oliver in her poem “Wild Geese” tells us that we don’t have to be extraordinarily good or virtuous, that despair is a part of life, and that insignificance is a part of existence. Even so, she encourages us to be like wild geese: “the world offers itself to your imagination.” The world has so much to offer and explore: “harsh and exciting.”",
+    "prompt": "Which interpretation preserves the reported message of Oliver's poem?",
+    "promptZh": "哪项保留文中转述的奥利弗诗歌意思？",
+    "options": [
+      "Extraordinary virtue and a life entirely free of despair are required.",
+      "Extraordinary virtue is not a prerequisite, and despair and insignificance are acknowledged as parts of life.",
+      "The poem proves that every harmful action benefits others.",
+      "The poem declares every person's existence wholly worthless."
+    ],
+    "optionsZh": [
+      "要求格外有德且生活绝无绝望。",
+      "不把非凡德性设为前提，承认绝望与渺小是生活组成。",
+      "诗歌证明每种伤害行为都利他。",
+      "诗歌宣布每个人存在都全无价值。"
+    ],
+    "answer": 1,
+    "type": "观点归属",
+    "support": "explicit",
+    "analyses": [
+      "A we don’t have to...与前提要求相反，despair is a part 也非完全排除。",
+      "B 保留不必 extraordinary good/virtuous 与两项 part of 的范围。",
+      "C 不要求道德完美不是鼓励伤害，更不是实验因果结论。",
+      "D insignificance 的存在性描述不能扩大为每个人全然无价值。这是诗歌转述的观点，不是临床诊断或行为命令。"
+    ],
+    "vocabulary": [
+      {
+        "word": "despair",
+        "meaning": "绝望；深重的无望感",
+        "context": "诗句讨论它可以是生活的一部分，不断言每个人一直如此。",
+        "example": "The character's brief despair gave way to a new question.",
+        "collocations": [
+          "a feeling of despair",
+          "despair as part of life"
+        ]
+      }
+    ],
+    "translation": "那么，心理丰富的一天呢？Mary Oliver 在《Wild Geese》中告诉我们：不必格外善良或有德，绝望是生活的一部分，渺小也是存在的一部分。即便如此，她鼓励我们像野雁：“世界向你的想象力敞开自己。”世界有如此多可提供、可探索的东西：“严酷而令人兴奋。”",
+    "evidenceTargetIds": [
+      "c05-s02-p047-00750-s002"
+    ],
+    "evidence": [
+      {
+        "quote": "Mary Oliver in her poem “Wild Geese” tells us that we don’t have to be extraordinarily good or virtuous, that despair is a part of life, and that insignificance is a part of existence.",
+        "sentenceIds": [
+          "c05-s02-p047-00750-s002"
+        ],
+        "sources": [
+          {
+            "pdfPage": 47,
+            "block": 0,
+            "bbox": [
+              76.99,
+              75,
+              535.01,
+              206.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "009582a863f6e1961cc0cc16d76c761ed6a8efc0bc14af1aca2c9b96f8908e61"
+  },
+  {
+    "id": "qe-c05-0042",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-015",
+    "parentQuestionId": "q-c05-024",
+    "chapterId": "c05",
+    "sectionId": "c05-s03",
+    "paragraphId": "c05-s03-p047-02625",
+    "readingUnitId": "c05-s03-p047-02625-r001-002",
+    "sentenceIds": [
+      "c05-s03-p047-02625-s001",
+      "c05-s03-p047-02625-s002"
+    ],
+    "passage": "I wondered whether the key factors of a happy day, a meaningful day, and a psychologically rich day that I identified based on the poems above actually make ordinary college students’ days happy, meaningful, or psychologically rich, respectively. Hyewon Choi and I asked more than two hundred college students to keep daily records of what they did and how they felt for fourteen days, resulting in over 2,600 daily reports.",
+    "prompt": "What motivates the move from the poems to the college diary study?",
+    "promptZh": "从诗歌转向大学生日记研究的动机是什么？",
+    "options": [
+      "To examine whether poem-derived ideas also fit ordinary students' days.",
+      "To declare poems statistically representative by definition.",
+      "To replace all participant reports with poets' private opinions.",
+      "To establish in advance that no student could have meaningful days."
+    ],
+    "optionsZh": [
+      "检验从诗歌归纳的想法是否也适用于普通学生的一天。",
+      "按定义宣布诗歌具有统计代表性。",
+      "用诗人私见替换全部参与者报告。",
+      "事先确立没有学生能有有意义的日子。"
+    ],
+    "answer": 0,
+    "type": "作者意图",
+    "support": "explicit",
+    "analyses": [
+      "A I wondered whether...actually...ordinary college students 描述从文学归纳到实际记录考察的疑问。",
+      "B wondered whether 不是已经宣布代表性。",
+      "C 后句收集学生日记，非取消报告。",
+      "D 研究不是先把结论设定为全部否定。不能因引用诗歌便把诗歌本身当成实验验证。"
+    ],
+    "vocabulary": [
+      {
+        "word": "respectively",
+        "meaning": "分别地；依前述顺序对应地",
+        "context": "三种日子的因素与各自幸福、意义、丰富感对应，不能混成同一结果。",
+        "example": "The two forms measure time and accuracy, respectively.",
+        "collocations": [
+          "happy, meaningful, or rich respectively",
+          "correspond respectively"
+        ]
+      }
+    ],
+    "translation": "我想知道，依据上述诗歌归纳出的幸福、有意义和心理丰富的一天的关键因素，是否也分别让普通大学生的一天幸福、有意义或心理丰富。Hyewon Choi 和我请两百多名大学生连续十四天记录做了什么、感受如何，最终得到超过 2,600 份每日报告。",
+    "evidenceTargetIds": [
+      "c05-s03-p047-02625-s001"
+    ],
+    "evidence": [
+      {
+        "quote": "I wondered whether the key factors of a happy day, a meaningful day, and a psychologically rich day that I identified based on the poems above actually make ordinary college students’ days happy, meaningful, or psychologically rich, respectively.",
+        "sentenceIds": [
+          "c05-s03-p047-02625-s001"
+        ],
+        "sources": [
+          {
+            "pdfPage": 47,
+            "block": 2,
+            "bbox": [
+              76.99,
+              262.5,
+              535,
+              511.02
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "1cebd178cb9a613aa8aae154bc19282ebb202dc465569c3fdbb62a3f0a2d3279"
+  },
+  {
+    "id": "qe-c05-0043",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-015",
+    "parentQuestionId": "q-c05-025",
+    "chapterId": "c05",
+    "sectionId": "c05-s03",
+    "paragraphId": "c05-s03-p047-02625",
+    "readingUnitId": "c05-s03-p047-02625-r003-005",
+    "sentenceIds": [
+      "c05-s03-p047-02625-s003",
+      "c05-s03-p047-02625-s004",
+      "c05-s03-p047-02625-s005"
+    ],
+    "passage": "In addition to asking about happiness, meaning, and psychological richness, we asked them how typical or atypical each day was, how many routine activities they participated in, how much free time they had, and whether they did something new, met someone new, or ate something new. We also presented them with an activity checklist that asked them whether they volunteered, went to a concert, hiked, played a video game, and so on. These daily reports gave us a nice picture of how the students spent their days.",
+    "prompt": "What additional information was requested besides the three well-being dimensions?",
+    "promptZh": "除三种幸福感维度外，还询问了哪些信息？",
+    "options": [
+      "Only a complete family medical history.",
+      "Only which event students had been randomly assigned to attend.",
+      "Day typicality, routines, free time, and new activities, people, or food.",
+      "Only guesses about how strangers had spent their days."
+    ],
+    "optionsZh": [
+      "只问完整家族病史。",
+      "只问被随机分派参加哪件事。",
+      "每天典型性、常规活动、空闲，以及新活动、新人或新食物。",
+      "只猜陌生人怎样过日子。"
+    ],
+    "answer": 2,
+    "type": "细节",
+    "support": "explicit",
+    "analyses": [
+      "A 没有家族病史清单。",
+      "B 研究请其报告自己的日常，不是原句所说的随机事件分派。",
+      "C how typical/atypical、routine activities、free time 与三种 new 信息都在本句。",
+      "D them 指参与者报告自身一天，不是仅猜陌生人。"
+    ],
+    "vocabulary": [
+      {
+        "word": "typical",
+        "meaning": "典型的；符合平常模式的",
+        "context": "与 atypical 对照评价每天是否常规，不是道德好坏或收入标准。",
+        "example": "A typical afternoon involved reading in the same quiet room.",
+        "collocations": [
+          "a typical day",
+          "typical or atypical"
+        ]
+      }
+    ],
+    "translation": "除幸福、意义和心理丰富感外，我们还问每天典型还是不典型、参加多少常规活动、有多少空闲，以及是否做了新事、遇见新人或吃了新食物。我们还提供活动清单，询问是否做志愿服务、听音乐会、徒步、玩电子游戏等。这些每日报告让我们较清楚地看到学生怎样度过一天。",
+    "evidenceTargetIds": [
+      "c05-s03-p047-02625-s003"
+    ],
+    "evidence": [
+      {
+        "quote": "In addition to asking about happiness, meaning, and psychological richness, we asked them how typical or atypical each day was, how many routine activities they participated in, how much free time they had, and whether they did something new, met someone new, or ate something new.",
+        "sentenceIds": [
+          "c05-s03-p047-02625-s003"
+        ],
+        "sources": [
+          {
+            "pdfPage": 47,
+            "block": 2,
+            "bbox": [
+              76.99,
+              262.5,
+              535,
+              511.02
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "1bd07e7ddba7ce1455036ddc8172ca28f232f92a76447a95b63de4d2336eac02"
+  },
+  {
+    "id": "qe-c05-0044",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-015",
+    "parentQuestionId": "q-c05-025",
+    "chapterId": "c05",
+    "sectionId": "c05-s03",
+    "paragraphId": "c05-s03-p047-02625",
+    "readingUnitId": "c05-s03-p047-02625-r003-005",
+    "sentenceIds": [
+      "c05-s03-p047-02625-s003",
+      "c05-s03-p047-02625-s004",
+      "c05-s03-p047-02625-s005"
+    ],
+    "passage": "In addition to asking about happiness, meaning, and psychological richness, we asked them how typical or atypical each day was, how many routine activities they participated in, how much free time they had, and whether they did something new, met someone new, or ate something new. We also presented them with an activity checklist that asked them whether they volunteered, went to a concert, hiked, played a video game, and so on. These daily reports gave us a nice picture of how the students spent their days.",
+    "prompt": "What does 'a nice picture' mean for the daily reports?",
+    "promptZh": "日记报告提供 a nice picture 是什么意思？",
+    "options": [
+      "A literal photograph of every campus room.",
+      "An informative overview of how the students spent their days.",
+      "A perfect objective recording of every minute with no reporting error.",
+      "Proof that every student spent all days identically."
+    ],
+    "optionsZh": [
+      "每个校园房间的实物照片。",
+      "学生怎样过日子的有用概况。",
+      "绝无报告误差的每分钟完美客观记录。",
+      "证明每个学生每天都完全相同。"
+    ],
+    "answer": 1,
+    "type": "语境词义",
+    "support": "explicit",
+    "analyses": [
+      "A picture 在此不是照片。",
+      "B 报告活动与感受，构成生活模式的总体图景。",
+      "C nice 不表示完美无误，daily reports 仍是自报资料。",
+      "D 看见不同日常模式不等于全部相同，不能凭概况作个体统一结论。"
+    ],
+    "vocabulary": [
+      {
+        "word": "picture",
+        "meaning": "概况；图景（此处为比喻）",
+        "context": "a picture of how... 指理解学生日常的资料视角，不是相机影像。",
+        "example": "The interviews gave us a clearer picture of the decision process.",
+        "collocations": [
+          "a picture of daily life",
+          "give a clear picture"
+        ]
+      }
+    ],
+    "translation": "除幸福、意义和心理丰富感外，我们还问每天典型还是不典型、参加多少常规活动、有多少空闲，以及是否做了新事、遇见新人或吃了新食物。我们还提供活动清单，询问是否做志愿服务、听音乐会、徒步、玩电子游戏等。这些每日报告让我们较清楚地看到学生怎样度过一天。",
+    "evidenceTargetIds": [
+      "c05-s03-p047-02625-s005"
+    ],
+    "evidence": [
+      {
+        "quote": "In addition to asking about happiness, meaning, and psychological richness, we asked them how typical or atypical each day was, how many routine activities they participated in, how much free time they had, and whether they did something new, met someone new, or ate something new. We also presented them with an activity checklist that asked them whether they volunteered, went to a concert, hiked, played a video game, and so on. These daily reports gave us a nice picture of how the students spent their days.",
+        "sentenceIds": [
+          "c05-s03-p047-02625-s003",
+          "c05-s03-p047-02625-s004",
+          "c05-s03-p047-02625-s005"
+        ],
+        "sources": [
+          {
+            "pdfPage": 47,
+            "block": 2,
+            "bbox": [
+              76.99,
+              262.5,
+              535,
+              511.02
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "d7e58c6e0f9715ac62afc370cc8af9400134b8b9f9208fbc3d797f648118c736"
+  },
+  {
+    "id": "qe-c05-0045",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-015",
+    "parentQuestionId": "q-c05-026",
+    "chapterId": "c05",
+    "sectionId": "c05-s03",
+    "paragraphId": "c05-s03-p047-05160",
+    "readingUnitId": "c05-s03-p047-05160-r001-003",
+    "sentenceIds": [
+      "c05-s03-p047-05160-s001",
+      "c05-s03-p047-05160-s002",
+      "c05-s03-p047-05160-s003"
+    ],
+    "passage": "First, we found some common factors associated with all three aspects of well-being. It turned out that doing something new, eating something new, or meeting someone new enhanced not only psychological richness but also happiness and meaning. That is, most students reported that their day was happier, more meaningful, and richer on a day when they did something new, ate something new, or met someone new.",
+    "prompt": "What characterises the 'common factors' introduced first?",
+    "promptZh": "首先引入的 common factors 有什么特点？",
+    "options": [
+      "They are exclusively related to financial income.",
+      "They are unique to psychological richness and unrelated to happiness.",
+      "They prove identical preferences in every participant.",
+      "They are associated with all three aspects of well-being."
+    ],
+    "optionsZh": [
+      "只与经济收入有关。",
+      "只属于心理丰富而与幸福无关。",
+      "证明每位参与者偏好完全相同。",
+      "与三种幸福感方面都有关联。"
+    ],
+    "answer": 3,
+    "type": "细节",
+    "support": "explicit",
+    "analyses": [
+      "A 不谈只有财务收入。",
+      "B common 和 all three 排除只限心理丰富。",
+      "C 因素共通不等于个体偏好全部相同。",
+      "D associated with all three aspects 是明确范围。associated 不应直接升级成对每个人的确定因果保证。"
+    ],
+    "vocabulary": [
+      {
+        "word": "associated with",
+        "meaning": "与……相关；与……有联系",
+        "context": "此处联系三种自报维度，不等于已随机操纵因素并证明必然因果。",
+        "example": "In the fictional report, longer sessions were associated with more notes.",
+        "collocations": [
+          "factors associated with well-being",
+          "be associated with"
+        ]
+      }
+    ],
+    "translation": "首先，我们发现一些与幸福、意义和心理丰富这三个方面都相关的共同因素。做新事、吃新食物或遇见新人，不仅增强心理丰富，也增强幸福与意义。也就是说，多数学生报告，在做新事、吃新食物或遇见新人的日子，他们更幸福、更有意义，也更丰富。这是原书对日记报告结果的表述，不额外改写为随机实验结论。",
+    "evidenceTargetIds": [
+      "c05-s03-p047-05160-s001"
+    ],
+    "evidence": [
+      {
+        "quote": "First, we found some common factors associated with all three aspects of well-being.",
+        "sentenceIds": [
+          "c05-s03-p047-05160-s001"
+        ],
+        "sources": [
+          {
+            "pdfPage": 47,
+            "block": 3,
+            "bbox": [
+              76.99,
+              516,
+              535.01,
+              628.02
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "faf23209c5c6e45ee1480dd9f0fbec78444746d64553601416a452cd66dbc4bb"
+  },
+  {
+    "id": "qe-c05-0046",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-015",
+    "parentQuestionId": "q-c05-026",
+    "chapterId": "c05",
+    "sectionId": "c05-s03",
+    "paragraphId": "c05-s03-p047-05160",
+    "readingUnitId": "c05-s03-p047-05160-r001-003",
+    "sentenceIds": [
+      "c05-s03-p047-05160-s001",
+      "c05-s03-p047-05160-s002",
+      "c05-s03-p047-05160-s003"
+    ],
+    "passage": "First, we found some common factors associated with all three aspects of well-being. It turned out that doing something new, eating something new, or meeting someone new enhanced not only psychological richness but also happiness and meaning. That is, most students reported that their day was happier, more meaningful, and richer on a day when they did something new, ate something new, or met someone new.",
+    "prompt": "Which outcomes were higher on novelty days in the reported pattern?",
+    "promptZh": "报告的模式中，有新体验的日子哪些结果更高？",
+    "options": [
+      "Happiness, meaning, and psychological richness.",
+      "Happiness alone.",
+      "Psychological richness alone.",
+      "Meaning alone."
+    ],
+    "optionsZh": [
+      "幸福、意义与心理丰富。",
+      "只有幸福。",
+      "只有心理丰富。",
+      "只有意义。"
+    ],
+    "answer": 0,
+    "type": "细节",
+    "support": "explicit",
+    "analyses": [
+      "A not only richness but also happiness and meaning 明示三项，下一句以 most students reported 解释。",
+      "B alone 删掉其他两项。",
+      "C not only 正是说不止心理丰富。",
+      "D 意义也不是唯一一项。结合日记自报研究阅读 enhanced，不将其改成随机干预后所有人的必然提高。"
+    ],
+    "vocabulary": [
+      {
+        "word": "enhanced",
+        "meaning": "增强；提高",
+        "context": "原文用于概括结果，须结合后面的日记自报限定理解，而非增添随机实验设计。",
+        "example": "The revised illustration enhanced the clarity of the explanation.",
+        "collocations": [
+          "enhance psychological richness",
+          "enhance clarity"
+        ]
+      }
+    ],
+    "translation": "首先，我们发现一些与幸福、意义和心理丰富这三个方面都相关的共同因素。做新事、吃新食物或遇见新人，不仅增强心理丰富，也增强幸福与意义。也就是说，多数学生报告，在做新事、吃新食物或遇见新人的日子，他们更幸福、更有意义，也更丰富。这是原书对日记报告结果的表述，不额外改写为随机实验结论。",
+    "evidenceTargetIds": [
+      "c05-s03-p047-05160-s002"
+    ],
+    "evidence": [
+      {
+        "quote": "First, we found some common factors associated with all three aspects of well-being. It turned out that doing something new, eating something new, or meeting someone new enhanced not only psychological richness but also happiness and meaning. That is, most students reported that their day was happier, more meaningful, and richer on a day when they did something new, ate something new, or met someone new.",
+        "sentenceIds": [
+          "c05-s03-p047-05160-s001",
+          "c05-s03-p047-05160-s002",
+          "c05-s03-p047-05160-s003"
+        ],
+        "sources": [
+          {
+            "pdfPage": 47,
+            "block": 3,
+            "bbox": [
+              76.99,
+              516,
+              535.01,
+              628.02
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "7799ddfeb659012d628504eb495b43d69b264079df87c45a41b520191492e2af"
+  },
+  {
+    "id": "qe-c05-0047",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-015",
+    "parentQuestionId": "q-c05-027",
+    "chapterId": "c05",
+    "sectionId": "c05-s03",
+    "paragraphId": "c05-s03-p047-06330",
+    "readingUnitId": "c05-s03-p047-06330-r001-004",
+    "sentenceIds": [
+      "c05-s03-p047-06330-s001",
+      "c05-s03-p047-06330-s002",
+      "c05-s03-p047-06330-s003",
+      "c05-s03-p047-06330-s004"
+    ],
+    "passage": "Second, we found some unique predictors of a psychologically rich day. For instance, an atypical day was psychologically richer than a typical day, but an atypical day was not happier than a typical day. A day with more free time was psychologically richer than a day with less free time. In contrast, a free day was no more meaningful than a less free day.",
+    "prompt": "What does the second group of findings introduce?",
+    "promptZh": "第二组发现引入什么？",
+    "options": [
+      "Only the same factors shared by every dimension.",
+      "The financial costs of each diary entry.",
+      "Predictors that distinguish psychological richness from the other dimensions.",
+      "A proof that all happiness and meaning scores were zero."
+    ],
+    "optionsZh": [
+      "只有每个维度完全共享的同一因素。",
+      "每篇日记的经济成本。",
+      "使心理丰富与其他维度区分开的预测因素。",
+      "证明所有幸福和意义分数为零。"
+    ],
+    "answer": 2,
+    "type": "主旨",
+    "support": "explicit",
+    "analyses": [
+      "A unique 与此前 common 作对照，不是仅重复共享因素。",
+      "B 没有日记成本问题。",
+      "C 后例 atypical 更丰富却不更幸福、空闲更丰富却不更有意义，说明区分性预测。",
+      "D 不是说其他维度全为零，差异比较不可当成不存在。predictor 也不自动等于因果。"
+    ],
+    "vocabulary": [
+      {
+        "word": "predictors",
+        "meaning": "预测因素；与结果变化相联系的指标",
+        "context": "在这项日记研究中用于区分维度，不能直接当作保证某种结果的充分原因。",
+        "example": "The analyst compared possible predictors of the outcome.",
+        "collocations": [
+          "unique predictors",
+          "predictors of richness"
+        ]
+      }
+    ],
+    "translation": "其次，我们发现心理丰富的一天有一些独特预测因素。例如，不典型的一天比典型日子心理上更丰富，却并不更幸福。空闲更多的一天比空闲少的日子心理上更丰富。相反，更空闲的一天并不比不那么空闲的一天更有意义。",
+    "evidenceTargetIds": [
+      "c05-s03-p047-06330-s001"
+    ],
+    "evidence": [
+      {
+        "quote": "Second, we found some unique predictors of a psychologically rich day. For instance, an atypical day was psychologically richer than a typical day, but an atypical day was not happier than a typical day. A day with more free time was psychologically richer than a day with less free time. In contrast, a free day was no more meaningful than a less free day.",
+        "sentenceIds": [
+          "c05-s03-p047-06330-s001",
+          "c05-s03-p047-06330-s002",
+          "c05-s03-p047-06330-s003",
+          "c05-s03-p047-06330-s004"
+        ],
+        "sources": [
+          {
+            "pdfPage": 47,
+            "block": 4,
+            "bbox": [
+              76.99,
+              633,
+              535,
+              706.02
+            ]
+          },
+          {
+            "pdfPage": 48,
+            "block": 0,
+            "bbox": [
+              76.99,
+              75,
+              535.01,
+              226.02
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "542898c6d0a4cd0df23dd683516a4ef5990a798077e640620b7dcb746857737a"
+  },
+  {
+    "id": "qe-c05-0048",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-015",
+    "parentQuestionId": "q-c05-027",
+    "chapterId": "c05",
+    "sectionId": "c05-s03",
+    "paragraphId": "c05-s03-p047-06330",
+    "readingUnitId": "c05-s03-p047-06330-r001-004",
+    "sentenceIds": [
+      "c05-s03-p047-06330-s001",
+      "c05-s03-p047-06330-s002",
+      "c05-s03-p047-06330-s003",
+      "c05-s03-p047-06330-s004"
+    ],
+    "passage": "Second, we found some unique predictors of a psychologically rich day. For instance, an atypical day was psychologically richer than a typical day, but an atypical day was not happier than a typical day. A day with more free time was psychologically richer than a day with less free time. In contrast, a free day was no more meaningful than a less free day.",
+    "prompt": "Which comparison about free time is explicitly stated?",
+    "promptZh": "关于空闲时间，哪项比较在原文中明确出现？",
+    "options": [
+      "More free time was associated only with higher meaning and not richness.",
+      "Free time had no relation to the reported richness of a day.",
+      "Less free time made a day psychologically richer than more free time.",
+      "A day with more free time was psychologically richer than one with less."
+    ],
+    "optionsZh": [
+      "更多空闲只与更高意义有关，而与丰富无关。",
+      "空闲与报告的日子丰富程度无关。",
+      "空闲更少的一天心理上更丰富。",
+      "空闲更多的一天比更少的一天心理上更丰富。"
+    ],
+    "answer": 3,
+    "type": "细节",
+    "support": "explicit",
+    "analyses": [
+      "A 把丰富和意义的模式混淆，后句还说 no more meaningful。",
+      "B richer than 是明示比较，不是无关联。",
+      "C 交换了 more 与 less 的方向。",
+      "D 保留原句比较，不能据此再补成更幸福或更有意义，也不能当作每个人的因果保证。"
+    ],
+    "vocabulary": [
+      {
+        "word": "free time",
+        "meaning": "空闲时间；可自由支配的时间",
+        "context": "free 在此是没有既定任务占用，不是免学费或免付钱。",
+        "example": "She used her free time to explore a different part of town.",
+        "collocations": [
+          "more free time",
+          "a day with less free time"
+        ]
+      }
+    ],
+    "translation": "其次，我们发现心理丰富的一天有一些独特预测因素。例如，不典型的一天比典型日子心理上更丰富，却并不更幸福。空闲更多的一天比空闲少的日子心理上更丰富。相反，更空闲的一天并不比不那么空闲的一天更有意义。",
+    "evidenceTargetIds": [
+      "c05-s03-p047-06330-s003"
+    ],
+    "evidence": [
+      {
+        "quote": "A day with more free time was psychologically richer than a day with less free time.",
+        "sentenceIds": [
+          "c05-s03-p047-06330-s003"
+        ],
+        "sources": [
+          {
+            "pdfPage": 47,
+            "block": 4,
+            "bbox": [
+              76.99,
+              633,
+              535,
+              706.02
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "7f8bf614aae6e3a6888536024508cc4633b9a61d05adae1d85bd600cd9ba56a7"
+  },
+  {
+    "id": "qe-c05-0049",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-015",
+    "parentQuestionId": "q-c05-028",
+    "chapterId": "c05",
+    "sectionId": "c05-s03",
+    "paragraphId": "c05-s03-p047-06330",
+    "readingUnitId": "c05-s03-p047-06330-r005-007",
+    "sentenceIds": [
+      "c05-s03-p047-06330-s005",
+      "c05-s03-p047-06330-s006",
+      "c05-s03-p047-06330-s007"
+    ],
+    "passage": "Finally, a day with more required work was happier and more meaningful than a day with less required work. That is, getting things done made the day happier and more meaningful, whereas doing something unusual made the day psychologically richer. Whether you’re taking a short trip to a vineyard, walking in an unfamiliar part of town, going to a baseball game, or calling an old friend from elementary school, doing something that you don’t usually do is more interesting and psychologically rich than doing things you do every day.",
+    "prompt": "Which dimensions were higher on days with more required work in the reported comparison?",
+    "promptZh": "报告的比较中，必须完成任务更多的日子哪些维度更高？",
+    "options": [
+      "Psychological richness alone.",
+      "Happiness and meaning.",
+      "Financial wealth alone.",
+      "None of the dimensions was compared."
+    ],
+    "optionsZh": [
+      "只有心理丰富。",
+      "幸福与意义。",
+      "只有财务财富。",
+      "没有比较任何维度。"
+    ],
+    "answer": 1,
+    "type": "细节",
+    "support": "explicit",
+    "analyses": [
+      "A 目标句写 happier and more meaningful，不是 richness alone。",
+      "B 两个比较形容词明确对应幸福和意义。",
+      "C 没有收入或财产测量。",
+      "D more...than 明确进行比较。按日记研究报告理解这一模式，不升级为过量工作对所有人的必然益处。"
+    ],
+    "vocabulary": [
+      {
+        "word": "required work",
+        "meaning": "必须完成的任务；需要做的工作",
+        "context": "不是所有自愿探索，也不能自动等同全职职业或法律强制。",
+        "example": "She finished the required work before choosing an optional activity.",
+        "collocations": [
+          "more required work",
+          "complete required work"
+        ]
+      }
+    ],
+    "translation": "最后，必须完成的工作更多的一天，比这类工作较少的一天更幸福、更有意义。也就是说，完成事务让一天更幸福、更有意义，而做不寻常的事让一天心理上更丰富。无论短途去葡萄园、走进城里陌生街区、看棒球赛，还是给小学老友打电话，做平时不常做的事，都比每天重复的事更有趣、更具心理丰富性。以上保留原书对报告结果的概括。",
+    "evidenceTargetIds": [
+      "c05-s03-p047-06330-s005"
+    ],
+    "evidence": [
+      {
+        "quote": "Finally, a day with more required work was happier and more meaningful than a day with less required work.",
+        "sentenceIds": [
+          "c05-s03-p047-06330-s005"
+        ],
+        "sources": [
+          {
+            "pdfPage": 48,
+            "block": 0,
+            "bbox": [
+              76.99,
+              75,
+              535.01,
+              226.02
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "0ec31c7e2f85b7baa7113df4a7531fcbe11ba4bbd662b8c76466089491ecad3e"
+  },
+  {
+    "id": "qe-c05-0050",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-015",
+    "parentQuestionId": "q-c05-028",
+    "chapterId": "c05",
+    "sectionId": "c05-s03",
+    "paragraphId": "c05-s03-p047-06330",
+    "readingUnitId": "c05-s03-p047-06330-r005-007",
+    "sentenceIds": [
+      "c05-s03-p047-06330-s005",
+      "c05-s03-p047-06330-s006",
+      "c05-s03-p047-06330-s007"
+    ],
+    "passage": "Finally, a day with more required work was happier and more meaningful than a day with less required work. That is, getting things done made the day happier and more meaningful, whereas doing something unusual made the day psychologically richer. Whether you’re taking a short trip to a vineyard, walking in an unfamiliar part of town, going to a baseball game, or calling an old friend from elementary school, doing something that you don’t usually do is more interesting and psychologically rich than doing things you do every day.",
+    "prompt": "What links the vineyard visit, unfamiliar walk, baseball game, and call to an old friend?",
+    "promptZh": "葡萄园短行、陌生街区散步、棒球赛和联系老友由什么共同点连接？",
+    "options": [
+      "They all require expensive international travel.",
+      "They all count as compulsory employment.",
+      "They illustrate doing something outside one's usual daily routine.",
+      "They are said to be new to every person in the world."
+    ],
+    "optionsZh": [
+      "都要求昂贵国际旅行。",
+      "都算强制性雇佣工作。",
+      "都是超出自己通常日常模式的事的例子。",
+      "都被说成对世界每个人都是新事。"
+    ],
+    "answer": 2,
+    "type": "主旨",
+    "support": "explicit",
+    "analyses": [
+      "A 例子包括本地散步和电话，不能只限昂贵出国。",
+      "B 这些不是全部职业义务。",
+      "C doing something that you don’t usually do 明示共同原则，与每天重复的事对照。",
+      "D usually 是相对个人习惯，不是全人类从未有过。例子不构成对某项付费活动的推荐。"
+    ],
+    "vocabulary": [
+      {
+        "word": "unfamiliar",
+        "meaning": "不熟悉的；陌生的",
+        "context": "unfamiliar part of town 可以是本地不熟悉街区，不等于必须出国或必定危险。",
+        "example": "She walked through an unfamiliar street and noticed the architecture.",
+        "collocations": [
+          "an unfamiliar part of town",
+          "an unfamiliar experience"
+        ]
+      }
+    ],
+    "translation": "最后，必须完成的工作更多的一天，比这类工作较少的一天更幸福、更有意义。也就是说，完成事务让一天更幸福、更有意义，而做不寻常的事让一天心理上更丰富。无论短途去葡萄园、走进城里陌生街区、看棒球赛，还是给小学老友打电话，做平时不常做的事，都比每天重复的事更有趣、更具心理丰富性。以上保留原书对报告结果的概括。",
+    "evidenceTargetIds": [
+      "c05-s03-p047-06330-s007"
+    ],
+    "evidence": [
+      {
+        "quote": "Whether you’re taking a short trip to a vineyard, walking in an unfamiliar part of town, going to a baseball game, or calling an old friend from elementary school, doing something that you don’t usually do is more interesting and psychologically rich than doing things you do every day.",
+        "sentenceIds": [
+          "c05-s03-p047-06330-s007"
+        ],
+        "sources": [
+          {
+            "pdfPage": 48,
+            "block": 0,
+            "bbox": [
+              76.99,
+              75,
+              535.01,
+              226.02
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "a6eb4dc3487aa98ef26a9c7fda29c362e91274f87bd037969f79ffc5e08e69f0"
+  },
+  {
+    "id": "qe-c05-0051",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-015",
+    "parentQuestionId": "q-c05-029",
+    "chapterId": "c05",
+    "sectionId": "c05-s03",
+    "paragraphId": "c05-s03-p048-02310",
+    "readingUnitId": "c05-s03-p048-02310-r001-003",
+    "sentenceIds": [
+      "c05-s03-p048-02310-s001",
+      "c05-s03-p048-02310-s002",
+      "c05-s03-p048-02310-s003"
+    ],
+    "passage": "Subsequent analyses also showed that a happy day was one in which participants experienced a lot of positive emotions and did not feel many negative emotions. In contrast, a psychologically rich day was one in which they felt more emotions—both positive and negative—than on a typical day. For example, if you are a liberal, watching Fox News might make you upset, but it would be more interesting than watching CNN or another network that more closely reflects your views.",
+    "prompt": "What does the hypothetical news-viewing example illustrate?",
+    "promptZh": "假设性的看新闻例子说明什么？",
+    "options": [
+      "Interest can coexist with upset when a viewpoint differs from one's own.",
+      "Every liberal viewer must always react in the same way.",
+      "The author has established one network as objectively best for all citizens.",
+      "Feeling upset proves that an experience cannot be psychologically rich."
+    ],
+    "optionsZh": [
+      "观点不同时，兴趣可以与不悦同时出现。",
+      "每位自由派观众总必定同样反应。",
+      "作者已确立某台对所有公民客观最佳。",
+      "不悦证明体验不可能心理丰富。"
+    ],
+    "answer": 0,
+    "type": "作者意图",
+    "support": "explicit",
+    "analyses": [
+      "A might make you upset, but...more interesting 与前面正负情绪并存的丰富日子相呼应。",
+      "B If 和 might 保留假设及可能性，不能换成 every always must。",
+      "C 不是当前新闻台质量排名或全民实验。",
+      "D 这正是兴趣与负面感受可能并存的例子，不是排斥。也不要由此推测具体读者政治身份。"
+    ],
+    "vocabulary": [
+      {
+        "word": "reflects your views",
+        "meaning": "反映或契合你的观点",
+        "context": "在此指节目内容与个人看法接近，不是镜面反射，也不说明媒体必然制造某人立场。",
+        "example": "One review reflected her interpretation more closely than another.",
+        "collocations": [
+          "reflect one's views",
+          "closely reflect a perspective"
+        ]
+      }
+    ],
+    "translation": "后续分析还显示，幸福的一天是参与者有许多正面情绪、却没有多少负面情绪的一天。相比之下，心理丰富的一天，是他们比平常感到更多情绪的一天——既有正面，也有负面。例如，如果你是自由派，观看 Fox News 也许会不悦，却可能比观看 CNN 或其他更契合自己观点的频道更有趣。",
+    "evidenceTargetIds": [
+      "c05-s03-p048-02310-s003"
+    ],
+    "evidence": [
+      {
+        "quote": "Subsequent analyses also showed that a happy day was one in which participants experienced a lot of positive emotions and did not feel many negative emotions. In contrast, a psychologically rich day was one in which they felt more emotions—both positive and negative—than on a typical day. For example, if you are a liberal, watching Fox News might make you upset, but it would be more interesting than watching CNN or another network that more closely reflects your views.",
+        "sentenceIds": [
+          "c05-s03-p048-02310-s001",
+          "c05-s03-p048-02310-s002",
+          "c05-s03-p048-02310-s003"
+        ],
+        "sources": [
+          {
+            "pdfPage": 48,
+            "block": 1,
+            "bbox": [
+              76.99,
+              231,
+              535,
+              362.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "660c6a9e0e650cde8d342a79ac016ca70dea0b8fc6deeb23ca064fc11f326e17"
+  },
+  {
+    "id": "qe-c05-0052",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-015",
+    "parentQuestionId": "q-c05-030",
+    "chapterId": "c05",
+    "sectionId": "c05-s04",
+    "paragraphId": "c05-s04-p048-04185",
+    "readingUnitId": "c05-s04-p048-04185-r001-003",
+    "sentenceIds": [
+      "c05-s04-p048-04185-s001",
+      "c05-s04-p048-04185-s002",
+      "c05-s04-p048-04185-s003"
+    ],
+    "passage": "If novelty, complexity, and perspective change are the key ingredients to psychological richness, studying abroad must rank near the top of the ranking of psychologically rich events. After all, study abroad involves putting yourself in an unfamiliar culture with different landscapes, customs, and norms—a totally new way of life. It’s exciting but also challenging at many levels.",
+    "prompt": "What is the logical status of the claim that study abroad 'must rank near the top'?",
+    "promptZh": "留学 must rank near the top 这一说法的逻辑性质是什么？",
+    "options": [
+      "An independently measured league table covering every possible event.",
+      "A guarantee that every student's experience is identical.",
+      "An inference from the stated ingredients, introduced with an if-clause.",
+      "A finding that study abroad is necessarily unhappy and has no value."
+    ],
+    "optionsZh": [
+      "覆盖一切事件的独立实测排名表。",
+      "保证每个学生体验相同。",
+      "以 if 条件句引入、根据已述成分作出的推断。",
+      "留学必然不幸福且无价值的发现。"
+    ],
+    "answer": 2,
+    "type": "逻辑关系",
+    "support": "explicit",
+    "analyses": [
+      "A 没有给排名量表、名次数据或覆盖所有事件的测量。",
+      "B 判断一种事件可能很丰富，不保证每人相同。",
+      "C If novelty, complexity, and perspective change... 将 must rank 建立在这些成分的条件推断上。",
+      "D 作者还说 exciting but challenging，不是毫无价值。near the top 也不是确切第一名。"
+    ],
+    "vocabulary": [
+      {
+        "word": "rank near the top",
+        "meaning": "名列前茅；位居较高位置",
+        "context": "是条件推理中的概括，不是原句提供了精确名次或当前留学排名。",
+        "example": "The activity could rank near the top of her list of memorable experiences.",
+        "collocations": [
+          "rank near the top",
+          "a high-ranking experience"
+        ]
+      }
+    ],
+    "translation": "如果新奇、复杂性和视角变化是心理丰富的关键成分，那么留学必然在心理丰富事件中名列前茅。毕竟，留学让自己进入陌生文化，面对不同景观、习俗和规范——全新的生活方式。这令人兴奋，却也在许多层面充满挑战。",
+    "evidenceTargetIds": [
+      "c05-s04-p048-04185-s001"
+    ],
+    "evidence": [
+      {
+        "quote": "If novelty, complexity, and perspective change are the key ingredients to psychological richness, studying abroad must rank near the top of the ranking of psychologically rich events.",
+        "sentenceIds": [
+          "c05-s04-p048-04185-s001"
+        ],
+        "sources": [
+          {
+            "pdfPage": 48,
+            "block": 3,
+            "bbox": [
+              76.99,
+              418.5,
+              535,
+              530.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "2d4901967460673c2a0d64c5123c4b8f6b93770d8302e6ac50d5eb176cf6a55f"
+  },
+  {
+    "id": "qe-c05-0053",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-015",
+    "parentQuestionId": "q-c05-033",
+    "chapterId": "c05",
+    "sectionId": "c05-s04",
+    "paragraphId": "c05-s04-p048-06525",
+    "readingUnitId": "c05-s04-p048-06525-r005-008",
+    "sentenceIds": [
+      "c05-s04-p048-06525-s005",
+      "c05-s04-p048-06525-s006",
+      "c05-s04-p048-06525-s007",
+      "c05-s04-p048-06525-s008"
+    ],
+    "passage": "Consequently, it is harder for students from a lower socioeconomic status to participate. I couldn’t have done it myself if I hadn’t gotten the Rotary International scholarship (which paid for full tuition, room and board, textbooks, round-trip airfare, and even a one-month summer English class!). When I got this scholarship, I asked my undergraduate advisor, Professor Hara, where I should go. He was a big fan of liberal arts colleges and recommended three in Maine.",
+    "prompt": "How is participation characterised for students with lower socioeconomic status?",
+    "promptZh": "对于社会经济地位较低的学生，原文怎样描述参与留学？",
+    "options": [
+      "Automatically easier because everyone receives full funding.",
+      "Formally prohibited by every university.",
+      "Evidence that they have lower academic ability.",
+      "Harder, without saying it is impossible or judging their ability."
+    ],
+    "optionsZh": [
+      "所有人都全额资助，所以自动更容易。",
+      "每所大学都正式禁止。",
+      "证明其学术能力较低。",
+      "更困难，但没有说不可能或评价其能力。"
+    ],
+    "answer": 3,
+    "type": "细节",
+    "support": "explicit",
+    "analyses": [
+      "A 作者自己的奖学金不能扩大到所有人都有。",
+      "B harder 不等于正式禁令。",
+      "C 参与障碍不能改成智力或学术能力诊断。",
+      "D it is harder...to participate 保留比较程度，后面奖学金经历体现资源条件，而非绝对不可能。"
+    ],
+    "vocabulary": [
+      {
+        "word": "socioeconomic status",
+        "meaning": "社会经济地位",
+        "context": "这里与参与留学的资源障碍有关，不应转为能力或道德的优劣标签。",
+        "example": "The fictional survey considered socioeconomic status as one background variable.",
+        "collocations": [
+          "lower socioeconomic status",
+          "students from different socioeconomic backgrounds"
+        ]
+      }
+    ],
+    "translation": "因此，社会经济地位较低的学生更难参加。如果没获得 Rotary International 奖学金，我自己也做不到；它支付了全部学费、食宿、教材、往返机票，甚至一个月的暑期英语课！获得奖学金后，我问本科导师 Hara 教授该去哪里。他很推崇文理学院，推荐了缅因州的三所。",
+    "evidenceTargetIds": [
+      "c05-s04-p048-06525-s005"
+    ],
+    "evidence": [
+      {
+        "quote": "Consequently, it is harder for students from a lower socioeconomic status to participate.",
+        "sentenceIds": [
+          "c05-s04-p048-06525-s005"
+        ],
+        "sources": [
+          {
+            "pdfPage": 48,
+            "block": 5,
+            "bbox": [
+              76.99,
+              652.5,
+              535,
+              706.02
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "89d30e9df55a211f7b3dbfa2948d2f374f7a1052e875e0200f890551e7928c58"
+  },
+  {
+    "id": "qe-c05-0054",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-015",
+    "parentQuestionId": "q-c05-033",
+    "chapterId": "c05",
+    "sectionId": "c05-s04",
+    "paragraphId": "c05-s04-p048-06525",
+    "readingUnitId": "c05-s04-p048-06525-r005-008",
+    "sentenceIds": [
+      "c05-s04-p048-06525-s005",
+      "c05-s04-p048-06525-s006",
+      "c05-s04-p048-06525-s007",
+      "c05-s04-p048-06525-s008"
+    ],
+    "passage": "Consequently, it is harder for students from a lower socioeconomic status to participate. I couldn’t have done it myself if I hadn’t gotten the Rotary International scholarship (which paid for full tuition, room and board, textbooks, round-trip airfare, and even a one-month summer English class!). When I got this scholarship, I asked my undergraduate advisor, Professor Hara, where I should go. He was a big fan of liberal arts colleges and recommended three in Maine.",
+    "prompt": "Whom did the narrator consult after receiving the scholarship, and about what?",
+    "promptZh": "获奖学金后，作者请教谁、询问什么？",
+    "options": [
+      "Professor Hara about his favourite jazz musician.",
+      "Professor Hara about where he should study.",
+      "Dean Reese about which scholarship he should apply for.",
+      "A dormitory manager about the exact cost of every room."
+    ],
+    "optionsZh": [
+      "问 Hara 教授最喜欢的爵士乐手。",
+      "问 Hara 教授应该去哪里学习。",
+      "问 Reese 院长应该申请哪项奖学金。",
+      "问宿舍管理员每个房间确切费用。"
+    ],
+    "answer": 1,
+    "type": "细节",
+    "support": "explicit",
+    "analyses": [
+      "A 音乐谈话属于后面与 Reese 的另一场景。",
+      "B asked my undergraduate advisor, Professor Hara, where I should go 明示对象和问题。",
+      "C 已经得到奖学金后请教去向，不能换成申请奖项及另一个人。",
+      "D 没有宿舍管理员的逐房费用询问。"
+    ],
+    "vocabulary": [
+      {
+        "word": "undergraduate advisor",
+        "meaning": "本科导师；本科阶段的指导教师",
+        "context": "明确 Hara 的关系，不是后面机场接人的院长或 Gopnik 的历史专家。",
+        "example": "Her undergraduate advisor suggested several possible courses.",
+        "collocations": [
+          "ask an undergraduate advisor",
+          "consult one's advisor"
+        ]
+      }
+    ],
+    "translation": "因此，社会经济地位较低的学生更难参加。如果没获得 Rotary International 奖学金，我自己也做不到；它支付了全部学费、食宿、教材、往返机票，甚至一个月的暑期英语课！获得奖学金后，我问本科导师 Hara 教授该去哪里。他很推崇文理学院，推荐了缅因州的三所。",
+    "evidenceTargetIds": [
+      "c05-s04-p048-06525-s007"
+    ],
+    "evidence": [
+      {
+        "quote": "When I got this scholarship, I asked my undergraduate advisor, Professor Hara, where I should go.",
+        "sentenceIds": [
+          "c05-s04-p048-06525-s007"
+        ],
+        "sources": [
+          {
+            "pdfPage": 49,
+            "block": 0,
+            "bbox": [
+              76.99,
+              75,
+              535.01,
+              421.02
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "7a1c81d298f6e679fb2e7dcc867b832d67e44c1375e30abac5836704b37d1aa9"
+  },
+  {
+    "id": "qe-c05-0055",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-015",
+    "parentQuestionId": "q-c05-033",
+    "chapterId": "c05",
+    "sectionId": "c05-s04",
+    "paragraphId": "c05-s04-p048-06525",
+    "readingUnitId": "c05-s04-p048-06525-r005-008",
+    "sentenceIds": [
+      "c05-s04-p048-06525-s005",
+      "c05-s04-p048-06525-s006",
+      "c05-s04-p048-06525-s007",
+      "c05-s04-p048-06525-s008"
+    ],
+    "passage": "Consequently, it is harder for students from a lower socioeconomic status to participate. I couldn’t have done it myself if I hadn’t gotten the Rotary International scholarship (which paid for full tuition, room and board, textbooks, round-trip airfare, and even a one-month summer English class!). When I got this scholarship, I asked my undergraduate advisor, Professor Hara, where I should go. He was a big fan of liberal arts colleges and recommended three in Maine.",
+    "prompt": "What did Professor Hara recommend?",
+    "promptZh": "Hara 教授推荐了什么？",
+    "options": [
+      "Three liberal arts colleges in Maine.",
+      "Three universities in Tokyo.",
+      "One liberal arts college in New York City.",
+      "Three technical institutes in California."
+    ],
+    "optionsZh": [
+      "缅因州三所文理学院。",
+      "东京三所大学。",
+      "纽约市一所文理学院。",
+      "加州三所技术学院。"
+    ],
+    "answer": 0,
+    "type": "细节",
+    "support": "explicit",
+    "analyses": [
+      "A recommended three in Maine 中 three 承接 liberal arts colleges。",
+      "B 地区不是东京。",
+      "C 数量为三，地点也不是纽约市。",
+      "D 加州技术学院来自别处学术背景，不能替换此句。这是书中导师当时的建议，不是当前择校排名。"
+    ],
+    "vocabulary": [
+      {
+        "word": "liberal arts colleges",
+        "meaning": "文理学院；重视广博本科教育的学院",
+        "context": "是机构类别，不等同于政治自由派立场；本句也没有给出当前费用或招生信息。",
+        "example": "The student compared the teaching styles of several liberal arts colleges.",
+        "collocations": [
+          "a liberal arts college",
+          "a fan of liberal arts colleges"
+        ]
+      }
+    ],
+    "translation": "因此，社会经济地位较低的学生更难参加。如果没获得 Rotary International 奖学金，我自己也做不到；它支付了全部学费、食宿、教材、往返机票，甚至一个月的暑期英语课！获得奖学金后，我问本科导师 Hara 教授该去哪里。他很推崇文理学院，推荐了缅因州的三所。",
+    "evidenceTargetIds": [
+      "c05-s04-p048-06525-s008"
+    ],
+    "evidence": [
+      {
+        "quote": "He was a big fan of liberal arts colleges and recommended three in Maine.",
+        "sentenceIds": [
+          "c05-s04-p048-06525-s008"
+        ],
+        "sources": [
+          {
+            "pdfPage": 49,
+            "block": 0,
+            "bbox": [
+              76.99,
+              75,
+              535.01,
+              421.02
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "0933e10081491f775dfd9f28d440b5be622a75078dc54f96e559f7824768555c"
+  },
+  {
+    "id": "qe-c05-0056",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-015",
+    "parentQuestionId": "q-c05-034",
+    "chapterId": "c05",
+    "sectionId": "c05-s04",
+    "paragraphId": "c05-s04-p048-06525",
+    "readingUnitId": "c05-s04-p048-06525-r009-012",
+    "sentenceIds": [
+      "c05-s04-p048-06525-s009",
+      "c05-s04-p048-06525-s010",
+      "c05-s04-p048-06525-s011",
+      "c05-s04-p048-06525-s012"
+    ],
+    "passage": "His assumption was that I would not see other Japanese students and would learn English best there. In July 1991, I left Tokyo for New York City. I spent one month at Wagner College on Staten Island studying English. Then I flew to Portland, Maine, in August.",
+    "prompt": "What expectation lay behind the advisor's recommendation?",
+    "promptZh": "导师推荐背后有什么设想？",
+    "options": [
+      "The narrator had already mastered English before departure.",
+      "Being geographically close to Japan was the primary goal.",
+      "Meeting only Japanese students would provide the best English practice.",
+      "The narrator would not meet other Japanese students there and would learn English best."
+    ],
+    "optionsZh": [
+      "作者出发前已完全掌握英语。",
+      "最主要目标是离日本地理上近。",
+      "只遇见日本学生能最好练英语。",
+      "作者在那里不会遇到其他日本学生，能最好地学习英语。"
+    ],
+    "answer": 3,
+    "type": "观点归属",
+    "support": "explicit",
+    "analyses": [
+      "A 没有出发前已经精通的事实。",
+      "B 本句没有地理邻近理由。",
+      "C 把 would not see other Japanese students 的方向倒置。",
+      "D His assumption was that 标明导师的预期，并给出两项内容；不能因此保证所有学生都在该地效果最好或宣称从未实际遇到日本人。"
+    ],
+    "vocabulary": [
+      {
+        "word": "assumption",
+        "meaning": "设想；未经此句独立验证的预期",
+        "context": "提示建议依据的判断地位，不是后来已证实的普遍结果。",
+        "example": "The plan depended on an assumption about how much time would be available.",
+        "collocations": [
+          "his assumption was that",
+          "make an assumption"
+        ]
+      }
+    ],
+    "translation": "他的设想是，我在那里不会遇到其他日本学生，能最好地学英语。1991 年七月，我离开东京前往纽约，在 Staten Island 的 Wagner College 学了一个月英语。然后八月飞往缅因州 Portland。",
+    "evidenceTargetIds": [
+      "c05-s04-p048-06525-s009"
+    ],
+    "evidence": [
+      {
+        "quote": "His assumption was that I would not see other Japanese students and would learn English best there.",
+        "sentenceIds": [
+          "c05-s04-p048-06525-s009"
+        ],
+        "sources": [
+          {
+            "pdfPage": 49,
+            "block": 0,
+            "bbox": [
+              76.99,
+              75,
+              535.01,
+              421.02
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "de729ac1363f1dcc6ec71441121ced22ae357aa1e6dc55b15d2c0ee4a6517e1b"
+  },
+  {
+    "id": "qe-c05-0057",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-015",
+    "parentQuestionId": "q-c05-035",
+    "chapterId": "c05",
+    "sectionId": "c05-s04",
+    "paragraphId": "c05-s04-p048-06525",
+    "readingUnitId": "c05-s04-p048-06525-r013-016",
+    "sentenceIds": [
+      "c05-s04-p048-06525-s013",
+      "c05-s04-p048-06525-s014",
+      "c05-s04-p048-06525-s015",
+      "c05-s04-p048-06525-s016"
+    ],
+    "passage": "Dean James Reese picked me up at the airport and drove us up to Bates College in Lewiston. Thirty-plus years later, I still remember our conversation in the car on that warm afternoon. “What is your favorite music?” Dean Reese asked.",
+    "prompt": "What did Dean James Reese do when the narrator arrived?",
+    "promptZh": "作者抵达时，James Reese 院长做了什么？",
+    "options": [
+      "He drove the narrator from Bates College back to the airport.",
+      "He took the narrator to Wagner College in New York.",
+      "He picked the narrator up at the airport and drove to Bates College in Lewiston.",
+      "Professor Hara, rather than Reese, drove the narrator to Bates."
+    ],
+    "optionsZh": [
+      "从 Bates College 送作者回机场。",
+      "带作者去纽约的 Wagner College。",
+      "到机场接作者，开车去 Lewiston 的 Bates College。",
+      "是 Hara 而非 Reese 开车带作者去 Bates。"
+    ],
+    "answer": 2,
+    "type": "细节",
+    "support": "explicit",
+    "analyses": [
+      "A 接机去学院不是从学院回机场，方向颠倒。",
+      "B Wagner 是之前一个月英语学习地点，不是该次接送终点。",
+      "C picked me up at the airport and drove us up to Bates College in Lewiston 保留人、起点、终点。",
+      "D 与 Dean James Reese 作主语不符。"
+    ],
+    "vocabulary": [
+      {
+        "word": "picked me up",
+        "meaning": "来接我；接载我",
+        "context": "机场语境是接送，不是把人举起或说接电话。",
+        "example": "My friend picked me up at the station.",
+        "collocations": [
+          "pick someone up at the airport",
+          "pick someone up and drive"
+        ]
+      }
+    ],
+    "translation": "James Reese 院长到机场接我，开车带我们去 Lewiston 的 Bates College。三十多年后，我仍记得那个暖和下午的车中谈话。“你最喜欢什么音乐？”Reese 院长问。",
+    "evidenceTargetIds": [
+      "c05-s04-p048-06525-s013"
+    ],
+    "evidence": [
+      {
+        "quote": "Dean James Reese picked me up at the airport and drove us up to Bates College in Lewiston.",
+        "sentenceIds": [
+          "c05-s04-p048-06525-s013"
+        ],
+        "sources": [
+          {
+            "pdfPage": 49,
+            "block": 0,
+            "bbox": [
+              76.99,
+              75,
+              535.01,
+              421.02
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "a2717a51cc90c67e5a23301db6bcec10df8aedcd2057679a94e4253dd3de537e"
+  },
+  {
+    "id": "qe-c05-0058",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-015",
+    "parentQuestionId": "q-c05-035",
+    "chapterId": "c05",
+    "sectionId": "c05-s04",
+    "paragraphId": "c05-s04-p048-06525",
+    "readingUnitId": "c05-s04-p048-06525-r013-016",
+    "sentenceIds": [
+      "c05-s04-p048-06525-s013",
+      "c05-s04-p048-06525-s014",
+      "c05-s04-p048-06525-s015",
+      "c05-s04-p048-06525-s016"
+    ],
+    "passage": "Dean James Reese picked me up at the airport and drove us up to Bates College in Lewiston. Thirty-plus years later, I still remember our conversation in the car on that warm afternoon. “What is your favorite music?” Dean Reese asked.",
+    "prompt": "What kind of preference is requested by 'What is your favorite music'?",
+    "promptZh": "What is your favorite music 询问哪类喜好？",
+    "options": [
+      "A preferred kind of music.",
+      "A favourite named musician.",
+      "A preferred college major.",
+      "The date of the next music lesson."
+    ],
+    "optionsZh": [
+      "喜欢的音乐类型。",
+      "最喜欢的具体音乐家。",
+      "偏爱的大学专业。",
+      "下次音乐课日期。"
+    ],
+    "answer": 0,
+    "type": "细节",
+    "support": "explicit",
+    "analyses": [
+      "A music 是音乐本身，后面的 Jazz 回答也与类型对应。",
+      "B musician 是后面另一问，不能把 music 与 musician 混同。",
+      "C 没有专业选择。",
+      "D 不是问课程时间。保留原页问句措辞，不擅把英文改写成另一问法。"
+    ],
+    "vocabulary": [
+      {
+        "word": "favorite",
+        "meaning": "最喜欢的；最偏爱的",
+        "context": "询问音乐偏好，不意味着只知道或只能喜欢一种音乐。",
+        "example": "What is your favorite kind of story?",
+        "collocations": [
+          "favorite music",
+          "a favorite musician"
+        ]
+      }
+    ],
+    "translation": "James Reese 院长到机场接我，开车带我们去 Lewiston 的 Bates College。三十多年后，我仍记得那个暖和下午的车中谈话。“你最喜欢什么音乐？”Reese 院长问。",
+    "evidenceTargetIds": [
+      "c05-s04-p048-06525-s015"
+    ],
+    "evidence": [
+      {
+        "quote": "“What is your favorite music?” Dean Reese asked.",
+        "sentenceIds": [
+          "c05-s04-p048-06525-s015",
+          "c05-s04-p048-06525-s016"
+        ],
+        "sources": [
+          {
+            "pdfPage": 49,
+            "block": 0,
+            "bbox": [
+              76.99,
+              75,
+              535.01,
+              421.02
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "fbd70639ab961e8b73bf69170fb12b2bad8020d60ca285cfd8862b9bfa8b1ed1"
+  },
+  {
+    "id": "qe-c05-0059",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-015",
+    "parentQuestionId": "q-c05-035",
+    "chapterId": "c05",
+    "sectionId": "c05-s04",
+    "paragraphId": "c05-s04-p048-06525",
+    "readingUnitId": "c05-s04-p048-06525-r013-016",
+    "sentenceIds": [
+      "c05-s04-p048-06525-s013",
+      "c05-s04-p048-06525-s014",
+      "c05-s04-p048-06525-s015",
+      "c05-s04-p048-06525-s016"
+    ],
+    "passage": "Dean James Reese picked me up at the airport and drove us up to Bates College in Lewiston. Thirty-plus years later, I still remember our conversation in the car on that warm afternoon. “What is your favorite music?” Dean Reese asked.",
+    "prompt": "Who asks the question about favourite music?",
+    "promptZh": "谁提出关于喜欢什么音乐的问题？",
+    "options": [
+      "The narrator.",
+      "Dean Reese.",
+      "Professor Hara.",
+      "Mike, the roommate."
+    ],
+    "optionsZh": [
+      "作者。",
+      "Reese 院长。",
+      "Hara 教授。",
+      "室友 Mike。"
+    ],
+    "answer": 1,
+    "type": "观点归属",
+    "support": "explicit",
+    "analyses": [
+      "A 作者在下一段作答，不是这句提问者。",
+      "B Dean Reese asked 是明确引语归属。",
+      "C Hara 是此前提供学院建议的人，不是机场车中这句的说话人。",
+      "D Mike 是后面电话故事里的室友，角色不可前移。完整证据把问句与报告分句连接，候选ID的拆分不当作两个独立完整陈述。"
+    ],
+    "vocabulary": [
+      {
+        "word": "asked",
+        "meaning": "问道；提出问题（引语报告动词）",
+        "context": "主语 Dean Reese 标记发问者，不是下一句回答者。",
+        "example": "'Where is the station?' she asked.",
+        "collocations": [
+          "Dean Reese asked",
+          "ask a question"
+        ]
+      }
+    ],
+    "translation": "James Reese 院长到机场接我，开车带我们去 Lewiston 的 Bates College。三十多年后，我仍记得那个暖和下午的车中谈话。“你最喜欢什么音乐？”Reese 院长问。",
+    "evidenceTargetIds": [
+      "c05-s04-p048-06525-s016"
+    ],
+    "evidence": [
+      {
+        "quote": "“What is your favorite music?” Dean Reese asked.",
+        "sentenceIds": [
+          "c05-s04-p048-06525-s015",
+          "c05-s04-p048-06525-s016"
+        ],
+        "sources": [
+          {
+            "pdfPage": 49,
+            "block": 0,
+            "bbox": [
+              76.99,
+              75,
+              535.01,
+              421.02
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "ba5d983933fa139d1b664fc3d19c8899b62ef7e258a49c224cf0d198a86e7981"
+  },
+  {
+    "id": "qe-c05-0060",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-015",
+    "parentQuestionId": "q-c05-036",
+    "chapterId": "c05",
+    "sectionId": "c05-s04",
+    "paragraphId": "c05-s04-p048-06525",
+    "readingUnitId": "c05-s04-p048-06525-r017-020",
+    "sentenceIds": [
+      "c05-s04-p048-06525-s017",
+      "c05-s04-p048-06525-s018",
+      "c05-s04-p048-06525-s019",
+      "c05-s04-p048-06525-s020"
+    ],
+    "passage": "“Jazz,” I said. Dean Reese, who is Black, replied, “I love jazz, too!” He then asked, “Who’s your favorite musician?” Somehow the most well-known names, like Charlie Parker and Miles Davis, escaped me at that moment.",
+    "prompt": "What answer does the narrator give about music?",
+    "promptZh": "作者对音乐喜好给出什么回答？",
+    "options": [
+      "Classical music.",
+      "Blues.",
+      "Jazz.",
+      "Rock."
+    ],
+    "optionsZh": [
+      "古典乐。",
+      "蓝调。",
+      "爵士乐。",
+      "摇滚乐。"
+    ],
+    "answer": 2,
+    "type": "细节",
+    "support": "explicit",
+    "analyses": [
+      "A 当前原句没有回答古典乐。",
+      "B 不是 Blues。",
+      "C Jazz, I said 明示回答内容和说话者。",
+      "D 不是 Rock。后面人物也爱爵士不改变这里首先作答的是作者，不能把音乐类型当成某位音乐家姓名。"
+    ],
+    "vocabulary": [
+      {
+        "word": "Jazz",
+        "meaning": "爵士乐",
+        "context": "是被问到音乐类型时的回答，不是大学、乐手名字或来源国的证明。",
+        "example": "The café played jazz during the afternoon.",
+        "collocations": [
+          "listen to jazz",
+          "love jazz"
+        ]
+      }
+    ],
+    "translation": "“爵士乐。”我说。身为黑人的 Reese 院长回答：“我也爱爵士！”接着问：“你最喜欢哪位音乐家？”不知怎么，那一刻连 Charlie Parker、Miles Davis 这样最出名的名字，我都想不起来。",
+    "evidenceTargetIds": [
+      "c05-s04-p048-06525-s017"
+    ],
+    "evidence": [
+      {
+        "quote": "“Jazz,” I said.",
+        "sentenceIds": [
+          "c05-s04-p048-06525-s017"
+        ],
+        "sources": [
+          {
+            "pdfPage": 49,
+            "block": 0,
+            "bbox": [
+              76.99,
+              75,
+              535.01,
+              421.02
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "2057e3a34bbfd7932b0139d4b04fc536ed3ffca29272b4e0727e7f7a737214d3"
   }
 ]
