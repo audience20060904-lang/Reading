@@ -1,0 +1,966 @@
+{
+  "schemaVersion": 1,
+  "id": "evidence-009",
+  "status": "authored",
+  "evidenceRule": "frozen-target-sentence",
+  "questions": [
+    {
+      "order": 1,
+      "prompt": "What additional report did Steger request from participants' friends and family?",
+      "promptZh": "斯蒂格另外请参与者的亲友报告什么？",
+      "options": [
+        "Their own meaning in life instead of the participant's.",
+        "The participant's academic achievements only.",
+        "Their assessment of the participant's meaning in life.",
+        "The participant's answers copied without any independent judgement."
+      ],
+      "optionsZh": [
+        "亲友自己而非参与者的意义感。",
+        "仅参与者的学术成就。",
+        "他们对参与者人生意义的评价。",
+        "不作独立判断地照抄参与者答案。"
+      ],
+      "answer": 2,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A friends and family 作报告者，participant’s meaning 作对象，不能换成亲友自己的意义。",
+        "B 不是只问学术成就。",
+        "C In addition 引入亲友对参与者的评价，与本人自报形成不同信息来源。",
+        "D asked...to report 不等于要求照抄，后文还考察不同报告的关联。"
+      ],
+      "vocabulary": [
+        {
+          "word": "In addition",
+          "meaning": "此外；另外",
+          "context": "增加亲友报告，不是取消原先的本人自报。",
+          "example": "Participants answered a questionnaire; in addition, a friend completed a separate form.",
+          "collocations": [
+            "in addition",
+            "in addition to self-reports"
+          ]
+        }
+      ],
+      "evidenceQuote": "Psychologist Michael Steger and colleagues asked participants to report how meaningful they feel their lives are. In addition, he asked their friends and family members to report the participant’s meaning in life."
+    },
+    {
+      "order": 2,
+      "prompt": "What does the question about the 28.5 percent ask the discussion to explore next?",
+      "promptZh": "关于 28.5% 的问句引导下文继续探讨什么？",
+      "options": [
+        "Characteristics of the Americans who report meaningful lives.",
+        "The exact current incomes of all Americans.",
+        "Whether every American refused to answer the survey.",
+        "How many people have been independently certified as heroes."
+      ],
+      "optionsZh": [
+        "自报人生有意义的这部分美国人具有什么特点。",
+        "所有美国人当前的确切收入。",
+        "是否每个美国人都拒绝答问卷。",
+        "多少人被独立认证为英雄。"
+      ],
+      "answer": 0,
+      "type": "作者意图",
+      "support": "explicit",
+      "analyses": [
+        "A who are these... 把话题从比例转向这类自报者的特点，后面介绍倾向性特征。",
+        "B 没有转到收入测量。",
+        "C say their lives are meaningful 不是拒答。",
+        "D 比例指意义自报，不是英雄认证；也不是今天实时更新的人口统计。"
+      ],
+      "vocabulary": [
+        {
+          "word": "who say",
+          "meaning": "自称；报告说（关系从句）",
+          "context": "who say their lives are meaningful 限定自报群体，不等于研究者独立证明全部生活价值。",
+          "example": "The survey compared people who say they read daily with less frequent readers.",
+          "collocations": [
+            "people who say",
+            "respondents who say"
+          ]
+        }
+      ]
+    },
+    {
+      "order": 3,
+      "prompt": "Which statement preserves the qualification in 'they tend to be religious'?",
+      "promptZh": "哪项保留 they tend to be religious 的限定？",
+      "options": [
+        "All religious people necessarily report perfect meaning.",
+        "Religious belief has been proved to be the only cause of meaning.",
+        "No non-religious person can find meaning.",
+        "The group is described as tending to be religious, not uniformly so."
+      ],
+      "optionsZh": [
+        "所有信教者必定报告完美意义。",
+        "已证明信仰是意义的唯一原因。",
+        "不信教者都无法找到意义。",
+        "该群体往往信教，但非毫无例外。"
+      ],
+      "answer": 3,
+      "type": "逻辑关系",
+      "support": "explicit",
+      "analyses": [
+        "A tend 不等于 all necessarily，也没有 perfect。",
+        "B 倾向性关系不是唯一原因的证明。",
+        "C 不能由一类人的倾向排除其他人找到意义。",
+        "D 保留 tend 的往往之意；For one 表示列举一个特点，不是完整充分必要条件。"
+      ],
+      "vocabulary": [
+        {
+          "word": "For one",
+          "meaning": "首先；举其中一点来说",
+          "context": "用来列出一个特点，不是说唯一的人或唯一的原因。",
+          "example": "Several factors may matter; for one, the task is unfamiliar.",
+          "collocations": [
+            "for one",
+            "for one thing"
+          ]
+        }
+      ],
+      "evidenceQuote": "So who are these 28.5 percent of Americans who say their lives are meaningful? For one, they tend to be religious."
+    },
+    {
+      "order": 4,
+      "prompt": "What difficulty is reported for many residents after Hurricane Katrina?",
+      "promptZh": "卡特里娜飓风之后，许多居民被描述为面临什么困难？",
+      "options": [
+        "They could not remember the names of the affected cities.",
+        "They struggled to understand why the catastrophe had happened.",
+        "They all agreed that no neighbourhood had been affected.",
+        "They were unable to distinguish 2005 from the survey year."
+      ],
+      "optionsZh": [
+        "记不起受影响城市名称。",
+        "难以理解为何发生这场灾难。",
+        "他们都同意没有街区受影响。",
+        "无法区分 2005 年与调查年份。"
+      ],
+      "answer": 1,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A 本句的 struggle 是理解 why，不是记忆城市名。",
+        "B many residents struggled to understand why it happened 明示心理理解上的困难。",
+        "C swept away some neighborhoods 与没有影响相反，many 也不是 all。",
+        "D 没有居民辨别年份能力的描述。"
+      ],
+      "vocabulary": [
+        {
+          "word": "swept away",
+          "meaning": "冲走；摧毁",
+          "context": "描述飓风对街区的破坏，不是居民主动搬走物品。",
+          "example": "The flood swept away a small bridge.",
+          "collocations": [
+            "sweep away a neighbourhood",
+            "be swept away by a flood"
+          ]
+        }
+      ]
+    },
+    {
+      "order": 5,
+      "prompt": "What comparison does the passage make about coping with the catastrophe?",
+      "promptZh": "原文关于应对这场灾难作出什么比较？",
+      "options": [
+        "Religious people were less able to cope psychologically.",
+        "All residents coped in exactly the same way.",
+        "Religious people were better able to cope psychologically than non-religious people.",
+        "Non-religious people were excluded from the comparison."
+      ],
+      "optionsZh": [
+        "信教者在心理应对方面较弱。",
+        "所有居民应对方式完全相同。",
+        "信教者比不信教者更能在心理上应对。",
+        "比较排除了不信教者。"
+      ],
+      "answer": 2,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A 倒置 better able 的方向。",
+        "B 群体比较不是人人完全相同。",
+        "C 保留 were better able to psychologically deal with 的比较维度和方向。",
+        "D than non-religious people 明确包括比较对象。不能将书中这次灾难的比较推广成所有人所有情境的必然效果。"
+      ],
+      "vocabulary": [
+        {
+          "word": "catastrophe",
+          "meaning": "灾难；大灾祸",
+          "context": "指当前叙述中的灾难，心理应对比较不等于物质损失或其他能力的全面排名。",
+          "example": "The community rebuilt the library after the catastrophe.",
+          "collocations": [
+            "deal with a catastrophe",
+            "a natural catastrophe"
+          ]
+        }
+      ]
+    },
+    {
+      "order": 6,
+      "prompt": "Which description matches the tendencies reported in Steger's research?",
+      "promptZh": "哪项符合斯蒂格研究中报告的倾向？",
+      "options": [
+        "People reporting meaning tend to be optimistic and have high self-esteem, among other traits.",
+        "Every person reporting meaning has precisely the same personality.",
+        "People reporting meaning are necessarily less agreeable and less conscientious.",
+        "The study proves that becoming religious changes every listed trait permanently."
+      ],
+      "optionsZh": [
+        "自报有意义的人往往乐观且自尊较高，并有其他所列特征。",
+        "每个自报有意义者的人格都完全相同。",
+        "自报有意义者必定更不友善、更不尽责。",
+        "研究证明信教会永久改变所有所列特质。"
+      ],
+      "answer": 0,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A optimistic...high self-esteem 是列出的特点之一组，保留 people who say 和 tend。",
+        "B tend 不允许换成 every 与 precisely the same。",
+        "C 原句列出 agreeable、conscientious，不能取反。",
+        "D 句中不是关于宗教干预改变人格的实验，不能编造因果和永久效果。"
+      ],
+      "vocabulary": [
+        {
+          "word": "conscientious",
+          "meaning": "认真尽责的；有责任心的",
+          "context": "是自报意义者倾向性人格列表中的一项，不是说每个人必然如此。",
+          "example": "The conscientious student checked every reference before submitting the essay.",
+          "collocations": [
+            "a conscientious person",
+            "conscientious about work"
+          ]
+        }
+      ]
+    },
+    {
+      "order": 7,
+      "prompt": "What does the example of respected scientists illustrate about meaning in life?",
+      "promptZh": "受尊重科学家的例子说明了意义感的什么特点？",
+      "options": [
+        "Public recognition guarantees a strong private sense of meaning.",
+        "Awards necessarily make every scientist feel meaningless.",
+        "Ordinary people are unable to link their lives to a mission.",
+        "External recognition does not necessarily ensure a subjective sense of meaning."
+      ],
+      "optionsZh": [
+        "公众认可保证强烈的私下意义感。",
+        "获奖必定让每位科学家觉得无意义。",
+        "普通人无法把人生与使命联系。",
+        "外部认可未必确保主观意义感。"
+      ],
+      "answer": 3,
+      "type": "有限推断",
+      "support": "limited-inference",
+      "analyses": [
+        "A well-respected 等认可与 see...meaningless 可以并存，不能说保证。",
+        "B Some 和 nonetheless 不是所有人、不是奖项导致痛苦的因果。",
+        "C 后句正说有些普通人看到显著使命。",
+        "D 结合 Meaning...subjective 与此例，可有限推断外部成功不保证内在意义感；不由这段作任何个体风险诊断或单一成因解释。"
+      ],
+      "vocabulary": [
+        {
+          "word": "nonetheless",
+          "meaning": "尽管如此；仍然",
+          "context": "突出外部尊重与内部意义判断间可能不一致，不表示奖项导致某一结局。",
+          "example": "The task was difficult; she nonetheless remained interested.",
+          "collocations": [
+            "nonetheless see",
+            "nonetheless remain"
+          ]
+        }
+      ],
+      "evidenceQuote": "Meaning in life is by nature very subjective. Some well-respected, well-liked, award-winning scientists nonetheless see their lives to be meaningless and die by suicide."
+    },
+    {
+      "order": 8,
+      "prompt": "Who asks the janitor 'What are you doing?' in the story?",
+      "promptZh": "故事中谁问清洁工 What are you doing？",
+      "options": [
+        "The janitor asks Kennedy about his own work.",
+        "John F. Kennedy asks the janitor.",
+        "Michael Steger asks a survey participant.",
+        "A family member asks the narrator about NASA."
+      ],
+      "optionsZh": [
+        "清洁工问肯尼迪的工作。",
+        "约翰·肯尼迪问清洁工。",
+        "迈克尔·斯蒂格问调查参与者。",
+        "家人问作者有关 NASA 的事。"
+      ],
+      "answer": 1,
+      "type": "观点归属",
+      "support": "explicit",
+      "analyses": [
+        "A 将提问者与受问者倒置。",
+        "B 前句 he said to a janitor 和问候中的 Jack Kennedy 标明提问者，后句 janitor replied 区分回答者。",
+        "C 心理调查研究者属于别的段落。",
+        "D 没有家人提问作者的情节。原文称 folk legend，不当作已经核实的历史访谈。"
+      ],
+      "vocabulary": [
+        {
+          "word": "janitor",
+          "meaning": "清洁工；楼宇维护人员",
+          "context": "民间传说中回答总统问题的人，不是心理实验的参与者身份。",
+          "example": "The janitor checked that the building was ready for the morning classes.",
+          "collocations": [
+            "work as a janitor",
+            "a building janitor"
+          ]
+        }
+      ],
+      "evidenceQuote": "In a famous folk legend, when John F. Kennedy once visited NASA he said to a janitor, “Hi, I’m Jack Kennedy. What are you doing?”"
+    },
+    {
+      "order": 9,
+      "prompt": "Which comparison about self-esteem and reported mattering is stated?",
+      "promptZh": "关于自尊与自报人生重要性，原文明示哪项比较？",
+      "options": [
+        "People with high self-esteem are less likely to say their lives matter.",
+        "Self-esteem is said to have no connection with any self-report.",
+        "People with high self-esteem are more likely to say their lives matter than people who dislike themselves.",
+        "Everyone who dislikes themselves has independently proved that their life does not matter."
+      ],
+      "optionsZh": [
+        "高自尊者较不可能说人生重要。",
+        "自尊被说成与任何自报无关。",
+        "高自尊者比不喜欢自己的人更可能说人生重要。",
+        "每个不喜欢自己的人都已独立证明人生不重要。"
+      ],
+      "answer": 2,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A 比较方向颠倒。",
+        "B more likely 明示一种联系，不是完全无关。",
+        "C 保留两类比较者、more likely 与 say 的主观报告性质。",
+        "D 不喜欢自己不是独立证明人生价值，更不是所有人的确定结论。"
+      ],
+      "vocabulary": [
+        {
+          "word": "self-esteem",
+          "meaning": "自尊；对自我价值的评价",
+          "context": "是人对自己的评价，与说人生有价值的倾向相关，不等于他人客观评定。",
+          "example": "The programme aimed to help learners develop healthy self-esteem.",
+          "collocations": [
+            "high self-esteem",
+            "a sense of self-esteem"
+          ]
+        }
+      ]
+    },
+    {
+      "order": 10,
+      "prompt": "How does the passage explain 'non-neurotic people' in parentheses?",
+      "promptZh": "原文括号中怎样解释 non-neurotic people？",
+      "options": [
+        "People who do not worry excessively or are not especially prone to stress.",
+        "People who can never experience anxiety in any situation.",
+        "People who always achieve every goal they set.",
+        "People who have received an identical medical diagnosis."
+      ],
+      "optionsZh": [
+        "不过度担忧或不太易受压力影响的人。",
+        "任何情况下都绝不焦虑的人。",
+        "总能实现每个目标的人。",
+        "接受了完全相同医学诊断的人。"
+      ],
+      "answer": 0,
+      "type": "语境词义",
+      "support": "explicit",
+      "analyses": [
+        "A those who don’t worry too much or are not too stress prone 是原文的限定性说明。",
+        "B too much、too stress prone 不能删成从无焦虑。",
+        "C 目标完成属于另一个特质讨论，不是括号定义。",
+        "D 这里是人格描述，不是给所有人作临床诊断。"
+      ],
+      "vocabulary": [
+        {
+          "word": "prone",
+          "meaning": "易于……的；有……倾向的",
+          "context": "stress prone 表示容易受压力影响，not too 保留程度限定。",
+          "example": "The old system is prone to delays during busy periods.",
+          "collocations": [
+            "stress prone",
+            "prone to worry"
+          ]
+        }
+      ]
+    },
+    {
+      "order": 11,
+      "prompt": "Which experience is described as likely in the sentence about direction, purpose, and meaning?",
+      "promptZh": "关于方向、目的和意义的句子说，人们可能有什么体验？",
+      "options": [
+        "Complete certainty about every future event.",
+        "Freedom from every negative feeling.",
+        "A guarantee that their goals are morally correct.",
+        "A feeling that their lives have direction, purpose, and meaning."
+      ],
+      "optionsZh": [
+        "对每个未来事件完全确定。",
+        "免于一切负面感受。",
+        "保证其目标在道德上正确。",
+        "感到人生有方向、目的和意义。"
+      ],
+      "answer": 3,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A sense of direction 不是知道未来每件事。",
+        "B 没有承诺免于负面感受。",
+        "C 感到有方向不等于道德正确保证，后文还讨论狭隘目的。",
+        "D likely to feel 和列出的三项都得到保留，不把主观倾向改成绝对客观事实。"
+      ],
+      "vocabulary": [
+        {
+          "word": "sense of direction",
+          "meaning": "方向感；对人生走向的感觉",
+          "context": "在此为人生目的的比喻，不是地图或指南针定位能力。",
+          "example": "The new project gave her a sense of direction in her work.",
+          "collocations": [
+            "a sense of direction in life",
+            "a clear sense of direction"
+          ]
+        }
+      ]
+    },
+    {
+      "order": 12,
+      "prompt": "What does 'express themselves' mean for personality traits and attitudes here?",
+      "promptZh": "此处人格特质和态度 express themselves 是什么意思？",
+      "options": [
+        "They consciously speak aloud like separate people.",
+        "They become visible in patterns of behaviour.",
+        "They disappear whenever someone volunteers.",
+        "They are measured only through exact income figures."
+      ],
+      "optionsZh": [
+        "它们像独立的人一样有意识地说话。",
+        "它们在行为模式中表现出来。",
+        "只要有人做志愿者就消失。",
+        "它们仅通过精确收入测量。"
+      ],
+      "answer": 1,
+      "type": "语境词义",
+      "support": "explicit",
+      "analyses": [
+        "A traits 的 express themselves 是表现，而非拟人化地实际开口。",
+        "B 后面的选择关心的事业、长期在同一地点志愿服务等说明行为呈现。",
+        "C 展现不等于消失。",
+        "D 本段例子不是只按收入测量。predictable 不等于每个人无一例外地做同一件事。"
+      ],
+      "vocabulary": [
+        {
+          "word": "express themselves",
+          "meaning": "表现出来；通过行为呈现",
+          "context": "主语是特质与态度，指它们在生活行为中可见，而非自我表达的演讲技巧。",
+          "example": "Different preferences express themselves in everyday choices.",
+          "collocations": [
+            "traits express themselves",
+            "express an attitude through behaviour"
+          ]
+        }
+      ],
+      "evidenceQuote": "These personality traits and attitudes express themselves in predictable ways. People tend to choose one or two causes they care about dearly (e.g., a soup kitchen, a church), volunteer in the same location for an extended period of time, and achieve meaning by trying to make a difference in a well-defined area."
+    },
+    {
+      "order": 13,
+      "prompt": "Which sources of meaning are listed for 'Others' in this paragraph?",
+      "promptZh": "本段为 Others 列出了哪些意义来源？",
+      "options": [
+        "Only public fame and national awards.",
+        "Only changing locations as often as possible.",
+        "Work, family, and community.",
+        "Financial success without any personal relationships."
+      ],
+      "optionsZh": [
+        "只有公众名声和全国奖项。",
+        "只有尽可能频繁地换地点。",
+        "工作、家庭和社区。",
+        "没有任何个人关系的经济成功。"
+      ],
+      "answer": 2,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A 文中列的不是唯有名望奖项。",
+        "B again a narrowly defined realm 强调较集中领域，不是频繁换地点。",
+        "C from their work, family, and community 是明示三项。",
+        "D family/community 包含关系，不是把关系全部排除。"
+      ],
+      "vocabulary": [
+        {
+          "word": "derive",
+          "meaning": "获得；从……取得",
+          "context": "derive meaning from 指从生活领域获得意义，不要求先有公众成名。",
+          "example": "Readers may derive enjoyment from noticing patterns in a story.",
+          "collocations": [
+            "derive meaning from",
+            "derive satisfaction from"
+          ]
+        }
+      ]
+    },
+    {
+      "order": 14,
+      "prompt": "What does 'however' signal in 'There are some troubling implications, however'?",
+      "promptZh": "There are some troubling implications, however 中 however 表示什么？",
+      "options": [
+        "A turn from the preceding account toward possible concerns.",
+        "Proof that every source of meaning is harmful.",
+        "A claim that no example will follow.",
+        "A restatement that narrow focus is always harmless."
+      ],
+      "optionsZh": [
+        "从前面说明转向可能令人担忧的问题。",
+        "证明每个意义来源都有害。",
+        "声称后面不会有例子。",
+        "重申狭窄关注永远无害。"
+      ],
+      "answer": 0,
+      "type": "逻辑关系",
+      "support": "explicit",
+      "analyses": [
+        "A troubling implications 加 however 是转向值得担心的后果，随后以假设案例展开。",
+        "B some 不是 every，concern 也不是普遍有害的证明。",
+        "C 下句正引入 hypothetical Mason。",
+        "D 转折并非重复永远无害。不能把这一过渡扩为否定所有意义追求。"
+      ],
+      "vocabulary": [
+        {
+          "word": "implications",
+          "meaning": "潜在后果；蕴含的影响",
+          "context": "some troubling implications 提出需要审视的可能问题，不等于已经证明所有人有害。",
+          "example": "The committee discussed the implications of the proposed change.",
+          "collocations": [
+            "troubling implications",
+            "the implications of a claim"
+          ]
+        }
+      ]
+    },
+    {
+      "order": 15,
+      "prompt": "What does Mason care deeply about in the hypothetical example?",
+      "promptZh": "假设例子中，梅森非常关心什么？",
+      "options": [
+        "The prestige of a university admissions office.",
+        "The income of another prison officer.",
+        "His reputation as an inventor.",
+        "U.S. national security."
+      ],
+      "optionsZh": [
+        "大学招生办的声望。",
+        "另一位监狱官员的收入。",
+        "发明家名声。",
+        "美国国家安全。"
+      ],
+      "answer": 3,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A 本例不是大学招生故事。",
+        "B 没有与其他官员收入比较。",
+        "C 发明家的例子在别处，非 Mason 的目标。",
+        "D U.S. national security 是 cares about 的宾语。该例标为 hypothetical，不能当作已核实人物或赞同其后续行为。"
+      ],
+      "vocabulary": [
+        {
+          "word": "dearly",
+          "meaning": "深切地；非常重视地",
+          "context": "修饰 cares 表示关心程度，不是付出昂贵价格。",
+          "example": "She cares dearly about preserving the local library.",
+          "collocations": [
+            "care dearly about",
+            "value something dearly"
+          ]
+        }
+      ]
+    },
+    {
+      "order": 16,
+      "prompt": "How are most people housed in the prison described in the hypothetical case?",
+      "promptZh": "假设案例中的监狱多数在押人员被怎样描述？",
+      "options": [
+        "As people all convicted of exactly the same offence.",
+        "As people suspected of terrorism.",
+        "As officers volunteering to work there.",
+        "As a representative sample of all American citizens."
+      ],
+      "optionsZh": [
+        "全部已被判定犯有同一罪行的人。",
+        "涉嫌恐怖主义的人。",
+        "自愿去工作的官员。",
+        "全体美国公民的代表性样本。"
+      ],
+      "answer": 1,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A suspected 不等于 convicted，mostly 也不是 all。",
+        "B housing mostly those suspected of terrorism 保留主要群体与涉嫌的性质。",
+        "C housing 的对象是被关押者，不是官员雇员。",
+        "D 假设案例没有随机代表性样本。不得将涉嫌直接改成已定罪。"
+      ],
+      "vocabulary": [
+        {
+          "word": "suspected",
+          "meaning": "被怀疑；涉嫌",
+          "context": "suspected of 与法律上已被定罪不同，本题只是核对原句限定。",
+          "example": "The report described a suspected error that still required checking.",
+          "collocations": [
+            "be suspected of",
+            "those suspected of an offence"
+          ]
+        }
+      ]
+    },
+    {
+      "order": 17,
+      "prompt": "What status does the author explicitly give Mason's case?",
+      "promptZh": "作者明确给梅森案例什么性质？",
+      "options": [
+        "A confirmed biography of a named historical officer.",
+        "A randomised experimental result.",
+        "A merely hypothetical example so far.",
+        "An independently verified account of every prison officer."
+      ],
+      "optionsZh": [
+        "某位具名历史官员的已核实传记。",
+        "随机实验结果。",
+        "到此为止只是一个假设例子。",
+        "对所有狱警的独立核实叙述。"
+      ],
+      "answer": 2,
+      "type": "观点归属",
+      "support": "explicit",
+      "analyses": [
+        "A merely hypothetical 与核实传记不符。",
+        "B 没有实验分组和实际结果。",
+        "C So far、merely hypothetical 明确限定当前案例的地位。",
+        "D 假设个案不能外推成所有官员的事实，亦不因提及真实历史事件而变成已核实的 Mason 传记。"
+      ],
+      "vocabulary": [
+        {
+          "word": "hypothetical",
+          "meaning": "假设的；设想的",
+          "context": "用于说明案例是思考工具，不是作者已经收集的个体事实或实验结果。",
+          "example": "The teacher used a hypothetical example to explain the distinction.",
+          "collocations": [
+            "a hypothetical case",
+            "merely hypothetical"
+          ]
+        }
+      ]
+    },
+    {
+      "order": 18,
+      "prompt": "Why does the author ask whether there is scientific evidence for misplaced meaning?",
+      "promptZh": "作者为什么追问错置意义感是否有科学证据？",
+      "options": [
+        "To move from a hypothetical example toward research evidence.",
+        "To announce that the hypothetical case already proves all later claims.",
+        "To replace research with another unmarked fictional biography.",
+        "To imply that all meaningful people must be authoritarians."
+      ],
+      "optionsZh": [
+        "从假设例子转向研究证据。",
+        "宣布假设案例已经证明全部后续主张。",
+        "用另一个未标示的虚构传记取代研究。",
+        "暗示所有有意义感的人必是威权主义者。"
+      ],
+      "answer": 0,
+      "type": "作者意图",
+      "support": "explicit",
+      "analyses": [
+        "A 前句说案例仅是假设，问句提出科学证据的需要，随后转述研究。",
+        "B 追问证据恰说明假设本身不是充分证明。",
+        "C scientific evidence 不是以未标示虚构代替研究。",
+        "D 研究中的关联不能换成所有人的身份断定，更不能改写成个体因果。"
+      ],
+      "vocabulary": [
+        {
+          "word": "misplaced",
+          "meaning": "错置的；置于不恰当方向的",
+          "context": "misplaced meaning 指主观有意义但可能指向不良目标的问题，不是意义不存在。",
+          "example": "The story explores the consequences of misplaced confidence.",
+          "collocations": [
+            "misplaced meaning",
+            "misplaced trust"
+          ]
+        }
+      ],
+      "evidenceQuote": "So far, the case of Mason, the military prison officer, is merely hypothetical. Is there any scientific evidence for this phenomenon of misplaced meaning in life?"
+    },
+    {
+      "order": 19,
+      "prompt": "What does the qualification 'in their way' suggest about the civic work described?",
+      "promptZh": "描述公民事务活动时，in their way 有什么限定作用？",
+      "options": [
+        "It proves their activity benefits every group equally.",
+        "It says they never participate in civic activities.",
+        "It excludes the possibility of any narrow cause.",
+        "It notes civic activity while leaving room to question its particular form or scope."
+      ],
+      "optionsZh": [
+        "证明活动同样惠及每个群体。",
+        "说他们从不参与公民事务。",
+        "排除事业狭隘的可能。",
+        "承认参与公民活动，同时保留对方式或范围的审视。"
+      ],
+      "answer": 3,
+      "type": "有限推断",
+      "support": "limited-inference",
+      "analyses": [
+        "A 后句指出可能狭隘及排斥外人，不能说普惠已获证明。",
+        "B do plenty 与从不相反。",
+        "C 后句 might be very narrow 明确允许这种可能。",
+        "D in their way 与后面的 But 一起构成带保留的承认，不把活动数量直接等同广泛道德益处。"
+      ],
+      "vocabulary": [
+        {
+          "word": "civic",
+          "meaning": "公民的；公共事务的",
+          "context": "civic work 的存在和数量并不自动说明受益范围宽广。",
+          "example": "Students took part in a civic project to improve the neighbourhood.",
+          "collocations": [
+            "civic work",
+            "civic participation"
+          ]
+        }
+      ],
+      "evidenceQuote": "They do plenty of civic work, in their way. But their cause might be very narrow, and potentially antagonistic toward those they consider outsiders."
+    },
+    {
+      "order": 20,
+      "prompt": "How does the author label terrorism when introducing this example?",
+      "promptZh": "作者引入恐怖主义例子时给它什么评价？",
+      "options": [
+        "As an ordinary form of harmless disagreement.",
+        "As the ultimate antisocial behaviour.",
+        "As a personality test used in every survey.",
+        "As a recommended civic duty."
+      ],
+      "optionsZh": [
+        "普通且无害的意见分歧。",
+        "极端的反社会行为。",
+        "每项调查都用的人格测试。",
+        "值得提倡的公民义务。"
+      ],
+      "answer": 1,
+      "type": "观点归属",
+      "support": "explicit",
+      "analyses": [
+        "A ultimate antisocial behavior 不是无害分歧。",
+        "B 这是原句对行为的明确负面定性，后面分析意义追求可能错置的机制。",
+        "C 没有把行为当测验名称。",
+        "D 作者没有赞成或号召该行为，不能把分析其吸引力改为提倡。"
+      ],
+      "vocabulary": [
+        {
+          "word": "antisocial",
+          "meaning": "反社会的；有害于他人或社会的",
+          "context": "在此指严重伤害社会的行为，不是仅不爱社交或内向。",
+          "example": "The policy aims to reduce antisocial behaviour in public spaces.",
+          "collocations": [
+            "antisocial behaviour",
+            "antisocial acts"
+          ]
+        }
+      ]
+    },
+    {
+      "order": 21,
+      "prompt": "What does 'decisive' convey about the answers supplied from within the narrative?",
+      "promptZh": "decisive 怎样描述该叙事内部提供的答案？",
+      "options": [
+        "They are hesitant and deliberately left unanswered.",
+        "They are independently proven correct by the quotation itself.",
+        "They are presented as firm and definite.",
+        "They concern only small practical details rather than existential questions."
+      ],
+      "optionsZh": [
+        "它们犹豫且刻意不回答。",
+        "引语自身已独立证明答案正确。",
+        "它们被呈现为明确而确定。",
+        "它们只关乎小细节而非存在性问题。"
+      ],
+      "answer": 2,
+      "type": "语境词义",
+      "support": "explicit",
+      "analyses": [
+        "A decisive 与犹疑未决相反。",
+        "B 确定语气不等于外部验证正确，也不表示作者认同。",
+        "C bracingly decisive 描述叙事给存在性问题提供确定答案的感觉。",
+        "D fundamental existential questions 明示问题层面。此为批判性讨论中的引述，不能当作认可其叙事。"
+      ],
+      "vocabulary": [
+        {
+          "word": "decisive",
+          "meaning": "明确而果断的；确定的",
+          "context": "修饰 narrative 内部答案的呈现力度，不能替换成正确、合理或已获证明。",
+          "example": "The reviewer wanted a decisive answer, but the evidence remained uncertain.",
+          "collocations": [
+            "a decisive answer",
+            "sound decisive"
+          ]
+        }
+      ]
+    },
+    {
+      "order": 22,
+      "prompt": "What structure is announced for the meaning trap in this summary?",
+      "promptZh": "这段总结宣布意义陷阱有什么结构？",
+      "options": [
+        "Two parts, compared with the earlier happiness trap.",
+        "One part identical to every aspect of happiness.",
+        "Three unrelated experiments about life satisfaction.",
+        "No distinct components that can be discussed separately."
+      ],
+      "optionsZh": [
+        "两部分，并与先前的幸福陷阱比较。",
+        "一部分且与幸福每方面相同。",
+        "三个互不相关的生活满意度实验。",
+        "没有可分别讨论的组成部分。"
+      ],
+      "answer": 0,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A has two parts 明确给出数量，Like 承接前面概念作类比。",
+        "B 两部分不是一部分，类比也非完全同一。",
+        "C 不是 three，也不是实验计数。",
+        "D 两部分随后分述，不能说无可区分。"
+      ],
+      "vocabulary": [
+        {
+          "word": "parts",
+          "meaning": "组成部分；方面",
+          "context": "two parts 是论证结构，不能当成两个独立实验或全部人生只有两条路。",
+          "example": "The explanation has two parts, each addressing a different difficulty.",
+          "collocations": [
+            "two parts of a trap",
+            "consist of two parts"
+          ]
+        }
+      ]
+    },
+    {
+      "order": 23,
+      "prompt": "What difficulty can the call to 'be great' create for ordinary people in this passage?",
+      "promptZh": "文中 be great 的号召可能给普通人造成什么困难？",
+      "options": [
+        "It guarantees they will invent something immediately.",
+        "It proves that volunteering locally has no value.",
+        "It makes meaningful life easy for every listener.",
+        "It can make them feel like failures when they compare themselves with exceptional accomplishments."
+      ],
+      "optionsZh": [
+        "保证他们立即作出发明。",
+        "证明社区志愿服务没有价值。",
+        "让每位听众轻松获得意义人生。",
+        "在与杰出成就比较时容易感到自己失败。"
+      ],
+      "answer": 3,
+      "type": "同义改写",
+      "support": "explicit",
+      "analyses": [
+        "A 未有立即发明的保证。",
+        "B 例子说没作发明或参加和平队时易自感失败，不是否定社区价值。",
+        "C 与 easy to feel like a failure 的方向相反。",
+        "D 保留面对宏大号召时可能产生的失败感，是情绪压力而非判定普通人客观失败。"
+      ],
+      "vocabulary": [
+        {
+          "word": "in the face of",
+          "meaning": "面对；在……面前",
+          "context": "指面对伟大的号召，非字面上在某人面部前。",
+          "example": "The group remained patient in the face of repeated delays.",
+          "collocations": [
+            "in the face of a challenge",
+            "in the face of pressure"
+          ]
+        }
+      ]
+    },
+    {
+      "order": 24,
+      "prompt": "How frequent is the feeling described by 'once in a while'?",
+      "promptZh": "once in a while 怎样限定这种感受的频率？",
+      "options": [
+        "Constantly, in every moment without exception.",
+        "Occasionally rather than all the time.",
+        "Only once in each person's entire life.",
+        "Never among the majority of people."
+      ],
+      "optionsZh": [
+        "无例外地时时刻刻。",
+        "偶尔，而非一直如此。",
+        "每人一生只能出现一次。",
+        "多数人中从不出现。"
+      ],
+      "answer": 1,
+      "type": "语境词义",
+      "support": "explicit",
+      "analyses": [
+        "A once in a while 不是 constantly。",
+        "B 这是偶尔之意，Most of us 另限定群体范围。",
+        "C 不是 once in a lifetime，不能换成一生仅一次。",
+        "D feel...once in a while 明示会偶尔有，非从无。结合前文，所说的是宏大目标压力带来的难受，不是人人长期处于同一情绪。"
+      ],
+      "vocabulary": [
+        {
+          "word": "once in a while",
+          "meaning": "偶尔；有时候",
+          "context": "频率短语，不能与始终、从不或一生一次混同。",
+          "example": "Once in a while, she rereads an old diary.",
+          "collocations": [
+            "once in a while",
+            "every once in a while"
+          ]
+        }
+      ],
+      "evidenceQuote": "Like the happiness trap, the meaning trap has two parts. First, for the majority of us who have not invented anything or participated in the Peace Corps, it is easy to feel like a failure in the face of the call to be great. Pressure to make a difference in the world can be emotionally taxing, just like the pressure to be happy. Most of us feel that way once in a while."
+    },
+    {
+      "order": 25,
+      "prompt": "What limitation does the author place on how meaning can sometimes be attained?",
+      "promptZh": "作者对有时获得意义感的方式提出什么限制性观察？",
+      "options": [
+        "Meaning always benefits all groups equally.",
+        "Prosocial action toward one's own group necessarily eliminates indifference to outsiders.",
+        "Meaning may involve helping a small ingroup while harming or ignoring outgroups.",
+        "Every person with a meaningful life must engage in antisocial behaviour."
+      ],
+      "optionsZh": [
+        "意义感永远同样惠及所有群体。",
+        "帮助本群体必然消除对外群体的冷漠。",
+        "可能在帮助小型内群体的同时伤害或忽视外群体。",
+        "每个有意义感的人都必须从事反社会行为。"
+      ],
+      "answer": 2,
+      "type": "逻辑关系",
+      "support": "explicit",
+      "analyses": [
+        "A toward a small ingroup 与普惠所有群体不同。",
+        "B 同句把两种行为并列，不能说一方必然消除另一方。",
+        "C sometimes、prosocial...ingroup 与 antisocial...or apathy...outgroups 保留了范围和对照。",
+        "D sometimes 不能变成 every must。作者是在指出狭隘意义的风险，并非说所有意义追求都有害。"
+      ],
+      "vocabulary": [
+        {
+          "word": "apathy",
+          "meaning": "冷漠；漠不关心",
+          "context": "与对外群体的反社会行为并列为另一可能：即使没有主动伤害，也可能不关心其处境。",
+          "example": "The campaign tried to replace public apathy with informed discussion.",
+          "collocations": [
+            "apathy toward others",
+            "political apathy"
+          ]
+        }
+      ]
+    }
+  ]
+}
