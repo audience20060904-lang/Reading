@@ -1,0 +1,981 @@
+{
+  "schemaVersion": 1,
+  "id": "evidence-019",
+  "status": "authored",
+  "evidenceRule": "frozen-target-sentence",
+  "questions": [
+    {
+      "order": 1,
+      "prompt": "What distinction did Allport and Odbert make between personality and 'character'?",
+      "promptZh": "Allport 与 Odbert 怎样区分 personality 和 character？",
+      "options": [
+        "They treated personality as identical to moral praise.",
+        "They separated personality description from moral evaluation.",
+        "They excluded every word about behaviour from personality.",
+        "They defined character only as a temporary feeling."
+      ],
+      "optionsZh": [
+        "把人格等同道德赞扬。",
+        "将人格描述与道德评价分开。",
+        "从人格中排除所有行为词。",
+        "把品格只定义为暂时感受。"
+      ],
+      "answer": 1,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A distinguished...from 表明区分，不是等同。",
+        "B moral,evaluative concept 修饰 character，后文追求较中立词汇。",
+        "C 行为描述仍可属于人格，删除的是评价性词。",
+        "D 暂时状态的筛除是另一条标准，不能混同品格概念。"
+      ],
+      "vocabulary": [
+        {
+          "word": "evaluative",
+          "meaning": "带评价的；作好坏判断的",
+          "context": "与 moral 并列描述 character 的评判性质。",
+          "example": "An evaluative comment judges the quality of the work.",
+          "collocations": [
+            "an evaluative concept",
+            "character-evaluative terms"
+          ]
+        }
+      ],
+      "evidenceQuote": "Allport and Odbert also distinguished personality from the moral, evaluative concept of “character.” Their idea was that, in order to establish the scientific field of personality psychology, they needed a judgment-free, relatively neutral vocabulary to avoid biases. So they removed all the character-evaluative terms, such as “excellent,” “acceptable,” and “insignificant.” Allport and Odbert ended up with 4,504 “pure” personality trait words in English."
+    },
+    {
+      "order": 2,
+      "prompt": "Why were terms such as 'excellent' and 'acceptable' removed?",
+      "promptZh": "为什么删去 excellent、acceptable 这类词？",
+      "options": [
+        "They were all unusual spellings of adventurous.",
+        "They named only brief emotions rather than any judgements.",
+        "They made the list longer than a predetermined five-word limit.",
+        "They conveyed character judgements that conflicted with the aim of neutral description."
+      ],
+      "optionsZh": [
+        "它们全是 adventurous 的特殊拼法。",
+        "它们只命名短暂情绪，不含评价。",
+        "它们使词表超过预定五词上限。",
+        "它们带品格评价，不符中立描述的目标。"
+      ],
+      "answer": 3,
+      "type": "逻辑关系",
+      "support": "explicit",
+      "analyses": [
+        "A 同义词批评在后面，非此处删词理由。",
+        "B excellent 等属于评价，不是先前 frantic 一类暂时状态。",
+        "C 没有五个词上限，大五是后来分类。",
+        "D So 承接 judgment-free,relatively neutral 以避免偏差的目标。"
+      ],
+      "vocabulary": [
+        {
+          "word": "neutral",
+          "meaning": "中立的；不偏向褒贬的",
+          "context": "relatively neutral 指尽量少带评价，不保证语言绝无偏差。",
+          "example": "The report tries to use neutral language.",
+          "collocations": [
+            "relatively neutral vocabulary",
+            "remain neutral"
+          ]
+        }
+      ],
+      "evidenceQuote": "Allport and Odbert also distinguished personality from the moral, evaluative concept of “character.” Their idea was that, in order to establish the scientific field of personality psychology, they needed a judgment-free, relatively neutral vocabulary to avoid biases. So they removed all the character-evaluative terms, such as “excellent,” “acceptable,” and “insignificant.” Allport and Odbert ended up with 4,504 “pure” personality trait words in English."
+    },
+    {
+      "order": 3,
+      "prompt": "What does the final figure 4,504 represent?",
+      "promptZh": "最终数字4,504代表什么？",
+      "options": [
+        "The retained English personality-trait words after the described filtering.",
+        "The number of students in Goldberg's later self-rating study.",
+        "The total entries in Webster's dictionary.",
+        "The number of distinct people whose obituaries were coded."
+      ],
+      "optionsZh": [
+        "经过所述筛选后保留的英语人格特质词。",
+        "Goldberg 后续自评研究的学生数。",
+        "Webster 词典的全部词条数。",
+        "被编码讣告的人数。"
+      ],
+      "answer": 0,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A ended up with4,504 pure...words 明确单位及筛选结果。",
+        "B 是词数，不是参与者数。",
+        "C 词典约四十万词条，不能与筛选清单混同。",
+        "D 本段材料为词汇，不是讣告。引号 pure 表示筛选类别，不是医学纯净概念。"
+      ],
+      "vocabulary": [
+        {
+          "word": "ended up with",
+          "meaning": "最终得到；最后留下",
+          "context": "强调前述筛选后的结果，不是最初词典的全部条目。",
+          "example": "After removing duplicates, we ended up with thirty records.",
+          "collocations": [
+            "ended up with a list",
+            "end up with"
+          ]
+        }
+      ],
+      "evidenceQuote": "Allport and Odbert also distinguished personality from the moral, evaluative concept of “character.” Their idea was that, in order to establish the scientific field of personality psychology, they needed a judgment-free, relatively neutral vocabulary to avoid biases. So they removed all the character-evaluative terms, such as “excellent,” “acceptable,” and “insignificant.” Allport and Odbert ended up with 4,504 “pure” personality trait words in English."
+    },
+    {
+      "order": 4,
+      "prompt": "What methodological issue is raised by 'why rely on words'?",
+      "promptZh": "why rely on words 提出什么方法问题？",
+      "options": [
+        "Whether dictionaries should record the names of cities.",
+        "Which speaker owns the largest personal vocabulary.",
+        "Why language can be used to understand an internal personality quality.",
+        "Whether all personality studies must avoid language entirely."
+      ],
+      "optionsZh": [
+        "词典应否收城市名称。",
+        "哪位说话人个人词汇量最大。",
+        "为何可以用语言了解内在人格品质。",
+        "所有人格研究是否必须完全避开语言。"
+      ],
+      "answer": 2,
+      "type": "作者意图",
+      "support": "explicit",
+      "analyses": [
+        "A 不涉及城市收录。",
+        "B 未比较个人词汇排名。",
+        "C rely on words 与 illuminate an inner quality 直接对应方法依据。",
+        "D 是问使用的理由，不是先宣布禁用；后文给 Allport 与 Odbert 的论证。"
+      ],
+      "vocabulary": [
+        {
+          "word": "illuminate",
+          "meaning": "阐明；使人理解",
+          "context": "此处说明内在品质，而非物理照明。",
+          "example": "The diary may illuminate the reasons behind her decision.",
+          "collocations": [
+            "illuminate an inner quality",
+            "illuminate a question"
+          ]
+        }
+      ],
+      "evidenceQuote": "But why rely on words to illuminate an inner quality? Allport and Odbert argued, “If many human beings were not in fact egotistic, aggressive, or timid, the epithets would not have found a permanent place in language. If traits exist at all it is natural and proper to name them.” If there is a trait name, there must be some corresponding pattern of behavior, thinking, or feeling."
+    },
+    {
+      "order": 5,
+      "prompt": "What reasoning supports Allport and Odbert's use of trait words?",
+      "promptZh": "什么推理支持 Allport 与 Odbert 使用特质词？",
+      "options": [
+        "All words automatically describe a unique personality factor.",
+        "Only dictionaries can cause people to develop traits.",
+        "A permanent place in language proves that every person has the same traits.",
+        "Established trait labels are taken as signs of recurring human qualities."
+      ],
+      "optionsZh": [
+        "所有词都自动对应唯一人格因子。",
+        "只有词典能导致人格形成。",
+        "语言永久收录证明人人特质相同。",
+        "稳定存在的特质名称被视为反复出现的人类品质的迹象。"
+      ],
+      "answer": 3,
+      "type": "逻辑关系",
+      "support": "explicit",
+      "analyses": [
+        "A 引文不证明每词独立一因子，后文还批评同义词。",
+        "B 论证方向是人有品质而语言有称谓，不是词典制造品质。",
+        "C many 不等于 every，也非人人相同。",
+        "D 反事实句说若人实际无这些特质，称谓就不会稳定进入语言；这是他们的方法论论证，不是本段随机实验发现。"
+      ],
+      "vocabulary": [
+        {
+          "word": "epithets",
+          "meaning": "称谓；描述性称呼",
+          "context": "这里承接 egotistic,aggressive,timid 等特质标签，不专指姓名或必然辱骂。",
+          "example": "Such epithets can reveal how a community describes behaviour.",
+          "collocations": [
+            "the epithets",
+            "a descriptive epithet"
+          ]
+        }
+      ],
+      "evidenceQuote": "But why rely on words to illuminate an inner quality? Allport and Odbert argued, “If many human beings were not in fact egotistic, aggressive, or timid, the epithets would not have found a permanent place in language. If traits exist at all it is natural and proper to name them.” If there is a trait name, there must be some corresponding pattern of behavior, thinking, or feeling."
+    },
+    {
+      "order": 6,
+      "prompt": "Why is the pair 'adventurous' and 'venturous' mentioned?",
+      "promptZh": "为什么提 adventurous 与 venturous 这一对词？",
+      "options": [
+        "To show that near-synonyms can duplicate what looks like separate traits.",
+        "To show that the two terms describe completely opposite personalities.",
+        "To prove that both words refer only to temporary moods.",
+        "To show that all trait words must be archaic."
+      ],
+      "optionsZh": [
+        "说明近义词可能让同一特质被重复计数。",
+        "说明两词描写完全相反人格。",
+        "证明两词都只指暂时心情。",
+        "说明所有特质词必定过时。"
+      ],
+      "answer": 0,
+      "type": "作者意图",
+      "support": "explicit",
+      "analyses": [
+        "A 之前 too many synonyms 与后面 Not really 解释例子作用。",
+        "B 并非反义对照。",
+        "C 此例的批评是重复而非暂时性。",
+        "D 过时词是后续另一批评，不能扩大到 all。"
+      ],
+      "vocabulary": [
+        {
+          "word": "synonyms",
+          "meaning": "同义词；意义相近的词",
+          "context": "不同词形未必对应不同人格特质，是词数与特质数区分。",
+          "example": "The two expressions are close synonyms in this context.",
+          "collocations": [
+            "too many synonyms",
+            "a pair of synonyms"
+          ]
+        }
+      ],
+      "evidenceQuote": "Some criticized Allport and Odbert’s research, claiming there were too many synonyms. For instance, the pure personality traits list included both “adventurous” and “venturous.” Are they two separate personality traits? (Not really.)"
+    },
+    {
+      "order": 7,
+      "prompt": "What does the parenthetical 'Indeed' comment endorse?",
+      "promptZh": "括号中 Indeed 的评论赞同什么？",
+      "options": [
+        "That all uncommon words are equally useful to all speakers.",
+        "That the whole lexical approach should be discarded immediately.",
+        "That the archaic words just named have limited usefulness.",
+        "That the researchers had used no dictionary at all."
+      ],
+      "optionsZh": [
+        "所有罕见词对每位说话者同样有用。",
+        "整套词汇方法都应立即抛弃。",
+        "刚列举的过时词用途有限。",
+        "研究者完全没用词典。"
+      ],
+      "answer": 2,
+      "type": "逻辑关系",
+      "support": "explicit",
+      "analyses": [
+        "A not very useful 与普遍有用相反。",
+        "B 局部认可批评不等于否定整个方法。",
+        "C these words 回指 aery 与 breme 等 archaic 词。",
+        "D 前面明确词典研究；括号是叙述者评论，不是新实验结果。"
+      ],
+      "vocabulary": [
+        {
+          "word": "archaic",
+          "meaning": "古旧的；已不常用的",
+          "context": "本段解释多数人不用某些词，不是说词形拼错或人格特质消失。",
+          "example": "The poem contains several archaic expressions.",
+          "collocations": [
+            "archaic words",
+            "archaic terms"
+          ]
+        }
+      ],
+      "evidenceQuote": "Others argued that many of the words, like “aery” and “breme,” were archaic and most people didn’t use them. (Indeed, these words are not very useful.) Yet others argued that there were large individual differences in vocabulary and that esoteric terms should be removed. (Probably true.)"
+    },
+    {
+      "order": 8,
+      "prompt": "What does '(Probably true.)' convey about the criticism of esoteric terms?",
+      "promptZh": "对晦涩词批评后的 Probably true 传达什么？",
+      "options": [
+        "Complete certainty that every word in the list is useless.",
+        "Qualified agreement with the preceding criticism.",
+        "A denial that vocabulary differs between individuals.",
+        "A report that every research assistant gave the same score."
+      ],
+      "optionsZh": [
+        "完全确定清单所有词都没用。",
+        "对前述批评有保留地赞同。",
+        "否认个体词汇量有差异。",
+        "报告所有助理给出同分。"
+      ],
+      "answer": 1,
+      "type": "语气与范围",
+      "support": "explicit",
+      "analyses": [
+        "A probably 非完全确定，且不是所有词。",
+        "B 紧接个体词汇差异及删去晦涩词的批评，表示大概如此。",
+        "C 没有否认差异，反而倾向认可。",
+        "D 没有评分助理或一致性数据；括号评论不是量化结果。"
+      ],
+      "vocabulary": [
+        {
+          "word": "esoteric",
+          "meaning": "晦涩的；少数人熟悉的",
+          "context": "指词汇难懂、普及程度有限，不是品格优劣评价。",
+          "example": "The lecturer explained an esoteric term in simple language.",
+          "collocations": [
+            "esoteric terms",
+            "remove esoteric words"
+          ]
+        }
+      ],
+      "evidenceQuote": "Others argued that many of the words, like “aery” and “breme,” were archaic and most people didn’t use them. (Indeed, these words are not very useful.) Yet others argued that there were large individual differences in vocabulary and that esoteric terms should be removed. (Probably true.)"
+    },
+    {
+      "order": 9,
+      "prompt": "Who rated whom in Goldberg's example?",
+      "promptZh": "Goldberg 例子中，谁给谁评分？",
+      "options": [
+        "187 college students rated themselves using 1,710 terms.",
+        "1,710 students rated 187 obituary subjects.",
+        "Goldberg alone rated each student's entire future.",
+        "The obituary assistants rated themselves on twelve themes."
+      ],
+      "optionsZh": [
+        "187名大学生用1,710个词自评。",
+        "1,710名学生给187个讣告对象评分。",
+        "Goldberg 独自评价每位学生全部未来。",
+        "讣告助理按十二主题给自己评分。"
+      ],
+      "answer": 0,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A students rate themselves 保留人数、词数及自评方向。",
+        "B 人数与词数互换，又将材料改成讣告。",
+        "C 评分者是学生本人，不是他独自预测人生。",
+        "D 不同研究的助理与主题不可混入本例。"
+      ],
+      "vocabulary": [
+        {
+          "word": "rate themselves",
+          "meaning": "给自己评分；自我评估",
+          "context": "区别于先前助理根据他人讣告作他评。",
+          "example": "Participants rate themselves on a series of descriptive words.",
+          "collocations": [
+            "students rate themselves",
+            "self-rating terms"
+          ]
+        }
+      ],
+      "evidenceQuote": "For example, Lew Goldberg had 187 college students rate themselves on 1,710 terms: “How jolly are you in general? How reserved are you in general? How sadistic are you in general?” and so on."
+    },
+    {
+      "order": 10,
+      "prompt": "What does 'in general' ask students to consider in the reservedness question?",
+      "promptZh": "内敛程度问题中的 in general 要学生考虑什么？",
+      "options": [
+        "Only how they felt during one unusual phone call.",
+        "Whether they had already reserved a room abroad.",
+        "A judgement of every other student's social style.",
+        "Their usual level of being quiet or restrained."
+      ],
+      "optionsZh": [
+        "仅某次特殊电话中的感受。",
+        "是否已订好海外房间。",
+        "对每位其他学生社交风格的判断。",
+        "自己通常安静或克制的程度。"
+      ],
+      "answer": 3,
+      "type": "语境词义",
+      "support": "explicit",
+      "analyses": [
+        "A in general 指一般状态，不是一次例外。",
+        "B reserved 此处人格形容词，不是预订动作。",
+        "C themselves 指本人，不是给全体同学评分。",
+        "D reserved 在特质问卷中问较内敛的通常倾向，不是直接诊断社交障碍。"
+      ],
+      "vocabulary": [
+        {
+          "word": "reserved",
+          "meaning": "内敛的；不轻易流露感情的",
+          "context": "人格语境义，不是座位已被预订。",
+          "example": "He is reserved at first but becomes talkative with close friends.",
+          "collocations": [
+            "How reserved are you",
+            "a reserved manner"
+          ]
+        }
+      ],
+      "evidenceQuote": "For example, Lew Goldberg had 187 college students rate themselves on 1,710 terms: “How jolly are you in general? How reserved are you in general? How sadistic are you in general?” and so on."
+    },
+    {
+      "order": 11,
+      "prompt": "What is the purpose of the question about being sadistic in this example?",
+      "promptZh": "例子里询问 sadistic 的问题有什么作用？",
+      "options": [
+        "It diagnoses every participant with a clinical disorder.",
+        "It illustrates another trait term used in students' general self-ratings.",
+        "It establishes that all students enjoy causing suffering.",
+        "It asks the students to rate the obituary writers instead of themselves."
+      ],
+      "optionsZh": [
+        "对每位参与者作临床诊断。",
+        "再举一个学生一般特质自评用词。",
+        "确认所有学生都喜欢让人受苦。",
+        "改为让学生评价讣告作者。"
+      ],
+      "answer": 1,
+      "type": "作者意图",
+      "support": "explicit",
+      "analyses": [
+        "A 单个词项示例不是临床诊断。",
+        "B 与 jolly,reserved 并列，and so on 表示列举问项。",
+        "C 问有多……不等于已知人人都如此。",
+        "D 自评主体没有改变。"
+      ],
+      "vocabulary": [
+        {
+          "word": "sadistic",
+          "meaning": "以他人痛苦为乐的；残虐的",
+          "context": "这里是被举例的描述词，不可把问题当成所有被试都具备的事实。",
+          "example": "The novel portrays the villain's sadistic behaviour.",
+          "collocations": [
+            "How sadistic are you",
+            "sadistic behaviour"
+          ]
+        }
+      ],
+      "evidenceQuote": "For example, Lew Goldberg had 187 college students rate themselves on 1,710 terms: “How jolly are you in general? How reserved are you in general? How sadistic are you in general?” and so on."
+    },
+    {
+      "order": 12,
+      "prompt": "Which pair belongs to conscientiousness in the factor list?",
+      "promptZh": "因子列表中，哪一对属于尽责性？",
+      "options": [
+        "Jolly and talkative.",
+        "Fearful and self-critical.",
+        "Persistent and dependable.",
+        "Literary and perceptive."
+      ],
+      "optionsZh": [
+        "快活与健谈。",
+        "胆怯与自我批评。",
+        "坚持与可靠。",
+        "爱好文学与感知敏锐。"
+      ],
+      "answer": 2,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A 该对列在 extraversion。",
+        "B 该对列在 neuroticism。",
+        "C conscientiousness 括号内包括 persistent,tidy,dependable。",
+        "D 该对列在 openness to experience；这些是分类例词，不是每人都须完全匹配的标签诊断。"
+      ],
+      "vocabulary": [
+        {
+          "word": "conscientiousness",
+          "meaning": "尽责性；认真可靠、坚持有序的倾向",
+          "context": "五因素之一，例词为 persistent,tidy,dependable，不等于道德上优于所有人。",
+          "example": "Conscientiousness is reflected in her careful planning.",
+          "collocations": [
+            "conscientiousness and dependability",
+            "the conscientiousness factor"
+          ]
+        }
+      ]
+    },
+    {
+      "order": 13,
+      "prompt": "What is the 'map' a metaphor for in this discussion?",
+      "promptZh": "这里 map 比喻什么？",
+      "options": [
+        "A geographical map of the students' home towns.",
+        "The exact location of personality inside the brain.",
+        "An organisation of many personality descriptors into broader factors.",
+        "A schedule assigning each participant a travel destination."
+      ],
+      "optionsZh": [
+        "学生家乡的地理地图。",
+        "人格在大脑中的确切位置。",
+        "把大量人格描述词整理成较大因子的体系。",
+        "给每位参与者分配旅程目的地的时间表。"
+      ],
+      "answer": 2,
+      "type": "语境词义",
+      "support": "explicit",
+      "analyses": [
+        "A 后文城市与大陆是类比，不是真实制图。",
+        "B 没有神经定位证据。",
+        "C 五因子如大陆，众多描述词如城镇，强调分类组织。",
+        "D 不涉及出行分派。In a sense 保留比喻性质。"
+      ],
+      "vocabulary": [
+        {
+          "word": "In a sense",
+          "meaning": "从某种意义上说",
+          "context": "提示接下来的地图是比喻，而不是字面地理发现。",
+          "example": "In a sense, the outline is a map of the argument.",
+          "collocations": [
+            "In a sense",
+            "in one sense"
+          ]
+        }
+      ],
+      "evidenceQuote": "Goldberg’s study and others like it found that many personality traits cluster neatly into the following five factors: extraversion (e.g., jolly, talkative, sociable, active), neuroticism (e.g., touchy, fearful, self-critical), conscientiousness (e.g., persistent, tidy, dependable), agreeableness (e.g., generous, kind, trustful), and openness to experience (e.g., literary, insightful, perceptive). In a sense, personality psychologists created a map. Like cities and towns across the world, there are countless words descriptive of personality. By classifying all these words into five factors, personality psychologists essentially organized them into “continents” on the map."
+    },
+    {
+      "order": 14,
+      "prompt": "What do cities and towns correspond to in the analogy?",
+      "promptZh": "类比中的城市与城镇对应什么？",
+      "options": [
+        "Only the five broad personality factors.",
+        "The many words used to describe personality.",
+        "The five countries in which students were tested.",
+        "Places where each personality trait can exist exclusively."
+      ],
+      "optionsZh": [
+        "仅五个宽泛人格因子。",
+        "大量描写人格的词。",
+        "对学生测试的五个国家。",
+        "每种特质只能存在的专属地点。"
+      ],
+      "answer": 1,
+      "type": "逻辑关系",
+      "support": "explicit",
+      "analyses": [
+        "A 五因子后文比作大陆，不是城镇。",
+        "B there are countless words 紧接城市城镇，构成多数量级对应。",
+        "C 未给五国测试设定。",
+        "D 地理类比不是说人格特质按地点排他分布。"
+      ],
+      "vocabulary": [
+        {
+          "word": "countless",
+          "meaning": "数不胜数的；非常多的",
+          "context": "强调词汇数量繁多，非数学上已证明不可计数。",
+          "example": "There are countless ways to describe a memorable day.",
+          "collocations": [
+            "countless words",
+            "countless examples"
+          ]
+        }
+      ],
+      "evidenceQuote": "Goldberg’s study and others like it found that many personality traits cluster neatly into the following five factors: extraversion (e.g., jolly, talkative, sociable, active), neuroticism (e.g., touchy, fearful, self-critical), conscientiousness (e.g., persistent, tidy, dependable), agreeableness (e.g., generous, kind, trustful), and openness to experience (e.g., literary, insightful, perceptive). In a sense, personality psychologists created a map. Like cities and towns across the world, there are countless words descriptive of personality. By classifying all these words into five factors, personality psychologists essentially organized them into “continents” on the map."
+    },
+    {
+      "order": 15,
+      "prompt": "How strong is the comparison between wrestling spectators and people who avoid such activities?",
+      "promptZh": "摔角观众与回避这类活动者的比较有多强？",
+      "options": [
+        "Every spectator must have exactly the same personality.",
+        "Avoiding wrestling proves that a person cannot have a rich life.",
+        "The two groups were randomly assigned different personalities.",
+        "They might be different kinds of people, as a possibility motivating inquiry."
+      ],
+      "optionsZh": [
+        "每位观众人格必须完全相同。",
+        "回避摔角证明不能过丰富生活。",
+        "两组被随机分配不同人格。",
+        "两类人可能有所不同，作为进一步探究的可能性。"
+      ],
+      "answer": 3,
+      "type": "语气与范围",
+      "support": "explicit",
+      "analyses": [
+        "A 原句比较两类人可能不同，不说组内人人相同。",
+        "B 不能由一种活动推断生活永不丰富。",
+        "C 未作这种人格分派。",
+        "D might 限定为可能，随后才问特质关系，不是已确立普遍定律。"
+      ],
+      "vocabulary": [
+        {
+          "word": "avoids",
+          "meaning": "回避；不参加",
+          "context": "指回避这类活动，不自动表示害怕所有新事物。",
+          "example": "She avoids crowded events but enjoys exploring quiet places.",
+          "collocations": [
+            "avoids those activities",
+            "avoid an activity"
+          ]
+        }
+      ],
+      "evidenceQuote": "The type of person who goes to a pro wrestling match on the weekend might be a very different kind of person than someone who avoids those kinds of activities. The type of person who studies abroad could be very different from the type of person who doesn’t. Are there distinct personality traits characteristic of the psychologically rich? If so, which of the Big Five factors are associated with a psychologically rich life?"
+    },
+    {
+      "order": 16,
+      "prompt": "What potential research problem is suggested by the study-abroad comparison?",
+      "promptZh": "留学者与不留学者的比较提示什么潜在研究问题？",
+      "options": [
+        "The groups could already differ in personality, so group differences require care in interpretation.",
+        "The comparison guarantees that study abroad changes everyone in the same way.",
+        "Every student who stays on campus has an identical personality.",
+        "The sentence proves personality has no relation to choosing activities."
+      ],
+      "optionsZh": [
+        "两组人格可能本有差异，因此解释组间差异需谨慎。",
+        "比较保证留学使每个人产生同样变化。",
+        "每个留校学生人格完全相同。",
+        "该句证明人格与活动选择毫无关联。"
+      ],
+      "answer": 0,
+      "type": "有限推断",
+      "support": "limited-inference",
+      "analyses": [
+        "A could be very different 提示两类人本可能有差异；这是有限方法推论，不是句中已证明具体先后因果。",
+        "B could 不是所有人同效保证。",
+        "C 未说组内人人一致。",
+        "D 原句正提出可能差异，并未否定关系。"
+      ],
+      "vocabulary": [
+        {
+          "word": "could be",
+          "meaning": "可能是；可能会",
+          "context": "保留两类人不同的可能性，不能当成研究已确证所有人的差异。",
+          "example": "The difference could be related to earlier experience.",
+          "collocations": [
+            "could be different",
+            "could be very different from"
+          ]
+        }
+      ],
+      "evidenceQuote": "The type of person who goes to a pro wrestling match on the weekend might be a very different kind of person than someone who avoids those kinds of activities. The type of person who studies abroad could be very different from the type of person who doesn’t. Are there distinct personality traits characteristic of the psychologically rich? If so, which of the Big Five factors are associated with a psychologically rich life?"
+    },
+    {
+      "order": 17,
+      "prompt": "What is the personality question seeking to establish?",
+      "promptZh": "人格问句希望查明什么？",
+      "options": [
+        "Whether one particular outing is the only route to richness.",
+        "Whether the psychologically rich must avoid all ordinary activities.",
+        "Whether distinctive personality traits characterise psychologically rich lives.",
+        "Whether every Big Five factor has already been proved equally important."
+      ],
+      "optionsZh": [
+        "某一次活动是否是丰富的唯一途径。",
+        "心理丰富者是否必须回避所有日常活动。",
+        "心理丰富生活者是否具有特定人格特征。",
+        "每个大五因子是否已证明同样重要。"
+      ],
+      "answer": 2,
+      "type": "主旨",
+      "support": "explicit",
+      "analyses": [
+        "A 从活动例子进入特质问题，不限定唯一路径。",
+        "B 没有必须避开日常的条件。",
+        "C Are there...characteristic of 是直接研究问句。",
+        "D 问句尚未给出各因子结论，也非预定同样重要。"
+      ],
+      "vocabulary": [
+        {
+          "word": "characteristic of",
+          "meaning": "为……所特有或常见的；能表征……的",
+          "context": "询问群体相关特征，不是每人必然完全相同。",
+          "example": "These details are characteristic of her writing style.",
+          "collocations": [
+            "traits characteristic of",
+            "be characteristic of"
+          ]
+        }
+      ],
+      "evidenceQuote": "The type of person who goes to a pro wrestling match on the weekend might be a very different kind of person than someone who avoids those kinds of activities. The type of person who studies abroad could be very different from the type of person who doesn’t. Are there distinct personality traits characteristic of the psychologically rich? If so, which of the Big Five factors are associated with a psychologically rich life?"
+    },
+    {
+      "order": 18,
+      "prompt": "Which two personality predictors of psychological richness are named?",
+      "promptZh": "原文点名哪两项心理丰富的人格预测因素？",
+      "options": [
+        "Neuroticism and conscientiousness.",
+        "Agreeableness and conscientiousness.",
+        "Income and the height of a person's father.",
+        "Openness to experiences and extraversion."
+      ],
+      "optionsZh": [
+        "神经质与尽责性。",
+        "宜人性与尽责性。",
+        "收入与父亲身高。",
+        "经验开放性与外向性。"
+      ],
+      "answer": 3,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A 不是此句的两项。",
+        "B 大五其他因子不能替代点名结果。",
+        "C 身高是后文相关强度的类比，不是这里的预测变量。",
+        "D Two main...were 后直接列两项；相关预测不保证每个人或已证明单向因果。"
+      ],
+      "vocabulary": [
+        {
+          "word": "predictors",
+          "meaning": "预测因素；与结果有预测关联的变量",
+          "context": "这里处于相关研究叙述，不自动等于充分原因或命运。",
+          "example": "The study examined several predictors of course completion.",
+          "collocations": [
+            "personality predictors",
+            "two main predictors"
+          ]
+        }
+      ],
+      "evidenceQuote": "Two main personality predictors of a psychologically rich life were openness to experiences and extraversion (see Appendix 2 for all the correlations). The .47 correlation between openness to experience and psychological richness is similar to the correlation between heights of fathers and their sons, which is quite strong, though far from absolute. That is, open people tend to lead a psychologically rich life, just like sons whose fathers are tall tend to be tall themselves."
+    },
+    {
+      "order": 19,
+      "prompt": "What does 'For now' do before the focus on openness?",
+      "promptZh": "聚焦开放性前的 For now 起什么作用？",
+      "options": [
+        "It says the author will temporarily concentrate on this particular link.",
+        "It declares that exceptions to the relationship do not exist.",
+        "It says openness guarantees richness from now on.",
+        "It replaces openness with the physical height of participants."
+      ],
+      "optionsZh": [
+        "表示作者暂时集中讨论这项联系。",
+        "宣告这种关系没有例外。",
+        "表示从今起开放性保证丰富。",
+        "以参与者身高替代开放性。"
+      ],
+      "answer": 0,
+      "type": "篇章结构",
+      "support": "explicit",
+      "analyses": [
+        "A let us focus 配合 For now 选择眼下论述重点。",
+        "B 前句明确 plenty of exceptions。",
+        "C 暂时聚焦不是改变相关性的必然强度。",
+        "D 身高仅作类比，没有更换实际主题。"
+      ],
+      "vocabulary": [
+        {
+          "word": "For now",
+          "meaning": "暂且；眼下",
+          "context": "篇章组织标记，不是从现在起关系才开始成立。",
+          "example": "For now, let us focus on the first explanation.",
+          "collocations": [
+            "For now, let's focus",
+            "for now"
+          ]
+        }
+      ],
+      "evidenceQuote": "But, just as some sons are very different from their fathers in height, there are also plenty of exceptions: people low in openness who lead psychologically rich lives as well as people who are high in openness who don’t lead psychologically rich lives. For now, let’s focus on the link between openness and psychological richness."
+    },
+    {
+      "order": 20,
+      "prompt": "What is the force of 'tend to' in the question about open people?",
+      "promptZh": "关于开放者的问句中 tend to 有什么含义？",
+      "options": [
+        "All open people necessarily lead rich lives.",
+        "Open people generally show this tendency, without a universal guarantee.",
+        "No open person can lead a rich life.",
+        "The researcher has experimentally made everyone open."
+      ],
+      "optionsZh": [
+        "所有开放者必然心理丰富。",
+        "开放者总体有这种倾向，但无普遍保证。",
+        "没有开放者能过丰富生活。",
+        "研究者已用实验让人人开放。"
+      ],
+      "answer": 1,
+      "type": "语气与范围",
+      "support": "explicit",
+      "analyses": [
+        "A 把倾向强化为必然。",
+        "B tend to 保留总体趋势及例外空间。",
+        "C 反转原文方向。",
+        "D 问句没有报告全员人格操纵实验，不能以问因当作实验设计。"
+      ],
+      "vocabulary": [
+        {
+          "word": "tend to",
+          "meaning": "倾向于；往往",
+          "context": "总体关系允许个体例外，不是充分必要条件。",
+          "example": "People tend to remember unusual details, though there are exceptions.",
+          "collocations": [
+            "tend to lead",
+            "tend to be"
+          ]
+        }
+      ],
+      "evidenceQuote": "Why do people who are high in openness to experience tend to lead psychologically rich lives? Open people are imaginative, curious, and interested in intellectual and artistic pursuits. People low in openness are conventional and down-to-earth, preferring routine and less interested in intellectual or artistic pursuits. Students who are open to experience are more likely to study abroad, an activity known to enhance psychological richness, than those low in openness."
+    },
+    {
+      "order": 21,
+      "prompt": "Which description matches people high in openness in this passage?",
+      "promptZh": "哪种描述符合本段的高开放性者？",
+      "options": [
+        "They are defined as having no interest in artistic activity.",
+        "They can be identified solely by always talking loudly.",
+        "They are imaginative, curious, and interested in intellectual and artistic pursuits.",
+        "They must already have visited every national park."
+      ],
+      "optionsZh": [
+        "他们被定义为对艺术毫无兴趣。",
+        "仅凭总是大声说话就可识别。",
+        "他们富于想象、好奇，并对知识与艺术活动有兴趣。",
+        "他们必须已去过每座国家公园。"
+      ],
+      "answer": 2,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A 与 interested 相反。",
+        "B 将开放性与外向表达混淆。",
+        "C imaginative,curious 与两类 pursuits 均为原句。",
+        "D 兴趣特征不等于已完成所有活动或拥有资源。"
+      ],
+      "vocabulary": [
+        {
+          "word": "pursuits",
+          "meaning": "追求；投入的活动或兴趣",
+          "context": "intellectual and artistic pursuits 指知识与艺术兴趣活动，不是物理追捕。",
+          "example": "Reading and music are her favourite leisure pursuits.",
+          "collocations": [
+            "intellectual pursuits",
+            "artistic pursuits"
+          ]
+        }
+      ]
+    },
+    {
+      "order": 22,
+      "prompt": "How should 'down-to-earth' be understood in the lower-openness description?",
+      "promptZh": "低开放性描述里的 down-to-earth 应怎样理解？",
+      "options": [
+        "Practical and grounded, alongside a preference for familiar routine.",
+        "Unable to experience happiness or meaning.",
+        "Morally inferior to all highly open people.",
+        "Literally remaining underground instead of travelling."
+      ],
+      "optionsZh": [
+        "务实、脚踏实地，同时偏好熟悉惯例。",
+        "无法体验幸福与意义。",
+        "道德上劣于所有高开放者。",
+        "字面上待在地下而不旅行。"
+      ],
+      "answer": 0,
+      "type": "语境词义",
+      "support": "explicit",
+      "analyses": [
+        "A 与 conventional,preferring routine 同属该描述。",
+        "B 本句不否定其他生活维度。",
+        "C 人格维度不是道德优劣排名。",
+        "D 是习语，不是地理位置；less interested 也非完全没有兴趣。"
+      ],
+      "vocabulary": [
+        {
+          "word": "down-to-earth",
+          "meaning": "务实的；脚踏实地的",
+          "context": "人格描述中不带必然道德贬义，也不表示排除任何丰富经历。",
+          "example": "Her down-to-earth approach kept the plan practical.",
+          "collocations": [
+            "conventional and down-to-earth",
+            "a down-to-earth approach"
+          ]
+        }
+      ],
+      "evidenceQuote": "Why do people who are high in openness to experience tend to lead psychologically rich lives? Open people are imaginative, curious, and interested in intellectual and artistic pursuits. People low in openness are conventional and down-to-earth, preferring routine and less interested in intellectual or artistic pursuits. Students who are open to experience are more likely to study abroad, an activity known to enhance psychological richness, than those low in openness."
+    },
+    {
+      "order": 23,
+      "prompt": "What change over time is reported for the study-abroad group?",
+      "promptZh": "原文报告留学组随时间发生哪种变化？",
+      "options": [
+        "They all became identical in personality.",
+        "They necessarily became less curious than before.",
+        "They showed no change relative to those who stayed.",
+        "They became more open to experience than those who did not study abroad."
+      ],
+      "optionsZh": [
+        "他们全变成人格相同。",
+        "他们必然比以前更少好奇。",
+        "与未留学者相比无变化。",
+        "他们比未留学者随时间变得更开放。"
+      ],
+      "answer": 3,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A 比较趋势不是人人人格相同。",
+        "B more open 方向相反。",
+        "C 原句明确比较差异。",
+        "D 保留 over time 和 than those who did not 的比较；不据此声称随机分派或每人同等改变。"
+      ],
+      "vocabulary": [
+        {
+          "word": "over time",
+          "meaning": "随着时间推移",
+          "context": "指变化过程，不是一次测量即可确定的终身固定状态。",
+          "example": "Her confidence grew over time as she practised.",
+          "collocations": [
+            "became more open over time",
+            "change over time"
+          ]
+        }
+      ],
+      "evidenceQuote": "Interestingly, those who studied abroad became more open to experience over time than those who didn’t. Based on this information, we concluded that there is a reciprocal relationship between openness to experience and psychological richness, such that openness to experience increases one’s chance of engaging in richness-enhancing activities, which in turn boosts one’s openness further. Your personality is not your destiny, though; the later chapters of this book are dedicated to strategies that everyone, no matter what your personality is, can implement to make your life more psychologically rich."
+    },
+    {
+      "order": 24,
+      "prompt": "Why does the author say 'Your personality is not your destiny'?",
+      "promptZh": "作者为什么说人格不是命运？",
+      "options": [
+        "To deny that any personality-life relationship was observed.",
+        "To stress that strategies are available regardless of personality.",
+        "To guarantee that one strategy works equally for everyone.",
+        "To claim people cannot change any part of their lives."
+      ],
+      "optionsZh": [
+        "否认观察到任何人格与生活的关系。",
+        "强调无论人格如何，都有可采用的策略。",
+        "保证一种策略对人人效果完全相同。",
+        "宣称人无法改变生活任何方面。"
+      ],
+      "answer": 1,
+      "type": "作者意图",
+      "support": "explicit",
+      "analyses": [
+        "A 前文仍支持联系，though 引出限制而非全盘否定。",
+        "B later chapters...strategies...no matter what your personality is 明确理由。",
+        "C 可以采用不等于相同效果或成功保证。",
+        "D 与不是命运的意旨相反。"
+      ],
+      "vocabulary": [
+        {
+          "word": "destiny",
+          "meaning": "命运；预定结果",
+          "context": "此处否定人格将生活结果完全固定，不是否认任何统计关联。",
+          "example": "One disappointing result does not determine your destiny.",
+          "collocations": [
+            "not your destiny",
+            "personality and destiny"
+          ]
+        }
+      ],
+      "evidenceQuote": "Interestingly, those who studied abroad became more open to experience over time than those who didn’t. Based on this information, we concluded that there is a reciprocal relationship between openness to experience and psychological richness, such that openness to experience increases one’s chance of engaging in richness-enhancing activities, which in turn boosts one’s openness further. Your personality is not your destiny, though; the later chapters of this book are dedicated to strategies that everyone, no matter what your personality is, can implement to make your life more psychologically rich."
+    },
+    {
+      "order": 25,
+      "prompt": "What does 'might have always been open' allow the author to suggest about Joy Ryan?",
+      "promptZh": "might have always been open 允许作者对 Joy Ryan 作什么判断？",
+      "options": [
+        "Her lifelong openness has been measured and proved without uncertainty.",
+        "She was certainly closed to experience before eighty-five.",
+        "She may have had an open disposition even before opportunities to explore expanded.",
+        "Her openness alone guaranteed that she travelled widely throughout her life."
+      ],
+      "optionsZh": [
+        "她终生开放已被测量并无疑证实。",
+        "她八十五岁前肯定不开放。",
+        "在探索机会增加前，她可能本已具有开放倾向。",
+        "仅开放性就保证她一生一直广泛旅行。"
+      ],
+      "answer": 2,
+      "type": "有限推断",
+      "support": "limited-inference",
+      "analyses": [
+        "A might 保留推测，非终生测量证明。",
+        "B 把可能一直开放反写为确定不开放。",
+        "C 与后文缺少机会相结合，有限推论区分性格和探索机会。",
+        "D 父段明确开放不保证丰富，机会约束不能省略。"
+      ],
+      "vocabulary": [
+        {
+          "word": "might have",
+          "meaning": "可能曾经；或许已经",
+          "context": "对过去状态保留不确定性，不能当已证实历史数据。",
+          "example": "She might have known about the plan before the meeting.",
+          "collocations": [
+            "might have always been",
+            "might have had"
+          ]
+        }
+      ],
+      "evidenceQuote": "The .47 correlation also means that having an open personality doesn’t necessarily guarantee that you will lead a psychologically rich life. Joy Ryan, the ninety-four-year-old national park enthusiast we met in Chapter 4, might have always been open to experience. But, until she turned eighty-five, she hadn’t had many opportunities to explore the world."
+    }
+  ]
+}

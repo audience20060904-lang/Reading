@@ -1,4 +1,10 @@
 import assert from 'node:assert/strict';
+// A longer quotation must not silently consume an unassigned gap from a future batch.
+export function assertPlannedEvidence(questions,previouslyEvidenced,targetIds){
+ const planned=new Set(targetIds);
+ for(const q of questions)for(const evidence of q.evidence)for(const id of evidence.sentenceIds)
+  assert(previouslyEvidenced.has(id)||planned.has(id),`Evidence quote covers unassigned gap ${id}; trim the quote to the evidence needed for the authored question`);
+}
 // Map an authored exact quote to immutable source IDs, including reviewed cross-page joins.
 export function matchEvidence(book,parent,targetId,quote){
  const ss=parent.sentenceIds.map(id=>book.sentences.find(s=>s.id===id)),target=ss.find(s=>s.id===targetId);assert(target);

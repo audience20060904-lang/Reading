@@ -2,7 +2,7 @@
 import {readFile,writeFile,readdir} from 'node:fs/promises';
 import {createHash} from 'node:crypto';
 import assert from 'node:assert/strict';
-import {matchEvidence} from './evidence-source.mjs';
+import {matchEvidence,assertPlannedEvidence} from './evidence-source.mjs';
 const read=async p=>JSON.parse(await readFile(p,'utf8'));
 const canonical=v=>Array.isArray(v)?'['+v.map(canonical).join(',')+']':v&&typeof v==='object'?'{'+Object.keys(v).sort().map(k=>JSON.stringify(k)+':'+canonical(v[k])).join(',')+'}':JSON.stringify(v);
 const hash=s=>createHash('sha256').update(s).digest('hex');
@@ -24,6 +24,7 @@ for(const name of (await readdir('source/evidence-questions')).filter(n=>/^batch
  }
  const receipt=`source/releases/evidence-${String(Number(name.match(/\d+/)[0])).padStart(3,'0')}.json`;const released=await read(receipt).catch(()=>null);
  const reviewed=await read('source/evidence-questions/'+name.replace('-author','-review')).catch(()=>null),produced=supplemental.filter(q=>q.batchId===author.id);
+ assertPlannedEvidence(produced,beforeBatch,targets.targets.map(t=>t.sentenceId));
  if(reviewed){assert.equal(reviewed.status,'source-and-editorial-reviewed');for(const q of produced)assert.equal(reviewed.questions.find(x=>x.questionId===q.id)?.fingerprint,q.fingerprint,'Review does not match author draft');const pages=new Set(reviewed.reviewedPages.map(p=>p.pdfPage));assert(targets.targets.every(t=>t.pdfPages.every(p=>pages.has(p))),'Review full parent source pages');}
  if(released?.status==='published-and-verified')for(const q of produced)assert.equal(released.questionFingerprints[q.id],q.fingerprint,'Never silently change a published question');
  batches.push({id:author.id,status:released?.status==='published-and-verified'?'published-and-verified':reviewed?'prepared-not-yet-published':'prepared-needs-source-review',questionCount:author.questions.length,questionIds:author.questions.map(row=>targets.targets.find(t=>t.order===row.order).questionId),targetRecord:'source/evidence-questions/'+name.replace('-author','-targets'),authorRecord:'source/evidence-questions/'+name,receipt:released?receipt:null});
