@@ -1,6 +1,6 @@
 # 三维 · IELTS 阅读工作室
 
-只学习 Shigehiro Oishi 的 Life in Three Dimensions。React、TypeScript、Vite、IndexedDB；无 AI API、运行时出题、注册或云端学习数据库。
+只学习 Shigehiro Oishi 的 Life in Three Dimensions。React、TypeScript、Vite、IndexedDB；无 AI API、运行时出题或网站注册。默认本机自动保存，可选将加密存档手动保存到自己的 GitHub Private 仓库。
 
 网页：https://audience20060904-lang.github.io/Reading/
 公开源码：https://github.com/audience20060904-lang/Reading
@@ -43,7 +43,7 @@ Windows 双击 start-reading.cmd，或使用 Node.js 22.12+ 执行：
 
 打开 http://127.0.0.1:4173/ 。开发使用 npm run dev。不要用 file:// 双击 HTML，离线只在生产构建中工作。
 
-当前283项自动测试。通用浏览器套件25项；末尾25段使用 node scripts/batch042-browser-test.mjs。来源审计和新增3题使用 node scripts/batch043-browser-test.mjs，检查原页顺序、旧题指纹和成绩、图表恢复、子路径与离线缓存。所有浏览器作答均为隔离合成记录，实际发布结果记录在对应回执中。
+当前302项自动测试。通用浏览器套件25项；末尾25段使用 node scripts/batch042-browser-test.mjs。来源审计和新增3题使用 node scripts/batch043-browser-test.mjs，检查原页顺序、旧题指纹和成绩、图表恢复、子路径与离线缓存。所有浏览器作答均为隔离合成记录，实际发布结果记录在对应回执中。
 
 脚本使用 Playwright 和 Chromium；Windows 默认 Edge，可设置 BROWSER_PATH。缺少依赖时安装 npm install --no-save playwright，再执行 npx playwright install chromium。QA 使用隔离浏览器和合成记录，仅写入被忽略的 qa/，不读取用户 4173 端口数据。
 
@@ -75,13 +75,27 @@ IndexedDB 保存位置、答案、正误、时间、次数、耗时、版本 / �
 
 首次升级进入新版短段，不套用旧版答案；旧成绩不变。统计页可主动回看旧解析，刷新仍恢复该历史会话。历史译文按题目 ID 和原文精确匹配，不套用新片段。
 
+## 本章进度与存档
+
+练习页首显示当前 Chapter 与本章阅读位置百分比，计算为当前短段在本章的顺序号 ÷ 本章短段数（保留一位小数）。它是位置指示；跳转到章末可显示100%，但不会产生已读、作答或正确记录。统计页手动已读口径保持独立。
+
+本机数据库保持原名称、版本1和state键，旧记录就地兼容。选择、提交、位置、偏好即时写入；未提交用时每5秒保存。每次不同学习状态在同一事务中保留最多3个旧恢复点（计时不挤占），设置中可确认恢复。主记录损坏时尝试有效恢复点，显示恢复提示，不偷偷归零。修订号在同一事务内检查，旧标签页不能覆盖另一标签页较新的存档；遇此提示请刷新旧页。可在设置中申请持久存储，浏览器不保证授予，主动清除站点数据仍会删除全部本机存档与恢复点。
+
+可选在线存档：打开设置 → 在线存档 → 首次设置。在自己的GitHub账号新建Private仓库（例如reading-saves，初始化README），创建仅限该仓库且Contents为Read and write的fine-grained token，输入仓库、令牌和至少12字符的加密口令。不要使用公开Reading网站仓库。点击读取在线存档，比较本机与在线记录，再确认上传或恢复。每次上传替换完整快照，不合并不同设备成绩；另一设备先读取恢复，结束后再保存。此版本没有后台自动同步，离线继续使用本机，恢复网络后手动保存。
+
+文件固定为reading/study.enc.json，通过HTTPS直接调用api.github.com。浏览器先用PBKDF2-SHA256（310000次、随机16字节盐）派生AES-256-GCM密钥，以随机12字节IV加密完整JSON，再上传。GitHub仍可见大小、时间与加密提交历史。令牌和口令只存在当前页面内存中，离开设置仍可保留，刷新或关闭网页后清除；仅仓库名和用户名可在本机记忆，不包含在学习备份中。不要把令牌发送到聊天。口令丢失无法解密旧在线存档；定期下载JSON备份。
+
+每次读写检查仓库为Private；读取绑定不可变blob SHA，写入携带读取时SHA防止并发覆盖。冲突、权限失败、网络失败不会强制覆盖，需重新读取比较。上传后重新下载、解密并校验完整快照才显示成功。恢复仍经原有JSON格式/成绩/历史快照校验与覆盖确认。在线完整备份上限8MB，大于此值仍可导出本机JSON（上限50MB）。首次需自行配置私有仓库与有效令牌，代码就绪和模拟接口测试不代表真实用户云端存档已保存。没有部署后台、付费资源或共享网站访问令牌。
+
+参考：[GitHub Contents API](https://docs.github.com/en/rest/repos/contents)、[浏览器跨域请求](https://docs.github.com/en/rest/using-the-rest-api/using-cors-and-jsonp-to-make-cross-origin-requests)。协议与加密单元测试在tests/archive.test.ts；本机与线上隔离浏览器验证在scripts/archive-browser-test.mjs。模拟接口验证单独标明，不代替真实GitHub私人存档往返。
+
 ## 离线、备份与讨论
 
 在线打开并等待设置显示“离线缓存已就绪”，然后同一地址可离线访问或添加到主屏幕。浏览器可能回收缓存，请备份重要记录。
 
 缓存按子路径隔离，内容或生成逻辑改变时更新。安装使用 Request(cache: reload) 刷新 HTTP 旧数据，防止旧题库装入新缓存；只清理同作用域缓存，不删除 IndexedDB。联网刷新、待缓存就绪后重新打开。
 
-设置支持 JSON 完整备份、CSV 历史、JSON 导入校验与覆盖提醒。可先备份或取消，覆盖不是合并。备份包含私人记录和书籍片段，应自行保管，不上传真实备份。设备、浏览器和域名之间不自动同步，使用 JSON 恢复。
+设置支持 JSON 完整备份、CSV 历史、JSON 导入校验与覆盖提醒。可先备份或取消，覆盖不是合并。备份包含私人记录和书籍片段，应自行保管，不上传真实备份。设备、浏览器和域名之间不自动同步；可使用 JSON，或下述私有在线存档跨设备恢复。
 
 没有内置聊天机器人。Ask ChatGPT 组合书名、章节、原文、英文问题 / 选项及疑问，已提交才附选择和正确答案。需手动粘贴；ChatGPT 不能自动读取本机数据。摘要只包含少量相关题目、错题 ID、位置和难词。
 

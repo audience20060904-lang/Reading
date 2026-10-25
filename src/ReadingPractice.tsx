@@ -3,6 +3,7 @@ import type {Attempt,Book,Question,ReadingPlan,ReadingUnit,StudyState,Vocabulary
 import {letters} from './core';
 import AnswerExplanation from './AnswerExplanation';
 import WordText from './WordLookup';
+import {chapterPosition} from './chapterProgress';
 type Props={book:Book;questions:Question[];plan:ReadingPlan;state:StudyState;question:Question;attempt?:Attempt;busy:boolean;onUnit:(u:ReadingUnit,fresh?:boolean)=>void;onSelect:(i:number)=>void;onSubmit:()=>void;onChat:()=>void;onSource:(id:string)=>void;onFavorite:(v:Vocabulary)=>void;onMark:(u:ReadingUnit)=>void;onRetry:()=>void};
 export default function ReadingPractice({book,questions,plan,state,question,attempt,busy,onUnit,onSelect,onSubmit,onChat,onSource,onFavorite,onMark,onRetry}:Props){
  const unit=plan.units.find(u=>u.id===state.readingUnitId)??plan.units.find(u=>u.questionId===question.id)??plan.units[0];
@@ -12,10 +13,11 @@ export default function ReadingPractice({book,questions,plan,state,question,atte
  const shownIds=legacy?q!.sentenceIds:unit.sentenceIds,shownWords=legacy?q!.passage.trim().split(/\s+/).length:unit.wordCount;
  const passage=legacy?q!.passage:paragraph.text.slice(sentences[0].start,sentences.at(-1)!.end);
  const chapter=book.chapters.find(c=>c.id===unit.chapterId)!,section=book.sections.find(s=>s.id===unit.sectionId)!;
+ const progress=chapterPosition(plan,unit);
  const read=unit.sentenceIds.every(id=>state.readSentences.includes(id)||state.readSections.includes(unit.sectionId));
  const original=<article className="passage-card"><div className="card-top"><span className="eyebrow">原文</span><span className="page-tag">PDF {unit.pdfPages.join('–')} · {shownWords} 词</span></div><div className="passage" lang="en" style={{fontSize:state.fontSize}}><WordText paragraphId={paragraph.id} text={passage} start={legacy?paragraph.text.indexOf(passage):sentences[0].start}/></div><p className="lookup-hint">淡蓝色词可点击查义</p><div className="passage-footer"><Leaf size={15}/><span>{legacy?'历史快照原文 · 未改写旧作答':'保留原句 · 本段不与其他短段重叠'}</span><button className="text-button" onClick={()=>onSource(unit.sentenceIds[0])}>查看来源</button></div><details className="source-details"><summary>来源、句子 ID 与排版规则</summary><p>{unit.paragraphId}</p><p>{shownIds.join(' / ')}</p><p>{book.normalization}</p><p>这里的句子数量为自动候选分句。短段保持原文顺序，不等于全部句界已经人工定稿。</p></details></article>;
  return <>
-  <div className="page-heading"><h1 lang="en">{section.title.replace(/^\d+\. /,'')}</h1><div className="session-count"><span>{String(index+1).padStart(2,'0')}</span> / {plan.units.length}<small>短段 · 已备 {questions.length} 题</small></div></div>
+  <div className="page-heading"><h1 lang="en">{section.title.replace(/^\d+\. /,'')}</h1><div className="chapter-progress"><small>Chapter {String(chapter.number).padStart(2,'0')}</small><strong>{progress.percent.toFixed(1)}<span>%</span></strong><div className="progress-bar" role="progressbar" aria-label="本章阅读位置" aria-valuemin={0} aria-valuemax={100} aria-valuenow={Number(progress.percent.toFixed(1))} aria-valuetext={`本章第 ${progress.position} / ${progress.total} 段，阅读位置 ${progress.percent.toFixed(1)}%`}><div style={{width:`${progress.percent}%`}}/></div><details><summary>本章阅读位置</summary><p>第 {progress.position} / {progress.total} 段 ÷ 本章短段总数。仅表示当前位置，跳转不会产生已读或答题记录。</p></details></div></div>
   <div className="reading-path"><span>Chapter {String(chapter.number).padStart(2,'0')}</span><ChevronRight size={14}/><span lang="en">{section.title}</span><button className="text-button" onClick={()=>onSource(unit.sentenceIds[0])}>查看章节 <ArrowUpRight size={14}/></button></div>
   {legacy&&<div className="notice">正在回看改版前的作答快照，原答案和成绩保留。<button className="text-button" onClick={()=>onUnit(unit,true)}>使用新版短段练习</button></div>}
   <div className={`practice-grid ${q?'':'reading-only-grid'} ${answered?'answered-grid':''}`}>
