@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "evidence-051-editorial-erratum",
+  "recordedAt": "2026-10-26T07:20:19.766673+00:00",
+  "correctsRecords": [
+    "source/evidence-questions/batch050-review.json",
+    "qe-c11-0081 analyses[3] trailing batch-planning remark"
+  ],
+  "scope": "Only a batch-planning aside. Correct answer,original source,evidence mapping,question fingerprint,and historical grades are unchanged.",
+  "originalProblem": "The preceding review and the final question analysis called the sticker pre/post numerical outcomes a next-batch or unassigned item.",
+  "correction": "Those numerical outcomes had already been directly evidenced by original primary q-c11-046 before batch050. This question measures actual donated-sticker counts; the pre/post means are not part of batch051 targets. The next-batch wording is inaccurate and should not be used as a coverage claim.",
+  "primaryEvidenceIds": [
+    "c11-s05-p128-06600-s006",
+    "c11-s05-p128-06600-s007"
+  ],
+  "publishedQuestionId": "qe-c11-0081",
+  "preservedPublishedFingerprint": "1d687553c80576075a4ceb6d2b60a0f1029cd14d6e5f17562f5a2c6193b4d9c9",
+  "status": "documented-erratum",
+  "reviewRecord": "source/evidence-questions/batch051-review.json"
+}

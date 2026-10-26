@@ -8,7 +8,7 @@
 <!-- evidence-progress:start -->
 ## 逐句直接证据补题 · 进行中
 
-当前本地已准备1250道逐句补题，已验证发布1250道；尚未发布的本地批次不得当作线上完成。总题库2306题（1056道主问题＋1250道补题），2749个候选句有直接证据题，仍有411个候选句待补。后文1499/1661等数值记录此前修复阶段，当前以本节、public/data/coverage.json及真实发布回执为准。
+当前本地已准备1275道逐句补题，已验证发布1250道；尚未发布的本地批次不得当作线上完成。总题库2331题（1056道主问题＋1275道补题），2774个候选句有直接证据题，仍有386个候选句待补。后文1499/1661等数值记录此前修复阶段，当前以本节、public/data/coverage.json及真实发布回执为准。
 
 <!-- evidence-progress:end -->
 
@@ -139,3 +139,7 @@ Pages 来源为 Deploy from a branch → gh-pages → / (root)。build:pages 验
 完整作者稿经 node scripts/compile-evidence-questions.mjs 编译为 public/data/evidence-questions.json，再运行 npm run content:check、npm test、npm run build:pages、node scripts/evidence-browser-test.mjs。EVIDENCE_BATCH=001指定批次；READING_TEST_URL和READING_TEST_PROXY可用于线上验证。通过构建、浏览器与线上资源指纹核对后保存真实回执，再继续下一批。已发布题目指纹不能被静默覆盖。
 
 主问题与补题共用原来的短段，界面显示本段第几题；提交后手动点击下一题，最后一题后才进入下一段。原文只有一个显示实例，阅读单元与源ID不复制。新题自带问题/选项中文译文和整段翻译，导出JSON时完整保留。纯本地存档和历史成绩不变；手动已读不冒充答题。
+
+## 编校补记：贴纸研究覆盖说明
+
+第五十批最后一道补题（`qe-c11-0081`）分析末尾关于“下一批”的附带说明不准确：九岁儿童震前、震后的平均捐赠数早已由原题 `q-c11-046` 直接覆盖，并非下一批新缺口。该补题考的是实际捐出数量这一行为测量，不涉及上述均值是否已经配题；正确答案、原文证据、旧题指纹与历史成绩均保留。详见 [编校记录](source/evidence-questions/batch051-previous-review-erratum.json)。

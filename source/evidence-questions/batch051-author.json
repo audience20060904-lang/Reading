@@ -1,0 +1,983 @@
+{
+  "schemaVersion": 1,
+  "id": "evidence-051",
+  "status": "authored",
+  "evidenceRule": "frozen-target-sentence",
+  "questions": [
+    {
+      "order": 1,
+      "prompt": "What question motivates the job-application investigation?",
+      "promptZh": "什么问题推动了求职申请调查？",
+      "options": [
+        "Whether disasters have long-term effects on victims' values and occupational preferences.",
+        "Whether every earthquake survivor becomes a firefighter immediately.",
+        "Whether job applications measure only a person's momentary happiness.",
+        "Whether Kobe and Tokyo had exactly the same experience of the earthquake."
+      ],
+      "optionsZh": [
+        "灾害是否长期影响遭遇者的价值与职业偏好。",
+        "是否每个地震幸存者都会立即成为消防员。",
+        "求职申请是否只测瞬时幸福。",
+        "Kobe和Tokyo是否对该次地震有完全相同经历。"
+      ],
+      "answer": 0,
+      "type": "篇章结构",
+      "support": "explicit",
+      "analyses": [
+        "A long-term、values、occupational preferences在问句中明确给出，下文以求职趋势探索。",
+        "B 调查职业偏好不预设每人实际做同一职业。",
+        "C 问题范围是价值与职业选择，不是仅瞬间感受。",
+        "D 后句明示该期Kobe经历大地震而Tokyo没有，不是以两地经历完全相同为前提。"
+      ],
+      "vocabulary": [
+        {
+          "word": "occupational preferences",
+          "meaning": "职业偏好；对工作种类的倾向选择",
+          "context": "此处用求职趋势探察偏好，不等于所有申请者最终录用或永久从业。",
+          "example": "The study examined changes in occupational preferences after the event.",
+          "collocations": [
+            "values and occupational preferences",
+            "the long-term effect"
+          ]
+        }
+      ],
+      "evidenceQuote": "Is there other evidence that shows the long-term effect of experiencing natural disasters on victims’ values and occupational preferences? To explore this question, we looked at trends in job applications at the municipality level from 1989 to 2000 in the Kobe and Tokyo areas, which were distinguished in that Kobe had experienced the major earthquake in that period, whereas Tokyo had not. We looked at how many people applied to become social workers, firefighters, and kindergarten teachers (jobs hired at the municipal level in Japan)."
+    },
+    {
+      "order": 2,
+      "prompt": "Which jobs were included in the application count?",
+      "promptZh": "申请人数统计涉及哪些工作？",
+      "options": [
+        "Only private-sector engineers and university professors.",
+        "All jobs in every country, with no limit on hiring level.",
+        "Social workers, firefighters, and kindergarten teachers hired at the municipal level in Japan.",
+        "Only the three occupations chosen by every child in the television interview."
+      ],
+      "optionsZh": [
+        "只有私人企业工程师和大学教授。",
+        "各国全部工作，不限招聘层级。",
+        "日本市政层面招聘的社工、消防员和幼教。",
+        "仅电视访谈中每个儿童都选的三种职业。"
+      ],
+      "answer": 2,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A 与本句列出的三个职位不同。",
+        "B 括号限定municipal level in Japan，不能扩大到各国所有职位。",
+        "C 三职业及招聘层级保留；看applied的人数，不等于已录用人数。",
+        "D 电视愿望与市政申请是不同资料来源，且前文Many不是每个儿童。"
+      ],
+      "vocabulary": [
+        {
+          "word": "municipal",
+          "meaning": "市政的；地方城市管理层面的",
+          "context": "限定招聘层级，区别全国统一招聘或国际机构职位。",
+          "example": "The positions were hired at the municipal level.",
+          "collocations": [
+            "the municipal level in Japan",
+            "applied to become social workers"
+          ]
+        }
+      ],
+      "evidenceQuote": "Is there other evidence that shows the long-term effect of experiencing natural disasters on victims’ values and occupational preferences? To explore this question, we looked at trends in job applications at the municipality level from 1989 to 2000 in the Kobe and Tokyo areas, which were distinguished in that Kobe had experienced the major earthquake in that period, whereas Tokyo had not. We looked at how many people applied to become social workers, firefighters, and kindergarten teachers (jobs hired at the municipal level in Japan)."
+    },
+    {
+      "order": 3,
+      "prompt": "How is the conclusion about prosocial jobs qualified?",
+      "promptZh": "关于亲社会职业的结论有何限定？",
+      "options": [
+        "It proves every survivor's final career was caused only by the earthquake.",
+        "The findings suggest greater desirability of prosocial jobs, rather than documenting every individual's eventual employment.",
+        "The application evidence shows that the number of available jobs had to increase by exactly the same amount.",
+        "The findings show an equal increase in both Kobe and Tokyo."
+      ],
+      "optionsZh": [
+        "证明每个幸存者最后职业只由地震造成。",
+        "发现提示亲社会职业更具吸引力，而非记录每个人最终就业。",
+        "申请证据说明岗位供给必按完全相同幅度增加。",
+        "发现Kobe和Tokyo都同样增加。"
+      ],
+      "answer": 1,
+      "type": "证据范围",
+      "support": "explicit",
+      "analyses": [
+        "A suggest不是排除全部其他原因的逐人职业证明。",
+        "B 前句每岗位申请者数增加被用来解释吸引力，保留suggest的推断强度。",
+        "C applicants per position不是岗位供给数，两者不能等同。",
+        "D 前句but not in Tokyo限定比较，不是两城一样。"
+      ],
+      "vocabulary": [
+        {
+          "word": "desirable",
+          "meaning": "有吸引力的；令人想选择的",
+          "context": "修饰职业被偏好的程度，不直接等于录用人数或工资必然更高。",
+          "example": "The work became more desirable to applicants in the comparison.",
+          "collocations": [
+            "prosocial jobs more desirable",
+            "These findings suggest"
+          ]
+        }
+      ],
+      "evidenceQuote": "We found that the number of applicants per position soared in 1995 in the Kobe area, but not in the Tokyo area. These findings suggest that the earthquake made prosocial jobs more desirable."
+    },
+    {
+      "order": 4,
+      "prompt": "What contrast remained sixteen years after the earthquake?",
+      "promptZh": "地震十六年后仍有什么差异？",
+      "options": [
+        "Former home-loss residents reported higher satisfaction and fewer symptoms than the undamaged group.",
+        "Everyone in both groups had exactly the same health and satisfaction.",
+        "The study compared only two groups whose homes had both been completely destroyed.",
+        "Those who lost their houses were less satisfied with life and reported more physical symptoms than those with undamaged houses."
+      ],
+      "optionsZh": [
+        "原失家者比无房损者满意度更高、症状更少。",
+        "两组每人健康和满意度完全相同。",
+        "仅比较住宅都全毁的两组。",
+        "失家者比无房损者生活满意度低、自报身体症状更多。"
+      ],
+      "answer": 3,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A 两个比较方向都反了。",
+        "B less和more明示差异，不能说每人一样。",
+        "C 两组按是否房损区分，并非都全毁。",
+        "D 时间、分组及两项报告方向都对应；reported不应升级为对每个人同一疾病的临床诊断。"
+      ],
+      "vocabulary": [
+        {
+          "word": "physical symptoms",
+          "meaning": "身体症状；身体现象或不适的报告",
+          "context": "原句为reported more，不是说已通过同一临床检查证实人人相同病因。",
+          "example": "Respondents reported more physical symptoms in the later survey.",
+          "collocations": [
+            "reported more physical symptoms",
+            "even sixteen years after"
+          ]
+        }
+      ],
+      "evidenceQuote": "Recall that, even sixteen years after the Hanshin-Awaji earthquake, Kobe residents who had lost their houses in the quake were less satisfied with their lives and reported more physical symptoms than those whose houses had not been damaged. These findings show that the negative effects of natural disasters on the well-being of survivors are long-lasting. The tragedy becomes ingrained in their identities and life stories and can rob them of happiness and normalcy. No one wishes to suffer such a tragedy."
+    },
+    {
+      "order": 5,
+      "prompt": "What does the tragedy becoming 'ingrained' convey?",
+      "promptZh": "悲剧变得 ingrained 传达什么？",
+      "options": [
+        "Its effects can become deeply embedded in identity and life stories.",
+        "It is remembered only as an irrelevant detail with no possible lasting effect.",
+        "Every person necessarily forgets all parts of the event immediately.",
+        "All material damage is repaired solely by changing the wording of a life story."
+      ],
+      "optionsZh": [
+        "影响可能深嵌身份与人生故事。",
+        "它只被当无关细节，绝无长期作用。",
+        "每人必立即忘掉事件全部内容。",
+        "只改人生故事措辞就能修好所有物理损坏。"
+      ],
+      "answer": 0,
+      "type": "语境词义",
+      "support": "explicit",
+      "analyses": [
+        "A ingrained in说明深度嵌入，后接can rob...happiness and normalcy补出潜在代价。",
+        "B ingrained与毫无持续作用相反。",
+        "C 深嵌并非立即全忘，且原文没有every person。",
+        "D 心理身份叙述不等于实际修房的技术方法；can也不是每人必完全失去幸福。"
+      ],
+      "vocabulary": [
+        {
+          "word": "ingrained",
+          "meaning": "根深蒂固的；深深嵌入的",
+          "context": "这里说经历进入身份和人生叙述，不是表面一过性印象。",
+          "example": "The memory became ingrained in the family's story.",
+          "collocations": [
+            "ingrained in their identities and life stories",
+            "can rob them of happiness and normalcy"
+          ]
+        }
+      ],
+      "evidenceQuote": "Recall that, even sixteen years after the Hanshin-Awaji earthquake, Kobe residents who had lost their houses in the quake were less satisfied with their lives and reported more physical symptoms than those whose houses had not been damaged. These findings show that the negative effects of natural disasters on the well-being of survivors are long-lasting. The tragedy becomes ingrained in their identities and life stories and can rob them of happiness and normalcy. No one wishes to suffer such a tragedy."
+    },
+    {
+      "order": 6,
+      "prompt": "What stance does 'No one wishes to suffer such a tragedy' reinforce?",
+      "promptZh": "No one wishes to suffer such a tragedy 强化什么立场？",
+      "options": [
+        "That psychological richness requires deliberately seeking a disaster.",
+        "That all discussion of lasting harm is withdrawn.",
+        "That discussing possible richness does not make the tragedy something to wish for.",
+        "That every survivor reported exactly the same future wishes in a measured survey."
+      ],
+      "optionsZh": [
+        "心理丰富要求人故意寻找灾难。",
+        "撤回所有长期伤害讨论。",
+        "讨论可能的丰富性，并不使悲剧成为值得主动祈求的事。",
+        "每位幸存者在实测调查中报告完全相同未来愿望。"
+      ],
+      "answer": 2,
+      "type": "作者意图",
+      "support": "explicit",
+      "analyses": [
+        "A 原句正说没人愿受，不是劝人寻灾。",
+        "B 前文强调long-lasting负面影响，未撤回。",
+        "C 放在身份、幸福与常态的代价后，明确承认其不可欲，不因后文可能收益而美化悲剧。",
+        "D 这是作者的概括性立场，不是报告一份全体受访者逐人愿望一致的统计。"
+      ],
+      "vocabulary": [
+        {
+          "word": "suffer",
+          "meaning": "遭受；经历痛苦或损害",
+          "context": "在此搭配tragedy，表达事件的负担而非希望获得的奖赏。",
+          "example": "No one wished to suffer the loss described in the account.",
+          "collocations": [
+            "wishes to suffer such a tragedy",
+            "No one wishes"
+          ]
+        }
+      ],
+      "evidenceQuote": "Recall that, even sixteen years after the Hanshin-Awaji earthquake, Kobe residents who had lost their houses in the quake were less satisfied with their lives and reported more physical symptoms than those whose houses had not been damaged. These findings show that the negative effects of natural disasters on the well-being of survivors are long-lasting. The tragedy becomes ingrained in their identities and life stories and can rob them of happiness and normalcy. No one wishes to suffer such a tragedy."
+    },
+    {
+      "order": 7,
+      "prompt": "How does the 'even if' sentence distinguish a good life from happiness?",
+      "promptZh": "even if句如何区分好人生与幸福？",
+      "options": [
+        "It defines a good life as possible only when every moment is happy.",
+        "It says the loss of happiness makes every other life value impossible.",
+        "It proves all survivors immediately become happy again.",
+        "It allows a good life to remain possible even when happiness is not available after the event."
+      ],
+      "optionsZh": [
+        "把好人生定义为只有每刻幸福时才可能。",
+        "说没有幸福就不可能有任何其他人生价值。",
+        "证明所有幸存者立刻重获幸福。",
+        "即使灾后无法获得幸福，仍允许好人生成为可能。"
+      ],
+      "answer": 3,
+      "type": "逻辑关系",
+      "support": "explicit",
+      "analyses": [
+        "A even if与can still保留不完全依赖幸福的可能，非每刻必幸福。",
+        "B 下一句还谈亲社会品质，不能删除其他价值。",
+        "C 条件式不是即时康复的统一实测结论。",
+        "D 让步承认幸福困难而保留good life的可能，不命令遭遇者必须感恩或把痛苦当好事。"
+      ],
+      "vocabulary": [
+        {
+          "word": "in the aftermath",
+          "meaning": "在事件之后；在灾难等造成后果的时期",
+          "context": "不是灾害发生前，亦不保证后果只持续一瞬。",
+          "example": "Support was needed in the aftermath of the disaster.",
+          "collocations": [
+            "happiness is impossible in the aftermath",
+            "can still lead a good life"
+          ]
+        }
+      ],
+      "evidenceQuote": "Yet, even if happiness is impossible in the aftermath, survivors can still lead a good life. Indeed, some of the best qualities of humankind emerge as antidotes to grief in these difficult times: many survivors become more prosocial. The change of perspective experienced by earthquake survivors could mean that their lives are now psychologically richer than before. They discovered “a treasure amidst ruins.”"
+    },
+    {
+      "order": 8,
+      "prompt": "What is presented as an 'antidote to grief' in this passage?",
+      "promptZh": "这段里什么被比作 antidote to grief？",
+      "options": [
+        "A drug proven in a clinical trial to remove all bereavement.",
+        "Positive human qualities, illustrated by many survivors becoming more prosocial.",
+        "The claim that survivors had no grief to begin with.",
+        "An instruction to stop helping other people in difficult times."
+      ],
+      "optionsZh": [
+        "临床试验证明能消除全部丧失痛苦的药。",
+        "人的积极品质，以许多幸存者变得更亲社会为例。",
+        "声称幸存者原先就从无悲伤。",
+        "要求困难时停止帮助他人。"
+      ],
+      "answer": 1,
+      "type": "作者意图",
+      "support": "explicit",
+      "analyses": [
+        "A antidotes是这里的比喻，非药物疗效试验。",
+        "B 冒号后many survivors...prosocial具体说明some best qualities如何发挥作用。",
+        "C to grief承认悲伤，而非否认。",
+        "D prosocial指向助人，与停止帮助相反；many也不能扩大为所有人必然。"
+      ],
+      "vocabulary": [
+        {
+          "word": "antidotes",
+          "meaning": "解药；这里比喻抵御某种消极影响的力量",
+          "context": "文中说人性品质对抗悲伤，不是医疗处方或完全消除悲痛的保证。",
+          "example": "Community support can feel like an antidote to isolation.",
+          "collocations": [
+            "antidotes to grief",
+            "many survivors become more prosocial"
+          ]
+        }
+      ],
+      "evidenceQuote": "Yet, even if happiness is impossible in the aftermath, survivors can still lead a good life. Indeed, some of the best qualities of humankind emerge as antidotes to grief in these difficult times: many survivors become more prosocial. The change of perspective experienced by earthquake survivors could mean that their lives are now psychologically richer than before. They discovered “a treasure amidst ruins.”"
+    },
+    {
+      "order": 9,
+      "prompt": "What does the image of 'a treasure amidst ruins' express here?",
+      "promptZh": "a treasure amidst ruins 这一意象在这里表达什么？",
+      "options": [
+        "Valuable changes or qualities may be found alongside devastating loss.",
+        "Every ruined house contained buried money.",
+        "Material loss no longer matters because all survivors became wealthy.",
+        "The earthquake is proved to be wholly beneficial with no lasting harm."
+      ],
+      "optionsZh": [
+        "严重损失之中仍可能发现有价值的变化或品质。",
+        "每栋废屋里都埋着钱。",
+        "因为所有幸存者变富，物质损失已无所谓。",
+        "证明地震全然有益、无长期伤害。"
+      ],
+      "answer": 0,
+      "type": "作者意图",
+      "support": "explicit",
+      "analyses": [
+        "A 前文prosocial与could mean richer提供treasure的比喻所指，ruins仍保留损失背景。",
+        "B treasure不是此处财物发现的字面报告。",
+        "C 心理丰富非财富增加，原文未说损失无所谓。",
+        "D 不能用结尾意象抹去前段长期损害或could的限定。"
+      ],
+      "vocabulary": [
+        {
+          "word": "amidst",
+          "meaning": "在……之中；周围为某种情境所包围",
+          "context": "此处表示价值与废墟困境并存，不是灾难前已无任何困难。",
+          "example": "They found solidarity amidst the disruption.",
+          "collocations": [
+            "a treasure amidst ruins",
+            "They discovered"
+          ]
+        }
+      ],
+      "evidenceQuote": "Yet, even if happiness is impossible in the aftermath, survivors can still lead a good life. Indeed, some of the best qualities of humankind emerge as antidotes to grief in these difficult times: many survivors become more prosocial. The change of perspective experienced by earthquake survivors could mean that their lives are now psychologically richer than before. They discovered “a treasure amidst ruins.”"
+    },
+    {
+      "order": 10,
+      "prompt": "What effect of the pandemic opens the next section?",
+      "promptZh": "下一节开头先指出疫情什么影响？",
+      "options": [
+        "It left the way people lived and worked completely unchanged.",
+        "It changed work alone while explicitly leaving all daily life unaffected.",
+        "It disrupted lives and changed how people lived and worked.",
+        "It gave every person an identical experience and outcome."
+      ],
+      "optionsZh": [
+        "生活工作方式完全没变。",
+        "只改工作，明确说日常生活完全未受影响。",
+        "它扰乱生活，改变人们生活和工作的方式。",
+        "每个人经历和结果完全一样。"
+      ],
+      "answer": 2,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A disrupted、changing均与完全未变相反。",
+        "B live and work两项，不是只工作。",
+        "C 主句与changing分词结构两层意思均保留，是作者开节的广泛描述。",
+        "D all of our lives不等于每人影响程度和结果相同。"
+      ],
+      "vocabulary": [
+        {
+          "word": "disrupted",
+          "meaning": "扰乱；打断原有秩序或安排",
+          "context": "这里说生活工作方式变化，不能仅凭此词推成每人相同心理结果。",
+          "example": "The event disrupted familiar routines at home and work.",
+          "collocations": [
+            "disrupted all of our lives",
+            "changing the way we live and work"
+          ]
+        }
+      ],
+      "evidenceQuote": "The COVID-19 pandemic disrupted all of our lives, changing the way we live and work. Has it changed the way we view the world? Has it enhanced psychological richness? One study examined whether individuals who were exposed to COVID-19 (that is, respondents themselves, a family member, or an acquaintance diagnosed with or died from COVID-19) during the early phase of the pandemic showed more prosocial behaviors than those who were not exposed."
+    },
+    {
+      "order": 11,
+      "prompt": "What does the question about viewing the world ask?",
+      "promptZh": "关于 view the world 的问句问什么？",
+      "options": [
+        "Whether all geographic maps had been physically redrawn.",
+        "Whether the pandemic had changed people's outlook on the world.",
+        "Whether all participants had donated their full bonus already.",
+        "Whether psychological richness had already been proved identical to income."
+      ],
+      "optionsZh": [
+        "是否所有地图已被实际重画。",
+        "疫情是否改变人看世界的方式。",
+        "是否所有参与者早已捐出全部奖金。",
+        "心理丰富是否已被证明完全等于收入。"
+      ],
+      "answer": 1,
+      "type": "篇章结构",
+      "support": "explicit",
+      "analyses": [
+        "A view the world在此是看法与世界观，不是地图绘制。",
+        "B it承接pandemic，Has...changed提出视角变化问题。",
+        "C 捐赠是后续研究程序，非当前问句内容。",
+        "D 问句未把丰富性等同收入，更不是已证明的结论。"
+      ],
+      "vocabulary": [
+        {
+          "word": "view",
+          "meaning": "看待；理解和评价某事",
+          "context": "作动词指人的理解视角，不是作为名词的网页浏览次数。",
+          "example": "An unusual experience can change how a person views the world.",
+          "collocations": [
+            "the way we view the world",
+            "Has it changed"
+          ]
+        }
+      ],
+      "evidenceQuote": "The COVID-19 pandemic disrupted all of our lives, changing the way we live and work. Has it changed the way we view the world? Has it enhanced psychological richness? One study examined whether individuals who were exposed to COVID-19 (that is, respondents themselves, a family member, or an acquaintance diagnosed with or died from COVID-19) during the early phase of the pandemic showed more prosocial behaviors than those who were not exposed."
+    },
+    {
+      "order": 12,
+      "prompt": "What is the role of the question about enhanced psychological richness?",
+      "promptZh": "关于 enhanced psychological richness 的问句有什么作用？",
+      "options": [
+        "It guarantees every person benefited from infection.",
+        "It states that the pandemic's harms were imaginary.",
+        "It defines richness exclusively as the size of a monetary bonus.",
+        "It raises a question about possible change in psychological richness for the following discussion to examine."
+      ],
+      "optionsZh": [
+        "保证每个人因感染获益。",
+        "宣称疫情伤害是虚构的。",
+        "把丰富性仅定义为奖金数额。",
+        "提出心理丰富是否可能变化的问题，留待后文考察。"
+      ],
+      "answer": 3,
+      "type": "篇章结构",
+      "support": "explicit",
+      "analyses": [
+        "A Has it enhanced是提问，不是对每人获益的保证。",
+        "B 开头仍承认disrupted，没有否认伤害。",
+        "C richness为本书心理概念，非奖金金额同义词。",
+        "D 问句引出探察，不应提前把它当作已经确证的单向因果结论。"
+      ],
+      "vocabulary": [
+        {
+          "word": "enhanced",
+          "meaning": "增加；提高；使某方面更强",
+          "context": "在问句中表示待考察的变化，不自带已经发生或对每人发生的肯定。",
+          "example": "The survey asked whether the experience had enhanced perceived richness.",
+          "collocations": [
+            "enhanced psychological richness",
+            "Has it enhanced"
+          ]
+        }
+      ],
+      "evidenceQuote": "The COVID-19 pandemic disrupted all of our lives, changing the way we live and work. Has it changed the way we view the world? Has it enhanced psychological richness? One study examined whether individuals who were exposed to COVID-19 (that is, respondents themselves, a family member, or an acquaintance diagnosed with or died from COVID-19) during the early phase of the pandemic showed more prosocial behaviors than those who were not exposed."
+    },
+    {
+      "order": 13,
+      "prompt": "Which unexpected bonus was given in each country?",
+      "promptZh": "两国分别给了什么意外奖金？",
+      "options": [
+        "Five euros in the U.S. and four dollars in Italy.",
+        "The same ten-dollar bonus in both countries.",
+        "Five dollars in the U.S. and four euros in Italy.",
+        "A compulsory donation taken from participants before they received any money."
+      ],
+      "optionsZh": [
+        "美国五欧元、意大利四美元。",
+        "两国都十美元。",
+        "美国五美元、意大利四欧元。",
+        "尚未给钱就从参与者处强制收取捐款。"
+      ],
+      "answer": 2,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A 数字相近但货币与国家配错。",
+        "B 原文两国金额和币种不同。",
+        "C $5与U.S.、€4与Italy逐项对应，unexpected为额外奖金性质。",
+        "D given bonus不是先征收捐款；下一句捐赠还是if would like的选择。"
+      ],
+      "vocabulary": [
+        {
+          "word": "monetary bonus",
+          "meaning": "金钱奖励；额外给的钱",
+          "context": "此处是研究参与者意外获得的金额，不是他们已捐出的数额。",
+          "example": "Participants received an unexpected monetary bonus before making a choice.",
+          "collocations": [
+            "an unexpected monetary bonus",
+            "$5 in the U.S. and €4 in Italy"
+          ]
+        }
+      ],
+      "evidenceQuote": "Participants were given an unexpected monetary bonus: $5 in the U.S. and €4 in Italy. Then they were asked if they would like to donate some of the money to a charity in the state/region where they lived, a national charity, or an international charity. They were told that the amount they donated would be doubled by the researcher. Both American and Italian participants exposed to COVID-19 not only were more likely to donate to a charity than those who were unexposed, but also donated more."
+    },
+    {
+      "order": 14,
+      "prompt": "What donation options were participants offered?",
+      "promptZh": "参与者被提供哪些捐款去向？",
+      "options": [
+        "A charity in their state or region, a national charity, or an international charity.",
+        "Only a charity personally chosen by the researcher outside their country.",
+        "Only a fixed donation to a school classmate, with no other option.",
+        "A requirement to give all the money to every listed charity."
+      ],
+      "optionsZh": [
+        "所在地州或地区慈善、全国慈善或国际慈善。",
+        "仅研究者本人指定的外国慈善。",
+        "仅固定捐给学校同学，没有别项。",
+        "必须把全部钱同时给所有列出慈善。"
+      ],
+      "answer": 0,
+      "type": "研究设计",
+      "support": "explicit",
+      "analyses": [
+        "A 三种层级与or选择关系完整对应。",
+        "B 不是只有国外机构或单一指定者。",
+        "C 同学贴纸是前一研究，不能混入金钱任务。",
+        "D would like、some、or保留自愿份额和备选去向，非强制全部捐给全部机构。"
+      ],
+      "vocabulary": [
+        {
+          "word": "state/region",
+          "meaning": "州或地区；参与者居住的地方行政范围",
+          "context": "此处与national、international作层级区分，不是心理状态。",
+          "example": "They could choose a charity in the state or region where they lived.",
+          "collocations": [
+            "in the state/region where they lived",
+            "a national charity, or an international charity"
+          ]
+        }
+      ],
+      "evidenceQuote": "Participants were given an unexpected monetary bonus: $5 in the U.S. and €4 in Italy. Then they were asked if they would like to donate some of the money to a charity in the state/region where they lived, a national charity, or an international charity. They were told that the amount they donated would be doubled by the researcher. Both American and Italian participants exposed to COVID-19 not only were more likely to donate to a charity than those who were unexposed, but also donated more."
+    },
+    {
+      "order": 15,
+      "prompt": "Which two donation differences were reported for exposed participants?",
+      "promptZh": "接触过COVID-19的参与者被报告有哪两种捐赠差异？",
+      "options": [
+        "They were less likely to donate but always gave the same amount if they did.",
+        "Only the Italian group showed a difference, while the American group was identical.",
+        "Every exposed participant donated the entire bonus, with no exceptions.",
+        "In both countries, they were more likely to donate and also donated more than unexposed participants."
+      ],
+      "optionsZh": [
+        "他们较少捐，且只要捐就总给相同金额。",
+        "仅意大利组不同，美国组完全相同。",
+        "每位接触者都无例外捐出全部奖金。",
+        "两国中，他们比未接触者更可能捐、也捐得更多。"
+      ],
+      "answer": 3,
+      "type": "同义改写",
+      "support": "explicit",
+      "analyses": [
+        "A likely方向反了，also donated more也不是固定同额。",
+        "B Both American and Italian明确两国。",
+        "C more likely和more是群体比较，不能扩成每人全额。",
+        "D not only...but also并列捐赠发生与数量两个结果，不把这段观察改成随机分配感染的因果试验。"
+      ],
+      "vocabulary": [
+        {
+          "word": "not only",
+          "meaning": "不仅；与but also一起连接两个并列方面",
+          "context": "此处并列更可能捐与捐更多，不是只重复同一指标。",
+          "example": "The group not only volunteered more often but also contributed more time.",
+          "collocations": [
+            "not only were more likely to donate",
+            "but also donated more"
+          ]
+        }
+      ],
+      "evidenceQuote": "Participants were given an unexpected monetary bonus: $5 in the U.S. and €4 in Italy. Then they were asked if they would like to donate some of the money to a charity in the state/region where they lived, a national charity, or an international charity. They were told that the amount they donated would be doubled by the researcher. Both American and Italian participants exposed to COVID-19 not only were more likely to donate to a charity than those who were unexposed, but also donated more."
+    },
+    {
+      "order": 16,
+      "prompt": "Which outcome is the unusual COVID-19 experience being asked to increase?",
+      "promptZh": "这里问不寻常的COVID-19经历是否增加什么结果？",
+      "options": [
+        "The number of municipal job vacancies.",
+        "Psychological richness.",
+        "The exact cash bonus in the Italian donation task.",
+        "The size of the earthquake's physical damage."
+      ],
+      "optionsZh": [
+        "市政职位空缺数。",
+        "心理丰富性。",
+        "意大利捐赠任务的确切奖金。",
+        "地震物理损害的规模。"
+      ],
+      "answer": 1,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A 求职研究为前节问题，不是本问结果。",
+        "B increase psychological richness明确给被考察结果。",
+        "C 金钱任务在前段，但此处换为心理丰富问题。",
+        "D 地震房损是另一调查，不能移来；Did...提出问题不保证因果已证实。"
+      ],
+      "vocabulary": [
+        {
+          "word": "unusual",
+          "meaning": "不寻常的；不同于惯常体验的",
+          "context": "此处描述经历的异常性，不自带一定快乐、有益或值得追求之意。",
+          "example": "The questionnaire asked about an unusual experience and perceived richness.",
+          "collocations": [
+            "an unusual experience of COVID-19",
+            "increase psychological richness"
+          ]
+        }
+      ],
+      "evidenceQuote": "Did an unusual experience of COVID-19 increase psychological richness? Micael Dahlen and Helge Thorbjørnsen directly tested this question. During the second week of April 2021, 973 Swedes anonymously filled out a questionnaire that asked about their COVID-19 status as well as whether they felt they were living a psychologically rich life. It turned out that those who had had COVID-19 reported more psychological richness than those who had not been infected."
+    },
+    {
+      "order": 17,
+      "prompt": "Who directly tested the question introduced in this paragraph?",
+      "promptZh": "本段中谁直接检验了所引入的问题？",
+      "options": [
+        "Jean Decety and the team conducting the sticker task.",
+        "Epley and Schroeder on the commuter train.",
+        "Micael Dahlen and Helge Thorbjørnsen.",
+        "Nietzsche and the author of A Paradise Built in Hell."
+      ],
+      "optionsZh": [
+        "Jean Decety与贴纸任务团队。",
+        "列车研究的Epley、Schroeder。",
+        "Micael Dahlen与Helge Thorbjørnsen。",
+        "Nietzsche与A Paradise Built in Hell作者。"
+      ],
+      "answer": 2,
+      "type": "观点归属",
+      "support": "explicit",
+      "analyses": [
+        "A 是前节给予研究团队，不是这里两人。",
+        "B 是前章通勤研究团队。",
+        "C 两个人名紧跟问句，直接承担tested this question动作。",
+        "D 混合哲学人物与另一本书作者；directly tested不自动意味着随机感染实验，后句实际为匿名问卷。"
+      ],
+      "vocabulary": [
+        {
+          "word": "tested",
+          "meaning": "检验；以研究考察问题",
+          "context": "根据随后问卷程序理解，不能仅凭tested就假定为实验随机分组。",
+          "example": "The researchers tested the question using an anonymous survey.",
+          "collocations": [
+            "directly tested this question",
+            "Micael Dahlen and Helge Thorbjørnsen"
+          ]
+        }
+      ],
+      "evidenceQuote": "Did an unusual experience of COVID-19 increase psychological richness? Micael Dahlen and Helge Thorbjørnsen directly tested this question. During the second week of April 2021, 973 Swedes anonymously filled out a questionnaire that asked about their COVID-19 status as well as whether they felt they were living a psychologically rich life. It turned out that those who had had COVID-19 reported more psychological richness than those who had not been infected."
+    },
+    {
+      "order": 18,
+      "prompt": "Which description matches the April 2021 questionnaire?",
+      "promptZh": "哪种描述符合2021年4月问卷？",
+      "options": [
+        "In the second week of April, 973 Swedes anonymously answered questions on COVID-19 status and perceived psychological richness.",
+        "In June, all Swedish residents were randomly infected before answering.",
+        "In April, 973 Italians each received exactly ten stickers and no questions.",
+        "The researchers clinically measured identical brain changes in every respondent without asking about experience."
+      ],
+      "optionsZh": [
+        "4月第二周，973名瑞典人匿名回答COVID状态和自感心理丰富的问题。",
+        "6月，全瑞典居民先被随机感染再作答。",
+        "4月，973名意大利人各领十张贴纸，没有问卷。",
+        "研究者不询问经历，只临床测得每人完全相同脑变化。"
+      ],
+      "answer": 0,
+      "type": "研究设计",
+      "support": "explicit",
+      "analyses": [
+        "A 时间、人数、国别、匿名及两项所问内容对应。",
+        "B June属第二调查，且不存在研究者随机感染全人口。",
+        "C 国别与研究方法都错配。",
+        "D felt与questionnaire是自报，不是全体同脑变化的临床测量。"
+      ],
+      "vocabulary": [
+        {
+          "word": "anonymously",
+          "meaning": "匿名地；不以姓名公开身份地作答",
+          "context": "表示问卷安排，不意味着抽样就覆盖全体国民或研究者分派疾病。",
+          "example": "Respondents anonymously completed the questionnaire.",
+          "collocations": [
+            "973 Swedes anonymously filled out a questionnaire",
+            "the second week of April 2021"
+          ]
+        }
+      ],
+      "evidenceQuote": "Did an unusual experience of COVID-19 increase psychological richness? Micael Dahlen and Helge Thorbjørnsen directly tested this question. During the second week of April 2021, 973 Swedes anonymously filled out a questionnaire that asked about their COVID-19 status as well as whether they felt they were living a psychologically rich life. It turned out that those who had had COVID-19 reported more psychological richness than those who had not been infected."
+    },
+    {
+      "order": 19,
+      "prompt": "How does 'regretted less' relate to the preceding survey response?",
+      "promptZh": "regretted less 如何对应前面的问卷回答？",
+      "options": [
+        "Every previously infected respondent said no part of life had ever been regrettable.",
+        "Previously infected respondents were more eager to erase the pandemic period.",
+        "The study showed that physical symptoms had all disappeared.",
+        "Previously infected respondents were less likely to want to erase the pandemic period from their life."
+      ],
+      "optionsZh": [
+        "每名曾感染者说人生任何部分都从无遗憾。",
+        "曾感染者更想抹去疫情时期。",
+        "研究表明身体症状已全消失。",
+        "曾感染者更少表示想从人生抹去疫情时期。"
+      ],
+      "answer": 3,
+      "type": "同义改写",
+      "support": "explicit",
+      "analyses": [
+        "A less是比较，非never或每人零遗憾。",
+        "B less likely方向相反。",
+        "C 遗憾回答不等于症状或医学康复测量。",
+        "D That is重述前句erase pandemic period的愿望，比较曾感染与未感染者，而非证明感染导致所有遗憾减少。"
+      ],
+      "vocabulary": [
+        {
+          "word": "regretted",
+          "meaning": "感到遗憾；希望某经历未曾发生",
+          "context": "此处由是否希望抹去疫情时段来说明，不是报告身体病情。",
+          "example": "Some respondents regretted the period less than others did.",
+          "collocations": [
+            "regretted less",
+            "would like to erase the pandemic time period"
+          ]
+        }
+      ],
+      "evidenceQuote": "Respondents with the experience of having COVID-19 were also less likely to say that they would like to erase the pandemic time period from their life than those without the experience of having the virus. That is, those who’d had COVID-19 regretted less than those who had not."
+    },
+    {
+      "order": 20,
+      "prompt": "What distinguishes the second survey as described?",
+      "promptZh": "原文如何描述第二次调查？",
+      "options": [
+        "It occurred before April 2021 and used the identical 973 respondents by definition.",
+        "It used a representative Swedish sample in June 2021.",
+        "It replaced all questionnaires with random exposure to infection.",
+        "It was limited to the Italian participants receiving four euros."
+      ],
+      "optionsZh": [
+        "发生在2021年4月前，而且按定义仍是原973人。",
+        "2021年6月使用一组代表性瑞典样本。",
+        "把问卷全部换成随机感染。",
+        "仅限领取四欧元的意大利参与者。"
+      ],
+      "answer": 1,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A then与June在April之后，代表性样本不自动等于同一973人。",
+        "B second survey、representative sample、Swedes、June2021均对应。",
+        "C 调查不是分派感染。",
+        "D 意大利奖金为前一研究，不能混配到瑞典调查。"
+      ],
+      "vocabulary": [
+        {
+          "word": "representative sample",
+          "meaning": "代表性样本；旨在反映所研究总体的样本",
+          "context": "不等于对全体瑞典人普查，也不自动证明和首调查同一批个体。",
+          "example": "The second survey used a representative sample of adults.",
+          "collocations": [
+            "a representative sample of Swedes",
+            "in June 2021"
+          ]
+        }
+      ],
+      "evidenceQuote": "Dahlen and Thorbjørnsen then conducted a second survey from a representative sample of Swedes in June 2021. Replicating the results from the first study, those who’d previously caught COVID-19 reported that their lives were psychologically richer than those who had not. Furthermore, the COVID-19 respondents reported lower levels of death anxiety than those who had not had the illness. So it appears that the experience of COVID-19 made them less afraid of death and helped them live without fear."
+    },
+    {
+      "order": 21,
+      "prompt": "Which result was replicated in the second survey?",
+      "promptZh": "第二次调查复现哪项结果？",
+      "options": [
+        "Those previously infected reported psychologically richer lives than those not previously infected.",
+        "Every participant reported exactly the same richness score regardless of status.",
+        "Those never infected reported greater richness than the previously infected group.",
+        "The study proved every person should become infected to improve their life."
+      ],
+      "optionsZh": [
+        "曾感染者比未曾感染者自报人生心理更丰富。",
+        "每人不论状态丰富性分数完全相同。",
+        "从未感染者比曾感染者报告更高丰富性。",
+        "研究证明每个人都应感染以改善人生。"
+      ],
+      "answer": 0,
+      "type": "证据范围",
+      "support": "explicit",
+      "analyses": [
+        "A previously caught、reported、richer than三项都保留。",
+        "B 比较有方向，不是所有得分相同。",
+        "C 颠倒分组方向。",
+        "D 自报组间差异不是对感染行为的建议，也不是排除反向因果的随机试验证明。"
+      ],
+      "vocabulary": [
+        {
+          "word": "Replicating",
+          "meaning": "复现；再次观察到此前的结果模式",
+          "context": "此处指第二调查报告类似组间关系，不代表每个人的分数或经历完全相同。",
+          "example": "Replicating the first result, the second survey found a similar association.",
+          "collocations": [
+            "Replicating the results from the first study",
+            "reported that their lives were psychologically richer"
+          ]
+        }
+      ],
+      "evidenceQuote": "Dahlen and Thorbjørnsen then conducted a second survey from a representative sample of Swedes in June 2021. Replicating the results from the first study, those who’d previously caught COVID-19 reported that their lives were psychologically richer than those who had not. Furthermore, the COVID-19 respondents reported lower levels of death anxiety than those who had not had the illness. So it appears that the experience of COVID-19 made them less afraid of death and helped them live without fear."
+    },
+    {
+      "order": 22,
+      "prompt": "What level of certainty is conveyed by 'So it appears' in the interpretation?",
+      "promptZh": "So it appears 在解释中传达什么确定程度？",
+      "options": [
+        "It reports a mathematical proof that excludes every alternative explanation.",
+        "It says there was no reported difference in death anxiety at all.",
+        "It introduces an apparent interpretation of the reported pattern, rather than an unqualified causal proof.",
+        "It defines fear as a monetary donation amount."
+      ],
+      "optionsZh": [
+        "报告排除一切其他解释的数学证明。",
+        "说死亡焦虑完全没有自报差异。",
+        "引出对所报告模式的表面解释，而非无条件因果证明。",
+        "把恐惧定义为捐款金额。"
+      ],
+      "answer": 2,
+      "type": "逻辑关系",
+      "support": "explicit",
+      "analyses": [
+        "A appears保留判断程度，调查资料不是排除全部替代解释的证明。",
+        "B 前句明确reported lower levels of death anxiety。",
+        "C So连到前面自报模式，it appears表示作者的解释性判断；原书随后还讨论反向因果，不把made改写成研究者已随机操纵感染。",
+        "D fear与donation属不同概念和段落，不能等同。"
+      ],
+      "vocabulary": [
+        {
+          "word": "appears",
+          "meaning": "看来；呈现出某种可能解释",
+          "context": "在此标记判断的保留程度，不是必然因果或全无恐惧的临床断言。",
+          "example": "It appears that the groups differed, though the survey alone cannot settle why.",
+          "collocations": [
+            "So it appears that",
+            "less afraid of death"
+          ]
+        }
+      ],
+      "evidenceQuote": "Dahlen and Thorbjørnsen then conducted a second survey from a representative sample of Swedes in June 2021. Replicating the results from the first study, those who’d previously caught COVID-19 reported that their lives were psychologically richer than those who had not. Furthermore, the COVID-19 respondents reported lower levels of death anxiety than those who had not had the illness. So it appears that the experience of COVID-19 made them less afraid of death and helped them live without fear."
+    },
+    {
+      "order": 23,
+      "prompt": "How is the claim about Koreans after the 1923 earthquake presented?",
+      "promptZh": "关于1923年地震后韩国人的说法，原文如何定性？",
+      "options": [
+        "As a verified finding that every Korean resident committed a crime.",
+        "As a rapidly spreading rumour on the day after the Great Kanto earthquake.",
+        "As an accusation first reported only after Hurricane Katrina in New Orleans.",
+        "As the author's endorsement of violence against that population."
+      ],
+      "optionsZh": [
+        "经证实每名韩国居民均犯罪的发现。",
+        "Great Kanto地震次日迅速传播的谣言。",
+        "仅在New Orleans的Katrina后首次出现的指控。",
+        "作者赞同对这一群体施暴的立场。"
+      ],
+      "answer": 1,
+      "type": "证据范围",
+      "support": "explicit",
+      "analyses": [
+        "A a rumor that标出传言内容，不是事实核验，更非每名居民。",
+        "B 日期相对关系、事件与rumor性质保留。",
+        "C 与1923Kanto和后面Katrina两事件错配。",
+        "D 本段以更糟后果作警示，不为传言或暴力背书；避免把嵌在谣言中的说法当原文明示的事实。"
+      ],
+      "vocabulary": [
+        {
+          "word": "rumor",
+          "meaning": "谣言；传播中的未经证实说法",
+          "context": "本句that后是传言内容，并非作者确认的族群行为事实。",
+          "example": "A rumor spread quickly, although its allegation was not established.",
+          "collocations": [
+            "a rumor that",
+            "spread quickly"
+          ]
+        }
+      ],
+      "evidenceQuote": "Clearly, I am not arguing that tragic events like war and pandemics are positive. Beyond the events themselves, some disasters trigger even worse consequences, such as massacre or mass violence. A day after the Great Kanto earthquake in 1923, a rumor that Koreans were looting and rioting spread quickly. A panic ensued, and at least 6,000 Koreans were killed in the greater Tokyo area."
+    },
+    {
+      "order": 24,
+      "prompt": "What consequence followed the panic in the book's account?",
+      "promptZh": "按书中叙述，恐慌随后造成什么后果？",
+      "options": [
+        "The passage reports that no one was harmed.",
+        "Every resident left Tokyo with no violence occurring.",
+        "The figure describes the whole population of New Orleans rather than deaths.",
+        "At least 6,000 Koreans were killed in the greater Tokyo area."
+      ],
+      "optionsZh": [
+        "原文报告无人受害。",
+        "每名居民都离开Tokyo，完全没有暴力。",
+        "数字指New Orleans总人口而非死亡。",
+        "大Tokyo地区至少6000名韩国人被杀。"
+      ],
+      "answer": 3,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A were killed与无人受害相反。",
+        "B 文中未说全员安全离开，且有杀害后果。",
+        "C 地区、指标和事件都错配。",
+        "D at least保留下限，Koreans与greater Tokyo限定群体及地区；这是本书的历史叙述，不把恐慌等同对暴力正当性的证明。"
+      ],
+      "vocabulary": [
+        {
+          "word": "ensued",
+          "meaning": "随之发生；接着出现",
+          "context": "说明前述传言后恐慌发生的顺序，不是作者要求恐慌出现。",
+          "example": "Confusion spread and panic ensued.",
+          "collocations": [
+            "A panic ensued",
+            "at least 6,000 Koreans were killed"
+          ]
+        }
+      ],
+      "evidenceQuote": "Clearly, I am not arguing that tragic events like war and pandemics are positive. Beyond the events themselves, some disasters trigger even worse consequences, such as massacre or mass violence. A day after the Great Kanto earthquake in 1923, a rumor that Koreans were looting and rioting spread quickly. A panic ensued, and at least 6,000 Koreans were killed in the greater Tokyo area."
+    },
+    {
+      "order": 25,
+      "prompt": "Which description preserves the account of the vigilantes' actions?",
+      "promptZh": "哪种描述保留原文对自警团体行为的叙述？",
+      "options": [
+        "They inflicted unprovoked violence on Black residents.",
+        "They were described as using violence only after an attack by every Black resident.",
+        "The passage says they performed no violent acts.",
+        "They were identified as the researchers collecting donation envelopes."
+      ],
+      "optionsZh": [
+        "他们对Black居民施加无端暴力。",
+        "被描述为只在每名Black居民攻击后才施暴。",
+        "原文说他们没有任何暴力行为。",
+        "他们就是收集捐赠信封的研究者。"
+      ],
+      "answer": 0,
+      "type": "同义改写",
+      "support": "explicit",
+      "analyses": [
+        "A inflicted、unprovoked violence、Black residents三个要素均保留。",
+        "B unprovoked与被攻击后正当反应不符，还新增every。",
+        "C 与inflicted violence相反。",
+        "D 受灾暴力情境与前面的研究程序是不同叙述，不能混为一组人；保留作者对无端暴力的批判，不把恐慌当正当化理由。"
+      ],
+      "vocabulary": [
+        {
+          "word": "unprovoked",
+          "meaning": "无端的；未经对方挑衅而发生的",
+          "context": "修饰暴力，不能删去以暗示受害者先行造成或理应受害。",
+          "example": "The account condemns unprovoked violence against residents.",
+          "collocations": [
+            "inflicted unprovoked violence",
+            "on Black residents"
+          ]
+        }
+      ],
+      "evidenceQuote": "Vigilantes were formed and they inflicted unprovoked violence on Black residents."
+    }
+  ]
+}
