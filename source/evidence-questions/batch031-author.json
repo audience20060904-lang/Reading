@@ -1,0 +1,983 @@
+{
+  "schemaVersion": 1,
+  "id": "evidence-031",
+  "status": "authored",
+  "evidenceRule": "frozen-target-sentence",
+  "questions": [
+    {
+      "order": 1,
+      "prompt": "What does the president-and-patent question illustrate in this excerpt?",
+      "promptZh": "总统与发明专利的问题在片段中说明什么？",
+      "options": [
+        "A patent-law assessment of professional expertise.",
+        "A fact every participant was required to know before joining.",
+        "An example of the factual questions presented in the task.",
+        "A prompt assigning a specialist job according to whether the answer was correct."
+      ],
+      "optionsZh": [
+        "对专利法职业能力的测验。",
+        "每人参加前必须已知的事实。",
+        "任务呈现的事实常识问题例子。",
+        "根据答对与否分配专才工作的提示。"
+      ],
+      "answer": 2,
+      "type": "作者意图",
+      "support": "explicit",
+      "analyses": [
+        "A 片段不把题作为专利法职业能力评定。",
+        "B 参与者可选择等待答案，未要求事前已知所有事实。",
+        "C questions like 后直接给问题，展示该任务题目类型；此阅读题不要求猜原问题答案。",
+        "D 岗位想象条件不是按此题答对与否分派，不能倒置实验程序。"
+      ],
+      "vocabulary": [
+        {
+          "word": "a patent",
+          "meaning": "一项发明专利；保护发明的权利",
+          "context": "在hold a patent语境是名词，不是形容词明显的含义。",
+          "example": "The inventor held a patent for a small device.",
+          "collocations": [
+            "hold a patent for an invention",
+            "a trivia question"
+          ]
+        }
+      ],
+      "evidenceQuote": "This task involved questions like: Who was the only U.S. president to also hold a patent for an invention? In this task, after a question was presented, there were two response options: a wait button and a skip button. If participants hit the skip button, then the answer was not shown and they moved on to the next question."
+    },
+    {
+      "order": 2,
+      "prompt": "Which responses were available after each trivia question appeared?",
+      "promptZh": "每个常识问题出现后，提供哪两种回应？",
+      "options": [
+        "Wait or skip.",
+        "Approve or reject a job offer.",
+        "Buy a service or buy a product.",
+        "Select a correct factual answer from four knowledge alternatives."
+      ],
+      "optionsZh": [
+        "等待或跳过。",
+        "接受或拒绝工作邀约。",
+        "买服务或买实物。",
+        "从四个事实答案中选择正确项。"
+      ],
+      "answer": 0,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A a wait button and a skip button为两项原文。",
+        "B 混入假想咨询岗位，不是当前按钮。",
+        "C 是后面省时消费研究，不可前移。",
+        "D 当前实验明示wait和skip，不是在此列出四个知识答案供选，不能把常见常识测验形式移入原文。"
+      ],
+      "vocabulary": [
+        {
+          "word": "response options",
+          "meaning": "回应选择；可采取的反应选项",
+          "context": "这里为wait/skip两种行为，不是必然包含常识答案文本。",
+          "example": "The task offered two response options after each item.",
+          "collocations": [
+            "two response options",
+            "a wait button and a skip button"
+          ]
+        }
+      ],
+      "evidenceQuote": "This task involved questions like: Who was the only U.S. president to also hold a patent for an invention? In this task, after a question was presented, there were two response options: a wait button and a skip button. If participants hit the skip button, then the answer was not shown and they moved on to the next question."
+    },
+    {
+      "order": 3,
+      "prompt": "What exactly was randomised between ten and fifteen seconds?",
+      "promptZh": "十至十五秒之间被随机确定的到底是什么？",
+      "options": [
+        "The total number of questions in the experiment.",
+        "The participants' age at starting their job.",
+        "The amount of money paid for each answer.",
+        "The delay before an answer was shown after choosing to wait."
+      ],
+      "optionsZh": [
+        "实验问题总数。",
+        "参与者开始职业的年龄。",
+        "每个答案支付的钱。",
+        "选择等待后显示答案前的延迟。"
+      ],
+      "answer": 3,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A fifteen questions与seconds单位不同。",
+        "B 无职业起始年龄随机分派。",
+        "C 原句没有答案付费金额。",
+        "D precise time was randomized明确延迟，十至十五秒不等于每次固定十五，也不据此添加所有其他程序都随机。"
+      ],
+      "vocabulary": [
+        {
+          "word": "the precise time",
+          "meaning": "具体等待时长；精确的时间量",
+          "context": "在本任务指等待答案的延迟，不是实验开始的钟点或题目数量。",
+          "example": "The precise time varied within the stated interval.",
+          "collocations": [
+            "the precise time was randomized",
+            "between ten and fifteen seconds"
+          ]
+        }
+      ],
+      "evidenceQuote": "If they hit the wait button, they had to wait for a certain amount of time (the precise time was randomized between ten and fifteen seconds) to get an answer (e.g., Abraham Lincoln). Typically, curious people wanted to know the answer, so they were willing to wait. Our experiment consisted of fifteen questions. The more answers someone waited for, the more curious they were."
+    },
+    {
+      "order": 4,
+      "prompt": "Why were curious participants typically willing to wait?",
+      "promptZh": "好奇的参与者通常为什么愿意等待？",
+      "options": [
+        "Waiting guaranteed a higher salary in the imagined job.",
+        "They wanted to learn the answer.",
+        "The skip button was never available.",
+        "They had been promised all answers before choosing."
+      ],
+      "optionsZh": [
+        "等待保证假想工作薪水更高。",
+        "他们想知道答案。",
+        "跳过按钮从不可用。",
+        "选择前已被承诺并展示全部答案。"
+      ],
+      "answer": 1,
+      "type": "逻辑关系",
+      "support": "explicit",
+      "analyses": [
+        "A 没工资奖励。",
+        "B wanted to know...so willing to wait明确动机链。",
+        "C 另一回应选项存在，愿等不是因无选择。",
+        "D 答案需等待才显示，不是事前已读全部；Typically保留一般倾向，不定每人都如此。"
+      ],
+      "vocabulary": [
+        {
+          "word": "willing to wait",
+          "meaning": "愿意等待",
+          "context": "是想知道答案而接受延迟的行为，不等于不能跳过或具有全情境耐心。",
+          "example": "She was willing to wait because she wanted to see the result.",
+          "collocations": [
+            "willing to wait for an answer",
+            "typically curious people"
+          ]
+        }
+      ],
+      "evidenceQuote": "If they hit the wait button, they had to wait for a certain amount of time (the precise time was randomized between ten and fifteen seconds) to get an answer (e.g., Abraham Lincoln). Typically, curious people wanted to know the answer, so they were willing to wait. Our experiment consisted of fifteen questions. The more answers someone waited for, the more curious they were."
+    },
+    {
+      "order": 5,
+      "prompt": "What does the number fifteen count in 'our experiment consisted of fifteen questions'?",
+      "promptZh": "our experiment consisted of fifteen questions中的十五计算什么？",
+      "options": [
+        "The number of participants in every team.",
+        "The exact delay for every single response.",
+        "The questions making up the experiment.",
+        "The number of jobs every student actually held."
+      ],
+      "optionsZh": [
+        "每队参与人数。",
+        "每次回应的固定延迟。",
+        "构成这项实验的问题数。",
+        "每个学生实际做过的工作数。"
+      ],
+      "answer": 2,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A 人数与题数不可换。",
+        "B 延迟在十至十五秒随机，fifteen questions是题量。",
+        "C consisted of后给实验所含十五题。",
+        "D 是想象岗位研究后的常识任务，非真实职业数。"
+      ],
+      "vocabulary": [
+        {
+          "word": "consisted of",
+          "meaning": "由……组成；包含……",
+          "context": "说明任务项目总量，不把题数等同答案等待次数或被试人数。",
+          "example": "The questionnaire consisted of fifteen items.",
+          "collocations": [
+            "consisted of fifteen questions",
+            "the experiment consisted of"
+          ]
+        }
+      ],
+      "evidenceQuote": "If they hit the wait button, they had to wait for a certain amount of time (the precise time was randomized between ten and fifteen seconds) to get an answer (e.g., Abraham Lincoln). Typically, curious people wanted to know the answer, so they were willing to wait. Our experiment consisted of fifteen questions. The more answers someone waited for, the more curious they were."
+    },
+    {
+      "order": 6,
+      "prompt": "What does 'seemingly irrelevant' imply about the other matters?",
+      "promptZh": "seemingly irrelevant对其他事情暗示什么？",
+      "options": [
+        "They appear unrelated to the speciality, rather than being proved worthless in every sense.",
+        "They have been conclusively shown to have no value for anyone.",
+        "They are guaranteed to belong to the person's exact speciality.",
+        "The participant has never encountered any other topic."
+      ],
+      "optionsZh": [
+        "它们显得与专门领域无关，并非已证明任何意义都无价值。",
+        "已经确证对任何人都无价值。",
+        "保证它们都属于此人的确切专业。",
+        "参与者从未接触其他任何主题。"
+      ],
+      "answer": 0,
+      "type": "语境词义",
+      "support": "explicit",
+      "analyses": [
+        "A seemingly限定表面或主观相关性，不等于普遍无价值。",
+        "B 把看似无关升级成全体价值为零。",
+        "C 与irrelevant方向相反。",
+        "D lose interest不证明从未遇过；本段是对想象专才条件下任务行为的解释，不是终身定论。"
+      ],
+      "vocabulary": [
+        {
+          "word": "seemingly",
+          "meaning": "似乎；看起来",
+          "context": "保留表象或当时视角，不自动是客观最终事实。",
+          "example": "A seemingly minor detail later became important.",
+          "collocations": [
+            "seemingly irrelevant matters",
+            "seemingly unrelated information"
+          ]
+        }
+      ],
+      "evidenceQuote": "Participants imagining they were generalists proved behaviorally more curious and more willing to wait for answers than those who were imagining a specialist job, conceptually replicating the psychological richness findings. In other words, when you are assigned to be a specialist, you lose interest in other seemingly irrelevant matters. When you are assigned to be a generalist, you are more curious about other things."
+    },
+    {
+      "order": 7,
+      "prompt": "What comparison is made for the imagined generalist role?",
+      "promptZh": "对想象中的通才角色，原文作什么比较？",
+      "options": [
+        "Generalists are proved to know every answer already.",
+        "They are described as more curious about other things in this experimental account.",
+        "They are guaranteed permanent happiness in all real jobs.",
+        "They never choose to wait for any answer."
+      ],
+      "optionsZh": [
+        "证明通才原本就知道所有答案。",
+        "在此实验叙述中，他们被描述为对其他事更好奇。",
+        "保证他们在所有真实岗位永久幸福。",
+        "他们从不选等待任何答案。"
+      ],
+      "answer": 1,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A 等答案以了解不同于已经全知。",
+        "B assigned generalist...more curious对应，前句用愿等答案支持行为比较。",
+        "C 组别是imagining，不能扩成永久实职幸福。",
+        "D 前句more willing to wait与从不等相反。"
+      ],
+      "vocabulary": [
+        {
+          "word": "more curious about",
+          "meaning": "对……更好奇；更想知道",
+          "context": "比较研究任务中的兴趣，不等于已掌握所有信息或人格永远改变。",
+          "example": "The activity made the students more curious about unfamiliar topics.",
+          "collocations": [
+            "more curious about other things",
+            "imagining a generalist role"
+          ]
+        }
+      ],
+      "evidenceQuote": "Participants imagining they were generalists proved behaviorally more curious and more willing to wait for answers than those who were imagining a specialist job, conceptually replicating the psychological richness findings. In other words, when you are assigned to be a specialist, you lose interest in other seemingly irrelevant matters. When you are assigned to be a generalist, you are more curious about other things."
+    },
+    {
+      "order": 8,
+      "prompt": "What does 'But why?' introduce after the curiosity finding?",
+      "promptZh": "好奇心发现后的 But why? 引入什么？",
+      "options": [
+        "A new claim that the results never existed.",
+        "An instruction to abandon the topic without explanation.",
+        "A definitive clinical diagnosis of every specialist.",
+        "An explanation based on selective attention to relevant information."
+      ],
+      "optionsZh": [
+        "声称此前结果根本不存在。",
+        "不解释便放弃主题的要求。",
+        "对每位专才的确定临床诊断。",
+        "以选择性关注相关信息来解释。"
+      ],
+      "answer": 3,
+      "type": "篇章结构",
+      "support": "explicit",
+      "analyses": [
+        "A 问原因不是撤销结果。",
+        "B 紧接Well及相关/无关信息说明，非中止。",
+        "C 无临床诊断。",
+        "D why引向作者机制性解释，不能把解释问句本身当新随机实验已经证明所有步骤。"
+      ],
+      "vocabulary": [
+        {
+          "word": "selectively attending to",
+          "meaning": "选择性地关注",
+          "context": "把注意资源集中在相关方面，不等于有意识贬低所有其他生活领域。",
+          "example": "The task involved selectively attending to one feature of the display.",
+          "collocations": [
+            "selectively attending to relevant information",
+            "ignore irrelevant information"
+          ]
+        }
+      ],
+      "evidenceQuote": "But why? Well, when you specialize in something, you are selectively attending to what is relevant to your specialty and trying to ignore irrelevant information. If you are a healthcare consultant, for instance, you need to learn so much about the healthcare business that you might need to ignore information unrelated to that industry. Specialization gives you deep knowledge in certain topics and marketable skills."
+    },
+    {
+      "order": 9,
+      "prompt": "How are relevant and irrelevant information contrasted in the explanation?",
+      "promptZh": "解释中，相关与无关信息怎样对照？",
+      "options": [
+        "Both are guaranteed exactly equal attention at every moment.",
+        "All information outside the speciality is proved factually false.",
+        "Attention is directed to speciality-relevant material while unrelated material is set aside.",
+        "The person is unable to learn any specialised information."
+      ],
+      "optionsZh": [
+        "两者每一刻都保证获得完全同样注意。",
+        "专业外所有信息都已证明是假的。",
+        "注意指向专业相关资料，同时暂置无关资料。",
+        "此人无法学任何专业信息。"
+      ],
+      "answer": 2,
+      "type": "逻辑关系",
+      "support": "explicit",
+      "analyses": [
+        "A selectively与trying to ignore不支持同量注意。",
+        "B irrelevant不是false，也不是无价值的证据。",
+        "C attending to与ignore形成注意分配对照。",
+        "D 后面深知识与技能说明专门学习收益，并非学不了。"
+      ],
+      "vocabulary": [
+        {
+          "word": "relevant to",
+          "meaning": "与……有关的；对某目的相关的",
+          "context": "相对于specialty界定，不表示其他信息真伪或人生价值。",
+          "example": "Choose examples relevant to the question.",
+          "collocations": [
+            "relevant to your specialty",
+            "information unrelated to an industry"
+          ]
+        }
+      ],
+      "evidenceQuote": "But why? Well, when you specialize in something, you are selectively attending to what is relevant to your specialty and trying to ignore irrelevant information. If you are a healthcare consultant, for instance, you need to learn so much about the healthcare business that you might need to ignore information unrelated to that industry. Specialization gives you deep knowledge in certain topics and marketable skills."
+    },
+    {
+      "order": 10,
+      "prompt": "What positive benefit of specialisation is explicitly acknowledged?",
+      "promptZh": "原文明示承认专门化有什么正面收益？",
+      "options": [
+        "Deep knowledge in particular subjects and skills valued in employment.",
+        "A guarantee that every other topic becomes interesting.",
+        "A promise of the same salary for every specialist.",
+        "The elimination of all need for ongoing learning."
+      ],
+      "optionsZh": [
+        "特定主题的深知识及有就业价值的技能。",
+        "保证其他每个主题都更有趣。",
+        "承诺每个专才薪水相同。",
+        "消除继续学习的全部需要。"
+      ],
+      "answer": 0,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A deep knowledge和marketable skills两项并列收益。",
+        "B 后文反而警惕其他领域兴趣，无此保证。",
+        "C marketable不提供同薪或确切收益。",
+        "D 例子说need learn so much，不是无需学习；承认收益与警惕代价可并存。"
+      ],
+      "vocabulary": [
+        {
+          "word": "marketable skills",
+          "meaning": "有就业市场价值的技能；可用于工作的技能",
+          "context": "可帮助就业不等于保证固定收入或把技能作为实体商品出售。",
+          "example": "The course helps students develop marketable skills.",
+          "collocations": [
+            "deep knowledge and marketable skills",
+            "skills useful for work"
+          ]
+        }
+      ],
+      "evidenceQuote": "But why? Well, when you specialize in something, you are selectively attending to what is relevant to your specialty and trying to ignore irrelevant information. If you are a healthcare consultant, for instance, you need to learn so much about the healthcare business that you might need to ignore information unrelated to that industry. Specialization gives you deep knowledge in certain topics and marketable skills."
+    },
+    {
+      "order": 11,
+      "prompt": "What does 'unintentionally' add to the claim about lost interest elsewhere?",
+      "promptZh": "unintentionally为对其他领域兴趣流失的说法增加什么？",
+      "options": [
+        "It proves that specialists deliberately decide to dislike all art.",
+        "It says the loss is the only intended aim of training.",
+        "It guarantees every individual has the exact same outcome.",
+        "It presents the narrowing of interest as an unintended consequence."
+      ],
+      "optionsZh": [
+        "证明专才故意决定讨厌所有艺术。",
+        "说兴趣流失是训练唯一意图。",
+        "保证每个个体结局完全相同。",
+        "将兴趣变窄呈现为非刻意后果。"
+      ],
+      "answer": 3,
+      "type": "语气与范围",
+      "support": "explicit",
+      "analyses": [
+        "A unintentionally不是deliberately，Louvre例子也非所有艺术厌恶。",
+        "B 前文深知识与技能为收益，非只想消除兴趣。",
+        "C 作者解释不能改成每人固定结果。",
+        "D 意在专业提升却可能错失其他体验，后面MonaLisa比喻说明；不当作去美术馆的实际受试试验。"
+      ],
+      "vocabulary": [
+        {
+          "word": "unintentionally",
+          "meaning": "无意间；非刻意地",
+          "context": "区别于有意识选择消灭其他兴趣，保留副作用性质。",
+          "example": "The new rule unintentionally reduced informal conversation.",
+          "collocations": [
+            "But unintentionally",
+            "an unintended consequence"
+          ]
+        }
+      ],
+      "evidenceQuote": "But unintentionally, specialization leaves you uninterested in other areas of life. It’s like going to the Louvre, being so focused on the Mona Lisa that you forget to look to your right, left, and back and miss all the other masterpieces!"
+    },
+    {
+      "order": 12,
+      "prompt": "What kind of advantage introduces outsourcing here?",
+      "promptZh": "此处引入外包时强调哪类优势？",
+      "options": [
+        "It guarantees every person's happiness regardless of cost.",
+        "It is presented as a way to live more efficiently, especially by gaining time.",
+        "It requires each person to perform every task alone.",
+        "It proves no outsourced worker ever faces difficult conditions."
+      ],
+      "optionsZh": [
+        "不论成本都保证每人幸福。",
+        "把它呈现为更高效生活、尤其获取时间的方式。",
+        "要求每人独做全部任务。",
+        "证明所有承接外包者从无艰难条件。"
+      ],
+      "answer": 1,
+      "type": "主旨",
+      "support": "explicit",
+      "analyses": [
+        "A 首段给效率方式及时间目标，不是无条件幸福保证。",
+        "B efficiently与primary goal...gain time相接。",
+        "C outsourcing不是全部亲做。",
+        "D 当前未提供所有劳动者条件的这种证明，后文还区分付钱者视角。"
+      ],
+      "vocabulary": [
+        {
+          "word": "Outsourcing",
+          "meaning": "外包；把某些任务交由外部人士或服务完成",
+          "context": "与亲自完成对照，不保证每种任务都值得交出或成本都相同。",
+          "example": "The article discusses outsourcing routine household tasks.",
+          "collocations": [
+            "outsourcing to gain time",
+            "live more efficiently"
+          ]
+        }
+      ],
+      "evidenceQuote": "Outsourcing is a modern way to live more efficiently. Professionals do jobs such as mowing the lawn and cleaning the gutters much better and more quickly than individuals can. The primary goal of outsourcing in this context is to gain time. For instance, you pay $200 for a person to clean your house."
+    },
+    {
+      "order": 13,
+      "prompt": "Which tasks illustrate the claimed professional advantage in this paragraph?",
+      "promptZh": "本段用哪些任务说明作者所说专业人士的优势？",
+      "options": [
+        "Completing every stage of a scientific paper alone.",
+        "Predicting every possible financial investment outcome.",
+        "Waiting ten to fifteen seconds for a trivia answer.",
+        "Mowing lawns and cleaning gutters better and more quickly."
+      ],
+      "optionsZh": [
+        "独自完成科研论文所有环节。",
+        "预测每项投资所有结果。",
+        "等十至十五秒看常识答案。",
+        "更好更快地割草、清排水沟。"
+      ],
+      "answer": 3,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A 是另一个分工主题的联想，不是此处所列服务。",
+        "B 没有所有投资预测保证。",
+        "C 属前面的好奇心任务，不是家务服务。",
+        "D such as后两个例子直接对应，比较限本书所述专业服务优势，非每次每人表现保证。"
+      ],
+      "vocabulary": [
+        {
+          "word": "gutters",
+          "meaning": "檐槽；屋檐排水沟",
+          "context": "住宅维护语境，不是道路车流或人物道德低下的比喻。",
+          "example": "Leaves had collected in the gutters after the storm.",
+          "collocations": [
+            "cleaning the gutters",
+            "mowing the lawn"
+          ]
+        }
+      ],
+      "evidenceQuote": "Outsourcing is a modern way to live more efficiently. Professionals do jobs such as mowing the lawn and cleaning the gutters much better and more quickly than individuals can. The primary goal of outsourcing in this context is to gain time. For instance, you pay $200 for a person to clean your house."
+    },
+    {
+      "order": 14,
+      "prompt": "What is the status of the $200 house-cleaning payment?",
+      "promptZh": "二百美元清洁房屋的付款在文中是什么性质？",
+      "options": [
+        "An illustrative example of buying time through a service.",
+        "A verified price that every reader must pay today.",
+        "The money paid to each trivia participant.",
+        "Proof that all cleaning jobs take exactly two hundred minutes."
+      ],
+      "optionsZh": [
+        "通过服务买回时间的说明例子。",
+        "每位读者今天必须付的已核实价格。",
+        "付给每位常识任务参与者的钱。",
+        "证明所有清洁都恰耗二百分钟。"
+      ],
+      "answer": 0,
+      "type": "作者意图",
+      "support": "explicit",
+      "analyses": [
+        "A For instance把金额置于例子中，承接gain time目标。",
+        "B 不是当前市场报价、用户账单或统一要求。",
+        "C 非前面实验报酬。",
+        "D 金额不是时间单位，也未指定所有清洁工时相同。"
+      ],
+      "vocabulary": [
+        {
+          "word": "For instance",
+          "meaning": "例如；举一个非穷尽的例子",
+          "context": "引出假定付款情境，不使该例金额变成普遍价格。",
+          "example": "A service can save time; for instance, someone may clean the house.",
+          "collocations": [
+            "For instance, you pay",
+            "pay for a time-saving service"
+          ]
+        }
+      ],
+      "evidenceQuote": "Outsourcing is a modern way to live more efficiently. Professionals do jobs such as mowing the lawn and cleaning the gutters much better and more quickly than individuals can. The primary goal of outsourcing in this context is to gain time. For instance, you pay $200 for a person to clean your house."
+    },
+    {
+      "order": 15,
+      "prompt": "What does 'presumably' do in the sentence linking free time with happiness?",
+      "promptZh": "将空闲时间与幸福相连的句子中 presumably 有什么作用？",
+      "options": [
+        "It changes the expected benefit into a mathematically certain outcome.",
+        "It says every purchased service has no possible benefit.",
+        "It marks an expectation or plausible inference rather than an unconditional guarantee.",
+        "It proves all respondents had identical happiness scores."
+      ],
+      "optionsZh": [
+        "把预期收益改成数学确定结果。",
+        "说每种购买服务都无可能益处。",
+        "标记预期或合理推断，而非无条件保证。",
+        "证明所有受访者幸福分一样。"
+      ],
+      "answer": 2,
+      "type": "语气与范围",
+      "support": "explicit",
+      "analyses": [
+        "A presumably保留判断强度，不能删为必然。",
+        "B 不是无益的否定。",
+        "C 省下几小时想来可转化幸福，后面调查提供另层证据而非让任何花费都必有效。",
+        "D 未给全员同分，且4,469为调查受访者数。"
+      ],
+      "vocabulary": [
+        {
+          "word": "presumably",
+          "meaning": "想来；大概；据合理推测",
+          "context": "区分作者预期与普遍确定性，不等同已验证每人的具体结果。",
+          "example": "The extra time will presumably make the preparation easier.",
+          "collocations": [
+            "presumably translates into",
+            "save a few hours"
+          ]
+        }
+      ],
+      "evidenceQuote": "You save a few hours of free time, which presumably translates into more happiness. Ashley Whillans and colleagues found that, across 4,469 respondents, those who spent some money every month to save free time were happier than those who didn’t. This was in part explained by time stress measured by prompts such as, “I feel pressed for time today.” That is, those who spent money on time-saving services were less stressed about time, and the less stressed about time someone is, the more satisfied they are with their lives overall."
+    },
+    {
+      "order": 16,
+      "prompt": "Which relationship is described in the time-stress explanation?",
+      "promptZh": "时间压力解释描述什么关系？",
+      "options": [
+        "More time stress necessarily means greater satisfaction.",
+        "Less time stress is linked with greater overall life satisfaction.",
+        "Only material purchases can reduce time pressure.",
+        "Every respondent's lack of time is the sole cause of all unhappiness."
+      ],
+      "optionsZh": [
+        "更大时间压力必意味着更满意。",
+        "较少时间压力与更高整体生活满意度相联。",
+        "只有实物购买能减轻时间压力。",
+        "每位受访者时间不足是所有不幸福唯一原因。"
+      ],
+      "answer": 1,
+      "type": "逻辑关系",
+      "support": "explicit",
+      "analyses": [
+        "A 比较方向颠倒。",
+        "B the less stressed...the more satisfied与省时服务者较少时间压力相接。",
+        "C 本段恰说省时服务，不是only material。",
+        "D in part解释不是唯一全因，也不能把调查关联直接当所有人的确定因果。"
+      ],
+      "vocabulary": [
+        {
+          "word": "stressed about time",
+          "meaning": "为时间感到压力；感觉时间紧迫",
+          "context": "不是诊断某种疾病，量表例句为I feel pressed for time today。",
+          "example": "She felt less stressed about time after simplifying the schedule.",
+          "collocations": [
+            "less stressed about time",
+            "overall life satisfaction"
+          ]
+        }
+      ],
+      "evidenceQuote": "You save a few hours of free time, which presumably translates into more happiness. Ashley Whillans and colleagues found that, across 4,469 respondents, those who spent some money every month to save free time were happier than those who didn’t. This was in part explained by time stress measured by prompts such as, “I feel pressed for time today.” That is, those who spent money on time-saving services were less stressed about time, and the less stressed about time someone is, the more satisfied they are with their lives overall."
+    },
+    {
+      "order": 17,
+      "prompt": "Why did Whillans and colleagues conduct the subsequent experiment?",
+      "promptZh": "Whillans 及同事为何随后做实验？",
+      "options": [
+        "To establish today's price for every household service.",
+        "To prove all material purchases are harmful in every context.",
+        "To replace every psychological outcome with motorcycle output.",
+        "To test the causal role of spending on time-saving services."
+      ],
+      "optionsZh": [
+        "建立今天每种家务服务价格。",
+        "证明任何情形所有实物消费都有害。",
+        "用摩托车产量替代所有心理结果。",
+        "检验省时服务支出的因果作用。"
+      ],
+      "answer": 3,
+      "type": "作者意图",
+      "support": "explicit",
+      "analyses": [
+        "A 不是物价调查。",
+        "B 未把比较扩成所有物质消费都有害。",
+        "C 混入另一个实验。",
+        "D to test the causal role直接说明目的，后面同一参与者两个周末分别使用四十美元；不增添原文未写明的顺序随机化。"
+      ],
+      "vocabulary": [
+        {
+          "word": "causal role",
+          "meaning": "因果作用；是否对结果产生影响的角色",
+          "context": "这里是实验要检验的目标，区别前段单纯受访者关联，不等于任意花费的普遍保证。",
+          "example": "The experiment was designed to test a possible causal role.",
+          "collocations": [
+            "test the causal role",
+            "time-saving spending"
+          ]
+        }
+      ],
+      "evidenceQuote": "Whillans and colleagues then conducted an experiment to test the causal role of time-saving spending. They gave participants $80 and told them to spend $40 on a time-saving service one weekend and spend the other $40 on a material purchase another weekend. Participants were contacted on the days they spent $40. Participants reported more positive emotions and less negative emotions after the time-saving spending than after the material purchase."
+    },
+    {
+      "order": 18,
+      "prompt": "When were participants contacted in the spending experiment?",
+      "promptZh": "消费实验中，何时联系参与者？",
+      "options": [
+        "On the days they spent the $40.",
+        "Only three months before either purchase.",
+        "After spending the full $80 on one purchase in one day.",
+        "Only after completing every trivia question in the earlier experiment."
+      ],
+      "optionsZh": [
+        "他们花四十美元的当天。",
+        "只在任一购买前三个月。",
+        "一天把八十美元全用一笔后。",
+        "仅在完成前一个实验所有常识题后。"
+      ],
+      "answer": 0,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A on the days they spent$40明确测量联系时点。",
+        "B 不是另项研究的三个月后随访，更非购买前三个月。",
+        "C 两个周末各40，不能合并成单天全80。",
+        "D 两项实验不能合并参与者程序，也不把当天自报改为多年生涯测量。"
+      ],
+      "vocabulary": [
+        {
+          "word": "were contacted",
+          "meaning": "被联系；研究者与他们取得联系",
+          "context": "此处为收集花费当日体验的程序，不代表作者和读者实际私下通信。",
+          "example": "Participants were contacted after completing each activity.",
+          "collocations": [
+            "contacted on the days",
+            "spending forty dollars"
+          ]
+        }
+      ],
+      "evidenceQuote": "Whillans and colleagues then conducted an experiment to test the causal role of time-saving spending. They gave participants $80 and told them to spend $40 on a time-saving service one weekend and spend the other $40 on a material purchase another weekend. Participants were contacted on the days they spent $40. Participants reported more positive emotions and less negative emotions after the time-saving spending than after the material purchase."
+    },
+    {
+      "order": 19,
+      "prompt": "What emotional pattern followed time-saving spending relative to material buying?",
+      "promptZh": "相对于实物消费，省时支出后报告哪种情绪模式？",
+      "options": [
+        "Both positive and negative emotions necessarily became zero.",
+        "More positive emotions and fewer negative emotions.",
+        "Fewer positive emotions and more negative emotions.",
+        "Only a higher motorcycle-production total with no feeling reports."
+      ],
+      "optionsZh": [
+        "正负情绪都必为零。",
+        "更多正面、更少负面情绪。",
+        "更少正面、更多负面情绪。",
+        "只有摩托车产量更高，不报告感受。"
+      ],
+      "answer": 1,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A 相对更多更少不是双双归零。",
+        "B reported more positive...less negative...than material逐项对应，保留自报及所述实验范围。",
+        "C 两个方向都相反。",
+        "D 不是组装研究；本句未测全部心理丰富性或保证每人终生效果。"
+      ],
+      "vocabulary": [
+        {
+          "word": "material purchase",
+          "meaning": "实物购买；购买可持有的物品",
+          "context": "与购买省时服务对照，不指两种都为同一服务。",
+          "example": "The study contrasted a material purchase with a time-saving service.",
+          "collocations": [
+            "after the material purchase",
+            "time-saving spending"
+          ]
+        }
+      ],
+      "evidenceQuote": "Whillans and colleagues then conducted an experiment to test the causal role of time-saving spending. They gave participants $80 and told them to spend $40 on a time-saving service one weekend and spend the other $40 on a material purchase another weekend. Participants were contacted on the days they spent $40. Participants reported more positive emotions and less negative emotions after the time-saving spending than after the material purchase."
+    },
+    {
+      "order": 20,
+      "prompt": "What does 'It is all about freeing up time' identify as the focus?",
+      "promptZh": "It is all about freeing up time 指出什么核心？",
+      "options": [
+        "Guaranteeing ideal conditions for every worker providing a service.",
+        "Eliminating every obligation from every person's life.",
+        "Making time available for the person paying for the outsourcing.",
+        "Requiring the payer to repeat more tasks in the same time."
+      ],
+      "optionsZh": [
+        "保证提供服务的每位工人条件理想。",
+        "消除每人生活的所有义务。",
+        "为付钱外包的人腾出时间。",
+        "要求付钱者在同段时间重复更多任务。"
+      ],
+      "answer": 2,
+      "type": "主旨",
+      "support": "explicit",
+      "analyses": [
+        "A 前句at least not for person paying限定视角，不保证服务者。",
+        "B freeing up time不等于所有义务消失。",
+        "C It承接outsourcing及付款者视角，后句gaining free time解释。",
+        "D 与腾出时间相反，也不从此断言心理丰富一定提高。"
+      ],
+      "vocabulary": [
+        {
+          "word": "freeing up time",
+          "meaning": "腾出时间；使时间可供其他用途",
+          "context": "与有更多空闲相关，不是字面让时间消失或对所有相关人都同样有益。",
+          "example": "Delegating one task helped free up time for the project.",
+          "collocations": [
+            "all about freeing up time",
+            "gaining free time"
+          ]
+        }
+      ],
+      "evidenceQuote": "Unlike division of labor, outsourcing does not involve repetitive tasks and inhumane working conditions (at least not for the person paying). It is all about freeing up time. To the extent that you are paying someone to do the tasks you don’t want to do and as a result gaining free time, it should increase your happiness. But does outsourcing detract from psychological richness, just as specialization and division of labor do?"
+    },
+    {
+      "order": 21,
+      "prompt": "What condition does 'To the extent that' preserve in the happiness claim?",
+      "promptZh": "幸福主张中的 To the extent that 保留什么条件？",
+      "options": [
+        "Paying for unwanted tasks actually gains free time for the payer.",
+        "Any spending,regardless of purpose or result,guarantees happiness.",
+        "The person providing the service is guaranteed equal free time.",
+        "There is no need to distinguish tasks or whether time is saved."
+      ],
+      "optionsZh": [
+        "为不想做的任务付费确实给付款者带来空闲。",
+        "无论用途结果，任何花钱都保证幸福。",
+        "提供服务者保证得到同样空闲。",
+        "无需区别任务或是否省时。"
+      ],
+      "answer": 0,
+      "type": "逻辑关系",
+      "support": "explicit",
+      "analyses": [
+        "A paying someone...tasks don't want...as a result gaining time构成限制条件，should也非绝对保证。",
+        "B 删除条件、扩大任何消费且加强强度。",
+        "C 视角是付款者，不能擅推提供者同益。",
+        "D 原句明确gaining time是推理的一部分。"
+      ],
+      "vocabulary": [
+        {
+          "word": "To the extent that",
+          "meaning": "在……程度或条件下；就……而言",
+          "context": "把结论系于所述机制是否成立，不等于无条件所有花费。",
+          "example": "To the extent that the change saves time, it may reduce pressure.",
+          "collocations": [
+            "To the extent that you are paying",
+            "as a result gaining free time"
+          ]
+        }
+      ],
+      "evidenceQuote": "Unlike division of labor, outsourcing does not involve repetitive tasks and inhumane working conditions (at least not for the person paying). It is all about freeing up time. To the extent that you are paying someone to do the tasks you don’t want to do and as a result gaining free time, it should increase your happiness. But does outsourcing detract from psychological richness, just as specialization and division of labor do?"
+    },
+    {
+      "order": 22,
+      "prompt": "What new question is introduced by 'But does outsourcing detract from psychological richness'?",
+      "promptZh": "But does outsourcing detract from psychological richness 引入什么新问题？",
+      "options": [
+        "Whether the experiment proves all forms of outsourcing have identical effects.",
+        "Whether every payer has already become psychologically richer.",
+        "Whether happiness and psychological richness are exactly the same outcome.",
+        "Whether outsourcing may have a different cost for richness despite possible happiness benefits."
+      ],
+      "optionsZh": [
+        "实验是否证明所有外包效果相同。",
+        "每位付款者是否已经心理更丰富。",
+        "幸福与心理丰富是否完全同一结果。",
+        "外包即使可能有幸福益处，是否对丰富性另有代价。"
+      ],
+      "answer": 3,
+      "type": "作者意图",
+      "support": "explicit",
+      "analyses": [
+        "A 句子是在提问，不是已证明全类同效。",
+        "B 不断言每个人已更丰富。",
+        "C 转换维度说明不能等同。",
+        "D But在幸福讨论后提出丰富性是否受损，当前片段并未直接回答此新问题或报告新证据。"
+      ],
+      "vocabulary": [
+        {
+          "word": "detract from",
+          "meaning": "减损；削弱某种价值或体验",
+          "context": "此处为疑问可能成本，不预设所有外包都必受损。",
+          "example": "The repetition may detract from the variety of the experience.",
+          "collocations": [
+            "detract from psychological richness",
+            "a different psychological cost"
+          ]
+        }
+      ],
+      "evidenceQuote": "Unlike division of labor, outsourcing does not involve repetitive tasks and inhumane working conditions (at least not for the person paying). It is all about freeing up time. To the extent that you are paying someone to do the tasks you don’t want to do and as a result gaining free time, it should increase your happiness. But does outsourcing detract from psychological richness, just as specialization and division of labor do?"
+    },
+    {
+      "order": 23,
+      "prompt": "What home project were the author and his wife considering?",
+      "promptZh": "作者与妻子考虑哪项居家工程？",
+      "options": [
+        "Moving the whole house to a different city.",
+        "Replacing the brick patio with an office laboratory.",
+        "Turning an untidy side yard into a brick patio.",
+        "Building a factory to assemble motorcycles professionally."
+      ],
+      "optionsZh": [
+        "把整栋房屋迁至另一城市。",
+        "把砖露台改为办公室实验室。",
+        "把杂乱的侧院变成砖砌露台。",
+        "建摩托车专业组装厂。"
+      ],
+      "answer": 2,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A 没有搬屋计划。",
+        "B 方向反了且没有办公室。",
+        "C converting our unkempt side yard to a brick patio对应起点及目标。",
+        "D 与前面实验混同；这是作者个人故事，不是受试样本或读者家的真实状况。"
+      ],
+      "vocabulary": [
+        {
+          "word": "unkempt",
+          "meaning": "疏于整理的；杂乱的",
+          "context": "修饰侧院，不表示无人居住或读者本人品格。",
+          "example": "The unkempt garden needed attention after the winter.",
+          "collocations": [
+            "an unkempt side yard",
+            "convert to a brick patio"
+          ]
+        }
+      ],
+      "evidenceQuote": "A while ago, my wife and I were thinking about converting our unkempt side yard to a brick patio. After getting a few estimates, the lowest price we found was $9,000. We checked the material cost, which was about $4,000. We thought to ourselves, couldn’t we do all the digging and labor ourselves if it meant saving at least $5,000?"
+    },
+    {
+      "order": 24,
+      "prompt": "What motivates the question about doing the digging and labour themselves?",
+      "promptZh": "为何提出自己挖掘、劳动的想法？",
+      "options": [
+        "They had already completed the work for exactly $5,000.",
+        "They hoped to save at least $5,000 relative to the quoted work cost.",
+        "They believed no materials would ever be needed.",
+        "They aimed to save the entire $9,000 quoted amount rather than the labour portion."
+      ],
+      "optionsZh": [
+        "他们已恰花五千完成工程。",
+        "相对于报价，他们希望至少省五千美元。",
+        "他们认为完全不需材料。",
+        "他们想省全部九千美元报价，而非劳动部分。"
+      ],
+      "answer": 1,
+      "type": "逻辑关系",
+      "support": "explicit",
+      "analyses": [
+        "A thought to ourselves、couldn't we、if meant为决策时设想，不是已完工账本。",
+        "B 最低报价9,000及材料about4,000支持预期劳动自做节省，at least为原句目标。",
+        "C 前句明确材料约4,000。",
+        "D 前句材料约四千仍需考虑，原句目标at least五千对应自做挖掘与劳动，不能把整笔报价都当净节省。"
+      ],
+      "vocabulary": [
+        {
+          "word": "saving at least",
+          "meaning": "至少节省；以某数额为节省下限目标",
+          "context": "在此为夫妇考虑的条件性预期，不是今天市场报价或最终实际收益。",
+          "example": "They considered doing the work themselves if it meant saving at least that amount.",
+          "collocations": [
+            "saving at least five thousand dollars",
+            "do the digging ourselves"
+          ]
+        }
+      ],
+      "evidenceQuote": "A while ago, my wife and I were thinking about converting our unkempt side yard to a brick patio. After getting a few estimates, the lowest price we found was $9,000. We checked the material cost, which was about $4,000. We thought to ourselves, couldn’t we do all the digging and labor ourselves if it meant saving at least $5,000?"
+    },
+    {
+      "order": 25,
+      "prompt": "What sense of 'Being cheap' explains the DIY decision?",
+      "promptZh": "Being cheap 用哪种含义解释DIY决定？",
+      "options": [
+        "The narrator portrays reluctance to spend money as a reason for doing the work themselves.",
+        "The finished patio had already been proved poor in quality.",
+        "The family had already been measured as unable to afford any service.",
+        "The decision was to hire the most expensive provider regardless of cost."
+      ],
+      "optionsZh": [
+        "作者以不愿多花钱的自我描述解释亲自做。",
+        "完工露台已证明质量低劣。",
+        "家庭已被测得完全付不起任何服务。",
+        "决定不论成本都雇最贵服务商。"
+      ],
+      "answer": 0,
+      "type": "语境词义",
+      "support": "explicit",
+      "analyses": [
+        "A Being cheap修饰we，作为省钱动机的自我描述；前句看视频觉得可行也属背景。",
+        "B cheap说人动机，不是已完工材料质量。",
+        "C 节省偏好不证明贫穷或支付能力。",
+        "D do it ourselves与hiremostexpensive相反；本题不假定工程最终工作量或成果已如预期。"
+      ],
+      "vocabulary": [
+        {
+          "word": "Being cheap",
+          "meaning": "因为不愿花钱；出于节省的心态（作者自嘲）",
+          "context": "cheap可形容物品便宜或质量低，但此处形容人不愿花钱，不能错配成品。",
+          "example": "Being cheap, he tried repairing the old chair before buying another.",
+          "collocations": [
+            "Being cheap, we decided",
+            "do it ourselves"
+          ]
+        }
+      ],
+      "evidenceQuote": "We watched a couple of YouTube videos, and it seemed doable. Being cheap, we decided to do it ourselves."
+    }
+  ]
+}
