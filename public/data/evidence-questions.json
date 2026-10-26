@@ -104091,5 +104091,2073 @@
     ],
     "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
     "fingerprint": "d645bcf165a292ee0c5768b96b1061674837c8ff535216e0256e60a91b005e71"
+  },
+  {
+    "id": "qe-c11-0107",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-052",
+    "parentQuestionId": "q-c11-059",
+    "chapterId": "c11",
+    "sectionId": "c11-s07",
+    "paragraphId": "c11-s07-p131-01845",
+    "readingUnitId": "c11-s07-p131-01845-r005-008",
+    "sentenceIds": [
+      "c11-s07-p131-01845-s005",
+      "c11-s07-p131-01845-s006",
+      "c11-s07-p131-01845-s007",
+      "c11-s07-p131-01845-s008"
+    ],
+    "passage": "Likewise, right after Hurricane Katrina, there was an “elite panic,” or excessive fear of social disorder. Vigilantes were formed and they inflicted unprovoked violence on Black residents. Incidents like this should not have happened. Some people are traumatized for a long time; others decide to end their lives after a natural disaster.",
+    "prompt": "What does 'should not have happened' express about the incidents?",
+    "promptZh": "should not have happened 对这些事件表达什么？",
+    "options": [
+      "The author approves of the violence because people feared disorder.",
+      "The author says the incidents are only planned for the future.",
+      "The author denies the incidents occurred at all.",
+      "The author judges the described violence as wrong and regrettable."
+    ],
+    "optionsZh": [
+      "作者因人们害怕失序而赞同暴力。",
+      "作者说事件仅计划在未来发生。",
+      "作者否认事件曾发生。",
+      "作者认为所述暴力不应该发生，表达谴责与遗憾。"
+    ],
+    "answer": 3,
+    "type": "作者态度",
+    "support": "explicit",
+    "analyses": [
+      "A 与should not相反，不能把恐慌当作者的赞同。",
+      "B have happened指向过去，非未来计划。",
+      "C 对已经描述的事件作规范判断，不等于否认事实。",
+      "D should not have happened表达对过去事情的不赞同，保持作者批判而不增加他未说的处罚方案。"
+    ],
+    "vocabulary": [
+      {
+        "word": "should not have happened",
+        "meaning": "本不该发生；对过去事情表达不应如此的判断",
+        "context": "不等于did not happen的事实否定，也不是尚未发生的预测。",
+        "example": "The report concludes that such violence should not have happened.",
+        "collocations": [
+          "Incidents like this",
+          "should not have happened"
+        ]
+      }
+    ],
+    "translation": "同样，Katrina后出现elite panic，即过分害怕社会失序。自警团体成立，对Black居民施加无端暴力。这类事件不该发生。有人长期创伤，有人灾后选择结束生命。",
+    "evidenceTargetIds": [
+      "c11-s07-p131-01845-s007"
+    ],
+    "evidence": [
+      {
+        "quote": "Likewise, right after Hurricane Katrina, there was an “elite panic,” or excessive fear of social disorder. Vigilantes were formed and they inflicted unprovoked violence on Black residents. Incidents like this should not have happened. Some people are traumatized for a long time; others decide to end their lives after a natural disaster.",
+        "sentenceIds": [
+          "c11-s07-p131-01845-s005",
+          "c11-s07-p131-01845-s006",
+          "c11-s07-p131-01845-s007",
+          "c11-s07-p131-01845-s008"
+        ],
+        "sources": [
+          {
+            "pdfPage": 131,
+            "block": 2,
+            "bbox": [
+              76.99,
+              184.5,
+              535.01,
+              374.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "f33e99797773924d19662e7c984b6ed7f6c76d88971a271520a56607917bbf8c"
+  },
+  {
+    "id": "qe-c11-0108",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-052",
+    "parentQuestionId": "q-c11-059",
+    "chapterId": "c11",
+    "sectionId": "c11-s07",
+    "paragraphId": "c11-s07-p131-01845",
+    "readingUnitId": "c11-s07-p131-01845-r005-008",
+    "sentenceIds": [
+      "c11-s07-p131-01845-s005",
+      "c11-s07-p131-01845-s006",
+      "c11-s07-p131-01845-s007",
+      "c11-s07-p131-01845-s008"
+    ],
+    "passage": "Likewise, right after Hurricane Katrina, there was an “elite panic,” or excessive fear of social disorder. Vigilantes were formed and they inflicted unprovoked violence on Black residents. Incidents like this should not have happened. Some people are traumatized for a long time; others decide to end their lives after a natural disaster.",
+    "prompt": "Why does the passage mention prolonged trauma and other severe personal consequences after disaster?",
+    "promptZh": "段落为何提及灾后长期创伤及其他严重个人后果？",
+    "options": [
+      "To acknowledge severe possible consequences alongside any later discussion of resilience.",
+      "To prove that every survivor experiences exactly the same outcome.",
+      "To advise readers to imitate the harmful outcomes mentioned.",
+      "To state that no psychological harm can last beyond the event."
+    ],
+    "optionsZh": [
+      "承认严重后果的可能，为随后谈韧性保留受害与例外。",
+      "证明每位幸存者结果完全相同。",
+      "建议读者模仿所述伤害结果。",
+      "声明任何心理伤害都不能延续到灾后。"
+    ],
+    "answer": 0,
+    "type": "作者意图",
+    "support": "explicit",
+    "analyses": [
+      "A some...others列不同严重遭遇，不让后续most resilient抹去伤害。",
+      "B some和others不是every或完全同样。",
+      "C 这是后果叙述，绝非对读者的行为建议。",
+      "D for a long time明确长期可能，不能反读成影响瞬间结束。"
+    ],
+    "vocabulary": [
+      {
+        "word": "traumatized",
+        "meaning": "受到心理创伤的；深受冲击的",
+        "context": "用于原文对部分灾后遭遇者的描述，不是据阅读一句话给所有幸存者或读者作诊断。",
+        "example": "The account acknowledges that some survivors remained traumatized for a long time.",
+        "collocations": [
+          "traumatized for a long time",
+          "after a natural disaster"
+        ]
+      }
+    ],
+    "translation": "同样，Katrina后出现elite panic，即过分害怕社会失序。自警团体成立，对Black居民施加无端暴力。这类事件不该发生。有人长期创伤，有人灾后选择结束生命。",
+    "evidenceTargetIds": [
+      "c11-s07-p131-01845-s008"
+    ],
+    "evidence": [
+      {
+        "quote": "Likewise, right after Hurricane Katrina, there was an “elite panic,” or excessive fear of social disorder. Vigilantes were formed and they inflicted unprovoked violence on Black residents. Incidents like this should not have happened. Some people are traumatized for a long time; others decide to end their lives after a natural disaster.",
+        "sentenceIds": [
+          "c11-s07-p131-01845-s005",
+          "c11-s07-p131-01845-s006",
+          "c11-s07-p131-01845-s007",
+          "c11-s07-p131-01845-s008"
+        ],
+        "sources": [
+          {
+            "pdfPage": 131,
+            "block": 2,
+            "bbox": [
+              76.99,
+              184.5,
+              535.01,
+              374.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "81a634fc6077dad00b9445c21eb7b331f9255016da831c69ec760aec956da57f"
+  },
+  {
+    "id": "qe-c11-0109",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-052",
+    "parentQuestionId": "q-c11-060",
+    "chapterId": "c11",
+    "sectionId": "c11-s07",
+    "paragraphId": "c11-s07-p131-03795",
+    "readingUnitId": "c11-s07-p131-03795-r001-004",
+    "sentenceIds": [
+      "c11-s07-p131-03795-s001",
+      "c11-s07-p131-03795-s002",
+      "c11-s07-p131-03795-s003",
+      "c11-s07-p131-03795-s004"
+    ],
+    "passage": "However, research shows that most people are remarkably resilient. Most people do move on. Ann Masten, the world authority on psychological resilience, summarized decades of resilience research as follows: “Early images of resilience in both scholarly work and mass media implied that there was something remarkable or special about these children, often described by words such as invulnerable, or invincible…. The idea of resilient children as remarkable individuals possessing extraordinary strength or inner resilience has lingered, even in scholarly work….",
+    "prompt": "What limitation is carried by 'most people' in the resilience claim?",
+    "promptZh": "韧性论述中的 most people 有什么范围限定？",
+    "options": [
+      "Only a single exceptional individual can ever adapt.",
+      "The claim concerns a majority, without denying that some suffer lasting harm.",
+      "Every person is immune to all injury and loss.",
+      "No person can ever move forward after adversity."
+    ],
+    "optionsZh": [
+      "只有一个超常个体才可能适应。",
+      "论述指多数，未否认有人长期受害。",
+      "每个人都完全不受伤害损失。",
+      "任何人都绝不可能在逆境后继续生活。"
+    ],
+    "answer": 1,
+    "type": "证据范围",
+    "support": "explicit",
+    "analyses": [
+      "A most与仅一个特殊个体不同。",
+      "B most限定多数；However转向韧性并不取消前段的部分严重遭遇。",
+      "C resilient不等于invulnerable，most也不能改为every。",
+      "D 作者明确most resilient，不能读成无人能向前。"
+    ],
+    "vocabulary": [
+      {
+        "word": "resilient",
+        "meaning": "有韧性的；能在打击后适应和恢复的",
+        "context": "不是永远不会受伤或经历无痛，文中后面还将韧性说明为常见现象。",
+        "example": "Many people are resilient while still being affected by loss.",
+        "collocations": [
+          "most people are remarkably resilient",
+          "research shows"
+        ]
+      }
+    ],
+    "translation": "然而研究表明，多数人韧性惊人，多数确实继续生活。心理韧性专家Ann Masten总结数十年研究：早期学术和媒体把这些儿童描写得非凡特殊，常用不受伤害、不可战胜等词。这种认为韧性儿童有超凡力量的想法，甚至在学术中也延续。（引语续下段）",
+    "evidenceTargetIds": [
+      "c11-s07-p131-03795-s001"
+    ],
+    "evidence": [
+      {
+        "quote": "However, research shows that most people are remarkably resilient. Most people do move on. Ann Masten, the world authority on psychological resilience, summarized decades of resilience research as follows: “Early images of resilience in both scholarly work and mass media implied that there was something remarkable or special about these children, often described by words such as invulnerable, or invincible…. The idea of resilient children as remarkable individuals possessing extraordinary strength or inner resilience has lingered, even in scholarly work….",
+        "sentenceIds": [
+          "c11-s07-p131-03795-s001",
+          "c11-s07-p131-03795-s002",
+          "c11-s07-p131-03795-s003",
+          "c11-s07-p131-03795-s004"
+        ],
+        "sources": [
+          {
+            "pdfPage": 131,
+            "block": 3,
+            "bbox": [
+              76.99,
+              379.5,
+              535.02,
+              608.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "b6cb990a027f201eedf1f440190c503c5a9bc2a9bdd829728414b244233b0a23"
+  },
+  {
+    "id": "qe-c11-0110",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-052",
+    "parentQuestionId": "q-c11-060",
+    "chapterId": "c11",
+    "sectionId": "c11-s07",
+    "paragraphId": "c11-s07-p131-03795",
+    "readingUnitId": "c11-s07-p131-03795-r001-004",
+    "sentenceIds": [
+      "c11-s07-p131-03795-s001",
+      "c11-s07-p131-03795-s002",
+      "c11-s07-p131-03795-s003",
+      "c11-s07-p131-03795-s004"
+    ],
+    "passage": "However, research shows that most people are remarkably resilient. Most people do move on. Ann Masten, the world authority on psychological resilience, summarized decades of resilience research as follows: “Early images of resilience in both scholarly work and mass media implied that there was something remarkable or special about these children, often described by words such as invulnerable, or invincible…. The idea of resilient children as remarkable individuals possessing extraordinary strength or inner resilience has lingered, even in scholarly work….",
+    "prompt": "What does the emphatic 'do' add in 'Most people do move on'?",
+    "promptZh": "Most people do move on 中，强调用 do 起什么作用？",
+    "options": [
+      "It negates the action and means most people never move on.",
+      "It turns the statement into a command that every reader must obey immediately.",
+      "It stresses that moving on really does occur for most people.",
+      "It changes the statement into a question about physical transport only."
+    ],
+    "optionsZh": [
+      "否定动作，表示多数人从不继续生活。",
+      "把陈述变成每个读者必须立即服从的命令。",
+      "强调多数人确实能继续生活。",
+      "把句子变成只问交通移动的问题。"
+    ],
+    "answer": 2,
+    "type": "语法",
+    "support": "explicit",
+    "analyses": [
+      "A do在此不是do not，不能加上否定。",
+      "B 主语Most people后的陈述强调，非以动词开头的强制祈使。",
+      "C do加动词原形move表示加强肯定语气；保留most的范围。",
+      "D move on在此是从困难中继续生活，不只指搬家乘车，句子也不是疑问。"
+    ],
+    "vocabulary": [
+      {
+        "word": "move on",
+        "meaning": "继续生活；从某段困难经历往前走",
+        "context": "不必表示全忘记损失、毫无痛苦或真的换住所。",
+        "example": "After a difficult period, many people do move on.",
+        "collocations": [
+          "Most people do move on",
+          "do move on"
+        ]
+      }
+    ],
+    "translation": "然而研究表明，多数人韧性惊人，多数确实继续生活。心理韧性专家Ann Masten总结数十年研究：早期学术和媒体把这些儿童描写得非凡特殊，常用不受伤害、不可战胜等词。这种认为韧性儿童有超凡力量的想法，甚至在学术中也延续。（引语续下段）",
+    "evidenceTargetIds": [
+      "c11-s07-p131-03795-s002"
+    ],
+    "evidence": [
+      {
+        "quote": "However, research shows that most people are remarkably resilient. Most people do move on. Ann Masten, the world authority on psychological resilience, summarized decades of resilience research as follows: “Early images of resilience in both scholarly work and mass media implied that there was something remarkable or special about these children, often described by words such as invulnerable, or invincible…. The idea of resilient children as remarkable individuals possessing extraordinary strength or inner resilience has lingered, even in scholarly work….",
+        "sentenceIds": [
+          "c11-s07-p131-03795-s001",
+          "c11-s07-p131-03795-s002",
+          "c11-s07-p131-03795-s003",
+          "c11-s07-p131-03795-s004"
+        ],
+        "sources": [
+          {
+            "pdfPage": 131,
+            "block": 3,
+            "bbox": [
+              76.99,
+              379.5,
+              535.02,
+              608.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "c1ad9e9f02e0f1ea440dde1744029d8a8ae7da6e5f7c88746346f65490b5adc0"
+  },
+  {
+    "id": "qe-c11-0111",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-052",
+    "parentQuestionId": "q-c11-060",
+    "chapterId": "c11",
+    "sectionId": "c11-s07",
+    "paragraphId": "c11-s07-p131-03795",
+    "readingUnitId": "c11-s07-p131-03795-r001-004",
+    "sentenceIds": [
+      "c11-s07-p131-03795-s001",
+      "c11-s07-p131-03795-s002",
+      "c11-s07-p131-03795-s003",
+      "c11-s07-p131-03795-s004"
+    ],
+    "passage": "However, research shows that most people are remarkably resilient. Most people do move on. Ann Masten, the world authority on psychological resilience, summarized decades of resilience research as follows: “Early images of resilience in both scholarly work and mass media implied that there was something remarkable or special about these children, often described by words such as invulnerable, or invincible…. The idea of resilient children as remarkable individuals possessing extraordinary strength or inner resilience has lingered, even in scholarly work….",
+    "prompt": "What idea does Masten say has lingered in accounts of resilient children?",
+    "promptZh": "Masten 说对韧性儿童的叙述中，什么观念延续下来？",
+    "options": [
+      "The belief that they are extraordinary individuals with exceptional inner strength.",
+      "The conclusion that resilience has never been studied in scholarly work.",
+      "The claim that every child lacks any ability to adapt.",
+      "The finding that no media account ever described children as special."
+    ],
+    "optionsZh": [
+      "认为他们是内在力量超常的非凡个体。",
+      "韧性从未在学术中被研究的结论。",
+      "每个儿童都无适应能力的说法。",
+      "从无媒体把儿童描写为特殊的发现。"
+    ],
+    "answer": 0,
+    "type": "观点归属",
+    "support": "explicit",
+    "analyses": [
+      "A remarkable individuals、extraordinary strength正是has lingered的观念内容。",
+      "B even in scholarly work说学术中也有该观念，不是无人研究。",
+      "C 该历史观念把部分儿童描写得强，非全体都不能适应。",
+      "D 前面Early images在学术与媒体中均有special描写；这里报告旧观念的延续，不是认可只有超人才能有韧性。"
+    ],
+    "vocabulary": [
+      {
+        "word": "lingered",
+        "meaning": "延续；久久仍在",
+        "context": "这里指一种观念仍有影响，不是研究已证明该观念正确。",
+        "example": "The old image lingered even after new evidence appeared.",
+        "collocations": [
+          "has lingered, even in scholarly work",
+          "possessing extraordinary strength"
+        ]
+      }
+    ],
+    "translation": "然而研究表明，多数人韧性惊人，多数确实继续生活。心理韧性专家Ann Masten总结数十年研究：早期学术和媒体把这些儿童描写得非凡特殊，常用不受伤害、不可战胜等词。这种认为韧性儿童有超凡力量的想法，甚至在学术中也延续。（引语续下段）",
+    "evidenceTargetIds": [
+      "c11-s07-p131-03795-s004"
+    ],
+    "evidence": [
+      {
+        "quote": "However, research shows that most people are remarkably resilient. Most people do move on. Ann Masten, the world authority on psychological resilience, summarized decades of resilience research as follows: “Early images of resilience in both scholarly work and mass media implied that there was something remarkable or special about these children, often described by words such as invulnerable, or invincible…. The idea of resilient children as remarkable individuals possessing extraordinary strength or inner resilience has lingered, even in scholarly work….",
+        "sentenceIds": [
+          "c11-s07-p131-03795-s001",
+          "c11-s07-p131-03795-s002",
+          "c11-s07-p131-03795-s003",
+          "c11-s07-p131-03795-s004"
+        ],
+        "sources": [
+          {
+            "pdfPage": 131,
+            "block": 3,
+            "bbox": [
+              76.99,
+              379.5,
+              535.02,
+              608.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "b61549294e9ea5c3cf4b45329a9adc34a3642843a3771675873b4b1dc361bfc2"
+  },
+  {
+    "id": "qe-c11-0112",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-052",
+    "parentQuestionId": "q-c11-061",
+    "chapterId": "c11",
+    "sectionId": "c11-s07",
+    "paragraphId": "c11-s07-p131-03795",
+    "readingUnitId": "c11-s07-p131-03795-r005-007",
+    "sentenceIds": [
+      "c11-s07-p131-03795-s005",
+      "c11-s07-p131-03795-s006"
+    ],
+    "passage": "The great surprise of resilience research is the ordinariness of the phenomena. Resilience appears to be a common phenomenon that results in most cases from the operation of basic human adaptational systems.”",
+    "prompt": "What is surprising about resilience in the research summary?",
+    "promptZh": "研究总结认为韧性有哪点令人惊讶？",
+    "options": [
+      "It occurs only in people with supernatural powers.",
+      "It can never arise from ordinary human adaptation.",
+      "It is defined as proof that nobody has been harmed.",
+      "It is an ordinary, common phenomenon rather than only an extraordinary exception."
+    ],
+    "optionsZh": [
+      "它只存在于有超自然力量者。",
+      "它绝不能来自普通的人类适应。",
+      "它被定义为没人受过伤的证明。",
+      "它是普通常见现象，而非仅超常的例外。"
+    ],
+    "answer": 3,
+    "type": "主旨",
+    "support": "explicit",
+    "analyses": [
+      "A 后句common和basic adaptational systems与超自然排他要求不同。",
+      "B results...basic human adaptational systems方向相反。",
+      "C 韧性与从未受伤不能等同。",
+      "D ordinariness在本句给核心反差，后句common补充，保留appears与most cases，不声称全员必然。"
+    ],
+    "vocabulary": [
+      {
+        "word": "ordinariness",
+        "meaning": "普通性；平常而非特别罕见的性质",
+        "context": "与上一叙述remarkable/extraordinary形成反差，不表示现象不重要。",
+        "example": "The surprise was the ordinariness of a process once thought exceptional.",
+        "collocations": [
+          "the ordinariness of the phenomena",
+          "The great surprise of resilience research"
+        ]
+      }
+    ],
+    "translation": "韧性研究最大的惊喜是这一现象的普通性。韧性看来很常见，多数情况下源自人类基本适应系统的运作。",
+    "evidenceTargetIds": [
+      "c11-s07-p131-03795-s005"
+    ],
+    "evidence": [
+      {
+        "quote": "The great surprise of resilience research is the ordinariness of the phenomena. Resilience appears to be a common phenomenon that results in most cases from the operation of basic human adaptational systems.”",
+        "sentenceIds": [
+          "c11-s07-p131-03795-s005",
+          "c11-s07-p131-03795-s006"
+        ],
+        "sources": [
+          {
+            "pdfPage": 131,
+            "block": 3,
+            "bbox": [
+              76.99,
+              379.5,
+              535.02,
+              608.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "sourceSegments": [
+      {
+        "paragraphId": "c11-s07-p131-03795",
+        "start": 562,
+        "end": 770,
+        "separator": "",
+        "text": "The great surprise of resilience research is the ordinariness of the phenomena. Resilience appears to be a common phenomenon that results in most cases from the operation of basic human adaptational systems.”"
+      }
+    ],
+    "fingerprint": "2d95adf44cab53b8e831f2929c21ddf7676c07be51603e738bc4fa84886824f0"
+  },
+  {
+    "id": "qe-c11-0113",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-052",
+    "parentQuestionId": "q-c11-063",
+    "chapterId": "c11",
+    "sectionId": "c11-s07",
+    "paragraphId": "c11-s07-p131-06330",
+    "readingUnitId": "c11-s07-p131-06330-r001-003",
+    "sentenceIds": [
+      "c11-s07-p131-06330-s001",
+      "c11-s07-p131-06330-s002",
+      "c11-s07-p131-06330-s003"
+    ],
+    "passage": "During hard times, when happiness feels out of reach, there are other values with which we can frame our lives. One way to think about an unfortunate event is that it might unintentionally enrich our lives, even when the “enriching” experience is far from a happy one. A painting by Guido Reni shows St. Michael putting his foot on Satan’s neck.",
+    "prompt": "What option does the author present when happiness feels out of reach?",
+    "promptZh": "幸福感觉遥不可及时，作者提出什么可能？",
+    "options": [
+      "Only happiness may ever be used to interpret a life.",
+      "Other values can also provide a way to frame one's life.",
+      "Every person must immediately claim to feel happy.",
+      "The absence of happiness proves that no valuable life is possible."
+    ],
+    "optionsZh": [
+      "只有幸福可用于理解人生。",
+      "也可用其他价值来理解人生。",
+      "每个人必须立刻声称幸福。",
+      "没有幸福就证明不可能有有价值人生。"
+    ],
+    "answer": 1,
+    "type": "作者观点",
+    "support": "explicit",
+    "analyses": [
+      "A other values明示不止幸福。",
+      "B other values with which...frame our lives直接对应，when从句承认当前困难。",
+      "C 不是强迫自称快乐；后句还说enriching experience far from happy。",
+      "D 与作者保留其他价值的主张相反，不把这段价值讨论写成个体治疗保证。"
+    ],
+    "vocabulary": [
+      {
+        "word": "out of reach",
+        "meaning": "难以达到的；似乎够不到的",
+        "context": "此处比喻幸福难以获得，不是手臂物理长度。",
+        "example": "During that period, ordinary happiness felt out of reach.",
+        "collocations": [
+          "happiness feels out of reach",
+          "other values with which we can frame our lives"
+        ]
+      }
+    ],
+    "translation": "困难时幸福遥不可及，还有其他价值可用来理解人生。一种看待不幸的方式是，它也许无意丰富人生，即使“丰富”的体验远不快乐。Guido Reni一幅画描绘St. Michael踩住Satan脖颈。",
+    "evidenceTargetIds": [
+      "c11-s07-p131-06330-s001"
+    ],
+    "evidence": [
+      {
+        "quote": "During hard times, when happiness feels out of reach, there are other values with which we can frame our lives. One way to think about an unfortunate event is that it might unintentionally enrich our lives, even when the “enriching” experience is far from a happy one. A painting by Guido Reni shows St. Michael putting his foot on Satan’s neck.",
+        "sentenceIds": [
+          "c11-s07-p131-06330-s001",
+          "c11-s07-p131-06330-s002",
+          "c11-s07-p131-06330-s003"
+        ],
+        "sources": [
+          {
+            "pdfPage": 131,
+            "block": 5,
+            "bbox": [
+              76.99,
+              633,
+              535.01,
+              706.02
+            ]
+          },
+          {
+            "pdfPage": 132,
+            "block": 0,
+            "bbox": [
+              76.99,
+              75,
+              535.01,
+              167.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "4be5ffa92278046eeb896e6d7d340fe1e52d71cc9bb842df0ffe05700bae902c"
+  },
+  {
+    "id": "qe-c11-0114",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-052",
+    "parentQuestionId": "q-c11-063",
+    "chapterId": "c11",
+    "sectionId": "c11-s07",
+    "paragraphId": "c11-s07-p131-06330",
+    "readingUnitId": "c11-s07-p131-06330-r001-003",
+    "sentenceIds": [
+      "c11-s07-p131-06330-s001",
+      "c11-s07-p131-06330-s002",
+      "c11-s07-p131-06330-s003"
+    ],
+    "passage": "During hard times, when happiness feels out of reach, there are other values with which we can frame our lives. One way to think about an unfortunate event is that it might unintentionally enrich our lives, even when the “enriching” experience is far from a happy one. A painting by Guido Reni shows St. Michael putting his foot on Satan’s neck.",
+    "prompt": "Which pairing matches the painting and the action it depicts?",
+    "promptZh": "哪组对应符合画作及画中动作？",
+    "options": [
+      "William James paints Satan placing a foot on St. Michael's neck.",
+      "Guido Reni is shown stepping on William James's neck.",
+      "A painting by Guido Reni shows St. Michael putting his foot on Satan's neck.",
+      "A painting by St. Michael shows Guido Reni placing his foot on Satan."
+    ],
+    "optionsZh": [
+      "William James画Satan踩St. Michael脖颈。",
+      "Guido Reni在画里踩William James脖颈。",
+      "Guido Reni的画描绘St. Michael踩Satan脖颈。",
+      "St. Michael作画，画Guido Reni踩Satan。"
+    ],
+    "answer": 2,
+    "type": "细节",
+    "support": "explicit",
+    "analyses": [
+      "A James为后面评论者，且画中施动者反了。",
+      "B 将画家与后面的评论者误作画中双方。",
+      "C by Guido Reni说明画家，shows后才是St. Michael的动作和Satan这一承受对象。",
+      "D 把画家与角色互换；保留原文St.缩写及精确归属，不据画面叙述补造实验结论。"
+    ],
+    "vocabulary": [
+      {
+        "word": "shows",
+        "meaning": "描绘；呈现画中的场景",
+        "context": "本句动词指画作内容，不是研究用数据显示某因果。",
+        "example": "The painting shows one figure restraining another.",
+        "collocations": [
+          "A painting by Guido Reni shows",
+          "St. Michael putting his foot"
+        ]
+      }
+    ],
+    "translation": "困难时幸福遥不可及，还有其他价值可用来理解人生。一种看待不幸的方式是，它也许无意丰富人生，即使“丰富”的体验远不快乐。Guido Reni一幅画描绘St. Michael踩住Satan脖颈。",
+    "evidenceTargetIds": [
+      "c11-s07-p131-06330-s003"
+    ],
+    "evidence": [
+      {
+        "quote": "During hard times, when happiness feels out of reach, there are other values with which we can frame our lives. One way to think about an unfortunate event is that it might unintentionally enrich our lives, even when the “enriching” experience is far from a happy one. A painting by Guido Reni shows St. Michael putting his foot on Satan’s neck.",
+        "sentenceIds": [
+          "c11-s07-p131-06330-s001",
+          "c11-s07-p131-06330-s002",
+          "c11-s07-p131-06330-s003"
+        ],
+        "sources": [
+          {
+            "pdfPage": 131,
+            "block": 5,
+            "bbox": [
+              76.99,
+              633,
+              535.01,
+              706.02
+            ]
+          },
+          {
+            "pdfPage": 132,
+            "block": 0,
+            "bbox": [
+              76.99,
+              75,
+              535.01,
+              167.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "3664779668c416974fad2291aab0b0a11c82fc123f34fa27f4981704b7272bc7"
+  },
+  {
+    "id": "qe-c11-0115",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-052",
+    "parentQuestionId": "q-c11-064",
+    "chapterId": "c11",
+    "sectionId": "c11-s07",
+    "paragraphId": "c11-s07-p131-06330",
+    "readingUnitId": "c11-s07-p131-06330-r004-005",
+    "sentenceIds": [
+      "c11-s07-p131-06330-s004",
+      "c11-s07-p131-06330-s005"
+    ],
+    "passage": "William James commented on this painting, saying that “the world is all the richer for having a devil in it, so long as we keep our foot upon his neck.” Psychological richness and misfortune can coexist, so long as the misfortune is kept in check.",
+    "prompt": "Which condition is essential to James's quoted comment about a richer world?",
+    "promptZh": "James 关于世界更丰富的引述中，哪个条件不可省略？",
+    "options": [
+      "Evil is allowed to do unlimited harm without restraint.",
+      "Everyone must seek misfortune to deserve a good life.",
+      "The painter must be treated as the speaker of James's words.",
+      "The devil is kept underfoot, corresponding to misfortune being kept in check."
+    ],
+    "optionsZh": [
+      "允许邪恶无约束地造成伤害。",
+      "每个人必须寻求不幸才配好人生。",
+      "必须把画家当James引语的说话人。",
+      "魔鬼仍被踩制住，对应不幸受到约束。"
+    ],
+    "answer": 3,
+    "type": "逻辑关系",
+    "support": "explicit",
+    "analyses": [
+      "A so long as明确约束条件，非无限放任。",
+      "B can coexist不等于必须寻求不幸或受害者有义务赞美。",
+      "C commented...saying的主语是William James，非Guido Reni。",
+      "D 保留so long as与下一句kept in check的呼应，哲学评论不作人人受难获益的实验证明。"
+    ],
+    "vocabulary": [
+      {
+        "word": "so long as",
+        "meaning": "只要；在……条件满足时",
+        "context": "此处引必要保留的条件，不能删成无条件庆祝邪恶存在。",
+        "example": "Richness and difficulty may coexist so long as the difficulty is kept in check.",
+        "collocations": [
+          "so long as we keep our foot upon his neck",
+          "misfortune is kept in check"
+        ]
+      }
+    ],
+    "translation": "William James评论此画：只要仍把脚踩在魔鬼脖颈上，世界因有魔鬼而更丰富。只要不幸得到约束，心理丰富与不幸能够共存。",
+    "evidenceTargetIds": [
+      "c11-s07-p131-06330-s004"
+    ],
+    "evidence": [
+      {
+        "quote": "William James commented on this painting, saying that “the world is all the richer for having a devil in it, so long as we keep our foot upon his neck.” Psychological richness and misfortune can coexist, so long as the misfortune is kept in check.",
+        "sentenceIds": [
+          "c11-s07-p131-06330-s004",
+          "c11-s07-p131-06330-s005"
+        ],
+        "sources": [
+          {
+            "pdfPage": 132,
+            "block": 0,
+            "bbox": [
+              76.99,
+              75,
+              535.01,
+              167.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "ff6716b2689c3e1517e993f88c0633f3316eca258b22c09482faadf14733afa2"
+  },
+  {
+    "id": "qe-c12-0001",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-052",
+    "parentQuestionId": "q-c12-001",
+    "chapterId": "c12",
+    "sectionId": "c12-s01",
+    "paragraphId": "c12-s01-p133-04042",
+    "readingUnitId": "c12-s01-p133-04042-r001-004",
+    "sentenceIds": [
+      "c12-s01-p133-04042-s001",
+      "c12-s01-p133-04042-s002",
+      "c12-s01-p133-04042-s003",
+      "c12-s01-p133-04042-s004"
+    ],
+    "passage": "In the previous chapter, I showed how the experience of a natural disaster tends to make victims become more concerned about the welfare of others and gives them a new perspective on life. However, whether their experiences truly enrich their lives or not depends on the story people tell themselves. Some stories are dramatic, memorable, and ultimately uplifting, while others are hopeless, depressing, and dark. In this chapter, I will delve into the role of storytelling in psychological richness.",
+    "prompt": "How does the author summarise the previous chapter at the start of Chapter Twelve?",
+    "promptZh": "第12章开头，作者如何概述上一章？",
+    "options": [
+      "Disaster experience tends to increase concern for others and provide a new perspective.",
+      "Every disaster inevitably produces identical psychological outcomes in every person.",
+      "The previous chapter examined only material repairs and no values.",
+      "The author says natural disasters are desirable events people should choose."
+    ],
+    "optionsZh": [
+      "灾难经历往往增加对他人福祉的关注并带来新视角。",
+      "每场灾难必使每个人产生完全相同心理结果。",
+      "上一章只看物理重建，没有价值议题。",
+      "作者说自然灾害值得人主动选择。"
+    ],
+    "answer": 0,
+    "type": "同义改写",
+    "support": "explicit",
+    "analyses": [
+      "A tends、welfare of others、new perspective三项保留为作者回顾概括。",
+      "B tends不是必然全员同样，上一章还承认严重损害。",
+      "C 与welfare及perspective所指不同。",
+      "D 回顾可能变化不等于鼓励寻灾，也不能抹去前章限定。"
+    ],
+    "vocabulary": [
+      {
+        "word": "welfare",
+        "meaning": "福祉；他人的生活与处境是否良好",
+        "context": "此处不是只指某项政府福利金或把他人当故事材料。",
+        "example": "The experience made them more concerned about the welfare of others.",
+        "collocations": [
+          "the welfare of others",
+          "a new perspective on life"
+        ]
+      }
+    ],
+    "translation": "上一章我展示自然灾难经历往往令受害者更关心他人福祉并获新视角。不过体验是否真丰富人生，取决于人给自己讲的故事。有些戏剧性、难忘且最终鼓舞人，有些绝望、压抑、阴暗。本章探讨讲故事在心理丰富中的作用。",
+    "evidenceTargetIds": [
+      "c12-s01-p133-04042-s001"
+    ],
+    "evidence": [
+      {
+        "quote": "In the previous chapter, I showed how the experience of a natural disaster tends to make victims become more concerned about the welfare of others and gives them a new perspective on life. However, whether their experiences truly enrich their lives or not depends on the story people tell themselves. Some stories are dramatic, memorable, and ultimately uplifting, while others are hopeless, depressing, and dark. In this chapter, I will delve into the role of storytelling in psychological richness.",
+        "sentenceIds": [
+          "c12-s01-p133-04042-s001",
+          "c12-s01-p133-04042-s002",
+          "c12-s01-p133-04042-s003",
+          "c12-s01-p133-04042-s004"
+        ],
+        "sources": [
+          {
+            "pdfPage": 133,
+            "block": 5,
+            "bbox": [
+              76.99,
+              404.25,
+              535.01,
+              535.77
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "9b1d96825c092589ded856c621a09bab7d46bf5c1ad064103b74fa5b28fe2aa4"
+  },
+  {
+    "id": "qe-c12-0002",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-052",
+    "parentQuestionId": "q-c12-001",
+    "chapterId": "c12",
+    "sectionId": "c12-s01",
+    "paragraphId": "c12-s01-p133-04042",
+    "readingUnitId": "c12-s01-p133-04042-r001-004",
+    "sentenceIds": [
+      "c12-s01-p133-04042-s001",
+      "c12-s01-p133-04042-s002",
+      "c12-s01-p133-04042-s003",
+      "c12-s01-p133-04042-s004"
+    ],
+    "passage": "In the previous chapter, I showed how the experience of a natural disaster tends to make victims become more concerned about the welfare of others and gives them a new perspective on life. However, whether their experiences truly enrich their lives or not depends on the story people tell themselves. Some stories are dramatic, memorable, and ultimately uplifting, while others are hopeless, depressing, and dark. In this chapter, I will delve into the role of storytelling in psychological richness.",
+    "prompt": "What qualification does 'However' introduce about enriching experiences?",
+    "promptZh": "However 对经历能否丰富人生引入什么限定？",
+    "options": [
+      "It says all experiences enrich life equally regardless of interpretation.",
+      "It says whether life is enriched depends on the story people tell themselves.",
+      "It requires every story to be told only to an outside judge.",
+      "It says historical events literally change whenever their wording changes."
+    ],
+    "optionsZh": [
+      "说不论如何理解，所有经历都同样丰富人生。",
+      "说是否丰富人生取决于人给自己讲的故事。",
+      "要求每个故事只讲给外部裁判。",
+      "说只要措辞改变，历史事件本身就实际变了。"
+    ],
+    "answer": 1,
+    "type": "逻辑关系",
+    "support": "explicit",
+    "analyses": [
+      "A whether...or not与depends on保留条件，非无条件全同。",
+      "B story people tell themselves给限定因素，对上一句经验回顾作转折。",
+      "C themselves强调自我叙述，不是只给外人评分。",
+      "D 讲述与事件本身不是同一层次；原句讨论作者所说的丰富性解释，不主张改词就逆改事实。"
+    ],
+    "vocabulary": [
+      {
+        "word": "depends on",
+        "meaning": "取决于；受某个因素制约",
+        "context": "在作者此处论述中标出叙述方式的作用，不等于生活所有因素都只由词语决定。",
+        "example": "The interpretation depends on the story a person tells about the event.",
+        "collocations": [
+          "depends on the story people tell themselves",
+          "whether their experiences truly enrich their lives"
+        ]
+      }
+    ],
+    "translation": "上一章我展示自然灾难经历往往令受害者更关心他人福祉并获新视角。不过体验是否真丰富人生，取决于人给自己讲的故事。有些戏剧性、难忘且最终鼓舞人，有些绝望、压抑、阴暗。本章探讨讲故事在心理丰富中的作用。",
+    "evidenceTargetIds": [
+      "c12-s01-p133-04042-s002"
+    ],
+    "evidence": [
+      {
+        "quote": "In the previous chapter, I showed how the experience of a natural disaster tends to make victims become more concerned about the welfare of others and gives them a new perspective on life. However, whether their experiences truly enrich their lives or not depends on the story people tell themselves. Some stories are dramatic, memorable, and ultimately uplifting, while others are hopeless, depressing, and dark. In this chapter, I will delve into the role of storytelling in psychological richness.",
+        "sentenceIds": [
+          "c12-s01-p133-04042-s001",
+          "c12-s01-p133-04042-s002",
+          "c12-s01-p133-04042-s003",
+          "c12-s01-p133-04042-s004"
+        ],
+        "sources": [
+          {
+            "pdfPage": 133,
+            "block": 5,
+            "bbox": [
+              76.99,
+              404.25,
+              535.01,
+              535.77
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "a98ea170786a7b437374d70279f6b5f5ef4ac55ef731d7715f88fd77c3111387"
+  },
+  {
+    "id": "qe-c12-0003",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-052",
+    "parentQuestionId": "q-c12-001",
+    "chapterId": "c12",
+    "sectionId": "c12-s01",
+    "paragraphId": "c12-s01-p133-04042",
+    "readingUnitId": "c12-s01-p133-04042-r001-004",
+    "sentenceIds": [
+      "c12-s01-p133-04042-s001",
+      "c12-s01-p133-04042-s002",
+      "c12-s01-p133-04042-s003",
+      "c12-s01-p133-04042-s004"
+    ],
+    "passage": "In the previous chapter, I showed how the experience of a natural disaster tends to make victims become more concerned about the welfare of others and gives them a new perspective on life. However, whether their experiences truly enrich their lives or not depends on the story people tell themselves. Some stories are dramatic, memorable, and ultimately uplifting, while others are hopeless, depressing, and dark. In this chapter, I will delve into the role of storytelling in psychological richness.",
+    "prompt": "What does the contrast between the two kinds of stories illustrate?",
+    "promptZh": "两类故事之间的对照说明什么？",
+    "options": [
+      "Every life story is necessarily hopeless from beginning to end.",
+      "The same three positive adjectives describe every story equally.",
+      "Life stories can differ sharply in tone, with some uplifting and others dark or depressing.",
+      "The author has measured that all good stories have exactly the same length."
+    ],
+    "optionsZh": [
+      "每个人生故事从头到尾必绝望。",
+      "每个故事都同样符合那三个正面形容词。",
+      "人生故事在基调上可显著不同，有些鼓舞，有些阴暗压抑。",
+      "作者测得所有好故事长度完全相同。"
+    ],
+    "answer": 2,
+    "type": "逻辑关系",
+    "support": "explicit",
+    "analyses": [
+      "A Some...others不能改为所有全绝望。",
+      "B while引反差，正负形容词分别属于不同故事。",
+      "C dramatic/memorable/uplifting对hopeless/depressing/dark，突出讲述所呈现的不同基调。",
+      "D 本句未讨论长度或给统一字数，不能借quality概念造出量测。"
+    ],
+    "vocabulary": [
+      {
+        "word": "uplifting",
+        "meaning": "振奋人心的；令人受到鼓舞的",
+        "context": "与hopeless、depressing作情绪基调对照，不表示原经历本身无任何痛苦。",
+        "example": "The story was ultimately uplifting despite describing difficult events.",
+        "collocations": [
+          "ultimately uplifting",
+          "hopeless, depressing, and dark"
+        ]
+      }
+    ],
+    "translation": "上一章我展示自然灾难经历往往令受害者更关心他人福祉并获新视角。不过体验是否真丰富人生，取决于人给自己讲的故事。有些戏剧性、难忘且最终鼓舞人，有些绝望、压抑、阴暗。本章探讨讲故事在心理丰富中的作用。",
+    "evidenceTargetIds": [
+      "c12-s01-p133-04042-s003"
+    ],
+    "evidence": [
+      {
+        "quote": "In the previous chapter, I showed how the experience of a natural disaster tends to make victims become more concerned about the welfare of others and gives them a new perspective on life. However, whether their experiences truly enrich their lives or not depends on the story people tell themselves. Some stories are dramatic, memorable, and ultimately uplifting, while others are hopeless, depressing, and dark. In this chapter, I will delve into the role of storytelling in psychological richness.",
+        "sentenceIds": [
+          "c12-s01-p133-04042-s001",
+          "c12-s01-p133-04042-s002",
+          "c12-s01-p133-04042-s003",
+          "c12-s01-p133-04042-s004"
+        ],
+        "sources": [
+          {
+            "pdfPage": 133,
+            "block": 5,
+            "bbox": [
+              76.99,
+              404.25,
+              535.01,
+              535.77
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "62ebe002667e5d8925eed9f913ee1120caaa98edc1ff541266dff6f03ac0e3c9"
+  },
+  {
+    "id": "qe-c12-0004",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-052",
+    "parentQuestionId": "q-c12-002",
+    "chapterId": "c12",
+    "sectionId": "c12-s01",
+    "paragraphId": "c12-s01-p133-05408",
+    "readingUnitId": "c12-s01-p133-05408-r001-004",
+    "sentenceIds": [
+      "c12-s01-p133-05408-s001",
+      "c12-s01-p133-05408-s002",
+      "c12-s01-p133-05408-s003",
+      "c12-s01-p133-05408-s004"
+    ],
+    "passage": "Psychological richness is inherently intertwined with the quantity and quality of your stories. The more interesting stories you have, the more psychologically rich your life is. But, as Julian Barnes points out, we tell our own life story differently at different times. How do you tell your life story?",
+    "prompt": "Which two aspects of stories are linked to psychological richness?",
+    "promptZh": "故事的哪两个方面与心理丰富相联系？",
+    "options": [
+      "Only the number of pages, regardless of interest or content.",
+      "Only the speaker's income and official status.",
+      "Both the quantity and the quality of one's stories.",
+      "Only the exact age at which the story was first told."
+    ],
+    "optionsZh": [
+      "只看页数，不论趣味或内容。",
+      "只看讲述者收入与身份。",
+      "故事的数量与质量两者。",
+      "只看故事首次讲出时的确切年龄。"
+    ],
+    "answer": 2,
+    "type": "细节",
+    "support": "explicit",
+    "analyses": [
+      "A quantity and quality不是只计页数，不能删掉质量。",
+      "B 当前句未把丰富性等同收入与身份。",
+      "C quantity与quality并列，intertwined with说明两者的联系。",
+      "D 原句没有以首次讲述年龄作为唯一因素；这是作者此处的理论论述，不是一个给出全部变量权重的公式。"
+    ],
+    "vocabulary": [
+      {
+        "word": "intertwined",
+        "meaning": "相互交织的；密切联系的",
+        "context": "形容心理丰富与故事数量质量的关系，不等于两者是完全相同的概念。",
+        "example": "Memory and identity are closely intertwined in the narrative.",
+        "collocations": [
+          "inherently intertwined with",
+          "the quantity and quality of your stories"
+        ]
+      }
+    ],
+    "translation": "心理丰富本来就与故事数量质量交织。有趣故事越多，人生越心理丰富。但如Julian Barnes指出，我们不同时间讲人生会不同。你怎样讲自己的人生故事？",
+    "evidenceTargetIds": [
+      "c12-s01-p133-05408-s001"
+    ],
+    "evidence": [
+      {
+        "quote": "Psychological richness is inherently intertwined with the quantity and quality of your stories. The more interesting stories you have, the more psychologically rich your life is. But, as Julian Barnes points out, we tell our own life story differently at different times. How do you tell your life story?",
+        "sentenceIds": [
+          "c12-s01-p133-05408-s001",
+          "c12-s01-p133-05408-s002",
+          "c12-s01-p133-05408-s003",
+          "c12-s01-p133-05408-s004"
+        ],
+        "sources": [
+          {
+            "pdfPage": 133,
+            "block": 6,
+            "bbox": [
+              76.99,
+              540.75,
+              535.01,
+              711.27
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "b0a678a744c81634a14205a32bcdc0536d3fd73ad68dbcdd937c1508a229dcc5"
+  },
+  {
+    "id": "qe-c12-0005",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-052",
+    "parentQuestionId": "q-c12-002",
+    "chapterId": "c12",
+    "sectionId": "c12-s01",
+    "paragraphId": "c12-s01-p133-05408",
+    "readingUnitId": "c12-s01-p133-05408-r001-004",
+    "sentenceIds": [
+      "c12-s01-p133-05408-s001",
+      "c12-s01-p133-05408-s002",
+      "c12-s01-p133-05408-s003",
+      "c12-s01-p133-05408-s004"
+    ],
+    "passage": "Psychological richness is inherently intertwined with the quantity and quality of your stories. The more interesting stories you have, the more psychologically rich your life is. But, as Julian Barnes points out, we tell our own life story differently at different times. How do you tell your life story?",
+    "prompt": "What relationship does the repeated 'the more' construction express?",
+    "promptZh": "重复的 the more...the more... 结构表达什么关系？",
+    "options": [
+      "More interesting stories are linked with greater psychological richness in the author's claim.",
+      "Interesting stories and psychological richness must move in opposite directions.",
+      "The sentence says every additional story adds one exact point to a measured score.",
+      "The relationship concerns only money earned by selling stories."
+    ],
+    "optionsZh": [
+      "按作者论述，有趣故事更多与心理更丰富相联系。",
+      "有趣故事与心理丰富必须反向变化。",
+      "句子说每增一个故事，实测分数就恰加一分。",
+      "关系仅指卖故事赚的钱。"
+    ],
+    "answer": 0,
+    "type": "语法",
+    "support": "explicit",
+    "analyses": [
+      "A 两个比较级构成相应增加关系，限定有趣故事而非任意重复文本。",
+      "B 两边均more，方向不是相反。",
+      "C 没有给线性系数、固定量表或每故事一分，不能把比较结构机械量化。",
+      "D psychologically rich不是售书收入的同义词。"
+    ],
+    "vocabulary": [
+      {
+        "word": "interesting stories",
+        "meaning": "有趣的故事；引发兴趣的经历叙述",
+        "context": "interesting限定内容性质，不是只要数量大而内容完全重复就等价。",
+        "example": "The traveller had several interesting stories to tell.",
+        "collocations": [
+          "The more interesting stories you have",
+          "the more psychologically rich your life is"
+        ]
+      }
+    ],
+    "translation": "心理丰富本来就与故事数量质量交织。有趣故事越多，人生越心理丰富。但如Julian Barnes指出，我们不同时间讲人生会不同。你怎样讲自己的人生故事？",
+    "evidenceTargetIds": [
+      "c12-s01-p133-05408-s002"
+    ],
+    "evidence": [
+      {
+        "quote": "Psychological richness is inherently intertwined with the quantity and quality of your stories. The more interesting stories you have, the more psychologically rich your life is. But, as Julian Barnes points out, we tell our own life story differently at different times. How do you tell your life story?",
+        "sentenceIds": [
+          "c12-s01-p133-05408-s001",
+          "c12-s01-p133-05408-s002",
+          "c12-s01-p133-05408-s003",
+          "c12-s01-p133-05408-s004"
+        ],
+        "sources": [
+          {
+            "pdfPage": 133,
+            "block": 6,
+            "bbox": [
+              76.99,
+              540.75,
+              535.01,
+              711.27
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "eaf95ea30513da53d7982638cdef688e41d33718ee358b9fd0a2ca4284a0df83"
+  },
+  {
+    "id": "qe-c12-0006",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-052",
+    "parentQuestionId": "q-c12-002",
+    "chapterId": "c12",
+    "sectionId": "c12-s01",
+    "paragraphId": "c12-s01-p133-05408",
+    "readingUnitId": "c12-s01-p133-05408-r001-004",
+    "sentenceIds": [
+      "c12-s01-p133-05408-s001",
+      "c12-s01-p133-05408-s002",
+      "c12-s01-p133-05408-s003",
+      "c12-s01-p133-05408-s004"
+    ],
+    "passage": "Psychological richness is inherently intertwined with the quantity and quality of your stories. The more interesting stories you have, the more psychologically rich your life is. But, as Julian Barnes points out, we tell our own life story differently at different times. How do you tell your life story?",
+    "prompt": "What is the function of asking the reader how they tell their life story?",
+    "promptZh": "问读者怎样讲自己的人生故事，起什么作用？",
+    "options": [
+      "It requests a compulsory public biography before the reader may continue.",
+      "It declares that everybody tells the same story unchanged at all times.",
+      "It asks only for the length of the story in minutes.",
+      "It invites reflection on one's own narration after noting that life stories can change over time."
+    ],
+    "optionsZh": [
+      "要求继续前必须公开交一篇自传。",
+      "宣告人人任何时刻都原样讲同一个故事。",
+      "只问故事时长多少分钟。",
+      "指出人生叙述会随时间变化后，引导读者反思自己的讲述。"
+    ],
+    "answer": 3,
+    "type": "作者意图",
+    "support": "explicit",
+    "analyses": [
+      "A 书中反思问句不构成提交个人资料的使用要求。",
+      "B 前句differently at different times恰强调变化。",
+      "C How...tell关注讲述方式，不是仅测分钟。",
+      "D 紧接Barnes关于不同时间讲法不同的观察，把议题转向读者自身叙述。"
+    ],
+    "vocabulary": [
+      {
+        "word": "life story",
+        "meaning": "人生故事；对个人一生或经历的叙述",
+        "context": "此处讨论如何讲述，不把叙述自动当作毫无选择加工的完整事实记录。",
+        "example": "He reconsidered the way he told his life story.",
+        "collocations": [
+          "tell your life story",
+          "differently at different times"
+        ]
+      }
+    ],
+    "translation": "心理丰富本来就与故事数量质量交织。有趣故事越多，人生越心理丰富。但如Julian Barnes指出，我们不同时间讲人生会不同。你怎样讲自己的人生故事？",
+    "evidenceTargetIds": [
+      "c12-s01-p133-05408-s004"
+    ],
+    "evidence": [
+      {
+        "quote": "Psychological richness is inherently intertwined with the quantity and quality of your stories. The more interesting stories you have, the more psychologically rich your life is. But, as Julian Barnes points out, we tell our own life story differently at different times. How do you tell your life story?",
+        "sentenceIds": [
+          "c12-s01-p133-05408-s001",
+          "c12-s01-p133-05408-s002",
+          "c12-s01-p133-05408-s003",
+          "c12-s01-p133-05408-s004"
+        ],
+        "sources": [
+          {
+            "pdfPage": 133,
+            "block": 6,
+            "bbox": [
+              76.99,
+              540.75,
+              535.01,
+              711.27
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "64bf488003ada4c998be63342c4e3b57d72efef0fe39c392ebbab3ed67ab26d3"
+  },
+  {
+    "id": "qe-c12-0007",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-052",
+    "parentQuestionId": "q-c12-003",
+    "chapterId": "c12",
+    "sectionId": "c12-s01",
+    "paragraphId": "c12-s01-p133-05408",
+    "readingUnitId": "c12-s01-p133-05408-r005-008",
+    "sentenceIds": [
+      "c12-s01-p133-05408-s005",
+      "c12-s01-p133-05408-s006",
+      "c12-s01-p133-05408-s007",
+      "c12-s01-p133-05408-s008"
+    ],
+    "passage": "More generally, how much do storytelling abilities matter in creating psychological richness? How much does the structure of a story matter? For example, a story of George W. Bush could be told in terms of his illustrious family line and the fact that he followed in his father’s and grandfather’s footsteps, an obedient first son of a prominent political family. Alternatively, you can tell G.W.’s story in a different way.",
+    "prompt": "What does the broader question about storytelling abilities investigate?",
+    "promptZh": "关于 storytelling abilities 的更一般问题考察什么？",
+    "options": [
+      "Whether every storyteller belongs to a prominent political family.",
+      "How much the ability to tell stories matters in creating psychological richness.",
+      "Whether all storytellers have identical events in their lives.",
+      "How to calculate the monetary price of a published biography."
+    ],
+    "optionsZh": [
+      "是否每个讲故事者都出身显赫政治家族。",
+      "讲故事能力对创造心理丰富有多重要。",
+      "所有讲故事者的人生事件是否完全相同。",
+      "怎样计算出版传记的货币价格。"
+    ],
+    "answer": 1,
+    "type": "细节",
+    "support": "explicit",
+    "analyses": [
+      "A 家族是后面的说明例，不是More generally所问的普遍问题。",
+      "B how much...abilities matter直接给能力与心理丰富的关系。",
+      "C 原文不要求事件全相同，而关心不同讲法。",
+      "D 心理丰富不等于传记售价，也没有价格计算步骤。"
+    ],
+    "vocabulary": [
+      {
+        "word": "storytelling abilities",
+        "meaning": "讲故事的能力；组织和表达叙述的能力",
+        "context": "与经历事件本身区别，问题在于讲述如何参与丰富性的形成。",
+        "example": "The class explored how storytelling abilities influence an account.",
+        "collocations": [
+          "storytelling abilities matter",
+          "in creating psychological richness"
+        ]
+      }
+    ],
+    "translation": "更一般说，讲故事能力对心理丰富有多重要？故事结构多重要？如George W. Bush可被讲成出身显赫家族、循父祖足迹、显要政治家族听话的长子。也可以不同方式讲G.W.故事。",
+    "evidenceTargetIds": [
+      "c12-s01-p133-05408-s005"
+    ],
+    "evidence": [
+      {
+        "quote": "More generally, how much do storytelling abilities matter in creating psychological richness? How much does the structure of a story matter? For example, a story of George W. Bush could be told in terms of his illustrious family line and the fact that he followed in his father’s and grandfather’s footsteps, an obedient first son of a prominent political family. Alternatively, you can tell G.W.’s story in a different way.",
+        "sentenceIds": [
+          "c12-s01-p133-05408-s005",
+          "c12-s01-p133-05408-s006",
+          "c12-s01-p133-05408-s007",
+          "c12-s01-p133-05408-s008"
+        ],
+        "sources": [
+          {
+            "pdfPage": 133,
+            "block": 6,
+            "bbox": [
+              76.99,
+              540.75,
+              535.01,
+              711.27
+            ]
+          },
+          {
+            "pdfPage": 134,
+            "block": 0,
+            "bbox": [
+              76.99,
+              75,
+              535.01,
+              167.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "fdc2bfd0c3992724ef6fd3dbacb645ca0e9ac861039f5992d8a0c12d2b3069b2"
+  },
+  {
+    "id": "qe-c12-0008",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-052",
+    "parentQuestionId": "q-c12-003",
+    "chapterId": "c12",
+    "sectionId": "c12-s01",
+    "paragraphId": "c12-s01-p133-05408",
+    "readingUnitId": "c12-s01-p133-05408-r005-008",
+    "sentenceIds": [
+      "c12-s01-p133-05408-s005",
+      "c12-s01-p133-05408-s006",
+      "c12-s01-p133-05408-s007",
+      "c12-s01-p133-05408-s008"
+    ],
+    "passage": "More generally, how much do storytelling abilities matter in creating psychological richness? How much does the structure of a story matter? For example, a story of George W. Bush could be told in terms of his illustrious family line and the fact that he followed in his father’s and grandfather’s footsteps, an obedient first son of a prominent political family. Alternatively, you can tell G.W.’s story in a different way.",
+    "prompt": "Which feature of a story does the next question single out?",
+    "promptZh": "接下来的问句单独提出故事哪一特征？",
+    "options": [
+      "Its printed price.",
+      "The narrator's date of birth.",
+      "Its structure.",
+      "The publisher's nationality."
+    ],
+    "optionsZh": [
+      "印刷售价。",
+      "叙述者出生日期。",
+      "结构。",
+      "出版者国籍。"
+    ],
+    "answer": 2,
+    "type": "细节",
+    "support": "explicit",
+    "analyses": [
+      "A 未问price。",
+      "B 没有把讲述者年龄当本句核心。",
+      "C the structure of a story是问句明确对象，下文两种人物叙述作说明。",
+      "D 没有询问出版者国籍；提出结构问题也不等于已证明所有故事存在唯一最佳结构。"
+    ],
+    "vocabulary": [
+      {
+        "word": "structure",
+        "meaning": "结构；故事内容如何组织的方式",
+        "context": "这里是叙述安排，不是建筑物骨架或作者社会地位。",
+        "example": "Changing the structure altered the emphasis of the story.",
+        "collocations": [
+          "the structure of a story",
+          "How much ... matter"
+        ]
+      }
+    ],
+    "translation": "更一般说，讲故事能力对心理丰富有多重要？故事结构多重要？如George W. Bush可被讲成出身显赫家族、循父祖足迹、显要政治家族听话的长子。也可以不同方式讲G.W.故事。",
+    "evidenceTargetIds": [
+      "c12-s01-p133-05408-s006"
+    ],
+    "evidence": [
+      {
+        "quote": "More generally, how much do storytelling abilities matter in creating psychological richness? How much does the structure of a story matter? For example, a story of George W. Bush could be told in terms of his illustrious family line and the fact that he followed in his father’s and grandfather’s footsteps, an obedient first son of a prominent political family. Alternatively, you can tell G.W.’s story in a different way.",
+        "sentenceIds": [
+          "c12-s01-p133-05408-s005",
+          "c12-s01-p133-05408-s006",
+          "c12-s01-p133-05408-s007",
+          "c12-s01-p133-05408-s008"
+        ],
+        "sources": [
+          {
+            "pdfPage": 133,
+            "block": 6,
+            "bbox": [
+              76.99,
+              540.75,
+              535.01,
+              711.27
+            ]
+          },
+          {
+            "pdfPage": 134,
+            "block": 0,
+            "bbox": [
+              76.99,
+              75,
+              535.01,
+              167.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "cf15519f5b0acbe2ff616fb952faa4a728b9b22d1fe71c1a6f0566cb2c2c96cc"
+  },
+  {
+    "id": "qe-c12-0009",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-052",
+    "parentQuestionId": "q-c12-004",
+    "chapterId": "c12",
+    "sectionId": "c12-s01",
+    "paragraphId": "c12-s01-p133-05408",
+    "readingUnitId": "c12-s01-p133-05408-r009-010",
+    "sentenceIds": [
+      "c12-s01-p133-05408-s009",
+      "c12-s01-p133-05408-s010"
+    ],
+    "passage": "You could add his rebellious years and the fact that George H. W. Bush, his father, did not have high expectations: the narrative of a rich, spoiled kid turning into a Bible-loving, sober, compassionate, conservative politician. My question to you is this: Can we make a life sound like a psychologically richer one?",
+    "prompt": "Why is 'sound like' important in the author's question about a richer life?",
+    "promptZh": "作者询问更丰富人生时，sound like 为什么重要？",
+    "options": [
+      "It focuses on how the life is presented through narration, rather than claiming that past events physically change.",
+      "It says changing a story necessarily replaces every real event with a different one.",
+      "It refers only to the volume of the speaker's voice.",
+      "It proves that the described person has a higher measured richness score than everyone else."
+    ],
+    "optionsZh": [
+      "它关注叙述让人生呈现怎样的样貌，而不是声称过去事件实际改变。",
+      "它说改故事必把每个真实事件换掉。",
+      "它只指说话声音的音量。",
+      "它证明该人物实测丰富性分数高于所有其他人。"
+    ],
+    "answer": 0,
+    "type": "语境词义",
+    "support": "explicit",
+    "analyses": [
+      "A 前面的You could add、narrative聚焦讲述角度，sound like指听来呈现的印象。",
+      "B 叙述选择不等于物理改写历史。",
+      "C sound like不在这里测声音分贝。",
+      "D Can we是提问，不提供本人量表或跨所有人排名，也不保证表述就等于实际经历更多。"
+    ],
+    "vocabulary": [
+      {
+        "word": "sound like",
+        "meaning": "听起来像；在描述中呈现某种印象",
+        "context": "此处指人生叙述的呈现效果，不是声音相似度或已完成的心理量测。",
+        "example": "The retelling made the same period sound like a turning point.",
+        "collocations": [
+          "make a life sound like",
+          "a psychologically richer one"
+        ]
+      }
+    ],
+    "translation": "你可加入叛逆岁月，以及父亲George H. W. Bush未寄厚望：一个受宠富家孩子变成爱圣经、戒酒、怀同情心的保守政客。我的问题是：能否让人生听起来更心理丰富？",
+    "evidenceTargetIds": [
+      "c12-s01-p133-05408-s010"
+    ],
+    "evidence": [
+      {
+        "quote": "You could add his rebellious years and the fact that George H. W. Bush, his father, did not have high expectations: the narrative of a rich, spoiled kid turning into a Bible-loving, sober, compassionate, conservative politician. My question to you is this: Can we make a life sound like a psychologically richer one?",
+        "sentenceIds": [
+          "c12-s01-p133-05408-s009",
+          "c12-s01-p133-05408-s010"
+        ],
+        "sources": [
+          {
+            "pdfPage": 134,
+            "block": 0,
+            "bbox": [
+              76.99,
+              75,
+              535.01,
+              167.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "db12093d6ceacc310a0116da1df5d239de133ae319825bf3dcc79cb502a126ff"
+  },
+  {
+    "id": "qe-c12-0010",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-052",
+    "parentQuestionId": "q-c12-005",
+    "chapterId": "c12",
+    "sectionId": "c12-s02",
+    "paragraphId": "c12-s02-p134-02235",
+    "readingUnitId": "c12-s02-p134-02235-r001-003",
+    "sentenceIds": [
+      "c12-s02-p134-02235-s001",
+      "c12-s02-p134-02235-s002",
+      "c12-s02-p134-02235-s003"
+    ],
+    "passage": "In his book Redirect, the renowned psychologist Tim Wilson discusses this exact process, which he calls “story editing.” Story editing is “a set of techniques designed to redirect people’s narratives about themselves and the social world.” For instance, one way you could edit your story would be to highlight all the challenges you faced in your life.",
+    "prompt": "Whose term 'story editing' is introduced with the book Redirect?",
+    "promptZh": "随 Redirect 引入的 story editing 术语属于谁？",
+    "options": [
+      "Julian Barnes as the author of this psychology book.",
+      "Anne Wilson and Michael Ross as a name for the earthquake itself.",
+      "George W. Bush as the quoted author of Redirect.",
+      "Psychologist Tim Wilson's discussion of the process in Redirect."
+    ],
+    "optionsZh": [
+      "Julian Barnes，且称他为这本心理学书作者。",
+      "Anne Wilson与Michael Ross，用它命名地震本身。",
+      "George W. Bush，且称他为Redirect作者。",
+      "心理学家Tim Wilson在Redirect里讨论的过程。"
+    ],
+    "answer": 3,
+    "type": "观点归属",
+    "support": "explicit",
+    "analyses": [
+      "A Barnes在前面被引用谈人生故事，不是本句Redirect作者。",
+      "B 这两人是后面自我评价研究者，且过程不是地震名称。",
+      "C Bush是前面叙述示例，不是这本书的作者归属。",
+      "D In his book...Tim Wilson...which he calls明确术语和书的归属，避免同姓Wilson人物错配。"
+    ],
+    "vocabulary": [
+      {
+        "word": "renowned",
+        "meaning": "著名的；享有声誉的",
+        "context": "修饰Tim Wilson，介绍其身份，不是说任何叙述都已由其证明正确。",
+        "example": "The renowned psychologist discussed the technique in his book.",
+        "collocations": [
+          "the renowned psychologist Tim Wilson",
+          "which he calls “story editing”"
+        ]
+      }
+    ],
+    "translation": "著名心理学家Tim Wilson在Redirect讨论这一过程，称故事编辑：一套重新引导人们对自身和社会世界叙述的技巧。例如，可突出人生面对过的挑战。",
+    "evidenceTargetIds": [
+      "c12-s02-p134-02235-s001"
+    ],
+    "evidence": [
+      {
+        "quote": "In his book Redirect, the renowned psychologist Tim Wilson discusses this exact process, which he calls “story editing.” Story editing is “a set of techniques designed to redirect people’s narratives about themselves and the social world.” For instance, one way you could edit your story would be to highlight all the challenges you faced in your life.",
+        "sentenceIds": [
+          "c12-s02-p134-02235-s001",
+          "c12-s02-p134-02235-s002",
+          "c12-s02-p134-02235-s003"
+        ],
+        "sources": [
+          {
+            "pdfPage": 134,
+            "block": 2,
+            "bbox": [
+              76.99,
+              223.5,
+              535.01,
+              472.02
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "56cc2c7c1e681f4c4a5a5b9dd68673416881c53df0141b32eaed3f4fb482a671"
+  },
+  {
+    "id": "qe-c12-0011",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-052",
+    "parentQuestionId": "q-c12-005",
+    "chapterId": "c12",
+    "sectionId": "c12-s02",
+    "paragraphId": "c12-s02-p134-02235",
+    "readingUnitId": "c12-s02-p134-02235-r001-003",
+    "sentenceIds": [
+      "c12-s02-p134-02235-s001",
+      "c12-s02-p134-02235-s002",
+      "c12-s02-p134-02235-s003"
+    ],
+    "passage": "In his book Redirect, the renowned psychologist Tim Wilson discusses this exact process, which he calls “story editing.” Story editing is “a set of techniques designed to redirect people’s narratives about themselves and the social world.” For instance, one way you could edit your story would be to highlight all the challenges you faced in your life.",
+    "prompt": "Which example of editing a story does the author offer?",
+    "promptZh": "作者给出哪种故事编辑的例子？",
+    "options": [
+      "Erasing every challenge and inventing unrelated events.",
+      "Highlighting the challenges one faced in life.",
+      "Refusing to choose any emphasis when telling a story.",
+      "Replacing all personal experience with another person's biography."
+    ],
+    "optionsZh": [
+      "抹去所有挑战并发明无关事件。",
+      "突出人生中面对过的挑战。",
+      "讲故事时拒绝作任何重点选择。",
+      "把自己经历全部换成别人传记。"
+    ],
+    "answer": 1,
+    "type": "细节",
+    "support": "explicit",
+    "analyses": [
+      "A highlight challenges是突出已有挑战，非抹去或造假。",
+      "B For instance后直接给该方式，you could表达一种可用方式而非唯一规则。",
+      "C highlight正是强调重点，与不选重点相反。",
+      "D your story、you faced限定本人经历，不是全部挪用他人生平。"
+    ],
+    "vocabulary": [
+      {
+        "word": "highlight",
+        "meaning": "突出；把某内容作为重点强调",
+        "context": "在此为叙述重点选择，不能理解为必须编造未发生的挑战。",
+        "example": "The revised account highlighted the challenges already present in the experience.",
+        "collocations": [
+          "highlight all the challenges",
+          "one way you could edit your story"
+        ]
+      }
+    ],
+    "translation": "著名心理学家Tim Wilson在Redirect讨论这一过程，称故事编辑：一套重新引导人们对自身和社会世界叙述的技巧。例如，可突出人生面对过的挑战。",
+    "evidenceTargetIds": [
+      "c12-s02-p134-02235-s003"
+    ],
+    "evidence": [
+      {
+        "quote": "In his book Redirect, the renowned psychologist Tim Wilson discusses this exact process, which he calls “story editing.” Story editing is “a set of techniques designed to redirect people’s narratives about themselves and the social world.” For instance, one way you could edit your story would be to highlight all the challenges you faced in your life.",
+        "sentenceIds": [
+          "c12-s02-p134-02235-s001",
+          "c12-s02-p134-02235-s002",
+          "c12-s02-p134-02235-s003"
+        ],
+        "sources": [
+          {
+            "pdfPage": 134,
+            "block": 2,
+            "bbox": [
+              76.99,
+              223.5,
+              535.01,
+              472.02
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "eae9a5374d941c7044b10a3342c8a09ef051414d08c8dd8adb76e1dd454ca7c9"
+  },
+  {
+    "id": "qe-c12-0012",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-052",
+    "parentQuestionId": "q-c12-006",
+    "chapterId": "c12",
+    "sectionId": "c12-s02",
+    "paragraphId": "c12-s02-p134-02235",
+    "readingUnitId": "c12-s02-p134-02235-r004-006",
+    "sentenceIds": [
+      "c12-s02-p134-02235-s004",
+      "c12-s02-p134-02235-s005",
+      "c12-s02-p134-02235-s006"
+    ],
+    "passage": "G.W., who probably did not face tough challenges at Yale as a multigenerational Yalie, could say that Yale was going through a time of grave change during his college years (1964– 1968)—as antiestablishment feelings grew, legacy students like him were despised for the first time. He had to prove his own worthiness and did so in a counterproductive way, by drinking and partying too much. He could reframe his Yale years as a prelude to becoming a mature man in his thirties.",
+    "prompt": "How is the account of G.W.'s Yale challenges framed?",
+    "promptZh": "G.W.在Yale面临挑战的叙述是怎样被框定的？",
+    "options": [
+      "As a verbatim speech that the passage says he definitely gave at Yale.",
+      "As proof that he personally recorded every student's attitude without uncertainty.",
+      "As a possible reframing he could give, with 'probably' qualifying the author's view of his earlier challenges.",
+      "As a statement that his college years occurred after his thirties."
+    ],
+    "optionsZh": [
+      "被说成他在Yale确曾发表的逐字演说。",
+      "证明他亲自记录所有学生态度且毫无不确定。",
+      "他可以作出的一种重述，同时probably限定作者对其原有挑战的判断。",
+      "说其大学时期发生在三十多岁以后。"
+    ],
+    "answer": 2,
+    "type": "证据范围",
+    "support": "explicit",
+    "analyses": [
+      "A could say不是确已说过的逐字引语。",
+      "B probably保留推测，句中没有全员态度记录。",
+      "C who probably...could say组成作者提出的叙述可能；不将说明例自动写成他本人已确认的陈述。",
+      "D 1964–1968为此处大学年段，后句另说可当三十多岁成熟的前奏，没有大学在其后之意。"
+    ],
+    "vocabulary": [
+      {
+        "word": "multigenerational",
+        "meaning": "跨越几代的；家族多代延续的",
+        "context": "修饰Yalie背景，指多代与Yale的联系，不是同一人经历几个世代。",
+        "example": "The example describes a multigenerational connection to the university.",
+        "collocations": [
+          "a multigenerational Yalie",
+          "legacy students like him"
+        ]
+      }
+    ],
+    "translation": "G.W.作为数代Yale校友后人，可能未遭很大挑战，却可以说1964–1968大学时学校剧变，反体制情绪增长，校友子弟首次被鄙视。他须证明价值，却靠过度饮酒派对适得其反。可把Yale时期重述为三十多岁成熟的前奏。",
+    "evidenceTargetIds": [
+      "c12-s02-p134-02235-s004"
+    ],
+    "evidence": [
+      {
+        "quote": "G.W., who probably did not face tough challenges at Yale as a multigenerational Yalie, could say that Yale was going through a time of grave change during his college years (1964– 1968)—as antiestablishment feelings grew, legacy students like him were despised for the first time. He had to prove his own worthiness and did so in a counterproductive way, by drinking and partying too much. He could reframe his Yale years as a prelude to becoming a mature man in his thirties.",
+        "sentenceIds": [
+          "c12-s02-p134-02235-s004",
+          "c12-s02-p134-02235-s005",
+          "c12-s02-p134-02235-s006"
+        ],
+        "sources": [
+          {
+            "pdfPage": 134,
+            "block": 2,
+            "bbox": [
+              76.99,
+              223.5,
+              535.01,
+              472.02
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "ff4d17455bb05b1938c9d39518edf31ae4ccf9572d0a2930868db9a0b513e0e7"
+  },
+  {
+    "id": "qe-c12-0013",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-052",
+    "parentQuestionId": "q-c12-006",
+    "chapterId": "c12",
+    "sectionId": "c12-s02",
+    "paragraphId": "c12-s02-p134-02235",
+    "readingUnitId": "c12-s02-p134-02235-r004-006",
+    "sentenceIds": [
+      "c12-s02-p134-02235-s004",
+      "c12-s02-p134-02235-s005",
+      "c12-s02-p134-02235-s006"
+    ],
+    "passage": "G.W., who probably did not face tough challenges at Yale as a multigenerational Yalie, could say that Yale was going through a time of grave change during his college years (1964– 1968)—as antiestablishment feelings grew, legacy students like him were despised for the first time. He had to prove his own worthiness and did so in a counterproductive way, by drinking and partying too much. He could reframe his Yale years as a prelude to becoming a mature man in his thirties.",
+    "prompt": "What does 'counterproductive' mean in the illustrated narrative?",
+    "promptZh": "在这个说明性叙述里，counterproductive 是什么意思？",
+    "options": [
+      "Working against the aim of proving his worth, rather than helping it.",
+      "Guaranteeing that excessive partying is the best possible proof of worth.",
+      "Having no connection at all to the stated goal.",
+      "Proving the writer had measured every student's productivity."
+    ],
+    "optionsZh": [
+      "对证明自身价值的目标适得其反，而非有帮助。",
+      "保证过量派对是证明价值的最佳方法。",
+      "与所述目标毫无关系。",
+      "证明作者测量过所有学生生产率。"
+    ],
+    "answer": 0,
+    "type": "语境词义",
+    "support": "explicit",
+    "analyses": [
+      "A 前半prove worthiness给目标，后半counterproductive与drinking/partying too much给反效果方式。",
+      "B productive方向反了，too much也不是最佳保证。",
+      "C 不只是无关，而是对目标有反作用。",
+      "D 词义不等于做过全员生产率测验；保留这段故事重述的说明框架。"
+    ],
+    "vocabulary": [
+      {
+        "word": "counterproductive",
+        "meaning": "适得其反的；反而妨碍原本目标的",
+        "context": "这里说用过量饮酒派对证明价值的叙述，不是建议效仿这种方式。",
+        "example": "The attempt to impress others became counterproductive.",
+        "collocations": [
+          "in a counterproductive way",
+          "prove his own worthiness"
+        ]
+      }
+    ],
+    "translation": "G.W.作为数代Yale校友后人，可能未遭很大挑战，却可以说1964–1968大学时学校剧变，反体制情绪增长，校友子弟首次被鄙视。他须证明价值，却靠过度饮酒派对适得其反。可把Yale时期重述为三十多岁成熟的前奏。",
+    "evidenceTargetIds": [
+      "c12-s02-p134-02235-s005"
+    ],
+    "evidence": [
+      {
+        "quote": "G.W., who probably did not face tough challenges at Yale as a multigenerational Yalie, could say that Yale was going through a time of grave change during his college years (1964– 1968)—as antiestablishment feelings grew, legacy students like him were despised for the first time. He had to prove his own worthiness and did so in a counterproductive way, by drinking and partying too much. He could reframe his Yale years as a prelude to becoming a mature man in his thirties.",
+        "sentenceIds": [
+          "c12-s02-p134-02235-s004",
+          "c12-s02-p134-02235-s005",
+          "c12-s02-p134-02235-s006"
+        ],
+        "sources": [
+          {
+            "pdfPage": 134,
+            "block": 2,
+            "bbox": [
+              76.99,
+              223.5,
+              535.01,
+              472.02
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "12ed3882c2545733f31efd9a5bf74e248de65a0516f90dde227328593166d7d2"
+  },
+  {
+    "id": "qe-c12-0014",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-052",
+    "parentQuestionId": "q-c12-008",
+    "chapterId": "c12",
+    "sectionId": "c12-s02",
+    "paragraphId": "c12-s02-p134-04770",
+    "readingUnitId": "c12-s02-p134-04770-r001-002",
+    "sentenceIds": [
+      "c12-s02-p134-04770-s001",
+      "c12-s02-p134-04770-s002"
+    ],
+    "passage": "This is quite a healthy way of thinking about yourself. Indeed, in one study by Anne Wilson and Michael Ross, parents of college students taking an intro to psychology class were asked to report how broadminded, self-confident, socially skilled, and so forth they were relative to other people of the same age on an 11-point scale, ranging from 0 (much less than most) to 5 (same as most) to 10 (much more than most).",
+    "prompt": "How does the author evaluate the way of thinking at the start of the extract?",
+    "promptZh": "片段开头，作者如何评价这种思考自己的方式？",
+    "options": [
+      "As automatically proving every self-description historically accurate.",
+      "As a clinical guarantee that every reader will recover from every problem.",
+      "As wholly unhealthy and without any possible value.",
+      "As quite healthy, expressing a favourable appraisal rather than a universal clinical guarantee."
+    ],
+    "optionsZh": [
+      "自动证明每个自我描述在历史上准确。",
+      "临床保证每个读者能从任何问题恢复。",
+      "全不健康且绝无价值。",
+      "评价为相当健康，表达肯定，而非普遍临床保证。"
+    ],
+    "answer": 3,
+    "type": "作者态度",
+    "support": "explicit",
+    "analyses": [
+      "A healthy评价不等于历史真实性逐项证明。",
+      "B 当前句不是全员治疗试验或保证。",
+      "C quite a healthy明确肯定，非全盘否定。",
+      "D quite a healthy way of thinking是作者积极评价，后面介绍研究；不把一句评价扩大成无条件疗效。"
+    ],
+    "vocabulary": [
+      {
+        "word": "healthy",
+        "meaning": "健康的；这里指有益、较积极的自我看法",
+        "context": "并非此句已经测得身体医学指标正常或所有回忆都准确。",
+        "example": "The author described the reframing as a healthy way of thinking.",
+        "collocations": [
+          "quite a healthy way of thinking",
+          "about yourself"
+        ]
+      }
+    ],
+    "translation": "这是相当健康的自我看法。Anne Wilson与Michael Ross研究让心理学导论学生的父母报告，与同龄人比，自己多宽容、自信、有社交技巧等；用11点量表，0远少于多数、5与多数相同、10远多于多数。",
+    "evidenceTargetIds": [
+      "c12-s02-p134-04770-s001"
+    ],
+    "evidence": [
+      {
+        "quote": "This is quite a healthy way of thinking about yourself. Indeed, in one study by Anne Wilson and Michael Ross, parents of college students taking an intro to psychology class were asked to report how broadminded, self-confident, socially skilled, and so forth they were relative to other people of the same age on an 11-point scale, ranging from 0 (much less than most) to 5 (same as most) to 10 (much more than most).",
+        "sentenceIds": [
+          "c12-s02-p134-04770-s001",
+          "c12-s02-p134-04770-s002"
+        ],
+        "sources": [
+          {
+            "pdfPage": 134,
+            "block": 3,
+            "bbox": [
+              76.99,
+              477,
+              535.01,
+              706.02
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "43463a9b3957db9d3f905fae807b3434ef993b807e7e72bddd15ea09e4875b5b"
+  },
+  {
+    "id": "qe-c12-0015",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-052",
+    "parentQuestionId": "q-c12-012",
+    "chapterId": "c12",
+    "sectionId": "c12-s02",
+    "paragraphId": "c12-s02-p135-02700",
+    "readingUnitId": "c12-s02-p135-02700-r001-004",
+    "sentenceIds": [
+      "c12-s02-p135-02700-s001",
+      "c12-s02-p135-02700-s002",
+      "c12-s02-p135-02700-s003",
+      "c12-s02-p135-02700-s004"
+    ],
+    "passage": "However, the parents in the study might have indeed been less socially skilled and lacking self-confidence when they were young. There’s no way to know for sure. To gain more insight into this phenomenon, Wilson and Ross ran a longitudinal study. At the beginning of the school year in September, they asked undergraduate participants to evaluate how independent, self-confident, and socially skilled they currently were, relative to their same-age peers in college.",
+    "prompt": "What alternative possibility is introduced about the parents' younger selves?",
+    "promptZh": "关于父母年轻时的自己，原文提出什么替代可能？",
+    "options": [
+      "Their younger traits had been measured and proved identical to their current traits.",
+      "They really might have been less socially skilled and less self-confident when young.",
+      "They definitely fabricated every detail of their past and admitted doing so.",
+      "No uncertainty remains about the accuracy of all their memories."
+    ],
+    "optionsZh": [
+      "已实测并证明他们年轻时特质与现在完全相同。",
+      "他们年轻时确实可能较不善社交、缺自信。",
+      "他们确定捏造过去每个细节，并承认此事。",
+      "关于所有记忆是否准确，已毫无不确定。"
+    ],
+    "answer": 1,
+    "type": "证据范围",
+    "support": "explicit",
+    "analyses": [
+      "A might have与后句no way to know for sure不支持已证相同。",
+      "B might have indeed保留真实较弱的可能，避免仅凭回顾评分就断言全是记忆偏差。",
+      "C 可能有偏差不等于已证明故意全盘造假。",
+      "D 后句明确无法确定，研究者因而转向纵向设计。"
+    ],
+    "vocabulary": [
+      {
+        "word": "might have",
+        "meaning": "过去可能曾经；对过去情况作有保留推测",
+        "context": "与indeed连用也未消除might的可能性，不读成已经确证。",
+        "example": "They might have been less confident then, but the retrospective report alone cannot settle it.",
+        "collocations": [
+          "might have indeed been less socially skilled",
+          "when they were young"
+        ]
+      }
+    ],
+    "translation": "不过，父母年轻时也可能确实较不善社交、缺自信，无法确定。为多了解，Wilson与Ross做纵向研究。九月学年开始，请本科生评当下相对同龄同学有多独立、自信、善社交。",
+    "evidenceTargetIds": [
+      "c12-s02-p135-02700-s001"
+    ],
+    "evidence": [
+      {
+        "quote": "However, the parents in the study might have indeed been less socially skilled and lacking self-confidence when they were young. There’s no way to know for sure. To gain more insight into this phenomenon, Wilson and Ross ran a longitudinal study. At the beginning of the school year in September, they asked undergraduate participants to evaluate how independent, self-confident, and socially skilled they currently were, relative to their same-age peers in college.",
+        "sentenceIds": [
+          "c12-s02-p135-02700-s001",
+          "c12-s02-p135-02700-s002",
+          "c12-s02-p135-02700-s003",
+          "c12-s02-p135-02700-s004"
+        ],
+        "sources": [
+          {
+            "pdfPage": 135,
+            "block": 1,
+            "bbox": [
+              76.99,
+              270,
+              535.01,
+              713.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "ad9246b2a9c40f52f4a6c52befd4c83a9804594eea5fd18d4a31167d527cb2f4"
+  },
+  {
+    "id": "qe-c12-0016",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-052",
+    "parentQuestionId": "q-c12-012",
+    "chapterId": "c12",
+    "sectionId": "c12-s02",
+    "paragraphId": "c12-s02-p135-02700",
+    "readingUnitId": "c12-s02-p135-02700-r001-004",
+    "sentenceIds": [
+      "c12-s02-p135-02700-s001",
+      "c12-s02-p135-02700-s002",
+      "c12-s02-p135-02700-s003",
+      "c12-s02-p135-02700-s004"
+    ],
+    "passage": "However, the parents in the study might have indeed been less socially skilled and lacking self-confidence when they were young. There’s no way to know for sure. To gain more insight into this phenomenon, Wilson and Ross ran a longitudinal study. At the beginning of the school year in September, they asked undergraduate participants to evaluate how independent, self-confident, and socially skilled they currently were, relative to their same-age peers in college.",
+    "prompt": "What were undergraduates asked to rate at the September baseline?",
+    "promptZh": "九月基线时，本科生被要求评价什么？",
+    "options": [
+      "Only how their parents had behaved at age sixteen.",
+      "Their future income relative to older professors.",
+      "Their current independence, confidence, and social skill relative to same-age college peers.",
+      "Their memories of their September selves recalled only after November had ended."
+    ],
+    "optionsZh": [
+      "只评父母十六岁时行为。",
+      "相对年长教授的未来收入。",
+      "自己当时相对大学同龄人的独立、自信与社交能力。",
+      "只在十一月结束后回忆九月的自己。"
+    ],
+    "answer": 2,
+    "type": "研究设计",
+    "support": "explicit",
+    "analyses": [
+      "A 样本为undergraduate participants，评价对象是自身，不是父母。",
+      "B 三项特质不是收入，参照对象same-age peers也非教授。",
+      "C At beginning...September、currently与relative to同龄人三个要点完整保留。",
+      "D 本句为九月当时评价，不能挪为后来回忆；不提前编造后续评分数值。"
+    ],
+    "vocabulary": [
+      {
+        "word": "relative to",
+        "meaning": "相对于；以某对象作比较参照",
+        "context": "参照为同龄大学同学，不是与自己童年、父母或所有年龄群体比较。",
+        "example": "They rated their confidence relative to same-age peers.",
+        "collocations": [
+          "relative to their same-age peers in college",
+          "they currently were"
+        ]
+      }
+    ],
+    "translation": "不过，父母年轻时也可能确实较不善社交、缺自信，无法确定。为多了解，Wilson与Ross做纵向研究。九月学年开始，请本科生评当下相对同龄同学有多独立、自信、善社交。",
+    "evidenceTargetIds": [
+      "c12-s02-p135-02700-s004"
+    ],
+    "evidence": [
+      {
+        "quote": "At the beginning of the school year in September, they asked undergraduate participants to evaluate how independent, self-confident, and socially skilled they currently were, relative to their same-age peers in college.",
+        "sentenceIds": [
+          "c12-s02-p135-02700-s004"
+        ],
+        "sources": [
+          {
+            "pdfPage": 135,
+            "block": 1,
+            "bbox": [
+              76.99,
+              270,
+              535.01,
+              713.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "a6fa1e5db91223d40d6853da5c281dbcb3d7f4158780eaa68e16fa783154e23d"
   }
 ]
