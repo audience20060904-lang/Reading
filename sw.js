@@ -1,6 +1,6 @@
 const SCOPE=new URL(self.registration.scope).pathname;
 const PREFIX='three-dimensions:'+SCOPE+':';
-const CACHE=PREFIX+"4871697d09e7df8d";
+const CACHE=PREFIX+"d6b2f48b9cd10aff";
 const FILES=["./assets/index-Bi_fhekW.css","./assets/index-C0fsBL6h.js","./data/book.json","./data/coverage.json","./data/evidence-questions.json","./data/questions.json","./data/reading-plan.json","./figures/figure-1.png","./figures/figure-2.png","./figures/figure-3.png","./icon.svg","./index.html","./manifest.webmanifest"];
 self.addEventListener('install',event=>event.waitUntil((async()=>{const c=await caches.open(CACHE);const requests=FILES.map(path=>new Request(new URL(path,self.registration.scope),{cache:'reload'}));await c.addAll(requests);await self.skipWaiting();})()));
 self.addEventListener('activate',event=>event.waitUntil((async()=>{for(const k of await caches.keys())if(k.startsWith(PREFIX)&&k!==CACHE)await caches.delete(k);await self.clients.claim();})()));
@@ -8,4 +8,4 @@ self.addEventListener('fetch',event=>{const url=new URL(event.request.url);if(ev
 event.respondWith((async()=>{const cache=await caches.open(CACHE);const hit=await cache.match(event.request,{ignoreSearch:true});if(hit)return hit;
 if(event.request.mode==='navigate'){const shell=await cache.match(new URL('./index.html',self.registration.scope));if(shell)return shell;}
 return fetch(event.request);})());});
-self.addEventListener('message',event=>{if(event.data==='VERSION')event.ports[0]?.postMessage({version:"4871697d09e7df8d",cache:CACHE});});
+self.addEventListener('message',event=>{if(event.data==='VERSION')event.ports[0]?.postMessage({version:"d6b2f48b9cd10aff",cache:CACHE});});
