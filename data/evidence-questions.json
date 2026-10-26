@@ -50450,5 +50450,2093 @@
     ],
     "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
     "fingerprint": "34989e137c5c69ad2c600195bb901ffd487f16715399f9a113407071a75c302c"
+  },
+  {
+    "id": "qe-c07-0058",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-026",
+    "parentQuestionId": "q-c07-035",
+    "chapterId": "c07",
+    "sectionId": "c07-s02",
+    "paragraphId": "c07-s02-p072-05745",
+    "readingUnitId": "c07-s02-p072-05745-r001-004",
+    "sentenceIds": [
+      "c07-s02-p072-05745-s001",
+      "c07-s02-p072-05745-s002",
+      "c07-s02-p072-05745-s003",
+      "c07-s02-p072-05745-s004"
+    ],
+    "passage": "Shaquille O’Neal is another elite athlete who was feared as well as loved as a player. Unlike his teammate Kobe Bryant, who was known for his grueling work ethic, Shaq was known for not working as hard. In an interview with Patrick Bet-David, Shaq said, “Kobe was a beast, nobody works harder than him…. See, Kobe was just getting married and getting into his family, I’m already four kids in.",
+    "prompt": "What combination of reactions to Shaq is described in the opening sentence?",
+    "promptZh": "开头一句描述人们对 Shaq 怎样的反应组合？",
+    "options": [
+      "Only fear, with admiration explicitly ruled out.",
+      "Only affection, with fear explicitly ruled out.",
+      "Both fear and affection toward him as a player.",
+      "Exactly the same attitude as toward every other athlete."
+    ],
+    "optionsZh": [
+      "只有畏惧，明确排除喜爱。",
+      "只有喜爱，明确排除畏惧。",
+      "作为球员既令人敬畏也受喜爱。",
+      "对他与每位其他运动员态度完全相同。"
+    ],
+    "answer": 2,
+    "type": "细节",
+    "support": "explicit",
+    "analyses": [
+      "A as well as 不排除 loved。",
+      "B 同样不能漏掉 feared。",
+      "C feared as well as loved 两者兼有，范围是作为球员。",
+      "D 不是全体运动员反应相同，更不证明现实每个人都同样感受。"
+    ],
+    "vocabulary": [
+      {
+        "word": "as a player",
+        "meaning": "作为球员；从球场角色看",
+        "context": "限定描述角色，不是给其全部私人生活统一评判。",
+        "example": "He was respected as a player and later became a coach.",
+        "collocations": [
+          "loved as a player",
+          "feared as well as loved"
+        ]
+      }
+    ],
+    "translation": "Shaquille O’Neal 是另一位顶级运动员，作为球员既令人敬畏，也受人喜爱。与以艰苦训练精神著称的队友 Kobe Bryant 不同，Shaq 被认为没那么刻苦。在 Patrick Bet-David 的采访中，他说：“Kobe 太猛了，没有人比他更努力……那时 Kobe 刚结婚、开始进入家庭生活，而我已是四个孩子的父亲。”",
+    "evidenceTargetIds": [
+      "c07-s02-p072-05745-s001"
+    ],
+    "evidence": [
+      {
+        "quote": "Shaquille O’Neal is another elite athlete who was feared as well as loved as a player. Unlike his teammate Kobe Bryant, who was known for his grueling work ethic, Shaq was known for not working as hard. In an interview with Patrick Bet-David, Shaq said, “Kobe was a beast, nobody works harder than him…. See, Kobe was just getting married and getting into his family, I’m already four kids in.",
+        "sentenceIds": [
+          "c07-s02-p072-05745-s001",
+          "c07-s02-p072-05745-s002",
+          "c07-s02-p072-05745-s003",
+          "c07-s02-p072-05745-s004"
+        ],
+        "sources": [
+          {
+            "pdfPage": 72,
+            "block": 4,
+            "bbox": [
+              76.99,
+              574.5,
+              535.01,
+              706.02
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "304a4f94ff770bf22a5c89fe8c92171f0f1c8c171b1c6ace6cf09a0c73b787bc"
+  },
+  {
+    "id": "qe-c07-0059",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-026",
+    "parentQuestionId": "q-c07-035",
+    "chapterId": "c07",
+    "sectionId": "c07-s02",
+    "paragraphId": "c07-s02-p072-05745",
+    "readingUnitId": "c07-s02-p072-05745-r001-004",
+    "sentenceIds": [
+      "c07-s02-p072-05745-s001",
+      "c07-s02-p072-05745-s002",
+      "c07-s02-p072-05745-s003",
+      "c07-s02-p072-05745-s004"
+    ],
+    "passage": "Shaquille O’Neal is another elite athlete who was feared as well as loved as a player. Unlike his teammate Kobe Bryant, who was known for his grueling work ethic, Shaq was known for not working as hard. In an interview with Patrick Bet-David, Shaq said, “Kobe was a beast, nobody works harder than him…. See, Kobe was just getting married and getting into his family, I’m already four kids in.",
+    "prompt": "How is the reputation for work intensity contrasted?",
+    "promptZh": "关于工作刻苦程度的名声，原文怎样对比？",
+    "options": [
+      "Shaq was known for working less hard than Kobe, who was known for a grueling work ethic.",
+      "Kobe was known for doing no training, while Shaq alone trained.",
+      "Both were said to have exactly identical training routines.",
+      "The passage measures every hour of both careers directly."
+    ],
+    "optionsZh": [
+      "Kobe 以艰苦训练精神著称，Shaq 则被认为没那么刻苦。",
+      "Kobe 被说成完全不练，只有 Shaq 练。",
+      "两人被说成训练常规完全一致。",
+      "段落直接测量两人整个生涯每个小时。"
+    ],
+    "answer": 0,
+    "type": "逻辑关系",
+    "support": "explicit",
+    "analyses": [
+      "A Unlike 与 was known for 提供相对名声对比。",
+      "B not as hard 不是另一人完全零训练。",
+      "C Unlike 不支持完全一致。",
+      "D was known 是描述名声，不是逐小时测量；没有否认两人都可有成就。"
+    ],
+    "vocabulary": [
+      {
+        "word": "work ethic",
+        "meaning": "敬业精神；认真努力的工作态度",
+        "context": "在体育中体现训练投入，不是单次成绩或道德上全面优越。",
+        "example": "Her work ethic was evident in her consistent preparation.",
+        "collocations": [
+          "grueling work ethic",
+          "known for a work ethic"
+        ]
+      }
+    ],
+    "translation": "Shaquille O’Neal 是另一位顶级运动员，作为球员既令人敬畏，也受人喜爱。与以艰苦训练精神著称的队友 Kobe Bryant 不同，Shaq 被认为没那么刻苦。在 Patrick Bet-David 的采访中，他说：“Kobe 太猛了，没有人比他更努力……那时 Kobe 刚结婚、开始进入家庭生活，而我已是四个孩子的父亲。”",
+    "evidenceTargetIds": [
+      "c07-s02-p072-05745-s002"
+    ],
+    "evidence": [
+      {
+        "quote": "Shaquille O’Neal is another elite athlete who was feared as well as loved as a player. Unlike his teammate Kobe Bryant, who was known for his grueling work ethic, Shaq was known for not working as hard. In an interview with Patrick Bet-David, Shaq said, “Kobe was a beast, nobody works harder than him…. See, Kobe was just getting married and getting into his family, I’m already four kids in.",
+        "sentenceIds": [
+          "c07-s02-p072-05745-s001",
+          "c07-s02-p072-05745-s002",
+          "c07-s02-p072-05745-s003",
+          "c07-s02-p072-05745-s004"
+        ],
+        "sources": [
+          {
+            "pdfPage": 72,
+            "block": 4,
+            "bbox": [
+              76.99,
+              574.5,
+              535.01,
+              706.02
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "cdd40388641979bfca6f339b3111c00c60957c83a4c796ff4406508fbf612b28"
+  },
+  {
+    "id": "qe-c07-0060",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-026",
+    "parentQuestionId": "q-c07-035",
+    "chapterId": "c07",
+    "sectionId": "c07-s02",
+    "paragraphId": "c07-s02-p072-05745",
+    "readingUnitId": "c07-s02-p072-05745-r001-004",
+    "sentenceIds": [
+      "c07-s02-p072-05745-s001",
+      "c07-s02-p072-05745-s002",
+      "c07-s02-p072-05745-s003",
+      "c07-s02-p072-05745-s004"
+    ],
+    "passage": "Shaquille O’Neal is another elite athlete who was feared as well as loved as a player. Unlike his teammate Kobe Bryant, who was known for his grueling work ethic, Shaq was known for not working as hard. In an interview with Patrick Bet-David, Shaq said, “Kobe was a beast, nobody works harder than him…. See, Kobe was just getting married and getting into his family, I’m already four kids in.",
+    "prompt": "Who says 'I'm already four kids in', and what contrast is being made?",
+    "promptZh": "谁说 I'm already four kids in，对比什么？",
+    "options": [
+      "Kobe, comparing two different award totals.",
+      "Patrick Bet-David, describing the number of athletes interviewed.",
+      "Ohtani, describing his team's pitching schedule.",
+      "Shaq, contrasting his established family responsibilities with Kobe's newly married stage."
+    ],
+    "optionsZh": [
+      "Kobe，对比两种奖项数。",
+      "Patrick Bet-David，描述受访运动员数。",
+      "Ohtani，描述球队投球赛程。",
+      "Shaq，对比自己的既有家庭责任与 Kobe 刚结婚阶段。"
+    ],
+    "answer": 3,
+    "type": "观点归属",
+    "support": "explicit",
+    "analyses": [
+      "A Shaq said 标明说话者，four kids 不是奖项。",
+      "B 采访者不是这段第一人称的主体。",
+      "C 与棒球赛程无关。",
+      "D 采访引文中 I'm 指 Shaq，Kobe 则 just getting married；不从家庭阶段推所有人的唯一工作安排。"
+    ],
+    "vocabulary": [
+      {
+        "word": "four kids in",
+        "meaning": "已经有四个孩子；已处于养育四孩的阶段",
+        "context": "口语说明 Shaq 所述当时家庭状态，不是比赛得四分或孩子年龄四岁。",
+        "example": "By then, they were two kids in and balancing several responsibilities.",
+        "collocations": [
+          "already four kids in",
+          "getting into family life"
+        ]
+      }
+    ],
+    "translation": "Shaquille O’Neal 是另一位顶级运动员，作为球员既令人敬畏，也受人喜爱。与以艰苦训练精神著称的队友 Kobe Bryant 不同，Shaq 被认为没那么刻苦。在 Patrick Bet-David 的采访中，他说：“Kobe 太猛了，没有人比他更努力……那时 Kobe 刚结婚、开始进入家庭生活，而我已是四个孩子的父亲。”",
+    "evidenceTargetIds": [
+      "c07-s02-p072-05745-s004"
+    ],
+    "evidence": [
+      {
+        "quote": "Shaquille O’Neal is another elite athlete who was feared as well as loved as a player. Unlike his teammate Kobe Bryant, who was known for his grueling work ethic, Shaq was known for not working as hard. In an interview with Patrick Bet-David, Shaq said, “Kobe was a beast, nobody works harder than him…. See, Kobe was just getting married and getting into his family, I’m already four kids in.",
+        "sentenceIds": [
+          "c07-s02-p072-05745-s001",
+          "c07-s02-p072-05745-s002",
+          "c07-s02-p072-05745-s003",
+          "c07-s02-p072-05745-s004"
+        ],
+        "sources": [
+          {
+            "pdfPage": 72,
+            "block": 4,
+            "bbox": [
+              76.99,
+              574.5,
+              535.01,
+              706.02
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "100363d239ff4545f959aacae534caae945a6e63dc2494d9f4c32a8ac4c3be87"
+  },
+  {
+    "id": "qe-c07-0061",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-026",
+    "parentQuestionId": "q-c07-036",
+    "chapterId": "c07",
+    "sectionId": "c07-s02",
+    "paragraphId": "c07-s02-p072-05745",
+    "readingUnitId": "c07-s02-p072-05745-r005-008",
+    "sentenceIds": [
+      "c07-s02-p072-05745-s005",
+      "c07-s02-p072-05745-s006",
+      "c07-s02-p072-05745-s007",
+      "c07-s02-p072-05745-s008"
+    ],
+    "passage": "So after I put my two to three hours of work, now I have to be Daddy, now I have to be husband, now I have to take care of business.” In many ways, Shaq was more relaxed, lighthearted, and whimsical. He continued in the interview, “I think you can find success in many ways.” Shohei and Shaq are both plenty successful.",
+    "prompt": "What does 'whimsical' add to Shaq's portrayal?",
+    "promptZh": "whimsical 为 Shaq 的人物描写补充什么？",
+    "options": [
+      "A claim that he never had any responsibilities.",
+      "A light, imaginative, or playfully unconventional quality.",
+      "Proof that he had no discipline at any point.",
+      "A report that he followed every rule mechanically."
+    ],
+    "optionsZh": [
+      "声称他从无责任。",
+      "轻松、富想象或俏皮随兴的特点。",
+      "证明他从来没有自律。",
+      "报告他机械遵守每条规则。"
+    ],
+    "answer": 1,
+    "type": "语境词义",
+    "support": "explicit",
+    "analyses": [
+      "A 本段还有爸爸、丈夫、事务等责任，不是无责任。",
+      "B 与 relaxed,lighthearted 并列强调轻松随兴。",
+      "C 相对工作风格不证明一生无自律。",
+      "D whimsical 不是机械刻板；不把人物形容变成测验或病情判定。"
+    ],
+    "vocabulary": [
+      {
+        "word": "whimsical",
+        "meaning": "随兴俏皮的；带奇想的",
+        "context": "与轻松气质并列，不等于不承担任何义务。",
+        "example": "Her whimsical drawings made the notebook feel playful.",
+        "collocations": [
+          "relaxed, lighthearted, and whimsical",
+          "a whimsical style"
+        ]
+      }
+    ],
+    "translation": "“所以，完成两到三小时的工作后，我还要当爸爸、当丈夫，还要处理商业事务。”在许多方面，Shaq 更放松、轻松而随兴。他在采访中接着说：“我认为成功可以有很多方式。”Shohei 和 Shaq 都相当成功。",
+    "evidenceTargetIds": [
+      "c07-s02-p072-05745-s006"
+    ],
+    "evidence": [
+      {
+        "quote": "So after I put my two to three hours of work, now I have to be Daddy, now I have to be husband, now I have to take care of business.” In many ways, Shaq was more relaxed, lighthearted, and whimsical. He continued in the interview, “I think you can find success in many ways.” Shohei and Shaq are both plenty successful.",
+        "sentenceIds": [
+          "c07-s02-p072-05745-s005",
+          "c07-s02-p072-05745-s006",
+          "c07-s02-p072-05745-s007",
+          "c07-s02-p072-05745-s008"
+        ],
+        "sources": [
+          {
+            "pdfPage": 72,
+            "block": 4,
+            "bbox": [
+              76.99,
+              574.5,
+              535.01,
+              706.02
+            ]
+          },
+          {
+            "pdfPage": 73,
+            "block": 0,
+            "bbox": [
+              76.99,
+              75,
+              535.01,
+              265.02
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "b0c2893389429ec22b5ceb7d4edd6b84fe0527bd7666f4f85b55838cc1774a3d"
+  },
+  {
+    "id": "qe-c07-0062",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-026",
+    "parentQuestionId": "q-c07-036",
+    "chapterId": "c07",
+    "sectionId": "c07-s02",
+    "paragraphId": "c07-s02-p072-05745",
+    "readingUnitId": "c07-s02-p072-05745-r005-008",
+    "sentenceIds": [
+      "c07-s02-p072-05745-s005",
+      "c07-s02-p072-05745-s006",
+      "c07-s02-p072-05745-s007",
+      "c07-s02-p072-05745-s008"
+    ],
+    "passage": "So after I put my two to three hours of work, now I have to be Daddy, now I have to be husband, now I have to take care of business.” In many ways, Shaq was more relaxed, lighthearted, and whimsical. He continued in the interview, “I think you can find success in many ways.” Shohei and Shaq are both plenty successful.",
+    "prompt": "Why state that both Shohei and Shaq are 'plenty successful'?",
+    "promptZh": "为何说 Shohei 与 Shaq 都 plenty successful？",
+    "options": [
+      "To show different approaches can coexist with substantial success.",
+      "To establish that their achievements are numerically identical.",
+      "To prove that one precise work schedule is compulsory for everyone.",
+      "To deny that either athlete ever worked hard."
+    ],
+    "optionsZh": [
+      "说明不同方式可伴随相当成功。",
+      "证明两人成就数字完全一致。",
+      "证明所有人必须用同一精确工作日程。",
+      "否认两人曾努力工作。"
+    ],
+    "answer": 0,
+    "type": "作者意图",
+    "support": "explicit",
+    "analyses": [
+      "A 接采访中 success in many ways，后面再列各自荣誉。",
+      "B both successful 不等于同一项目、奖项或数目。",
+      "C 多种方式不支持唯一日程。",
+      "D 不否认工作，只在投入方式之外提醒轻松玩心也可并存。"
+    ],
+    "vocabulary": [
+      {
+        "word": "plenty successful",
+        "meaning": "相当成功；很成功（口语强调）",
+        "context": "plenty 在这里加强程度，不给出两人可统一量化排名。",
+        "example": "The smaller team was plenty successful with a different approach.",
+        "collocations": [
+          "both plenty successful",
+          "success in many ways"
+        ]
+      }
+    ],
+    "translation": "“所以，完成两到三小时的工作后，我还要当爸爸、当丈夫，还要处理商业事务。”在许多方面，Shaq 更放松、轻松而随兴。他在采访中接着说：“我认为成功可以有很多方式。”Shohei 和 Shaq 都相当成功。",
+    "evidenceTargetIds": [
+      "c07-s02-p072-05745-s008"
+    ],
+    "evidence": [
+      {
+        "quote": "So after I put my two to three hours of work, now I have to be Daddy, now I have to be husband, now I have to take care of business.” In many ways, Shaq was more relaxed, lighthearted, and whimsical. He continued in the interview, “I think you can find success in many ways.” Shohei and Shaq are both plenty successful.",
+        "sentenceIds": [
+          "c07-s02-p072-05745-s005",
+          "c07-s02-p072-05745-s006",
+          "c07-s02-p072-05745-s007",
+          "c07-s02-p072-05745-s008"
+        ],
+        "sources": [
+          {
+            "pdfPage": 72,
+            "block": 4,
+            "bbox": [
+              76.99,
+              574.5,
+              535.01,
+              706.02
+            ]
+          },
+          {
+            "pdfPage": 73,
+            "block": 0,
+            "bbox": [
+              76.99,
+              75,
+              535.01,
+              265.02
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "6c4eb036bc8c75f69a488083138960ccb47e4513864baf67ebe98b5b166e7ea0"
+  },
+  {
+    "id": "qe-c07-0063",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-026",
+    "parentQuestionId": "q-c07-037",
+    "chapterId": "c07",
+    "sectionId": "c07-s02",
+    "paragraphId": "c07-s02-p072-05745",
+    "readingUnitId": "c07-s02-p072-05745-r009-012",
+    "sentenceIds": [
+      "c07-s02-p072-05745-s009",
+      "c07-s02-p072-05745-s010",
+      "c07-s02-p072-05745-s011",
+      "c07-s02-p072-05745-s012"
+    ],
+    "passage": "Ohtani was the American League Rookie of the Year in 2018 and the MVP in 2021 and 2023. Shaq was the Rookie of the Year in 1993 and the MVP in 2000, and won four NBA championships. If Shaq had Kobe’s work ethic, Shaq might have accomplished even more as a basketball player. But he also might have burned out early in his career.",
+    "prompt": "Which award chronology is given for Ohtani in the book?",
+    "promptZh": "本书给出的 Ohtani 获奖顺序是什么？",
+    "options": [
+      "Rookie of the Year in 1993 and MVP in 2000.",
+      "Rookie of the Year in 2021 and MVP in 2018 only.",
+      "American League Rookie of the Year in 2018, then MVP in 2021 and 2023.",
+      "Four NBA championships before a baseball rookie award."
+    ],
+    "optionsZh": [
+      "1993年新人、2000年MVP。",
+      "2021年新人，仅2018年MVP。",
+      "2018年美联新人，2021及2023年MVP。",
+      "棒球新人前获得四次NBA冠军。"
+    ],
+    "answer": 2,
+    "type": "细节",
+    "support": "explicit",
+    "analyses": [
+      "A 是下一句 Shaq 的年份配对，主体错配。",
+      "B 把新人及MVP年份互换并漏2023。",
+      "C 原句各项荣誉及年份一一对应，限原书列举。",
+      "D NBA冠军属另一运动员，不外推本书之后最新荣誉。"
+    ],
+    "vocabulary": [
+      {
+        "word": "Rookie of the Year",
+        "meaning": "年度最佳新人；当年度新人奖称号",
+        "context": "与MVP不是同一种奖，不能互换年份或联赛。",
+        "example": "The article lists the Rookie of the Year award before later honours.",
+        "collocations": [
+          "American League Rookie of the Year",
+          "Rookie of the Year in 2018"
+        ]
+      }
+    ],
+    "translation": "原书列出，Ohtani 是 2018 年美联年度新人、2021 与 2023 年 MVP；Shaq 是 1993 年年度新人、2000 年 MVP，赢得四次 NBA 冠军。如果 Shaq 有 Kobe 的敬业精神，他可能在篮球上取得更多成就。但他也可能在生涯更早阶段就倦怠。",
+    "evidenceTargetIds": [
+      "c07-s02-p072-05745-s009"
+    ],
+    "evidence": [
+      {
+        "quote": "Ohtani was the American League Rookie of the Year in 2018 and the MVP in 2021 and 2023. Shaq was the Rookie of the Year in 1993 and the MVP in 2000, and won four NBA championships. If Shaq had Kobe’s work ethic, Shaq might have accomplished even more as a basketball player. But he also might have burned out early in his career.",
+        "sentenceIds": [
+          "c07-s02-p072-05745-s009",
+          "c07-s02-p072-05745-s010",
+          "c07-s02-p072-05745-s011",
+          "c07-s02-p072-05745-s012"
+        ],
+        "sources": [
+          {
+            "pdfPage": 73,
+            "block": 0,
+            "bbox": [
+              76.99,
+              75,
+              535.01,
+              265.02
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "83d2fcc78462ab9e364ffd37c0ad803eff84e5906be9bef55538f489cca73855"
+  },
+  {
+    "id": "qe-c07-0064",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-026",
+    "parentQuestionId": "q-c07-037",
+    "chapterId": "c07",
+    "sectionId": "c07-s02",
+    "paragraphId": "c07-s02-p072-05745",
+    "readingUnitId": "c07-s02-p072-05745-r009-012",
+    "sentenceIds": [
+      "c07-s02-p072-05745-s009",
+      "c07-s02-p072-05745-s010",
+      "c07-s02-p072-05745-s011",
+      "c07-s02-p072-05745-s012"
+    ],
+    "passage": "Ohtani was the American League Rookie of the Year in 2018 and the MVP in 2021 and 2023. Shaq was the Rookie of the Year in 1993 and the MVP in 2000, and won four NBA championships. If Shaq had Kobe’s work ethic, Shaq might have accomplished even more as a basketball player. But he also might have burned out early in his career.",
+    "prompt": "Which statement correctly reports Shaq's achievements listed here?",
+    "promptZh": "哪项正确对应这里列出的 Shaq 成就？",
+    "options": [
+      "MVP in 1993 and Rookie of the Year in 2000.",
+      "Four American League championships and a 2018 rookie award.",
+      "The same MVP years as Ohtani:2021 and 2023.",
+      "Rookie of the Year in 1993, MVP in 2000, and four NBA championships."
+    ],
+    "optionsZh": [
+      "1993年MVP、2000年新人。",
+      "四次美联冠军与2018年新人。",
+      "与 Ohtani 相同的2021及2023年MVP。",
+      "1993年新人、2000年MVP，四次NBA冠军。"
+    ],
+    "answer": 3,
+    "type": "细节",
+    "support": "explicit",
+    "analyses": [
+      "A 两项年份对应颠倒。",
+      "B 联赛与年份移自另一人物。",
+      "C 不能将 Ohtani 的年份复制给 Shaq。",
+      "D 对应原句三项；书中成就列举不构成玩心独自造成荣誉的因果证明。"
+    ],
+    "vocabulary": [
+      {
+        "word": "championships",
+        "meaning": "冠军头衔；锦标赛冠军",
+        "context": "four NBA championships 是冠军次数，不是MVP年份或子女数。",
+        "example": "The club won several championships during that period.",
+        "collocations": [
+          "won four NBA championships",
+          "NBA championships"
+        ]
+      }
+    ],
+    "translation": "原书列出，Ohtani 是 2018 年美联年度新人、2021 与 2023 年 MVP；Shaq 是 1993 年年度新人、2000 年 MVP，赢得四次 NBA 冠军。如果 Shaq 有 Kobe 的敬业精神，他可能在篮球上取得更多成就。但他也可能在生涯更早阶段就倦怠。",
+    "evidenceTargetIds": [
+      "c07-s02-p072-05745-s010"
+    ],
+    "evidence": [
+      {
+        "quote": "Ohtani was the American League Rookie of the Year in 2018 and the MVP in 2021 and 2023. Shaq was the Rookie of the Year in 1993 and the MVP in 2000, and won four NBA championships. If Shaq had Kobe’s work ethic, Shaq might have accomplished even more as a basketball player. But he also might have burned out early in his career.",
+        "sentenceIds": [
+          "c07-s02-p072-05745-s009",
+          "c07-s02-p072-05745-s010",
+          "c07-s02-p072-05745-s011",
+          "c07-s02-p072-05745-s012"
+        ],
+        "sources": [
+          {
+            "pdfPage": 73,
+            "block": 0,
+            "bbox": [
+              76.99,
+              75,
+              535.01,
+              265.02
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "db970ad0a21ac8ff9069ef97fccf6f9226383915870026981b4635fbc19d3105"
+  },
+  {
+    "id": "qe-c07-0065",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-026",
+    "parentQuestionId": "q-c07-038",
+    "chapterId": "c07",
+    "sectionId": "c07-s02",
+    "paragraphId": "c07-s02-p072-05745",
+    "readingUnitId": "c07-s02-p072-05745-r013-014",
+    "sentenceIds": [
+      "c07-s02-p072-05745-s013",
+      "c07-s02-p072-05745-s014"
+    ],
+    "passage": "Work ethic is well known to be critical to rising in professional sports and competitive professions. Even so, playfulness might be an underrated contributor to long-term success.",
+    "prompt": "How is work ethic positioned before the statement about playfulness?",
+    "promptZh": "谈玩心前，原文怎样定位敬业精神？",
+    "options": [
+      "As irrelevant to professional success once a person is talented.",
+      "As critical to progress, while playfulness may additionally matter for long-term success.",
+      "As a guarantee that all playful people fail.",
+      "As something the author says must be abandoned entirely."
+    ],
+    "optionsZh": [
+      "有天赋后就与职业成功无关。",
+      "对上升很关键，同时玩心也可能有助长期成功。",
+      "作为所有有玩心者必失败的保证。",
+      "作为作者要求彻底抛弃的东西。"
+    ],
+    "answer": 1,
+    "type": "逻辑关系",
+    "support": "explicit",
+    "analyses": [
+      "A well known to be critical 不是无关。",
+      "B Even so 与 might 增补可能被低估的长期因素，不否定敬业精神。",
+      "C 未设两者互斥或保证失败。",
+      "D 没有彻底弃努力的建议。"
+    ],
+    "vocabulary": [
+      {
+        "word": "underrated",
+        "meaning": "被低估的；未受到足够重视的",
+        "context": "修饰玩心潜在贡献，不等于已证明它是唯一决定因素。",
+        "example": "The value of informal conversation is sometimes underrated.",
+        "collocations": [
+          "an underrated contributor",
+          "might be underrated"
+        ]
+      }
+    ],
+    "translation": "众所周知，敬业精神对在职业体育及竞争性职业中上升至关重要。即便如此，玩心可能是一个被低估的长期成功因素。",
+    "evidenceTargetIds": [
+      "c07-s02-p072-05745-s013"
+    ],
+    "evidence": [
+      {
+        "quote": "Work ethic is well known to be critical to rising in professional sports and competitive professions. Even so, playfulness might be an underrated contributor to long-term success.",
+        "sentenceIds": [
+          "c07-s02-p072-05745-s013",
+          "c07-s02-p072-05745-s014"
+        ],
+        "sources": [
+          {
+            "pdfPage": 73,
+            "block": 0,
+            "bbox": [
+              76.99,
+              75,
+              535.01,
+              265.02
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "ca7d6e5741f8b20f765be6ea213c1426d46a13c180e57ceaf07e8bd9df88fadd"
+  },
+  {
+    "id": "qe-c07-0066",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-026",
+    "parentQuestionId": "q-c07-039",
+    "chapterId": "c07",
+    "sectionId": "c07-s03",
+    "paragraphId": "c07-s03-p073-03210",
+    "readingUnitId": "c07-s03-p073-03210-r001-004",
+    "sentenceIds": [
+      "c07-s03-p073-03210-s001",
+      "c07-s03-p073-03210-s002",
+      "c07-s03-p073-03210-s003",
+      "c07-s03-p073-03210-s004"
+    ],
+    "passage": "Is there any empirical evidence that suggests playfulness is actually good? Swiss psychologist René Proyer has studied adult playfulness more intensely than anyone I know. He found that playfulness is a blend of openness to experience and extraversion, and a relative lack of conscientiousness and neuroticism. It is “an openness to being a fool, which is a combination of not worrying about competence, not being self-important, not taking norms as sacred and finding ambiguity and double edges a source of wisdom and delight.”",
+    "prompt": "What change in evidence does the empirical-evidence question request?",
+    "promptZh": "经验证据的问句要求怎样的证据转向？",
+    "options": [
+      "From athlete illustrations toward systematic study of playfulness.",
+      "From all research toward relying only on one athlete's opinion.",
+      "From playfulness to calculating every player's salary.",
+      "From a tentative question to proof that every proposed benefit is certain."
+    ],
+    "optionsZh": [
+      "从运动员例证转向系统研究玩心。",
+      "从全部研究转为只靠一位运动员意见。",
+      "从玩心转向计算每位球员工资。",
+      "从试探问句直接跳到每项益处确定。"
+    ],
+    "answer": 0,
+    "type": "作者意图",
+    "support": "explicit",
+    "analyses": [
+      "A empirical 引向 Proyer 的成人玩心研究，区别人物故事。",
+      "B 不是减少为单一看法。",
+      "C 无薪资计数。",
+      "D asks evidence 不是预先证明所有益处；suggests 也有强度限定。"
+    ],
+    "vocabulary": [
+      {
+        "word": "empirical evidence",
+        "meaning": "经验证据；来自观察或研究的证据",
+        "context": "不同于单个名人例子、哲学引语或作者猜想。",
+        "example": "The claim needs empirical evidence from a suitable study.",
+        "collocations": [
+          "empirical evidence that suggests",
+          "seek empirical evidence"
+        ]
+      }
+    ],
+    "translation": "有没有经验证据表明玩心确实有益？瑞士心理学家 René Proyer 对成人玩心的研究，比我认识的其他人都深入。他发现，玩心是经验开放性、外向性，以及相对较少尽责性与神经质的结合。文中把它描述为“愿意显得有点傻的开放态度”，包含不那么担心表现能力、不自视过高、不把规范当成神圣，以及从模糊和双重意味中发现智慧与乐趣。",
+    "evidenceTargetIds": [
+      "c07-s03-p073-03210-s001"
+    ],
+    "evidence": [
+      {
+        "quote": "Is there any empirical evidence that suggests playfulness is actually good? Swiss psychologist René Proyer has studied adult playfulness more intensely than anyone I know. He found that playfulness is a blend of openness to experience and extraversion, and a relative lack of conscientiousness and neuroticism. It is “an openness to being a fool, which is a combination of not worrying about competence, not being self-important, not taking norms as sacred and finding ambiguity and double edges a source of wisdom and delight.”",
+        "sentenceIds": [
+          "c07-s03-p073-03210-s001",
+          "c07-s03-p073-03210-s002",
+          "c07-s03-p073-03210-s003",
+          "c07-s03-p073-03210-s004"
+        ],
+        "sources": [
+          {
+            "pdfPage": 73,
+            "block": 2,
+            "bbox": [
+              76.99,
+              321,
+              535.01,
+              491.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "6e4c41e5c45abbdefc8ddc134dd641e40296a929db16a57935e826e967582c75"
+  },
+  {
+    "id": "qe-c07-0067",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-026",
+    "parentQuestionId": "q-c07-039",
+    "chapterId": "c07",
+    "sectionId": "c07-s03",
+    "paragraphId": "c07-s03-p073-03210",
+    "readingUnitId": "c07-s03-p073-03210-r001-004",
+    "sentenceIds": [
+      "c07-s03-p073-03210-s001",
+      "c07-s03-p073-03210-s002",
+      "c07-s03-p073-03210-s003",
+      "c07-s03-p073-03210-s004"
+    ],
+    "passage": "Is there any empirical evidence that suggests playfulness is actually good? Swiss psychologist René Proyer has studied adult playfulness more intensely than anyone I know. He found that playfulness is a blend of openness to experience and extraversion, and a relative lack of conscientiousness and neuroticism. It is “an openness to being a fool, which is a combination of not worrying about competence, not being self-important, not taking norms as sacred and finding ambiguity and double edges a source of wisdom and delight.”",
+    "prompt": "What limits the comparison in 'more intensely than anyone I know'?",
+    "promptZh": "more intensely than anyone I know 的比较受到什么限定？",
+    "options": [
+      "It is an objective census of every psychologist worldwide.",
+      "It ranks every form of adult playfulness by one universal score.",
+      "It compares Proyer with the people known to the author.",
+      "It claims no one else has ever studied playfulness."
+    ],
+    "optionsZh": [
+      "对全球每位心理学家的客观普查。",
+      "按统一分数排名每种成人玩心。",
+      "只与作者所认识的人比较 Proyer。",
+      "声称其他人从未研究玩心。"
+    ],
+    "answer": 2,
+    "type": "语气与范围",
+    "support": "explicit",
+    "analyses": [
+      "A I know 限个人知识范围，不是全球完整普查。",
+      "B 不是给玩心类型打统一排名。",
+      "C 限定比较集合，保留作者评价归属。",
+      "D 研究更深入不等于别人完全没研究。"
+    ],
+    "vocabulary": [
+      {
+        "word": "anyone I know",
+        "meaning": "我认识的任何人；作者熟悉的人群范围",
+        "context": "限制作者比较，不自动覆盖世界上每一个研究者。",
+        "example": "She knows more about the archive than anyone I know.",
+        "collocations": [
+          "than anyone I know",
+          "more intensely than"
+        ]
+      }
+    ],
+    "translation": "有没有经验证据表明玩心确实有益？瑞士心理学家 René Proyer 对成人玩心的研究，比我认识的其他人都深入。他发现，玩心是经验开放性、外向性，以及相对较少尽责性与神经质的结合。文中把它描述为“愿意显得有点傻的开放态度”，包含不那么担心表现能力、不自视过高、不把规范当成神圣，以及从模糊和双重意味中发现智慧与乐趣。",
+    "evidenceTargetIds": [
+      "c07-s03-p073-03210-s002"
+    ],
+    "evidence": [
+      {
+        "quote": "Is there any empirical evidence that suggests playfulness is actually good? Swiss psychologist René Proyer has studied adult playfulness more intensely than anyone I know. He found that playfulness is a blend of openness to experience and extraversion, and a relative lack of conscientiousness and neuroticism. It is “an openness to being a fool, which is a combination of not worrying about competence, not being self-important, not taking norms as sacred and finding ambiguity and double edges a source of wisdom and delight.”",
+        "sentenceIds": [
+          "c07-s03-p073-03210-s001",
+          "c07-s03-p073-03210-s002",
+          "c07-s03-p073-03210-s003",
+          "c07-s03-p073-03210-s004"
+        ],
+        "sources": [
+          {
+            "pdfPage": 73,
+            "block": 2,
+            "bbox": [
+              76.99,
+              321,
+              535.01,
+              491.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "e3d971cfd45c0b8e7c9cbce86942c90b3fc8421f7e90316f2ccea27a7ce0387b"
+  },
+  {
+    "id": "qe-c07-0068",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-026",
+    "parentQuestionId": "q-c07-039",
+    "chapterId": "c07",
+    "sectionId": "c07-s03",
+    "paragraphId": "c07-s03-p073-03210",
+    "readingUnitId": "c07-s03-p073-03210-r001-004",
+    "sentenceIds": [
+      "c07-s03-p073-03210-s001",
+      "c07-s03-p073-03210-s002",
+      "c07-s03-p073-03210-s003",
+      "c07-s03-p073-03210-s004"
+    ],
+    "passage": "Is there any empirical evidence that suggests playfulness is actually good? Swiss psychologist René Proyer has studied adult playfulness more intensely than anyone I know. He found that playfulness is a blend of openness to experience and extraversion, and a relative lack of conscientiousness and neuroticism. It is “an openness to being a fool, which is a combination of not worrying about competence, not being self-important, not taking norms as sacred and finding ambiguity and double edges a source of wisdom and delight.”",
+    "prompt": "Which attitude fits the quoted 'openness to being a fool'?",
+    "promptZh": "引文 openness to being a fool 对应哪种态度？",
+    "options": [
+      "A need to appear competent and important at every moment.",
+      "Treating every norm as sacred and every ambiguity as a threat.",
+      "Refusing to consider more than one possible meaning.",
+      "Willingness to look silly and find delight or insight in ambiguity."
+    ],
+    "optionsZh": [
+      "每一刻都必须显得有能力又重要。",
+      "把一切规范奉为神圣、把模糊当威胁。",
+      "拒绝考虑多种含义。",
+      "愿意显得有点傻，并从模糊中找乐趣或见识。"
+    ],
+    "answer": 3,
+    "type": "主旨",
+    "support": "explicit",
+    "analyses": [
+      "A not worrying about competence、not self-important 与此相反。",
+      "B not taking norms as sacred 且 ambiguity 可带wisdom,delight。",
+      "C double edges 强调多义趣味，不是禁止多义。",
+      "D 概括整段列举，不等于鼓励伤害别人或无条件取消所有规则。"
+    ],
+    "vocabulary": [
+      {
+        "word": "ambiguity",
+        "meaning": "模糊性；多义；不止一种解释的空间",
+        "context": "在引文中成为智慧与乐趣的来源，不是必然错误或完全无法理解。",
+        "example": "The joke relies on the ambiguity of one word.",
+        "collocations": [
+          "finding ambiguity a source of delight",
+          "ambiguity and double edges"
+        ]
+      }
+    ],
+    "translation": "有没有经验证据表明玩心确实有益？瑞士心理学家 René Proyer 对成人玩心的研究，比我认识的其他人都深入。他发现，玩心是经验开放性、外向性，以及相对较少尽责性与神经质的结合。文中把它描述为“愿意显得有点傻的开放态度”，包含不那么担心表现能力、不自视过高、不把规范当成神圣，以及从模糊和双重意味中发现智慧与乐趣。",
+    "evidenceTargetIds": [
+      "c07-s03-p073-03210-s004"
+    ],
+    "evidence": [
+      {
+        "quote": "Is there any empirical evidence that suggests playfulness is actually good? Swiss psychologist René Proyer has studied adult playfulness more intensely than anyone I know. He found that playfulness is a blend of openness to experience and extraversion, and a relative lack of conscientiousness and neuroticism. It is “an openness to being a fool, which is a combination of not worrying about competence, not being self-important, not taking norms as sacred and finding ambiguity and double edges a source of wisdom and delight.”",
+        "sentenceIds": [
+          "c07-s03-p073-03210-s001",
+          "c07-s03-p073-03210-s002",
+          "c07-s03-p073-03210-s003",
+          "c07-s03-p073-03210-s004"
+        ],
+        "sources": [
+          {
+            "pdfPage": 73,
+            "block": 2,
+            "bbox": [
+              76.99,
+              321,
+              535.01,
+              491.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "18a6a298ce9aa82ec7f14716b3172ada66304ec041f203ed3d2ec160df86514f"
+  },
+  {
+    "id": "qe-c07-0069",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-026",
+    "parentQuestionId": "q-c07-041",
+    "chapterId": "c07",
+    "sectionId": "c07-s03",
+    "paragraphId": "c07-s03-p073-04965",
+    "readingUnitId": "c07-s03-p073-04965-r001-004",
+    "sentenceIds": [
+      "c07-s03-p073-04965-s001",
+      "c07-s03-p073-04965-s002",
+      "c07-s03-p073-04965-s003",
+      "c07-s03-p073-04965-s004"
+    ],
+    "passage": "In a 2013 paper, Proyer found that playful people are slightly more satisfied with their lives than those who are less playful. He also discovered that happy people enjoyed communing with nature, whereas playful people did not. In contrast, happy people did not particularly enjoy going on vacation, whereas playful people did. A recent study randomly assigned some participants to count the playful things they did every day for one week, whereas others did not receive the instructions to count.",
+    "prompt": "What is the magnitude and scope of Proyer's 2013 life-satisfaction finding?",
+    "promptZh": "Proyer 2013年生活满意度发现的程度和范围是什么？",
+    "options": [
+      "Playful people were vastly happier in every possible situation.",
+      "Playful people were slightly more satisfied than less-playful people in that reported study.",
+      "The study proved playfulness caused every participant's permanent recovery.",
+      "There was no comparison between different levels of playfulness."
+    ],
+    "optionsZh": [
+      "有玩心者在所有情形都幸福得多。",
+      "所述研究中，有玩心者比较少玩心者生活满意度略高。",
+      "研究证明玩心造成每人永久康复。",
+      "未比较不同玩心程度者。"
+    ],
+    "answer": 1,
+    "type": "语气与范围",
+    "support": "explicit",
+    "analyses": [
+      "A slightly 不是vastly，满意度也不可扩大为所有情形。",
+      "B 保留2013、slightly及相对组别，作为本书所报发现。",
+      "C 下一研究的随机设计不能移到这项2013比较，更没有每人永久康复。",
+      "D than those less playful 明确比较，不能删除。"
+    ],
+    "vocabulary": [
+      {
+        "word": "slightly",
+        "meaning": "略微；小幅度地",
+        "context": "限定差异大小，不可改成极大或对所有个体都相同。",
+        "example": "The second group reported slightly higher satisfaction.",
+        "collocations": [
+          "slightly more satisfied",
+          "slightly higher levels"
+        ]
+      }
+    ],
+    "translation": "在 2013 年论文中，Proyer 发现，有玩心者比玩心较少者对生活略更满意。他还发现，幸福者享受亲近自然，有玩心者则不然。反过来，幸福者并非特别喜欢度假，有玩心者却喜欢。另一项近期研究把一些参与者随机分派为连续一周每天清点自己做过的有玩心的事；其他人则未收到清点指令。“近期”依原书叙述时点。",
+    "evidenceTargetIds": [
+      "c07-s03-p073-04965-s001"
+    ],
+    "evidence": [
+      {
+        "quote": "In a 2013 paper, Proyer found that playful people are slightly more satisfied with their lives than those who are less playful. He also discovered that happy people enjoyed communing with nature, whereas playful people did not. In contrast, happy people did not particularly enjoy going on vacation, whereas playful people did. A recent study randomly assigned some participants to count the playful things they did every day for one week, whereas others did not receive the instructions to count.",
+        "sentenceIds": [
+          "c07-s03-p073-04965-s001",
+          "c07-s03-p073-04965-s002",
+          "c07-s03-p073-04965-s003",
+          "c07-s03-p073-04965-s004"
+        ],
+        "sources": [
+          {
+            "pdfPage": 73,
+            "block": 3,
+            "bbox": [
+              76.99,
+              496.5,
+              535.01,
+              706.02
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "994e09bd2037c2cdb668747c981913390d3c1661d06b6c0fafa00ba5a7c52c4a"
+  },
+  {
+    "id": "qe-c07-0070",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-026",
+    "parentQuestionId": "q-c07-041",
+    "chapterId": "c07",
+    "sectionId": "c07-s03",
+    "paragraphId": "c07-s03-p073-04965",
+    "readingUnitId": "c07-s03-p073-04965-r001-004",
+    "sentenceIds": [
+      "c07-s03-p073-04965-s001",
+      "c07-s03-p073-04965-s002",
+      "c07-s03-p073-04965-s003",
+      "c07-s03-p073-04965-s004"
+    ],
+    "passage": "In a 2013 paper, Proyer found that playful people are slightly more satisfied with their lives than those who are less playful. He also discovered that happy people enjoyed communing with nature, whereas playful people did not. In contrast, happy people did not particularly enjoy going on vacation, whereas playful people did. A recent study randomly assigned some participants to count the playful things they did every day for one week, whereas others did not receive the instructions to count.",
+    "prompt": "What contrast about nature is reported from Proyer's study?",
+    "promptZh": "Proyer 研究中，亲近自然的报告呈现什么对比？",
+    "options": [
+      "Both labels are said to mean exactly the same preference for nature.",
+      "Playful people enjoyed nature, while happy people did not.",
+      "Neither group was discussed in relation to nature.",
+      "Happy people enjoyed communing with nature, whereas playful people did not in the reported comparison."
+    ],
+    "optionsZh": [
+      "两个标签被说成对自然的偏好完全相同。",
+      "有玩心者享受自然，幸福者不然。",
+      "两组都未就自然讨论。",
+      "所述比较中，幸福者享受亲近自然，有玩心者则不然。"
+    ],
+    "answer": 3,
+    "type": "细节",
+    "support": "explicit",
+    "analyses": [
+      "A whereas 标出报告的对比，不能合并标签。",
+      "B 方向倒置。",
+      "C 本句明确有 nature。",
+      "D 保留本研究的报告范围，不推为每个自称有玩心的人永远不喜欢自然，亦不把两个维度视为全然互斥。"
+    ],
+    "vocabulary": [
+      {
+        "word": "communing with nature",
+        "meaning": "亲近自然；与自然沉浸相处",
+        "context": "指享受与自然的联系，不是与自然举行正式会议。",
+        "example": "She enjoyed communing with nature on quiet walks.",
+        "collocations": [
+          "enjoy communing with nature",
+          "commune with nature"
+        ]
+      }
+    ],
+    "translation": "在 2013 年论文中，Proyer 发现，有玩心者比玩心较少者对生活略更满意。他还发现，幸福者享受亲近自然，有玩心者则不然。反过来，幸福者并非特别喜欢度假，有玩心者却喜欢。另一项近期研究把一些参与者随机分派为连续一周每天清点自己做过的有玩心的事；其他人则未收到清点指令。“近期”依原书叙述时点。",
+    "evidenceTargetIds": [
+      "c07-s03-p073-04965-s002"
+    ],
+    "evidence": [
+      {
+        "quote": "In a 2013 paper, Proyer found that playful people are slightly more satisfied with their lives than those who are less playful. He also discovered that happy people enjoyed communing with nature, whereas playful people did not. In contrast, happy people did not particularly enjoy going on vacation, whereas playful people did. A recent study randomly assigned some participants to count the playful things they did every day for one week, whereas others did not receive the instructions to count.",
+        "sentenceIds": [
+          "c07-s03-p073-04965-s001",
+          "c07-s03-p073-04965-s002",
+          "c07-s03-p073-04965-s003",
+          "c07-s03-p073-04965-s004"
+        ],
+        "sources": [
+          {
+            "pdfPage": 73,
+            "block": 3,
+            "bbox": [
+              76.99,
+              496.5,
+              535.01,
+              706.02
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "96a13d73293bdad834bf740ec93823cd849f7eb16b8b91bcbf03fdb57f235078"
+  },
+  {
+    "id": "qe-c07-0071",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-026",
+    "parentQuestionId": "q-c07-041",
+    "chapterId": "c07",
+    "sectionId": "c07-s03",
+    "paragraphId": "c07-s03-p073-04965",
+    "readingUnitId": "c07-s03-p073-04965-r001-004",
+    "sentenceIds": [
+      "c07-s03-p073-04965-s001",
+      "c07-s03-p073-04965-s002",
+      "c07-s03-p073-04965-s003",
+      "c07-s03-p073-04965-s004"
+    ],
+    "passage": "In a 2013 paper, Proyer found that playful people are slightly more satisfied with their lives than those who are less playful. He also discovered that happy people enjoyed communing with nature, whereas playful people did not. In contrast, happy people did not particularly enjoy going on vacation, whereas playful people did. A recent study randomly assigned some participants to count the playful things they did every day for one week, whereas others did not receive the instructions to count.",
+    "prompt": "Which reading preserves 'did not particularly enjoy going on vacation'?",
+    "promptZh": "怎样理解 did not particularly enjoy going on vacation 才准确？",
+    "options": [
+      "Happy people were not especially keen on vacations in this reported comparison, while playful people were.",
+      "Happy people were proved never to take any vacation.",
+      "Happy people disliked every aspect of all travel permanently.",
+      "Neither group enjoyed vacations and no contrast was found."
+    ],
+    "optionsZh": [
+      "本次比较中，幸福者并非特别爱度假，有玩心者则较爱。",
+      "已证明幸福者从不休任何假。",
+      "幸福者永久讨厌一切旅行所有方面。",
+      "两组都不喜欢度假且无差异。"
+    ],
+    "answer": 0,
+    "type": "语气与范围",
+    "support": "explicit",
+    "analyses": [
+      "A not particularly 限偏好程度，whereas 提供另一组对照。",
+      "B 不特别喜欢不等于实际从未去。",
+      "C 擅加每种旅行、永久和所有方面。",
+      "D playful people did 与两组全不喜欢不符；不把2013比较与后一随机一周任务混同。"
+    ],
+    "vocabulary": [
+      {
+        "word": "particularly",
+        "meaning": "特别地；尤其",
+        "context": "not particularly 是否定特别程度，而非否定所有可能享受。",
+        "example": "I do not particularly enjoy crowds, but I liked that concert.",
+        "collocations": [
+          "not particularly enjoy",
+          "particularly interested in"
+        ]
+      }
+    ],
+    "translation": "在 2013 年论文中，Proyer 发现，有玩心者比玩心较少者对生活略更满意。他还发现，幸福者享受亲近自然，有玩心者则不然。反过来，幸福者并非特别喜欢度假，有玩心者却喜欢。另一项近期研究把一些参与者随机分派为连续一周每天清点自己做过的有玩心的事；其他人则未收到清点指令。“近期”依原书叙述时点。",
+    "evidenceTargetIds": [
+      "c07-s03-p073-04965-s003"
+    ],
+    "evidence": [
+      {
+        "quote": "In a 2013 paper, Proyer found that playful people are slightly more satisfied with their lives than those who are less playful. He also discovered that happy people enjoyed communing with nature, whereas playful people did not. In contrast, happy people did not particularly enjoy going on vacation, whereas playful people did. A recent study randomly assigned some participants to count the playful things they did every day for one week, whereas others did not receive the instructions to count.",
+        "sentenceIds": [
+          "c07-s03-p073-04965-s001",
+          "c07-s03-p073-04965-s002",
+          "c07-s03-p073-04965-s003",
+          "c07-s03-p073-04965-s004"
+        ],
+        "sources": [
+          {
+            "pdfPage": 73,
+            "block": 3,
+            "bbox": [
+              76.99,
+              496.5,
+              535.01,
+              706.02
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "786f6a4ffa4f272fefbf4c7d1c16e105ff14ec18e564e9f3f61bfab13db453ae"
+  },
+  {
+    "id": "qe-c07-0072",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-026",
+    "parentQuestionId": "q-c07-043",
+    "chapterId": "c07",
+    "sectionId": "c07-s04",
+    "paragraphId": "c07-s04-p074-01650",
+    "readingUnitId": "c07-s04-p074-01650-r001-003",
+    "sentenceIds": [
+      "c07-s04-p074-01650-s001",
+      "c07-s04-p074-01650-s002",
+      "c07-s04-p074-01650-s003"
+    ],
+    "passage": "Like playfulness, spontaneity can enrich our lives. One of the reasons why sitcoms like Friends and Seinfeld remain so popular is that they portray a fantasy world where you can pop in and out of a friend’s apartment anytime you want, no appointment necessary, and do something unplanned every day. If you aren’t naturally spontaneous, making friends like Samantha in Sex and the City can bring playfulness and spontaneity to your life.",
+    "prompt": "How does the first spontaneity sentence connect with playfulness?",
+    "promptZh": "自发性开头一句怎样与玩心相接？",
+    "options": [
+      "It declares them identical in every respect.",
+      "It says both require ignoring every appointment.",
+      "It presents spontaneity as another possible source of enrichment.",
+      "It denies that playfulness can enrich life."
+    ],
+    "optionsZh": [
+      "宣称两者所有方面完全相同。",
+      "说两者都必须无视所有预约。",
+      "把自发性列为另一种可能丰富人生的来源。",
+      "否认玩心能丰富人生。"
+    ],
+    "answer": 2,
+    "type": "逻辑关系",
+    "support": "explicit",
+    "analyses": [
+      "A Like 是类比相似作用，不是定义全同。",
+      "B 后面情景喜剧为幻想例子，不能改成读者责任规则。",
+      "C Like playfulness 与 can enrich 表联系及可能性。",
+      "D 恰借玩心有益来引入自发性，不是否定。"
+    ],
+    "vocabulary": [
+      {
+        "word": "spontaneity",
+        "meaning": "自发性；随兴而为的倾向",
+        "context": "未事先安排的活动或互动，不等于毫无考虑或永久拒绝计划。",
+        "example": "A little spontaneity made the afternoon feel different.",
+        "collocations": [
+          "spontaneity can enrich",
+          "playfulness and spontaneity"
+        ]
+      }
+    ],
+    "translation": "像玩心一样，自发性也能丰富人生。Friends 和 Seinfeld 等情景喜剧持续受欢迎，一个原因是它们描绘幻想世界：随时进出朋友公寓，无须预约，每天都可做没计划的事。如果你天性不随兴，结交像 Sex and the City 中 Samantha 那样的朋友，可能把玩心与自发性带进生活。",
+    "evidenceTargetIds": [
+      "c07-s04-p074-01650-s001"
+    ],
+    "evidence": [
+      {
+        "quote": "Like playfulness, spontaneity can enrich our lives. One of the reasons why sitcoms like Friends and Seinfeld remain so popular is that they portray a fantasy world where you can pop in and out of a friend’s apartment anytime you want, no appointment necessary, and do something unplanned every day. If you aren’t naturally spontaneous, making friends like Samantha in Sex and the City can bring playfulness and spontaneity to your life.",
+        "sentenceIds": [
+          "c07-s04-p074-01650-s001",
+          "c07-s04-p074-01650-s002",
+          "c07-s04-p074-01650-s003"
+        ],
+        "sources": [
+          {
+            "pdfPage": 74,
+            "block": 2,
+            "bbox": [
+              76.99,
+              165,
+              535.01,
+              277.02
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "329dabece8c5585b9c7846a51b19756556070af3f5ee179913f31bb465ff157f"
+  },
+  {
+    "id": "qe-c07-0073",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-026",
+    "parentQuestionId": "q-c07-044",
+    "chapterId": "c07",
+    "sectionId": "c07-s04",
+    "paragraphId": "c07-s04-p074-02820",
+    "readingUnitId": "c07-s04-p074-02820-r001-004",
+    "sentenceIds": [
+      "c07-s04-p074-02820-s001",
+      "c07-s04-p074-02820-s002",
+      "c07-s04-p074-02820-s003",
+      "c07-s04-p074-02820-s004"
+    ],
+    "passage": "Here comes a hard question: When was the last time you went out with someone spontaneously? I still go on some spontaneous outings with my wife when we can, but I haven’t done anything like that with my friends for years. In graduate school, when most of my friends were at school, I would stop by a lab mate’s office and we would go across the street to Espresso Royale for a cup of coffee. Almost every day, I had coffee with someone.",
+    "prompt": "What is the role of asking when the reader last went out spontaneously?",
+    "promptZh": "询问读者上次随兴出门是什么时候，有什么作用？",
+    "options": [
+      "It records an answer the reader has already submitted.",
+      "It invites reflection before the author's personal comparison.",
+      "It proves no reader ever has spontaneous outings.",
+      "It establishes a required number of outings for happiness."
+    ],
+    "optionsZh": [
+      "记录读者已提交的答案。",
+      "在作者个人对照前引导反思。",
+      "证明所有读者从未随兴外出。",
+      "建立幸福所需出门次数的硬性要求。"
+    ],
+    "answer": 1,
+    "type": "作者意图",
+    "support": "explicit",
+    "analyses": [
+      "A 书中问句不是已经采集的真实历史。",
+      "B 后面由妻子、朋友及研究生时代讲述作个人例子。",
+      "C 问句本身没有所有人的数据。",
+      "D 未规定次数或保证幸福，不能将反思问题当成评分事实。"
+    ],
+    "vocabulary": [
+      {
+        "word": "spontaneously",
+        "meaning": "自发地；临时随兴地",
+        "context": "修饰未事先计划的外出，不是说毫无任何意愿或控制。",
+        "example": "We spontaneously decided to walk through the nearby park.",
+        "collocations": [
+          "went out spontaneously",
+          "spontaneous outings"
+        ]
+      }
+    ],
+    "translation": "一个难题来了：你上次与人随兴外出是什么时候？有机会时，我仍会和妻子随兴出门，但与朋友这样做已经多年没有了。读研究生时，大多数朋友都在学校，我会顺便去实验室伙伴的办公室，一起过街到 Espresso Royale 喝咖啡。几乎每天，我都和人喝咖啡。",
+    "evidenceTargetIds": [
+      "c07-s04-p074-02820-s001"
+    ],
+    "evidence": [
+      {
+        "quote": "Here comes a hard question: When was the last time you went out with someone spontaneously? I still go on some spontaneous outings with my wife when we can, but I haven’t done anything like that with my friends for years. In graduate school, when most of my friends were at school, I would stop by a lab mate’s office and we would go across the street to Espresso Royale for a cup of coffee. Almost every day, I had coffee with someone.",
+        "sentenceIds": [
+          "c07-s04-p074-02820-s001",
+          "c07-s04-p074-02820-s002",
+          "c07-s04-p074-02820-s003",
+          "c07-s04-p074-02820-s004"
+        ],
+        "sources": [
+          {
+            "pdfPage": 74,
+            "block": 3,
+            "bbox": [
+              76.99,
+              282,
+              535,
+              413.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "fa83a9ad27201df4b78f6d4e1debf56c46570fbe823d152faf5dc4cb63bc094d"
+  },
+  {
+    "id": "qe-c07-0074",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-026",
+    "parentQuestionId": "q-c07-044",
+    "chapterId": "c07",
+    "sectionId": "c07-s04",
+    "paragraphId": "c07-s04-p074-02820",
+    "readingUnitId": "c07-s04-p074-02820-r001-004",
+    "sentenceIds": [
+      "c07-s04-p074-02820-s001",
+      "c07-s04-p074-02820-s002",
+      "c07-s04-p074-02820-s003",
+      "c07-s04-p074-02820-s004"
+    ],
+    "passage": "Here comes a hard question: When was the last time you went out with someone spontaneously? I still go on some spontaneous outings with my wife when we can, but I haven’t done anything like that with my friends for years. In graduate school, when most of my friends were at school, I would stop by a lab mate’s office and we would go across the street to Espresso Royale for a cup of coffee. Almost every day, I had coffee with someone.",
+    "prompt": "Which distinction does the author make about recent spontaneous outings?",
+    "promptZh": "作者怎样区分自己近来的随兴外出？",
+    "options": [
+      "He sometimes goes with his wife, but has not done so with friends for years.",
+      "He has done so daily with all his friends in recent years.",
+      "He has never gone out with his wife at any time.",
+      "He says every graduate student now has the same schedule as his."
+    ],
+    "optionsZh": [
+      "有时仍与妻子去，但与朋友这样已有多年未做。",
+      "近年每天与所有朋友这样去。",
+      "他从未与妻子出门。",
+      "他说现在每位研究生都和他同样日程。"
+    ],
+    "answer": 0,
+    "type": "细节",
+    "support": "explicit",
+    "analyses": [
+      "A some...when we can 与 haven't...friends for years 给两类对象及频率。",
+      "B 研究生时的 almost every day 不能移作近年全体朋友。",
+      "C still some 不是 never。",
+      "D 自己过去经历不能作为现在所有研究生的统计。"
+    ],
+    "vocabulary": [
+      {
+        "word": "when we can",
+        "meaning": "有机会时；条件允许时",
+        "context": "限定与妻子的部分随兴外出，不是固定每天或从未发生。",
+        "example": "We take a short walk when we can.",
+        "collocations": [
+          "with my wife when we can",
+          "some spontaneous outings"
+        ]
+      }
+    ],
+    "translation": "一个难题来了：你上次与人随兴外出是什么时候？有机会时，我仍会和妻子随兴出门，但与朋友这样做已经多年没有了。读研究生时，大多数朋友都在学校，我会顺便去实验室伙伴的办公室，一起过街到 Espresso Royale 喝咖啡。几乎每天，我都和人喝咖啡。",
+    "evidenceTargetIds": [
+      "c07-s04-p074-02820-s002"
+    ],
+    "evidence": [
+      {
+        "quote": "Here comes a hard question: When was the last time you went out with someone spontaneously? I still go on some spontaneous outings with my wife when we can, but I haven’t done anything like that with my friends for years. In graduate school, when most of my friends were at school, I would stop by a lab mate’s office and we would go across the street to Espresso Royale for a cup of coffee. Almost every day, I had coffee with someone.",
+        "sentenceIds": [
+          "c07-s04-p074-02820-s001",
+          "c07-s04-p074-02820-s002",
+          "c07-s04-p074-02820-s003",
+          "c07-s04-p074-02820-s004"
+        ],
+        "sources": [
+          {
+            "pdfPage": 74,
+            "block": 3,
+            "bbox": [
+              76.99,
+              282,
+              535,
+              413.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "83bf961fc52836f83c2dfcf4d74829d977c2dff93f89f3968a22d2e1da6b8665"
+  },
+  {
+    "id": "qe-c07-0075",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-026",
+    "parentQuestionId": "q-c07-046",
+    "chapterId": "c07",
+    "sectionId": "c07-s04",
+    "paragraphId": "c07-s04-p074-04185",
+    "readingUnitId": "c07-s04-p074-04185-r001-004",
+    "sentenceIds": [
+      "c07-s04-p074-04185-s001",
+      "c07-s04-p074-04185-s002",
+      "c07-s04-p074-04185-s003",
+      "c07-s04-p074-04185-s004"
+    ],
+    "passage": "When I got a faculty position at the University of Minnesota, I hoped to do the same and dropped by a nearby assistant professor’s office. I knocked on the door and said, “Hi, Bob, do you want to grab coffee?” He said, “Nope. I can’t.",
+    "prompt": "What did the author do after taking a faculty position in Minnesota?",
+    "promptZh": "在 Minnesota 获得教职后，作者做了什么？",
+    "options": [
+      "He booked a formal meeting two weeks ahead before saying hello.",
+      "He stopped trying to see colleagues in person.",
+      "He moved his colleague's office to a different university.",
+      "He dropped by a nearby assistant professor's office and invited him for coffee."
+    ],
+    "optionsZh": [
+      "打招呼前先约两周后的正式会议。",
+      "他停止尝试当面见同事。",
+      "他把同事办公室移到另一大学。",
+      "他顺路去附近助理教授办公室，邀请喝咖啡。"
+    ],
+    "answer": 3,
+    "type": "细节",
+    "support": "explicit",
+    "analyses": [
+      "A 两周后的时间是对方后面提出的，不是作者事前预约。",
+      "B dropped by 与停止见面相反。",
+      "C 无搬办公室情节。",
+      "D 首句拜访加下一句 grab coffee 表明临时互动尝试；不把个人例子变为所有教授的行为。"
+    ],
+    "vocabulary": [
+      {
+        "word": "dropped by",
+        "meaning": "顺路拜访；临时去看看",
+        "context": "通常指非正式短访，区别于提前预约两周。",
+        "example": "I dropped by her office to ask a quick question.",
+        "collocations": [
+          "dropped by an office",
+          "drop by for coffee"
+        ]
+      }
+    ],
+    "translation": "我在 University of Minnesota 得到教职时，希望也这样，便顺路去附近一位助理教授的办公室。我敲门说：“嗨，Bob，要不要喝杯咖啡？”他说：“不行。我不能。”",
+    "evidenceTargetIds": [
+      "c07-s04-p074-04185-s001"
+    ],
+    "evidence": [
+      {
+        "quote": "When I got a faculty position at the University of Minnesota, I hoped to do the same and dropped by a nearby assistant professor’s office. I knocked on the door and said, “Hi, Bob, do you want to grab coffee?” He said, “Nope. I can’t.",
+        "sentenceIds": [
+          "c07-s04-p074-04185-s001",
+          "c07-s04-p074-04185-s002",
+          "c07-s04-p074-04185-s003",
+          "c07-s04-p074-04185-s004"
+        ],
+        "sources": [
+          {
+            "pdfPage": 74,
+            "block": 4,
+            "bbox": [
+              76.99,
+              418.5,
+              535.01,
+              589.02
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "847c3d5520704d30aa7c828abe68eb03106fa6fffc30885e0c0997c2f15e5234"
+  },
+  {
+    "id": "qe-c07-0076",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-026",
+    "parentQuestionId": "q-c07-047",
+    "chapterId": "c07",
+    "sectionId": "c07-s04",
+    "paragraphId": "c07-s04-p074-04185",
+    "readingUnitId": "c07-s04-p074-04185-r005-008",
+    "sentenceIds": [
+      "c07-s04-p074-04185-s005",
+      "c07-s04-p074-04185-s006",
+      "c07-s04-p074-04185-s007",
+      "c07-s04-p074-04185-s008"
+    ],
+    "passage": "I don’t have time right now.” Then he searched his pocket and took out a PDA (this was September 2000), looked at his schedule carefully, and said, “What about in two weeks?” I was stunned. This was what it meant to be a professor as opposed to a graduate student, I thought.",
+    "prompt": "How is the colleague's 'right now' refusal limited by the following offer?",
+    "promptZh": "同事 right now 的拒绝怎样被后面提议限定？",
+    "options": [
+      "He refuses any meeting at any time in the future.",
+      "He does not have time immediately but proposes a time two weeks later.",
+      "He says the author must wait exactly two years.",
+      "He has already agreed to leave immediately without checking a schedule."
+    ],
+    "optionsZh": [
+      "他拒绝未来任何时刻见面。",
+      "眼下没时间，但提出两周后的时间。",
+      "他说作者必须等整两年。",
+      "他没看日程就已同意立即离开。"
+    ],
+    "answer": 1,
+    "type": "逻辑关系",
+    "support": "explicit",
+    "analyses": [
+      "A right now 与后面 What about in two weeks 不支持永久拒绝。",
+      "B 当下与延后提议形成时点对照。",
+      "C two weeks 不是 two years。",
+      "D 原文看PDA日程且没有立即去；这是本书2000年9月的个人经历。"
+    ],
+    "vocabulary": [
+      {
+        "word": "right now",
+        "meaning": "现在；就在此刻",
+        "context": "否定此刻有空，不等于永远没空或从不愿交往。",
+        "example": "I cannot discuss it right now, but tomorrow may work.",
+        "collocations": [
+          "don't have time right now",
+          "right now"
+        ]
+      }
+    ],
+    "translation": "“我现在没有时间。”然后他翻口袋，掏出 PDA（那是 2000 年 9 月），仔细看日程说：“两周后怎么样？”我愣住了。我心想，原来这就是教授与研究生的不同。",
+    "evidenceTargetIds": [
+      "c07-s04-p074-04185-s005"
+    ],
+    "evidence": [
+      {
+        "quote": "I don’t have time right now.” Then he searched his pocket and took out a PDA (this was September 2000), looked at his schedule carefully, and said, “What about in two weeks?” I was stunned. This was what it meant to be a professor as opposed to a graduate student, I thought.",
+        "sentenceIds": [
+          "c07-s04-p074-04185-s005",
+          "c07-s04-p074-04185-s006",
+          "c07-s04-p074-04185-s007",
+          "c07-s04-p074-04185-s008"
+        ],
+        "sources": [
+          {
+            "pdfPage": 74,
+            "block": 4,
+            "bbox": [
+              76.99,
+              418.5,
+              535.01,
+              589.02
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "3e66f96de9cf0d32dc974cef122190a1d1278d7a06d49b369047e3f6d24c5119"
+  },
+  {
+    "id": "qe-c07-0077",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-026",
+    "parentQuestionId": "q-c07-047",
+    "chapterId": "c07",
+    "sectionId": "c07-s04",
+    "paragraphId": "c07-s04-p074-04185",
+    "readingUnitId": "c07-s04-p074-04185-r005-008",
+    "sentenceIds": [
+      "c07-s04-p074-04185-s005",
+      "c07-s04-p074-04185-s006",
+      "c07-s04-p074-04185-s007",
+      "c07-s04-p074-04185-s008"
+    ],
+    "passage": "I don’t have time right now.” Then he searched his pocket and took out a PDA (this was September 2000), looked at his schedule carefully, and said, “What about in two weeks?” I was stunned. This was what it meant to be a professor as opposed to a graduate student, I thought.",
+    "prompt": "What does 'I thought' indicate about the professor-versus-student comparison?",
+    "promptZh": "教授与研究生的比较里 I thought 表示什么？",
+    "options": [
+      "A controlled survey established the same rule for all professors.",
+      "The colleague directly announced a universal scientific result.",
+      "The narrator is reporting his own interpretation of the experience.",
+      "Every graduate student was formally assigned to avoid appointments."
+    ],
+    "optionsZh": [
+      "控制调查给所有教授建立同一规律。",
+      "同事直接宣布普遍科学结论。",
+      "叙述者在报告自己对这次经历的理解。",
+      "每位研究生被正式安排不要预约。"
+    ],
+    "answer": 2,
+    "type": "观点归属",
+    "support": "explicit",
+    "analyses": [
+      "A 当前是个人场景，没有这类调查。",
+      "B 说话者是 I，不是同事宣读研究。",
+      "C 末尾 I thought 限定为作者当时的感想。",
+      "D 无正式分派；个案理解不能变成对整个职业的无例外刻板判断。"
+    ],
+    "vocabulary": [
+      {
+        "word": "as opposed to",
+        "meaning": "相对于；与……形成对照",
+        "context": "在作者感想中比较教授与研究生的时间习惯，不必解释为两类人道德对立。",
+        "example": "The course emphasises discussion as opposed to memorisation alone.",
+        "collocations": [
+          "professor as opposed to graduate student",
+          "as opposed to"
+        ]
+      }
+    ],
+    "translation": "“我现在没有时间。”然后他翻口袋，掏出 PDA（那是 2000 年 9 月），仔细看日程说：“两周后怎么样？”我愣住了。我心想，原来这就是教授与研究生的不同。",
+    "evidenceTargetIds": [
+      "c07-s04-p074-04185-s008"
+    ],
+    "evidence": [
+      {
+        "quote": "I don’t have time right now.” Then he searched his pocket and took out a PDA (this was September 2000), looked at his schedule carefully, and said, “What about in two weeks?” I was stunned. This was what it meant to be a professor as opposed to a graduate student, I thought.",
+        "sentenceIds": [
+          "c07-s04-p074-04185-s005",
+          "c07-s04-p074-04185-s006",
+          "c07-s04-p074-04185-s007",
+          "c07-s04-p074-04185-s008"
+        ],
+        "sources": [
+          {
+            "pdfPage": 74,
+            "block": 4,
+            "bbox": [
+              76.99,
+              418.5,
+              535.01,
+              589.02
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "741d413cc4072f7f310957198d810c46fe3f5b19c3735010757d90a6a999e950"
+  },
+  {
+    "id": "qe-c07-0078",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-026",
+    "parentQuestionId": "q-c07-048",
+    "chapterId": "c07",
+    "sectionId": "c07-s04",
+    "paragraphId": "c07-s04-p074-04185",
+    "readingUnitId": "c07-s04-p074-04185-r009-011",
+    "sentenceIds": [
+      "c07-s04-p074-04185-s009",
+      "c07-s04-p074-04185-s010",
+      "c07-s04-p074-04185-s011"
+    ],
+    "passage": "Professors are not just busy but highly protective of their time. A senior professor later advised me to be stingy with my time. Otherwise, I wouldn’t be productive.",
+    "prompt": "What does 'not just busy but highly protective of their time' add?",
+    "promptZh": "not just busy but highly protective of their time 补充什么？",
+    "options": [
+      "They have no work and dislike all colleagues.",
+      "Being busy and protecting time are the same word with no added meaning.",
+      "Every professor has an identical calendar.",
+      "In addition to busyness, the author stresses active guarding of available time."
+    ],
+    "optionsZh": [
+      "他们没有工作且讨厌所有同事。",
+      "忙与保护时间完全同义，没有增加含义。",
+      "每位教授日历完全相同。",
+      "在忙之外，作者强调主动保护可用时间。"
+    ],
+    "answer": 3,
+    "type": "逻辑关系",
+    "support": "explicit",
+    "analyses": [
+      "A 不由拒绝咖啡推定敌意或没工作。",
+      "B not just...but...增加一个侧面。",
+      "C 未给全体相同日历。",
+      "D 后文资深教授建议 stingy with time 支持主动珍惜时间，不是人人行为一模一样的实测定律。"
+    ],
+    "vocabulary": [
+      {
+        "word": "protective of",
+        "meaning": "保护、珍惜……的；不轻易让其被占用的",
+        "context": "此处对象是时间，不是说教授在身体上保护同事或绝不社交。",
+        "example": "She is protective of the time reserved for writing.",
+        "collocations": [
+          "highly protective of their time",
+          "be protective of"
+        ]
+      }
+    ],
+    "translation": "教授不只是忙，也高度保护自己的时间。后来，一位资深教授劝我要吝惜时间，否则便不会有工作产出。",
+    "evidenceTargetIds": [
+      "c07-s04-p074-04185-s009"
+    ],
+    "evidence": [
+      {
+        "quote": "Professors are not just busy but highly protective of their time. A senior professor later advised me to be stingy with my time. Otherwise, I wouldn’t be productive.",
+        "sentenceIds": [
+          "c07-s04-p074-04185-s009",
+          "c07-s04-p074-04185-s010",
+          "c07-s04-p074-04185-s011"
+        ],
+        "sources": [
+          {
+            "pdfPage": 74,
+            "block": 4,
+            "bbox": [
+              76.99,
+              418.5,
+              535.01,
+              589.02
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "94d75c9f81f3d106902861a2d18582de2e481e92f7b42045f118ecafb0848d6f"
+  },
+  {
+    "id": "qe-c07-0079",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-026",
+    "parentQuestionId": "q-c07-049",
+    "chapterId": "c07",
+    "sectionId": "c07-s04",
+    "paragraphId": "c07-s04-p074-05940",
+    "readingUnitId": "c07-s04-p074-05940-r001-004",
+    "sentenceIds": [
+      "c07-s04-p074-05940-s001",
+      "c07-s04-p074-05940-s002",
+      "c07-s04-p074-05940-s003",
+      "c07-s04-p074-05940-s004"
+    ],
+    "passage": "We live in a highly scheduled time. Our calendars are packed, leaving few opportunities for spontaneous activities. The pandemic-era shift to remote work has further limited spontaneous interaction. Pamela Hinds, a professor at Stanford Business School specializing in work teams, collaboration, and innovation, wondered if work teams consisting of people at multiple sites collaborate and innovate at the same rate as work teams where everyone is at a single site.",
+    "prompt": "What does 'a highly scheduled time' mean in the paragraph?",
+    "promptZh": "a highly scheduled time 在本段是什么意思？",
+    "options": [
+      "An era in which activities are heavily organised into calendars.",
+      "One precise hour that a clock displays accurately.",
+      "A time when no one ever plans anything.",
+      "A period with no responsibilities or work meetings."
+    ],
+    "optionsZh": [
+      "活动高度排入日历的时代。",
+      "时钟精确显示的某一小时。",
+      "没人计划任何事的时期。",
+      "没有责任或工作会议的时期。"
+    ],
+    "answer": 0,
+    "type": "语境词义",
+    "support": "explicit",
+    "analyses": [
+      "A 下一句 Our calendars are packed 解释高度排程的社会状态。",
+      "B time 在此为时期时代，不是单个钟点。",
+      "C 与 scheduled 方向相反。",
+      "D packed 与无责任不符，但仍不能扩大所有人每一天完全相同。"
+    ],
+    "vocabulary": [
+      {
+        "word": "scheduled",
+        "meaning": "被排定的；预先安排好的",
+        "context": "描述时代生活的组织倾向，不指某一个特定预约时间。",
+        "example": "A tightly scheduled week leaves little room for changes.",
+        "collocations": [
+          "a highly scheduled time",
+          "scheduled activities"
+        ]
+      }
+    ],
+    "translation": "我们生活在高度排程的时代，日历排得满满，几乎不留随兴活动机会。疫情时期转向远程工作，更限制了自发互动。Stanford Business School 研究工作团队、协作与创新的教授 Pamela Hinds 想知道，多地点团队是否能像所有人同处一地的团队，以相同速度协作和创新。",
+    "evidenceTargetIds": [
+      "c07-s04-p074-05940-s001"
+    ],
+    "evidence": [
+      {
+        "quote": "We live in a highly scheduled time. Our calendars are packed, leaving few opportunities for spontaneous activities. The pandemic-era shift to remote work has further limited spontaneous interaction. Pamela Hinds, a professor at Stanford Business School specializing in work teams, collaboration, and innovation, wondered if work teams consisting of people at multiple sites collaborate and innovate at the same rate as work teams where everyone is at a single site.",
+        "sentenceIds": [
+          "c07-s04-p074-05940-s001",
+          "c07-s04-p074-05940-s002",
+          "c07-s04-p074-05940-s003",
+          "c07-s04-p074-05940-s004"
+        ],
+        "sources": [
+          {
+            "pdfPage": 74,
+            "block": 5,
+            "bbox": [
+              76.99,
+              594,
+              535.01,
+              706.02
+            ]
+          },
+          {
+            "pdfPage": 75,
+            "block": 0,
+            "bbox": [
+              76.99,
+              75,
+              535.01,
+              265.02
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "ae88cf66f92a2992f3734e1befb08dda29dd171ef0681c23067f7b24832eaea6"
+  },
+  {
+    "id": "qe-c07-0080",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-026",
+    "parentQuestionId": "q-c07-049",
+    "chapterId": "c07",
+    "sectionId": "c07-s04",
+    "paragraphId": "c07-s04-p074-05940",
+    "readingUnitId": "c07-s04-p074-05940-r001-004",
+    "sentenceIds": [
+      "c07-s04-p074-05940-s001",
+      "c07-s04-p074-05940-s002",
+      "c07-s04-p074-05940-s003",
+      "c07-s04-p074-05940-s004"
+    ],
+    "passage": "We live in a highly scheduled time. Our calendars are packed, leaving few opportunities for spontaneous activities. The pandemic-era shift to remote work has further limited spontaneous interaction. Pamela Hinds, a professor at Stanford Business School specializing in work teams, collaboration, and innovation, wondered if work teams consisting of people at multiple sites collaborate and innovate at the same rate as work teams where everyone is at a single site.",
+    "prompt": "What consequence is expressed by 'leaving few opportunities'?",
+    "promptZh": "leaving few opportunities 表达什么结果？",
+    "options": [
+      "Packed calendars create unlimited unplanned free time.",
+      "Only appointments are spontaneous activities.",
+      "Full calendars leave limited room for unplanned activity.",
+      "No spontaneous event can ever happen to any person."
+    ],
+    "optionsZh": [
+      "满日历创造无限临时空闲。",
+      "只有预约才是自发活动。",
+      "排满日历给未计划活动留下很少空间。",
+      "任何人永远不可能有自发事件。"
+    ],
+    "answer": 2,
+    "type": "逻辑关系",
+    "support": "explicit",
+    "analyses": [
+      "A 与 few 相反。",
+      "B spontaneous 指非预先安排，不能定义成预约。",
+      "C leaving 为前句状态的结果，few 为少而非绝对零。",
+      "D few 不能改成 never、anyone，原文仍允许有机会。"
+    ],
+    "vocabulary": [
+      {
+        "word": "packed",
+        "meaning": "排得满满的；十分拥挤的",
+        "context": "日历语境为行程密集，不是把纸质日历装进箱子。",
+        "example": "Her calendar was packed with meetings that week.",
+        "collocations": [
+          "calendars are packed",
+          "a packed schedule"
+        ]
+      }
+    ],
+    "translation": "我们生活在高度排程的时代，日历排得满满，几乎不留随兴活动机会。疫情时期转向远程工作，更限制了自发互动。Stanford Business School 研究工作团队、协作与创新的教授 Pamela Hinds 想知道，多地点团队是否能像所有人同处一地的团队，以相同速度协作和创新。",
+    "evidenceTargetIds": [
+      "c07-s04-p074-05940-s002"
+    ],
+    "evidence": [
+      {
+        "quote": "We live in a highly scheduled time. Our calendars are packed, leaving few opportunities for spontaneous activities. The pandemic-era shift to remote work has further limited spontaneous interaction. Pamela Hinds, a professor at Stanford Business School specializing in work teams, collaboration, and innovation, wondered if work teams consisting of people at multiple sites collaborate and innovate at the same rate as work teams where everyone is at a single site.",
+        "sentenceIds": [
+          "c07-s04-p074-05940-s001",
+          "c07-s04-p074-05940-s002",
+          "c07-s04-p074-05940-s003",
+          "c07-s04-p074-05940-s004"
+        ],
+        "sources": [
+          {
+            "pdfPage": 74,
+            "block": 5,
+            "bbox": [
+              76.99,
+              594,
+              535.01,
+              706.02
+            ]
+          },
+          {
+            "pdfPage": 75,
+            "block": 0,
+            "bbox": [
+              76.99,
+              75,
+              535.01,
+              265.02
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "98fdd75a9967f618490f13c4a1440b73fbddd77238982e02f2339c5520de8222"
+  },
+  {
+    "id": "qe-c07-0081",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-026",
+    "parentQuestionId": "q-c07-049",
+    "chapterId": "c07",
+    "sectionId": "c07-s04",
+    "paragraphId": "c07-s04-p074-05940",
+    "readingUnitId": "c07-s04-p074-05940-r001-004",
+    "sentenceIds": [
+      "c07-s04-p074-05940-s001",
+      "c07-s04-p074-05940-s002",
+      "c07-s04-p074-05940-s003",
+      "c07-s04-p074-05940-s004"
+    ],
+    "passage": "We live in a highly scheduled time. Our calendars are packed, leaving few opportunities for spontaneous activities. The pandemic-era shift to remote work has further limited spontaneous interaction. Pamela Hinds, a professor at Stanford Business School specializing in work teams, collaboration, and innovation, wondered if work teams consisting of people at multiple sites collaborate and innovate at the same rate as work teams where everyone is at a single site.",
+    "prompt": "What does 'further' imply in the statement about remote work?",
+    "promptZh": "远程工作句中的 further 暗示什么？",
+    "options": [
+      "Remote work is the first and only possible limit ever discussed.",
+      "It adds to limits on spontaneity already described in the paragraph.",
+      "It proves every remote team can never communicate.",
+      "It reports the current performance of all companies worldwide."
+    ],
+    "optionsZh": [
+      "远程工作是首次且唯一可能限制。",
+      "它在段落已说的自发性限制之外继续增加限制。",
+      "证明每个远程团队永不能交流。",
+      "报告当前全球所有公司的表现。"
+    ],
+    "answer": 1,
+    "type": "逻辑关系",
+    "support": "explicit",
+    "analyses": [
+      "A 前面已有高度排程及满日历。",
+      "B further 表递进一步，作者说疫情时期转变加剧限制。",
+      "C 限制自发互动不是完全不能交流。",
+      "D 是本书时期的论述，非今天全球公司调查；不擅自增加随机因果证明。"
+    ],
+    "vocabulary": [
+      {
+        "word": "further limited",
+        "meaning": "进一步限制了",
+        "context": "保留在已有约束上的增量，不等于归为唯一原因或完全消除互动。",
+        "example": "The extra requirements further limited the available time.",
+        "collocations": [
+          "further limited interaction",
+          "the pandemic-era shift"
+        ]
+      }
+    ],
+    "translation": "我们生活在高度排程的时代，日历排得满满，几乎不留随兴活动机会。疫情时期转向远程工作，更限制了自发互动。Stanford Business School 研究工作团队、协作与创新的教授 Pamela Hinds 想知道，多地点团队是否能像所有人同处一地的团队，以相同速度协作和创新。",
+    "evidenceTargetIds": [
+      "c07-s04-p074-05940-s003"
+    ],
+    "evidence": [
+      {
+        "quote": "We live in a highly scheduled time. Our calendars are packed, leaving few opportunities for spontaneous activities. The pandemic-era shift to remote work has further limited spontaneous interaction. Pamela Hinds, a professor at Stanford Business School specializing in work teams, collaboration, and innovation, wondered if work teams consisting of people at multiple sites collaborate and innovate at the same rate as work teams where everyone is at a single site.",
+        "sentenceIds": [
+          "c07-s04-p074-05940-s001",
+          "c07-s04-p074-05940-s002",
+          "c07-s04-p074-05940-s003",
+          "c07-s04-p074-05940-s004"
+        ],
+        "sources": [
+          {
+            "pdfPage": 74,
+            "block": 5,
+            "bbox": [
+              76.99,
+              594,
+              535.01,
+              706.02
+            ]
+          },
+          {
+            "pdfPage": 75,
+            "block": 0,
+            "bbox": [
+              76.99,
+              75,
+              535.01,
+              265.02
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "cf9620694f1417afb9ae130491bb04fa55b91cb23df675995058cfb70547a5ab"
+  },
+  {
+    "id": "qe-c07-0082",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-026",
+    "parentQuestionId": "q-c07-050",
+    "chapterId": "c07",
+    "sectionId": "c07-s04",
+    "paragraphId": "c07-s04-p074-05940",
+    "readingUnitId": "c07-s04-p074-05940-r005-007",
+    "sentenceIds": [
+      "c07-s04-p074-05940-s005",
+      "c07-s04-p074-05940-s006",
+      "c07-s04-p074-05940-s007"
+    ],
+    "passage": "Hinds partnered with Mark Mortensen to survey forty-nine teams in the research and development division of a single multinational corporation. The results showed that geographically distributed teams had far less spontaneous communication, less shared identity, and far more task conflict than those in geographically concentrated teams. Hinds and Mortensen concluded that “spontaneous communication contributes to a shared identity, facilitates the creation of shared context, and aids distributed teams in identifying and resolving conflicts before they escalate.”",
+    "prompt": "Which description preserves the survey's sample boundary?",
+    "promptZh": "哪项保留调查样本的边界？",
+    "options": [
+      "Forty-nine multinational companies selected from every industry.",
+      "Forty-nine randomly assigned individuals in one classroom.",
+      "All remote workers worldwide over the entire pandemic.",
+      "Forty-nine R&D teams within one multinational corporation."
+    ],
+    "optionsZh": [
+      "各行业选出的四十九家跨国公司。",
+      "一个教室里随机分派的四十九人。",
+      "整个疫情期间全球所有远程工作者。",
+      "一家跨国公司研发部门的四十九个团队。"
+    ],
+    "answer": 3,
+    "type": "细节",
+    "support": "explicit",
+    "analyses": [
+      "A forty-nine 修饰 teams，single 修饰公司，不能互换数量对象。",
+      "B 是团队调查，未说个人随机分派。",
+      "C 地点、组织与部门范围都被扩大。",
+      "D 研究者Hinds与Mortensen调查单一公司R&D团队，不代表全部企业；只按当前样本说明，不冒称普遍因果。"
+    ],
+    "vocabulary": [
+      {
+        "word": "division",
+        "meaning": "部门；组织内的业务单元",
+        "context": "research and development division 指研发部门，不是算术除法或四十九家公司。",
+        "example": "She works in the research division of a large company.",
+        "collocations": [
+          "research and development division",
+          "a single multinational corporation"
+        ]
+      }
+    ],
+    "translation": "Hinds 与 Mark Mortensen 合作，调查单一跨国公司研发部门的四十九个团队。结果显示，地理分散团队比集中团队少得多自发沟通、共同认同较少，任务冲突更多。两人总结：“自发沟通有助共同认同、共享情境的形成，也帮助分散团队在冲突升级前识别并解决冲突。”",
+    "evidenceTargetIds": [
+      "c07-s04-p074-05940-s005"
+    ],
+    "evidence": [
+      {
+        "quote": "Hinds partnered with Mark Mortensen to survey forty-nine teams in the research and development division of a single multinational corporation.",
+        "sentenceIds": [
+          "c07-s04-p074-05940-s005"
+        ],
+        "sources": [
+          {
+            "pdfPage": 75,
+            "block": 0,
+            "bbox": [
+              76.99,
+              75,
+              535.01,
+              265.02
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "5a2bb8a9e46bf092eedf9a42ae540b78c7e74319d317f8dc4bf7cfc0ce16ac32"
   }
 ]
