@@ -54599,5 +54599,2075 @@
     ],
     "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
     "fingerprint": "8baabf1144bfc8faf1cf550a01597678e945ac1fbafcea4987f48295964d5bfa"
+  },
+  {
+    "id": "qe-c07-0108",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-028",
+    "parentQuestionId": "q-c07-062",
+    "chapterId": "c07",
+    "sectionId": "c07-s06",
+    "paragraphId": "c07-s06-p076-05355",
+    "readingUnitId": "c07-s06-p076-05355-r009-012",
+    "sentenceIds": [
+      "c07-s06-p076-05355-s009",
+      "c07-s06-p076-05355-s010",
+      "c07-s06-p076-05355-s011",
+      "c07-s06-p076-05355-s012"
+    ],
+    "passage": "There are, of course, other important factors that caused their mental health issues, such as his parents’ divorce, in the case of Phelps, or sexual abuse, in the case of Biles. To be sure, it is not just seriousness and dedication that brought about their burnout and depression. However, the bottom line is that elite athletes’ lives are tough. They must train hard.",
+    "prompt": "Who does 'They' refer to in the statement about hard training?",
+    "promptZh": "关于刻苦训练的 They 回指谁？",
+    "options": [
+      "All readers of the book without exception.",
+      "The elite athletes whose demanding lives are being discussed.",
+      "Only the two parents named in the paragraph.",
+      "The investigators who conducted the team survey."
+    ],
+    "optionsZh": [
+      "毫无例外的所有读者。",
+      "本段讨论生活艰难的精英运动员。",
+      "仅段中所提两位家长。",
+      "开展团队调查的研究者。"
+    ],
+    "answer": 1,
+    "type": "指代与逻辑",
+    "support": "explicit",
+    "analyses": [
+      "A 段落主体不是全体读者，不能变成给用户的指令。",
+      "B 前句 elite athletes' lives...承接到 They must train hard。",
+      "C 父母经历是此前举例，非这里训练主体。",
+      "D 与团队研究无关，也不把训练要求当作单一病因。"
+    ],
+    "vocabulary": [
+      {
+        "word": "must train hard",
+        "meaning": "必须刻苦训练（所述职业要求）",
+        "context": "本书描述运动员的要求，不是声称读者已执行训练或所有人应同样负荷。",
+        "example": "Elite performers must train hard while balancing other needs.",
+        "collocations": [
+          "must train hard",
+          "demanding athletic lives"
+        ]
+      }
+    ],
+    "translation": "当然，原书还列出引发他们心理健康问题的其他重要因素，例如 Phelps 的父母离异，或 Biles 经历的性虐待。必须明确，并非只有严肃与投入带来了他们的倦怠和抑郁。然而，核心是精英运动员的生活艰难。他们必须刻苦训练。",
+    "evidenceTargetIds": [
+      "c07-s06-p076-05355-s012"
+    ],
+    "evidence": [
+      {
+        "quote": "There are, of course, other important factors that caused their mental health issues, such as his parents’ divorce, in the case of Phelps, or sexual abuse, in the case of Biles. To be sure, it is not just seriousness and dedication that brought about their burnout and depression. However, the bottom line is that elite athletes’ lives are tough. They must train hard.",
+        "sentenceIds": [
+          "c07-s06-p076-05355-s009",
+          "c07-s06-p076-05355-s010",
+          "c07-s06-p076-05355-s011",
+          "c07-s06-p076-05355-s012"
+        ],
+        "sources": [
+          {
+            "pdfPage": 76,
+            "block": 3,
+            "bbox": [
+              76.99,
+              535.5,
+              535.01,
+              706.02
+            ]
+          },
+          {
+            "pdfPage": 77,
+            "block": 0,
+            "bbox": [
+              76.99,
+              75,
+              535.01,
+              226.02
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "6b789ecfa2919044f9f707e3b89b66e1d8d999a69c5de7d12385f4e452a6dc9a"
+  },
+  {
+    "id": "qe-c07-0109",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-028",
+    "parentQuestionId": "q-c07-063",
+    "chapterId": "c07",
+    "sectionId": "c07-s06",
+    "paragraphId": "c07-s06-p076-05355",
+    "readingUnitId": "c07-s06-p076-05355-r013-015",
+    "sentenceIds": [
+      "c07-s06-p076-05355-s013",
+      "c07-s06-p076-05355-s014",
+      "c07-s06-p076-05355-s015"
+    ],
+    "passage": "They must constantly compete and perform. Any rare, lackluster performance is recorded and broadcast. No wonder the sports they loved so much and they are so good at could lose their appeal.",
+    "prompt": "What obligation is conveyed by 'constantly compete and perform'?",
+    "promptZh": "constantly compete and perform 表达什么要求？",
+    "options": [
+      "Athletes take part only once and never again.",
+      "They can avoid all public performance while remaining in the same competitive role.",
+      "The athletes repeatedly face competition and demands to deliver performances.",
+      "Every athlete must compete in every sport at the same time."
+    ],
+    "optionsZh": [
+      "运动员只参加一次便不再参加。",
+      "保持相同竞技角色而可避开一切公开表现。",
+      "运动员反复面对参赛与拿出表现的要求。",
+      "每位运动员同时必须参加所有项目。"
+    ],
+    "answer": 2,
+    "type": "细节",
+    "support": "explicit",
+    "analyses": [
+      "A constantly 表频繁持续，与仅一次不同。",
+      "B 下句记录播出更说明表现处于关注中。",
+      "C compete and perform 并列，两种要求皆保留。",
+      "D 并未说所有运动同时参与，不能把强调语气机械化成无休止每一秒。"
+    ],
+    "vocabulary": [
+      {
+        "word": "perform",
+        "meaning": "拿出表现；发挥",
+        "context": "体育语境为比赛表现，不只舞台表演，也不必等于每场都获胜。",
+        "example": "The pressure to perform was clear before the final.",
+        "collocations": [
+          "compete and perform",
+          "perform under pressure"
+        ]
+      }
+    ],
+    "translation": "他们必须持续参赛、表现。任何少见的不出彩表现都会被记录、播出。难怪那些他们如此热爱、如此擅长的运动，也可能失去吸引力。",
+    "evidenceTargetIds": [
+      "c07-s06-p076-05355-s013"
+    ],
+    "evidence": [
+      {
+        "quote": "They must constantly compete and perform. Any rare, lackluster performance is recorded and broadcast. No wonder the sports they loved so much and they are so good at could lose their appeal.",
+        "sentenceIds": [
+          "c07-s06-p076-05355-s013",
+          "c07-s06-p076-05355-s014",
+          "c07-s06-p076-05355-s015"
+        ],
+        "sources": [
+          {
+            "pdfPage": 77,
+            "block": 0,
+            "bbox": [
+              76.99,
+              75,
+              535.01,
+              226.02
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "6e3d9c4553e99cbb52125c9272bf9160470bc1680248e7860da2db40c042860e"
+  },
+  {
+    "id": "qe-c07-0110",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-028",
+    "parentQuestionId": "q-c07-063",
+    "chapterId": "c07",
+    "sectionId": "c07-s06",
+    "paragraphId": "c07-s06-p076-05355",
+    "readingUnitId": "c07-s06-p076-05355-r013-015",
+    "sentenceIds": [
+      "c07-s06-p076-05355-s013",
+      "c07-s06-p076-05355-s014",
+      "c07-s06-p076-05355-s015"
+    ],
+    "passage": "They must constantly compete and perform. Any rare, lackluster performance is recorded and broadcast. No wonder the sports they loved so much and they are so good at could lose their appeal.",
+    "prompt": "What is the force of 'could lose their appeal'?",
+    "promptZh": "could lose their appeal 的强度是什么？",
+    "options": [
+      "Previously loved sports may become less attractive under these pressures.",
+      "All athletes necessarily lose every skill at a fixed age.",
+      "Every recorded performance is legally challenged.",
+      "The author says no one can ever enjoy competitive sport."
+    ],
+    "optionsZh": [
+      "原本热爱的项目在压力下可能失去吸引力。",
+      "所有运动员在固定年龄必失全部技能。",
+      "每次表现都被法律申诉。",
+      "作者说没人能享受竞技运动。"
+    ],
+    "answer": 0,
+    "type": "语气与范围",
+    "support": "explicit",
+    "analyses": [
+      "A loved,good at 与could lose appeal 区分成就和吸引力，保留可能。",
+      "B appeal 不是技能水平，也无固定年龄。",
+      "C 本句appeal为吸引力，不是法律上诉。",
+      "D could 不能改为所有人永远无乐趣，No wonder 是作者解释语气而非普遍实验结果。"
+    ],
+    "vocabulary": [
+      {
+        "word": "appeal",
+        "meaning": "吸引力；令人想参与的魅力",
+        "context": "运动兴趣语境义，不是诉讼上诉或请求帮忙。",
+        "example": "The activity lost some of its appeal when it became routine work.",
+        "collocations": [
+          "lose their appeal",
+          "the appeal of a sport"
+        ]
+      }
+    ],
+    "translation": "他们必须持续参赛、表现。任何少见的不出彩表现都会被记录、播出。难怪那些他们如此热爱、如此擅长的运动，也可能失去吸引力。",
+    "evidenceTargetIds": [
+      "c07-s06-p076-05355-s015"
+    ],
+    "evidence": [
+      {
+        "quote": "They must constantly compete and perform. Any rare, lackluster performance is recorded and broadcast. No wonder the sports they loved so much and they are so good at could lose their appeal.",
+        "sentenceIds": [
+          "c07-s06-p076-05355-s013",
+          "c07-s06-p076-05355-s014",
+          "c07-s06-p076-05355-s015"
+        ],
+        "sources": [
+          {
+            "pdfPage": 77,
+            "block": 0,
+            "bbox": [
+              76.99,
+              75,
+              535.01,
+              226.02
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "49a1642ff8c955d5c49bb026def2fbcb99eb487f16ee56144d8e7d4057cebe5f"
+  },
+  {
+    "id": "qe-c07-0111",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-028",
+    "parentQuestionId": "q-c07-064",
+    "chapterId": "c07",
+    "sectionId": "c07-s06",
+    "paragraphId": "c07-s06-p077-02310",
+    "readingUnitId": "c07-s06-p077-02310-r001-004",
+    "sentenceIds": [
+      "c07-s06-p077-02310-s001",
+      "c07-s06-p077-02310-s002",
+      "c07-s06-p077-02310-s003",
+      "c07-s06-p077-02310-s004"
+    ],
+    "passage": "To be clear, specialization and professionalism are great for skill acquisition and improvement. But remember the fate of Jack (played by Jack Nicholson) in Stanley Kubrick’s movie The Shining: all work and no play not only make Jack a dull boy, but also make him go nuts at the end. When winning becomes everything, life gets too heavy. A playful mindset can help people who are psychologically stuck move past their low points and enjoy the journey, not just the outcome.",
+    "prompt": "What kind of illustration is the reference to Jack in The Shining?",
+    "promptZh": "The Shining 中 Jack 的例子属于什么性质？",
+    "options": [
+      "A newly conducted experiment proving overwork always causes illness.",
+      "A verified biography of every elite athlete.",
+      "A quotation that denies any value in skill acquisition.",
+      "A fictional film example used to illustrate the danger of all work and no play."
+    ],
+    "optionsZh": [
+      "证明过劳总致病的新实验。",
+      "每位精英运动员的已核实传记。",
+      "否定技能获得任何价值的引语。",
+      "用虚构电影情节说明只工作不玩耍的危险。"
+    ],
+    "answer": 3,
+    "type": "观点归属",
+    "support": "explicit",
+    "analyses": [
+      "A 电影不是控制实验，不升级成所有人的确定病因。",
+      "B Jack 为电影角色，演员Jack Nicholson另有身份。",
+      "C 前句正承认专攻专业化有技能价值。",
+      "D movie、角色及饰演者明确，属于说明性影视例子；不把剧情当临床研究。"
+    ],
+    "vocabulary": [
+      {
+        "word": "the fate of",
+        "meaning": "……的命运或结局",
+        "context": "此处指电影角色故事结局，不是预测读者或所有运动员未来。",
+        "example": "The ending reveals the fate of the fictional explorer.",
+        "collocations": [
+          "the fate of Jack",
+          "played by Jack Nicholson"
+        ]
+      }
+    ],
+    "translation": "说清楚，专攻与专业化很有利于技能习得和提高。但想想 Stanley Kubrick 电影 The Shining 中 Jack（Jack Nicholson 饰）的命运：只工作不玩耍，不仅让 Jack 无趣，最后也让他失去理智。当获胜成了一切，生活便过于沉重。游戏般轻松的心态，能帮助心理上卡住的人走过低谷，享受旅程，而不只是结果。",
+    "evidenceTargetIds": [
+      "c07-s06-p077-02310-s002"
+    ],
+    "evidence": [
+      {
+        "quote": "To be clear, specialization and professionalism are great for skill acquisition and improvement. But remember the fate of Jack (played by Jack Nicholson) in Stanley Kubrick’s movie The Shining: all work and no play not only make Jack a dull boy, but also make him go nuts at the end. When winning becomes everything, life gets too heavy. A playful mindset can help people who are psychologically stuck move past their low points and enjoy the journey, not just the outcome.",
+        "sentenceIds": [
+          "c07-s06-p077-02310-s001",
+          "c07-s06-p077-02310-s002",
+          "c07-s06-p077-02310-s003",
+          "c07-s06-p077-02310-s004"
+        ],
+        "sources": [
+          {
+            "pdfPage": 77,
+            "block": 1,
+            "bbox": [
+              76.99,
+              231,
+              535.01,
+              499.02
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "c25d045901712b0587907355a3472627497baf55f15e662c9d663d2753f8b6b6"
+  },
+  {
+    "id": "qe-c07-0112",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-028",
+    "parentQuestionId": "q-c07-064",
+    "chapterId": "c07",
+    "sectionId": "c07-s06",
+    "paragraphId": "c07-s06-p077-02310",
+    "readingUnitId": "c07-s06-p077-02310-r001-004",
+    "sentenceIds": [
+      "c07-s06-p077-02310-s001",
+      "c07-s06-p077-02310-s002",
+      "c07-s06-p077-02310-s003",
+      "c07-s06-p077-02310-s004"
+    ],
+    "passage": "To be clear, specialization and professionalism are great for skill acquisition and improvement. But remember the fate of Jack (played by Jack Nicholson) in Stanley Kubrick’s movie The Shining: all work and no play not only make Jack a dull boy, but also make him go nuts at the end. When winning becomes everything, life gets too heavy. A playful mindset can help people who are psychologically stuck move past their low points and enjoy the journey, not just the outcome.",
+    "prompt": "What does 'life gets too heavy' express when winning becomes everything?",
+    "promptZh": "当获胜成了一切时 life gets too heavy 表达什么？",
+    "options": [
+      "A literal increase in every athlete's body weight.",
+      "A rule that all goals must be abandoned immediately.",
+      "Life feels burdened when the outcome dominates everything else.",
+      "A guarantee that any competition is always enjoyable."
+    ],
+    "optionsZh": [
+      "每位运动员体重字面增加。",
+      "必须立即放弃所有目标的规则。",
+      "当结果支配一切，生活变得负担沉重。",
+      "任何竞争都保证一直愉快。"
+    ],
+    "answer": 2,
+    "type": "语境词义",
+    "support": "explicit",
+    "analyses": [
+      "A heavy 是心理负担比喻，不是体重数据。",
+      "B 批评winning everything不等于取消全部目标。",
+      "C 与后文享受journey不只outcome相接，强调对结果过度集中。",
+      "D 与too heavy方向相反，但不能从此推出获胜或努力本身无价值。"
+    ],
+    "vocabulary": [
+      {
+        "word": "too heavy",
+        "meaning": "过于沉重；负担太大（比喻）",
+        "context": "描写生活感受，不是物理称量或对某个人新作诊断。",
+        "example": "The expectations made the task feel too heavy.",
+        "collocations": [
+          "life gets too heavy",
+          "winning becomes everything"
+        ]
+      }
+    ],
+    "translation": "说清楚，专攻与专业化很有利于技能习得和提高。但想想 Stanley Kubrick 电影 The Shining 中 Jack（Jack Nicholson 饰）的命运：只工作不玩耍，不仅让 Jack 无趣，最后也让他失去理智。当获胜成了一切，生活便过于沉重。游戏般轻松的心态，能帮助心理上卡住的人走过低谷，享受旅程，而不只是结果。",
+    "evidenceTargetIds": [
+      "c07-s06-p077-02310-s003"
+    ],
+    "evidence": [
+      {
+        "quote": "To be clear, specialization and professionalism are great for skill acquisition and improvement. But remember the fate of Jack (played by Jack Nicholson) in Stanley Kubrick’s movie The Shining: all work and no play not only make Jack a dull boy, but also make him go nuts at the end. When winning becomes everything, life gets too heavy. A playful mindset can help people who are psychologically stuck move past their low points and enjoy the journey, not just the outcome.",
+        "sentenceIds": [
+          "c07-s06-p077-02310-s001",
+          "c07-s06-p077-02310-s002",
+          "c07-s06-p077-02310-s003",
+          "c07-s06-p077-02310-s004"
+        ],
+        "sources": [
+          {
+            "pdfPage": 77,
+            "block": 1,
+            "bbox": [
+              76.99,
+              231,
+              535.01,
+              499.02
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "53d143e49018f4bd0f02e18fb881b600f194b9f92b6507639b2e2f454115109a"
+  },
+  {
+    "id": "qe-c07-0113",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-028",
+    "parentQuestionId": "q-c07-065",
+    "chapterId": "c07",
+    "sectionId": "c07-s06",
+    "paragraphId": "c07-s06-p077-02310",
+    "readingUnitId": "c07-s06-p077-02310-r005-008",
+    "sentenceIds": [
+      "c07-s06-p077-02310-s005",
+      "c07-s06-p077-02310-s006",
+      "c07-s06-p077-02310-s007",
+      "c07-s06-p077-02310-s008"
+    ],
+    "passage": "A spontaneous action could help us experience life without prior planning. Some of the most interesting experiences we have are often things we do on a whim. In my case, I was driving my family from Baltimore to Charlottesville one day when I saw a sign for Annapolis. I asked my wife and two kids, “Does anyone want to go to Annapolis?”",
+    "prompt": "What does a spontaneous action 'could help' people experience?",
+    "promptZh": "原文说自发行动可能帮助人体验什么？",
+    "options": [
+      "Life without prior planning in that moment or activity.",
+      "A guarantee that no future planning is ever needed.",
+      "A way to erase all responsibilities permanently.",
+      "An outcome that must be identical for everyone."
+    ],
+    "optionsZh": [
+      "在当次活动中体验未经预先计划的生活。",
+      "未来永远无需计划的保证。",
+      "永久清除全部责任的方法。",
+      "人人必须完全相同的结果。"
+    ],
+    "answer": 0,
+    "type": "细节",
+    "support": "explicit",
+    "analyses": [
+      "A without prior planning 是所述体验特征，could 为可能助益。",
+      "B 不可由某自发活动推永远不计划。",
+      "C 没说全部责任消失。",
+      "D could help 不构成每人同样结果保证。"
+    ],
+    "vocabulary": [
+      {
+        "word": "prior planning",
+        "meaning": "事先规划；预先安排",
+        "context": "与当次自发性对照，不表示生活的所有方面都应没有安排。",
+        "example": "The informal walk required little prior planning.",
+        "collocations": [
+          "without prior planning",
+          "a spontaneous action"
+        ]
+      }
+    ],
+    "translation": "自发行动可能让我们体验未经预先计划的生活。我们最有趣的一些经历，往往是一时兴起做的事。就我而言，有一天我带家人从 Baltimore 开车去 Charlottesville，看到 Annapolis 的路牌，便问妻子和两个孩子：“有人想去 Annapolis 吗？”",
+    "evidenceTargetIds": [
+      "c07-s06-p077-02310-s005"
+    ],
+    "evidence": [
+      {
+        "quote": "A spontaneous action could help us experience life without prior planning. Some of the most interesting experiences we have are often things we do on a whim. In my case, I was driving my family from Baltimore to Charlottesville one day when I saw a sign for Annapolis. I asked my wife and two kids, “Does anyone want to go to Annapolis?”",
+        "sentenceIds": [
+          "c07-s06-p077-02310-s005",
+          "c07-s06-p077-02310-s006",
+          "c07-s06-p077-02310-s007",
+          "c07-s06-p077-02310-s008"
+        ],
+        "sources": [
+          {
+            "pdfPage": 77,
+            "block": 1,
+            "bbox": [
+              76.99,
+              231,
+              535.01,
+              499.02
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "4b2551dff6c25c84ea21ec237c9c222dcb03bc9e462d21dd5df312509def77f1"
+  },
+  {
+    "id": "qe-c07-0114",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-028",
+    "parentQuestionId": "q-c07-065",
+    "chapterId": "c07",
+    "sectionId": "c07-s06",
+    "paragraphId": "c07-s06-p077-02310",
+    "readingUnitId": "c07-s06-p077-02310-r005-008",
+    "sentenceIds": [
+      "c07-s06-p077-02310-s005",
+      "c07-s06-p077-02310-s006",
+      "c07-s06-p077-02310-s007",
+      "c07-s06-p077-02310-s008"
+    ],
+    "passage": "A spontaneous action could help us experience life without prior planning. Some of the most interesting experiences we have are often things we do on a whim. In my case, I was driving my family from Baltimore to Charlottesville one day when I saw a sign for Annapolis. I asked my wife and two kids, “Does anyone want to go to Annapolis?”",
+    "prompt": "Which paraphrase preserves 'Some ... often ... on a whim'?",
+    "promptZh": "哪项改述保留 Some...often...on a whim 的范围？",
+    "options": [
+      "Every interesting event is always planned far ahead.",
+      "Some especially interesting experiences arise from unplanned impulses.",
+      "Only careless decisions can ever produce interest.",
+      "All planned experiences are necessarily uninteresting."
+    ],
+    "optionsZh": [
+      "每件有趣事总提前很久安排。",
+      "一些特别有趣的经历来自临时兴起。",
+      "只有粗心决定才有可能有趣。",
+      "所有计划内经历必定无趣。"
+    ],
+    "answer": 1,
+    "type": "同义改写",
+    "support": "explicit",
+    "analyses": [
+      "A 与on a whim对照且擅加every。",
+      "B Some和often不是全部，on a whim为临时念头。",
+      "C 自发不等于粗心，更非only条件。",
+      "D 未否定计划体验的所有乐趣；后面家庭故事为个例。"
+    ],
+    "vocabulary": [
+      {
+        "word": "on a whim",
+        "meaning": "一时兴起；临时起意",
+        "context": "可指有趣自发决定，不自动等于危险、粗心或完全无意识。",
+        "example": "They visited the small museum on a whim.",
+        "collocations": [
+          "do something on a whim",
+          "an experience on a whim"
+        ]
+      }
+    ],
+    "translation": "自发行动可能让我们体验未经预先计划的生活。我们最有趣的一些经历，往往是一时兴起做的事。就我而言，有一天我带家人从 Baltimore 开车去 Charlottesville，看到 Annapolis 的路牌，便问妻子和两个孩子：“有人想去 Annapolis 吗？”",
+    "evidenceTargetIds": [
+      "c07-s06-p077-02310-s006"
+    ],
+    "evidence": [
+      {
+        "quote": "A spontaneous action could help us experience life without prior planning. Some of the most interesting experiences we have are often things we do on a whim. In my case, I was driving my family from Baltimore to Charlottesville one day when I saw a sign for Annapolis. I asked my wife and two kids, “Does anyone want to go to Annapolis?”",
+        "sentenceIds": [
+          "c07-s06-p077-02310-s005",
+          "c07-s06-p077-02310-s006",
+          "c07-s06-p077-02310-s007",
+          "c07-s06-p077-02310-s008"
+        ],
+        "sources": [
+          {
+            "pdfPage": 77,
+            "block": 1,
+            "bbox": [
+              76.99,
+              231,
+              535.01,
+              499.02
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "f7ff75340c2ca92851dc987a49485f5e2043d1beb1e95f005371ff0c883c825c"
+  },
+  {
+    "id": "qe-c07-0115",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-028",
+    "parentQuestionId": "q-c07-065",
+    "chapterId": "c07",
+    "sectionId": "c07-s06",
+    "paragraphId": "c07-s06-p077-02310",
+    "readingUnitId": "c07-s06-p077-02310-r005-008",
+    "sentenceIds": [
+      "c07-s06-p077-02310-s005",
+      "c07-s06-p077-02310-s006",
+      "c07-s06-p077-02310-s007",
+      "c07-s06-p077-02310-s008"
+    ],
+    "passage": "A spontaneous action could help us experience life without prior planning. Some of the most interesting experiences we have are often things we do on a whim. In my case, I was driving my family from Baltimore to Charlottesville one day when I saw a sign for Annapolis. I asked my wife and two kids, “Does anyone want to go to Annapolis?”",
+    "prompt": "What does the narrator ask his family after seeing the sign?",
+    "promptZh": "看见路牌后，作者问家人什么？",
+    "options": [
+      "Whether they have already booked a long-planned cruise.",
+      "Whether everyone refuses to travel to Charlottesville.",
+      "Whether they want to move permanently to Baltimore.",
+      "Whether anyone wants to visit Annapolis."
+    ],
+    "optionsZh": [
+      "是否已预订长期计划的游船。",
+      "是否每个人拒去Charlottesville。",
+      "是否想永久搬到Baltimore。",
+      "是否有人想去Annapolis。"
+    ],
+    "answer": 3,
+    "type": "细节",
+    "support": "explicit",
+    "analyses": [
+      "A 游船是后面活动，不是已预订安排。",
+      "B 原句不是对原目的地的全体拒绝。",
+      "C 看到路牌后问临时游览，不是永久搬家。",
+      "D Does anyone want to go to Annapolis 与wife,two kids对应提问对象，不将作者家人等同读者家庭。"
+    ],
+    "vocabulary": [
+      {
+        "word": "Does anyone want to",
+        "meaning": "有人想……吗（询问意愿）",
+        "context": "是作者对家人的提议，不是已经人人同意或真实用户被提问记录。",
+        "example": "Does anyone want to try a different route?",
+        "collocations": [
+          "Does anyone want to go",
+          "ask his wife and two kids"
+        ]
+      }
+    ],
+    "translation": "自发行动可能让我们体验未经预先计划的生活。我们最有趣的一些经历，往往是一时兴起做的事。就我而言，有一天我带家人从 Baltimore 开车去 Charlottesville，看到 Annapolis 的路牌，便问妻子和两个孩子：“有人想去 Annapolis 吗？”",
+    "evidenceTargetIds": [
+      "c07-s06-p077-02310-s008"
+    ],
+    "evidence": [
+      {
+        "quote": "A spontaneous action could help us experience life without prior planning. Some of the most interesting experiences we have are often things we do on a whim. In my case, I was driving my family from Baltimore to Charlottesville one day when I saw a sign for Annapolis. I asked my wife and two kids, “Does anyone want to go to Annapolis?”",
+        "sentenceIds": [
+          "c07-s06-p077-02310-s005",
+          "c07-s06-p077-02310-s006",
+          "c07-s06-p077-02310-s007",
+          "c07-s06-p077-02310-s008"
+        ],
+        "sources": [
+          {
+            "pdfPage": 77,
+            "block": 1,
+            "bbox": [
+              76.99,
+              231,
+              535.01,
+              499.02
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "598c3d39c0c576a8f94d82f92f06a31dfc621257fbec9923a2feb4c617d0fe07"
+  },
+  {
+    "id": "qe-c07-0116",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-028",
+    "parentQuestionId": "q-c07-066",
+    "chapterId": "c07",
+    "sectionId": "c07-s06",
+    "paragraphId": "c07-s06-p077-02310",
+    "readingUnitId": "c07-s06-p077-02310-r009-011",
+    "sentenceIds": [
+      "c07-s06-p077-02310-s009",
+      "c07-s06-p077-02310-s010",
+      "c07-s06-p077-02310-s011"
+    ],
+    "passage": "To my surprise, everyone said, “Why not!” So we went to Annapolis, totally unplanned. We wandered around town and hopped on a cruise that my son still talks about.",
+    "prompt": "What does the family's 'Why not!' indicate in this context?",
+    "promptZh": "家人的 Why not! 在此表示什么？",
+    "options": [
+      "A collective rejection of the proposed detour.",
+      "A request for formal research proof before travelling.",
+      "Acceptance of the spontaneous suggestion, which surprises the narrator.",
+      "A statement that the trip was planned months earlier."
+    ],
+    "optionsZh": [
+      "集体拒绝绕行提议。",
+      "出发前要求正式研究证明。",
+      "接受临时提议，使作者意外。",
+      "说旅程几个月前就安排好。"
+    ],
+    "answer": 2,
+    "type": "语境词义",
+    "support": "explicit",
+    "analyses": [
+      "A 此处 Why not 为愿意尝试，后句实际去了。",
+      "B 没有研究要求。",
+      "C To my surprise 与everyone said说明作者意外家人都接受。",
+      "D totally unplanned 不是早已安排；everyone 指该家庭场景，不扩为所有人。"
+    ],
+    "vocabulary": [
+      {
+        "word": "Why not",
+        "meaning": "何妨；好啊（接受建议的回应）",
+        "context": "这里为肯定接受，不是带否定意思拒绝。",
+        "example": "'Shall we explore this street?' 'Why not!'",
+        "collocations": [
+          "everyone said Why not",
+          "accept a suggestion"
+        ]
+      }
+    ],
+    "translation": "出乎我意料，每个人都说：“为什么不呢！”于是我们完全没计划地去了 Annapolis。我们在城里闲逛，还乘了一次游船，儿子至今仍会说起。",
+    "evidenceTargetIds": [
+      "c07-s06-p077-02310-s009"
+    ],
+    "evidence": [
+      {
+        "quote": "To my surprise, everyone said, “Why not!” So we went to Annapolis, totally unplanned. We wandered around town and hopped on a cruise that my son still talks about.",
+        "sentenceIds": [
+          "c07-s06-p077-02310-s009",
+          "c07-s06-p077-02310-s010",
+          "c07-s06-p077-02310-s011"
+        ],
+        "sources": [
+          {
+            "pdfPage": 77,
+            "block": 1,
+            "bbox": [
+              76.99,
+              231,
+              535.01,
+              499.02
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "6d9d09e460fbefdd5afab5c0529fd51dd32cb936b4dcea2ac819df7cbceb5c92"
+  },
+  {
+    "id": "qe-c07-0117",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-028",
+    "parentQuestionId": "q-c07-067",
+    "chapterId": "c07",
+    "sectionId": "c07-s06",
+    "paragraphId": "c07-s06-p077-05040",
+    "readingUnitId": "c07-s06-p077-05040-r001-004",
+    "sentenceIds": [
+      "c07-s06-p077-05040-s001",
+      "c07-s06-p077-05040-s002",
+      "c07-s06-p077-05040-s003",
+      "c07-s06-p077-05040-s004"
+    ],
+    "passage": "In sum, personality traits alone do not determine our capacity for psychological richness: we can all learn to foster psychological richness through playfulness and spontaneity. On this front, a psychologically rich life again stands in contrast to lives oriented around happiness and meaning, which prioritize more serious activities. In order to achieve meaning in life, you must dedicate yourself to an important cause, spending time on often difficult tasks for others’ benefit. Happiness is also serious.",
+    "prompt": "On what front is the rich life contrasted with happiness- and meaning-oriented lives?",
+    "promptZh": "在什么方面把丰富人生与以幸福、意义为取向的人生对照？",
+    "options": [
+      "The role of playfulness and spontaneity versus a priority on more serious activities.",
+      "A claim that one person can never have more than one dimension.",
+      "A finding that serious activities have no value for anyone.",
+      "The exact income of the author's family."
+    ],
+    "optionsZh": [
+      "玩心与自发性的作用，相对于更优先严肃活动。",
+      "同一人永不能有多个维度的主张。",
+      "严肃活动对任何人都无价值的发现。",
+      "作者家庭确切收入。"
+    ],
+    "answer": 0,
+    "type": "主旨",
+    "support": "explicit",
+    "analyses": [
+      "A On this front 承接前句玩心自发性与非人格决定论。",
+      "B 对照取向不建立人群绝对互斥。",
+      "C 下面还肯定事业投入，不是否定其全部价值。",
+      "D 没有收入数据，不能把rich误作富有。"
+    ],
+    "vocabulary": [
+      {
+        "word": "stands in contrast to",
+        "meaning": "与……形成对照",
+        "context": "比较强调点，不必等于所有方面相反或不能兼有。",
+        "example": "The informal approach stands in contrast to the rigid schedule.",
+        "collocations": [
+          "stands in contrast to lives",
+          "oriented around happiness and meaning"
+        ]
+      }
+    ],
+    "translation": "总之，人格特质本身并不决定我们心理丰富的能力：我们都能学习通过玩心与自发性培养心理丰富。在这方面，心理丰富人生又与更优先严肃活动的幸福、有意义人生形成对照。为了获得意义，你需要投身重要事业，花时间做常常困难、对他人有益的任务。幸福也很严肃。",
+    "evidenceTargetIds": [
+      "c07-s06-p077-05040-s002"
+    ],
+    "evidence": [
+      {
+        "quote": "In sum, personality traits alone do not determine our capacity for psychological richness: we can all learn to foster psychological richness through playfulness and spontaneity. On this front, a psychologically rich life again stands in contrast to lives oriented around happiness and meaning, which prioritize more serious activities. In order to achieve meaning in life, you must dedicate yourself to an important cause, spending time on often difficult tasks for others’ benefit. Happiness is also serious.",
+        "sentenceIds": [
+          "c07-s06-p077-05040-s001",
+          "c07-s06-p077-05040-s002",
+          "c07-s06-p077-05040-s003",
+          "c07-s06-p077-05040-s004"
+        ],
+        "sources": [
+          {
+            "pdfPage": 77,
+            "block": 2,
+            "bbox": [
+              76.99,
+              504,
+              535.01,
+              713.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "267740d828180f0595d8d7b19649dd7b5c9b5089aad3c3526afc89586deb6267"
+  },
+  {
+    "id": "qe-c07-0118",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-028",
+    "parentQuestionId": "q-c07-067",
+    "chapterId": "c07",
+    "sectionId": "c07-s06",
+    "paragraphId": "c07-s06-p077-05040",
+    "readingUnitId": "c07-s06-p077-05040-r001-004",
+    "sentenceIds": [
+      "c07-s06-p077-05040-s001",
+      "c07-s06-p077-05040-s002",
+      "c07-s06-p077-05040-s003",
+      "c07-s06-p077-05040-s004"
+    ],
+    "passage": "In sum, personality traits alone do not determine our capacity for psychological richness: we can all learn to foster psychological richness through playfulness and spontaneity. On this front, a psychologically rich life again stands in contrast to lives oriented around happiness and meaning, which prioritize more serious activities. In order to achieve meaning in life, you must dedicate yourself to an important cause, spending time on often difficult tasks for others’ benefit. Happiness is also serious.",
+    "prompt": "What kind of effort is described in relation to meaning?",
+    "promptZh": "与意义有关的努力被描述为怎样？",
+    "options": [
+      "Only choosing the easiest activity for immediate pleasure.",
+      "Dedicating oneself to an important cause, including difficult tasks benefiting others.",
+      "Always abandoning a cause when it first requires time.",
+      "Proving that nobody can find meaning in any ordinary action."
+    ],
+    "optionsZh": [
+      "只选最容易活动取得即时愉悦。",
+      "投入重要事业，包括为他人利益承担困难任务。",
+      "事业一需时间就总放弃。",
+      "证明普通行动绝不可能有意义。"
+    ],
+    "answer": 1,
+    "type": "细节",
+    "support": "explicit",
+    "analyses": [
+      "A often difficult与others'benefit不是只顾容易享乐。",
+      "B dedicate...important cause 与spendingtime...tasks两层相连。",
+      "C 与dedicate投入相反。",
+      "D 不能从当前描述扩大成排除一切普通行为的唯一标准。"
+    ],
+    "vocabulary": [
+      {
+        "word": "others’ benefit",
+        "meaning": "他人的利益；使他人受益",
+        "context": "表任务面向他人的益处，不是仅个人即时回报。",
+        "example": "She used her skills for others' benefit.",
+        "collocations": [
+          "tasks for others' benefit",
+          "dedicate yourself to a cause"
+        ]
+      }
+    ],
+    "translation": "总之，人格特质本身并不决定我们心理丰富的能力：我们都能学习通过玩心与自发性培养心理丰富。在这方面，心理丰富人生又与更优先严肃活动的幸福、有意义人生形成对照。为了获得意义，你需要投身重要事业，花时间做常常困难、对他人有益的任务。幸福也很严肃。",
+    "evidenceTargetIds": [
+      "c07-s06-p077-05040-s003"
+    ],
+    "evidence": [
+      {
+        "quote": "In sum, personality traits alone do not determine our capacity for psychological richness: we can all learn to foster psychological richness through playfulness and spontaneity. On this front, a psychologically rich life again stands in contrast to lives oriented around happiness and meaning, which prioritize more serious activities. In order to achieve meaning in life, you must dedicate yourself to an important cause, spending time on often difficult tasks for others’ benefit. Happiness is also serious.",
+        "sentenceIds": [
+          "c07-s06-p077-05040-s001",
+          "c07-s06-p077-05040-s002",
+          "c07-s06-p077-05040-s003",
+          "c07-s06-p077-05040-s004"
+        ],
+        "sources": [
+          {
+            "pdfPage": 77,
+            "block": 2,
+            "bbox": [
+              76.99,
+              504,
+              535.01,
+              713.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "cb207d2bf95130a353108672539a137f9185d81e865d20fb9e8eb0f730afe4f5"
+  },
+  {
+    "id": "qe-c07-0119",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-028",
+    "parentQuestionId": "q-c07-067",
+    "chapterId": "c07",
+    "sectionId": "c07-s06",
+    "paragraphId": "c07-s06-p077-05040",
+    "readingUnitId": "c07-s06-p077-05040-r001-004",
+    "sentenceIds": [
+      "c07-s06-p077-05040-s001",
+      "c07-s06-p077-05040-s002",
+      "c07-s06-p077-05040-s003",
+      "c07-s06-p077-05040-s004"
+    ],
+    "passage": "In sum, personality traits alone do not determine our capacity for psychological richness: we can all learn to foster psychological richness through playfulness and spontaneity. On this front, a psychologically rich life again stands in contrast to lives oriented around happiness and meaning, which prioritize more serious activities. In order to achieve meaning in life, you must dedicate yourself to an important cause, spending time on often difficult tasks for others’ benefit. Happiness is also serious.",
+    "prompt": "What does 'Happiness is also serious' add at the end of this excerpt?",
+    "promptZh": "Happiness is also serious 在本片段末尾补充什么？",
+    "options": [
+      "It says all happy people lack the ability to laugh.",
+      "It changes happiness into a financial business label.",
+      "It denies that meaningful activity can involve effort.",
+      "It extends the point about serious effort to happiness as well as meaning."
+    ],
+    "optionsZh": [
+      "说所有幸福者都不会笑。",
+      "把幸福改成财务商业标签。",
+      "否认有意义活动需要努力。",
+      "把有关严肃投入的观点从意义也扩到幸福。"
+    ],
+    "answer": 3,
+    "type": "逻辑关系",
+    "support": "explicit",
+    "analyses": [
+      "A serious不等于无笑声能力，不能对所有人绝对化。",
+      "B 不是经商定义。",
+      "C 上句明确事业及困难任务，不否认努力。",
+      "D also以添加方式把幸福纳入前述严肃活动对照；当前短段还未逐项讲后续具体人格机制，不凭空补证据。"
+    ],
+    "vocabulary": [
+      {
+        "word": "also",
+        "meaning": "也；同样（添加论述范围）",
+        "context": "把幸福加到已提意义，不说二者是同一个概念或彼此替换。",
+        "example": "The task needs patience. It also needs time.",
+        "collocations": [
+          "Happiness is also serious",
+          "also important"
+        ]
+      }
+    ],
+    "translation": "总之，人格特质本身并不决定我们心理丰富的能力：我们都能学习通过玩心与自发性培养心理丰富。在这方面，心理丰富人生又与更优先严肃活动的幸福、有意义人生形成对照。为了获得意义，你需要投身重要事业，花时间做常常困难、对他人有益的任务。幸福也很严肃。",
+    "evidenceTargetIds": [
+      "c07-s06-p077-05040-s004"
+    ],
+    "evidence": [
+      {
+        "quote": "In sum, personality traits alone do not determine our capacity for psychological richness: we can all learn to foster psychological richness through playfulness and spontaneity. On this front, a psychologically rich life again stands in contrast to lives oriented around happiness and meaning, which prioritize more serious activities. In order to achieve meaning in life, you must dedicate yourself to an important cause, spending time on often difficult tasks for others’ benefit. Happiness is also serious.",
+        "sentenceIds": [
+          "c07-s06-p077-05040-s001",
+          "c07-s06-p077-05040-s002",
+          "c07-s06-p077-05040-s003",
+          "c07-s06-p077-05040-s004"
+        ],
+        "sources": [
+          {
+            "pdfPage": 77,
+            "block": 2,
+            "bbox": [
+              76.99,
+              504,
+              535.01,
+              713.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "1a8aa8c9c1c8c8a28480b88975ad7eed262465268ff49e60b6e63a79a5a98399"
+  },
+  {
+    "id": "qe-c07-0120",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-028",
+    "parentQuestionId": "q-c07-068",
+    "chapterId": "c07",
+    "sectionId": "c07-s06",
+    "paragraphId": "c07-s06-p077-05040",
+    "readingUnitId": "c07-s06-p077-05040-r005-008",
+    "sentenceIds": [
+      "c07-s06-p077-05040-s005",
+      "c07-s06-p077-05040-s006",
+      "c07-s06-p077-05040-s007",
+      "c07-s06-p077-05040-s008"
+    ],
+    "passage": "Psychologists report that being gritty, kind, sociable, and mindful can help you achieve happiness. These are all admirable goals, but being gritty or mindful requires sustained attention and is not always easy. Such endeavors are not for everyone, nor for every day. Like Shaq, there are individuals who prefer playfulness over mindfulness and mischievousness over seriousness.",
+    "prompt": "How strongly is the link between the listed qualities and happiness stated?",
+    "promptZh": "列举品质与幸福的联系，被表述到什么强度？",
+    "options": [
+      "The qualities guarantee permanent happiness for every person.",
+      "The qualities make playfulness impossible in all cases.",
+      "The qualities can help, according to psychologists cited by the book.",
+      "The qualities have no possible connection with happiness."
+    ],
+    "optionsZh": [
+      "品质保证每人永久幸福。",
+      "品质使玩心在所有情形都不可能。",
+      "按书中所引心理学家报告，这些品质有助于幸福。",
+      "品质与幸福不可能有任何联系。"
+    ],
+    "answer": 2,
+    "type": "语气与范围",
+    "support": "explicit",
+    "analyses": [
+      "A can help 不是guarantee或永久。",
+      "B 未说可与玩心绝对互斥。",
+      "C report表归属，can表可帮助的力度，四品质需结合看而非提供必胜规则。",
+      "D 不能把可能帮助反写为毫无联系，后句仍承认目标可赞赏但需持续注意。"
+    ],
+    "vocabulary": [
+      {
+        "word": "sociable",
+        "meaning": "善交际的；愿与人相处的",
+        "context": "列为所述有助幸福品质之一，不等于每个人必须大量社交才可幸福。",
+        "example": "She is sociable but also enjoys time alone.",
+        "collocations": [
+          "kind and sociable",
+          "gritty, kind, sociable, and mindful"
+        ]
+      }
+    ],
+    "translation": "心理学家报告，坚毅、善良、善社交和正念，有助于幸福。这些目标都值得赞赏，但坚毅或正念需要持续注意，并不总容易。这样的努力不适合每个人，也不适合每一天。像 Shaq 一样，有些人更偏好玩心而非正念，更偏好顽皮而非严肃。",
+    "evidenceTargetIds": [
+      "c07-s06-p077-05040-s005"
+    ],
+    "evidence": [
+      {
+        "quote": "Psychologists report that being gritty, kind, sociable, and mindful can help you achieve happiness. These are all admirable goals, but being gritty or mindful requires sustained attention and is not always easy. Such endeavors are not for everyone, nor for every day. Like Shaq, there are individuals who prefer playfulness over mindfulness and mischievousness over seriousness.",
+        "sentenceIds": [
+          "c07-s06-p077-05040-s005",
+          "c07-s06-p077-05040-s006",
+          "c07-s06-p077-05040-s007",
+          "c07-s06-p077-05040-s008"
+        ],
+        "sources": [
+          {
+            "pdfPage": 77,
+            "block": 2,
+            "bbox": [
+              76.99,
+              504,
+              535.01,
+              713.52
+            ]
+          },
+          {
+            "pdfPage": 78,
+            "block": 0,
+            "bbox": [
+              76.99,
+              75,
+              535.01,
+              167.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "91d3e194c89dab7ad3a1d691ef5075170a47043dce58715fee3c5b2f89553f69"
+  },
+  {
+    "id": "qe-c07-0121",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-028",
+    "parentQuestionId": "q-c07-068",
+    "chapterId": "c07",
+    "sectionId": "c07-s06",
+    "paragraphId": "c07-s06-p077-05040",
+    "readingUnitId": "c07-s06-p077-05040-r005-008",
+    "sentenceIds": [
+      "c07-s06-p077-05040-s005",
+      "c07-s06-p077-05040-s006",
+      "c07-s06-p077-05040-s007",
+      "c07-s06-p077-05040-s008"
+    ],
+    "passage": "Psychologists report that being gritty, kind, sociable, and mindful can help you achieve happiness. These are all admirable goals, but being gritty or mindful requires sustained attention and is not always easy. Such endeavors are not for everyone, nor for every day. Like Shaq, there are individuals who prefer playfulness over mindfulness and mischievousness over seriousness.",
+    "prompt": "What scope is preserved by 'there are individuals who prefer'?",
+    "promptZh": "there are individuals who prefer 保留什么范围？",
+    "options": [
+      "It recognises that some people prefer playfulness and mischievousness to more serious approaches.",
+      "It says every person has exactly the same preference.",
+      "It establishes mindfulness as always harmful.",
+      "It requires every reader to adopt Shaq's exact habits."
+    ],
+    "optionsZh": [
+      "承认有些人更偏好玩心与顽皮，而非较严肃方式。",
+      "说每个人偏好完全相同。",
+      "确立正念总有害。",
+      "要求每位读者复制 Shaq 全部习惯。"
+    ],
+    "answer": 0,
+    "type": "语气与范围",
+    "support": "explicit",
+    "analyses": [
+      "A individuals与prefer表达部分人的偏好，前句not for everyone,nor every day给范围。",
+      "B 个体差异不能扩成所有人相同。",
+      "C 不适合每人每天不等于任何时候都有害。",
+      "D Like Shaq是例子，不是统一生活规则。"
+    ],
+    "vocabulary": [
+      {
+        "word": "mischievousness",
+        "meaning": "顽皮；爱开小玩笑的倾向",
+        "context": "和playfulness并列，本段不据此鼓励蓄意伤害或断言所有顽皮都有益。",
+        "example": "A little mischievousness made the fictional character lively.",
+        "collocations": [
+          "mischievousness over seriousness",
+          "playfulness over mindfulness"
+        ]
+      }
+    ],
+    "translation": "心理学家报告，坚毅、善良、善社交和正念，有助于幸福。这些目标都值得赞赏，但坚毅或正念需要持续注意，并不总容易。这样的努力不适合每个人，也不适合每一天。像 Shaq 一样，有些人更偏好玩心而非正念，更偏好顽皮而非严肃。",
+    "evidenceTargetIds": [
+      "c07-s06-p077-05040-s008"
+    ],
+    "evidence": [
+      {
+        "quote": "Psychologists report that being gritty, kind, sociable, and mindful can help you achieve happiness. These are all admirable goals, but being gritty or mindful requires sustained attention and is not always easy. Such endeavors are not for everyone, nor for every day. Like Shaq, there are individuals who prefer playfulness over mindfulness and mischievousness over seriousness.",
+        "sentenceIds": [
+          "c07-s06-p077-05040-s005",
+          "c07-s06-p077-05040-s006",
+          "c07-s06-p077-05040-s007",
+          "c07-s06-p077-05040-s008"
+        ],
+        "sources": [
+          {
+            "pdfPage": 77,
+            "block": 2,
+            "bbox": [
+              76.99,
+              504,
+              535.01,
+              713.52
+            ]
+          },
+          {
+            "pdfPage": 78,
+            "block": 0,
+            "bbox": [
+              76.99,
+              75,
+              535.01,
+              167.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "6e09c59ba2ed00d2f4c3adfaec9e04d0221ee80537c0fa9ed5964ebb454de2af"
+  },
+  {
+    "id": "qe-c07-0122",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-028",
+    "parentQuestionId": "q-c07-069",
+    "chapterId": "c07",
+    "sectionId": "c07-s06",
+    "paragraphId": "c07-s06-p077-05040",
+    "readingUnitId": "c07-s06-p077-05040-r009-012",
+    "sentenceIds": [
+      "c07-s06-p077-05040-s009",
+      "c07-s06-p077-05040-s010",
+      "c07-s06-p077-05040-s011",
+      "c07-s06-p077-05040-s012"
+    ],
+    "passage": "Grit can clearly help a person achieve their goals, but being single-minded can suck the fun and richness out of life. Simone Biles withdrew from the Tokyo Olympic Games. Fear and anxiety overwhelmed her. But, after taking some time off, she came back strong and rejuvenated.",
+    "prompt": "Which event is named in the book's sentence about Biles's withdrawal?",
+    "promptZh": "本书叙述 Biles 退出时点名什么赛事？",
+    "options": [
+      "The2016 Rio Games as a new current announcement.",
+      "The American League baseball season.",
+      "An unnamed high-school swimming meet.",
+      "The Tokyo Olympic Games."
+    ],
+    "optionsZh": [
+      "作为最新公告的2016里约赛事。",
+      "美联棒球赛季。",
+      "未具名高中游泳比赛。",
+      "东京奥运会。"
+    ],
+    "answer": 3,
+    "type": "细节",
+    "support": "explicit",
+    "analyses": [
+      "A 当前句是Tokyo，不可与前段Rio金牌互换。",
+      "B 混同Ohtani项目。",
+      "C 混同另一运动员与级别。",
+      "D 本句直接点名Tokyo；保留书中叙述，不从其简短说法扩推每项退出范围、最新赛况或私人诊断细节。"
+    ],
+    "vocabulary": [
+      {
+        "word": "withdrew from",
+        "meaning": "退出；撤出某赛事或活动",
+        "context": "只按所给句子定位事件，不自行增加比赛项目清单或日期。",
+        "example": "The team withdrew from the event after reviewing its options.",
+        "collocations": [
+          "withdrew from the Tokyo Olympic Games",
+          "withdraw from an event"
+        ]
+      }
+    ],
+    "translation": "坚毅显然能帮助人实现目标，但只盯一个目标，也可能把人生中的乐趣与丰富性吸走。书中叙述，Simone Biles 退出东京奥运比赛，恐惧与焦虑使她不堪重负；休息一段时间后，她坚强归来，重获活力。",
+    "evidenceTargetIds": [
+      "c07-s06-p077-05040-s010"
+    ],
+    "evidence": [
+      {
+        "quote": "Grit can clearly help a person achieve their goals, but being single-minded can suck the fun and richness out of life. Simone Biles withdrew from the Tokyo Olympic Games. Fear and anxiety overwhelmed her. But, after taking some time off, she came back strong and rejuvenated.",
+        "sentenceIds": [
+          "c07-s06-p077-05040-s009",
+          "c07-s06-p077-05040-s010",
+          "c07-s06-p077-05040-s011",
+          "c07-s06-p077-05040-s012"
+        ],
+        "sources": [
+          {
+            "pdfPage": 78,
+            "block": 0,
+            "bbox": [
+              76.99,
+              75,
+              535.01,
+              167.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "6577e96995cd5f6ff813487e3949aea6d0832355467c031f26dc587b49a8461e"
+  },
+  {
+    "id": "qe-c07-0123",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-028",
+    "parentQuestionId": "q-c07-069",
+    "chapterId": "c07",
+    "sectionId": "c07-s06",
+    "paragraphId": "c07-s06-p077-05040",
+    "readingUnitId": "c07-s06-p077-05040-r009-012",
+    "sentenceIds": [
+      "c07-s06-p077-05040-s009",
+      "c07-s06-p077-05040-s010",
+      "c07-s06-p077-05040-s011",
+      "c07-s06-p077-05040-s012"
+    ],
+    "passage": "Grit can clearly help a person achieve their goals, but being single-minded can suck the fun and richness out of life. Simone Biles withdrew from the Tokyo Olympic Games. Fear and anxiety overwhelmed her. But, after taking some time off, she came back strong and rejuvenated.",
+    "prompt": "What is the meaning of 'overwhelmed her' in the account?",
+    "promptZh": "叙述中 overwhelmed her 是什么意思？",
+    "options": [
+      "She physically carried the emotions as objects.",
+      "The feelings became too powerful for her to manage, as the book describes.",
+      "The feelings were absent throughout her experience.",
+      "The sentence supplies a complete clinical report of her current condition."
+    ],
+    "optionsZh": [
+      "她把情绪当物体搬运。",
+      "按书中描述，感受强烈得使她难以承受。",
+      "她始终没有这些感受。",
+      "句子提供她当前状况的完整临床报告。"
+    ],
+    "answer": 1,
+    "type": "语境词义",
+    "support": "explicit",
+    "analyses": [
+      "A 是心理体验表达，不是搬运物品。",
+      "B Fear and anxiety为主语，overwhelmed表强烈压倒。",
+      "C 与原句相反。",
+      "D 本书简述不是完整或当前临床资料，不据此补充诊断。"
+    ],
+    "vocabulary": [
+      {
+        "word": "overwhelmed",
+        "meaning": "压倒；使难以承受",
+        "context": "此处描述情绪强度，不是对所有有焦虑者的统一结局。",
+        "example": "The sudden amount of work overwhelmed him for a while.",
+        "collocations": [
+          "fear and anxiety overwhelmed her",
+          "feel overwhelmed"
+        ]
+      }
+    ],
+    "translation": "坚毅显然能帮助人实现目标，但只盯一个目标，也可能把人生中的乐趣与丰富性吸走。书中叙述，Simone Biles 退出东京奥运比赛，恐惧与焦虑使她不堪重负；休息一段时间后，她坚强归来，重获活力。",
+    "evidenceTargetIds": [
+      "c07-s06-p077-05040-s011"
+    ],
+    "evidence": [
+      {
+        "quote": "Grit can clearly help a person achieve their goals, but being single-minded can suck the fun and richness out of life. Simone Biles withdrew from the Tokyo Olympic Games. Fear and anxiety overwhelmed her. But, after taking some time off, she came back strong and rejuvenated.",
+        "sentenceIds": [
+          "c07-s06-p077-05040-s009",
+          "c07-s06-p077-05040-s010",
+          "c07-s06-p077-05040-s011",
+          "c07-s06-p077-05040-s012"
+        ],
+        "sources": [
+          {
+            "pdfPage": 78,
+            "block": 0,
+            "bbox": [
+              76.99,
+              75,
+              535.01,
+              167.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "a0894569026e818cb4a74f2135eaf03ca5d241659bbf7595b6057ae67c4b6a75"
+  },
+  {
+    "id": "qe-c07-0124",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-028",
+    "parentQuestionId": "q-c07-069",
+    "chapterId": "c07",
+    "sectionId": "c07-s06",
+    "paragraphId": "c07-s06-p077-05040",
+    "readingUnitId": "c07-s06-p077-05040-r009-012",
+    "sentenceIds": [
+      "c07-s06-p077-05040-s009",
+      "c07-s06-p077-05040-s010",
+      "c07-s06-p077-05040-s011",
+      "c07-s06-p077-05040-s012"
+    ],
+    "passage": "Grit can clearly help a person achieve their goals, but being single-minded can suck the fun and richness out of life. Simone Biles withdrew from the Tokyo Olympic Games. Fear and anxiety overwhelmed her. But, after taking some time off, she came back strong and rejuvenated.",
+    "prompt": "Which relationship is explicitly stated between the break and Biles's return?",
+    "promptZh": "休息与 Biles 归来之间，原文明示什么关系？",
+    "options": [
+      "She returned before taking any time off.",
+      "Rest was proved to cure every athlete completely.",
+      "After some time off, she returned strong and refreshed.",
+      "She never returned after leaving."
+    ],
+    "optionsZh": [
+      "尚未休息便先归来。",
+      "休息已证明能完全治愈每位运动员。",
+      "休息一段时间后，她坚强并恢复活力地归来。",
+      "她离开后从未回来。"
+    ],
+    "answer": 2,
+    "type": "逻辑关系",
+    "support": "explicit",
+    "analyses": [
+      "A after不是before。",
+      "B 时间顺序不自动建立全人群治疗因果，原句无此证明。",
+      "C after...came back...rejuvenated明确先后与作者所述状态。",
+      "D came back排除从未归来；不把本段当医疗建议或最新比赛报道。"
+    ],
+    "vocabulary": [
+      {
+        "word": "rejuvenated",
+        "meaning": "恢复活力的；焕发精神的",
+        "context": "描述书中归来状态，不等于年龄真的变小或永久无困难。",
+        "example": "After the break, she felt rejuvenated and ready to continue.",
+        "collocations": [
+          "strong and rejuvenated",
+          "come back rejuvenated"
+        ]
+      }
+    ],
+    "translation": "坚毅显然能帮助人实现目标，但只盯一个目标，也可能把人生中的乐趣与丰富性吸走。书中叙述，Simone Biles 退出东京奥运比赛，恐惧与焦虑使她不堪重负；休息一段时间后，她坚强归来，重获活力。",
+    "evidenceTargetIds": [
+      "c07-s06-p077-05040-s012"
+    ],
+    "evidence": [
+      {
+        "quote": "Grit can clearly help a person achieve their goals, but being single-minded can suck the fun and richness out of life. Simone Biles withdrew from the Tokyo Olympic Games. Fear and anxiety overwhelmed her. But, after taking some time off, she came back strong and rejuvenated.",
+        "sentenceIds": [
+          "c07-s06-p077-05040-s009",
+          "c07-s06-p077-05040-s010",
+          "c07-s06-p077-05040-s011",
+          "c07-s06-p077-05040-s012"
+        ],
+        "sources": [
+          {
+            "pdfPage": 78,
+            "block": 0,
+            "bbox": [
+              76.99,
+              75,
+              535.01,
+              167.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "f822b4f1373b4a651dc926aae84cca3cffb94477a5a1bfb5015b4418761cd3d9"
+  },
+  {
+    "id": "qe-c07-0125",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-028",
+    "parentQuestionId": "q-c07-070",
+    "chapterId": "c07",
+    "sectionId": "c07-s06",
+    "paragraphId": "c07-s06-p078-01725",
+    "readingUnitId": "c07-s06-p078-01725-r001-004",
+    "sentenceIds": [
+      "c07-s06-p078-01725-s001",
+      "c07-s06-p078-01725-s002",
+      "c07-s06-p078-01725-s003",
+      "c07-s06-p078-01725-s004"
+    ],
+    "passage": "As an antidote to too much seriousness, we need playfulness and spontaneity. Hobby over duty. Entertainment over commitment. Relaxation over dedication.",
+    "prompt": "In 'Hobby over duty', what is being prioritised in the chapter's antidote to excess seriousness?",
+    "promptZh": "在本章对过度严肃的调节中，Hobby over duty 把什么置于前面？",
+    "options": [
+      "An enjoyable personal interest rather than a duty, in the stated contrast.",
+      "Every work obligation over every pastime.",
+      "A guarantee that hobbies will produce professional medals.",
+      "A claim that duties and hobbies are exactly the same."
+    ],
+    "optionsZh": [
+      "在该对照中优先个人爱好，而非职责。",
+      "所有工作义务胜过每项消遣。",
+      "保证爱好带来职业奖牌。",
+      "认为职责与爱好完全同义。"
+    ],
+    "answer": 0,
+    "type": "细节",
+    "support": "explicit",
+    "analyses": [
+      "A over标优先对照，前句antidote to too much seriousness给调节语境。",
+      "B 优先方向倒置。",
+      "C 未有奖牌保证。",
+      "D 两词对照不是定义相同，也不扩成永久弃绝全部责任。"
+    ],
+    "vocabulary": [
+      {
+        "word": "hobby",
+        "meaning": "爱好；非主要职业的兴趣活动",
+        "context": "与duty构成取向对照，不是要求任何爱好都成为谋生任务。",
+        "example": "Painting is a hobby she enjoys without entering competitions.",
+        "collocations": [
+          "Hobby over duty",
+          "a personal hobby"
+        ]
+      }
+    ],
+    "translation": "作为过度严肃的解药，我们需要玩心与自发性。让爱好暂胜职责，让娱乐暂胜承诺，让放松暂胜投入。",
+    "evidenceTargetIds": [
+      "c07-s06-p078-01725-s002"
+    ],
+    "evidence": [
+      {
+        "quote": "As an antidote to too much seriousness, we need playfulness and spontaneity. Hobby over duty. Entertainment over commitment. Relaxation over dedication.",
+        "sentenceIds": [
+          "c07-s06-p078-01725-s001",
+          "c07-s06-p078-01725-s002",
+          "c07-s06-p078-01725-s003",
+          "c07-s06-p078-01725-s004"
+        ],
+        "sources": [
+          {
+            "pdfPage": 78,
+            "block": 1,
+            "bbox": [
+              76.99,
+              172.5,
+              535,
+              304.02
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "24fdd6cb5177c097e2295c1d360854b3c8abc1c619430b93805b3b6011bf651a"
+  },
+  {
+    "id": "qe-c07-0126",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-028",
+    "parentQuestionId": "q-c07-070",
+    "chapterId": "c07",
+    "sectionId": "c07-s06",
+    "paragraphId": "c07-s06-p078-01725",
+    "readingUnitId": "c07-s06-p078-01725-r001-004",
+    "sentenceIds": [
+      "c07-s06-p078-01725-s001",
+      "c07-s06-p078-01725-s002",
+      "c07-s06-p078-01725-s003",
+      "c07-s06-p078-01725-s004"
+    ],
+    "passage": "As an antidote to too much seriousness, we need playfulness and spontaneity. Hobby over duty. Entertainment over commitment. Relaxation over dedication.",
+    "prompt": "What does 'commitment' mean in 'Entertainment over commitment'?",
+    "promptZh": "Entertainment over commitment 中 commitment 是什么意思？",
+    "options": [
+      "Only an entertainment ticket price.",
+      "A prior obligation or sustained dedication contrasted with entertainment.",
+      "A guarantee that every leisure activity is already planned.",
+      "Only a legal conviction in court."
+    ],
+    "optionsZh": [
+      "仅一张娱乐票价。",
+      "与娱乐对照的承诺、义务或持续投入。",
+      "每种休闲活动都已安排的保证。",
+      "仅法庭刑事定罪。"
+    ],
+    "answer": 1,
+    "type": "语境词义",
+    "support": "explicit",
+    "analyses": [
+      "A commitment不等于票价。",
+      "B 与entertainment并列对照，指需要投入承担的事情。",
+      "C 不是对所有活动计划性的保证。",
+      "D 与conviction的法律义混淆；不能把此短句扩成所有承诺都不值得履行。"
+    ],
+    "vocabulary": [
+      {
+        "word": "commitment",
+        "meaning": "承诺；投入；需持续承担的义务",
+        "context": "本段与娱乐的轻松取向比较，不限定仅婚姻关系。",
+        "example": "She balanced a long-term commitment with time for recreation.",
+        "collocations": [
+          "Entertainment over commitment",
+          "a sustained commitment"
+        ]
+      }
+    ],
+    "translation": "作为过度严肃的解药，我们需要玩心与自发性。让爱好暂胜职责，让娱乐暂胜承诺，让放松暂胜投入。",
+    "evidenceTargetIds": [
+      "c07-s06-p078-01725-s003"
+    ],
+    "evidence": [
+      {
+        "quote": "As an antidote to too much seriousness, we need playfulness and spontaneity. Hobby over duty. Entertainment over commitment. Relaxation over dedication.",
+        "sentenceIds": [
+          "c07-s06-p078-01725-s001",
+          "c07-s06-p078-01725-s002",
+          "c07-s06-p078-01725-s003",
+          "c07-s06-p078-01725-s004"
+        ],
+        "sources": [
+          {
+            "pdfPage": 78,
+            "block": 1,
+            "bbox": [
+              76.99,
+              172.5,
+              535,
+              304.02
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "a21fe774d69d13c988749e7657125be36e3732c28ab99e40f07952d396dffa85"
+  },
+  {
+    "id": "qe-c07-0127",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-028",
+    "parentQuestionId": "q-c07-070",
+    "chapterId": "c07",
+    "sectionId": "c07-s06",
+    "paragraphId": "c07-s06-p078-01725",
+    "readingUnitId": "c07-s06-p078-01725-r001-004",
+    "sentenceIds": [
+      "c07-s06-p078-01725-s001",
+      "c07-s06-p078-01725-s002",
+      "c07-s06-p078-01725-s003",
+      "c07-s06-p078-01725-s004"
+    ],
+    "passage": "As an antidote to too much seriousness, we need playfulness and spontaneity. Hobby over duty. Entertainment over commitment. Relaxation over dedication.",
+    "prompt": "How does 'Relaxation over dedication' work with the preceding two short lines?",
+    "promptZh": "Relaxation over dedication 与前两个短句怎样配合？",
+    "options": [
+      "It states that relaxation and dedication can never exist in one life.",
+      "It introduces a new measured ranking of all athletes.",
+      "It cancels the claim that excess seriousness needs balance.",
+      "It completes a parallel sequence emphasising a lighter counterbalance to too much seriousness."
+    ],
+    "optionsZh": [
+      "说放松与投入永不能同处人生。",
+      "引入所有运动员的新量化排名。",
+      "取消过度严肃需要平衡的说法。",
+      "完成平行句列，强调为过度严肃加入较轻松的调节。"
+    ],
+    "answer": 3,
+    "type": "篇章结构",
+    "support": "explicit",
+    "analyses": [
+      "A 语境是too much的调节，不是人生永恒互斥。",
+      "B 无排名测量。",
+      "C 仍承接antidote不是取消。",
+      "D Hobby/duty、Entertainment/commitment、Relaxation/dedication平行，加强对照与节奏，不把修辞当实验结论。"
+    ],
+    "vocabulary": [
+      {
+        "word": "Relaxation",
+        "meaning": "放松；从紧张投入中舒缓",
+        "context": "在对照中是轻松取向，不等于永远不作努力。",
+        "example": "A short period of relaxation helped her enjoy the afternoon.",
+        "collocations": [
+          "Relaxation over dedication",
+          "a counterbalance to seriousness"
+        ]
+      }
+    ],
+    "translation": "作为过度严肃的解药，我们需要玩心与自发性。让爱好暂胜职责，让娱乐暂胜承诺，让放松暂胜投入。",
+    "evidenceTargetIds": [
+      "c07-s06-p078-01725-s004"
+    ],
+    "evidence": [
+      {
+        "quote": "As an antidote to too much seriousness, we need playfulness and spontaneity. Hobby over duty. Entertainment over commitment. Relaxation over dedication.",
+        "sentenceIds": [
+          "c07-s06-p078-01725-s001",
+          "c07-s06-p078-01725-s002",
+          "c07-s06-p078-01725-s003",
+          "c07-s06-p078-01725-s004"
+        ],
+        "sources": [
+          {
+            "pdfPage": 78,
+            "block": 1,
+            "bbox": [
+              76.99,
+              172.5,
+              535,
+              304.02
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "188118826c2126a719cec61eeacc8454949bb5e28d2e7e172e2f85f88554856d"
+  },
+  {
+    "id": "qe-c07-0128",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-028",
+    "parentQuestionId": "q-c07-071",
+    "chapterId": "c07",
+    "sectionId": "c07-s06",
+    "paragraphId": "c07-s06-p078-01725",
+    "readingUnitId": "c07-s06-p078-01725-r005-008",
+    "sentenceIds": [
+      "c07-s06-p078-01725-s005",
+      "c07-s06-p078-01725-s006",
+      "c07-s06-p078-01725-s007",
+      "c07-s06-p078-01725-s008"
+    ],
+    "passage": "Try to be playful at work or at home at least once a day. Try to make your partner, friend, or coworker laugh. Take a detour on your way home. Jump in a puddle.",
+    "prompt": "What does 'take a detour on your way home' suggest?",
+    "promptZh": "take a detour on your way home 建议什么？",
+    "options": [
+      "Take an alternative route instead of the usual direct way home.",
+      "Move permanently to an entirely different country.",
+      "Never return home after work again.",
+      "Follow exactly the same path with no variation."
+    ],
+    "optionsZh": [
+      "回家时换条非通常直达的路线。",
+      "永久搬往另一国家。",
+      "以后工作后再不回家。",
+      "完全同路、不作变化。"
+    ],
+    "answer": 0,
+    "type": "语境词义",
+    "support": "explicit",
+    "analyses": [
+      "A detour是绕行，可作日常小变化例子。",
+      "B 不等于搬家或出国。",
+      "C on your way home仍指回家的路。",
+      "D 与detour的改变路线含义相反；书中建议不代表用户已实际执行。"
+    ],
+    "vocabulary": [
+      {
+        "word": "detour",
+        "meaning": "绕路；偏离常规路线的行程",
+        "context": "可以是日常小变动，不要求大型旅行或抛弃目的地。",
+        "example": "They took a detour to see the old bridge.",
+        "collocations": [
+          "take a detour",
+          "on your way home"
+        ]
+      }
+    ],
+    "translation": "试着在工作或家里每天至少有一次玩心。试着逗伴侣、朋友或同事笑。回家时绕个路。跳进一个水坑。",
+    "evidenceTargetIds": [
+      "c07-s06-p078-01725-s007"
+    ],
+    "evidence": [
+      {
+        "quote": "Try to be playful at work or at home at least once a day. Try to make your partner, friend, or coworker laugh. Take a detour on your way home. Jump in a puddle.",
+        "sentenceIds": [
+          "c07-s06-p078-01725-s005",
+          "c07-s06-p078-01725-s006",
+          "c07-s06-p078-01725-s007",
+          "c07-s06-p078-01725-s008"
+        ],
+        "sources": [
+          {
+            "pdfPage": 78,
+            "block": 1,
+            "bbox": [
+              76.99,
+              172.5,
+              535,
+              304.02
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "e76fbe1b1a9d234a846cc7e1c7fb92d7950bd0c96f8d94f8c7fba999c80f9a9a"
+  },
+  {
+    "id": "qe-c07-0129",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-028",
+    "parentQuestionId": "q-c07-071",
+    "chapterId": "c07",
+    "sectionId": "c07-s06",
+    "paragraphId": "c07-s06-p078-01725",
+    "readingUnitId": "c07-s06-p078-01725-r005-008",
+    "sentenceIds": [
+      "c07-s06-p078-01725-s005",
+      "c07-s06-p078-01725-s006",
+      "c07-s06-p078-01725-s007",
+      "c07-s06-p078-01725-s008"
+    ],
+    "passage": "Try to be playful at work or at home at least once a day. Try to make your partner, friend, or coworker laugh. Take a detour on your way home. Jump in a puddle.",
+    "prompt": "What does 'a puddle' refer to in the playful example?",
+    "promptZh": "玩心例子中的 a puddle 指什么？",
+    "options": [
+      "A professional swimming competition.",
+      "A formal appointment with a coworker.",
+      "A small shallow pool of water, such as after rain.",
+      "A permanent relocation to an island."
+    ],
+    "optionsZh": [
+      "专业游泳赛事。",
+      "与同事的正式预约。",
+      "例如雨后形成的小片浅积水。",
+      "永久搬到岛上。"
+    ],
+    "answer": 2,
+    "type": "语境词义",
+    "support": "explicit",
+    "analyses": [
+      "A puddle不是赛事或泳池的同义词。",
+      "B 不属于时间安排。",
+      "C Jump in a puddle形象化小孩式小动作，词义为浅积水。",
+      "D 不含永久搬迁；此处读例子，不捏造用户实际行动。"
+    ],
+    "vocabulary": [
+      {
+        "word": "puddle",
+        "meaning": "水坑；小片浅积水",
+        "context": "本段为轻松动作例子，不是pool大型泳池或海洋。",
+        "example": "A puddle formed near the path after the rain.",
+        "collocations": [
+          "jump in a puddle",
+          "a shallow puddle"
+        ]
+      }
+    ],
+    "translation": "试着在工作或家里每天至少有一次玩心。试着逗伴侣、朋友或同事笑。回家时绕个路。跳进一个水坑。",
+    "evidenceTargetIds": [
+      "c07-s06-p078-01725-s008"
+    ],
+    "evidence": [
+      {
+        "quote": "Try to be playful at work or at home at least once a day. Try to make your partner, friend, or coworker laugh. Take a detour on your way home. Jump in a puddle.",
+        "sentenceIds": [
+          "c07-s06-p078-01725-s005",
+          "c07-s06-p078-01725-s006",
+          "c07-s06-p078-01725-s007",
+          "c07-s06-p078-01725-s008"
+        ],
+        "sources": [
+          {
+            "pdfPage": 78,
+            "block": 1,
+            "bbox": [
+              76.99,
+              172.5,
+              535,
+              304.02
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "edec564def0d1effb126ba6d112639c49e8255151966521ded3d2955df77aae5"
+  },
+  {
+    "id": "qe-c07-0130",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-028",
+    "parentQuestionId": "q-c07-072",
+    "chapterId": "c07",
+    "sectionId": "c07-s06",
+    "paragraphId": "c07-s06-p078-01725",
+    "readingUnitId": "c07-s06-p078-01725-r009-012",
+    "sentenceIds": [
+      "c07-s06-p078-01725-s009",
+      "c07-s06-p078-01725-s010",
+      "c07-s06-p078-01725-s011",
+      "c07-s06-p078-01725-s012"
+    ],
+    "passage": "Go for a swim. Get wet; get dirty. Be like a little kid once in a while. When you do something spontaneous, you’ll make life rich and memorable.",
+    "prompt": "What is the force of 'Go for a swim' in this paragraph?",
+    "promptZh": "本段 Go for a swim 起什么作用？",
+    "options": [
+      "It reports that the reader has already completed a swim.",
+      "It gives an example invitation to do a physical, playful activity.",
+      "It requires entering an elite competition before relaxing.",
+      "It says swimming must become every person's main occupation."
+    ],
+    "optionsZh": [
+      "报告读者已完成游泳。",
+      "举例邀请做一项身体性的玩耍活动。",
+      "要求放松前参加精英比赛。",
+      "说游泳必须成为每人主要职业。"
+    ],
+    "answer": 1,
+    "type": "作者意图",
+    "support": "explicit",
+    "analyses": [
+      "A 祈使句建议不是已完成历史。",
+      "B 与get wet,be like a little kid相接，为日常玩心举例。",
+      "C 无比赛资格前提。",
+      "D 不是统一职业要求，不能把休闲例子升级成唯一丰富路径。"
+    ],
+    "vocabulary": [
+      {
+        "word": "Go for a swim",
+        "meaning": "去游泳；进行一次游泳活动",
+        "context": "go for加活动名词表示去做，不说明成绩、比赛或已发生次数。",
+        "example": "They decided to go for a swim during the afternoon.",
+        "collocations": [
+          "go for a swim",
+          "go for a walk"
+        ]
+      }
+    ],
+    "translation": "去游泳。让自己湿一湿、脏一脏。偶尔像个小孩子。当你做些自发的事，就会让人生丰富而难忘。",
+    "evidenceTargetIds": [
+      "c07-s06-p078-01725-s009"
+    ],
+    "evidence": [
+      {
+        "quote": "Go for a swim. Get wet; get dirty. Be like a little kid once in a while. When you do something spontaneous, you’ll make life rich and memorable.",
+        "sentenceIds": [
+          "c07-s06-p078-01725-s009",
+          "c07-s06-p078-01725-s010",
+          "c07-s06-p078-01725-s011",
+          "c07-s06-p078-01725-s012"
+        ],
+        "sources": [
+          {
+            "pdfPage": 78,
+            "block": 1,
+            "bbox": [
+              76.99,
+              172.5,
+              535,
+              304.02
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "7358245deb767df6e8df300cd69e4d7db705cb940f4acff13bf5287f18142025"
+  },
+  {
+    "id": "qe-c07-0131",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-028",
+    "parentQuestionId": "q-c07-072",
+    "chapterId": "c07",
+    "sectionId": "c07-s06",
+    "paragraphId": "c07-s06-p078-01725",
+    "readingUnitId": "c07-s06-p078-01725-r009-012",
+    "sentenceIds": [
+      "c07-s06-p078-01725-s009",
+      "c07-s06-p078-01725-s010",
+      "c07-s06-p078-01725-s011",
+      "c07-s06-p078-01725-s012"
+    ],
+    "passage": "Go for a swim. Get wet; get dirty. Be like a little kid once in a while. When you do something spontaneous, you’ll make life rich and memorable.",
+    "prompt": "What do 'wet' and 'dirty' describe after 'Get' in this example?",
+    "promptZh": "例子中 Get 后的 wet 与 dirty 描写什么？",
+    "options": [
+      "The names of two objects that must be bought.",
+      "The athlete's medal categories.",
+      "A pair of future research projects.",
+      "States the person becomes, as part of the playful invitation."
+    ],
+    "optionsZh": [
+      "必须购买的两件物品名称。",
+      "运动员奖牌类别。",
+      "两项未来研究课题。",
+      "人在玩耍邀请中会变成的状态。"
+    ],
+    "answer": 3,
+    "type": "语法与含义",
+    "support": "explicit",
+    "analyses": [
+      "A get在此为变得，不是获得两件物品。",
+      "B 不是奖牌名。",
+      "C 不指研究计划。",
+      "D get加形容词表示状态变化，wet湿、dirty脏；与后句偶尔像孩子的语境相接，不是要求永久不清洁。"
+    ],
+    "vocabulary": [
+      {
+        "word": "Get wet",
+        "meaning": "变湿；让自己湿一湿",
+        "context": "get在这里为状态变化，非拿取一个名叫wet的东西。",
+        "example": "Your shoes may get wet if you walk through the grass.",
+        "collocations": [
+          "get wet",
+          "get dirty"
+        ]
+      }
+    ],
+    "translation": "去游泳。让自己湿一湿、脏一脏。偶尔像个小孩子。当你做些自发的事，就会让人生丰富而难忘。",
+    "evidenceTargetIds": [
+      "c07-s06-p078-01725-s010"
+    ],
+    "evidence": [
+      {
+        "quote": "Go for a swim. Get wet; get dirty. Be like a little kid once in a while. When you do something spontaneous, you’ll make life rich and memorable.",
+        "sentenceIds": [
+          "c07-s06-p078-01725-s009",
+          "c07-s06-p078-01725-s010",
+          "c07-s06-p078-01725-s011",
+          "c07-s06-p078-01725-s012"
+        ],
+        "sources": [
+          {
+            "pdfPage": 78,
+            "block": 1,
+            "bbox": [
+              76.99,
+              172.5,
+              535,
+              304.02
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "8d359149afb9743acfb2345dd9dbaece0aa9821a45b244fce5b84b732fd472d2"
+  },
+  {
+    "id": "qe-c08-0001",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-028",
+    "parentQuestionId": "q-c08-001",
+    "chapterId": "c08",
+    "sectionId": "c08-s01",
+    "paragraphId": "c08-s01-p079-03848",
+    "readingUnitId": "c08-s01-p079-03848-r001-002",
+    "sentenceIds": [
+      "c08-s01-p079-03848-s001",
+      "c08-s01-p079-03848-s002"
+    ],
+    "passage": "So far, I have talked about the factors that facilitate a psychologically rich life such as the mindset of playfulness and the attitude of expeditus (“ready to march”). Closely related to the potential harm of early specialization discussed in the previous chapter, I will now talk about another force that could suck psychological richness out of your life, the obsession with productivity, and the counterforce that could fill your life with psychological richness: Do-It-Yourself.",
+    "prompt": "What does 'So far' accomplish at the start of Chapter Eight?",
+    "promptZh": "第8章开头 So far 有什么作用？",
+    "options": [
+      "It looks back at previously discussed factors before introducing the next focus.",
+      "It says all remaining chapters have already been covered.",
+      "It denies playfulness was ever discussed.",
+      "It presents the entire sentence as an instruction for the reader to march physically."
+    ],
+    "optionsZh": [
+      "回顾此前因素，再引入新的重点。",
+      "说后续章节都已讲完。",
+      "否认曾讨论玩心。",
+      "把整句当要求读者实际行军的命令。"
+    ],
+    "answer": 0,
+    "type": "篇章结构",
+    "support": "explicit",
+    "analyses": [
+      "A I have talked回顾playfulness与expeditus，次句I will now talk转向生产力迷恋及DIY。",
+      "B so far不是全书已经完结。",
+      "C 明确列playfulness，不能否认。",
+      "D ready to march为原文对态度的释义，不是执行命令；facilitate也不表示有这些态度就必有相同结果。"
+    ],
+    "vocabulary": [
+      {
+        "word": "facilitate",
+        "meaning": "促进；使较容易发生",
+        "context": "指有助心理丰富的因素，不等于充分保证或代替所有机会资源。",
+        "example": "An informal meeting can facilitate the exchange of ideas.",
+        "collocations": [
+          "factors that facilitate",
+          "facilitate a rich life"
+        ]
+      }
+    ],
+    "translation": "此前，我谈了促进心理丰富人生的因素，如玩心，以及 expeditus（“随时准备出发”）的态度。与上章过早专攻的潜在危害紧密相关，我现在要谈另一种可能吸走人生丰富性的力量：对生产力的迷恋；也要谈可能把心理丰富性带回来的一股对抗力量：自己动手做。",
+    "evidenceTargetIds": [
+      "c08-s01-p079-03848-s001"
+    ],
+    "evidence": [
+      {
+        "quote": "So far, I have talked about the factors that facilitate a psychologically rich life such as the mindset of playfulness and the attitude of expeditus (“ready to march”). Closely related to the potential harm of early specialization discussed in the previous chapter, I will now talk about another force that could suck psychological richness out of your life, the obsession with productivity, and the counterforce that could fill your life with psychological richness: Do-It-Yourself.",
+        "sentenceIds": [
+          "c08-s01-p079-03848-s001",
+          "c08-s01-p079-03848-s002"
+        ],
+        "sources": [
+          {
+            "pdfPage": 79,
+            "block": 5,
+            "bbox": [
+              76.99,
+              384.75,
+              535.01,
+              516.27
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "bde9c545ad54061b10380358a9e696080501370940ebf576d574655760cc5aaf"
   }
 ]
