@@ -64955,5 +64955,2040 @@
     ],
     "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
     "fingerprint": "df1f6d57ae24525b9b53d6f0383fde90c5e7c919d37492a5a4f78086f485f438"
+  },
+  {
+    "id": "qe-c09-0004",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-033",
+    "parentQuestionId": "q-c09-002",
+    "chapterId": "c09",
+    "sectionId": "c09-s01",
+    "paragraphId": "c09-s01-p089-04238",
+    "readingUnitId": "c09-s01-p089-04238-r001-004",
+    "sentenceIds": [
+      "c09-s01-p089-04238-s001",
+      "c09-s01-p089-04238-s002",
+      "c09-s01-p089-04238-s003",
+      "c09-s01-p089-04238-s004"
+    ],
+    "passage": "Mohammed Aziz would certainly say yes. Aziz is a seventy-two-year-old bookseller in Rabat Medina, Morocco. He was orphaned at age six. He became a fisherman to try to make a living and achieve his dream of graduating high school.",
+    "prompt": "Which event is specifically placed at age six in Aziz's account?",
+    "promptZh": "Aziz 的经历中，哪件事明确发生在六岁？",
+    "options": [
+      "Becoming an orphan.",
+      "Dropping out because of textbook costs.",
+      "Opening the bookstore he now owns.",
+      "Completing his high-school education."
+    ],
+    "optionsZh": [
+      "成为孤儿。",
+      "因教材费用退学。",
+      "开设如今拥有的书店。",
+      "完成高中教育。"
+    ],
+    "answer": 0,
+    "type": "细节",
+    "support": "explicit",
+    "analyses": [
+      "A orphaned at age six 明确对应，未添加父母死亡的具体原因。",
+      "B 不能把后文十五岁退学前移到六岁。",
+      "C 开书店的年龄在此未给。",
+      "D achieve his dream 是后来努力的目标，不能写成六岁已完成；按书中人物自述背景理解。"
+    ],
+    "vocabulary": [
+      {
+        "word": "orphaned",
+        "meaning": "成为孤儿的；失去父母的",
+        "context": "此处被动 was orphaned 描述幼年处境，不表示他收养别人。",
+        "example": "The story follows a child who was orphaned at an early age.",
+        "collocations": [
+          "orphaned at age six",
+          "was orphaned"
+        ]
+      }
+    ],
+    "translation": "Mohammed Aziz 肯定会回答“能”。Aziz 是 Morocco 的 Rabat Medina 一位七十二岁的书商。他六岁时成了孤儿。他做渔夫，试图维持生计，并实现高中毕业的梦想。",
+    "evidenceTargetIds": [
+      "c09-s01-p089-04238-s003"
+    ],
+    "evidence": [
+      {
+        "quote": "Mohammed Aziz would certainly say yes. Aziz is a seventy-two-year-old bookseller in Rabat Medina, Morocco. He was orphaned at age six. He became a fisherman to try to make a living and achieve his dream of graduating high school.",
+        "sentenceIds": [
+          "c09-s01-p089-04238-s001",
+          "c09-s01-p089-04238-s002",
+          "c09-s01-p089-04238-s003",
+          "c09-s01-p089-04238-s004"
+        ],
+        "sources": [
+          {
+            "pdfPage": 89,
+            "block": 6,
+            "bbox": [
+              76.99,
+              423.75,
+              535.01,
+              633.27
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "95486dc82363b4cac92d214076b6819368bbe4556c540b7b4d92b83db31237b7"
+  },
+  {
+    "id": "qe-c09-0005",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-033",
+    "parentQuestionId": "q-c09-003",
+    "chapterId": "c09",
+    "sectionId": "c09-s01",
+    "paragraphId": "c09-s01-p089-04238",
+    "readingUnitId": "c09-s01-p089-04238-r005-008",
+    "sentenceIds": [
+      "c09-s01-p089-04238-s005",
+      "c09-s01-p089-04238-s006",
+      "c09-s01-p089-04238-s007",
+      "c09-s01-p089-04238-s008"
+    ],
+    "passage": "However, at age fifteen, the high cost of textbooks forced him to drop out. He channeled this frustration into a career selling books, starting out with only a rug and nine books set up in the shade under a tree. Now he owns a bookstore and spends six to eight hours a day reading. In an interview, he said, “My life revolves around reading….",
+    "prompt": "How did Aziz respond to the frustration described in this excerpt?",
+    "promptZh": "Aziz 如何回应片段中的挫折？",
+    "options": [
+      "He immediately bought a large bookstore with extensive stock.",
+      "He stopped having any involvement with books.",
+      "He redirected it into selling books, beginning with a rug and nine books under a tree.",
+      "He used the nine books as proof he had graduated from high school."
+    ],
+    "optionsZh": [
+      "立即买下藏书丰富的大书店。",
+      "从此不再与书有任何关系。",
+      "把挫折转向售书，起初只有树下一张地毯和九本书。",
+      "以九本书证明自己已高中毕业。"
+    ],
+    "answer": 2,
+    "type": "逻辑关系",
+    "support": "explicit",
+    "analyses": [
+      "A starting out with only 表明简陋起步，大书店属于后来。",
+      "B career selling books 与离开书相反。",
+      "C channeled this frustration into 说明把退学挫折转化为职业行动，保留仅九本书的起点。",
+      "D 售书起步并不证明毕业；原句说教材贵迫使退学。"
+    ],
+    "vocabulary": [
+      {
+        "word": "channeled",
+        "meaning": "把……引向；转化用于某方向",
+        "context": "把情绪投入售书事业，不是字面修水渠，也不是假定挫折自动带来成功。",
+        "example": "She channeled her frustration into learning a new skill.",
+        "collocations": [
+          "channeled this frustration into a career",
+          "starting out with only"
+        ]
+      }
+    ],
+    "translation": "然而，十五岁时，高昂的教材费用迫使他退学。他把这种挫折转向卖书的事业，起初只有一张地毯和九本书，摆在树荫下。如今他拥有一家书店，每天花六至八小时阅读。在访谈中他说：“我的生活围绕阅读展开……（引语续下段）",
+    "evidenceTargetIds": [
+      "c09-s01-p089-04238-s006"
+    ],
+    "evidence": [
+      {
+        "quote": "However, at age fifteen, the high cost of textbooks forced him to drop out. He channeled this frustration into a career selling books, starting out with only a rug and nine books set up in the shade under a tree. Now he owns a bookstore and spends six to eight hours a day reading. In an interview, he said, “My life revolves around reading….",
+        "sentenceIds": [
+          "c09-s01-p089-04238-s005",
+          "c09-s01-p089-04238-s006",
+          "c09-s01-p089-04238-s007",
+          "c09-s01-p089-04238-s008"
+        ],
+        "sources": [
+          {
+            "pdfPage": 89,
+            "block": 6,
+            "bbox": [
+              76.99,
+              423.75,
+              535.01,
+              633.27
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "53e6280f41927ead0e9e92624fad96853dfbfe793af3239adbbeb18400c6651e"
+  },
+  {
+    "id": "qe-c09-0006",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-033",
+    "parentQuestionId": "q-c09-003",
+    "chapterId": "c09",
+    "sectionId": "c09-s01",
+    "paragraphId": "c09-s01-p089-04238",
+    "readingUnitId": "c09-s01-p089-04238-r005-008",
+    "sentenceIds": [
+      "c09-s01-p089-04238-s005",
+      "c09-s01-p089-04238-s006",
+      "c09-s01-p089-04238-s007",
+      "c09-s01-p089-04238-s008"
+    ],
+    "passage": "However, at age fifteen, the high cost of textbooks forced him to drop out. He channeled this frustration into a career selling books, starting out with only a rug and nine books set up in the shade under a tree. Now he owns a bookstore and spends six to eight hours a day reading. In an interview, he said, “My life revolves around reading….",
+    "prompt": "What does the book say about Aziz's daily reading at this later stage?",
+    "promptZh": "书中说 Aziz 到这一阶段每天如何阅读？",
+    "options": [
+      "He reads for twelve hours and works for only six.",
+      "He owns a bookstore and spends six to eight hours a day reading.",
+      "He reads nine books every hour under the same tree.",
+      "He no longer reads because selling has replaced reading entirely."
+    ],
+    "optionsZh": [
+      "阅读十二小时，只工作六小时。",
+      "拥有书店，每天阅读六至八小时。",
+      "仍在同一树下每小时读九本。",
+      "售书完全替代阅读，所以不再读。"
+    ],
+    "answer": 1,
+    "type": "细节",
+    "support": "explicit",
+    "analyses": [
+      "A 将别段十二小时工作与六至八小时阅读错配。",
+      "B Now he owns...and spends six to eight hours... 两项准确对应。",
+      "C nine 是起步的书本数量，不是每小时阅读速度。",
+      "D 原文明确每天花时间读；Now 是书中叙述阶段，不是已核实的今日状态。"
+    ],
+    "vocabulary": [
+      {
+        "word": "spends",
+        "meaning": "花费；投入时间",
+        "context": "spend hours reading 是投入阅读时间，不是这里花钱买书。",
+        "example": "He spends an hour a day reading short stories.",
+        "collocations": [
+          "spends six to eight hours a day reading",
+          "spend time doing something"
+        ]
+      }
+    ],
+    "translation": "然而，十五岁时，高昂的教材费用迫使他退学。他把这种挫折转向卖书的事业，起初只有一张地毯和九本书，摆在树荫下。如今他拥有一家书店，每天花六至八小时阅读。在访谈中他说：“我的生活围绕阅读展开……（引语续下段）",
+    "evidenceTargetIds": [
+      "c09-s01-p089-04238-s007"
+    ],
+    "evidence": [
+      {
+        "quote": "However, at age fifteen, the high cost of textbooks forced him to drop out. He channeled this frustration into a career selling books, starting out with only a rug and nine books set up in the shade under a tree. Now he owns a bookstore and spends six to eight hours a day reading. In an interview, he said, “My life revolves around reading….",
+        "sentenceIds": [
+          "c09-s01-p089-04238-s005",
+          "c09-s01-p089-04238-s006",
+          "c09-s01-p089-04238-s007",
+          "c09-s01-p089-04238-s008"
+        ],
+        "sources": [
+          {
+            "pdfPage": 89,
+            "block": 6,
+            "bbox": [
+              76.99,
+              423.75,
+              535.01,
+              633.27
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "915512a9bb9e63a09fda121c28de4418aceb6d5d92b0e8e3f406f5bf98569e1f"
+  },
+  {
+    "id": "qe-c09-0007",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-033",
+    "parentQuestionId": "q-c09-003",
+    "chapterId": "c09",
+    "sectionId": "c09-s01",
+    "paragraphId": "c09-s01-p089-04238",
+    "readingUnitId": "c09-s01-p089-04238-r005-008",
+    "sentenceIds": [
+      "c09-s01-p089-04238-s005",
+      "c09-s01-p089-04238-s006",
+      "c09-s01-p089-04238-s007",
+      "c09-s01-p089-04238-s008"
+    ],
+    "passage": "However, at age fifteen, the high cost of textbooks forced him to drop out. He channeled this frustration into a career selling books, starting out with only a rug and nine books set up in the shade under a tree. Now he owns a bookstore and spends six to eight hours a day reading. In an interview, he said, “My life revolves around reading….",
+    "prompt": "What does Aziz mean by saying his life 'revolves around reading'?",
+    "promptZh": "Aziz 说生活 revolves around reading 是什么意思？",
+    "options": [
+      "He reads only as a minor activity unrelated to the rest of his life.",
+      "He avoids reading unless it produces immediate sales.",
+      "His daily schedule literally moves in a circle around a bookcase.",
+      "Reading is a central organising part of his life."
+    ],
+    "optionsZh": [
+      "阅读只是与其他生活无关的小活动。",
+      "除非立即带来销售，否则不读。",
+      "日程真的绕书柜作圆周运动。",
+      "阅读是其生活中居于核心、组织生活的部分。"
+    ],
+    "answer": 3,
+    "type": "语境词义",
+    "support": "explicit",
+    "analyses": [
+      "A revolves around 强调核心而非边缘。",
+      "B 没有只为即时销售才读的限制。",
+      "C 是比喻性中心，不是物理旋转。",
+      "D 与前句每天六至八小时阅读相呼应，保留采访归属；引语在下一短段继续，不能假装当前截段已是完整引语。"
+    ],
+    "vocabulary": [
+      {
+        "word": "revolves around",
+        "meaning": "以……为中心；围绕……展开",
+        "context": "在人物采访中指生活重心，不是天体或物体的轨道。",
+        "example": "Her weekly routine revolves around caring for the garden.",
+        "collocations": [
+          "My life revolves around reading",
+          "revolve around an interest"
+        ]
+      }
+    ],
+    "translation": "然而，十五岁时，高昂的教材费用迫使他退学。他把这种挫折转向卖书的事业，起初只有一张地毯和九本书，摆在树荫下。如今他拥有一家书店，每天花六至八小时阅读。在访谈中他说：“我的生活围绕阅读展开……（引语续下段）",
+    "evidenceTargetIds": [
+      "c09-s01-p089-04238-s008"
+    ],
+    "evidence": [
+      {
+        "quote": "However, at age fifteen, the high cost of textbooks forced him to drop out. He channeled this frustration into a career selling books, starting out with only a rug and nine books set up in the shade under a tree. Now he owns a bookstore and spends six to eight hours a day reading. In an interview, he said, “My life revolves around reading….",
+        "sentenceIds": [
+          "c09-s01-p089-04238-s005",
+          "c09-s01-p089-04238-s006",
+          "c09-s01-p089-04238-s007",
+          "c09-s01-p089-04238-s008"
+        ],
+        "sources": [
+          {
+            "pdfPage": 89,
+            "block": 6,
+            "bbox": [
+              76.99,
+              423.75,
+              535.01,
+              633.27
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "e86fd7656c499045f5a270fc64c7d25865b95562e42a8cb6de416dfae85125e8"
+  },
+  {
+    "id": "qe-c09-0008",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-033",
+    "parentQuestionId": "q-c09-004",
+    "chapterId": "c09",
+    "sectionId": "c09-s01",
+    "paragraphId": "c09-s01-p089-04238",
+    "readingUnitId": "c09-s01-p089-04238-r009-011",
+    "sentenceIds": [
+      "c09-s01-p089-04238-s009",
+      "c09-s01-p089-04238-s010",
+      "c09-s01-p089-04238-s011"
+    ],
+    "passage": "I’ve read more than 4,000 books, so I’ve lived more than 4,000 lives.” Aziz works twelve hours a day and rarely takes vacations. All the same, he has accumulated a wealth of psychologically rich experiences by living 4,000 lives through 4,000 books.",
+    "prompt": "What combination describes Aziz's work and holidays?",
+    "promptZh": "哪组描述符合 Aziz 的工作与休假？",
+    "options": [
+      "He works twelve hours a day and seldom takes holidays.",
+      "He reads twelve books each day and never works.",
+      "He works four thousand hours before every holiday.",
+      "He takes frequent holidays in order to work only a few hours."
+    ],
+    "optionsZh": [
+      "每天工作十二小时，很少休假。",
+      "每天读十二本书且从不工作。",
+      "每次休假前工作四千小时。",
+      "为每天只工作几小时而经常休假。"
+    ],
+    "answer": 0,
+    "type": "细节",
+    "support": "explicit",
+    "analyses": [
+      "A twelve hours a day 与 rarely takes vacations 同时对应，rarely 不是绝对 never。",
+      "B twelve 计工作时数，不能换成读书数量。",
+      "C 四千关联书与人生比喻，不是连续工时。",
+      "D 与长工时、少休假两项均反；不据此推断所有时间分配完全不重叠。"
+    ],
+    "vocabulary": [
+      {
+        "word": "rarely",
+        "meaning": "很少；不常",
+        "context": "频率低但不等于绝无一次，避免把少休假加强成从不休假。",
+        "example": "The shopkeeper rarely closes the shop early.",
+        "collocations": [
+          "rarely takes vacations",
+          "works twelve hours a day"
+        ]
+      }
+    ],
+    "translation": "“我读过四千多本书，所以我活过四千多种人生。”Aziz 每天工作十二小时，很少休假。尽管如此，通过四千本书活过四千种人生，他积累了大量心理丰富的体验。",
+    "evidenceTargetIds": [
+      "c09-s01-p089-04238-s010"
+    ],
+    "evidence": [
+      {
+        "quote": "I’ve read more than 4,000 books, so I’ve lived more than 4,000 lives.” Aziz works twelve hours a day and rarely takes vacations. All the same, he has accumulated a wealth of psychologically rich experiences by living 4,000 lives through 4,000 books.",
+        "sentenceIds": [
+          "c09-s01-p089-04238-s009",
+          "c09-s01-p089-04238-s010",
+          "c09-s01-p089-04238-s011"
+        ],
+        "sources": [
+          {
+            "pdfPage": 89,
+            "block": 6,
+            "bbox": [
+              76.99,
+              423.75,
+              535.01,
+              633.27
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "3d1a7f05341d141ebebd63e6c83ade393083123669529507ad5b2e586352580b"
+  },
+  {
+    "id": "qe-c09-0009",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-033",
+    "parentQuestionId": "q-c09-004",
+    "chapterId": "c09",
+    "sectionId": "c09-s01",
+    "paragraphId": "c09-s01-p089-04238",
+    "readingUnitId": "c09-s01-p089-04238-r009-011",
+    "sentenceIds": [
+      "c09-s01-p089-04238-s009",
+      "c09-s01-p089-04238-s010",
+      "c09-s01-p089-04238-s011"
+    ],
+    "passage": "I’ve read more than 4,000 books, so I’ve lived more than 4,000 lives.” Aziz works twelve hours a day and rarely takes vacations. All the same, he has accumulated a wealth of psychologically rich experiences by living 4,000 lives through 4,000 books.",
+    "prompt": "What does 'All the same' signal in the description of Aziz?",
+    "promptZh": "介绍 Aziz 时，All the same 表示什么？",
+    "options": [
+      "The author is retracting the claim that Aziz reads books.",
+      "Every book necessarily gives every reader exactly the same experience.",
+      "Despite long working days and few holidays, books have provided abundant rich experiences.",
+      "Aziz has physically lived four thousand separate biological lives."
+    ],
+    "optionsZh": [
+      "作者撤回 Aziz 读书的说法。",
+      "每本书必给每个读者完全相同的体验。",
+      "尽管工作时间长、少休假，书仍带来丰富体验。",
+      "Aziz 在生物学上真的活了四千次。"
+    ],
+    "answer": 2,
+    "type": "逻辑关系",
+    "support": "explicit",
+    "analyses": [
+      "A 是让步转折，不是撤回阅读事实。",
+      "B 不是 all readers the same，也无必然同效。",
+      "C All the same 承接工时与少假，转出通过阅读积累体验。",
+      "D living 4,000 lives 是借书体验人生的比喻，不是真实寿命或样本数。"
+    ],
+    "vocabulary": [
+      {
+        "word": "All the same",
+        "meaning": "尽管如此；仍然",
+        "context": "连接受限的外出休假条件与通过阅读获得丰富体验的反差。",
+        "example": "The journey was tiring; all the same, she was glad she had gone.",
+        "collocations": [
+          "All the same, he has accumulated",
+          "a wealth of experiences"
+        ]
+      }
+    ],
+    "translation": "“我读过四千多本书，所以我活过四千多种人生。”Aziz 每天工作十二小时，很少休假。尽管如此，通过四千本书活过四千种人生，他积累了大量心理丰富的体验。",
+    "evidenceTargetIds": [
+      "c09-s01-p089-04238-s011"
+    ],
+    "evidence": [
+      {
+        "quote": "I’ve read more than 4,000 books, so I’ve lived more than 4,000 lives.” Aziz works twelve hours a day and rarely takes vacations. All the same, he has accumulated a wealth of psychologically rich experiences by living 4,000 lives through 4,000 books.",
+        "sentenceIds": [
+          "c09-s01-p089-04238-s009",
+          "c09-s01-p089-04238-s010",
+          "c09-s01-p089-04238-s011"
+        ],
+        "sources": [
+          {
+            "pdfPage": 89,
+            "block": 6,
+            "bbox": [
+              76.99,
+              423.75,
+              535.01,
+              633.27
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "436a1a72ed2a92d3b9186945b427f2405c859a4ef75853b21f6a9886f0d237e5"
+  },
+  {
+    "id": "qe-c09-0010",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-033",
+    "parentQuestionId": "q-c09-005",
+    "chapterId": "c09",
+    "sectionId": "c09-s01",
+    "paragraphId": "c09-s01-p089-06382",
+    "readingUnitId": "c09-s01-p089-06382-r001-002",
+    "sentenceIds": [
+      "c09-s01-p089-06382-s001",
+      "c09-s01-p089-06382-s002"
+    ],
+    "passage": "In Swann’s Way, the opening volume of his masterpiece In Search of Lost Time, Marcel Proust reflects upon his own reading experiences: “These afternoons were crammed with more dramatic events than occur, often, in a whole lifetime. These were the events taking place in the book I was reading.”",
+    "prompt": "How should Proust's account of dramatic afternoons be understood in this excerpt?",
+    "promptZh": "片段中，应如何理解 Proust 对戏剧性下午的描述？",
+    "options": [
+      "As a controlled measurement of how many events occur in every person's life.",
+      "As a literary reflection on experiencing many dramatic events through a book.",
+      "As a report that those events all physically happened in his room.",
+      "As the author's new survey comparing every novel ever published."
+    ],
+    "optionsZh": [
+      "对每个人一生事件数的对照测量。",
+      "通过书体验许多戏剧事件的文学回顾。",
+      "那些事都在其房间真实发生的报道。",
+      "本书作者对全部已出版小说的新调查。"
+    ],
+    "answer": 1,
+    "type": "观点归属",
+    "support": "explicit",
+    "analyses": [
+      "A literary quotation 不是对照试验，often 也非人人定量。",
+      "B Proust reflects upon... 后的引文，下一句明确 events taking place in the book。",
+      "C 将叙事世界事件错当现实房间事件。",
+      "D 没有全体小说抽样或新调查；Swann’s Way 是 In Search of Lost Time 开篇卷。"
+    ],
+    "vocabulary": [
+      {
+        "word": "crammed with",
+        "meaning": "充满；挤满",
+        "context": "在引文中强调书中戏剧事件的密集，不是房间被实体物品塞满。",
+        "example": "The short diary was crammed with vivid details.",
+        "collocations": [
+          "crammed with dramatic events",
+          "reflects upon reading experiences"
+        ]
+      }
+    ],
+    "translation": "在其杰作 In Search of Lost Time 的开篇卷 Swann’s Way 中，Marcel Proust 回顾自己的阅读体验：“那些下午充满了戏剧性事件，其数量往往超过一生中发生的事件。那些都是发生在我正在阅读的书里的事件。”",
+    "evidenceTargetIds": [
+      "c09-s01-p089-06382-s001"
+    ],
+    "evidence": [
+      {
+        "quote": "In Swann’s Way, the opening volume of his masterpiece In Search of Lost Time, Marcel Proust reflects upon his own reading experiences: “These afternoons were crammed with more dramatic events than occur, often, in a whole lifetime. These were the events taking place in the book I was reading.”",
+        "sentenceIds": [
+          "c09-s01-p089-06382-s001",
+          "c09-s01-p089-06382-s002"
+        ],
+        "sources": [
+          {
+            "pdfPage": 89,
+            "block": 7,
+            "bbox": [
+              76.99,
+              638.25,
+              535.01,
+              711.27
+            ]
+          },
+          {
+            "pdfPage": 90,
+            "block": 0,
+            "bbox": [
+              76.99,
+              75,
+              535.01,
+              187.02
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "05a7faae74c279d5fc648db58dab1b98d5f90faaed1e3cada8df63bba53912e5"
+  },
+  {
+    "id": "qe-c09-0011",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-033",
+    "parentQuestionId": "q-c09-006",
+    "chapterId": "c09",
+    "sectionId": "c09-s01",
+    "paragraphId": "c09-s01-p089-06382",
+    "readingUnitId": "c09-s01-p089-06382-r003-004",
+    "sentenceIds": [
+      "c09-s01-p089-06382-s003",
+      "c09-s01-p089-06382-s004"
+    ],
+    "passage": "He went on to describe the magic novelists wield, remarking how “for the space of an hour he [the novelist] sets free within us all the joys and sorrows in the world, a few of which only we should have to spend years of our actual life in getting to know, and the most intense of which would never be revealed to us.” So, yes, it is possible to lead a psychologically rich life via books.",
+    "prompt": "What power does the quoted passage attribute to novelists?",
+    "promptZh": "引文将怎样的力量归给小说家？",
+    "options": [
+      "They guarantee that readers will never experience sadness.",
+      "They replace all years of actual life with one literal hour.",
+      "They prove that every reader feels every emotion to an identical degree.",
+      "They can evoke intense joys and sorrows that real life might reveal only slowly or not at all."
+    ],
+    "optionsZh": [
+      "保证读者永远不悲伤。",
+      "用真实一小时取代全部真实人生。",
+      "证明每位读者以相同程度感到每种情绪。",
+      "能唤起现实人生可能需很久甚至从未显露的强烈喜悲。"
+    ],
+    "answer": 3,
+    "type": "主旨",
+    "support": "explicit",
+    "analyses": [
+      "A joys and sorrows 并列，不能只保留愉快。",
+      "B for the space of an hour 与 spend years 作体验对照，不是时间真的被替换。",
+      "C 文学修辞没有建立人人同效的测量结论。",
+      "D 对比小说中短时接触情感与现实多年或永不接触；保留引述归属，不将 all 修辞当严格实验全称结果。"
+    ],
+    "vocabulary": [
+      {
+        "word": "wield",
+        "meaning": "运用；施展某种力量",
+        "context": "这里搭配 magic，比喻小说家的感染力，不是字面挥动兵器。",
+        "example": "The writer wields imagery to make an unfamiliar scene vivid.",
+        "collocations": [
+          "the magic novelists wield",
+          "joys and sorrows"
+        ]
+      }
+    ],
+    "translation": "他接着描述小说家施展的魔力，说“在一个小时里，他［小说家］在我们内心释放世间全部喜悦与悲伤；其中仅仅少数，就需我们花真实人生中的多年才能认识，而最强烈的一些原本永远不会向我们显露”。因此，确实有可能通过书籍过一种心理丰富的人生。",
+    "evidenceTargetIds": [
+      "c09-s01-p089-06382-s003"
+    ],
+    "evidence": [
+      {
+        "quote": "He went on to describe the magic novelists wield, remarking how “for the space of an hour he [the novelist] sets free within us all the joys and sorrows in the world, a few of which only we should have to spend years of our actual life in getting to know, and the most intense of which would never be revealed to us.” So, yes, it is possible to lead a psychologically rich life via books.",
+        "sentenceIds": [
+          "c09-s01-p089-06382-s003",
+          "c09-s01-p089-06382-s004"
+        ],
+        "sources": [
+          {
+            "pdfPage": 90,
+            "block": 0,
+            "bbox": [
+              76.99,
+              75,
+              535.01,
+              187.02
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "7273f020b169bcb8d0778f1b4f76e614218d370a4e9a737551f2949b83d0a48a"
+  },
+  {
+    "id": "qe-c09-0012",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-033",
+    "parentQuestionId": "q-c09-007",
+    "chapterId": "c09",
+    "sectionId": "c09-s01",
+    "paragraphId": "c09-s01-p090-01920",
+    "readingUnitId": "c09-s01-p090-01920-r001-003",
+    "sentenceIds": [
+      "c09-s01-p090-01920-s001",
+      "c09-s01-p090-01920-s002",
+      "c09-s01-p090-01920-s003"
+    ],
+    "passage": "To me, Kazuo Ishiguro’s The Remains of the Day is not just an engrossing novel about Mr. Stevens, a British butler who works for the nobleman Lord Darlington until the end of World War II; it is also about moral dilemmas and the meaning of life. In the novel, Mr. Stevens (played by Anthony Hopkins in the film version) served Lord Darlington as best as he could. At the peak of his career, he managed a staff of twenty-eight as Lord Darlington hosted many important meetings during World War II.",
+    "prompt": "Who is Anthony Hopkins in relation to Mr. Stevens in this passage?",
+    "promptZh": "片段中 Anthony Hopkins 与 Stevens 是什么关系？",
+    "options": [
+      "The actor who portrays Stevens in the film version.",
+      "The novelist who created Stevens in the original book.",
+      "The nobleman for whom Stevens works in the novel.",
+      "The narrator who conducted a laboratory experiment on Stevens."
+    ],
+    "optionsZh": [
+      "在电影版扮演 Stevens 的演员。",
+      "原小说中创造 Stevens 的作家。",
+      "小说里雇用 Stevens 的贵族。",
+      "对 Stevens 做实验的叙述者。"
+    ],
+    "answer": 0,
+    "type": "细节",
+    "support": "explicit",
+    "analyses": [
+      "A played by...in the film version 明确演员与角色。",
+      "B 原作者为 Kazuo Ishiguro，不能把电影演员当作家。",
+      "C 贵族是 Lord Darlington，不是 Hopkins。",
+      "D Stevens 是小说角色，此处没有对他实施实验；括号区分媒介与身份。"
+    ],
+    "vocabulary": [
+      {
+        "word": "played by",
+        "meaning": "由……饰演",
+        "context": "在 film version 语境指演员扮演角色，不是角色雇用演员。",
+        "example": "In the adaptation, the teacher was played by a well-known actor.",
+        "collocations": [
+          "played by Anthony Hopkins",
+          "in the film version"
+        ]
+      }
+    ],
+    "translation": "对我而言，Kazuo Ishiguro 的 The Remains of the Day 不仅是一部引人入胜的小说，讲述英国管家 Stevens 为贵族 Darlington 服务直到二战结束，也讨论道德困境与人生意义。小说中，Stevens——电影版由 Anthony Hopkins 饰演——尽力侍奉 Darlington。在事业巅峰，他管理二十八名员工，而 Darlington 在二战期间主持许多重要会议。",
+    "evidenceTargetIds": [
+      "c09-s01-p090-01920-s002"
+    ],
+    "evidence": [
+      {
+        "quote": "To me, Kazuo Ishiguro’s The Remains of the Day is not just an engrossing novel about Mr. Stevens, a British butler who works for the nobleman Lord Darlington until the end of World War II; it is also about moral dilemmas and the meaning of life. In the novel, Mr. Stevens (played by Anthony Hopkins in the film version) served Lord Darlington as best as he could. At the peak of his career, he managed a staff of twenty-eight as Lord Darlington hosted many important meetings during World War II.",
+        "sentenceIds": [
+          "c09-s01-p090-01920-s001",
+          "c09-s01-p090-01920-s002",
+          "c09-s01-p090-01920-s003"
+        ],
+        "sources": [
+          {
+            "pdfPage": 90,
+            "block": 1,
+            "bbox": [
+              76.99,
+              192,
+              535.01,
+              479.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "e771a3c1daa3a1a0bca53476b92bbb63ddef53f45527b42ea6a004a38adf9553"
+  },
+  {
+    "id": "qe-c09-0013",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-033",
+    "parentQuestionId": "q-c09-007",
+    "chapterId": "c09",
+    "sectionId": "c09-s01",
+    "paragraphId": "c09-s01-p090-01920",
+    "readingUnitId": "c09-s01-p090-01920-r001-003",
+    "sentenceIds": [
+      "c09-s01-p090-01920-s001",
+      "c09-s01-p090-01920-s002",
+      "c09-s01-p090-01920-s003"
+    ],
+    "passage": "To me, Kazuo Ishiguro’s The Remains of the Day is not just an engrossing novel about Mr. Stevens, a British butler who works for the nobleman Lord Darlington until the end of World War II; it is also about moral dilemmas and the meaning of life. In the novel, Mr. Stevens (played by Anthony Hopkins in the film version) served Lord Darlington as best as he could. At the peak of his career, he managed a staff of twenty-eight as Lord Darlington hosted many important meetings during World War II.",
+    "prompt": "What did Stevens manage at the peak of his career in the novel's account?",
+    "promptZh": "小说叙述中，Stevens 在事业巅峰管理什么？",
+    "options": [
+      "Four staff members while Farraday held postwar meetings.",
+      "Twenty-eight houses independently owned by each worker.",
+      "A staff of twenty-eight while Lord Darlington hosted important wartime meetings.",
+      "A film crew of twenty-eight actors led by Anthony Hopkins."
+    ],
+    "optionsZh": [
+      "Farraday 主持战后会议时的四名员工。",
+      "每个工人独立拥有的二十八所房屋。",
+      "Darlington 主持重要战时会议时的二十八名员工。",
+      "Hopkins 领导的二十八名电影演员。"
+    ],
+    "answer": 2,
+    "type": "细节",
+    "support": "explicit",
+    "analyses": [
+      "A 四名为后文战后的缩减人数，不能前移至巅峰。",
+      "B staff 指员工群体，不是房屋数。",
+      "C twenty-eight 修饰 staff，as 将其与 Darlington 举行会议的时期联系起来。",
+      "D 括号中的电影演员身份不是把小说员工改成剧组；保留原书对小说的叙述，不作额外历史核验断言。"
+    ],
+    "vocabulary": [
+      {
+        "word": "a staff of",
+        "meaning": "一支……人的员工队伍",
+        "context": "staff 在此为员工集合，不是手杖，也不是贵族家族成员数。",
+        "example": "The library operated with a staff of ten.",
+        "collocations": [
+          "managed a staff of twenty-eight",
+          "at the peak of his career"
+        ]
+      }
+    ],
+    "translation": "对我而言，Kazuo Ishiguro 的 The Remains of the Day 不仅是一部引人入胜的小说，讲述英国管家 Stevens 为贵族 Darlington 服务直到二战结束，也讨论道德困境与人生意义。小说中，Stevens——电影版由 Anthony Hopkins 饰演——尽力侍奉 Darlington。在事业巅峰，他管理二十八名员工，而 Darlington 在二战期间主持许多重要会议。",
+    "evidenceTargetIds": [
+      "c09-s01-p090-01920-s003"
+    ],
+    "evidence": [
+      {
+        "quote": "To me, Kazuo Ishiguro’s The Remains of the Day is not just an engrossing novel about Mr. Stevens, a British butler who works for the nobleman Lord Darlington until the end of World War II; it is also about moral dilemmas and the meaning of life. In the novel, Mr. Stevens (played by Anthony Hopkins in the film version) served Lord Darlington as best as he could. At the peak of his career, he managed a staff of twenty-eight as Lord Darlington hosted many important meetings during World War II.",
+        "sentenceIds": [
+          "c09-s01-p090-01920-s001",
+          "c09-s01-p090-01920-s002",
+          "c09-s01-p090-01920-s003"
+        ],
+        "sources": [
+          {
+            "pdfPage": 90,
+            "block": 1,
+            "bbox": [
+              76.99,
+              192,
+              535.01,
+              479.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "2cddb6d5dd5f2336d550070d75eca00f7dd3fc5777257257b93c4b4d9ace804d"
+  },
+  {
+    "id": "qe-c09-0014",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-033",
+    "parentQuestionId": "q-c09-008",
+    "chapterId": "c09",
+    "sectionId": "c09-s01",
+    "paragraphId": "c09-s01-p090-01920",
+    "readingUnitId": "c09-s01-p090-01920-r004-006",
+    "sentenceIds": [
+      "c09-s01-p090-01920-s004",
+      "c09-s01-p090-01920-s005",
+      "c09-s01-p090-01920-s006"
+    ],
+    "passage": "His greatest pride was his professionalism and ability to carefully plan and perfectly execute all his duties around the house. After the war, however, Darlington Hall, which had been kept in the Darlington family for many generations, was eventually sold to an American businessman, Mr. Farraday, and Mr. Stevens was reduced to managing a staff of only four. For the first time in his professional life, Mr. Stevens is given a real vacation, and he decides to take a trip to western England.",
+    "prompt": "What was Stevens most proud of?",
+    "promptZh": "Stevens 最引以为傲的是什么？",
+    "options": [
+      "Owning Darlington Hall after purchasing it himself.",
+      "His professionalism and ability to plan and carry out household duties precisely.",
+      "Being given holidays throughout every year of his career.",
+      "Having already judged every political decision made by his employer correctly."
+    ],
+    "optionsZh": [
+      "自己买下并拥有 Darlington 庄园。",
+      "专业素养，以及精细计划、执行家中职责的能力。",
+      "职业生涯每年都获得假期。",
+      "已经正确判断雇主的每个政治决定。"
+    ],
+    "answer": 1,
+    "type": "细节",
+    "support": "explicit",
+    "analyses": [
+      "A 他是管家，后文买家是 Farraday。",
+      "B greatest pride 后面 professionalism 与 plan and execute 两项明确。",
+      "C 后文首次真正假期并非一直休假。",
+      "D 对家务执行的自豪不等于政治判断正确，不能把专业熟练推成道德全知。"
+    ],
+    "vocabulary": [
+      {
+        "word": "execute",
+        "meaning": "执行；实施",
+        "context": "这里宾语 duties，指完成职责；不是处决、也不是创作某物的全部含义。",
+        "example": "The team planned carefully before executing the repair.",
+        "collocations": [
+          "perfectly execute all his duties",
+          "carefully plan and execute"
+        ]
+      }
+    ],
+    "translation": "他最自豪的是自己的专业素养，以及周密计划、完美执行家中一切职责的能力。然而战后，Darlington 家族世代持有的庄园最终卖给美国商人 Farraday，Stevens 管理的员工减至四人。他职业生涯首次获得真正的假期，决定去英格兰西部旅行。",
+    "evidenceTargetIds": [
+      "c09-s01-p090-01920-s004"
+    ],
+    "evidence": [
+      {
+        "quote": "His greatest pride was his professionalism and ability to carefully plan and perfectly execute all his duties around the house. After the war, however, Darlington Hall, which had been kept in the Darlington family for many generations, was eventually sold to an American businessman, Mr. Farraday, and Mr. Stevens was reduced to managing a staff of only four. For the first time in his professional life, Mr. Stevens is given a real vacation, and he decides to take a trip to western England.",
+        "sentenceIds": [
+          "c09-s01-p090-01920-s004",
+          "c09-s01-p090-01920-s005",
+          "c09-s01-p090-01920-s006"
+        ],
+        "sources": [
+          {
+            "pdfPage": 90,
+            "block": 1,
+            "bbox": [
+              76.99,
+              192,
+              535.01,
+              479.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "dd50953242351d23f6a86c61c802f3d19bb77b003d70e9d4a36353c2f54c7ffd"
+  },
+  {
+    "id": "qe-c09-0015",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-033",
+    "parentQuestionId": "q-c09-010",
+    "chapterId": "c09",
+    "sectionId": "c09-s01",
+    "paragraphId": "c09-s01-p090-04845",
+    "readingUnitId": "c09-s01-p090-04845-r001-004",
+    "sentenceIds": [
+      "c09-s01-p090-04845-s001",
+      "c09-s01-p090-04845-s002",
+      "c09-s01-p090-04845-s003",
+      "c09-s01-p090-04845-s004"
+    ],
+    "passage": "Mr. Stevens dedicated his whole life to Lord Darlington and Darlington Hall. He had a purpose in life. He had meaning in life—that is, until the war ended and Lord Darlington turned out to be a Nazi sympathizer and a naive, amateur diplomat whose actions ultimately harmed England. Did this render Mr. Stevens’s life a complete waste, or was his dedication worth something on its own?",
+    "prompt": "To what did Stevens dedicate his whole life in the account?",
+    "promptZh": "叙述中 Stevens 将整个人生奉献给什么？",
+    "options": [
+      "A bookstore and its readers in Morocco.",
+      "His own independent diplomatic career after leaving service.",
+      "Only the four staff members during a short holiday.",
+      "Lord Darlington and Darlington Hall."
+    ],
+    "optionsZh": [
+      "摩洛哥的一家书店及读者。",
+      "离职后自己独立的外交生涯。",
+      "仅短暂假期中的四名员工。",
+      "Darlington 勋爵与 Darlington 庄园。"
+    ],
+    "answer": 3,
+    "type": "细节",
+    "support": "explicit",
+    "analyses": [
+      "A 是 Aziz 段的售书背景，不能混同小说人物。",
+      "B diplomat 描述后面雇主，非管家独立职业。",
+      "C whole life 不是只在短假服侍四人。",
+      "D 两个奉献对象原文明示；小说角色的终身投入不自动证明投入的事业在道德上正确。"
+    ],
+    "vocabulary": [
+      {
+        "word": "dedicated",
+        "meaning": "奉献；把时间精力投入",
+        "context": "dedicated his whole life to 强调长期投入，未由词本身保证对象正当。",
+        "example": "She dedicated many years to preserving the archive.",
+        "collocations": [
+          "dedicated his whole life to",
+          "dedication to a cause"
+        ]
+      }
+    ],
+    "translation": "Stevens 把整个人生奉献给 Darlington 和庄园。他有生活目标，也有意义——直到战争结束，Darlington 被揭示为纳粹同情者和天真的业余外交活动者，其行为最终损害英国。这是否使 Stevens 的一生彻底白费，还是他的奉献本身也有某种价值？",
+    "evidenceTargetIds": [
+      "c09-s01-p090-04845-s001"
+    ],
+    "evidence": [
+      {
+        "quote": "Mr. Stevens dedicated his whole life to Lord Darlington and Darlington Hall. He had a purpose in life. He had meaning in life—that is, until the war ended and Lord Darlington turned out to be a Nazi sympathizer and a naive, amateur diplomat whose actions ultimately harmed England. Did this render Mr. Stevens’s life a complete waste, or was his dedication worth something on its own?",
+        "sentenceIds": [
+          "c09-s01-p090-04845-s001",
+          "c09-s01-p090-04845-s002",
+          "c09-s01-p090-04845-s003",
+          "c09-s01-p090-04845-s004"
+        ],
+        "sources": [
+          {
+            "pdfPage": 90,
+            "block": 2,
+            "bbox": [
+              76.99,
+              484.5,
+              535.01,
+              694.02
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "3ee1665ff6fc597abf7b7cac35d1cc2a7de2e652695a90702cd77a43842272d1"
+  },
+  {
+    "id": "qe-c09-0016",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-033",
+    "parentQuestionId": "q-c09-010",
+    "chapterId": "c09",
+    "sectionId": "c09-s01",
+    "paragraphId": "c09-s01-p090-04845",
+    "readingUnitId": "c09-s01-p090-04845-r001-004",
+    "sentenceIds": [
+      "c09-s01-p090-04845-s001",
+      "c09-s01-p090-04845-s002",
+      "c09-s01-p090-04845-s003",
+      "c09-s01-p090-04845-s004"
+    ],
+    "passage": "Mr. Stevens dedicated his whole life to Lord Darlington and Darlington Hall. He had a purpose in life. He had meaning in life—that is, until the war ended and Lord Darlington turned out to be a Nazi sympathizer and a naive, amateur diplomat whose actions ultimately harmed England. Did this render Mr. Stevens’s life a complete waste, or was his dedication worth something on its own?",
+    "prompt": "What does 'He had a purpose in life' establish about Stevens?",
+    "promptZh": "He had a purpose in life 对 Stevens 确立什么？",
+    "options": [
+      "His service gave his life a direction, without by itself proving that its object was morally right.",
+      "His employer's every action had already been independently proved beneficial.",
+      "He had never committed himself to anything.",
+      "Having a purpose eliminated the need to reconsider any past decision."
+    ],
+    "optionsZh": [
+      "侍奉使其生活有方向，但这本身不证明对象道德正确。",
+      "雇主每个行为均已被独立证明有益。",
+      "他从未投入任何事情。",
+      "有目标便无需重新考虑任何过去选择。"
+    ],
+    "answer": 0,
+    "type": "有限推断",
+    "support": "limited-inference",
+    "analyses": [
+      "A 前文终身奉献和本句 purpose 说明方向，后面的揭示与疑问又不保证道德正当；这是结合当前片段的有限理解。",
+      "B 后句反而说明伤害 England，无独立证实一切有益。",
+      "C 与 purpose 及 dedicated 相反。",
+      "D 后面正询问奉献是否白费，不能把有目标推成免于反思。"
+    ],
+    "vocabulary": [
+      {
+        "word": "purpose",
+        "meaning": "目标；生活方向",
+        "context": "这里为投入事业的主观方向，不是自动获得道德正确或事后成功的证明。",
+        "example": "The volunteer work gave him a sense of purpose.",
+        "collocations": [
+          "a purpose in life",
+          "dedicated his whole life"
+        ]
+      }
+    ],
+    "translation": "Stevens 把整个人生奉献给 Darlington 和庄园。他有生活目标，也有意义——直到战争结束，Darlington 被揭示为纳粹同情者和天真的业余外交活动者，其行为最终损害英国。这是否使 Stevens 的一生彻底白费，还是他的奉献本身也有某种价值？",
+    "evidenceTargetIds": [
+      "c09-s01-p090-04845-s002"
+    ],
+    "evidence": [
+      {
+        "quote": "Mr. Stevens dedicated his whole life to Lord Darlington and Darlington Hall. He had a purpose in life. He had meaning in life—that is, until the war ended and Lord Darlington turned out to be a Nazi sympathizer and a naive, amateur diplomat whose actions ultimately harmed England. Did this render Mr. Stevens’s life a complete waste, or was his dedication worth something on its own?",
+        "sentenceIds": [
+          "c09-s01-p090-04845-s001",
+          "c09-s01-p090-04845-s002",
+          "c09-s01-p090-04845-s003",
+          "c09-s01-p090-04845-s004"
+        ],
+        "sources": [
+          {
+            "pdfPage": 90,
+            "block": 2,
+            "bbox": [
+              76.99,
+              484.5,
+              535.01,
+              694.02
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "d4154254051f80d84c99811ede3e7a34718fc8771119ea396024718912508c4b"
+  },
+  {
+    "id": "qe-c09-0017",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-033",
+    "parentQuestionId": "q-c09-010",
+    "chapterId": "c09",
+    "sectionId": "c09-s01",
+    "paragraphId": "c09-s01-p090-04845",
+    "readingUnitId": "c09-s01-p090-04845-r001-004",
+    "sentenceIds": [
+      "c09-s01-p090-04845-s001",
+      "c09-s01-p090-04845-s002",
+      "c09-s01-p090-04845-s003",
+      "c09-s01-p090-04845-s004"
+    ],
+    "passage": "Mr. Stevens dedicated his whole life to Lord Darlington and Darlington Hall. He had a purpose in life. He had meaning in life—that is, until the war ended and Lord Darlington turned out to be a Nazi sympathizer and a naive, amateur diplomat whose actions ultimately harmed England. Did this render Mr. Stevens’s life a complete waste, or was his dedication worth something on its own?",
+    "prompt": "What shift is introduced by 'that is, until' in the account of Stevens's meaningful life?",
+    "promptZh": "叙述 Stevens 有意义的生活时，that is, until 引入什么转变？",
+    "options": [
+      "The war's end proved that all of his employer's choices were wise.",
+      "The passage stops discussing moral questions and turns only to wages.",
+      "Later revelations about Darlington complicate the meaning Stevens had found in serving him.",
+      "Stevens had no sense of meaning at any point before the war."
+    ],
+    "optionsZh": [
+      "战争结束证明雇主所有选择明智。",
+      "片段不再谈道德，只转向工资。",
+      "后来对 Darlington 的揭示，使 Stevens 从侍奉中所得意义变得复杂。",
+      "战前任何时候 Stevens 都完全没有意义感。"
+    ],
+    "answer": 2,
+    "type": "逻辑关系",
+    "support": "explicit",
+    "analyses": [
+      "A Nazi sympathizer 与 ultimately harmed England 不能改成全智有益。",
+      "B 没有工资话题，后问奉献价值正是道德意义问题。",
+      "C until 从已有意义转到战后揭示，作者接着以疑问保留价值评估困境。",
+      "D He had meaning 是此前状态；不能把后来的冲击前移成从未有意义。"
+    ],
+    "vocabulary": [
+      {
+        "word": "turned out to be",
+        "meaning": "后来显出是；结果被发现是",
+        "context": "指出对 Darlington 的后来认识，不表示他战后才开始从事那些行为。",
+        "example": "The apparently simple choice turned out to be complicated.",
+        "collocations": [
+          "turned out to be a Nazi sympathizer",
+          "until the war ended"
+        ]
+      }
+    ],
+    "translation": "Stevens 把整个人生奉献给 Darlington 和庄园。他有生活目标，也有意义——直到战争结束，Darlington 被揭示为纳粹同情者和天真的业余外交活动者，其行为最终损害英国。这是否使 Stevens 的一生彻底白费，还是他的奉献本身也有某种价值？",
+    "evidenceTargetIds": [
+      "c09-s01-p090-04845-s003"
+    ],
+    "evidence": [
+      {
+        "quote": "Mr. Stevens dedicated his whole life to Lord Darlington and Darlington Hall. He had a purpose in life. He had meaning in life—that is, until the war ended and Lord Darlington turned out to be a Nazi sympathizer and a naive, amateur diplomat whose actions ultimately harmed England. Did this render Mr. Stevens’s life a complete waste, or was his dedication worth something on its own?",
+        "sentenceIds": [
+          "c09-s01-p090-04845-s001",
+          "c09-s01-p090-04845-s002",
+          "c09-s01-p090-04845-s003",
+          "c09-s01-p090-04845-s004"
+        ],
+        "sources": [
+          {
+            "pdfPage": 90,
+            "block": 2,
+            "bbox": [
+              76.99,
+              484.5,
+              535.01,
+              694.02
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "bb117c7c9751b6269198dc3109b0557ee3994691e64c3ce32a67eb6737c5ec30"
+  },
+  {
+    "id": "qe-c09-0018",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-033",
+    "parentQuestionId": "q-c09-011",
+    "chapterId": "c09",
+    "sectionId": "c09-s01",
+    "paragraphId": "c09-s01-p090-04845",
+    "readingUnitId": "c09-s01-p090-04845-r005-008",
+    "sentenceIds": [
+      "c09-s01-p090-04845-s005",
+      "c09-s01-p090-04845-s006",
+      "c09-s01-p090-04845-s007",
+      "c09-s01-p090-04845-s008"
+    ],
+    "passage": "At the end of the novel, Mr. Stevens states: “Lord Darlington wasn’t a bad man. He wasn’t a bad man at all…. His lordship was a courageous man. He chose a certain path in life, it proved to be a misguided one, but there, he chose it, he can say that at least.",
+    "prompt": "Who says 'Lord Darlington wasn’t a bad man' in the quoted passage?",
+    "promptZh": "引文中是谁说 Lord Darlington wasn’t a bad man？",
+    "options": [
+      "The bookseller Aziz during a Moroccan interview.",
+      "Mr. Stevens, speaking at the end of the novel.",
+      "Lord Darlington describing Stevens's character.",
+      "The author reporting the conclusion of a controlled psychology study."
+    ],
+    "optionsZh": [
+      "在摩洛哥采访中的书商 Aziz。",
+      "小说结尾发言的 Stevens。",
+      "Darlington 在描述 Stevens 性格。",
+      "报告心理对照研究结论的本书作者。"
+    ],
+    "answer": 1,
+    "type": "观点归属",
+    "support": "explicit",
+    "analyses": [
+      "A 人物及书目错配，当前引语非 Aziz。",
+      "B At the end of the novel, Mr. Stevens states 标明发言者与时点。",
+      "C Darlington 是被评价的人，不是这句的说话者。",
+      "D 角色台词不等于作者独立背书或研究结论；前段还揭示雇主行为造成伤害。"
+    ],
+    "vocabulary": [
+      {
+        "word": "states",
+        "meaning": "说出；陈述",
+        "context": "这里引入小说人物台词，不表示经外部实验确认事实。",
+        "example": "At the end of the story, the narrator states his regret.",
+        "collocations": [
+          "Mr. Stevens states",
+          "at the end of the novel"
+        ]
+      }
+    ],
+    "translation": "小说结尾，Stevens 说：“Darlington 不是坏人。他一点也不坏……阁下是个勇敢的人。他在人生中选择了一条路，后来证明那是错路，但他毕竟作了选择，至少他还能这样说。（引语续下段）",
+    "evidenceTargetIds": [
+      "c09-s01-p090-04845-s005"
+    ],
+    "evidence": [
+      {
+        "quote": "At the end of the novel, Mr. Stevens states: “Lord Darlington wasn’t a bad man. He wasn’t a bad man at all…. His lordship was a courageous man. He chose a certain path in life, it proved to be a misguided one, but there, he chose it, he can say that at least.",
+        "sentenceIds": [
+          "c09-s01-p090-04845-s005",
+          "c09-s01-p090-04845-s006",
+          "c09-s01-p090-04845-s007",
+          "c09-s01-p090-04845-s008"
+        ],
+        "sources": [
+          {
+            "pdfPage": 90,
+            "block": 2,
+            "bbox": [
+              76.99,
+              484.5,
+              535.01,
+              694.02
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "abcefe511bd020cf320ec194b9541639d492405ecebbe9c45369511698b578e4"
+  },
+  {
+    "id": "qe-c09-0019",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-033",
+    "parentQuestionId": "q-c09-011",
+    "chapterId": "c09",
+    "sectionId": "c09-s01",
+    "paragraphId": "c09-s01-p090-04845",
+    "readingUnitId": "c09-s01-p090-04845-r005-008",
+    "sentenceIds": [
+      "c09-s01-p090-04845-s005",
+      "c09-s01-p090-04845-s006",
+      "c09-s01-p090-04845-s007",
+      "c09-s01-p090-04845-s008"
+    ],
+    "passage": "At the end of the novel, Mr. Stevens states: “Lord Darlington wasn’t a bad man. He wasn’t a bad man at all…. His lordship was a courageous man. He chose a certain path in life, it proved to be a misguided one, but there, he chose it, he can say that at least.",
+    "prompt": "What does 'at all' add to Stevens's repeated claim that Darlington was not a bad man?",
+    "promptZh": "Stevens 重复说 Darlington 不是坏人时，at all 增加什么？",
+    "options": [
+      "It changes 'not bad' into a claim that he was sometimes bad.",
+      "It makes the line an objective finding accepted by every narrator.",
+      "It identifies all of Darlington's staff as the speakers.",
+      "It strengthens his denial that Darlington was a bad man."
+    ],
+    "optionsZh": [
+      "把不坏变成有时坏。",
+      "使这句成为每个叙述者公认的客观发现。",
+      "说明所有员工共同发言。",
+      "加强 Stevens 对 Darlington 是坏人这一评价的否认。"
+    ],
+    "answer": 3,
+    "type": "语气与范围",
+    "support": "explicit",
+    "analyses": [
+      "A not ... at all 加强否定，不是有时。",
+      "B 语气强化不改变观点归属，不能成为作者或所有人认证。",
+      "C all 属否定强调结构，不是 all staff 主语。",
+      "D wasn’t a bad man at all 强化前句辩护；仍是角色的自述立场，不抹去前面揭示的伤害。"
+    ],
+    "vocabulary": [
+      {
+        "word": "at all",
+        "meaning": "丝毫；一点也（用于否定强调）",
+        "context": "与 wasn’t 连用加强人物的否认，不是全体人的数量概念。",
+        "example": "The narrator insisted that the task was not easy at all.",
+        "collocations": [
+          "wasn’t a bad man at all",
+          "not ... at all"
+        ]
+      }
+    ],
+    "translation": "小说结尾，Stevens 说：“Darlington 不是坏人。他一点也不坏……阁下是个勇敢的人。他在人生中选择了一条路，后来证明那是错路，但他毕竟作了选择，至少他还能这样说。（引语续下段）",
+    "evidenceTargetIds": [
+      "c09-s01-p090-04845-s006"
+    ],
+    "evidence": [
+      {
+        "quote": "At the end of the novel, Mr. Stevens states: “Lord Darlington wasn’t a bad man. He wasn’t a bad man at all…. His lordship was a courageous man. He chose a certain path in life, it proved to be a misguided one, but there, he chose it, he can say that at least.",
+        "sentenceIds": [
+          "c09-s01-p090-04845-s005",
+          "c09-s01-p090-04845-s006",
+          "c09-s01-p090-04845-s007",
+          "c09-s01-p090-04845-s008"
+        ],
+        "sources": [
+          {
+            "pdfPage": 90,
+            "block": 2,
+            "bbox": [
+              76.99,
+              484.5,
+              535.01,
+              694.02
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "532435b28737116c223a2193f494aa1fb2c3d33d6a928432ce65da793c8f6cbc"
+  },
+  {
+    "id": "qe-c09-0020",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-033",
+    "parentQuestionId": "q-c09-011",
+    "chapterId": "c09",
+    "sectionId": "c09-s01",
+    "paragraphId": "c09-s01-p090-04845",
+    "readingUnitId": "c09-s01-p090-04845-r005-008",
+    "sentenceIds": [
+      "c09-s01-p090-04845-s005",
+      "c09-s01-p090-04845-s006",
+      "c09-s01-p090-04845-s007",
+      "c09-s01-p090-04845-s008"
+    ],
+    "passage": "At the end of the novel, Mr. Stevens states: “Lord Darlington wasn’t a bad man. He wasn’t a bad man at all…. His lordship was a courageous man. He chose a certain path in life, it proved to be a misguided one, but there, he chose it, he can say that at least.",
+    "prompt": "How is 'His lordship was a courageous man' presented?",
+    "promptZh": "His lordship was a courageous man 以何种方式呈现？",
+    "options": [
+      "As Stevens's description of Darlington within his speech, not independent proof that the chosen path was right.",
+      "As evidence that Darlington never made a misguided choice.",
+      "As a description of the bookseller's courage in starting a business.",
+      "As the narrator's measured comparison of every wartime diplomat."
+    ],
+    "optionsZh": [
+      "作为 Stevens 台词中对 Darlington 的描述，不独立证明所选道路正确。",
+      "作为 Darlington 从未选错的证据。",
+      "描述书商创业的勇气。",
+      "作为叙述者对所有战时外交者的测量比较。"
+    ],
+    "answer": 0,
+    "type": "观点归属",
+    "support": "explicit",
+    "analyses": [
+      "A 当前引文归 Stevens，后句又承认 path proved misguided，勇敢与正确不可等同。",
+      "B misguided one 明示选路错误。",
+      "C His lordship 在此指 Darlington，不是 Aziz。",
+      "D 没有全体外交者测量，更不可把角色褒词改成历史实验结论。"
+    ],
+    "vocabulary": [
+      {
+        "word": "courageous",
+        "meaning": "勇敢的；有勇气的",
+        "context": "此处是角色对雇主的评价，不能据此推出其行为正当或有益。",
+        "example": "A courageous choice can still have unforeseen consequences.",
+        "collocations": [
+          "a courageous man",
+          "a misguided path"
+        ]
+      }
+    ],
+    "translation": "小说结尾，Stevens 说：“Darlington 不是坏人。他一点也不坏……阁下是个勇敢的人。他在人生中选择了一条路，后来证明那是错路，但他毕竟作了选择，至少他还能这样说。（引语续下段）",
+    "evidenceTargetIds": [
+      "c09-s01-p090-04845-s007"
+    ],
+    "evidence": [
+      {
+        "quote": "At the end of the novel, Mr. Stevens states: “Lord Darlington wasn’t a bad man. He wasn’t a bad man at all…. His lordship was a courageous man. He chose a certain path in life, it proved to be a misguided one, but there, he chose it, he can say that at least.",
+        "sentenceIds": [
+          "c09-s01-p090-04845-s005",
+          "c09-s01-p090-04845-s006",
+          "c09-s01-p090-04845-s007",
+          "c09-s01-p090-04845-s008"
+        ],
+        "sources": [
+          {
+            "pdfPage": 90,
+            "block": 2,
+            "bbox": [
+              76.99,
+              484.5,
+              535.01,
+              694.02
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "c9dc1110f599ac825d8bcd7fab6e12578e3d494d9eb822161339f705ff7fbffb"
+  },
+  {
+    "id": "qe-c09-0021",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-033",
+    "parentQuestionId": "q-c09-012",
+    "chapterId": "c09",
+    "sectionId": "c09-s01",
+    "paragraphId": "c09-s01-p090-04845",
+    "readingUnitId": "c09-s01-p090-04845-r009-012",
+    "sentenceIds": [
+      "c09-s01-p090-04845-s009",
+      "c09-s01-p090-04845-s010",
+      "c09-s01-p090-04845-s011",
+      "c09-s01-p090-04845-s012"
+    ],
+    "passage": "As for myself, I cannot even claim that. You see, I trusted. I trusted in his lordship’s wisdom. All those years I served him, I trusted I was doing something worthwhile.”",
+    "prompt": "What does 'claim' mean in 'I cannot even claim that'?",
+    "promptZh": "I cannot even claim that 中 claim 是什么意思？",
+    "options": [
+      "To take legal ownership of Darlington Hall.",
+      "To request payment for unfinished work.",
+      "To assert that something is true of himself.",
+      "To promise that his employer will return."
+    ],
+    "optionsZh": [
+      "取得 Darlington 庄园的法律所有权。",
+      "为未完成工作索要报酬。",
+      "声称某事对自己成立。",
+      "承诺雇主会回来。"
+    ],
+    "answer": 2,
+    "type": "语境词义",
+    "support": "explicit",
+    "analyses": [
+      "A claim 可涉索有权，但这里宾语 that 指一项说法，不是房产。",
+      "B 没有 payment 或索赔。",
+      "C cannot even claim 表示连作这项自我声称都不能；语境是反思与信任。",
+      "D claim 不是 promise，且无回来内容；当前短段未完整重述 that 的上文，题目不要求凭缺失前文判定具体指代。"
+    ],
+    "vocabulary": [
+      {
+        "word": "claim",
+        "meaning": "声称；断言",
+        "context": "在此不是认领、索赔，也不保证所声称的事必真。",
+        "example": "He could not claim that he had checked every page.",
+        "collocations": [
+          "cannot even claim that",
+          "claim something is true"
+        ]
+      }
+    ],
+    "translation": "“至于我自己，我连这一点都不能声称。你看，我信任过。我信任阁下的智慧。那些年侍奉他，我一直相信自己在做值得的事情。”",
+    "evidenceTargetIds": [
+      "c09-s01-p090-04845-s009"
+    ],
+    "evidence": [
+      {
+        "quote": "As for myself, I cannot even claim that. You see, I trusted. I trusted in his lordship’s wisdom. All those years I served him, I trusted I was doing something worthwhile.”",
+        "sentenceIds": [
+          "c09-s01-p090-04845-s009",
+          "c09-s01-p090-04845-s010",
+          "c09-s01-p090-04845-s011",
+          "c09-s01-p090-04845-s012"
+        ],
+        "sources": [
+          {
+            "pdfPage": 90,
+            "block": 2,
+            "bbox": [
+              76.99,
+              484.5,
+              535.01,
+              694.02
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "adcc69d746f7be00b951562d92159b213cc95d129dddd09941d42ca01886fafd"
+  },
+  {
+    "id": "qe-c09-0022",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-033",
+    "parentQuestionId": "q-c09-012",
+    "chapterId": "c09",
+    "sectionId": "c09-s01",
+    "paragraphId": "c09-s01-p090-04845",
+    "readingUnitId": "c09-s01-p090-04845-r009-012",
+    "sentenceIds": [
+      "c09-s01-p090-04845-s009",
+      "c09-s01-p090-04845-s010",
+      "c09-s01-p090-04845-s011",
+      "c09-s01-p090-04845-s012"
+    ],
+    "passage": "As for myself, I cannot even claim that. You see, I trusted. I trusted in his lordship’s wisdom. All those years I served him, I trusted I was doing something worthwhile.”",
+    "prompt": "What basis does Stevens repeatedly give for believing his service was worthwhile?",
+    "promptZh": "Stevens 反复给出什么依据，说明自己为何相信侍奉有价值？",
+    "options": [
+      "Independent checks of every decision before obeying it.",
+      "Trust in his lordship's wisdom.",
+      "Proof that no one had ever been harmed.",
+      "A plan to replace his employer with his own political programme."
+    ],
+    "optionsZh": [
+      "服从前对每个决定独立核验。",
+      "信任阁下的智慧。",
+      "无人受害的证明。",
+      "以自己的政治纲领取代雇主的计划。"
+    ],
+    "answer": 1,
+    "type": "逻辑关系",
+    "support": "explicit",
+    "analyses": [
+      "A 原句强调 trusted，不是逐个独立核验。",
+      "B I trusted 的重复由 I trusted in his lordship’s wisdom 展开，最后连接相信自己做 worthwhile 的事。",
+      "C 自己信任不等于证明从无伤害。",
+      "D 没有替代政治计划；保留人物回顾中的依赖与悔意，不把信念当客观正确证据。"
+    ],
+    "vocabulary": [
+      {
+        "word": "trusted",
+        "meaning": "信任；相信",
+        "context": "重复突出对他人判断的依赖；不表示已验证那判断正确。",
+        "example": "She trusted the guide's judgement without knowing the route herself.",
+        "collocations": [
+          "trusted in his lordship’s wisdom",
+          "doing something worthwhile"
+        ]
+      }
+    ],
+    "translation": "“至于我自己，我连这一点都不能声称。你看，我信任过。我信任阁下的智慧。那些年侍奉他，我一直相信自己在做值得的事情。”",
+    "evidenceTargetIds": [
+      "c09-s01-p090-04845-s010"
+    ],
+    "evidence": [
+      {
+        "quote": "As for myself, I cannot even claim that. You see, I trusted. I trusted in his lordship’s wisdom. All those years I served him, I trusted I was doing something worthwhile.”",
+        "sentenceIds": [
+          "c09-s01-p090-04845-s009",
+          "c09-s01-p090-04845-s010",
+          "c09-s01-p090-04845-s011",
+          "c09-s01-p090-04845-s012"
+        ],
+        "sources": [
+          {
+            "pdfPage": 90,
+            "block": 2,
+            "bbox": [
+              76.99,
+              484.5,
+              535.01,
+              694.02
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "3402a797ead67013e315a1649ce91225298862f7bae5c56409c8ee12bf4d2e75"
+  },
+  {
+    "id": "qe-c09-0023",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-033",
+    "parentQuestionId": "q-c09-013",
+    "chapterId": "c09",
+    "sectionId": "c09-s01",
+    "paragraphId": "c09-s01-p091-00750",
+    "readingUnitId": "c09-s01-p091-00750-r001-003",
+    "sentenceIds": [
+      "c09-s01-p091-00750-s001",
+      "c09-s01-p091-00750-s002",
+      "c09-s01-p091-00750-s003"
+    ],
+    "passage": "While reading this novel, I was mentally transported to Darlington Hall and the events of the 1930s and the early 1940s. For the first time, I wondered, could my dedication to something turn out to be completely misguided and harm humanity more than help? Being Japanese, I have always thought of imperial Japanese colonels and politicians as being pure evil, but I had never considered the morality of those who worked for them, who dedicated their lives to supporting them.",
+    "prompt": "What does 'mentally transported' describe in the author's reading experience?",
+    "promptZh": "作者阅读体验中的 mentally transported 指什么？",
+    "options": [
+      "Physically travelling to the historical events as they happened.",
+      "Forgetting that the text was a novel and obtaining a travel booking.",
+      "Conducting a new interview at Darlington Hall during the war.",
+      "Imaginatively entering the novel's setting and period while reading."
+    ],
+    "optionsZh": [
+      "身体真的前往事件当时。",
+      "忘了文本是小说并获得旅行预订。",
+      "在战争时到庄园做新采访。",
+      "阅读时在想象中进入小说地点与时代。"
+    ],
+    "answer": 3,
+    "type": "语境词义",
+    "support": "explicit",
+    "analyses": [
+      "A mentally 限定心理想象，不是现实穿越或旅行。",
+      "B 不是交通运输服务，也未说买票。",
+      "C 作者描述读小说，不是亲历战时采访。",
+      "D Darlington Hall、1930s 和 early 1940s 为想象进入的叙事场景；不等于作者出生或旅行的日期。"
+    ],
+    "vocabulary": [
+      {
+        "word": "mentally transported",
+        "meaning": "在心理想象中被带入；沉浸于另一情境",
+        "context": "transport 在此为叙事沉浸而非实际交通。",
+        "example": "While reading, she felt mentally transported to the coastal village.",
+        "collocations": [
+          "mentally transported to Darlington Hall",
+          "while reading this novel"
+        ]
+      }
+    ],
+    "translation": "读这部小说时，我仿佛在想象中来到 Darlington 庄园，以及二十世纪三十年代和四十年代初的事件之中。我第一次想：自己的奉献会不会也完全误入歧途，对人类伤害多于帮助？作为日本人，我一直认为帝国日本的上校和政客纯属邪恶，但此前从未考虑那些为他们工作、把一生用于支持他们的人的道德问题。",
+    "evidenceTargetIds": [
+      "c09-s01-p091-00750-s001"
+    ],
+    "evidence": [
+      {
+        "quote": "While reading this novel, I was mentally transported to Darlington Hall and the events of the 1930s and the early 1940s. For the first time, I wondered, could my dedication to something turn out to be completely misguided and harm humanity more than help? Being Japanese, I have always thought of imperial Japanese colonels and politicians as being pure evil, but I had never considered the morality of those who worked for them, who dedicated their lives to supporting them.",
+        "sentenceIds": [
+          "c09-s01-p091-00750-s001",
+          "c09-s01-p091-00750-s002",
+          "c09-s01-p091-00750-s003"
+        ],
+        "sources": [
+          {
+            "pdfPage": 91,
+            "block": 0,
+            "bbox": [
+              76.99,
+              75,
+              535,
+              343.02
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "35cf0e7a9201e021c675618617e26462696625aacccbc9a96c924d1b4482c0ee"
+  },
+  {
+    "id": "qe-c09-0024",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-033",
+    "parentQuestionId": "q-c09-013",
+    "chapterId": "c09",
+    "sectionId": "c09-s01",
+    "paragraphId": "c09-s01-p091-00750",
+    "readingUnitId": "c09-s01-p091-00750-r001-003",
+    "sentenceIds": [
+      "c09-s01-p091-00750-s001",
+      "c09-s01-p091-00750-s002",
+      "c09-s01-p091-00750-s003"
+    ],
+    "passage": "While reading this novel, I was mentally transported to Darlington Hall and the events of the 1930s and the early 1940s. For the first time, I wondered, could my dedication to something turn out to be completely misguided and harm humanity more than help? Being Japanese, I have always thought of imperial Japanese colonels and politicians as being pure evil, but I had never considered the morality of those who worked for them, who dedicated their lives to supporting them.",
+    "prompt": "What had the author not previously considered, according to this reflection?",
+    "promptZh": "这段反思说，作者此前没有考虑过什么？",
+    "options": [
+      "The morality of people who served and supported the leaders he condemned.",
+      "Whether Japan had any politicians or colonels at all.",
+      "How to buy the house described in the novel.",
+      "Whether everyone who worked for a leader held the exact same rank."
+    ],
+    "optionsZh": [
+      "为自己谴责的领导者工作、支持他们之人的道德问题。",
+      "日本是否曾有政客或上校。",
+      "如何购买小说中的房屋。",
+      "为领导者工作者是否都具有完全相同军衔。"
+    ],
+    "answer": 0,
+    "type": "细节",
+    "support": "explicit",
+    "analyses": [
+      "A but I had never considered 后明确 those who worked for them 的 morality，与先前对上校政客的评价形成对照。",
+      "B 并非从不知这些人物存在。",
+      "C 庄园地点不是购房计划。",
+      "D worked for 和 supported 不等于人人同军衔；作者反思不能扩大成替一切追随者免除责任。"
+    ],
+    "vocabulary": [
+      {
+        "word": "morality",
+        "meaning": "道德性质；行为或选择的道德问题",
+        "context": "此处讨论服务、支持他人的道德责任，不是军衔、技能或服从效率。",
+        "example": "The novel raises questions about the morality of unquestioning loyalty.",
+        "collocations": [
+          "considered the morality of",
+          "dedicated their lives to supporting"
+        ]
+      }
+    ],
+    "translation": "读这部小说时，我仿佛在想象中来到 Darlington 庄园，以及二十世纪三十年代和四十年代初的事件之中。我第一次想：自己的奉献会不会也完全误入歧途，对人类伤害多于帮助？作为日本人，我一直认为帝国日本的上校和政客纯属邪恶，但此前从未考虑那些为他们工作、把一生用于支持他们的人的道德问题。",
+    "evidenceTargetIds": [
+      "c09-s01-p091-00750-s003"
+    ],
+    "evidence": [
+      {
+        "quote": "While reading this novel, I was mentally transported to Darlington Hall and the events of the 1930s and the early 1940s. For the first time, I wondered, could my dedication to something turn out to be completely misguided and harm humanity more than help? Being Japanese, I have always thought of imperial Japanese colonels and politicians as being pure evil, but I had never considered the morality of those who worked for them, who dedicated their lives to supporting them.",
+        "sentenceIds": [
+          "c09-s01-p091-00750-s001",
+          "c09-s01-p091-00750-s002",
+          "c09-s01-p091-00750-s003"
+        ],
+        "sources": [
+          {
+            "pdfPage": 91,
+            "block": 0,
+            "bbox": [
+              76.99,
+              75,
+              535,
+              343.02
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "ddaf533d7bd23535735e3e9806ff7c867e9087a2b13f7c03b962603051d18813"
+  },
+  {
+    "id": "qe-c09-0025",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-033",
+    "parentQuestionId": "q-c09-014",
+    "chapterId": "c09",
+    "sectionId": "c09-s01",
+    "paragraphId": "c09-s01-p091-00750",
+    "readingUnitId": "c09-s01-p091-00750-r004-007",
+    "sentenceIds": [
+      "c09-s01-p091-00750-s004",
+      "c09-s01-p091-00750-s005",
+      "c09-s01-p091-00750-s006",
+      "c09-s01-p091-00750-s007"
+    ],
+    "passage": "The Remains of the Day challenged my views of some Japanese colonels during World War II and others in compromised situations: they might have been simply doing their jobs, (falsely) believing that they were serving for a greater good. This book certainly changed the way I view Japanese history. I might have been an evil colonel in their situations, a possibility that I had never entertained before. This was not a happy thought, but nevertheless made the reading experience deeper and richer.",
+    "prompt": "Why is '(falsely)' important in the suggestion that some people believed they served a greater good?",
+    "promptZh": "说一些人相信服务更大的善时，(falsely) 为何重要？",
+    "options": [
+      "It says their belief guaranteed that their actions helped humanity.",
+      "It removes the tentative force of 'might have been' and proves every motive.",
+      "It marks that belief as mistaken rather than endorsing or excusing the harmful conduct.",
+      "It says the author never changed any view after reading."
+    ],
+    "optionsZh": [
+      "表示信念保证行为有益人类。",
+      "取消 might have been 的试探性并证明每个动机。",
+      "标明这种信念是错的，并非赞同或开脱有害行为。",
+      "表示作者阅读后完全未改变任何看法。"
+    ],
+    "answer": 2,
+    "type": "语气与范围",
+    "support": "explicit",
+    "analyses": [
+      "A falsely 明确相反：认为为善不代表实际有益。",
+      "B might 保留可能解释，括号不使全部动机变成已证事实。",
+      "C 区分主观自认与道德正确；反思复杂处境不等于为战争伤害辩护。",
+      "D 后句明说 changed the way I view history；不能删掉关键限定。"
+    ],
+    "vocabulary": [
+      {
+        "word": "falsely",
+        "meaning": "错误地；与实际不符地",
+        "context": "修饰 believing，保留作者对服务更大善这一自我信念的否定。",
+        "example": "He falsely believed that obedience alone made the decision right.",
+        "collocations": [
+          "falsely believing",
+          "serving for a greater good"
+        ]
+      }
+    ],
+    "translation": "The Remains of the Day 挑战了我对二战中某些日本上校和其他处于道德困境者的看法：他们可能只是做自己的工作，错误地相信在服务更大的善。这本书确实改变了我看日本历史的方式。处于他们的境地，我也可能成为邪恶的上校，这是我从未考虑过的可能。这个想法不令人快乐，却使阅读更深、更丰富。",
+    "evidenceTargetIds": [
+      "c09-s01-p091-00750-s004"
+    ],
+    "evidence": [
+      {
+        "quote": "The Remains of the Day challenged my views of some Japanese colonels during World War II and others in compromised situations: they might have been simply doing their jobs, (falsely) believing that they were serving for a greater good. This book certainly changed the way I view Japanese history. I might have been an evil colonel in their situations, a possibility that I had never entertained before. This was not a happy thought, but nevertheless made the reading experience deeper and richer.",
+        "sentenceIds": [
+          "c09-s01-p091-00750-s004",
+          "c09-s01-p091-00750-s005",
+          "c09-s01-p091-00750-s006",
+          "c09-s01-p091-00750-s007"
+        ],
+        "sources": [
+          {
+            "pdfPage": 91,
+            "block": 0,
+            "bbox": [
+              76.99,
+              75,
+              535,
+              343.02
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "0939f611baebd28d75960c5ffa25cc553e077edcdceda017fbc71089bd3b45f8"
+  },
+  {
+    "id": "qe-c09-0026",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-033",
+    "parentQuestionId": "q-c09-014",
+    "chapterId": "c09",
+    "sectionId": "c09-s01",
+    "paragraphId": "c09-s01-p091-00750",
+    "readingUnitId": "c09-s01-p091-00750-r004-007",
+    "sentenceIds": [
+      "c09-s01-p091-00750-s004",
+      "c09-s01-p091-00750-s005",
+      "c09-s01-p091-00750-s006",
+      "c09-s01-p091-00750-s007"
+    ],
+    "passage": "The Remains of the Day challenged my views of some Japanese colonels during World War II and others in compromised situations: they might have been simply doing their jobs, (falsely) believing that they were serving for a greater good. This book certainly changed the way I view Japanese history. I might have been an evil colonel in their situations, a possibility that I had never entertained before. This was not a happy thought, but nevertheless made the reading experience deeper and richer.",
+    "prompt": "What change does the author explicitly attribute to the novel?",
+    "promptZh": "作者明确把什么变化归于这部小说？",
+    "options": [
+      "A new ability to prove every historical motive beyond doubt.",
+      "A change in the way he views Japanese history.",
+      "A decision that all moral distinctions should be abandoned.",
+      "A conclusion that his previous view remained completely unchanged."
+    ],
+    "optionsZh": [
+      "获得确证每个历史动机的能力。",
+      "看待日本历史方式的改变。",
+      "决定抛弃全部道德区别。",
+      "认定原有看法完全没变。"
+    ],
+    "answer": 1,
+    "type": "细节",
+    "support": "explicit",
+    "analyses": [
+      "A perspective change 不等于新增确证一切动机的史料。",
+      "B This book certainly changed the way I view Japanese history 直接对应，是作者个人阅读报告。",
+      "C 没有说放弃道德判断，前句仍有 falsely、后句 evil。",
+      "D 与 changed 相反；也不能从个人变化推成所有读者必改变。"
+    ],
+    "vocabulary": [
+      {
+        "word": "view",
+        "meaning": "看待；理解",
+        "context": "这里为动词，指看历史的方式，不是参观历史地点或可见景色。",
+        "example": "The memoir changed how she viewed her earlier choices.",
+        "collocations": [
+          "the way I view Japanese history",
+          "changed my view"
+        ]
+      }
+    ],
+    "translation": "The Remains of the Day 挑战了我对二战中某些日本上校和其他处于道德困境者的看法：他们可能只是做自己的工作，错误地相信在服务更大的善。这本书确实改变了我看日本历史的方式。处于他们的境地，我也可能成为邪恶的上校，这是我从未考虑过的可能。这个想法不令人快乐，却使阅读更深、更丰富。",
+    "evidenceTargetIds": [
+      "c09-s01-p091-00750-s005"
+    ],
+    "evidence": [
+      {
+        "quote": "The Remains of the Day challenged my views of some Japanese colonels during World War II and others in compromised situations: they might have been simply doing their jobs, (falsely) believing that they were serving for a greater good. This book certainly changed the way I view Japanese history. I might have been an evil colonel in their situations, a possibility that I had never entertained before. This was not a happy thought, but nevertheless made the reading experience deeper and richer.",
+        "sentenceIds": [
+          "c09-s01-p091-00750-s004",
+          "c09-s01-p091-00750-s005",
+          "c09-s01-p091-00750-s006",
+          "c09-s01-p091-00750-s007"
+        ],
+        "sources": [
+          {
+            "pdfPage": 91,
+            "block": 0,
+            "bbox": [
+              76.99,
+              75,
+              535,
+              343.02
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "21a6f371a853d0c6da5d97b2e457bb1bf8c7222ce50fabdf5a9e9d565e34789e"
+  },
+  {
+    "id": "qe-c09-0027",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-033",
+    "parentQuestionId": "q-c09-014",
+    "chapterId": "c09",
+    "sectionId": "c09-s01",
+    "paragraphId": "c09-s01-p091-00750",
+    "readingUnitId": "c09-s01-p091-00750-r004-007",
+    "sentenceIds": [
+      "c09-s01-p091-00750-s004",
+      "c09-s01-p091-00750-s005",
+      "c09-s01-p091-00750-s006",
+      "c09-s01-p091-00750-s007"
+    ],
+    "passage": "The Remains of the Day challenged my views of some Japanese colonels during World War II and others in compromised situations: they might have been simply doing their jobs, (falsely) believing that they were serving for a greater good. This book certainly changed the way I view Japanese history. I might have been an evil colonel in their situations, a possibility that I had never entertained before. This was not a happy thought, but nevertheless made the reading experience deeper and richer.",
+    "prompt": "What does 'entertained' mean in the author's reflection about what he might have become?",
+    "promptZh": "作者反思自己可能成为什么人时，entertained 是什么意思？",
+    "options": [
+      "Welcomed the role because he found it morally admirable.",
+      "Amused guests by acting out a military role.",
+      "Established the possibility as his real wartime biography.",
+      "Considered a possibility in his mind."
+    ],
+    "optionsZh": [
+      "因觉得道德高尚而欢迎该角色。",
+      "扮演军官来逗客人。",
+      "确立该可能性为自己真实战时生平。",
+      "在心中考虑一种可能性。"
+    ],
+    "answer": 3,
+    "type": "语境词义",
+    "support": "explicit",
+    "analyses": [
+      "A 思考可能性不是赞同或希望成为那样的人。",
+      "B entertain 在此不是娱乐宾客。",
+      "C might have been 是处境设想，不是他实际当过上校的履历。",
+      "D a possibility that I had never entertained before 指此前从未考虑的可能性，后句说明这一想法不快乐。"
+    ],
+    "vocabulary": [
+      {
+        "word": "entertained",
+        "meaning": "考虑过；在心中容纳某个想法",
+        "context": "与 possibility 搭配是熟词偏义，不是招待、取悦或认同。",
+        "example": "She had never entertained the possibility that her plan might fail.",
+        "collocations": [
+          "entertained a possibility",
+          "a possibility never entertained before"
+        ]
+      }
+    ],
+    "translation": "The Remains of the Day 挑战了我对二战中某些日本上校和其他处于道德困境者的看法：他们可能只是做自己的工作，错误地相信在服务更大的善。这本书确实改变了我看日本历史的方式。处于他们的境地，我也可能成为邪恶的上校，这是我从未考虑过的可能。这个想法不令人快乐，却使阅读更深、更丰富。",
+    "evidenceTargetIds": [
+      "c09-s01-p091-00750-s006"
+    ],
+    "evidence": [
+      {
+        "quote": "The Remains of the Day challenged my views of some Japanese colonels during World War II and others in compromised situations: they might have been simply doing their jobs, (falsely) believing that they were serving for a greater good. This book certainly changed the way I view Japanese history. I might have been an evil colonel in their situations, a possibility that I had never entertained before. This was not a happy thought, but nevertheless made the reading experience deeper and richer.",
+        "sentenceIds": [
+          "c09-s01-p091-00750-s004",
+          "c09-s01-p091-00750-s005",
+          "c09-s01-p091-00750-s006",
+          "c09-s01-p091-00750-s007"
+        ],
+        "sources": [
+          {
+            "pdfPage": 91,
+            "block": 0,
+            "bbox": [
+              76.99,
+              75,
+              535,
+              343.02
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "299a31003d8cde596289db164ddf4ab47a799ac0be780062f11bff4a9f85bf69"
+  },
+  {
+    "id": "qe-c09-0028",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-033",
+    "parentQuestionId": "q-c09-015",
+    "chapterId": "c09",
+    "sectionId": "c09-s02",
+    "paragraphId": "c09-s02-p091-03990",
+    "readingUnitId": "c09-s02-p091-03990-r001-004",
+    "sentenceIds": [
+      "c09-s02-p091-03990-s001",
+      "c09-s02-p091-03990-s002",
+      "c09-s02-p091-03990-s003",
+      "c09-s02-p091-03990-s004"
+    ],
+    "passage": "As the above example shows, it is possible to achieve psychological richness indirectly through books, movies, and art. But not all reading or watching experiences are rich. So what is the key to a psychologically rich aesthetic experience? First, while reading or watching, one gets so immersed in the narrative world described in the story that they don’t notice minor changes in the physical world around them (e.g., someone entering the room): a complete melding of attention, imagery, and feeling that psychologists call “transportation.”",
+    "prompt": "What possibility does the opening sentence establish about books, movies, and art?",
+    "promptZh": "开头这句对书、电影与艺术确立什么可能性？",
+    "options": [
+      "They can provide psychological richness indirectly, without every such experience necessarily doing so.",
+      "They can enrich a life only after physical travel to the events portrayed.",
+      "Every reading or viewing experience automatically produces equal richness.",
+      "They produce happiness only and cannot be relevant to psychological richness."
+    ],
+    "optionsZh": [
+      "它们能间接带来心理丰富性，但并非每次体验必然如此。",
+      "只有实际旅行到所述事件中才可使生活丰富。",
+      "每次阅读观看自动产生同等丰富性。",
+      "只能产生幸福，与心理丰富性无关。"
+    ],
+    "answer": 0,
+    "type": "主旨",
+    "support": "explicit",
+    "analyses": [
+      "A possible 与 indirectly 表达可通过媒介获得；后句 not all 阻止将可能性夸大为必然。",
+      "B indirectly 与必须实际到场相反。",
+      "C 删除 possible 并违背 not all，也无同等效果。",
+      "D 本句明确 psychological richness；作者从前面的阅读例子过渡到一般审美体验，不是新统计结论。"
+    ],
+    "vocabulary": [
+      {
+        "word": "indirectly",
+        "meaning": "间接地；通过媒介而非亲历地",
+        "context": "此处以书、电影、艺术体验叙事，不要求自己实际经历故事中的事件。",
+        "example": "The reader encountered the unfamiliar setting indirectly through fiction.",
+        "collocations": [
+          "achieve psychological richness indirectly",
+          "through books, movies, and art"
+        ]
+      }
+    ],
+    "translation": "如上述例子，确有可能通过书、电影和艺术间接获得心理丰富性。但并非所有阅读或观看都丰富。那么丰富的审美体验关键是什么？首先，读或看时，人会如此沉浸在故事世界，以至于不注意外界的小变化，例如有人进房间：注意、想象与情感完全融合，心理学家称为“叙事沉浸”。",
+    "evidenceTargetIds": [
+      "c09-s02-p091-03990-s001"
+    ],
+    "evidence": [
+      {
+        "quote": "As the above example shows, it is possible to achieve psychological richness indirectly through books, movies, and art.",
+        "sentenceIds": [
+          "c09-s02-p091-03990-s001"
+        ],
+        "sources": [
+          {
+            "pdfPage": 91,
+            "block": 2,
+            "bbox": [
+              76.99,
+              399,
+              535.01,
+              686.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "164ccdc8f1a2d679cb065e33a2bc6bbbcb969662126cf93b323dfab71bc6acbe"
   }
 ]
