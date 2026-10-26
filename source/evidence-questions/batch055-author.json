@@ -1,0 +1,983 @@
+{
+  "schemaVersion": 1,
+  "id": "evidence-055",
+  "status": "authored",
+  "evidenceRule": "frozen-target-sentence",
+  "questions": [
+    {
+      "order": 1,
+      "prompt": "What shift does the question about remembering introduce?",
+      "promptZh": "But how do we remember? 引入什么转向？",
+      "options": [
+        "From a discussion of price to the cost of a museum ticket.",
+        "From the importance of memory to the processes that support remembering.",
+        "From memory to a claim that all experiences must be forgotten.",
+        "From a question to proof that all memories are perfectly accurate."
+      ],
+      "optionsZh": [
+        "从价格转向博物馆票价。",
+        "从记忆的重要性转向支持记忆的过程。",
+        "从记忆转向必须忘掉所有经历的主张。",
+        "从问句直接转向所有记忆完全准确的证明。"
+      ],
+      "answer": 1,
+      "type": "篇章结构",
+      "support": "explicit",
+      "analyses": [
+        "A 本段没有票价讨论，psychological wealth也非门票收入。",
+        "B 前两句说memory key和遗忘代价，How引出下一句深加工、复习、巩固。",
+        "C 作者问怎样记住，不是要求遗忘。",
+        "D 问句本身不提供准确性证明，后文也会区分记得与完全精确。"
+      ],
+      "vocabulary": [
+        {
+          "word": "remember",
+          "meaning": "记住；使过去经历能被再次想起",
+          "context": "此处关心保留和提取经历，不自动等于记忆细节毫无误差。",
+          "example": "The paragraph moves from why memory matters to how we remember.",
+          "collocations": [
+            "But how do we remember",
+            "Memory is key"
+          ]
+        }
+      ],
+      "evidenceQuote": "Memory is key to a psychologically rich life. If we forget a past event, we miss out on the chance to add that experience to our portfolio of psychological wealth. But how do we remember? Looking to cognitive science, it’s clear that deep processing, rehearsal, and consolidation are the keys."
+    },
+    {
+      "order": 2,
+      "prompt": "Which three processes are named as keys to remembering?",
+      "promptZh": "原文点名哪三种支持记忆的过程？",
+      "options": [
+        "Only collecting more money, travelling farther, and forgetting the past.",
+        "Only publishing, selling, and promoting a memoir.",
+        "Deep processing, rehearsal, and consolidation.",
+        "Only short-term excitement, with no later reflection."
+      ],
+      "optionsZh": [
+        "只收更多钱、去更远、忘掉过去。",
+        "只出版、销售和推广回忆录。",
+        "深度加工、复习与巩固。",
+        "只有短期刺激，没有随后反思。"
+      ],
+      "answer": 2,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A 三项均不在所列记忆过程里。",
+        "B 写回忆录可在后面作例子，但不是本句这三项。",
+        "C 三个并列名词逐项对应，keys是关键机制比喻。",
+        "D deep processing与rehearsal正需要不止当下刺激；不能从本句加出人人记忆都保证完美。"
+      ],
+      "vocabulary": [
+        {
+          "word": "rehearsal",
+          "meaning": "复习；重复回想或练习以保留记忆",
+          "context": "记忆语境不同于舞台排练的狭义，也不是只把经历一闪而过。",
+          "example": "Repeated rehearsal helped the learner retain the material.",
+          "collocations": [
+            "deep processing, rehearsal, and consolidation",
+            "are the keys"
+          ]
+        }
+      ],
+      "evidenceQuote": "Memory is key to a psychologically rich life. If we forget a past event, we miss out on the chance to add that experience to our portfolio of psychological wealth. But how do we remember? Looking to cognitive science, it’s clear that deep processing, rehearsal, and consolidation are the keys."
+    },
+    {
+      "order": 3,
+      "prompt": "What does 'some people' qualify in the claim about reflection?",
+      "promptZh": "反思论述中的 some people 限定什么？",
+      "options": [
+        "It identifies a subset who are naturally more reflective, without saying everyone is the same.",
+        "It proves every person is born with identical reflective habits.",
+        "It says nobody can ever develop a habit of reflection.",
+        "It reports that all reflective people have already passed the same clinical test."
+      ],
+      "optionsZh": [
+        "指出有一部分人天生较善反思，没有说人人一样。",
+        "证明每人生来反思习惯完全相同。",
+        "说任何人都绝不可能培养反思习惯。",
+        "报告所有善反思者已通过同一临床测验。"
+      ],
+      "answer": 0,
+      "type": "证据范围",
+      "support": "explicit",
+      "analyses": [
+        "A some与more都保留个体差异和相对倾向。",
+        "B some不等于all，more也不等于完全相同。",
+        "C naturally有差异不推出学习习惯不可能，后文还给日常提问办法。",
+        "D 原句没有统一临床测验程序，不凭一句自然倾向给个人诊断。"
+      ],
+      "vocabulary": [
+        {
+          "word": "reflective",
+          "meaning": "善反思的；愿意思考经历及其意义的",
+          "context": "此处是人的思考倾向，不是镜面能反射光的性质。",
+          "example": "A reflective person may revisit the events of the day.",
+          "collocations": [
+            "naturally more reflective",
+            "Some people are"
+          ]
+        }
+      ],
+      "evidenceQuote": "Some people are naturally more reflective. If you reflect on the events of the day every night, you are much more likely to remember events than those who don’t. One of the reasons why sensation-seekers might not lead a far more psychologically rich life than non-sensation-seekers—despite the fact that sensation-seekers seek out more diverse, novel experiences than non-sensation-seekers—is that they don’t reflect upon their experiences. In one study, sensation-seekers did poorly in short-term memory and working memory tasks, relative to non-sensation-seekers."
+    },
+    {
+      "order": 4,
+      "prompt": "What comparison does the nightly-reflection sentence make?",
+      "promptZh": "每晚反思的句子作什么比较？",
+      "options": [
+        "Everyone who reflects is guaranteed to remember every detail without error.",
+        "People who do not reflect are said never to remember anything at all.",
+        "The sentence compares only the number of journeys taken by two groups.",
+        "Those who reflect on the day's events are more likely to remember than those who do not."
+      ],
+      "optionsZh": [
+        "每个反思者保证每个细节零误差。",
+        "不反思者被说成永远什么都记不住。",
+        "句子只比较两组旅行次数。",
+        "反思当天事情者比不这样者更可能记住。"
+      ],
+      "answer": 3,
+      "type": "同义改写",
+      "support": "explicit",
+      "analyses": [
+        "A more likely是概率比较，不是完全无误保证。",
+        "B 比较较可能记住不等于另一组零记忆。",
+        "C 当前句讲反思与记忆，不是旅行计数。",
+        "D if反思条件与than those who don’t参照都保留；原文论述不等于此句已给随机分组数据。"
+      ],
+      "vocabulary": [
+        {
+          "word": "more likely",
+          "meaning": "更可能；发生机会较高",
+          "context": "不是必定发生，也不是只凭这句话能知道每个人的确切概率。",
+          "example": "Those who reviewed the event were more likely to recall it later.",
+          "collocations": [
+            "much more likely to remember events",
+            "than those who don’t"
+          ]
+        }
+      ],
+      "evidenceQuote": "Some people are naturally more reflective. If you reflect on the events of the day every night, you are much more likely to remember events than those who don’t. One of the reasons why sensation-seekers might not lead a far more psychologically rich life than non-sensation-seekers—despite the fact that sensation-seekers seek out more diverse, novel experiences than non-sensation-seekers—is that they don’t reflect upon their experiences. In one study, sensation-seekers did poorly in short-term memory and working memory tasks, relative to non-sensation-seekers."
+    },
+    {
+      "order": 5,
+      "prompt": "Why do the people described need more excitement after a while?",
+      "promptZh": "所述这些人为何过一阵又需要更多刺激？",
+      "options": [
+        "The passage says the earlier thrill is momentary when experience is not reflected on.",
+        "The passage proves that they have perfectly preserved every detail forever.",
+        "They have been shown to have no capacity to encounter any new event.",
+        "Their memory is said to improve automatically with every increase in spending."
+      ],
+      "optionsZh": [
+        "原文说，不反思时先前体验只是一时兴奋。",
+        "原文证明他们已永远完美保存每个细节。",
+        "他们已被证明绝无遇到新事物的能力。",
+        "说花钱每增一点，记忆就自动提高。"
+      ],
+      "answer": 0,
+      "type": "逻辑关系",
+      "support": "explicit",
+      "analyses": [
+        "A 前句Without reflection...momentary thrill为After a while接需要更多刺激的说明背景。",
+        "B 与不累积心理丰富的作者比喻相反，且无永久完美证据。",
+        "C 后句谈冒险被浪费，不是根本遇不到新事物。",
+        "D 百万富翁花钱是比喻，不是花钱改善记忆的实验规律。"
+      ],
+      "vocabulary": [
+        {
+          "word": "excitement",
+          "meaning": "兴奋；刺激感",
+          "context": "这里对比短暂感受与反思后积累经历，不自动等于长久记住或心理更丰富。",
+          "example": "A momentary thrill can be followed by a desire for more excitement.",
+          "collocations": [
+            "need more excitement",
+            "After a while"
+          ]
+        }
+      ],
+      "evidenceQuote": "Without reflection, experience serves as a momentary thrill. After a while, these people need more excitement. Sensation-seekers are like millionaires who party and spend all the money they have earned; they are wasting their adventures and not accumulating psychologically rich experiences."
+    },
+    {
+      "order": 6,
+      "prompt": "What does the question about not being naturally introspective introduce?",
+      "promptZh": "关于并非天生内省者的问句，引入什么？",
+      "options": [
+        "A statement that such people must stop having experiences.",
+        "A proof that only born writers can remember anything.",
+        "A practical alternative: having another person ask questions about everyday memories.",
+        "A claim that all memory testing requires a laboratory and a medical diagnosis."
+      ],
+      "optionsZh": [
+        "说这类人必须停止经历生活。",
+        "证明只有天生作家能记住事情。",
+        "引入实际替代办法：由别人就日常记忆提问。",
+        "声称所有记忆测试都必须在实验室并经医学诊断。"
+      ],
+      "answer": 2,
+      "type": "篇章结构",
+      "support": "explicit",
+      "analyses": [
+        "A 问what can you do是在找办法，非禁止生活体验。",
+        "B 没有把记忆能力限定给作家。",
+        "C 下一句Having someone test...everyday life is one way回答问题，随后妻子对话作例。",
+        "D everyday life与后面家庭谈话说明不只实验室测验，且one way非唯一途径。"
+      ],
+      "vocabulary": [
+        {
+          "word": "introspective",
+          "meaning": "内省的；倾向观察、思考自身内心与经历的",
+          "context": "此处指反思倾向，不是只能独处或必有某种心理诊断。",
+          "example": "Someone less naturally introspective might benefit from questions that prompt reflection.",
+          "collocations": [
+            "inclined to be introspective",
+            "what can you do"
+          ]
+        }
+      ],
+      "evidenceQuote": "If you are not naturally inclined to be introspective, though, what can you do? Having someone test your memory in everyday life is one way. For instance, my wife once asked me, “Shige, do you remember that exhibition at the Guggenheim? A Swedish woman…what was her name?”"
+    },
+    {
+      "order": 7,
+      "prompt": "What detail is the question about the Swedish woman trying to retrieve?",
+      "promptZh": "关于那位瑞典女性的问题试图回想什么细节？",
+      "options": [
+        "The exhibition's ticket price.",
+        "The exact date of every visit to New York.",
+        "The name of a national charity in Italy.",
+        "The woman's name."
+      ],
+      "optionsZh": [
+        "展览门票价格。",
+        "每次去New York的准确日期。",
+        "意大利全国慈善机构名称。",
+        "那位女性的名字。"
+      ],
+      "answer": 3,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A what was her name并不问票价。",
+        "B 日期是随后另一句when的问题，不是当前句。",
+        "C 慈善机构来自前章，非这段艺术展对话。",
+        "D her name明确要提取姓名；当前片段尚未给出答案，不从别段提前填入画家姓名作为本题要求。"
+      ],
+      "vocabulary": [
+        {
+          "word": "what was her name",
+          "meaning": "她叫什么来着；回想某人姓名的问法",
+          "context": "was在此配合对过去人物信息的回想，不单凭它断言此人已去世。",
+          "example": "The speaker paused and asked what her name was.",
+          "collocations": [
+            "A Swedish woman",
+            "what was her name"
+          ]
+        }
+      ],
+      "evidenceQuote": "If you are not naturally inclined to be introspective, though, what can you do? Having someone test your memory in everyday life is one way. For instance, my wife once asked me, “Shige, do you remember that exhibition at the Guggenheim? A Swedish woman…what was her name?”"
+    },
+    {
+      "order": 8,
+      "prompt": "What state does 'I have no idea what you are talking about' express?",
+      "promptZh": "I have no idea what you are talking about 表达什么状态？",
+      "options": [
+        "The speaker confidently recognises every detail immediately.",
+        "The speaker does not initially recognise what the other person means.",
+        "The speaker gives a negative review of the paintings' quality.",
+        "The speaker proves that the museum visit never happened."
+      ],
+      "optionsZh": [
+        "说话人立即自信认出所有细节。",
+        "说话人起初没认出对方所指。",
+        "说话人对画的质量给差评。",
+        "说话人证明博物馆之行从未发生。"
+      ],
+      "answer": 1,
+      "type": "语境词义",
+      "support": "explicit",
+      "analyses": [
+        "A have no idea与立刻完全认出相反。",
+        "B 对所谈经历缺少当前线索，后续When did we go请求提示。",
+        "C 不记得所指不等于不喜欢作品。",
+        "D 记忆提取失败不是事件不存在的证明，不编造对话以外的事实。"
+      ],
+      "vocabulary": [
+        {
+          "word": "have no idea",
+          "meaning": "完全不清楚；想不起来所指是什么",
+          "context": "在这里是当下不识别语境，不是永久无法记忆或对另一人价值的判断。",
+          "example": "At first, he had no idea which exhibition she meant.",
+          "collocations": [
+            "I have no idea",
+            "what you are talking about"
+          ]
+        }
+      ],
+      "evidenceQuote": "“I have no idea what you are talking about. When did we go?” “First year in New York. In winter."
+    },
+    {
+      "order": 9,
+      "prompt": "What kind of cue is the question about the visit asking for?",
+      "promptZh": "When did we go? 请求哪类线索？",
+      "options": [
+        "The timing of the visit.",
+        "The artist's exact date of birth.",
+        "The painting's sale price.",
+        "The number of floors in the museum."
+      ],
+      "optionsZh": [
+        "参观的时间。",
+        "画家确切出生日期。",
+        "作品成交价格。",
+        "博物馆楼层数。"
+      ],
+      "answer": 0,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A When问参观何时，后答First year in New York/In winter给相对时间和季节。",
+        "B we go不是画家出生。",
+        "C 没有问how much。",
+        "D 不是楼层多少；回答也未给绝对公历年份，不擅自补成某年某日。"
+      ],
+      "vocabulary": [
+        {
+          "word": "When",
+          "meaning": "何时；询问时间的疑问词",
+          "context": "当前问两人参观时间，不是问作品创作或画家出生时间。",
+          "example": "When did we go to the exhibition, in the first year or later?",
+          "collocations": [
+            "When did we go",
+            "First year in New York"
+          ]
+        }
+      ],
+      "evidenceQuote": "“I have no idea what you are talking about. When did we go?” “First year in New York. In winter."
+    },
+    {
+      "order": 10,
+      "prompt": "What does 'Super abstract' describe in this dialogue?",
+      "promptZh": "对话里的 Super abstract 描述什么？",
+      "options": [
+        "The paintings' exact price in a sale.",
+        "A guaranteed judgment that the paintings are better than every other work.",
+        "A strongly abstract artistic style.",
+        "Only the size of the museum building."
+      ],
+      "optionsZh": [
+        "作品确切成交价。",
+        "保证作品胜过所有其他作品的判断。",
+        "很强的抽象艺术风格。",
+        "仅博物馆建筑大小。"
+      ],
+      "answer": 2,
+      "type": "语境词义",
+      "support": "explicit",
+      "analyses": [
+        "A 风格线索不是售价。",
+        "B Super在此加强abstract程度，不等于客观优于所有作品。",
+        "C 与随后pink paintings、艺术家线索相接，用风格协助回想。",
+        "D 建筑大小与abstract的作品风格不对应。"
+      ],
+      "vocabulary": [
+        {
+          "word": "abstract",
+          "meaning": "抽象的；艺术中不直接写实再现物象的",
+          "context": "此处描写绘画风格，不是摘要这个名词含义。",
+          "example": "The abstract paintings were difficult to associate with familiar objects.",
+          "collocations": [
+            "Super abstract",
+            "huge, pink paintings"
+          ]
+        }
+      ],
+      "evidenceQuote": "Super abstract.” “Uh…huge, pink paintings? Af Klint or something?” “Yes, Hilma!”"
+    },
+    {
+      "order": 11,
+      "prompt": "How should the description of huge, pink paintings be read here?",
+      "promptZh": "这里对huge、pink paintings的描述应怎样读？",
+      "options": [
+        "As proof that every painting by the artist has the same size and colour.",
+        "As an official museum inventory with complete measurements.",
+        "As a claim that the speaker had never seen any painting.",
+        "As a tentative visual memory cue about size and colour."
+      ],
+      "optionsZh": [
+        "证明该画家每件作品大小颜色都相同。",
+        "给出完整尺寸的正式馆藏清单。",
+        "声称说话人从未看过任何画。",
+        "作为回想中关于大小和颜色的试探性视觉线索。"
+      ],
+      "answer": 3,
+      "type": "证据范围",
+      "support": "explicit",
+      "analyses": [
+        "A 一次回忆线索不覆盖全部作品。",
+        "B Uh和问号示试探，没有精确尺寸或馆藏范围。",
+        "C 试着描述画面不是从没看过作品的证明。",
+        "D huge与pink提供两类可识别印象，停顿和问句保留不确定，而非已完整查证的艺术史目录。"
+      ],
+      "vocabulary": [
+        {
+          "word": "huge",
+          "meaning": "巨大的；尺寸很大的",
+          "context": "与pink并列作为视觉回忆线索，原文没有给厘米数或说所有作品全相同。",
+          "example": "He recalled huge pink paintings but was unsure of the artist's name.",
+          "collocations": [
+            "huge, pink paintings",
+            "Af Klint or something"
+          ]
+        }
+      ],
+      "evidenceQuote": "Super abstract.” “Uh…huge, pink paintings? Af Klint or something?” “Yes, Hilma!”"
+    },
+    {
+      "order": 12,
+      "prompt": "What role does the author attribute to his wife's questions?",
+      "promptZh": "作者把妻子的提问看作起了什么作用？",
+      "options": [
+        "They prove that he would have recalled everything equally well without any cue.",
+        "They brought the Klint exhibition and its paintings back to mind in his personal account.",
+        "They were a randomised experiment proving every married person remembers perfectly.",
+        "They changed which paintings had actually existed in the exhibition."
+      ],
+      "optionsZh": [
+        "证明即使没有线索他也会同样记起一切。",
+        "按其个人叙述，提问把Klint展览及作品唤回记忆。",
+        "这是随机实验证明每名已婚者完美记忆。",
+        "提问改变了展览当时实际有哪些作品。"
+      ],
+      "answer": 1,
+      "type": "作者观点",
+      "support": "explicit",
+      "analyses": [
+        "A Without...would not正反设没有提问不会这样回想，非无差别。",
+        "B 妻子提问被归为想起展览并进一步记起作品的触发，是个人解释。",
+        "C 家庭例子不等于随机分组，也无每人无误结论。",
+        "D 提问作用于回忆，不改写历史展品；let alone还把记画作放在更进一步的层次。"
+      ],
+      "vocabulary": [
+        {
+          "word": "let alone",
+          "meaning": "更不用说；前项尚不成立时更难谈后项",
+          "context": "本句把想起展览与进一步记起画作层层递进。",
+          "example": "Without the cue, he would not have recalled the visit, let alone individual paintings.",
+          "collocations": [
+            "let alone remembered her paintings",
+            "Without my wife asking these questions"
+          ]
+        }
+      ],
+      "evidenceQuote": "Without my wife asking these questions, I would not have thought about the Klint exhibition, let alone remembered her paintings. So, having people ask you questions about your past experiences is really helpful. My wife, children, and students have fulfilled that role for me. They are also good listeners."
+    },
+    {
+      "order": 13,
+      "prompt": "What does having a 'captive audience' make more likely in the author's account?",
+      "promptZh": "按作者论述，有captive audience更可能促成什么？",
+      "options": [
+        "Telling listeners what happened each day.",
+        "Never discussing any experience again.",
+        "Guaranteeing that each retold detail is perfectly accurate.",
+        "Collecting money from everyone who hears the story."
+      ],
+      "optionsZh": [
+        "向听众讲每天发生了什么。",
+        "此后再不谈任何经历。",
+        "保证每个复述细节都完全准确。",
+        "向每位听故事者收钱。"
+      ],
+      "answer": 0,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A if条件后much more likely to tell...each day明确结果。",
+        "B 与tell them相反。",
+        "C 下一句even if...not accurate明确保留准确性限制，重复讲不保证全真。",
+        "D audience在此是日常听众，不是售票收款程序。"
+      ],
+      "vocabulary": [
+        {
+          "word": "captive audience",
+          "meaning": "固定听众；会听你讲述的人（此处语境）",
+          "context": "作者在日常分享语境使用，不是在指实际囚禁、强迫或付费观众。",
+          "example": "Having a captive audience made him more likely to retell the day's events.",
+          "collocations": [
+            "have a captive audience",
+            "tell them what happened each day"
+          ]
+        }
+      ],
+      "evidenceQuote": "If you have a captive audience, you are much more likely to tell them what happened each day. Retelling, in turn, helps you remember what happened (even if the stories themselves are not accurate recollections of exactly what happened)."
+    },
+    {
+      "order": 14,
+      "prompt": "How is Sixo's remark introduced in this passage?",
+      "promptZh": "本段如何引入Sixo的话？",
+      "options": [
+        "As the result of a controlled trial run by a therapist.",
+        "As the author's own statement that he personally walked thirty miles.",
+        "As an example from a character in Toni Morrison's Beloved.",
+        "As a survey in which every listener received the same score."
+      ],
+      "optionsZh": [
+        "治疗师控制试验的结果。",
+        "作者自述自己亲自走了三十英里。",
+        "Toni Morrison小说Beloved中的人物例子。",
+        "每位听众得分相同的一项调查。"
+      ],
+      "answer": 2,
+      "type": "观点归属",
+      "support": "explicit",
+      "analyses": [
+        "A a character与For example给文学例证，非控制试验。",
+        "B Sixo为人物名，不能把他的行动换成作者亲历。",
+        "C 作品、人物与引语的归属由原句明确标注。",
+        "D 没有听众评分样本；小说对白说明好听众的作用，不当作实验结论。"
+      ],
+      "vocabulary": [
+        {
+          "word": "character",
+          "meaning": "人物；小说等作品中的角色",
+          "context": "此处不是性格量表或研究参与者身份。",
+          "example": "A character in the novel describes the value of a good listener.",
+          "collocations": [
+            "Sixo, a character in Toni Morrison’s Beloved",
+            "explains why he walks thirty miles"
+          ]
+        }
+      ],
+      "evidenceQuote": "A good listener not only asks the right questions and listens, but also helps you craft a story and see the point of your story. For example, Sixo, a character in Toni Morrison’s Beloved, explains why he walks thirty miles to meet his woman: “She is a friend of my mind. She gather me, man. The pieces I am, she gather them and give them back to me in all the right order."
+    },
+    {
+      "order": 15,
+      "prompt": "What does 'She gather me' suggest when read with the next sentence?",
+      "promptZh": "把She gather me与下一句连读，它暗示什么？",
+      "options": [
+        "She collects the character's money without listening to him.",
+        "She helps him bring scattered parts of his experience or sense of self into a coherent order.",
+        "She makes every difficult memory vanish permanently.",
+        "She proves that every detail of his past has been clinically verified."
+      ],
+      "optionsZh": [
+        "她不听他说话，只收集他的钱。",
+        "她帮助把零散经历或自我感重新组织成连贯整体。",
+        "她使每个困难记忆永远消失。",
+        "她证明过去每个细节都已被临床核实。"
+      ],
+      "answer": 1,
+      "type": "有限推断",
+      "support": "limited-inference",
+      "analyses": [
+        "A friend of my mind与pieces...right order说心理支持，非收款。",
+        "B 结合后句把pieces按right order还给他，可有限读作帮助整理零散的自我与经历。",
+        "C gather、give back不是删掉所有坏记忆。",
+        "D 文学比喻不提供临床核验资料；原对白的She gather语法照录，不擅改成标准化原文。"
+      ],
+      "vocabulary": [
+        {
+          "word": "gather",
+          "meaning": "聚拢；把分散的部分集合起来",
+          "context": "这里结合pieces与order作心理整合的比喻，不限物品收集。",
+          "example": "The conversation helped me gather my scattered thoughts.",
+          "collocations": [
+            "She gather me",
+            "she gather them and give them back"
+          ]
+        }
+      ],
+      "evidenceQuote": "A good listener not only asks the right questions and listens, but also helps you craft a story and see the point of your story. For example, Sixo, a character in Toni Morrison’s Beloved, explains why he walks thirty miles to meet his woman: “She is a friend of my mind. She gather me, man. The pieces I am, she gather them and give them back to me in all the right order."
+    },
+    {
+      "order": 16,
+      "prompt": "What is valued in the quoted phrase 'a friend of your mind'?",
+      "promptZh": "引语中a friend of your mind重视什么？",
+      "options": [
+        "Only receiving money from a companion.",
+        "Only having an audience for public fame.",
+        "A guarantee that no disagreement can ever occur.",
+        "Mental companionship that helps make sense of experience."
+      ],
+      "optionsZh": [
+        "只重视从伴侣拿钱。",
+        "只重视借听众获得公众名气。",
+        "保证永远不可能有分歧。",
+        "有助于理解经历的心灵陪伴。"
+      ],
+      "answer": 3,
+      "type": "语境词义",
+      "support": "explicit",
+      "analyses": [
+        "A mind的朋友不是此处财物交换。",
+        "B 当前段落谈理解、整合与经历，不是曝光度。",
+        "C friend不保证所有意见永远一致。",
+        "D 紧接引语的put confusing pieces together与regular talk说明这种陪伴的认知、叙述支持；不把人物赞许变成对所有关系的统一疗效保证。"
+      ],
+      "vocabulary": [
+        {
+          "word": "friend of your mind",
+          "meaning": "心灵的朋友；理解和支持你思考的人",
+          "context": "沿用小说的比喻，区别只在场却不帮助理解的陪伴。",
+          "example": "She valued a friend of her mind who helped her understand an experience.",
+          "collocations": [
+            "a friend of your mind",
+            "It’s good, you know"
+          ]
+        }
+      ],
+      "evidenceQuote": "It’s good, you know, when you got a woman who is a friend of your mind.” A good therapist can also help put confusing pieces together. Finding someone with whom you can talk about your past experiences on a regular basis helps you digest, remember, and accrue your experiences."
+    },
+    {
+      "order": 17,
+      "prompt": "What additional role is attributed to a good therapist?",
+      "promptZh": "原文还把什么作用归于好的治疗师？",
+      "options": [
+        "Helping put confusing pieces together.",
+        "Making every life event objectively happy.",
+        "Replacing all past experiences with fictional ones.",
+        "Proving every memory is exact without asking questions."
+      ],
+      "optionsZh": [
+        "帮助把令人困惑的片段整理在一起。",
+        "让每个人生事件都客观快乐。",
+        "用虚构事件替换全部过往。",
+        "不提问就证明每个记忆精确无误。"
+      ],
+      "answer": 0,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A can also help后明确给整合困惑片段的作用，与前面好听众相呼应。",
+        "B put together不是把一切事件变快乐。",
+        "C 整理已有材料不等于虚构替换。",
+        "D 当前句未证明记忆无误；can表示可能支持，而非所有个案保证。"
+      ],
+      "vocabulary": [
+        {
+          "word": "confusing pieces",
+          "meaning": "令人困惑的片段；尚难理解关联的经历或想法",
+          "context": "pieces在此是心理叙述比喻，不是给物理拼图设置实验条件。",
+          "example": "Talking helped him put the confusing pieces of the account together.",
+          "collocations": [
+            "put confusing pieces together",
+            "A good therapist can also help"
+          ]
+        }
+      ],
+      "evidenceQuote": "It’s good, you know, when you got a woman who is a friend of your mind.” A good therapist can also help put confusing pieces together. Finding someone with whom you can talk about your past experiences on a regular basis helps you digest, remember, and accrue your experiences."
+    },
+    {
+      "order": 18,
+      "prompt": "What does 'company' mean in the statement about some readers?",
+      "promptZh": "对部分读者的陈述中，company是什么意思？",
+      "options": [
+        "A business that employs workers.",
+        "The publisher's legal name.",
+        "Being with other people or having companionship.",
+        "The monetary value of a journal."
+      ],
+      "optionsZh": [
+        "雇工经营的公司。",
+        "出版社法定名称。",
+        "与别人相处或有人陪伴。",
+        "一本日记的货币价值。"
+      ],
+      "answer": 2,
+      "type": "语境词义",
+      "support": "explicit",
+      "analyses": [
+        "A some of you might not like后接下一段solitary solution，非企业经营。",
+        "B 本句没有出版社身份。",
+        "C 与后面的独处偏好和日记办法形成语境对照。",
+        "D company不是日记价格；some与might保留部分人可能的偏好，非断言所有读者都厌人。"
+      ],
+      "vocabulary": [
+        {
+          "word": "company",
+          "meaning": "陪伴；与人在一起的状态（熟词偏义）",
+          "context": "在这里不是商业公司，与solitary solution相对。",
+          "example": "She preferred quiet time alone to constant company.",
+          "collocations": [
+            "might not like company",
+            "Some of you"
+          ]
+        }
+      ],
+      "evidenceQuote": "Some of you might not like company. After all, some people are like Daniel Plainview (played by Daniel Day Lewis) in the movie There Will Be Blood, who says, “I see the worst in people…I want to earn enough money, so I can get away from everyone.” If you prefer a solitary solution, keeping a journal and rereading it is an excellent way to keep track of your experiences. Ernest Hemingway spent his twenties in Paris and kept detailed journals."
+    },
+    {
+      "order": 19,
+      "prompt": "What is the function of the Daniel Plainview quotation?",
+      "promptZh": "Daniel Plainview的引语起什么作用？",
+      "options": [
+        "It proves the actor Daniel Day Lewis personally wishes to avoid everyone.",
+        "It illustrates a preference for avoiding people before the solitary journaling alternative is offered.",
+        "It reports an experiment showing all film viewers dislike company.",
+        "It states that the book author requires readers to earn money before keeping a journal."
+      ],
+      "optionsZh": [
+        "证明演员Daniel Day Lewis本人想躲开所有人。",
+        "在提出独处写日记的办法前，说明有人偏好远离人群。",
+        "报告实验：所有观众都不喜欢陪伴。",
+        "说本书要求读者先赚钱才能记日记。"
+      ],
+      "answer": 1,
+      "type": "作者意图",
+      "support": "explicit",
+      "analyses": [
+        "A 说话者为电影角色，played by标演员，不应把台词当演员自述。",
+        "B some people are like引文学影视例子，下句If prefer solitary solution接替代办法。",
+        "C 角色台词非全体观众试验。",
+        "D 赚钱是角色愿望，不是作者给日记设财务门槛。"
+      ],
+      "vocabulary": [
+        {
+          "word": "get away from",
+          "meaning": "远离；离开某人或某种环境",
+          "context": "在角色引语里是逃开他人相处，不是作者对每个读者的要求。",
+          "example": "The character wanted enough money to get away from everyone.",
+          "collocations": [
+            "get away from everyone",
+            "I see the worst in people"
+          ]
+        }
+      ],
+      "evidenceQuote": "Some of you might not like company. After all, some people are like Daniel Plainview (played by Daniel Day Lewis) in the movie There Will Be Blood, who says, “I see the worst in people…I want to earn enough money, so I can get away from everyone.” If you prefer a solitary solution, keeping a journal and rereading it is an excellent way to keep track of your experiences. Ernest Hemingway spent his twenties in Paris and kept detailed journals."
+    },
+    {
+      "order": 20,
+      "prompt": "Which practice is attached to Hemingway's years in Paris?",
+      "promptZh": "文中把什么习惯与Hemingway在Paris的年岁相联系？",
+      "options": [
+        "He first wrote all the journals only after recovering the trunk in 1956.",
+        "He avoided recording any experience during his twenties.",
+        "He kept only official laboratory memory scores rather than journals.",
+        "He kept detailed journals while spending his twenties in Paris."
+      ],
+      "optionsZh": [
+        "他直到1956取回箱子后才首次写下全部日记。",
+        "他二十多岁时不记录任何经历。",
+        "他只记正式实验室记忆分数，不写日记。",
+        "他二十多岁在Paris生活时写详细日记。"
+      ],
+      "answer": 3,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A 后面1956是取回旧日记，不应改成首次写日记。",
+        "B kept detailed journals与完全不记录相反。",
+        "C 原句为个人日记，非实验室评分资料。",
+        "D spent his twenties in Paris与kept detailed journals并列；twenties是年龄段，不单凭此短句补出每篇写作的具体日期。"
+      ],
+      "vocabulary": [
+        {
+          "word": "detailed journals",
+          "meaning": "详细的日记或日志；记录具体经历的文字",
+          "context": "不是事后无依据补造的全部记忆，也非本文中的学术期刊文章。",
+          "example": "He kept detailed journals during his years abroad.",
+          "collocations": [
+            "kept detailed journals",
+            "spent his twenties in Paris"
+          ]
+        }
+      ],
+      "evidenceQuote": "Some of you might not like company. After all, some people are like Daniel Plainview (played by Daniel Day Lewis) in the movie There Will Be Blood, who says, “I see the worst in people…I want to earn enough money, so I can get away from everyone.” If you prefer a solitary solution, keeping a journal and rereading it is an excellent way to keep track of your experiences. Ernest Hemingway spent his twenties in Paris and kept detailed journals."
+    },
+    {
+      "order": 21,
+      "prompt": "What did Hemingway retrieve, and what did he find inside?",
+      "promptZh": "Hemingway取回了什么，并在里面找到什么？",
+      "options": [
+        "His trunk, containing journals from the 1920s.",
+        "The manager's trunk, containing the manager's new memoir.",
+        "A box of museum paintings that had never belonged to him.",
+        "His newly printed novel, containing a survey of student GPA."
+      ],
+      "optionsZh": [
+        "自己的箱子，内有1920年代日记。",
+        "经理的箱子，内有经理的新回忆录。",
+        "一盒从不属于他的博物馆画作。",
+        "新印小说，内有学生GPA调查。"
+      ],
+      "answer": 0,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A retrieved his trunk与in it...his journals from1920s逐项对应。",
+        "B his指Hemingway，不换成经理的物品；经理只是前文提供线索者。",
+        "C 没有画作箱，不能混入前面展览例子。",
+        "D 日记回忆录与GPA研究是不同材料；箱内旧记录先于后来写回忆录。"
+      ],
+      "vocabulary": [
+        {
+          "word": "retrieved",
+          "meaning": "取回；重新找到并拿回原先存放的物品",
+          "context": "此处去地下室拿回自己的箱子，不是当时才创作所有旧日记。",
+          "example": "He retrieved the trunk that had been stored in the basement.",
+          "collocations": [
+            "retrieved his trunk",
+            "discovered his journals from the 1920s"
+          ]
+        }
+      ],
+      "evidenceQuote": "Before he left Paris in 1930, he put them in a trunk and stored them in the basement of the Ritz Hotel. In 1956, he was having lunch with the manager of the Ritz, who told him that his trunk was still stored in the basement! So Hemingway went to the basement, retrieved his trunk, and, in it, discovered his journals from the 1920s. He read and wrote about his experiences in Paris later in his memoir, A Moveable Feast."
+    },
+    {
+      "order": 22,
+      "prompt": "What does Paris staying with the person mean in the quotation?",
+      "promptZh": "引语中Paris始终伴随人，是什么意思？",
+      "options": [
+        "The physical city follows every traveller to each new address.",
+        "Every visitor is guaranteed the same lifetime outcome after one day there.",
+        "The experience of living there can remain a lasting source of remembered value.",
+        "All memories are replaced by the city's restaurant bills."
+      ],
+      "optionsZh": [
+        "实际城市会跟每位旅客搬到新地址。",
+        "每位游客去一天后都保证一生结果相同。",
+        "在那里生活的经历可成为持续的记忆价值来源。",
+        "所有记忆都被城市餐馆账单替代。"
+      ],
+      "answer": 2,
+      "type": "语境词义",
+      "support": "explicit",
+      "analyses": [
+        "A stays with you是经历留存的比喻，不是城市物理迁移。",
+        "B if...lucky enough...lived as young man有条件，不是全游客一天统一保证。",
+        "C wherever...rest of life强调经历随人延续，moveable feast作可携带的精神滋养意象。",
+        "D feast不是这里仅统计餐费，当前段落焦点是记录、记住并珍惜经历。"
+      ],
+      "vocabulary": [
+        {
+          "word": "stays with you",
+          "meaning": "持续留在心中；成为长久伴随的记忆",
+          "context": "此处回忆价值随人，不是地点实际跟随。",
+          "example": "The experience stays with you long after the journey ends.",
+          "collocations": [
+            "it stays with you",
+            "for the rest of your life"
+          ]
+        }
+      ],
+      "evidenceQuote": "Under the title, he wrote, “If you are lucky enough to have lived in Paris as a young man, then wherever you go for the rest of your life, it stays with you, for Paris is a moveable feast.” Hemingway had so many extraordinary life experiences, ranging from World War I to World War II to the Spanish Civil War. His journalistic habits of recordkeeping helped him remember and cherish those unique experiences for years to come. As a result, Hemingway collected many moveable feasts."
+    },
+    {
+      "order": 23,
+      "prompt": "What does the range of war-related experiences illustrate in the account?",
+      "promptZh": "所列战争相关经历的范围在叙述中说明什么？",
+      "options": [
+        "That each experience was pleasant and free of danger.",
+        "That the list is a controlled experiment proving every war improves everyone's memory.",
+        "That the passage gives a complete dated chronology of every day of his life.",
+        "The breadth of extraordinary experiences the book attributes to Hemingway."
+      ],
+      "optionsZh": [
+        "每种经历都愉快无危险。",
+        "清单是控制实验，证明每次战争都改善每人记忆。",
+        "片段给了他人生每天的完整有日期年表。",
+        "本书归于Hemingway的非凡经历的广度。"
+      ],
+      "answer": 3,
+      "type": "作者意图",
+      "support": "explicit",
+      "analyses": [
+        "A extraordinary不等于pleasant，战争经历未被写成无危险。",
+        "B 个人人生叙述不是普遍因果实验，更不是赞成战争。",
+        "C ranging from列举范围，不能当作完整按日期排列的逐日履历。",
+        "D WorldWarI、WorldWarII、SpanishCivilWar为经历例示，后句转到记录习惯如何保存其价值。"
+      ],
+      "vocabulary": [
+        {
+          "word": "ranging from",
+          "meaning": "范围从……延伸至……；用例子展示广度",
+          "context": "不必表示后面列表已按时间顺序排列，更不宣称列举穷尽。",
+          "example": "The collection included experiences ranging from travel to periods of conflict.",
+          "collocations": [
+            "ranging from World War I to World War II",
+            "so many extraordinary life experiences"
+          ]
+        }
+      ],
+      "evidenceQuote": "Under the title, he wrote, “If you are lucky enough to have lived in Paris as a young man, then wherever you go for the rest of your life, it stays with you, for Paris is a moveable feast.” Hemingway had so many extraordinary life experiences, ranging from World War I to World War II to the Spanish Civil War. His journalistic habits of recordkeeping helped him remember and cherish those unique experiences for years to come. As a result, Hemingway collected many moveable feasts."
+    },
+    {
+      "order": 24,
+      "prompt": "What is accumulated in the concluding 'moveable feasts' metaphor?",
+      "promptZh": "结尾moveable feasts比喻积累了什么？",
+      "options": [
+        "Only a counted collection of restaurant meals and receipts.",
+        "Memories of valuable experiences kept available through recordkeeping.",
+        "Only money paid by the Ritz manager.",
+        "Proof that difficult past events had never occurred."
+      ],
+      "optionsZh": [
+        "只是一组餐食和收据。",
+        "经由记录而能长久回想、珍惜的有价值经历。",
+        "只有Ritz经理支付的钱。",
+        "证明过去困难事件从未发生。"
+      ],
+      "answer": 1,
+      "type": "有限推断",
+      "support": "limited-inference",
+      "analyses": [
+        "A 结合journals、remember、cherish，feasts不只是餐饮数量。",
+        "B 前句说记录习惯帮助多年记住珍惜经历，As a result将其概括为可携带的精神盛宴。",
+        "C 段内没有经理付款，更非结论所指。",
+        "D 记录保留而非取消经历，也不保证回忆每个细节绝无误差；这是意象的语境理解。"
+      ],
+      "vocabulary": [
+        {
+          "word": "As a result",
+          "meaning": "因此；作为前述情况的结果",
+          "context": "在这里承接记录帮助留存经历的叙述，不是凭此连接词独自证明随机实验因果。",
+          "example": "The journals preserved the details; as a result, he could revisit the experience.",
+          "collocations": [
+            "As a result, Hemingway collected",
+            "many moveable feasts"
+          ]
+        }
+      ],
+      "evidenceQuote": "Under the title, he wrote, “If you are lucky enough to have lived in Paris as a young man, then wherever you go for the rest of your life, it stays with you, for Paris is a moveable feast.” Hemingway had so many extraordinary life experiences, ranging from World War I to World War II to the Spanish Civil War. His journalistic habits of recordkeeping helped him remember and cherish those unique experiences for years to come. As a result, Hemingway collected many moveable feasts."
+    },
+    {
+      "order": 25,
+      "prompt": "How does 'but' connect the author's admission with his claim about journals?",
+      "promptZh": "but怎样连接作者的自我承认与对日记的主张？",
+      "options": [
+        "He admits not doing it himself while still describing journals as foundations for future richness.",
+        "He says his own laziness proves journals can never help anyone.",
+        "He claims every reader already keeps exactly the same journal as he does.",
+        "He says diaries matter only as printed objects, regardless of any recorded experience."
+      ],
+      "optionsZh": [
+        "他承认自己没坚持这样做，但仍把日记视为未来丰富性的基础。",
+        "他说自己懒就证明日记绝帮不了任何人。",
+        "他声称每位读者已写与自己完全相同日记。",
+        "他说日记只作为印刷物重要，与经历记录无关。"
+      ],
+      "answer": 0,
+      "type": "逻辑关系",
+      "support": "explicit",
+      "analyses": [
+        "A I was too lazy...but building blocks保留自我承认与正面作用的对照。",
+        "B but之后仍肯定，不是以自身习惯否定全部价值。",
+        "C 没有宣称人人和作者写法相同；前半反而承认他自己没做。",
+        "D future psychological richness在上下文指累积、整理经历，不只物品本身；building blocks也不是每个结果已保证实现。"
+      ],
+      "vocabulary": [
+        {
+          "word": "building blocks",
+          "meaning": "基础材料；构成未来发展的基本要素（比喻）",
+          "context": "这里指日记保存的经历材料，不是房屋砌块或自动保证所有创伤恢复。",
+          "example": "The notes became building blocks for a later account of the journey.",
+          "collocations": [
+            "building blocks of your future psychological richness",
+            "diaries and journals"
+          ]
+        }
+      ],
+      "evidenceQuote": "I was too lazy to do this myself, but diaries and journals are building blocks of your future psychological richness."
+    }
+  ]
+}
