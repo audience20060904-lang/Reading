@@ -1,0 +1,91 @@
+{
+  "schemaVersion": 1,
+  "id": "evidence-024",
+  "status": "published-and-verified",
+  "date": "2026-10-26",
+  "verifiedAt": "2026-10-26T00:23:04.867880+00:00",
+  "url": "https://audience20060904-lang.github.io/Reading/",
+  "repositoryVisibility": "public",
+  "sourceCommit": "bc74071f566fcd31da53160b1906dd100213f4ef",
+  "deploymentCommit": "5cffca3a053862762316915cedcaefaaa06c2e7c",
+  "workflowRun": "https://github.com/audience20060904-lang/Reading/actions/runs/40248905511",
+  "workflowStatus": "completed",
+  "workflowConclusion": "success",
+  "offlineVersion": "2077969b4bcbb86a",
+  "questionFingerprints": {
+    "qe-c07-0008": "bd25bf3e1d25b84940d37cdd348602ec658171dfca50cd9a4db87f4ec64ce05c",
+    "qe-c07-0009": "a33f2d9ebe2386efa9bee8b859865707d0f4b4cb958f2c859fcbe8a93d80627f",
+    "qe-c07-0010": "dbf5761bdc870e3b0d734942871148a3f868a74b6996b529f0007f2664c4bcbe",
+    "qe-c07-0011": "b63983bb452f6cebdd7b10ac66987de97d849c3a6de6c3bfc90a61028bee929f",
+    "qe-c07-0012": "2cd475bdf96624c2e684086239ee26034e78c772bc814dc564d6171699f97f8e",
+    "qe-c07-0013": "a191fa708371fce232ed2f7bda7bb4c24f6553f2d3d106d40ea0b5efb427cb8d",
+    "qe-c07-0014": "9a6a1bcbd36d19e20d3cc6ac5d63855bcec6a644ec8c59fec02246797203fa3a",
+    "qe-c07-0015": "0e6097c6dc8e332057cb092e81282a1dba02312b7b22159fc4611229e05f22d7",
+    "qe-c07-0016": "25c71cc11aa74a96ceb0d736133cf70efa1e24793b76ca9b245f41b91b85380f",
+    "qe-c07-0017": "41854c3c6b71d475d20e0462c5b9e6ead3f57b8a5e378eb764962fc3e88f6497",
+    "qe-c07-0018": "c68f412824b431c35dde4dcf86d0cf640faeb8ac6378b2710e503059a5cf6a59",
+    "qe-c07-0019": "e8dd9712e622e3caa3ad80ecdb40d1d18ea1421dac3446b43d1c54c7b188df1f",
+    "qe-c07-0020": "709ccfeab8b9e0d824a5aac2f88069dd748e57da587ec80b38081bc266ac98a7",
+    "qe-c07-0021": "26e00a545ca46ddfa2543ed567e43c00b638333e0c6648906f5ba1a280c07a35",
+    "qe-c07-0022": "922db7ac42ab9a0a40fd5aaeb5e5dddc08953310675f17d7b5aca13dad154a9a",
+    "qe-c07-0023": "c61a444c1de094a4716009ac02cd31a12dfe2dd4c7a78e7711edfd8de0e6a55a",
+    "qe-c07-0024": "54fe79fd08b68a1ad9bcc0d173504e10a5edb75ab18986cd3a9444c1125d1fde",
+    "qe-c07-0025": "21e80949d63e75fdd4dda33672eae40e1bc09b031603bb52ec4537616a869dfb",
+    "qe-c07-0026": "e91ab508fedd296e1cbc528e0b9e6d73356ebcdbc644e2236942d7971a9a6a36",
+    "qe-c07-0027": "0b585bbd52f00c7d84adb34d928d70276b67b0fe97f2ebe285c8c63be926cd1a",
+    "qe-c07-0028": "2ad53a427239bf378b33a61e28c52a38258eae18694b6c439fcb5cc5d2159bd8",
+    "qe-c07-0029": "37e73c7f38ee72e148a8db259d4bbe370b3a358c8ba657e067e9d2bb0d2c8ad7",
+    "qe-c07-0030": "d31605f61670fb3e5f288e12d5d005f6b43dacb748c32913f9600202905c37f3",
+    "qe-c07-0031": "72fb3bd28729c27143ff02261d17439ea95ee1396589326722ba12e3cd2c2146",
+    "qe-c07-0032": "ab6cab2e9d028bde08afc490e970f7045654c5993e28ba6f5af7fe5d47a99d8d"
+  },
+  "content": {
+    "newQuestions": 25,
+    "initialGoalGaps": 1661,
+    "beforeRemaining": 1086,
+    "afterRemaining": 1061,
+    "currentDirectEvidence": 2099,
+    "currentQuestions": 1656,
+    "primaryQuestionsRetained": 1056,
+    "readingUnitsRetained": 1056,
+    "candidateSentenceIds": 3160,
+    "fullCoverage": false,
+    "goalComplete": false,
+    "reviewedPdfPages": [
+      68,
+      69,
+      70
+    ],
+    "targetRecord": "source/evidence-questions/batch024-targets.json",
+    "authorRecord": "source/evidence-questions/batch024-author.json",
+    "reviewRecord": "source/evidence-questions/batch024-review.json"
+  },
+  "validation": {
+    "unitTests": 318,
+    "productionBuild": "passed",
+    "localBatchChecks": 7,
+    "liveBatchChecks": 7,
+    "allNewQuestionsActuallySubmitted": 25,
+    "liveAssets": "All manifest assets and Service Worker byte-identical to final tested build",
+    "history": "Isolated synthetic old submission remains unchanged while each new question adds its own fingerprinted record",
+    "offline": "Browser simulation and actual local HTTP server shutdown separately verified",
+    "viewports": [
+      320,
+      390,
+      1440
+    ],
+    "foundationRegressionReceipt": "source/releases/evidence-007.json"
+  },
+  "changes": [
+    "本批逐题编写的英文四选项、问题与选项中文译文、四项中文分析、精确原文证据、语境词汇和完整段落译文均已静态保存。",
+    "补题归入原有短段，不新增重复阅读段落；主问题优先、补题按原句顺序，提交后由学习者手动下一题，最后一题后才进入下一段。",
+    "原文仅有一个显示实例，提交后仍在第三部分中文译文上方；提交前复制讨论不含答案。",
+    "保留1056道主问题和1056个源阅读单元，旧题与真实历史不被篡改；补题位置、解析与双语快照可在本地恢复和备份。"
+  ],
+  "limits": [
+    "这是持续全书证据补题任务中的一个已发布批次，不代表全部1661个缺口已完成。",
+    "候选句ID沿用原提取分段；逐字来源匹配及直接证据题不等于全书人工句界已经最终定稿。",
+    "未读取实际用户浏览器资料、真实学习备份或凭据；所有测试记录为隔离合成数据。",
+    "手机测试为Edge视口，不是实体手机测试；不创建付费或云端学习资源。"
+  ]
+}
