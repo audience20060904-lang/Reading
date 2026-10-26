@@ -116565,5 +116565,2078 @@
     ],
     "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
     "fingerprint": "a68fd2134c137ca8b6e9ad9df44eb6be5f89e134e5bf598325cd945c79e427a7"
+  },
+  {
+    "id": "qe-c13-0047",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-058",
+    "parentQuestionId": "q-c13-033",
+    "chapterId": "c13",
+    "sectionId": "c13-s02",
+    "paragraphId": "c13-s02-p149-02115",
+    "readingUnitId": "c13-s02-p149-02115-r001-004",
+    "sentenceIds": [
+      "c13-s02-p149-02115-s001",
+      "c13-s02-p149-02115-s002",
+      "c13-s02-p149-02115-s003",
+      "c13-s02-p149-02115-s004"
+    ],
+    "passage": "This is a prime example of a psychologically rich experience. But who wants to spend all night doing it? I am all for psychological richness, but even I would still hesitate to sign up for this concert. There are good reasons why a typical concert lasts only a few hours.",
+    "prompt": "What judgement does the author make before raising the practical objection?",
+    "promptZh": "提出现实顾虑之前，作者先作了什么判断？",
+    "options": [
+      "The experience cannot be psychologically rich under any circumstances.",
+      "The experience is a prime example of psychological richness.",
+      "Every reader must attend the concert for a good life.",
+      "The event has been proved to make every person equally happy."
+    ],
+    "optionsZh": [
+      "该体验在任何情况下都不可能心理丰富。",
+      "该体验是心理丰富的典型例子。",
+      "每个读者都必须参加才算好人生。",
+      "已证明活动让每人同样快乐。"
+    ],
+    "answer": 1,
+    "type": "作者观点",
+    "support": "explicit",
+    "analyses": [
+      "A prime example是肯定其丰富性，非全盘否认。",
+      "B 第一明确句先肯定例证，随后But才加入愿不愿整夜承受的顾虑。",
+      "C 作者自己还会hesitate，不能读成对人人的强制要求。",
+      "D psychologically rich不等于人人同样happy，亦无全员实验。"
+    ],
+    "vocabulary": [
+      {
+        "word": "prime",
+        "meaning": "典型而突出的；很好的例证所用形容词",
+        "context": "这里不是首相、质数或商品最高价。",
+        "example": "The author calls the event a prime example while acknowledging its demands.",
+        "collocations": [
+          "a prime example of",
+          "a psychologically rich experience"
+        ]
+      }
+    ],
+    "translation": "这是心理丰富经历的绝佳例子。但谁愿意为此熬一整夜？我完全赞成心理丰富，可连我也仍会犹豫是否报名参加这场音乐会。一般音乐会只持续几个小时，是有充分理由的。",
+    "evidenceTargetIds": [
+      "c13-s02-p149-02115-s001"
+    ],
+    "evidence": [
+      {
+        "quote": "This is a prime example of a psychologically rich experience. But who wants to spend all night doing it? I am all for psychological richness, but even I would still hesitate to sign up for this concert. There are good reasons why a typical concert lasts only a few hours.",
+        "sentenceIds": [
+          "c13-s02-p149-02115-s001",
+          "c13-s02-p149-02115-s002",
+          "c13-s02-p149-02115-s003",
+          "c13-s02-p149-02115-s004"
+        ],
+        "sources": [
+          {
+            "pdfPage": 149,
+            "block": 1,
+            "bbox": [
+              76.99,
+              211.5,
+              535.01,
+              323.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "75b1f448ef340434b491a14407725c44bb2a7a217f565b8c3ac66aa6a2e02ea2"
+  },
+  {
+    "id": "qe-c13-0048",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-058",
+    "parentQuestionId": "q-c13-033",
+    "chapterId": "c13",
+    "sectionId": "c13-s02",
+    "paragraphId": "c13-s02-p149-02115",
+    "readingUnitId": "c13-s02-p149-02115-r001-004",
+    "sentenceIds": [
+      "c13-s02-p149-02115-s001",
+      "c13-s02-p149-02115-s002",
+      "c13-s02-p149-02115-s003",
+      "c13-s02-p149-02115-s004"
+    ],
+    "passage": "This is a prime example of a psychologically rich experience. But who wants to spend all night doing it? I am all for psychological richness, but even I would still hesitate to sign up for this concert. There are good reasons why a typical concert lasts only a few hours.",
+    "prompt": "What tension does the question about spending all night introduce?",
+    "promptZh": "关于熬整夜的问句引入什么张力？",
+    "options": [
+      "An experience can be rich yet still be demanding enough to make someone hesitate.",
+      "Richness necessarily removes all physical discomfort.",
+      "The author says the event contains no unusual experience.",
+      "The question proves every audience member slept comfortably throughout."
+    ],
+    "optionsZh": [
+      "体验可很丰富，同时仍可能因付出太大让人犹豫。",
+      "丰富性必然消除一切身体不适。",
+      "作者说活动完全没有不寻常体验。",
+      "问句证明每个观众全程舒服入睡。"
+    ],
+    "answer": 0,
+    "type": "逻辑关系",
+    "support": "explicit",
+    "analyses": [
+      "A But...all night与下句even I hesitate把价值与负担并置。",
+      "B 顾虑恰在持续整夜，不是全无不适。",
+      "C 前句prime example已肯定丰富。",
+      "D Who wants是反问，不是睡眠记录，更没有人人全程舒睡。"
+    ],
+    "vocabulary": [
+      {
+        "word": "hesitate",
+        "meaning": "犹豫；在是否采取行动上拿不定主意",
+        "context": "在此连支持丰富性的作者也未必愿报名，区别认同价值与个人选择。",
+        "example": "Even a supporter of unusual experiences might hesitate to sign up.",
+        "collocations": [
+          "hesitate to sign up for this concert",
+          "spend all night doing it"
+        ]
+      }
+    ],
+    "translation": "这是心理丰富经历的绝佳例子。但谁愿意为此熬一整夜？我完全赞成心理丰富，可连我也仍会犹豫是否报名参加这场音乐会。一般音乐会只持续几个小时，是有充分理由的。",
+    "evidenceTargetIds": [
+      "c13-s02-p149-02115-s002"
+    ],
+    "evidence": [
+      {
+        "quote": "This is a prime example of a psychologically rich experience. But who wants to spend all night doing it? I am all for psychological richness, but even I would still hesitate to sign up for this concert. There are good reasons why a typical concert lasts only a few hours.",
+        "sentenceIds": [
+          "c13-s02-p149-02115-s001",
+          "c13-s02-p149-02115-s002",
+          "c13-s02-p149-02115-s003",
+          "c13-s02-p149-02115-s004"
+        ],
+        "sources": [
+          {
+            "pdfPage": 149,
+            "block": 1,
+            "bbox": [
+              76.99,
+              211.5,
+              535.01,
+              323.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "b691bc1acbbae1e67798700a727d476fb7e77ac0331da9b0d47d54b2268b4b8a"
+  },
+  {
+    "id": "qe-c13-0049",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-058",
+    "parentQuestionId": "q-c13-033",
+    "chapterId": "c13",
+    "sectionId": "c13-s02",
+    "paragraphId": "c13-s02-p149-02115",
+    "readingUnitId": "c13-s02-p149-02115-r001-004",
+    "sentenceIds": [
+      "c13-s02-p149-02115-s001",
+      "c13-s02-p149-02115-s002",
+      "c13-s02-p149-02115-s003",
+      "c13-s02-p149-02115-s004"
+    ],
+    "passage": "This is a prime example of a psychologically rich experience. But who wants to spend all night doing it? I am all for psychological richness, but even I would still hesitate to sign up for this concert. There are good reasons why a typical concert lasts only a few hours.",
+    "prompt": "What does the reference to a typical concert lasting a few hours accomplish?",
+    "promptZh": "提到一般音乐会只几小时，起什么作用？",
+    "options": [
+      "It establishes an exact three-hour duration for every concert.",
+      "It gives a current ticket-price recommendation.",
+      "It states that longer concerts can never be enriching for anyone.",
+      "It contrasts the usual manageable duration with the demands of an all-night event."
+    ],
+    "optionsZh": [
+      "确立每场音乐会都恰三小时。",
+      "给出当前购票价格建议。",
+      "说长演出绝不可能让任何人丰富。",
+      "把一般较有限时长与整夜活动的付出形成对照。"
+    ],
+    "answer": 3,
+    "type": "作者意图",
+    "support": "explicit",
+    "analyses": [
+      "A a few不是exactly three，typical也不能扩大为every。",
+      "B 讨论时长与理由，不是当前票价。",
+      "C 作者刚称prime example，不能扩大成任何人都不丰富。",
+      "D good reasons承接all-night顾虑，typical给通常尺度而非绝对禁令。"
+    ],
+    "vocabulary": [
+      {
+        "word": "typical",
+        "meaning": "通常的；一般情形下常见的",
+        "context": "不表示所有演出都必须同一长度或没有例外。",
+        "example": "A typical concert lasts a few hours in the author's comparison.",
+        "collocations": [
+          "a typical concert lasts only a few hours",
+          "There are good reasons why"
+        ]
+      }
+    ],
+    "translation": "这是心理丰富经历的绝佳例子。但谁愿意为此熬一整夜？我完全赞成心理丰富，可连我也仍会犹豫是否报名参加这场音乐会。一般音乐会只持续几个小时，是有充分理由的。",
+    "evidenceTargetIds": [
+      "c13-s02-p149-02115-s004"
+    ],
+    "evidence": [
+      {
+        "quote": "This is a prime example of a psychologically rich experience. But who wants to spend all night doing it? I am all for psychological richness, but even I would still hesitate to sign up for this concert. There are good reasons why a typical concert lasts only a few hours.",
+        "sentenceIds": [
+          "c13-s02-p149-02115-s001",
+          "c13-s02-p149-02115-s002",
+          "c13-s02-p149-02115-s003",
+          "c13-s02-p149-02115-s004"
+        ],
+        "sources": [
+          {
+            "pdfPage": 149,
+            "block": 1,
+            "bbox": [
+              76.99,
+              211.5,
+              535.01,
+              323.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "d528802dd6a9f439c26325266f79855bdde9bd5a11791d90d3170b5d12778e32"
+  },
+  {
+    "id": "qe-c13-0050",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-058",
+    "parentQuestionId": "q-c13-034",
+    "chapterId": "c13",
+    "sectionId": "c13-s02",
+    "paragraphId": "c13-s02-p149-02115",
+    "readingUnitId": "c13-s02-p149-02115-r005-006",
+    "sentenceIds": [
+      "c13-s02-p149-02115-s005",
+      "c13-s02-p149-02115-s006"
+    ],
+    "passage": "Again, for people like Wesley Morris and Alex Needham, this was a supersized rich experience. For others, however, this might be too much, even dangerous to their health.",
+    "prompt": "How is the positive judgement about the supersized experience limited?",
+    "promptZh": "对超大号丰富体验的正面判断有什么限定？",
+    "options": [
+      "It is extended to every person with a guarantee of no health risk.",
+      "It says neither Morris nor Needham found anything valuable.",
+      "It applies to people like the two critics, while others might find it excessive.",
+      "It establishes one identical tolerance level for every person."
+    ],
+    "optionsZh": [
+      "推广到每人，并保证没有健康风险。",
+      "说Morris、Needham都毫无收获。",
+      "适用于两位评论者这类人，而其他人可能觉得过量。",
+      "确立每人完全一样的承受上限。"
+    ],
+    "answer": 2,
+    "type": "证据范围",
+    "support": "explicit",
+    "analyses": [
+      "A For others...might too much甚至health明确不作全员无风险保证。",
+      "B for people like...supersized rich为肯定，非否定。",
+      "C for people like与For others however形成个体差异范围。",
+      "D contrast正说明差异，并非测出统一阈值；这里辨原书措辞，不由艺术评论导出医疗结论。"
+    ],
+    "vocabulary": [
+      {
+        "word": "supersized",
+        "meaning": "超大号的；程度或规模超常的",
+        "context": "这里修饰丰富体验，不自动等于对每个人都更好或更安全。",
+        "example": "For that reviewer, the event was a supersized rich experience.",
+        "collocations": [
+          "a supersized rich experience",
+          "for people like Wesley Morris and Alex Needham"
+        ]
+      }
+    ],
+    "translation": "再次说，对Wesley Morris和Alex Needham这样的人，这是一份超大号的丰富体验。但对其他人，它可能过量，甚至危及健康。",
+    "evidenceTargetIds": [
+      "c13-s02-p149-02115-s005"
+    ],
+    "evidence": [
+      {
+        "quote": "Again, for people like Wesley Morris and Alex Needham, this was a supersized rich experience. For others, however, this might be too much, even dangerous to their health.",
+        "sentenceIds": [
+          "c13-s02-p149-02115-s005",
+          "c13-s02-p149-02115-s006"
+        ],
+        "sources": [
+          {
+            "pdfPage": 149,
+            "block": 1,
+            "bbox": [
+              76.99,
+              211.5,
+              535.01,
+              323.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "5f1563be4446cc248ef45d95cf6e0a5f652b150b02480d6efce790eff0b873c4"
+  },
+  {
+    "id": "qe-c13-0051",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-058",
+    "parentQuestionId": "q-c13-035",
+    "chapterId": "c13",
+    "sectionId": "c13-s02",
+    "paragraphId": "c13-s02-p149-03285",
+    "readingUnitId": "c13-s02-p149-03285-r001-004",
+    "sentenceIds": [
+      "c13-s02-p149-03285-s001",
+      "c13-s02-p149-03285-s002",
+      "c13-s02-p149-03285-s003",
+      "c13-s02-p149-03285-s004"
+    ],
+    "passage": "In the end, though, we can’t know what is too much for us until we try. We have an instinct to run away from risks, which helps us survive. But too much running away makes us too timid to truly live. We need to push ourselves beyond our comfort zones every once in a while.",
+    "prompt": "What limit to prior certainty does the author state about personal excess?",
+    "promptZh": "关于个人过量，作者指出事先确定性的什么限制？",
+    "options": [
+      "Without trying, one cannot know exactly what would be too much for oneself, in the author's argument.",
+      "Every possible risk has already been measured for every person.",
+      "The sentence guarantees that any activity is safe as long as it is new.",
+      "It says trying one event proves the same threshold for all other people."
+    ],
+    "optionsZh": [
+      "按作者论述，不尝试就难确知什么对自己过量。",
+      "每人的所有可能风险都已测好。",
+      "保证只要新奇，任何活动都安全。",
+      "说一人试一次就证明其他所有人的同一阈值。"
+    ],
+    "answer": 0,
+    "type": "作者观点",
+    "support": "explicit",
+    "analyses": [
+      "A can’t know...until we try给认知限制，for us保留个人适用。",
+      "B 与can’t know相反。",
+      "C 句子不保证安全，段落还承认避险本能helps survive。",
+      "D 自身体验不自动确定别人的界限，亦不取消情境差异。"
+    ],
+    "vocabulary": [
+      {
+        "word": "until we try",
+        "meaning": "在尝试之前尚未；要到试过才……",
+        "context": "限定此处认识个人边界的主张，不表示不论风险都必须一试。",
+        "example": "The author argues that some limits remain uncertain until we try.",
+        "collocations": [
+          "what is too much for us",
+          "until we try"
+        ]
+      }
+    ],
+    "translation": "不过，归根结底，不尝试就难知道什么对自己过量。我们有逃离风险的本能，它帮助我们生存。但逃避过度，会让我们胆怯得无法真正生活。我们需要偶尔推动自己走出舒适区。",
+    "evidenceTargetIds": [
+      "c13-s02-p149-03285-s001"
+    ],
+    "evidence": [
+      {
+        "quote": "In the end, though, we can’t know what is too much for us until we try. We have an instinct to run away from risks, which helps us survive. But too much running away makes us too timid to truly live. We need to push ourselves beyond our comfort zones every once in a while.",
+        "sentenceIds": [
+          "c13-s02-p149-03285-s001",
+          "c13-s02-p149-03285-s002",
+          "c13-s02-p149-03285-s003",
+          "c13-s02-p149-03285-s004"
+        ],
+        "sources": [
+          {
+            "pdfPage": 149,
+            "block": 2,
+            "bbox": [
+              76.99,
+              328.5,
+              535.01,
+              479.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "35495804eebb95cc269c6cdcbe4d093222dfc5261db16735bdcf30a12f905a19"
+  },
+  {
+    "id": "qe-c13-0052",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-058",
+    "parentQuestionId": "q-c13-035",
+    "chapterId": "c13",
+    "sectionId": "c13-s02",
+    "paragraphId": "c13-s02-p149-03285",
+    "readingUnitId": "c13-s02-p149-03285-r001-004",
+    "sentenceIds": [
+      "c13-s02-p149-03285-s001",
+      "c13-s02-p149-03285-s002",
+      "c13-s02-p149-03285-s003",
+      "c13-s02-p149-03285-s004"
+    ],
+    "passage": "In the end, though, we can’t know what is too much for us until we try. We have an instinct to run away from risks, which helps us survive. But too much running away makes us too timid to truly live. We need to push ourselves beyond our comfort zones every once in a while.",
+    "prompt": "How does the 'too much running away' sentence qualify the value of risk avoidance?",
+    "promptZh": "too much running away的句子怎样限定避险的价值？",
+    "options": [
+      "It denies that avoiding any risk can ever help survival.",
+      "It demands choosing every danger without exception.",
+      "It claims the protective instinct has already disappeared in all humans.",
+      "It criticises excessive avoidance while the previous sentence acknowledges a survival benefit."
+    ],
+    "optionsZh": [
+      "否认任何避险能帮助生存。",
+      "要求无例外选择所有危险。",
+      "说人类保护本能已全消失。",
+      "批评过度逃避，同时前句承认其生存益处。"
+    ],
+    "answer": 3,
+    "type": "逻辑关系",
+    "support": "explicit",
+    "analyses": [
+      "A 前句which helps survive承认作用。",
+      "B too much修饰逃避程度，不等于每项危险都必须接受。",
+      "C We have an instinct明确有本能，非已不存在。",
+      "D But把适应益处与过度时timid的代价作转折，保留程度限定。"
+    ],
+    "vocabulary": [
+      {
+        "word": "timid",
+        "meaning": "胆怯的；不敢行动的",
+        "context": "作者在这里描述过度退避的代价，不是给个人作临床标签。",
+        "example": "Excessive avoidance can make a person too timid to explore.",
+        "collocations": [
+          "too timid to truly live",
+          "too much running away"
+        ]
+      }
+    ],
+    "translation": "不过，归根结底，不尝试就难知道什么对自己过量。我们有逃离风险的本能，它帮助我们生存。但逃避过度，会让我们胆怯得无法真正生活。我们需要偶尔推动自己走出舒适区。",
+    "evidenceTargetIds": [
+      "c13-s02-p149-03285-s003"
+    ],
+    "evidence": [
+      {
+        "quote": "In the end, though, we can’t know what is too much for us until we try. We have an instinct to run away from risks, which helps us survive. But too much running away makes us too timid to truly live. We need to push ourselves beyond our comfort zones every once in a while.",
+        "sentenceIds": [
+          "c13-s02-p149-03285-s001",
+          "c13-s02-p149-03285-s002",
+          "c13-s02-p149-03285-s003",
+          "c13-s02-p149-03285-s004"
+        ],
+        "sources": [
+          {
+            "pdfPage": 149,
+            "block": 2,
+            "bbox": [
+              76.99,
+              328.5,
+              535.01,
+              479.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "936a400e8c88e5b41900b602375ebd7ea217859e09dc28ad6aa192f04b438b46"
+  },
+  {
+    "id": "qe-c13-0053",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-058",
+    "parentQuestionId": "q-c13-037",
+    "chapterId": "c13",
+    "sectionId": "c13-s03",
+    "paragraphId": "c13-s03-p149-05355",
+    "readingUnitId": "c13-s03-p149-05355-r001-004",
+    "sentenceIds": [
+      "c13-s03-p149-05355-s001",
+      "c13-s03-p149-05355-s002",
+      "c13-s03-p149-05355-s003",
+      "c13-s03-p149-05355-s004"
+    ],
+    "passage": "The remaining question is whether we can find richness in the familiar, not just in the unfamiliar. Søren Kierkegaard’s 1843 Either/Or is all about the conflicts between stability and instability, boredom and excitement, long term and short term, rationality and passion, planning and spontaneity. As summarized earlier, this book juxtaposes Author A (presumably a young man) with Author B (presumably the retired judge). “A” promotes an aesthetic life, or a life of beauty and adventure, whereas “B” promotes a life of commitment.",
+    "prompt": "What possibility does the remaining question reopen?",
+    "promptZh": "剩下的问题重新探讨什么可能？",
+    "options": [
+      "Only unfamiliar people can ever be connected with richness.",
+      "Richness might also be found in familiar things, rather than only unfamiliar ones.",
+      "Every familiar experience is guaranteed to be richer than every new one.",
+      "The author has abandoned all interest in psychological richness."
+    ],
+    "optionsZh": [
+      "只有陌生人才可能与丰富有关。",
+      "也许熟悉事物中也有丰富，不只限陌生事物。",
+      "每个熟悉体验都保证胜过每个新体验。",
+      "作者已放弃一切心理丰富议题。"
+    ],
+    "answer": 1,
+    "type": "主旨",
+    "support": "explicit",
+    "analyses": [
+      "A not just in unfamiliar明确拓展而非排他。",
+      "B whether...familiar提出此节主题，保留待讨论的可能。",
+      "C 扩展来源不是普遍优劣排序。",
+      "D remaining question仍在同一核心议题，不是弃题。"
+    ],
+    "vocabulary": [
+      {
+        "word": "familiar",
+        "meaning": "熟悉的；已经了解或长期接触的",
+        "context": "在此与unfamiliar相对，不等于永远没有可发现的新方面。",
+        "example": "A familiar place may still contain something new to discover.",
+        "collocations": [
+          "find richness in the familiar",
+          "not just in the unfamiliar"
+        ]
+      }
+    ],
+    "translation": "剩下的问题是，能否不只从陌生，也从熟悉中找到丰富。Søren Kierkegaard于1843年写的《Either/Or》，讨论稳定与不稳定、无聊与刺激、长期与短期、理性与激情、计划与自发的冲突。如前所述，它把作者A（推测是一名青年）与作者B（推测是那位退休法官）并置。“A”倡导审美的人生，亦即美与冒险的人生；“B”倡导承诺的人生。",
+    "evidenceTargetIds": [
+      "c13-s03-p149-05355-s001"
+    ],
+    "evidence": [
+      {
+        "quote": "The remaining question is whether we can find richness in the familiar, not just in the unfamiliar. Søren Kierkegaard’s 1843 Either/Or is all about the conflicts between stability and instability, boredom and excitement, long term and short term, rationality and passion, planning and spontaneity. As summarized earlier, this book juxtaposes Author A (presumably a young man) with Author B (presumably the retired judge). “A” promotes an aesthetic life, or a life of beauty and adventure, whereas “B” promotes a life of commitment.",
+        "sentenceIds": [
+          "c13-s03-p149-05355-s001",
+          "c13-s03-p149-05355-s002",
+          "c13-s03-p149-05355-s003",
+          "c13-s03-p149-05355-s004"
+        ],
+        "sources": [
+          {
+            "pdfPage": 149,
+            "block": 4,
+            "bbox": [
+              76.99,
+              535.5,
+              535.01,
+              706.02
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "7775bb4f9f49724b021ed84b27450edc416187650ba383da02fb18af83f8dca6"
+  },
+  {
+    "id": "qe-c13-0054",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-058",
+    "parentQuestionId": "q-c13-037",
+    "chapterId": "c13",
+    "sectionId": "c13-s03",
+    "paragraphId": "c13-s03-p149-05355",
+    "readingUnitId": "c13-s03-p149-05355-r001-004",
+    "sentenceIds": [
+      "c13-s03-p149-05355-s001",
+      "c13-s03-p149-05355-s002",
+      "c13-s03-p149-05355-s003",
+      "c13-s03-p149-05355-s004"
+    ],
+    "passage": "The remaining question is whether we can find richness in the familiar, not just in the unfamiliar. Søren Kierkegaard’s 1843 Either/Or is all about the conflicts between stability and instability, boredom and excitement, long term and short term, rationality and passion, planning and spontaneity. As summarized earlier, this book juxtaposes Author A (presumably a young man) with Author B (presumably the retired judge). “A” promotes an aesthetic life, or a life of beauty and adventure, whereas “B” promotes a life of commitment.",
+    "prompt": "Which pair appears as a matched opposition in the list describing Either/Or?",
+    "promptZh": "Either/Or的列表中，哪组被成对列为对照？",
+    "options": [
+      "Stability and passion.",
+      "Rationality and short term.",
+      "Planning and spontaneity.",
+      "Boredom and long term."
+    ],
+    "optionsZh": [
+      "稳定与激情。",
+      "理性与短期。",
+      "计划与自发性。",
+      "无聊与长期。"
+    ],
+    "answer": 2,
+    "type": "细节",
+    "support": "explicit",
+    "analyses": [
+      "A 列表中稳定对应不稳定，激情对应理性；两对被错配。",
+      "B 理性对应激情，短期对应长期，不是本组选项的配对。",
+      "C planning and spontaneity逐项作为同一组对照。",
+      "D 无聊对应刺激，长期对应短期；不能只见都在原文就忽略修饰与配对关系。"
+    ],
+    "vocabulary": [
+      {
+        "word": "conflicts",
+        "meaning": "冲突；不同价值或倾向之间的张力",
+        "context": "此处不必是战争或两个人实际斗殴，而是生活取向的矛盾。",
+        "example": "The discussion explores conflicts between planning and spontaneity.",
+        "collocations": [
+          "the conflicts between stability and instability",
+          "planning and spontaneity"
+        ]
+      }
+    ],
+    "translation": "剩下的问题是，能否不只从陌生，也从熟悉中找到丰富。Søren Kierkegaard于1843年写的《Either/Or》，讨论稳定与不稳定、无聊与刺激、长期与短期、理性与激情、计划与自发的冲突。如前所述，它把作者A（推测是一名青年）与作者B（推测是那位退休法官）并置。“A”倡导审美的人生，亦即美与冒险的人生；“B”倡导承诺的人生。",
+    "evidenceTargetIds": [
+      "c13-s03-p149-05355-s002"
+    ],
+    "evidence": [
+      {
+        "quote": "The remaining question is whether we can find richness in the familiar, not just in the unfamiliar. Søren Kierkegaard’s 1843 Either/Or is all about the conflicts between stability and instability, boredom and excitement, long term and short term, rationality and passion, planning and spontaneity. As summarized earlier, this book juxtaposes Author A (presumably a young man) with Author B (presumably the retired judge). “A” promotes an aesthetic life, or a life of beauty and adventure, whereas “B” promotes a life of commitment.",
+        "sentenceIds": [
+          "c13-s03-p149-05355-s001",
+          "c13-s03-p149-05355-s002",
+          "c13-s03-p149-05355-s003",
+          "c13-s03-p149-05355-s004"
+        ],
+        "sources": [
+          {
+            "pdfPage": 149,
+            "block": 4,
+            "bbox": [
+              76.99,
+              535.5,
+              535.01,
+              706.02
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "797b36630ac10c24a85a5dceffd07c7a8be00235795c12a05308b489964cd9e8"
+  },
+  {
+    "id": "qe-c13-0055",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-058",
+    "parentQuestionId": "q-c13-037",
+    "chapterId": "c13",
+    "sectionId": "c13-s03",
+    "paragraphId": "c13-s03-p149-05355",
+    "readingUnitId": "c13-s03-p149-05355-r001-004",
+    "sentenceIds": [
+      "c13-s03-p149-05355-s001",
+      "c13-s03-p149-05355-s002",
+      "c13-s03-p149-05355-s003",
+      "c13-s03-p149-05355-s004"
+    ],
+    "passage": "The remaining question is whether we can find richness in the familiar, not just in the unfamiliar. Søren Kierkegaard’s 1843 Either/Or is all about the conflicts between stability and instability, boredom and excitement, long term and short term, rationality and passion, planning and spontaneity. As summarized earlier, this book juxtaposes Author A (presumably a young man) with Author B (presumably the retired judge). “A” promotes an aesthetic life, or a life of beauty and adventure, whereas “B” promotes a life of commitment.",
+    "prompt": "How does the summary position Author A and Author B?",
+    "promptZh": "总结怎样呈现Author A与Author B？",
+    "options": [
+      "It places the presumed young man A alongside the presumed retired judge B for contrast.",
+      "It identifies both as the same confirmed narrator with no differences.",
+      "It says A is certainly the retired judge and B certainly a child.",
+      "It removes every qualification about who the figures might be."
+    ],
+    "optionsZh": [
+      "把推测为青年者A与推测为退休法官者B并置对照。",
+      "把两者认作同一已确认叙述者且无差别。",
+      "说A确定是退休法官、B确定是儿童。",
+      "删除人物可能是谁的全部保留。"
+    ],
+    "answer": 0,
+    "type": "细节",
+    "support": "explicit",
+    "analyses": [
+      "A juxtaposes...with与两处presumably及身份配对全部保留。",
+      "B juxtaposes并非把两角色视为同一人。",
+      "C 身份方向错，且presumably不是certainly。",
+      "D 原句保留推测措辞，不把它升级为已核实传记身份。"
+    ],
+    "vocabulary": [
+      {
+        "word": "juxtaposes",
+        "meaning": "并置；把两者放在一起以呈现对比或联系",
+        "context": "在此是书中两种声音对照，不表示作者A与B一定互相等同。",
+        "example": "The book juxtaposes two contrasting approaches to life.",
+        "collocations": [
+          "juxtaposes Author A",
+          "with Author B"
+        ]
+      }
+    ],
+    "translation": "剩下的问题是，能否不只从陌生，也从熟悉中找到丰富。Søren Kierkegaard于1843年写的《Either/Or》，讨论稳定与不稳定、无聊与刺激、长期与短期、理性与激情、计划与自发的冲突。如前所述，它把作者A（推测是一名青年）与作者B（推测是那位退休法官）并置。“A”倡导审美的人生，亦即美与冒险的人生；“B”倡导承诺的人生。",
+    "evidenceTargetIds": [
+      "c13-s03-p149-05355-s003"
+    ],
+    "evidence": [
+      {
+        "quote": "The remaining question is whether we can find richness in the familiar, not just in the unfamiliar. Søren Kierkegaard’s 1843 Either/Or is all about the conflicts between stability and instability, boredom and excitement, long term and short term, rationality and passion, planning and spontaneity. As summarized earlier, this book juxtaposes Author A (presumably a young man) with Author B (presumably the retired judge). “A” promotes an aesthetic life, or a life of beauty and adventure, whereas “B” promotes a life of commitment.",
+        "sentenceIds": [
+          "c13-s03-p149-05355-s001",
+          "c13-s03-p149-05355-s002",
+          "c13-s03-p149-05355-s003",
+          "c13-s03-p149-05355-s004"
+        ],
+        "sources": [
+          {
+            "pdfPage": 149,
+            "block": 4,
+            "bbox": [
+              76.99,
+              535.5,
+              535.01,
+              706.02
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "bc00d560f836968db3f2ac2726b06263cdd5a267d895f9b55c5cbe9c1e7c5c01"
+  },
+  {
+    "id": "qe-c13-0056",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-058",
+    "parentQuestionId": "q-c13-038",
+    "chapterId": "c13",
+    "sectionId": "c13-s03",
+    "paragraphId": "c13-s03-p149-05355",
+    "readingUnitId": "c13-s03-p149-05355-r005-008",
+    "sentenceIds": [
+      "c13-s03-p149-05355-s005",
+      "c13-s03-p149-05355-s006",
+      "c13-s03-p149-05355-s007",
+      "c13-s03-p149-05355-s008"
+    ],
+    "passage": "So far, I have argued for embracing A’s priorities: novelty, passion, spontaneity, going with the flow. Indeed, by trying new things in life, you constantly learn and grow. But is that the only path to a psychologically rich life? Is it also possible to gain psychological richness from B’s perspective, by digging deep into one person or object?",
+    "prompt": "Which priorities does the author say he has embraced so far?",
+    "promptZh": "作者说到目前为止接纳了哪组优先选择？",
+    "options": [
+      "Only long-term commitment and methodical email writing.",
+      "Only material wealth and ownership of expensive art.",
+      "A rule requiring the complete elimination of all passion.",
+      "Novelty, passion, spontaneity, and going with the flow."
+    ],
+    "optionsZh": [
+      "只有长期承诺和有条不紊回邮件。",
+      "只有物质财富与昂贵艺术品。",
+      "完全消除一切激情的规则。",
+      "新奇、激情、自发与顺势而行。"
+    ],
+    "answer": 3,
+    "type": "细节",
+    "support": "explicit",
+    "analyses": [
+      "A 与A’s priorities后列项不同，不能混同本章后面的熟悉与细致例子。",
+      "B 当前不是收入或画作定价。",
+      "C passion正被列为优先项，不是消除。",
+      "D 冒号后四项对应，So far限定此前论证，并不否定后面能补充其他道路。"
+    ],
+    "vocabulary": [
+      {
+        "word": "spontaneity",
+        "meaning": "自发性；不完全按预先计划行动的倾向",
+        "context": "与planning对照，但不等于每次行为都毫无责任或必然有益。",
+        "example": "Spontaneity was one of the priorities in the account.",
+        "collocations": [
+          "novelty, passion, spontaneity",
+          "going with the flow"
+        ]
+      }
+    ],
+    "translation": "到目前为止，我一直主张接纳A的优先选择：新奇、激情、自发、顺势而行。的确，不断尝试新事物，会让人持续学习成长。但那是通向心理丰富的唯一路径吗？能否也从B的视角出发，通过深入了解一个人或一件事物，获得心理丰富呢？",
+    "evidenceTargetIds": [
+      "c13-s03-p149-05355-s005"
+    ],
+    "evidence": [
+      {
+        "quote": "So far, I have argued for embracing A’s priorities: novelty, passion, spontaneity, going with the flow. Indeed, by trying new things in life, you constantly learn and grow. But is that the only path to a psychologically rich life? Is it also possible to gain psychological richness from B’s perspective, by digging deep into one person or object?",
+        "sentenceIds": [
+          "c13-s03-p149-05355-s005",
+          "c13-s03-p149-05355-s006",
+          "c13-s03-p149-05355-s007",
+          "c13-s03-p149-05355-s008"
+        ],
+        "sources": [
+          {
+            "pdfPage": 149,
+            "block": 4,
+            "bbox": [
+              76.99,
+              535.5,
+              535.01,
+              706.02
+            ]
+          },
+          {
+            "pdfPage": 150,
+            "block": 0,
+            "bbox": [
+              76.99,
+              75,
+              535.01,
+              128.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "9948cf7a246ce653f4df61defd24c24dd44ebb5ed42c73a63e680a864ba5a450"
+  },
+  {
+    "id": "qe-c13-0057",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-058",
+    "parentQuestionId": "q-c13-038",
+    "chapterId": "c13",
+    "sectionId": "c13-s03",
+    "paragraphId": "c13-s03-p149-05355",
+    "readingUnitId": "c13-s03-p149-05355-r005-008",
+    "sentenceIds": [
+      "c13-s03-p149-05355-s005",
+      "c13-s03-p149-05355-s006",
+      "c13-s03-p149-05355-s007",
+      "c13-s03-p149-05355-s008"
+    ],
+    "passage": "So far, I have argued for embracing A’s priorities: novelty, passion, spontaneity, going with the flow. Indeed, by trying new things in life, you constantly learn and grow. But is that the only path to a psychologically rich life? Is it also possible to gain psychological richness from B’s perspective, by digging deep into one person or object?",
+    "prompt": "What benefit does the author connect with trying new things?",
+    "promptZh": "作者把尝试新事物与什么益处相联系？",
+    "options": [
+      "Immediate agreement with every unfamiliar opinion.",
+      "Learning and growth.",
+      "The need to abandon all familiar relationships.",
+      "Only factual memorisation, with no personal growth."
+    ],
+    "optionsZh": [
+      "立即赞同每个陌生观点。",
+      "学习与成长。",
+      "必须放弃所有熟悉关系。",
+      "只有事实背诵，没有个人成长。"
+    ],
+    "answer": 1,
+    "type": "细节",
+    "support": "explicit",
+    "analyses": [
+      "A learn and grow不等于必须赞同遇见的每项观点。",
+      "B by trying...learn and grow明确对应作者所述益处。",
+      "C 尝新益处不等于切断所有旧关系，后句还要问是否有其他路径。",
+      "D 原文明说grow，不能删掉成长而仅保留机械记忆。"
+    ],
+    "vocabulary": [
+      {
+        "word": "grow",
+        "meaning": "成长；理解或能力方面的发展（此处）",
+        "context": "并非只指身高或收入增长，也不是保证每次活动都带来固定幅度变化。",
+        "example": "Trying a different approach helped the learner grow.",
+        "collocations": [
+          "you constantly learn and grow",
+          "by trying new things in life"
+        ]
+      }
+    ],
+    "translation": "到目前为止，我一直主张接纳A的优先选择：新奇、激情、自发、顺势而行。的确，不断尝试新事物，会让人持续学习成长。但那是通向心理丰富的唯一路径吗？能否也从B的视角出发，通过深入了解一个人或一件事物，获得心理丰富呢？",
+    "evidenceTargetIds": [
+      "c13-s03-p149-05355-s006"
+    ],
+    "evidence": [
+      {
+        "quote": "So far, I have argued for embracing A’s priorities: novelty, passion, spontaneity, going with the flow. Indeed, by trying new things in life, you constantly learn and grow. But is that the only path to a psychologically rich life? Is it also possible to gain psychological richness from B’s perspective, by digging deep into one person or object?",
+        "sentenceIds": [
+          "c13-s03-p149-05355-s005",
+          "c13-s03-p149-05355-s006",
+          "c13-s03-p149-05355-s007",
+          "c13-s03-p149-05355-s008"
+        ],
+        "sources": [
+          {
+            "pdfPage": 149,
+            "block": 4,
+            "bbox": [
+              76.99,
+              535.5,
+              535.01,
+              706.02
+            ]
+          },
+          {
+            "pdfPage": 150,
+            "block": 0,
+            "bbox": [
+              76.99,
+              75,
+              535.01,
+              128.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "7cb41dfec413f0125fa62184d221f85db551555cedf37b56d18a463d84d60138"
+  },
+  {
+    "id": "qe-c13-0058",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-058",
+    "parentQuestionId": "q-c13-038",
+    "chapterId": "c13",
+    "sectionId": "c13-s03",
+    "paragraphId": "c13-s03-p149-05355",
+    "readingUnitId": "c13-s03-p149-05355-r005-008",
+    "sentenceIds": [
+      "c13-s03-p149-05355-s005",
+      "c13-s03-p149-05355-s006",
+      "c13-s03-p149-05355-s007",
+      "c13-s03-p149-05355-s008"
+    ],
+    "passage": "So far, I have argued for embracing A’s priorities: novelty, passion, spontaneity, going with the flow. Indeed, by trying new things in life, you constantly learn and grow. But is that the only path to a psychologically rich life? Is it also possible to gain psychological richness from B’s perspective, by digging deep into one person or object?",
+    "prompt": "What does the question about the 'only path' prepare the reader to consider?",
+    "promptZh": "关于only path的问句引导读者考虑什么？",
+    "options": [
+      "That every earlier argument about novelty must be false.",
+      "That richness is impossible in any long relationship.",
+      "Another route, including going deeply into one familiar person or object.",
+      "A proof that all people must choose the same life pattern."
+    ],
+    "optionsZh": [
+      "此前关于新奇的一切论证必全错。",
+      "任何长期关系都不可能有丰富。",
+      "另一条道路，包括深入了解一个熟悉的人或物。",
+      "证明所有人必须选同一种人生模式。"
+    ],
+    "answer": 2,
+    "type": "篇章结构",
+    "support": "explicit",
+    "analyses": [
+      "A 拓展来源不等于撤销前面全部价值。",
+      "B 下一句from B’s perspective...digging deep反对这种排除。",
+      "C only path问句后紧跟另一视角可能性，促成从广泛尝新到深入熟悉的转向。",
+      "D 问不同道路而非统一生活标准，亦未给所有人同一结果。"
+    ],
+    "vocabulary": [
+      {
+        "word": "path",
+        "meaning": "道路；达到某目标的方式（比喻义）",
+        "context": "此处为人生丰富的途径，不是地图上的一条实际步道。",
+        "example": "The discussion asks whether reflection offers another path to richness.",
+        "collocations": [
+          "the only path to a psychologically rich life",
+          "from B’s perspective"
+        ]
+      }
+    ],
+    "translation": "到目前为止，我一直主张接纳A的优先选择：新奇、激情、自发、顺势而行。的确，不断尝试新事物，会让人持续学习成长。但那是通向心理丰富的唯一路径吗？能否也从B的视角出发，通过深入了解一个人或一件事物，获得心理丰富呢？",
+    "evidenceTargetIds": [
+      "c13-s03-p149-05355-s007"
+    ],
+    "evidence": [
+      {
+        "quote": "So far, I have argued for embracing A’s priorities: novelty, passion, spontaneity, going with the flow. Indeed, by trying new things in life, you constantly learn and grow. But is that the only path to a psychologically rich life? Is it also possible to gain psychological richness from B’s perspective, by digging deep into one person or object?",
+        "sentenceIds": [
+          "c13-s03-p149-05355-s005",
+          "c13-s03-p149-05355-s006",
+          "c13-s03-p149-05355-s007",
+          "c13-s03-p149-05355-s008"
+        ],
+        "sources": [
+          {
+            "pdfPage": 149,
+            "block": 4,
+            "bbox": [
+              76.99,
+              535.5,
+              535.01,
+              706.02
+            ]
+          },
+          {
+            "pdfPage": 150,
+            "block": 0,
+            "bbox": [
+              76.99,
+              75,
+              535.01,
+              128.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "e7ecad965524eb28da7038a69e4a6f3ffbf60370d7295fde5e74fbada1a30217"
+  },
+  {
+    "id": "qe-c13-0059",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-058",
+    "parentQuestionId": "q-c13-039",
+    "chapterId": "c13",
+    "sectionId": "c13-s03",
+    "paragraphId": "c13-s03-p150-01335",
+    "readingUnitId": "c13-s03-p150-01335-r001-004",
+    "sentenceIds": [
+      "c13-s03-p150-01335-s001",
+      "c13-s03-p150-01335-s002",
+      "c13-s03-p150-01335-s003",
+      "c13-s03-p150-01335-s004"
+    ],
+    "passage": "Some of the richest experiences in life involve finding something new in a familiar person, object, or place. I met my wife in 1991 and we got married in 1999. I spent a lot of time with her before marriage. Even so, there were many things that I didn’t know about her until after we were married.",
+    "prompt": "What kind of novelty is highlighted in the paragraph about familiar people?",
+    "promptZh": "关于熟悉之人的段落突出哪种新发现？",
+    "options": [
+      "Discovering a new aspect of an already familiar person, object, or place.",
+      "Replacing every familiar relationship whenever something new appears.",
+      "Finding that all familiar people are entirely known and can never surprise us.",
+      "A guarantee that every repeated event produces identical richness."
+    ],
+    "optionsZh": [
+      "在已熟悉的人、物或地方发现新方面。",
+      "只要有新东西就更换每段熟悉关系。",
+      "发现熟人已被完全了解，永不可能意外。",
+      "保证每次重复事件都产生一样丰富性。"
+    ],
+    "answer": 0,
+    "type": "同义改写",
+    "support": "explicit",
+    "analyses": [
+      "A finding something new in familiar...保留新发现与熟悉背景的并存。",
+      "B 本句不是替换关系的命令。",
+      "C 与something new及后面婚后才知道妻子一些方面相反。",
+      "D Some of richest不等于每次重复保证同量结果。"
+    ],
+    "vocabulary": [
+      {
+        "word": "finding something new",
+        "meaning": "发现新的方面；在已有事物中获得新认识",
+        "context": "不是一定要换成全然陌生对象，重点是认识的更新。",
+        "example": "Knowing someone longer can mean finding something new in a familiar person.",
+        "collocations": [
+          "finding something new in a familiar person",
+          "object, or place"
+        ]
+      }
+    ],
+    "translation": "人生中有些最丰富的体验，是在熟悉的人、物或地方发现新东西。我于1991年遇见妻子，1999年结婚。婚前已与她相处很久。即便如此，仍有许多事直到结婚后我才知道。",
+    "evidenceTargetIds": [
+      "c13-s03-p150-01335-s001"
+    ],
+    "evidence": [
+      {
+        "quote": "Some of the richest experiences in life involve finding something new in a familiar person, object, or place. I met my wife in 1991 and we got married in 1999. I spent a lot of time with her before marriage. Even so, there were many things that I didn’t know about her until after we were married.",
+        "sentenceIds": [
+          "c13-s03-p150-01335-s001",
+          "c13-s03-p150-01335-s002",
+          "c13-s03-p150-01335-s003",
+          "c13-s03-p150-01335-s004"
+        ],
+        "sources": [
+          {
+            "pdfPage": 150,
+            "block": 1,
+            "bbox": [
+              76.99,
+              133.5,
+              535.01,
+              323.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "2fb92bf09049d7610f44f90e248842a72bb7b36eb91da4b51afedd2242c097cb"
+  },
+  {
+    "id": "qe-c13-0060",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-058",
+    "parentQuestionId": "q-c13-039",
+    "chapterId": "c13",
+    "sectionId": "c13-s03",
+    "paragraphId": "c13-s03-p150-01335",
+    "readingUnitId": "c13-s03-p150-01335-r001-004",
+    "sentenceIds": [
+      "c13-s03-p150-01335-s001",
+      "c13-s03-p150-01335-s002",
+      "c13-s03-p150-01335-s003",
+      "c13-s03-p150-01335-s004"
+    ],
+    "passage": "Some of the richest experiences in life involve finding something new in a familiar person, object, or place. I met my wife in 1991 and we got married in 1999. I spent a lot of time with her before marriage. Even so, there were many things that I didn’t know about her until after we were married.",
+    "prompt": "Which pairing matches the author's meeting and marriage dates?",
+    "promptZh": "哪组日期与初遇和结婚正确对应？",
+    "options": [
+      "He first met her in 1999 and married her in 1991.",
+      "He first met her around 2010 and married her in 1999.",
+      "He first met her in 1991 and married her in 1999.",
+      "Both events occurred in 1991, with no gap."
+    ],
+    "optionsZh": [
+      "1999初遇，1991结婚。",
+      "约2010初遇，1999结婚。",
+      "1991初遇，1999结婚。",
+      "两件事都在1991，毫无间隔。"
+    ],
+    "answer": 2,
+    "type": "细节",
+    "support": "explicit",
+    "analyses": [
+      "A met与got married对应年份反了。",
+      "B 2010属于后面想买画的时期，不是本句初遇。",
+      "C 两个动词及两日期逐项匹配。",
+      "D 原句给不同年份，不可合并；也未提供双方出生年或婚时年龄。"
+    ],
+    "vocabulary": [
+      {
+        "word": "got married",
+        "meaning": "结婚；建立婚姻关系",
+        "context": "区别于met的初次相识时间，不把两者混成同一事件。",
+        "example": "They met years before they got married.",
+        "collocations": [
+          "met my wife in 1991",
+          "got married in 1999"
+        ]
+      }
+    ],
+    "translation": "人生中有些最丰富的体验，是在熟悉的人、物或地方发现新东西。我于1991年遇见妻子，1999年结婚。婚前已与她相处很久。即便如此，仍有许多事直到结婚后我才知道。",
+    "evidenceTargetIds": [
+      "c13-s03-p150-01335-s002"
+    ],
+    "evidence": [
+      {
+        "quote": "Some of the richest experiences in life involve finding something new in a familiar person, object, or place. I met my wife in 1991 and we got married in 1999. I spent a lot of time with her before marriage. Even so, there were many things that I didn’t know about her until after we were married.",
+        "sentenceIds": [
+          "c13-s03-p150-01335-s001",
+          "c13-s03-p150-01335-s002",
+          "c13-s03-p150-01335-s003",
+          "c13-s03-p150-01335-s004"
+        ],
+        "sources": [
+          {
+            "pdfPage": 150,
+            "block": 1,
+            "bbox": [
+              76.99,
+              133.5,
+              535.01,
+              323.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "42dab04a6799072138f6535c4e8f1ebc716fdf91a85ae2b5816ddf98f61e2e35"
+  },
+  {
+    "id": "qe-c13-0061",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-058",
+    "parentQuestionId": "q-c13-040",
+    "chapterId": "c13",
+    "sectionId": "c13-s03",
+    "paragraphId": "c13-s03-p150-01335",
+    "readingUnitId": "c13-s03-p150-01335-r005-008",
+    "sentenceIds": [
+      "c13-s03-p150-01335-s005",
+      "c13-s03-p150-01335-s006",
+      "c13-s03-p150-01335-s007",
+      "c13-s03-p150-01335-s008"
+    ],
+    "passage": "For instance, after years of leaving most of the walls in our house empty, I finally wanted to hang some paintings on the living room wall. This was around 2010, nearly twenty years after I first met her. “What should I buy?” I asked.",
+    "prompt": "What choice is the narrator asking about in the quotation?",
+    "promptZh": "引语中叙述者在问什么选择？",
+    "options": [
+      "Which school he should enrol in during childhood.",
+      "Which concert recording he should have heard years ago.",
+      "Which survey answer his wife had already submitted.",
+      "What paintings or art he should buy for the living-room wall."
+    ],
+    "optionsZh": [
+      "童年应去哪所学校。",
+      "多年前本应听哪份音乐会录音。",
+      "妻子已提交哪项问卷答案。",
+      "为客厅墙购买什么画作或艺术品。"
+    ],
+    "answer": 3,
+    "type": "细节",
+    "support": "explicit",
+    "analyses": [
+      "A 当前段落为家中挂画，不是学校。",
+      "B concert为上一例，不能移来。",
+      "C 没有研究问卷提交程序。",
+      "D 前面wanted hang paintings...living room wall确定What buy的语境，不凭这句编造具体画家、预算或真实购买结果。"
+    ],
+    "vocabulary": [
+      {
+        "word": "should I buy",
+        "meaning": "我该买什么；询问如何选择购买对象",
+        "context": "当前是故事内的提问，不是网站给出的艺术品投资建议。",
+        "example": "The narrator wondered what he should buy for the empty wall.",
+        "collocations": [
+          "What should I buy",
+          "hang some paintings on the living room wall"
+        ]
+      }
+    ],
+    "translation": "比如，多年来家中大多数墙一直空着，后来我终于想在客厅墙上挂几幅画。那大约是2010年，距初次遇见她已将近20年。“我该买什么？”我问。",
+    "evidenceTargetIds": [
+      "c13-s03-p150-01335-s007"
+    ],
+    "evidence": [
+      {
+        "quote": "For instance, after years of leaving most of the walls in our house empty, I finally wanted to hang some paintings on the living room wall. This was around 2010, nearly twenty years after I first met her. “What should I buy?” I asked.",
+        "sentenceIds": [
+          "c13-s03-p150-01335-s005",
+          "c13-s03-p150-01335-s006",
+          "c13-s03-p150-01335-s007",
+          "c13-s03-p150-01335-s008"
+        ],
+        "sources": [
+          {
+            "pdfPage": 150,
+            "block": 1,
+            "bbox": [
+              76.99,
+              133.5,
+              535.01,
+              323.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "1c9bc72085e61c0de31e8909a50648d35c129107ff19e572f7f323bb01b88804"
+  },
+  {
+    "id": "qe-c13-0062",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-058",
+    "parentQuestionId": "q-c13-040",
+    "chapterId": "c13",
+    "sectionId": "c13-s03",
+    "paragraphId": "c13-s03-p150-01335",
+    "readingUnitId": "c13-s03-p150-01335-r005-008",
+    "sentenceIds": [
+      "c13-s03-p150-01335-s005",
+      "c13-s03-p150-01335-s006",
+      "c13-s03-p150-01335-s007",
+      "c13-s03-p150-01335-s008"
+    ],
+    "passage": "For instance, after years of leaving most of the walls in our house empty, I finally wanted to hang some paintings on the living room wall. This was around 2010, nearly twenty years after I first met her. “What should I buy?” I asked.",
+    "prompt": "Who is identified as asking the purchase question by 'I asked'?",
+    "promptZh": "I asked把购买问题归给谁？",
+    "options": [
+      "The narrator himself.",
+      "A museum critic reviewing the concert.",
+      "The narrator's wife replying that she can paint.",
+      "The retired judge from Either/Or."
+    ],
+    "optionsZh": [
+      "叙述者本人。",
+      "评论音乐会的博物馆评论者。",
+      "正在回答自己会画画的妻子。",
+      "Either/Or里的退休法官。"
+    ],
+    "answer": 0,
+    "type": "观点归属",
+    "support": "explicit",
+    "analyses": [
+      "A I在此续前面的I finally wanted，是讲述自身家居经历的叙述者。",
+      "B 当前段无评论家发问。",
+      "C attribution是asked，不是下一段妻子replied，两轮说话者不能混同。",
+      "D 哲学角色属于前面的说明，不在这段家庭对话。"
+    ],
+    "vocabulary": [
+      {
+        "word": "asked",
+        "meaning": "问；提出问题",
+        "context": "与引语搭配标注说话者和话语动作，不同于replied的回答。",
+        "example": "The short phrase I asked identifies the speaker of the question.",
+        "collocations": [
+          "I asked",
+          "What should I buy"
+        ]
+      }
+    ],
+    "translation": "比如，多年来家中大多数墙一直空着，后来我终于想在客厅墙上挂几幅画。那大约是2010年，距初次遇见她已将近20年。“我该买什么？”我问。",
+    "evidenceTargetIds": [
+      "c13-s03-p150-01335-s008"
+    ],
+    "evidence": [
+      {
+        "quote": "For instance, after years of leaving most of the walls in our house empty, I finally wanted to hang some paintings on the living room wall. This was around 2010, nearly twenty years after I first met her. “What should I buy?” I asked.",
+        "sentenceIds": [
+          "c13-s03-p150-01335-s005",
+          "c13-s03-p150-01335-s006",
+          "c13-s03-p150-01335-s007",
+          "c13-s03-p150-01335-s008"
+        ],
+        "sources": [
+          {
+            "pdfPage": 150,
+            "block": 1,
+            "bbox": [
+              76.99,
+              133.5,
+              535.01,
+              323.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "2fe34c26b640a7478c3b45e296e96031dec59313ecb6cc7288ee78889fb14732"
+  },
+  {
+    "id": "qe-c13-0063",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-058",
+    "parentQuestionId": "q-c13-041",
+    "chapterId": "c13",
+    "sectionId": "c13-s03",
+    "paragraphId": "c13-s03-p150-01335",
+    "readingUnitId": "c13-s03-p150-01335-r009-012",
+    "sentenceIds": [
+      "c13-s03-p150-01335-s009",
+      "c13-s03-p150-01335-s010",
+      "c13-s03-p150-01335-s011",
+      "c13-s03-p150-01335-s012"
+    ],
+    "passage": "My wife replied, “I can paint.” “What?” I did not know she could paint. And boy could she paint.",
+    "prompt": "What does 'can' express in the wife's reply?",
+    "promptZh": "妻子回答里的can表达什么？",
+    "options": [
+      "A rule that her husband must buy a painting immediately.",
+      "Her ability to paint.",
+      "Proof that she has never painted and cannot do so.",
+      "Only permission to enter the concert venue."
+    ],
+    "optionsZh": [
+      "丈夫必须立即买画的规则。",
+      "她具备画画的能力。",
+      "证明她从未画过且不能画。",
+      "仅是进入音乐会场地的许可。"
+    ],
+    "answer": 1,
+    "type": "语法",
+    "support": "explicit",
+    "analyses": [
+      "A can在此不是must或要求丈夫购买。",
+      "B I can paint直接声明能力，为后面丈夫意外提供信息。",
+      "C 与can的肯定能力相反。",
+      "D paint能力与场馆许可不相同，也没有concert语境。"
+    ],
+    "vocabulary": [
+      {
+        "word": "can paint",
+        "meaning": "会画画；具有绘画能力",
+        "context": "本句can是能力义，不是法律许可或一定已经完成哪幅具体作品。",
+        "example": "She surprised him by saying that she could paint.",
+        "collocations": [
+          "I can paint",
+          "My wife replied"
+        ]
+      }
+    ],
+    "translation": "妻子回答：“我会画。”“什么？”我不知道她会画。哇，她画得可真好。",
+    "evidenceTargetIds": [
+      "c13-s03-p150-01335-s009"
+    ],
+    "evidence": [
+      {
+        "quote": "My wife replied, “I can paint.” “What?” I did not know she could paint. And boy could she paint.",
+        "sentenceIds": [
+          "c13-s03-p150-01335-s009",
+          "c13-s03-p150-01335-s010",
+          "c13-s03-p150-01335-s011",
+          "c13-s03-p150-01335-s012"
+        ],
+        "sources": [
+          {
+            "pdfPage": 150,
+            "block": 1,
+            "bbox": [
+              76.99,
+              133.5,
+              535.01,
+              323.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "cc1ec906584ac440e0b4e38f3cfc29ac637848b161b1a40a9870f8aa3fcd8002"
+  },
+  {
+    "id": "qe-c13-0064",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-058",
+    "parentQuestionId": "q-c13-041",
+    "chapterId": "c13",
+    "sectionId": "c13-s03",
+    "paragraphId": "c13-s03-p150-01335",
+    "readingUnitId": "c13-s03-p150-01335-r009-012",
+    "sentenceIds": [
+      "c13-s03-p150-01335-s009",
+      "c13-s03-p150-01335-s010",
+      "c13-s03-p150-01335-s011",
+      "c13-s03-p150-01335-s012"
+    ],
+    "passage": "My wife replied, “I can paint.” “What?” I did not know she could paint. And boy could she paint.",
+    "prompt": "What response is conveyed by the narrator's brief 'What?'?",
+    "promptZh": "叙述者简短的What?传达什么反应？",
+    "options": [
+      "A complete list of the paintings he had already purchased.",
+      "A measured conclusion that her ability had objectively changed that day.",
+      "Surprise at learning of an ability he had not known about.",
+      "A formal rejection of every painting without looking at it."
+    ],
+    "optionsZh": [
+      "列出已经购买的全部画。",
+      "测得她能力恰在当天客观改变。",
+      "对得知此前不知道的能力感到惊讶。",
+      "未看任何作品就正式否定全部画。"
+    ],
+    "answer": 2,
+    "type": "作者态度",
+    "support": "explicit",
+    "analyses": [
+      "A 一个惊讶问句不是购物清单。",
+      "B 新知道不等于能力刚发生改变，更无测量。",
+      "C 下一句I did not know明确支撑惊讶的知识背景。",
+      "D 后面And boy could she paint为赞许，不能把惊讶读成全盘拒绝。"
+    ],
+    "vocabulary": [
+      {
+        "word": "What",
+        "meaning": "什么；此处为惊讶或要求确认的简短反应",
+        "context": "不只是索取某物名称，需结合接着说此前不知道她会画来理解。",
+        "example": "What? he said, surprised by the unexpected reply.",
+        "collocations": [
+          "What?",
+          "I did not know she could paint"
+        ]
+      }
+    ],
+    "translation": "妻子回答：“我会画。”“什么？”我不知道她会画。哇，她画得可真好。",
+    "evidenceTargetIds": [
+      "c13-s03-p150-01335-s010"
+    ],
+    "evidence": [
+      {
+        "quote": "My wife replied, “I can paint.” “What?” I did not know she could paint. And boy could she paint.",
+        "sentenceIds": [
+          "c13-s03-p150-01335-s009",
+          "c13-s03-p150-01335-s010",
+          "c13-s03-p150-01335-s011",
+          "c13-s03-p150-01335-s012"
+        ],
+        "sources": [
+          {
+            "pdfPage": 150,
+            "block": 1,
+            "bbox": [
+              76.99,
+              133.5,
+              535.01,
+              323.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "8d2491834173ef335d879a062361d6f17fbb2b3f42d4f3cb825204f869aaf636"
+  },
+  {
+    "id": "qe-c13-0065",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-058",
+    "parentQuestionId": "q-c13-041",
+    "chapterId": "c13",
+    "sectionId": "c13-s03",
+    "paragraphId": "c13-s03-p150-01335",
+    "readingUnitId": "c13-s03-p150-01335-r009-012",
+    "sentenceIds": [
+      "c13-s03-p150-01335-s009",
+      "c13-s03-p150-01335-s010",
+      "c13-s03-p150-01335-s011",
+      "c13-s03-p150-01335-s012"
+    ],
+    "passage": "My wife replied, “I can paint.” “What?” I did not know she could paint. And boy could she paint.",
+    "prompt": "What does the sentence about not knowing distinguish?",
+    "promptZh": "关于did not know的句子区分什么？",
+    "options": [
+      "Her lack of ability and his perfect prior knowledge.",
+      "Proof that she had intentionally deceived everyone for decades.",
+      "A claim that all familiar people have identical talents.",
+      "His earlier lack of knowledge from whether she actually had the ability."
+    ],
+    "optionsZh": [
+      "她没能力与他早已完全知道。",
+      "证明她几十年故意欺骗所有人。",
+      "声称所有熟人天赋相同。",
+      "他此前不知道，与她事实上是否有能力，是两件事。"
+    ],
+    "answer": 3,
+    "type": "逻辑关系",
+    "support": "explicit",
+    "analyses": [
+      "A did not know不是did not have ability，两种否定对象不同。",
+      "B 未知不证明故意欺骗或涉及所有人。",
+      "C 当前只讲妻子这一新发现，非全体人才。",
+      "D 否定在know上，随后夸赞she could paint确认能力；不知道不等于能力不存在。"
+    ],
+    "vocabulary": [
+      {
+        "word": "did not know",
+        "meaning": "此前不知道；对事实缺少认识",
+        "context": "宾语从句为她会画，不把认知缺口改成事实上的不能画。",
+        "example": "He did not know she could paint, although she already had the skill.",
+        "collocations": [
+          "I did not know",
+          "she could paint"
+        ]
+      }
+    ],
+    "translation": "妻子回答：“我会画。”“什么？”我不知道她会画。哇，她画得可真好。",
+    "evidenceTargetIds": [
+      "c13-s03-p150-01335-s011"
+    ],
+    "evidence": [
+      {
+        "quote": "My wife replied, “I can paint.” “What?” I did not know she could paint. And boy could she paint.",
+        "sentenceIds": [
+          "c13-s03-p150-01335-s009",
+          "c13-s03-p150-01335-s010",
+          "c13-s03-p150-01335-s011",
+          "c13-s03-p150-01335-s012"
+        ],
+        "sources": [
+          {
+            "pdfPage": 150,
+            "block": 1,
+            "bbox": [
+              76.99,
+              133.5,
+              535.01,
+              323.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "d7d9138e4539083d5615b23c7af1acc2c10687686c0590133d9879f2120ae6d7"
+  },
+  {
+    "id": "qe-c13-0066",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-058",
+    "parentQuestionId": "q-c13-043",
+    "chapterId": "c13",
+    "sectionId": "c13-s03",
+    "paragraphId": "c13-s03-p150-03285",
+    "readingUnitId": "c13-s03-p150-03285-r001-004",
+    "sentenceIds": [
+      "c13-s03-p150-03285-s001",
+      "c13-s03-p150-03285-s002",
+      "c13-s03-p150-03285-s003",
+      "c13-s03-p150-03285-s004"
+    ],
+    "passage": "My wife is a friendly but very anxious person. She worries about the many things that could go wrong in life. She is also a meticulous person who does everything very methodically and slowly. She sometimes spends more than thirty minutes writing a simple reply to an email.",
+    "prompt": "Which combination matches the narrator's everyday description of his wife?",
+    "promptZh": "哪组符合叙述者对妻子日常特点的描述？",
+    "options": [
+      "Friendly but very anxious.",
+      "Unfriendly and careless in every activity.",
+      "Never worried and always hurried.",
+      "Unable to be friendly because she is described as cautious."
+    ],
+    "optionsZh": [
+      "友善，但很容易焦虑。",
+      "每项活动都不友善且粗心。",
+      "从不担忧，总赶着做事。",
+      "因谨慎就不可能友善。"
+    ],
+    "answer": 0,
+    "type": "细节",
+    "support": "explicit",
+    "analyses": [
+      "A friendly but very anxious两项并存及转折均保留。",
+      "B friendly与下一句meticulous均不支持。",
+      "C worries及slowly与该组合相反。",
+      "D but连接可并存特点，不是说焦虑或谨慎使友善不可能；保留人物自述式描写，不当临床诊断。"
+    ],
+    "vocabulary": [
+      {
+        "word": "anxious",
+        "meaning": "焦虑的；经常担忧可能出问题的",
+        "context": "原句为丈夫的个人描写，不是本段用标准临床量表给出的诊断。",
+        "example": "He describes her as friendly but anxious about possible problems.",
+        "collocations": [
+          "a friendly but very anxious person",
+          "She worries"
+        ]
+      }
+    ],
+    "translation": "妻子是个友善但很容易焦虑的人。她担忧生活中许多可能出问题的事。她也非常细致，做任何事都有条不紊、慢慢来。有时，回复一封简单邮件，她会花超过30分钟。",
+    "evidenceTargetIds": [
+      "c13-s03-p150-03285-s001"
+    ],
+    "evidence": [
+      {
+        "quote": "My wife is a friendly but very anxious person. She worries about the many things that could go wrong in life. She is also a meticulous person who does everything very methodically and slowly. She sometimes spends more than thirty minutes writing a simple reply to an email.",
+        "sentenceIds": [
+          "c13-s03-p150-03285-s001",
+          "c13-s03-p150-03285-s002",
+          "c13-s03-p150-03285-s003",
+          "c13-s03-p150-03285-s004"
+        ],
+        "sources": [
+          {
+            "pdfPage": 150,
+            "block": 2,
+            "bbox": [
+              76.99,
+              328.5,
+              535.01,
+              577.02
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "b4ec439bf0e09d6e024345822685df242bedc7b059056920ed28a5903e81d41d"
+  },
+  {
+    "id": "qe-c13-0067",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-058",
+    "parentQuestionId": "q-c13-043",
+    "chapterId": "c13",
+    "sectionId": "c13-s03",
+    "paragraphId": "c13-s03-p150-03285",
+    "readingUnitId": "c13-s03-p150-03285-r001-004",
+    "sentenceIds": [
+      "c13-s03-p150-03285-s001",
+      "c13-s03-p150-03285-s002",
+      "c13-s03-p150-03285-s003",
+      "c13-s03-p150-03285-s004"
+    ],
+    "passage": "My wife is a friendly but very anxious person. She worries about the many things that could go wrong in life. She is also a meticulous person who does everything very methodically and slowly. She sometimes spends more than thirty minutes writing a simple reply to an email.",
+    "prompt": "What is the status of the things she worries might go wrong?",
+    "promptZh": "她担忧可能出问题的事情处于什么状态？",
+    "options": [
+      "They are all confirmed failures that the passage proves have happened.",
+      "They are possible problems she anticipates, rather than all established events.",
+      "They are all guaranteed never to happen by a study.",
+      "They are only a list of painting prices."
+    ],
+    "optionsZh": [
+      "它们全是本段证明已发生的失败。",
+      "是她预想的可能问题，而非全部已发生事实。",
+      "研究保证它们绝不发生。",
+      "它们只是画价清单。"
+    ],
+    "answer": 1,
+    "type": "证据范围",
+    "support": "explicit",
+    "analyses": [
+      "A could go wrong不等于all did go wrong。",
+      "B worries与could区分担忧和可能性，未给实际发生率。",
+      "C 可能不等于保证绝无，句中无此研究。",
+      "D 句子概括生活担忧，不是只谈画作买价。"
+    ],
+    "vocabulary": [
+      {
+        "word": "could go wrong",
+        "meaning": "可能出问题；某情况可能不按期待发展",
+        "context": "could标可能，不是对每项失败已经发生的肯定。",
+        "example": "She worried about what could go wrong before making a decision.",
+        "collocations": [
+          "many things that could go wrong in life",
+          "She worries about"
+        ]
+      }
+    ],
+    "translation": "妻子是个友善但很容易焦虑的人。她担忧生活中许多可能出问题的事。她也非常细致，做任何事都有条不紊、慢慢来。有时，回复一封简单邮件，她会花超过30分钟。",
+    "evidenceTargetIds": [
+      "c13-s03-p150-03285-s002"
+    ],
+    "evidence": [
+      {
+        "quote": "My wife is a friendly but very anxious person. She worries about the many things that could go wrong in life. She is also a meticulous person who does everything very methodically and slowly. She sometimes spends more than thirty minutes writing a simple reply to an email.",
+        "sentenceIds": [
+          "c13-s03-p150-03285-s001",
+          "c13-s03-p150-03285-s002",
+          "c13-s03-p150-03285-s003",
+          "c13-s03-p150-03285-s004"
+        ],
+        "sources": [
+          {
+            "pdfPage": 150,
+            "block": 2,
+            "bbox": [
+              76.99,
+              328.5,
+              535.01,
+              577.02
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "cbc6de99b5a93d25c0576bf074221a51436d889ae47a9c185837d356ea7c1f62"
+  },
+  {
+    "id": "qe-c13-0068",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-058",
+    "parentQuestionId": "q-c13-043",
+    "chapterId": "c13",
+    "sectionId": "c13-s03",
+    "paragraphId": "c13-s03-p150-03285",
+    "readingUnitId": "c13-s03-p150-03285-r001-004",
+    "sentenceIds": [
+      "c13-s03-p150-03285-s001",
+      "c13-s03-p150-03285-s002",
+      "c13-s03-p150-03285-s003",
+      "c13-s03-p150-03285-s004"
+    ],
+    "passage": "My wife is a friendly but very anxious person. She worries about the many things that could go wrong in life. She is also a meticulous person who does everything very methodically and slowly. She sometimes spends more than thirty minutes writing a simple reply to an email.",
+    "prompt": "What does 'meticulous' mean in the everyday description?",
+    "promptZh": "日常描写里的meticulous是什么意思？",
+    "options": [
+      "Ignoring details and working at random.",
+      "Always finishing every task immediately without thought.",
+      "Careful about details, consistent with working methodically and slowly.",
+      "A guarantee that her paintings must all be dark."
+    ],
+    "optionsZh": [
+      "不顾细节、随机做事。",
+      "不思考就立刻完成一切。",
+      "细致认真，与有条不紊、慢慢做事相吻合。",
+      "保证她的画必全暗沉。"
+    ],
+    "answer": 2,
+    "type": "语境词义",
+    "support": "explicit",
+    "analyses": [
+      "A meticulous与忽略细节相反。",
+      "B methodically and slowly不是立刻不思考。",
+      "C who从句给实际语境说明，细致与系统性对应。",
+      "D 性格描写不保证任何特定画风，后文恰用意外打破预期。"
+    ],
+    "vocabulary": [
+      {
+        "word": "meticulous",
+        "meaning": "细致的；十分注意细节的",
+        "context": "在本句以methodically and slowly说明，不等于没创造力或只能画一种颜色。",
+        "example": "She was meticulous when writing even a short reply.",
+        "collocations": [
+          "a meticulous person",
+          "very methodically and slowly"
+        ]
+      }
+    ],
+    "translation": "妻子是个友善但很容易焦虑的人。她担忧生活中许多可能出问题的事。她也非常细致，做任何事都有条不紊、慢慢来。有时，回复一封简单邮件，她会花超过30分钟。",
+    "evidenceTargetIds": [
+      "c13-s03-p150-03285-s003"
+    ],
+    "evidence": [
+      {
+        "quote": "My wife is a friendly but very anxious person. She worries about the many things that could go wrong in life. She is also a meticulous person who does everything very methodically and slowly. She sometimes spends more than thirty minutes writing a simple reply to an email.",
+        "sentenceIds": [
+          "c13-s03-p150-03285-s001",
+          "c13-s03-p150-03285-s002",
+          "c13-s03-p150-03285-s003",
+          "c13-s03-p150-03285-s004"
+        ],
+        "sources": [
+          {
+            "pdfPage": 150,
+            "block": 2,
+            "bbox": [
+              76.99,
+              328.5,
+              535.01,
+              577.02
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "93359d11ad4f93287d9c5b9812f86698a4822797362b9fe097707a7d1a0312a3"
+  },
+  {
+    "id": "qe-c13-0069",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-058",
+    "parentQuestionId": "q-c13-044",
+    "chapterId": "c13",
+    "sectionId": "c13-s03",
+    "paragraphId": "c13-s03-p150-03285",
+    "readingUnitId": "c13-s03-p150-03285-r005-008",
+    "sentenceIds": [
+      "c13-s03-p150-03285-s005",
+      "c13-s03-p150-03285-s006",
+      "c13-s03-p150-03285-s007",
+      "c13-s03-p150-03285-s008"
+    ],
+    "passage": "She’s that kind of person. So I expected her paintings to be rather dark and to take a while to finish. I was surprised to see her paint pears in pink and sky blue and create Mondrian-style canvases in pastel colors, all very, very quickly. Her paintings were so happy.",
+    "prompt": "What narrative role does 'She's that kind of person' have before 'So I expected'?",
+    "promptZh": "在So I expected之前，She's that kind of person起什么叙事作用？",
+    "options": [
+      "It proves every painting followed his expectation exactly.",
+      "It removes all connection between a description and the following expectation.",
+      "It states the wife herself has supplied a clinical conclusion about everyone.",
+      "It links an earlier impression of her to the narrator's expectation, which is then challenged by her painting."
+    ],
+    "optionsZh": [
+      "证明每幅画都精确符合他的预期。",
+      "删除描写与后续预期的一切联系。",
+      "说妻子本人对所有人给出临床结论。",
+      "把此前对她的印象连到叙述者的预期，之后画作又挑战了预期。"
+    ],
+    "answer": 3,
+    "type": "篇章结构",
+    "support": "explicit",
+    "analyses": [
+      "A 后面I was surprised与预期全符合相反。",
+      "B So给由印象到预期的联系，不是切断。",
+      "C 当前是丈夫叙述，不是妻子诊断全体。",
+      "D So expected dark/slow，随后pink/skyblue/pastel且quick形成预期—意外结构；不需把这种预期误作事实规律。"
+    ],
+    "vocabulary": [
+      {
+        "word": "expected",
+        "meaning": "预期；原先认为某情况可能如此",
+        "context": "与实际看见画作后的surprised区分，不自动是画作真实性质。",
+        "example": "He expected a slow process but was surprised by what he saw.",
+        "collocations": [
+          "So I expected her paintings",
+          "I was surprised to see"
+        ]
+      }
+    ],
+    "translation": "她就是那样的人。所以我以为她的画会相当暗沉，画完也要很久。可她把梨画成粉红和天蓝，还以粉彩色调创作Mondrian风格画布，而且全都非常、非常快，令我意外。她的画那么欢快。",
+    "evidenceTargetIds": [
+      "c13-s03-p150-03285-s005"
+    ],
+    "evidence": [
+      {
+        "quote": "She’s that kind of person. So I expected her paintings to be rather dark and to take a while to finish. I was surprised to see her paint pears in pink and sky blue and create Mondrian-style canvases in pastel colors, all very, very quickly. Her paintings were so happy.",
+        "sentenceIds": [
+          "c13-s03-p150-03285-s005",
+          "c13-s03-p150-03285-s006",
+          "c13-s03-p150-03285-s007",
+          "c13-s03-p150-03285-s008"
+        ],
+        "sources": [
+          {
+            "pdfPage": 150,
+            "block": 2,
+            "bbox": [
+              76.99,
+              328.5,
+              535.01,
+              577.02
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "9e5f206e62814037503c0324cde09fcd04cca23f2ecc65190a66f9071e0afd43"
+  },
+  {
+    "id": "qe-c13-0070",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-058",
+    "parentQuestionId": "q-c13-045",
+    "chapterId": "c13",
+    "sectionId": "c13-s03",
+    "paragraphId": "c13-s03-p150-03285",
+    "readingUnitId": "c13-s03-p150-03285-r009-012",
+    "sentenceIds": [
+      "c13-s03-p150-03285-s009",
+      "c13-s03-p150-03285-s010",
+      "c13-s03-p150-03285-s011",
+      "c13-s03-p150-03285-s012"
+    ],
+    "passage": "She went about making them so decisively. Deep down, she must be a very happy person. Yet, if I had never wanted a painting for our living room wall, I might have never discovered this aspect of my wife’s personality. Learning something new about my wife, two decades into our relationship, was enriching for both of us.",
+    "prompt": "What does 'decisively' convey about her painting manner?",
+    "promptZh": "decisively对她作画的方式传达什么？",
+    "options": [
+      "She acted firmly and confidently in making the paintings.",
+      "She was unable to make any decision at all.",
+      "She required someone else to choose every movement for her.",
+      "The narrator gives an exact measurement of every minute spent painting."
+    ],
+    "optionsZh": [
+      "她创作时果断、有把握。",
+      "她完全无法作任何决定。",
+      "她要求别人代选每个动作。",
+      "叙述者给每分钟作画的精确测量。"
+    ],
+    "answer": 0,
+    "type": "语境词义",
+    "support": "explicit",
+    "analyses": [
+      "A went about making...so decisively描述果断行动的方式。",
+      "B 与decisively方向相反。",
+      "C 没有别人控制每个动作的记录。",
+      "D 方式副词不是分秒测量，也不保证她生活每方面都同样行动。"
+    ],
+    "vocabulary": [
+      {
+        "word": "decisively",
+        "meaning": "果断地；不拖泥带水地采取行动",
+        "context": "此处限制作画时的观察，不能由此删去前面日常焦虑细致的复杂性。",
+        "example": "She went about making the paintings decisively.",
+        "collocations": [
+          "went about making them so decisively",
+          "Deep down"
+        ]
+      }
+    ],
+    "translation": "她创作时如此果断。在内心深处，她想必是个很快乐的人。然而，若我从没想为客厅墙找一幅画，也许就永远不会发现妻子人格的这一面。在相处20年后，仍能了解妻子新的一面，对我们两人都是丰富的体验。",
+    "evidenceTargetIds": [
+      "c13-s03-p150-03285-s009"
+    ],
+    "evidence": [
+      {
+        "quote": "She went about making them so decisively. Deep down, she must be a very happy person. Yet, if I had never wanted a painting for our living room wall, I might have never discovered this aspect of my wife’s personality. Learning something new about my wife, two decades into our relationship, was enriching for both of us.",
+        "sentenceIds": [
+          "c13-s03-p150-03285-s009",
+          "c13-s03-p150-03285-s010",
+          "c13-s03-p150-03285-s011",
+          "c13-s03-p150-03285-s012"
+        ],
+        "sources": [
+          {
+            "pdfPage": 150,
+            "block": 2,
+            "bbox": [
+              76.99,
+              328.5,
+              535.01,
+              577.02
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "2aafd86399fe9e9350cbd9461eeee14a47ed6634d27a0d41e8712bf527689bd1"
+  },
+  {
+    "id": "qe-c13-0071",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-058",
+    "parentQuestionId": "q-c13-045",
+    "chapterId": "c13",
+    "sectionId": "c13-s03",
+    "paragraphId": "c13-s03-p150-03285",
+    "readingUnitId": "c13-s03-p150-03285-r009-012",
+    "sentenceIds": [
+      "c13-s03-p150-03285-s009",
+      "c13-s03-p150-03285-s010",
+      "c13-s03-p150-03285-s011",
+      "c13-s03-p150-03285-s012"
+    ],
+    "passage": "She went about making them so decisively. Deep down, she must be a very happy person. Yet, if I had never wanted a painting for our living room wall, I might have never discovered this aspect of my wife’s personality. Learning something new about my wife, two decades into our relationship, was enriching for both of us.",
+    "prompt": "How should the statement that she 'must be a very happy person' be classified?",
+    "promptZh": "说她must be a very happy person应怎样分类？",
+    "options": [
+      "A command that she is obliged to feel happy at all times.",
+      "Her own directly quoted self-rating on a clinical scale.",
+      "The narrator's strong inference about her inner state, not an independent measurement of it.",
+      "A proof that every person using pastel colours is happy."
+    ],
+    "optionsZh": [
+      "要求她每时每刻必须快乐的命令。",
+      "她本人在临床量表上的逐字自评。",
+      "叙述者对内心状态的强推断，而非独立测量。",
+      "证明每个用粉彩者都幸福。"
+    ],
+    "answer": 2,
+    "type": "证据范围",
+    "support": "limited-inference",
+    "analyses": [
+      "A must在此为推断，不是施加义务。",
+      "B 说话者为丈夫，句中没有妻子自评或量表。",
+      "C Deep down、must结合此前作画观察表示作者的理解；保留推断归属，不把它自动当客观内心事实。",
+      "D 个案推断不是色彩与所有人情绪的普遍定律，也不取消其他日常感受。"
+    ],
+    "vocabulary": [
+      {
+        "word": "must be",
+        "meaning": "想必是；基于线索作较强推断的表达",
+        "context": "此处不是必须服从的义务，也不是已经用独立方法测得内心状态。",
+        "example": "From what he saw, he thought she must be enjoying the activity.",
+        "collocations": [
+          "Deep down, she must be",
+          "a very happy person"
+        ]
+      }
+    ],
+    "translation": "她创作时如此果断。在内心深处，她想必是个很快乐的人。然而，若我从没想为客厅墙找一幅画，也许就永远不会发现妻子人格的这一面。在相处20年后，仍能了解妻子新的一面，对我们两人都是丰富的体验。",
+    "evidenceTargetIds": [
+      "c13-s03-p150-03285-s010"
+    ],
+    "evidence": [
+      {
+        "quote": "Deep down, she must be a very happy person.",
+        "sentenceIds": [
+          "c13-s03-p150-03285-s010"
+        ],
+        "sources": [
+          {
+            "pdfPage": 150,
+            "block": 2,
+            "bbox": [
+              76.99,
+              328.5,
+              535.01,
+              577.02
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "569260431210da5f675d455b0b3f46944f892b01e5576ab626906c00dbec63bb"
   }
 ]
