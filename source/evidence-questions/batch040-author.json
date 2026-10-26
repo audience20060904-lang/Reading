@@ -1,0 +1,983 @@
+{
+  "schemaVersion": 1,
+  "id": "evidence-040",
+  "status": "authored",
+  "evidenceRule": "frozen-target-sentence",
+  "questions": [
+    {
+      "order": 1,
+      "prompt": "What do researchers measure in the secretary-problem task described here?",
+      "promptZh": "这里秘书问题任务中，研究者测什么？",
+      "options": [
+        "Only the quality rank of the hire, without counting prior interviews.",
+        "How many candidates from a fixed pool are interviewed before one is selected.",
+        "How many further candidates are interviewed after the final hire has already been made.",
+        "Whether every candidate accepts an offer, without measuring search length."
+      ],
+      "optionsZh": [
+        "只测被雇者质量名次，不数此前面试。",
+        "从既定候选池面试多少人才选中一人。",
+        "最终已雇之后又面试多少其他候选。",
+        "只测每人是否接受邀约，不测搜索长度。"
+      ],
+      "answer": 1,
+      "type": "研究设计",
+      "support": "explicit",
+      "analyses": [
+        "A 目标句明确 how many candidates interviewed before hire，不能删掉搜索数量。",
+        "B how many candidates...before deciding to hire 明确数量及决策时点。",
+        "C 交换 before 与 after，原文测作聘用决定前的考察量。",
+        "D 当前句测考察多少人，不是后面现实拒绝风险的研究。"
+      ],
+      "vocabulary": [
+        {
+          "word": "a set pool",
+          "meaning": "一个既定候选集合",
+          "context": "pool 在此为可供选择的人选总集合，不是游泳池。",
+          "example": "The task asked participants to select one person from a set pool.",
+          "collocations": [
+            "candidates from a set pool",
+            "before deciding to hire"
+          ]
+        }
+      ],
+      "evidenceQuote": "Kepler was the leading mathematician of his time, so he probably had a very good sense of probability theorems. In statistics, there is a famous problem called the “secretary problem.” In this task, you are supposed to make the best possible hiring decision based on a series of interviews. Researchers measure how many candidates from a set pool you interview before deciding to hire a particular individual."
+    },
+    {
+      "order": 2,
+      "prompt": "Which constraint applies while the decision-maker is still searching?",
+      "promptZh": "决策者仍在搜索时，适用什么约束？",
+      "options": [
+        "Every rejected person can be recalled whenever convenient.",
+        "All candidates must be hired before comparison begins.",
+        "No yes-or-no decision is made until all previous candidates return.",
+        "Earlier candidates cannot be revisited, and each current decision is yes or no until a hire."
+      ],
+      "optionsZh": [
+        "方便时随时召回已拒绝者。",
+        "比较前必须雇用所有人。",
+        "直到所有旧人回来才作是非决定。",
+        "不能回选旧人，每次作是或否决定，直到聘用。"
+      ],
+      "answer": 3,
+      "type": "研究设计",
+      "support": "explicit",
+      "analyses": [
+        "A cannot go back 明确禁止回选。",
+        "B 只作一次最终 hire，不是雇全体。",
+        "C must make binary decisions 与一直不决定相反。",
+        "D 两项约束及 until yes 的停止条件都对应，这是模型任务规则而非网站要求读者实际招聘。"
+      ],
+      "vocabulary": [
+        {
+          "word": "binary",
+          "meaning": "二元的；只有两种可能选择的",
+          "context": "此处括号 yes/no 明确两选项，不是题库四选项或计算机二进制操作要求。",
+          "example": "The task required a binary decision at each stage.",
+          "collocations": [
+            "binary decisions (yes or no)",
+            "until you make a yes decision"
+          ]
+        }
+      ],
+      "evidenceQuote": "You cannot go back to previous interviewees, and you must make binary decisions (yes or no) until you make a yes (hire) decision. Computer simulations show that the optimal strategy here is to interview the first 37 percent of candidates (i.e., saying no to all of them) and from that point on decide whether a new candidate is better than the best of the first 37 percent. This is called the “37 percent rule.” How many people actually follow the 37 percent rule?"
+    },
+    {
+      "order": 3,
+      "prompt": "What strategy is labelled the '37 percent rule' in this paragraph?",
+      "promptZh": "本段把什么策略称为 37 percent rule？",
+      "options": [
+        "Reject the first 37 percent as a comparison sample, then assess later candidates against the best in that sample.",
+        "Hire exactly 37 percent of all candidates at the same time.",
+        "Choose the thirty-seventh candidate regardless of pool size or quality.",
+        "Interview only 37 percent and automatically hire the final one in that initial group."
+      ],
+      "optionsZh": [
+        "先拒前37%作比较样本，再将后续候选与样本最佳者比较。",
+        "同时雇全部候选中的恰37%。",
+        "不论池大小或质量，一律选第37人。",
+        "只面试37%，并自动雇初始组最后一人。"
+      ],
+      "answer": 0,
+      "type": "指代与逻辑",
+      "support": "explicit",
+      "analyses": [
+        "A 前句 interview first37percent、saying no、then compare new with best 的顺序明确，This 回指此策略。",
+        "B 37%是初始考察比例，不是录用比例。",
+        "C 比例不是固定第37人，且还需比较质量。",
+        "D 初始组全拒，不能自动聘该组最后者；本段模型最优不保证任何实际生活必胜。"
+      ],
+      "vocabulary": [
+        {
+          "word": "rule",
+          "meaning": "规则；此模型中的选择策略",
+          "context": "这里为特定统计任务的规则名，不是法律或对每段关系的强制规范。",
+          "example": "The rule separates initial comparison from later selection.",
+          "collocations": [
+            "the 37 percent rule",
+            "the best of the first 37 percent"
+          ]
+        }
+      ],
+      "evidenceQuote": "You cannot go back to previous interviewees, and you must make binary decisions (yes or no) until you make a yes (hire) decision. Computer simulations show that the optimal strategy here is to interview the first 37 percent of candidates (i.e., saying no to all of them) and from that point on decide whether a new candidate is better than the best of the first 37 percent. This is called the “37 percent rule.” How many people actually follow the 37 percent rule?"
+    },
+    {
+      "order": 4,
+      "prompt": "Why ask how many people 'actually follow' the rule after describing the simulated optimum?",
+      "promptZh": "描述模拟最优后，为何问多少人 actually follow 该规则？",
+      "options": [
+        "To confirm that exactly 37 percent of every population follows it.",
+        "To replace the empirical question with a new definition of the word secretary.",
+        "To shift from a model's optimal strategy to whether people use it in practice.",
+        "To claim all real-life decisions have already been measured as optimal."
+      ],
+      "optionsZh": [
+        "确认每群人恰37%遵循。",
+        "以 secretary 新定义替代实证问题。",
+        "从模型最优策略转向人们实际是否采用。",
+        "声称所有现实决定已测得最优。"
+      ],
+      "answer": 2,
+      "type": "研究逻辑",
+      "support": "explicit",
+      "analyses": [
+        "A 37%在此是搜索策略比例，不是跟随者比例；当前短段尚未给实际人数答案。",
+        "B 不是词义定义。",
+        "C simulations show optimal 后追问 actually follow，区分规范模型与描述行为。",
+        "D 问句不能当全体已经最优的结果，也不凭缺失的下一短段虚构统计。"
+      ],
+      "vocabulary": [
+        {
+          "word": "actually follow",
+          "meaning": "实际遵循；在行为中真的采用",
+          "context": "区别知道规则或模型给出最优，不假定现实必采用。",
+          "example": "The study asked whether people actually follow the stated strategy.",
+          "collocations": [
+            "How many people actually follow",
+            "the optimal strategy here"
+          ]
+        }
+      ],
+      "evidenceQuote": "You cannot go back to previous interviewees, and you must make binary decisions (yes or no) until you make a yes (hire) decision. Computer simulations show that the optimal strategy here is to interview the first 37 percent of candidates (i.e., saying no to all of them) and from that point on decide whether a new candidate is better than the best of the first 37 percent. This is called the “37 percent rule.” How many people actually follow the 37 percent rule?"
+    },
+    {
+      "order": 5,
+      "prompt": "What is the status of the example involving 100 potential mates?",
+      "promptZh": "涉及100个潜在对象的例子处于什么性质？",
+      "options": [
+        "A hypothetical application asking whether someone would sample 37 before applying the rule.",
+        "A survey in which exactly 100 people all dated 37 partners.",
+        "A report that all participants were required to marry the thirty-seventh person.",
+        "Proof that 37 dates always guarantee finding a mutually willing partner."
+      ],
+      "optionsZh": [
+        "假设性应用，问是否会先考察37个再按规则选择。",
+        "一项恰有100人且每人约会37人的调查。",
+        "报告每个参与者必须与第37人结婚。",
+        "证明37次约会总能找到互相愿意的对象。"
+      ],
+      "answer": 0,
+      "type": "语气与范围",
+      "support": "explicit",
+      "analyses": [
+        "A If you had、would you 标明设问，不是已发生经历。",
+        "B If you had 是假设候选池，不是实际调查样本人数。",
+        "C least once 的约会搜索不等于必须与第37人结婚。",
+        "D 后文还提成本与可能拒绝，不能保证互相接受。"
+      ],
+      "vocabulary": [
+        {
+          "word": "potential",
+          "meaning": "潜在的；可能作为选项的",
+          "context": "在假设中为尚未选定的可能对象，不是已有一百段确定关系。",
+          "example": "The model starts with a fixed number of potential options.",
+          "collocations": [
+            "100 potential mates",
+            "at least once"
+          ]
+        }
+      ],
+      "evidenceQuote": "If you had 100 potential mates, would you date 37 of them at least once and then start using the 37 percent rule until you find the best available one? Probably not. This is because dating so many people is costly, not only financially but also psychologically. In addition, even when you finally think you have found The One, that person might say no to your proposal."
+    },
+    {
+      "order": 6,
+      "prompt": "What does 'Probably not' indicate after the dating question?",
+      "promptZh": "约会设问后 Probably not 表示什么？",
+      "options": [
+        "A certainty that no person anywhere has ever tried extensive search.",
+        "A measured survey result that exactly half the population searches extensively.",
+        "The probability of exactly 37 percent stated as a measured result.",
+        "The author's qualified expectation that many would not undertake the proposed search."
+      ],
+      "optionsZh": [
+        "确定世界任何人都从未广泛搜索。",
+        "测得恰一半人广泛搜索的调查结果。",
+        "精确37%概率作为测量结果。",
+        "作者有保留地预计许多人不会这样搜索。"
+      ],
+      "answer": 3,
+      "type": "语气与范围",
+      "support": "explicit",
+      "analyses": [
+        "A probably 不是绝对 nobody ever。",
+        "B Probably not 没有给实测调查或精确一半的数字。",
+        "C 没给数值，不能把规则比例当回答概率。",
+        "D not 承接上一问，后文以经济心理成本及拒绝风险解释；保留推测而非普遍实测。"
+      ],
+      "vocabulary": [
+        {
+          "word": "Probably not",
+          "meaning": "大概不会；很可能不",
+          "context": "表达对设问的保留性否定，不是绝不可能或已知用户选择。",
+          "example": "Would everyone repeat the long process? Probably not.",
+          "collocations": [
+            "Probably not",
+            "dating so many people is costly"
+          ]
+        }
+      ],
+      "evidenceQuote": "If you had 100 potential mates, would you date 37 of them at least once and then start using the 37 percent rule until you find the best available one? Probably not. This is because dating so many people is costly, not only financially but also psychologically. In addition, even when you finally think you have found The One, that person might say no to your proposal."
+    },
+    {
+      "order": 7,
+      "prompt": "What does 'wasted' mean in 'your extensive search would be wasted'?",
+      "promptZh": "your extensive search would be wasted 中 wasted 是什么意思？",
+      "options": [
+        "The search is guaranteed to improve every person's final decision.",
+        "The search effort would fail to yield its intended useful outcome in the situation being considered.",
+        "The person would necessarily be physically injured by searching.",
+        "The search uses money only and has no psychological or time cost."
+      ],
+      "optionsZh": [
+        "保证搜索改善每个人最终决定。",
+        "在所考虑情形中，搜索投入未能带来所需有用结果。",
+        "搜索必然使人受身体伤害。",
+        "搜索只涉及钱，没有心理或时间投入。"
+      ],
+      "answer": 1,
+      "type": "语境词义",
+      "support": "explicit",
+      "analyses": [
+        "A wasted 与有用产出受保证相反。",
+        "B extensive effort could be fruitless 是该词语境，不只限金钱；would 保留所设情形。",
+        "C 无受伤结果，不能扩张负担。",
+        "D wasted 指努力未得所求收益，不把投入限为现金或取消其他成本。"
+      ],
+      "vocabulary": [
+        {
+          "word": "wasted",
+          "meaning": "白费的；未产生所求收益的",
+          "context": "修饰广泛搜索努力，不仅指垃圾或只损失现金。",
+          "example": "The preparation would be wasted if the required material never arrived.",
+          "collocations": [
+            "extensive search would be wasted",
+            "settle on the first person"
+          ]
+        }
+      ],
+      "evidenceQuote": "Then your extensive search would be wasted. It makes more sense to settle on the first person you like well enough who likes you back."
+    },
+    {
+      "order": 8,
+      "prompt": "How are extra search costs reduced in the laboratory examples?",
+      "promptZh": "实验室例子怎样减少额外搜索成本？",
+      "options": [
+        "By making participants arrange a real date at a new place each time.",
+        "By eliminating all decisions and giving everyone the same partner.",
+        "By using a simple action such as flipping another card instead of arranging a meeting.",
+        "By requiring that every search last several years."
+      ],
+      "optionsZh": [
+        "每次都安排新地点真实约会。",
+        "消除所有决定并给每人同一伴侣。",
+        "用再翻一张卡等简单动作，代替安排见面。",
+        "要求每次搜索持续数年。"
+      ],
+      "answer": 2,
+      "type": "研究设计",
+      "support": "explicit",
+      "analyses": [
+        "A 是被对照的高成本现实安排，不是减成本办法。",
+        "B 实验仍有选择任务，不是分配现实伴侣。",
+        "C e.g.just flipping...instead of time/location 对应操作差别。",
+        "D 无多年要求；minimize 和 little 不必等于所有成本严格零。"
+      ],
+      "vocabulary": [
+        {
+          "word": "minimize",
+          "meaning": "尽量减少；使尽可能小",
+          "context": "在此减额外搜索成本，不能绝对说全部成本已为零。",
+          "example": "The task was designed to minimize the effort needed for another choice.",
+          "collocations": [
+            "minimize additional search costs",
+            "flipping another card"
+          ]
+        }
+      ],
+      "evidenceQuote": "Nevertheless, it is interesting to know that psychologists have conducted a lot of secretary problem (SP) experiments that minimize additional search costs (e.g., just flipping another card instead of finding a time and location to meet a date). Even in an artificial lab experiment where the search cost is little, only a fraction of people use the optimal search strategy."
+    },
+    {
+      "order": 9,
+      "prompt": "Which comparison is reported for following the rule under experimental conditions?",
+      "promptZh": "实验条件下遵循规则的比例怎样比较？",
+      "options": [
+        "30 percent of students versus 17 percent of pigeons.",
+        "37 percent of students versus 30 percent of pigeons.",
+        "17 percent of students versus 30 percent of pigeons.",
+        "All students versus no pigeons."
+      ],
+      "optionsZh": [
+        "大学生30%，鸽子17%。",
+        "大学生37%，鸽子30%。",
+        "大学生17%，鸽子30%。",
+        "全部大学生，而鸽子零。"
+      ],
+      "answer": 0,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A 物种与数字均原文给出，且大学生稍高。",
+        "B 把策略名37%当跟随者比例，并移错鸽子数。",
+        "C 交换物种对应比例。",
+        "D only 部分群体，不是全有与全无；本实验跟随率不代表每种现实决策。"
+      ],
+      "vocabulary": [
+        {
+          "word": "under experimental conditions",
+          "meaning": "在实验条件下",
+          "context": "限制统计适用语境，不是已测所有学生和鸽子全部生活决定。",
+          "example": "The difference appeared under experimental conditions.",
+          "collocations": [
+            "30 percent of college students",
+            "17 percent followed the rule"
+          ]
+        }
+      ],
+      "evidenceQuote": "For instance, only 30 percent of college students followed the 37 percent rule under experimental conditions, though college students were slightly better than pigeons, of which only 17 percent followed the rule. Herbranson and colleagues concluded as follows: “Across three experiments, pigeons and humans failed to consistently use the optimal solution to the SP. Most importantly, both species failed to do so in the same way: They made selections too soon, before considering the ideal number of options.”"
+    },
+    {
+      "order": 10,
+      "prompt": "What common departure from the optimal solution do Herbranson and colleagues describe?",
+      "promptZh": "Herbranson 等描述两物种怎样共同偏离最优解？",
+      "options": [
+        "They both waited beyond every possible candidate without selecting.",
+        "Only pigeons selected too early, while all humans were optimal.",
+        "Neither species was ever able to make any selection at all.",
+        "Both tended to choose too soon, before considering the ideal number of options."
+      ],
+      "optionsZh": [
+        "两者都等到所有候选结束还不选择。",
+        "仅鸽子太早选，人全部最优。",
+        "两物种都完全无法作任何选择。",
+        "两者都在考察理想选项数之前过早选择。"
+      ],
+      "answer": 3,
+      "type": "研究结论",
+      "support": "explicit",
+      "analyses": [
+        "A too soon 是过早，不是等过全部。",
+        "B both species failed in same way，不能只归鸽子。",
+        "C failed to consistently use optimal 不等于不能选择或从未成功。",
+        "D full quoted conclusion 明确 before considering ideal number，保留三项实验范围。"
+      ],
+      "vocabulary": [
+        {
+          "word": "consistently",
+          "meaning": "稳定一贯地；持续按相同标准地",
+          "context": "否定 consistently 不必等于一次也没做到。",
+          "example": "The participants did not consistently apply the same rule.",
+          "collocations": [
+            "failed to consistently use",
+            "made selections too soon"
+          ]
+        }
+      ],
+      "evidenceQuote": "For instance, only 30 percent of college students followed the 37 percent rule under experimental conditions, though college students were slightly better than pigeons, of which only 17 percent followed the rule. Herbranson and colleagues concluded as follows: “Across three experiments, pigeons and humans failed to consistently use the optimal solution to the SP. Most importantly, both species failed to do so in the same way: They made selections too soon, before considering the ideal number of options.”"
+    },
+    {
+      "order": 11,
+      "prompt": "Whose argument links suboptimal mate selection to insufficient exploration?",
+      "promptZh": "谁的论点将不够理想的择偶与探索不足相连？",
+      "options": [
+        "Herbranson, reporting a study of pigeons choosing real mates.",
+        "Economists, as attributed by the author.",
+        "Kepler giving a recorded statement about the experiment.",
+        "Cohen and Todd, reporting randomly assigned marital durations."
+      ],
+      "optionsZh": [
+        "Herbranson，报告鸽子实际择偶研究。",
+        "作者归述的经济学家。",
+        "Kepler 对该实验留下的话。",
+        "Cohen 与 Todd，报告随机分派婚姻时长。"
+      ],
+      "answer": 1,
+      "type": "观点归属",
+      "support": "explicit",
+      "analyses": [
+        "A Herbranson 前文结论是秘书任务过早选择，当前现实择偶解释明确归 economists。",
+        "B economists argue 明确观点来源，不能作用户经历或普遍独立定理。",
+        "C 历史故事不等于 Kepler 对现代实验发言。",
+        "D 当前未如此归属，后续两位分析 CDC 观察数据也非随机分派婚姻时长。"
+      ],
+      "vocabulary": [
+        {
+          "word": "suboptimal",
+          "meaning": "非最优的；未达到模型或评价标准的最好结果",
+          "context": "不等于所有方面彻底失败，也不是对真实用户关系的评判。",
+          "example": "The model may classify a quick choice as suboptimal.",
+          "collocations": [
+            "make suboptimal choices",
+            "do not explore enough"
+          ]
+        }
+      ],
+      "evidenceQuote": "If people make a selection too early in a task with little search cost, then they are far more likely to make a selection too early in a real mating task with high search cost and rejection probability. Indeed, economists argue that people make suboptimal choices in mate selection because they do not explore enough. For most people, the more exploration they do, the better choices they make."
+    },
+    {
+      "order": 12,
+      "prompt": "What limitation is expressed by 'For most people' in the exploration claim?",
+      "promptZh": "探索主张中的 For most people 表达什么限定？",
+      "options": [
+        "The claim is restricted to exactly one named participant.",
+        "More exploration is said to guarantee perfection for every person without any cost.",
+        "The generalisation concerns most people, not an exceptionless guarantee for everyone.",
+        "The paragraph says exploration is irrelevant in every real decision."
+      ],
+      "optionsZh": [
+        "主张限于恰一位具名参与者。",
+        "更多探索保证每人毫无成本地完美。",
+        "概括面向多数人，而非对所有人无例外保证。",
+        "段落说探索对任何现实决定都无关。"
+      ],
+      "answer": 2,
+      "type": "语气与范围",
+      "support": "explicit",
+      "analyses": [
+        "A most 是多数，不是单人。",
+        "B 删掉人群限定，也忽略前文搜索成本与拒绝。",
+        "C 方向性概括有范围，不可升级为无限搜索始终更好或个人必得理想关系。",
+        "D 该段恰谈 exploration 与选择，不是否认相关性；保留作者论述来源。"
+      ],
+      "vocabulary": [
+        {
+          "word": "For most people",
+          "meaning": "对大多数人而言",
+          "context": "限定概括范围，不给个体确定预测，也不表示搜索成本不存在。",
+          "example": "For most people, the task required more than one comparison.",
+          "collocations": [
+            "For most people",
+            "the more exploration ... the better choices"
+          ]
+        }
+      ],
+      "evidenceQuote": "If people make a selection too early in a task with little search cost, then they are far more likely to make a selection too early in a real mating task with high search cost and rejection probability. Indeed, economists argue that people make suboptimal choices in mate selection because they do not explore enough. For most people, the more exploration they do, the better choices they make."
+    },
+    {
+      "order": 13,
+      "prompt": "Which source did Cohen and Todd analyse for real marital decisions?",
+      "promptZh": "Cohen 与 Todd 为研究真实婚姻决定分析什么来源？",
+      "options": [
+        "A new experiment randomly assigning marriage length to participants.",
+        "New marriage records personally collected through random assignments by Cohen and Todd.",
+        "Nationally representative data collected by the Centers for Disease Control.",
+        "The birds' laboratory card-flipping responses alone."
+      ],
+      "optionsZh": [
+        "给参与者随机分派婚姻长度的新实验。",
+        "Cohen 与 Todd 亲自随机分派后收集的新婚姻记录。",
+        "Centers for Disease Control 收集的全国代表性数据。",
+        "只有鸟在实验室翻卡的反应。"
+      ],
+      "answer": 2,
+      "type": "研究设计",
+      "support": "explicit",
+      "analyses": [
+        "A analysed data 非随机操纵婚姻或约会时长。",
+        "B analyzed CDC data 不等于两人通过随机分派亲自生成资料。",
+        "C 研究分析者是两位心理学家，资料收集来源为 CDC，角色不可互换。",
+        "D 鸟类实验是前文不同证据，不是此项真实婚姻数据。"
+      ],
+      "vocabulary": [
+        {
+          "word": "nationally representative",
+          "meaning": "具有全国代表性的",
+          "context": "描述样本覆盖与代表性，不自动让观察数据成为因果试验。",
+          "example": "The survey used nationally representative data.",
+          "collocations": [
+            "nationally representative data",
+            "collected by the Centers for Disease Control"
+          ]
+        }
+      ],
+      "evidenceQuote": "Psychologists Samantha Cohen and Peter Todd analyzed nationally representative data collected by the Centers for Disease Control to gain insight into the exploration-exploitation trade-off in real marital decisions. They learned that some people spend a long time dating several people before getting married, whereas others spend a short time dating a few and settle down quickly. In explore-exploit trade-off terminology, the first group explored for a long time before exploiting, whereas the second group explored for a short period before exploiting."
+    },
+    {
+      "order": 14,
+      "prompt": "What contrast in premarital search does the analysis describe?",
+      "promptZh": "分析描述婚前搜索的什么对照？",
+      "options": [
+        "Some date several people over longer periods, while others date a few and settle down sooner.",
+        "Everyone dates exactly twelve people for the same length of time.",
+        "Those who marry quickly always meet more people than those who search longer.",
+        "No difference is found in how people approach marriage."
+      ],
+      "optionsZh": [
+        "有人较久接触多人，有人短期接触少数人就安定。",
+        "每人都约会恰十二人、时长相同。",
+        "很快结婚者总比搜索久者接触更多人。",
+        "没发现人们走向婚姻的方式有差异。"
+      ],
+      "answer": 0,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A whereas 将时长与人数的两种模式并列，保留 some/others。",
+        "B 文中未给全体固定十二，更无同长保证。",
+        "C 当前对照恰是 long/several 与 short/few，不可反转再加 always。",
+        "D 描述多种模式，不是无差别；也非给每位现实个人下分类诊断。"
+      ],
+      "vocabulary": [
+        {
+          "word": "settle down",
+          "meaning": "安定下来；在这里指建立稳定伴侣关系",
+          "context": "与探索阶段相对，不是单指坐下或气温降低。",
+          "example": "The character travelled widely before deciding to settle down.",
+          "collocations": [
+            "date a few and settle down quickly",
+            "a long time dating several people"
+          ]
+        }
+      ],
+      "evidenceQuote": "Psychologists Samantha Cohen and Peter Todd analyzed nationally representative data collected by the Centers for Disease Control to gain insight into the exploration-exploitation trade-off in real marital decisions. They learned that some people spend a long time dating several people before getting married, whereas others spend a short time dating a few and settle down quickly. In explore-exploit trade-off terminology, the first group explored for a long time before exploiting, whereas the second group explored for a short period before exploiting."
+    },
+    {
+      "order": 15,
+      "prompt": "What do the animal-behaviour literature and simulations suggest here?",
+      "promptZh": "此处动物行为文献与模拟共同提示什么？",
+      "options": [
+        "All errors disappear whenever search continues indefinitely.",
+        "No exploratory information can ever improve a decision.",
+        "The CDC data alone prove every individual's future relationship outcome.",
+        "Insufficient exploration is linked in those accounts to more errors."
+      ],
+      "optionsZh": [
+        "只要无限搜索，全部错误便消失。",
+        "探索信息绝不能改善决定。",
+        "仅 CDC 数据证明每个人未来关系结果。",
+        "这些证据提示探索不足会有更多错误。"
+      ],
+      "answer": 3,
+      "type": "观点归属",
+      "support": "explicit",
+      "analyses": [
+        "A insufficient 与 more errors 不推出无限搜索必零错。",
+        "B 与所述方向相反。",
+        "C 原句来源是 literature 与 simulations，不是将 CDC 当个体预测仪。",
+        "D both suggest 保留证据来源与推断力度，不等于每个人每一选择都已因果确证。"
+      ],
+      "vocabulary": [
+        {
+          "word": "insufficient",
+          "meaning": "不足的；未达到所需程度的",
+          "context": "与 more errors 相连，不是声称任何有限搜索都无价值。",
+          "example": "Insufficient information made the comparison harder.",
+          "collocations": [
+            "insufficient exploration",
+            "suggest that ... more errors"
+          ]
+        }
+      ],
+      "evidenceQuote": "The animal behavior literature and computer simulations both suggest that insufficient exploration results in more errors. Of course, if one mate were far better than the rest, there would be no need to explore—the choice would be obvious. But in a real mating context, there are many potential mates with only slight differences in overall value. This means that it is better to explore more before settling down on one mate."
+    },
+    {
+      "order": 16,
+      "prompt": "What is the role of the case where one mate is far better than the rest?",
+      "promptZh": "一个对象远优于其余的情形起什么作用？",
+      "options": [
+        "It reports that every real choice always has such a clear winner.",
+        "It states a hypothetical exception in which extensive comparison would not be needed.",
+        "It proves all potential mates have exactly equal qualities.",
+        "It requires every reader to assign a numerical rank to real people."
+      ],
+      "optionsZh": [
+        "报告每个现实选择总有这样明显赢家。",
+        "提出一个假设例外：此时无需广泛比较。",
+        "证明所有潜在对象特征完全相同。",
+        "要求每位读者给真人数字排名。"
+      ],
+      "answer": 1,
+      "type": "逻辑关系",
+      "support": "explicit",
+      "analyses": [
+        "A if one...were 是假设，后面 But 转到真实情境差别较小。",
+        "B far better 会使选择 obvious，为探索必要性设条件边界。",
+        "C 说一位远优不是全同。",
+        "D 是作者模型论述，不是网站向用户分派现实择偶任务。"
+      ],
+      "vocabulary": [
+        {
+          "word": "obvious",
+          "meaning": "明显的；容易识别的",
+          "context": "在假设差别极大时无需许多额外信息，不表示现实每次都如此。",
+          "example": "If one option clearly meets every requirement, the choice may be obvious.",
+          "collocations": [
+            "the choice would be obvious",
+            "far better than the rest"
+          ]
+        }
+      ],
+      "evidenceQuote": "The animal behavior literature and computer simulations both suggest that insufficient exploration results in more errors. Of course, if one mate were far better than the rest, there would be no need to explore—the choice would be obvious. But in a real mating context, there are many potential mates with only slight differences in overall value. This means that it is better to explore more before settling down on one mate."
+    },
+    {
+      "order": 17,
+      "prompt": "What premise supports 'it is better to explore more' in this paragraph?",
+      "promptZh": "本段中，什么前提支持 it is better to explore more？",
+      "options": [
+        "Many potential options have only small differences, making comparison useful before settling.",
+        "The author has just proved one option is always overwhelmingly superior.",
+        "Searching is stated to have no possible costs under any circumstances.",
+        "The task has no alternatives, so no comparison can occur."
+      ],
+      "optionsZh": [
+        "许多可能选项差别较小，选定前比较有用。",
+        "作者刚证明永远有一个压倒性最佳。",
+        "已说任何情境搜索都绝无成本。",
+        "任务没有备选，无法比较。"
+      ],
+      "answer": 0,
+      "type": "逻辑关系",
+      "support": "explicit",
+      "analyses": [
+        "A 紧前 many potential mates with only slight differences 是 This means 的推理前提。",
+        "B far better 是上一假设例外，不是现实普遍结论。",
+        "C 当前未取消前文讨论的搜索成本。",
+        "D 多个备选明确存在；不把该推理扩成无限多搜索对每个个体总更好。"
+      ],
+      "vocabulary": [
+        {
+          "word": "settling down on",
+          "meaning": "选定；最终确定某一选项",
+          "context": "在此强调搜索后承诺选择的阶段，非保证选择永不变化。",
+          "example": "The group compared several designs before settling down on one.",
+          "collocations": [
+            "before settling down on one mate",
+            "only slight differences"
+          ]
+        }
+      ],
+      "evidenceQuote": "The animal behavior literature and computer simulations both suggest that insufficient exploration results in more errors. Of course, if one mate were far better than the rest, there would be no need to explore—the choice would be obvious. But in a real mating context, there are many potential mates with only slight differences in overall value. This means that it is better to explore more before settling down on one mate."
+    },
+    {
+      "order": 18,
+      "prompt": "What does 'on average' limit in the marital-stability statement?",
+      "promptZh": "婚姻稳定性句中的 on average 限制什么？",
+      "options": [
+        "It predicts that every longer search prevents every divorce.",
+        "It proves the researchers randomly assigned dating duration.",
+        "It describes an average association, allowing individual variation rather than guaranteeing an outcome.",
+        "It says no relationship can last without exactly 37 percent sampling."
+      ],
+      "optionsZh": [
+        "预测每次较长搜索都防止全部离婚。",
+        "证明研究者随机分派约会时长。",
+        "描述平均关联，允许个体不同而非保证结果。",
+        "说不精确考察37%就没有关系能长久。"
+      ],
+      "answer": 2,
+      "type": "语气与范围",
+      "support": "explicit",
+      "analyses": [
+        "A more likely、on average 都不是零例外保证。",
+        "B CDC 观察数据不是随机操纵时长。",
+        "C 当前群体数据关联不可单独升级为多约会必导致个人稳定。",
+        "D 没有精确37%作为所有婚姻必需阈值；区分统计倾向和强制规则。"
+      ],
+      "vocabulary": [
+        {
+          "word": "on average",
+          "meaning": "平均而言；就群体总体倾向看",
+          "context": "保留个体差异，不是每位参与者都等于平均数。",
+          "example": "On average, the groups differed, but individual responses varied.",
+          "collocations": [
+            "on average, the more exploration",
+            "marital stability"
+          ]
+        }
+      ],
+      "evidenceQuote": "The CDC data indicates that those who spend less time exploring (those who get married quickly after starting a serious relationship) are indeed more likely to end their marriage in divorce than those who spend more time exploring before marriage. So, on average, the more exploration, the more marital stability."
+    },
+    {
+      "order": 19,
+      "prompt": "What does 'consistent with the 37 percent rule' establish about the CDC data?",
+      "promptZh": "CDC 数据 consistent with the 37 percent rule 确立到哪一步？",
+      "options": [
+        "It proves the precise 37 percent threshold is optimal for every real marriage.",
+        "It makes every criticism of the rule impossible.",
+        "It says the data directly came from a randomised 37 percent dating assignment.",
+        "The described pattern is compatible with the rule, without by itself proving every exact prescription."
+      ],
+      "optionsZh": [
+        "证明精确37%阈值对每段现实婚姻都最优。",
+        "使对规则的一切批评都不可能。",
+        "说数据直接来自随机分派37%约会的任务。",
+        "所述模式与规则相容，但不单独证明每项精确处方。"
+      ],
+      "answer": 3,
+      "type": "证据判断",
+      "support": "explicit",
+      "analyses": [
+        "A consistent 不等于证实精确最优或全部关系的因果。",
+        "B However 后正介绍质疑。",
+        "C 资料为观察性婚姻数据，不是分派的实验比例。",
+        "D 相容与完全证成不同，不能让宽泛平均关联替代模型所有条件的验证。"
+      ],
+      "vocabulary": [
+        {
+          "word": "consistent with",
+          "meaning": "与……相符；不矛盾",
+          "context": "这里是证据相容性，不自动等于唯一解释、因果证明或精确参数估计。",
+          "example": "The result was consistent with the idea, but did not prove it on its own.",
+          "collocations": [
+            "data are consistent with",
+            "the 37 percent rule"
+          ]
+        }
+      ],
+      "evidenceQuote": "The CDC data are consistent with the 37 percent rule. However, Peter Todd and Geoffrey Miller take issue with the 37 percent rule on several grounds. For example, animals can’t really tell the difference between the best possible mate and a top 10 percent mate. Also, for animals, finding the best mate isn’t critical."
+    },
+    {
+      "order": 20,
+      "prompt": "What does 'take issue with' signal about Todd and Miller's position?",
+      "promptZh": "take issue with 表明 Todd 与 Miller 的何种立场？",
+      "options": [
+        "They reproduce the rule without any qualification.",
+        "They challenge aspects of the rule on several grounds.",
+        "They physically take a magazine issue from the researchers.",
+        "They reject the existence of all choice problems."
+      ],
+      "optionsZh": [
+        "毫无限定地重复规则。",
+        "从数个理由质疑规则的某些方面。",
+        "实际拿走研究者一期杂志。",
+        "否认一切选择问题存在。"
+      ],
+      "answer": 1,
+      "type": "语境词义",
+      "support": "explicit",
+      "analyses": [
+        "A However 与 take issue 表异议，不是无保留认可。",
+        "B on several grounds 后面给绝对最佳与前10%难分等理由。",
+        "C issue 此短语不是期刊期号的实体拿取。",
+        "D 对特定规则质疑不能扩大到否认所有决策问题。"
+      ],
+      "vocabulary": [
+        {
+          "word": "grounds",
+          "meaning": "理由；依据",
+          "context": "on several grounds 是多个论据，不是土壤或操场。",
+          "example": "The proposal was questioned on several grounds.",
+          "collocations": [
+            "take issue with",
+            "on several grounds"
+          ]
+        }
+      ],
+      "evidenceQuote": "The CDC data are consistent with the 37 percent rule. However, Peter Todd and Geoffrey Miller take issue with the 37 percent rule on several grounds. For example, animals can’t really tell the difference between the best possible mate and a top 10 percent mate. Also, for animals, finding the best mate isn’t critical."
+    },
+    {
+      "order": 21,
+      "prompt": "What alternative target is proposed by 'one of the best options'?",
+      "promptZh": "one of the best options 提出什么替代目标？",
+      "options": [
+        "Finding an option within a high-quality group, such as the top ten percent, rather than the unique best.",
+        "Selecting the worst available option as quickly as possible.",
+        "Guaranteeing that every possible option will be selected.",
+        "Treating exactly ten candidates as the whole pool regardless of its size."
+      ],
+      "optionsZh": [
+        "找高质量群体中一项，如前10%，而非唯一最佳。",
+        "尽快选最差可选项。",
+        "保证每个备选都会被选。",
+        "不论总量都把恰十人当整个池。"
+      ],
+      "answer": 0,
+      "type": "逻辑关系",
+      "support": "explicit",
+      "analyses": [
+        "A one of、e.g.top10percent 明示从唯一最优转为优质集合中的一项。",
+        "B best 不是 worst。",
+        "C one 不等于全部。",
+        "D top10percent 是质量分位，不是固定十个或池的总数；末尾 is 承接前文 critical 的省略，不另造新标准。"
+      ],
+      "vocabulary": [
+        {
+          "word": "criterion",
+          "meaning": "标准；衡量成功的要求",
+          "context": "本段从唯一最佳改为最佳者之一，最优搜索比例也随任务目标变化。",
+          "example": "Changing the criterion changed which strategy counted as successful.",
+          "collocations": [
+            "change the criterion",
+            "one of the best options"
+          ]
+        }
+      ],
+      "evidenceQuote": "Rather, being able to find one of the best options is (e.g., the top 10 percent). What if we change the criterion from the best option to one of the best options? Now a more cursory search—looking at the first 14 percent instead of the first 37 percent—yields the highest probability of success, when the number of potential mates is set to 100."
+    },
+    {
+      "order": 22,
+      "prompt": "For a pool of 1,000, what initial search proportion is reported for finding a top-ten-percent option?",
+      "promptZh": "候选池1,000时，为找到前10%一项，所报初始搜索比例是多少？",
+      "options": [
+        "Fourteen percent, the proportion from the 100-option case.",
+        "Thirty-seven percent under every possible success criterion.",
+        "Three percent.",
+        "Ten percent simply because the quality target is the top ten percent."
+      ],
+      "optionsZh": [
+        "100项情形中的14%。",
+        "不论成功标准都为37%。",
+        "3%。",
+        "因目标前10%所以搜索也10%。"
+      ],
+      "answer": 2,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A 将100项条件的14%挪给1,000项。",
+        "B 不同成功标准已改变策略，不能坚持全情境37%。",
+        "C set to1,000、just3percent、top10percent 三要素对应，不能混同池规模和质量阈值。",
+        "D top10%是质量目标，不是初始考察比例；模型概率最高也不是每次必成功。"
+      ],
+      "vocabulary": [
+        {
+          "word": "cursory",
+          "meaning": "较简略的；不作同等广泛考察的",
+          "context": "此处指初始搜索量更少，不等于文中已证明粗心必胜或无需比较。",
+          "example": "The revised model allowed a more cursory initial search.",
+          "collocations": [
+            "an even more cursory search",
+            "just 3 percent"
+          ]
+        }
+      ],
+      "evidenceQuote": "When the number of potential mates is set to 1,000, an even more cursory search of just 3 percent yields the highest probability of finding someone from the top 10 percent. In other words, if there were 100 potential mates, you would only need to look at the first 14 mates carefully and then pick the next mate that is better than the best one from the first 14."
+    },
+    {
+      "order": 23,
+      "prompt": "What does 'A lot more reasonable than the 37 percent rule' evaluate here?",
+      "promptZh": "A lot more reasonable than the 37 percent rule 在这里评价什么？",
+      "options": [
+        "The claim that every real relationship can be guaranteed by a formula.",
+        "A measured physical difference between human and pigeon brains.",
+        "An instruction to ignore all remaining choices after seeing only one person.",
+        "The practicality of the smaller initial search described for the 1,000-option case."
+      ],
+      "optionsZh": [
+        "公式能保证每段真实关系的主张。",
+        "人脑鸟脑之间测得的身体差异。",
+        "只见一人便忽略所有剩余选择的指令。",
+        "所述1,000项情形较小初始搜索量的实际可行性。"
+      ],
+      "answer": 3,
+      "type": "作者意图",
+      "support": "explicit",
+      "analyses": [
+        "A reasonable 是作者比较评价，不是关系结果保证。",
+        "B 此段谈搜索策略，不是脑测量。",
+        "C 前句考察30个并继续选超过样本最佳者，不是一人就停。",
+        "D 在1000潜在选项先看30的说明后作可行性比较，仍属模型应用论述。"
+      ],
+      "vocabulary": [
+        {
+          "word": "reasonable",
+          "meaning": "合理的；在所述条件下较可行的",
+          "context": "评价搜索负担，不自动等于已证每种现实问题绝对最优。",
+          "example": "The shorter initial search seemed more reasonable under the revised goal.",
+          "collocations": [
+            "A lot more reasonable than",
+            "the first 30"
+          ]
+        }
+      ],
+      "evidenceQuote": "In the case of 1,000 potential mates, you would need to look at 30 mates carefully and pick the next one that is better than the best of the first 30. A lot more reasonable than the 37 percent rule."
+    },
+    {
+      "order": 24,
+      "prompt": "What goal is attributed to the 'take a dozen' heuristic?",
+      "promptZh": "take a dozen 经验规则被归述有什么目标？",
+      "options": [
+        "Hiring exactly twelve people at the same time.",
+        "Doing a fairly good job of finding an option in the top ten percent.",
+        "Guaranteeing the single best option in every possible case.",
+        "Proving that no further choice is needed after the twelfth candidate."
+      ],
+      "optionsZh": [
+        "同时恰雇十二人。",
+        "在找到前10%选项方面表现相当不错。",
+        "保证每个可能情形都选唯一最佳。",
+        "证明第十二人之后不再需要选择。"
+      ],
+      "answer": 1,
+      "type": "观点归属",
+      "support": "explicit",
+      "analyses": [
+        "A take a dozen 是先考察的启发规则，不是同时录用数。",
+        "B Todd and Miller argue...pretty good...top10percent 对应归属、强度与成功目标。",
+        "C 较好机会找优质一项不是 guaranteed unique best。",
+        "D 当前没有自动选第12人的规则；不把经验规则写成普遍无条件定理。"
+      ],
+      "vocabulary": [
+        {
+          "word": "heuristic",
+          "meaning": "启发式；经验性简化决策规则",
+          "context": "区别严格保证每次最优的算法或必须遵守的法律。",
+          "example": "The article proposes a heuristic for narrowing the options.",
+          "collocations": [
+            "the take a dozen heuristic",
+            "a top 10 percent option"
+          ]
+        }
+      ],
+      "evidenceQuote": "In the end, Todd and Miller argue that the “take a dozen” heuristic, regardless of the problem set, does a pretty good job of finding a top 10 percent option. This means when you next look for a new romantic partner or a new apartment, you had better consider at least a dozen before making a decision."
+    },
+    {
+      "order": 25,
+      "prompt": "Which non-romantic search does the author include in applying the heuristic?",
+      "promptZh": "作者应用这一经验规则时，列出哪项非恋爱搜索？",
+      "options": [
+        "Finding a new apartment.",
+        "Choosing a species of bird for a laboratory experiment.",
+        "Checking a film critic's exact review count.",
+        "Selecting the final NBA playoff opponent."
+      ],
+      "optionsZh": [
+        "找新公寓。",
+        "选择实验室鸟种。",
+        "查影评人精确评论数。",
+        "挑 NBA 季后赛最终对手。"
+      ],
+      "answer": 0,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A new romantic partner or a new apartment 两个例中后者明确。",
+        "B 鸟类属于前文不同研究，不在此应用清单。",
+        "C Ebert 是前章例，不是该规则任务。",
+        "D 不是挑体育对手；consider at least a dozen 表最低考察数，非网站要求用户实际租房或拥有十二段关系。"
+      ],
+      "vocabulary": [
+        {
+          "word": "at least a dozen",
+          "meaning": "至少一打；不少于十二个",
+          "context": "在作者应用例中为考察下限，不等于只许精确十二、十二套都购买或十二次婚姻。",
+          "example": "The fictional planner considered at least a dozen options before choosing.",
+          "collocations": [
+            "consider at least a dozen",
+            "before making a decision"
+          ]
+        }
+      ],
+      "evidenceQuote": "In the end, Todd and Miller argue that the “take a dozen” heuristic, regardless of the problem set, does a pretty good job of finding a top 10 percent option. This means when you next look for a new romantic partner or a new apartment, you had better consider at least a dozen before making a decision."
+    }
+  ]
+}
