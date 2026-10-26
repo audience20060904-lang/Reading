@@ -87632,5 +87632,2063 @@
     ],
     "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
     "fingerprint": "0e8e776f703db3a16ce2c5fad5d0f6077a2b3af134f224a545199528012aac29"
+  },
+  {
+    "id": "qe-c10-0128",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-044",
+    "parentQuestionId": "q-c10-078",
+    "chapterId": "c10",
+    "sectionId": "c10-s07",
+    "paragraphId": "c10-s07-p115-05430",
+    "readingUnitId": "c10-s07-p115-05430-r001-004",
+    "sentenceIds": [
+      "c10-s07-p115-05430-s001",
+      "c10-s07-p115-05430-s002",
+      "c10-s07-p115-05430-s003",
+      "c10-s07-p115-05430-s004"
+    ],
+    "passage": "When I studied abroad at Bates, there were only three other Japanese students: Yoko, Kiyomi, and Mariko. I am ashamed to say that I hung out with those three Japanese students far more than I probably should have. Why did I go all the way from Tokyo to Lewiston, Maine, to hang out with other Japanese people? It doesn’t make rational sense, but psychologically it does.",
+    "prompt": "What puzzle does the author raise about going from Tokyo to Lewiston?",
+    "promptZh": "作者对从 Tokyo 到 Lewiston 提出什么困惑？",
+    "options": [
+      "Why the university had no international students of any kind.",
+      "Why he had never left Japan at all.",
+      "Why all Japanese students were incapable of understanding one another.",
+      "Why he travelled so far yet spent so much time with other Japanese students."
+    ],
+    "optionsZh": [
+      "为何大学完全没有任何留学生。",
+      "为何自己从未离开日本。",
+      "为何所有日本学生都不能互相理解。",
+      "为何远行后仍如此多地与其他日本学生来往。"
+    ],
+    "answer": 3,
+    "type": "作者意图",
+    "support": "explicit",
+    "analyses": [
+      "A only three other Japanese 不等于没有所有国籍留学生。",
+      "B Tokyo to Lewiston 明确已远行。",
+      "C 下一段谈相互理解，且不能泛化所有人能力。",
+      "D 自问反思探索目的与偏熟悉来往之间的反差，是作者个人回忆，不是对用户或全体国籍群体的评判。"
+    ],
+    "vocabulary": [
+      {
+        "word": "all the way",
+        "meaning": "不远千里地；一路到那么远",
+        "context": "突出远行投入与仍偏熟悉交往的反差，不是说途中每处都住过。",
+        "example": "She went all the way to another city to attend the event.",
+        "collocations": [
+          "all the way from Tokyo to Lewiston",
+          "hang out with"
+        ]
+      }
+    ],
+    "translation": "我在 Bates 留学时，只有另外三名日本学生：Yoko、Kiyomi、Mariko。惭愧地说，我与他们相处的时间，大概远超本应花的时间。我为何从 Tokyo 千里迢迢到缅因州 Lewiston，还是与其他日本人来往？理性上说不通，心理上却说得通。",
+    "evidenceTargetIds": [
+      "c10-s07-p115-05430-s003"
+    ],
+    "evidence": [
+      {
+        "quote": "When I studied abroad at Bates, there were only three other Japanese students: Yoko, Kiyomi, and Mariko. I am ashamed to say that I hung out with those three Japanese students far more than I probably should have. Why did I go all the way from Tokyo to Lewiston, Maine, to hang out with other Japanese people? It doesn’t make rational sense, but psychologically it does.",
+        "sentenceIds": [
+          "c10-s07-p115-05430-s001",
+          "c10-s07-p115-05430-s002",
+          "c10-s07-p115-05430-s003",
+          "c10-s07-p115-05430-s004"
+        ],
+        "sources": [
+          {
+            "pdfPage": 115,
+            "block": 3,
+            "bbox": [
+              76.99,
+              543,
+              535.01,
+              694.02
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "18342f2b4f4093f0bbce76fd8d4299fd0a45bb8b4f3df632200ea8ddba9e8585"
+  },
+  {
+    "id": "qe-c10-0129",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-044",
+    "parentQuestionId": "q-c10-078",
+    "chapterId": "c10",
+    "sectionId": "c10-s07",
+    "paragraphId": "c10-s07-p115-05430",
+    "readingUnitId": "c10-s07-p115-05430-r001-004",
+    "sentenceIds": [
+      "c10-s07-p115-05430-s001",
+      "c10-s07-p115-05430-s002",
+      "c10-s07-p115-05430-s003",
+      "c10-s07-p115-05430-s004"
+    ],
+    "passage": "When I studied abroad at Bates, there were only three other Japanese students: Yoko, Kiyomi, and Mariko. I am ashamed to say that I hung out with those three Japanese students far more than I probably should have. Why did I go all the way from Tokyo to Lewiston, Maine, to hang out with other Japanese people? It doesn’t make rational sense, but psychologically it does.",
+    "prompt": "What contrast is made by 'rational sense' versus 'psychologically it does'?",
+    "promptZh": "rational sense 与 psychologically it does 作什么对照？",
+    "options": [
+      "The behaviour may be hard to justify rationally while still being psychologically understandable.",
+      "The author says the behaviour has no psychological explanation of any kind.",
+      "The author proves all familiar choices are mathematically optimal.",
+      "The phrase establishes a diagnosis for every student at Bates."
+    ],
+    "optionsZh": [
+      "行为理性上难说通，心理上却可以理解。",
+      "作者说行为绝无心理解释。",
+      "作者证明所有熟悉选择都数学最优。",
+      "该句确立每位 Bates 学生的诊断。"
+    ],
+    "answer": 0,
+    "type": "逻辑关系",
+    "support": "explicit",
+    "analyses": [
+      "A doesn’t...but...does 对两个解释角度作区别，后一个 does 省略 make sense。",
+      "B psychologically it does 明确相反。",
+      "C 心理可理解不等于理性或数学最优。",
+      "D 反思不是诊断，也不扩到每位同学；不凭当前短段虚构完整新实验。"
+    ],
+    "vocabulary": [
+      {
+        "word": "make rational sense",
+        "meaning": "说得通；有可理解的解释",
+        "context": "这里区分理性评估与心理理解，不是断言两者永远冲突。",
+        "example": "The choice seemed inefficient, but emotionally it made sense.",
+        "collocations": [
+          "doesn’t make rational sense",
+          "psychologically it does"
+        ]
+      }
+    ],
+    "translation": "我在 Bates 留学时，只有另外三名日本学生：Yoko、Kiyomi、Mariko。惭愧地说，我与他们相处的时间，大概远超本应花的时间。我为何从 Tokyo 千里迢迢到缅因州 Lewiston，还是与其他日本人来往？理性上说不通，心理上却说得通。",
+    "evidenceTargetIds": [
+      "c10-s07-p115-05430-s004"
+    ],
+    "evidence": [
+      {
+        "quote": "When I studied abroad at Bates, there were only three other Japanese students: Yoko, Kiyomi, and Mariko. I am ashamed to say that I hung out with those three Japanese students far more than I probably should have. Why did I go all the way from Tokyo to Lewiston, Maine, to hang out with other Japanese people? It doesn’t make rational sense, but psychologically it does.",
+        "sentenceIds": [
+          "c10-s07-p115-05430-s001",
+          "c10-s07-p115-05430-s002",
+          "c10-s07-p115-05430-s003",
+          "c10-s07-p115-05430-s004"
+        ],
+        "sources": [
+          {
+            "pdfPage": 115,
+            "block": 3,
+            "bbox": [
+              76.99,
+              543,
+              535.01,
+              694.02
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "57f7ff4aeec66e8e613a8368927d72b8e30409878d814953b85c06bba072e3a2"
+  },
+  {
+    "id": "qe-c10-0130",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-044",
+    "parentQuestionId": "q-c10-079",
+    "chapterId": "c10",
+    "sectionId": "c10-s07",
+    "paragraphId": "c10-s07-p115-05430",
+    "readingUnitId": "c10-s07-p115-05430-r005-008",
+    "sentenceIds": [
+      "c10-s07-p115-05430-s005",
+      "c10-s07-p115-05430-s006",
+      "c10-s07-p115-05430-s007",
+      "c10-s07-p115-05430-s008"
+    ],
+    "passage": "We can commiserate and understand each other. Familiarity is a powerful force. It gives us comfort. It’s a psychological teddy bear.",
+    "prompt": "What does 'commiserate' mean in the sentence about understanding each other?",
+    "promptZh": "相互理解句中的 commiserate 是什么意思？",
+    "options": [
+      "Compete to show whose difficulties are objectively greatest.",
+      "Guarantee that every opinion and personality trait is identical.",
+      "Share sympathy about one another's difficulties.",
+      "Prove that none of them ever experiences discomfort."
+    ],
+    "optionsZh": [
+      "比赛证明谁的困难客观最大。",
+      "保证每项观点人格都相同。",
+      "对彼此困难共感、相互体谅。",
+      "证明没有任何人感到不适。"
+    ],
+    "answer": 2,
+    "type": "语境词义",
+    "support": "explicit",
+    "analyses": [
+      "A 共感不是困难排名比赛。",
+      "B understand each other 不证明客观特质全同。",
+      "C commiserate 与理解并列，说明能互相体谅支持。",
+      "D 感到困难才可能互相安慰，不是证明从无不适；We can 也不是所有同国者必然共感。"
+    ],
+    "vocabulary": [
+      {
+        "word": "commiserate",
+        "meaning": "共感困难；同病相怜地互相安慰",
+        "context": "不是共同庆祝胜利或彼此性格完全相同。",
+        "example": "The travellers commiserated about the difficulties of adapting to a new place.",
+        "collocations": [
+          "commiserate and understand each other",
+          "give us comfort"
+        ]
+      }
+    ],
+    "translation": "我们能同病相怜、相互理解。熟悉是一股强大力量。它给我们安慰。它是一只心理上的泰迪熊。",
+    "evidenceTargetIds": [
+      "c10-s07-p115-05430-s005"
+    ],
+    "evidence": [
+      {
+        "quote": "We can commiserate and understand each other. Familiarity is a powerful force. It gives us comfort. It’s a psychological teddy bear.",
+        "sentenceIds": [
+          "c10-s07-p115-05430-s005",
+          "c10-s07-p115-05430-s006",
+          "c10-s07-p115-05430-s007",
+          "c10-s07-p115-05430-s008"
+        ],
+        "sources": [
+          {
+            "pdfPage": 115,
+            "block": 3,
+            "bbox": [
+              76.99,
+              543,
+              535.01,
+              694.02
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "3be149499056e4db2c079e547e54694ceef49b5ca5dfa79de4453be79cbe9f45"
+  },
+  {
+    "id": "qe-c10-0131",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-044",
+    "parentQuestionId": "q-c10-079",
+    "chapterId": "c10",
+    "sectionId": "c10-s07",
+    "paragraphId": "c10-s07-p115-05430",
+    "readingUnitId": "c10-s07-p115-05430-r005-008",
+    "sentenceIds": [
+      "c10-s07-p115-05430-s005",
+      "c10-s07-p115-05430-s006",
+      "c10-s07-p115-05430-s007",
+      "c10-s07-p115-05430-s008"
+    ],
+    "passage": "We can commiserate and understand each other. Familiarity is a powerful force. It gives us comfort. It’s a psychological teddy bear.",
+    "prompt": "What explains calling familiarity 'a powerful force' in this short passage?",
+    "promptZh": "短段为何称熟悉感为 a powerful force？",
+    "options": [
+      "It exerts a measured physical force that moves every person.",
+      "It provides emotional comfort, illustrated by the psychological-teddy-bear metaphor.",
+      "It guarantees the objectively best outcome in every decision.",
+      "It removes the need for any social contact or understanding."
+    ],
+    "optionsZh": [
+      "它施加测得的物理力移动每个人。",
+      "它提供情绪安慰，以心理泰迪熊比喻说明。",
+      "它保证每个决定都客观最佳。",
+      "它消除所有交往理解需要。"
+    ],
+    "answer": 1,
+    "type": "主旨",
+    "support": "explicit",
+    "analyses": [
+      "A force 是影响力比喻，不是牛顿力学测量。",
+      "B gives us comfort 与 psychological teddy bear 展开熟悉感的安慰作用。",
+      "C 强影响不等于总最优，前段恰反思理性与心理区别。",
+      "D 前句相互理解，而非取消交往；不把泰迪熊当实际送给用户的物品。"
+    ],
+    "vocabulary": [
+      {
+        "word": "comfort",
+        "meaning": "安慰；情绪上的安心感",
+        "context": "此处为熟悉带来的心理支持，不专指家具的身体舒适度或客观决策正确。",
+        "example": "The familiar language gave the traveller comfort.",
+        "collocations": [
+          "It gives us comfort",
+          "a psychological teddy bear"
+        ]
+      }
+    ],
+    "translation": "我们能同病相怜、相互理解。熟悉是一股强大力量。它给我们安慰。它是一只心理上的泰迪熊。",
+    "evidenceTargetIds": [
+      "c10-s07-p115-05430-s006"
+    ],
+    "evidence": [
+      {
+        "quote": "We can commiserate and understand each other. Familiarity is a powerful force. It gives us comfort. It’s a psychological teddy bear.",
+        "sentenceIds": [
+          "c10-s07-p115-05430-s005",
+          "c10-s07-p115-05430-s006",
+          "c10-s07-p115-05430-s007",
+          "c10-s07-p115-05430-s008"
+        ],
+        "sources": [
+          {
+            "pdfPage": 115,
+            "block": 3,
+            "bbox": [
+              76.99,
+              543,
+              535.01,
+              694.02
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "df4819e1c4ba7af1be95630a9ab7bf89ece3fcd255fc1338496df8432223a9bc"
+  },
+  {
+    "id": "qe-c10-0132",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-044",
+    "parentQuestionId": "q-c10-081",
+    "chapterId": "c10",
+    "sectionId": "c10-s08",
+    "paragraphId": "c10-s08-p116-01650",
+    "readingUnitId": "c10-s08-p116-01650-r001-004",
+    "sentenceIds": [
+      "c10-s08-p116-01650-s001",
+      "c10-s08-p116-01650-s002",
+      "c10-s08-p116-01650-s003",
+      "c10-s08-p116-01650-s004"
+    ],
+    "passage": "Take house hunting, for example. When you moved to a new city, where did you rent first? If you eventually bought a house in that city, where was it? In Japanese, there is a proverb, Sumeba Miyako: once you live somewhere, whatever city you land in (even an undesirable one) becomes your capital (best) city.",
+    "prompt": "What does 'Take house hunting, for example' do at the start of the next discussion?",
+    "promptZh": "下一讨论开头 Take house hunting,for example 做什么？",
+    "options": [
+      "It introduces housing search as an illustration of the familiarity discussion.",
+      "It tells the website to purchase a property for the reader.",
+      "It proves every housing market has the same prices today.",
+      "It replaces the topic with hunting animals inside a house."
+    ],
+    "optionsZh": [
+      "引入找房作为熟悉性讨论的例子。",
+      "命令网站替读者购房。",
+      "证明今天每处房市价格相同。",
+      "把话题换成屋内猎捕动物。"
+    ],
+    "answer": 0,
+    "type": "篇章结构",
+    "support": "explicit",
+    "analyses": [
+      "A for example 直接说明举例功能，接初租与后购的问题。",
+      "B 书中行文指向例证，不是外部购房授权。",
+      "C 无现价、市场数据或全市场等同结论。",
+      "D house hunting 是找房复合表达，不是猎捕；这不是给用户个人置业建议。"
+    ],
+    "vocabulary": [
+      {
+        "word": "house hunting",
+        "meaning": "找房；寻找可租或可买的住房",
+        "context": "非字面打猎，且这里只是书中说明熟悉偏误的情境。",
+        "example": "The story uses house hunting to illustrate repeated choices.",
+        "collocations": [
+          "Take house hunting,for example",
+          "where did you rent first"
+        ]
+      }
+    ],
+    "translation": "以找房为例。搬到新城市时，你最初在哪租房？如果最终在那里买房，又在哪买？日语谚语 Sumeba Miyako 说：一旦住在某地，无论落在哪座城，即使起初不理想，它也会成为你的都城，也就是最好的城市。",
+    "evidenceTargetIds": [
+      "c10-s08-p116-01650-s001"
+    ],
+    "evidence": [
+      {
+        "quote": "Take house hunting, for example. When you moved to a new city, where did you rent first? If you eventually bought a house in that city, where was it? In Japanese, there is a proverb, Sumeba Miyako: once you live somewhere, whatever city you land in (even an undesirable one) becomes your capital (best) city.",
+        "sentenceIds": [
+          "c10-s08-p116-01650-s001",
+          "c10-s08-p116-01650-s002",
+          "c10-s08-p116-01650-s003",
+          "c10-s08-p116-01650-s004"
+        ],
+        "sources": [
+          {
+            "pdfPage": 116,
+            "block": 2,
+            "bbox": [
+              76.99,
+              165,
+              535.01,
+              413.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "52c1787b3ff5c03191397b591bedab16d22b4f5fada809f59a246d64b9952b39"
+  },
+  {
+    "id": "qe-c10-0133",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-044",
+    "parentQuestionId": "q-c10-081",
+    "chapterId": "c10",
+    "sectionId": "c10-s08",
+    "paragraphId": "c10-s08-p116-01650",
+    "readingUnitId": "c10-s08-p116-01650-r001-004",
+    "sentenceIds": [
+      "c10-s08-p116-01650-s001",
+      "c10-s08-p116-01650-s002",
+      "c10-s08-p116-01650-s003",
+      "c10-s08-p116-01650-s004"
+    ],
+    "passage": "Take house hunting, for example. When you moved to a new city, where did you rent first? If you eventually bought a house in that city, where was it? In Japanese, there is a proverb, Sumeba Miyako: once you live somewhere, whatever city you land in (even an undesirable one) becomes your capital (best) city.",
+    "prompt": "What location does the first reader-directed question ask about?",
+    "promptZh": "第一个面向读者的问句询问哪种地点？",
+    "options": [
+      "The neighbourhood chosen after the last house was sold.",
+      "The eventual purchase location after an initial rental.",
+      "The first rental location after moving to a new city.",
+      "The birthplace of every couple in the Dutch study."
+    ],
+    "optionsZh": [
+      "最后一套卖掉后所选街区。",
+      "初次租住之后最终购房的地点。",
+      "搬入新城市后的最初租住地点。",
+      "荷兰研究每对伴侣的出生地。"
+    ],
+    "answer": 2,
+    "type": "细节",
+    "support": "explicit",
+    "analyses": [
+      "A first rent 不是最后卖房后选择。",
+      "B 这是下一问 If eventually bought 的变量，不是首问 rent first。",
+      "C moved new city、rent first 两个时间条件明确。",
+      "D 出生地属于前研究不同变量；问句不等于网站已知道或记录用户租房史。"
+    ],
+    "vocabulary": [
+      {
+        "word": "rent",
+        "meaning": "租住；付租金使用住房",
+        "context": "与下一问 bought 的购入产权区分，不从提问假定用户实际租买。",
+        "example": "In the fictional example, the family rented before buying.",
+        "collocations": [
+          "where did you rent first",
+          "moved to a new city"
+        ]
+      }
+    ],
+    "translation": "以找房为例。搬到新城市时，你最初在哪租房？如果最终在那里买房，又在哪买？日语谚语 Sumeba Miyako 说：一旦住在某地，无论落在哪座城，即使起初不理想，它也会成为你的都城，也就是最好的城市。",
+    "evidenceTargetIds": [
+      "c10-s08-p116-01650-s002"
+    ],
+    "evidence": [
+      {
+        "quote": "Take house hunting, for example. When you moved to a new city, where did you rent first? If you eventually bought a house in that city, where was it? In Japanese, there is a proverb, Sumeba Miyako: once you live somewhere, whatever city you land in (even an undesirable one) becomes your capital (best) city.",
+        "sentenceIds": [
+          "c10-s08-p116-01650-s001",
+          "c10-s08-p116-01650-s002",
+          "c10-s08-p116-01650-s003",
+          "c10-s08-p116-01650-s004"
+        ],
+        "sources": [
+          {
+            "pdfPage": 116,
+            "block": 2,
+            "bbox": [
+              76.99,
+              165,
+              535.01,
+              413.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "3fd226c6fcdbb27cb9b94cedf8908d32940e8684926bd7362b41a875793b9567"
+  },
+  {
+    "id": "qe-c10-0134",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-044",
+    "parentQuestionId": "q-c10-081",
+    "chapterId": "c10",
+    "sectionId": "c10-s08",
+    "paragraphId": "c10-s08-p116-01650",
+    "readingUnitId": "c10-s08-p116-01650-r001-004",
+    "sentenceIds": [
+      "c10-s08-p116-01650-s001",
+      "c10-s08-p116-01650-s002",
+      "c10-s08-p116-01650-s003",
+      "c10-s08-p116-01650-s004"
+    ],
+    "passage": "Take house hunting, for example. When you moved to a new city, where did you rent first? If you eventually bought a house in that city, where was it? In Japanese, there is a proverb, Sumeba Miyako: once you live somewhere, whatever city you land in (even an undesirable one) becomes your capital (best) city.",
+    "prompt": "What does 'If you eventually bought a house' preserve?",
+    "promptZh": "If you eventually bought a house 保留什么？",
+    "options": [
+      "A claim that every reader has already bought a house.",
+      "A guarantee that buying occurred before renting.",
+      "An instruction that the reader must purchase immediately.",
+      "Buying is a conditional later possibility, not an assumed fact about every reader."
+    ],
+    "optionsZh": [
+      "每位读者已经买房的断言。",
+      "保证买在租之前。",
+      "要求读者立刻购买的指令。",
+      "买房是条件性的后续可能，不是对每位读者已发生的假定。"
+    ],
+    "answer": 3,
+    "type": "语气与范围",
+    "support": "explicit",
+    "analyses": [
+      "A If 不应删成已知所有人历史。",
+      "B eventually 指最终后来，不能倒置为此前购买。",
+      "C 设问不是现实财务行动要求。",
+      "D 条件与 eventually 保留，随后问地点以引出熟悉环境的例子，不伪造个人备份资料。"
+    ],
+    "vocabulary": [
+      {
+        "word": "eventually",
+        "meaning": "最终；后来经过一段过程",
+        "context": "与 immediately 区别，也不是每人必然有这一步的证明。",
+        "example": "The family eventually decided to remain in the neighbourhood.",
+        "collocations": [
+          "If you eventually bought a house",
+          "where was it"
+        ]
+      }
+    ],
+    "translation": "以找房为例。搬到新城市时，你最初在哪租房？如果最终在那里买房，又在哪买？日语谚语 Sumeba Miyako 说：一旦住在某地，无论落在哪座城，即使起初不理想，它也会成为你的都城，也就是最好的城市。",
+    "evidenceTargetIds": [
+      "c10-s08-p116-01650-s003"
+    ],
+    "evidence": [
+      {
+        "quote": "Take house hunting, for example. When you moved to a new city, where did you rent first? If you eventually bought a house in that city, where was it? In Japanese, there is a proverb, Sumeba Miyako: once you live somewhere, whatever city you land in (even an undesirable one) becomes your capital (best) city.",
+        "sentenceIds": [
+          "c10-s08-p116-01650-s001",
+          "c10-s08-p116-01650-s002",
+          "c10-s08-p116-01650-s003",
+          "c10-s08-p116-01650-s004"
+        ],
+        "sources": [
+          {
+            "pdfPage": 116,
+            "block": 2,
+            "bbox": [
+              76.99,
+              165,
+              535.01,
+              413.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "a2892782c3b4ddb4d88efb36dc25f74559b5d24ca49b3a9004e68b1652bc796d"
+  },
+  {
+    "id": "qe-c10-0135",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-044",
+    "parentQuestionId": "q-c10-082",
+    "chapterId": "c10",
+    "sectionId": "c10-s08",
+    "paragraphId": "c10-s08-p116-01650",
+    "readingUnitId": "c10-s08-p116-01650-r005-008",
+    "sentenceIds": [
+      "c10-s08-p116-01650-s005",
+      "c10-s08-p116-01650-s006",
+      "c10-s08-p116-01650-s007",
+      "c10-s08-p116-01650-s008"
+    ],
+    "passage": "When I first moved to the University of Minnesota, we rented an apartment in downtown Saint Paul for one year. Most folks recommended Uptown Minneapolis. Indeed, at first we found downtown Saint Paul less convenient than Uptown. But we found a coffee shop we liked.",
+    "prompt": "Where and for how long did the author initially rent after moving to Minnesota?",
+    "promptZh": "搬到 Minnesota 后，作者最初在哪租住多久？",
+    "options": [
+      "Uptown Minneapolis for exactly ten years.",
+      "Downtown Saint Paul for one year.",
+      "North Downtown Charlottesville before going to Minnesota.",
+      "A condo he had already bought in Tokyo for a week."
+    ],
+    "optionsZh": [
+      "Uptown Minneapolis 恰十年。",
+      "Saint Paul 市中心一年。",
+      "去 Minnesota 前的 Charlottesville North Downtown。",
+      "Tokyo 已买产权公寓一周。"
+    ],
+    "answer": 1,
+    "type": "细节",
+    "support": "explicit",
+    "analyses": [
+      "A Uptown 是别人推荐地点，十年属后来家庭住房叙述。",
+      "B rented apartment、downtown SaintPaul、one year 三项原文明示。",
+      "C 后面的城市顺序被倒置。",
+      "D 租与买、城市、时长都错；按书中回忆而非现行租房推荐。"
+    ],
+    "vocabulary": [
+      {
+        "word": "rented an apartment",
+        "meaning": "租了一套公寓",
+        "context": "区别已买 condo 或 house，不把居住地点与任教大学名称当同一市区。",
+        "example": "The narrator rented an apartment while learning about the city.",
+        "collocations": [
+          "rented an apartment in downtown Saint Paul",
+          "for one year"
+        ]
+      }
+    ],
+    "translation": "初到 University of Minnesota 时，我们在 Saint Paul 市中心租了一年公寓。大多数人推荐 Uptown Minneapolis。起初，我们确实觉得 Saint Paul 市中心不如 Uptown 方便。但我们找到一家喜欢的咖啡店。",
+    "evidenceTargetIds": [
+      "c10-s08-p116-01650-s005"
+    ],
+    "evidence": [
+      {
+        "quote": "When I first moved to the University of Minnesota, we rented an apartment in downtown Saint Paul for one year. Most folks recommended Uptown Minneapolis. Indeed, at first we found downtown Saint Paul less convenient than Uptown. But we found a coffee shop we liked.",
+        "sentenceIds": [
+          "c10-s08-p116-01650-s005",
+          "c10-s08-p116-01650-s006",
+          "c10-s08-p116-01650-s007",
+          "c10-s08-p116-01650-s008"
+        ],
+        "sources": [
+          {
+            "pdfPage": 116,
+            "block": 2,
+            "bbox": [
+              76.99,
+              165,
+              535.01,
+              413.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "b2405f3fcd5871c858deb7d1d4cab180b4b2e887b14d215db91911b7616936df"
+  },
+  {
+    "id": "qe-c10-0136",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-044",
+    "parentQuestionId": "q-c10-082",
+    "chapterId": "c10",
+    "sectionId": "c10-s08",
+    "paragraphId": "c10-s08-p116-01650",
+    "readingUnitId": "c10-s08-p116-01650-r005-008",
+    "sentenceIds": [
+      "c10-s08-p116-01650-s005",
+      "c10-s08-p116-01650-s006",
+      "c10-s08-p116-01650-s007",
+      "c10-s08-p116-01650-s008"
+    ],
+    "passage": "When I first moved to the University of Minnesota, we rented an apartment in downtown Saint Paul for one year. Most folks recommended Uptown Minneapolis. Indeed, at first we found downtown Saint Paul less convenient than Uptown. But we found a coffee shop we liked.",
+    "prompt": "What place did most people recommend instead of the author's initial rental area?",
+    "promptZh": "多数人推荐的地点是什么，与最初租处不同？",
+    "options": [
+      "Uptown Minneapolis.",
+      "North Downtown in Charlottesville.",
+      "Downtown Minneapolis.",
+      "Downtown Saint Paul as the only place anybody mentioned."
+    ],
+    "optionsZh": [
+      "Minneapolis 的 Uptown。",
+      "Charlottesville 的 North Downtown。",
+      "Minneapolis 市中心。",
+      "Saint Paul 市中心，且是所有人唯一提过的地方。"
+    ],
+    "answer": 0,
+    "type": "细节",
+    "support": "explicit",
+    "analyses": [
+      "A Most folks recommended UptownMinneapolis 直接给出，与自家租SaintPaul不同。",
+      "B 属随后搬城购房地。",
+      "C 原文推荐 Uptown Minneapolis，不是 downtown；也不可与 Saint Paul 市中心混合。",
+      "D folks建议的主项不是自己最初所租，most 也不能加强成 every/only；不把历史建议当现在应选该区。"
+    ],
+    "vocabulary": [
+      {
+        "word": "recommended",
+        "meaning": "推荐；认为某选择值得考虑",
+        "context": "是当时别人的建议，不表示作者已接受或当前房产质量保证。",
+        "example": "Most neighbours recommended another part of town.",
+        "collocations": [
+          "Most folks recommended",
+          "Uptown Minneapolis"
+        ]
+      }
+    ],
+    "translation": "初到 University of Minnesota 时，我们在 Saint Paul 市中心租了一年公寓。大多数人推荐 Uptown Minneapolis。起初，我们确实觉得 Saint Paul 市中心不如 Uptown 方便。但我们找到一家喜欢的咖啡店。",
+    "evidenceTargetIds": [
+      "c10-s08-p116-01650-s006"
+    ],
+    "evidence": [
+      {
+        "quote": "When I first moved to the University of Minnesota, we rented an apartment in downtown Saint Paul for one year. Most folks recommended Uptown Minneapolis. Indeed, at first we found downtown Saint Paul less convenient than Uptown. But we found a coffee shop we liked.",
+        "sentenceIds": [
+          "c10-s08-p116-01650-s005",
+          "c10-s08-p116-01650-s006",
+          "c10-s08-p116-01650-s007",
+          "c10-s08-p116-01650-s008"
+        ],
+        "sources": [
+          {
+            "pdfPage": 116,
+            "block": 2,
+            "bbox": [
+              76.99,
+              165,
+              535.01,
+              413.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "bd39caad5e7fe3989fcbc278b5a22eebf68494858d64bb00cb3ae1ae78a377de"
+  },
+  {
+    "id": "qe-c10-0137",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-044",
+    "parentQuestionId": "q-c10-083",
+    "chapterId": "c10",
+    "sectionId": "c10-s08",
+    "paragraphId": "c10-s08-p116-01650",
+    "readingUnitId": "c10-s08-p116-01650-r009-012",
+    "sentenceIds": [
+      "c10-s08-p116-01650-s009",
+      "c10-s08-p116-01650-s010",
+      "c10-s08-p116-01650-s011",
+      "c10-s08-p116-01650-s012"
+    ],
+    "passage": "We found a Japanese restaurant we liked. By October of that year, we were looking for a condo in the downtown Saint Paul area. We then moved to Charlottesville and immediately bought a small house in North Downtown. After ten years, the first house became too small for a family of four.",
+    "prompt": "What additional local place did the family find and like?",
+    "promptZh": "一家人还找到并喜欢什么本地场所？",
+    "options": [
+      "Another national coffee chain.",
+      "A Starbucks in their new local area.",
+      "A Japanese restaurant.",
+      "A restaurant they considered but explicitly said they did not like."
+    ],
+    "optionsZh": [
+      "另一家全国咖啡连锁。",
+      "新居当地的 Starbucks。",
+      "一家日本餐厅。",
+      "考虑过、但明确说不喜欢的一家餐厅。"
+    ],
+    "answer": 2,
+    "type": "细节",
+    "support": "explicit",
+    "analyses": [
+      "A 目标句是 Japanese restaurant，不是重复前面咖啡连锁例。",
+      "B 这不是原文点名的餐厅，也不能挪用前段旅行时 Starbucks 的偏好。",
+      "C We found a Japanese restaurant we liked 直接对应，未给店名不能编造。",
+      "D we liked 明说喜欢，不能改成不喜欢。"
+    ],
+    "vocabulary": [
+      {
+        "word": "condo",
+        "meaning": "产权公寓；condominium 的常用简称",
+        "context": "在同段后句为想寻找的住房类型，不是只租房或已经买成的证明。",
+        "example": "By autumn, the fictional family was looking for a condo nearby.",
+        "collocations": [
+          "looking for a condo",
+          "the downtown Saint Paul area"
+        ]
+      }
+    ],
+    "translation": "我们还找到一家喜欢的日本餐厅。那年十月，我们已在 Saint Paul 市中心找产权公寓。后来搬到 Charlottesville，立即在 North Downtown 买了一所小房。十年后，对四口之家来说，第一所房子太小了。",
+    "evidenceTargetIds": [
+      "c10-s08-p116-01650-s009"
+    ],
+    "evidence": [
+      {
+        "quote": "We found a Japanese restaurant we liked. By October of that year, we were looking for a condo in the downtown Saint Paul area. We then moved to Charlottesville and immediately bought a small house in North Downtown. After ten years, the first house became too small for a family of four.",
+        "sentenceIds": [
+          "c10-s08-p116-01650-s009",
+          "c10-s08-p116-01650-s010",
+          "c10-s08-p116-01650-s011",
+          "c10-s08-p116-01650-s012"
+        ],
+        "sources": [
+          {
+            "pdfPage": 116,
+            "block": 2,
+            "bbox": [
+              76.99,
+              165,
+              535.01,
+              413.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "314a97643be2773a7f33b54af9cbc76d5067a6d55407b73c919919b138271212"
+  },
+  {
+    "id": "qe-c10-0138",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-044",
+    "parentQuestionId": "q-c10-083",
+    "chapterId": "c10",
+    "sectionId": "c10-s08",
+    "paragraphId": "c10-s08-p116-01650",
+    "readingUnitId": "c10-s08-p116-01650-r009-012",
+    "sentenceIds": [
+      "c10-s08-p116-01650-s009",
+      "c10-s08-p116-01650-s010",
+      "c10-s08-p116-01650-s011",
+      "c10-s08-p116-01650-s012"
+    ],
+    "passage": "We found a Japanese restaurant we liked. By October of that year, we were looking for a condo in the downtown Saint Paul area. We then moved to Charlottesville and immediately bought a small house in North Downtown. After ten years, the first house became too small for a family of four.",
+    "prompt": "What was the family doing by October of that year?",
+    "promptZh": "到当年十月，这家人在做什么？",
+    "options": [
+      "They had definitely purchased every apartment they considered.",
+      "They had already moved to Tokyo and stopped all searching.",
+      "They were selling the future Charlottesville house after ten years.",
+      "They were looking for a condo in downtown Saint Paul."
+    ],
+    "optionsZh": [
+      "已经确定买下考虑过的每套公寓。",
+      "已搬 Tokyo 并停止所有搜索。",
+      "十年后正在卖未来 Charlottesville 房屋。",
+      "正在 Saint Paul 市中心找产权公寓。"
+    ],
+    "answer": 3,
+    "type": "细节",
+    "support": "explicit",
+    "analyses": [
+      "A looking for 不是已买成，更不是每套全买。",
+      "B 地点与仍在looking状态都不符。",
+      "C 混入后面的不同城市和十年后时点。",
+      "D By October、looking condo、downtownSaintPaul 三项匹配，反映渐熟悉后的本地搜索，不自行添价格或完成交易日期。"
+    ],
+    "vocabulary": [
+      {
+        "word": "By October",
+        "meaning": "到十月时；不晚于该叙述节点",
+        "context": "是状态已达到的时间界限，不精确指十月某一天或已完成购买。",
+        "example": "By October, they were comparing several places nearby.",
+        "collocations": [
+          "By October of that year",
+          "were looking for a condo"
+        ]
+      }
+    ],
+    "translation": "我们还找到一家喜欢的日本餐厅。那年十月，我们已在 Saint Paul 市中心找产权公寓。后来搬到 Charlottesville，立即在 North Downtown 买了一所小房。十年后，对四口之家来说，第一所房子太小了。",
+    "evidenceTargetIds": [
+      "c10-s08-p116-01650-s010"
+    ],
+    "evidence": [
+      {
+        "quote": "We found a Japanese restaurant we liked. By October of that year, we were looking for a condo in the downtown Saint Paul area. We then moved to Charlottesville and immediately bought a small house in North Downtown. After ten years, the first house became too small for a family of four.",
+        "sentenceIds": [
+          "c10-s08-p116-01650-s009",
+          "c10-s08-p116-01650-s010",
+          "c10-s08-p116-01650-s011",
+          "c10-s08-p116-01650-s012"
+        ],
+        "sources": [
+          {
+            "pdfPage": 116,
+            "block": 2,
+            "bbox": [
+              76.99,
+              165,
+              535.01,
+              413.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "3cd357a600d8adaff5de3c15acafd097d3451145d98a2dc3e76b06fba116b098"
+  },
+  {
+    "id": "qe-c10-0139",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-044",
+    "parentQuestionId": "q-c10-083",
+    "chapterId": "c10",
+    "sectionId": "c10-s08",
+    "paragraphId": "c10-s08-p116-01650",
+    "readingUnitId": "c10-s08-p116-01650-r009-012",
+    "sentenceIds": [
+      "c10-s08-p116-01650-s009",
+      "c10-s08-p116-01650-s010",
+      "c10-s08-p116-01650-s011",
+      "c10-s08-p116-01650-s012"
+    ],
+    "passage": "We found a Japanese restaurant we liked. By October of that year, we were looking for a condo in the downtown Saint Paul area. We then moved to Charlottesville and immediately bought a small house in North Downtown. After ten years, the first house became too small for a family of four.",
+    "prompt": "What happened after the later move to Charlottesville?",
+    "promptZh": "后来搬到 Charlottesville 后发生什么？",
+    "options": [
+      "They rented the same Saint Paul apartment for another year.",
+      "They immediately bought a small house in North Downtown.",
+      "They purchased a large house only after exactly ten years without any earlier home.",
+      "They moved into an unnamed Uptown Minneapolis hotel."
+    ],
+    "optionsZh": [
+      "继续租同一 Saint Paul 公寓一年。",
+      "立即在 North Downtown 买了一所小房。",
+      "此前没住处，恰十年后才买大房。",
+      "住进某 Uptown Minneapolis 酒店。"
+    ],
+    "answer": 1,
+    "type": "细节",
+    "support": "explicit",
+    "analyses": [
+      "A 已换城市，不能写仍租同一处。",
+      "B then moved、immediately bought、small house、NorthDowntown 对应。",
+      "C 十年后小房对四口之家太小，不等于最初十年无房或最初已买大房。",
+      "D Uptown 是之前推荐区，不是此时酒店；不把作者购房史记成用户历史。"
+    ],
+    "vocabulary": [
+      {
+        "word": "immediately",
+        "meaning": "立即；马上",
+        "context": "定位这次移居后的购房，区别之前 ByOctober 的寻找和后来十年后的空间不足。",
+        "example": "After the move, the fictional family immediately began unpacking.",
+        "collocations": [
+          "immediately bought a small house",
+          "We then moved to Charlottesville"
+        ]
+      }
+    ],
+    "translation": "我们还找到一家喜欢的日本餐厅。那年十月，我们已在 Saint Paul 市中心找产权公寓。后来搬到 Charlottesville，立即在 North Downtown 买了一所小房。十年后，对四口之家来说，第一所房子太小了。",
+    "evidenceTargetIds": [
+      "c10-s08-p116-01650-s011"
+    ],
+    "evidence": [
+      {
+        "quote": "We found a Japanese restaurant we liked. By October of that year, we were looking for a condo in the downtown Saint Paul area. We then moved to Charlottesville and immediately bought a small house in North Downtown. After ten years, the first house became too small for a family of four.",
+        "sentenceIds": [
+          "c10-s08-p116-01650-s009",
+          "c10-s08-p116-01650-s010",
+          "c10-s08-p116-01650-s011",
+          "c10-s08-p116-01650-s012"
+        ],
+        "sources": [
+          {
+            "pdfPage": 116,
+            "block": 2,
+            "bbox": [
+              76.99,
+              165,
+              535.01,
+              413.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "266a814783f1cff7725ada257dd8b98e12078532ddff8706df6b651718461cad"
+  },
+  {
+    "id": "qe-c10-0140",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-044",
+    "parentQuestionId": "q-c10-085",
+    "chapterId": "c10",
+    "sectionId": "c10-s08",
+    "paragraphId": "c10-s08-p116-04185",
+    "readingUnitId": "c10-s08-p116-04185-r001-004",
+    "sentenceIds": [
+      "c10-s08-p116-04185-s001",
+      "c10-s08-p116-04185-s002",
+      "c10-s08-p116-04185-s003",
+      "c10-s08-p116-04185-s004"
+    ],
+    "passage": "In the popular HGTV series Love It or List It, the couples featured have houses that need major renovations. One of the hosts, Hilary, is a designer who helps the couple renovate their house. The other host, David, is a real estate agent who helps the couple find a new home in a new neighborhood. David shows three houses that meet the couple’s wish list.",
+    "prompt": "What common housing problem do the featured couples have in the programme description?",
+    "promptZh": "节目介绍中，出场夫妻的房屋共有哪类问题？",
+    "options": [
+      "Only a wish to purchase brand-new houses, without an existing home.",
+      "Their houses need major renovations.",
+      "Houses fully renovated before either host becomes involved.",
+      "Homes said to be unsuitable solely because of commuting distance."
+    ],
+    "optionsZh": [
+      "仅想购全新房，并无现住房。",
+      "房屋需要大规模翻新。",
+      "主持人介入前已经完全翻新好的房。",
+      "只因通勤距离而不合适的房。"
+    ],
+    "answer": 1,
+    "type": "细节",
+    "support": "explicit",
+    "analyses": [
+      "A have houses that need renovations 明确已有房屋需改。",
+      "B need major renovations 原文明确，限定节目被描述的夫妻。",
+      "C need major renovations 是尚需工程，非已完成全部翻新。",
+      "D 当前给的是翻新需求，没有 sole commuting 原因。"
+    ],
+    "vocabulary": [
+      {
+        "word": "renovations",
+        "meaning": "翻新；对已有房屋的改造修缮",
+        "context": "区别另买新屋或完全新建，不能仅凭词断定具体预算。",
+        "example": "The featured house needed major renovations.",
+        "collocations": [
+          "need major renovations",
+          "the couples featured"
+        ]
+      }
+    ],
+    "translation": "HGTV 热门节目 Love It or List It 中，出场夫妻的房子需要大规模翻新。主持人之一 Hilary 是设计师，帮助翻新。另一位 David 是房产经纪人，帮他们在新街区找新家。David 展示三所符合夫妻愿望清单的房子。",
+    "evidenceTargetIds": [
+      "c10-s08-p116-04185-s001"
+    ],
+    "evidence": [
+      {
+        "quote": "In the popular HGTV series Love It or List It, the couples featured have houses that need major renovations. One of the hosts, Hilary, is a designer who helps the couple renovate their house. The other host, David, is a real estate agent who helps the couple find a new home in a new neighborhood. David shows three houses that meet the couple’s wish list.",
+        "sentenceIds": [
+          "c10-s08-p116-04185-s001",
+          "c10-s08-p116-04185-s002",
+          "c10-s08-p116-04185-s003",
+          "c10-s08-p116-04185-s004"
+        ],
+        "sources": [
+          {
+            "pdfPage": 116,
+            "block": 3,
+            "bbox": [
+              76.99,
+              418.5,
+              535.01,
+              608.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "a5d3e2a7111b296180d3357620bf3ace34a07c77c9050c569a46190a5a1d8c4e"
+  },
+  {
+    "id": "qe-c10-0141",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-044",
+    "parentQuestionId": "q-c10-085",
+    "chapterId": "c10",
+    "sectionId": "c10-s08",
+    "paragraphId": "c10-s08-p116-04185",
+    "readingUnitId": "c10-s08-p116-04185-r001-004",
+    "sentenceIds": [
+      "c10-s08-p116-04185-s001",
+      "c10-s08-p116-04185-s002",
+      "c10-s08-p116-04185-s003",
+      "c10-s08-p116-04185-s004"
+    ],
+    "passage": "In the popular HGTV series Love It or List It, the couples featured have houses that need major renovations. One of the hosts, Hilary, is a designer who helps the couple renovate their house. The other host, David, is a real estate agent who helps the couple find a new home in a new neighborhood. David shows three houses that meet the couple’s wish list.",
+    "prompt": "What is Hilary's role in the account?",
+    "promptZh": "本段怎样介绍 Hilary 的角色？",
+    "options": [
+      "A researcher measuring the price of coffee mugs.",
+      "A real estate agent showing three homes in new neighbourhoods.",
+      "A university student searching for a condo.",
+      "A designer helping the couple renovate their existing house."
+    ],
+    "optionsZh": [
+      "测咖啡杯价格的研究者。",
+      "展示新街区三套房的经纪人。",
+      "找产权公寓的大学学生。",
+      "帮夫妻翻新现有房屋的设计师。"
+    ],
+    "answer": 3,
+    "type": "细节",
+    "support": "explicit",
+    "analyses": [
+      "A 禀赋效应实验在后面，不是她角色。",
+      "B 与另一主持人 David 的角色交换。",
+      "C 不可将作者自家找房经历移给主持人。",
+      "D Hilary、designer、renovate their house 三项对应，按书中节目介绍而非当前主持阵容核验。"
+    ],
+    "vocabulary": [
+      {
+        "word": "renovate",
+        "meaning": "翻新；改造已有建筑",
+        "context": "与 David 帮找 new home 对照，不是把现屋默认售出。",
+        "example": "The designer helped the fictional couple renovate their old kitchen.",
+        "collocations": [
+          "helps the couple renovate their house",
+          "One of the hosts"
+        ]
+      }
+    ],
+    "translation": "HGTV 热门节目 Love It or List It 中，出场夫妻的房子需要大规模翻新。主持人之一 Hilary 是设计师，帮助翻新。另一位 David 是房产经纪人，帮他们在新街区找新家。David 展示三所符合夫妻愿望清单的房子。",
+    "evidenceTargetIds": [
+      "c10-s08-p116-04185-s002"
+    ],
+    "evidence": [
+      {
+        "quote": "In the popular HGTV series Love It or List It, the couples featured have houses that need major renovations. One of the hosts, Hilary, is a designer who helps the couple renovate their house. The other host, David, is a real estate agent who helps the couple find a new home in a new neighborhood. David shows three houses that meet the couple’s wish list.",
+        "sentenceIds": [
+          "c10-s08-p116-04185-s001",
+          "c10-s08-p116-04185-s002",
+          "c10-s08-p116-04185-s003",
+          "c10-s08-p116-04185-s004"
+        ],
+        "sources": [
+          {
+            "pdfPage": 116,
+            "block": 3,
+            "bbox": [
+              76.99,
+              418.5,
+              535.01,
+              608.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "0a18ea81c1c34ff0e88f2b2a9d8f67394486ace6520c15c56d04e30ef12fa595"
+  },
+  {
+    "id": "qe-c10-0142",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-044",
+    "parentQuestionId": "q-c10-085",
+    "chapterId": "c10",
+    "sectionId": "c10-s08",
+    "paragraphId": "c10-s08-p116-04185",
+    "readingUnitId": "c10-s08-p116-04185-r001-004",
+    "sentenceIds": [
+      "c10-s08-p116-04185-s001",
+      "c10-s08-p116-04185-s002",
+      "c10-s08-p116-04185-s003",
+      "c10-s08-p116-04185-s004"
+    ],
+    "passage": "In the popular HGTV series Love It or List It, the couples featured have houses that need major renovations. One of the hosts, Hilary, is a designer who helps the couple renovate their house. The other host, David, is a real estate agent who helps the couple find a new home in a new neighborhood. David shows three houses that meet the couple’s wish list.",
+    "prompt": "How does David's role differ from Hilary's?",
+    "promptZh": "David 的角色与 Hilary 有何不同？",
+    "options": [
+      "He is a real estate agent helping them find a new home in a new neighbourhood.",
+      "He only redesigns the existing home's kitchen while Hilary sells property.",
+      "He performs the same renovation-design role with no contrast stated.",
+      "He supplies a psychological diagnosis before any house is shown."
+    ],
+    "optionsZh": [
+      "他是房产经纪人，帮在新街区找新家。",
+      "他只设计旧厨房，Hilary 卖房。",
+      "他与 Hilary 完全同做翻新设计，未作对照。",
+      "展示房前给心理诊断。"
+    ],
+    "answer": 0,
+    "type": "逻辑关系",
+    "support": "explicit",
+    "analyses": [
+      "A real estate agent 与 designer、new home/new neighbourhood 与现屋 renovate 形成角色对照。",
+      "B 把两角色和方向倒置。",
+      "C The other host 的说明正有不同功能。",
+      "D 无诊断或临床步骤；不将节目情境改成网站的购房服务。"
+    ],
+    "vocabulary": [
+      {
+        "word": "real estate agent",
+        "meaning": "房地产经纪人",
+        "context": "文中为帮找其他房屋的节目角色，不是给读者执行交易的本地联系人。",
+        "example": "The agent showed the couple several alternative homes.",
+        "collocations": [
+          "a real estate agent",
+          "a new home in a new neighborhood"
+        ]
+      }
+    ],
+    "translation": "HGTV 热门节目 Love It or List It 中，出场夫妻的房子需要大规模翻新。主持人之一 Hilary 是设计师，帮助翻新。另一位 David 是房产经纪人，帮他们在新街区找新家。David 展示三所符合夫妻愿望清单的房子。",
+    "evidenceTargetIds": [
+      "c10-s08-p116-04185-s003"
+    ],
+    "evidence": [
+      {
+        "quote": "In the popular HGTV series Love It or List It, the couples featured have houses that need major renovations. One of the hosts, Hilary, is a designer who helps the couple renovate their house. The other host, David, is a real estate agent who helps the couple find a new home in a new neighborhood. David shows three houses that meet the couple’s wish list.",
+        "sentenceIds": [
+          "c10-s08-p116-04185-s001",
+          "c10-s08-p116-04185-s002",
+          "c10-s08-p116-04185-s003",
+          "c10-s08-p116-04185-s004"
+        ],
+        "sources": [
+          {
+            "pdfPage": 116,
+            "block": 3,
+            "bbox": [
+              76.99,
+              418.5,
+              535.01,
+              608.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "17fdc07df6776e499cb308e4d7c158cbaea5e42cebd758debd276ee3242bae0f"
+  },
+  {
+    "id": "qe-c10-0143",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-044",
+    "parentQuestionId": "q-c10-086",
+    "chapterId": "c10",
+    "sectionId": "c10-s08",
+    "paragraphId": "c10-s08-p116-04185",
+    "readingUnitId": "c10-s08-p116-04185-r005-007",
+    "sentenceIds": [
+      "c10-s08-p116-04185-s005",
+      "c10-s08-p116-04185-s006",
+      "c10-s08-p116-04185-s007"
+    ],
+    "passage": "Objectively speaking, the houses shown by David typically appear to be more attractive than the renovated old house. Yet every time I’ve watched the show, the couple has loved the renovation and opted not to list it to move to a new house—they loved their neighborhood too much to leave. This is a prime example of the familiarity bias that we’ve discussed previously.",
+    "prompt": "What tension does the comparison with David's houses set up?",
+    "promptZh": "David 展示房屋的比较建立什么张力？",
+    "options": [
+      "All alternatives are proved objectively worthless in every market.",
+      "The couples always choose the new houses in every episode ever produced.",
+      "Alternatives appear more attractive, yet in the author's viewing the couples prefer the familiar renovated home.",
+      "Every household's property value has been independently appraised."
+    ],
+    "optionsZh": [
+      "所有备选在每个市场已证明毫无价值。",
+      "节目有史以来每集夫妻都选新屋。",
+      "备选看似更吸引人，但作者看过的节目里夫妻偏爱熟悉的翻新屋。",
+      "每个家庭房价已获独立评估。"
+    ],
+    "answer": 2,
+    "type": "作者意图",
+    "support": "explicit",
+    "analyses": [
+      "A typically appear more attractive 不是毫无价值。",
+      "B Yet every time I’ve watched 的结果为不挂牌搬家，并限定作者所看，不是节目全部集数。",
+      "C 保留外部选择吸引与依恋熟悉社区的反差，呈现作者所说 bias。",
+      "D 原文未给独立估价方法；Objectively speaking 仍属作者观看比较，typically/appear 亦限强度，不能推出每套房现实市价更高。"
+    ],
+    "vocabulary": [
+      {
+        "word": "typically",
+        "meaning": "通常；在所述情形中常见地",
+        "context": "不能加强成每集、每屋、每位夫妻必然如此。",
+        "example": "The examples typically begin with a comparison of alternatives.",
+        "collocations": [
+          "typically appear to be more attractive",
+          "Objectively speaking"
+        ]
+      }
+    ],
+    "translation": "客观地说，David 展示的房子通常看起来比翻新的旧房更吸引人。但每次我看这节目，夫妻都喜欢翻新结果，决定不挂牌换新房——他们太爱原社区，不愿离开。这正是此前讨论的熟悉偏误的典型例子。",
+    "evidenceTargetIds": [
+      "c10-s08-p116-04185-s005"
+    ],
+    "evidence": [
+      {
+        "quote": "Objectively speaking, the houses shown by David typically appear to be more attractive than the renovated old house. Yet every time I’ve watched the show, the couple has loved the renovation and opted not to list it to move to a new house—they loved their neighborhood too much to leave. This is a prime example of the familiarity bias that we’ve discussed previously.",
+        "sentenceIds": [
+          "c10-s08-p116-04185-s005",
+          "c10-s08-p116-04185-s006",
+          "c10-s08-p116-04185-s007"
+        ],
+        "sources": [
+          {
+            "pdfPage": 116,
+            "block": 3,
+            "bbox": [
+              76.99,
+              418.5,
+              535.01,
+              608.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "9e0c1ee1c06efd5f83cc9fcea4ae52ddd57ebe645639efc7afda9124dcbb87aa"
+  },
+  {
+    "id": "qe-c10-0144",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-044",
+    "parentQuestionId": "q-c10-087",
+    "chapterId": "c10",
+    "sectionId": "c10-s08",
+    "paragraphId": "c10-s08-p116-06135",
+    "readingUnitId": "c10-s08-p116-06135-r001-004",
+    "sentenceIds": [
+      "c10-s08-p116-06135-s001",
+      "c10-s08-p116-06135-s002",
+      "c10-s08-p116-06135-s003",
+      "c10-s08-p116-06135-s004"
+    ],
+    "passage": "The behavioral economist Richard Thaler discovered a related phenomenon known as the “endowment effect.” Let’s say I was selling a coffee mug for $5, and you were nice enough to buy it from me. Then, a week later, I asked you if I could buy it back from you, and if so, how much I would have to pay for it. Logically speaking, the value of the coffee mug should not have increased during that week—if anything, the now “used” coffee mug should be worth less than $5.",
+    "prompt": "Whom does the book associate with the endowment effect?",
+    "promptZh": "本书把 endowment effect 与谁联系起来？",
+    "options": [
+      "Bob Zajonc, the mere-exposure researcher.",
+      "Richard Thaler, the behavioural economist.",
+      "Johannes Kepler, the astronomer and mathematician.",
+      "Blaise Pascal, the philosopher discussed earlier."
+    ],
+    "optionsZh": [
+      "单纯曝光研究者 Bob Zajonc。",
+      "行为经济学家 Richard Thaler。",
+      "天文学家、数学家 Johannes Kepler。",
+      "前面讨论的哲学家 Blaise Pascal。"
+    ],
+    "answer": 1,
+    "type": "观点归属",
+    "support": "explicit",
+    "analyses": [
+      "A Zajonc 属前面曝光效应，此句禀赋效应明确归 Thaler。",
+      "B behavioral economist Richard Thaler discovered... 明确书中人物与概念。",
+      "C Kepler 是历史选择故事人物，不是此概念的书中归属者。",
+      "D Pascal 出现在消遣议题，不是本句禀赋效应归属。"
+    ],
+    "vocabulary": [
+      {
+        "word": "endowment effect",
+        "meaning": "禀赋效应；拥有后主观估值上升的现象",
+        "context": "与先前熟悉效应相关但不能完全混成同一测量或断言市场价必涨。",
+        "example": "The example illustrates the endowment effect through a change in willingness to sell.",
+        "collocations": [
+          "known as the endowment effect",
+          "the psychology of ownership"
+        ]
+      }
+    ],
+    "translation": "行为经济学家 Richard Thaler 发现相关现象，称为禀赋效应。假设我以五美元卖杯子，你好心买下。一周后我问能否买回来，若可以，要付多少。按逻辑，杯子这周不该升值——若有什么变化，已经用过的杯子反该低于五美元。",
+    "evidenceTargetIds": [
+      "c10-s08-p116-06135-s001"
+    ],
+    "evidence": [
+      {
+        "quote": "The behavioral economist Richard Thaler discovered a related phenomenon known as the “endowment effect.” Let’s say I was selling a coffee mug for $5, and you were nice enough to buy it from me. Then, a week later, I asked you if I could buy it back from you, and if so, how much I would have to pay for it. Logically speaking, the value of the coffee mug should not have increased during that week—if anything, the now “used” coffee mug should be worth less than $5.",
+        "sentenceIds": [
+          "c10-s08-p116-06135-s001",
+          "c10-s08-p116-06135-s002",
+          "c10-s08-p116-06135-s003",
+          "c10-s08-p116-06135-s004"
+        ],
+        "sources": [
+          {
+            "pdfPage": 116,
+            "block": 4,
+            "bbox": [
+              76.99,
+              613.5,
+              535,
+              706.02
+            ]
+          },
+          {
+            "pdfPage": 117,
+            "block": 0,
+            "bbox": [
+              76.99,
+              75,
+              535.01,
+              304.02
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "92fcbfc2e04c9d74770c5facb751f3f8a4d8d7f8c1d5e5648baf00ca97a5a7ee"
+  },
+  {
+    "id": "qe-c10-0145",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-044",
+    "parentQuestionId": "q-c10-087",
+    "chapterId": "c10",
+    "sectionId": "c10-s08",
+    "paragraphId": "c10-s08-p116-06135",
+    "readingUnitId": "c10-s08-p116-06135-r001-004",
+    "sentenceIds": [
+      "c10-s08-p116-06135-s001",
+      "c10-s08-p116-06135-s002",
+      "c10-s08-p116-06135-s003",
+      "c10-s08-p116-06135-s004"
+    ],
+    "passage": "The behavioral economist Richard Thaler discovered a related phenomenon known as the “endowment effect.” Let’s say I was selling a coffee mug for $5, and you were nice enough to buy it from me. Then, a week later, I asked you if I could buy it back from you, and if so, how much I would have to pay for it. Logically speaking, the value of the coffee mug should not have increased during that week—if anything, the now “used” coffee mug should be worth less than $5.",
+    "prompt": "Who would be asked to sell the mug back in the hypothetical example?",
+    "promptZh": "假设例中，谁被问是否愿把杯子卖回？",
+    "options": [
+      "A third person who never took part in the original exchange.",
+      "The original seller, who now wants to buy it back.",
+      "Both actors as joint owners selling it together.",
+      "The previous buyer, who now owns the mug."
+    ],
+    "optionsZh": [
+      "从未参与最初交换的第三人。",
+      "现在想买回杯子的原卖者。",
+      "作为共同拥有者的两人一起出售。",
+      "先前买下杯子、如今拥有它的人。"
+    ],
+    "answer": 3,
+    "type": "细节",
+    "support": "explicit",
+    "analyses": [
+      "A I asked you 指原交易对方，不引入第三人。",
+      "B 这是提出买回请求的人，不是被询问是否愿卖的当前拥有者，主客体互换。",
+      "C 原交易将杯子转给买者，并未说明共同所有或共同卖出。",
+      "D buy it back from you 显示原买者此时为潜在卖者；a week later 是设想时序，不是用户真实交易记录或已经成交。"
+    ],
+    "vocabulary": [
+      {
+        "word": "buy it back",
+        "meaning": "买回；从当前持有人处重新购回",
+        "context": "back 指先卖出再求购回，不保证对方已同意出售。",
+        "example": "In the hypothetical story, the seller later asks to buy it back.",
+        "collocations": [
+          "buy it back from you",
+          "a week later"
+        ]
+      }
+    ],
+    "translation": "行为经济学家 Richard Thaler 发现相关现象，称为禀赋效应。假设我以五美元卖杯子，你好心买下。一周后我问能否买回来，若可以，要付多少。按逻辑，杯子这周不该升值——若有什么变化，已经用过的杯子反该低于五美元。",
+    "evidenceTargetIds": [
+      "c10-s08-p116-06135-s003"
+    ],
+    "evidence": [
+      {
+        "quote": "The behavioral economist Richard Thaler discovered a related phenomenon known as the “endowment effect.” Let’s say I was selling a coffee mug for $5, and you were nice enough to buy it from me. Then, a week later, I asked you if I could buy it back from you, and if so, how much I would have to pay for it. Logically speaking, the value of the coffee mug should not have increased during that week—if anything, the now “used” coffee mug should be worth less than $5.",
+        "sentenceIds": [
+          "c10-s08-p116-06135-s001",
+          "c10-s08-p116-06135-s002",
+          "c10-s08-p116-06135-s003",
+          "c10-s08-p116-06135-s004"
+        ],
+        "sources": [
+          {
+            "pdfPage": 116,
+            "block": 4,
+            "bbox": [
+              76.99,
+              613.5,
+              535,
+              706.02
+            ]
+          },
+          {
+            "pdfPage": 117,
+            "block": 0,
+            "bbox": [
+              76.99,
+              75,
+              535.01,
+              304.02
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "ef9f1e1441fe5de4b26f9caa804c25c5e5ce58cb7c62ad4bb33ddcda7a21875e"
+  },
+  {
+    "id": "qe-c10-0146",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-044",
+    "parentQuestionId": "q-c10-088",
+    "chapterId": "c10",
+    "sectionId": "c10-s08",
+    "paragraphId": "c10-s08-p116-06135",
+    "readingUnitId": "c10-s08-p116-06135-r005-008",
+    "sentenceIds": [
+      "c10-s08-p116-06135-s005",
+      "c10-s08-p116-06135-s006",
+      "c10-s08-p116-06135-s007",
+      "c10-s08-p116-06135-s008"
+    ],
+    "passage": "However, in experiments like this one, it turns out that most people want a lot more than $5! Typically, the lowest price participants were willing to sell a possession of their own was twice as much as the highest price they were willing to pay to purchase that same object. For the same mug they paid $5 for, they wanted others to pay $10. This is the psychology of ownership, or the endowment effect.",
+    "prompt": "What does 'However' contrast with the expectation about the used mug?",
+    "promptZh": "However 与对二手杯的预期作什么对照？",
+    "options": [
+      "Many owners want more than the original five dollars, rather than the expected unchanged or lower value.",
+      "The market price is proved to fall to zero for every used object.",
+      "All participants refuse to name any price in every trial.",
+      "The original example says the mug was never purchased."
+    ],
+    "optionsZh": [
+      "许多拥有者想要超过原五美元，而非预期不涨或降低的价值。",
+      "证明每件二手物市场价归零。",
+      "所有试验每位参与者均不报任何价。",
+      "最初例子说杯子从未买下。"
+    ],
+    "answer": 0,
+    "type": "逻辑关系",
+    "support": "explicit",
+    "analyses": [
+      "A 前段 used mug 应不升值的推理，与 most want a lot more than5 形成意愿估值反差。",
+      "B 没有市场归零或全体物品结论。",
+      "C want price 与未命名价不符，most 也非所有。",
+      "D 原例已假设购买；要价或愿售阈值不等于已经成交的客观市场价格。"
+    ],
+    "vocabulary": [
+      {
+        "word": "want",
+        "meaning": "想要；此处指希望别人支付的金额",
+        "context": "不是对方已支付或成交价，也不是作者替用户设真实售卖需求。",
+        "example": "The owners wanted more for the item than they had paid.",
+        "collocations": [
+          "want a lot more than $5",
+          "in experiments like this one"
+        ]
+      }
+    ],
+    "translation": "不过，这类实验发现，多数人想要远多于五美元！通常，参与者愿意出售自己拥有物品的最低价，是愿意购买同一物品的最高价的两倍。同一个五美元买的杯子，他们要别人付十美元。这是所有权心理，也就是禀赋效应。",
+    "evidenceTargetIds": [
+      "c10-s08-p116-06135-s005"
+    ],
+    "evidence": [
+      {
+        "quote": "However, in experiments like this one, it turns out that most people want a lot more than $5! Typically, the lowest price participants were willing to sell a possession of their own was twice as much as the highest price they were willing to pay to purchase that same object. For the same mug they paid $5 for, they wanted others to pay $10. This is the psychology of ownership, or the endowment effect.",
+        "sentenceIds": [
+          "c10-s08-p116-06135-s005",
+          "c10-s08-p116-06135-s006",
+          "c10-s08-p116-06135-s007",
+          "c10-s08-p116-06135-s008"
+        ],
+        "sources": [
+          {
+            "pdfPage": 117,
+            "block": 0,
+            "bbox": [
+              76.99,
+              75,
+              535.01,
+              304.02
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "0667ff0b54828f43068f756854b7f55b547bf48cd0bb816246017a8d12dc64f8"
+  },
+  {
+    "id": "qe-c10-0147",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-044",
+    "parentQuestionId": "q-c10-088",
+    "chapterId": "c10",
+    "sectionId": "c10-s08",
+    "paragraphId": "c10-s08-p116-06135",
+    "readingUnitId": "c10-s08-p116-06135-r005-008",
+    "sentenceIds": [
+      "c10-s08-p116-06135-s005",
+      "c10-s08-p116-06135-s006",
+      "c10-s08-p116-06135-s007",
+      "c10-s08-p116-06135-s008"
+    ],
+    "passage": "However, in experiments like this one, it turns out that most people want a lot more than $5! Typically, the lowest price participants were willing to sell a possession of their own was twice as much as the highest price they were willing to pay to purchase that same object. For the same mug they paid $5 for, they wanted others to pay $10. This is the psychology of ownership, or the endowment effect.",
+    "prompt": "What do the five-dollar and ten-dollar figures refer to?",
+    "promptZh": "五美元与十美元各指什么？",
+    "options": [
+      "The renovation costs of Hilary's and David's houses.",
+      "A guaranteed five-dollar profit already received by every seller.",
+      "Five dollars paid for the mug and ten dollars the owners wanted others to pay.",
+      "Two different mugs with independently measured materials and quality."
+    ],
+    "optionsZh": [
+      "Hilary 与 David 房屋的翻新费。",
+      "每位卖者已到手五美元保证利润。",
+      "杯子原付五美元，拥有者希望别人付十美元。",
+      "两只材料质量已独立测定的不同杯。"
+    ],
+    "answer": 2,
+    "type": "细节",
+    "support": "explicit",
+    "analyses": [
+      "A 当前为杯子实验例，非房屋预算。",
+      "B wanted 不是 realized profit，更无每人实际卖成。",
+      "C same mug、paid5、wanted others10 对应同物不同买卖意愿。",
+      "D same 明确同杯，不能用质量不同解释；价差不证明客观价值真的翻倍。"
+    ],
+    "vocabulary": [
+      {
+        "word": "paid",
+        "meaning": "付过；已支付（pay 的过去式）",
+        "context": "与 wanted others to pay 的希望售卖价格分开，不把希望误作已收款。",
+        "example": "They compared what the buyer paid with what the owner later requested.",
+        "collocations": [
+          "the same mug they paid $5 for",
+          "wanted others to pay $10"
+        ]
+      }
+    ],
+    "translation": "不过，这类实验发现，多数人想要远多于五美元！通常，参与者愿意出售自己拥有物品的最低价，是愿意购买同一物品的最高价的两倍。同一个五美元买的杯子，他们要别人付十美元。这是所有权心理，也就是禀赋效应。",
+    "evidenceTargetIds": [
+      "c10-s08-p116-06135-s007"
+    ],
+    "evidence": [
+      {
+        "quote": "However, in experiments like this one, it turns out that most people want a lot more than $5! Typically, the lowest price participants were willing to sell a possession of their own was twice as much as the highest price they were willing to pay to purchase that same object. For the same mug they paid $5 for, they wanted others to pay $10. This is the psychology of ownership, or the endowment effect.",
+        "sentenceIds": [
+          "c10-s08-p116-06135-s005",
+          "c10-s08-p116-06135-s006",
+          "c10-s08-p116-06135-s007",
+          "c10-s08-p116-06135-s008"
+        ],
+        "sources": [
+          {
+            "pdfPage": 117,
+            "block": 0,
+            "bbox": [
+              76.99,
+              75,
+              535.01,
+              304.02
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "35483808734b12f0eb9a44cc379bb214185dc5a73892c9f33161d9a0da864d43"
+  },
+  {
+    "id": "qe-c10-0148",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-044",
+    "parentQuestionId": "q-c10-088",
+    "chapterId": "c10",
+    "sectionId": "c10-s08",
+    "paragraphId": "c10-s08-p116-06135",
+    "readingUnitId": "c10-s08-p116-06135-r005-008",
+    "sentenceIds": [
+      "c10-s08-p116-06135-s005",
+      "c10-s08-p116-06135-s006",
+      "c10-s08-p116-06135-s007",
+      "c10-s08-p116-06135-s008"
+    ],
+    "passage": "However, in experiments like this one, it turns out that most people want a lot more than $5! Typically, the lowest price participants were willing to sell a possession of their own was twice as much as the highest price they were willing to pay to purchase that same object. For the same mug they paid $5 for, they wanted others to pay $10. This is the psychology of ownership, or the endowment effect.",
+    "prompt": "What does 'This' identify as the endowment effect?",
+    "promptZh": "This 把什么认定为 endowment effect？",
+    "options": [
+      "A guarantee that ownership improves an object's physical quality.",
+      "The ownership-related gap between what people will pay to buy and what they demand to sell the same object.",
+      "The difference between two houses built in different cities.",
+      "A rule requiring every person to sell all possessions at purchase price."
+    ],
+    "optionsZh": [
+      "拥有保证改善物品物理质量。",
+      "同物买入愿付价与拥有后出售要价之间的所有权相关差异。",
+      "不同城市两套房的差别。",
+      "要求每人所有物均按原价出售的规则。"
+    ],
+    "answer": 1,
+    "type": "指代与概念",
+    "support": "explicit",
+    "analyses": [
+      "A 心理所有权不是物理质量提升证据。",
+      "B 前面同杯买5、要10及 typically WTA/WTP 的对照被命名为 ownership psychology。",
+      "C 此处命名接杯子例，非两套异物。",
+      "D 是现象描述，不是交易法律或强制售卖规范；typically 也不等于人人同倍数。"
+    ],
+    "vocabulary": [
+      {
+        "word": "ownership",
+        "meaning": "所有权；拥有某物的状态",
+        "context": "这里连接主观估值变化，不自动决定别人对同物的评价。",
+        "example": "Ownership changed how valuable the object seemed to the narrator.",
+        "collocations": [
+          "the psychology of ownership",
+          "a possession of their own"
+        ]
+      }
+    ],
+    "translation": "不过，这类实验发现，多数人想要远多于五美元！通常，参与者愿意出售自己拥有物品的最低价，是愿意购买同一物品的最高价的两倍。同一个五美元买的杯子，他们要别人付十美元。这是所有权心理，也就是禀赋效应。",
+    "evidenceTargetIds": [
+      "c10-s08-p116-06135-s008"
+    ],
+    "evidence": [
+      {
+        "quote": "However, in experiments like this one, it turns out that most people want a lot more than $5! Typically, the lowest price participants were willing to sell a possession of their own was twice as much as the highest price they were willing to pay to purchase that same object. For the same mug they paid $5 for, they wanted others to pay $10. This is the psychology of ownership, or the endowment effect.",
+        "sentenceIds": [
+          "c10-s08-p116-06135-s005",
+          "c10-s08-p116-06135-s006",
+          "c10-s08-p116-06135-s007",
+          "c10-s08-p116-06135-s008"
+        ],
+        "sources": [
+          {
+            "pdfPage": 117,
+            "block": 0,
+            "bbox": [
+              76.99,
+              75,
+              535.01,
+              304.02
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "aa4dd2750e1b1778655759807e81395d9afbe00ff4dc56e95e1b54b7c1013ea3"
+  },
+  {
+    "id": "qe-c10-0149",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-044",
+    "parentQuestionId": "q-c10-089",
+    "chapterId": "c10",
+    "sectionId": "c10-s08",
+    "paragraphId": "c10-s08-p116-06135",
+    "readingUnitId": "c10-s08-p116-06135-r009-011",
+    "sentenceIds": [
+      "c10-s08-p116-06135-s009",
+      "c10-s08-p116-06135-s010",
+      "c10-s08-p116-06135-s011"
+    ],
+    "passage": "Once you own something, the value of that object increases to you. This is why most people overestimate how valuable their houses are. Because they own it and are familiar with it, they like it and think it is more valuable than most others would—another reason why Love It or List It couples tend to love it more than they list it.",
+    "prompt": "What distinction supports the statement about owners overestimating house value?",
+    "promptZh": "关于房主高估房值的句子依赖哪种区别？",
+    "options": [
+      "Every owner has received a higher independently verified market appraisal.",
+      "The house necessarily becomes physically larger at the moment of purchase.",
+      "All other people must share the owner's valuation exactly.",
+      "Value to the owner can exceed the value others would assign to the same property."
+    ],
+    "optionsZh": [
+      "每位房主均获较高独立市场估价。",
+      "买入瞬间房屋必然物理变大。",
+      "其他人必须与房主估价完全一致。",
+      "同一房产对拥有者的价值可高于别人赋予的价值。"
+    ],
+    "answer": 3,
+    "type": "逻辑关系",
+    "support": "explicit",
+    "analyses": [
+      "A to you 是主观所有者角度，不是独立估价已确认。",
+      "B 心理估值不改变房屋面积。",
+      "C more than most others would 明确可能差别。",
+      "D 同物对拥有者和他人估值可不同，作者将其用于解释 most 的一般倾向，未提供每位房主都估错的逐项结果。"
+    ],
+    "vocabulary": [
+      {
+        "word": "overestimate",
+        "meaning": "高估；估得高于合适参照",
+        "context": "在作者论述中为拥有者相对别人估值的偏差，不能当具体住宅市场估价。",
+        "example": "The story illustrates how attachment can lead someone to overestimate an object's value.",
+        "collocations": [
+          "overestimate how valuable their houses are",
+          "increases to you"
+        ]
+      }
+    ],
+    "translation": "一旦拥有某物，它对你的价值就增加。这解释为什么多数人高估自家房价值。因为拥有且熟悉，他们喜欢它，并觉得它比多数别人认为的更值钱——这也是节目夫妻往往选择爱它而不是卖它的另一原因。",
+    "evidenceTargetIds": [
+      "c10-s08-p116-06135-s010"
+    ],
+    "evidence": [
+      {
+        "quote": "Once you own something, the value of that object increases to you. This is why most people overestimate how valuable their houses are. Because they own it and are familiar with it, they like it and think it is more valuable than most others would—another reason why Love It or List It couples tend to love it more than they list it.",
+        "sentenceIds": [
+          "c10-s08-p116-06135-s009",
+          "c10-s08-p116-06135-s010",
+          "c10-s08-p116-06135-s011"
+        ],
+        "sources": [
+          {
+            "pdfPage": 117,
+            "block": 0,
+            "bbox": [
+              76.99,
+              75,
+              535.01,
+              304.02
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "b5cd232e81a06add1cf6332dd50147174def53cd2748cad3e2bc312b5492aeb1"
+  },
+  {
+    "id": "qe-c10-0150",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-044",
+    "parentQuestionId": "q-c10-089",
+    "chapterId": "c10",
+    "sectionId": "c10-s08",
+    "paragraphId": "c10-s08-p116-06135",
+    "readingUnitId": "c10-s08-p116-06135-r009-011",
+    "sentenceIds": [
+      "c10-s08-p116-06135-s009",
+      "c10-s08-p116-06135-s010",
+      "c10-s08-p116-06135-s011"
+    ],
+    "passage": "Once you own something, the value of that object increases to you. This is why most people overestimate how valuable their houses are. Because they own it and are familiar with it, they like it and think it is more valuable than most others would—another reason why Love It or List It couples tend to love it more than they list it.",
+    "prompt": "How does ownership and familiarity explain the programme choice in this paragraph?",
+    "promptZh": "本段怎样用拥有与熟悉解释节目里的选择？",
+    "options": [
+      "Attachment makes the existing home feel more valuable, and helps explain preferring to keep it.",
+      "Every new house is objectively proved defective in all episodes.",
+      "The couples never owned the old home and knew nothing of its neighbourhood.",
+      "The paragraph says listing always occurs before any renovation."
+    ],
+    "optionsZh": [
+      "依恋使原屋主观更值钱，有助解释想保留。",
+      "每集每套新屋都客观证明有缺陷。",
+      "夫妻从未拥有旧屋也不熟社区。",
+      "段落说挂牌永远在任何翻新之前。"
+    ],
+    "answer": 0,
+    "type": "作者意图",
+    "support": "explicit",
+    "analyses": [
+      "A Because own and familiar...like...more valuable...another reason 建立作者的解释链。",
+      "B 不以新房必坏解释，而且前面常看更吸引。",
+      "C own/familiar 两个条件被直接反转。",
+      "D 无此全称时序；tend、most 保留一般倾向，不将电视观察当对每个现实业主的唯一因果证明。"
+    ],
+    "vocabulary": [
+      {
+        "word": "list it",
+        "meaning": "把房屋挂牌出售",
+        "context": "此节目语境不是把它加入学习清单或普通列举文本。",
+        "example": "The couple discussed whether to renovate the home or list it.",
+        "collocations": [
+          "love it more than they list it",
+          "Because they own it and are familiar with it"
+        ]
+      }
+    ],
+    "translation": "一旦拥有某物，它对你的价值就增加。这解释为什么多数人高估自家房价值。因为拥有且熟悉，他们喜欢它，并觉得它比多数别人认为的更值钱——这也是节目夫妻往往选择爱它而不是卖它的另一原因。",
+    "evidenceTargetIds": [
+      "c10-s08-p116-06135-s011"
+    ],
+    "evidence": [
+      {
+        "quote": "Once you own something, the value of that object increases to you. This is why most people overestimate how valuable their houses are. Because they own it and are familiar with it, they like it and think it is more valuable than most others would—another reason why Love It or List It couples tend to love it more than they list it.",
+        "sentenceIds": [
+          "c10-s08-p116-06135-s009",
+          "c10-s08-p116-06135-s010",
+          "c10-s08-p116-06135-s011"
+        ],
+        "sources": [
+          {
+            "pdfPage": 117,
+            "block": 0,
+            "bbox": [
+              76.99,
+              75,
+              535.01,
+              304.02
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "85708d573abfc41b96dda37fad94991f524252e13f5b18e058846f15175bb90e"
+  },
+  {
+    "id": "qe-c10-0151",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-044",
+    "parentQuestionId": "q-c10-090",
+    "chapterId": "c10",
+    "sectionId": "c10-s08",
+    "paragraphId": "c10-s08-p117-03090",
+    "readingUnitId": "c10-s08-p117-03090-r001-004",
+    "sentenceIds": [
+      "c10-s08-p117-03090-s001",
+      "c10-s08-p117-03090-s002",
+      "c10-s08-p117-03090-s003",
+      "c10-s08-p117-03090-s004"
+    ],
+    "passage": "The draw of familiarity is often stronger than that of variety, too. In a study where consumers were asked to plan a snack for each of the next three days, they tended to choose three different snacks: for instance, a matcha Kit-Kat for day one, Reese’s Peanut Butter Cups for day two, and Hershey’s Milk Chocolate for day three. Their reasoning was that they didn’t think they would want the same thing for three straight days; that would be too boring. They wanted variety!",
+    "prompt": "What does 'draw' mean in 'The draw of familiarity'?",
+    "promptZh": "The draw of familiarity 中 draw 是什么意思？",
+    "options": [
+      "A pencil sketch showing the same snack three times.",
+      "An exactly tied sporting result.",
+      "The attraction or pull of something familiar.",
+      "A random lottery guaranteeing equal choice of every item."
+    ],
+    "optionsZh": [
+      "把同零食画三次的铅笔图。",
+      "体育赛恰好打平。",
+      "熟悉事物的吸引力。",
+      "保证每项等概率选择的随机抽签。"
+    ],
+    "answer": 2,
+    "type": "语境词义",
+    "support": "explicit",
+    "analyses": [
+      "A draw 在此为名词吸引力，非画画。",
+      "B stronger than variety 的比较不是比赛平局。",
+      "C 与 stronger than that of variety 对应两类吸引力；often 仍非永远。",
+      "D 此处不指随机抽取或等概率；不能把主观偏好当彩票机制。"
+    ],
+    "vocabulary": [
+      {
+        "word": "draw",
+        "meaning": "吸引力；使人倾向靠近的力量",
+        "context": "熟词偏义，区别绘画、抽签和体育平局。",
+        "example": "The draw of the familiar café was stronger than the appeal of a new place.",
+        "collocations": [
+          "the draw of familiarity",
+          "stronger than that of variety"
+        ]
+      }
+    ],
+    "translation": "熟悉的吸引力往往也强过多样性。研究让消费者计划未来三天每天吃什么零食，他们倾向选三种不同的，例如第一天抹茶 Kit-Kat，第二天 Reese’s Peanut Butter Cups，第三天 Hershey’s Milk Chocolate。他们觉得不会想连续三天吃同样东西，那太无聊。他们想要变化！",
+    "evidenceTargetIds": [
+      "c10-s08-p117-03090-s001"
+    ],
+    "evidence": [
+      {
+        "quote": "The draw of familiarity is often stronger than that of variety, too.",
+        "sentenceIds": [
+          "c10-s08-p117-03090-s001"
+        ],
+        "sources": [
+          {
+            "pdfPage": 117,
+            "block": 1,
+            "bbox": [
+              76.99,
+              309,
+              535.01,
+              499.02
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "87b157e918f92572a24d17e26b1b6a2f019f2ac67bc49758dd599b5e49832929"
+  },
+  {
+    "id": "qe-c10-0152",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-044",
+    "parentQuestionId": "q-c10-090",
+    "chapterId": "c10",
+    "sectionId": "c10-s08",
+    "paragraphId": "c10-s08-p117-03090",
+    "readingUnitId": "c10-s08-p117-03090-r001-004",
+    "sentenceIds": [
+      "c10-s08-p117-03090-s001",
+      "c10-s08-p117-03090-s002",
+      "c10-s08-p117-03090-s003",
+      "c10-s08-p117-03090-s004"
+    ],
+    "passage": "The draw of familiarity is often stronger than that of variety, too. In a study where consumers were asked to plan a snack for each of the next three days, they tended to choose three different snacks: for instance, a matcha Kit-Kat for day one, Reese’s Peanut Butter Cups for day two, and Hershey’s Milk Chocolate for day three. Their reasoning was that they didn’t think they would want the same thing for three straight days; that would be too boring. They wanted variety!",
+    "prompt": "What did consumers tend to choose in the planning task described here?",
+    "promptZh": "此处所述计划任务中，消费者倾向选什么？",
+    "options": [
+      "Three copies of one favourite snack as a recorded completed purchase.",
+      "Different snacks for each of the next three days.",
+      "No snack for any of the three days.",
+      "Only one snack shared across a full week, with no daily planning."
+    ],
+    "optionsZh": [
+      "已实际买成的三份同款最爱。",
+      "未来三天每天不同零食。",
+      "三天每天都无零食。",
+      "一周只同一份，不作每日计划。"
+    ],
+    "answer": 1,
+    "type": "细节",
+    "support": "explicit",
+    "analyses": [
+      "A 当前 asked to plan 与 later actual purchase 要区分，本段说 three different，不把后续结果提前计入当前句。",
+      "B a snack for each next3days、three different 后给三款例子，限定倾向而非每人必然。",
+      "C choose snacks 不是全部不选。",
+      "D 每天规划三天并非一周；品牌只是书中示例，不是推荐购买或个人真实消费历史。"
+    ],
+    "vocabulary": [
+      {
+        "word": "plan",
+        "meaning": "计划；为未来安排",
+        "context": "当前为预先想选择，区别实际购买或已经食用。",
+        "example": "The participants were asked to plan snacks for three days.",
+        "collocations": [
+          "asked to plan a snack",
+          "each of the next three days"
+        ]
+      }
+    ],
+    "translation": "熟悉的吸引力往往也强过多样性。研究让消费者计划未来三天每天吃什么零食，他们倾向选三种不同的，例如第一天抹茶 Kit-Kat，第二天 Reese’s Peanut Butter Cups，第三天 Hershey’s Milk Chocolate。他们觉得不会想连续三天吃同样东西，那太无聊。他们想要变化！",
+    "evidenceTargetIds": [
+      "c10-s08-p117-03090-s002"
+    ],
+    "evidence": [
+      {
+        "quote": "In a study where consumers were asked to plan a snack for each of the next three days, they tended to choose three different snacks: for instance, a matcha Kit-Kat for day one, Reese’s Peanut Butter Cups for day two, and Hershey’s Milk Chocolate for day three.",
+        "sentenceIds": [
+          "c10-s08-p117-03090-s002"
+        ],
+        "sources": [
+          {
+            "pdfPage": 117,
+            "block": 1,
+            "bbox": [
+              76.99,
+              309,
+              535.01,
+              499.02
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "6b071d0b991ddf30ee21d575fc58501d470f9573fbf2dce6364e19cce0ee0189"
   }
 ]
