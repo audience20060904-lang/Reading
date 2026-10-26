@@ -1,0 +1,983 @@
+{
+  "schemaVersion": 1,
+  "id": "evidence-047",
+  "status": "authored",
+  "evidenceRule": "frozen-target-sentence",
+  "questions": [
+    {
+      "order": 1,
+      "prompt": "Where did the author go on the trip used as an example?",
+      "promptZh": "作者用作例子的那次出行去了哪里？",
+      "options": [
+        "A small railway station outside Tokyo.",
+        "A building site in an American suburb.",
+        "A fancy department store in Ginza, Tokyo.",
+        "His university friends' completed house in Japan."
+      ],
+      "optionsZh": [
+        "东京外的小火车站。",
+        "美国郊区的一处建筑工地。",
+        "东京银座一家高档百货商店。",
+        "日本大学朋友已建好的房子。"
+      ],
+      "answer": 2,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A 车站属于前面的通勤研究，非本例地点。",
+        "B DIY 出现在上一文化例子，不是这次出行场景。",
+        "C fancy department store 与 Ginza, Tokyo 两项明确对应。",
+        "D 前文谈朋友是假设反应，这里没有参观朋友房屋的记录。"
+      ],
+      "vocabulary": [
+        {
+          "word": "fancy",
+          "meaning": "高档的；精致讲究的",
+          "context": "此处修饰百货商店，不是动词想象或形容幻想中的。",
+          "example": "They visited a fancy department store during the trip.",
+          "collocations": [
+            "a fancy department store",
+            "on one trip"
+          ]
+        }
+      ],
+      "evidenceQuote": "Now, when I go back to Japan, I have to consciously try not to smile. For example, I went to a fancy department store in Ginza, Tokyo, on one trip. I entered an elevator and looked at the others already in it. I noticed that their faces froze; they were scared of me."
+    },
+    {
+      "order": 2,
+      "prompt": "What did the author do immediately after entering the elevator?",
+      "promptZh": "作者进入电梯后紧接着做了什么？",
+      "options": [
+        "He looked at the people already inside.",
+        "He immediately looked down without seeing anyone.",
+        "He interviewed every passenger about creativity.",
+        "He asked the store to replace the elevator."
+      ],
+      "optionsZh": [
+        "他看了看已经在里面的人。",
+        "他立即低头，完全没看任何人。",
+        "他访问每位乘客的创造力。",
+        "他要求商店更换电梯。"
+      ],
+      "answer": 0,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A entered...and looked at 明确给动作顺序，others already in it 是被看的对象。",
+        "B 把后面规范描述的低头动作挪为实际发生的动作。",
+        "C 个人乘电梯经历不是逐人访谈研究。",
+        "D 原句只说进入并看别人，没有设备更换要求。"
+      ],
+      "vocabulary": [
+        {
+          "word": "already",
+          "meaning": "已经；在某一时刻之前就如此",
+          "context": "修饰其他人已在电梯里，区别作者刚刚进入。",
+          "example": "She looked at the passengers already inside the elevator.",
+          "collocations": [
+            "the others already in it",
+            "entered an elevator"
+          ]
+        }
+      ],
+      "evidenceQuote": "Now, when I go back to Japan, I have to consciously try not to smile. For example, I went to a fancy department store in Ginza, Tokyo, on one trip. I entered an elevator and looked at the others already in it. I noticed that their faces froze; they were scared of me."
+    },
+    {
+      "order": 3,
+      "prompt": "What does the author's question about others being scared express?",
+      "promptZh": "作者问别人为何怕自己，表达什么？",
+      "options": [
+        "A conclusion that he had deliberately threatened them.",
+        "A measured finding that every passenger feared every stranger.",
+        "An instruction telling readers to frighten other passengers.",
+        "His puzzlement about their reaction to him."
+      ],
+      "optionsZh": [
+        "他已得出自己故意威胁了他们的结论。",
+        "测量发现每位乘客都怕每位陌生人。",
+        "叫读者恐吓其他乘客的指令。",
+        "他对别人反应的困惑。"
+      ],
+      "answer": 3,
+      "type": "作者意图",
+      "support": "explicit",
+      "analyses": [
+        "A 问句没有承认故意威胁，后接自认友好。",
+        "B 单次个人叙述没有给所有乘客的测量。",
+        "C Why 问原因，不是命令读者采取行为。",
+        "D 问句呈现先不理解，随后 A moment later 才意识到自己目光接触、微笑的情境差异。"
+      ],
+      "vocabulary": [
+        {
+          "word": "scared",
+          "meaning": "害怕的；受惊的",
+          "context": "这里是叙述者对其他人反应的描述，不代表有逐人恐惧量表。",
+          "example": "He wondered why the other passengers seemed scared.",
+          "collocations": [
+            "scared of me",
+            "Why would they be"
+          ]
+        }
+      ],
+      "evidenceQuote": "Why would they be scared of me? I am a friendly Japanese person! A moment later, though, it suddenly hit me that I was making eye contact and smiling at them—how rude! Here is what you are supposed to do in Japan: You enter an elevator."
+    },
+    {
+      "order": 4,
+      "prompt": "Why does the author exclaim that he is a friendly Japanese person?",
+      "promptZh": "作者为何感叹自己是个友好的日本人？",
+      "options": [
+        "To report a formal personality test that every passenger completed.",
+        "To emphasise the mismatch between his friendly self-image and the reaction he perceived.",
+        "To admit that he intended his smile as a threat.",
+        "To establish that all Japanese people behave identically in elevators."
+      ],
+      "optionsZh": [
+        "报告每位乘客完成的正式人格测试。",
+        "强调自己友好的自我认识与所感知的他人反应之间不一致。",
+        "承认他有意把微笑用作威胁。",
+        "证明所有日本人在电梯里行为一致。"
+      ],
+      "answer": 1,
+      "type": "作者意图",
+      "support": "explicit",
+      "analyses": [
+        "A 没有人格测验数据，第一人称感叹属个人解释。",
+        "B 紧随 Why scared 的感叹突出困惑，之后才意识到文化语境中的失礼。",
+        "C friendly 与有意威胁不符。",
+        "D 一人的自述不能当全体行为一致的证明。"
+      ],
+      "vocabulary": [
+        {
+          "word": "friendly",
+          "meaning": "友好的；愿意友善相处的",
+          "context": "表达作者对自身态度的认识，区别别人实际如何理解其行为。",
+          "example": "He thought of himself as friendly but misread the situation.",
+          "collocations": [
+            "a friendly Japanese person",
+            "I am a friendly"
+          ]
+        }
+      ],
+      "evidenceQuote": "Why would they be scared of me? I am a friendly Japanese person! A moment later, though, it suddenly hit me that I was making eye contact and smiling at them—how rude! Here is what you are supposed to do in Japan: You enter an elevator."
+    },
+    {
+      "order": 5,
+      "prompt": "What does 'Here is what you are supposed to do in Japan' introduce?",
+      "promptZh": "Here is what you are supposed to do in Japan 引出什么？",
+      "options": [
+        "A set of elevator-behaviour expectations as described by the author.",
+        "A requirement that the website user enter an actual elevator before continuing.",
+        "A new experiment that randomly assigns all Japanese residents to conditions.",
+        "A claim that the author has already obeyed every rule in this encounter."
+      ],
+      "optionsZh": [
+        "作者所描述的一组电梯行为规范。",
+        "要求网站使用者继续前先真的进入电梯。",
+        "将所有日本居民随机分组的新实验。",
+        "声称作者在此次相遇中已遵守每条规范。"
+      ],
+      "answer": 0,
+      "type": "篇章结构",
+      "support": "explicit",
+      "analyses": [
+        "A supposed to 表示预期的行为，冒号后从进入电梯开始说明。",
+        "B 这是书中行为描述，不是对使用本网站的人的操作步骤。",
+        "C 没有随机分组研究；该故事是文化差异说明例。",
+        "D 前句刚意识到自己的目光与微笑显得失礼，不能把规范叙述当作已经遵守的记录。"
+      ],
+      "vocabulary": [
+        {
+          "word": "supposed to",
+          "meaning": "被期望应当；按某种规范应该",
+          "context": "这里叙述作者所理解的社交期待，不是必然发生的事实。",
+          "example": "Visitors tried to learn how they were supposed to behave.",
+          "collocations": [
+            "what you are supposed to do",
+            "You enter an elevator"
+          ]
+        }
+      ],
+      "evidenceQuote": "Why would they be scared of me? I am a friendly Japanese person! A moment later, though, it suddenly hit me that I was making eye contact and smiling at them—how rude! Here is what you are supposed to do in Japan: You enter an elevator."
+    },
+    {
+      "order": 6,
+      "prompt": "Which behaviour is discouraged in the author's elevator description?",
+      "promptZh": "作者描述的电梯规范不赞成哪种行为？",
+      "options": [
+        "Keeping one's gaze lowered.",
+        "Leaving other passengers undisturbed.",
+        "Looking directly at another person.",
+        "Recognising that social meanings can vary."
+      ],
+      "optionsZh": [
+        "视线向下。",
+        "不打扰其他乘客。",
+        "直视另一个人。",
+        "认识到社交含义可以不同。"
+      ],
+      "answer": 2,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A 后句 look down 列为应有做法，不是本句所阻止的。",
+        "B don’t bother anyone 同样是后述规范。",
+        "C Never look at anyone directly 对应直视他人。",
+        "D 这是本故事服务的理解目标，不是这句否定的行为；限定为书中作者所述情境。"
+      ],
+      "vocabulary": [
+        {
+          "word": "directly",
+          "meaning": "直接地；此处指直视",
+          "context": "修饰 look，重点是视线指向，不是立即采取某动作。",
+          "example": "He avoided looking directly at the other passenger.",
+          "collocations": [
+            "look at anyone directly",
+            "Never look"
+          ]
+        }
+      ],
+      "evidenceQuote": "Never look at anyone directly. No eye contact. You look down and don’t bother anyone. Leung and colleagues argue that experiences like this help us understand multiple meanings of the same form of behavior, which in turn helps us think of multiple uses for one tool or idea."
+    },
+    {
+      "order": 7,
+      "prompt": "What does the short phrase 'No eye contact' reinforce?",
+      "promptZh": "短语 No eye contact 强调什么？",
+      "options": [
+        "The need to check every passenger's eyesight.",
+        "The fact that the elevator has no lighting.",
+        "A physical inability of the author to move his eyes.",
+        "The expectation to avoid meeting other passengers' gaze."
+      ],
+      "optionsZh": [
+        "检查每位乘客视力的需要。",
+        "电梯没有照明这一事实。",
+        "作者在生理上不能转动眼睛。",
+        "避免与其他乘客目光相接的行为期待。"
+      ],
+      "answer": 3,
+      "type": "同义改写",
+      "support": "explicit",
+      "analyses": [
+        "A eye contact 是人际目光接触，不是视力检测。",
+        "B No 否定的是接触，并非照明。",
+        "C 简短规范不说明作者身体能力受损。",
+        "D 承接 Never look directly，以省略式短语强化避免对视；这是保留的原文片段，不补造完整实验结论。"
+      ],
+      "vocabulary": [
+        {
+          "word": "eye contact",
+          "meaning": "目光接触；与人对视",
+          "context": "关注社交视线交流，不是手碰眼睛或检查视力。",
+          "example": "The visitor avoided eye contact in the elevator.",
+          "collocations": [
+            "No eye contact",
+            "making eye contact"
+          ]
+        }
+      ],
+      "evidenceQuote": "Never look at anyone directly. No eye contact. You look down and don’t bother anyone. Leung and colleagues argue that experiences like this help us understand multiple meanings of the same form of behavior, which in turn helps us think of multiple uses for one tool or idea."
+    },
+    {
+      "order": 8,
+      "prompt": "Which pair of actions matches the elevator behaviour described?",
+      "promptZh": "哪组动作符合文中描述的电梯行为？",
+      "options": [
+        "Stare at everyone and demand a conversation.",
+        "Look down and leave others undisturbed.",
+        "Smile at everyone while insisting they look back.",
+        "Ask every passenger to explain the rules aloud."
+      ],
+      "optionsZh": [
+        "盯着每个人并要求交谈。",
+        "低头，并不打扰别人。",
+        "对每个人微笑并坚持让他们回看。",
+        "要求每位乘客大声解释规则。"
+      ],
+      "answer": 1,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A 直视、强求交谈与前后文规范相反。",
+        "B look down 与 don’t bother anyone 两项都保留。",
+        "C 微笑与对视正是作者事后发现的情境错配。",
+        "D 未出现要求他人解释规则的步骤。"
+      ],
+      "vocabulary": [
+        {
+          "word": "bother",
+          "meaning": "打扰；使别人感到不自在",
+          "context": "句中 don’t bother anyone 是不扰人的行为期待，不是自己懒得做某事。",
+          "example": "She waited quietly so as not to bother the other passengers.",
+          "collocations": [
+            "don’t bother anyone",
+            "You look down"
+          ]
+        }
+      ],
+      "evidenceQuote": "Never look at anyone directly. No eye contact. You look down and don’t bother anyone. Leung and colleagues argue that experiences like this help us understand multiple meanings of the same form of behavior, which in turn helps us think of multiple uses for one tool or idea."
+    },
+    {
+      "order": 9,
+      "prompt": "What does 'go beyond creativity' indicate about the reported benefits?",
+      "promptZh": "go beyond creativity 对所报告的益处说明什么？",
+      "options": [
+        "The review says creativity is the only possible benefit.",
+        "The review has stopped considering any multicultural experience.",
+        "The benefits discussed extend to areas other than creativity too.",
+        "The review proves every person gains every benefit equally."
+      ],
+      "optionsZh": [
+        "综述说创造力是唯一可能益处。",
+        "综述不再考虑任何多文化经历。",
+        "所讨论益处还延伸到创造力以外的领域。",
+        "综述证明每个人都同等获得所有益处。"
+      ],
+      "answer": 2,
+      "type": "主旨",
+      "support": "explicit",
+      "analyses": [
+        "A beyond 指超出，而非唯一。",
+        "B 研究主题仍是 multicultural experiences。",
+        "C 后文以自我认识、信任和人际理解等扩展说明。",
+        "D 句中未说所有个体益处等量；recent 是书写时的表述，不是本网站新查的最新综述。"
+      ],
+      "vocabulary": [
+        {
+          "word": "go beyond",
+          "meaning": "超出；不限于",
+          "context": "这里扩展益处所涉领域，不是说创造力完全无关。",
+          "example": "The reported benefits go beyond improved task performance.",
+          "collocations": [
+            "go beyond creativity",
+            "the benefits of multicultural experiences"
+          ]
+        }
+      ],
+      "evidenceQuote": "A recent review of studies also shows that the benefits of multicultural experiences go beyond creativity. For example, time spent living abroad also helps individuals gain a clearer sense of who they are and the lives they want to pursue. Individuals who have more foreign experiences trust others more and are better able to understand and relate to others. Those who have explored the world tend to hold fewer negative stereotypes and prejudices, and they discriminate against outgroup members less than those who have not."
+    },
+    {
+      "order": 10,
+      "prompt": "Which comparison about prejudice is reported in the passage?",
+      "promptZh": "原文报告了关于偏见的哪种比较？",
+      "options": [
+        "People who explored the world tend to show fewer negative stereotypes and less outgroup discrimination than those who did not.",
+        "Every traveller has no prejudice at all, regardless of the situation.",
+        "People with no exploration experience always discriminate less than all travellers.",
+        "The comparison measures only whether people can solve the candle problem."
+      ],
+      "optionsZh": [
+        "探索过世界者倾向于比未探索者有更少负面刻板印象、较少对外群体的歧视。",
+        "每个旅行者在任何情境下都完全无偏见。",
+        "无探索经历者总比所有旅行者更少歧视。",
+        "比较仅测量能否解决蜡烛问题。"
+      ],
+      "answer": 0,
+      "type": "证据范围",
+      "support": "explicit",
+      "analyses": [
+        "A tend、fewer、less 及比较对象均保留，是群体倾向。",
+        "B 把较少扩大成人人为零，还删掉倾向限定。",
+        "C 将比较方向颠倒，并加上总是与全部。",
+        "D 本句结果为刻板印象、偏见与外群体歧视，不是创造力测题。"
+      ],
+      "vocabulary": [
+        {
+          "word": "outgroup",
+          "meaning": "外群体的；自身所属群体之外的",
+          "context": "修饰 members，不能误读为一起出游的同伴。",
+          "example": "The study compared attitudes towards outgroup members.",
+          "collocations": [
+            "outgroup members",
+            "negative stereotypes and prejudices"
+          ]
+        }
+      ],
+      "evidenceQuote": "A recent review of studies also shows that the benefits of multicultural experiences go beyond creativity. For example, time spent living abroad also helps individuals gain a clearer sense of who they are and the lives they want to pursue. Individuals who have more foreign experiences trust others more and are better able to understand and relate to others. Those who have explored the world tend to hold fewer negative stereotypes and prejudices, and they discriminate against outgroup members less than those who have not."
+    },
+    {
+      "order": 11,
+      "prompt": "Why does the author flag undesirable outcomes at this point?",
+      "promptZh": "作者此处提示不理想结果，作用是什么？",
+      "options": [
+        "To say that no positive outcomes have ever been reported.",
+        "To prove that living abroad inevitably causes every moral failure.",
+        "To withdraw all previous discussion of creativity without explanation.",
+        "To qualify the benefits by noting that some unwanted outcomes are also correlated with multicultural experience."
+      ],
+      "optionsZh": [
+        "说从未报告任何积极结果。",
+        "证明海外生活必然造成一切道德失败。",
+        "不加解释地撤回所有创造力讨论。",
+        "指出多文化经历也与某些不希望的结果相关，对益处作限定。"
+      ],
+      "answer": 3,
+      "type": "逻辑关系",
+      "support": "explicit",
+      "analyses": [
+        "A as well 表示并存，不是否认前面的益处。",
+        "B correlated 不等于必然因果，也没有 every moral failure。",
+        "C 作者转向代价讨论，没有撤回此前全部结果。",
+        "D some、correlated、as well 共同构成平衡说明，而非全有益或全有害。"
+      ],
+      "vocabulary": [
+        {
+          "word": "correlated with",
+          "meaning": "与……相关",
+          "context": "在此报告共同变化关系，不能单凭措辞推成随机干预确认的必然因果。",
+          "example": "An outcome may be correlated with experience without being guaranteed by it.",
+          "collocations": [
+            "outcomes correlated with multicultural experience",
+            "some undesirable outcomes"
+          ]
+        }
+      ],
+      "evidenceQuote": "It should be noted that there are some undesirable outcomes correlated with multicultural experience as well. For instance, individuals with more multicultural experiences are more likely to believe in moral relativism—the idea that morality, or what is good or bad, is not absolute, but relative. Furthermore, when there was a chance to cheat on a performance task, those with more cross-cultural experiences cheated more than those with fewer cross-cultural experiences."
+    },
+    {
+      "order": 12,
+      "prompt": "What happened when participants had an opportunity to cheat on a performance task?",
+      "promptZh": "参与者在绩效任务中有机会作弊时，文中报告什么？",
+      "options": [
+        "Everyone with any foreign experience was found to cheat on every task.",
+        "Those with more cross-cultural experience cheated more than those with less.",
+        "People with fewer experiences cheated more, reversing the preceding concern.",
+        "Participants were asked only to predict cheating, with no opportunity to do it."
+      ],
+      "optionsZh": [
+        "发现任何有海外经历者都会在每项任务作弊。",
+        "跨文化经历更多者比经历较少者作弊更多。",
+        "经历较少者作弊更多，逆转前述担忧。",
+        "参与者只预测作弊，没有实际机会。"
+      ],
+      "answer": 1,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A more than 是比较，不是任何人每次都会。",
+        "B when there was a chance 的条件与两组方向准确保留。",
+        "C 交换更多与更少的方向。",
+        "D 文中明确有机会作弊，并说 cheated more；不能改成仅作想象预测，更不能仅凭相关段落确认因果。"
+      ],
+      "vocabulary": [
+        {
+          "word": "chance to cheat",
+          "meaning": "作弊的机会",
+          "context": "这里指任务提供的可能性，不是每个人必已作弊或作弊概率的确切数值。",
+          "example": "The task gave participants a chance to cheat.",
+          "collocations": [
+            "a chance to cheat",
+            "a performance task"
+          ]
+        }
+      ],
+      "evidenceQuote": "It should be noted that there are some undesirable outcomes correlated with multicultural experience as well. For instance, individuals with more multicultural experiences are more likely to believe in moral relativism—the idea that morality, or what is good or bad, is not absolute, but relative. Furthermore, when there was a chance to cheat on a performance task, those with more cross-cultural experiences cheated more than those with fewer cross-cultural experiences."
+    },
+    {
+      "order": 13,
+      "prompt": "According to the author's account, what did Jobs misrepresent at several launches?",
+      "promptZh": "按作者的叙述，Jobs 在几次发布会上歪曲了什么？",
+      "options": [
+        "The locations of all the stores selling the devices.",
+        "His friends' preferences about overseas study.",
+        "The titles of the songs he admired.",
+        "Particular functions of the devices."
+      ],
+      "optionsZh": [
+        "销售设备的所有商店地点。",
+        "朋友对留学的偏好。",
+        "他喜爱歌曲的标题。",
+        "设备的特定功能。"
+      ],
+      "answer": 3,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A 原文宾语是 particular device functions，非所有销售地点。",
+        "B 朋友的反应属于前面 DIY 假设。",
+        "C 音乐家在后面作为艺术成长的引用，不是此处说谎的对象。",
+        "D lie...about particular device functions 直接给对象，several product launches 是场景；保留这是本书的叙述归属，不扩大为每款设备所有功能。"
+      ],
+      "vocabulary": [
+        {
+          "word": "particular",
+          "meaning": "特定的；某些具体的",
+          "context": "限定 device functions，不能把范围扩成全部功能。",
+          "example": "The criticism concerned particular functions rather than the whole design.",
+          "collocations": [
+            "particular device functions",
+            "several product launches"
+          ]
+        }
+      ],
+      "evidenceQuote": "After all, Steve Jobs did lie to the audience about particular device functions in several product launches. He regularly parked his car in the handicapped section at Whole Foods. He showed signs of moral relativism. But Jobs was also creative."
+    },
+    {
+      "order": 14,
+      "prompt": "What recurring parking behaviour does the author describe?",
+      "promptZh": "作者描述 Jobs 什么反复发生的停车行为？",
+      "options": [
+        "He parked only at railway stations during research sessions.",
+        "He regularly parked in the handicapped section at Whole Foods.",
+        "He designed a new parking section for every customer.",
+        "He reported that his car had never been parked at Whole Foods."
+      ],
+      "optionsZh": [
+        "他仅在研究时停在火车站。",
+        "他经常在 Whole Foods 的残障专用区停车。",
+        "他为每位顾客设计新停车区。",
+        "他说自己的车从未停在 Whole Foods。"
+      ],
+      "answer": 1,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A Whole Foods 非通勤研究车站，且没有 only 限定。",
+        "B regularly 与地点、区域三项均对应作者叙述。",
+        "C 停车行为并不是设计停车区。",
+        "D regularly parked 与从未停过相反；句中也未说他因此获得许可或可推断每次停车的全部情况。"
+      ],
+      "vocabulary": [
+        {
+          "word": "regularly",
+          "meaning": "经常；有规律地反复",
+          "context": "描述频率，不能当作仅一次，也不必解释为每一天同一时刻。",
+          "example": "The account says the behaviour occurred regularly.",
+          "collocations": [
+            "regularly parked his car",
+            "the handicapped section"
+          ]
+        }
+      ],
+      "evidenceQuote": "After all, Steve Jobs did lie to the audience about particular device functions in several product launches. He regularly parked his car in the handicapped section at Whole Foods. He showed signs of moral relativism. But Jobs was also creative."
+    },
+    {
+      "order": 15,
+      "prompt": "Which statement accurately describes the design contribution mentioned?",
+      "promptZh": "哪句准确描述文中所说的设计贡献？",
+      "options": [
+        "He alone designed every component of all four products.",
+        "He helped design the Mac and none of the other products listed.",
+        "He helped design the Mac, iPod, iPad, and iPhone.",
+        "He helped design only the musicians' instruments."
+      ],
+      "optionsZh": [
+        "四种产品每个部件都由他独自设计。",
+        "他只参与 Mac，未参与其余所列产品。",
+        "他参与设计 Mac、iPod、iPad 和 iPhone。",
+        "他只参与设计音乐家的乐器。"
+      ],
+      "answer": 2,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A helped design 不等于独自设计全部部件。",
+        "B 漏掉三个并列产品。",
+        "C 四个名称和 helped 的贡献范围保留。",
+        "D 后面虽谈音乐家，但这里宾语是四种产品。"
+      ],
+      "vocabulary": [
+        {
+          "word": "helped design",
+          "meaning": "参与设计；帮助设计",
+          "context": "保留参与而非独自完成全部设计的范围。",
+          "example": "She helped design the interface as part of a team.",
+          "collocations": [
+            "helped design the Mac",
+            "iPod, iPad, and iPhone"
+          ]
+        }
+      ],
+      "evidenceQuote": "He helped design the Mac, iPod, iPad, and iPhone. Referring to Bob Dylan and the Beatles, the musicians he loved, Jobs said, “They kept evolving, moving, refining their art. That’s what I’ve always tried to do—keep moving. Otherwise, as Dylan says, if you’re not busy being born, you’re busy dying.”"
+    },
+    {
+      "order": 16,
+      "prompt": "What does 'That' refer to in Jobs's comment about what he had always tried to do?",
+      "promptZh": "Jobs 说自己一直努力做的 That 指什么？",
+      "options": [
+        "Continuing to evolve and refine one's work rather than standing still.",
+        "Keeping every product unchanged once it has been introduced.",
+        "Copying the musicians' exact lyrics into every device.",
+        "Avoiding every new experience in order to preserve familiarity."
+      ],
+      "optionsZh": [
+        "持续演变、打磨工作，而非停滞。",
+        "产品一推出就永远原样保持。",
+        "把音乐家的原词逐字复制进每个设备。",
+        "为维持熟悉感而避开所有新体验。"
+      ],
+      "answer": 0,
+      "type": "指代",
+      "support": "explicit",
+      "analyses": [
+        "A 回指前句音乐家 kept evolving, moving, refining，破折号后 keep moving 再概括。",
+        "B 与 evolving/refining 相反。",
+        "C 欣赏音乐家的创作态度不等于复制歌词。",
+        "D keep moving 也不是守住原样拒绝探索；这是 Jobs 的自述，不是对其所有实际行为均持续进步的测量。"
+      ],
+      "vocabulary": [
+        {
+          "word": "keep moving",
+          "meaning": "继续前进；持续变化发展",
+          "context": "在此承接艺术演变，主要是持续成长的比喻，不限于身体不停行走。",
+          "example": "The designer wanted to keep moving and refine the work.",
+          "collocations": [
+            "tried to do—keep moving",
+            "kept evolving"
+          ]
+        }
+      ],
+      "evidenceQuote": "He helped design the Mac, iPod, iPad, and iPhone. Referring to Bob Dylan and the Beatles, the musicians he loved, Jobs said, “They kept evolving, moving, refining their art. That’s what I’ve always tried to do—keep moving. Otherwise, as Dylan says, if you’re not busy being born, you’re busy dying.”"
+    },
+    {
+      "order": 17,
+      "prompt": "How does the closing contrast attributed to Dylan function in Jobs's quotation?",
+      "promptZh": "Jobs 引语中归于 Dylan 的结尾对照起什么作用？",
+      "options": [
+        "It supplies a literal medical rule that all illnesses are caused by stopping work.",
+        "It proves every new product must be released at exactly the same age.",
+        "It reports measured mortality rates for two experimental groups.",
+        "It uses a vivid contrast between renewal and decline to reinforce continual development."
+      ],
+      "optionsZh": [
+        "给出停止工作导致一切疾病的医学定律。",
+        "证明每款新产品必须在同一年龄发布。",
+        "报告两个实验组的实测死亡率。",
+        "用新生与衰退的鲜明对照强化持续发展的想法。"
+      ],
+      "answer": 3,
+      "type": "作者意图",
+      "support": "explicit",
+      "analyses": [
+        "A 艺术性对照不是医学病因规则。",
+        "B 未提产品发布年龄标准。",
+        "C 文中是 Jobs 引用音乐家的说法，没有组别或死亡率测量。",
+        "D 承接 keep moving，以强烈对照作修辞强调；归属层次为作者引 Jobs，Jobs 再引 Dylan，不能当作者新做的实验证据。"
+      ],
+      "vocabulary": [
+        {
+          "word": "Otherwise",
+          "meaning": "否则；要不然",
+          "context": "在引语中引出不持续前进的反面图景，服务于修辞对照。",
+          "example": "Keep developing the idea; otherwise, the project may stagnate.",
+          "collocations": [
+            "Otherwise, as Dylan says",
+            "keep moving"
+          ]
+        }
+      ],
+      "evidenceQuote": "He helped design the Mac, iPod, iPad, and iPhone. Referring to Bob Dylan and the Beatles, the musicians he loved, Jobs said, “They kept evolving, moving, refining their art. That’s what I’ve always tried to do—keep moving. Otherwise, as Dylan says, if you’re not busy being born, you’re busy dying.”"
+    },
+    {
+      "order": 18,
+      "prompt": "What role does 'So keep moving' play at the end of the chapter?",
+      "promptZh": "So keep moving 在章末起什么作用？",
+      "options": [
+        "It changes the passage into a timetable for physical exercise.",
+        "It requires the reader to leave the webpage before reading further.",
+        "It turns the discussion into a concluding encouragement to continue developing.",
+        "It retracts the claim that exploration can have any benefits."
+      ],
+      "optionsZh": [
+        "把段落改成体育锻炼时刻表。",
+        "要求读者离开网页才能继续读。",
+        "把前述讨论收束为继续发展的鼓励。",
+        "撤回探索可能有益的说法。"
+      ],
+      "answer": 2,
+      "type": "篇章结构",
+      "support": "explicit",
+      "analyses": [
+        "A moving 承接变化与探索，不是运动时刻表。",
+        "B 书中修辞呼吁不构成网站操作前提。",
+        "C So 标出由前文引出的鼓励，下句接 keep exploring。",
+        "D 这是鼓励探索的收束，不是撤回益处；没有保证每次探索都有奖赏。"
+      ],
+      "vocabulary": [
+        {
+          "word": "So",
+          "meaning": "所以；由此引出结语或建议",
+          "context": "连接前面的成长例子与作者的章末劝勉，不是实验因果统计。",
+          "example": "The account ends with a conclusion: so keep exploring.",
+          "collocations": [
+            "So keep moving",
+            "Keep exploring"
+          ]
+        }
+      ],
+      "evidenceQuote": "So keep moving. Keep exploring, despite the psychological biases holding you back. You might earn a prize or two: creativity, experiential wisdom—and a top 10 percent mate."
+    },
+    {
+      "order": 19,
+      "prompt": "What obstacle does the author urge readers to explore despite?",
+      "promptZh": "作者鼓励读者克服什么阻碍继续探索？",
+      "options": [
+        "The absence of every possible source of new experience.",
+        "Psychological biases that hold them back.",
+        "An obligation to know every outcome with certainty before acting.",
+        "A guarantee that curiosity can never bring any reward."
+      ],
+      "optionsZh": [
+        "完全没有任何新体验来源。",
+        "把人拉住、阻碍人的心理偏误。",
+        "行动前必须确定每种结果的义务。",
+        "好奇绝不带来回报的保证。"
+      ],
+      "answer": 1,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A 文中讨论有机会却受偏误限制，非机会全无。",
+        "B despite 后给 psychological biases holding you back。",
+        "C 确定性偏好正是此前需面对的阻力，不是新设义务。",
+        "D 下一句 might earn 是可能收获，非保证永无回报。"
+      ],
+      "vocabulary": [
+        {
+          "word": "holding you back",
+          "meaning": "阻碍你；使你难以前进",
+          "context": "在此是心理偏误的阻力，比喻而非有人实际拉住身体。",
+          "example": "Fear of the unfamiliar was holding him back.",
+          "collocations": [
+            "biases holding you back",
+            "despite the psychological biases"
+          ]
+        }
+      ],
+      "evidenceQuote": "So keep moving. Keep exploring, despite the psychological biases holding you back. You might earn a prize or two: creativity, experiential wisdom—and a top 10 percent mate."
+    },
+    {
+      "order": 20,
+      "prompt": "Which statement preserves the scope of the chapter's opening claim about rich experiences?",
+      "promptZh": "哪句保留本章开头关于丰富体验的范围？",
+      "options": [
+        "The author says most psychologically rich experiences are intentional.",
+        "The author says every psychologically rich experience is intentionally chosen.",
+        "The author says no unintentional experience can ever change a perspective.",
+        "The author has counted the current reader's personal experiences and intentions."
+      ],
+      "optionsZh": [
+        "作者说多数心理丰富体验是有意的。",
+        "作者说每个心理丰富体验都是有意选择的。",
+        "作者说任何非自愿体验都不可能改变视角。",
+        "作者已统计当前读者的个人经历及意图。"
+      ],
+      "answer": 0,
+      "type": "证据范围",
+      "support": "explicit",
+      "analyses": [
+        "A Most 与 intentional 都保留，是作者的开篇概括。",
+        "B Most 不等于 every。",
+        "C 后面正以问句引入非自愿体验，不能提前断言绝无作用。",
+        "D 这是书中讨论，没有当前用户经历的统计。"
+      ],
+      "vocabulary": [
+        {
+          "word": "intentional",
+          "meaning": "有意的；经过主动选择的",
+          "context": "与本段末 unintentional 相对，不等同于一定愉快或一定成功。",
+          "example": "The visit was intentional, although its effects were unexpected.",
+          "collocations": [
+            "experiences are intentional",
+            "Most psychologically rich experiences"
+          ]
+        }
+      ],
+      "evidenceQuote": "Most psychologically rich experiences are intentional. One usually makes the choice to study abroad. One chooses to read Marcel Proust; one chooses to watch an Agnès Varda film; one chooses to take up a DIY project. But what about unintentional experiences?"
+    },
+    {
+      "order": 21,
+      "prompt": "How is studying abroad used in the opening paragraph?",
+      "promptZh": "开篇段落如何使用留学这个例子？",
+      "options": [
+        "As proof that every overseas stay is completely free of difficulties.",
+        "As a natural disaster nobody can choose.",
+        "As an activity that usually involves making a deliberate choice.",
+        "As a guarantee that every student has the same rich experience."
+      ],
+      "optionsZh": [
+        "作为每次海外停留都完全没有困难的证明。",
+        "作为无人能选择的自然灾害。",
+        "作为通常涉及主动决定的活动。",
+        "作为每名学生都有相同丰富体验的保证。"
+      ],
+      "answer": 2,
+      "type": "作者意图",
+      "support": "explicit",
+      "analyses": [
+        "A 主动选择并不等于毫无困难。",
+        "B 句中 makes the choice，与非自愿灾害不同。",
+        "C usually makes the choice to study abroad 说明前句 intentional 的通常情形。",
+        "D usually 不是 every，选择同类活动也未保证体验相同。"
+      ],
+      "vocabulary": [
+        {
+          "word": "makes the choice",
+          "meaning": "作出选择；主动决定",
+          "context": "这里通常由本人选择留学，保留 usually 而非无例外。",
+          "example": "She makes the choice to study abroad after considering the options.",
+          "collocations": [
+            "usually makes the choice",
+            "to study abroad"
+          ]
+        }
+      ],
+      "evidenceQuote": "Most psychologically rich experiences are intentional. One usually makes the choice to study abroad. One chooses to read Marcel Proust; one chooses to watch an Agnès Varda film; one chooses to take up a DIY project. But what about unintentional experiences?"
+    },
+    {
+      "order": 22,
+      "prompt": "What links reading Proust, watching a Varda film, and taking up DIY in the sentence?",
+      "promptZh": "句中读 Proust、看 Varda 电影和做 DIY 有什么共同点？",
+      "options": [
+        "They are all described as unchosen natural disasters.",
+        "They are all tasks that every person must complete in the stated order.",
+        "They are shown to produce identical results for every reader or viewer.",
+        "They are presented as activities one can choose to undertake."
+      ],
+      "optionsZh": [
+        "都被描述为无法选择的自然灾害。",
+        "都是每人必须按所列顺序完成的任务。",
+        "已证明对每个读者或观众产生完全相同结果。",
+        "都作为人可主动选择从事的活动。"
+      ],
+      "answer": 3,
+      "type": "逻辑关系",
+      "support": "explicit",
+      "analyses": [
+        "A 三次 chooses 强调主动，非灾害。",
+        "B 分号并列多个例子，不构成强制顺序。",
+        "C 本句只列选择，不报告统一效果试验。",
+        "D 重复 one chooses 突出共同的有意选择属性，支持前句概括。"
+      ],
+      "vocabulary": [
+        {
+          "word": "take up",
+          "meaning": "开始从事；着手进行",
+          "context": "与 DIY project 搭配，表示开始一个活动，不是拿走他人物品。",
+          "example": "He chose to take up a small DIY project.",
+          "collocations": [
+            "take up a DIY project",
+            "one chooses to"
+          ]
+        }
+      ],
+      "evidenceQuote": "Most psychologically rich experiences are intentional. One usually makes the choice to study abroad. One chooses to read Marcel Proust; one chooses to watch an Agnès Varda film; one chooses to take up a DIY project. But what about unintentional experiences?"
+    },
+    {
+      "order": 23,
+      "prompt": "Which description fits the unintentional experiences introduced next?",
+      "promptZh": "接下来引入的非自愿体验符合哪种描述？",
+      "options": [
+        "They are all planned leisure projects chosen in advance.",
+        "Earthquakes, hurricanes, or illness are presented as unexpected and challenging experiences.",
+        "They are defined as pleasant events with no practical difficulties.",
+        "The author reports that every affected person deliberately caused the event."
+      ],
+      "optionsZh": [
+        "都是提前选择计划好的休闲项目。",
+        "地震、飓风或疾病被作为意外且充满挑战的经历。",
+        "被定义为没有实际困难的愉快事件。",
+        "作者报告每位遭遇者都故意造成事件。"
+      ],
+      "answer": 1,
+      "type": "同义改写",
+      "support": "explicit",
+      "analyses": [
+        "A 与 unexpected 及前段的转折不符。",
+        "B 列举和 unexpected/challenging 两个性质都保留；疾病与自然灾害作为不同不利经历并列，不把疾病改称气象灾害。",
+        "C challenging 不能删为无困难，也未说都愉快。",
+        "D unexpected 不表示遭遇者故意造成，更没有这种逐人因果调查。"
+      ],
+      "vocabulary": [
+        {
+          "word": "challenging",
+          "meaning": "充满挑战的；难以应对的",
+          "context": "这里指不利经历的困难，不自动表示困难必有收益。",
+          "example": "The unexpected illness was a challenging experience.",
+          "collocations": [
+            "an unexpected and challenging experience",
+            "an earthquake or hurricane"
+          ]
+        }
+      ],
+      "evidenceQuote": "A natural disaster such as an earthquake or hurricane or an illness is an unexpected and challenging experience. These experiences typically provide victims with new perspectives. So, do unintentional, adverse experiences add psychological richness to our lives?"
+    },
+    {
+      "order": 24,
+      "prompt": "What does the author say these adverse experiences typically provide?",
+      "promptZh": "作者说这些不利经历通常带来什么？",
+      "options": [
+        "A guarantee that every victim becomes happier immediately.",
+        "Proof that the event was intentionally chosen.",
+        "New perspectives for those affected.",
+        "The complete removal of all hardship and loss."
+      ],
+      "optionsZh": [
+        "保证每位遭遇者立即更快乐。",
+        "证明事件是有意选择的。",
+        "为遭遇者带来新视角。",
+        "完全消除一切困难与损失。"
+      ],
+      "answer": 2,
+      "type": "证据范围",
+      "support": "explicit",
+      "analyses": [
+        "A typically 与必定每人不同，new perspectives 也不等于立即幸福。",
+        "B 新视角不是发生意图的证据。",
+        "C provide victims with new perspectives 直接对应；保留作者 typically 的概括。",
+        "D 得到新视角不代表损失被消除；下句仍把是否增加心理丰富作为问题提出。"
+      ],
+      "vocabulary": [
+        {
+          "word": "perspectives",
+          "meaning": "视角；看待问题或人生的方式",
+          "context": "在此是理解方式的变化，不是保证情绪更好或所有困难解决。",
+          "example": "The experience gave her new perspectives on daily life.",
+          "collocations": [
+            "provide victims with new perspectives",
+            "These experiences typically"
+          ]
+        }
+      ],
+      "evidenceQuote": "A natural disaster such as an earthquake or hurricane or an illness is an unexpected and challenging experience. These experiences typically provide victims with new perspectives. So, do unintentional, adverse experiences add psychological richness to our lives?"
+    },
+    {
+      "order": 25,
+      "prompt": "What does being 'cognizant of the ancient world' mean here?",
+      "promptZh": "这里 cognizant of the ancient world 是什么意思？",
+      "options": [
+        "Nietzsche was knowledgeable about the ancient world.",
+        "Nietzsche had personally lived in ancient Greece.",
+        "Nietzsche regarded classical philosophy as entirely unknown to him.",
+        "Nietzsche had proved all philosophical claims through modern experiments."
+      ],
+      "optionsZh": [
+        "Nietzsche 对古代世界有了解。",
+        "Nietzsche 本人曾生活在古希腊。",
+        "Nietzsche 认为古典哲学对自己完全陌生。",
+        "Nietzsche 已用现代实验证明所有哲学命题。"
+      ],
+      "answer": 0,
+      "type": "语境词义",
+      "support": "explicit",
+      "analyses": [
+        "A cognizant of 指知道、了解，前面的 expert on classical philosophy 支持这一理解。",
+        "B 了解古代不等于亲身生活在古代，不能混淆知识对象与时代。",
+        "C expert 与完全陌生相反。",
+        "D 熟悉哲学不代表作过现代实验，更非证明一切命题；本题只引用当前目标句，后续未配句仍留待处理。"
+      ],
+      "vocabulary": [
+        {
+          "word": "cognizant",
+          "meaning": "知道的；了解的",
+          "context": "搭配 of，在此说知识与认识范围，而不是亲身参加古代事件。",
+          "example": "The scholar was cognizant of earlier philosophical debates.",
+          "collocations": [
+            "cognizant of the ancient world",
+            "an expert on classical philosophy"
+          ]
+        }
+      ],
+      "evidenceQuote": "As an expert on classical philosophy, Nietzsche was cognizant of the ancient world."
+    }
+  ]
+}
