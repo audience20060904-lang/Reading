@@ -89690,5 +89690,2064 @@
     ],
     "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
     "fingerprint": "6b071d0b991ddf30ee21d575fc58501d470f9573fbf2dce6364e19cce0ee0189"
+  },
+  {
+    "id": "qe-c10-0153",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-045",
+    "parentQuestionId": "q-c10-090",
+    "chapterId": "c10",
+    "sectionId": "c10-s08",
+    "paragraphId": "c10-s08-p117-03090",
+    "readingUnitId": "c10-s08-p117-03090-r001-004",
+    "sentenceIds": [
+      "c10-s08-p117-03090-s001",
+      "c10-s08-p117-03090-s002",
+      "c10-s08-p117-03090-s003",
+      "c10-s08-p117-03090-s004"
+    ],
+    "passage": "The draw of familiarity is often stronger than that of variety, too. In a study where consumers were asked to plan a snack for each of the next three days, they tended to choose three different snacks: for instance, a matcha Kit-Kat for day one, Reese’s Peanut Butter Cups for day two, and Hershey’s Milk Chocolate for day three. Their reasoning was that they didn’t think they would want the same thing for three straight days; that would be too boring. They wanted variety!",
+    "prompt": "What does 'They wanted variety!' emphasise in the planning example?",
+    "promptZh": "计划例中 They wanted variety! 强调什么？",
+    "options": [
+      "Every consumer had already bought identical snacks.",
+      "The planners hoped to avoid the boredom of imagining the same snack for three days.",
+      "They expected to want the same snack on every future day.",
+      "They were describing an immediate purchase rather than a future plan."
+    ],
+    "optionsZh": [
+      "每位消费者已买下同款零食。",
+      "计划者希望避免想象中连续三天同款零食的无聊。",
+      "他们预计以后每天都想要同款零食。",
+      "他们描述的是即时已买，而非未来计划。"
+    ],
+    "answer": 1,
+    "type": "作者意图",
+    "support": "explicit",
+    "analyses": [
+      "A 这里只是 planning，且前面 three different，不能改成已买同款。",
+      "B 前句 reasoning 同款三天太无聊，感叹句强调对变化的预期欲望。",
+      "C 前句认为同款三天会无聊，与这一预期相反。",
+      "D 当前为 plan next three days，不是先把后面实际购买结果前移。"
+    ],
+    "vocabulary": [
+      {
+        "word": "variety",
+        "meaning": "多样性；不同选择带来的变化",
+        "context": "这里是计划者希望的变化，区别行动时实际实现的多样程度。",
+        "example": "The imagined menu offered plenty of variety.",
+        "collocations": [
+          "They wanted variety",
+          "three straight days"
+        ]
+      }
+    ],
+    "translation": "熟悉的吸引力往往也强过多样性。研究让消费者计划未来三天每天吃什么零食，他们倾向选三种不同的，例如第一天抹茶 Kit-Kat，第二天 Reese’s Peanut Butter Cups，第三天 Hershey’s Milk Chocolate。他们觉得不会想连续三天吃同样东西，那太无聊。他们想要变化！",
+    "evidenceTargetIds": [
+      "c10-s08-p117-03090-s004"
+    ],
+    "evidence": [
+      {
+        "quote": "The draw of familiarity is often stronger than that of variety, too. In a study where consumers were asked to plan a snack for each of the next three days, they tended to choose three different snacks: for instance, a matcha Kit-Kat for day one, Reese’s Peanut Butter Cups for day two, and Hershey’s Milk Chocolate for day three. Their reasoning was that they didn’t think they would want the same thing for three straight days; that would be too boring. They wanted variety!",
+        "sentenceIds": [
+          "c10-s08-p117-03090-s001",
+          "c10-s08-p117-03090-s002",
+          "c10-s08-p117-03090-s003",
+          "c10-s08-p117-03090-s004"
+        ],
+        "sources": [
+          {
+            "pdfPage": 117,
+            "block": 1,
+            "bbox": [
+              76.99,
+              309,
+              535.01,
+              499.02
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "20ec5d50d2ceb96bdf6bda3c9e8b35202eb3fa8bd03bbbef036dc56c1611ec06"
+  },
+  {
+    "id": "qe-c10-0154",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-045",
+    "parentQuestionId": "q-c10-092",
+    "chapterId": "c10",
+    "sectionId": "c10-s08",
+    "paragraphId": "c10-s08-p117-05040",
+    "readingUnitId": "c10-s08-p117-05040-r001-004",
+    "sentenceIds": [
+      "c10-s08-p117-05040-s001",
+      "c10-s08-p117-05040-s002",
+      "c10-s08-p117-05040-s003",
+      "c10-s08-p117-05040-s004"
+    ],
+    "passage": "The lesson here is that we like the idea of variety, but in the end we tend to choose the same old products. We like the idea of going to a different restaurant every week, but we actually tend to stick with our favorite restaurant again and again. In the planning phase, we seek variety. Imagining different snacks is exciting!",
+    "prompt": "What contrast does the restaurant example make?",
+    "promptZh": "餐厅例子作什么对照？",
+    "options": [
+      "The same person cannot like more than one restaurant under any circumstances.",
+      "Consumers always eat at a different restaurant with no repetition.",
+      "A favourite restaurant is objectively best in every city.",
+      "People like the idea of changing restaurants but often return to a favourite in practice."
+    ],
+    "optionsZh": [
+      "任何时候同一人都不能喜欢多家餐厅。",
+      "消费者永不重复，总换餐厅。",
+      "最爱餐厅在每座城都客观最佳。",
+      "人喜欢换餐厅的想法，实际却常回到最爱。"
+    ],
+    "answer": 3,
+    "type": "逻辑关系",
+    "support": "explicit",
+    "analyses": [
+      "A 喜欢变化与常去最爱可并存，不是能力限制。",
+      "B actually tend stick...again and again 不能反写成永不重复。",
+      "C 偏好不证明客观跨城市最优。",
+      "D idea of different 与 actually favourite 形成计划—行动反差，tend 保留倾向而非每次全同。"
+    ],
+    "vocabulary": [
+      {
+        "word": "stick with",
+        "meaning": "继续选用；坚持留在熟悉选项上",
+        "context": "这里是反复光顾，不是物理粘住或绝对从不尝新。",
+        "example": "They tended to stick with the café they already knew.",
+        "collocations": [
+          "stick with our favorite restaurant",
+          "again and again"
+        ]
+      }
+    ],
+    "translation": "这里的教训是，我们喜欢多样性的想法，最后却倾向选老产品。喜欢每周换家餐厅的想法，实际上却一次次去最爱的餐厅。在计划阶段，我们追求变化。想象不同零食令人兴奋！",
+    "evidenceTargetIds": [
+      "c10-s08-p117-05040-s002"
+    ],
+    "evidence": [
+      {
+        "quote": "The lesson here is that we like the idea of variety, but in the end we tend to choose the same old products. We like the idea of going to a different restaurant every week, but we actually tend to stick with our favorite restaurant again and again. In the planning phase, we seek variety. Imagining different snacks is exciting!",
+        "sentenceIds": [
+          "c10-s08-p117-05040-s001",
+          "c10-s08-p117-05040-s002",
+          "c10-s08-p117-05040-s003",
+          "c10-s08-p117-05040-s004"
+        ],
+        "sources": [
+          {
+            "pdfPage": 117,
+            "block": 2,
+            "bbox": [
+              76.99,
+              504,
+              535.01,
+              694.02
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "c8cf4b92976c422db4c478e807157636002d1313158a54eee836dc1c5e2b2026"
+  },
+  {
+    "id": "qe-c10-0155",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-045",
+    "parentQuestionId": "q-c10-092",
+    "chapterId": "c10",
+    "sectionId": "c10-s08",
+    "paragraphId": "c10-s08-p117-05040",
+    "readingUnitId": "c10-s08-p117-05040-r001-004",
+    "sentenceIds": [
+      "c10-s08-p117-05040-s001",
+      "c10-s08-p117-05040-s002",
+      "c10-s08-p117-05040-s003",
+      "c10-s08-p117-05040-s004"
+    ],
+    "passage": "The lesson here is that we like the idea of variety, but in the end we tend to choose the same old products. We like the idea of going to a different restaurant every week, but we actually tend to stick with our favorite restaurant again and again. In the planning phase, we seek variety. Imagining different snacks is exciting!",
+    "prompt": "At which stage does the author say people seek variety?",
+    "promptZh": "作者说人在哪个阶段追求多样性？",
+    "options": [
+      "The planning phase.",
+      "Only after every option has been physically consumed.",
+      "Exclusively when a purchase has already been completed.",
+      "A stage in which no imagined alternatives are available."
+    ],
+    "optionsZh": [
+      "计划阶段。",
+      "只有把每项都吃完后。",
+      "仅在已经完成购买时。",
+      "没有任何想象备选的阶段。"
+    ],
+    "answer": 0,
+    "type": "细节",
+    "support": "explicit",
+    "analyses": [
+      "A In the planning phase 直接给阶段。",
+      "B 不是吃完后的回顾。",
+      "C 与本段 idea/imagining 不同，不把计划偷换为实施。",
+      "D 此时正有不同零食餐厅的想象，非无备选；不据一句话推成每个人每次计划都如此。"
+    ],
+    "vocabulary": [
+      {
+        "word": "phase",
+        "meaning": "阶段；过程中的一段",
+        "context": "在此为 planning 阶段，区别下一段 implementation 阶段，不是月相。",
+        "example": "The planning phase differed from the implementation phase.",
+        "collocations": [
+          "In the planning phase",
+          "we seek variety"
+        ]
+      }
+    ],
+    "translation": "这里的教训是，我们喜欢多样性的想法，最后却倾向选老产品。喜欢每周换家餐厅的想法，实际上却一次次去最爱的餐厅。在计划阶段，我们追求变化。想象不同零食令人兴奋！",
+    "evidenceTargetIds": [
+      "c10-s08-p117-05040-s003"
+    ],
+    "evidence": [
+      {
+        "quote": "The lesson here is that we like the idea of variety, but in the end we tend to choose the same old products. We like the idea of going to a different restaurant every week, but we actually tend to stick with our favorite restaurant again and again. In the planning phase, we seek variety. Imagining different snacks is exciting!",
+        "sentenceIds": [
+          "c10-s08-p117-05040-s001",
+          "c10-s08-p117-05040-s002",
+          "c10-s08-p117-05040-s003",
+          "c10-s08-p117-05040-s004"
+        ],
+        "sources": [
+          {
+            "pdfPage": 117,
+            "block": 2,
+            "bbox": [
+              76.99,
+              504,
+              535.01,
+              694.02
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "a5107a508f8948f8428656314a8775da4be4db811c9b444d26a38ff43ff86317"
+  },
+  {
+    "id": "qe-c10-0156",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-045",
+    "parentQuestionId": "q-c10-092",
+    "chapterId": "c10",
+    "sectionId": "c10-s08",
+    "paragraphId": "c10-s08-p117-05040",
+    "readingUnitId": "c10-s08-p117-05040-r001-004",
+    "sentenceIds": [
+      "c10-s08-p117-05040-s001",
+      "c10-s08-p117-05040-s002",
+      "c10-s08-p117-05040-s003",
+      "c10-s08-p117-05040-s004"
+    ],
+    "passage": "The lesson here is that we like the idea of variety, but in the end we tend to choose the same old products. We like the idea of going to a different restaurant every week, but we actually tend to stick with our favorite restaurant again and again. In the planning phase, we seek variety. Imagining different snacks is exciting!",
+    "prompt": "What does the snack-imagining sentence illustrate?",
+    "promptZh": "想象不同零食的句子说明什么？",
+    "options": [
+      "Actual tasting has already confirmed every imagined snack is equally pleasant.",
+      "Imagining a snack requires buying it immediately.",
+      "Anticipating different possibilities can be exciting during planning.",
+      "The participants have all become unable to enjoy familiar products."
+    ],
+    "optionsZh": [
+      "实际品尝已证每种想象零食同样愉快。",
+      "想象零食必须立即购买。",
+      "计划时预想不同可能可以令人兴奋。",
+      "参与者已全无法享受熟悉产品。"
+    ],
+    "answer": 2,
+    "type": "作者意图",
+    "support": "explicit",
+    "analyses": [
+      "A Imagining 不是已经品尝或等愉悦量测。",
+      "B 想象不等于购买步骤。",
+      "C 接 seek variety，以不同零食举期待的兴奋感。",
+      "D 前文实际常选老产品，不能从想象兴奋反推出熟悉物已无法享用。"
+    ],
+    "vocabulary": [
+      {
+        "word": "Imagining",
+        "meaning": "想象；在脑中设想",
+        "context": "与实际实施或消费分开，句首动名词作为所述令人兴奋之事。",
+        "example": "Imagining a new route was easier than making the trip.",
+        "collocations": [
+          "Imagining different snacks",
+          "is exciting"
+        ]
+      }
+    ],
+    "translation": "这里的教训是，我们喜欢多样性的想法，最后却倾向选老产品。喜欢每周换家餐厅的想法，实际上却一次次去最爱的餐厅。在计划阶段，我们追求变化。想象不同零食令人兴奋！",
+    "evidenceTargetIds": [
+      "c10-s08-p117-05040-s004"
+    ],
+    "evidence": [
+      {
+        "quote": "The lesson here is that we like the idea of variety, but in the end we tend to choose the same old products. We like the idea of going to a different restaurant every week, but we actually tend to stick with our favorite restaurant again and again. In the planning phase, we seek variety. Imagining different snacks is exciting!",
+        "sentenceIds": [
+          "c10-s08-p117-05040-s001",
+          "c10-s08-p117-05040-s002",
+          "c10-s08-p117-05040-s003",
+          "c10-s08-p117-05040-s004"
+        ],
+        "sources": [
+          {
+            "pdfPage": 117,
+            "block": 2,
+            "bbox": [
+              76.99,
+              504,
+              535.01,
+              694.02
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "b62be49940f2fcc99cb04759ad34ad19b9fbd62bc29bc01aec7af2eae16e1cbd"
+  },
+  {
+    "id": "qe-c10-0157",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-045",
+    "parentQuestionId": "q-c10-093",
+    "chapterId": "c10",
+    "sectionId": "c10-s08",
+    "paragraphId": "c10-s08-p117-05040",
+    "readingUnitId": "c10-s08-p117-05040-r005-008",
+    "sentenceIds": [
+      "c10-s08-p117-05040-s005",
+      "c10-s08-p117-05040-s006",
+      "c10-s08-p117-05040-s007",
+      "c10-s08-p117-05040-s008"
+    ],
+    "passage": "Imagining a hike in the Alps is exciting! In the implementation phase, however, we tend to seek familiarity and ease, because we become aware of other practical factors (e.g., a long flight to Switzerland). When faced with an actual choice, we tend to choose a sure “winner” rather than a risky product. We’ll settle for something familiar because trying something new is too much work.",
+    "prompt": "Why introduce imagining a hike in the Alps?",
+    "promptZh": "为何引入想象去 Alps 徒步？",
+    "options": [
+      "It contrasts an appealing imagined adventure with practical effort considered at implementation.",
+      "It reports that every participant actually completed the hike.",
+      "It proves the journey requires no travel or planning.",
+      "It tells the reader that familiar activities can never feel appealing."
+    ],
+    "optionsZh": [
+      "用吸引人的冒险想象对照实施时才重视的现实付出。",
+      "报告每位参与者实际完成徒步。",
+      "证明旅程不需交通或计划。",
+      "告诉读者熟悉活动绝无吸引力。"
+    ],
+    "answer": 0,
+    "type": "篇章结构",
+    "support": "explicit",
+    "analyses": [
+      "A 后句 however 转 implementation、practical factors、long flight，明确想象与实施的对照。",
+      "B 没有真实完成徒步的记录。",
+      "C long flight 正是成本例，不是无需旅行。",
+      "D 该段实际选择偏熟悉，不能由想象冒险的兴奋推出熟悉活动全无吸引力。"
+    ],
+    "vocabulary": [
+      {
+        "word": "implementation",
+        "meaning": "实施；把计划付诸实际的阶段",
+        "context": "与想象阶段对照，现实耗力与长途航程开始进入考虑。",
+        "example": "The practical difficulties became clearer during implementation.",
+        "collocations": [
+          "In the implementation phase",
+          "other practical factors"
+        ]
+      }
+    ],
+    "translation": "想象去 Alps 徒步令人兴奋！但实施时，我们倾向寻找熟悉与轻松，因为注意到其他现实因素，例如飞去 Switzerland 的长途航程。实际选择时，我们往往选稳妥的“赢家”，不选有风险的产品。我们会满足于熟悉的，因为尝试新东西太费力。",
+    "evidenceTargetIds": [
+      "c10-s08-p117-05040-s005"
+    ],
+    "evidence": [
+      {
+        "quote": "Imagining a hike in the Alps is exciting! In the implementation phase, however, we tend to seek familiarity and ease, because we become aware of other practical factors (e.g., a long flight to Switzerland). When faced with an actual choice, we tend to choose a sure “winner” rather than a risky product. We’ll settle for something familiar because trying something new is too much work.",
+        "sentenceIds": [
+          "c10-s08-p117-05040-s005",
+          "c10-s08-p117-05040-s006",
+          "c10-s08-p117-05040-s007",
+          "c10-s08-p117-05040-s008"
+        ],
+        "sources": [
+          {
+            "pdfPage": 117,
+            "block": 2,
+            "bbox": [
+              76.99,
+              504,
+              535.01,
+              694.02
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "107869b4b1fffb5f54d0545b933c3f9ffc59a6f0943ba4b5c5a974bfeda41eb8"
+  },
+  {
+    "id": "qe-c10-0158",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-045",
+    "parentQuestionId": "q-c10-093",
+    "chapterId": "c10",
+    "sectionId": "c10-s08",
+    "paragraphId": "c10-s08-p117-05040",
+    "readingUnitId": "c10-s08-p117-05040-r005-008",
+    "sentenceIds": [
+      "c10-s08-p117-05040-s005",
+      "c10-s08-p117-05040-s006",
+      "c10-s08-p117-05040-s007",
+      "c10-s08-p117-05040-s008"
+    ],
+    "passage": "Imagining a hike in the Alps is exciting! In the implementation phase, however, we tend to seek familiarity and ease, because we become aware of other practical factors (e.g., a long flight to Switzerland). When faced with an actual choice, we tend to choose a sure “winner” rather than a risky product. We’ll settle for something familiar because trying something new is too much work.",
+    "prompt": "What is a sure 'winner' in the product-choice sentence?",
+    "promptZh": "产品选择句中的 sure winner 是什么？",
+    "options": [
+      "The person who has won an actual sports championship.",
+      "A random lottery ticket guaranteed by the experimenter to win cash.",
+      "Every risky new product in the market.",
+      "A familiar option expected to work out satisfactorily rather than a risky product."
+    ],
+    "optionsZh": [
+      "真正赢过体育冠军的人。",
+      "实验者保证赢现金的随机彩票。",
+      "市场上每个有风险新产品。",
+      "预期稳妥满意的熟悉选项，而非冒险产品。"
+    ],
+    "answer": 3,
+    "type": "语境词义",
+    "support": "explicit",
+    "analyses": [
+      "A 引号 winner 在此非真实运动员。",
+      "B 不是金钱彩票或实验保证。",
+      "C rather than risky 明确对照，不能等同两者。",
+      "D 在 actual choice 的语境，表示偏安全已知的选择；预期稳妥不等于客观每次必成功。"
+    ],
+    "vocabulary": [
+      {
+        "word": "winner",
+        "meaning": "预期稳妥的选择；很有把握会喜欢的选项",
+        "context": "此处借胜者说可靠产品，不是投资、赌博或体育必胜承诺。",
+        "example": "The familiar snack seemed a sure winner to the shopper.",
+        "collocations": [
+          "choose a sure winner",
+          "rather than a risky product"
+        ]
+      }
+    ],
+    "translation": "想象去 Alps 徒步令人兴奋！但实施时，我们倾向寻找熟悉与轻松，因为注意到其他现实因素，例如飞去 Switzerland 的长途航程。实际选择时，我们往往选稳妥的“赢家”，不选有风险的产品。我们会满足于熟悉的，因为尝试新东西太费力。",
+    "evidenceTargetIds": [
+      "c10-s08-p117-05040-s007"
+    ],
+    "evidence": [
+      {
+        "quote": "Imagining a hike in the Alps is exciting! In the implementation phase, however, we tend to seek familiarity and ease, because we become aware of other practical factors (e.g., a long flight to Switzerland). When faced with an actual choice, we tend to choose a sure “winner” rather than a risky product. We’ll settle for something familiar because trying something new is too much work.",
+        "sentenceIds": [
+          "c10-s08-p117-05040-s005",
+          "c10-s08-p117-05040-s006",
+          "c10-s08-p117-05040-s007",
+          "c10-s08-p117-05040-s008"
+        ],
+        "sources": [
+          {
+            "pdfPage": 117,
+            "block": 2,
+            "bbox": [
+              76.99,
+              504,
+              535.01,
+              694.02
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "cbf45bafe85150de20317b2bc55a1f57c742697646b66c62f537c4bade7451ff"
+  },
+  {
+    "id": "qe-c10-0159",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-045",
+    "parentQuestionId": "q-c10-093",
+    "chapterId": "c10",
+    "sectionId": "c10-s08",
+    "paragraphId": "c10-s08-p117-05040",
+    "readingUnitId": "c10-s08-p117-05040-r005-008",
+    "sentenceIds": [
+      "c10-s08-p117-05040-s005",
+      "c10-s08-p117-05040-s006",
+      "c10-s08-p117-05040-s007",
+      "c10-s08-p117-05040-s008"
+    ],
+    "passage": "Imagining a hike in the Alps is exciting! In the implementation phase, however, we tend to seek familiarity and ease, because we become aware of other practical factors (e.g., a long flight to Switzerland). When faced with an actual choice, we tend to choose a sure “winner” rather than a risky product. We’ll settle for something familiar because trying something new is too much work.",
+    "prompt": "What reason is given for settling for something familiar?",
+    "promptZh": "满足于熟悉选项，原文给什么原因？",
+    "options": [
+      "Trying something new is said always to require no effort.",
+      "Trying something new feels like too much work.",
+      "The familiar option is independently proved best on every criterion.",
+      "All unfamiliar options have already been tried and measured as failures."
+    ],
+    "optionsZh": [
+      "说尝新总毫不费力。",
+      "觉得尝新太费力。",
+      "熟悉项已独立证明每标准都最佳。",
+      "陌生项已全试过并测得失败。"
+    ],
+    "answer": 1,
+    "type": "逻辑关系",
+    "support": "explicit",
+    "analyses": [
+      "A too much work 与零付出相反。",
+      "B because 明示付出负担，settle for 是因此接受较熟悉选择。",
+      "C 熟悉或省力不等于每项标准客观最佳。",
+      "D unfamiliar 的问题恰是未知，未说已全试失败；不能把主观预期负担当已发生测量。"
+    ],
+    "vocabulary": [
+      {
+        "word": "settle for",
+        "meaning": "接受；以某个够可行选项为满足",
+        "context": "不必表示客观最优或已比较穷尽全部备选。",
+        "example": "She settled for a familiar route when the alternative seemed too much work.",
+        "collocations": [
+          "settle for something familiar",
+          "trying something new is too much work"
+        ]
+      }
+    ],
+    "translation": "想象去 Alps 徒步令人兴奋！但实施时，我们倾向寻找熟悉与轻松，因为注意到其他现实因素，例如飞去 Switzerland 的长途航程。实际选择时，我们往往选稳妥的“赢家”，不选有风险的产品。我们会满足于熟悉的，因为尝试新东西太费力。",
+    "evidenceTargetIds": [
+      "c10-s08-p117-05040-s008"
+    ],
+    "evidence": [
+      {
+        "quote": "Imagining a hike in the Alps is exciting! In the implementation phase, however, we tend to seek familiarity and ease, because we become aware of other practical factors (e.g., a long flight to Switzerland). When faced with an actual choice, we tend to choose a sure “winner” rather than a risky product. We’ll settle for something familiar because trying something new is too much work.",
+        "sentenceIds": [
+          "c10-s08-p117-05040-s005",
+          "c10-s08-p117-05040-s006",
+          "c10-s08-p117-05040-s007",
+          "c10-s08-p117-05040-s008"
+        ],
+        "sources": [
+          {
+            "pdfPage": 117,
+            "block": 2,
+            "bbox": [
+              76.99,
+              504,
+              535.01,
+              694.02
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "930096eac077c0d4ab5ee22870127540fe27f994356634b8a0d5acfe62cf47c6"
+  },
+  {
+    "id": "qe-c10-0160",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-045",
+    "parentQuestionId": "q-c10-094",
+    "chapterId": "c10",
+    "sectionId": "c10-s08",
+    "paragraphId": "c10-s08-p117-05040",
+    "readingUnitId": "c10-s08-p117-05040-r009-010",
+    "sentenceIds": [
+      "c10-s08-p117-05040-s009",
+      "c10-s08-p117-05040-s010"
+    ],
+    "passage": "In the long view, we want novelty; in the short term, we want security. Familiarity is warm and fuzzy, and it has a surprising power over us, steering us away from psychological richness.",
+    "prompt": "What tension is expressed by familiarity being 'warm and fuzzy' yet steering people away from richness?",
+    "promptZh": "熟悉 warm and fuzzy 却把人引离丰富性，表达什么张力？",
+    "options": [
+      "Warmth is measured as a literal temperature that prevents learning.",
+      "Familiarity always guarantees every kind of psychological benefit.",
+      "Familiar comfort can draw people away from unfamiliar experiences that might add richness.",
+      "The author denies that familiar things can ever be comforting."
+    ],
+    "optionsZh": [
+      "温暖被测成阻止学习的实际温度。",
+      "熟悉总保证所有心理益处。",
+      "熟悉的安慰可能吸引人远离可添丰富性的陌生体验。",
+      "作者否认熟悉物有任何安慰。"
+    ],
+    "answer": 2,
+    "type": "主旨",
+    "support": "explicit",
+    "analyses": [
+      "A warm/fuzzy 为舒服情绪比喻，不是温度实验。",
+      "B 本句恰说舒适与丰富性可能冲突。",
+      "C 前句长远想新奇、短期求安全，与后句 steering away 构成维度和时间张力。",
+      "D 文中承认舒适，非从无安慰；不把作者概括提升为所有熟悉体验绝无价值。"
+    ],
+    "vocabulary": [
+      {
+        "word": "steering us away from",
+        "meaning": "把我们引离；使选择方向偏离",
+        "context": "比喻影响决策方向，不是驾驶车辆或物理强制移动。",
+        "example": "The attraction of ease was steering them away from exploration.",
+        "collocations": [
+          "steering us away from psychological richness",
+          "warm and fuzzy"
+        ]
+      }
+    ],
+    "translation": "从长远看，我们想要新奇；短期内，我们想要安全。熟悉温暖而舒服，却对我们有惊人力量，把我们引离心理丰富。",
+    "evidenceTargetIds": [
+      "c10-s08-p117-05040-s010"
+    ],
+    "evidence": [
+      {
+        "quote": "In the long view, we want novelty; in the short term, we want security. Familiarity is warm and fuzzy, and it has a surprising power over us, steering us away from psychological richness.",
+        "sentenceIds": [
+          "c10-s08-p117-05040-s009",
+          "c10-s08-p117-05040-s010"
+        ],
+        "sources": [
+          {
+            "pdfPage": 117,
+            "block": 2,
+            "bbox": [
+              76.99,
+              504,
+              535.01,
+              694.02
+            ]
+          },
+          {
+            "pdfPage": 118,
+            "block": 0,
+            "bbox": [
+              76.99,
+              75,
+              535,
+              109.02
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "45a8e012f42c77c03b6c197b87fe485e95d140894794c85592d6ae4c0138bc36"
+  },
+  {
+    "id": "qe-c10-0161",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-045",
+    "parentQuestionId": "q-c10-095",
+    "chapterId": "c10",
+    "sectionId": "c10-s08",
+    "paragraphId": "c10-s08-p118-01140",
+    "readingUnitId": "c10-s08-p118-01140-r001-004",
+    "sentenceIds": [
+      "c10-s08-p118-01140-s001",
+      "c10-s08-p118-01140-s002",
+      "c10-s08-p118-01140-s003",
+      "c10-s08-p118-01140-s004"
+    ],
+    "passage": "This is also related to a larger human tendency: loss aversion. Daniel Kahneman and Amos Tversky asked subjects: Given a 50 percent chance of winning £1,000 vs. a 100 percent chance of winning £450, which would you prefer? Logically, we are supposed to choose the former because its expected value is £500, which is greater than the expected value of the latter, £450. Nevertheless, most of us would choose the latter.",
+    "prompt": "What tendency does the author name at the start of the next paragraph?",
+    "promptZh": "下一段开头作者点名什么倾向？",
+    "options": [
+      "Loss aversion.",
+      "The mere exposure effect alone, with no connection to another tendency.",
+      "The endowment effect as an ownership-price phenomenon.",
+      "Essentialism as a fixed-label approach to people and things."
+    ],
+    "optionsZh": [
+      "损失厌恶。",
+      "仅单纯曝光效应，未联系其他倾向。",
+      "作为所有权估值现象的禀赋效应。",
+      "给人和事固定标签的本质化。"
+    ],
+    "answer": 0,
+    "type": "细节",
+    "support": "explicit",
+    "analyses": [
+      "A 冒号后 loss aversion 直接命名，保留这是原书连接的概念。",
+      "B This is also related to a larger tendency 后明确命名另一概念。",
+      "C 是前面的相关主题，本句冒号后实际点名 loss aversion。",
+      "D 本质化属先前阅读复杂性讨论，不是此句名称。"
+    ],
+    "vocabulary": [
+      {
+        "word": "aversion",
+        "meaning": "厌恶；回避某种不利可能的倾向",
+        "context": "loss aversion 为本书点名概念，不能理解为主动追求损失。",
+        "example": "The passage links the choice to an aversion to possible loss.",
+        "collocations": [
+          "loss aversion",
+          "a larger human tendency"
+        ]
+      }
+    ],
+    "translation": "这还关联更普遍的人类倾向：损失厌恶。Daniel Kahneman 和 Amos Tversky 问参与者：一半概率赢一千镑，与确定赢四百五十镑，喜欢哪个？按作者所说的逻辑，我们应选前者，因为期望五百镑，高于后者四百五十镑。尽管如此，多数人会选后者。",
+    "evidenceTargetIds": [
+      "c10-s08-p118-01140-s001"
+    ],
+    "evidence": [
+      {
+        "quote": "This is also related to a larger human tendency: loss aversion. Daniel Kahneman and Amos Tversky asked subjects: Given a 50 percent chance of winning £1,000 vs. a 100 percent chance of winning £450, which would you prefer? Logically, we are supposed to choose the former because its expected value is £500, which is greater than the expected value of the latter, £450. Nevertheless, most of us would choose the latter.",
+        "sentenceIds": [
+          "c10-s08-p118-01140-s001",
+          "c10-s08-p118-01140-s002",
+          "c10-s08-p118-01140-s003",
+          "c10-s08-p118-01140-s004"
+        ],
+        "sources": [
+          {
+            "pdfPage": 118,
+            "block": 1,
+            "bbox": [
+              76.99,
+              114,
+              535.01,
+              362.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "25101271b76d84b7f9f8e24b782e647b6527a4c7b72466f376ee0680eaef7c08"
+  },
+  {
+    "id": "qe-c10-0162",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-045",
+    "parentQuestionId": "q-c10-095",
+    "chapterId": "c10",
+    "sectionId": "c10-s08",
+    "paragraphId": "c10-s08-p118-01140",
+    "readingUnitId": "c10-s08-p118-01140-r001-004",
+    "sentenceIds": [
+      "c10-s08-p118-01140-s001",
+      "c10-s08-p118-01140-s002",
+      "c10-s08-p118-01140-s003",
+      "c10-s08-p118-01140-s004"
+    ],
+    "passage": "This is also related to a larger human tendency: loss aversion. Daniel Kahneman and Amos Tversky asked subjects: Given a 50 percent chance of winning £1,000 vs. a 100 percent chance of winning £450, which would you prefer? Logically, we are supposed to choose the former because its expected value is £500, which is greater than the expected value of the latter, £450. Nevertheless, most of us would choose the latter.",
+    "prompt": "Which offer gives a certain monetary gain in the example?",
+    "promptZh": "例子中哪种方案给确定金额收益？",
+    "options": [
+      "A fifty-percent chance of one thousand pounds.",
+      "A guaranteed one thousand pounds in both offers.",
+      "A hundred-percent chance of five hundred pounds.",
+      "A hundred-percent chance of four hundred and fifty pounds."
+    ],
+    "optionsZh": [
+      "一半概率得一千镑。",
+      "两方案都保证一千镑。",
+      "百分之百得五百镑。",
+      "百分之百得四百五十镑。"
+    ],
+    "answer": 3,
+    "type": "细节",
+    "support": "explicit",
+    "analyses": [
+      "A 金额较大但概率50%，非确定。",
+      "B 只有风险方案给1000且不保证。",
+      "C 500 是风险方案的金额期望值，不是文中确定支付选项。",
+      "D 100percent/450逐项对应。500是风险方案的计算期望，非另一确定付款，概率不能与所能赢金额交换。"
+    ],
+    "vocabulary": [
+      {
+        "word": "chance",
+        "meaning": "概率；某结果发生的可能性",
+        "context": "题中50%与100%要同金额配对，不等于每个个体实际收到期望金额。",
+        "example": "The example distinguishes the chance of a gain from its size.",
+        "collocations": [
+          "a 50 percent chance of winning",
+          "a 100 percent chance"
+        ]
+      }
+    ],
+    "translation": "这还关联更普遍的人类倾向：损失厌恶。Daniel Kahneman 和 Amos Tversky 问参与者：一半概率赢一千镑，与确定赢四百五十镑，喜欢哪个？按作者所说的逻辑，我们应选前者，因为期望五百镑，高于后者四百五十镑。尽管如此，多数人会选后者。",
+    "evidenceTargetIds": [
+      "c10-s08-p118-01140-s002"
+    ],
+    "evidence": [
+      {
+        "quote": "This is also related to a larger human tendency: loss aversion. Daniel Kahneman and Amos Tversky asked subjects: Given a 50 percent chance of winning £1,000 vs. a 100 percent chance of winning £450, which would you prefer? Logically, we are supposed to choose the former because its expected value is £500, which is greater than the expected value of the latter, £450. Nevertheless, most of us would choose the latter.",
+        "sentenceIds": [
+          "c10-s08-p118-01140-s001",
+          "c10-s08-p118-01140-s002",
+          "c10-s08-p118-01140-s003",
+          "c10-s08-p118-01140-s004"
+        ],
+        "sources": [
+          {
+            "pdfPage": 118,
+            "block": 1,
+            "bbox": [
+              76.99,
+              114,
+              535.01,
+              362.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "d6f0c348c1d787a8cce836c398d5f267cb13022202c12621bf9541dd37acb67f"
+  },
+  {
+    "id": "qe-c10-0163",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-045",
+    "parentQuestionId": "q-c10-095",
+    "chapterId": "c10",
+    "sectionId": "c10-s08",
+    "paragraphId": "c10-s08-p118-01140",
+    "readingUnitId": "c10-s08-p118-01140-r001-004",
+    "sentenceIds": [
+      "c10-s08-p118-01140-s001",
+      "c10-s08-p118-01140-s002",
+      "c10-s08-p118-01140-s003",
+      "c10-s08-p118-01140-s004"
+    ],
+    "passage": "This is also related to a larger human tendency: loss aversion. Daniel Kahneman and Amos Tversky asked subjects: Given a 50 percent chance of winning £1,000 vs. a 100 percent chance of winning £450, which would you prefer? Logically, we are supposed to choose the former because its expected value is £500, which is greater than the expected value of the latter, £450. Nevertheless, most of us would choose the latter.",
+    "prompt": "What does 'the latter' refer to in the sentence about what most would choose?",
+    "promptZh": "多数人会选的 the latter 指什么？",
+    "options": [
+      "The fifty-percent chance of winning one thousand pounds.",
+      "The certain four-hundred-and-fifty-pound offer.",
+      "The calculated expected value of five hundred pounds as a separate offer.",
+      "Both offers simultaneously."
+    ],
+    "optionsZh": [
+      "一半概率得一千镑。",
+      "确定四百五十镑的方案。",
+      "另一个五百镑期望值付款方案。",
+      "同时两种方案。"
+    ],
+    "answer": 1,
+    "type": "指代",
+    "support": "explicit",
+    "analyses": [
+      "A 是 former，即先列方案。",
+      "B latter 回指后列100percent450，而非比较段中另造出的第三选项。",
+      "C 500 是计算值非第三报价。",
+      "D 单个 latter 不是 both；most of us would choose 是作者的概括性表述，非已给每位参与者实际结果明细。"
+    ],
+    "vocabulary": [
+      {
+        "word": "the latter",
+        "meaning": "后者；刚列两项中的第二项",
+        "context": "与 former 对照，避免把最近一个数字500误当独立选项。",
+        "example": "Of the two offers, the narrator says many would prefer the latter.",
+        "collocations": [
+          "choose the latter",
+          "the former ... the latter"
+        ]
+      }
+    ],
+    "translation": "这还关联更普遍的人类倾向：损失厌恶。Daniel Kahneman 和 Amos Tversky 问参与者：一半概率赢一千镑，与确定赢四百五十镑，喜欢哪个？按作者所说的逻辑，我们应选前者，因为期望五百镑，高于后者四百五十镑。尽管如此，多数人会选后者。",
+    "evidenceTargetIds": [
+      "c10-s08-p118-01140-s004"
+    ],
+    "evidence": [
+      {
+        "quote": "This is also related to a larger human tendency: loss aversion. Daniel Kahneman and Amos Tversky asked subjects: Given a 50 percent chance of winning £1,000 vs. a 100 percent chance of winning £450, which would you prefer? Logically, we are supposed to choose the former because its expected value is £500, which is greater than the expected value of the latter, £450. Nevertheless, most of us would choose the latter.",
+        "sentenceIds": [
+          "c10-s08-p118-01140-s001",
+          "c10-s08-p118-01140-s002",
+          "c10-s08-p118-01140-s003",
+          "c10-s08-p118-01140-s004"
+        ],
+        "sources": [
+          {
+            "pdfPage": 118,
+            "block": 1,
+            "bbox": [
+              76.99,
+              114,
+              535.01,
+              362.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "f5e206681ab96ad78d266733fe7400aa9f510f883b591ef7f159489298ff1dea"
+  },
+  {
+    "id": "qe-c10-0164",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-045",
+    "parentQuestionId": "q-c10-096",
+    "chapterId": "c10",
+    "sectionId": "c10-s08",
+    "paragraphId": "c10-s08-p118-01140",
+    "readingUnitId": "c10-s08-p118-01140-r005-008",
+    "sentenceIds": [
+      "c10-s08-p118-01140-s005",
+      "c10-s08-p118-01140-s006",
+      "c10-s08-p118-01140-s007",
+      "c10-s08-p118-01140-s008"
+    ],
+    "passage": "We want a sure gain rather than a hypothetical gain, even when the hypothetical gain could be larger than the sure gain. A sure win is pleasant and comfortable. A hypothetical win is risky, anxiety-provoking, and uncomfortable. Loss aversion makes us conservative in many decision-making situations.",
+    "prompt": "What preference is described by 'a sure gain rather than a hypothetical gain'?",
+    "promptZh": "a sure gain rather than a hypothetical gain 描写什么偏好？",
+    "options": [
+      "The two gains are guaranteed to have identical probabilities.",
+      "The uncertain offer is said to have no possible monetary value.",
+      "Certainty is preferred even though an uncertain gain could be larger.",
+      "The text requires every reader to take the largest risky offer."
+    ],
+    "optionsZh": [
+      "两种收益概率保证相同。",
+      "不确定方案被说成绝无可能金额价值。",
+      "即使不确定收益可能更大，人仍偏确定。",
+      "文本要求每位读者选最大风险方案。"
+    ],
+    "answer": 2,
+    "type": "逻辑关系",
+    "support": "explicit",
+    "analyses": [
+      "A sure 与 hypothetical/risky 作差别，不是同概率。",
+      "B could be larger 明说可能金额，非零可能价值。",
+      "C rather than 与 even when 构成偏好和让步，区分舒适确定与风险预期。",
+      "D 作者描述倾向，不是对用户现实行动命令；也未规定所有人必须有相同风险偏好。"
+    ],
+    "vocabulary": [
+      {
+        "word": "hypothetical gain",
+        "meaning": "假设可能取得的收益；尚不确定的收益",
+        "context": "在此与 sure 对照，不表示实际每次收到或逻辑上绝不可能。",
+        "example": "The example contrasts a certain gain with a hypothetical gain.",
+        "collocations": [
+          "a sure gain rather than a hypothetical gain",
+          "could be larger"
+        ]
+      }
+    ],
+    "translation": "我们想要确定收益而非假设可能获得的收益，即使后者可能更大。确定获胜令人愉快舒适。可能的获胜有风险，引人焦虑、不舒服。损失厌恶使我们在许多决策情境中趋于保守。",
+    "evidenceTargetIds": [
+      "c10-s08-p118-01140-s005"
+    ],
+    "evidence": [
+      {
+        "quote": "We want a sure gain rather than a hypothetical gain, even when the hypothetical gain could be larger than the sure gain. A sure win is pleasant and comfortable. A hypothetical win is risky, anxiety-provoking, and uncomfortable. Loss aversion makes us conservative in many decision-making situations.",
+        "sentenceIds": [
+          "c10-s08-p118-01140-s005",
+          "c10-s08-p118-01140-s006",
+          "c10-s08-p118-01140-s007",
+          "c10-s08-p118-01140-s008"
+        ],
+        "sources": [
+          {
+            "pdfPage": 118,
+            "block": 1,
+            "bbox": [
+              76.99,
+              114,
+              535.01,
+              362.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "eb8b0b85b08810463740bd0f4ead82cae28e2cb30b09def04b9c9f3bbf417d14"
+  },
+  {
+    "id": "qe-c10-0165",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-045",
+    "parentQuestionId": "q-c10-096",
+    "chapterId": "c10",
+    "sectionId": "c10-s08",
+    "paragraphId": "c10-s08-p118-01140",
+    "readingUnitId": "c10-s08-p118-01140-r005-008",
+    "sentenceIds": [
+      "c10-s08-p118-01140-s005",
+      "c10-s08-p118-01140-s006",
+      "c10-s08-p118-01140-s007",
+      "c10-s08-p118-01140-s008"
+    ],
+    "passage": "We want a sure gain rather than a hypothetical gain, even when the hypothetical gain could be larger than the sure gain. A sure win is pleasant and comfortable. A hypothetical win is risky, anxiety-provoking, and uncomfortable. Loss aversion makes us conservative in many decision-making situations.",
+    "prompt": "What does 'conservative' mean in the decision-making sentence?",
+    "promptZh": "决策句中的 conservative 是什么意思？",
+    "options": [
+      "Cautious about risk or reluctant to leave a secure option.",
+      "A statement of every participant's political party membership.",
+      "A requirement to preserve every object in a museum.",
+      "A guarantee of choosing the highest monetary expectation every time."
+    ],
+    "optionsZh": [
+      "对风险谨慎，或不愿离开稳妥选项。",
+      "每位参与者政治党籍的声明。",
+      "保全每件博物馆物品的要求。",
+      "保证每次选择最高金额期望。"
+    ],
+    "answer": 0,
+    "type": "语境词义",
+    "support": "explicit",
+    "analyses": [
+      "A 连到确定收益舒服、风险焦虑，表示求稳，限定 many decision situations。",
+      "B 此处不是政治身份分类。",
+      "C 不在谈文物保存。",
+      "D 段落正描述可能偏确定而非最高金额期望，不能反写或扩大 always。"
+    ],
+    "vocabulary": [
+      {
+        "word": "conservative",
+        "meaning": "谨慎保守的；不愿冒险的",
+        "context": "本段为选择风险倾向，不是给读者或受试者推断政治立场。",
+        "example": "The decision-maker took a conservative approach to uncertain options.",
+        "collocations": [
+          "conservative in many decision-making situations",
+          "loss aversion"
+        ]
+      }
+    ],
+    "translation": "我们想要确定收益而非假设可能获得的收益，即使后者可能更大。确定获胜令人愉快舒适。可能的获胜有风险，引人焦虑、不舒服。损失厌恶使我们在许多决策情境中趋于保守。",
+    "evidenceTargetIds": [
+      "c10-s08-p118-01140-s008"
+    ],
+    "evidence": [
+      {
+        "quote": "We want a sure gain rather than a hypothetical gain, even when the hypothetical gain could be larger than the sure gain. A sure win is pleasant and comfortable. A hypothetical win is risky, anxiety-provoking, and uncomfortable. Loss aversion makes us conservative in many decision-making situations.",
+        "sentenceIds": [
+          "c10-s08-p118-01140-s005",
+          "c10-s08-p118-01140-s006",
+          "c10-s08-p118-01140-s007",
+          "c10-s08-p118-01140-s008"
+        ],
+        "sources": [
+          {
+            "pdfPage": 118,
+            "block": 1,
+            "bbox": [
+              76.99,
+              114,
+              535.01,
+              362.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "f79f6b82cf90000c9e0d5b364b39474de2b7be3fe8177cbc211b91ffe3f059e2"
+  },
+  {
+    "id": "qe-c10-0166",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-045",
+    "parentQuestionId": "q-c10-097",
+    "chapterId": "c10",
+    "sectionId": "c10-s08",
+    "paragraphId": "c10-s08-p118-01140",
+    "readingUnitId": "c10-s08-p118-01140-r009-010",
+    "sentenceIds": [
+      "c10-s08-p118-01140-s009",
+      "c10-s08-p118-01140-s010"
+    ],
+    "passage": "But if we always chose a sure bet, we would never venture outside of our comfort zone. If we never ventured outside of our comfort zone, we would never encounter anything unexpected.",
+    "prompt": "What cost does the author attach to always choosing a sure bet?",
+    "promptZh": "作者说总选稳妥选项有什么代价？",
+    "options": [
+      "Every gain would necessarily exceed all risky gains.",
+      "People would automatically experience every possible novelty.",
+      "People would not venture beyond the comfort zone in the stated hypothetical.",
+      "It would prove that every uncertain choice is desirable."
+    ],
+    "optionsZh": [
+      "每份收益必超过所有风险收益。",
+      "人自动经历所有可能新奇。",
+      "按所设假定，人不会走出舒适区。",
+      "证明每个不确定选择都值得。"
+    ],
+    "answer": 2,
+    "type": "逻辑关系",
+    "support": "explicit",
+    "analyses": [
+      "A 当前不是所有收益大小比较结论。",
+      "B never venture 与自动一切新奇相反。",
+      "C if always...would never 把持续求稳与不出舒适区连成条件推理，后句连接未知体验。",
+      "D 说明机会成本不等于提倡每种风险或断言每人现实都这样选择。"
+    ],
+    "vocabulary": [
+      {
+        "word": "venture outside of",
+        "meaning": "尝试走出；冒一点不确定去接近外部",
+        "context": "比 stay safe 更主动，不是鼓励所有形式的危险行为。",
+        "example": "The character was reluctant to venture outside of a familiar routine.",
+        "collocations": [
+          "venture outside of our comfort zone",
+          "always chose a sure bet"
+        ]
+      }
+    ],
+    "translation": "但如果我们总选稳妥的一注，就永远不会走出舒适区。如果永远不走出舒适区，就永远遇不到任何意料之外的事。",
+    "evidenceTargetIds": [
+      "c10-s08-p118-01140-s009"
+    ],
+    "evidence": [
+      {
+        "quote": "But if we always chose a sure bet, we would never venture outside of our comfort zone. If we never ventured outside of our comfort zone, we would never encounter anything unexpected.",
+        "sentenceIds": [
+          "c10-s08-p118-01140-s009",
+          "c10-s08-p118-01140-s010"
+        ],
+        "sources": [
+          {
+            "pdfPage": 118,
+            "block": 1,
+            "bbox": [
+              76.99,
+              114,
+              535.01,
+              362.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "cd287c83bbd986a29e842e57d530c5dd195a07ad7ee928a05e3ef8bccc1c56eb"
+  },
+  {
+    "id": "qe-c10-0167",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-045",
+    "parentQuestionId": "q-c10-098",
+    "chapterId": "c10",
+    "sectionId": "c10-s08",
+    "paragraphId": "c10-s08-p118-03675",
+    "readingUnitId": "c10-s08-p118-03675-r001-004",
+    "sentenceIds": [
+      "c10-s08-p118-03675-s001",
+      "c10-s08-p118-03675-s002",
+      "c10-s08-p118-03675-s003",
+      "c10-s08-p118-03675-s004"
+    ],
+    "passage": "There is endless empirical and real-life evidence for the mere exposure effect and the power of familiarity or certainty, which seems to spell doom for psychological richness. At the same time, there is an interesting twist here. We may not know what we want. We tend to think it won’t be fun to talk to a stranger.",
+    "prompt": "How should 'seems to spell doom' be understood before the stated twist?",
+    "promptZh": "在提出转折之前，seems to spell doom 应怎样理解？",
+    "options": [
+      "As a final proof that psychological richness is impossible for everyone.",
+      "As an apparent obstacle raised for the argument, not its final unavoidable conclusion.",
+      "As a finding that all earlier familiarity research has been erased.",
+      "As a literal spelling lesson about the word doom."
+    ],
+    "optionsZh": [
+      "心理丰富对所有人不可能的最终证明。",
+      "作为论述先提出的表面障碍，而非最后不可避免结论。",
+      "此前熟悉性研究已被全部删除的发现。",
+      "关于 doom 字母的拼写课。"
+    ],
+    "answer": 1,
+    "type": "语气与范围",
+    "support": "explicit",
+    "analyses": [
+      "A seems 限定表象，下一句 interesting twist 不支持最终无望。",
+      "B 先呈现熟悉/确定的强吸引似不利丰富性，再引出我们可能误判自己想要什么。",
+      "C 没有撤回或删除证据。",
+      "D spell doom 为预示不利的习语，不是拼写任务；endless 是作者强调，不是逐一检尽全部研究的数量声明。"
+    ],
+    "vocabulary": [
+      {
+        "word": "spell doom for",
+        "meaning": "预示……的厄运；似乎使……前景无望",
+        "context": "此处与 seems 连用，表达待转折的问题，不是最终命运已确定。",
+        "example": "The pattern seemed to spell doom for the plan, but the next result complicated that view.",
+        "collocations": [
+          "seems to spell doom for",
+          "psychological richness"
+        ]
+      }
+    ],
+    "translation": "单纯曝光效应及熟悉、确定性的力量有无数实证和现实证据，似乎让心理丰富前景黯淡。同时，这里有个有趣转折：我们可能不知道自己想要什么。我们倾向认为与陌生人交谈不好玩。",
+    "evidenceTargetIds": [
+      "c10-s08-p118-03675-s001"
+    ],
+    "evidence": [
+      {
+        "quote": "There is endless empirical and real-life evidence for the mere exposure effect and the power of familiarity or certainty, which seems to spell doom for psychological richness. At the same time, there is an interesting twist here. We may not know what we want. We tend to think it won’t be fun to talk to a stranger.",
+        "sentenceIds": [
+          "c10-s08-p118-03675-s001",
+          "c10-s08-p118-03675-s002",
+          "c10-s08-p118-03675-s003",
+          "c10-s08-p118-03675-s004"
+        ],
+        "sources": [
+          {
+            "pdfPage": 118,
+            "block": 2,
+            "bbox": [
+              76.99,
+              367.5,
+              535.01,
+              713.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "af280f0ce7dcf735adbd47b33814415183cdb7508d4462a0fb45f56cfcfa6c62"
+  },
+  {
+    "id": "qe-c10-0168",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-045",
+    "parentQuestionId": "q-c10-098",
+    "chapterId": "c10",
+    "sectionId": "c10-s08",
+    "paragraphId": "c10-s08-p118-03675",
+    "readingUnitId": "c10-s08-p118-03675-r001-004",
+    "sentenceIds": [
+      "c10-s08-p118-03675-s001",
+      "c10-s08-p118-03675-s002",
+      "c10-s08-p118-03675-s003",
+      "c10-s08-p118-03675-s004"
+    ],
+    "passage": "There is endless empirical and real-life evidence for the mere exposure effect and the power of familiarity or certainty, which seems to spell doom for psychological richness. At the same time, there is an interesting twist here. We may not know what we want. We tend to think it won’t be fun to talk to a stranger.",
+    "prompt": "What possibility is introduced by 'an interesting twist here'?",
+    "promptZh": "an interesting twist here 引入什么可能性？",
+    "options": [
+      "People must always prefer solitude in actual experience.",
+      "No one has any prediction about unfamiliar events.",
+      "Every forecast has already been measured as perfectly accurate.",
+      "People may misunderstand what they want or expect to enjoy."
+    ],
+    "optionsZh": [
+      "人实际体验必须总偏独处。",
+      "无人对陌生事件有预测。",
+      "每个预测已测为完全准确。",
+      "人可能误解自己想要或会享受什么。"
+    ],
+    "answer": 3,
+    "type": "篇章结构",
+    "support": "explicit",
+    "analyses": [
+      "A 当前 parent 说 tend think不fun，不是实际结论总独处好。",
+      "B 反而举预计陌生交谈不快乐。",
+      "C We may not know 表怀疑预测准确，非全准。",
+      "D 紧后句 may not know what we want 给转折内容；当前片段尚未给新实验结果，不凭空当已证每人都错。"
+    ],
+    "vocabulary": [
+      {
+        "word": "twist",
+        "meaning": "转折；改变原先理解的意外发展",
+        "context": "此处为论证方向的变化，不是身体扭转或研究数据被篡改。",
+        "example": "The comparison introduced a twist in the argument.",
+        "collocations": [
+          "an interesting twist",
+          "At the same time"
+        ]
+      }
+    ],
+    "translation": "单纯曝光效应及熟悉、确定性的力量有无数实证和现实证据，似乎让心理丰富前景黯淡。同时，这里有个有趣转折：我们可能不知道自己想要什么。我们倾向认为与陌生人交谈不好玩。",
+    "evidenceTargetIds": [
+      "c10-s08-p118-03675-s002"
+    ],
+    "evidence": [
+      {
+        "quote": "There is endless empirical and real-life evidence for the mere exposure effect and the power of familiarity or certainty, which seems to spell doom for psychological richness. At the same time, there is an interesting twist here. We may not know what we want. We tend to think it won’t be fun to talk to a stranger.",
+        "sentenceIds": [
+          "c10-s08-p118-03675-s001",
+          "c10-s08-p118-03675-s002",
+          "c10-s08-p118-03675-s003",
+          "c10-s08-p118-03675-s004"
+        ],
+        "sources": [
+          {
+            "pdfPage": 118,
+            "block": 2,
+            "bbox": [
+              76.99,
+              367.5,
+              535.01,
+              713.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "0f59edac8c3af1ebb496b14ba167c1db3eb415e4ac98c5d3c5094d5949e7dfc5"
+  },
+  {
+    "id": "qe-c10-0169",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-045",
+    "parentQuestionId": "q-c10-098",
+    "chapterId": "c10",
+    "sectionId": "c10-s08",
+    "paragraphId": "c10-s08-p118-03675",
+    "readingUnitId": "c10-s08-p118-03675-r001-004",
+    "sentenceIds": [
+      "c10-s08-p118-03675-s001",
+      "c10-s08-p118-03675-s002",
+      "c10-s08-p118-03675-s003",
+      "c10-s08-p118-03675-s004"
+    ],
+    "passage": "There is endless empirical and real-life evidence for the mere exposure effect and the power of familiarity or certainty, which seems to spell doom for psychological richness. At the same time, there is an interesting twist here. We may not know what we want. We tend to think it won’t be fun to talk to a stranger.",
+    "prompt": "What kind of statement is 'We tend to think it won’t be fun to talk to a stranger'?",
+    "promptZh": "We tend to think...not fun to talk to a stranger 是哪类陈述？",
+    "options": [
+      "An anticipated evaluation, not a report of how all actual conversations felt.",
+      "A measured result that every stranger interaction was unpleasant.",
+      "A statement that nobody has ever spoken with a stranger.",
+      "A guarantee that every person deliberately avoids all social contact."
+    ],
+    "optionsZh": [
+      "预期评价，不是所有实际交谈感受的报告。",
+      "每次陌生互动都不愉快的实测结果。",
+      "无人曾与陌生人说话的声明。",
+      "保证每人故意避开全部交往。"
+    ],
+    "answer": 0,
+    "type": "证据判断",
+    "support": "explicit",
+    "analyses": [
+      "A tend to think 和 won’t be 将评价放在预想，区别实际经历。",
+      "B 将想象负面升级为全部实测。",
+      "C 不fun的预期不等于从来没发生交谈。",
+      "D tend 不是 every，think 也非全部实际回避行为；不为读者编造社交史。"
+    ],
+    "vocabulary": [
+      {
+        "word": "tend to think",
+        "meaning": "倾向认为；常作某种预期判断",
+        "context": "是一般看法趋势，不自动对应实际结果或每人行为。",
+        "example": "People may tend to think an unfamiliar task will be unpleasant.",
+        "collocations": [
+          "We tend to think",
+          "it won’t be fun"
+        ]
+      }
+    ],
+    "translation": "单纯曝光效应及熟悉、确定性的力量有无数实证和现实证据，似乎让心理丰富前景黯淡。同时，这里有个有趣转折：我们可能不知道自己想要什么。我们倾向认为与陌生人交谈不好玩。",
+    "evidenceTargetIds": [
+      "c10-s08-p118-03675-s004"
+    ],
+    "evidence": [
+      {
+        "quote": "There is endless empirical and real-life evidence for the mere exposure effect and the power of familiarity or certainty, which seems to spell doom for psychological richness. At the same time, there is an interesting twist here. We may not know what we want. We tend to think it won’t be fun to talk to a stranger.",
+        "sentenceIds": [
+          "c10-s08-p118-03675-s001",
+          "c10-s08-p118-03675-s002",
+          "c10-s08-p118-03675-s003",
+          "c10-s08-p118-03675-s004"
+        ],
+        "sources": [
+          {
+            "pdfPage": 118,
+            "block": 2,
+            "bbox": [
+              76.99,
+              367.5,
+              535.01,
+              713.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "03ac048d6aa89b3f052f6dcf89563d38ef7018317d7a1ed06abd55db75b18528"
+  },
+  {
+    "id": "qe-c10-0170",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-045",
+    "parentQuestionId": "q-c10-099",
+    "chapterId": "c10",
+    "sectionId": "c10-s08",
+    "paragraphId": "c10-s08-p118-03675",
+    "readingUnitId": "c10-s08-p118-03675-r005-008",
+    "sentenceIds": [
+      "c10-s08-p118-03675-s005",
+      "c10-s08-p118-03675-s006",
+      "c10-s08-p118-03675-s007",
+      "c10-s08-p118-03675-s008"
+    ],
+    "passage": "But when we actually interact with a stranger, we tend to enjoy it far more than we think. In other words, we tend to underestimate how enjoyable doing something unfamiliar, like talking to a stranger, is. Social psychologists Nick Epley and Juliana Schroeder tested how much people enjoy talking to strangers in a clever field experiment on a commuter train. Their research assistants approached 118 commuters at the Homewood Metra station, one of the first stations on the express line to the Millennium Station in downtown Chicago.",
+    "prompt": "What contrast does 'actually interact' introduce?",
+    "promptZh": "actually interact 引入什么对照？",
+    "options": [
+      "Actual experience is said to be always worse than imagined.",
+      "No feelings are reported after any interaction.",
+      "Enjoyment in real interaction can exceed the enjoyment people expected.",
+      "Every person who predicts discomfort is proved unable to talk."
+    ],
+    "optionsZh": [
+      "实际体验被说成总比想象差。",
+      "任何互动后都不报感受。",
+      "真实互动的享受可能超过人原先预计。",
+      "每个预计不适者被证明无法说话。"
+    ],
+    "answer": 2,
+    "type": "逻辑关系",
+    "support": "explicit",
+    "analyses": [
+      "A far more than think 与方向相反。",
+      "B enjoy 的经验比较明确，不是从无感受。",
+      "C But 把实际与预想区分，后句叫 underestimate enjoyment，保留 tend 的概括范围。",
+      "D 没有能力诊断，也不从平均差异保证每段陌生交谈都愉快。"
+    ],
+    "vocabulary": [
+      {
+        "word": "underestimate",
+        "meaning": "低估；预估低于后来体验或合适参照",
+        "context": "此处低估乐趣，不是已经测得语言能力不足。",
+        "example": "The travellers underestimated how enjoyable the conversation would be.",
+        "collocations": [
+          "underestimate how enjoyable",
+          "actually interact with a stranger"
+        ]
+      }
+    ],
+    "translation": "但实际与陌生人互动时，我们往往比想象中享受得多。也就是说，我们倾向低估做陌生事情的乐趣，例如与陌生人聊天。社会心理学家 Nick Epley 和 Juliana Schroeder 在通勤列车做实地实验，检验这种乐趣。研究助理在 Homewood Metra 站接触 118 名通勤者；该站是通向 Chicago 市中心 Millennium 站快线前几站之一。",
+    "evidenceTargetIds": [
+      "c10-s08-p118-03675-s005"
+    ],
+    "evidence": [
+      {
+        "quote": "But when we actually interact with a stranger, we tend to enjoy it far more than we think. In other words, we tend to underestimate how enjoyable doing something unfamiliar, like talking to a stranger, is. Social psychologists Nick Epley and Juliana Schroeder tested how much people enjoy talking to strangers in a clever field experiment on a commuter train. Their research assistants approached 118 commuters at the Homewood Metra station, one of the first stations on the express line to the Millennium Station in downtown Chicago.",
+        "sentenceIds": [
+          "c10-s08-p118-03675-s005",
+          "c10-s08-p118-03675-s006",
+          "c10-s08-p118-03675-s007",
+          "c10-s08-p118-03675-s008"
+        ],
+        "sources": [
+          {
+            "pdfPage": 118,
+            "block": 2,
+            "bbox": [
+              76.99,
+              367.5,
+              535.01,
+              713.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "6dad817b13b90162e80f1034a6330a37a163920290504c4ecea713b261c4fae6"
+  },
+  {
+    "id": "qe-c10-0171",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-045",
+    "parentQuestionId": "q-c10-099",
+    "chapterId": "c10",
+    "sectionId": "c10-s08",
+    "paragraphId": "c10-s08-p118-03675",
+    "readingUnitId": "c10-s08-p118-03675-r005-008",
+    "sentenceIds": [
+      "c10-s08-p118-03675-s005",
+      "c10-s08-p118-03675-s006",
+      "c10-s08-p118-03675-s007",
+      "c10-s08-p118-03675-s008"
+    ],
+    "passage": "But when we actually interact with a stranger, we tend to enjoy it far more than we think. In other words, we tend to underestimate how enjoyable doing something unfamiliar, like talking to a stranger, is. Social psychologists Nick Epley and Juliana Schroeder tested how much people enjoy talking to strangers in a clever field experiment on a commuter train. Their research assistants approached 118 commuters at the Homewood Metra station, one of the first stations on the express line to the Millennium Station in downtown Chicago.",
+    "prompt": "What question did Epley and Schroeder test on the commuter train?",
+    "promptZh": "Epley 与 Schroeder 在通勤火车上检验什么问题？",
+    "options": [
+      "Whether talking changed objective cognitive ability rather than enjoyment.",
+      "How much people enjoy talking to strangers.",
+      "The exact distance between the commuters' homes.",
+      "How many candidates people interview before stopping a search."
+    ],
+    "optionsZh": [
+      "交谈是否改变客观认知能力，而非乐趣。",
+      "人们多享受与陌生人交谈。",
+      "通勤者家庭住址间精确距离。",
+      "搜索停止前面试多少候选。"
+    ],
+    "answer": 1,
+    "type": "研究设计",
+    "support": "explicit",
+    "analyses": [
+      "A tested how much people enjoy 明确当前因变量是感受，不是认知能力测验。",
+      "B tested how much enjoy talking strangers 明确研究问题与实地场景。",
+      "C 不是前面的住址地理研究，当前任务看交谈乐趣。",
+      "D 属秘书问题，不是列车交谈实验。"
+    ],
+    "vocabulary": [
+      {
+        "word": "commuter",
+        "meaning": "通勤者；规律往返工作学习地点的人",
+        "context": "不等于只在长途度假或参与择偶实验的人。",
+        "example": "The field study recruited commuters at a suburban station.",
+        "collocations": [
+          "on a commuter train",
+          "118 commuters"
+        ]
+      }
+    ],
+    "translation": "但实际与陌生人互动时，我们往往比想象中享受得多。也就是说，我们倾向低估做陌生事情的乐趣，例如与陌生人聊天。社会心理学家 Nick Epley 和 Juliana Schroeder 在通勤列车做实地实验，检验这种乐趣。研究助理在 Homewood Metra 站接触 118 名通勤者；该站是通向 Chicago 市中心 Millennium 站快线前几站之一。",
+    "evidenceTargetIds": [
+      "c10-s08-p118-03675-s007"
+    ],
+    "evidence": [
+      {
+        "quote": "But when we actually interact with a stranger, we tend to enjoy it far more than we think. In other words, we tend to underestimate how enjoyable doing something unfamiliar, like talking to a stranger, is. Social psychologists Nick Epley and Juliana Schroeder tested how much people enjoy talking to strangers in a clever field experiment on a commuter train. Their research assistants approached 118 commuters at the Homewood Metra station, one of the first stations on the express line to the Millennium Station in downtown Chicago.",
+        "sentenceIds": [
+          "c10-s08-p118-03675-s005",
+          "c10-s08-p118-03675-s006",
+          "c10-s08-p118-03675-s007",
+          "c10-s08-p118-03675-s008"
+        ],
+        "sources": [
+          {
+            "pdfPage": 118,
+            "block": 2,
+            "bbox": [
+              76.99,
+              367.5,
+              535.01,
+              713.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "3c37555411486cdec73bf0431d79c9373c32f95fcd91e2df0cde466a3faab25e"
+  },
+  {
+    "id": "qe-c10-0172",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-045",
+    "parentQuestionId": "q-c10-099",
+    "chapterId": "c10",
+    "sectionId": "c10-s08",
+    "paragraphId": "c10-s08-p118-03675",
+    "readingUnitId": "c10-s08-p118-03675-r005-008",
+    "sentenceIds": [
+      "c10-s08-p118-03675-s005",
+      "c10-s08-p118-03675-s006",
+      "c10-s08-p118-03675-s007",
+      "c10-s08-p118-03675-s008"
+    ],
+    "passage": "But when we actually interact with a stranger, we tend to enjoy it far more than we think. In other words, we tend to underestimate how enjoyable doing something unfamiliar, like talking to a stranger, is. Social psychologists Nick Epley and Juliana Schroeder tested how much people enjoy talking to strangers in a clever field experiment on a commuter train. Their research assistants approached 118 commuters at the Homewood Metra station, one of the first stations on the express line to the Millennium Station in downtown Chicago.",
+    "prompt": "Which recruitment detail is stated in the passage?",
+    "promptZh": "片段明确给出哪项招募信息？",
+    "options": [
+      "Ninety-seven people were first approached at Millennium Station.",
+      "Another 105 commuters who only imagined the three conditions.",
+      "All Chicago residents were recruited from their homes.",
+      "Assistants approached 118 commuters at Homewood Metra station."
+    ],
+    "optionsZh": [
+      "先在 Millennium 站接触97人。",
+      "只是想象三个条件的另外105名通勤者。",
+      "从家中招 Chicago 全部居民。",
+      "助理在 Homewood Metra 站接触118名通勤者。"
+    ],
+    "answer": 3,
+    "type": "细节",
+    "support": "explicit",
+    "analyses": [
+      "A 97 是后面的回卷数，Millennium 为快线终点方向，不是招募站。",
+      "B 这是后面另一队列，不是初始 actual ride 的118人招募。",
+      "C 不是全城人口普查。",
+      "D 数量、人员和地点逐项对应，不将历史研究招募变成当前列车时刻信息。"
+    ],
+    "vocabulary": [
+      {
+        "word": "approached",
+        "meaning": "接触；上前邀请",
+        "context": "在招募语境不等于已完成问卷、所有人已回寄或已成为朋友。",
+        "example": "The assistants approached potential volunteers before the journey.",
+        "collocations": [
+          "approached 118 commuters",
+          "at the Homewood Metra station"
+        ]
+      }
+    ],
+    "translation": "但实际与陌生人互动时，我们往往比想象中享受得多。也就是说，我们倾向低估做陌生事情的乐趣，例如与陌生人聊天。社会心理学家 Nick Epley 和 Juliana Schroeder 在通勤列车做实地实验，检验这种乐趣。研究助理在 Homewood Metra 站接触 118 名通勤者；该站是通向 Chicago 市中心 Millennium 站快线前几站之一。",
+    "evidenceTargetIds": [
+      "c10-s08-p118-03675-s008"
+    ],
+    "evidence": [
+      {
+        "quote": "But when we actually interact with a stranger, we tend to enjoy it far more than we think. In other words, we tend to underestimate how enjoyable doing something unfamiliar, like talking to a stranger, is. Social psychologists Nick Epley and Juliana Schroeder tested how much people enjoy talking to strangers in a clever field experiment on a commuter train. Their research assistants approached 118 commuters at the Homewood Metra station, one of the first stations on the express line to the Millennium Station in downtown Chicago.",
+        "sentenceIds": [
+          "c10-s08-p118-03675-s005",
+          "c10-s08-p118-03675-s006",
+          "c10-s08-p118-03675-s007",
+          "c10-s08-p118-03675-s008"
+        ],
+        "sources": [
+          {
+            "pdfPage": 118,
+            "block": 2,
+            "bbox": [
+              76.99,
+              367.5,
+              535.01,
+              713.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "6ae7cfabdc3aa2afc7cc57feedeedca2737515acb6f8f96c7b8243aa8d8a90b6"
+  },
+  {
+    "id": "qe-c10-0173",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-045",
+    "parentQuestionId": "q-c10-100",
+    "chapterId": "c10",
+    "sectionId": "c10-s08",
+    "paragraphId": "c10-s08-p118-03675",
+    "readingUnitId": "c10-s08-p118-03675-r009-011",
+    "sentenceIds": [
+      "c10-s08-p118-03675-s009",
+      "c10-s08-p118-03675-s010",
+      "c10-s08-p118-03675-s011"
+    ],
+    "passage": "One third of the commuters were told to “have a conversation with a new person on the train today, try to make a connection, find out something interesting about the person.” One third were told to “keep to yourself and enjoy your solitude on the train today.” The last third were told not to make “any changes to your normal commute.”",
+    "prompt": "What instruction defined the conversation condition?",
+    "promptZh": "交谈条件用什么要求界定？",
+    "options": [
+      "Talk to a new person on the train, try to connect, and discover something interesting about them.",
+      "Stay silent and avoid changing solitude under every circumstance.",
+      "Carry on the normal commute with no requested change.",
+      "Complete the survey before ever entering the station."
+    ],
+    "optionsZh": [
+      "在车上与新认识的人交谈、尝试建立联系并了解有趣之处。",
+      "任何情况都沉默独处。",
+      "正常通勤、不作要求性改变。",
+      "未进站便先完成问卷。"
+    ],
+    "answer": 0,
+    "type": "研究设计",
+    "support": "explicit",
+    "analyses": [
+      "A first third 引文的三项动作准确，限定实验分组指令。",
+      "B 属独处条件而非交谈。",
+      "C 是控制条件。",
+      "D 问卷在车程末填，非交谈条件定义；文中指令描述给受试者的任务，不等于网站实际要求用户联系陌生人。"
+    ],
+    "vocabulary": [
+      {
+        "word": "make a connection",
+        "meaning": "建立人与人的联系；开始交往",
+        "context": "这里非网络连接、数据库或设备配对。",
+        "example": "The fictional traveller tried to make a connection through conversation.",
+        "collocations": [
+          "have a conversation with a new person",
+          "try to make a connection"
+        ]
+      }
+    ],
+    "translation": "三分之一被要求今天在火车上与新认识的人交谈，尝试建立联系，了解对方有趣之处。三分之一被要求独自待着，享受今日车程的独处。最后三分之一被要求不改变正常通勤方式。",
+    "evidenceTargetIds": [
+      "c10-s08-p118-03675-s009"
+    ],
+    "evidence": [
+      {
+        "quote": "One third of the commuters were told to “have a conversation with a new person on the train today, try to make a connection, find out something interesting about the person.” One third were told to “keep to yourself and enjoy your solitude on the train today.” The last third were told not to make “any changes to your normal commute.”",
+        "sentenceIds": [
+          "c10-s08-p118-03675-s009",
+          "c10-s08-p118-03675-s010",
+          "c10-s08-p118-03675-s011"
+        ],
+        "sources": [
+          {
+            "pdfPage": 118,
+            "block": 2,
+            "bbox": [
+              76.99,
+              367.5,
+              535.01,
+              713.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "5916ee6ddd9ec2a30a285fc28ad54a1600284e9cb75c768199f7453b25e17ba9"
+  },
+  {
+    "id": "qe-c10-0174",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-045",
+    "parentQuestionId": "q-c10-100",
+    "chapterId": "c10",
+    "sectionId": "c10-s08",
+    "paragraphId": "c10-s08-p118-03675",
+    "readingUnitId": "c10-s08-p118-03675-r009-011",
+    "sentenceIds": [
+      "c10-s08-p118-03675-s009",
+      "c10-s08-p118-03675-s010",
+      "c10-s08-p118-03675-s011"
+    ],
+    "passage": "One third of the commuters were told to “have a conversation with a new person on the train today, try to make a connection, find out something interesting about the person.” One third were told to “keep to yourself and enjoy your solitude on the train today.” The last third were told not to make “any changes to your normal commute.”",
+    "prompt": "How does the solitude instruction differ from the control instruction?",
+    "promptZh": "独处条件与控制条件的要求有何不同？",
+    "options": [
+      "Both explicitly require a new conversation with a stranger.",
+      "The control condition requires that every person stay completely silent.",
+      "Solitude directs people to keep to themselves; control asks for no change to the normal commute.",
+      "Solitude asks participants to abandon the train before it leaves."
+    ],
+    "optionsZh": [
+      "两者都明确要求新交谈。",
+      "控制条件要求每人完全沉默。",
+      "独处组要求自己待着，控制组要求照常通勤、不改变。",
+      "独处组要求发车前弃车。"
+    ],
+    "answer": 2,
+    "type": "逻辑关系",
+    "support": "explicit",
+    "analyses": [
+      "A 交谈是另一个条件。",
+      "B 正常通勤不自动等于对每人规定纯沉默。",
+      "C 两段原文分别 keep to yourself/enjoy solitude 与 no changes normal commute，不能混为同一操作。",
+      "D 没有离车要求；one third 是分组概括，原文未给每组精确整数样本数。"
+    ],
+    "vocabulary": [
+      {
+        "word": "solitude",
+        "meaning": "独处；独自相处的状态",
+        "context": "enjoy solitude 不必等于孤独痛苦，也不同于控制组各自正常惯例。",
+        "example": "The instruction described solitude rather than a new conversation.",
+        "collocations": [
+          "keep to yourself",
+          "enjoy your solitude"
+        ]
+      }
+    ],
+    "translation": "三分之一被要求今天在火车上与新认识的人交谈，尝试建立联系，了解对方有趣之处。三分之一被要求独自待着，享受今日车程的独处。最后三分之一被要求不改变正常通勤方式。",
+    "evidenceTargetIds": [
+      "c10-s08-p118-03675-s010"
+    ],
+    "evidence": [
+      {
+        "quote": "One third of the commuters were told to “have a conversation with a new person on the train today, try to make a connection, find out something interesting about the person.” One third were told to “keep to yourself and enjoy your solitude on the train today.” The last third were told not to make “any changes to your normal commute.”",
+        "sentenceIds": [
+          "c10-s08-p118-03675-s009",
+          "c10-s08-p118-03675-s010",
+          "c10-s08-p118-03675-s011"
+        ],
+        "sources": [
+          {
+            "pdfPage": 118,
+            "block": 2,
+            "bbox": [
+              76.99,
+              367.5,
+              535.01,
+              713.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "8513fc807bdd9c1885ef4b0cb3bea63bd645c03d71ae7e2949dce67c6ccbb7cb"
+  },
+  {
+    "id": "qe-c10-0175",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-045",
+    "parentQuestionId": "q-c10-101",
+    "chapterId": "c10",
+    "sectionId": "c10-s08",
+    "paragraphId": "c10-s08-p118-03675",
+    "readingUnitId": "c10-s08-p118-03675-r012-014",
+    "sentenceIds": [
+      "c10-s08-p118-03675-s012",
+      "c10-s08-p118-03675-s013",
+      "c10-s08-p118-03675-s014"
+    ],
+    "passage": "They were all given an envelope with a survey and told to complete the survey at the end of their train ride and mail it back with the return envelope with a stamp. Out of 118 commuters, 97 returned the survey. The commuters randomly assigned to talk to a stranger reported that their commutes were significantly happier and more pleasant than those assigned to the solitude or control conditions.",
+    "prompt": "When and how were participants told to return the survey?",
+    "promptZh": "参与者被要求何时填问卷、如何返回？",
+    "options": [
+      "Before boarding, with no envelope supplied.",
+      "At the end of the ride, then mail it using the stamped return envelope.",
+      "Only after a year, by an unspecified phone interview.",
+      "During a live internet chat conducted before recruitment."
+    ],
+    "optionsZh": [
+      "上车前，且未给信封。",
+      "车程结束时填写，再用带邮票的回邮信封寄回。",
+      "一年后，仅以未指定电话访问。",
+      "招募前即时网上聊天。"
+    ],
+    "answer": 1,
+    "type": "研究设计",
+    "support": "explicit",
+    "analyses": [
+      "A at end ride 与 envelopes 明示不同。",
+      "B complete at end、mail back、return envelope stamp 三项对应。",
+      "C 无一年或电话步骤。",
+      "D 是纸质问卷和邮寄程序；被要求返回不代表每人实际都回卷。"
+    ],
+    "vocabulary": [
+      {
+        "word": "return envelope",
+        "meaning": "回邮信封；用于寄回问卷的信封",
+        "context": "文中提供邮票，不是网站自动发送或学习备份文件。",
+        "example": "The questionnaire included a stamped return envelope.",
+        "collocations": [
+          "at the end of their train ride",
+          "mail it back"
+        ]
+      }
+    ],
+    "translation": "每个人都拿到装问卷的信封，被要求车程结束填写，并用有邮票的回邮信封寄回。118 人中，97 人回寄。随机分到与陌生人聊天组的人报告，车程比独处组或控制组显著更快乐、更愉快。",
+    "evidenceTargetIds": [
+      "c10-s08-p118-03675-s012"
+    ],
+    "evidence": [
+      {
+        "quote": "They were all given an envelope with a survey and told to complete the survey at the end of their train ride and mail it back with the return envelope with a stamp. Out of 118 commuters, 97 returned the survey. The commuters randomly assigned to talk to a stranger reported that their commutes were significantly happier and more pleasant than those assigned to the solitude or control conditions.",
+        "sentenceIds": [
+          "c10-s08-p118-03675-s012",
+          "c10-s08-p118-03675-s013",
+          "c10-s08-p118-03675-s014"
+        ],
+        "sources": [
+          {
+            "pdfPage": 118,
+            "block": 2,
+            "bbox": [
+              76.99,
+              367.5,
+              535.01,
+              713.52
+            ]
+          },
+          {
+            "pdfPage": 119,
+            "block": 0,
+            "bbox": [
+              76.99,
+              75,
+              535,
+              128.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "464c48ccd0388623a5dadf3f763e1d2d44124a44bdc60a6275dcf45301c8c3e5"
+  },
+  {
+    "id": "qe-c10-0176",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-045",
+    "parentQuestionId": "q-c10-101",
+    "chapterId": "c10",
+    "sectionId": "c10-s08",
+    "paragraphId": "c10-s08-p118-03675",
+    "readingUnitId": "c10-s08-p118-03675-r012-014",
+    "sentenceIds": [
+      "c10-s08-p118-03675-s012",
+      "c10-s08-p118-03675-s013",
+      "c10-s08-p118-03675-s014"
+    ],
+    "passage": "They were all given an envelope with a survey and told to complete the survey at the end of their train ride and mail it back with the return envelope with a stamp. Out of 118 commuters, 97 returned the survey. The commuters randomly assigned to talk to a stranger reported that their commutes were significantly happier and more pleasant than those assigned to the solitude or control conditions.",
+    "prompt": "How many of the 118 recruited commuters returned the survey?",
+    "promptZh": "招募的118名通勤者中，多少人回寄问卷？",
+    "options": [
+      "One hundred and eighteen, so no response was missing.",
+      "One hundred and five, the number in the later imagined study.",
+      "Ninety-seven percent, rather than a count of ninety-seven people.",
+      "Ninety-seven."
+    ],
+    "optionsZh": [
+      "118，因此无缺失回卷。",
+      "105，即后来想象研究人数。",
+      "百分之九十七，而非97人。",
+      "97。"
+    ],
+    "answer": 3,
+    "type": "细节",
+    "support": "explicit",
+    "analyses": [
+      "A Out of118,97returned，并非全回。",
+      "B 混淆另一招募队列。",
+      "C 原句97为人数，不是给出的回卷百分比；不能交换计数和比例。",
+      "D 计数直接给出；97不是97%，也不据此假设三组各恰同等整数或未回者体验已知。"
+    ],
+    "vocabulary": [
+      {
+        "word": "returned",
+        "meaning": "寄回；交回",
+        "context": "这里问卷实际返回，不是回到车站或实际招募总数。",
+        "example": "Ninety-seven volunteers returned the paper survey.",
+        "collocations": [
+          "97 returned the survey",
+          "Out of 118 commuters"
+        ]
+      }
+    ],
+    "translation": "每个人都拿到装问卷的信封，被要求车程结束填写，并用有邮票的回邮信封寄回。118 人中，97 人回寄。随机分到与陌生人聊天组的人报告，车程比独处组或控制组显著更快乐、更愉快。",
+    "evidenceTargetIds": [
+      "c10-s08-p118-03675-s013"
+    ],
+    "evidence": [
+      {
+        "quote": "They were all given an envelope with a survey and told to complete the survey at the end of their train ride and mail it back with the return envelope with a stamp. Out of 118 commuters, 97 returned the survey. The commuters randomly assigned to talk to a stranger reported that their commutes were significantly happier and more pleasant than those assigned to the solitude or control conditions.",
+        "sentenceIds": [
+          "c10-s08-p118-03675-s012",
+          "c10-s08-p118-03675-s013",
+          "c10-s08-p118-03675-s014"
+        ],
+        "sources": [
+          {
+            "pdfPage": 118,
+            "block": 2,
+            "bbox": [
+              76.99,
+              367.5,
+              535.01,
+              713.52
+            ]
+          },
+          {
+            "pdfPage": 119,
+            "block": 0,
+            "bbox": [
+              76.99,
+              75,
+              535,
+              128.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "1e4426cd08758eef6a41bca5135b1a56247329a6d8d0d547fb84d4cbc08a3f2d"
+  },
+  {
+    "id": "qe-c10-0177",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-045",
+    "parentQuestionId": "q-c10-102",
+    "chapterId": "c10",
+    "sectionId": "c10-s08",
+    "paragraphId": "c10-s08-p119-01335",
+    "readingUnitId": "c10-s08-p119-01335-r001-002",
+    "sentenceIds": [
+      "c10-s08-p119-01335-s001",
+      "c10-s08-p119-01335-s002"
+    ],
+    "passage": "Interestingly, Epley and Schroeder recruited another 105 commuters from the Homewood Metra station and asked them simply to imagine how they would feel if they were in the talk-to-a-stranger condition, the solitude condition, and the control condition. Contrary to the actual participants, those in the imagined experiment predicted that they would report feeling significantly less happy and less pleasant when talking to a stranger than in the other two conditions.",
+    "prompt": "How did the additional 105 commuters differ from the actual-ride participants?",
+    "promptZh": "另外105名通勤者与实际乘车实验参与者有什么区别？",
+    "options": [
+      "They imagined how they would feel in the three conditions rather than reporting those assigned experiences from an actual ride.",
+      "They were the same 97 respondents counted again as 105.",
+      "They all repeated the physical conversation condition and reported only afterwards.",
+      "They were original participants whose post-ride envelopes merely arrived later."
+    ],
+    "optionsZh": [
+      "他们想象三种条件下的感受，而非报告实际车程中的分派体验。",
+      "他们就是97回卷者被重算成105。",
+      "他们都实际重做交谈条件后才报告。",
+      "他们是原参与者，只是车程后信封较迟寄到。"
+    ],
+    "answer": 0,
+    "type": "研究设计",
+    "support": "explicit",
+    "analyses": [
+      "A another105、simply imagine 明确另一群体及预测任务，不是实际体验重复。",
+      "B 两人数与任务不同，不能合并或重复计作同一批。",
+      "C 想象三条件不是全体真实交谈。",
+      "D another105与simplyimagine表新任务新群体，不是原样本迟回问卷。"
+    ],
+    "vocabulary": [
+      {
+        "word": "simply to imagine",
+        "meaning": "仅仅去想象；只作情境预测",
+        "context": "区分预计感受与事后体验报告，不保证想象结果准确。",
+        "example": "The second group was asked simply to imagine the possible experience.",
+        "collocations": [
+          "another 105 commuters",
+          "asked them simply to imagine"
+        ]
+      }
+    ],
+    "translation": "有趣的是，两研究者又在 Homewood Metra 招募 105 名通勤者，仅请他们想象，处于聊天、独处、控制条件时会感觉怎样。与实际参与者相反，想象实验者预测，聊天条件比另两条件显著更不快乐、更不愉快。",
+    "evidenceTargetIds": [
+      "c10-s08-p119-01335-s001"
+    ],
+    "evidence": [
+      {
+        "quote": "Interestingly, Epley and Schroeder recruited another 105 commuters from the Homewood Metra station and asked them simply to imagine how they would feel if they were in the talk-to-a-stranger condition, the solitude condition, and the control condition.",
+        "sentenceIds": [
+          "c10-s08-p119-01335-s001"
+        ],
+        "sources": [
+          {
+            "pdfPage": 119,
+            "block": 1,
+            "bbox": [
+              76.99,
+              133.5,
+              535.01,
+              362.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "dc54f8bc46337446b96b622dc1c214b1323b0092f691315ce5c2de362bbcee2d"
   }
 ]
