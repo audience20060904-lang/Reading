@@ -75200,5 +75200,2099 @@
     ],
     "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
     "fingerprint": "a069d0332b3ee80023a256afba7734592f56b50d5ee0269f8224c53119c716a6"
+  },
+  {
+    "id": "qe-c09-0129",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-038",
+    "parentQuestionId": "q-c09-070",
+    "chapterId": "c09",
+    "sectionId": "c09-s05",
+    "paragraphId": "c09-s05-p100-05745",
+    "readingUnitId": "c09-s05-p100-05745-r001-004",
+    "sentenceIds": [
+      "c09-s05-p100-05745-s001",
+      "c09-s05-p100-05745-s002",
+      "c09-s05-p100-05745-s003",
+      "c09-s05-p100-05745-s004"
+    ],
+    "passage": "But then their offense struggled. The Rockets ultimately ended the regular season with a 47-35 record and were the number six seed in the Western Conference playoffs. It was a disappointing end of the regular season. In the first round of playoffs, they faced the number-three-seeded Utah Jazz, who ended the regular season with a 60-22 record and had Karl Malone and John Stockton on their roster.",
+    "prompt": "What is called disappointing in the Rockets passage?",
+    "promptZh": "Rockets 片段把什么说成令人失望？",
+    "options": [
+      "Their eventual championship celebration.",
+      "Utah's later loss at the end of the playoff round.",
+      "The end of the regular season, before the playoff account continues.",
+      "The author's entire experience of all sports throughout his life."
+    ],
+    "optionsZh": [
+      "最终冠军庆祝。",
+      "Utah 在随后季后赛轮次末尾的失利。",
+      "季后赛叙述继续之前的常规赛收官。",
+      "作者毕生所有体育体验。"
+    ],
+    "answer": 2,
+    "type": "细节",
+    "support": "explicit",
+    "analyses": [
+      "A 目标句明确 regular season，不是后来冠军结果。",
+      "B disappointing 在此评价 Rockets 的常规赛收官，不是 Utah 随后淘汰。",
+      "C It was a disappointing end of the regular season 直接限定阶段。",
+      "D 把一次阶段评价扩成整个人生全部运动体验，没有依据。"
+    ],
+    "vocabulary": [
+      {
+        "word": "disappointing",
+        "meaning": "令人失望的；未达到期望的",
+        "context": "修饰常规赛收官，不保证此后季后赛也以同样结果结束。",
+        "example": "The season had a disappointing start but later improved.",
+        "collocations": [
+          "a disappointing end",
+          "the regular season"
+        ]
+      }
+    ],
+    "translation": "但随后他们进攻挣扎。Rockets 最终以47胜35负结束常规赛，成为西部季后赛第六种子；这个收官令人失望。季后赛首轮对阵第三种子 Utah Jazz，对手常规赛60胜22负，阵容有 Karl Malone 和 John Stockton。",
+    "evidenceTargetIds": [
+      "c09-s05-p100-05745-s003"
+    ],
+    "evidence": [
+      {
+        "quote": "But then their offense struggled. The Rockets ultimately ended the regular season with a 47-35 record and were the number six seed in the Western Conference playoffs. It was a disappointing end of the regular season. In the first round of playoffs, they faced the number-three-seeded Utah Jazz, who ended the regular season with a 60-22 record and had Karl Malone and John Stockton on their roster.",
+        "sentenceIds": [
+          "c09-s05-p100-05745-s001",
+          "c09-s05-p100-05745-s002",
+          "c09-s05-p100-05745-s003",
+          "c09-s05-p100-05745-s004"
+        ],
+        "sources": [
+          {
+            "pdfPage": 100,
+            "block": 4,
+            "bbox": [
+              76.99,
+              574.5,
+              535.01,
+              706.02
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "da3cde3d5b9ad9bbc8bf8e8020149c17318678e3b6c2fe1222cc97e25b3d8188"
+  },
+  {
+    "id": "qe-c09-0130",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-038",
+    "parentQuestionId": "q-c09-071",
+    "chapterId": "c09",
+    "sectionId": "c09-s05",
+    "paragraphId": "c09-s05-p100-05745",
+    "readingUnitId": "c09-s05-p100-05745-r005-008",
+    "sentenceIds": [
+      "c09-s05-p100-05745-s005",
+      "c09-s05-p100-05745-s006",
+      "c09-s05-p100-05745-s007",
+      "c09-s05-p100-05745-s008"
+    ],
+    "passage": "Utah initially led the five-game series 2 to 1. One more win and Utah would move on. However, in game four Houston won: the series was now tied at 2 to 2. For game five, they went back to Utah.",
+    "prompt": "What was Utah's initial lead in the first-round series?",
+    "promptZh": "首轮系列赛中 Utah 起初怎样领先？",
+    "options": [
+      "Two games to one in a five-game series.",
+      "Three games to one in a seven-game series.",
+      "Ninety-five points to ninety-one in every game.",
+      "A tie at two games apiece."
+    ],
+    "optionsZh": [
+      "五场制系列赛中以两场比一场领先。",
+      "七场制系列赛三场比一场领先。",
+      "每场都以九十五分比九十一分领先。",
+      "两场比两场打平。"
+    ],
+    "answer": 0,
+    "type": "细节",
+    "support": "explicit",
+    "analyses": [
+      "A initially、five-game、2 to 1 都对应场次，不是比分。",
+      "B 后轮 Phoenix 的局势不能提前移给 Utah。",
+      "C 95 to 91 属后来单场结果，不是当前系列赛场次。",
+      "D 这是 Houston 赢第四场之后的状态，不是 Utah initially led 的起始局势。"
+    ],
+    "vocabulary": [
+      {
+        "word": "initially",
+        "meaning": "最初；起初",
+        "context": "强调随后可能改变的阶段，非整个系列赛最终结果。",
+        "example": "The visitors initially led, but the home side recovered.",
+        "collocations": [
+          "Utah initially led",
+          "the five-game series"
+        ]
+      }
+    ],
+    "translation": "Utah 起初在五场制系列赛以2比1领先，再赢一场就晋级。然而第四场 Houston 赢了，系列赛变为2比2。第五场，他们回到 Utah。",
+    "evidenceTargetIds": [
+      "c09-s05-p100-05745-s005"
+    ],
+    "evidence": [
+      {
+        "quote": "Utah initially led the five-game series 2 to 1. One more win and Utah would move on. However, in game four Houston won: the series was now tied at 2 to 2. For game five, they went back to Utah.",
+        "sentenceIds": [
+          "c09-s05-p100-05745-s005",
+          "c09-s05-p100-05745-s006",
+          "c09-s05-p100-05745-s007",
+          "c09-s05-p100-05745-s008"
+        ],
+        "sources": [
+          {
+            "pdfPage": 100,
+            "block": 4,
+            "bbox": [
+              76.99,
+              574.5,
+              535.01,
+              706.02
+            ]
+          },
+          {
+            "pdfPage": 101,
+            "block": 0,
+            "bbox": [
+              76.99,
+              75,
+              535.01,
+              128.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "edf070dba46f10f5665c503876d3782e41c770fd0eb02111fc58d3ac5694a6fb"
+  },
+  {
+    "id": "qe-c09-0131",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-038",
+    "parentQuestionId": "q-c09-071",
+    "chapterId": "c09",
+    "sectionId": "c09-s05",
+    "paragraphId": "c09-s05-p100-05745",
+    "readingUnitId": "c09-s05-p100-05745-r005-008",
+    "sentenceIds": [
+      "c09-s05-p100-05745-s005",
+      "c09-s05-p100-05745-s006",
+      "c09-s05-p100-05745-s007",
+      "c09-s05-p100-05745-s008"
+    ],
+    "passage": "Utah initially led the five-game series 2 to 1. One more win and Utah would move on. However, in game four Houston won: the series was now tied at 2 to 2. For game five, they went back to Utah.",
+    "prompt": "What would one further Utah win have meant at that stage?",
+    "promptZh": "当时 Utah 再赢一场会意味着什么？",
+    "options": [
+      "Utah would still need three additional wins to advance.",
+      "Houston would automatically win the series.",
+      "The series would become tied at two games apiece.",
+      "Utah would advance to the next round."
+    ],
+    "optionsZh": [
+      "Utah 晋级仍需再三胜。",
+      "Houston 自动赢系列赛。",
+      "系列赛会变成两场比两场平。",
+      "Utah 会晋级下一轮。"
+    ],
+    "answer": 3,
+    "type": "逻辑关系",
+    "support": "explicit",
+    "analyses": [
+      "A one more win and move on 与再三胜不符。",
+      "B 条件主体是 Utah 赢，不是 Houston 得冠。",
+      "C 打平是 Houston 赢第四场的后果，不是 Utah 再赢的后果，条件主体被换掉。",
+      "D 原文给条件后果，后面的 Houston 第四场获胜表明不能把条件当已发生结果。"
+    ],
+    "vocabulary": [
+      {
+        "word": "move on",
+        "meaning": "晋级；进入下一阶段",
+        "context": "在赛事语境为继续下一轮，不是搬家或从情绪中走出来。",
+        "example": "One more win would allow the team to move on.",
+        "collocations": [
+          "Utah would move on",
+          "One more win"
+        ]
+      }
+    ],
+    "translation": "Utah 起初在五场制系列赛以2比1领先，再赢一场就晋级。然而第四场 Houston 赢了，系列赛变为2比2。第五场，他们回到 Utah。",
+    "evidenceTargetIds": [
+      "c09-s05-p100-05745-s006"
+    ],
+    "evidence": [
+      {
+        "quote": "Utah initially led the five-game series 2 to 1. One more win and Utah would move on. However, in game four Houston won: the series was now tied at 2 to 2. For game five, they went back to Utah.",
+        "sentenceIds": [
+          "c09-s05-p100-05745-s005",
+          "c09-s05-p100-05745-s006",
+          "c09-s05-p100-05745-s007",
+          "c09-s05-p100-05745-s008"
+        ],
+        "sources": [
+          {
+            "pdfPage": 100,
+            "block": 4,
+            "bbox": [
+              76.99,
+              574.5,
+              535.01,
+              706.02
+            ]
+          },
+          {
+            "pdfPage": 101,
+            "block": 0,
+            "bbox": [
+              76.99,
+              75,
+              535.01,
+              128.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "02d7b0071edb9e517bd9ac0f2b3b8f496b2b20f1fdd72130b8d6358d18b3aef9"
+  },
+  {
+    "id": "qe-c09-0132",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-038",
+    "parentQuestionId": "q-c09-071",
+    "chapterId": "c09",
+    "sectionId": "c09-s05",
+    "paragraphId": "c09-s05-p100-05745",
+    "readingUnitId": "c09-s05-p100-05745-r005-008",
+    "sentenceIds": [
+      "c09-s05-p100-05745-s005",
+      "c09-s05-p100-05745-s006",
+      "c09-s05-p100-05745-s007",
+      "c09-s05-p100-05745-s008"
+    ],
+    "passage": "Utah initially led the five-game series 2 to 1. One more win and Utah would move on. However, in game four Houston won: the series was now tied at 2 to 2. For game five, they went back to Utah.",
+    "prompt": "Where was game five to be played after the series became tied?",
+    "promptZh": "系列赛追平后，第五场回到哪里进行？",
+    "options": [
+      "Houston's home court, without any return trip.",
+      "Utah.",
+      "Phoenix's home court.",
+      "San Antonio."
+    ],
+    "optionsZh": [
+      "Houston 主场，无需返回他处。",
+      "Utah。",
+      "Phoenix 主场。",
+      "San Antonio。"
+    ],
+    "answer": 1,
+    "type": "细节",
+    "support": "explicit",
+    "analyses": [
+      "A went back to Utah 不是留在 Houston 主场。",
+      "B For game five,they went back to Utah 直接给地点。",
+      "C Phoenix 是之后第二轮对手，不是第五场回去的 Utah。",
+      "D Spurs 在后来的分区决赛，当前地点原文为 Utah。"
+    ],
+    "vocabulary": [
+      {
+        "word": "went back to",
+        "meaning": "回到；返回某处",
+        "context": "此处是第五场地点的转移，不是比赛胜负或比分回退。",
+        "example": "For the final match, they went back to the away venue.",
+        "collocations": [
+          "For game five",
+          "went back to Utah"
+        ]
+      }
+    ],
+    "translation": "Utah 起初在五场制系列赛以2比1领先，再赢一场就晋级。然而第四场 Houston 赢了，系列赛变为2比2。第五场，他们回到 Utah。",
+    "evidenceTargetIds": [
+      "c09-s05-p100-05745-s008"
+    ],
+    "evidence": [
+      {
+        "quote": "Utah initially led the five-game series 2 to 1. One more win and Utah would move on. However, in game four Houston won: the series was now tied at 2 to 2. For game five, they went back to Utah.",
+        "sentenceIds": [
+          "c09-s05-p100-05745-s005",
+          "c09-s05-p100-05745-s006",
+          "c09-s05-p100-05745-s007",
+          "c09-s05-p100-05745-s008"
+        ],
+        "sources": [
+          {
+            "pdfPage": 100,
+            "block": 4,
+            "bbox": [
+              76.99,
+              574.5,
+              535.01,
+              706.02
+            ]
+          },
+          {
+            "pdfPage": 101,
+            "block": 0,
+            "bbox": [
+              76.99,
+              75,
+              535.01,
+              128.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "aad3c018e69c3829ddb5f4a10dd58644625ea6cab28f3544b03fd9c21813c05d"
+  },
+  {
+    "id": "qe-c09-0133",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-038",
+    "parentQuestionId": "q-c09-072",
+    "chapterId": "c09",
+    "sectionId": "c09-s05",
+    "paragraphId": "c09-s05-p100-05745",
+    "readingUnitId": "c09-s05-p100-05745-r009-010",
+    "sentenceIds": [
+      "c09-s05-p100-05745-s009",
+      "c09-s05-p100-05745-s010"
+    ],
+    "passage": "Would Utah’s home court advantage end the Rockets’ season? Nope, Houston beat Utah 95 to 91.",
+    "prompt": "What is the effect of asking whether home-court advantage would end Houston's season?",
+    "promptZh": "问主场优势是否终结 Houston 赛季，起什么作用？",
+    "options": [
+      "It introduces suspense that the next sentence resolves with Houston's victory.",
+      "It announces Utah won before the next sentence gives any result.",
+      "It offers a guaranteed forecast for a future game being played today.",
+      "It proves home-court advantage never matters in any sport."
+    ],
+    "optionsZh": [
+      "制造悬念，下一句用 Houston 获胜解开。",
+      "在后句给结果前已宣布 Utah 赢。",
+      "对今天尚未进行比赛给保证预测。",
+      "证明主场优势在所有运动中从不重要。"
+    ],
+    "answer": 0,
+    "type": "作者意图",
+    "support": "explicit",
+    "analyses": [
+      "A Would...? 后紧接 Nope,Houston beat Utah95 to91，自问自答呈现逆转。",
+      "B 把疑问误作肯定结果。",
+      "C 当前是书中1995叙事，不是实时预测或投注建议。",
+      "D 一场叙述不能推出全运动主场优势为零。"
+    ],
+    "vocabulary": [
+      {
+        "word": "home court advantage",
+        "meaning": "主场优势",
+        "context": "作为作者提出悬念的条件，不是保证胜负的决定性定律。",
+        "example": "The visitors won despite the other team's home court advantage.",
+        "collocations": [
+          "Utah’s home court advantage",
+          "end the Rockets’ season"
+        ]
+      }
+    ],
+    "translation": "Utah 的主场优势会终结 Rockets 的赛季吗？没有，Houston 以95比91击败 Utah。",
+    "evidenceTargetIds": [
+      "c09-s05-p100-05745-s009"
+    ],
+    "evidence": [
+      {
+        "quote": "Would Utah’s home court advantage end the Rockets’ season? Nope, Houston beat Utah 95 to 91.",
+        "sentenceIds": [
+          "c09-s05-p100-05745-s009",
+          "c09-s05-p100-05745-s010"
+        ],
+        "sources": [
+          {
+            "pdfPage": 101,
+            "block": 0,
+            "bbox": [
+              76.99,
+              75,
+              535.01,
+              128.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "ba3f5e5a28e04084749ae3f778452705dbcc3e642280ef30cb9b3f9a76434112"
+  },
+  {
+    "id": "qe-c09-0134",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-038",
+    "parentQuestionId": "q-c09-073",
+    "chapterId": "c09",
+    "sectionId": "c09-s05",
+    "paragraphId": "c09-s05-p101-01335",
+    "readingUnitId": "c09-s05-p101-01335-r001-004",
+    "sentenceIds": [
+      "c09-s05-p101-01335-s001",
+      "c09-s05-p101-01335-s002",
+      "c09-s05-p101-01335-s003",
+      "c09-s05-p101-01335-s004"
+    ],
+    "passage": "In the second round of playoffs, Houston faced the number two seed, the Phoenix Suns. Phoenix led 3 to 1 in the seven-game series. Again, one more loss and Houston’s season would have been over. They had to win three games in a row in order to win the series.",
+    "prompt": "Who did Houston face in the second round, according to the book?",
+    "promptZh": "据书中叙述，Houston 第二轮对手是谁？",
+    "options": [
+      "The third-seeded Utah Jazz again.",
+      "The first-seeded San Antonio Spurs.",
+      "The second-seeded Phoenix Suns.",
+      "The Orlando Magic in the first round of the regular season."
+    ],
+    "optionsZh": [
+      "再次对阵第三种子 Utah Jazz。",
+      "第一种子 San Antonio Spurs。",
+      "第二种子 Phoenix Suns。",
+      "常规赛首轮的 Orlando Magic。"
+    ],
+    "answer": 2,
+    "type": "细节",
+    "support": "explicit",
+    "analyses": [
+      "A Utah 是前一轮，不能重复当第二轮对手。",
+      "B Spurs 属后面 conference finals。",
+      "C second round、number two seed、Phoenix Suns 三项对应。",
+      "D 混淆常规赛和季后赛，且不是当前对手。"
+    ],
+    "vocabulary": [
+      {
+        "word": "seed",
+        "meaning": "种子排名；按赛前资格排定的次序",
+        "context": "在锦标赛语境不是植物种子，也不是最终夺冠名次。",
+        "example": "The sixth seed faced the second seed in the next round.",
+        "collocations": [
+          "the number two seed",
+          "the second round of playoffs"
+        ]
+      }
+    ],
+    "translation": "季后赛第二轮，Houston 面对第二种子 Phoenix Suns。Phoenix 在七场制系列赛3比1领先。再输一场，Houston 的赛季就结束。他们必须连赢三场，才能赢下系列赛。",
+    "evidenceTargetIds": [
+      "c09-s05-p101-01335-s001"
+    ],
+    "evidence": [
+      {
+        "quote": "In the second round of playoffs, Houston faced the number two seed, the Phoenix Suns. Phoenix led 3 to 1 in the seven-game series. Again, one more loss and Houston’s season would have been over. They had to win three games in a row in order to win the series.",
+        "sentenceIds": [
+          "c09-s05-p101-01335-s001",
+          "c09-s05-p101-01335-s002",
+          "c09-s05-p101-01335-s003",
+          "c09-s05-p101-01335-s004"
+        ],
+        "sources": [
+          {
+            "pdfPage": 101,
+            "block": 1,
+            "bbox": [
+              76.99,
+              133.5,
+              535,
+              343.02
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "2722a040ea23ec2b2381da980846fa77e70b0c3df747c19acb6e8fa063560d01"
+  },
+  {
+    "id": "qe-c09-0135",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-038",
+    "parentQuestionId": "q-c09-073",
+    "chapterId": "c09",
+    "sectionId": "c09-s05",
+    "paragraphId": "c09-s05-p101-01335",
+    "readingUnitId": "c09-s05-p101-01335-r001-004",
+    "sentenceIds": [
+      "c09-s05-p101-01335-s001",
+      "c09-s05-p101-01335-s002",
+      "c09-s05-p101-01335-s003",
+      "c09-s05-p101-01335-s004"
+    ],
+    "passage": "In the second round of playoffs, Houston faced the number two seed, the Phoenix Suns. Phoenix led 3 to 1 in the seven-game series. Again, one more loss and Houston’s season would have been over. They had to win three games in a row in order to win the series.",
+    "prompt": "Which situation made the Phoenix series especially precarious for Houston?",
+    "promptZh": "Phoenix 系列赛的什么局势使 Houston 尤其危险？",
+    "options": [
+      "Houston led three games to one in the same series.",
+      "The series was a best-of-five contest tied at one win each.",
+      "The teams were already tied at three games apiece.",
+      "Phoenix led three games to one in a seven-game series."
+    ],
+    "optionsZh": [
+      "同轮中 Houston 三比一领先。",
+      "这是五场制且一比一平。",
+      "两队已经三比三平。",
+      "Phoenix 在七场制系列赛三比一领先。"
+    ],
+    "answer": 3,
+    "type": "细节",
+    "support": "explicit",
+    "analyses": [
+      "A 交换领先方；原文领先者为 Phoenix。",
+      "B 混入前轮五场制，并改掉场次。",
+      "C 改掉明确的3比1局势，也抹去下一句再输即淘汰的紧迫背景。",
+      "D Phoenix led3to1、seven-game 直接对应，下一句点出 Houston 再输就结束。"
+    ],
+    "vocabulary": [
+      {
+        "word": "led",
+        "meaning": "领先；在比分或场次上暂时在前",
+        "context": "这里是 lead 的过去式，不表示带领某个球队的球员身份。",
+        "example": "The home team led by two games before the final round.",
+        "collocations": [
+          "Phoenix led 3 to 1",
+          "the seven-game series"
+        ]
+      }
+    ],
+    "translation": "季后赛第二轮，Houston 面对第二种子 Phoenix Suns。Phoenix 在七场制系列赛3比1领先。再输一场，Houston 的赛季就结束。他们必须连赢三场，才能赢下系列赛。",
+    "evidenceTargetIds": [
+      "c09-s05-p101-01335-s002"
+    ],
+    "evidence": [
+      {
+        "quote": "In the second round of playoffs, Houston faced the number two seed, the Phoenix Suns. Phoenix led 3 to 1 in the seven-game series. Again, one more loss and Houston’s season would have been over. They had to win three games in a row in order to win the series.",
+        "sentenceIds": [
+          "c09-s05-p101-01335-s001",
+          "c09-s05-p101-01335-s002",
+          "c09-s05-p101-01335-s003",
+          "c09-s05-p101-01335-s004"
+        ],
+        "sources": [
+          {
+            "pdfPage": 101,
+            "block": 1,
+            "bbox": [
+              76.99,
+              133.5,
+              535,
+              343.02
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "b543032b740b923561200e1741b7b7777a83138605f4218843a3ebaa489aaab6"
+  },
+  {
+    "id": "qe-c09-0136",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-038",
+    "parentQuestionId": "q-c09-073",
+    "chapterId": "c09",
+    "sectionId": "c09-s05",
+    "paragraphId": "c09-s05-p101-01335",
+    "readingUnitId": "c09-s05-p101-01335-r001-004",
+    "sentenceIds": [
+      "c09-s05-p101-01335-s001",
+      "c09-s05-p101-01335-s002",
+      "c09-s05-p101-01335-s003",
+      "c09-s05-p101-01335-s004"
+    ],
+    "passage": "In the second round of playoffs, Houston faced the number two seed, the Phoenix Suns. Phoenix led 3 to 1 in the seven-game series. Again, one more loss and Houston’s season would have been over. They had to win three games in a row in order to win the series.",
+    "prompt": "What was the consequence of another Houston loss at that point?",
+    "promptZh": "当时 Houston 如果再输一场会怎样？",
+    "options": [
+      "It would automatically secure the championship.",
+      "Its season would end.",
+      "It would need only one later draw to restart the series.",
+      "Phoenix would have to win three more games before advancing."
+    ],
+    "optionsZh": [
+      "自动锁定总冠军。",
+      "赛季会结束。",
+      "只需之后再平一场便重开系列赛。",
+      "Phoenix 晋级前还须再赢三场。"
+    ],
+    "answer": 1,
+    "type": "逻辑关系",
+    "support": "explicit",
+    "analyses": [
+      "A loss 与夺冠方向相反。",
+      "B one more loss...season would have been over 明确淘汰风险，不是说已实际又输。",
+      "C 原文没有平局重开条件。",
+      "D 要连赢三场的是 Houston，不是已经3比1领先的 Phoenix。"
+    ],
+    "vocabulary": [
+      {
+        "word": "would have been over",
+        "meaning": "本就会结束；在所设条件下将告终",
+        "context": "在当时形势中表达再输的后果，不能把未发生的条件写成真实败局。",
+        "example": "One more delay and the opportunity would have been over.",
+        "collocations": [
+          "one more loss",
+          "Houston’s season would have been over"
+        ]
+      }
+    ],
+    "translation": "季后赛第二轮，Houston 面对第二种子 Phoenix Suns。Phoenix 在七场制系列赛3比1领先。再输一场，Houston 的赛季就结束。他们必须连赢三场，才能赢下系列赛。",
+    "evidenceTargetIds": [
+      "c09-s05-p101-01335-s003"
+    ],
+    "evidence": [
+      {
+        "quote": "In the second round of playoffs, Houston faced the number two seed, the Phoenix Suns. Phoenix led 3 to 1 in the seven-game series. Again, one more loss and Houston’s season would have been over. They had to win three games in a row in order to win the series.",
+        "sentenceIds": [
+          "c09-s05-p101-01335-s001",
+          "c09-s05-p101-01335-s002",
+          "c09-s05-p101-01335-s003",
+          "c09-s05-p101-01335-s004"
+        ],
+        "sources": [
+          {
+            "pdfPage": 101,
+            "block": 1,
+            "bbox": [
+              76.99,
+              133.5,
+              535,
+              343.02
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "8748a842146b21b0014660ef560f041461b8ac33649d9fbc7694a940ca006bb7"
+  },
+  {
+    "id": "qe-c09-0137",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-038",
+    "parentQuestionId": "q-c09-074",
+    "chapterId": "c09",
+    "sectionId": "c09-s05",
+    "paragraphId": "c09-s05-p101-01335",
+    "readingUnitId": "c09-s05-p101-01335-r005-008",
+    "sentenceIds": [
+      "c09-s05-p101-01335-s005",
+      "c09-s05-p101-01335-s006",
+      "c09-s05-p101-01335-s007",
+      "c09-s05-p101-01335-s008"
+    ],
+    "passage": "Phoenix had a chance to win game five, but their star forward, Charles Barkley, uncharacteristically missed both free throws toward the end of regulation and the game went into overtime. In the end, Houston won game five in Phoenix, and the rest is history. They won game six at home and game seven in Phoenix. In the conference finals, Houston beat the number-one-seeded San Antonio Spurs.",
+    "prompt": "What does 'uncharacteristically' indicate about Barkley's two missed free throws?",
+    "promptZh": "uncharacteristically 对 Barkley 两罚不中暗示什么？",
+    "options": [
+      "The misses are presented as unlike his usual performance.",
+      "The book says he missed every free throw in his entire career.",
+      "The misses were described as exactly what he always did.",
+      "An injury is explicitly identified as the cause of the misses."
+    ],
+    "optionsZh": [
+      "失误被描述为不符合平常表现。",
+      "书说他职业生涯每次罚球都不中。",
+      "失误被描述为他一向必然如此。",
+      "原文明确把伤病列为失误原因。"
+    ],
+    "answer": 0,
+    "type": "语境词义",
+    "support": "explicit",
+    "analyses": [
+      "A uncharacteristically 表与通常特征不符，强化关键时刻意外。",
+      "B 不可从此两次失误扩大成全职业零命中。",
+      "C un- 否定通常，方向相反。",
+      "D 未给伤病原因；uncharacteristically 说明与通常表现不符，不能擅补因果。"
+    ],
+    "vocabulary": [
+      {
+        "word": "uncharacteristically",
+        "meaning": "一反常态地；不像平时表现地",
+        "context": "说明叙述者认为出乎球星通常表现，不提供具体统计基准。",
+        "example": "The usually careful player uncharacteristically made two errors.",
+        "collocations": [
+          "uncharacteristically missed both free throws",
+          "toward the end of regulation"
+        ]
+      }
+    ],
+    "translation": "Phoenix 有机会赢第五场，但明星前锋 Charles Barkley 在常规时间接近结束时一反常态地两罚不中，比赛进入加时。最终 Houston 在 Phoenix 赢第五场，后来的一切便成为历史：第六场主场获胜，第七场在 Phoenix 获胜。西部决赛中，Houston 击败第一种子 San Antonio Spurs。",
+    "evidenceTargetIds": [
+      "c09-s05-p101-01335-s005"
+    ],
+    "evidence": [
+      {
+        "quote": "Phoenix had a chance to win game five, but their star forward, Charles Barkley, uncharacteristically missed both free throws toward the end of regulation and the game went into overtime. In the end, Houston won game five in Phoenix, and the rest is history. They won game six at home and game seven in Phoenix. In the conference finals, Houston beat the number-one-seeded San Antonio Spurs.",
+        "sentenceIds": [
+          "c09-s05-p101-01335-s005",
+          "c09-s05-p101-01335-s006",
+          "c09-s05-p101-01335-s007",
+          "c09-s05-p101-01335-s008"
+        ],
+        "sources": [
+          {
+            "pdfPage": 101,
+            "block": 1,
+            "bbox": [
+              76.99,
+              133.5,
+              535,
+              343.02
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "777b2f5f34bed57fb5aa2174b605b46696e0e70a88fb3a2e544550b1124f4150"
+  },
+  {
+    "id": "qe-c09-0138",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-038",
+    "parentQuestionId": "q-c09-074",
+    "chapterId": "c09",
+    "sectionId": "c09-s05",
+    "paragraphId": "c09-s05-p101-01335",
+    "readingUnitId": "c09-s05-p101-01335-r005-008",
+    "sentenceIds": [
+      "c09-s05-p101-01335-s005",
+      "c09-s05-p101-01335-s006",
+      "c09-s05-p101-01335-s007",
+      "c09-s05-p101-01335-s008"
+    ],
+    "passage": "Phoenix had a chance to win game five, but their star forward, Charles Barkley, uncharacteristically missed both free throws toward the end of regulation and the game went into overtime. In the end, Houston won game five in Phoenix, and the rest is history. They won game six at home and game seven in Phoenix. In the conference finals, Houston beat the number-one-seeded San Antonio Spurs.",
+    "prompt": "Which opponent did Houston beat in the conference finals in this account?",
+    "promptZh": "此叙述中 Houston 在分区决赛击败哪队？",
+    "options": [
+      "The Phoenix Suns, identified as the number-three seed.",
+      "The Utah Jazz, identified as the number-six seed.",
+      "The number-one-seeded San Antonio Spurs.",
+      "The Orlando Magic in the NBA finals."
+    ],
+    "optionsZh": [
+      "被称第三种子的 Phoenix Suns。",
+      "被称第六种子的 Utah Jazz。",
+      "第一种子 San Antonio Spurs。",
+      "NBA 总决赛的 Orlando Magic。"
+    ],
+    "answer": 2,
+    "type": "细节",
+    "support": "explicit",
+    "analyses": [
+      "A Phoenix 为前轮第二种子，不是此轮对手或此种子。",
+      "B Utah 为首轮第三种子；六为 Houston 自己。",
+      "C In the conference finals...number-one-seeded San Antonio Spurs 原文直接给出。",
+      "D 总决赛对手不能取代此句 conference finals 的 San Antonio Spurs；轮次混同。"
+    ],
+    "vocabulary": [
+      {
+        "word": "conference finals",
+        "meaning": "分区决赛",
+        "context": "此处区别早一轮 Phoenix 系列赛及之后的总决赛，不等于任意一场末节。",
+        "example": "The underdog reached the conference finals after two close series.",
+        "collocations": [
+          "In the conference finals",
+          "the number-one-seeded San Antonio Spurs"
+        ]
+      }
+    ],
+    "translation": "Phoenix 有机会赢第五场，但明星前锋 Charles Barkley 在常规时间接近结束时一反常态地两罚不中，比赛进入加时。最终 Houston 在 Phoenix 赢第五场，后来的一切便成为历史：第六场主场获胜，第七场在 Phoenix 获胜。西部决赛中，Houston 击败第一种子 San Antonio Spurs。",
+    "evidenceTargetIds": [
+      "c09-s05-p101-01335-s008"
+    ],
+    "evidence": [
+      {
+        "quote": "Phoenix had a chance to win game five, but their star forward, Charles Barkley, uncharacteristically missed both free throws toward the end of regulation and the game went into overtime. In the end, Houston won game five in Phoenix, and the rest is history. They won game six at home and game seven in Phoenix. In the conference finals, Houston beat the number-one-seeded San Antonio Spurs.",
+        "sentenceIds": [
+          "c09-s05-p101-01335-s005",
+          "c09-s05-p101-01335-s006",
+          "c09-s05-p101-01335-s007",
+          "c09-s05-p101-01335-s008"
+        ],
+        "sources": [
+          {
+            "pdfPage": 101,
+            "block": 1,
+            "bbox": [
+              76.99,
+              133.5,
+              535,
+              343.02
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "a8ae708eec68f9ac59669cced1286dff8a72829368eed0ca20281326d89911ff"
+  },
+  {
+    "id": "qe-c09-0139",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-038",
+    "parentQuestionId": "q-c09-076",
+    "chapterId": "c09",
+    "sectionId": "c09-s05",
+    "paragraphId": "c09-s05-p101-03480",
+    "readingUnitId": "c09-s05-p101-03480-r001-004",
+    "sentenceIds": [
+      "c09-s05-p101-03480-s001",
+      "c09-s05-p101-03480-s002",
+      "c09-s05-p101-03480-s003",
+      "c09-s05-p101-03480-s004"
+    ],
+    "passage": "The number-six-seeded team winning it all is truly unbelievable, but coming back from 1-2 in a best of five series AND from 1-3 in a best of seven series is practically unheard of. There were many moments during the playoffs when I thought it was over. But it wasn’t. Head coach Rudy Tomjanovich famously proclaimed, “Don’t ever underestimate the heart of a champion!”",
+    "prompt": "What does the author report thinking at many points during the playoffs?",
+    "promptZh": "作者说季后赛许多时候自己怎么想？",
+    "options": [
+      "That every result had been scripted in advance.",
+      "That he had no interest in the team's progress.",
+      "That the regular season had not yet started.",
+      "That the team's run was over."
+    ],
+    "optionsZh": [
+      "每个结果早已写好剧本。",
+      "自己对球队进展完全无兴趣。",
+      "常规赛尚未开始。",
+      "球队的征程已经结束。"
+    ],
+    "answer": 3,
+    "type": "细节",
+    "support": "explicit",
+    "analyses": [
+      "A 此段反复逆转，不是预写结果的证明。",
+      "B my thought 与前述球迷体验不支持没兴趣。",
+      "C during playoffs 不可倒为常规赛未开始。",
+      "D I thought it was over 是作者当时预期，后句 But it wasn’t 区别预期与实际。"
+    ],
+    "vocabulary": [
+      {
+        "word": "I thought",
+        "meaning": "我当时以为；我那时认为",
+        "context": "个人当时判断可能被后续结果推翻，非已核实事实。",
+        "example": "I thought the story was finished, but another chapter followed.",
+        "collocations": [
+          "many moments ... I thought it was over",
+          "during the playoffs"
+        ]
+      }
+    ],
+    "translation": "第六种子赢下一切已经难以置信，又从五场制1比2和七场制1比3落后逆转，几乎闻所未闻。季后赛许多时刻，我以为结束了，但没有。主教练 Rudy Tomjanovich 的名言是：“永远别低估冠军的心！”",
+    "evidenceTargetIds": [
+      "c09-s05-p101-03480-s002"
+    ],
+    "evidence": [
+      {
+        "quote": "The number-six-seeded team winning it all is truly unbelievable, but coming back from 1-2 in a best of five series AND from 1-3 in a best of seven series is practically unheard of. There were many moments during the playoffs when I thought it was over. But it wasn’t. Head coach Rudy Tomjanovich famously proclaimed, “Don’t ever underestimate the heart of a champion!”",
+        "sentenceIds": [
+          "c09-s05-p101-03480-s001",
+          "c09-s05-p101-03480-s002",
+          "c09-s05-p101-03480-s003",
+          "c09-s05-p101-03480-s004"
+        ],
+        "sources": [
+          {
+            "pdfPage": 101,
+            "block": 2,
+            "bbox": [
+              76.99,
+              348,
+              535,
+              518.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "884e5fc26266639aaa708516aff8c1dd22c60d3f08cf2c4e5c2a45efe1d7a7ee"
+  },
+  {
+    "id": "qe-c09-0140",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-038",
+    "parentQuestionId": "q-c09-076",
+    "chapterId": "c09",
+    "sectionId": "c09-s05",
+    "paragraphId": "c09-s05-p101-03480",
+    "readingUnitId": "c09-s05-p101-03480-r001-004",
+    "sentenceIds": [
+      "c09-s05-p101-03480-s001",
+      "c09-s05-p101-03480-s002",
+      "c09-s05-p101-03480-s003",
+      "c09-s05-p101-03480-s004"
+    ],
+    "passage": "The number-six-seeded team winning it all is truly unbelievable, but coming back from 1-2 in a best of five series AND from 1-3 in a best of seven series is practically unheard of. There were many moments during the playoffs when I thought it was over. But it wasn’t. Head coach Rudy Tomjanovich famously proclaimed, “Don’t ever underestimate the heart of a champion!”",
+    "prompt": "What does 'But it wasn’t' correct in the author's account?",
+    "promptZh": "But it wasn’t 在作者叙述中纠正什么？",
+    "options": [
+      "It denies that basketball has any uncertainty.",
+      "It rejects his earlier expectation that the team's run had ended.",
+      "It says the coach never spoke about champions.",
+      "It confirms that the season ended at every moment he feared it would."
+    ],
+    "optionsZh": [
+      "否认篮球有任何不确定。",
+      "否定自己先前以为球队征程已结束的预期。",
+      "说教练从未谈过冠军。",
+      "确认赛季在每个担心时刻都已结束。"
+    ],
+    "answer": 1,
+    "type": "逻辑关系",
+    "support": "explicit",
+    "analyses": [
+      "A 反差恰呈现不确定与逆转，不是否认。",
+      "B wasn’t 省略 over，直接反转前句 thought it was over。",
+      "C 后一句明有教练引言。",
+      "D thought 与 wasn’t 分开当时看法和后续事实，不能当全都如担心发生。"
+    ],
+    "vocabulary": [
+      {
+        "word": "wasn’t",
+        "meaning": "was not；并没有（如所担心那样结束）",
+        "context": "省略前面 over，理解否定需看紧前句，而不是任意补另一个表语。",
+        "example": "She thought the task was over, but it wasn't.",
+        "collocations": [
+          "But it wasn’t",
+          "I thought it was over"
+        ]
+      }
+    ],
+    "translation": "第六种子赢下一切已经难以置信，又从五场制1比2和七场制1比3落后逆转，几乎闻所未闻。季后赛许多时刻，我以为结束了，但没有。主教练 Rudy Tomjanovich 的名言是：“永远别低估冠军的心！”",
+    "evidenceTargetIds": [
+      "c09-s05-p101-03480-s003"
+    ],
+    "evidence": [
+      {
+        "quote": "The number-six-seeded team winning it all is truly unbelievable, but coming back from 1-2 in a best of five series AND from 1-3 in a best of seven series is practically unheard of. There were many moments during the playoffs when I thought it was over. But it wasn’t. Head coach Rudy Tomjanovich famously proclaimed, “Don’t ever underestimate the heart of a champion!”",
+        "sentenceIds": [
+          "c09-s05-p101-03480-s001",
+          "c09-s05-p101-03480-s002",
+          "c09-s05-p101-03480-s003",
+          "c09-s05-p101-03480-s004"
+        ],
+        "sources": [
+          {
+            "pdfPage": 101,
+            "block": 2,
+            "bbox": [
+              76.99,
+              348,
+              535,
+              518.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "777f8c540747ce44abd159071900de9116c42e14cb45792ef722df98d7ca40ca"
+  },
+  {
+    "id": "qe-c09-0141",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-038",
+    "parentQuestionId": "q-c09-076",
+    "chapterId": "c09",
+    "sectionId": "c09-s05",
+    "paragraphId": "c09-s05-p101-03480",
+    "readingUnitId": "c09-s05-p101-03480-r001-004",
+    "sentenceIds": [
+      "c09-s05-p101-03480-s001",
+      "c09-s05-p101-03480-s002",
+      "c09-s05-p101-03480-s003",
+      "c09-s05-p101-03480-s004"
+    ],
+    "passage": "The number-six-seeded team winning it all is truly unbelievable, but coming back from 1-2 in a best of five series AND from 1-3 in a best of seven series is practically unheard of. There were many moments during the playoffs when I thought it was over. But it wasn’t. Head coach Rudy Tomjanovich famously proclaimed, “Don’t ever underestimate the heart of a champion!”",
+    "prompt": "Who proclaims 'Don’t ever underestimate the heart of a champion' in the account?",
+    "promptZh": "叙述中谁说 Don’t ever underestimate the heart of a champion？",
+    "options": [
+      "The author naming his own role as head coach.",
+      "Charles Barkley before the free throws.",
+      "Hakeem Olajuwon, introduced as the head coach.",
+      "Head coach Rudy Tomjanovich."
+    ],
+    "optionsZh": [
+      "作者说自己是主教练。",
+      "罚球前的 Charles Barkley。",
+      "被介绍为主教练的 Hakeem Olajuwon。",
+      "主教练 Rudy Tomjanovich。"
+    ],
+    "answer": 3,
+    "type": "观点归属",
+    "support": "explicit",
+    "analyses": [
+      "A 作者是观赛叙述者，不是此处教练。",
+      "B Barkley 属对手前锋，不能换说话者。",
+      "C Olajuwon 是球员，主教练头衔在此明确属于 Rudy Tomjanovich。",
+      "D Head coach...proclaimed 明示归属；格言是鼓舞性表达，不是冠军永不输的实验定律。"
+    ],
+    "vocabulary": [
+      {
+        "word": "underestimate",
+        "meaning": "低估；把能力或价值估得太低",
+        "context": "冠军的心是精神气质的修辞，非心脏医学测量。",
+        "example": "The story warns readers not to underestimate an unlikely contender.",
+        "collocations": [
+          "Don’t ever underestimate",
+          "the heart of a champion"
+        ]
+      }
+    ],
+    "translation": "第六种子赢下一切已经难以置信，又从五场制1比2和七场制1比3落后逆转，几乎闻所未闻。季后赛许多时刻，我以为结束了，但没有。主教练 Rudy Tomjanovich 的名言是：“永远别低估冠军的心！”",
+    "evidenceTargetIds": [
+      "c09-s05-p101-03480-s004"
+    ],
+    "evidence": [
+      {
+        "quote": "The number-six-seeded team winning it all is truly unbelievable, but coming back from 1-2 in a best of five series AND from 1-3 in a best of seven series is practically unheard of. There were many moments during the playoffs when I thought it was over. But it wasn’t. Head coach Rudy Tomjanovich famously proclaimed, “Don’t ever underestimate the heart of a champion!”",
+        "sentenceIds": [
+          "c09-s05-p101-03480-s001",
+          "c09-s05-p101-03480-s002",
+          "c09-s05-p101-03480-s003",
+          "c09-s05-p101-03480-s004"
+        ],
+        "sources": [
+          {
+            "pdfPage": 101,
+            "block": 2,
+            "bbox": [
+              76.99,
+              348,
+              535,
+              518.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "10494eeb93052a92f940d7c836f60b5789da9edf40d2541c7bfba58a4914de8c"
+  },
+  {
+    "id": "qe-c09-0142",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-038",
+    "parentQuestionId": "q-c09-077",
+    "chapterId": "c09",
+    "sectionId": "c09-s05",
+    "paragraphId": "c09-s05-p101-03480",
+    "readingUnitId": "c09-s05-p101-03480-r005-006",
+    "sentenceIds": [
+      "c09-s05-p101-03480-s005",
+      "c09-s05-p101-03480-s006"
+    ],
+    "passage": "The 1995 playoffs were moving, dramatic, and a whole lot psychologically richer than watching a number one seed win the championship. An underdog victory like this expands your view of what is possible.",
+    "prompt": "What makes the 1995 playoffs richer in the author's comparison?",
+    "promptZh": "作者比较中，1995 季后赛为何更丰富？",
+    "options": [
+      "They provided a predictable top seed's victory with no surprises.",
+      "They removed all strong emotions from the viewing experience.",
+      "Their dramatic underdog outcome expanded his sense of what was possible.",
+      "They were experimentally proved to affect all viewers identically."
+    ],
+    "optionsZh": [
+      "提供毫无意外的可预期第一种子胜利。",
+      "消除了观看时所有强烈情绪。",
+      "戏剧性弱势方获胜拓宽了对可能性的认识。",
+      "实验已证明所有观众反应相同。"
+    ],
+    "answer": 2,
+    "type": "作者意图",
+    "support": "explicit",
+    "analyses": [
+      "A than watching a number one seed win 是对照对象，不是此经历本身。",
+      "B moving、dramatic 不是无情绪。",
+      "C 下一句 underdog victory expands view 将个人丰富感连到视角拓展。",
+      "D 个人观赛比较不是随机观众实验，不可作人人同效结论。"
+    ],
+    "vocabulary": [
+      {
+        "word": "underdog",
+        "meaning": "不被看好的一方；处于劣势的竞争者",
+        "context": "不等于实际必败，而是相对胜算或预期较低。",
+        "example": "The underdog's recovery surprised the crowd.",
+        "collocations": [
+          "an underdog victory",
+          "expands your view of what is possible"
+        ]
+      }
+    ],
+    "translation": "1995年的季后赛感人、戏剧性十足，比看第一种子夺冠心理丰富得多。这样的不被看好者获胜，拓宽你对可能性的认识。",
+    "evidenceTargetIds": [
+      "c09-s05-p101-03480-s005"
+    ],
+    "evidence": [
+      {
+        "quote": "The 1995 playoffs were moving, dramatic, and a whole lot psychologically richer than watching a number one seed win the championship. An underdog victory like this expands your view of what is possible.",
+        "sentenceIds": [
+          "c09-s05-p101-03480-s005",
+          "c09-s05-p101-03480-s006"
+        ],
+        "sources": [
+          {
+            "pdfPage": 101,
+            "block": 2,
+            "bbox": [
+              76.99,
+              348,
+              535,
+              518.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "2fdc4a7a17025e7401963b375b68589ac68b5af7c60f0c560c944e17480f1b27"
+  },
+  {
+    "id": "qe-c09-0143",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-038",
+    "parentQuestionId": "q-c09-078",
+    "chapterId": "c09",
+    "sectionId": "c09-s06",
+    "paragraphId": "c09-s06-p101-05745",
+    "readingUnitId": "c09-s06-p101-05745-r001-004",
+    "sentenceIds": [
+      "c09-s06-p101-05745-s001",
+      "c09-s06-p101-05745-s002",
+      "c09-s06-p101-05745-s003",
+      "c09-s06-p101-05745-s004"
+    ],
+    "passage": "So, yes, reading a poem or novel, watching a film, looking at a piece of artwork, or watching an awe-inspiring athletic performance increases psychological richness. It requires our own interpretation of the poet’s, novelist’s, filmmaker’s, or artist’s personal beliefs and expression, and recognition of beauty in athletes’ extraordinary actions. In this sense, it differs from firsthand experiences gained through personal adventures. Nonetheless, we can still have very real, immediate experiences through arts and sports under the right circumstances.",
+    "prompt": "How should the list of poems, novels, films, art, and sport be read with the rest of the paragraph?",
+    "promptZh": "诗、小说、电影、艺术与体育清单结合全段应怎样理解？",
+    "options": [
+      "As the author's synthesis about sources of richness that also require interpretation and the right circumstances.",
+      "As proof every activity always enriches every person automatically.",
+      "As a claim that interpretation of another person's expression is unnecessary.",
+      "As a rule that aesthetic experiences must be less real than all personal adventures."
+    ],
+    "optionsZh": [
+      "作为作者对丰富性来源的归纳，同时需解释活动与合适条件。",
+      "作为每项活动都自动丰富每个人的证明。",
+      "作为不需解释他人表达的主张。",
+      "作为审美体验必不如一切冒险真实的规则。"
+    ],
+    "answer": 0,
+    "type": "语气与范围",
+    "support": "explicit",
+    "analyses": [
+      "A 后文 It requires 与 under the right circumstances 保留条件，不孤立首句。",
+      "B 删除全段限定，扩大为自动普遍效应。",
+      "C requires our own interpretation 明示需要。",
+      "D very real,immediate 明说仍可真实直接；区别获得渠道不贬成虚假。"
+    ],
+    "vocabulary": [
+      {
+        "word": "awe-inspiring",
+        "meaning": "令人敬畏惊叹的",
+        "context": "形容运动表现所能唤起的体验，并非每次普通动作都自动如此。",
+        "example": "The final performance was awe-inspiring to the audience.",
+        "collocations": [
+          "an awe-inspiring athletic performance",
+          "under the right circumstances"
+        ]
+      }
+    ],
+    "translation": "因此，读诗或小说、看电影或艺术品、观看令人敬畏的运动表现，会增加心理丰富性。这需要我们自己解释诗人、小说家、电影人或艺术家的信念与表达，并认识运动员非凡行动中的美。从这意义说，它不同于个人冒险得到的亲身体验。尽管如此，合适条件下，我们仍能通过艺术和体育拥有非常真实、直接的体验。",
+    "evidenceTargetIds": [
+      "c09-s06-p101-05745-s001"
+    ],
+    "evidence": [
+      {
+        "quote": "So, yes, reading a poem or novel, watching a film, looking at a piece of artwork, or watching an awe-inspiring athletic performance increases psychological richness. It requires our own interpretation of the poet’s, novelist’s, filmmaker’s, or artist’s personal beliefs and expression, and recognition of beauty in athletes’ extraordinary actions. In this sense, it differs from firsthand experiences gained through personal adventures. Nonetheless, we can still have very real, immediate experiences through arts and sports under the right circumstances.",
+        "sentenceIds": [
+          "c09-s06-p101-05745-s001",
+          "c09-s06-p101-05745-s002",
+          "c09-s06-p101-05745-s003",
+          "c09-s06-p101-05745-s004"
+        ],
+        "sources": [
+          {
+            "pdfPage": 101,
+            "block": 4,
+            "bbox": [
+              76.99,
+              574.5,
+              535.01,
+              686.52
+            ]
+          },
+          {
+            "pdfPage": 102,
+            "block": 0,
+            "bbox": [
+              76.99,
+              75,
+              535,
+              109.02
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "48644858432711103d818a7c9f0748c70d4f193495c6e715d3906b1747398b78"
+  },
+  {
+    "id": "qe-c09-0144",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-038",
+    "parentQuestionId": "q-c09-078",
+    "chapterId": "c09",
+    "sectionId": "c09-s06",
+    "paragraphId": "c09-s06-p101-05745",
+    "readingUnitId": "c09-s06-p101-05745-r001-004",
+    "sentenceIds": [
+      "c09-s06-p101-05745-s001",
+      "c09-s06-p101-05745-s002",
+      "c09-s06-p101-05745-s003",
+      "c09-s06-p101-05745-s004"
+    ],
+    "passage": "So, yes, reading a poem or novel, watching a film, looking at a piece of artwork, or watching an awe-inspiring athletic performance increases psychological richness. It requires our own interpretation of the poet’s, novelist’s, filmmaker’s, or artist’s personal beliefs and expression, and recognition of beauty in athletes’ extraordinary actions. In this sense, it differs from firsthand experiences gained through personal adventures. Nonetheless, we can still have very real, immediate experiences through arts and sports under the right circumstances.",
+    "prompt": "In what sense are these aesthetic experiences distinguished from personal adventures?",
+    "promptZh": "这些审美体验在何种意义上区别于个人冒险？",
+    "options": [
+      "They cannot produce any immediate experience.",
+      "They involve interpreting others' expression and recognising beauty, rather than only undertaking the events oneself.",
+      "They require the reader to have lived every artist's exact biography.",
+      "They are said to contain no thoughts or feelings."
+    ],
+    "optionsZh": [
+      "不能产生任何直接体验。",
+      "涉及解释他人表达与认识美，而非仅亲自参与事件。",
+      "要求读者活过每个艺术家的精确生平。",
+      "被说成没有思想与感受。"
+    ],
+    "answer": 1,
+    "type": "指代与逻辑",
+    "support": "explicit",
+    "analyses": [
+      "A 后句 nonetheless 明确仍可有 real,immediate experiences。",
+      "B In this sense 回指前句解释创作者信念表达、认识运动之美的方式。",
+      "C 解读表达不等于必须复制创作者生平。",
+      "D 当前强调体验而非无情感；不是仅凭代词作新的因果测量。"
+    ],
+    "vocabulary": [
+      {
+        "word": "In this sense",
+        "meaning": "从这个意义上说；就刚述方面而言",
+        "context": "限定比较角度，不是全方面都不如亲历。",
+        "example": "In this sense, reading differs from making the journey oneself.",
+        "collocations": [
+          "In this sense, it differs",
+          "firsthand experiences"
+        ]
+      }
+    ],
+    "translation": "因此，读诗或小说、看电影或艺术品、观看令人敬畏的运动表现，会增加心理丰富性。这需要我们自己解释诗人、小说家、电影人或艺术家的信念与表达，并认识运动员非凡行动中的美。从这意义说，它不同于个人冒险得到的亲身体验。尽管如此，合适条件下，我们仍能通过艺术和体育拥有非常真实、直接的体验。",
+    "evidenceTargetIds": [
+      "c09-s06-p101-05745-s003"
+    ],
+    "evidence": [
+      {
+        "quote": "So, yes, reading a poem or novel, watching a film, looking at a piece of artwork, or watching an awe-inspiring athletic performance increases psychological richness. It requires our own interpretation of the poet’s, novelist’s, filmmaker’s, or artist’s personal beliefs and expression, and recognition of beauty in athletes’ extraordinary actions. In this sense, it differs from firsthand experiences gained through personal adventures. Nonetheless, we can still have very real, immediate experiences through arts and sports under the right circumstances.",
+        "sentenceIds": [
+          "c09-s06-p101-05745-s001",
+          "c09-s06-p101-05745-s002",
+          "c09-s06-p101-05745-s003",
+          "c09-s06-p101-05745-s004"
+        ],
+        "sources": [
+          {
+            "pdfPage": 101,
+            "block": 4,
+            "bbox": [
+              76.99,
+              574.5,
+              535.01,
+              686.52
+            ]
+          },
+          {
+            "pdfPage": 102,
+            "block": 0,
+            "bbox": [
+              76.99,
+              75,
+              535,
+              109.02
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "4183d2192aed6f7059580817c8b75f2d4bf66fcb736c9a48a1966d2ecbb71753"
+  },
+  {
+    "id": "qe-c09-0145",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-038",
+    "parentQuestionId": "q-c09-080",
+    "chapterId": "c09",
+    "sectionId": "c09-s06",
+    "paragraphId": "c09-s06-p102-01140",
+    "readingUnitId": "c09-s06-p102-01140-r002-003",
+    "sentenceIds": [
+      "c09-s06-p102-01140-s002",
+      "c09-s06-p102-01140-s003"
+    ],
+    "passage": "Thanks to art, instead of seeing one world only, our own, we see that world multiply itself and we have at our disposal as many worlds as there are original artists, worlds more different one from the other than those which revolve in infinite space, worlds which, centuries after the extinction of the fire from which their light first emanated, whether it is called Rembrandt or Vermeer, send us still each one its special radiance.” In his real life, Proust was often sick and refrained from traveling too far.",
+    "prompt": "What limitation on Proust's physical exploration is described?",
+    "promptZh": "原文描述 Proust 的身体性探索有何限制？",
+    "options": [
+      "He never left a single room at any time in his life.",
+      "He was described as travelling constantly without illness.",
+      "He was often ill and avoided travelling too far.",
+      "He personally visited every world described by every artist."
+    ],
+    "optionsZh": [
+      "一生任何时候都未离开过同一房间。",
+      "被描述为从不生病地不断旅行。",
+      "经常生病，并避免去太远。",
+      "亲自访问每位艺术家描述的每个世界。"
+    ],
+    "answer": 2,
+    "type": "细节",
+    "support": "explicit",
+    "analyses": [
+      "A refrained from traveling too far 不是绝对从未离开房间。",
+      "B often sick 与避免远行两项都反。",
+      "C 直接保留频率与范围，不新增诊断。",
+      "D 前面艺术世界是文学表达，不是地理旅行完成记录。"
+    ],
+    "vocabulary": [
+      {
+        "word": "refrained from",
+        "meaning": "克制不做；避免做",
+        "context": "后接 traveling，范围为 too far，不等于永不活动。",
+        "example": "She refrained from travelling far during the recovery period.",
+        "collocations": [
+          "refrained from traveling too far",
+          "often sick"
+        ]
+      }
+    ],
+    "translation": "“感谢艺术，我们不再只见自己那一个世界，而见世界增殖；有多少原创艺术家，便有多少世界供我们接触。这些世界彼此差异大于无限空间中旋转的世界；即使其光之源火熄灭数世纪，无论名为 Rembrandt 或 Vermeer，它们仍各送来特别光辉。”真实生活中，Proust 常生病，也避免走得太远。",
+    "evidenceTargetIds": [
+      "c09-s06-p102-01140-s003"
+    ],
+    "evidence": [
+      {
+        "quote": "Thanks to art, instead of seeing one world only, our own, we see that world multiply itself and we have at our disposal as many worlds as there are original artists, worlds more different one from the other than those which revolve in infinite space, worlds which, centuries after the extinction of the fire from which their light first emanated, whether it is called Rembrandt or Vermeer, send us still each one its special radiance.” In his real life, Proust was often sick and refrained from traveling too far.",
+        "sentenceIds": [
+          "c09-s06-p102-01140-s002",
+          "c09-s06-p102-01140-s003"
+        ],
+        "sources": [
+          {
+            "pdfPage": 102,
+            "block": 1,
+            "bbox": [
+              76.99,
+              114,
+              535.01,
+              362.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "9ac86877f529c8a3c3bfbe5c9cfedab881d853cad7a833fd0574c57b873e8eb9"
+  },
+  {
+    "id": "qe-c09-0146",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-038",
+    "parentQuestionId": "q-c09-082",
+    "chapterId": "c09",
+    "sectionId": "c09-s06",
+    "paragraphId": "c09-s06-p102-03675",
+    "readingUnitId": "c09-s06-p102-03675-r001-004",
+    "sentenceIds": [
+      "c09-s06-p102-03675-s001",
+      "c09-s06-p102-03675-s002",
+      "c09-s06-p102-03675-s003",
+      "c09-s06-p102-03675-s004"
+    ],
+    "passage": "Film critic Roger Ebert watched over 10,000 movies and wrote over 6,000 reviews. He forgot about most of the films eventually, but he remembered those he deemed worth remembering. Ebert explained that “if you pay attention to the movies they will tell you what people desire and fear in their deepest secrets. At least, the good ones will.",
+    "prompt": "What quantities does the book give for Ebert's film work?",
+    "promptZh": "书中为 Ebert 的电影工作给出哪些数量？",
+    "options": [
+      "Exactly six thousand films and exactly ten thousand reviews.",
+      "Over ten thousand reviews for fewer than six thousand films.",
+      "One review for every film he watched, with equal totals guaranteed.",
+      "Over ten thousand films watched and over six thousand reviews written."
+    ],
+    "optionsZh": [
+      "恰六千部电影与恰一万篇评论。",
+      "不足六千部电影写一万多评论。",
+      "每片都一篇评论，保证总数相等。",
+      "看一万多部电影，写六千多篇评论。"
+    ],
+    "answer": 3,
+    "type": "细节",
+    "support": "explicit",
+    "analyses": [
+      "A 交换电影与评论数量，还删掉 over。",
+      "B 数量对象与范围均错。",
+      "C 两个总量不证明逐片一对一，也非相等。",
+      "D 两项 over 分别限定所看片和所写评论，按书中经历统计而非实时更新。"
+    ],
+    "vocabulary": [
+      {
+        "word": "over",
+        "meaning": "超过；多于",
+        "context": "在数字前是数量下限，不是恰好或已经结束。",
+        "example": "The archive contains over six thousand short reviews.",
+        "collocations": [
+          "over 10,000 movies",
+          "over 6,000 reviews"
+        ]
+      }
+    ],
+    "translation": "影评人 Roger Ebert 看过一万多部电影，写过六千多篇影评。多数电影最终忘掉了，但他记住了自己认为值得记住的。Ebert 解释：“如果留心看电影，它们会告诉你人们最隐秘的欲望与恐惧。至少，好电影会。（引语续下段）",
+    "evidenceTargetIds": [
+      "c09-s06-p102-03675-s001"
+    ],
+    "evidence": [
+      {
+        "quote": "Film critic Roger Ebert watched over 10,000 movies and wrote over 6,000 reviews. He forgot about most of the films eventually, but he remembered those he deemed worth remembering. Ebert explained that “if you pay attention to the movies they will tell you what people desire and fear in their deepest secrets. At least, the good ones will.",
+        "sentenceIds": [
+          "c09-s06-p102-03675-s001",
+          "c09-s06-p102-03675-s002",
+          "c09-s06-p102-03675-s003",
+          "c09-s06-p102-03675-s004"
+        ],
+        "sources": [
+          {
+            "pdfPage": 102,
+            "block": 2,
+            "bbox": [
+              76.99,
+              367.5,
+              535.01,
+              577.02
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "1de0cc72aa4648003b363da94232b154aac685e7ae354f95bb9b9f1778dfdce6"
+  },
+  {
+    "id": "qe-c09-0147",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-038",
+    "parentQuestionId": "q-c09-082",
+    "chapterId": "c09",
+    "sectionId": "c09-s06",
+    "paragraphId": "c09-s06-p102-03675",
+    "readingUnitId": "c09-s06-p102-03675-r001-004",
+    "sentenceIds": [
+      "c09-s06-p102-03675-s001",
+      "c09-s06-p102-03675-s002",
+      "c09-s06-p102-03675-s003",
+      "c09-s06-p102-03675-s004"
+    ],
+    "passage": "Film critic Roger Ebert watched over 10,000 movies and wrote over 6,000 reviews. He forgot about most of the films eventually, but he remembered those he deemed worth remembering. Ebert explained that “if you pay attention to the movies they will tell you what people desire and fear in their deepest secrets. At least, the good ones will.",
+    "prompt": "How does the text distinguish what Ebert forgot from what he retained?",
+    "promptZh": "文本如何区别 Ebert 遗忘与保留的电影？",
+    "options": [
+      "He eventually forgot most but remembered those he considered worth remembering.",
+      "He remembered every film in identical detail forever.",
+      "He forgot only films he had never watched.",
+      "He retained films according to a random rule imposed by the author."
+    ],
+    "optionsZh": [
+      "多数最终忘掉，但记住自己认为值得记的。",
+      "永远以相同细节记住每一部。",
+      "只忘从没看过的。",
+      "按作者强加随机规则保留。"
+    ],
+    "answer": 0,
+    "type": "细节",
+    "support": "explicit",
+    "analyses": [
+      "A eventually、most、deemed worth remembering 对应选择性留存。",
+      "B 与 most forgotten 相反。",
+      "C 指已看片的遗忘，不是从未观看。",
+      "D deemed 为其自己的评价，不是作者分派随机表。"
+    ],
+    "vocabulary": [
+      {
+        "word": "deemed",
+        "meaning": "认为；视为",
+        "context": "主观判断某片值得记住，不是外部保证每个观众都会记住。",
+        "example": "She kept the notes she deemed useful.",
+        "collocations": [
+          "deemed worth remembering",
+          "forgot ... eventually"
+        ]
+      }
+    ],
+    "translation": "影评人 Roger Ebert 看过一万多部电影，写过六千多篇影评。多数电影最终忘掉了，但他记住了自己认为值得记住的。Ebert 解释：“如果留心看电影，它们会告诉你人们最隐秘的欲望与恐惧。至少，好电影会。（引语续下段）",
+    "evidenceTargetIds": [
+      "c09-s06-p102-03675-s002"
+    ],
+    "evidence": [
+      {
+        "quote": "Film critic Roger Ebert watched over 10,000 movies and wrote over 6,000 reviews. He forgot about most of the films eventually, but he remembered those he deemed worth remembering. Ebert explained that “if you pay attention to the movies they will tell you what people desire and fear in their deepest secrets. At least, the good ones will.",
+        "sentenceIds": [
+          "c09-s06-p102-03675-s001",
+          "c09-s06-p102-03675-s002",
+          "c09-s06-p102-03675-s003",
+          "c09-s06-p102-03675-s004"
+        ],
+        "sources": [
+          {
+            "pdfPage": 102,
+            "block": 2,
+            "bbox": [
+              76.99,
+              367.5,
+              535.01,
+              577.02
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "b0f8b8148c601a0ce94782bbe815b39b6ee3f0ffcfd2c02d914892a21c52158f"
+  },
+  {
+    "id": "qe-c09-0148",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-038",
+    "parentQuestionId": "q-c09-083",
+    "chapterId": "c09",
+    "sectionId": "c09-s06",
+    "paragraphId": "c09-s06-p102-03675",
+    "readingUnitId": "c09-s06-p102-03675-r005-007",
+    "sentenceIds": [
+      "c09-s06-p102-03675-s005",
+      "c09-s06-p102-03675-s006",
+      "c09-s06-p102-03675-s007"
+    ],
+    "passage": "That’s why we go, hoping to be touched in those secret places.” The more you are touched in those secret places, the more psychologically rich your inner life becomes. Ebert, who was born in Urbana, Illinois, graduated from the University of Illinois at Urbana-Champaign, and lived all his adult life in Chicago, might not have led a life of physical, geographical exploration, but he certainly led a life of aesthetic and intellectual exploration.",
+    "prompt": "What does 'hoping to be touched in those secret places' express in the closing quotation?",
+    "promptZh": "引语结尾 hoping to be touched in those secret places 表达什么？",
+    "options": [
+      "A requirement that films physically contact the audience.",
+      "A measurement that every film already changes every viewer.",
+      "A hope for intimate emotional impact from going to films.",
+      "A literal journey to places hidden from the film's characters."
+    ],
+    "optionsZh": [
+      "电影必须实际触碰观众身体。",
+      "已测得每片都改变每位观众。",
+      "去看电影时期待内心隐秘之处受触动。",
+      "实际旅行到电影角色看不见的地点。"
+    ],
+    "answer": 2,
+    "type": "语境理解",
+    "support": "explicit",
+    "analyses": [
+      "A touched 是情感比喻，不是物理接触。",
+      "B hoping 是期待，不是已测普遍结果。",
+      "C go、hoping 与 secret places 指向内在情感，保留引语而非统计断言。",
+      "D secret places 在这里是内心隐秘情感，不是安排地理旅行。"
+    ],
+    "vocabulary": [
+      {
+        "word": "touched",
+        "meaning": "被感动；内心受到触动",
+        "context": "此处是情感意义，不是触屏操作或实际身体接触。",
+        "example": "She was touched by the character's unexpected kindness.",
+        "collocations": [
+          "hoping to be touched",
+          "in those secret places"
+        ]
+      }
+    ],
+    "translation": "“所以我们去看，盼望那些隐秘之处被触动。”被触动越深，内心越心理丰富。Ebert 生于 Urbana，毕业于 University of Illinois at Urbana-Champaign，成年生活在 Chicago；他或许没有过实体地理探索的人生，却确实过着审美与思想探索的人生。",
+    "evidenceTargetIds": [
+      "c09-s06-p102-03675-s005"
+    ],
+    "evidence": [
+      {
+        "quote": "That’s why we go, hoping to be touched in those secret places.” The more you are touched in those secret places, the more psychologically rich your inner life becomes. Ebert, who was born in Urbana, Illinois, graduated from the University of Illinois at Urbana-Champaign, and lived all his adult life in Chicago, might not have led a life of physical, geographical exploration, but he certainly led a life of aesthetic and intellectual exploration.",
+        "sentenceIds": [
+          "c09-s06-p102-03675-s005",
+          "c09-s06-p102-03675-s006",
+          "c09-s06-p102-03675-s007"
+        ],
+        "sources": [
+          {
+            "pdfPage": 102,
+            "block": 2,
+            "bbox": [
+              76.99,
+              367.5,
+              535.01,
+              577.02
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "056c7685d3286df0a36e80eb8d1c2f898bc02e1e3a78562f39f8e77687921c69"
+  },
+  {
+    "id": "qe-c09-0149",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-038",
+    "parentQuestionId": "q-c09-083",
+    "chapterId": "c09",
+    "sectionId": "c09-s06",
+    "paragraphId": "c09-s06-p102-03675",
+    "readingUnitId": "c09-s06-p102-03675-r005-007",
+    "sentenceIds": [
+      "c09-s06-p102-03675-s005",
+      "c09-s06-p102-03675-s006",
+      "c09-s06-p102-03675-s007"
+    ],
+    "passage": "That’s why we go, hoping to be touched in those secret places.” The more you are touched in those secret places, the more psychologically rich your inner life becomes. Ebert, who was born in Urbana, Illinois, graduated from the University of Illinois at Urbana-Champaign, and lived all his adult life in Chicago, might not have led a life of physical, geographical exploration, but he certainly led a life of aesthetic and intellectual exploration.",
+    "prompt": "What connection does the author draw between being touched and inner richness?",
+    "promptZh": "作者在被触动与内心丰富性间建立什么联系？",
+    "options": [
+      "Only geographical travel can create any inner life.",
+      "Deeper inner response is linked to a psychologically richer inner life in this reflection.",
+      "Every increase has been given a precise numerical causal effect.",
+      "Remembering or interpreting films is said to be irrelevant."
+    ],
+    "optionsZh": [
+      "只有地理旅行能产生内心生活。",
+      "在这段反思中，更深触动与更丰富内心相连。",
+      "每个增幅都有精确数值因果效应。",
+      "记住和解释电影被说成无关。"
+    ],
+    "answer": 1,
+    "type": "逻辑关系",
+    "support": "explicit",
+    "analyses": [
+      "A 后文 Ebert 的审美思想探索正反对只有地理途径。",
+      "B the more...the more... 表达作者所述联系，非只靠旅行。",
+      "C 没数值或实验操作，不能把修辞相关句量化成已证每人因果率。",
+      "D 当前强调内心体验，不是排除记忆解释。"
+    ],
+    "vocabulary": [
+      {
+        "word": "inner life",
+        "meaning": "内心生活；思想与情感的精神体验",
+        "context": "与 physical,geographical exploration 对照，不是住处室内布置。",
+        "example": "The diaries reveal a varied inner life despite few journeys.",
+        "collocations": [
+          "psychologically rich your inner life",
+          "aesthetic and intellectual exploration"
+        ]
+      }
+    ],
+    "translation": "“所以我们去看，盼望那些隐秘之处被触动。”被触动越深，内心越心理丰富。Ebert 生于 Urbana，毕业于 University of Illinois at Urbana-Champaign，成年生活在 Chicago；他或许没有过实体地理探索的人生，却确实过着审美与思想探索的人生。",
+    "evidenceTargetIds": [
+      "c09-s06-p102-03675-s006"
+    ],
+    "evidence": [
+      {
+        "quote": "That’s why we go, hoping to be touched in those secret places.” The more you are touched in those secret places, the more psychologically rich your inner life becomes. Ebert, who was born in Urbana, Illinois, graduated from the University of Illinois at Urbana-Champaign, and lived all his adult life in Chicago, might not have led a life of physical, geographical exploration, but he certainly led a life of aesthetic and intellectual exploration.",
+        "sentenceIds": [
+          "c09-s06-p102-03675-s005",
+          "c09-s06-p102-03675-s006",
+          "c09-s06-p102-03675-s007"
+        ],
+        "sources": [
+          {
+            "pdfPage": 102,
+            "block": 2,
+            "bbox": [
+              76.99,
+              367.5,
+              535.01,
+              577.02
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "0fc49e3d77cb6463757d3faeff5d821955df075eb9cc893328298f308b1cf630"
+  },
+  {
+    "id": "qe-c09-0150",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-038",
+    "parentQuestionId": "q-c09-084",
+    "chapterId": "c09",
+    "sectionId": "c09-s06",
+    "paragraphId": "c09-s06-p102-05820",
+    "readingUnitId": "c09-s06-p102-05820-r001-003",
+    "sentenceIds": [
+      "c09-s06-p102-05820-s001",
+      "c09-s06-p102-05820-s002",
+      "c09-s06-p102-05820-s003"
+    ],
+    "passage": "When we are absorbed in a complex narrative world or the unscripted world of sports, we are transported and transformed. It is a transcending experience that is different from our typical everyday experiences, that produces a different set of thoughts and emotions, and that sometimes gives us a glimpse of an unforeseen possibility and a new perspective on life. In short, a psychologically rich experience.",
+    "prompt": "What do 'transported and transformed' describe in the concluding paragraph?",
+    "promptZh": "结尾段 transported and transformed 描述什么？",
+    "options": [
+      "A guarantee of physical travel to every sporting event.",
+      "A change only in the length of the book or film.",
+      "An absence of any new thought or emotion.",
+      "Immersion that carries people beyond their usual experience and can alter perspective."
+    ],
+    "optionsZh": [
+      "保证实际旅行到每场赛事。",
+      "只有书或电影长度改变。",
+      "完全没有新思想情绪。",
+      "沉浸使人超出惯常体验，并可能改变视角。"
+    ],
+    "answer": 3,
+    "type": "主旨",
+    "support": "explicit",
+    "analyses": [
+      "A 复杂叙事也可带入，不是实际运输。",
+      "B transformed 指体验层面，不是修改片长。",
+      "C 后句明列 different thoughts and emotions。",
+      "D 下句 expands 超日常及 sometimes new perspective 的内容；保留 sometimes，不保证每次都改变。"
+    ],
+    "vocabulary": [
+      {
+        "word": "transformed",
+        "meaning": "被改变；经历理解或感受上的变化",
+        "context": "与 transported 配对，区别仅物理移动；此处有 sometimes 的范围。",
+        "example": "The conversation transformed how she understood the conflict.",
+        "collocations": [
+          "transported and transformed",
+          "a new perspective on life"
+        ]
+      }
+    ],
+    "translation": "沉浸于复杂叙事世界或无剧本的体育世界时，我们被带入，也被改变。这是超越日常的体验，带来不同思想情绪，有时使我们瞥见未料的可能性与人生新视角。简言之，是心理丰富体验。",
+    "evidenceTargetIds": [
+      "c09-s06-p102-05820-s001"
+    ],
+    "evidence": [
+      {
+        "quote": "When we are absorbed in a complex narrative world or the unscripted world of sports, we are transported and transformed. It is a transcending experience that is different from our typical everyday experiences, that produces a different set of thoughts and emotions, and that sometimes gives us a glimpse of an unforeseen possibility and a new perspective on life. In short, a psychologically rich experience.",
+        "sentenceIds": [
+          "c09-s06-p102-05820-s001",
+          "c09-s06-p102-05820-s002",
+          "c09-s06-p102-05820-s003"
+        ],
+        "sources": [
+          {
+            "pdfPage": 102,
+            "block": 3,
+            "bbox": [
+              76.99,
+              582,
+              535.01,
+              694.02
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "0c5905e5f24ab9a53c17dbb899b2bf603667a75f9a0e93ac2b2f52a896d0a130"
+  },
+  {
+    "id": "qe-c09-0151",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-038",
+    "parentQuestionId": "q-c09-084",
+    "chapterId": "c09",
+    "sectionId": "c09-s06",
+    "paragraphId": "c09-s06-p102-05820",
+    "readingUnitId": "c09-s06-p102-05820-r001-003",
+    "sentenceIds": [
+      "c09-s06-p102-05820-s001",
+      "c09-s06-p102-05820-s002",
+      "c09-s06-p102-05820-s003"
+    ],
+    "passage": "When we are absorbed in a complex narrative world or the unscripted world of sports, we are transported and transformed. It is a transcending experience that is different from our typical everyday experiences, that produces a different set of thoughts and emotions, and that sometimes gives us a glimpse of an unforeseen possibility and a new perspective on life. In short, a psychologically rich experience.",
+    "prompt": "What does the final phrase beginning 'In short' do?",
+    "promptZh": "末尾 In short 起头的短语做什么？",
+    "options": [
+      "It summarises the preceding description as a psychologically rich experience.",
+      "It replaces the chapter's argument with an unrelated new experiment.",
+      "It denies that the described thoughts differ from everyday experience.",
+      "It says all sports are physically short in duration."
+    ],
+    "optionsZh": [
+      "把前面的描述概括为心理丰富体验。",
+      "用无关新实验替代本章论述。",
+      "否认所述思想与日常不同。",
+      "说所有运动时长都短。"
+    ],
+    "answer": 0,
+    "type": "篇章结构",
+    "support": "explicit",
+    "analyses": [
+      "A In short 是总结标记，名词短语收束前述沉浸、不同思想及可能新视角。",
+      "B 无新方法、样本或结果。",
+      "C 前文 that is different 与此相反。",
+      "D short 不在这里描述运动时长；该原文是总结残句，不冒充新完整实验命题。"
+    ],
+    "vocabulary": [
+      {
+        "word": "In short",
+        "meaning": "简言之；概括而言",
+        "context": "篇章收束标记，不是短片或短时间的字面判断。",
+        "example": "In short, the experience changed her perspective.",
+        "collocations": [
+          "In short, a psychologically rich experience",
+          "a transcending experience"
+        ]
+      }
+    ],
+    "translation": "沉浸于复杂叙事世界或无剧本的体育世界时，我们被带入，也被改变。这是超越日常的体验，带来不同思想情绪，有时使我们瞥见未料的可能性与人生新视角。简言之，是心理丰富体验。",
+    "evidenceTargetIds": [
+      "c09-s06-p102-05820-s003"
+    ],
+    "evidence": [
+      {
+        "quote": "When we are absorbed in a complex narrative world or the unscripted world of sports, we are transported and transformed. It is a transcending experience that is different from our typical everyday experiences, that produces a different set of thoughts and emotions, and that sometimes gives us a glimpse of an unforeseen possibility and a new perspective on life. In short, a psychologically rich experience.",
+        "sentenceIds": [
+          "c09-s06-p102-05820-s001",
+          "c09-s06-p102-05820-s002",
+          "c09-s06-p102-05820-s003"
+        ],
+        "sources": [
+          {
+            "pdfPage": 102,
+            "block": 3,
+            "bbox": [
+              76.99,
+              582,
+              535.01,
+              694.02
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "ae0f046bd5d5a10abbf0c9b462fae461406ac497cefec6cb7e22f5b6cb6c4ebb"
+  },
+  {
+    "id": "qe-c10-0001",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-038",
+    "parentQuestionId": "q-c10-001",
+    "chapterId": "c10",
+    "sectionId": "c10-s01",
+    "paragraphId": "c10-s01-p103-03848",
+    "readingUnitId": "c10-s01-p103-03848-r001-004",
+    "sentenceIds": [
+      "c10-s01-p103-03848-s001",
+      "c10-s01-p103-03848-s002",
+      "c10-s01-p103-03848-s003"
+    ],
+    "passage": "A WWE match could be an interesting weekend outing. A visit to a national park might evoke awe and wonder you rarely experience in your everyday life. Schindler’s List will make you cry and cry.",
+    "prompt": "How does the Schindler's List example contribute to this opening list?",
+    "promptZh": "Schindler’s List 例子怎样补充开头清单？",
+    "options": [
+      "It demonstrates that every rich experience must be cheerful.",
+      "It introduces an example of moving, tearful emotion alongside interest and awe.",
+      "It reports the reader's actual viewing history and recorded tears.",
+      "It is presented as a new controlled measurement of all audiences."
+    ],
+    "optionsZh": [
+      "证明每种丰富体验都必须欢乐。",
+      "在兴趣与敬畏之外，加入感动落泪的情绪例子。",
+      "报告读者真实观影历史与已记录眼泪。",
+      "被呈现为对全体观众的新对照测量。"
+    ],
+    "answer": 1,
+    "type": "作者意图",
+    "support": "explicit",
+    "analyses": [
+      "A cry and cry 不等于欢快，体验情绪可以不同。",
+      "B WWE 的 interesting、公园 awe 后以电影强烈情绪扩展示例。",
+      "C will make you 是作者面向读者的表达，不是网站已知你看过或哭过。",
+      "D 没研究设计，不能将修辞预测升级成所有人的实测保证。"
+    ],
+    "vocabulary": [
+      {
+        "word": "cry and cry",
+        "meaning": "不停地哭；反复落泪",
+        "context": "重复突出情绪强度，不是网站要求读者必须哭或已记录真实反应。",
+        "example": "The ending made the fictional viewer cry and cry.",
+        "collocations": [
+          "will make you cry and cry",
+          "awe and wonder"
+        ]
+      }
+    ],
+    "translation": "看一场 WWE 比赛可能是有趣的周末外出。去国家公园，也许唤起平常少有的敬畏与惊叹。Schindler’s List 会让你哭个不停。",
+    "evidenceTargetIds": [
+      "c10-s01-p103-03848-s003"
+    ],
+    "evidence": [
+      {
+        "quote": "A WWE match could be an interesting weekend outing. A visit to a national park might evoke awe and wonder you rarely experience in your everyday life. Schindler’s List will make you cry and cry.",
+        "sentenceIds": [
+          "c10-s01-p103-03848-s001",
+          "c10-s01-p103-03848-s002",
+          "c10-s01-p103-03848-s003"
+        ],
+        "sources": [
+          {
+            "pdfPage": 103,
+            "block": 5,
+            "bbox": [
+              76.99,
+              384.75,
+              535.01,
+              516.27
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "sourceSegments": [
+      {
+        "paragraphId": "c10-s01-p103-03848",
+        "start": 0,
+        "end": 194,
+        "separator": "",
+        "text": "A WWE match could be an interesting weekend outing. A visit to a national park might evoke awe and wonder you rarely experience in your everyday life. Schindler’s List will make you cry and cry."
+      }
+    ],
+    "fingerprint": "4d0df32d38759aed341f8caa68c40047ac41eacd449587b0943e9eed4a2b25db"
+  },
+  {
+    "id": "qe-c10-0002",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-038",
+    "parentQuestionId": "q-c10-002",
+    "chapterId": "c10",
+    "sectionId": "c10-s01",
+    "paragraphId": "c10-s01-p103-03848",
+    "readingUnitId": "c10-s01-p103-03848-r005-008",
+    "sentenceIds": [
+      "c10-s01-p103-03848-s004",
+      "c10-s01-p103-03848-s005",
+      "c10-s01-p103-03848-s006",
+      "c10-s01-p103-03848-s007",
+      "c10-s01-p103-03848-s008"
+    ],
+    "passage": "“So what?” you might ask (despite reading the last chapter). Aren’t these activities all what the philosopher Blaise Pascal would have called “diversions”? Other than filling people’s time to avoid boredom, do these activities have any genuine benefits? In other words, what is the point of exploration?",
+    "prompt": "What role does 'So what?' play in the chapter opening?",
+    "promptZh": "本章开头 So what? 起什么作用？",
+    "options": [
+      "It accepts without question that the activities already have every possible benefit.",
+      "It ends the book without raising any further issue.",
+      "It voices an imagined challenge about benefits beyond mere diversion.",
+      "It proves the author has already denied every value of exploration."
+    ],
+    "optionsZh": [
+      "毫无质疑地接受活动已有全部可能益处。",
+      "不再提问题而结束全书。",
+      "代拟追问：除了消遣，这些活动还有什么益处。",
+      "证明作者已否认探索的一切价值。"
+    ],
+    "answer": 2,
+    "type": "作者意图",
+    "support": "explicit",
+    "analyses": [
+      "A So what 是追问重要性，不是无条件接受所有益处。",
+      "B 后面连续问 benefits 与 point of exploration，显然开启议题。",
+      "C 后句将挑战展开为除避免无聊之外是否有真正益处。",
+      "D 是设置待答质疑，不能把问题当作者最终否定结论；其余未配句仍保留待办。"
+    ],
+    "vocabulary": [
+      {
+        "word": "diversions",
+        "meaning": "消遣；转移注意以避免无聊的活动",
+        "context": "当前为引入 Pascal 可能评价的问句，不是公路绕行或网站跳题指令。",
+        "example": "The essay asks whether these activities are merely diversions.",
+        "collocations": [
+          "what Pascal would have called diversions",
+          "avoid boredom"
+        ]
+      }
+    ],
+    "translation": "“那又怎样？”你也许会这样问，尽管刚读完上一章。这些活动不都是哲学家 Blaise Pascal 可能称作“消遣”的东西吗？除了填满时间、避免无聊，它们有什么真正益处？换句话说，探索有什么意义？",
+    "evidenceTargetIds": [
+      "c10-s01-p103-03848-s004"
+    ],
+    "evidence": [
+      {
+        "quote": "“So what?”",
+        "sentenceIds": [
+          "c10-s01-p103-03848-s004"
+        ],
+        "sources": [
+          {
+            "pdfPage": 103,
+            "block": 5,
+            "bbox": [
+              76.99,
+              384.75,
+              535.01,
+              516.27
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "sourceSegments": [
+      {
+        "paragraphId": "c10-s01-p103-03848",
+        "start": 195,
+        "end": 498,
+        "separator": "",
+        "text": "“So what?” you might ask (despite reading the last chapter). Aren’t these activities all what the philosopher Blaise Pascal would have called “diversions”? Other than filling people’s time to avoid boredom, do these activities have any genuine benefits? In other words, what is the point of exploration?"
+      }
+    ],
+    "fingerprint": "c525e72ba74a60d6b6e284f2112136e8e1a7ca7256a273222acb82e261eb0b07"
   }
 ]
