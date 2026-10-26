@@ -48409,5 +48409,2046 @@
     ],
     "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
     "fingerprint": "ab6cab2e9d028bde08afc490e970f7045654c5993e28ba6f5af7fe5d47a99d8d"
+  },
+  {
+    "id": "qe-c07-0033",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-025",
+    "parentQuestionId": "q-c07-019",
+    "chapterId": "c07",
+    "sectionId": "c07-s01",
+    "paragraphId": "c07-s01-p070-03675",
+    "readingUnitId": "c07-s01-p070-03675-r001-003",
+    "sentenceIds": [
+      "c07-s01-p070-03675-s001",
+      "c07-s01-p070-03675-s002",
+      "c07-s01-p070-03675-s003"
+    ],
+    "passage": "The researchers found that elite athletes who played multiple sports until later in life were less likely to burn out and more likely to succeed in national and international competitions in adulthood than elite athletes who started specializing early in their career. For every Michael Phelps and Simone Biles, there are athletes like Michael Jordan and Alex Morgan. Michael Jordan played baseball and football as well as basketball in high school.",
+    "prompt": "Why are Jordan and Morgan mentioned alongside Phelps and Biles?",
+    "promptZh": "为何把 Jordan 与 Morgan 和 Phelps、Biles 并列？",
+    "options": [
+      "To show that all four had identical early specialisation histories.",
+      "To illustrate another successful route involving a broader sporting background.",
+      "To claim that exactly two late specialisers exist for every two early ones.",
+      "To show the researchers randomly assigned these four athletes to training groups."
+    ],
+    "optionsZh": [
+      "说明四人早期专攻经历完全相同。",
+      "说明较广运动背景也是成功的一种途径。",
+      "声称每两位早专攻者恰对应两位晚专攻者。",
+      "说明研究者把这四人随机分组训练。"
+    ],
+    "answer": 1,
+    "type": "作者意图",
+    "support": "explicit",
+    "analyses": [
+      "A 该段正对照不同运动背景。",
+      "B 前句多项运动比较与后句 Jordan 三种高中运动支持另一途径。",
+      "C For every 是修辞对照，不是给出精确一比一人群比率。",
+      "D 人物例证不等于被随机分派的实验对象。"
+    ],
+    "vocabulary": [
+      {
+        "word": "For every",
+        "meaning": "每有……也有……（此处为对照表达）",
+        "context": "并列不同成长路径，不把修辞读成精确样本频数公式。",
+        "example": "For every familiar route, there is another path worth considering.",
+        "collocations": [
+          "For every A, there are B",
+          "an alternative route"
+        ]
+      }
+    ],
+    "translation": "研究者发现，相较于职业生涯很早便专攻的精英选手，较晚之前仍参与多项运动的选手，更少倦怠，也更可能在成年全国及国际比赛成功。每有像 Michael Phelps 和 Simone Biles 的选手，也有像 Michael Jordan 和 Alex Morgan 的选手。Jordan 高中时除了篮球，还打棒球和美式橄榄球。",
+    "evidenceTargetIds": [
+      "c07-s01-p070-03675-s002"
+    ],
+    "evidence": [
+      {
+        "quote": "The researchers found that elite athletes who played multiple sports until later in life were less likely to burn out and more likely to succeed in national and international competitions in adulthood than elite athletes who started specializing early in their career. For every Michael Phelps and Simone Biles, there are athletes like Michael Jordan and Alex Morgan. Michael Jordan played baseball and football as well as basketball in high school.",
+        "sentenceIds": [
+          "c07-s01-p070-03675-s001",
+          "c07-s01-p070-03675-s002",
+          "c07-s01-p070-03675-s003"
+        ],
+        "sources": [
+          {
+            "pdfPage": 70,
+            "block": 2,
+            "bbox": [
+              76.99,
+              367.5,
+              535.01,
+              557.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "c82bf8a8d526543de3d2df148362d0cee06affb810ca6c3b3580f9d59bf4d364"
+  },
+  {
+    "id": "qe-c07-0034",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-025",
+    "parentQuestionId": "q-c07-019",
+    "chapterId": "c07",
+    "sectionId": "c07-s01",
+    "paragraphId": "c07-s01-p070-03675",
+    "readingUnitId": "c07-s01-p070-03675-r001-003",
+    "sentenceIds": [
+      "c07-s01-p070-03675-s001",
+      "c07-s01-p070-03675-s002",
+      "c07-s01-p070-03675-s003"
+    ],
+    "passage": "The researchers found that elite athletes who played multiple sports until later in life were less likely to burn out and more likely to succeed in national and international competitions in adulthood than elite athletes who started specializing early in their career. For every Michael Phelps and Simone Biles, there are athletes like Michael Jordan and Alex Morgan. Michael Jordan played baseball and football as well as basketball in high school.",
+    "prompt": "Which set of sports did Jordan play in high school?",
+    "promptZh": "Jordan 高中时参与哪组运动？",
+    "options": [
+      "Basketball, baseball, and football.",
+      "Basketball only, with every other sport excluded.",
+      "Volleyball, track, and soccer.",
+      "Swimming, gymnastics, and tennis."
+    ],
+    "optionsZh": [
+      "篮球、棒球、美式橄榄球。",
+      "仅篮球，排除其他所有运动。",
+      "排球、田径、足球。",
+      "游泳、体操、网球。"
+    ],
+    "answer": 0,
+    "type": "细节",
+    "support": "explicit",
+    "analyses": [
+      "A baseball and football as well as basketball 三项完整。",
+      "B as well as 不是仅一项。",
+      "C 是后面 Morgan 的高中项目，主体错配。",
+      "D 混入其他运动例子，不是 Jordan 该句清单。"
+    ],
+    "vocabulary": [
+      {
+        "word": "as well as",
+        "meaning": "以及；除……之外也",
+        "context": "把另外两项加到篮球，不是以它们取代篮球。",
+        "example": "He studied history as well as mathematics.",
+        "collocations": [
+          "baseball as well as basketball",
+          "play multiple sports"
+        ]
+      }
+    ],
+    "translation": "研究者发现，相较于职业生涯很早便专攻的精英选手，较晚之前仍参与多项运动的选手，更少倦怠，也更可能在成年全国及国际比赛成功。每有像 Michael Phelps 和 Simone Biles 的选手，也有像 Michael Jordan 和 Alex Morgan 的选手。Jordan 高中时除了篮球，还打棒球和美式橄榄球。",
+    "evidenceTargetIds": [
+      "c07-s01-p070-03675-s003"
+    ],
+    "evidence": [
+      {
+        "quote": "The researchers found that elite athletes who played multiple sports until later in life were less likely to burn out and more likely to succeed in national and international competitions in adulthood than elite athletes who started specializing early in their career. For every Michael Phelps and Simone Biles, there are athletes like Michael Jordan and Alex Morgan. Michael Jordan played baseball and football as well as basketball in high school.",
+        "sentenceIds": [
+          "c07-s01-p070-03675-s001",
+          "c07-s01-p070-03675-s002",
+          "c07-s01-p070-03675-s003"
+        ],
+        "sources": [
+          {
+            "pdfPage": 70,
+            "block": 2,
+            "bbox": [
+              76.99,
+              367.5,
+              535.01,
+              557.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "f60a7a1ef1f3aefb6145c33ede31e46aa1faeaad7ecd2fe088a33c70982c8e85"
+  },
+  {
+    "id": "qe-c07-0035",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-025",
+    "parentQuestionId": "q-c07-020",
+    "chapterId": "c07",
+    "sectionId": "c07-s01",
+    "paragraphId": "c07-s01-p070-03675",
+    "readingUnitId": "c07-s01-p070-03675-r004-006",
+    "sentenceIds": [
+      "c07-s01-p070-03675-s004",
+      "c07-s01-p070-03675-s005",
+      "c07-s01-p070-03675-s006"
+    ],
+    "passage": "While he was mourning his father, he took a sabbatical from basketball for two years in his prime and played baseball. Alex Morgan grew up playing multiple sports and didn’t play in a club team until age fourteen. She played volleyball and ran track as well as played soccer in high school.",
+    "prompt": "What happened during Jordan's sabbatical described in the passage?",
+    "promptZh": "原文所述 Jordan 暂离篮球期间发生了什么？",
+    "options": [
+      "He permanently left every kind of sport before reaching his prime.",
+      "He studied for a physics examination instead of playing any sport.",
+      "He took a two-year break in his prime while mourning his father and played baseball.",
+      "He moved from baseball into basketball at age fourteen."
+    ],
+    "optionsZh": [
+      "未到巅峰就永久退出所有运动。",
+      "他备考物理，不参与任何运动。",
+      "他在巅峰期哀悼父亲时暂离篮球两年，打棒球。",
+      "他十四岁时从棒球转篮球。"
+    ],
+    "answer": 2,
+    "type": "细节",
+    "support": "explicit",
+    "analyses": [
+      "A sabbatical 与 two years 不是永久退离全部项目。",
+      "B 无物理考试。",
+      "C 保留 while 的同时背景、两年时长及另一运动。",
+      "D 十四岁来自 Morgan 参加俱乐部队，不可错配人物。"
+    ],
+    "vocabulary": [
+      {
+        "word": "in his prime",
+        "meaning": "在巅峰期；在状态或事业盛期",
+        "context": "与暂离两年形成对照，不是指退休后或儿童时期。",
+        "example": "The biography describes a difficult choice he made in his prime.",
+        "collocations": [
+          "in his prime",
+          "take a sabbatical from basketball"
+        ]
+      }
+    ],
+    "translation": "哀悼父亲期间，Jordan 在巅峰期暂离篮球两年，改打棒球。Alex Morgan 从小参与多项运动，直到十四岁才参加俱乐部队。高中时，她除了踢足球，还打排球、参加田径。",
+    "evidenceTargetIds": [
+      "c07-s01-p070-03675-s004"
+    ],
+    "evidence": [
+      {
+        "quote": "While he was mourning his father, he took a sabbatical from basketball for two years in his prime and played baseball. Alex Morgan grew up playing multiple sports and didn’t play in a club team until age fourteen. She played volleyball and ran track as well as played soccer in high school.",
+        "sentenceIds": [
+          "c07-s01-p070-03675-s004",
+          "c07-s01-p070-03675-s005",
+          "c07-s01-p070-03675-s006"
+        ],
+        "sources": [
+          {
+            "pdfPage": 70,
+            "block": 2,
+            "bbox": [
+              76.99,
+              367.5,
+              535.01,
+              557.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "a842672b7ea35c33a4cbf4c9ec1ff7fc16f1ae3e5c5d04a544e532ac568d292b"
+  },
+  {
+    "id": "qe-c07-0036",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-025",
+    "parentQuestionId": "q-c07-020",
+    "chapterId": "c07",
+    "sectionId": "c07-s01",
+    "paragraphId": "c07-s01-p070-03675",
+    "readingUnitId": "c07-s01-p070-03675-r004-006",
+    "sentenceIds": [
+      "c07-s01-p070-03675-s004",
+      "c07-s01-p070-03675-s005",
+      "c07-s01-p070-03675-s006"
+    ],
+    "passage": "While he was mourning his father, he took a sabbatical from basketball for two years in his prime and played baseball. Alex Morgan grew up playing multiple sports and didn’t play in a club team until age fourteen. She played volleyball and ran track as well as played soccer in high school.",
+    "prompt": "Which activities are added to Morgan's high-school soccer?",
+    "promptZh": "在 Morgan 的高中足球之外，补充了哪些活动？",
+    "options": [
+      "Only the same single sport every season.",
+      "Baseball and football, exactly as for Jordan.",
+      "Swimming and gymnastics under Bowman.",
+      "Volleyball and track."
+    ],
+    "optionsZh": [
+      "每季始终同一个项目。",
+      "棒球与美式橄榄球，与 Jordan 相同。",
+      "随 Bowman 游泳与体操。",
+      "排球与田径。"
+    ],
+    "answer": 3,
+    "type": "细节",
+    "support": "explicit",
+    "analyses": [
+      "A as well as 表多项，非单一。",
+      "B 混同 Jordan 的运动清单。",
+      "C Bowman 属于 Phelps 段落。",
+      "D played volleyball and ran track...played soccer 明确三项，此题问另外两项。"
+    ],
+    "vocabulary": [
+      {
+        "word": "ran track",
+        "meaning": "参加田径；从事径赛训练或比赛",
+        "context": "不是沿轨道驾驶，且这里不指定未写明的具体距离。",
+        "example": "She ran track during her final year of school.",
+        "collocations": [
+          "played volleyball and ran track",
+          "run track in high school"
+        ]
+      }
+    ],
+    "translation": "哀悼父亲期间，Jordan 在巅峰期暂离篮球两年，改打棒球。Alex Morgan 从小参与多项运动，直到十四岁才参加俱乐部队。高中时，她除了踢足球，还打排球、参加田径。",
+    "evidenceTargetIds": [
+      "c07-s01-p070-03675-s006"
+    ],
+    "evidence": [
+      {
+        "quote": "While he was mourning his father, he took a sabbatical from basketball for two years in his prime and played baseball. Alex Morgan grew up playing multiple sports and didn’t play in a club team until age fourteen. She played volleyball and ran track as well as played soccer in high school.",
+        "sentenceIds": [
+          "c07-s01-p070-03675-s004",
+          "c07-s01-p070-03675-s005",
+          "c07-s01-p070-03675-s006"
+        ],
+        "sources": [
+          {
+            "pdfPage": 70,
+            "block": 2,
+            "bbox": [
+              76.99,
+              367.5,
+              535.01,
+              557.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "189acca9f45cb63b93b2d6884c31bab75b948f3252c8088ad73da485cb2909b7"
+  },
+  {
+    "id": "qe-c07-0037",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-025",
+    "parentQuestionId": "q-c07-021",
+    "chapterId": "c07",
+    "sectionId": "c07-s01",
+    "paragraphId": "c07-s01-p070-05625",
+    "readingUnitId": "c07-s01-p070-05625-r001-002",
+    "sentenceIds": [
+      "c07-s01-p070-05625-s001",
+      "c07-s01-p070-05625-s002"
+    ],
+    "passage": "Another key finding from this study is that the success rate at the junior competition level is predicted by the earlier start age (the earlier, the more success), whereas the success rate at the adult competition level is predicted by the later start age. That is, in adult elite competition, the athletes who started the sport later in their lives were more successful than those who started early.",
+    "prompt": "Which scope makes the later-starter finding accurate?",
+    "promptZh": "怎样限定范围才准确表达晚开始者的发现？",
+    "options": [
+      "It concerns every beginner in every possible activity.",
+      "It concerns adult elite competition, not a guarantee for each athlete.",
+      "It says earlier starts never predict junior success.",
+      "It proves late starts cause Nobel Prizes."
+    ],
+    "optionsZh": [
+      "适用于每种活动的每个初学者。",
+      "涉及成年精英比赛，而非每位选手必胜保证。",
+      "说早开始从不预测青少年成功。",
+      "证明晚开始导致诺贝尔奖。"
+    ],
+    "answer": 1,
+    "type": "语气与范围",
+    "support": "explicit",
+    "analyses": [
+      "A 扩大研究人群与领域。",
+      "B in adult elite competition 限定结论，保留组间比较。",
+      "C 前句明确 junior earlier success，与该说法相反。",
+      "D 跨到另一个领域并添加确定因果，当前句不支持。"
+    ],
+    "vocabulary": [
+      {
+        "word": "elite competition",
+        "meaning": "精英级比赛；高水平竞技",
+        "context": "研究比较的范围，不是全部大众活动或每个年龄段。",
+        "example": "Success in elite competition depends on many factors.",
+        "collocations": [
+          "adult elite competition",
+          "compete at an elite level"
+        ]
+      }
+    ],
+    "translation": "研究另一个关键发现是：青少年比赛的成功率由较早开始年龄预测（越早越成功），而成年比赛的成功率由较晚开始年龄预测。也就是说，在成年精英比赛中，较晚开始该运动的选手，比早开始者更成功。",
+    "evidenceTargetIds": [
+      "c07-s01-p070-05625-s002"
+    ],
+    "evidence": [
+      {
+        "quote": "Another key finding from this study is that the success rate at the junior competition level is predicted by the earlier start age (the earlier, the more success), whereas the success rate at the adult competition level is predicted by the later start age. That is, in adult elite competition, the athletes who started the sport later in their lives were more successful than those who started early.",
+        "sentenceIds": [
+          "c07-s01-p070-05625-s001",
+          "c07-s01-p070-05625-s002"
+        ],
+        "sources": [
+          {
+            "pdfPage": 70,
+            "block": 3,
+            "bbox": [
+              76.99,
+              562.5,
+              535.01,
+              713.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "b0d8a9df73fa6c3473788b72f2b61509c0a762f28119a856ef56004c0181cdf3"
+  },
+  {
+    "id": "qe-c07-0038",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-025",
+    "parentQuestionId": "q-c07-023",
+    "chapterId": "c07",
+    "sectionId": "c07-s01",
+    "paragraphId": "c07-s01-p071-00750",
+    "readingUnitId": "c07-s01-p071-00750-r001-004",
+    "sentenceIds": [
+      "c07-s01-p071-00750-s001",
+      "c07-s01-p071-00750-s002",
+      "c07-s01-p071-00750-s003",
+      "c07-s01-p071-00750-s004"
+    ],
+    "passage": "In the short term, specialization translates to success. In the long term, however, it doesn’t always pay off. Indeed, this study found that a higher amount of youth-led play (e.g., pickup games) outside of an athlete’s primary sport was associated with higher performance among adult players. Surprisingly, a high number of main-sport practice hours was associated with lower performance among the world-class adult athletes.",
+    "prompt": "What does 'translates to success' mean in the short-term statement?",
+    "promptZh": "短期陈述中的 translates to success 是什么意思？",
+    "options": [
+      "It means the passage is translated into another language.",
+      "It says every early result guarantees lifelong success.",
+      "It describes specialisation turning into success over the shorter time frame.",
+      "It denies that specialisation can have any immediate benefit."
+    ],
+    "optionsZh": [
+      "指文章被译成另一种语言。",
+      "说每个早期结果保证终生成功。",
+      "描写专攻在较短时段转化为成功。",
+      "否认专攻有任何即时益处。"
+    ],
+    "answer": 2,
+    "type": "语境词义",
+    "support": "explicit",
+    "analyses": [
+      "A translate 在此为转化，不是语言翻译。",
+      "B short term 不能变成终生保证。",
+      "C 保留明确时间范围及转化比喻。",
+      "D 原句承认短期效果，后句才说长期未必回报。"
+    ],
+    "vocabulary": [
+      {
+        "word": "translates to",
+        "meaning": "转化为；带来相应表现",
+        "context": "此处为短期效果表述，不是翻译动作，也不构成对每人的承诺。",
+        "example": "Extra preparation often translates to a smoother presentation.",
+        "collocations": [
+          "translates to success",
+          "translate into results"
+        ]
+      }
+    ],
+    "translation": "短期内，专攻会转化为成功；但长期看，并不总有回报。研究发现，在主运动之外，更多青少年自主玩耍（如临时自组比赛）与较高成年表现相关。令人意外的是，世界级成年运动员中，大量主项训练时数反而与较低表现相关。",
+    "evidenceTargetIds": [
+      "c07-s01-p071-00750-s001"
+    ],
+    "evidence": [
+      {
+        "quote": "In the short term, specialization translates to success. In the long term, however, it doesn’t always pay off. Indeed, this study found that a higher amount of youth-led play (e.g., pickup games) outside of an athlete’s primary sport was associated with higher performance among adult players. Surprisingly, a high number of main-sport practice hours was associated with lower performance among the world-class adult athletes.",
+        "sentenceIds": [
+          "c07-s01-p071-00750-s001",
+          "c07-s01-p071-00750-s002",
+          "c07-s01-p071-00750-s003",
+          "c07-s01-p071-00750-s004"
+        ],
+        "sources": [
+          {
+            "pdfPage": 71,
+            "block": 0,
+            "bbox": [
+              76.99,
+              75,
+              535.01,
+              245.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "a4bfcef989f44ded03372b32c52fa6c12c76d244e528e6cab90f750040d02892"
+  },
+  {
+    "id": "qe-c07-0039",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-025",
+    "parentQuestionId": "q-c07-023",
+    "chapterId": "c07",
+    "sectionId": "c07-s01",
+    "paragraphId": "c07-s01-p071-00750",
+    "readingUnitId": "c07-s01-p071-00750-r001-004",
+    "sentenceIds": [
+      "c07-s01-p071-00750-s001",
+      "c07-s01-p071-00750-s002",
+      "c07-s01-p071-00750-s003",
+      "c07-s01-p071-00750-s004"
+    ],
+    "passage": "In the short term, specialization translates to success. In the long term, however, it doesn’t always pay off. Indeed, this study found that a higher amount of youth-led play (e.g., pickup games) outside of an athlete’s primary sport was associated with higher performance among adult players. Surprisingly, a high number of main-sport practice hours was associated with lower performance among the world-class adult athletes.",
+    "prompt": "What does 'doesn't always pay off' say about long-term specialisation?",
+    "promptZh": "doesn't always pay off 对长期专攻说了什么？",
+    "options": [
+      "It does not invariably produce a worthwhile return.",
+      "It can never produce any return for anyone.",
+      "It always requires a financial payment to a coach.",
+      "It is guaranteed to outperform every other approach."
+    ],
+    "optionsZh": [
+      "并非每次都产生值得的回报。",
+      "对任何人都绝无回报。",
+      "总要求向教练付钱。",
+      "保证胜过任何其他方法。"
+    ],
+    "answer": 0,
+    "type": "语气与范围",
+    "support": "explicit",
+    "analyses": [
+      "A not always 否定必然，不是否定一切可能。",
+      "B 把不总是强化成从不。",
+      "C pay off 是值得或有成效的习语，不是本句训练收费。",
+      "D 与长期未必回报相反。"
+    ],
+    "vocabulary": [
+      {
+        "word": "pay off",
+        "meaning": "奏效；有回报；努力值得",
+        "context": "本句非偿清债务或实际支付费用。",
+        "example": "The extra practice may pay off, but results can vary.",
+        "collocations": [
+          "doesn't always pay off",
+          "effort pays off"
+        ]
+      }
+    ],
+    "translation": "短期内，专攻会转化为成功；但长期看，并不总有回报。研究发现，在主运动之外，更多青少年自主玩耍（如临时自组比赛）与较高成年表现相关。令人意外的是，世界级成年运动员中，大量主项训练时数反而与较低表现相关。",
+    "evidenceTargetIds": [
+      "c07-s01-p071-00750-s002"
+    ],
+    "evidence": [
+      {
+        "quote": "In the short term, specialization translates to success. In the long term, however, it doesn’t always pay off. Indeed, this study found that a higher amount of youth-led play (e.g., pickup games) outside of an athlete’s primary sport was associated with higher performance among adult players. Surprisingly, a high number of main-sport practice hours was associated with lower performance among the world-class adult athletes.",
+        "sentenceIds": [
+          "c07-s01-p071-00750-s001",
+          "c07-s01-p071-00750-s002",
+          "c07-s01-p071-00750-s003",
+          "c07-s01-p071-00750-s004"
+        ],
+        "sources": [
+          {
+            "pdfPage": 71,
+            "block": 0,
+            "bbox": [
+              76.99,
+              75,
+              535.01,
+              245.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "e7ab91824969c31e9c1383bea44326431c467c009de2c08b0ac6e694a94acbe3"
+  },
+  {
+    "id": "qe-c07-0040",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-025",
+    "parentQuestionId": "q-c07-023",
+    "chapterId": "c07",
+    "sectionId": "c07-s01",
+    "paragraphId": "c07-s01-p071-00750",
+    "readingUnitId": "c07-s01-p071-00750-r001-004",
+    "sentenceIds": [
+      "c07-s01-p071-00750-s001",
+      "c07-s01-p071-00750-s002",
+      "c07-s01-p071-00750-s003",
+      "c07-s01-p071-00750-s004"
+    ],
+    "passage": "In the short term, specialization translates to success. In the long term, however, it doesn’t always pay off. Indeed, this study found that a higher amount of youth-led play (e.g., pickup games) outside of an athlete’s primary sport was associated with higher performance among adult players. Surprisingly, a high number of main-sport practice hours was associated with lower performance among the world-class adult athletes.",
+    "prompt": "Which reading preserves the finding about youth-led play?",
+    "promptZh": "怎样理解青少年自主玩耍的发现才准确？",
+    "options": [
+      "All play in the primary sport guaranteed worse adult results.",
+      "Researchers assigned every child to stop coached practice permanently.",
+      "Adults with more childhood play were all identical in performance.",
+      "More youth-led play outside the main sport was associated with higher adult performance."
+    ],
+    "optionsZh": [
+      "主项所有玩耍保证成年更差。",
+      "研究者让每个孩子永久停掉指导训练。",
+      "童年玩耍较多者成年表现全相同。",
+      "主项之外更多自主玩耍与较高成年表现相关。"
+    ],
+    "answer": 3,
+    "type": "同义改写",
+    "support": "explicit",
+    "analyses": [
+      "A outside primary sport 与高表现方向都被改。",
+      "B 未报告全体儿童的随机干预或永久停训。",
+      "C associated 不建立全员结果相同。",
+      "D 保留 youth-led、outside、adult 与关联强度；e.g.pickupgames 为例而非仅此一种。"
+    ],
+    "vocabulary": [
+      {
+        "word": "youth-led play",
+        "meaning": "由青少年自主主导的玩耍活动",
+        "context": "区别于只由教练安排的主项训练，不代表完全没有规则。",
+        "example": "Youth-led play allowed the group to choose its own teams.",
+        "collocations": [
+          "youth-led play outside a primary sport",
+          "pickup games"
+        ]
+      }
+    ],
+    "translation": "短期内，专攻会转化为成功；但长期看，并不总有回报。研究发现，在主运动之外，更多青少年自主玩耍（如临时自组比赛）与较高成年表现相关。令人意外的是，世界级成年运动员中，大量主项训练时数反而与较低表现相关。",
+    "evidenceTargetIds": [
+      "c07-s01-p071-00750-s003"
+    ],
+    "evidence": [
+      {
+        "quote": "In the short term, specialization translates to success. In the long term, however, it doesn’t always pay off. Indeed, this study found that a higher amount of youth-led play (e.g., pickup games) outside of an athlete’s primary sport was associated with higher performance among adult players. Surprisingly, a high number of main-sport practice hours was associated with lower performance among the world-class adult athletes.",
+        "sentenceIds": [
+          "c07-s01-p071-00750-s001",
+          "c07-s01-p071-00750-s002",
+          "c07-s01-p071-00750-s003",
+          "c07-s01-p071-00750-s004"
+        ],
+        "sources": [
+          {
+            "pdfPage": 71,
+            "block": 0,
+            "bbox": [
+              76.99,
+              75,
+              535.01,
+              245.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "0b48a01c7841ad964267a21b9afddd22b1484f63db2e557e7f4ee41e76524060"
+  },
+  {
+    "id": "qe-c07-0041",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-025",
+    "parentQuestionId": "q-c07-025",
+    "chapterId": "c07",
+    "sectionId": "c07-s01",
+    "paragraphId": "c07-s01-p071-02505",
+    "readingUnitId": "c07-s01-p071-02505-r001-004",
+    "sentenceIds": [
+      "c07-s01-p071-02505-s001",
+      "c07-s01-p071-02505-s002",
+      "c07-s01-p071-02505-s003",
+      "c07-s01-p071-02505-s004"
+    ],
+    "passage": "Intriguingly, the early specialization effect was replicated in a completely different professional domain: science. Another study compared forty-eight German Nobel laureates in physics, chemistry, economics, and medicine/physiology with the winners of the Leibniz Prize, which is Germany’s highest national science award. Forty-two of the forty-eight Nobel laureates had engaged in multidisciplinary study or work experiences, suggesting a later specialization. The Leibniz Prize winners who did not win the Nobel Prize had earlier success than those who went on to be Nobel winners.",
+    "prompt": "What does the shift to science contribute to the argument?",
+    "promptZh": "转向科学领域为论证补充什么？",
+    "options": [
+      "It explores whether a comparable specialisation pattern occurs in another domain.",
+      "It makes the sports findings automatically true of every scientist.",
+      "It says the same athletes also received the Nobel Prize.",
+      "It replaces all empirical findings with Nietzsche's quotation."
+    ],
+    "optionsZh": [
+      "考察另一领域是否出现可比较的专攻模式。",
+      "让体育发现自动适用于所有科学家。",
+      "说同一批运动员还获了诺奖。",
+      "用尼采引文替代所有实证发现。"
+    ],
+    "answer": 0,
+    "type": "作者意图",
+    "support": "explicit",
+    "analyses": [
+      "A replicated in a completely different professional domain 引出另一研究。",
+      "B 跨域观察不等于无条件推广每个人。",
+      "C 人物群体不同，不能合并。",
+      "D 尼采引语在后面，不是这项比较研究本身。"
+    ],
+    "vocabulary": [
+      {
+        "word": "domain",
+        "meaning": "领域；专业范围",
+        "context": "此处从体育到科学，不是网络域名或某人私有领土。",
+        "example": "The method was tested in a different professional domain.",
+        "collocations": [
+          "a professional domain",
+          "a different domain"
+        ]
+      }
+    ],
+    "translation": "有趣的是，早期专攻效应在完全不同的专业领域——科学——也得到重复观察。另一项研究，把物理、化学、经济学及医学／生理学领域的四十八位德国诺贝尔奖得主，与德国最高国家科学奖 Leibniz 奖得主比较。四十八位中四十二位有跨学科学习或工作经历，提示较晚专攻。未获诺奖的 Leibniz 得主，早期成功来得比后来获诺奖者更早。",
+    "evidenceTargetIds": [
+      "c07-s01-p071-02505-s001"
+    ],
+    "evidence": [
+      {
+        "quote": "Intriguingly, the early specialization effect was replicated in a completely different professional domain: science. Another study compared forty-eight German Nobel laureates in physics, chemistry, economics, and medicine/physiology with the winners of the Leibniz Prize, which is Germany’s highest national science award. Forty-two of the forty-eight Nobel laureates had engaged in multidisciplinary study or work experiences, suggesting a later specialization. The Leibniz Prize winners who did not win the Nobel Prize had earlier success than those who went on to be Nobel winners.",
+        "sentenceIds": [
+          "c07-s01-p071-02505-s001",
+          "c07-s01-p071-02505-s002",
+          "c07-s01-p071-02505-s003",
+          "c07-s01-p071-02505-s004"
+        ],
+        "sources": [
+          {
+            "pdfPage": 71,
+            "block": 1,
+            "bbox": [
+              76.99,
+              250.5,
+              535.01,
+              518.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "315b7d2374a1394179555e5f12a66b8e995460c9ea15ef4b0d6c4169f8b90d51"
+  },
+  {
+    "id": "qe-c07-0042",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-025",
+    "parentQuestionId": "q-c07-025",
+    "chapterId": "c07",
+    "sectionId": "c07-s01",
+    "paragraphId": "c07-s01-p071-02505",
+    "readingUnitId": "c07-s01-p071-02505-r001-004",
+    "sentenceIds": [
+      "c07-s01-p071-02505-s001",
+      "c07-s01-p071-02505-s002",
+      "c07-s01-p071-02505-s003",
+      "c07-s01-p071-02505-s004"
+    ],
+    "passage": "Intriguingly, the early specialization effect was replicated in a completely different professional domain: science. Another study compared forty-eight German Nobel laureates in physics, chemistry, economics, and medicine/physiology with the winners of the Leibniz Prize, which is Germany’s highest national science award. Forty-two of the forty-eight Nobel laureates had engaged in multidisciplinary study or work experiences, suggesting a later specialization. The Leibniz Prize winners who did not win the Nobel Prize had earlier success than those who went on to be Nobel winners.",
+    "prompt": "Which groups were compared in the scientific-career study?",
+    "promptZh": "科学职业研究比较哪两组？",
+    "options": [
+      "Forty-eight athletes and forty-two teenage coaches.",
+      "Only Nobel winners in literature and peace.",
+      "Forty-eight German Nobel laureates in specified fields and Leibniz Prize winners.",
+      "The same people before and after being randomly awarded a prize."
+    ],
+    "optionsZh": [
+      "四十八名运动员与四十二名少年教练。",
+      "只有文学及和平诺奖得主。",
+      "所列学科四十八位德国诺奖得主与 Leibniz 奖得主。",
+      "同一批人随机获奖前后。"
+    ],
+    "answer": 2,
+    "type": "细节",
+    "support": "explicit",
+    "analyses": [
+      "A 人数、群体及领域被混换。",
+      "B 原句为物理、化学、经济及医学／生理学，不是这两类。",
+      "C another study compared 明确两组及四十八位诺奖者范围。",
+      "D 是已有获奖群体比较，不是随机给予奖项的实验。"
+    ],
+    "vocabulary": [
+      {
+        "word": "laureates",
+        "meaning": "获奖者；得主",
+        "context": "Nobel laureates 是诺贝尔奖得主，不是诺奖提名者或研究助理。",
+        "example": "The archive includes interviews with several laureates.",
+        "collocations": [
+          "Nobel laureates",
+          "German Nobel laureates"
+        ]
+      }
+    ],
+    "translation": "有趣的是，早期专攻效应在完全不同的专业领域——科学——也得到重复观察。另一项研究，把物理、化学、经济学及医学／生理学领域的四十八位德国诺贝尔奖得主，与德国最高国家科学奖 Leibniz 奖得主比较。四十八位中四十二位有跨学科学习或工作经历，提示较晚专攻。未获诺奖的 Leibniz 得主，早期成功来得比后来获诺奖者更早。",
+    "evidenceTargetIds": [
+      "c07-s01-p071-02505-s002"
+    ],
+    "evidence": [
+      {
+        "quote": "Intriguingly, the early specialization effect was replicated in a completely different professional domain: science. Another study compared forty-eight German Nobel laureates in physics, chemistry, economics, and medicine/physiology with the winners of the Leibniz Prize, which is Germany’s highest national science award. Forty-two of the forty-eight Nobel laureates had engaged in multidisciplinary study or work experiences, suggesting a later specialization. The Leibniz Prize winners who did not win the Nobel Prize had earlier success than those who went on to be Nobel winners.",
+        "sentenceIds": [
+          "c07-s01-p071-02505-s001",
+          "c07-s01-p071-02505-s002",
+          "c07-s01-p071-02505-s003",
+          "c07-s01-p071-02505-s004"
+        ],
+        "sources": [
+          {
+            "pdfPage": 71,
+            "block": 1,
+            "bbox": [
+              76.99,
+              250.5,
+              535.01,
+              518.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "9fb90395166c6242f2e7b9f8c19a8c4cd6c71be797eea599f17bd617f78a91c1"
+  },
+  {
+    "id": "qe-c07-0043",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-025",
+    "parentQuestionId": "q-c07-025",
+    "chapterId": "c07",
+    "sectionId": "c07-s01",
+    "paragraphId": "c07-s01-p071-02505",
+    "readingUnitId": "c07-s01-p071-02505-r001-004",
+    "sentenceIds": [
+      "c07-s01-p071-02505-s001",
+      "c07-s01-p071-02505-s002",
+      "c07-s01-p071-02505-s003",
+      "c07-s01-p071-02505-s004"
+    ],
+    "passage": "Intriguingly, the early specialization effect was replicated in a completely different professional domain: science. Another study compared forty-eight German Nobel laureates in physics, chemistry, economics, and medicine/physiology with the winners of the Leibniz Prize, which is Germany’s highest national science award. Forty-two of the forty-eight Nobel laureates had engaged in multidisciplinary study or work experiences, suggesting a later specialization. The Leibniz Prize winners who did not win the Nobel Prize had earlier success than those who went on to be Nobel winners.",
+    "prompt": "Which group is described as having earlier success?",
+    "promptZh": "哪组被描述为更早成功？",
+    "options": [
+      "Every eventual Nobel winner compared with every other scientist.",
+      "Leibniz winners who did not go on to win the Nobel Prize.",
+      "Only the people excluded from both award groups.",
+      "The athletes who took a sabbatical from basketball."
+    ],
+    "optionsZh": [
+      "每位最终诺奖者都比所有其他科学家早。",
+      "后来未获诺奖的 Leibniz 得主。",
+      "仅未入选两类奖项的人。",
+      "暂离篮球的运动员。"
+    ],
+    "answer": 1,
+    "type": "细节",
+    "support": "explicit",
+    "analyses": [
+      "A 比较方向及 every 强度错误。",
+      "B who did not win...限定 Leibniz 子群，与后来诺奖者比较。",
+      "C 并非双双未获奖的人。",
+      "D 错把另一领域人物移入研究结论，earlier 不等于最终一定更高成就。"
+    ],
+    "vocabulary": [
+      {
+        "word": "went on to",
+        "meaning": "后来进一步；随后成为或做到",
+        "context": "指后续职业轨迹，不能读成他们从未获得诺奖。",
+        "example": "She worked locally and went on to lead a larger project.",
+        "collocations": [
+          "went on to be Nobel winners",
+          "went on to achieve"
+        ]
+      }
+    ],
+    "translation": "有趣的是，早期专攻效应在完全不同的专业领域——科学——也得到重复观察。另一项研究，把物理、化学、经济学及医学／生理学领域的四十八位德国诺贝尔奖得主，与德国最高国家科学奖 Leibniz 奖得主比较。四十八位中四十二位有跨学科学习或工作经历，提示较晚专攻。未获诺奖的 Leibniz 得主，早期成功来得比后来获诺奖者更早。",
+    "evidenceTargetIds": [
+      "c07-s01-p071-02505-s004"
+    ],
+    "evidence": [
+      {
+        "quote": "Intriguingly, the early specialization effect was replicated in a completely different professional domain: science. Another study compared forty-eight German Nobel laureates in physics, chemistry, economics, and medicine/physiology with the winners of the Leibniz Prize, which is Germany’s highest national science award. Forty-two of the forty-eight Nobel laureates had engaged in multidisciplinary study or work experiences, suggesting a later specialization. The Leibniz Prize winners who did not win the Nobel Prize had earlier success than those who went on to be Nobel winners.",
+        "sentenceIds": [
+          "c07-s01-p071-02505-s001",
+          "c07-s01-p071-02505-s002",
+          "c07-s01-p071-02505-s003",
+          "c07-s01-p071-02505-s004"
+        ],
+        "sources": [
+          {
+            "pdfPage": 71,
+            "block": 1,
+            "bbox": [
+              76.99,
+              250.5,
+              535.01,
+              518.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "d048ca1dd0be6d77b904b84ed16dcb6794a9b86916a1df9ee0ed81bf08052fe0"
+  },
+  {
+    "id": "qe-c07-0044",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-025",
+    "parentQuestionId": "q-c07-026",
+    "chapterId": "c07",
+    "sectionId": "c07-s01",
+    "paragraphId": "c07-s01-p071-02505",
+    "readingUnitId": "c07-s01-p071-02505-r005-007",
+    "sentenceIds": [
+      "c07-s01-p071-02505-s005",
+      "c07-s01-p071-02505-s006",
+      "c07-s01-p071-02505-s007"
+    ],
+    "passage": "For instance, Leibniz winners were more likely to have won a scholarship as students than Nobel laureates. My favorite finding: it took significantly longer for the eventual Nobel winners to earn full professorships than the Leibniz winners. So, Nobel laureates explored more diverse areas of study and made slower progress than Leibniz winners, but eventually reached the top without burning out.",
+    "prompt": "How does the scholarship example support the early-success comparison?",
+    "promptZh": "奖学金例子怎样支持早期成功的比较？",
+    "options": [
+      "It shows that every Nobel laureate was denied all scholarships.",
+      "It says all scholarship recipients necessarily win a Nobel Prize later.",
+      "It claims scholarship amounts were identical for both groups.",
+      "It gives a student-period marker that was more likely among the Leibniz winners."
+    ],
+    "optionsZh": [
+      "说明每位诺奖得主被拒绝所有奖学金。",
+      "说所有奖学金获得者后来必获诺奖。",
+      "声称两组奖学金金额一样。",
+      "用学生时期奖学金作为 Leibniz 得主更常见的早期成功标记。"
+    ],
+    "answer": 3,
+    "type": "作者意图",
+    "support": "explicit",
+    "analyses": [
+      "A more likely 的组间差异不等于另一组为零。",
+      "B 没有个人必胜的路径。",
+      "C 未比较金额。",
+      "D For instance 标示例子，as students 标早期，保留相对可能性而非所有人。"
+    ],
+    "vocabulary": [
+      {
+        "word": "scholarship",
+        "meaning": "奖学金；资助学习的奖励或款项",
+        "context": "在此作为学生时期成功标记，不是最终科学成就的保证或金额测量。",
+        "example": "She received a scholarship during her first year.",
+        "collocations": [
+          "won a scholarship as students",
+          "a student scholarship"
+        ]
+      }
+    ],
+    "translation": "例如，Leibniz 得主比诺奖得主更可能在学生时代获得奖学金。我最喜欢的发现是：后来获诺奖者成为正教授的时间，显著长于 Leibniz 得主。因此，作者概括，诺奖得主探索更多学科、进展较慢，却最终到达顶峰而未耗尽热情。",
+    "evidenceTargetIds": [
+      "c07-s01-p071-02505-s005"
+    ],
+    "evidence": [
+      {
+        "quote": "For instance, Leibniz winners were more likely to have won a scholarship as students than Nobel laureates. My favorite finding: it took significantly longer for the eventual Nobel winners to earn full professorships than the Leibniz winners. So, Nobel laureates explored more diverse areas of study and made slower progress than Leibniz winners, but eventually reached the top without burning out.",
+        "sentenceIds": [
+          "c07-s01-p071-02505-s005",
+          "c07-s01-p071-02505-s006",
+          "c07-s01-p071-02505-s007"
+        ],
+        "sources": [
+          {
+            "pdfPage": 71,
+            "block": 1,
+            "bbox": [
+              76.99,
+              250.5,
+              535.01,
+              518.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "b0231c71d0010df814404d65dedbcc2b0363387bd78d211ea44cadaa4d70619d"
+  },
+  {
+    "id": "qe-c07-0045",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-025",
+    "parentQuestionId": "q-c07-026",
+    "chapterId": "c07",
+    "sectionId": "c07-s01",
+    "paragraphId": "c07-s01-p071-02505",
+    "readingUnitId": "c07-s01-p071-02505-r005-007",
+    "sentenceIds": [
+      "c07-s01-p071-02505-s005",
+      "c07-s01-p071-02505-s006",
+      "c07-s01-p071-02505-s007"
+    ],
+    "passage": "For instance, Leibniz winners were more likely to have won a scholarship as students than Nobel laureates. My favorite finding: it took significantly longer for the eventual Nobel winners to earn full professorships than the Leibniz winners. So, Nobel laureates explored more diverse areas of study and made slower progress than Leibniz winners, but eventually reached the top without burning out.",
+    "prompt": "What does 'but eventually' contrast in the Nobel-laureate summary?",
+    "promptZh": "诺奖得主总结中的 but eventually 对照什么？",
+    "options": [
+      "A slower, broader route and later high achievement.",
+      "Earlier full professorship and later withdrawal from all research.",
+      "Identical early progress and identical final results in every scientist.",
+      "The absence of any multidisciplinary work in the Nobel group."
+    ],
+    "optionsZh": [
+      "较慢、较广的路径与后来的高成就。",
+      "更早成为正教授与后来退出全部研究。",
+      "每位科学家早期进展及最终结果都相同。",
+      "诺奖组完全没有跨学科工作。"
+    ],
+    "answer": 0,
+    "type": "逻辑关系",
+    "support": "explicit",
+    "analyses": [
+      "A diverse areas、slower progress 与 eventually reached the top 形成对比。",
+      "B 前句说成为正教授用时更长，非更早。",
+      "C 群体概括不能升级每人结果相同。",
+      "D 反写多样探索；这是作者对研究的综合，不保证慢进展必达顶峰。"
+    ],
+    "vocabulary": [
+      {
+        "word": "eventually",
+        "meaning": "最终；经过一段时间之后",
+        "context": "与起初较慢形成对照，不等于立刻或每个人都会。",
+        "example": "The team made slow progress but eventually completed the task.",
+        "collocations": [
+          "but eventually reached",
+          "eventually succeed"
+        ]
+      }
+    ],
+    "translation": "例如，Leibniz 得主比诺奖得主更可能在学生时代获得奖学金。我最喜欢的发现是：后来获诺奖者成为正教授的时间，显著长于 Leibniz 得主。因此，作者概括，诺奖得主探索更多学科、进展较慢，却最终到达顶峰而未耗尽热情。",
+    "evidenceTargetIds": [
+      "c07-s01-p071-02505-s007"
+    ],
+    "evidence": [
+      {
+        "quote": "For instance, Leibniz winners were more likely to have won a scholarship as students than Nobel laureates. My favorite finding: it took significantly longer for the eventual Nobel winners to earn full professorships than the Leibniz winners. So, Nobel laureates explored more diverse areas of study and made slower progress than Leibniz winners, but eventually reached the top without burning out.",
+        "sentenceIds": [
+          "c07-s01-p071-02505-s005",
+          "c07-s01-p071-02505-s006",
+          "c07-s01-p071-02505-s007"
+        ],
+        "sources": [
+          {
+            "pdfPage": 71,
+            "block": 1,
+            "bbox": [
+              76.99,
+              250.5,
+              535.01,
+              518.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "804d1ead4bdf5322013cd1c4000d910d2457ad8bd68a66be4bab9ba70cd12016"
+  },
+  {
+    "id": "qe-c07-0046",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-025",
+    "parentQuestionId": "q-c07-027",
+    "chapterId": "c07",
+    "sectionId": "c07-s01",
+    "paragraphId": "c07-s01-p071-05235",
+    "readingUnitId": "c07-s01-p071-05235-r001-002",
+    "sentenceIds": [
+      "c07-s01-p071-05235-s001",
+      "c07-s01-p071-05235-s002"
+    ],
+    "passage": "In the essay “Human, All Too Human” in his work Ecce Homo, Friedrich Nietzsche wrote about German specialization as follows: “I have discovered that a large number of young men experience the same distress: one antinatural step virtually compels the second. In Germany, the Reich—to speak unambiguously—all too many are condemned to choose vocations too early, and then to waste away under a burden they can no longer shake off.",
+    "prompt": "What kind of support is supplied by the Nietzsche quotation?",
+    "promptZh": "尼采引文提供哪种支持？",
+    "options": [
+      "A new controlled experiment on German students.",
+      "A measured count of all young men's career decisions.",
+      "A guarantee that every person choosing early will fail.",
+      "A philosophical criticism illustrating distress about premature vocational choice."
+    ],
+    "optionsZh": [
+      "针对德国学生的新控制实验。",
+      "对所有青年职业决定的实测计数。",
+      "保证每位早选择者都失败。",
+      "以哲学批评说明过早选职业所带来的苦恼。"
+    ],
+    "answer": 3,
+    "type": "观点归属",
+    "support": "explicit",
+    "analyses": [
+      "A 引的是作品中的论述，不是实验方法与结果。",
+      "B a large number 的表达非全人口计数。",
+      "C 不能把强烈修辞改成人人失败的保证。",
+      "D 书中明示 Nietzsche、作品及 German specialization，引用角色为批评性说明，保留文学哲学性质。"
+    ],
+    "vocabulary": [
+      {
+        "word": "compels",
+        "meaning": "迫使；强烈推动",
+        "context": "virtually compels 带几乎的限定，表达引语里一环逼出下一环的感受，不是实验因果量。",
+        "example": "The unexpected delay compels the group to reconsider its plan.",
+        "collocations": [
+          "virtually compels",
+          "one step compels the second"
+        ]
+      }
+    ],
+    "translation": "在 Ecce Homo 中题为“Human, All Too Human”的文章里，Friedrich Nietzsche 谈德国的专攻现象：“我发现，许多年轻人经历着同样的苦恼：一个违背自然的步骤，几乎迫使他们走向第二步。在德国，在这个帝国里——说得明确些——太多人注定过早选择职业，之后在再也甩不掉的负担下衰耗。”这是文学／哲学引语，不是实验结果。",
+    "evidenceTargetIds": [
+      "c07-s01-p071-05235-s001"
+    ],
+    "evidence": [
+      {
+        "quote": "In the essay “Human, All Too Human” in his work Ecce Homo, Friedrich Nietzsche wrote about German specialization as follows: “I have discovered that a large number of young men experience the same distress: one antinatural step virtually compels the second. In Germany, the Reich—to speak unambiguously—all too many are condemned to choose vocations too early, and then to waste away under a burden they can no longer shake off.",
+        "sentenceIds": [
+          "c07-s01-p071-05235-s001",
+          "c07-s01-p071-05235-s002"
+        ],
+        "sources": [
+          {
+            "pdfPage": 71,
+            "block": 2,
+            "bbox": [
+              76.99,
+              523.5,
+              535.01,
+              674.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "00e15948af712a62de6d99f30d8aa71d4d90bf4941faef00261774bc73e2f892"
+  },
+  {
+    "id": "qe-c07-0047",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-025",
+    "parentQuestionId": "q-c07-028",
+    "chapterId": "c07",
+    "sectionId": "c07-s01",
+    "paragraphId": "c07-s01-p071-05235",
+    "readingUnitId": "c07-s01-p071-05235-r003-004",
+    "sentenceIds": [
+      "c07-s01-p071-05235-s003",
+      "c07-s01-p071-05235-s004"
+    ],
+    "passage": "These people require Wagner as an opium: they forget themselves, they are rid of themselves for a moment—what am I saying? For five or six hours!”",
+    "prompt": "What is the effect of correcting 'a moment' to 'five or six hours'?",
+    "promptZh": "把 a moment 改口为 five or six hours 起什么作用？",
+    "options": [
+      "It gives a medically tested dose of music as treatment.",
+      "It magnifies the duration of the temporary escape described in the quotation.",
+      "It says vocational choices last exactly five hours.",
+      "It proves every listener loses the same number of hours."
+    ],
+    "optionsZh": [
+      "给出经医学测试的音乐治疗剂量。",
+      "扩大引文所说暂时忘我、摆脱自己的时长。",
+      "说职业选择恰好持续五小时。",
+      "证明每位听者失去完全相同的时数。"
+    ],
+    "answer": 1,
+    "type": "作者意图",
+    "support": "explicit",
+    "analyses": [
+      "A opium 为比喻，非医学处方或测试。",
+      "B what am I saying 自我修正，把片刻夸张到五六小时，强化暂时逃离感。",
+      "C 时长修饰忘我，不是选择职业的耗时。",
+      "D 修辞强度不能变成人群精确统计。"
+    ],
+    "vocabulary": [
+      {
+        "word": "rid of themselves",
+        "meaning": "暂时摆脱自己；忘我（引语中的表达）",
+        "context": "表现摆脱沉重自我的比喻性体验，非字面人体移除或药理结论。",
+        "example": "The music seemed to leave them rid of their worries for a while.",
+        "collocations": [
+          "rid of themselves",
+          "forget themselves for a moment"
+        ]
+      }
+    ],
+    "translation": "“这些人需要 Wagner 作为一种鸦片：他们忘了自己，一时摆脱自己——我在说什么？是五六个小时！”这里的“鸦片”是引语中的比喻，表现暂时忘我。",
+    "evidenceTargetIds": [
+      "c07-s01-p071-05235-s004"
+    ],
+    "evidence": [
+      {
+        "quote": "These people require Wagner as an opium: they forget themselves, they are rid of themselves for a moment—what am I saying? For five or six hours!”",
+        "sentenceIds": [
+          "c07-s01-p071-05235-s003",
+          "c07-s01-p071-05235-s004"
+        ],
+        "sources": [
+          {
+            "pdfPage": 71,
+            "block": 2,
+            "bbox": [
+              76.99,
+              523.5,
+              535.01,
+              674.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "24d7f1cc8e69c3d9f724d31b73fdfa9bcbed2208f079e3d4497bdb481a23f92f"
+  },
+  {
+    "id": "qe-c07-0048",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-025",
+    "parentQuestionId": "q-c07-029",
+    "chapterId": "c07",
+    "sectionId": "c07-s01",
+    "paragraphId": "c07-s01-p071-06795",
+    "readingUnitId": "c07-s01-p071-06795-r001-004",
+    "sentenceIds": [
+      "c07-s01-p071-06795-s001",
+      "c07-s01-p071-06795-s002",
+      "c07-s01-p071-06795-s003",
+      "c07-s01-p071-06795-s004"
+    ],
+    "passage": "The story of William James Sidis presents another cautionary tale. He is often considered the smartest man to have ever lived. At age eight, he passed the Harvard Medical School’s anatomy exam, as well as the entrance exam to MIT. When Sidis was eleven years old, he gave a lecture on astrophysics at Harvard.",
+    "prompt": "Which reading of 'cautionary tale' fits the introduction of Sidis?",
+    "promptZh": "介绍 Sidis 时，cautionary tale 应怎样理解？",
+    "options": [
+      "It establishes an inevitable outcome for every gifted child.",
+      "It provides a new ranking method for intelligence tests.",
+      "It introduces a warning through a story of exceptional early promise.",
+      "It concludes that all academic learning has no value."
+    ],
+    "optionsZh": [
+      "确立每位天才儿童的必然结局。",
+      "提供智力测验新排名法。",
+      "借早期非凡潜力的故事引入警示。",
+      "断言所有学术学习无价值。"
+    ],
+    "answer": 2,
+    "type": "语境词义",
+    "support": "explicit",
+    "analyses": [
+      "A 个案警示不是全体儿童必然规律。",
+      "B 未给新的智力测量方法。",
+      "C cautionary 明示警示性质；当前短段列童年考试与讲座显示非凡潜力，但尚未给后续具体结局，不能只凭这里推定未来成就。",
+      "D 不全盘否定学习或才能；故事不等于研究总体因果定律。"
+    ],
+    "vocabulary": [
+      {
+        "word": "cautionary tale",
+        "meaning": "警示故事；提醒谨慎的事例",
+        "context": "不是可机械预测每个儿童结局的公式。",
+        "example": "The biography serves as a cautionary tale about unrealistic expectations.",
+        "collocations": [
+          "another cautionary tale",
+          "a cautionary example"
+        ]
+      }
+    ],
+    "translation": "William James Sidis 的故事又是一个警示事例。他常被认为是史上最聪明的人。八岁时，他通过 Harvard Medical School 的解剖学考试，也通过 MIT 入学考试。十一岁时，他在 Harvard 作天体物理讲座。",
+    "evidenceTargetIds": [
+      "c07-s01-p071-06795-s001"
+    ],
+    "evidence": [
+      {
+        "quote": "The story of William James Sidis presents another cautionary tale. He is often considered the smartest man to have ever lived. At age eight, he passed the Harvard Medical School’s anatomy exam, as well as the entrance exam to MIT. When Sidis was eleven years old, he gave a lecture on astrophysics at Harvard.",
+        "sentenceIds": [
+          "c07-s01-p071-06795-s001",
+          "c07-s01-p071-06795-s002",
+          "c07-s01-p071-06795-s003",
+          "c07-s01-p071-06795-s004"
+        ],
+        "sources": [
+          {
+            "pdfPage": 71,
+            "block": 3,
+            "bbox": [
+              76.99,
+              679.5,
+              535.01,
+              713.52
+            ]
+          },
+          {
+            "pdfPage": 72,
+            "block": 0,
+            "bbox": [
+              76.99,
+              75,
+              535.01,
+              245.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "462ba03e0646723e11ff20bbfe5f428f7b719398af32762361db4515f1521b43"
+  },
+  {
+    "id": "qe-c07-0049",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-025",
+    "parentQuestionId": "q-c07-029",
+    "chapterId": "c07",
+    "sectionId": "c07-s01",
+    "paragraphId": "c07-s01-p071-06795",
+    "readingUnitId": "c07-s01-p071-06795-r001-004",
+    "sentenceIds": [
+      "c07-s01-p071-06795-s001",
+      "c07-s01-p071-06795-s002",
+      "c07-s01-p071-06795-s003",
+      "c07-s01-p071-06795-s004"
+    ],
+    "passage": "The story of William James Sidis presents another cautionary tale. He is often considered the smartest man to have ever lived. At age eight, he passed the Harvard Medical School’s anatomy exam, as well as the entrance exam to MIT. When Sidis was eleven years old, he gave a lecture on astrophysics at Harvard.",
+    "prompt": "How is the 'smartest man' claim qualified?",
+    "promptZh": "smartest man 这一说法如何被限定？",
+    "options": [
+      "It is presented as something he is often considered to be.",
+      "It is proved by a newly supplied universal IQ test.",
+      "It is attributed to all later Nobel laureates without exception.",
+      "It means every prediction about his future was correct."
+    ],
+    "optionsZh": [
+      "表述为人们常这样认为。",
+      "由新提供的全球统一 IQ 测验证明。",
+      "归于所有后来的诺奖得主，无一例外。",
+      "意味着对他未来的每项预测都正确。"
+    ],
+    "answer": 0,
+    "type": "语气与范围",
+    "support": "explicit",
+    "analyses": [
+      "A often considered 标记社会评价归属与频率，非作者新测定。",
+      "B 没有给全球测试或分数。",
+      "C 未有所有诺奖者一致评价的来源。",
+      "D 对聪明的评价不保证未来预测正确，后段明确预测失准。"
+    ],
+    "vocabulary": [
+      {
+        "word": "is often considered",
+        "meaning": "常被认为；经常被视为",
+        "context": "转述评价，不等同提供可复核的绝对排名测量。",
+        "example": "The book is often considered an important early example.",
+        "collocations": [
+          "often considered the smartest",
+          "be considered to be"
+        ]
+      }
+    ],
+    "translation": "William James Sidis 的故事又是一个警示事例。他常被认为是史上最聪明的人。八岁时，他通过 Harvard Medical School 的解剖学考试，也通过 MIT 入学考试。十一岁时，他在 Harvard 作天体物理讲座。",
+    "evidenceTargetIds": [
+      "c07-s01-p071-06795-s002"
+    ],
+    "evidence": [
+      {
+        "quote": "The story of William James Sidis presents another cautionary tale. He is often considered the smartest man to have ever lived. At age eight, he passed the Harvard Medical School’s anatomy exam, as well as the entrance exam to MIT. When Sidis was eleven years old, he gave a lecture on astrophysics at Harvard.",
+        "sentenceIds": [
+          "c07-s01-p071-06795-s001",
+          "c07-s01-p071-06795-s002",
+          "c07-s01-p071-06795-s003",
+          "c07-s01-p071-06795-s004"
+        ],
+        "sources": [
+          {
+            "pdfPage": 71,
+            "block": 3,
+            "bbox": [
+              76.99,
+              679.5,
+              535.01,
+              713.52
+            ]
+          },
+          {
+            "pdfPage": 72,
+            "block": 0,
+            "bbox": [
+              76.99,
+              75,
+              535.01,
+              245.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "e9e23f364c6068d8448bdfe15f485689ffee79f57022461732e8f03578076999"
+  },
+  {
+    "id": "qe-c07-0050",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-025",
+    "parentQuestionId": "q-c07-030",
+    "chapterId": "c07",
+    "sectionId": "c07-s01",
+    "paragraphId": "c07-s01-p071-06795",
+    "readingUnitId": "c07-s01-p071-06795-r005-008",
+    "sentenceIds": [
+      "c07-s01-p071-06795-s005",
+      "c07-s01-p071-06795-s006",
+      "c07-s01-p071-06795-s007",
+      "c07-s01-p071-06795-s008"
+    ],
+    "passage": "An MIT physics professor in attendance remarked that Sidis would be a great astronomical mathematician and a scientific leader. But the professor’s prediction was wrong. Sidis burned out. Early specialization might dispel interest in other activities in life and could lead to early burnout.",
+    "prompt": "What was the status of the MIT professor's statement about Sidis?",
+    "promptZh": "MIT 教授对 Sidis 的话属于什么性质？",
+    "options": [
+      "A report that the predicted career had already been completed.",
+      "A future prediction voiced by an attendee at the lecture.",
+      "The result of the later Nobel-versus-Leibniz comparison.",
+      "A direct statement by Sidis about his own final achievements."
+    ],
+    "optionsZh": [
+      "报告所预测职业已全部实现。",
+      "讲座在场者作出的未来预测。",
+      "后来诺奖与 Leibniz 比较的结果。",
+      "Sidis 对自己最终成就的直接陈述。"
+    ],
+    "answer": 1,
+    "type": "观点归属",
+    "support": "explicit",
+    "analyses": [
+      "A would be 表从过去看未来，不是已完成成就。",
+      "B An MIT physics professor in attendance...remarked 清楚标说话人及预测。",
+      "C 不是另一项科学职业研究结果。",
+      "D 不是 Sidis 本人自述，也不据此把讲座地点 Harvard 与教授任职 MIT 混同。"
+    ],
+    "vocabulary": [
+      {
+        "word": "in attendance",
+        "meaning": "在场的；出席的",
+        "context": "说明教授参加了所述讲座，不把他称作讲座的学生主讲者。",
+        "example": "Several researchers were in attendance at the lecture.",
+        "collocations": [
+          "a professor in attendance",
+          "in attendance at a lecture"
+        ]
+      }
+    ],
+    "translation": "在场的一位 MIT 物理教授说，Sidis 将成为伟大的天文数学家与科学领袖。但教授的预测错了。Sidis 耗尽了热情。过早专攻，可能使人对生活中其他活动的兴趣消退，也可能导致早期倦怠。",
+    "evidenceTargetIds": [
+      "c07-s01-p071-06795-s005"
+    ],
+    "evidence": [
+      {
+        "quote": "An MIT physics professor in attendance remarked that Sidis would be a great astronomical mathematician and a scientific leader. But the professor’s prediction was wrong. Sidis burned out. Early specialization might dispel interest in other activities in life and could lead to early burnout.",
+        "sentenceIds": [
+          "c07-s01-p071-06795-s005",
+          "c07-s01-p071-06795-s006",
+          "c07-s01-p071-06795-s007",
+          "c07-s01-p071-06795-s008"
+        ],
+        "sources": [
+          {
+            "pdfPage": 72,
+            "block": 0,
+            "bbox": [
+              76.99,
+              75,
+              535.01,
+              245.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "15bbf8e4a71a34ea03db6cf1082a8857b1802d0927760cf48773dc9814c0ea1b"
+  },
+  {
+    "id": "qe-c07-0051",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-025",
+    "parentQuestionId": "q-c07-030",
+    "chapterId": "c07",
+    "sectionId": "c07-s01",
+    "paragraphId": "c07-s01-p071-06795",
+    "readingUnitId": "c07-s01-p071-06795-r005-008",
+    "sentenceIds": [
+      "c07-s01-p071-06795-s005",
+      "c07-s01-p071-06795-s006",
+      "c07-s01-p071-06795-s007",
+      "c07-s01-p071-06795-s008"
+    ],
+    "passage": "An MIT physics professor in attendance remarked that Sidis would be a great astronomical mathematician and a scientific leader. But the professor’s prediction was wrong. Sidis burned out. Early specialization might dispel interest in other activities in life and could lead to early burnout.",
+    "prompt": "What does 'But the professor's prediction was wrong' contrast?",
+    "promptZh": "But the professor's prediction was wrong 对照什么？",
+    "options": [
+      "The professor and Sidis having identical names.",
+      "The professor never attending any lecture.",
+      "The idea that every early achievement was fabricated.",
+      "An optimistic forecast and the later outcome described as burnout."
+    ],
+    "optionsZh": [
+      "教授与 Sidis 姓名完全相同。",
+      "教授从未参加讲座。",
+      "每项早期成就都是编造的主张。",
+      "乐观预言与后来所述倦怠结局。"
+    ],
+    "answer": 3,
+    "type": "逻辑关系",
+    "support": "explicit",
+    "analyses": [
+      "A 不比较姓名。",
+      "B 与 in attendance 不符。",
+      "C 预测落空不等于此前考试讲座是假的。",
+      "D But 引出预测与实际走向差异，后句 burned out 支撑；不推到所有天才必有相同结局。"
+    ],
+    "vocabulary": [
+      {
+        "word": "prediction",
+        "meaning": "预测；对尚未发生之事的判断",
+        "context": "不同于已经观测到的结果；此处明确说未兑现。",
+        "example": "The later results did not match the initial prediction.",
+        "collocations": [
+          "the professor's prediction",
+          "a prediction was wrong"
+        ]
+      }
+    ],
+    "translation": "在场的一位 MIT 物理教授说，Sidis 将成为伟大的天文数学家与科学领袖。但教授的预测错了。Sidis 耗尽了热情。过早专攻，可能使人对生活中其他活动的兴趣消退，也可能导致早期倦怠。",
+    "evidenceTargetIds": [
+      "c07-s01-p071-06795-s006"
+    ],
+    "evidence": [
+      {
+        "quote": "An MIT physics professor in attendance remarked that Sidis would be a great astronomical mathematician and a scientific leader. But the professor’s prediction was wrong. Sidis burned out. Early specialization might dispel interest in other activities in life and could lead to early burnout.",
+        "sentenceIds": [
+          "c07-s01-p071-06795-s005",
+          "c07-s01-p071-06795-s006",
+          "c07-s01-p071-06795-s007",
+          "c07-s01-p071-06795-s008"
+        ],
+        "sources": [
+          {
+            "pdfPage": 72,
+            "block": 0,
+            "bbox": [
+              76.99,
+              75,
+              535.01,
+              245.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "96e7c07bd601182ca271d36eba9272936419b07df788c357a68772322576a270"
+  },
+  {
+    "id": "qe-c07-0052",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-025",
+    "parentQuestionId": "q-c07-030",
+    "chapterId": "c07",
+    "sectionId": "c07-s01",
+    "paragraphId": "c07-s01-p071-06795",
+    "readingUnitId": "c07-s01-p071-06795-r005-008",
+    "sentenceIds": [
+      "c07-s01-p071-06795-s005",
+      "c07-s01-p071-06795-s006",
+      "c07-s01-p071-06795-s007",
+      "c07-s01-p071-06795-s008"
+    ],
+    "passage": "An MIT physics professor in attendance remarked that Sidis would be a great astronomical mathematician and a scientific leader. But the professor’s prediction was wrong. Sidis burned out. Early specialization might dispel interest in other activities in life and could lead to early burnout.",
+    "prompt": "What does 'burned out' mean in the Sidis account?",
+    "promptZh": "Sidis 叙述中的 burned out 是什么意思？",
+    "options": [
+      "He was literally injured by a fire at the lecture.",
+      "He lost the ability to remember any fact.",
+      "He became exhausted or lost the drive to continue, as the book describes.",
+      "He fulfilled every optimistic career prediction."
+    ],
+    "optionsZh": [
+      "他在讲座中真的被火烧伤。",
+      "他失去记住任何事实的能力。",
+      "如书中所述，他耗尽精力或继续的动力。",
+      "他兑现所有乐观职业预测。"
+    ],
+    "answer": 2,
+    "type": "语境词义",
+    "support": "explicit",
+    "analyses": [
+      "A burnout 是状态习语，不是火灾事实。",
+      "B 不能加上全面失忆等未提供的病情。",
+      "C 后句说其他兴趣消退及早期倦怠，符合身心动力耗竭。",
+      "D 预测明确 wrong；不据本句作新的临床诊断，也不将 might,could 改为对所有人的确定因果。"
+    ],
+    "vocabulary": [
+      {
+        "word": "burned out",
+        "meaning": "精力或热情耗竭；倦怠",
+        "context": "与火燃尽的比喻有关，但此处不是实体烧伤。",
+        "example": "After months of uninterrupted work, he felt burned out.",
+        "collocations": [
+          "burned out",
+          "early burnout"
+        ]
+      }
+    ],
+    "translation": "在场的一位 MIT 物理教授说，Sidis 将成为伟大的天文数学家与科学领袖。但教授的预测错了。Sidis 耗尽了热情。过早专攻，可能使人对生活中其他活动的兴趣消退，也可能导致早期倦怠。",
+    "evidenceTargetIds": [
+      "c07-s01-p071-06795-s007"
+    ],
+    "evidence": [
+      {
+        "quote": "An MIT physics professor in attendance remarked that Sidis would be a great astronomical mathematician and a scientific leader. But the professor’s prediction was wrong. Sidis burned out. Early specialization might dispel interest in other activities in life and could lead to early burnout.",
+        "sentenceIds": [
+          "c07-s01-p071-06795-s005",
+          "c07-s01-p071-06795-s006",
+          "c07-s01-p071-06795-s007",
+          "c07-s01-p071-06795-s008"
+        ],
+        "sources": [
+          {
+            "pdfPage": 72,
+            "block": 0,
+            "bbox": [
+              76.99,
+              75,
+              535.01,
+              245.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "bdf9ce78b382483d9c288950d62cc2f5fab6ab218e94bf959ad53f31b8fbce95"
+  },
+  {
+    "id": "qe-c07-0053",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-025",
+    "parentQuestionId": "q-c07-032",
+    "chapterId": "c07",
+    "sectionId": "c07-s02",
+    "paragraphId": "c07-s02-p072-03015",
+    "readingUnitId": "c07-s02-p072-03015-r001-004",
+    "sentenceIds": [
+      "c07-s02-p072-03015-s001",
+      "c07-s02-p072-03015-s002",
+      "c07-s02-p072-03015-s003",
+      "c07-s02-p072-03015-s004"
+    ],
+    "passage": "The Major League Baseball season is long and grueling, consisting of 33 spring training games, 162 regular season games, and up to 22 postseason games—a total of 217 games! This schedule is especially demanding for Shohei Ohtani of the Dodgers, as he hits in most games and pitches at least once a week. He has grit and confidence. But he also has playfulness.",
+    "prompt": "What makes the schedule especially demanding for Ohtani in the book's account?",
+    "promptZh": "按本书叙述，什么让 Ohtani 的赛程尤其吃力？",
+    "options": [
+      "He pitches in most games and hits only about once a week.",
+      "He hits in most games and also pitches at least weekly.",
+      "He both hits and pitches in every game without any exceptions.",
+      "His schedule excludes postseason games and consists only of spring training."
+    ],
+    "optionsZh": [
+      "他多数比赛投球，仅约每周打击一次。",
+      "他多数比赛打击，并至少每周投球一次。",
+      "他每场都打击与投球，没有任何例外。",
+      "他的赛程排除季后赛，只含春训。"
+    ],
+    "answer": 1,
+    "type": "细节",
+    "support": "explicit",
+    "analyses": [
+      "A 把打击与投球的频率修饰对象倒置。",
+      "B as he hits...and pitches...给作者所述负荷理由，most 与 at least 分别修饰不同频率。",
+      "C most 与 at least once a week 都不能升级成每场两项均完成。",
+      "D This schedule 承接所列完整赛程，不能缩成仅春训；本题按书中叙述，不作最新赛季核验。"
+    ],
+    "vocabulary": [
+      {
+        "word": "at least",
+        "meaning": "至少；不低于所给下限",
+        "context": "修饰投球每周一次，不能改成恰好一次或打击频率。",
+        "example": "The group meets at least once a month.",
+        "collocations": [
+          "pitches at least once a week",
+          "at least weekly"
+        ]
+      }
+    ],
+    "translation": "原书描述，MLB 赛季漫长而艰苦，包括 33 场春训赛、162 场常规赛，以及最多 22 场季后赛——所列上限合计 217 场！这安排对 Dodgers 的 Shohei Ohtani 尤其吃力，书中说他多数比赛打击，至少每周投球一次。他有坚毅与自信，也有玩心。",
+    "evidenceTargetIds": [
+      "c07-s02-p072-03015-s002"
+    ],
+    "evidence": [
+      {
+        "quote": "The Major League Baseball season is long and grueling, consisting of 33 spring training games, 162 regular season games, and up to 22 postseason games—a total of 217 games! This schedule is especially demanding for Shohei Ohtani of the Dodgers, as he hits in most games and pitches at least once a week. He has grit and confidence. But he also has playfulness.",
+        "sentenceIds": [
+          "c07-s02-p072-03015-s001",
+          "c07-s02-p072-03015-s002",
+          "c07-s02-p072-03015-s003",
+          "c07-s02-p072-03015-s004"
+        ],
+        "sources": [
+          {
+            "pdfPage": 72,
+            "block": 2,
+            "bbox": [
+              76.99,
+              301.5,
+              535,
+              394.02
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "cedba715d98ce17fff4b1ccaf1c48e4d917e7dc7b0e0eb7835c3e5288c40a23b"
+  },
+  {
+    "id": "qe-c07-0054",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-025",
+    "parentQuestionId": "q-c07-032",
+    "chapterId": "c07",
+    "sectionId": "c07-s02",
+    "paragraphId": "c07-s02-p072-03015",
+    "readingUnitId": "c07-s02-p072-03015-r001-004",
+    "sentenceIds": [
+      "c07-s02-p072-03015-s001",
+      "c07-s02-p072-03015-s002",
+      "c07-s02-p072-03015-s003",
+      "c07-s02-p072-03015-s004"
+    ],
+    "passage": "The Major League Baseball season is long and grueling, consisting of 33 spring training games, 162 regular season games, and up to 22 postseason games—a total of 217 games! This schedule is especially demanding for Shohei Ohtani of the Dodgers, as he hits in most games and pitches at least once a week. He has grit and confidence. But he also has playfulness.",
+    "prompt": "Which two qualities are named before the contrast about playfulness?",
+    "promptZh": "提到玩心的转折前，点名哪两种品质？",
+    "options": [
+      "Grit and confidence.",
+      "Grit and playfulness.",
+      "Confidence and playfulness.",
+      "Talent and luck."
+    ],
+    "optionsZh": [
+      "坚毅与自信。",
+      "坚毅与玩心。",
+      "自信与玩心。",
+      "天赋与运气。"
+    ],
+    "answer": 0,
+    "type": "细节",
+    "support": "explicit",
+    "analyses": [
+      "A He has grit and confidence 是转折前的完整两项。",
+      "B playfulness 在后一句被 also 增补，不能移到此前两项中。",
+      "C 保留 confidence 却用后句玩心替代 grit，混淆顺序。",
+      "D 其他人物段有天赋描述，当前句没有 luck；增补玩心不取消坚毅自信。"
+    ],
+    "vocabulary": [
+      {
+        "word": "grit",
+        "meaning": "坚毅；长期坚持的韧劲",
+        "context": "不同于字面砂砾，也不保证永远无困难或只许一种投入方式。",
+        "example": "Her grit helped her continue through several setbacks.",
+        "collocations": [
+          "grit and confidence",
+          "have grit"
+        ]
+      }
+    ],
+    "translation": "原书描述，MLB 赛季漫长而艰苦，包括 33 场春训赛、162 场常规赛，以及最多 22 场季后赛——所列上限合计 217 场！这安排对 Dodgers 的 Shohei Ohtani 尤其吃力，书中说他多数比赛打击，至少每周投球一次。他有坚毅与自信，也有玩心。",
+    "evidenceTargetIds": [
+      "c07-s02-p072-03015-s003"
+    ],
+    "evidence": [
+      {
+        "quote": "The Major League Baseball season is long and grueling, consisting of 33 spring training games, 162 regular season games, and up to 22 postseason games—a total of 217 games! This schedule is especially demanding for Shohei Ohtani of the Dodgers, as he hits in most games and pitches at least once a week. He has grit and confidence. But he also has playfulness.",
+        "sentenceIds": [
+          "c07-s02-p072-03015-s001",
+          "c07-s02-p072-03015-s002",
+          "c07-s02-p072-03015-s003",
+          "c07-s02-p072-03015-s004"
+        ],
+        "sources": [
+          {
+            "pdfPage": 72,
+            "block": 2,
+            "bbox": [
+              76.99,
+              301.5,
+              535,
+              394.02
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "25b85ff682e2bcee822589a939ec94d0d75361fc67afc4a6cef2bf4d5e416e3c"
+  },
+  {
+    "id": "qe-c07-0055",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-025",
+    "parentQuestionId": "q-c07-032",
+    "chapterId": "c07",
+    "sectionId": "c07-s02",
+    "paragraphId": "c07-s02-p072-03015",
+    "readingUnitId": "c07-s02-p072-03015-r001-004",
+    "sentenceIds": [
+      "c07-s02-p072-03015-s001",
+      "c07-s02-p072-03015-s002",
+      "c07-s02-p072-03015-s003",
+      "c07-s02-p072-03015-s004"
+    ],
+    "passage": "The Major League Baseball season is long and grueling, consisting of 33 spring training games, 162 regular season games, and up to 22 postseason games—a total of 217 games! This schedule is especially demanding for Shohei Ohtani of the Dodgers, as he hits in most games and pitches at least once a week. He has grit and confidence. But he also has playfulness.",
+    "prompt": "What does 'But he also has playfulness' add to the description?",
+    "promptZh": "But he also has playfulness 补充什么？",
+    "options": [
+      "It cancels the earlier statement that he has grit.",
+      "It says confidence and playfulness can never coexist.",
+      "It proves playfulness alone guarantees every hit.",
+      "It highlights playfulness alongside grit and confidence."
+    ],
+    "optionsZh": [
+      "取消他有坚毅的前述陈述。",
+      "说自信与玩心绝不相容。",
+      "证明只有玩心便保证每次安打。",
+      "突出他在坚毅与自信之外也有玩心。"
+    ],
+    "answer": 3,
+    "type": "逻辑关系",
+    "support": "explicit",
+    "analyses": [
+      "A also 是增补，不撤回 grit。",
+      "B 同一人兼具恰说明可以并存。",
+      "C 未建立每次安打保证或单一原因。",
+      "D But 引人注意反差，also 保留三者同时具有；人物叙述不等于干预实验。"
+    ],
+    "vocabulary": [
+      {
+        "word": "playfulness",
+        "meaning": "玩心；俏皮、轻松尝试的倾向",
+        "context": "在高要求工作中仍有轻松幽默，并非完全不认真或拒绝练习。",
+        "example": "A little playfulness made the rehearsal less tense.",
+        "collocations": [
+          "also has playfulness",
+          "grit with playfulness"
+        ]
+      }
+    ],
+    "translation": "原书描述，MLB 赛季漫长而艰苦，包括 33 场春训赛、162 场常规赛，以及最多 22 场季后赛——所列上限合计 217 场！这安排对 Dodgers 的 Shohei Ohtani 尤其吃力，书中说他多数比赛打击，至少每周投球一次。他有坚毅与自信，也有玩心。",
+    "evidenceTargetIds": [
+      "c07-s02-p072-03015-s004"
+    ],
+    "evidence": [
+      {
+        "quote": "The Major League Baseball season is long and grueling, consisting of 33 spring training games, 162 regular season games, and up to 22 postseason games—a total of 217 games! This schedule is especially demanding for Shohei Ohtani of the Dodgers, as he hits in most games and pitches at least once a week. He has grit and confidence. But he also has playfulness.",
+        "sentenceIds": [
+          "c07-s02-p072-03015-s001",
+          "c07-s02-p072-03015-s002",
+          "c07-s02-p072-03015-s003",
+          "c07-s02-p072-03015-s004"
+        ],
+        "sources": [
+          {
+            "pdfPage": 72,
+            "block": 2,
+            "bbox": [
+              76.99,
+              301.5,
+              535,
+              394.02
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "e8055a8899c7f1073bb63b29a15c8902185c1b9cb19941018386c9f5ea2eb9b8"
+  },
+  {
+    "id": "qe-c07-0056",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-025",
+    "parentQuestionId": "q-c07-033",
+    "chapterId": "c07",
+    "sectionId": "c07-s02",
+    "paragraphId": "c07-s02-p072-03990",
+    "readingUnitId": "c07-s02-p072-03990-r001-004",
+    "sentenceIds": [
+      "c07-s02-p072-03990-s001",
+      "c07-s02-p072-03990-s002",
+      "c07-s02-p072-03990-s003",
+      "c07-s02-p072-03990-s004"
+    ],
+    "passage": "Ohtani had a terrible start to the 2022 season as a hitter, going 3 for 24 (.125). A stat like this might make a baseball player feel depressed. But during one game, after he failed to get a hit again and was making his way back to the dugout, Ohtani jokingly gave his bat CPR. His sense of humor in the face of difficulty appears to help Ohtani relax and perform at an elite level consistently.",
+    "prompt": "Which scope does the 3-for-24 statistic describe?",
+    "promptZh": "3-for-24 这项数据描述什么范围？",
+    "options": [
+      "His entire career as both pitcher and hitter.",
+      "Every game in the current season as newly checked data.",
+      "His start to the 2022 season as a hitter, as reported by the book.",
+      "The result of a personality test for all baseball players."
+    ],
+    "optionsZh": [
+      "他作为投手与打者的完整生涯。",
+      "刚核验的当前赛季每场比赛。",
+      "本书记载的2022赛季打击开局。",
+      "所有棒球员的人格测验结果。"
+    ],
+    "answer": 2,
+    "type": "语气与范围",
+    "support": "explicit",
+    "analyses": [
+      "A start 与 as a hitter 限定时期和角色。",
+      "B 明确2022，不是今天最新赛况。",
+      "C 保留 book、2022、start、hitter 四层边界，3/24 与.125按原文。",
+      "D 体育表现数据不是人格分数或心理诊断。"
+    ],
+    "vocabulary": [
+      {
+        "word": "as a hitter",
+        "meaning": "作为打者；就打击角色而言",
+        "context": "与投球角色区分，不把一个打击开局代表全部职业表现。",
+        "example": "He improved as a hitter during the later part of the season.",
+        "collocations": [
+          "as a hitter",
+          "start to a season"
+        ]
+      }
+    ],
+    "translation": "Ohtani 在 2022 赛季打击开局糟糕，24 次中有 3 次安打（.125）。这样的数据可能使球员沮丧。但某场比赛中，他又未击出安打、走回球员席时，开玩笑地给球棒做了 CPR。他面对困难的幽默感，似乎有助放松并持续保持顶级表现。",
+    "evidenceTargetIds": [
+      "c07-s02-p072-03990-s001"
+    ],
+    "evidence": [
+      {
+        "quote": "Ohtani had a terrible start to the 2022 season as a hitter, going 3 for 24 (.125).",
+        "sentenceIds": [
+          "c07-s02-p072-03990-s001"
+        ],
+        "sources": [
+          {
+            "pdfPage": 72,
+            "block": 3,
+            "bbox": [
+              76.99,
+              399,
+              535.01,
+              569.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "71bd025579b80ad3ee5bba317538bea002e9c25ff6d2ca9f139e0980fb593791"
+  },
+  {
+    "id": "qe-c07-0057",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-025",
+    "parentQuestionId": "q-c07-033",
+    "chapterId": "c07",
+    "sectionId": "c07-s02",
+    "paragraphId": "c07-s02-p072-03990",
+    "readingUnitId": "c07-s02-p072-03990-r001-004",
+    "sentenceIds": [
+      "c07-s02-p072-03990-s001",
+      "c07-s02-p072-03990-s002",
+      "c07-s02-p072-03990-s003",
+      "c07-s02-p072-03990-s004"
+    ],
+    "passage": "Ohtani had a terrible start to the 2022 season as a hitter, going 3 for 24 (.125). A stat like this might make a baseball player feel depressed. But during one game, after he failed to get a hit again and was making his way back to the dugout, Ohtani jokingly gave his bat CPR. His sense of humor in the face of difficulty appears to help Ohtani relax and perform at an elite level consistently.",
+    "prompt": "What does 'might make a baseball player feel depressed' claim?",
+    "promptZh": "might make a baseball player feel depressed 提出什么强度的说法？",
+    "options": [
+      "Such a statistic could leave a player feeling low, without asserting a diagnosis or certainty.",
+      "Every player with that statistic must have clinical depression.",
+      "Ohtani's own private mental state has been conclusively measured.",
+      "No player could ever be upset by poor performance."
+    ],
+    "optionsZh": [
+      "这样的数据可能使球员沮丧，但未断言诊断或必然。",
+      "有此数据的每位球员必有临床抑郁症。",
+      "Ohtani 的私人心理状态已被确定测量。",
+      "没有球员可能因表现差而难过。"
+    ],
+    "answer": 0,
+    "type": "语气与范围",
+    "support": "explicit",
+    "analyses": [
+      "A might、a player 与 feel 保留可能的情绪反应。",
+      "B 将可能及感受过度强化为所有人临床诊断。",
+      "C 原句并非本人实测自述或私下病情证明。",
+      "D 否定一切难过也超出原文；不把假设反应写成实际已发生的个人诊断。"
+    ],
+    "vocabulary": [
+      {
+        "word": "might make",
+        "meaning": "可能使……；或许引发……",
+        "context": "可能性的描述，不提供必然结果或临床诊断。",
+        "example": "A result like that might make a student feel disappointed.",
+        "collocations": [
+          "might make a player feel",
+          "might make someone"
+        ]
+      }
+    ],
+    "translation": "Ohtani 在 2022 赛季打击开局糟糕，24 次中有 3 次安打（.125）。这样的数据可能使球员沮丧。但某场比赛中，他又未击出安打、走回球员席时，开玩笑地给球棒做了 CPR。他面对困难的幽默感，似乎有助放松并持续保持顶级表现。",
+    "evidenceTargetIds": [
+      "c07-s02-p072-03990-s002"
+    ],
+    "evidence": [
+      {
+        "quote": "Ohtani had a terrible start to the 2022 season as a hitter, going 3 for 24 (.125). A stat like this might make a baseball player feel depressed.",
+        "sentenceIds": [
+          "c07-s02-p072-03990-s001",
+          "c07-s02-p072-03990-s002"
+        ],
+        "sources": [
+          {
+            "pdfPage": 72,
+            "block": 3,
+            "bbox": [
+              76.99,
+              399,
+              535.01,
+              569.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "34989e137c5c69ad2c600195bb901ffd487f16715399f9a113407071a75c302c"
   }
 ]
