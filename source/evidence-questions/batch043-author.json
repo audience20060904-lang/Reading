@@ -1,0 +1,983 @@
+{
+  "schemaVersion": 1,
+  "id": "evidence-043",
+  "status": "authored",
+  "evidenceRule": "frozen-target-sentence",
+  "questions": [
+    {
+      "order": 1,
+      "prompt": "Which two factors are said to increase with residential proximity in the target sentence?",
+      "promptZh": "目标句说居住邻近增加哪两个因素？",
+      "options": [
+        "Verified identical personality and shared ancestry.",
+        "Marriage duration and every couple's household income.",
+        "Familiarity and perceived similarity.",
+        "The physical distance between partners and the number of countries visited."
+      ],
+      "optionsZh": [
+        "已核实相同人格与共同血统。",
+        "婚姻时长及每对家庭收入。",
+        "熟悉感与主观相似感。",
+        "双方物理距离与旅行国家数。"
+      ],
+      "answer": 2,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A perceived 不是客观人格或血统变同。",
+        "B 本句讨论人际吸引机制，不是每段婚姻时长收入。",
+        "C both familiarity and perceived similarity 明确，thereby 连到 attractiveness。",
+        "D 邻近不是距离增大，亦无旅行计数；按书中实验机制归述，不推每次接触必成婚。"
+      ],
+      "vocabulary": [
+        {
+          "word": "thereby",
+          "meaning": "从而；通过前述途径",
+          "context": "连接熟悉与相似感到人际吸引的所述机制，不把不同结果变量混成一个。",
+          "example": "The repeated display increased recognition, thereby changing the response.",
+          "collocations": [
+            "thereby enhancing",
+            "interpersonal attractiveness"
+          ]
+        }
+      ],
+      "evidenceQuote": "In this series of experiments, Zajonc and colleagues showed that repeated exposure amplifies not only familiarity, but also perceived similarity (to the rater) and favorability. Previous research already convincingly demonstrated that perceived similarity leads to attraction. New experiments showed that residential proximity increases both familiarity and perceived similarity, thereby enhancing the interpersonal attractiveness of those around us. These elegant experiments demonstrate that mere exposure increases favorability, providing a compelling causal claim for the Philadelphia marriage study and the Dutch cohabitation study."
+    },
+    {
+      "order": 2,
+      "prompt": "What does the question about American cities looking alike introduce?",
+      "promptZh": "美国城市看着相似的问句引入什么？",
+      "options": [
+        "An example extending the possible effects of familiarity beyond interpersonal relationships.",
+        "A record that the current reader has visited every American city.",
+        "Proof that all city buildings are physically identical.",
+        "A claim that the author has already tested every country's retail industry."
+      ],
+      "optionsZh": [
+        "把熟悉效应可能影响扩展到人际关系外的例子。",
+        "记录当前读者已访每座美国城市。",
+        "证明所有城市建筑物理完全相同。",
+        "声称作者已测试每国零售业。"
+      ],
+      "answer": 0,
+      "type": "篇章结构",
+      "support": "explicit",
+      "analyses": [
+        "A 前句 other aspects...may influence 后 For instance 转向城市商场，扩展应用范围。",
+        "B have you wondered 是行文邀请，不是用户行程资料。",
+        "C look alike 的观察不能升级所有建筑逐一相同。",
+        "D 没有全部国家实测；本句也未单独证明连锁相似的唯一原因。"
+      ],
+      "vocabulary": [
+        {
+          "word": "For instance",
+          "meaning": "例如；举例说",
+          "context": "将城市与商场作为更广应用的例子，而非穷尽全部领域。",
+          "example": "The idea may apply elsewhere; for instance, consider familiar shop signs.",
+          "collocations": [
+            "For instance,have you wondered",
+            "other aspects of our lives"
+          ]
+        }
+      ],
+      "evidenceQuote": "These mere exposure effects may influence other aspects of our lives, too. For instance, have you wondered why American cities and suburbs look alike? When I first went to a large shopping mall in Staten Island, New York, I was impressed by the size and number of stores. When I later went to a medium-sized shopping mall in a suburb of Portland, Maine, I was puzzled."
+    },
+    {
+      "order": 3,
+      "prompt": "What initially impressed the author at the Staten Island mall?",
+      "promptZh": "Staten Island 商场起初什么使作者印象深刻？",
+      "options": [
+        "A lack of space and fewer stores than he had expected.",
+        "The fact that it was smaller than a local coffee shop.",
+        "A guarantee that every shop was locally owned.",
+        "Its size and the number of stores."
+      ],
+      "optionsZh": [
+        "空间不足、店铺比预期少。",
+        "比本地咖啡店还小。",
+        "每店都本地经营的保证。",
+        "商场规模与店铺数量。"
+      ],
+      "answer": 3,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A 原句 impressed by size and number 的开场是规模反应，不是说缺空间或店太少。",
+        "B large shopping mall 非小咖啡店。",
+        "C 没有逐店所有权核验。",
+        "D impressed by size and number 原文明示，定位首次 Staten Island,New York 经历，不挪给后来 Portland。"
+      ],
+      "vocabulary": [
+        {
+          "word": "impressed by",
+          "meaning": "对……印象深刻；因……感到惊叹",
+          "context": "这里是初访规模的反应，不是已确证各店经营质量。",
+          "example": "The visitor was impressed by the size of the collection.",
+          "collocations": [
+            "impressed by the size and number",
+            "a large shopping mall"
+          ]
+        }
+      ],
+      "evidenceQuote": "These mere exposure effects may influence other aspects of our lives, too. For instance, have you wondered why American cities and suburbs look alike? When I first went to a large shopping mall in Staten Island, New York, I was impressed by the size and number of stores. When I later went to a medium-sized shopping mall in a suburb of Portland, Maine, I was puzzled."
+    },
+    {
+      "order": 4,
+      "prompt": "Where was the later medium-sized mall that puzzled the author?",
+      "promptZh": "后来让作者困惑的中型商场在哪里？",
+      "options": [
+        "Staten Island, New York, at the very first visit.",
+        "A suburb of Portland, Maine.",
+        "The downtown area of Tokyo.",
+        "Portland, Oregon, which the passage explicitly names."
+      ],
+      "optionsZh": [
+        "第一次去的纽约 Staten Island。",
+        "缅因州 Portland 郊区。",
+        "东京市中心。",
+        "文中明确点名的俄勒冈州 Portland。"
+      ],
+      "answer": 1,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A 将 first 的纽约商场与 later 混同。",
+        "B medium-sized、suburb、Portland,Maine 三项对应。",
+        "C Tokyo 属下一对照，不是此商场。",
+        "D 原文 Maine 不是 Oregon，不能凭常见城市联想替换地点；puzzled 也未在本句独自给全部原因。"
+      ],
+      "vocabulary": [
+        {
+          "word": "puzzled",
+          "meaning": "困惑的；感到不解的",
+          "context": "描述后来商场引起的问题，不等于已经断定其不好或危险。",
+          "example": "The visitor was puzzled by the resemblance between the places.",
+          "collocations": [
+            "I was puzzled",
+            "When I later went"
+          ]
+        }
+      ],
+      "evidenceQuote": "These mere exposure effects may influence other aspects of our lives, too. For instance, have you wondered why American cities and suburbs look alike? When I first went to a large shopping mall in Staten Island, New York, I was impressed by the size and number of stores. When I later went to a medium-sized shopping mall in a suburb of Portland, Maine, I was puzzled."
+    },
+    {
+      "order": 5,
+      "prompt": "In what setting did the author experience the similar feeling described next?",
+      "promptZh": "接下来作者在何种情境有类似感受？",
+      "options": [
+        "As a graduate student attending psychology conferences in different U.S. cities.",
+        "As the only researcher conducting the1931 Philadelphia licence study.",
+        "As a professional basketball player on the Rockets.",
+        "As a visiting sports journalist covering professional basketball games."
+      ],
+      "optionsZh": [
+        "读研究生时去美国不同城市参加心理学会议。",
+        "独自实施1931费城许可研究时。",
+        "作为 Rockets 职业篮球员时。",
+        "以访问体育记者身份报道职业篮球赛。"
+      ],
+      "answer": 0,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A As a graduate student、psychology conferences、various U.S.cities 明确人物阶段与活动。",
+        "B Bossard 的历史研究不能改成本书作者亲自做。",
+        "C 作者前章观赛经历非球员身份。",
+        "D 这里明确 graduate student 与 psychology conferences，不能把前章观赛经历转成职业记者身份。"
+      ],
+      "vocabulary": [
+        {
+          "word": "various",
+          "meaning": "各种的；多个不同的",
+          "context": "描述会议涉及多座美国城市，不是每个城市都已全部走访。",
+          "example": "The student attended seminars in various cities.",
+          "collocations": [
+            "conferences in various cities",
+            "As a graduate student"
+          ]
+        }
+      ],
+      "evidenceQuote": "As a graduate student, I started going to psychology conferences in various cities around the U.S. and experienced a similar feeling. I would fly into a large airport, which was usually located in a faraway suburb of a major city. A taxi then takes a huge multilane highway, passing cookie-cutter housing developments, box stores, and shopping malls before finally reaching the downtown area where the conference usually takes place. Why do all these cities look alike?"
+    },
+    {
+      "order": 6,
+      "prompt": "What does 'I would fly into a large airport' describe in this paragraph?",
+      "promptZh": "本段 I would fly into a large airport 描述什么？",
+      "options": [
+        "A single future flight already booked by the user.",
+        "A rule that every airport in the world lies in a city centre.",
+        "A hypothetical task randomly assigned to all participants.",
+        "A repeated pattern in the author's past conference travel."
+      ],
+      "optionsZh": [
+        "用户已预订的一次未来航班。",
+        "全球所有机场都在市中心的规则。",
+        "随机给全体参与者的假想任务。",
+        "作者过去参加会议旅行的反复模式。"
+      ],
+      "answer": 3,
+      "type": "语法与语境",
+      "support": "explicit",
+      "analyses": [
+        "A would 在 As a graduate student 的过去叙述中表习惯，不是用户订票。",
+        "B usually located faraway suburb 既不是 every 也不是市中心。",
+        "C 此段为个人回忆，不是分派实验。",
+        "D 连续 wouldfly 与通常到会城市路线体现惯常经历，保留 usually 的范围。"
+      ],
+      "vocabulary": [
+        {
+          "word": "would",
+          "meaning": "过去常常会；在回忆中表习惯性动作",
+          "context": "区别未来预测、条件句或读者必须执行的义务。",
+          "example": "During those years, I would take the early train to meetings.",
+          "collocations": [
+            "I would fly into a large airport",
+            "usually located in a faraway suburb"
+          ]
+        }
+      ],
+      "evidenceQuote": "As a graduate student, I started going to psychology conferences in various cities around the U.S. and experienced a similar feeling. I would fly into a large airport, which was usually located in a faraway suburb of a major city. A taxi then takes a huge multilane highway, passing cookie-cutter housing developments, box stores, and shopping malls before finally reaching the downtown area where the conference usually takes place. Why do all these cities look alike?"
+    },
+    {
+      "order": 7,
+      "prompt": "What recurring puzzle does the closing city question express?",
+      "promptZh": "结尾城市问句表达什么反复出现的疑惑？",
+      "options": [
+        "Why the conferences in different cities all had an identical academic programme.",
+        "Why the routes and built environments encountered in different cities seem so similar.",
+        "Why the author never travelled to more than one city.",
+        "Why every city has been scientifically proved to share the same population."
+      ],
+      "optionsZh": [
+        "为何不同城市会议的学术日程都完全相同。",
+        "为何不同城市所遇路线与建成环境看起来如此相似。",
+        "为何作者从未到过一城以上。",
+        "为何每座城市已科学证明人口相同。"
+      ],
+      "answer": 1,
+      "type": "作者意图",
+      "support": "explicit",
+      "analyses": [
+        "A 前面的机场道路住宅商场是环境相似，不是会议日程已被比较为全相同。",
+        "B 前面机场、公路、住宅、大卖场、商场到 downtown 的类似路线引出 why look alike。",
+        "C various cities 反对只去一处。",
+        "D 不是人口同量测定，更不是所有建筑完全复制；保持观察性个人疑问。"
+      ],
+      "vocabulary": [
+        {
+          "word": "cookie-cutter",
+          "meaning": "千篇一律的；按同一模子做出的",
+          "context": "修饰住宅开发区，不是该段真在讨论烘焙工具。",
+          "example": "The road passed several cookie-cutter housing developments.",
+          "collocations": [
+            "cookie-cutter housing developments",
+            "box stores and shopping malls"
+          ]
+        }
+      ],
+      "evidenceQuote": "As a graduate student, I started going to psychology conferences in various cities around the U.S. and experienced a similar feeling. I would fly into a large airport, which was usually located in a faraway suburb of a major city. A taxi then takes a huge multilane highway, passing cookie-cutter housing developments, box stores, and shopping malls before finally reaching the downtown area where the conference usually takes place. Why do all these cities look alike?"
+    },
+    {
+      "order": 8,
+      "prompt": "Which features do Tokyo and Osaka share in the author's comparison?",
+      "promptZh": "作者比较中，Tokyo 与 Osaka 共有哪类特点？",
+      "options": [
+        "Only small towns without major transport stations.",
+        "Exactly the same local shops and identical feelings in every district.",
+        "Large-city scale, with many high-rise buildings and large train stations.",
+        "An absence of cafés and restaurants in either city."
+      ],
+      "optionsZh": [
+        "只是没有大型车站的小镇。",
+        "各区本地店完全相同、感觉一模一样。",
+        "大城市规模，许多高楼和大型车站。",
+        "两城都没有咖啡馆餐馆。"
+      ],
+      "answer": 2,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A both large cities 与 large train stations 直接反对。",
+        "B Yet different feels 区别共享大城市形态与不同气质。",
+        "C 三项共享特点在冒号后明示，不据此等同城市体验。",
+        "D 下一句 local stores,restaurants,cafes 多，不是全无；perhaps 的可能解释也不能写成确证唯一原因。"
+      ],
+      "vocabulary": [
+        {
+          "word": "high-rise",
+          "meaning": "高层的；多层向上发展的",
+          "context": "形容城市建筑高度类型，不指房价高或人口全部一样。",
+          "example": "The neighbourhood contained several high-rise buildings.",
+          "collocations": [
+            "high-rise buildings",
+            "large train stations"
+          ]
+        }
+      ],
+      "evidenceQuote": "This was not the case in Japan: Tokyo and Osaka are both large cities with many high-rise buildings and large train stations. Yet they have very different feels, perhaps due to the overwhelming number of local stores, restaurants, and cafés. In American suburbs, whether you’re outside of New York or LA, you can expect to see the same stores, like Target and Whole Foods, and the same restaurants, like the Cheesecake Factory and Panera."
+    },
+    {
+      "order": 9,
+      "prompt": "What point do the named national stores and restaurants illustrate?",
+      "promptZh": "点名全国商店与餐馆是为说明什么？",
+      "options": [
+        "Every suburb contains only local businesses with no repeated brands.",
+        "The author has verified each named branch is open today.",
+        "Japanese cities have no local commercial differences.",
+        "Familiar chains can recur across separated American suburban settings in the author's description."
+      ],
+      "optionsZh": [
+        "每郊区只本地商家、没有重复品牌。",
+        "作者已核实每家所列门店今天营业。",
+        "日本城市没有本地商业差异。",
+        "在作者描述中，熟悉连锁可在相隔很远的美国郊区反复出现。"
+      ],
+      "answer": 3,
+      "type": "作者意图",
+      "support": "explicit",
+      "analyses": [
+        "A same stores 列举恰说明重复品牌，不是全本地唯一。",
+        "B 书中例子不是当前营业查询或消费推荐。",
+        "C 日本本地店或是不同感觉的可能原因，不是无差异。",
+        "D whether NewYork or LA 配全国品牌说明熟悉与标准化场景；不扩大每一条街、每一家店都完全同。"
+      ],
+      "vocabulary": [
+        {
+          "word": "whether",
+          "meaning": "无论是……还是……",
+          "context": "此处 whether...NewYork or LA 举相隔地点仍相似的对照，不是询问某品牌真实性。",
+          "example": "Whether near one city or another, the traveller noticed familiar signs.",
+          "collocations": [
+            "whether you’re outside of New York or LA",
+            "the same stores"
+          ]
+        }
+      ],
+      "evidenceQuote": "This was not the case in Japan: Tokyo and Osaka are both large cities with many high-rise buildings and large train stations. Yet they have very different feels, perhaps due to the overwhelming number of local stores, restaurants, and cafés. In American suburbs, whether you’re outside of New York or LA, you can expect to see the same stores, like Target and Whole Foods, and the same restaurants, like the Cheesecake Factory and Panera."
+    },
+    {
+      "order": 10,
+      "prompt": "What was the author's coffee-shop habit in Charlottesville?",
+      "promptZh": "作者在 Charlottesville 的咖啡店习惯是什么？",
+      "options": [
+        "A daily local coffee shop rather than Starbucks.",
+        "Starbucks every day and no local coffee shops.",
+        "No coffee-shop visits of any kind.",
+        "A chain store visited only on weekends in Charlottesville."
+      ],
+      "optionsZh": [
+        "每天去本地咖啡店，不去 Starbucks。",
+        "每天 Starbucks，完全不去本地店。",
+        "从不去任何咖啡店。",
+        "只在 Charlottesville 周末去某连锁店。"
+      ],
+      "answer": 0,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A local every day、never Starbucks 限定该时期地点。",
+        "B 把旅行时的 Starbucks 偏好前移并反转本地习惯。",
+        "C every day 明确有到店。",
+        "D every day local shop 与仅周末连锁不符，不能把频率和店型同时替换。"
+      ],
+      "vocabulary": [
+        {
+          "word": "every day",
+          "meaning": "每天",
+          "context": "在 Charlottesville 那段回忆中限定频率，不能延展为其一生每一天。",
+          "example": "During that visit, she went to a local café every day.",
+          "collocations": [
+            "a local coffee shop every day",
+            "When I was in Charlottesville"
+          ]
+        }
+      ],
+      "evidenceQuote": "When I was in Charlottesville, I would go to a local coffee shop every day and never went to Starbucks. But when I was traveling, I would realize that all of a sudden I loved going to Starbucks. When I was in the psychology building (Gilmer Hall) in Charlottesville and saw a graduate student walking by, I would greet them with a very curt “hey.” When I saw the same graduate student at a conference in Las Vegas, I went “Hey, Gary, so nice to see you!” and almost hugged him."
+    },
+    {
+      "order": 11,
+      "prompt": "What does 'curt' suggest about the usual Gilmer Hall greeting?",
+      "promptZh": "curt 暗示平常 Gilmer Hall 招呼怎样？",
+      "options": [
+        "A prolonged enthusiastic embrace on every occasion.",
+        "A brief, abrupt greeting, contrasting with the warmer conference encounter.",
+        "A guarantee that the student was objectively disliked in all settings.",
+        "A formally scheduled interview using a long questionnaire."
+      ],
+      "optionsZh": [
+        "每次都是长时间热情拥抱。",
+        "简短略生硬的招呼，与会议更热情相对。",
+        "保证在所有场合客观讨厌该学生。",
+        "按长问卷安排的正式采访。"
+      ],
+      "answer": 1,
+      "type": "语境词义",
+      "support": "explicit",
+      "analyses": [
+        "A curt hey 与后面 almost hug 不同。",
+        "B very curt hey 是短促日常招呼，后面同一学生在 Vegas 得热烈反应。",
+        "C 简短招呼不证明内心绝对厌恶，情境差异是本段重点。",
+        "D 没有正式问卷或采访；别从语气推成学生人格好坏已测。"
+      ],
+      "vocabulary": [
+        {
+          "word": "curt",
+          "meaning": "简短生硬的；短促的",
+          "context": "描述招呼形式，不能自动升级成明确仇视。",
+          "example": "He gave a curt greeting before returning to work.",
+          "collocations": [
+            "a very curt hey",
+            "greet them"
+          ]
+        }
+      ],
+      "evidenceQuote": "When I was in Charlottesville, I would go to a local coffee shop every day and never went to Starbucks. But when I was traveling, I would realize that all of a sudden I loved going to Starbucks. When I was in the psychology building (Gilmer Hall) in Charlottesville and saw a graduate student walking by, I would greet them with a very curt “hey.” When I saw the same graduate student at a conference in Las Vegas, I went “Hey, Gary, so nice to see you!” and almost hugged him."
+    },
+    {
+      "order": 12,
+      "prompt": "What does 'almost hugged him' establish about the conference encounter?",
+      "promptZh": "almost hugged him 对会议相遇确立什么？",
+      "options": [
+        "It reports a completed hug repeated daily at Gilmer Hall.",
+        "It says no warm response came close to occurring.",
+        "It describes coming close to a hug without stating that the hug was completed.",
+        "It proves every stranger at the conference received a hug."
+      ],
+      "optionsZh": [
+        "报告在 Gilmer Hall 每天重复完成拥抱。",
+        "说完全没有接近发生任何热情反应。",
+        "描述差点拥抱，并未说已完成拥抱。",
+        "证明会议每位陌生人都被拥抱。"
+      ],
+      "answer": 2,
+      "type": "语气与范围",
+      "support": "explicit",
+      "analyses": [
+        "A 地点与 almost 两项都被偷换。",
+        "B enthusiastic Hey,Gary 与 almost hug 显示热情，不是无暖意。",
+        "C almost 保留接近而未陈述完成，him 由同段同一研究生 Gary 定位。",
+        "D 一位熟人不等于所有陌生人；原候选 and... 是前句延续，完整上下文引用不擅改单词。"
+      ],
+      "vocabulary": [
+        {
+          "word": "almost",
+          "meaning": "几乎；差一点",
+          "context": "此处不能把未陈述完成的动作写成实际已拥抱，更不能泛化成每人都如此。",
+          "example": "She almost called his name, but decided to wait.",
+          "collocations": [
+            "and almost hugged him",
+            "the same graduate student"
+          ]
+        }
+      ],
+      "evidenceQuote": "When I was in Charlottesville, I would go to a local coffee shop every day and never went to Starbucks. But when I was traveling, I would realize that all of a sudden I loved going to Starbucks. When I was in the psychology building (Gilmer Hall) in Charlottesville and saw a graduate student walking by, I would greet them with a very curt “hey.” When I saw the same graduate student at a conference in Las Vegas, I went “Hey, Gary, so nice to see you!” and almost hugged him."
+    },
+    {
+      "order": 13,
+      "prompt": "What contrast is raised by asking whether he would hug the student in Gilmer Hall?",
+      "promptZh": "问是否会在 Gilmer Hall 拥抱学生，提出什么对照？",
+      "options": [
+        "The same familiar person's appeal can differ between a usual setting and an unfamiliar one.",
+        "The student has been proved to be a different person at each location.",
+        "Everyone at every conference must be hugged before speaking.",
+        "The author is asking the user to initiate contact with the student."
+      ],
+      "optionsZh": [
+        "同一熟人在惯常环境与陌生环境中的吸引力可不同。",
+        "证明每个地点的学生其实是不同人。",
+        "每位会议参与者必须先拥抱才能说话。",
+        "作者要求用户与该学生接触。"
+      ],
+      "answer": 0,
+      "type": "作者意图",
+      "support": "explicit",
+      "analyses": [
+        "A 问 Gilmer Hall 后 No chance，再概括离开熟悉地方时熟人更有吸引力，呈现情境差别。",
+        "B him 为同一熟人，不是身份被替换。",
+        "C 自家故事不构成对每位参会者的规则。",
+        "D 书中自问不是网站联系指令；seems 保留个人解释的语气。"
+      ],
+      "vocabulary": [
+        {
+          "word": "away from familiar places",
+          "meaning": "远离熟悉地点；身处陌生环境",
+          "context": "作为熟人或店铺更有吸引力的情境，不是说熟悉的人本身客观改变。",
+          "example": "Away from familiar places, the traveller welcomed a recognisable face.",
+          "collocations": [
+            "away from familiar places",
+            "surrounded by strangers"
+          ]
+        }
+      ],
+      "evidenceQuote": "Would I ever hug him in Gilmer Hall? No chance. So, a familiar person or store seems to be particularly attractive when you are away from familiar places and surrounded by strangers."
+    },
+    {
+      "order": 14,
+      "prompt": "How should 'No chance' be read in the response about Gilmer Hall?",
+      "promptZh": "回答 Gilmer Hall 的 No chance 应怎样理解？",
+      "options": [
+        "As a measured zero probability applying to all future human meetings.",
+        "As confirmation that he hugged everyone there daily.",
+        "As an emphatic conversational rejection of that imagined local hug.",
+        "As a statement that the conference had been cancelled."
+      ],
+      "optionsZh": [
+        "作为适用于所有未来见面的测得零概率。",
+        "确认每天拥抱那里每个人。",
+        "对设想中的本地拥抱作口语上的强烈否定。",
+        "表示会议已取消。"
+      ],
+      "answer": 2,
+      "type": "语境词义",
+      "support": "explicit",
+      "analyses": [
+        "A 口语强调不是概率实验的精确全称零。",
+        "B 与 No 的回答及当地平常招呼相反。",
+        "C 紧接 Would I ever hug him in Gilmer Hall，省略回答的动作，不改写成真实已拥抱。",
+        "D 不是会议是否发生的问题；原文片段保留，不扩成普遍社交规则。"
+      ],
+      "vocabulary": [
+        {
+          "word": "No chance",
+          "meaning": "绝不可能；不会（此处为口语强烈否定）",
+          "context": "回答作者设想，区别统计上已测为零或所有人的终身禁令。",
+          "example": "Would the narrator repeat that greeting at home? No chance.",
+          "collocations": [
+            "Would I ever hug him",
+            "No chance"
+          ]
+        }
+      ],
+      "evidenceQuote": "Would I ever hug him in Gilmer Hall? No chance. So, a familiar person or store seems to be particularly attractive when you are away from familiar places and surrounded by strangers."
+    },
+    {
+      "order": 15,
+      "prompt": "What comparison did the chain-store study test?",
+      "promptZh": "连锁店研究检验什么比较？",
+      "options": [
+        "Whether every local café was owned by Starbucks.",
+        "Whether states with more residential mobility had more national chains than more stable states.",
+        "Whether mobile-phone ownership directly changed every person's marriage choice.",
+        "Whether every state had exactly the same population and income."
+      ],
+      "optionsZh": [
+        "每家本地咖啡店是否都由 Starbucks 持有。",
+        "居住流动较高州是否比稳定州有更多全国连锁店。",
+        "手机拥有是否直接改变每人择偶。",
+        "每州人口收入是否恰好相同。"
+      ],
+      "answer": 1,
+      "type": "研究设计",
+      "support": "explicit",
+      "analyses": [
+        "A 店铺种类或熟悉性对比不是所有权调查。",
+        "B mobile Nevada/Florida 与 stable Pennsylvania/WestVirginia 加 national chains 对应。",
+        "C mobile 指居住搬迁，不是手机。",
+        "D 后面控制人口收入不等于两指标在每州恰一样；不自行说州被随机分派流动程度。"
+      ],
+      "vocabulary": [
+        {
+          "word": "mobile states",
+          "meaning": "人口居住流动性高的州",
+          "context": "不是手机信号州、移动的州或政治阵营标签；与 stable states 相对。",
+          "example": "The study compared mobile states with more residentially stable ones.",
+          "collocations": [
+            "mobile states such as Nevada and Florida",
+            "stable states such as Pennsylvania and West Virginia"
+          ]
+        }
+      ],
+      "evidenceQuote": "We tested whether there were more national chain stores such as Chili’s, Whole Foods, and Payless Shoes in mobile states such as Nevada and Florida than in stable states such as Pennsylvania and West Virginia. The idea is that national chain stores are more familiar than local stores in a new town and offer psychological comfort. If so, national chain stores should be more popular in U.S. states where there are a lot of newcomers, such as Nevada and Florida."
+    },
+    {
+      "order": 16,
+      "prompt": "What status does 'If so ... should' give the prediction about chains and newcomers?",
+      "promptZh": "If so...should 使连锁店与新来者的说法处于什么性质？",
+      "options": [
+        "A complete denial that familiar stores could offer comfort.",
+        "A new claim that every newcomer has already bought from every chain.",
+        "A current guarantee that all named branches are open.",
+        "A conditional prediction based on familiar chains providing comfort in a new town."
+      ],
+      "optionsZh": [
+        "完全否认熟悉店可带安慰。",
+        "新主张每位新来者已买遍所有连锁。",
+        "保证所列门店现在全营业。",
+        "基于新城镇熟悉连锁提供安慰这一想法的条件性预测。"
+      ],
+      "answer": 3,
+      "type": "研究逻辑",
+      "support": "explicit",
+      "analyses": [
+        "A 前句 idea 正是 more familiar...comfort。",
+        "B popular 不表示每人已光顾每店。",
+        "C 历史研究例不等于当前营业核验。",
+        "D If so 回指解释，should 表预测，不是直接把心理安慰机制写成已经独立全部验证。"
+      ],
+      "vocabulary": [
+        {
+          "word": "newcomers",
+          "meaning": "新来者；刚迁入某地的人",
+          "context": "在本研究与居住流动相关，不是首次购买某平台会员的特定人群。",
+          "example": "Newcomers may recognise a familiar shop sign in an unfamiliar town.",
+          "collocations": [
+            "a lot of newcomers",
+            "should be more popular"
+          ]
+        }
+      ],
+      "evidenceQuote": "We tested whether there were more national chain stores such as Chili’s, Whole Foods, and Payless Shoes in mobile states such as Nevada and Florida than in stable states such as Pennsylvania and West Virginia. The idea is that national chain stores are more familiar than local stores in a new town and offer psychological comfort. If so, national chain stores should be more popular in U.S. states where there are a lot of newcomers, such as Nevada and Florida."
+    },
+    {
+      "order": 17,
+      "prompt": "What did the state comparison report about national chains?",
+      "promptZh": "州级比较报告全国连锁店怎样？",
+      "options": [
+        "More chains in mobile states than stable states, including after the stated statistical controls.",
+        "Fewer chains in mobile states once all stores were individually randomised.",
+        "No chains in either kind of state.",
+        "Identical counts in all states, with no relationship reported."
+      ],
+      "optionsZh": [
+        "高流动州比稳定州更多，所述统计控制后仍如此。",
+        "逐店随机分派后，高流动州更少。",
+        "两类州都无连锁店。",
+        "各州计数完全同，无关联报告。"
+      ],
+      "answer": 0,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A Sure enough 后明确更多，后句控制 median income 与 total population 仍成立。",
+        "B 方向反了，也没有逐店随机分派。",
+        "C more national chains 不等于两类零。",
+        "D 不同计数不是全同；统计控制不能自动排除所有其他原因或独立证明每位迁居者心理机制。"
+      ],
+      "vocabulary": [
+        {
+          "word": "controlling for",
+          "meaning": "在统计上控制……的影响",
+          "context": "此处收入中位数与人口，非让州收入人口物理完全一样，也非随机化证明所有因果。",
+          "example": "The association remained after controlling for population size.",
+          "collocations": [
+            "controlling for median income",
+            "the total population"
+          ]
+        }
+      ],
+      "evidenceQuote": "Sure enough, there are more national chain stores in mobile states than in stable states. This is true even when controlling for median income and the total population (as richer, more populated states would attract more businesses)."
+    },
+    {
+      "order": 18,
+      "prompt": "What does observing the effect 'in all three conditions' establish?",
+      "promptZh": "all three conditions 都观察到效应，确立什么？",
+      "options": [
+        "Every condition had exactly identical effect strength.",
+        "The mobility condition was the only one showing any exposure effect.",
+        "The general exposure pattern appeared in all conditions, while its strength could still differ.",
+        "All participants had actually relocated three times."
+      ],
+      "optionsZh": [
+        "每条件效应强度完全相同。",
+        "只有搬迁条件存在任何曝光效应。",
+        "各条件都有一般曝光模式，但强度仍可不同。",
+        "所有参与者实际都搬家三次。"
+      ],
+      "answer": 2,
+      "type": "语气与范围",
+      "support": "explicit",
+      "analyses": [
+        "A 下一句 particularly strong in mobility 明确强度差别。",
+        "B all three 不能只保留一个。",
+        "C 复现一般模式与某条件增强可同时成立，不混同有效与等强。",
+        "D 条件为想象情境，非实际搬家次数。"
+      ],
+      "vocabulary": [
+        {
+          "word": "conditions",
+          "meaning": "实验条件；分组情境",
+          "context": "本段三个思考情境，不是三次实际搬家或每个参与者都经历三种人生。",
+          "example": "The response appeared in all three conditions, but varied in strength.",
+          "collocations": [
+            "In all three conditions",
+            "residential mobility condition"
+          ]
+        }
+      ],
+      "evidenceQuote": "In all three conditions, we observed the mere exposure effect, replicating the earlier findings. Most importantly, though, we found that in the residential mobility condition participants showed a particularly strong familiarity-liking effect. That is, when they thought about moving around frequently in the future, they liked a familiar Chinese character or a familiar face more than when they thought about staying in one place for a long time or about a typical day."
+    },
+    {
+      "order": 19,
+      "prompt": "What distinguishes the stronger-liking condition in the explanatory sentence?",
+      "promptZh": "解释句中，更强喜欢反应的条件有什么特点？",
+      "options": [
+        "Participants were physically forced to move to a new city during the experiment.",
+        "Participants thought about frequent future moves rather than staying put or an ordinary day.",
+        "The familiar faces were guaranteed to be personal friends of every participant.",
+        "Participants were asked only about the current price of a Chinese painting."
+      ],
+      "optionsZh": [
+        "实验中被实际强迫迁入新城。",
+        "想象未来频繁搬迁，而非长期原地或普通一天。",
+        "熟悉面孔保证是每位参与者私人朋友。",
+        "只问中国画当前价格。"
+      ],
+      "answer": 1,
+      "type": "研究设计",
+      "support": "explicit",
+      "analyses": [
+        "A thought about 不是真迁居。",
+        "B when they thought...future 与另外两个条件直接对比，材料是熟悉汉字或面孔。",
+        "C familiar stimuli 不等于私交朋友。",
+        "D 没有画价任务；思维操纵不代表参与者真实未来一定搬迁。"
+      ],
+      "vocabulary": [
+        {
+          "word": "thought about",
+          "meaning": "想象；思考某种情境",
+          "context": "这里是研究操纵的未来生活设想，非已经发生的搬家记录。",
+          "example": "The group thought about living in one place for many years.",
+          "collocations": [
+            "thought about moving around frequently",
+            "in the future"
+          ]
+        }
+      ],
+      "evidenceQuote": "In all three conditions, we observed the mere exposure effect, replicating the earlier findings. Most importantly, though, we found that in the residential mobility condition participants showed a particularly strong familiarity-liking effect. That is, when they thought about moving around frequently in the future, they liked a familiar Chinese character or a familiar face more than when they thought about staying in one place for a long time or about a typical day."
+    },
+    {
+      "order": 20,
+      "prompt": "How is the stress-and-anxiety sentence connected to the preceding result?",
+      "promptZh": "压力焦虑句与前面结果如何相连？",
+      "options": [
+        "It proves a clinical diagnosis for every participant.",
+        "It reverses the reported relation so more anxiety words mean weaker familiarity preference.",
+        "It reports that stress was independently eliminated in all conditions.",
+        "It restates the author's interpretation of stronger familiarity preference alongside more anxiety-related language."
+      ],
+      "optionsZh": [
+        "证明每个参与者临床诊断。",
+        "反转为焦虑词越多、熟悉偏好越弱。",
+        "报告所有条件压力均被独立消除。",
+        "重述作者对更多焦虑语言伴随更强熟悉偏好的解释。"
+      ],
+      "answer": 3,
+      "type": "研究解释",
+      "support": "explicit",
+      "analyses": [
+        "A anxiety-related words 不等于诊断焦虑障碍。",
+        "B stronger 方向不能反写。",
+        "C 没有压力消除治疗或操纵的说明。",
+        "D In other words 接作者机制性解释；焦虑词与效应强度关联不单独证明压力是排除一切他因的唯一原因。"
+      ],
+      "vocabulary": [
+        {
+          "word": "amplify",
+          "meaning": "增强；放大",
+          "context": "在此描述熟悉偏好的强度，不是所有物体客观价值或安全性都提高。",
+          "example": "The context appeared to amplify the preference for familiar images.",
+          "collocations": [
+            "stress and anxiety amplify",
+            "our tendency to like a familiar object"
+          ]
+        }
+      ],
+      "evidenceQuote": "It turned out that those in the mobility condition used more anxiety-related words while describing their future mobile lives than those in the stability or the control conditions, and that the more anxiety-related words participants used, the stronger familiarity-liking effect they showed. In other words, stress and anxiety amplify our tendency to like a familiar object."
+    },
+    {
+      "order": 21,
+      "prompt": "How does calling the effect 'replicable' fit the next sentence?",
+      "promptZh": "称效应 replicable 与下一句怎样配合？",
+      "options": [
+        "The author acknowledges repeated findings but then asks readers to consider their implications critically.",
+        "Replicable means its implications must never be questioned.",
+        "It declares every prior experiment false.",
+        "It guarantees the effect alone produces the best choice in every real situation."
+      ],
+      "optionsZh": [
+        "作者承认可复现发现，继而要求批判思考其含义。",
+        "可复现意味着其含义绝不许质疑。",
+        "宣告此前每项实验都虚假。",
+        "保证效应单独令每个现实情境都最佳选择。"
+      ],
+      "answer": 0,
+      "type": "篇章结构",
+      "support": "explicit",
+      "analyses": [
+        "A 先肯定 replicable/fun，再 But think implications critically，区别存在效应与其是否总有益。",
+        "B 可复现不免于评估后果。",
+        "C critical 不是否认所有资料。",
+        "D 接着秘书问题讨论熟悉偏好可能限制探索，非总最优保证。"
+      ],
+      "vocabulary": [
+        {
+          "word": "replicable",
+          "meaning": "可复现的；可重复得到相应模式的",
+          "context": "不等于每个含义都无条件有益，也不替代当前研究范围限制。",
+          "example": "The authors describe a replicable pattern while questioning its consequences.",
+          "collocations": [
+            "a replicable phenomenon",
+            "implications critically"
+          ]
+        }
+      ],
+      "evidenceQuote": "The mere exposure effect is a replicable phenomenon and fun to read about. But let’s think about its implications critically. What about the secretary problem as it applies to finding a partner? You are supposed to explore unfamiliar candidates before settling down in order to make an optimal decision."
+    },
+    {
+      "order": 22,
+      "prompt": "Why return to the secretary problem after the familiarity results?",
+      "promptZh": "熟悉感结果后为何回到秘书问题？",
+      "options": [
+        "To state that no choice requires considering any unfamiliar option.",
+        "To say every participant has already been hired as a secretary.",
+        "To consider a tension between liking familiarity and exploring unfamiliar options before committing.",
+        "To replace the entire discussion with a current job advertisement."
+      ],
+      "optionsZh": [
+        "表示任何选择都无需考虑陌生选项。",
+        "说每位参与者已当秘书被雇。",
+        "考察喜欢熟悉事物与定下来前探索陌生选项的张力。",
+        "以当前招聘广告替代整段讨论。"
+      ],
+      "answer": 2,
+      "type": "作者意图",
+      "support": "explicit",
+      "analyses": [
+        "A 后句 supposed to explore unfamiliar 明说相反。",
+        "B secretary problem 为模型名，不是研究者聘用了每人。",
+        "C 问句应用择偶，再与先探索要求相连，承接 critical implications。",
+        "D 不是现实招聘或网站要执行的外部操作；不保证用该模型即可择到唯一最佳。"
+      ],
+      "vocabulary": [
+        {
+          "word": "as it applies to",
+          "meaning": "当它应用于……时；就其在……中的应用而言",
+          "context": "把模型放入找伴侣的讨论，不把模型等同真实关系全貌。",
+          "example": "The essay considers the rule as it applies to everyday choices.",
+          "collocations": [
+            "the secretary problem as it applies to finding a partner",
+            "explore unfamiliar candidates"
+          ]
+        }
+      ],
+      "evidenceQuote": "The mere exposure effect is a replicable phenomenon and fun to read about. But let’s think about its implications critically. What about the secretary problem as it applies to finding a partner? You are supposed to explore unfamiliar candidates before settling down in order to make an optimal decision."
+    },
+    {
+      "order": 23,
+      "prompt": "What is the proposed search demand in the paragraph's opening sentence?",
+      "promptZh": "段首提出什么搜索要求？",
+      "options": [
+        "Marry all twelve potential partners.",
+        "Seriously consider a dozen potential options before deciding, as the author's model-based discussion proposes.",
+        "Select only a familiar person without considering alternatives.",
+        "Wait until exactly twelve people have rejected a proposal."
+      ],
+      "optionsZh": [
+        "与十二个潜在对象全部结婚。",
+        "按作者模型讨论，决定前认真考察一打潜在选项。",
+        "不看备选，只选熟人。",
+        "等到恰十二个人拒绝求婚。"
+      ],
+      "answer": 1,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A consider 不等于与每人结婚或全部确立关系。",
+        "B seriously consider a dozen 对应所述搜索，属于作者应用性论述，不是网站对用户的实际要求或保证。",
+        "C 与 explore unfamiliar 的上下文方向相反。",
+        "D 没有十二次拒绝条件；不由 really good 改成数学保证唯一最好。"
+      ],
+      "vocabulary": [
+        {
+          "word": "seriously consider",
+          "meaning": "认真考虑；实质比较",
+          "context": "不同于随便看到或必须完成婚姻，不应虚构用户实际关系数。",
+          "example": "The fictional decision-maker seriously considered several alternatives.",
+          "collocations": [
+            "seriously consider a dozen",
+            "before settling down"
+          ]
+        }
+      ],
+      "evidenceQuote": "You are supposed to seriously consider a dozen potential mates if you want to have a really good partner. These are stressful processes. Psychological research shows that our tendency to like a familiar object and our aversion to extra effort makes us settle down prematurely. Our own research further shows that this bad mental habit gets worse when we are under stress."
+    },
+    {
+      "order": 24,
+      "prompt": "What does 'These are stressful processes' refer to here?",
+      "promptZh": "这里 These are stressful processes 指什么？",
+      "options": [
+        "Only the physical act of turning a page in this website.",
+        "A medical condition diagnosed in every person who recognises a face.",
+        "The construction of a new shopping mall by every participant.",
+        "The effortful exploration and consideration of unfamiliar potential partners described just before it."
+      ],
+      "optionsZh": [
+        "仅在本网站翻页的身体动作。",
+        "每个认出面孔者都被诊断的疾病。",
+        "每位参与者建新商场。",
+        "紧前所述费力探索并考虑陌生潜在伴侣的过程。"
+      ],
+      "answer": 3,
+      "type": "指代",
+      "support": "explicit",
+      "analyses": [
+        "A These 回指段落搜索讨论，不是网页操作。",
+        "B stressful 是负担描述，不等于临床诊断。",
+        "C 商场属前面例子，不是当前行动。",
+        "D 指 seriously consider...potential mates 等决策过程，后文连到熟悉偏好与厌额外努力；不据此断言每个人都必须回避探索。"
+      ],
+      "vocabulary": [
+        {
+          "word": "stressful",
+          "meaning": "带来压力的；费心费力的",
+          "context": "在作者论述中描述过程负担，非给读者或每位参与者贴疾病标签。",
+          "example": "Comparing many unfamiliar options can be stressful in the fictional task.",
+          "collocations": [
+            "These are stressful processes",
+            "aversion to extra effort"
+          ]
+        }
+      ],
+      "evidenceQuote": "You are supposed to seriously consider a dozen potential mates if you want to have a really good partner. These are stressful processes. Psychological research shows that our tendency to like a familiar object and our aversion to extra effort makes us settle down prematurely. Our own research further shows that this bad mental habit gets worse when we are under stress."
+    },
+    {
+      "order": 25,
+      "prompt": "What does the number three count in the author's Bates recollection?",
+      "promptZh": "Bates 回忆中的 three 计什么？",
+      "options": [
+        "The other Japanese students, apart from the author.",
+        "The entire student population of Bates.",
+        "The number of years the author is said to have lived in Las Vegas.",
+        "The total number of all foreign students worldwide."
+      ],
+      "optionsZh": [
+        "除作者之外的另外三名日本学生。",
+        "Bates 全部学生总数。",
+        "作者被说成住 Las Vegas 的年数。",
+        "全世界所有留学生总数。"
+      ],
+      "answer": 0,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A only three other Japanese students 后列 Yoko,Kiyomi,Mariko，other 排除作者本人。",
+        "B 国籍子群不等于学院全体。",
+        "C 数字计人，非年数或 Vegas 回忆。",
+        "D 限定 Bates 那段个人经历，不能扩大世界总数，也非用户本人的留学历史。"
+      ],
+      "vocabulary": [
+        {
+          "word": "other",
+          "meaning": "另外的；在已提到的人之外的",
+          "context": "在 three other Japanese students 中不含叙述者自己，注意范围限定。",
+          "example": "Besides the narrator, three other students shared the language.",
+          "collocations": [
+            "only three other Japanese students",
+            "When I studied abroad at Bates"
+          ]
+        }
+      ],
+      "evidenceQuote": "When I studied abroad at Bates, there were only three other Japanese students: Yoko, Kiyomi, and Mariko."
+    }
+  ]
+}
