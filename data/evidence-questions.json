@@ -106159,5 +106159,2094 @@
     ],
     "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
     "fingerprint": "a6fa1e5db91223d40d6853da5c281dbcb3d7f4158780eaa68e16fa783154e23d"
+  },
+  {
+    "id": "qe-c12-0017",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-053",
+    "parentQuestionId": "q-c12-013",
+    "chapterId": "c12",
+    "sectionId": "c12-s02",
+    "paragraphId": "c12-s02-p135-02700",
+    "readingUnitId": "c12-s02-p135-02700-r005-007",
+    "sentenceIds": [
+      "c12-s02-p135-02700-s005",
+      "c12-s02-p135-02700-s006",
+      "c12-s02-p135-02700-s007"
+    ],
+    "passage": "About two months later, in November, they were asked to indicate again how independent, self-confident, and socially skilled they currently were, relative to their same-age peers. At time two, the students were also asked to look back at the beginning of the semester and evaluate how independent, self-confident, and socially skilled they were. By assessing their current selves, as well as how they remembered themselves in the past, they were able to compare their recollections with their actual ratings two months earlier.",
+    "prompt": "What were participants asked to rate again in November?",
+    "promptZh": "十一月再次要求参与者评价什么？",
+    "options": [
+      "Only the confidence of their parents at age sixteen.",
+      "Their current independence, confidence, and social skill relative to same-age peers.",
+      "Only their expected income after graduation.",
+      "Their future academic scores as if those scores had already been recorded."
+    ],
+    "optionsZh": [
+      "仅评父母十六岁时的自信。",
+      "当时相对同龄人的独立、自信与社交能力。",
+      "仅评毕业后预计收入。",
+      "把未来学业分数当作已经记录的分数来评。"
+    ],
+    "answer": 1,
+    "type": "研究设计",
+    "support": "explicit",
+    "analyses": [
+      "A students及they currently were是他们本人，不是父母。",
+      "B November与again给第二时间点，currently和relative to peers保留当前与参照对象。",
+      "C 三项特质不是收入。",
+      "D 本句既不是未来预测，也没有把主观特质评价当作实际考试成绩。"
+    ],
+    "vocabulary": [
+      {
+        "word": "indicate",
+        "meaning": "表示；在问卷中报告自己的评价",
+        "context": "此处为参与者填写评分，不自动等于独立观察者测得相同性格变化。",
+        "example": "Participants were asked to indicate how confident they currently felt.",
+        "collocations": [
+          "asked to indicate again",
+          "relative to their same-age peers"
+        ]
+      }
+    ],
+    "translation": "约两月后十一月，再让学生评当下独立、自信、社交相对同龄人的程度；同时回想学期开始时的自己。评现在与记忆过去，使研究者可将回忆与两个月前实际自评记录比较。",
+    "evidenceTargetIds": [
+      "c12-s02-p135-02700-s005"
+    ],
+    "evidence": [
+      {
+        "quote": "About two months later, in November, they were asked to indicate again how independent, self-confident, and socially skilled they currently were, relative to their same-age peers. At time two, the students were also asked to look back at the beginning of the semester and evaluate how independent, self-confident, and socially skilled they were. By assessing their current selves, as well as how they remembered themselves in the past, they were able to compare their recollections with their actual ratings two months earlier.",
+        "sentenceIds": [
+          "c12-s02-p135-02700-s005",
+          "c12-s02-p135-02700-s006",
+          "c12-s02-p135-02700-s007"
+        ],
+        "sources": [
+          {
+            "pdfPage": 135,
+            "block": 1,
+            "bbox": [
+              76.99,
+              270,
+              535.01,
+              713.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "5d198b06545b7d233777b9485c2db1620138a3a0d756c218fb1eddc6f671ae7d"
+  },
+  {
+    "id": "qe-c12-0018",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-053",
+    "parentQuestionId": "q-c12-013",
+    "chapterId": "c12",
+    "sectionId": "c12-s02",
+    "paragraphId": "c12-s02-p135-02700",
+    "readingUnitId": "c12-s02-p135-02700-r005-007",
+    "sentenceIds": [
+      "c12-s02-p135-02700-s005",
+      "c12-s02-p135-02700-s006",
+      "c12-s02-p135-02700-s007"
+    ],
+    "passage": "About two months later, in November, they were asked to indicate again how independent, self-confident, and socially skilled they currently were, relative to their same-age peers. At time two, the students were also asked to look back at the beginning of the semester and evaluate how independent, self-confident, and socially skilled they were. By assessing their current selves, as well as how they remembered themselves in the past, they were able to compare their recollections with their actual ratings two months earlier.",
+    "prompt": "What additional rating was requested at time two?",
+    "promptZh": "第二时间点还额外要求什么评价？",
+    "options": [
+      "A recollection of how they had been at the beginning of the semester.",
+      "A new rating of someone else's future personality.",
+      "Only an exact copy of their current November rating with no reference to the past.",
+      "A report of the university's admission policy rather than their own traits."
+    ],
+    "optionsZh": [
+      "回想学期开始时自己怎样。",
+      "重新评价别人未来的人格。",
+      "只原样复制十一月当前评分，完全不提过去。",
+      "报告大学招生政策而非个人特质。"
+    ],
+    "answer": 0,
+    "type": "研究设计",
+    "support": "explicit",
+    "analyses": [
+      "A also与look back标出除当前评价外，还有对学期开始的回忆评价。",
+      "B 对象为students自己，不是别人的未来。",
+      "C look back...beginning明示过去，不能删去。",
+      "D 三特质评价不是招生制度；这项回忆之后可与早期真实记录比较，而非当作本来就准确的事实。"
+    ],
+    "vocabulary": [
+      {
+        "word": "look back",
+        "meaning": "回顾；回想过去",
+        "context": "与当前评分区分，指在第二时间点回忆学期开始的自我。",
+        "example": "At the later session, students were asked to look back at the start of term.",
+        "collocations": [
+          "look back at the beginning of the semester",
+          "At time two"
+        ]
+      }
+    ],
+    "translation": "约两月后十一月，再让学生评当下独立、自信、社交相对同龄人的程度；同时回想学期开始时的自己。评现在与记忆过去，使研究者可将回忆与两个月前实际自评记录比较。",
+    "evidenceTargetIds": [
+      "c12-s02-p135-02700-s006"
+    ],
+    "evidence": [
+      {
+        "quote": "About two months later, in November, they were asked to indicate again how independent, self-confident, and socially skilled they currently were, relative to their same-age peers. At time two, the students were also asked to look back at the beginning of the semester and evaluate how independent, self-confident, and socially skilled they were. By assessing their current selves, as well as how they remembered themselves in the past, they were able to compare their recollections with their actual ratings two months earlier.",
+        "sentenceIds": [
+          "c12-s02-p135-02700-s005",
+          "c12-s02-p135-02700-s006",
+          "c12-s02-p135-02700-s007"
+        ],
+        "sources": [
+          {
+            "pdfPage": 135,
+            "block": 1,
+            "bbox": [
+              76.99,
+              270,
+              535.01,
+              713.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "21fdaf76852101623aadbba639de0be7d0bf4fb17d3044b8b74a9cdf81d87b0f"
+  },
+  {
+    "id": "qe-c12-0019",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-053",
+    "parentQuestionId": "q-c12-014",
+    "chapterId": "c12",
+    "sectionId": "c12-s02",
+    "paragraphId": "c12-s02-p135-02700",
+    "readingUnitId": "c12-s02-p135-02700-r008-011",
+    "sentenceIds": [
+      "c12-s02-p135-02700-s008",
+      "c12-s02-p135-02700-s009",
+      "c12-s02-p135-02700-s010",
+      "c12-s02-p135-02700-s011"
+    ],
+    "passage": "In September, they rated their desirable traits as 6.35 on the same 11-point scale (way above average). In November, they rated themselves on the desirable traits as 6.05 on the same 11-point scale. Their September ratings were significantly better than their November ratings. Yet, in November, they remembered their September selves to be significantly worse than their November selves: the remembered September self-rating was 5.74!",
+    "prompt": "Which direction describes the actual recorded September and November self-ratings?",
+    "promptZh": "实际记录的九月与十一月自评分数是什么方向？",
+    "options": [
+      "September ratings were lower than November ratings.",
+      "Both recorded ratings were identical to the remembered September score of 5.74.",
+      "September ratings were significantly higher than November ratings.",
+      "The passage gives only remembered ratings and no earlier recorded rating."
+    ],
+    "optionsZh": [
+      "九月低于十一月。",
+      "两次实际评分都等于回忆九月的5.74。",
+      "九月实际评分显著高于十一月。",
+      "只有回忆评分，没有早期实际记录。"
+    ],
+    "answer": 2,
+    "type": "细节",
+    "support": "explicit",
+    "analyses": [
+      "A 将better than反读，且前文6.35大于6.05。",
+      "B 5.74是十一月回想九月所得，与九月当时6.35区分。",
+      "C significantly better直接给方向；这是自评分数比较，非独立证实每项实际能力都变差。",
+      "D earlier recorded ratings已给数值，不能忽略而仅取记忆结果。"
+    ],
+    "vocabulary": [
+      {
+        "word": "significantly",
+        "meaning": "显著地；在这里指报告中有意义的差异",
+        "context": "保留研究差异措辞，不补造原文未提供的p值、效应量或逐人结论。",
+        "example": "The earlier self-ratings were significantly higher in the reported comparison.",
+        "collocations": [
+          "significantly better than",
+          "Their September ratings"
+        ]
+      }
+    ],
+    "translation": "九月他们在同一11点量表评自己6.35，高于平均；十一月当下评分6.05。九月原始自评显著高于十一月。然而十一月回想九月时，竟觉得过去比现在显著更差：回忆九月评分只有5.74！",
+    "evidenceTargetIds": [
+      "c12-s02-p135-02700-s010"
+    ],
+    "evidence": [
+      {
+        "quote": "In September, they rated their desirable traits as 6.35 on the same 11-point scale (way above average). In November, they rated themselves on the desirable traits as 6.05 on the same 11-point scale. Their September ratings were significantly better than their November ratings. Yet, in November, they remembered their September selves to be significantly worse than their November selves: the remembered September self-rating was 5.74!",
+        "sentenceIds": [
+          "c12-s02-p135-02700-s008",
+          "c12-s02-p135-02700-s009",
+          "c12-s02-p135-02700-s010",
+          "c12-s02-p135-02700-s011"
+        ],
+        "sources": [
+          {
+            "pdfPage": 135,
+            "block": 1,
+            "bbox": [
+              76.99,
+              270,
+              535.01,
+              713.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "fe6453b9ca5528e445606c698458748c90ca20acaacb5617d9bc3505e89a064c"
+  },
+  {
+    "id": "qe-c12-0020",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-053",
+    "parentQuestionId": "q-c12-015",
+    "chapterId": "c12",
+    "sectionId": "c12-s02",
+    "paragraphId": "c12-s02-p135-02700",
+    "readingUnitId": "c12-s02-p135-02700-r012-015",
+    "sentenceIds": [
+      "c12-s02-p135-02700-s012",
+      "c12-s02-p135-02700-s013",
+      "c12-s02-p135-02700-s014",
+      "c12-s02-p135-02700-s015"
+    ],
+    "passage": "Wilson and Ross entitled their paper “From Chump to Champ: People’s Appraisals of Their Earlier and Present Selves.” By seeing our old selves as not particularly self-confident, socially skilled, or independent, we can see our current selves as much stronger in those areas. To borrow Tim Wilson’s terminology, we are constantly story editing. The derogation of the past self is one editing method.",
+    "prompt": "What topic is named in the paper's subtitle?",
+    "promptZh": "论文副标题点名什么主题？",
+    "options": [
+      "Only objective test scores, without self-evaluations.",
+      "Current evaluations of strangers rather than the self.",
+      "Parents' evaluations only of their children's present traits.",
+      "People's appraisals of their earlier and present selves."
+    ],
+    "optionsZh": [
+      "只有客观测验分数，不涉及自我评价。",
+      "对陌生人的当前评价，而非自我。",
+      "父母只评价子女当前特质。",
+      "人们对过去与当前自我的评价。"
+    ],
+    "answer": 3,
+    "type": "细节",
+    "support": "explicit",
+    "analyses": [
+      "A Appraisals of...selves指对自我的评价，非仅客观分数。",
+      "B Their...selves明确本人，不是陌生人。",
+      "C Earlier and Present是时间比较，不是仅亲子评价。",
+      "D 副标题逐项对应；不把Chump to Champ的标题修辞当作每项实际能力已客观提高的证明。"
+    ],
+    "vocabulary": [
+      {
+        "word": "Appraisals",
+        "meaning": "评价；对某对象作出的判断",
+        "context": "标题里是对自我的看法，区别客观技能成绩或第三方医学诊断。",
+        "example": "The study compared appraisals of earlier and present selves.",
+        "collocations": [
+          "People’s Appraisals",
+          "Their Earlier and Present Selves"
+        ]
+      }
+    ],
+    "translation": "Wilson和Ross把论文题为《从笨手到能手：人们对过去与现在自我的评价》。把过去的自己看作不太自信、不太善交际或不太独立，我们就能觉得现在的自己在这些方面强得多。借用Tim Wilson的术语，我们一直在编辑自己的故事。贬低过去的自我就是一种编辑方法。",
+    "evidenceTargetIds": [
+      "c12-s02-p135-02700-s012"
+    ],
+    "evidence": [
+      {
+        "quote": "Wilson and Ross entitled their paper “From Chump to Champ: People’s Appraisals of Their Earlier and Present Selves.” By seeing our old selves as not particularly self-confident, socially skilled, or independent, we can see our current selves as much stronger in those areas. To borrow Tim Wilson’s terminology, we are constantly story editing. The derogation of the past self is one editing method.",
+        "sentenceIds": [
+          "c12-s02-p135-02700-s012",
+          "c12-s02-p135-02700-s013",
+          "c12-s02-p135-02700-s014",
+          "c12-s02-p135-02700-s015"
+        ],
+        "sources": [
+          {
+            "pdfPage": 135,
+            "block": 1,
+            "bbox": [
+              76.99,
+              270,
+              535.01,
+              713.52
+            ]
+          },
+          {
+            "pdfPage": 136,
+            "block": 0,
+            "bbox": [
+              76.99,
+              75,
+              535,
+              206.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "34699212d1b02a0ac1729063d97fd398a9626eef924a1869acae0c0c50b6b427"
+  },
+  {
+    "id": "qe-c12-0021",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-053",
+    "parentQuestionId": "q-c12-015",
+    "chapterId": "c12",
+    "sectionId": "c12-s02",
+    "paragraphId": "c12-s02-p135-02700",
+    "readingUnitId": "c12-s02-p135-02700-r012-015",
+    "sentenceIds": [
+      "c12-s02-p135-02700-s012",
+      "c12-s02-p135-02700-s013",
+      "c12-s02-p135-02700-s014",
+      "c12-s02-p135-02700-s015"
+    ],
+    "passage": "Wilson and Ross entitled their paper “From Chump to Champ: People’s Appraisals of Their Earlier and Present Selves.” By seeing our old selves as not particularly self-confident, socially skilled, or independent, we can see our current selves as much stronger in those areas. To borrow Tim Wilson’s terminology, we are constantly story editing. The derogation of the past self is one editing method.",
+    "prompt": "Why does the author say he is borrowing Tim Wilson's terminology?",
+    "promptZh": "作者为何说借用 Tim Wilson 的术语？",
+    "options": [
+      "To describe the ongoing reinterpretation of ourselves as story editing.",
+      "To claim he coined the term before Wilson did.",
+      "To identify Tim Wilson as the sole author of the Wilson and Ross paper.",
+      "To say that every remembered detail is intentionally fabricated."
+    ],
+    "optionsZh": [
+      "把持续重新理解自己的过程称为故事编辑。",
+      "声称自己比Wilson更早创造此术语。",
+      "把Tim Wilson认作Wilson与Ross论文唯一作者。",
+      "说每个回忆细节都是有意编造。"
+    ],
+    "answer": 0,
+    "type": "观点归属",
+    "support": "explicit",
+    "analyses": [
+      "A borrowing...terminology后是we are constantly story editing，以已介绍概念概括自我叙述。",
+      "B borrow不是自己先创造。",
+      "C 同姓人物与论文作者归属不能混同，原句只借用术语。",
+      "D 重新评估过去不等于每个细节全被故意捏造。"
+    ],
+    "vocabulary": [
+      {
+        "word": "terminology",
+        "meaning": "术语；某领域或作者使用的概念名称",
+        "context": "这里特指story editing的称呼，不是沿用Tim Wilson的全部实验程序。",
+        "example": "The author borrowed the terminology to describe the process.",
+        "collocations": [
+          "To borrow Tim Wilson’s terminology",
+          "constantly story editing"
+        ]
+      }
+    ],
+    "translation": "Wilson和Ross把论文题为《从笨手到能手：人们对过去与现在自我的评价》。把过去的自己看作不太自信、不太善交际或不太独立，我们就能觉得现在的自己在这些方面强得多。借用Tim Wilson的术语，我们一直在编辑自己的故事。贬低过去的自我就是一种编辑方法。",
+    "evidenceTargetIds": [
+      "c12-s02-p135-02700-s014"
+    ],
+    "evidence": [
+      {
+        "quote": "Wilson and Ross entitled their paper “From Chump to Champ: People’s Appraisals of Their Earlier and Present Selves.” By seeing our old selves as not particularly self-confident, socially skilled, or independent, we can see our current selves as much stronger in those areas. To borrow Tim Wilson’s terminology, we are constantly story editing. The derogation of the past self is one editing method.",
+        "sentenceIds": [
+          "c12-s02-p135-02700-s012",
+          "c12-s02-p135-02700-s013",
+          "c12-s02-p135-02700-s014",
+          "c12-s02-p135-02700-s015"
+        ],
+        "sources": [
+          {
+            "pdfPage": 135,
+            "block": 1,
+            "bbox": [
+              76.99,
+              270,
+              535.01,
+              713.52
+            ]
+          },
+          {
+            "pdfPage": 136,
+            "block": 0,
+            "bbox": [
+              76.99,
+              75,
+              535,
+              206.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "bc71050a0143e399b14c88e7b85a2c7a8203f828dcccd3e21432c6db8340c0cd"
+  },
+  {
+    "id": "qe-c12-0022",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-053",
+    "parentQuestionId": "q-c12-015",
+    "chapterId": "c12",
+    "sectionId": "c12-s02",
+    "paragraphId": "c12-s02-p135-02700",
+    "readingUnitId": "c12-s02-p135-02700-r012-015",
+    "sentenceIds": [
+      "c12-s02-p135-02700-s012",
+      "c12-s02-p135-02700-s013",
+      "c12-s02-p135-02700-s014",
+      "c12-s02-p135-02700-s015"
+    ],
+    "passage": "Wilson and Ross entitled their paper “From Chump to Champ: People’s Appraisals of Their Earlier and Present Selves.” By seeing our old selves as not particularly self-confident, socially skilled, or independent, we can see our current selves as much stronger in those areas. To borrow Tim Wilson’s terminology, we are constantly story editing. The derogation of the past self is one editing method.",
+    "prompt": "What does 'derogation of the past self' involve?",
+    "promptZh": "derogation of the past self 涉及什么？",
+    "options": [
+      "Making the past self seem superior to the present in every respect.",
+      "Removing every memory regardless of whether it is good or bad.",
+      "Viewing the past self less favourably so that the present can seem improved.",
+      "Proving by definition that every real skill has objectively improved."
+    ],
+    "optionsZh": [
+      "把过去自己说得每方面都胜过现在。",
+      "不论好坏删除一切记忆。",
+      "把过去自我看得较低，从而显得现在有所进步。",
+      "按定义证明每种实际能力都客观提高。"
+    ],
+    "answer": 2,
+    "type": "语境词义",
+    "support": "explicit",
+    "analyses": [
+      "A derogation是贬低过去，非抬高过去压低现在。",
+      "B 改变评价不等于删除全部记忆。",
+      "C 前句old selves not particularly...current stronger给出运作逻辑，one说明只是一种编辑方式。",
+      "D 感到进步与实际能力客观提高不是同义，前面实际记录和回忆比较正提醒这种差别。"
+    ],
+    "vocabulary": [
+      {
+        "word": "derogation",
+        "meaning": "贬低；降低对某人或某事的评价",
+        "context": "在此说对过去自我的评价方式，不是原文命令读者必须鄙视过去自己。",
+        "example": "Derogation of an earlier self can make the present appear stronger.",
+        "collocations": [
+          "The derogation of the past self",
+          "one editing method"
+        ]
+      }
+    ],
+    "translation": "Wilson和Ross把论文题为《从笨手到能手：人们对过去与现在自我的评价》。把过去的自己看作不太自信、不太善交际或不太独立，我们就能觉得现在的自己在这些方面强得多。借用Tim Wilson的术语，我们一直在编辑自己的故事。贬低过去的自我就是一种编辑方法。",
+    "evidenceTargetIds": [
+      "c12-s02-p135-02700-s015"
+    ],
+    "evidence": [
+      {
+        "quote": "Wilson and Ross entitled their paper “From Chump to Champ: People’s Appraisals of Their Earlier and Present Selves.” By seeing our old selves as not particularly self-confident, socially skilled, or independent, we can see our current selves as much stronger in those areas. To borrow Tim Wilson’s terminology, we are constantly story editing. The derogation of the past self is one editing method.",
+        "sentenceIds": [
+          "c12-s02-p135-02700-s012",
+          "c12-s02-p135-02700-s013",
+          "c12-s02-p135-02700-s014",
+          "c12-s02-p135-02700-s015"
+        ],
+        "sources": [
+          {
+            "pdfPage": 135,
+            "block": 1,
+            "bbox": [
+              76.99,
+              270,
+              535.01,
+              713.52
+            ]
+          },
+          {
+            "pdfPage": 136,
+            "block": 0,
+            "bbox": [
+              76.99,
+              75,
+              535,
+              206.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "52f9bc39222492a7ae3a9abae9911ee9a9af6b9a8275c4e24c7ff16f132c3972"
+  },
+  {
+    "id": "qe-c12-0023",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-053",
+    "parentQuestionId": "q-c12-016",
+    "chapterId": "c12",
+    "sectionId": "c12-s02",
+    "paragraphId": "c12-s02-p135-02700",
+    "readingUnitId": "c12-s02-p135-02700-r016-019",
+    "sentenceIds": [
+      "c12-s02-p135-02700-s016",
+      "c12-s02-p135-02700-s017",
+      "c12-s02-p135-02700-s018",
+      "c12-s02-p135-02700-s019"
+    ],
+    "passage": "I am still shy, but I was terribly shy when I was young (I think). So I can say that, compared to my youth, I have become far less shy. I am not a good writer, but I was a terrible writer when I was young. Compared to when I was twenty-five, I have become a better writer.",
+    "prompt": "Which interpretation preserves the author's claim about shyness?",
+    "promptZh": "哪种理解保留作者关于害羞的表述？",
+    "options": [
+      "He says he has never been shy at any point.",
+      "He sees himself as far less shy than in youth, while still describing himself as shy.",
+      "He proves that every person becomes equally outgoing by the same age.",
+      "He says his current shyness is greater than it was in youth."
+    ],
+    "optionsZh": [
+      "他说自己从未害羞。",
+      "他觉得比年轻时少害羞得多，同时仍说自己害羞。",
+      "证明每个人都在同一年龄同样外向。",
+      "说自己现在比年轻时更害羞。"
+    ],
+    "answer": 1,
+    "type": "同义改写",
+    "support": "explicit",
+    "analyses": [
+      "A 开头I am still shy否定从未害羞。",
+      "B compared to my youth与far less保留比较，still shy保留当前状态；I think也提示其回顾性认识。",
+      "C 这是个人例子，非全员年龄规律。",
+      "D less方向与greater相反，不能把相对变化读反。"
+    ],
+    "vocabulary": [
+      {
+        "word": "far less shy",
+        "meaning": "害羞程度小得多；远不如以前害羞",
+        "context": "far加强比较，不表示羞怯完全归零。",
+        "example": "She felt far less shy than she had as a teenager.",
+        "collocations": [
+          "compared to my youth",
+          "become far less shy"
+        ]
+      }
+    ],
+    "translation": "我现在仍害羞，但年轻时害羞得厉害（我想是这样）。所以我可以说，与年轻时相比，我已经没那么害羞了。我不是个好作家，但年轻时我写得糟糕。与25岁时相比，我成了一个写得更好的作者。",
+    "evidenceTargetIds": [
+      "c12-s02-p135-02700-s017"
+    ],
+    "evidence": [
+      {
+        "quote": "I am still shy, but I was terribly shy when I was young (I think). So I can say that, compared to my youth, I have become far less shy. I am not a good writer, but I was a terrible writer when I was young. Compared to when I was twenty-five, I have become a better writer.",
+        "sentenceIds": [
+          "c12-s02-p135-02700-s016",
+          "c12-s02-p135-02700-s017",
+          "c12-s02-p135-02700-s018",
+          "c12-s02-p135-02700-s019"
+        ],
+        "sources": [
+          {
+            "pdfPage": 136,
+            "block": 0,
+            "bbox": [
+              76.99,
+              75,
+              535,
+              206.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "3458880355ba490fba025b87195e0cf3b8ef53eedefb49aa0409ad0ed4c8b1ad"
+  },
+  {
+    "id": "qe-c12-0024",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-053",
+    "parentQuestionId": "q-c12-016",
+    "chapterId": "c12",
+    "sectionId": "c12-s02",
+    "paragraphId": "c12-s02-p135-02700",
+    "readingUnitId": "c12-s02-p135-02700-r016-019",
+    "sentenceIds": [
+      "c12-s02-p135-02700-s016",
+      "c12-s02-p135-02700-s017",
+      "c12-s02-p135-02700-s018",
+      "c12-s02-p135-02700-s019"
+    ],
+    "passage": "I am still shy, but I was terribly shy when I was young (I think). So I can say that, compared to my youth, I have become far less shy. I am not a good writer, but I was a terrible writer when I was young. Compared to when I was twenty-five, I have become a better writer.",
+    "prompt": "What comparison supports the author's statement that he is a better writer?",
+    "promptZh": "作者说写作更好，是与什么作比较？",
+    "options": [
+      "Every professional writer in the world.",
+      "Only his current students' exam answers.",
+      "An independently scored national writing contest.",
+      "His own writing when he was twenty-five."
+    ],
+    "optionsZh": [
+      "世界上每位职业作家。",
+      "仅当前学生考卷。",
+      "一场独立评分的全国写作比赛。",
+      "自己二十五岁时的写作。"
+    ],
+    "answer": 3,
+    "type": "细节",
+    "support": "explicit",
+    "analyses": [
+      "A better不是best worldwide，比较对象并非所有作家。",
+      "B 本段未提学生考卷。",
+      "C 没有比赛或独立评分程序。",
+      "D Compared to when I was twenty-five给自身早期基准；前句not a good writer提醒相对更好不等于绝对称好。"
+    ],
+    "vocabulary": [
+      {
+        "word": "better writer",
+        "meaning": "写得更好的作者；相对基准有改进的写作者",
+        "context": "比较级不自动等于优于每个别人，也不把个人自述当外部评分。",
+        "example": "He called himself a better writer than he had been at twenty-five.",
+        "collocations": [
+          "become a better writer",
+          "Compared to when I was twenty-five"
+        ]
+      }
+    ],
+    "translation": "我现在仍害羞，但年轻时害羞得厉害（我想是这样）。所以我可以说，与年轻时相比，我已经没那么害羞了。我不是个好作家，但年轻时我写得糟糕。与25岁时相比，我成了一个写得更好的作者。",
+    "evidenceTargetIds": [
+      "c12-s02-p135-02700-s019"
+    ],
+    "evidence": [
+      {
+        "quote": "I am still shy, but I was terribly shy when I was young (I think). So I can say that, compared to my youth, I have become far less shy. I am not a good writer, but I was a terrible writer when I was young. Compared to when I was twenty-five, I have become a better writer.",
+        "sentenceIds": [
+          "c12-s02-p135-02700-s016",
+          "c12-s02-p135-02700-s017",
+          "c12-s02-p135-02700-s018",
+          "c12-s02-p135-02700-s019"
+        ],
+        "sources": [
+          {
+            "pdfPage": 136,
+            "block": 0,
+            "bbox": [
+              76.99,
+              75,
+              535,
+              206.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "8bc977b8b595b4a8eab662a5a8beec8ec31fe4ddece41f49c84673c466e69eef"
+  },
+  {
+    "id": "qe-c12-0025",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-053",
+    "parentQuestionId": "q-c12-018",
+    "chapterId": "c12",
+    "sectionId": "c12-s03",
+    "paragraphId": "c12-s03-p136-02625",
+    "readingUnitId": "c12-s03-p136-02625-r001-004",
+    "sentenceIds": [
+      "c12-s03-p136-02625-s001",
+      "c12-s03-p136-02625-s002",
+      "c12-s03-p136-02625-s003",
+      "c12-s03-p136-02625-s004"
+    ],
+    "passage": "We can derogate our past self in many domains, from maturity to writing skills to morality. One area where story editing is difficult to implement is in objective performance. For instance, if you are a marathon runner of my age, you know exactly how you did ten years ago, five years ago, and last month. The record might look something like 2:31 ten years ago, 2:39 five years ago, and 2:48 last month.",
+    "prompt": "How broad is the range in which the author says past selves can be derogated?",
+    "promptZh": "作者说贬低过去自我的范围有多广？",
+    "options": [
+      "It is confined only to marathon times.",
+      "It is restricted solely to college GPA.",
+      "It extends across several domains, including maturity, writing skills, and morality.",
+      "It concerns only the number of books someone owns."
+    ],
+    "optionsZh": [
+      "只限马拉松用时。",
+      "仅限大学GPA。",
+      "跨多个领域，包括成熟程度、写作能力与道德。",
+      "只看拥有书籍的数量。"
+    ],
+    "answer": 2,
+    "type": "证据范围",
+    "support": "explicit",
+    "analyses": [
+      "A 后面马拉松反是客观记录较难编辑的例子，非本句唯一范围。",
+      "B 学业是随后例子，不是本句排他定义。",
+      "C many domains与from...to...to...列举保留非单一领域范围。",
+      "D 原句列的是品质能力等，未说仅藏书量。"
+    ],
+    "vocabulary": [
+      {
+        "word": "domains",
+        "meaning": "领域；可供评价的方面",
+        "context": "此处不是网站域名，而是成熟、写作、道德等自我评价类别。",
+        "example": "The narrative touched on several domains of personal development.",
+        "collocations": [
+          "in many domains",
+          "from maturity to writing skills to morality"
+        ]
+      }
+    ],
+    "translation": "我们能在许多领域贬低过去的自己，从成熟程度到写作能力再到道德品质。但在客观表现这个领域，故事编辑很难实施。例如，如果你是我这个年纪的马拉松跑者，就会清楚知道十年前、五年前和上个月的成绩。记录也许是十年前2小时31分、五年前2小时39分、上个月2小时48分。",
+    "evidenceTargetIds": [
+      "c12-s03-p136-02625-s001"
+    ],
+    "evidence": [
+      {
+        "quote": "We can derogate our past self in many domains, from maturity to writing skills to morality. One area where story editing is difficult to implement is in objective performance. For instance, if you are a marathon runner of my age, you know exactly how you did ten years ago, five years ago, and last month. The record might look something like 2:31 ten years ago, 2:39 five years ago, and 2:48 last month.",
+        "sentenceIds": [
+          "c12-s03-p136-02625-s001",
+          "c12-s03-p136-02625-s002",
+          "c12-s03-p136-02625-s003",
+          "c12-s03-p136-02625-s004"
+        ],
+        "sources": [
+          {
+            "pdfPage": 136,
+            "block": 2,
+            "bbox": [
+              76.99,
+              262.5,
+              535.01,
+              433.02
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "e9680392bb1ee0ac586935019fb06cdbc4c921ccbb761bba5674e7bc51de5374"
+  },
+  {
+    "id": "qe-c12-0026",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-053",
+    "parentQuestionId": "q-c12-018",
+    "chapterId": "c12",
+    "sectionId": "c12-s03",
+    "paragraphId": "c12-s03-p136-02625",
+    "readingUnitId": "c12-s03-p136-02625-r001-004",
+    "sentenceIds": [
+      "c12-s03-p136-02625-s001",
+      "c12-s03-p136-02625-s002",
+      "c12-s03-p136-02625-s003",
+      "c12-s03-p136-02625-s004"
+    ],
+    "passage": "We can derogate our past self in many domains, from maturity to writing skills to morality. One area where story editing is difficult to implement is in objective performance. For instance, if you are a marathon runner of my age, you know exactly how you did ten years ago, five years ago, and last month. The record might look something like 2:31 ten years ago, 2:39 five years ago, and 2:48 last month.",
+    "prompt": "Why introduce the example of a marathon runner's earlier performances?",
+    "promptZh": "为何引入跑者先前马拉松成绩的例子？",
+    "options": [
+      "To illustrate how clear performance records can constrain a story of improvement.",
+      "To certify that the author actually ran each of the times as an official result.",
+      "To show that a slower marathon time always proves faster running.",
+      "To claim that no record of athletic performance can ever exist."
+    ],
+    "optionsZh": [
+      "说明清楚的成绩记录可能约束进步叙事。",
+      "认证作者本人正式跑出所列每项成绩。",
+      "说明马拉松用时更长总代表更快。",
+      "声称体育表现不可能留下任何记录。"
+    ],
+    "answer": 0,
+    "type": "作者意图",
+    "support": "explicit",
+    "analyses": [
+      "A 前句objective performance难编辑，you know exactly与后面假设记录相接。",
+      "B if与record might look构成例示，不是作者本人每项正式成绩单。",
+      "C 时间增加不是更快，不能借讲述倒转客观方向。",
+      "D 例子恰强调有清晰过往成绩可参照。"
+    ],
+    "vocabulary": [
+      {
+        "word": "marathon runner",
+        "meaning": "马拉松跑者；参加长距离马拉松跑的人",
+        "context": "本例以条件式设定跑者记录，不是当前读者必须先完成的活动。",
+        "example": "A marathon runner can compare finishing times across years.",
+        "collocations": [
+          "if you are a marathon runner",
+          "you know exactly how you did"
+        ]
+      }
+    ],
+    "translation": "我们能在许多领域贬低过去的自己，从成熟程度到写作能力再到道德品质。但在客观表现这个领域，故事编辑很难实施。例如，如果你是我这个年纪的马拉松跑者，就会清楚知道十年前、五年前和上个月的成绩。记录也许是十年前2小时31分、五年前2小时39分、上个月2小时48分。",
+    "evidenceTargetIds": [
+      "c12-s03-p136-02625-s003"
+    ],
+    "evidence": [
+      {
+        "quote": "We can derogate our past self in many domains, from maturity to writing skills to morality. One area where story editing is difficult to implement is in objective performance. For instance, if you are a marathon runner of my age, you know exactly how you did ten years ago, five years ago, and last month. The record might look something like 2:31 ten years ago, 2:39 five years ago, and 2:48 last month.",
+        "sentenceIds": [
+          "c12-s03-p136-02625-s001",
+          "c12-s03-p136-02625-s002",
+          "c12-s03-p136-02625-s003",
+          "c12-s03-p136-02625-s004"
+        ],
+        "sources": [
+          {
+            "pdfPage": 136,
+            "block": 2,
+            "bbox": [
+              76.99,
+              262.5,
+              535.01,
+              433.02
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "981de126c40c30f035211f4fa0f05004ac261e9ce9edef6f0c7fbc83955fd4f6"
+  },
+  {
+    "id": "qe-c12-0027",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-053",
+    "parentQuestionId": "q-c12-019",
+    "chapterId": "c12",
+    "sectionId": "c12-s03",
+    "paragraphId": "c12-s03-p136-02625",
+    "readingUnitId": "c12-s03-p136-02625-r005-006",
+    "sentenceIds": [
+      "c12-s03-p136-02625-s005",
+      "c12-s03-p136-02625-s006"
+    ],
+    "passage": "If you are in the second semester of your first year in college, you remember exactly how you did academically in your first semester. If your grades haven’t improved, it’s hard to employ a “chump to champ” narrative.",
+    "prompt": "How does the first-semester example limit a 'chump to champ' story?",
+    "promptZh": "第一学期成绩的例子怎样限制 chump to champ 叙事？",
+    "options": [
+      "It proves every student has already improved by the second semester.",
+      "Known earlier academic results make it harder to claim improvement when grades have not improved.",
+      "It says second-semester students cannot know any past grade.",
+      "It requires erasing all official academic records before telling a story."
+    ],
+    "optionsZh": [
+      "证明每名学生第二学期已进步。",
+      "既有早期成绩使未提分者较难声称成绩进步。",
+      "说第二学期学生不可能知道任何旧成绩。",
+      "要求讲故事前删掉所有正式学业记录。"
+    ],
+    "answer": 1,
+    "type": "逻辑关系",
+    "support": "explicit",
+    "analyses": [
+      "A 条件if grades haven’t improved承认可能未进步。",
+      "B 前句能记得第一学期表现，后句据此说难采用从差到好的叙事。",
+      "C remember exactly方向相反；这是作者的说明性概括，不把它升级为所有人记忆永不出错。",
+      "D 作者讨论限制，不是建议篡改或销毁记录。"
+    ],
+    "vocabulary": [
+      {
+        "word": "academically",
+        "meaning": "在学业方面；就课程表现而言",
+        "context": "这里指第一学期学业成绩，区别身体健康、收入或人格全部方面。",
+        "example": "The student remembered how she had done academically in the first semester.",
+        "collocations": [
+          "how you did academically",
+          "in your first semester"
+        ]
+      }
+    ],
+    "translation": "如果你正在读大学一年级第二学期，就会清楚记得第一学期学业表现如何。如果成绩没有提高，要采用“从笨手到能手”的叙事就很难。",
+    "evidenceTargetIds": [
+      "c12-s03-p136-02625-s005"
+    ],
+    "evidence": [
+      {
+        "quote": "If you are in the second semester of your first year in college, you remember exactly how you did academically in your first semester. If your grades haven’t improved, it’s hard to employ a “chump to champ” narrative.",
+        "sentenceIds": [
+          "c12-s03-p136-02625-s005",
+          "c12-s03-p136-02625-s006"
+        ],
+        "sources": [
+          {
+            "pdfPage": 136,
+            "block": 2,
+            "bbox": [
+              76.99,
+              262.5,
+              535.01,
+              433.02
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "e05e6ee7467e0893dfe1fb69d6427c09925b06cabdf32d6261114655423ed872"
+  },
+  {
+    "id": "qe-c12-0028",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-053",
+    "parentQuestionId": "q-c12-020",
+    "chapterId": "c12",
+    "sectionId": "c12-s03",
+    "paragraphId": "c12-s03-p136-04380",
+    "readingUnitId": "c12-s03-p136-04380-r001-004",
+    "sentenceIds": [
+      "c12-s03-p136-04380-s001",
+      "c12-s03-p136-04380-s002",
+      "c12-s03-p136-04380-s003",
+      "c12-s03-p136-04380-s004"
+    ],
+    "passage": "But, even on more objective measures, people are drawn to a narrative about personal growth. Tim Wilson and Patricia Linville carried out an intriguing experiment to show how that can take place. They recruited second-semester first-year students at Duke who did not do well in the first semester of college. Half of them watched an interview with upper-class students talking about how they did poorly in their first year but improved over time.",
+    "prompt": "What qualification does 'even on more objective measures' introduce?",
+    "promptZh": "even on more objective measures 引入什么补充？",
+    "options": [
+      "Objective results guarantee that growth narratives have no appeal.",
+      "Only wholly invented achievements can interest people.",
+      "The author abandons all discussion of personal growth.",
+      "People remain attracted to growth narratives even when the measures are more objective."
+    ],
+    "optionsZh": [
+      "客观结果保证成长叙事毫无吸引力。",
+      "只有完全虚构成就才吸引人。",
+      "作者放弃一切成长议题。",
+      "即使衡量更客观，人仍会被成长叙事吸引。"
+    ],
+    "answer": 3,
+    "type": "逻辑关系",
+    "support": "explicit",
+    "analyses": [
+      "A But...even转折指出仍有吸引力，不是零吸引。",
+      "B drawn to narrative不等于必须虚构成就。",
+      "C 下一句还介绍展示此事的实验，未放弃议题。",
+      "D even保留出人意料的让步，people are drawn to给心理倾向，非保证每个干预对每个人有效。"
+    ],
+    "vocabulary": [
+      {
+        "word": "drawn to",
+        "meaning": "被吸引到；对某事产生倾向或兴趣",
+        "context": "这里不是画图，而是个人成长叙事的吸引力。",
+        "example": "People can be drawn to a narrative of improvement.",
+        "collocations": [
+          "drawn to a narrative",
+          "about personal growth"
+        ]
+      }
+    ],
+    "translation": "不过，即便是较客观的衡量指标，人们也会被个人成长叙事吸引。Tim Wilson与Patricia Linville做了一个引人兴趣的实验，展示这种情况如何发生。他们招募了杜克大学一年级第二学期、但第一学期表现不佳的学生。其中一半观看高年级学生访谈，听他们讲第一年成绩差、后来逐渐提高的经历。",
+    "evidenceTargetIds": [
+      "c12-s03-p136-04380-s001"
+    ],
+    "evidence": [
+      {
+        "quote": "But, even on more objective measures, people are drawn to a narrative about personal growth. Tim Wilson and Patricia Linville carried out an intriguing experiment to show how that can take place. They recruited second-semester first-year students at Duke who did not do well in the first semester of college. Half of them watched an interview with upper-class students talking about how they did poorly in their first year but improved over time.",
+        "sentenceIds": [
+          "c12-s03-p136-04380-s001",
+          "c12-s03-p136-04380-s002",
+          "c12-s03-p136-04380-s003",
+          "c12-s03-p136-04380-s004"
+        ],
+        "sources": [
+          {
+            "pdfPage": 136,
+            "block": 3,
+            "bbox": [
+              76.99,
+              438,
+              535.01,
+              686.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "9f69befb428c0b59a139777d56495e90f3cb0871beeef477752f61c9d4578de8"
+  },
+  {
+    "id": "qe-c12-0029",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-053",
+    "parentQuestionId": "q-c12-020",
+    "chapterId": "c12",
+    "sectionId": "c12-s03",
+    "paragraphId": "c12-s03-p136-04380",
+    "readingUnitId": "c12-s03-p136-04380-r001-004",
+    "sentenceIds": [
+      "c12-s03-p136-04380-s001",
+      "c12-s03-p136-04380-s002",
+      "c12-s03-p136-04380-s003",
+      "c12-s03-p136-04380-s004"
+    ],
+    "passage": "But, even on more objective measures, people are drawn to a narrative about personal growth. Tim Wilson and Patricia Linville carried out an intriguing experiment to show how that can take place. They recruited second-semester first-year students at Duke who did not do well in the first semester of college. Half of them watched an interview with upper-class students talking about how they did poorly in their first year but improved over time.",
+    "prompt": "Who carried out the experiment introduced after the personal-growth claim?",
+    "promptZh": "个人成长论述后引入的实验是谁开展的？",
+    "options": [
+      "Anne Wilson and Michael Ross, studying recollections alone.",
+      "Jean Decety and colleagues, using the earthquake sticker task.",
+      "Tim Wilson and Patricia Linville.",
+      "Huang-Yao Hong and Xiaodong Lin-Siegler, in the scientist-story comparison."
+    ],
+    "optionsZh": [
+      "Anne Wilson与Michael Ross，只研究回忆。",
+      "Jean Decety与同事，用地震贴纸任务。",
+      "Tim Wilson与Patricia Linville。",
+      "Huang-Yao Hong与Xiaodong Lin-Siegler，做科学家故事比较。"
+    ],
+    "answer": 2,
+    "type": "观点归属",
+    "support": "explicit",
+    "analyses": [
+      "A 是前文纵向自我评价研究的作者配对，非此处。",
+      "B 是上一章给予研究。",
+      "C 两人紧跟But后被明确点名，随后招募Duke新生。",
+      "D 这一研究在后面物理教学例子，不能与此处大学生实验对调。"
+    ],
+    "vocabulary": [
+      {
+        "word": "carried out",
+        "meaning": "开展；实施某项研究或工作",
+        "context": "在此指进行了实验，不是把物品从房间搬出去。",
+        "example": "The team carried out an experiment with first-year students.",
+        "collocations": [
+          "carried out an intriguing experiment",
+          "to show how that can take place"
+        ]
+      }
+    ],
+    "translation": "不过，即便是较客观的衡量指标，人们也会被个人成长叙事吸引。Tim Wilson与Patricia Linville做了一个引人兴趣的实验，展示这种情况如何发生。他们招募了杜克大学一年级第二学期、但第一学期表现不佳的学生。其中一半观看高年级学生访谈，听他们讲第一年成绩差、后来逐渐提高的经历。",
+    "evidenceTargetIds": [
+      "c12-s03-p136-04380-s002"
+    ],
+    "evidence": [
+      {
+        "quote": "But, even on more objective measures, people are drawn to a narrative about personal growth. Tim Wilson and Patricia Linville carried out an intriguing experiment to show how that can take place. They recruited second-semester first-year students at Duke who did not do well in the first semester of college. Half of them watched an interview with upper-class students talking about how they did poorly in their first year but improved over time.",
+        "sentenceIds": [
+          "c12-s03-p136-04380-s001",
+          "c12-s03-p136-04380-s002",
+          "c12-s03-p136-04380-s003",
+          "c12-s03-p136-04380-s004"
+        ],
+        "sources": [
+          {
+            "pdfPage": 136,
+            "block": 3,
+            "bbox": [
+              76.99,
+              438,
+              535.01,
+              686.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "b8618d5779f08511d21491606f8f24cd4defa1db0f025cd36299393c5d01691b"
+  },
+  {
+    "id": "qe-c12-0030",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-053",
+    "parentQuestionId": "q-c12-021",
+    "chapterId": "c12",
+    "sectionId": "c12-s03",
+    "paragraphId": "c12-s03-p136-04380",
+    "readingUnitId": "c12-s03-p136-04380-r005-007",
+    "sentenceIds": [
+      "c12-s03-p136-04380-s005",
+      "c12-s03-p136-04380-s006",
+      "c12-s03-p136-04380-s007"
+    ],
+    "passage": "One interviewee said his GPA increased from 2.0 to 2.6 to 3.2. Participants in the experimental condition were also shown the survey results of upper-class students: “67% said their freshman grades were lower than they had anticipated; 62% of the students said their GPA had improved significantly from the first semester of their freshman year to their upper-class years.” The other half of the participants did not receive any information.",
+    "prompt": "What GPA progression did one interviewee describe?",
+    "promptZh": "一位受访者描述了怎样的GPA变化？",
+    "options": [
+      "2.0, then 2.6, then 3.2.",
+      "3.2, then 2.6, then 2.0.",
+      "6.35, then 6.05, then 5.74.",
+      "67 percent, then 62 percent, then 25 percent."
+    ],
+    "optionsZh": [
+      "2.0，再2.6，再3.2。",
+      "3.2，再2.6，再2.0。",
+      "6.35，再6.05，再5.74。",
+      "67%，再62%，再25%。"
+    ],
+    "answer": 0,
+    "type": "细节",
+    "support": "explicit",
+    "analyses": [
+      "A from2.0to2.6to3.2保留递增次序和GPA单位。",
+      "B 将顺序反成下降。",
+      "C 混入前面11点自评分数，不是受访者GPA。",
+      "D 把不同调查或实验百分比当作同个人GPA；one interviewee也不是全体实验参与者的平均增长。"
+    ],
+    "vocabulary": [
+      {
+        "word": "increased",
+        "meaning": "增加；上升",
+        "context": "这里描述一名受访者自述的GPA方向，不能换为全部被试都达到同样成绩。",
+        "example": "The interviewee said his grade average increased over time.",
+        "collocations": [
+          "his GPA increased",
+          "from 2.0 to 2.6 to 3.2"
+        ]
+      }
+    ],
+    "translation": "一位受访者说，他的GPA从2.0升至2.6，再升至3.2。实验条件下的参与者还看到高年级学生的调查结果：“67%说大一成绩低于原先预期；62%说，自己的GPA从大一第一学期到高年级明显提高。”另一半参与者没有收到任何信息。",
+    "evidenceTargetIds": [
+      "c12-s03-p136-04380-s005"
+    ],
+    "evidence": [
+      {
+        "quote": "One interviewee said his GPA increased from 2.0 to 2.6 to 3.2. Participants in the experimental condition were also shown the survey results of upper-class students: “67% said their freshman grades were lower than they had anticipated; 62% of the students said their GPA had improved significantly from the first semester of their freshman year to their upper-class years.” The other half of the participants did not receive any information.",
+        "sentenceIds": [
+          "c12-s03-p136-04380-s005",
+          "c12-s03-p136-04380-s006",
+          "c12-s03-p136-04380-s007"
+        ],
+        "sources": [
+          {
+            "pdfPage": 136,
+            "block": 3,
+            "bbox": [
+              76.99,
+              438,
+              535.01,
+              686.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "9c000f2401423f1bff045d55a1a2ebe9117dc4b80a70344c03a0bbdb12cea416"
+  },
+  {
+    "id": "qe-c12-0031",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-053",
+    "parentQuestionId": "q-c12-021",
+    "chapterId": "c12",
+    "sectionId": "c12-s03",
+    "paragraphId": "c12-s03-p136-04380",
+    "readingUnitId": "c12-s03-p136-04380-r005-007",
+    "sentenceIds": [
+      "c12-s03-p136-04380-s005",
+      "c12-s03-p136-04380-s006",
+      "c12-s03-p136-04380-s007"
+    ],
+    "passage": "One interviewee said his GPA increased from 2.0 to 2.6 to 3.2. Participants in the experimental condition were also shown the survey results of upper-class students: “67% said their freshman grades were lower than they had anticipated; 62% of the students said their GPA had improved significantly from the first semester of their freshman year to their upper-class years.” The other half of the participants did not receive any information.",
+    "prompt": "What distinguishes the other half of the participants in this passage?",
+    "promptZh": "本段中另一半参与者有什么区别？",
+    "options": [
+      "They were shown the same GPA information twice as often.",
+      "They were excluded from all later questionnaires by this sentence.",
+      "They had already been proved to have the highest grades before the experiment.",
+      "They did not receive the GPA-related information provided to the experimental group."
+    ],
+    "optionsZh": [
+      "他们看同样GPA资料的次数多一倍。",
+      "本句说他们被排除在所有后续问卷之外。",
+      "实验前已证实他们成绩全体最高。",
+      "他们没有收到实验组看到的GPA相关信息。"
+    ],
+    "answer": 3,
+    "type": "研究设计",
+    "support": "explicit",
+    "analyses": [
+      "A did not receive与多看相反。",
+      "B 不收该信息不代表不参加后续测验，不能扩大程序限制。",
+      "C 原句不说他们基线最高，更未给这种分组依据。",
+      "D other half承接前面访谈与高年级调查信息，构成信息条件的对照，而非完全不参与研究。"
+    ],
+    "vocabulary": [
+      {
+        "word": "the other half",
+        "meaning": "另一半；在前述一半之外的那部分参与者",
+        "context": "区分信息呈现条件，不能直接推成相同参与者重复观看。",
+        "example": "The other half did not receive the background information.",
+        "collocations": [
+          "The other half of the participants",
+          "did not receive any information"
+        ]
+      }
+    ],
+    "translation": "一位受访者说，他的GPA从2.0升至2.6，再升至3.2。实验条件下的参与者还看到高年级学生的调查结果：“67%说大一成绩低于原先预期；62%说，自己的GPA从大一第一学期到高年级明显提高。”另一半参与者没有收到任何信息。",
+    "evidenceTargetIds": [
+      "c12-s03-p136-04380-s007"
+    ],
+    "evidence": [
+      {
+        "quote": "One interviewee said his GPA increased from 2.0 to 2.6 to 3.2. Participants in the experimental condition were also shown the survey results of upper-class students: “67% said their freshman grades were lower than they had anticipated; 62% of the students said their GPA had improved significantly from the first semester of their freshman year to their upper-class years.” The other half of the participants did not receive any information.",
+        "sentenceIds": [
+          "c12-s03-p136-04380-s005",
+          "c12-s03-p136-04380-s006",
+          "c12-s03-p136-04380-s007"
+        ],
+        "sources": [
+          {
+            "pdfPage": 136,
+            "block": 3,
+            "bbox": [
+              76.99,
+              438,
+              535.01,
+              686.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "0470220d5d4aa8515206b0674511a6daee66d3a818fd0887fa33a21b86d0e964"
+  },
+  {
+    "id": "qe-c12-0032",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-053",
+    "parentQuestionId": "q-c12-025",
+    "chapterId": "c12",
+    "sectionId": "c12-s03",
+    "paragraphId": "c12-s03-p137-03480",
+    "readingUnitId": "c12-s03-p137-03480-r001-003",
+    "sentenceIds": [
+      "c12-s03-p137-03480-s001",
+      "c12-s03-p137-03480-s002",
+      "c12-s03-p137-03480-s003"
+    ],
+    "passage": "Wilson and Linville’s experiment shows that having a role model— knowing someone who went through similar, tough experiences but ended up successful—can provide the idea and hope that it is possible to improve and survive. The key example of story editing here was how the students viewed their bad academic performance in the first semester. Instead of saying, “I am not smart enough to be at Duke,” they learned to say, “First year is tough for everyone; even smart kids struggle.”",
+    "prompt": "What can the role model provide in the author's interpretation?",
+    "promptZh": "在作者解释中，榜样能提供什么？",
+    "options": [
+      "A guarantee that every struggling student will obtain an identical final GPA.",
+      "The idea and hope that improvement and persistence are possible after similar difficulties.",
+      "Proof that intelligent students never struggle at university.",
+      "A way to change earlier official grades without doing further work."
+    ],
+    "optionsZh": [
+      "保证每个困难学生最后GPA完全相同。",
+      "经历类似困难后仍可能进步、坚持下来的想法与希望。",
+      "证明聪明学生在大学从不挣扎。",
+      "不用后续努力就能修改早期正式分数的方法。"
+    ],
+    "answer": 1,
+    "type": "作者观点",
+    "support": "explicit",
+    "analyses": [
+      "A can provide hope不是保证统一成绩。",
+      "B 破折号定义role model为类似艰难中后来成功者，can和possible保留可能。",
+      "C 末句even smart kids struggle反对这种理解。",
+      "D 改变对困难的看法不是改动既成成绩单。"
+    ],
+    "vocabulary": [
+      {
+        "word": "role model",
+        "meaning": "榜样；能让人参考其经历或做法的人",
+        "context": "本句重点是经历类似困难而后来成功者，不只是没有挫折的成就名人。",
+        "example": "A role model who had struggled made improvement seem possible.",
+        "collocations": [
+          "having a role model",
+          "went through similar, tough experiences"
+        ]
+      }
+    ],
+    "translation": "Wilson和Linville的实验表明，有一个榜样——知道有人经历过类似的艰难处境而最终成功——能带来一种想法和希望：提高表现并坚持下来是可能的。这里故事编辑的关键，在于学生如何看待自己第一学期糟糕的学业表现。他们不再说“我不够聪明，不配在杜克”，而学着说“大一对每个人都难；即使聪明的学生也会挣扎”。",
+    "evidenceTargetIds": [
+      "c12-s03-p137-03480-s001"
+    ],
+    "evidence": [
+      {
+        "quote": "Wilson and Linville’s experiment shows that having a role model— knowing someone who went through similar, tough experiences but ended up successful—can provide the idea and hope that it is possible to improve and survive. The key example of story editing here was how the students viewed their bad academic performance in the first semester. Instead of saying, “I am not smart enough to be at Duke,” they learned to say, “First year is tough for everyone; even smart kids struggle.”",
+        "sentenceIds": [
+          "c12-s03-p137-03480-s001",
+          "c12-s03-p137-03480-s002",
+          "c12-s03-p137-03480-s003"
+        ],
+        "sources": [
+          {
+            "pdfPage": 137,
+            "block": 2,
+            "bbox": [
+              76.99,
+              348,
+              535.01,
+              479.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "2a5f3541eb31c8fa2b81a7bbf7992074f880a02899bb51eff85bb2487cf26560"
+  },
+  {
+    "id": "qe-c12-0033",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-053",
+    "parentQuestionId": "q-c12-025",
+    "chapterId": "c12",
+    "sectionId": "c12-s03",
+    "paragraphId": "c12-s03-p137-03480",
+    "readingUnitId": "c12-s03-p137-03480-r001-003",
+    "sentenceIds": [
+      "c12-s03-p137-03480-s001",
+      "c12-s03-p137-03480-s002",
+      "c12-s03-p137-03480-s003"
+    ],
+    "passage": "Wilson and Linville’s experiment shows that having a role model— knowing someone who went through similar, tough experiences but ended up successful—can provide the idea and hope that it is possible to improve and survive. The key example of story editing here was how the students viewed their bad academic performance in the first semester. Instead of saying, “I am not smart enough to be at Duke,” they learned to say, “First year is tough for everyone; even smart kids struggle.”",
+    "prompt": "What was being reinterpreted in this example of story editing?",
+    "promptZh": "这个故事编辑例子重新解释的对象是什么？",
+    "options": [
+      "The students' first-semester poor academic performance.",
+      "Only the university's city and founding date.",
+      "Einstein's completed unification of every physical theory.",
+      "The researchers' own childhood GPA rather than the participants' experiences."
+    ],
+    "optionsZh": [
+      "学生第一学期不佳的学业表现。",
+      "只有大学所在城市与创校日期。",
+      "Einstein已完成的全部物理理论统一。",
+      "研究者自己童年GPA，而非参与者经历。"
+    ],
+    "answer": 0,
+    "type": "细节",
+    "support": "explicit",
+    "analyses": [
+      "A how students viewed...bad academic performance in first semester明确给对象。",
+      "B 没有把校史地理作此处重述对象。",
+      "C 物理例子尚在后面，也没有说统一已完成。",
+      "D students指参与学生，不能把自我解释主体换成研究者童年。"
+    ],
+    "vocabulary": [
+      {
+        "word": "viewed",
+        "meaning": "看待；怎样理解某经历",
+        "context": "与bad performance搭配，讨论解释方式，不等于已经改变过去成绩。",
+        "example": "They changed how they viewed the difficult first semester.",
+        "collocations": [
+          "how the students viewed",
+          "their bad academic performance"
+        ]
+      }
+    ],
+    "translation": "Wilson和Linville的实验表明，有一个榜样——知道有人经历过类似的艰难处境而最终成功——能带来一种想法和希望：提高表现并坚持下来是可能的。这里故事编辑的关键，在于学生如何看待自己第一学期糟糕的学业表现。他们不再说“我不够聪明，不配在杜克”，而学着说“大一对每个人都难；即使聪明的学生也会挣扎”。",
+    "evidenceTargetIds": [
+      "c12-s03-p137-03480-s002"
+    ],
+    "evidence": [
+      {
+        "quote": "Wilson and Linville’s experiment shows that having a role model— knowing someone who went through similar, tough experiences but ended up successful—can provide the idea and hope that it is possible to improve and survive. The key example of story editing here was how the students viewed their bad academic performance in the first semester. Instead of saying, “I am not smart enough to be at Duke,” they learned to say, “First year is tough for everyone; even smart kids struggle.”",
+        "sentenceIds": [
+          "c12-s03-p137-03480-s001",
+          "c12-s03-p137-03480-s002",
+          "c12-s03-p137-03480-s003"
+        ],
+        "sources": [
+          {
+            "pdfPage": 137,
+            "block": 2,
+            "bbox": [
+              76.99,
+              348,
+              535.01,
+              479.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "ea81e59d99c4ddeb0a2f3310a81caacf21964e33730fa136a189e9a989345265"
+  },
+  {
+    "id": "qe-c12-0034",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-053",
+    "parentQuestionId": "q-c12-026",
+    "chapterId": "c12",
+    "sectionId": "c12-s03",
+    "paragraphId": "c12-s03-p137-04845",
+    "readingUnitId": "c12-s03-p137-04845-r001-004",
+    "sentenceIds": [
+      "c12-s03-p137-04845-s001",
+      "c12-s03-p137-04845-s002",
+      "c12-s03-p137-04845-s003",
+      "c12-s03-p137-04845-s004"
+    ],
+    "passage": "Similarly, for most of us, physics is a tough subject. When we think about geniuses such as Galileo, Newton, and Einstein, we think that everything comes naturally to them and they are totally different from us. So, when we must learn E = mc2, it is hard for us to identify with Einstein. But what if you were told that Einstein struggled too?",
+    "prompt": "What scope does 'for most of us' give to the claim about physics?",
+    "promptZh": "for most of us 对物理困难的说法给出什么范围？",
+    "options": [
+      "Only Einstein could ever find physics difficult.",
+      "Every person without exception is unable to learn physics.",
+      "Physics is difficult for many people, without asserting the same difficulty for everyone.",
+      "Nobody outside the experiment has ever studied physics."
+    ],
+    "optionsZh": [
+      "只有Einstein才可能觉得物理难。",
+      "每个人都无例外学不会物理。",
+      "对许多人物理很难，但未断言人人困难相同。",
+      "实验外从没人学过物理。"
+    ],
+    "answer": 2,
+    "type": "证据范围",
+    "support": "explicit",
+    "analyses": [
+      "A most of us不是只一个历史人物。",
+      "B tough subject不等于永远学不会，most也非every。",
+      "C 保留多数范围和tough的难度描述，不推出能力永久缺失。",
+      "D 本句未限制到实验内人数，亦不否认外界学物理。"
+    ],
+    "vocabulary": [
+      {
+        "word": "tough",
+        "meaning": "困难的；具有挑战的",
+        "context": "修饰学科难度，不等于个人永远不可能理解。",
+        "example": "Physics can be a tough subject without being impossible to learn.",
+        "collocations": [
+          "physics is a tough subject",
+          "for most of us"
+        ]
+      }
+    ],
+    "translation": "同样，对我们大多数人来说，物理很难。想到伽利略、牛顿和爱因斯坦这样的天才，我们会觉得一切对他们都轻而易举，他们与我们全然不同。所以，必须学习E = mc2时，我们很难对爱因斯坦产生共鸣。但如果有人告诉你，爱因斯坦也曾挣扎呢？",
+    "evidenceTargetIds": [
+      "c12-s03-p137-04845-s001"
+    ],
+    "evidence": [
+      {
+        "quote": "Similarly, for most of us, physics is a tough subject. When we think about geniuses such as Galileo, Newton, and Einstein, we think that everything comes naturally to them and they are totally different from us. So, when we must learn E = mc2, it is hard for us to identify with Einstein. But what if you were told that Einstein struggled too?",
+        "sentenceIds": [
+          "c12-s03-p137-04845-s001",
+          "c12-s03-p137-04845-s002",
+          "c12-s03-p137-04845-s003",
+          "c12-s03-p137-04845-s004"
+        ],
+        "sources": [
+          {
+            "pdfPage": 137,
+            "block": 3,
+            "bbox": [
+              76.99,
+              484.5,
+              535.01,
+              695.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "e93b11e84fa4a7ba4c632fcd9dbddffe4c8076e733f3416057e55e1e398f744e"
+  },
+  {
+    "id": "qe-c12-0035",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-053",
+    "parentQuestionId": "q-c12-026",
+    "chapterId": "c12",
+    "sectionId": "c12-s03",
+    "paragraphId": "c12-s03-p137-04845",
+    "readingUnitId": "c12-s03-p137-04845-r001-004",
+    "sentenceIds": [
+      "c12-s03-p137-04845-s001",
+      "c12-s03-p137-04845-s002",
+      "c12-s03-p137-04845-s003",
+      "c12-s03-p137-04845-s004"
+    ],
+    "passage": "Similarly, for most of us, physics is a tough subject. When we think about geniuses such as Galileo, Newton, and Einstein, we think that everything comes naturally to them and they are totally different from us. So, when we must learn E = mc2, it is hard for us to identify with Einstein. But what if you were told that Einstein struggled too?",
+    "prompt": "What does 'identify with Einstein' mean in this context?",
+    "promptZh": "这里 identify with Einstein 是什么意思？",
+    "options": [
+      "Recognise only the spelling of Einstein's name.",
+      "Prove that one has personally written Einstein's theory.",
+      "State that every learner has exactly the same achievements as Einstein.",
+      "Relate to Einstein or see his experience as connected with one's own struggles."
+    ],
+    "optionsZh": [
+      "只认出Einstein姓名拼法。",
+      "证明自己亲自写了Einstein理论。",
+      "宣称每个学习者都取得与Einstein完全相同成就。",
+      "对Einstein产生共鸣，把他的经历与自己的困难联系起来。"
+    ],
+    "answer": 3,
+    "type": "语境词义",
+    "support": "explicit",
+    "analyses": [
+      "A identify with是产生共鸣，不是仅认名字。",
+      "B 理解共鸣不等于认领理论作者身份。",
+      "C 能联系经历不要求成就一模一样。",
+      "D 前面totally different使难共鸣，后句Einstein struggled too为转折可能；保留书中线性提取的公式原文，不增写物理推导。"
+    ],
+    "vocabulary": [
+      {
+        "word": "identify with",
+        "meaning": "认同；对某人的经历产生共鸣",
+        "context": "在此是学习者与被视为天才者之间的心理距离，不是身份证明。",
+        "example": "Students found it easier to identify with a scientist who had struggled.",
+        "collocations": [
+          "hard for us to identify with Einstein",
+          "Einstein struggled too"
+        ]
+      }
+    ],
+    "translation": "同样，对我们大多数人来说，物理很难。想到伽利略、牛顿和爱因斯坦这样的天才，我们会觉得一切对他们都轻而易举，他们与我们全然不同。所以，必须学习E = mc2时，我们很难对爱因斯坦产生共鸣。但如果有人告诉你，爱因斯坦也曾挣扎呢？",
+    "evidenceTargetIds": [
+      "c12-s03-p137-04845-s003"
+    ],
+    "evidence": [
+      {
+        "quote": "Similarly, for most of us, physics is a tough subject. When we think about geniuses such as Galileo, Newton, and Einstein, we think that everything comes naturally to them and they are totally different from us. So, when we must learn E = mc2, it is hard for us to identify with Einstein. But what if you were told that Einstein struggled too?",
+        "sentenceIds": [
+          "c12-s03-p137-04845-s001",
+          "c12-s03-p137-04845-s002",
+          "c12-s03-p137-04845-s003",
+          "c12-s03-p137-04845-s004"
+        ],
+        "sources": [
+          {
+            "pdfPage": 137,
+            "block": 3,
+            "bbox": [
+              76.99,
+              484.5,
+              535.01,
+              695.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "655846e070c8d19c295027e74781c60814e5f795ecf5c4b0e42707bc58a642c0"
+  },
+  {
+    "id": "qe-c12-0036",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-053",
+    "parentQuestionId": "q-c12-027",
+    "chapterId": "c12",
+    "sectionId": "c12-s03",
+    "paragraphId": "c12-s03-p137-04845",
+    "readingUnitId": "c12-s03-p137-04845-r005-008",
+    "sentenceIds": [
+      "c12-s03-p137-04845-s005",
+      "c12-s03-p137-04845-s006",
+      "c12-s03-p137-04845-s007",
+      "c12-s03-p137-04845-s008"
+    ],
+    "passage": "He was dissatisfied with his theory of relativity because it did not include electromagnetism. He tried to integrate electromagnetic and gravitational phenomena. Unfortunately, he was never able to do this, despite the fact that he spent the last twenty-five years of his life on it. Knowing this, Huang-Yao Hong and Xiaodong Lin-Siegler carried out an experiment telling one group of tenth-grade students about the struggles of Galileo, Newton, and Einstein, while telling another group only about their extraordinary accomplishments.",
+    "prompt": "According to the passage, why was Einstein dissatisfied with his theory?",
+    "promptZh": "按本段叙述，Einstein为何对自己的理论不满意？",
+    "options": [
+      "He believed it already explained every phenomenon without any gap.",
+      "It did not include electromagnetism.",
+      "He had never developed any theory at all.",
+      "It required students to receive GPA information at Duke."
+    ],
+    "optionsZh": [
+      "他认为它已无遗漏地解释每种现象。",
+      "它没有包含电磁学。",
+      "他从未提出任何理论。",
+      "它要求学生在Duke接受GPA信息。"
+    ],
+    "answer": 1,
+    "type": "细节",
+    "support": "explicit",
+    "analyses": [
+      "A because it did not include明确一个不足，不是毫无缺口。",
+      "B 原句because后的原因直接对应，保持这是本书的科学家经历叙述。",
+      "C his theory of relativity并非从无理论。",
+      "D 把前一教育实验与科学史对象混合，不能当本句原因。"
+    ],
+    "vocabulary": [
+      {
+        "word": "dissatisfied",
+        "meaning": "不满意的；认为尚有不足的",
+        "context": "不自动等于他否定理论的一切成果或认为自己从未成功。",
+        "example": "The scientist was dissatisfied with a theory that left something unexplained.",
+        "collocations": [
+          "dissatisfied with his theory of relativity",
+          "because it did not include electromagnetism"
+        ]
+      }
+    ],
+    "translation": "他不满意自己的相对论，因为它没有包含电磁学。他试图整合电磁和引力现象。遗憾的是，尽管生命最后25年都投入其中，他始终未能做到。Huang-Yao Hong和Xiaodong Lin-Siegler了解此事，于是做了实验：向一组十年级学生讲述伽利略、牛顿和爱因斯坦的挣扎，向另一组只讲他们的非凡成就。",
+    "evidenceTargetIds": [
+      "c12-s03-p137-04845-s005"
+    ],
+    "evidence": [
+      {
+        "quote": "He was dissatisfied with his theory of relativity because it did not include electromagnetism. He tried to integrate electromagnetic and gravitational phenomena. Unfortunately, he was never able to do this, despite the fact that he spent the last twenty-five years of his life on it. Knowing this, Huang-Yao Hong and Xiaodong Lin-Siegler carried out an experiment telling one group of tenth-grade students about the struggles of Galileo, Newton, and Einstein, while telling another group only about their extraordinary accomplishments.",
+        "sentenceIds": [
+          "c12-s03-p137-04845-s005",
+          "c12-s03-p137-04845-s006",
+          "c12-s03-p137-04845-s007",
+          "c12-s03-p137-04845-s008"
+        ],
+        "sources": [
+          {
+            "pdfPage": 137,
+            "block": 3,
+            "bbox": [
+              76.99,
+              484.5,
+              535.01,
+              695.52
+            ]
+          },
+          {
+            "pdfPage": 138,
+            "block": 0,
+            "bbox": [
+              76.99,
+              75,
+              535,
+              109.02
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "01a1f851f84aff9e7b028ce55bbbbe89eb6bb17f32f35351af0de2192ab459d8"
+  },
+  {
+    "id": "qe-c12-0037",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-053",
+    "parentQuestionId": "q-c12-027",
+    "chapterId": "c12",
+    "sectionId": "c12-s03",
+    "paragraphId": "c12-s03-p137-04845",
+    "readingUnitId": "c12-s03-p137-04845-r005-008",
+    "sentenceIds": [
+      "c12-s03-p137-04845-s005",
+      "c12-s03-p137-04845-s006",
+      "c12-s03-p137-04845-s007",
+      "c12-s03-p137-04845-s008"
+    ],
+    "passage": "He was dissatisfied with his theory of relativity because it did not include electromagnetism. He tried to integrate electromagnetic and gravitational phenomena. Unfortunately, he was never able to do this, despite the fact that he spent the last twenty-five years of his life on it. Knowing this, Huang-Yao Hong and Xiaodong Lin-Siegler carried out an experiment telling one group of tenth-grade students about the struggles of Galileo, Newton, and Einstein, while telling another group only about their extraordinary accomplishments.",
+    "prompt": "Which integration did Einstein attempt in this account?",
+    "promptZh": "在本段叙述里，Einstein试图整合什么？",
+    "options": [
+      "Electromagnetic and gravitational phenomena.",
+      "Only students' GPA scores and memory ratings.",
+      "Every scientific biography into a single fictional narrative.",
+      "The schools' donation tasks with municipal hiring procedures."
+    ],
+    "optionsZh": [
+      "电磁现象与引力现象。",
+      "仅学生GPA与回忆评分。",
+      "把所有科学家传记拼成一篇虚构故事。",
+      "学校捐赠任务与市政招聘程序。"
+    ],
+    "answer": 0,
+    "type": "细节",
+    "support": "explicit",
+    "analyses": [
+      "A integrate后两个并列形容词限定phenomena，直接给目标。",
+      "B 数值来自其他研究，不是所述物理目标。",
+      "C 本句不是编辑全部传记的文学任务。",
+      "D 混入前章研究程序；tried只表尝试，不等于目标已完成。"
+    ],
+    "vocabulary": [
+      {
+        "word": "integrate",
+        "meaning": "整合；把不同部分纳入统一体系",
+        "context": "这里是试图统一电磁与引力现象的解释，保留尝试状态。",
+        "example": "He tried to integrate the two sets of phenomena in one account.",
+        "collocations": [
+          "integrate electromagnetic and gravitational phenomena",
+          "He tried to"
+        ]
+      }
+    ],
+    "translation": "他不满意自己的相对论，因为它没有包含电磁学。他试图整合电磁和引力现象。遗憾的是，尽管生命最后25年都投入其中，他始终未能做到。Huang-Yao Hong和Xiaodong Lin-Siegler了解此事，于是做了实验：向一组十年级学生讲述伽利略、牛顿和爱因斯坦的挣扎，向另一组只讲他们的非凡成就。",
+    "evidenceTargetIds": [
+      "c12-s03-p137-04845-s006"
+    ],
+    "evidence": [
+      {
+        "quote": "He was dissatisfied with his theory of relativity because it did not include electromagnetism. He tried to integrate electromagnetic and gravitational phenomena. Unfortunately, he was never able to do this, despite the fact that he spent the last twenty-five years of his life on it. Knowing this, Huang-Yao Hong and Xiaodong Lin-Siegler carried out an experiment telling one group of tenth-grade students about the struggles of Galileo, Newton, and Einstein, while telling another group only about their extraordinary accomplishments.",
+        "sentenceIds": [
+          "c12-s03-p137-04845-s005",
+          "c12-s03-p137-04845-s006",
+          "c12-s03-p137-04845-s007",
+          "c12-s03-p137-04845-s008"
+        ],
+        "sources": [
+          {
+            "pdfPage": 137,
+            "block": 3,
+            "bbox": [
+              76.99,
+              484.5,
+              535.01,
+              695.52
+            ]
+          },
+          {
+            "pdfPage": 138,
+            "block": 0,
+            "bbox": [
+              76.99,
+              75,
+              535,
+              109.02
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "ed0a2b8179cc7a08443862dd84080e1ed8670dffb2131e01c832ffb7e01453a3"
+  },
+  {
+    "id": "qe-c12-0038",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-053",
+    "parentQuestionId": "q-c12-027",
+    "chapterId": "c12",
+    "sectionId": "c12-s03",
+    "paragraphId": "c12-s03-p137-04845",
+    "readingUnitId": "c12-s03-p137-04845-r005-008",
+    "sentenceIds": [
+      "c12-s03-p137-04845-s005",
+      "c12-s03-p137-04845-s006",
+      "c12-s03-p137-04845-s007",
+      "c12-s03-p137-04845-s008"
+    ],
+    "passage": "He was dissatisfied with his theory of relativity because it did not include electromagnetism. He tried to integrate electromagnetic and gravitational phenomena. Unfortunately, he was never able to do this, despite the fact that he spent the last twenty-five years of his life on it. Knowing this, Huang-Yao Hong and Xiaodong Lin-Siegler carried out an experiment telling one group of tenth-grade students about the struggles of Galileo, Newton, and Einstein, while telling another group only about their extraordinary accomplishments.",
+    "prompt": "What contrast is made by 'despite' in the account of Einstein's effort?",
+    "promptZh": "despite 在Einstein努力的叙述中形成什么对照？",
+    "options": [
+      "He succeeded immediately without spending time on the problem.",
+      "He gave up all scientific work before attempting the problem.",
+      "He spent his final twenty-five years on the integration but was never able to achieve it.",
+      "The passage says every contribution he ever made was a failure."
+    ],
+    "optionsZh": [
+      "他没花时间就立刻成功。",
+      "他尝试前已放弃一切科学工作。",
+      "他花生命最后25年做整合，却始终未能完成。",
+      "原文说他一生所有贡献都是失败。"
+    ],
+    "answer": 2,
+    "type": "逻辑关系",
+    "support": "explicit",
+    "analyses": [
+      "A never able与立即成功相反，且有长期投入。",
+      "B spent...on it与尚未尝试就停止不符。",
+      "C 时间投入与未实现该特定目标构成让步反差。",
+      "D this/it回指特定整合目标，不应扩大成一生所有理论成果均失败。"
+    ],
+    "vocabulary": [
+      {
+        "word": "despite",
+        "meaning": "尽管；引出与结果相反的条件或付出",
+        "context": "此处强调长期投入并未保证该目标成功，不否定一切科研价值。",
+        "example": "Despite years of effort, that particular goal remained unfinished.",
+        "collocations": [
+          "despite the fact that",
+          "spent the last twenty-five years of his life on it"
+        ]
+      }
+    ],
+    "translation": "他不满意自己的相对论，因为它没有包含电磁学。他试图整合电磁和引力现象。遗憾的是，尽管生命最后25年都投入其中，他始终未能做到。Huang-Yao Hong和Xiaodong Lin-Siegler了解此事，于是做了实验：向一组十年级学生讲述伽利略、牛顿和爱因斯坦的挣扎，向另一组只讲他们的非凡成就。",
+    "evidenceTargetIds": [
+      "c12-s03-p137-04845-s007"
+    ],
+    "evidence": [
+      {
+        "quote": "He was dissatisfied with his theory of relativity because it did not include electromagnetism. He tried to integrate electromagnetic and gravitational phenomena. Unfortunately, he was never able to do this, despite the fact that he spent the last twenty-five years of his life on it. Knowing this, Huang-Yao Hong and Xiaodong Lin-Siegler carried out an experiment telling one group of tenth-grade students about the struggles of Galileo, Newton, and Einstein, while telling another group only about their extraordinary accomplishments.",
+        "sentenceIds": [
+          "c12-s03-p137-04845-s005",
+          "c12-s03-p137-04845-s006",
+          "c12-s03-p137-04845-s007",
+          "c12-s03-p137-04845-s008"
+        ],
+        "sources": [
+          {
+            "pdfPage": 137,
+            "block": 3,
+            "bbox": [
+              76.99,
+              484.5,
+              535.01,
+              695.52
+            ]
+          },
+          {
+            "pdfPage": 138,
+            "block": 0,
+            "bbox": [
+              76.99,
+              75,
+              535,
+              109.02
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "e764870a74bd5b3e72791bc9f60c7e6b2f856e7a3ad6a04d92a7bfef8099802c"
+  },
+  {
+    "id": "qe-c12-0039",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-053",
+    "parentQuestionId": "q-c12-029",
+    "chapterId": "c12",
+    "sectionId": "c12-s03",
+    "paragraphId": "c12-s03-p138-01140",
+    "readingUnitId": "c12-s03-p138-01140-r001-003",
+    "sentenceIds": [
+      "c12-s03-p138-01140-s001",
+      "c12-s03-p138-01140-s002",
+      "c12-s03-p138-01140-s003"
+    ],
+    "passage": "Amazingly, the students who heard about the struggles of the greatest scientists were more interested in science at the end of the study than those who heard only the major accomplishments of the greatest scientists. Furthermore, they remembered the key concepts learned during the three subsequent lessons better than those in the accomplishment condition. They also thought that Galileo, Newton, and Einstein had to work hard, whereas those in the accomplishment condition thought they were born geniuses.",
+    "prompt": "How did the two conditions differ in views of the scientists?",
+    "promptZh": "两种条件下，学生对科学家的看法有什么不同？",
+    "options": [
+      "Both groups were reported as holding exactly the same view with no contrast.",
+      "The struggle group thought effort was unnecessary, while the accomplishment group emphasised hard work.",
+      "Only the researchers, not any students, expressed a view about ability.",
+      "The struggle group saw hard work as necessary, whereas the accomplishment group saw born geniuses."
+    ],
+    "optionsZh": [
+      "报告两组看法完全相同，没有对照。",
+      "挣扎组认为不需努力，成就组强调努力。",
+      "只有研究者表达能力看法，没有学生表达。",
+      "挣扎组看到必须努力，成就组则看作天生的天才。"
+    ],
+    "answer": 3,
+    "type": "同义改写",
+    "support": "explicit",
+    "analyses": [
+      "A whereas明确对比，不是看法一致。",
+      "B 将两组观点交换。",
+      "C They/those in condition是参与学生，不是只研究者。",
+      "D 观点方向与heard struggles/only accomplishments对应；thought说明学生看法，不是研究证明先天或后天能力的全部生物机制。"
+    ],
+    "vocabulary": [
+      {
+        "word": "whereas",
+        "meaning": "而；相比之下（连接对照）",
+        "context": "此处对照两条件的认识，不是先后时间连接词。",
+        "example": "One group emphasised effort, whereas the other emphasised innate talent.",
+        "collocations": [
+          "whereas those in the accomplishment condition",
+          "they were born geniuses"
+        ]
+      }
+    ],
+    "translation": "令人惊讶的是，到研究结束时，听过伟大科学家挣扎经历的学生，比只听过主要成就的学生对科学更有兴趣。此外，他们对随后三节课中学到的关键概念记得也更好。他们还认为伽利略、牛顿和爱因斯坦必须努力工作；而成就条件下学生认为这些人是天生的天才。",
+    "evidenceTargetIds": [
+      "c12-s03-p138-01140-s003"
+    ],
+    "evidence": [
+      {
+        "quote": "Amazingly, the students who heard about the struggles of the greatest scientists were more interested in science at the end of the study than those who heard only the major accomplishments of the greatest scientists. Furthermore, they remembered the key concepts learned during the three subsequent lessons better than those in the accomplishment condition. They also thought that Galileo, Newton, and Einstein had to work hard, whereas those in the accomplishment condition thought they were born geniuses.",
+        "sentenceIds": [
+          "c12-s03-p138-01140-s001",
+          "c12-s03-p138-01140-s002",
+          "c12-s03-p138-01140-s003"
+        ],
+        "sources": [
+          {
+            "pdfPage": 138,
+            "block": 1,
+            "bbox": [
+              76.99,
+              114,
+              535.01,
+              557.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "93268c29d9a638a0cd8267c8e5dc864384d6ce40ed421e5a64802f105f803d6d"
+  },
+  {
+    "id": "qe-c12-0040",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-053",
+    "parentQuestionId": "q-c12-030",
+    "chapterId": "c12",
+    "sectionId": "c12-s03",
+    "paragraphId": "c12-s03-p138-01140",
+    "readingUnitId": "c12-s03-p138-01140-r004-007",
+    "sentenceIds": [
+      "c12-s03-p138-01140-s004",
+      "c12-s03-p138-01140-s005",
+      "c12-s03-p138-01140-s006",
+      "c12-s03-p138-01140-s007"
+    ],
+    "passage": "The students who learned about the struggles of the scientists must have normalized the challenges they faced, just as Duke students learned to see that even smart kids struggle in their first year of college. Overall, learning about the scientists’ struggles increased high school students’ class engagement and performance. There have been numerous intervention studies of this sort conducted in diverse settings since Wilson and Linville’s seminal 1982 paper. For me, the main lesson of Redirect is that our story is in our control.",
+    "prompt": "What does the statement about later interventions add?",
+    "promptZh": "关于后续干预研究的陈述补充什么？",
+    "options": [
+      "Only the single 1982 paper has ever existed.",
+      "Many related intervention studies have been conducted in varied settings since the 1982 paper.",
+      "All later studies used the exact same participants and school.",
+      "Every intervention in every setting is guaranteed to work for everyone."
+    ],
+    "optionsZh": [
+      "历史上只有1982那一篇论文。",
+      "1982论文以来，许多类似干预研究在不同环境开展。",
+      "所有后续研究都用完全同一批被试与学校。",
+      "每种环境每项干预都保证对每个人有效。"
+    ],
+    "answer": 1,
+    "type": "证据范围",
+    "support": "explicit",
+    "analyses": [
+      "A numerous...since说明后续很多，非孤例。",
+      "B numerous、of this sort、diverse settings与since1982四项对应，保留书中回顾范围。",
+      "C diverse settings与同一学校全同样本不同。",
+      "D 开展很多不等于每项对全员都保证有效，原句未给统一成功率。"
+    ],
+    "vocabulary": [
+      {
+        "word": "seminal",
+        "meaning": "开创性的；对后续发展有重要影响的",
+        "context": "修饰1982论文的地位，不表示从此所有研究都无需再验证。",
+        "example": "The review described the early paper as seminal.",
+        "collocations": [
+          "Wilson and Linville’s seminal 1982 paper",
+          "conducted in diverse settings"
+        ]
+      }
+    ],
+    "translation": "了解科学家挣扎的学生，想必把自己遇到的挑战看得更正常了，就像杜克学生学会明白聪明的大一学生也会遇到困难一样。总体而言，了解科学家的挣扎提高了高中生的课堂投入和表现。自Wilson与Linville在1982年的开创性论文以来，许多这类干预研究已在不同环境中开展。对我而言，《Redirect》的主要启示是，我们能掌握自己的故事。",
+    "evidenceTargetIds": [
+      "c12-s03-p138-01140-s006"
+    ],
+    "evidence": [
+      {
+        "quote": "The students who learned about the struggles of the scientists must have normalized the challenges they faced, just as Duke students learned to see that even smart kids struggle in their first year of college. Overall, learning about the scientists’ struggles increased high school students’ class engagement and performance. There have been numerous intervention studies of this sort conducted in diverse settings since Wilson and Linville’s seminal 1982 paper. For me, the main lesson of Redirect is that our story is in our control.",
+        "sentenceIds": [
+          "c12-s03-p138-01140-s004",
+          "c12-s03-p138-01140-s005",
+          "c12-s03-p138-01140-s006",
+          "c12-s03-p138-01140-s007"
+        ],
+        "sources": [
+          {
+            "pdfPage": 138,
+            "block": 1,
+            "bbox": [
+              76.99,
+              114,
+              535.01,
+              557.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "e0e6c296fe95f821fa8e166497bd01352f134b7efeabf59f3da8169ddb608916"
+  },
+  {
+    "id": "qe-c12-0041",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-053",
+    "parentQuestionId": "q-c12-030",
+    "chapterId": "c12",
+    "sectionId": "c12-s03",
+    "paragraphId": "c12-s03-p138-01140",
+    "readingUnitId": "c12-s03-p138-01140-r004-007",
+    "sentenceIds": [
+      "c12-s03-p138-01140-s004",
+      "c12-s03-p138-01140-s005",
+      "c12-s03-p138-01140-s006",
+      "c12-s03-p138-01140-s007"
+    ],
+    "passage": "The students who learned about the struggles of the scientists must have normalized the challenges they faced, just as Duke students learned to see that even smart kids struggle in their first year of college. Overall, learning about the scientists’ struggles increased high school students’ class engagement and performance. There have been numerous intervention studies of this sort conducted in diverse settings since Wilson and Linville’s seminal 1982 paper. For me, the main lesson of Redirect is that our story is in our control.",
+    "prompt": "What does the author's main lesson from Redirect concern?",
+    "promptZh": "作者从Redirect得到的主要启示关乎什么？",
+    "options": [
+      "Our control over the way we tell and interpret our story.",
+      "Complete control over every past event that actually occurred.",
+      "An obligation to erase all difficult experiences from memory.",
+      "Proof that anyone can guarantee any life outcome by changing words alone."
+    ],
+    "optionsZh": [
+      "我们能掌握讲述和理解自身故事的方式。",
+      "对每个已发生过去事件的完全控制。",
+      "必须从记忆中删除所有困难经历。",
+      "证明仅改措辞就能保证任何人生结果。"
+    ],
+    "answer": 0,
+    "type": "作者观点",
+    "support": "explicit",
+    "analyses": [
+      "A For me保留作者解释，our story is in our control聚焦叙述的主导权。",
+      "B story的控制不等于逆改已经发生的事件。",
+      "C 本句没要求删掉所有坏经历，不能把story editing缩成抹去困难。",
+      "D 这是一条读书启示，非保证词语单独决定所有外界结果的实验结论。"
+    ],
+    "vocabulary": [
+      {
+        "word": "in our control",
+        "meaning": "在我们掌握之中；我们有能力影响其呈现",
+        "context": "此处对象为our story，不泛化为一切命运、历史事件或他人行为。",
+        "example": "The interpretation of the experience was partly in her control.",
+        "collocations": [
+          "our story is in our control",
+          "For me, the main lesson of Redirect"
+        ]
+      }
+    ],
+    "translation": "了解科学家挣扎的学生，想必把自己遇到的挑战看得更正常了，就像杜克学生学会明白聪明的大一学生也会遇到困难一样。总体而言，了解科学家的挣扎提高了高中生的课堂投入和表现。自Wilson与Linville在1982年的开创性论文以来，许多这类干预研究已在不同环境中开展。对我而言，《Redirect》的主要启示是，我们能掌握自己的故事。",
+    "evidenceTargetIds": [
+      "c12-s03-p138-01140-s007"
+    ],
+    "evidence": [
+      {
+        "quote": "For me, the main lesson of Redirect is that our story is in our control.",
+        "sentenceIds": [
+          "c12-s03-p138-01140-s007"
+        ],
+        "sources": [
+          {
+            "pdfPage": 138,
+            "block": 1,
+            "bbox": [
+              76.99,
+              114,
+              535.01,
+              557.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "6eb35a44c69a721599e33d89dfc1ad4a2bd45b75718ba501dbba5b3dc12e2246"
   }
 ]
