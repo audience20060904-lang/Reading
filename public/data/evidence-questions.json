@@ -97911,5 +97911,2060 @@
     ],
     "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
     "fingerprint": "4dfab2793ce2d008013034fa6b13d1e7ceca68f9e1cda711ffeb579c587b0eeb"
+  },
+  {
+    "id": "qe-c11-0032",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-049",
+    "parentQuestionId": "q-c11-015",
+    "chapterId": "c11",
+    "sectionId": "c11-s02",
+    "paragraphId": "c11-s02-p124-03870",
+    "readingUnitId": "c11-s02-p124-03870-r001-004",
+    "sentenceIds": [
+      "c11-s02-p124-03870-s001",
+      "c11-s02-p124-03870-s002",
+      "c11-s02-p124-03870-s003",
+      "c11-s02-p124-03870-s004"
+    ],
+    "passage": "Kahneman’s father was interned in Drancy and was supposed to be sent to an extermination camp. However, his employer intervened, and he was released. Then his family escaped to Vichy, but after the Germans arrived, they had to escape once more to the center of France. His father died in 1944, and his family moved to Palestine after the war.",
+    "prompt": "Which sequence does the passage give for Kahneman's father and family?",
+    "promptZh": "原文对 Kahneman 父亲与家人给出怎样的时间顺序？",
+    "options": [
+      "His father died only after the family had moved to Palestine after the war.",
+      "His family moved to Palestine before his father died in 1944.",
+      "His father died in 1944; the family moved to Palestine after the war.",
+      "His father moved the whole family to Palestine in the same year he was released."
+    ],
+    "optionsZh": [
+      "父亲在战后家人已迁 Palestine 之后才去世。",
+      "家人在父亲 1944 年去世前就迁 Palestine。",
+      "父亲 1944 年去世；家人战后迁 Palestine。",
+      "父亲获释同年亲自把全家带到 Palestine。"
+    ],
+    "answer": 2,
+    "type": "阅读顺序",
+    "support": "explicit",
+    "analyses": [
+      "A 将战后迁居置于父亲去世前，颠倒时间关系。",
+      "B 与 died in1944、moved after war 的顺序不符。",
+      "C 死亡年份与迁移的战后限定分别保留。",
+      "D 原句未说父亲参与战后迁居，也未把它定在获释同年。"
+    ],
+    "vocabulary": [
+      {
+        "word": "after the war",
+        "meaning": "战后；战争结束之后",
+        "context": "限定家人的迁移时间，不能把1944同时分配给后半句的迁移。",
+        "example": "The family moved to a new country after the war.",
+        "collocations": [
+          "moved to Palestine after the war",
+          "His father died in 1944"
+        ]
+      }
+    ],
+    "translation": "Kahneman 父亲被拘禁Drancy，原定送往灭绝营。但雇主干预，使他获释。全家逃到Vichy，德国人到来后再逃法国中部。父亲1944年去世；战后家人迁到Palestine。",
+    "evidenceTargetIds": [
+      "c11-s02-p124-03870-s004"
+    ],
+    "evidence": [
+      {
+        "quote": "Kahneman’s father was interned in Drancy and was supposed to be sent to an extermination camp. However, his employer intervened, and he was released. Then his family escaped to Vichy, but after the Germans arrived, they had to escape once more to the center of France. His father died in 1944, and his family moved to Palestine after the war.",
+        "sentenceIds": [
+          "c11-s02-p124-03870-s001",
+          "c11-s02-p124-03870-s002",
+          "c11-s02-p124-03870-s003",
+          "c11-s02-p124-03870-s004"
+        ],
+        "sources": [
+          {
+            "pdfPage": 124,
+            "block": 1,
+            "bbox": [
+              76.99,
+              387,
+              535.01,
+              694.02
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "56414fa094e9c8855e2a81718bfbf753bc510287892049a82f7fa6379042cf3d"
+  },
+  {
+    "id": "qe-c11-0033",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-049",
+    "parentQuestionId": "q-c11-016",
+    "chapterId": "c11",
+    "sectionId": "c11-s02",
+    "paragraphId": "c11-s02-p124-03870",
+    "readingUnitId": "c11-s02-p124-03870-r005-007",
+    "sentenceIds": [
+      "c11-s02-p124-03870-s005",
+      "c11-s02-p124-03870-s006",
+      "c11-s02-p124-03870-s007"
+    ],
+    "passage": "Kahneman graduated from Hebrew University and served in the Israeli army as a platoon leader for one year, then as an officer in the psychology branch of the Israel Defense Forces for another year before starting his graduate work at UC Berkeley. Many different subjects interested him, so he studied an eclectic mix of topics including subliminal perception, optical benches, personality assessments, Ludwig Wittgenstein, and the philosophy of science. Before he started his famous collaboration with Amos Tversky on cognitive biases, Kahneman studied psychoanalysis, memory, vision, and motivation.",
+    "prompt": "Which order matches the stages before Kahneman's graduate work at UC Berkeley?",
+    "promptZh": "哪种次序符合 Kahneman 到 UC Berkeley 读研之前的阶段？",
+    "options": [
+      "Graduation from Hebrew University, a year as a platoon leader, then another year in the military psychology branch.",
+      "A year in military psychology, graduate work at Berkeley, then graduation from Hebrew University.",
+      "Two years as a platoon leader followed by no other military role.",
+      "Graduate work at Berkeley before either of the two military roles."
+    ],
+    "optionsZh": [
+      "Hebrew University毕业、任排长一年，再在军方心理部门一年。",
+      "先在军方心理部门一年，再读 Berkeley研究生，最后Hebrew毕业。",
+      "任排长两年，没有其他军职。",
+      "在两段军职之前先读Berkeley研究生。"
+    ],
+    "answer": 0,
+    "type": "阅读顺序",
+    "support": "explicit",
+    "analyses": [
+      "A graduated、one year、then...another year、before starting 共同确定次序。",
+      "B 颠倒毕业、军职和读研的顺序。",
+      "C 两段各一年且职能不同，不是排长两年。",
+      "D before starting 表示军职在读研之前，不能倒置。"
+    ],
+    "vocabulary": [
+      {
+        "word": "platoon leader",
+        "meaning": "排长；领导一个排的军职",
+        "context": "与后一年心理部门军官区分，不把两个职位合并成同一岗位两年。",
+        "example": "The biography describes one year as a platoon leader.",
+        "collocations": [
+          "as a platoon leader for one year",
+          "for another year before"
+        ]
+      }
+    ],
+    "translation": "他毕业于Hebrew University，在以军先任排长一年，再于国防军心理部门任军官一年，之后去UC Berkeley读研。兴趣广泛，涉猎潜意识知觉、光学平台、人格评估、Wittgenstein与科学哲学。与Tversky开始认知偏误著名合作前，他已研究精神分析、记忆、视觉和动机。",
+    "evidenceTargetIds": [
+      "c11-s02-p124-03870-s005"
+    ],
+    "evidence": [
+      {
+        "quote": "Kahneman graduated from Hebrew University and served in the Israeli army as a platoon leader for one year, then as an officer in the psychology branch of the Israel Defense Forces for another year before starting his graduate work at UC Berkeley. Many different subjects interested him, so he studied an eclectic mix of topics including subliminal perception, optical benches, personality assessments, Ludwig Wittgenstein, and the philosophy of science. Before he started his famous collaboration with Amos Tversky on cognitive biases, Kahneman studied psychoanalysis, memory, vision, and motivation.",
+        "sentenceIds": [
+          "c11-s02-p124-03870-s005",
+          "c11-s02-p124-03870-s006",
+          "c11-s02-p124-03870-s007"
+        ],
+        "sources": [
+          {
+            "pdfPage": 124,
+            "block": 1,
+            "bbox": [
+              76.99,
+              387,
+              535.01,
+              694.02
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "a643cd92410b6c6961b3e9f5dd5e880b7477893e87b0d4d972b1998b53aca4d9"
+  },
+  {
+    "id": "qe-c11-0034",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-049",
+    "parentQuestionId": "q-c11-016",
+    "chapterId": "c11",
+    "sectionId": "c11-s02",
+    "paragraphId": "c11-s02-p124-03870",
+    "readingUnitId": "c11-s02-p124-03870-r005-007",
+    "sentenceIds": [
+      "c11-s02-p124-03870-s005",
+      "c11-s02-p124-03870-s006",
+      "c11-s02-p124-03870-s007"
+    ],
+    "passage": "Kahneman graduated from Hebrew University and served in the Israeli army as a platoon leader for one year, then as an officer in the psychology branch of the Israel Defense Forces for another year before starting his graduate work at UC Berkeley. Many different subjects interested him, so he studied an eclectic mix of topics including subliminal perception, optical benches, personality assessments, Ludwig Wittgenstein, and the philosophy of science. Before he started his famous collaboration with Amos Tversky on cognitive biases, Kahneman studied psychoanalysis, memory, vision, and motivation.",
+    "prompt": "What had Kahneman studied before his collaboration with Tversky on cognitive biases?",
+    "promptZh": "与 Tversky 合作认知偏误研究之前，Kahneman 已研究什么？",
+    "options": [
+      "Only cognitive biases, with no other subject mentioned.",
+      "Only classical philology and ancient Greek literature.",
+      "Nothing until the collaboration began.",
+      "Psychoanalysis, memory, vision, and motivation."
+    ],
+    "optionsZh": [
+      "只有认知偏误，未提别的课题。",
+      "只有古典语文学与古希腊文学。",
+      "在合作开始前什么都没研究。",
+      "精神分析、记忆、视觉和动机。"
+    ],
+    "answer": 3,
+    "type": "细节",
+    "support": "explicit",
+    "analyses": [
+      "A cognitive biases 为后来合作主题，不是前期研究的完整列表。",
+      "B 混入前一人物Nietzsche的领域。",
+      "C Before...studied 明确已有研究。",
+      "D 四个并列项完整保留，且不把 before 改为 after。"
+    ],
+    "vocabulary": [
+      {
+        "word": "motivation",
+        "meaning": "动机；促使行为发生的心理驱动力",
+        "context": "此处是他研究的课题之一，不是对他本人所有行为意图的结论。",
+        "example": "The researcher studied memory as well as motivation.",
+        "collocations": [
+          "memory, vision, and motivation",
+          "Before he started his famous collaboration"
+        ]
+      }
+    ],
+    "translation": "他毕业于Hebrew University，在以军先任排长一年，再于国防军心理部门任军官一年，之后去UC Berkeley读研。兴趣广泛，涉猎潜意识知觉、光学平台、人格评估、Wittgenstein与科学哲学。与Tversky开始认知偏误著名合作前，他已研究精神分析、记忆、视觉和动机。",
+    "evidenceTargetIds": [
+      "c11-s02-p124-03870-s007"
+    ],
+    "evidence": [
+      {
+        "quote": "Kahneman graduated from Hebrew University and served in the Israeli army as a platoon leader for one year, then as an officer in the psychology branch of the Israel Defense Forces for another year before starting his graduate work at UC Berkeley. Many different subjects interested him, so he studied an eclectic mix of topics including subliminal perception, optical benches, personality assessments, Ludwig Wittgenstein, and the philosophy of science. Before he started his famous collaboration with Amos Tversky on cognitive biases, Kahneman studied psychoanalysis, memory, vision, and motivation.",
+        "sentenceIds": [
+          "c11-s02-p124-03870-s005",
+          "c11-s02-p124-03870-s006",
+          "c11-s02-p124-03870-s007"
+        ],
+        "sources": [
+          {
+            "pdfPage": 124,
+            "block": 1,
+            "bbox": [
+              76.99,
+              387,
+              535.01,
+              694.02
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "7284ffc26051cb9c2cc7f684c91fb561220c3e677ddbfb3903367d95f712a86f"
+  },
+  {
+    "id": "qe-c11-0035",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-049",
+    "parentQuestionId": "q-c11-018",
+    "chapterId": "c11",
+    "sectionId": "c11-s02",
+    "paragraphId": "c11-s02-p125-00750",
+    "readingUnitId": "c11-s02-p125-00750-r001-004",
+    "sentenceIds": [
+      "c11-s02-p125-00750-s001",
+      "c11-s02-p125-00750-s002",
+      "c11-s02-p125-00750-s003",
+      "c11-s02-p125-00750-s004"
+    ],
+    "passage": "With his diverse contributions to society as a military leader, teacher, and scholar, you might expect Kahneman to think his life was extremely meaningful, right? Wrong. Kahneman didn’t characterize his life as meaningful. In a 2018 interview, he said, “I recall a conversation with Martin Seligman, the founder of positive psychology, in which he tried to convince me I had a meaningful life.",
+    "prompt": "What does the passage explicitly say about Kahneman's own description of his life?",
+    "promptZh": "原文明确说明 Kahneman 如何描述自己的人生？",
+    "options": [
+      "He agreed that his life was extremely meaningful because others said so.",
+      "He did not characterise it as meaningful.",
+      "The author proved that his life had no value to anyone.",
+      "He denied making any contribution to society."
+    ],
+    "optionsZh": [
+      "他因别人这么说，便同意人生极有意义。",
+      "他不把人生描述为有意义。",
+      "作者证明他的人生对任何人都没有价值。",
+      "他否认曾对社会作任何贡献。"
+    ],
+    "answer": 1,
+    "type": "观点归属",
+    "support": "explicit",
+    "analyses": [
+      "A 前文预期后接Wrong，本句正否定该预期。",
+      "B didn’t characterize...as meaningful 是他自身的描述。",
+      "C 自我标签不等于作者证明人生无价值，不能扩大判断对象。",
+      "D 前文列其贡献，拒绝标签并非否认贡献事实。"
+    ],
+    "vocabulary": [
+      {
+        "word": "characterize",
+        "meaning": "将……描述为；用某特点概括",
+        "context": "此处是人生描述用语，不是独立证明其客观价值或贡献大小。",
+        "example": "She did not characterize the experience as entirely happy.",
+        "collocations": [
+          "characterize his life as meaningful",
+          "didn’t characterize"
+        ]
+      }
+    ],
+    "translation": "他作为军队领导者、教师、学者对社会贡献多样，你也许以为他会觉得人生极有意义吧？错了。他并不把人生描述为有意义。2018访谈中他说，曾与积极心理学创始人Martin Seligman谈话，对方试图说服他人生有意义。（引语续后段）",
+    "evidenceTargetIds": [
+      "c11-s02-p125-00750-s003"
+    ],
+    "evidence": [
+      {
+        "quote": "With his diverse contributions to society as a military leader, teacher, and scholar, you might expect Kahneman to think his life was extremely meaningful, right? Wrong. Kahneman didn’t characterize his life as meaningful. In a 2018 interview, he said, “I recall a conversation with Martin Seligman, the founder of positive psychology, in which he tried to convince me I had a meaningful life.",
+        "sentenceIds": [
+          "c11-s02-p125-00750-s001",
+          "c11-s02-p125-00750-s002",
+          "c11-s02-p125-00750-s003",
+          "c11-s02-p125-00750-s004"
+        ],
+        "sources": [
+          {
+            "pdfPage": 125,
+            "block": 0,
+            "bbox": [
+              76.99,
+              75,
+              535.01,
+              206.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "e3ff39a8d87638682c0378cff81b9ca93c8a4c16ed995d464d71af7ba13f70c5"
+  },
+  {
+    "id": "qe-c11-0036",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-049",
+    "parentQuestionId": "q-c11-018",
+    "chapterId": "c11",
+    "sectionId": "c11-s02",
+    "paragraphId": "c11-s02-p125-00750",
+    "readingUnitId": "c11-s02-p125-00750-r001-004",
+    "sentenceIds": [
+      "c11-s02-p125-00750-s001",
+      "c11-s02-p125-00750-s002",
+      "c11-s02-p125-00750-s003",
+      "c11-s02-p125-00750-s004"
+    ],
+    "passage": "With his diverse contributions to society as a military leader, teacher, and scholar, you might expect Kahneman to think his life was extremely meaningful, right? Wrong. Kahneman didn’t characterize his life as meaningful. In a 2018 interview, he said, “I recall a conversation with Martin Seligman, the founder of positive psychology, in which he tried to convince me I had a meaningful life.",
+    "prompt": "What did Seligman try to do in the conversation Kahneman recalled?",
+    "promptZh": "Kahneman 回忆的谈话中，Seligman 试图做什么？",
+    "options": [
+      "Convince Kahneman that he had lived a meaningful life.",
+      "Persuade Kahneman that he had never made a contribution.",
+      "Deny that he had founded positive psychology.",
+      "Prove that Kahneman had already accepted his interpretation without disagreement."
+    ],
+    "optionsZh": [
+      "说服Kahneman：他过了有意义的人生。",
+      "劝Kahneman相信自己从未作贡献。",
+      "否认自己创立积极心理学。",
+      "证明Kahneman已毫无异议接受其解释。"
+    ],
+    "answer": 0,
+    "type": "细节",
+    "support": "explicit",
+    "analyses": [
+      "A he tried to convince me...meaningful life，he 为Seligman，me为叙述中的Kahneman。",
+      "B meaningful life与没有贡献不是所述劝说内容。",
+      "C founder是插入介绍，并非否认行为。",
+      "D tried只说尝试，且后段有Kahneman的坚持，不能偷换为已成功说服。"
+    ],
+    "vocabulary": [
+      {
+        "word": "convince",
+        "meaning": "说服；使某人相信",
+        "context": "tried to convince 标示尝试，不能删去 tried 而认定说服成功。",
+        "example": "He tried to convince his friend that the work had meaning.",
+        "collocations": [
+          "tried to convince me",
+          "a meaningful life"
+        ]
+      }
+    ],
+    "translation": "他作为军队领导者、教师、学者对社会贡献多样，你也许以为他会觉得人生极有意义吧？错了。他并不把人生描述为有意义。2018访谈中他说，曾与积极心理学创始人Martin Seligman谈话，对方试图说服他人生有意义。（引语续后段）",
+    "evidenceTargetIds": [
+      "c11-s02-p125-00750-s004"
+    ],
+    "evidence": [
+      {
+        "quote": "With his diverse contributions to society as a military leader, teacher, and scholar, you might expect Kahneman to think his life was extremely meaningful, right? Wrong. Kahneman didn’t characterize his life as meaningful. In a 2018 interview, he said, “I recall a conversation with Martin Seligman, the founder of positive psychology, in which he tried to convince me I had a meaningful life.",
+        "sentenceIds": [
+          "c11-s02-p125-00750-s001",
+          "c11-s02-p125-00750-s002",
+          "c11-s02-p125-00750-s003",
+          "c11-s02-p125-00750-s004"
+        ],
+        "sources": [
+          {
+            "pdfPage": 125,
+            "block": 0,
+            "bbox": [
+              76.99,
+              75,
+              535.01,
+              206.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "f0c0d8ba417255ea392fcee2f19ff2ee86110e46277aecdd56f25bc7ba55625b"
+  },
+  {
+    "id": "qe-c11-0037",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-049",
+    "parentQuestionId": "q-c11-019",
+    "chapterId": "c11",
+    "sectionId": "c11-s02",
+    "paragraphId": "c11-s02-p125-00750",
+    "readingUnitId": "c11-s02-p125-00750-r005-006",
+    "sentenceIds": [
+      "c11-s02-p125-00750-s005",
+      "c11-s02-p125-00750-s006"
+    ],
+    "passage": "I insisted—and I still think this today—that I had an interesting life. ‘Meaningful’ isn’t something I understand.”",
+    "prompt": "What does Kahneman's remark about not understanding 'meaningful' express?",
+    "promptZh": "Kahneman 说不理解 meaningful，表达什么？",
+    "options": [
+      "A claim that every person is unable to understand any word about life.",
+      "A finding that his life was objectively meaningless by every possible measure.",
+      "A new definition in which meaningful and interesting must always mean the same thing.",
+      "His own difficulty with that description, while he insists that his life was interesting."
+    ],
+    "optionsZh": [
+      "声称每个人都无法理解任何人生词语。",
+      "发现其人生在所有可能指标上客观无意义。",
+      "新定义：meaningful与interesting必须永远同义。",
+      "他本人不理解这一描述，同时坚持自己人生有趣。"
+    ],
+    "answer": 3,
+    "type": "观点归属",
+    "support": "explicit",
+    "analyses": [
+      "A isn’t something I understand 的I限定本人，非全体。",
+      "B 对词与描述的不认同，不是所有指标的客观无意义证明。",
+      "C 前句坚持 interesting，与meaningful形成区别，不是宣告必同义。",
+      "D 将本人的理解困难与前句坚持的标签一并保留，且不把today挪为网站当前日期。"
+    ],
+    "vocabulary": [
+      {
+        "word": "understand",
+        "meaning": "理解；领会某概念的意义",
+        "context": "在此针对meaningful这一人生描述，不是缺乏所有认知理解能力。",
+        "example": "He could describe his life as interesting without claiming to understand that other label.",
+        "collocations": [
+          "isn’t something I understand",
+          "an interesting life"
+        ]
+      }
+    ],
+    "translation": "“我坚持说，而且今天仍这么想：我的人生有趣。‘有意义’不是我理解的东西。”",
+    "evidenceTargetIds": [
+      "c11-s02-p125-00750-s006"
+    ],
+    "evidence": [
+      {
+        "quote": "I insisted—and I still think this today—that I had an interesting life. ‘Meaningful’ isn’t something I understand.”",
+        "sentenceIds": [
+          "c11-s02-p125-00750-s005",
+          "c11-s02-p125-00750-s006"
+        ],
+        "sources": [
+          {
+            "pdfPage": 125,
+            "block": 0,
+            "bbox": [
+              76.99,
+              75,
+              535.01,
+              206.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "65aee74af6fd8ed6665aa9f82cc462591482792e6a52f125f11ea290c875e5b1"
+  },
+  {
+    "id": "qe-c11-0038",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-049",
+    "parentQuestionId": "q-c11-020",
+    "chapterId": "c11",
+    "sectionId": "c11-s02",
+    "paragraphId": "c11-s02-p125-02115",
+    "readingUnitId": "c11-s02-p125-02115-r001-004",
+    "sentenceIds": [
+      "c11-s02-p125-02115-s001",
+      "c11-s02-p125-02115-s002",
+      "c11-s02-p125-02115-s003",
+      "c11-s02-p125-02115-s004"
+    ],
+    "passage": "Neither did Kahneman view his life as wholly happy. In the same interview, he said, “There were four years when I worked alone on a book. That was terrible, and I was miserable.” Kahneman—who escaped Nazi-occupied Paris, was on the run for three or four years during World War II, and would later go on to win the Nobel Prize—experienced many ups and downs in his life.",
+    "prompt": "What does 'not ... wholly happy' allow the reader to conclude?",
+    "promptZh": "not...wholly happy 允许读者得出什么结论？",
+    "options": [
+      "Kahneman said every moment of his life was happy.",
+      "Kahneman said no moment of his life had ever been happy.",
+      "Kahneman did not see his life as entirely happy, without thereby denying every happy experience.",
+      "The interviewer measured all of his emotions continuously from childhood."
+    ],
+    "optionsZh": [
+      "Kahneman说人生每刻都快乐。",
+      "Kahneman说一生从无任何快乐时刻。",
+      "Kahneman不把人生看成全然幸福，但这不等于否认每一次快乐。",
+      "访谈者从童年起持续测量了他全部情绪。"
+    ],
+    "answer": 2,
+    "type": "逻辑关系",
+    "support": "explicit",
+    "analyses": [
+      "A 否定wholly，不能反读成全程幸福。",
+      "B 非全然幸福不等于全无幸福。",
+      "C 保留否定范围，后文写作痛苦与人生起伏支持有不愉快阶段。",
+      "D 这是访谈中的自述，不是持续情绪测量。"
+    ],
+    "vocabulary": [
+      {
+        "word": "wholly",
+        "meaning": "完全地；全然地",
+        "context": "not wholly 的否定范围区别于never或not at all。",
+        "example": "The experience was not wholly pleasant, though some moments were rewarding.",
+        "collocations": [
+          "view his life as wholly happy",
+          "Neither did Kahneman"
+        ]
+      }
+    ],
+    "translation": "Kahneman 也不觉得人生全然幸福。同次访谈他说：“有四年我独自写一本书，糟透了，我很痛苦。”他逃离纳粹占领的Paris，二战中逃亡三四年，后来又获诺奖，人生起伏很多。",
+    "evidenceTargetIds": [
+      "c11-s02-p125-02115-s001"
+    ],
+    "evidence": [
+      {
+        "quote": "Neither did Kahneman view his life as wholly happy. In the same interview, he said, “There were four years when I worked alone on a book. That was terrible, and I was miserable.” Kahneman—who escaped Nazi-occupied Paris, was on the run for three or four years during World War II, and would later go on to win the Nobel Prize—experienced many ups and downs in his life.",
+        "sentenceIds": [
+          "c11-s02-p125-02115-s001",
+          "c11-s02-p125-02115-s002",
+          "c11-s02-p125-02115-s003",
+          "c11-s02-p125-02115-s004"
+        ],
+        "sources": [
+          {
+            "pdfPage": 125,
+            "block": 1,
+            "bbox": [
+              76.99,
+              211.5,
+              535.01,
+              343.02
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "eb842611972e0c843e2c8b3108cb4bcc1b544e1b73e513d038e06ea89a65bb06"
+  },
+  {
+    "id": "qe-c11-0039",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-049",
+    "parentQuestionId": "q-c11-020",
+    "chapterId": "c11",
+    "sectionId": "c11-s02",
+    "paragraphId": "c11-s02-p125-02115",
+    "readingUnitId": "c11-s02-p125-02115-r001-004",
+    "sentenceIds": [
+      "c11-s02-p125-02115-s001",
+      "c11-s02-p125-02115-s002",
+      "c11-s02-p125-02115-s003",
+      "c11-s02-p125-02115-s004"
+    ],
+    "passage": "Neither did Kahneman view his life as wholly happy. In the same interview, he said, “There were four years when I worked alone on a book. That was terrible, and I was miserable.” Kahneman—who escaped Nazi-occupied Paris, was on the run for three or four years during World War II, and would later go on to win the Nobel Prize—experienced many ups and downs in his life.",
+    "prompt": "Why does the author place wartime escape and a later Nobel Prize in the same sentence?",
+    "promptZh": "作者为何把战时逃亡和后来的诺奖放在同一句？",
+    "options": [
+      "To say that the prize removed the fact that the earlier escape had happened.",
+      "To illustrate the major ups and downs across Kahneman's life.",
+      "To prove the award was received during his childhood escape.",
+      "To establish that no hardship occurred before he became a psychologist."
+    ],
+    "optionsZh": [
+      "说奖项抹去了先前逃亡发生的事实。",
+      "说明Kahneman一生中的重大起伏。",
+      "证明他在童年逃亡期间领奖。",
+      "证明他成为心理学家前没遇过困难。"
+    ],
+    "answer": 1,
+    "type": "作者意图",
+    "support": "explicit",
+    "analyses": [
+      "A 后来获奖不使过去经历消失。",
+      "B 破折号内列逃亡、逃难与后来成就，主句experienced many ups and downs作概括。",
+      "C would later go on 明确后来，不是童年同一时刻。",
+      "D 战时逃亡本身就是早年的困难，不能抹去。"
+    ],
+    "vocabulary": [
+      {
+        "word": "ups and downs",
+        "meaning": "起伏；顺境与逆境",
+        "context": "描述人生中不同方向的经历，不是物理上的上下运动。",
+        "example": "Her career included many ups and downs.",
+        "collocations": [
+          "experienced many ups and downs",
+          "would later go on to win"
+        ]
+      }
+    ],
+    "translation": "Kahneman 也不觉得人生全然幸福。同次访谈他说：“有四年我独自写一本书，糟透了，我很痛苦。”他逃离纳粹占领的Paris，二战中逃亡三四年，后来又获诺奖，人生起伏很多。",
+    "evidenceTargetIds": [
+      "c11-s02-p125-02115-s004"
+    ],
+    "evidence": [
+      {
+        "quote": "Neither did Kahneman view his life as wholly happy. In the same interview, he said, “There were four years when I worked alone on a book. That was terrible, and I was miserable.” Kahneman—who escaped Nazi-occupied Paris, was on the run for three or four years during World War II, and would later go on to win the Nobel Prize—experienced many ups and downs in his life.",
+        "sentenceIds": [
+          "c11-s02-p125-02115-s001",
+          "c11-s02-p125-02115-s002",
+          "c11-s02-p125-02115-s003",
+          "c11-s02-p125-02115-s004"
+        ],
+        "sources": [
+          {
+            "pdfPage": 125,
+            "block": 1,
+            "bbox": [
+              76.99,
+              211.5,
+              535.01,
+              343.02
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "de8c2f8254834ae777b3405c7db12e67acbcc82576641c655f27055b2d557e82"
+  },
+  {
+    "id": "qe-c11-0040",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-049",
+    "parentQuestionId": "q-c11-022",
+    "chapterId": "c11",
+    "sectionId": "c11-s03",
+    "paragraphId": "c11-s03-p125-03990",
+    "readingUnitId": "c11-s03-p125-03990-r001-004",
+    "sentenceIds": [
+      "c11-s03-p125-03990-s001",
+      "c11-s03-p125-03990-s002",
+      "c11-s03-p125-03990-s003",
+      "c11-s03-p125-03990-s004"
+    ],
+    "passage": "On October 29, 2012, Hurricane Sandy hit New York City. Takashi Fujimoto, age sixty-four, was living alone in a basement apartment in Staten Island. Water began to gush into his apartment while he was working with photographic lighting equipment. When he tried to unplug the cords, he was electrocuted.",
+    "prompt": "Which date and place are linked to Hurricane Sandy in the opening sentence?",
+    "promptZh": "开头把 Hurricane Sandy 与哪一日期、地点相联系？",
+    "options": [
+      "October 29, 2012, in New York City.",
+      "January 2006, in New Orleans.",
+      "A day in 2018, when the Bridges family gave their reflections.",
+      "January 17, 1995, in Kobe."
+    ],
+    "optionsZh": [
+      "2012年10月29日，New York City。",
+      "2006年1月，New Orleans。",
+      "Bridges家人回顾经历的2018年某日。",
+      "1995年1月17日，Kobe。"
+    ],
+    "answer": 0,
+    "type": "细节",
+    "support": "explicit",
+    "analyses": [
+      "A On October29,2012 与 New York City 直接配对。",
+      "B 混入后面的返回New Orleans时间。",
+      "C 2018是后文回顾Katrina的时间，不是此处风暴袭击日。",
+      "D Kobe日期属于地震，不是Sandy；保持事件、地点、时间三者对应。"
+    ],
+    "vocabulary": [
+      {
+        "word": "hit",
+        "meaning": "袭击；对某地造成冲击",
+        "context": "这里是风暴抵达并影响城市，不是用手打人或歌曲走红。",
+        "example": "The storm hit the coastal city at night.",
+        "collocations": [
+          "Hurricane Sandy hit New York City",
+          "On October 29, 2012"
+        ]
+      }
+    ],
+    "translation": "2012年10月29日Hurricane Sandy袭击New York City。六十四岁的Takashi Fujimoto独居Staten Island地下公寓。正用摄影灯光设备时，水猛涌入房。他试图拔掉电线时触电。",
+    "evidenceTargetIds": [
+      "c11-s03-p125-03990-s001"
+    ],
+    "evidence": [
+      {
+        "quote": "On October 29, 2012, Hurricane Sandy hit New York City. Takashi Fujimoto, age sixty-four, was living alone in a basement apartment in Staten Island. Water began to gush into his apartment while he was working with photographic lighting equipment. When he tried to unplug the cords, he was electrocuted.",
+        "sentenceIds": [
+          "c11-s03-p125-03990-s001",
+          "c11-s03-p125-03990-s002",
+          "c11-s03-p125-03990-s003",
+          "c11-s03-p125-03990-s004"
+        ],
+        "sources": [
+          {
+            "pdfPage": 125,
+            "block": 3,
+            "bbox": [
+              76.99,
+              399,
+              535.01,
+              628.02
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "94bd0c5e60e71deb48b0d827e5299b8936123fcf8fa8780d7805d888b2095612"
+  },
+  {
+    "id": "qe-c11-0041",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-049",
+    "parentQuestionId": "q-c11-022",
+    "chapterId": "c11",
+    "sectionId": "c11-s03",
+    "paragraphId": "c11-s03-p125-03990",
+    "readingUnitId": "c11-s03-p125-03990-r001-004",
+    "sentenceIds": [
+      "c11-s03-p125-03990-s001",
+      "c11-s03-p125-03990-s002",
+      "c11-s03-p125-03990-s003",
+      "c11-s03-p125-03990-s004"
+    ],
+    "passage": "On October 29, 2012, Hurricane Sandy hit New York City. Takashi Fujimoto, age sixty-four, was living alone in a basement apartment in Staten Island. Water began to gush into his apartment while he was working with photographic lighting equipment. When he tried to unplug the cords, he was electrocuted.",
+    "prompt": "Which description matches Fujimoto's circumstances at the time?",
+    "promptZh": "哪种描述符合 Fujimoto 当时的处境？",
+    "options": [
+      "He was thirty-seven and staying in an upstairs hospital room in New Orleans.",
+      "He was sixty-four and living alone in a basement apartment in Staten Island.",
+      "He was sixty-four and living with the Bridges family in Washington, D.C.",
+      "He was thirty-six and living in a department store in Tokyo."
+    ],
+    "optionsZh": [
+      "三十七岁，住New Orleans医院楼上房间。",
+      "六十四岁，独居Staten Island地下公寓。",
+      "六十四岁，与Bridges家人同住Washington D.C.。",
+      "三十六岁，住Tokyo百货商店。"
+    ],
+    "answer": 1,
+    "type": "细节",
+    "support": "explicit",
+    "analyses": [
+      "A 37是后来住院天数，不是年龄；地点也错。",
+      "B 年龄、独居、地下公寓与Staten Island四项都对应。",
+      "C 混入后面另一家庭的迁移地点，并把alone改为同住。",
+      "D 36是随后独立生活年数，不是此时年龄，Tokyo属于前章例子。"
+    ],
+    "vocabulary": [
+      {
+        "word": "basement apartment",
+        "meaning": "地下层公寓；位于建筑地下层的住宅",
+        "context": "说明其居所位置，不等于医院病房或临时商店。",
+        "example": "He rented a basement apartment on the island.",
+        "collocations": [
+          "living alone in a basement apartment",
+          "in Staten Island"
+        ]
+      }
+    ],
+    "translation": "2012年10月29日Hurricane Sandy袭击New York City。六十四岁的Takashi Fujimoto独居Staten Island地下公寓。正用摄影灯光设备时，水猛涌入房。他试图拔掉电线时触电。",
+    "evidenceTargetIds": [
+      "c11-s03-p125-03990-s002"
+    ],
+    "evidence": [
+      {
+        "quote": "On October 29, 2012, Hurricane Sandy hit New York City. Takashi Fujimoto, age sixty-four, was living alone in a basement apartment in Staten Island. Water began to gush into his apartment while he was working with photographic lighting equipment. When he tried to unplug the cords, he was electrocuted.",
+        "sentenceIds": [
+          "c11-s03-p125-03990-s001",
+          "c11-s03-p125-03990-s002",
+          "c11-s03-p125-03990-s003",
+          "c11-s03-p125-03990-s004"
+        ],
+        "sources": [
+          {
+            "pdfPage": 125,
+            "block": 3,
+            "bbox": [
+              76.99,
+              399,
+              535.01,
+              628.02
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "2a541a5bc086fcf89db80682713bf324f3dec3d362d8dd7f463f127022a2b4cd"
+  },
+  {
+    "id": "qe-c11-0042",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-049",
+    "parentQuestionId": "q-c11-022",
+    "chapterId": "c11",
+    "sectionId": "c11-s03",
+    "paragraphId": "c11-s03-p125-03990",
+    "readingUnitId": "c11-s03-p125-03990-r001-004",
+    "sentenceIds": [
+      "c11-s03-p125-03990-s001",
+      "c11-s03-p125-03990-s002",
+      "c11-s03-p125-03990-s003",
+      "c11-s03-p125-03990-s004"
+    ],
+    "passage": "On October 29, 2012, Hurricane Sandy hit New York City. Takashi Fujimoto, age sixty-four, was living alone in a basement apartment in Staten Island. Water began to gush into his apartment while he was working with photographic lighting equipment. When he tried to unplug the cords, he was electrocuted.",
+    "prompt": "What was happening when water began entering Fujimoto's apartment?",
+    "promptZh": "水开始涌入 Fujimoto 公寓时，他正在做什么？",
+    "options": [
+      "He was already receiving treatment in hospital.",
+      "He was interviewing the people who had helped him recover.",
+      "He was working with photographic lighting equipment.",
+      "He was reflecting on Katrina with Joe and Jordan."
+    ],
+    "optionsZh": [
+      "他已经在医院接受治疗。",
+      "他正在采访帮助其恢复的人。",
+      "他正在操作摄影灯光设备。",
+      "他正和Joe、Jordan回顾Katrina。"
+    ],
+    "answer": 2,
+    "type": "细节",
+    "support": "explicit",
+    "analyses": [
+      "A 住院是事故之后，不能提前到进水时。",
+      "B 感谢援助的叙述在灾后，非此刻活动。",
+      "C while he was working...明确同步发生的活动。",
+      "D 把另一家庭、另一风暴的故事混入；while是时间关系，不证明摄影设备引起了飓风。"
+    ],
+    "vocabulary": [
+      {
+        "word": "gush",
+        "meaning": "喷涌；大量急速流入",
+        "context": "began to gush 表示进水开始且势猛，不只是缓慢滴水。",
+        "example": "Water began to gush through the damaged doorway.",
+        "collocations": [
+          "gush into his apartment",
+          "photographic lighting equipment"
+        ]
+      }
+    ],
+    "translation": "2012年10月29日Hurricane Sandy袭击New York City。六十四岁的Takashi Fujimoto独居Staten Island地下公寓。正用摄影灯光设备时，水猛涌入房。他试图拔掉电线时触电。",
+    "evidenceTargetIds": [
+      "c11-s03-p125-03990-s003"
+    ],
+    "evidence": [
+      {
+        "quote": "On October 29, 2012, Hurricane Sandy hit New York City. Takashi Fujimoto, age sixty-four, was living alone in a basement apartment in Staten Island. Water began to gush into his apartment while he was working with photographic lighting equipment. When he tried to unplug the cords, he was electrocuted.",
+        "sentenceIds": [
+          "c11-s03-p125-03990-s001",
+          "c11-s03-p125-03990-s002",
+          "c11-s03-p125-03990-s003",
+          "c11-s03-p125-03990-s004"
+        ],
+        "sources": [
+          {
+            "pdfPage": 125,
+            "block": 3,
+            "bbox": [
+              76.99,
+              399,
+              535.01,
+              628.02
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "1d9f5f7d2fa3baceaed6299469858aef1bae570a4d31170f62787ec417773a49"
+  },
+  {
+    "id": "qe-c11-0043",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-049",
+    "parentQuestionId": "q-c11-023",
+    "chapterId": "c11",
+    "sectionId": "c11-s03",
+    "paragraphId": "c11-s03-p125-03990",
+    "readingUnitId": "c11-s03-p125-03990-r005-008",
+    "sentenceIds": [
+      "c11-s03-p125-03990-s005",
+      "c11-s03-p125-03990-s006",
+      "c11-s03-p125-03990-s007",
+      "c11-s03-p125-03990-s008"
+    ],
+    "passage": "He spent all night floating in and out of consciousness in his flooded apartment. The next morning, his landlord found him in a puddle of water and called for an ambulance. Fujimoto was hospitalized for the next thirty-seven days, as he had suffered a stroke and burns. Most of his possessions were ruined.",
+    "prompt": "What does 'floating in and out of consciousness' mean in this account?",
+    "promptZh": "本段 floating in and out of consciousness 是什么意思？",
+    "options": [
+      "He remained continuously alert and comfortable throughout the night.",
+      "He travelled repeatedly between his apartment and the hospital.",
+      "He was physically floating freely outdoors while remaining fully conscious.",
+      "His awareness alternated between conscious and unconscious states during the night."
+    ],
+    "optionsZh": [
+      "他整夜一直清醒舒适。",
+      "他在公寓和医院之间反复往返。",
+      "他始终清醒，只是在户外自由漂浮。",
+      "他整夜时而清醒、时而昏迷。"
+    ],
+    "answer": 3,
+    "type": "语境词义",
+    "support": "explicit",
+    "analyses": [
+      "A in and out 表示状态反复，非持续清醒。",
+      "B consciousness是意识，不是两个地理地点。",
+      "C 原文在 flooded apartment，重点是意识状态，不是户外漂流且完全清醒。",
+      "D 常见搭配in and out of consciousness描述意识时有时无；不要仅按floating字面读成平静漂浮。"
+    ],
+    "vocabulary": [
+      {
+        "word": "in and out of consciousness",
+        "meaning": "时而清醒、时而昏迷",
+        "context": "在此描述严重事故中的意识变化，不是普通注意力走神。",
+        "example": "The account says he drifted in and out of consciousness until help arrived.",
+        "collocations": [
+          "floating in and out of consciousness",
+          "in his flooded apartment"
+        ]
+      }
+    ],
+    "translation": "他整夜在淹水公寓中时而清醒、时而昏迷。次晨房东在积水里发现他，叫救护车。他因中风与烧伤住院三十七天。多数财物损毁。",
+    "evidenceTargetIds": [
+      "c11-s03-p125-03990-s005"
+    ],
+    "evidence": [
+      {
+        "quote": "He spent all night floating in and out of consciousness in his flooded apartment. The next morning, his landlord found him in a puddle of water and called for an ambulance. Fujimoto was hospitalized for the next thirty-seven days, as he had suffered a stroke and burns. Most of his possessions were ruined.",
+        "sentenceIds": [
+          "c11-s03-p125-03990-s005",
+          "c11-s03-p125-03990-s006",
+          "c11-s03-p125-03990-s007",
+          "c11-s03-p125-03990-s008"
+        ],
+        "sources": [
+          {
+            "pdfPage": 125,
+            "block": 3,
+            "bbox": [
+              76.99,
+              399,
+              535.01,
+              628.02
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "cb4861a29f2517c4c7d1717cc4a2caca91897cc515a478aa672e587c149460d8"
+  },
+  {
+    "id": "qe-c11-0044",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-049",
+    "parentQuestionId": "q-c11-023",
+    "chapterId": "c11",
+    "sectionId": "c11-s03",
+    "paragraphId": "c11-s03-p125-03990",
+    "readingUnitId": "c11-s03-p125-03990-r005-008",
+    "sentenceIds": [
+      "c11-s03-p125-03990-s005",
+      "c11-s03-p125-03990-s006",
+      "c11-s03-p125-03990-s007",
+      "c11-s03-p125-03990-s008"
+    ],
+    "passage": "He spent all night floating in and out of consciousness in his flooded apartment. The next morning, his landlord found him in a puddle of water and called for an ambulance. Fujimoto was hospitalized for the next thirty-seven days, as he had suffered a stroke and burns. Most of his possessions were ruined.",
+    "prompt": "What is the scope of the reported damage to Fujimoto's possessions?",
+    "promptZh": "对 Fujimoto 财物损失，原文给出的范围是什么？",
+    "options": [
+      "Most were ruined, without claiming that literally every possession was destroyed.",
+      "Every possession was untouched by the flooding.",
+      "Only one explicitly named item was damaged.",
+      "All possessions were confirmed to have been replaced before the next morning."
+    ],
+    "optionsZh": [
+      "多数损毁，但没有声称每一件都毁掉。",
+      "每件财物都丝毫未受淹水影响。",
+      "只损坏一件被明确点名的物品。",
+      "证实所有财物在次晨前已全更换。"
+    ],
+    "answer": 0,
+    "type": "证据范围",
+    "support": "explicit",
+    "analyses": [
+      "A Most保留多数范围，ruined为损毁，未扩大为全部。",
+      "B 与ruined相反。",
+      "C Most不是仅一件，本句也未点名单个物品。",
+      "D 后文援助不等于全部物品一夜更换，本句未给这样的时间或补偿范围。"
+    ],
+    "vocabulary": [
+      {
+        "word": "possessions",
+        "meaning": "财物；个人拥有的物品",
+        "context": "此处并非拥有某种权力的状态，也不是人身伤情。",
+        "example": "Many of her possessions were damaged by the flood.",
+        "collocations": [
+          "Most of his possessions",
+          "were ruined"
+        ]
+      }
+    ],
+    "translation": "他整夜在淹水公寓中时而清醒、时而昏迷。次晨房东在积水里发现他，叫救护车。他因中风与烧伤住院三十七天。多数财物损毁。",
+    "evidenceTargetIds": [
+      "c11-s03-p125-03990-s008"
+    ],
+    "evidence": [
+      {
+        "quote": "He spent all night floating in and out of consciousness in his flooded apartment. The next morning, his landlord found him in a puddle of water and called for an ambulance. Fujimoto was hospitalized for the next thirty-seven days, as he had suffered a stroke and burns. Most of his possessions were ruined.",
+        "sentenceIds": [
+          "c11-s03-p125-03990-s005",
+          "c11-s03-p125-03990-s006",
+          "c11-s03-p125-03990-s007",
+          "c11-s03-p125-03990-s008"
+        ],
+        "sources": [
+          {
+            "pdfPage": 125,
+            "block": 3,
+            "bbox": [
+              76.99,
+              399,
+              535.01,
+              628.02
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "3e94403dab47698c6624365e2585733b29fb9836c74fa972f7e151707ee95a86"
+  },
+  {
+    "id": "qe-c11-0045",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-049",
+    "parentQuestionId": "q-c11-024",
+    "chapterId": "c11",
+    "sectionId": "c11-s03",
+    "paragraphId": "c11-s03-p125-03990",
+    "readingUnitId": "c11-s03-p125-03990-r009-012",
+    "sentenceIds": [
+      "c11-s03-p125-03990-s009",
+      "c11-s03-p125-03990-s010",
+      "c11-s03-p125-03990-s011",
+      "c11-s03-p125-03990-s012"
+    ],
+    "passage": "But Catholic Charities provided him with a $500 grant to buy a winter jacket, clothes, and shoes. As recounted in The New York Times, “Mr. Fujimoto became misty-eyed as he talked about the people who helped him recover after the storm. ‘It changed my perspective for life.’ ”",
+    "prompt": "When did the report describe Fujimoto becoming misty-eyed?",
+    "promptZh": "报道描述 Fujimoto 在什么时候泪眼朦胧？",
+    "options": [
+      "When he announced that no one had helped him after the storm.",
+      "When he spoke about the people who had helped him recover.",
+      "When he described a controlled study measuring every survivor's emotions.",
+      "When he was shown a boy's photo by the German soldier."
+    ],
+    "optionsZh": [
+      "宣布风暴后没人帮过他时。",
+      "谈起帮助自己恢复的人们时。",
+      "描述测量每位幸存者情绪的控制实验时。",
+      "德国士兵给他看男孩照片时。"
+    ],
+    "answer": 1,
+    "type": "细节",
+    "support": "explicit",
+    "analyses": [
+      "A people who helped 明确有人援助，非无人。",
+      "B as he talked about给同时发生的谈话内容，misty-eyed说明当时动情。",
+      "C 引用的个案报道不是全部幸存者的控制研究。",
+      "D 照片属于前面Kahneman童年故事，不能混配人物。"
+    ],
+    "vocabulary": [
+      {
+        "word": "misty-eyed",
+        "meaning": "泪眼朦胧的；因感动等而眼含泪光的",
+        "context": "此处是讲起援助者时的情感表现，不是天气有雾或视力诊断。",
+        "example": "He became misty-eyed while thanking those who had helped.",
+        "collocations": [
+          "became misty-eyed",
+          "helped him recover after the storm"
+        ]
+      }
+    ],
+    "translation": "但Catholic Charities给他五百美元补助，买冬夹克、衣服和鞋。按The New York Times转述，谈到灾后帮助他恢复的人时，他泪眼朦胧，说这改变了他整个人生的视角。",
+    "evidenceTargetIds": [
+      "c11-s03-p125-03990-s010"
+    ],
+    "evidence": [
+      {
+        "quote": "But Catholic Charities provided him with a $500 grant to buy a winter jacket, clothes, and shoes. As recounted in The New York Times, “Mr. Fujimoto became misty-eyed as he talked about the people who helped him recover after the storm. ‘It changed my perspective for life.’ ”",
+        "sentenceIds": [
+          "c11-s03-p125-03990-s009",
+          "c11-s03-p125-03990-s010",
+          "c11-s03-p125-03990-s011",
+          "c11-s03-p125-03990-s012"
+        ],
+        "sources": [
+          {
+            "pdfPage": 125,
+            "block": 3,
+            "bbox": [
+              76.99,
+              399,
+              535.01,
+              628.02
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "b8a79a5245326d8e051181fb84b765a71cd03d7f295117cde1ed995e68b7398e"
+  },
+  {
+    "id": "qe-c11-0046",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-049",
+    "parentQuestionId": "q-c11-024",
+    "chapterId": "c11",
+    "sectionId": "c11-s03",
+    "paragraphId": "c11-s03-p125-03990",
+    "readingUnitId": "c11-s03-p125-03990-r009-012",
+    "sentenceIds": [
+      "c11-s03-p125-03990-s009",
+      "c11-s03-p125-03990-s010",
+      "c11-s03-p125-03990-s011",
+      "c11-s03-p125-03990-s012"
+    ],
+    "passage": "But Catholic Charities provided him with a $500 grant to buy a winter jacket, clothes, and shoes. As recounted in The New York Times, “Mr. Fujimoto became misty-eyed as he talked about the people who helped him recover after the storm. ‘It changed my perspective for life.’ ”",
+    "prompt": "What does 'for life' convey in Fujimoto's comment about his changed perspective?",
+    "promptZh": "Fujimoto 说视角改变 for life，传达什么？",
+    "options": [
+      "The perspective change lasted only until the end of that sentence.",
+      "Every material loss was immediately reversed.",
+      "He describes the change as lasting for the rest of his life.",
+      "He has measured a guaranteed identical change in every survivor."
+    ],
+    "optionsZh": [
+      "视角变化只持续到说完该句。",
+      "每项物质损失都立即逆转。",
+      "他把变化描述为会持续余生。",
+      "他测得每位幸存者保证有同样变化。"
+    ],
+    "answer": 2,
+    "type": "语境词义",
+    "support": "explicit",
+    "analyses": [
+      "A for life不是仅一瞬，与持续性相反。",
+      "B perspective为看待人生方式，不是物品已恢复。",
+      "C 保留其个人表述中的长久含义，不把说话者的回顾改成已追踪完余生的测量。",
+      "D 第一人称my并无所有幸存者的统一试验。"
+    ],
+    "vocabulary": [
+      {
+        "word": "for life",
+        "meaning": "一生；余生始终如此",
+        "context": "这里修饰视角改变的持续意义，非法律上的终身判决。",
+        "example": "She described the experience as changing her outlook for life.",
+        "collocations": [
+          "changed my perspective for life",
+          "my perspective"
+        ]
+      }
+    ],
+    "translation": "但Catholic Charities给他五百美元补助，买冬夹克、衣服和鞋。按The New York Times转述，谈到灾后帮助他恢复的人时，他泪眼朦胧，说这改变了他整个人生的视角。",
+    "evidenceTargetIds": [
+      "c11-s03-p125-03990-s011"
+    ],
+    "evidence": [
+      {
+        "quote": "But Catholic Charities provided him with a $500 grant to buy a winter jacket, clothes, and shoes. As recounted in The New York Times, “Mr. Fujimoto became misty-eyed as he talked about the people who helped him recover after the storm. ‘It changed my perspective for life.’ ”",
+        "sentenceIds": [
+          "c11-s03-p125-03990-s009",
+          "c11-s03-p125-03990-s010",
+          "c11-s03-p125-03990-s011",
+          "c11-s03-p125-03990-s012"
+        ],
+        "sources": [
+          {
+            "pdfPage": 125,
+            "block": 3,
+            "bbox": [
+              76.99,
+              399,
+              535.01,
+              628.02
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "8657a2214fff4b15aa87f49b75ce1efe0f5b1f2fcc605a96ddac7bc0bb197013"
+  },
+  {
+    "id": "qe-c11-0047",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-049",
+    "parentQuestionId": "q-c11-024",
+    "chapterId": "c11",
+    "sectionId": "c11-s03",
+    "paragraphId": "c11-s03-p125-03990",
+    "readingUnitId": "c11-s03-p125-03990-r009-012",
+    "sentenceIds": [
+      "c11-s03-p125-03990-s009",
+      "c11-s03-p125-03990-s010",
+      "c11-s03-p125-03990-s011",
+      "c11-s03-p125-03990-s012"
+    ],
+    "passage": "But Catholic Charities provided him with a $500 grant to buy a winter jacket, clothes, and shoes. As recounted in The New York Times, “Mr. Fujimoto became misty-eyed as he talked about the people who helped him recover after the storm. ‘It changed my perspective for life.’ ”",
+    "prompt": "Which attribution is supported by the nested quotation and its closing marks?",
+    "promptZh": "根据嵌套引语及其结束标记，哪种引语归属正确？",
+    "options": [
+      "The book author is describing his own recovery in the first person.",
+      "Catholic Charities is directly quoted promising that everyone's life will change.",
+      "The newspaper reporter says that the quoted first-person perspective is the reporter's own.",
+      "A newspaper account contains Fujimoto's own comment about his changed perspective."
+    ],
+    "optionsZh": [
+      "本书作者以第一人称描述自己的恢复。",
+      "Catholic Charities被直接引用，承诺人人人生改变。",
+      "报道记者说引语中第一人称视角属于记者自己。",
+      "报纸的转述中包含Fujimoto关于自己视角改变的原话。"
+    ],
+    "answer": 3,
+    "type": "观点归属",
+    "support": "explicit",
+    "analyses": [
+      "A As recounted in The New York Times引出报道，内部my所指不是本书作者。",
+      "B 补助来自该机构，但此处没有它作出的普遍承诺。",
+      "C Mr. Fujimoto与内部引语共同定位说话者，不能把my改给记者。",
+      "D 外层双引号包住报纸报道，内层单引号是Fujimoto的话，末尾双引号结束外层报道；my perspective归于被转述的Fujimoto，不是记者或本书作者。"
+    ],
+    "vocabulary": [
+      {
+        "word": "recounted",
+        "meaning": "讲述；转述过去的事情",
+        "context": "说明报纸叙述的来源层级，不代表作者本人经历了故事。",
+        "example": "The incident was recounted in a newspaper profile.",
+        "collocations": [
+          "As recounted in The New York Times",
+          "talked about the people who helped him"
+        ]
+      }
+    ],
+    "translation": "但Catholic Charities给他五百美元补助，买冬夹克、衣服和鞋。按The New York Times转述，谈到灾后帮助他恢复的人时，他泪眼朦胧，说这改变了他整个人生的视角。",
+    "evidenceTargetIds": [
+      "c11-s03-p125-03990-s012"
+    ],
+    "evidence": [
+      {
+        "quote": "But Catholic Charities provided him with a $500 grant to buy a winter jacket, clothes, and shoes. As recounted in The New York Times, “Mr. Fujimoto became misty-eyed as he talked about the people who helped him recover after the storm. ‘It changed my perspective for life.’ ”",
+        "sentenceIds": [
+          "c11-s03-p125-03990-s009",
+          "c11-s03-p125-03990-s010",
+          "c11-s03-p125-03990-s011",
+          "c11-s03-p125-03990-s012"
+        ],
+        "sources": [
+          {
+            "pdfPage": 125,
+            "block": 3,
+            "bbox": [
+              76.99,
+              399,
+              535.01,
+              628.02
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "5e5b5bbaf85931aaa7870bbadd4d06f0c28e5a4ea139c627a2e201ba063e8531"
+  },
+  {
+    "id": "qe-c11-0048",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-049",
+    "parentQuestionId": "q-c11-025",
+    "chapterId": "c11",
+    "sectionId": "c11-s03",
+    "paragraphId": "c11-s03-p125-06330",
+    "readingUnitId": "c11-s03-p125-06330-r001-003",
+    "sentenceIds": [
+      "c11-s03-p125-06330-s001",
+      "c11-s03-p125-06330-s002",
+      "c11-s03-p125-06330-s003"
+    ],
+    "passage": "Fujimoto’s experience with Hurricane Sandy was far from intentional. Though he was proud to have lived independently for the previous thirty-six years, this near-death experience changed him. It was terrible, but it reaffirmed his belief in community, to the point that he even continued to live in the same basement apartment with the same landlord and neighbors afterward.",
+    "prompt": "What does 'far from intentional' say about Fujimoto's hurricane experience?",
+    "promptZh": "far from intentional 如何描述 Fujimoto 的飓风经历？",
+    "options": [
+      "It was carefully chosen as a planned adventure.",
+      "It was not an experience he deliberately chose to undergo.",
+      "It happened far away from the apartment where he lived.",
+      "It was a professional task assigned by the interviewers."
+    ],
+    "optionsZh": [
+      "它是精心选择的计划冒险。",
+      "它不是他有意选择要经历的事。",
+      "它发生在远离其住所的地方。",
+      "它是访谈者分派的职业任务。"
+    ],
+    "answer": 1,
+    "type": "同义改写",
+    "support": "explicit",
+    "analyses": [
+      "A far from否定intentional，不能改成主动策划。",
+      "B 保留非主动选择的意思，与本章从有意体验转向不利事件呼应。",
+      "C far from在此是否定程度的习语，非地理距离。",
+      "D 原文描述灾害个案，不是采访者分派的任务。"
+    ],
+    "vocabulary": [
+      {
+        "word": "far from",
+        "meaning": "远非；一点也谈不上",
+        "context": "这里强调与intentional相反，不表示事件发生地很远。",
+        "example": "The unexpected disruption was far from intentional.",
+        "collocations": [
+          "far from intentional",
+          "experience with Hurricane Sandy"
+        ]
+      }
+    ],
+    "translation": "他经历Sandy远非主动选择。虽为此前独立生活三十六年自豪，濒死经历仍改变了他。这很可怕，却重新坚定社区信念，以至后来仍留同一地下公寓，与原房东和邻居为伴。",
+    "evidenceTargetIds": [
+      "c11-s03-p125-06330-s001"
+    ],
+    "evidence": [
+      {
+        "quote": "Fujimoto’s experience with Hurricane Sandy was far from intentional. Though he was proud to have lived independently for the previous thirty-six years, this near-death experience changed him. It was terrible, but it reaffirmed his belief in community, to the point that he even continued to live in the same basement apartment with the same landlord and neighbors afterward.",
+        "sentenceIds": [
+          "c11-s03-p125-06330-s001",
+          "c11-s03-p125-06330-s002",
+          "c11-s03-p125-06330-s003"
+        ],
+        "sources": [
+          {
+            "pdfPage": 125,
+            "block": 4,
+            "bbox": [
+              76.99,
+              633,
+              535.01,
+              706.02
+            ]
+          },
+          {
+            "pdfPage": 126,
+            "block": 0,
+            "bbox": [
+              76.99,
+              75,
+              535,
+              109.02
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "81a6687c9847b32dfbec0459e1aa1d7ef4e654a16a15c8a517e7de69f6cf5e13"
+  },
+  {
+    "id": "qe-c11-0049",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-049",
+    "parentQuestionId": "q-c11-025",
+    "chapterId": "c11",
+    "sectionId": "c11-s03",
+    "paragraphId": "c11-s03-p125-06330",
+    "readingUnitId": "c11-s03-p125-06330-r001-003",
+    "sentenceIds": [
+      "c11-s03-p125-06330-s001",
+      "c11-s03-p125-06330-s002",
+      "c11-s03-p125-06330-s003"
+    ],
+    "passage": "Fujimoto’s experience with Hurricane Sandy was far from intentional. Though he was proud to have lived independently for the previous thirty-six years, this near-death experience changed him. It was terrible, but it reaffirmed his belief in community, to the point that he even continued to live in the same basement apartment with the same landlord and neighbors afterward.",
+    "prompt": "What contrast is made with Fujimoto's pride in independent living?",
+    "promptZh": "Fujimoto 对独立生活的自豪与什么形成对照？",
+    "options": [
+      "He had never lived independently at any point.",
+      "He was proud only because he had chosen the hurricane.",
+      "Despite that pride, the near-death experience changed him.",
+      "The experience left his outlook entirely unchanged."
+    ],
+    "optionsZh": [
+      "他从未独立生活过。",
+      "他仅因自己选了飓风才自豪。",
+      "尽管为独立生活自豪，濒死经历仍改变了他。",
+      "这段经历让其看法丝毫未变。"
+    ],
+    "answer": 2,
+    "type": "逻辑关系",
+    "support": "explicit",
+    "analyses": [
+      "A 前previous thirty-six years明确有独立生活经历。",
+      "B 自豪对象是lived independently，非选择灾难。",
+      "C Though引让步，主句this near-death experience changed him说明原有自豪未阻止改变。",
+      "D changed him与完全未变相反；没说此前独立生活全无价值或他以后失去一切自主能力。"
+    ],
+    "vocabulary": [
+      {
+        "word": "independently",
+        "meaning": "独立地；不依赖他人帮助地生活",
+        "context": "修饰其过去生活方式，不是实验中互相独立的统计样本。",
+        "example": "He had lived independently for many years before the accident.",
+        "collocations": [
+          "lived independently",
+          "for the previous thirty-six years"
+        ]
+      }
+    ],
+    "translation": "他经历Sandy远非主动选择。虽为此前独立生活三十六年自豪，濒死经历仍改变了他。这很可怕，却重新坚定社区信念，以至后来仍留同一地下公寓，与原房东和邻居为伴。",
+    "evidenceTargetIds": [
+      "c11-s03-p125-06330-s002"
+    ],
+    "evidence": [
+      {
+        "quote": "Fujimoto’s experience with Hurricane Sandy was far from intentional. Though he was proud to have lived independently for the previous thirty-six years, this near-death experience changed him. It was terrible, but it reaffirmed his belief in community, to the point that he even continued to live in the same basement apartment with the same landlord and neighbors afterward.",
+        "sentenceIds": [
+          "c11-s03-p125-06330-s001",
+          "c11-s03-p125-06330-s002",
+          "c11-s03-p125-06330-s003"
+        ],
+        "sources": [
+          {
+            "pdfPage": 125,
+            "block": 4,
+            "bbox": [
+              76.99,
+              633,
+              535.01,
+              706.02
+            ]
+          },
+          {
+            "pdfPage": 126,
+            "block": 0,
+            "bbox": [
+              76.99,
+              75,
+              535,
+              109.02
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "ce22353e9e38d749da9ce4d0567bb98ecd4a3ef3c9049cd16bfcf5c1393526da"
+  },
+  {
+    "id": "qe-c11-0050",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-049",
+    "parentQuestionId": "q-c11-026",
+    "chapterId": "c11",
+    "sectionId": "c11-s03",
+    "paragraphId": "c11-s03-p126-01140",
+    "readingUnitId": "c11-s03-p126-01140-r001-004",
+    "sentenceIds": [
+      "c11-s03-p126-01140-s001",
+      "c11-s03-p126-01140-s002",
+      "c11-s03-p126-01140-s003",
+      "c11-s03-p126-01140-s004"
+    ],
+    "passage": "While New York City recovered from Hurricane Sandy fairly quickly, New Orleans suffered for years after Hurricane Katrina. In 2018, Joe Bridges and his son Jordan reflected on the effects of Katrina thirteen years after it happened. They evacuated to Atlanta first, then to Washington D.C. In January 2006, they returned to New Orleans. Joe said, “It kind of threw me off a little bit because we were living in D.C., where everything is beautiful.",
+    "prompt": "What does the comparison between New York City and New Orleans emphasise?",
+    "promptZh": "New York City 与 New Orleans 的比较强调什么？",
+    "options": [
+      "The two cities had exactly the same recovery times after the same hurricane.",
+      "New Orleans recovered from Sandy before New York City did.",
+      "The passage gives exact and identical numerical recovery durations for both cities.",
+      "New York City's relatively quick recovery from Sandy contrasts with years of suffering in New Orleans after Katrina."
+    ],
+    "optionsZh": [
+      "两城在同一飓风后恢复时长完全一样。",
+      "New Orleans比New York City更早从Sandy恢复。",
+      "原文给两城完全一样的确切恢复时长。",
+      "New York City从Sandy较快恢复，对照New Orleans在Katrina后多年受苦。"
+    ],
+    "answer": 3,
+    "type": "逻辑关系",
+    "support": "explicit",
+    "analyses": [
+      "A 城市分别对应Sandy、Katrina，且while引出反差。",
+      "B 交换了风暴与城市，方向也不对。",
+      "C fairly quickly与for years为不同程度表达，不是相同精确数值。",
+      "D 两组地点、风暴、恢复情况完整对应；不是每名居民恢复都相同的结论。"
+    ],
+    "vocabulary": [
+      {
+        "word": "While",
+        "meaning": "虽然；而，相比之下",
+        "context": "句首while在此引对比，不是指两风暴同一时刻同时发生。",
+        "example": "While one city recovered quickly, the other faced years of disruption.",
+        "collocations": [
+          "While New York City recovered",
+          "New Orleans suffered for years"
+        ]
+      }
+    ],
+    "translation": "New York City从Sandy恢复较快，而New Orleans在Katrina后苦撑多年。2018年，Joe Bridges与儿子Jordan回顾十三年前飓风影响。他们先撤到Atlanta，再到Washington D.C.，2006年1月回New Orleans。Joe说，原住一切漂亮的D.C.，回来让他有些无所适从。（引语续后段）",
+    "evidenceTargetIds": [
+      "c11-s03-p126-01140-s001"
+    ],
+    "evidence": [
+      {
+        "quote": "While New York City recovered from Hurricane Sandy fairly quickly, New Orleans suffered for years after Hurricane Katrina. In 2018, Joe Bridges and his son Jordan reflected on the effects of Katrina thirteen years after it happened. They evacuated to Atlanta first, then to Washington D.C. In January 2006, they returned to New Orleans. Joe said, “It kind of threw me off a little bit because we were living in D.C., where everything is beautiful.",
+        "sentenceIds": [
+          "c11-s03-p126-01140-s001",
+          "c11-s03-p126-01140-s002",
+          "c11-s03-p126-01140-s003",
+          "c11-s03-p126-01140-s004"
+        ],
+        "sources": [
+          {
+            "pdfPage": 126,
+            "block": 1,
+            "bbox": [
+              76.99,
+              114,
+              535.01,
+              401.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "1cb355db1803ec980a541bd00345de0c25d6e6cb3a36c8f3586bb10bc692d748"
+  },
+  {
+    "id": "qe-c11-0051",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-049",
+    "parentQuestionId": "q-c11-026",
+    "chapterId": "c11",
+    "sectionId": "c11-s03",
+    "paragraphId": "c11-s03-p126-01140",
+    "readingUnitId": "c11-s03-p126-01140-r001-004",
+    "sentenceIds": [
+      "c11-s03-p126-01140-s001",
+      "c11-s03-p126-01140-s002",
+      "c11-s03-p126-01140-s003",
+      "c11-s03-p126-01140-s004"
+    ],
+    "passage": "While New York City recovered from Hurricane Sandy fairly quickly, New Orleans suffered for years after Hurricane Katrina. In 2018, Joe Bridges and his son Jordan reflected on the effects of Katrina thirteen years after it happened. They evacuated to Atlanta first, then to Washington D.C. In January 2006, they returned to New Orleans. Joe said, “It kind of threw me off a little bit because we were living in D.C., where everything is beautiful.",
+    "prompt": "What does the 2018 reflection by Joe and Jordan look back on?",
+    "promptZh": "Joe 和 Jordan 在2018年的回顾针对什么？",
+    "options": [
+      "The effects of Katrina thirteen years after the hurricane.",
+      "The first arrival of Sandy in New York City that same day.",
+      "A hurricane that the passage says had yet to happen.",
+      "Only the year they both started graduate work at Berkeley."
+    ],
+    "optionsZh": [
+      "Katrina发生十三年后的影响。",
+      "Sandy在同一天首次抵达New York City。",
+      "原文说尚未发生的飓风。",
+      "仅是二人去Berkeley读研的年份。"
+    ],
+    "answer": 0,
+    "type": "细节",
+    "support": "explicit",
+    "analyses": [
+      "A reflected on...effects of Katrina、thirteen years after逐项对应。",
+      "B 2018是回顾时间，不是2012年Sandy袭击日，人物也不同。",
+      "C after it happened说明已发生，非未来灾害预测。",
+      "D Berkeley属于前文Kahneman履历，非这对父子的回顾。"
+    ],
+    "vocabulary": [
+      {
+        "word": "reflected on",
+        "meaning": "回顾；认真思考某段经历或其影响",
+        "context": "这里是在多年后回看灾害，不是预报灾害或物体反射光。",
+        "example": "The family reflected on the changes several years after the storm.",
+        "collocations": [
+          "reflected on the effects",
+          "thirteen years after it happened"
+        ]
+      }
+    ],
+    "translation": "New York City从Sandy恢复较快，而New Orleans在Katrina后苦撑多年。2018年，Joe Bridges与儿子Jordan回顾十三年前飓风影响。他们先撤到Atlanta，再到Washington D.C.，2006年1月回New Orleans。Joe说，原住一切漂亮的D.C.，回来让他有些无所适从。（引语续后段）",
+    "evidenceTargetIds": [
+      "c11-s03-p126-01140-s002"
+    ],
+    "evidence": [
+      {
+        "quote": "While New York City recovered from Hurricane Sandy fairly quickly, New Orleans suffered for years after Hurricane Katrina. In 2018, Joe Bridges and his son Jordan reflected on the effects of Katrina thirteen years after it happened. They evacuated to Atlanta first, then to Washington D.C. In January 2006, they returned to New Orleans. Joe said, “It kind of threw me off a little bit because we were living in D.C., where everything is beautiful.",
+        "sentenceIds": [
+          "c11-s03-p126-01140-s001",
+          "c11-s03-p126-01140-s002",
+          "c11-s03-p126-01140-s003",
+          "c11-s03-p126-01140-s004"
+        ],
+        "sources": [
+          {
+            "pdfPage": 126,
+            "block": 1,
+            "bbox": [
+              76.99,
+              114,
+              535.01,
+              401.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "60d79b91dcc0e03d68f067fc27c57d42f453a0ab85cc8d9954af5f2b198a9017"
+  },
+  {
+    "id": "qe-c11-0052",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-049",
+    "parentQuestionId": "q-c11-026",
+    "chapterId": "c11",
+    "sectionId": "c11-s03",
+    "paragraphId": "c11-s03-p126-01140",
+    "readingUnitId": "c11-s03-p126-01140-r001-004",
+    "sentenceIds": [
+      "c11-s03-p126-01140-s001",
+      "c11-s03-p126-01140-s002",
+      "c11-s03-p126-01140-s003",
+      "c11-s03-p126-01140-s004"
+    ],
+    "passage": "While New York City recovered from Hurricane Sandy fairly quickly, New Orleans suffered for years after Hurricane Katrina. In 2018, Joe Bridges and his son Jordan reflected on the effects of Katrina thirteen years after it happened. They evacuated to Atlanta first, then to Washington D.C. In January 2006, they returned to New Orleans. Joe said, “It kind of threw me off a little bit because we were living in D.C., where everything is beautiful.",
+    "prompt": "What does Joe's phrase 'threw me off' convey in this extract?",
+    "promptZh": "Joe 的 threw me off 在片段中传达什么？",
+    "options": [
+      "He was physically thrown from a vehicle by someone in D.C.",
+      "He had no emotional reaction to leaving an attractive setting.",
+      "He felt unsettled by the change from the beautiful surroundings he had been living in.",
+      "He reported that Washington, D.C. had itself been destroyed by Katrina."
+    ],
+    "optionsZh": [
+      "他在D.C.被人从车里扔出去。",
+      "离开漂亮环境时他没有任何情绪反应。",
+      "离开此前漂亮的生活环境所形成的变化，让他有些无所适从。",
+      "他报告Washington D.C.本身被Katrina摧毁。"
+    ],
+    "answer": 2,
+    "type": "语境词义",
+    "support": "explicit",
+    "analyses": [
+      "A threw me off为扰乱心绪的习语，不是此处发生物理抛掷。",
+      "B kind of...a little bit仍描述受到影响，不能删成全无反应。",
+      "C because后说明此前住的D.C.环境beautiful；前面returned to New Orleans给变化背景。",
+      "D 本句把D.C.说成漂亮，未说该城遭Katrina摧毁；不增加确切症状诊断。"
+    ],
+    "vocabulary": [
+      {
+        "word": "threw me off",
+        "meaning": "让我一时不适应；使我无所适从",
+        "context": "这里的口语表达说心绪和预期被扰乱，并非被投掷离开。",
+        "example": "The sudden contrast between the two places threw him off.",
+        "collocations": [
+          "It kind of threw me off",
+          "a little bit"
+        ]
+      }
+    ],
+    "translation": "New York City从Sandy恢复较快，而New Orleans在Katrina后苦撑多年。2018年，Joe Bridges与儿子Jordan回顾十三年前飓风影响。他们先撤到Atlanta，再到Washington D.C.，2006年1月回New Orleans。Joe说，原住一切漂亮的D.C.，回来让他有些无所适从。（引语续后段）",
+    "evidenceTargetIds": [
+      "c11-s03-p126-01140-s004"
+    ],
+    "evidence": [
+      {
+        "quote": "While New York City recovered from Hurricane Sandy fairly quickly, New Orleans suffered for years after Hurricane Katrina. In 2018, Joe Bridges and his son Jordan reflected on the effects of Katrina thirteen years after it happened. They evacuated to Atlanta first, then to Washington D.C. In January 2006, they returned to New Orleans. Joe said, “It kind of threw me off a little bit because we were living in D.C., where everything is beautiful.",
+        "sentenceIds": [
+          "c11-s03-p126-01140-s001",
+          "c11-s03-p126-01140-s002",
+          "c11-s03-p126-01140-s003",
+          "c11-s03-p126-01140-s004"
+        ],
+        "sources": [
+          {
+            "pdfPage": 126,
+            "block": 1,
+            "bbox": [
+              76.99,
+              114,
+              535.01,
+              401.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "65f3553388d173189ee1842cd608644a4642c784bd501ef3b57dec3fe13972c3"
+  },
+  {
+    "id": "qe-c11-0053",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-049",
+    "parentQuestionId": "q-c11-027",
+    "chapterId": "c11",
+    "sectionId": "c11-s03",
+    "paragraphId": "c11-s03-p126-01140",
+    "readingUnitId": "c11-s03-p126-01140-r005-008",
+    "sentenceIds": [
+      "c11-s03-p126-01140-s005",
+      "c11-s03-p126-01140-s006",
+      "c11-s03-p126-01140-s007",
+      "c11-s03-p126-01140-s008"
+    ],
+    "passage": "It’s nice. And then I would come back to New Orleans to where it was like a bomb had went off.” In 2018, Jordan could still see abandoned homes from Katrina, describing the storm as a “veil” that still covered the city. Despite the long-lasting damage, Jordan said, “I think we’re a better city because of it.",
+    "prompt": "What evaluation does the opening 'It's nice' express before the contrast?",
+    "promptZh": "在转入对比前，开头 It's nice 表达哪种评价？",
+    "options": [
+      "A negative appraisal that everything in that setting was already ruined.",
+      "A positive appraisal of the setting being discussed.",
+      "An exact count of buildings repaired after the hurricane.",
+      "A claim that the damaged city never experienced any harm."
+    ],
+    "optionsZh": [
+      "负面评价：那个环境里一切已毁。",
+      "对正在谈论的环境作正面评价。",
+      "灾后修复建筑的确切数量。",
+      "声称受损城市从未有任何损害。"
+    ],
+    "answer": 1,
+    "type": "作者语气",
+    "support": "explicit",
+    "analyses": [
+      "A nice是正面评价，不能直接等同ruined。",
+      "B nice承接引语中的好环境，后句And then转到回返时的强烈反差。",
+      "C 形容词评价不是修复建筑统计。",
+      "D 只看开头正面词不能覆盖后文损毁描述，且当前片段没有否认城市受害。"
+    ],
+    "vocabulary": [
+      {
+        "word": "nice",
+        "meaning": "好的；让人感觉舒适愉快的",
+        "context": "这里评价环境，不是精确的恢复程度或灾损数值。",
+        "example": "The setting seemed nice before he returned to the damaged neighbourhood.",
+        "collocations": [
+          "It’s nice",
+          "And then I would come back"
+        ]
+      }
+    ],
+    "translation": "“那里很好。回到New Orleans，却像炸弹炸过。”2018年Jordan仍看见Katrina留下的废屋，称风暴是一层仍罩城市的面纱。尽管损害长久，他说：“我觉得因为它，我们城市更好了。（引语续后段）",
+    "evidenceTargetIds": [
+      "c11-s03-p126-01140-s005"
+    ],
+    "evidence": [
+      {
+        "quote": "It’s nice. And then I would come back to New Orleans to where it was like a bomb had went off.” In 2018, Jordan could still see abandoned homes from Katrina, describing the storm as a “veil” that still covered the city. Despite the long-lasting damage, Jordan said, “I think we’re a better city because of it.",
+        "sentenceIds": [
+          "c11-s03-p126-01140-s005",
+          "c11-s03-p126-01140-s006",
+          "c11-s03-p126-01140-s007",
+          "c11-s03-p126-01140-s008"
+        ],
+        "sources": [
+          {
+            "pdfPage": 126,
+            "block": 1,
+            "bbox": [
+              76.99,
+              114,
+              535.01,
+              401.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "e244f859837d5774dfd38b1f26ec910d2951c3faec61aae63e78a9ada1b35037"
+  },
+  {
+    "id": "qe-c11-0054",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-049",
+    "parentQuestionId": "q-c11-027",
+    "chapterId": "c11",
+    "sectionId": "c11-s03",
+    "paragraphId": "c11-s03-p126-01140",
+    "readingUnitId": "c11-s03-p126-01140-r005-008",
+    "sentenceIds": [
+      "c11-s03-p126-01140-s005",
+      "c11-s03-p126-01140-s006",
+      "c11-s03-p126-01140-s007",
+      "c11-s03-p126-01140-s008"
+    ],
+    "passage": "It’s nice. And then I would come back to New Orleans to where it was like a bomb had went off.” In 2018, Jordan could still see abandoned homes from Katrina, describing the storm as a “veil” that still covered the city. Despite the long-lasting damage, Jordan said, “I think we’re a better city because of it.",
+    "prompt": "What does Joe's bomb comparison communicate about New Orleans?",
+    "promptZh": "Joe 用炸弹作比较，对New Orleans传达什么？",
+    "options": [
+      "A confirmed report that a bomb, rather than the hurricane, caused all the damage.",
+      "A statement that the city was completely unaffected.",
+      "A technical measurement of the exact energy released by the storm.",
+      "An impression of severe devastation on returning to the city."
+    ],
+    "optionsZh": [
+      "证实所有损害是炸弹而非飓风造成。",
+      "声明该城完全没受影响。",
+      "对风暴释放能量的精确技术测量。",
+      "返回城市时面对严重破坏的印象。"
+    ],
+    "answer": 3,
+    "type": "作者意图",
+    "support": "explicit",
+    "analyses": [
+      "A like标出比较，不能当实际爆炸因果报告。",
+      "B 炸弹意象与完全无损相反。",
+      "C 生动口语描写没有提供物理能量测量。",
+      "D 对比前面nice，呈现返回后的破败印象；原引语had went off照录，不暗中替换成修改后的措辞。"
+    ],
+    "vocabulary": [
+      {
+        "word": "like",
+        "meaning": "像……一样；用来引出比较",
+        "context": "此处是灾后景象的明喻标记，不等于报告真的有炸弹爆炸。",
+        "example": "The street looked like a scene of devastation.",
+        "collocations": [
+          "like a bomb had went off",
+          "come back to New Orleans"
+        ]
+      }
+    ],
+    "translation": "“那里很好。回到New Orleans，却像炸弹炸过。”2018年Jordan仍看见Katrina留下的废屋，称风暴是一层仍罩城市的面纱。尽管损害长久，他说：“我觉得因为它，我们城市更好了。（引语续后段）",
+    "evidenceTargetIds": [
+      "c11-s03-p126-01140-s006"
+    ],
+    "evidence": [
+      {
+        "quote": "It’s nice. And then I would come back to New Orleans to where it was like a bomb had went off.” In 2018, Jordan could still see abandoned homes from Katrina, describing the storm as a “veil” that still covered the city. Despite the long-lasting damage, Jordan said, “I think we’re a better city because of it.",
+        "sentenceIds": [
+          "c11-s03-p126-01140-s005",
+          "c11-s03-p126-01140-s006",
+          "c11-s03-p126-01140-s007",
+          "c11-s03-p126-01140-s008"
+        ],
+        "sources": [
+          {
+            "pdfPage": 126,
+            "block": 1,
+            "bbox": [
+              76.99,
+              114,
+              535.01,
+              401.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "f2958cd57a0ec0f96d4148f8a29b11b79a071f853d5b45d8a2efb9230f8dd93e"
+  },
+  {
+    "id": "qe-c11-0055",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-049",
+    "parentQuestionId": "q-c11-027",
+    "chapterId": "c11",
+    "sectionId": "c11-s03",
+    "paragraphId": "c11-s03-p126-01140",
+    "readingUnitId": "c11-s03-p126-01140-r005-008",
+    "sentenceIds": [
+      "c11-s03-p126-01140-s005",
+      "c11-s03-p126-01140-s006",
+      "c11-s03-p126-01140-s007",
+      "c11-s03-p126-01140-s008"
+    ],
+    "passage": "It’s nice. And then I would come back to New Orleans to where it was like a bomb had went off.” In 2018, Jordan could still see abandoned homes from Katrina, describing the storm as a “veil” that still covered the city. Despite the long-lasting damage, Jordan said, “I think we’re a better city because of it.",
+    "prompt": "What does the 'veil' image suggest in Jordan's 2018 description?",
+    "promptZh": "Jordan在2018年的描述中，veil意象暗示什么？",
+    "options": [
+      "The storm's effects still hung over the city, illustrated by abandoned homes.",
+      "All homes had been repaired and no trace of Katrina remained.",
+      "The city was literally covered by one continuous piece of fabric.",
+      "The description concerns only a moment before the storm first arrived."
+    ],
+    "optionsZh": [
+      "风暴影响仍笼罩城市，废弃房屋就是例子。",
+      "所有房屋已修好，Katrina痕迹全无。",
+      "城市真的盖着一整块布料。",
+      "描写只针对风暴首次到来前的一瞬。"
+    ],
+    "answer": 0,
+    "type": "语境词义",
+    "support": "explicit",
+    "analyses": [
+      "A still see abandoned homes与still covered共同强调多年后仍有痕迹。",
+      "B 与still和abandoned homes相反，也擅自扩大为全部修好。",
+      "C veil为笼罩感的比喻，不是布料覆盖的字面测量。",
+      "D In2018、from Katrina表示事后的持续影响，非风暴前。"
+    ],
+    "vocabulary": [
+      {
+        "word": "veil",
+        "meaning": "笼罩物；遮蔽事物的一层影响（比喻义）",
+        "context": "用风暴仍覆盖城市的形象说持续损害，不是每栋房屋同程度受灾的量化结论。",
+        "example": "Years later, the memory of the disaster still felt like a veil over the city.",
+        "collocations": [
+          "a “veil” that still covered the city",
+          "could still see abandoned homes"
+        ]
+      }
+    ],
+    "translation": "“那里很好。回到New Orleans，却像炸弹炸过。”2018年Jordan仍看见Katrina留下的废屋，称风暴是一层仍罩城市的面纱。尽管损害长久，他说：“我觉得因为它，我们城市更好了。（引语续后段）",
+    "evidenceTargetIds": [
+      "c11-s03-p126-01140-s007"
+    ],
+    "evidence": [
+      {
+        "quote": "It’s nice. And then I would come back to New Orleans to where it was like a bomb had went off.” In 2018, Jordan could still see abandoned homes from Katrina, describing the storm as a “veil” that still covered the city. Despite the long-lasting damage, Jordan said, “I think we’re a better city because of it.",
+        "sentenceIds": [
+          "c11-s03-p126-01140-s005",
+          "c11-s03-p126-01140-s006",
+          "c11-s03-p126-01140-s007",
+          "c11-s03-p126-01140-s008"
+        ],
+        "sources": [
+          {
+            "pdfPage": 126,
+            "block": 1,
+            "bbox": [
+              76.99,
+              114,
+              535.01,
+              401.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "1517e0da635a49a698771458b44d98c5016a7bf344373b4fa849022506008a65"
+  },
+  {
+    "id": "qe-c11-0056",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-049",
+    "parentQuestionId": "q-c11-028",
+    "chapterId": "c11",
+    "sectionId": "c11-s03",
+    "paragraphId": "c11-s03-p126-01140",
+    "readingUnitId": "c11-s03-p126-01140-r009-012",
+    "sentenceIds": [
+      "c11-s03-p126-01140-s009",
+      "c11-s03-p126-01140-s010",
+      "c11-s03-p126-01140-s011",
+      "c11-s03-p126-01140-s012"
+    ],
+    "passage": "Much stronger, closer knit. Going through something as significant as Katrina with your loved ones and friends. Those bonds, you know, those are the things that are gonna last forever.” Hurricanes Katrina and Sandy destroyed many people’s lives.",
+    "prompt": "What does 'closer knit' mean in the quoted reflection?",
+    "promptZh": "引语里的 closer knit 是什么意思？",
+    "options": [
+      "Every damaged building has been physically knitted back together.",
+      "All residents now hold identical views on every issue.",
+      "The people are more closely connected to one another.",
+      "The speaker has proved that no lasting damage remains."
+    ],
+    "optionsZh": [
+      "每栋受损建筑都已用针线缝合。",
+      "所有居民在任何问题上观点都完全一样。",
+      "人们彼此联系更加紧密。",
+      "说话者已证明没有任何长期损害。"
+    ],
+    "answer": 2,
+    "type": "语境词义",
+    "support": "explicit",
+    "analyses": [
+      "A knit在这里比喻人际联系，不是给房屋针线修补。",
+      "B 更紧密不等于每个观点相同。",
+      "C 与stronger并列，后文loved ones、friends、bonds说明联系更紧密的社会含义。",
+      "D 人际纽带增强不抹去灾害损害；这是说话者回顾，不是完整灾损审计。"
+    ],
+    "vocabulary": [
+      {
+        "word": "closer knit",
+        "meaning": "联系更紧密的；更团结的",
+        "context": "在这段口述中说人的纽带，不是物品编织密度或无灾损保证。",
+        "example": "The neighbours became a closer knit community after helping one another.",
+        "collocations": [
+          "Much stronger, closer knit",
+          "Those bonds"
+        ]
+      }
+    ],
+    "translation": "“更坚强，联系更紧密。与亲友经历Katrina这样重大的事，那些纽带，你知道，会永远延续。”Katrina和Sandy摧毁了许多人的生活。",
+    "evidenceTargetIds": [
+      "c11-s03-p126-01140-s009"
+    ],
+    "evidence": [
+      {
+        "quote": "Much stronger, closer knit.",
+        "sentenceIds": [
+          "c11-s03-p126-01140-s009"
+        ],
+        "sources": [
+          {
+            "pdfPage": 126,
+            "block": 1,
+            "bbox": [
+              76.99,
+              114,
+              535.01,
+              401.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "56f0c398c0b4c6143f4b4e31e0f1739a3a106b92504c446b7c8c9e7ba7c735fa"
   }
 ]
