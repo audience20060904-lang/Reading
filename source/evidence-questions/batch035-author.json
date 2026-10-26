@@ -1,0 +1,983 @@
+{
+  "schemaVersion": 1,
+  "id": "evidence-035",
+  "status": "authored",
+  "evidenceRule": "frozen-target-sentence",
+  "questions": [
+    {
+      "order": 1,
+      "prompt": "Which comparison between the two families is stated in the Parasite description?",
+      "promptZh": "Parasite 的介绍明确怎样比较两家？",
+      "options": [
+        "The Kims are wealthy and the Parks are poor, with no children in either family.",
+        "The Kims are poor and the Parks wealthy, and each family has a son and a daughter.",
+        "Only the Park family has children, while all Kims are unrelated adults.",
+        "The two families are equally wealthy and each has four sons."
+      ],
+      "optionsZh": [
+        "Kim 家富、Park 家穷，两家均没孩子。",
+        "Kim 家穷、Park 家富，各有一儿一女。",
+        "只有 Park 家有孩子，Kim 家都是无亲属关系的成年人。",
+        "两家同样富裕，各有四个儿子。"
+      ],
+      "answer": 1,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A 贫富方向与家庭构成均反。",
+        "B poor Kims、wealthy Parks 与 both of whom have a son and a daughter 逐项对应。",
+        "C both of whom 包括两家，不只是 Park。",
+        "D four 后文计 Kim 家全体成员，不是四个儿子；角色家庭不当作真实学习用户。"
+      ],
+      "vocabulary": [
+        {
+          "word": "both of whom",
+          "meaning": "两者都；其中两家都",
+          "context": "whom 回指 two families，说明两家共同的子女构成，不指只有儿女两个人。",
+          "example": "The two neighbours, both of whom had children, often met at the park.",
+          "collocations": [
+            "both of whom have a son and a daughter",
+            "the poor Kims and the wealthy Parks"
+          ]
+        }
+      ],
+      "evidenceQuote": "If you’re too young for The Matrix, what about Parasite (2019)? This movie is about two families: the poor Kims and the wealthy Parks, both of whom have a son and a daughter. Somehow, all four members of the Kim family start working for the Park family and discover the life of the rich. Contrary to stereotypes that cast the poor as hopeless and incompetent, the two Kim children are smart, stylish, and cunning."
+    },
+    {
+      "order": 2,
+      "prompt": "What direction of employment connects the two families?",
+      "promptZh": "两家之间的雇用关系方向如何？",
+      "options": [
+        "All Parks begin working for the Kims.",
+        "Only one Kim hires the other three Parks.",
+        "Neither family works for the other.",
+        "All four Kims begin working for the Park family."
+      ],
+      "optionsZh": [
+        "Park 家全体开始为 Kim 家工作。",
+        "只有一位 Kim 雇用另外三位 Park。",
+        "两家互不雇用。",
+        "Kim 家四人全都开始为 Park 家工作。"
+      ],
+      "answer": 3,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A 主雇方向反了。",
+        "B all four members of the Kim family 不可改成一位或三位 Park。",
+        "C start working for 明确雇用关系。",
+        "D 姓氏、人数和方向均对应，discover the life of the rich 不等于他们本身已变富。"
+      ],
+      "vocabulary": [
+        {
+          "word": "working for",
+          "meaning": "为……工作；受雇于",
+          "context": "此处为 Kim 家服务 Park 家，不能倒置雇主与雇员。",
+          "example": "In the story, the family starts working for a wealthy household.",
+          "collocations": [
+            "start working for the Park family",
+            "discover the life of the rich"
+          ]
+        }
+      ],
+      "evidenceQuote": "If you’re too young for The Matrix, what about Parasite (2019)? This movie is about two families: the poor Kims and the wealthy Parks, both of whom have a son and a daughter. Somehow, all four members of the Kim family start working for the Park family and discover the life of the rich. Contrary to stereotypes that cast the poor as hopeless and incompetent, the two Kim children are smart, stylish, and cunning."
+    },
+    {
+      "order": 3,
+      "prompt": "How do the Parks contrast with the stereotype mentioned here?",
+      "promptZh": "Park 家与这里所提刻板印象有何对照？",
+      "options": [
+        "They are described as nice and naive rather than shrewd and calculating.",
+        "They confirm that every wealthy person is calculating.",
+        "They are called hopeless and incompetent in exactly the same way as the stereotype of the poor.",
+        "They are described as financially poor but secretly running the Kim household."
+      ],
+      "optionsZh": [
+        "被描述为友善天真，而非精明算计。",
+        "确认每个富人都精于算计。",
+        "完全依穷人刻板印象被说成无望无能。",
+        "被描述为贫穷却暗中管理 Kim 家。"
+      ],
+      "answer": 0,
+      "type": "逻辑关系",
+      "support": "explicit",
+      "analyses": [
+        "A contrary to 后列刻板印象，后半 nice and naive 给具体反差。",
+        "B 把反例错写成对全称印象的确认。",
+        "C hopeless/incompetent 是上一段谈穷人印象，不能混配。",
+        "D 贫富与工作关系都不对应；小说反差也不等于所有富人皆天真。"
+      ],
+      "vocabulary": [
+        {
+          "word": "naive",
+          "meaning": "天真的；缺乏世故的",
+          "context": "与 savvy and calculating 对照，不等于毫无能力，也不是对所有富人的判定。",
+          "example": "The character was kind but naive about the visitor's motives.",
+          "collocations": [
+            "nice and naive",
+            "savvy and calculating"
+          ]
+        }
+      ],
+      "evidenceQuote": "They lie to the Parks and claim to be an artist and elite college student in order to be hired as an art tutor and an English tutor, respectively. On the other hand, contrary to the stereotypes that portray the rich as savvy and calculating, the Parks are nice and naive. In a memorable scene, Mr. Kim describes Ms. Park, saying, “She’s rich, but still nice.” Ms. Kim replies, “Not ‘rich, but still nice.’"
+    },
+    {
+      "order": 4,
+      "prompt": "What relation does 'but still' suggest in Mr. Kim's comment?",
+      "promptZh": "Kim 先生评论中的 but still 暗示什么关系？",
+      "options": [
+        "Being wealthy is directly named as the cause of niceness.",
+        "Wealth and niceness are said to be exactly identical concepts.",
+        "Niceness is presented as continuing despite an implied expectation about wealth.",
+        "The speaker is saying Ms. Park has no money at all."
+      ],
+      "optionsZh": [
+        "有钱被直接说成友善的原因。",
+        "财富与友善被说成完全同一概念。",
+        "友善被呈现为仍然存在，尽管财富引发相反预期。",
+        "说话者说 Park 太太完全没钱。"
+      ],
+      "answer": 2,
+      "type": "逻辑关系",
+      "support": "explicit",
+      "analyses": [
+        "A 因果 because 属随后回应，不能前移成 but 的意思。",
+        "B 转折连接不同属性，不是同义定义。",
+        "C rich, but still nice 以转折呈现富有却仍友善的反差。",
+        "D rich 未被否定；分析角色措辞，不把其预期当作者普遍定律。"
+      ],
+      "vocabulary": [
+        {
+          "word": "but still",
+          "meaning": "但仍然；尽管如此仍",
+          "context": "转折保留后一特征，与下一说话者改成 because 的因果不同。",
+          "example": "The task was demanding, but still enjoyable.",
+          "collocations": [
+            "rich, but still nice",
+            "a contrast rather than a cause"
+          ]
+        }
+      ],
+      "evidenceQuote": "They lie to the Parks and claim to be an artist and elite college student in order to be hired as an art tutor and an English tutor, respectively. On the other hand, contrary to the stereotypes that portray the rich as savvy and calculating, the Parks are nice and naive. In a memorable scene, Mr. Kim describes Ms. Park, saying, “She’s rich, but still nice.” Ms. Kim replies, “Not ‘rich, but still nice.’"
+    },
+    {
+      "order": 5,
+      "prompt": "What is Ms. Kim doing when she says 'Not ‘rich, but still nice’'?",
+      "promptZh": "Kim 太太说 Not ‘rich, but still nice’ 时在做什么？",
+      "options": [
+        "Correcting the way the relationship is phrased, rather than simply repeating Mr. Kim's contrast.",
+        "Confirming that the two speakers use precisely the same relation without disagreement.",
+        "Denying that the Park family is wealthy at all.",
+        "Announcing that the film has ended before she replies."
+      ],
+      "optionsZh": [
+        "纠正关系的表述方式，而非单纯重复先生的转折。",
+        "确认两人关系表述完全相同、没有分歧。",
+        "否认 Park 家富裕。",
+        "宣布电影在她回答前结束。"
+      ],
+      "answer": 0,
+      "type": "对话逻辑",
+      "support": "explicit",
+      "analyses": [
+        "A Not 加对方原话，表明反驳其措辞；具体因果续在下个原文短段，本题不凭截段虚构新台词。",
+        "B Not 不能当完全同意。",
+        "C 她针对 rich,but still nice 整体关系，不是只否定 rich。",
+        "D replies 是回答动作，未宣布电影结束。"
+      ],
+      "vocabulary": [
+        {
+          "word": "replies",
+          "meaning": "回应；回答",
+          "context": "这里是 Kim 太太针对先生用语的纠正，不是作者直接给调查结论。",
+          "example": "The second speaker replies by questioning the first speaker's wording.",
+          "collocations": [
+            "Ms. Kim replies",
+            "Not ‘rich, but still nice’"
+          ]
+        }
+      ],
+      "evidenceQuote": "They lie to the Parks and claim to be an artist and elite college student in order to be hired as an art tutor and an English tutor, respectively. On the other hand, contrary to the stereotypes that portray the rich as savvy and calculating, the Parks are nice and naive. In a memorable scene, Mr. Kim describes Ms. Park, saying, “She’s rich, but still nice.” Ms. Kim replies, “Not ‘rich, but still nice.’"
+    },
+    {
+      "order": 6,
+      "prompt": "What relation is asserted in the line 'She’s nice because she’s rich'?",
+      "promptZh": "She’s nice because she’s rich 这一句主张什么关系？",
+      "options": [
+        "Niceness is asserted to cause her wealth.",
+        "The two qualities are explicitly said to be unrelated.",
+        "It is a scientific finding that every rich person is nice.",
+        "Wealth is presented as the reason for her niceness within the character's argument."
+      ],
+      "optionsZh": [
+        "友善被说成财富的原因。",
+        "明确说两种特征无关。",
+        "这是每个富人都友善的科学发现。",
+        "在人物论辩中，财富被呈现为友善的原因。"
+      ],
+      "answer": 3,
+      "type": "逻辑关系",
+      "support": "explicit",
+      "analyses": [
+        "A 颠倒 because 的方向。",
+        "B because 明示关联，不是毫不相干。",
+        "C 电影台词不能升级为人人适用的实证因果。",
+        "D 因果方向在角色发言中明确，仍区分人物主张与作者已验证结论。"
+      ],
+      "vocabulary": [
+        {
+          "word": "because",
+          "meaning": "因为；由此解释理由",
+          "context": "在人物台词中标记她主张的原因；语法有因果不代表现实已完成因果验证。",
+          "example": "The character argues that she can rest because she has enough money.",
+          "collocations": [
+            "nice because she’s rich",
+            "a character's causal claim"
+          ]
+        }
+      ],
+      "evidenceQuote": "She’s nice because she’s rich. Hell, if I had all this money, I’d be nice, too!” The film gives us a new way of thinking about the rich and the poor, abilities and opportunities, fairness and morality."
+    },
+    {
+      "order": 7,
+      "prompt": "How does the conditional about having 'all this money' support the speaker's point?",
+      "promptZh": "拥有 all this money 的条件句如何支持说话者观点？",
+      "options": [
+        "It reports that she has already received the Park family's money.",
+        "It imagines that the same financial advantage would allow her to behave nicely too.",
+        "It proves actual generosity increased in a controlled experiment.",
+        "It says money could never affect anyone's opportunities."
+      ],
+      "optionsZh": [
+        "报告她已收到 Park 家的钱。",
+        "设想同样金钱优势也会使自己能表现友善。",
+        "证明对照实验中慷慨已增加。",
+        "表示金钱绝不影响任何人机会。"
+      ],
+      "answer": 1,
+      "type": "语境理解",
+      "support": "explicit",
+      "analyses": [
+        "A if I had 与 I’d 是未实现的设想，不是收款记录。",
+        "B too 将自己纳入所设条件下的同样表现，支持角色关于机会与行为的论辩。",
+        "C 虚构台词非实验，也不证明所有人的品格。",
+        "D 与用金钱条件解释自身可能反应相反。"
+      ],
+      "vocabulary": [
+        {
+          "word": "I’d",
+          "meaning": "I would 的缩写；我会",
+          "context": "与 if I had 构成假设，不是 I had 已经拥有的实况。",
+          "example": "If I had more time, I'd read the longer version.",
+          "collocations": [
+            "if I had all this money",
+            "I’d be nice, too"
+          ]
+        }
+      ],
+      "evidenceQuote": "She’s nice because she’s rich. Hell, if I had all this money, I’d be nice, too!” The film gives us a new way of thinking about the rich and the poor, abilities and opportunities, fairness and morality."
+    },
+    {
+      "order": 8,
+      "prompt": "What distinction is attributed to Kant in Critique of Judgment?",
+      "promptZh": "Critique of Judgment 中，什么区分被归于 Kant？",
+      "options": [
+        "Between novels and films based only on their length.",
+        "Between wealthy artists and poor audiences.",
+        "Between beautiful arts and pleasant arts.",
+        "Between technology made before and after 1999."
+      ],
+      "optionsZh": [
+        "仅按长度分小说与电影。",
+        "富裕艺术家与贫穷观众。",
+        "美的艺术与悦人的艺术。",
+        "1999 年前后技术。"
+      ],
+      "answer": 2,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A 当前分类非篇幅或媒介长度。",
+        "B 并非艺术家与观众阶层。",
+        "C distinguished beautiful arts from pleasant arts 直接对应。",
+        "D 年份来自电影例，不能混入哲学分类；这是书中归述的思想区分，非新实验结论。"
+      ],
+      "vocabulary": [
+        {
+          "word": "distinguished",
+          "meaning": "区分；辨别不同",
+          "context": "distinguished A from B 说明概念区分，不是这里授予荣誉。",
+          "example": "The essay distinguished enjoyment from reflection.",
+          "collocations": [
+            "distinguished beautiful arts from pleasant arts",
+            "In his Critique of Judgment"
+          ]
+        }
+      ],
+      "evidenceQuote": "In his Critique of Judgment, Immanuel Kant distinguished beautiful arts from pleasant arts. He described pleasant arts as “those that are directed merely to enjoyment. Of this class are all those charming arts that can gratify a company at table…to this class belong all games which bring with them no further interest than that of making the time pass imperceptibly.”"
+    },
+    {
+      "order": 9,
+      "prompt": "What does the contrastive quotation say beautiful art can further?",
+      "promptZh": "对比引文说，美的艺术能促进什么？",
+      "options": [
+        "The cultivation of mental powers in relation to social communication, despite lacking a definite purpose.",
+        "Only imperceptible time-passing with no further interest.",
+        "A guaranteed practical use for every artwork in every household.",
+        "The elimination of all thought beyond sensory pleasure."
+      ],
+      "optionsZh": [
+        "尽管无明确目的，仍促进与社会沟通相关的心智能力培养。",
+        "只有不知不觉消磨时间、无其他旨趣。",
+        "保证每件作品在每户都有实际用途。",
+        "消除感觉愉悦之外的一切思考。"
+      ],
+      "answer": 0,
+      "type": "逻辑关系",
+      "support": "explicit",
+      "analyses": [
+        "A although...yet 保留让步，furthers 指促进心智能力培养，不把无明确目的错成毫无价值。",
+        "B 将前段 pleasant arts 特征错配给 beautiful art。",
+        "C devoid of [definite] purpose 不保证家用实用性。",
+        "D 后文 reflective judgment 正超越 mere sensation；这是哲学引述而非对每件作品的量化效果。"
+      ],
+      "vocabulary": [
+        {
+          "word": "devoid of",
+          "meaning": "没有；缺乏",
+          "context": "缺的是 [definite] purpose，不是完全没有体验价值或心智能力作用。",
+          "example": "The description was devoid of practical instructions.",
+          "collocations": [
+            "devoid of [definite] purpose",
+            "furthers the culture of the mental powers"
+          ]
+        }
+      ],
+      "evidenceQuote": "In contrast, “beautiful art is a mode of representation which is purposive for itself, and which, although devoid of [definite] purpose, yet furthers the culture of the mental powers in reference to social communication.” Here, Kant defines an aesthetic experience as something greater than the enjoyment of mere sensation but rather the enjoyment of what he calls “reflective judgment,” which involves some gap between sensation and reality and a new mental representation and understanding of an object."
+    },
+    {
+      "order": 10,
+      "prompt": "How is Rollins's reply to the question about art introduced?",
+      "promptZh": "关于艺术的问题，Rollins 的回答被怎样引入？",
+      "options": [
+        "As a technical manual proving technology can solve every human concern.",
+        "As an answer by the director of Parasite about the film's cast.",
+        "As a controlled trial replacing Kant's distinction with a measured law.",
+        "As an artistic reflection that evokes Kantian aesthetic judgement and begins by denying technology is a saviour."
+      ],
+      "optionsZh": [
+        "作为证明科技解决一切忧虑的技术手册。",
+        "作为 Parasite 导演谈演员的回答。",
+        "作为用测量定律替代 Kant 区分的对照试验。",
+        "作为联想到 Kant 审美判断的艺术思考，以否认科技是救星起头。"
+      ],
+      "answer": 3,
+      "type": "观点归属",
+      "support": "explicit",
+      "analyses": [
+        "A Technology is no savior 方向相反。",
+        "B 人物明为爵士萨克斯手 Sonny Rollins，不是电影导演。",
+        "C evoked 是思想呼应，不是实验取代哲学。",
+        "D 介绍艺术家回答及其开头观点，保留问的是 why art matters；不当科技政策或全部技术无用的证据。"
+      ],
+      "vocabulary": [
+        {
+          "word": "evoked",
+          "meaning": "唤起；令人联想到",
+          "context": "在此为回答与 Kant 思想之间的呼应，而非严格证明或本人逐字引用 Kant。",
+          "example": "The description evoked ideas from an earlier essay.",
+          "collocations": [
+            "evoked Kantian aesthetic judgments",
+            "why art matters"
+          ]
+        }
+      ],
+      "evidenceQuote": "When Sonny Rollins, the legendary jazz saxophonist, was asked about art and, more specifically, why art matters, his reply evoked Kantian aesthetic judgments: “Technology is no savior. We can eat, sleep, look at screens, make money—all aspects of our physical existence—but that doesn’t mean anything. Art is the exact opposite. It’s infinite, and without it, the world wouldn’t exist as it does."
+    },
+    {
+      "order": 11,
+      "prompt": "What does 'It' refer to in 'It’s infinite' within the quoted contrast?",
+      "promptZh": "引述对照中 It’s infinite 的 It 指什么？",
+      "options": [
+        "The amount of money every person earns.",
+        "Art, named in the immediately preceding sentence.",
+        "Technology as an unquestioned saviour.",
+        "The film's running time measured in hours."
+      ],
+      "optionsZh": [
+        "每个人挣的钱数。",
+        "紧前一句提到的艺术。",
+        "作为毫无疑问救星的科技。",
+        "以小时计的片长。"
+      ],
+      "answer": 1,
+      "type": "指代",
+      "support": "explicit",
+      "analyses": [
+        "A money 是物质生活列举的一项，并非此处最近先行项。",
+        "B Art is the exact opposite 后紧接 It’s infinite，主旨及语法均指 Art。",
+        "C 前面否认 technology 是 savior，不能当此处被赞扬对象。",
+        "D 没有影片时长，infinite 是艺术家观点中的修辞，不是测出的物理无限量。"
+      ],
+      "vocabulary": [
+        {
+          "word": "infinite",
+          "meaning": "无限的；无穷尽的",
+          "context": "在引文里形容艺术意义，不是片长或资源的科学测量。",
+          "example": "The poet spoke of an infinite range of imagined worlds.",
+          "collocations": [
+            "It’s infinite",
+            "Art is the exact opposite"
+          ]
+        }
+      ],
+      "evidenceQuote": "When Sonny Rollins, the legendary jazz saxophonist, was asked about art and, more specifically, why art matters, his reply evoked Kantian aesthetic judgments: “Technology is no savior. We can eat, sleep, look at screens, make money—all aspects of our physical existence—but that doesn’t mean anything. Art is the exact opposite. It’s infinite, and without it, the world wouldn’t exist as it does."
+    },
+    {
+      "order": 12,
+      "prompt": "Which qualities are linked to 'the immaterial soul' in the quotation?",
+      "promptZh": "引文把哪些特征与 immaterial soul 联系起来？",
+      "options": [
+        "Food, sleep, screens, and income as physical necessities alone.",
+        "The proven absence of emotion from artistic experience.",
+        "Intuition and what people feel in their hearts.",
+        "An instruction that every artwork must have a fixed market price."
+      ],
+      "optionsZh": [
+        "只有饮食睡眠屏幕收入等物质需要。",
+        "艺术体验中已证明没有情感。",
+        "直觉与人们心中的感受。",
+        "每件艺术须有固定市价的指令。"
+      ],
+      "answer": 2,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A 是前一短段物质生存的列举，不能替换此处非物质意涵。",
+        "B feel in our hearts 明确情感，并非无情感。",
+        "C 冒号后 intuition、that which... 解释这一引述表达。",
+        "D 没有定价指令；soul 为艺术观的表达，不当成科学发现的实体或实验结论。"
+      ],
+      "vocabulary": [
+        {
+          "word": "immaterial",
+          "meaning": "非物质的；非实体的",
+          "context": "在 immaterial soul 中不是另一常见义不重要的，而指精神层面。",
+          "example": "The essay focused on immaterial aspects of the experience.",
+          "collocations": [
+            "the immaterial soul",
+            "intuition and feeling"
+          ]
+        }
+      ],
+      "evidenceQuote": "It represents the immaterial soul: intuition, that which we feel in our hearts. Art matters today more than ever because it outlives the contentious political veneer that is cast over everything…. Art, in the same way, both inspires us to go out and find something new and highlights what we don’t know.”"
+    },
+    {
+      "order": 13,
+      "prompt": "Why does the quoted speaker say art matters 'more than ever'?",
+      "promptZh": "引文说艺术比以往更重要，给出的理由是什么？",
+      "options": [
+        "It always supports the current political faction's every claim.",
+        "It removes any need to consider what people do not know.",
+        "It endures beyond the contentious political surface placed over things.",
+        "It gives every artwork a scientifically measured infinite price."
+      ],
+      "optionsZh": [
+        "总支持当前政治派别每项主张。",
+        "消除思考未知的需要。",
+        "比覆盖事物的争议性政治表层更长久。",
+        "给每件作品科学测出的无限价格。"
+      ],
+      "answer": 2,
+      "type": "逻辑关系",
+      "support": "explicit",
+      "analyses": [
+        "A outlives the veneer 不是赞成每项政治主张。",
+        "B 后文反而 highlights what we don’t know。",
+        "C because 后明确 outlives...political veneer；这是引述艺术观而非新实证寿命研究。",
+        "D 没有市价测量，不能将精神表达改成经济数字。"
+      ],
+      "vocabulary": [
+        {
+          "word": "veneer",
+          "meaning": "薄表层；表面的包装或外衣",
+          "context": "political veneer 为比喻，指覆盖事物的政治化表层，不是实际木饰面。",
+          "example": "The polite conversation had a veneer of certainty over real doubt.",
+          "collocations": [
+            "the contentious political veneer",
+            "outlives the veneer"
+          ]
+        }
+      ],
+      "evidenceQuote": "It represents the immaterial soul: intuition, that which we feel in our hearts. Art matters today more than ever because it outlives the contentious political veneer that is cast over everything…. Art, in the same way, both inspires us to go out and find something new and highlights what we don’t know.”"
+    },
+    {
+      "order": 14,
+      "prompt": "What does 'echoes' mean in the introduction to Brooks's essay?",
+      "promptZh": "介绍 Brooks 文章时，echoes 是什么意思？",
+      "options": [
+        "His point resembles and reinforces Rollins's point.",
+        "He literally repeats an audio recording without adding an essay.",
+        "He rejects every part of Rollins's argument.",
+        "He independently proves a numerical causal law about art."
+      ],
+      "optionsZh": [
+        "其观点与 Rollins 相近、形成呼应。",
+        "只实际播放录音而没有写文章。",
+        "否定 Rollins 论点的每一部分。",
+        "独立证明艺术的数值因果定律。"
+      ],
+      "answer": 0,
+      "type": "语境词义",
+      "support": "explicit",
+      "analyses": [
+        "A echoes...point 指观点共鸣，后文给其个人转向艺术的说法。",
+        "B 是比喻呼应，不是物理回声或无文章。",
+        "C 与呼应方向相反。",
+        "D 思想相似不等于独立因果验证，也不表示逐字完全相同。"
+      ],
+      "vocabulary": [
+        {
+          "word": "echoes",
+          "meaning": "呼应；与某观点相似",
+          "context": "此处不是声音回响，也不必是照抄原话。",
+          "example": "The later essay echoes the earlier writer's concern about distraction.",
+          "collocations": [
+            "echoes Sonny Rollins’s point",
+            "In his essay"
+          ]
+        }
+      ],
+      "evidenceQuote": "In his essay “The Power of Art in a Political Age,” David Brooks echoes Sonny Rollins’s point. Brooks writes, “Like a lot of people, I spend too much of my time enmeshed in politics…. So I’m trying to take countermeasures. I flee to the arts.”"
+    },
+    {
+      "order": 15,
+      "prompt": "What prompts Brooks's attempt to take 'countermeasures'?",
+      "promptZh": "什么促使 Brooks 尝试采取 countermeasures？",
+      "options": [
+        "He has never spent time on politics and wants to begin.",
+        "He thinks every artwork has become a political campaign.",
+        "He has already finished a clinical trial on political attention.",
+        "He feels he spends too much time caught up in politics."
+      ],
+      "optionsZh": [
+        "从未花时间关心政治，想开始。",
+        "认为每件作品都变成政治竞选。",
+        "已完成政治注意力临床试验。",
+        "觉得自己太多时间陷在政治中。"
+      ],
+      "answer": 3,
+      "type": "逻辑关系",
+      "support": "explicit",
+      "analyses": [
+        "A spend too much...enmeshed 明确已有过多投入。",
+        "B 当前不是关于每件艺术的全称判断。",
+        "C 无临床研究；countermeasures 在这里不等于医疗措施。",
+        "D So 将应对尝试连到前句个人时间感受；trying 也不表示已经永远解决。"
+      ],
+      "vocabulary": [
+        {
+          "word": "countermeasures",
+          "meaning": "应对措施；抵消某种影响的办法",
+          "context": "在此为个人注意与生活选择，不是军事行动或临床疗法。",
+          "example": "He took countermeasures against distraction by setting aside quiet reading time.",
+          "collocations": [
+            "trying to take countermeasures",
+            "enmeshed in politics"
+          ]
+        }
+      ],
+      "evidenceQuote": "In his essay “The Power of Art in a Political Age,” David Brooks echoes Sonny Rollins’s point. Brooks writes, “Like a lot of people, I spend too much of my time enmeshed in politics…. So I’m trying to take countermeasures. I flee to the arts.”"
+    },
+    {
+      "order": 16,
+      "prompt": "What does 'I flee to the arts' convey in Brooks's quotation?",
+      "promptZh": "Brooks 引文中 I flee to the arts 表达什么？",
+      "options": [
+        "He physically moves to another country whose name is Arts.",
+        "He turns to art as an escape from excessive political entanglement.",
+        "He abandons art in order to increase political involvement.",
+        "He instructs every reader to stop all public engagement permanently."
+      ],
+      "optionsZh": [
+        "实际迁到一个名叫 Arts 的国家。",
+        "转向艺术，以摆脱过多政治纠缠。",
+        "离开艺术以增加政治投入。",
+        "命令每位读者永久停止一切公共参与。"
+      ],
+      "answer": 1,
+      "type": "语境词义",
+      "support": "explicit",
+      "analyses": [
+        "A flee 为比喻性转移，不是地名迁移。",
+        "B 承接 So...countermeasures，艺术是他寻求的应对方向。",
+        "C to the arts 方向相反。",
+        "D I 是个人经验，没有永久普遍禁令。"
+      ],
+      "vocabulary": [
+        {
+          "word": "flee to",
+          "meaning": "逃向；寻求某处作为摆脱困扰的途径",
+          "context": "这里转向艺术，并不必然是身体逃亡或彻底拒绝公共生活。",
+          "example": "When the noise became tiring, she would flee to poetry for a while.",
+          "collocations": [
+            "I flee to the arts",
+            "take countermeasures"
+          ]
+        }
+      ],
+      "evidenceQuote": "In his essay “The Power of Art in a Political Age,” David Brooks echoes Sonny Rollins’s point. Brooks writes, “Like a lot of people, I spend too much of my time enmeshed in politics…. So I’m trying to take countermeasures. I flee to the arts.”"
+    },
+    {
+      "order": 17,
+      "prompt": "What does 'not just ... but also' add to the claim about new experiences?",
+      "promptZh": "关于新体验的句子中，not just...but also 增加什么？",
+      "options": [
+        "Looking at art offers another route alongside reading novels and poems.",
+        "Visual art makes reading novels and poems impossible.",
+        "Only new factual information counts as an experience.",
+        "Art must replace every other activity in a person's life."
+      ],
+      "optionsZh": [
+        "除读小说与诗，看艺术也提供另一途径。",
+        "视觉艺术使读小说与诗不可能。",
+        "只有新事实资料才算体验。",
+        "艺术须取代个人其他所有活动。"
+      ],
+      "answer": 0,
+      "type": "逻辑关系",
+      "support": "explicit",
+      "analyses": [
+        "A 并列扩展渠道，not just 不否定阅读。",
+        "B 是增补，不是互斥。",
+        "C 前引文区分新事实与新体验，不能只认事实资料。",
+        "D 没有取代一切的要求；We can 表可能渠道，不保证每次看画都同效。"
+      ],
+      "vocabulary": [
+        {
+          "word": "open ourselves up to",
+          "meaning": "使自己向……敞开；愿意接受",
+          "context": "指对新体验的接纳，不是物理打开身体或只增加知识事实。",
+          "example": "The workshop helped them open themselves up to unfamiliar forms of art.",
+          "collocations": [
+            "open ourselves up to new experiences",
+            "not just ... but also"
+          ]
+        }
+      ],
+      "evidenceQuote": "Art, he says, “prompts you to stop in your tracks, take a breath and open yourself up so that you can receive what it is offering, often with a kind of childlike awe and reverence…artworks widen your emotional repertoire. When you read a poem or see a piece of sculpture, you haven’t learned a new fact, but you’ve had a new experience.” We can open ourselves up to new experiences not just through reading novels and poems, but also by looking at art."
+    },
+    {
+      "order": 18,
+      "prompt": "What connection does the author make with 'Das Gerede'?",
+      "promptZh": "作者与 Das Gerede 建立什么联系？",
+      "options": [
+        "He says Rollins and Brooks jointly wrote Being and Time.",
+        "He presents the phrase as a new film made by Kurosawa.",
+        "Their views on art remind him of Heidegger's idea of endless chatter.",
+        "He reports an experiment measuring the sound volume of all conversation."
+      ],
+      "optionsZh": [
+        "说 Rollins 与 Brooks 合著 Being and Time。",
+        "把该词作为 Kurosawa 的新片。",
+        "两人的艺术观使他想到 Heidegger 的无尽闲谈概念。",
+        "报告测量所有交谈音量的实验。"
+      ],
+      "answer": 2,
+      "type": "观点归属",
+      "support": "explicit",
+      "analyses": [
+        "A Being and Time 属所引 Heidegger，不是两位合著。",
+        "B 这里哲学概念，不是电影名。",
+        "C remind me of 明示作者联想，括号给 endless chatter 的本文释义。",
+        "D 思想联系不是声学量测，也不把联想当两人直接引用 Heidegger。"
+      ],
+      "vocabulary": [
+        {
+          "word": "takes on",
+          "meaning": "对……的看法；观点",
+          "context": "takes 在此为名词复数，非 take on 承担任务的动词结构。",
+          "example": "The essays offered different takes on the role of memory.",
+          "collocations": [
+            "Rollins’s and Brooks’s takes on the arts",
+            "remind me of"
+          ]
+        }
+      ],
+      "evidenceQuote": "Rollins’s and Brooks’s takes on the arts remind me of Martin Heidegger’s “Das Gerede” (endless chatter). In Being and Time, Heidegger argued that we live by “following the route of gossiping and passing the word along,” and that the endless chatter of everyday life obscures what is truly important. In the world of “Das Gerede,” we understand everything without thinking deeply on our own. We are bombarded with “the constant possibility of distraction.”"
+    },
+    {
+      "order": 19,
+      "prompt": "What tension is expressed by 'understand everything without thinking deeply on our own'?",
+      "promptZh": "understand everything without thinking deeply on our own 表达什么张力？",
+      "options": [
+        "It celebrates independently checking every belief in depth.",
+        "It proves the reader possesses complete factual knowledge.",
+        "It says there is no distinction between gossip and reflection.",
+        "It criticises apparent understanding that lacks independent deep thought."
+      ],
+      "optionsZh": [
+        "赞扬对每项信念独立深入核查。",
+        "证明读者具备完整事实知识。",
+        "表示闲话与反思没有区别。",
+        "批评缺乏独立深思的表面理解。"
+      ],
+      "answer": 3,
+      "type": "语境理解",
+      "support": "explicit",
+      "analyses": [
+        "A without thinking deeply 与独立深查相反。",
+        "B everything 是此处批判性概括，不是用户知识认证。",
+        "C 前文 obscures what is truly important 显出批评，而非消除区别。",
+        "D 结合 passing the word along，指出好像懂一切却未自己想透的矛盾；不把哲学论述作测量结果。"
+      ],
+      "vocabulary": [
+        {
+          "word": "on our own",
+          "meaning": "靠自己；独立地",
+          "context": "这里修饰思考方式，不只指独居或无人陪伴。",
+          "example": "The students considered the question on their own before discussing it.",
+          "collocations": [
+            "thinking deeply on our own",
+            "without thinking deeply"
+          ]
+        }
+      ],
+      "evidenceQuote": "Rollins’s and Brooks’s takes on the arts remind me of Martin Heidegger’s “Das Gerede” (endless chatter). In Being and Time, Heidegger argued that we live by “following the route of gossiping and passing the word along,” and that the endless chatter of everyday life obscures what is truly important. In the world of “Das Gerede,” we understand everything without thinking deeply on our own. We are bombarded with “the constant possibility of distraction.”"
+    },
+    {
+      "order": 20,
+      "prompt": "What does 'the constant possibility of distraction' emphasise?",
+      "promptZh": "the constant possibility of distraction 强调什么？",
+      "options": [
+        "Distraction has become impossible in daily life.",
+        "The risk of attention being diverted is continually present.",
+        "Every person has been measured as distracted at every instant.",
+        "The passage recommends adding more interruptions to think deeply."
+      ],
+      "optionsZh": [
+        "日常分心已不可能。",
+        "注意被转移的可能性持续存在。",
+        "已测得每个人每一刻都确实分心。",
+        "片段建议增加打扰来深入思考。"
+      ],
+      "answer": 1,
+      "type": "语气与范围",
+      "support": "explicit",
+      "analyses": [
+        "A possibility of distraction 不是不可能。",
+        "B constant 修饰这种可能性持续可在，不必是每刻分心事实。",
+        "C 将可能性升级为全人群每刻已测状态。",
+        "D bombarded 是受冲击意象，非主动加扰建议。"
+      ],
+      "vocabulary": [
+        {
+          "word": "bombarded",
+          "meaning": "被接连冲击；被大量刺激包围",
+          "context": "这里形容分心可能的不断冲击，不是字面战争轰炸或医学诊断。",
+          "example": "During the busy week, she felt bombarded with messages.",
+          "collocations": [
+            "bombarded with",
+            "the constant possibility of distraction"
+          ]
+        }
+      ],
+      "evidenceQuote": "Rollins’s and Brooks’s takes on the arts remind me of Martin Heidegger’s “Das Gerede” (endless chatter). In Being and Time, Heidegger argued that we live by “following the route of gossiping and passing the word along,” and that the endless chatter of everyday life obscures what is truly important. In the world of “Das Gerede,” we understand everything without thinking deeply on our own. We are bombarded with “the constant possibility of distraction.”"
+    },
+    {
+      "order": 21,
+      "prompt": "How is social media characterised in this passage?",
+      "promptZh": "片段怎样刻画社交媒体？",
+      "options": [
+        "As an example of endless chatter in the author's discussion of distraction.",
+        "As a tested guarantee that every user thinks more deeply.",
+        "As a physical place where the author has moved permanently.",
+        "As the only possible activity that can ever distract anyone."
+      ],
+      "optionsZh": [
+        "作为作者讨论分心时的无尽闲谈例子。",
+        "作为经测试保证每位用户想得更深的工具。",
+        "作为作者已永久迁入的实体地点。",
+        "作为唯一可能使任何人分心的活动。"
+      ],
+      "answer": 0,
+      "type": "观点归属",
+      "support": "explicit",
+      "analyses": [
+        "A Social media is endless chatter 是当前论述的分类，后面连到日常分心。",
+        "B 非保证深思的实验结论。",
+        "C 无实体迁居意思。",
+        "D 下一句还举 Small talk，不能加 only；不将作者概括写成所有用途必无价值的已测定律。"
+      ],
+      "vocabulary": [
+        {
+          "word": "chatter",
+          "meaning": "闲谈；纷杂不断的话语",
+          "context": "在本段有分散注意、遮蔽深思的批判意味，不是软件聊天功能的名称。",
+          "example": "The character struggled to think amid the constant chatter.",
+          "collocations": [
+            "endless chatter",
+            "Social media is endless chatter"
+          ]
+        }
+      ],
+      "evidenceQuote": "Social media is endless chatter. Small talk is endless chatter. This chatter makes life feel uprooted, groundless, and floating. Between our to-do lists and endless distractions, we rarely have a moment to think deeply, or to convene with the sublime."
+    },
+    {
+      "order": 22,
+      "prompt": "Why is 'Small talk is endless chatter' placed after the sentence about social media?",
+      "promptZh": "为何在社交媒体句后写 Small talk is endless chatter？",
+      "options": [
+        "To reverse the argument and praise all distractions as essential.",
+        "To say small talk takes place only on social media.",
+        "To extend the same category to another familiar kind of everyday communication.",
+        "To report the measured number of words spoken in every conversation."
+      ],
+      "optionsZh": [
+        "推翻前论并赞美所有分心都必要。",
+        "说寒暄只发生在社交媒体。",
+        "将同一类别扩展到另一常见日常交流。",
+        "报告每次交谈已测得的词数。"
+      ],
+      "answer": 2,
+      "type": "篇章结构",
+      "support": "explicit",
+      "analyses": [
+        "A 两句平行，不是反转方向。",
+        "B 并列两例，不是把后者地点限定在前者。",
+        "C 相同 is endless chatter 句式扩展论述对象。",
+        "D 无字数测量，也不能从该句推导每次寒暄都毫无任何作用。"
+      ],
+      "vocabulary": [
+        {
+          "word": "Small talk",
+          "meaning": "寒暄；轻松日常闲聊",
+          "context": "此处列为日常 chatter 一例，不是音量小或词数少的技术定义。",
+          "example": "They exchanged small talk while waiting for the meeting.",
+          "collocations": [
+            "Small talk is endless chatter",
+            "everyday communication"
+          ]
+        }
+      ],
+      "evidenceQuote": "Social media is endless chatter. Small talk is endless chatter. This chatter makes life feel uprooted, groundless, and floating. Between our to-do lists and endless distractions, we rarely have a moment to think deeply, or to convene with the sublime."
+    },
+    {
+      "order": 23,
+      "prompt": "What kind of effect do 'uprooted, groundless, and floating' describe?",
+      "promptZh": "uprooted, groundless, and floating 描写哪种影响？",
+      "options": [
+        "A confirmed physical loss of the author's home and land.",
+        "A precise medical measurement of every reader's condition.",
+        "Literal upward movement caused by a sporting activity.",
+        "A metaphorical feeling of lacking an anchor or grounding in life."
+      ],
+      "optionsZh": [
+        "作者房屋与土地已实际丧失。",
+        "对每位读者状况的精确医学测量。",
+        "体育活动造成身体真的上升。",
+        "生活缺少根基与依托的比喻性感受。"
+      ],
+      "answer": 3,
+      "type": "语境词义",
+      "support": "explicit",
+      "analyses": [
+        "A makes life feel 是感受，不是地产记录。",
+        "B 未诊断读者，也无量测方法。",
+        "C 当前为 chatter 的心理意象，非运动轨迹。",
+        "D 三词共塑失根漂浮的体验，后文连接少有深思时刻；不添加病名或普遍必然效果。"
+      ],
+      "vocabulary": [
+        {
+          "word": "groundless",
+          "meaning": "没有根基的；缺少依托的",
+          "context": "此处与 uprooted、floating 并列指生活感受，区别另一常见义毫无根据的指控。",
+          "example": "The constant changes left him feeling groundless for a while.",
+          "collocations": [
+            "uprooted, groundless, and floating",
+            "makes life feel"
+          ]
+        }
+      ],
+      "evidenceQuote": "Social media is endless chatter. Small talk is endless chatter. This chatter makes life feel uprooted, groundless, and floating. Between our to-do lists and endless distractions, we rarely have a moment to think deeply, or to convene with the sublime."
+    },
+    {
+      "order": 24,
+      "prompt": "What does the author say arts and sports offer him?",
+      "promptZh": "作者说艺术与运动给自己什么？",
+      "options": [
+        "A permanent end to every obligation and distraction for all people.",
+        "Rare opportunities to escape everyday endless chatter.",
+        "Proof that only artists are capable of thinking deeply.",
+        "A requirement to replace all reading with competitive sport."
+      ],
+      "optionsZh": [
+        "为所有人永久终结义务和分心。",
+        "少有的逃离日常无尽闲谈的机会。",
+        "只有艺术家才能深思的证明。",
+        "以竞技运动替代全部阅读的要求。"
+      ],
+      "answer": 1,
+      "type": "语气与范围",
+      "support": "explicit",
+      "analyses": [
+        "A For me 和 rare moments 都限制个人与时段。",
+        "B arts and sports、rare moments、escape 对应三项。",
+        "C 无 only artists 或能力垄断结论。",
+        "D 并非活动排他要求，也不是已证每次参与都会有效。"
+      ],
+      "vocabulary": [
+        {
+          "word": "rare moments",
+          "meaning": "少有的时刻；不常得到的片刻",
+          "context": "保留有限而个人的感受，不是永久解决分心。",
+          "example": "The walk offered rare moments of quiet during a busy week.",
+          "collocations": [
+            "provide rare moments to escape",
+            "For me, arts and sports"
+          ]
+        }
+      ],
+      "evidenceQuote": "For me, arts and sports provide rare moments to escape the endless chatter of everyday life."
+    },
+    {
+      "order": 25,
+      "prompt": "Whose work is named at the start of the painting example?",
+      "promptZh": "绘画例子的开头点名谁的作品？",
+      "options": [
+        "Sonny Rollins's musical performance.",
+        "David Brooks's political essay.",
+        "Mark Rothko's painting.",
+        "Martin Heidegger's philosophical book."
+      ],
+      "optionsZh": [
+        "Sonny Rollins 的音乐演奏。",
+        "David Brooks 的政治文章。",
+        "Mark Rothko 的绘画。",
+        "Martin Heidegger 的哲学著作。"
+      ],
+      "answer": 2,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A Rollins 是前面谈艺术的音乐家，不是此处点名画家。",
+        "B Brooks 是文章作者，不能当画作作者。",
+        "C Looking at Mark Rothko’s 明确归属，当前完整段落继续给画名与感受。",
+        "D Heidegger 属前面哲学联想；来源候选在 No. 后误分，本题只就已出现的作者归属提问，不把缩写片段冒充完整句或提前计入下一候选。"
+      ],
+      "vocabulary": [
+        {
+          "word": "color field paintings",
+          "meaning": "色域画；以大片色彩区域为特征的绘画",
+          "context": "当前段落中用于 Rothko 的作品类型，不是屏幕颜色设置或地理田野。",
+          "example": "The gallery displayed several color field paintings in a quiet room.",
+          "collocations": [
+            "his other color field paintings",
+            "Looking at Mark Rothko’s"
+          ]
+        }
+      ],
+      "evidenceQuote": "Looking at Mark Rothko’s No."
+    }
+  ]
+}
