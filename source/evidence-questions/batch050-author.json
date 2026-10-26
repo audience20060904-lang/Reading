@@ -1,0 +1,983 @@
+{
+  "schemaVersion": 1,
+  "id": "evidence-050",
+  "status": "authored",
+  "evidenceRule": "frozen-target-sentence",
+  "questions": [
+    {
+      "order": 1,
+      "prompt": "Which experience is emphasised in the quoted phrase about Katrina?",
+      "promptZh": "有关 Katrina 的引语片段强调哪种经历？",
+      "options": [
+        "Avoiding every contact with relatives throughout the disaster.",
+        "Treating the event as an intentionally chosen holiday.",
+        "A researcher randomly assigning families to experience a hurricane.",
+        "Going through a major event together with loved ones and friends."
+      ],
+      "optionsZh": [
+        "灾难中避开与亲人的一切联系。",
+        "把事件当作主动选择的假期。",
+        "研究者随机分派家庭经历飓风。",
+        "与亲友共同经历重大事件。"
+      ],
+      "answer": 3,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A with your loved ones and friends强调共同经历，不是隔绝。",
+        "B 本章明确为不利、非主动选择的事件，非度假。",
+        "C 口述不是随机让人受灾的试验。",
+        "D Going through...with...逐项对应；后句谈bonds说明其人际主题，但不据此保证每人都会从灾难受益。"
+      ],
+      "vocabulary": [
+        {
+          "word": "Going through",
+          "meaning": "经历；经受某件困难或重要的事",
+          "context": "此处为与亲友一起经受灾难，不是穿过一个具体门口。",
+          "example": "Going through a difficult period together changed their relationship.",
+          "collocations": [
+            "Going through something as significant as Katrina",
+            "with your loved ones and friends"
+          ]
+        }
+      ],
+      "evidenceQuote": "Much stronger, closer knit. Going through something as significant as Katrina with your loved ones and friends. Those bonds, you know, those are the things that are gonna last forever.” Hurricanes Katrina and Sandy destroyed many people’s lives."
+    },
+    {
+      "order": 2,
+      "prompt": "Which details identify the earthquake introduced in the passage?",
+      "promptZh": "哪些细节标识了文中引入的地震？",
+      "options": [
+        "January 17, 1995; magnitude 7.3; Kobe and surrounding areas.",
+        "May 12, 2008; magnitude 7.3; Kobe alone.",
+        "January 17, 1995; magnitude 7.9; Sichuan and its surrounding areas.",
+        "October 29, 2012; magnitude 7.3; New York City."
+      ],
+      "optionsZh": [
+        "1995年1月17日；7.3级；Kobe及周边。",
+        "2008年5月12日；7.3级；仅Kobe。",
+        "1995年1月17日；7.9级；Sichuan及周边。",
+        "2012年10月29日；7.3级；New York City。"
+      ],
+      "answer": 0,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A 日期、量级、地点三组信息均对应。",
+        "B 混入Sichuan日期且把周边删去。",
+        "C 混入另一地震的量级与地点。",
+        "D Sandy日期地点不是本句地震；保留书中历史数值，不替换成自行校正的测量口径。"
+      ],
+      "vocabulary": [
+        {
+          "word": "magnitude",
+          "meaning": "震级；此处为地震强度量级的数值",
+          "context": "7.3属于震级，不能与人口或损毁房数混为同一单位。",
+          "example": "The report identifies an earthquake of magnitude 7.3.",
+          "collocations": [
+            "a magnitude 7.3 earthquake",
+            "Kobe and the surrounding areas"
+          ]
+        }
+      ],
+      "evidenceQuote": "On January 17, 1995, a magnitude 7.3 earthquake shook Kobe and the surrounding areas of Japan. Known as the Hanshin-Awaji earthquake, its epicenter was close to downtown Kobe, a city with a population of 1.42 million people. Collapsed houses, ruined highways, and fires made it look like a war zone. Over 100,000 homes were completely destroyed and over 6,400 people died."
+    },
+    {
+      "order": 3,
+      "prompt": "What does the figure 1.42 million refer to in the sentence?",
+      "promptZh": "句中 1.42 million 指什么？",
+      "options": [
+        "The exact number of homes destroyed by the earthquake.",
+        "Kobe's population, not the earthquake's death toll.",
+        "The distance in kilometres from the epicentre to downtown Kobe.",
+        "The number of people who died in the earthquake."
+      ],
+      "optionsZh": [
+        "地震损毁住宅的确切数量。",
+        "Kobe的人口，而非地震死亡人数。",
+        "震中距Kobe市中心的公里数。",
+        "地震死亡人数。"
+      ],
+      "answer": 1,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A 后面住宅损毁是over100000，不是此人口数字。",
+        "B a city with a population of直接标明数字修饰对象。",
+        "C near downtown说明位置，没有给1.42million公里。",
+        "D 不把城市总人口换成伤亡数；原句也没有说全城人口均受同等损害。"
+      ],
+      "vocabulary": [
+        {
+          "word": "epicenter",
+          "meaning": "震中；地震在地表的对应中心位置",
+          "context": "此处说明其靠近Kobe市中心，不是人口总数的单位。",
+          "example": "The epicenter was close to the city centre.",
+          "collocations": [
+            "its epicenter was close to downtown Kobe",
+            "a population of 1.42 million people"
+          ]
+        }
+      ],
+      "evidenceQuote": "On January 17, 1995, a magnitude 7.3 earthquake shook Kobe and the surrounding areas of Japan. Known as the Hanshin-Awaji earthquake, its epicenter was close to downtown Kobe, a city with a population of 1.42 million people. Collapsed houses, ruined highways, and fires made it look like a war zone. Over 100,000 homes were completely destroyed and over 6,400 people died."
+    },
+    {
+      "order": 4,
+      "prompt": "What is the purpose of the 'war zone' comparison?",
+      "promptZh": "war zone 这一比较起什么作用？",
+      "options": [
+        "To prove the earthquake was caused by an armed conflict.",
+        "To state that all roads were unharmed and no fires occurred.",
+        "To convey the severe appearance of collapsed houses, damaged highways, and fires.",
+        "To classify every resident as a member of an army."
+      ],
+      "optionsZh": [
+        "证明地震由武装冲突造成。",
+        "说明所有公路无损、没有火灾。",
+        "传达房屋倒塌、公路损毁与火灾造成的严重破坏景象。",
+        "把每位居民归类为军人。"
+      ],
+      "answer": 2,
+      "type": "作者意图",
+      "support": "explicit",
+      "analyses": [
+        "A look like是外观比较，不是地震成因。",
+        "B ruined highways和fires均明示损害。",
+        "C 三个并列景象使it看似战区，侧重破坏之严重。",
+        "D 地区外观的比喻不改变居民身份。"
+      ],
+      "vocabulary": [
+        {
+          "word": "war zone",
+          "meaning": "战区；这里比喻遭严重破坏的区域",
+          "context": "look like保留相似景象，而非确认战争实际发生。",
+          "example": "The ruined neighbourhood looked like a war zone.",
+          "collocations": [
+            "look like a war zone",
+            "Collapsed houses, ruined highways, and fires"
+          ]
+        }
+      ],
+      "evidenceQuote": "On January 17, 1995, a magnitude 7.3 earthquake shook Kobe and the surrounding areas of Japan. Known as the Hanshin-Awaji earthquake, its epicenter was close to downtown Kobe, a city with a population of 1.42 million people. Collapsed houses, ruined highways, and fires made it look like a war zone. Over 100,000 homes were completely destroyed and over 6,400 people died."
+    },
+    {
+      "order": 5,
+      "prompt": "What does 'So' connect the residents' reaction to?",
+      "promptZh": "So 把居民反应与什么联系起来？",
+      "options": [
+        "The preceding contrast between earthquake-prone areas and Kobe's less expected exposure.",
+        "A claim that Tokyo had never experienced any earthquake.",
+        "A guarantee that Kobe could not be affected by a future earthquake.",
+        "The fact that every resident had expected precisely this devastation."
+      ],
+      "optionsZh": [
+        "前面地震频繁地区与Kobe较少预期风险的对照。",
+        "Tokyo从未发生地震的说法。",
+        "保证Kobe未来不可能遇地震。",
+        "每位居民都精确预期了这场重创这一事实。"
+      ],
+      "answer": 0,
+      "type": "逻辑关系",
+      "support": "explicit",
+      "analyses": [
+        "A 前句known for frequent earthquakes与Kobe/Kansai are not形成背景，So承接surprised and devastated的描述。",
+        "B 原文说Tokyo和Tohoku以频繁地震著称，不是从无地震。",
+        "C 不以频繁地震著称不等于绝不可能受灾。",
+        "D surprised与全员已精确预期相反，且原文未逐人测其预期。"
+      ],
+      "vocabulary": [
+        {
+          "word": "devastated",
+          "meaning": "深受打击的；遭重创的",
+          "context": "此处形容居民受到的严重影响，包含情绪与生活上的打击，不等于每人同一临床诊断。",
+          "example": "The sudden disaster left residents devastated.",
+          "collocations": [
+            "surprised and devastated Kobe residents",
+            "So this earthquake"
+          ]
+        }
+      ],
+      "evidenceQuote": "In Japan, the Tokyo and Tohoku areas are known for frequent earthquakes, whereas the Kobe and Kansai areas are not. So this earthquake surprised and devastated Kobe residents."
+    },
+    {
+      "order": 6,
+      "prompt": "What does the question about psychological scars introduce?",
+      "promptZh": "有关 psychological scars 的问句引入什么议题？",
+      "options": [
+        "Only an architectural plan for rebuilding the same houses.",
+        "The depth of the experiences' lasting psychological effects.",
+        "A count of visible cuts on each person's skin.",
+        "Proof that all emotional effects had already disappeared."
+      ],
+      "optionsZh": [
+        "仅是重建同样住宅的建筑方案。",
+        "这些经历留下的心理影响有多深。",
+        "逐人数皮肤可见伤口。",
+        "所有情绪影响已消失的证明。"
+      ],
+      "answer": 1,
+      "type": "篇章结构",
+      "support": "explicit",
+      "analyses": [
+        "A psychological明确心理层面，非仅建筑图。",
+        "B scars比喻留下的伤痕，问句为后续调查作引入。",
+        "C 这里不是测皮肤疤痕的医学检查。",
+        "D How deep提出问题，不能当作影响已全无的结论。"
+      ],
+      "vocabulary": [
+        {
+          "word": "psychological scars",
+          "meaning": "心理伤痕；经历留下的持续心理影响",
+          "context": "此处为比喻，不是皮肤伤疤或预先确定的个人诊断。",
+          "example": "The study asked how long the psychological scars might remain.",
+          "collocations": [
+            "How deep are the psychological scars",
+            "these experiences leave"
+          ]
+        }
+      ],
+      "evidenceQuote": "How deep are the psychological scars that these experiences leave? To investigate, I spent my sabbatical year (2012–2013) in Kobe. I analyzed the Hyogo Life Recovery Surveys, which were conducted across the city of Kobe and its surrounding areas in 2001, 2003, 2005, and 2011. Insurance companies examined damaged homes and classified them into four categories: complete damage, half, partial, and none."
+    },
+    {
+      "order": 7,
+      "prompt": "What did the author do in order to investigate the question?",
+      "promptZh": "为调查这一问题，作者做了什么？",
+      "options": [
+        "He spent his sabbatical in Kobe in 1995, the year the earthquake occurred.",
+        "He moved the first survey date to 2013 without explanation.",
+        "He spent his sabbatical year, 2012–2013, in Kobe.",
+        "He assigned every resident to live abroad for one year."
+      ],
+      "optionsZh": [
+        "他在地震发生的1995年于Kobe度过学术休假。",
+        "他不加解释地把首次调查日期改成2013。",
+        "他在Kobe度过2012–2013学术休假年。",
+        "他分派每位居民出国住一年。"
+      ],
+      "answer": 2,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A 混淆事件时间1995和学术休假时间2012–2013。",
+        "B 后句调查多年份早已给出，休假分析并非改写资料日期。",
+        "C To investigate给目的，I spent...year(2012–2013)in Kobe给行动、时间、地点。",
+        "D 不是居民随机迁移实验。"
+      ],
+      "vocabulary": [
+        {
+          "word": "sabbatical year",
+          "meaning": "学术休假年；暂离常规教学等工作以研究的时期",
+          "context": "这里是作者2012–2013的研究安排，不是地震发生年份。",
+          "example": "She spent her sabbatical year analysing recovery surveys.",
+          "collocations": [
+            "my sabbatical year (2012–2013)",
+            "To investigate"
+          ]
+        }
+      ],
+      "evidenceQuote": "How deep are the psychological scars that these experiences leave? To investigate, I spent my sabbatical year (2012–2013) in Kobe. I analyzed the Hyogo Life Recovery Surveys, which were conducted across the city of Kobe and its surrounding areas in 2001, 2003, 2005, and 2011. Insurance companies examined damaged homes and classified them into four categories: complete damage, half, partial, and none."
+    },
+    {
+      "order": 8,
+      "prompt": "Which years belong to the Hyogo Life Recovery Surveys analysed here?",
+      "promptZh": "这里所分析的 Hyogo Life Recovery Surveys 是哪些年份进行的？",
+      "options": [
+        "Only 1995, when the earthquake happened.",
+        "Only 2012 and 2013, when the author was on sabbatical.",
+        "1989, 1995, and 2000, the years of a later job-application comparison.",
+        "2001, 2003, 2005, and 2011."
+      ],
+      "optionsZh": [
+        "仅1995年，即地震发生时。",
+        "仅2012和2013，即作者学术休假时。",
+        "1989、1995和2000，即后来求职比较的年份。",
+        "2001、2003、2005和2011。"
+      ],
+      "answer": 3,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A 把事件年份误作问卷年份。",
+        "B 作者何时分析不等于问卷何时收集。",
+        "C 将另一个研究时间范围混入。",
+        "D which were conducted后的四个年份明确列出，地区为Kobe及周边。"
+      ],
+      "vocabulary": [
+        {
+          "word": "conducted",
+          "meaning": "进行；开展调查或研究",
+          "context": "which回指Surveys，不是说地震在这些年份由研究者实施。",
+          "example": "The surveys were conducted in several different years.",
+          "collocations": [
+            "surveys, which were conducted",
+            "across the city of Kobe and its surrounding areas"
+          ]
+        }
+      ],
+      "evidenceQuote": "How deep are the psychological scars that these experiences leave? To investigate, I spent my sabbatical year (2012–2013) in Kobe. I analyzed the Hyogo Life Recovery Surveys, which were conducted across the city of Kobe and its surrounding areas in 2001, 2003, 2005, and 2011. Insurance companies examined damaged homes and classified them into four categories: complete damage, half, partial, and none."
+    },
+    {
+      "order": 9,
+      "prompt": "What does 'still visible' indicate about the psychological scars?",
+      "promptZh": "still visible 对心理伤痕说明什么？",
+      "options": [
+        "The psychological scars were entirely absent among everyone who lost a home.",
+        "Psychological effects remained observable for people who had lost their homes.",
+        "A new earthquake had destroyed every repaired home again.",
+        "The researchers stopped examining well-being and looked only at construction costs."
+      ],
+      "optionsZh": [
+        "所有失家者的心理伤痕完全不存在。",
+        "失去住宅者的心理影响仍能被观察到。",
+        "又一场新地震再次毁掉所有修复房屋。",
+        "研究者不再考察福祉，只看建筑成本。"
+      ],
+      "answer": 1,
+      "type": "语境词义",
+      "support": "explicit",
+      "analyses": [
+        "A still visible与完全不存在相反。",
+        "B still表示持续；下句给满意度、情绪与健康报告的比较，说明并非影响已经消失，也不是仅凭外观诊断每个人。",
+        "C 当前片段未报告第二次地震，更没有全部再次毁坏。",
+        "D 后文生活满意度、负面情绪等仍是心理和健康指标。"
+      ],
+      "vocabulary": [
+        {
+          "word": "still visible",
+          "meaning": "仍然可见；仍可在结果中观察到",
+          "context": "psychological scars可见是影响持续的比喻，不是从外表就能给每位居民诊断。",
+          "example": "The effects were still visible in the later survey results.",
+          "collocations": [
+            "Yet psychological scars were still visible",
+            "those who had lost their homes"
+          ]
+        }
+      ],
+      "evidenceQuote": "Yet psychological scars were still visible for those who had lost their homes. For instance, in 2001 Kobe residents whose houses were completely destroyed by the 1995 earthquake were significantly less satisfied with their lives and reported more negative emotions and more physical illnesses than those whose houses had suffered no damage in 1995. Time did not heal everything, because the results in 2003, 2005, and even 2011—sixteen years after the earthquake—were similar to those from 2001. The psychological immune system was not enough for the devastation of the earthquake."
+    },
+    {
+      "order": 10,
+      "prompt": "Which comparison is reported for Kobe residents in 2001?",
+      "promptZh": "对2001年Kobe居民，原文报告哪种比较？",
+      "options": [
+        "Those whose homes were destroyed reported higher satisfaction and fewer illnesses than the undamaged group.",
+        "Both groups were said to be identical on every well-being measure.",
+        "Those whose homes were completely destroyed reported lower satisfaction, more negative emotion, and more illness than those whose homes were undamaged.",
+        "The comparison concerns only people whose homes had suffered the same complete damage."
+      ],
+      "optionsZh": [
+        "房全毁者比无损者报告更高满意度、更少疾病。",
+        "两组在每项福祉指标都相同。",
+        "房全毁者比无损者报告较低满意度、更多负面情绪与疾病。",
+        "比较只涉及住宅都完全损坏的人。"
+      ],
+      "answer": 2,
+      "type": "同义改写",
+      "support": "explicit",
+      "analyses": [
+        "A 三项比较方向均反。",
+        "B less/more表明差异，不是所有指标相同。",
+        "C completely destroyed与no damage是两组，三类结果方向均保留，reported保留报告性质。",
+        "D 两组的1995年房损不同；不把观察性比较改为研究者随机拆毁住房的因果试验。"
+      ],
+      "vocabulary": [
+        {
+          "word": "satisfied with",
+          "meaning": "对……感到满意",
+          "context": "修饰生活满意度，区别损毁后房屋是否已修好以及研究者是否满意数据。",
+          "example": "Respondents were less satisfied with their lives in the comparison.",
+          "collocations": [
+            "less satisfied with their lives",
+            "reported more negative emotions"
+          ]
+        }
+      ],
+      "evidenceQuote": "Yet psychological scars were still visible for those who had lost their homes. For instance, in 2001 Kobe residents whose houses were completely destroyed by the 1995 earthquake were significantly less satisfied with their lives and reported more negative emotions and more physical illnesses than those whose houses had suffered no damage in 1995. Time did not heal everything, because the results in 2003, 2005, and even 2011—sixteen years after the earthquake—were similar to those from 2001. The psychological immune system was not enough for the devastation of the earthquake."
+    },
+    {
+      "order": 11,
+      "prompt": "How is the 'psychological immune system' evaluated in this case?",
+      "promptZh": "本例如何评价 psychological immune system？",
+      "options": [
+        "It was insufficient to offset the devastation described.",
+        "It guaranteed that all effects vanished before the first survey.",
+        "It was measured only by counting antibodies in blood samples.",
+        "It made the groups identical on satisfaction, emotion, and illness."
+      ],
+      "optionsZh": [
+        "它不足以抵消所描述的重创。",
+        "它保证首次调查前一切影响消失。",
+        "它只通过数血样抗体来测量。",
+        "它使两组在满意度、情绪和疾病方面完全一样。"
+      ],
+      "answer": 0,
+      "type": "主旨",
+      "support": "explicit",
+      "analyses": [
+        "A not enough给不足判断，依据是前面持续的满意度、情绪与健康差异。",
+        "B Time did not heal everything与全消失相反。",
+        "C psychological immune system在此是心理适应的比喻概念，没有血液检验。",
+        "D 前文比较不同，不能改成全部相同；本例不足也不是否定一切心理适应可能。"
+      ],
+      "vocabulary": [
+        {
+          "word": "not enough",
+          "meaning": "不足以；不够应对",
+          "context": "限制为本次地震重创的情境，不自动推成所有心理适应都毫无作用。",
+          "example": "The available support was not enough to remove every lasting effect.",
+          "collocations": [
+            "was not enough for the devastation",
+            "The psychological immune system"
+          ]
+        }
+      ],
+      "evidenceQuote": "Yet psychological scars were still visible for those who had lost their homes. For instance, in 2001 Kobe residents whose houses were completely destroyed by the 1995 earthquake were significantly less satisfied with their lives and reported more negative emotions and more physical illnesses than those whose houses had suffered no damage in 1995. Time did not heal everything, because the results in 2003, 2005, and even 2011—sixteen years after the earthquake—were similar to those from 2001. The psychological immune system was not enough for the devastation of the earthquake."
+    },
+    {
+      "order": 12,
+      "prompt": "What relationship did the surveys indicate between housing damage and bereavement?",
+      "promptZh": "调查显示房损与失亲之间有什么关系？",
+      "options": [
+        "Greater housing damage guaranteed that every resident lost a relative.",
+        "Housing damage and losing a loved one were reported as perfectly unrelated.",
+        "Losing a loved one necessarily caused the earlier earthquake's physical damage.",
+        "Greater housing damage was associated with a higher likelihood of having lost a loved one."
+      ],
+      "optionsZh": [
+        "房损较大保证每位居民都失去亲人。",
+        "报告称房损和失亲完全无关。",
+        "失亲必然造成了之前地震中的物理损毁。",
+        "房损越大，与曾失去亲人的较高可能性相联系。"
+      ],
+      "answer": 3,
+      "type": "逻辑关系",
+      "support": "explicit",
+      "analyses": [
+        "A more likely是概率倾向，不是每人必然。",
+        "B the more...the more likely明确方向关系。",
+        "C 句中未给这类因果链，也不能倒置地震与人的损失。",
+        "D 比较级结构与having lost的过去经历保留；调查关联不是研究者随机分配伤亡。"
+      ],
+      "vocabulary": [
+        {
+          "word": "incurred",
+          "meaning": "遭受；蒙受损失",
+          "context": "在此与home damage搭配，不是主动选择寻求破坏。",
+          "example": "The survey recorded how much damage each household had incurred.",
+          "collocations": [
+            "home damage they had incurred",
+            "the more likely it was"
+          ]
+        }
+      ],
+      "evidenceQuote": "Our surveys also indicated the more home damage they had incurred, the more likely it was that they had lost a loved one. This human loss could also have a lingering negative effect on well-being. So, we examined housing damage simultaneously with human losses. Our analyses showed that housing damage and human loss each had an independent effect on well-being, such that the more housing damage and human loss respondents incurred, the less life satisfaction and more negative emotions and health problems they reported."
+    },
+    {
+      "order": 13,
+      "prompt": "What does 'This human loss' refer to, and how is its effect qualified?",
+      "promptZh": "This human loss 回指什么，其影响有何限定？",
+      "options": [
+        "Only the physical loss of a building, with no possible emotional effect.",
+        "A loss that the study says affected every person in exactly the same way.",
+        "The death of a loved one, which could have a lasting negative effect on well-being.",
+        "The researchers' failure to find any association between bereavement and housing damage."
+      ],
+      "optionsZh": [
+        "仅建筑物理损失，且不可能有情绪影响。",
+        "研究称对每个人都有完全相同作用的损失。",
+        "失去亲人，可能对福祉有持续负面影响。",
+        "研究者未发现失亲与房损有任何关联。"
+      ],
+      "answer": 2,
+      "type": "指代",
+      "support": "explicit",
+      "analyses": [
+        "A 前句lost a loved one确定human loss，非只指房屋。",
+        "B could保留可能性，并未说每人作用相同。",
+        "C 回指对象与could、lingering negative effect三项都保留。",
+        "D 前句明确有the more...more likely关系，不是未发现；本句也不是宣布失亲由住房损坏单一造成。"
+      ],
+      "vocabulary": [
+        {
+          "word": "lingering",
+          "meaning": "持续不去的；久久存在的",
+          "context": "修饰负面影响的持续性，不是说永远无任何改善可能。",
+          "example": "The loss could have a lingering effect on well-being.",
+          "collocations": [
+            "a lingering negative effect",
+            "This human loss could also"
+          ]
+        }
+      ],
+      "evidenceQuote": "Our surveys also indicated the more home damage they had incurred, the more likely it was that they had lost a loved one. This human loss could also have a lingering negative effect on well-being. So, we examined housing damage simultaneously with human losses. Our analyses showed that housing damage and human loss each had an independent effect on well-being, such that the more housing damage and human loss respondents incurred, the less life satisfaction and more negative emotions and health problems they reported."
+    },
+    {
+      "order": 14,
+      "prompt": "What does the passage say Solnit documents in her book?",
+      "promptZh": "原文说 Solnit 在书中记录什么？",
+      "options": [
+        "Numerous examples of prosocial actions among disaster victims.",
+        "Only a controlled laboratory test of sticker donation.",
+        "Evidence that disaster victims never help one another.",
+        "A list of every building repaired in Kobe by 2001."
+      ],
+      "optionsZh": [
+        "灾民中许多亲社会行动的例子。",
+        "仅一次贴纸捐赠的控制实验。",
+        "灾民从不互助的证据。",
+        "Kobe在2001年前修复每栋建筑的清单。"
+      ],
+      "answer": 0,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A documents numerous examples...prosocial actions直接对应；后举临时厨房说明。",
+        "B 贴纸实验是后来Decety研究，不应转给Solnit。",
+        "C prosocial examples与从不互助相反。",
+        "D 修复Kobe是前节背景，不是这句介绍的书中清单。"
+      ],
+      "vocabulary": [
+        {
+          "word": "prosocial",
+          "meaning": "亲社会的；帮助他人、促进共同福祉的",
+          "context": "下文供餐例说明助人行动，不是单纯喜欢热闹或社交次数多。",
+          "example": "The volunteer kitchen was an example of prosocial action.",
+          "collocations": [
+            "prosocial actions among disaster victims",
+            "documents numerous examples"
+          ]
+        }
+      ],
+      "evidenceQuote": "In A Paradise Built in Hell, Rebecca Solnit documents numerous examples of prosocial actions among disaster victims. For instance, right after the 1906 San Francisco earthquake, Anna Holshouser started a makeshift soup kitchen in an evacuation camp. With the support from Oakland across the bay, she served two to three hundred people a day."
+    },
+    {
+      "order": 15,
+      "prompt": "Which claim best preserves the scope of Solnit's quoted conclusion?",
+      "promptZh": "哪项最准确保留 Solnit 引述结论的范围？",
+      "options": [
+        "All emergencies necessarily make every victim happier than before.",
+        "Serious loss is denied because emotional depth removes all harm.",
+        "Richness is defined only as financial compensation after a disaster.",
+        "Deep emotion and the use of one's strongest feelings and abilities can be rich even in extreme circumstances."
+      ],
+      "optionsZh": [
+        "所有紧急状况必让每个受害者比以前更快乐。",
+        "因情感深度消除一切伤害，所以否认严重损失。",
+        "丰富性仅被定义为灾后经济补偿。",
+        "深刻情感及调动最强情绪和能力，即使在极端处境也可能丰富。"
+      ],
+      "answer": 3,
+      "type": "证据范围",
+      "support": "explicit",
+      "analyses": [
+        "A can不是necessarily，rich也不等于更幸福。",
+        "B 引语提wounded、killed、orphaned，没有否认损失。",
+        "C 这里谈情感与存在深度，不是只谈钱。",
+        "D can be rich与even保留可能及反常处境，且归属为Solnit的论述，不冒充对每名灾民的实验证明。"
+      ],
+      "vocabulary": [
+        {
+          "word": "calling into play",
+          "meaning": "调动；使某种能力发挥作用",
+          "context": "此处调动情感与能力，不是叫儿童来做游戏。",
+          "example": "The challenge called into play skills she had rarely used.",
+          "collocations": [
+            "calling into play one’s strongest feelings and abilities",
+            "can be rich"
+          ]
+        }
+      ],
+      "evidenceQuote": "Solnit concludes: “Surrounding them [the wounded, killed, orphaned], often in the same city or even neighborhood, is a periphery of many more who are largely undamaged but profoundly disrupted—and it is the disruptive power of disaster that matters here, the ability of disasters to topple old orders and open new possibilities…. The very depth of emotion, the connecting to the core of one’s being, the calling into play one’s strongest feelings and abilities, can be rich, even on deathbeds, in wars and emergencies.”"
+    },
+    {
+      "order": 16,
+      "prompt": "How should the statement about 'silver linings' be read?",
+      "promptZh": "关于 silver linings 的陈述应怎样理解？",
+      "options": [
+        "As an unqualified guarantee that all disasters have only good outcomes.",
+        "As a Solnit-attributed expectation of some positive aspects amid devastation.",
+        "As a claim that every damaged house contained silver objects.",
+        "As proof that the author has already tracked all survivors for their entire lives."
+      ],
+      "optionsZh": [
+        "无条件保证所有灾难只有好结果。",
+        "归于Solnit的一种判断：巨大破坏中可能仍有些积极方面。",
+        "声称每栋受损房屋都藏着银器。",
+        "证明作者已追踪所有幸存者一生。"
+      ],
+      "answer": 1,
+      "type": "观点归属",
+      "support": "explicit",
+      "analyses": [
+        "A even devastating、some表明好坏可并存，非only good。",
+        "B according to Solnit明确归属，some silver linings是困境中的亮点。",
+        "C silver linings为习语，不是物品清点。",
+        "D 本句没有全体终生追踪；should have表达此处论述期待而非已证实人人获益。"
+      ],
+      "vocabulary": [
+        {
+          "word": "silver linings",
+          "meaning": "困境中的亮点；不幸中的积极一面",
+          "context": "在此承认devastating的同时谈some好处，不抵消损害。",
+          "example": "The story described a silver lining without denying the loss.",
+          "collocations": [
+            "some silver linings",
+            "according to Solnit"
+          ]
+        }
+      ],
+      "evidenceQuote": "So, according to Solnit, even devastating natural disasters such as the 1995 Hanshin-Awaji earthquake should have some silver linings. I remember watching surviving children who were interviewed on TV back in 1995. They were asked what they wanted to become. Many said nurses, firefighters, and doctors."
+    },
+    {
+      "order": 17,
+      "prompt": "What source does the author recall when introducing the surviving children?",
+      "promptZh": "引入幸存儿童时，作者回忆的来源是什么？",
+      "options": [
+        "Watching television interviews with surviving children in 1995.",
+        "A new online survey conducted by the reading website.",
+        "His own interviews with every child in every affected school.",
+        "A television interview that took place before the earthquake in 1989."
+      ],
+      "optionsZh": [
+        "1995年观看电视对幸存儿童的采访。",
+        "阅读网站新进行的线上调查。",
+        "他本人对每所受灾学校所有儿童的采访。",
+        "1989年地震前的一次电视采访。"
+      ],
+      "answer": 0,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A I remember watching、interviewed on TV、back in1995共同限定来源与时间。",
+        "B 网站没有开展此研究，也非原文所述。",
+        "C watching与作者亲自采访所有儿童不同。",
+        "D 原句明示1995，不能替换成1989或灾前追踪。"
+      ],
+      "vocabulary": [
+        {
+          "word": "surviving",
+          "meaning": "幸存的；从灾难中生还的",
+          "context": "修饰受访儿童，不表示他们原先计划经历灾害。",
+          "example": "The broadcast interviewed surviving children after the disaster.",
+          "collocations": [
+            "surviving children",
+            "interviewed on TV back in 1995"
+          ]
+        }
+      ],
+      "evidenceQuote": "So, according to Solnit, even devastating natural disasters such as the 1995 Hanshin-Awaji earthquake should have some silver linings. I remember watching surviving children who were interviewed on TV back in 1995. They were asked what they wanted to become. Many said nurses, firefighters, and doctors."
+    },
+    {
+      "order": 18,
+      "prompt": "What were the children asked about in the television interviews?",
+      "promptZh": "电视采访问儿童什么问题？",
+      "options": [
+        "How many stickers they had already donated in Decety's task.",
+        "What jobs they had already held for decades.",
+        "What they wanted to become in the future.",
+        "The exact insurance category of every neighbour's home."
+      ],
+      "optionsZh": [
+        "他们在Decety任务里已捐多少贴纸。",
+        "他们已经做了数十年的职业。",
+        "他们将来想成为什么样的人、从事什么职业。",
+        "每位邻居住宅的确切保险损害类别。"
+      ],
+      "answer": 2,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A 贴纸任务属于后面的另一研究，非这次TV提问。",
+        "B wanted to become面向愿望，不是多年实际职业史。",
+        "C 问句内容在what they wanted to become直接给出，后句职业回答印证。",
+        "D 保险分类属于前面调查，不是儿童理想提问。"
+      ],
+      "vocabulary": [
+        {
+          "word": "wanted to become",
+          "meaning": "想成为；希望未来从事某种角色",
+          "context": "表示志向而非已经完成职业选择或后来实际就业结果。",
+          "example": "The interviewer asked what the children wanted to become.",
+          "collocations": [
+            "asked what they wanted to become",
+            "Many said nurses, firefighters, and doctors"
+          ]
+        }
+      ],
+      "evidenceQuote": "So, according to Solnit, even devastating natural disasters such as the 1995 Hanshin-Awaji earthquake should have some silver linings. I remember watching surviving children who were interviewed on TV back in 1995. They were asked what they wanted to become. Many said nurses, firefighters, and doctors."
+    },
+    {
+      "order": 19,
+      "prompt": "Whose studies does the author identify as the best, most direct evidence here?",
+      "promptZh": "作者在这里把谁的研究称为最好、最直接的证据？",
+      "options": [
+        "Only Solnit's examples of soup kitchens.",
+        "Nietzsche's retrospective philosophical quotations alone.",
+        "The earlier Epley and Schroeder train conversation study.",
+        "Studies conducted by Jean Decety and his colleagues."
+      ],
+      "optionsZh": [
+        "只有Solnit的施食厨房例子。",
+        "只有Nietzsche回顾性的哲学引语。",
+        "此前Epley、Schroeder的列车交谈研究。",
+        "Jean Decety及同事开展的研究。"
+      ],
+      "answer": 3,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A 当前句从事例讨论转向点名研究，不是仅用厨房。",
+        "B 未把哲学引语称作此处儿童给予资料。",
+        "C 通勤研究是另一问题、另一组作者。",
+        "D conducted by之后明确列Jean Decety and his colleagues；best,most direct保留作者此处的评价，不升级为网站已完成最新证据排名。"
+      ],
+      "vocabulary": [
+        {
+          "word": "evidence",
+          "meaning": "证据；支持某种看法或解释的资料",
+          "context": "本句为作者如何引入研究的描述，不表示任何单项研究排除所有其他可能解释。",
+          "example": "The researcher looked for evidence about changes in giving.",
+          "collocations": [
+            "the best, most direct evidence",
+            "studies conducted by"
+          ]
+        }
+      ],
+      "evidenceQuote": "The best, most direct evidence for this can be found in studies conducted by Jean Decety and his colleagues. They collected data on altruistic giving from six- and nine-year-old Chinese children living in Sichuan, China, in April 2008. Just one month later, on May 12, 2008, a magnitude 7.9 earthquake hit Sichuan. One month after the earthquake, the researchers collected data from a new group of six- and nine-year-olds from the same schools."
+    },
+    {
+      "order": 20,
+      "prompt": "Which children and time describe the first data collection mentioned?",
+      "promptZh": "首先提到的数据收集针对哪些儿童、在什么时候？",
+      "options": [
+        "Six- and nine-year-old children in Sichuan, in April 2008.",
+        "Only nine-year-old children in Kobe, in May 1995.",
+        "The same children selected after the earthquake, but interviewed in 2011.",
+        "Six- and nine-year-old children in Tokyo, after the 2012 hurricane."
+      ],
+      "optionsZh": [
+        "2008年4月，Sichuan的六岁与九岁儿童。",
+        "1995年5月，仅Kobe九岁儿童。",
+        "震后才选的同一批儿童，但在2011年采访。",
+        "2012飓风后，Tokyo六岁与九岁儿童。"
+      ],
+      "answer": 0,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A 年龄、地区及April2008三组都符合。",
+        "B 交换地区事件、年龄范围与日期。",
+        "C first collection为震前；本句未声称同一批震后儿童。",
+        "D 地区与事件错配，不能只凭年龄匹配就选。"
+      ],
+      "vocabulary": [
+        {
+          "word": "altruistic giving",
+          "meaning": "利他给予；把自己的资源提供给他人的行为",
+          "context": "这里收集儿童给予资料，后面以贴纸捐出数量操作化，而非仅问他们自称多善良。",
+          "example": "The task used sticker donations to study altruistic giving.",
+          "collocations": [
+            "data on altruistic giving",
+            "six- and nine-year-old Chinese children"
+          ]
+        }
+      ],
+      "evidenceQuote": "The best, most direct evidence for this can be found in studies conducted by Jean Decety and his colleagues. They collected data on altruistic giving from six- and nine-year-old Chinese children living in Sichuan, China, in April 2008. Just one month later, on May 12, 2008, a magnitude 7.9 earthquake hit Sichuan. One month after the earthquake, the researchers collected data from a new group of six- and nine-year-olds from the same schools."
+    },
+    {
+      "order": 21,
+      "prompt": "How does the earthquake's timing relate to the April data collection?",
+      "promptZh": "地震时间与四月资料收集有什么关系？",
+      "options": [
+        "The earthquake occurred a full year before the first collection.",
+        "Both collections are explicitly dated to exactly the same day as the earthquake.",
+        "It occurred about a month later, on May 12, 2008.",
+        "It occurred only after the researchers had finished collecting all post-earthquake data."
+      ],
+      "optionsZh": [
+        "地震在首次收集前整一年发生。",
+        "两次收集都被明确记在地震同一天。",
+        "约一个月后，即2008年5月12日发生。",
+        "直到研究者收完所有震后资料之后，地震才发生。"
+      ],
+      "answer": 2,
+      "type": "阅读顺序",
+      "support": "explicit",
+      "analyses": [
+        "A Just one month later与前一年相反。",
+        "B 首次April、地震May12、再一月后新组资料，不能合并同日。",
+        "C later的参照是前句April2008，保留约一月与准确地震日，不擅算两次收集都恰隔30天。",
+        "D post-earthquake按定义和下句均在地震之后，不是先收完再发生。"
+      ],
+      "vocabulary": [
+        {
+          "word": "later",
+          "meaning": "之后；比前述时间更晚",
+          "context": "此处承接April资料收集，不是以前或与所有步骤同日。",
+          "example": "The second event occurred about a month later.",
+          "collocations": [
+            "Just one month later",
+            "on May 12, 2008"
+          ]
+        }
+      ],
+      "evidenceQuote": "The best, most direct evidence for this can be found in studies conducted by Jean Decety and his colleagues. They collected data on altruistic giving from six- and nine-year-old Chinese children living in Sichuan, China, in April 2008. Just one month later, on May 12, 2008, a magnitude 7.9 earthquake hit Sichuan. One month after the earthquake, the researchers collected data from a new group of six- and nine-year-olds from the same schools."
+    },
+    {
+      "order": 22,
+      "prompt": "Which arrangement matches the beginning of the sticker task?",
+      "promptZh": "哪种安排符合贴纸任务的开始？",
+      "options": [
+        "The whole class entered together and each child kept all one hundred stickers.",
+        "One child at a time entered a quiet school room and could choose ten of a hundred stickers for themselves.",
+        "The researcher selected every sticker for the child and allowed no choice.",
+        "Each child was required to give away one hundred stickers before entering the room."
+      ],
+      "optionsZh": [
+        "全班一起进入，每名儿童保留全部一百张。",
+        "每次一名儿童到校内安静房间，可从一百张中选十张给自己。",
+        "研究者为儿童选好全部贴纸，不让其选择。",
+        "每名儿童入室前必须捐出一百张。"
+      ],
+      "answer": 1,
+      "type": "研究设计",
+      "support": "explicit",
+      "analyses": [
+        "A One child at a time与全班一起不同，ten out of hundred也不是每人百张。",
+        "B 人数安排、场地、选择权和数量配对完整保留。",
+        "C told them they could pick是儿童自己选，不是研究者包办。",
+        "D 捐赠为随后可选步骤，不能前移为强制百张。"
+      ],
+      "vocabulary": [
+        {
+          "word": "One child at a time",
+          "meaning": "每次一名儿童；逐个进行",
+          "context": "说明进入安静房间的安排，不是同时把全班分派到同一桌。",
+          "example": "One child at a time was invited to take part in the task.",
+          "collocations": [
+            "One child at a time was invited",
+            "pick ten stickers for themselves"
+          ]
+        }
+      ],
+      "evidenceQuote": "The experiment went like this: One child at a time was invited to a quiet room in their school, where they were greeted by a female researcher who told them they could pick ten stickers for themselves out of a hundred stickers. After the children picked their favorite ten, they were told that some of their classmates had not been selected to play this game and would not receive any stickers. However, if they wanted to donate some stickers out of the ten they had received, they could."
+    },
+    {
+      "order": 23,
+      "prompt": "What information were children given after choosing their favourite ten stickers?",
+      "promptZh": "选好最爱十张贴纸后，儿童被告知什么？",
+      "options": [
+        "Some classmates had not been selected for the game and would receive no stickers.",
+        "All classmates had already received a hundred stickers each.",
+        "The unselected classmates had refused every offer of help.",
+        "The children were required to return all ten stickers because they had chosen incorrectly."
+      ],
+      "optionsZh": [
+        "有些同学未获选参加游戏，将得不到贴纸。",
+        "所有同学已各获一百张。",
+        "未获选的同学拒绝过一切帮助。",
+        "他们选错了，所以必须交回全部十张。"
+      ],
+      "answer": 0,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A after...told that后的信息准确对应。",
+        "B some未选且would not receive，非全员已获百张。",
+        "C 未被选不代表拒绝帮助，更非道德评判。",
+        "D favorite ten是自己的选择，原文没有选错惩罚或强制全部收回。"
+      ],
+      "vocabulary": [
+        {
+          "word": "selected",
+          "meaning": "被选中；获得参加资格",
+          "context": "此处是否被选玩游戏，不说明同学是否值得帮助或是否拒绝帮助。",
+          "example": "Some classmates had not been selected to play the game.",
+          "collocations": [
+            "had not been selected",
+            "would not receive any stickers"
+          ]
+        }
+      ],
+      "evidenceQuote": "The experiment went like this: One child at a time was invited to a quiet room in their school, where they were greeted by a female researcher who told them they could pick ten stickers for themselves out of a hundred stickers. After the children picked their favorite ten, they were told that some of their classmates had not been selected to play this game and would not receive any stickers. However, if they wanted to donate some stickers out of the ten they had received, they could."
+    },
+    {
+      "order": 24,
+      "prompt": "What were the empty envelopes intended for?",
+      "promptZh": "空信封用于什么？",
+      "options": [
+        "Returning every sticker to the researcher as a compulsory fee.",
+        "Giving ten additional stickers to every participant before the task.",
+        "Writing the recipient's full name so the donor could receive public credit.",
+        "Holding any stickers a child chose to donate to an anonymous classmate."
+      ],
+      "optionsZh": [
+        "强制把全部贴纸还给研究者作为费用。",
+        "任务前给每名参与者再加十张贴纸。",
+        "写收件人全名，让捐赠者获得公开表扬。",
+        "装儿童自愿捐给一名匿名同学的贴纸。"
+      ],
+      "answer": 3,
+      "type": "研究设计",
+      "support": "explicit",
+      "analyses": [
+        "A any...wanted to donate表示自愿份额，非必交费用。",
+        "B 信封为装捐出贴纸，不是新增奖励来源。",
+        "C anonymous不指定同学姓名，文中也没说公开奖励捐者。",
+        "D 物品用途、自愿性与受益同学的匿名性都保留；不把匿名受益者误成必须认识的指定朋友。"
+      ],
+      "vocabulary": [
+        {
+          "word": "anonymous",
+          "meaning": "匿名的；身份不指明的",
+          "context": "修饰classmate，说明受益者不具体指名，不是同学不存在。",
+          "example": "The donation was intended for an anonymous classmate.",
+          "collocations": [
+            "an anonymous classmate",
+            "an empty envelope"
+          ]
+        }
+      ],
+      "evidenceQuote": "They were given an empty envelope for any stickers they wanted to donate to an anonymous classmate."
+    },
+    {
+      "order": 25,
+      "prompt": "What served as the behavioural measure of altruistic giving?",
+      "promptZh": "什么被用作利他给予的行为测量？",
+      "options": [
+        "The number of stickers still displayed in the original set of one hundred.",
+        "The number of stickers each child actually donated, counted after the session.",
+        "Only the child's claim that they were generous, without counting donations.",
+        "The number of classmates who had not been selected, regardless of what the child gave."
+      ],
+      "optionsZh": [
+        "原来一百张中仍在展示的数量。",
+        "结束后数每名儿童实际捐出的贴纸数量。",
+        "只听儿童自称慷慨，不数捐赠。",
+        "未被选中同学的数量，不管儿童实际给多少。"
+      ],
+      "answer": 1,
+      "type": "研究设计",
+      "support": "explicit",
+      "analyses": [
+        "A 测量目标为donated，不是余下展品总数。",
+        "B after session over、counted how many、each child donated逐项对应。",
+        "C behavioral measure通过实际行为而非只问自我标签。",
+        "D 被漏选同学是情境信息，不是每名儿童给予量；本题只取测量句，不提前把下一批的震前震后均值算已直接配题。"
+      ],
+      "vocabulary": [
+        {
+          "word": "behavioral measure",
+          "meaning": "行为测量；以实际行为数量等作为指标",
+          "context": "此处贴纸捐出数是操作性指标，不穷尽一个人的全部道德品格。",
+          "example": "The number of items donated was used as a behavioral measure.",
+          "collocations": [
+            "a behavioral measure of altruistic giving",
+            "counted how many stickers each child donated"
+          ]
+        }
+      ],
+      "evidenceQuote": "After the session was over, the researcher counted how many stickers each child donated as a behavioral measure of altruistic giving."
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "evidence-050-review-correction",
+  "recordedAt": "2026-10-26T07:15:00.792527+00:00",
+  "correctsRecord": "source/evidence-questions/batch049-review.json",
+  "scope": "Editorial review prose only; no source,question,fingerprint,score,or coverage-count changes",
+  "originalFinding": "The final49quote was described as not consuming unassigned continuations about lasting bonds and destroyed lives.",
+  "correction": "Both c11-s03-p126-01140-s011 and s012 were already directly evidenced by primaryq-c11-028 before49. Only s010 remained a gap in that parent after49. Trimming49s009 was conservative and correct,but calling the other two continuations unassigned was inaccurate.",
+  "evidence": {
+    "primaryQuestionId": "q-c11-028",
+    "alreadyEvidencedIds": [
+      "c11-s03-p126-01140-s011",
+      "c11-s03-p126-01140-s012"
+    ],
+    "remainingAfter049": "c11-s03-p126-01140-s010"
+  }
+}
