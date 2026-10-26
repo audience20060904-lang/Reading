@@ -1,0 +1,983 @@
+{
+  "schemaVersion": 1,
+  "id": "evidence-032",
+  "status": "authored",
+  "evidenceRule": "frozen-target-sentence",
+  "questions": [
+    {
+      "order": 1,
+      "prompt": "What does 'your typical DIY story' prepare the reader for here?",
+      "promptZh": "这里 your typical DIY story 为后文作什么铺垫？",
+      "options": [
+        "A project completed without any unexpected effort.",
+        "A familiar pattern of a job proving harder than expected.",
+        "A technical instruction written by the reader.",
+        "An account in which hiring professionals was the final decision."
+      ],
+      "optionsZh": [
+        "毫无意外工作量便完成的工程。",
+        "工程比预料困难这一常见模式。",
+        "由读者撰写的技术指令。",
+        "最终决定聘请专业人员的经历。"
+      ],
+      "answer": 1,
+      "type": "作者意图",
+      "support": "explicit",
+      "analyses": [
+        "A 紧接 a lot more work than anticipated，方向相反。",
+        "B typical 引向常见的 DIY 低估工作量叙述，后句给出具体内容。",
+        "C your 是泛指用法，不是读者写的施工指南。",
+        "D 前句明确 decided to do it ourselves，不能改成最后雇人；这段是作者经历，不是普遍实验结果。"
+      ],
+      "vocabulary": [
+        {
+          "word": "anticipated",
+          "meaning": "预料到；事先预计",
+          "context": "这里是事前对工作量的估计，实际工作更多。",
+          "example": "The repair required more time than we had anticipated.",
+          "collocations": [
+            "more work than anticipated",
+            "a typical DIY story"
+          ]
+        }
+      ],
+      "evidenceQuote": "We watched a couple of YouTube videos, and it seemed doable. Being cheap, we decided to do it ourselves. The rest is your typical DIY story. It was a lot more work than we had ever anticipated."
+    },
+    {
+      "order": 2,
+      "prompt": "Which description explains why digging the yard was difficult?",
+      "promptZh": "哪种描述说明挖院子为何困难？",
+      "options": [
+        "A flat, empty plot with soft soil needed only surface sweeping.",
+        "The yard was nine feet deep and contained no roots.",
+        "Only the number of bricks made digging difficult.",
+        "The sloping yard had roots and very hard clay, and required digging down nine inches."
+      ],
+      "optionsZh": [
+        "平坦、空旷且土松，只需扫表面。",
+        "院子深九英尺且没有树根。",
+        "只有砖块数量使挖掘困难。",
+        "院子倾斜、有树根、黏土很硬，且需向下挖九英寸。"
+      ],
+      "answer": 3,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A sloped、tree-root-filled、rock-hard 与这些描述逐项相反。",
+        "B nine inches 不是 nine feet，且原文有根。",
+        "C 砖块搬运是另项困难，不能替代本句土质与地形。",
+        "D 多个修饰语共同描写施工条件；twenty-by-twenty-four-foot 是院子平面尺寸，不是挖掘深度。"
+      ],
+      "vocabulary": [
+        {
+          "word": "rock-hard",
+          "meaning": "硬如石头的；极硬的",
+          "context": "形容黏土坚硬，不表示院子全部由岩石砌成。",
+          "example": "The dry ground was rock-hard after weeks without rain.",
+          "collocations": [
+            "rock-hard clay-soil",
+            "a tree-root-filled yard"
+          ]
+        }
+      ],
+      "evidenceQuote": "Digging nine inches of a sloped, tree-root-filled, rock-hard clay-soil twenty-by-twenty-four-foot yard was hard. Tamping down the ground to create a firm and level base for bricks was taxing. Our house sat on the top of a hill and our worksite was on the opposite side of the driveway, making transporting three hundred bags of gravel and sand with a wheelbarrow an insanely difficult task. Not to mention carrying 2,000 bricks—it was literally backbreaking."
+    },
+    {
+      "order": 3,
+      "prompt": "Why was moving the gravel and sand especially difficult?",
+      "promptZh": "搬碎石与沙子为何特别困难？",
+      "options": [
+        "The uphill house and worksite across the driveway complicated moving three hundred bags by wheelbarrow.",
+        "The materials were already beside the completed patio and needed no moving.",
+        "Three hundred workers had to share a single bag of sand.",
+        "The worksite was inside a flat room at the foot of the hill."
+      ],
+      "optionsZh": [
+        "房子在坡顶、工地在车道另一侧，用独轮车搬三百袋很困难。",
+        "材料已在完工露台旁，无需搬运。",
+        "三百工人必须共用一袋沙。",
+        "工地在山脚平坦房间里。"
+      ],
+      "answer": 0,
+      "type": "逻辑关系",
+      "support": "explicit",
+      "analyses": [
+        "A 地形、位置、数量和运输方式对应原句 making 后说明的困难。",
+        "B 不是已放妥，也不是已经完工后才搬。",
+        "C three hundred bags 是袋数，不是人数。",
+        "D on the top of a hill 以及 opposite side of the driveway 不能改成山脚室内；这是该工程的叙述。"
+      ],
+      "vocabulary": [
+        {
+          "word": "a wheelbarrow",
+          "meaning": "独轮手推车",
+          "context": "这里是运材料的工具，并非车辆或工人数。",
+          "example": "They moved the sand across the garden with a wheelbarrow.",
+          "collocations": [
+            "with a wheelbarrow",
+            "bags of gravel and sand"
+          ]
+        }
+      ],
+      "evidenceQuote": "Digging nine inches of a sloped, tree-root-filled, rock-hard clay-soil twenty-by-twenty-four-foot yard was hard. Tamping down the ground to create a firm and level base for bricks was taxing. Our house sat on the top of a hill and our worksite was on the opposite side of the driveway, making transporting three hundred bags of gravel and sand with a wheelbarrow an insanely difficult task. Not to mention carrying 2,000 bricks—it was literally backbreaking."
+    },
+    {
+      "order": 4,
+      "prompt": "What does 'Not to mention' do before the reference to 2,000 bricks?",
+      "promptZh": "两千块砖前的 Not to mention 起什么作用？",
+      "options": [
+        "It retracts the claim that moving sand was difficult.",
+        "It states that the bricks did not have to be carried.",
+        "It adds another strenuous task to the difficulties already described.",
+        "It identifies two thousand as the number of days spent working."
+      ],
+      "optionsZh": [
+        "撤回搬沙困难的说法。",
+        "表示砖不必搬运。",
+        "在已述困难上再加一项费力任务。",
+        "把两千确定为施工天数。"
+      ],
+      "answer": 2,
+      "type": "篇章结构",
+      "support": "explicit",
+      "analyses": [
+        "A 这是补充，不是撤回。",
+        "B not to mention 不能逐字误解为没有这项工作。",
+        "C 在搬三百袋材料之后追加搬两千块砖，强化劳累感。",
+        "D 2,000 修饰 bricks；backbreaking 的叙述也不提供医学上确诊骨折的证据。"
+      ],
+      "vocabulary": [
+        {
+          "word": "Not to mention",
+          "meaning": "更不用说；还不算上",
+          "context": "用来补充另一个有分量的例子，强调工作之重。",
+          "example": "The move was tiring, not to mention carrying the heavy shelves.",
+          "collocations": [
+            "Not to mention carrying",
+            "a backbreaking task"
+          ]
+        }
+      ],
+      "evidenceQuote": "Digging nine inches of a sloped, tree-root-filled, rock-hard clay-soil twenty-by-twenty-four-foot yard was hard. Tamping down the ground to create a firm and level base for bricks was taxing. Our house sat on the top of a hill and our worksite was on the opposite side of the driveway, making transporting three hundred bags of gravel and sand with a wheelbarrow an insanely difficult task. Not to mention carrying 2,000 bricks—it was literally backbreaking."
+    },
+    {
+      "order": 5,
+      "prompt": "What prevented the author from getting up on many mornings?",
+      "promptZh": "许多个早晨，什么使作者起不来？",
+      "options": [
+        "Waiting for the professional team to arrive each morning.",
+        "Back pain associated with the described work.",
+        "Choosing to rest because no demanding tasks remained.",
+        "Worry about the price, rather than any bodily pain."
+      ],
+      "optionsZh": [
+        "每天早晨等待专业团队到来。",
+        "所述劳动中的背痛。",
+        "因为已无费力工作而自愿休息。",
+        "担心价格而非任何身体疼痛。"
+      ],
+      "answer": 1,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A 此处并未雇团队，也不是等待导致不能起身。",
+        "B because of the back pain 明确原因，many mornings 不等于每天。",
+        "C unable 是不能，不是工作已结束后自愿休息。",
+        "D 明示身体背痛，不能以价格担忧替换；本题仅还原作者自述，不新增诊断。"
+      ],
+      "vocabulary": [
+        {
+          "word": "because of",
+          "meaning": "由于；因为",
+          "context": "后接名词短语 back pain，指出起不来的原因。",
+          "example": "The match was delayed because of heavy rain.",
+          "collocations": [
+            "because of the back pain",
+            "unable to get up"
+          ]
+        }
+      ],
+      "evidenceQuote": "There were many mornings when I was unable to get up because of the back pain. We questioned our decision many times. We blamed each other many times. We regretted not hiring someone else to do it instead."
+    },
+    {
+      "order": 6,
+      "prompt": "How long did the couple's patio project take to finish?",
+      "promptZh": "夫妇的露台工程用了多久完成？",
+      "options": [
+        "Exactly three to four days.",
+        "Nine months before work began.",
+        "Three hours in total.",
+        "Almost three months."
+      ],
+      "optionsZh": [
+        "恰好三至四天。",
+        "开工前九个月。",
+        "总共三小时。",
+        "将近三个月。"
+      ],
+      "answer": 3,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A 三至四天属于作者对九千美元专业施工的对照，不是他们实际工期。",
+        "B nine 不能从前段挖掘英寸数挪来当月份。",
+        "C 原句不是 hours。",
+        "D almost three months 直接对应；almost 不能删成精确三个月。"
+      ],
+      "vocabulary": [
+        {
+          "word": "almost",
+          "meaning": "几乎；将近",
+          "context": "这里保留接近三个月而非精确整三个月的程度。",
+          "example": "The restoration took almost three months to finish.",
+          "collocations": [
+            "almost three months",
+            "take time to complete"
+          ]
+        }
+      ],
+      "evidenceQuote": "It took us almost three months to complete. In the end, the result was pretty good, but clearly not as good as what $9,000 would have accomplished in three to four days! Given how many hours we spent on the project, we weren’t sure if we’d saved much money in the end, either."
+    },
+    {
+      "order": 7,
+      "prompt": "How does the author assess the finished patio against the paid alternative?",
+      "promptZh": "作者如何将完工露台与付费方案比较？",
+      "options": [
+        "It was fairly good, but he thought the paid job could have produced a better result much faster.",
+        "It was poor in every respect, while the paid alternative would take longer.",
+        "Both alternatives were tested and proved identical in quality and time.",
+        "The DIY result was clearly better than any professional work could be."
+      ],
+      "optionsZh": [
+        "效果相当好，但他认为付费施工本可更快且更好。",
+        "各方面都差，付费方案还会更慢。",
+        "两方案均被实际测试，质量和时间完全相同。",
+        "DIY 明显胜过任何专业施工。"
+      ],
+      "answer": 0,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A pretty good 与 not as good、three to four days 对照其几乎三个月，保留作者评估性质。",
+        "B pretty good 不是一无是处，工期方向也反了。",
+        "C what $9,000 would have accomplished 是未选方案的反事实比较，不是两个实际项目的实验。",
+        "D not as good as 不能改成胜过一切专业者，也不保证实际最终净省五千。"
+      ],
+      "vocabulary": [
+        {
+          "word": "would have accomplished",
+          "meaning": "本可以实现的；本会完成的",
+          "context": "在未采用的付费方案中作反事实比较，不是已做过的第二次工程记录。",
+          "example": "A larger team would have accomplished the task more quickly.",
+          "collocations": [
+            "what the payment would have accomplished",
+            "in three to four days"
+          ]
+        }
+      ],
+      "evidenceQuote": "It took us almost three months to complete. In the end, the result was pretty good, but clearly not as good as what $9,000 would have accomplished in three to four days! Given how many hours we spent on the project, we weren’t sure if we’d saved much money in the end, either."
+    },
+    {
+      "order": 8,
+      "prompt": "What happened while the author was digging one day?",
+      "promptZh": "作者有一天挖土时发生什么？",
+      "options": [
+        "He laid every brick without looking at the ground.",
+        "He hired a worker to remove a wall.",
+        "He saw a snake and screamed.",
+        "He deliberately brought a snake into the garden."
+      ],
+      "optionsZh": [
+        "他不看地面便铺完所有砖。",
+        "他雇工拆墙。",
+        "他看见蛇并尖叫。",
+        "他故意把蛇带进花园。"
+      ],
+      "answer": 2,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A laid bricks 是另项经验，不能代替当天事件。",
+        "B 原句没有雇人或墙。",
+        "C While digging one day 给事件背景，I saw a snake and screamed 是实际叙述。",
+        "D 发现蛇不等于主动带来；不添加蛇攻击等未述细节。"
+      ],
+      "vocabulary": [
+        {
+          "word": "While digging",
+          "meaning": "挖土时",
+          "context": "省略与主句相同的主语 I，描写看见蛇时正在做的活动。",
+          "example": "While digging, she noticed a small piece of pottery.",
+          "collocations": [
+            "While digging one day",
+            "saw a snake and screamed"
+          ]
+        }
+      ],
+      "evidenceQuote": "And yet, years later, we still talk about memories from our patio project. While digging one day, I saw a snake and screamed! I have a phobia of snakes, so I jumped, though it was just a garden snake in hibernation. Before our project, I had never laid bricks."
+    },
+    {
+      "order": 9,
+      "prompt": "What contrast is expressed by 'though' in the snake account?",
+      "promptZh": "蛇的叙述中 though 表达什么对照？",
+      "options": [
+        "The author was calm because he regularly handled snakes.",
+        "He reacted with fear even though the snake was only a hibernating garden snake.",
+        "The snake attacked after the author decided to hire a professional.",
+        "The author could not see the snake although it was moving rapidly."
+      ],
+      "optionsZh": [
+        "作者常接触蛇，所以冷静。",
+        "尽管只是冬眠的花园蛇，他仍因恐惧作出反应。",
+        "作者决定雇人后，蛇发动攻击。",
+        "尽管蛇快速移动，作者看不见它。"
+      ],
+      "answer": 1,
+      "type": "逻辑关系",
+      "support": "explicit",
+      "analyses": [
+        "A phobia 与 jumped 不支持冷静。",
+        "B so 连接怕蛇与跳起，though 引出所见蛇的实际状态，与强烈反应形成让步。",
+        "C 未说攻击或此时改雇人。",
+        "D in hibernation 不是迅速移动；只解读书中叙述，不对所有蛇的危险作判断。"
+      ],
+      "vocabulary": [
+        {
+          "word": "in hibernation",
+          "meaning": "处于冬眠中",
+          "context": "说明当时发现的蛇的状态，不说明作者因此不害怕。",
+          "example": "The animal remained in hibernation through the cold months.",
+          "collocations": [
+            "a snake in hibernation",
+            "a phobia of snakes"
+          ]
+        }
+      ],
+      "evidenceQuote": "And yet, years later, we still talk about memories from our patio project. While digging one day, I saw a snake and screamed! I have a phobia of snakes, so I jumped, though it was just a garden snake in hibernation. Before our project, I had never laid bricks."
+    },
+    {
+      "order": 10,
+      "prompt": "What was true of the author's bricklaying experience before the project?",
+      "promptZh": "做项目之前，作者的砌砖经验如何？",
+      "options": [
+        "He had laid bricks professionally for years.",
+        "He had already taught many patio-building courses.",
+        "He had completed an identical patio the previous month.",
+        "He had never laid bricks."
+      ],
+      "optionsZh": [
+        "已专业砌砖多年。",
+        "已经教过许多露台施工课。",
+        "上个月已做过相同露台。",
+        "从未砌过砖。"
+      ],
+      "answer": 3,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A never laid bricks 排除多年从业。",
+        "B 没有授课经历，不能从后来的技能发现倒推此前经历。",
+        "C 与从未铺砖相反。",
+        "D Before our project 与 had never 限定项目开始之前；不能扩大成后来也从未学会。"
+      ],
+      "vocabulary": [
+        {
+          "word": "had never laid",
+          "meaning": "此前从未铺过；从未砌过",
+          "context": "过去完成时把无经验状态定位在项目之前，laid 为 lay 的过去分词。",
+          "example": "Before the renovation, he had never laid floor tiles.",
+          "collocations": [
+            "had never laid bricks",
+            "before our project"
+          ]
+        }
+      ],
+      "evidenceQuote": "And yet, years later, we still talk about memories from our patio project. While digging one day, I saw a snake and screamed! I have a phobia of snakes, so I jumped, though it was just a garden snake in hibernation. Before our project, I had never laid bricks."
+    },
+    {
+      "order": 11,
+      "prompt": "How does the author initially view his practical ability?",
+      "promptZh": "作者一开始如何看待自己的动手能力？",
+      "options": [
+        "He thinks he is not very handy and has low confidence in that area.",
+        "He has low confidence in every aspect of his life without exception.",
+        "He considers himself an expert bricklayer before doing any work.",
+        "He believes practical ability can never change with experience."
+      ],
+      "optionsZh": [
+        "他觉得自己不太擅长动手，在这方面信心低。",
+        "他对生活每个方面毫无例外都没信心。",
+        "尚未动工便认为自己是砌砖专家。",
+        "他认为动手能力永不随经验改变。"
+      ],
+      "answer": 0,
+      "type": "语气与范围",
+      "support": "explicit",
+      "analyses": [
+        "A not very handy 与 self-esteem when it comes to handiness pretty low 对应领域限定。",
+        "B 把具体动手领域扩大成全部人生。",
+        "C 与初始自评相反；后句新发现不能前移。",
+        "D 原文接着发现自己收边还不错，不支持永远不能变化。"
+      ],
+      "vocabulary": [
+        {
+          "word": "handy",
+          "meaning": "手巧的；擅长实际动手的",
+          "context": "在 handiness 语境指手艺能力；并非常见的方便的、手边可用的含义。",
+          "example": "She is handy with simple tools and repairs her own shelves.",
+          "collocations": [
+            "not very handy",
+            "when it comes to handiness"
+          ]
+        }
+      ],
+      "evidenceQuote": "In general, I am not very handy, so my self-esteem when it comes to handiness is pretty low. But through our endeavors, I discovered that I’m not half bad at brick edging—a new discovery about myself. If we had hired someone to do everything for us, would I still be talking about it? Probably not, because I wouldn’t have discovered the snake in hibernation, nor my unknown brick-edging skills."
+    },
+    {
+      "order": 12,
+      "prompt": "What is the function of the question about hiring someone to do everything?",
+      "promptZh": "关于请人包办一切的问句起什么作用？",
+      "options": [
+        "It reports that the couple actually chose full outsourcing.",
+        "It asks the reader to find a contractor's contact details.",
+        "It considers an alternative past decision to highlight what personal involvement added.",
+        "It proves no paid work can ever lead to a memorable story."
+      ],
+      "optionsZh": [
+        "报告夫妇实际选择全部外包。",
+        "要求读者找承包商联系方式。",
+        "设想不同的过去选择，突出亲身参与带来的东西。",
+        "证明任何付费工作都绝不留下故事。"
+      ],
+      "answer": 2,
+      "type": "作者意图",
+      "support": "explicit",
+      "analyses": [
+        "A If we had hired 是反事实，不是已发生的选择。",
+        "B 问的是作者如今是否还会谈论，而非寻联系方式。",
+        "C would I still be talking 与后句 Probably not、蛇及技能发现，共同评估失去的体验。",
+        "D 个人回顾不能推成所有外包都无记忆；also probably 不等于绝对定律。"
+      ],
+      "vocabulary": [
+        {
+          "word": "If we had hired",
+          "meaning": "假如当初我们雇了；对未选过去的设想",
+          "context": "与后面的 would 构成反事实讨论，不把未发生的外包记成真实历史。",
+          "example": "If we had hired a guide, we might have followed a different route.",
+          "collocations": [
+            "If we had hired someone",
+            "do everything for us"
+          ]
+        }
+      ],
+      "evidenceQuote": "In general, I am not very handy, so my self-esteem when it comes to handiness is pretty low. But through our endeavors, I discovered that I’m not half bad at brick edging—a new discovery about myself. If we had hired someone to do everything for us, would I still be talking about it? Probably not, because I wouldn’t have discovered the snake in hibernation, nor my unknown brick-edging skills."
+    },
+    {
+      "order": 13,
+      "prompt": "Why does the author think he would probably not still discuss a fully outsourced patio project?",
+      "promptZh": "作者为何觉得若全部外包，大概就不会仍谈这个项目？",
+      "options": [
+        "Because the paid version would necessarily take longer than the DIY project.",
+        "Because discussing the quoted price was his only purpose in telling the story.",
+        "Because he would have made the same personal discoveries without participating.",
+        "Because he would have missed discovering the hibernating snake and his own brick-edging ability."
+      ],
+      "optionsZh": [
+        "因为付费施工必定比 DIY 更慢。",
+        "因为讲这个故事的唯一目的是讨论报价。",
+        "因为即使不参与，也会作出同样的亲身发现。",
+        "因为他会错过冬眠蛇和自身收边能力的发现。"
+      ],
+      "answer": 3,
+      "type": "逻辑关系",
+      "support": "explicit",
+      "analyses": [
+        "A 此处 because 指向错失的发现，不是付费工期更长；此前比较反而估计专业施工更快。",
+        "B 讨论的是为何如今仍有故事，而非只为报告报价。",
+        "C wouldn’t have discovered 与未参与也同样发现相反。",
+        "D because 明示两项错失的个人发现；Probably not 保留作者的推想，不能泛化成所有外包都无故事。"
+      ],
+      "vocabulary": [
+        {
+          "word": "nor",
+          "meaning": "也不；也没有",
+          "context": "与前面的否定 wouldn't 连用，加入第二项没能发现的东西。",
+          "example": "She had not seen the painting, nor had she read the catalogue.",
+          "collocations": [
+            "wouldn’t have discovered ... nor",
+            "unknown brick-edging skills"
+          ]
+        }
+      ],
+      "evidenceQuote": "In general, I am not very handy, so my self-esteem when it comes to handiness is pretty low. But through our endeavors, I discovered that I’m not half bad at brick edging—a new discovery about myself. If we had hired someone to do everything for us, would I still be talking about it? Probably not, because I wouldn’t have discovered the snake in hibernation, nor my unknown brick-edging skills."
+    },
+    {
+      "order": 14,
+      "prompt": "What does the author concede about the three months of patio work?",
+      "promptZh": "作者承认那三个月露台劳动的什么情况？",
+      "options": [
+        "It involved no distress because all memories were pleasant.",
+        "It brought substantial stress, bodily pain, and unhappiness at the time.",
+        "It proved outsourcing could not have improved short-term happiness.",
+        "It was a controlled trial of identical projects in many households."
+      ],
+      "optionsZh": [
+        "毫无痛苦，因为所有回忆都愉快。",
+        "当时带来许多压力、身体疼痛和不快乐。",
+        "证明外包不可能提高短期幸福。",
+        "是许多家庭相同项目的对照试验。"
+      ],
+      "answer": 1,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A 原文承认负面感受，丰富回忆不等于全程快乐。",
+        "B Yes 后明确列出 stress、physical pain、unhappiness，并限定 those three months。",
+        "C 后句恰说 outsourcing would have increased happiness in the short run。",
+        "D 是作者自家故事，不是随机家庭试验；不能把自述推广成普遍效应大小。"
+      ],
+      "vocabulary": [
+        {
+          "word": "in the short run",
+          "meaning": "从短期看；在近期",
+          "context": "与后面的 In the long run 区分评估时间尺度。",
+          "example": "The change was inconvenient in the short run but useful later.",
+          "collocations": [
+            "happiness in the short run",
+            "in the long run"
+          ]
+        }
+      ],
+      "evidenceQuote": "Yes, our patio project produced a lot of stress, physical pain, and unhappiness during those three months. Outsourcing would have increased happiness in the short run. In the long run, however, we now have far more stories that we can tell our friends, as well as the undiluted raw emotion of pride, a sense of accomplishment, and memories of agony and pain."
+    },
+    {
+      "order": 15,
+      "prompt": "How does the author assess routine cleaning in terms of psychological richness?",
+      "promptZh": "就心理丰富性而言，作者如何评价例行清洁？",
+      "options": [
+        "He says outsourcing it would not sacrifice psychological richness, since doing it oneself might yield few interesting stories.",
+        "He says every cleaning task inevitably produces more stories than a patio project.",
+        "He says outsourcing cleaning always removes all financial costs.",
+        "He presents a measured trial proving identical outcomes for every household."
+      ],
+      "optionsZh": [
+        "他说外包不会牺牲心理丰富性，因为自己做可能没多少有趣故事。",
+        "他说每次清洁必比露台工程产生更多故事。",
+        "他说外包清洁总会消除所有金钱成本。",
+        "他呈现一项证明每个家庭结果相同的实测试验。"
+      ],
+      "answer": 0,
+      "type": "主旨",
+      "support": "explicit",
+      "analyses": [
+        "A 首句 no opportunity cost in terms of psychological richness 与后句 might not generate many stories 构成作者的论述。",
+        "B 与本段对例行清洁和建露台的对比相反，也把 might 加强为必然。",
+        "C 心理丰富性机会成本不是货币支出为零。",
+        "D 本段不是报告新的清洁随机试验，不把论述写成全户定律。"
+      ],
+      "vocabulary": [
+        {
+          "word": "opportunity cost",
+          "meaning": "机会成本；因选择而失去其他可能收益",
+          "context": "这里指错失心理丰富体验，而非直接账单；必须保留 in terms of psychological richness 的范围。",
+          "example": "The opportunity cost of the easier route was missing the unusual view.",
+          "collocations": [
+            "opportunity cost in terms of psychological richness",
+            "outsourcing routine cleaning"
+          ]
+        }
+      ],
+      "evidenceQuote": "Outsourcing routine cleaning would have no opportunity cost in terms of psychological richness. After all, cleaning your house by yourself might not generate many interesting stories. So what’s the point, other than saving some money? In contrast, outsourcing a project like building a brick patio might be a mistake because it could have some opportunity cost for psychological richness."
+    },
+    {
+      "order": 16,
+      "prompt": "What does 'So what’s the point, other than saving some money?' question here?",
+      "promptZh": "这里 So what’s the point, other than saving some money? 质疑什么？",
+      "options": [
+        "Whether building a patio ever requires materials.",
+        "Whether the author has already saved an exact amount on all projects.",
+        "What extra value doing routine cleaning oneself might offer beyond saving money.",
+        "Why every household must employ a cleaner regardless of cost."
+      ],
+      "optionsZh": [
+        "建露台是否需要材料。",
+        "作者是否在所有项目中已省下精确金额。",
+        "除省钱外，亲自做例行清洁还有什么额外价值。",
+        "为何每户都必须不论成本雇清洁工。"
+      ],
+      "answer": 2,
+      "type": "作者意图",
+      "support": "explicit",
+      "analyses": [
+        "A 前文对象是 cleaning your house，不是砖材料。",
+        "B some money 不是精确存款或全部项目财务结算。",
+        "C 问句承接自己清洁可能没多少故事，权衡其非金钱收益。",
+        "D 反问不是对每人的雇用命令；后文还对不同项目作区别。"
+      ],
+      "vocabulary": [
+        {
+          "word": "other than",
+          "meaning": "除……之外",
+          "context": "把省钱作为已承认的益处，追问除此之外的理由，并非说没有任何省钱价值。",
+          "example": "The route offered little advantage other than saving a few minutes.",
+          "collocations": [
+            "other than saving some money",
+            "what’s the point"
+          ]
+        }
+      ],
+      "evidenceQuote": "Outsourcing routine cleaning would have no opportunity cost in terms of psychological richness. After all, cleaning your house by yourself might not generate many interesting stories. So what’s the point, other than saving some money? In contrast, outsourcing a project like building a brick patio might be a mistake because it could have some opportunity cost for psychological richness."
+    },
+    {
+      "order": 17,
+      "prompt": "What comparison is made between assembling a whole motorcycle and a part?",
+      "promptZh": "组装整辆摩托车与一个部件之间作什么比较？",
+      "options": [
+        "The whole machine is said to be easier and quicker.",
+        "Both are described as necessarily identical in time and difficulty.",
+        "The part is said to require broader perspectives than a generalist role.",
+        "The whole machine is described as much more difficult and time-consuming."
+      ],
+      "optionsZh": [
+        "整辆被说成更容易更快。",
+        "两者时间难度必完全相同。",
+        "部件被说成比通才角色更需广泛视角。",
+        "整辆被说成更困难、更费时。"
+      ],
+      "answer": 3,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A 两个比较方向均相反。",
+        "B a lot more 明确差异。",
+        "C 混接后面通才与专才的比较对象。",
+        "D more difficult and time-consuming than 对应，比较完整工作与局部；不是宣称更多产量。"
+      ],
+      "vocabulary": [
+        {
+          "word": "time-consuming",
+          "meaning": "费时的；需要投入较多时间的",
+          "context": "说明完成任务用时，并非 time-saving；也不等于体验没有价值。",
+          "example": "Restoring the old cabinet was time-consuming but memorable.",
+          "collocations": [
+            "more difficult and time-consuming",
+            "assembling a whole motorcycle"
+          ]
+        }
+      ],
+      "evidenceQuote": "To foster psychological richness in our lives, we must lean into the unfamiliar, the risky, and the challenging. Assembling a whole motorcycle is a lot more difficult and time-consuming than assembling a part of it. Building a brick patio is much harder than hiring someone to do it. Being a generalist requires broader perspectives than being a specialist."
+    },
+    {
+      "order": 18,
+      "prompt": "What role does the patio comparison play in this paragraph?",
+      "promptZh": "本段中，露台比较起什么作用？",
+      "options": [
+        "It proves paid work always produces richer memories.",
+        "It gives another example of personal involvement being harder than the easier alternative.",
+        "It reports that the author finally abandoned the project before finishing.",
+        "It identifies hiring as more physically demanding than building it oneself."
+      ],
+      "optionsZh": [
+        "证明付费工作总产生更丰富回忆。",
+        "再举亲身参与比省力替代方案更难的例子。",
+        "报告作者最终未完成便放弃。",
+        "指出请人比亲自建更费体力。"
+      ],
+      "answer": 1,
+      "type": "篇章结构",
+      "support": "explicit",
+      "analyses": [
+        "A 本段倡议迎向挑战，不是付费必更丰富的证据。",
+        "B 承接整辆摩托车的比较，以建露台比雇人 harder 再说明挑战性。",
+        "C 本句仅比较难度，不是宣布放弃。",
+        "D 比较方向颠倒；也不把倡议当对所有人都适用的因果保证。"
+      ],
+      "vocabulary": [
+        {
+          "word": "lean into",
+          "meaning": "主动迎向；投入面对",
+          "context": "在此指主动接近陌生、风险和挑战，不是字面的身体倚靠。",
+          "example": "She chose to lean into the unfamiliar task rather than avoid it.",
+          "collocations": [
+            "lean into the unfamiliar",
+            "the risky and the challenging"
+          ]
+        }
+      ],
+      "evidenceQuote": "To foster psychological richness in our lives, we must lean into the unfamiliar, the risky, and the challenging. Assembling a whole motorcycle is a lot more difficult and time-consuming than assembling a part of it. Building a brick patio is much harder than hiring someone to do it. Being a generalist requires broader perspectives than being a specialist."
+    },
+    {
+      "order": 19,
+      "prompt": "What distinction is drawn between happiness and richness in the familiarity sentence?",
+      "promptZh": "熟悉性这一句如何区别幸福与丰富性？",
+      "options": [
+        "Familiarity is said to provide dependable happiness without adding much richness.",
+        "Familiarity is said to create much richness but no happiness.",
+        "The two outcomes are defined as exactly the same thing.",
+        "Every familiar activity is described as entirely unpleasant."
+      ],
+      "optionsZh": [
+        "熟悉性被说成带来可靠幸福，但不增添多少丰富性。",
+        "熟悉性被说成产生很多丰富性却没有幸福。",
+        "两种结果被定义为完全同一事物。",
+        "每种熟悉活动都被说成全然不愉快。"
+      ],
+      "answer": 0,
+      "type": "逻辑关系",
+      "support": "explicit",
+      "analyses": [
+        "A but 区分 reliable happiness 与 doesn’t generate much richness，不能抹掉维度差异。",
+        "B 两方向均颠倒。",
+        "C 作者特意分开讨论，而非同义定义。",
+        "D reliable happiness 不能改成完全不快；这是作者概括，不代表每次熟悉经历必同样。"
+      ],
+      "vocabulary": [
+        {
+          "word": "reliable",
+          "meaning": "可靠的；可较稳定预期的",
+          "context": "形容 familiarity 带来的幸福，非信息真伪的可靠性，也不表示丰富性必为零。",
+          "example": "A familiar routine offered a reliable source of comfort.",
+          "collocations": [
+            "reliable happiness",
+            "doesn’t generate much richness"
+          ]
+        }
+      ],
+      "evidenceQuote": "Familiarity generates reliable happiness, but it doesn’t generate much richness. In contrast, while a challenging project can produce a lot of negative emotions in the short run, it can also add psychological richness in the long run. Before hiring someone else to do a job, ask yourself: Could I do it myself? Would I have an interesting story to tell if I did?"
+    },
+    {
+      "order": 20,
+      "prompt": "What is the first question the author suggests asking before hiring someone?",
+      "promptZh": "雇人前，作者建议首先自问什么？",
+      "options": [
+        "Could I guarantee that the job will take no effort?",
+        "Must everyone else make the same choice?",
+        "Could I do the job myself?",
+        "Has the contractor already finished the job?"
+      ],
+      "optionsZh": [
+        "我能保证此事毫不费力吗？",
+        "别人都必须作同样选择吗？",
+        "我能自己做这件事吗？",
+        "承包者已完成工作吗？"
+      ],
+      "answer": 2,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A 并无零努力保证，前文反而承认困难。",
+        "B ask yourself 是个人反思，不强迫别人。",
+        "C Could I do it myself? 直接对应，且 Before hiring 限定决策时点。",
+        "D 问自身能力，不是断言他人已施工；询问并不等于必须每事自己做。"
+      ],
+      "vocabulary": [
+        {
+          "word": "Before hiring",
+          "meaning": "雇用之前；决定请人之前",
+          "context": "把自问放在选择之前，而不是事后要求改写历史。",
+          "example": "Before hiring a tutor, she considered what she could study independently.",
+          "collocations": [
+            "Before hiring someone else",
+            "ask yourself"
+          ]
+        }
+      ],
+      "evidenceQuote": "Familiarity generates reliable happiness, but it doesn’t generate much richness. In contrast, while a challenging project can produce a lot of negative emotions in the short run, it can also add psychological richness in the long run. Before hiring someone else to do a job, ask yourself: Could I do it myself? Would I have an interesting story to tell if I did?"
+    },
+    {
+      "order": 21,
+      "prompt": "What does 'if I did' refer to in the question about an interesting story?",
+      "promptZh": "关于有趣故事的问句中，if I did 指什么？",
+      "options": [
+        "If I had already avoided every challenging experience.",
+        "If I guaranteed that the work would be effortless.",
+        "If I hired someone to do everything while I took no part.",
+        "If I did the job myself rather than handing it over."
+      ],
+      "optionsZh": [
+        "如果我已避开每种挑战体验。",
+        "如果我保证工作毫不费力。",
+        "如果我请人包办且完全不参与。",
+        "如果我亲自做这件事，而非交给别人。"
+      ],
+      "answer": 3,
+      "type": "指代",
+      "support": "explicit",
+      "analyses": [
+        "A 不是回指避开挑战。",
+        "B 未引入毫不费力这一行为。",
+        "C 前一问 Could I do it myself? 明确主语我和自己做，不能换成包办。",
+        "D did 代替 do it myself，后问从能力进一步考虑是否有故事；问句保留可能性，不保证每次都有精彩故事。"
+      ],
+      "vocabulary": [
+        {
+          "word": "if I did",
+          "meaning": "如果我这样做；如果我亲自做了",
+          "context": "did 替代前面 do it myself，避免重复整个动词短语。",
+          "example": "Could I repair the chair, and would I learn something if I did?",
+          "collocations": [
+            "a story to tell if I did",
+            "Could I do it myself"
+          ]
+        }
+      ],
+      "evidenceQuote": "Familiarity generates reliable happiness, but it doesn’t generate much richness. In contrast, while a challenging project can produce a lot of negative emotions in the short run, it can also add psychological richness in the long run. Before hiring someone else to do a job, ask yourself: Could I do it myself? Would I have an interesting story to tell if I did?"
+    },
+    {
+      "order": 22,
+      "prompt": "How does 'Is efficiency everything?' relate to the advice that follows?",
+      "promptZh": "Is efficiency everything? 与后面建议怎样关联？",
+      "options": [
+        "It establishes efficiency as the only valid goal without exception.",
+        "It questions making efficiency the sole priority and introduces occasional slower activities.",
+        "It tells the reader never to use any efficient method again.",
+        "It reports a completed experiment on every form of baking and coffee-making."
+      ],
+      "optionsZh": [
+        "毫无例外地确立效率为唯一目标。",
+        "质疑唯效率优先，并引出偶尔选择较慢活动。",
+        "要求读者从此绝不使用高效方法。",
+        "报告对所有烘焙与磨咖啡方式已完成的实验。"
+      ],
+      "answer": 1,
+      "type": "作者意图",
+      "support": "explicit",
+      "analyses": [
+        "A 反问与 Escape the productivity trap 方向相反。",
+        "B once in a while 限定偶尔，后面烤面包、手磨咖啡举较慢亲自动手的例子。",
+        "C 把偶尔扩大为永不，超出原文。",
+        "D 是建议及例子，不是报告全形式实验。"
+      ],
+      "vocabulary": [
+        {
+          "word": "once in a while",
+          "meaning": "偶尔；时不时",
+          "context": "限定摆脱生产力陷阱的频率，不是要求时时刻刻拒绝效率。",
+          "example": "Once in a while, he takes the longer path home.",
+          "collocations": [
+            "Escape the productivity trap once in a while",
+            "a slower way"
+          ]
+        }
+      ],
+      "evidenceQuote": "Is efficiency everything? Escape the productivity trap once in a while. Think of a slower way to do the same thing —bake your own bread; hand-grind your own coffee beans…do it yourself, and add some spice to your life."
+    },
+    {
+      "order": 23,
+      "prompt": "What kind of experience has the author mainly discussed up to this point?",
+      "promptZh": "到此为止，作者主要讨论哪类体验？",
+      "options": [
+        "Firsthand experiences, illustrated by studying abroad and building a patio.",
+        "Only aesthetic experiences obtained entirely through novels.",
+        "Every possible kind of experience without any exceptions.",
+        "Only laboratory tasks completed by professional booksellers."
+      ],
+      "optionsZh": [
+        "亲身体验，例如留学与建露台。",
+        "只有完全通过小说获得的审美体验。",
+        "毫无例外地谈过所有可能体验。",
+        "只有专业书商完成的实验室任务。"
+      ],
+      "answer": 0,
+      "type": "篇章结构",
+      "support": "explicit",
+      "analyses": [
+        "A Most 与 so far 作回顾范围，firsthand, direct 后面给两个例子。",
+        "B 小说审美体验是后一个新问题，不是此前主要对象。",
+        "C Most 不是 all，discussed so far 也不是穷尽所有体验。",
+        "D 没有把此前材料都限定成书商实验；本段在为新的审美维度铺垫。"
+      ],
+      "vocabulary": [
+        {
+          "word": "firsthand",
+          "meaning": "亲身的；直接经历的",
+          "context": "与通过阅读获得的审美体验作区分，不是二手转述。",
+          "example": "Her firsthand experience of the city shaped the memoir.",
+          "collocations": [
+            "firsthand, direct experiences",
+            "study abroad and building a patio"
+          ]
+        }
+      ],
+      "evidenceQuote": "Most psychologically rich experiences I have discussed so far are firsthand, direct experiences, like study abroad and building a patio. Can aesthetic experiences such as reading novels produce the same kind of psychological richness?"
+    },
+    {
+      "order": 24,
+      "prompt": "What does 'would certainly say yes' convey about Aziz's expected response?",
+      "promptZh": "would certainly say yes 表达作者预计 Aziz 会怎样回应？",
+      "options": [
+        "A cautious rejection presented as unlikely.",
+        "An answer recorded as a numerical result from a controlled experiment.",
+        "A confident expectation of an affirmative response.",
+        "An explicit statement that Aziz refused to express any view."
+      ],
+      "optionsZh": [
+        "被说成不太可能的谨慎否定。",
+        "作为对照实验数值结果记录的回答。",
+        "有把握地预计他会作肯定回应。",
+        "明确说 Aziz 拒绝表达任何观点。"
+      ],
+      "answer": 2,
+      "type": "语气与范围",
+      "support": "explicit",
+      "analyses": [
+        "A yes 是肯定，certainly 也不是不太可能。",
+        "B 句子是叙事中的预期表述，不是实验统计值。",
+        "C would 配 certainly，呈现作者对其肯定回应的把握；本短段不把这句话当逐字采访引语。",
+        "D would say yes 与拒绝表达不同；不添加原文未给的测量或直接引语。"
+      ],
+      "vocabulary": [
+        {
+          "word": "certainly",
+          "meaning": "肯定地；无疑地",
+          "context": "修饰作者预计的肯定回应，区分语气确定与新实验已证因果。",
+          "example": "She would certainly welcome another chance to read the manuscript.",
+          "collocations": [
+            "would certainly say yes",
+            "an affirmative response"
+          ]
+        }
+      ],
+      "evidenceQuote": "Mohammed Aziz would certainly say yes."
+    },
+    {
+      "order": 25,
+      "prompt": "How is Aziz identified in this passage?",
+      "promptZh": "片段如何介绍 Aziz 的身份？",
+      "options": [
+        "A six-year-old textbook author working abroad.",
+        "A seventy-two-year-old fisherman living in Japan.",
+        "A Moroccan university graduate whose age is not given.",
+        "A seventy-two-year-old bookseller in Rabat Medina, Morocco."
+      ],
+      "optionsZh": [
+        "在国外工作的六岁教材作者。",
+        "住在日本的七十二岁渔夫。",
+        "年龄未说明的摩洛哥大学毕业生。",
+        "摩洛哥 Rabat Medina 的七十二岁书商。"
+      ],
+      "answer": 3,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A six 是成为孤儿时的年龄，不是此处书商年龄，也非教材作者。",
+        "B 后文渔夫是过去谋生经历，地点并非日本。",
+        "C 原文给年龄，梦想是高中毕业，并没有说大学毕业。",
+        "D 年龄、职业和地点均逐项对应；按书中叙述时点，不将年龄当今天实时年龄。"
+      ],
+      "vocabulary": [
+        {
+          "word": "bookseller",
+          "meaning": "书商；售书人",
+          "context": "区别于作家、出版者及过去的渔夫身份。",
+          "example": "The bookseller recommended a short novel to a visitor.",
+          "collocations": [
+            "a seventy-two-year-old bookseller",
+            "a bookseller in Rabat Medina"
+          ]
+        }
+      ],
+      "evidenceQuote": "Aziz is a seventy-two-year-old bookseller in Rabat Medina, Morocco."
+    }
+  ]
+}
