@@ -46335,5 +46335,2079 @@
     ],
     "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
     "fingerprint": "14321e231500ad1b4155e371fd3f5bbabf1c7c36487c2ac42456b88a2b5f574e"
+  },
+  {
+    "id": "qe-c07-0008",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-024",
+    "parentQuestionId": "q-c07-004",
+    "chapterId": "c07",
+    "sectionId": "c07-s01",
+    "paragraphId": "c07-s01-p068-06188",
+    "readingUnitId": "c07-s01-p068-06188-r001-004",
+    "sentenceIds": [
+      "c07-s01-p068-06188-s001",
+      "c07-s01-p068-06188-s002",
+      "c07-s01-p068-06188-s003",
+      "c07-s01-p068-06188-s004"
+    ],
+    "passage": "But what exactly is being playful? The psychoanalyst Erik Erikson described it best: when you are playful, you are “on vacation from social and economic reality.” All of us adults have a lot of social and economic responsibilities. That is the reality.",
+    "prompt": "What does 'That' refer to in 'That is the reality'?",
+    "promptZh": "That is the reality 中 That 指什么？",
+    "options": [
+      "The claim that playfulness erases all obligations.",
+      "The existence of many adult social and economic responsibilities.",
+      "A requirement to become a psychoanalyst before playing.",
+      "A literal holiday from every part of society forever."
+    ],
+    "optionsZh": [
+      "玩心抹去一切义务的主张。",
+      "成年人有许多社会与经济责任。",
+      "玩耍前必须成为精神分析师。",
+      "永久与社会一切部分脱离的字面假期。"
+    ],
+    "answer": 1,
+    "type": "指代与逻辑",
+    "support": "explicit",
+    "analyses": [
+      "A 前句反而承认责任。",
+      "B 紧接 All of us adults...responsibilities，That 回扣现实义务。",
+      "C Erikson 的身份不是读者条件。",
+      "D 休假为比喻，非永久断开社会。"
+    ],
+    "vocabulary": [
+      {
+        "word": "the reality",
+        "meaning": "现实情况；实际存在的情形",
+        "context": "这里指成人义务的实际存在，与幻想性暂时松开形成对照。",
+        "example": "The reality is that the project needs time and effort.",
+        "collocations": [
+          "That is the reality",
+          "social and economic reality"
+        ]
+      }
+    ],
+    "translation": "但究竟什么叫有玩心？精神分析学家 Erik Erikson 的描述最贴切：有玩心时，你仿佛“从社会和经济现实中休假”。我们成年人都有许多社会与经济责任。这就是现实。",
+    "evidenceTargetIds": [
+      "c07-s01-p068-06188-s004"
+    ],
+    "evidence": [
+      {
+        "quote": "But what exactly is being playful? The psychoanalyst Erik Erikson described it best: when you are playful, you are “on vacation from social and economic reality.” All of us adults have a lot of social and economic responsibilities. That is the reality.",
+        "sentenceIds": [
+          "c07-s01-p068-06188-s001",
+          "c07-s01-p068-06188-s002",
+          "c07-s01-p068-06188-s003",
+          "c07-s01-p068-06188-s004"
+        ],
+        "sources": [
+          {
+            "pdfPage": 68,
+            "block": 6,
+            "bbox": [
+              76.99,
+              618.75,
+              535,
+              711.27
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "bd25bf3e1d25b84940d37cdd348602ec658171dfca50cd9a4db87f4ec64ce05c"
+  },
+  {
+    "id": "qe-c07-0009",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-024",
+    "parentQuestionId": "q-c07-005",
+    "chapterId": "c07",
+    "sectionId": "c07-s01",
+    "paragraphId": "c07-s01-p068-06188",
+    "readingUnitId": "c07-s01-p068-06188-r005-008",
+    "sentenceIds": [
+      "c07-s01-p068-06188-s005",
+      "c07-s01-p068-06188-s006",
+      "c07-s01-p068-06188-s007",
+      "c07-s01-p068-06188-s008"
+    ],
+    "passage": "But Erikson encourages us to go somewhere between fantasy and actuality once in a while. Free yourself from duties and responsibilities. Play basketball and imitate Steph Curry. Watch a movie and pretend to be like Roger Ebert.",
+    "prompt": "What limits the suggested movement between fantasy and actuality?",
+    "promptZh": "幻想与现实之间的暂时游移受到什么限定？",
+    "options": [
+      "It should replace all real responsibilities permanently.",
+      "It must occur only after winning an Olympic medal.",
+      "It is encouraged occasionally, as indicated by 'once in a while'.",
+      "It requires travelling to a different country every time."
+    ],
+    "optionsZh": [
+      "必须永久取代现实全部责任。",
+      "只能赢得奥运奖牌后做。",
+      "once in a while 限定为偶尔被鼓励。",
+      "每次都必须出国。"
+    ],
+    "answer": 2,
+    "type": "语气与范围",
+    "support": "explicit",
+    "analyses": [
+      "A 忽略偶尔及前面现实责任。",
+      "B 奥运是后续例子，不是前提。",
+      "C once in a while 把建议限定为时而、偶尔。",
+      "D somewhere between 是心理状态比喻，非跨国行程要求。"
+    ],
+    "vocabulary": [
+      {
+        "word": "actuality",
+        "meaning": "现实；实际存在的情形",
+        "context": "与 fantasy 对照，不是单纯当前新闻或实际金额。",
+        "example": "The story moves between fantasy and actuality.",
+        "collocations": [
+          "between fantasy and actuality",
+          "once in a while"
+        ]
+      }
+    ],
+    "translation": "不过，Erikson 鼓励我们偶尔走到幻想与现实之间。让自己暂时从责任与义务中松开。打篮球时模仿 Steph Curry；看电影时假装自己像 Roger Ebert。",
+    "evidenceTargetIds": [
+      "c07-s01-p068-06188-s005"
+    ],
+    "evidence": [
+      {
+        "quote": "But Erikson encourages us to go somewhere between fantasy and actuality once in a while. Free yourself from duties and responsibilities. Play basketball and imitate Steph Curry. Watch a movie and pretend to be like Roger Ebert.",
+        "sentenceIds": [
+          "c07-s01-p068-06188-s005",
+          "c07-s01-p068-06188-s006",
+          "c07-s01-p068-06188-s007",
+          "c07-s01-p068-06188-s008"
+        ],
+        "sources": [
+          {
+            "pdfPage": 68,
+            "block": 6,
+            "bbox": [
+              76.99,
+              618.75,
+              535,
+              711.27
+            ]
+          },
+          {
+            "pdfPage": 69,
+            "block": 0,
+            "bbox": [
+              76.99,
+              75,
+              535,
+              128.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "a33f2d9ebe2386efa9bee8b859865707d0f4b4cb958f2c859fcbe8a93d80627f"
+  },
+  {
+    "id": "qe-c07-0010",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-024",
+    "parentQuestionId": "q-c07-005",
+    "chapterId": "c07",
+    "sectionId": "c07-s01",
+    "paragraphId": "c07-s01-p068-06188",
+    "readingUnitId": "c07-s01-p068-06188-r005-008",
+    "sentenceIds": [
+      "c07-s01-p068-06188-s005",
+      "c07-s01-p068-06188-s006",
+      "c07-s01-p068-06188-s007",
+      "c07-s01-p068-06188-s008"
+    ],
+    "passage": "But Erikson encourages us to go somewhere between fantasy and actuality once in a while. Free yourself from duties and responsibilities. Play basketball and imitate Steph Curry. Watch a movie and pretend to be like Roger Ebert.",
+    "prompt": "How should 'Free yourself from duties and responsibilities' be read in its paragraph?",
+    "promptZh": "结合本段，怎样理解 Free yourself from duties and responsibilities？",
+    "options": [
+      "As a temporary loosening of obligations for playful activity.",
+      "As an instruction never again to fulfil any duty.",
+      "As proof that adults have no social or economic duties.",
+      "As a demand to stop all imaginative activity."
+    ],
+    "optionsZh": [
+      "为俏皮活动暂时松开义务。",
+      "从此永不再履行任何责任的命令。",
+      "成年人没有任何社会经济义务的证明。",
+      "要求停止一切想象活动。"
+    ],
+    "answer": 0,
+    "type": "逻辑关系",
+    "support": "explicit",
+    "analyses": [
+      "A 前句 once in a while 限定，再以模仿球星或影评人举玩心活动。",
+      "B 不能脱离偶尔语境扩成永久弃责。",
+      "C 前一短段承认责任，而不是否认。",
+      "D 后面鼓励想象模仿，不是停止。"
+    ],
+    "vocabulary": [
+      {
+        "word": "Free yourself from",
+        "meaning": "让自己从……中暂时解脱；松开束缚",
+        "context": "由本段的偶尔语境限定，不读成无限期抛弃承诺。",
+        "example": "For a few minutes, free yourself from the pressure of the deadline.",
+        "collocations": [
+          "free yourself from duties",
+          "free yourself from pressure"
+        ]
+      }
+    ],
+    "translation": "不过，Erikson 鼓励我们偶尔走到幻想与现实之间。让自己暂时从责任与义务中松开。打篮球时模仿 Steph Curry；看电影时假装自己像 Roger Ebert。",
+    "evidenceTargetIds": [
+      "c07-s01-p068-06188-s006"
+    ],
+    "evidence": [
+      {
+        "quote": "But Erikson encourages us to go somewhere between fantasy and actuality once in a while. Free yourself from duties and responsibilities. Play basketball and imitate Steph Curry. Watch a movie and pretend to be like Roger Ebert.",
+        "sentenceIds": [
+          "c07-s01-p068-06188-s005",
+          "c07-s01-p068-06188-s006",
+          "c07-s01-p068-06188-s007",
+          "c07-s01-p068-06188-s008"
+        ],
+        "sources": [
+          {
+            "pdfPage": 68,
+            "block": 6,
+            "bbox": [
+              76.99,
+              618.75,
+              535,
+              711.27
+            ]
+          },
+          {
+            "pdfPage": 69,
+            "block": 0,
+            "bbox": [
+              76.99,
+              75,
+              535,
+              128.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "dbf5761bdc870e3b0d734942871148a3f868a74b6996b529f0007f2664c4bcbe"
+  },
+  {
+    "id": "qe-c07-0011",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-024",
+    "parentQuestionId": "q-c07-006",
+    "chapterId": "c07",
+    "sectionId": "c07-s01",
+    "paragraphId": "c07-s01-p068-06188",
+    "readingUnitId": "c07-s01-p068-06188-r009-010",
+    "sentenceIds": [
+      "c07-s01-p068-06188-s009",
+      "c07-s01-p068-06188-s010"
+    ],
+    "passage": "Watch the evening news and impersonate the president. Sing along with Beyoncé.",
+    "prompt": "What activity is invited by 'Sing along with Beyoncé'?",
+    "promptZh": "Sing along with Beyoncé 邀请什么活动？",
+    "options": [
+      "Attend a private lesson arranged by the singer.",
+      "Become a professional singer before playing.",
+      "Listen silently without making any sound.",
+      "Join in singing with the singer's performance."
+    ],
+    "optionsZh": [
+      "参加歌手安排的私人课。",
+      "先成为职业歌手才能玩。",
+      "始终无声地听。",
+      "跟着歌手的演唱一起唱。"
+    ],
+    "answer": 3,
+    "type": "语境词义",
+    "support": "explicit",
+    "analyses": [
+      "A sing along 不表示已安排直接授课或本人见面。",
+      "B 无职业资质要求。",
+      "C along with 是一起加入，不是只无声听。",
+      "D 在日常模仿、玩心例子中表示跟唱，不擅加入演唱会票务条件。"
+    ],
+    "vocabulary": [
+      {
+        "word": "Sing along",
+        "meaning": "跟着一起唱",
+        "context": "不要求和歌手本人同台或有专业水平。",
+        "example": "We sang along when a familiar song began.",
+        "collocations": [
+          "sing along with",
+          "sing along to a song"
+        ]
+      }
+    ],
+    "translation": "看晚间新闻时，模仿总统。跟着 Beyoncé 一起唱歌。",
+    "evidenceTargetIds": [
+      "c07-s01-p068-06188-s010"
+    ],
+    "evidence": [
+      {
+        "quote": "Watch the evening news and impersonate the president. Sing along with Beyoncé.",
+        "sentenceIds": [
+          "c07-s01-p068-06188-s009",
+          "c07-s01-p068-06188-s010"
+        ],
+        "sources": [
+          {
+            "pdfPage": 69,
+            "block": 0,
+            "bbox": [
+              76.99,
+              75,
+              535,
+              128.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "b63983bb452f6cebdd7b10ac66987de97d849c3a6de6c3bfc90a61028bee929f"
+  },
+  {
+    "id": "qe-c07-0012",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-024",
+    "parentQuestionId": "q-c07-007",
+    "chapterId": "c07",
+    "sectionId": "c07-s01",
+    "paragraphId": "c07-s01-p069-01335",
+    "readingUnitId": "c07-s01-p069-01335-r001-004",
+    "sentenceIds": [
+      "c07-s01-p069-01335-s001",
+      "c07-s01-p069-01335-s002",
+      "c07-s01-p069-01335-s003",
+      "c07-s01-p069-01335-s004"
+    ],
+    "passage": "The importance of playfulness is most noticeable during events when there is a lot at stake. For instance, the Olympics. Michael Phelps won thirteen Olympic gold medals in individual events and is widely considered one of the best swimmers of all time. He was already training at eight years old and breaking all kinds of age group records.",
+    "prompt": "In what situations is playfulness said to be most noticeable in importance?",
+    "promptZh": "文中说，玩心重要性在哪类情境中最显眼？",
+    "options": [
+      "Only when no outcome matters at all.",
+      "Only in activities without any preparation.",
+      "Events with significant consequences at stake.",
+      "Every routine event has exactly the same stakes."
+    ],
+    "optionsZh": [
+      "仅结果完全无关紧要时。",
+      "仅无需任何准备的活动。",
+      "得失或后果重大的事件。",
+      "每件日常事利害程度完全相同。"
+    ],
+    "answer": 2,
+    "type": "细节",
+    "support": "explicit",
+    "analyses": [
+      "A a lot at stake 不是无关紧要。",
+      "B 后文训练量很大，不是无需准备。",
+      "C at stake 指重大得失，并非经济下注才算。",
+      "D most noticeable 是情境对比，非所有事情风险相同。"
+    ],
+    "vocabulary": [
+      {
+        "word": "at stake",
+        "meaning": "处于得失关头；牵涉重要后果",
+        "context": "此处可以是梦想、奖牌与长期投入，不只金钱赌注。",
+        "example": "A place in the final was at stake.",
+        "collocations": [
+          "a lot at stake",
+          "much is at stake"
+        ]
+      }
+    ],
+    "translation": "玩心的重要性，在得失重大的场合尤其明显，例如奥运会。Michael Phelps 在奥运个人项目中赢得十三枚金牌，广被认为是史上最优秀的游泳运动员之一。他八岁便已训练，打破各种年龄组纪录。",
+    "evidenceTargetIds": [
+      "c07-s01-p069-01335-s001"
+    ],
+    "evidence": [
+      {
+        "quote": "The importance of playfulness is most noticeable during events when there is a lot at stake. For instance, the Olympics. Michael Phelps won thirteen Olympic gold medals in individual events and is widely considered one of the best swimmers of all time. He was already training at eight years old and breaking all kinds of age group records.",
+        "sentenceIds": [
+          "c07-s01-p069-01335-s001",
+          "c07-s01-p069-01335-s002",
+          "c07-s01-p069-01335-s003",
+          "c07-s01-p069-01335-s004"
+        ],
+        "sources": [
+          {
+            "pdfPage": 69,
+            "block": 1,
+            "bbox": [
+              76.99,
+              133.5,
+              535.01,
+              323.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "2cd475bdf96624c2e684086239ee26034e78c772bc814dc564d6171699f97f8e"
+  },
+  {
+    "id": "qe-c07-0013",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-024",
+    "parentQuestionId": "q-c07-007",
+    "chapterId": "c07",
+    "sectionId": "c07-s01",
+    "paragraphId": "c07-s01-p069-01335",
+    "readingUnitId": "c07-s01-p069-01335-r001-004",
+    "sentenceIds": [
+      "c07-s01-p069-01335-s001",
+      "c07-s01-p069-01335-s002",
+      "c07-s01-p069-01335-s003",
+      "c07-s01-p069-01335-s004"
+    ],
+    "passage": "The importance of playfulness is most noticeable during events when there is a lot at stake. For instance, the Olympics. Michael Phelps won thirteen Olympic gold medals in individual events and is widely considered one of the best swimmers of all time. He was already training at eight years old and breaking all kinds of age group records.",
+    "prompt": "How does 'For instance, the Olympics' function in the paragraph?",
+    "promptZh": "For instance, the Olympics 在本段有什么作用？",
+    "options": [
+      "It supplies an example of a high-stakes setting.",
+      "It says playfulness is relevant only to Olympic athletes.",
+      "It provides a new definition of a personality trait.",
+      "It disproves that daily activities can be playful."
+    ],
+    "optionsZh": [
+      "提供利害重大的情境例子。",
+      "说玩心只与奥运选手相关。",
+      "给人格特质新定义。",
+      "推翻日常活动能有玩心。"
+    ],
+    "answer": 0,
+    "type": "作者意图",
+    "support": "explicit",
+    "analyses": [
+      "A 承接前句 events...a lot at stake，For instance 标示例。",
+      "B 例子不能改成唯一范围。",
+      "C 不是人格量表定义。",
+      "D 前面刚列日常玩心活动，未撤销它们。"
+    ],
+    "vocabulary": [
+      {
+        "word": "For instance",
+        "meaning": "例如；举例说",
+        "context": "引入非排他例子，不是唯一条件或完整清单。",
+        "example": "Small changes can help; for instance, try a different route.",
+        "collocations": [
+          "For instance, the Olympics",
+          "an illustrative instance"
+        ]
+      }
+    ],
+    "translation": "玩心的重要性，在得失重大的场合尤其明显，例如奥运会。Michael Phelps 在奥运个人项目中赢得十三枚金牌，广被认为是史上最优秀的游泳运动员之一。他八岁便已训练，打破各种年龄组纪录。",
+    "evidenceTargetIds": [
+      "c07-s01-p069-01335-s002"
+    ],
+    "evidence": [
+      {
+        "quote": "The importance of playfulness is most noticeable during events when there is a lot at stake. For instance, the Olympics. Michael Phelps won thirteen Olympic gold medals in individual events and is widely considered one of the best swimmers of all time. He was already training at eight years old and breaking all kinds of age group records.",
+        "sentenceIds": [
+          "c07-s01-p069-01335-s001",
+          "c07-s01-p069-01335-s002",
+          "c07-s01-p069-01335-s003",
+          "c07-s01-p069-01335-s004"
+        ],
+        "sources": [
+          {
+            "pdfPage": 69,
+            "block": 1,
+            "bbox": [
+              76.99,
+              133.5,
+              535.01,
+              323.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "a191fa708371fce232ed2f7bda7bb4c24f6553f2d3d106d40ea0b5efb427cb8d"
+  },
+  {
+    "id": "qe-c07-0014",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-024",
+    "parentQuestionId": "q-c07-007",
+    "chapterId": "c07",
+    "sectionId": "c07-s01",
+    "paragraphId": "c07-s01-p069-01335",
+    "readingUnitId": "c07-s01-p069-01335-r001-004",
+    "sentenceIds": [
+      "c07-s01-p069-01335-s001",
+      "c07-s01-p069-01335-s002",
+      "c07-s01-p069-01335-s003",
+      "c07-s01-p069-01335-s004"
+    ],
+    "passage": "The importance of playfulness is most noticeable during events when there is a lot at stake. For instance, the Olympics. Michael Phelps won thirteen Olympic gold medals in individual events and is widely considered one of the best swimmers of all time. He was already training at eight years old and breaking all kinds of age group records.",
+    "prompt": "What had Phelps already been doing at eight?",
+    "promptZh": "Phelps 在八岁时已在做什么？",
+    "options": [
+      "Training under Bowman for the first time at age eleven.",
+      "Training and breaking records for age groups.",
+      "Winning every medal mentioned in the passage.",
+      "Ending all competitive swimming practice."
+    ],
+    "optionsZh": [
+      "在十一岁首次接受 Bowman 训练。",
+      "训练并打破年龄组纪录。",
+      "赢得本段提到的每枚奖牌。",
+      "停止全部竞技游泳训练。"
+    ],
+    "answer": 1,
+    "type": "细节",
+    "support": "explicit",
+    "analyses": [
+      "A 把下一短段十一岁的时间移到八岁。",
+      "B already training at eight 与 breaking...age group records 对应。",
+      "C 年龄组纪录不能替换成已经赢下后来的全部奥运奖牌。",
+      "D 正在训练而非停止。"
+    ],
+    "vocabulary": [
+      {
+        "word": "age group records",
+        "meaning": "年龄组纪录",
+        "context": "按年龄类别的纪录，不等于所有年龄或所有世界项目绝对纪录。",
+        "example": "She set several age group records as a junior swimmer.",
+        "collocations": [
+          "break age group records",
+          "training at eight"
+        ]
+      }
+    ],
+    "translation": "玩心的重要性，在得失重大的场合尤其明显，例如奥运会。Michael Phelps 在奥运个人项目中赢得十三枚金牌，广被认为是史上最优秀的游泳运动员之一。他八岁便已训练，打破各种年龄组纪录。",
+    "evidenceTargetIds": [
+      "c07-s01-p069-01335-s004"
+    ],
+    "evidence": [
+      {
+        "quote": "The importance of playfulness is most noticeable during events when there is a lot at stake. For instance, the Olympics. Michael Phelps won thirteen Olympic gold medals in individual events and is widely considered one of the best swimmers of all time. He was already training at eight years old and breaking all kinds of age group records.",
+        "sentenceIds": [
+          "c07-s01-p069-01335-s001",
+          "c07-s01-p069-01335-s002",
+          "c07-s01-p069-01335-s003",
+          "c07-s01-p069-01335-s004"
+        ],
+        "sources": [
+          {
+            "pdfPage": 69,
+            "block": 1,
+            "bbox": [
+              76.99,
+              133.5,
+              535.01,
+              323.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "9a6a1bcbd36d19e20d3cc6ac5d63855bcec6a644ec8c59fec02246797203fa3a"
+  },
+  {
+    "id": "qe-c07-0015",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-024",
+    "parentQuestionId": "q-c07-008",
+    "chapterId": "c07",
+    "sectionId": "c07-s01",
+    "paragraphId": "c07-s01-p069-01335",
+    "readingUnitId": "c07-s01-p069-01335-r005-008",
+    "sentenceIds": [
+      "c07-s01-p069-01335-s005",
+      "c07-s01-p069-01335-s006",
+      "c07-s01-p069-01335-s007",
+      "c07-s01-p069-01335-s008"
+    ],
+    "passage": "Phelps continued to train hard under coach Bob Bowman from age eleven on. His older sister Hilary was an Olympic-level swimmer as well. He grew up soaked in the world of competitive swimming. Phelps swam about six hours a day for six days a week.",
+    "prompt": "From what age did Phelps train hard under Bob Bowman?",
+    "promptZh": "Phelps 从几岁起在 Bob Bowman 指导下刻苦训练？",
+    "options": [
+      "Eight.",
+      "Six.",
+      "Thirty-two.",
+      "Eleven."
+    ],
+    "optionsZh": [
+      "八岁。",
+      "六岁。",
+      "三十二岁。",
+      "十一岁。"
+    ],
+    "answer": 3,
+    "type": "细节",
+    "support": "explicit",
+    "analyses": [
+      "A 八岁是此前训练及年龄组纪录的时间，不能替换教练指导起点。",
+      "B 六是后文每天时数或每周天数，不是本句年龄。",
+      "C 三十二为 Biles 周训练时数上限，不能错配。",
+      "D from age eleven on 逐字给起点；continued 表继续训练，不证明此前完全没练。"
+    ],
+    "vocabulary": [
+      {
+        "word": "from age eleven on",
+        "meaning": "从十一岁起；十一岁之后持续",
+        "context": "标明在这位教练指导下的起点，不等同首次接触游泳。",
+        "example": "From age eleven on, she attended the same local club.",
+        "collocations": [
+          "from age eleven on",
+          "train under a coach"
+        ]
+      }
+    ],
+    "translation": "Phelps 从十一岁起继续在教练 Bob Bowman 指导下刻苦训练。姐姐 Hilary 也是奥运水平的游泳运动员。他在竞技游泳的世界中成长，深深浸润其中。他每周游六天，每天约六小时。",
+    "evidenceTargetIds": [
+      "c07-s01-p069-01335-s005"
+    ],
+    "evidence": [
+      {
+        "quote": "Phelps continued to train hard under coach Bob Bowman from age eleven on. His older sister Hilary was an Olympic-level swimmer as well. He grew up soaked in the world of competitive swimming. Phelps swam about six hours a day for six days a week.",
+        "sentenceIds": [
+          "c07-s01-p069-01335-s005",
+          "c07-s01-p069-01335-s006",
+          "c07-s01-p069-01335-s007",
+          "c07-s01-p069-01335-s008"
+        ],
+        "sources": [
+          {
+            "pdfPage": 69,
+            "block": 1,
+            "bbox": [
+              76.99,
+              133.5,
+              535.01,
+              323.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "0e6097c6dc8e332057cb092e81282a1dba02312b7b22159fc4611229e05f22d7"
+  },
+  {
+    "id": "qe-c07-0016",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-024",
+    "parentQuestionId": "q-c07-008",
+    "chapterId": "c07",
+    "sectionId": "c07-s01",
+    "paragraphId": "c07-s01-p069-01335",
+    "readingUnitId": "c07-s01-p069-01335-r005-008",
+    "sentenceIds": [
+      "c07-s01-p069-01335-s005",
+      "c07-s01-p069-01335-s006",
+      "c07-s01-p069-01335-s007",
+      "c07-s01-p069-01335-s008"
+    ],
+    "passage": "Phelps continued to train hard under coach Bob Bowman from age eleven on. His older sister Hilary was an Olympic-level swimmer as well. He grew up soaked in the world of competitive swimming. Phelps swam about six hours a day for six days a week.",
+    "prompt": "What does 'as well' add about Phelps's family context?",
+    "promptZh": "as well 为 Phelps 家庭背景补充什么？",
+    "options": [
+      "His older sister Hilary was also an Olympic-level swimmer.",
+      "His coach was actually his older sister.",
+      "Hilary competed in gymnastics rather than swimming.",
+      "Both siblings necessarily won exactly the same number of medals."
+    ],
+    "optionsZh": [
+      "姐姐 Hilary 也是奥运水平游泳运动员。",
+      "他的教练其实是姐姐。",
+      "Hilary 练体操而非游泳。",
+      "兄妹必然得完全相同奖牌数。"
+    ],
+    "answer": 0,
+    "type": "细节",
+    "support": "explicit",
+    "analyses": [
+      "A His older sister...swimmer as well 给家庭另一游泳人物。",
+      "B Hilary 与 coach Bowman 是不同角色。",
+      "C 原句 swimmer 不是 gymnast。",
+      "D 同为所述水平不等于奖牌数相同，也不增加未写明的参赛成绩。"
+    ],
+    "vocabulary": [
+      {
+        "word": "as well",
+        "meaning": "也；同样",
+        "context": "添加姐姐的游泳背景，不表示成就数量完全相同。",
+        "example": "Her sister enjoyed the sport as well.",
+        "collocations": [
+          "a swimmer as well",
+          "as well as"
+        ]
+      }
+    ],
+    "translation": "Phelps 从十一岁起继续在教练 Bob Bowman 指导下刻苦训练。姐姐 Hilary 也是奥运水平的游泳运动员。他在竞技游泳的世界中成长，深深浸润其中。他每周游六天，每天约六小时。",
+    "evidenceTargetIds": [
+      "c07-s01-p069-01335-s006"
+    ],
+    "evidence": [
+      {
+        "quote": "Phelps continued to train hard under coach Bob Bowman from age eleven on. His older sister Hilary was an Olympic-level swimmer as well. He grew up soaked in the world of competitive swimming. Phelps swam about six hours a day for six days a week.",
+        "sentenceIds": [
+          "c07-s01-p069-01335-s005",
+          "c07-s01-p069-01335-s006",
+          "c07-s01-p069-01335-s007",
+          "c07-s01-p069-01335-s008"
+        ],
+        "sources": [
+          {
+            "pdfPage": 69,
+            "block": 1,
+            "bbox": [
+              76.99,
+              133.5,
+              535.01,
+              323.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "25c71cc11aa74a96ceb0d736133cf70efa1e24793b76ca9b245f41b91b85380f"
+  },
+  {
+    "id": "qe-c07-0017",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-024",
+    "parentQuestionId": "q-c07-008",
+    "chapterId": "c07",
+    "sectionId": "c07-s01",
+    "paragraphId": "c07-s01-p069-01335",
+    "readingUnitId": "c07-s01-p069-01335-r005-008",
+    "sentenceIds": [
+      "c07-s01-p069-01335-s005",
+      "c07-s01-p069-01335-s006",
+      "c07-s01-p069-01335-s007",
+      "c07-s01-p069-01335-s008"
+    ],
+    "passage": "Phelps continued to train hard under coach Bob Bowman from age eleven on. His older sister Hilary was an Olympic-level swimmer as well. He grew up soaked in the world of competitive swimming. Phelps swam about six hours a day for six days a week.",
+    "prompt": "What does 'grew up soaked in the world of competitive swimming' suggest?",
+    "promptZh": "grew up soaked in the world of competitive swimming 表达什么？",
+    "options": [
+      "He knew swimming only from a single brief holiday.",
+      "He had no family or training connections with the sport.",
+      "Competitive swimming deeply surrounded his upbringing.",
+      "He was physically wet every moment of childhood."
+    ],
+    "optionsZh": [
+      "他仅在一次短假中接触游泳。",
+      "他与这项运动毫无家庭或训练联系。",
+      "竞技游泳深刻浸润其成长环境。",
+      "他童年每时每刻身体都湿着。"
+    ],
+    "answer": 2,
+    "type": "语境词义",
+    "support": "explicit",
+    "analyses": [
+      "A grew up 强调长期成长，不是仅一次短假。",
+      "B 前两句有教练和姐姐的游泳联系。",
+      "C soaked in 比喻深受环境影响。",
+      "D 不是不间断字面浸水，更不从比喻推导训练的健康结果。"
+    ],
+    "vocabulary": [
+      {
+        "word": "soaked in",
+        "meaning": "浸润于；沉浸于（比喻）",
+        "context": "成长背景深受竞技游泳影响，不是始终浸在水中。",
+        "example": "She grew up soaked in the music her family played.",
+        "collocations": [
+          "soaked in the world of",
+          "grow up in an environment"
+        ]
+      }
+    ],
+    "translation": "Phelps 从十一岁起继续在教练 Bob Bowman 指导下刻苦训练。姐姐 Hilary 也是奥运水平的游泳运动员。他在竞技游泳的世界中成长，深深浸润其中。他每周游六天，每天约六小时。",
+    "evidenceTargetIds": [
+      "c07-s01-p069-01335-s007"
+    ],
+    "evidence": [
+      {
+        "quote": "Phelps continued to train hard under coach Bob Bowman from age eleven on. His older sister Hilary was an Olympic-level swimmer as well. He grew up soaked in the world of competitive swimming. Phelps swam about six hours a day for six days a week.",
+        "sentenceIds": [
+          "c07-s01-p069-01335-s005",
+          "c07-s01-p069-01335-s006",
+          "c07-s01-p069-01335-s007",
+          "c07-s01-p069-01335-s008"
+        ],
+        "sources": [
+          {
+            "pdfPage": 69,
+            "block": 1,
+            "bbox": [
+              76.99,
+              133.5,
+              535.01,
+              323.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "41854c3c6b71d475d20e0462c5b9e6ead3f57b8a5e378eb764962fc3e88f6497"
+  },
+  {
+    "id": "qe-c07-0018",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-024",
+    "parentQuestionId": "q-c07-009",
+    "chapterId": "c07",
+    "sectionId": "c07-s01",
+    "paragraphId": "c07-s01-p069-01335",
+    "readingUnitId": "c07-s01-p069-01335-r009-010",
+    "sentenceIds": [
+      "c07-s01-p069-01335-s009",
+      "c07-s01-p069-01335-s010"
+    ],
+    "passage": "He also lifted weights and stretched. Michael Phelps is supremely talented and full of grit.",
+    "prompt": "What activities does 'also' add to Phelps's swimming practice?",
+    "promptZh": "also 在游泳训练之外补充 Phelps 哪些活动？",
+    "options": [
+      "Only singing and acting.",
+      "Lifting weights and stretching.",
+      "Only watching competitions without exercise.",
+      "Training a gymnastics team instead of swimming."
+    ],
+    "optionsZh": [
+      "只有唱歌与表演。",
+      "举重与拉伸。",
+      "仅观看比赛不锻炼。",
+      "取代游泳而训练体操队。"
+    ],
+    "answer": 1,
+    "type": "细节",
+    "support": "explicit",
+    "analyses": [
+      "A 来自前面其他玩心例子，非本句。",
+      "B lifted weights and stretched 为两项并列动作。",
+      "C 不是仅观看。",
+      "D also 为补充，不表示取代游泳，也不改项目与角色。"
+    ],
+    "vocabulary": [
+      {
+        "word": "stretched",
+        "meaning": "做拉伸；伸展身体",
+        "context": "训练语境的动作，不是延长时间或夸大事实。",
+        "example": "The runners stretched before leaving the track.",
+        "collocations": [
+          "lifted weights and stretched",
+          "stretch after practice"
+        ]
+      }
+    ],
+    "translation": "他也举重和拉伸。Michael Phelps 天赋极高，而且充满坚毅。",
+    "evidenceTargetIds": [
+      "c07-s01-p069-01335-s009"
+    ],
+    "evidence": [
+      {
+        "quote": "He also lifted weights and stretched. Michael Phelps is supremely talented and full of grit.",
+        "sentenceIds": [
+          "c07-s01-p069-01335-s009",
+          "c07-s01-p069-01335-s010"
+        ],
+        "sources": [
+          {
+            "pdfPage": 69,
+            "block": 1,
+            "bbox": [
+              76.99,
+              133.5,
+              535.01,
+              323.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "c68f412824b431c35dde4dcf86d0cf640faeb8ac6378b2710e503059a5cf6a59"
+  },
+  {
+    "id": "qe-c07-0019",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-024",
+    "parentQuestionId": "q-c07-010",
+    "chapterId": "c07",
+    "sectionId": "c07-s01",
+    "paragraphId": "c07-s01-p069-03285",
+    "readingUnitId": "c07-s01-p069-03285-r001-004",
+    "sentenceIds": [
+      "c07-s01-p069-03285-s001",
+      "c07-s01-p069-03285-s002",
+      "c07-s01-p069-03285-s003",
+      "c07-s01-p069-03285-s004"
+    ],
+    "passage": "Simone Biles is another extraordinary athlete. She won gold medals in the all-around, vault, and floor events at 2016 Rio Olympics. Overall, she has won more Olympic medals than any other American gymnast. Like Phelps, Biles started training seriously at age eight.",
+    "prompt": "What does 'another' accomplish when Biles is introduced?",
+    "promptZh": "引入 Biles 时 another 有什么作用？",
+    "options": [
+      "It states she has replaced Phelps as his swimming coach.",
+      "It limits the topic to only one exceptional person.",
+      "It claims her biography is identical to Phelps's in every detail.",
+      "It adds a second exceptional-athlete example to the discussion."
+    ],
+    "optionsZh": [
+      "说她取代 Phelps 成为其游泳教练。",
+      "把主题限定为仅一位非凡人物。",
+      "声称她与 Phelps 每个生平细节相同。",
+      "为讨论补入另一位非凡运动员例子。"
+    ],
+    "answer": 3,
+    "type": "篇章结构",
+    "support": "explicit",
+    "analyses": [
+      "A 人物和运动项目都错配。",
+      "B another 正是增加一例。",
+      "C 类似投入不等于全传记相同。",
+      "D another extraordinary athlete 承接前面的 Phelps，随后描述体操表现；评价是书中人物安排，不是新排名研究。"
+    ],
+    "vocabulary": [
+      {
+        "word": "extraordinary",
+        "meaning": "非凡的；不同寻常的",
+        "context": "修饰本书所举运动员，不是说其他人无法拥有丰富人生。",
+        "example": "The account describes an extraordinary achievement.",
+        "collocations": [
+          "another extraordinary athlete",
+          "an extraordinary example"
+        ]
+      }
+    ],
+    "translation": "Simone Biles 是另一位非凡运动员。她在 2016 里约奥运的全能、跳马和自由体操项目赢得金牌。书中称，截至其叙述时，她赢得的奥运奖牌多于任何其他美国体操运动员。和 Phelps 一样，Biles 八岁开始认真训练。",
+    "evidenceTargetIds": [
+      "c07-s01-p069-03285-s001"
+    ],
+    "evidence": [
+      {
+        "quote": "Simone Biles is another extraordinary athlete. She won gold medals in the all-around, vault, and floor events at 2016 Rio Olympics. Overall, she has won more Olympic medals than any other American gymnast. Like Phelps, Biles started training seriously at age eight.",
+        "sentenceIds": [
+          "c07-s01-p069-03285-s001",
+          "c07-s01-p069-03285-s002",
+          "c07-s01-p069-03285-s003",
+          "c07-s01-p069-03285-s004"
+        ],
+        "sources": [
+          {
+            "pdfPage": 69,
+            "block": 2,
+            "bbox": [
+              76.99,
+              328.5,
+              535.01,
+              440.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "e8dd9712e622e3caa3ad80ecdb40d1d18ea1421dac3446b43d1c54c7b188df1f"
+  },
+  {
+    "id": "qe-c07-0020",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-024",
+    "parentQuestionId": "q-c07-010",
+    "chapterId": "c07",
+    "sectionId": "c07-s01",
+    "paragraphId": "c07-s01-p069-03285",
+    "readingUnitId": "c07-s01-p069-03285-r001-004",
+    "sentenceIds": [
+      "c07-s01-p069-03285-s001",
+      "c07-s01-p069-03285-s002",
+      "c07-s01-p069-03285-s003",
+      "c07-s01-p069-03285-s004"
+    ],
+    "passage": "Simone Biles is another extraordinary athlete. She won gold medals in the all-around, vault, and floor events at 2016 Rio Olympics. Overall, she has won more Olympic medals than any other American gymnast. Like Phelps, Biles started training seriously at age eight.",
+    "prompt": "What is the scope of the medal comparison made about Biles in the book?",
+    "promptZh": "本书对 Biles 奖牌的比较范围是什么？",
+    "options": [
+      "All athletes in every sport worldwide.",
+      "Only swimming gold medals from one event.",
+      "Olympic medals compared with other American gymnasts, at the book's narration time.",
+      "Every kind of award won by every gymnast in history."
+    ],
+    "optionsZh": [
+      "全球所有项目运动员。",
+      "仅一项游泳金牌。",
+      "在原书叙述时点，与其他美国体操运动员相比的奥运奖牌。",
+      "历史上所有体操运动员获得的所有种类奖励。"
+    ],
+    "answer": 2,
+    "type": "语气与范围",
+    "support": "explicit",
+    "analyses": [
+      "A American gymnast 限国别及项目，不能扩成全部运动。",
+      "B Olympic medals 不是只游泳金牌，前句三个金牌项目也非本句全部奖牌的同义。",
+      "C 保留国别、项目、奖项范围及书中时间口径，不冒称今天新核验排名。",
+      "D 未涵盖每种奖励或所有国籍。"
+    ],
+    "vocabulary": [
+      {
+        "word": "Overall",
+        "meaning": "总体上；综合来看",
+        "context": "这里由具体2016项目转到书中总体奥运奖牌比较，不删去美国体操范围。",
+        "example": "Overall, the group completed more tasks than expected.",
+        "collocations": [
+          "Overall, she has won",
+          "an overall comparison"
+        ]
+      }
+    ],
+    "translation": "Simone Biles 是另一位非凡运动员。她在 2016 里约奥运的全能、跳马和自由体操项目赢得金牌。书中称，截至其叙述时，她赢得的奥运奖牌多于任何其他美国体操运动员。和 Phelps 一样，Biles 八岁开始认真训练。",
+    "evidenceTargetIds": [
+      "c07-s01-p069-03285-s003"
+    ],
+    "evidence": [
+      {
+        "quote": "Simone Biles is another extraordinary athlete. She won gold medals in the all-around, vault, and floor events at 2016 Rio Olympics. Overall, she has won more Olympic medals than any other American gymnast. Like Phelps, Biles started training seriously at age eight.",
+        "sentenceIds": [
+          "c07-s01-p069-03285-s001",
+          "c07-s01-p069-03285-s002",
+          "c07-s01-p069-03285-s003",
+          "c07-s01-p069-03285-s004"
+        ],
+        "sources": [
+          {
+            "pdfPage": 69,
+            "block": 2,
+            "bbox": [
+              76.99,
+              328.5,
+              535.01,
+              440.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "709ccfeab8b9e0d824a5aac2f88069dd748e57da587ec80b38081bc266ac98a7"
+  },
+  {
+    "id": "qe-c07-0021",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-024",
+    "parentQuestionId": "q-c07-010",
+    "chapterId": "c07",
+    "sectionId": "c07-s01",
+    "paragraphId": "c07-s01-p069-03285",
+    "readingUnitId": "c07-s01-p069-03285-r001-004",
+    "sentenceIds": [
+      "c07-s01-p069-03285-s001",
+      "c07-s01-p069-03285-s002",
+      "c07-s01-p069-03285-s003",
+      "c07-s01-p069-03285-s004"
+    ],
+    "passage": "Simone Biles is another extraordinary athlete. She won gold medals in the all-around, vault, and floor events at 2016 Rio Olympics. Overall, she has won more Olympic medals than any other American gymnast. Like Phelps, Biles started training seriously at age eight.",
+    "prompt": "What similarity between Biles and Phelps is explicitly given?",
+    "promptZh": "原文明示 Biles 与 Phelps 哪项相似？",
+    "options": [
+      "Both began serious training at eight.",
+      "Both trained in swimming under Bowman at eleven.",
+      "Both had an older sister named Hilary.",
+      "Both trained exactly the same number of hours each week."
+    ],
+    "optionsZh": [
+      "两人都八岁开始认真训练。",
+      "两人都十一岁起随 Bowman 练游泳。",
+      "两人都有叫 Hilary 的姐姐。",
+      "两人每周训练时数完全相同。"
+    ],
+    "answer": 0,
+    "type": "细节",
+    "support": "explicit",
+    "analyses": [
+      "A Like Phelps...started...at age eight 明确比较点。",
+      "B 项目与教练细节只归 Phelps。",
+      "C 姐姐细节只在 Phelps 段出现，不能类推。",
+      "D 类似起始年龄不等于训练时数相同。"
+    ],
+    "vocabulary": [
+      {
+        "word": "Like Phelps",
+        "meaning": "像 Phelps 一样；与 Phelps 在所述方面相似",
+        "context": "限定句中明确的相似点，不把两个人全部生平合并。",
+        "example": "Like her teammate, she began practising at a young age.",
+        "collocations": [
+          "Like Phelps, Biles",
+          "started training at age eight"
+        ]
+      }
+    ],
+    "translation": "Simone Biles 是另一位非凡运动员。她在 2016 里约奥运的全能、跳马和自由体操项目赢得金牌。书中称，截至其叙述时，她赢得的奥运奖牌多于任何其他美国体操运动员。和 Phelps 一样，Biles 八岁开始认真训练。",
+    "evidenceTargetIds": [
+      "c07-s01-p069-03285-s004"
+    ],
+    "evidence": [
+      {
+        "quote": "Simone Biles is another extraordinary athlete. She won gold medals in the all-around, vault, and floor events at 2016 Rio Olympics. Overall, she has won more Olympic medals than any other American gymnast. Like Phelps, Biles started training seriously at age eight.",
+        "sentenceIds": [
+          "c07-s01-p069-03285-s001",
+          "c07-s01-p069-03285-s002",
+          "c07-s01-p069-03285-s003",
+          "c07-s01-p069-03285-s004"
+        ],
+        "sources": [
+          {
+            "pdfPage": 69,
+            "block": 2,
+            "bbox": [
+              76.99,
+              328.5,
+              535.01,
+              440.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "26e00a545ca46ddfa2543ed567e43c00b638333e0c6648906f5ba1a280c07a35"
+  },
+  {
+    "id": "qe-c07-0022",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-024",
+    "parentQuestionId": "q-c07-011",
+    "chapterId": "c07",
+    "sectionId": "c07-s01",
+    "paragraphId": "c07-s01-p069-03285",
+    "readingUnitId": "c07-s01-p069-03285-r005-007",
+    "sentenceIds": [
+      "c07-s01-p069-03285-s005",
+      "c07-s01-p069-03285-s006",
+      "c07-s01-p069-03285-s007"
+    ],
+    "passage": "She has enormous talent. Simone was homeschooled so that she could train twenty to thirty-two hours per week. She demonstrated unparalleled devotion to gymnastics.",
+    "prompt": "What does 'enormous talent' emphasise in Biles's description?",
+    "promptZh": "Biles 描述中的 enormous talent 强调什么？",
+    "options": [
+      "The physical size of the gymnastics equipment.",
+      "That no training or commitment was involved.",
+      "That she had exactly the same career as Phelps.",
+      "A very high degree of ability, alongside the later description of dedication."
+    ],
+    "optionsZh": [
+      "体操器械物理尺寸。",
+      "完全不涉及训练投入。",
+      "她的职业历程与 Phelps 完全相同。",
+      "很高的能力，同时后面还描述投入。"
+    ],
+    "answer": 3,
+    "type": "语境词义",
+    "support": "explicit",
+    "analyses": [
+      "A enormous 修饰 talent 的程度，不是器械大小。",
+      "B 后两句给训练时数和 devotion，不支持仅天赋无需练习。",
+      "C 没有传记所有细节相同。",
+      "D 保留天赋与投入可同时存在，不把人物评价当可精确测得的固定天赋分数。"
+    ],
+    "vocabulary": [
+      {
+        "word": "enormous",
+        "meaning": "巨大的；极高程度的",
+        "context": "这里是能力程度强调，不是某个可量化身体尺寸。",
+        "example": "The project required enormous patience.",
+        "collocations": [
+          "enormous talent",
+          "an enormous amount of effort"
+        ]
+      }
+    ],
+    "translation": "她天赋极高。Simone 接受居家教育，以便每周训练二十至三十二小时。她对体操展现了非凡的投入。",
+    "evidenceTargetIds": [
+      "c07-s01-p069-03285-s005"
+    ],
+    "evidence": [
+      {
+        "quote": "She has enormous talent. Simone was homeschooled so that she could train twenty to thirty-two hours per week. She demonstrated unparalleled devotion to gymnastics.",
+        "sentenceIds": [
+          "c07-s01-p069-03285-s005",
+          "c07-s01-p069-03285-s006",
+          "c07-s01-p069-03285-s007"
+        ],
+        "sources": [
+          {
+            "pdfPage": 69,
+            "block": 2,
+            "bbox": [
+              76.99,
+              328.5,
+              535.01,
+              440.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "922db7ac42ab9a0a40fd5aaeb5e5dddc08953310675f17d7b5aca13dad154a9a"
+  },
+  {
+    "id": "qe-c07-0023",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-024",
+    "parentQuestionId": "q-c07-011",
+    "chapterId": "c07",
+    "sectionId": "c07-s01",
+    "paragraphId": "c07-s01-p069-03285",
+    "readingUnitId": "c07-s01-p069-03285-r005-007",
+    "sentenceIds": [
+      "c07-s01-p069-03285-s005",
+      "c07-s01-p069-03285-s006",
+      "c07-s01-p069-03285-s007"
+    ],
+    "passage": "She has enormous talent. Simone was homeschooled so that she could train twenty to thirty-two hours per week. She demonstrated unparalleled devotion to gymnastics.",
+    "prompt": "What is the purpose of describing Biles's devotion as 'unparalleled'?",
+    "promptZh": "用 unparalleled 描述 Biles 的投入有什么作用？",
+    "options": [
+      "It proves mathematically that no one has ever trained longer.",
+      "It strongly emphasises her commitment to gymnastics.",
+      "It says she was interested in gymnastics only briefly.",
+      "It cancels the earlier statement that she has talent."
+    ],
+    "optionsZh": [
+      "数学证明无人训练更久。",
+      "强烈强调她对体操的投入。",
+      "说她只短暂对体操感兴趣。",
+      "取消前面她有天赋的说法。"
+    ],
+    "answer": 1,
+    "type": "语气与范围",
+    "support": "explicit",
+    "analyses": [
+      "A 强调性评价不是全人类精确排名测量。",
+      "B unparalleled devotion 承接居家教育以便大量训练的背景。",
+      "C 与 devotion 及周训练时数不符。",
+      "D 有天赋与有投入不冲突，不能视为撤回天赋评价。"
+    ],
+    "vocabulary": [
+      {
+        "word": "devotion",
+        "meaning": "投入；专注奉献",
+        "context": "这里是对体操的持续投入，不是宗教礼拜的特定义。",
+        "example": "Her devotion to the craft was evident in her careful practice.",
+        "collocations": [
+          "devotion to gymnastics",
+          "unparalleled devotion"
+        ]
+      }
+    ],
+    "translation": "她天赋极高。Simone 接受居家教育，以便每周训练二十至三十二小时。她对体操展现了非凡的投入。",
+    "evidenceTargetIds": [
+      "c07-s01-p069-03285-s007"
+    ],
+    "evidence": [
+      {
+        "quote": "She has enormous talent. Simone was homeschooled so that she could train twenty to thirty-two hours per week. She demonstrated unparalleled devotion to gymnastics.",
+        "sentenceIds": [
+          "c07-s01-p069-03285-s005",
+          "c07-s01-p069-03285-s006",
+          "c07-s01-p069-03285-s007"
+        ],
+        "sources": [
+          {
+            "pdfPage": 69,
+            "block": 2,
+            "bbox": [
+              76.99,
+              328.5,
+              535.01,
+              440.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "c61a444c1de094a4716009ac02cd31a12dfe2dd4c7a78e7711edfd8de0e6a55a"
+  },
+  {
+    "id": "qe-c07-0024",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-024",
+    "parentQuestionId": "q-c07-012",
+    "chapterId": "c07",
+    "sectionId": "c07-s01",
+    "paragraphId": "c07-s01-p069-04455",
+    "readingUnitId": "c07-s01-p069-04455-r001-004",
+    "sentenceIds": [
+      "c07-s01-p069-04455-s001",
+      "c07-s01-p069-04455-s002",
+      "c07-s01-p069-04455-s003",
+      "c07-s01-p069-04455-s004"
+    ],
+    "passage": "In addition to grueling training, very small details are crucial in both swimming and gymnastics. In swimming, a win or loss is literally a matter of a split second. In gymnastics, any fall or the slightest loss of balance could ruin your performance. In other words, they are extremely high-pressure sports.",
+    "prompt": "What does 'In addition to grueling training' add to the explanation?",
+    "promptZh": "In addition to grueling training 为说明补充什么？",
+    "options": [
+      "Grueling training is irrelevant once an athlete reaches the Olympics.",
+      "Only details matter, so training can be abandoned.",
+      "Tiny details are crucial as well as demanding training in both sports.",
+      "The two sports require identical techniques in every detail."
+    ],
+    "optionsZh": [
+      "到奥运后艰苦训练就无关。",
+      "只有细节重要，所以可放弃训练。",
+      "两项运动既需艰苦训练，也有至关重要的微小细节。",
+      "两项运动每个技术细节都相同。"
+    ],
+    "answer": 2,
+    "type": "逻辑关系",
+    "support": "explicit",
+    "analyses": [
+      "A addition 不表示原因素无关。",
+      "B 添加细节重要性，不排除训练。",
+      "C in addition to 与 both swimming and gymnastics 保留累加关系及两项目范围。",
+      "D 两者都重细节不等于技术完全相同。"
+    ],
+    "vocabulary": [
+      {
+        "word": "grueling",
+        "meaning": "艰苦的；令人疲惫的",
+        "context": "修饰训练强度，不直接证明每个人都受伤或必须照搬同样负荷。",
+        "example": "The team completed a grueling series of rehearsals.",
+        "collocations": [
+          "grueling training",
+          "in addition to training"
+        ]
+      }
+    ],
+    "translation": "除了艰苦训练，很小的细节对游泳与体操都至关重要。游泳胜负确实取决于分秒之间。体操中，任何跌落或最轻微的失衡，都可能毁掉表现。换句话说，这些运动压力极大。",
+    "evidenceTargetIds": [
+      "c07-s01-p069-04455-s001"
+    ],
+    "evidence": [
+      {
+        "quote": "In addition to grueling training, very small details are crucial in both swimming and gymnastics. In swimming, a win or loss is literally a matter of a split second. In gymnastics, any fall or the slightest loss of balance could ruin your performance. In other words, they are extremely high-pressure sports.",
+        "sentenceIds": [
+          "c07-s01-p069-04455-s001",
+          "c07-s01-p069-04455-s002",
+          "c07-s01-p069-04455-s003",
+          "c07-s01-p069-04455-s004"
+        ],
+        "sources": [
+          {
+            "pdfPage": 69,
+            "block": 3,
+            "bbox": [
+              76.99,
+              445.5,
+              535.01,
+              674.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "54fe79fd08b68a1ad9bcc0d173504e10a5edb75ab18986cd3a9444c1125d1fde"
+  },
+  {
+    "id": "qe-c07-0025",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-024",
+    "parentQuestionId": "q-c07-012",
+    "chapterId": "c07",
+    "sectionId": "c07-s01",
+    "paragraphId": "c07-s01-p069-04455",
+    "readingUnitId": "c07-s01-p069-04455-r001-004",
+    "sentenceIds": [
+      "c07-s01-p069-04455-s001",
+      "c07-s01-p069-04455-s002",
+      "c07-s01-p069-04455-s003",
+      "c07-s01-p069-04455-s004"
+    ],
+    "passage": "In addition to grueling training, very small details are crucial in both swimming and gymnastics. In swimming, a win or loss is literally a matter of a split second. In gymnastics, any fall or the slightest loss of balance could ruin your performance. In other words, they are extremely high-pressure sports.",
+    "prompt": "What does 'they' refer to in 'they are extremely high-pressure sports'?",
+    "promptZh": "they are extremely high-pressure sports 中 they 回指什么？",
+    "options": [
+      "Swimming and gymnastics.",
+      "Phelps and Biles as two individual people.",
+      "Every Olympic sport with no exceptions.",
+      "The tiny mistakes alone."
+    ],
+    "optionsZh": [
+      "游泳与体操。",
+      "作为两个个体的 Phelps 与 Biles。",
+      "毫无例外的所有奥运运动。",
+      "仅那些微小错误。"
+    ],
+    "answer": 0,
+    "type": "指代与逻辑",
+    "support": "explicit",
+    "analyses": [
+      "A sports 作表语，且本段两项目各有胜负细节，故回指项目。",
+      "B 人物不能在此直接等同 sports，属于指代错配。",
+      "C 当前范围为两个项目，不能扩大所有。",
+      "D 不是把错误称为运动；In other words 总结前面的压力说明。"
+    ],
+    "vocabulary": [
+      {
+        "word": "In other words",
+        "meaning": "换句话说；用另一种说法概括",
+        "context": "连接细节失误影响与高压概括，不是新添一个独立因果试验。",
+        "example": "The deadline is fixed. In other words, we cannot delay the task.",
+        "collocations": [
+          "In other words, they",
+          "in other words"
+        ]
+      }
+    ],
+    "translation": "除了艰苦训练，很小的细节对游泳与体操都至关重要。游泳胜负确实取决于分秒之间。体操中，任何跌落或最轻微的失衡，都可能毁掉表现。换句话说，这些运动压力极大。",
+    "evidenceTargetIds": [
+      "c07-s01-p069-04455-s004"
+    ],
+    "evidence": [
+      {
+        "quote": "In addition to grueling training, very small details are crucial in both swimming and gymnastics. In swimming, a win or loss is literally a matter of a split second. In gymnastics, any fall or the slightest loss of balance could ruin your performance. In other words, they are extremely high-pressure sports.",
+        "sentenceIds": [
+          "c07-s01-p069-04455-s001",
+          "c07-s01-p069-04455-s002",
+          "c07-s01-p069-04455-s003",
+          "c07-s01-p069-04455-s004"
+        ],
+        "sources": [
+          {
+            "pdfPage": 69,
+            "block": 3,
+            "bbox": [
+              76.99,
+              445.5,
+              535.01,
+              674.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "21e80949d63e75fdd4dda33672eae40e1bc09b031603bb52ec4537616a869dfb"
+  },
+  {
+    "id": "qe-c07-0026",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-024",
+    "parentQuestionId": "q-c07-013",
+    "chapterId": "c07",
+    "sectionId": "c07-s01",
+    "paragraphId": "c07-s01-p069-04455",
+    "readingUnitId": "c07-s01-p069-04455-r005-008",
+    "sentenceIds": [
+      "c07-s01-p069-04455-s005",
+      "c07-s01-p069-04455-s006",
+      "c07-s01-p069-04455-s007",
+      "c07-s01-p069-04455-s008"
+    ],
+    "passage": "A tiny mistake could cost you a medal. Moreover, the Olympic Games take place every four years, so the preparation period is extremely long. A moment can rob you of your dream and a decade of dedication. Despite achieving spectacular success, both Michael Phelps and Simone Biles suffered from anxiety and depression.",
+    "prompt": "What does 'cost you a medal' mean?",
+    "promptZh": "cost you a medal 是什么意思？",
+    "options": [
+      "Require a medal to be paid as an entry fee.",
+      "Make a medal financially cheaper to buy.",
+      "Guarantee the same mistake occurs in every competition.",
+      "Cause you to lose the chance of winning a medal."
+    ],
+    "optionsZh": [
+      "要求交一枚奖牌作报名费。",
+      "让奖牌买起来更便宜。",
+      "保证每次比赛发生相同错误。",
+      "使你失去赢奖牌的机会。"
+    ],
+    "answer": 3,
+    "type": "语境词义",
+    "support": "explicit",
+    "analyses": [
+      "A cost 在此是失去机会，不是实际付奖牌。",
+      "B 没有市场价格含义。",
+      "C could 表可能，且此句不说错误每场重复。",
+      "D tiny mistake could...强调小误差可能有重大结果，不自动等于每次失误必丢牌。"
+    ],
+    "vocabulary": [
+      {
+        "word": "cost you",
+        "meaning": "使你失去；让你付出……代价",
+        "context": "宾语 a medal 为可能错失的竞赛结果，不是支付单位。",
+        "example": "A missed deadline could cost you an opportunity.",
+        "collocations": [
+          "cost you a medal",
+          "a mistake could cost"
+        ]
+      }
+    ],
+    "translation": "一个小失误可能让你失去奖牌。而且，奥运会每四年举行一次，准备周期极长。一个瞬间就可能夺走梦想与十年的投入。尽管成就非凡，书中叙述 Michael Phelps 与 Simone Biles 都曾经历焦虑和抑郁。",
+    "evidenceTargetIds": [
+      "c07-s01-p069-04455-s005"
+    ],
+    "evidence": [
+      {
+        "quote": "A tiny mistake could cost you a medal. Moreover, the Olympic Games take place every four years, so the preparation period is extremely long. A moment can rob you of your dream and a decade of dedication. Despite achieving spectacular success, both Michael Phelps and Simone Biles suffered from anxiety and depression.",
+        "sentenceIds": [
+          "c07-s01-p069-04455-s005",
+          "c07-s01-p069-04455-s006",
+          "c07-s01-p069-04455-s007",
+          "c07-s01-p069-04455-s008"
+        ],
+        "sources": [
+          {
+            "pdfPage": 69,
+            "block": 3,
+            "bbox": [
+              76.99,
+              445.5,
+              535.01,
+              674.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "e91ab508fedd296e1cbc528e0b9e6d73356ebcdbc644e2236942d7971a9a6a36"
+  },
+  {
+    "id": "qe-c07-0027",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-024",
+    "parentQuestionId": "q-c07-013",
+    "chapterId": "c07",
+    "sectionId": "c07-s01",
+    "paragraphId": "c07-s01-p069-04455",
+    "readingUnitId": "c07-s01-p069-04455-r005-008",
+    "sentenceIds": [
+      "c07-s01-p069-04455-s005",
+      "c07-s01-p069-04455-s006",
+      "c07-s01-p069-04455-s007",
+      "c07-s01-p069-04455-s008"
+    ],
+    "passage": "A tiny mistake could cost you a medal. Moreover, the Olympic Games take place every four years, so the preparation period is extremely long. A moment can rob you of your dream and a decade of dedication. Despite achieving spectacular success, both Michael Phelps and Simone Biles suffered from anxiety and depression.",
+    "prompt": "Why does the author mention the four-year Olympic cycle?",
+    "promptZh": "作者为何提到奥运四年周期？",
+    "options": [
+      "To say athletes train only once every four years.",
+      "To explain the extremely long preparation period described in the passage.",
+      "To prove a small mistake is always harmless.",
+      "To say the two athletes began training four years after childhood."
+    ],
+    "optionsZh": [
+      "说运动员每四年只练一次。",
+      "解释段落所说准备周期极长。",
+      "证明小失误总无害。",
+      "说两位运动员童年后四年才开始训练。"
+    ],
+    "answer": 1,
+    "type": "逻辑关系",
+    "support": "explicit",
+    "analyses": [
+      "A 赛事周期不等于训练频率。",
+      "B so 引出 preparation period...long 的解释，按书中赛事叙述理解。",
+      "C 前句强调可能失牌，非无害。",
+      "D 未将四年与个人开训年龄相连，不添具体赛程日期。"
+    ],
+    "vocabulary": [
+      {
+        "word": "Moreover",
+        "meaning": "而且；此外还",
+        "context": "添加赛期间隔造成长期准备这一层理由，与前句小失误风险相加。",
+        "example": "The plan is expensive. Moreover, it requires more time.",
+        "collocations": [
+          "Moreover, the Olympic Games",
+          "moreover"
+        ]
+      }
+    ],
+    "translation": "一个小失误可能让你失去奖牌。而且，奥运会每四年举行一次，准备周期极长。一个瞬间就可能夺走梦想与十年的投入。尽管成就非凡，书中叙述 Michael Phelps 与 Simone Biles 都曾经历焦虑和抑郁。",
+    "evidenceTargetIds": [
+      "c07-s01-p069-04455-s006"
+    ],
+    "evidence": [
+      {
+        "quote": "A tiny mistake could cost you a medal. Moreover, the Olympic Games take place every four years, so the preparation period is extremely long. A moment can rob you of your dream and a decade of dedication. Despite achieving spectacular success, both Michael Phelps and Simone Biles suffered from anxiety and depression.",
+        "sentenceIds": [
+          "c07-s01-p069-04455-s005",
+          "c07-s01-p069-04455-s006",
+          "c07-s01-p069-04455-s007",
+          "c07-s01-p069-04455-s008"
+        ],
+        "sources": [
+          {
+            "pdfPage": 69,
+            "block": 3,
+            "bbox": [
+              76.99,
+              445.5,
+              535.01,
+              674.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "0b585bbd52f00c7d84adb34d928d70276b67b0fe97f2ebe285c8c63be926cd1a"
+  },
+  {
+    "id": "qe-c07-0028",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-024",
+    "parentQuestionId": "q-c07-013",
+    "chapterId": "c07",
+    "sectionId": "c07-s01",
+    "paragraphId": "c07-s01-p069-04455",
+    "readingUnitId": "c07-s01-p069-04455-r005-008",
+    "sentenceIds": [
+      "c07-s01-p069-04455-s005",
+      "c07-s01-p069-04455-s006",
+      "c07-s01-p069-04455-s007",
+      "c07-s01-p069-04455-s008"
+    ],
+    "passage": "A tiny mistake could cost you a medal. Moreover, the Olympic Games take place every four years, so the preparation period is extremely long. A moment can rob you of your dream and a decade of dedication. Despite achieving spectacular success, both Michael Phelps and Simone Biles suffered from anxiety and depression.",
+    "prompt": "How does the contrast between 'a moment' and 'a decade' support the argument?",
+    "promptZh": "a moment 与 a decade 的对比怎样服务论证？",
+    "options": [
+      "It says every decade contains only a single moment.",
+      "It proves the athletes spent exactly ten years on each event.",
+      "It highlights how a brief failure can jeopardise years of dedication and a dream.",
+      "It says past effort is literally removed from a person's history."
+    ],
+    "optionsZh": [
+      "说每个十年仅有一个瞬间。",
+      "证明运动员每项比赛恰好练十年。",
+      "突出短暂失误可能危及多年投入与梦想。",
+      "说过去努力被字面上从人生历史删除。"
+    ],
+    "answer": 2,
+    "type": "作者意图",
+    "support": "explicit",
+    "analyses": [
+      "A 不是时间单位的字面定义。",
+      "B decade 的修辞性反差不提供每人精确训练年表。",
+      "C 短与长对比加强高压环境的得失重大。",
+      "D rob 为失去成果机会的比喻，不能把历史经历视为真的被抹除，也不诊断运动员此刻状况。"
+    ],
+    "vocabulary": [
+      {
+        "word": "rob you of",
+        "meaning": "夺走；使你失去",
+        "context": "在此比喻瞬间失误危及梦想与长期投入的成果，不是具体抢劫事件。",
+        "example": "A sudden cancellation robbed them of the chance to perform.",
+        "collocations": [
+          "rob you of your dream",
+          "a decade of dedication"
+        ]
+      }
+    ],
+    "translation": "一个小失误可能让你失去奖牌。而且，奥运会每四年举行一次，准备周期极长。一个瞬间就可能夺走梦想与十年的投入。尽管成就非凡，书中叙述 Michael Phelps 与 Simone Biles 都曾经历焦虑和抑郁。",
+    "evidenceTargetIds": [
+      "c07-s01-p069-04455-s007"
+    ],
+    "evidence": [
+      {
+        "quote": "A tiny mistake could cost you a medal. Moreover, the Olympic Games take place every four years, so the preparation period is extremely long. A moment can rob you of your dream and a decade of dedication. Despite achieving spectacular success, both Michael Phelps and Simone Biles suffered from anxiety and depression.",
+        "sentenceIds": [
+          "c07-s01-p069-04455-s005",
+          "c07-s01-p069-04455-s006",
+          "c07-s01-p069-04455-s007",
+          "c07-s01-p069-04455-s008"
+        ],
+        "sources": [
+          {
+            "pdfPage": 69,
+            "block": 3,
+            "bbox": [
+              76.99,
+              445.5,
+              535.01,
+              674.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "2ad53a427239bf378b33a61e28c52a38258eae18694b6c439fcb5cc5d2159bd8"
+  },
+  {
+    "id": "qe-c07-0029",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-024",
+    "parentQuestionId": "q-c07-014",
+    "chapterId": "c07",
+    "sectionId": "c07-s01",
+    "paragraphId": "c07-s01-p069-04455",
+    "readingUnitId": "c07-s01-p069-04455-r009-011",
+    "sentenceIds": [
+      "c07-s01-p069-04455-s009",
+      "c07-s01-p069-04455-s010",
+      "c07-s01-p069-04455-s011"
+    ],
+    "passage": "They lost interest in the sports in which they excelled. Single-minded dedication is surely admirable, even virtuous. But, too much single-mindedness could rob you of the simple joy of just being able to jump, run, or swim.",
+    "prompt": "What distinction is made by saying the athletes lost interest in sports 'in which they excelled'?",
+    "promptZh": "说运动员对自己擅长的项目失去兴趣，区分了什么？",
+    "options": [
+      "High achievement and continued interest need not always coincide.",
+      "They had never been skilled in those sports.",
+      "Every athlete must lose interest after winning.",
+      "Loss of interest proves that all previous medals were invalid."
+    ],
+    "optionsZh": [
+      "高成就与持续兴趣未必总重合。",
+      "他们从未擅长这些项目。",
+      "每位运动员获胜后都必失兴趣。",
+      "失去兴趣证明此前奖牌全无效。"
+    ],
+    "answer": 0,
+    "type": "有限推断",
+    "support": "limited-inference",
+    "analyses": [
+      "A 对擅长项目仍可失去兴趣，有限说明技能成就与感受不总一致。",
+      "B excelled 明确过去擅长。",
+      "C 两人叙述不能推每位运动员必然如此。",
+      "D 兴趣变化不能推奖牌资格无效；不由此虚构当下心理状况。"
+    ],
+    "vocabulary": [
+      {
+        "word": "excelled",
+        "meaning": "表现出色；擅长",
+        "context": "说明项目中的成就，不保证每时每刻都享受。",
+        "example": "She excelled in the subject but later explored other interests.",
+        "collocations": [
+          "excel in a sport",
+          "sports in which they excelled"
+        ]
+      }
+    ],
+    "translation": "他们对自己最擅长的运动失去了兴趣。专心一意地投入当然值得钦佩，甚至可称为美德。但是，过度专注可能夺走仅仅能够跳跃、奔跑或游泳的简单快乐。",
+    "evidenceTargetIds": [
+      "c07-s01-p069-04455-s009"
+    ],
+    "evidence": [
+      {
+        "quote": "They lost interest in the sports in which they excelled. Single-minded dedication is surely admirable, even virtuous. But, too much single-mindedness could rob you of the simple joy of just being able to jump, run, or swim.",
+        "sentenceIds": [
+          "c07-s01-p069-04455-s009",
+          "c07-s01-p069-04455-s010",
+          "c07-s01-p069-04455-s011"
+        ],
+        "sources": [
+          {
+            "pdfPage": 69,
+            "block": 3,
+            "bbox": [
+              76.99,
+              445.5,
+              535.01,
+              674.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "37e73c7f38ee72e148a8db259d4bbe370b3a358c8ba657e067e9d2bb0d2c8ad7"
+  },
+  {
+    "id": "qe-c07-0030",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-024",
+    "parentQuestionId": "q-c07-014",
+    "chapterId": "c07",
+    "sectionId": "c07-s01",
+    "paragraphId": "c07-s01-p069-04455",
+    "readingUnitId": "c07-s01-p069-04455-r009-011",
+    "sentenceIds": [
+      "c07-s01-p069-04455-s009",
+      "c07-s01-p069-04455-s010",
+      "c07-s01-p069-04455-s011"
+    ],
+    "passage": "They lost interest in the sports in which they excelled. Single-minded dedication is surely admirable, even virtuous. But, too much single-mindedness could rob you of the simple joy of just being able to jump, run, or swim.",
+    "prompt": "Why acknowledge that single-minded dedication is admirable before saying 'But'?",
+    "promptZh": "But 之前为何承认专心投入值得钦佩？",
+    "options": [
+      "To withdraw every criticism of excessive focus.",
+      "To establish that all training is harmful.",
+      "To claim playfulness and effort can never coexist.",
+      "To recognise dedication's value before warning about too much single-mindedness."
+    ],
+    "optionsZh": [
+      "撤回对过度专注的所有批评。",
+      "认定所有训练都有害。",
+      "宣称玩心与努力绝不相容。",
+      "先承认投入价值，再提醒过度专注的代价。"
+    ],
+    "answer": 3,
+    "type": "逻辑关系",
+    "support": "explicit",
+    "analyses": [
+      "A But 后仍保留过度专注的警惕。",
+      "B admirable 不是反对全部训练。",
+      "C 未给相互排斥的必然规则。",
+      "D 让步式平衡区分 dedication 与 too much single-mindedness，could 仍为可能失去简单快乐。"
+    ],
+    "vocabulary": [
+      {
+        "word": "admirable",
+        "meaning": "值得钦佩的；可赞赏的",
+        "context": "正面评价投入本身，与随后警惕过度可以同时成立。",
+        "example": "Her patience in completing the difficult task was admirable.",
+        "collocations": [
+          "surely admirable",
+          "an admirable dedication"
+        ]
+      }
+    ],
+    "translation": "他们对自己最擅长的运动失去了兴趣。专心一意地投入当然值得钦佩，甚至可称为美德。但是，过度专注可能夺走仅仅能够跳跃、奔跑或游泳的简单快乐。",
+    "evidenceTargetIds": [
+      "c07-s01-p069-04455-s010"
+    ],
+    "evidence": [
+      {
+        "quote": "They lost interest in the sports in which they excelled. Single-minded dedication is surely admirable, even virtuous. But, too much single-mindedness could rob you of the simple joy of just being able to jump, run, or swim.",
+        "sentenceIds": [
+          "c07-s01-p069-04455-s009",
+          "c07-s01-p069-04455-s010",
+          "c07-s01-p069-04455-s011"
+        ],
+        "sources": [
+          {
+            "pdfPage": 69,
+            "block": 3,
+            "bbox": [
+              76.99,
+              445.5,
+              535.01,
+              674.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "d31605f61670fb3e5f288e12d5d005f6b43dacb748c32913f9600202905c37f3"
+  },
+  {
+    "id": "qe-c07-0031",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-024",
+    "parentQuestionId": "q-c07-015",
+    "chapterId": "c07",
+    "sectionId": "c07-s01",
+    "paragraphId": "c07-s01-p069-06795",
+    "readingUnitId": "c07-s01-p069-06795-r001-004",
+    "sentenceIds": [
+      "c07-s01-p069-06795-s001",
+      "c07-s01-p069-06795-s002",
+      "c07-s01-p069-06795-s003",
+      "c07-s01-p069-06795-s004"
+    ],
+    "passage": "In the world of elite athletes, practice, practice, and more practice is the name of the game. There is not much space for playfulness. Yet play and playfulness are critical for healthy child development. Alison Gopnik argues that humans have an extraordinarily long childhood, during which they can try out many things before they are forced to specialize in one area as adults.",
+    "prompt": "What does 'is the name of the game' mean in the elite-athlete passage?",
+    "promptZh": "精英运动员段落中 is the name of the game 是什么意思？",
+    "options": [
+      "It supplies the official title of a new sport.",
+      "It identifies repeated practice as the dominant requirement or priority.",
+      "It says all competition can be replaced by a naming game.",
+      "It guarantees medals to anyone who practises once."
+    ],
+    "optionsZh": [
+      "给一项新运动正式命名。",
+      "指出反复训练是占主导的要求或重点。",
+      "说所有竞赛可由起名游戏替代。",
+      "保证练一次就赢奖牌。"
+    ],
+    "answer": 1,
+    "type": "语境词义",
+    "support": "explicit",
+    "analyses": [
+      "A 不是赛事正式名称。",
+      "B idiom 表在这个领域最重要的事，重复 practice 加强。",
+      "C 非字面游戏替代竞赛。",
+      "D 反复训练不是一次，也非保证结果；Yet 后转向玩耍的发展价值。"
+    ],
+    "vocabulary": [
+      {
+        "word": "the name of the game",
+        "meaning": "关键；某领域最重要的事",
+        "context": "习语，不是给游戏起名字；此处表精英训练文化中的优先项。",
+        "example": "For this project, careful observation is the name of the game.",
+        "collocations": [
+          "practice is the name of the game",
+          "the name of the game"
+        ]
+      }
+    ],
+    "translation": "在精英运动员的世界里，训练、训练、再训练才是核心，几乎没有多少玩心的空间。然而，玩耍与玩心对儿童健康发展至关重要。Alison Gopnik 认为，人类拥有格外漫长的童年，可以先尝试许多事，之后才在成年时被迫专攻一个领域。",
+    "evidenceTargetIds": [
+      "c07-s01-p069-06795-s001"
+    ],
+    "evidence": [
+      {
+        "quote": "In the world of elite athletes, practice, practice, and more practice is the name of the game. There is not much space for playfulness. Yet play and playfulness are critical for healthy child development. Alison Gopnik argues that humans have an extraordinarily long childhood, during which they can try out many things before they are forced to specialize in one area as adults.",
+        "sentenceIds": [
+          "c07-s01-p069-06795-s001",
+          "c07-s01-p069-06795-s002",
+          "c07-s01-p069-06795-s003",
+          "c07-s01-p069-06795-s004"
+        ],
+        "sources": [
+          {
+            "pdfPage": 69,
+            "block": 4,
+            "bbox": [
+              76.99,
+              679.5,
+              535,
+              713.52
+            ]
+          },
+          {
+            "pdfPage": 70,
+            "block": 0,
+            "bbox": [
+              76.99,
+              75,
+              535,
+              167.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "72fb3bd28729c27143ff02261d17439ea95ee1396589326722ba12e3cd2c2146"
+  },
+  {
+    "id": "qe-c07-0032",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-024",
+    "parentQuestionId": "q-c07-015",
+    "chapterId": "c07",
+    "sectionId": "c07-s01",
+    "paragraphId": "c07-s01-p069-06795",
+    "readingUnitId": "c07-s01-p069-06795-r001-004",
+    "sentenceIds": [
+      "c07-s01-p069-06795-s001",
+      "c07-s01-p069-06795-s002",
+      "c07-s01-p069-06795-s003",
+      "c07-s01-p069-06795-s004"
+    ],
+    "passage": "In the world of elite athletes, practice, practice, and more practice is the name of the game. There is not much space for playfulness. Yet play and playfulness are critical for healthy child development. Alison Gopnik argues that humans have an extraordinarily long childhood, during which they can try out many things before they are forced to specialize in one area as adults.",
+    "prompt": "What sequence does Gopnik's account of childhood emphasise?",
+    "promptZh": "Gopnik 关于童年的说法强调什么顺序？",
+    "options": [
+      "Specialisation must precede every opportunity to explore.",
+      "Adults never specialise in any area.",
+      "A long period of trying many things comes before adult specialisation.",
+      "All children must specialise in the same sport at eight."
+    ],
+    "optionsZh": [
+      "专攻必须早于一切探索机会。",
+      "成年人从不专攻任何领域。",
+      "先有较长尝试多事物的时期，再成年专门化。",
+      "所有孩子必须八岁专攻同种运动。"
+    ],
+    "answer": 2,
+    "type": "观点归属",
+    "support": "explicit",
+    "analyses": [
+      "A 把 before 关系反转。",
+      "B 原句说成年时专门化。",
+      "C during childhood...try many things before...as adults 保留序列和 Gopnik 观点归属。",
+      "D 没统一运动或年龄要求；这是所引解释，不把人物故事变成对所有孩子的训练处方。"
+    ],
+    "vocabulary": [
+      {
+        "word": "specialize",
+        "meaning": "专攻；集中于某一领域",
+        "context": "与童年较广探索对照，不是说成人不能再有其他兴趣。",
+        "example": "She decided to specialize in one area after exploring several subjects.",
+        "collocations": [
+          "specialize in one area",
+          "before specializing"
+        ]
+      }
+    ],
+    "translation": "在精英运动员的世界里，训练、训练、再训练才是核心，几乎没有多少玩心的空间。然而，玩耍与玩心对儿童健康发展至关重要。Alison Gopnik 认为，人类拥有格外漫长的童年，可以先尝试许多事，之后才在成年时被迫专攻一个领域。",
+    "evidenceTargetIds": [
+      "c07-s01-p069-06795-s004"
+    ],
+    "evidence": [
+      {
+        "quote": "In the world of elite athletes, practice, practice, and more practice is the name of the game. There is not much space for playfulness. Yet play and playfulness are critical for healthy child development. Alison Gopnik argues that humans have an extraordinarily long childhood, during which they can try out many things before they are forced to specialize in one area as adults.",
+        "sentenceIds": [
+          "c07-s01-p069-06795-s001",
+          "c07-s01-p069-06795-s002",
+          "c07-s01-p069-06795-s003",
+          "c07-s01-p069-06795-s004"
+        ],
+        "sources": [
+          {
+            "pdfPage": 69,
+            "block": 4,
+            "bbox": [
+              76.99,
+              679.5,
+              535,
+              713.52
+            ]
+          },
+          {
+            "pdfPage": 70,
+            "block": 0,
+            "bbox": [
+              76.99,
+              75,
+              535,
+              167.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "ab6cab2e9d028bde08afc490e970f7045654c5993e28ba6f5af7fe5d47a99d8d"
   }
 ]
