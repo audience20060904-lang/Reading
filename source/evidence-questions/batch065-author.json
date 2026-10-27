@@ -1,0 +1,983 @@
+{
+  "schemaVersion": 1,
+  "id": "evidence-065",
+  "status": "authored",
+  "evidenceRule": "frozen-target-sentence",
+  "questions": [
+    {
+      "order": 1,
+      "prompt": "What surprised the narrator the next morning?",
+      "promptZh": "第二天早晨什么让叙述者惊讶？",
+      "options": [
+        "He had spent the night somewhere in Wisconsin.",
+        "He had stayed in Chicago all night and never left the city.",
+        "He had arrived at the YMCA before attending the party.",
+        "He had gone to Wisconsin only after returning to the YMCA."
+      ],
+      "optionsZh": [
+        "他那晚竟在威斯康星某处。",
+        "他整晚留在芝加哥，从未离开该市。",
+        "他参加聚会前就抵达YMCA。",
+        "他回YMCA后才去威斯康星。"
+      ],
+      "answer": 0,
+      "type": "指代",
+      "support": "explicit",
+      "analyses": [
+        "A It turned out...Wisconsin紧接I could not believe it，点明惊讶对象。",
+        "B 原文发现夜间位置在Wisconsin，不能改成整夜在芝加哥。",
+        "C YMCA是第二天回到的住处，不是此处意外发现的地点。",
+        "D Wisconsin是前一晚的地点，不是回YMCA后的新行程。"
+      ],
+      "vocabulary": [
+        {
+          "word": "believe",
+          "meaning": "相信；认为某事可能真实",
+          "context": "couldn't believe it在此表达惊讶，并非否认发生过。",
+          "example": "He could hardly believe where he had spent the night.",
+          "collocations": [
+            "I couldn’t believe it",
+            "It turned out"
+          ]
+        }
+      ],
+      "evidenceQuote": "I fell asleep at the party house. The next morning, one of the people I’d met gave me a ride back to the downtown YMCA where I was staying. It turned out I had been somewhere in Wisconsin that night! I couldn’t believe it."
+    },
+    {
+      "order": 2,
+      "prompt": "What dimension do some vacations emphasise?",
+      "promptZh": "有些假期更重视哪个维度？",
+      "options": [
+        "Only salary.",
+        "An identical cruise for everyone.",
+        "Eliminating all family history.",
+        "Meaning."
+      ],
+      "optionsZh": [
+        "只有薪水。",
+        "所有人完全相同的游轮。",
+        "抹除全部家族历史。",
+        "意义。"
+      ],
+      "answer": 3,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A 薪水不是这句话的主题。",
+        "B some不能改成everyone。",
+        "C 后文恰提了解家族传承。",
+        "D Some vacations are more about meaning直接指出。"
+      ],
+      "vocabulary": [
+        {
+          "word": "meaning",
+          "meaning": "意义；体验被认为有价值的方面",
+          "context": "some限定部分假期，未否定其他假期的乐趣。",
+          "example": "Some journeys are more about meaning than relaxation.",
+          "collocations": [
+            "more about meaning",
+            "Some vacations"
+          ]
+        }
+      ],
+      "evidenceQuote": "Some vacations are more about meaning. In Jonathan Safran Foer’s Everything Is Illuminated, the main character (also named Jonathan Safran Foer) travels to Ukraine in search of Augustine, a woman who saved his grandfather’s life during World War II. The main purpose of such a trip is to learn more about your family’s heritage: where and how they lived, what happened over the course of their lives. By learning about your family’s heritage, you learn about yourself."
+    },
+    {
+      "order": 3,
+      "prompt": "Why does the fictional protagonist travel to Ukraine?",
+      "promptZh": "小说主人公为什么去乌克兰？",
+      "options": [
+        "To find his grandfather himself after a recent journey.",
+        "To interview the author of an unrelated travel survey.",
+        "To find the woman who saved his grandfather during World War II.",
+        "To find the woman who saved his father during World War II."
+      ],
+      "optionsZh": [
+        "寻找近期旅行后的祖父本人。",
+        "采访一项无关旅行调查的作者。",
+        "寻找二战中救过祖父的女子。",
+        "寻找二战中救过父亲的女子。"
+      ],
+      "answer": 2,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A 寻找对象是Augustine，且发生事件的时间为二战。",
+        "B 这是小说情节，不是采访调查作者。",
+        "C Augustine救的是grandfather，寻找她是小说主人公的旅程。",
+        "D 将祖父错换成父亲。"
+      ],
+      "vocabulary": [
+        {
+          "word": "heritage",
+          "meaning": "传承；家庭历史与文化背景",
+          "context": "后文用family's heritage解释此类旅程的意义。",
+          "example": "She travelled to learn about her family's heritage.",
+          "collocations": [
+            "family’s heritage",
+            "in search of Augustine"
+          ]
+        }
+      ],
+      "evidenceQuote": "Some vacations are more about meaning. In Jonathan Safran Foer’s Everything Is Illuminated, the main character (also named Jonathan Safran Foer) travels to Ukraine in search of Augustine, a woman who saved his grandfather’s life during World War II. The main purpose of such a trip is to learn more about your family’s heritage: where and how they lived, what happened over the course of their lives. By learning about your family’s heritage, you learn about yourself."
+    },
+    {
+      "order": 4,
+      "prompt": "Which example of volunteer tourism is paired correctly with its location?",
+      "promptZh": "哪项志愿旅行与地点配对正确？",
+      "options": [
+        "Wildlife conservation in Ukraine.",
+        "Wildlife conservation in Kenya.",
+        "Medical volunteerism in Nepal.",
+        "Women's education in Guatemala."
+      ],
+      "optionsZh": [
+        "乌克兰的野生动物保护。",
+        "肯尼亚的野生动物保护。",
+        "尼泊尔的医疗志愿服务。",
+        "危地马拉的女性教育。"
+      ],
+      "answer": 1,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A Ukraine属于前一文学故事。",
+        "B 原句将wildlife conservation与Kenya配对。",
+        "C Nepal对应女性教育。",
+        "D Guatemala对应医疗志愿服务。"
+      ],
+      "vocabulary": [
+        {
+          "word": "conservation",
+          "meaning": "保护；维护自然及生物资源",
+          "context": "此处指野生动物保护，是志愿旅游的一个例子。",
+          "example": "They supported wildlife conservation during the trip.",
+          "collocations": [
+            "wildlife conservation",
+            "volunteer tourism"
+          ]
+        }
+      ],
+      "evidenceQuote": "Others opt for volunteer tourism, such as trips to support women’s education in Nepal, medical volunteerism in Guatemala, or wildlife conservation in Kenya. Instead of a typical spring break beach trip, some college students volunteer for Habitat for Humanity. Just like a job, vacation can be catered toward increasing happiness, meaning, or psychological richness."
+    },
+    {
+      "order": 5,
+      "prompt": "What alternative to a beach trip do some college students choose?",
+      "promptZh": "一些大学生以什么代替海滩春假？",
+      "options": [
+        "Volunteering for Habitat for Humanity.",
+        "A compulsory medical posting in every country.",
+        "A luxury cruise with all classmates.",
+        "Working as professional baseball players."
+      ],
+      "optionsZh": [
+        "为Habitat for Humanity做志愿者。",
+        "在每个国家强制做医疗派驻。",
+        "与所有同学乘豪华游轮。",
+        "担任职业棒球运动员。"
+      ],
+      "answer": 0,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A instead of beach trip及volunteer for明确对照。",
+        "B 没有对所有学生的强制要求。",
+        "C 不符合所述替代活动。",
+        "D 球赛属于先前回忆。"
+      ],
+      "vocabulary": [
+        {
+          "word": "volunteer",
+          "meaning": "做志愿者；自愿提供帮助",
+          "context": "此处是一些大学生的选择，不是全部学生的义务。",
+          "example": "Some students volunteer during spring break.",
+          "collocations": [
+            "volunteer for Habitat for Humanity",
+            "spring break"
+          ]
+        }
+      ],
+      "evidenceQuote": "Others opt for volunteer tourism, such as trips to support women’s education in Nepal, medical volunteerism in Guatemala, or wildlife conservation in Kenya. Instead of a typical spring break beach trip, some college students volunteer for Habitat for Humanity. Just like a job, vacation can be catered toward increasing happiness, meaning, or psychological richness."
+    },
+    {
+      "order": 6,
+      "prompt": "Which quality does the first example attribute to some friends?",
+      "promptZh": "第一个朋友例子给一些朋友什么特点？",
+      "options": [
+        "They are described only as useful in practical tasks.",
+        "They necessarily offer every type of support.",
+        "They make people avoid unfamiliar ideas.",
+        "They are enjoyable to spend time with."
+      ],
+      "optionsZh": [
+        "他们只被描述为能完成实际任务。",
+        "他们必然提供每一种支持。",
+        "他们使人回避陌生想法。",
+        "与他们相处很开心。"
+      ],
+      "answer": 3,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A helpful是随后另一些朋友的描述，不能删除本句的乐趣。",
+        "B some friends没有保证每种支持。",
+        "C 句子没有让人回避新想法的说法。",
+        "D fun to be with描述相处的愉快。"
+      ],
+      "vocabulary": [
+        {
+          "word": "fun",
+          "meaning": "有趣的；令人愉快的",
+          "context": "fun to be with描述与朋友相处时的体验。",
+          "example": "Some friends are fun to be with.",
+          "collocations": [
+            "fun to be with",
+            "Some friends"
+          ]
+        }
+      ],
+      "evidenceQuote": "In sum, you can evaluate pretty much anything in terms of happiness, meaning, and psychological richness. Academic courses can be happy, meaningful, or psychologically rich courses. Some friends are fun to be with. Other friends are useful and helpful."
+    },
+    {
+      "order": 7,
+      "prompt": "What additional quality is attributed to other friends?",
+      "promptZh": "另一些朋友被赋予什么特点？",
+      "options": [
+        "They are only useful if they share every opinion.",
+        "They are guaranteed to make all courses easy.",
+        "They are useful and helpful.",
+        "They never offer support."
+      ],
+      "optionsZh": [
+        "只有意见完全一致才有用。",
+        "保证使全部课程变简单。",
+        "他们有用并乐于帮助。",
+        "他们从不提供支持。"
+      ],
+      "answer": 2,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A 没有意见一致的条件。",
+        "B 没有课程难度保证。",
+        "C useful and helpful直接列出。",
+        "D 与helpful相反。"
+      ],
+      "vocabulary": [
+        {
+          "word": "helpful",
+          "meaning": "有帮助的；乐于提供帮助的",
+          "context": "这里是友情中的一种可能价值，不意味着朋友只能提供这一价值。",
+          "example": "A helpful friend can support someone through difficulty.",
+          "collocations": [
+            "useful and helpful",
+            "Other friends"
+          ]
+        }
+      ],
+      "evidenceQuote": "In sum, you can evaluate pretty much anything in terms of happiness, meaning, and psychological richness. Academic courses can be happy, meaningful, or psychologically rich courses. Some friends are fun to be with. Other friends are useful and helpful."
+    },
+    {
+      "order": 8,
+      "prompt": "What does 'expand your horizons' mean here?",
+      "promptZh": "这里expand your horizons是什么意思？",
+      "options": [
+        "Reduce the range of ideas you encounter.",
+        "Broaden your outlook and experience.",
+        "Make the physical skyline longer.",
+        "Guarantee agreement with every stranger."
+      ],
+      "optionsZh": [
+        "减少接触的思想范围。",
+        "拓宽眼界与经历。",
+        "使物理地平线变长。",
+        "保证同所有陌生人意见一致。"
+      ],
+      "answer": 1,
+      "type": "语境词义",
+      "support": "explicit",
+      "analyses": [
+        "A reduce与expand相反。",
+        "B expand horizons是拓宽视野的比喻。",
+        "C 不能机械当作改变天际线。",
+        "D 拓宽视野不保证一致意见。"
+      ],
+      "vocabulary": [
+        {
+          "word": "horizons",
+          "meaning": "眼界；视野",
+          "context": "在本句是比喻义，指认识和体验范围。",
+          "example": "Travel and conversation can expand your horizons.",
+          "collocations": [
+            "expand your horizons",
+            "Other friends"
+          ]
+        }
+      ],
+      "evidenceQuote": "Other friends help you expand your horizons. Some places, like Disneyland, help us forget all our troubles and be happy. Some places, such as Jerusalem and Rome, help us remember the past and think about the meaning of life. Other places encourage us to explore and gain psychological richness."
+    },
+    {
+      "order": 9,
+      "prompt": "What example does the author give for a place associated with happiness?",
+      "promptZh": "作者举什么地方作为与快乐相关的例子？",
+      "options": [
+        "Disneyland.",
+        "Jerusalem.",
+        "Rome.",
+        "A place identified only as a historic capital."
+      ],
+      "optionsZh": [
+        "迪士尼乐园。",
+        "耶路撒冷。",
+        "罗马。",
+        "仅被描述为历史古都的地方。"
+      ],
+      "answer": 0,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A like Disneyland连接忘却烦恼与快乐的例子。",
+        "B Jerusalem在下句用于记起过去和思考意义。",
+        "C Rome也与对过去和意义的思考相连。",
+        "D 本句给出具体乐园名称，不是仅用历史古都描述。"
+      ],
+      "vocabulary": [
+        {
+          "word": "troubles",
+          "meaning": "烦恼；令人忧虑的事情",
+          "context": "forget all our troubles是作者对示例的表达，不保证每个人都没有困难。",
+          "example": "A pleasant outing can help people temporarily forget their troubles.",
+          "collocations": [
+            "forget all our troubles",
+            "be happy"
+          ]
+        }
+      ],
+      "evidenceQuote": "Other friends help you expand your horizons. Some places, like Disneyland, help us forget all our troubles and be happy. Some places, such as Jerusalem and Rome, help us remember the past and think about the meaning of life. Other places encourage us to explore and gain psychological richness."
+    },
+    {
+      "order": 10,
+      "prompt": "What do other places encourage in the author's framework?",
+      "promptZh": "按作者框架，其他地方鼓励什么？",
+      "options": [
+        "Only repeating a fixed routine.",
+        "Forgetting all previous knowledge permanently.",
+        "Identical emotional responses from every visitor.",
+        "Exploration and psychological richness."
+      ],
+      "optionsZh": [
+        "只能重复固定惯例。",
+        "永久忘掉所有既有知识。",
+        "每个访客有完全相同情绪。",
+        "探索并获得心理丰富。"
+      ],
+      "answer": 3,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A 探索不等于只能固定重复。",
+        "B 没有永久遗忘的说法。",
+        "C 没有全体相同反应的证据。",
+        "D encourage us to explore and gain psychological richness明确。"
+      ],
+      "vocabulary": [
+        {
+          "word": "explore",
+          "meaning": "探索；主动接触并了解",
+          "context": "此处与心理丰富相连，不等于必然获得幸福。",
+          "example": "A new place can encourage people to explore.",
+          "collocations": [
+            "encourage us to explore",
+            "psychological richness"
+          ]
+        }
+      ],
+      "evidenceQuote": "Other friends help you expand your horizons. Some places, like Disneyland, help us forget all our troubles and be happy. Some places, such as Jerusalem and Rome, help us remember the past and think about the meaning of life. Other places encourage us to explore and gain psychological richness."
+    },
+    {
+      "order": 11,
+      "prompt": "How is New York presented in the passage?",
+      "promptZh": "段落怎样呈现纽约？",
+      "options": [
+        "As a place where no one can pursue any goal.",
+        "As a city where the narrator measured every visitor's mood.",
+        "Through an attributed song lyric suggesting inspiration.",
+        "As the location of an experiment proving universal success."
+      ],
+      "optionsZh": [
+        "作为任何人都不能追求目标的地方。",
+        "作为作者测量每位访客情绪的城市。",
+        "通过注明出处的歌词表现启发感。",
+        "作为证明普遍成功的实验地点。"
+      ],
+      "answer": 2,
+      "type": "证据范围",
+      "support": "explicit",
+      "analyses": [
+        "A 引述意象并非不能追求。",
+        "B 没有访客情绪测量。",
+        "C according to Jay-Z and Alicia Keys表明歌曲引述。",
+        "D 歌词不能当全员成功实验。"
+      ],
+      "vocabulary": [
+        {
+          "word": "inspire",
+          "meaning": "启发；激发某人的想法或行动",
+          "context": "歌词中的形象化措辞不是对所有访客的实证保证。",
+          "example": "Bright city streets can inspire a visitor.",
+          "collocations": [
+            "big lights will inspire you",
+            "according to"
+          ]
+        }
+      ],
+      "evidenceQuote": "New York, for instance, is where “there’s nothing you can’t do…these streets will make you feel brand-new, big lights will inspire you,” according to Jay-Z and Alicia Keys in “Empire State of Mind.” When you know what you want to maximize (happiness, meaning, or richness), you can start structuring your life and curating experiences that align your goals."
+    },
+    {
+      "order": 12,
+      "prompt": "What new path to a good life does the author say the book showcases?",
+      "promptZh": "作者说本书展示了哪条新的人生道路？",
+      "options": [
+        "A guarantee of permanent happiness.",
+        "Psychological richness.",
+        "Wealth as the only criterion.",
+        "A life without any change."
+      ],
+      "optionsZh": [
+        "永久快乐的保证。",
+        "心理丰富。",
+        "财富是唯一标准。",
+        "完全没有变化的人生。"
+      ],
+      "answer": 1,
+      "type": "主旨",
+      "support": "explicit",
+      "analyses": [
+        "A 后句明确不主张其总比快乐人生好。",
+        "B 冒号后明确是psychological richness。",
+        "C 原句未以财富为唯一标准。",
+        "D 丰富与多样体验相连。"
+      ],
+      "vocabulary": [
+        {
+          "word": "showcased",
+          "meaning": "展示；突出呈现",
+          "context": "这里表示作者在书中呈现一种道路，不是证明它对所有人最好。",
+          "example": "The book showcased another path to a good life.",
+          "collocations": [
+            "showcased a new path",
+            "psychological richness"
+          ]
+        }
+      ],
+      "evidenceQuote": "In this book, I have showcased a new path to a good life: psychological richness. To be clear, I am not arguing that a psychologically rich life is the best life, or that it’s always better than a happy life or a meaningful life. Rather, I am arguing that prioritizing psychological richness is one way to lead a good life."
+    },
+    {
+      "order": 13,
+      "prompt": "What possibility does the Goldmund example illustrate?",
+      "promptZh": "Goldmund例子说明什么可能？",
+      "options": [
+        "A life rich in varied, perspective-changing experiences may still be good even without happiness or meaning.",
+        "Happiness and meaning are impossible in every rich life.",
+        "Only literary characters can have a good life.",
+        "Every difficult experience automatically improves everyone's life."
+      ],
+      "optionsZh": [
+        "即使缺少快乐或意义，多样且改变视角的丰富经历仍可能构成好人生。",
+        "每个丰富人生都不可能有快乐和意义。",
+        "只有文学人物能过好人生。",
+        "每个困难经历都会自动改善每个人的人生。"
+      ],
+      "answer": 0,
+      "type": "作者观点",
+      "support": "explicit",
+      "analyses": [
+        "A even if...can still给作者提出的可能道路。",
+        "B 后文说可同时受益于多种好人生。",
+        "C 文学人物为例，不是唯一群体。",
+        "D 未保证所有困难都改善人生。"
+      ],
+      "vocabulary": [
+        {
+          "word": "perspective-changing",
+          "meaning": "改变视角的；使人以不同方式理解事物的",
+          "context": "与多样、有趣并列，作为作者所描述的经历特征。",
+          "example": "A challenging conversation can be perspective-changing.",
+          "collocations": [
+            "diverse, interesting",
+            "perspective-changing experiences"
+          ]
+        }
+      ],
+      "evidenceQuote": "Like Goldmund in Narcissus and Goldmund, even if you aren’t happy and don’t find your life to be meaningful, you can still lead a good life if you fill it with diverse, interesting, and perspective-changing experiences. And we’ve seen it is possible to benefit from more than one type of good life. For instance, Oliver Sacks seemed to be very happy at the end of his life. His life was also meaningful, since he touched and changed many patients’ and caretakers’ lives, and he certainly had many stories to tell."
+    },
+    {
+      "order": 14,
+      "prompt": "How certain is the author's judgement of Oliver Sacks's happiness?",
+      "promptZh": "作者对Oliver Sacks快乐的判断有多确定？",
+      "options": [
+        "He was certainly happy at every moment of his life.",
+        "He seemed happy only at the beginning of his life.",
+        "He was known to be unhappy at the end of his life.",
+        "He seemed to be very happy at the end of his life."
+      ],
+      "optionsZh": [
+        "他人生每时每刻都确定快乐。",
+        "他似乎只在人生早期快乐。",
+        "已知他晚年不快乐。",
+        "他晚年似乎很快乐。"
+      ],
+      "answer": 3,
+      "type": "证据范围",
+      "support": "explicit",
+      "analyses": [
+        "A 似乎不等于每时每刻均被证实。",
+        "B end不能换成beginning，也没有only。",
+        "C 与seemed very happy相反。",
+        "D seemed及at the end限定判断与时间。"
+      ],
+      "vocabulary": [
+        {
+          "word": "seemed",
+          "meaning": "似乎；基于所见作保留判断",
+          "context": "表述推断而非直接测量全部内心状态。",
+          "example": "Sacks seemed happy at the end of his life.",
+          "collocations": [
+            "seemed to be very happy",
+            "at the end of his life"
+          ]
+        }
+      ],
+      "evidenceQuote": "Like Goldmund in Narcissus and Goldmund, even if you aren’t happy and don’t find your life to be meaningful, you can still lead a good life if you fill it with diverse, interesting, and perspective-changing experiences. And we’ve seen it is possible to benefit from more than one type of good life. For instance, Oliver Sacks seemed to be very happy at the end of his life. His life was also meaningful, since he touched and changed many patients’ and caretakers’ lives, and he certainly had many stories to tell."
+    },
+    {
+      "order": 15,
+      "prompt": "What does the author conclude about Sacks's life?",
+      "promptZh": "作者对Sacks的人生作什么总结？",
+      "options": [
+        "It shows that every person's life has the same balance.",
+        "It had no meaningful experiences.",
+        "It had all three forms of a good life.",
+        "It had only happiness and no other dimension."
+      ],
+      "optionsZh": [
+        "证明每个人的人生比例相同。",
+        "没有有意义的经历。",
+        "它拥有三种好人生形式。",
+        "只有快乐，没有其他维度。"
+      ],
+      "answer": 2,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A 个案不证明所有人相同。",
+        "B 与meaningful相反。",
+        "C all three forms给作者的总结。",
+        "D 前段也谈意义与故事。"
+      ],
+      "vocabulary": [
+        {
+          "word": "after all",
+          "meaning": "毕竟；综合前文后的结论",
+          "context": "这里承接对不同人生维度的描述。",
+          "example": "The author concludes that he had all three forms after all.",
+          "collocations": [
+            "all three forms",
+            "after all"
+          ]
+        }
+      ],
+      "evidenceQuote": "Sacks had all three forms of a good life after all. Linda, the taxi driver we met in Chapter 4, seems to have had it all, too. She is enjoying her retirement, having made a difference in the world over the span of a life filled with many unusual experiences."
+    },
+    {
+      "order": 16,
+      "prompt": "What does the question about other paths leave open?",
+      "promptZh": "关于其他路径的问句保留什么可能？",
+      "options": [
+        "Only three fixed paths can exist under any circumstances.",
+        "There may be additional ways to a good life.",
+        "No research can ever investigate good lives.",
+        "The existing dimensions have already been disproved."
+      ],
+      "optionsZh": [
+        "无论什么情况都只能存在固定三条道路。",
+        "可能还有其他好人生道路。",
+        "任何研究都无法探讨好人生。",
+        "已有维度已被推翻。"
+      ],
+      "answer": 1,
+      "type": "作者意图",
+      "support": "explicit",
+      "analyses": [
+        "A 与问其他路径的开放态度相反。",
+        "B 问句对其他路径保持开放。",
+        "C 后文讨论实证研究。",
+        "D 没说已有维度被否定。"
+      ],
+      "vocabulary": [
+        {
+          "word": "wonder",
+          "meaning": "思考；对某问题感到好奇",
+          "context": "这里提出可能性，不是声称第四维已经确认。",
+          "example": "It is fair to wonder whether more paths exist.",
+          "collocations": [
+            "fair to wonder",
+            "other paths"
+          ]
+        }
+      ],
+      "evidenceQuote": "So, it’s fair to wonder: are there any other paths to a good life? Remember that empirical research into the question of a good life started in earnest only in the 1980s. The first thirty years of the endeavor produced two viable dimensions of a good life: happiness and meaning. Now we have discovered a third dimension: psychological richness."
+    },
+    {
+      "order": 17,
+      "prompt": "Which third dimension is named?",
+      "promptZh": "文中指出的第三维是什么？",
+      "options": [
+        "Psychological richness.",
+        "Financial security alone.",
+        "A complete absence of emotion.",
+        "The number of jobs held."
+      ],
+      "optionsZh": [
+        "心理丰富。",
+        "只有财务安全。",
+        "完全没有情绪。",
+        "工作数量。"
+      ],
+      "answer": 0,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A 冒号后直接点明psychological richness。",
+        "B 非本句所列第三维。",
+        "C 丰富不是无情绪。",
+        "D 工作数量没有被定义为第三维。"
+      ],
+      "vocabulary": [
+        {
+          "word": "dimension",
+          "meaning": "维度；理解好人生的一个方面",
+          "context": "此处的第三维与前文快乐和意义并列。",
+          "example": "Psychological richness is presented as a third dimension.",
+          "collocations": [
+            "third dimension",
+            "psychological richness"
+          ]
+        }
+      ],
+      "evidenceQuote": "So, it’s fair to wonder: are there any other paths to a good life? Remember that empirical research into the question of a good life started in earnest only in the 1980s. The first thirty years of the endeavor produced two viable dimensions of a good life: happiness and meaning. Now we have discovered a third dimension: psychological richness."
+    },
+    {
+      "order": 18,
+      "prompt": "What overall theme does the author describe?",
+      "promptZh": "作者描述的总体主题是什么？",
+      "options": [
+        "One mandatory route for every person.",
+        "A single experiment that settles all cultural questions.",
+        "The rejection of all future research.",
+        "Diverse paths to a good life."
+      ],
+      "optionsZh": [
+        "每个人必须遵循的唯一道路。",
+        "一次解决全部文化问题的实验。",
+        "拒绝所有未来研究。",
+        "通向好人生的多样道路。"
+      ],
+      "answer": 3,
+      "type": "主旨",
+      "support": "explicit",
+      "analyses": [
+        "A diverse与单一路径相反。",
+        "B 前句仍期待未来研究。",
+        "C 未拒绝未来研究。",
+        "D diverse paths directly总结主题。"
+      ],
+      "vocabulary": [
+        {
+          "word": "diverse",
+          "meaning": "多样的；包含不同形式的",
+          "context": "这里描述好人生可能有不同道路，不要求所有人同样选择。",
+          "example": "People may follow diverse paths to a good life.",
+          "collocations": [
+            "diverse paths",
+            "In the end"
+          ]
+        }
+      ],
+      "evidenceQuote": "There might be other paths to a good life; new research might soon reveal a fourth (or more). Future research is likely to find cultural differences in the paths to a good life. In the end, this is a story of diverse paths to a good life. Knowing who you are and what you value will guide you in pursuing the right one."
+    },
+    {
+      "order": 19,
+      "prompt": "Which show does the author place before Jon Stewart's The Daily Show?",
+      "promptZh": "作者将哪档节目放在Jon Stewart的The Daily Show之前？",
+      "options": [
+        "A podcast about backpacking.",
+        "A programme presented by the narrator's friend.",
+        "David Letterman's Late Show.",
+        "A programme hosted by Oliver Sacks."
+      ],
+      "optionsZh": [
+        "关于背包旅行的播客。",
+        "叙述者朋友主持的节目。",
+        "David Letterman的Late Show。",
+        "Oliver Sacks主持的节目。"
+      ],
+      "answer": 2,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A 播客为不同例子。",
+        "B 未说旅伴主持节目。",
+        "C Before...there was...给出作者所说先后。",
+        "D Sacks是前文人物。"
+      ],
+      "vocabulary": [
+        {
+          "word": "Before",
+          "meaning": "在……之前",
+          "context": "此处给叙述中的节目顺序，不要求推断所有节目历史。",
+          "example": "The author recalls one show before another.",
+          "collocations": [
+            "Before Jon Stewart’s The Daily Show",
+            "David Letterman’s Late Show"
+          ]
+        }
+      ],
+      "evidenceQuote": "A psychologically rich life is a life with twists and turns, stops, detours, and turning points; a dramatic and eventful life instead of a familiar and cozy one; a life with complexity and multiplicity; a life of expeditus, or spontaneity, rather than a life of deliberatio, or careful deliberation; a life of long, winding journey rather than a simple and straightforward one. Before Jon Stewart’s The Daily Show, there was David Letterman’s Late Show. I loved his quirky sense of humor. My favorite was his Top Ten lists."
+    },
+    {
+      "order": 20,
+      "prompt": "What did the author like about Letterman?",
+      "promptZh": "作者喜欢Letterman的什么？",
+      "options": [
+        "His claim that jokes must be serious.",
+        "His quirky sense of humor.",
+        "His scientific measurement of job satisfaction.",
+        "His travel arrangements for the narrator."
+      ],
+      "optionsZh": [
+        "他声称笑话必须严肃。",
+        "他古怪独特的幽默感。",
+        "他对工作满意度的科学测量。",
+        "他给叙述者安排的旅行。"
+      ],
+      "answer": 1,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A quirky幽默不等于主张笑话必须严肃。",
+        "B quirky sense of humor直接对应。",
+        "C 调查属于Payscale。",
+        "D 未提他安排旅程。"
+      ],
+      "vocabulary": [
+        {
+          "word": "quirky",
+          "meaning": "古怪而有特色的；不寻常的",
+          "context": "修饰幽默风格，是作者的个人喜好。",
+          "example": "He appreciated the host's quirky sense of humor.",
+          "collocations": [
+            "quirky sense of humor",
+            "I loved"
+          ]
+        }
+      ],
+      "evidenceQuote": "A psychologically rich life is a life with twists and turns, stops, detours, and turning points; a dramatic and eventful life instead of a familiar and cozy one; a life with complexity and multiplicity; a life of expeditus, or spontaneity, rather than a life of deliberatio, or careful deliberation; a life of long, winding journey rather than a simple and straightforward one. Before Jon Stewart’s The Daily Show, there was David Letterman’s Late Show. I loved his quirky sense of humor. My favorite was his Top Ten lists."
+    },
+    {
+      "order": 21,
+      "prompt": "What was the author's favourite feature of Letterman's show?",
+      "promptZh": "作者最喜欢Letterman节目的哪个部分？",
+      "options": [
+        "The Top Ten lists.",
+        "The job satisfaction survey.",
+        "The White House tour.",
+        "The Greyhound timetable."
+      ],
+      "optionsZh": [
+        "十大榜单。",
+        "工作满意度调查。",
+        "白宫参观。",
+        "灰狗巴士时刻表。"
+      ],
+      "answer": 0,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A My favorite was his Top Ten lists明确。",
+        "B 调查在职业段。",
+        "C 参观是旅行经历。",
+        "D 巴士时刻表非节目部分。"
+      ],
+      "vocabulary": [
+        {
+          "word": "favorite",
+          "meaning": "最喜欢的事物",
+          "context": "此处指作者对节目部分的偏好，不代表所有观众一样。",
+          "example": "The author's favorite feature was the Top Ten list.",
+          "collocations": [
+            "My favorite",
+            "Top Ten lists"
+          ]
+        }
+      ],
+      "evidenceQuote": "A psychologically rich life is a life with twists and turns, stops, detours, and turning points; a dramatic and eventful life instead of a familiar and cozy one; a life with complexity and multiplicity; a life of expeditus, or spontaneity, rather than a life of deliberatio, or careful deliberation; a life of long, winding journey rather than a simple and straightforward one. Before Jon Stewart’s The Daily Show, there was David Letterman’s Late Show. I loved his quirky sense of humor. My favorite was his Top Ten lists."
+    },
+    {
+      "order": 22,
+      "prompt": "What number labels the entry titled Life Without Regrets?",
+      "promptZh": "Life Without Regrets这一条目前面的编号是什么？",
+      "options": [
+        "Nine.",
+        "Eight.",
+        "Seven.",
+        "Ten."
+      ],
+      "optionsZh": [
+        "九。",
+        "八。",
+        "七。",
+        "十。"
+      ],
+      "answer": 3,
+      "type": "篇章结构",
+      "support": "explicit",
+      "analyses": [
+        "A 九对应下一条Freedom over Security。",
+        "B 八为后面的另一条。",
+        "C 七为更后的条目。",
+        "D 原文以10.标识该条目。"
+      ],
+      "vocabulary": [
+        {
+          "word": "Regrets",
+          "meaning": "遗憾；对过去未做或已做事情的懊悔",
+          "context": "词汇来自该条标题；数字本身是榜单结构标记，不是完整句子。",
+          "example": "The entry discusses regrets about missed opportunities.",
+          "collocations": [
+            "Life Without Regrets",
+            "Top Ten lists"
+          ]
+        }
+      ],
+      "evidenceQuote": "10. Life Without Regrets: Later in life, people tend to regret the things they could have done but did not: not taking a job offer, not moving to Boston when given the chance, not going back to school. It’s easy to come up with an excuse for inaction, but when faced with a question of “Should I stay or should I go?” ask yourself: “In ten years, would I regret if I stayed?”"
+    },
+    {
+      "order": 23,
+      "prompt": "What type of regret is highlighted in the Life Without Regrets entry?",
+      "promptZh": "Life Without Regrets条目强调哪类遗憾？",
+      "options": [
+        "Events that occurred before one was born.",
+        "A guarantee that every decision will be regretted equally.",
+        "Things one could have done but did not do.",
+        "Only actions every person was legally forbidden to take."
+      ],
+      "optionsZh": [
+        "出生前发生的事件。",
+        "保证每个决定都同样令人后悔。",
+        "本来可以做却没有做的事。",
+        "只有法律禁止所有人做的事。"
+      ],
+      "answer": 2,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A 指个人未采取的行动。",
+        "B tend to不意味着每个决定人人同样后悔。",
+        "C could have done but did not及求职、搬家、重返学校举例对应。",
+        "D 并非全部为法律禁止。"
+      ],
+      "vocabulary": [
+        {
+          "word": "inaction",
+          "meaning": "不行动；没有采取行动",
+          "context": "后句讨论为inaction寻找借口，与可能的错失机会相关。",
+          "example": "Inaction can leave a person wondering about an opportunity.",
+          "collocations": [
+            "excuse for inaction",
+            "could have done but did not"
+          ]
+        }
+      ],
+      "evidenceQuote": "10. Life Without Regrets: Later in life, people tend to regret the things they could have done but did not: not taking a job offer, not moving to Boston when given the chance, not going back to school. It’s easy to come up with an excuse for inaction, but when faced with a question of “Should I stay or should I go?” ask yourself: “In ten years, would I regret if I stayed?”"
+    },
+    {
+      "order": 24,
+      "prompt": "What contrast introduces the decision question about staying or going?",
+      "promptZh": "关于留下还是离开的选择问句前，引入什么对照？",
+      "options": [
+        "Regret can occur only immediately after an action.",
+        "It is easy to excuse inaction, but a difficult decision invites reflection.",
+        "People never hesitate and therefore need no reflection.",
+        "Every opportunity must be accepted regardless of circumstances."
+      ],
+      "optionsZh": [
+        "遗憾只能在行动后立即发生。",
+        "不行动容易找到借口，但面对选择时需要反思。",
+        "人们从不犹豫，因此无需反思。",
+        "不论情况如何都必须接受每个机会。"
+      ],
+      "answer": 1,
+      "type": "逻辑关系",
+      "support": "explicit",
+      "analyses": [
+        "A 原段谈之后多年对未行动的遗憾。",
+        "B but把为不行动找借口与后续自问连接。",
+        "C 不符合面临选择的描述。",
+        "D 没有无条件接受每个机会的指令。"
+      ],
+      "vocabulary": [
+        {
+          "word": "inaction",
+          "meaning": "不行动；没有采取行动",
+          "context": "此处是可以找借口的对象，不自动规定所有情况下行动更好。",
+          "example": "It is easy to invent an excuse for inaction.",
+          "collocations": [
+            "excuse for inaction",
+            "Should I stay or should I go"
+          ]
+        }
+      ],
+      "evidenceQuote": "10. Life Without Regrets: Later in life, people tend to regret the things they could have done but did not: not taking a job offer, not moving to Boston when given the chance, not going back to school. It’s easy to come up with an excuse for inaction, but when faced with a question of “Should I stay or should I go?” ask yourself: “In ten years, would I regret if I stayed?”"
+    },
+    {
+      "order": 25,
+      "prompt": "What role does the numeral at the start of Freedom over Security serve?",
+      "promptZh": "Freedom over Security开头的数字起什么作用？",
+      "options": [
+        "It labels the ninth entry in the author's ordered list.",
+        "It states that every reader must choose freedom nine times.",
+        "It reports nine years of measured survey outcomes.",
+        "It identifies the age of the essay's author."
+      ],
+      "optionsZh": [
+        "标示作者有序榜单的第九条。",
+        "规定每个读者必须选自由九次。",
+        "报告九年的调查测量结果。",
+        "标出文章作者的年龄。"
+      ],
+      "answer": 0,
+      "type": "篇章结构",
+      "support": "explicit",
+      "analyses": [
+        "A 9.是条目编号，标题紧随其后。",
+        "B 编号不是次数规定。",
+        "C 未给九年调查结果。",
+        "D 数字不是作者年龄。"
+      ],
+      "vocabulary": [
+        {
+          "word": "Freedom",
+          "meaning": "自由；选择与行动的自主空间",
+          "context": "来自条目标题，9.本身是结构标记而非独立句子。",
+          "example": "The ninth entry discusses freedom and security.",
+          "collocations": [
+            "Freedom over Security",
+            "Top Ten list"
+          ]
+        }
+      ],
+      "evidenceQuote": "9."
+    }
+  ]
+}
