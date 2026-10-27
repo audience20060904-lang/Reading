@@ -10,8 +10,10 @@
   "contextSentences": 3160,
   "contextOnlySentences": 0,
   "evidenceSentences": 3160,
+  "fullyQuotedCandidateIds": 2900,
+  "partialQuoteOnlyCandidateIds": 260,
   "notDirectlyQuestioned": 0,
-  "questions": 2708,
+  "questions": 2709,
   "excludedBlocks": 160,
   "fullCoverage": false,
   "byChapter": [
@@ -21,7 +23,7 @@
       "proofread": 177,
       "context": 177,
       "evidence": 177,
-      "questions": 136
+      "questions": 137
     },
     {
       "id": "c02",
@@ -128,7 +130,7 @@
       "questions": 183
     }
   ],
-  "notice": "自动分句仅为候选；审校、上下文和直接证据分别计数。即使每节有题，也不等于逐句覆盖。未配题内容保留原文及待办，不生成占位题。",
+  "notice": "自动分句仅为候选；直接证据按来源 ID 统计，完整引文按候选文本逐字包含统计，二者不保证题目直接考查该句或该句支持正确答案，也不代表句界已人工定稿。仅部分引用需要逐项审阅，不等于一定缺题。未配题内容保留原文及待办，不生成占位题。",
   "sourceAudit": {
     "status": "completed",
     "knownPendingBodyBlocks": 0,

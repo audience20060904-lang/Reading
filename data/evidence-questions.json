@@ -871,6 +871,84 @@
     "fingerprint": "6189117b00fa5094b9c94a2c112930169898c6f3077c4221cefc1161d26b86b3"
   },
   {
+    "id": "qe-c01-0060",
+    "version": 1,
+    "family": "sentence-evidence",
+    "semanticAudit": true,
+    "batchId": "semantic-001",
+    "parentQuestionId": "q-c01-009",
+    "chapterId": "c01",
+    "sectionId": "c01-s01",
+    "paragraphId": "c01-s01-p008-04260",
+    "readingUnitId": "c01-s01-p008-04260-r005-006",
+    "sentenceIds": [
+      "c01-s01-p008-04260-s005",
+      "c01-s01-p008-04260-s006"
+    ],
+    "passage": "Though I love my job most days, I do envy my father’s simple, convivial life sometimes; I wish I could spend an evening drinking sake with my old friends every week, reminiscing about our school days and talking about life on the farm. But in my most honest moments, I know that I could not have lived like this: I had an intense yearning to see the outside world, too intense to follow the well-trodden life path of my ancestors.",
+    "prompt": "Which experience does the author wish he could have every week?",
+    "promptZh": "作者希望自己每周能有怎样的经历？",
+    "options": [
+      "Spend each evening working at a different university.",
+      "Share an evening of sake and memories with old friends.",
+      "Leave his job permanently to farm with his father.",
+      "Travel alone to a different hot spring every week."
+    ],
+    "optionsZh": [
+      "每晚在不同的大学工作。",
+      "与老朋友共度一晚，喝清酒并回忆往事。",
+      "永久辞职，与父亲一起务农。",
+      "每周独自去一个不同的温泉。"
+    ],
+    "answer": 1,
+    "type": "细节",
+    "support": "explicit",
+    "analyses": [
+      "A 原文没有说作者希望每晚在不同大学工作。",
+      "B 原文说作者希望每周与老朋友共度一个晚上，喝清酒并追忆学生时代。",
+      "C 羡慕父亲的生活不等于希望永久辞职务农；原文说他大多数时候喜欢自己的工作。",
+      "D 温泉旅行出现在父亲的经历中，不能改成作者希望每周独自前往。"
+    ],
+    "vocabulary": [
+      {
+        "word": "reminiscing",
+        "meaning": "追忆；回忆往事",
+        "context": "作者希望和老朋友一起回忆学生时代。",
+        "example": "They spent the evening reminiscing about their school days.",
+        "collocations": [
+          "reminisce about old times",
+          "reminisce with friends"
+        ]
+      }
+    ],
+    "translation": "虽然大多数时候我都喜欢自己的工作，但有时的确羡慕父亲简单、热闹友好的生活；我希望每周都能与老朋友共度一晚，喝着清酒，追忆学生时代，谈谈农场生活。但最坦诚时我知道，自己不可能那样生活：我太渴望看看外面的世界，这种渴望强烈到无法沿着祖先走熟的道路生活。",
+    "evidenceTargetIds": [
+      "c01-s01-p008-04260-s005"
+    ],
+    "evidence": [
+      {
+        "quote": "Though I love my job most days, I do envy my father’s simple, convivial life sometimes; I wish I could spend an evening drinking sake with my old friends every week, reminiscing about our school days and talking about life on the farm.",
+        "sentenceIds": [
+          "c01-s01-p008-04260-s005"
+        ],
+        "sources": [
+          {
+            "pdfPage": 8,
+            "block": 2,
+            "bbox": [
+              76.99,
+              426,
+              535.01,
+              655.02
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "原题证据关联中仅作背景的句子，已核对 PDF 原页并补充直接考查；保留原题和历史。",
+    "fingerprint": "02a9a9280b0d9dc975e86309ddfaebf1a7c965eb780d8e43d660f2e95ce503ab"
+  },
+  {
     "id": "qe-c01-0012",
     "version": 1,
     "family": "sentence-evidence",
