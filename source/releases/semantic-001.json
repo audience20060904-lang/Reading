@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "id": "semantic-001",
+  "status": "published-and-verified",
+  "verifiedAt": "2026-10-27T09:52:28.890018+00:00",
+  "url": "https://audience20060904-lang.github.io/Reading/",
+  "sourceCommit": "2992f672b608e7b6a36064f92edfffb34ffad86d",
+  "deploymentCommit": "b84dfcecf03719b4017417632d2e68921e107c9b",
+  "offlineVersion": "51c926f28b4470eb",
+  "questionFingerprints": {
+    "qe-c01-0060": "02a9a9280b0d9dc975e86309ddfaebf1a7c965eb780d8e43d660f2e95ce503ab"
+  },
+  "content": {
+    "newQuestions": 1,
+    "newWordOccurrences": 35,
+    "wordOccurrencesTotal": 659,
+    "semanticPartialBaseline": 261,
+    "semanticReviewed": 3,
+    "semanticPending": 258
+  },
+  "validation": {
+    "unitTestsPassed": 326,
+    "localWordBrowser": [
+      "全部资源与测试构建逐字节一致，离线词表随页面打包",
+      "仅精选词标蓝，桌面弹窗显示本段词义、不泄露答案，点击遮罩关闭且不记成绩",
+      "键盘Enter打开、弹窗内焦点约束、Escape关闭并返回原词",
+      "提交后移到译文上方的原文仍可查词，英文和历史作答完全保留",
+      "手机点击屈折词形显示词头、本段义与其他常见义，底部词卡不溢出",
+      "章节原文也可查词，点击不切换已读、不产生答案，深色主题可用",
+      "逐一点击本次新增的35处难词和熟词偏义，原文与语境释义对应且不产生作答",
+      "模拟离线恢复查词；本地另停HTTP服务后缓存重载查词成功，无运行时异常"
+    ],
+    "liveQuestionBrowser": [
+      "全部资源逐字节匹配生产构建，补题JSON包含在离线缓存",
+      "主问题后手动下一题，原文保持同一短段且只有一个实例，返回恢复解析",
+      "补题提交前不显示或复制正确答案与中文解析",
+      "本批1道具体原文补题全部实际提交，四项中文分析、词汇及整段译文完整，旧成绩不变",
+      "补题位置与已提交解析可刷新恢复，完整备份包含双语题目和历史快照",
+      "统计仅计实际提交，320/390px手机深色界面支持多题与完整解析",
+      "离线重载恢复补题、中文材料和本地历史；本机另实际停止HTTP服务"
+    ],
+    "liveAssetComparison": "all assets byte match build",
+    "liveWordInteraction": "35 new word occurrences clicked and checked; online offline-cache check timed out, retry encountered network errors",
+    "limitations": [
+      "Mobile viewport testing is not a physical phone.",
+      "Live word offline-cache check did not finish; local real server shutdown and simulated offline passed."
+    ]
+  }
+}
