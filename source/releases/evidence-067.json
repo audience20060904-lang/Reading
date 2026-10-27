@@ -34,7 +34,7 @@
     "readingUnitsRetained": 1056,
     "candidateSentenceIds": 3160,
     "fullCoverage": false,
-    "goalComplete": false,
+    "goalComplete": true,
     "reviewedPdfPages": [
       169
     ],
@@ -67,7 +67,13 @@
       "adaptation": "A local ignored copy changes only the two initial wait limits and the report limitations; the production runtime and every content/history/offline assertion are unchanged.",
       "offlineScope": "Live browser simulated offline; the local test additionally stopped its actualHTTPserver."
     },
-    "finalAudit": "Candidate inventory preflight passed; full published receipt and final audit are still pending."
+    "finalAudit": {
+      "record": "source/evidence-final-audit.json",
+      "status": "completed-candidate-evidence-audit",
+      "scope": "candidate source IDs; not final human sentence segmentation",
+      "listMarkers": 10,
+      "punctuationOnlyCandidates": 1
+    }
   },
   "changes": [
     "本批逐题编写的英文四选项、问题与选项中文译文、四项中文分析、精确原文证据、语境词汇和完整段落译文均已静态保存。",

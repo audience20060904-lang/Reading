@@ -14,4 +14,9 @@ describe('final candidate evidence inventory',()=>{
   expect(qs).toHaveLength(9);expect(qs.flatMap((q:any)=>q.evidenceTargetIds)).toHaveLength(11);
   for(const order of [1,5]){const first=targets.find((t:any)=>t.order===order),second=targets.find((t:any)=>t.order===order+1),q=qs.find((x:any)=>x.evidenceTargetIds.includes(first.sentenceId));expect(q.evidenceTargetIds).toContain(second.sentenceId);expect(q.evidence[0].quote).toContain(first.sentenceText);expect(q.evidence[0].quote).toContain(second.sentenceText);}
  });
+ it('records numbering and punctuation as structural candidates in the final audit',()=>{
+  const a=read('source/evidence-final-audit.json');expect(a.status).toBe('completed-candidate-evidence-audit');expect(a.remainingCandidateIds).toBe(0);
+  expect(a.numericListMarkers).toHaveLength(10);expect(a.punctuationOnlyCandidates).toHaveLength(1);expect(a.batches).toHaveLength(67);
+  expect(a.limits.some((s:string)=>s.includes('not a final count of human sentences'))).toBe(true);
+ });
 });
