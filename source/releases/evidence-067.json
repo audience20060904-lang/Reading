@@ -1,0 +1,84 @@
+{
+  "schemaVersion": 1,
+  "id": "evidence-067",
+  "status": "published-and-verified",
+  "date": "2026-10-27",
+  "verifiedAt": "2026-10-27T07:33:09.244401+00:00",
+  "url": "https://audience20060904-lang.github.io/Reading/",
+  "repositoryVisibility": "public",
+  "sourceCommit": "d6dea8c6d6b9a3962165cf93c74b1a542cf9c1bd",
+  "deploymentCommit": "43160f05c42e2038be7aee5552dcee883d4a2778",
+  "workflowRun": "https://github.com/audience20060904-lang/Reading/actions/runs/40467190191",
+  "workflowStatus": "completed",
+  "workflowConclusion": "success",
+  "offlineVersion": "b371a31195b95d30",
+  "questionFingerprints": {
+    "qe-c14-0109": "9c5f39b067ae50dd617c003bc10114429caf53aa36f72567ad128d86883b5195",
+    "qe-c14-0111": "8daab36b103d2cd80a5b0038da9a86d76f0e68eb1ee9b5993cd6088debb13b67",
+    "qe-c14-0112": "46dbb6ec0c6962246dec09e80271e11c62f05431e60d634d9bcfe95a6f66427f",
+    "qe-c14-0113": "479f8669cbeeb3eb2670ae9743d584327464ac702479db1df09c99e9fe12b2ad",
+    "qe-c14-0115": "d1d6e98c4e03cf8d5d2cd849ca6f2e1a8d9ab8511df874b3b453e5b1adffc9d3",
+    "qe-c14-0116": "8acf59c273c2924196936009d3359d497ee9b7680c042a9e80c4f2793339e093",
+    "qe-c14-0117": "fd36a98319e12475bbefe18384f317f94d53cb4c946ebd2863cec3599b2c6797",
+    "qe-c14-0118": "a101366dd936fd611ee14da78c69e9e56dc8f1b2eb81edd8aff69778b5dc631b",
+    "qe-c14-0119": "fd66f75f35c97e400869b51fb3e1d97117d508e92545694d5bef44747fdac20e"
+  },
+  "content": {
+    "newQuestions": 9,
+    "initialGoalGaps": 1661,
+    "beforeRemaining": 11,
+    "afterRemaining": 0,
+    "currentDirectEvidence": 3160,
+    "currentQuestions": 2708,
+    "primaryQuestionsRetained": 1056,
+    "readingUnitsRetained": 1056,
+    "candidateSentenceIds": 3160,
+    "fullCoverage": false,
+    "goalComplete": false,
+    "reviewedPdfPages": [
+      169
+    ],
+    "targetRecord": "source/evidence-questions/batch067-targets.json",
+    "authorRecord": "source/evidence-questions/batch067-author.json",
+    "reviewRecord": "source/evidence-questions/batch067-review.json"
+  },
+  "validation": {
+    "unitTests": 323,
+    "productionBuild": "passed",
+    "localBatchChecks": 7,
+    "liveBatchChecks": 7,
+    "allNewQuestionsActuallySubmitted": 9,
+    "liveAssets": "All manifest assets and Service Worker byte-identical to final tested build",
+    "history": "Isolated synthetic old submission remains unchanged while each new question adds its own fingerprinted record",
+    "offline": "Browser simulation and actual local HTTP server shutdown separately verified",
+    "viewports": [
+      320,
+      390,
+      1440
+    ],
+    "foundationRegressionReceipt": "source/releases/evidence-007.json",
+    "liveTestConditions": {
+      "connection": "browser default, no explicit Playwright proxy",
+      "initialNavigationTimeoutMs": 90000,
+      "initialQuestionVisibilityTimeoutMs": 90000,
+      "otherAssertionsAndActionWaits": "unchanged",
+      "rationale": "The previous batch actual browser diagnostic showed HTTP200 data transfers taking about32seconds before initial question visibility. This batch explicitly permits90seconds only for cold navigation and first question visibility.",
+      "originalTestSha256": "24a085942111ff152a097c67ea7064fb27d89316b6b678c996a55af6e3ee3270",
+      "adaptation": "A local ignored copy changes only the two initial wait limits and the report limitations; the production runtime and every content/history/offline assertion are unchanged.",
+      "offlineScope": "Live browser simulated offline; the local test additionally stopped its actualHTTPserver."
+    },
+    "finalAudit": "Candidate inventory preflight passed; full published receipt and final audit are still pending."
+  },
+  "changes": [
+    "本批逐题编写的英文四选项、问题与选项中文译文、四项中文分析、精确原文证据、语境词汇和完整段落译文均已静态保存。",
+    "补题归入原有短段，不新增重复阅读段落；主问题优先、补题按原句顺序，提交后由学习者手动下一题，最后一题后才进入下一段。",
+    "原文仅有一个显示实例，提交后仍在第三部分中文译文上方；提交前复制讨论不含答案。",
+    "保留1056道主问题和1056个源阅读单元，旧题与真实历史不被篡改；补题位置、解析与双语快照可在本地恢复和备份。"
+  ],
+  "limits": [
+    "这是持续全书证据补题任务中的一个已发布批次，不代表全部1661个缺口已完成。",
+    "候选句ID沿用原提取分段；逐字来源匹配及直接证据题不等于全书人工句界已经最终定稿。",
+    "未读取实际用户浏览器资料、真实学习备份或凭据；所有测试记录为隔离合成数据。",
+    "手机测试为Edge视口，不是实体手机测试；不创建付费或云端学习资源。"
+  ]
+}
