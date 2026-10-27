@@ -18,11 +18,11 @@ const textContent=(html:string)=>html.replace(/<[^>]*>/g,'').replace(/&amp;/g,'&
 
 describe('针对具体原文的离线查词',()=>{
  it('每个标注都对应真实原文字符、稳定位置和所属句子',()=>{
-  expect(occurrences).toHaveLength(4589);expect(new Set(occurrences.map(o=>o.id)).size).toBe(4589);
+  expect(occurrences).toHaveLength(4615);expect(new Set(occurrences.map(o=>o.id)).size).toBe(4615);
   for(const o of occurrences){const p=book.paragraphs.find(p=>p.id===o.paragraphId)!;expect(p.text.slice(o.start,o.end),o.id).toBe(o.text);expect(o.sentenceIds).toEqual(book.sentences.filter(s=>s.paragraphId===p.id&&s.start<o.end&&s.end>o.start).map(s=>s.id));}
  });
  it('仅预先选择的难词、熟词偏义或词组可查，普通词不泛化标蓝',()=>{
-  expect(catalog.entries).toHaveLength(1874);for(const e of catalog.entries)expect(['difficult','shifted']).toContain(e.kind);
+  expect(catalog.entries).toHaveLength(1886);for(const e of catalog.entries)expect(['difficult','shifted']).toContain(e.kind);
   const first=book.sentences[0];expect(getWordLookups(first.paragraphId,first.text,first.start).map(o=>o.text)).toEqual(['clementines']);
   expect(getWordLookups(first.paragraphId,'Yoshi',0)).toEqual([]);
  });
@@ -59,7 +59,7 @@ describe('针对具体原文的离线查词',()=>{
  it('扩充后保留首批全部词义和位置，并补足14章的实际语境标注',()=>{
   for(const e of baseline.entries)expect(catalog.entries.find(x=>x.id===e.id)).toEqual(e);
   for(const o of Object.values(baseline.paragraphs).flat())expect(occurrences.find(x=>x.id===o.id)).toEqual(o);
-  const originalIds=new Set(Object.values(baseline.paragraphs).flat().map(o=>o.id)),added=occurrences.filter(o=>!originalIds.has(o.id));expect(added).toHaveLength(4384);
+  const originalIds=new Set(Object.values(baseline.paragraphs).flat().map(o=>o.id)),added=occurrences.filter(o=>!originalIds.has(o.id));expect(added).toHaveLength(4410);
   for(const c of book.chapters)expect(added.some(o=>book.paragraphs.find(p=>p.id===o.paragraphId)?.chapterId===c.id),c.id).toBe(true);
   expect(catalog.entries.find(e=>e.id==='concrete')?.otherMeanings.join('')).toContain('混凝土');expect(catalog.entries.find(e=>e.id==='principal')?.otherMeanings.join('')).toContain('本金');
  });
@@ -74,7 +74,7 @@ describe('针对具体原文的离线查词',()=>{
  it('B2扩充保留上一版全部词义和位置，新增记录逐项匹配预编写作者稿',()=>{
   for(const e of lastRelease.entries)expect(catalog.entries.find(x=>x.id===e.id)).toEqual(e);
   for(const o of Object.values(lastRelease.paragraphs).flat())expect(occurrences.find(x=>x.id===o.id)).toEqual(o);
-  expect(expansion.additions).toHaveLength(3930);for(const row of expansion.additions)expect(occurrences.find(x=>x.id===row.occurrence.id)).toEqual(row.occurrence);
+  expect(expansion.additions).toHaveLength(3956);for(const row of expansion.additions)expect(occurrences.find(x=>x.id===row.occurrence.id)).toEqual(row.occurrence);
   for(const c of book.chapters)expect(expansion.additions.filter(row=>book.paragraphs.find(p=>p.id===row.occurrence.paragraphId)?.chapterId===c.id).length).toBeGreaterThan(150);
  });
  it('熟词偏义按具体语境区分，不把人名或实验术语当成普通义',()=>{
@@ -86,4 +86,5 @@ describe('针对具体原文的离线查词',()=>{
   expect(notes.filter(o=>['Joy','Grace','Angeles','Rockets'].includes(o.text))).toEqual([]);
   const report=read('source/b2-vocabulary/coverage.json');expect(report.pendingCandidateOccurrences).toEqual([]);expect(report.notice).toContain('not a full C2');
  });
+ it('机械同形词排除后恢复实际高级义，普通动词形式仍不泛化标注',()=>{const notes=expansion.additions.map(r=>r.occurrence);expect(notes.filter(o=>o.text==='moving')).toHaveLength(2);for(const o of notes.filter(o=>o.text==='moving'))expect(o.contextMeaning).toContain('动人的');expect(notes.some(o=>o.text==='standing'&&o.contextMeaning.includes('地位'))).toBe(true);expect(notes.some(o=>o.text==='terms'&&o.contextMeaning.includes('词语'))).toBe(true);});
 });
