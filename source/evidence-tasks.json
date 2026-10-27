@@ -3,8 +3,8 @@
   "pdfSha256": "be25c859f1bd894a4b0d1cff024ded1297f6a96a8e8ddabea1e3abcf89160a50",
   "objective": "Cover remaining candidate source IDs with authored, source-specific question evidence; group structural markers and page fragments with their context",
   "initialRemaining": 1661,
-  "status": "candidate-evidence-published",
-  "preparedQuestionCount": 1652,
+  "status": "candidate-evidence-prepared",
+  "preparedQuestionCount": 1653,
   "publishedQuestionCount": 1652,
   "directEvidence": 3160,
   "remainingSentenceIds": [],
@@ -2331,6 +2331,17 @@
       "targetRecord": "source/evidence-questions/batch067-targets.json",
       "authorRecord": "source/evidence-questions/batch067-author.json",
       "receipt": "source/releases/evidence-067.json"
+    },
+    {
+      "id": "semantic-001",
+      "status": "prepared-not-yet-published",
+      "questionCount": 1,
+      "questionIds": [
+        "qe-c01-0060"
+      ],
+      "targetRecord": "source/semantic-evidence/audit.json",
+      "authorRecord": "source/semantic-evidence/questions.json",
+      "receipt": null
     }
   ],
   "notice": "Prepared is distinct from published. Candidate IDs include structural markers and original automatic segmentation; they are not a final human sentence count. Old questions, original source units and real study history are preserved."
