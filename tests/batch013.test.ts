@@ -31,7 +31,7 @@ describe('第 5–6 章连续补齐 25 段',()=>{
   }
  });
  it('328 段有题、725 段待办，拒绝虚假全覆盖',()=>{
-  const c=read('public/data/coverage.json'),tasks=read('source/content-tasks.json'),historicalIds=new Set([...Object.keys(baseline),...targets.map(t=>t.questionId)]);expect(qs.length).toBeGreaterThanOrEqual(328);expect(historicalIds.size).toBe(328);expect(plan.units.filter(u=>!u.questionId||!historicalIds.has(u.questionId))).toHaveLength(725);expect(c.fullCoverage).toBe(false);expect(c.contextOnlySentences).toBeGreaterThan(0);expect(c.notDirectlyQuestioned).toBeGreaterThan(0);
+  const c=read('public/data/coverage.json'),tasks=read('source/content-tasks.json'),historicalIds=new Set([...Object.keys(baseline),...targets.map(t=>t.questionId)]);expect(qs.length).toBeGreaterThanOrEqual(328);expect(historicalIds.size).toBe(328);expect(plan.units.filter(u=>!u.questionId||!historicalIds.has(u.questionId))).toHaveLength(725);expect(c.fullCoverage).toBe(false);expect(c.contextOnlySentences).toBe(c.contextSentences-c.evidenceSentences);expect(read('source/releases/batch-013.json').coverage.contextOnlySentences).toBeGreaterThan(0);expect(c.notDirectlyQuestioned).toBe(c.candidateSentences-c.evidenceSentences);expect(read('source/releases/batch-013.json').coverage.notDirectlyQuestioned).toBeGreaterThan(0);
   expect(plan.units.filter(u=>u.chapterId==='c05').every(u=>u.questionId)).toBe(true);
   expect(tasks.readingPlan.remainingUnitIds).toEqual(plan.units.filter(u=>!u.questionId).map(u=>u.id));expect(tasks.nextBatch.readingUnitId).toBe(tasks.readingPlan.remainingUnitIds[0]);
  });

@@ -3,24 +3,12 @@
   "pdfSha256": "be25c859f1bd894a4b0d1cff024ded1297f6a96a8e8ddabea1e3abcf89160a50",
   "objective": "Fill every remaining candidate sentence direct-evidence gap with a specifically authored question",
   "initialRemaining": 1661,
-  "status": "in-progress",
-  "preparedQuestionCount": 1643,
+  "status": "candidate-evidence-prepared",
+  "preparedQuestionCount": 1652,
   "publishedQuestionCount": 1643,
-  "directEvidence": 3149,
-  "remainingSentenceIds": [
-    "c14-s04-p169-01328-s001",
-    "c14-s04-p169-01328-s002",
-    "c14-s04-p169-01328-s003",
-    "c14-s04-p169-01328-s006",
-    "c14-s04-p169-02888-s001",
-    "c14-s04-p169-02888-s002",
-    "c14-s04-p169-02888-s004",
-    "c14-s04-p169-02888-s005",
-    "c14-s04-p169-02888-s006",
-    "c14-s04-p169-02888-s008",
-    "c14-s04-p169-02888-s009"
-  ],
-  "nextSentenceId": "c14-s04-p169-01328-s001",
+  "directEvidence": 3160,
+  "remainingSentenceIds": [],
+  "nextSentenceId": null,
   "batches": [
     {
       "id": "evidence-001",
@@ -2324,6 +2312,25 @@
       "targetRecord": "source/evidence-questions/batch066-targets.json",
       "authorRecord": "source/evidence-questions/batch066-author.json",
       "receipt": "source/releases/evidence-066.json"
+    },
+    {
+      "id": "evidence-067",
+      "status": "prepared-not-yet-published",
+      "questionCount": 9,
+      "questionIds": [
+        "qe-c14-0109",
+        "qe-c14-0111",
+        "qe-c14-0112",
+        "qe-c14-0113",
+        "qe-c14-0115",
+        "qe-c14-0116",
+        "qe-c14-0117",
+        "qe-c14-0118",
+        "qe-c14-0119"
+      ],
+      "targetRecord": "source/evidence-questions/batch067-targets.json",
+      "authorRecord": "source/evidence-questions/batch067-author.json",
+      "receipt": null
     }
   ],
   "notice": "Prepared is distinct from published. Candidate IDs retain original automatic segmentation and are not a final human sentence count. Old questions, original source units and real study history are preserved."

@@ -26,7 +26,7 @@ describe('第8章末与第9章开篇连续25单元',()=>{
  });
  it('保留本批553已配/500待办快照，不宣称全书逐句证据覆盖',()=>{
   const c=read('public/data/coverage.json'),tasks=read('source/content-tasks.json'),ids=new Set([...Object.keys(baseline),...targets.map(t=>t.questionId)]);
-  expect(qs.filter(a=>ids.has(a.id))).toHaveLength(553);expect(plan.units.filter(u=>!u.questionId||!ids.has(u.questionId))).toHaveLength(500);expect(plan.units.filter(u=>u.chapterId==='c08').every(u=>u.questionId)).toBe(true);expect(c.fullCoverage).toBe(false);expect(c.contextOnlySentences).toBeGreaterThan(0);expect(c.notDirectlyQuestioned).toBeGreaterThan(0);
+  expect(qs.filter(a=>ids.has(a.id))).toHaveLength(553);expect(plan.units.filter(u=>!u.questionId||!ids.has(u.questionId))).toHaveLength(500);expect(plan.units.filter(u=>u.chapterId==='c08').every(u=>u.questionId)).toBe(true);expect(c.fullCoverage).toBe(false);expect(c.contextOnlySentences).toBe(c.contextSentences-c.evidenceSentences);expect(read('source/releases/batch-022.json').coverage.contextOnlySentences).toBeGreaterThan(0);expect(c.notDirectlyQuestioned).toBe(c.candidateSentences-c.evidenceSentences);expect(read('source/releases/batch-022.json').coverage.notDirectlyQuestioned).toBeGreaterThan(0);
   expect(tasks.readingPlan.remainingUnitIds).toEqual(plan.units.filter(u=>!u.questionId).map(u=>u.id));expect(tasks.nextBatch.readingUnitId).toBe(tasks.readingPlan.remainingUnitIds[0]);
  });
  it('追加后仍能导出、导入和恢复旧题成绩、快照与位置',()=>{

@@ -31,7 +31,7 @@ describe('第 6 章幸福与意义连续补齐 25 个单元',()=>{
   }
  });
  it('403 段有题、650 段待办，拒绝虚假全覆盖',()=>{
-  const c=read('public/data/coverage.json'),tasks=read('source/content-tasks.json'),historicalIds=new Set([...Object.keys(baseline),...targets.map(t=>t.questionId)]);expect(qs.length).toBeGreaterThanOrEqual(403);expect(historicalIds.size).toBe(403);expect(plan.units.filter(u=>!u.questionId||!historicalIds.has(u.questionId))).toHaveLength(650);expect(c.fullCoverage).toBe(false);expect(c.contextOnlySentences).toBeGreaterThan(0);expect(c.notDirectlyQuestioned).toBeGreaterThan(0);
+  const c=read('public/data/coverage.json'),tasks=read('source/content-tasks.json'),historicalIds=new Set([...Object.keys(baseline),...targets.map(t=>t.questionId)]);expect(qs.length).toBeGreaterThanOrEqual(403);expect(historicalIds.size).toBe(403);expect(plan.units.filter(u=>!u.questionId||!historicalIds.has(u.questionId))).toHaveLength(650);expect(c.fullCoverage).toBe(false);expect(c.contextOnlySentences).toBe(c.contextSentences-c.evidenceSentences);expect(read('source/releases/batch-016.json').coverage.contextOnlySentences).toBeGreaterThan(0);expect(c.notDirectlyQuestioned).toBe(c.candidateSentences-c.evidenceSentences);expect(read('source/releases/batch-016.json').coverage.notDirectlyQuestioned).toBeGreaterThan(0);
   expect(plan.units.filter(u=>u.chapterId==='c05').every(u=>u.questionId)).toBe(true);
   expect(tasks.readingPlan.remainingUnitIds).toEqual(plan.units.filter(u=>!u.questionId).map(u=>u.id));expect(tasks.nextBatch.readingUnitId).toBe(tasks.readingPlan.remainingUnitIds[0]);
  });
@@ -46,5 +46,5 @@ it('保留可能解释与人物引语归属，不将假设类比当成群体风�
  expect(potential.passage).toContain('One potential reason');expect(potential.analyses.join(' ')).toContain('不确定性');
  expect(quotation.passage).toContain('he said');expect(quotation.analyses.join(' ')).toContain('不是关于难民风险的科学样本');expect(quotation.translation).toContain('不是关于难民实际风险的研究数据');
  expect(probable.passage).toContain('He probably thinks');expect(probable.analyses.join(' ')).toContain('没有问卷');
- const c=read('public/data/coverage.json');expect(c.contextOnlySentences).toBeGreaterThan(0);expect(c.notDirectlyQuestioned).toBeGreaterThan(0);expect(c.fullCoverage).toBe(false);
+ const c=read('public/data/coverage.json');expect(c.contextOnlySentences).toBe(c.contextSentences-c.evidenceSentences);expect(read('source/releases/batch-016.json').coverage.contextOnlySentences).toBeGreaterThan(0);expect(c.notDirectlyQuestioned).toBe(c.candidateSentences-c.evidenceSentences);expect(read('source/releases/batch-016.json').coverage.notDirectlyQuestioned).toBeGreaterThan(0);expect(c.fullCoverage).toBe(false);
 });

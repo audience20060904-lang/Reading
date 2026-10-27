@@ -32,7 +32,7 @@ describe('批次024连续25单元',()=>{
  });
  it('记录本批603已配/450待办的历史快照并拒绝虚假全覆盖',()=>{
   const c=read('public/data/coverage.json'),tasks=read('source/content-tasks.json'),ids=new Set([...Object.keys(baseline),...targets.map(t=>t.questionId)]);
-  expect(qs.filter(a=>ids.has(a.id))).toHaveLength(603);expect(plan.units.filter(u=>!u.questionId||!ids.has(u.questionId))).toHaveLength(450);expect(c.fullCoverage).toBe(false);expect(c.contextOnlySentences).toBeGreaterThan(0);expect(c.notDirectlyQuestioned).toBeGreaterThan(0);
+  expect(qs.filter(a=>ids.has(a.id))).toHaveLength(603);expect(plan.units.filter(u=>!u.questionId||!ids.has(u.questionId))).toHaveLength(450);expect(c.fullCoverage).toBe(false);expect(c.contextOnlySentences).toBe(c.contextSentences-c.evidenceSentences);expect(read('source/releases/batch-024.json').coverage.contextOnlySentences).toBeGreaterThan(0);expect(c.notDirectlyQuestioned).toBe(c.candidateSentences-c.evidenceSentences);expect(read('source/releases/batch-024.json').coverage.notDirectlyQuestioned).toBeGreaterThan(0);
   expect(tasks.readingPlan.remainingUnitIds).toEqual(plan.units.filter(u=>!u.questionId).map(u=>u.id));expect(tasks.nextBatch.readingUnitId).toBe(tasks.readingPlan.remainingUnitIds[0]);
  });
  it('追加后仍能导出、导入和恢复之前的成绩、指纹及位置',()=>{
