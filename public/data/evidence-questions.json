@@ -133170,5 +133170,1539 @@
     ],
     "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
     "fingerprint": "cea924a4631ac8feeb0d2651c2c7d4d73c95daeb38e03a209b8bceff40a56438"
+  },
+  {
+    "id": "qe-c14-0084",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-066",
+    "parentQuestionId": "q-c14-052",
+    "chapterId": "c14",
+    "sectionId": "c14-s04",
+    "paragraphId": "c14-s04-p167-03082",
+    "readingUnitId": "c14-s04-p167-03082-r001-003",
+    "sentenceIds": [
+      "c14-s04-p167-03082-s001",
+      "c14-s04-p167-03082-s002",
+      "c14-s04-p167-03082-s003"
+    ],
+    "passage": "9. Freedom over Security: In an essay in The New York Times Magazine, poet Ada Calhoun recalls how her parents often told her growing up that “most choices could be boiled down to security or freedom, and that it was always better to choose freedom.” She followed her parents’ advice: she chose a job that allowed her more freedom, even though she hasn’t had job benefits in years, and she chose to have a baby despite having no childcare plan.",
+    "prompt": "Whose views about freedom and security does Calhoun recall?",
+    "promptZh": "Calhoun回忆的是谁对自由与安全的看法？",
+    "options": [
+      "Her parents' advice while she was growing up.",
+      "A conclusion established by a randomised job trial.",
+      "Her child's advice to her parents.",
+      "A universal legal rule for every worker."
+    ],
+    "optionsZh": [
+      "成长中父母给她的建议。",
+      "随机职业试验确定的结论。",
+      "她的孩子给父母的建议。",
+      "适用于所有工作者的法律规则。"
+    ],
+    "answer": 0,
+    "type": "观点归属",
+    "support": "explicit",
+    "analyses": [
+      "A recalls how her parents... told her限定观点来源。",
+      "B 是文章回忆而非随机试验。",
+      "C 说话者与接受者被倒置。",
+      "D 这是父母的价值判断，不是法律。"
+    ],
+    "vocabulary": [
+      {
+        "word": "boiled down to",
+        "meaning": "归结为；简化成核心选项",
+        "context": "此处是其父母关于选择的概括，不证明所有现实选择只有两项。",
+        "example": "Her parents boiled the choice down to freedom and security.",
+        "collocations": [
+          "boiled down to security or freedom",
+          "parents’ advice"
+        ]
+      }
+    ],
+    "translation": "9. 自由优于安全：诗人Ada Calhoun在《纽约时报杂志》的一篇文章里回忆，成长中父母常说，多数选择可归结为安全或自由，选择自由总更好。她听从建议：选了更自由的工作，尽管多年没有工作福利；也在没有托育计划的情况下选择生孩子。",
+    "evidenceTargetIds": [
+      "c14-s04-p167-03082-s002"
+    ],
+    "evidence": [
+      {
+        "quote": "9. Freedom over Security: In an essay in The New York Times Magazine, poet Ada Calhoun recalls how her parents often told her growing up that “most choices could be boiled down to security or freedom, and that it was always better to choose freedom.” She followed her parents’ advice: she chose a job that allowed her more freedom, even though she hasn’t had job benefits in years, and she chose to have a baby despite having no childcare plan.",
+        "sentenceIds": [
+          "c14-s04-p167-03082-s001",
+          "c14-s04-p167-03082-s002",
+          "c14-s04-p167-03082-s003"
+        ],
+        "sources": [
+          {
+            "pdfPage": 167,
+            "block": 2,
+            "bbox": [
+              88.24,
+              308.25,
+              535.01,
+              517.77
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "06ac8c6937eac521c9e842bdfa9f97f2b9bfaae863aefeb390cbad1d027c2637"
+  },
+  {
+    "id": "qe-c14-0085",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-066",
+    "parentQuestionId": "q-c14-053",
+    "chapterId": "c14",
+    "sectionId": "c14-s04",
+    "paragraphId": "c14-s04-p167-03082",
+    "readingUnitId": "c14-s04-p167-03082-r004-005",
+    "sentenceIds": [
+      "c14-s04-p167-03082-s004",
+      "c14-s04-p167-03082-s005"
+    ],
+    "passage": "She now feels that “there is no greater security than being out on the right limb, with the right voice in your head.” Ultimately, being able to choose freedom over security, possibility over responsibility, and challenge over ease is key to a psychologically rich life.",
+    "prompt": "Which contrasts does the author associate with psychological richness?",
+    "promptZh": "作者把哪些对照与心理丰富联系起来？",
+    "options": [
+      "Security over freedom, certainty over possibility, and ease over challenge.",
+      "Only higher income over lower income.",
+      "A single profession chosen by every reader.",
+      "Freedom over security, possibility over responsibility, and challenge over ease."
+    ],
+    "optionsZh": [
+      "安全优于自由、确定性优于可能性、安逸优于挑战。",
+      "只有收入高低。",
+      "每个读者选择同一职业。",
+      "自由优于安全、可能性优于责任、挑战优于安逸。"
+    ],
+    "answer": 3,
+    "type": "细节",
+    "support": "explicit",
+    "analyses": [
+      "A 方向被倒置且certainty并非该组原词。",
+      "B 收入并非本句对照。",
+      "C 未规定所有人做同一职业；这是作者观点。",
+      "D 原句依次列出三组取向。"
+    ],
+    "vocabulary": [
+      {
+        "word": "Ultimately",
+        "meaning": "最终；归纳前述讨论",
+        "context": "引出作者对这些取向的总结，不是保证人人采取同一风险选择。",
+        "example": "Ultimately, the author connects challenge with richness.",
+        "collocations": [
+          "freedom over security",
+          "challenge over ease"
+        ]
+      }
+    ],
+    "translation": "她如今觉得：“没有比置身合适的险境、内心响着合适的声音更大的安全感了。”最终，能够选择自由而非安全、可能性而非责任、挑战而非安逸，是心理丰富人生的关键。",
+    "evidenceTargetIds": [
+      "c14-s04-p167-03082-s005"
+    ],
+    "evidence": [
+      {
+        "quote": "She now feels that “there is no greater security than being out on the right limb, with the right voice in your head.” Ultimately, being able to choose freedom over security, possibility over responsibility, and challenge over ease is key to a psychologically rich life.",
+        "sentenceIds": [
+          "c14-s04-p167-03082-s004",
+          "c14-s04-p167-03082-s005"
+        ],
+        "sources": [
+          {
+            "pdfPage": 167,
+            "block": 2,
+            "bbox": [
+              88.24,
+              308.25,
+              535.01,
+              517.77
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "a8c947bae025571a81f87a59b55e07d24ecef1cca5e2775bb4c7bf0d918763ad"
+  },
+  {
+    "id": "qe-c14-0086",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-066",
+    "parentQuestionId": "q-c14-054",
+    "chapterId": "c14",
+    "sectionId": "c14-s04",
+    "paragraphId": "c14-s04-p167-05415",
+    "readingUnitId": "c14-s04-p167-05415-r001-004",
+    "sentenceIds": [
+      "c14-s04-p167-05415-s001",
+      "c14-s04-p167-05415-s002",
+      "c14-s04-p167-05415-s003",
+      "c14-s04-p167-05415-s004"
+    ],
+    "passage": "8. Don’t Be a Specialist; Be a Generalist: Most of us live in a highly specialized world with a meticulous division of labor. Professionally, specialization often leads to success. But too much specialization may lead us to miss the beauty of the forest for a tree.",
+    "prompt": "How does the generalist entry characterise the world most people live in?",
+    "promptZh": "通才条目怎样描述多数人生活的世界？",
+    "options": [
+      "Entirely generalist in every profession.",
+      "A world where specialisation can never produce success.",
+      "Highly specialised, with a meticulous division of labour.",
+      "Without any division of labour."
+    ],
+    "optionsZh": [
+      "每种职业都完全通才化。",
+      "专业化绝不可能带来成功。",
+      "高度专业化，劳动分工精细。",
+      "完全没有劳动分工。"
+    ],
+    "answer": 2,
+    "type": "细节",
+    "support": "explicit",
+    "analyses": [
+      "A 与高度专门化相反。",
+      "B 下一句承认职业专业化往往带来成功。",
+      "C 标题后的句子明确说highly specialized及meticulous division。",
+      "D 与division of labor相反。"
+    ],
+    "vocabulary": [
+      {
+        "word": "meticulous",
+        "meaning": "细致严密的；讲究细节的",
+        "context": "此处修饰劳动分工，不表示每个个人都完全相同。",
+        "example": "The passage describes a meticulous division of labour.",
+        "collocations": [
+          "meticulous division of labor",
+          "highly specialized world"
+        ]
+      }
+    ],
+    "translation": "8. 别只做专才，要做通才：我们多数人生活在高度专业化、劳动分工精细的世界。职业上，专业化往往带来成功。但过度专精可能让我们为了一棵树，错过整片森林的美。",
+    "evidenceTargetIds": [
+      "c14-s04-p167-05415-s001",
+      "c14-s04-p167-05415-s002"
+    ],
+    "evidence": [
+      {
+        "quote": "8. Don’t Be a Specialist; Be a Generalist: Most of us live in a highly specialized world with a meticulous division of labor.",
+        "sentenceIds": [
+          "c14-s04-p167-05415-s001",
+          "c14-s04-p167-05415-s002"
+        ],
+        "sources": [
+          {
+            "pdfPage": 167,
+            "block": 3,
+            "bbox": [
+              88.24,
+              541.5,
+              535.01,
+              634.02
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "a245a880d87fd9230e9f38919eed3be3063390c380ee803997bfb555c49adac6"
+  },
+  {
+    "id": "qe-c14-0088",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-066",
+    "parentQuestionId": "q-c14-056",
+    "chapterId": "c14",
+    "sectionId": "c14-s04",
+    "paragraphId": "c14-s04-p167-06585",
+    "readingUnitId": "c14-s04-p167-06585-r001-003",
+    "sentenceIds": [
+      "c14-s04-p167-06585-s001",
+      "c14-s04-p167-06585-s002",
+      "c14-s04-p167-06585-s003",
+      "c14-s04-p168-00750-s001"
+    ],
+    "passage": "7. “Take a Dozen”: Both pigeons and humans don’t explore enough. The comfort of familiarity is so powerfully attractive that we forget the joy of exploration, eating the same snack, going to the same chain, and sitting quietly on our commute.",
+    "prompt": "Which groups does the 'Take a Dozen' entry say do not explore enough?",
+    "promptZh": "“先试十二个”条目说哪些群体探索不足？",
+    "options": [
+      "Pigeons and humans.",
+      "Only pigeons, with humans excluded.",
+      "Only humans, with pigeons excluded.",
+      "All animals except pigeons."
+    ],
+    "optionsZh": [
+      "鸽子和人类。",
+      "只有鸽子，排除人类。",
+      "只有人类，排除鸽子。",
+      "除鸽子外所有动物。"
+    ],
+    "answer": 0,
+    "type": "细节",
+    "support": "explicit",
+    "analyses": [
+      "A Both pigeons and humans给出两个群体。",
+      "B humans也明确出现。",
+      "C pigeons也明确出现。",
+      "D 不能把两组扩大为所有其他动物。"
+    ],
+    "vocabulary": [
+      {
+        "word": "explore",
+        "meaning": "探索；尝试和考察可能选项",
+        "context": "这是作者对两类研究对象的概括，不能说明每个人每次都探索不足。",
+        "example": "The passage argues that humans and pigeons do not explore enough.",
+        "collocations": [
+          "pigeons and humans",
+          "don’t explore enough"
+        ]
+      }
+    ],
+    "translation": "7. “先试十二个”：鸽子和人都探索得不够。熟悉感带来的舒适如此有吸引力，让我们忘了探索的乐趣，吃同样的零食、去同一家连锁店，并在通勤途中静静坐着。",
+    "evidenceTargetIds": [
+      "c14-s04-p167-06585-s001",
+      "c14-s04-p167-06585-s002"
+    ],
+    "evidence": [
+      {
+        "quote": "7. “Take a Dozen”: Both pigeons and humans don’t explore enough.",
+        "sentenceIds": [
+          "c14-s04-p167-06585-s001",
+          "c14-s04-p167-06585-s002"
+        ],
+        "sources": [
+          {
+            "pdfPage": 167,
+            "block": 4,
+            "bbox": [
+              88.24,
+              658.5,
+              535,
+              712.02
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "sourceSegments": [
+      {
+        "paragraphId": "c14-s04-p167-06585",
+        "start": 0,
+        "end": 218,
+        "separator": "",
+        "text": "7. “Take a Dozen”: Both pigeons and humans don’t explore enough. The comfort of familiarity is so powerfully attractive that we forget the joy of exploration, eating the same snack, going to the same chain, and sitting"
+      },
+      {
+        "paragraphId": "c14-s04-p168-00750",
+        "start": 0,
+        "end": 23,
+        "separator": " ",
+        "text": "quietly on our commute."
+      }
+    ],
+    "fingerprint": "108feec072959aa052e1834fefb462e1934b2df3ae3e635f931012d469747216"
+  },
+  {
+    "id": "qe-c14-0090",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-066",
+    "parentQuestionId": "q-c14-056",
+    "chapterId": "c14",
+    "sectionId": "c14-s04",
+    "paragraphId": "c14-s04-p167-06585",
+    "readingUnitId": "c14-s04-p167-06585-r001-003",
+    "sentenceIds": [
+      "c14-s04-p167-06585-s001",
+      "c14-s04-p167-06585-s002",
+      "c14-s04-p167-06585-s003",
+      "c14-s04-p168-00750-s001"
+    ],
+    "passage": "7. “Take a Dozen”: Both pigeons and humans don’t explore enough. The comfort of familiarity is so powerfully attractive that we forget the joy of exploration, eating the same snack, going to the same chain, and sitting quietly on our commute.",
+    "prompt": "Which commuting habit completes the list of familiar routines?",
+    "promptZh": "哪种通勤习惯补全了熟悉惯例的列举？",
+    "options": [
+      "Discussing every journey with strangers.",
+      "Planning a different vacation each morning.",
+      "Sitting quietly during the commute.",
+      "Changing destinations every day."
+    ],
+    "optionsZh": [
+      "每次旅途都与陌生人讨论。",
+      "每天早晨规划不同假期。",
+      "通勤时静静坐着。",
+      "每天更换目的地。"
+    ],
+    "answer": 2,
+    "type": "细节",
+    "support": "explicit",
+    "analyses": [
+      "A 未说每次与陌生人讨论。",
+      "B 这不是所列通勤习惯。",
+      "C sitting quietly on our commute是列举的最后一项。",
+      "D 未说每天换目的地。"
+    ],
+    "vocabulary": [
+      {
+        "word": "commute",
+        "meaning": "通勤；日常往返工作或学习地点的行程",
+        "context": "该片段跨页继续前面的sitting，须合读而不是当独立完整句。",
+        "example": "He reads quietly on his daily commute.",
+        "collocations": [
+          "sitting quietly",
+          "on our commute"
+        ]
+      }
+    ],
+    "translation": "7. “先试十二个”：鸽子和人都探索得不够。熟悉感带来的舒适如此有吸引力，让我们忘了探索的乐趣，吃同样的零食、去同一家连锁店，并在通勤途中静静坐着。",
+    "evidenceTargetIds": [
+      "c14-s04-p168-00750-s001"
+    ],
+    "evidence": [
+      {
+        "quote": "7. “Take a Dozen”: Both pigeons and humans don’t explore enough. The comfort of familiarity is so powerfully attractive that we forget the joy of exploration, eating the same snack, going to the same chain, and sitting quietly on our commute.",
+        "sentenceIds": [
+          "c14-s04-p167-06585-s001",
+          "c14-s04-p167-06585-s002",
+          "c14-s04-p167-06585-s003",
+          "c14-s04-p168-00750-s001"
+        ],
+        "sources": [
+          {
+            "pdfPage": 167,
+            "block": 4,
+            "bbox": [
+              88.24,
+              658.5,
+              535,
+              712.02
+            ]
+          },
+          {
+            "pdfPage": 168,
+            "block": 0,
+            "bbox": [
+              103.24,
+              75,
+              535,
+              148.02
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "sourceSegments": [
+      {
+        "paragraphId": "c14-s04-p167-06585",
+        "start": 0,
+        "end": 218,
+        "separator": "",
+        "text": "7. “Take a Dozen”: Both pigeons and humans don’t explore enough. The comfort of familiarity is so powerfully attractive that we forget the joy of exploration, eating the same snack, going to the same chain, and sitting"
+      },
+      {
+        "paragraphId": "c14-s04-p168-00750",
+        "start": 0,
+        "end": 23,
+        "separator": " ",
+        "text": "quietly on our commute."
+      }
+    ],
+    "fingerprint": "fc7bd00525e1f2d4dabc2ca51c61bb149845f22f36ac5d60d08a39bf6877f9ae"
+  },
+  {
+    "id": "qe-c14-0091",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-066",
+    "parentQuestionId": "q-c14-057",
+    "chapterId": "c14",
+    "sectionId": "c14-s04",
+    "paragraphId": "c14-s04-p168-00750",
+    "readingUnitId": "c14-s04-p168-00750-r001-003",
+    "sentenceIds": [
+      "c14-s04-p168-00750-s002",
+      "c14-s04-p168-00750-s003"
+    ],
+    "passage": "But acknowledge this bias and we can overcome it; the “take a dozen” heuristic reminds us to explore at least twelve potential mates, apartments, restaurants, etc., before we take our pick. We make a better decision when we explore more.",
+    "prompt": "What does the author connect with making a better decision?",
+    "promptZh": "作者把更好的决定与什么联系起来？",
+    "options": [
+      "Never making any choice.",
+      "Exploring more options.",
+      "Always choosing the first available option.",
+      "Avoiding every comparison."
+    ],
+    "optionsZh": [
+      "永远不作选择。",
+      "探索更多选项。",
+      "永远选第一个可用选项。",
+      "避免所有比较。"
+    ],
+    "answer": 1,
+    "type": "逻辑关系",
+    "support": "explicit",
+    "analyses": [
+      "A 更好决定不是永不决定；该概括不保证每个情境都有更好结果。",
+      "B when we explore more直接给作者的关联。",
+      "C 前文启发式提醒探索多个候选。",
+      "D 与explore more相反。"
+    ],
+    "vocabulary": [
+      {
+        "word": "decision",
+        "meaning": "决定；在多个可能方案中作出的选择",
+        "context": "这里是作者关于探索的概括，不是对所有选择的无例外保证。",
+        "example": "Exploring alternatives can inform a decision.",
+        "collocations": [
+          "make a better decision",
+          "explore more"
+        ]
+      }
+    ],
+    "translation": "但承认这种偏向，我们便能克服它；“先试十二个”的启发式提醒我们，选定之前至少探索十二个潜在伴侣、公寓、餐厅等。探索更多，我们就能做出更好的决定。",
+    "evidenceTargetIds": [
+      "c14-s04-p168-00750-s003"
+    ],
+    "evidence": [
+      {
+        "quote": "But acknowledge this bias and we can overcome it; the “take a dozen” heuristic reminds us to explore at least twelve potential mates, apartments, restaurants, etc., before we take our pick. We make a better decision when we explore more.",
+        "sentenceIds": [
+          "c14-s04-p168-00750-s002",
+          "c14-s04-p168-00750-s003"
+        ],
+        "sources": [
+          {
+            "pdfPage": 168,
+            "block": 0,
+            "bbox": [
+              103.24,
+              75,
+              535,
+              148.02
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "sourceSegments": [
+      {
+        "paragraphId": "c14-s04-p168-00750",
+        "start": 24,
+        "end": 261,
+        "separator": "",
+        "text": "But acknowledge this bias and we can overcome it; the “take a dozen” heuristic reminds us to explore at least twelve potential mates, apartments, restaurants, etc., before we take our pick. We make a better decision when we explore more."
+      }
+    ],
+    "fingerprint": "289c44e85641b034be4d53e062e1423d73114c18b90a352695b37c4d8e245554"
+  },
+  {
+    "id": "qe-c14-0092",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-066",
+    "parentQuestionId": "q-c14-058",
+    "chapterId": "c14",
+    "sectionId": "c14-s04",
+    "paragraphId": "c14-s04-p168-01718",
+    "readingUnitId": "c14-s04-p168-01718-r001-003",
+    "sentenceIds": [
+      "c14-s04-p168-01718-s001",
+      "c14-s04-p168-01718-s002",
+      "c14-s04-p168-01718-s003"
+    ],
+    "passage": "6. Find Richness in the Familiar: But if you are a Daniel Plainview (“I want to earn enough money, so I can get away from everyone”) or a Eugene Levy (“I really like familiarity”), you can find richness in the familiar. Revisit a favorite band, author, book, film, or person, and you will discover new in the old.",
+    "prompt": "What possibility does 'Find Richness in the Familiar' describe?",
+    "promptZh": "“在熟悉中发现丰富”描述什么可能？",
+    "options": [
+      "People who prefer familiarity can still find richness in it.",
+      "Richness requires rejecting all familiar people and things.",
+      "Only unfamiliar places can ever be psychologically rich.",
+      "Familiarity automatically guarantees happiness for everyone."
+    ],
+    "optionsZh": [
+      "偏爱熟悉事物的人仍可从中发现丰富。",
+      "丰富要求拒绝所有熟悉的人和事。",
+      "只有陌生地方才可能心理丰富。",
+      "熟悉自动保证每个人快乐。"
+    ],
+    "answer": 0,
+    "type": "主旨",
+    "support": "explicit",
+    "analyses": [
+      "A you can find richness in the familiar直接说明。",
+      "B 与在熟悉中发现相反。",
+      "C 本条特别扩展到熟悉对象。",
+      "D can不等于人人快乐保证。"
+    ],
+    "vocabulary": [
+      {
+        "word": "familiar",
+        "meaning": "熟悉的；已经认识或常接触的",
+        "context": "此处指可重新探索的对象，非保证不发生变化。",
+        "example": "A familiar book can reveal a new detail.",
+        "collocations": [
+          "richness in the familiar",
+          "Find Richness"
+        ]
+      }
+    ],
+    "translation": "6. 在熟悉中发现丰富：但如果你像Daniel Plainview（“我想赚够钱，好远离所有人”）或Eugene Levy（“我真的很喜欢熟悉感”），也能在熟悉事物中找到丰富。重新接触喜欢的乐队、作者、书、电影或人，你会在旧中发现新。",
+    "evidenceTargetIds": [
+      "c14-s04-p168-01718-s001",
+      "c14-s04-p168-01718-s002"
+    ],
+    "evidence": [
+      {
+        "quote": "6. Find Richness in the Familiar: But if you are a Daniel Plainview (“I want to earn enough money, so I can get away from everyone”) or a Eugene Levy (“I really like familiarity”), you can find richness in the familiar.",
+        "sentenceIds": [
+          "c14-s04-p168-01718-s001",
+          "c14-s04-p168-01718-s002"
+        ],
+        "sources": [
+          {
+            "pdfPage": 168,
+            "block": 1,
+            "bbox": [
+              88.24,
+              171.75,
+              535.01,
+              264.27
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "f61f5560d3697e74bebe4669a53fa0f38dcc1f5d31231e7abd613048e97afa7e"
+  },
+  {
+    "id": "qe-c14-0094",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-066",
+    "parentQuestionId": "q-c14-059",
+    "chapterId": "c14",
+    "sectionId": "c14-s04",
+    "paragraphId": "c14-s04-p168-02888",
+    "readingUnitId": "c14-s04-p168-02888-r001-004",
+    "sentenceIds": [
+      "c14-s04-p168-02888-s001",
+      "c14-s04-p168-02888-s002",
+      "c14-s04-p168-02888-s003",
+      "c14-s04-p168-02888-s004"
+    ],
+    "passage": "5. Don’t Be Afraid of Negative Events: Many of us fall into the happiness trap. We fear negative events, try to avoid them at all costs, and blame ourselves for our discontent. But it is a fact of life: bad things happen.",
+    "prompt": "What problem is introduced by the negative-events entry?",
+    "promptZh": "负面事件条目引入什么问题？",
+    "options": [
+      "The author claims no one ever fears bad events.",
+      "A clinical trial establishes an identical diagnosis for all readers.",
+      "Many people fall into what the author calls the happiness trap.",
+      "Every negative event is guaranteed to make people happy."
+    ],
+    "optionsZh": [
+      "作者说没有人害怕坏事。",
+      "临床试验证明所有读者都有同一诊断。",
+      "许多人陷入作者所说的快乐陷阱。",
+      "每件负面事件都保证让人快乐。"
+    ],
+    "answer": 2,
+    "type": "作者观点",
+    "support": "explicit",
+    "analyses": [
+      "A 后句说we fear negative events。",
+      "B 这是作者概括，不是临床诊断。",
+      "C Many of us fall into the happiness trap是原句。",
+      "D 没有对每件坏事的快乐保证。"
+    ],
+    "vocabulary": [
+      {
+        "word": "trap",
+        "meaning": "陷阱；使人陷入不利思维模式的情形",
+        "context": "happiness trap在此是作者用语，不等于给读者诊断。",
+        "example": "The author calls excessive avoidance a happiness trap.",
+        "collocations": [
+          "happiness trap",
+          "negative events"
+        ]
+      }
+    ],
+    "translation": "5. 不要害怕负面事件：许多人掉进快乐陷阱。我们怕负面事件，不惜一切代价回避，又为自己的不满责怪自己。但生活事实就是：坏事会发生。",
+    "evidenceTargetIds": [
+      "c14-s04-p168-02888-s001",
+      "c14-s04-p168-02888-s002"
+    ],
+    "evidence": [
+      {
+        "quote": "5. Don’t Be Afraid of Negative Events: Many of us fall into the happiness trap.",
+        "sentenceIds": [
+          "c14-s04-p168-02888-s001",
+          "c14-s04-p168-02888-s002"
+        ],
+        "sources": [
+          {
+            "pdfPage": 168,
+            "block": 2,
+            "bbox": [
+              88.24,
+              288.75,
+              535.01,
+              439.77
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "65d42aead9d05572d6b0fa54977ce34fe788c558d5c7cbd4c5a30156515852b2"
+  },
+  {
+    "id": "qe-c14-0096",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-066",
+    "parentQuestionId": "q-c14-059",
+    "chapterId": "c14",
+    "sectionId": "c14-s04",
+    "paragraphId": "c14-s04-p168-02888",
+    "readingUnitId": "c14-s04-p168-02888-r001-004",
+    "sentenceIds": [
+      "c14-s04-p168-02888-s001",
+      "c14-s04-p168-02888-s002",
+      "c14-s04-p168-02888-s003",
+      "c14-s04-p168-02888-s004"
+    ],
+    "passage": "5. Don’t Be Afraid of Negative Events: Many of us fall into the happiness trap. We fear negative events, try to avoid them at all costs, and blame ourselves for our discontent. But it is a fact of life: bad things happen.",
+    "prompt": "What reality does the author acknowledge about bad events?",
+    "promptZh": "作者承认关于坏事的什么现实？",
+    "options": [
+      "Bad things happen as part of life.",
+      "Bad things can always be prevented with enough optimism.",
+      "Every negative event has the same outcome for everyone.",
+      "All events must be interpreted as enjoyable."
+    ],
+    "optionsZh": [
+      "坏事会发生，是生活的一部分。",
+      "只要乐观就总能避免坏事。",
+      "每件负面事件对每个人结果相同。",
+      "所有事件都必须被理解为令人愉快。"
+    ],
+    "answer": 0,
+    "type": "细节",
+    "support": "explicit",
+    "analyses": [
+      "A fact of life: bad things happen直接对应。",
+      "B 与坏事发生的承认相反。",
+      "C 无相同结果的全员结论。",
+      "D 坏事发生不等于强迫感到愉快。"
+    ],
+    "vocabulary": [
+      {
+        "word": "fact of life",
+        "meaning": "生活中不可避免的现实",
+        "context": "此处承认坏事会发生，不证明每次坏事都会带来成长。",
+        "example": "Setbacks are a fact of life.",
+        "collocations": [
+          "a fact of life",
+          "bad things happen"
+        ]
+      }
+    ],
+    "translation": "5. 不要害怕负面事件：许多人掉进快乐陷阱。我们怕负面事件，不惜一切代价回避，又为自己的不满责怪自己。但生活事实就是：坏事会发生。",
+    "evidenceTargetIds": [
+      "c14-s04-p168-02888-s004"
+    ],
+    "evidence": [
+      {
+        "quote": "5. Don’t Be Afraid of Negative Events: Many of us fall into the happiness trap. We fear negative events, try to avoid them at all costs, and blame ourselves for our discontent. But it is a fact of life: bad things happen.",
+        "sentenceIds": [
+          "c14-s04-p168-02888-s001",
+          "c14-s04-p168-02888-s002",
+          "c14-s04-p168-02888-s003",
+          "c14-s04-p168-02888-s004"
+        ],
+        "sources": [
+          {
+            "pdfPage": 168,
+            "block": 2,
+            "bbox": [
+              88.24,
+              288.75,
+              535.01,
+              439.77
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "c2f99abba1655138f7496e7f65bc48e47ddc738104b7a350fd23bcef9d63172b"
+  },
+  {
+    "id": "qe-c14-0097",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-066",
+    "parentQuestionId": "q-c14-060",
+    "chapterId": "c14",
+    "sectionId": "c14-s04",
+    "paragraphId": "c14-s04-p168-02888",
+    "readingUnitId": "c14-s04-p168-02888-r005-008",
+    "sentenceIds": [
+      "c14-s04-p168-02888-s005",
+      "c14-s04-p168-02888-s006",
+      "c14-s04-p168-02888-s007",
+      "c14-s04-p168-02888-s008"
+    ],
+    "passage": "It’s OK to fail; it’s OK to feel negative emotions. Remember Nietzsche: these challenges will make you wiser. Remember James Joyce: Per aspera ad astra—through hardship to the stars. This is all part of your story.",
+    "prompt": "How should the reference to Nietzsche and challenges be understood?",
+    "promptZh": "如何理解提到Nietzsche和挑战的说法？",
+    "options": [
+      "As a controlled study proving every hardship makes every person wiser.",
+      "As a claim that no one ever experiences negative emotions.",
+      "As a requirement to seek danger regardless of circumstances.",
+      "As the author's encouragement that challenges can contribute to wisdom."
+    ],
+    "optionsZh": [
+      "受控研究证明每次艰难都让每个人更智慧。",
+      "说没有人经历负面情绪。",
+      "要求不顾情况主动寻险。",
+      "作者鼓励把挑战看作可能带来智慧的经历。"
+    ],
+    "answer": 3,
+    "type": "证据范围",
+    "support": "explicit",
+    "analyses": [
+      "A 不是全员随机实验，也不应把劝勉写成对每次创伤的保证。",
+      "B 前句承认负面情绪可以存在。",
+      "C 没要求不顾风险主动寻险。",
+      "D 这是书中劝勉和思想引用，保留观点归属。"
+    ],
+    "vocabulary": [
+      {
+        "word": "wiser",
+        "meaning": "更有智慧的；判断更成熟的",
+        "context": "作者用它描述可能的成长方向，而非对每个人的医学预测。",
+        "example": "Reflection on a challenge may help someone become wiser.",
+        "collocations": [
+          "these challenges",
+          "make you wiser"
+        ]
+      }
+    ],
+    "translation": "失败没关系，有负面情绪也没关系。记住Nietzsche：这些挑战会让你更有智慧。记住James Joyce：Per aspera ad astra——穿过艰难，走向群星。这都是你故事的一部分。",
+    "evidenceTargetIds": [
+      "c14-s04-p168-02888-s006"
+    ],
+    "evidence": [
+      {
+        "quote": "It’s OK to fail; it’s OK to feel negative emotions. Remember Nietzsche: these challenges will make you wiser. Remember James Joyce: Per aspera ad astra—through hardship to the stars. This is all part of your story.",
+        "sentenceIds": [
+          "c14-s04-p168-02888-s005",
+          "c14-s04-p168-02888-s006",
+          "c14-s04-p168-02888-s007",
+          "c14-s04-p168-02888-s008"
+        ],
+        "sources": [
+          {
+            "pdfPage": 168,
+            "block": 2,
+            "bbox": [
+              88.24,
+              288.75,
+              535.01,
+              439.77
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "ff02d5e20d610905a679eb65348174ad97a4f06e95509cc907636d72f2576ae8"
+  },
+  {
+    "id": "qe-c14-0098",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-066",
+    "parentQuestionId": "q-c14-060",
+    "chapterId": "c14",
+    "sectionId": "c14-s04",
+    "paragraphId": "c14-s04-p168-02888",
+    "readingUnitId": "c14-s04-p168-02888-r005-008",
+    "sentenceIds": [
+      "c14-s04-p168-02888-s005",
+      "c14-s04-p168-02888-s006",
+      "c14-s04-p168-02888-s007",
+      "c14-s04-p168-02888-s008"
+    ],
+    "passage": "It’s OK to fail; it’s OK to feel negative emotions. Remember Nietzsche: these challenges will make you wiser. Remember James Joyce: Per aspera ad astra—through hardship to the stars. This is all part of your story.",
+    "prompt": "What does the passage give as the meaning of 'Per aspera ad astra'?",
+    "promptZh": "段落将Per aspera ad astra解释为什么？",
+    "options": [
+      "Through certainty to avoiding all effort.",
+      "From wealth to guaranteed happiness.",
+      "Through hardship to the stars.",
+      "From comfort to an identical routine."
+    ],
+    "optionsZh": [
+      "通过确定性避免一切努力。",
+      "从财富走向保证的快乐。",
+      "穿过艰难，走向群星。",
+      "从舒适走向完全相同的惯例。"
+    ],
+    "answer": 2,
+    "type": "细节",
+    "support": "explicit",
+    "analyses": [
+      "A hardship与无努力相反。",
+      "B 没有财富或保证快乐的翻译。",
+      "C 破折号后直接给through hardship to the stars。",
+      "D 不是从舒适到重复。"
+    ],
+    "vocabulary": [
+      {
+        "word": "hardship",
+        "meaning": "艰难；困难经历",
+        "context": "此处属于格言的比喻表达，不保证每次苦难都带来同一结果。",
+        "example": "The phrase connects hardship with the hope of reaching the stars.",
+        "collocations": [
+          "through hardship",
+          "to the stars"
+        ]
+      }
+    ],
+    "translation": "失败没关系，有负面情绪也没关系。记住Nietzsche：这些挑战会让你更有智慧。记住James Joyce：Per aspera ad astra——穿过艰难，走向群星。这都是你故事的一部分。",
+    "evidenceTargetIds": [
+      "c14-s04-p168-02888-s007"
+    ],
+    "evidence": [
+      {
+        "quote": "It’s OK to fail; it’s OK to feel negative emotions. Remember Nietzsche: these challenges will make you wiser. Remember James Joyce: Per aspera ad astra—through hardship to the stars. This is all part of your story.",
+        "sentenceIds": [
+          "c14-s04-p168-02888-s005",
+          "c14-s04-p168-02888-s006",
+          "c14-s04-p168-02888-s007",
+          "c14-s04-p168-02888-s008"
+        ],
+        "sources": [
+          {
+            "pdfPage": 168,
+            "block": 2,
+            "bbox": [
+              88.24,
+              288.75,
+              535.01,
+              439.77
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "653715dce9deb469a1fdffb69d9e48c76f4dbfc7c929b787bd7153807a4497a9"
+  },
+  {
+    "id": "qe-c14-0099",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-066",
+    "parentQuestionId": "q-c14-062",
+    "chapterId": "c14",
+    "sectionId": "c14-s04",
+    "paragraphId": "c14-s04-p168-04635",
+    "readingUnitId": "c14-s04-p168-04635-r001-004",
+    "sentenceIds": [
+      "c14-s04-p168-04635-s001",
+      "c14-s04-p168-04635-s002",
+      "c14-s04-p168-04635-s003",
+      "c14-s04-p168-04635-s004"
+    ],
+    "passage": "4. Write and Tell: Richness is the accumulation of interesting stories. It’s important to remember them, and writing is an excellent way to do it. Telling a story is also a great way to remember.",
+    "prompt": "How does the 'Write and Tell' entry describe richness?",
+    "promptZh": "“写下来、讲出来”条目怎样描述丰富？",
+    "options": [
+      "As an experience that cannot be described in words.",
+      "As the accumulation of interesting stories.",
+      "As the requirement to forget every past event.",
+      "As a numerical guarantee of wealth."
+    ],
+    "optionsZh": [
+      "无法用语言描述的体验。",
+      "有趣故事的积累。",
+      "必须忘掉所有过去事件。",
+      "财富的数字保证。"
+    ],
+    "answer": 1,
+    "type": "主旨",
+    "support": "explicit",
+    "analyses": [
+      "A 写与讲恰用语言保存故事。",
+      "B 标题后的句子明确说accumulation of interesting stories。",
+      "C 后句提议记住故事。",
+      "D 丰富不被此句定义为财富保证。"
+    ],
+    "vocabulary": [
+      {
+        "word": "accumulation",
+        "meaning": "积累；逐渐汇集形成的总量",
+        "context": "这里指有趣故事随经历逐渐汇集，并非银行存款。",
+        "example": "The accumulation of stories can give a life richness.",
+        "collocations": [
+          "accumulation of interesting stories",
+          "Write and Tell"
+        ]
+      }
+    ],
+    "translation": "4. 写下来、讲出来：丰富是有趣故事的积累。记住它们很重要，写作是很好的办法；讲故事也是记忆的好方式。",
+    "evidenceTargetIds": [
+      "c14-s04-p168-04635-s001",
+      "c14-s04-p168-04635-s002"
+    ],
+    "evidence": [
+      {
+        "quote": "4. Write and Tell: Richness is the accumulation of interesting stories.",
+        "sentenceIds": [
+          "c14-s04-p168-04635-s001",
+          "c14-s04-p168-04635-s002"
+        ],
+        "sources": [
+          {
+            "pdfPage": 168,
+            "block": 3,
+            "bbox": [
+              88.24,
+              463.5,
+              535.02,
+              614.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "94593723acf05e648bcf252c4b417381e2cc565edc00d2cd26cad00bb53b7280"
+  },
+  {
+    "id": "qe-c14-0101",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-066",
+    "parentQuestionId": "q-c14-063",
+    "chapterId": "c14",
+    "sectionId": "c14-s04",
+    "paragraphId": "c14-s04-p168-04635",
+    "readingUnitId": "c14-s04-p168-04635-r005-008",
+    "sentenceIds": [
+      "c14-s04-p168-04635-s005",
+      "c14-s04-p168-04635-s006",
+      "c14-s04-p168-04635-s007",
+      "c14-s04-p168-04635-s008"
+    ],
+    "passage": "As you write and tell, you can edit your story. Keep the bad stuff but use it as a springboard for growth. Remember Hemingway’s moveable feast and find your own. Just as wealth can be transferred across generations and help the next generation become materially rich, your stories can be transferred to the next generation and help them become psychologically rich.",
+    "prompt": "What can someone do while writing and telling a story?",
+    "promptZh": "写与讲故事时可以做什么？",
+    "options": [
+      "Erase every event from memory.",
+      "Guarantee that every listener agrees.",
+      "Prevent the story from being shared.",
+      "Edit the story."
+    ],
+    "optionsZh": [
+      "从记忆抹去每件事。",
+      "保证所有听众赞同。",
+      "阻止故事被分享。",
+      "编辑自己的故事。"
+    ],
+    "answer": 3,
+    "type": "细节",
+    "support": "explicit",
+    "analyses": [
+      "A 编辑不是抹去所有事件。",
+      "B 没有保证听众同意。",
+      "C telling本身涉及讲述分享。",
+      "D can edit your story直接对应。"
+    ],
+    "vocabulary": [
+      {
+        "word": "edit",
+        "meaning": "编辑；调整组织与表达",
+        "context": "此处指处理故事的叙述，不授权把虚构内容冒充事实。",
+        "example": "She can edit her story while preserving what happened.",
+        "collocations": [
+          "write and tell",
+          "edit your story"
+        ]
+      }
+    ],
+    "translation": "写与讲时，可以编辑自己的故事。保留不好的部分，却把它用作成长的跳板。记住Hemingway的流动盛宴，找到属于自己的。财富可以代际传递，帮助下一代物质富裕；同样，你的故事也可以传给下一代，帮助他们心理丰富。",
+    "evidenceTargetIds": [
+      "c14-s04-p168-04635-s005"
+    ],
+    "evidence": [
+      {
+        "quote": "As you write and tell, you can edit your story. Keep the bad stuff but use it as a springboard for growth. Remember Hemingway’s moveable feast and find your own. Just as wealth can be transferred across generations and help the next generation become materially rich, your stories can be transferred to the next generation and help them become psychologically rich.",
+        "sentenceIds": [
+          "c14-s04-p168-04635-s005",
+          "c14-s04-p168-04635-s006",
+          "c14-s04-p168-04635-s007",
+          "c14-s04-p168-04635-s008"
+        ],
+        "sources": [
+          {
+            "pdfPage": 168,
+            "block": 3,
+            "bbox": [
+              88.24,
+              463.5,
+              535.02,
+              614.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "f19bb18d9dcad5e8d0fb763c4c4dc8d8789c3b04bd349f8d76616aea0275d242"
+  },
+  {
+    "id": "qe-c14-0102",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-066",
+    "parentQuestionId": "q-c14-063",
+    "chapterId": "c14",
+    "sectionId": "c14-s04",
+    "paragraphId": "c14-s04-p168-04635",
+    "readingUnitId": "c14-s04-p168-04635-r005-008",
+    "sentenceIds": [
+      "c14-s04-p168-04635-s005",
+      "c14-s04-p168-04635-s006",
+      "c14-s04-p168-04635-s007",
+      "c14-s04-p168-04635-s008"
+    ],
+    "passage": "As you write and tell, you can edit your story. Keep the bad stuff but use it as a springboard for growth. Remember Hemingway’s moveable feast and find your own. Just as wealth can be transferred across generations and help the next generation become materially rich, your stories can be transferred to the next generation and help them become psychologically rich.",
+    "prompt": "What does 'springboard for growth' suggest?",
+    "promptZh": "springboard for growth表达什么？",
+    "options": [
+      "Proving every hardship inevitably produces growth.",
+      "Avoiding all reflection on negative experiences.",
+      "Using difficult material as a possible starting point for development.",
+      "Removing every difficult detail from the story."
+    ],
+    "optionsZh": [
+      "证明每次困难必然带来成长。",
+      "避免反思所有负面经历。",
+      "把困难内容作为可能的成长起点。",
+      "删除故事里的所有困难细节。"
+    ],
+    "answer": 2,
+    "type": "语境词义",
+    "support": "explicit",
+    "analyses": [
+      "A 劝勉不是对每次经历的因果保证。",
+      "B use...for growth需要处理而非完全回避。",
+      "C springboard是帮助继续发展的比喻，作者建议保留bad stuff。",
+      "D keep the bad stuff与删除相反。"
+    ],
+    "vocabulary": [
+      {
+        "word": "springboard",
+        "meaning": "跳板；促成下一步行动的起点",
+        "context": "此处为成长的比喻，不是每次痛苦必然带来成长的证明。",
+        "example": "A reflection can be a springboard for growth.",
+        "collocations": [
+          "springboard for growth",
+          "Keep the bad stuff"
+        ]
+      }
+    ],
+    "translation": "写与讲时，可以编辑自己的故事。保留不好的部分，却把它用作成长的跳板。记住Hemingway的流动盛宴，找到属于自己的。财富可以代际传递，帮助下一代物质富裕；同样，你的故事也可以传给下一代，帮助他们心理丰富。",
+    "evidenceTargetIds": [
+      "c14-s04-p168-04635-s006"
+    ],
+    "evidence": [
+      {
+        "quote": "As you write and tell, you can edit your story. Keep the bad stuff but use it as a springboard for growth. Remember Hemingway’s moveable feast and find your own. Just as wealth can be transferred across generations and help the next generation become materially rich, your stories can be transferred to the next generation and help them become psychologically rich.",
+        "sentenceIds": [
+          "c14-s04-p168-04635-s005",
+          "c14-s04-p168-04635-s006",
+          "c14-s04-p168-04635-s007",
+          "c14-s04-p168-04635-s008"
+        ],
+        "sources": [
+          {
+            "pdfPage": 168,
+            "block": 3,
+            "bbox": [
+              88.24,
+              463.5,
+              535.02,
+              614.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "613fe9f619f858d4cb2bc45f4d857a99c6db9fb7f868cdbf657c3202af57b488"
+  },
+  {
+    "id": "qe-c14-0103",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-066",
+    "parentQuestionId": "q-c14-063",
+    "chapterId": "c14",
+    "sectionId": "c14-s04",
+    "paragraphId": "c14-s04-p168-04635",
+    "readingUnitId": "c14-s04-p168-04635-r005-008",
+    "sentenceIds": [
+      "c14-s04-p168-04635-s005",
+      "c14-s04-p168-04635-s006",
+      "c14-s04-p168-04635-s007",
+      "c14-s04-p168-04635-s008"
+    ],
+    "passage": "As you write and tell, you can edit your story. Keep the bad stuff but use it as a springboard for growth. Remember Hemingway’s moveable feast and find your own. Just as wealth can be transferred across generations and help the next generation become materially rich, your stories can be transferred to the next generation and help them become psychologically rich.",
+    "prompt": "Whose 'moveable feast' does the author mention?",
+    "promptZh": "作者提到了谁的moveable feast？",
+    "options": [
+      "Sacks's.",
+      "Hemingway's.",
+      "Nietzsche's.",
+      "Calhoun's."
+    ],
+    "optionsZh": [
+      "Sacks的。",
+      "Hemingway的。",
+      "Nietzsche的。",
+      "Calhoun的。"
+    ],
+    "answer": 1,
+    "type": "细节",
+    "support": "explicit",
+    "analyses": [
+      "A Sacks在前面人生实例。",
+      "B Hemingway's moveable feast直接给出处。",
+      "C Nietzsche在另一个条目。",
+      "D Calhoun在自由条目。"
+    ],
+    "vocabulary": [
+      {
+        "word": "moveable feast",
+        "meaning": "流动的盛宴；此处为所引文学表达",
+        "context": "作者借这一文学表达鼓励寻找属于自己的体验，不是实验名称。",
+        "example": "The author refers to Hemingway's moveable feast.",
+        "collocations": [
+          "Hemingway’s moveable feast",
+          "find your own"
+        ]
+      }
+    ],
+    "translation": "写与讲时，可以编辑自己的故事。保留不好的部分，却把它用作成长的跳板。记住Hemingway的流动盛宴，找到属于自己的。财富可以代际传递，帮助下一代物质富裕；同样，你的故事也可以传给下一代，帮助他们心理丰富。",
+    "evidenceTargetIds": [
+      "c14-s04-p168-04635-s007"
+    ],
+    "evidence": [
+      {
+        "quote": "As you write and tell, you can edit your story. Keep the bad stuff but use it as a springboard for growth. Remember Hemingway’s moveable feast and find your own. Just as wealth can be transferred across generations and help the next generation become materially rich, your stories can be transferred to the next generation and help them become psychologically rich.",
+        "sentenceIds": [
+          "c14-s04-p168-04635-s005",
+          "c14-s04-p168-04635-s006",
+          "c14-s04-p168-04635-s007",
+          "c14-s04-p168-04635-s008"
+        ],
+        "sources": [
+          {
+            "pdfPage": 168,
+            "block": 3,
+            "bbox": [
+              88.24,
+              463.5,
+              535.02,
+              614.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "50f0c61c3e5b6d122c5a0ccce4c744bc1b32c7ee84162ac4ba8ac7f5dc71add8"
+  },
+  {
+    "id": "qe-c14-0104",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-066",
+    "parentQuestionId": "q-c14-064",
+    "chapterId": "c14",
+    "sectionId": "c14-s04",
+    "paragraphId": "c14-s04-p168-06390",
+    "readingUnitId": "c14-s04-p168-06390-r001-004",
+    "sentenceIds": [
+      "c14-s04-p168-06390-s001",
+      "c14-s04-p168-06390-s002",
+      "c14-s04-p168-06390-s003",
+      "c14-s04-p168-06390-s004"
+    ],
+    "passage": "3. Be Spontaneous: We live in a highly scheduled time. Most of us need an appointment to hang out with our friends. Next time you are bored, text your friends to see if they are free.",
+    "prompt": "How does the 'Be Spontaneous' entry characterise the present?",
+    "promptZh": "“自发一些”条目怎样描述当下？",
+    "options": [
+      "As a highly scheduled time.",
+      "As a time when nobody uses a schedule.",
+      "As an era with no obligations at all.",
+      "As proof that all spontaneous choices are safe."
+    ],
+    "optionsZh": [
+      "日程安排密集的时代。",
+      "没有人使用日程表的时代。",
+      "完全没有义务的时代。",
+      "证明所有自发选择都安全。"
+    ],
+    "answer": 0,
+    "type": "细节",
+    "support": "explicit",
+    "analyses": [
+      "A 标题后的句子说highly scheduled time。",
+      "B 与原句相反。",
+      "C 未说没有义务。",
+      "D 时间安排的描述不证明每项行动安全。"
+    ],
+    "vocabulary": [
+      {
+        "word": "scheduled",
+        "meaning": "按日程安排的；预先计划好的",
+        "context": "这里描述作者观察到的生活节奏，不意味着每个人每天都一样。",
+        "example": "They live in a highly scheduled time.",
+        "collocations": [
+          "highly scheduled time",
+          "Be Spontaneous"
+        ]
+      }
+    ],
+    "translation": "3. 自发一些：我们生活在日程安排密集的时代。多数人连和朋友聚聚都需要预约。下次无聊时，发消息问问朋友有没有空。",
+    "evidenceTargetIds": [
+      "c14-s04-p168-06390-s001",
+      "c14-s04-p168-06390-s002"
+    ],
+    "evidence": [
+      {
+        "quote": "3. Be Spontaneous: We live in a highly scheduled time.",
+        "sentenceIds": [
+          "c14-s04-p168-06390-s001",
+          "c14-s04-p168-06390-s002"
+        ],
+        "sources": [
+          {
+            "pdfPage": 168,
+            "block": 4,
+            "bbox": [
+              88.24,
+              639,
+              535.01,
+              712.02
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "4b67d812888b312cbfead1e254b28dd67ebaf75cd635b7c5beab036e9332b179"
+  },
+  {
+    "id": "qe-c14-0106",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-066",
+    "parentQuestionId": "q-c14-064",
+    "chapterId": "c14",
+    "sectionId": "c14-s04",
+    "paragraphId": "c14-s04-p168-06390",
+    "readingUnitId": "c14-s04-p168-06390-r001-004",
+    "sentenceIds": [
+      "c14-s04-p168-06390-s001",
+      "c14-s04-p168-06390-s002",
+      "c14-s04-p168-06390-s003",
+      "c14-s04-p168-06390-s004"
+    ],
+    "passage": "3. Be Spontaneous: We live in a highly scheduled time. Most of us need an appointment to hang out with our friends. Next time you are bored, text your friends to see if they are free.",
+    "prompt": "What does the author say most people need to meet friends?",
+    "promptZh": "作者说多数人与朋友相聚需要什么？",
+    "options": [
+      "A new passport.",
+      "A guarantee that no schedule will change.",
+      "An appointment.",
+      "A research grant."
+    ],
+    "optionsZh": [
+      "新护照。",
+      "日程永不改变的保证。",
+      "预约或约定时间。",
+      "研究资助。"
+    ],
+    "answer": 2,
+    "type": "细节",
+    "support": "explicit",
+    "analyses": [
+      "A 未提护照。",
+      "B appointment不保证日程永远不变；most不是所有人。",
+      "C Most of us need an appointment直接对应。",
+      "D 与会友无关。"
+    ],
+    "vocabulary": [
+      {
+        "word": "appointment",
+        "meaning": "预约；约定的会面时间",
+        "context": "这里用于朋友间相聚的安排，非仅指医疗预约或职位任命。",
+        "example": "She made an appointment to meet a friend.",
+        "collocations": [
+          "need an appointment",
+          "hang out with our friends"
+        ]
+      }
+    ],
+    "translation": "3. 自发一些：我们生活在日程安排密集的时代。多数人连和朋友聚聚都需要预约。下次无聊时，发消息问问朋友有没有空。",
+    "evidenceTargetIds": [
+      "c14-s04-p168-06390-s003"
+    ],
+    "evidence": [
+      {
+        "quote": "3. Be Spontaneous: We live in a highly scheduled time. Most of us need an appointment to hang out with our friends. Next time you are bored, text your friends to see if they are free.",
+        "sentenceIds": [
+          "c14-s04-p168-06390-s001",
+          "c14-s04-p168-06390-s002",
+          "c14-s04-p168-06390-s003",
+          "c14-s04-p168-06390-s004"
+        ],
+        "sources": [
+          {
+            "pdfPage": 168,
+            "block": 4,
+            "bbox": [
+              88.24,
+              639,
+              535.01,
+              712.02
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "9e5774daa4f6cf25185c499cb12ac5f3aeb1936b7f0e9b904c4a3a351e684aba"
+  },
+  {
+    "id": "qe-c14-0107",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-066",
+    "parentQuestionId": "q-c14-066",
+    "chapterId": "c14",
+    "sectionId": "c14-s04",
+    "paragraphId": "c14-s04-p169-00750",
+    "readingUnitId": "c14-s04-p169-00750-r001-002",
+    "sentenceIds": [
+      "c14-s04-p168-06390-s008",
+      "c14-s04-p169-00750-s001",
+      "c14-s04-p169-00750-s002"
+    ],
+    "passage": "Stop by a gallery, a used bookstore, or a Goodwill store. You never know what you will find.",
+    "prompt": "Which places are suggested as possible spontaneous stops?",
+    "promptZh": "文中建议可顺路去哪几类地方？",
+    "options": [
+      "Only a friend's home with a fixed appointment.",
+      "A gallery, a used bookstore, or a Goodwill store.",
+      "Only a newly built shopping mall.",
+      "A bank, a police station, and a cruise ship."
+    ],
+    "optionsZh": [
+      "只有已预约的朋友家。",
+      "画廊、旧书店或Goodwill店。",
+      "只有新建购物中心。",
+      "银行、警局和游轮。"
+    ],
+    "answer": 1,
+    "type": "细节",
+    "support": "explicit",
+    "analyses": [
+      "A 不限朋友家，也未要求预约。",
+      "B 完整跨页句列出gallery、used bookstore和Goodwill store。",
+      "C only a mall不在原句。",
+      "D 把其他经历地点混入。"
+    ],
+    "vocabulary": [
+      {
+        "word": "Stop by",
+        "meaning": "顺路拜访；短暂去某处",
+        "context": "该短语在PDF跨页续接地点清单，两个候选片段共同构成一句。",
+        "example": "They stopped by a used bookstore on the way home.",
+        "collocations": [
+          "Stop by a gallery",
+          "a used bookstore"
+        ]
+      }
+    ],
+    "translation": "顺路去一家画廊、旧书店或 Goodwill 店。你永远不知道会发现什么。",
+    "evidenceTargetIds": [
+      "c14-s04-p168-06390-s008",
+      "c14-s04-p169-00750-s001"
+    ],
+    "evidence": [
+      {
+        "quote": "Stop by a gallery, a used bookstore, or a Goodwill store.",
+        "sentenceIds": [
+          "c14-s04-p168-06390-s008",
+          "c14-s04-p169-00750-s001"
+        ],
+        "sources": [
+          {
+            "pdfPage": 168,
+            "block": 4,
+            "bbox": [
+              88.24,
+              639,
+              535.01,
+              712.02
+            ]
+          },
+          {
+            "pdfPage": 169,
+            "block": 0,
+            "bbox": [
+              103.24,
+              75,
+              535,
+              109.02
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "sourceSegments": [
+      {
+        "paragraphId": "c14-s04-p168-06390",
+        "start": 276,
+        "end": 285,
+        "separator": "",
+        "text": "Stop by a"
+      },
+      {
+        "paragraphId": "c14-s04-p169-00750",
+        "start": 0,
+        "end": 82,
+        "separator": " ",
+        "text": "gallery, a used bookstore, or a Goodwill store. You never know what you will find."
+      }
+    ],
+    "fingerprint": "27225d7bb4c092e97465ff7c03adae10ba72bbbe8e3fc9f88965f31c0476f416"
   }
 ]

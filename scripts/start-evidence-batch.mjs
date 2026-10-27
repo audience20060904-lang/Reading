@@ -9,6 +9,8 @@ const covered=new Set([...primary,...extras].flatMap(q=>q.evidence.flatMap(e=>e.
 if(!missing.length){console.log(JSON.stringify({action:'audit-final-report',remaining:0}));process.exit(0);}
 const sequence=frozen.length+1,number=String(sequence).padStart(3,'0'),id=`evidence-${number}`,chapterNext={};
 for(const q of extras){const match=q.id.match(/^qe-(c\d+)-(\d+)$/);if(match)chapterNext[match[1]]=Math.max(chapterNext[match[1]]??0,Number(match[2]));}
+// IDs allocated to grouped targets remain reserved even if no separate question uses them.
+for(const name of frozen)for(const t of (await read(folder+'/'+name)).targets){const match=t.questionId.match(/^qe-(c\d+)-(\d+)$/);if(match)chapterNext[match[1]]=Math.max(chapterNext[match[1]]??0,Number(match[2]));}
 const hash=s=>createHash('sha256').update(s).digest('hex'),targets=missing.slice(0,25).map((s,i)=>{const unit=units.find(u=>u.sentenceIds.includes(s.id)),parent=primary.find(q=>q.id===unit.questionId),n=(chapterNext[s.chapterId]??0)+1;chapterNext[s.chapterId]=n;return {order:i+1,questionId:`qe-${s.chapterId}-${String(n).padStart(4,'0')}`,sentenceId:s.id,sentenceText:s.text,sentenceSha256:hash(s.text),readingUnitId:unit.id,parentQuestionId:parent.id,parentFingerprint:parent.fingerprint,passageSha256:hash(parent.passage),pdfPages:unit.pdfPages};});
 const targetPath=`${folder}/batch${number}-targets.json`,authorPath=`${folder}/batch${number}-author.json`;
 await writeFile(targetPath,JSON.stringify({schemaVersion:1,id,status:'targets-frozen',pdfSha256:book.pdfSha256,previousRemaining:missing.length,evidenceRule:'Each authored question must genuinely require its frozen target sentence. Preserve exact PDF-derived text.',targets},null,2)+'\n',{flag:'wx'});
