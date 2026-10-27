@@ -1,0 +1,94 @@
+{
+  "schemaVersion": 1,
+  "id": "evidence-066",
+  "status": "published-and-verified",
+  "date": "2026-10-27",
+  "verifiedAt": "2026-10-27T07:19:53.765711+00:00",
+  "url": "https://audience20060904-lang.github.io/Reading/",
+  "repositoryVisibility": "public",
+  "sourceCommit": "b8855e4315c60b9f79dc4820ca4fce25222c58aa",
+  "deploymentCommit": "1cfd967d44c39cf93af8aa7eed83bde65a4446fa",
+  "workflowRun": "https://github.com/audience20060904-lang/Reading/actions/runs/40466313674",
+  "workflowStatus": "completed",
+  "workflowConclusion": "success",
+  "offlineVersion": "1145c49a9ec34ba8",
+  "questionFingerprints": {
+    "qe-c14-0084": "06ac8c6937eac521c9e842bdfa9f97f2b9bfaae863aefeb390cbad1d027c2637",
+    "qe-c14-0085": "a8c947bae025571a81f87a59b55e07d24ecef1cca5e2775bb4c7bf0d918763ad",
+    "qe-c14-0086": "a245a880d87fd9230e9f38919eed3be3063390c380ee803997bfb555c49adac6",
+    "qe-c14-0088": "108feec072959aa052e1834fefb462e1934b2df3ae3e635f931012d469747216",
+    "qe-c14-0090": "fc7bd00525e1f2d4dabc2ca51c61bb149845f22f36ac5d60d08a39bf6877f9ae",
+    "qe-c14-0091": "289c44e85641b034be4d53e062e1423d73114c18b90a352695b37c4d8e245554",
+    "qe-c14-0092": "f61f5560d3697e74bebe4669a53fa0f38dcc1f5d31231e7abd613048e97afa7e",
+    "qe-c14-0094": "65d42aead9d05572d6b0fa54977ce34fe788c558d5c7cbd4c5a30156515852b2",
+    "qe-c14-0096": "c2f99abba1655138f7496e7f65bc48e47ddc738104b7a350fd23bcef9d63172b",
+    "qe-c14-0097": "ff02d5e20d610905a679eb65348174ad97a4f06e95509cc907636d72f2576ae8",
+    "qe-c14-0098": "653715dce9deb469a1fdffb69d9e48c76f4dbfc7c929b787bd7153807a4497a9",
+    "qe-c14-0099": "94593723acf05e648bcf252c4b417381e2cc565edc00d2cd26cad00bb53b7280",
+    "qe-c14-0101": "f19bb18d9dcad5e8d0fb763c4c4dc8d8789c3b04bd349f8d76616aea0275d242",
+    "qe-c14-0102": "613fe9f619f858d4cb2bc45f4d857a99c6db9fb7f868cdbf657c3202af57b488",
+    "qe-c14-0103": "50f0c61c3e5b6d122c5a0ccce4c744bc1b32c7ee84162ac4ba8ac7f5dc71add8",
+    "qe-c14-0104": "4b67d812888b312cbfead1e254b28dd67ebaf75cd635b7c5beab036e9332b179",
+    "qe-c14-0106": "9e5774daa4f6cf25185c499cb12ac5f3aeb1936b7f0e9b904c4a3a351e684aba",
+    "qe-c14-0107": "27225d7bb4c092e97465ff7c03adae10ba72bbbe8e3fc9f88965f31c0476f416"
+  },
+  "content": {
+    "newQuestions": 18,
+    "initialGoalGaps": 1661,
+    "beforeRemaining": 36,
+    "afterRemaining": 11,
+    "currentDirectEvidence": 3149,
+    "currentQuestions": 2699,
+    "primaryQuestionsRetained": 1056,
+    "readingUnitsRetained": 1056,
+    "candidateSentenceIds": 3160,
+    "fullCoverage": false,
+    "goalComplete": false,
+    "reviewedPdfPages": [
+      167,
+      168,
+      169
+    ],
+    "targetRecord": "source/evidence-questions/batch066-targets.json",
+    "authorRecord": "source/evidence-questions/batch066-author.json",
+    "reviewRecord": "source/evidence-questions/batch066-review.json"
+  },
+  "validation": {
+    "unitTests": 320,
+    "productionBuild": "passed",
+    "localBatchChecks": 7,
+    "liveBatchChecks": 7,
+    "allNewQuestionsActuallySubmitted": 18,
+    "liveAssets": "All manifest assets and Service Worker byte-identical to final tested build",
+    "history": "Isolated synthetic old submission remains unchanged while each new question adds its own fingerprinted record",
+    "offline": "Browser simulation and actual local HTTP server shutdown separately verified",
+    "viewports": [
+      320,
+      390,
+      1440
+    ],
+    "foundationRegressionReceipt": "source/releases/evidence-007.json",
+    "liveTestConditions": {
+      "connection": "browser default, no explicit Playwright proxy",
+      "initialNavigationTimeoutMs": 90000,
+      "initialQuestionVisibilityTimeoutMs": 90000,
+      "otherAssertionsAndActionWaits": "unchanged",
+      "rationale": "The previous batch actual browser diagnostic showed HTTP200 data transfers taking about32seconds before initial question visibility. This batch explicitly permits90seconds only for cold navigation and first question visibility.",
+      "originalTestSha256": "24a085942111ff152a097c67ea7064fb27d89316b6b678c996a55af6e3ee3270",
+      "adaptation": "A local ignored copy changes only the two initial wait limits and the report limitations; the production runtime and every content/history/offline assertion are unchanged.",
+      "offlineScope": "Live browser simulated offline; the local test additionally stopped its actualHTTPserver."
+    }
+  },
+  "changes": [
+    "本批逐题编写的英文四选项、问题与选项中文译文、四项中文分析、精确原文证据、语境词汇和完整段落译文均已静态保存。",
+    "补题归入原有短段，不新增重复阅读段落；主问题优先、补题按原句顺序，提交后由学习者手动下一题，最后一题后才进入下一段。",
+    "原文仅有一个显示实例，提交后仍在第三部分中文译文上方；提交前复制讨论不含答案。",
+    "保留1056道主问题和1056个源阅读单元，旧题与真实历史不被篡改；补题位置、解析与双语快照可在本地恢复和备份。"
+  ],
+  "limits": [
+    "这是持续全书证据补题任务中的一个已发布批次，不代表全部1661个缺口已完成。",
+    "候选句ID沿用原提取分段；逐字来源匹配及直接证据题不等于全书人工句界已经最终定稿。",
+    "未读取实际用户浏览器资料、真实学习备份或凭据；所有测试记录为隔离合成数据。",
+    "手机测试为Edge视口，不是实体手机测试；不创建付费或云端学习资源。"
+  ]
+}
