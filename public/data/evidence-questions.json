@@ -126996,5 +126996,2061 @@
     ],
     "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
     "fingerprint": "035f9d1bdb8328bbc1d6726476bb8a2db8e4569103820526cfbf92b1d399efe9"
+  },
+  {
+    "id": "qe-c14-0009",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-063",
+    "parentQuestionId": "q-c14-004",
+    "chapterId": "c14",
+    "sectionId": "c14-s01",
+    "paragraphId": "c14-s01-p160-06562",
+    "readingUnitId": "c14-s01-p160-06562-r005-008",
+    "sentenceIds": [
+      "c14-s01-p160-06562-s005",
+      "c14-s01-p160-06562-s006",
+      "c14-s01-p160-06562-s007",
+      "c14-s01-p160-06562-s008"
+    ],
+    "passage": "What about your college life at the end of college? At the end of your first job? What about parenting when your child graduates from high school? The triad model of a good life—happiness, meaning, and psychological richness—gives you three dimensions with which you can evaluate your experiences.",
+    "prompt": "What milestone does the abbreviated question invite the reader to reflect on?",
+    "promptZh": "这个省略问句邀请读者在哪个节点反思？",
+    "options": [
+      "The end of a first job.",
+      "The start of primary school.",
+      "The moment a child begins college.",
+      "Only the end of life."
+    ],
+    "optionsZh": [
+      "第一份工作结束时。",
+      "小学开始时。",
+      "孩子开始上大学时。",
+      "只有人生结束时。"
+    ],
+    "answer": 0,
+    "type": "细节",
+    "support": "explicit",
+    "analyses": [
+      "A At the end of your first job承接前面关于人生阶段的回顾。",
+      "B 当前提的是第一份工作，不是小学。",
+      "C 孩子毕业是另一项提问，且是高中。",
+      "D 原文举更早的生活节点，并非只在临终时回顾。"
+    ],
+    "vocabulary": [
+      {
+        "word": "first job",
+        "meaning": "第一份工作",
+        "context": "此处与结束这一回顾节点配对，不是开始新职业的指令。",
+        "example": "She reflected on what she had learned at the end of her first job.",
+        "collocations": [
+          "the end of your first job",
+          "evaluate your experiences"
+        ]
+      }
+    ],
+    "translation": "大学结束时，你会怎样看大学生活？第一份工作结束时呢？孩子高中毕业时，你又怎样看自己的育儿经历？好人生的三元模型——快乐、意义、心理丰富——提供三个可用来评价经历的维度。",
+    "evidenceTargetIds": [
+      "c14-s01-p160-06562-s006"
+    ],
+    "evidence": [
+      {
+        "quote": "What about your college life at the end of college? At the end of your first job? What about parenting when your child graduates from high school? The triad model of a good life—happiness, meaning, and psychological richness—gives you three dimensions with which you can evaluate your experiences.",
+        "sentenceIds": [
+          "c14-s01-p160-06562-s005",
+          "c14-s01-p160-06562-s006",
+          "c14-s01-p160-06562-s007",
+          "c14-s01-p160-06562-s008"
+        ],
+        "sources": [
+          {
+            "pdfPage": 161,
+            "block": 0,
+            "bbox": [
+              76.99,
+              75,
+              535,
+              206.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "bbec6a14362c4cbeade6f706866ea933ab87fcd0e17aaeca25e137db0e15a976"
+  },
+  {
+    "id": "qe-c14-0010",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-063",
+    "parentQuestionId": "q-c14-004",
+    "chapterId": "c14",
+    "sectionId": "c14-s01",
+    "paragraphId": "c14-s01-p160-06562",
+    "readingUnitId": "c14-s01-p160-06562-r005-008",
+    "sentenceIds": [
+      "c14-s01-p160-06562-s005",
+      "c14-s01-p160-06562-s006",
+      "c14-s01-p160-06562-s007",
+      "c14-s01-p160-06562-s008"
+    ],
+    "passage": "What about your college life at the end of college? At the end of your first job? What about parenting when your child graduates from high school? The triad model of a good life—happiness, meaning, and psychological richness—gives you three dimensions with which you can evaluate your experiences.",
+    "prompt": "Which experience is paired with a child's high-school graduation?",
+    "promptZh": "孩子高中毕业与哪种经历的回顾配对？",
+    "options": [
+      "The parent's own college admission.",
+      "The child's first paid job.",
+      "The author's vacation planning.",
+      "The experience of parenting."
+    ],
+    "optionsZh": [
+      "父母自己的大学入学。",
+      "孩子第一份有薪工作。",
+      "作者的假期规划。",
+      "为人父母的经历。"
+    ],
+    "answer": 3,
+    "type": "细节",
+    "support": "explicit",
+    "analyses": [
+      "A 这个问题明确说parenting，而非父母入学。",
+      "B first job是前一个不同节点。",
+      "C 未在此处提度假。",
+      "D parenting与child graduates from high school直接相连。"
+    ],
+    "vocabulary": [
+      {
+        "word": "parenting",
+        "meaning": "育儿；为人父母的经历",
+        "context": "在此作为人生经历的回顾对象，不是孩子的成绩指标。",
+        "example": "The milestone gave them a chance to reflect on parenting.",
+        "collocations": [
+          "What about parenting",
+          "graduates from high school"
+        ]
+      }
+    ],
+    "translation": "大学结束时，你会怎样看大学生活？第一份工作结束时呢？孩子高中毕业时，你又怎样看自己的育儿经历？好人生的三元模型——快乐、意义、心理丰富——提供三个可用来评价经历的维度。",
+    "evidenceTargetIds": [
+      "c14-s01-p160-06562-s007"
+    ],
+    "evidence": [
+      {
+        "quote": "What about your college life at the end of college? At the end of your first job? What about parenting when your child graduates from high school? The triad model of a good life—happiness, meaning, and psychological richness—gives you three dimensions with which you can evaluate your experiences.",
+        "sentenceIds": [
+          "c14-s01-p160-06562-s005",
+          "c14-s01-p160-06562-s006",
+          "c14-s01-p160-06562-s007",
+          "c14-s01-p160-06562-s008"
+        ],
+        "sources": [
+          {
+            "pdfPage": 161,
+            "block": 0,
+            "bbox": [
+              76.99,
+              75,
+              535,
+              206.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "bc2114306890e3c7b7ce5f2a12e46d57622a1db2635a9081a87e8e0699778597"
+  },
+  {
+    "id": "qe-c14-0011",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-063",
+    "parentQuestionId": "q-c14-005",
+    "chapterId": "c14",
+    "sectionId": "c14-s02",
+    "paragraphId": "c14-s02-p161-02625",
+    "readingUnitId": "c14-s02-p161-02625-r001-004",
+    "sentenceIds": [
+      "c14-s02-p161-02625-s001",
+      "c14-s02-p161-02625-s002",
+      "c14-s02-p161-02625-s003",
+      "c14-s02-p161-02625-s004"
+    ],
+    "passage": "In 1890, William James invented the self-esteem equation in The Principles of Psychology, which is written as follows: “self-esteem = success/pretentions.” By pretentions, James meant one’s aspirations. So, self-esteem is high if one has fulfilled most of their aspirations, and low if they haven’t. According to this formula, there are two ways to increase self-esteem.",
+    "prompt": "According to the stated equation, what is divided by aspirations?",
+    "promptZh": "按照文中公式，什么除以抱负？",
+    "options": [
+      "Meaning.",
+      "Success.",
+      "Age.",
+      "Job satisfaction."
+    ],
+    "optionsZh": [
+      "意义。",
+      "成功。",
+      "年龄。",
+      "工作满意度。"
+    ],
+    "answer": 1,
+    "type": "细节",
+    "support": "explicit",
+    "analyses": [
+      "A 公式分子是success，非meaning。",
+      "B success/pretentions且后句解释pretentions是aspirations。",
+      "C 年龄不是公式变量。",
+      "D 此处是self-esteem公式；工作满意度在后文另行讨论。"
+    ],
+    "vocabulary": [
+      {
+        "word": "pretentions",
+        "meaning": "抱负；个人期望达到的目标",
+        "context": "保留原书拼写，后句明确解释它指one's aspirations。",
+        "example": "In the equation, pretentions refers to a person's aspirations.",
+        "collocations": [
+          "success/pretentions",
+          "one’s aspirations"
+        ]
+      }
+    ],
+    "translation": "1890年，William James在《The Principles of Psychology》中提出自尊公式：“self-esteem = success/pretentions”。他用pretentions指个人抱负。因此，达成大多数抱负时自尊高，没达成时低。按这公式，有两种提升自尊的方法。",
+    "evidenceTargetIds": [
+      "c14-s02-p161-02625-s001"
+    ],
+    "evidence": [
+      {
+        "quote": "In 1890, William James invented the self-esteem equation in The Principles of Psychology, which is written as follows: “self-esteem = success/pretentions.” By pretentions, James meant one’s aspirations. So, self-esteem is high if one has fulfilled most of their aspirations, and low if they haven’t. According to this formula, there are two ways to increase self-esteem.",
+        "sentenceIds": [
+          "c14-s02-p161-02625-s001",
+          "c14-s02-p161-02625-s002",
+          "c14-s02-p161-02625-s003",
+          "c14-s02-p161-02625-s004"
+        ],
+        "sources": [
+          {
+            "pdfPage": 161,
+            "block": 2,
+            "bbox": [
+              76.99,
+              262.5,
+              535.01,
+              511.02
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "2a5359919d61112d23b5a6df6103028c4318f61aefc975807f963498c37b956e"
+  },
+  {
+    "id": "qe-c14-0012",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-063",
+    "parentQuestionId": "q-c14-005",
+    "chapterId": "c14",
+    "sectionId": "c14-s02",
+    "paragraphId": "c14-s02-p161-02625",
+    "readingUnitId": "c14-s02-p161-02625-r001-004",
+    "sentenceIds": [
+      "c14-s02-p161-02625-s001",
+      "c14-s02-p161-02625-s002",
+      "c14-s02-p161-02625-s003",
+      "c14-s02-p161-02625-s004"
+    ],
+    "passage": "In 1890, William James invented the self-esteem equation in The Principles of Psychology, which is written as follows: “self-esteem = success/pretentions.” By pretentions, James meant one’s aspirations. So, self-esteem is high if one has fulfilled most of their aspirations, and low if they haven’t. According to this formula, there are two ways to increase self-esteem.",
+    "prompt": "How does the formula relate fulfilled aspirations to self-esteem?",
+    "promptZh": "公式怎样联系抱负的实现与自尊？",
+    "options": [
+      "Self-esteem is high only when no aspiration is fulfilled.",
+      "The proportion fulfilled is irrelevant to self-esteem.",
+      "Fulfilling most aspirations is associated with high self-esteem in the formula.",
+      "Everyone with high aspirations automatically has high self-esteem."
+    ],
+    "optionsZh": [
+      "只有没有实现任何抱负时自尊才高。",
+      "实现比例与自尊无关。",
+      "公式把实现大多数抱负与较高自尊联系起来。",
+      "抱负高的人自动都有高自尊。"
+    ],
+    "answer": 2,
+    "type": "逻辑关系",
+    "support": "explicit",
+    "analyses": [
+      "A 与high if fulfilled most方向相反。",
+      "B if条件正使实现情况相关。",
+      "C 这是书中公式的简化关系，不是对每个人的临床测量。",
+      "D 自尊还涉及是否实现抱负，不能仅看抱负高低。"
+    ],
+    "vocabulary": [
+      {
+        "word": "fulfilled",
+        "meaning": "实现；使目标或抱负得到达成",
+        "context": "这里修饰aspirations，不是单纯拥有愿望。",
+        "example": "She fulfilled many of the aspirations she had set for herself.",
+        "collocations": [
+          "fulfilled most of their aspirations",
+          "self-esteem is high"
+        ]
+      }
+    ],
+    "translation": "1890年，William James在《The Principles of Psychology》中提出自尊公式：“self-esteem = success/pretentions”。他用pretentions指个人抱负。因此，达成大多数抱负时自尊高，没达成时低。按这公式，有两种提升自尊的方法。",
+    "evidenceTargetIds": [
+      "c14-s02-p161-02625-s003"
+    ],
+    "evidence": [
+      {
+        "quote": "In 1890, William James invented the self-esteem equation in The Principles of Psychology, which is written as follows: “self-esteem = success/pretentions.” By pretentions, James meant one’s aspirations. So, self-esteem is high if one has fulfilled most of their aspirations, and low if they haven’t. According to this formula, there are two ways to increase self-esteem.",
+        "sentenceIds": [
+          "c14-s02-p161-02625-s001",
+          "c14-s02-p161-02625-s002",
+          "c14-s02-p161-02625-s003",
+          "c14-s02-p161-02625-s004"
+        ],
+        "sources": [
+          {
+            "pdfPage": 161,
+            "block": 2,
+            "bbox": [
+              76.99,
+              262.5,
+              535.01,
+              511.02
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "46fe332d1e7f2180c8e87778d5405a732be4223b6d6fcb478c82b1df29ebda70"
+  },
+  {
+    "id": "qe-c14-0013",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-063",
+    "parentQuestionId": "q-c14-005",
+    "chapterId": "c14",
+    "sectionId": "c14-s02",
+    "paragraphId": "c14-s02-p161-02625",
+    "readingUnitId": "c14-s02-p161-02625-r001-004",
+    "sentenceIds": [
+      "c14-s02-p161-02625-s001",
+      "c14-s02-p161-02625-s002",
+      "c14-s02-p161-02625-s003",
+      "c14-s02-p161-02625-s004"
+    ],
+    "passage": "In 1890, William James invented the self-esteem equation in The Principles of Psychology, which is written as follows: “self-esteem = success/pretentions.” By pretentions, James meant one’s aspirations. So, self-esteem is high if one has fulfilled most of their aspirations, and low if they haven’t. According to this formula, there are two ways to increase self-esteem.",
+    "prompt": "How many routes to increasing self-esteem does the author identify under this formula?",
+    "promptZh": "按此公式，作者指出几条提高自尊的途径？",
+    "options": [
+      "One.",
+      "Three.",
+      "An unspecified unlimited number.",
+      "Two."
+    ],
+    "optionsZh": [
+      "一条。",
+      "三条。",
+      "数量不定且无限。",
+      "两条。"
+    ],
+    "answer": 3,
+    "type": "细节",
+    "support": "explicit",
+    "analyses": [
+      "A 原句不是one。",
+      "B 这里数量是two，不是three dimensions的三。",
+      "C two ways给出了明确数目。",
+      "D according to this formula限定在所述模型下。"
+    ],
+    "vocabulary": [
+      {
+        "word": "formula",
+        "meaning": "公式；用符号表达关系的模型",
+        "context": "这里用于说明特定模型中的途径数，不代表对所有心理情况的完整解释。",
+        "example": "According to the formula, two routes are described.",
+        "collocations": [
+          "According to this formula",
+          "increase self-esteem"
+        ]
+      }
+    ],
+    "translation": "1890年，William James在《The Principles of Psychology》中提出自尊公式：“self-esteem = success/pretentions”。他用pretentions指个人抱负。因此，达成大多数抱负时自尊高，没达成时低。按这公式，有两种提升自尊的方法。",
+    "evidenceTargetIds": [
+      "c14-s02-p161-02625-s004"
+    ],
+    "evidence": [
+      {
+        "quote": "In 1890, William James invented the self-esteem equation in The Principles of Psychology, which is written as follows: “self-esteem = success/pretentions.” By pretentions, James meant one’s aspirations. So, self-esteem is high if one has fulfilled most of their aspirations, and low if they haven’t. According to this formula, there are two ways to increase self-esteem.",
+        "sentenceIds": [
+          "c14-s02-p161-02625-s001",
+          "c14-s02-p161-02625-s002",
+          "c14-s02-p161-02625-s003",
+          "c14-s02-p161-02625-s004"
+        ],
+        "sources": [
+          {
+            "pdfPage": 161,
+            "block": 2,
+            "bbox": [
+              76.99,
+              262.5,
+              535.01,
+              511.02
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "b04a1488ace5c75fd50d3fb7da8c2a69fa0661b28d570f2877bcfc3612a788a7"
+  },
+  {
+    "id": "qe-c14-0014",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-063",
+    "parentQuestionId": "q-c14-006",
+    "chapterId": "c14",
+    "sectionId": "c14-s02",
+    "paragraphId": "c14-s02-p161-02625",
+    "readingUnitId": "c14-s02-p161-02625-r005-008",
+    "sentenceIds": [
+      "c14-s02-p161-02625-s005",
+      "c14-s02-p161-02625-s006",
+      "c14-s02-p161-02625-s007",
+      "c14-s02-p161-02625-s008"
+    ],
+    "passage": "One is to increase the amount of success. The other way is to reduce aspiration. James’s self-esteem equation could be applied to happiness as well. To simplify to the extreme, happiness could be stated as the function of two factors: success (personal, interpersonal, or societal) / (divided by) aspirations.",
+    "prompt": "What additional use does the author propose for James's equation?",
+    "promptZh": "作者提出James的公式还可用于什么？",
+    "options": [
+      "Replacing all measures of work with income alone.",
+      "Applying it to happiness as well as self-esteem.",
+      "Proving that aspirations must always be zero.",
+      "Measuring the exact age at which people become happy."
+    ],
+    "optionsZh": [
+      "只用收入替代所有工作评价。",
+      "除自尊外，也可用于理解快乐。",
+      "证明抱负必须始终为零。",
+      "测出人快乐的精确年龄。"
+    ],
+    "answer": 1,
+    "type": "作者观点",
+    "support": "explicit",
+    "analyses": [
+      "A 此句讨论happiness，未规定工作评价只看收入。",
+      "B could be applied to happiness as well明确是作者提出的可能应用。",
+      "C reduce aspiration不等于总必须为零；could也不是强制。",
+      "D 没有年龄测量，后文还强调极度简化。"
+    ],
+    "vocabulary": [
+      {
+        "word": "applied",
+        "meaning": "应用；把某模型用于另一情境",
+        "context": "could保留可能性，后面的幸福公式也明确是极度简化。",
+        "example": "The author suggests that the equation could be applied to happiness.",
+        "collocations": [
+          "could be applied to happiness",
+          "as well"
+        ]
+      }
+    ],
+    "translation": "一种是增加成功量，另一种是降低抱负。James的自尊公式也可以用于快乐。若极度简化，可以把快乐写成两因素的函数：成功（个人、人际或社会层面）除以抱负。",
+    "evidenceTargetIds": [
+      "c14-s02-p161-02625-s007"
+    ],
+    "evidence": [
+      {
+        "quote": "One is to increase the amount of success. The other way is to reduce aspiration. James’s self-esteem equation could be applied to happiness as well. To simplify to the extreme, happiness could be stated as the function of two factors: success (personal, interpersonal, or societal) / (divided by) aspirations.",
+        "sentenceIds": [
+          "c14-s02-p161-02625-s005",
+          "c14-s02-p161-02625-s006",
+          "c14-s02-p161-02625-s007",
+          "c14-s02-p161-02625-s008"
+        ],
+        "sources": [
+          {
+            "pdfPage": 161,
+            "block": 2,
+            "bbox": [
+              76.99,
+              262.5,
+              535.01,
+              511.02
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "6829067de1b08c1c13800bed58d56ef9fb1d428a858bd2870a992e6502cd660a"
+  },
+  {
+    "id": "qe-c14-0015",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-063",
+    "parentQuestionId": "q-c14-007",
+    "chapterId": "c14",
+    "sectionId": "c14-s02",
+    "paragraphId": "c14-s02-p161-02625",
+    "readingUnitId": "c14-s02-p161-02625-r009-010",
+    "sentenceIds": [
+      "c14-s02-p161-02625-s009",
+      "c14-s02-p161-02625-s010"
+    ],
+    "passage": "One could increase happiness by increasing success or by reducing aspirations. The American cultural emphasis is on enhancing the amount of success by working harder, whereas the Danish cultural emphasis, for instance, is on minimizing aspirations.",
+    "prompt": "Which pair of routes is suggested for increasing happiness in the simplified account?",
+    "promptZh": "简化论述提出哪两条提高快乐的途径？",
+    "options": [
+      "Increase success or reduce aspirations.",
+      "Reduce success or increase aspirations.",
+      "Increase both success and aspirations by equal amounts in every case.",
+      "Ignore both achievement and aspirations."
+    ],
+    "optionsZh": [
+      "增加成功，或降低抱负。",
+      "降低成功，或增加抱负。",
+      "任何情况下都等量增加成功与抱负。",
+      "忽略成就与抱负。"
+    ],
+    "answer": 0,
+    "type": "细节",
+    "support": "explicit",
+    "analyses": [
+      "A 原句用or并列两种方向，could保留可能性。",
+      "B 将两个方向同时倒置。",
+      "C 原文没有等量增加、适用于所有人的保证。",
+      "D 两个因素正是此简化模型的构成。"
+    ],
+    "vocabulary": [
+      {
+        "word": "aspirations",
+        "meaning": "抱负；希望实现的目标",
+        "context": "这里作简化公式的分母相关因素，不是所有人都应放弃追求的建议。",
+        "example": "The model considers success in relation to aspirations.",
+        "collocations": [
+          "reducing aspirations",
+          "increasing success"
+        ]
+      }
+    ],
+    "translation": "人可以通过增加成功或降低抱负来提高快乐。美国文化侧重努力工作、扩大成功；丹麦文化则比如更侧重降低抱负。",
+    "evidenceTargetIds": [
+      "c14-s02-p161-02625-s009"
+    ],
+    "evidence": [
+      {
+        "quote": "One could increase happiness by increasing success or by reducing aspirations. The American cultural emphasis is on enhancing the amount of success by working harder, whereas the Danish cultural emphasis, for instance, is on minimizing aspirations.",
+        "sentenceIds": [
+          "c14-s02-p161-02625-s009",
+          "c14-s02-p161-02625-s010"
+        ],
+        "sources": [
+          {
+            "pdfPage": 161,
+            "block": 2,
+            "bbox": [
+              76.99,
+              262.5,
+              535.01,
+              511.02
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "e087b209e9743a9bd9592d8a4cb72ea02b707473a830aa6ff31af04af404483e"
+  },
+  {
+    "id": "qe-c14-0016",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-063",
+    "parentQuestionId": "q-c14-008",
+    "chapterId": "c14",
+    "sectionId": "c14-s02",
+    "paragraphId": "c14-s02-p161-05160",
+    "readingUnitId": "c14-s02-p161-05160-r001-004",
+    "sentenceIds": [
+      "c14-s02-p161-05160-s001",
+      "c14-s02-p161-05160-s002",
+      "c14-s02-p161-05160-s003",
+      "c14-s02-p161-05160-s004"
+    ],
+    "passage": "That being said, what kinds of success are we talking about? Sigmund Freud said that the two main tasks of humans are to work and to love. If you are successful in work and love, you have likely succeeded in life. So let’s look at success at work.",
+    "prompt": "What does the question beginning 'That being said' do?",
+    "promptZh": "That being said开头的问句有什么作用？",
+    "options": [
+      "It closes the discussion without considering any kind of success.",
+      "It asks for the publication date of the survey only.",
+      "It denies that work or love could be considered success.",
+      "It shifts from the general formula to asking what success means in the discussion."
+    ],
+    "optionsZh": [
+      "结束讨论，不再考虑任何成功类型。",
+      "只询问调查的出版日期。",
+      "否认工作或爱可视为成功。",
+      "从一般公式转向追问讨论中的成功具体指什么。"
+    ],
+    "answer": 3,
+    "type": "篇章结构",
+    "support": "explicit",
+    "analyses": [
+      "A 后文继续工作与爱以及工作成功。",
+      "B 问的是kinds of success，不是出版日期。",
+      "C 后句恰提work and love。",
+      "D 这句承前转入对成功内容的界定。"
+    ],
+    "vocabulary": [
+      {
+        "word": "That being said",
+        "meaning": "话虽如此；承接前文后提出进一步考虑",
+        "context": "这里引出对成功类型的追问，并非撤销之前的所有内容。",
+        "example": "That being said, the author asks what kind of success matters.",
+        "collocations": [
+          "That being said",
+          "kinds of success"
+        ]
+      }
+    ],
+    "translation": "不过，我们谈的是什么成功？Sigmund Freud说，人类两个主要任务是工作与爱。如果工作和爱情都成功，你很可能在人生中成功了。那么，来看工作上的成功。",
+    "evidenceTargetIds": [
+      "c14-s02-p161-05160-s001"
+    ],
+    "evidence": [
+      {
+        "quote": "That being said, what kinds of success are we talking about? Sigmund Freud said that the two main tasks of humans are to work and to love. If you are successful in work and love, you have likely succeeded in life. So let’s look at success at work.",
+        "sentenceIds": [
+          "c14-s02-p161-05160-s001",
+          "c14-s02-p161-05160-s002",
+          "c14-s02-p161-05160-s003",
+          "c14-s02-p161-05160-s004"
+        ],
+        "sources": [
+          {
+            "pdfPage": 161,
+            "block": 3,
+            "bbox": [
+              76.99,
+              516,
+              535,
+              686.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "e51622aed08beb0a82d3ab27944cfa8a85287fc1763a824719ca298db35af6f4"
+  },
+  {
+    "id": "qe-c14-0017",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-063",
+    "parentQuestionId": "q-c14-008",
+    "chapterId": "c14",
+    "sectionId": "c14-s02",
+    "paragraphId": "c14-s02-p161-05160",
+    "readingUnitId": "c14-s02-p161-05160-r001-004",
+    "sentenceIds": [
+      "c14-s02-p161-05160-s001",
+      "c14-s02-p161-05160-s002",
+      "c14-s02-p161-05160-s003",
+      "c14-s02-p161-05160-s004"
+    ],
+    "passage": "That being said, what kinds of success are we talking about? Sigmund Freud said that the two main tasks of humans are to work and to love. If you are successful in work and love, you have likely succeeded in life. So let’s look at success at work.",
+    "prompt": "How strongly does the sentence claim that success in work and love means success in life?",
+    "promptZh": "这句话对工作与爱成功意味着人生成功的判断有多确定？",
+    "options": [
+      "It guarantees success in life in every case.",
+      "It says work and love have no connection with life.",
+      "It says life success is likely, rather than certain.",
+      "It establishes a precise numerical probability."
+    ],
+    "optionsZh": [
+      "保证任何情况下人生必成功。",
+      "说工作与爱和人生无关。",
+      "说人生成功很可能，而非必然。",
+      "确定一个精确概率数值。"
+    ],
+    "answer": 2,
+    "type": "证据范围",
+    "support": "explicit",
+    "analyses": [
+      "A likely不是guaranteed。",
+      "B if条件将二者联系。",
+      "C likely保留作者判断的不确定性。",
+      "D 未给出任何概率数值。"
+    ],
+    "vocabulary": [
+      {
+        "word": "likely",
+        "meaning": "很可能；有较大可能",
+        "context": "这里限定推断强度，不是对个人成功的绝对保证。",
+        "example": "The author says such a person has likely succeeded in life.",
+        "collocations": [
+          "likely succeeded in life",
+          "successful in work and love"
+        ]
+      }
+    ],
+    "translation": "不过，我们谈的是什么成功？Sigmund Freud说，人类两个主要任务是工作与爱。如果工作和爱情都成功，你很可能在人生中成功了。那么，来看工作上的成功。",
+    "evidenceTargetIds": [
+      "c14-s02-p161-05160-s003"
+    ],
+    "evidence": [
+      {
+        "quote": "That being said, what kinds of success are we talking about? Sigmund Freud said that the two main tasks of humans are to work and to love. If you are successful in work and love, you have likely succeeded in life. So let’s look at success at work.",
+        "sentenceIds": [
+          "c14-s02-p161-05160-s001",
+          "c14-s02-p161-05160-s002",
+          "c14-s02-p161-05160-s003",
+          "c14-s02-p161-05160-s004"
+        ],
+        "sources": [
+          {
+            "pdfPage": 161,
+            "block": 3,
+            "bbox": [
+              76.99,
+              516,
+              535,
+              686.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "1d28df22d838336b40f67fe1251fcbeaed1f64ee8dc6fb1cad1ff7d622dde651"
+  },
+  {
+    "id": "qe-c14-0018",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-063",
+    "parentQuestionId": "q-c14-009",
+    "chapterId": "c14",
+    "sectionId": "c14-s02",
+    "paragraphId": "c14-s02-p161-05160",
+    "readingUnitId": "c14-s02-p161-05160-r005-008",
+    "sentenceIds": [
+      "c14-s02-p161-05160-s005",
+      "c14-s02-p161-05160-s006",
+      "c14-s02-p161-05160-s007",
+      "c14-s02-p161-05160-s008"
+    ],
+    "passage": "There are many ways to define success at work; one way is to ask workers how satisfied they are with their jobs. Those who say they are satisfied with their jobs are those who are succeeding. I analyzed Payscale’s survey of over two million people in 502 job categories. According to this data, what predicts job satisfaction?",
+    "prompt": "How is success at work defined in this particular example?",
+    "promptZh": "这个例子采用什么方式定义工作成功？",
+    "options": [
+      "Workers' own reports that they are satisfied with their jobs.",
+      "Only salary measured by an outside observer.",
+      "Whether every worker holds the same title.",
+      "A guarantee that the work is psychologically rich."
+    ],
+    "optionsZh": [
+      "劳动者自报对工作满意。",
+      "只看外部观察者测得的薪水。",
+      "是否每个人职称相同。",
+      "保证工作心理丰富。"
+    ],
+    "answer": 0,
+    "type": "证据范围",
+    "support": "explicit",
+    "analyses": [
+      "A those who say they are satisfied对应前句一种定义。",
+      "B 本段说许多定义方式，此处使用自报满意度。",
+      "C 未要求职称一致。",
+      "D 满意与心理丰富是不同维度，本句不保证后者。"
+    ],
+    "vocabulary": [
+      {
+        "word": "satisfied",
+        "meaning": "满意的；对工作感到满足的",
+        "context": "此处通过劳动者自己说是否满意来操作化工作成功。",
+        "example": "Workers reported that they were satisfied with their jobs.",
+        "collocations": [
+          "satisfied with their jobs",
+          "one way is to ask workers"
+        ]
+      }
+    ],
+    "translation": "定义工作成功的方法很多，其中一种是问劳动者多满意自己的工作。说满意的人，就被视为在工作中成功。我分析了Payscale对超过两百万人、502类职业的调查。按这些资料，什么能预测工作满意度？",
+    "evidenceTargetIds": [
+      "c14-s02-p161-05160-s006"
+    ],
+    "evidence": [
+      {
+        "quote": "There are many ways to define success at work; one way is to ask workers how satisfied they are with their jobs. Those who say they are satisfied with their jobs are those who are succeeding. I analyzed Payscale’s survey of over two million people in 502 job categories. According to this data, what predicts job satisfaction?",
+        "sentenceIds": [
+          "c14-s02-p161-05160-s005",
+          "c14-s02-p161-05160-s006",
+          "c14-s02-p161-05160-s007",
+          "c14-s02-p161-05160-s008"
+        ],
+        "sources": [
+          {
+            "pdfPage": 161,
+            "block": 3,
+            "bbox": [
+              76.99,
+              516,
+              535,
+              686.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "2bc6a62396aeb742d10465a341c18388cc7a38da875ca85065b02eaffd47c02c"
+  },
+  {
+    "id": "qe-c14-0019",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-063",
+    "parentQuestionId": "q-c14-009",
+    "chapterId": "c14",
+    "sectionId": "c14-s02",
+    "paragraphId": "c14-s02-p161-05160",
+    "readingUnitId": "c14-s02-p161-05160-r005-008",
+    "sentenceIds": [
+      "c14-s02-p161-05160-s005",
+      "c14-s02-p161-05160-s006",
+      "c14-s02-p161-05160-s007",
+      "c14-s02-p161-05160-s008"
+    ],
+    "passage": "There are many ways to define success at work; one way is to ask workers how satisfied they are with their jobs. Those who say they are satisfied with their jobs are those who are succeeding. I analyzed Payscale’s survey of over two million people in 502 job categories. According to this data, what predicts job satisfaction?",
+    "prompt": "What question does the author ask about the Payscale data?",
+    "promptZh": "作者针对Payscale资料提出什么问题？",
+    "options": [
+      "Whether all surveyed workers had identical salaries.",
+      "What predicts job satisfaction according to the data.",
+      "Which occupation is guaranteed to make every worker happy.",
+      "Whether satisfaction and meaning are the same measurement."
+    ],
+    "optionsZh": [
+      "受访者薪水是否完全相同。",
+      "根据资料，什么能预测工作满意度。",
+      "哪种职业保证每人快乐。",
+      "满意和意义是否为同一测量。"
+    ],
+    "answer": 1,
+    "type": "细节",
+    "support": "explicit",
+    "analyses": [
+      "A 不是本句提出的问题。",
+      "B according to this data...predicts job satisfaction为原句直接内容。",
+      "C predict不等于保证每人结果。",
+      "D 意义在后文被作为另一个维度讨论。"
+    ],
+    "vocabulary": [
+      {
+        "word": "predicts",
+        "meaning": "预测；与某结果相关并可用于估计",
+        "context": "此处问数据中的预测因素，不能把预测自动当作已证明因果。",
+        "example": "The analysis asks what predicts job satisfaction.",
+        "collocations": [
+          "predicts job satisfaction",
+          "According to this data"
+        ]
+      }
+    ],
+    "translation": "定义工作成功的方法很多，其中一种是问劳动者多满意自己的工作。说满意的人，就被视为在工作中成功。我分析了Payscale对超过两百万人、502类职业的调查。按这些资料，什么能预测工作满意度？",
+    "evidenceTargetIds": [
+      "c14-s02-p161-05160-s008"
+    ],
+    "evidence": [
+      {
+        "quote": "There are many ways to define success at work; one way is to ask workers how satisfied they are with their jobs. Those who say they are satisfied with their jobs are those who are succeeding. I analyzed Payscale’s survey of over two million people in 502 job categories. According to this data, what predicts job satisfaction?",
+        "sentenceIds": [
+          "c14-s02-p161-05160-s005",
+          "c14-s02-p161-05160-s006",
+          "c14-s02-p161-05160-s007",
+          "c14-s02-p161-05160-s008"
+        ],
+        "sources": [
+          {
+            "pdfPage": 161,
+            "block": 3,
+            "bbox": [
+              76.99,
+              516,
+              535,
+              686.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "a227b5fddea6c8b07ed14d00369e2f3abe6dc169b13c091aba12c5eedf9e4d22"
+  },
+  {
+    "id": "qe-c14-0020",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-063",
+    "parentQuestionId": "q-c14-011",
+    "chapterId": "c14",
+    "sectionId": "c14-s02",
+    "paragraphId": "c14-s02-p162-00750",
+    "readingUnitId": "c14-s02-p162-00750-r001-004",
+    "sentenceIds": [
+      "c14-s02-p162-00750-s001",
+      "c14-s02-p162-00750-s002",
+      "c14-s02-p162-00750-s003",
+      "c14-s02-p162-00750-s004"
+    ],
+    "passage": "For instance, 80 percent of actuaries are satisfied with their jobs. Similarly, 78 percent of computer and information scientists are satisfied with their jobs. In contrast, only 65 percent of police officers are satisfied with their jobs. Social workers were even worse, at only 59 percent satisfied.",
+    "prompt": "What percentage of computer and information scientists is reported as satisfied?",
+    "promptZh": "文中报告多少比例的计算机与信息科学家满意工作？",
+    "options": [
+      "65 percent.",
+      "59 percent.",
+      "78 percent.",
+      "80 percent."
+    ],
+    "optionsZh": [
+      "65%。",
+      "59%。",
+      "78%。",
+      "80%。"
+    ],
+    "answer": 2,
+    "type": "细节",
+    "support": "explicit",
+    "analyses": [
+      "A 65%对应警察。",
+      "B 59%对应社会工作者。",
+      "C 78%对应computer and information scientists。",
+      "D 80%对应精算师；这些是书中报告的数据，不是实时统计。"
+    ],
+    "vocabulary": [
+      {
+        "word": "Similarly",
+        "meaning": "类似地；与前一项结果有相似性",
+        "context": "这里把78%与前述精算师80%的满意度作比较，不表示数值完全相等。",
+        "example": "Similarly, a large share of the second group reported satisfaction.",
+        "collocations": [
+          "Similarly, 78 percent",
+          "satisfied with their jobs"
+        ]
+      }
+    ],
+    "translation": "例如，80%的精算师满意工作。类似地，78%的计算机与信息科学家满意。相比之下，警察只有65%满意。社工更低，只有59%。",
+    "evidenceTargetIds": [
+      "c14-s02-p162-00750-s002"
+    ],
+    "evidence": [
+      {
+        "quote": "For instance, 80 percent of actuaries are satisfied with their jobs. Similarly, 78 percent of computer and information scientists are satisfied with their jobs. In contrast, only 65 percent of police officers are satisfied with their jobs. Social workers were even worse, at only 59 percent satisfied.",
+        "sentenceIds": [
+          "c14-s02-p162-00750-s001",
+          "c14-s02-p162-00750-s002",
+          "c14-s02-p162-00750-s003",
+          "c14-s02-p162-00750-s004"
+        ],
+        "sources": [
+          {
+            "pdfPage": 162,
+            "block": 0,
+            "bbox": [
+              76.99,
+              75,
+              535.01,
+              265.02
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "0885a7b573e82cb1c432fc655b8418ed29ffcb88e6326825fc6153b002b2b2b3"
+  },
+  {
+    "id": "qe-c14-0021",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-063",
+    "parentQuestionId": "q-c14-011",
+    "chapterId": "c14",
+    "sectionId": "c14-s02",
+    "paragraphId": "c14-s02-p162-00750",
+    "readingUnitId": "c14-s02-p162-00750-r001-004",
+    "sentenceIds": [
+      "c14-s02-p162-00750-s001",
+      "c14-s02-p162-00750-s002",
+      "c14-s02-p162-00750-s003",
+      "c14-s02-p162-00750-s004"
+    ],
+    "passage": "For instance, 80 percent of actuaries are satisfied with their jobs. Similarly, 78 percent of computer and information scientists are satisfied with their jobs. In contrast, only 65 percent of police officers are satisfied with their jobs. Social workers were even worse, at only 59 percent satisfied.",
+    "prompt": "Which figure is reported for police officers' job satisfaction?",
+    "promptZh": "文中警察的工作满意比例是多少？",
+    "options": [
+      "78 percent.",
+      "80 percent.",
+      "59 percent.",
+      "65 percent."
+    ],
+    "optionsZh": [
+      "78%。",
+      "80%。",
+      "59%。",
+      "65%。"
+    ],
+    "answer": 3,
+    "type": "细节",
+    "support": "explicit",
+    "analyses": [
+      "A 78%属于计算机与信息科学家。",
+      "B 80%属于精算师。",
+      "C 59%属于社会工作者。",
+      "D 警察为65%；这是书中报告的调查结果。"
+    ],
+    "vocabulary": [
+      {
+        "word": "In contrast",
+        "meaning": "相比之下；引出差异",
+        "context": "对照前述比例更高的职业，并非警察人人不满意。",
+        "example": "In contrast, a smaller share of police officers reported satisfaction.",
+        "collocations": [
+          "In contrast, only 65 percent",
+          "satisfied with their jobs"
+        ]
+      }
+    ],
+    "translation": "例如，80%的精算师满意工作。类似地，78%的计算机与信息科学家满意。相比之下，警察只有65%满意。社工更低，只有59%。",
+    "evidenceTargetIds": [
+      "c14-s02-p162-00750-s003"
+    ],
+    "evidence": [
+      {
+        "quote": "For instance, 80 percent of actuaries are satisfied with their jobs. Similarly, 78 percent of computer and information scientists are satisfied with their jobs. In contrast, only 65 percent of police officers are satisfied with their jobs. Social workers were even worse, at only 59 percent satisfied.",
+        "sentenceIds": [
+          "c14-s02-p162-00750-s001",
+          "c14-s02-p162-00750-s002",
+          "c14-s02-p162-00750-s003",
+          "c14-s02-p162-00750-s004"
+        ],
+        "sources": [
+          {
+            "pdfPage": 162,
+            "block": 0,
+            "bbox": [
+              76.99,
+              75,
+              535.01,
+              265.02
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "0bd172100d5ffcc60c7b75d87f9b0b4e0573969c75158072cd5f23643f0d4744"
+  },
+  {
+    "id": "qe-c14-0022",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-063",
+    "parentQuestionId": "q-c14-012",
+    "chapterId": "c14",
+    "sectionId": "c14-s02",
+    "paragraphId": "c14-s02-p162-00750",
+    "readingUnitId": "c14-s02-p162-00750-r005-008",
+    "sentenceIds": [
+      "c14-s02-p162-00750-s005",
+      "c14-s02-p162-00750-s006",
+      "c14-s02-p162-00750-s007",
+      "c14-s02-p162-00750-s008"
+    ],
+    "passage": "Why are actuaries and computer scientists more satisfied at work than social workers and police officers? Pay might be one reason. Given the difficult jobs that social workers and police officers do every day, their pay is not that great. Perhaps they feel they are not fairly compensated for what they do.",
+    "prompt": "What comparison is the author seeking to explain?",
+    "promptZh": "作者试图解释哪项比较？",
+    "options": [
+      "Why social workers report more satisfaction than actuaries.",
+      "Why actuaries and computer scientists report more satisfaction than social workers and police officers.",
+      "Why every occupation has identical satisfaction.",
+      "Why meaning and satisfaction must be identical."
+    ],
+    "optionsZh": [
+      "为何社工比精算师更满意。",
+      "为何精算师和计算机科学家比社工和警察更满意。",
+      "为何所有职业满意度相同。",
+      "为何意义和满意必定相同。"
+    ],
+    "answer": 1,
+    "type": "比较",
+    "support": "explicit",
+    "analyses": [
+      "A 比较方向倒置。",
+      "B 问句列出两组并询问满意度差异。",
+      "C 原文比较比例不同。",
+      "D 后文将意义与满意区分。"
+    ],
+    "vocabulary": [
+      {
+        "word": "actuaries",
+        "meaning": "精算师；运用统计方法评估风险的专业人员",
+        "context": "此处属于满意度较高的比较组，不等于每位精算师都满意。",
+        "example": "Actuaries are one of the groups compared in the passage.",
+        "collocations": [
+          "actuaries and computer scientists",
+          "more satisfied at work"
+        ]
+      }
+    ],
+    "translation": "为什么精算师和计算机科学家，比社工和警察更满意工作？工资可能是一个原因。考虑到社工和警察每天做的困难工作，他们薪水并不高。也许，他们觉得自己的付出没有得到公平报酬。",
+    "evidenceTargetIds": [
+      "c14-s02-p162-00750-s005"
+    ],
+    "evidence": [
+      {
+        "quote": "Why are actuaries and computer scientists more satisfied at work than social workers and police officers? Pay might be one reason. Given the difficult jobs that social workers and police officers do every day, their pay is not that great. Perhaps they feel they are not fairly compensated for what they do.",
+        "sentenceIds": [
+          "c14-s02-p162-00750-s005",
+          "c14-s02-p162-00750-s006",
+          "c14-s02-p162-00750-s007",
+          "c14-s02-p162-00750-s008"
+        ],
+        "sources": [
+          {
+            "pdfPage": 162,
+            "block": 0,
+            "bbox": [
+              76.99,
+              75,
+              535.01,
+              265.02
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "58256d37110b55ecf97529f6f2fedebd83adae74dfaf466f389a829863e11957"
+  },
+  {
+    "id": "qe-c14-0023",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-063",
+    "parentQuestionId": "q-c14-012",
+    "chapterId": "c14",
+    "sectionId": "c14-s02",
+    "paragraphId": "c14-s02-p162-00750",
+    "readingUnitId": "c14-s02-p162-00750-r005-008",
+    "sentenceIds": [
+      "c14-s02-p162-00750-s005",
+      "c14-s02-p162-00750-s006",
+      "c14-s02-p162-00750-s007",
+      "c14-s02-p162-00750-s008"
+    ],
+    "passage": "Why are actuaries and computer scientists more satisfied at work than social workers and police officers? Pay might be one reason. Given the difficult jobs that social workers and police officers do every day, their pay is not that great. Perhaps they feel they are not fairly compensated for what they do.",
+    "prompt": "How does the author characterise the pay of social workers and police officers?",
+    "promptZh": "作者怎样评价社工和警察的薪酬？",
+    "options": [
+      "It is not especially high given their difficult daily work.",
+      "It is proven to be the only cause of each person's dissatisfaction.",
+      "It is identical to the pay of every actuary.",
+      "It is described as high regardless of the work's demands."
+    ],
+    "optionsZh": [
+      "考虑到日常工作的困难，薪酬并不算高。",
+      "已证明它是每个人不满的唯一原因。",
+      "与每位精算师的薪酬完全相同。",
+      "无论工作要求如何都说薪酬很高。"
+    ],
+    "answer": 0,
+    "type": "作者观点",
+    "support": "explicit",
+    "analyses": [
+      "A given引出工作困难背景，not that great评价报酬。",
+      "B 前句pay might be one reason，只是可能原因之一。",
+      "C 没有逐人薪酬相同的证据。",
+      "D 与not that great相反。"
+    ],
+    "vocabulary": [
+      {
+        "word": "Given",
+        "meaning": "考虑到；鉴于",
+        "context": "引出评价报酬时所考虑的工作难度，并未证明单一因果。",
+        "example": "Given the demands of the job, the author considers the pay modest.",
+        "collocations": [
+          "Given the difficult jobs",
+          "their pay is not that great"
+        ]
+      }
+    ],
+    "translation": "为什么精算师和计算机科学家，比社工和警察更满意工作？工资可能是一个原因。考虑到社工和警察每天做的困难工作，他们薪水并不高。也许，他们觉得自己的付出没有得到公平报酬。",
+    "evidenceTargetIds": [
+      "c14-s02-p162-00750-s007"
+    ],
+    "evidence": [
+      {
+        "quote": "Why are actuaries and computer scientists more satisfied at work than social workers and police officers? Pay might be one reason. Given the difficult jobs that social workers and police officers do every day, their pay is not that great. Perhaps they feel they are not fairly compensated for what they do.",
+        "sentenceIds": [
+          "c14-s02-p162-00750-s005",
+          "c14-s02-p162-00750-s006",
+          "c14-s02-p162-00750-s007",
+          "c14-s02-p162-00750-s008"
+        ],
+        "sources": [
+          {
+            "pdfPage": 162,
+            "block": 0,
+            "bbox": [
+              76.99,
+              75,
+              535.01,
+              265.02
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "f426d06a0290d607b0f5215b8f123c6fefff0c2243cbe0fb127d237c0caf5525"
+  },
+  {
+    "id": "qe-c14-0024",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-063",
+    "parentQuestionId": "q-c14-014",
+    "chapterId": "c14",
+    "sectionId": "c14-s02",
+    "paragraphId": "c14-s02-p162-02700",
+    "readingUnitId": "c14-s02-p162-02700-r001-004",
+    "sentenceIds": [
+      "c14-s02-p162-02700-s001",
+      "c14-s02-p162-02700-s002",
+      "c14-s02-p162-02700-s003",
+      "c14-s02-p162-02700-s004"
+    ],
+    "passage": "Just as happiness is not the only way to a good life, job satisfaction is not the only way to define success at work. What about meaning in one’s job? Interestingly, Payscale measured this. Although the vast majority of actuaries and computer scientists are satisfied with their jobs, many of them do not find their jobs to be very meaningful.",
+    "prompt": "What new aspect of work does the question introduce?",
+    "promptZh": "问句引入工作中的哪个新方面？",
+    "options": [
+      "Only the number of hours worked.",
+      "The meaning people find in their jobs.",
+      "The age of every worker.",
+      "Salary as a replacement for satisfaction."
+    ],
+    "optionsZh": [
+      "只有工作时长。",
+      "人们从工作中感受到的意义。",
+      "每位劳动者的年龄。",
+      "以薪水取代满意度。"
+    ],
+    "answer": 1,
+    "type": "篇章结构",
+    "support": "explicit",
+    "analyses": [
+      "A 问句是meaning，不是hours。",
+      "B 它承接满意度并引出另一评价维度。",
+      "C 没有询问年龄。",
+      "D 不是把意义换成薪水，也未取消满意度。"
+    ],
+    "vocabulary": [
+      {
+        "word": "meaning",
+        "meaning": "意义；个人认为工作有价值的程度",
+        "context": "本段将其与工作满意度区分，两项可有不同调查比例。",
+        "example": "The survey also considered meaning in one's job.",
+        "collocations": [
+          "meaning in one’s job",
+          "job satisfaction"
+        ]
+      }
+    ],
+    "translation": "正如快乐不是好人生的唯一道路，工作满意也不是工作成功的唯一定义。那么，工作中的意义呢？有趣的是，Payscale测了它。虽然绝大多数精算师与计算机科学家满意工作，其中许多人并不觉得工作很有意义。",
+    "evidenceTargetIds": [
+      "c14-s02-p162-02700-s002"
+    ],
+    "evidence": [
+      {
+        "quote": "Just as happiness is not the only way to a good life, job satisfaction is not the only way to define success at work. What about meaning in one’s job? Interestingly, Payscale measured this. Although the vast majority of actuaries and computer scientists are satisfied with their jobs, many of them do not find their jobs to be very meaningful.",
+        "sentenceIds": [
+          "c14-s02-p162-02700-s001",
+          "c14-s02-p162-02700-s002",
+          "c14-s02-p162-02700-s003",
+          "c14-s02-p162-02700-s004"
+        ],
+        "sources": [
+          {
+            "pdfPage": 162,
+            "block": 1,
+            "bbox": [
+              76.99,
+              270,
+              535.01,
+              460.02
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "0239dc6abc81e8a2e5fd2029186f1945efb89c7338ae1247b6542ca3f9734d86"
+  },
+  {
+    "id": "qe-c14-0025",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-063",
+    "parentQuestionId": "q-c14-014",
+    "chapterId": "c14",
+    "sectionId": "c14-s02",
+    "paragraphId": "c14-s02-p162-02700",
+    "readingUnitId": "c14-s02-p162-02700-r001-004",
+    "sentenceIds": [
+      "c14-s02-p162-02700-s001",
+      "c14-s02-p162-02700-s002",
+      "c14-s02-p162-02700-s003",
+      "c14-s02-p162-02700-s004"
+    ],
+    "passage": "Just as happiness is not the only way to a good life, job satisfaction is not the only way to define success at work. What about meaning in one’s job? Interestingly, Payscale measured this. Although the vast majority of actuaries and computer scientists are satisfied with their jobs, many of them do not find their jobs to be very meaningful.",
+    "prompt": "What does 'this' refer to in the sentence about Payscale?",
+    "promptZh": "Payscale句中的this指什么？",
+    "options": [
+      "The price of each participant's house.",
+      "The length of the novel quoted earlier.",
+      "Meaning in one's job.",
+      "The exact probability of happiness in every career."
+    ],
+    "optionsZh": [
+      "每名参与者的房价。",
+      "前面引用小说的长度。",
+      "工作中的意义。",
+      "每种职业的精确快乐概率。"
+    ],
+    "answer": 2,
+    "type": "指代",
+    "support": "explicit",
+    "analyses": [
+      "A 前面没有房价问题。",
+      "B 小说并非邻近对象。",
+      "C 前一句问meaning in one's job，this承接该项测量。",
+      "D 无每种职业精确快乐概率的测量。"
+    ],
+    "vocabulary": [
+      {
+        "word": "measured",
+        "meaning": "测量；通过调查收集某方面数据",
+        "context": "此处回指工作意义，不等于调查已测量心理丰富的全部方面。",
+        "example": "Payscale measured whether people found meaning in their work.",
+        "collocations": [
+          "Payscale measured this",
+          "meaning in one’s job"
+        ]
+      }
+    ],
+    "translation": "正如快乐不是好人生的唯一道路，工作满意也不是工作成功的唯一定义。那么，工作中的意义呢？有趣的是，Payscale测了它。虽然绝大多数精算师与计算机科学家满意工作，其中许多人并不觉得工作很有意义。",
+    "evidenceTargetIds": [
+      "c14-s02-p162-02700-s003"
+    ],
+    "evidence": [
+      {
+        "quote": "Just as happiness is not the only way to a good life, job satisfaction is not the only way to define success at work. What about meaning in one’s job? Interestingly, Payscale measured this. Although the vast majority of actuaries and computer scientists are satisfied with their jobs, many of them do not find their jobs to be very meaningful.",
+        "sentenceIds": [
+          "c14-s02-p162-02700-s001",
+          "c14-s02-p162-02700-s002",
+          "c14-s02-p162-02700-s003",
+          "c14-s02-p162-02700-s004"
+        ],
+        "sources": [
+          {
+            "pdfPage": 162,
+            "block": 1,
+            "bbox": [
+              76.99,
+              270,
+              535.01,
+              460.02
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "913fa43e95dd4301c345aa8806ea712a0829287a49e420a9bf38f4da6c4c2318"
+  },
+  {
+    "id": "qe-c14-0026",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-063",
+    "parentQuestionId": "q-c14-015",
+    "chapterId": "c14",
+    "sectionId": "c14-s02",
+    "paragraphId": "c14-s02-p162-02700",
+    "readingUnitId": "c14-s02-p162-02700-r005-007",
+    "sentenceIds": [
+      "c14-s02-p162-02700-s005",
+      "c14-s02-p162-02700-s006",
+      "c14-s02-p162-02700-s007"
+    ],
+    "passage": "For instance, only 36 percent of actuaries find meaning in their jobs, and only 45 percent of computer and information scientists do. In contrast, although social workers and police officers are not super satisfied with their jobs, they find them to be meaningful. Indeed, 73 percent of social workers and 81 percent of law enforcement officers find their jobs to be meaningful.",
+    "prompt": "Which figures are given for finding meaning at work?",
+    "promptZh": "工作中感到有意义的比例分别是多少？",
+    "options": [
+      "36 percent of actuaries and 45 percent of computer and information scientists.",
+      "45 percent of actuaries and 36 percent of computer scientists.",
+      "80 percent of actuaries and 78 percent of computer scientists.",
+      "73 percent of actuaries and 81 percent of computer scientists."
+    ],
+    "optionsZh": [
+      "精算师36%，计算机与信息科学家45%。",
+      "精算师45%，计算机科学家36%。",
+      "精算师80%，计算机科学家78%。",
+      "精算师73%，计算机科学家81%。"
+    ],
+    "answer": 0,
+    "type": "细节",
+    "support": "explicit",
+    "analyses": [
+      "A 36与45及各自职业匹配。",
+      "B 两组比例颠倒。",
+      "C 这两个数字属于前文满意度，不是意义。",
+      "D 73与81属于社工及执法人员的意义比例。"
+    ],
+    "vocabulary": [
+      {
+        "word": "find meaning",
+        "meaning": "感受到意义；认为某事有价值",
+        "context": "这项自报比例不同于同一职业的工作满意度比例。",
+        "example": "Some respondents find meaning in their jobs even when satisfaction differs.",
+        "collocations": [
+          "find meaning in their jobs",
+          "36 percent of actuaries"
+        ]
+      }
+    ],
+    "translation": "例如，只有36%的精算师觉得工作有意义，计算机与信息科学家也只有45%。相较之下，社工与警察虽然不特别满意工作，却觉得有意义。确实，73%的社工与81%的执法人员觉得自己的工作有意义。",
+    "evidenceTargetIds": [
+      "c14-s02-p162-02700-s005"
+    ],
+    "evidence": [
+      {
+        "quote": "For instance, only 36 percent of actuaries find meaning in their jobs, and only 45 percent of computer and information scientists do. In contrast, although social workers and police officers are not super satisfied with their jobs, they find them to be meaningful. Indeed, 73 percent of social workers and 81 percent of law enforcement officers find their jobs to be meaningful.",
+        "sentenceIds": [
+          "c14-s02-p162-02700-s005",
+          "c14-s02-p162-02700-s006",
+          "c14-s02-p162-02700-s007"
+        ],
+        "sources": [
+          {
+            "pdfPage": 162,
+            "block": 1,
+            "bbox": [
+              76.99,
+              270,
+              535.01,
+              460.02
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "63090744a45c065d2fb49871f6bd2a2bff3d904209b93981c254c2b555758f24"
+  },
+  {
+    "id": "qe-c14-0027",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-063",
+    "parentQuestionId": "q-c14-015",
+    "chapterId": "c14",
+    "sectionId": "c14-s02",
+    "paragraphId": "c14-s02-p162-02700",
+    "readingUnitId": "c14-s02-p162-02700-r005-007",
+    "sentenceIds": [
+      "c14-s02-p162-02700-s005",
+      "c14-s02-p162-02700-s006",
+      "c14-s02-p162-02700-s007"
+    ],
+    "passage": "For instance, only 36 percent of actuaries find meaning in their jobs, and only 45 percent of computer and information scientists do. In contrast, although social workers and police officers are not super satisfied with their jobs, they find them to be meaningful. Indeed, 73 percent of social workers and 81 percent of law enforcement officers find their jobs to be meaningful.",
+    "prompt": "What contrast is described for social workers and police officers?",
+    "promptZh": "社工和警察呈现什么对照？",
+    "options": [
+      "They report high satisfaction but find no meaning at all.",
+      "Their pay is higher than every other occupation.",
+      "They cannot evaluate their own work.",
+      "They are not especially satisfied, yet find their work meaningful."
+    ],
+    "optionsZh": [
+      "他们满意度很高，却完全觉得没有意义。",
+      "他们薪水高于所有其他职业。",
+      "他们无法评价自己的工作。",
+      "他们并不特别满意，但认为工作有意义。"
+    ],
+    "answer": 3,
+    "type": "逻辑关系",
+    "support": "explicit",
+    "analyses": [
+      "A 两面被反转且扩大为全无。",
+      "B 当前句并无全职业薪酬排序。",
+      "C 不是说他们不能评价。",
+      "D although...not super satisfied与find them meaningful并存。"
+    ],
+    "vocabulary": [
+      {
+        "word": "meaningful",
+        "meaning": "有意义的；被认为有价值的",
+        "context": "工作意义可与满意度不高并存。",
+        "example": "A demanding job can be meaningful even when satisfaction is modest.",
+        "collocations": [
+          "find them to be meaningful",
+          "not super satisfied"
+        ]
+      }
+    ],
+    "translation": "例如，只有36%的精算师觉得工作有意义，计算机与信息科学家也只有45%。相较之下，社工与警察虽然不特别满意工作，却觉得有意义。确实，73%的社工与81%的执法人员觉得自己的工作有意义。",
+    "evidenceTargetIds": [
+      "c14-s02-p162-02700-s006"
+    ],
+    "evidence": [
+      {
+        "quote": "For instance, only 36 percent of actuaries find meaning in their jobs, and only 45 percent of computer and information scientists do. In contrast, although social workers and police officers are not super satisfied with their jobs, they find them to be meaningful. Indeed, 73 percent of social workers and 81 percent of law enforcement officers find their jobs to be meaningful.",
+        "sentenceIds": [
+          "c14-s02-p162-02700-s005",
+          "c14-s02-p162-02700-s006",
+          "c14-s02-p162-02700-s007"
+        ],
+        "sources": [
+          {
+            "pdfPage": 162,
+            "block": 1,
+            "bbox": [
+              76.99,
+              270,
+              535.01,
+              460.02
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "d0b4c1de7530d7c09fdbf8fba94962ac16199abd2e8b94c2a0443e42cadf5849"
+  },
+  {
+    "id": "qe-c14-0028",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-063",
+    "parentQuestionId": "q-c14-016",
+    "chapterId": "c14",
+    "sectionId": "c14-s02",
+    "paragraphId": "c14-s02-p162-04650",
+    "readingUnitId": "c14-s02-p162-04650-r001-004",
+    "sentenceIds": [
+      "c14-s02-p162-04650-s001",
+      "c14-s02-p162-04650-s002",
+      "c14-s02-p162-04650-s003",
+      "c14-s02-p162-04650-s004"
+    ],
+    "passage": "Are there good jobs that are not high in job satisfaction or meaning, though? The Payscale data show an interesting pattern. While 65 percent of editors find their jobs to be satisfying, only 42 percent find them meaningful. Similarly, 67 percent of art directors are satisfied with their jobs, but only 35 percent find their work meaningful.",
+    "prompt": "What possibility does the opening question explore?",
+    "promptZh": "开头问句探讨什么可能？",
+    "options": [
+      "Whether satisfying work can never be meaningful.",
+      "Whether a job may be good even without high satisfaction or meaning.",
+      "Whether all workers should change occupation immediately.",
+      "Whether survey data contain no occupational differences."
+    ],
+    "optionsZh": [
+      "令人满意的工作是否永远无意义。",
+      "即使满意度或意义不高，工作是否仍可能好。",
+      "是否所有人都应立即转职。",
+      "调查数据是否没有职业差异。"
+    ],
+    "answer": 1,
+    "type": "主旨",
+    "support": "explicit",
+    "analyses": [
+      "A 问句并非说满意必排斥意义。",
+      "B good jobs...not high in job satisfaction or meaning提出新的评价可能。",
+      "C 未要求所有人转职。",
+      "D 后续数据显示比例差异。"
+    ],
+    "vocabulary": [
+      {
+        "word": "though",
+        "meaning": "不过；引出进一步疑问",
+        "context": "提出待讨论可能，不是证明所有低满意工作都是好工作。",
+        "example": "Could a job still be good on another dimension, though?",
+        "collocations": [
+          "not high in job satisfaction",
+          "good jobs"
+        ]
+      }
+    ],
+    "translation": "不过，有没有工作虽然满意度或意义不高，仍是好工作？Payscale资料显示一个有趣模式：65%的编辑觉得工作令人满意，只有42%觉得有意义。类似地，67%的艺术总监满意工作，只有35%觉得有意义。",
+    "evidenceTargetIds": [
+      "c14-s02-p162-04650-s001"
+    ],
+    "evidence": [
+      {
+        "quote": "Are there good jobs that are not high in job satisfaction or meaning, though? The Payscale data show an interesting pattern. While 65 percent of editors find their jobs to be satisfying, only 42 percent find them meaningful. Similarly, 67 percent of art directors are satisfied with their jobs, but only 35 percent find their work meaningful.",
+        "sentenceIds": [
+          "c14-s02-p162-04650-s001",
+          "c14-s02-p162-04650-s002",
+          "c14-s02-p162-04650-s003",
+          "c14-s02-p162-04650-s004"
+        ],
+        "sources": [
+          {
+            "pdfPage": 162,
+            "block": 2,
+            "bbox": [
+              76.99,
+              465,
+              535.01,
+              635.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "df9b9d7d7db273d9fb4b9d6fc07cec5be943a5ef4ac1603cae7309a03d11a57e"
+  },
+  {
+    "id": "qe-c14-0029",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-063",
+    "parentQuestionId": "q-c14-016",
+    "chapterId": "c14",
+    "sectionId": "c14-s02",
+    "paragraphId": "c14-s02-p162-04650",
+    "readingUnitId": "c14-s02-p162-04650-r001-004",
+    "sentenceIds": [
+      "c14-s02-p162-04650-s001",
+      "c14-s02-p162-04650-s002",
+      "c14-s02-p162-04650-s003",
+      "c14-s02-p162-04650-s004"
+    ],
+    "passage": "Are there good jobs that are not high in job satisfaction or meaning, though? The Payscale data show an interesting pattern. While 65 percent of editors find their jobs to be satisfying, only 42 percent find them meaningful. Similarly, 67 percent of art directors are satisfied with their jobs, but only 35 percent find their work meaningful.",
+    "prompt": "What pattern do the Payscale examples introduce?",
+    "promptZh": "Payscale例子引入什么模式？",
+    "options": [
+      "All groups have the same satisfaction and meaning percentages.",
+      "Job satisfaction is measured by the number of books published.",
+      "Some creative occupations have higher reported satisfaction than reported meaning.",
+      "Every worker reports both measures at 100 percent."
+    ],
+    "optionsZh": [
+      "所有职业组满意与意义比例都相同。",
+      "以出版书数量测量工作满意度。",
+      "某些创意职业的自报满意比例高于意义比例。",
+      "每名劳动者两项均为100%。"
+    ],
+    "answer": 2,
+    "type": "主旨",
+    "support": "explicit",
+    "analyses": [
+      "A 编辑与艺术总监的两项比例不同。",
+      "B 句中没有按书籍数量测满意度。",
+      "C 后面65%与42%、67%与35%展示该模式。",
+      "D 没有全体100%的数据。"
+    ],
+    "vocabulary": [
+      {
+        "word": "pattern",
+        "meaning": "模式；数据中呈现的关系",
+        "context": "由后续比例具体说明，不应单凭pattern推断确定职业因果。",
+        "example": "The survey data show a pattern across the two measures.",
+        "collocations": [
+          "an interesting pattern",
+          "Payscale data"
+        ]
+      }
+    ],
+    "translation": "不过，有没有工作虽然满意度或意义不高，仍是好工作？Payscale资料显示一个有趣模式：65%的编辑觉得工作令人满意，只有42%觉得有意义。类似地，67%的艺术总监满意工作，只有35%觉得有意义。",
+    "evidenceTargetIds": [
+      "c14-s02-p162-04650-s002"
+    ],
+    "evidence": [
+      {
+        "quote": "Are there good jobs that are not high in job satisfaction or meaning, though? The Payscale data show an interesting pattern. While 65 percent of editors find their jobs to be satisfying, only 42 percent find them meaningful. Similarly, 67 percent of art directors are satisfied with their jobs, but only 35 percent find their work meaningful.",
+        "sentenceIds": [
+          "c14-s02-p162-04650-s001",
+          "c14-s02-p162-04650-s002",
+          "c14-s02-p162-04650-s003",
+          "c14-s02-p162-04650-s004"
+        ],
+        "sources": [
+          {
+            "pdfPage": 162,
+            "block": 2,
+            "bbox": [
+              76.99,
+              465,
+              535.01,
+              635.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "b3064ffd06cf1ba23e9ab2c1f8520bb974204edd066b893aaa9eda5fbac7477d"
+  },
+  {
+    "id": "qe-c14-0030",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-063",
+    "parentQuestionId": "q-c14-016",
+    "chapterId": "c14",
+    "sectionId": "c14-s02",
+    "paragraphId": "c14-s02-p162-04650",
+    "readingUnitId": "c14-s02-p162-04650-r001-004",
+    "sentenceIds": [
+      "c14-s02-p162-04650-s001",
+      "c14-s02-p162-04650-s002",
+      "c14-s02-p162-04650-s003",
+      "c14-s02-p162-04650-s004"
+    ],
+    "passage": "Are there good jobs that are not high in job satisfaction or meaning, though? The Payscale data show an interesting pattern. While 65 percent of editors find their jobs to be satisfying, only 42 percent find them meaningful. Similarly, 67 percent of art directors are satisfied with their jobs, but only 35 percent find their work meaningful.",
+    "prompt": "How do editors' reported satisfaction and meaning compare?",
+    "promptZh": "编辑的自报满意度与意义比例怎样比较？",
+    "options": [
+      "42% report satisfaction and 65% report meaning.",
+      "65% report satisfaction and 42% report meaning.",
+      "Both proportions are 65%.",
+      "Both proportions are 42%."
+    ],
+    "optionsZh": [
+      "42%满意，65%有意义。",
+      "65%满意，42%有意义。",
+      "两项均65%。",
+      "两项均42%。"
+    ],
+    "answer": 1,
+    "type": "细节",
+    "support": "explicit",
+    "analyses": [
+      "A 两项数字颠倒。",
+      "B 原句依次给满意65%与意义42%。",
+      "C 42%不能改为65%。",
+      "D 65%不能改为42%。"
+    ],
+    "vocabulary": [
+      {
+        "word": "While",
+        "meaning": "虽然；用来并列两个不同情况",
+        "context": "对照同一职业的满意和意义比例，两项不是同一问题。",
+        "example": "While many editors were satisfied, a smaller share found their work meaningful.",
+        "collocations": [
+          "65 percent of editors",
+          "only 42 percent"
+        ]
+      }
+    ],
+    "translation": "不过，有没有工作虽然满意度或意义不高，仍是好工作？Payscale资料显示一个有趣模式：65%的编辑觉得工作令人满意，只有42%觉得有意义。类似地，67%的艺术总监满意工作，只有35%觉得有意义。",
+    "evidenceTargetIds": [
+      "c14-s02-p162-04650-s003"
+    ],
+    "evidence": [
+      {
+        "quote": "Are there good jobs that are not high in job satisfaction or meaning, though? The Payscale data show an interesting pattern. While 65 percent of editors find their jobs to be satisfying, only 42 percent find them meaningful. Similarly, 67 percent of art directors are satisfied with their jobs, but only 35 percent find their work meaningful.",
+        "sentenceIds": [
+          "c14-s02-p162-04650-s001",
+          "c14-s02-p162-04650-s002",
+          "c14-s02-p162-04650-s003",
+          "c14-s02-p162-04650-s004"
+        ],
+        "sources": [
+          {
+            "pdfPage": 162,
+            "block": 2,
+            "bbox": [
+              76.99,
+              465,
+              535.01,
+              635.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "e519e8aa864f337cb3a21dbde73b8aceb7f5bff116969fc8de0e1e82009fbaad"
+  },
+  {
+    "id": "qe-c14-0031",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-063",
+    "parentQuestionId": "q-c14-017",
+    "chapterId": "c14",
+    "sectionId": "c14-s02",
+    "paragraphId": "c14-s02-p162-04650",
+    "readingUnitId": "c14-s02-p162-04650-r005-008",
+    "sentenceIds": [
+      "c14-s02-p162-04650-s005",
+      "c14-s02-p162-04650-s006",
+      "c14-s02-p162-04650-s007",
+      "c14-s02-p162-04650-s008"
+    ],
+    "passage": "Writers and authors are very similar to art directors, scoring 67 percent in satisfaction and 30 percent in meaning. Funeral directors are an interesting comparison group. They are similar in terms of job satisfaction: 68 percent of funeral directors are satisfied with their jobs. However, 87 percent of them find their jobs to be meaningful.",
+    "prompt": "Why are funeral directors introduced as a comparison group?",
+    "promptZh": "为何引入殡葬主管作为比较组？",
+    "options": [
+      "They have similar satisfaction but a different reported meaning percentage.",
+      "They have identical figures for both measures.",
+      "They were excluded from the survey entirely.",
+      "They prove that every creative worker must change careers."
+    ],
+    "optionsZh": [
+      "满意比例相近，但意义比例不同，可用于对照。",
+      "两项比例都完全相同。",
+      "完全未被调查。",
+      "证明所有创意工作者都必须转行。"
+    ],
+    "answer": 0,
+    "type": "比较",
+    "support": "explicit",
+    "analyses": [
+      "A 后文68%满意和87%有意义与前述职业构成比较。",
+      "B 68%与87%并不相同。",
+      "C 后文给出他们的调查比例。",
+      "D comparison不是必须转行的命令。"
+    ],
+    "vocabulary": [
+      {
+        "word": "comparison group",
+        "meaning": "比较组；用作对照的人群",
+        "context": "职业组的对照不说明组内每个人都相同。",
+        "example": "The study uses another occupation as a comparison group.",
+        "collocations": [
+          "an interesting comparison group",
+          "job satisfaction"
+        ]
+      }
+    ],
+    "translation": "作家和作者与艺术总监很相似：满意67%，意义30%。殡葬主管是有趣的比较组。他们工作满意度相近，68%满意；但87%觉得工作有意义。",
+    "evidenceTargetIds": [
+      "c14-s02-p162-04650-s006"
+    ],
+    "evidence": [
+      {
+        "quote": "Writers and authors are very similar to art directors, scoring 67 percent in satisfaction and 30 percent in meaning. Funeral directors are an interesting comparison group. They are similar in terms of job satisfaction: 68 percent of funeral directors are satisfied with their jobs. However, 87 percent of them find their jobs to be meaningful.",
+        "sentenceIds": [
+          "c14-s02-p162-04650-s005",
+          "c14-s02-p162-04650-s006",
+          "c14-s02-p162-04650-s007",
+          "c14-s02-p162-04650-s008"
+        ],
+        "sources": [
+          {
+            "pdfPage": 162,
+            "block": 2,
+            "bbox": [
+              76.99,
+              465,
+              535.01,
+              635.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "7be02681c88a134541f009adba22aad0453468fad6735a42f0f97a2742c9e007"
+  },
+  {
+    "id": "qe-c14-0032",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-063",
+    "parentQuestionId": "q-c14-018",
+    "chapterId": "c14",
+    "sectionId": "c14-s02",
+    "paragraphId": "c14-s02-p162-06405",
+    "readingUnitId": "c14-s02-p162-06405-r001-003",
+    "sentenceIds": [
+      "c14-s02-p162-06405-s001",
+      "c14-s02-p162-06405-s002",
+      "c14-s02-p162-06405-s003"
+    ],
+    "passage": "If satisfaction and meaning were the only metrics of good jobs, then we might tell art directors, editors, and writers to consider becoming funeral directors. Realistically, we wouldn’t, because we know that editors, art directors, and writers have something that funeral directors don’t have: self- expression and creativity. Payscale did not ask survey respondents how interesting their jobs were, how much creativity mattered in their jobs, or other questions pertaining to psychological richness.",
+    "prompt": "What is the status of the suggested career change in the conditional sentence?",
+    "promptZh": "条件句中建议换职业的说法属于什么性质？",
+    "options": [
+      "An unconditional instruction for every editor to change jobs.",
+      "A decision already made by all writers.",
+      "An outcome of a randomised career experiment.",
+      "A hypothetical suggestion if satisfaction and meaning were the only measures."
+    ],
+    "optionsZh": [
+      "要求每位编辑转行的无条件指令。",
+      "所有作家已作出的决定。",
+      "随机职业实验的结果。",
+      "假如只用满意与意义衡量时可能提出的假设性建议。"
+    ],
+    "answer": 3,
+    "type": "逻辑关系",
+    "support": "explicit",
+    "analyses": [
+      "A if...might限定假设，非命令。",
+      "B might tell不是已经转职的事实。",
+      "C 未描述随机实验。",
+      "D only metrics与might构成条件推演，后句质疑现实适用。"
+    ],
+    "vocabulary": [
+      {
+        "word": "metrics",
+        "meaning": "衡量指标；用于评价的尺度",
+        "context": "此处假设满意与意义是唯一指标，并非最终认定只有这两项。",
+        "example": "Satisfaction and meaning are two possible metrics of work.",
+        "collocations": [
+          "the only metrics",
+          "might tell"
+        ]
+      }
+    ],
+    "translation": "如果满意与意义是好工作的唯一指标，我们也许会建议艺术总监、编辑和作家考虑做殡葬主管。实际我们不会，因为知道前几类有殡葬主管所没有的东西：自我表达和创造力。Payscale没有问工作多有趣、创造力多重要，或其他心理丰富相关问题。（职业对照保留作者表述，不作该职业全体个人能力断言。）",
+    "evidenceTargetIds": [
+      "c14-s02-p162-06405-s001"
+    ],
+    "evidence": [
+      {
+        "quote": "If satisfaction and meaning were the only metrics of good jobs, then we might tell art directors, editors, and writers to consider becoming funeral directors. Realistically, we wouldn’t, because we know that editors, art directors, and writers have something that funeral directors don’t have: self- expression and creativity. Payscale did not ask survey respondents how interesting their jobs were, how much creativity mattered in their jobs, or other questions pertaining to psychological richness.",
+        "sentenceIds": [
+          "c14-s02-p162-06405-s001",
+          "c14-s02-p162-06405-s002",
+          "c14-s02-p162-06405-s003"
+        ],
+        "sources": [
+          {
+            "pdfPage": 162,
+            "block": 3,
+            "bbox": [
+              76.99,
+              640.5,
+              535.01,
+              713.52
+            ]
+          },
+          {
+            "pdfPage": 163,
+            "block": 0,
+            "bbox": [
+              76.99,
+              75,
+              535.01,
+              245.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "4c645bbb0e54d2a997d024f6f7698b08e62413a6790996d2e9c31c41d9e2a1e7"
+  },
+  {
+    "id": "qe-c14-0033",
+    "version": 1,
+    "family": "sentence-evidence",
+    "batchId": "evidence-063",
+    "parentQuestionId": "q-c14-018",
+    "chapterId": "c14",
+    "sectionId": "c14-s02",
+    "paragraphId": "c14-s02-p162-06405",
+    "readingUnitId": "c14-s02-p162-06405-r001-003",
+    "sentenceIds": [
+      "c14-s02-p162-06405-s001",
+      "c14-s02-p162-06405-s002",
+      "c14-s02-p162-06405-s003"
+    ],
+    "passage": "If satisfaction and meaning were the only metrics of good jobs, then we might tell art directors, editors, and writers to consider becoming funeral directors. Realistically, we wouldn’t, because we know that editors, art directors, and writers have something that funeral directors don’t have: self- expression and creativity. Payscale did not ask survey respondents how interesting their jobs were, how much creativity mattered in their jobs, or other questions pertaining to psychological richness.",
+    "prompt": "What consideration does the author give for not making that hypothetical recommendation?",
+    "promptZh": "作者给出什么考虑，使其不作前述假设性建议？",
+    "options": [
+      "The survey proved creativity is absent from other jobs.",
+      "All funeral directors were shown to dislike their work.",
+      "The author cites self-expression and creativity in the creative roles.",
+      "Editors and writers are guaranteed the highest salaries."
+    ],
+    "optionsZh": [
+      "调查证明其他职业没有创造力。",
+      "已证明所有殡葬主管都不喜欢工作。",
+      "作者提到创意职业中的自我表达与创造力。",
+      "编辑和作家的薪资保证最高。"
+    ],
+    "answer": 2,
+    "type": "作者观点",
+    "support": "explicit",
+    "analyses": [
+      "A 后句说调查未询问创造力；原文职业对照是作者概括，不能当个人能力的实证定论。",
+      "B 前述有68%殡葬主管满意。",
+      "C 作者以self-expression and creativity解释为何不会直接建议转职；保持观点归属。",
+      "D 本句没有薪资保证。"
+    ],
+    "vocabulary": [
+      {
+        "word": "creativity",
+        "meaning": "创造力；产生或表达新想法的能力",
+        "context": "是作者提出的职业评价考虑；不能据职业名称断定每个人有无创造力。",
+        "example": "Creativity can be one consideration when evaluating a job.",
+        "collocations": [
+          "self- expression and creativity",
+          "Realistically, we wouldn’t"
+        ]
+      }
+    ],
+    "translation": "如果满意与意义是好工作的唯一指标，我们也许会建议艺术总监、编辑和作家考虑做殡葬主管。实际我们不会，因为知道前几类有殡葬主管所没有的东西：自我表达和创造力。Payscale没有问工作多有趣、创造力多重要，或其他心理丰富相关问题。（职业对照保留作者表述，不作该职业全体个人能力断言。）",
+    "evidenceTargetIds": [
+      "c14-s02-p162-06405-s002"
+    ],
+    "evidence": [
+      {
+        "quote": "Realistically, we wouldn’t, because we know that editors, art directors, and writers have something that funeral directors don’t have: self- expression and creativity.",
+        "sentenceIds": [
+          "c14-s02-p162-06405-s002"
+        ],
+        "sources": [
+          {
+            "pdfPage": 162,
+            "block": 3,
+            "bbox": [
+              76.99,
+              640.5,
+              535.01,
+              713.52
+            ]
+          },
+          {
+            "pdfPage": 163,
+            "block": 0,
+            "bbox": [
+              76.99,
+              75,
+              535.01,
+              245.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "fingerprint": "d4e565b41d6c92b30e16d6d5ff68910c6e987ba40915c22f3fa66840561e5993"
   }
 ]
