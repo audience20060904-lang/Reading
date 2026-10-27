@@ -152,3 +152,14 @@ Pages 来源为 Deploy from a branch → gh-pages → / (root)。build:pages 验
 ## 编校补记：贴纸研究覆盖说明
 
 第五十批最后一道补题（`qe-c11-0081`）分析末尾关于“下一批”的附带说明不准确：九岁儿童震前、震后的平均捐赠数早已由原题 `q-c11-046` 直接覆盖，并非下一批新缺口。该补题考的是实际捐出数量这一行为测量，不涉及上述均值是否已经配题；正确答案、原文证据、旧题指纹与历史成绩均保留。详见 [编校记录](source/evidence-questions/batch051-previous-review-erratum.json)。
+
+
+## B2 及以上词汇扩充（2026-10-28）
+
+本轮新增 1368 个词条、3930 处原文标注；加上此前 506 个词条、659 处标注，目前共有 **1874 个词条、4589 处可点击位置**，覆盖 14 章。点击淡蓝色词可查看该处的词义和适用的其他常见含义。旧词义、位置、正文、题目和成绩均保留。
+
+筛选参考 [Oxford 3000 分级清单](https://www.oxfordlearnersdictionaries.com/external/pdf/wordlists/oxford-3000-5000/The_Oxford_3000_by_CEFR_level.pdf) 和 [Oxford 5000 分级清单](https://www.oxfordlearnersdictionaries.com/external/pdf/wordlists/oxford-3000-5000/The_Oxford_5000_by_CEFR_level.pdf)。官网文件直连返回 403，本地参考读取其 GitHub 镜像 PDF，并将来源及文件哈希记在作者稿中；参考 PDF 不随网站或仓库发布。中文释义为独立编写或复用现有题库的词汇注释，没有复制词典释义。
+
+等级只用于词头筛选，不能替代具体词义的难度判定。专业词、文学词和高级短语另行选择，不把所有清单外词汇称为 C2。严格筛出的 B2/C1 候选位置已处理或记录排除理由（人名、地名或普通语法用法）；这不等于全书所有 B2/C1/C2 义项已最终人工穷尽。
+
+继续处理时编辑 `source/b2-vocabulary/author-notes.json` 的具体原文位置及释义；`corpus-glosses.tsv` 保存本轮通用词义和其他常见义的作者材料，`coverage.json` 保存筛选范围与排除项目。运行 `npm run vocab:compile` 校验来源字符、句子 ID 和不重叠规则，再运行测试与生产构建。该编译命令只装配预编写的标注，不在线推断词义。`tests/fixtures/word-lookups-v3.json` 是本次之前的完整词表快照，用于检查旧数据未被覆盖。

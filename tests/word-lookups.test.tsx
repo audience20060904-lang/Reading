@@ -9,6 +9,8 @@ import {getWordLookups} from '../src/wordLookups';
 import catalog from '../src/data/word-lookups.json';
 import baseline from './fixtures/word-lookups-v1.json';
 import previous from './fixtures/word-lookups-v2.json';
+import lastRelease from './fixtures/word-lookups-v3.json';
+import expansion from '../source/b2-vocabulary/author-notes.json';
 const read=(path:string)=>JSON.parse(readFileSync(path,'utf8'));
 const book=read('public/data/book.json') as Book,qs=read('public/data/questions.json') as Question[],plan=read('public/data/reading-plan.json') as ReadingPlan;
 const occurrences=Object.values(catalog.paragraphs).flat();
@@ -16,11 +18,11 @@ const textContent=(html:string)=>html.replace(/<[^>]*>/g,'').replace(/&amp;/g,'&
 
 describe('针对具体原文的离线查词',()=>{
  it('每个标注都对应真实原文字符、稳定位置和所属句子',()=>{
-  expect(occurrences).toHaveLength(659);expect(new Set(occurrences.map(o=>o.id)).size).toBe(659);
+  expect(occurrences).toHaveLength(4589);expect(new Set(occurrences.map(o=>o.id)).size).toBe(4589);
   for(const o of occurrences){const p=book.paragraphs.find(p=>p.id===o.paragraphId)!;expect(p.text.slice(o.start,o.end),o.id).toBe(o.text);expect(o.sentenceIds).toEqual(book.sentences.filter(s=>s.paragraphId===p.id&&s.start<o.end&&s.end>o.start).map(s=>s.id));}
  });
  it('仅预先选择的难词、熟词偏义或词组可查，普通词不泛化标蓝',()=>{
-  expect(catalog.entries).toHaveLength(506);for(const e of catalog.entries)expect(['difficult','shifted']).toContain(e.kind);
+  expect(catalog.entries).toHaveLength(1874);for(const e of catalog.entries)expect(['difficult','shifted']).toContain(e.kind);
   const first=book.sentences[0];expect(getWordLookups(first.paragraphId,first.text,first.start).map(o=>o.text)).toEqual(['clementines']);
   expect(getWordLookups(first.paragraphId,'Yoshi',0)).toEqual([]);
  });
@@ -57,16 +59,31 @@ describe('针对具体原文的离线查词',()=>{
  it('扩充后保留首批全部词义和位置，并补足14章的实际语境标注',()=>{
   for(const e of baseline.entries)expect(catalog.entries.find(x=>x.id===e.id)).toEqual(e);
   for(const o of Object.values(baseline.paragraphs).flat())expect(occurrences.find(x=>x.id===o.id)).toEqual(o);
-  const originalIds=new Set(Object.values(baseline.paragraphs).flat().map(o=>o.id)),added=occurrences.filter(o=>!originalIds.has(o.id));expect(added).toHaveLength(454);
+  const originalIds=new Set(Object.values(baseline.paragraphs).flat().map(o=>o.id)),added=occurrences.filter(o=>!originalIds.has(o.id));expect(added).toHaveLength(4384);
   for(const c of book.chapters)expect(added.some(o=>book.paragraphs.find(p=>p.id===o.paragraphId)?.chapterId===c.id),c.id).toBe(true);
   expect(catalog.entries.find(e=>e.id==='concrete')?.otherMeanings.join('')).toContain('混凝土');expect(catalog.entries.find(e=>e.id==='principal')?.otherMeanings.join('')).toContain('本金');
  });
  it('新增开篇词汇保留上一版全部词义与位置，并按本段语境解释',()=>{
   for(const e of previous.entries)expect(catalog.entries.find(x=>x.id===e.id)).toEqual(e);
   for(const o of Object.values(previous.paragraphs).flat())expect(occurrences.find(x=>x.id===o.id)).toEqual(o);
-  const previousIds=new Set(Object.values(previous.paragraphs).flat().map(o=>o.id)),added=occurrences.filter(o=>!previousIds.has(o.id));expect(added).toHaveLength(35);
+  const previousIds=new Set(Object.values(previous.paragraphs).flat().map(o=>o.id)),added=Object.values(lastRelease.paragraphs).flat().filter(o=>!previousIds.has(o.id));expect(added).toHaveLength(35);
   const world=added.find(o=>o.text==='a world away')!,maintain=added.find(o=>o.text==='maintain')!,reminiscing=added.find(o=>o.text==='reminiscing')!;
   expect(world.contextMeaning).toContain('相隔甚远');expect(maintain.contextMeaning).toContain('维系');expect(reminiscing.contextMeaning).toContain('追忆');
   expect(catalog.entries.find(e=>e.id===maintain.entryId)?.otherMeanings.join('')).toContain('主张');
+ });
+ it('B2扩充保留上一版全部词义和位置，新增记录逐项匹配预编写作者稿',()=>{
+  for(const e of lastRelease.entries)expect(catalog.entries.find(x=>x.id===e.id)).toEqual(e);
+  for(const o of Object.values(lastRelease.paragraphs).flat())expect(occurrences.find(x=>x.id===o.id)).toEqual(o);
+  expect(expansion.additions).toHaveLength(3930);for(const row of expansion.additions)expect(occurrences.find(x=>x.id===row.occurrence.id)).toEqual(row.occurrence);
+  for(const c of book.chapters)expect(expansion.additions.filter(row=>book.paragraphs.find(p=>p.id===row.occurrence.paragraphId)?.chapterId===c.id).length).toBeGreaterThan(150);
+ });
+ it('熟词偏义按具体语境区分，不把人名或实验术语当成普通义',()=>{
+  const notes=expansion.additions.map(row=>row.occurrence);
+  expect(notes.find(o=>o.text==='regulation'&&o.contextMeaning.includes('常规时间'))).toBeDefined();
+  expect(notes.find(o=>o.text==='Blind'&&o.contextMeaning.includes('不知情'))).toBeDefined();
+  expect(notes.find(o=>o.text==='scholarship'&&o.contextMeaning.includes('奖学金'))).toBeDefined();
+  expect(notes.find(o=>o.text==='scholarship'&&o.contextMeaning.includes('学术研究'))).toBeDefined();
+  expect(notes.filter(o=>['Joy','Grace','Angeles','Rockets'].includes(o.text))).toEqual([]);
+  const report=read('source/b2-vocabulary/coverage.json');expect(report.pendingCandidateOccurrences).toEqual([]);expect(report.notice).toContain('not a full C2');
  });
 });

@@ -1,37 +1,40 @@
 {
   "version": 1,
-  "date": "2026-10-25",
+  "date": "2026-10-28",
   "pdfSha256": "be25c859f1bd894a4b0d1cff024ded1297f6a96a8e8ddabea1e3abcf89160a50",
-  "entryCount": 475,
-  "occurrenceCount": 624,
-  "paragraphCount": 345,
+  "entryCount": 1874,
+  "occurrenceCount": 4589,
+  "paragraphCount": 452,
   "byChapter": {
-    "c01": 62,
-    "c02": 74,
-    "c03": 35,
-    "c04": 41,
-    "c05": 40,
-    "c06": 56,
-    "c07": 37,
-    "c08": 19,
-    "c09": 27,
-    "c10": 66,
-    "c11": 40,
-    "c12": 36,
-    "c13": 55,
-    "c14": 36
+    "c01": 301,
+    "c02": 325,
+    "c03": 219,
+    "c04": 210,
+    "c05": 230,
+    "c06": 388,
+    "c07": 297,
+    "c08": 332,
+    "c09": 397,
+    "c10": 594,
+    "c11": 335,
+    "c12": 299,
+    "c13": 412,
+    "c14": 250
   },
   "sources": [
-    "source/word-lexicon.tsv",
-    "public/data/questions.json: vocabulary.meaning",
-    "public/data/book.json: original offsets"
+    "tests/fixtures/word-lookups-v3.json",
+    "source/b2-vocabulary/author-notes.json",
+    "source/b2-vocabulary/corpus-glosses.tsv",
+    "public/data/book.json: exact original offsets"
   ],
   "rules": [
     "Only selected exact occurrences are blue; ordinary words are not made clickable.",
     "Context glosses are prewritten lexical meanings, never question answers, analyses or full passage translations.",
     "Other common senses are authored lexical notes; monosemous entries explicitly have no additional common sense.",
     "No runtime AI, network dictionary, stemming or sense guessing.",
-    "Source text, question objects, fingerprints and personal study data are not modified."
+    "Source text, question objects, fingerprints and personal study data are not modified.",
+    "Oxford B2/C1 headwords screen candidates; levels do not certify every sense, and unlisted words are not automatically C2.",
+    "A recorded annotation count is not proof that every B2/C1/C2 sense has been reviewed. See source/b2-vocabulary/coverage.json."
   ],
   "unmatchedDraftEntries": [
     "evoke",

@@ -5,8 +5,12 @@ vocabulary or explicitly authored overrides. It never changes the book/questions
 """
 from pathlib import Path
 import hashlib,json,re
+import subprocess,sys
 
 ROOT=Path(__file__).resolve().parents[1]
+if (ROOT/'source/b2-vocabulary/author-notes.json').exists():
+ subprocess.run(['node','scripts/compile-b2-lookups.mjs'],cwd=ROOT,check=True)
+ sys.exit(0)
 read=lambda p:json.loads((ROOT/p).read_text(encoding='utf8'))
 book=read('public/data/book.json');questions=read('public/data/questions.json')
 paragraphs={p['id']:p for p in book['paragraphs']};sentences={s['id']:s for s in book['sentences']}

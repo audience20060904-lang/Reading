@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-10-28",
+  "passed": true,
+  "newEntries": 1368,
+  "newOccurrences": 3930,
+  "totalEntries": 1874,
+  "totalOccurrences": 4589,
+  "unitTestsPassed": 328,
+  "localBrowser": [
+    "全部资源与测试构建逐字节一致，离线词表随页面打包",
+    "仅精选词标蓝，桌面弹窗显示本段词义、不泄露答案，点击遮罩关闭且不记成绩",
+    "键盘Enter打开、弹窗内焦点约束、Escape关闭并返回原词",
+    "提交后移到译文上方的原文仍可查词，英文和历史作答完全保留",
+    "手机点击屈折词形显示词头、本段义与其他常见义，底部词卡不溢出",
+    "章节原文也可查词，点击不切换已读、不产生答案，深色主题可用",
+    "逐一点击14章28处新增标注及10类易混语境义，原文与语境释义对应且不产生作答",
+    "模拟离线恢复查词；本地另停HTTP服务后缓存重载查词成功，无运行时异常"
+  ],
+  "newBrowserOccurrencesVisited": 38,
+  "oldEntriesAndOffsetsPreserved": true,
+  "authoring": "Independently authored lexical notes plus source-specific vocabulary already present in the question bank.",
+  "reviewMethod": "All added offsets, source slices, sentence IDs and non-overlap checked; human sense rules authored for identified ambiguous cases; 38 representative lookups checked in Edge across all chapters.",
+  "everyOccurrenceHumanSenseReviewed": false,
+  "completeC2Inventory": false,
+  "limits": [
+    "Synthetic isolated browser data; desktop and 390px Edge viewport, not a physical phone. Browser offline simulation is separate from actual local HTTP shutdown."
+  ]
+}
