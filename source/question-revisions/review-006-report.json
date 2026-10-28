@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "question-review-2026-10-28-006",
-  "status": "local-verified-awaiting-publication",
+  "status": "published-and-verified",
   "pdfSha256": "be25c859f1bd894a4b0d1cff024ded1297f6a96a8e8ddabea1e3abcf89160a50",
   "automated": {
     "questions": 2709,
@@ -275,6 +275,28 @@
       "passed": true,
       "offlineVersion": "114ed5185e6bfb9b"
     },
-    "offlineVersion": "114ed5185e6bfb9b"
-  }
+    "offlineVersion": "114ed5185e6bfb9b",
+    "liveBrowser": {
+      "date": "2026-10-28",
+      "url": "https://audience20060904-lang.github.io/Reading/",
+      "checks": [
+        "全部缓存资产及Service Worker与本次生产构建逐字节匹配",
+        "提交前无证据标记；提交后精确标出依据且原文不变、淡蓝色查词仍可用",
+        "相近题型合并为一行并按提交次数计算50%正确率，原始标签和历史记录不变",
+        "逐题提交11道校对题，交替验证正误、四项译文与分析、整段译文及完整快照；提交前不显示中文解析",
+        "真实浏览器恢复旧选项、旧译文、旧错题成绩与用时；重练采用新版，新增记录且不改历史",
+        "390px和320px深色视口，选项、解析和整段译文均无横向溢出",
+        "旧未提交选择遇到改版时清空，新版位置保留；已提交解析正常刷新恢复",
+        "离线模拟恢复新旧两版成绩；本地另实际停止HTTP服务后缓存恢复新版题目与译文"
+      ],
+      "limits": [
+        "Isolated synthetic data only; Prewritten versioned editorial corrections checked against their current records. Mobile is a viewport, not a physical phone."
+      ],
+      "revisedQuestionsVisited": 11,
+      "batchId": "question-review-2026-10-28-006",
+      "passed": true,
+      "offlineVersion": "114ed5185e6bfb9b"
+    }
+  },
+  "releaseRecord": "source/releases/question-review-006.json"
 }
