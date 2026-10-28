@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "id": "question-review-2026-10-28-022",
+  "id": "question-review-2026-10-28-023",
   "revisionIds": [
     "question-review-2026-10-28-001",
     "question-review-2026-10-28-002",
@@ -23,7 +23,8 @@
     "question-review-2026-10-28-019",
     "question-review-2026-10-28-020",
     "question-review-2026-10-28-021",
-    "question-review-2026-10-28-022"
+    "question-review-2026-10-28-022",
+    "question-review-2026-10-28-023"
   ],
   "batches": [
     {
@@ -567,6 +568,25 @@
         "q-c02-053": "870f30dab453ddace6c3a7310547c24509b85553ea269ffad915dbb5f74cefba",
         "qe-c02-0045": "877d9234534be6ba373a0e4917e08fac9abe7a5555b76ab5262707f5d3952a01"
       }
+    },
+    {
+      "id": "question-review-2026-10-28-023",
+      "questionIds": [
+        "q-c02-015",
+        "qe-c02-0046",
+        "qe-c02-0047",
+        "q-c02-016",
+        "qe-c02-0050",
+        "q-c02-017"
+      ],
+      "questionFingerprints": {
+        "q-c02-015": "dd437f68c5b3bf4d21e38f23730a689084ba2408aaa1ef862b72c177b5d9a953",
+        "qe-c02-0046": "6cfa7d13df76256bd8b701a5d9b88ea3dc8630b4faecf58974767514fd316507",
+        "qe-c02-0047": "7e2ab6a4f7a13a26729f073fce6eb5e03762c87e790bc8c9b030b3d939b9832f",
+        "q-c02-016": "a861ce6c4b21b96ff2c77f9d19a7e98040899f11640c69b771cf5939e3a54f84",
+        "qe-c02-0050": "805d756616afc483c79ec84c6e651072fe3239e8956fa170851299bdb38cfeb8",
+        "q-c02-017": "c30585fba6a2c15b4103f3fb880bce9ae8a6a56a5eecdbce21474a2c7d878307"
+      }
     }
   ],
   "pdfSha256": "be25c859f1bd894a4b0d1cff024ded1297f6a96a8e8ddabea1e3abcf89160a50",
@@ -764,7 +784,13 @@
     "q-c02-008": "dfaef8a20f32c218512517ff65b89d793c1daa7ef8b1d7d9f9cc75f17fb96d3f",
     "q-c02-009": "b0722ece4286a61da5c66b32c67d3bcc07e7a58a99e37cf502e934fcfea128f1",
     "q-c02-053": "2313f62fc477b32c9f4659c92d462a36724b983f8665180b5d568676e22f8aae",
-    "qe-c02-0045": "5ecebcd88f887fe567daa1c7ea692ef498d5bafa93ca717cba046ecfe60a9734"
+    "qe-c02-0045": "5ecebcd88f887fe567daa1c7ea692ef498d5bafa93ca717cba046ecfe60a9734",
+    "q-c02-015": "5dde3f11bb9e584a0c2421826d865ef498d7457251dc85d573b82e8a2ce1057b",
+    "qe-c02-0046": "97f4b6f77eeea48fb06a70ec5b82831e500e30954de7610a4766368db3867827",
+    "qe-c02-0047": "c302d6786d9c2817b96f19194f8fd18326d451c7f7aba739a4128f82951f4ecb",
+    "q-c02-016": "763515c7a6948ba57adf506f764d0a2823b86f9d2057be8659eb50e7c65e2533",
+    "qe-c02-0050": "933b1ead8b61c9b624a807a618abd45a98bb3ad11ce4188246ff9944d7a0e687",
+    "q-c02-017": "7e704ad36b6940d5db7c968bd78b7dca67c2e2bafa1398f4cf46a98b8a0cd53f"
   },
   "revisionDepths": {
     "q-c01-047": 1,
@@ -960,7 +986,13 @@
     "q-c02-008": 1,
     "q-c02-009": 1,
     "q-c02-053": 1,
-    "qe-c02-0045": 1
+    "qe-c02-0045": 1,
+    "q-c02-015": 1,
+    "qe-c02-0046": 1,
+    "qe-c02-0047": 1,
+    "q-c02-016": 1,
+    "qe-c02-0050": 1,
+    "q-c02-017": 1
   },
   "questions": [
     {
@@ -16859,6 +16891,519 @@
       "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
       "contentRevision": "question-review-2026-10-28-022",
       "fingerprint": "877d9234534be6ba373a0e4917e08fac9abe7a5555b76ab5262707f5d3952a01"
+    },
+    {
+      "id": "q-c02-015",
+      "version": 3,
+      "chapterId": "c02",
+      "sectionId": "c02-s04",
+      "paragraphId": "c02-s04-p021-05355",
+      "sentenceIds": [
+        "c02-s04-p021-05355-s002",
+        "c02-s04-p021-05355-s003"
+      ],
+      "passage": "First, there is the pressure to be happy, which makes feeling sadness, anger, and anguish seem undesirable and alienating. And yet it is not possible to avoid negative emotions.",
+      "prompt": "Why does the author place “And yet” before the statement about negative emotions?",
+      "options": [
+        "To show that unavoidable feelings conflict with the demand to be happy.",
+        "To deny that pressure changes how people view sadness.",
+        "To explain that criticism is less upsetting than missing a train.",
+        "To introduce the second face of the happiness trap in full."
+      ],
+      "answer": 0,
+      "type": "逻辑关系",
+      "analyses": [
+        "A 对应 not possible to avoid 与前句 undesirable and alienating 的反差。",
+        "B yet 不是否定前面压力的影响，而是指出这种要求与情绪现实的冲突。",
+        "C 当前两句没有比较批评与错过火车的难受程度；转折针对快乐压力与负面情绪不可避免。",
+        "D 此段标出 First 并继续解释第一面；第二面尚未在此完整展开。"
+      ],
+      "evidence": [
+        {
+          "quote": "First, there is the pressure to be happy, which makes feeling sadness, anger, and anguish seem undesirable and alienating.",
+          "sentenceIds": [
+            "c02-s04-p021-05355-s002"
+          ],
+          "sources": [
+            {
+              "pdfPage": 21,
+              "block": 4,
+              "bbox": [
+                76.99,
+                535.5,
+                535,
+                628.02
+              ]
+            }
+          ]
+        },
+        {
+          "quote": "And yet it is not possible to avoid negative emotions.",
+          "sentenceIds": [
+            "c02-s04-p021-05355-s003"
+          ],
+          "sources": [
+            {
+              "pdfPage": 21,
+              "block": 4,
+              "bbox": [
+                76.99,
+                535.5,
+                535,
+                628.02
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "alienating",
+          "meaning": "使疏离的；让人感到格格不入的",
+          "context": "快乐压力使负面感受显得不被接纳",
+          "example": "The formal language can be alienating to new readers.",
+          "collocations": [
+            "an alienating experience",
+            "feel alienated from"
+          ]
+        }
+      ],
+      "support": "explicit",
+      "editorialStatus": "短段版 v2；连续原句，配题片段互不重叠；保留 v1 历史快照，不重算旧成绩",
+      "translation": "首先，是必须幸福的压力，它使悲伤、愤怒和痛苦等感受显得不受欢迎，并让人感到格格不入。然而，负面情绪不可能完全避免。",
+      "readingUnitId": "c02-s04-p021-05355-r002-003",
+      "promptZh": "作者为什么在负面情绪的陈述前使用“And yet”？",
+      "optionsZh": [
+        "说明不可避免的感受与必须快乐的要求之间存在冲突。",
+        "否认压力会改变人们看待悲伤的方式。",
+        "解释受到批评比错过火车更不令人难受。",
+        "完整介绍幸福陷阱的第二面。"
+      ],
+      "contentRevision": "question-review-2026-10-28-023",
+      "fingerprint": "dd437f68c5b3bf4d21e38f23730a689084ba2408aaa1ef862b72c177b5d9a953"
+    },
+    {
+      "id": "qe-c02-0046",
+      "version": 2,
+      "family": "sentence-evidence",
+      "batchId": "evidence-005",
+      "parentQuestionId": "q-c02-056",
+      "chapterId": "c02",
+      "sectionId": "c02-s04",
+      "paragraphId": "c02-s04-p021-06330",
+      "readingUnitId": "c02-s04-p021-06330-r001-004",
+      "sentenceIds": [
+        "c02-s04-p021-06330-s001",
+        "c02-s04-p021-06330-s002",
+        "c02-s04-p021-06330-s003",
+        "c02-s04-p021-06330-s004"
+      ],
+      "passage": "For example, take an experience I had multiple times when I lived in New York City. I lived in a building without a door attendant. One day, when I came back to my building with some takeout food from the local Chinese restaurant, a young woman opened the door for me. So I said, “Thank you!”",
+      "prompt": "What kind of evidence is introduced by 'an experience I had multiple times'?",
+      "promptZh": "an experience I had multiple times 引入哪类材料？",
+      "options": [
+        "A population survey of New York residents.",
+        "A first-person account of a repeated personal experience.",
+        "A story the advisor told the narrator about someone else.",
+        "An account of a single occasion with no suggestion of repetition."
+      ],
+      "optionsZh": [
+        "一项纽约居民总体调查。",
+        "反复发生过的个人经历的第一人称叙述。",
+        "导师告诉作者的他人故事。",
+        "一次单独事件的叙述，没有重复的意思。"
+      ],
+      "answer": 1,
+      "type": "观点归属",
+      "support": "explicit",
+      "analyses": [
+        "A multiple times 指作者多次经历，不是居民调查样本。",
+        "B I had、when I lived in New York City 标明作者自己的经历，multiple times 说明不止一次。",
+        "C I had 与 when I lived in New York City 表明作者自己的经历，没有导师讲述他人故事的信息。",
+        "D multiple times 明确表示多次，不能删去次数限定。"
+      ],
+      "vocabulary": [
+        {
+          "word": "multiple times",
+          "meaning": "多次；不止一次",
+          "context": "限定作者经历的次数，不能据此推出所有居民都经历相同事情。",
+          "example": "She revised the paragraph multiple times before submitting it.",
+          "collocations": [
+            "happen multiple times",
+            "read something multiple times"
+          ]
+        }
+      ],
+      "translation": "例如，我住在纽约市时曾多次遇到这样的经历。我住的大楼没有门房。有一天，我从附近中餐馆买了外卖回楼里，一位年轻女子为我打开门，于是我说：“谢谢！”",
+      "evidenceTargetIds": [
+        "c02-s04-p021-06330-s001"
+      ],
+      "evidence": [
+        {
+          "quote": "For example, take an experience I had multiple times when I lived in New York City.",
+          "sentenceIds": [
+            "c02-s04-p021-06330-s001"
+          ],
+          "sources": [
+            {
+              "pdfPage": 21,
+              "block": 5,
+              "bbox": [
+                76.99,
+                633,
+                535,
+                706.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "contentRevision": "question-review-2026-10-28-023",
+      "fingerprint": "6cfa7d13df76256bd8b701a5d9b88ea3dc8630b4faecf58974767514fd316507"
+    },
+    {
+      "id": "qe-c02-0047",
+      "version": 2,
+      "family": "sentence-evidence",
+      "batchId": "evidence-005",
+      "parentQuestionId": "q-c02-056",
+      "chapterId": "c02",
+      "sectionId": "c02-s04",
+      "paragraphId": "c02-s04-p021-06330",
+      "readingUnitId": "c02-s04-p021-06330-r001-004",
+      "sentenceIds": [
+        "c02-s04-p021-06330-s001",
+        "c02-s04-p021-06330-s002",
+        "c02-s04-p021-06330-s003",
+        "c02-s04-p021-06330-s004"
+      ],
+      "passage": "For example, take an experience I had multiple times when I lived in New York City. I lived in a building without a door attendant. One day, when I came back to my building with some takeout food from the local Chinese restaurant, a young woman opened the door for me. So I said, “Thank you!”",
+      "prompt": "What detail is given about the building where the narrator lived?",
+      "promptZh": "作者居住的大楼有什么特点？",
+      "options": [
+        "It was staffed by several door attendants at all times.",
+        "It belonged to the Chinese restaurant.",
+        "It admitted only university professors.",
+        "It did not have a door attendant."
+      ],
+      "optionsZh": [
+        "始终有多名门房值班。",
+        "属于那家中餐馆。",
+        "只允许大学教授进入。",
+        "没有门房。"
+      ],
+      "answer": 3,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A without 与始终配备相反。",
+        "B 后文餐馆是外卖来源，没有产权关系。",
+        "C 当前片段没有说这座楼仅允许大学教授进入；不能把无门房的配置偷换成住户准入条件。",
+        "D without a door attendant 明确给出建筑的人员配置。"
+      ],
+      "vocabulary": [
+        {
+          "word": "door attendant",
+          "meaning": "门房；门口服务人员",
+          "context": "指大楼门口的工作人员，without 说明该楼没有这项配置。",
+          "example": "The visitor asked the door attendant for directions.",
+          "collocations": [
+            "a building with a door attendant",
+            "work as a door attendant"
+          ]
+        }
+      ],
+      "translation": "例如，我住在纽约市时曾多次遇到这样的经历。我住的大楼没有门房。有一天，我从附近中餐馆买了外卖回楼里，一位年轻女子为我打开门，于是我说：“谢谢！”",
+      "evidenceTargetIds": [
+        "c02-s04-p021-06330-s002"
+      ],
+      "evidence": [
+        {
+          "quote": "I lived in a building without a door attendant.",
+          "sentenceIds": [
+            "c02-s04-p021-06330-s002"
+          ],
+          "sources": [
+            {
+              "pdfPage": 21,
+              "block": 5,
+              "bbox": [
+                76.99,
+                633,
+                535,
+                706.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "contentRevision": "question-review-2026-10-28-023",
+      "fingerprint": "7e2ab6a4f7a13a26729f073fce6eb5e03762c87e790bc8c9b030b3d939b9832f"
+    },
+    {
+      "id": "q-c02-016",
+      "version": 3,
+      "chapterId": "c02",
+      "sectionId": "c02-s04",
+      "paragraphId": "c02-s04-p021-06330",
+      "sentenceIds": [
+        "c02-s04-p021-06330-s005",
+        "c02-s04-p021-06330-s006",
+        "c02-s04-p021-06330-s007"
+      ],
+      "passage": "When she replied, “Thank YOU!” I was completely thrown off. Then I realized: she assumed I was the Chinese deliveryman bringing her food.",
+      "prompt": "In the doorway anecdote, “completely thrown off” most nearly means that the author was:",
+      "options": [
+        "physically prevented from entering his building.",
+        "confused by an unexpected response.",
+        "pleased to be recognised by a neighbour.",
+        "uncertain whether he had ordered the correct food."
+      ],
+      "answer": 1,
+      "type": "语境词义",
+      "analyses": [
+        "A thrown off 描述对回应的困惑；当前两句没有说作者被人阻挡、无法进入大楼。",
+        "B 对应出乎意料的回应以及随后才明白误会的时间顺序。",
+        "C she assumed...deliveryman 表明身份被误认，并非被认出是邻居；当前描述的是困惑后才领悟。",
+        "D 没有怀疑自己点错餐的内容，误会涉及身份和食物去向。"
+      ],
+      "evidence": [
+        {
+          "quote": "When she replied, “Thank YOU!” I was completely thrown off.",
+          "sentenceIds": [
+            "c02-s04-p021-06330-s005",
+            "c02-s04-p021-06330-s006"
+          ],
+          "sources": [
+            {
+              "pdfPage": 22,
+              "block": 0,
+              "bbox": [
+                76.99,
+                75,
+                535.01,
+                148.02
+              ]
+            }
+          ]
+        },
+        {
+          "quote": "Then I realized: she assumed I was the Chinese deliveryman bringing her food.",
+          "sentenceIds": [
+            "c02-s04-p021-06330-s007"
+          ],
+          "sources": [
+            {
+              "pdfPage": 22,
+              "block": 0,
+              "bbox": [
+                76.99,
+                75,
+                535.01,
+                148.02
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "thrown off",
+          "meaning": "被弄糊涂；感到意外",
+          "context": "作者因对方反过来感谢他而一时困惑",
+          "example": "The unexpected question threw me off.",
+          "collocations": [
+            "be thrown off by",
+            "throw someone off balance"
+          ]
+        },
+        {
+          "word": "assumed",
+          "meaning": "以为；假定",
+          "context": "年轻女子误以为作者是给她送餐的人",
+          "example": "I assumed the bag belonged to my neighbour.",
+          "collocations": [
+            "assume someone is",
+            "a widely assumed connection"
+          ]
+        }
+      ],
+      "support": "explicit",
+      "editorialStatus": "短段版 v2；连续原句，配题片段互不重叠；保留 v1 历史快照，不重算旧成绩",
+      "translation": "她却回答：“该谢谢你！”这让我完全摸不着头脑。随后我才明白，她以为我是给她送餐的中国外卖员。",
+      "readingUnitId": "c02-s04-p021-06330-r005-007",
+      "promptZh": "在门口的轶事中，“completely thrown off”最接近下列哪种意思？",
+      "optionsZh": [
+        "身体上被阻止进入自己的大楼。",
+        "被出乎意料的回应弄得困惑。",
+        "因为被邻居认出来而感到高兴。",
+        "不确定自己是否点了正确的食物。"
+      ],
+      "contentRevision": "question-review-2026-10-28-023",
+      "fingerprint": "a861ce6c4b21b96ff2c77f9d19a7e98040899f11640c69b771cf5939e3a54f84"
+    },
+    {
+      "id": "qe-c02-0050",
+      "version": 2,
+      "family": "sentence-evidence",
+      "batchId": "evidence-005",
+      "parentQuestionId": "q-c02-058",
+      "chapterId": "c02",
+      "sectionId": "c02-s04",
+      "paragraphId": "c02-s04-p022-01530",
+      "readingUnitId": "c02-s04-p022-01530-r001-004",
+      "sentenceIds": [
+        "c02-s04-p022-01530-s001",
+        "c02-s04-p022-01530-s002",
+        "c02-s04-p022-01530-s003",
+        "c02-s04-p022-01530-s004"
+      ],
+      "passage": "Speaking of graduate school, when I was a fifth-year PhD student, my advisor told me the following story. Daniel Kahneman, a famous psychologist at Princeton, called my advisor, Ed Diener, up and asked him about me. At that time, there was an assistant professor job at Princeton that I had applied for. After they talked for a while, Kahneman asked my advisor, “Is Shige cocky?”",
+      "prompt": "At what stage of his studies did the advisor tell the narrator this story?",
+      "promptZh": "导师是在作者学习生涯的哪个阶段告诉他这个故事的？",
+      "options": [
+        "When he was a first-year PhD student.",
+        "After he had obtained his first professorship.",
+        "While applying to enter an undergraduate programme.",
+        "When he was a fifth-year PhD student."
+      ],
+      "optionsZh": [
+        "博士第一年。",
+        "已获得第一个教授职位后。",
+        "申请本科入学时。",
+        "博士第五年。"
+      ],
+      "answer": 3,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A fifth-year 不是 first-year，学年被换错。",
+        "B 本句时间仍为博士学生阶段。",
+        "C PhD 与本科申请是不同阶段。",
+        "D when I was a fifth-year PhD student 直接给出时间。"
+      ],
+      "vocabulary": [
+        {
+          "word": "advisor",
+          "meaning": "导师；指导者",
+          "context": "作者博士阶段的导师；在转述的故事中，卡尼曼致电给这位导师了解作者。",
+          "example": "Her advisor suggested a new direction for the thesis.",
+          "collocations": [
+            "a PhD advisor",
+            "ask an advisor for guidance"
+          ]
+        }
+      ],
+      "translation": "说到研究生院，我读博士五年级时，导师给我讲了下面这个故事。普林斯顿的著名心理学家 Daniel Kahneman 打电话给我的导师 Ed Diener，向他打听我。当时，我申请了普林斯顿的一个助理教授职位。两人聊了一会儿后，Kahneman 问导师：“Shige 自负吗？”",
+      "evidenceTargetIds": [
+        "c02-s04-p022-01530-s001"
+      ],
+      "evidence": [
+        {
+          "quote": "Speaking of graduate school, when I was a fifth-year PhD student, my advisor told me the following story.",
+          "sentenceIds": [
+            "c02-s04-p022-01530-s001"
+          ],
+          "sources": [
+            {
+              "pdfPage": 22,
+              "block": 1,
+              "bbox": [
+                76.99,
+                153,
+                535.01,
+                343.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "contentRevision": "question-review-2026-10-28-023",
+      "fingerprint": "805d756616afc483c79ec84c6e651072fe3239e8956fa170851299bdb38cfeb8"
+    },
+    {
+      "id": "q-c02-017",
+      "version": 3,
+      "chapterId": "c02",
+      "sectionId": "c02-s04",
+      "paragraphId": "c02-s04-p022-01530",
+      "sentenceIds": [
+        "c02-s04-p022-01530-s009"
+      ],
+      "passage": "A week later, I found out that I did not get the job interview at Princeton, while my “cocky” lab mate did!",
+      "prompt": "What outcome does the author explicitly report one week after the conversation?",
+      "options": [
+        "His lab mate received an interview that he himself did not receive.",
+        "Kahneman interviewed him but rejected him after the meeting.",
+        "His lab mate accepted the Princeton job instead of him.",
+        "His advisor withdrew his application before Princeton considered it."
+      ],
+      "answer": 0,
+      "type": "细节",
+      "analyses": [
+        "A 对应 did not get the job interview 与 lab mate did 的对照。",
+        "B 作者没有获得面试；不存在该段所说的面试后拒绝。",
+        "C 面试机会不等于录用或接受职位，结果范围被扩大。",
+        "D 当前单句只报告谁获得了面试，没有导师撤回申请的信息，不能由面试结果推定申请被撤回。"
+      ],
+      "evidence": [
+        {
+          "quote": "A week later, I found out that I did not get the job interview at Princeton, while my “cocky” lab mate did!",
+          "sentenceIds": [
+            "c02-s04-p022-01530-s009"
+          ],
+          "sources": [
+            {
+              "pdfPage": 22,
+              "block": 1,
+              "bbox": [
+                76.99,
+                153,
+                535.01,
+                343.02
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "cocky",
+          "meaning": "自负的；过分自信的",
+          "context": "当前句用引号标出对同门的“自负”描述；句中结果是同门获面试，不等于已获聘。",
+          "example": "The player sounded confident without being cocky.",
+          "collocations": [
+            "a cocky attitude",
+            "sound cocky"
+          ]
+        },
+        {
+          "word": "while",
+          "meaning": "而；然而",
+          "context": "对照作者没有获得面试与同门获得面试",
+          "example": "Mia chose the train, while Leo drove.",
+          "collocations": [
+            "while others",
+            "while in contrast"
+          ]
+        }
+      ],
+      "support": "explicit",
+      "editorialStatus": "短段版 v2；连续原句，配题片段互不重叠；保留 v1 历史快照，不重算旧成绩",
+      "translation": "一周后，我得知自己没有获得普林斯顿的面试机会，而那位“自负”的同门却得到了！",
+      "readingUnitId": "c02-s04-p022-01530-r009-009",
+      "promptZh": "作者明确报告，谈话一周后发生了什么？",
+      "optionsZh": [
+        "同门获得了面试机会，而作者自己没有。",
+        "卡尼曼面试了作者，却在面谈后拒绝了他。",
+        "同门代替作者接受了普林斯顿的职位。",
+        "导师在普林斯顿考虑之前撤回了作者的申请。"
+      ],
+      "contentRevision": "question-review-2026-10-28-023",
+      "fingerprint": "c30585fba6a2c15b4103f3fb880bce9ae8a6a56a5eecdbce21474a2c7d878307"
     }
   ]
 }
