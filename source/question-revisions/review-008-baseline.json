@@ -1,0 +1,797 @@
+{
+  "pdfSha256": "be25c859f1bd894a4b0d1cff024ded1297f6a96a8e8ddabea1e3abcf89160a50",
+  "sourceCommit": "88e84115005ad241ce481bcc0cd1a90fbdbecef1",
+  "questions": [
+    {
+      "id": "q-c10-054",
+      "version": 1,
+      "readingUnitId": "c10-s06-p112-04065-r001-001",
+      "chapterId": "c10",
+      "sectionId": "c10-s06",
+      "paragraphId": "c10-s06-p112-04065",
+      "sentenceIds": [
+        "c10-s06-p112-04065-s001"
+      ],
+      "passage": "At the end of the semester, students in the class were asked to rate the photos of the four women in terms of attractiveness, familiarity, and perceived similarities (to the rater).",
+      "prompt": "Which dimension were students asked to rate at the semester’s end?",
+      "options": [
+        "How similar each woman seemed to themselves.",
+        "The women’s examination results.",
+        "How many lectures the students themselves missed.",
+        "Each assistant’s actual family background."
+      ],
+      "answer": 0,
+      "type": "细节",
+      "promptZh": "学期末要求学生评哪个维度？",
+      "optionsZh": [
+        "每名女性看起来与自己有多相似。",
+        "女性的考试成绩。",
+        "学生自己缺课次数。",
+        "每位助理的实际家庭背景。"
+      ],
+      "analyses": [
+        "A perceived similarities (to the rater) 明确是与评分者的主观相似感。",
+        "B 没测考试成绩。",
+        "C 这里让学生评四人照片，不是报自己的出勤。",
+        "D perceived 不是实际背景调查。另两维度为吸引力和熟悉度。"
+      ],
+      "evidence": [
+        {
+          "quote": "attractiveness, familiarity, and perceived similarities (to the rater).",
+          "sentenceIds": [
+            "c10-s06-p112-04065-s001"
+          ],
+          "sources": [
+            {
+              "pdfPage": 112,
+              "block": 2,
+              "bbox": [
+                76.99,
+                406.5,
+                535,
+                557.52
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "perceived",
+          "meaning": "感知到的；认为的",
+          "context": "相似感是评分者主观判断，不自动等于客观一致",
+          "example": "Perceived similarity may differ from measured similarity.",
+          "collocations": [
+            "perceived similarities",
+            "perceived attractiveness"
+          ]
+        }
+      ],
+      "translation": "学期末，班里学生被要求根据四名女性的照片，对吸引力、熟悉度以及感到她们与自己有多相似进行评分。",
+      "support": "explicit",
+      "editorialStatus": "完整PDF111–115原页视觉核对及跨页拼接。词频观察与无意义词、汉字、人像和课堂曝光实验分开；假称Turkish不作真实语言事实；课堂评分量表、出席次数和主观熟悉/明确认识分开，linearly保留作者措辞但不编精确等差。机制实验不把早前观察婚配研究改成随机试验。购物/旅行属个人轶事；普查流动性是代理指标、统计控制非因果保证；成长经历观察与想象工作心态实验分开，every other year译隔年。and almost为既有跨单元句片，保留ID与连续阅读。末段完整审阅含尚未配题结果，不提前倒灌证据，不宣称逐句直接证据全覆盖。",
+      "fingerprint": "f227ccaf44af1b1186ea7bc188f793ea2187bbffea4eba35dcb19bbe2c38dcb0"
+    },
+    {
+      "id": "q-c10-067",
+      "version": 1,
+      "readingUnitId": "c10-s07-p114-02700-r001-001",
+      "chapterId": "c10",
+      "sectionId": "c10-s07",
+      "paragraphId": "c10-s07-p114-02700",
+      "sentenceIds": [
+        "c10-s07-p114-02700-s001"
+      ],
+      "passage": "To find out, my students and I decided to use residential mobility data from the U.S. census to approximate how often people meet strangers, based on the reasoning that, in a city where a lot of people move, the chance of being surrounded by strangers is a lot higher than in a city where people don’t move.",
+      "prompt": "How did the researchers approximate encounters with strangers?",
+      "options": [
+        "By counting conversations directly in every city.",
+        "By experimentally moving all census respondents.",
+        "By recording every traveller’s greeting.",
+        "By using census residential mobility as an indirect indicator."
+      ],
+      "answer": 3,
+      "type": "细节",
+      "promptZh": "研究者怎样近似估计遇见陌生人的频率？",
+      "optionsZh": [
+        "逐城直接计数所有对话。",
+        "实验性搬迁所有普查对象。",
+        "记录每位旅客的招呼。",
+        "用普查居住流动性作间接指标。"
+      ],
+      "analyses": [
+        "A approximate 不等于直接观察所有相遇。",
+        "B 使用已有普查资料，不是安排搬迁。",
+        "C 没普遍记录旅行招呼。",
+        "D 推理是迁入迁出多的城市更可能被陌生人围绕，属于代理指标而非精确计数。"
+      ],
+      "evidence": [
+        {
+          "quote": "use residential mobility data from the U.S. census to approximate how often people meet strangers",
+          "sentenceIds": [
+            "c10-s07-p114-02700-s001"
+          ],
+          "sources": [
+            {
+              "pdfPage": 114,
+              "block": 1,
+              "bbox": [
+                76.99,
+                270,
+                535.01,
+                538.02
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "approximate",
+          "meaning": "近似估计",
+          "context": "用居住流动性间接衡量相遇频率，非直接逐次测量",
+          "example": "The team used survey data to approximate daily contact.",
+          "collocations": [
+            "approximate a frequency",
+            "use data to approximate"
+          ]
+        }
+      ],
+      "translation": "为找答案，我和学生决定用美国人口普查的居住流动性数据，近似估计人们遇到陌生人的频率。理由是，在很多人搬迁的城市，身处陌生人之中的机会，比人们不怎么搬迁的城市高得多。",
+      "support": "explicit",
+      "editorialStatus": "完整PDF111–115原页视觉核对及跨页拼接。词频观察与无意义词、汉字、人像和课堂曝光实验分开；假称Turkish不作真实语言事实；课堂评分量表、出席次数和主观熟悉/明确认识分开，linearly保留作者措辞但不编精确等差。机制实验不把早前观察婚配研究改成随机试验。购物/旅行属个人轶事；普查流动性是代理指标、统计控制非因果保证；成长经历观察与想象工作心态实验分开，every other year译隔年。and almost为既有跨单元句片，保留ID与连续阅读。末段完整审阅含尚未配题结果，不提前倒灌证据，不宣称逐句直接证据全覆盖。",
+      "fingerprint": "3e4aabb6b19d260ccf4115591127e00c90d3a21087cae9fbcde5f3e9ea299635"
+    },
+    {
+      "id": "q-c10-070",
+      "version": 1,
+      "readingUnitId": "c10-s07-p114-05430-r001-001",
+      "chapterId": "c10",
+      "sectionId": "c10-s07",
+      "paragraphId": "c10-s07-p114-05430",
+      "sentenceIds": [
+        "c10-s07-p114-05430-s001"
+      ],
+      "passage": "We also found that University of Virginia students who grew up moving more frequently liked national chain stores more than UVA students who grew up in one place.",
+      "prompt": "Which students reported greater liking for national chain stores?",
+      "options": [
+        "UVA students who had moved more frequently while growing up.",
+        "Only students who had never left Virginia.",
+        "Students experimentally forced to move each year.",
+        "All students who had grown up in one place."
+      ],
+      "answer": 0,
+      "type": "细节",
+      "promptZh": "哪些学生更喜欢全国连锁？",
+      "optionsZh": [
+        "成长中搬迁更频繁的 UVA 学生。",
+        "只有从未离开 Virginia 的学生。",
+        "被实验强迫每年搬迁的学生。",
+        "所有在同一地长大的学生。"
+      ],
+      "analyses": [
+        "A grew up moving more frequently 与 grew up in one place 是明示比较。",
+        "B 没按是否离开州界分组。",
+        "C 这里记录成长经历，不是实验安排搬家。",
+        "D 方向相反，且不应把组间趋势变成所有个体。单句发现不独立证明因果。"
+      ],
+      "evidence": [
+        {
+          "quote": "students who grew up moving more frequently liked national chain stores more than UVA students who grew up in one place.",
+          "sentenceIds": [
+            "c10-s07-p114-05430-s001"
+          ],
+          "sources": [
+            {
+              "pdfPage": 114,
+              "block": 2,
+              "bbox": [
+                76.99,
+                543,
+                535.01,
+                694.02
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "frequently",
+          "meaning": "频繁地",
+          "context": "描述成长经历的搬迁次数多，不是近期一天的旅行频率",
+          "example": "The family moved frequently during her childhood.",
+          "collocations": [
+            "move frequently",
+            "more frequently than"
+          ]
+        }
+      ],
+      "translation": "我们还发现，成长过程中搬迁更频繁的 University of Virginia 学生，比在同一个地方长大的 UVA 学生更喜欢全国连锁店。",
+      "support": "explicit",
+      "editorialStatus": "完整PDF111–115原页视觉核对及跨页拼接。词频观察与无意义词、汉字、人像和课堂曝光实验分开；假称Turkish不作真实语言事实；课堂评分量表、出席次数和主观熟悉/明确认识分开，linearly保留作者措辞但不编精确等差。机制实验不把早前观察婚配研究改成随机试验。购物/旅行属个人轶事；普查流动性是代理指标、统计控制非因果保证；成长经历观察与想象工作心态实验分开，every other year译隔年。and almost为既有跨单元句片，保留ID与连续阅读。末段完整审阅含尚未配题结果，不提前倒灌证据，不宣称逐句直接证据全覆盖。",
+      "fingerprint": "57ab25f062bb672721afae990a4a1b91f8e19b50041ec1ef390e0deedd5330e2"
+    },
+    {
+      "id": "q-c10-071",
+      "version": 1,
+      "readingUnitId": "c10-s07-p114-05430-r002-002",
+      "chapterId": "c10",
+      "sectionId": "c10-s07",
+      "paragraphId": "c10-s07-p114-05430",
+      "sentenceIds": [
+        "c10-s07-p114-05430-s002"
+      ],
+      "passage": "In a final series of experiments, we manipulated the mindset of residential mobility by asking some participants to think about getting a job right after UVA that required them to move to a new city every other year, some to think about getting a job right after UVA that required them to live in the same city for at least ten years, and the others to think about a typical day in their own lives (the control group).",
+      "prompt": "What distinguished the experimental conditions?",
+      "options": [
+        "Actual assignment to jobs in three different cities.",
+        "A requirement that every student move annually.",
+        "A comparison of ten years of real employment records.",
+        "Imagining repeated moves, long-term stability, or a typical day."
+      ],
+      "answer": 3,
+      "type": "细节",
+      "promptZh": "实验条件之间有什么不同？",
+      "optionsZh": [
+        "真实分配至三座城市工作。",
+        "要求每个学生每年搬家。",
+        "比较十年实际就业记录。",
+        "想象反复搬迁、长期稳定或普通一天。"
+      ],
+      "analyses": [
+        "A asking...think 是想象工作情境，没有真实岗位分配。",
+        "B every other year 是隔年，且仅一个想象条件。",
+        "C 至少十年是设想岗位要求，不是已经追踪十年。",
+        "D 三种心态诱导准确对应；普通一天是控制组。"
+      ],
+      "evidence": [
+        {
+          "quote": "we manipulated the mindset of residential mobility",
+          "sentenceIds": [
+            "c10-s07-p114-05430-s002"
+          ],
+          "sources": [
+            {
+              "pdfPage": 114,
+              "block": 2,
+              "bbox": [
+                76.99,
+                543,
+                535.01,
+                694.02
+              ]
+            }
+          ]
+        },
+        {
+          "quote": "move to a new city every other year",
+          "sentenceIds": [
+            "c10-s07-p114-05430-s002"
+          ],
+          "sources": [
+            {
+              "pdfPage": 114,
+              "block": 2,
+              "bbox": [
+                76.99,
+                543,
+                535.01,
+                694.02
+              ]
+            }
+          ]
+        },
+        {
+          "quote": "live in the same city for at least ten years",
+          "sentenceIds": [
+            "c10-s07-p114-05430-s002"
+          ],
+          "sources": [
+            {
+              "pdfPage": 114,
+              "block": 2,
+              "bbox": [
+                76.99,
+                543,
+                535.01,
+                694.02
+              ]
+            }
+          ]
+        },
+        {
+          "quote": "a typical day in their own lives (the control group).",
+          "sentenceIds": [
+            "c10-s07-p114-05430-s002"
+          ],
+          "sources": [
+            {
+              "pdfPage": 114,
+              "block": 2,
+              "bbox": [
+                76.99,
+                543,
+                535.01,
+                694.02
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "mindset",
+          "meaning": "心态；思维状态",
+          "context": "通过想象未来工作来诱导，不是真让人完成多年搬家",
+          "example": "The task encouraged a mindset of stability.",
+          "collocations": [
+            "manipulate a mindset",
+            "a mobility mindset"
+          ]
+        }
+      ],
+      "translation": "在最后一系列实验中，我们操纵居住流动心态：让一些参与者想象 UVA 毕业后立刻从事一份要求每隔一年搬到新城市的工作；另一些想象毕业后立刻从事一份要求在同一城市至少住十年的工作；其余人想象自己生活中普通的一天，作为控制组。",
+      "support": "explicit",
+      "editorialStatus": "完整PDF111–115原页视觉核对及跨页拼接。词频观察与无意义词、汉字、人像和课堂曝光实验分开；假称Turkish不作真实语言事实；课堂评分量表、出席次数和主观熟悉/明确认识分开，linearly保留作者措辞但不编精确等差。机制实验不把早前观察婚配研究改成随机试验。购物/旅行属个人轶事；普查流动性是代理指标、统计控制非因果保证；成长经历观察与想象工作心态实验分开，every other year译隔年。and almost为既有跨单元句片，保留ID与连续阅读。末段完整审阅含尚未配题结果，不提前倒灌证据，不宣称逐句直接证据全覆盖。",
+      "fingerprint": "8c387827b485c22d1ac7ff1f281ebfcfce1991caa1a5dd5d1f2a837674bee9e0"
+    },
+    {
+      "id": "q-c10-077",
+      "version": 1,
+      "readingUnitId": "c10-s07-p115-03285-r009-009",
+      "chapterId": "c10",
+      "sectionId": "c10-s07",
+      "paragraphId": "c10-s07-p115-03285",
+      "sentenceIds": [
+        "c10-s07-p115-03285-s009"
+      ],
+      "passage": "Ironically, when you are in a new place, the conservative mindset kicks in in full force and makes you search for familiarity.",
+      "prompt": "What does “kicks in in full force” mean here?",
+      "options": [
+        "Comes into operation strongly.",
+        "Permanently disappears.",
+        "Requires physical kicking.",
+        "Leads exclusively to political party membership."
+      ],
+      "answer": 0,
+      "type": "语境词义",
+      "promptZh": "此处 kicks in in full force 是什么意思？",
+      "optionsZh": [
+        "强烈地开始起作用。",
+        "永久消失。",
+        "需要实际踢击。",
+        "只导致加入政党。"
+      ],
+      "analyses": [
+        "A 保守心态在新环境强力起作用，推动寻找熟悉。",
+        "B 相反，并非退出。",
+        "C kick in 为习语，非动作踢。",
+        "D conservative mindset 在此指求稳心理，无政党归属证据。Ironically 指新地点反而激起熟悉搜索。"
+      ],
+      "evidence": [
+        {
+          "quote": "the conservative mindset kicks in in full force and makes you search for familiarity.",
+          "sentenceIds": [
+            "c10-s07-p115-03285-s009"
+          ],
+          "sources": [
+            {
+              "pdfPage": 115,
+              "block": 2,
+              "bbox": [
+                76.99,
+                328.5,
+                535.01,
+                538.02
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "kicks in",
+          "meaning": "开始起作用",
+          "context": "心态被激活的比喻表达",
+          "example": "The preference for familiar options kicks in under pressure.",
+          "collocations": [
+            "kick in",
+            "in full force"
+          ]
+        }
+      ],
+      "translation": "讽刺的是，身处新地方时，求稳的心态却全面启动，让你寻找熟悉。",
+      "support": "explicit",
+      "editorialStatus": "完整PDF115–118原页视觉核对与跨页拼接。搬迁心态实验区别真实迁居，焦虑用词相关不冒充独立随机中介操纵；Bates和购房经历为作者轶事，节目仅限作者观看且非盲评。杯子先设想后述实验典型结果，主观所有权估值非客观市价必升；零食计划与一次购买分开。英镑期望值非保证收益，原书称loss aversion但当前正向收益例不编损失条件、不视作独立证明；条件式舒适区论证不扩为无条件冒险。保留旧题和句界，不宣称逐句证据全覆盖。",
+      "fingerprint": "6267b58ffe7d1a65e0e1e65078dfa8beab24bbc8727c6d8c80ba7c4892269569"
+    },
+    {
+      "id": "q-c11-017",
+      "version": 1,
+      "readingUnitId": "c11-s02-p124-03870-r008-008",
+      "chapterId": "c11",
+      "sectionId": "c11-s02",
+      "paragraphId": "c11-s02-p124-03870",
+      "sentenceIds": [
+        "c11-s02-p124-03870-s008"
+      ],
+      "passage": "After his collaboration with Tversky was over, Kahneman went on to study pleasure and pain, then happiness and life satisfaction, and made foundational contributions at each stop.",
+      "prompt": "What research sequence followed the collaboration with Tversky?",
+      "options": [
+        "He abandoned all scholarship immediately.",
+        "Life satisfaction came before any work on pleasure and pain.",
+        "He studied pleasure and pain, followed by happiness and life satisfaction.",
+        "He returned exclusively to classical philology."
+      ],
+      "answer": 2,
+      "type": "细节",
+      "promptZh": "与Tversky合作之后的研究顺序是什么？",
+      "optionsZh": [
+        "立刻放弃学术。",
+        "满意度先于快乐痛苦。",
+        "先快乐痛苦，再幸福与生活满意度。",
+        "只回到古典语文学。"
+      ],
+      "analyses": [
+        "A made foundational contributions 表示继续贡献。",
+        "B then 给出相反先后。",
+        "C 单句直接支持顺序。",
+        "D 古典语文学是前文Nietzsche领域，不应错配人物。"
+      ],
+      "evidence": [
+        {
+          "quote": "study pleasure and pain, then happiness and life satisfaction",
+          "sentenceIds": [
+            "c11-s02-p124-03870-s008"
+          ],
+          "sources": [
+            {
+              "pdfPage": 124,
+              "block": 1,
+              "bbox": [
+                76.99,
+                387,
+                535.01,
+                694.02
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "foundational",
+          "meaning": "奠基性的",
+          "context": "对后续领域发展有基础作用的贡献",
+          "example": "The project made a foundational contribution to the field.",
+          "collocations": [
+            "foundational contributions",
+            "at each stop"
+          ]
+        }
+      ],
+      "translation": "与Tversky的合作结束后，Kahneman 接着研究快乐和痛苦，再研究幸福与生活满意度，在每一站都作出奠基性贡献。",
+      "support": "explicit",
+      "editorialStatus": "完整PDF122–126原页视觉核对与跨页拼接。Nietzsche病痛回忆为个人归因且保留potential，非医疗试验；Kahneman论文4851为书载2022单年引用非今日累计，SS遭遇为其回忆不臆测照片身份或士兵内心、不美化纳粹迫害。严格区分本人interesting与作者psychologically rich；有意义/幸福非全称。Sandy触电按幸存者叙事译触电不误作死亡；37天住院/36年独立/500美元用途分开。Katrina迁移及2006返回与2018回顾分开，bomb/veil是比喻；幸存者纽带反思与灾难伤害并存，不作人人净获益保证。保留引语跨单元和原句指纹，不宣称逐句直接证据全覆盖。",
+      "fingerprint": "83b28b68e51a93bfe12b2f371b6cf12dd4778c719b3b9d477bb7eab0a7c8d319"
+    },
+    {
+      "id": "q-c11-029",
+      "version": 1,
+      "readingUnitId": "c11-s03-p126-01140-r013-013",
+      "chapterId": "c11",
+      "sectionId": "c11-s03",
+      "paragraphId": "c11-s03-p126-01140",
+      "sentenceIds": [
+        "c11-s03-p126-01140-s013"
+      ],
+      "passage": "But, as Nietzsche pointed out, they brought to light one of the greatest human strengths, compassion.",
+      "prompt": "What does “brought to light” mean here?",
+      "options": [
+        "Revealed a human capacity for compassion.",
+        "Removed all physical destruction.",
+        "Installed lighting in every damaged home.",
+        "Proved disasters are desirable."
+      ],
+      "answer": 0,
+      "type": "语境词义",
+      "promptZh": "此处 brought to light 意思是什么？",
+      "optionsZh": [
+        "显露人的同情能力。",
+        "消除全部破坏。",
+        "为所有灾房装灯。",
+        "证明灾难值得追求。"
+      ],
+      "analyses": [
+        "A 指显露人的力量，compassion明确命名。",
+        "B 本句没否认破坏，But承接前段。",
+        "C 习语非实体照明。",
+        "D 显现品质不等于灾难可欲。they需顺读前段理解，本题核心词义由本句支持。"
+      ],
+      "evidence": [
+        {
+          "quote": "brought to light one of the greatest human strengths, compassion.",
+          "sentenceIds": [
+            "c11-s03-p126-01140-s013"
+          ],
+          "sources": [
+            {
+              "pdfPage": 126,
+              "block": 1,
+              "bbox": [
+                76.99,
+                114,
+                535.01,
+                401.52
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "compassion",
+          "meaning": "同情；关怀他人的苦难",
+          "context": "作者指出灾难中显露的人的力量",
+          "example": "The volunteers responded with compassion.",
+          "collocations": [
+            "show compassion",
+            "human compassion"
+          ]
+        }
+      ],
+      "translation": "但是，正如Nietzsche指出的，它们也显露了人类最伟大力量之一：同情。",
+      "support": "explicit",
+      "editorialStatus": "完整PDF126–130原页视觉核对及跨页拼接。Kobe物理修复和心理伤痕分开，调查波次与作者休假年分开，房损/失亲同时分析不作随机因果或变量全无关联。Solnit为引语/作者阐释，电视职业愿望为作者回忆。四川震前后为同校新组，as if/presumably保留，非研究者随机分配灾害；100供选/10获得/平均略逾1至约4为九岁结果，不补六岁或长期个体变化。市政申请按每职位且非实际就职，1989–2000与1995变化分开。COVID接触包括本人/家属/熟人，捐款奖金/加倍与结果分开，作者made价值解释不升级成随机感染因果或医学建议。承认长期损害，不强加受害者获益/感恩；不宣称逐句证据全覆盖。",
+      "fingerprint": "f8e644c0f12f8fd05e8a6a3e5522c8da116508ca1390cf74fbd4c7ac7ee20922"
+    },
+    {
+      "id": "q-c11-033",
+      "version": 1,
+      "readingUnitId": "c11-s04-p126-06135-r005-005",
+      "chapterId": "c11",
+      "sectionId": "c11-s04",
+      "paragraphId": "c11-s04-p126-06135",
+      "sentenceIds": [
+        "c11-s04-p126-06135-s005"
+      ],
+      "passage": "By 2001, all the physical damage in Kobe and its surrounding areas was fully repaired, meaning that, at the time of the first survey, the current living conditions of the respondents whose houses had been completely destroyed in 1995 were not substantially different from those whose houses had been spared by the earthquake.",
+      "prompt": "What comparison is supported for the time of the first survey?",
+      "options": [
+        "Current living conditions were broadly similar despite different levels of damage in 1995.",
+        "All respondents had identical life histories.",
+        "Physical repairs proved psychological recovery was complete.",
+        "The first survey occurred immediately after the earthquake."
+      ],
+      "answer": 0,
+      "type": "推断",
+      "promptZh": "首次调查时支持怎样的比较？",
+      "optionsZh": [
+        "1995损害程度不同，但当时居住条件大致相似。",
+        "所有人生经历相同。",
+        "物理修复证明心理完全康复。",
+        "震后立即首次调查。"
+      ],
+      "analyses": [
+        "A not substantially different指当前生活条件，不抹去过去损失。",
+        "B 生活条件相近非人生完全同一。",
+        "C 该句仅物理修复，未证明心理。",
+        "D first survey为2001，不是1995立即。all fully repaired按书保留，不冒充独立重查城市工程数据。"
+      ],
+      "evidence": [
+        {
+          "quote": "current living conditions",
+          "sentenceIds": [
+            "c11-s04-p126-06135-s005"
+          ],
+          "sources": [
+            {
+              "pdfPage": 127,
+              "block": 0,
+              "bbox": [
+                76.99,
+                75,
+                535.01,
+                187.02
+              ]
+            }
+          ]
+        },
+        {
+          "quote": "were not substantially different",
+          "sentenceIds": [
+            "c11-s04-p126-06135-s005"
+          ],
+          "sources": [
+            {
+              "pdfPage": 127,
+              "block": 0,
+              "bbox": [
+                76.99,
+                75,
+                535.01,
+                187.02
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "spared",
+          "meaning": "幸免于；未遭受",
+          "context": "住宅未被地震毁坏，非指所有人生都无损",
+          "example": "Some homes had been spared by the earthquake.",
+          "collocations": [
+            "spared by an earthquake",
+            "homes that were spared"
+          ]
+        }
+      ],
+      "translation": "到2001年，Kobe及周边所有物理损坏已修复。这意味着首次调查时，1995年房子全毁者的当时居住条件，与住宅幸免者没有重大差别。",
+      "support": "explicit",
+      "editorialStatus": "完整PDF126–130原页视觉核对及跨页拼接。Kobe物理修复和心理伤痕分开，调查波次与作者休假年分开，房损/失亲同时分析不作随机因果或变量全无关联。Solnit为引语/作者阐释，电视职业愿望为作者回忆。四川震前后为同校新组，as if/presumably保留，非研究者随机分配灾害；100供选/10获得/平均略逾1至约4为九岁结果，不补六岁或长期个体变化。市政申请按每职位且非实际就职，1989–2000与1995变化分开。COVID接触包括本人/家属/熟人，捐款奖金/加倍与结果分开，作者made价值解释不升级成随机感染因果或医学建议。承认长期损害，不强加受害者获益/感恩；不宣称逐句证据全覆盖。",
+      "fingerprint": "42251ad38eb17216d6c9df23c9343299e1e4c871e32eec5a50655ee94783824d"
+    },
+    {
+      "id": "q-c11-035",
+      "version": 1,
+      "readingUnitId": "c11-s04-p127-01920-r005-005",
+      "chapterId": "c11",
+      "sectionId": "c11-s04",
+      "paragraphId": "c11-s04-p127-01920",
+      "sentenceIds": [
+        "c11-s04-p127-01920-s005"
+      ],
+      "passage": "The victims were still significantly less satisfied with their lives and reported more negative emotions and physical illnesses after all these years.",
+      "prompt": "Which restatement preserves the reported outcomes?",
+      "options": [
+        "Victims reported higher satisfaction and fewer illnesses.",
+        "Every victim had an identical clinical diagnosis.",
+        "All health problems had disappeared.",
+        "Victims still reported lower satisfaction and more negative emotions and physical illnesses."
+      ],
+      "answer": 3,
+      "type": "同义改写",
+      "promptZh": "哪项改述保留结果？",
+      "optionsZh": [
+        "满意更高病更少。",
+        "每位受害者临床诊断完全相同。",
+        "一切健康问题消失。",
+        "仍自报满意较低、负面情绪与身体病痛更多。"
+      ],
+      "analyses": [
+        "A 比较方向全反。",
+        "B 报告组间倾向不等于人人同诊断。",
+        "C illnesses仍较多。",
+        "D still与reported及三项指标均保留。当前句没给完整研究细节，不能加入新临床检验。"
+      ],
+      "evidence": [
+        {
+          "quote": "still significantly less satisfied with their lives and reported more negative emotions and physical illnesses",
+          "sentenceIds": [
+            "c11-s04-p127-01920-s005"
+          ],
+          "sources": [
+            {
+              "pdfPage": 127,
+              "block": 1,
+              "bbox": [
+                76.99,
+                192,
+                535.01,
+                382.02
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "significantly",
+          "meaning": "显著地",
+          "context": "研究所述比较差异，不提供此处未列效应大小",
+          "example": "The groups differed significantly in reported satisfaction.",
+          "collocations": [
+            "significantly less satisfied",
+            "report negative emotions"
+          ]
+        }
+      ],
+      "translation": "多年之后，受害者的生活满意度仍显著较低，也报告更多负面情绪和身体疾病。",
+      "support": "explicit",
+      "editorialStatus": "完整PDF126–130原页视觉核对及跨页拼接。Kobe物理修复和心理伤痕分开，调查波次与作者休假年分开，房损/失亲同时分析不作随机因果或变量全无关联。Solnit为引语/作者阐释，电视职业愿望为作者回忆。四川震前后为同校新组，as if/presumably保留，非研究者随机分配灾害；100供选/10获得/平均略逾1至约4为九岁结果，不补六岁或长期个体变化。市政申请按每职位且非实际就职，1989–2000与1995变化分开。COVID接触包括本人/家属/熟人，捐款奖金/加倍与结果分开，作者made价值解释不升级成随机感染因果或医学建议。承认长期损害，不强加受害者获益/感恩；不宣称逐句证据全覆盖。",
+      "fingerprint": "0e7784f3bb71ae5c661069fb677527925f92454a5c7a1aa6232016ea1b68a11e"
+    },
+    {
+      "id": "q-c11-040",
+      "version": 1,
+      "readingUnitId": "c11-s05-p127-06135-r006-007",
+      "chapterId": "c11",
+      "sectionId": "c11-s05",
+      "paragraphId": "c11-s05-p127-06135",
+      "sentenceIds": [
+        "c11-s05-p127-06135-s006",
+        "c11-s05-p127-06135-s007"
+      ],
+      "passage": "Solnit seems to argue that a natural disaster reveals one’s true colors, reaching the deepest part of our existence, and even helps us realize what’s best within us. In contrast, she points out that “what is often assumed to be the circumstance of happiness sometimes is only insulation from the depths, or so the plagues of ennui and angst among the comfortable suggest.”",
+      "prompt": "What contrast is made between disaster and comfortable circumstances?",
+      "options": [
+        "Comfort invariably produces the deepest experience.",
+        "Disaster victims should be blamed for their distress.",
+        "The author reports that no comfortable person ever feels bored.",
+        "Disaster may reveal depths, while apparent happiness can sometimes insulate people from them."
+      ],
+      "answer": 3,
+      "type": "作者意图",
+      "promptZh": "灾难与舒适情境形成什么对照？",
+      "optionsZh": [
+        "舒适总带来最深体验。",
+        "应责怪灾民痛苦。",
+        "舒适者从不无聊。",
+        "灾难可能显露深处，表面幸福有时隔绝它。"
+      ],
+      "analyses": [
+        "A sometimes...insulation与总是最深不符。",
+        "B 无责怪受害者。",
+        "C ennui/angst正提无聊焦虑。",
+        "D seems to argue及sometimes保留可能性，不推广成所有苦难必有益。两层含作者对Solnit的解释与她的引语，不混作实验发现。"
+      ],
+      "evidence": [
+        {
+          "quote": "Solnit seems to argue that a natural disaster reveals one’s true colors",
+          "sentenceIds": [
+            "c11-s05-p127-06135-s006"
+          ],
+          "sources": [
+            {
+              "pdfPage": 128,
+              "block": 0,
+              "bbox": [
+                76.99,
+                75,
+                535.01,
+                304.02
+              ]
+            }
+          ]
+        },
+        {
+          "quote": "sometimes is only insulation from the depths",
+          "sentenceIds": [
+            "c11-s05-p127-06135-s007"
+          ],
+          "sources": [
+            {
+              "pdfPage": 128,
+              "block": 0,
+              "bbox": [
+                76.99,
+                75,
+                535.01,
+                304.02
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "insulation",
+          "meaning": "隔绝；隔离保护",
+          "context": "比喻舒适有时隔绝深层体验，并非建筑绝缘材料",
+          "example": "Comfort can act as insulation from difficult questions.",
+          "collocations": [
+            "insulation from the depths",
+            "emotional insulation"
+          ]
+        }
+      ],
+      "translation": "Solnit似乎认为，自然灾难揭露真实本色，触及存在最深处，甚至帮助发现自身最好一面。相反，她指出，常被当作幸福环境的事物，有时只是与深处隔绝；舒适者的无聊与焦虑似乎提示这一点。",
+      "support": "explicit",
+      "editorialStatus": "完整PDF126–130原页视觉核对及跨页拼接。Kobe物理修复和心理伤痕分开，调查波次与作者休假年分开，房损/失亲同时分析不作随机因果或变量全无关联。Solnit为引语/作者阐释，电视职业愿望为作者回忆。四川震前后为同校新组，as if/presumably保留，非研究者随机分配灾害；100供选/10获得/平均略逾1至约4为九岁结果，不补六岁或长期个体变化。市政申请按每职位且非实际就职，1989–2000与1995变化分开。COVID接触包括本人/家属/熟人，捐款奖金/加倍与结果分开，作者made价值解释不升级成随机感染因果或医学建议。承认长期损害，不强加受害者获益/感恩；不宣称逐句证据全覆盖。",
+      "fingerprint": "a2b16c7f847ae95ebcc94633cb5b54ac23c533cea44f4a81352757f64a664461"
+    }
+  ]
+}

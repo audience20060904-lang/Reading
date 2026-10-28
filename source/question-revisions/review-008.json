@@ -1,0 +1,388 @@
+{
+  "schemaVersion": 1,
+  "id": "question-review-2026-10-28-008",
+  "pdfSha256": "be25c859f1bd894a4b0d1cff024ded1297f6a96a8e8ddabea1e3abcf89160a50",
+  "scope": "Review 25 semantic candidates and 24 active questions across Chapters 10–11. Preserve source wording, reported observations, experimental conditions, and historical versions.",
+  "questions": [
+    {
+      "id": "q-c10-054",
+      "reason": "考查perceived similarities中评分者视角与比较对象，干扰项区分他人相互相似、主观感知和客观背景。",
+      "updates": {
+        "options": [
+          "How similar each woman seemed to the student giving the rating.",
+          "How similar the four women seemed to one another.",
+          "How similar each woman thought the student was to herself.",
+          "How closely each woman’s actual background matched the student’s."
+        ],
+        "optionsZh": [
+          "每名女性在评分学生看来与自己有多相似。",
+          "四名女性在彼此之间有多相似。",
+          "每名女性认为那名学生与她自己有多相似。",
+          "每名女性的真实背景与该学生有多吻合。"
+        ],
+        "analyses": [
+          "A perceived similarities (to the rater) 指相对于评分者、由评分者主观感到的相似程度。",
+          "B to the rater 的比较对象是学生评分者，不是四名女性彼此。",
+          "C 评分者是 students in the class，不是让照片中的女性评价学生。",
+          "D perceived 和 rate the photos 不是客观核对实际背景。另两项列出的评分维度是 attractiveness 与 familiarity。"
+        ]
+      }
+    },
+    {
+      "id": "q-c10-067",
+      "reason": "保留人口普查居住流动性作为代理指标，不把近似推断写成逐次观察或实验搬迁。",
+      "updates": {
+        "options": [
+          "By directly counting strangers’ conversations in census interviews.",
+          "By equating a city’s population with each resident’s number of stranger encounters.",
+          "By observing the same people’s conversations before and after they moved.",
+          "By using census residential mobility as an indirect indicator."
+        ],
+        "optionsZh": [
+          "在普查访谈中直接计数陌生人的谈话。",
+          "把城市人口等同于每名居民遇到陌生人的次数。",
+          "观察同一批人在搬家前后的谈话。",
+          "把普查中的居住流动性作为间接指标。"
+        ],
+        "analyses": [
+          "A approximate 与 based on the reasoning 表明是用代理资料推断，不是直接统计每次谈话。",
+          "B 关注的是很多人 move 的流动性，不是直接把城市人口总数当作个人相遇次数。",
+          "C 当前句没有追踪同一批人的搬家前后谈话。",
+          "D 作者推理流动城市更可能被陌生人围绕，因此采用 residential mobility 近似估计；它不是精确个人相遇计数。"
+        ]
+      }
+    },
+    {
+      "id": "q-c10-070",
+      "reason": "当前句只说found...liked，不额外假定具体报告程序；区分成长中的真实搬迁与下一段想象心态实验。",
+      "updates": {
+        "prompt": "Which students were said to like national chain stores more?",
+        "promptZh": "原句说，哪类学生更喜欢全国连锁店？",
+        "options": [
+          "UVA students who had moved more frequently while growing up.",
+          "UVA students who had grown up in one place rather than moving frequently.",
+          "Students assigned by the researchers to move to a different city each year.",
+          "UVA students selected because they currently visited chain stores more often."
+        ],
+        "optionsZh": [
+          "成长过程中搬迁更频繁的 UVA 学生。",
+          "在同一地方长大而非经常搬迁的 UVA 学生。",
+          "被研究者安排每年搬到不同城市的学生。",
+          "因为现在更常逛连锁店而被选中的 UVA 学生。"
+        ],
+        "analyses": [
+          "A grew up moving more frequently 与另一组 grew up in one place 的比较直接支持。",
+          "B 把所述组间偏好方向颠倒。",
+          "C 原句说成长中的搬迁经历，没有实际随机分派搬家。",
+          "D 当前句没有按现在逛店次数选人。发现组间偏好不单独确立搬迁导致偏好的因果，也不补造未显示的测量程序。"
+        ]
+      }
+    },
+    {
+      "id": "q-c10-071",
+      "reason": "补齐asking...think的心态诱导证据；对比隔年搬迁、至少十年稳定及普通一天，不误写为真实就业分派。",
+      "updates": {
+        "options": [
+          "Taking jobs that required moves every other year, stability for ten years, or daily commuting.",
+          "Recalling actual job moves, long-term residence, or a typical working day.",
+          "Imagining annual moves, exactly ten years of residence, or a typical day.",
+          "Imagining moves every other year, stability for at least ten years, or a typical day."
+        ],
+        "optionsZh": [
+          "实际接受要求隔年搬迁、稳定十年或每日通勤的工作。",
+          "回忆实际工作搬迁、长期居住或普通工作日。",
+          "想象每年搬迁、恰好居住十年或普通一天。",
+          "想象隔年搬迁、至少十年稳定居住或普通一天。"
+        ],
+        "analyses": [
+          "A asking...think 是想象情境而非真正就业，控制组也不是额外安排通勤。",
+          "B think about getting a job right after UVA 是设想将来工作，不是回忆已经做过的工作。",
+          "C every other year 是隔年，at least ten years 是至少十年，不能改成每年和恰好十年。",
+          "D 三种条件的想象性质、频率、时长和控制组均与原句对应。"
+        ],
+        "evidence": [
+          {
+            "quote": "In a final series of experiments, we manipulated the mindset of residential mobility by asking some participants to think about getting a job right after UVA that required them to move to a new city every other year, some to think about getting a job right after UVA that required them to live in the same city for at least ten years, and the others to think about a typical day in their own lives (the control group).",
+            "sentenceIds": [
+              "c10-s07-p114-05430-s002"
+            ],
+            "sources": [
+              {
+                "pdfPage": 114,
+                "block": 2,
+                "bbox": [
+                  76.99,
+                  543,
+                  535.01,
+                  694.02
+                ]
+              }
+            ]
+          },
+          {
+            "quote": "move to a new city every other year",
+            "sentenceIds": [
+              "c10-s07-p114-05430-s002"
+            ],
+            "sources": [
+              {
+                "pdfPage": 114,
+                "block": 2,
+                "bbox": [
+                  76.99,
+                  543,
+                  535.01,
+                  694.02
+                ]
+              }
+            ]
+          },
+          {
+            "quote": "live in the same city for at least ten years",
+            "sentenceIds": [
+              "c10-s07-p114-05430-s002"
+            ],
+            "sources": [
+              {
+                "pdfPage": 114,
+                "block": 2,
+                "bbox": [
+                  76.99,
+                  543,
+                  535.01,
+                  694.02
+                ]
+              }
+            ]
+          },
+          {
+            "quote": "a typical day in their own lives (the control group).",
+            "sentenceIds": [
+              "c10-s07-p114-05430-s002"
+            ],
+            "sources": [
+              {
+                "pdfPage": 114,
+                "block": 2,
+                "bbox": [
+                  76.99,
+                  543,
+                  535.01,
+                  694.02
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-c10-077",
+      "reason": "把习语的开始与强度拆清，删除身体踢踹与政党入会等明显无关干扰。",
+      "updates": {
+        "options": [
+          "Begins to operate with strong influence.",
+          "Ceases to operate as the setting becomes unfamiliar.",
+          "Starts gradually and with little influence.",
+          "Requires a conscious choice before becoming active."
+        ],
+        "optionsZh": [
+          "开始强有力地起作用。",
+          "随着环境变陌生而停止起作用。",
+          "逐渐而微弱地开始起作用。",
+          "必须先有意识地选择才会启动。"
+        ],
+        "analyses": [
+          "A kicks in 表开始起作用，in full force 表强有力，后文 search for familiarity 交代作用方向。",
+          "B 句子描述在新环境中启动求稳心态，不是停止。",
+          "C in full force 不支持微弱影响。",
+          "D 习语本身不规定必须经过有意识的选择，当前句也没有这一前提。这里的 conservative mindset 是求稳心态，不能擅自换成政党归属。"
+        ]
+      }
+    },
+    {
+      "id": "q-c11-017",
+      "reason": "研究顺序题只比较当前句的领域与合作时间，不把前文Nietzsche的古典语文学错配为干扰。",
+      "updates": {
+        "options": [
+          "His work on happiness and life satisfaction preceded the collaboration with Tversky.",
+          "He studied happiness and life satisfaction before turning to pleasure and pain.",
+          "He studied pleasure and pain, followed by happiness and life satisfaction.",
+          "His work on pleasure and pain was confined to the collaboration with Tversky."
+        ],
+        "optionsZh": [
+          "他的幸福与生活满意度研究在与 Tversky 合作之前。",
+          "他先研究幸福和生活满意度，之后转向快乐和痛苦。",
+          "他研究快乐和痛苦，然后研究幸福和生活满意度。",
+          "他的快乐与痛苦研究仅限于和 Tversky 合作期间。"
+        ],
+        "analyses": [
+          "A After his collaboration...was over 后才给出这些后续研究，不能把它们整体提前。",
+          "B then 表明快乐和痛苦在前、幸福和生活满意度在后。",
+          "C 两组研究主题及 then 的顺序直接对应。",
+          "D went on to study 指合作结束后的后续研究，并没有限定为合作期间。当前题无需借用前文其他人物的专业领域。"
+        ]
+      }
+    },
+    {
+      "id": "q-c11-029",
+      "reason": "brought to light强调显露而非首次创造，不把灾难揭示同情写成灾难有益或消除伤害的定论。",
+      "updates": {
+        "options": [
+          "Made a human capacity for compassion apparent.",
+          "Created compassion for the first time in human history.",
+          "Showed compassion should replace every other human strength.",
+          "Established that compassion prevents the tragedies described."
+        ],
+        "optionsZh": [
+          "使人类的同情能力显现出来。",
+          "在人类历史上首次创造了同情。",
+          "表明同情应取代其他所有人类力量。",
+          "确立同情能阻止所述悲剧的发生。"
+        ],
+        "analyses": [
+          "A brought to light 指揭示、显露，compassion 给出显露的品质。",
+          "B reveal 不等于首次创造，原句没有人类首次拥有同情的说法。",
+          "C one of the greatest human strengths 表示诸种力量之一，不能换成取代其他一切力量。",
+          "D 显露品质不证明已阻止悲剧，也不是说灾难本身值得发生；本题不要求从前段恢复they的具体所指。"
+        ]
+      }
+    },
+    {
+      "id": "q-c11-033",
+      "reason": "补齐比较对象与截至2001年的物理修复证据；解析不靠前段年份，也不把物理修复扩大成心理恢复。",
+      "updates": {
+        "analyses": [
+          "A not substantially different 限定首次调查时的当前居住条件；被比较两组分别是1995年住宅全毁者和住宅幸免者。",
+          "B 居住条件相近不等于两组此前损失或整个人生历史完全相同。",
+          "C 当前句说明 physical damage 修复及居住条件，没有确立心理恢复已完成。",
+          "D 片段提到1995年的地震与截至2001年的修复，不能改成震后立即调查。此处保留原书的修复描述，不当作独立重查工程数据，也不以修复年份另推未明示的调查细节。"
+        ],
+        "evidence": [
+          {
+            "quote": "By 2001, all the physical damage in Kobe and its surrounding areas was fully repaired, meaning that, at the time of the first survey, the current living conditions of the respondents whose houses had been completely destroyed in 1995 were not substantially different from those whose houses had been spared by the earthquake.",
+            "sentenceIds": [
+              "c11-s04-p126-06135-s005"
+            ],
+            "sources": [
+              {
+                "pdfPage": 127,
+                "block": 0,
+                "bbox": [
+                  76.99,
+                  75,
+                  535.01,
+                  187.02
+                ]
+              }
+            ]
+          },
+          {
+            "quote": "were not substantially different",
+            "sentenceIds": [
+              "c11-s04-p126-06135-s005"
+            ],
+            "sources": [
+              {
+                "pdfPage": 127,
+                "block": 0,
+                "bbox": [
+                  76.99,
+                  75,
+                  535.01,
+                  187.02
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-c11-035",
+      "reason": "四个选项平行比较满意度、负面情绪和疾病方向，避免用人人同诊断等明显荒谬干扰。",
+      "updates": {
+        "options": [
+          "Victims still reported higher satisfaction alongside more negative emotions and physical illnesses.",
+          "Victims still reported lower satisfaction but fewer negative emotions and physical illnesses.",
+          "Victims reported more negative emotions, but their satisfaction and physical health had fully recovered.",
+          "Victims still reported lower satisfaction and more negative emotions and physical illnesses."
+        ],
+        "optionsZh": [
+          "受害者仍报告较高满意度，同时负面情绪和身体疾病更多。",
+          "受害者仍报告较低满意度，但负面情绪和身体疾病更少。",
+          "受害者报告更多负面情绪，但满意度和身体健康已经完全恢复。",
+          "受害者仍报告较低满意度，以及更多负面情绪和身体疾病。"
+        ],
+        "analyses": [
+          "A less satisfied 不是满意度较高；后两项方向虽相符，也不能使整项正确。",
+          "B more negative emotions and physical illnesses 不能改成更少。",
+          "C 当前句仍有 less satisfied 和 more...illnesses，不支持满意度和身体健康完全恢复。",
+          "D still、较低满意度与更多负面情绪和身体疾病均保留；是报告结果，不增添新临床检验或每位受害者相同的诊断。"
+        ]
+      }
+    },
+    {
+      "id": "q-c11-040",
+      "reason": "明确作者对Solnit的解释与她的引语两层归属，保留seems和sometimes，不把灾难必有益当普遍事实。",
+      "updates": {
+        "options": [
+          "Comfort inevitably reaches the same depths that disasters reveal.",
+          "Solnit’s claim is presented as a measured effect applying to every survivor.",
+          "The contrast denies that comfortable circumstances can include boredom or anxiety.",
+          "Disaster may reveal inner depths; supposed happiness may sometimes insulate people from them."
+        ],
+        "optionsZh": [
+          "舒适必然达到灾难所显露的同样深度。",
+          "Solnit 的主张被呈现为适用于每位幸存者的测量结果。",
+          "这一对比否认舒适环境中可能存在无聊或焦虑。",
+          "灾难可能显露内在深处；被当作幸福的环境有时会把人隔离于这些深处之外。"
+        ],
+        "analyses": [
+          "A sometimes is only insulation from the depths 不支持 inevitably reaches。",
+          "B seems to argue 是本书作者对 Solnit 的解释，随后才引述她的话；没有普遍适用的实验测量。",
+          "C ennui and angst among the comfortable 恰恰提到舒适者的无聊和焦虑。",
+          "D 两个方面及其保留语气分别得到前后两句支持；不把观点解释推广为所有苦难必有益。"
+        ],
+        "evidence": [
+          {
+            "quote": "Solnit seems to argue that a natural disaster reveals one’s true colors, reaching the deepest part of our existence, and even helps us realize what’s best within us.",
+            "sentenceIds": [
+              "c11-s05-p127-06135-s006"
+            ],
+            "sources": [
+              {
+                "pdfPage": 128,
+                "block": 0,
+                "bbox": [
+                  76.99,
+                  75,
+                  535.01,
+                  304.02
+                ]
+              }
+            ]
+          },
+          {
+            "quote": "In contrast, she points out that “what is often assumed to be the circumstance of happiness sometimes is only insulation from the depths, or so the plagues of ennui and angst among the comfortable suggest.”",
+            "sentenceIds": [
+              "c11-s05-p127-06135-s007"
+            ],
+            "sources": [
+              {
+                "pdfPage": 128,
+                "block": 0,
+                "bbox": [
+                  76.99,
+                  75,
+                  535.01,
+                  304.02
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}
