@@ -3,14 +3,14 @@
   "objective": "Continue source-based question review and the agreed reading-interface improvements, preserving released content and personal history.",
   "mode": "Continue the next batch immediately after saving and verifying the previous release. No hourly schedule is required.",
   "semanticReview": {
-    "status": "reviewed-awaiting-final-release",
+    "status": "completed",
     "taskRecord": "source/semantic-evidence/audit.json",
     "batchLimit": 25,
     "nextBatch": null,
     "remainingCandidates": 0,
     "currentBatch": "011",
-    "currentBatchStatus": "local-verified-awaiting-publication",
-    "lastSuccessfulRelease": "source/releases/question-review-010.json",
+    "currentBatchStatus": "published-and-verified",
+    "lastSuccessfulRelease": "source/releases/question-review-011.json",
     "finalAudit": "source/question-revisions/semantic-review-completion.json"
   },
   "interface": [
@@ -29,5 +29,12 @@
       "status": "complete",
       "requirement": "Reduce mobile heading size and whitespace while preserving readability and chapter progress."
     }
-  ]
+  ],
+  "completion": {
+    "status": "published-and-verified",
+    "record": "source/question-revisions/semantic-review-completion.json",
+    "release": "source/releases/question-review-011.json",
+    "scope": "Frozen semantic queue and previously agreed interface tasks only; not full-bank human proofreading.",
+    "automation": "Stop repeated processing after final verification; no pending candidates in this audit."
+  }
 }

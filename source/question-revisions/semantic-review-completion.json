@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "semantic-queue-completion-2026-10-28",
-  "status": "reviewed-awaiting-final-release",
+  "status": "published-and-verified",
   "pdfSha256": "be25c859f1bd894a4b0d1cff024ded1297f6a96a8e8ddabea1e3abcf89160a50",
   "scope": "Completion of the frozen 261-candidate partial-quotation semantic audit queue and the three already-authorized interface improvements. This is not a full semantic review of the question bank.",
   "semanticQueue": {
@@ -302,5 +302,36 @@
     "Vocabulary annotations remain prewritten and local. No claim of full manual CEFR classification or review of every vocabulary sense is made.",
     "Mobile browser viewport checks are not physical-phone verification; live offline checks are simulated, with actual HTTP-server shutdown verified locally."
   ],
-  "finalRelease": "source/releases/question-review-011.json"
+  "finalRelease": "source/releases/question-review-011.json",
+  "verifiedAt": "2026-10-28T09:10:02.019Z",
+  "validation": {
+    "unitTestsPassed": 371,
+    "build": "npm run build:pages passed",
+    "pdf": {
+      "sha256": "be25c859f1bd894a4b0d1cff024ded1297f6a96a8e8ddabea1e3abcf89160a50",
+      "pagesVisuallyReviewed": [
+        161,
+        162,
+        163,
+        164,
+        165,
+        166,
+        167,
+        168
+      ],
+      "sourceBlocksTextMatched": 10
+    },
+    "localBrowserPassed": true,
+    "liveBrowserPassed": true,
+    "offlineVersion": "f952394e9ce4bcc7",
+    "sourceCommit": "3a1d3fc148fe3f93d72c3329b2ce337c073173bd",
+    "deploymentCommit": "359037df7f8d0dd79649f61f8a8030ccb178e8a6",
+    "physicalPhoneTested": false,
+    "liveOfflineMode": "simulated",
+    "localHTTPServerStopped": true,
+    "protectedContent": {
+      "comparedTo": "28e6873de4c48c08b512779ef21d0739786446e2",
+      "unchangedPaths": 44
+    }
+  }
 }
