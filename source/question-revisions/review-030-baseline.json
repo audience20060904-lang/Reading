@@ -1,0 +1,792 @@
+{
+  "pdfSha256": "be25c859f1bd894a4b0d1cff024ded1297f6a96a8e8ddabea1e3abcf89160a50",
+  "sourceCommit": "5010cc575b3cc39be1cc9c8bb45f29e003fe5621",
+  "questions": [
+    {
+      "id": "q-c03-009",
+      "version": 1,
+      "readingUnitId": "c03-s01-p028-02700-r004-007",
+      "chapterId": "c03",
+      "sectionId": "c03-s01",
+      "paragraphId": "c03-s01-p028-02700",
+      "sentenceIds": [
+        "c03-s01-p028-02700-s004",
+        "c03-s01-p028-02700-s005",
+        "c03-s01-p028-02700-s006",
+        "c03-s01-p028-02700-s007"
+      ],
+      "passage": "Meaningless jobs, according to Graeber, are not just repetitive factory or clerical jobs, but also include corporate lawyers, public relations consultants, telemarketers, and brand managers. For instance, he claims that most corporate lawyers secretly believe that the world would probably be a better place if they did not exist. Of course, people can make a difference in the world outside of their jobs. So this doesn’t mean corporate lawyers and public relations consultants lead meaningless lives.",
+      "prompt": "Why does the author say these occupations do not necessarily imply meaningless lives?",
+      "options": [
+        "People can make a difference outside their jobs.",
+        "Graeber excludes all professional occupations from his argument.",
+        "The author claims that every corporate lawyer secretly enjoys the work.",
+        "A job’s repetitiveness guarantees a meaningful life."
+      ],
+      "answer": 0,
+      "type": "逻辑关系",
+      "promptZh": "作者为什么说这些职业并不必然意味着无意义的人生？",
+      "optionsZh": [
+        "人们也能在工作之外产生影响。",
+        "Graeber 将所有专业职业排除在论证之外。",
+        "作者断言每位公司律师都暗中喜欢这份工作。",
+        "工作的重复性保证人生有意义。"
+      ],
+      "analyses": [
+        "A outside of their jobs 是最后结论的直接理由。",
+        "B 列出的 corporate lawyers 等恰恰属于论述范围。",
+        "C 原文归于 Graeber 的说法涉及职业存在，不是所有人喜欢工作。",
+        "D 重复性不是人生有意义的保证。"
+      ],
+      "evidence": [
+        {
+          "quote": "Of course, people can make a difference in the world outside of their jobs. So this doesn’t mean corporate lawyers and public relations consultants lead meaningless lives.",
+          "sentenceIds": [
+            "c03-s01-p028-02700-s006",
+            "c03-s01-p028-02700-s007"
+          ],
+          "sources": [
+            {
+              "pdfPage": 28,
+              "block": 1,
+              "bbox": [
+                76.99,
+                270,
+                535,
+                596.52
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "clerical",
+          "meaning": "文书事务的",
+          "context": "修饰 jobs，指办公室文书工作，并非宗教职务",
+          "example": "She gained experience in clerical work.",
+          "collocations": [
+            "clerical work",
+            "clerical duties"
+          ]
+        }
+      ],
+      "translation": "依 Graeber 之见，无意义的工作不只是重复性的工厂工作或文书工作，也包括公司律师、公关顾问、电话营销员和品牌经理。例如，他声称多数公司律师暗自认为，如果自己这类职业不存在，世界可能会更好。当然，人也可以在工作之外对世界产生影响。因此，这并不意味着公司律师和公关顾问就过着无意义的生活。",
+      "support": "explicit",
+      "editorialStatus": "PDF 第 25–32 页逐题核对；固定连续原句；区分文学引述、自报、相关和假设，不扩大个体或因果结论",
+      "fingerprint": "adac9eebd9d3df9589a3e7fa8d199b579572246a0ee90fd5da20a0f49d6e0215"
+    },
+    {
+      "id": "qe-c03-0012",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-008",
+      "parentQuestionId": "q-c03-009",
+      "chapterId": "c03",
+      "sectionId": "c03-s01",
+      "paragraphId": "c03-s01-p028-02700",
+      "readingUnitId": "c03-s01-p028-02700-r004-007",
+      "sentenceIds": [
+        "c03-s01-p028-02700-s004",
+        "c03-s01-p028-02700-s005",
+        "c03-s01-p028-02700-s006",
+        "c03-s01-p028-02700-s007"
+      ],
+      "passage": "Meaningless jobs, according to Graeber, are not just repetitive factory or clerical jobs, but also include corporate lawyers, public relations consultants, telemarketers, and brand managers. For instance, he claims that most corporate lawyers secretly believe that the world would probably be a better place if they did not exist. Of course, people can make a difference in the world outside of their jobs. So this doesn’t mean corporate lawyers and public relations consultants lead meaningless lives.",
+      "prompt": "Which reading preserves the scope of Graeber's list of supposedly meaningless jobs?",
+      "promptZh": "哪项保留格雷伯所谓无意义工作清单的范围？",
+      "options": [
+        "Only repetitive factory jobs are included.",
+        "Corporate lawyers are explicitly excluded.",
+        "The list is restricted to jobs with no office duties.",
+        "The list extends beyond repetitive work to some professional roles."
+      ],
+      "optionsZh": [
+        "只包括重复性工厂工作。",
+        "明确排除公司律师。",
+        "清单仅限没有办公职责的工作。",
+        "清单超出重复性工作，还包括部分专业职业。"
+      ],
+      "answer": 3,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A not just...but also 明确否定只含工厂工作的范围。",
+        "B corporate lawyers 被列入，而非排除。",
+        "C 没有无办公职责的限制，clerical jobs 也在原文中。",
+        "D 保留了扩展范围和 according to Graeber 的归属。原文随后强调工作评判不等于整个生命无意义。"
+      ],
+      "vocabulary": [
+        {
+          "word": "clerical",
+          "meaning": "文书的；办公室事务性的",
+          "context": "与 factory 并列，之后作者转述专业职业也被纳入的观点。",
+          "example": "The assistant handles routine clerical work each morning.",
+          "collocations": [
+            "clerical jobs",
+            "clerical duties"
+          ]
+        }
+      ],
+      "translation": "依 Graeber 之见，无意义的工作不只是重复性的工厂工作或文书工作，也包括公司律师、公关顾问、电话营销员和品牌经理。例如，他声称多数公司律师暗自认为，如果自己这类职业不存在，世界可能会更好。当然，人也可以在工作之外对世界产生影响。因此，这并不意味着公司律师和公关顾问就过着无意义的生活。",
+      "evidenceTargetIds": [
+        "c03-s01-p028-02700-s004"
+      ],
+      "evidence": [
+        {
+          "quote": "Meaningless jobs, according to Graeber, are not just repetitive factory or clerical jobs, but also include corporate lawyers, public relations consultants, telemarketers, and brand managers.",
+          "sentenceIds": [
+            "c03-s01-p028-02700-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 28,
+              "block": 1,
+              "bbox": [
+                76.99,
+                270,
+                535,
+                596.52
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "ec1f50b774271853bf05347edbd1a17af97df4e71c6c97676d3ee4f0f6571595"
+    },
+    {
+      "id": "qe-c03-0013",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-008",
+      "parentQuestionId": "q-c03-009",
+      "chapterId": "c03",
+      "sectionId": "c03-s01",
+      "paragraphId": "c03-s01-p028-02700",
+      "readingUnitId": "c03-s01-p028-02700-r004-007",
+      "sentenceIds": [
+        "c03-s01-p028-02700-s004",
+        "c03-s01-p028-02700-s005",
+        "c03-s01-p028-02700-s006",
+        "c03-s01-p028-02700-s007"
+      ],
+      "passage": "Meaningless jobs, according to Graeber, are not just repetitive factory or clerical jobs, but also include corporate lawyers, public relations consultants, telemarketers, and brand managers. For instance, he claims that most corporate lawyers secretly believe that the world would probably be a better place if they did not exist. Of course, people can make a difference in the world outside of their jobs. So this doesn’t mean corporate lawyers and public relations consultants lead meaningless lives.",
+      "prompt": "Which wording accurately preserves the status of the statement about corporate lawyers' private beliefs?",
+      "promptZh": "哪项准确保留关于公司律师私下想法之说的性质？",
+      "options": [
+        "It is Graeber's claim about what most of them secretly believe, with 'probably' qualifying the imagined outcome.",
+        "It is a direct confession from every corporate lawyer interviewed by the narrator.",
+        "It proves that all corporate lawyers have meaningless lives.",
+        "It establishes that removing every legal service would certainly improve the world."
+      ],
+      "optionsZh": [
+        "这是格雷伯对多数人私下信念的主张，probably 限定所设想的结果。",
+        "这是作者采访的每位公司律师的直接坦白。",
+        "它证明所有公司律师的人生无意义。",
+        "它确立取消每种法律服务必定改善世界。"
+      ],
+      "answer": 0,
+      "type": "观点归属",
+      "support": "explicit",
+      "analyses": [
+        "A he claims、most、secretly believe、would probably 分别保留转述、范围、信念与不确定性。",
+        "B 没有作者逐一采访，更不是 every。",
+        "C 后文直接否定从职业判断推为整个人生无意义。",
+        "D probably 不能改为 certainly，特定职业主张也不能扩到全部法律服务。"
+      ],
+      "vocabulary": [
+        {
+          "word": "claims",
+          "meaning": "声称；提出主张",
+          "context": "提示对格雷伯说法的归属，不是读者已经得到完整独立验证的事实。",
+          "example": "The writer claims that the new policy will change working habits.",
+          "collocations": [
+            "claim that",
+            "a claim about private beliefs"
+          ]
+        }
+      ],
+      "translation": "依 Graeber 之见，无意义的工作不只是重复性的工厂工作或文书工作，也包括公司律师、公关顾问、电话营销员和品牌经理。例如，他声称多数公司律师暗自认为，如果自己这类职业不存在，世界可能会更好。当然，人也可以在工作之外对世界产生影响。因此，这并不意味着公司律师和公关顾问就过着无意义的生活。",
+      "evidenceTargetIds": [
+        "c03-s01-p028-02700-s005"
+      ],
+      "evidence": [
+        {
+          "quote": "For instance, he claims that most corporate lawyers secretly believe that the world would probably be a better place if they did not exist.",
+          "sentenceIds": [
+            "c03-s01-p028-02700-s005"
+          ],
+          "sources": [
+            {
+              "pdfPage": 28,
+              "block": 1,
+              "bbox": [
+                76.99,
+                270,
+                535,
+                596.52
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "88c4cdee575a73738afaa3e87e2845f25cbc3c8a018da38c29212ffc73213086"
+    },
+    {
+      "id": "qe-c03-0016",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-008",
+      "parentQuestionId": "q-c03-012",
+      "chapterId": "c03",
+      "sectionId": "c03-s02",
+      "paragraphId": "c03-s02-p028-06525",
+      "readingUnitId": "c03-s02-p028-06525-r001-004",
+      "sentenceIds": [
+        "c03-s02-p028-06525-s001",
+        "c03-s02-p028-06525-s002",
+        "c03-s02-p028-06525-s003",
+        "c03-s02-p028-06525-s004"
+      ],
+      "passage": "Needless to say, a meaningful life sounds a lot more appealing than a meaningless one. Thus, people say you should find a reason for living— whether via career, religion, social roles (e.g., parenthood), scientific discovery, or social change. Many commencement speakers preach along these lines, including Michelle Obama in her speech to CUNY’s class of 2016: “Be great. Build great lives for yourselves….",
+      "prompt": "Who is cited as addressing CUNY's class of 2016?",
+      "promptZh": "文中举出谁向 CUNY 2016 届毕业生发表讲话？",
+      "options": [
+        "Donna Tartt.",
+        "Dr. Donna Adams-Pickett.",
+        "Michael Steger.",
+        "Michelle Obama."
+      ],
+      "optionsZh": [
+        "唐娜·塔特。",
+        "唐娜·亚当斯-皮克特医生。",
+        "迈克尔·斯蒂格。",
+        "米歇尔·奥巴马。"
+      ],
+      "answer": 3,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A 塔特属于之前的小说家建议，不是该演讲归属。",
+        "B 医生是后面理想付诸实践的例子，不能倒换成这场讲话者。",
+        "C 斯蒂格是后文研究者。",
+        "D including Michelle Obama in her speech to CUNY’s class of 2016 明示人物与届别。此候选单元在引语中截分，保留原文不补造后句。"
+      ],
+      "vocabulary": [
+        {
+          "word": "commencement",
+          "meaning": "毕业典礼",
+          "context": "commencement speakers 指毕业典礼讲话者，不是实验参与者。",
+          "example": "The students listened to the commencement address in the main hall.",
+          "collocations": [
+            "commencement speakers",
+            "a commencement speech"
+          ]
+        }
+      ],
+      "translation": "不用说，有意义的生活听起来比无意义的生活更有吸引力。因此，人们说你应该找到活着的理由——可以通过事业、宗教、社会角色（如为人父母）、科学发现或社会变革来寻找。许多毕业典礼演讲者都作过类似劝勉，包括 Michelle Obama 在纽约市立大学 2016 届毕业典礼上的话：“成就伟大。为你们自己建立出色的人生……”",
+      "evidenceTargetIds": [
+        "c03-s02-p028-06525-s003"
+      ],
+      "evidence": [
+        {
+          "quote": "Many commencement speakers preach along these lines, including Michelle Obama in her speech to CUNY’s class of 2016: “Be great.",
+          "sentenceIds": [
+            "c03-s02-p028-06525-s003"
+          ],
+          "sources": [
+            {
+              "pdfPage": 29,
+              "block": 0,
+              "bbox": [
+                76.99,
+                75,
+                535.01,
+                148.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "4d0df14dc53541b476e8ea495b4fd3783eec62a54f11d9118fdf25bc672ceb7a"
+    },
+    {
+      "id": "qe-c03-0017",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-008",
+      "parentQuestionId": "q-c03-012",
+      "chapterId": "c03",
+      "sectionId": "c03-s02",
+      "paragraphId": "c03-s02-p028-06525",
+      "readingUnitId": "c03-s02-p028-06525-r001-004",
+      "sentenceIds": [
+        "c03-s02-p028-06525-s001",
+        "c03-s02-p028-06525-s002",
+        "c03-s02-p028-06525-s003",
+        "c03-s02-p028-06525-s004"
+      ],
+      "passage": "Needless to say, a meaningful life sounds a lot more appealing than a meaningless one. Thus, people say you should find a reason for living— whether via career, religion, social roles (e.g., parenthood), scientific discovery, or social change. Many commencement speakers preach along these lines, including Michelle Obama in her speech to CUNY’s class of 2016: “Be great. Build great lives for yourselves….",
+      "prompt": "What is 'Build great lives for yourselves' doing within the quoted speech?",
+      "promptZh": "引述演讲中的 Build great lives for yourselves 起什么作用？",
+      "options": [
+        "It reports a completed experiment about graduates.",
+        "It predicts that all listeners have already achieved greatness.",
+        "It urges the listeners to create great lives for themselves.",
+        "It instructs listeners to assess someone else's annual income."
+      ],
+      "optionsZh": [
+        "报告关于毕业生的已完成实验。",
+        "预测所有听众已达伟大成就。",
+        "鼓励听众为自己创造出色人生。",
+        "指示听众评估别人的年收入。"
+      ],
+      "answer": 2,
+      "type": "作者意图",
+      "support": "explicit",
+      "analyses": [
+        "A 这是演讲劝勉，不是实验报告。",
+        "B Build 是祈使号召，不是已经完成的事实。",
+        "C yourselves 强调听众自己，Build 邀请他们行动。",
+        "D 没有收入评估任务。这里不把鼓励语当作保证所有毕业生达成同一结果。"
+      ],
+      "vocabulary": [
+        {
+          "word": "yourselves",
+          "meaning": "你们自己（反身代词）",
+          "context": "for yourselves 指向听众自己的生活，而非作者个人或一项收入指标。",
+          "example": "You can decide for yourselves which reading routine suits you.",
+          "collocations": [
+            "for yourselves",
+            "build lives for yourselves"
+          ]
+        }
+      ],
+      "translation": "不用说，有意义的生活听起来比无意义的生活更有吸引力。因此，人们说你应该找到活着的理由——可以通过事业、宗教、社会角色（如为人父母）、科学发现或社会变革来寻找。许多毕业典礼演讲者都作过类似劝勉，包括 Michelle Obama 在纽约市立大学 2016 届毕业典礼上的话：“成就伟大。为你们自己建立出色的人生……”",
+      "evidenceTargetIds": [
+        "c03-s02-p028-06525-s004"
+      ],
+      "evidence": [
+        {
+          "quote": "Build great lives for yourselves….",
+          "sentenceIds": [
+            "c03-s02-p028-06525-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 29,
+              "block": 0,
+              "bbox": [
+                76.99,
+                75,
+                535.01,
+                148.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "372f111c70af410a2c4dc512585593c6c08747590b7ad15d61b2dc00bda1791b"
+    },
+    {
+      "id": "qe-c03-0018",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-008",
+      "parentQuestionId": "q-c03-014",
+      "chapterId": "c03",
+      "sectionId": "c03-s02",
+      "paragraphId": "c03-s02-p029-01530",
+      "readingUnitId": "c03-s02-p029-01530-r001-004",
+      "sentenceIds": [
+        "c03-s02-p029-01530-s001",
+        "c03-s02-p029-01530-s002",
+        "c03-s02-p029-01530-s003",
+        "c03-s02-p029-01530-s004"
+      ],
+      "passage": "Dr. Donna Adams-Pickett did exactly what Michele Obama promoted. As a child, she learned that her paternal grandmother, who lived on a tobacco farm, died while giving birth. The baby died as well, and her father was left motherless at age twelve. After hearing this story, she was determined to become an ob-gyn doctor.",
+      "prompt": "What role does the opening statement about Dr. Adams-Pickett play?",
+      "promptZh": "关于亚当斯-皮克特医生的开头一句起什么作用？",
+      "options": [
+        "It presents her as an example of putting the previously promoted ideal into practice.",
+        "It introduces her as a critic rejecting the ideal entirely.",
+        "It identifies her as the author of the commencement speech.",
+        "It reports that the ideal was disproved by an admissions experiment."
+      ],
+      "optionsZh": [
+        "把她作为将前面倡导的理想付诸实践的例子。",
+        "把她介绍为完全拒绝理想的批评者。",
+        "把她认作毕业演讲作者。",
+        "报告理想被录取实验推翻。"
+      ],
+      "answer": 0,
+      "type": "作者意图",
+      "support": "explicit",
+      "analyses": [
+        "A did exactly what...promoted 直接把她的经历与前面倡导的方向连接，随后展开传记例子。",
+        "B did exactly 与完全拒绝相反。",
+        "C 她是践行者，不是本句所指讲话的作者。",
+        "D 没有录取实验或推翻理想的结果。保留原书本句 Michele 的原始拼写，不擅改来源。"
+      ],
+      "vocabulary": [
+        {
+          "word": "promoted",
+          "meaning": "倡导；提倡（此处不是升职）",
+          "context": "指前面演讲提倡的理想，did what...promoted 将倡导与实践连接。",
+          "example": "The campaign promoted the value of helping neighbours.",
+          "collocations": [
+            "promote an ideal",
+            "promote a way of life"
+          ]
+        }
+      ],
+      "translation": "Donna Adams-Pickett 医生确实践行了 Michele Obama 所提倡的事。小时候，她得知住在烟草农场的祖母在分娩时去世，婴儿也没能活下来，她父亲十二岁就失去了母亲。听到这个故事后，她下定决心成为妇产科医生。",
+      "evidenceTargetIds": [
+        "c03-s02-p029-01530-s001"
+      ],
+      "evidence": [
+        {
+          "quote": "Dr. Donna Adams-Pickett did exactly what Michele Obama promoted.",
+          "sentenceIds": [
+            "c03-s02-p029-01530-s001"
+          ],
+          "sources": [
+            {
+              "pdfPage": 29,
+              "block": 1,
+              "bbox": [
+                76.99,
+                153,
+                535.01,
+                401.52
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "00318b6122503a80a0375548af15c0c39819faf20f03886b65bb3b93e653e841"
+    },
+    {
+      "id": "qe-c03-0019",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-008",
+      "parentQuestionId": "q-c03-015",
+      "chapterId": "c03",
+      "sectionId": "c03-s02",
+      "paragraphId": "c03-s02-p029-01530",
+      "readingUnitId": "c03-s02-p029-01530-r005-006",
+      "sentenceIds": [
+        "c03-s02-p029-01530-s005",
+        "c03-s02-p029-01530-s006"
+      ],
+      "passage": "As she shared with PBS NewsHour, Dr. Adams-Pickett delivered over 6,000 babies over the last twenty years in Augusta, Georgia, an area located in a maternity care desert. Her life is certainly meaningful, as she has a clear purpose (provide good maternal care to the people of Georgia, especially Black women, who have a much higher rate of maternal mortality before and after delivery than other women) and significance (some mothers and babies might have died without her care).",
+      "prompt": "What does Dr. Adams-Pickett report to PBS NewsHour in the passage?",
+      "promptZh": "文中亚当斯-皮克特医生向 PBS NewsHour 讲述了什么？",
+      "options": [
+        "Exactly 6,000 births across all of Georgia in a single year.",
+        "More than 6,000 deliveries over the twenty-year period described, in Augusta.",
+        "Fewer than 600 deliveries before leaving medical practice.",
+        "A controlled experiment proving identical outcomes for all mothers."
+      ],
+      "optionsZh": [
+        "一年内在整个佐治亚州恰好接生 6000 次。",
+        "所述二十年间在奥古斯塔接生超过 6000 名婴儿。",
+        "退出医疗工作前接生少于 600 名婴儿。",
+        "证明所有母亲结局相同的对照实验。"
+      ],
+      "answer": 1,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A over 不等于 exactly，twenty years 不是一年，地点也被扩大。",
+        "B 保留 shared with PBS NewsHour 的自述来源、over 6,000、二十年和 Augusta。",
+        "C 数量和离职情节均不符合原文。",
+        "D 个人工作经历不是随机对照实验，也没有相同结局保证。last twenty years 是书中叙述范围，不自动滚动到今天。"
+      ],
+      "vocabulary": [
+        {
+          "word": "delivered",
+          "meaning": "接生（此处为产科语境）",
+          "context": "delivered babies 指协助婴儿出生，不是递送包裹。",
+          "example": "The doctor delivered a baby during her night shift.",
+          "collocations": [
+            "deliver a baby",
+            "deliver over six thousand babies"
+          ]
+        }
+      ],
+      "translation": "Adams-Pickett 医生向 PBS《新闻时刻》分享说，过去二十年，她在佐治亚州奥古斯塔接生了六千多名婴儿；当地是孕产照护资源匮乏地区。她的人生无疑有意义：有明确目的——为佐治亚居民提供良好孕产照护，尤其关注分娩前后孕产死亡率远高于其他女性的黑人女性；也有重要性——如果没有她的照护，一些母亲与婴儿可能已经死亡。",
+      "evidenceTargetIds": [
+        "c03-s02-p029-01530-s005"
+      ],
+      "evidence": [
+        {
+          "quote": "As she shared with PBS NewsHour, Dr. Adams-Pickett delivered over 6,000 babies over the last twenty years in Augusta, Georgia, an area located in a maternity care desert.",
+          "sentenceIds": [
+            "c03-s02-p029-01530-s005"
+          ],
+          "sources": [
+            {
+              "pdfPage": 29,
+              "block": 1,
+              "bbox": [
+                76.99,
+                153,
+                535.01,
+                401.52
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "b896b50de1ac7c95cb6f52178c515796d9be80b108c5eb0b6490c1cb2ccc9b1b"
+    },
+    {
+      "id": "qe-c03-0020",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-008",
+      "parentQuestionId": "q-c03-017",
+      "chapterId": "c03",
+      "sectionId": "c03-s02",
+      "paragraphId": "c03-s02-p029-04065",
+      "readingUnitId": "c03-s02-p029-04065-r001-004",
+      "sentenceIds": [
+        "c03-s02-p029-04065-s001",
+        "c03-s02-p029-04065-s002",
+        "c03-s02-p029-04065-s003",
+        "c03-s02-p029-04065-s004"
+      ],
+      "passage": "When we think of people who live meaningful lives, we might think of those who have done great things, like Dr. Donna Adams-Pickett, Michelle Obama, or Barack Obama—the kind of people who give graduation speeches! These are extraordinary achievements. These people are heroes. However, these accomplishments are so rare that it’s hard to imagine ever achieving such feats.",
+      "prompt": "What tendency in imagining meaningful lives does the narrator describe?",
+      "promptZh": "作者描述人们想象有意义人生时的什么倾向？",
+      "options": [
+        "We never associate meaning with public achievements.",
+        "We know that only commencement speakers can have meaning.",
+        "We have measured every hero's private sense of meaning.",
+        "We may think first of people known for doing great things."
+      ],
+      "optionsZh": [
+        "我们从不把意义与公众成就联系。",
+        "我们知道只有毕业演讲者能有意义。",
+        "我们已测量每位英雄私下的意义感。",
+        "我们可能先想到因伟大事迹而知名的人。"
+      ],
+      "answer": 3,
+      "type": "主旨",
+      "support": "explicit",
+      "analyses": [
+        "A might think of those who have done great things 与从不联系相反。",
+        "B might think 是常见印象，不是 only 的资格规定。",
+        "C 本句没有逐人测量。",
+        "D 保留 might 和列举杰出人物的心理联想，不把印象变成意义的必要条件。"
+      ],
+      "vocabulary": [
+        {
+          "word": "might",
+          "meaning": "可能（此处表示联想的可能性）",
+          "context": "we might think 不宣称所有人必定这样想。",
+          "example": "Readers might think first of a famous explorer.",
+          "collocations": [
+            "might think of",
+            "might associate something with"
+          ]
+        }
+      ],
+      "translation": "想到过着有意义生活的人，我们也许会想到做过大事的 Donna Adams-Pickett 医生、Michelle Obama 或 Barack Obama——就是那些在毕业典礼上演讲的人！这些都是非凡的成就，这些人都是英雄。然而，这样的成就非常罕见，让人难以想象自己也能完成这样的壮举。",
+      "evidenceTargetIds": [
+        "c03-s02-p029-04065-s001"
+      ],
+      "evidence": [
+        {
+          "quote": "When we think of people who live meaningful lives, we might think of those who have done great things, like Dr. Donna Adams-Pickett, Michelle Obama, or Barack Obama—the kind of people who give graduation speeches!",
+          "sentenceIds": [
+            "c03-s02-p029-04065-s001"
+          ],
+          "sources": [
+            {
+              "pdfPage": 29,
+              "block": 2,
+              "bbox": [
+                76.99,
+                406.5,
+                535.01,
+                577.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "1b3533e38fe47107385524936a0c37013e0ac44f304cde72c46181826427b9c4"
+    },
+    {
+      "id": "qe-c03-0021",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-008",
+      "parentQuestionId": "q-c03-017",
+      "chapterId": "c03",
+      "sectionId": "c03-s02",
+      "paragraphId": "c03-s02-p029-04065",
+      "readingUnitId": "c03-s02-p029-04065-r001-004",
+      "sentenceIds": [
+        "c03-s02-p029-04065-s001",
+        "c03-s02-p029-04065-s002",
+        "c03-s02-p029-04065-s003",
+        "c03-s02-p029-04065-s004"
+      ],
+      "passage": "When we think of people who live meaningful lives, we might think of those who have done great things, like Dr. Donna Adams-Pickett, Michelle Obama, or Barack Obama—the kind of people who give graduation speeches! These are extraordinary achievements. These people are heroes. However, these accomplishments are so rare that it’s hard to imagine ever achieving such feats.",
+      "prompt": "How does the narrator characterise the achievements just mentioned?",
+      "promptZh": "作者怎样评价刚提到的成就？",
+      "options": [
+        "As ordinary activities performed identically by everyone.",
+        "As achievements that have not actually been described.",
+        "As extraordinary achievements.",
+        "As proof that no less famous life can matter."
+      ],
+      "optionsZh": [
+        "人人以同样方式完成的普通活动。",
+        "尚未实际描述过的成就。",
+        "非凡的成就。",
+        "证明不那么著名的人生毫无价值。"
+      ],
+      "answer": 2,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A extraordinary 与普通一致活动相反。",
+        "B These 指向前面已经列举的人物伟业。",
+        "C 本句用 extraordinary 直接作正面评价。",
+        "D 评价卓越不等于排除普通人生意义，后面还讨论这种误解。"
+      ],
+      "vocabulary": [
+        {
+          "word": "extraordinary",
+          "meaning": "非凡的；超出普通水平的",
+          "context": "修饰成就的杰出程度，不是说有意义人生必须达到这种门槛。",
+          "example": "The team showed extraordinary patience during the project.",
+          "collocations": [
+            "extraordinary achievements",
+            "an extraordinary effort"
+          ]
+        }
+      ],
+      "translation": "想到过着有意义生活的人，我们也许会想到做过大事的 Donna Adams-Pickett 医生、Michelle Obama 或 Barack Obama——就是那些在毕业典礼上演讲的人！这些都是非凡的成就，这些人都是英雄。然而，这样的成就非常罕见，让人难以想象自己也能完成这样的壮举。",
+      "evidenceTargetIds": [
+        "c03-s02-p029-04065-s002"
+      ],
+      "evidence": [
+        {
+          "quote": "When we think of people who live meaningful lives, we might think of those who have done great things, like Dr. Donna Adams-Pickett, Michelle Obama, or Barack Obama—the kind of people who give graduation speeches! These are extraordinary achievements.",
+          "sentenceIds": [
+            "c03-s02-p029-04065-s001",
+            "c03-s02-p029-04065-s002"
+          ],
+          "sources": [
+            {
+              "pdfPage": 29,
+              "block": 2,
+              "bbox": [
+                76.99,
+                406.5,
+                535.01,
+                577.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "fe934e81db30ab5ea9ef827c210f46e954c2fb8b54c627a6d57996d1e3178795"
+    },
+    {
+      "id": "qe-c03-0022",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-008",
+      "parentQuestionId": "q-c03-017",
+      "chapterId": "c03",
+      "sectionId": "c03-s02",
+      "paragraphId": "c03-s02-p029-04065",
+      "readingUnitId": "c03-s02-p029-04065-r001-004",
+      "sentenceIds": [
+        "c03-s02-p029-04065-s001",
+        "c03-s02-p029-04065-s002",
+        "c03-s02-p029-04065-s003",
+        "c03-s02-p029-04065-s004"
+      ],
+      "passage": "When we think of people who live meaningful lives, we might think of those who have done great things, like Dr. Donna Adams-Pickett, Michelle Obama, or Barack Obama—the kind of people who give graduation speeches! These are extraordinary achievements. These people are heroes. However, these accomplishments are so rare that it’s hard to imagine ever achieving such feats.",
+      "prompt": "Who are described as 'heroes' at this point in the discussion?",
+      "promptZh": "此处被称为 heroes 的是谁？",
+      "options": [
+        "The people just cited for their great achievements.",
+        "All respondents who answered yes to a Gallup question.",
+        "Only corporate lawyers in Graeber's examples.",
+        "Every person who speaks at any graduation ceremony."
+      ],
+      "optionsZh": [
+        "刚因伟大成就而举出的人物。",
+        "所有对盖洛普问题回答是的受访者。",
+        "只指格雷伯例子中的公司律师。",
+        "在任何毕业典礼讲话的每个人。"
+      ],
+      "answer": 0,
+      "type": "逻辑关系",
+      "support": "explicit",
+      "analyses": [
+        "A These people 回指上一段当前所举的杰出人物。",
+        "B 此处尚未在这个段落引入后面的问卷受访者。",
+        "C 职业清单是另一段，不能移作近处指代。",
+        "D 例举人物与演讲者形象不构成所有演讲者都是英雄的普遍命题。"
+      ],
+      "vocabulary": [
+        {
+          "word": "heroes",
+          "meaning": "英雄；受推崇的杰出人物",
+          "context": "作者对所举人物的评价，不是调查中以固定门槛划分的统计变量。",
+          "example": "The article honours local heroes who helped their neighbours.",
+          "collocations": [
+            "regard people as heroes",
+            "everyday heroes"
+          ]
+        }
+      ],
+      "translation": "想到过着有意义生活的人，我们也许会想到做过大事的 Donna Adams-Pickett 医生、Michelle Obama 或 Barack Obama——就是那些在毕业典礼上演讲的人！这些都是非凡的成就，这些人都是英雄。然而，这样的成就非常罕见，让人难以想象自己也能完成这样的壮举。",
+      "evidenceTargetIds": [
+        "c03-s02-p029-04065-s003"
+      ],
+      "evidence": [
+        {
+          "quote": "When we think of people who live meaningful lives, we might think of those who have done great things, like Dr. Donna Adams-Pickett, Michelle Obama, or Barack Obama—the kind of people who give graduation speeches! These are extraordinary achievements. These people are heroes.",
+          "sentenceIds": [
+            "c03-s02-p029-04065-s001",
+            "c03-s02-p029-04065-s002",
+            "c03-s02-p029-04065-s003"
+          ],
+          "sources": [
+            {
+              "pdfPage": 29,
+              "block": 2,
+              "bbox": [
+                76.99,
+                406.5,
+                535.01,
+                577.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "5137f4d87145c0d863cb391bb02951f087c108e9deeb5ec381f09c4fbf003ce0"
+    }
+  ]
+}
