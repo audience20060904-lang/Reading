@@ -1,0 +1,1455 @@
+{
+  "schemaVersion": 1,
+  "batchId": "question-review-2026-10-28-037",
+  "sourceCommit": "2dccf0b8d74a828da51c64e98b7a72c010250d3b",
+  "pdfSha256": "be25c859f1bd894a4b0d1cff024ded1297f6a96a8e8ddabea1e3abcf89160a50",
+  "frozenAt": "2026-10-28T23:45:45.214Z",
+  "questions": [
+    {
+      "id": "qe-c04-0038",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-011",
+      "parentQuestionId": "q-c04-021",
+      "chapterId": "c04",
+      "sectionId": "c04-s03",
+      "paragraphId": "c04-s03-p038-03870",
+      "readingUnitId": "c04-s03-p038-03870-r005-008",
+      "sentenceIds": [
+        "c04-s03-p038-03870-s005",
+        "c04-s03-p038-03870-s006",
+        "c04-s03-p038-03870-s007",
+        "c04-s03-p038-03870-s008"
+      ],
+      "passage": "On her last day in Rome, she learned that Desideri had visited the Royal College again when David Hume was there. Moreover, Gopnik uncovered another link: Dolu, a French ambassador to Buddhist Siam in the 1680s, retired to La Flèche in 1723. Her question was answered: David Hume must have read about Buddhism in La Flèche. She had connected Eastern philosophy to the Western Enlightenment.",
+      "prompt": "What did she learn on her last day in Rome?",
+      "promptZh": "在罗马最后一天，她了解到什么？",
+      "options": [
+        "Desideri had founded the Royal College.",
+        "Hume had written his Treatise in Rome.",
+        "Desideri had never visited the Royal College.",
+        "Desideri had visited the Royal College again while Hume was there."
+      ],
+      "optionsZh": [
+        "德西德里创立了皇家学院。",
+        "休谟在罗马写成《Treatise》。",
+        "德西德里从未访问皇家学院。",
+        "德西德里再次访问皇家学院时，休谟也在那里。"
+      ],
+      "answer": 3,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A visited 不等于 founded。",
+        "B Rome 是她查档案所在地，不是这句说休谟著述地点。",
+        "C again 明示不止一次访问，不能说从未。",
+        "D 保留 visited again 与 when David Hume was there 的时空线索；同地同段时间不自动证明两人亲自会面。"
+      ],
+      "vocabulary": [
+        {
+          "word": "again",
+          "meaning": "再次；又一次",
+          "context": "visited...again 标记再访，不可当成生平首次访问或从未访问。",
+          "example": "The researcher checked the archive again before leaving.",
+          "collocations": [
+            "visit again",
+            "check a source again"
+          ]
+        }
+      ],
+      "translation": "在罗马的最后一天，她得知 Desideri 在 David Hume 身处皇家学院时曾再次造访那里。此外，Gopnik 又发现一条联系：Dolu 在十七世纪八十年代曾任法国驻佛教暹罗的大使，1723 年退居 La Flèche。她的问题得到了回答：David Hume 一定在 La Flèche 读过有关佛教的材料。她把东方哲学与西方启蒙运动联系了起来。",
+      "evidenceTargetIds": [
+        "c04-s03-p038-03870-s005"
+      ],
+      "evidence": [
+        {
+          "quote": "On her last day in Rome, she learned that Desideri had visited the Royal College again when David Hume was there.",
+          "sentenceIds": [
+            "c04-s03-p038-03870-s005"
+          ],
+          "sources": [
+            {
+              "pdfPage": 38,
+              "block": 2,
+              "bbox": [
+                76.99,
+                387,
+                535.01,
+                596.52
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "6f3e48b4fd8b557e9a9ab42c42dee399038d69d860aa2a2aa71e12181bd6e582"
+    },
+    {
+      "id": "qe-c04-0039",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-011",
+      "parentQuestionId": "q-c04-021",
+      "chapterId": "c04",
+      "sectionId": "c04-s03",
+      "paragraphId": "c04-s03-p038-03870",
+      "readingUnitId": "c04-s03-p038-03870-r005-008",
+      "sentenceIds": [
+        "c04-s03-p038-03870-s005",
+        "c04-s03-p038-03870-s006",
+        "c04-s03-p038-03870-s007",
+        "c04-s03-p038-03870-s008"
+      ],
+      "passage": "On her last day in Rome, she learned that Desideri had visited the Royal College again when David Hume was there. Moreover, Gopnik uncovered another link: Dolu, a French ambassador to Buddhist Siam in the 1680s, retired to La Flèche in 1723. Her question was answered: David Hume must have read about Buddhism in La Flèche. She had connected Eastern philosophy to the Western Enlightenment.",
+      "prompt": "What meaning does 'must have read' express in the narrative's conclusion?",
+      "promptZh": "叙述结论中的 must have read 表达什么含义？",
+      "options": [
+        "A command that Hume must read the text in the future.",
+        "A strong deduction about something in the past.",
+        "Permission for Hume to read if he wishes.",
+        "A direct eyewitness quotation proving every word he read."
+      ],
+      "optionsZh": [
+        "命令休谟未来必须阅读。",
+        "对过去事情作出较强推断。",
+        "允许休谟愿意时阅读。",
+        "直接目击引语，证明其读过的每个字。"
+      ],
+      "answer": 1,
+      "type": "语法与含义",
+      "support": "explicit",
+      "analyses": [
+        "A must have done 指过去推断，不是未来命令。",
+        "B 结合 Her question was answered，叙述用 must have read 表达对过去阅读的强推断。",
+        "C 不是 may 表示许可。",
+        "D 强推断的语气不能替换为已有逐字目击记录；原句没有给出这样的文件。这里辨认书中推断方式，不额外核实新的历史事实。"
+      ],
+      "vocabulary": [
+        {
+          "word": "must have read",
+          "meaning": "一定曾读过；想必读过（对过去的强推断）",
+          "context": "must 加完成式表达叙述中的推断，不等于未来义务或直接目击。",
+          "example": "She knows the ending, so she must have read the story before.",
+          "collocations": [
+            "must have read",
+            "must have done"
+          ]
+        }
+      ],
+      "translation": "在罗马的最后一天，她得知 Desideri 在 David Hume 身处皇家学院时曾再次造访那里。此外，Gopnik 又发现一条联系：Dolu 在十七世纪八十年代曾任法国驻佛教暹罗的大使，1723 年退居 La Flèche。她的问题得到了回答：David Hume 一定在 La Flèche 读过有关佛教的材料。她把东方哲学与西方启蒙运动联系了起来。",
+      "evidenceTargetIds": [
+        "c04-s03-p038-03870-s007"
+      ],
+      "evidence": [
+        {
+          "quote": "Her question was answered: David Hume must have read about Buddhism in La Flèche.",
+          "sentenceIds": [
+            "c04-s03-p038-03870-s007"
+          ],
+          "sources": [
+            {
+              "pdfPage": 38,
+              "block": 2,
+              "bbox": [
+                76.99,
+                387,
+                535.01,
+                596.52
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "425aeda0655bfc1059de1ca5dde52adaf325a95791fe0ce6624d7f7b387c797b"
+    },
+    {
+      "id": "qe-c04-0040",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-011",
+      "parentQuestionId": "q-c04-021",
+      "chapterId": "c04",
+      "sectionId": "c04-s03",
+      "paragraphId": "c04-s03-p038-03870",
+      "readingUnitId": "c04-s03-p038-03870-r005-008",
+      "sentenceIds": [
+        "c04-s03-p038-03870-s005",
+        "c04-s03-p038-03870-s006",
+        "c04-s03-p038-03870-s007",
+        "c04-s03-p038-03870-s008"
+      ],
+      "passage": "On her last day in Rome, she learned that Desideri had visited the Royal College again when David Hume was there. Moreover, Gopnik uncovered another link: Dolu, a French ambassador to Buddhist Siam in the 1680s, retired to La Flèche in 1723. Her question was answered: David Hume must have read about Buddhism in La Flèche. She had connected Eastern philosophy to the Western Enlightenment.",
+      "prompt": "What connection does the narrative summarise her as having made?",
+      "promptZh": "叙述把她建立的联系概括为什么？",
+      "options": [
+        "A connection between a modern film and all German novels.",
+        "A connection between university fees and scientific achievement.",
+        "A connection between Eastern philosophy and the Western Enlightenment.",
+        "A connection proving that every Western thinker copied the same source."
+      ],
+      "optionsZh": [
+        "当代电影与所有德国小说的联系。",
+        "大学学费与科学成就的联系。",
+        "东方哲学与西方启蒙运动的联系。",
+        "证明每位西方思想家都抄同一来源的联系。"
+      ],
+      "answer": 2,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A 不是前面的文学改编主题。",
+        "B 学费属于此前大学选择例子，不是此调查。",
+        "C connected Eastern philosophy to the Western Enlightenment 是本句概括。",
+        "D 一条具体历史联系不能扩成 every thinker 和 copied。保持书中叙述的总结归属，不增加未给出的逐字借鉴证据。"
+      ],
+      "vocabulary": [
+        {
+          "word": "Enlightenment",
+          "meaning": "启蒙运动（此处为历史专名）",
+          "context": "Western Enlightenment 指西方思想史阶段，不是个人获得灵性觉悟的普通 enlightenment。",
+          "example": "The seminar examined debates associated with the Enlightenment.",
+          "collocations": [
+            "the Western Enlightenment",
+            "Enlightenment philosophy"
+          ]
+        }
+      ],
+      "translation": "在罗马的最后一天，她得知 Desideri 在 David Hume 身处皇家学院时曾再次造访那里。此外，Gopnik 又发现一条联系：Dolu 在十七世纪八十年代曾任法国驻佛教暹罗的大使，1723 年退居 La Flèche。她的问题得到了回答：David Hume 一定在 La Flèche 读过有关佛教的材料。她把东方哲学与西方启蒙运动联系了起来。",
+      "evidenceTargetIds": [
+        "c04-s03-p038-03870-s008"
+      ],
+      "evidence": [
+        {
+          "quote": "She had connected Eastern philosophy to the Western Enlightenment.",
+          "sentenceIds": [
+            "c04-s03-p038-03870-s008"
+          ],
+          "sources": [
+            {
+              "pdfPage": 38,
+              "block": 2,
+              "bbox": [
+                76.99,
+                387,
+                535.01,
+                596.52
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "71a18b5f14c5b243d3f26b9d923e140616e700b5be9c06b7f95a436a9916d50a"
+    },
+    {
+      "id": "q-c04-022",
+      "version": 1,
+      "readingUnitId": "c04-s03-p038-06015-r001-004",
+      "chapterId": "c04",
+      "sectionId": "c04-s03",
+      "paragraphId": "c04-s03-p038-06015",
+      "sentenceIds": [
+        "c04-s03-p038-06015-s001",
+        "c04-s03-p038-06015-s002",
+        "c04-s03-p038-06015-s003",
+        "c04-s03-p038-06015-s004"
+      ],
+      "passage": "Gopnik ends her Atlantic article by saying: “Once again, I was an exceptionally fortunate and happy woman, full of irrational exuberance and everyday joy. But that’s not all I was. I’d discovered that I could love women as well as men, history as well as science, and that I could make my way through sadness and solitude, not just happiness…. I had found my salvation in the sheer endless curiosity of the human mind—and the sheer endless variety of human experience.”",
+      "prompt": "What broadens Gopnik’s account beyond simply becoming happy again?",
+      "options": [
+        "She concludes that curiosity has no place in recovery.",
+        "She values varied experiences and the ability to move through sadness as well as joy.",
+        "She states that history must replace science in everyone’s life.",
+        "She says that solitude and sadness can never be part of a valued life."
+      ],
+      "answer": 1,
+      "type": "主旨",
+      "promptZh": "什么让 Gopnik 的叙述超出“重新幸福”本身？",
+      "optionsZh": [
+        "她认为好奇心与恢复无关。",
+        "她珍视多样经历，以及穿越悲伤与欢乐的能力。",
+        "她说每个人都必须用历史取代科学。",
+        "她说孤独和悲伤绝不能属于值得珍视的生活。"
+      ],
+      "analyses": [
+        "A 结尾正把 endless curiosity 视为拯救自己的来源。",
+        "B as well as、not just happiness 与 endless variety 展示经历和能力的扩展。",
+        "C history as well as science 是两者兼容，且属个人叙述，不是所有人的规定。",
+        "D make my way through sadness and solitude 承认并能经历它们，非排除。"
+      ],
+      "evidence": [
+        {
+          "quote": "I could make my way through sadness and solitude, not just happiness",
+          "sentenceIds": [
+            "c04-s03-p038-06015-s003"
+          ],
+          "sources": [
+            {
+              "pdfPage": 38,
+              "block": 3,
+              "bbox": [
+                76.99,
+                601.5,
+                535,
+                694.02
+              ]
+            }
+          ]
+        },
+        {
+          "quote": "the sheer endless variety of human experience.",
+          "sentenceIds": [
+            "c04-s03-p038-06015-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 38,
+              "block": 3,
+              "bbox": [
+                76.99,
+                601.5,
+                535,
+                694.02
+              ]
+            },
+            {
+              "pdfPage": 39,
+              "block": 0,
+              "bbox": [
+                76.99,
+                75,
+                535.01,
+                109.02
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "solitude",
+          "meaning": "独处；孤独状态",
+          "context": "与 sadness 并列，是她说自己能够穿越的经历，不意味着普遍治疗方法",
+          "example": "She used a quiet hour of solitude to reflect.",
+          "collocations": [
+            "in solitude",
+            "a period of solitude"
+          ]
+        }
+      ],
+      "translation": "Gopnik 在《大西洋月刊》文章结尾说：“我再一次成了格外幸运、幸福的女人，充满不理性的兴奋和日常喜悦。但我不只如此。我发现自己既能爱女性也能爱男性，既能爱历史也能爱科学；我能穿越悲伤与孤独，而不只是幸福……我在人类心灵无穷无尽的好奇，以及人类经验无穷无尽的多样性中，找到了自己的救赎。”",
+      "support": "explicit",
+      "editorialStatus": "PDF 第 38–41 页逐题核对；固定连续原句；保留个案、引述与原书历史措辞，不把叙事当作普遍因果或医疗建议",
+      "fingerprint": "6b4a23bbff08dd73b366ef8ce431aa10c02191cd9beb23a75b380744d8b30776"
+    },
+    {
+      "id": "qe-c04-0041",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-011",
+      "parentQuestionId": "q-c04-022",
+      "chapterId": "c04",
+      "sectionId": "c04-s03",
+      "paragraphId": "c04-s03-p038-06015",
+      "readingUnitId": "c04-s03-p038-06015-r001-004",
+      "sentenceIds": [
+        "c04-s03-p038-06015-s001",
+        "c04-s03-p038-06015-s002",
+        "c04-s03-p038-06015-s003",
+        "c04-s03-p038-06015-s004"
+      ],
+      "passage": "Gopnik ends her Atlantic article by saying: “Once again, I was an exceptionally fortunate and happy woman, full of irrational exuberance and everyday joy. But that’s not all I was. I’d discovered that I could love women as well as men, history as well as science, and that I could make my way through sadness and solitude, not just happiness…. I had found my salvation in the sheer endless curiosity of the human mind—and the sheer endless variety of human experience.”",
+      "prompt": "Whose first-person description of renewed happiness is quoted at the article's end?",
+      "promptZh": "文章结尾引述的重新幸福的第一人称描述属于谁？",
+      "options": [
+        "Alison Gopnik.",
+        "The book's narrator describing his own marriage.",
+        "Goldmund describing life in the monastery.",
+        "Author B in Either/Or."
+      ],
+      "optionsZh": [
+        "艾莉森·戈普尼克。",
+        "本书叙述者在描述自己的婚姻。",
+        "歌尔德蒙在描述修道院生活。",
+        "《Either/Or》中的 Author B。"
+      ],
+      "answer": 0,
+      "type": "观点归属",
+      "support": "explicit",
+      "analyses": [
+        "A Gopnik ends her Atlantic article by saying 明确给出说话人与出处。",
+        "B I 属于这段引语，不能移给本书作者。",
+        "C 前面的小说人物不属于这篇本人文章。",
+        "D Author B 是另一作品的论述角色。exceptionally fortunate and happy 是自我描述，不是调查统一评分。"
+      ],
+      "vocabulary": [
+        {
+          "word": "exuberance",
+          "meaning": "热情洋溢；欢欣；充沛活力",
+          "context": "引语以 irrational exuberance 描写她重新拥有的活力，不是经济或医学量化指标。",
+          "example": "The children's exuberance filled the room after the performance.",
+          "collocations": [
+            "irrational exuberance",
+            "everyday exuberance"
+          ]
+        }
+      ],
+      "translation": "Gopnik 在《大西洋月刊》文章结尾说：“我再一次成了格外幸运、幸福的女人，充满不理性的兴奋和日常喜悦。但我不只如此。我发现自己既能爱女性也能爱男性，既能爱历史也能爱科学；我能穿越悲伤与孤独，而不只是幸福……我在人类心灵无穷无尽的好奇，以及人类经验无穷无尽的多样性中，找到了自己的救赎。”",
+      "evidenceTargetIds": [
+        "c04-s03-p038-06015-s001"
+      ],
+      "evidence": [
+        {
+          "quote": "Gopnik ends her Atlantic article by saying: “Once again, I was an exceptionally fortunate and happy woman, full of irrational exuberance and everyday joy.",
+          "sentenceIds": [
+            "c04-s03-p038-06015-s001"
+          ],
+          "sources": [
+            {
+              "pdfPage": 38,
+              "block": 3,
+              "bbox": [
+                76.99,
+                601.5,
+                535,
+                694.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "742806d356e4614d515cace7922a26fafd2de1ae21a20257e758e93d549c7c10"
+    },
+    {
+      "id": "qe-c04-0042",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-011",
+      "parentQuestionId": "q-c04-022",
+      "chapterId": "c04",
+      "sectionId": "c04-s03",
+      "paragraphId": "c04-s03-p038-06015",
+      "readingUnitId": "c04-s03-p038-06015-r001-004",
+      "sentenceIds": [
+        "c04-s03-p038-06015-s001",
+        "c04-s03-p038-06015-s002",
+        "c04-s03-p038-06015-s003",
+        "c04-s03-p038-06015-s004"
+      ],
+      "passage": "Gopnik ends her Atlantic article by saying: “Once again, I was an exceptionally fortunate and happy woman, full of irrational exuberance and everyday joy. But that’s not all I was. I’d discovered that I could love women as well as men, history as well as science, and that I could make my way through sadness and solitude, not just happiness…. I had found my salvation in the sheer endless curiosity of the human mind—and the sheer endless variety of human experience.”",
+      "prompt": "What does 'But that’s not all I was' add to her description of being happy?",
+      "promptZh": "But that's not all I was 对她说自己幸福补充什么？",
+      "options": [
+        "It denies that she had experienced any happiness.",
+        "It says she now has only one fixed identity.",
+        "It proves that sadness can no longer occur in her life.",
+        "It broadens her self-description beyond happiness to other experiences and capacities."
+      ],
+      "optionsZh": [
+        "否认她曾经历任何幸福。",
+        "说她现在只有一种固定身份。",
+        "证明她此后再不可能悲伤。",
+        "把自我描述扩展到幸福之外的经历与能力。"
+      ],
+      "answer": 3,
+      "type": "逻辑关系",
+      "support": "explicit",
+      "analyses": [
+        "A not all 不等于前面的幸福完全不存在。",
+        "B 后面列出多种爱、兴趣和穿越孤独悲伤的能力，不是单一身份。",
+        "C 能穿越悲伤不表示悲伤不再可能。",
+        "D But...not all 从重新幸福过渡到更广的人生体验，不将幸福设为唯一自我维度。"
+      ],
+      "vocabulary": [
+        {
+          "word": "solitude",
+          "meaning": "独处；孤独状态",
+          "context": "后文 sadness and solitude 是她也能走过的体验，不是绝对与幸福互斥的人生终点。",
+          "example": "The quiet cottage offered a period of solitude for writing.",
+          "collocations": [
+            "sadness and solitude",
+            "a period of solitude"
+          ]
+        }
+      ],
+      "translation": "Gopnik 在《大西洋月刊》文章结尾说：“我再一次成了格外幸运、幸福的女人，充满不理性的兴奋和日常喜悦。但我不只如此。我发现自己既能爱女性也能爱男性，既能爱历史也能爱科学；我能穿越悲伤与孤独，而不只是幸福……我在人类心灵无穷无尽的好奇，以及人类经验无穷无尽的多样性中，找到了自己的救赎。”",
+      "evidenceTargetIds": [
+        "c04-s03-p038-06015-s002"
+      ],
+      "evidence": [
+        {
+          "quote": "Gopnik ends her Atlantic article by saying: “Once again, I was an exceptionally fortunate and happy woman, full of irrational exuberance and everyday joy. But that’s not all I was. I’d discovered that I could love women as well as men, history as well as science, and that I could make my way through sadness and solitude, not just happiness…. I had found my salvation in the sheer endless curiosity of the human mind—and the sheer endless variety of human experience.”",
+          "sentenceIds": [
+            "c04-s03-p038-06015-s001",
+            "c04-s03-p038-06015-s002",
+            "c04-s03-p038-06015-s003",
+            "c04-s03-p038-06015-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 38,
+              "block": 3,
+              "bbox": [
+                76.99,
+                601.5,
+                535,
+                694.02
+              ]
+            },
+            {
+              "pdfPage": 39,
+              "block": 0,
+              "bbox": [
+                76.99,
+                75,
+                535.01,
+                109.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "e8b8a0f8673e5dd37adda99ffface9763f787db7fb722767f39bb62329168044"
+    },
+    {
+      "id": "q-c04-023",
+      "version": 1,
+      "readingUnitId": "c04-s03-p039-01140-r001-004",
+      "chapterId": "c04",
+      "sectionId": "c04-s03",
+      "paragraphId": "c04-s03-p039-01140",
+      "sentenceIds": [
+        "c04-s03-p039-01140-s001",
+        "c04-s03-p039-01140-s002",
+        "c04-s03-p039-01140-s003",
+        "c04-s03-p039-01140-s004"
+      ],
+      "passage": "Gopnik faced a loss of happiness and meaning in her time of crisis. But all was not lost. Dramatic life changes brought ups and downs that continually shifted her perspective. The result was that, at midlife, she discovered new passion, fresh intellectual horizons, and wisdom.",
+      "prompt": "How does the passage develop after acknowledging Gopnik’s crisis?",
+      "options": [
+        "It says that her outlook remained entirely unchanged.",
+        "It claims that every crisis necessarily produces wisdom.",
+        "It describes changing perspectives that opened new passions and intellectual horizons.",
+        "It concludes that the losses prevented all further learning."
+      ],
+      "answer": 2,
+      "type": "逻辑关系",
+      "promptZh": "承认 Gopnik 的危机之后，片段怎样展开？",
+      "optionsZh": [
+        "说她的看法完全不变。",
+        "声称每场危机必然产生智慧。",
+        "描述视角变化，并带出新的热情和知识视野。",
+        "认定那些损失阻止了此后所有学习。"
+      ],
+      "analyses": [
+        "A continually shifted her perspective 明确有变化。",
+        "B 讲的是她的经历，没有 every crisis 的普遍保证。",
+        "C 从 loss 经 But 转折，走向新热情、知识视野和智慧。",
+        "D discovered new... 与停止所有学习相反。"
+      ],
+      "evidence": [
+        {
+          "quote": "Dramatic life changes brought ups and downs that continually shifted her perspective. The result was that, at midlife, she discovered new passion, fresh intellectual horizons, and wisdom.",
+          "sentenceIds": [
+            "c04-s03-p039-01140-s003",
+            "c04-s03-p039-01140-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 39,
+              "block": 1,
+              "bbox": [
+                76.99,
+                114,
+                535.01,
+                206.52
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "horizons",
+          "meaning": "视野；眼界",
+          "context": "intellectual horizons 指能接触与探索的知识范围",
+          "example": "Learning a language can broaden intellectual horizons.",
+          "collocations": [
+            "broaden one’s horizons",
+            "intellectual horizons"
+          ]
+        }
+      ],
+      "translation": "危机期间，Gopnik 经历了幸福和意义的失落。但并非一切都失去了。剧烈的人生变化带来起伏，不断改变她的视角。结果是，到了中年，她发现了新的热情、新的知识视野和智慧。",
+      "support": "explicit",
+      "editorialStatus": "PDF 第 38–41 页逐题核对；固定连续原句；保留个案、引述与原书历史措辞，不把叙事当作普遍因果或医疗建议",
+      "fingerprint": "ecb52baa25da39c0070a2afe56b89f0fda9cff7332b7a4ad5d7ccd6ad65959dc"
+    },
+    {
+      "id": "qe-c04-0043",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-011",
+      "parentQuestionId": "q-c04-023",
+      "chapterId": "c04",
+      "sectionId": "c04-s03",
+      "paragraphId": "c04-s03-p039-01140",
+      "readingUnitId": "c04-s03-p039-01140-r001-004",
+      "sentenceIds": [
+        "c04-s03-p039-01140-s001",
+        "c04-s03-p039-01140-s002",
+        "c04-s03-p039-01140-s003",
+        "c04-s03-p039-01140-s004"
+      ],
+      "passage": "Gopnik faced a loss of happiness and meaning in her time of crisis. But all was not lost. Dramatic life changes brought ups and downs that continually shifted her perspective. The result was that, at midlife, she discovered new passion, fresh intellectual horizons, and wisdom.",
+      "prompt": "What does the summary say Gopnik lost during her crisis?",
+      "promptZh": "总结说戈普尼克在危机时期失去了什么？",
+      "options": [
+        "Every academic qualification she had ever earned.",
+        "Her complete ability to ask any questions.",
+        "Happiness and meaning.",
+        "All possibility of discovering a new passion."
+      ],
+      "optionsZh": [
+        "此前获得的每项学术资格。",
+        "提出任何问题的全部能力。",
+        "幸福和意义。",
+        "发现新热情的一切可能。"
+      ],
+      "answer": 2,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A loss of happiness and meaning 不是撤销所有资格。",
+        "B 后面的知识探索恰说明并未失去提问能力。",
+        "C 本句直接说这两个维度的丧失，并限定 in her time of crisis。",
+        "D 后文发现新热情，不支持排除一切可能。不能把危机时期延长为永久状态。"
+      ],
+      "vocabulary": [
+        {
+          "word": "in her time of crisis",
+          "meaning": "在她遭遇危机的时期",
+          "context": "是时间范围，不表示她整个人生永远没有幸福意义。",
+          "example": "In her time of crisis, the character began reconsidering familiar assumptions.",
+          "collocations": [
+            "a time of crisis",
+            "during a crisis"
+          ]
+        }
+      ],
+      "translation": "危机期间，Gopnik 经历了幸福和意义的失落。但并非一切都失去了。剧烈的人生变化带来起伏，不断改变她的视角。结果是，到了中年，她发现了新的热情、新的知识视野和智慧。",
+      "evidenceTargetIds": [
+        "c04-s03-p039-01140-s001"
+      ],
+      "evidence": [
+        {
+          "quote": "Gopnik faced a loss of happiness and meaning in her time of crisis.",
+          "sentenceIds": [
+            "c04-s03-p039-01140-s001"
+          ],
+          "sources": [
+            {
+              "pdfPage": 39,
+              "block": 1,
+              "bbox": [
+                76.99,
+                114,
+                535.01,
+                206.52
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "60408ede333d36dba9e892afda51b1e4734946f32da0805729db90215d284213"
+    },
+    {
+      "id": "qe-c04-0044",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-011",
+      "parentQuestionId": "q-c04-023",
+      "chapterId": "c04",
+      "sectionId": "c04-s03",
+      "paragraphId": "c04-s03-p039-01140",
+      "readingUnitId": "c04-s03-p039-01140-r001-004",
+      "sentenceIds": [
+        "c04-s03-p039-01140-s001",
+        "c04-s03-p039-01140-s002",
+        "c04-s03-p039-01140-s003",
+        "c04-s03-p039-01140-s004"
+      ],
+      "passage": "Gopnik faced a loss of happiness and meaning in her time of crisis. But all was not lost. Dramatic life changes brought ups and downs that continually shifted her perspective. The result was that, at midlife, she discovered new passion, fresh intellectual horizons, and wisdom.",
+      "prompt": "What does 'But all was not lost' imply in the surrounding account?",
+      "promptZh": "在周围叙述中 But all was not lost 暗示什么？",
+      "options": [
+        "Nothing painful or difficult had happened at all.",
+        "The crisis did not eliminate every possibility of renewal.",
+        "Every past source of identity was restored in exactly the same form.",
+        "The author is denying the previous sentence about her crisis."
+      ],
+      "optionsZh": [
+        "从未发生任何痛苦困难。",
+        "危机没有消除所有重新发展的可能。",
+        "过去每个身份来源都原样恢复。",
+        "作者否认前一句危机描述。"
+      ],
+      "answer": 1,
+      "type": "有限推断",
+      "support": "limited-inference",
+      "analyses": [
+        "A all was not lost 不是说没有任何损失。",
+        "B 后面视角变化和新热情说明仍有新的可能，支持有限推断。",
+        "C 新的发现不等于旧身份逐项原样复原。",
+        "D But 承认前面损失再补充转机，并不把危机当成从未发生。"
+      ],
+      "vocabulary": [
+        {
+          "word": "all was not lost",
+          "meaning": "并非一切都失去了；仍有希望",
+          "context": "否定范围是并非全部，不是完全没有损失。",
+          "example": "The first plan failed, but all was not lost because another option remained.",
+          "collocations": [
+            "all is not lost",
+            "not all was lost"
+          ]
+        }
+      ],
+      "translation": "危机期间，Gopnik 经历了幸福和意义的失落。但并非一切都失去了。剧烈的人生变化带来起伏，不断改变她的视角。结果是，到了中年，她发现了新的热情、新的知识视野和智慧。",
+      "evidenceTargetIds": [
+        "c04-s03-p039-01140-s002"
+      ],
+      "evidence": [
+        {
+          "quote": "Gopnik faced a loss of happiness and meaning in her time of crisis. But all was not lost. Dramatic life changes brought ups and downs that continually shifted her perspective. The result was that, at midlife, she discovered new passion, fresh intellectual horizons, and wisdom.",
+          "sentenceIds": [
+            "c04-s03-p039-01140-s001",
+            "c04-s03-p039-01140-s002",
+            "c04-s03-p039-01140-s003",
+            "c04-s03-p039-01140-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 39,
+              "block": 1,
+              "bbox": [
+                76.99,
+                114,
+                535.01,
+                206.52
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "3a24bfd58b7fd3b7d12841d6def48125e4bbf90140a3603e13d62fffb9fc5d27"
+    },
+    {
+      "id": "q-c04-025",
+      "version": 1,
+      "readingUnitId": "c04-s04-p039-02625-r001-004",
+      "chapterId": "c04",
+      "sectionId": "c04-s04",
+      "paragraphId": "c04-s04-p039-02625",
+      "sentenceIds": [
+        "c04-s04-p039-02625-s001",
+        "c04-s04-p039-02625-s002",
+        "c04-s04-p039-02625-s003",
+        "c04-s04-p039-02625-s004"
+      ],
+      "passage": "Steve Jobs is another example of someone who chose a life of exploration. Born to Abdulfattah Jandali and Joanne Schieble, he was adopted by Paul and Clara Jobs. He was smart but hated school. He liked to spend time with his father in their garage, fixing and making stuff.",
+      "prompt": "Which pairing correctly distinguishes Jobs’s birth and adoptive parents?",
+      "options": [
+        "Paul and Clara were his birth parents; Jandali and Schieble adopted him.",
+        "His birth parents are not named, but his father’s employer is.",
+        "Jandali and Clara were his birth parents; Paul and Schieble adopted him.",
+        "Jandali and Schieble were his birth parents; Paul and Clara adopted him."
+      ],
+      "answer": 3,
+      "type": "细节",
+      "promptZh": "哪一项正确区分了 Jobs 的亲生父母与养父母？",
+      "optionsZh": [
+        "Paul 和 Clara 是亲生父母；Jandali 和 Schieble 收养他。",
+        "没有给亲生父母姓名，但给了父亲雇主。",
+        "Jandali 和 Clara 是亲生父母；Paul 和 Schieble 收养他。",
+        "Jandali 和 Schieble 是亲生父母；Paul 和 Clara 收养他。"
+      ],
+      "analyses": [
+        "A 颠倒了 Born to 与 adopted by 的两组人。",
+        "B 两组父母均被具名，没有父亲雇主信息。",
+        "C 把两组中的姓名交叉错配。",
+        "D 出生与收养的动词短语分别限定这两组人。"
+      ],
+      "evidence": [
+        {
+          "quote": "Born to Abdulfattah Jandali and Joanne Schieble, he was adopted by Paul and Clara Jobs.",
+          "sentenceIds": [
+            "c04-s04-p039-02625-s002"
+          ],
+          "sources": [
+            {
+              "pdfPage": 39,
+              "block": 3,
+              "bbox": [
+                76.99,
+                262.5,
+                535,
+                355.02
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "adopted",
+          "meaning": "被收养",
+          "context": "这里指家庭中的收养关系，不是采用某种做法",
+          "example": "They adopted a child several years later.",
+          "collocations": [
+            "be adopted by",
+            "adopt a child"
+          ]
+        }
+      ],
+      "translation": "Steve Jobs 是另一个选择探索生活的例子。他的亲生父母是 Abdulfattah Jandali 和 Joanne Schieble，后来被 Paul 与 Clara Jobs 收养。他聪明，却讨厌上学。他喜欢和父亲一起待在车库里，修修做做各种东西。",
+      "support": "explicit",
+      "editorialStatus": "PDF 第 38–41 页逐题核对；固定连续原句；保留个案、引述与原书历史措辞，不把叙事当作普遍因果或医疗建议",
+      "fingerprint": "d1a9a0e0fc8d22bc78e5e5ab7a80728959f244daf8f02a656f3e1ba96036e846"
+    },
+    {
+      "id": "qe-c04-0045",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-011",
+      "parentQuestionId": "q-c04-025",
+      "chapterId": "c04",
+      "sectionId": "c04-s04",
+      "paragraphId": "c04-s04-p039-02625",
+      "readingUnitId": "c04-s04-p039-02625-r001-004",
+      "sentenceIds": [
+        "c04-s04-p039-02625-s001",
+        "c04-s04-p039-02625-s002",
+        "c04-s04-p039-02625-s003",
+        "c04-s04-p039-02625-s004"
+      ],
+      "passage": "Steve Jobs is another example of someone who chose a life of exploration. Born to Abdulfattah Jandali and Joanne Schieble, he was adopted by Paul and Clara Jobs. He was smart but hated school. He liked to spend time with his father in their garage, fixing and making stuff.",
+      "prompt": "How is Steve Jobs introduced after the account of Gopnik?",
+      "promptZh": "在戈普尼克叙述之后，怎样引入史蒂夫·乔布斯？",
+      "options": [
+        "As a fictional character in the same novel as Goldmund.",
+        "As a researcher assigned to repeat the pen experiment.",
+        "As a person who rejected every form of exploration.",
+        "As another example of someone choosing a life of exploration."
+      ],
+      "optionsZh": [
+        "作为与歌尔德蒙同一小说中的虚构人物。",
+        "作为被分派重复持笔实验的研究者。",
+        "作为拒绝一切探索的人。",
+        "作为选择探索生活的另一个例子。"
+      ],
+      "answer": 3,
+      "type": "作者意图",
+      "support": "explicit",
+      "analyses": [
+        "A 这句是另一个人生例子，没有说属于同一小说。",
+        "B 不是前文心理实验的研究者角色。",
+        "C chose a life of exploration 与拒绝所有探索相反。",
+        "D another example 连接此前故事，并明确本例的探索主题。不能把共同主题当成两个人所有经历相同。"
+      ],
+      "vocabulary": [
+        {
+          "word": "another example",
+          "meaning": "另一个例子",
+          "context": "another 将不同个人叙述连接在探索主题下，不是同一人物的别名。",
+          "example": "The author adds another example to illustrate the contrast.",
+          "collocations": [
+            "another example of",
+            "introduce another example"
+          ]
+        }
+      ],
+      "translation": "Steve Jobs 是另一个选择探索生活的例子。他的亲生父母是 Abdulfattah Jandali 和 Joanne Schieble，后来被 Paul 与 Clara Jobs 收养。他聪明，却讨厌上学。他喜欢和父亲一起待在车库里，修修做做各种东西。",
+      "evidenceTargetIds": [
+        "c04-s04-p039-02625-s001"
+      ],
+      "evidence": [
+        {
+          "quote": "Steve Jobs is another example of someone who chose a life of exploration.",
+          "sentenceIds": [
+            "c04-s04-p039-02625-s001"
+          ],
+          "sources": [
+            {
+              "pdfPage": 39,
+              "block": 3,
+              "bbox": [
+                76.99,
+                262.5,
+                535,
+                355.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "d6796cda5c2cc2b7c4cd97e5bae7a9bc83a071d5e8a5cf1b6a6965b98fc33fa2"
+    },
+    {
+      "id": "qe-c04-0046",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-011",
+      "parentQuestionId": "q-c04-025",
+      "chapterId": "c04",
+      "sectionId": "c04-s04",
+      "paragraphId": "c04-s04-p039-02625",
+      "readingUnitId": "c04-s04-p039-02625-r001-004",
+      "sentenceIds": [
+        "c04-s04-p039-02625-s001",
+        "c04-s04-p039-02625-s002",
+        "c04-s04-p039-02625-s003",
+        "c04-s04-p039-02625-s004"
+      ],
+      "passage": "Steve Jobs is another example of someone who chose a life of exploration. Born to Abdulfattah Jandali and Joanne Schieble, he was adopted by Paul and Clara Jobs. He was smart but hated school. He liked to spend time with his father in their garage, fixing and making stuff.",
+      "prompt": "What contrast is made in 'He was smart but hated school'?",
+      "promptZh": "He was smart but hated school 构成什么对照？",
+      "options": [
+        "Being smart coexisted with disliking school.",
+        "Disliking school is said to prove he was unintelligent.",
+        "Being smart guaranteed that he enjoyed every lesson.",
+        "He is described as neither smart nor dissatisfied."
+      ],
+      "optionsZh": [
+        "聪明与不喜欢学校同时存在。",
+        "不喜欢学校被说成证明他不聪明。",
+        "聪明保证喜欢每节课。",
+        "他被说成既不聪明也不不满。"
+      ],
+      "answer": 0,
+      "type": "逻辑关系",
+      "support": "explicit",
+      "analyses": [
+        "A but 把 smart 与 hated school 的反差并置，并未取消任一信息。",
+        "B 不喜欢学校不是低智力的证明，本句还明确 smart。",
+        "C hated school 与保证喜欢每课相反。",
+        "D 同时否定两项与原句不符。不要补造 IQ 分数或学校诊断。"
+      ],
+      "vocabulary": [
+        {
+          "word": "but",
+          "meaning": "但是；却（连接对照）",
+          "context": "在这里保留聪明与讨厌学校的共存，不表示前一分句是假的。",
+          "example": "The task was familiar but still required careful attention.",
+          "collocations": [
+            "smart but dissatisfied",
+            "but still"
+          ]
+        }
+      ],
+      "translation": "Steve Jobs 是另一个选择探索生活的例子。他的亲生父母是 Abdulfattah Jandali 和 Joanne Schieble，后来被 Paul 与 Clara Jobs 收养。他聪明，却讨厌上学。他喜欢和父亲一起待在车库里，修修做做各种东西。",
+      "evidenceTargetIds": [
+        "c04-s04-p039-02625-s003"
+      ],
+      "evidence": [
+        {
+          "quote": "He was smart but hated school.",
+          "sentenceIds": [
+            "c04-s04-p039-02625-s003"
+          ],
+          "sources": [
+            {
+              "pdfPage": 39,
+              "block": 3,
+              "bbox": [
+                76.99,
+                262.5,
+                535,
+                355.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "4676d9d9f639e1a1df0686aadc21b8ad8eac6986ffdccf159e817ddb32f6805c"
+    },
+    {
+      "id": "qe-c04-0047",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-011",
+      "parentQuestionId": "q-c04-025",
+      "chapterId": "c04",
+      "sectionId": "c04-s04",
+      "paragraphId": "c04-s04-p039-02625",
+      "readingUnitId": "c04-s04-p039-02625-r001-004",
+      "sentenceIds": [
+        "c04-s04-p039-02625-s001",
+        "c04-s04-p039-02625-s002",
+        "c04-s04-p039-02625-s003",
+        "c04-s04-p039-02625-s004"
+      ],
+      "passage": "Steve Jobs is another example of someone who chose a life of exploration. Born to Abdulfattah Jandali and Joanne Schieble, he was adopted by Paul and Clara Jobs. He was smart but hated school. He liked to spend time with his father in their garage, fixing and making stuff.",
+      "prompt": "What activity did Jobs enjoy doing with his father in their garage?",
+      "promptZh": "乔布斯喜欢在车库里和父亲一起做什么？",
+      "options": [
+        "Working in an apple orchard.",
+        "Fixing and making things.",
+        "Studying lessons with his schoolteacher.",
+        "Preparing light shows for high-school parties."
+      ],
+      "optionsZh": [
+        "在苹果园工作。",
+        "修理和制作东西。",
+        "跟学校老师学习功课。",
+        "为高中派对准备灯光秀。"
+      ],
+      "answer": 1,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A 苹果园是后面另一阶段，不是车库与父亲的活动。",
+        "B fixing and making stuff 明示活动，并和 with his father、in their garage 相连。",
+        "C 本句同伴是父亲，没有教师授课情节。",
+        "D 灯光派对在后面的高中叙述，不可替换本句的具体场景。不能凭 stuff 补造某种特定发明。"
+      ],
+      "vocabulary": [
+        {
+          "word": "fixing",
+          "meaning": "修理；修好（此处不是安排或固定）",
+          "context": "与 making stuff 并列说明动手修造，未说一定制作了哪种设备。",
+          "example": "He spent the afternoon fixing an old chair.",
+          "collocations": [
+            "fixing and making things",
+            "fix a broken object"
+          ]
+        }
+      ],
+      "translation": "Steve Jobs 是另一个选择探索生活的例子。他的亲生父母是 Abdulfattah Jandali 和 Joanne Schieble，后来被 Paul 与 Clara Jobs 收养。他聪明，却讨厌上学。他喜欢和父亲一起待在车库里，修修做做各种东西。",
+      "evidenceTargetIds": [
+        "c04-s04-p039-02625-s004"
+      ],
+      "evidence": [
+        {
+          "quote": "He liked to spend time with his father in their garage, fixing and making stuff.",
+          "sentenceIds": [
+            "c04-s04-p039-02625-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 39,
+              "block": 3,
+              "bbox": [
+                76.99,
+                262.5,
+                535,
+                355.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "72d3b4540f3643a571be03db1daa4d87ddf3ab1c53738a4725b4dc4ff95ad59d"
+    },
+    {
+      "id": "q-c04-027",
+      "version": 1,
+      "readingUnitId": "c04-s04-p039-03600-r001-004",
+      "chapterId": "c04",
+      "sectionId": "c04-s04",
+      "paragraphId": "c04-s04-p039-03600",
+      "sentenceIds": [
+        "c04-s04-p039-03600-s001",
+        "c04-s04-p039-03600-s002",
+        "c04-s04-p039-03600-s003",
+        "c04-s04-p039-03600-s004"
+      ],
+      "passage": "After dropping out of college, Jobs worked in an apple orchard and became deeply interested in Eastern spirituality and LSD. When he was nineteen, he went to India, spending seven months in search of a guru and spiritual enlightenment. He was unable to find enlightenment in India. Instead, he got dysentery and lost forty pounds in a week.",
+      "prompt": "What contrast is introduced by “Instead” in the account of the India trip?",
+      "options": [
+        "Jobs sought enlightenment but experienced serious illness instead.",
+        "Jobs planned to work in an orchard but enrolled in college instead.",
+        "Jobs intended to stay a week but remained for forty years.",
+        "Jobs abandoned an interest in spirituality before the trip began."
+      ],
+      "answer": 0,
+      "type": "逻辑关系",
+      "promptZh": "印度之行叙述中的 Instead 引入了什么对比？",
+      "optionsZh": [
+        "Jobs 寻求开悟，结果却经历严重疾病。",
+        "Jobs 打算在果园工作，却上了大学。",
+        "Jobs 原计划待一周，却留了四十年。",
+        "旅行开始前，Jobs 已放弃精神探索兴趣。"
+      ],
+      "analyses": [
+        "A in search of...enlightenment 与 unable to find、got dysentery 构成期望与实际的反差。",
+        "B dropping out of college 后在果园工作，不是为去印度而重新入学。",
+        "C seven months 是旅行时长，forty pounds 是体重变化，不能错配为四十年。",
+        "D became deeply interested 与此相反。"
+      ],
+      "evidence": [
+        {
+          "quote": "He was unable to find enlightenment in India. Instead, he got dysentery and lost forty pounds in a week.",
+          "sentenceIds": [
+            "c04-s04-p039-03600-s003",
+            "c04-s04-p039-03600-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 39,
+              "block": 4,
+              "bbox": [
+                76.99,
+                360,
+                535.01,
+                589.02
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "enlightenment",
+          "meaning": "开悟；精神上的觉悟",
+          "context": "此处指旅行所追求的精神体验，不是下一章的历史启蒙运动名称",
+          "example": "The memoir describes a search for spiritual enlightenment.",
+          "collocations": [
+            "spiritual enlightenment",
+            "seek enlightenment"
+          ]
+        }
+      ],
+      "translation": "大学辍学后，Jobs 在苹果园工作，对东方灵性和 LSD 产生浓厚兴趣。十九岁时，他前往印度，用七个月寻找导师与精神开悟。他在印度没能找到开悟，反而患了痢疾，一周内瘦了四十磅。",
+      "support": "explicit",
+      "editorialStatus": "PDF 第 38–41 页逐题核对；固定连续原句；保留个案、引述与原书历史措辞，不把叙事当作普遍因果或医疗建议",
+      "fingerprint": "833eac9f34aa968a1d76e2f91c0c7bc0d6bc9d01656846751cbbc3727af8f887"
+    },
+    {
+      "id": "qe-c04-0048",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-012",
+      "parentQuestionId": "q-c04-027",
+      "chapterId": "c04",
+      "sectionId": "c04-s04",
+      "paragraphId": "c04-s04-p039-03600",
+      "readingUnitId": "c04-s04-p039-03600-r001-004",
+      "sentenceIds": [
+        "c04-s04-p039-03600-s001",
+        "c04-s04-p039-03600-s002",
+        "c04-s04-p039-03600-s003",
+        "c04-s04-p039-03600-s004"
+      ],
+      "passage": "After dropping out of college, Jobs worked in an apple orchard and became deeply interested in Eastern spirituality and LSD. When he was nineteen, he went to India, spending seven months in search of a guru and spiritual enlightenment. He was unable to find enlightenment in India. Instead, he got dysentery and lost forty pounds in a week.",
+      "prompt": "Where did Jobs work after dropping out of college in the account?",
+      "promptZh": "按这段叙述，乔布斯离开大学后在哪里工作？",
+      "options": [
+        "In his father's garage.",
+        "In an apple orchard.",
+        "In a historical archive at Caltech.",
+        "In Lucasfilm's computer graphics division."
+      ],
+      "optionsZh": [
+        "在父亲车库。",
+        "在苹果园。",
+        "在加州理工的历史档案馆。",
+        "在卢卡斯影业的计算机图形部门。"
+      ],
+      "answer": 1,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A 车库是此前家庭活动场景，不是本句退学后工作地点。",
+        "B After dropping out of college, Jobs worked in an apple orchard 明示时间顺序和地点。",
+        "C 把前面 Gopnik 的学术探寻地点移给了 Jobs，本句没有这个工作。",
+        "D 购买图形部门属于后来事业阶段，不能替换本句退学后果园工作。"
+      ],
+      "vocabulary": [
+        {
+          "word": "orchard",
+          "meaning": "果园",
+          "context": "an apple orchard 是种植苹果的果园，不是 Apple 公司部门。",
+          "example": "The family walked through the orchard after lunch.",
+          "collocations": [
+            "an apple orchard",
+            "work in an orchard"
+          ]
+        }
+      ],
+      "translation": "大学辍学后，Jobs 在苹果园工作，对东方灵性和 LSD 产生浓厚兴趣。十九岁时，他前往印度，用七个月寻找导师与精神开悟。他在印度没能找到开悟，反而患了痢疾，一周内瘦了四十磅。",
+      "evidenceTargetIds": [
+        "c04-s04-p039-03600-s001"
+      ],
+      "evidence": [
+        {
+          "quote": "After dropping out of college, Jobs worked in an apple orchard and became deeply interested in Eastern spirituality and LSD.",
+          "sentenceIds": [
+            "c04-s04-p039-03600-s001"
+          ],
+          "sources": [
+            {
+              "pdfPage": 39,
+              "block": 4,
+              "bbox": [
+                76.99,
+                360,
+                535.01,
+                589.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "d7ea90516964c0dfd155e3a01c762b466d07bb98426b97a3ba9d75606f4433e3"
+    },
+    {
+      "id": "qe-c04-0049",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-012",
+      "parentQuestionId": "q-c04-027",
+      "chapterId": "c04",
+      "sectionId": "c04-s04",
+      "paragraphId": "c04-s04-p039-03600",
+      "readingUnitId": "c04-s04-p039-03600-r001-004",
+      "sentenceIds": [
+        "c04-s04-p039-03600-s001",
+        "c04-s04-p039-03600-s002",
+        "c04-s04-p039-03600-s003",
+        "c04-s04-p039-03600-s004"
+      ],
+      "passage": "After dropping out of college, Jobs worked in an apple orchard and became deeply interested in Eastern spirituality and LSD. When he was nineteen, he went to India, spending seven months in search of a guru and spiritual enlightenment. He was unable to find enlightenment in India. Instead, he got dysentery and lost forty pounds in a week.",
+      "prompt": "Which age and duration are given for Jobs's search in India?",
+      "promptZh": "关于乔布斯在印度的寻找，原文给出的年龄和时长是什么？",
+      "options": [
+        "Nineteen years old, staying for seven years.",
+        "Seven years old, staying for nineteen months.",
+        "Nineteen years old, spending seven months there.",
+        "Thirty years old, spending seven months there."
+      ],
+      "optionsZh": [
+        "十九岁，停留七年。",
+        "七岁，停留十九个月。",
+        "十九岁，在那里度过七个月。",
+        "三十岁，在那里度过七个月。"
+      ],
+      "answer": 2,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A seven months 不是 seven years。",
+        "B 把年龄与时间数值交换。",
+        "C When he was nineteen 与 spending seven months 分别限定年龄和时长。",
+        "D 三十岁属于后面事业阶段，不能套用此行年龄。spending 是补充行程信息，不表示寻找目标已实现。"
+      ],
+      "vocabulary": [
+        {
+          "word": "in search of",
+          "meaning": "寻找；为了寻求",
+          "context": "说明旅行的目标是寻找导师与精神觉悟，不保证实际获得目标。",
+          "example": "The researcher visited several libraries in search of the original letter.",
+          "collocations": [
+            "in search of a guide",
+            "go in search of something"
+          ]
+        }
+      ],
+      "translation": "大学辍学后，Jobs 在苹果园工作，对东方灵性和 LSD 产生浓厚兴趣。十九岁时，他前往印度，用七个月寻找导师与精神开悟。他在印度没能找到开悟，反而患了痢疾，一周内瘦了四十磅。",
+      "evidenceTargetIds": [
+        "c04-s04-p039-03600-s002"
+      ],
+      "evidence": [
+        {
+          "quote": "When he was nineteen, he went to India, spending seven months in search of a guru and spiritual enlightenment.",
+          "sentenceIds": [
+            "c04-s04-p039-03600-s002"
+          ],
+          "sources": [
+            {
+              "pdfPage": 39,
+              "block": 4,
+              "bbox": [
+                76.99,
+                360,
+                535.01,
+                589.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "5a6819f4e29818320e39513fbda84a6cd930c1231bf3b8948e69a2294c73dd82"
+    },
+    {
+      "id": "qe-c04-0050",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-012",
+      "parentQuestionId": "q-c04-028",
+      "chapterId": "c04",
+      "sectionId": "c04-s04",
+      "paragraphId": "c04-s04-p039-03600",
+      "readingUnitId": "c04-s04-p039-03600-r005-008",
+      "sentenceIds": [
+        "c04-s04-p039-03600-s005",
+        "c04-s04-p039-03600-s006",
+        "c04-s04-p039-03600-s007",
+        "c04-s04-p039-03600-s008"
+      ],
+      "passage": "But, he did gain a new perspective during his trip. Decades later he reflected, “Coming back to America was, for me, much more of a cultural shock than going to India. The people in the Indian countryside don’t use their intellect like we do, they use their intuition instead, and their intuition is far more developed than in the rest of the world…. In the villages of India…they learned something else, which is in some ways just as valuable but in other ways is not.",
+      "prompt": "What does 'he did gain a new perspective' explicitly establish?",
+      "promptZh": "he did gain a new perspective 明确说明什么？",
+      "options": [
+        "The trip did yield a new way of seeing things.",
+        "He achieved every original goal without difficulty.",
+        "The trip produced no change in his outlook.",
+        "He proved that all travellers share the same insight."
+      ],
+      "optionsZh": [
+        "旅程确实带来新的看法。",
+        "毫无困难地完成全部原目标。",
+        "旅程没有改变其看法。",
+        "证明所有旅行者获得相同洞见。"
+      ],
+      "answer": 0,
+      "type": "逻辑关系",
+      "support": "explicit",
+      "analyses": [
+        "A did gain 是强调确有所得，perspective 指新的观察理解方式。",
+        "B 获得一种收获不等于所有目标都完成。",
+        "C 与 gain a new perspective 相反。",
+        "D 单人反思不能扩成所有旅行者的统一结果。But 表示转折，不抹去先前遭遇的困难。"
+      ],
+      "vocabulary": [
+        {
+          "word": "perspective",
+          "meaning": "视角；看法",
+          "context": "指理解生活的方式，而非必须是相机的拍摄角度。",
+          "example": "Reading the other account gave her a different perspective.",
+          "collocations": [
+            "gain a new perspective",
+            "shift one's perspective"
+          ]
+        }
+      ],
+      "translation": "不过，他确实在旅途中获得新视角。几十年后，他回忆：“对我来说，返回美国比前往印度更让我感到文化冲击。印度乡村的人不像我们这样使用智力，他们更多使用直觉，而且他们的直觉比世界其他地方发展得更充分……在印度的村庄里……他们学到了别的东西，在某些方面同样有价值，在另一些方面却未必。”",
+      "evidenceTargetIds": [
+        "c04-s04-p039-03600-s005"
+      ],
+      "evidence": [
+        {
+          "quote": "But, he did gain a new perspective during his trip.",
+          "sentenceIds": [
+            "c04-s04-p039-03600-s005"
+          ],
+          "sources": [
+            {
+              "pdfPage": 39,
+              "block": 4,
+              "bbox": [
+                76.99,
+                360,
+                535.01,
+                589.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "3564339f442beaac2326df25132d0739e7604c4a0d72b0a37b25afc2762028cc"
+    },
+    {
+      "id": "qe-c04-0051",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-012",
+      "parentQuestionId": "q-c04-028",
+      "chapterId": "c04",
+      "sectionId": "c04-s04",
+      "paragraphId": "c04-s04-p039-03600",
+      "readingUnitId": "c04-s04-p039-03600-r005-008",
+      "sentenceIds": [
+        "c04-s04-p039-03600-s005",
+        "c04-s04-p039-03600-s006",
+        "c04-s04-p039-03600-s007",
+        "c04-s04-p039-03600-s008"
+      ],
+      "passage": "But, he did gain a new perspective during his trip. Decades later he reflected, “Coming back to America was, for me, much more of a cultural shock than going to India. The people in the Indian countryside don’t use their intellect like we do, they use their intuition instead, and their intuition is far more developed than in the rest of the world…. In the villages of India…they learned something else, which is in some ways just as valuable but in other ways is not.",
+      "prompt": "How is the quoted comparison of intellect and intuition presented?",
+      "promptZh": "关于理智与直觉的引述比较以什么方式呈现？",
+      "options": [
+        "As a controlled measurement of every population in the world.",
+        "As proof that rural people have no capacity to think.",
+        "As a command for all readers to abandon reasoning.",
+        "As a retrospective personal reflection."
+      ],
+      "optionsZh": [
+        "作为对世界每个人群的控制测量。",
+        "作为乡村居民没有思考能力的证明。",
+        "作为要求所有读者放弃推理的命令。",
+        "作为回顾性的个人反思。"
+      ],
+      "answer": 3,
+      "type": "观点归属",
+      "support": "explicit",
+      "analyses": [
+        "A Decades later he reflected 标明回忆，没有对所有人群的实验测量。",
+        "B don’t use their intellect like we do 不等于没有思考能力，不能以群体概括替人作能力判定。",
+        "C 引述个人比较并不命令读者停止思考。",
+        "D 保留个人反思的材料性质，不把关于直觉的广泛说法变成已验证的人口能力排名。"
+      ],
+      "vocabulary": [
+        {
+          "word": "intuition",
+          "meaning": "直觉；未经有意识推演的直接判断",
+          "context": "引语把它与 intellect 对照，是被引述的经验看法，不是给群体作实测智力评级。",
+          "example": "Her intuition suggested a pattern, which she then checked carefully.",
+          "collocations": [
+            "use intuition",
+            "intellect and intuition"
+          ]
+        }
+      ],
+      "translation": "不过，他确实在旅途中获得新视角。几十年后，他回忆：“对我来说，返回美国比前往印度更让我感到文化冲击。印度乡村的人不像我们这样使用智力，他们更多使用直觉，而且他们的直觉比世界其他地方发展得更充分……在印度的村庄里……他们学到了别的东西，在某些方面同样有价值，在另一些方面却未必。”",
+      "evidenceTargetIds": [
+        "c04-s04-p039-03600-s007"
+      ],
+      "evidence": [
+        {
+          "quote": "But, he did gain a new perspective during his trip. Decades later he reflected, “Coming back to America was, for me, much more of a cultural shock than going to India. The people in the Indian countryside don’t use their intellect like we do, they use their intuition instead, and their intuition is far more developed than in the rest of the world….",
+          "sentenceIds": [
+            "c04-s04-p039-03600-s005",
+            "c04-s04-p039-03600-s006",
+            "c04-s04-p039-03600-s007"
+          ],
+          "sources": [
+            {
+              "pdfPage": 39,
+              "block": 4,
+              "bbox": [
+                76.99,
+                360,
+                535.01,
+                589.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "3863ed9d4ee9408de81ffcf3a7cd00d56ec659cc67a5db5ed44ae94dbac18d72"
+    }
+  ]
+}

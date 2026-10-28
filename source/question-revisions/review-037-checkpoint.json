@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "batchId": "question-review-2026-10-28-037",
+  "status": "targets-frozen-awaiting-source-review",
+  "frozenAt": "2026-10-28T23:45:45.214Z",
+  "sourceCommit": "2dccf0b8d74a828da51c64e98b7a72c010250d3b",
+  "pdfSha256": "be25c859f1bd894a4b0d1cff024ded1297f6a96a8e8ddabea1e3abcf89160a50",
+  "questionCount": 18,
+  "sourceCandidateCount": 24,
+  "pdfPagesForQuestionEvidence": [
+    38,
+    39
+  ],
+  "paragraphContextPages": [
+    38,
+    39
+  ],
+  "visuallyReviewedPages": [],
+  "reviewedQuestions": [],
+  "targets": "source/question-revisions/review-037-targets.json",
+  "currentQuestions": "source/question-revisions/review-037-current-questions.json",
+  "continuation": "Resume these targets before selecting another batch. Check the actual PDF pages and every question field. Reuse the frozen batchId and current question fingerprints; freeze only revised questions into review-037-baseline.json and create a new author draft. No question in this checkpoint has yet been marked reviewed, revised, tested or published.",
+  "previousRelease": "source/releases/question-review-036.json",
+  "preliminaryObservations": {
+    "status": "Observations only; no new question review, revision or publication counted.",
+    "items": [
+      {
+        "questionIds": [
+          "qe-c04-0038",
+          "qe-c04-0039",
+          "qe-c04-0040"
+        ],
+        "check": "Compare shared translation with the already released q-c04-021: preserve the narrative attribution of must have read. Remove unshown archive details from qe38 analysis and unrelated university/film examples from qe40."
+      },
+      {
+        "questionIds": [
+          "qe-c04-0041",
+          "qe-c04-0045",
+          "qe-c04-0047",
+          "qe-c04-0048",
+          "qe-c04-0049"
+        ],
+        "check": "Keep attributions and distractor analyses local to the displayed text; do not require previous Gopnik identity or later orchard, light-show, career-year and acquisition information."
+      },
+      {
+        "questionIds": [
+          "q-c04-027"
+        ],
+        "check": "The vocabulary context incorrectly calls historical Enlightenment a next-chapter reference. Check spiritual enlightenment against the actual current PDF and correct only that entry."
+      },
+      {
+        "questionIds": [
+          "qe-c04-0050",
+          "qe-c04-0051"
+        ],
+        "check": "Review translation precision: they use their intuition instead does not explicitly say more, and in other ways is not is firmer than 未必. Preserve this as a quoted personal reflection and the original unclosed excerpt boundary."
+      }
+    ]
+  },
+  "relatedFollowUpOutsideCurrentQueue": {
+    "questionId": "q-c04-028",
+    "status": "specific-translation-check-pending; do not mark as a newly reviewed question in the expanded queue",
+    "reason": "This question is already in baselineReviewedQuestions and must be skipped by the current routine queue. It shares the same intuition/is not translation issue noted in the two pending supplemental questions. Preserve its old fingerprint and author text. If a separate translation correction is justified, freeze an explicit follow-up target and append a new version; do not rewrite the baseline or imply all its fields were newly audited.",
+    "source": {
+      "pdfPage": 39,
+      "paragraphId": "c04-s04-p039-03600",
+      "fingerprint": "c13066ac18a984efc1654dfb07df7e13a6dfb84f4a0a5bb2cce1d7680b6f0794"
+    }
+  }
+}
