@@ -1,12 +1,15 @@
 {
   "schemaVersion": 1,
   "date": "2026-10-28",
+  "batchId": "advanced-02",
   "passed": true,
-  "newEntries": 1380,
-  "newOccurrences": 3956,
-  "totalEntries": 1886,
-  "totalOccurrences": 4615,
-  "unitTestsPassed": 329,
+  "newEntries": 144,
+  "newOccurrences": 433,
+  "totalEntries": 2030,
+  "totalOccurrences": 5048,
+  "chapters": 14,
+  "fullVocabularyCoverage": false,
+  "unitTestsPassed": 332,
   "localBrowser": [
     "全部资源与测试构建逐字节一致，离线词表随页面打包",
     "仅精选词标蓝，桌面弹窗显示本段词义、不泄露答案，点击遮罩关闭且不记成绩",
@@ -14,17 +17,8 @@
     "提交后移到译文上方的原文仍可查词，英文和历史作答完全保留",
     "手机点击屈折词形显示词头、本段义与其他常见义，底部词卡不溢出",
     "章节原文也可查词，点击不切换已读、不产生答案，深色主题可用",
-    "逐一点击14章28处新增标注及13类易混语境义，原文与语境释义对应且不产生作答",
+    "逐一点击14章新增标注与13类专业义或易混义，原文与语境释义对应且不产生作答",
     "模拟离线恢复查词；本地另停HTTP服务后缓存重载查词成功，无运行时异常"
-  ],
-  "newBrowserOccurrencesVisited": 41,
-  "oldEntriesAndOffsetsPreserved": true,
-  "authoring": "Independently authored lexical notes plus source-specific vocabulary already present in the question bank.",
-  "reviewMethod": "All added offsets, source slices, sentence IDs and non-overlap checked; human sense rules authored for ambiguous cases; 41 representative lookups checked in Edge across all chapters; 26 advanced uses recovered from homograph exclusions.",
-  "everyOccurrenceHumanSenseReviewed": false,
-  "completeC2Inventory": false,
-  "limits": [
-    "Synthetic isolated browser data; desktop and 390px Edge viewport, not a physical phone. Browser offline simulation is separate from actual local HTTP shutdown."
   ],
   "liveBrowserChecks": [
     "全部资源与测试构建逐字节一致，离线词表随页面打包",
@@ -33,9 +27,21 @@
     "提交后移到译文上方的原文仍可查词，英文和历史作答完全保留",
     "手机点击屈折词形显示词头、本段义与其他常见义，底部词卡不溢出",
     "章节原文也可查词，点击不切换已读、不产生答案，深色主题可用",
-    "逐一点击14章28处新增标注及13类易混语境义，原文与语境释义对应且不产生作答",
+    "逐一点击14章新增标注与13类专业义或易混义，原文与语境释义对应且不产生作答",
     "模拟离线恢复查词；本地另停HTTP服务后缓存重载查词成功，无运行时异常"
   ],
+  "newBrowserOccurrencesVisited": 41,
   "liveOccurrencesVisited": 41,
-  "releaseRecord": "source/releases/b2-vocabulary-2026-10-28.json"
+  "oldEntriesAndOffsetsPreserved": true,
+  "authoring": "150 independently written editorial headword notes, with sentence-specific sense overrides; 144 new entries and 6 existing entries reused.",
+  "reviewMethod": "Actual user PDF source blocks compared for 433 new positions across 112 pages; 4 PDF pages visually inspected; 41 representative new lookups clicked in local and live Edge browsers across 14 chapters.",
+  "everyOccurrenceHumanSenseReviewed": false,
+  "completeC2Inventory": false,
+  "limits": [
+    "Synthetic isolated browser data; desktop and 390px Edge viewport, not a physical phone. Browser offline simulation is separate from actual local HTTP shutdown.",
+    "Live offline checks use browser offline simulation; actual HTTP-server shutdown was verified only locally.",
+    "Oxford levels screen headwords, not every sense. The entire advanced-sense inventory has not been certified complete."
+  ],
+  "releaseRecord": "source/releases/b2-vocabulary-2026-10-28-02.json",
+  "previousRelease": "source/releases/b2-vocabulary-2026-10-28.json"
 }
