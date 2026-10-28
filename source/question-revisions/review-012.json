@@ -1,0 +1,130 @@
+{
+  "schemaVersion": 1,
+  "id": "question-review-2026-10-28-012",
+  "pdfSha256": "be25c859f1bd894a4b0d1cff024ded1297f6a96a8e8ddabea1e3abcf89160a50",
+  "scope": "Review the first 22 previously unaudited questions in reading order (23 source candidates, PDF7–8). Remove unshown-context dependencies and preserve temporal/modal precision.",
+  "questions": [
+    {
+      "id": "q-c01-002",
+      "reason": "修正单句解析仍声称有首尾句及 followed the path 的旧段落引用。",
+      "updates": {
+        "analyses": [
+          "A Like his father...every male ancestor 与 lived...there, cultivating rice and tea 将相同地点和农业生活联系起来；本句已足够支持家庭路径的延续。",
+          "B his entire life there 说明一辈子生活在那里，不支持在海外住多年后回来。",
+          "C Like...cultivating rice and tea 说明相似的生活，不能加入拒绝祖先职业的意思。",
+          "D 本句说种植水稻与茶，没有说离开农业去研究家族史。"
+        ]
+      }
+    },
+    {
+      "id": "q-c01-003",
+      "reason": "时间词保留明确一年；四项分析只依当前退学句，不使用以后妻子或垒球经历。",
+      "updates": {
+        "prompt": "What did Yoshi do after just one year of agricultural high school?",
+        "promptZh": "只读了一年农业高中之后，Yoshi 做了什么？",
+        "analyses": [
+          "A dropped out to become a farmer 明示退学务农，是原句给出的去向。",
+          "B 本句只说明退学与务农，没有结婚或同校妻子的信息。",
+          "C 原句没有迁居邻镇的内容，不能由 become a farmer 推出搬家。",
+          "D 原句没有垒球职业生涯或加入联赛的信息，不能把务农改成职业体育活动。"
+        ]
+      }
+    },
+    {
+      "id": "q-c01-004",
+      "reason": "比喻题解析不再要求读者知道后面的东京或前段旅行信息。",
+      "updates": {
+        "analyses": [
+          "A 本句列出 occupation、place、expectations、way of life，解释的是世代生活路径，没有 Kyushu 至 Tokyo 的实际路线。",
+          "B 旅行序列不能概括本句列出的职业、期待与生活方式；本句也未提邻居组织旅行。",
+          "C common threads 与 not just blood 是纽带的比喻，不支持把 path 读成连接农场和温泉的道路。",
+          "D 祖先形成的生活方式通过职业、地点、期待等延续，符合 path 在此的比喻义。"
+        ]
+      }
+    },
+    {
+      "id": "q-c01-005",
+      "reason": "资助来源题的错误选项分析不额外提供后续波士顿恋情和职业计划。",
+      "updates": {
+        "analyses": [
+          "A 本句没有来自女友的邀请；资助来源明确是 Rotary International 的 scholarship。",
+          "B 本句没有文部省工作或雇佣安排，不能把奖学金改成工作。",
+          "C 本句说的是 study abroad 的奖学金，不是邻里协会旅行名额。",
+          "D a scholarship from Rotary International to study abroad in Maine 直接给出资金来源和用途。"
+        ]
+      }
+    },
+    {
+      "id": "q-c01-006",
+      "reason": "Yet 的逻辑题无需外加暑期项目标签；解析删除本片段之外的波士顿出行目的。",
+      "updates": {
+        "prompt": "What contrast is introduced by “Yet” in this passage?",
+        "promptZh": "这段中的 Yet 引出了怎样的反差？",
+        "analyses": [
+          "A simply wanted to improve my English 是起初的学习意愿，后来 fell in love 是结果；此项倒置两者。",
+          "B simply 表示只是想提高英语，Yet 转向遇见韩国学生并坠入爱河，形成意外的反差。",
+          "C 当前片段没有 Boston、厌恶该地或学术研究的说明，不能补出这种对照。",
+          "D 当前两句没有 Tokyo 居留计划或 Maine 工作，不能以此替代学习与恋爱的反差。"
+        ]
+      }
+    },
+    {
+      "id": "qe-c01-0004",
+      "reason": "题干不把过去完成时的参照点强定为暑期课程之前，直接问叙事当时的感情状态。",
+      "updates": {
+        "prompt": "What relationship situation does the narrator describe at this point in his account?",
+        "promptZh": "叙述至此，作者描述自己处于怎样的感情状态？"
+      }
+    },
+    {
+      "id": "qe-c01-0005",
+      "reason": "本片段只以 She 指称，题干不要求由前一单元识别国籍；分析不引入后段文部省计划。",
+      "updates": {
+        "prompt": "What was the woman referred to as “She” about to do?",
+        "promptZh": "文中用 She 指称的女子即将做什么？",
+        "analyses": [
+          "A She was about to start graduate school in Boston 明确给出她即将开始的学习安排。",
+          "B 下一句 I was about to start a year in Lewiston 的主语是叙述者，不能把两人的地点交换。",
+          "C 回 Tokyo 的主语是 I，时间是 May；此处不能把它改成她的计划。",
+          "D 这段没有说她将到文部省工作，不能用原文没有给出的职业替代 graduate school。"
+        ]
+      }
+    },
+    {
+      "id": "qe-c01-0007",
+      "reason": "五月行程题的分析仅依本段，移除后文芝加哥和父亲活动的身份补充。",
+      "updates": {
+        "analyses": [
+          "A 本句给出的返回地点是 Tokyo，不是迁往 Chicago，也未说永久迁居。",
+          "B Boston 的研究生安排属于 She，不能换成叙述者五月必须做的事。",
+          "C 当前片段没有同学年度旅行；五月对应的是 had to go back to Tokyo。",
+          "D In May, I had to go back to Tokyo 直接给出必须返回的时间和地点，没有交代具体原因。"
+        ]
+      }
+    },
+    {
+      "id": "q-c01-038",
+      "reason": "没有赴美读研意向不等于已经明确排除该选项；正确项保留意向变化。",
+      "updates": {
+        "options": [
+          "He always planned to study in the U.S., but eventually refused to return.",
+          "He had not intended to pursue U.S. graduate study but later became determined to return.",
+          "He intended to work in Tokyo and therefore never changed his plans.",
+          "His original goal was to work for the U.S. Ministry of Education."
+        ],
+        "optionsZh": [
+          "他一直打算赴美学习，后来却拒绝返回。",
+          "他原本无意赴美读研究生，后来却下定决心返回。",
+          "他打算在东京工作，所以从未改变计划。",
+          "他原来的目标是到美国教育部工作。"
+        ],
+        "analyses": [
+          "A hadn’t had any intention 否定此前赴美读研意向，结尾 determined to come back 则是后来决心返回。",
+          "B 保留先前计划在日本文部省工作且无意赴美读研，与后来决心返回的反差；无意不扩大成明确禁止或排除。",
+          "C never changed 与 Though 引出的意向转变不符。",
+          "D 原文是 Ministry of Education in Japan，不能把国家换成美国。"
+        ]
+      }
+    }
+  ]
+}
