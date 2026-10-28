@@ -1,0 +1,154 @@
+{
+  "schemaVersion": 1,
+  "id": "question-review-2026-10-28-011",
+  "status": "local-verified-awaiting-publication",
+  "pdfSha256": "be25c859f1bd894a4b0d1cff024ded1297f6a96a8e8ddabea1e3abcf89160a50",
+  "automated": {
+    "questions": 2709,
+    "missingQuestionOrOptionTranslations": [],
+    "duplicatePromptsWithinReadingUnit": [],
+    "answerPositions": {
+      "A": 701,
+      "B": 662,
+      "C": 695,
+      "D": 651
+    },
+    "longestCorrectOptionsBefore": 1562,
+    "longestCorrectOptionsAfter": 1561,
+    "notice": "Structural checks and answer-length screening are not a semantic proof of the answer key. Length is a possible guessing cue, not proof that a question is invalid."
+  },
+  "manual": {
+    "questionCount": 8,
+    "questionIds": [
+      "q-c14-010",
+      "q-c14-013",
+      "q-c14-026",
+      "q-c14-036",
+      "q-c14-038",
+      "q-c14-049",
+      "q-c14-051",
+      "q-c14-061"
+    ],
+    "sourceCandidateIdsReviewed": [
+      "c14-s02-p161-05160-s009",
+      "c14-s02-p162-00750-s009",
+      "c14-s03-p163-06330-s005",
+      "c14-s03-p165-01140-s001",
+      "c14-s03-p165-01725-s005",
+      "c14-s04-p166-05940-s005",
+      "c14-s04-p167-01522-s005",
+      "c14-s04-p168-02888-s009"
+    ],
+    "sourceCandidatesReviewed": 8,
+    "pdfPagesVisuallyReviewed": [
+      161,
+      162,
+      163,
+      164,
+      165,
+      166,
+      167,
+      168
+    ],
+    "pdfSourceBlocksTextMatched": 10,
+    "revisedQuestionIds": [
+      "q-c14-010",
+      "q-c14-026",
+      "q-c14-049"
+    ],
+    "revisedQuestionCount": 3,
+    "answerKeysChanged": 0,
+    "readingOrderChanged": false,
+    "findings": [
+      "完成此特定261项部分引文语义清单的最后8项；本批复核8题，修订3题干扰项，其余5题保留。",
+      "职业满意度明确平均基准与类别层级，不把中位工资相关换成个人加薪因果。",
+      "航空票价、巴士通票金额与30日期限采用平行选项，消除信息最全项独占长度提示。",
+      "TopTen保留玩心及另一种附录总结，不伪装效果排序；个人旅行、意义维度和后悔建议均保留作者表述范围。",
+      "清单归零不表示全库2709题已逐题人工校对，也不表示每个候选句或分句都已独立设题、最终句界已定稿。"
+    ],
+    "pdfTextNormalization": {
+      "method": "Unicode NFKC, nonword removal, casefold for comparison only; stored source text unchanged",
+      "notice": "Normalization is comparison-only; stored original and extracted text remain unchanged."
+    },
+    "questionReviews": [
+      {
+        "questionId": "q-c14-010",
+        "decision": "revised",
+        "judgement": "kinds of workers与higher-than-average限定群体和基准；问句尚未给结果，满意度不换成工资或同职业内个体排名。"
+      },
+      {
+        "questionId": "q-c14-013",
+        "decision": "retained",
+        "judgement": "502类职业的median salary与average satisfaction聚合相关，不推个体加薪因果或任意个体排序。"
+      },
+      {
+        "questionId": "q-c14-026",
+        "decision": "revised",
+        "judgement": "东京至LA机票约700美元，30日Greyhound约250；金额、交通和期限准确，回忆不是今日报价。"
+      },
+      {
+        "questionId": "q-c14-036",
+        "decision": "retained",
+        "judgement": "can’t say the way与But并列呈现身体不适和难忘收获，不一概否定价值或普遍推荐交通方式。"
+      },
+      {
+        "questionId": "q-c14-038",
+        "decision": "retained",
+        "judgement": "coherence/significance是本句所列两个意义维度，不当全部意义来源限于家庭传承。"
+      },
+      {
+        "questionId": "q-c14-049",
+        "decision": "revised",
+        "judgement": "in the spirit of playfulness明示收尾用意，TopTen不自动构成量化疗效排序；Appendix3是alternative。"
+      },
+      {
+        "questionId": "q-c14-051",
+        "decision": "retained",
+        "judgement": "may与short run对应行动后悔，long run的biggest regrets指未行动，不是未来绝不后悔行动或程度绝对比较。"
+      },
+      {
+        "questionId": "q-c14-061",
+        "decision": "retained",
+        "judgement": "kick in意为开始起作用，psychological immune system为适应比喻，不当字面踢击、抹除记忆或医学免疫检验。"
+      }
+    ]
+  },
+  "remainingSemanticCandidateReviews": 0,
+  "fullQuestionBankHumanReview": false,
+  "fullVocabularyReview": false,
+  "recommendations": [
+    "本特定语义待办已完成；如后续扩大人工审校，应冻结新的目标清单，不循环重做本批或声称全库已审。",
+    "提交后可在原文上定位证据，帮助把选项分析与来源对应起来；与现有三类解析布局保持一致。",
+    "错题可增加混淆人物、范围扩大、因果误读等错因标签，便于针对性复习。"
+  ],
+  "limits": [
+    "本轮人工复核8题，不能把2709题结构检查称为全库人工语义审校完成。",
+    "本特定语义候选清单归零不是全库剩余错误数为零的证明。"
+  ],
+  "validation": {
+    "unitTestsPassed": 371,
+    "productionBuild": "npm run build:pages passed",
+    "localBrowser": {
+      "date": "2026-10-28",
+      "url": "http://127.0.0.1:4207/Reading/",
+      "checks": [
+        "全部缓存资产及Service Worker与本次生产构建逐字节匹配",
+        "提交前无证据标记；提交后精确标出依据且原文不变、淡蓝色查词仍可用",
+        "相近题型合并为一行并按提交次数计算50%正确率，原始标签和历史记录不变",
+        "逐题提交3道校对题，交替验证正误、四项译文与分析、整段译文及完整快照；提交前不显示中文解析",
+        "真实浏览器恢复旧选项、旧译文、旧错题成绩与用时；重练采用新版，新增记录且不改历史",
+        "390px和320px深色视口，选项、解析和整段译文均无横向溢出",
+        "旧未提交选择遇到改版时清空，新版位置保留；已提交解析正常刷新恢复",
+        "离线模拟恢复新旧两版成绩；本地另实际停止HTTP服务后缓存恢复新版题目与译文"
+      ],
+      "limits": [
+        "Isolated synthetic data only; Prewritten versioned editorial corrections checked against their current records. Mobile is a viewport, not a physical phone."
+      ],
+      "revisedQuestionsVisited": 3,
+      "batchId": "question-review-2026-10-28-011",
+      "passed": true,
+      "offlineVersion": "f952394e9ce4bcc7"
+    },
+    "offlineVersion": "f952394e9ce4bcc7"
+  }
+}

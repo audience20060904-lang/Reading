@@ -3,14 +3,15 @@
   "objective": "Continue source-based question review and the agreed reading-interface improvements, preserving released content and personal history.",
   "mode": "Continue the next batch immediately after saving and verifying the previous release. No hourly schedule is required.",
   "semanticReview": {
-    "status": "in-progress",
+    "status": "reviewed-awaiting-final-release",
     "taskRecord": "source/semantic-evidence/audit.json",
     "batchLimit": 25,
-    "nextBatch": "011",
-    "remainingCandidates": 8,
-    "currentBatch": "010",
-    "currentBatchStatus": "published-and-verified",
-    "lastSuccessfulRelease": "source/releases/question-review-010.json"
+    "nextBatch": null,
+    "remainingCandidates": 0,
+    "currentBatch": "011",
+    "currentBatchStatus": "local-verified-awaiting-publication",
+    "lastSuccessfulRelease": "source/releases/question-review-010.json",
+    "finalAudit": "source/question-revisions/semantic-review-completion.json"
   },
   "interface": [
     {
