@@ -1,0 +1,479 @@
+{
+  "pdfSha256": "be25c859f1bd894a4b0d1cff024ded1297f6a96a8e8ddabea1e3abcf89160a50",
+  "sourceCommit": "f78ecef6ab8dce2c279aa91fb08fbcbbf4e99a33",
+  "questions": [
+    {
+      "id": "qe-c03-0024",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-008",
+      "parentQuestionId": "q-c03-019",
+      "chapterId": "c03",
+      "sectionId": "c03-s03",
+      "paragraphId": "c03-s03-p029-06330",
+      "readingUnitId": "c03-s03-p029-06330-r001-003",
+      "sentenceIds": [
+        "c03-s03-p029-06330-s001",
+        "c03-s03-p029-06330-s002",
+        "c03-s03-p029-06330-s003"
+      ],
+      "passage": "The second element of the meaning trap is that people tend to misunderstand what is required. These images of heroes with supersized ambitions do not necessarily fit with the research findings. Although many people think that the number of people who lead a meaningful life is small, survey data show that, in fact, most people say they do have a meaningful life.",
+      "prompt": "What is identified as the second element of the meaning trap?",
+      "promptZh": "意义陷阱的第二个要素被说成是什么？",
+      "options": [
+        "A total absence of research on meaning.",
+        "A legal requirement to give a commencement speech.",
+        "A tendency to misunderstand what a meaningful life requires.",
+        "The fact that all people have exactly the same ambitions."
+      ],
+      "optionsZh": [
+        "完全没有意义研究。",
+        "必须发表毕业演讲的法律规定。",
+        "误解有意义人生需要什么的倾向。",
+        "所有人抱负完全相同的事实。"
+      ],
+      "answer": 2,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A 后文正引用 research findings，不是完全没有研究。",
+        "B 英雄和演讲是印象，没有法律条件。",
+        "C tend to misunderstand what is required 直接给出第二要素。",
+        "D 不是测得抱负人人相同；tend 仍保留倾向性。不能与第一要素的大目标导致挫败混作一个说法。"
+      ],
+      "vocabulary": [
+        {
+          "word": "required",
+          "meaning": "被需要；被要求具备的",
+          "context": "what is required 指意义人生被认为需要的条件，不是法律规定。",
+          "example": "The guide explains what is required for the application.",
+          "collocations": [
+            "what is required",
+            "be required for a task"
+          ]
+        }
+      ],
+      "translation": "意义陷阱的第二个因素是，人们往往误解了所需条件。那些抱负超大的英雄形象，并不一定符合研究结果。虽然许多人认为过着有意义生活的人很少，但调查数据显示，实际上，多数人说自己确实有意义的生活。",
+      "evidenceTargetIds": [
+        "c03-s03-p029-06330-s001"
+      ],
+      "evidence": [
+        {
+          "quote": "The second element of the meaning trap is that people tend to misunderstand what is required.",
+          "sentenceIds": [
+            "c03-s03-p029-06330-s001"
+          ],
+          "sources": [
+            {
+              "pdfPage": 29,
+              "block": 4,
+              "bbox": [
+                76.99,
+                633,
+                535,
+                706.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "cd014afa797098331ca517e6e2ced885f8af2bd99e5fe57968010b5f4dad62ab"
+    },
+    {
+      "id": "qe-c03-0026",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-008",
+      "parentQuestionId": "q-c03-021",
+      "chapterId": "c03",
+      "sectionId": "c03-s03",
+      "paragraphId": "c03-s03-p030-01530",
+      "readingUnitId": "c03-s03-p030-01530-r001-004",
+      "sentenceIds": [
+        "c03-s03-p030-01530-s001",
+        "c03-s03-p030-01530-s002",
+        "c03-s03-p030-01530-s003",
+        "c03-s03-p030-01530-s004"
+      ],
+      "passage": "How is it possible that we think the meaningful life is for overachieving heroes, yet most people say their lives are meaningful? One answer might lie in how the question about meaning in life was asked. The Gallup survey phrased it like this: “Do you feel your life has an important purpose or meaning?” with a yes-or-no answer format.",
+      "prompt": "What apparent puzzle does the question about overachieving heroes raise?",
+      "promptZh": "关于 overachieving heroes 的问句提出什么表面矛盾？",
+      "options": [
+        "Meaning is imagined as reserved for exceptional heroes, yet most people report having it.",
+        "Everyone reports no meaning, although every person is publicly famous.",
+        "Heroes are thought to reject purpose, while surveys measure only their income.",
+        "All surveys ask about happiness, but none asks about meaning."
+      ],
+      "optionsZh": [
+        "意义似乎属于卓越英雄，但多数人自报有意义。",
+        "所有人报告没意义，尽管人人有公众名气。",
+        "人们认为英雄拒绝目的，而调查只测收入。",
+        "所有调查问幸福，没有调查问意义。"
+      ],
+      "answer": 0,
+      "type": "主旨",
+      "support": "explicit",
+      "analyses": [
+        "A we think...for overachieving heroes 与 yet most people say...meaningful 是问句两端。",
+        "B 方向相反，也没有人人有名的说法。",
+        "C 调查对象在此是意义感，不是仅收入。",
+        "D 下一句还会给出意义问法，不能说从无问题。问句对照印象与自报，不证明谁的生活真实价值高低。"
+      ],
+      "vocabulary": [
+        {
+          "word": "overachieving",
+          "meaning": "成就格外突出的；超额完成目标的",
+          "context": "修饰英雄形象，和 most people 自报有意义形成对照。",
+          "example": "The story contrasts an overachieving student with a friend who prefers a quieter routine.",
+          "collocations": [
+            "overachieving heroes",
+            "an overachieving student"
+          ]
+        }
+      ],
+      "translation": "我们以为有意义的生活属于成就非凡的英雄，为什么大多数人却说自己的人生有意义？一个答案也许在于有关生命意义的问题是怎样问的。Gallup 的问题这样表述：“你是否觉得自己的人生有重要的目的或意义？”回答形式为“是”或“否”。",
+      "evidenceTargetIds": [
+        "c03-s03-p030-01530-s001"
+      ],
+      "evidence": [
+        {
+          "quote": "How is it possible that we think the meaningful life is for overachieving heroes, yet most people say their lives are meaningful?",
+          "sentenceIds": [
+            "c03-s03-p030-01530-s001"
+          ],
+          "sources": [
+            {
+              "pdfPage": 30,
+              "block": 1,
+              "bbox": [
+                76.99,
+                153,
+                535.01,
+                323.52
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "11a401755fc24ae4c0fb1845fcc9583b56196d459d414f382d45209945ec5632"
+    },
+    {
+      "id": "qe-c03-0027",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-008",
+      "parentQuestionId": "q-c03-021",
+      "chapterId": "c03",
+      "sectionId": "c03-s03",
+      "paragraphId": "c03-s03-p030-01530",
+      "readingUnitId": "c03-s03-p030-01530-r001-004",
+      "sentenceIds": [
+        "c03-s03-p030-01530-s001",
+        "c03-s03-p030-01530-s002",
+        "c03-s03-p030-01530-s003",
+        "c03-s03-p030-01530-s004"
+      ],
+      "passage": "How is it possible that we think the meaningful life is for overachieving heroes, yet most people say their lives are meaningful? One answer might lie in how the question about meaning in life was asked. The Gallup survey phrased it like this: “Do you feel your life has an important purpose or meaning?” with a yes-or-no answer format.",
+      "prompt": "What possible explanation does the author offer for the survey puzzle?",
+      "promptZh": "作者为调查中的表面矛盾提出什么可能解释？",
+      "options": [
+        "Only heroes were allowed to answer the survey.",
+        "Every respondent was paid to answer yes.",
+        "The meaning question was never actually asked.",
+        "The way the question about meaning was worded may be part of the answer."
+      ],
+      "optionsZh": [
+        "只有英雄被允许答问卷。",
+        "每位受访者都因回答是而获酬。",
+        "实际上从未询问意义问题。",
+        "有关意义的问题怎样措辞，可能是部分解释。"
+      ],
+      "answer": 3,
+      "type": "观点归属",
+      "support": "explicit",
+      "analyses": [
+        "A 没有英雄入样条件。",
+        "B 没有付费换取肯定回答的设置。",
+        "C how...was asked 假定问题被问过，不是否定存在。",
+        "D One answer might lie in 保留一个可能解释，而非确认唯一原因。不能把可能的问法影响当作所有自报皆假的证明。"
+      ],
+      "vocabulary": [
+        {
+          "word": "might lie in",
+          "meaning": "可能在于；可能由……解释",
+          "context": "限定答案的可能来源，one answer 也不排除其他因素。",
+          "example": "The reason for the difference might lie in the timing of the survey.",
+          "collocations": [
+            "an answer might lie in",
+            "the explanation lies in"
+          ]
+        }
+      ],
+      "translation": "我们以为有意义的生活属于成就非凡的英雄，为什么大多数人却说自己的人生有意义？一个答案也许在于有关生命意义的问题是怎样问的。Gallup 的问题这样表述：“你是否觉得自己的人生有重要的目的或意义？”回答形式为“是”或“否”。",
+      "evidenceTargetIds": [
+        "c03-s03-p030-01530-s002"
+      ],
+      "evidence": [
+        {
+          "quote": "One answer might lie in how the question about meaning in life was asked.",
+          "sentenceIds": [
+            "c03-s03-p030-01530-s002"
+          ],
+          "sources": [
+            {
+              "pdfPage": 30,
+              "block": 1,
+              "bbox": [
+                76.99,
+                153,
+                535.01,
+                323.52
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "2bf45d4f801569957ac0c41732b256a69eba4cb5e5aad1a54f79e72b2b80ea3c"
+    },
+    {
+      "id": "qe-c03-0030",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-008",
+      "parentQuestionId": "q-c03-025",
+      "chapterId": "c03",
+      "sectionId": "c03-s04",
+      "paragraphId": "c03-s04-p030-05160",
+      "readingUnitId": "c03-s04-p030-05160-r001-004",
+      "sentenceIds": [
+        "c03-s04-p030-05160-s001",
+        "c03-s04-p030-05160-s002",
+        "c03-s04-p030-05160-s003",
+        "c03-s04-p030-05160-s004"
+      ],
+      "passage": "Still, the fact that 28.5 percent of Americans report having a real purpose in life and another 54.9 percent report having a more or less real purpose is impressive. Are there so many heroic individuals making a difference in the U.S.? Or is this some kind of overly positive illusion? It turns out that this is not simply a self-reporting bias.",
+      "prompt": "What does 'not simply a self-reporting bias' rule out?",
+      "promptZh": "not simply a self-reporting bias 排除了哪种解释方式？",
+      "options": [
+        "Any possibility that self-reports can contain error.",
+        "Explaining the finding solely as a self-reporting bias.",
+        "The use of reports from friends or family members.",
+        "The possibility that ordinary people can report meaning."
+      ],
+      "optionsZh": [
+        "自报有任何误差的可能。",
+        "仅用自报偏差解释这个发现。",
+        "使用亲友评价。",
+        "普通人可以报告意义感的可能。"
+      ],
+      "answer": 1,
+      "type": "逻辑关系",
+      "support": "explicit",
+      "analyses": [
+        "A not simply 不等于完全零偏差。",
+        "B simply 限定仅仅如此，作者拒绝把结果全部归为自报偏差。",
+        "C 本句没有排除亲友报告，后文反而引入。",
+        "D 作者讨论普通人自报，不是否定其可能。不能据此声称每份自评都逐字客观无误。"
+      ],
+      "vocabulary": [
+        {
+          "word": "self-reporting bias",
+          "meaning": "自报偏差；由个人自我报告带来的偏差",
+          "context": "not simply 限定解释力度，并未宣布自报完全不存在偏差。",
+          "example": "The researchers used a second source of information to examine possible self-reporting bias.",
+          "collocations": [
+            "self-reporting bias",
+            "a possible reporting bias"
+          ]
+        }
+      ],
+      "translation": "尽管如此，28.5% 的美国人报告人生有真正目的，另有 54.9% 报告多少有些真正目的，这仍令人印象深刻。美国真有这么多发挥影响的英雄人物吗？还是某种过度正面的幻觉？结果表明，这并不只是自报偏差。",
+      "evidenceTargetIds": [
+        "c03-s04-p030-05160-s004"
+      ],
+      "evidence": [
+        {
+          "quote": "It turns out that this is not simply a self-reporting bias.",
+          "sentenceIds": [
+            "c03-s04-p030-05160-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 30,
+              "block": 4,
+              "bbox": [
+                76.99,
+                516,
+                535.01,
+                706.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "3af84b549de07529f063b3698a9973e3f4fbbc9baed98f43e99d115dbde9b8ef"
+    },
+    {
+      "id": "qe-c03-0031",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-008",
+      "parentQuestionId": "q-c03-026",
+      "chapterId": "c03",
+      "sectionId": "c03-s04",
+      "paragraphId": "c03-s04-p030-05160",
+      "readingUnitId": "c03-s04-p030-05160-r005-008",
+      "sentenceIds": [
+        "c03-s04-p030-05160-s005",
+        "c03-s04-p030-05160-s006",
+        "c03-s04-p030-05160-s007",
+        "c03-s04-p030-05160-s008"
+      ],
+      "passage": "Psychologist Michael Steger and colleagues asked participants to report how meaningful they feel their lives are. In addition, he asked their friends and family members to report the participant’s meaning in life. If the high percentage of self-reported meaning in life is only an illusion, informant reports would not correlate with self-reports. What he found was different: self-reported meaning in life is correlated with informant-reported meaning in life.",
+      "prompt": "What did Steger and colleagues first ask participants to report?",
+      "promptZh": "斯蒂格及同事首先请参与者报告什么？",
+      "options": [
+        "Their friends' annual salaries.",
+        "The number of graduation speeches they had given.",
+        "How meaningful they felt their own lives were.",
+        "A clinical diagnosis of every family member."
+      ],
+      "optionsZh": [
+        "朋友的年薪。",
+        "自己发表毕业演讲的次数。",
+        "自己觉得人生多有意义。",
+        "对每位家人的临床诊断。"
+      ],
+      "answer": 2,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A 本句没有薪资问题。",
+        "B 演讲英雄是前面印象讨论，不是这里的问卷项目。",
+        "C report how meaningful they feel their lives are 是参与者对自身意义感的报告。",
+        "D 亲友后来提供的是知情评价，不是参与者诊断家人。注意 self-report 与 informant report 的对象角色。"
+      ],
+      "vocabulary": [
+        {
+          "word": "participants",
+          "meaning": "研究参与者",
+          "context": "先对自己人生意义感作报告的人，区别于随后被询问的朋友和家人。",
+          "example": "Participants completed the questionnaire before the interview.",
+          "collocations": [
+            "ask participants to report",
+            "study participants"
+          ]
+        }
+      ],
+      "translation": "心理学家 Michael Steger 与同事请参与者报告自己觉得人生多有意义。此外，他还请参与者的朋友和家人评价这个人的生命意义。如果自报有意义的高比例只是一种幻觉，知情人的报告便不会与自报相关。他发现的却不同：自报的生命意义与知情人报告的生命意义存在相关。",
+      "evidenceTargetIds": [
+        "c03-s04-p030-05160-s005"
+      ],
+      "evidence": [
+        {
+          "quote": "Psychologist Michael Steger and colleagues asked participants to report how meaningful they feel their lives are.",
+          "sentenceIds": [
+            "c03-s04-p030-05160-s005"
+          ],
+          "sources": [
+            {
+              "pdfPage": 30,
+              "block": 4,
+              "bbox": [
+                76.99,
+                516,
+                535.01,
+                706.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "18b7eb105ebb84fe271ff1d66f174c48ea6d45fd0b8fd76723bc0d30c3fc6946"
+    },
+    {
+      "id": "qe-c03-0035",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-009",
+      "parentQuestionId": "q-c03-028",
+      "chapterId": "c03",
+      "sectionId": "c03-s04",
+      "paragraphId": "c03-s04-p031-01530",
+      "readingUnitId": "c03-s04-p031-01530-r001-004",
+      "sentenceIds": [
+        "c03-s04-p031-01530-s001",
+        "c03-s04-p031-01530-s002",
+        "c03-s04-p031-01530-s003",
+        "c03-s04-p031-01530-s004"
+      ],
+      "passage": "So who are these 28.5 percent of Americans who say their lives are meaningful? For one, they tend to be religious. Religious people follow certain principles of faith, which help them interpret difficult life situations accordingly and give them clarity. When Hurricane Katrina swept away some neighborhoods of New Orleans in 2005, many residents struggled to understand why it happened.",
+      "prompt": "What difficulty is reported for many residents after Hurricane Katrina?",
+      "promptZh": "卡特里娜飓风之后，许多居民被描述为面临什么困难？",
+      "options": [
+        "They could not remember the names of the affected cities.",
+        "They struggled to understand why the catastrophe had happened.",
+        "They all agreed that no neighbourhood had been affected.",
+        "They were unable to distinguish 2005 from the survey year."
+      ],
+      "optionsZh": [
+        "记不起受影响城市名称。",
+        "难以理解为何发生这场灾难。",
+        "他们都同意没有街区受影响。",
+        "无法区分 2005 年与调查年份。"
+      ],
+      "answer": 1,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A 本句的 struggle 是理解 why，不是记忆城市名。",
+        "B many residents struggled to understand why it happened 明示心理理解上的困难。",
+        "C swept away some neighborhoods 与没有影响相反，many 也不是 all。",
+        "D 没有居民辨别年份能力的描述。"
+      ],
+      "vocabulary": [
+        {
+          "word": "swept away",
+          "meaning": "冲走；摧毁",
+          "context": "描述飓风对街区的破坏，不是居民主动搬走物品。",
+          "example": "The flood swept away a small bridge.",
+          "collocations": [
+            "sweep away a neighbourhood",
+            "be swept away by a flood"
+          ]
+        }
+      ],
+      "translation": "那么，自称人生有意义的这 28.5% 美国人是哪些人？首先，他们往往有宗教信仰。有宗教信仰的人遵循某些信仰原则，这些原则帮助他们据此理解人生的艰难处境，获得清晰感。2005 年，卡特里娜飓风卷走新奥尔良一些街区时，许多居民都难以理解为何会发生这样的事。",
+      "evidenceTargetIds": [
+        "c03-s04-p031-01530-s004"
+      ],
+      "evidence": [
+        {
+          "quote": "When Hurricane Katrina swept away some neighborhoods of New Orleans in 2005, many residents struggled to understand why it happened.",
+          "sentenceIds": [
+            "c03-s04-p031-01530-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 31,
+              "block": 1,
+              "bbox": [
+                76.99,
+                153,
+                535,
+                323.52
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "6e82d9aa188f2e2d8eaad71dfcd569b5041eb0e3d4e50e34fa56dfd67a0667c9"
+    }
+  ]
+}
