@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 1,
+  "id": "question-review-2026-10-28-022",
+  "status": "published-and-verified",
+  "verifiedAt": "2026-10-28T15:09:50.455Z",
+  "url": "https://audience20060904-lang.github.io/Reading/",
+  "sourceCommit": "40715e47802751e96ea10e7e8ca17f6d47c65f73",
+  "deploymentCommit": "af9c871917ce7dfab75e9cf1d965c52fe712d47a",
+  "offlineVersion": "3f46cd2a0baee605",
+  "previousBatch": "source/releases/question-review-021.json",
+  "questionFingerprints": {
+    "qe-c02-0035": "3d97381325d93b768c4dba17b61256893f2cd9790a06a40644faff3815512565",
+    "qe-c02-0036": "c2f95223daf72ba2e94c4aae7cea152ac0355dae3230369e8ee26b7cbdd62fb0",
+    "q-c02-048": "37a8a4eb51c13ca864f0f579c5dc251fce704b93da3d09fe9e47f6f9d6e57a0b",
+    "qe-c02-0038": "b93c07f319796cf5c5d718721bbdc233d2084af80aab75657dd0f8148b56edcb",
+    "q-c02-007": "0fbfa4d65181b684ad101e4f623b6fd2055611275e03f064a98216f2ec180ca5",
+    "q-c02-014": "932819498ee20f404c161d92f42a9add3dff4a9f494e7ead6849327e5ebbcb23",
+    "q-c02-049": "2999bf9314aaf9d2f11504e4c22cf1dea7accf37e4f8eaaf04cde3d1a2fbd521",
+    "qe-c02-0043": "bedee898f45808efcbeeb164a4c3b06b0528756dfeb9594cf9afb288dc2f9b6f",
+    "q-c02-008": "ec8b550e125a74de366c60da436886a36acbca3603483b7308c8db5c6c013762",
+    "q-c02-009": "05985964449486c96b98ffae489933afbcbe9feabcb4213acee1cd1f209e6361",
+    "q-c02-053": "870f30dab453ddace6c3a7310547c24509b85553ea269ffad915dbb5f74cefba",
+    "qe-c02-0045": "877d9234534be6ba373a0e4917e08fac9abe7a5555b76ab5262707f5d3952a01"
+  },
+  "content": {
+    "totalQuestions": 2709,
+    "manuallyReviewedQuestions": 22,
+    "reviewedSourceCandidates": 25,
+    "revisedQuestions": 12,
+    "totalRevisedQuestions": 194,
+    "changedAnswerPositions": 0,
+    "remainingQuestionReviews": 2285,
+    "fullQuestionBankHumanReview": false
+  },
+  "validation": {
+    "unitTestsPassed": 407,
+    "build": "npm run build:pages passed",
+    "pdf": {
+      "sha256": "be25c859f1bd894a4b0d1cff024ded1297f6a96a8e8ddabea1e3abcf89160a50",
+      "pagesVisuallyReviewed": [
+        20,
+        21
+      ],
+      "sourceBlocksTextMatched": 5
+    },
+    "localBrowser": [
+      "全部缓存资产及Service Worker与本次生产构建逐字节匹配",
+      "提交前无证据标记；提交后精确标出依据且原文不变、淡蓝色查词仍可用",
+      "相近题型合并为一行并按提交次数计算50%正确率，原始标签和历史记录不变",
+      "逐题提交12道校对题，交替验证正误、四项译文与分析、整段译文及完整快照；提交前不显示中文解析",
+      "真实浏览器恢复旧选项、旧译文、旧错题成绩与用时；重练采用新版，新增记录且不改历史",
+      "390px和320px深色视口，选项、解析和整段译文均无横向溢出",
+      "旧未提交选择遇到改版时清空，新版位置保留；已提交解析正常刷新恢复",
+      "离线模拟恢复新旧两版成绩；本地另实际停止HTTP服务后缓存恢复新版题目与译文"
+    ],
+    "liveBrowser": [
+      "全部缓存资产及Service Worker与本次生产构建逐字节匹配",
+      "提交前无证据标记；提交后精确标出依据且原文不变、淡蓝色查词仍可用",
+      "相近题型合并为一行并按提交次数计算50%正确率，原始标签和历史记录不变",
+      "逐题提交12道校对题，交替验证正误、四项译文与分析、整段译文及完整快照；提交前不显示中文解析",
+      "真实浏览器恢复旧选项、旧译文、旧错题成绩与用时；重练采用新版，新增记录且不改历史",
+      "390px和320px深色视口，选项、解析和整段译文均无横向溢出",
+      "旧未提交选择遇到改版时清空，新版位置保留；已提交解析正常刷新恢复",
+      "离线模拟恢复新旧两版成绩；本地另实际停止HTTP服务后缓存恢复新版题目与译文"
+    ],
+    "liveRevisedQuestionsVisited": 12,
+    "assets": "All 13 manifest assets and the service worker byte-match the tested build.",
+    "history": "All twenty-one previous editorial batch fingerprints preserved. Source text, original question banks, reading plan, completed prior audit and submitted snapshots unchanged.",
+    "integrity": {
+      "passed": true,
+      "protectedBase": "48552be4956ee61a3f1b1a59a4ed1c4c67f67e03",
+      "protectedPaths": 73,
+      "publishedReceiptsVerified": 22,
+      "chapter1QuestionReviews": 137,
+      "totalReviewedQuestionIds": 424,
+      "remainingQuestionReviews": 2285,
+      "fullQuestionBankHumanReview": false
+    }
+  },
+  "report": "source/question-revisions/review-022-report.json",
+  "continuation": "source/question-semantic-audit.json",
+  "limits": [
+    "Isolated synthetic data only; Prewritten versioned editorial corrections checked against their current records. Mobile is a viewport, not a physical phone.",
+    "Live offline checks use browser simulation; actual HTTP-server shutdown performed locally.",
+    "The remaining 2285 questions await expanded per-question review; this is not a count of known errors or missing questions."
+  ],
+  "lookupRevisionFingerprints": [
+    {
+      "revisionId": "question-review-2026-10-28-014",
+      "occurrenceId": "c01-s02-p010-05625@390:398",
+      "sha256": "3f1c35d38c91722bcc39c64b5b0a8840e39e25f13b54a64c3b17e3e3b65c9119"
+    },
+    {
+      "revisionId": "question-review-2026-10-28-017",
+      "occurrenceId": "c01-s04-p013-05662@523:538",
+      "sha256": "e668951b5f0d67dc54eead608d4705f185d33b045e245438d51e00add8ec2342"
+    },
+    {
+      "revisionId": "question-review-2026-10-28-017",
+      "occurrenceId": "c01-s04-p013-05662@694:709",
+      "sha256": "779785898d0be134c0bfc0aed22cd7705803b476a9c3a4a0c2205b5d92278e1d"
+    }
+  ]
+}
