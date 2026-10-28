@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "question-review-2026-10-28-001",
-  "status": "validated-awaiting-publication",
+  "status": "published-and-verified",
   "pdfSha256": "be25c859f1bd894a4b0d1cff024ded1297f6a96a8e8ddabea1e3abcf89160a50",
   "automated": {
     "questions": 2709,
@@ -15,7 +15,8 @@
     },
     "longestCorrectOptionsBefore": 1610,
     "longestCorrectOptionsAfter": 1605,
-    "notice": "Structural checks and answer-length screening are not a semantic proof of the answer key. Length is a possible guessing cue, not proof that a question is invalid."
+    "notice": "Structural checks and answer-length screening are not a semantic proof of the answer key. Length is a possible guessing cue, not proof that a question is invalid.",
+    "typeLabelCount": 36
   },
   "manual": {
     "questionCount": 23,
@@ -121,7 +122,9 @@
   "recommendations": [
     "继续按原书顺序校对剩余语义待办，优先检查限定语、数字、指代及题目证据。",
     "提交后可在原文上定位证据，帮助把选项分析与来源对应起来；与现有三类解析布局保持一致。",
-    "错题可增加混淆人物、范围扩大、因果误读等错因标签，便于针对性复习。"
+    "错题可增加混淆人物、范围扩大、因果误读等错因标签，便于针对性复习。",
+    "题型标签现有36种，展示统计时可将语境词义、语境词汇等相近标签归并，原始题型保留在题目和历史中。",
+    "手机首屏章节标题占比较大，可收紧字号与上下留白，把更多空间留给原文。"
   ],
   "limits": [
     "本轮人工复核23题，不能把2709题结构检查称为全库人工语义审校完成。",
@@ -148,6 +151,25 @@
       "passed": true,
       "offlineVersion": "d2256376747052b8"
     },
-    "offlineVersion": "d2256376747052b8"
-  }
+    "offlineVersion": "d2256376747052b8",
+    "liveBrowser": {
+      "date": "2026-10-28",
+      "url": "https://audience20060904-lang.github.io/Reading/",
+      "checks": [
+        "全部缓存资产及Service Worker与本次生产构建逐字节匹配",
+        "逐题提交12道校对题，交替验证正误、四项译文与分析、整段译文及完整快照；提交前不显示中文解析",
+        "真实浏览器恢复旧选项、旧译文、旧错题成绩与用时；重练采用新版，新增记录且不改历史",
+        "390px和320px深色视口，选项、解析和整段译文均无横向溢出",
+        "旧未提交选择遇到改版时清空，新版位置保留；已提交解析正常刷新恢复",
+        "离线模拟恢复新旧两版成绩；本地另实际停止HTTP服务后缓存恢复新版题目与译文"
+      ],
+      "limits": [
+        "Isolated synthetic data only; 12 versioned editorial corrections checked against their current records. Mobile is a viewport, not a physical phone."
+      ],
+      "revisedQuestionsVisited": 12,
+      "passed": true,
+      "offlineVersion": "d2256376747052b8"
+    }
+  },
+  "releaseRecord": "source/releases/question-review-001.json"
 }
