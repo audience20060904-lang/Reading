@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "id": "question-review-2026-10-28-028",
+  "id": "question-review-2026-10-28-029",
   "revisionIds": [
     "question-review-2026-10-28-001",
     "question-review-2026-10-28-002",
@@ -29,7 +29,8 @@
     "question-review-2026-10-28-025",
     "question-review-2026-10-28-026",
     "question-review-2026-10-28-027",
-    "question-review-2026-10-28-028"
+    "question-review-2026-10-28-028",
+    "question-review-2026-10-28-029"
   ],
   "batches": [
     {
@@ -729,6 +730,23 @@
         "qe-c02-0110": "cd4091b56ca696f24c980f74b59cdfca7bcc208e322fe840bb15ef822595bbc6",
         "qe-c03-0002": "1ffc59946fe1326434c526c64d9f30ddeaceede93182b088b5daad485dd4ac93"
       }
+    },
+    {
+      "id": "question-review-2026-10-28-029",
+      "questionIds": [
+        "qe-c03-0004",
+        "qe-c03-0006",
+        "qe-c03-0007",
+        "qe-c03-0010",
+        "qe-c03-0011"
+      ],
+      "questionFingerprints": {
+        "qe-c03-0004": "ee5a0e1c9117369c7d8f585883b29b3f7929c1cd7b29f2be7ae7ff5aa0e45295",
+        "qe-c03-0006": "1dba72d0ee0348aad251ca0f34ab8be54c45f9c44df38ba045bd30941926bad5",
+        "qe-c03-0007": "6118467ed3b0fe529fab73536c85dac94a448c22dec3f36f486936692f44a9e6",
+        "qe-c03-0010": "dd8c158ce72528c7856beb2da6ce95751a7a30cf39e796bc89fce675c708f64e",
+        "qe-c03-0011": "2a6bbdd1e38d7cc557da6d663e974bcf3785fc048ee068bb9babc9bfcf72c663"
+      }
     }
   ],
   "pdfSha256": "be25c859f1bd894a4b0d1cff024ded1297f6a96a8e8ddabea1e3abcf89160a50",
@@ -983,7 +1001,12 @@
     "qe-c02-0108": "b3c6843869236436cd45e3c2d3439299568d306695412e0f4a22037d7200dad2",
     "qe-c02-0109": "d19129af3b1c29d5f11c816fdcf2af7b04fa47f6b3d6e05b8f5771d9ad971406",
     "qe-c02-0110": "50e26bff53cc18919e8f8013b409474844b05b2f99f92838db6f44f9d58bfe92",
-    "qe-c03-0002": "f3aef5cd8e4d866f68db3c08feb97b4bd6e6c9904d8c169105c07529fc06702e"
+    "qe-c03-0002": "f3aef5cd8e4d866f68db3c08feb97b4bd6e6c9904d8c169105c07529fc06702e",
+    "qe-c03-0004": "45f8283d41b56de726931a557fa092a96944ba658de457b496e58a79243edd56",
+    "qe-c03-0006": "82f8629fe4fd4b56dc68f82ec4bcb92b1456e52e641595d46ff7d96df4de8574",
+    "qe-c03-0007": "e687fa5ff5ec27207e3541c4e3aa6d4f0b4c1536fa9759c4cf95e90add0adc76",
+    "qe-c03-0010": "92822e101aa5739bcd89f612455c5e89b0ef76b7cde7d52b5b3c637138107c38",
+    "qe-c03-0011": "ff00281656a124100fd2f7d7069fafeda6a7749cb57f2a24a50a7190a70aaa01"
   },
   "revisionDepths": {
     "q-c01-047": 1,
@@ -1236,7 +1259,12 @@
     "qe-c02-0108": 1,
     "qe-c02-0109": 1,
     "qe-c02-0110": 1,
-    "qe-c03-0002": 1
+    "qe-c03-0002": 1,
+    "qe-c03-0004": 1,
+    "qe-c03-0006": 1,
+    "qe-c03-0007": 1,
+    "qe-c03-0010": 1,
+    "qe-c03-0011": 1
   },
   "questions": [
     {
@@ -21849,6 +21877,404 @@
       "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
       "contentRevision": "question-review-2026-10-28-028",
       "fingerprint": "1ffc59946fe1326434c526c64d9f30ddeaceede93182b088b5daad485dd4ac93"
+    },
+    {
+      "id": "qe-c03-0004",
+      "version": 2,
+      "family": "sentence-evidence",
+      "batchId": "evidence-007",
+      "parentQuestionId": "q-c03-003",
+      "chapterId": "c03",
+      "sectionId": "c03-s01",
+      "paragraphId": "c03-s01-p027-05992",
+      "readingUnitId": "c03-s01-p027-05992-r001-004",
+      "sentenceIds": [
+        "c03-s01-p027-05992-s001",
+        "c03-s01-p027-05992-s002",
+        "c03-s01-p027-05992-s003",
+        "c03-s01-p027-05992-s004"
+      ],
+      "passage": "Why so down on happiness? One common critique is that a happy life might be a selfish one. In reality, there is lots of evidence that suggests otherwise. For example, spending money on others as opposed to on oneself increases happiness.",
+      "prompt": "What does being 'down on happiness' mean in the rhetorical question?",
+      "promptZh": "反问中 down on happiness 是什么意思？",
+      "options": [
+        "Believing that happiness has become less common over time.",
+        "Feeling sad because one cannot attain happiness.",
+        "Ranking happiness below every other goal in life.",
+        "Being critical or disapproving of happiness."
+      ],
+      "optionsZh": [
+        "认为幸福随时间推移变得较少见。",
+        "因为无法获得幸福而感到难过。",
+        "把幸福排在生活其他所有目标之下。",
+        "对幸福持批评或不赞同态度。"
+      ],
+      "answer": 3,
+      "type": "语境词义",
+      "support": "explicit",
+      "analyses": [
+        "A down on 表示态度，当前问句没有报告幸福随时间变少的趋势。",
+        "B 这里问对幸福这一观念的批评态度，不等于因为自己无法幸福而难过。",
+        "C 段落提出一种 common critique，没有给出幸福低于其他每一种目标的完整排序。",
+        "D 紧接着的 One common critique 展开批评理由，支持此处不赞同、批评的短语义。"
+      ],
+      "vocabulary": [
+        {
+          "word": "down on",
+          "meaning": "不赞成；批评（口语）",
+          "context": "问为什么对幸福如此批评，不是说某个读者情绪低落。",
+          "example": "The reviewer was down on the plan because it ignored local needs.",
+          "collocations": [
+            "be down on an idea",
+            "so down on something"
+          ]
+        }
+      ],
+      "translation": "为什么如此贬低幸福？一种常见批评认为，幸福的生活可能是自私的生活。实际上，有大量证据指向相反的情况。例如，把钱花在别人身上而不是自己身上，会增加幸福感。",
+      "evidenceTargetIds": [
+        "c03-s01-p027-05992-s001"
+      ],
+      "evidence": [
+        {
+          "quote": "Why so down on happiness?",
+          "sentenceIds": [
+            "c03-s01-p027-05992-s001"
+          ],
+          "sources": [
+            {
+              "pdfPage": 27,
+              "block": 6,
+              "bbox": [
+                76.99,
+                599.25,
+                535,
+                711.27
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "contentRevision": "question-review-2026-10-28-029",
+      "fingerprint": "ee5a0e1c9117369c7d8f585883b29b3f7929c1cd7b29f2be7ae7ff5aa0e45295"
+    },
+    {
+      "id": "qe-c03-0006",
+      "version": 2,
+      "family": "sentence-evidence",
+      "batchId": "evidence-007",
+      "parentQuestionId": "q-c03-005",
+      "chapterId": "c03",
+      "sectionId": "c03-s01",
+      "paragraphId": "c03-s01-p028-00750",
+      "readingUnitId": "c03-s01-p028-00750-r001-004",
+      "sentenceIds": [
+        "c03-s01-p028-00750-s001",
+        "c03-s01-p028-00750-s002",
+        "c03-s01-p028-00750-s003",
+        "c03-s01-p028-00750-s004"
+      ],
+      "passage": "The novelist Donna Tartt suggested that it is “to make other people happy even at the expense of one’s own happiness”—in other words, what many scholars call a “meaningful life.” Meaning in life is typically defined by significance, purpose, and coherence. First, a meaningful life is a life that matters. It matters not just to one’s family members and friends, but also to strangers.",
+      "prompt": "What does 'at the expense of one’s own happiness' mean in Tartt's suggestion?",
+      "promptZh": "塔特建议中的 at the expense of one's own happiness 是什么意思？",
+      "options": [
+        "Calculating a financial fee for every helpful action.",
+        "Making others happy even if this sacrifices one's own happiness.",
+        "Helping only when one's own happiness is guaranteed to increase.",
+        "Treating others' happiness as less important in every circumstance."
+      ],
+      "optionsZh": [
+        "为每次助人计算经济收费。",
+        "即便牺牲自己的幸福，也让别人幸福。",
+        "只有保证自己幸福增加时才帮助。",
+        "任何情况下都把别人幸福视为更不重要。"
+      ],
+      "answer": 1,
+      "type": "语境词义",
+      "support": "explicit",
+      "analyses": [
+        "A expense 是以……为代价的短语义，并非收费。",
+        "B even at the expense of 明确容许自己的幸福付出代价；这是小说家提出的看法。",
+        "C even if sacrifice 与 only when guaranteed gain 相反。",
+        "D 该建议重视别人幸福，不是总把别人放低。不能把引述的价值看法当作唯一合法生活方式或实验结论。"
+      ],
+      "vocabulary": [
+        {
+          "word": "at the expense of",
+          "meaning": "以……为代价；牺牲……",
+          "context": "指让自己幸福受损的可能代价，而非金钱支出。",
+          "example": "The team sought speed, but not at the expense of accuracy.",
+          "collocations": [
+            "at the expense of one’s happiness",
+            "at the expense of accuracy"
+          ]
+        }
+      ],
+      "translation": "小说家 Donna Tartt 提出，美好生活就是“让别人幸福，即使以牺牲自己的幸福为代价”——换言之，许多学者所说的“有意义的生活”。生命意义通常由重要性、目的和连贯性来界定。首先，有意义的生活是有分量的生活。它不仅对自己的家人朋友有分量，对陌生人也如此。",
+      "evidenceTargetIds": [
+        "c03-s01-p028-00750-s001"
+      ],
+      "evidence": [
+        {
+          "quote": "The novelist Donna Tartt suggested that it is “to make other people happy even at the expense of one’s own happiness”—in other words, what many scholars call a “meaningful life.”",
+          "sentenceIds": [
+            "c03-s01-p028-00750-s001"
+          ],
+          "sources": [
+            {
+              "pdfPage": 28,
+              "block": 0,
+              "bbox": [
+                76.99,
+                75,
+                535.01,
+                265.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "contentRevision": "question-review-2026-10-28-029",
+      "fingerprint": "1dba72d0ee0348aad251ca0f34ab8be54c45f9c44df38ba045bd30941926bad5"
+    },
+    {
+      "id": "qe-c03-0007",
+      "version": 2,
+      "family": "sentence-evidence",
+      "batchId": "evidence-008",
+      "parentQuestionId": "q-c03-005",
+      "chapterId": "c03",
+      "sectionId": "c03-s01",
+      "paragraphId": "c03-s01-p028-00750",
+      "readingUnitId": "c03-s01-p028-00750-r001-004",
+      "sentenceIds": [
+        "c03-s01-p028-00750-s001",
+        "c03-s01-p028-00750-s002",
+        "c03-s01-p028-00750-s003",
+        "c03-s01-p028-00750-s004"
+      ],
+      "passage": "The novelist Donna Tartt suggested that it is “to make other people happy even at the expense of one’s own happiness”—in other words, what many scholars call a “meaningful life.” Meaning in life is typically defined by significance, purpose, and coherence. First, a meaningful life is a life that matters. It matters not just to one’s family members and friends, but also to strangers.",
+      "prompt": "Which three features typically define meaning in life in the passage?",
+      "promptZh": "文中通常用哪三个特征界定人生意义？",
+      "options": [
+        "Comfort, financial security, and fame.",
+        "Novelty, pleasure, and constant excitement.",
+        "Achievement, popularity, and perfect happiness.",
+        "Significance, purpose, and coherence."
+      ],
+      "optionsZh": [
+        "舒适、经济安全和名声。",
+        "新奇、愉悦和持续兴奋。",
+        "成就、受欢迎和完美幸福。",
+        "重要性、目的和连贯性。"
+      ],
+      "answer": 3,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A 不是本句列出的三项。",
+        "B 新奇等概念不能替换这句对意义的定义。",
+        "C 原文没有把完美幸福或名望列为必要项。",
+        "D significance, purpose, and coherence 是明示三项，typically 保留通常定义的范围。"
+      ],
+      "vocabulary": [
+        {
+          "word": "coherence",
+          "meaning": "连贯性；各部分构成一致整体的性质",
+          "context": "这里与重要性、目的并列，是文中通常定义人生意义的三个维度之一；coherence 侧重各部分是否连贯。",
+          "example": "The final paragraph gives the argument a stronger sense of coherence.",
+          "collocations": [
+            "a sense of coherence",
+            "coherence in life"
+          ]
+        }
+      ],
+      "translation": "小说家 Donna Tartt 提出，美好生活就是“让别人幸福，即使以牺牲自己的幸福为代价”——换言之，许多学者所说的“有意义的生活”。生命意义通常由重要性、目的和连贯性来界定。首先，有意义的生活是有分量的生活。它不仅对自己的家人朋友有分量，对陌生人也如此。",
+      "evidenceTargetIds": [
+        "c03-s01-p028-00750-s002"
+      ],
+      "evidence": [
+        {
+          "quote": "Meaning in life is typically defined by significance, purpose, and coherence.",
+          "sentenceIds": [
+            "c03-s01-p028-00750-s002"
+          ],
+          "sources": [
+            {
+              "pdfPage": 28,
+              "block": 0,
+              "bbox": [
+                76.99,
+                75,
+                535.01,
+                265.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "contentRevision": "question-review-2026-10-28-029",
+      "fingerprint": "6118467ed3b0fe529fab73536c85dac94a448c22dec3f36f486936692f44a9e6"
+    },
+    {
+      "id": "qe-c03-0010",
+      "version": 2,
+      "family": "sentence-evidence",
+      "batchId": "evidence-008",
+      "parentQuestionId": "q-c03-008",
+      "chapterId": "c03",
+      "sectionId": "c03-s01",
+      "paragraphId": "c03-s01-p028-02700",
+      "readingUnitId": "c03-s01-p028-02700-r001-003",
+      "sentenceIds": [
+        "c03-s01-p028-02700-s001",
+        "c03-s01-p028-02700-s002",
+        "c03-s01-p028-02700-s003"
+      ],
+      "passage": "In contrast, a meaningless life is a life that does not make any difference in the world. Anthropologist David Graeber, in his book Bullshit Jobs: A Theory, argues that there are millions of people around the world who are toiling away their lives in meaningless jobs. He defines a bullshit job as a job that the person who is doing it can’t really justify the existence of that job.",
+      "prompt": "What contrast is introduced in the description of a meaningless life?",
+      "promptZh": "描述无意义人生时，引入了什么对照？",
+      "options": [
+        "Fame is contrasted with a high income.",
+        "One occupation is declared more prestigious than every other.",
+        "Making a difference is contrasted with making no difference in the world.",
+        "All repetitive work is contrasted with all meaningful relationships."
+      ],
+      "optionsZh": [
+        "名声与高收入的对照。",
+        "宣布某一职业比其他所有职业更有声望。",
+        "在世界上产生影响与没有产生影响的对照。",
+        "所有重复工作与所有有意义关系的对照。"
+      ],
+      "answer": 2,
+      "type": "逻辑关系",
+      "support": "explicit",
+      "analyses": [
+        "A In contrast 在这里不是比较收入和名声。",
+        "B 没有职业声望排名。",
+        "C does not make any difference 用否定结构描述无意义人生，形成“产生影响／没有产生影响”的对照。",
+        "D 这一句没有把工作与关系分成两组，也不能由后面职业例子推断所有重复工作无意义。"
+      ],
+      "vocabulary": [
+        {
+          "word": "In contrast",
+          "meaning": "相反；形成对照的是",
+          "context": "把意义的影响维度与其缺失相对照，不是另立职业优劣榜。",
+          "example": "The first route is busy; in contrast, the second is usually quiet.",
+          "collocations": [
+            "in contrast to",
+            "in contrast"
+          ]
+        }
+      ],
+      "translation": "相比之下，无意义的生活是对世界不产生任何影响的生活。人类学家 David Graeber 在《毫无意义的工作：一种理论》中认为，世界各地有数百万人正辛苦地把生命耗费在无意义的工作上。他把这种工作定义为：连从事它的人自己都无法真正说明其存在理由的工作。",
+      "evidenceTargetIds": [
+        "c03-s01-p028-02700-s001"
+      ],
+      "evidence": [
+        {
+          "quote": "In contrast, a meaningless life is a life that does not make any difference in the world.",
+          "sentenceIds": [
+            "c03-s01-p028-02700-s001"
+          ],
+          "sources": [
+            {
+              "pdfPage": 28,
+              "block": 1,
+              "bbox": [
+                76.99,
+                270,
+                535,
+                596.52
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "contentRevision": "question-review-2026-10-28-029",
+      "fingerprint": "dd8c158ce72528c7856beb2da6ce95751a7a30cf39e796bc89fce675c708f64e"
+    },
+    {
+      "id": "qe-c03-0011",
+      "version": 2,
+      "family": "sentence-evidence",
+      "batchId": "evidence-008",
+      "parentQuestionId": "q-c03-008",
+      "chapterId": "c03",
+      "sectionId": "c03-s01",
+      "paragraphId": "c03-s01-p028-02700",
+      "readingUnitId": "c03-s01-p028-02700-r001-003",
+      "sentenceIds": [
+        "c03-s01-p028-02700-s001",
+        "c03-s01-p028-02700-s002",
+        "c03-s01-p028-02700-s003"
+      ],
+      "passage": "In contrast, a meaningless life is a life that does not make any difference in the world. Anthropologist David Graeber, in his book Bullshit Jobs: A Theory, argues that there are millions of people around the world who are toiling away their lives in meaningless jobs. He defines a bullshit job as a job that the person who is doing it can’t really justify the existence of that job.",
+      "prompt": "Whose argument about millions of people in meaningless jobs is being reported?",
+      "promptZh": "关于数百万人从事无意义工作的论点被归于谁？",
+      "options": [
+        "Donna Tartt, presenting a definition of happiness.",
+        "David Graeber, in Bullshit Jobs: A Theory.",
+        "Michael Steger, reporting the informant survey.",
+        "Michelle Obama, addressing CUNY graduates."
+      ],
+      "optionsZh": [
+        "唐娜·塔特在定义幸福。",
+        "大卫·格雷伯，在《Bullshit Jobs: A Theory》中。",
+        "迈克尔·斯蒂格，在报告知情人调查。",
+        "米歇尔·奥巴马，向 CUNY 毕业生讲话。"
+      ],
+      "answer": 1,
+      "type": "观点归属",
+      "support": "explicit",
+      "analyses": [
+        "A 当前句没有把这一工作论点归给 Donna Tartt，argues 的主语明示为 David Graeber。",
+        "B Anthropologist David Graeber...argues 清楚给出人物、著作和论点归属。",
+        "C 当前句没有将这一论点归于 Michael Steger，也没有介绍知情人调查。",
+        "D 本句明示 Graeber 及其著作，不是 Michelle Obama 的毕业演讲；argues 标明论点归属，不能变成作者亲自统计证实。"
+      ],
+      "vocabulary": [
+        {
+          "word": "toiling",
+          "meaning": "辛苦劳动；长时间劳作",
+          "context": "toiling away their lives 带有耗费一生劳动的评价色彩，属于格雷伯论点的转述。",
+          "example": "The workers were toiling in the fields throughout the afternoon.",
+          "collocations": [
+            "toil away",
+            "toil for long hours"
+          ]
+        }
+      ],
+      "translation": "相比之下，无意义的生活是对世界不产生任何影响的生活。人类学家 David Graeber 在《毫无意义的工作：一种理论》中认为，世界各地有数百万人正辛苦地把生命耗费在无意义的工作上。他把这种工作定义为：连从事它的人自己都无法真正说明其存在理由的工作。",
+      "evidenceTargetIds": [
+        "c03-s01-p028-02700-s002"
+      ],
+      "evidence": [
+        {
+          "quote": "Anthropologist David Graeber, in his book Bullshit Jobs: A Theory, argues that there are millions of people around the world who are toiling away their lives in meaningless jobs.",
+          "sentenceIds": [
+            "c03-s01-p028-02700-s002"
+          ],
+          "sources": [
+            {
+              "pdfPage": 28,
+              "block": 1,
+              "bbox": [
+                76.99,
+                270,
+                535,
+                596.52
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "contentRevision": "question-review-2026-10-28-029",
+      "fingerprint": "2a6bbdd1e38d7cc557da6d663e974bcf3785fc048ee068bb9babc9bfcf72c663"
     }
   ]
 }
