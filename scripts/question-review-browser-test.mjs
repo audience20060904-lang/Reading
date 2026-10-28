@@ -29,6 +29,11 @@ try{
   if(batchNumber==='014'&&q.id==='q-c01-017'){
    await page.getByRole('button',{name:'查词 celibate',exact:true}).click();await page.getByRole('dialog',{name:'查词：celibate'}).waitFor();assert((await page.locator('.word-context').innerText()).includes('没有性生活'));assert((await page.locator('.word-context').innerText()).includes('不只是未婚'));assert.equal((await state()).attempts.length,0);await page.getByRole('button',{name:'关闭查词',exact:true}).click();check('celibate淡蓝色查词准确显示无性生活的语境义，提交前查词不增加成绩');
   }
+  if(batchNumber==='017'&&q.id==='q-c01-025'){
+   const lexical=await read('src/data/word-lookup-revisions.json');
+   for(const r of lexical.updates.filter(r=>r.revisionId.endsWith('-017'))){await page.locator(`[data-word-id="${r.occurrenceId}"]`).click();await page.getByRole('dialog',{name:'查词：batting average',exact:true}).waitFor();assert.equal(await page.locator('.word-context').innerText(),r.contextMeaning);assert.equal((await state()).attempts.length,0);await page.getByRole('button',{name:'关闭查词',exact:true}).click();}
+   check('两处batting average查词显示打击率/安打率，原文和标注位置不变且不增加成绩');
+  }
   const chosen=i%2?q.answer:(q.answer+1)%4;await page.getByRole('radio').nth(chosen).click();await page.getByRole('button',{name:'提交答案',exact:true}).click();await page.locator('.explanation').waitFor();assert.equal(await page.locator('.passage').count(),1);assert.equal(await page.locator('.passage').innerText(),q.passage);assert.equal(await page.locator('.question-translation [lang="zh-CN"]').innerText(),q.promptZh);assert.deepEqual(await page.locator('.option-translation').allTextContents(),q.optionsZh);assert.deepEqual(await page.locator('.option-reason').allTextContents(),q.analyses.map(a=>a.replace(/^[A-D]\s*/,'')));assert.equal(await page.locator('.translated-passage').innerText(),q.translation);assert.equal(await page.locator('.option.correct [lang="en"]').innerText(),q.options[q.answer]);assert.equal(await page.locator('.option.incorrect').count(),chosen===q.answer?0:1);assert(!(await page.locator('.explanation').innerText()).includes('下一批'));
   const saved=await state();assert.equal(saved.attempts.length,1);assert.equal(saved.attempts[0].fingerprint,q.fingerprint);assert.equal(saved.attempts[0].correct,chosen===q.answer);assert.deepEqual(saved.attempts[0].snapshot,q);await noOverflow();
  }

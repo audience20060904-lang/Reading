@@ -20,7 +20,7 @@ describe('第十四批：性禁欲的语境义和旧版保留',()=>{
  });
  it('查词修订只覆盖目标位置的释义，词形、偏移和原始词库保留',()=>{
   const corrections=read('src/data/word-lookup-revisions.json'),raw=read('src/data/word-lookups.json');
-  for(const r of corrections.updates){const o=Object.values(raw.paragraphs).flat().find((o:any)=>o.id===r.occurrenceId) as any;expect(o.contextMeaning).toBe(r.baselineContextMeaning);const word=getWordLookups(o.paragraphId,o.text,o.start)[0];expect(word.contextMeaning).toBe(r.contextMeaning);expect(word.start).toBe(o.start);expect(word.end).toBe(o.end);expect(word.text).toBe('celibate');expect(word.sentenceIds).toContain(r.sourceCandidateId);}
+  for(const r of corrections.updates.filter((r:any)=>r.revisionId==='question-review-2026-10-28-014')){const o=Object.values(raw.paragraphs).flat().find((o:any)=>o.id===r.occurrenceId) as any;expect(o.contextMeaning).toBe(r.baselineContextMeaning);const word=getWordLookups(o.paragraphId,o.text,o.start)[0];expect(word.contextMeaning).toBe(r.contextMeaning);expect(word.start).toBe(o.start);expect(word.end).toBe(o.end);expect(word.text).toBe('celibate');expect(word.sentenceIds).toContain(r.sourceCandidateId);}
  });
  it('新旧题目快照及词汇可分别备份，不改写历史译义',()=>{
   const old=baseline.questions.find((v:any)=>v.id==='qe-c01-0025'),next=q(old.id),s=emptyState();

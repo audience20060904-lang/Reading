@@ -1,0 +1,1017 @@
+{
+  "pdfSha256": "be25c859f1bd894a4b0d1cff024ded1297f6a96a8e8ddabea1e3abcf89160a50",
+  "sourceCommit": "38012767ddfd0230ae8a1e01ad47e54f43d4e196",
+  "questions": [
+    {
+      "id": "q-c01-065",
+      "version": 1,
+      "readingUnitId": "c01-s04-p013-05662-r005-008",
+      "chapterId": "c01",
+      "sectionId": "c01-s04",
+      "paragraphId": "c01-s04-p013-05662",
+      "sentenceIds": [
+        "c01-s04-p013-05662-s005",
+        "c01-s04-p013-05662-s006",
+        "c01-s04-p013-05662-s007",
+        "c01-s04-p013-05662-s008"
+      ],
+      "passage": "With the right wind and air pressure, it floats high. Smooth sailing. Life is going well. But when the weather is bad, it deflates.",
+      "prompt": "What change is marked by “But” in the balloon image?",
+      "options": [
+        "The balloon becomes unaffected by its surroundings.",
+        "Bad weather is presented as the cause of smooth sailing.",
+        "Favourable conditions keep it high, whereas bad weather makes it deflate.",
+        "The passage shifts from a metaphor to results of a weather experiment."
+      ],
+      "answer": 2,
+      "type": "逻辑关系",
+      "promptZh": "气球意象中的“But”标记了什么变化？",
+      "optionsZh": [
+        "气球不再受周围环境影响。",
+        "坏天气被说成是一帆风顺的原因。",
+        "有利条件使它高高飘起，而坏天气使它瘪下来。",
+        "从比喻转为报告天气实验结果。"
+      ],
+      "analyses": [
+        "A 天气改变状态，说明仍受环境影响。",
+        "B Smooth sailing 位于好条件下，把因果方向与条件对错了。",
+        "C right wind and air pressure 与 bad weather 对照，floats high 转为 deflates。",
+        "D 全段仍在展开气球意象，没有实验数据或方法。"
+      ],
+      "evidence": [
+        {
+          "quote": "With the right wind and air pressure, it floats high. Smooth sailing. Life is going well. But when the weather is bad, it deflates.",
+          "sentenceIds": [
+            "c01-s04-p013-05662-s005",
+            "c01-s04-p013-05662-s006",
+            "c01-s04-p013-05662-s007",
+            "c01-s04-p013-05662-s008"
+          ],
+          "sources": [
+            {
+              "pdfPage": 13,
+              "block": 3,
+              "bbox": [
+                76.99,
+                566.25,
+                535.01,
+                717.27
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "deflates",
+          "meaning": "泄气；瘪下来",
+          "context": "气球意象中由高涨转为低落的状态变化",
+          "example": "The balloon slowly deflates when air escapes.",
+          "collocations": [
+            "a balloon deflates",
+            "deflate a balloon"
+          ]
+        }
+      ],
+      "translation": "在合适的风和气压下，它会高高飘起。一帆风顺，生活进展良好。但天气不好时，它就瘪了下来。",
+      "support": "explicit",
+      "editorialStatus": "按第 1 章 PDF 第 9–16 页具体原文编写；保持已发布短段边界；区分叙事、研究概括、比喻与引文",
+      "fingerprint": "76bea34170715e04ea21c1f6cb59a07f60413c799cdc0de886faaf4c0822ac25"
+    },
+    {
+      "id": "q-c01-025",
+      "version": 2,
+      "chapterId": "c01",
+      "sectionId": "c01-s04",
+      "paragraphId": "c01-s04-p013-05662",
+      "sentenceIds": [
+        "c01-s04-p013-05662-s011",
+        "c01-s04-p013-05662-s012",
+        "c01-s04-p013-05662-s013",
+        "c01-s04-p013-05662-s014",
+        "c01-s04-p013-05662-s015"
+      ],
+      "passage": "In another sense, happiness is like your batting average in baseball. It goes up and down, but what matters most is the frequency of your hits. An infield hit is as worthy as a huge home run when it comes to the batting average. You should aim for as many hits as possible. In other words, frequent small, pleasant social interactions add up to long-term happiness more quickly than occasional big promotions.",
+      "prompt": "What does the batting-average comparison suggest about happiness?",
+      "options": [
+        "Only rare, spectacular achievements have lasting value.",
+        "Frequent small positive interactions can matter more than occasional major successes.",
+        "Happiness remains constant once a major goal is reached.",
+        "The size of each pleasant event is the only important factor."
+      ],
+      "answer": 1,
+      "type": "同义改写",
+      "analyses": [
+        "A 与 frequent small 相反。",
+        "B 准确保留频率与重大但偶发事件的对照。",
+        "C rises and falls / changes 与 constant 相反。",
+        "D only size 偷换 frequency 为强度。"
+      ],
+      "evidence": [
+        {
+          "quote": "In other words, frequent small, pleasant social interactions add up to long-term happiness more quickly than occasional big promotions.",
+          "sentenceIds": [
+            "c01-s04-p013-05662-s015"
+          ],
+          "sources": [
+            {
+              "pdfPage": 14,
+              "block": 0,
+              "bbox": [
+                76.99,
+                75,
+                535.01,
+                148.02
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "frequency",
+          "meaning": "频率",
+          "context": "令人愉快的小互动出现的次数",
+          "example": "The frequency of meetings has increased.",
+          "collocations": [
+            "the frequency of events",
+            "high frequency"
+          ]
+        }
+      ],
+      "support": "explicit",
+      "editorialStatus": "短段版 v2；连续原句，配题片段互不重叠；保留 v1 历史快照，不重算旧成绩",
+      "translation": "从另一个角度看，幸福就像棒球中的击球率。它有升有降，但最重要的是击中球的频率。就击球率而言，一次内场安打与一记大号全垒打同样有价值。你的目标应当是尽可能多地击出安打。换言之，频繁的小型愉快社交互动，比偶尔的大幅晋升更快地积累起长久幸福。",
+      "readingUnitId": "c01-s04-p013-05662-r011-015",
+      "fingerprint": "e154d36f6f67315ccffede3a603ea16b6bd82447c97f59472520594103ac9f09"
+    },
+    {
+      "id": "qe-c01-0042",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-002",
+      "parentQuestionId": "q-c01-025",
+      "chapterId": "c01",
+      "sectionId": "c01-s04",
+      "paragraphId": "c01-s04-p013-05662",
+      "readingUnitId": "c01-s04-p013-05662-r011-015",
+      "sentenceIds": [
+        "c01-s04-p013-05662-s011",
+        "c01-s04-p013-05662-s012",
+        "c01-s04-p013-05662-s013",
+        "c01-s04-p013-05662-s014",
+        "c01-s04-p013-05662-s015"
+      ],
+      "passage": "In another sense, happiness is like your batting average in baseball. It goes up and down, but what matters most is the frequency of your hits. An infield hit is as worthy as a huge home run when it comes to the batting average. You should aim for as many hits as possible. In other words, frequent small, pleasant social interactions add up to long-term happiness more quickly than occasional big promotions.",
+      "prompt": "What is happiness compared with in this particular sentence?",
+      "promptZh": "在这一句中，幸福被比作什么？",
+      "options": [
+        "The total home runs across an entire career.",
+        "The longest home run in a single game.",
+        "The salary received by a successful player.",
+        "A player's batting average."
+      ],
+      "optionsZh": [
+        "整个职业生涯的全垒打总数。",
+        "一场比赛中距离最远的全垒打。",
+        "成功球员获得的薪水。",
+        "球员的击球率。"
+      ],
+      "answer": 3,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A 职业生涯全垒打总数是后面说明心理丰富性的另一类比，不能移到本句。",
+        "B 本句没有把幸福比作单次击球的最大距离。",
+        "C 原文没有使用薪水这一指标。",
+        "D happiness is like your batting average in baseball 是直接对应。类比帮助理解概念，并不把幸福变成真实棒球统计。"
+      ],
+      "vocabulary": [
+        {
+          "word": "batting average",
+          "meaning": "击球率；打击率",
+          "context": "棒球中的统计指标，被作者用来类比会随表现波动的幸福感。",
+          "example": "The player's batting average improved during the season.",
+          "collocations": [
+            "a high batting average",
+            "improve one's batting average"
+          ]
+        }
+      ],
+      "translation": "从另一个角度看，幸福就像棒球中的击球率。它有升有降，但最重要的是击中球的频率。就击球率而言，一次内场安打与一记大号全垒打同样有价值。你的目标应当是尽可能多地击出安打。换言之，频繁的小型愉快社交互动，比偶尔的大幅晋升更快地积累起长久幸福。",
+      "evidenceTargetIds": [
+        "c01-s04-p013-05662-s011"
+      ],
+      "evidence": [
+        {
+          "quote": "In another sense, happiness is like your batting average in baseball.",
+          "sentenceIds": [
+            "c01-s04-p013-05662-s011"
+          ],
+          "sources": [
+            {
+              "pdfPage": 13,
+              "block": 3,
+              "bbox": [
+                76.99,
+                566.25,
+                535.01,
+                717.27
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "70eae7aef71662ecf4c711afe1c2ac071654459af4e7df9bb7a181adfde62396"
+    },
+    {
+      "id": "qe-c01-0043",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-002",
+      "parentQuestionId": "q-c01-025",
+      "chapterId": "c01",
+      "sectionId": "c01-s04",
+      "paragraphId": "c01-s04-p013-05662",
+      "readingUnitId": "c01-s04-p013-05662-r011-015",
+      "sentenceIds": [
+        "c01-s04-p013-05662-s011",
+        "c01-s04-p013-05662-s012",
+        "c01-s04-p013-05662-s013",
+        "c01-s04-p013-05662-s014",
+        "c01-s04-p013-05662-s015"
+      ],
+      "passage": "In another sense, happiness is like your batting average in baseball. It goes up and down, but what matters most is the frequency of your hits. An infield hit is as worthy as a huge home run when it comes to the batting average. You should aim for as many hits as possible. In other words, frequent small, pleasant social interactions add up to long-term happiness more quickly than occasional big promotions.",
+      "prompt": "What matters most within the batting-average analogy?",
+      "promptZh": "在击球率的类比中，最重要的是什么？",
+      "options": [
+        "The distance reached by the single biggest hit.",
+        "How frequently the player gets a hit.",
+        "Preventing the average from ever going down.",
+        "Receiving the same score in every game."
+      ],
+      "optionsZh": [
+        "最大的一次击球飞出的距离。",
+        "球员击出安打的频率。",
+        "使击球率永远不下降。",
+        "每场比赛都得到相同分数。"
+      ],
+      "answer": 1,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A frequency 说的是频率，不是单次击球的距离。",
+        "B what matters most is the frequency of your hits 直接给出核心标准。",
+        "C goes up and down 承认波动，不能改成永不下降。",
+        "D 本句没有要求每场分数相同，也不能把平均表现误作每次都完全一致。"
+      ],
+      "vocabulary": [
+        {
+          "word": "frequency",
+          "meaning": "频率；发生的频繁程度",
+          "context": "强调击出安打有多频繁，而不是某一次击球有多壮观。",
+          "example": "The diary recorded the frequency of pleasant daily interactions.",
+          "collocations": [
+            "the frequency of hits",
+            "high frequency"
+          ]
+        }
+      ],
+      "translation": "从另一个角度看，幸福就像棒球中的击球率。它有升有降，但最重要的是击中球的频率。就击球率而言，一次内场安打与一记大号全垒打同样有价值。你的目标应当是尽可能多地击出安打。换言之，频繁的小型愉快社交互动，比偶尔的大幅晋升更快地积累起长久幸福。",
+      "evidenceTargetIds": [
+        "c01-s04-p013-05662-s012"
+      ],
+      "evidence": [
+        {
+          "quote": "It goes up and down, but what matters most is the frequency of your hits.",
+          "sentenceIds": [
+            "c01-s04-p013-05662-s012"
+          ],
+          "sources": [
+            {
+              "pdfPage": 13,
+              "block": 3,
+              "bbox": [
+                76.99,
+                566.25,
+                535.01,
+                717.27
+              ]
+            },
+            {
+              "pdfPage": 14,
+              "block": 0,
+              "bbox": [
+                76.99,
+                75,
+                535.01,
+                148.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "b45343276a98b612640c171f412fcdf56da290e07a1cb9166db66e78203231c0"
+    },
+    {
+      "id": "qe-c01-0044",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-002",
+      "parentQuestionId": "q-c01-025",
+      "chapterId": "c01",
+      "sectionId": "c01-s04",
+      "paragraphId": "c01-s04-p013-05662",
+      "readingUnitId": "c01-s04-p013-05662-r011-015",
+      "sentenceIds": [
+        "c01-s04-p013-05662-s011",
+        "c01-s04-p013-05662-s012",
+        "c01-s04-p013-05662-s013",
+        "c01-s04-p013-05662-s014",
+        "c01-s04-p013-05662-s015"
+      ],
+      "passage": "In another sense, happiness is like your batting average in baseball. It goes up and down, but what matters most is the frequency of your hits. An infield hit is as worthy as a huge home run when it comes to the batting average. You should aim for as many hits as possible. In other words, frequent small, pleasant social interactions add up to long-term happiness more quickly than occasional big promotions.",
+      "prompt": "In what respect are an infield hit and a huge home run said to be equally worthy?",
+      "promptZh": "内场安打与大号全垒打在哪个方面被说成同样有价值？",
+      "options": [
+        "They both count as hits for the batting average.",
+        "They always bring in exactly the same number of runs.",
+        "A home run improves the average more than an infield hit.",
+        "Their value is identical in every aspect of baseball."
+      ],
+      "optionsZh": [
+        "计算击球率时，它们都算安打。",
+        "它们总能带来完全相同的得分。",
+        "全垒打比内场安打更能提高击球率。",
+        "它们在棒球的所有方面都具有完全相同的价值。"
+      ],
+      "answer": 0,
+      "type": "逻辑关系",
+      "support": "explicit",
+      "analyses": [
+        "A as worthy as 的相等关系由 when it comes to the batting average 限定，指击球率这一指标。",
+        "B 句子没有说得分数量也相同，不能把一个统计指标的等价扩大到得分。",
+        "C 这与 as worthy as 在该指标上的对等关系相反。",
+        "D every aspect 超出 when it comes to 所限定的范围。"
+      ],
+      "vocabulary": [
+        {
+          "word": "when it comes to",
+          "meaning": "说到；就……而言",
+          "context": "把比较范围限定在 batting average，不是棒球所有指标。",
+          "example": "The two options are similar when it comes to cost.",
+          "collocations": [
+            "when it comes to a particular measure",
+            "when it comes to performance"
+          ]
+        }
+      ],
+      "translation": "从另一个角度看，幸福就像棒球中的击球率。它有升有降，但最重要的是击中球的频率。就击球率而言，一次内场安打与一记大号全垒打同样有价值。你的目标应当是尽可能多地击出安打。换言之，频繁的小型愉快社交互动，比偶尔的大幅晋升更快地积累起长久幸福。",
+      "evidenceTargetIds": [
+        "c01-s04-p013-05662-s013"
+      ],
+      "evidence": [
+        {
+          "quote": "An infield hit is as worthy as a huge home run when it comes to the batting average.",
+          "sentenceIds": [
+            "c01-s04-p013-05662-s013"
+          ],
+          "sources": [
+            {
+              "pdfPage": 14,
+              "block": 0,
+              "bbox": [
+                76.99,
+                75,
+                535.01,
+                148.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "aba1ab46c697bf710a6bc9547a908a49585c19a51e2dffb58745ac86ed698fb4"
+    },
+    {
+      "id": "qe-c01-0045",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-002",
+      "parentQuestionId": "q-c01-025",
+      "chapterId": "c01",
+      "sectionId": "c01-s04",
+      "paragraphId": "c01-s04-p013-05662",
+      "readingUnitId": "c01-s04-p013-05662-r011-015",
+      "sentenceIds": [
+        "c01-s04-p013-05662-s011",
+        "c01-s04-p013-05662-s012",
+        "c01-s04-p013-05662-s013",
+        "c01-s04-p013-05662-s014",
+        "c01-s04-p013-05662-s015"
+      ],
+      "passage": "In another sense, happiness is like your batting average in baseball. It goes up and down, but what matters most is the frequency of your hits. An infield hit is as worthy as a huge home run when it comes to the batting average. You should aim for as many hits as possible. In other words, frequent small, pleasant social interactions add up to long-term happiness more quickly than occasional big promotions.",
+      "prompt": "Which everyday approach best fits the recommendation to aim for many hits?",
+      "promptZh": "哪种日常做法最符合尽量多击出安打这一类比中的建议？",
+      "options": [
+        "Rely entirely on one rare major promotion.",
+        "Judge life only by the size of occasional rewards.",
+        "Seek frequent small, pleasant social experiences.",
+        "Avoid social contact unless it brings an exceptional success."
+      ],
+      "optionsZh": [
+        "完全依赖一次罕见的重大晋升。",
+        "只用偶尔获得的奖励大小来判断生活。",
+        "争取频繁、微小而愉快的社交体验。",
+        "除非能带来非凡成功，否则避免社交接触。"
+      ],
+      "answer": 2,
+      "type": "有限推断",
+      "support": "limited-inference",
+      "analyses": [
+        "A rare major promotion 属于作者用来对照的偶发大事件，不是 many hits 的对应。",
+        "B 这里强调频繁程度，而不是只追求偶尔的大奖励。",
+        "C In other words 将击球类比明确落到 frequent small, pleasant social interactions 上，支持这一日常对应。",
+        "D 不能把频繁的小型愉快互动改成仅在有重大成功时才社交；此建议也不是人人达到固定幸福值的保证。"
+      ],
+      "vocabulary": [
+        {
+          "word": "aim for",
+          "meaning": "以……为目标；努力争取",
+          "context": "在类比中争取更多安打，进而说明频繁的小型愉快互动的重要性。",
+          "example": "Aim for small improvements that you can maintain.",
+          "collocations": [
+            "aim for improvement",
+            "aim for as many as possible"
+          ]
+        }
+      ],
+      "translation": "从另一个角度看，幸福就像棒球中的击球率。它有升有降，但最重要的是击中球的频率。就击球率而言，一次内场安打与一记大号全垒打同样有价值。你的目标应当是尽可能多地击出安打。换言之，频繁的小型愉快社交互动，比偶尔的大幅晋升更快地积累起长久幸福。",
+      "evidenceTargetIds": [
+        "c01-s04-p013-05662-s014"
+      ],
+      "evidence": [
+        {
+          "quote": "You should aim for as many hits as possible. In other words, frequent small, pleasant social interactions add up to long-term happiness more quickly than occasional big promotions.",
+          "sentenceIds": [
+            "c01-s04-p013-05662-s014",
+            "c01-s04-p013-05662-s015"
+          ],
+          "sources": [
+            {
+              "pdfPage": 14,
+              "block": 0,
+              "bbox": [
+                76.99,
+                75,
+                535.01,
+                148.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "e1c082a306d85623cfd385e8fb643b56b6a18ba95cef9c6f64ac7558e164eeb5"
+    },
+    {
+      "id": "q-c01-026",
+      "version": 2,
+      "chapterId": "c01",
+      "sectionId": "c01-s04",
+      "paragraphId": "c01-s04-p014-01530",
+      "sentenceIds": [
+        "c01-s04-p014-01530-s001",
+        "c01-s04-p014-01530-s002",
+        "c01-s04-p014-01530-s003",
+        "c01-s04-p014-01530-s004",
+        "c01-s04-p014-01530-s005",
+        "c01-s04-p014-01530-s006"
+      ],
+      "passage": "The snag is that happiness—like the batting average—changes over time; one season you hit well; another season not so well. In The Varieties of Religious Experience, William James declared, “To begin with, how can things so insecure as the successful experiences of this world afford a stable anchorage? A chain is no stronger than its weakest link, and life is after all a chain. In the healthiest and most prosperous existence, how many links of illness, danger, and disaster are always interposed?” So it goes. The fragility of happiness.",
+      "prompt": "What is “the snag” in the discussion of happiness?",
+      "options": [
+        "Sporting results cannot be measured.",
+        "William James rejects all pleasant experiences.",
+        "Happiness fluctuates and therefore offers insecure support.",
+        "Success is impossible in a prosperous life."
+      ],
+      "answer": 2,
+      "type": "语境词义",
+      "analyses": [
+        "A 棒球是类比，未否定测量。",
+        "B 引文用于说明不稳定，不等于拒绝一切愉悦。",
+        "C 对应 changes over time 与 insecure anchorage。",
+        "D impossible 无依据，原文说健康繁荣的人生仍夹杂危险。"
+      ],
+      "evidence": [
+        {
+          "quote": "The snag is that happiness—like the batting average—changes over time; one season you hit well; another season not so well.",
+          "sentenceIds": [
+            "c01-s04-p014-01530-s001"
+          ],
+          "sources": [
+            {
+              "pdfPage": 14,
+              "block": 1,
+              "bbox": [
+                76.99,
+                153,
+                535.01,
+                304.02
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "snag",
+          "meaning": "障碍；意外问题",
+          "context": "幸福随时间变化，因而不稳固",
+          "example": "The plan hit a snag at the final stage.",
+          "collocations": [
+            "hit a snag",
+            "a technical snag"
+          ]
+        }
+      ],
+      "support": "explicit",
+      "editorialStatus": "短段版 v2；连续原句，配题片段互不重叠；保留 v1 历史快照，不重算旧成绩",
+      "translation": "问题在于，幸福就像击球率，会随时间变化；这个赛季打得好，下个赛季却未必。威廉·詹姆斯在《宗教经验之种种》中宣称：“首先，这世上如此不稳定的成功经历，怎么能提供稳固的锚点？链条的强度取决于最薄弱的一环，而人生终究是一条链。在最健康、最富足的人生里，也总会插入多少疾病、危险与灾难的环节啊？”事情就是如此。幸福是脆弱的。",
+      "readingUnitId": "c01-s04-p014-01530-r001-006",
+      "fingerprint": "df2f00df28089664746e30a5d81b3c527a39c2c5bc4f1d23528fd7b05e5c3c82"
+    },
+    {
+      "id": "qe-c01-0046",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-002",
+      "parentQuestionId": "q-c01-026",
+      "chapterId": "c01",
+      "sectionId": "c01-s04",
+      "paragraphId": "c01-s04-p014-01530",
+      "readingUnitId": "c01-s04-p014-01530-r001-006",
+      "sentenceIds": [
+        "c01-s04-p014-01530-s001",
+        "c01-s04-p014-01530-s002",
+        "c01-s04-p014-01530-s003",
+        "c01-s04-p014-01530-s004",
+        "c01-s04-p014-01530-s005",
+        "c01-s04-p014-01530-s006"
+      ],
+      "passage": "The snag is that happiness—like the batting average—changes over time; one season you hit well; another season not so well. In The Varieties of Religious Experience, William James declared, “To begin with, how can things so insecure as the successful experiences of this world afford a stable anchorage? A chain is no stronger than its weakest link, and life is after all a chain. In the healthiest and most prosperous existence, how many links of illness, danger, and disaster are always interposed?” So it goes. The fragility of happiness.",
+      "prompt": "What question does William James raise in the quotation?",
+      "promptZh": "威廉·詹姆斯在引文中提出了什么问题？",
+      "options": [
+        "How a physical harbour should be designed for safer ships.",
+        "Which successful person has accumulated the greatest wealth.",
+        "Which experiment proves that happiness will never change.",
+        "Whether insecure worldly successes can provide a stable foundation."
+      ],
+      "optionsZh": [
+        "怎样设计实体港口才能使船更安全。",
+        "哪位成功人士积累了最多财富。",
+        "哪项实验能证明幸福永不改变。",
+        "不稳固的世间成功能否提供牢靠的基础。"
+      ],
+      "answer": 3,
+      "type": "主旨",
+      "support": "explicit",
+      "analyses": [
+        "A stable anchorage 在这里是人生基础的比喻，不是港口工程问题。",
+        "B 引文质疑成功的稳固性，没有给成功人士排财富名次。",
+        "C 这是一段思想性引述，而不是报告一个证明幸福不变的实验。",
+        "D how can things so insecure...afford a stable anchorage 直接质疑不稳定经历能否成为稳固依靠。"
+      ],
+      "vocabulary": [
+        {
+          "word": "anchorage",
+          "meaning": "锚地；此处喻稳固依靠或基础",
+          "context": "James 用航海意象询问世间成功能否给人生提供可靠支撑。",
+          "example": "A lasting friendship gave her a sense of anchorage during the move.",
+          "collocations": [
+            "a stable anchorage",
+            "provide anchorage"
+          ]
+        }
+      ],
+      "translation": "问题在于，幸福就像击球率，会随时间变化；这个赛季打得好，下个赛季却未必。威廉·詹姆斯在《宗教经验之种种》中宣称：“首先，这世上如此不稳定的成功经历，怎么能提供稳固的锚点？链条的强度取决于最薄弱的一环，而人生终究是一条链。在最健康、最富足的人生里，也总会插入多少疾病、危险与灾难的环节啊？”事情就是如此。幸福是脆弱的。",
+      "evidenceTargetIds": [
+        "c01-s04-p014-01530-s002"
+      ],
+      "evidence": [
+        {
+          "quote": "In The Varieties of Religious Experience, William James declared, “To begin with, how can things so insecure as the successful experiences of this world afford a stable anchorage?",
+          "sentenceIds": [
+            "c01-s04-p014-01530-s002"
+          ],
+          "sources": [
+            {
+              "pdfPage": 14,
+              "block": 1,
+              "bbox": [
+                76.99,
+                153,
+                535.01,
+                304.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "f350212a7df819c460d084c13c99b4c75137bebd775aaa55c3fc2fb47525fe4e"
+    },
+    {
+      "id": "qe-c01-0047",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-002",
+      "parentQuestionId": "q-c01-026",
+      "chapterId": "c01",
+      "sectionId": "c01-s04",
+      "paragraphId": "c01-s04-p014-01530",
+      "readingUnitId": "c01-s04-p014-01530-r001-006",
+      "sentenceIds": [
+        "c01-s04-p014-01530-s001",
+        "c01-s04-p014-01530-s002",
+        "c01-s04-p014-01530-s003",
+        "c01-s04-p014-01530-s004",
+        "c01-s04-p014-01530-s005",
+        "c01-s04-p014-01530-s006"
+      ],
+      "passage": "The snag is that happiness—like the batting average—changes over time; one season you hit well; another season not so well. In The Varieties of Religious Experience, William James declared, “To begin with, how can things so insecure as the successful experiences of this world afford a stable anchorage? A chain is no stronger than its weakest link, and life is after all a chain. In the healthiest and most prosperous existence, how many links of illness, danger, and disaster are always interposed?” So it goes. The fragility of happiness.",
+      "prompt": "What is implied by comparing life to a chain with a weakest link?",
+      "promptZh": "把人生比作有最薄弱一环的链条，暗示了什么？",
+      "options": [
+        "Every part of life must remain equally successful at all times.",
+        "An otherwise strong life can still be vulnerable through its weak points.",
+        "The number of links gives an exact formula for a person's happiness.",
+        "A single success makes all later illness and danger impossible."
+      ],
+      "optionsZh": [
+        "人生每一部分在所有时候都必须同样成功。",
+        "整体看似强健的人生仍可能因薄弱处而脆弱。",
+        "链环数量给出了个人幸福的精确公式。",
+        "一次成功就能使日后的疾病和危险都不可能发生。"
+      ],
+      "answer": 1,
+      "type": "有限推断",
+      "support": "limited-inference",
+      "analyses": [
+        "A no stronger than its weakest link 强调限制与脆弱点，不是宣布各部分始终同等成功的要求。",
+        "B 最薄弱一环会限制整条链的强度，这一比喻支持整体仍会受薄弱处影响的有限推断。",
+        "C 链条是修辞比喻，不能擅自改成按链环数量计算幸福的公式。",
+        "D 比喻并不赋予成功消除后续风险的保证，后文恰恰继续谈疾病与危险。"
+      ],
+      "vocabulary": [
+        {
+          "word": "weakest link",
+          "meaning": "最薄弱的环节",
+          "context": "用链条的薄弱一环比喻人生稳固性受到脆弱处限制，不是在评价某个人的价值。",
+          "example": "An outdated component became the weakest link in the system.",
+          "collocations": [
+            "the weakest link in a chain",
+            "no stronger than its weakest link"
+          ]
+        }
+      ],
+      "translation": "问题在于，幸福就像击球率，会随时间变化；这个赛季打得好，下个赛季却未必。威廉·詹姆斯在《宗教经验之种种》中宣称：“首先，这世上如此不稳定的成功经历，怎么能提供稳固的锚点？链条的强度取决于最薄弱的一环，而人生终究是一条链。在最健康、最富足的人生里，也总会插入多少疾病、危险与灾难的环节啊？”事情就是如此。幸福是脆弱的。",
+      "evidenceTargetIds": [
+        "c01-s04-p014-01530-s003"
+      ],
+      "evidence": [
+        {
+          "quote": "A chain is no stronger than its weakest link, and life is after all a chain.",
+          "sentenceIds": [
+            "c01-s04-p014-01530-s003"
+          ],
+          "sources": [
+            {
+              "pdfPage": 14,
+              "block": 1,
+              "bbox": [
+                76.99,
+                153,
+                535.01,
+                304.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "59a58aed14de1e3b0e7027350490ebb2040e8ba449b402ed94b2b40ca6a084fd"
+    },
+    {
+      "id": "qe-c01-0048",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-002",
+      "parentQuestionId": "q-c01-026",
+      "chapterId": "c01",
+      "sectionId": "c01-s04",
+      "paragraphId": "c01-s04-p014-01530",
+      "readingUnitId": "c01-s04-p014-01530-r001-006",
+      "sentenceIds": [
+        "c01-s04-p014-01530-s001",
+        "c01-s04-p014-01530-s002",
+        "c01-s04-p014-01530-s003",
+        "c01-s04-p014-01530-s004",
+        "c01-s04-p014-01530-s005",
+        "c01-s04-p014-01530-s006"
+      ],
+      "passage": "The snag is that happiness—like the batting average—changes over time; one season you hit well; another season not so well. In The Varieties of Religious Experience, William James declared, “To begin with, how can things so insecure as the successful experiences of this world afford a stable anchorage? A chain is no stronger than its weakest link, and life is after all a chain. In the healthiest and most prosperous existence, how many links of illness, danger, and disaster are always interposed?” So it goes. The fragility of happiness.",
+      "prompt": "What point is made by mentioning even the healthiest and most prosperous lives?",
+      "promptZh": "提到即使最健康、最富足的人生，是为了说明什么？",
+      "options": [
+        "Wealth itself necessarily causes illness and disaster.",
+        "Healthy and wealthy people are immune to danger.",
+        "Even favourable lives remain open to disruption and hardship.",
+        "Every disaster reliably increases the happiness of its victims."
+      ],
+      "optionsZh": [
+        "财富本身必然造成疾病与灾难。",
+        "健康富足者不会遭遇危险。",
+        "即使条件优越的人生也仍可能受到困难和变故影响。",
+        "每场灾难都能可靠地提升受害者的幸福。"
+      ],
+      "answer": 2,
+      "type": "作者意图",
+      "support": "limited-inference",
+      "analyses": [
+        "A 把最有利条件下仍有风险，倒换成财富造成风险，原文没有这种因果断言。",
+        "B illness, danger, and disaster 的插入恰好否定完全免疫的理解。",
+        "C healthiest and most prosperous 是让步式强调，说明优越条件也不能使人生完全免于变故。",
+        "D 这里谈脆弱性，没有主张受害者必从灾难中获益；更不能把修辞概括当成个体恢复保证。"
+      ],
+      "vocabulary": [
+        {
+          "word": "prosperous",
+          "meaning": "富足的；兴旺的",
+          "context": "与 healthiest 并列，形容看似条件有利的生活，不等同于作者提出的心理丰富性。",
+          "example": "The town became prosperous as trade expanded.",
+          "collocations": [
+            "a prosperous existence",
+            "a prosperous community"
+          ]
+        }
+      ],
+      "translation": "问题在于，幸福就像击球率，会随时间变化；这个赛季打得好，下个赛季却未必。威廉·詹姆斯在《宗教经验之种种》中宣称：“首先，这世上如此不稳定的成功经历，怎么能提供稳固的锚点？链条的强度取决于最薄弱的一环，而人生终究是一条链。在最健康、最富足的人生里，也总会插入多少疾病、危险与灾难的环节啊？”事情就是如此。幸福是脆弱的。",
+      "evidenceTargetIds": [
+        "c01-s04-p014-01530-s004"
+      ],
+      "evidence": [
+        {
+          "quote": "In the healthiest and most prosperous existence, how many links of illness, danger, and disaster are always interposed?”",
+          "sentenceIds": [
+            "c01-s04-p014-01530-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 14,
+              "block": 1,
+              "bbox": [
+                76.99,
+                153,
+                535.01,
+                304.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "de7a32f00dcea63a22847f4c5ac9f201e33171d0a49a0fe85403e1cb17421372"
+    },
+    {
+      "id": "qe-c01-0049",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-002",
+      "parentQuestionId": "q-c01-026",
+      "chapterId": "c01",
+      "sectionId": "c01-s04",
+      "paragraphId": "c01-s04-p014-01530",
+      "readingUnitId": "c01-s04-p014-01530-r001-006",
+      "sentenceIds": [
+        "c01-s04-p014-01530-s001",
+        "c01-s04-p014-01530-s002",
+        "c01-s04-p014-01530-s003",
+        "c01-s04-p014-01530-s004",
+        "c01-s04-p014-01530-s005",
+        "c01-s04-p014-01530-s006"
+      ],
+      "passage": "The snag is that happiness—like the batting average—changes over time; one season you hit well; another season not so well. In The Varieties of Religious Experience, William James declared, “To begin with, how can things so insecure as the successful experiences of this world afford a stable anchorage? A chain is no stronger than its weakest link, and life is after all a chain. In the healthiest and most prosperous existence, how many links of illness, danger, and disaster are always interposed?” So it goes. The fragility of happiness.",
+      "prompt": "Which attitude best fits the narrator's 'So it goes' after the quotation?",
+      "promptZh": "引文之后的 So it goes 最符合叙述者哪种态度？",
+      "options": [
+        "A resigned acknowledgement of life's recurring vulnerability.",
+        "Celebration that worldly success guarantees permanent security.",
+        "Excitement about a newly completed laboratory experiment.",
+        "An accusation that readers deliberately cause every misfortune."
+      ],
+      "optionsZh": [
+        "对人生反复出现的脆弱性的一种无奈承认。",
+        "庆祝世间成功能保证永久安全。",
+        "对刚完成的一项实验室实验感到兴奋。",
+        "指责读者有意造成每一场不幸。"
+      ],
+      "answer": 0,
+      "type": "作者态度",
+      "support": "limited-inference",
+      "analyses": [
+        "A 在关于疾病、危险和灾难会介入人生的引文之后，这句简短回应承认生活往往就是如此，带有无奈而非欢庆。",
+        "B 前面的质疑削弱了成功能作永久依靠的想法，并没有庆祝安全保证。",
+        "C 段落没有转入实验完成的消息，James 的话是思想性引述。",
+        "D 短语没有把所有不幸的责任推给读者；不能添上 deliberately 这一动机。"
+      ],
+      "vocabulary": [
+        {
+          "word": "So it goes",
+          "meaning": "事情就是如此；人生常常如此",
+          "context": "此处承接对不稳定与风险的感叹，不是庆祝一切都按计划成功。",
+          "example": "The plan changed again, and he shrugged: so it goes.",
+          "collocations": [
+            "so it goes",
+            "as things go"
+          ]
+        }
+      ],
+      "translation": "问题在于，幸福就像击球率，会随时间变化；这个赛季打得好，下个赛季却未必。威廉·詹姆斯在《宗教经验之种种》中宣称：“首先，这世上如此不稳定的成功经历，怎么能提供稳固的锚点？链条的强度取决于最薄弱的一环，而人生终究是一条链。在最健康、最富足的人生里，也总会插入多少疾病、危险与灾难的环节啊？”事情就是如此。幸福是脆弱的。",
+      "evidenceTargetIds": [
+        "c01-s04-p014-01530-s005"
+      ],
+      "evidence": [
+        {
+          "quote": "In the healthiest and most prosperous existence, how many links of illness, danger, and disaster are always interposed?” So it goes.",
+          "sentenceIds": [
+            "c01-s04-p014-01530-s004",
+            "c01-s04-p014-01530-s005"
+          ],
+          "sources": [
+            {
+              "pdfPage": 14,
+              "block": 1,
+              "bbox": [
+                76.99,
+                153,
+                535.01,
+                304.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "edc7e163003dc473f8831ccac8443519f484c9cb2e29eb425ce5d0cb4551c13e"
+    },
+    {
+      "id": "qe-c01-0050",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-002",
+      "parentQuestionId": "q-c01-026",
+      "chapterId": "c01",
+      "sectionId": "c01-s04",
+      "paragraphId": "c01-s04-p014-01530",
+      "readingUnitId": "c01-s04-p014-01530-r001-006",
+      "sentenceIds": [
+        "c01-s04-p014-01530-s001",
+        "c01-s04-p014-01530-s002",
+        "c01-s04-p014-01530-s003",
+        "c01-s04-p014-01530-s004",
+        "c01-s04-p014-01530-s005",
+        "c01-s04-p014-01530-s006"
+      ],
+      "passage": "The snag is that happiness—like the batting average—changes over time; one season you hit well; another season not so well. In The Varieties of Religious Experience, William James declared, “To begin with, how can things so insecure as the successful experiences of this world afford a stable anchorage? A chain is no stronger than its weakest link, and life is after all a chain. In the healthiest and most prosperous existence, how many links of illness, danger, and disaster are always interposed?” So it goes. The fragility of happiness.",
+      "prompt": "How does the final phrase 'The fragility of happiness' function in the paragraph?",
+      "promptZh": "段末的 The fragility of happiness 在本段中起什么作用？",
+      "options": [
+        "It dismisses all the preceding examples as irrelevant.",
+        "It sums up happiness as vulnerable rather than secure.",
+        "It announces a new controlled experiment.",
+        "It identifies the narrator's income as the only issue."
+      ],
+      "optionsZh": [
+        "它把前面的所有例子都斥为无关。",
+        "它用幸福的脆弱性概括前面的论述。",
+        "它宣布一项新的对照实验。",
+        "它认定叙述者的收入是唯一问题。"
+      ],
+      "answer": 1,
+      "type": "逻辑关系",
+      "support": "limited-inference",
+      "analyses": [
+        "A 这一短语概括前面的波动与脆弱，并没有否定前文相关性。",
+        "B fragility 作为简短结语，收束击球率波动、稳固锚点和薄弱链环的说明。",
+        "C 没有实验方法或分组信息，不能把概括短语当成研究设计。",
+        "D 本段谈的是幸福的稳固性，不是仅讨论作者收入。这里保留原书的名词性短语，不为它补造一个新英文句子。"
+      ],
+      "vocabulary": [
+        {
+          "word": "fragility",
+          "meaning": "脆弱性；容易受损或改变的性质",
+          "context": "概括幸福可能随境遇波动而难以永久稳固的性质，不是说幸福不存在。",
+          "example": "The storm revealed the fragility of the old bridge.",
+          "collocations": [
+            "the fragility of happiness",
+            "reveal the fragility of something"
+          ]
+        }
+      ],
+      "translation": "问题在于，幸福就像击球率，会随时间变化；这个赛季打得好，下个赛季却未必。威廉·詹姆斯在《宗教经验之种种》中宣称：“首先，这世上如此不稳定的成功经历，怎么能提供稳固的锚点？链条的强度取决于最薄弱的一环，而人生终究是一条链。在最健康、最富足的人生里，也总会插入多少疾病、危险与灾难的环节啊？”事情就是如此。幸福是脆弱的。",
+      "evidenceTargetIds": [
+        "c01-s04-p014-01530-s006"
+      ],
+      "evidence": [
+        {
+          "quote": "The fragility of happiness.",
+          "sentenceIds": [
+            "c01-s04-p014-01530-s006"
+          ],
+          "sources": [
+            {
+              "pdfPage": 14,
+              "block": 1,
+              "bbox": [
+                76.99,
+                153,
+                535.01,
+                304.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "c9d99b328a0e4b0fc466c8cc6bd0a711ea1a0a0b9143a6d95d06e66fbed2aeda"
+    },
+    {
+      "id": "q-c01-027",
+      "version": 2,
+      "chapterId": "c01",
+      "sectionId": "c01-s04",
+      "paragraphId": "c01-s04-p014-03090",
+      "sentenceIds": [
+        "c01-s04-p014-03090-s001"
+      ],
+      "passage": "Meaning in life, on the other hand, boils down to whether your life has a “point.”",
+      "prompt": "In the phrase “boils down to”, what is the author doing?",
+      "options": [
+        "Claiming that every effort produces a clear legacy.",
+        "Explaining how a song was produced.",
+        "Reducing a complex idea to its central question.",
+        "Describing a process for removing negative emotions."
+      ],
+      "answer": 2,
+      "type": "语境词义",
+      "analyses": [
+        "A when efforts are not making a clear difference 明确允许看不到影响。",
+        "B 歌曲是后面的例子，不是该短语含义。",
+        "C 对应把意义归结到一个核心问题。",
+        "D 没有烹煮或移除情绪的过程。"
+      ],
+      "evidence": [
+        {
+          "quote": "Meaning in life, on the other hand, boils down to whether your life has a “point.”",
+          "sentenceIds": [
+            "c01-s04-p014-03090-s001"
+          ],
+          "sources": [
+            {
+              "pdfPage": 14,
+              "block": 2,
+              "bbox": [
+                76.99,
+                309,
+                535.01,
+                460.02
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "boils down to",
+          "meaning": "归结为",
+          "context": "把意义的核心概括为人生有没有指向",
+          "example": "The decision boils down to time and cost.",
+          "collocations": [
+            "boil down to a choice",
+            "it all boils down to"
+          ]
+        }
+      ],
+      "support": "explicit",
+      "editorialStatus": "短段版 v2；连续原句，配题片段互不重叠；保留 v1 历史快照，不重算旧成绩",
+      "translation": "另一方面，人生意义归根结底在于：你的人生有没有一个“指向”。",
+      "readingUnitId": "c01-s04-p014-03090-r001-001",
+      "fingerprint": "14a89f88d5201f31eba34d3e20acd4fdb5ae84d030fe634c94b800a1e9711d29"
+    }
+  ]
+}
