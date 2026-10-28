@@ -1,0 +1,338 @@
+{
+  "pdfSha256": "be25c859f1bd894a4b0d1cff024ded1297f6a96a8e8ddabea1e3abcf89160a50",
+  "sourceCommit": "ddc355f22b905d2632f9e42a1ec979d65f6ef005",
+  "questions": [
+    {
+      "id": "q-c01-022",
+      "version": 2,
+      "chapterId": "c01",
+      "sectionId": "c01-s03",
+      "paragraphId": "c01-s03-p012-04612",
+      "sentenceIds": [
+        "c01-s03-p012-04612-s005",
+        "c01-s03-p012-04612-s006",
+        "c01-s03-p012-04612-s007",
+        "c01-s03-p012-04612-s008"
+      ],
+      "passage": "Some researchers even claimed to have found different epigenetic patterns between hedonic and eudaimonic well-being, suggesting that our very genes are expressed differently. However, other researchers found that almost all people who say they are happy tend to also say that their lives are meaningful, and vice versa. The overlap between hedonic and eudaimonic well-being is so great that some researchers argue that they are virtually the same thing. Others argue that both happiness and meaning in life are so important that there is no point debating which is more important.",
+      "prompt": "What is the best summary of the debate described in this paragraph?",
+      "options": [
+        "Researchers unanimously deny that happiness and meaning overlap.",
+        "Findings and interpretations differ about the distinction and overlap between happiness and meaning.",
+        "The debate has established epigenetic differences beyond dispute.",
+        "Every study shows that breaks are more meaningful than work."
+      ],
+      "answer": 1,
+      "type": "主旨",
+      "analyses": [
+        "A 后半段正强调 overlap，unanimously 与文本相反。",
+        "B 总结不同发现与解释，而不偏取一方。",
+        "C Some researchers even claimed 后还有对立发现，不是 beyond dispute。",
+        "D 更快乐与更投入是不同维度，且 every study 过度绝对。"
+      ],
+      "evidence": [
+        {
+          "quote": "However, other researchers found that almost all people who say they are happy tend to also say that their lives are meaningful, and vice versa.",
+          "sentenceIds": [
+            "c01-s03-p012-04612-s006"
+          ],
+          "sources": [
+            {
+              "pdfPage": 12,
+              "block": 4,
+              "bbox": [
+                76.99,
+                461.25,
+                535.01,
+                709.77
+              ]
+            }
+          ]
+        },
+        {
+          "quote": "The overlap between hedonic and eudaimonic well-being is so great that some researchers argue that they are virtually the same thing.",
+          "sentenceIds": [
+            "c01-s03-p012-04612-s007"
+          ],
+          "sources": [
+            {
+              "pdfPage": 12,
+              "block": 4,
+              "bbox": [
+                76.99,
+                461.25,
+                535.01,
+                709.77
+              ]
+            }
+          ]
+        },
+        {
+          "quote": "Others argue that both happiness and meaning in life are so important that there is no point debating which is more important.",
+          "sentenceIds": [
+            "c01-s03-p012-04612-s008"
+          ],
+          "sources": [
+            {
+              "pdfPage": 12,
+              "block": 4,
+              "bbox": [
+                76.99,
+                461.25,
+                535.01,
+                709.77
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "overlap",
+          "meaning": "重叠；共同部分",
+          "context": "幸福与意义的自我报告常有大量重合",
+          "example": "There is some overlap between the two courses.",
+          "collocations": [
+            "overlap between",
+            "a considerable overlap"
+          ]
+        }
+      ],
+      "support": "explicit",
+      "editorialStatus": "短段版 v2；连续原句，配题片段互不重叠；保留 v1 历史快照，不重算旧成绩",
+      "translation": "一些研究者甚至声称，在享乐型与实现型幸福感之间发现了不同的表观遗传模式，暗示连基因表达都不相同。然而，其他研究者发现，几乎所有说自己幸福的人，也倾向于认为人生有意义，反之亦然。两类幸福感的重叠如此之大，以至于有些研究者认为它们实际上是同一件事。另一些人则认为，幸福与人生意义都非常重要，没有必要争论谁更重要。",
+      "readingUnitId": "c01-s03-p012-04612-r005-008",
+      "fingerprint": "375d7586aa47688ba1674bc2276c0c3d9a6635bc609a989a212f2b677086e7df"
+    },
+    {
+      "id": "q-c01-062",
+      "version": 1,
+      "readingUnitId": "c01-s04-p013-03322-r005-006",
+      "chapterId": "c01",
+      "sectionId": "c01-s04",
+      "paragraphId": "c01-s04-p013-03322",
+      "sentenceIds": [
+        "c01-s04-p013-03322-s005",
+        "c01-s04-p013-03322-s006"
+      ],
+      "passage": "You can get better!” It turned out he had just learned about Dweck’s growth mindset in school.",
+      "prompt": "What idea is expressed by “You can get better!”?",
+      "options": [
+        "Improvement is possible only outside school.",
+        "A person’s present skill level can never change.",
+        "A person can develop abilities rather than remain at the current level.",
+        "Learning about a mindset guarantees immediate expert performance."
+      ],
+      "answer": 2,
+      "type": "同义改写",
+      "promptZh": "“You can get better!”表达了什么想法？",
+      "optionsZh": [
+        "只有在校外才可能进步。",
+        "一个人当前的技能水平永远不能改变。",
+        "人的能力可以发展，并非只能停留在当前水平。",
+        "学到一种思维模式便保证立刻成为专家。"
+      ],
+      "analyses": [
+        "A 后句明说在学校学到成长型思维，且没有 only outside school 的限制。",
+        "B can get better 与永不能改变相反。",
+        "C 保留 can 的可能性，准确改写能力可发展的意思。",
+        "D can 不是保证，get better 也不是立刻成为专家。"
+      ],
+      "evidence": [
+        {
+          "quote": "You can get better!” It turned out he had just learned about Dweck’s growth mindset in school.",
+          "sentenceIds": [
+            "c01-s04-p013-03322-s005",
+            "c01-s04-p013-03322-s006"
+          ],
+          "sources": [
+            {
+              "pdfPage": 13,
+              "block": 2,
+              "bbox": [
+                76.99,
+                332.25,
+                535,
+                561.27
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "turned out",
+          "meaning": "结果发现；原来",
+          "context": "作者解释儿子鼓励背后的学习来源",
+          "example": "It turned out that she had already studied the topic.",
+          "collocations": [
+            "it turned out that",
+            "turn out to be"
+          ]
+        }
+      ],
+      "translation": "你能做得更好！”原来，他刚在学校里学到了 Dweck 的成长型思维。",
+      "support": "explicit",
+      "editorialStatus": "按第 1 章 PDF 第 9–16 页具体原文编写；保持已发布短段边界；区分叙事、研究概括、比喻与引文",
+      "fingerprint": "64919184b55bbcdc3ff2700aef967c996ff4994c19a17cc5fbead8d0fc19ad7a"
+    },
+    {
+      "id": "qe-c01-0040",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-002",
+      "parentQuestionId": "q-c01-064",
+      "chapterId": "c01",
+      "sectionId": "c01-s04",
+      "paragraphId": "c01-s04-p013-05662",
+      "readingUnitId": "c01-s04-p013-05662-r001-004",
+      "sentenceIds": [
+        "c01-s04-p013-05662-s001",
+        "c01-s04-p013-05662-s002",
+        "c01-s04-p013-05662-s003",
+        "c01-s04-p013-05662-s004"
+      ],
+      "passage": "How, then, is psychological richness different from happiness and meaning? The main body of my book answers this question in detail (see Table 1 for a brief summary). But, very briefly, happiness is a subjective feeling that rises and falls to indicate where one’s life stands. It is a bit like a balloon.",
+      "prompt": "Which three concepts are being compared in the opening question?",
+      "promptZh": "开头的问题正在比较哪三个概念？",
+      "options": [
+        "Happiness, income, and professional recognition.",
+        "Intelligence, genetics, and the environment.",
+        "Childhood, adulthood, and retirement.",
+        "Psychological richness, happiness, and meaning."
+      ],
+      "optionsZh": [
+        "幸福、收入、职业认可。",
+        "智力、遗传、环境。",
+        "童年、成年、退休。",
+        "心理丰富性、幸福、意义。"
+      ],
+      "answer": 3,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A 收入与职业认可不在这一句列出的三项中。",
+        "B 这些来自前面的类比，不是当前问题的比较对象。",
+        "C 句子没有在比较三个年龄阶段。",
+        "D psychological richness different from happiness and meaning 明确列出这三个概念，并询问它们的差异。"
+      ],
+      "vocabulary": [
+        {
+          "word": "different from",
+          "meaning": "与……不同",
+          "context": "提出心理丰富性与幸福、意义的区别，尚未在这一问句本身给出全部答案。",
+          "example": "The second account is different from the first in several ways.",
+          "collocations": [
+            "different from happiness",
+            "be different from something"
+          ]
+        }
+      ],
+      "translation": "那么，心理丰富与幸福和意义有什么不同？本书主体会详细回答这个问题，表 1 则提供简要总结。不过，简而言之，幸福是一种会上下起伏、反映人生当前处境的主观感受。它有点像气球。",
+      "evidenceTargetIds": [
+        "c01-s04-p013-05662-s001"
+      ],
+      "evidence": [
+        {
+          "quote": "How, then, is psychological richness different from happiness and meaning?",
+          "sentenceIds": [
+            "c01-s04-p013-05662-s001"
+          ],
+          "sources": [
+            {
+              "pdfPage": 13,
+              "block": 3,
+              "bbox": [
+                76.99,
+                566.25,
+                535.01,
+                717.27
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "e794ef8ee85c3b8be52daabd0cc76c300a605fc9b45690fed27e0a7ff7af1016"
+    },
+    {
+      "id": "qe-c01-0041",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-002",
+      "parentQuestionId": "q-c01-064",
+      "chapterId": "c01",
+      "sectionId": "c01-s04",
+      "paragraphId": "c01-s04-p013-05662",
+      "readingUnitId": "c01-s04-p013-05662-r001-004",
+      "sentenceIds": [
+        "c01-s04-p013-05662-s001",
+        "c01-s04-p013-05662-s002",
+        "c01-s04-p013-05662-s003",
+        "c01-s04-p013-05662-s004"
+      ],
+      "passage": "How, then, is psychological richness different from happiness and meaning? The main body of my book answers this question in detail (see Table 1 for a brief summary). But, very briefly, happiness is a subjective feeling that rises and falls to indicate where one’s life stands. It is a bit like a balloon.",
+      "prompt": "Where is the reader directed for a brief summary rather than the detailed discussion?",
+      "promptZh": "如果读者想看简短概括而非详细讨论，作者指向哪里？",
+      "options": [
+        "Table 1.",
+        "The title of Sacks's autobiography.",
+        "The final paragraph of the acknowledgements.",
+        "A separate test administered by the narrator's son."
+      ],
+      "optionsZh": [
+        "表 1。",
+        "萨克斯自传的标题。",
+        "致谢部分的最后一段。",
+        "叙述者儿子主持的另一项测试。"
+      ],
+      "answer": 0,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A see Table 1 for a brief summary 是明确的阅读指引。",
+        "B 自传标题属于前面的萨克斯例子，不是这里指定的概括位置。",
+        "C 本句没有提及致谢段落。",
+        "D 儿子回应父亲的故事并不是一项测试。句子把正文的 in detail 与表格的 brief summary 区分开来。"
+      ],
+      "vocabulary": [
+        {
+          "word": "brief summary",
+          "meaning": "简短概括；简要总结",
+          "context": "与正文中的详细回答相对，指表1提供的简要整理。",
+          "example": "The final page contains a brief summary of the findings.",
+          "collocations": [
+            "a brief summary",
+            "provide a summary"
+          ]
+        }
+      ],
+      "translation": "那么，心理丰富与幸福和意义有什么不同？本书主体会详细回答这个问题，表 1 则提供简要总结。不过，简而言之，幸福是一种会上下起伏、反映人生当前处境的主观感受。它有点像气球。",
+      "evidenceTargetIds": [
+        "c01-s04-p013-05662-s002"
+      ],
+      "evidence": [
+        {
+          "quote": "The main body of my book answers this question in detail (see Table 1 for a brief summary).",
+          "sentenceIds": [
+            "c01-s04-p013-05662-s002"
+          ],
+          "sources": [
+            {
+              "pdfPage": 13,
+              "block": 3,
+              "bbox": [
+                76.99,
+                566.25,
+                535.01,
+                717.27
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "07e06d109587f20e4ff676d26968576de2bbbbd04ddb31a0537c039882d1a9d7"
+    }
+  ]
+}
