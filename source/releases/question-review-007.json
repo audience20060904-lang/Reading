@@ -1,0 +1,91 @@
+{
+  "schemaVersion": 1,
+  "id": "question-review-2026-10-28-007",
+  "status": "published-and-verified",
+  "verifiedAt": "2026-10-28T08:29:50.787Z",
+  "url": "https://audience20060904-lang.github.io/Reading/",
+  "sourceCommit": "a63d45cb51febe83532110e91f8ceff7fe05a1ff",
+  "deploymentCommit": "62a15d6201031bfd37118029110da0c4a7ef14d5",
+  "offlineVersion": "f0bbf051423bfdeb",
+  "previousBatch": "source/releases/question-review-006.json",
+  "questionFingerprints": {
+    "q-c07-040": "d2fc448cf9e45c377e00c39bce0bd2eafdc49bf56a1689aac1364af4888ad2b4",
+    "q-c07-042": "4109560f5ae5c476aa7a007280cadec35f748581040342904e0984ef0a833b73",
+    "q-c07-051": "c0e2587cc348a4b23a9d09f821089f876be6aaed14a9a9d6d1799b6185ee71ee",
+    "q-c08-015": "33773ffa4ad56ab16f5802de8f6c8bceb99fe63f01a3dd5a40e2fe93af698870",
+    "q-c08-016": "0c53d388b133f9ebf99cc421f52a44122971c38927f17a4d5b986104acfe7a31",
+    "q-c08-018": "bc3c79f3999df219604c0dcf2a744e8978bf880b6692689f42e64929c7f25c52",
+    "q-c08-036": "c114b47b8dcabeb83520ff581d41229f5721b9ca5bd97963a8eca3b8d760a29d",
+    "q-c08-046": "097038a71f0ae418a8ea855b8aca80b984463d5e3043a48edcbe62cdda8ca592",
+    "q-c08-058": "ea6f999a1a6062abfb535e6d61c51996e784ea09d319cebd82f551b05245a50a",
+    "q-c09-009": "0113fa5965aebe2b4ff84cdd3dfe58f9333b69c7cfced0ad168899a611925ac3",
+    "q-c09-064": "11427a37c90d84f2d2f4ba76b55d9c075d2984ca153b0dae583b4c66d5a0f170",
+    "q-c09-075": "8b15f3c18d0ef453239412c17d9d43eef1f4765b2d018a0d215b42045fe2765c"
+  },
+  "content": {
+    "totalQuestions": 2709,
+    "manuallyReviewedQuestions": 22,
+    "reviewedSourceCandidates": 25,
+    "revisedQuestions": 12,
+    "totalRevisedQuestions": 78,
+    "changedAnswerPositions": 0,
+    "remainingSemanticCandidateReviews": 83,
+    "fullQuestionBankHumanReview": false
+  },
+  "validation": {
+    "unitTestsPassed": 359,
+    "build": "npm run build:pages passed",
+    "pdf": {
+      "sha256": "be25c859f1bd894a4b0d1cff024ded1297f6a96a8e8ddabea1e3abcf89160a50",
+      "pagesVisuallyReviewed": [
+        73,
+        74,
+        75,
+        80,
+        81,
+        82,
+        84,
+        86,
+        87,
+        90,
+        95,
+        97,
+        99,
+        100,
+        101,
+        102
+      ],
+      "sourceBlocksTextMatched": 25
+    },
+    "localBrowser": [
+      "全部缓存资产及Service Worker与本次生产构建逐字节匹配",
+      "提交前无证据标记；提交后精确标出依据且原文不变、淡蓝色查词仍可用",
+      "相近题型合并为一行并按提交次数计算50%正确率，原始标签和历史记录不变",
+      "逐题提交12道校对题，交替验证正误、四项译文与分析、整段译文及完整快照；提交前不显示中文解析",
+      "真实浏览器恢复旧选项、旧译文、旧错题成绩与用时；重练采用新版，新增记录且不改历史",
+      "390px和320px深色视口，选项、解析和整段译文均无横向溢出",
+      "旧未提交选择遇到改版时清空，新版位置保留；已提交解析正常刷新恢复",
+      "离线模拟恢复新旧两版成绩；本地另实际停止HTTP服务后缓存恢复新版题目与译文"
+    ],
+    "liveBrowser": [
+      "全部缓存资产及Service Worker与本次生产构建逐字节匹配",
+      "提交前无证据标记；提交后精确标出依据且原文不变、淡蓝色查词仍可用",
+      "相近题型合并为一行并按提交次数计算50%正确率，原始标签和历史记录不变",
+      "逐题提交12道校对题，交替验证正误、四项译文与分析、整段译文及完整快照；提交前不显示中文解析",
+      "真实浏览器恢复旧选项、旧译文、旧错题成绩与用时；重练采用新版，新增记录且不改历史",
+      "390px和320px深色视口，选项、解析和整段译文均无横向溢出",
+      "旧未提交选择遇到改版时清空，新版位置保留；已提交解析正常刷新恢复",
+      "离线模拟恢复新旧两版成绩；本地另实际停止HTTP服务后缓存恢复新版题目与译文"
+    ],
+    "liveRevisedQuestionsVisited": 12,
+    "assets": "All 13 manifest assets and the service worker byte-match the tested production build.",
+    "history": "All 66 previously released question revision fingerprints preserved. Original book, question files, reading plan and glossary unchanged; old submitted snapshots and scores preserved in browser verification."
+  },
+  "report": "source/question-revisions/review-007-report.json",
+  "continuation": "source/semantic-evidence/audit.json",
+  "limits": [
+    "Isolated synthetic data only; Prewritten versioned editorial corrections checked against their current records. Mobile is a viewport, not a physical phone.",
+    "Live offline checks use browser simulation; actual HTTP-server shutdown was performed only locally.",
+    "The 83 remaining semantic candidates are not a count of known errors or missing questions. Structural checks of 2709 questions are not a full human semantic review."
+  ]
+}
