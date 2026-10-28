@@ -1,0 +1,1079 @@
+{
+  "schemaVersion": 1,
+  "batchId": "question-review-2026-10-28-029",
+  "sourceCommit": "6809eddfc45c5f39b9ba270e06f5ef8b5471917a",
+  "pdfSha256": "be25c859f1bd894a4b0d1cff024ded1297f6a96a8e8ddabea1e3abcf89160a50",
+  "frozenAt": "2026-10-28T22:47:42.632Z",
+  "questions": [
+    {
+      "id": "q-c03-002",
+      "version": 1,
+      "readingUnitId": "c03-s01-p027-04238-r005-007",
+      "chapterId": "c03",
+      "sectionId": "c03-s01",
+      "paragraphId": "c03-s01-p027-04238",
+      "sentenceIds": [
+        "c03-s01-p027-04238-s005",
+        "c03-s01-p027-04238-s006",
+        "c03-s01-p027-04238-s007"
+      ],
+      "passage": "Shel Silverstein’s poem “The Land of Happy” might be the most poignant critique of happiness. He describes the land of happy as a place where everyone is happy and everything is jolly. He ends his poem with: “What a bore.”",
+      "prompt": "How does Silverstein’s closing remark function in this account of his poem?",
+      "options": [
+        "It reports a measured decline in a country’s happiness.",
+        "It shows that no one in the imagined land is happy.",
+        "It punctures the appeal of a place where everything is happy and jolly.",
+        "It recommends that readers move to the land described."
+      ],
+      "answer": 2,
+      "type": "作者意图",
+      "promptZh": "这段介绍中，Silverstein 的结尾评论起什么作用？",
+      "optionsZh": [
+        "报告某国幸福度经测量下降。",
+        "表明想象中的地方没有一个人幸福。",
+        "削弱了那个人人幸福、处处欢乐之地的吸引力。",
+        "建议读者搬去所描写的地方。"
+      ],
+      "analyses": [
+        "A 诗歌评论没有国家测量数据。",
+        "B 人人幸福是诗中设定，bore 评价其乏味，不是否认设定。",
+        "C 最后的 What a bore 对前面的全然欢乐形成讽刺转折。",
+        "D 结尾批评乏味，并非迁居建议。"
+      ],
+      "evidence": [
+        {
+          "quote": "He describes the land of happy as a place where everyone is happy and everything is jolly. He ends his poem with: “What a bore.”",
+          "sentenceIds": [
+            "c03-s01-p027-04238-s006",
+            "c03-s01-p027-04238-s007"
+          ],
+          "sources": [
+            {
+              "pdfPage": 27,
+              "block": 5,
+              "bbox": [
+                76.99,
+                423.75,
+                535.01,
+                594.27
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "poignant",
+          "meaning": "深刻动人的；尖锐的",
+          "context": "此处强调作者认为这首诗的批评有力、令人感触",
+          "example": "Her account offered a poignant reminder of the loss.",
+          "collocations": [
+            "a poignant critique",
+            "a poignant reminder"
+          ]
+        }
+      ],
+      "translation": "Shel Silverstein 的诗《幸福之地》也许是对幸福最尖锐动人的批评。他把幸福之地描述成一个人人幸福、事事欢乐的地方。诗的结尾却是：“真无聊。”",
+      "support": "inference",
+      "editorialStatus": "PDF 第 25–32 页逐题核对；固定连续原句；区分文学引述、自报、相关和假设，不扩大个体或因果结论",
+      "fingerprint": "eb7fff5202279ae6cf6fa356a1ea45433129eec9948c2b7e2b2ca41af7cfd8af"
+    },
+    {
+      "id": "qe-c03-0003",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-007",
+      "parentQuestionId": "q-c03-002",
+      "chapterId": "c03",
+      "sectionId": "c03-s01",
+      "paragraphId": "c03-s01-p027-04238",
+      "readingUnitId": "c03-s01-p027-04238-r005-007",
+      "sentenceIds": [
+        "c03-s01-p027-04238-s005",
+        "c03-s01-p027-04238-s006",
+        "c03-s01-p027-04238-s007"
+      ],
+      "passage": "Shel Silverstein’s poem “The Land of Happy” might be the most poignant critique of happiness. He describes the land of happy as a place where everyone is happy and everything is jolly. He ends his poem with: “What a bore.”",
+      "prompt": "What qualification accompanies the description of Silverstein's poem as the most poignant critique?",
+      "promptZh": "把西尔弗斯坦的诗称为最尖锐感人的批评时，有什么限定？",
+      "options": [
+        "The judgement is introduced with 'might be'.",
+        "It is said to have been proved by every reader's vote.",
+        "It is described as the only poem ever written about happiness.",
+        "The narrator states that no other critique has any value."
+      ],
+      "optionsZh": [
+        "该评价用 might be 引出。",
+        "说是每位读者投票证明的。",
+        "称它为唯一写过幸福的诗。",
+        "断言其他任何批评都无价值。"
+      ],
+      "answer": 0,
+      "type": "观点归属",
+      "support": "explicit",
+      "analyses": [
+        "A might be 保留评价的可能性，poignant 是对批评力度的描述。",
+        "B 没有全体读者投票或证明。",
+        "C most poignant 不等于唯一作品。",
+        "D 比较性评价不抹去其他作品价值，不能去掉 might 的保留。"
+      ],
+      "vocabulary": [
+        {
+          "word": "poignant",
+          "meaning": "尖锐而动人的；令人感触深的",
+          "context": "形容诗歌批评带来的感触，不是实验效应量。",
+          "example": "The final scene offers a poignant reminder of what was lost.",
+          "collocations": [
+            "a poignant critique",
+            "a poignant reminder"
+          ]
+        }
+      ],
+      "translation": "Shel Silverstein 的诗《幸福之地》也许是对幸福最尖锐动人的批评。他把幸福之地描述成一个人人幸福、事事欢乐的地方。诗的结尾却是：“真无聊。”",
+      "evidenceTargetIds": [
+        "c03-s01-p027-04238-s005"
+      ],
+      "evidence": [
+        {
+          "quote": "Shel Silverstein’s poem “The Land of Happy” might be the most poignant critique of happiness.",
+          "sentenceIds": [
+            "c03-s01-p027-04238-s005"
+          ],
+          "sources": [
+            {
+              "pdfPage": 27,
+              "block": 5,
+              "bbox": [
+                76.99,
+                423.75,
+                535.01,
+                594.27
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "fc1431f44fc69c0d18eb485c011056e672002c471c08a5dd482b5f2707f4b8b0"
+    },
+    {
+      "id": "qe-c03-0004",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-007",
+      "parentQuestionId": "q-c03-003",
+      "chapterId": "c03",
+      "sectionId": "c03-s01",
+      "paragraphId": "c03-s01-p027-05992",
+      "readingUnitId": "c03-s01-p027-05992-r001-004",
+      "sentenceIds": [
+        "c03-s01-p027-05992-s001",
+        "c03-s01-p027-05992-s002",
+        "c03-s01-p027-05992-s003",
+        "c03-s01-p027-05992-s004"
+      ],
+      "passage": "Why so down on happiness? One common critique is that a happy life might be a selfish one. In reality, there is lots of evidence that suggests otherwise. For example, spending money on others as opposed to on oneself increases happiness.",
+      "prompt": "What does being 'down on happiness' mean in the rhetorical question?",
+      "promptZh": "反问中 down on happiness 是什么意思？",
+      "options": [
+        "Being physically below a written happiness score.",
+        "Having fewer opportunities to study happiness.",
+        "Being unable to feel any emotion.",
+        "Being critical or disapproving of happiness."
+      ],
+      "optionsZh": [
+        "位置处于书面幸福分数下方。",
+        "拥有较少研究幸福的机会。",
+        "无法感受任何情绪。",
+        "对幸福持批评或不赞同态度。"
+      ],
+      "answer": 3,
+      "type": "语境词义",
+      "support": "explicit",
+      "analyses": [
+        "A down on 是态度表达，不是位置关系。",
+        "B 不是研究机会数量。",
+        "C 批评一个观念不等于无法感受情绪。",
+        "D 后文 One common critique 直接展开批评理由，支持此处 down on 的不赞同义；不把修辞问题当作临床诊断。"
+      ],
+      "vocabulary": [
+        {
+          "word": "down on",
+          "meaning": "不赞成；批评（口语）",
+          "context": "问为什么对幸福如此批评，不是说某个读者情绪低落。",
+          "example": "The reviewer was down on the plan because it ignored local needs.",
+          "collocations": [
+            "be down on an idea",
+            "so down on something"
+          ]
+        }
+      ],
+      "translation": "为什么如此贬低幸福？一种常见批评认为，幸福的生活可能是自私的生活。实际上，有大量证据指向相反的情况。例如，把钱花在别人身上而不是自己身上，会增加幸福感。",
+      "evidenceTargetIds": [
+        "c03-s01-p027-05992-s001"
+      ],
+      "evidence": [
+        {
+          "quote": "Why so down on happiness?",
+          "sentenceIds": [
+            "c03-s01-p027-05992-s001"
+          ],
+          "sources": [
+            {
+              "pdfPage": 27,
+              "block": 6,
+              "bbox": [
+                76.99,
+                599.25,
+                535,
+                711.27
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "45f8283d41b56de726931a557fa092a96944ba658de457b496e58a79243edd56"
+    },
+    {
+      "id": "qe-c03-0005",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-007",
+      "parentQuestionId": "q-c03-004",
+      "chapterId": "c03",
+      "sectionId": "c03-s01",
+      "paragraphId": "c03-s01-p027-05992",
+      "readingUnitId": "c03-s01-p027-05992-r005-006",
+      "sentenceIds": [
+        "c03-s01-p027-05992-s005",
+        "c03-s01-p027-05992-s006"
+      ],
+      "passage": "Happy people volunteer more than unhappy people. But, for now, let’s assume the critique of happiness-as-selfishness and proceed with a question: What makes for a good life, if not happiness?",
+      "prompt": "What comparison about volunteering is explicitly made?",
+      "promptZh": "原文明示了关于志愿服务的哪项比较？",
+      "options": [
+        "Unhappy people volunteer more than happy people.",
+        "Happy and unhappy people never differ in volunteering.",
+        "Happy people volunteer more than unhappy people.",
+        "Only unhappy people are allowed to volunteer."
+      ],
+      "optionsZh": [
+        "不幸福的人比幸福的人更多做志愿服务。",
+        "两类人的志愿活动从无差异。",
+        "幸福的人比不幸福的人更多做志愿服务。",
+        "只允许不幸福的人做志愿服务。"
+      ],
+      "answer": 2,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A 交换比较方向。",
+        "B more than 与从无差异相反。",
+        "C Happy people volunteer more than unhappy people 直接给出方向。",
+        "D 比较频率不是资格规定；不能由群体比较推出某人幸福必然导致志愿行动。"
+      ],
+      "vocabulary": [
+        {
+          "word": "volunteer",
+          "meaning": "自愿提供服务；做志愿者（此处为动词）",
+          "context": "描述帮助行为，非报名参加当前试验的要求。",
+          "example": "They volunteer at the community library on weekends.",
+          "collocations": [
+            "volunteer more",
+            "volunteer at a community centre"
+          ]
+        }
+      ],
+      "translation": "幸福的人比不幸福的人做更多志愿服务。不过，目前先让我们接受“幸福就是自私”这一批评作为假定，接着问：如果不是幸福，什么能构成美好生活？",
+      "evidenceTargetIds": [
+        "c03-s01-p027-05992-s005"
+      ],
+      "evidence": [
+        {
+          "quote": "Happy people volunteer more than unhappy people.",
+          "sentenceIds": [
+            "c03-s01-p027-05992-s005"
+          ],
+          "sources": [
+            {
+              "pdfPage": 27,
+              "block": 6,
+              "bbox": [
+                76.99,
+                599.25,
+                535,
+                711.27
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "3a8ae228a4a974686033a85e8876db174c60ed6422b3527b6a03fd82275b6965"
+    },
+    {
+      "id": "q-c03-005",
+      "version": 1,
+      "readingUnitId": "c03-s01-p028-00750-r001-004",
+      "chapterId": "c03",
+      "sectionId": "c03-s01",
+      "paragraphId": "c03-s01-p028-00750",
+      "sentenceIds": [
+        "c03-s01-p028-00750-s001",
+        "c03-s01-p028-00750-s002",
+        "c03-s01-p028-00750-s003",
+        "c03-s01-p028-00750-s004"
+      ],
+      "passage": "The novelist Donna Tartt suggested that it is “to make other people happy even at the expense of one’s own happiness”—in other words, what many scholars call a “meaningful life.” Meaning in life is typically defined by significance, purpose, and coherence. First, a meaningful life is a life that matters. It matters not just to one’s family members and friends, but also to strangers.",
+      "prompt": "How is significance first explained in this account of meaning in life?",
+      "options": [
+        "A life matters to people beyond one’s family and friends.",
+        "A person receives public awards for every achievement.",
+        "A life has no obligations to strangers.",
+        "A person feels happy at every other person’s expense."
+      ],
+      "answer": 0,
+      "type": "细节",
+      "promptZh": "这里首先怎样解释生命意义中的重要性？",
+      "optionsZh": [
+        "一个人的生活对家人朋友之外的人也有分量。",
+        "一个人每项成就都获得公众奖项。",
+        "一个人的生活对陌生人没有责任。",
+        "一个人靠牺牲所有他人的利益来幸福。"
+      ],
+      "analyses": [
+        "A not just...but also strangers 明确扩大生活所关涉的人群。",
+        "B matters 并未被定义为获奖。",
+        "C strangers 正是被纳入的对象。",
+        "D Tartt 所说是让别人幸福，即使牺牲自己的幸福；D 颠倒受益者。"
+      ],
+      "evidence": [
+        {
+          "quote": "First, a meaningful life is a life that matters. It matters not just to one’s family members and friends, but also to strangers.",
+          "sentenceIds": [
+            "c03-s01-p028-00750-s003",
+            "c03-s01-p028-00750-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 28,
+              "block": 0,
+              "bbox": [
+                76.99,
+                75,
+                535.01,
+                265.02
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "significance",
+          "meaning": "重要性；意义",
+          "context": "是此处意义感的一个维度：生活对他人有分量",
+          "example": "The discovery has significance for local communities.",
+          "collocations": [
+            "personal significance",
+            "of great significance"
+          ]
+        }
+      ],
+      "translation": "小说家 Donna Tartt 提出，美好生活就是“让别人幸福，即使以牺牲自己的幸福为代价”——换言之，许多学者所说的“有意义的生活”。生命意义通常由重要性、目的和连贯性来界定。首先，有意义的生活是有分量的生活。它不仅对自己的家人朋友有分量，对陌生人也如此。",
+      "support": "explicit",
+      "editorialStatus": "PDF 第 25–32 页逐题核对；固定连续原句；区分文学引述、自报、相关和假设，不扩大个体或因果结论",
+      "fingerprint": "b6edb5a7d8b71288fc099ba57511d720fa2dbfe9cfabe2513baa45a354c4877d"
+    },
+    {
+      "id": "qe-c03-0006",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-007",
+      "parentQuestionId": "q-c03-005",
+      "chapterId": "c03",
+      "sectionId": "c03-s01",
+      "paragraphId": "c03-s01-p028-00750",
+      "readingUnitId": "c03-s01-p028-00750-r001-004",
+      "sentenceIds": [
+        "c03-s01-p028-00750-s001",
+        "c03-s01-p028-00750-s002",
+        "c03-s01-p028-00750-s003",
+        "c03-s01-p028-00750-s004"
+      ],
+      "passage": "The novelist Donna Tartt suggested that it is “to make other people happy even at the expense of one’s own happiness”—in other words, what many scholars call a “meaningful life.” Meaning in life is typically defined by significance, purpose, and coherence. First, a meaningful life is a life that matters. It matters not just to one’s family members and friends, but also to strangers.",
+      "prompt": "What does 'at the expense of one’s own happiness' mean in Tartt's suggestion?",
+      "promptZh": "塔特建议中的 at the expense of one's own happiness 是什么意思？",
+      "options": [
+        "Calculating a financial fee for every helpful action.",
+        "Making others happy even if this sacrifices one's own happiness.",
+        "Helping only when one's own happiness is guaranteed to increase.",
+        "Treating others' happiness as less important in every circumstance."
+      ],
+      "optionsZh": [
+        "为每次助人计算经济收费。",
+        "即便牺牲自己的幸福，也让别人幸福。",
+        "只有保证自己幸福增加时才帮助。",
+        "任何情况下都把别人幸福视为更不重要。"
+      ],
+      "answer": 1,
+      "type": "语境词义",
+      "support": "explicit",
+      "analyses": [
+        "A expense 是以……为代价的短语义，并非收费。",
+        "B even at the expense of 明确容许自己的幸福付出代价；这是小说家提出的看法。",
+        "C even if sacrifice 与 only when guaranteed gain 相反。",
+        "D 该建议重视别人幸福，不是总把别人放低。不能把引述的价值看法当作唯一合法生活方式或实验结论。"
+      ],
+      "vocabulary": [
+        {
+          "word": "at the expense of",
+          "meaning": "以……为代价；牺牲……",
+          "context": "指让自己幸福受损的可能代价，而非金钱支出。",
+          "example": "The team sought speed, but not at the expense of accuracy.",
+          "collocations": [
+            "at the expense of accuracy",
+            "at one's own expense"
+          ]
+        }
+      ],
+      "translation": "小说家 Donna Tartt 提出，美好生活就是“让别人幸福，即使以牺牲自己的幸福为代价”——换言之，许多学者所说的“有意义的生活”。生命意义通常由重要性、目的和连贯性来界定。首先，有意义的生活是有分量的生活。它不仅对自己的家人朋友有分量，对陌生人也如此。",
+      "evidenceTargetIds": [
+        "c03-s01-p028-00750-s001"
+      ],
+      "evidence": [
+        {
+          "quote": "The novelist Donna Tartt suggested that it is “to make other people happy even at the expense of one’s own happiness”—in other words, what many scholars call a “meaningful life.”",
+          "sentenceIds": [
+            "c03-s01-p028-00750-s001"
+          ],
+          "sources": [
+            {
+              "pdfPage": 28,
+              "block": 0,
+              "bbox": [
+                76.99,
+                75,
+                535.01,
+                265.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "82f8629fe4fd4b56dc68f82ec4bcb92b1456e52e641595d46ff7d96df4de8574"
+    },
+    {
+      "id": "qe-c03-0007",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-008",
+      "parentQuestionId": "q-c03-005",
+      "chapterId": "c03",
+      "sectionId": "c03-s01",
+      "paragraphId": "c03-s01-p028-00750",
+      "readingUnitId": "c03-s01-p028-00750-r001-004",
+      "sentenceIds": [
+        "c03-s01-p028-00750-s001",
+        "c03-s01-p028-00750-s002",
+        "c03-s01-p028-00750-s003",
+        "c03-s01-p028-00750-s004"
+      ],
+      "passage": "The novelist Donna Tartt suggested that it is “to make other people happy even at the expense of one’s own happiness”—in other words, what many scholars call a “meaningful life.” Meaning in life is typically defined by significance, purpose, and coherence. First, a meaningful life is a life that matters. It matters not just to one’s family members and friends, but also to strangers.",
+      "prompt": "Which three features typically define meaning in life in the passage?",
+      "promptZh": "文中通常用哪三个特征界定人生意义？",
+      "options": [
+        "Comfort, financial security, and fame.",
+        "Novelty, pleasure, and constant excitement.",
+        "Achievement, popularity, and perfect happiness.",
+        "Significance, purpose, and coherence."
+      ],
+      "optionsZh": [
+        "舒适、经济安全和名声。",
+        "新奇、愉悦和持续兴奋。",
+        "成就、受欢迎和完美幸福。",
+        "重要性、目的和连贯性。"
+      ],
+      "answer": 3,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A 不是本句列出的三项。",
+        "B 新奇等概念不能替换这句对意义的定义。",
+        "C 原文没有把完美幸福或名望列为必要项。",
+        "D significance, purpose, and coherence 是明示三项，typically 保留通常定义的范围。"
+      ],
+      "vocabulary": [
+        {
+          "word": "coherence",
+          "meaning": "连贯性；各部分构成一致整体的性质",
+          "context": "与意义的重要性和目的并列，后文以经历在指导原则下相互连合解释。",
+          "example": "The final paragraph gives the argument a stronger sense of coherence.",
+          "collocations": [
+            "a sense of coherence",
+            "coherence in life"
+          ]
+        }
+      ],
+      "translation": "小说家 Donna Tartt 提出，美好生活就是“让别人幸福，即使以牺牲自己的幸福为代价”——换言之，许多学者所说的“有意义的生活”。生命意义通常由重要性、目的和连贯性来界定。首先，有意义的生活是有分量的生活。它不仅对自己的家人朋友有分量，对陌生人也如此。",
+      "evidenceTargetIds": [
+        "c03-s01-p028-00750-s002"
+      ],
+      "evidence": [
+        {
+          "quote": "Meaning in life is typically defined by significance, purpose, and coherence.",
+          "sentenceIds": [
+            "c03-s01-p028-00750-s002"
+          ],
+          "sources": [
+            {
+              "pdfPage": 28,
+              "block": 0,
+              "bbox": [
+                76.99,
+                75,
+                535.01,
+                265.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "e687fa5ff5ec27207e3541c4e3aa6d4f0b4c1536fa9759c4cf95e90add0adc76"
+    },
+    {
+      "id": "q-c03-006",
+      "version": 1,
+      "readingUnitId": "c03-s01-p028-00750-r005-008",
+      "chapterId": "c03",
+      "sectionId": "c03-s01",
+      "paragraphId": "c03-s01-p028-00750",
+      "sentenceIds": [
+        "c03-s01-p028-00750-s005",
+        "c03-s01-p028-00750-s006",
+        "c03-s01-p028-00750-s007",
+        "c03-s01-p028-00750-s008"
+      ],
+      "passage": "A meaningful life is a life that makes a difference in the world. Second, a meaningful life has a clear purpose. A person who leads a meaningful life knows where they’re going. There is a clear sense of direction and a guiding principle.",
+      "prompt": "What does knowing where one is going mean in this passage?",
+      "options": [
+        "Remembering the route to every place one has visited.",
+        "Avoiding all changes in a daily timetable.",
+        "Having a clear purpose and a guiding sense of direction.",
+        "Making a difference only within one’s immediate family."
+      ],
+      "answer": 2,
+      "type": "同义改写",
+      "promptZh": "片段中“知道自己往哪里走”是什么意思？",
+      "optionsZh": [
+        "记得去过的每个地方的路线。",
+        "避免日程发生任何变化。",
+        "有明确目的和引导自己的方向感。",
+        "只对自己的直系亲属产生影响。"
+      ],
+      "analyses": [
+        "A 在 clear purpose 的语境下是人生方向，不是导航记忆。",
+        "B 指导原则不等于日程绝不可变。",
+        "C clear purpose、sense of direction、guiding principle 互相解释。",
+        "D in the world 没有限定只有家人。"
+      ],
+      "evidence": [
+        {
+          "quote": "Second, a meaningful life has a clear purpose. A person who leads a meaningful life knows where they’re going. There is a clear sense of direction and a guiding principle.",
+          "sentenceIds": [
+            "c03-s01-p028-00750-s006",
+            "c03-s01-p028-00750-s007",
+            "c03-s01-p028-00750-s008"
+          ],
+          "sources": [
+            {
+              "pdfPage": 28,
+              "block": 0,
+              "bbox": [
+                76.99,
+                75,
+                535.01,
+                265.02
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "guiding principle",
+          "meaning": "指导原则",
+          "context": "指帮助人生保持方向的原则",
+          "example": "Fairness is a guiding principle in her work.",
+          "collocations": [
+            "a clear guiding principle",
+            "follow a guiding principle"
+          ]
+        }
+      ],
+      "translation": "有意义的生活会在世界上产生影响。其次，有意义的生活有明确目的。过着有意义生活的人知道自己往哪里走。他们有清晰的方向感，也有指导原则。",
+      "support": "explicit",
+      "editorialStatus": "PDF 第 25–32 页逐题核对；固定连续原句；区分文学引述、自报、相关和假设，不扩大个体或因果结论",
+      "fingerprint": "48a003e3d549d96c045ead90d2ded9f4d237b728a8542ce334c210b363d9a70e"
+    },
+    {
+      "id": "qe-c03-0008",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-008",
+      "parentQuestionId": "q-c03-006",
+      "chapterId": "c03",
+      "sectionId": "c03-s01",
+      "paragraphId": "c03-s01-p028-00750",
+      "readingUnitId": "c03-s01-p028-00750-r005-008",
+      "sentenceIds": [
+        "c03-s01-p028-00750-s005",
+        "c03-s01-p028-00750-s006",
+        "c03-s01-p028-00750-s007",
+        "c03-s01-p028-00750-s008"
+      ],
+      "passage": "A meaningful life is a life that makes a difference in the world. Second, a meaningful life has a clear purpose. A person who leads a meaningful life knows where they’re going. There is a clear sense of direction and a guiding principle.",
+      "prompt": "What does a meaningful life do, according to the sentence about making a difference?",
+      "promptZh": "按 makes a difference 这一句，有意义的人生会怎样？",
+      "options": [
+        "It requires receiving public recognition for every action.",
+        "It has an effect or impact in the world.",
+        "It avoids any involvement with other people.",
+        "It is defined entirely by how happy a person feels at every moment."
+      ],
+      "optionsZh": [
+        "要求每个行为都获得公众认可。",
+        "在世界上产生作用或影响。",
+        "避免与他人发生任何联系。",
+        "完全由人每一刻的幸福感来界定。"
+      ],
+      "answer": 1,
+      "type": "同义改写",
+      "support": "explicit",
+      "analyses": [
+        "A 有影响不等于每次得到公开认可。",
+        "B makes a difference 对应产生有分量的作用，不是 mere appearance。",
+        "C 与在世界上产生影响的意思不符。",
+        "D 本句定义的是意义，不是每刻幸福感的唯一指标。"
+      ],
+      "vocabulary": [
+        {
+          "word": "makes a difference",
+          "meaning": "产生作用；带来影响",
+          "context": "本句强调意义的影响维度，而非简单制造差异或得到名声。",
+          "example": "Her patient explanation makes a difference to new students.",
+          "collocations": [
+            "make a difference in the world",
+            "make a positive difference"
+          ]
+        }
+      ],
+      "translation": "有意义的生活会在世界上产生影响。其次，有意义的生活有明确目的。过着有意义生活的人知道自己往哪里走。他们有清晰的方向感，也有指导原则。",
+      "evidenceTargetIds": [
+        "c03-s01-p028-00750-s005"
+      ],
+      "evidence": [
+        {
+          "quote": "A meaningful life is a life that makes a difference in the world.",
+          "sentenceIds": [
+            "c03-s01-p028-00750-s005"
+          ],
+          "sources": [
+            {
+              "pdfPage": 28,
+              "block": 0,
+              "bbox": [
+                76.99,
+                75,
+                535.01,
+                265.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "7092f8536ec0e847e64a5646bc531876efd9ccd78bdbe514d572ac6772b4890e"
+    },
+    {
+      "id": "q-c03-007",
+      "version": 1,
+      "readingUnitId": "c03-s01-p028-00750-r009-010",
+      "chapterId": "c03",
+      "sectionId": "c03-s01",
+      "paragraphId": "c03-s01-p028-00750",
+      "sentenceIds": [
+        "c03-s01-p028-00750-s009",
+        "c03-s01-p028-00750-s010"
+      ],
+      "passage": "Third, a meaningful life is well organized. All of a person’s divergent experiences fit together under their own guiding principles.",
+      "prompt": "What makes the experiences described here form a meaningful whole?",
+      "options": [
+        "They are identical in every respect.",
+        "They fit together under the person’s guiding principles.",
+        "They are kept separate from any personal principles.",
+        "They occur in a strictly unchanging order."
+      ],
+      "answer": 1,
+      "type": "细节",
+      "promptZh": "这里的经历怎样构成一个有意义的整体？",
+      "optionsZh": [
+        "每项经历在所有方面都相同。",
+        "在这个人自己的指导原则下彼此契合。",
+        "与任何个人原则保持分离。",
+        "按严格不变的顺序发生。"
+      ],
+      "analyses": [
+        "A divergent 表明经历可以不同。",
+        "B fit together under...guiding principles 直接说明组织方式。",
+        "C under 表示由原则统合，非与原则分离。",
+        "D well organized 指连贯组织，没有规定发生顺序不可变。"
+      ],
+      "evidence": [
+        {
+          "quote": "All of a person’s divergent experiences fit together under their own guiding principles.",
+          "sentenceIds": [
+            "c03-s01-p028-00750-s010"
+          ],
+          "sources": [
+            {
+              "pdfPage": 28,
+              "block": 0,
+              "bbox": [
+                76.99,
+                75,
+                535.01,
+                265.02
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "divergent",
+          "meaning": "不同的；分歧的",
+          "context": "说明经历各不相同，但仍可被共同原则统合",
+          "example": "The team brought together divergent perspectives.",
+          "collocations": [
+            "divergent experiences",
+            "divergent views"
+          ]
+        }
+      ],
+      "translation": "第三，有意义的生活组织有序。一个人种种不同的经历，都能在其自己的指导原则下相互契合。",
+      "support": "explicit",
+      "editorialStatus": "PDF 第 25–32 页逐题核对；固定连续原句；区分文学引述、自报、相关和假设，不扩大个体或因果结论",
+      "fingerprint": "65cf76be99666c9336e36a411c1cfc793a5f56a2a4885a66b8d604dcf64417da"
+    },
+    {
+      "id": "qe-c03-0009",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-008",
+      "parentQuestionId": "q-c03-007",
+      "chapterId": "c03",
+      "sectionId": "c03-s01",
+      "paragraphId": "c03-s01-p028-00750",
+      "readingUnitId": "c03-s01-p028-00750-r009-010",
+      "sentenceIds": [
+        "c03-s01-p028-00750-s009",
+        "c03-s01-p028-00750-s010"
+      ],
+      "passage": "Third, a meaningful life is well organized. All of a person’s divergent experiences fit together under their own guiding principles.",
+      "prompt": "What does 'well organized' emphasise about a meaningful life here?",
+      "promptZh": "这里 well organized 强调有意义人生的哪一方面？",
+      "options": [
+        "A coherent arrangement of experiences under guiding principles.",
+        "Keeping every physical possession in a labelled box.",
+        "Following a schedule identical to everyone else's.",
+        "Avoiding all experiences that differ from one another."
+      ],
+      "optionsZh": [
+        "不同经历在指导原则下形成连贯结构。",
+        "把所有物品放在标有标签的箱子里。",
+        "遵守和所有人完全相同的日程。",
+        "避免任何彼此不同的经历。"
+      ],
+      "answer": 0,
+      "type": "语境词义",
+      "support": "explicit",
+      "analyses": [
+        "A 后句 All...divergent experiences fit together under...guiding principles 解释有条理的心理连贯性。",
+        "B 不是家居收纳的字面义。",
+        "C their own guiding principles 不等于人人同一日程。",
+        "D divergent experiences 仍可以存在，关键是相互连接而不是全部取消差异。"
+      ],
+      "vocabulary": [
+        {
+          "word": "organized",
+          "meaning": "有条理的；组织成整体的",
+          "context": "在此结合经历的连贯性理解，不限于整齐安排物件。",
+          "example": "The essay is well organized around a clear central argument.",
+          "collocations": [
+            "well organized",
+            "organized around a principle"
+          ]
+        }
+      ],
+      "translation": "第三，有意义的生活组织有序。一个人种种不同的经历，都能在其自己的指导原则下相互契合。",
+      "evidenceTargetIds": [
+        "c03-s01-p028-00750-s009"
+      ],
+      "evidence": [
+        {
+          "quote": "Third, a meaningful life is well organized. All of a person’s divergent experiences fit together under their own guiding principles.",
+          "sentenceIds": [
+            "c03-s01-p028-00750-s009",
+            "c03-s01-p028-00750-s010"
+          ],
+          "sources": [
+            {
+              "pdfPage": 28,
+              "block": 0,
+              "bbox": [
+                76.99,
+                75,
+                535.01,
+                265.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "e65ea4f4a836ede25cd98bd492c3e4be8edbf1a8b8a17fccb025181bee998028"
+    },
+    {
+      "id": "q-c03-008",
+      "version": 1,
+      "readingUnitId": "c03-s01-p028-02700-r001-003",
+      "chapterId": "c03",
+      "sectionId": "c03-s01",
+      "paragraphId": "c03-s01-p028-02700",
+      "sentenceIds": [
+        "c03-s01-p028-02700-s001",
+        "c03-s01-p028-02700-s002",
+        "c03-s01-p028-02700-s003"
+      ],
+      "passage": "In contrast, a meaningless life is a life that does not make any difference in the world. Anthropologist David Graeber, in his book Bullshit Jobs: A Theory, argues that there are millions of people around the world who are toiling away their lives in meaningless jobs. He defines a bullshit job as a job that the person who is doing it can’t really justify the existence of that job.",
+      "prompt": "What distinguishes a “bullshit job” in Graeber’s definition here?",
+      "options": [
+        "It requires strenuous physical labour.",
+        "It is any occupation held by millions of people.",
+        "It offers no opportunity to change employers.",
+        "Its holder cannot really justify why the job exists."
+      ],
+      "answer": 3,
+      "type": "语境词义",
+      "promptZh": "在 Graeber 这里的定义中，“bullshit job”的区别性特征是什么？",
+      "optionsZh": [
+        "需要繁重体力劳动。",
+        "任何有数百万人从事的职业。",
+        "没有换雇主的机会。",
+        "从业者自己无法真正说明这份工作存在的理由。"
+      ],
+      "analyses": [
+        "A toiling away 描述辛劳耗日，并非这一定义的判据。",
+        "B millions 描述人数，不是职业类别的充分条件。",
+        "C 原文没有讨论换雇主机会。",
+        "D 定义明确落在从业者 can’t really justify the existence 上。"
+      ],
+      "evidence": [
+        {
+          "quote": "He defines a bullshit job as a job that the person who is doing it can’t really justify the existence of that job.",
+          "sentenceIds": [
+            "c03-s01-p028-02700-s003"
+          ],
+          "sources": [
+            {
+              "pdfPage": 28,
+              "block": 1,
+              "bbox": [
+                76.99,
+                270,
+                535,
+                596.52
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "justify",
+          "meaning": "证明……有道理；为……提供充分理由",
+          "context": "这里指说明一份工作为何有必要存在",
+          "example": "The manager was asked to justify the extra cost.",
+          "collocations": [
+            "justify the existence of",
+            "justify a decision"
+          ]
+        }
+      ],
+      "translation": "相比之下，无意义的生活是对世界不产生任何影响的生活。人类学家 David Graeber 在《毫无意义的工作：一种理论》中认为，世界各地有数百万人正辛苦地把生命耗费在无意义的工作上。他把这种工作定义为：连从事它的人自己都无法真正说明其存在理由的工作。",
+      "support": "explicit",
+      "editorialStatus": "PDF 第 25–32 页逐题核对；固定连续原句；区分文学引述、自报、相关和假设，不扩大个体或因果结论",
+      "fingerprint": "8a9a649e9956f9f334fc0becc2c7cab96e697ec2dcf451520ee6bbfca9f10322"
+    },
+    {
+      "id": "qe-c03-0010",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-008",
+      "parentQuestionId": "q-c03-008",
+      "chapterId": "c03",
+      "sectionId": "c03-s01",
+      "paragraphId": "c03-s01-p028-02700",
+      "readingUnitId": "c03-s01-p028-02700-r001-003",
+      "sentenceIds": [
+        "c03-s01-p028-02700-s001",
+        "c03-s01-p028-02700-s002",
+        "c03-s01-p028-02700-s003"
+      ],
+      "passage": "In contrast, a meaningless life is a life that does not make any difference in the world. Anthropologist David Graeber, in his book Bullshit Jobs: A Theory, argues that there are millions of people around the world who are toiling away their lives in meaningless jobs. He defines a bullshit job as a job that the person who is doing it can’t really justify the existence of that job.",
+      "prompt": "What contrast is introduced in the description of a meaningless life?",
+      "promptZh": "描述无意义人生时，引入了什么对照？",
+      "options": [
+        "Fame is contrasted with a high income.",
+        "One occupation is declared more prestigious than every other.",
+        "Making a difference is contrasted with making no difference in the world.",
+        "All repetitive work is contrasted with all meaningful relationships."
+      ],
+      "optionsZh": [
+        "名声与高收入的对照。",
+        "宣布某一职业比其他所有职业更有声望。",
+        "在世界上产生影响与没有产生影响的对照。",
+        "所有重复工作与所有有意义关系的对照。"
+      ],
+      "answer": 2,
+      "type": "逻辑关系",
+      "support": "explicit",
+      "analyses": [
+        "A In contrast 在这里不是比较收入和名声。",
+        "B 没有职业声望排名。",
+        "C does not make any difference 与前述 makes a difference 形成否定性对照。",
+        "D 这一句没有把工作与关系分成两组，也不能由后面职业例子推断所有重复工作无意义。"
+      ],
+      "vocabulary": [
+        {
+          "word": "In contrast",
+          "meaning": "相反；形成对照的是",
+          "context": "把意义的影响维度与其缺失相对照，不是另立职业优劣榜。",
+          "example": "The first route is busy; in contrast, the second is usually quiet.",
+          "collocations": [
+            "in contrast to",
+            "in contrast"
+          ]
+        }
+      ],
+      "translation": "相比之下，无意义的生活是对世界不产生任何影响的生活。人类学家 David Graeber 在《毫无意义的工作：一种理论》中认为，世界各地有数百万人正辛苦地把生命耗费在无意义的工作上。他把这种工作定义为：连从事它的人自己都无法真正说明其存在理由的工作。",
+      "evidenceTargetIds": [
+        "c03-s01-p028-02700-s001"
+      ],
+      "evidence": [
+        {
+          "quote": "In contrast, a meaningless life is a life that does not make any difference in the world.",
+          "sentenceIds": [
+            "c03-s01-p028-02700-s001"
+          ],
+          "sources": [
+            {
+              "pdfPage": 28,
+              "block": 1,
+              "bbox": [
+                76.99,
+                270,
+                535,
+                596.52
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "92822e101aa5739bcd89f612455c5e89b0ef76b7cde7d52b5b3c637138107c38"
+    },
+    {
+      "id": "qe-c03-0011",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-008",
+      "parentQuestionId": "q-c03-008",
+      "chapterId": "c03",
+      "sectionId": "c03-s01",
+      "paragraphId": "c03-s01-p028-02700",
+      "readingUnitId": "c03-s01-p028-02700-r001-003",
+      "sentenceIds": [
+        "c03-s01-p028-02700-s001",
+        "c03-s01-p028-02700-s002",
+        "c03-s01-p028-02700-s003"
+      ],
+      "passage": "In contrast, a meaningless life is a life that does not make any difference in the world. Anthropologist David Graeber, in his book Bullshit Jobs: A Theory, argues that there are millions of people around the world who are toiling away their lives in meaningless jobs. He defines a bullshit job as a job that the person who is doing it can’t really justify the existence of that job.",
+      "prompt": "Whose argument about millions of people in meaningless jobs is being reported?",
+      "promptZh": "关于数百万人从事无意义工作的论点被归于谁？",
+      "options": [
+        "Donna Tartt, presenting a definition of happiness.",
+        "David Graeber, in Bullshit Jobs: A Theory.",
+        "Michael Steger, reporting the informant survey.",
+        "Michelle Obama, addressing CUNY graduates."
+      ],
+      "optionsZh": [
+        "唐娜·塔特在定义幸福。",
+        "大卫·格雷伯，在《Bullshit Jobs: A Theory》中。",
+        "迈克尔·斯蒂格，在报告知情人调查。",
+        "米歇尔·奥巴马，向 CUNY 毕业生讲话。"
+      ],
+      "answer": 1,
+      "type": "观点归属",
+      "support": "explicit",
+      "analyses": [
+        "A 塔特是前面关于他人幸福的引述来源，不是这条工作论点。",
+        "B Anthropologist David Graeber...argues 清楚给出人物、著作和论点归属。",
+        "C 斯蒂格属于后面的意义自报研究。",
+        "D 毕业演讲不是本句出处。不能把 argues 的转述性质抹成作者亲自统计证实。"
+      ],
+      "vocabulary": [
+        {
+          "word": "toiling",
+          "meaning": "辛苦劳动；长时间劳作",
+          "context": "toiling away their lives 带有耗费一生劳动的评价色彩，属于格雷伯论点的转述。",
+          "example": "The workers were toiling in the fields throughout the afternoon.",
+          "collocations": [
+            "toil away",
+            "toil for long hours"
+          ]
+        }
+      ],
+      "translation": "相比之下，无意义的生活是对世界不产生任何影响的生活。人类学家 David Graeber 在《毫无意义的工作：一种理论》中认为，世界各地有数百万人正辛苦地把生命耗费在无意义的工作上。他把这种工作定义为：连从事它的人自己都无法真正说明其存在理由的工作。",
+      "evidenceTargetIds": [
+        "c03-s01-p028-02700-s002"
+      ],
+      "evidence": [
+        {
+          "quote": "Anthropologist David Graeber, in his book Bullshit Jobs: A Theory, argues that there are millions of people around the world who are toiling away their lives in meaningless jobs.",
+          "sentenceIds": [
+            "c03-s01-p028-02700-s002"
+          ],
+          "sources": [
+            {
+              "pdfPage": 28,
+              "block": 1,
+              "bbox": [
+                76.99,
+                270,
+                535,
+                596.52
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "ff00281656a124100fd2f7d7069fafeda6a7749cb57f2a24a50a7190a70aaa01"
+    }
+  ]
+}
