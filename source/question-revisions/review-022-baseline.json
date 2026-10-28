@@ -1,0 +1,923 @@
+{
+  "pdfSha256": "be25c859f1bd894a4b0d1cff024ded1297f6a96a8e8ddabea1e3abcf89160a50",
+  "sourceCommit": "03c510a6b4a6e12d7ff109b2f20fbf7c211d886c",
+  "questions": [
+    {
+      "id": "qe-c02-0035",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-004",
+      "parentQuestionId": "q-c02-047",
+      "chapterId": "c02",
+      "sectionId": "c02-s03",
+      "paragraphId": "c02-s03-p020-04575",
+      "readingUnitId": "c02-s03-p020-04575-r001-004",
+      "sentenceIds": [
+        "c02-s03-p020-04575-s001",
+        "c02-s03-p020-04575-s002",
+        "c02-s03-p020-04575-s003",
+        "c02-s03-p020-04575-s004"
+      ],
+      "passage": "We don’t know definitively whether most Americans assume pretending to be happy will make them happy. Even so, there is a famous experiment in which participants held a pen in their mouth so as to mimic either smiling or not smiling. They then saw several cartoons and rated how funny they were. What the researchers found was quite striking.",
+      "prompt": "What uncertainty does the author explicitly acknowledge?",
+      "promptZh": "作者明确承认了哪项不确定性？",
+      "options": [
+        "Whether the iPhone was ever mentioned in the book.",
+        "Whether tenure was relevant to the earlier study.",
+        "Whether any participant ever saw a cartoon.",
+        "Whether most Americans believe pretending to be happy will make them happy."
+      ],
+      "optionsZh": [
+        "书中是否提过 iPhone。",
+        "终身教职是否与前项研究相关。",
+        "是否有参与者看过漫画。",
+        "多数美国人是否相信假装幸福会让自己变幸福。"
+      ],
+      "answer": 3,
+      "type": "观点归属",
+      "support": "explicit",
+      "analyses": [
+        "A 前文已经出现 iPhone，不是这里承认的未知。",
+        "B 未知项不是教授研究。",
+        "C 后文漫画任务不等于此处未知的总体信念。",
+        "D We don’t know definitively whether most Americans assume... 保留了不确定程度、most Americans 的范围以及信念对象。不能删成大家都相信。"
+      ],
+      "vocabulary": [
+        {
+          "word": "definitively",
+          "meaning": "确定地；有定论地",
+          "context": "don’t know definitively 承认没有确定答案，不是证明该信念必然真或假。",
+          "example": "The small survey could not answer the question definitively.",
+          "collocations": [
+            "know definitively",
+            "answer definitively"
+          ]
+        }
+      ],
+      "translation": "我们并不能确定，多数美国人是否认为假装幸福就会使自己幸福。即便如此，有一个著名实验，让参与者嘴里叼着笔，以模拟微笑或不微笑。随后，他们观看几幅漫画，并评价其好笑程度。研究者的发现相当惊人。",
+      "evidenceTargetIds": [
+        "c02-s03-p020-04575-s001"
+      ],
+      "evidence": [
+        {
+          "quote": "We don’t know definitively whether most Americans assume pretending to be happy will make them happy.",
+          "sentenceIds": [
+            "c02-s03-p020-04575-s001"
+          ],
+          "sources": [
+            {
+              "pdfPage": 20,
+              "block": 3,
+              "bbox": [
+                76.99,
+                457.5,
+                535.01,
+                667.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "bf2515671498ed7977d22c995134993da412dc69faae05705091d8199929fa74"
+    },
+    {
+      "id": "qe-c02-0036",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-004",
+      "parentQuestionId": "q-c02-047",
+      "chapterId": "c02",
+      "sectionId": "c02-s03",
+      "paragraphId": "c02-s03-p020-04575",
+      "readingUnitId": "c02-s03-p020-04575-r001-004",
+      "sentenceIds": [
+        "c02-s03-p020-04575-s001",
+        "c02-s03-p020-04575-s002",
+        "c02-s03-p020-04575-s003",
+        "c02-s03-p020-04575-s004"
+      ],
+      "passage": "We don’t know definitively whether most Americans assume pretending to be happy will make them happy. Even so, there is a famous experiment in which participants held a pen in their mouth so as to mimic either smiling or not smiling. They then saw several cartoons and rated how funny they were. What the researchers found was quite striking.",
+      "prompt": "What were participants asked to mimic in the pen experiment?",
+      "promptZh": "持笔实验要求参与者模仿什么？",
+      "options": [
+        "Either smiling or not smiling, using a pen held in the mouth.",
+        "The working habits of successful film directors.",
+        "A professor receiving or losing tenure.",
+        "Different mobile-phone signal displays."
+      ],
+      "optionsZh": [
+        "把笔含在嘴里，模仿微笑或不微笑。",
+        "成功电影导演的工作习惯。",
+        "教授获得或被拒终身教职。",
+        "不同的手机信号显示。"
+      ],
+      "answer": 0,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A held a pen in their mouth so as to mimic either smiling or not smiling 交代实验操作。",
+        "B 导演轶事不是这个实验的操作。",
+        "C 终身教职属于另一研究。",
+        "D 手机信号是前面类比故事，不是参与者的实验任务。这里只报告书中方法，不将其当作疗效建议。"
+      ],
+      "vocabulary": [
+        {
+          "word": "mimic",
+          "meaning": "模仿；模拟",
+          "context": "用持笔方式模拟微笑或不微笑的面部状态，不等于要求真实心情已改变。",
+          "example": "The student tried to mimic the rhythm of the speaker's voice.",
+          "collocations": [
+            "mimic a smile",
+            "mimic a movement"
+          ]
+        }
+      ],
+      "translation": "我们并不能确定，多数美国人是否认为假装幸福就会使自己幸福。即便如此，有一个著名实验，让参与者嘴里叼着笔，以模拟微笑或不微笑。随后，他们观看几幅漫画，并评价其好笑程度。研究者的发现相当惊人。",
+      "evidenceTargetIds": [
+        "c02-s03-p020-04575-s002"
+      ],
+      "evidence": [
+        {
+          "quote": "Even so, there is a famous experiment in which participants held a pen in their mouth so as to mimic either smiling or not smiling.",
+          "sentenceIds": [
+            "c02-s03-p020-04575-s002"
+          ],
+          "sources": [
+            {
+              "pdfPage": 20,
+              "block": 3,
+              "bbox": [
+                76.99,
+                457.5,
+                535.01,
+                667.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "f72c4d671cb011a0ffd2d1a380e599daaf4a1594400774d416ad64dfb16f834f"
+    },
+    {
+      "id": "q-c02-048",
+      "version": 1,
+      "readingUnitId": "c02-s03-p020-04575-r005-006",
+      "chapterId": "c02",
+      "sectionId": "c02-s03",
+      "paragraphId": "c02-s03-p020-04575",
+      "sentenceIds": [
+        "c02-s03-p020-04575-s005",
+        "c02-s03-p020-04575-s006"
+      ],
+      "passage": "Those in the “smile” condition rated the same cartoons as funnier than those in the non-smile condition! Just moving their facial muscles to look like a smiley face made them enjoy the cartoons more.",
+      "prompt": "Which result is reported for the pen experiment in this excerpt?",
+      "options": [
+        "The smile group received different and objectively funnier cartoons.",
+        "The non-smile group rated the same cartoons as funnier.",
+        "The smile group rated the same cartoons as funnier than the non-smile group.",
+        "The experiment compared naturally extraverted and introverted people."
+      ],
+      "answer": 2,
+      "type": "细节",
+      "promptZh": "此片段报告叼笔实验的哪个结果？",
+      "optionsZh": [
+        "微笑组看了不同且客观更好笑的漫画。",
+        "不微笑组认为同样的漫画更好笑。",
+        "微笑组比不微笑组认为同样的漫画更好笑。",
+        "实验比较天生外向者和内向者。"
+      ],
+      "analyses": [
+        "A same cartoons 排除了材料不同的解释。",
+        "B 把两组评分方向倒置了。",
+        "C 正确保留组别、同样材料及比较方向；这是此处报告的实验结果。",
+        "D 分组根据表情条件，不是天生性格类型。"
+      ],
+      "evidence": [
+        {
+          "quote": "Those in the “smile” condition rated the same cartoons as funnier than those in the non-smile condition!",
+          "sentenceIds": [
+            "c02-s03-p020-04575-s005"
+          ],
+          "sources": [
+            {
+              "pdfPage": 20,
+              "block": 3,
+              "bbox": [
+                76.99,
+                457.5,
+                535.01,
+                667.02
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "condition",
+          "meaning": "实验条件；实验组情境",
+          "context": "这里指微笑条件，不是疾病或身体状况",
+          "example": "Participants were assigned to a quiet condition or a noisy condition.",
+          "collocations": [
+            "an experimental condition",
+            "the control condition"
+          ]
+        }
+      ],
+      "translation": "处于“微笑”条件的参与者，认为同样的漫画比不微笑条件的参与者认为的更好笑！仅仅移动面部肌肉，使自己看起来面带笑容，就让他们更喜欢这些漫画。",
+      "support": "explicit",
+      "editorialStatus": "PDF 第 18–25 页具体原文逐题编写并视觉核对；保留限定、统计年份、观点归属及类比性质；固定无重复短段",
+      "fingerprint": "5306ab76711a4169296f5f8053ff501b84bb398dde2f44caf52774bb8ae76752"
+    },
+    {
+      "id": "qe-c02-0038",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-004",
+      "parentQuestionId": "q-c02-048",
+      "chapterId": "c02",
+      "sectionId": "c02-s03",
+      "paragraphId": "c02-s03-p020-04575",
+      "readingUnitId": "c02-s03-p020-04575-r005-006",
+      "sentenceIds": [
+        "c02-s03-p020-04575-s005",
+        "c02-s03-p020-04575-s006"
+      ],
+      "passage": "Those in the “smile” condition rated the same cartoons as funnier than those in the non-smile condition! Just moving their facial muscles to look like a smiley face made them enjoy the cartoons more.",
+      "prompt": "What effect of the facial movement is reported in the cartoon experiment?",
+      "promptZh": "漫画实验报告这种面部运动产生了什么效果？",
+      "options": [
+        "It established a permanent cure for every form of sadness.",
+        "It made participants enjoy the cartoons more in that experiment.",
+        "It proved all attempts at replication would succeed.",
+        "It changed the content of the cartoons shown to each group."
+      ],
+      "optionsZh": [
+        "它确立了治愈所有悲伤的永久办法。",
+        "它使该实验中的参与者更享受漫画。",
+        "它证明所有重复实验都会成功。",
+        "它改变了每组观看的漫画内容。"
+      ],
+      "answer": 1,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A 结果针对看漫画的感受，不是任何悲伤的永久疗法。",
+        "B made them enjoy the cartoons more 是本句报告的实验内效果。",
+        "C 单次结果不能保证复现，后文还介绍混合的复现情况。",
+        "D 句子描述面部动作，不是更换漫画；前句还明确 same cartoons。"
+      ],
+      "vocabulary": [
+        {
+          "word": "facial muscles",
+          "meaning": "面部肌肉",
+          "context": "指用来形成类似笑脸的面部运动，不能直接替代为整个人生幸福。",
+          "example": "The actor relaxed his facial muscles before the next scene.",
+          "collocations": [
+            "move facial muscles",
+            "facial muscle movement"
+          ]
+        }
+      ],
+      "translation": "处于“微笑”条件的参与者，认为同样的漫画比不微笑条件的参与者认为的更好笑！仅仅移动面部肌肉，使自己看起来面带笑容，就让他们更喜欢这些漫画。",
+      "evidenceTargetIds": [
+        "c02-s03-p020-04575-s006"
+      ],
+      "evidence": [
+        {
+          "quote": "Just moving their facial muscles to look like a smiley face made them enjoy the cartoons more.",
+          "sentenceIds": [
+            "c02-s03-p020-04575-s006"
+          ],
+          "sources": [
+            {
+              "pdfPage": 20,
+              "block": 3,
+              "bbox": [
+                76.99,
+                457.5,
+                535.01,
+                667.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "ced752e984cc06f103280b4571a6277baa79747241a7fe162e9b6ad57d613b57"
+    },
+    {
+      "id": "q-c02-007",
+      "version": 2,
+      "chapterId": "c02",
+      "sectionId": "c02-s03",
+      "paragraphId": "c02-s03-p020-04575",
+      "sentenceIds": [
+        "c02-s03-p020-04575-s007",
+        "c02-s03-p020-04575-s008",
+        "c02-s03-p020-04575-s009"
+      ],
+      "passage": "Some failed to replicate the original findings, though others were able to replicate them. Nonetheless, the original experiment has been mentioned in major news outlets. As a result, many believe that when you are sad, you should put on a happy face.",
+      "prompt": "What does the passage report about replications of the pen-in-the-mouth experiment?",
+      "options": [
+        "All attempts confirmed it without exception.",
+        "Some attempts failed to replicate it, while others succeeded.",
+        "The author says replication is irrelevant to interpretation.",
+        "No researchers ever tried to repeat it."
+      ],
+      "answer": 1,
+      "type": "细节",
+      "analyses": [
+        "A all / without exception 与 Some failed 冲突。",
+        "B 同时保留失败和成功复现。",
+        "C 段落提及复现限制，未说不相关。",
+        "D 明确有重复研究。"
+      ],
+      "evidence": [
+        {
+          "quote": "Some failed to replicate the original findings, though others were able to replicate them.",
+          "sentenceIds": [
+            "c02-s03-p020-04575-s007"
+          ],
+          "sources": [
+            {
+              "pdfPage": 20,
+              "block": 3,
+              "bbox": [
+                76.99,
+                457.5,
+                535.01,
+                667.02
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "replicate",
+          "meaning": "重复验证；复现",
+          "context": "模仿微笑的实验结果未获所有研究一致复现",
+          "example": "Another team tried to replicate the experiment.",
+          "collocations": [
+            "replicate findings",
+            "a replication study"
+          ]
+        }
+      ],
+      "support": "explicit",
+      "editorialStatus": "短段版 v2；连续原句，配题片段互不重叠；保留 v1 历史快照，不重算旧成绩",
+      "translation": "一些人未能复现原始发现，另一些人则成功了。尽管如此，主流新闻媒体一直提到最初的实验。结果，许多人相信，悲伤时就应该摆出一张快乐的脸。",
+      "readingUnitId": "c02-s03-p020-04575-r007-009",
+      "fingerprint": "d50bef69db15fd2f2612939e3cf87b44c44999ecea155659f01dc9abeacf3861"
+    },
+    {
+      "id": "q-c02-014",
+      "version": 2,
+      "chapterId": "c02",
+      "sectionId": "c02-s03",
+      "paragraphId": "c02-s03-p020-06720",
+      "sentenceIds": [
+        "c02-s03-p020-06720-s001",
+        "c02-s03-p020-06720-s002",
+        "c02-s03-p020-06720-s003",
+        "c02-s03-p020-06720-s004"
+      ],
+      "passage": "There have also been many experiments in which participants were asked to behave like extraverts. Afterward, they reported more happiness than those who were asked to behave normally. Surprisingly, the intervention worked even for natural introverts. Similarly, when people were asked to talk to a stranger (i.e., acting like an extravert), people felt far happier than they had anticipated.",
+      "prompt": "Which statement best preserves the reported result of the extraversion experiments?",
+      "options": [
+        "Only people who were already extraverts reported greater happiness.",
+        "The studies established that fake smiling works as reliably as social interaction.",
+        "Acting more extravertedly increased reported happiness, even among natural introverts.",
+        "Talking to strangers produced the amount of happiness participants had expected."
+      ],
+      "answer": 2,
+      "type": "同义改写",
+      "analyses": [
+        "A only 排除了原文明示的 natural introverts。",
+        "B 末句把表现外向与假笑区分开，不能把两类证据合并成同等可靠。",
+        "C 保留行为干预、报告结果及内向者也受益三个信息。",
+        "D 原文是 far happier than they had anticipated，不是符合原先预期。"
+      ],
+      "evidence": [
+        {
+          "quote": "Afterward, they reported more happiness than those who were asked to behave normally.",
+          "sentenceIds": [
+            "c02-s03-p020-06720-s002"
+          ],
+          "sources": [
+            {
+              "pdfPage": 20,
+              "block": 4,
+              "bbox": [
+                76.99,
+                672,
+                535.01,
+                706.02
+              ]
+            },
+            {
+              "pdfPage": 21,
+              "block": 0,
+              "bbox": [
+                76.99,
+                75,
+                535.01,
+                167.52
+              ]
+            }
+          ]
+        },
+        {
+          "quote": "Surprisingly, the intervention worked even for natural introverts.",
+          "sentenceIds": [
+            "c02-s03-p020-06720-s003"
+          ],
+          "sources": [
+            {
+              "pdfPage": 21,
+              "block": 0,
+              "bbox": [
+                76.99,
+                75,
+                535.01,
+                167.52
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "intervention",
+          "meaning": "干预",
+          "context": "实验要求参与者表现得外向这一操作",
+          "example": "The intervention involved a short conversation.",
+          "collocations": [
+            "an experimental intervention",
+            "the effect of an intervention"
+          ]
+        },
+        {
+          "word": "anticipated",
+          "meaning": "预期；预料",
+          "context": "与陌生人交谈后的幸福感超过事前预计",
+          "example": "The journey took longer than we had anticipated.",
+          "collocations": [
+            "anticipate a change",
+            "as anticipated"
+          ]
+        }
+      ],
+      "support": "explicit",
+      "editorialStatus": "短段版 v2；连续原句，配题片段互不重叠；保留 v1 历史快照，不重算旧成绩",
+      "translation": "还有许多实验要求参与者表现得像外向者。事后，他们报告的幸福感比被要求正常表现的人更高。令人惊讶的是，这种干预甚至对天性内向者也有效。同样，当人们被要求与陌生人交谈，也就是表现得像外向者时，他们感到的幸福远远超过自己事先的预期。",
+      "readingUnitId": "c02-s03-p020-06720-r001-004",
+      "fingerprint": "151f54678a20d054476c2d252a26fe66c2034e94da6f28c0e060781ede1bc17d"
+    },
+    {
+      "id": "q-c02-049",
+      "version": 1,
+      "readingUnitId": "c02-s03-p020-06720-r005-006",
+      "chapterId": "c02",
+      "sectionId": "c02-s03",
+      "paragraphId": "c02-s03-p020-06720",
+      "sentenceIds": [
+        "c02-s03-p020-06720-s005",
+        "c02-s03-p020-06720-s006"
+      ],
+      "passage": "These findings have been replicated. So, acting like an extravert does tend to make people happier, even if fake smiling does not.",
+      "prompt": "Which statement preserves the qualification in the passage’s conclusion?",
+      "options": [
+        "Acting more extraverted tends to increase happiness, even if fake smiling does not.",
+        "Fake smiling and acting extraverted always have identical effects.",
+        "Every introvert becomes permanently happier after one social interaction.",
+        "Replicated findings show that all attempts to change behaviour fail."
+      ],
+      "answer": 0,
+      "type": "同义改写",
+      "promptZh": "哪一说法保留了本段结论的限定？",
+      "optionsZh": [
+        "表现得更外向通常会提升幸福，即使假笑没有这种作用。",
+        "假笑与外向行为总有完全相同的效果。",
+        "每个内向者只社交一次就永久更幸福。",
+        "重复验证证明所有改变行为的尝试都会失败。"
+      ],
+      "analyses": [
+        "A tend to 保留倾向性，even if 保留与假笑的区分。",
+        "B even if...does not 不支持效果完全相同。",
+        "C every、permanently、one 都超出原句。",
+        "D 本段对外向行为给出正向倾向，不是所有尝试失败。"
+      ],
+      "evidence": [
+        {
+          "quote": "So, acting like an extravert does tend to make people happier, even if fake smiling does not.",
+          "sentenceIds": [
+            "c02-s03-p020-06720-s006"
+          ],
+          "sources": [
+            {
+              "pdfPage": 21,
+              "block": 0,
+              "bbox": [
+                76.99,
+                75,
+                535.01,
+                167.52
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "replicated",
+          "meaning": "被重复验证；被重复研究得到",
+          "context": "描述研究发现的再现，不等于每位个体都有同一效果",
+          "example": "The finding was replicated in a second study.",
+          "collocations": [
+            "replicate a finding",
+            "replicate an experiment"
+          ]
+        }
+      ],
+      "translation": "这些发现已经得到重复验证。因此，表现得像个外向者，确实倾向于让人更幸福，即使假笑并不会。",
+      "support": "explicit",
+      "editorialStatus": "PDF 第 18–25 页具体原文逐题编写并视觉核对；保留限定、统计年份、观点归属及类比性质；固定无重复短段",
+      "fingerprint": "6d9eab394e5894489fbde04464631980d2af6b8e0cdb8af4222e27c8a6cc8b0f"
+    },
+    {
+      "id": "qe-c02-0043",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-005",
+      "parentQuestionId": "q-c02-049",
+      "chapterId": "c02",
+      "sectionId": "c02-s03",
+      "paragraphId": "c02-s03-p020-06720",
+      "readingUnitId": "c02-s03-p020-06720-r005-006",
+      "sentenceIds": [
+        "c02-s03-p020-06720-s005",
+        "c02-s03-p020-06720-s006"
+      ],
+      "passage": "These findings have been replicated. So, acting like an extravert does tend to make people happier, even if fake smiling does not.",
+      "prompt": "What does saying that findings 'have been replicated' indicate?",
+      "promptZh": "说研究发现 have been replicated 表示什么？",
+      "options": [
+        "The findings were reproduced in further research.",
+        "The original report was merely mentioned in a newspaper.",
+        "Every future study must produce identical results.",
+        "The authors decided not to conduct any more research."
+      ],
+      "optionsZh": [
+        "后续研究再现了这些发现。",
+        "原报告只是被报纸提到。",
+        "未来每项研究都必须有相同结果。",
+        "作者决定不再开展研究。"
+      ],
+      "answer": 0,
+      "type": "语境词义",
+      "support": "explicit",
+      "analyses": [
+        "A replicated 指在进一步研究中再现结果；这是本句对这些发现的描述。",
+        "B 新闻提及不是科学复现，不能混淆。",
+        "C 已有复现不等于保证每个未来研究都相同。",
+        "D 句子没有研究停止的决定。注意不能把上一段微笑实验的混合结果与这里的发现混为一组。"
+      ],
+      "vocabulary": [
+        {
+          "word": "replicated",
+          "meaning": "被复现；经重复研究再现",
+          "context": "描述研究结果在进一步研究中再现，不只是媒体转述。",
+          "example": "The pattern was replicated in a second sample.",
+          "collocations": [
+            "replicate findings",
+            "be replicated in another study"
+          ]
+        }
+      ],
+      "translation": "这些发现已经得到重复验证。因此，表现得像个外向者，确实倾向于让人更幸福，即使假笑并不会。",
+      "evidenceTargetIds": [
+        "c02-s03-p020-06720-s005"
+      ],
+      "evidence": [
+        {
+          "quote": "These findings have been replicated.",
+          "sentenceIds": [
+            "c02-s03-p020-06720-s005"
+          ],
+          "sources": [
+            {
+              "pdfPage": 21,
+              "block": 0,
+              "bbox": [
+                76.99,
+                75,
+                535.01,
+                167.52
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "e1ccc355b48f9e863f8f432145293e443a071465ff0b45c3284e9188748ec425"
+    },
+    {
+      "id": "q-c02-008",
+      "version": 2,
+      "chapterId": "c02",
+      "sectionId": "c02-s03",
+      "paragraphId": "c02-s03-p021-01725",
+      "sentenceIds": [
+        "c02-s03-p021-01725-s004",
+        "c02-s03-p021-01725-s005"
+      ],
+      "passage": "The anagrams were impossible to solve, and everyone failed. The participants who were pressured to be happy ruminated about the failure more than the participants in the control condition, where there was no pressure to be happy.",
+      "prompt": "Why is the impossible-anagram experiment discussed?",
+      "options": [
+        "To establish that the control group solved all the anagrams.",
+        "To recommend failure as the only route to happiness.",
+        "To prove that everyone lacks language ability.",
+        "To show that pressure to be happy can worsen reactions to the same failure."
+      ],
+      "answer": 3,
+      "type": "逻辑关系",
+      "analyses": [
+        "A control 组也失败，并未解开所有字谜。",
+        "B 实验关注压力和反应，不是建议追求失败。",
+        "C impossible 的任务设计不能推断所有人语言能力不足。",
+        "D 对应 pressured 组更多 ruminated 与末句 same failure。"
+      ],
+      "evidence": [
+        {
+          "quote": "The anagrams were impossible to solve, and everyone failed.",
+          "sentenceIds": [
+            "c02-s03-p021-01725-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 21,
+              "block": 1,
+              "bbox": [
+                76.99,
+                172.5,
+                535.01,
+                343.02
+              ]
+            }
+          ]
+        },
+        {
+          "quote": "The participants who were pressured to be happy ruminated about the failure more than the participants in the control condition, where there was no pressure to be happy.",
+          "sentenceIds": [
+            "c02-s03-p021-01725-s005"
+          ],
+          "sources": [
+            {
+              "pdfPage": 21,
+              "block": 1,
+              "bbox": [
+                76.99,
+                172.5,
+                535.01,
+                343.02
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "ruminated",
+          "meaning": "反复琢磨；反刍思考",
+          "context": "反复想着解不开字谜的失败",
+          "example": "He ruminated about the meeting for hours.",
+          "collocations": [
+            "ruminate about a failure",
+            "ruminate on a problem"
+          ]
+        }
+      ],
+      "support": "explicit",
+      "editorialStatus": "短段版 v2；连续原句，配题片段互不重叠；保留 v1 历史快照，不重算旧成绩",
+      "translation": "这些字谜根本无法解开，所有人都失败了。被施加快乐压力的参与者，比没有这种压力的对照组参与者更反复地琢磨这次失败。",
+      "readingUnitId": "c02-s03-p021-01725-r004-005",
+      "fingerprint": "dfaef8a20f32c218512517ff65b89d793c1daa7ef8b1d7d9f9cc75f17fb96d3f"
+    },
+    {
+      "id": "q-c02-009",
+      "version": 2,
+      "chapterId": "c02",
+      "sectionId": "c02-s03",
+      "paragraphId": "c02-s03-p021-03480",
+      "sentenceIds": [
+        "c02-s03-p021-03480-s002"
+      ],
+      "passage": "Interestingly, in the countries where happiness is more strongly associated with good luck and fortune than personal accomplishments (e.g., Japan and Germany), there appears to be less pressure to be happy.",
+      "prompt": "Which conclusion stays within the evidence of the international comparison?",
+      "options": [
+        "Every American feels more pressure than every Japanese person.",
+        "Countries associating happiness more with luck appeared to show less pressure to be happy.",
+        "Cultural associations were experimentally assigned to entire nations.",
+        "Belief in luck has been proved to remove all sadness."
+      ],
+      "answer": 1,
+      "type": "有限推断",
+      "analyses": [
+        "A every 偷换平均层次。",
+        "B 保留 countries、association 和 appeared 的谨慎程度。",
+        "C 片段没有国家层面的随机分配。",
+        "D remove all sadness 与相关比较完全不同。"
+      ],
+      "evidence": [
+        {
+          "quote": "Interestingly, in the countries where happiness is more strongly associated with good luck and fortune than personal accomplishments (e.g., Japan and Germany), there appears to be less pressure to be happy.",
+          "sentenceIds": [
+            "c02-s03-p021-03480-s002"
+          ],
+          "sources": [
+            {
+              "pdfPage": 21,
+              "block": 2,
+              "bbox": [
+                76.99,
+                348,
+                535.01,
+                479.52
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "associated with",
+          "meaning": "与……相关联",
+          "context": "幸福与好运或成就的文化联系",
+          "example": "This colour is often associated with spring.",
+          "collocations": [
+            "be associated with",
+            "closely associated"
+          ]
+        }
+      ],
+      "support": "inference",
+      "editorialStatus": "短段版 v2；连续原句，配题片段互不重叠；保留 v1 历史快照，不重算旧成绩",
+      "translation": "有趣的是，在那些把幸福更多地联系到好运、而非个人成就的国家，例如日本和德国，必须快乐的压力似乎较小。",
+      "readingUnitId": "c02-s03-p021-03480-r002-002",
+      "fingerprint": "b0722ece4286a61da5c66b32c67d3bcc07e7a58a99e37cf502e934fcfea128f1"
+    },
+    {
+      "id": "q-c02-053",
+      "version": 1,
+      "readingUnitId": "c02-s03-p021-03480-r003-004",
+      "chapterId": "c02",
+      "sectionId": "c02-s03",
+      "paragraphId": "c02-s03-p021-03480",
+      "sentenceIds": [
+        "c02-s03-p021-03480-s003",
+        "c02-s03-p021-03480-s004"
+      ],
+      "passage": "Furthermore, these researchers found that individuals who feel pressure to feel happy also feel pressure not to feel sadness and anger. In short, many Americans are stuck in a happiness trap.",
+      "prompt": "What additional pressure was associated with pressure to feel happy?",
+      "options": [
+        "Pressure to feel sad and angry more frequently.",
+        "Pressure to avoid all social relationships.",
+        "Pressure not to experience sadness and anger.",
+        "Pressure to report happiness only in research settings."
+      ],
+      "answer": 2,
+      "type": "细节",
+      "promptZh": "感到必须幸福的人，还伴随着什么压力？",
+      "optionsZh": [
+        "更频繁地感到悲伤和愤怒的压力。",
+        "回避所有社会关系的压力。",
+        "不应体验悲伤和愤怒的压力。",
+        "只在研究场景中报告幸福的压力。"
+      ],
+      "analyses": [
+        "A not to feel 将方向限定为避免这些情绪，不是增加。",
+        "B 原文没有把关系回避列为额外压力。",
+        "C also feel pressure not to feel sadness and anger 直接支持。",
+        "D 没有 only 或研究场景的限制。"
+      ],
+      "evidence": [
+        {
+          "quote": "individuals who feel pressure to feel happy also feel pressure not to feel sadness and anger.",
+          "sentenceIds": [
+            "c02-s03-p021-03480-s003"
+          ],
+          "sources": [
+            {
+              "pdfPage": 21,
+              "block": 2,
+              "bbox": [
+                76.99,
+                348,
+                535.01,
+                479.52
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "stuck",
+          "meaning": "受困的；无法摆脱的",
+          "context": "stuck in a happiness trap 比喻被快乐要求困住",
+          "example": "The team felt stuck in an unproductive routine.",
+          "collocations": [
+            "be stuck in a trap",
+            "feel stuck"
+          ]
+        }
+      ],
+      "translation": "此外，这些研究者发现，感到必须幸福压力的人，也感到不应悲伤或愤怒的压力。简而言之，许多美国人被困在幸福陷阱中。",
+      "support": "explicit",
+      "editorialStatus": "PDF 第 18–25 页具体原文逐题编写并视觉核对；保留限定、统计年份、观点归属及类比性质；固定无重复短段",
+      "fingerprint": "2313f62fc477b32c9f4659c92d462a36724b983f8665180b5d568676e22f8aae"
+    },
+    {
+      "id": "qe-c02-0045",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-005",
+      "parentQuestionId": "q-c02-053",
+      "chapterId": "c02",
+      "sectionId": "c02-s03",
+      "paragraphId": "c02-s03-p021-03480",
+      "readingUnitId": "c02-s03-p021-03480-r003-004",
+      "sentenceIds": [
+        "c02-s03-p021-03480-s003",
+        "c02-s03-p021-03480-s004"
+      ],
+      "passage": "Furthermore, these researchers found that individuals who feel pressure to feel happy also feel pressure not to feel sadness and anger. In short, many Americans are stuck in a happiness trap.",
+      "prompt": "How does 'In short' function before the statement about a happiness trap?",
+      "promptZh": "幸福陷阱判断前的 In short 起什么作用？",
+      "options": [
+        "It introduces a new experimental method.",
+        "It summarises the preceding discussion of emotional pressure.",
+        "It reverses the meaning of the preceding finding.",
+        "It restricts the preceding finding to one individual."
+      ],
+      "optionsZh": [
+        "引入一种新的实验方法。",
+        "概括前面对情绪压力的讨论。",
+        "倒转前一发现的意思。",
+        "把前面的发现限定到单个个体。"
+      ],
+      "answer": 1,
+      "type": "逻辑关系",
+      "support": "explicit",
+      "analyses": [
+        "A In short 引出概括，不是新实验方法。",
+        "B In short 标示概括，把前面的双重情绪压力归结为陷阱。",
+        "C 前句的幸福压力与避免悲伤愤怒的压力支持后句，没有倒转。",
+        "D many Americans 指多人，并非单一个体。"
+      ],
+      "vocabulary": [
+        {
+          "word": "stuck",
+          "meaning": "受困；陷入而难以摆脱",
+          "context": "stuck in a happiness trap 是被情绪期待困住的比喻，不是物理上被锁住。",
+          "example": "The group felt stuck in a cycle of repeated arguments.",
+          "collocations": [
+            "be stuck in a trap",
+            "feel stuck"
+          ]
+        }
+      ],
+      "translation": "此外，这些研究者发现，感到必须幸福压力的人，也感到不应悲伤或愤怒的压力。简而言之，许多美国人被困在幸福陷阱中。",
+      "evidenceTargetIds": [
+        "c02-s03-p021-03480-s004"
+      ],
+      "evidence": [
+        {
+          "quote": "Furthermore, these researchers found that individuals who feel pressure to feel happy also feel pressure not to feel sadness and anger. In short, many Americans are stuck in a happiness trap.",
+          "sentenceIds": [
+            "c02-s03-p021-03480-s003",
+            "c02-s03-p021-03480-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 21,
+              "block": 2,
+              "bbox": [
+                76.99,
+                348,
+                535.01,
+                479.52
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "5ecebcd88f887fe567daa1c7ea692ef498d5bafa93ca717cba046ecfe60a9734"
+    }
+  ]
+}
