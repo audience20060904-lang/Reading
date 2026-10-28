@@ -1,0 +1,140 @@
+{
+  "schemaVersion": 1,
+  "id": "question-review-2026-10-28-003",
+  "status": "validated-awaiting-publication",
+  "pdfSha256": "be25c859f1bd894a4b0d1cff024ded1297f6a96a8e8ddabea1e3abcf89160a50",
+  "automated": {
+    "questions": 2709,
+    "missingQuestionOrOptionTranslations": [],
+    "duplicatePromptsWithinReadingUnit": [],
+    "answerPositions": {
+      "A": 701,
+      "B": 662,
+      "C": 695,
+      "D": 651
+    },
+    "longestCorrectOptionsBefore": 1596,
+    "longestCorrectOptionsAfter": 1592,
+    "notice": "Structural checks and answer-length screening are not a semantic proof of the answer key. Length is a possible guessing cue, not proof that a question is invalid."
+  },
+  "manual": {
+    "questionCount": 18,
+    "questionIds": [
+      "q-c03-039",
+      "q-c03-040",
+      "q-c03-041",
+      "q-c03-042",
+      "q-c03-044",
+      "q-c03-045",
+      "q-c03-047",
+      "q-c04-006",
+      "q-c04-007",
+      "q-c04-010",
+      "q-c04-011",
+      "q-c04-017",
+      "q-c04-021",
+      "q-c04-024",
+      "q-c04-026",
+      "q-c04-028",
+      "q-c04-029",
+      "q-c04-030"
+    ],
+    "sourceCandidateIdsReviewed": [
+      "c03-s05-p032-04575-s003",
+      "c03-s05-p032-04575-s004",
+      "c03-s05-p032-04575-s007",
+      "c03-s05-p033-00750-s002",
+      "c03-s05-p033-00750-s003",
+      "c03-s05-p033-00750-s005",
+      "c03-s06-p033-03600-s005",
+      "c03-s06-p033-03600-s006",
+      "c03-s06-p033-03600-s007",
+      "c03-s06-p033-03600-s009",
+      "c03-s06-p033-06330-s006",
+      "c03-s06-p033-06330-s007",
+      "c04-s01-p036-00750-s006",
+      "c04-s01-p036-02505-s003",
+      "c04-s02-p036-05160-s006",
+      "c04-s02-p036-05160-s007",
+      "c04-s02-p036-05160-s009",
+      "c04-s02-p036-05160-s010",
+      "c04-s03-p038-00750-s002",
+      "c04-s03-p038-03870-s006",
+      "c04-s03-p039-01140-s005",
+      "c04-s04-p039-02625-s005",
+      "c04-s04-p039-03600-s008",
+      "c04-s04-p039-03600-s009",
+      "c04-s04-p039-05940-s002"
+    ],
+    "sourceCandidatesReviewed": 25,
+    "pdfPagesVisuallyReviewed": [
+      32,
+      33,
+      34,
+      36,
+      37,
+      38,
+      39
+    ],
+    "pdfSourceBlocksTextMatched": 15,
+    "revisedQuestionIds": [
+      "q-c03-039",
+      "q-c03-040",
+      "q-c03-041",
+      "q-c03-044",
+      "q-c04-011",
+      "q-c04-017",
+      "q-c04-021",
+      "q-c04-024",
+      "q-c04-030"
+    ],
+    "revisedQuestionCount": 9,
+    "answerKeysChanged": 0,
+    "readingOrderChanged": false,
+    "findings": [
+      "q-c04-011补齐支持可能性优先于责任的原句引文。",
+      "q-c04-030去掉片段不足以支持的by age thirty题干范围，不补出生年份。",
+      "q-c04-021把must have的历史判断明确放在书中叙述归属内。",
+      "q-c04-024的Today按原书时点理解，中文不冒充实时状态。",
+      "其余修订改善群体自报、动机解释、并列建议和思想史起因的干扰项。"
+    ]
+  },
+  "remainingSemanticCandidateReviews": 183,
+  "fullQuestionBankHumanReview": false,
+  "fullVocabularyReview": false,
+  "recommendations": [
+    "继续按原书顺序校对剩余语义待办，优先检查限定语、数字、指代及题目证据。",
+    "提交后可在原文上定位证据，帮助把选项分析与来源对应起来；与现有三类解析布局保持一致。",
+    "错题可增加混淆人物、范围扩大、因果误读等错因标签，便于针对性复习。"
+  ],
+  "limits": [
+    "本轮人工复核18题，不能把2709题结构检查称为全库人工语义审校完成。",
+    "当前183个语义候选待办也不是全库剩余错误题数。"
+  ],
+  "validation": {
+    "unitTestsPassed": 348,
+    "build": "npm run build:pages passed",
+    "localBrowser": {
+      "date": "2026-10-28",
+      "url": "http://127.0.0.1:4207/Reading/",
+      "checks": [
+        "全部缓存资产及Service Worker与本次生产构建逐字节匹配",
+        "提交前无证据标记；提交后精确标出依据且原文不变、淡蓝色查词仍可用",
+        "相近题型合并为一行并按提交次数计算50%正确率，原始标签和历史记录不变",
+        "逐题提交9道校对题，交替验证正误、四项译文与分析、整段译文及完整快照；提交前不显示中文解析",
+        "真实浏览器恢复旧选项、旧译文、旧错题成绩与用时；重练采用新版，新增记录且不改历史",
+        "390px和320px深色视口，选项、解析和整段译文均无横向溢出",
+        "旧未提交选择遇到改版时清空，新版位置保留；已提交解析正常刷新恢复",
+        "离线模拟恢复新旧两版成绩；本地另实际停止HTTP服务后缓存恢复新版题目与译文"
+      ],
+      "limits": [
+        "Isolated synthetic data only; Prewritten versioned editorial corrections checked against their current records. Mobile is a viewport, not a physical phone."
+      ],
+      "revisedQuestionsVisited": 9,
+      "batchId": "question-review-2026-10-28-003",
+      "passed": true,
+      "offlineVersion": "1df1be103f34633c"
+    },
+    "offlineVersion": "1df1be103f34633c"
+  }
+}

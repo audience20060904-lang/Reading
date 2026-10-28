@@ -10,13 +10,13 @@ import {getQuestionTranslation} from '../src/questionTranslations';
 import AnswerExplanation from '../src/AnswerExplanation';
 import type {Book,Question,ReadingPlan} from '../src/types';
 const read=(p:string)=>JSON.parse(readFileSync(p,'utf8'));
-const book=read('public/data/book.json') as Book,base=read('public/data/questions.json') as Question[],extras=read('public/data/evidence-questions.json') as Question[],originalPlan=read('public/data/reading-plan.json') as ReadingPlan,repair=read('src/data/sentence-repair-catalog.json'),catalog=read('src/data/question-revision-catalog.json'),frozen={questions:[...read('source/question-revisions/review-001-baseline.json').questions,...read('source/question-revisions/review-002-baseline.json').questions]};
+const book=read('public/data/book.json') as Book,base=read('public/data/questions.json') as Question[],extras=read('public/data/evidence-questions.json') as Question[],originalPlan=read('public/data/reading-plan.json') as ReadingPlan,repair=read('src/data/sentence-repair-catalog.json'),catalog=read('src/data/question-revision-catalog.json'),revisionManifest=read('source/question-revisions/manifest.json'),frozen={questions:revisionManifest.batches.flatMap((b:{baseline:string})=>read(b.baseline).questions)};
 const before=[...base.map(q=>repair.questions.find((r:Question)=>r.id===q.id)??q),...extras] as Question[],active=activeReading(base,originalPlan,extras),qs=active.questions;
 const canonical=(v:any):string=>Array.isArray(v)?'['+v.map(canonical).join(',')+']':v&&typeof v==='object'?'{'+Object.keys(v).sort().map(k=>JSON.stringify(k)+':'+canonical(v[k])).join(',')+'}':JSON.stringify(v);
 
 describe('有版本记录的题目校对',()=>{
- it('两批27题升级版本，其余2682题及全部阅读单元和来源完全保留',()=>{
-  expect(catalog.questions).toHaveLength(27);expect(qs).toHaveLength(2709);expect(new Set(qs.map(q=>q.id)).size).toBe(2709);
+ it('修订题逐版升级，其余题目及全部阅读单元和来源完全保留',()=>{
+  expect(catalog.questions).toHaveLength(new Set(frozen.questions.map((q:Question)=>q.id)).size);expect(qs).toHaveLength(2709);expect(new Set(qs.map(q=>q.id)).size).toBe(2709);
   for(const old of before){const q=qs.find(q=>q.id===old.id)!;if(!q.contentRevision){expect(q).toEqual(old);continue;}expect(old).toEqual(frozen.questions.find((x:Question)=>x.id===old.id));expect(q.version).toBe(old.version+catalog.revisionDepths[q.id]);expect(q.fingerprint).not.toBe(old.fingerprint);expect(q.answer).toBe(old.answer);expect(q.passage).toBe(old.passage);expect(q.evidence.map(e=>e.sentenceIds)).toEqual(old.evidence.map(e=>e.sentenceIds));for(const [i,e] of q.evidence.entries()){expect(q.passage).toContain(e.quote);expect(e.quote).toContain(old.evidence[i].quote);expect(e.sources).toEqual(old.evidence[i].sources);}expect(q.sentenceIds).toEqual(old.sentenceIds);expect(q.readingUnitId).toBe(old.readingUnitId);const {fingerprint,...content}=q;expect(createHash('sha256').update(canonical(content)).digest('hex')).toBe(fingerprint);}
   expect(orderedQuestions(qs,book).map(q=>q.id)).toEqual(orderedQuestions(before,book).map(q=>q.id));expect(active.plan.units.map(u=>u.id)).toEqual(originalPlan.units.map(u=>u.id));
  });

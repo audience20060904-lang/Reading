@@ -406,3 +406,15 @@ footer { font-size: 10px; margin-top: 40px; padding: 25px 0 32px; gap: 15px; }
 }
 
 .cross-source-marks { display:flex; align-items:center; gap:10px; margin-top:14px; color:var(--muted); font:11px/1.8 var(--ui-font); flex-wrap:wrap; }
+.evidence-highlight { color:inherit; background:#fff0bd; border-radius:2px; box-decoration-break:clone; -webkit-box-decoration-break:clone; }
+.lookup-word .evidence-highlight { background:transparent; box-shadow:inset 0 -3px #e7bd58; border-radius:0; }
+.evidence-hint { font:11px/1.7 var(--ui-font); color:var(--muted); margin:6px 0 0; }
+.evidence-hint::before { content:''; display:inline-block; width:6px; height:6px; border-radius:50%; background:#d5a328; margin-right:7px; vertical-align:middle; }
+[data-theme=dark] .evidence-highlight { background:#665222; }
+[data-theme=dark] .lookup-word .evidence-highlight { background:transparent; box-shadow:inset 0 -3px #d4a649; }
+@media(max-width:760px) {
+ .reading-heading { margin-bottom:16px; }
+ .reading-heading h1[lang=en] { font-size:clamp(24px,7vw,28px); line-height:1.2; }
+ .reading-heading .chapter-progress { margin-top:10px; }
+ .reading-heading+.reading-path { padding-bottom:16px; }
+}

@@ -1,0 +1,783 @@
+{
+  "pdfSha256": "be25c859f1bd894a4b0d1cff024ded1297f6a96a8e8ddabea1e3abcf89160a50",
+  "sourceCommit": "0075cde6522567d92e3ed89522cd24f036650e2f",
+  "questions": [
+    {
+      "id": "q-c03-039",
+      "version": 1,
+      "readingUnitId": "c03-s05-p032-04575-r001-004",
+      "chapterId": "c03",
+      "sectionId": "c03-s05",
+      "paragraphId": "c03-s05-p032-04575",
+      "sentenceIds": [
+        "c03-s05-p032-04575-s001",
+        "c03-s05-p032-04575-s002",
+        "c03-s05-p032-04575-s003",
+        "c03-s05-p032-04575-s004"
+      ],
+      "passage": "So far, the case of Mason, the military prison officer, is merely hypothetical. Is there any scientific evidence for this phenomenon of misplaced meaning in life? Recent studies have found that meaning in life is associated with right-wing authoritarianism, a belief system defined as uncritical submission to authority, feelings of aggression toward those who violate social norms, and strict adherence to conventional values. That is, right-wing authoritarians reported higher levels of meaning in life than non-authoritarians.",
+      "prompt": "What relationship do the cited studies report?",
+      "options": [
+        "Right-wing authoritarians reported more meaning than non-authoritarians.",
+        "An experiment proved that meaning causes authoritarianism in every person.",
+        "Mason’s actual biography was verified by the studies.",
+        "Authoritarianism was defined as critical resistance to all authority."
+      ],
+      "answer": 0,
+      "type": "细节",
+      "promptZh": "所引研究报告了什么关系？",
+      "optionsZh": [
+        "右翼威权主义者自报的生命意义高于非威权主义者。",
+        "实验证明意义感在每个人身上都会造成威权主义。",
+        "这些研究核实了 Mason 的真实生平。",
+        "威权主义被定义为批判地抗拒所有权威。"
+      ],
+      "analyses": [
+        "A reported higher levels 与比较对象均直接对应。",
+        "B associated with 是相关，既无普遍因果也无实验操控。",
+        "C 首句再次强调 Mason merely hypothetical。",
+        "D 定义是 uncritical submission，D 将顺从读成抵抗。"
+      ],
+      "evidence": [
+        {
+          "quote": "meaning in life is associated with right-wing authoritarianism",
+          "sentenceIds": [
+            "c03-s05-p032-04575-s003"
+          ],
+          "sources": [
+            {
+              "pdfPage": 32,
+              "block": 3,
+              "bbox": [
+                76.99,
+                457.5,
+                535.01,
+                686.52
+              ]
+            }
+          ]
+        },
+        {
+          "quote": "right-wing authoritarians reported higher levels of meaning in life than non-authoritarians.",
+          "sentenceIds": [
+            "c03-s05-p032-04575-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 32,
+              "block": 3,
+              "bbox": [
+                76.99,
+                457.5,
+                535.01,
+                686.52
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "adherence",
+          "meaning": "遵守；坚持",
+          "context": "strict adherence to conventional values 是作者所引定义的组成部分",
+          "example": "The role requires adherence to clear safety rules.",
+          "collocations": [
+            "strict adherence to",
+            "adherence to rules"
+          ]
+        }
+      ],
+      "translation": "到目前为止，军事监狱警官 Mason 的例子仅仅是假设。对于这种生命意义错置的现象，有科学证据吗？近期研究发现，生命意义与右翼威权主义相关；这种信念体系被界定为：不加批判地服从权威、对违反社会规范者抱有攻击情绪，以及严格遵从传统价值观。也就是说，右翼威权主义者自报的生命意义水平高于非威权主义者。",
+      "support": "explicit",
+      "editorialStatus": "PDF 第 25–32 页逐题核对；固定连续原句；区分文学引述、自报、相关和假设，不扩大个体或因果结论",
+      "fingerprint": "aed636f0d2e22d2293f7571f40945ebdcab0f7ac78524647f29b8405727682ec"
+    },
+    {
+      "id": "q-c03-040",
+      "version": 1,
+      "readingUnitId": "c03-s05-p032-04575-r005-007",
+      "chapterId": "c03",
+      "sectionId": "c03-s05",
+      "paragraphId": "c03-s05-p032-04575",
+      "sentenceIds": [
+        "c03-s05-p032-04575-s005",
+        "c03-s05-p032-04575-s006",
+        "c03-s05-p032-04575-s007"
+      ],
+      "passage": "They do plenty of civic work, in their way. But their cause might be very narrow, and potentially antagonistic toward those they consider outsiders. Likewise, multiple studies have found that political conservatives (who are known to draw a sharp line between ingroups and outgroups) report higher levels of meaning in life as well as happiness than political liberals.",
+      "prompt": "Which interpretation preserves the qualifications in this excerpt?",
+      "options": [
+        "Civic work guarantees concern for all outsiders.",
+        "Every conservative is hostile to outsiders and every liberal is unhappy.",
+        "Civic involvement can coexist with narrow causes, and the studies report group differences.",
+        "The studies prove that changing political identity causes happiness and meaning."
+      ],
+      "answer": 2,
+      "type": "推断",
+      "promptZh": "哪一种理解保留了这段中的限定？",
+      "optionsZh": [
+        "公民事务工作保证关心所有外群体。",
+        "每个保守派都敌视外人，每个自由派都不幸福。",
+        "参与公民事务可以与狭窄目标并存，研究报告的是群体差异。",
+        "研究证明改变政治身份会造成幸福与意义。"
+      ],
+      "analyses": [
+        "A But 转折指出 civic work 不保证目标广泛包容。",
+        "B might、potentially 和群体 reported higher 不能变为每个个体的绝对断言。",
+        "C 兼顾可能的狭窄与敌对，以及后文群体自报的比较。",
+        "D found...report higher 是研究关联，非身份干预的因果试验。"
+      ],
+      "evidence": [
+        {
+          "quote": "their cause might be very narrow, and potentially antagonistic toward those they consider outsiders.",
+          "sentenceIds": [
+            "c03-s05-p032-04575-s006"
+          ],
+          "sources": [
+            {
+              "pdfPage": 32,
+              "block": 3,
+              "bbox": [
+                76.99,
+                457.5,
+                535.01,
+                686.52
+              ]
+            }
+          ]
+        },
+        {
+          "quote": "political conservatives",
+          "sentenceIds": [
+            "c03-s05-p032-04575-s007"
+          ],
+          "sources": [
+            {
+              "pdfPage": 32,
+              "block": 3,
+              "bbox": [
+                76.99,
+                457.5,
+                535.01,
+                686.52
+              ]
+            }
+          ]
+        },
+        {
+          "quote": "report higher levels of meaning in life as well as happiness than political liberals.",
+          "sentenceIds": [
+            "c03-s05-p032-04575-s007"
+          ],
+          "sources": [
+            {
+              "pdfPage": 32,
+              "block": 3,
+              "bbox": [
+                76.99,
+                457.5,
+                535.01,
+                686.52
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "antagonistic",
+          "meaning": "敌对的；对抗性的",
+          "context": "potentially antagonistic 表示可能敌视，并非每人必然如此",
+          "example": "The two groups adopted an antagonistic tone during the debate.",
+          "collocations": [
+            "antagonistic toward",
+            "an antagonistic relationship"
+          ]
+        }
+      ],
+      "translation": "他们也以自己的方式做不少公民事务工作。但他们的事业目标可能非常狭窄，并可能敌视那些被他们视为外人的人。同样，多项研究发现，政治保守派（通常被认为对内群体和外群体划界分明）自报的生命意义和幸福水平均高于政治自由派。",
+      "support": "inference",
+      "editorialStatus": "PDF 第 25–32 页逐题核对；固定连续原句；区分文学引述、自报、相关和假设，不扩大个体或因果结论",
+      "fingerprint": "85dc8090709e3f70ea419050b5202ec7cd56780483ccd678d343573fb7373e85"
+    },
+    {
+      "id": "q-c03-041",
+      "version": 1,
+      "readingUnitId": "c03-s05-p033-00750-r001-003",
+      "chapterId": "c03",
+      "sectionId": "c03-s05",
+      "paragraphId": "c03-s05-p033-00750",
+      "sentenceIds": [
+        "c03-s05-p033-00750-s001",
+        "c03-s05-p033-00750-s002",
+        "c03-s05-p033-00750-s003"
+      ],
+      "passage": "Or consider the ultimate antisocial behavior, terrorism. The criminologist Simon Cottee argues that one of the main reasons people join terrorist organizations is the desire for ultimate meaning: “Terrorist groups provide an important source of identity and purpose for their members, and…this may well be part of what motivates people to join them. Not only does the terrorist organization furnish its recruits with an all-embracing narrative for understanding the world and how it works…it also supplies them with a narrative for understanding their own place in this wider world.",
+      "prompt": "What explanation does Cottee offer for joining terrorist organisations?",
+      "options": [
+        "Members are motivated exclusively by financial rewards.",
+        "Organisations can offer identity, purpose, and an account of one’s place in the world.",
+        "Every recruit has already rejected any search for meaning.",
+        "A controlled experiment proves that all searches for purpose lead to terrorism."
+      ],
+      "answer": 1,
+      "type": "观点归属",
+      "promptZh": "Cottee 为加入恐怖组织提供了什么解释？",
+      "optionsZh": [
+        "成员完全受金钱报酬驱动。",
+        "组织能提供身份、目的，以及对个人在世界中位置的解释。",
+        "每位新成员都已拒绝寻找任何意义。",
+        "对照实验证明所有目的追寻都通向恐怖主义。"
+      ],
+      "analyses": [
+        "A one of the main reasons 与 exclusively 均不符，片段没有金钱解释。",
+        "B 引语列出 identity、purpose 和理解自身位置的 narrative。",
+        "C desire for ultimate meaning 与拒绝寻找意义相反。",
+        "D 此处是 Cottee 的解释，may well be part 保留可能和部分动机，非全称实验结论。"
+      ],
+      "evidence": [
+        {
+          "quote": "Terrorist groups provide an important source of identity and purpose for their members",
+          "sentenceIds": [
+            "c03-s05-p033-00750-s002"
+          ],
+          "sources": [
+            {
+              "pdfPage": 33,
+              "block": 0,
+              "bbox": [
+                76.99,
+                75,
+                535.01,
+                304.02
+              ]
+            }
+          ]
+        },
+        {
+          "quote": "a narrative for understanding their own place in this wider world.",
+          "sentenceIds": [
+            "c03-s05-p033-00750-s003"
+          ],
+          "sources": [
+            {
+              "pdfPage": 33,
+              "block": 0,
+              "bbox": [
+                76.99,
+                75,
+                535.01,
+                304.02
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "all-embracing",
+          "meaning": "包罗万象的；涵盖一切的",
+          "context": "修饰 narrative，指组织提供的全面解释框架，不表示该框架真实或正当",
+          "example": "The proposal offered an all-embracing account of the project.",
+          "collocations": [
+            "an all-embracing narrative",
+            "an all-embracing explanation"
+          ]
+        }
+      ],
+      "translation": "或者，看看极端的反社会行为——恐怖主义。犯罪学家 Simon Cottee 认为，人们加入恐怖组织的主要原因之一，是对终极意义的渴望：“恐怖组织为成员提供重要的身份与目的来源，而这很可能是促使人们加入的部分原因。恐怖组织不仅为新成员提供包罗万象的叙事，来理解世界及其运作……还提供一种叙事，来理解自己在这个更广阔世界中的位置。",
+      "support": "explicit",
+      "editorialStatus": "PDF 第 33–38 页逐题核对；固定连续原句；区分论述、文学人物与真实人物叙事，不将个案经历当作普遍因果",
+      "fingerprint": "3d224a4db4b89df3ee5c2e08508485eade2f836513b3963c8436a6b09633c0bd"
+    },
+    {
+      "id": "q-c03-044",
+      "version": 1,
+      "readingUnitId": "c03-s06-p033-03600-r005-008",
+      "chapterId": "c03",
+      "sectionId": "c03-s06",
+      "paragraphId": "c03-s06-p033-03600",
+      "sentenceIds": [
+        "c03-s06-p033-03600-s005",
+        "c03-s06-p033-03600-s006",
+        "c03-s06-p033-03600-s007",
+        "c03-s06-p033-03600-s008"
+      ],
+      "passage": "If you feel like you haven’t made any meaningful difference in the world, consider that you could achieve meaning through devotion to a certain cause, starting out small in your neighborhood. Take your time, and you will make a difference in the long run. The second part of the meaning trap is that the pursuit of a meaningful life can promote a narrow viewpoint. As research shows, meaning in life is sometimes attained through prosocial behaviors toward a small ingroup, and antisocial behaviors or apathy toward outgroups.",
+      "prompt": "Which response best captures both pieces of advice in the passage?",
+      "options": [
+        "Pursue an immediate global achievement and ignore outsiders.",
+        "Abandon local causes because only large campaigns create meaning.",
+        "Begin with sustained local commitment while watching for a narrow concern for insiders.",
+        "Treat all prosocial behaviour as proof that outsiders are also benefiting."
+      ],
+      "answer": 2,
+      "type": "主旨",
+      "promptZh": "哪一项最能兼顾片段中的两方面建议？",
+      "optionsZh": [
+        "立即追求全球性成就并忽略外人。",
+        "放弃地方事业，因为只有大型行动才能创造意义。",
+        "从持续的本地投入开始，同时留意只关心内部人的狭隘视角。",
+        "把一切亲社会行为都视为外人也受益的证明。"
+      ],
+      "analyses": [
+        "A starting out small、Take your time 都与立即全球壮举相反。",
+        "B 原文正建议从 neighborhood 的小事起步。",
+        "C 前半段鼓励小处持续投入，后半段警示 narrow viewpoint 与对外群体的冷漠。",
+        "D toward a small ingroup 限定帮助对象，不能推广到外群体。"
+      ],
+      "evidence": [
+        {
+          "quote": "starting out small in your neighborhood. Take your time",
+          "sentenceIds": [
+            "c03-s06-p033-03600-s005",
+            "c03-s06-p033-03600-s006"
+          ],
+          "sources": [
+            {
+              "pdfPage": 33,
+              "block": 2,
+              "bbox": [
+                76.99,
+                360,
+                535.01,
+                628.02
+              ]
+            }
+          ]
+        },
+        {
+          "quote": "the pursuit of a meaningful life can promote a narrow viewpoint.",
+          "sentenceIds": [
+            "c03-s06-p033-03600-s007"
+          ],
+          "sources": [
+            {
+              "pdfPage": 33,
+              "block": 2,
+              "bbox": [
+                76.99,
+                360,
+                535.01,
+                628.02
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "apathy",
+          "meaning": "冷漠；漠不关心",
+          "context": "指对外群体的缺乏关心，与对内部人的帮助形成对照",
+          "example": "Public apathy made the campaign harder to sustain.",
+          "collocations": [
+            "apathy toward others",
+            "political apathy"
+          ]
+        }
+      ],
+      "translation": "如果你觉得自己没有给世界带来有意义的改变，不妨想想：你可以通过投身某项事业获得意义，从自己社区的小事做起。慢慢来，长远看你会产生影响。意义陷阱的第二部分是，追求有意义的生活可能助长狭隘视角。研究表明，人有时通过帮助一个小内群体，同时对外群体表现反社会行为或冷漠，来获得生命意义。",
+      "support": "inference",
+      "editorialStatus": "PDF 第 33–38 页逐题核对；固定连续原句；区分论述、文学人物与真实人物叙事，不将个案经历当作普遍因果",
+      "fingerprint": "1dd00bb51e3f1ccb07803d11959c1247f2256fbc909078e05a79b613a2c5e341"
+    },
+    {
+      "id": "q-c04-011",
+      "version": 1,
+      "readingUnitId": "c04-s02-p036-05160-r009-010",
+      "chapterId": "c04",
+      "sectionId": "c04-s02",
+      "paragraphId": "c04-s02-p036-05160",
+      "sentenceIds": [
+        "c04-s02-p036-05160-s009",
+        "c04-s02-p036-05160-s010"
+      ],
+      "passage": "In contrast, B promotes a virtuous life, defending marriage as “a school for character; one marries in order to elevate and improve one’s character.” Like Goldmund, A chooses the life of the aesthetic, accidental, and expeditus (Latin for “ready to march”), embracing possibilities more than responsibilities.",
+      "prompt": "Which pairing correctly matches the positions described?",
+      "options": [
+        "B rejects marriage; A prioritises responsibilities over possibilities.",
+        "B favours accidental adventure; A defends marriage as character education.",
+        "Both A and B reject every form of commitment for the same reason.",
+        "B defends marriage as character-building; A embraces possibilities over responsibilities."
+      ],
+      "answer": 3,
+      "type": "观点归属",
+      "promptZh": "哪一项正确匹配了这里的立场？",
+      "optionsZh": [
+        "B 反对婚姻；A 认为责任比可能性重要。",
+        "B 赞成偶然冒险；A 把婚姻辩护为品格教育。",
+        "A 与 B 因同一理由拒绝一切承诺。",
+        "B 为婚姻塑造品格辩护；A 更拥抱可能性而非责任。"
+      ],
+      "analyses": [
+        "A defending marriage 与 embracing possibilities 均被读反。",
+        "B 把两人的立场对调。",
+        "C In contrast 说明立场有别，且 B 并未拒绝婚姻承诺。",
+        "D 前半句对应 B 的辩护，后半句对应 A 的选择。"
+      ],
+      "evidence": [
+        {
+          "quote": "B promotes a virtuous life, defending marriage as “a school for character",
+          "sentenceIds": [
+            "c04-s02-p036-05160-s009"
+          ],
+          "sources": [
+            {
+              "pdfPage": 37,
+              "block": 0,
+              "bbox": [
+                76.99,
+                75,
+                535.01,
+                187.02
+              ]
+            }
+          ]
+        },
+        {
+          "quote": "A chooses the life of the aesthetic, accidental, and expeditus",
+          "sentenceIds": [
+            "c04-s02-p036-05160-s010"
+          ],
+          "sources": [
+            {
+              "pdfPage": 37,
+              "block": 0,
+              "bbox": [
+                76.99,
+                75,
+                535.01,
+                187.02
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "elevate",
+          "meaning": "提升；提高",
+          "context": "在 B 的引语中与 improve 并列，指改善品格",
+          "example": "The programme aims to elevate the quality of local services.",
+          "collocations": [
+            "elevate one’s character",
+            "elevate the quality of"
+          ]
+        }
+      ],
+      "translation": "相比之下，B 提倡有德的生活，为婚姻辩护，称它是“品格的学校；人结婚是为了提升和改善自己的品格”。像 Goldmund 一样，A 选择审美、偶然、随时出发的生活（expeditus 的拉丁语意为“准备好行进”），比起责任，更拥抱可能性。",
+      "support": "explicit",
+      "editorialStatus": "PDF 第 33–38 页逐题核对；固定连续原句；区分论述、文学人物与真实人物叙事，不将个案经历当作普遍因果",
+      "fingerprint": "13022187a79fae441c79d4ae54c53ea614f726ce17337141cc1220dfa1d723c6"
+    },
+    {
+      "id": "q-c04-017",
+      "version": 1,
+      "readingUnitId": "c04-s03-p038-00750-r001-003",
+      "chapterId": "c04",
+      "sectionId": "c04-s03",
+      "paragraphId": "c04-s03-p038-00750",
+      "sentenceIds": [
+        "c04-s03-p038-00750-s001",
+        "c04-s03-p038-00750-s002",
+        "c04-s03-p038-00750-s003"
+      ],
+      "passage": "Gopnik’s newfound interest in Buddhism provoked a question, one that would lead her down an Alice in Wonderland–esque intellectual rabbit hole. As she read more about Buddhist philosophy, she noticed a similarity in its ideas to David Hume’s Treatise of Human Nature, and she began to wonder if there were Eastern roots in the Western Enlightenment. So began her quest to link Ippolito Desideri, a Jesuit missionary to Tibet who wrote about Buddhism in 1728, with David Hume, who completed his Treatise in 1738.",
+      "prompt": "What prompted Gopnik’s search for a link between Desideri and Hume?",
+      "options": [
+        "Evidence that Hume had personally taught her meditation.",
+        "A decision to prove that the Enlightenment had no outside influences.",
+        "A perceived similarity between Buddhist ideas and Hume’s work.",
+        "A finding that the two men published the same book in the same year."
+      ],
+      "answer": 2,
+      "type": "逻辑关系",
+      "promptZh": "什么促使 Gopnik 寻找 Desideri 与 Hume 的联系？",
+      "optionsZh": [
+        "Hume 亲自教她冥想的证据。",
+        "决定证明启蒙运动没有外来影响。",
+        "她注意到佛教思想与 Hume 著作之间的相似。",
+        "发现两人在同一年出版同一本书。"
+      ],
+      "analyses": [
+        "A 片段是她读思想史材料，没有 Hume 教她的经历。",
+        "B wonder if there were Eastern roots 是探索是否有东方渊源，非预设排除。",
+        "C noticed a similarity 后接 wonder 与 quest，构成探究起因。",
+        "D 1728 与 1738 不同，著作与事件也不同。"
+      ],
+      "evidence": [
+        {
+          "quote": "she noticed a similarity in its ideas to David Hume’s Treatise of Human Nature, and she began to wonder if there were Eastern roots in the Western Enlightenment.",
+          "sentenceIds": [
+            "c04-s03-p038-00750-s002"
+          ],
+          "sources": [
+            {
+              "pdfPage": 38,
+              "block": 0,
+              "bbox": [
+                76.99,
+                75,
+                535.01,
+                265.02
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "quest",
+          "meaning": "探索；寻求",
+          "context": "指寻找思想史联系的研究行动，此时仍是追问，不是已经证明联系",
+          "example": "Her quest for reliable evidence took several years.",
+          "collocations": [
+            "a quest for knowledge",
+            "begin a quest"
+          ]
+        }
+      ],
+      "translation": "Gopnik 新产生的佛教兴趣引出一个问题，把她带进像《爱丽丝漫游奇境》那样的知识兔子洞。阅读更多佛教哲学时，她发现其中思想与 David Hume 的《人性论》相似，开始思考西方启蒙运动是否有东方根源。她于是着手寻找二者的联系：一位是赴西藏的耶稣会传教士 Ippolito Desideri，1728 年写过佛教；另一位是 1738 年完成《人性论》的 David Hume。",
+      "support": "explicit",
+      "editorialStatus": "PDF 第 33–38 页逐题核对；固定连续原句；区分论述、文学人物与真实人物叙事，不将个案经历当作普遍因果",
+      "fingerprint": "a6125a14baacf9e82a8890a7401144618a5b6ed8ba54d50f0d747e9ef192aaa5"
+    },
+    {
+      "id": "q-c04-021",
+      "version": 1,
+      "readingUnitId": "c04-s03-p038-03870-r005-008",
+      "chapterId": "c04",
+      "sectionId": "c04-s03",
+      "paragraphId": "c04-s03-p038-03870",
+      "sentenceIds": [
+        "c04-s03-p038-03870-s005",
+        "c04-s03-p038-03870-s006",
+        "c04-s03-p038-03870-s007",
+        "c04-s03-p038-03870-s008"
+      ],
+      "passage": "On her last day in Rome, she learned that Desideri had visited the Royal College again when David Hume was there. Moreover, Gopnik uncovered another link: Dolu, a French ambassador to Buddhist Siam in the 1680s, retired to La Flèche in 1723. Her question was answered: David Hume must have read about Buddhism in La Flèche. She had connected Eastern philosophy to the Western Enlightenment.",
+      "prompt": "Which discovery concerning Dolu is reported as an additional link?",
+      "options": [
+        "He completed Hume’s Treatise in Rome in 1738.",
+        "He accompanied Gopnik to the Royal College in 2007.",
+        "He became ambassador to France after retiring from La Flèche.",
+        "He had served in Buddhist Siam and retired to La Flèche in 1723."
+      ],
+      "answer": 3,
+      "type": "细节",
+      "promptZh": "关于 Dolu，哪一发现被报告为另一条联系？",
+      "optionsZh": [
+        "他在 1738 年于罗马完成 Hume 的《人性论》。",
+        "他在 2007 年陪 Gopnik 前往皇家学院。",
+        "他离开 La Flèche 退休后出任驻法大使。",
+        "他曾出使信奉佛教的暹罗，1723 年退居 La Flèche。"
+      ],
+      "analyses": [
+        "A 写作主体和地点都被替换，原文没有 Dolu 写《人性论》。",
+        "B Dolu 是十七、十八世纪线索中的人物，不是她现代旅行的同行者。",
+        "C French ambassador to Buddhist Siam 是法国派驻暹罗的大使，非驻法大使。",
+        "D 身份、暹罗经历与退居时间地点均对应原句；这是本书所叙研究线索。"
+      ],
+      "evidence": [
+        {
+          "quote": "Dolu, a French ambassador to Buddhist Siam in the 1680s, retired to La Flèche in 1723.",
+          "sentenceIds": [
+            "c04-s03-p038-03870-s006"
+          ],
+          "sources": [
+            {
+              "pdfPage": 38,
+              "block": 2,
+              "bbox": [
+                76.99,
+                387,
+                535.01,
+                596.52
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "uncovered",
+          "meaning": "发现；揭示",
+          "context": "指在历史调查中找出另一条联系，不表示每种影响机制已被直接观察",
+          "example": "The search uncovered a letter in the local archives.",
+          "collocations": [
+            "uncover a link",
+            "uncover evidence"
+          ]
+        }
+      ],
+      "translation": "在罗马的最后一天，她得知 Desideri 在 David Hume 身处皇家学院时曾再次造访那里。此外，Gopnik 又发现一条联系：Dolu 在十七世纪八十年代曾任法国驻佛教暹罗的大使，1723 年退居 La Flèche。她的问题得到了回答：David Hume 一定在 La Flèche 读过有关佛教的材料。她把东方哲学与西方启蒙运动联系了起来。",
+      "support": "explicit",
+      "editorialStatus": "PDF 第 38–41 页逐题核对；固定连续原句；保留个案、引述与原书历史措辞，不把叙事当作普遍因果或医疗建议",
+      "fingerprint": "7326260c14342ff3d8ac6a874e45b86b42b8271d956ed72bcae4eb480e261369"
+    },
+    {
+      "id": "q-c04-024",
+      "version": 1,
+      "readingUnitId": "c04-s03-p039-01140-r005-005",
+      "chapterId": "c04",
+      "sectionId": "c04-s03",
+      "paragraphId": "c04-s03-p039-01140",
+      "sentenceIds": [
+        "c04-s03-p039-01140-s005"
+      ],
+      "passage": "Today she lives a psychologically rich life she values for its “sheer endless variety.”",
+      "prompt": "What does Gopnik value about the life described in this sentence?",
+      "options": [
+        "Its seemingly endless variety.",
+        "Its complete absence of change.",
+        "Its dependence on professional awards.",
+        "Its guarantee of permanent happiness."
+      ],
+      "answer": 0,
+      "type": "细节",
+      "promptZh": "这句话说 Gopnik 珍视这种生活的什么？",
+      "optionsZh": [
+        "仿佛无穷无尽的多样性。",
+        "完全没有变化。",
+        "依赖职业奖项。",
+        "保证永久幸福。"
+      ],
+      "analyses": [
+        "A values for its 后直接接 sheer endless variety。",
+        "B variety 与无变化相反。",
+        "C 本句没有奖项条件。",
+        "D psychologically rich 不等于永久幸福保证。"
+      ],
+      "evidence": [
+        {
+          "quote": "a psychologically rich life she values for its “sheer endless variety.”",
+          "sentenceIds": [
+            "c04-s03-p039-01140-s005"
+          ],
+          "sources": [
+            {
+              "pdfPage": 39,
+              "block": 1,
+              "bbox": [
+                76.99,
+                114,
+                535.01,
+                206.52
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "variety",
+          "meaning": "多样性；丰富变化",
+          "context": "是她珍视心理丰富生活的具体原因，而非某一成就的数量",
+          "example": "The course offers a variety of reading experiences.",
+          "collocations": [
+            "endless variety",
+            "a variety of experiences"
+          ]
+        }
+      ],
+      "translation": "如今，她过着心理丰富的生活，珍视其中“纯然无尽的多样性”。",
+      "support": "explicit",
+      "editorialStatus": "PDF 第 38–41 页逐题核对；固定连续原句；保留个案、引述与原书历史措辞，不把叙事当作普遍因果或医疗建议",
+      "fingerprint": "a76fef7d36040b8a4bd3708c1034db894316969e5c13d3af33e497813513c996"
+    },
+    {
+      "id": "q-c04-030",
+      "version": 1,
+      "readingUnitId": "c04-s04-p039-05940-r001-004",
+      "chapterId": "c04",
+      "sectionId": "c04-s04",
+      "paragraphId": "c04-s04-p039-05940",
+      "sentenceIds": [
+        "c04-s04-p039-05940-s001",
+        "c04-s04-p039-05940-s002",
+        "c04-s04-p039-05940-s003",
+        "c04-s04-p039-05940-s004"
+      ],
+      "passage": "Jobs eventually mastered how to use both his intellect and his intuition. Of course, his career was not always smooth sailing. By age thirty, he had a smashing success with the launch of the Macintosh computer. But in 1985, he got fired from the company he had established.",
+      "prompt": "How does the passage characterise Jobs’s career by age thirty?",
+      "options": [
+        "It consisted entirely of setbacks with no major success.",
+        "It was uninterrupted progress after he gave up intuition.",
+        "It combined major achievement with a severe professional setback.",
+        "It ended permanently when the Macintosh was launched."
+      ],
+      "answer": 2,
+      "type": "主旨",
+      "promptZh": "片段怎样概括 Jobs 三十岁前后的事业？",
+      "optionsZh": [
+        "只有挫折，没有重大成功。",
+        "放弃直觉后一路顺利。",
+        "既有重大成就，也有严重职业挫折。",
+        "Macintosh 发布时就永久结束了。"
+      ],
+      "analyses": [
+        "A smashing success 明确存在成就。",
+        "B both his intellect and his intuition 与放弃直觉不符，not always smooth sailing 也否定一路顺利。",
+        "C Macintosh 的成功与 1985 年被自己创办的公司解雇形成对比。",
+        "D 没有说事业永久结束，只说被解雇。"
+      ],
+      "evidence": [
+        {
+          "quote": "his career was not always smooth sailing.",
+          "sentenceIds": [
+            "c04-s04-p039-05940-s002"
+          ],
+          "sources": [
+            {
+              "pdfPage": 39,
+              "block": 5,
+              "bbox": [
+                76.99,
+                594,
+                535.01,
+                706.02
+              ]
+            }
+          ]
+        },
+        {
+          "quote": "he had a smashing success with the launch of the Macintosh computer. But in 1985, he got fired from the company he had established.",
+          "sentenceIds": [
+            "c04-s04-p039-05940-s003",
+            "c04-s04-p039-05940-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 39,
+              "block": 5,
+              "bbox": [
+                76.99,
+                594,
+                535.01,
+                706.02
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "smooth sailing",
+          "meaning": "一帆风顺",
+          "context": "这里比喻事业顺利，不是航海经历",
+          "example": "The project was not all smooth sailing after the first month.",
+          "collocations": [
+            "not all smooth sailing",
+            "expect smooth sailing"
+          ]
+        }
+      ],
+      "translation": "Jobs 最终掌握了同时运用智力与直觉的方法。当然，他的事业并非总是一帆风顺。到三十岁时，Macintosh 电脑的发布让他大获成功。但在 1985 年，他被自己创办的公司解雇了。",
+      "support": "explicit",
+      "editorialStatus": "PDF 第 38–41 页逐题核对；固定连续原句；保留个案、引述与原书历史措辞，不把叙事当作普遍因果或医疗建议",
+      "fingerprint": "794fd014cf2a38300e5216ed6577002783a9656e6a157720c305334dc2730bc0"
+    }
+  ]
+}

@@ -4,6 +4,7 @@ import {createPortal} from 'react-dom';
 import {X} from 'lucide-react';
 import {getWordLookups} from './wordLookups';
 import type {WordSelection} from './wordLookups';
+import type {TextHighlight} from './evidenceHighlights';
 
 type Active={word:WordSelection;anchor:HTMLButtonElement};
 const LookupContext=createContext<{activeId?:string;open:(word:WordSelection,anchor:HTMLButtonElement)=>void}|null>(null);
@@ -40,9 +41,14 @@ export function WordLookupProvider({children}:{children:ReactNode}){
  return <LookupContext.Provider value={{activeId:active?.word.id,open:(word,anchor)=>setActive({word,anchor})}}>{children}{active&&createPortal(<WordCard key={active.word.id} active={active} onDismiss={dismiss}/>,document.body)}</LookupContext.Provider>;
 }
 
-export default function WordText({paragraphId,text,start}:{paragraphId:string;text:string;start:number}){
+function markedText(text:string,offset:number,ranges:TextHighlight[]){
+ if(!ranges.length)return text;const nodes:ReactNode[]=[];let cursor=0;
+ for(const r of ranges){const from=Math.max(0,r.start-offset),to=Math.min(text.length,r.end-offset);if(to<=from)continue;if(from>cursor)nodes.push(text.slice(cursor,from));nodes.push(<mark className="evidence-highlight" key={offset+from}>{text.slice(from,to)}</mark>);cursor=to;}
+ if(cursor<text.length)nodes.push(text.slice(cursor));return nodes;
+}
+export default function WordText({paragraphId,text,start,highlights=[]}:{paragraphId:string;text:string;start:number;highlights?:TextHighlight[]}){
  const lookup=useContext(LookupContext),words=getWordLookups(paragraphId,text,start);
- if(!words.length)return <>{text}</>;
+ if(!words.length)return <>{markedText(text,0,highlights)}</>;
  let cursor=0;
- return <>{words.map(word=>{const from=word.start-start,to=word.end-start,before=text.slice(cursor,from);cursor=to;return <Fragment key={word.id}>{before}<button type="button" className={`lookup-word ${lookup?.activeId===word.id?'lookup-active':''}`} data-word-id={word.id} aria-label={`查词 ${word.text}`} aria-haspopup="dialog" onClick={e=>lookup?.open(word,e.currentTarget)}>{text.slice(from,to)}</button></Fragment>;})}{text.slice(cursor)}</>;
+ return <>{words.map(word=>{const from=word.start-start,to=word.end-start,before=markedText(text.slice(cursor,from),cursor,highlights);cursor=to;return <Fragment key={word.id}>{before}<button type="button" className={`lookup-word ${lookup?.activeId===word.id?'lookup-active':''}`} data-word-id={word.id} aria-label={`查词 ${word.text}`} aria-haspopup="dialog" onClick={e=>lookup?.open(word,e.currentTarget)}>{markedText(text.slice(from,to),from,highlights)}</button></Fragment>;})}{markedText(text.slice(cursor),cursor,highlights)}</>;
 }

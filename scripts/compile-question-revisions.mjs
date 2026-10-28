@@ -11,7 +11,8 @@ for(const batch of manifest.batches){
  assert.equal(draft.id,batch.id);assert.equal(draft.pdfSha256,book.pdfSha256);assert.equal(frozen.pdfSha256,book.pdfSha256);
  for(const row of draft.questions){
  assert(!seen.has(row.id));seen.add(row.id);assert(row.reason);const q=latest.get(row.id)??sources.get(row.id);assert(q);assert.deepEqual(q,frozen.questions.find(x=>x.id===q.id),'Published baseline changed');
- const allowed=new Set(['promptZh','options','optionsZh','analyses','translation','evidence']);assert(Object.keys(row.updates).every(k=>allowed.has(k)));
+ const allowed=new Set(['prompt','promptZh','options','optionsZh','analyses','translation','evidence']);assert(Object.keys(row.updates).every(k=>allowed.has(k)));
+ if('prompt' in row.updates)assert(row.updates.promptZh,'Changed prompt requires its own translation');
  const t=q.family==='sentence-evidence'||q.contentRevision?{promptZh:q.promptZh,optionsZh:q.optionsZh}:translations.entries.find(t=>t.questionId===q.id&&t.prompt===q.prompt&&t.options.every((o,i)=>o===q.options[i]));assert(t?.promptZh&&t.optionsZh?.length===4);
  const next={...q,promptZh:t.promptZh,optionsZh:t.optionsZh,...row.updates,version:q.version+1,contentRevision:draft.id};delete next.fingerprint;
  assert.equal(next.answer,q.answer);assert.equal(next.passage,q.passage);assert.equal(next.readingUnitId,q.readingUnitId);
