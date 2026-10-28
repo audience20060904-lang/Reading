@@ -121,6 +121,8 @@ source/content-audit-tasks.json 的三个已知审计任务均已解决：第13�
 
 ## 验证与发布
 
+题目校对增补流程：先保留已发布题目的完整基线，再写 `source/question-revisions/review-001.json` 的逐题理由和修订字段，执行 `npm run questions:compile` → `npm run content:check` → `npm test` → `npm run build:pages` → `node scripts/question-review-browser-test.mjs`。该层在断句修复和补题装配后应用；旧题文件和历史作答不覆盖。发布回执锁定修订题指纹，之后不能在同一版本批次中静默改题。下一轮需新建批次并增加题目版本。人工审校范围与全库结构检查分别记录，详见 `source/question-revisions/review-001-report.json`。
+
 262 项自动测试；25 项通用浏览器检查。最新套件 scripts/batch042-browser-test.mjs 逐段提交全部 25 个新增短段，比对原文及三类解析、记录和离线；此前套件仍保留。tests/fixtures/batch041-fingerprints.json 锁定此前 1028 道题；原文连续性、证据归属与历史恢复有检查。新增题不改变原阅读单元 ID，也不重算旧成绩。实际运行结果与限制见对应发布回执。
 
 缓存测试复现旧 HTTP 数据复用问题，再验证强制刷新后题数更新、旧成绩位置不变。另有实际停止本地服务重载及浏览器模拟断网；不是实体手机或关闭网卡测试。

@@ -12,6 +12,7 @@
     "test:browser": "node scripts/browser-test.mjs && node scripts/cache-update-test.mjs",
     "test:chapter01": "node scripts/chapter01-browser-test.mjs",
     "vocab:compile": "node scripts/compile-b2-lookups.mjs",
+    "questions:compile": "node scripts/compile-question-revisions.mjs",
     "content:check": "node scripts/content-check.mjs"
   },
   "dependencies": {

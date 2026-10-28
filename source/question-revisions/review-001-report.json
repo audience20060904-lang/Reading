@@ -1,0 +1,153 @@
+{
+  "schemaVersion": 1,
+  "id": "question-review-2026-10-28-001",
+  "status": "validated-awaiting-publication",
+  "pdfSha256": "be25c859f1bd894a4b0d1cff024ded1297f6a96a8e8ddabea1e3abcf89160a50",
+  "automated": {
+    "questions": 2709,
+    "missingQuestionOrOptionTranslations": [],
+    "duplicatePromptsWithinReadingUnit": [],
+    "answerPositions": {
+      "A": 701,
+      "B": 662,
+      "C": 695,
+      "D": 651
+    },
+    "longestCorrectOptionsBefore": 1610,
+    "longestCorrectOptionsAfter": 1605,
+    "notice": "Structural checks and answer-length screening are not a semantic proof of the answer key. Length is a possible guessing cue, not proof that a question is invalid."
+  },
+  "manual": {
+    "questionCount": 23,
+    "questionIds": [
+      "q-c01-047",
+      "q-c01-018",
+      "q-c01-057",
+      "q-c01-021",
+      "q-c01-060",
+      "q-c01-024",
+      "q-c01-064",
+      "q-c01-028",
+      "q-c01-070",
+      "q-c02-035",
+      "q-c02-042",
+      "q-c02-046",
+      "q-c02-056",
+      "q-c02-067",
+      "q-c02-068",
+      "q-c02-077",
+      "q-c02-080",
+      "q-c02-025",
+      "q-c02-083",
+      "q-c02-084",
+      "q-c02-085",
+      "q-c03-001",
+      "qe-c11-0081"
+    ],
+    "sourceCandidateIdsReviewed": [
+      "c01-s02-p009-05468-s011",
+      "c01-s03-p011-01650-s006",
+      "c01-s03-p012-02392-s001",
+      "c01-s03-p012-02392-s002",
+      "c01-s04-p013-00982-s008",
+      "c01-s04-p013-03322-s007",
+      "c01-s04-p013-05662-s003",
+      "c01-s04-p014-04650-s002",
+      "c01-s04-p014-04650-s004",
+      "c01-s05-p015-01260-s001",
+      "c02-s01-p018-02310-s009",
+      "c02-s02-p019-02235-s008",
+      "c02-s03-p020-01650-s008",
+      "c02-s04-p021-06330-s003",
+      "c02-s04-p023-01140-s007",
+      "c02-s05-p023-05160-s003",
+      "c02-s05-p025-01140-s005",
+      "c02-s05-p025-04455-s007",
+      "c02-s05-p025-04455-s008",
+      "c02-s05-p025-06405-s010",
+      "c02-s05-p026-02700-s001",
+      "c02-s05-p026-02700-s005",
+      "c02-s05-p026-02700-s007",
+      "c03-s01-p027-04238-s002",
+      "c03-s01-p027-04238-s004"
+    ],
+    "sourceCandidatesReviewed": 25,
+    "pdfPagesVisuallyReviewed": [
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      18,
+      19,
+      20,
+      21,
+      23,
+      25,
+      26,
+      27,
+      129
+    ],
+    "pdfSourceBlocksTextMatched": 22,
+    "revisedQuestionIds": [
+      "q-c01-047",
+      "q-c01-018",
+      "q-c01-057",
+      "q-c01-021",
+      "q-c01-060",
+      "q-c01-024",
+      "q-c01-064",
+      "q-c01-028",
+      "q-c01-070",
+      "q-c02-025",
+      "q-c02-042",
+      "qe-c11-0081"
+    ],
+    "revisedQuestionCount": 12,
+    "answerKeysChanged": 0,
+    "readingOrderChanged": false,
+    "findings": [
+      "修窗译文避免把行动意向擅写成已完成结果。",
+      "解析只依赖当前片段，修正说话者与被批评人物的指代错配。",
+      "补齐托尔斯泰例子的家庭相爱前提对应原句证据。",
+      "移除贴纸测量题里过期的下一批编校备注。",
+      "改进11道主问题的干扰项，区分真要素混入错误要素、预测与实际、意义与幸福等可信误读。"
+    ]
+  },
+  "remainingSemanticCandidateReviews": 233,
+  "fullQuestionBankHumanReview": false,
+  "fullVocabularyReview": false,
+  "recommendations": [
+    "继续按原书顺序校对剩余语义待办，优先检查限定语、数字、指代及题目证据。",
+    "提交后可在原文上定位证据，帮助把选项分析与来源对应起来；与现有三类解析布局保持一致。",
+    "错题可增加混淆人物、范围扩大、因果误读等错因标签，便于针对性复习。"
+  ],
+  "limits": [
+    "本轮人工复核23题，不能把2709题结构检查称为全库人工语义审校完成。",
+    "当前233个语义候选待办也不是全库剩余错误题数。"
+  ],
+  "validation": {
+    "unitTestsPassed": 338,
+    "build": "npm run build:pages passed",
+    "localBrowser": {
+      "date": "2026-10-28",
+      "url": "http://127.0.0.1:4207/Reading/",
+      "checks": [
+        "全部缓存资产及Service Worker与本次生产构建逐字节匹配",
+        "逐题提交12道校对题，交替验证正误、四项译文与分析、整段译文及完整快照；提交前不显示中文解析",
+        "真实浏览器恢复旧选项、旧译文、旧错题成绩与用时；重练采用新版，新增记录且不改历史",
+        "390px和320px深色视口，选项、解析和整段译文均无横向溢出",
+        "旧未提交选择遇到改版时清空，新版位置保留；已提交解析正常刷新恢复",
+        "离线模拟恢复新旧两版成绩；本地另实际停止HTTP服务后缓存恢复新版题目与译文"
+      ],
+      "limits": [
+        "Isolated synthetic data only; 12 versioned editorial corrections checked against their current records. Mobile is a viewport, not a physical phone."
+      ],
+      "revisedQuestionsVisited": 12,
+      "passed": true,
+      "offlineVersion": "d2256376747052b8"
+    },
+    "offlineVersion": "d2256376747052b8"
+  }
+}

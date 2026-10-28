@@ -1,0 +1,988 @@
+{
+  "schemaVersion": 1,
+  "id": "question-review-2026-10-28-001",
+  "pdfSha256": "be25c859f1bd894a4b0d1cff024ded1297f6a96a8e8ddabea1e3abcf89160a50",
+  "baselineFingerprints": {
+    "q-c01-047": "994777a274cc038b8f5308831c10f5f0a1ac3c7a575fa20c48f1d4ae57c2f466",
+    "q-c01-018": "b5ac0d8f828f5f336f447604c0b4a3bfbb0baf48442a1556945077da8a922872",
+    "q-c01-057": "9c4d57b7f2dc63d4f956ec7aeb75ce30a7330e4f7e9c4dce23e39b3129aeb22c",
+    "q-c01-021": "1d14641aa1cfe6fa16cb1cfab3a37a3a661e705b2adf458e23c7c183c386580b",
+    "q-c01-060": "70809be5d80ce59c7b3a286d5aee9575cfcf4362e65b3b67d2a5774ee1f040d0",
+    "q-c01-024": "bce06cbe24e13e485e44b5de7e1739947007b12936bb623c30be971efc4468f7",
+    "q-c01-064": "1cf2be9bbb4426ba8531a6d0b84bdb8f3e411e4a2dc8cfd1e3c00686b716e8b7",
+    "q-c01-028": "4462efacbca8ac5136e2f46022cf542dc6c5cf315b68118a1dcfcf460b2c8aae",
+    "q-c01-070": "549f4c7dd08440568f7016397799e4b121b207349639628527d9e04db33d957f",
+    "q-c02-025": "8eef1da47f8b545660b5b68c858d69512a97c3dadcc79da9bb6bf1745105abe1",
+    "q-c02-042": "88903ef611ae803af1b10d28a57f273cdb1c466d02b712ba91a63dab7ebb9827",
+    "qe-c11-0081": "1d687553c80576075a4ceb6d2b60a0f1029cd14d6e5f17562f5a2c6193b4d9c9"
+  },
+  "questions": [
+    {
+      "id": "q-c01-047",
+      "version": 2,
+      "readingUnitId": "c01-s02-p009-05468-r011-012",
+      "chapterId": "c01",
+      "sectionId": "c01-s02",
+      "paragraphId": "c01-s02-p009-05468",
+      "sentenceIds": [
+        "c01-s02-p009-05468-s011",
+        "c01-s02-p009-05468-s012"
+      ],
+      "passage": "Ironically, years later, he seems to be happier with his decision than I. This may sound like the makings of a Chinese proverb, but it illustrates a larger truth: psychological research shows that trying to make others happy will make you happy, while trying to make yourself happy sometimes fails to do so. Indeed, psychologists have found that prosocial spending, writing gratitude letters, and having a satisficer (i.e., happy with good enough) mindset all promote happiness.",
+      "prompt": "Which paraphrase best matches the passage’s comparison of happiness-seeking strategies?",
+      "options": [
+        "Self-focused efforts bring happiness more reliably than helping others.",
+        "Helping others brings happiness through the gratitude they return.",
+        "The approaches listed promote happiness through financial generosity.",
+        "Helping others can bring happiness; self-focused efforts may fail."
+      ],
+      "answer": 3,
+      "type": "同义改写",
+      "promptZh": "哪一改写最符合本段对追求幸福方式的比较？",
+      "optionsZh": [
+        "专注自身的努力比帮助他人更可靠地带来幸福。",
+        "帮助他人通过对方回报的感激带来幸福。",
+        "所列方法都通过金钱上的慷慨促进幸福。",
+        "帮助他人可以带来幸福，而专注自身的努力有时会失败。"
+      ],
+      "analyses": [
+        "A 把原文对两种追求方式的对比倒置。原文强调努力使自己幸福有时并不奏效，没有说这种方式更可靠。",
+        "B 原文没有把对方回报的感激设为起作用的机制。writing gratitude letters 是写信表达自己的感激，不能换成收到他人的感激。",
+        "C 清单还包含写感恩信和满意即可的心态，不能把共同机制归结为花钱。",
+        "D 对应 make others happy will make you happy 与 make yourself happy sometimes fails；保留他人导向的益处和自我导向可能失败的区别。"
+      ],
+      "evidence": [
+        {
+          "quote": "psychological research shows that trying to make others happy will make you happy, while trying to make yourself happy sometimes fails to do so.",
+          "sentenceIds": [
+            "c01-s02-p009-05468-s011"
+          ],
+          "sources": [
+            {
+              "pdfPage": 10,
+              "block": 0,
+              "bbox": [
+                76.99,
+                75,
+                535.01,
+                284.52
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "satisficer",
+          "meaning": "知足者；接受足够好结果的人",
+          "context": "作者用 happy with good enough 解释这种心态",
+          "example": "A satisficer may choose a suitable option without comparing every alternative.",
+          "collocations": [
+            "a satisficer mindset",
+            "a satisficer rather than a maximizer"
+          ]
+        }
+      ],
+      "translation": "具有讽刺意味的是，多年后，父亲似乎比我更满意自己的决定。这听起来像是中国谚语的素材，却说明了一个更普遍的道理：心理学研究显示，努力让别人幸福也会使自己幸福，而努力让自己幸福有时反而做不到。的确，心理学家发现，亲社会支出、写感恩信，以及知足者心态，也就是对足够好的结果感到满意，都能促进幸福。",
+      "support": "explicit",
+      "editorialStatus": "按第 1 章 PDF 第 9–16 页具体原文编写；保持已发布短段边界；区分叙事、研究概括、比喻与引文",
+      "contentRevision": "question-review-2026-10-28-001",
+      "fingerprint": "a61f6ec7f3ef6eb99794464599c77acf42b80e8dcb2a866a965f00a7ea0de2c6"
+    },
+    {
+      "id": "q-c01-018",
+      "version": 3,
+      "chapterId": "c01",
+      "sectionId": "c01-s03",
+      "paragraphId": "c01-s03-p011-01650",
+      "sentenceIds": [
+        "c01-s03-p011-01650-s006"
+      ],
+      "passage": "A psychologically rich life is a life filled with diverse, unusual, interesting experiences that change your perspective; a life with twists and turns; a dramatic, eventful life instead of a simple and straightforward one; a life with multiplicity and complexity; a life with lots of stops, detours, and turning points; a life that feels like a long, winding hike rather than many laps of the same racing circuit.",
+      "prompt": "Which feature is central to the author’s definition of a psychologically rich life?",
+      "options": [
+        "Varied experiences that change one's perspective.",
+        "Personal contentment maintained through familiar, predictable experiences.",
+        "Purposeful experiences guided by a stable central goal.",
+        "Repeated experiences that deepen expertise without changing viewpoints."
+      ],
+      "answer": 0,
+      "type": "主旨",
+      "analyses": [
+        "A diverse, unusual, interesting experiences that change your perspective 直接支持这一概括，后面的曲折、复杂和转折继续展开这个特征。",
+        "B 当前句强调不同寻常、多样和视角改变，并未以熟悉、可预测的满足感定义心理丰富。",
+        "C 句中没有把稳定的核心目标设为定义标准；这里的重点是经历的多样性和视角变化。",
+        "D without changing viewpoints 与 change your perspective 相反；反复进行同样的活动也与同一跑道绕圈这一对照意象更接近。"
+      ],
+      "evidence": [
+        {
+          "quote": "A psychologically rich life is a life filled with diverse, unusual, interesting experiences that change your perspective;",
+          "sentenceIds": [
+            "c01-s03-p011-01650-s006"
+          ],
+          "sources": [
+            {
+              "pdfPage": 11,
+              "block": 2,
+              "bbox": [
+                76.99,
+                165,
+                535.01,
+                374.52
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "perspective",
+          "meaning": "视角；看法",
+          "context": "有些经历会改变看待世界的方式",
+          "example": "Travel gave her a new perspective on work.",
+          "collocations": [
+            "change one’s perspective",
+            "a fresh perspective"
+          ]
+        }
+      ],
+      "support": "explicit",
+      "editorialStatus": "短段版 v2；连续原句，配题片段互不重叠；保留 v1 历史快照，不重算旧成绩",
+      "translation": "心理丰富的人生，充满多样、不同寻常、有趣且能改变视角的经历；它曲折多变，充满戏剧性与事件，而非简单平直；它有多重性与复杂性，有许多停顿、绕道与转折；它感觉像漫长蜿蜒的徒步，而不是在同一个跑道上反复绕圈。",
+      "readingUnitId": "c01-s03-p011-01650-r006-006",
+      "promptZh": "作者定义的心理丰富人生，其核心特征是什么？",
+      "optionsZh": [
+        "多样且能改变个人视角的经历。",
+        "通过熟悉、可预测的经历维持个人满足感。",
+        "由稳定的核心目标引导的有目的经历。",
+        "加深专长却不改变视角的重复经历。"
+      ],
+      "contentRevision": "question-review-2026-10-28-001",
+      "fingerprint": "046efc4324af5f4bee2b6b33ca6e7919c83fc5d2659bcb82c7a231c615b327fb"
+    },
+    {
+      "id": "q-c01-057",
+      "version": 2,
+      "readingUnitId": "c01-s03-p012-02392-r001-001",
+      "chapterId": "c01",
+      "sectionId": "c01-s03",
+      "paragraphId": "c01-s03-p012-02392",
+      "sentenceIds": [
+        "c01-s03-p012-02392-s001"
+      ],
+      "passage": "Then, in 1989, Carol Ryff published a paper entitled “Happiness Is Everything, or Is It?,” presenting an alternative model of a good life that focused on autonomy, self-acceptance, purpose, positive relations, environmental mastery, and personal growth.",
+      "prompt": "Which combination belongs to Carol Ryff’s alternative model described here?",
+      "options": [
+        "Autonomy, purpose, and personal growth.",
+        "Self-acceptance, social status, and personal growth.",
+        "Positive relations, obedience, and environmental mastery.",
+        "Physical comfort, purpose, and self-acceptance."
+      ],
+      "answer": 0,
+      "type": "细节",
+      "promptZh": "哪组要素属于这里描述的 Carol Ryff 的替代模型？",
+      "optionsZh": [
+        "自主性、目标感和个人成长。",
+        "自我接纳、社会地位和个人成长。",
+        "积极关系、服从和环境掌控。",
+        "身体舒适、目标感和自我接纳。"
+      ],
+      "analyses": [
+        "A autonomy、purpose 和 personal growth 都出现在原文的六项要素中。",
+        "B 自我接纳与个人成长在清单中，但 social status 不在。不能因两项正确就接受整组。",
+        "C positive relations 与 environmental mastery 在清单中，但 obedience 不在；原文写的是 autonomy。",
+        "D purpose 和 self-acceptance 在清单中，physical comfort 不在。此题要求整组均属于模型。"
+      ],
+      "evidence": [
+        {
+          "quote": "an alternative model of a good life that focused on autonomy, self-acceptance, purpose, positive relations, environmental mastery, and personal growth.",
+          "sentenceIds": [
+            "c01-s03-p012-02392-s001"
+          ],
+          "sources": [
+            {
+              "pdfPage": 12,
+              "block": 2,
+              "bbox": [
+                76.99,
+                239.25,
+                535.01,
+                409.77
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "autonomy",
+          "meaning": "自主性；自我决定能力",
+          "context": "Ryff 模型列出的一个维度，并非免除全部责任",
+          "example": "The course gives learners greater autonomy over their schedules.",
+          "collocations": [
+            "personal autonomy",
+            "develop autonomy"
+          ]
+        }
+      ],
+      "translation": "随后在 1989 年，Carol Ryff 发表了题为《Happiness Is Everything, or Is It?》的论文，提出一种关于美好生活的替代模型，关注自主性、自我接纳、目标感、积极关系、环境掌控和个人成长。",
+      "support": "explicit",
+      "editorialStatus": "按第 1 章 PDF 第 9–16 页具体原文编写；保持已发布短段边界；区分叙事、研究概括、比喻与引文",
+      "contentRevision": "question-review-2026-10-28-001",
+      "fingerprint": "92643af87d6308fe5ece66b385f10b5bb4b54cc3c44fd1040b094200e819c82e"
+    },
+    {
+      "id": "q-c01-021",
+      "version": 3,
+      "chapterId": "c01",
+      "sectionId": "c01-s03",
+      "paragraphId": "c01-s03-p012-02392",
+      "sentenceIds": [
+        "c01-s03-p012-02392-s002"
+      ],
+      "passage": "Along with Ed Deci and Richard Ryan’s self-determination theory, Ryff’s approach to the good life has come to be called the “eudaimonic approach”—a meaningful life, in short —in contrast to Ed Diener, Daniel Kahneman, Dan Gilbert, Sonja Lyubomirsky, and others’ approach to the good life, which has come to be called the “hedonic approach”—a happy life.",
+      "prompt": "How does the passage distinguish the eudaimonic and hedonic approaches?",
+      "options": [
+        "Happiness in the former; meaning in the latter.",
+        "The former is linked to Diener; the latter to Ryff.",
+        "Meaning in the former; happiness in the latter.",
+        "The former concerns purpose; the latter rejects pleasure."
+      ],
+      "answer": 2,
+      "type": "同义改写",
+      "analyses": [
+        "A 将两种取向的对应关系颠倒：原文把 eudaimonic 概括为 meaningful life，把 hedonic 概括为 happy life。",
+        "B 把人物归属颠倒。句中 Ryff 一侧对应 eudaimonic，Diener 等人一侧对应 hedonic。",
+        "C 两个破折号后的 a meaningful life 与 a happy life 直接支持前者意义、后者幸福的对应。",
+        "D 后半项 rejects pleasure 没有原文依据，不能从 happy life 推出排斥愉悦；一部分听似合理也不能使整项成立。"
+      ],
+      "evidence": [
+        {
+          "quote": "the “eudaimonic approach”—a meaningful life, in short",
+          "sentenceIds": [
+            "c01-s03-p012-02392-s002"
+          ],
+          "sources": [
+            {
+              "pdfPage": 12,
+              "block": 2,
+              "bbox": [
+                76.99,
+                239.25,
+                535.01,
+                409.77
+              ]
+            }
+          ]
+        },
+        {
+          "quote": "the “hedonic approach”—a happy life.",
+          "sentenceIds": [
+            "c01-s03-p012-02392-s002"
+          ],
+          "sources": [
+            {
+              "pdfPage": 12,
+              "block": 2,
+              "bbox": [
+                76.99,
+                239.25,
+                535.01,
+                409.77
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "eudaimonic approach",
+          "meaning": "实现论取向",
+          "context": "侧重有意义生活的研究取向",
+          "example": "The eudaimonic approach considers purpose and development.",
+          "collocations": [
+            "the eudaimonic approach",
+            "eudaimonic well-being"
+          ]
+        }
+      ],
+      "support": "explicit",
+      "editorialStatus": "短段版 v2；连续原句，配题片段互不重叠；保留 v1 历史快照，不重算旧成绩",
+      "translation": "里夫关于美好生活的取向，与埃德·德西和理查德·瑞安的自我决定理论一起，被称为“实现论取向”——简言之，是有意义的生活。与之相对，埃德·迪纳、丹尼尔·卡尼曼、丹·吉尔伯特、索尼娅·柳博米尔斯基等人的取向被称为“享乐论取向”——幸福的生活。",
+      "readingUnitId": "c01-s03-p012-02392-r002-002",
+      "promptZh": "文中如何区分实现论取向与享乐论取向？",
+      "optionsZh": [
+        "前者关联幸福，后者关联意义。",
+        "前者关联迪纳，后者关联里夫。",
+        "前者关联意义，后者关联幸福。",
+        "前者关注目的，后者排斥愉悦。"
+      ],
+      "contentRevision": "question-review-2026-10-28-001",
+      "fingerprint": "9c8866d46312ce6095fb22bec25314f5b412ec76ef6bc87cd508093478f28310"
+    },
+    {
+      "id": "q-c01-060",
+      "version": 2,
+      "readingUnitId": "c01-s04-p013-00982-r008-008",
+      "chapterId": "c01",
+      "sectionId": "c01-s04",
+      "paragraphId": "c01-s04-p013-00982",
+      "sentenceIds": [
+        "c01-s04-p013-00982-s008"
+      ],
+      "passage": "How we think about our intelligence—specifically, whether we believe that intelligence can be improved—is also important in predicting intelligence and human performance, she showed.",
+      "prompt": "Which belief is singled out as relevant to predicting intelligence and performance?",
+      "options": [
+        "People's performance depends on inherited intelligence alone.",
+        "How people view their intelligence makes little predictive difference.",
+        "Improving performance means accepting one's current intellectual limits.",
+        "Intelligence is something that can be improved."
+      ],
+      "answer": 3,
+      "type": "细节",
+      "promptZh": "哪种观念被特别指出与预测智力和表现有关？",
+      "optionsZh": [
+        "人的表现只取决于遗传的智力。",
+        "人们如何看待自己的智力，对预测几乎没有影响。",
+        "提升表现意味着接受自己现有的智力上限。",
+        "智力是可以得到提高的。"
+      ],
+      "analyses": [
+        "A 当前句没有把表现归结为遗传这一唯一因素，反而强调人如何看待自己的智力也很重要。",
+        "B little predictive difference 与 also important in predicting 相反。",
+        "C 句子特别指出能否提高的信念，没有把接受固定上限作为提升表现的含义。",
+        "D whether we believe that intelligence can be improved 明确指出所谈的信念。题目问的是哪种观念被提及，不是仅凭本句证明任何人的智力都一定会提高。"
+      ],
+      "evidence": [
+        {
+          "quote": "whether we believe that intelligence can be improved—is also important in predicting intelligence and human performance",
+          "sentenceIds": [
+            "c01-s04-p013-00982-s008"
+          ],
+          "sources": [
+            {
+              "pdfPage": 13,
+              "block": 1,
+              "bbox": [
+                76.99,
+                98.25,
+                535.01,
+                327.27
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "predicting",
+          "meaning": "预测",
+          "context": "此处说观念对预测表现有重要性，不等于独自决定表现",
+          "example": "Past practice can be useful in predicting future performance.",
+          "collocations": [
+            "predict performance",
+            "predict an outcome"
+          ]
+        }
+      ],
+      "translation": "她指出，我们如何看待自己的智力——具体说，是否相信智力可以提高——对于预测智力和人的表现也很重要。",
+      "support": "explicit",
+      "editorialStatus": "按第 1 章 PDF 第 9–16 页具体原文编写；保持已发布短段边界；区分叙事、研究概括、比喻与引文",
+      "contentRevision": "question-review-2026-10-28-001",
+      "fingerprint": "d4359b55535ae11b4bed85df37259826838bf9aac3ad529b7101947bf4fd825a"
+    },
+    {
+      "id": "q-c01-024",
+      "version": 3,
+      "chapterId": "c01",
+      "sectionId": "c01-s04",
+      "paragraphId": "c01-s04-p013-03322",
+      "sentenceIds": [
+        "c01-s04-p013-03322-s007"
+      ],
+      "passage": "My son’s suggestion motivated me to fix the window and become a better handyman, a small example of how concepts like growth mindsets broaden the way we think about the self, others, and the world.",
+      "prompt": "What effect did the son’s comment have on the author?",
+      "options": [
+        "It persuaded him to leave repairs to experienced workers.",
+        "It encouraged him to attempt a practical repair.",
+        "It shifted his attention from repair skills to family relationships.",
+        "It convinced him that thinking patterns matter more than practice."
+      ],
+      "answer": 1,
+      "type": "细节",
+      "analyses": [
+        "A 原句是 motivated me to fix the window，即激励作者自己去修窗，没有说把工作交给工人。",
+        "B motivated me to fix the window and become a better handyman 对应鼓励尝试维修、提升动手能力的方向；本句未具体报告维修是否完成或结果如何。",
+        "C others 出现在看待自我、他人与世界的概括中，不表示作者放弃维修、转而处理家庭关系。",
+        "D 概念拓宽思考范围并不等于把思维和实践排出高低顺序；作者正把修窗作为实际行动的例子。"
+      ],
+      "evidence": [
+        {
+          "quote": "My son’s suggestion motivated me to fix the window and become a better handyman",
+          "sentenceIds": [
+            "c01-s04-p013-03322-s007"
+          ],
+          "sources": [
+            {
+              "pdfPage": 13,
+              "block": 2,
+              "bbox": [
+                76.99,
+                332.25,
+                535,
+                561.27
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "motivated",
+          "meaning": "激励；促使",
+          "context": "儿子的建议促使作者尝试修窗",
+          "example": "The challenge motivated her to practise daily.",
+          "collocations": [
+            "motivate someone to do",
+            "highly motivated"
+          ]
+        },
+        {
+          "word": "mindset",
+          "meaning": "思维模式",
+          "context": "关于能力是否可以提升的看法",
+          "example": "Feedback can help students develop a growth mindset.",
+          "collocations": [
+            "a growth mindset",
+            "a fixed mindset"
+          ]
+        }
+      ],
+      "support": "explicit",
+      "editorialStatus": "短段版 v2；连续原句，配题片段互不重叠；保留 v1 历史快照，不重算旧成绩",
+      "translation": "儿子的建议激励我去修窗户，并努力成为一个更擅长动手维修的人。这是一个小例子，说明成长型思维这样的概念如何拓宽我们看待自我、他人和世界的方式。",
+      "readingUnitId": "c01-s04-p013-03322-r007-007",
+      "promptZh": "儿子的评论对作者产生了什么影响？",
+      "optionsZh": [
+        "它说服他把维修交给有经验的工人。",
+        "它鼓励他尝试亲自动手维修。",
+        "它使他的注意力从维修技能转向家庭关系。",
+        "它使他相信思维模式比实践更重要。"
+      ],
+      "contentRevision": "question-review-2026-10-28-001",
+      "fingerprint": "b9d93d10db8fcbb52a51233d5b743b7d036398d9f060bc01e5fa6b65e361e479"
+    },
+    {
+      "id": "q-c01-064",
+      "version": 2,
+      "readingUnitId": "c01-s04-p013-05662-r001-004",
+      "chapterId": "c01",
+      "sectionId": "c01-s04",
+      "paragraphId": "c01-s04-p013-05662",
+      "sentenceIds": [
+        "c01-s04-p013-05662-s001",
+        "c01-s04-p013-05662-s002",
+        "c01-s04-p013-05662-s003",
+        "c01-s04-p013-05662-s004"
+      ],
+      "passage": "How, then, is psychological richness different from happiness and meaning? The main body of my book answers this question in detail (see Table 1 for a brief summary). But, very briefly, happiness is a subjective feeling that rises and falls to indicate where one’s life stands. It is a bit like a balloon.",
+      "prompt": "Which feature of happiness is introduced by the balloon comparison?",
+      "options": [
+        "It steadily grows as a person's experiences accumulate.",
+        "It supplies a stable purpose that gives life direction.",
+        "It reflects the variety of experiences a person collects.",
+        "It fluctuates as a subjective feeling about one's life."
+      ],
+      "answer": 3,
+      "type": "主旨",
+      "promptZh": "气球的比较首先引出了幸福的哪种特征？",
+      "optionsZh": [
+        "它随着个人经历的积累而稳定增长。",
+        "它提供赋予人生方向的稳定目的。",
+        "它反映个人积累的经历有多丰富多样。",
+        "它是一种关于自身生活、会起伏的主观感受。"
+      ],
+      "analyses": [
+        "A steadily grows 与原文 rises and falls 不同；起伏不能改成稳定单向增长。",
+        "B 当前片段把 happiness 定义为 subjective feeling，没有把它定义为稳定的人生目的。",
+        "C 当前定义强调生活处境的主观感受及其起伏，没有用经历的多样性来界定幸福。",
+        "D subjective feeling that rises and falls 直接支持这一改写；气球用于说明起落的特征。"
+      ],
+      "evidence": [
+        {
+          "quote": "happiness is a subjective feeling that rises and falls to indicate where one’s life stands. It is a bit like a balloon.",
+          "sentenceIds": [
+            "c01-s04-p013-05662-s003",
+            "c01-s04-p013-05662-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 13,
+              "block": 3,
+              "bbox": [
+                76.99,
+                566.25,
+                535.01,
+                717.27
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "subjective",
+          "meaning": "主观的",
+          "context": "幸福被描述为个人感受到的状态，而非客观财富总数",
+          "example": "Comfort is partly a subjective judgement.",
+          "collocations": [
+            "a subjective feeling",
+            "subjective well-being"
+          ]
+        }
+      ],
+      "translation": "那么，心理丰富与幸福和意义有什么不同？本书主体会详细回答这个问题，表 1 则提供简要总结。不过，简而言之，幸福是一种会上下起伏、反映人生当前处境的主观感受。它有点像气球。",
+      "support": "explicit",
+      "editorialStatus": "按第 1 章 PDF 第 9–16 页具体原文编写；保持已发布短段边界；区分叙事、研究概括、比喻与引文",
+      "contentRevision": "question-review-2026-10-28-001",
+      "fingerprint": "29bdcc94594c0c8577976b0158474946e6c3069b8dfbe33bc03ab9f33861d883"
+    },
+    {
+      "id": "q-c01-028",
+      "version": 3,
+      "chapterId": "c01",
+      "sectionId": "c01-s04",
+      "paragraphId": "c01-s04-p014-04650",
+      "sentenceIds": [
+        "c01-s04-p014-04650-s001",
+        "c01-s04-p014-04650-s002",
+        "c01-s04-p014-04650-s003",
+        "c01-s04-p014-04650-s004"
+      ],
+      "passage": "Tolstoy was happy and productive. Yet, without any obvious loss, he had a sudden existential crisis at about the age of fifty (years after the publication of War and Peace): “I had a good wife who loved me and whom I loved; good children and a large property which was increasing with no pains taken on my part. I was more respected by my kinsfolk and acquaintance than I had ever been; I was loaded with praise by strangers; and without exaggeration I could believe my name already famous…. And yet I could give no reasonable meaning to any actions of my life.”",
+      "prompt": "What does Tolstoy’s example suggest within this discussion?",
+      "options": [
+        "Success and affection need not ensure meaning.",
+        "A loss of public recognition triggered his crisis.",
+        "His productive work supplied a stable sense of purpose.",
+        "His family relationships weakened before his crisis began."
+      ],
+      "answer": 0,
+      "type": "有限推断",
+      "analyses": [
+        "A 他有相爱的妻子、孩子、财产和赞誉，却仍无法为人生行动赋予合理意义。这是个案支持的有限概括：这些条件未必保证意义感。",
+        "B 引述说明他得到比以往更多的尊重与赞誉，没有报告失去公众认可，更没有确立这种因果。",
+        "C happy and productive 与末句无法赋予意义形成反差，不能把工作多产改成意义感稳定。",
+        "D 引述描述相爱的夫妻关系和好孩子，没有报告危机前家庭关系恶化。"
+      ],
+      "evidence": [
+        {
+          "quote": "Tolstoy was happy and productive.",
+          "sentenceIds": [
+            "c01-s04-p014-04650-s001"
+          ],
+          "sources": [
+            {
+              "pdfPage": 14,
+              "block": 3,
+              "bbox": [
+                76.99,
+                465,
+                535.01,
+                635.52
+              ]
+            }
+          ]
+        },
+        {
+          "quote": "Yet, without any obvious loss, he had a sudden existential crisis at about the age of fifty (years after the publication of War and Peace): “I had a good wife who loved me and whom I loved; good children and a large property which was increasing with no pains taken on my part.",
+          "sentenceIds": [
+            "c01-s04-p014-04650-s002"
+          ],
+          "sources": [
+            {
+              "pdfPage": 14,
+              "block": 3,
+              "bbox": [
+                76.99,
+                465,
+                535.01,
+                635.52
+              ]
+            }
+          ]
+        },
+        {
+          "quote": "And yet I could give no reasonable meaning to any actions of my life.",
+          "sentenceIds": [
+            "c01-s04-p014-04650-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 14,
+              "block": 3,
+              "bbox": [
+                76.99,
+                465,
+                535.01,
+                635.52
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "existential crisis",
+          "meaning": "存在危机；对人生意义的深刻疑问",
+          "context": "外在生活顺利时仍出现的意义危机",
+          "example": "The novel follows a writer facing an existential crisis.",
+          "collocations": [
+            "experience an existential crisis",
+            "a sudden existential crisis"
+          ]
+        }
+      ],
+      "support": "inference",
+      "editorialStatus": "短段版 v2；连续原句，配题片段互不重叠；保留 v1 历史快照，不重算旧成绩",
+      "translation": "托尔斯泰曾幸福而多产。然而，在没有明显损失的情况下，他在大约五十岁时，也就是《战争与和平》出版多年后，突然经历存在危机：“我有一个爱我、我也爱的好妻子；有好孩子，还有一大片无需我费力就不断增值的地产。我比以往更受亲友尊敬，陌生人对我赞誉有加；毫不夸张地说，我相信自己的名字已经出名……然而，我却无法为自己人生中的任何行动赋予合理意义。”",
+      "readingUnitId": "c01-s04-p014-04650-r001-004",
+      "promptZh": "在这段讨论中，托尔斯泰的例子说明什么？",
+      "optionsZh": [
+        "成功和亲密关爱未必能保证意义感。",
+        "失去公众认可引发了他的危机。",
+        "多产的工作为他提供了稳定的目标感。",
+        "他的家庭关系在危机开始前已经恶化。"
+      ],
+      "contentRevision": "question-review-2026-10-28-001",
+      "fingerprint": "a8c8825d41825b38f514b8dae736574e9589ce9ba85598efc65de3dac38fcdfb"
+    },
+    {
+      "id": "q-c01-070",
+      "version": 2,
+      "readingUnitId": "c01-s05-p015-01260-r001-003",
+      "chapterId": "c01",
+      "sectionId": "c01-s05",
+      "paragraphId": "c01-s05-p015-01260",
+      "sentenceIds": [
+        "c01-s05-p015-01260-s001",
+        "c01-s05-p015-01260-s002",
+        "c01-s05-p015-01260-s003"
+      ],
+      "passage": "Psychological richness is different from happiness and meaning in the sense that it is not about an overall feeling of where life is going or what the point of your life is, but about an experience, or more precisely the accumulation of experiences over time. In the same way that material richness can be quantified by money—the more money you have, the richer you are materially—psychological richness can be quantified by experiences. The more interesting experiences and stories you have, the more psychologically rich you are.",
+      "prompt": "What distinguishes psychological richness in this passage?",
+      "options": [
+        "The gradual accumulation of interesting experiences.",
+        "A current feeling of satisfaction with one's life.",
+        "Commitment to a coherent purpose throughout one's life.",
+        "The financial wealth spent on unusual experiences."
+      ],
+      "answer": 0,
+      "type": "主旨",
+      "promptZh": "本段用什么特征区分心理丰富？",
+      "optionsZh": [
+        "有趣经历随着时间逐渐积累。",
+        "对自己当前生活感到满意。",
+        "一生致力于一个连贯的目标。",
+        "为了不同寻常的经历而花费的财力。"
+      ],
+      "analyses": [
+        "A the accumulation of experiences over time 与末句 interesting experiences and stories 直接支持以有趣经历的积累区分心理丰富。",
+        "B 作者用 not about an overall feeling 排除把它直接等同于人生总体感受，不能改为当前满意感。",
+        "C what the point of your life is 被列为与心理丰富不同的关注方向，不能把它重新定义为坚持单一目的。",
+        "D money 在本段用于类比 material richness，心理丰富对应的是经历，不是为经历花了多少钱。"
+      ],
+      "evidence": [
+        {
+          "quote": "it is not about an overall feeling of where life is going or what the point of your life is, but about an experience, or more precisely the accumulation of experiences over time.",
+          "sentenceIds": [
+            "c01-s05-p015-01260-s001"
+          ],
+          "sources": [
+            {
+              "pdfPage": 15,
+              "block": 1,
+              "bbox": [
+                76.99,
+                126,
+                535.01,
+                355.02
+              ]
+            }
+          ]
+        },
+        {
+          "quote": "The more interesting experiences and stories you have, the more psychologically rich you are.",
+          "sentenceIds": [
+            "c01-s05-p015-01260-s003"
+          ],
+          "sources": [
+            {
+              "pdfPage": 15,
+              "block": 1,
+              "bbox": [
+                76.99,
+                126,
+                535.01,
+                355.02
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "quantified",
+          "meaning": "量化；以数量表示",
+          "context": "作者把经历与金钱作类比，说明丰富可以累积，并未在此提供统一计分公式",
+          "example": "The benefits cannot always be quantified in a single number.",
+          "collocations": [
+            "be quantified by",
+            "quantify an effect"
+          ]
+        }
+      ],
+      "translation": "心理丰富不同于幸福和意义：它关注的不是人生走向的总体感受，也不是人生的目的，而是经历，更准确地说，是随着时间累积的经历。正如物质丰富可以用金钱量化——钱越多，物质上越富有——心理丰富也可以用经历来量化。有趣的经历和故事越多，心理上就越丰富。",
+      "support": "explicit",
+      "editorialStatus": "按第 1 章 PDF 第 9–16 页具体原文编写；保持已发布短段边界；区分叙事、研究概括、比喻与引文",
+      "contentRevision": "question-review-2026-10-28-001",
+      "fingerprint": "ce632074bc331d146bed294f06af0b419973318d9215a1db836350c7711336a4"
+    },
+    {
+      "id": "q-c02-025",
+      "version": 3,
+      "chapterId": "c02",
+      "sectionId": "c02-s05",
+      "paragraphId": "c02-s05-p025-06405",
+      "sentenceIds": [
+        "c02-s05-p025-06405-s008",
+        "c02-s05-p025-06405-s009",
+        "c02-s05-p025-06405-s010"
+      ],
+      "passage": "At bottom, these simpletons want a single thing most of all: that nobody should hurt them. Thus they try to please and gratify everybody. This, however, is cowardice, even if it be called virtue.”",
+      "prompt": "In the quoted passage, why is pleasing everybody criticised?",
+      "options": [
+        "It enables conventional virtue to challenge their desire for safety.",
+        "It places moral independence above their wish for approval.",
+        "It is motivated by fear of being hurt.",
+        "It makes accepting danger more important than gaining approval."
+      ],
+      "answer": 2,
+      "type": "有限推断",
+      "analyses": [
+        "A 原文说这些人最想不受伤害，因此讨好众人，并将其批评为怯懦；没有说他们用美德挑战求安全的愿望。",
+        "B nobody should hurt them 后接 Thus they try to please，说明动机是避免受伤，不是坚持独立的道德立场。",
+        "C nobody should hurt them 与 Thus 形成清楚的动机关系；cowardice 是引述对这种讨好的评价，而不是研究的实验结论。",
+        "D 接受危险并不是当前片段给出的讨好动机；它与避免受伤的愿望方向相反。"
+      ],
+      "evidence": [
+        {
+          "quote": "At bottom, these simpletons want a single thing most of all: that nobody should hurt them. Thus they try to please and gratify everybody. This, however, is cowardice, even if it be called virtue.",
+          "sentenceIds": [
+            "c02-s05-p025-06405-s008",
+            "c02-s05-p025-06405-s009",
+            "c02-s05-p025-06405-s010"
+          ],
+          "sources": [
+            {
+              "pdfPage": 26,
+              "block": 0,
+              "bbox": [
+                76.99,
+                75,
+                535.01,
+                265.02
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "gratify",
+          "meaning": "使满意；取悦",
+          "context": "尼采引述中为避免受伤而迎合众人的行为",
+          "example": "The result will gratify the supporters.",
+          "collocations": [
+            "please and gratify",
+            "gratify a desire"
+          ]
+        },
+        {
+          "word": "virtue",
+          "meaning": "美德；德行",
+          "context": "引述质疑被称作美德的怯懦与迎合",
+          "example": "Patience is a virtue worth practising.",
+          "collocations": [
+            "a moral virtue",
+            "be called a virtue"
+          ]
+        }
+      ],
+      "support": "inference",
+      "editorialStatus": "短段版 v2；连续原句，配题片段互不重叠；保留 v1 历史快照，不重算旧成绩",
+      "translation": "归根结底，这些愚人最渴望的只有一件事：没有人伤害他们。因此，他们试着讨好、取悦所有人。然而这就是怯懦，即使它被称作美德。",
+      "readingUnitId": "c02-s05-p025-06405-r008-010",
+      "promptZh": "在所引片段中，为什么批评取悦所有人？",
+      "optionsZh": [
+        "它让传统美德挑战他们寻求安全的愿望。",
+        "它把道德独立置于获得认可的愿望之上。",
+        "它出于害怕受到伤害的动机。",
+        "它让接受危险比获得认可更重要。"
+      ],
+      "contentRevision": "question-review-2026-10-28-001",
+      "fingerprint": "a2edceb1d165241af15c9f1fd5f9ba073b50189eb318ecb489fe2a676deb65e5"
+    },
+    {
+      "id": "q-c02-042",
+      "version": 2,
+      "readingUnitId": "c02-s02-p019-02235-r008-008",
+      "chapterId": "c02",
+      "sectionId": "c02-s02",
+      "paragraphId": "c02-s02-p019-02235",
+      "sentenceIds": [
+        "c02-s02-p019-02235-s008"
+      ],
+      "passage": "Well, the bad news is that those who got tenure were not as happy as the current assistant professors imagined.",
+      "prompt": "What comparison does this sentence make?",
+      "options": [
+        "Tenured professors were less happy than colleagues denied tenure.",
+        "Post-tenure happiness fell short of assistant professors' expectations.",
+        "Assistant professors expected tenure to lower their own happiness.",
+        "Tenure recipients became less happy than before their appointments."
+      ],
+      "answer": 1,
+      "type": "逻辑关系",
+      "promptZh": "这句话作了什么比较？",
+      "optionsZh": [
+        "获终身教职者比未获终身教职的同事更不幸福。",
+        "获得终身教职后的幸福程度低于助理教授的预想。",
+        "助理教授预期获得终身教职会降低自己的幸福程度。",
+        "终身教职获得者比获得该职位前更不幸福。"
+      ],
+      "analyses": [
+        "A 本句比较实际幸福与 current assistant professors 的预想，不是在比较获得与未获得终身教职的两组人。",
+        "B not as happy as ... imagined 表明实际幸福程度低于预想；较低于预期不等于绝对不幸福。",
+        "C 原句报告获得者没有预想得那么幸福，没有说预测者原本预期会下降。",
+        "D 前后实际变化与实际对照预期是不同的比较，本句没有提供同一批人任职前后的幸福数据。"
+      ],
+      "evidence": [
+        {
+          "quote": "those who got tenure were not as happy as the current assistant professors imagined.",
+          "sentenceIds": [
+            "c02-s02-p019-02235-s008"
+          ],
+          "sources": [
+            {
+              "pdfPage": 19,
+              "block": 2,
+              "bbox": [
+                76.99,
+                223.5,
+                535.01,
+                550.02
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "imagined",
+          "meaning": "想象；预想",
+          "context": "修饰预测的幸福程度，区别实际经历",
+          "example": "The course was more demanding than she had imagined.",
+          "collocations": [
+            "as imagined",
+            "imagine an outcome"
+          ]
+        }
+      ],
+      "translation": "那么，坏消息是，获得终身教职的人，并没有现任助理教授想象的那么幸福。",
+      "support": "explicit",
+      "editorialStatus": "PDF 第 18–25 页具体原文逐题编写并视觉核对；保留限定、统计年份、观点归属及类比性质；固定无重复短段",
+      "contentRevision": "question-review-2026-10-28-001",
+      "fingerprint": "6eadb5ecfa1f93780cc90b06cb7b32443e3c5413153ba90a45547e16bc9c1964"
+    },
+    {
+      "id": "qe-c11-0081",
+      "version": 2,
+      "family": "sentence-evidence",
+      "batchId": "evidence-050",
+      "parentQuestionId": "q-c11-046",
+      "chapterId": "c11",
+      "sectionId": "c11-s05",
+      "paragraphId": "c11-s05-p128-06600",
+      "readingUnitId": "c11-s05-p128-06600-r004-007",
+      "sentenceIds": [
+        "c11-s05-p128-06600-s004",
+        "c11-s05-p128-06600-s005",
+        "c11-s05-p128-06600-s006",
+        "c11-s05-p128-06600-s007"
+      ],
+      "passage": "They were given an empty envelope for any stickers they wanted to donate to an anonymous classmate. After the session was over, the researcher counted how many stickers each child donated as a behavioral measure of altruistic giving. Before the earthquake, nine-year-olds gave, on average, slightly more than one out of the ten stickers. One month after the earthquake, nine-year-olds gave, on average, about four out of the ten stickers.",
+      "prompt": "What served as the behavioural measure of altruistic giving?",
+      "promptZh": "什么被用作利他给予的行为测量？",
+      "options": [
+        "The number of stickers still displayed in the original set of one hundred.",
+        "The number of stickers each child actually donated, counted after the session.",
+        "Only the child's claim that they were generous, without counting donations.",
+        "The number of classmates who had not been selected, regardless of what the child gave."
+      ],
+      "optionsZh": [
+        "原来一百张中仍在展示的数量。",
+        "结束后数每名儿童实际捐出的贴纸数量。",
+        "只听儿童自称慷慨，不数捐赠。",
+        "未被选中同学的数量，不管儿童实际给多少。"
+      ],
+      "answer": 1,
+      "type": "研究设计",
+      "support": "explicit",
+      "analyses": [
+        "A 测量的是每名儿童实际捐出的贴纸数，不是原始展示的一百张还剩多少。",
+        "B after the session was over、counted how many stickers 和 each child donated 共同说明测量时点、动作和对象。",
+        "C behavioral measure 在这里通过实际捐赠行为取得，不是只询问儿童是否自认慷慨。",
+        "D 未获选同学的人数不是每名儿童的捐赠量；捐出的贴纸数量才是本题所问的指标。"
+      ],
+      "vocabulary": [
+        {
+          "word": "behavioral measure",
+          "meaning": "行为测量；以实际行为数量等作为指标",
+          "context": "此处贴纸捐出数是操作性指标，不穷尽一个人的全部道德品格。",
+          "example": "The number of items donated was used as a behavioral measure.",
+          "collocations": [
+            "a behavioral measure of altruistic giving",
+            "counted how many stickers each child donated"
+          ]
+        }
+      ],
+      "translation": "他们拿空信封，装想捐给一名匿名同学的贴纸。结束后，研究者数捐出数量，作为利他给予的行为测量。震前九岁儿童平均捐十张中略多于一张；震后一月平均约四张。",
+      "evidenceTargetIds": [
+        "c11-s05-p128-06600-s005"
+      ],
+      "evidence": [
+        {
+          "quote": "After the session was over, the researcher counted how many stickers each child donated as a behavioral measure of altruistic giving.",
+          "sentenceIds": [
+            "c11-s05-p128-06600-s005"
+          ],
+          "sources": [
+            {
+              "pdfPage": 129,
+              "block": 0,
+              "bbox": [
+                76.99,
+                75,
+                535.01,
+                265.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "contentRevision": "question-review-2026-10-28-001",
+      "fingerprint": "052f6c92ad4ad72bf016b2bae9ae6306c39d6e0d22f2525a13501672bbd50a2f"
+    }
+  ]
+}

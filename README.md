@@ -169,3 +169,13 @@ Pages 来源为 Deploy from a branch → gh-pages → / (root)。build:pages 验
 最新续批作者稿为 `source/b2-vocabulary/advanced-02.tsv`，具体句子的不同义项与排除理由在 `advanced-02-senses.json`。例如 agreeable 区分人格特质与“乐于接受建议”，self-determination 区分心理学理论与群体自主；Non-neurotic 以完整词匹配，不拆成含义相反的 neurotic。程序只装配已写好的释义，不在浏览器中猜测词义。新增 433 处标注的来源文本与实际 PDF 中 112 页、223 个来源块比对通过；另视觉核对第 12、31、42、66 页，不把文本比对称为每页视觉审校。
 
 `advanced-02-review.json` 保存本批范围、标注 ID、排除记录和验证结果。恢复清单中的 152 个词形已记录审阅结果，仍有 1327 个未分级词形待判断，其中可能包含基础词变形；这不是“还缺1327个难词”的计数，也不宣称全书高级义项已穷尽。`tests/fixtures/word-lookups-v4-fingerprints.json` 冻结上版每个词条和标注的指纹，测试阻止改写旧内容。可运行 `node scripts/advanced-vocabulary-browser-test.mjs` 验证本续批；线上验证另设 `READING_TEST_URL`。本地测试包含停掉 HTTP 服务后缓存重载，线上断网检查使用浏览器离线模式，两者分别记录。手机检查为 390px Edge 视口，不等于真机验证。
+
+## 题目细节校对（2026-10-28）
+
+本轮对 2709 题做结构及译文匹配检查，人工对照实际 PDF 的 15 页复核 23 题、25 个部分引用候选，修订其中 12 题。修正修窗句译文过度表达已完成结果、解析依赖未显示前文、人物指代不精确、贴纸题残留下一批备注等问题，并改善 11 道主问题的干扰项。托尔斯泰题扩展原句引文，补齐夫妻相爱这个前提。英文原文、题号、阅读顺序及答案位置均保留。
+
+作者稿、上版完整题目与校对报告分别在 `source/question-revisions/review-001.json`、`review-001-baseline.json` 和 `review-001-report.json`。运行 `npm run questions:compile` 将预写修订编译到 `src/data/question-revision-catalog.json`；应用在原始主问题、断句修复与补题组合后载入新版。旧题文件不覆盖，已提交记录继续显示自己的旧快照和成绩；重新练习才采用新版本。未提交的旧选择在选项改版后清空，避免误套新选项。版本、指纹、双语材料和完整题目快照会随 JSON 备份保存。
+
+运行 `npm run content:check`、`npm test`、`npm run build:pages`、`node scripts/question-review-browser-test.mjs` 验证。线上检查可设置 `READING_TEST_URL` 和 `READING_TEST_PROXY`。回执记录 12 题的新指纹后，该批编译器拒绝改写已发布修订；后续校对须建立新的版本批次，保留上一批作者稿和基线。
+
+`source/semantic-evidence/audit.json` 的语义候选待办由 258 减少至 233；这些是待复核的来源候选，不等于错误题数。全库结构检查不等于 2709 题都完成了人工语义审校。题目长度统计仅用于筛选潜在猜题线索，不能机械地把最长项都判错或强行缩短正确答案。
