@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "id": "question-review-2026-10-28-012",
+  "id": "question-review-2026-10-28-013",
   "revisionIds": [
     "question-review-2026-10-28-001",
     "question-review-2026-10-28-002",
@@ -13,7 +13,8 @@
     "question-review-2026-10-28-009",
     "question-review-2026-10-28-010",
     "question-review-2026-10-28-011",
-    "question-review-2026-10-28-012"
+    "question-review-2026-10-28-012",
+    "question-review-2026-10-28-013"
   ],
   "batches": [
     {
@@ -333,6 +334,25 @@
         "qe-c01-0007": "ba4b7dd1d0a0f4997cb19ede1b2da466910449ae3e7e45bd9c8ea905116f503c",
         "q-c01-038": "3aa8f99981d7378c90462237edb60fb23b59bd7d6ab749574784c620e8a7ce83"
       }
+    },
+    {
+      "id": "question-review-2026-10-28-013",
+      "questionIds": [
+        "qe-c01-0060",
+        "qe-c01-0012",
+        "qe-c01-0013",
+        "qe-c01-0014",
+        "q-c01-010",
+        "q-c01-012"
+      ],
+      "questionFingerprints": {
+        "qe-c01-0060": "3b0a745282c49fc262ec50d2cb5444647281aa728909295381a72ebd33924690",
+        "qe-c01-0012": "cc451505649e787c08419ed5fcaf10abf4ba03f565549d0a46d127a31aaa5b1e",
+        "qe-c01-0013": "467a47d950574bb5eff08b0fa73b2deef0b25f8487864dbd048d3f899c8bb001",
+        "qe-c01-0014": "cd01723d1f07305097dea6a12461caece2adddb110a3d4102f4c27829ed67a56",
+        "q-c01-010": "b45a060aacd5f53ea75b19fdd535f2a45a1eaa6e323f6711ac37ad353b32b7d2",
+        "q-c01-012": "7d61d1ef4b8e455c48edb5b3b48a13f19de97d3828b8175415da687bc9ea90ef"
+      }
     }
   ],
   "pdfSha256": "be25c859f1bd894a4b0d1cff024ded1297f6a96a8e8ddabea1e3abcf89160a50",
@@ -453,7 +473,13 @@
     "qe-c01-0004": "7c4f7c3642ccaa50d2637781968e26f7c1057ce06808342e338e5428c945cdb7",
     "qe-c01-0005": "3aa9d26b30eee6a384f152142de7f88ca8f35592433c2472b47524726cffdb22",
     "qe-c01-0007": "613cab81409c4583d6fc16290d2e05c6e2f56d2bdceeefde33230cc2990c28ba",
-    "q-c01-038": "8f803ed508a293be10749dc35d84cc60bd235174381a9d468667ee853fa6ebb9"
+    "q-c01-038": "8f803ed508a293be10749dc35d84cc60bd235174381a9d468667ee853fa6ebb9",
+    "qe-c01-0060": "02a9a9280b0d9dc975e86309ddfaebf1a7c965eb780d8e43d660f2e95ce503ab",
+    "qe-c01-0012": "9a35144642525d04ae7bdc8f8f91fc2f26be11a0cd40b1e4a01e40fa47ec70ef",
+    "qe-c01-0013": "8ad4bfaaf55682d996f2e42c3c0252ce32dd56e1f3b22e5c5b774f9c7668c8f1",
+    "qe-c01-0014": "49b2da36ed55ef90682fcb5c398663fd5b7a04e111a5bc6437c73b93fc294845",
+    "q-c01-010": "3d2e938695d51826488704209780e35f6544117959ff2e449b179a44db802cd0",
+    "q-c01-012": "91bfefa368cc2b1289c5fad71958ed0ab79c999ee538579b771c547870b2e99f"
   },
   "revisionDepths": {
     "q-c01-047": 1,
@@ -572,7 +598,13 @@
     "qe-c01-0004": 1,
     "qe-c01-0005": 1,
     "qe-c01-0007": 1,
-    "q-c01-038": 1
+    "q-c01-038": 1,
+    "qe-c01-0060": 1,
+    "qe-c01-0012": 1,
+    "qe-c01-0013": 1,
+    "qe-c01-0014": 1,
+    "q-c01-010": 1,
+    "q-c01-012": 1
   },
   "questions": [
     {
@@ -10280,6 +10312,492 @@
       "editorialStatus": "按具体原文逐题编写；补齐第 1 章第 1 小节短段；无重复原句",
       "contentRevision": "question-review-2026-10-28-012",
       "fingerprint": "3aa8f99981d7378c90462237edb60fb23b59bd7d6ab749574784c620e8a7ce83"
+    },
+    {
+      "id": "qe-c01-0060",
+      "version": 2,
+      "family": "sentence-evidence",
+      "semanticAudit": true,
+      "batchId": "semantic-001",
+      "parentQuestionId": "q-c01-009",
+      "chapterId": "c01",
+      "sectionId": "c01-s01",
+      "paragraphId": "c01-s01-p008-04260",
+      "readingUnitId": "c01-s01-p008-04260-r005-006",
+      "sentenceIds": [
+        "c01-s01-p008-04260-s005",
+        "c01-s01-p008-04260-s006"
+      ],
+      "passage": "Though I love my job most days, I do envy my father’s simple, convivial life sometimes; I wish I could spend an evening drinking sake with my old friends every week, reminiscing about our school days and talking about life on the farm. But in my most honest moments, I know that I could not have lived like this: I had an intense yearning to see the outside world, too intense to follow the well-trodden life path of my ancestors.",
+      "prompt": "Which experience does the author wish he could have every week?",
+      "promptZh": "作者希望自己每周能有怎样的经历？",
+      "options": [
+        "Spend each evening working at a different university.",
+        "Share an evening of sake and memories with old friends.",
+        "Leave his job permanently to farm with his father.",
+        "Travel alone to a different hot spring every week."
+      ],
+      "optionsZh": [
+        "每晚在不同的大学工作。",
+        "与老朋友共度一晚，喝清酒并回忆往事。",
+        "永久辞职，与父亲一起务农。",
+        "每周独自去一个不同的温泉。"
+      ],
+      "answer": 1,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A 原文希望每周与老朋友共度一晚，不是每晚换大学工作。",
+        "B spend an evening...every week 对应每周一个晚上，drinking sake、reminiscing 与 old friends 对应喝清酒与老友叙旧。",
+        "C love my job most days 与有时羡慕父亲并存，没有希望永久辞职务农的陈述。",
+        "D 当前愿望是与老朋友相聚，未说每周独自去不同温泉，不能替换活动和参与者。"
+      ],
+      "vocabulary": [
+        {
+          "word": "reminiscing",
+          "meaning": "追忆；回忆往事",
+          "context": "作者希望和老朋友一起回忆学生时代。",
+          "example": "They spent the evening reminiscing about their school days.",
+          "collocations": [
+            "reminisce about old times",
+            "reminisce with friends"
+          ]
+        }
+      ],
+      "translation": "虽然大多数时候我都喜欢自己的工作，但有时的确羡慕父亲简单、热闹友好的生活；我希望每周都能与老朋友共度一晚，喝着清酒，追忆学生时代，谈谈农场生活。但最坦诚时我知道，自己不可能那样生活：我太渴望看看外面的世界，这种渴望强烈到无法沿着祖先走熟的道路生活。",
+      "evidenceTargetIds": [
+        "c01-s01-p008-04260-s005"
+      ],
+      "evidence": [
+        {
+          "quote": "Though I love my job most days, I do envy my father’s simple, convivial life sometimes; I wish I could spend an evening drinking sake with my old friends every week, reminiscing about our school days and talking about life on the farm.",
+          "sentenceIds": [
+            "c01-s01-p008-04260-s005"
+          ],
+          "sources": [
+            {
+              "pdfPage": 8,
+              "block": 2,
+              "bbox": [
+                76.99,
+                426,
+                535.01,
+                655.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "原题证据关联中仅作背景的句子，已核对 PDF 原页并补充直接考查；保留原题和历史。",
+      "contentRevision": "question-review-2026-10-28-013",
+      "fingerprint": "3b0a745282c49fc262ec50d2cb5444647281aa728909295381a72ebd33924690"
+    },
+    {
+      "id": "qe-c01-0012",
+      "version": 2,
+      "family": "sentence-evidence",
+      "batchId": "evidence-001",
+      "parentQuestionId": "q-c01-041",
+      "chapterId": "c01",
+      "sectionId": "c01-s02",
+      "paragraphId": "c01-s02-p009-00982",
+      "readingUnitId": "c01-s02-p009-00982-r001-004",
+      "sentenceIds": [
+        "c01-s02-p009-00982-s001",
+        "c01-s02-p009-00982-s002",
+        "c01-s02-p009-00982-s003",
+        "c01-s02-p009-00982-s004"
+      ],
+      "passage": "I think back to when I was graduating high school, when I was faced with the question framed in the immortal words of The Clash: “Should I stay or should I go?” It was easy, then. Just go. As I get older, though, it has become more and more difficult.",
+      "prompt": "At what stage does the narrator recall facing the stay-or-go question?",
+      "promptZh": "叙述者回忆自己在什么时候面对留下还是离开的抉择？",
+      "options": [
+        "When he was graduating from high school.",
+        "When his children were in middle and high school.",
+        "After taking a university job in New York City.",
+        "After meeting the Korean student on Staten Island."
+      ],
+      "optionsZh": [
+        "高中即将毕业时。",
+        "他的孩子们读初高中时。",
+        "到纽约市的大学任职之后。",
+        "在斯塔滕岛认识韩国学生之后。"
+      ],
+      "answer": 0,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A when I was graduating high school 明示回忆的时间节点。",
+        "B 当前片段给的是作者高中毕业的时点，没有孩子们读初高中这一时间设定。",
+        "C 本片段没有纽约任职的内容，不能替换明确给出的高中毕业时点。",
+        "D 本片段没有斯塔滕岛相遇的内容，不能用该事件替代 graduating high school。"
+      ],
+      "vocabulary": [
+        {
+          "word": "was faced with",
+          "meaning": "当时面临；需要面对",
+          "context": "叙述者高中毕业时面临去留抉择，而不是有人替他作出了决定。",
+          "example": "She was faced with a difficult choice after graduation.",
+          "collocations": [
+            "be faced with a choice",
+            "be faced with a question"
+          ]
+        }
+      ],
+      "translation": "我想起高中即将毕业的时候，当时面临的选择可用 The Clash 那句不朽的歌词来表达：“我该留下，还是该离开？”那时很容易：走就是了。但随着年龄增长，这个选择变得越来越困难。",
+      "evidenceTargetIds": [
+        "c01-s02-p009-00982-s001"
+      ],
+      "evidence": [
+        {
+          "quote": "I think back to when I was graduating high school, when I was faced with the question framed in the immortal words of The Clash: “Should I stay or should I go?”",
+          "sentenceIds": [
+            "c01-s02-p009-00982-s001"
+          ],
+          "sources": [
+            {
+              "pdfPage": 9,
+              "block": 1,
+              "bbox": [
+                76.99,
+                98.25,
+                535.01,
+                346.77
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "contentRevision": "question-review-2026-10-28-013",
+      "fingerprint": "cc451505649e787c08419ed5fcaf10abf4ba03f565549d0a46d127a31aaa5b1e"
+    },
+    {
+      "id": "qe-c01-0013",
+      "version": 2,
+      "family": "sentence-evidence",
+      "batchId": "evidence-001",
+      "parentQuestionId": "q-c01-042",
+      "chapterId": "c01",
+      "sectionId": "c01-s02",
+      "paragraphId": "c01-s02-p009-00982",
+      "readingUnitId": "c01-s02-p009-00982-r005-008",
+      "sentenceIds": [
+        "c01-s02-p009-00982-s005",
+        "c01-s02-p009-00982-s006",
+        "c01-s02-p009-00982-s007",
+        "c01-s02-p009-00982-s008"
+      ],
+      "passage": "This question has been at the center of both my personal life and my academic research for decades. I imagine most of you have also asked yourselves that very same question, not just once or twice, but many times over. Some of you might be like my father: loyal, prudent, and nostalgic, prioritizing a stable life. Others may be more like me: impressionable, whimsical, and risk-taking, embracing an adventurous life.",
+      "prompt": "Which two areas has the question described here been central to for decades?",
+      "promptZh": "文中所说的问题，几十年来一直处于哪两个领域的中心？",
+      "options": [
+        "His father's career and his mother's studies.",
+        "Only his teaching duties and grant applications.",
+        "His personal life and his academic research.",
+        "One brief college decision and no later choices."
+      ],
+      "optionsZh": [
+        "父亲的职业和母亲的学业。",
+        "仅他的教学职责和基金申请。",
+        "他的个人生活和学术研究。",
+        "仅一次短暂的大学抉择，此后不再涉及。"
+      ],
+      "answer": 2,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A both my personal life and my academic research 的 my 指叙述者，不能换成父母。",
+        "B only 缩小了范围，也把 personal life 排除在外。",
+        "C 原文明确并列个人生活与学术研究，并用 for decades 表示持续多年。",
+        "D at the center...for decades 不支持只影响一次短暂决定。"
+      ],
+      "vocabulary": [
+        {
+          "word": "at the center of",
+          "meaning": "处于……的核心；是……的中心问题",
+          "context": "表示去留抉择长期贯穿个人生活和学术研究，不是地理中心。",
+          "example": "Trust is at the center of their collaboration.",
+          "collocations": [
+            "at the center of a debate",
+            "at the center of one's research"
+          ]
+        }
+      ],
+      "translation": "几十年来，这个问题一直处于我的个人生活和学术研究的中心。我想，你们大多数人也曾问过自己同样的问题，而且不止一两次，而是反复多次。有些人可能像父亲一样，忠诚、审慎而念旧，把稳定生活放在首位。另一些人也许更像我，易受触动、随性而愿意冒险，拥抱充满冒险的生活。",
+      "evidenceTargetIds": [
+        "c01-s02-p009-00982-s005"
+      ],
+      "evidence": [
+        {
+          "quote": "This question has been at the center of both my personal life and my academic research for decades.",
+          "sentenceIds": [
+            "c01-s02-p009-00982-s005"
+          ],
+          "sources": [
+            {
+              "pdfPage": 9,
+              "block": 1,
+              "bbox": [
+                76.99,
+                98.25,
+                535.01,
+                346.77
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "contentRevision": "question-review-2026-10-28-013",
+      "fingerprint": "467a47d950574bb5eff08b0fa73b2deef0b25f8487864dbd048d3f899c8bb001"
+    },
+    {
+      "id": "qe-c01-0014",
+      "version": 2,
+      "family": "sentence-evidence",
+      "batchId": "evidence-001",
+      "parentQuestionId": "q-c01-042",
+      "chapterId": "c01",
+      "sectionId": "c01-s02",
+      "paragraphId": "c01-s02-p009-00982",
+      "readingUnitId": "c01-s02-p009-00982-r005-008",
+      "sentenceIds": [
+        "c01-s02-p009-00982-s005",
+        "c01-s02-p009-00982-s006",
+        "c01-s02-p009-00982-s007",
+        "c01-s02-p009-00982-s008"
+      ],
+      "passage": "This question has been at the center of both my personal life and my academic research for decades. I imagine most of you have also asked yourselves that very same question, not just once or twice, but many times over. Some of you might be like my father: loyal, prudent, and nostalgic, prioritizing a stable life. Others may be more like me: impressionable, whimsical, and risk-taking, embracing an adventurous life.",
+      "prompt": "What does the narrator imagine about his readers?",
+      "promptZh": "叙述者设想读者有过怎样的经历？",
+      "options": [
+        "They have all chosen adventure over stability.",
+        "They asked him the question only once or twice.",
+        "They have never considered the question themselves.",
+        "Most have repeatedly asked themselves the same question."
+      ],
+      "optionsZh": [
+        "他们全都已经选择冒险而非稳定。",
+        "他们只向作者问过这个问题一两次。",
+        "他们从未自己考虑这个问题。",
+        "大多数人曾反复问自己同一个问题。"
+      ],
+      "answer": 3,
+      "type": "同义改写",
+      "support": "explicit",
+      "analyses": [
+        "A 作者设想的是 most of you 曾思考，没有宣称所有读者都已选冒险。",
+        "B asked yourselves 是问自己；not just once or twice 否定只一两次。",
+        "C also asked yourselves 表示也曾自问，不是从未考虑。",
+        "D most of you 与 many times over 同时保留多数和反复；I imagine 仍是作者设想，不是读者问卷结果。"
+      ],
+      "vocabulary": [
+        {
+          "word": "many times over",
+          "meaning": "反复多次；一次又一次",
+          "context": "强调读者可能不止一两次面对同样的去留问题，未给出具体次数。",
+          "example": "She reconsidered the decision many times over.",
+          "collocations": [
+            "ask oneself many times over",
+            "think something over"
+          ]
+        }
+      ],
+      "translation": "几十年来，这个问题一直处于我的个人生活和学术研究的中心。我想，你们大多数人也曾问过自己同样的问题，而且不止一两次，而是反复多次。有些人可能像父亲一样，忠诚、审慎而念旧，把稳定生活放在首位。另一些人也许更像我，易受触动、随性而愿意冒险，拥抱充满冒险的生活。",
+      "evidenceTargetIds": [
+        "c01-s02-p009-00982-s006"
+      ],
+      "evidence": [
+        {
+          "quote": "I imagine most of you have also asked yourselves that very same question, not just once or twice, but many times over.",
+          "sentenceIds": [
+            "c01-s02-p009-00982-s006"
+          ],
+          "sources": [
+            {
+              "pdfPage": 9,
+              "block": 1,
+              "bbox": [
+                76.99,
+                98.25,
+                535.01,
+                346.77
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "contentRevision": "question-review-2026-10-28-013",
+      "fingerprint": "cd01723d1f07305097dea6a12461caece2adddb110a3d4102f4c27829ed67a56"
+    },
+    {
+      "id": "q-c01-010",
+      "version": 3,
+      "chapterId": "c01",
+      "sectionId": "c01-s02",
+      "paragraphId": "c01-s02-p009-00982",
+      "sentenceIds": [
+        "c01-s02-p009-00982-s009",
+        "c01-s02-p009-00982-s010"
+      ],
+      "passage": "There are, of course, trade-offs between a stable life and a mobile life, a simple life and a dramatic life, a comfortable life and a challenging life, a conventional life and an unconventional life. But which one gets us closer to a good life?",
+      "prompt": "What is the function of the paired alternatives such as “stable” and “mobile”?",
+      "options": [
+        "To establish choices whose trade-offs raise the question of a good life.",
+        "To rank all mobile lives as morally superior.",
+        "To show that the author has abandoned psychological research.",
+        "To demonstrate that all readers have already made the same choice."
+      ],
+      "answer": 0,
+      "type": "逻辑关系",
+      "analyses": [
+        "A 成对列举的生活方式带出 trade-offs，最后追问 which...closer to a good life，说明列举用来建立待评估的选择。",
+        "B 本片段提出哪种更接近美好生活的问题，未给 mobile 在道德上优越的结论。",
+        "C 本片段没有说作者放弃心理研究；提出问题不等于放弃研究。",
+        "D 这些是互有取舍的备选方式，没有说所有读者都已作出同一选择。"
+      ],
+      "evidence": [
+        {
+          "quote": "There are, of course, trade-offs between a stable life and a mobile life, a simple life and a dramatic life, a comfortable life and a challenging life, a conventional life and an unconventional life.",
+          "sentenceIds": [
+            "c01-s02-p009-00982-s009"
+          ],
+          "sources": [
+            {
+              "pdfPage": 9,
+              "block": 1,
+              "bbox": [
+                76.99,
+                98.25,
+                535.01,
+                346.77
+              ]
+            }
+          ]
+        },
+        {
+          "quote": "But which one gets us closer to a good life?",
+          "sentenceIds": [
+            "c01-s02-p009-00982-s010"
+          ],
+          "sources": [
+            {
+              "pdfPage": 9,
+              "block": 1,
+              "bbox": [
+                76.99,
+                98.25,
+                535.01,
+                346.77
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "trade-offs",
+          "meaning": "权衡；取舍",
+          "context": "稳定与流动等生活方式的利弊交换",
+          "example": "Every design involves trade-offs.",
+          "collocations": [
+            "trade-offs between",
+            "make a trade-off"
+          ]
+        }
+      ],
+      "support": "explicit",
+      "editorialStatus": "短段版 v2；连续原句，配题片段互不重叠；保留 v1 历史快照，不重算旧成绩",
+      "translation": "当然，稳定与流动、简单与戏剧性、舒适与挑战、惯常与非惯常的人生之间，都存在取舍。但哪一种能让我们更接近美好生活呢？",
+      "readingUnitId": "c01-s02-p009-00982-r009-010",
+      "promptZh": "“稳定”与“流动”等成对选择起什么作用？",
+      "optionsZh": [
+        "列出需要权衡的选择，由此提出什么是美好生活的问题。",
+        "把所有流动的人生都评为道德上更优越。",
+        "说明作者已经放弃心理学研究。",
+        "证明所有读者都已作出同样的选择。"
+      ],
+      "contentRevision": "question-review-2026-10-28-013",
+      "fingerprint": "b45a060aacd5f53ea75b19fdd535f2a45a1eaa6e323f6711ac37ad353b32b7d2"
+    },
+    {
+      "id": "q-c01-012",
+      "version": 3,
+      "chapterId": "c01",
+      "sectionId": "c01-s02",
+      "paragraphId": "c01-s02-p009-04298",
+      "sentenceIds": [
+        "c01-s02-p009-04298-s001",
+        "c01-s02-p009-04298-s002",
+        "c01-s02-p009-04298-s003",
+        "c01-s02-p009-04298-s004",
+        "c01-s02-p009-04298-s005",
+        "c01-s02-p009-04298-s006"
+      ],
+      "passage": "When author Donna Tartt was asked what questions she was grappling with in her novel The Goldfinch, she said, “What is a good life?…To be happy oneself? Is it personal happiness? Or is it to make other people happy even at the expense of one’s own happiness?” Tartt’s question is profound. Should we strive to be happy? Or should we work for others’ happiness before thinking of our own?",
+      "prompt": "Why is Donna Tartt’s question included?",
+      "options": [
+        "To prove that self-sacrifice prevents regret.",
+        "To report the results of an experiment about generosity.",
+        "To frame a tension between personal happiness and making others happy.",
+        "To establish that writers reject all forms of happiness."
+      ],
+      "answer": 2,
+      "type": "作者意图",
+      "analyses": [
+        "A 这里是在问要不要牺牲自己的幸福，没有自我牺牲能避免遗憾的结果或证明。",
+        "B 文中引用小说作者对作品问题的回答，不是慷慨行为实验的结果。",
+        "C personal happiness 与 make other people happy 的引述，加上作者随后两个 Should 问句，呈现自己与他人幸福的张力。",
+        "D 开放问题不是拒绝一切幸福的结论，也不能从一位作家扩大到所有作家。"
+      ],
+      "evidence": [
+        {
+          "quote": "Should we strive to be happy? Or should we work for others’ happiness before thinking of our own?",
+          "sentenceIds": [
+            "c01-s02-p009-04298-s005",
+            "c01-s02-p009-04298-s006"
+          ],
+          "sources": [
+            {
+              "pdfPage": 9,
+              "block": 3,
+              "bbox": [
+                76.99,
+                429.75,
+                535.01,
+                541.77
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "at the expense of",
+          "meaning": "以……为代价",
+          "context": "把他人幸福置于个人幸福之前时的代价",
+          "example": "He built his career at the expense of his health.",
+          "collocations": [
+            "at the expense of others",
+            "at one’s own expense"
+          ]
+        }
+      ],
+      "support": "explicit",
+      "editorialStatus": "短段版 v2；连续原句，配题片段互不重叠；保留 v1 历史快照，不重算旧成绩",
+      "translation": "有人问作家唐娜·塔特，她在小说《金翅雀》中努力探讨什么问题。她说：“什么是美好生活？……让自己幸福吗？是个人幸福吗？还是即使牺牲自己的幸福，也要让别人幸福？”塔特的问题很深刻。我们应该努力让自己幸福吗？还是应该先为他人的幸福努力，再考虑自己的？",
+      "readingUnitId": "c01-s02-p009-04298-r001-006",
+      "promptZh": "为什么引用唐娜·塔特提出的问题？",
+      "optionsZh": [
+        "证明自我牺牲能避免后悔。",
+        "报告一项关于慷慨的实验结果。",
+        "呈现个人幸福与让他人幸福之间的张力。",
+        "证明作家反对一切形式的幸福。"
+      ],
+      "contentRevision": "question-review-2026-10-28-013",
+      "fingerprint": "7d61d1ef4b8e455c48edb5b3b48a13f19de97d3828b8175415da687bc9ea90ef"
     }
   ]
 }

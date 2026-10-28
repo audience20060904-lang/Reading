@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "id": "question-review-2026-10-28-013",
+  "pdfSha256": "be25c859f1bd894a4b0d1cff024ded1297f6a96a8e8ddabea1e3abcf89160a50",
+  "scope": "Review the next 17 questions (24 source candidates, PDF8–9), preserving most/imagine and self-contained explanations.",
+  "questions": [
+    {
+      "id": "qe-c01-0060",
+      "reason": "愿望题分析只用当前段落，不以父亲的温泉活动作未显示的背景。",
+      "updates": {
+        "analyses": [
+          "A 原文希望每周与老朋友共度一晚，不是每晚换大学工作。",
+          "B spend an evening...every week 对应每周一个晚上，drinking sake、reminiscing 与 old friends 对应喝清酒与老友叙旧。",
+          "C love my job most days 与有时羡慕父亲并存，没有希望永久辞职务农的陈述。",
+          "D 当前愿望是与老朋友相聚，未说每周独自去不同温泉，不能替换活动和参与者。"
+        ]
+      }
+    },
+    {
+      "id": "qe-c01-0012",
+      "reason": "高中毕业回忆题不提前讲述后来子女就学、纽约工作和大学恋情的细节。",
+      "updates": {
+        "analyses": [
+          "A when I was graduating high school 明示回忆的时间节点。",
+          "B 当前片段给的是作者高中毕业的时点，没有孩子们读初高中这一时间设定。",
+          "C 本片段没有纽约任职的内容，不能替换明确给出的高中毕业时点。",
+          "D 本片段没有斯塔滕岛相遇的内容，不能用该事件替代 graduating high school。"
+        ]
+      }
+    },
+    {
+      "id": "qe-c01-0013",
+      "reason": "把 stay-or-go 的前文指代改为本段所说问题；at the center 不泛化成未限定的影响。",
+      "updates": {
+        "prompt": "Which two areas has the question described here been central to for decades?",
+        "promptZh": "文中所说的问题，几十年来一直处于哪两个领域的中心？"
+      }
+    },
+    {
+      "id": "qe-c01-0014",
+      "reason": "正确选项保留 most of you，避免把作者对多数读者的推想推广为所有读者事实。",
+      "updates": {
+        "options": [
+          "They have all chosen adventure over stability.",
+          "They asked him the question only once or twice.",
+          "They have never considered the question themselves.",
+          "Most have repeatedly asked themselves the same question."
+        ],
+        "optionsZh": [
+          "他们全都已经选择冒险而非稳定。",
+          "他们只向作者问过这个问题一两次。",
+          "他们从未自己考虑这个问题。",
+          "大多数人曾反复问自己同一个问题。"
+        ],
+        "analyses": [
+          "A 作者设想的是 most of you 曾思考，没有宣称所有读者都已选冒险。",
+          "B asked yourselves 是问自己；not just once or twice 否定只一两次。",
+          "C also asked yourselves 表示也曾自问，不是从未考虑。",
+          "D most of you 与 many times over 同时保留多数和反复；I imagine 仍是作者设想，不是读者问卷结果。"
+        ]
+      }
+    },
+    {
+      "id": "q-c01-010",
+      "reason": "取舍题解析不引用前段未显示的 Some/Others。",
+      "updates": {
+        "analyses": [
+          "A 成对列举的生活方式带出 trade-offs，最后追问 which...closer to a good life，说明列举用来建立待评估的选择。",
+          "B 本片段提出哪种更接近美好生活的问题，未给 mobile 在道德上优越的结论。",
+          "C 本片段没有说作者放弃心理研究；提出问题不等于放弃研究。",
+          "D 这些是互有取舍的备选方式，没有说所有读者都已作出同一选择。"
+        ]
+      }
+    },
+    {
+      "id": "q-c01-012",
+      "reason": "Tartt题的解析仅就当前引述和作者自问说明张力，不借后文牺牲与遗憾论证。",
+      "updates": {
+        "analyses": [
+          "A 这里是在问要不要牺牲自己的幸福，没有自我牺牲能避免遗憾的结果或证明。",
+          "B 文中引用小说作者对作品问题的回答，不是慷慨行为实验的结果。",
+          "C personal happiness 与 make other people happy 的引述，加上作者随后两个 Should 问句，呈现自己与他人幸福的张力。",
+          "D 开放问题不是拒绝一切幸福的结论，也不能从一位作家扩大到所有作家。"
+        ]
+      }
+    }
+  ]
+}
