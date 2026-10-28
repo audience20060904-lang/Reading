@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "id": "question-review-2026-10-28-032",
+  "id": "question-review-2026-10-28-033",
   "revisionIds": [
     "question-review-2026-10-28-001",
     "question-review-2026-10-28-002",
@@ -33,7 +33,8 @@
     "question-review-2026-10-28-029",
     "question-review-2026-10-28-030",
     "question-review-2026-10-28-031",
-    "question-review-2026-10-28-032"
+    "question-review-2026-10-28-032",
+    "question-review-2026-10-28-033"
   ],
   "batches": [
     {
@@ -819,6 +820,25 @@
         "qe-c03-0042": "45ebd3835ab5770988413ed7a41fc5ee10b806ba42b4c8ba5147da3cf2247442",
         "qe-c03-0046": "71695fa8658bb9daf6ae323a24d4e20b14f038d296c974cf6764869253948f2d"
       }
+    },
+    {
+      "id": "question-review-2026-10-28-033",
+      "questionIds": [
+        "q-c03-038",
+        "qe-c03-0048",
+        "q-c03-043",
+        "qe-c03-0053",
+        "qe-c03-0054",
+        "qe-c03-0055"
+      ],
+      "questionFingerprints": {
+        "q-c03-038": "a1455c38400dce111489f747204572aed94cbe88048f16080c80dae6011008f9",
+        "qe-c03-0048": "14025521af115c6f665321ba7d3569fc929d9ec24d49f7ee77057287e988598c",
+        "q-c03-043": "33d221d1ca27820ec8bda1e3f93419de28630e1ed05f245331c82a6ea837e843",
+        "qe-c03-0053": "1ef95f622ec4e97de7dba904e5b59c7d6b9d71019784434617578202691df7dd",
+        "qe-c03-0054": "90253de4ce11883fd01e0727f62e1db7b5d06a3ac300f68fca597ec98c991f1f",
+        "qe-c03-0055": "8d30e68940c1cfbf85f823fa891c5593a4e83607b339d5c88930a4821ce33438"
+      }
     }
   ],
   "pdfSha256": "be25c859f1bd894a4b0d1cff024ded1297f6a96a8e8ddabea1e3abcf89160a50",
@@ -1102,7 +1122,13 @@
     "qe-c03-0040": "5aca12df641e183cc345ae22725d44916f700de1b41f01fa7e67e78d27927b4b",
     "qe-c03-0041": "83a39c53c84871ed6750a4ab1d07dd78381eda11b0ab2656dc7545e7735adf47",
     "qe-c03-0042": "2dc1411201092d95322192af6cc26c41cc0323a09b0f59d4fb31b5d203cc3cb1",
-    "qe-c03-0046": "1dc00747cd40546ccfe13dbe8fecb52b2e527882925d3e541a422471f0250220"
+    "qe-c03-0046": "1dc00747cd40546ccfe13dbe8fecb52b2e527882925d3e541a422471f0250220",
+    "q-c03-038": "352a34472c380ecb227ffcdb3544c2a1634bd0c353f675a33aefc00a7d9ceedf",
+    "qe-c03-0048": "cff8860196d225bcfb7d51498dbf07cebdc8e0158fb4e788ab2c40fc128f3b1e",
+    "q-c03-043": "73ad9d347aedbd5fc1b152d6646f0ef5ce997418769f2faeda82a85f95455fa1",
+    "qe-c03-0053": "41aab2ffbe48b2cff0c491d2e6c62cee2be9fb364b913e07b2585cffc036ba03",
+    "qe-c03-0054": "b1488b059173bd1798981367fa95ca3a820afd639e532ea5d43792f517ea36b2",
+    "qe-c03-0055": "ec5ead577b026abdef6290fe87190d928b186b1d731bd7a3e19d015802e8b613"
   },
   "revisionDepths": {
     "q-c01-047": 1,
@@ -1384,7 +1410,13 @@
     "qe-c03-0040": 1,
     "qe-c03-0041": 1,
     "qe-c03-0042": 1,
-    "qe-c03-0046": 1
+    "qe-c03-0046": 1,
+    "q-c03-038": 1,
+    "qe-c03-0048": 1,
+    "q-c03-043": 1,
+    "qe-c03-0053": 1,
+    "qe-c03-0054": 1,
+    "qe-c03-0055": 1
   },
   "questions": [
     {
@@ -24339,6 +24371,474 @@
       "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
       "contentRevision": "question-review-2026-10-28-032",
       "fingerprint": "71695fa8658bb9daf6ae323a24d4e20b14f038d296c974cf6764869253948f2d"
+    },
+    {
+      "id": "q-c03-038",
+      "version": 2,
+      "readingUnitId": "c03-s05-p032-02820-r009-009",
+      "chapterId": "c03",
+      "sectionId": "c03-s05",
+      "paragraphId": "c03-s05-p032-02820",
+      "sentenceIds": [
+        "c03-s05-p032-02820-s009"
+      ],
+      "passage": "In this case, it may be subjectively meaningful, but objectively not so good.",
+      "prompt": "What distinction is made in this sentence?",
+      "options": [
+        "Subjective meaning and objective goodness are guaranteed to coincide.",
+        "Objective goodness is irrelevant whenever a person feels purpose.",
+        "The case proves that every meaningful life is morally bad.",
+        "A life may be subjectively meaningful yet objectively not so good."
+      ],
+      "answer": 3,
+      "type": "逻辑关系",
+      "promptZh": "这句话作了什么区分？",
+      "optionsZh": [
+        "主观意义与客观上的好必然一致。",
+        "只要感到有目的，客观上的好就无关紧要。",
+        "这个案例证明所有有意义生活在道德上都坏。",
+        "一种生活可能主观上有意义，却在客观上并不那么好。"
+      ],
+      "analyses": [
+        "A but 表明两者在本例中可能分离。",
+        "B 原句仍以 objectively not so good 进行评价，并未取消其重要性。",
+        "C In this case 和 may 都限制范围，不能扩为所有生活。",
+        "D may 保留可能性，subjectively 与 objectively 形成对照；not so good 是不那么好，不能扩大成所有有意义的生活在客观上都邪恶。"
+      ],
+      "evidence": [
+        {
+          "quote": "In this case, it may be subjectively meaningful, but objectively not so good.",
+          "sentenceIds": [
+            "c03-s05-p032-02820-s009"
+          ],
+          "sources": [
+            {
+              "pdfPage": 32,
+              "block": 2,
+              "bbox": [
+                76.99,
+                282,
+                535.01,
+                452.52
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "subjectively",
+          "meaning": "主观地",
+          "context": "指当事人的感受角度，与 objectively 的评价角度对照",
+          "example": "The task felt subjectively difficult despite a simple scoring system.",
+          "collocations": [
+            "subjectively meaningful",
+            "subjectively experienced"
+          ]
+        }
+      ],
+      "translation": "在这个案例中，这种生活可能主观上有意义，但客观上并不那么好。",
+      "support": "explicit",
+      "editorialStatus": "PDF 第 25–32 页逐题核对；固定连续原句；区分文学引述、自报、相关和假设，不扩大个体或因果结论",
+      "contentRevision": "question-review-2026-10-28-033",
+      "fingerprint": "a1455c38400dce111489f747204572aed94cbe88048f16080c80dae6011008f9"
+    },
+    {
+      "id": "qe-c03-0048",
+      "version": 2,
+      "family": "sentence-evidence",
+      "batchId": "evidence-009",
+      "parentQuestionId": "q-c03-039",
+      "chapterId": "c03",
+      "sectionId": "c03-s05",
+      "paragraphId": "c03-s05-p032-04575",
+      "readingUnitId": "c03-s05-p032-04575-r001-004",
+      "sentenceIds": [
+        "c03-s05-p032-04575-s001",
+        "c03-s05-p032-04575-s002",
+        "c03-s05-p032-04575-s003",
+        "c03-s05-p032-04575-s004"
+      ],
+      "passage": "So far, the case of Mason, the military prison officer, is merely hypothetical. Is there any scientific evidence for this phenomenon of misplaced meaning in life? Recent studies have found that meaning in life is associated with right-wing authoritarianism, a belief system defined as uncritical submission to authority, feelings of aggression toward those who violate social norms, and strict adherence to conventional values. That is, right-wing authoritarians reported higher levels of meaning in life than non-authoritarians.",
+      "prompt": "What status does the author explicitly give Mason's case?",
+      "promptZh": "作者明确给梅森案例什么性质？",
+      "options": [
+        "A confirmed biography of a named historical officer.",
+        "A randomised experimental result.",
+        "A merely hypothetical example so far.",
+        "An independently verified account of every prison officer."
+      ],
+      "optionsZh": [
+        "某位具名历史官员的已核实传记。",
+        "随机实验结果。",
+        "到此为止只是一个假设例子。",
+        "对所有狱警的独立核实叙述。"
+      ],
+      "answer": 2,
+      "type": "观点归属",
+      "support": "explicit",
+      "analyses": [
+        "A merely hypothetical 与核实传记不符。",
+        "B 没有实验分组和实际结果。",
+        "C So far、merely hypothetical 明确限定当前案例的地位。",
+        "D So far 和 merely hypothetical 明确说明是假设案例，不能外推为对所有狱警的独立核实叙述。"
+      ],
+      "vocabulary": [
+        {
+          "word": "hypothetical",
+          "meaning": "假设的；设想的",
+          "context": "用于说明案例是思考工具，不是作者已经收集的个体事实或实验结果。",
+          "example": "The teacher used a hypothetical example to explain the distinction.",
+          "collocations": [
+            "a hypothetical case",
+            "merely hypothetical"
+          ]
+        }
+      ],
+      "translation": "到目前为止，军事监狱警官 Mason 的例子仅仅是假设。对于这种生命意义错置的现象，有科学证据吗？近期研究发现，生命意义与右翼威权主义相关；这种信念体系被界定为：不加批判地服从权威、对违反社会规范者抱有攻击情绪，以及严格遵从传统价值观。也就是说，右翼威权主义者自报的生命意义水平高于非威权主义者。",
+      "evidenceTargetIds": [
+        "c03-s05-p032-04575-s001"
+      ],
+      "evidence": [
+        {
+          "quote": "So far, the case of Mason, the military prison officer, is merely hypothetical.",
+          "sentenceIds": [
+            "c03-s05-p032-04575-s001"
+          ],
+          "sources": [
+            {
+              "pdfPage": 32,
+              "block": 3,
+              "bbox": [
+                76.99,
+                457.5,
+                535.01,
+                686.52
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "contentRevision": "question-review-2026-10-28-033",
+      "fingerprint": "14025521af115c6f665321ba7d3569fc929d9ec24d49f7ee77057287e988598c"
+    },
+    {
+      "id": "q-c03-043",
+      "version": 2,
+      "readingUnitId": "c03-s06-p033-03600-r001-004",
+      "chapterId": "c03",
+      "sectionId": "c03-s06",
+      "paragraphId": "c03-s06-p033-03600",
+      "sentenceIds": [
+        "c03-s06-p033-03600-s001",
+        "c03-s06-p033-03600-s002",
+        "c03-s06-p033-03600-s003",
+        "c03-s06-p033-03600-s004"
+      ],
+      "passage": "Like the happiness trap, the meaning trap has two parts. First, for the majority of us who have not invented anything or participated in the Peace Corps, it is easy to feel like a failure in the face of the call to be great. Pressure to make a difference in the world can be emotionally taxing, just like the pressure to be happy. Most of us feel that way once in a while.",
+      "prompt": "How is pressure to make a difference compared with pressure to be happy?",
+      "options": [
+        "Both can impose an emotional burden.",
+        "Only the pressure to be happy affects ordinary people.",
+        "Both are described as signs of having joined the Peace Corps.",
+        "Neither can make people feel like failures."
+      ],
+      "answer": 0,
+      "type": "逻辑关系",
+      "promptZh": "改变世界的压力与追求幸福的压力在此怎样比较？",
+      "optionsZh": [
+        "两者都可能造成情绪负担。",
+        "只有幸福压力才影响普通人。",
+        "两者都是加入和平队的标志。",
+        "两者都不会让人觉得自己失败。"
+      ],
+      "analyses": [
+        "A emotionally taxing, just like 直接作出这种类比。",
+        "B for the majority of us 和 Most of us 都说明普通人可能感到改变世界的压力。",
+        "C 未加入和平队是作者举的普通人例子，不是压力来源的加入资格。",
+        "D easy to feel like a failure 与此相反。"
+      ],
+      "evidence": [
+        {
+          "quote": "Pressure to make a difference in the world can be emotionally taxing, just like the pressure to be happy.",
+          "sentenceIds": [
+            "c03-s06-p033-03600-s003"
+          ],
+          "sources": [
+            {
+              "pdfPage": 33,
+              "block": 2,
+              "bbox": [
+                76.99,
+                360,
+                535.01,
+                628.02
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "taxing",
+          "meaning": "费力的；令人负担沉重的",
+          "context": "emotionally taxing 指情绪耗损，不是收税",
+          "example": "The long negotiation was emotionally taxing.",
+          "collocations": [
+            "emotionally taxing",
+            "a taxing task"
+          ]
+        }
+      ],
+      "translation": "与幸福陷阱一样，意义陷阱也有两个部分。首先，对我们多数既没有发明什么、也没参加过和平队的人来说，面对“成就伟大”的号召，很容易觉得自己失败。要给世界带来改变的压力，可能像追求幸福的压力一样，带来沉重的情绪负担。我们大多数人偶尔都会有这种感受。",
+      "support": "explicit",
+      "editorialStatus": "PDF 第 33–38 页逐题核对；固定连续原句；区分论述、文学人物与真实人物叙事，不将个案经历当作普遍因果",
+      "contentRevision": "question-review-2026-10-28-033",
+      "fingerprint": "33d221d1ca27820ec8bda1e3f93419de28630e1ed05f245331c82a6ea837e843"
+    },
+    {
+      "id": "qe-c03-0053",
+      "version": 2,
+      "family": "sentence-evidence",
+      "batchId": "evidence-009",
+      "parentQuestionId": "q-c03-043",
+      "chapterId": "c03",
+      "sectionId": "c03-s06",
+      "paragraphId": "c03-s06-p033-03600",
+      "readingUnitId": "c03-s06-p033-03600-r001-004",
+      "sentenceIds": [
+        "c03-s06-p033-03600-s001",
+        "c03-s06-p033-03600-s002",
+        "c03-s06-p033-03600-s003",
+        "c03-s06-p033-03600-s004"
+      ],
+      "passage": "Like the happiness trap, the meaning trap has two parts. First, for the majority of us who have not invented anything or participated in the Peace Corps, it is easy to feel like a failure in the face of the call to be great. Pressure to make a difference in the world can be emotionally taxing, just like the pressure to be happy. Most of us feel that way once in a while.",
+      "prompt": "What structure is announced for the meaning trap in this summary?",
+      "promptZh": "这段总结宣布意义陷阱有什么结构？",
+      "options": [
+        "Two parts, compared with the earlier happiness trap.",
+        "One part identical to every aspect of happiness.",
+        "Three unrelated experiments about life satisfaction.",
+        "No distinct components that can be discussed separately."
+      ],
+      "optionsZh": [
+        "两部分，并与先前的幸福陷阱比较。",
+        "一部分且与幸福每方面相同。",
+        "三个互不相关的生活满意度实验。",
+        "没有可分别讨论的组成部分。"
+      ],
+      "answer": 0,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A has two parts 明确给出数量，Like 承接前面概念作类比。",
+        "B 两部分不是一部分，类比也非完全同一。",
+        "C 不是 three，也不是实验计数。",
+        "D has two parts 已明确区分组成部分，不能说没有可分别讨论的部分。"
+      ],
+      "vocabulary": [
+        {
+          "word": "parts",
+          "meaning": "组成部分；方面",
+          "context": "two parts 是论证结构，不能当成两个独立实验或全部人生只有两条路。",
+          "example": "The explanation has two parts, each addressing a different difficulty.",
+          "collocations": [
+            "two parts of a trap",
+            "consist of two parts"
+          ]
+        }
+      ],
+      "translation": "与幸福陷阱一样，意义陷阱也有两个部分。首先，对我们多数既没有发明什么、也没参加过和平队的人来说，面对“成就伟大”的号召，很容易觉得自己失败。要给世界带来改变的压力，可能像追求幸福的压力一样，带来沉重的情绪负担。我们大多数人偶尔都会有这种感受。",
+      "evidenceTargetIds": [
+        "c03-s06-p033-03600-s001"
+      ],
+      "evidence": [
+        {
+          "quote": "Like the happiness trap, the meaning trap has two parts.",
+          "sentenceIds": [
+            "c03-s06-p033-03600-s001"
+          ],
+          "sources": [
+            {
+              "pdfPage": 33,
+              "block": 2,
+              "bbox": [
+                76.99,
+                360,
+                535.01,
+                628.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "contentRevision": "question-review-2026-10-28-033",
+      "fingerprint": "1ef95f622ec4e97de7dba904e5b59c7d6b9d71019784434617578202691df7dd"
+    },
+    {
+      "id": "qe-c03-0054",
+      "version": 2,
+      "family": "sentence-evidence",
+      "batchId": "evidence-009",
+      "parentQuestionId": "q-c03-043",
+      "chapterId": "c03",
+      "sectionId": "c03-s06",
+      "paragraphId": "c03-s06-p033-03600",
+      "readingUnitId": "c03-s06-p033-03600-r001-004",
+      "sentenceIds": [
+        "c03-s06-p033-03600-s001",
+        "c03-s06-p033-03600-s002",
+        "c03-s06-p033-03600-s003",
+        "c03-s06-p033-03600-s004"
+      ],
+      "passage": "Like the happiness trap, the meaning trap has two parts. First, for the majority of us who have not invented anything or participated in the Peace Corps, it is easy to feel like a failure in the face of the call to be great. Pressure to make a difference in the world can be emotionally taxing, just like the pressure to be happy. Most of us feel that way once in a while.",
+      "prompt": "What difficulty can the call to 'be great' create for ordinary people in this passage?",
+      "promptZh": "文中 be great 的号召可能给普通人造成什么困难？",
+      "options": [
+        "It makes joining the Peace Corps a stated requirement for a good life.",
+        "It establishes that ordinary people have objectively failed.",
+        "It says the pressure affects people constantly without exception.",
+        "It can make them feel like failures."
+      ],
+      "optionsZh": [
+        "它把参加和平队说成美好生活的明文条件。",
+        "它确认普通人在客观上已经失败。",
+        "它说压力无例外地时时刻刻影响人。",
+        "它可能让他们感到自己失败。"
+      ],
+      "answer": 3,
+      "type": "同义改写",
+      "support": "explicit",
+      "analyses": [
+        "A 未参加和平队是多数人的例子，不是本段为美好生活规定的明文资格。",
+        "B feel like a failure 是主观感受，不能改成已确认普通人客观失败。",
+        "C once in a while 保留偶尔的频率，不是 constantly without exception。",
+        "D easy to feel like a failure 直接支持面对号召时可能产生的失败感，不要求补入未明说的比较程序。"
+      ],
+      "vocabulary": [
+        {
+          "word": "in the face of",
+          "meaning": "面对；在……面前",
+          "context": "指面对伟大的号召，非字面上在某人面部前。",
+          "example": "The group remained patient in the face of repeated delays.",
+          "collocations": [
+            "in the face of a challenge",
+            "in the face of pressure"
+          ]
+        }
+      ],
+      "translation": "与幸福陷阱一样，意义陷阱也有两个部分。首先，对我们多数既没有发明什么、也没参加过和平队的人来说，面对“成就伟大”的号召，很容易觉得自己失败。要给世界带来改变的压力，可能像追求幸福的压力一样，带来沉重的情绪负担。我们大多数人偶尔都会有这种感受。",
+      "evidenceTargetIds": [
+        "c03-s06-p033-03600-s002"
+      ],
+      "evidence": [
+        {
+          "quote": "First, for the majority of us who have not invented anything or participated in the Peace Corps, it is easy to feel like a failure in the face of the call to be great.",
+          "sentenceIds": [
+            "c03-s06-p033-03600-s002"
+          ],
+          "sources": [
+            {
+              "pdfPage": 33,
+              "block": 2,
+              "bbox": [
+                76.99,
+                360,
+                535.01,
+                628.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "contentRevision": "question-review-2026-10-28-033",
+      "fingerprint": "90253de4ce11883fd01e0727f62e1db7b5d06a3ac300f68fca597ec98c991f1f"
+    },
+    {
+      "id": "qe-c03-0055",
+      "version": 2,
+      "family": "sentence-evidence",
+      "batchId": "evidence-009",
+      "parentQuestionId": "q-c03-043",
+      "chapterId": "c03",
+      "sectionId": "c03-s06",
+      "paragraphId": "c03-s06-p033-03600",
+      "readingUnitId": "c03-s06-p033-03600-r001-004",
+      "sentenceIds": [
+        "c03-s06-p033-03600-s001",
+        "c03-s06-p033-03600-s002",
+        "c03-s06-p033-03600-s003",
+        "c03-s06-p033-03600-s004"
+      ],
+      "passage": "Like the happiness trap, the meaning trap has two parts. First, for the majority of us who have not invented anything or participated in the Peace Corps, it is easy to feel like a failure in the face of the call to be great. Pressure to make a difference in the world can be emotionally taxing, just like the pressure to be happy. Most of us feel that way once in a while.",
+      "prompt": "How frequent is the feeling described by 'once in a while'?",
+      "promptZh": "once in a while 怎样限定这种感受的频率？",
+      "options": [
+        "Constantly, in every moment without exception.",
+        "Occasionally rather than all the time.",
+        "Only once in each person's entire life.",
+        "Never among the majority of people."
+      ],
+      "optionsZh": [
+        "无例外地时时刻刻。",
+        "偶尔，而非一直如此。",
+        "每人一生只能出现一次。",
+        "多数人中从不出现。"
+      ],
+      "answer": 1,
+      "type": "语境词义",
+      "support": "explicit",
+      "analyses": [
+        "A once in a while 不是 constantly。",
+        "B 这是偶尔之意，Most of us 另限定群体范围。",
+        "C 不是 once in a lifetime，不能换成一生仅一次。",
+        "D feel...once in a while 明示会偶尔有，非从无。结合前文，所说的是宏大目标压力带来的难受，不是人人长期处于同一情绪。"
+      ],
+      "vocabulary": [
+        {
+          "word": "once in a while",
+          "meaning": "偶尔；有时候",
+          "context": "频率短语，不能与始终、从不或一生一次混同。",
+          "example": "Once in a while, she rereads an old diary.",
+          "collocations": [
+            "once in a while",
+            "every once in a while"
+          ]
+        }
+      ],
+      "translation": "与幸福陷阱一样，意义陷阱也有两个部分。首先，对我们多数既没有发明什么、也没参加过和平队的人来说，面对“成就伟大”的号召，很容易觉得自己失败。要给世界带来改变的压力，可能像追求幸福的压力一样，带来沉重的情绪负担。我们大多数人偶尔都会有这种感受。",
+      "evidenceTargetIds": [
+        "c03-s06-p033-03600-s004"
+      ],
+      "evidence": [
+        {
+          "quote": "Like the happiness trap, the meaning trap has two parts. First, for the majority of us who have not invented anything or participated in the Peace Corps, it is easy to feel like a failure in the face of the call to be great. Pressure to make a difference in the world can be emotionally taxing, just like the pressure to be happy. Most of us feel that way once in a while.",
+          "sentenceIds": [
+            "c03-s06-p033-03600-s001",
+            "c03-s06-p033-03600-s002",
+            "c03-s06-p033-03600-s003",
+            "c03-s06-p033-03600-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 33,
+              "block": 2,
+              "bbox": [
+                76.99,
+                360,
+                535.01,
+                628.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "contentRevision": "question-review-2026-10-28-033",
+      "fingerprint": "8d30e68940c1cfbf85f823fa891c5593a4e83607b339d5c88930a4821ce33438"
     }
   ]
 }
