@@ -1,0 +1,943 @@
+{
+  "schemaVersion": 1,
+  "batchId": "question-review-2026-10-28-033",
+  "sourceCommit": "8a824f477e3559671deeb498f6753392d3f70658",
+  "pdfSha256": "be25c859f1bd894a4b0d1cff024ded1297f6a96a8e8ddabea1e3abcf89160a50",
+  "frozenAt": "2026-10-28T23:20:40.039Z",
+  "questions": [
+    {
+      "id": "qe-c03-0047",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-009",
+      "parentQuestionId": "q-c03-037",
+      "chapterId": "c03",
+      "sectionId": "c03-s05",
+      "paragraphId": "c03-s05-p032-02820",
+      "readingUnitId": "c03-s05-p032-02820-r005-008",
+      "sentenceIds": [
+        "c03-s05-p032-02820-s005",
+        "c03-s05-p032-02820-s006",
+        "c03-s05-p032-02820-s007",
+        "c03-s05-p032-02820-s008"
+      ],
+      "passage": "He gets assigned to a prison housing mostly those suspected of terrorism. He abuses these suspected terrorists, as in the infamous prison abuse case at Abu Ghraib. Mason thinks he is leading a meaningful life because he is making a difference in the world by protecting the American people. But is this a good life?",
+      "prompt": "How are most people housed in the prison described in the hypothetical case?",
+      "promptZh": "假设案例中的监狱多数在押人员被怎样描述？",
+      "options": [
+        "As people all convicted of exactly the same offence.",
+        "As people suspected of terrorism.",
+        "As officers volunteering to work there.",
+        "As a representative sample of all American citizens."
+      ],
+      "optionsZh": [
+        "全部已被判定犯有同一罪行的人。",
+        "涉嫌恐怖主义的人。",
+        "自愿去工作的官员。",
+        "全体美国公民的代表性样本。"
+      ],
+      "answer": 1,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A suspected 不等于 convicted，mostly 也不是 all。",
+        "B housing mostly those suspected of terrorism 保留主要群体与涉嫌的性质。",
+        "C housing 的对象是被关押者，不是官员雇员。",
+        "D 假设案例没有随机代表性样本。不得将涉嫌直接改成已定罪。"
+      ],
+      "vocabulary": [
+        {
+          "word": "suspected",
+          "meaning": "被怀疑；涉嫌",
+          "context": "suspected of 与法律上已被定罪不同，本题只是核对原句限定。",
+          "example": "The report described a suspected error that still required checking.",
+          "collocations": [
+            "be suspected of",
+            "those suspected of an offence"
+          ]
+        }
+      ],
+      "translation": "他被派往一座主要关押涉嫌恐怖主义者的监狱。他虐待这些嫌疑人，就像臭名昭著的阿布格莱布监狱虐囚事件那样。Mason 认为自己在保护美国人民、给世界带来影响，因此过着有意义的生活。但这算美好生活吗？",
+      "evidenceTargetIds": [
+        "c03-s05-p032-02820-s005"
+      ],
+      "evidence": [
+        {
+          "quote": "He gets assigned to a prison housing mostly those suspected of terrorism.",
+          "sentenceIds": [
+            "c03-s05-p032-02820-s005"
+          ],
+          "sources": [
+            {
+              "pdfPage": 32,
+              "block": 2,
+              "bbox": [
+                76.99,
+                282,
+                535.01,
+                452.52
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "69a56eef8728ffd5cd14b6b1c53a93b4dc4f0dfb669f69e3bcab2264c49a6236"
+    },
+    {
+      "id": "q-c03-038",
+      "version": 1,
+      "readingUnitId": "c03-s05-p032-02820-r009-009",
+      "chapterId": "c03",
+      "sectionId": "c03-s05",
+      "paragraphId": "c03-s05-p032-02820",
+      "sentenceIds": [
+        "c03-s05-p032-02820-s009"
+      ],
+      "passage": "In this case, it may be subjectively meaningful, but objectively not so good.",
+      "prompt": "What distinction is made in this sentence?",
+      "options": [
+        "Subjective meaning and objective goodness are guaranteed to coincide.",
+        "Objective goodness is irrelevant whenever a person feels purpose.",
+        "The case proves that every meaningful life is morally bad.",
+        "A life may feel meaningful to its holder while not being objectively good."
+      ],
+      "answer": 3,
+      "type": "逻辑关系",
+      "promptZh": "这句话作了什么区分？",
+      "optionsZh": [
+        "主观意义与客观上的好必然一致。",
+        "只要感到有目的，客观上的好就无关紧要。",
+        "这个案例证明所有有意义生活在道德上都坏。",
+        "一个人可能主观觉得有意义，生活却在客观上并不好。"
+      ],
+      "analyses": [
+        "A but 表明两者在本例中可能分离。",
+        "B 原句仍以 objectively not so good 进行评价，并未取消其重要性。",
+        "C In this case 和 may 都限制范围，不能扩为所有生活。",
+        "D 正确保留主观与客观的对照，以及 may 的可能性。"
+      ],
+      "evidence": [
+        {
+          "quote": "In this case, it may be subjectively meaningful, but objectively not so good.",
+          "sentenceIds": [
+            "c03-s05-p032-02820-s009"
+          ],
+          "sources": [
+            {
+              "pdfPage": 32,
+              "block": 2,
+              "bbox": [
+                76.99,
+                282,
+                535.01,
+                452.52
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "subjectively",
+          "meaning": "主观地",
+          "context": "指当事人的感受角度，与 objectively 的评价角度对照",
+          "example": "The task felt subjectively difficult despite a simple scoring system.",
+          "collocations": [
+            "subjectively meaningful",
+            "subjectively experienced"
+          ]
+        }
+      ],
+      "translation": "在这个案例中，这种生活可能主观上有意义，但客观上并不那么好。",
+      "support": "explicit",
+      "editorialStatus": "PDF 第 25–32 页逐题核对；固定连续原句；区分文学引述、自报、相关和假设，不扩大个体或因果结论",
+      "fingerprint": "352a34472c380ecb227ffcdb3544c2a1634bd0c353f675a33aefc00a7d9ceedf"
+    },
+    {
+      "id": "qe-c03-0048",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-009",
+      "parentQuestionId": "q-c03-039",
+      "chapterId": "c03",
+      "sectionId": "c03-s05",
+      "paragraphId": "c03-s05-p032-04575",
+      "readingUnitId": "c03-s05-p032-04575-r001-004",
+      "sentenceIds": [
+        "c03-s05-p032-04575-s001",
+        "c03-s05-p032-04575-s002",
+        "c03-s05-p032-04575-s003",
+        "c03-s05-p032-04575-s004"
+      ],
+      "passage": "So far, the case of Mason, the military prison officer, is merely hypothetical. Is there any scientific evidence for this phenomenon of misplaced meaning in life? Recent studies have found that meaning in life is associated with right-wing authoritarianism, a belief system defined as uncritical submission to authority, feelings of aggression toward those who violate social norms, and strict adherence to conventional values. That is, right-wing authoritarians reported higher levels of meaning in life than non-authoritarians.",
+      "prompt": "What status does the author explicitly give Mason's case?",
+      "promptZh": "作者明确给梅森案例什么性质？",
+      "options": [
+        "A confirmed biography of a named historical officer.",
+        "A randomised experimental result.",
+        "A merely hypothetical example so far.",
+        "An independently verified account of every prison officer."
+      ],
+      "optionsZh": [
+        "某位具名历史官员的已核实传记。",
+        "随机实验结果。",
+        "到此为止只是一个假设例子。",
+        "对所有狱警的独立核实叙述。"
+      ],
+      "answer": 2,
+      "type": "观点归属",
+      "support": "explicit",
+      "analyses": [
+        "A merely hypothetical 与核实传记不符。",
+        "B 没有实验分组和实际结果。",
+        "C So far、merely hypothetical 明确限定当前案例的地位。",
+        "D 假设个案不能外推成所有官员的事实，亦不因提及真实历史事件而变成已核实的 Mason 传记。"
+      ],
+      "vocabulary": [
+        {
+          "word": "hypothetical",
+          "meaning": "假设的；设想的",
+          "context": "用于说明案例是思考工具，不是作者已经收集的个体事实或实验结果。",
+          "example": "The teacher used a hypothetical example to explain the distinction.",
+          "collocations": [
+            "a hypothetical case",
+            "merely hypothetical"
+          ]
+        }
+      ],
+      "translation": "到目前为止，军事监狱警官 Mason 的例子仅仅是假设。对于这种生命意义错置的现象，有科学证据吗？近期研究发现，生命意义与右翼威权主义相关；这种信念体系被界定为：不加批判地服从权威、对违反社会规范者抱有攻击情绪，以及严格遵从传统价值观。也就是说，右翼威权主义者自报的生命意义水平高于非威权主义者。",
+      "evidenceTargetIds": [
+        "c03-s05-p032-04575-s001"
+      ],
+      "evidence": [
+        {
+          "quote": "So far, the case of Mason, the military prison officer, is merely hypothetical.",
+          "sentenceIds": [
+            "c03-s05-p032-04575-s001"
+          ],
+          "sources": [
+            {
+              "pdfPage": 32,
+              "block": 3,
+              "bbox": [
+                76.99,
+                457.5,
+                535.01,
+                686.52
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "cff8860196d225bcfb7d51498dbf07cebdc8e0158fb4e788ab2c40fc128f3b1e"
+    },
+    {
+      "id": "qe-c03-0049",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-009",
+      "parentQuestionId": "q-c03-039",
+      "chapterId": "c03",
+      "sectionId": "c03-s05",
+      "paragraphId": "c03-s05-p032-04575",
+      "readingUnitId": "c03-s05-p032-04575-r001-004",
+      "sentenceIds": [
+        "c03-s05-p032-04575-s001",
+        "c03-s05-p032-04575-s002",
+        "c03-s05-p032-04575-s003",
+        "c03-s05-p032-04575-s004"
+      ],
+      "passage": "So far, the case of Mason, the military prison officer, is merely hypothetical. Is there any scientific evidence for this phenomenon of misplaced meaning in life? Recent studies have found that meaning in life is associated with right-wing authoritarianism, a belief system defined as uncritical submission to authority, feelings of aggression toward those who violate social norms, and strict adherence to conventional values. That is, right-wing authoritarians reported higher levels of meaning in life than non-authoritarians.",
+      "prompt": "Why does the author ask whether there is scientific evidence for misplaced meaning?",
+      "promptZh": "作者为什么追问错置意义感是否有科学证据？",
+      "options": [
+        "To move from a hypothetical example toward research evidence.",
+        "To announce that the hypothetical case already proves all later claims.",
+        "To replace research with another unmarked fictional biography.",
+        "To imply that all meaningful people must be authoritarians."
+      ],
+      "optionsZh": [
+        "从假设例子转向研究证据。",
+        "宣布假设案例已经证明全部后续主张。",
+        "用另一个未标示的虚构传记取代研究。",
+        "暗示所有有意义感的人必是威权主义者。"
+      ],
+      "answer": 0,
+      "type": "作者意图",
+      "support": "explicit",
+      "analyses": [
+        "A 前句说案例仅是假设，问句提出科学证据的需要，随后转述研究。",
+        "B 追问证据恰说明假设本身不是充分证明。",
+        "C scientific evidence 不是以未标示虚构代替研究。",
+        "D 研究中的关联不能换成所有人的身份断定，更不能改写成个体因果。"
+      ],
+      "vocabulary": [
+        {
+          "word": "misplaced",
+          "meaning": "错置的；置于不恰当方向的",
+          "context": "misplaced meaning 指主观有意义但可能指向不良目标的问题，不是意义不存在。",
+          "example": "The story explores the consequences of misplaced confidence.",
+          "collocations": [
+            "misplaced meaning",
+            "misplaced trust"
+          ]
+        }
+      ],
+      "translation": "到目前为止，军事监狱警官 Mason 的例子仅仅是假设。对于这种生命意义错置的现象，有科学证据吗？近期研究发现，生命意义与右翼威权主义相关；这种信念体系被界定为：不加批判地服从权威、对违反社会规范者抱有攻击情绪，以及严格遵从传统价值观。也就是说，右翼威权主义者自报的生命意义水平高于非威权主义者。",
+      "evidenceTargetIds": [
+        "c03-s05-p032-04575-s002"
+      ],
+      "evidence": [
+        {
+          "quote": "So far, the case of Mason, the military prison officer, is merely hypothetical. Is there any scientific evidence for this phenomenon of misplaced meaning in life?",
+          "sentenceIds": [
+            "c03-s05-p032-04575-s001",
+            "c03-s05-p032-04575-s002"
+          ],
+          "sources": [
+            {
+              "pdfPage": 32,
+              "block": 3,
+              "bbox": [
+                76.99,
+                457.5,
+                535.01,
+                686.52
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "a15f0c940085fb4ceaccf10e5930ea40f11225c8a5324b2f7e2579a1026e4c1c"
+    },
+    {
+      "id": "qe-c03-0050",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-009",
+      "parentQuestionId": "q-c03-040",
+      "chapterId": "c03",
+      "sectionId": "c03-s05",
+      "paragraphId": "c03-s05-p032-04575",
+      "readingUnitId": "c03-s05-p032-04575-r005-007",
+      "sentenceIds": [
+        "c03-s05-p032-04575-s005",
+        "c03-s05-p032-04575-s006",
+        "c03-s05-p032-04575-s007"
+      ],
+      "passage": "They do plenty of civic work, in their way. But their cause might be very narrow, and potentially antagonistic toward those they consider outsiders. Likewise, multiple studies have found that political conservatives (who are known to draw a sharp line between ingroups and outgroups) report higher levels of meaning in life as well as happiness than political liberals.",
+      "prompt": "What does the qualification 'in their way' suggest about the civic work described?",
+      "promptZh": "描述公民事务活动时，in their way 有什么限定作用？",
+      "options": [
+        "It proves their activity benefits every group equally.",
+        "It says they never participate in civic activities.",
+        "It excludes the possibility of any narrow cause.",
+        "It notes civic activity while leaving room to question its particular form or scope."
+      ],
+      "optionsZh": [
+        "证明活动同样惠及每个群体。",
+        "说他们从不参与公民事务。",
+        "排除事业狭隘的可能。",
+        "承认参与公民活动，同时保留对方式或范围的审视。"
+      ],
+      "answer": 3,
+      "type": "有限推断",
+      "support": "limited-inference",
+      "analyses": [
+        "A 后句指出可能狭隘及排斥外人，不能说普惠已获证明。",
+        "B do plenty 与从不相反。",
+        "C 后句 might be very narrow 明确允许这种可能。",
+        "D in their way 与后面的 But 一起构成带保留的承认，不把活动数量直接等同广泛道德益处。"
+      ],
+      "vocabulary": [
+        {
+          "word": "civic",
+          "meaning": "公民的；公共事务的",
+          "context": "civic work 的存在和数量并不自动说明受益范围宽广。",
+          "example": "Students took part in a civic project to improve the neighbourhood.",
+          "collocations": [
+            "civic work",
+            "civic participation"
+          ]
+        }
+      ],
+      "translation": "他们也以自己的方式做不少公民事务工作。但他们的事业目标可能非常狭窄，并可能敌视那些被他们视为外人的人。同样，多项研究发现，政治保守派（通常被认为对内群体和外群体划界分明）自报的生命意义和幸福水平均高于政治自由派。",
+      "evidenceTargetIds": [
+        "c03-s05-p032-04575-s005"
+      ],
+      "evidence": [
+        {
+          "quote": "They do plenty of civic work, in their way. But their cause might be very narrow, and potentially antagonistic toward those they consider outsiders.",
+          "sentenceIds": [
+            "c03-s05-p032-04575-s005",
+            "c03-s05-p032-04575-s006"
+          ],
+          "sources": [
+            {
+              "pdfPage": 32,
+              "block": 3,
+              "bbox": [
+                76.99,
+                457.5,
+                535.01,
+                686.52
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "267e3652e61315a4835244c77d4278882aedf74dc05a7ff23c717911ffe30a3d"
+    },
+    {
+      "id": "qe-c03-0051",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-009",
+      "parentQuestionId": "q-c03-041",
+      "chapterId": "c03",
+      "sectionId": "c03-s05",
+      "paragraphId": "c03-s05-p033-00750",
+      "readingUnitId": "c03-s05-p033-00750-r001-003",
+      "sentenceIds": [
+        "c03-s05-p033-00750-s001",
+        "c03-s05-p033-00750-s002",
+        "c03-s05-p033-00750-s003"
+      ],
+      "passage": "Or consider the ultimate antisocial behavior, terrorism. The criminologist Simon Cottee argues that one of the main reasons people join terrorist organizations is the desire for ultimate meaning: “Terrorist groups provide an important source of identity and purpose for their members, and…this may well be part of what motivates people to join them. Not only does the terrorist organization furnish its recruits with an all-embracing narrative for understanding the world and how it works…it also supplies them with a narrative for understanding their own place in this wider world.",
+      "prompt": "How does the author label terrorism when introducing this example?",
+      "promptZh": "作者引入恐怖主义例子时给它什么评价？",
+      "options": [
+        "As an ordinary form of harmless disagreement.",
+        "As the ultimate antisocial behaviour.",
+        "As a personality test used in every survey.",
+        "As a recommended civic duty."
+      ],
+      "optionsZh": [
+        "普通且无害的意见分歧。",
+        "极端的反社会行为。",
+        "每项调查都用的人格测试。",
+        "值得提倡的公民义务。"
+      ],
+      "answer": 1,
+      "type": "观点归属",
+      "support": "explicit",
+      "analyses": [
+        "A ultimate antisocial behavior 不是无害分歧。",
+        "B 这是原句对行为的明确负面定性，后面分析意义追求可能错置的机制。",
+        "C 没有把行为当测验名称。",
+        "D 作者没有赞成或号召该行为，不能把分析其吸引力改为提倡。"
+      ],
+      "vocabulary": [
+        {
+          "word": "antisocial",
+          "meaning": "反社会的；有害于他人或社会的",
+          "context": "在此指严重伤害社会的行为，不是仅不爱社交或内向。",
+          "example": "The policy aims to reduce antisocial behaviour in public spaces.",
+          "collocations": [
+            "antisocial behaviour",
+            "antisocial acts"
+          ]
+        }
+      ],
+      "translation": "或者，看看极端的反社会行为——恐怖主义。犯罪学家 Simon Cottee 认为，人们加入恐怖组织的主要原因之一，是对终极意义的渴望：“恐怖组织为成员提供重要的身份与目的来源，而这很可能是促使人们加入的部分原因。恐怖组织不仅为新成员提供包罗万象的叙事，来理解世界及其运作……还提供一种叙事，来理解自己在这个更广阔世界中的位置。",
+      "evidenceTargetIds": [
+        "c03-s05-p033-00750-s001"
+      ],
+      "evidence": [
+        {
+          "quote": "Or consider the ultimate antisocial behavior, terrorism.",
+          "sentenceIds": [
+            "c03-s05-p033-00750-s001"
+          ],
+          "sources": [
+            {
+              "pdfPage": 33,
+              "block": 0,
+              "bbox": [
+                76.99,
+                75,
+                535.01,
+                304.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "28a570f75c682767e96621bd1c182e1f87f078c7bccc13e6eb8579b719bc290f"
+    },
+    {
+      "id": "qe-c03-0052",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-009",
+      "parentQuestionId": "q-c03-042",
+      "chapterId": "c03",
+      "sectionId": "c03-s05",
+      "paragraphId": "c03-s05-p033-00750",
+      "readingUnitId": "c03-s05-p033-00750-r004-005",
+      "sentenceIds": [
+        "c03-s05-p033-00750-s004",
+        "c03-s05-p033-00750-s005"
+      ],
+      "passage": "From within this narrative, the fundamental existential questions in life are given a bracingly decisive answer.” These recent findings, then, suggest that many people’s meaningful lives could be built on a narrow sense of ingroup favoritism and tradition at the cost of outgroup members.",
+      "prompt": "What does 'decisive' convey about the answers supplied from within the narrative?",
+      "promptZh": "decisive 怎样描述该叙事内部提供的答案？",
+      "options": [
+        "They are hesitant and deliberately left unanswered.",
+        "They are independently proven correct by the quotation itself.",
+        "They are presented as firm and definite.",
+        "They concern only small practical details rather than existential questions."
+      ],
+      "optionsZh": [
+        "它们犹豫且刻意不回答。",
+        "引语自身已独立证明答案正确。",
+        "它们被呈现为明确而确定。",
+        "它们只关乎小细节而非存在性问题。"
+      ],
+      "answer": 2,
+      "type": "语境词义",
+      "support": "explicit",
+      "analyses": [
+        "A decisive 与犹疑未决相反。",
+        "B 确定语气不等于外部验证正确，也不表示作者认同。",
+        "C bracingly decisive 描述叙事给存在性问题提供确定答案的感觉。",
+        "D fundamental existential questions 明示问题层面。此为批判性讨论中的引述，不能当作认可其叙事。"
+      ],
+      "vocabulary": [
+        {
+          "word": "decisive",
+          "meaning": "明确而果断的；确定的",
+          "context": "修饰 narrative 内部答案的呈现力度，不能替换成正确、合理或已获证明。",
+          "example": "The reviewer wanted a decisive answer, but the evidence remained uncertain.",
+          "collocations": [
+            "a decisive answer",
+            "sound decisive"
+          ]
+        }
+      ],
+      "translation": "“在这种叙事内部，人生根本的存在性问题得到了令人振奋、斩钉截铁的回答。”因此，这些近期发现提示，许多人有意义的生活，可能建立在狭隘的内群体偏爱与传统之上，却以外群体成员为代价。",
+      "evidenceTargetIds": [
+        "c03-s05-p033-00750-s004"
+      ],
+      "evidence": [
+        {
+          "quote": "From within this narrative, the fundamental existential questions in life are given a bracingly decisive answer.”",
+          "sentenceIds": [
+            "c03-s05-p033-00750-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 33,
+              "block": 0,
+              "bbox": [
+                76.99,
+                75,
+                535.01,
+                304.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "d0f39fc702eee9849553ea9078f34e256d2fd5023f736e14a30fd34a5cda4f29"
+    },
+    {
+      "id": "q-c03-043",
+      "version": 1,
+      "readingUnitId": "c03-s06-p033-03600-r001-004",
+      "chapterId": "c03",
+      "sectionId": "c03-s06",
+      "paragraphId": "c03-s06-p033-03600",
+      "sentenceIds": [
+        "c03-s06-p033-03600-s001",
+        "c03-s06-p033-03600-s002",
+        "c03-s06-p033-03600-s003",
+        "c03-s06-p033-03600-s004"
+      ],
+      "passage": "Like the happiness trap, the meaning trap has two parts. First, for the majority of us who have not invented anything or participated in the Peace Corps, it is easy to feel like a failure in the face of the call to be great. Pressure to make a difference in the world can be emotionally taxing, just like the pressure to be happy. Most of us feel that way once in a while.",
+      "prompt": "How is pressure to make a difference compared with pressure to be happy?",
+      "options": [
+        "Both can impose an emotional burden.",
+        "Only the pressure to be happy affects ordinary people.",
+        "Both are described as signs of having joined the Peace Corps.",
+        "Neither can make people feel like failures."
+      ],
+      "answer": 0,
+      "type": "逻辑关系",
+      "promptZh": "改变世界的压力与追求幸福的压力在此怎样比较？",
+      "optionsZh": [
+        "两者都可能造成情绪负担。",
+        "只有幸福压力才影响普通人。",
+        "两者都是加入和平队的标志。",
+        "两者都不会让人觉得自己失败。"
+      ],
+      "analyses": [
+        "A emotionally taxing, just like 直接作出这种类比。",
+        "B for the majority of us 和 Most of us 都说明普通人可能感到改变世界的压力。",
+        "C 未加入和平队是作者举的普通人例子，不是压力来源的加入资格。",
+        "D easy to feel like a failure 与此相反。"
+      ],
+      "evidence": [
+        {
+          "quote": "Pressure to make a difference in the world can be emotionally taxing, just like the pressure to be happy.",
+          "sentenceIds": [
+            "c03-s06-p033-03600-s003"
+          ],
+          "sources": [
+            {
+              "pdfPage": 33,
+              "block": 2,
+              "bbox": [
+                76.99,
+                360,
+                535.01,
+                628.02
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "taxing",
+          "meaning": "费力的；令人负担沉重的",
+          "context": "emotionally taxing 指情绪耗损，不是收税",
+          "example": "The long negotiation was emotionally taxing.",
+          "collocations": [
+            "emotionally taxing",
+            "a taxing task"
+          ]
+        }
+      ],
+      "translation": "与幸福陷阱一样，意义陷阱也有两个部分。首先，对我们多数既没有发明什么、也没参加过和平队的人来说，面对“成就伟大”的号召，很容易觉得自己失败。要给世界带来改变的压力，可能像追求幸福的压力一样令人情绪耗竭。我们大多数人偶尔都会有这种感受。",
+      "support": "explicit",
+      "editorialStatus": "PDF 第 33–38 页逐题核对；固定连续原句；区分论述、文学人物与真实人物叙事，不将个案经历当作普遍因果",
+      "fingerprint": "73ad9d347aedbd5fc1b152d6646f0ef5ce997418769f2faeda82a85f95455fa1"
+    },
+    {
+      "id": "qe-c03-0053",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-009",
+      "parentQuestionId": "q-c03-043",
+      "chapterId": "c03",
+      "sectionId": "c03-s06",
+      "paragraphId": "c03-s06-p033-03600",
+      "readingUnitId": "c03-s06-p033-03600-r001-004",
+      "sentenceIds": [
+        "c03-s06-p033-03600-s001",
+        "c03-s06-p033-03600-s002",
+        "c03-s06-p033-03600-s003",
+        "c03-s06-p033-03600-s004"
+      ],
+      "passage": "Like the happiness trap, the meaning trap has two parts. First, for the majority of us who have not invented anything or participated in the Peace Corps, it is easy to feel like a failure in the face of the call to be great. Pressure to make a difference in the world can be emotionally taxing, just like the pressure to be happy. Most of us feel that way once in a while.",
+      "prompt": "What structure is announced for the meaning trap in this summary?",
+      "promptZh": "这段总结宣布意义陷阱有什么结构？",
+      "options": [
+        "Two parts, compared with the earlier happiness trap.",
+        "One part identical to every aspect of happiness.",
+        "Three unrelated experiments about life satisfaction.",
+        "No distinct components that can be discussed separately."
+      ],
+      "optionsZh": [
+        "两部分，并与先前的幸福陷阱比较。",
+        "一部分且与幸福每方面相同。",
+        "三个互不相关的生活满意度实验。",
+        "没有可分别讨论的组成部分。"
+      ],
+      "answer": 0,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A has two parts 明确给出数量，Like 承接前面概念作类比。",
+        "B 两部分不是一部分，类比也非完全同一。",
+        "C 不是 three，也不是实验计数。",
+        "D 两部分随后分述，不能说无可区分。"
+      ],
+      "vocabulary": [
+        {
+          "word": "parts",
+          "meaning": "组成部分；方面",
+          "context": "two parts 是论证结构，不能当成两个独立实验或全部人生只有两条路。",
+          "example": "The explanation has two parts, each addressing a different difficulty.",
+          "collocations": [
+            "two parts of a trap",
+            "consist of two parts"
+          ]
+        }
+      ],
+      "translation": "与幸福陷阱一样，意义陷阱也有两个部分。首先，对我们多数既没有发明什么、也没参加过和平队的人来说，面对“成就伟大”的号召，很容易觉得自己失败。要给世界带来改变的压力，可能像追求幸福的压力一样令人情绪耗竭。我们大多数人偶尔都会有这种感受。",
+      "evidenceTargetIds": [
+        "c03-s06-p033-03600-s001"
+      ],
+      "evidence": [
+        {
+          "quote": "Like the happiness trap, the meaning trap has two parts.",
+          "sentenceIds": [
+            "c03-s06-p033-03600-s001"
+          ],
+          "sources": [
+            {
+              "pdfPage": 33,
+              "block": 2,
+              "bbox": [
+                76.99,
+                360,
+                535.01,
+                628.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "41aab2ffbe48b2cff0c491d2e6c62cee2be9fb364b913e07b2585cffc036ba03"
+    },
+    {
+      "id": "qe-c03-0054",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-009",
+      "parentQuestionId": "q-c03-043",
+      "chapterId": "c03",
+      "sectionId": "c03-s06",
+      "paragraphId": "c03-s06-p033-03600",
+      "readingUnitId": "c03-s06-p033-03600-r001-004",
+      "sentenceIds": [
+        "c03-s06-p033-03600-s001",
+        "c03-s06-p033-03600-s002",
+        "c03-s06-p033-03600-s003",
+        "c03-s06-p033-03600-s004"
+      ],
+      "passage": "Like the happiness trap, the meaning trap has two parts. First, for the majority of us who have not invented anything or participated in the Peace Corps, it is easy to feel like a failure in the face of the call to be great. Pressure to make a difference in the world can be emotionally taxing, just like the pressure to be happy. Most of us feel that way once in a while.",
+      "prompt": "What difficulty can the call to 'be great' create for ordinary people in this passage?",
+      "promptZh": "文中 be great 的号召可能给普通人造成什么困难？",
+      "options": [
+        "It guarantees they will invent something immediately.",
+        "It proves that volunteering locally has no value.",
+        "It makes meaningful life easy for every listener.",
+        "It can make them feel like failures when they compare themselves with exceptional accomplishments."
+      ],
+      "optionsZh": [
+        "保证他们立即作出发明。",
+        "证明社区志愿服务没有价值。",
+        "让每位听众轻松获得意义人生。",
+        "在与杰出成就比较时容易感到自己失败。"
+      ],
+      "answer": 3,
+      "type": "同义改写",
+      "support": "explicit",
+      "analyses": [
+        "A 未有立即发明的保证。",
+        "B 例子说没作发明或参加和平队时易自感失败，不是否定社区价值。",
+        "C 与 easy to feel like a failure 的方向相反。",
+        "D 保留面对宏大号召时可能产生的失败感，是情绪压力而非判定普通人客观失败。"
+      ],
+      "vocabulary": [
+        {
+          "word": "in the face of",
+          "meaning": "面对；在……面前",
+          "context": "指面对伟大的号召，非字面上在某人面部前。",
+          "example": "The group remained patient in the face of repeated delays.",
+          "collocations": [
+            "in the face of a challenge",
+            "in the face of pressure"
+          ]
+        }
+      ],
+      "translation": "与幸福陷阱一样，意义陷阱也有两个部分。首先，对我们多数既没有发明什么、也没参加过和平队的人来说，面对“成就伟大”的号召，很容易觉得自己失败。要给世界带来改变的压力，可能像追求幸福的压力一样令人情绪耗竭。我们大多数人偶尔都会有这种感受。",
+      "evidenceTargetIds": [
+        "c03-s06-p033-03600-s002"
+      ],
+      "evidence": [
+        {
+          "quote": "First, for the majority of us who have not invented anything or participated in the Peace Corps, it is easy to feel like a failure in the face of the call to be great.",
+          "sentenceIds": [
+            "c03-s06-p033-03600-s002"
+          ],
+          "sources": [
+            {
+              "pdfPage": 33,
+              "block": 2,
+              "bbox": [
+                76.99,
+                360,
+                535.01,
+                628.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "b1488b059173bd1798981367fa95ca3a820afd639e532ea5d43792f517ea36b2"
+    },
+    {
+      "id": "qe-c03-0055",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-009",
+      "parentQuestionId": "q-c03-043",
+      "chapterId": "c03",
+      "sectionId": "c03-s06",
+      "paragraphId": "c03-s06-p033-03600",
+      "readingUnitId": "c03-s06-p033-03600-r001-004",
+      "sentenceIds": [
+        "c03-s06-p033-03600-s001",
+        "c03-s06-p033-03600-s002",
+        "c03-s06-p033-03600-s003",
+        "c03-s06-p033-03600-s004"
+      ],
+      "passage": "Like the happiness trap, the meaning trap has two parts. First, for the majority of us who have not invented anything or participated in the Peace Corps, it is easy to feel like a failure in the face of the call to be great. Pressure to make a difference in the world can be emotionally taxing, just like the pressure to be happy. Most of us feel that way once in a while.",
+      "prompt": "How frequent is the feeling described by 'once in a while'?",
+      "promptZh": "once in a while 怎样限定这种感受的频率？",
+      "options": [
+        "Constantly, in every moment without exception.",
+        "Occasionally rather than all the time.",
+        "Only once in each person's entire life.",
+        "Never among the majority of people."
+      ],
+      "optionsZh": [
+        "无例外地时时刻刻。",
+        "偶尔，而非一直如此。",
+        "每人一生只能出现一次。",
+        "多数人中从不出现。"
+      ],
+      "answer": 1,
+      "type": "语境词义",
+      "support": "explicit",
+      "analyses": [
+        "A once in a while 不是 constantly。",
+        "B 这是偶尔之意，Most of us 另限定群体范围。",
+        "C 不是 once in a lifetime，不能换成一生仅一次。",
+        "D feel...once in a while 明示会偶尔有，非从无。结合前文，所说的是宏大目标压力带来的难受，不是人人长期处于同一情绪。"
+      ],
+      "vocabulary": [
+        {
+          "word": "once in a while",
+          "meaning": "偶尔；有时候",
+          "context": "频率短语，不能与始终、从不或一生一次混同。",
+          "example": "Once in a while, she rereads an old diary.",
+          "collocations": [
+            "once in a while",
+            "every once in a while"
+          ]
+        }
+      ],
+      "translation": "与幸福陷阱一样，意义陷阱也有两个部分。首先，对我们多数既没有发明什么、也没参加过和平队的人来说，面对“成就伟大”的号召，很容易觉得自己失败。要给世界带来改变的压力，可能像追求幸福的压力一样令人情绪耗竭。我们大多数人偶尔都会有这种感受。",
+      "evidenceTargetIds": [
+        "c03-s06-p033-03600-s004"
+      ],
+      "evidence": [
+        {
+          "quote": "Like the happiness trap, the meaning trap has two parts. First, for the majority of us who have not invented anything or participated in the Peace Corps, it is easy to feel like a failure in the face of the call to be great. Pressure to make a difference in the world can be emotionally taxing, just like the pressure to be happy. Most of us feel that way once in a while.",
+          "sentenceIds": [
+            "c03-s06-p033-03600-s001",
+            "c03-s06-p033-03600-s002",
+            "c03-s06-p033-03600-s003",
+            "c03-s06-p033-03600-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 33,
+              "block": 2,
+              "bbox": [
+                76.99,
+                360,
+                535.01,
+                628.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "ec5ead577b026abdef6290fe87190d928b186b1d731bd7a3e19d015802e8b613"
+    },
+    {
+      "id": "qe-c03-0056",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-009",
+      "parentQuestionId": "q-c03-044",
+      "chapterId": "c03",
+      "sectionId": "c03-s06",
+      "paragraphId": "c03-s06-p033-03600",
+      "readingUnitId": "c03-s06-p033-03600-r005-008",
+      "sentenceIds": [
+        "c03-s06-p033-03600-s005",
+        "c03-s06-p033-03600-s006",
+        "c03-s06-p033-03600-s007",
+        "c03-s06-p033-03600-s008"
+      ],
+      "passage": "If you feel like you haven’t made any meaningful difference in the world, consider that you could achieve meaning through devotion to a certain cause, starting out small in your neighborhood. Take your time, and you will make a difference in the long run. The second part of the meaning trap is that the pursuit of a meaningful life can promote a narrow viewpoint. As research shows, meaning in life is sometimes attained through prosocial behaviors toward a small ingroup, and antisocial behaviors or apathy toward outgroups.",
+      "prompt": "What limitation does the author place on how meaning can sometimes be attained?",
+      "promptZh": "作者对有时获得意义感的方式提出什么限制性观察？",
+      "options": [
+        "Meaning always benefits all groups equally.",
+        "Prosocial action toward one's own group necessarily eliminates indifference to outsiders.",
+        "Meaning may involve helping a small ingroup while harming or ignoring outgroups.",
+        "Every person with a meaningful life must engage in antisocial behaviour."
+      ],
+      "optionsZh": [
+        "意义感永远同样惠及所有群体。",
+        "帮助本群体必然消除对外群体的冷漠。",
+        "可能在帮助小型内群体的同时伤害或忽视外群体。",
+        "每个有意义感的人都必须从事反社会行为。"
+      ],
+      "answer": 2,
+      "type": "逻辑关系",
+      "support": "explicit",
+      "analyses": [
+        "A toward a small ingroup 与普惠所有群体不同。",
+        "B 同句把两种行为并列，不能说一方必然消除另一方。",
+        "C sometimes、prosocial...ingroup 与 antisocial...or apathy...outgroups 保留了范围和对照。",
+        "D sometimes 不能变成 every must。作者是在指出狭隘意义的风险，并非说所有意义追求都有害。"
+      ],
+      "vocabulary": [
+        {
+          "word": "apathy",
+          "meaning": "冷漠；漠不关心",
+          "context": "与对外群体的反社会行为并列为另一可能：即使没有主动伤害，也可能不关心其处境。",
+          "example": "The campaign tried to replace public apathy with informed discussion.",
+          "collocations": [
+            "apathy toward others",
+            "political apathy"
+          ]
+        }
+      ],
+      "translation": "如果你觉得自己没有给世界带来有意义的改变，不妨想想：你可以通过投身某项事业获得意义，从自己社区的小事做起。慢慢来，长远看你会产生影响。意义陷阱的第二部分是，追求有意义的生活可能助长狭隘视角。研究表明，人有时通过帮助一个小内群体，同时对外群体表现反社会行为或冷漠，来获得生命意义。",
+      "evidenceTargetIds": [
+        "c03-s06-p033-03600-s008"
+      ],
+      "evidence": [
+        {
+          "quote": "As research shows, meaning in life is sometimes attained through prosocial behaviors toward a small ingroup, and antisocial behaviors or apathy toward outgroups.",
+          "sentenceIds": [
+            "c03-s06-p033-03600-s008"
+          ],
+          "sources": [
+            {
+              "pdfPage": 33,
+              "block": 2,
+              "bbox": [
+                76.99,
+                360,
+                535.01,
+                628.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "86887b59c8fb098550363ebda6c2769ca2e6c029b357f988a2b082a11f0cbeea"
+    }
+  ]
+}
