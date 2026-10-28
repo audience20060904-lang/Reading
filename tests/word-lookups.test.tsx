@@ -1,5 +1,6 @@
 import {describe,it,expect} from 'vitest';
 import {readFileSync} from 'node:fs';
+import {createHash} from 'node:crypto';
 import {renderToStaticMarkup} from 'react-dom/server';
 import type {Book,Question,ReadingPlan} from '../src/types';
 import {emptyState,grade} from '../src/core';
@@ -11,6 +12,7 @@ import baseline from './fixtures/word-lookups-v1.json';
 import previous from './fixtures/word-lookups-v2.json';
 import lastRelease from './fixtures/word-lookups-v3.json';
 import expansion from '../source/b2-vocabulary/author-notes.json';
+import publishedFingerprints from './fixtures/word-lookups-v4-fingerprints.json';
 const read=(path:string)=>JSON.parse(readFileSync(path,'utf8'));
 const book=read('public/data/book.json') as Book,qs=read('public/data/questions.json') as Question[],plan=read('public/data/reading-plan.json') as ReadingPlan;
 const occurrences=Object.values(catalog.paragraphs).flat();
@@ -18,11 +20,11 @@ const textContent=(html:string)=>html.replace(/<[^>]*>/g,'').replace(/&amp;/g,'&
 
 describe('针对具体原文的离线查词',()=>{
  it('每个标注都对应真实原文字符、稳定位置和所属句子',()=>{
-  expect(occurrences).toHaveLength(4615);expect(new Set(occurrences.map(o=>o.id)).size).toBe(4615);
+  expect(occurrences).toHaveLength(5048);expect(new Set(occurrences.map(o=>o.id)).size).toBe(5048);
   for(const o of occurrences){const p=book.paragraphs.find(p=>p.id===o.paragraphId)!;expect(p.text.slice(o.start,o.end),o.id).toBe(o.text);expect(o.sentenceIds).toEqual(book.sentences.filter(s=>s.paragraphId===p.id&&s.start<o.end&&s.end>o.start).map(s=>s.id));}
  });
  it('仅预先选择的难词、熟词偏义或词组可查，普通词不泛化标蓝',()=>{
-  expect(catalog.entries).toHaveLength(1886);for(const e of catalog.entries)expect(['difficult','shifted']).toContain(e.kind);
+  expect(catalog.entries).toHaveLength(2030);for(const e of catalog.entries)expect(['difficult','shifted']).toContain(e.kind);
   const first=book.sentences[0];expect(getWordLookups(first.paragraphId,first.text,first.start).map(o=>o.text)).toEqual(['clementines']);
   expect(getWordLookups(first.paragraphId,'Yoshi',0)).toEqual([]);
  });
@@ -59,7 +61,7 @@ describe('针对具体原文的离线查词',()=>{
  it('扩充后保留首批全部词义和位置，并补足14章的实际语境标注',()=>{
   for(const e of baseline.entries)expect(catalog.entries.find(x=>x.id===e.id)).toEqual(e);
   for(const o of Object.values(baseline.paragraphs).flat())expect(occurrences.find(x=>x.id===o.id)).toEqual(o);
-  const originalIds=new Set(Object.values(baseline.paragraphs).flat().map(o=>o.id)),added=occurrences.filter(o=>!originalIds.has(o.id));expect(added).toHaveLength(4410);
+  const originalIds=new Set(Object.values(baseline.paragraphs).flat().map(o=>o.id)),added=occurrences.filter(o=>!originalIds.has(o.id));expect(added).toHaveLength(4843);
   for(const c of book.chapters)expect(added.some(o=>book.paragraphs.find(p=>p.id===o.paragraphId)?.chapterId===c.id),c.id).toBe(true);
   expect(catalog.entries.find(e=>e.id==='concrete')?.otherMeanings.join('')).toContain('混凝土');expect(catalog.entries.find(e=>e.id==='principal')?.otherMeanings.join('')).toContain('本金');
  });
@@ -74,7 +76,7 @@ describe('针对具体原文的离线查词',()=>{
  it('B2扩充保留上一版全部词义和位置，新增记录逐项匹配预编写作者稿',()=>{
   for(const e of lastRelease.entries)expect(catalog.entries.find(x=>x.id===e.id)).toEqual(e);
   for(const o of Object.values(lastRelease.paragraphs).flat())expect(occurrences.find(x=>x.id===o.id)).toEqual(o);
-  expect(expansion.additions).toHaveLength(3956);for(const row of expansion.additions)expect(occurrences.find(x=>x.id===row.occurrence.id)).toEqual(row.occurrence);
+  expect(expansion.additions).toHaveLength(4389);for(const row of expansion.additions)expect(occurrences.find(x=>x.id===row.occurrence.id)).toEqual(row.occurrence);
   for(const c of book.chapters)expect(expansion.additions.filter(row=>book.paragraphs.find(p=>p.id===row.occurrence.paragraphId)?.chapterId===c.id).length).toBeGreaterThan(150);
  });
  it('熟词偏义按具体语境区分，不把人名或实验术语当成普通义',()=>{
@@ -87,4 +89,24 @@ describe('针对具体原文的离线查词',()=>{
   const report=read('source/b2-vocabulary/coverage.json');expect(report.pendingCandidateOccurrences).toEqual([]);expect(report.notice).toContain('not a full C2');
  });
  it('机械同形词排除后恢复实际高级义，普通动词形式仍不泛化标注',()=>{const notes=expansion.additions.map(r=>r.occurrence);expect(notes.filter(o=>o.text==='moving')).toHaveLength(2);for(const o of notes.filter(o=>o.text==='moving'))expect(o.contextMeaning).toContain('动人的');expect(notes.some(o=>o.text==='standing'&&o.contextMeaning.includes('地位'))).toBe(true);expect(notes.some(o=>o.text==='terms'&&o.contextMeaning.includes('词语'))).toBe(true);});
+ it('追加高级词时保留上一线上版本1886个词条及4615处标注的完整指纹',()=>{
+  const hash=(v:unknown)=>createHash('sha256').update(JSON.stringify(v)).digest('hex'),entries=new Map(catalog.entries.map(e=>[e.id,e])),positions=new Map(occurrences.map(o=>[o.id,o]));
+  expect(Object.keys(publishedFingerprints.entries)).toHaveLength(1886);expect(Object.keys(publishedFingerprints.occurrences)).toHaveLength(4615);
+  for(const [id,sha] of Object.entries(publishedFingerprints.entries))expect(hash(entries.get(id)),id).toBe(sha);
+  for(const [id,sha] of Object.entries(publishedFingerprints.occurrences))expect(hash(positions.get(id)),id).toBe(sha);
+ });
+ it('本批义项由作者稿逐处指定，熟词普通义与复杂词的内部片段不误配',()=>{
+  const senses=read('source/b2-vocabulary/advanced-02-senses.json'),batch=expansion.additions.filter(r=>'batchId' in r.origin&&r.origin.batchId==='advanced-02');expect(batch).toHaveLength(433);
+  const rows=readFileSync('source/b2-vocabulary/advanced-02.tsv','utf8').split(/\r?\n/).filter(s=>s&&!s.startsWith('#')).map(s=>s.split('|'));
+  for(const row of batch){const origin=row.origin as {form:string;sentenceId:string},draft=rows.find(r=>r[0].split(',').includes(origin.form))!;expect(draft).toBeDefined();expect(row.occurrence.contextMeaning).toBe(senses.overrides[origin.form]?.[origin.sentenceId]??draft[2]);}
+  const negative=batch.find(r=>r.occurrence.text==='Non-neurotic')!.occurrence;expect(negative.contextMeaning).toContain('较低');expect(occurrences.filter(o=>o.paragraphId===negative.paragraphId&&o.start<negative.end&&o.end>negative.start)).toEqual([negative]);
+  expect(batch.some(r=>r.occurrence.text==='expressed'&&r.occurrence.contextMeaning.includes('基因'))).toBe(true);
+  expect(batch.some(r=>r.occurrence.sentenceIds.includes('c13-s01-p145-05618-s001')&&r.occurrence.text==='expressed')).toBe(false);
+  expect(batch.some(r=>r.occurrence.contextMeaning.includes('愿意接受、乐于赞同'))).toBe(true);expect(batch.some(r=>r.occurrence.contextMeaning.includes('自主决定、自决'))).toBe(true);
+ });
+ it('未分级恢复清单保持真实待办，已审阅词形逐处对应真实标注或有理由的排除',()=>{
+  const backlog=read('source/b2-vocabulary/unclassified-candidates.json'),report=read('source/b2-vocabulary/advanced-02-review.json'),remaining=backlog.candidates.filter((r:{status:string})=>r.status==='unclassified');
+  expect(backlog.candidates).toHaveLength(1479);expect(backlog.remainingWordForms).toBe(1327);expect(remaining).toHaveLength(backlog.remainingWordForms);expect(report.fullVocabularyCoverage).toBe(false);
+  for(const c of backlog.candidates.filter((r:{status:string})=>r.status==='reviewed')){expect(c.review).toHaveLength(c.occurrences.length);for(const r of c.review){if(r.lookupOccurrenceId)expect(occurrences.some(o=>o.id===r.lookupOccurrenceId)).toBe(true);else{expect(r.status).toBe('excluded-ordinary-sense');expect(r.reason).toBeTruthy();}}}
+ });
 });

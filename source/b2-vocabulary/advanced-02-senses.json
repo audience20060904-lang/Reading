@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "batchId": "advanced-02",
+  "overrides": {
+    "winding": {
+      "c13-s06-p156-06720-s009": "蜿蜒曲折的；这里出现在歌曲名中，形容道路曲折。"
+    },
+    "midlife": {
+      "c13-s01-p144-06368-s001": "中年；这里是美国中年研究 MIDUS 名称的一部分。"
+    },
+    "self-determination": {
+      "c13-s02-p148-05745-s004": "自主决定、自决；歌曲描述非裔美国人的自豪感与自主追求，并非此处在介绍心理学理论。"
+    },
+    "agreeable": {
+      "c06-s07-p065-05745-s011": "愿意接受、乐于赞同；be agreeable to suggestions 指对朋友或伴侣提出的新冒险建议持开放态度。"
+    },
+    "fearful": {
+      "c04-s02-p036-05160-s008": "可怕的、令人畏惧的；这里修饰 monotony，形容单调乏味令人害怕。"
+    },
+    "psychologically": {
+      "c03-s04-p031-01530-s005": "在心理上；这里指从心理上应对灾难。",
+      "c07-s06-p077-02310-s004": "在心理上；psychologically stuck 指内心感到困住、难以向前。",
+      "c10-s02-p106-00750-s003": "在心理上；这里指与许多人约会除了经济成本，也会产生心理上的成本。",
+      "c10-s07-p115-05430-s004": "从心理感受来看；这里与纯粹理性计算的角度相对。"
+    }
+  },
+  "excludedSenses": {
+    "expressed": {
+      "c13-s01-p145-05618-s001": "普通的‘表达、说出’义；本批只补基因表达的专业义。"
+    }
+  },
+  "boundaryRule": "Match complete case-insensitive lexical forms; a hyphenated compound is not split into smaller words. In particular, Non-neurotic must be annotated as a whole and must not inherit the opposite meaning of neurotic. Possessive endings may follow the matched noun. Existing annotations always take precedence."
+}

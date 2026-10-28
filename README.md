@@ -156,7 +156,7 @@ Pages 来源为 Deploy from a branch → gh-pages → / (root)。build:pages 验
 
 ## B2 及以上词汇扩充（2026-10-28）
 
-本轮新增 1380 个词条、3956 处原文标注；加上此前 506 个词条、659 处标注，目前共有 **1886 个词条、4615 处可点击位置**，覆盖 14 章。点击淡蓝色词可查看该处的词义和适用的其他常见含义。旧词义、位置、正文、题目和成绩均保留。
+目前共有 **2030 个词条、5048 处可点击位置**，覆盖 14 章。本次续批新增 144 个词条、433 处标注，补充心理学术语、文学表达、专业词和熟词偏义；此前 1886 个词条、4615 处标注的内容与位置完整保留。点击淡蓝色词可查看该处的词义和适用的其他常见含义。正文、题目和成绩均保留。
 
 筛选参考 [Oxford 3000 分级清单](https://www.oxfordlearnersdictionaries.com/external/pdf/wordlists/oxford-3000-5000/The_Oxford_3000_by_CEFR_level.pdf) 和 [Oxford 5000 分级清单](https://www.oxfordlearnersdictionaries.com/external/pdf/wordlists/oxford-3000-5000/The_Oxford_5000_by_CEFR_level.pdf)。官网文件直连返回 403，本地参考读取其 GitHub 镜像 PDF，并将来源及文件哈希记在作者稿中；参考 PDF 不随网站或仓库发布。中文释义为独立编写或复用现有题库的词汇注释，没有复制词典释义。
 
@@ -165,3 +165,7 @@ Pages 来源为 Deploy from a branch → gh-pages → / (root)。build:pages 验
 继续处理时编辑 `source/b2-vocabulary/author-notes.json` 的具体原文位置及释义；`corpus-glosses.tsv` 保存本轮通用词义和其他常见义的作者材料，`coverage.json` 保存筛选范围与排除项目。运行 `npm run vocab:compile` 校验来源字符、句子 ID 和不重叠规则，再运行测试与生产构建。该编译命令只装配预编写的标注，不在线推断词义。`tests/fixtures/word-lookups-v3.json` 是本次之前的完整词表快照，用于检查旧数据未被覆盖。
 
 `source/b2-vocabulary/unclassified-candidates.json` 另存未分级长词形的恢复清单（含实际位置）。它们可能是低级词的屈折形式，并不等于全部都是 C2 难词；须先核对词义和难度再加入。
+
+最新续批作者稿为 `source/b2-vocabulary/advanced-02.tsv`，具体句子的不同义项与排除理由在 `advanced-02-senses.json`。例如 agreeable 区分人格特质与“乐于接受建议”，self-determination 区分心理学理论与群体自主；Non-neurotic 以完整词匹配，不拆成含义相反的 neurotic。程序只装配已写好的释义，不在浏览器中猜测词义。新增 433 处标注的来源文本与实际 PDF 中 112 页、223 个来源块比对通过；另视觉核对第 12、31、42、66 页，不把文本比对称为每页视觉审校。
+
+`advanced-02-review.json` 保存本批范围、标注 ID、排除记录和验证结果。恢复清单中的 152 个词形已记录审阅结果，仍有 1327 个未分级词形待判断，其中可能包含基础词变形；这不是“还缺1327个难词”的计数，也不宣称全书高级义项已穷尽。`tests/fixtures/word-lookups-v4-fingerprints.json` 冻结上版每个词条和标注的指纹，测试阻止改写旧内容。可运行 `node scripts/advanced-vocabulary-browser-test.mjs` 验证本续批；线上验证另设 `READING_TEST_URL`。本地测试包含停掉 HTTP 服务后缓存重载，线上断网检查使用浏览器离线模式，两者分别记录。手机检查为 390px Edge 视口，不等于真机验证。
