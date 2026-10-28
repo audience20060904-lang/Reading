@@ -1,0 +1,156 @@
+{
+  "schemaVersion": 1,
+  "id": "question-review-2026-10-28-021",
+  "pdfSha256": "be25c859f1bd894a4b0d1cff024ded1297f6a96a8e8ddabea1e3abcf89160a50",
+  "scope": "Review 20 questions and 24 source candidates on PDF19–20. Preserve prediction comparators and current-passage scope; improve plausible demonstration distractors.",
+  "questions": [
+    {
+      "id": "q-c02-005",
+      "reason": "单句预期比较不借前段访谈程序；题干只问当前denied/current assistant professors。",
+      "updates": {
+        "prompt": "How did those denied tenure compare with current assistant professors’ expectations?",
+        "promptZh": "未获终身教职者的幸福感，与现任助理教授的预期相比怎样？",
+        "options": [
+          "They refused to discuss their happiness.",
+          "They were far happier than current assistant professors had imagined.",
+          "They were guaranteed to become happier than all tenured professors.",
+          "They were exactly as devastated as predicted."
+        ],
+        "optionsZh": [
+          "他们拒绝谈论自己的幸福感。",
+          "他们比现任助理教授原先想象的幸福得多。",
+          "他们被保证会比所有获得终身教职的教授更幸福。",
+          "他们与预测一样遭受沉重打击。"
+        ],
+        "analyses": [
+          "A 当前句报告幸福感比较，没有拒绝交流的信息。",
+          "B far happier than...imagined 保留幸福得多及现任助理教授的想象这一比较基准。",
+          "C 原句不是与所有已获终身教职者比较，也没有 guaranteed 的保证。",
+          "D far happier than imagined 与恰好同预测一样痛苦相反。"
+        ]
+      }
+    },
+    {
+      "id": "q-c02-006",
+      "reason": "题干、正确项和解析只依当前频率/强度及亲密关系，不补前段small或long-term。",
+      "updates": {
+        "prompt": "Which emphasis on happiness is expressed in this passage?",
+        "promptZh": "这段对幸福强调了什么？",
+        "options": [
+          "One sufficiently intense personal achievement.",
+          "Frequent positive events and close relationships.",
+          "Frequent public recognition of individual success.",
+          "Avoiding every form of social interaction."
+        ],
+        "optionsZh": [
+          "一次足够强烈的个人成就。",
+          "频繁的积极事件与亲密关系。",
+          "经常获得针对个人成功的公众认可。",
+          "避免一切形式的社交互动。"
+        ],
+        "analyses": [
+          "A frequency, not intensity 与 rather than personal accomplishments 不支持仅靠一次强烈个人成就。",
+          "B 直接概括积极事件频率和 close relationships，不增加当前三句未写出的事件大小。",
+          "C frequent 只保留频率，却将亲密关系偷换成公众认可和个人成功。",
+          "D avoiding social interaction 与 close relationships 及 interpersonal success 相反。"
+        ]
+      }
+    },
+    {
+      "id": "qe-c02-0024",
+      "reason": "role of success的正确改写不无意强化为决定幸福的单一成因。",
+      "updates": {
+        "options": [
+          "Success is the only possible source of happiness.",
+          "People underestimate every effect of failure.",
+          "People exaggerate the role of success in their happiness.",
+          "All personal achievements have exactly zero emotional effect."
+        ],
+        "optionsZh": [
+          "成功是幸福唯一可能的来源。",
+          "人们低估了失败的每一种影响。",
+          "人们夸大了成功在自身幸福中的作用。",
+          "所有个人成就都恰好没有任何情绪作用。"
+        ],
+        "analyses": [
+          "A overestimate the role of success 是对高估成功作用的批评，不是确认唯一来源。",
+          "B 目标句讲成功的作用，不是失败的每一种影响。",
+          "C exaggerate 对应 overestimate，role 保留作用范围，不能扩大成唯一决定因素。",
+          "D 高估并不表示实际作用恰好为零，all 和 exactly 均扩大原句。"
+        ]
+      }
+    },
+    {
+      "id": "qe-c02-0027",
+      "reason": "人际成功题的分析不需要前一片段的晋升例子。",
+      "updates": {
+        "analyses": [
+          "A 当前段对照 personal accomplishments 与 close relationships，并没有说胜过每位同事的晋升。",
+          "B without involving anyone else 与 interpersonal 的人与人关系含义相反。",
+          "C 避免社交与 close relationships 不符。",
+          "D That is 重述亲密关系观点，interpersonal success 指在与他人的亲密关系中做得好。"
+        ]
+      }
+    },
+    {
+      "id": "qe-c02-0028",
+      "reason": "动机问句分析不提前介绍后面的手机故事，也不将泛问扩成所有人假装。",
+      "updates": {
+        "analyses": [
+          "A 当前问句主题是 people fake happiness，没有提出手机内存测量的问题。",
+          "B 本句没有提出放弃全部幸福研究。",
+          "C why 请求解释行为动机，fake happiness 指表现出未必真实的幸福。",
+          "D 询问人们为什么假装，并不能推出每个看起来幸福的人都在假装。"
+        ]
+      }
+    },
+    {
+      "id": "qe-c02-0029",
+      "reason": "俗语性质题只依the saying，不借未显示的前项研究。",
+      "updates": {
+        "analyses": [
+          "A the saying 直接标明是俗语或常见说法。",
+          "B 本段没有报告终身教职研究的测量结果，不能把俗语认成实验结果。",
+          "C 当前片段没有诊断测试名称或程序。",
+          "D 引述俗语不证明假装总有效，不能把信念直接当作实验证据。"
+        ]
+      }
+    },
+    {
+      "id": "qe-c02-0030",
+      "reason": "职业轶事解析用材料性质与证据范围解释，不放面向执行的简历旁白。",
+      "updates": {
+        "analyses": [
+          "A 录像店工作是当时背景，目的条款并不是说他拒绝离开。",
+          "B in order to get his first Hollywood job as a production assistant 直接给出他所说谎言的目的。",
+          "C went on to write and direct 是后来的经历，不等于当时已导演所有重要作品。",
+          "D 当前句是职业经历叙述，没有心理实验招募信息；也不能从一个故事推出所有人这样做都能获益。"
+        ]
+      }
+    },
+    {
+      "id": "qe-c02-0034",
+      "reason": "将无关的幸福或全球网络选项改为当前设备叙述中的可信问题错配。",
+      "updates": {
+        "options": [
+          "The onstage phone’s poor connection.",
+          "The memory problem.",
+          "The practice of displaying five signal bars.",
+          "Every fault affecting the demonstration."
+        ],
+        "optionsZh": [
+          "台上手机的连接不佳问题。",
+          "内存问题。",
+          "显示五格信号的做法。",
+          "影响演示的每一种故障。"
+        ],
+        "analyses": [
+          "A 文中先写连接不佳时伪装信号显示，后来明确说修复的是 memory problem，没有说修好该连接。",
+          "B Eventually, Apple fixed the memory problem 直接给出最终修复的对象。",
+          "C 始终显示五格是掩盖连接状况的做法，没有被说成后来修复的技术问题。",
+          "D 只明确说内存问题被修好，不能扩大成演示中每一种故障均已修复。"
+        ]
+      }
+    }
+  ]
+}
