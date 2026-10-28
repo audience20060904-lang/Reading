@@ -1,0 +1,84 @@
+{
+  "schemaVersion": 1,
+  "id": "question-review-2026-10-28-003",
+  "status": "published-and-verified",
+  "verifiedAt": "2026-10-28T07:43:47.886Z",
+  "url": "https://audience20060904-lang.github.io/Reading/",
+  "sourceCommit": "c61760232883176da0f8805696bdd0fd2861e72b",
+  "deploymentCommit": "caf1f4731c7e35ec8a4a3560090e8966c4c81a07",
+  "offlineVersion": "1df1be103f34633c",
+  "previousBatch": "source/releases/question-review-002.json",
+  "questionFingerprints": {
+    "q-c03-039": "87b6e725285a69a125621b3181cec5766f88886c8ec1b265212414cc40570b9d",
+    "q-c03-040": "f4588998bc319bae0957d3576760919eeda5913e074ee4c21de3cf4e4e089d17",
+    "q-c03-041": "7081412a0f6bb4ebc8e3214b3cfe555fbacbb747306a1e59ed63caa196d4a543",
+    "q-c03-044": "f911f83bd5db5545f93d87d7bd98214ed7e8f33684b562ca2a4c08a8188e46d5",
+    "q-c04-011": "75f519babfdf0c7d1ee6695a13fd0a784250b4747233ab63a2b237ddf8af1113",
+    "q-c04-017": "34b4041310bbd5a8cd9ccf90c2ae99180593a1fd74017796f8ee4338cbf1ef8e",
+    "q-c04-021": "261116261bc20d03a3d39775a8ff8119f7e9f6025a7f85046257d5e59f9c946d",
+    "q-c04-024": "b8a6852b8b7392ffed4e57c2a2fe8bf7e7b007d0b7dd932b0aa936695f2a1261",
+    "q-c04-030": "9471ae4bf947bd55c5327c011db9af6a4f8f5c879b482feb0d41e32c5d37fdfc"
+  },
+  "content": {
+    "totalQuestions": 2709,
+    "manuallyReviewedQuestions": 18,
+    "reviewedSourceCandidates": 25,
+    "revisedQuestions": 9,
+    "totalRevisedQuestions": 36,
+    "changedAnswerPositions": 0,
+    "remainingSemanticCandidateReviews": 183,
+    "fullQuestionBankHumanReview": false
+  },
+  "validation": {
+    "unitTestsPassed": 348,
+    "build": "npm run build:pages passed",
+    "pdf": {
+      "sha256": "be25c859f1bd894a4b0d1cff024ded1297f6a96a8e8ddabea1e3abcf89160a50",
+      "pagesVisuallyReviewed": [
+        32,
+        33,
+        34,
+        36,
+        37,
+        38,
+        39
+      ],
+      "sourceBlocksTextMatched": 15
+    },
+    "localBrowser": [
+      "全部缓存资产及Service Worker与本次生产构建逐字节匹配",
+      "提交前无证据标记；提交后精确标出依据且原文不变、淡蓝色查词仍可用",
+      "相近题型合并为一行并按提交次数计算50%正确率，原始标签和历史记录不变",
+      "逐题提交9道校对题，交替验证正误、四项译文与分析、整段译文及完整快照；提交前不显示中文解析",
+      "真实浏览器恢复旧选项、旧译文、旧错题成绩与用时；重练采用新版，新增记录且不改历史",
+      "390px和320px深色视口，选项、解析和整段译文均无横向溢出",
+      "旧未提交选择遇到改版时清空，新版位置保留；已提交解析正常刷新恢复",
+      "离线模拟恢复新旧两版成绩；本地另实际停止HTTP服务后缓存恢复新版题目与译文"
+    ],
+    "liveBrowser": [
+      "全部缓存资产及Service Worker与本次生产构建逐字节匹配",
+      "提交前无证据标记；提交后精确标出依据且原文不变、淡蓝色查词仍可用",
+      "相近题型合并为一行并按提交次数计算50%正确率，原始标签和历史记录不变",
+      "逐题提交9道校对题，交替验证正误、四项译文与分析、整段译文及完整快照；提交前不显示中文解析",
+      "真实浏览器恢复旧选项、旧译文、旧错题成绩与用时；重练采用新版，新增记录且不改历史",
+      "390px和320px深色视口，选项、解析和整段译文均无横向溢出",
+      "旧未提交选择遇到改版时清空，新版位置保留；已提交解析正常刷新恢复",
+      "离线模拟恢复新旧两版成绩；本地另实际停止HTTP服务后缓存恢复新版题目与译文"
+    ],
+    "liveRevisedQuestionsVisited": 9,
+    "assets": "All 13 manifest assets and the service worker byte-match the tested production build.",
+    "history": "All 27 previously published question revision fingerprints preserved. Original book, question files, reading plan and glossary unchanged. Browser tests restored an old answer snapshot and score, then added a separate new-version attempt without changing the old one."
+  },
+  "report": "source/question-revisions/review-003-report.json",
+  "continuation": "source/semantic-evidence/audit.json",
+  "limits": [
+    "Isolated synthetic data only; Prewritten versioned editorial corrections checked against their current records. Mobile is a viewport, not a physical phone.",
+    "Live offline checks use browser simulation; actual HTTP-server shutdown was performed only locally.",
+    "The 183 remaining semantic candidates are not a count of known errors or missing questions. Structural checks of 2709 questions are not a full human semantic review."
+  ],
+  "interfaceChanges": [
+    "Submitted evidence highlights with vocabulary lookup preserved",
+    "Eight grouped statistics categories with raw historical labels preserved",
+    "Compact mobile reading heading"
+  ]
+}

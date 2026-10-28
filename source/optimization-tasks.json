@@ -9,22 +9,23 @@
     "nextBatch": "004",
     "remainingCandidates": 183,
     "currentBatch": "003",
-    "currentBatchStatus": "validated-awaiting-publication"
+    "currentBatchStatus": "published-and-verified",
+    "lastSuccessfulRelease": "source/releases/question-review-003.json"
   },
   "interface": [
     {
       "id": "submitted-evidence-highlights",
-      "status": "validated-awaiting-publication",
+      "status": "complete",
       "requirement": "Show exact source evidence only after submission, retain lookup interaction and original text."
     },
     {
       "id": "group-question-type-statistics",
-      "status": "validated-awaiting-publication",
+      "status": "complete",
       "requirement": "Group related labels for display using weighted counts; preserve raw historical labels and exports."
     },
     {
       "id": "compact-mobile-reading-heading",
-      "status": "validated-awaiting-publication",
+      "status": "complete",
       "requirement": "Reduce mobile heading size and whitespace while preserving readability and chapter progress."
     }
   ]
