@@ -179,3 +179,7 @@ Pages 来源为 Deploy from a branch → gh-pages → / (root)。build:pages 验
 运行 `npm run content:check`、`npm test`、`npm run build:pages`、`node scripts/question-review-browser-test.mjs` 验证。线上检查可设置 `READING_TEST_URL` 和 `READING_TEST_PROXY`。回执记录 12 题的新指纹后，该批编译器拒绝改写已发布修订；后续校对须建立新的版本批次，保留上一批作者稿和基线。
 
 `source/semantic-evidence/audit.json` 的语义候选待办由 258 减少至 233；这些是待复核的来源候选，不等于错误题数。全库结构检查不等于 2709 题都完成了人工语义审校。题目长度统计仅用于筛选潜在猜题线索，不能机械地把最长项都判错或强行缩短正确答案。
+
+续批 002 对照 PDF 第 27–32 页，复核下一组 25 个语义候选、20 道题，修订其中 15 道。重点保留 might 的可能性、or 的选择关系、相关与分数一致的区别、often comes with 的伴随关系，以及 Mason 的假设人物属性。语义候选待办目前为 208。首批 12 道已发布修订题的指纹完整保留，本轮答案位置、原文和阅读顺序不变。作者稿、基线、固定目标及报告分别见 `source/question-revisions/review-002*.json`。
+
+`source/question-revisions/manifest.json` 按时间列出各批次。`npm run questions:compile` 顺序重放作者稿，核对每一批自己的基线和发布回执，再汇编最新版本；同一题在后续新批次中可以再次递增版本，早先已发布的作者稿不能改写。浏览器检查默认验证最新一批，可用 `REVIEW_BATCH=001` 或 `REVIEW_BATCH=002` 指定批次，报告保存在忽略的 `qa/` 目录。运行时仍只读取预编本地内容。

@@ -55,7 +55,7 @@ qs=[...qs,...supplemental];
 const editorial=JSON.parse(await readFile('src/data/question-revision-catalog.json','utf8'));
 assert.equal(editorial.pdfSha256,book.pdfSha256);
 for(const revised of editorial.questions){
- const old=qs.find(q=>q.id===revised.id);assert(old);assert.equal(old.fingerprint,editorial.baselineFingerprints[old.id]);assert.equal(revised.version,old.version+1);assert.equal(revised.contentRevision,editorial.id);
+ const old=qs.find(q=>q.id===revised.id);assert(old);assert.equal(old.fingerprint,editorial.baselineFingerprints[old.id]);assert.equal(revised.version,old.version+editorial.revisionDepths[old.id]);assert(editorial.revisionIds.includes(revised.contentRevision));
  assert.equal(revised.passage,old.passage);assert.equal(revised.answer,old.answer);
  assert.equal(revised.evidence.length,old.evidence.length);for(const [i,e] of revised.evidence.entries()){assert(revised.passage.includes(e.quote));assert(e.quote.includes(old.evidence[i].quote));assert.deepEqual(e.sentenceIds,old.evidence[i].sentenceIds);assert.deepEqual(e.sources,old.evidence[i].sources);}
  const {fingerprint,...content}=revised;assert.equal(createHash('sha256').update(canonical(content)).digest('hex'),fingerprint);
