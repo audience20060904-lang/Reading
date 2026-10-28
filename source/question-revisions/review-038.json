@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 1,
+  "id": "question-review-2026-10-28-038",
+  "pdfSha256": "be25c859f1bd894a4b0d1cff024ded1297f6a96a8e8ddabea1e3abcf89160a50",
+  "scope": "Review 13 questions /23 candidates on PDF39–40: local pronouns and retrospective speech, preserve the source product-year sequence and separate editorial notes from passage translations, retain mid-80s and a-decade timing.",
+  "questions": [
+    {
+      "id": "qe-c04-0053",
+      "reason": "产品序列译文去除编辑备注，保留原书年份；分析只解释当前日期配对，不做实时产品推论。",
+      "updates": {
+        "translation": "于是他创办自己的电脑公司 NeXT，但销售令人失望。与此同时，他在 1986 年一月买下 Lucasfilm 的计算机图形部门。其首部长片《玩具总动员》（1995）大获成功，但走到这一步用了近十年。1997 年，Jobs 重返 Apple，接着经历传奇般的发展，依次推出了 2001 年的 iPod、2002 年的 iMac、2007 年的 iPhone 和 2010 年的 iPad。"
+      }
+    },
+    {
+      "id": "qe-c04-0054",
+      "reason": "产品序列译文去除编辑备注，保留原书年份；分析只解释当前日期配对，不做实时产品推论。",
+      "updates": {
+        "translation": "于是他创办自己的电脑公司 NeXT，但销售令人失望。与此同时，他在 1986 年一月买下 Lucasfilm 的计算机图形部门。其首部长片《玩具总动员》（1995）大获成功，但走到这一步用了近十年。1997 年，Jobs 重返 Apple，接着经历传奇般的发展，依次推出了 2001 年的 iPod、2002 年的 iMac、2007 年的 iPhone 和 2010 年的 iPad。",
+        "analyses": [
+          "A 这段将 iPod 与2001配对，不是2007。",
+          "B 当前序列将 iMac 与 2002 配对，不是 2007。",
+          "C iPad 对应2010。",
+          "D the iPhone in 2007 是题目所问年份的明确配对；其余产品在当前句中各有不同年份。"
+        ]
+      }
+    },
+    {
+      "id": "q-c04-032",
+      "reason": "单句只有he，不用未显示的Jobs姓名；排除年龄年份不借前段事业转折。",
+      "updates": {
+        "prompt": "How old was he when the finding described here was made?",
+        "promptZh": "这句话所述发现发生时，他多大？",
+        "translation": "2003 年，他四十八岁时，医生在他的胰腺发现了一个肿瘤。",
+        "analyses": [
+          "A 本句明示 2003 年、四十八岁，这两个信息都与选项不符。",
+          "B 年龄对应，但年份不是 1997。",
+          "C 年份对应，年龄却把 forty-eight 错读为五十八。",
+          "D In 2003 与 when he was forty-eight 两处直接匹配。"
+        ]
+      }
+    },
+    {
+      "id": "qe-c04-0055",
+      "reason": "姓名形式保留在原文，译文移除编辑备注；身份与发问分析不借未显示传记作者或解雇事件。",
+      "updates": {
+        "translation": "临近生命尽头，Steve Jobs 邀请八十年代初曾任 Apple 人力资源主管的 Ann Bower 来到病床旁。他问她：“告诉我，年轻时我是什么样的人？”Bowers 回答：“你非常冲动，也很难相处。但你的愿景很有感召力。”",
+        "analyses": [
+          "A who was Apple’s human resources director in the early 1980s 是明确身份说明。",
+          "B 当前定语从句介绍的是人力资源主管，没有说她是写其全部生平的传记作者。",
+          "C 当前职位是 Apple 的人力资源主管，没有 Lucasfilm 图形部门负责人的职位信息。",
+          "D early 1980s 与 only in the late 1990s 的时间不符。"
+        ]
+      }
+    },
+    {
+      "id": "qe-c04-0056",
+      "reason": "姓名形式保留在原文，译文移除编辑备注；身份与发问分析不借未显示传记作者或解雇事件。",
+      "updates": {
+        "translation": "临近生命尽头，Steve Jobs 邀请八十年代初曾任 Apple 人力资源主管的 Ann Bower 来到病床旁。他问她：“告诉我，年轻时我是什么样的人？”Bowers 回答：“你非常冲动，也很难相处。但你的愿景很有感召力。”",
+        "analyses": [
+          "A 她的职业背景不代表这次问的就是人事政策，原句问年轻时的自己。",
+          "B Tell me, what was I like when I was young? 明确请求回忆年轻时的自己。",
+          "C what was I like 的对象是他本人，不是某个新产品。",
+          "D 当前问的是年轻时自己是什么样的人，没有问 1985 年被解雇的原因，不能换掉询问对象。"
+        ]
+      }
+    },
+    {
+      "id": "q-c04-034",
+      "reason": "回应题当前未显示前一说话人姓名，分析不要求识别Bowers。",
+      "updates": {
+        "analyses": [
+          "A 这段谈途中学习，不是只有财务结果。",
+          "B did learn 的重复强调确实学到了，而非否认。",
+          "C 前一句肯定“旅程就是回报”，Jobs 随后承认一路有所学习，回应了过程本身的价值。",
+          "D 没有对未来旅程作零困难保证。"
+        ]
+      }
+    },
+    {
+      "id": "qe-c04-0058",
+      "reason": "省略题只依当前重复动词，不借电影商业故事，也不在产品解析混入原文编辑说明。",
+      "updates": {
+        "analyses": [
+          "A easy to work with 不在最近的 did learn 语境。",
+          "B 从学习不能反推从未犯错。",
+          "C 当前紧接的是 did learn some things，没有执导电影的动作，不能将其补成 did 的省略内容。",
+          "D 前面重复 I did learn some things，结尾 did 承接 learn some things along the way；really 加强确实有所学习的意思。"
+        ]
+      }
+    },
+    {
+      "id": "qe-c04-0060",
+      "reason": "into her mid-80s保留八十五岁左右的阶段，译文去编辑备注；a decade later不额外加about。",
+      "updates": {
+        "translation": "过去六十七年，Joy Ryan 一直住在俄亥俄州 Duncan Falls 这座只有两个红绿灯的小镇的同一所房子里。她 1949 年结婚，在那里养育三个孩子。她简单的生活中有许多悲剧：丈夫 1994 年死于癌症，十年后她又失去两个成年子女。到了八十五岁左右，她仍在杂货店辛苦工作，与家人渐渐疏远，健康也在下降。"
+      }
+    },
+    {
+      "id": "qe-c04-0061",
+      "reason": "into her mid-80s保留八十五岁左右的阶段，译文去编辑备注；a decade later不额外加about。",
+      "updates": {
+        "translation": "过去六十七年，Joy Ryan 一直住在俄亥俄州 Duncan Falls 这座只有两个红绿灯的小镇的同一所房子里。她 1949 年结婚，在那里养育三个孩子。她简单的生活中有许多悲剧：丈夫 1994 年死于癌症，十年后她又失去两个成年子女。到了八十五岁左右，她仍在杂货店辛苦工作，与家人渐渐疏远，健康也在下降。",
+        "options": [
+          "Her husband died in 1994, and she lost two adult children a decade later.",
+          "She lost two adult children in 1994, and her husband died a decade later.",
+          "Her husband and two adult children all died in the same year, 1994.",
+          "Her husband died in 1949, and she lost two children in 1994."
+        ],
+        "optionsZh": [
+          "丈夫 1994 年去世，十年后失去两个成年子女。",
+          "1994年失去两个成年子女，十年后丈夫去世。",
+          "丈夫与两个成年子女都在1994年同年去世。",
+          "丈夫1949年去世，1994年失去两个孩子。"
+        ]
+      }
+    }
+  ]
+}
