@@ -1,6 +1,7 @@
 import {readFile,writeFile} from 'node:fs/promises';
 import {createHash} from 'node:crypto';
 import assert from 'node:assert/strict';
+import {validateRevisionEvidence} from './validate-revision-evidence.mjs';
 async function saveGenerated(path,content){
  try{if(await readFile(path,'utf8')===content)return;}catch(error){if(error.code!=='ENOENT')throw error;}
  for(let attempt=0;;attempt++){
@@ -57,7 +58,7 @@ assert.equal(editorial.pdfSha256,book.pdfSha256);
 for(const revised of editorial.questions){
  const old=qs.find(q=>q.id===revised.id);assert(old);assert.equal(old.fingerprint,editorial.baselineFingerprints[old.id]);assert.equal(revised.version,old.version+editorial.revisionDepths[old.id]);assert(editorial.revisionIds.includes(revised.contentRevision));
  assert.equal(revised.passage,old.passage);assert.equal(revised.answer,old.answer);
- assert.equal(revised.evidence.length,old.evidence.length);for(const [i,e] of revised.evidence.entries()){assert(revised.passage.includes(e.quote));assert(e.quote.includes(old.evidence[i].quote));assert.deepEqual(e.sentenceIds,old.evidence[i].sentenceIds);assert.deepEqual(e.sources,old.evidence[i].sources);}
+ validateRevisionEvidence(old,revised,book);
  const {fingerprint,...content}=revised;assert.equal(createHash('sha256').update(canonical(content)).digest('hex'),fingerprint);
 }
 qs=qs.map(q=>editorial.questions.find(r=>r.id===q.id)??q);

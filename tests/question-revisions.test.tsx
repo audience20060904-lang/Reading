@@ -4,6 +4,7 @@ import {createHash} from 'node:crypto';
 import {renderToStaticMarkup} from 'react-dom/server';
 import {activeReading} from '../src/activeReading';
 import {applyQuestionRevisions} from '../src/questionRevisions';
+import {validateRevisionEvidence} from '../scripts/validate-revision-evidence.mjs';
 import {emptyState,exportBackup,grade,newSession,orderedQuestions,parseBackup,restoreReadingState,statistics} from '../src/core';
 import {getPassageTranslation} from '../src/PassageTranslation';
 import {getQuestionTranslation} from '../src/questionTranslations';
@@ -17,7 +18,7 @@ const canonical=(v:any):string=>Array.isArray(v)?'['+v.map(canonical).join(',')+
 describe('有版本记录的题目校对',()=>{
  it('修订题逐版升级，其余题目及全部阅读单元和来源完全保留',()=>{
   expect(catalog.questions).toHaveLength(new Set(frozen.questions.map((q:Question)=>q.id)).size);expect(qs).toHaveLength(2709);expect(new Set(qs.map(q=>q.id)).size).toBe(2709);
-  for(const old of before){const q=qs.find(q=>q.id===old.id)!;if(!q.contentRevision){expect(q).toEqual(old);continue;}expect(old).toEqual(frozen.questions.find((x:Question)=>x.id===old.id));expect(q.version).toBe(old.version+catalog.revisionDepths[q.id]);expect(q.fingerprint).not.toBe(old.fingerprint);expect(q.answer).toBe(old.answer);expect(q.passage).toBe(old.passage);expect(q.evidence.map(e=>e.sentenceIds)).toEqual(old.evidence.map(e=>e.sentenceIds));for(const [i,e] of q.evidence.entries()){expect(q.passage).toContain(e.quote);expect(e.quote).toContain(old.evidence[i].quote);expect(e.sources).toEqual(old.evidence[i].sources);}expect(q.sentenceIds).toEqual(old.sentenceIds);expect(q.readingUnitId).toBe(old.readingUnitId);const {fingerprint,...content}=q;expect(createHash('sha256').update(canonical(content)).digest('hex')).toBe(fingerprint);}
+  for(const old of before){const q=qs.find(q=>q.id===old.id)!;if(!q.contentRevision){expect(q).toEqual(old);continue;}expect(old).toEqual(frozen.questions.find((x:Question)=>x.id===old.id));expect(q.version).toBe(old.version+catalog.revisionDepths[q.id]);expect(q.fingerprint).not.toBe(old.fingerprint);expect(q.answer).toBe(old.answer);expect(q.passage).toBe(old.passage);expect(()=>validateRevisionEvidence(old,q,book)).not.toThrow();expect(q.sentenceIds).toEqual(old.sentenceIds);expect(q.readingUnitId).toBe(old.readingUnitId);const {fingerprint,...content}=q;expect(createHash('sha256').update(canonical(content)).digest('hex')).toBe(fingerprint);}
   expect(orderedQuestions(qs,book).map(q=>q.id)).toEqual(orderedQuestions(before,book).map(q=>q.id));expect(active.plan.units.map(u=>u.id)).toEqual(originalPlan.units.map(u=>u.id));
  });
  it('修窗的新译文保留行动意向，旧快照仍呈现旧译文与旧选项',()=>{
