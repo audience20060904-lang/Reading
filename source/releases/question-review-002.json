@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "id": "question-review-2026-10-28-002",
+  "status": "published-and-verified",
+  "verifiedAt": "2026-10-28T07:16:23.346Z",
+  "url": "https://audience20060904-lang.github.io/Reading/",
+  "sourceCommit": "0829712031736424797fc0e3beffbbe06303918e",
+  "deploymentCommit": "a694c724dcd2449e6d343492db0467184f519824",
+  "offlineVersion": "5f359288f5a05de7",
+  "previousBatch": "source/releases/question-review-001.json",
+  "questionFingerprints": {
+    "q-c03-003": "01aaaf2d530a5ddcf8de5692e0caee05e379cea2cddafe6eda48d06b5efeedbd",
+    "q-c03-004": "e0c509f0d0dfd19e3fecf83f57ecbfa21b426b5930f932bf0f493a297b6a1ebe",
+    "q-c03-010": "0326680d23ab3a97350ad386d05ede3ba884e161b245ac8bfd45e0c238b852b6",
+    "q-c03-012": "09b0b71e20681738704127fd9918ab5aed234b8199052794357f4111769b917f",
+    "q-c03-014": "1b61c4aa7e0477ef7362b59274c813b2a01700d34c719e42230e267862750458",
+    "q-c03-015": "f85f35f72b8f2cb0d959ca5cdf227df1593ac23229e9cf415902e11dc8786771",
+    "q-c03-018": "5112d5a4689bb4b8a2af2523c06511de37411afdc7d78eadb9727babe7e3c537",
+    "q-c03-020": "861f8603d69c9f0cbdbb1b678787481c3b85d3ef4560c6b0c5055c2e8a336f28",
+    "q-c03-022": "1263438052048317cbee75521cd9d775dd90f0ea6b4a15c8742785f3c64139d3",
+    "q-c03-026": "51a98bd00d966be5c4c1bc0132a013750acc91dc299085d00b06502653a29947",
+    "q-c03-027": "4810e24f805a710a5978977339739189cc243dad145e5c73cb634fe07231326e",
+    "q-c03-031": "8738c20f598fcfca123e961ab419d1062cbd837786dc1ed692d165725b1e0b46",
+    "q-c03-032": "ce355b73c05364adfc7ebbb18f8619f95602c679920025c39268728f19f71f4b",
+    "q-c03-034": "3847997dbae7f17adcace4cdc2afa26d70df3e28b5d76d11d8f82139e788b44f",
+    "q-c03-037": "ae59f690e1e1743bec4c73fcb002d4d6758d6a2f322231425c7a64fe1ac5fa96"
+  },
+  "content": {
+    "totalQuestions": 2709,
+    "manuallyReviewedQuestions": 20,
+    "reviewedSourceCandidates": 25,
+    "revisedQuestions": 15,
+    "totalRevisedQuestions": 27,
+    "changedAnswerPositions": 0,
+    "remainingSemanticCandidateReviews": 208,
+    "fullQuestionBankHumanReview": false
+  },
+  "validation": {
+    "unitTestsPassed": 341,
+    "build": "npm run build:pages passed",
+    "pdf": {
+      "sha256": "be25c859f1bd894a4b0d1cff024ded1297f6a96a8e8ddabea1e3abcf89160a50",
+      "pagesVisuallyReviewed": [
+        27,
+        28,
+        29,
+        30,
+        31,
+        32
+      ],
+      "sourceBlocksTextMatched": 17
+    },
+    "localBrowser": [
+      "全部缓存资产及Service Worker与本次生产构建逐字节匹配",
+      "逐题提交15道校对题，交替验证正误、四项译文与分析、整段译文及完整快照；提交前不显示中文解析",
+      "真实浏览器恢复旧选项、旧译文、旧错题成绩与用时；重练采用新版，新增记录且不改历史",
+      "390px和320px深色视口，选项、解析和整段译文均无横向溢出",
+      "旧未提交选择遇到改版时清空，新版位置保留；已提交解析正常刷新恢复",
+      "离线模拟恢复新旧两版成绩；本地另实际停止HTTP服务后缓存恢复新版题目与译文"
+    ],
+    "liveBrowser": [
+      "全部缓存资产及Service Worker与本次生产构建逐字节匹配",
+      "逐题提交15道校对题，交替验证正误、四项译文与分析、整段译文及完整快照；提交前不显示中文解析",
+      "真实浏览器恢复旧选项、旧译文、旧错题成绩与用时；重练采用新版，新增记录且不改历史",
+      "390px和320px深色视口，选项、解析和整段译文均无横向溢出",
+      "旧未提交选择遇到改版时清空，新版位置保留；已提交解析正常刷新恢复",
+      "离线模拟恢复新旧两版成绩；本地另实际停止HTTP服务后缓存恢复新版题目与译文"
+    ],
+    "liveRevisedQuestionsVisited": 15,
+    "assets": "All 13 manifest assets and the service worker byte-match the tested production build.",
+    "history": "All 12 first-batch published question fingerprints preserved. Original book, question files, reading plan and glossary unchanged. Browser tests restored an old answer snapshot and score, then added a separate new-version attempt without changing the old one."
+  },
+  "report": "source/question-revisions/review-002-report.json",
+  "continuation": "source/semantic-evidence/audit.json",
+  "limits": [
+    "Isolated synthetic data only; Prewritten versioned editorial corrections checked against their current records. Mobile is a viewport, not a physical phone.",
+    "Live offline checks use browser simulation; actual HTTP-server shutdown was performed only locally.",
+    "The 208 remaining semantic candidates are not a count of known errors or missing questions. Structural checks of 2709 questions are not a full human semantic review."
+  ]
+}

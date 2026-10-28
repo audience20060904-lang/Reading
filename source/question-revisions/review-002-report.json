@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "question-review-2026-10-28-002",
-  "status": "validated-awaiting-publication",
+  "status": "published-and-verified",
   "pdfSha256": "be25c859f1bd894a4b0d1cff024ded1297f6a96a8e8ddabea1e3abcf89160a50",
   "automated": {
     "questions": 2709,
@@ -106,7 +106,14 @@
       "q-c03-018把set us up for a failure解释为容易遭遇失败的处境。",
       "q-c03-037明确Mason是假设人物，主观意义不等于道德上美好。",
       "其余修订改进变量、人物、指标和清单归属等干扰项，答案位置保持不变。"
-    ]
+    ],
+    "unchangedQuestions": {
+      "q-c03-013": "当前问题只问明确请求的行动；do your part to help others足以支持答案，解析已说明the same的完整所指需结合前文。",
+      "q-c03-021": "核对purpose or meaning的同一道是非题，未误写成分别评分。",
+      "q-c03-023": "核对28.5%、strongly agreed与量表5分的对应。",
+      "q-c03-024": "核对1.1%加9.1%为10.2%，且close不等于与10%精确相等。",
+      "q-c03-029": "保留One way的一种可能途径，不改成宗教必需或心理困难消失的保证。"
+    }
   },
   "remainingSemanticCandidateReviews": 208,
   "fullQuestionBankHumanReview": false,
@@ -142,8 +149,28 @@
       "passed": true,
       "offlineVersion": "5f359288f5a05de7"
     },
-    "offlineVersion": "5f359288f5a05de7"
+    "offlineVersion": "5f359288f5a05de7",
+    "liveBrowser": {
+      "date": "2026-10-28",
+      "url": "https://audience20060904-lang.github.io/Reading/",
+      "checks": [
+        "全部缓存资产及Service Worker与本次生产构建逐字节匹配",
+        "逐题提交15道校对题，交替验证正误、四项译文与分析、整段译文及完整快照；提交前不显示中文解析",
+        "真实浏览器恢复旧选项、旧译文、旧错题成绩与用时；重练采用新版，新增记录且不改历史",
+        "390px和320px深色视口，选项、解析和整段译文均无横向溢出",
+        "旧未提交选择遇到改版时清空，新版位置保留；已提交解析正常刷新恢复",
+        "离线模拟恢复新旧两版成绩；本地另实际停止HTTP服务后缓存恢复新版题目与译文"
+      ],
+      "limits": [
+        "Isolated synthetic data only; Prewritten versioned editorial corrections checked against their current records. Mobile is a viewport, not a physical phone."
+      ],
+      "revisedQuestionsVisited": 15,
+      "batchId": "question-review-2026-10-28-002",
+      "passed": true,
+      "offlineVersion": "5f359288f5a05de7"
+    }
   },
   "previousBatch": "source/releases/question-review-001.json",
-  "previousBatchFingerprintsPreserved": true
+  "previousBatchFingerprintsPreserved": true,
+  "releaseRecord": "source/releases/question-review-002.json"
 }
