@@ -2,6 +2,7 @@ import {readFile,writeFile} from 'node:fs/promises';
 import {createHash} from 'node:crypto';
 import assert from 'node:assert/strict';
 import {validateRevisionEvidence} from './validate-revision-evidence.mjs';
+import {validateRevisionVocabulary} from './validate-revision-vocabulary.mjs';
 const read=async p=>JSON.parse(await readFile(p,'utf8'));
 const canonical=v=>Array.isArray(v)?'['+v.map(canonical).join(',')+']':v&&typeof v==='object'?'{'+Object.keys(v).sort().map(k=>JSON.stringify(k)+':'+canonical(v[k])).join(',')+'}':JSON.stringify(v);
 const book=await read('public/data/book.json'),manifest=await read('source/question-revisions/manifest.json'),base=await read('public/data/questions.json'),rep=await read('src/data/sentence-repair-catalog.json'),extras=await read('public/data/evidence-questions.json'),translations=await read('src/data/question-translations.json');
@@ -12,7 +13,7 @@ for(const batch of manifest.batches){
  assert.equal(draft.id,batch.id);assert.equal(draft.pdfSha256,book.pdfSha256);assert.equal(frozen.pdfSha256,book.pdfSha256);
  for(const row of draft.questions){
  assert(!seen.has(row.id));seen.add(row.id);assert(row.reason);const q=latest.get(row.id)??sources.get(row.id);assert(q);assert.deepEqual(q,frozen.questions.find(x=>x.id===q.id),'Published baseline changed');
- const allowed=new Set(['prompt','promptZh','options','optionsZh','analyses','translation','evidence']);assert(Object.keys(row.updates).every(k=>allowed.has(k)));
+ const allowed=new Set(['prompt','promptZh','options','optionsZh','analyses','translation','evidence','vocabulary']);assert(Object.keys(row.updates).every(k=>allowed.has(k)));
  if('prompt' in row.updates)assert(row.updates.promptZh,'Changed prompt requires its own translation');
  const t=q.family==='sentence-evidence'||q.contentRevision?{promptZh:q.promptZh,optionsZh:q.optionsZh}:translations.entries.find(t=>t.questionId===q.id&&t.prompt===q.prompt&&t.options.every((o,i)=>o===q.options[i]));assert(t?.promptZh&&t.optionsZh?.length===4);
  const next={...q,promptZh:t.promptZh,optionsZh:t.optionsZh,...row.updates,version:q.version+1,contentRevision:draft.id};delete next.fingerprint;
@@ -20,6 +21,7 @@ for(const batch of manifest.batches){
  validateRevisionEvidence(q,next,book);
  for(const key of ['options','optionsZh','analyses'])assert(next[key].length===4&&next[key].every(v=>typeof v==='string'&&v.trim()),key);
  assert(new Set(next.options).size===4);assert(next.promptZh&&next.translation);
+ if('vocabulary' in row.updates)validateRevisionVocabulary(next.vocabulary);
  next.fingerprint=createHash('sha256').update(canonical(next)).digest('hex');baselineFingerprints[q.id]??=q.fingerprint;revisionDepths[q.id]=(revisionDepths[q.id]??0)+1;compiled.push(next);latest.set(q.id,next);
 }
 assert.equal(seen.size,frozen.questions.length);

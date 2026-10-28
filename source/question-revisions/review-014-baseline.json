@@ -1,0 +1,536 @@
+{
+  "pdfSha256": "be25c859f1bd894a4b0d1cff024ded1297f6a96a8e8ddabea1e3abcf89160a50",
+  "sourceCommit": "48552be4956ee61a3f1b1a59a4ed1c4c67f67e03",
+  "questions": [
+    {
+      "id": "qe-c01-0020",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-001",
+      "parentQuestionId": "q-c01-045",
+      "chapterId": "c01",
+      "sectionId": "c01-s02",
+      "paragraphId": "c01-s02-p009-05468",
+      "readingUnitId": "c01-s02-p009-05468-r005-006",
+      "sentenceIds": [
+        "c01-s02-p009-05468-s005",
+        "c01-s02-p009-05468-s006"
+      ],
+      "passage": "A trip to the beach or the spa? I have made many selfish decisions in life, including moving to New York City to take a job at a prestigious university while my sons were still in middle and high school.",
+      "prompt": "What role does the beach-or-spa example play?",
+      "promptZh": "海滩或水疗中心的例子在这里起什么作用？",
+      "options": [
+        "It prescribes the same activity for every reader.",
+        "It offers leisure activities as possible sources of happiness.",
+        "It reports the winning treatment in a clinical experiment.",
+        "It shows that travel cannot contribute to pleasure."
+      ],
+      "optionsZh": [
+        "它规定每个读者都应参加同样的活动。",
+        "它把休闲活动作为可能带来幸福的例子。",
+        "它报告一项临床实验中最有效的治疗。",
+        "它表明旅行不能带来快乐。"
+      ],
+      "answer": 1,
+      "type": "作者意图",
+      "support": "limited-inference",
+      "analyses": [
+        "A 原文以问句列举可能性，没有要求所有读者照做。",
+        "B 在 What makes you happy 的语境下，海滩或水疗之旅是供思考的休闲活动例子。",
+        "C 没有临床实验或疗效比较，不能把 spa 直接读成医学治疗结论。",
+        "D 列出旅行作为可能例子，并不否定它能带来快乐。"
+      ],
+      "vocabulary": [
+        {
+          "word": "spa",
+          "meaning": "水疗中心；提供休闲护理的场所",
+          "context": "在此与海滩一起作为休闲出行的例子，并非医疗处方。",
+          "example": "They spent a relaxing afternoon at the spa.",
+          "collocations": [
+            "a trip to the spa",
+            "a spa visit"
+          ]
+        }
+      ],
+      "translation": "是去海滩或水疗中心一趟吗？我一生中做过许多自私的决定，其中包括在儿子们还分别读初中和高中的时候，为了到一所享有声望的大学任职而搬到纽约市。",
+      "evidenceTargetIds": [
+        "c01-s02-p009-05468-s005"
+      ],
+      "evidence": [
+        {
+          "quote": "A trip to the beach or the spa?",
+          "sentenceIds": [
+            "c01-s02-p009-05468-s005"
+          ],
+          "sources": [
+            {
+              "pdfPage": 9,
+              "block": 4,
+              "bbox": [
+                76.99,
+                546.75,
+                535.01,
+                717.27
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "45f0b5d3b69ecb0ece29795944d9eb5b399f3b8d0ca7c0725382d94a8570c96b"
+    },
+    {
+      "id": "q-c01-013",
+      "version": 2,
+      "chapterId": "c01",
+      "sectionId": "c01-s02",
+      "paragraphId": "c01-s02-p009-05468",
+      "sentenceIds": [
+        "c01-s02-p009-05468-s007",
+        "c01-s02-p009-05468-s008"
+      ],
+      "passage": "Though my sons did not want to move away from their friends and their hometown, I chose to maximize my own personal happiness. In the end, I did not find myself any happier.",
+      "prompt": "What was the outcome of the author’s decision to maximise his own happiness by moving?",
+      "options": [
+        "His father decided to move to the same city.",
+        "His sons immediately became happier at their new school.",
+        "He concluded that career moves never benefit anyone.",
+        "He did not find himself happier in the end."
+      ],
+      "answer": 3,
+      "type": "细节",
+      "analyses": [
+        "A 父亲决定留下，不是同迁。",
+        "B 原文只说孩子原本不想离开朋友，未报告新学校立即更快乐。",
+        "C never / anyone 是没有根据的普遍化。",
+        "D 是该句的准确改写。"
+      ],
+      "evidence": [
+        {
+          "quote": "Though my sons did not want to move away from their friends and their hometown, I chose to maximize my own personal happiness.",
+          "sentenceIds": [
+            "c01-s02-p009-05468-s007"
+          ],
+          "sources": [
+            {
+              "pdfPage": 9,
+              "block": 4,
+              "bbox": [
+                76.99,
+                546.75,
+                535.01,
+                717.27
+              ]
+            }
+          ]
+        },
+        {
+          "quote": "In the end, I did not find myself any happier.",
+          "sentenceIds": [
+            "c01-s02-p009-05468-s008"
+          ],
+          "sources": [
+            {
+              "pdfPage": 9,
+              "block": 4,
+              "bbox": [
+                76.99,
+                546.75,
+                535.01,
+                717.27
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "maximize",
+          "meaning": "使最大化",
+          "context": "作者选择追求自身最大的幸福",
+          "example": "We try to maximize the benefit of each lesson.",
+          "collocations": [
+            "maximize happiness",
+            "maximize the benefit"
+          ]
+        }
+      ],
+      "support": "explicit",
+      "editorialStatus": "短段版 v2；连续原句，配题片段互不重叠；保留 v1 历史快照，不重算旧成绩",
+      "translation": "尽管儿子们不愿离开朋友和家乡，我还是选择让自己的个人幸福最大化。最终，我并没有发现自己更幸福。",
+      "readingUnitId": "c01-s02-p009-05468-r007-008",
+      "fingerprint": "19e7176a34b6bf2d8166362448611d6a5fe37cdd917d774fa947717d824da3d2"
+    },
+    {
+      "id": "q-c01-014",
+      "version": 2,
+      "chapterId": "c01",
+      "sectionId": "c01-s02",
+      "paragraphId": "c01-s02-p009-05468",
+      "sentenceIds": [
+        "c01-s02-p009-05468-s013"
+      ],
+      "passage": "It is possible that the main reason my father has been so happy is that he adjusted his expectations so that he came to cherish everyday life on the farm, enjoying smaller pleasures alongside his longtime spouse.",
+      "prompt": "How certain is the author about why his father has been happy?",
+      "options": [
+        "He offers adjusted expectations as a possible explanation.",
+        "He identifies the father’s income as the only proven cause.",
+        "He says family tradition has no possible relevance.",
+        "He reports that his father was experimentally assigned to lower expectations."
+      ],
+      "answer": 0,
+      "type": "有限推断",
+      "analyses": [
+        "A possible explanation 对应 It is possible that。",
+        "B income 与 only proven cause 都没有文本支持。",
+        "C 文中未否定传统，反而多次提到。",
+        "D 把个人推测改成随机干预事实。"
+      ],
+      "evidence": [
+        {
+          "quote": "It is possible that the main reason my father has been so happy is that he adjusted his expectations so that he came to cherish everyday life on the farm, enjoying smaller pleasures alongside his longtime spouse.",
+          "sentenceIds": [
+            "c01-s02-p009-05468-s013"
+          ],
+          "sources": [
+            {
+              "pdfPage": 10,
+              "block": 0,
+              "bbox": [
+                76.99,
+                75,
+                535.01,
+                284.52
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "cherish",
+          "meaning": "珍爱；珍惜",
+          "context": "父亲可能学会珍惜农场日常生活",
+          "example": "We cherish the time we spend together.",
+          "collocations": [
+            "cherish a memory",
+            "cherish everyday life"
+          ]
+        }
+      ],
+      "support": "inference",
+      "editorialStatus": "短段版 v2；连续原句，配题片段互不重叠；保留 v1 历史快照，不重算旧成绩",
+      "translation": "父亲一直如此幸福，主要原因可能是他调整了期待，因此学会珍惜农场日常生活，与相伴多年的妻子一起享受小小的乐趣。",
+      "readingUnitId": "c01-s02-p009-05468-r013-013",
+      "fingerprint": "4ad45b5630c81e32faaeb9124a1d60531800b35b0c67f5569d54731e239753f4"
+    },
+    {
+      "id": "qe-c01-0023",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-001",
+      "parentQuestionId": "q-c01-050",
+      "chapterId": "c01",
+      "sectionId": "c01-s02",
+      "paragraphId": "c01-s02-p010-02895",
+      "readingUnitId": "c01-s02-p010-02895-r007-008",
+      "sentenceIds": [
+        "c01-s02-p010-02895-s007",
+        "c01-s02-p010-02895-s008"
+      ],
+      "passage": "French philosopher Jean-Paul Sartre would have called this a life of “bad faith.” An example is found in Toni Morrison’s novel Sula, where Nel Wright puts aside her childhood dreams of adventure to seek perfection in her role as a wife and mother, just as her family expects of her.",
+      "prompt": "According to the narrator, whose terminology would describe this life as one of 'bad faith'?",
+      "promptZh": "按叙述者的说法，哪位思想家的术语会将这种生活描述为“自欺”的生活？",
+      "options": [
+        "Jean-Paul Sartre's.",
+        "Donna Tartt's.",
+        "Toni Morrison's.",
+        "The Clash's."
+      ],
+      "optionsZh": [
+        "让-保罗·萨特的。",
+        "唐娜·塔特的。",
+        "托妮·莫里森的。",
+        "冲撞乐队的。"
+      ],
+      "answer": 0,
+      "type": "观点归属",
+      "support": "explicit",
+      "analyses": [
+        "A 原文明说 French philosopher Jean-Paul Sartre，并用 would have called 表示作者借用这一哲学描述。",
+        "B Tartt 在前文提出美好生活与幸福的取舍问题，不是本句归属的哲学家。",
+        "C Morrison 在后面的小说例子中出现，不是 bad faith 标签在本句中的归属。",
+        "D The Clash 提供去留问题的歌词表达，不是这里的哲学术语来源。would have called 也不等于作者声称引用了萨特针对其父亲的逐字原话。"
+      ],
+      "vocabulary": [
+        {
+          "word": "bad faith",
+          "meaning": "自欺；不忠于自身愿望的状态（此处哲学语境）",
+          "context": "作者借用萨特的说法讨论为既定角色而放下自身愿望的生活，不是一般的欠信用债务。",
+          "example": "The essay examines bad faith as a way of avoiding an authentic choice.",
+          "collocations": [
+            "a life of bad faith",
+            "Sartre's idea of bad faith"
+          ]
+        }
+      ],
+      "translation": "法国哲学家让-保罗·萨特会把这种人生称为“自欺”的人生。托妮·莫里森的小说《秀拉》里有一个例子：Nel Wright 搁置了儿时冒险的梦想，转而追求在妻子和母亲的角色上做到完美，正如家人对她的期待。",
+      "evidenceTargetIds": [
+        "c01-s02-p010-02895-s007"
+      ],
+      "evidence": [
+        {
+          "quote": "French philosopher Jean-Paul Sartre would have called this a life of “bad faith.”",
+          "sentenceIds": [
+            "c01-s02-p010-02895-s007"
+          ],
+          "sources": [
+            {
+              "pdfPage": 10,
+              "block": 1,
+              "bbox": [
+                76.99,
+                289.5,
+                535.01,
+                557.52
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "c202510abee358bc1298f5ac9ae856ac7ed4e4ad4040f68cd224e8f7020f1872"
+    },
+    {
+      "id": "q-c01-017",
+      "version": 2,
+      "chapterId": "c01",
+      "sectionId": "c01-s02",
+      "paragraphId": "c01-s02-p010-05625",
+      "sentenceIds": [
+        "c01-s02-p010-05625-s001",
+        "c01-s02-p010-05625-s002",
+        "c01-s02-p010-05625-s003"
+      ],
+      "passage": "At the opposite end of the spectrum is the neurologist and writer Oliver Sacks, who was an enthusiastic Hells Angels motorcyclist, bodybuilder, and LSD user before launching his writing career. He struggled with depression in his college days; his own mother told him that she wished he had never been born when she learned that he was gay; and he spent thirty-five years of his adult life celibate. Yet, even though he had some tough years, his life was full of adventure and curiosity, challenged professional boundaries, and was deeply experientially and emotionally rich—it was an authentic life, the kind that Sartre would have approved of.",
+      "prompt": "What role does the account of Oliver Sacks play here?",
+      "options": [
+        "It establishes that Sartre conducted research on Sacks.",
+        "It shows that professional boundaries never matter.",
+        "It proves that depression is necessary for a valuable life.",
+        "It offers an example of an adventurous, experientially rich life despite hardship."
+      ],
+      "answer": 3,
+      "type": "作者意图",
+      "analyses": [
+        "A would have approved 是作者假设的哲学评价，不是研究事实。",
+        "B challenged boundaries 不等于所有边界无价值。",
+        "C despite 不等于 necessary：逆境不是必要条件。",
+        "D 对应 Yet / even though 与 rich、adventure、curiosity。"
+      ],
+      "evidence": [
+        {
+          "quote": "Yet, even though he had some tough years, his life was full of adventure and curiosity, challenged professional boundaries, and was deeply experientially and emotionally rich—it was an authentic life, the kind that Sartre would have approved of.",
+          "sentenceIds": [
+            "c01-s02-p010-05625-s003"
+          ],
+          "sources": [
+            {
+              "pdfPage": 10,
+              "block": 2,
+              "bbox": [
+                76.99,
+                562.5,
+                535.01,
+                694.02
+              ]
+            },
+            {
+              "pdfPage": 11,
+              "block": 0,
+              "bbox": [
+                76.99,
+                75,
+                535,
+                109.02
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "authentic",
+          "meaning": "真实的；忠于自我的",
+          "context": "与自己的欲望和理想一致的人生",
+          "example": "He wanted a life that felt authentic.",
+          "collocations": [
+            "an authentic life",
+            "authentic experience"
+          ]
+        }
+      ],
+      "support": "explicit",
+      "editorialStatus": "短段版 v2；连续原句，配题片段互不重叠；保留 v1 历史快照，不重算旧成绩",
+      "translation": "处于另一端的是神经科医生兼作家奥利弗·萨克斯；开始写作生涯前，他曾热衷于“地狱天使”摩托骑行、健美和使用 LSD。他大学时曾与抑郁抗争；母亲得知他是同性恋后，竟说希望他从未出生；他成年生活中有三十五年保持独身。然而，尽管经历艰难，他的人生充满探索和好奇，挑战职业界限，在经历与情感上都极为丰富——那是真实的人生，是萨特会赞同的那一种。",
+      "readingUnitId": "c01-s02-p010-05625-r001-003",
+      "fingerprint": "d5198cb6f475d383d705254e5cb14cc2e5798eb45eaa5297bf66e4ee34ab0582"
+    },
+    {
+      "id": "qe-c01-0024",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-001",
+      "parentQuestionId": "q-c01-017",
+      "chapterId": "c01",
+      "sectionId": "c01-s02",
+      "paragraphId": "c01-s02-p010-05625",
+      "readingUnitId": "c01-s02-p010-05625-r001-003",
+      "sentenceIds": [
+        "c01-s02-p010-05625-s001",
+        "c01-s02-p010-05625-s002",
+        "c01-s02-p010-05625-s003"
+      ],
+      "passage": "At the opposite end of the spectrum is the neurologist and writer Oliver Sacks, who was an enthusiastic Hells Angels motorcyclist, bodybuilder, and LSD user before launching his writing career. He struggled with depression in his college days; his own mother told him that she wished he had never been born when she learned that he was gay; and he spent thirty-five years of his adult life celibate. Yet, even though he had some tough years, his life was full of adventure and curiosity, challenged professional boundaries, and was deeply experientially and emotionally rich—it was an authentic life, the kind that Sartre would have approved of.",
+      "prompt": "Which activities are placed before the launch of Oliver Sacks's writing career?",
+      "promptZh": "哪些活动被放在 Oliver Sacks 开始写作生涯之前？",
+      "options": [
+        "Teaching literature, writing novels, and running a publishing firm.",
+        "Motorcycling with Hells Angels, bodybuilding, and using LSD.",
+        "Farming, playing neighborhood softball, and visiting hot springs.",
+        "Conducting happiness surveys, directing films, and composing songs."
+      ],
+      "optionsZh": [
+        "教文学、写小说、经营出版公司。",
+        "参与地狱天使摩托骑行、健美、使用 LSD。",
+        "务农、参加社区垒球、泡温泉。",
+        "做幸福感调查、执导电影、创作歌曲。"
+      ],
+      "answer": 1,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A 这些活动不是该句列出的前期经历，不能由 writer 身份补出。",
+        "B enthusiastic Hells Angels motorcyclist, bodybuilder, and LSD user 与 before launching his writing career 明确对应。",
+        "C 这些来自父亲生活的活动，属于人物归属错配。",
+        "D 把书中其他主题拼成了不存在的个人经历。本题只辨识作者的生平叙述，不将使用药物的经历当成建议或好处证明。"
+      ],
+      "vocabulary": [
+        {
+          "word": "launching",
+          "meaning": "开始；开启",
+          "context": "launching his writing career 指开启写作生涯，不是发射物体。",
+          "example": "She worked as a teacher before launching her writing career.",
+          "collocations": [
+            "launch a career",
+            "launch a writing career"
+          ]
+        }
+      ],
+      "translation": "处于另一端的是神经科医生兼作家奥利弗·萨克斯；开始写作生涯前，他曾热衷于“地狱天使”摩托骑行、健美和使用 LSD。他大学时曾与抑郁抗争；母亲得知他是同性恋后，竟说希望他从未出生；他成年生活中有三十五年保持独身。然而，尽管经历艰难，他的人生充满探索和好奇，挑战职业界限，在经历与情感上都极为丰富——那是真实的人生，是萨特会赞同的那一种。",
+      "evidenceTargetIds": [
+        "c01-s02-p010-05625-s001"
+      ],
+      "evidence": [
+        {
+          "quote": "At the opposite end of the spectrum is the neurologist and writer Oliver Sacks, who was an enthusiastic Hells Angels motorcyclist, bodybuilder, and LSD user before launching his writing career.",
+          "sentenceIds": [
+            "c01-s02-p010-05625-s001"
+          ],
+          "sources": [
+            {
+              "pdfPage": 10,
+              "block": 2,
+              "bbox": [
+                76.99,
+                562.5,
+                535.01,
+                694.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "3b83dc865cf5e0e096c1d19c999e1235eb94b6b5293e1664aff7bf300e22edfc"
+    },
+    {
+      "id": "qe-c01-0025",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-001",
+      "parentQuestionId": "q-c01-017",
+      "chapterId": "c01",
+      "sectionId": "c01-s02",
+      "paragraphId": "c01-s02-p010-05625",
+      "readingUnitId": "c01-s02-p010-05625-r001-003",
+      "sentenceIds": [
+        "c01-s02-p010-05625-s001",
+        "c01-s02-p010-05625-s002",
+        "c01-s02-p010-05625-s003"
+      ],
+      "passage": "At the opposite end of the spectrum is the neurologist and writer Oliver Sacks, who was an enthusiastic Hells Angels motorcyclist, bodybuilder, and LSD user before launching his writing career. He struggled with depression in his college days; his own mother told him that she wished he had never been born when she learned that he was gay; and he spent thirty-five years of his adult life celibate. Yet, even though he had some tough years, his life was full of adventure and curiosity, challenged professional boundaries, and was deeply experientially and emotionally rich—it was an authentic life, the kind that Sartre would have approved of.",
+      "prompt": "What does the thirty-five-year period refer to?",
+      "promptZh": "三十五年这一时段指什么？",
+      "options": [
+        "The length of Sacks's depression while he was at college.",
+        "The time he spent launching his first writing project.",
+        "His period of celibacy during adult life.",
+        "The years he spent living in his mother's home."
+      ],
+      "optionsZh": [
+        "萨克斯大学期间抑郁持续的时间。",
+        "他启动首个写作项目所花的时间。",
+        "他成年生活中保持独身的时间。",
+        "他住在母亲家中的年数。"
+      ],
+      "answer": 2,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A college days 说明抑郁经历发生的阶段，并没有说持续三十五年。",
+        "B 三十五年没有修饰写作项目或创作时间。",
+        "C spent thirty-five years of his adult life celibate 明确给出年数与所描述的成年生活状态。",
+        "D 本句没有提供与母亲同住的年数。分号并列多种经历，不能把时长错接到别的分句，也不能由母亲的话补出确定的临床因果。"
+      ],
+      "vocabulary": [
+        {
+          "word": "celibate",
+          "meaning": "独身的；不从事性关系的",
+          "context": "在该句中描述他成年生活中持续三十五年的个人状态，不说明其原因。",
+          "example": "The biography describes a long period when he remained celibate.",
+          "collocations": [
+            "remain celibate",
+            "a celibate life"
+          ]
+        }
+      ],
+      "translation": "处于另一端的是神经科医生兼作家奥利弗·萨克斯；开始写作生涯前，他曾热衷于“地狱天使”摩托骑行、健美和使用 LSD。他大学时曾与抑郁抗争；母亲得知他是同性恋后，竟说希望他从未出生；他成年生活中有三十五年保持独身。然而，尽管经历艰难，他的人生充满探索和好奇，挑战职业界限，在经历与情感上都极为丰富——那是真实的人生，是萨特会赞同的那一种。",
+      "evidenceTargetIds": [
+        "c01-s02-p010-05625-s002"
+      ],
+      "evidence": [
+        {
+          "quote": "He struggled with depression in his college days; his own mother told him that she wished he had never been born when she learned that he was gay; and he spent thirty-five years of his adult life celibate.",
+          "sentenceIds": [
+            "c01-s02-p010-05625-s002"
+          ],
+          "sources": [
+            {
+              "pdfPage": 10,
+              "block": 2,
+              "bbox": [
+                76.99,
+                562.5,
+                535.01,
+                694.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "5729af56951987052b7d26eb6c551d5c3faf56d692811a61136fa7e676a7c06b"
+    }
+  ]
+}
