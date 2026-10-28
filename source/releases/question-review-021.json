@@ -1,0 +1,121 @@
+{
+  "schemaVersion": 1,
+  "id": "question-review-2026-10-28-021",
+  "status": "published-and-verified",
+  "verifiedAt": "2026-10-28T15:02:58.564Z",
+  "url": "https://audience20060904-lang.github.io/Reading/",
+  "sourceCommit": "c04f967a0b53e67a9b8d1bce6d859477a9128060",
+  "deploymentCommit": "063b965c11cb65c1d2534fdad51cac5d9fb3b986",
+  "offlineVersion": "e5f17713845f3990",
+  "previousBatch": "source/releases/question-review-020.json",
+  "questionFingerprints": {
+    "q-c02-005": "a74bb3a14105ec5d347bcf1fa85af573e21bbfadd065651f75a2b5a38ba661c8",
+    "q-c02-006": "648b0f35a21ca99fca4b05545c4964d70257f8769186557ba16f901f9212d239",
+    "qe-c02-0024": "f67668eecce727533d476e266c55843a15e59cf3c21fd031053af88cbf7d528b",
+    "qe-c02-0027": "6d9e342c478cf495399e716081f63d1847edad997d2277927f3ecb11c92fe3ec",
+    "qe-c02-0028": "e4ff12f715632af10fc243fb2472d60f56a0051ffdc1f4212314b188e3a893ad",
+    "qe-c02-0029": "671b44bb7c9105e6a8528799d31e3188973fbac819d94f69c6d14c966560a1ab",
+    "qe-c02-0030": "e200514caa2a4eb9b474f3d56f72655fcbb40f32ee6876123cdc2a2a5b0fec22",
+    "qe-c02-0034": "4aad9cb3984d02e7458399b6adb30c4e1b9ffea89a28e829165375e795b210c3"
+  },
+  "content": {
+    "totalQuestions": 2709,
+    "manuallyReviewedQuestions": 20,
+    "reviewedSourceCandidates": 24,
+    "revisedQuestions": 8,
+    "totalRevisedQuestions": 182,
+    "changedAnswerPositions": 0,
+    "remainingQuestionReviews": 2307,
+    "fullQuestionBankHumanReview": false
+  },
+  "validation": {
+    "unitTestsPassed": 404,
+    "build": "npm run build:pages passed",
+    "pdf": {
+      "sha256": "be25c859f1bd894a4b0d1cff024ded1297f6a96a8e8ddabea1e3abcf89160a50",
+      "pagesVisuallyReviewed": [
+        19,
+        20
+      ],
+      "sourceBlocksTextMatched": 4
+    },
+    "localBrowser": [
+      "全部缓存资产及Service Worker与本次生产构建逐字节匹配",
+      "提交前无证据标记；提交后精确标出依据且原文不变、淡蓝色查词仍可用",
+      "相近题型合并为一行并按提交次数计算50%正确率，原始标签和历史记录不变",
+      "逐题提交8道校对题，交替验证正误、四项译文与分析、整段译文及完整快照；提交前不显示中文解析",
+      "真实浏览器恢复旧选项、旧译文、旧错题成绩与用时；重练采用新版，新增记录且不改历史",
+      "390px和320px深色视口，选项、解析和整段译文均无横向溢出",
+      "旧未提交选择遇到改版时清空，新版位置保留；已提交解析正常刷新恢复",
+      "离线模拟恢复新旧两版成绩；本地另实际停止HTTP服务后缓存恢复新版题目与译文"
+    ],
+    "liveBrowser": [
+      "全部缓存资产及Service Worker与本次生产构建逐字节匹配",
+      "提交前无证据标记；提交后精确标出依据且原文不变、淡蓝色查词仍可用",
+      "相近题型合并为一行并按提交次数计算50%正确率，原始标签和历史记录不变",
+      "逐题提交8道校对题，交替验证正误、四项译文与分析、整段译文及完整快照；提交前不显示中文解析",
+      "真实浏览器恢复旧选项、旧译文、旧错题成绩与用时；重练采用新版，新增记录且不改历史",
+      "390px和320px深色视口，选项、解析和整段译文均无横向溢出",
+      "旧未提交选择遇到改版时清空，新版位置保留；已提交解析正常刷新恢复",
+      "离线模拟恢复新旧两版成绩；本地另实际停止HTTP服务后缓存恢复新版题目与译文"
+    ],
+    "liveRevisedQuestionsVisited": 8,
+    "assets": "All 13 manifest assets and the service worker byte-match the tested build.",
+    "history": "All twenty previous editorial batch fingerprints preserved. Source text, original question banks, reading plan, completed prior audit and submitted snapshots unchanged.",
+    "integrity": {
+      "passed": true,
+      "protectedBase": "48552be4956ee61a3f1b1a59a4ed1c4c67f67e03",
+      "protectedPaths": 73,
+      "publishedReceiptsVerified": 21,
+      "chapter1QuestionReviews": 137,
+      "totalReviewedQuestionIds": 402,
+      "remainingQuestionReviews": 2307,
+      "fullQuestionBankHumanReview": false
+    },
+    "transportVerification": {
+      "baseRunner": "scripts/question-review-browser-test.mjs",
+      "actualRunner": "qa/question-review-021-browser-retry.mjs",
+      "runnerSha256": "a53724cd5acce5462fd0811744e8d5defd47ff6eb5adcb507da5096eb18523ad",
+      "change": "Identical browser checks and byte equality assertions. Only asset GETs retry the exact TLS-before-connection transport error, at most four attempts; no HTTP or hash mismatch is retried or ignored.",
+      "initialFailedAttempts": [
+        {
+          "attempt": 1,
+          "error": "Error: apiRequestContext.get: Client network socket disconnected before secure TLS connection was established\nCall log:\n\u001b[2m  - → GET https://audience20060904-lang.github.io/Reading/assets/index-CCawKviN.css?verify=e5f17713845f3990\u001b[22m\n\u001b[2m    - user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36 Edg/156.0.0.0\u001b[22m\n\u001b[2m    - accept: */*\u001b[22m\n\u001b[2m    - accept-encoding: gzip,deflate,br\u001b[22m\n"
+        },
+        {
+          "attempt": 2,
+          "error": "Error: apiRequestContext.get: Client network socket disconnected before secure TLS connection was established\nCall log:\n\u001b[2m  - → GET https://audience20060904-lang.github.io/Reading/icon.svg?verify=e5f17713845f3990\u001b[22m\n\u001b[2m    - user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36 Edg/156.0.0.0\u001b[22m\n\u001b[2m    - accept: */*\u001b[22m\n\u001b[2m    - accept-encoding: gzip,deflate,br\u001b[22m\n"
+        },
+        {
+          "attempt": 3,
+          "error": "Error: apiRequestContext.get: Client network socket disconnected before secure TLS connection was established\nCall log:\n\u001b[2m  - → GET https://audience20060904-lang.github.io/Reading/data/evidence-questions.json?verify=e5f17713845f3990\u001b[22m\n\u001b[2m    - user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36 Edg/156.0.0.0\u001b[22m\n\u001b[2m    - accept: */*\u001b[22m\n\u001b[2m    - accept-encoding: gzip,deflate,br\u001b[22m\n"
+        }
+      ],
+      "successfulRunTransportRetries": []
+    }
+  },
+  "report": "source/question-revisions/review-021-report.json",
+  "continuation": "source/question-semantic-audit.json",
+  "limits": [
+    "Isolated synthetic data only; Prewritten versioned editorial corrections checked against their current records. Mobile is a viewport, not a physical phone.",
+    "Live offline checks use browser simulation; actual HTTP-server shutdown performed locally.",
+    "The remaining 2307 questions await expanded per-question review; this is not a count of known errors or missing questions."
+  ],
+  "lookupRevisionFingerprints": [
+    {
+      "revisionId": "question-review-2026-10-28-014",
+      "occurrenceId": "c01-s02-p010-05625@390:398",
+      "sha256": "3f1c35d38c91722bcc39c64b5b0a8840e39e25f13b54a64c3b17e3e3b65c9119"
+    },
+    {
+      "revisionId": "question-review-2026-10-28-017",
+      "occurrenceId": "c01-s04-p013-05662@523:538",
+      "sha256": "e668951b5f0d67dc54eead608d4705f185d33b045e245438d51e00add8ec2342"
+    },
+    {
+      "revisionId": "question-review-2026-10-28-017",
+      "occurrenceId": "c01-s04-p013-05662@694:709",
+      "sha256": "779785898d0be134c0bfc0aed22cd7705803b476a9c3a4a0c2205b5d92278e1d"
+    }
+  ]
+}
