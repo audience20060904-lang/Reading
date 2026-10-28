@@ -14,6 +14,7 @@ const read=(p:string)=>JSON.parse(readFileSync(p,'utf8'));
 const book=read('public/data/book.json') as Book,base=read('public/data/questions.json') as Question[],extras=read('public/data/evidence-questions.json') as Question[],originalPlan=read('public/data/reading-plan.json') as ReadingPlan,repair=read('src/data/sentence-repair-catalog.json'),catalog=read('src/data/question-revision-catalog.json'),revisionManifest=read('source/question-revisions/manifest.json'),frozen={questions:revisionManifest.batches.flatMap((b:{baseline:string})=>read(b.baseline).questions)};
 const before=[...base.map(q=>repair.questions.find((r:Question)=>r.id===q.id)??q),...extras] as Question[],active=activeReading(base,originalPlan,extras),qs=active.questions;
 const canonical=(v:any):string=>Array.isArray(v)?'['+v.map(canonical).join(',')+']':v&&typeof v==='object'?'{'+Object.keys(v).sort().map(k=>JSON.stringify(k)+':'+canonical(v[k])).join(',')+'}':JSON.stringify(v);
+const encodedText=(value:string)=>renderToStaticMarkup(<>{value}</>);
 
 describe('有版本记录的题目校对',()=>{
  it('修订题逐版升级，其余题目及全部阅读单元和来源完全保留',()=>{
@@ -35,7 +36,7 @@ describe('有版本记录的题目校对',()=>{
   const restored=restoreReadingState(s,qs,active.plan);expect(restored.session?.selected).toBeNull();expect(restored.session?.fingerprint).toBe(q.fingerprint);restored.session!.selected=1;expect(restoreReadingState(restored,qs,active.plan).session?.selected).toBe(1);expect(restored.attempts).toEqual([]);
  });
  it('提交前不显示新译文和解析；提交后显示匹配版本并去掉过期编校话语',()=>{
-  for(const q of catalog.questions as Question[]){const props={question:q,favorites:[],onFavorite:()=>{}};expect(renderToStaticMarkup(<AnswerExplanation {...props}/>)).toBe('');const attempt=grade(q,q.answer,emptyState(),1234),html=renderToStaticMarkup(<AnswerExplanation {...props} attempt={attempt}/>);expect(html).toContain(q.promptZh);expect(html).not.toContain('下一批');expect(html).not.toContain('此历史版本的问题译文尚未整理');expect(html).not.toContain('此历史版本的选项译文尚未整理');for(const z of q.optionsZh!)expect(html).toContain(z);}
+  for(const q of catalog.questions as Question[]){const props={question:q,favorites:[],onFavorite:()=>{}};expect(renderToStaticMarkup(<AnswerExplanation {...props}/>)).toBe('');const attempt=grade(q,q.answer,emptyState(),1234),html=renderToStaticMarkup(<AnswerExplanation {...props} attempt={attempt}/>);expect(html).toContain(encodedText(q.promptZh!));expect(html).not.toContain('下一批');expect(html).not.toContain('此历史版本的问题译文尚未整理');expect(html).not.toContain('此历史版本的选项译文尚未整理');for(const z of q.optionsZh!)expect(html).toContain(encodedText(z));}
  });
  it('错误PDF或变化的基线拒绝套用校对，未知题目不被覆盖',()=>{
   expect(()=>applyQuestionRevisions(before,'wrong')).toThrow('来源');expect(()=>applyQuestionRevisions(before.map(q=>q.id==='q-c01-024'?{...q,fingerprint:'changed'}:q),book.pdfSha256)).toThrow('版本');const unknown={...base[0],id:'unknown'};expect(applyQuestionRevisions([unknown],book.pdfSha256)).toEqual([unknown]);
