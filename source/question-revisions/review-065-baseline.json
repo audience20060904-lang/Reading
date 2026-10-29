@@ -1,0 +1,1468 @@
+{
+  "pdfSha256": "be25c859f1bd894a4b0d1cff024ded1297f6a96a8e8ddabea1e3abcf89160a50",
+  "sourceCommit": "61afb4fbce9ec53da27a2d3d5fb04028bb9b10fd",
+  "frozenTargetsSourceCommit": "eae1d36a4b06c6d5d1f8ec0e62dd430ced8451d4",
+  "questions": [
+    {
+      "id": "q-c07-054",
+      "version": 1,
+      "readingUnitId": "c07-s05-p075-04770-r001-004",
+      "chapterId": "c07",
+      "sectionId": "c07-s05",
+      "paragraphId": "c07-s05-p075-04770",
+      "sentenceIds": [
+        "c07-s05-p075-04770-s001",
+        "c07-s05-p075-04770-s002",
+        "c07-s05-p075-04770-s003",
+        "c07-s05-p075-04770-s004"
+      ],
+      "passage": "In the essay “Why Is It Hard to Make Friends Over 30?” New York Times reporter Alex Williams concludes, “No matter how many friends you make, a sense of fatalism can creep in: the period for making B.F.F.’s, the way you did in your teens or early 20s, is pretty much over. It’s time to resign yourself to situational friends: K.O.F.’s (kind of friends)—for now.” At work, you might get close to someone from being on the same project.",
+      "prompt": "What are “K.O.F.’s” in Williams’s quotation?",
+      "options": [
+        "Friends guaranteed to remain best friends forever.",
+        "A formal experimental category based on a measured age threshold.",
+        "“Kind of friends”: situational friends, at least for now.",
+        "Only people who share the same dormitory room."
+      ],
+      "answer": 2,
+      "type": "语境词义",
+      "promptZh": "Williams 引语中的 K.O.F.’s 指什么？",
+      "optionsZh": [
+        "保证永远最好的朋友。",
+        "基于测定年龄阈值的正式实验类别。",
+        "某种程度的朋友：至少暂时是情境性朋友。",
+        "仅限同一宿舍房间的人。"
+      ],
+      "analyses": [
+        "A 与 situational、for now 的暂时性不符。",
+        "B 记者引语不是测出三十岁绝对界线的实验。",
+        "C 括号 kind of friends 直接释义，和前文 situational 相接。",
+        "D 当前引语讲成年工作情境，没有限定宿舍。fatalism can creep in 是可能出现的感受，不能改成注定无法交密友的事实。"
+      ],
+      "evidence": [
+        {
+          "quote": "situational friends: K.O.F.’s (kind of friends)—for now.",
+          "sentenceIds": [
+            "c07-s05-p075-04770-s003"
+          ],
+          "sources": [
+            {
+              "pdfPage": 75,
+              "block": 3,
+              "bbox": [
+                76.99,
+                477,
+                535.01,
+                706.02
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "fatalism",
+          "meaning": "宿命感；认为事情已注定的心态",
+          "context": "指对成年交密友可能生出的感受，不是作者测得的必然命运",
+          "example": "A sense of fatalism made it harder for him to try again.",
+          "collocations": [
+            "a sense of fatalism",
+            "fatalism can creep in"
+          ]
+        }
+      ],
+      "translation": "在“Why Is It Hard to Make Friends Over 30?”一文中，New York Times 记者 Alex Williams 总结：“不管结交多少朋友，宿命感可能悄悄出现：像青少年或二十岁出头那样交 B.F.F. 的时期，差不多过去了。该接受情境性朋友了：K.O.F.（某种程度的朋友）——至少暂时如此。”工作中，你可能因同一项目而与某人亲近。",
+      "support": "explicit",
+      "editorialStatus": "PDF 第 73–77 页逐题原页核对；固定原句和来源；区分随机干预的实测、自报、未测推测、团队调查、私人叙事、假设情境和电影引例",
+      "fingerprint": "8a8090183d30ee029c3592b55b3ff7759515413f8faf549249dfa9570a236624"
+    },
+    {
+      "id": "qe-c07-0088",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-027",
+      "parentQuestionId": "q-c07-054",
+      "chapterId": "c07",
+      "sectionId": "c07-s05",
+      "paragraphId": "c07-s05-p075-04770",
+      "readingUnitId": "c07-s05-p075-04770-r001-004",
+      "sentenceIds": [
+        "c07-s05-p075-04770-s001",
+        "c07-s05-p075-04770-s002",
+        "c07-s05-p075-04770-s003",
+        "c07-s05-p075-04770-s004"
+      ],
+      "passage": "In the essay “Why Is It Hard to Make Friends Over 30?” New York Times reporter Alex Williams concludes, “No matter how many friends you make, a sense of fatalism can creep in: the period for making B.F.F.’s, the way you did in your teens or early 20s, is pretty much over. It’s time to resign yourself to situational friends: K.O.F.’s (kind of friends)—for now.” At work, you might get close to someone from being on the same project.",
+      "prompt": "What is the role of the essay title in this passage?",
+      "promptZh": "这段所列文章标题起什么作用？",
+      "options": [
+        "It introduces a quotation attributed to reporter Alex Williams about friendship after thirty.",
+        "It names the49-team company survey.",
+        "It labels a clinical trial proving no friendship is possible after thirty.",
+        "It is the title of a novel about Moritz's train journey."
+      ],
+      "optionsZh": [
+        "引入记者 Alex Williams 关于三十岁后交友的引文。",
+        "命名49团队企业调查。",
+        "标记证明三十岁后无法交友的临床试验。",
+        "是 Moritz 火车旅行小说标题。"
+      ],
+      "answer": 0,
+      "type": "观点归属",
+      "support": "explicit",
+      "analyses": [
+        "A In the essay...reporter Alex Williams concludes 将来源标题、作者与引文连起。",
+        "B 不是前一个团队研究。",
+        "C 记者评论不是临床试验，标题问难处也非绝不可能。",
+        "D Moritz 在下一小段是哲学假想例子，不是本标题人物。"
+      ],
+      "vocabulary": [
+        {
+          "word": "concludes",
+          "meaning": "总结道；得出评论结论",
+          "context": "此处 reporter concludes 引出文章观点，不是说已实施新控制实验。",
+          "example": "The essay concludes with a reflection on everyday friendship.",
+          "collocations": [
+            "Alex Williams concludes",
+            "in the essay"
+          ]
+        }
+      ],
+      "translation": "在“Why Is It Hard to Make Friends Over 30?”一文中，New York Times 记者 Alex Williams 总结：“不管结交多少朋友，宿命感可能悄悄出现：像青少年或二十岁出头那样交 B.F.F. 的时期，差不多过去了。该接受情境性朋友了：K.O.F.（某种程度的朋友）——至少暂时如此。”工作中，你可能因同一项目而与某人亲近。",
+      "evidenceTargetIds": [
+        "c07-s05-p075-04770-s001"
+      ],
+      "evidence": [
+        {
+          "quote": "In the essay “Why Is It Hard to Make Friends Over 30?” New York Times reporter Alex Williams concludes, “No matter how many friends you make, a sense of fatalism can creep in: the period for making B.F.F.’s, the way you did in your teens or early 20s, is pretty much over. It’s time to resign yourself to situational friends: K.O.F.’s (kind of friends)—for now.” At work, you might get close to someone from being on the same project.",
+          "sentenceIds": [
+            "c07-s05-p075-04770-s001",
+            "c07-s05-p075-04770-s002",
+            "c07-s05-p075-04770-s003",
+            "c07-s05-p075-04770-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 75,
+              "block": 3,
+              "bbox": [
+                76.99,
+                477,
+                535.01,
+                706.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "cb37231db2d7db7a877fc20ea8f1c6d0f0aab84a3ac65a6ffe7fa9a43ab6a53a"
+    },
+    {
+      "id": "qe-c07-0089",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-027",
+      "parentQuestionId": "q-c07-054",
+      "chapterId": "c07",
+      "sectionId": "c07-s05",
+      "paragraphId": "c07-s05-p075-04770",
+      "readingUnitId": "c07-s05-p075-04770-r001-004",
+      "sentenceIds": [
+        "c07-s05-p075-04770-s001",
+        "c07-s05-p075-04770-s002",
+        "c07-s05-p075-04770-s003",
+        "c07-s05-p075-04770-s004"
+      ],
+      "passage": "In the essay “Why Is It Hard to Make Friends Over 30?” New York Times reporter Alex Williams concludes, “No matter how many friends you make, a sense of fatalism can creep in: the period for making B.F.F.’s, the way you did in your teens or early 20s, is pretty much over. It’s time to resign yourself to situational friends: K.O.F.’s (kind of friends)—for now.” At work, you might get close to someone from being on the same project.",
+      "prompt": "How is the sense of fatalism presented in Williams's quotation?",
+      "promptZh": "Williams 引文中的宿命感怎样被呈现？",
+      "options": [
+        "As an unavoidable diagnosed state in every person over thirty.",
+        "As something that can gradually arise even when one makes many friends.",
+        "As proof that no reader can ever form another close bond.",
+        "As the researchers' numerical score for all company teams."
+      ],
+      "optionsZh": [
+        "作为每位三十岁以上者必有的诊断状态。",
+        "作为即使结识许多朋友也可能逐渐浮现的感受。",
+        "作为读者绝不能再有亲密关系的证明。",
+        "作为研究者给所有企业团队的数字分数。"
+      ],
+      "answer": 1,
+      "type": "语气与范围",
+      "support": "explicit",
+      "analyses": [
+        "A can creep in 保留可能，不是临床全员诊断。",
+        "B No matter how many...can creep in 描写数量多也未必消除这种感受。",
+        "C 引述评论不能升级成所有人未来不可能。",
+        "D 不属于前面公司调查的量化指标。"
+      ],
+      "vocabulary": [
+        {
+          "word": "creep in",
+          "meaning": "悄悄出现；逐渐渗入",
+          "context": "比喻情绪逐渐出现，不是某个人实体潜入房间。",
+          "example": "A sense of doubt can creep in during a long project.",
+          "collocations": [
+            "a sense of fatalism can creep in",
+            "doubt creeps in"
+          ]
+        }
+      ],
+      "translation": "在“Why Is It Hard to Make Friends Over 30?”一文中，New York Times 记者 Alex Williams 总结：“不管结交多少朋友，宿命感可能悄悄出现：像青少年或二十岁出头那样交 B.F.F. 的时期，差不多过去了。该接受情境性朋友了：K.O.F.（某种程度的朋友）——至少暂时如此。”工作中，你可能因同一项目而与某人亲近。",
+      "evidenceTargetIds": [
+        "c07-s05-p075-04770-s002"
+      ],
+      "evidence": [
+        {
+          "quote": "In the essay “Why Is It Hard to Make Friends Over 30?” New York Times reporter Alex Williams concludes, “No matter how many friends you make, a sense of fatalism can creep in: the period for making B.F.F.’s, the way you did in your teens or early 20s, is pretty much over. It’s time to resign yourself to situational friends: K.O.F.’s (kind of friends)—for now.” At work, you might get close to someone from being on the same project.",
+          "sentenceIds": [
+            "c07-s05-p075-04770-s001",
+            "c07-s05-p075-04770-s002",
+            "c07-s05-p075-04770-s003",
+            "c07-s05-p075-04770-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 75,
+              "block": 3,
+              "bbox": [
+                76.99,
+                477,
+                535.01,
+                706.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "2037a7092757a2ac500d002b4dcc881090224a05220cb1430069103701f645b7"
+    },
+    {
+      "id": "qe-c07-0090",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-027",
+      "parentQuestionId": "q-c07-054",
+      "chapterId": "c07",
+      "sectionId": "c07-s05",
+      "paragraphId": "c07-s05-p075-04770",
+      "readingUnitId": "c07-s05-p075-04770-r001-004",
+      "sentenceIds": [
+        "c07-s05-p075-04770-s001",
+        "c07-s05-p075-04770-s002",
+        "c07-s05-p075-04770-s003",
+        "c07-s05-p075-04770-s004"
+      ],
+      "passage": "In the essay “Why Is It Hard to Make Friends Over 30?” New York Times reporter Alex Williams concludes, “No matter how many friends you make, a sense of fatalism can creep in: the period for making B.F.F.’s, the way you did in your teens or early 20s, is pretty much over. It’s time to resign yourself to situational friends: K.O.F.’s (kind of friends)—for now.” At work, you might get close to someone from being on the same project.",
+      "prompt": "What is the scope of the statement about becoming close on a project?",
+      "promptZh": "同一项目上变亲近的陈述范围是什么？",
+      "options": [
+        "Working together guarantees permanent friendship.",
+        "Only people in one specific television show can become close.",
+        "Shared project work is one possible way to become close.",
+        "Every coworker automatically becomes a best friend."
+      ],
+      "optionsZh": [
+        "一起工作保证永久友谊。",
+        "只有某个电视剧团队成员才能亲近。",
+        "共同项目是可能变亲近的一种途径。",
+        "每个同事自动变成最好的朋友。"
+      ],
+      "answer": 2,
+      "type": "语气与范围",
+      "support": "explicit",
+      "analyses": [
+        "A might 不保证永久，后文还讨论难保持。",
+        "B 当前句 At work 是一般工作例子，不只电视剧。",
+        "C might get close...same project 保留可能途径。",
+        "D 没有every或自动最亲密的升级。"
+      ],
+      "vocabulary": [
+        {
+          "word": "get close to",
+          "meaning": "与……变亲近",
+          "context": "关系发展上的接近，不等于每次共事便有终生友谊。",
+          "example": "They got close to each other while working on the exhibition.",
+          "collocations": [
+            "get close to someone",
+            "being on the same project"
+          ]
+        }
+      ],
+      "translation": "在“Why Is It Hard to Make Friends Over 30?”一文中，New York Times 记者 Alex Williams 总结：“不管结交多少朋友，宿命感可能悄悄出现：像青少年或二十岁出头那样交 B.F.F. 的时期，差不多过去了。该接受情境性朋友了：K.O.F.（某种程度的朋友）——至少暂时如此。”工作中，你可能因同一项目而与某人亲近。",
+      "evidenceTargetIds": [
+        "c07-s05-p075-04770-s004"
+      ],
+      "evidence": [
+        {
+          "quote": "In the essay “Why Is It Hard to Make Friends Over 30?” New York Times reporter Alex Williams concludes, “No matter how many friends you make, a sense of fatalism can creep in: the period for making B.F.F.’s, the way you did in your teens or early 20s, is pretty much over. It’s time to resign yourself to situational friends: K.O.F.’s (kind of friends)—for now.” At work, you might get close to someone from being on the same project.",
+          "sentenceIds": [
+            "c07-s05-p075-04770-s001",
+            "c07-s05-p075-04770-s002",
+            "c07-s05-p075-04770-s003",
+            "c07-s05-p075-04770-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 75,
+              "block": 3,
+              "bbox": [
+                76.99,
+                477,
+                535.01,
+                706.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "429d5eb95c2fe030b1a545b7f6ab27756db887f58d72310ffac69f54a2b2dfc7"
+    },
+    {
+      "id": "q-c07-056",
+      "version": 1,
+      "readingUnitId": "c07-s05-p075-04770-r007-009",
+      "chapterId": "c07",
+      "sectionId": "c07-s05",
+      "paragraphId": "c07-s05-p075-04770",
+      "sentenceIds": [
+        "c07-s05-p075-04770-s007",
+        "c07-s05-p075-04770-s008",
+        "c07-s05-p075-04770-s009"
+      ],
+      "passage": "If you have a partner, then your partner must like any new friends, too, which makes it even harder. When you add a child or two into the equation, making friends later in life can feel nearly impossible. In other words, after college it is really challenging to find someone who lives close by, with whom you can meet up every day and have spontaneous outings.",
+      "prompt": "Which limited conclusion does the passage support about adult friendship?",
+      "options": [
+        "Having a partner proves that every new friend will be rejected.",
+        "Parents are permanently incapable of friendship.",
+        "Distance no longer matters once someone has children.",
+        "Family commitments can make frequent, nearby, spontaneous meetings harder to arrange."
+      ],
+      "answer": 3,
+      "type": "推断",
+      "promptZh": "关于成年友谊，本段支持什么有限结论？",
+      "optionsZh": [
+        "有伴侣就证明每个新朋友都会被拒绝。",
+        "父母永久无法拥有友谊。",
+        "有孩子后距离完全无关紧要。",
+        "家庭责任可能让频繁、邻近而随兴的见面更难安排。"
+      ],
+      "analyses": [
+        "A partner must like... 不等于所有人都拒绝。",
+        "B can feel nearly impossible 是感受和困难，不是能力永远消失。",
+        "C 最后一句仍强调 lives close by。",
+        "D 伴侣、孩子与每天碰面条件共同形成安排难度；不能把“难”提升为普遍绝对不可能。"
+      ],
+      "evidence": [
+        {
+          "quote": "making friends later in life can feel nearly impossible.",
+          "sentenceIds": [
+            "c07-s05-p075-04770-s008"
+          ],
+          "sources": [
+            {
+              "pdfPage": 76,
+              "block": 0,
+              "bbox": [
+                76.99,
+                75,
+                535,
+                167.52
+              ]
+            }
+          ]
+        },
+        {
+          "quote": "find someone who lives close by, with whom you can meet up every day and have spontaneous outings.",
+          "sentenceIds": [
+            "c07-s05-p075-04770-s009"
+          ],
+          "sources": [
+            {
+              "pdfPage": 76,
+              "block": 0,
+              "bbox": [
+                76.99,
+                75,
+                535,
+                167.52
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "into the equation",
+          "meaning": "纳入考虑；加入这些因素",
+          "context": "把孩子也纳入生活安排的考虑，不是要进行某个实际数学计算",
+          "example": "Travel time must also be added into the equation.",
+          "collocations": [
+            "add something into the equation",
+            "bring something into the equation"
+          ]
+        }
+      ],
+      "translation": "如果有伴侣，伴侣也得喜欢任何新朋友，这又更难。再把一两个孩子纳入考虑，成年后交朋友可能让人觉得几乎不可能。换句话说，毕业后，要找到一个住得近、能每天见面并随兴出游的人，确实很有挑战。",
+      "support": "inference",
+      "editorialStatus": "PDF 第 73–77 页逐题原页核对；固定原句和来源；区分随机干预的实测、自报、未测推测、团队调查、私人叙事、假设情境和电影引例",
+      "fingerprint": "4a60eb7fde45f6768c8ba1652f3f856813487d4dcd9eff468bcbca640bd41b91"
+    },
+    {
+      "id": "qe-c07-0093",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-027",
+      "parentQuestionId": "q-c07-057",
+      "chapterId": "c07",
+      "sectionId": "c07-s05",
+      "paragraphId": "c07-s05-p076-01725",
+      "readingUnitId": "c07-s05-p076-01725-r001-004",
+      "sentenceIds": [
+        "c07-s05-p076-01725-s001",
+        "c07-s05-p076-01725-s002",
+        "c07-s05-p076-01725-s003",
+        "c07-s05-p076-01725-s004"
+      ],
+      "passage": "Of course, we could act spontaneously by ourselves. The philosopher Jason D’Cruz has written about planned vs. unplanned actions using the term “volatile reason.” He considers a hypothetical person named Moritz as an example. In this scenario, Moritz has a ticket for a train ride from Berlin to Dresden to meet his friends.",
+      "prompt": "What alternative is introduced by 'we could act spontaneously by ourselves'?",
+      "promptZh": "we could act spontaneously by ourselves 引入什么替代方式？",
+      "options": [
+        "We must abandon all friends permanently.",
+        "Spontaneous action need not always depend on coordinating with another person.",
+        "Only group actions can ever be spontaneous.",
+        "The author reports that the reader has already travelled alone."
+      ],
+      "optionsZh": [
+        "必须永久放弃所有朋友。",
+        "自发行动未必总需协调另一个人。",
+        "只有集体行动才能自发。",
+        "作者报告读者已独自旅行。"
+      ],
+      "answer": 1,
+      "type": "逻辑关系",
+      "support": "explicit",
+      "analyses": [
+        "A 提替代途径不等于排斥全部友谊。",
+        "B by ourselves 在多人约时间困难后提出独自可能。",
+        "C 与句中独自可能相反。",
+        "D 泛指可行性，不编造读者真实经历。"
+      ],
+      "vocabulary": [
+        {
+          "word": "by ourselves",
+          "meaning": "独自；自己行动",
+          "context": "此处着重不需他人同行，不是没有任何计划能力或不允许交朋友。",
+          "example": "We can explore the question by ourselves before discussing it.",
+          "collocations": [
+            "act spontaneously by ourselves",
+            "by oneself"
+          ]
+        }
+      ],
+      "translation": "当然，我们也可以独自随兴行动。哲学家 Jason D’Cruz 用“volatile reason”一词讨论计划与非计划行为。他以一位名叫 Moritz 的假设人物为例。情境中，Moritz 有一张从 Berlin 去 Dresden 与朋友见面的火车票。",
+      "evidenceTargetIds": [
+        "c07-s05-p076-01725-s001"
+      ],
+      "evidence": [
+        {
+          "quote": "Of course, we could act spontaneously by ourselves. The philosopher Jason D’Cruz has written about planned vs. unplanned actions using the term “volatile reason.” He considers a hypothetical person named Moritz as an example. In this scenario, Moritz has a ticket for a train ride from Berlin to Dresden to meet his friends.",
+          "sentenceIds": [
+            "c07-s05-p076-01725-s001",
+            "c07-s05-p076-01725-s002",
+            "c07-s05-p076-01725-s003",
+            "c07-s05-p076-01725-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 76,
+              "block": 1,
+              "bbox": [
+                76.99,
+                172.5,
+                535.01,
+                479.52
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "f4b0d69d73892b6096d54672d62c9e294f70a5f2a9b12cbbda313e93a74b1d5b"
+    },
+    {
+      "id": "qe-c07-0094",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-027",
+      "parentQuestionId": "q-c07-057",
+      "chapterId": "c07",
+      "sectionId": "c07-s05",
+      "paragraphId": "c07-s05-p076-01725",
+      "readingUnitId": "c07-s05-p076-01725-r001-004",
+      "sentenceIds": [
+        "c07-s05-p076-01725-s001",
+        "c07-s05-p076-01725-s002",
+        "c07-s05-p076-01725-s003",
+        "c07-s05-p076-01725-s004"
+      ],
+      "passage": "Of course, we could act spontaneously by ourselves. The philosopher Jason D’Cruz has written about planned vs. unplanned actions using the term “volatile reason.” He considers a hypothetical person named Moritz as an example. In this scenario, Moritz has a ticket for a train ride from Berlin to Dresden to meet his friends.",
+      "prompt": "Who uses 'volatile reason' in a discussion of planned and unplanned action?",
+      "promptZh": "谁用 volatile reason 讨论计划与非计划行动？",
+      "options": [
+        "The reporter Alex Williams.",
+        "The team researcher Mark Mortensen.",
+        "The philosopher Jason D'Cruz.",
+        "The hypothetical traveller Moritz as the study's principal investigator."
+      ],
+      "optionsZh": [
+        "记者 Alex Williams。",
+        "团队研究者 Mark Mortensen。",
+        "哲学家 Jason D'Cruz。",
+        "作为研究负责人而非假想旅人的 Moritz。"
+      ],
+      "answer": 2,
+      "type": "观点归属",
+      "support": "explicit",
+      "analyses": [
+        "A 来自前面交友文章的不同作者。",
+        "B 属团队调查研究，非此处哲学术语作者。",
+        "C The philosopher Jason D’Cruz...using the term 明确归属。",
+        "D Moritz 被说成 hypothetical person，是例子，不是研究负责人；当前片段未给术语的全部哲学定义，不凭外部想象补充。"
+      ],
+      "vocabulary": [
+        {
+          "word": "volatile reason",
+          "meaning": "文中哲学家讨论计划与非计划行为时所用术语",
+          "context": "原段先介绍术语及假想情境，不将它擅自定义为化学挥发、经济波动或实测诊断。",
+          "example": "The essay introduces the phrase volatile reason before giving its example.",
+          "collocations": [
+            "using the term volatile reason",
+            "planned vs. unplanned actions"
+          ]
+        }
+      ],
+      "translation": "当然，我们也可以独自随兴行动。哲学家 Jason D’Cruz 用“volatile reason”一词讨论计划与非计划行为。他以一位名叫 Moritz 的假设人物为例。情境中，Moritz 有一张从 Berlin 去 Dresden 与朋友见面的火车票。",
+      "evidenceTargetIds": [
+        "c07-s05-p076-01725-s002"
+      ],
+      "evidence": [
+        {
+          "quote": "Of course, we could act spontaneously by ourselves. The philosopher Jason D’Cruz has written about planned vs. unplanned actions using the term “volatile reason.” He considers a hypothetical person named Moritz as an example. In this scenario, Moritz has a ticket for a train ride from Berlin to Dresden to meet his friends.",
+          "sentenceIds": [
+            "c07-s05-p076-01725-s001",
+            "c07-s05-p076-01725-s002",
+            "c07-s05-p076-01725-s003",
+            "c07-s05-p076-01725-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 76,
+              "block": 1,
+              "bbox": [
+                76.99,
+                172.5,
+                535.01,
+                479.52
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "879716d47de3b5173cac8e9b8c70f4cf29129dd014f6fad478353054c487dc54"
+    },
+    {
+      "id": "qe-c07-0095",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-027",
+      "parentQuestionId": "q-c07-057",
+      "chapterId": "c07",
+      "sectionId": "c07-s05",
+      "paragraphId": "c07-s05-p076-01725",
+      "readingUnitId": "c07-s05-p076-01725-r001-004",
+      "sentenceIds": [
+        "c07-s05-p076-01725-s001",
+        "c07-s05-p076-01725-s002",
+        "c07-s05-p076-01725-s003",
+        "c07-s05-p076-01725-s004"
+      ],
+      "passage": "Of course, we could act spontaneously by ourselves. The philosopher Jason D’Cruz has written about planned vs. unplanned actions using the term “volatile reason.” He considers a hypothetical person named Moritz as an example. In this scenario, Moritz has a ticket for a train ride from Berlin to Dresden to meet his friends.",
+      "prompt": "What is Moritz's original travel plan in the hypothetical scenario?",
+      "promptZh": "假想情境中 Moritz 原来的旅行计划是什么？",
+      "options": [
+        "Berlin to Dresden to meet friends.",
+        "Dresden to Berlin to meet a research team.",
+        "Berlin directly to Zittau with no prior commitments.",
+        "Zittau to Singapore for a concert."
+      ],
+      "optionsZh": [
+        "从 Berlin 去 Dresden 见朋友。",
+        "从 Dresden 去 Berlin 见研究团队。",
+        "从 Berlin 直去 Zittau，原本无约。",
+        "从 Zittau 去新加坡听音乐会。"
+      ],
+      "answer": 0,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A ticket...from Berlin to Dresden...meet his friends 明示原计划。",
+        "B 起终点倒置且人物对象被替换。",
+        "C Zittau 是后面临时考虑的陌生城市，不能移到原计划。",
+        "D 混入别处城市；Moritz 是 hypothetical person，不是真实用户行程。"
+      ],
+      "vocabulary": [
+        {
+          "word": "In this scenario",
+          "meaning": "在这个设定情境中",
+          "context": "限定为哲学家假想例子，不是观察到的真实实验或旅行记录。",
+          "example": "In this scenario, the traveller has two possible routes.",
+          "collocations": [
+            "In this scenario",
+            "a hypothetical person"
+          ]
+        }
+      ],
+      "translation": "当然，我们也可以独自随兴行动。哲学家 Jason D’Cruz 用“volatile reason”一词讨论计划与非计划行为。他以一位名叫 Moritz 的假设人物为例。情境中，Moritz 有一张从 Berlin 去 Dresden 与朋友见面的火车票。",
+      "evidenceTargetIds": [
+        "c07-s05-p076-01725-s004"
+      ],
+      "evidence": [
+        {
+          "quote": "Of course, we could act spontaneously by ourselves. The philosopher Jason D’Cruz has written about planned vs. unplanned actions using the term “volatile reason.” He considers a hypothetical person named Moritz as an example. In this scenario, Moritz has a ticket for a train ride from Berlin to Dresden to meet his friends.",
+          "sentenceIds": [
+            "c07-s05-p076-01725-s001",
+            "c07-s05-p076-01725-s002",
+            "c07-s05-p076-01725-s003",
+            "c07-s05-p076-01725-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 76,
+              "block": 1,
+              "bbox": [
+                76.99,
+                172.5,
+                535.01,
+                479.52
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "2224b77c06ccde7fd886c0a29455c1d7b43e3cc813f8a5dd8bb4348b158a4826"
+    },
+    {
+      "id": "q-c07-058",
+      "version": 1,
+      "readingUnitId": "c07-s05-p076-01725-r005-007",
+      "chapterId": "c07",
+      "sectionId": "c07-s05",
+      "paragraphId": "c07-s05-p076-01725",
+      "sentenceIds": [
+        "c07-s05-p076-01725-s005",
+        "c07-s05-p076-01725-s006",
+        "c07-s05-p076-01725-s007"
+      ],
+      "passage": "His friends are preparing a dinner, and Moritz has tickets to a concert for him and his friends that evening; in other words, he has a plan and responsibilities. On the train, however, he sees the train schedule and realizes that he could go on to the unknown city of Zittau if he stays on past Dresden. When the train arrives at Dresden, he spontaneously decides to stay on and visit Zittau, reasoning that he could just call his friends to cancel their plans and apologize.",
+      "prompt": "How does Moritz justify staying on the train?",
+      "options": [
+        "He reasons that he could call his friends to cancel and apologise.",
+        "He has already received proof that the dinner was cancelled by his friends.",
+        "He knows the concert tickets have never existed.",
+        "He was instructed by his friends to avoid Dresden."
+      ],
+      "answer": 0,
+      "type": "细节",
+      "promptZh": "Moritz 怎样为继续留在火车上找理由？",
+      "optionsZh": [
+        "他想，可以打电话向朋友取消安排并道歉。",
+        "他已拿到朋友取消晚餐的证明。",
+        "他知道音乐会票从未存在。",
+        "朋友指示他避开 Dresden。"
+      ],
+      "analyses": [
+        "A reasoning that he could just call...cancel...apologize 明确是他所想的处理方式。",
+        "B could call 不是朋友已经取消或同意。",
+        "C 片段明确有音乐会票和原定责任。",
+        "D 路线改变来自他临时看到 Zittau 的可能，不是朋友指示。"
+      ],
+      "evidence": [
+        {
+          "quote": "reasoning that he could just call his friends to cancel their plans and apologize.",
+          "sentenceIds": [
+            "c07-s05-p076-01725-s007"
+          ],
+          "sources": [
+            {
+              "pdfPage": 76,
+              "block": 1,
+              "bbox": [
+                76.99,
+                172.5,
+                535.01,
+                479.52
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "reasoning",
+          "meaning": "推想；给自己的理由",
+          "context": "指角色对如何处理赴约责任的想法，不是已经完成通话的记录",
+          "example": "She stayed a little longer, reasoning that the next train would still be available.",
+          "collocations": [
+            "reasoning that",
+            "a line of reasoning"
+          ]
+        }
+      ],
+      "translation": "朋友正准备晚餐，Moritz 也有当晚和朋友听音乐会的票；换句话说，他有计划和责任。然而在火车上，他看到时刻表，意识到若坐过 Dresden，就能前往陌生的 Zittau。列车到 Dresden 时，他临时决定不下车、去 Zittau，心想只要打电话取消约定并道歉即可。",
+      "support": "explicit",
+      "editorialStatus": "PDF 第 73–77 页逐题原页核对；固定原句和来源；区分随机干预的实测、自报、未测推测、团队调查、私人叙事、假设情境和电影引例",
+      "fingerprint": "550f417956f5f3bdbd00711c3b42866c8a752fbecf65cfc48af9d7b6fdd63b02"
+    },
+    {
+      "id": "qe-c07-0096",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-027",
+      "parentQuestionId": "q-c07-058",
+      "chapterId": "c07",
+      "sectionId": "c07-s05",
+      "paragraphId": "c07-s05-p076-01725",
+      "readingUnitId": "c07-s05-p076-01725-r005-007",
+      "sentenceIds": [
+        "c07-s05-p076-01725-s005",
+        "c07-s05-p076-01725-s006",
+        "c07-s05-p076-01725-s007"
+      ],
+      "passage": "His friends are preparing a dinner, and Moritz has tickets to a concert for him and his friends that evening; in other words, he has a plan and responsibilities. On the train, however, he sees the train schedule and realizes that he could go on to the unknown city of Zittau if he stays on past Dresden. When the train arrives at Dresden, he spontaneously decides to stay on and visit Zittau, reasoning that he could just call his friends to cancel their plans and apologize.",
+      "prompt": "What makes the Dresden visit a plan with responsibilities?",
+      "promptZh": "什么使 Dresden 之行不只是无约束的随意旅行？",
+      "options": [
+        "Moritz has no friends expecting him and no tickets.",
+        "His friends are preparing dinner, and he holds concert tickets for their evening.",
+        "The train has no timetable or destination.",
+        "His friends have already cancelled every arrangement."
+      ],
+      "optionsZh": [
+        "无朋友等他，也无票。",
+        "朋友正备晚餐，他持有当晚与朋友的音乐会票。",
+        "列车没有时刻表或终点。",
+        "朋友已取消全部安排。"
+      ],
+      "answer": 1,
+      "type": "逻辑关系",
+      "support": "explicit",
+      "analyses": [
+        "A 与 preparing dinner、tickets 相反。",
+        "B 两项预先约定由 in other words 概括为计划与责任。",
+        "C 时刻表是后句发现Zittau机会的依据。",
+        "D 取消是他后面想到可做的事，不是朋友已取消的事实。"
+      ],
+      "vocabulary": [
+        {
+          "word": "responsibilities",
+          "meaning": "责任；对既有约定的义务",
+          "context": "在假设中来自朋友期待与票务安排，不是物理上不能更改任何决定。",
+          "example": "An agreed plan can create responsibilities to other people.",
+          "collocations": [
+            "a plan and responsibilities",
+            "friends are preparing dinner"
+          ]
+        }
+      ],
+      "translation": "朋友正准备晚餐，Moritz 也有当晚和朋友听音乐会的票；换句话说，他有计划和责任。然而在火车上，他看到时刻表，意识到若坐过 Dresden，就能前往陌生的 Zittau。列车到 Dresden 时，他临时决定不下车、去 Zittau，心想只要打电话取消约定并道歉即可。",
+      "evidenceTargetIds": [
+        "c07-s05-p076-01725-s005"
+      ],
+      "evidence": [
+        {
+          "quote": "His friends are preparing a dinner, and Moritz has tickets to a concert for him and his friends that evening; in other words, he has a plan and responsibilities. On the train, however, he sees the train schedule and realizes that he could go on to the unknown city of Zittau if he stays on past Dresden. When the train arrives at Dresden, he spontaneously decides to stay on and visit Zittau, reasoning that he could just call his friends to cancel their plans and apologize.",
+          "sentenceIds": [
+            "c07-s05-p076-01725-s005",
+            "c07-s05-p076-01725-s006",
+            "c07-s05-p076-01725-s007"
+          ],
+          "sources": [
+            {
+              "pdfPage": 76,
+              "block": 1,
+              "bbox": [
+                76.99,
+                172.5,
+                535.01,
+                479.52
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "29d79c687a5a1bb7a4085a53640c4077d66ea24a9df4dbc5240a8fa720ddc123"
+    },
+    {
+      "id": "qe-c07-0097",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-027",
+      "parentQuestionId": "q-c07-058",
+      "chapterId": "c07",
+      "sectionId": "c07-s05",
+      "paragraphId": "c07-s05-p076-01725",
+      "readingUnitId": "c07-s05-p076-01725-r005-007",
+      "sentenceIds": [
+        "c07-s05-p076-01725-s005",
+        "c07-s05-p076-01725-s006",
+        "c07-s05-p076-01725-s007"
+      ],
+      "passage": "His friends are preparing a dinner, and Moritz has tickets to a concert for him and his friends that evening; in other words, he has a plan and responsibilities. On the train, however, he sees the train schedule and realizes that he could go on to the unknown city of Zittau if he stays on past Dresden. When the train arrives at Dresden, he spontaneously decides to stay on and visit Zittau, reasoning that he could just call his friends to cancel their plans and apologize.",
+      "prompt": "What new possibility does Moritz notice on the train?",
+      "promptZh": "Moritz 在车上注意到什么新可能？",
+      "options": [
+        "He has already arrived at Zittau before reaching Dresden.",
+        "The original tickets were for Singapore rather than Dresden.",
+        "He could reach unfamiliar Zittau by remaining on the train beyond Dresden.",
+        "He must leave the train before Dresden to keep the original plan."
+      ],
+      "optionsZh": [
+        "未到 Dresden 已到 Zittau。",
+        "原车票去新加坡而非 Dresden。",
+        "若过 Dresden 仍留车上，可到陌生的 Zittau。",
+        "为原计划必须在 Dresden 前下车。"
+      ],
+      "answer": 2,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A if he stays past Dresden 说明顺序，不能把Zittau移到前面。",
+        "B 未改写原票目的地。",
+        "C could 与 if 保留一种可选后续路线，不是已经实现。",
+        "D 文中原定Dresden，不是必须提前下车；however 标出对原安排的新选择。"
+      ],
+      "vocabulary": [
+        {
+          "word": "past Dresden",
+          "meaning": "越过 Dresden；经过该站后继续",
+          "context": "past 在此为地点界限，不是说发生在过去。",
+          "example": "They stayed on the bus past the usual stop.",
+          "collocations": [
+            "stays on past Dresden",
+            "go on to an unknown city"
+          ]
+        }
+      ],
+      "translation": "朋友正准备晚餐，Moritz 也有当晚和朋友听音乐会的票；换句话说，他有计划和责任。然而在火车上，他看到时刻表，意识到若坐过 Dresden，就能前往陌生的 Zittau。列车到 Dresden 时，他临时决定不下车、去 Zittau，心想只要打电话取消约定并道歉即可。",
+      "evidenceTargetIds": [
+        "c07-s05-p076-01725-s006"
+      ],
+      "evidence": [
+        {
+          "quote": "His friends are preparing a dinner, and Moritz has tickets to a concert for him and his friends that evening; in other words, he has a plan and responsibilities. On the train, however, he sees the train schedule and realizes that he could go on to the unknown city of Zittau if he stays on past Dresden. When the train arrives at Dresden, he spontaneously decides to stay on and visit Zittau, reasoning that he could just call his friends to cancel their plans and apologize.",
+          "sentenceIds": [
+            "c07-s05-p076-01725-s005",
+            "c07-s05-p076-01725-s006",
+            "c07-s05-p076-01725-s007"
+          ],
+          "sources": [
+            {
+              "pdfPage": 76,
+              "block": 1,
+              "bbox": [
+                76.99,
+                172.5,
+                535.01,
+                479.52
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "11d308bd550a4deddcb835eca3ea4a6ab6029654f082f4ca0bc45491ee388969"
+    },
+    {
+      "id": "q-c07-059",
+      "version": 1,
+      "readingUnitId": "c07-s05-p076-01725-r008-011",
+      "chapterId": "c07",
+      "sectionId": "c07-s05",
+      "paragraphId": "c07-s05-p076-01725",
+      "sentenceIds": [
+        "c07-s05-p076-01725-s008",
+        "c07-s05-p076-01725-s009",
+        "c07-s05-p076-01725-s010",
+        "c07-s05-p076-01725-s011"
+      ],
+      "passage": "Right after the train leaves Dresden, Moritz feels an overwhelming euphoria and a powerful sensation of freedom. D’Cruz argues that this was not a well-premeditated deliberate action, but nonetheless this spontaneous action served to fulfill Moritz’s deep desire to lead an interesting life. Spontaneity over responsibility. We can and should be like Moritz once in a while.",
+      "prompt": "What interpretation of Moritz’s action is attributed to D’Cruz?",
+      "options": [
+        "It was fully planned long before the journey.",
+        "It was an experiment proving that every cancelled commitment brings happiness.",
+        "It was unpremeditated but served a deeper desire for an interesting life.",
+        "It showed that all responsibilities should always be abandoned."
+      ],
+      "answer": 2,
+      "type": "作者意图",
+      "promptZh": "作者把 D’Cruz 对 Moritz 行为的什么解释呈现出来？",
+      "optionsZh": [
+        "旅行很久以前就已完整计划。",
+        "这是证明每次取消约定都会幸福的实验。",
+        "虽非预先深思，却满足对有趣人生的深层愿望。",
+        "所有责任都应永远抛弃。"
+      ],
+      "analyses": [
+        "A not a well-premeditated deliberate action 否定预先深思。",
+        "B 仍是假设情境，没有实际实验或每次都如此的证据。",
+        "C but nonetheless 后保留自发行为与深层愿望相合的解释。",
+        "D once in a while 限定偶尔，不能改成永远一概弃责。euphoria 是角色在假设故事中的感受，不是测得的总体效果。"
+      ],
+      "evidence": [
+        {
+          "quote": "not a well-premeditated deliberate action",
+          "sentenceIds": [
+            "c07-s05-p076-01725-s009"
+          ],
+          "sources": [
+            {
+              "pdfPage": 76,
+              "block": 1,
+              "bbox": [
+                76.99,
+                172.5,
+                535.01,
+                479.52
+              ]
+            }
+          ]
+        },
+        {
+          "quote": "served to fulfill Moritz’s deep desire to lead an interesting life.",
+          "sentenceIds": [
+            "c07-s05-p076-01725-s009"
+          ],
+          "sources": [
+            {
+              "pdfPage": 76,
+              "block": 1,
+              "bbox": [
+                76.99,
+                172.5,
+                535.01,
+                479.52
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "nonetheless",
+          "meaning": "尽管如此；然而仍然",
+          "context": "在不是预谋行动与仍满足愿望之间构成让步",
+          "example": "The task was difficult; nonetheless, she completed it.",
+          "collocations": [
+            "but nonetheless",
+            "nonetheless served to"
+          ]
+        }
+      ],
+      "translation": "火车刚离开 Dresden，Moritz 便感到强烈欣喜和自由。D’Cruz 认为，这不是预先周密考虑的刻意行动，但自发行动仍满足了 Moritz 想过有趣人生的深层愿望。自发性暂时胜过责任。作者说，我们偶尔也可以、也应该像 Moritz 那样。",
+      "support": "explicit",
+      "editorialStatus": "PDF 第 73–77 页逐题原页核对；固定原句和来源；区分随机干预的实测、自报、未测推测、团队调查、私人叙事、假设情境和电影引例",
+      "fingerprint": "ca9aa98b87759ceaa7ac8783581d303d115689ca9a3c9581f6b616b736c60d7e"
+    },
+    {
+      "id": "qe-c07-0098",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-027",
+      "parentQuestionId": "q-c07-059",
+      "chapterId": "c07",
+      "sectionId": "c07-s05",
+      "paragraphId": "c07-s05-p076-01725",
+      "readingUnitId": "c07-s05-p076-01725-r008-011",
+      "sentenceIds": [
+        "c07-s05-p076-01725-s008",
+        "c07-s05-p076-01725-s009",
+        "c07-s05-p076-01725-s010",
+        "c07-s05-p076-01725-s011"
+      ],
+      "passage": "Right after the train leaves Dresden, Moritz feels an overwhelming euphoria and a powerful sensation of freedom. D’Cruz argues that this was not a well-premeditated deliberate action, but nonetheless this spontaneous action served to fulfill Moritz’s deep desire to lead an interesting life. Spontaneity over responsibility. We can and should be like Moritz once in a while.",
+      "prompt": "When and how does Moritz feel the reported freedom?",
+      "promptZh": "所述自由感何时、怎样出现？",
+      "options": [
+        "Before buying any ticket, as measured in a clinical trial.",
+        "Only after his friends have completed their dinner together.",
+        "As a feeling reported by every passenger on the train.",
+        "Immediately after leaving Dresden, he feels strong euphoria and freedom in the hypothetical story."
+      ],
+      "optionsZh": [
+        "未买票前，在临床试验中测得。",
+        "只在与朋友吃完晚餐后。",
+        "作为所有乘客报告的感受。",
+        "假想故事中，车刚离开 Dresden 他就强烈欣喜自由。"
+      ],
+      "answer": 3,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A 不是临床试验或买票前事件。",
+        "B 他选择坐过Dresden，不是吃完饭后。",
+        "C 主体为Moritz，不是全部乘客。",
+        "D Right after...leaves Dresden 明确时点，feels 描述假想人物体验，不代表现实人人同反应。"
+      ],
+      "vocabulary": [
+        {
+          "word": "euphoria",
+          "meaning": "强烈欣喜；高昂愉悦感",
+          "context": "这里是哲学情境中的感受描述，不独立作医学状态诊断。",
+          "example": "Finishing the long project brought a brief sense of euphoria.",
+          "collocations": [
+            "overwhelming euphoria",
+            "a powerful sensation of freedom"
+          ]
+        }
+      ],
+      "translation": "火车刚离开 Dresden，Moritz 便感到强烈欣喜和自由。D’Cruz 认为，这不是预先周密考虑的刻意行动，但自发行动仍满足了 Moritz 想过有趣人生的深层愿望。自发性暂时胜过责任。作者说，我们偶尔也可以、也应该像 Moritz 那样。",
+      "evidenceTargetIds": [
+        "c07-s05-p076-01725-s008"
+      ],
+      "evidence": [
+        {
+          "quote": "Right after the train leaves Dresden, Moritz feels an overwhelming euphoria and a powerful sensation of freedom. D’Cruz argues that this was not a well-premeditated deliberate action, but nonetheless this spontaneous action served to fulfill Moritz’s deep desire to lead an interesting life. Spontaneity over responsibility. We can and should be like Moritz once in a while.",
+          "sentenceIds": [
+            "c07-s05-p076-01725-s008",
+            "c07-s05-p076-01725-s009",
+            "c07-s05-p076-01725-s010",
+            "c07-s05-p076-01725-s011"
+          ],
+          "sources": [
+            {
+              "pdfPage": 76,
+              "block": 1,
+              "bbox": [
+                76.99,
+                172.5,
+                535.01,
+                479.52
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "0545751b1088ff33c2ab430354b566fdf571bf18ae7ccc6fbae39cda54646af6"
+    },
+    {
+      "id": "qe-c07-0099",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-027",
+      "parentQuestionId": "q-c07-059",
+      "chapterId": "c07",
+      "sectionId": "c07-s05",
+      "paragraphId": "c07-s05-p076-01725",
+      "readingUnitId": "c07-s05-p076-01725-r008-011",
+      "sentenceIds": [
+        "c07-s05-p076-01725-s008",
+        "c07-s05-p076-01725-s009",
+        "c07-s05-p076-01725-s010",
+        "c07-s05-p076-01725-s011"
+      ],
+      "passage": "Right after the train leaves Dresden, Moritz feels an overwhelming euphoria and a powerful sensation of freedom. D’Cruz argues that this was not a well-premeditated deliberate action, but nonetheless this spontaneous action served to fulfill Moritz’s deep desire to lead an interesting life. Spontaneity over responsibility. We can and should be like Moritz once in a while.",
+      "prompt": "What does 'Spontaneity over responsibility' summarise in this example?",
+      "promptZh": "Spontaneity over responsibility 在本例概括什么？",
+      "options": [
+        "Responsibility and spontaneity are literally the same word.",
+        "Moritz gives priority to a spontaneous opportunity over his existing commitment in this scenario.",
+        "Every person must cancel every commitment on every occasion.",
+        "The example proves existing plans never affect other people."
+      ],
+      "optionsZh": [
+        "责任与自发性字面上完全同义。",
+        "该情境中 Moritz 把自发机会置于已有约定之上。",
+        "每个人每次都必须取消所有承诺。",
+        "例子证明既有计划从不影响他人。"
+      ],
+      "answer": 1,
+      "type": "主旨",
+      "support": "explicit",
+      "analyses": [
+        "A over 表优先取向，不是等同。",
+        "B 接假想转向Zittau及自由感，简短总结当次选择。",
+        "C 下句 once in a while 限偶尔，不支持every。",
+        "D 前文朋友准备晚饭已说明涉及他人；理解作者例子不等于无条件认可所有失约。"
+      ],
+      "vocabulary": [
+        {
+          "word": "over responsibility",
+          "meaning": "优先于责任；在该取舍中压过责任",
+          "context": "是本例的概括性比较，不是时间或物理位置的上方。",
+          "example": "In that fictional choice, novelty took priority over routine.",
+          "collocations": [
+            "spontaneity over responsibility",
+            "prioritise one consideration over another"
+          ]
+        }
+      ],
+      "translation": "火车刚离开 Dresden，Moritz 便感到强烈欣喜和自由。D’Cruz 认为，这不是预先周密考虑的刻意行动，但自发行动仍满足了 Moritz 想过有趣人生的深层愿望。自发性暂时胜过责任。作者说，我们偶尔也可以、也应该像 Moritz 那样。",
+      "evidenceTargetIds": [
+        "c07-s05-p076-01725-s010"
+      ],
+      "evidence": [
+        {
+          "quote": "Right after the train leaves Dresden, Moritz feels an overwhelming euphoria and a powerful sensation of freedom. D’Cruz argues that this was not a well-premeditated deliberate action, but nonetheless this spontaneous action served to fulfill Moritz’s deep desire to lead an interesting life. Spontaneity over responsibility. We can and should be like Moritz once in a while.",
+          "sentenceIds": [
+            "c07-s05-p076-01725-s008",
+            "c07-s05-p076-01725-s009",
+            "c07-s05-p076-01725-s010",
+            "c07-s05-p076-01725-s011"
+          ],
+          "sources": [
+            {
+              "pdfPage": 76,
+              "block": 1,
+              "bbox": [
+                76.99,
+                172.5,
+                535.01,
+                479.52
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "0151106eae44d751aec110460f01310e82678c4d1c044d7954c2ad2adb5abb64"
+    },
+    {
+      "id": "qe-c07-0100",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-027",
+      "parentQuestionId": "q-c07-059",
+      "chapterId": "c07",
+      "sectionId": "c07-s05",
+      "paragraphId": "c07-s05-p076-01725",
+      "readingUnitId": "c07-s05-p076-01725-r008-011",
+      "sentenceIds": [
+        "c07-s05-p076-01725-s008",
+        "c07-s05-p076-01725-s009",
+        "c07-s05-p076-01725-s010",
+        "c07-s05-p076-01725-s011"
+      ],
+      "passage": "Right after the train leaves Dresden, Moritz feels an overwhelming euphoria and a powerful sensation of freedom. D’Cruz argues that this was not a well-premeditated deliberate action, but nonetheless this spontaneous action served to fulfill Moritz’s deep desire to lead an interesting life. Spontaneity over responsibility. We can and should be like Moritz once in a while.",
+      "prompt": "What limits the recommendation to be like Moritz?",
+      "promptZh": "像 Moritz 那样行动的建议有什么限定？",
+      "options": [
+        "It applies to every promise a person makes.",
+        "It guarantees that no one else will be affected.",
+        "It is qualified as 'once in a while'.",
+        "It says no spontaneous action is possible alone."
+      ],
+      "optionsZh": [
+        "适用于每个承诺。",
+        "保证不影响任何他人。",
+        "限定为 once in a while，即偶尔。",
+        "说不可能独自随兴行动。"
+      ],
+      "answer": 2,
+      "type": "语气与范围",
+      "support": "explicit",
+      "analyses": [
+        "A 忽略频率限定，不能扩大到全部约定。",
+        "B 未保证行动无任何代价。",
+        "C once in a while 保留作者建议的偶尔范围。",
+        "D 前文正提出by ourselves，不应反转；这是作者从假想情境作的建议，不是实验结果。"
+      ],
+      "vocabulary": [
+        {
+          "word": "once in a while",
+          "meaning": "偶尔；时而",
+          "context": "限制频率，不能删成总是或每次。",
+          "example": "Once in a while, she chooses a different route home.",
+          "collocations": [
+            "be like Moritz once in a while",
+            "once in a while"
+          ]
+        }
+      ],
+      "translation": "火车刚离开 Dresden，Moritz 便感到强烈欣喜和自由。D’Cruz 认为，这不是预先周密考虑的刻意行动，但自发行动仍满足了 Moritz 想过有趣人生的深层愿望。自发性暂时胜过责任。作者说，我们偶尔也可以、也应该像 Moritz 那样。",
+      "evidenceTargetIds": [
+        "c07-s05-p076-01725-s011"
+      ],
+      "evidence": [
+        {
+          "quote": "Right after the train leaves Dresden, Moritz feels an overwhelming euphoria and a powerful sensation of freedom. D’Cruz argues that this was not a well-premeditated deliberate action, but nonetheless this spontaneous action served to fulfill Moritz’s deep desire to lead an interesting life. Spontaneity over responsibility. We can and should be like Moritz once in a while.",
+          "sentenceIds": [
+            "c07-s05-p076-01725-s008",
+            "c07-s05-p076-01725-s009",
+            "c07-s05-p076-01725-s010",
+            "c07-s05-p076-01725-s011"
+          ],
+          "sources": [
+            {
+              "pdfPage": 76,
+              "block": 1,
+              "bbox": [
+                76.99,
+                172.5,
+                535.01,
+                479.52
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "0d758f7cfce34398dce0b453b07436f951c9a65e21eb302f2169450a612790c6"
+    },
+    {
+      "id": "q-c07-060",
+      "version": 1,
+      "readingUnitId": "c07-s06-p076-05355-r001-004",
+      "chapterId": "c07",
+      "sectionId": "c07-s06",
+      "paragraphId": "c07-s06-p076-05355",
+      "sentenceIds": [
+        "c07-s06-p076-05355-s001",
+        "c07-s06-p076-05355-s002",
+        "c07-s06-p076-05355-s003",
+        "c07-s06-p076-05355-s004"
+      ],
+      "passage": "Most of us strive to become better at what we do for a living. As a researcher, I try to stay up to date on the latest literature, statistics, data visualization, and so forth. This is all serious business. It requires careful attention, time commitment, and dedication.",
+      "prompt": "What does the author say keeping professional expertise current requires?",
+      "options": [
+        "Only occasional laughter, with no attention to research.",
+        "Careful attention, a commitment of time and dedication.",
+        "Avoiding new literature and data visualisation.",
+        "Letting all knowledge remain unchanged after graduation."
+      ],
+      "answer": 1,
+      "type": "细节",
+      "promptZh": "作者说，更新职业知识需要什么？",
+      "optionsZh": [
+        "只需偶尔大笑，不必关注研究。",
+        "细心关注、时间投入与努力奉献。",
+        "回避新文献和数据可视化。",
+        "毕业后让所有知识保持不变。"
+      ],
+      "analyses": [
+        "A serious business 后明列具体投入。",
+        "B careful attention、time commitment、dedication 三项均对应。",
+        "C 作者说 try to stay up to date，方向相反。",
+        "D 文中强调持续更新，不是毕业后冻结知识。I 指书中作者自己的研究工作。"
+      ],
+      "evidence": [
+        {
+          "quote": "It requires careful attention, time commitment, and dedication.",
+          "sentenceIds": [
+            "c07-s06-p076-05355-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 76,
+              "block": 3,
+              "bbox": [
+                76.99,
+                535.5,
+                535.01,
+                706.02
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "stay up to date",
+          "meaning": "跟进最新进展；保持知识更新",
+          "context": "指书中作者追踪本专业文献与方法，不是声称网站已核验今天所有研究",
+          "example": "She reads journals to stay up to date in her field.",
+          "collocations": [
+            "stay up to date on",
+            "up-to-date knowledge"
+          ]
+        }
+      ],
+      "translation": "我们大多数人都努力把谋生的工作做得更好。作为研究者，我努力跟进最新文献、统计、数据可视化等。这都是严肃工作，需要细心关注、时间投入和奉献。",
+      "support": "explicit",
+      "editorialStatus": "PDF 第 73–77 页逐题原页核对；固定原句和来源；区分随机干预的实测、自报、未测推测、团队调查、私人叙事、假设情境和电影引例",
+      "fingerprint": "dae87a8b36c1604d29dd3ccb2f70f0bd7c1b88b6bfc60b575a8d05df66a8b617"
+    },
+    {
+      "id": "qe-c07-0102",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-027",
+      "parentQuestionId": "q-c07-060",
+      "chapterId": "c07",
+      "sectionId": "c07-s06",
+      "paragraphId": "c07-s06-p076-05355",
+      "readingUnitId": "c07-s06-p076-05355-r001-004",
+      "sentenceIds": [
+        "c07-s06-p076-05355-s001",
+        "c07-s06-p076-05355-s002",
+        "c07-s06-p076-05355-s003",
+        "c07-s06-p076-05355-s004"
+      ],
+      "passage": "Most of us strive to become better at what we do for a living. As a researcher, I try to stay up to date on the latest literature, statistics, data visualization, and so forth. This is all serious business. It requires careful attention, time commitment, and dedication.",
+      "prompt": "What does the author use his research work to illustrate?",
+      "promptZh": "作者用自己的研究工作说明什么？",
+      "options": [
+        "That all researchers use exactly the same methods and never change.",
+        "That reading literature removes all need to learn statistics.",
+        "That data visualisation is unrelated to his professional development.",
+        "An effort to keep professional knowledge and methods up to date."
+      ],
+      "optionsZh": [
+        "所有研究者方法完全一致、永不改变。",
+        "读文献便无需学统计。",
+        "数据可视化与他的职业提升无关。",
+        "努力跟进专业知识与方法。"
+      ],
+      "answer": 3,
+      "type": "作者意图",
+      "support": "explicit",
+      "analyses": [
+        "A 自己try不等于所有人同流程。",
+        "B literature,statistics,data visualisation 并列，不是互相取代。",
+        "C 原句明确列入data visualisation。",
+        "D As a researcher,I try to stay up to date 给作者例子；latest 指所述持续学习，不是提供当前软件或研究清单。"
+      ],
+      "vocabulary": [
+        {
+          "word": "stay up to date",
+          "meaning": "保持了解最新进展；不断更新知识",
+          "context": "本文指作者的职业学习努力，不是读者已经完成了任何软件更新。",
+          "example": "She reads journals to stay up to date in her field.",
+          "collocations": [
+            "stay up to date on literature",
+            "statistics and data visualization"
+          ]
+        }
+      ],
+      "translation": "我们大多数人都努力把谋生的工作做得更好。作为研究者，我努力跟进最新文献、统计、数据可视化等。这都是严肃工作，需要细心关注、时间投入和奉献。",
+      "evidenceTargetIds": [
+        "c07-s06-p076-05355-s002"
+      ],
+      "evidence": [
+        {
+          "quote": "Most of us strive to become better at what we do for a living. As a researcher, I try to stay up to date on the latest literature, statistics, data visualization, and so forth. This is all serious business. It requires careful attention, time commitment, and dedication.",
+          "sentenceIds": [
+            "c07-s06-p076-05355-s001",
+            "c07-s06-p076-05355-s002",
+            "c07-s06-p076-05355-s003",
+            "c07-s06-p076-05355-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 76,
+              "block": 3,
+              "bbox": [
+                76.99,
+                535.5,
+                535.01,
+                706.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "d46a7a231bdf9c87adce753c5d6a4f9ffab55a4102410eb1402dc209d40f09f8"
+    },
+    {
+      "id": "qe-c07-0103",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-027",
+      "parentQuestionId": "q-c07-060",
+      "chapterId": "c07",
+      "sectionId": "c07-s06",
+      "paragraphId": "c07-s06-p076-05355",
+      "readingUnitId": "c07-s06-p076-05355-r001-004",
+      "sentenceIds": [
+        "c07-s06-p076-05355-s001",
+        "c07-s06-p076-05355-s002",
+        "c07-s06-p076-05355-s003",
+        "c07-s06-p076-05355-s004"
+      ],
+      "passage": "Most of us strive to become better at what we do for a living. As a researcher, I try to stay up to date on the latest literature, statistics, data visualization, and so forth. This is all serious business. It requires careful attention, time commitment, and dedication.",
+      "prompt": "What is called 'serious business' in this paragraph?",
+      "promptZh": "本段 serious business 指什么？",
+      "options": [
+        "Only commercial trading with a profit guarantee.",
+        "The professional effort and learning just described.",
+        "Moritz's exact train timetable only.",
+        "An assertion that all laughter is morally wrong."
+      ],
+      "optionsZh": [
+        "仅保证盈利的商业交易。",
+        "刚叙述的职业努力与学习。",
+        "仅 Moritz 的确切火车时刻表。",
+        "断言所有笑声在道德上错误。"
+      ],
+      "answer": 1,
+      "type": "语境词义",
+      "support": "explicit",
+      "analyses": [
+        "A business 在此泛指认真对待的事，不是盈利保证。",
+        "B This 回指提升工作、跟进文献统计等，后句要求注意时间投入。",
+        "C 段落已转工作主题，不只火车。",
+        "D serious 不等于道德禁止笑声，后文恰讨论平衡。"
+      ],
+      "vocabulary": [
+        {
+          "word": "serious business",
+          "meaning": "严肃而需要认真投入的事",
+          "context": "习语可以用于非商业工作，不能仅按经商理解。",
+          "example": "Preparing the archive is serious business requiring care.",
+          "collocations": [
+            "This is all serious business",
+            "time commitment and dedication"
+          ]
+        }
+      ],
+      "translation": "我们大多数人都努力把谋生的工作做得更好。作为研究者，我努力跟进最新文献、统计、数据可视化等。这都是严肃工作，需要细心关注、时间投入和奉献。",
+      "evidenceTargetIds": [
+        "c07-s06-p076-05355-s003"
+      ],
+      "evidence": [
+        {
+          "quote": "Most of us strive to become better at what we do for a living. As a researcher, I try to stay up to date on the latest literature, statistics, data visualization, and so forth. This is all serious business. It requires careful attention, time commitment, and dedication.",
+          "sentenceIds": [
+            "c07-s06-p076-05355-s001",
+            "c07-s06-p076-05355-s002",
+            "c07-s06-p076-05355-s003",
+            "c07-s06-p076-05355-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 76,
+              "block": 3,
+              "bbox": [
+                76.99,
+                535.5,
+                535.01,
+                706.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "6ed1b6277e3b8d6aa1844053b6b1852413c48bcf949fa07a4be8128ee1ad4d49"
+    }
+  ]
+}
