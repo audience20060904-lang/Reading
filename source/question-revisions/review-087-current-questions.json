@@ -1,0 +1,1673 @@
+{
+  "schemaVersion": 1,
+  "batchId": "question-review-2026-10-28-087",
+  "sourceCommit": "ffc286f7258d4626653c24bbe3ca40762ecb571b",
+  "pdfSha256": "be25c859f1bd894a4b0d1cff024ded1297f6a96a8e8ddabea1e3abcf89160a50",
+  "frozenAt": "2026-10-29T14:34:39.287Z",
+  "questions": [
+    {
+      "id": "q-c10-011",
+      "version": 1,
+      "readingUnitId": "c10-s02-p105-02348-r005-008",
+      "chapterId": "c10",
+      "sectionId": "c10-s02",
+      "paragraphId": "c10-s02-p105-02348",
+      "sentenceIds": [
+        "c10-s02-p105-02348-s005",
+        "c10-s02-p105-02348-s006",
+        "c10-s02-p105-02348-s007",
+        "c10-s02-p105-02348-s008"
+      ],
+      "passage": "Friends urged him to choose candidate number four, a woman of high status and large dowry. However, she rejected his proposal because he made her wait too long. So he went with his personal favorite, candidate number five. Though she was not from the wealthiest family, she was well educated and is thought to have provided favorable domestic conditions for Kepler to produce four more major works.",
+      "prompt": "Why did Kepler not marry the fourth candidate in this account?",
+      "options": [
+        "His friends opposed her lack of status.",
+        "She rejected him after he made her wait too long.",
+        "He had already married her before meeting the fifth candidate.",
+        "She lacked the education he demanded in an experiment."
+      ],
+      "answer": 1,
+      "type": "细节",
+      "promptZh": "按这段叙述，Kepler 为什么没娶第四位？",
+      "optionsZh": [
+        "朋友反对她地位低。",
+        "他让她等太久，她拒绝了求婚。",
+        "见第五位之前已娶第四位。",
+        "她缺少他在实验中要求的教育。"
+      ],
+      "analyses": [
+        "A friends urged...high status 说明朋友赞成且她地位高。",
+        "B rejected...because...wait too long 直接给出原因。",
+        "C 原文说转而选个人最喜欢的第五位，并非先娶第四位。",
+        "D well educated 描述第五位，且没有教育实验。is thought to have provided 是历史评价的保留语，不是确立婚姻导致四部作品的实验因果。"
+      ],
+      "evidence": [
+        {
+          "quote": "she rejected his proposal because he made her wait too long.",
+          "sentenceIds": [
+            "c10-s02-p105-02348-s006"
+          ],
+          "sources": [
+            {
+              "pdfPage": 105,
+              "block": 2,
+              "bbox": [
+                76.99,
+                234.75,
+                535.01,
+                483.27
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "dowry",
+          "meaning": "嫁妆",
+          "context": "描述朋友看重第四位的经济条件，并非 Kepler 最终决定的唯一依据",
+          "example": "The historical account described a large dowry.",
+          "collocations": [
+            "a large dowry",
+            "status and dowry"
+          ]
+        }
+      ],
+      "translation": "朋友劝他选第四位，她地位高、嫁妆多。但因他让她等太久，她拒绝求婚。他转而选自己最喜欢的第五位。她虽非最富家庭出身，却教育良好；人们认为她提供了有利家庭条件，使 Kepler 又完成四部重要著作。",
+      "support": "explicit",
+      "editorialStatus": "PDF第102–107页原页核对；引述/设问/调查偏好/模拟/历史叙事分开；百分比与跳跃次数保持单位，37%模型不当现实保证；Very few保留省略回答原样，图4辅助材料不冒充已结构化",
+      "fingerprint": "0000139834761bcabec1bd9396ddf8df734357c1d68e2d81f19ea382a520dcdc"
+    },
+    {
+      "id": "qe-c10-0023",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-039",
+      "parentQuestionId": "q-c10-011",
+      "chapterId": "c10",
+      "sectionId": "c10-s02",
+      "paragraphId": "c10-s02-p105-02348",
+      "readingUnitId": "c10-s02-p105-02348-r005-008",
+      "sentenceIds": [
+        "c10-s02-p105-02348-s005",
+        "c10-s02-p105-02348-s006",
+        "c10-s02-p105-02348-s007",
+        "c10-s02-p105-02348-s008"
+      ],
+      "passage": "Friends urged him to choose candidate number four, a woman of high status and large dowry. However, she rejected his proposal because he made her wait too long. So he went with his personal favorite, candidate number five. Though she was not from the wealthiest family, she was well educated and is thought to have provided favorable domestic conditions for Kepler to produce four more major works.",
+      "prompt": "Which candidate did Kepler's friends recommend, and for what stated attractions?",
+      "promptZh": "朋友推荐 Kepler 选哪位，给出哪些吸引因素？",
+      "options": [
+        "Candidate four, associated with high status and a large dowry.",
+        "Candidate five, because she was explicitly the wealthiest of all.",
+        "Candidate eleven, because she was a leading mathematician.",
+        "Candidate four, because she had already accepted without waiting."
+      ],
+      "optionsZh": [
+        "第四位，地位高且嫁妆丰厚。",
+        "第五位，因为明确是最富的。",
+        "第十一位，因为是领先数学家。",
+        "第四位，因为已无需等待便接受。"
+      ],
+      "answer": 0,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A Friends urged...number four、high status、large dowry 对应推荐者与理由。",
+        "B 第五位是他个人喜好，且非最富。",
+        "C 没有第十一位数学家这一资料。",
+        "D 第四位后来拒绝，不能把推荐动机写成已接受事实。"
+      ],
+      "vocabulary": [
+        {
+          "word": "dowry",
+          "meaning": "嫁妆；婚姻叙述中由女方家庭带入的财物",
+          "context": "在此是历史故事吸引因素，不是建议用财富评价现代伴侣。",
+          "example": "The historical account mentions a large dowry.",
+          "collocations": [
+            "high status and large dowry",
+            "Friends urged him to choose"
+          ]
+        }
+      ],
+      "translation": "朋友劝他选第四位，她地位高、嫁妆多。但因他让她等太久，她拒绝求婚。他转而选自己最喜欢的第五位。她虽非最富家庭出身，却教育良好；人们认为她提供了有利家庭条件，使 Kepler 又完成四部重要著作。",
+      "evidenceTargetIds": [
+        "c10-s02-p105-02348-s005"
+      ],
+      "evidence": [
+        {
+          "quote": "Friends urged him to choose candidate number four, a woman of high status and large dowry. However, she rejected his proposal because he made her wait too long. So he went with his personal favorite, candidate number five. Though she was not from the wealthiest family, she was well educated and is thought to have provided favorable domestic conditions for Kepler to produce four more major works.",
+          "sentenceIds": [
+            "c10-s02-p105-02348-s005",
+            "c10-s02-p105-02348-s006",
+            "c10-s02-p105-02348-s007",
+            "c10-s02-p105-02348-s008"
+          ],
+          "sources": [
+            {
+              "pdfPage": 105,
+              "block": 2,
+              "bbox": [
+                76.99,
+                234.75,
+                535.01,
+                483.27
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "72e57c14d2a8b69cd9a1ff0e259c6a634f8dc65a55d24bc68274178330b316a3"
+    },
+    {
+      "id": "qe-c10-0024",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-039",
+      "parentQuestionId": "q-c10-011",
+      "chapterId": "c10",
+      "sectionId": "c10-s02",
+      "paragraphId": "c10-s02-p105-02348",
+      "readingUnitId": "c10-s02-p105-02348-r005-008",
+      "sentenceIds": [
+        "c10-s02-p105-02348-s005",
+        "c10-s02-p105-02348-s006",
+        "c10-s02-p105-02348-s007",
+        "c10-s02-p105-02348-s008"
+      ],
+      "passage": "Friends urged him to choose candidate number four, a woman of high status and large dowry. However, she rejected his proposal because he made her wait too long. So he went with his personal favorite, candidate number five. Though she was not from the wealthiest family, she was well educated and is thought to have provided favorable domestic conditions for Kepler to produce four more major works.",
+      "prompt": "Whom did Kepler eventually choose in this account?",
+      "promptZh": "本段叙述中，Kepler 最终选谁？",
+      "options": [
+        "The fourth candidate, who had already rejected his proposal.",
+        "The candidate with the largest dowry, regardless of his preference.",
+        "His personal favourite, candidate number five.",
+        "No one, because the paragraph says the search never ended."
+      ],
+      "optionsZh": [
+        "已拒绝求婚的第四位。",
+        "不顾个人偏好只选嫁妆最大者。",
+        "个人最喜欢的第五位。",
+        "无人，因为段落说搜索从未结束。"
+      ],
+      "answer": 2,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A 四号拒绝是转向五号的前情，不能当最后选择。",
+        "B well educated、not wealthiest 不支持只看最大财富。",
+        "C So he went with personal favorite number five 原文明示。",
+        "D chose 的叙述不能改成永无决定；不另添她同意的日期。"
+      ],
+      "vocabulary": [
+        {
+          "word": "went with",
+          "meaning": "选择了；决定采用",
+          "context": "此处 go with 是作选择，而非仅与某人步行同行。",
+          "example": "After comparing the plans, she went with her personal favourite.",
+          "collocations": [
+            "went with his personal favorite",
+            "candidate number five"
+          ]
+        }
+      ],
+      "translation": "朋友劝他选第四位，她地位高、嫁妆多。但因他让她等太久，她拒绝求婚。他转而选自己最喜欢的第五位。她虽非最富家庭出身，却教育良好；人们认为她提供了有利家庭条件，使 Kepler 又完成四部重要著作。",
+      "evidenceTargetIds": [
+        "c10-s02-p105-02348-s007"
+      ],
+      "evidence": [
+        {
+          "quote": "Friends urged him to choose candidate number four, a woman of high status and large dowry. However, she rejected his proposal because he made her wait too long. So he went with his personal favorite, candidate number five. Though she was not from the wealthiest family, she was well educated and is thought to have provided favorable domestic conditions for Kepler to produce four more major works.",
+          "sentenceIds": [
+            "c10-s02-p105-02348-s005",
+            "c10-s02-p105-02348-s006",
+            "c10-s02-p105-02348-s007",
+            "c10-s02-p105-02348-s008"
+          ],
+          "sources": [
+            {
+              "pdfPage": 105,
+              "block": 2,
+              "bbox": [
+                76.99,
+                234.75,
+                535.01,
+                483.27
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "04fbaaa6a06d4eca8c4ab1774921e0aa47df0d6afb9ae9184f4be4cbb719251b"
+    },
+    {
+      "id": "qe-c10-0025",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-039",
+      "parentQuestionId": "q-c10-011",
+      "chapterId": "c10",
+      "sectionId": "c10-s02",
+      "paragraphId": "c10-s02-p105-02348",
+      "readingUnitId": "c10-s02-p105-02348-r005-008",
+      "sentenceIds": [
+        "c10-s02-p105-02348-s005",
+        "c10-s02-p105-02348-s006",
+        "c10-s02-p105-02348-s007",
+        "c10-s02-p105-02348-s008"
+      ],
+      "passage": "Friends urged him to choose candidate number four, a woman of high status and large dowry. However, she rejected his proposal because he made her wait too long. So he went with his personal favorite, candidate number five. Though she was not from the wealthiest family, she was well educated and is thought to have provided favorable domestic conditions for Kepler to produce four more major works.",
+      "prompt": "What does 'is thought to have provided' preserve in the account of the second wife's contribution?",
+      "promptZh": "is thought to have provided 对第二任妻子的贡献保留什么？",
+      "options": [
+        "A proven claim that she personally authored all four works.",
+        "A guarantee that wealth was the sole cause of his output.",
+        "A denial that she was educated.",
+        "An attributed belief that she created favourable home conditions, rather than certain exclusive causation."
+      ],
+      "optionsZh": [
+        "已证她亲自撰写全部四部著作。",
+        "保证财富是产出的唯一原因。",
+        "否认她受过教育。",
+        "人们认为她提供有利家庭条件，而非确定的唯一因果。"
+      ],
+      "answer": 3,
+      "type": "语气与范围",
+      "support": "explicit",
+      "analyses": [
+        "A provided domestic conditions 不是作者署名或代写。",
+        "B 非最富、well educated，且无 solely 的全因果声明。",
+        "C she was well educated 明示相反。",
+        "D is thought to 保留归述语气，虽不最富却受良好教育为让步；不把家庭支持独占为作品所有原因。"
+      ],
+      "vocabulary": [
+        {
+          "word": "is thought to have",
+          "meaning": "被认为曾经……；人们认为……",
+          "context": "标记归述与一定保留，不是作者直接给出已证的全部因果。",
+          "example": "The change is thought to have improved the working conditions.",
+          "collocations": [
+            "is thought to have provided",
+            "favorable domestic conditions"
+          ]
+        }
+      ],
+      "translation": "朋友劝他选第四位，她地位高、嫁妆多。但因他让她等太久，她拒绝求婚。他转而选自己最喜欢的第五位。她虽非最富家庭出身，却教育良好；人们认为她提供了有利家庭条件，使 Kepler 又完成四部重要著作。",
+      "evidenceTargetIds": [
+        "c10-s02-p105-02348-s008"
+      ],
+      "evidence": [
+        {
+          "quote": "Friends urged him to choose candidate number four, a woman of high status and large dowry. However, she rejected his proposal because he made her wait too long. So he went with his personal favorite, candidate number five. Though she was not from the wealthiest family, she was well educated and is thought to have provided favorable domestic conditions for Kepler to produce four more major works.",
+          "sentenceIds": [
+            "c10-s02-p105-02348-s005",
+            "c10-s02-p105-02348-s006",
+            "c10-s02-p105-02348-s007",
+            "c10-s02-p105-02348-s008"
+          ],
+          "sources": [
+            {
+              "pdfPage": 105,
+              "block": 2,
+              "bbox": [
+                76.99,
+                234.75,
+                535.01,
+                483.27
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "31c496193a1c151b408fe31ae0866b93b43f2afa67c3c8e265d686c2353f86da"
+    },
+    {
+      "id": "q-c10-012",
+      "version": 1,
+      "readingUnitId": "c10-s02-p105-02348-r009-010",
+      "chapterId": "c10",
+      "sectionId": "c10-s02",
+      "paragraphId": "c10-s02-p105-02348",
+      "sentenceIds": [
+        "c10-s02-p105-02348-s009",
+        "c10-s02-p105-02348-s010"
+      ],
+      "passage": "Kepler took his time, explored widely, brought excitement and vigor to the search, and chose his second wife well. He was happily married.",
+      "prompt": "How does the author summarize the outcome of Kepler’s search?",
+      "options": [
+        "A wide and energetic search ended in a choice the author describes as successful.",
+        "Kepler refused every candidate and remained unmarried.",
+        "The search conclusively proved the 37 percent rule in all relationships.",
+        "The search was described as hurried and entirely joyless."
+      ],
+      "answer": 0,
+      "type": "主旨",
+      "promptZh": "作者怎样总结 Kepler 搜索的结果？",
+      "optionsZh": [
+        "广泛且积极的寻找，以作者称成功的选择结束。",
+        "拒绝所有候选人，终身未再婚。",
+        "确凿证明所有关系适用37%规则。",
+        "搜索仓促且毫无乐趣。"
+      ],
+      "analyses": [
+        "A took his time、explored widely、vigor 与 chose...well、happily married 一致。",
+        "B 与 happily married 相反。",
+        "C 单个人物叙事未检验普遍模型。",
+        "D brought excitement and vigor 与仓促无乐趣相反。这里保持作者评价，不推断所有广泛搜索必定幸福。"
+      ],
+      "evidence": [
+        {
+          "quote": "Kepler took his time, explored widely, brought excitement and vigor to the search, and chose his second wife well. He was happily married.",
+          "sentenceIds": [
+            "c10-s02-p105-02348-s009",
+            "c10-s02-p105-02348-s010"
+          ],
+          "sources": [
+            {
+              "pdfPage": 105,
+              "block": 2,
+              "bbox": [
+                76.99,
+                234.75,
+                535.01,
+                483.27
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "vigor",
+          "meaning": "活力；精力",
+          "context": "与 excitement 并列描述投入搜索的状态",
+          "example": "She approached the new project with vigor.",
+          "collocations": [
+            "excitement and vigor",
+            "bring vigor to a task"
+          ]
+        }
+      ],
+      "translation": "Kepler 不慌不忙，广泛探索，带着兴奋与活力寻找，也妥善选择第二任妻子。他婚后幸福。",
+      "support": "explicit",
+      "editorialStatus": "PDF第102–107页原页核对；引述/设问/调查偏好/模拟/历史叙事分开；百分比与跳跃次数保持单位，37%模型不当现实保证；Very few保留省略回答原样，图4辅助材料不冒充已结构化",
+      "fingerprint": "0a3b5a0d6c72621cd2be2db3c262c2338f62a5dc8de1c86ed680702435d4e1b3"
+    },
+    {
+      "id": "q-c10-013",
+      "version": 1,
+      "readingUnitId": "c10-s02-p105-04882-r001-004",
+      "chapterId": "c10",
+      "sectionId": "c10-s02",
+      "paragraphId": "c10-s02-p105-04882",
+      "sentenceIds": [
+        "c10-s02-p105-04882-s001",
+        "c10-s02-p105-04882-s002",
+        "c10-s02-p105-04882-s003",
+        "c10-s02-p105-04882-s004"
+      ],
+      "passage": "Kepler was the leading mathematician of his time, so he probably had a very good sense of probability theorems. In statistics, there is a famous problem called the “secretary problem.” In this task, you are supposed to make the best possible hiring decision based on a series of interviews. Researchers measure how many candidates from a set pool you interview before deciding to hire a particular individual.",
+      "prompt": "What decision is the secretary problem designed to model here?",
+      "options": [
+        "How to hire every person in a candidate pool.",
+        "How to choose a spouse by measuring physical height only.",
+        "How to calculate the exact number of works Kepler would write.",
+        "How to select the best hire through a sequence of interviews."
+      ],
+      "answer": 3,
+      "type": "细节",
+      "promptZh": "这里的秘书问题模拟什么决策？",
+      "optionsZh": [
+        "如何雇用候选池每个人。",
+        "只量身高选择配偶。",
+        "算 Kepler 将写几部作品。",
+        "通过连续面试选出最佳雇员。"
+      ],
+      "analyses": [
+        "A a particular individual，不是每人都雇。",
+        "B 没有身高测量。",
+        "C 作品数属上一叙事，不是模型目标。",
+        "D best possible hiring decision...series of interviews 明示。Kepler probably 懂概率是作者推测，不证明他实际按某条规则行事。"
+      ],
+      "evidence": [
+        {
+          "quote": "make the best possible hiring decision based on a series of interviews.",
+          "sentenceIds": [
+            "c10-s02-p105-04882-s003"
+          ],
+          "sources": [
+            {
+              "pdfPage": 105,
+              "block": 3,
+              "bbox": [
+                76.99,
+                488.25,
+                535.01,
+                717.27
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "pool",
+          "meaning": "候选集合；候选池",
+          "context": "指有限的一组候选人，不是游泳池",
+          "example": "The committee interviewed candidates from a large pool.",
+          "collocations": [
+            "a set pool of candidates",
+            "a candidate pool"
+          ]
+        }
+      ],
+      "translation": "Kepler 是当时领先的数学家，所以他大概很懂概率定理。统计学有个著名的“秘书问题”：通过一系列面试作最佳聘用决定。研究者测量，从既定候选池中面试多少人之后，人会决定聘某一位。",
+      "support": "explicit",
+      "editorialStatus": "PDF第102–107页原页核对；引述/设问/调查偏好/模拟/历史叙事分开；百分比与跳跃次数保持单位，37%模型不当现实保证；Very few保留省略回答原样，图4辅助材料不冒充已结构化",
+      "fingerprint": "7acf48a34556cbada096158e29e6011bbaa265a847ad20a495ce3421511cef6a"
+    },
+    {
+      "id": "qe-c10-0026",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-039",
+      "parentQuestionId": "q-c10-013",
+      "chapterId": "c10",
+      "sectionId": "c10-s02",
+      "paragraphId": "c10-s02-p105-04882",
+      "readingUnitId": "c10-s02-p105-04882-r001-004",
+      "sentenceIds": [
+        "c10-s02-p105-04882-s001",
+        "c10-s02-p105-04882-s002",
+        "c10-s02-p105-04882-s003",
+        "c10-s02-p105-04882-s004"
+      ],
+      "passage": "Kepler was the leading mathematician of his time, so he probably had a very good sense of probability theorems. In statistics, there is a famous problem called the “secretary problem.” In this task, you are supposed to make the best possible hiring decision based on a series of interviews. Researchers measure how many candidates from a set pool you interview before deciding to hire a particular individual.",
+      "prompt": "What does 'probably' qualify in the comment about Kepler's mathematics?",
+      "promptZh": "对 Kepler 数学的评论中，probably 限定什么？",
+      "options": [
+        "It proves he explicitly calculated and followed the later 37 percent rule in every decision.",
+        "It marks the suggestion about his grasp of probability as an inference, not a documented calculation here.",
+        "It says he was definitely not a mathematician.",
+        "It gives a precise numerical probability for the success of his second marriage."
+      ],
+      "optionsZh": [
+        "证明他每次决定都明确计算并遵循后述37%规则。",
+        "把他懂概率的说法标为推测，而非此处记录过的计算。",
+        "表示他肯定不是数学家。",
+        "给第二段婚姻成功的精确数值概率。"
+      ],
+      "answer": 1,
+      "type": "语气与范围",
+      "support": "explicit",
+      "analyses": [
+        "A probably had a good sense 不等于留下已算规则的证据。",
+        "B 前面数学身份支持作者推测，但不能去掉 probably 或虚构历史计算。",
+        "C leading mathematician 在同句明确。",
+        "D 原句没有婚姻概率百分数；不将统计模型当个人必胜保证。"
+      ],
+      "vocabulary": [
+        {
+          "word": "probably",
+          "meaning": "大概；很可能",
+          "context": "表达作者推断强度，区别已核实的具体计算记录。",
+          "example": "He probably knew the method, but the notes do not record his calculation.",
+          "collocations": [
+            "probably had a very good sense",
+            "probability theorems"
+          ]
+        }
+      ],
+      "translation": "Kepler 是当时领先的数学家，所以他大概很懂概率定理。统计学有个著名的“秘书问题”：通过一系列面试作最佳聘用决定。研究者测量，从既定候选池中面试多少人之后，人会决定聘某一位。",
+      "evidenceTargetIds": [
+        "c10-s02-p105-04882-s001"
+      ],
+      "evidence": [
+        {
+          "quote": "Kepler was the leading mathematician of his time, so he probably had a very good sense of probability theorems.",
+          "sentenceIds": [
+            "c10-s02-p105-04882-s001"
+          ],
+          "sources": [
+            {
+              "pdfPage": 105,
+              "block": 3,
+              "bbox": [
+                76.99,
+                488.25,
+                535.01,
+                717.27
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "db5d4ac6e7ec303258a38bbeec5a08b32b6afa140ee940dc8591ba2b1ca6ca28"
+    },
+    {
+      "id": "qe-c10-0027",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-039",
+      "parentQuestionId": "q-c10-013",
+      "chapterId": "c10",
+      "sectionId": "c10-s02",
+      "paragraphId": "c10-s02-p105-04882",
+      "readingUnitId": "c10-s02-p105-04882-r001-004",
+      "sentenceIds": [
+        "c10-s02-p105-04882-s001",
+        "c10-s02-p105-04882-s002",
+        "c10-s02-p105-04882-s003",
+        "c10-s02-p105-04882-s004"
+      ],
+      "passage": "Kepler was the leading mathematician of his time, so he probably had a very good sense of probability theorems. In statistics, there is a famous problem called the “secretary problem.” In this task, you are supposed to make the best possible hiring decision based on a series of interviews. Researchers measure how many candidates from a set pool you interview before deciding to hire a particular individual.",
+      "prompt": "What role does the sentence naming the 'secretary problem' play?",
+      "promptZh": "点名 secretary problem 的句子起什么作用？",
+      "options": [
+        "It reports that the website has hired a real secretary.",
+        "It names a new novel written by Kepler.",
+        "It introduces a statistical decision problem before the paragraph explains its interview task.",
+        "It guarantees the best outcome for every real-life relationship."
+      ],
+      "optionsZh": [
+        "报告网站已雇真实秘书。",
+        "点名 Kepler 写的新小说。",
+        "在段落解释面试任务之前引入一个统计决策问题。",
+        "保证每段真实关系得到最佳结果。"
+      ],
+      "answer": 2,
+      "type": "篇章结构",
+      "support": "explicit",
+      "analyses": [
+        "A In statistics 明确模型问题，不是网站实际招聘。",
+        "B famous problem 不是小说书名。",
+        "C 命名后 In this task 介绍选人任务，题目只问引入功能，不把后续尚未配题句算直接覆盖。",
+        "D 模型的最佳选择任务不能变真实婚姻保证，也不是建议必须以同一公式择偶。"
+      ],
+      "vocabulary": [
+        {
+          "word": "secretary problem",
+          "meaning": "秘书问题；按顺序考察候选并作选择的统计模型问题",
+          "context": "这里为决策研究的模型名，不是秘书个人工作失误或网站实际招聘项目。",
+          "example": "The article uses the secretary problem to discuss sequential choice.",
+          "collocations": [
+            "a famous problem called the secretary problem",
+            "In statistics"
+          ]
+        }
+      ],
+      "translation": "Kepler 是当时领先的数学家，所以他大概很懂概率定理。统计学有个著名的“秘书问题”：通过一系列面试作最佳聘用决定。研究者测量，从既定候选池中面试多少人之后，人会决定聘某一位。",
+      "evidenceTargetIds": [
+        "c10-s02-p105-04882-s002"
+      ],
+      "evidence": [
+        {
+          "quote": "In statistics, there is a famous problem called the “secretary problem.”",
+          "sentenceIds": [
+            "c10-s02-p105-04882-s002"
+          ],
+          "sources": [
+            {
+              "pdfPage": 105,
+              "block": 3,
+              "bbox": [
+                76.99,
+                488.25,
+                535.01,
+                717.27
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "1a480be6ecaadfd6ea1c8a3fd5627626c1e28309ad840abc7404b32260a03da5"
+    },
+    {
+      "id": "qe-c10-0028",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-040",
+      "parentQuestionId": "q-c10-013",
+      "chapterId": "c10",
+      "sectionId": "c10-s02",
+      "paragraphId": "c10-s02-p105-04882",
+      "readingUnitId": "c10-s02-p105-04882-r001-004",
+      "sentenceIds": [
+        "c10-s02-p105-04882-s001",
+        "c10-s02-p105-04882-s002",
+        "c10-s02-p105-04882-s003",
+        "c10-s02-p105-04882-s004"
+      ],
+      "passage": "Kepler was the leading mathematician of his time, so he probably had a very good sense of probability theorems. In statistics, there is a famous problem called the “secretary problem.” In this task, you are supposed to make the best possible hiring decision based on a series of interviews. Researchers measure how many candidates from a set pool you interview before deciding to hire a particular individual.",
+      "prompt": "What do researchers measure in the secretary-problem task described here?",
+      "promptZh": "这里秘书问题任务中，研究者测什么？",
+      "options": [
+        "Only the quality rank of the hire, without counting prior interviews.",
+        "How many candidates from a fixed pool are interviewed before one is selected.",
+        "How many further candidates are interviewed after the final hire has already been made.",
+        "Whether every candidate accepts an offer, without measuring search length."
+      ],
+      "optionsZh": [
+        "只测被雇者质量名次，不数此前面试。",
+        "从既定候选池面试多少人才选中一人。",
+        "最终已雇之后又面试多少其他候选。",
+        "只测每人是否接受邀约，不测搜索长度。"
+      ],
+      "answer": 1,
+      "type": "研究设计",
+      "support": "explicit",
+      "analyses": [
+        "A 目标句明确 how many candidates interviewed before hire，不能删掉搜索数量。",
+        "B how many candidates...before deciding to hire 明确数量及决策时点。",
+        "C 交换 before 与 after，原文测作聘用决定前的考察量。",
+        "D 当前句测考察多少人，不是后面现实拒绝风险的研究。"
+      ],
+      "vocabulary": [
+        {
+          "word": "a set pool",
+          "meaning": "一个既定候选集合",
+          "context": "pool 在此为可供选择的人选总集合，不是游泳池。",
+          "example": "The task asked participants to select one person from a set pool.",
+          "collocations": [
+            "candidates from a set pool",
+            "before deciding to hire"
+          ]
+        }
+      ],
+      "translation": "Kepler 是当时领先的数学家，所以他大概很懂概率定理。统计学有个著名的“秘书问题”：通过一系列面试作最佳聘用决定。研究者测量，从既定候选池中面试多少人之后，人会决定聘某一位。",
+      "evidenceTargetIds": [
+        "c10-s02-p105-04882-s004"
+      ],
+      "evidence": [
+        {
+          "quote": "Kepler was the leading mathematician of his time, so he probably had a very good sense of probability theorems. In statistics, there is a famous problem called the “secretary problem.” In this task, you are supposed to make the best possible hiring decision based on a series of interviews. Researchers measure how many candidates from a set pool you interview before deciding to hire a particular individual.",
+          "sentenceIds": [
+            "c10-s02-p105-04882-s001",
+            "c10-s02-p105-04882-s002",
+            "c10-s02-p105-04882-s003",
+            "c10-s02-p105-04882-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 105,
+              "block": 3,
+              "bbox": [
+                76.99,
+                488.25,
+                535.01,
+                717.27
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "7ebc756612d60d0bf810f16338927328f20442ba54bfa0b843234da8e56cb7d0"
+    },
+    {
+      "id": "q-c10-014",
+      "version": 1,
+      "readingUnitId": "c10-s02-p105-04882-r005-008",
+      "chapterId": "c10",
+      "sectionId": "c10-s02",
+      "paragraphId": "c10-s02-p105-04882",
+      "sentenceIds": [
+        "c10-s02-p105-04882-s005",
+        "c10-s02-p105-04882-s006",
+        "c10-s02-p105-04882-s007",
+        "c10-s02-p105-04882-s008"
+      ],
+      "passage": "You cannot go back to previous interviewees, and you must make binary decisions (yes or no) until you make a yes (hire) decision. Computer simulations show that the optimal strategy here is to interview the first 37 percent of candidates (i.e., saying no to all of them) and from that point on decide whether a new candidate is better than the best of the first 37 percent. This is called the “37 percent rule.” How many people actually follow the 37 percent rule?",
+      "prompt": "What happens during the first 37 percent of interviews under the stated rule?",
+      "options": [
+        "All of these candidates are hired immediately.",
+        "They are rejected, forming a benchmark for judging later candidates.",
+        "Interviewers may hire earlier rejected candidates at any later time.",
+        "Exactly 37 percent of participants are required to follow the rule."
+      ],
+      "answer": 1,
+      "type": "细节",
+      "promptZh": "按这里的规则，前37%面试期间发生什么？",
+      "optionsZh": [
+        "所有这些候选人立即被雇。",
+        "拒绝这些人，并以其中最佳者作为后续比较基准。",
+        "可随时回头聘已拒绝者。",
+        "恰好37%的参与者被要求遵循规则。"
+      ],
+      "analyses": [
+        "A saying no to all 正相反。",
+        "B first37...no...better than best of first37，支持先建立基准。",
+        "C cannot go back 明确不可召回。",
+        "D 37%是候选序列截点，不是参与者遵循率。模型有不可回头、二元决定等条件，不能当所有真实择偶情境的通用保证。"
+      ],
+      "evidence": [
+        {
+          "quote": "interview the first 37 percent of candidates (i.e., saying no to all of them)",
+          "sentenceIds": [
+            "c10-s02-p105-04882-s006"
+          ],
+          "sources": [
+            {
+              "pdfPage": 105,
+              "block": 3,
+              "bbox": [
+                76.99,
+                488.25,
+                535.01,
+                717.27
+              ]
+            }
+          ]
+        },
+        {
+          "quote": "better than the best of the first 37 percent.",
+          "sentenceIds": [
+            "c10-s02-p105-04882-s006"
+          ],
+          "sources": [
+            {
+              "pdfPage": 105,
+              "block": 3,
+              "bbox": [
+                76.99,
+                488.25,
+                535.01,
+                717.27
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "binary",
+          "meaning": "二元的；只有两种结果的",
+          "context": "这里每一步只能yes或no，不是多种中间聘用决定",
+          "example": "The task required a binary yes-or-no response.",
+          "collocations": [
+            "binary decisions",
+            "a binary choice"
+          ]
+        }
+      ],
+      "translation": "你不能回到先前面试者，必须不断作是或否的二元决定，直到一次“是”，即聘用。计算机模拟显示，这里的最优策略是先面试前37%候选人、全部拒绝；之后再判断新候选人是否比前37%中的最佳者更好。这叫“37%规则”。有多少人实际遵循呢？",
+      "support": "explicit",
+      "editorialStatus": "PDF第102–107页原页核对；引述/设问/调查偏好/模拟/历史叙事分开；百分比与跳跃次数保持单位，37%模型不当现实保证；Very few保留省略回答原样，图4辅助材料不冒充已结构化",
+      "fingerprint": "469925062e4b6e6ee3364f779c53c9b64453fd00285f6d9f476fbdd656eb78b3"
+    },
+    {
+      "id": "qe-c10-0029",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-040",
+      "parentQuestionId": "q-c10-014",
+      "chapterId": "c10",
+      "sectionId": "c10-s02",
+      "paragraphId": "c10-s02-p105-04882",
+      "readingUnitId": "c10-s02-p105-04882-r005-008",
+      "sentenceIds": [
+        "c10-s02-p105-04882-s005",
+        "c10-s02-p105-04882-s006",
+        "c10-s02-p105-04882-s007",
+        "c10-s02-p105-04882-s008"
+      ],
+      "passage": "You cannot go back to previous interviewees, and you must make binary decisions (yes or no) until you make a yes (hire) decision. Computer simulations show that the optimal strategy here is to interview the first 37 percent of candidates (i.e., saying no to all of them) and from that point on decide whether a new candidate is better than the best of the first 37 percent. This is called the “37 percent rule.” How many people actually follow the 37 percent rule?",
+      "prompt": "Which constraint applies while the decision-maker is still searching?",
+      "promptZh": "决策者仍在搜索时，适用什么约束？",
+      "options": [
+        "Every rejected person can be recalled whenever convenient.",
+        "All candidates must be hired before comparison begins.",
+        "No yes-or-no decision is made until all previous candidates return.",
+        "Earlier candidates cannot be revisited, and each current decision is yes or no until a hire."
+      ],
+      "optionsZh": [
+        "方便时随时召回已拒绝者。",
+        "比较前必须雇用所有人。",
+        "直到所有旧人回来才作是非决定。",
+        "不能回选旧人，每次作是或否决定，直到聘用。"
+      ],
+      "answer": 3,
+      "type": "研究设计",
+      "support": "explicit",
+      "analyses": [
+        "A cannot go back 明确禁止回选。",
+        "B 只作一次最终 hire，不是雇全体。",
+        "C must make binary decisions 与一直不决定相反。",
+        "D 两项约束及 until yes 的停止条件都对应，这是模型任务规则而非网站要求读者实际招聘。"
+      ],
+      "vocabulary": [
+        {
+          "word": "binary",
+          "meaning": "二元的；只有两种可能选择的",
+          "context": "此处括号 yes/no 明确两选项，不是题库四选项或计算机二进制操作要求。",
+          "example": "The task required a binary decision at each stage.",
+          "collocations": [
+            "binary decisions (yes or no)",
+            "until you make a yes decision"
+          ]
+        }
+      ],
+      "translation": "你不能回到先前面试者，必须不断作是或否的二元决定，直到一次“是”，即聘用。计算机模拟显示，这里的最优策略是先面试前37%候选人、全部拒绝；之后再判断新候选人是否比前37%中的最佳者更好。这叫“37%规则”。有多少人实际遵循呢？",
+      "evidenceTargetIds": [
+        "c10-s02-p105-04882-s005"
+      ],
+      "evidence": [
+        {
+          "quote": "You cannot go back to previous interviewees, and you must make binary decisions (yes or no) until you make a yes (hire) decision. Computer simulations show that the optimal strategy here is to interview the first 37 percent of candidates (i.e., saying no to all of them) and from that point on decide whether a new candidate is better than the best of the first 37 percent. This is called the “37 percent rule.” How many people actually follow the 37 percent rule?",
+          "sentenceIds": [
+            "c10-s02-p105-04882-s005",
+            "c10-s02-p105-04882-s006",
+            "c10-s02-p105-04882-s007",
+            "c10-s02-p105-04882-s008"
+          ],
+          "sources": [
+            {
+              "pdfPage": 105,
+              "block": 3,
+              "bbox": [
+                76.99,
+                488.25,
+                535.01,
+                717.27
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "ac0ce971d1bd3d11a447d7d8c310416804849c6172a653abeb204e8378b29a8a"
+    },
+    {
+      "id": "qe-c10-0030",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-040",
+      "parentQuestionId": "q-c10-014",
+      "chapterId": "c10",
+      "sectionId": "c10-s02",
+      "paragraphId": "c10-s02-p105-04882",
+      "readingUnitId": "c10-s02-p105-04882-r005-008",
+      "sentenceIds": [
+        "c10-s02-p105-04882-s005",
+        "c10-s02-p105-04882-s006",
+        "c10-s02-p105-04882-s007",
+        "c10-s02-p105-04882-s008"
+      ],
+      "passage": "You cannot go back to previous interviewees, and you must make binary decisions (yes or no) until you make a yes (hire) decision. Computer simulations show that the optimal strategy here is to interview the first 37 percent of candidates (i.e., saying no to all of them) and from that point on decide whether a new candidate is better than the best of the first 37 percent. This is called the “37 percent rule.” How many people actually follow the 37 percent rule?",
+      "prompt": "What strategy is labelled the '37 percent rule' in this paragraph?",
+      "promptZh": "本段把什么策略称为 37 percent rule？",
+      "options": [
+        "Reject the first 37 percent as a comparison sample, then assess later candidates against the best in that sample.",
+        "Hire exactly 37 percent of all candidates at the same time.",
+        "Choose the thirty-seventh candidate regardless of pool size or quality.",
+        "Interview only 37 percent and automatically hire the final one in that initial group."
+      ],
+      "optionsZh": [
+        "先拒前37%作比较样本，再将后续候选与样本最佳者比较。",
+        "同时雇全部候选中的恰37%。",
+        "不论池大小或质量，一律选第37人。",
+        "只面试37%，并自动雇初始组最后一人。"
+      ],
+      "answer": 0,
+      "type": "指代与逻辑",
+      "support": "explicit",
+      "analyses": [
+        "A 前句 interview first37percent、saying no、then compare new with best 的顺序明确，This 回指此策略。",
+        "B 37%是初始考察比例，不是录用比例。",
+        "C 比例不是固定第37人，且还需比较质量。",
+        "D 初始组全拒，不能自动聘该组最后者；本段模型最优不保证任何实际生活必胜。"
+      ],
+      "vocabulary": [
+        {
+          "word": "rule",
+          "meaning": "规则；此模型中的选择策略",
+          "context": "这里为特定统计任务的规则名，不是法律或对每段关系的强制规范。",
+          "example": "The rule separates initial comparison from later selection.",
+          "collocations": [
+            "the 37 percent rule",
+            "the best of the first 37 percent"
+          ]
+        }
+      ],
+      "translation": "你不能回到先前面试者，必须不断作是或否的二元决定，直到一次“是”，即聘用。计算机模拟显示，这里的最优策略是先面试前37%候选人、全部拒绝；之后再判断新候选人是否比前37%中的最佳者更好。这叫“37%规则”。有多少人实际遵循呢？",
+      "evidenceTargetIds": [
+        "c10-s02-p105-04882-s007"
+      ],
+      "evidence": [
+        {
+          "quote": "You cannot go back to previous interviewees, and you must make binary decisions (yes or no) until you make a yes (hire) decision. Computer simulations show that the optimal strategy here is to interview the first 37 percent of candidates (i.e., saying no to all of them) and from that point on decide whether a new candidate is better than the best of the first 37 percent. This is called the “37 percent rule.” How many people actually follow the 37 percent rule?",
+          "sentenceIds": [
+            "c10-s02-p105-04882-s005",
+            "c10-s02-p105-04882-s006",
+            "c10-s02-p105-04882-s007",
+            "c10-s02-p105-04882-s008"
+          ],
+          "sources": [
+            {
+              "pdfPage": 105,
+              "block": 3,
+              "bbox": [
+                76.99,
+                488.25,
+                535.01,
+                717.27
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "36bd4019d6bc9a95cecb3347844b0ee7d747b1afaa7c2393c3781224dbe4deea"
+    },
+    {
+      "id": "qe-c10-0031",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-040",
+      "parentQuestionId": "q-c10-014",
+      "chapterId": "c10",
+      "sectionId": "c10-s02",
+      "paragraphId": "c10-s02-p105-04882",
+      "readingUnitId": "c10-s02-p105-04882-r005-008",
+      "sentenceIds": [
+        "c10-s02-p105-04882-s005",
+        "c10-s02-p105-04882-s006",
+        "c10-s02-p105-04882-s007",
+        "c10-s02-p105-04882-s008"
+      ],
+      "passage": "You cannot go back to previous interviewees, and you must make binary decisions (yes or no) until you make a yes (hire) decision. Computer simulations show that the optimal strategy here is to interview the first 37 percent of candidates (i.e., saying no to all of them) and from that point on decide whether a new candidate is better than the best of the first 37 percent. This is called the “37 percent rule.” How many people actually follow the 37 percent rule?",
+      "prompt": "Why ask how many people 'actually follow' the rule after describing the simulated optimum?",
+      "promptZh": "描述模拟最优后，为何问多少人 actually follow 该规则？",
+      "options": [
+        "To confirm that exactly 37 percent of every population follows it.",
+        "To replace the empirical question with a new definition of the word secretary.",
+        "To shift from a model's optimal strategy to whether people use it in practice.",
+        "To claim all real-life decisions have already been measured as optimal."
+      ],
+      "optionsZh": [
+        "确认每群人恰37%遵循。",
+        "以 secretary 新定义替代实证问题。",
+        "从模型最优策略转向人们实际是否采用。",
+        "声称所有现实决定已测得最优。"
+      ],
+      "answer": 2,
+      "type": "研究逻辑",
+      "support": "explicit",
+      "analyses": [
+        "A 37%在此是搜索策略比例，不是跟随者比例；当前短段尚未给实际人数答案。",
+        "B 不是词义定义。",
+        "C simulations show optimal 后追问 actually follow，区分规范模型与描述行为。",
+        "D 问句不能当全体已经最优的结果，也不凭缺失的下一短段虚构统计。"
+      ],
+      "vocabulary": [
+        {
+          "word": "actually follow",
+          "meaning": "实际遵循；在行为中真的采用",
+          "context": "区别知道规则或模型给出最优，不假定现实必采用。",
+          "example": "The study asked whether people actually follow the stated strategy.",
+          "collocations": [
+            "How many people actually follow",
+            "the optimal strategy here"
+          ]
+        }
+      ],
+      "translation": "你不能回到先前面试者，必须不断作是或否的二元决定，直到一次“是”，即聘用。计算机模拟显示，这里的最优策略是先面试前37%候选人、全部拒绝；之后再判断新候选人是否比前37%中的最佳者更好。这叫“37%规则”。有多少人实际遵循呢？",
+      "evidenceTargetIds": [
+        "c10-s02-p105-04882-s008"
+      ],
+      "evidence": [
+        {
+          "quote": "You cannot go back to previous interviewees, and you must make binary decisions (yes or no) until you make a yes (hire) decision. Computer simulations show that the optimal strategy here is to interview the first 37 percent of candidates (i.e., saying no to all of them) and from that point on decide whether a new candidate is better than the best of the first 37 percent. This is called the “37 percent rule.” How many people actually follow the 37 percent rule?",
+          "sentenceIds": [
+            "c10-s02-p105-04882-s005",
+            "c10-s02-p105-04882-s006",
+            "c10-s02-p105-04882-s007",
+            "c10-s02-p105-04882-s008"
+          ],
+          "sources": [
+            {
+              "pdfPage": 105,
+              "block": 3,
+              "bbox": [
+                76.99,
+                488.25,
+                535.01,
+                717.27
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "d75a0f050b8da42cabde7b6401aa4ae5039472fb73ce07d80b5a821fc5f152a9"
+    },
+    {
+      "id": "q-c10-015",
+      "version": 1,
+      "readingUnitId": "c10-s02-p105-04882-r009-009",
+      "chapterId": "c10",
+      "sectionId": "c10-s02",
+      "paragraphId": "c10-s02-p105-04882",
+      "sentenceIds": [
+        "c10-s02-p105-04882-s009"
+      ],
+      "passage": "Very few.",
+      "prompt": "What quantity does “Very few” express?",
+      "options": [
+        "Every member of a group.",
+        "Exactly zero, with no exceptions.",
+        "A very small number, not necessarily zero.",
+        "A majority of the group."
+      ],
+      "answer": 2,
+      "type": "语境词义",
+      "promptZh": "Very few 表示怎样的数量？",
+      "optionsZh": [
+        "群体每一位。",
+        "精确为零，毫无例外。",
+        "数量极少，但不一定为零。",
+        "群体大多数。"
+      ],
+      "analyses": [
+        "A few 不是全体。",
+        "B few 不等于 none，不能擅自改成零。",
+        "C very 加强“少”的程度，保留可能存在少数。",
+        "D 与大多数相反。本片段是承接上一问句的省略回答；保留既有短段与ID，不冒充独立完整句，也不在这两个词里编出精确百分比。"
+      ],
+      "evidence": [
+        {
+          "quote": "Very few.",
+          "sentenceIds": [
+            "c10-s02-p105-04882-s009"
+          ],
+          "sources": [
+            {
+              "pdfPage": 105,
+              "block": 3,
+              "bbox": [
+                76.99,
+                488.25,
+                535.01,
+                717.27
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "few",
+          "meaning": "很少的；几乎没有多少",
+          "context": "省略回答描述人数很少，不能据此算具体比例",
+          "example": "Very few participants selected that option.",
+          "collocations": [
+            "very few people",
+            "only a few"
+          ]
+        }
+      ],
+      "translation": "极少数。（承接上一短段问句的省略回答。）",
+      "support": "explicit",
+      "editorialStatus": "PDF第102–107页原页核对；引述/设问/调查偏好/模拟/历史叙事分开；百分比与跳跃次数保持单位，37%模型不当现实保证；Very few保留省略回答原样，图4辅助材料不冒充已结构化",
+      "fingerprint": "dc90bfc8a10ce1e52fe24a573a21589079435e4579f505271b0fcac944b0559e"
+    },
+    {
+      "id": "q-c10-016",
+      "version": 1,
+      "readingUnitId": "c10-s02-p106-00750-r001-004",
+      "chapterId": "c10",
+      "sectionId": "c10-s02",
+      "paragraphId": "c10-s02-p106-00750",
+      "sentenceIds": [
+        "c10-s02-p106-00750-s001",
+        "c10-s02-p106-00750-s002",
+        "c10-s02-p106-00750-s003",
+        "c10-s02-p106-00750-s004"
+      ],
+      "passage": "If you had 100 potential mates, would you date 37 of them at least once and then start using the 37 percent rule until you find the best available one? Probably not. This is because dating so many people is costly, not only financially but also psychologically. In addition, even when you finally think you have found The One, that person might say no to your proposal.",
+      "prompt": "Why might the hypothetical dating search be unattractive?",
+      "options": [
+        "It has financial and psychological costs, and the preferred person may reject the proposal.",
+        "It involves no cost and guarantees mutual acceptance.",
+        "It allows every previous candidate to be recalled with certainty.",
+        "It guarantees that all 100 people will agree to marry."
+      ],
+      "answer": 0,
+      "type": "细节",
+      "promptZh": "为什么假设中的择偶搜索可能不吸引人？",
+      "optionsZh": [
+        "有金钱和心理成本，最中意者也可能拒绝。",
+        "毫无成本且保证相互接受。",
+        "保证可召回每个之前候选人。",
+        "保证100人都愿意结婚。"
+      ],
+      "analyses": [
+        "A not only financially but also psychologically 与 might say no 对应两类限制。",
+        "B costly、might say no 均否定这种保证。",
+        "C 原文没保证别人可召回。",
+        "D potential mates 不是全部已同意的人。100/37是设想，不能当真实实验人数或婚恋建议的精确处方。"
+      ],
+      "evidence": [
+        {
+          "quote": "dating so many people is costly, not only financially but also psychologically.",
+          "sentenceIds": [
+            "c10-s02-p106-00750-s003"
+          ],
+          "sources": [
+            {
+              "pdfPage": 106,
+              "block": 0,
+              "bbox": [
+                76.99,
+                75,
+                535.01,
+                206.52
+              ]
+            }
+          ]
+        },
+        {
+          "quote": "that person might say no to your proposal.",
+          "sentenceIds": [
+            "c10-s02-p106-00750-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 106,
+              "block": 0,
+              "bbox": [
+                76.99,
+                75,
+                535.01,
+                206.52
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "costly",
+          "meaning": "代价高的",
+          "context": "不仅花钱，还包括情绪和时间投入，不只商品价格",
+          "example": "A long search can be costly in time and effort.",
+          "collocations": [
+            "financially and psychologically costly",
+            "a costly search"
+          ]
+        }
+      ],
+      "translation": "假设有100个潜在对象，你会至少分别约会其中37人一次，再按37%规则找最佳可选者吗？大概不会。因为约会这么多人不只财务代价高，心理代价也高。即使终于觉得找到“那个人”，对方也可能拒绝求婚。",
+      "support": "explicit",
+      "editorialStatus": "PDF第102–107页原页核对；引述/设问/调查偏好/模拟/历史叙事分开；百分比与跳跃次数保持单位，37%模型不当现实保证；Very few保留省略回答原样，图4辅助材料不冒充已结构化",
+      "fingerprint": "bae67303d0da71bc38cd414dbce0e248f1d8457db5b39a565b2e030cd5ec2c62"
+    },
+    {
+      "id": "qe-c10-0032",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-040",
+      "parentQuestionId": "q-c10-016",
+      "chapterId": "c10",
+      "sectionId": "c10-s02",
+      "paragraphId": "c10-s02-p106-00750",
+      "readingUnitId": "c10-s02-p106-00750-r001-004",
+      "sentenceIds": [
+        "c10-s02-p106-00750-s001",
+        "c10-s02-p106-00750-s002",
+        "c10-s02-p106-00750-s003",
+        "c10-s02-p106-00750-s004"
+      ],
+      "passage": "If you had 100 potential mates, would you date 37 of them at least once and then start using the 37 percent rule until you find the best available one? Probably not. This is because dating so many people is costly, not only financially but also psychologically. In addition, even when you finally think you have found The One, that person might say no to your proposal.",
+      "prompt": "What is the status of the example involving 100 potential mates?",
+      "promptZh": "涉及100个潜在对象的例子处于什么性质？",
+      "options": [
+        "A hypothetical application asking whether someone would sample 37 before applying the rule.",
+        "A survey in which exactly 100 people all dated 37 partners.",
+        "A report that all participants were required to marry the thirty-seventh person.",
+        "Proof that 37 dates always guarantee finding a mutually willing partner."
+      ],
+      "optionsZh": [
+        "假设性应用，问是否会先考察37个再按规则选择。",
+        "一项恰有100人且每人约会37人的调查。",
+        "报告每个参与者必须与第37人结婚。",
+        "证明37次约会总能找到互相愿意的对象。"
+      ],
+      "answer": 0,
+      "type": "语气与范围",
+      "support": "explicit",
+      "analyses": [
+        "A If you had、would you 标明设问，不是已发生经历。",
+        "B If you had 是假设候选池，不是实际调查样本人数。",
+        "C least once 的约会搜索不等于必须与第37人结婚。",
+        "D 后文还提成本与可能拒绝，不能保证互相接受。"
+      ],
+      "vocabulary": [
+        {
+          "word": "potential",
+          "meaning": "潜在的；可能作为选项的",
+          "context": "在假设中为尚未选定的可能对象，不是已有一百段确定关系。",
+          "example": "The model starts with a fixed number of potential options.",
+          "collocations": [
+            "100 potential mates",
+            "at least once"
+          ]
+        }
+      ],
+      "translation": "假设有100个潜在对象，你会至少分别约会其中37人一次，再按37%规则找最佳可选者吗？大概不会。因为约会这么多人不只财务代价高，心理代价也高。即使终于觉得找到“那个人”，对方也可能拒绝求婚。",
+      "evidenceTargetIds": [
+        "c10-s02-p106-00750-s001"
+      ],
+      "evidence": [
+        {
+          "quote": "If you had 100 potential mates, would you date 37 of them at least once and then start using the 37 percent rule until you find the best available one? Probably not. This is because dating so many people is costly, not only financially but also psychologically. In addition, even when you finally think you have found The One, that person might say no to your proposal.",
+          "sentenceIds": [
+            "c10-s02-p106-00750-s001",
+            "c10-s02-p106-00750-s002",
+            "c10-s02-p106-00750-s003",
+            "c10-s02-p106-00750-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 106,
+              "block": 0,
+              "bbox": [
+                76.99,
+                75,
+                535.01,
+                206.52
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "5f96383265126e7dba199341957ab342c7a9a47933aeaa56bfdbfc5ec0aec8d9"
+    },
+    {
+      "id": "qe-c10-0033",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-040",
+      "parentQuestionId": "q-c10-016",
+      "chapterId": "c10",
+      "sectionId": "c10-s02",
+      "paragraphId": "c10-s02-p106-00750",
+      "readingUnitId": "c10-s02-p106-00750-r001-004",
+      "sentenceIds": [
+        "c10-s02-p106-00750-s001",
+        "c10-s02-p106-00750-s002",
+        "c10-s02-p106-00750-s003",
+        "c10-s02-p106-00750-s004"
+      ],
+      "passage": "If you had 100 potential mates, would you date 37 of them at least once and then start using the 37 percent rule until you find the best available one? Probably not. This is because dating so many people is costly, not only financially but also psychologically. In addition, even when you finally think you have found The One, that person might say no to your proposal.",
+      "prompt": "What does 'Probably not' indicate after the dating question?",
+      "promptZh": "约会设问后 Probably not 表示什么？",
+      "options": [
+        "A certainty that no person anywhere has ever tried extensive search.",
+        "A measured survey result that exactly half the population searches extensively.",
+        "The probability of exactly 37 percent stated as a measured result.",
+        "The author's qualified expectation that many would not undertake the proposed search."
+      ],
+      "optionsZh": [
+        "确定世界任何人都从未广泛搜索。",
+        "测得恰一半人广泛搜索的调查结果。",
+        "精确37%概率作为测量结果。",
+        "作者有保留地预计许多人不会这样搜索。"
+      ],
+      "answer": 3,
+      "type": "语气与范围",
+      "support": "explicit",
+      "analyses": [
+        "A probably 不是绝对 nobody ever。",
+        "B Probably not 没有给实测调查或精确一半的数字。",
+        "C 没给数值，不能把规则比例当回答概率。",
+        "D not 承接上一问，后文以经济心理成本及拒绝风险解释；保留推测而非普遍实测。"
+      ],
+      "vocabulary": [
+        {
+          "word": "Probably not",
+          "meaning": "大概不会；很可能不",
+          "context": "表达对设问的保留性否定，不是绝不可能或已知用户选择。",
+          "example": "Would everyone repeat the long process? Probably not.",
+          "collocations": [
+            "Probably not",
+            "dating so many people is costly"
+          ]
+        }
+      ],
+      "translation": "假设有100个潜在对象，你会至少分别约会其中37人一次，再按37%规则找最佳可选者吗？大概不会。因为约会这么多人不只财务代价高，心理代价也高。即使终于觉得找到“那个人”，对方也可能拒绝求婚。",
+      "evidenceTargetIds": [
+        "c10-s02-p106-00750-s002"
+      ],
+      "evidence": [
+        {
+          "quote": "If you had 100 potential mates, would you date 37 of them at least once and then start using the 37 percent rule until you find the best available one? Probably not. This is because dating so many people is costly, not only financially but also psychologically. In addition, even when you finally think you have found The One, that person might say no to your proposal.",
+          "sentenceIds": [
+            "c10-s02-p106-00750-s001",
+            "c10-s02-p106-00750-s002",
+            "c10-s02-p106-00750-s003",
+            "c10-s02-p106-00750-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 106,
+              "block": 0,
+              "bbox": [
+                76.99,
+                75,
+                535.01,
+                206.52
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "bb86e81190008f2b6d4918677b64f9833606e0a4dc57732940bf01bb9a393ebc"
+    },
+    {
+      "id": "q-c10-017",
+      "version": 1,
+      "readingUnitId": "c10-s02-p106-00750-r005-006",
+      "chapterId": "c10",
+      "sectionId": "c10-s02",
+      "paragraphId": "c10-s02-p106-00750",
+      "sentenceIds": [
+        "c10-s02-p106-00750-s005",
+        "c10-s02-p106-00750-s006"
+      ],
+      "passage": "Then your extensive search would be wasted. It makes more sense to settle on the first person you like well enough who likes you back.",
+      "prompt": "What selection criterion does the author suggest in this practical contrast?",
+      "options": [
+        "The highest ranking regardless of the other person’s feelings.",
+        "Any person chosen before mutual interest is known.",
+        "A guarantee of finding the mathematically best individual.",
+        "Someone one likes sufficiently who also returns that liking."
+      ],
+      "answer": 3,
+      "type": "主旨",
+      "promptZh": "在这个现实对比中，作者提出什么选择标准？",
+      "optionsZh": [
+        "不论对方感受，只取最高排名。",
+        "未知道相互兴趣就随便选人。",
+        "保证找到数学意义的最佳个体。",
+        "自己足够喜欢、对方也喜欢自己的人。"
+      ],
+      "analyses": [
+        "A likes you back 明确保留对方意愿。",
+        "B 相互喜欢不是完全未知就随便选。",
+        "C well enough 是足够好，不是保证全局最优。",
+        "D like well enough who likes you back 概括双方条件。Then...would be wasted 承接被拒绝的假设，不是每次广泛搜索都无价值。"
+      ],
+      "evidence": [
+        {
+          "quote": "the first person you like well enough who likes you back.",
+          "sentenceIds": [
+            "c10-s02-p106-00750-s006"
+          ],
+          "sources": [
+            {
+              "pdfPage": 106,
+              "block": 0,
+              "bbox": [
+                76.99,
+                75,
+                535.01,
+                206.52
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "settle on",
+          "meaning": "选定；作出选择",
+          "context": "在搜索后选择足够合适且相互喜欢的人，不等于安家定居的字面动作",
+          "example": "After comparing the options, they settled on a workable plan.",
+          "collocations": [
+            "settle on a choice",
+            "settle on the first suitable option"
+          ]
+        }
+      ],
+      "translation": "那样，广泛搜索就会白费。因此，选定第一个你足够喜欢、也喜欢你的人，显得更有道理。",
+      "support": "explicit",
+      "editorialStatus": "PDF第102–107页原页核对；引述/设问/调查偏好/模拟/历史叙事分开；百分比与跳跃次数保持单位，37%模型不当现实保证；Very few保留省略回答原样，图4辅助材料不冒充已结构化",
+      "fingerprint": "7f86852e5f1c09e80c9caa55444afd9988bc8b190beae7f0a6f99150cb8585b8"
+    },
+    {
+      "id": "qe-c10-0034",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-040",
+      "parentQuestionId": "q-c10-017",
+      "chapterId": "c10",
+      "sectionId": "c10-s02",
+      "paragraphId": "c10-s02-p106-00750",
+      "readingUnitId": "c10-s02-p106-00750-r005-006",
+      "sentenceIds": [
+        "c10-s02-p106-00750-s005",
+        "c10-s02-p106-00750-s006"
+      ],
+      "passage": "Then your extensive search would be wasted. It makes more sense to settle on the first person you like well enough who likes you back.",
+      "prompt": "What does 'wasted' mean in 'your extensive search would be wasted'?",
+      "promptZh": "your extensive search would be wasted 中 wasted 是什么意思？",
+      "options": [
+        "The search is guaranteed to improve every person's final decision.",
+        "The search effort would fail to yield its intended useful outcome in the situation being considered.",
+        "The person would necessarily be physically injured by searching.",
+        "The search uses money only and has no psychological or time cost."
+      ],
+      "optionsZh": [
+        "保证搜索改善每个人最终决定。",
+        "在所考虑情形中，搜索投入未能带来所需有用结果。",
+        "搜索必然使人受身体伤害。",
+        "搜索只涉及钱，没有心理或时间投入。"
+      ],
+      "answer": 1,
+      "type": "语境词义",
+      "support": "explicit",
+      "analyses": [
+        "A wasted 与有用产出受保证相反。",
+        "B extensive effort could be fruitless 是该词语境，不只限金钱；would 保留所设情形。",
+        "C 无受伤结果，不能扩张负担。",
+        "D wasted 指努力未得所求收益，不把投入限为现金或取消其他成本。"
+      ],
+      "vocabulary": [
+        {
+          "word": "wasted",
+          "meaning": "白费的；未产生所求收益的",
+          "context": "修饰广泛搜索努力，不仅指垃圾或只损失现金。",
+          "example": "The preparation would be wasted if the required material never arrived.",
+          "collocations": [
+            "extensive search would be wasted",
+            "settle on the first person"
+          ]
+        }
+      ],
+      "translation": "那样，广泛搜索就会白费。因此，选定第一个你足够喜欢、也喜欢你的人，显得更有道理。",
+      "evidenceTargetIds": [
+        "c10-s02-p106-00750-s005"
+      ],
+      "evidence": [
+        {
+          "quote": "Then your extensive search would be wasted. It makes more sense to settle on the first person you like well enough who likes you back.",
+          "sentenceIds": [
+            "c10-s02-p106-00750-s005",
+            "c10-s02-p106-00750-s006"
+          ],
+          "sources": [
+            {
+              "pdfPage": 106,
+              "block": 0,
+              "bbox": [
+                76.99,
+                75,
+                535.01,
+                206.52
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "e38bc889bfa10cb01eba9586b6af7176c925cb35d78966b23326ed2cfd9d9269"
+    },
+    {
+      "id": "q-c10-018",
+      "version": 1,
+      "readingUnitId": "c10-s02-p106-02115-r001-002",
+      "chapterId": "c10",
+      "sectionId": "c10-s02",
+      "paragraphId": "c10-s02-p106-02115",
+      "sentenceIds": [
+        "c10-s02-p106-02115-s001",
+        "c10-s02-p106-02115-s002"
+      ],
+      "passage": "Nevertheless, it is interesting to know that psychologists have conducted a lot of secretary problem (SP) experiments that minimize additional search costs (e.g., just flipping another card instead of finding a time and location to meet a date). Even in an artificial lab experiment where the search cost is little, only a fraction of people use the optimal search strategy.",
+      "prompt": "What does the low-cost laboratory evidence add to the discussion?",
+      "options": [
+        "It shows all participants use the optimum when costs are small.",
+        "It proves financial costs are the only cause of early choice.",
+        "Even when extra search costs are minimized, only some use the optimal strategy.",
+        "It eliminates every difference between laboratory choices and real dating."
+      ],
+      "answer": 2,
+      "type": "逻辑关系",
+      "promptZh": "低成本实验室证据补充说明什么？",
+      "optionsZh": [
+        "只要成本低，所有人就用最优策略。",
+        "证明财务成本是过早选择的唯一原因。",
+        "额外搜索成本尽量降低时，也只有部分人用最优策略。",
+        "消除实验选择与真实约会的一切差异。"
+      ],
+      "analyses": [
+        "A only a fraction 不是全体。",
+        "B 低成本下仍偏离，不能把成本定为唯一原因。",
+        "C minimize...Even...little...fraction 的让步关系完整。",
+        "D artificial lab 与约会的成本形式仍有区别，不能完全等同。翻卡片只是降低搜索成本的例子，不是现实关系实验。"
+      ],
+      "evidence": [
+        {
+          "quote": "Even in an artificial lab experiment where the search cost is little, only a fraction of people use the optimal search strategy.",
+          "sentenceIds": [
+            "c10-s02-p106-02115-s002"
+          ],
+          "sources": [
+            {
+              "pdfPage": 106,
+              "block": 1,
+              "bbox": [
+                76.99,
+                211.5,
+                535.01,
+                440.52
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "minimize",
+          "meaning": "尽量减少；使降至最低",
+          "context": "减小额外搜索成本，不是证明所有成本绝对为零",
+          "example": "The design aimed to minimize the effort needed for another choice.",
+          "collocations": [
+            "minimize search costs",
+            "minimize additional costs"
+          ]
+        }
+      ],
+      "translation": "不过，心理学家确实做过许多秘书问题实验，尽量减少额外搜索成本，比如只需再翻一张卡，而不必安排约会时间地点。即使在搜索成本很小的人造实验室任务中，也只有一部分人使用最优搜索策略。",
+      "support": "explicit",
+      "editorialStatus": "PDF第102–107页原页核对；引述/设问/调查偏好/模拟/历史叙事分开；百分比与跳跃次数保持单位，37%模型不当现实保证；Very few保留省略回答原样，图4辅助材料不冒充已结构化",
+      "fingerprint": "52a543835ddead2df4fe1a08e1c1e0eefaef78ce2ef9d75d28265d1e860f0bf8"
+    },
+    {
+      "id": "qe-c10-0035",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-040",
+      "parentQuestionId": "q-c10-018",
+      "chapterId": "c10",
+      "sectionId": "c10-s02",
+      "paragraphId": "c10-s02-p106-02115",
+      "readingUnitId": "c10-s02-p106-02115-r001-002",
+      "sentenceIds": [
+        "c10-s02-p106-02115-s001",
+        "c10-s02-p106-02115-s002"
+      ],
+      "passage": "Nevertheless, it is interesting to know that psychologists have conducted a lot of secretary problem (SP) experiments that minimize additional search costs (e.g., just flipping another card instead of finding a time and location to meet a date). Even in an artificial lab experiment where the search cost is little, only a fraction of people use the optimal search strategy.",
+      "prompt": "How are extra search costs reduced in the laboratory examples?",
+      "promptZh": "实验室例子怎样减少额外搜索成本？",
+      "options": [
+        "By making participants arrange a real date at a new place each time.",
+        "By eliminating all decisions and giving everyone the same partner.",
+        "By using a simple action such as flipping another card instead of arranging a meeting.",
+        "By requiring that every search last several years."
+      ],
+      "optionsZh": [
+        "每次都安排新地点真实约会。",
+        "消除所有决定并给每人同一伴侣。",
+        "用再翻一张卡等简单动作，代替安排见面。",
+        "要求每次搜索持续数年。"
+      ],
+      "answer": 2,
+      "type": "研究设计",
+      "support": "explicit",
+      "analyses": [
+        "A 是被对照的高成本现实安排，不是减成本办法。",
+        "B 实验仍有选择任务，不是分配现实伴侣。",
+        "C e.g.just flipping...instead of time/location 对应操作差别。",
+        "D 无多年要求；minimize 和 little 不必等于所有成本严格零。"
+      ],
+      "vocabulary": [
+        {
+          "word": "minimize",
+          "meaning": "尽量减少；使尽可能小",
+          "context": "在此减额外搜索成本，不能绝对说全部成本已为零。",
+          "example": "The task was designed to minimize the effort needed for another choice.",
+          "collocations": [
+            "minimize additional search costs",
+            "flipping another card"
+          ]
+        }
+      ],
+      "translation": "不过，心理学家确实做过许多秘书问题实验，尽量减少额外搜索成本，比如只需再翻一张卡，而不必安排约会时间地点。即使在搜索成本很小的人造实验室任务中，也只有一部分人使用最优搜索策略。",
+      "evidenceTargetIds": [
+        "c10-s02-p106-02115-s001"
+      ],
+      "evidence": [
+        {
+          "quote": "Nevertheless, it is interesting to know that psychologists have conducted a lot of secretary problem (SP) experiments that minimize additional search costs (e.g., just flipping another card instead of finding a time and location to meet a date). Even in an artificial lab experiment where the search cost is little, only a fraction of people use the optimal search strategy.",
+          "sentenceIds": [
+            "c10-s02-p106-02115-s001",
+            "c10-s02-p106-02115-s002"
+          ],
+          "sources": [
+            {
+              "pdfPage": 106,
+              "block": 1,
+              "bbox": [
+                76.99,
+                211.5,
+                535.01,
+                440.52
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "3483b75701192af2088d795726bc0f055d4b57f7ac6ad106ab02315971defa99"
+    }
+  ]
+}
