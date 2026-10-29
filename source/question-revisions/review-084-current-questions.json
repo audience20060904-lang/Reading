@@ -1,0 +1,1844 @@
+{
+  "schemaVersion": 1,
+  "batchId": "question-review-2026-10-28-084",
+  "sourceCommit": "559a592de926a3d6f1035dadcfedff59983a8490",
+  "pdfSha256": "be25c859f1bd894a4b0d1cff024ded1297f6a96a8e8ddabea1e3abcf89160a50",
+  "frozenAt": "2026-10-29T14:09:49.430Z",
+  "questions": [
+    {
+      "id": "q-c09-071",
+      "version": 1,
+      "readingUnitId": "c09-s05-p100-05745-r005-008",
+      "chapterId": "c09",
+      "sectionId": "c09-s05",
+      "paragraphId": "c09-s05-p100-05745",
+      "sentenceIds": [
+        "c09-s05-p100-05745-s005",
+        "c09-s05-p100-05745-s006",
+        "c09-s05-p100-05745-s007",
+        "c09-s05-p100-05745-s008"
+      ],
+      "passage": "Utah initially led the five-game series 2 to 1. One more win and Utah would move on. However, in game four Houston won: the series was now tied at 2 to 2. For game five, they went back to Utah.",
+      "prompt": "How did game four change the first-round series?",
+      "options": [
+        "Utah completed the series with its third win.",
+        "Houston won and tied the series at two games each.",
+        "Houston went ahead by three games to one.",
+        "Both teams were eliminated after a draw."
+      ],
+      "answer": 1,
+      "type": "细节",
+      "promptZh": "第四场怎样改变首轮系列赛？",
+      "optionsZh": [
+        "Utah 拿第三胜，结束系列赛。",
+        "Houston 获胜，把系列赛扳成2比2。",
+        "Houston 以3比1领先。",
+        "两队打平后都被淘汰。"
+      ],
+      "analyses": [
+        "A one more win 是 Utah 原本的条件，however 后未实现。",
+        "B Houston won...tied at 2 to 2 直接说明。",
+        "C 把扳平错作3比1领先。",
+        "D tied 指系列赛各赢两场，不是单场平局或双淘汰。第五场回 Utah 只给地点，当前片段未给其结果。"
+      ],
+      "evidence": [
+        {
+          "quote": "in game four Houston won: the series was now tied at 2 to 2.",
+          "sentenceIds": [
+            "c09-s05-p100-05745-s007"
+          ],
+          "sources": [
+            {
+              "pdfPage": 100,
+              "block": 4,
+              "bbox": [
+                76.99,
+                574.5,
+                535.01,
+                706.02
+              ]
+            },
+            {
+              "pdfPage": 101,
+              "block": 0,
+              "bbox": [
+                76.99,
+                75,
+                535.01,
+                128.52
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "tied",
+          "meaning": "打平的；持平的",
+          "context": "系列赛两队胜场相同，并非篮球单场无胜负",
+          "example": "After four matches, the series was tied.",
+          "collocations": [
+            "a tied series",
+            "tied at two to two"
+          ]
+        }
+      ],
+      "translation": "Utah 起初在五场制系列赛以2比1领先，再赢一场就晋级。然而第四场 Houston 赢了，系列赛变为2比2。第五场，他们回到 Utah。",
+      "support": "explicit",
+      "editorialStatus": "PDF第98–102页原页核对；视觉丰富与心情分开，perhaps不改已测，体育为原书历史叙事，Proust是文学引述；题目文字证据独立于图像识别，保留所有旧题和原句",
+      "fingerprint": "bdeb11b2d31b547076edb67f992190a25c91177a4aeb882ce73eedfba9d5f413"
+    },
+    {
+      "id": "qe-c09-0130",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-038",
+      "parentQuestionId": "q-c09-071",
+      "chapterId": "c09",
+      "sectionId": "c09-s05",
+      "paragraphId": "c09-s05-p100-05745",
+      "readingUnitId": "c09-s05-p100-05745-r005-008",
+      "sentenceIds": [
+        "c09-s05-p100-05745-s005",
+        "c09-s05-p100-05745-s006",
+        "c09-s05-p100-05745-s007",
+        "c09-s05-p100-05745-s008"
+      ],
+      "passage": "Utah initially led the five-game series 2 to 1. One more win and Utah would move on. However, in game four Houston won: the series was now tied at 2 to 2. For game five, they went back to Utah.",
+      "prompt": "What was Utah's initial lead in the first-round series?",
+      "promptZh": "首轮系列赛中 Utah 起初怎样领先？",
+      "options": [
+        "Two games to one in a five-game series.",
+        "Three games to one in a seven-game series.",
+        "Ninety-five points to ninety-one in every game.",
+        "A tie at two games apiece."
+      ],
+      "optionsZh": [
+        "五场制系列赛中以两场比一场领先。",
+        "七场制系列赛三场比一场领先。",
+        "每场都以九十五分比九十一分领先。",
+        "两场比两场打平。"
+      ],
+      "answer": 0,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A initially、five-game、2 to 1 都对应场次，不是比分。",
+        "B 后轮 Phoenix 的局势不能提前移给 Utah。",
+        "C 95 to 91 属后来单场结果，不是当前系列赛场次。",
+        "D 这是 Houston 赢第四场之后的状态，不是 Utah initially led 的起始局势。"
+      ],
+      "vocabulary": [
+        {
+          "word": "initially",
+          "meaning": "最初；起初",
+          "context": "强调随后可能改变的阶段，非整个系列赛最终结果。",
+          "example": "The visitors initially led, but the home side recovered.",
+          "collocations": [
+            "Utah initially led",
+            "the five-game series"
+          ]
+        }
+      ],
+      "translation": "Utah 起初在五场制系列赛以2比1领先，再赢一场就晋级。然而第四场 Houston 赢了，系列赛变为2比2。第五场，他们回到 Utah。",
+      "evidenceTargetIds": [
+        "c09-s05-p100-05745-s005"
+      ],
+      "evidence": [
+        {
+          "quote": "Utah initially led the five-game series 2 to 1. One more win and Utah would move on. However, in game four Houston won: the series was now tied at 2 to 2. For game five, they went back to Utah.",
+          "sentenceIds": [
+            "c09-s05-p100-05745-s005",
+            "c09-s05-p100-05745-s006",
+            "c09-s05-p100-05745-s007",
+            "c09-s05-p100-05745-s008"
+          ],
+          "sources": [
+            {
+              "pdfPage": 100,
+              "block": 4,
+              "bbox": [
+                76.99,
+                574.5,
+                535.01,
+                706.02
+              ]
+            },
+            {
+              "pdfPage": 101,
+              "block": 0,
+              "bbox": [
+                76.99,
+                75,
+                535.01,
+                128.52
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "edf070dba46f10f5665c503876d3782e41c770fd0eb02111fc58d3ac5694a6fb"
+    },
+    {
+      "id": "qe-c09-0131",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-038",
+      "parentQuestionId": "q-c09-071",
+      "chapterId": "c09",
+      "sectionId": "c09-s05",
+      "paragraphId": "c09-s05-p100-05745",
+      "readingUnitId": "c09-s05-p100-05745-r005-008",
+      "sentenceIds": [
+        "c09-s05-p100-05745-s005",
+        "c09-s05-p100-05745-s006",
+        "c09-s05-p100-05745-s007",
+        "c09-s05-p100-05745-s008"
+      ],
+      "passage": "Utah initially led the five-game series 2 to 1. One more win and Utah would move on. However, in game four Houston won: the series was now tied at 2 to 2. For game five, they went back to Utah.",
+      "prompt": "What would one further Utah win have meant at that stage?",
+      "promptZh": "当时 Utah 再赢一场会意味着什么？",
+      "options": [
+        "Utah would still need three additional wins to advance.",
+        "Houston would automatically win the series.",
+        "The series would become tied at two games apiece.",
+        "Utah would advance to the next round."
+      ],
+      "optionsZh": [
+        "Utah 晋级仍需再三胜。",
+        "Houston 自动赢系列赛。",
+        "系列赛会变成两场比两场平。",
+        "Utah 会晋级下一轮。"
+      ],
+      "answer": 3,
+      "type": "逻辑关系",
+      "support": "explicit",
+      "analyses": [
+        "A one more win and move on 与再三胜不符。",
+        "B 条件主体是 Utah 赢，不是 Houston 得冠。",
+        "C 打平是 Houston 赢第四场的后果，不是 Utah 再赢的后果，条件主体被换掉。",
+        "D 原文给条件后果，后面的 Houston 第四场获胜表明不能把条件当已发生结果。"
+      ],
+      "vocabulary": [
+        {
+          "word": "move on",
+          "meaning": "晋级；进入下一阶段",
+          "context": "在赛事语境为继续下一轮，不是搬家或从情绪中走出来。",
+          "example": "One more win would allow the team to move on.",
+          "collocations": [
+            "Utah would move on",
+            "One more win"
+          ]
+        }
+      ],
+      "translation": "Utah 起初在五场制系列赛以2比1领先，再赢一场就晋级。然而第四场 Houston 赢了，系列赛变为2比2。第五场，他们回到 Utah。",
+      "evidenceTargetIds": [
+        "c09-s05-p100-05745-s006"
+      ],
+      "evidence": [
+        {
+          "quote": "Utah initially led the five-game series 2 to 1. One more win and Utah would move on. However, in game four Houston won: the series was now tied at 2 to 2. For game five, they went back to Utah.",
+          "sentenceIds": [
+            "c09-s05-p100-05745-s005",
+            "c09-s05-p100-05745-s006",
+            "c09-s05-p100-05745-s007",
+            "c09-s05-p100-05745-s008"
+          ],
+          "sources": [
+            {
+              "pdfPage": 100,
+              "block": 4,
+              "bbox": [
+                76.99,
+                574.5,
+                535.01,
+                706.02
+              ]
+            },
+            {
+              "pdfPage": 101,
+              "block": 0,
+              "bbox": [
+                76.99,
+                75,
+                535.01,
+                128.52
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "02d7b0071edb9e517bd9ac0f2b3b8f496b2b20f1fdd72130b8d6358d18b3aef9"
+    },
+    {
+      "id": "qe-c09-0132",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-038",
+      "parentQuestionId": "q-c09-071",
+      "chapterId": "c09",
+      "sectionId": "c09-s05",
+      "paragraphId": "c09-s05-p100-05745",
+      "readingUnitId": "c09-s05-p100-05745-r005-008",
+      "sentenceIds": [
+        "c09-s05-p100-05745-s005",
+        "c09-s05-p100-05745-s006",
+        "c09-s05-p100-05745-s007",
+        "c09-s05-p100-05745-s008"
+      ],
+      "passage": "Utah initially led the five-game series 2 to 1. One more win and Utah would move on. However, in game four Houston won: the series was now tied at 2 to 2. For game five, they went back to Utah.",
+      "prompt": "Where was game five to be played after the series became tied?",
+      "promptZh": "系列赛追平后，第五场回到哪里进行？",
+      "options": [
+        "Houston's home court, without any return trip.",
+        "Utah.",
+        "Phoenix's home court.",
+        "San Antonio."
+      ],
+      "optionsZh": [
+        "Houston 主场，无需返回他处。",
+        "Utah。",
+        "Phoenix 主场。",
+        "San Antonio。"
+      ],
+      "answer": 1,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A went back to Utah 不是留在 Houston 主场。",
+        "B For game five,they went back to Utah 直接给地点。",
+        "C Phoenix 是之后第二轮对手，不是第五场回去的 Utah。",
+        "D Spurs 在后来的分区决赛，当前地点原文为 Utah。"
+      ],
+      "vocabulary": [
+        {
+          "word": "went back to",
+          "meaning": "回到；返回某处",
+          "context": "此处是第五场地点的转移，不是比赛胜负或比分回退。",
+          "example": "For the final match, they went back to the away venue.",
+          "collocations": [
+            "For game five",
+            "went back to Utah"
+          ]
+        }
+      ],
+      "translation": "Utah 起初在五场制系列赛以2比1领先，再赢一场就晋级。然而第四场 Houston 赢了，系列赛变为2比2。第五场，他们回到 Utah。",
+      "evidenceTargetIds": [
+        "c09-s05-p100-05745-s008"
+      ],
+      "evidence": [
+        {
+          "quote": "Utah initially led the five-game series 2 to 1. One more win and Utah would move on. However, in game four Houston won: the series was now tied at 2 to 2. For game five, they went back to Utah.",
+          "sentenceIds": [
+            "c09-s05-p100-05745-s005",
+            "c09-s05-p100-05745-s006",
+            "c09-s05-p100-05745-s007",
+            "c09-s05-p100-05745-s008"
+          ],
+          "sources": [
+            {
+              "pdfPage": 100,
+              "block": 4,
+              "bbox": [
+                76.99,
+                574.5,
+                535.01,
+                706.02
+              ]
+            },
+            {
+              "pdfPage": 101,
+              "block": 0,
+              "bbox": [
+                76.99,
+                75,
+                535.01,
+                128.52
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "aad3c018e69c3829ddb5f4a10dd58644625ea6cab28f3544b03fd9c21813c05d"
+    },
+    {
+      "id": "q-c09-072",
+      "version": 1,
+      "readingUnitId": "c09-s05-p100-05745-r009-010",
+      "chapterId": "c09",
+      "sectionId": "c09-s05",
+      "paragraphId": "c09-s05-p100-05745",
+      "sentenceIds": [
+        "c09-s05-p100-05745-s009",
+        "c09-s05-p100-05745-s010"
+      ],
+      "passage": "Would Utah’s home court advantage end the Rockets’ season? Nope, Houston beat Utah 95 to 91.",
+      "prompt": "What result answers the question about Utah’s home-court advantage?",
+      "options": [
+        "Houston beat Utah 95 to 91.",
+        "Utah beat Houston 95 to 91.",
+        "The teams finished with identical scores.",
+        "The game was cancelled because Utah was at home."
+      ],
+      "answer": 0,
+      "type": "细节",
+      "promptZh": "关于 Utah 主场优势的设问，后文给出什么结果？",
+      "optionsZh": [
+        "Houston 以95比91击败 Utah。",
+        "Utah 以95比91击败 Houston。",
+        "两队得分相同。",
+        "因为 Utah 主场而取消比赛。"
+      ],
+      "analyses": [
+        "A Nope 后明确 Houston beat Utah 95 to 91。",
+        "B 对调胜负双方。",
+        "C 95与91不相同。",
+        "D 没有取消的信息。该场主场方失利不能推广为主场优势从来无效。"
+      ],
+      "evidence": [
+        {
+          "quote": "Houston beat Utah 95 to 91.",
+          "sentenceIds": [
+            "c09-s05-p100-05745-s010"
+          ],
+          "sources": [
+            {
+              "pdfPage": 101,
+              "block": 0,
+              "bbox": [
+                76.99,
+                75,
+                535.01,
+                128.52
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "home court advantage",
+          "meaning": "主场优势",
+          "context": "设问指回到 Utah 主场是否使对方更有利，不保证胜利",
+          "example": "Home court advantage did not guarantee a win.",
+          "collocations": [
+            "Utah’s home court advantage",
+            "have home court advantage"
+          ]
+        }
+      ],
+      "translation": "Utah 的主场优势会终结 Rockets 的赛季吗？没有，Houston 以95比91击败 Utah。",
+      "support": "explicit",
+      "editorialStatus": "PDF第98–102页原页核对；视觉丰富与心情分开，perhaps不改已测，体育为原书历史叙事，Proust是文学引述；题目文字证据独立于图像识别，保留所有旧题和原句",
+      "fingerprint": "deb80b1a8227638734025111a91d45beedde81f7fd8b03945af95d9229d88f64"
+    },
+    {
+      "id": "qe-c09-0133",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-038",
+      "parentQuestionId": "q-c09-072",
+      "chapterId": "c09",
+      "sectionId": "c09-s05",
+      "paragraphId": "c09-s05-p100-05745",
+      "readingUnitId": "c09-s05-p100-05745-r009-010",
+      "sentenceIds": [
+        "c09-s05-p100-05745-s009",
+        "c09-s05-p100-05745-s010"
+      ],
+      "passage": "Would Utah’s home court advantage end the Rockets’ season? Nope, Houston beat Utah 95 to 91.",
+      "prompt": "What is the effect of asking whether home-court advantage would end Houston's season?",
+      "promptZh": "问主场优势是否终结 Houston 赛季，起什么作用？",
+      "options": [
+        "It introduces suspense that the next sentence resolves with Houston's victory.",
+        "It announces Utah won before the next sentence gives any result.",
+        "It offers a guaranteed forecast for a future game being played today.",
+        "It proves home-court advantage never matters in any sport."
+      ],
+      "optionsZh": [
+        "制造悬念，下一句用 Houston 获胜解开。",
+        "在后句给结果前已宣布 Utah 赢。",
+        "对今天尚未进行比赛给保证预测。",
+        "证明主场优势在所有运动中从不重要。"
+      ],
+      "answer": 0,
+      "type": "作者意图",
+      "support": "explicit",
+      "analyses": [
+        "A Would...? 后紧接 Nope,Houston beat Utah95 to91，自问自答呈现逆转。",
+        "B 把疑问误作肯定结果。",
+        "C 当前是书中1995叙事，不是实时预测或投注建议。",
+        "D 一场叙述不能推出全运动主场优势为零。"
+      ],
+      "vocabulary": [
+        {
+          "word": "home court advantage",
+          "meaning": "主场优势",
+          "context": "作为作者提出悬念的条件，不是保证胜负的决定性定律。",
+          "example": "The visitors won despite the other team's home court advantage.",
+          "collocations": [
+            "Utah’s home court advantage",
+            "end the Rockets’ season"
+          ]
+        }
+      ],
+      "translation": "Utah 的主场优势会终结 Rockets 的赛季吗？没有，Houston 以95比91击败 Utah。",
+      "evidenceTargetIds": [
+        "c09-s05-p100-05745-s009"
+      ],
+      "evidence": [
+        {
+          "quote": "Would Utah’s home court advantage end the Rockets’ season? Nope, Houston beat Utah 95 to 91.",
+          "sentenceIds": [
+            "c09-s05-p100-05745-s009",
+            "c09-s05-p100-05745-s010"
+          ],
+          "sources": [
+            {
+              "pdfPage": 101,
+              "block": 0,
+              "bbox": [
+                76.99,
+                75,
+                535.01,
+                128.52
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "ba3f5e5a28e04084749ae3f778452705dbcc3e642280ef30cb9b3f9a76434112"
+    },
+    {
+      "id": "q-c09-073",
+      "version": 1,
+      "readingUnitId": "c09-s05-p101-01335-r001-004",
+      "chapterId": "c09",
+      "sectionId": "c09-s05",
+      "paragraphId": "c09-s05-p101-01335",
+      "sentenceIds": [
+        "c09-s05-p101-01335-s001",
+        "c09-s05-p101-01335-s002",
+        "c09-s05-p101-01335-s003",
+        "c09-s05-p101-01335-s004"
+      ],
+      "passage": "In the second round of playoffs, Houston faced the number two seed, the Phoenix Suns. Phoenix led 3 to 1 in the seven-game series. Again, one more loss and Houston’s season would have been over. They had to win three games in a row in order to win the series.",
+      "prompt": "What did Houston need to do after Phoenix took a 3–1 lead?",
+      "options": [
+        "Win just one of the remaining three games.",
+        "Win three games in succession to take the series.",
+        "Lose one game and still advance automatically.",
+        "Return to the first-round five-game series."
+      ],
+      "answer": 1,
+      "type": "细节",
+      "promptZh": "Phoenix 以3比1领先后，Houston 需要怎样做？",
+      "optionsZh": [
+        "剩余三场只赢一场。",
+        "连赢三场才能拿下系列赛。",
+        "再输一场仍自动晋级。",
+        "回到首轮五场制系列赛。"
+      ],
+      "analyses": [
+        "A 原文明说 three games in a row，不是一场。",
+        "B had to win...in order to win 直接给必要条件。",
+        "C one more loss...over 表示再输即结束。",
+        "D 当前second round seven-game series，不是回首轮。此时仍是必须完成的任务，不能提前写成已经三连胜。"
+      ],
+      "evidence": [
+        {
+          "quote": "They had to win three games in a row in order to win the series.",
+          "sentenceIds": [
+            "c09-s05-p101-01335-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 101,
+              "block": 1,
+              "bbox": [
+                76.99,
+                133.5,
+                535,
+                343.02
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "in order to",
+          "meaning": "为了；以便",
+          "context": "连接必要的三连胜与赢下系列赛的目的",
+          "example": "They needed another point in order to advance.",
+          "collocations": [
+            "in order to win",
+            "had to do something in order to"
+          ]
+        }
+      ],
+      "translation": "季后赛第二轮，Houston 面对第二种子 Phoenix Suns。Phoenix 在七场制系列赛3比1领先。再输一场，Houston 的赛季就结束。他们必须连赢三场，才能赢下系列赛。",
+      "support": "explicit",
+      "editorialStatus": "PDF第98–102页原页核对；视觉丰富与心情分开，perhaps不改已测，体育为原书历史叙事，Proust是文学引述；题目文字证据独立于图像识别，保留所有旧题和原句",
+      "fingerprint": "772baab5536083cf3c4e6af8866b7f6f9d6dce91cb8865883cf08ba64726208f"
+    },
+    {
+      "id": "qe-c09-0134",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-038",
+      "parentQuestionId": "q-c09-073",
+      "chapterId": "c09",
+      "sectionId": "c09-s05",
+      "paragraphId": "c09-s05-p101-01335",
+      "readingUnitId": "c09-s05-p101-01335-r001-004",
+      "sentenceIds": [
+        "c09-s05-p101-01335-s001",
+        "c09-s05-p101-01335-s002",
+        "c09-s05-p101-01335-s003",
+        "c09-s05-p101-01335-s004"
+      ],
+      "passage": "In the second round of playoffs, Houston faced the number two seed, the Phoenix Suns. Phoenix led 3 to 1 in the seven-game series. Again, one more loss and Houston’s season would have been over. They had to win three games in a row in order to win the series.",
+      "prompt": "Who did Houston face in the second round, according to the book?",
+      "promptZh": "据书中叙述，Houston 第二轮对手是谁？",
+      "options": [
+        "The third-seeded Utah Jazz again.",
+        "The first-seeded San Antonio Spurs.",
+        "The second-seeded Phoenix Suns.",
+        "The Orlando Magic in the first round of the regular season."
+      ],
+      "optionsZh": [
+        "再次对阵第三种子 Utah Jazz。",
+        "第一种子 San Antonio Spurs。",
+        "第二种子 Phoenix Suns。",
+        "常规赛首轮的 Orlando Magic。"
+      ],
+      "answer": 2,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A Utah 是前一轮，不能重复当第二轮对手。",
+        "B Spurs 属后面 conference finals。",
+        "C second round、number two seed、Phoenix Suns 三项对应。",
+        "D 混淆常规赛和季后赛，且不是当前对手。"
+      ],
+      "vocabulary": [
+        {
+          "word": "seed",
+          "meaning": "种子排名；按赛前资格排定的次序",
+          "context": "在锦标赛语境不是植物种子，也不是最终夺冠名次。",
+          "example": "The sixth seed faced the second seed in the next round.",
+          "collocations": [
+            "the number two seed",
+            "the second round of playoffs"
+          ]
+        }
+      ],
+      "translation": "季后赛第二轮，Houston 面对第二种子 Phoenix Suns。Phoenix 在七场制系列赛3比1领先。再输一场，Houston 的赛季就结束。他们必须连赢三场，才能赢下系列赛。",
+      "evidenceTargetIds": [
+        "c09-s05-p101-01335-s001"
+      ],
+      "evidence": [
+        {
+          "quote": "In the second round of playoffs, Houston faced the number two seed, the Phoenix Suns. Phoenix led 3 to 1 in the seven-game series. Again, one more loss and Houston’s season would have been over. They had to win three games in a row in order to win the series.",
+          "sentenceIds": [
+            "c09-s05-p101-01335-s001",
+            "c09-s05-p101-01335-s002",
+            "c09-s05-p101-01335-s003",
+            "c09-s05-p101-01335-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 101,
+              "block": 1,
+              "bbox": [
+                76.99,
+                133.5,
+                535,
+                343.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "2722a040ea23ec2b2381da980846fa77e70b0c3df747c19acb6e8fa063560d01"
+    },
+    {
+      "id": "qe-c09-0135",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-038",
+      "parentQuestionId": "q-c09-073",
+      "chapterId": "c09",
+      "sectionId": "c09-s05",
+      "paragraphId": "c09-s05-p101-01335",
+      "readingUnitId": "c09-s05-p101-01335-r001-004",
+      "sentenceIds": [
+        "c09-s05-p101-01335-s001",
+        "c09-s05-p101-01335-s002",
+        "c09-s05-p101-01335-s003",
+        "c09-s05-p101-01335-s004"
+      ],
+      "passage": "In the second round of playoffs, Houston faced the number two seed, the Phoenix Suns. Phoenix led 3 to 1 in the seven-game series. Again, one more loss and Houston’s season would have been over. They had to win three games in a row in order to win the series.",
+      "prompt": "Which situation made the Phoenix series especially precarious for Houston?",
+      "promptZh": "Phoenix 系列赛的什么局势使 Houston 尤其危险？",
+      "options": [
+        "Houston led three games to one in the same series.",
+        "The series was a best-of-five contest tied at one win each.",
+        "The teams were already tied at three games apiece.",
+        "Phoenix led three games to one in a seven-game series."
+      ],
+      "optionsZh": [
+        "同轮中 Houston 三比一领先。",
+        "这是五场制且一比一平。",
+        "两队已经三比三平。",
+        "Phoenix 在七场制系列赛三比一领先。"
+      ],
+      "answer": 3,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A 交换领先方；原文领先者为 Phoenix。",
+        "B 混入前轮五场制，并改掉场次。",
+        "C 改掉明确的3比1局势，也抹去下一句再输即淘汰的紧迫背景。",
+        "D Phoenix led3to1、seven-game 直接对应，下一句点出 Houston 再输就结束。"
+      ],
+      "vocabulary": [
+        {
+          "word": "led",
+          "meaning": "领先；在比分或场次上暂时在前",
+          "context": "这里是 lead 的过去式，不表示带领某个球队的球员身份。",
+          "example": "The home team led by two games before the final round.",
+          "collocations": [
+            "Phoenix led 3 to 1",
+            "the seven-game series"
+          ]
+        }
+      ],
+      "translation": "季后赛第二轮，Houston 面对第二种子 Phoenix Suns。Phoenix 在七场制系列赛3比1领先。再输一场，Houston 的赛季就结束。他们必须连赢三场，才能赢下系列赛。",
+      "evidenceTargetIds": [
+        "c09-s05-p101-01335-s002"
+      ],
+      "evidence": [
+        {
+          "quote": "In the second round of playoffs, Houston faced the number two seed, the Phoenix Suns. Phoenix led 3 to 1 in the seven-game series. Again, one more loss and Houston’s season would have been over. They had to win three games in a row in order to win the series.",
+          "sentenceIds": [
+            "c09-s05-p101-01335-s001",
+            "c09-s05-p101-01335-s002",
+            "c09-s05-p101-01335-s003",
+            "c09-s05-p101-01335-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 101,
+              "block": 1,
+              "bbox": [
+                76.99,
+                133.5,
+                535,
+                343.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "b543032b740b923561200e1741b7b7777a83138605f4218843a3ebaa489aaab6"
+    },
+    {
+      "id": "qe-c09-0136",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-038",
+      "parentQuestionId": "q-c09-073",
+      "chapterId": "c09",
+      "sectionId": "c09-s05",
+      "paragraphId": "c09-s05-p101-01335",
+      "readingUnitId": "c09-s05-p101-01335-r001-004",
+      "sentenceIds": [
+        "c09-s05-p101-01335-s001",
+        "c09-s05-p101-01335-s002",
+        "c09-s05-p101-01335-s003",
+        "c09-s05-p101-01335-s004"
+      ],
+      "passage": "In the second round of playoffs, Houston faced the number two seed, the Phoenix Suns. Phoenix led 3 to 1 in the seven-game series. Again, one more loss and Houston’s season would have been over. They had to win three games in a row in order to win the series.",
+      "prompt": "What was the consequence of another Houston loss at that point?",
+      "promptZh": "当时 Houston 如果再输一场会怎样？",
+      "options": [
+        "It would automatically secure the championship.",
+        "Its season would end.",
+        "It would need only one later draw to restart the series.",
+        "Phoenix would have to win three more games before advancing."
+      ],
+      "optionsZh": [
+        "自动锁定总冠军。",
+        "赛季会结束。",
+        "只需之后再平一场便重开系列赛。",
+        "Phoenix 晋级前还须再赢三场。"
+      ],
+      "answer": 1,
+      "type": "逻辑关系",
+      "support": "explicit",
+      "analyses": [
+        "A loss 与夺冠方向相反。",
+        "B one more loss...season would have been over 明确淘汰风险，不是说已实际又输。",
+        "C 原文没有平局重开条件。",
+        "D 要连赢三场的是 Houston，不是已经3比1领先的 Phoenix。"
+      ],
+      "vocabulary": [
+        {
+          "word": "would have been over",
+          "meaning": "本就会结束；在所设条件下将告终",
+          "context": "在当时形势中表达再输的后果，不能把未发生的条件写成真实败局。",
+          "example": "One more delay and the opportunity would have been over.",
+          "collocations": [
+            "one more loss",
+            "Houston’s season would have been over"
+          ]
+        }
+      ],
+      "translation": "季后赛第二轮，Houston 面对第二种子 Phoenix Suns。Phoenix 在七场制系列赛3比1领先。再输一场，Houston 的赛季就结束。他们必须连赢三场，才能赢下系列赛。",
+      "evidenceTargetIds": [
+        "c09-s05-p101-01335-s003"
+      ],
+      "evidence": [
+        {
+          "quote": "In the second round of playoffs, Houston faced the number two seed, the Phoenix Suns. Phoenix led 3 to 1 in the seven-game series. Again, one more loss and Houston’s season would have been over. They had to win three games in a row in order to win the series.",
+          "sentenceIds": [
+            "c09-s05-p101-01335-s001",
+            "c09-s05-p101-01335-s002",
+            "c09-s05-p101-01335-s003",
+            "c09-s05-p101-01335-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 101,
+              "block": 1,
+              "bbox": [
+                76.99,
+                133.5,
+                535,
+                343.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "8748a842146b21b0014660ef560f041461b8ac33649d9fbc7694a940ca006bb7"
+    },
+    {
+      "id": "q-c09-074",
+      "version": 1,
+      "readingUnitId": "c09-s05-p101-01335-r005-008",
+      "chapterId": "c09",
+      "sectionId": "c09-s05",
+      "paragraphId": "c09-s05-p101-01335",
+      "sentenceIds": [
+        "c09-s05-p101-01335-s005",
+        "c09-s05-p101-01335-s006",
+        "c09-s05-p101-01335-s007",
+        "c09-s05-p101-01335-s008"
+      ],
+      "passage": "Phoenix had a chance to win game five, but their star forward, Charles Barkley, uncharacteristically missed both free throws toward the end of regulation and the game went into overtime. In the end, Houston won game five in Phoenix, and the rest is history. They won game six at home and game seven in Phoenix. In the conference finals, Houston beat the number-one-seeded San Antonio Spurs.",
+      "prompt": "Which sequence follows the missed free throws in the account?",
+      "options": [
+        "Houston lost game five and immediately left the playoffs.",
+        "Phoenix won games five, six and seven.",
+        "Houston won every remaining game in Phoenix, including game six.",
+        "Game five went to overtime; Houston won it in Phoenix, then won game six at home and game seven in Phoenix."
+      ],
+      "answer": 3,
+      "type": "细节",
+      "promptZh": "按这段叙述，罚球失手后发生哪一顺序？",
+      "optionsZh": [
+        "Houston 输第五场，立即离开季后赛。",
+        "Phoenix 连赢第五、第六、第七场。",
+        "Houston 剩余比赛都在 Phoenix 赢，第六场也在那里。",
+        "第五场加时，Houston 在 Phoenix 赢；第六场主场赢，第七场再在 Phoenix 赢。"
+      ],
+      "analyses": [
+        "A Houston won game five 与输球相反。",
+        "B won 的主语是 Houston，不是 Phoenix。",
+        "C game six at home 明确区别场地。",
+        "D 加时、第五场结果及两场地点均按原文顺序对应。uncharacteristically 是反常失手，不是球员通常总罚失。"
+      ],
+      "evidence": [
+        {
+          "quote": "Houston won game five in Phoenix",
+          "sentenceIds": [
+            "c09-s05-p101-01335-s006"
+          ],
+          "sources": [
+            {
+              "pdfPage": 101,
+              "block": 1,
+              "bbox": [
+                76.99,
+                133.5,
+                535,
+                343.02
+              ]
+            }
+          ]
+        },
+        {
+          "quote": "They won game six at home and game seven in Phoenix.",
+          "sentenceIds": [
+            "c09-s05-p101-01335-s007"
+          ],
+          "sources": [
+            {
+              "pdfPage": 101,
+              "block": 1,
+              "bbox": [
+                76.99,
+                133.5,
+                535,
+                343.02
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "uncharacteristically",
+          "meaning": "一反常态地；不符合平时表现地",
+          "context": "限定 Barkley 此次两罚不中并非惯常状态",
+          "example": "The normally accurate player uncharacteristically missed twice.",
+          "collocations": [
+            "uncharacteristically missed",
+            "act uncharacteristically"
+          ]
+        }
+      ],
+      "translation": "Phoenix 有机会赢第五场，但明星前锋 Charles Barkley 在常规时间接近结束时一反常态地两罚不中，比赛进入加时。最终 Houston 在 Phoenix 赢第五场，后来的一切便成为历史：第六场主场获胜，第七场在 Phoenix 获胜。西部决赛中，Houston 击败第一种子 San Antonio Spurs。",
+      "support": "explicit",
+      "editorialStatus": "PDF第98–102页原页核对；视觉丰富与心情分开，perhaps不改已测，体育为原书历史叙事，Proust是文学引述；题目文字证据独立于图像识别，保留所有旧题和原句",
+      "fingerprint": "2ee89f7fd67db2c0e6ec1c6180833a5d2265ed3db947c617b8798bfbf22aba03"
+    },
+    {
+      "id": "qe-c09-0137",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-038",
+      "parentQuestionId": "q-c09-074",
+      "chapterId": "c09",
+      "sectionId": "c09-s05",
+      "paragraphId": "c09-s05-p101-01335",
+      "readingUnitId": "c09-s05-p101-01335-r005-008",
+      "sentenceIds": [
+        "c09-s05-p101-01335-s005",
+        "c09-s05-p101-01335-s006",
+        "c09-s05-p101-01335-s007",
+        "c09-s05-p101-01335-s008"
+      ],
+      "passage": "Phoenix had a chance to win game five, but their star forward, Charles Barkley, uncharacteristically missed both free throws toward the end of regulation and the game went into overtime. In the end, Houston won game five in Phoenix, and the rest is history. They won game six at home and game seven in Phoenix. In the conference finals, Houston beat the number-one-seeded San Antonio Spurs.",
+      "prompt": "What does 'uncharacteristically' indicate about Barkley's two missed free throws?",
+      "promptZh": "uncharacteristically 对 Barkley 两罚不中暗示什么？",
+      "options": [
+        "The misses are presented as unlike his usual performance.",
+        "The book says he missed every free throw in his entire career.",
+        "The misses were described as exactly what he always did.",
+        "An injury is explicitly identified as the cause of the misses."
+      ],
+      "optionsZh": [
+        "失误被描述为不符合平常表现。",
+        "书说他职业生涯每次罚球都不中。",
+        "失误被描述为他一向必然如此。",
+        "原文明确把伤病列为失误原因。"
+      ],
+      "answer": 0,
+      "type": "语境词义",
+      "support": "explicit",
+      "analyses": [
+        "A uncharacteristically 表与通常特征不符，强化关键时刻意外。",
+        "B 不可从此两次失误扩大成全职业零命中。",
+        "C un- 否定通常，方向相反。",
+        "D 未给伤病原因；uncharacteristically 说明与通常表现不符，不能擅补因果。"
+      ],
+      "vocabulary": [
+        {
+          "word": "uncharacteristically",
+          "meaning": "一反常态地；不像平时表现地",
+          "context": "说明叙述者认为出乎球星通常表现，不提供具体统计基准。",
+          "example": "The usually careful player uncharacteristically made two errors.",
+          "collocations": [
+            "uncharacteristically missed both free throws",
+            "toward the end of regulation"
+          ]
+        }
+      ],
+      "translation": "Phoenix 有机会赢第五场，但明星前锋 Charles Barkley 在常规时间接近结束时一反常态地两罚不中，比赛进入加时。最终 Houston 在 Phoenix 赢第五场，后来的一切便成为历史：第六场主场获胜，第七场在 Phoenix 获胜。西部决赛中，Houston 击败第一种子 San Antonio Spurs。",
+      "evidenceTargetIds": [
+        "c09-s05-p101-01335-s005"
+      ],
+      "evidence": [
+        {
+          "quote": "Phoenix had a chance to win game five, but their star forward, Charles Barkley, uncharacteristically missed both free throws toward the end of regulation and the game went into overtime. In the end, Houston won game five in Phoenix, and the rest is history. They won game six at home and game seven in Phoenix. In the conference finals, Houston beat the number-one-seeded San Antonio Spurs.",
+          "sentenceIds": [
+            "c09-s05-p101-01335-s005",
+            "c09-s05-p101-01335-s006",
+            "c09-s05-p101-01335-s007",
+            "c09-s05-p101-01335-s008"
+          ],
+          "sources": [
+            {
+              "pdfPage": 101,
+              "block": 1,
+              "bbox": [
+                76.99,
+                133.5,
+                535,
+                343.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "777b2f5f34bed57fb5aa2174b605b46696e0e70a88fb3a2e544550b1124f4150"
+    },
+    {
+      "id": "qe-c09-0138",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-038",
+      "parentQuestionId": "q-c09-074",
+      "chapterId": "c09",
+      "sectionId": "c09-s05",
+      "paragraphId": "c09-s05-p101-01335",
+      "readingUnitId": "c09-s05-p101-01335-r005-008",
+      "sentenceIds": [
+        "c09-s05-p101-01335-s005",
+        "c09-s05-p101-01335-s006",
+        "c09-s05-p101-01335-s007",
+        "c09-s05-p101-01335-s008"
+      ],
+      "passage": "Phoenix had a chance to win game five, but their star forward, Charles Barkley, uncharacteristically missed both free throws toward the end of regulation and the game went into overtime. In the end, Houston won game five in Phoenix, and the rest is history. They won game six at home and game seven in Phoenix. In the conference finals, Houston beat the number-one-seeded San Antonio Spurs.",
+      "prompt": "Which opponent did Houston beat in the conference finals in this account?",
+      "promptZh": "此叙述中 Houston 在分区决赛击败哪队？",
+      "options": [
+        "The Phoenix Suns, identified as the number-three seed.",
+        "The Utah Jazz, identified as the number-six seed.",
+        "The number-one-seeded San Antonio Spurs.",
+        "The Orlando Magic in the NBA finals."
+      ],
+      "optionsZh": [
+        "被称第三种子的 Phoenix Suns。",
+        "被称第六种子的 Utah Jazz。",
+        "第一种子 San Antonio Spurs。",
+        "NBA 总决赛的 Orlando Magic。"
+      ],
+      "answer": 2,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A Phoenix 为前轮第二种子，不是此轮对手或此种子。",
+        "B Utah 为首轮第三种子；六为 Houston 自己。",
+        "C In the conference finals...number-one-seeded San Antonio Spurs 原文直接给出。",
+        "D 总决赛对手不能取代此句 conference finals 的 San Antonio Spurs；轮次混同。"
+      ],
+      "vocabulary": [
+        {
+          "word": "conference finals",
+          "meaning": "分区决赛",
+          "context": "此处区别早一轮 Phoenix 系列赛及之后的总决赛，不等于任意一场末节。",
+          "example": "The underdog reached the conference finals after two close series.",
+          "collocations": [
+            "In the conference finals",
+            "the number-one-seeded San Antonio Spurs"
+          ]
+        }
+      ],
+      "translation": "Phoenix 有机会赢第五场，但明星前锋 Charles Barkley 在常规时间接近结束时一反常态地两罚不中，比赛进入加时。最终 Houston 在 Phoenix 赢第五场，后来的一切便成为历史：第六场主场获胜，第七场在 Phoenix 获胜。西部决赛中，Houston 击败第一种子 San Antonio Spurs。",
+      "evidenceTargetIds": [
+        "c09-s05-p101-01335-s008"
+      ],
+      "evidence": [
+        {
+          "quote": "Phoenix had a chance to win game five, but their star forward, Charles Barkley, uncharacteristically missed both free throws toward the end of regulation and the game went into overtime. In the end, Houston won game five in Phoenix, and the rest is history. They won game six at home and game seven in Phoenix. In the conference finals, Houston beat the number-one-seeded San Antonio Spurs.",
+          "sentenceIds": [
+            "c09-s05-p101-01335-s005",
+            "c09-s05-p101-01335-s006",
+            "c09-s05-p101-01335-s007",
+            "c09-s05-p101-01335-s008"
+          ],
+          "sources": [
+            {
+              "pdfPage": 101,
+              "block": 1,
+              "bbox": [
+                76.99,
+                133.5,
+                535,
+                343.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "a8ae708eec68f9ac59669cced1286dff8a72829368eed0ca20281326d89911ff"
+    },
+    {
+      "id": "q-c09-076",
+      "version": 1,
+      "readingUnitId": "c09-s05-p101-03480-r001-004",
+      "chapterId": "c09",
+      "sectionId": "c09-s05",
+      "paragraphId": "c09-s05-p101-03480",
+      "sentenceIds": [
+        "c09-s05-p101-03480-s001",
+        "c09-s05-p101-03480-s002",
+        "c09-s05-p101-03480-s003",
+        "c09-s05-p101-03480-s004"
+      ],
+      "passage": "The number-six-seeded team winning it all is truly unbelievable, but coming back from 1-2 in a best of five series AND from 1-3 in a best of seven series is practically unheard of. There were many moments during the playoffs when I thought it was over. But it wasn’t. Head coach Rudy Tomjanovich famously proclaimed, “Don’t ever underestimate the heart of a champion!”",
+      "prompt": "Why does the author emphasize both comeback scores?",
+      "options": [
+        "To stress how extraordinary the sixth seed’s route to the title seemed.",
+        "To prove that every sixth seed must win the championship.",
+        "To claim Houston was never at risk of elimination.",
+        "To describe two games played under an identical series format."
+      ],
+      "answer": 0,
+      "type": "作者意图",
+      "promptZh": "作者为何同时强调两次落后比分？",
+      "optionsZh": [
+        "突出第六种子夺冠路径有多非凡。",
+        "证明每个第六种子必夺冠。",
+        "声称 Houston 从未面临淘汰。",
+        "描述两个完全相同赛制下的单场比赛。"
+      ],
+      "analyses": [
+        "A unbelievable、practically unheard of 与两种赛制逆转，共同突出罕见路径。",
+        "B 单一叙事不证明未来所有低种子必胜。",
+        "C many moments...thought it was over 承认多次危险。",
+        "D best of five 和 best of seven 是不同系列赛，不是两个同制单场。教练引语是鼓舞性表达，不是概率定律。"
+      ],
+      "evidence": [
+        {
+          "quote": "coming back from 1-2 in a best of five series AND from 1-3 in a best of seven series is practically unheard of.",
+          "sentenceIds": [
+            "c09-s05-p101-03480-s001"
+          ],
+          "sources": [
+            {
+              "pdfPage": 101,
+              "block": 2,
+              "bbox": [
+                76.99,
+                348,
+                535,
+                518.52
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "underestimate",
+          "meaning": "低估",
+          "context": "教练劝人别低估冠军的意志，不是说输赢已注定",
+          "example": "Do not underestimate how difficult the final stage may be.",
+          "collocations": [
+            "underestimate the heart of a champion",
+            "never underestimate"
+          ]
+        }
+      ],
+      "translation": "第六种子赢下一切已经难以置信，又从五场制1比2和七场制1比3落后逆转，几乎闻所未闻。季后赛许多时刻，我以为结束了，但没有。主教练 Rudy Tomjanovich 的名言是：“永远别低估冠军的心！”",
+      "support": "explicit",
+      "editorialStatus": "PDF第98–102页原页核对；视觉丰富与心情分开，perhaps不改已测，体育为原书历史叙事，Proust是文学引述；题目文字证据独立于图像识别，保留所有旧题和原句",
+      "fingerprint": "9970d21e0ac2e1a1d5cb15523db86d0e6efd2dbf24fe6b21a305795b8d9343bc"
+    },
+    {
+      "id": "qe-c09-0139",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-038",
+      "parentQuestionId": "q-c09-076",
+      "chapterId": "c09",
+      "sectionId": "c09-s05",
+      "paragraphId": "c09-s05-p101-03480",
+      "readingUnitId": "c09-s05-p101-03480-r001-004",
+      "sentenceIds": [
+        "c09-s05-p101-03480-s001",
+        "c09-s05-p101-03480-s002",
+        "c09-s05-p101-03480-s003",
+        "c09-s05-p101-03480-s004"
+      ],
+      "passage": "The number-six-seeded team winning it all is truly unbelievable, but coming back from 1-2 in a best of five series AND from 1-3 in a best of seven series is practically unheard of. There were many moments during the playoffs when I thought it was over. But it wasn’t. Head coach Rudy Tomjanovich famously proclaimed, “Don’t ever underestimate the heart of a champion!”",
+      "prompt": "What does the author report thinking at many points during the playoffs?",
+      "promptZh": "作者说季后赛许多时候自己怎么想？",
+      "options": [
+        "That every result had been scripted in advance.",
+        "That he had no interest in the team's progress.",
+        "That the regular season had not yet started.",
+        "That the team's run was over."
+      ],
+      "optionsZh": [
+        "每个结果早已写好剧本。",
+        "自己对球队进展完全无兴趣。",
+        "常规赛尚未开始。",
+        "球队的征程已经结束。"
+      ],
+      "answer": 3,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A 此段反复逆转，不是预写结果的证明。",
+        "B my thought 与前述球迷体验不支持没兴趣。",
+        "C during playoffs 不可倒为常规赛未开始。",
+        "D I thought it was over 是作者当时预期，后句 But it wasn’t 区别预期与实际。"
+      ],
+      "vocabulary": [
+        {
+          "word": "I thought",
+          "meaning": "我当时以为；我那时认为",
+          "context": "个人当时判断可能被后续结果推翻，非已核实事实。",
+          "example": "I thought the story was finished, but another chapter followed.",
+          "collocations": [
+            "many moments ... I thought it was over",
+            "during the playoffs"
+          ]
+        }
+      ],
+      "translation": "第六种子赢下一切已经难以置信，又从五场制1比2和七场制1比3落后逆转，几乎闻所未闻。季后赛许多时刻，我以为结束了，但没有。主教练 Rudy Tomjanovich 的名言是：“永远别低估冠军的心！”",
+      "evidenceTargetIds": [
+        "c09-s05-p101-03480-s002"
+      ],
+      "evidence": [
+        {
+          "quote": "The number-six-seeded team winning it all is truly unbelievable, but coming back from 1-2 in a best of five series AND from 1-3 in a best of seven series is practically unheard of. There were many moments during the playoffs when I thought it was over. But it wasn’t. Head coach Rudy Tomjanovich famously proclaimed, “Don’t ever underestimate the heart of a champion!”",
+          "sentenceIds": [
+            "c09-s05-p101-03480-s001",
+            "c09-s05-p101-03480-s002",
+            "c09-s05-p101-03480-s003",
+            "c09-s05-p101-03480-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 101,
+              "block": 2,
+              "bbox": [
+                76.99,
+                348,
+                535,
+                518.52
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "884e5fc26266639aaa708516aff8c1dd22c60d3f08cf2c4e5c2a45efe1d7a7ee"
+    },
+    {
+      "id": "qe-c09-0140",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-038",
+      "parentQuestionId": "q-c09-076",
+      "chapterId": "c09",
+      "sectionId": "c09-s05",
+      "paragraphId": "c09-s05-p101-03480",
+      "readingUnitId": "c09-s05-p101-03480-r001-004",
+      "sentenceIds": [
+        "c09-s05-p101-03480-s001",
+        "c09-s05-p101-03480-s002",
+        "c09-s05-p101-03480-s003",
+        "c09-s05-p101-03480-s004"
+      ],
+      "passage": "The number-six-seeded team winning it all is truly unbelievable, but coming back from 1-2 in a best of five series AND from 1-3 in a best of seven series is practically unheard of. There were many moments during the playoffs when I thought it was over. But it wasn’t. Head coach Rudy Tomjanovich famously proclaimed, “Don’t ever underestimate the heart of a champion!”",
+      "prompt": "What does 'But it wasn’t' correct in the author's account?",
+      "promptZh": "But it wasn’t 在作者叙述中纠正什么？",
+      "options": [
+        "It denies that basketball has any uncertainty.",
+        "It rejects his earlier expectation that the team's run had ended.",
+        "It says the coach never spoke about champions.",
+        "It confirms that the season ended at every moment he feared it would."
+      ],
+      "optionsZh": [
+        "否认篮球有任何不确定。",
+        "否定自己先前以为球队征程已结束的预期。",
+        "说教练从未谈过冠军。",
+        "确认赛季在每个担心时刻都已结束。"
+      ],
+      "answer": 1,
+      "type": "逻辑关系",
+      "support": "explicit",
+      "analyses": [
+        "A 反差恰呈现不确定与逆转，不是否认。",
+        "B wasn’t 省略 over，直接反转前句 thought it was over。",
+        "C 后一句明有教练引言。",
+        "D thought 与 wasn’t 分开当时看法和后续事实，不能当全都如担心发生。"
+      ],
+      "vocabulary": [
+        {
+          "word": "wasn’t",
+          "meaning": "was not；并没有（如所担心那样结束）",
+          "context": "省略前面 over，理解否定需看紧前句，而不是任意补另一个表语。",
+          "example": "She thought the task was over, but it wasn't.",
+          "collocations": [
+            "But it wasn’t",
+            "I thought it was over"
+          ]
+        }
+      ],
+      "translation": "第六种子赢下一切已经难以置信，又从五场制1比2和七场制1比3落后逆转，几乎闻所未闻。季后赛许多时刻，我以为结束了，但没有。主教练 Rudy Tomjanovich 的名言是：“永远别低估冠军的心！”",
+      "evidenceTargetIds": [
+        "c09-s05-p101-03480-s003"
+      ],
+      "evidence": [
+        {
+          "quote": "The number-six-seeded team winning it all is truly unbelievable, but coming back from 1-2 in a best of five series AND from 1-3 in a best of seven series is practically unheard of. There were many moments during the playoffs when I thought it was over. But it wasn’t. Head coach Rudy Tomjanovich famously proclaimed, “Don’t ever underestimate the heart of a champion!”",
+          "sentenceIds": [
+            "c09-s05-p101-03480-s001",
+            "c09-s05-p101-03480-s002",
+            "c09-s05-p101-03480-s003",
+            "c09-s05-p101-03480-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 101,
+              "block": 2,
+              "bbox": [
+                76.99,
+                348,
+                535,
+                518.52
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "777f8c540747ce44abd159071900de9116c42e14cb45792ef722df98d7ca40ca"
+    },
+    {
+      "id": "qe-c09-0141",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-038",
+      "parentQuestionId": "q-c09-076",
+      "chapterId": "c09",
+      "sectionId": "c09-s05",
+      "paragraphId": "c09-s05-p101-03480",
+      "readingUnitId": "c09-s05-p101-03480-r001-004",
+      "sentenceIds": [
+        "c09-s05-p101-03480-s001",
+        "c09-s05-p101-03480-s002",
+        "c09-s05-p101-03480-s003",
+        "c09-s05-p101-03480-s004"
+      ],
+      "passage": "The number-six-seeded team winning it all is truly unbelievable, but coming back from 1-2 in a best of five series AND from 1-3 in a best of seven series is practically unheard of. There were many moments during the playoffs when I thought it was over. But it wasn’t. Head coach Rudy Tomjanovich famously proclaimed, “Don’t ever underestimate the heart of a champion!”",
+      "prompt": "Who proclaims 'Don’t ever underestimate the heart of a champion' in the account?",
+      "promptZh": "叙述中谁说 Don’t ever underestimate the heart of a champion？",
+      "options": [
+        "The author naming his own role as head coach.",
+        "Charles Barkley before the free throws.",
+        "Hakeem Olajuwon, introduced as the head coach.",
+        "Head coach Rudy Tomjanovich."
+      ],
+      "optionsZh": [
+        "作者说自己是主教练。",
+        "罚球前的 Charles Barkley。",
+        "被介绍为主教练的 Hakeem Olajuwon。",
+        "主教练 Rudy Tomjanovich。"
+      ],
+      "answer": 3,
+      "type": "观点归属",
+      "support": "explicit",
+      "analyses": [
+        "A 作者是观赛叙述者，不是此处教练。",
+        "B Barkley 属对手前锋，不能换说话者。",
+        "C Olajuwon 是球员，主教练头衔在此明确属于 Rudy Tomjanovich。",
+        "D Head coach...proclaimed 明示归属；格言是鼓舞性表达，不是冠军永不输的实验定律。"
+      ],
+      "vocabulary": [
+        {
+          "word": "underestimate",
+          "meaning": "低估；把能力或价值估得太低",
+          "context": "冠军的心是精神气质的修辞，非心脏医学测量。",
+          "example": "The story warns readers not to underestimate an unlikely contender.",
+          "collocations": [
+            "Don’t ever underestimate",
+            "the heart of a champion"
+          ]
+        }
+      ],
+      "translation": "第六种子赢下一切已经难以置信，又从五场制1比2和七场制1比3落后逆转，几乎闻所未闻。季后赛许多时刻，我以为结束了，但没有。主教练 Rudy Tomjanovich 的名言是：“永远别低估冠军的心！”",
+      "evidenceTargetIds": [
+        "c09-s05-p101-03480-s004"
+      ],
+      "evidence": [
+        {
+          "quote": "The number-six-seeded team winning it all is truly unbelievable, but coming back from 1-2 in a best of five series AND from 1-3 in a best of seven series is practically unheard of. There were many moments during the playoffs when I thought it was over. But it wasn’t. Head coach Rudy Tomjanovich famously proclaimed, “Don’t ever underestimate the heart of a champion!”",
+          "sentenceIds": [
+            "c09-s05-p101-03480-s001",
+            "c09-s05-p101-03480-s002",
+            "c09-s05-p101-03480-s003",
+            "c09-s05-p101-03480-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 101,
+              "block": 2,
+              "bbox": [
+                76.99,
+                348,
+                535,
+                518.52
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "10494eeb93052a92f940d7c836f60b5789da9edf40d2541c7bfba58a4914de8c"
+    },
+    {
+      "id": "q-c09-077",
+      "version": 1,
+      "readingUnitId": "c09-s05-p101-03480-r005-006",
+      "chapterId": "c09",
+      "sectionId": "c09-s05",
+      "paragraphId": "c09-s05-p101-03480",
+      "sentenceIds": [
+        "c09-s05-p101-03480-s005",
+        "c09-s05-p101-03480-s006"
+      ],
+      "passage": "The 1995 playoffs were moving, dramatic, and a whole lot psychologically richer than watching a number one seed win the championship. An underdog victory like this expands your view of what is possible.",
+      "prompt": "What does “underdog” refer to in the author’s response?",
+      "options": [
+        "The top seed expected to win easily.",
+        "A team that was guaranteed to lose every match.",
+        "A less-favored competitor whose victory broadens the sense of what is possible.",
+        "A team that had never won any game before 1995."
+      ],
+      "answer": 2,
+      "type": "语境词义",
+      "promptZh": "作者回应中的 underdog 指什么？",
+      "optionsZh": [
+        "被预计轻松获胜的第一种子。",
+        "保证每场必输的球队。",
+        "较不被看好的竞争者，其获胜拓展可能性的认识。",
+        "1995年前从未赢任何比赛的队。"
+      ],
+      "analyses": [
+        "A 与 number one seed 的对照方向相反。",
+        "B 不被看好不等于注定输。",
+        "C underdog victory 与 expands...possible 结合低种子背景支持。",
+        "D 当前没有从未赢球的履历。richer than 是作者观赛评价，不证明所有观众必有相同体验。"
+      ],
+      "evidence": [
+        {
+          "quote": "An underdog victory like this expands your view of what is possible.",
+          "sentenceIds": [
+            "c09-s05-p101-03480-s006"
+          ],
+          "sources": [
+            {
+              "pdfPage": 101,
+              "block": 2,
+              "bbox": [
+                76.99,
+                348,
+                535,
+                518.52
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "underdog",
+          "meaning": "不被看好的一方；弱势竞争者",
+          "context": "在此指低种子且屡次濒临淘汰的球队，不是绝无胜算",
+          "example": "The underdog surprised everyone by reaching the final.",
+          "collocations": [
+            "an underdog victory",
+            "support the underdog"
+          ]
+        }
+      ],
+      "translation": "1995年的季后赛感人、戏剧性十足，比看第一种子夺冠心理丰富得多。这样的不被看好者获胜，拓宽你对可能性的认识。",
+      "support": "explicit",
+      "editorialStatus": "PDF第98–102页原页核对；视觉丰富与心情分开，perhaps不改已测，体育为原书历史叙事，Proust是文学引述；题目文字证据独立于图像识别，保留所有旧题和原句",
+      "fingerprint": "535d635b2d2ed8aef22a19f3e6e2828d71221007f891ba47d7eed37268e3740e"
+    },
+    {
+      "id": "qe-c09-0142",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-038",
+      "parentQuestionId": "q-c09-077",
+      "chapterId": "c09",
+      "sectionId": "c09-s05",
+      "paragraphId": "c09-s05-p101-03480",
+      "readingUnitId": "c09-s05-p101-03480-r005-006",
+      "sentenceIds": [
+        "c09-s05-p101-03480-s005",
+        "c09-s05-p101-03480-s006"
+      ],
+      "passage": "The 1995 playoffs were moving, dramatic, and a whole lot psychologically richer than watching a number one seed win the championship. An underdog victory like this expands your view of what is possible.",
+      "prompt": "What makes the 1995 playoffs richer in the author's comparison?",
+      "promptZh": "作者比较中，1995 季后赛为何更丰富？",
+      "options": [
+        "They provided a predictable top seed's victory with no surprises.",
+        "They removed all strong emotions from the viewing experience.",
+        "Their dramatic underdog outcome expanded his sense of what was possible.",
+        "They were experimentally proved to affect all viewers identically."
+      ],
+      "optionsZh": [
+        "提供毫无意外的可预期第一种子胜利。",
+        "消除了观看时所有强烈情绪。",
+        "戏剧性弱势方获胜拓宽了对可能性的认识。",
+        "实验已证明所有观众反应相同。"
+      ],
+      "answer": 2,
+      "type": "作者意图",
+      "support": "explicit",
+      "analyses": [
+        "A than watching a number one seed win 是对照对象，不是此经历本身。",
+        "B moving、dramatic 不是无情绪。",
+        "C 下一句 underdog victory expands view 将个人丰富感连到视角拓展。",
+        "D 个人观赛比较不是随机观众实验，不可作人人同效结论。"
+      ],
+      "vocabulary": [
+        {
+          "word": "underdog",
+          "meaning": "不被看好的一方；处于劣势的竞争者",
+          "context": "不等于实际必败，而是相对胜算或预期较低。",
+          "example": "The underdog's recovery surprised the crowd.",
+          "collocations": [
+            "an underdog victory",
+            "expands your view of what is possible"
+          ]
+        }
+      ],
+      "translation": "1995年的季后赛感人、戏剧性十足，比看第一种子夺冠心理丰富得多。这样的不被看好者获胜，拓宽你对可能性的认识。",
+      "evidenceTargetIds": [
+        "c09-s05-p101-03480-s005"
+      ],
+      "evidence": [
+        {
+          "quote": "The 1995 playoffs were moving, dramatic, and a whole lot psychologically richer than watching a number one seed win the championship. An underdog victory like this expands your view of what is possible.",
+          "sentenceIds": [
+            "c09-s05-p101-03480-s005",
+            "c09-s05-p101-03480-s006"
+          ],
+          "sources": [
+            {
+              "pdfPage": 101,
+              "block": 2,
+              "bbox": [
+                76.99,
+                348,
+                535,
+                518.52
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "2fdc4a7a17025e7401963b375b68589ac68b5af7c60f0c560c944e17480f1b27"
+    },
+    {
+      "id": "q-c09-078",
+      "version": 1,
+      "readingUnitId": "c09-s06-p101-05745-r001-004",
+      "chapterId": "c09",
+      "sectionId": "c09-s06",
+      "paragraphId": "c09-s06-p101-05745",
+      "sentenceIds": [
+        "c09-s06-p101-05745-s001",
+        "c09-s06-p101-05745-s002",
+        "c09-s06-p101-05745-s003",
+        "c09-s06-p101-05745-s004"
+      ],
+      "passage": "So, yes, reading a poem or novel, watching a film, looking at a piece of artwork, or watching an awe-inspiring athletic performance increases psychological richness. It requires our own interpretation of the poet’s, novelist’s, filmmaker’s, or artist’s personal beliefs and expression, and recognition of beauty in athletes’ extraordinary actions. In this sense, it differs from firsthand experiences gained through personal adventures. Nonetheless, we can still have very real, immediate experiences through arts and sports under the right circumstances.",
+      "prompt": "How are aesthetic and firsthand experiences distinguished?",
+      "options": [
+        "Aesthetic experiences can never feel real or immediate.",
+        "Aesthetic experiences involve interpretation, yet can still feel real and immediate under suitable circumstances.",
+        "Firsthand adventures require no personal involvement.",
+        "Every exposure to art automatically gives all viewers the same experience."
+      ],
+      "answer": 1,
+      "type": "逻辑关系",
+      "promptZh": "审美体验与亲身体验怎样区分？",
+      "optionsZh": [
+        "审美体验永不真实、直接。",
+        "审美涉及解释，但合适条件下仍可真实而直接。",
+        "亲身冒险不需本人参与。",
+        "每次接触艺术都自动使人人体验相同。"
+      ],
+      "analyses": [
+        "A nonetheless 后明确 real, immediate。",
+        "B own interpretation 与 under the right circumstances 两部分都保留。",
+        "C firsthand personal adventures 指本人直接参与。",
+        "D own interpretation 和条件限定不支持人人自动相同。本书结论不能把每次看艺术都当成保证增益。"
+      ],
+      "evidence": [
+        {
+          "quote": "It requires our own interpretation",
+          "sentenceIds": [
+            "c09-s06-p101-05745-s002"
+          ],
+          "sources": [
+            {
+              "pdfPage": 101,
+              "block": 4,
+              "bbox": [
+                76.99,
+                574.5,
+                535.01,
+                686.52
+              ]
+            }
+          ]
+        },
+        {
+          "quote": "we can still have very real, immediate experiences through arts and sports under the right circumstances.",
+          "sentenceIds": [
+            "c09-s06-p101-05745-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 101,
+              "block": 4,
+              "bbox": [
+                76.99,
+                574.5,
+                535.01,
+                686.52
+              ]
+            },
+            {
+              "pdfPage": 102,
+              "block": 0,
+              "bbox": [
+                76.99,
+                75,
+                535,
+                109.02
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "Nonetheless",
+          "meaning": "尽管如此；然而仍然",
+          "context": "承认与亲历冒险不同，仍保留审美体验的真实性",
+          "example": "The journey was indirect. Nonetheless, the encounter felt immediate.",
+          "collocations": [
+            "nonetheless, we can",
+            "nonetheless have an experience"
+          ]
+        }
+      ],
+      "translation": "因此，读诗或小说、看电影或艺术品、观看令人敬畏的运动表现，会增加心理丰富性。这需要我们自己解释诗人、小说家、电影人或艺术家的信念与表达，并认识运动员非凡行动中的美。从这意义说，它不同于个人冒险得到的亲身体验。尽管如此，合适条件下，我们仍能通过艺术和体育拥有非常真实、直接的体验。",
+      "support": "explicit",
+      "editorialStatus": "PDF第98–102页原页核对；视觉丰富与心情分开，perhaps不改已测，体育为原书历史叙事，Proust是文学引述；题目文字证据独立于图像识别，保留所有旧题和原句",
+      "fingerprint": "fc78001c614cf0e3b5b24ae116da17a752b944a304b27f534300915b2548fc8a"
+    },
+    {
+      "id": "qe-c09-0143",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-038",
+      "parentQuestionId": "q-c09-078",
+      "chapterId": "c09",
+      "sectionId": "c09-s06",
+      "paragraphId": "c09-s06-p101-05745",
+      "readingUnitId": "c09-s06-p101-05745-r001-004",
+      "sentenceIds": [
+        "c09-s06-p101-05745-s001",
+        "c09-s06-p101-05745-s002",
+        "c09-s06-p101-05745-s003",
+        "c09-s06-p101-05745-s004"
+      ],
+      "passage": "So, yes, reading a poem or novel, watching a film, looking at a piece of artwork, or watching an awe-inspiring athletic performance increases psychological richness. It requires our own interpretation of the poet’s, novelist’s, filmmaker’s, or artist’s personal beliefs and expression, and recognition of beauty in athletes’ extraordinary actions. In this sense, it differs from firsthand experiences gained through personal adventures. Nonetheless, we can still have very real, immediate experiences through arts and sports under the right circumstances.",
+      "prompt": "How should the list of poems, novels, films, art, and sport be read with the rest of the paragraph?",
+      "promptZh": "诗、小说、电影、艺术与体育清单结合全段应怎样理解？",
+      "options": [
+        "As the author's synthesis about sources of richness that also require interpretation and the right circumstances.",
+        "As proof every activity always enriches every person automatically.",
+        "As a claim that interpretation of another person's expression is unnecessary.",
+        "As a rule that aesthetic experiences must be less real than all personal adventures."
+      ],
+      "optionsZh": [
+        "作为作者对丰富性来源的归纳，同时需解释活动与合适条件。",
+        "作为每项活动都自动丰富每个人的证明。",
+        "作为不需解释他人表达的主张。",
+        "作为审美体验必不如一切冒险真实的规则。"
+      ],
+      "answer": 0,
+      "type": "语气与范围",
+      "support": "explicit",
+      "analyses": [
+        "A 后文 It requires 与 under the right circumstances 保留条件，不孤立首句。",
+        "B 删除全段限定，扩大为自动普遍效应。",
+        "C requires our own interpretation 明示需要。",
+        "D very real,immediate 明说仍可真实直接；区别获得渠道不贬成虚假。"
+      ],
+      "vocabulary": [
+        {
+          "word": "awe-inspiring",
+          "meaning": "令人敬畏惊叹的",
+          "context": "形容运动表现所能唤起的体验，并非每次普通动作都自动如此。",
+          "example": "The final performance was awe-inspiring to the audience.",
+          "collocations": [
+            "an awe-inspiring athletic performance",
+            "under the right circumstances"
+          ]
+        }
+      ],
+      "translation": "因此，读诗或小说、看电影或艺术品、观看令人敬畏的运动表现，会增加心理丰富性。这需要我们自己解释诗人、小说家、电影人或艺术家的信念与表达，并认识运动员非凡行动中的美。从这意义说，它不同于个人冒险得到的亲身体验。尽管如此，合适条件下，我们仍能通过艺术和体育拥有非常真实、直接的体验。",
+      "evidenceTargetIds": [
+        "c09-s06-p101-05745-s001"
+      ],
+      "evidence": [
+        {
+          "quote": "So, yes, reading a poem or novel, watching a film, looking at a piece of artwork, or watching an awe-inspiring athletic performance increases psychological richness. It requires our own interpretation of the poet’s, novelist’s, filmmaker’s, or artist’s personal beliefs and expression, and recognition of beauty in athletes’ extraordinary actions. In this sense, it differs from firsthand experiences gained through personal adventures. Nonetheless, we can still have very real, immediate experiences through arts and sports under the right circumstances.",
+          "sentenceIds": [
+            "c09-s06-p101-05745-s001",
+            "c09-s06-p101-05745-s002",
+            "c09-s06-p101-05745-s003",
+            "c09-s06-p101-05745-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 101,
+              "block": 4,
+              "bbox": [
+                76.99,
+                574.5,
+                535.01,
+                686.52
+              ]
+            },
+            {
+              "pdfPage": 102,
+              "block": 0,
+              "bbox": [
+                76.99,
+                75,
+                535,
+                109.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "48644858432711103d818a7c9f0748c70d4f193495c6e715d3906b1747398b78"
+    },
+    {
+      "id": "qe-c09-0144",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-038",
+      "parentQuestionId": "q-c09-078",
+      "chapterId": "c09",
+      "sectionId": "c09-s06",
+      "paragraphId": "c09-s06-p101-05745",
+      "readingUnitId": "c09-s06-p101-05745-r001-004",
+      "sentenceIds": [
+        "c09-s06-p101-05745-s001",
+        "c09-s06-p101-05745-s002",
+        "c09-s06-p101-05745-s003",
+        "c09-s06-p101-05745-s004"
+      ],
+      "passage": "So, yes, reading a poem or novel, watching a film, looking at a piece of artwork, or watching an awe-inspiring athletic performance increases psychological richness. It requires our own interpretation of the poet’s, novelist’s, filmmaker’s, or artist’s personal beliefs and expression, and recognition of beauty in athletes’ extraordinary actions. In this sense, it differs from firsthand experiences gained through personal adventures. Nonetheless, we can still have very real, immediate experiences through arts and sports under the right circumstances.",
+      "prompt": "In what sense are these aesthetic experiences distinguished from personal adventures?",
+      "promptZh": "这些审美体验在何种意义上区别于个人冒险？",
+      "options": [
+        "They cannot produce any immediate experience.",
+        "They involve interpreting others' expression and recognising beauty, rather than only undertaking the events oneself.",
+        "They require the reader to have lived every artist's exact biography.",
+        "They are said to contain no thoughts or feelings."
+      ],
+      "optionsZh": [
+        "不能产生任何直接体验。",
+        "涉及解释他人表达与认识美，而非仅亲自参与事件。",
+        "要求读者活过每个艺术家的精确生平。",
+        "被说成没有思想与感受。"
+      ],
+      "answer": 1,
+      "type": "指代与逻辑",
+      "support": "explicit",
+      "analyses": [
+        "A 后句 nonetheless 明确仍可有 real,immediate experiences。",
+        "B In this sense 回指前句解释创作者信念表达、认识运动之美的方式。",
+        "C 解读表达不等于必须复制创作者生平。",
+        "D 当前强调体验而非无情感；不是仅凭代词作新的因果测量。"
+      ],
+      "vocabulary": [
+        {
+          "word": "In this sense",
+          "meaning": "从这个意义上说；就刚述方面而言",
+          "context": "限定比较角度，不是全方面都不如亲历。",
+          "example": "In this sense, reading differs from making the journey oneself.",
+          "collocations": [
+            "In this sense, it differs",
+            "firsthand experiences"
+          ]
+        }
+      ],
+      "translation": "因此，读诗或小说、看电影或艺术品、观看令人敬畏的运动表现，会增加心理丰富性。这需要我们自己解释诗人、小说家、电影人或艺术家的信念与表达，并认识运动员非凡行动中的美。从这意义说，它不同于个人冒险得到的亲身体验。尽管如此，合适条件下，我们仍能通过艺术和体育拥有非常真实、直接的体验。",
+      "evidenceTargetIds": [
+        "c09-s06-p101-05745-s003"
+      ],
+      "evidence": [
+        {
+          "quote": "So, yes, reading a poem or novel, watching a film, looking at a piece of artwork, or watching an awe-inspiring athletic performance increases psychological richness. It requires our own interpretation of the poet’s, novelist’s, filmmaker’s, or artist’s personal beliefs and expression, and recognition of beauty in athletes’ extraordinary actions. In this sense, it differs from firsthand experiences gained through personal adventures. Nonetheless, we can still have very real, immediate experiences through arts and sports under the right circumstances.",
+          "sentenceIds": [
+            "c09-s06-p101-05745-s001",
+            "c09-s06-p101-05745-s002",
+            "c09-s06-p101-05745-s003",
+            "c09-s06-p101-05745-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 101,
+              "block": 4,
+              "bbox": [
+                76.99,
+                574.5,
+                535.01,
+                686.52
+              ]
+            },
+            {
+              "pdfPage": 102,
+              "block": 0,
+              "bbox": [
+                76.99,
+                75,
+                535,
+                109.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "4183d2192aed6f7059580817c8b75f2d4bf66fcb736c9a48a1966d2ecbb71753"
+    }
+  ]
+}
