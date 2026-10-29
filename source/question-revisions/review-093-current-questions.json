@@ -1,0 +1,1899 @@
+{
+  "schemaVersion": 1,
+  "batchId": "question-review-2026-10-28-093",
+  "sourceCommit": "c5858669d9bdac30e33246ab5fbddc2a9cee72ee",
+  "pdfSha256": "be25c859f1bd894a4b0d1cff024ded1297f6a96a8e8ddabea1e3abcf89160a50",
+  "frozenAt": "2026-10-29T15:18:59.348Z",
+  "questions": [
+    {
+      "id": "q-c10-063",
+      "version": 1,
+      "readingUnitId": "c10-s07-p113-04575-r005-007",
+      "chapterId": "c10",
+      "sectionId": "c10-s07",
+      "paragraphId": "c10-s07-p113-04575",
+      "sentenceIds": [
+        "c10-s07-p113-04575-s005",
+        "c10-s07-p113-04575-s006",
+        "c10-s07-p113-04575-s007"
+      ],
+      "passage": "This was not the case in Japan: Tokyo and Osaka are both large cities with many high-rise buildings and large train stations. Yet they have very different feels, perhaps due to the overwhelming number of local stores, restaurants, and cafés. In American suburbs, whether you’re outside of New York or LA, you can expect to see the same stores, like Target and Whole Foods, and the same restaurants, like the Cheesecake Factory and Panera.",
+      "prompt": "What contrast does the author draw between Japan and American suburbs?",
+      "options": [
+        "Tokyo and Osaka have no large buildings or stations.",
+        "All Japanese stores belong to American chains.",
+        "American suburbs contain no restaurants.",
+        "Japanese cities can feel distinct despite shared urban features, unlike the repeated chains he describes in U.S. suburbs."
+      ],
+      "answer": 3,
+      "type": "逻辑关系",
+      "promptZh": "作者对日本与美国郊区作什么对比？",
+      "optionsZh": [
+        "东京大阪没有大楼车站。",
+        "日本商店全属美国连锁。",
+        "美国郊区没有餐厅。",
+        "日本城市虽有共同大都市设施仍感觉不同，而所述美国郊区反复出现连锁店。"
+      ],
+      "analyses": [
+        "A both...many high-rise...large train stations 正相反。",
+        "B 解释提及 local stores，不是全为美国连锁。",
+        "C 原文明列两家餐饮连锁。",
+        "D Yet 引出设施相近但感受不同，随后对比美国郊区的相同店铺。perhaps 是推测本地店铺的作用，非确定因果结论。"
+      ],
+      "evidence": [
+        {
+          "quote": "Yet they have very different feels, perhaps due to the overwhelming number of local stores, restaurants, and cafés.",
+          "sentenceIds": [
+            "c10-s07-p113-04575-s006"
+          ],
+          "sources": [
+            {
+              "pdfPage": 113,
+              "block": 3,
+              "bbox": [
+                76.99,
+                457.5,
+                535.01,
+                706.02
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "perhaps",
+          "meaning": "也许；可能",
+          "context": "限定对本地店铺为何带来不同感觉的解释",
+          "example": "The difference was perhaps due to the local businesses.",
+          "collocations": [
+            "perhaps due to",
+            "perhaps because of"
+          ]
+        }
+      ],
+      "translation": "日本并非如此：东京与大阪都是大城市，有许多高楼和大型车站，却给人很不一样的感觉，也许是因为大量本地商店、餐馆和咖啡馆。在美国郊区，不论纽约还是洛杉矶附近，你都能预期看到 Target、Whole Foods 等相同店铺，以及 Cheesecake Factory、Panera 等相同餐馆。",
+      "support": "explicit",
+      "editorialStatus": "完整PDF111–115原页视觉核对及跨页拼接。词频观察与无意义词、汉字、人像和课堂曝光实验分开；假称Turkish不作真实语言事实；课堂评分量表、出席次数和主观熟悉/明确认识分开，linearly保留作者措辞但不编精确等差。机制实验不把早前观察婚配研究改成随机试验。购物/旅行属个人轶事；普查流动性是代理指标、统计控制非因果保证；成长经历观察与想象工作心态实验分开，every other year译隔年。and almost为既有跨单元句片，保留ID与连续阅读。末段完整审阅含尚未配题结果，不提前倒灌证据，不宣称逐句直接证据全覆盖。",
+      "fingerprint": "abace8ec532eda796796a4b091595d2e25e7d7f7fc6ce0ddf8f3fd9e351c9370"
+    },
+    {
+      "id": "qe-c10-0110",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-043",
+      "parentQuestionId": "q-c10-063",
+      "chapterId": "c10",
+      "sectionId": "c10-s07",
+      "paragraphId": "c10-s07-p113-04575",
+      "readingUnitId": "c10-s07-p113-04575-r005-007",
+      "sentenceIds": [
+        "c10-s07-p113-04575-s005",
+        "c10-s07-p113-04575-s006",
+        "c10-s07-p113-04575-s007"
+      ],
+      "passage": "This was not the case in Japan: Tokyo and Osaka are both large cities with many high-rise buildings and large train stations. Yet they have very different feels, perhaps due to the overwhelming number of local stores, restaurants, and cafés. In American suburbs, whether you’re outside of New York or LA, you can expect to see the same stores, like Target and Whole Foods, and the same restaurants, like the Cheesecake Factory and Panera.",
+      "prompt": "Which features do Tokyo and Osaka share in the author's comparison?",
+      "promptZh": "作者比较中，Tokyo 与 Osaka 共有哪类特点？",
+      "options": [
+        "Only small towns without major transport stations.",
+        "Exactly the same local shops and identical feelings in every district.",
+        "Large-city scale, with many high-rise buildings and large train stations.",
+        "An absence of cafés and restaurants in either city."
+      ],
+      "optionsZh": [
+        "只是没有大型车站的小镇。",
+        "各区本地店完全相同、感觉一模一样。",
+        "大城市规模，许多高楼和大型车站。",
+        "两城都没有咖啡馆餐馆。"
+      ],
+      "answer": 2,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A both large cities 与 large train stations 直接反对。",
+        "B Yet different feels 区别共享大城市形态与不同气质。",
+        "C 三项共享特点在冒号后明示，不据此等同城市体验。",
+        "D 下一句 local stores,restaurants,cafes 多，不是全无；perhaps 的可能解释也不能写成确证唯一原因。"
+      ],
+      "vocabulary": [
+        {
+          "word": "high-rise",
+          "meaning": "高层的；多层向上发展的",
+          "context": "形容城市建筑高度类型，不指房价高或人口全部一样。",
+          "example": "The neighbourhood contained several high-rise buildings.",
+          "collocations": [
+            "high-rise buildings",
+            "large train stations"
+          ]
+        }
+      ],
+      "translation": "日本并非如此：东京与大阪都是大城市，有许多高楼和大型车站，却给人很不一样的感觉，也许是因为大量本地商店、餐馆和咖啡馆。在美国郊区，不论纽约还是洛杉矶附近，你都能预期看到 Target、Whole Foods 等相同店铺，以及 Cheesecake Factory、Panera 等相同餐馆。",
+      "evidenceTargetIds": [
+        "c10-s07-p113-04575-s005"
+      ],
+      "evidence": [
+        {
+          "quote": "This was not the case in Japan: Tokyo and Osaka are both large cities with many high-rise buildings and large train stations. Yet they have very different feels, perhaps due to the overwhelming number of local stores, restaurants, and cafés. In American suburbs, whether you’re outside of New York or LA, you can expect to see the same stores, like Target and Whole Foods, and the same restaurants, like the Cheesecake Factory and Panera.",
+          "sentenceIds": [
+            "c10-s07-p113-04575-s005",
+            "c10-s07-p113-04575-s006",
+            "c10-s07-p113-04575-s007"
+          ],
+          "sources": [
+            {
+              "pdfPage": 113,
+              "block": 3,
+              "bbox": [
+                76.99,
+                457.5,
+                535.01,
+                706.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "da960e126c4f4575b47225ff929824f11203fd01ddbb930fa39a7ad5c83532f6"
+    },
+    {
+      "id": "qe-c10-0111",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-043",
+      "parentQuestionId": "q-c10-063",
+      "chapterId": "c10",
+      "sectionId": "c10-s07",
+      "paragraphId": "c10-s07-p113-04575",
+      "readingUnitId": "c10-s07-p113-04575-r005-007",
+      "sentenceIds": [
+        "c10-s07-p113-04575-s005",
+        "c10-s07-p113-04575-s006",
+        "c10-s07-p113-04575-s007"
+      ],
+      "passage": "This was not the case in Japan: Tokyo and Osaka are both large cities with many high-rise buildings and large train stations. Yet they have very different feels, perhaps due to the overwhelming number of local stores, restaurants, and cafés. In American suburbs, whether you’re outside of New York or LA, you can expect to see the same stores, like Target and Whole Foods, and the same restaurants, like the Cheesecake Factory and Panera.",
+      "prompt": "What point do the named national stores and restaurants illustrate?",
+      "promptZh": "点名全国商店与餐馆是为说明什么？",
+      "options": [
+        "Every suburb contains only local businesses with no repeated brands.",
+        "The author has verified each named branch is open today.",
+        "Japanese cities have no local commercial differences.",
+        "Familiar chains can recur across separated American suburban settings in the author's description."
+      ],
+      "optionsZh": [
+        "每郊区只本地商家、没有重复品牌。",
+        "作者已核实每家所列门店今天营业。",
+        "日本城市没有本地商业差异。",
+        "在作者描述中，熟悉连锁可在相隔很远的美国郊区反复出现。"
+      ],
+      "answer": 3,
+      "type": "作者意图",
+      "support": "explicit",
+      "analyses": [
+        "A same stores 列举恰说明重复品牌，不是全本地唯一。",
+        "B 书中例子不是当前营业查询或消费推荐。",
+        "C 日本本地店或是不同感觉的可能原因，不是无差异。",
+        "D whether NewYork or LA 配全国品牌说明熟悉与标准化场景；不扩大每一条街、每一家店都完全同。"
+      ],
+      "vocabulary": [
+        {
+          "word": "whether",
+          "meaning": "无论是……还是……",
+          "context": "此处 whether...NewYork or LA 举相隔地点仍相似的对照，不是询问某品牌真实性。",
+          "example": "Whether near one city or another, the traveller noticed familiar signs.",
+          "collocations": [
+            "whether you’re outside of New York or LA",
+            "the same stores"
+          ]
+        }
+      ],
+      "translation": "日本并非如此：东京与大阪都是大城市，有许多高楼和大型车站，却给人很不一样的感觉，也许是因为大量本地商店、餐馆和咖啡馆。在美国郊区，不论纽约还是洛杉矶附近，你都能预期看到 Target、Whole Foods 等相同店铺，以及 Cheesecake Factory、Panera 等相同餐馆。",
+      "evidenceTargetIds": [
+        "c10-s07-p113-04575-s007"
+      ],
+      "evidence": [
+        {
+          "quote": "This was not the case in Japan: Tokyo and Osaka are both large cities with many high-rise buildings and large train stations. Yet they have very different feels, perhaps due to the overwhelming number of local stores, restaurants, and cafés. In American suburbs, whether you’re outside of New York or LA, you can expect to see the same stores, like Target and Whole Foods, and the same restaurants, like the Cheesecake Factory and Panera.",
+          "sentenceIds": [
+            "c10-s07-p113-04575-s005",
+            "c10-s07-p113-04575-s006",
+            "c10-s07-p113-04575-s007"
+          ],
+          "sources": [
+            {
+              "pdfPage": 113,
+              "block": 3,
+              "bbox": [
+                76.99,
+                457.5,
+                535.01,
+                706.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "5395247eae25f575655640dcb42ee13f09ccbb6e8b2fadee4b2687e0fc67463e"
+    },
+    {
+      "id": "q-c10-064",
+      "version": 2,
+      "readingUnitId": "c10-s07-p114-00750-r001-004",
+      "chapterId": "c10",
+      "sectionId": "c10-s07",
+      "paragraphId": "c10-s07-p114-00750",
+      "sentenceIds": [
+        "c10-s07-p114-00750-s001",
+        "c10-s07-p114-00750-s002",
+        "c10-s07-p114-00750-s003",
+        "c10-s07-p114-00750-s004",
+        "c10-s07-p114-00750-s005"
+      ],
+      "passage": "When I was in Charlottesville, I would go to a local coffee shop every day and never went to Starbucks. But when I was traveling, I would realize that all of a sudden I loved going to Starbucks. When I was in the psychology building (Gilmer Hall) in Charlottesville and saw a graduate student walking by, I would greet them with a very curt “hey.” When I saw the same graduate student at a conference in Las Vegas, I went “Hey, Gary, so nice to see you!” and almost hugged him.",
+      "prompt": "How did the author’s responses change when he travelled?",
+      "options": [
+        "He avoided Starbucks both at home and away.",
+        "He welcomed familiar stores and people more warmly away from home.",
+        "He greeted the student more curtly in Las Vegas.",
+        "He visited Starbucks every day in Charlottesville."
+      ],
+      "answer": 1,
+      "type": "细节",
+      "promptZh": "旅行时作者的反应怎样变化？",
+      "optionsZh": [
+        "在家出门都避开 Starbucks。",
+        "出门时更热情地欢迎熟悉店铺和熟人。",
+        "在 Las Vegas 更冷淡招呼学生。",
+        "在 Charlottesville 天天去 Starbucks。"
+      ],
+      "analyses": [
+        "A traveling 时突然喜欢去，与此相反。",
+        "B 咖啡店偏好和对同一学生的招呼都随地点变化。",
+        "C curt hey 是校内，旅行见面更热情。",
+        "D 在当地去 local coffee shop，never went to Starbucks。这里是个人轶事，不是群体实验结果。"
+      ],
+      "evidence": [
+        {
+          "quote": "when I was traveling, I would realize that all of a sudden I loved going to Starbucks.",
+          "sentenceIds": [
+            "c10-s07-p114-00750-s002"
+          ],
+          "sources": [
+            {
+              "pdfPage": 114,
+              "block": 0,
+              "bbox": [
+                76.99,
+                75,
+                535.01,
+                265.02
+              ]
+            }
+          ]
+        },
+        {
+          "quote": "Hey, Gary, so nice to see you!",
+          "sentenceIds": [
+            "c10-s07-p114-00750-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 114,
+              "block": 0,
+              "bbox": [
+                76.99,
+                75,
+                535.01,
+                265.02
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "curt",
+          "meaning": "简短而冷淡的",
+          "context": "描述校园内随意冷淡的 hey，与外地热情招呼形成对比",
+          "example": "He answered with a curt greeting.",
+          "collocations": [
+            "a curt greeting",
+            "a curt “hey”"
+          ]
+        }
+      ],
+      "translation": "在 Charlottesville，我天天去本地咖啡店，从不去 Starbucks。但旅行时，我忽然发现自己爱去 Starbucks。在 Charlottesville 的心理学楼 Gilmer Hall 看到研究生经过，我会很简短地说声 hey。在 Las Vegas 的会议看到同一名学生，我会说：“嘿，Gary，见到你真高兴！”而且差点拥抱他。",
+      "support": "explicit",
+      "editorialStatus": "按实际PDF修复相邻单元断句；原字符、源ID与阅读次序保留，旧版本和作答快照不改写。",
+      "sourceSegments": [
+        {
+          "paragraphId": "c10-s07-p114-00750",
+          "start": 0,
+          "end": 477,
+          "separator": "",
+          "text": "When I was in Charlottesville, I would go to a local coffee shop every day and never went to Starbucks. But when I was traveling, I would realize that all of a sudden I loved going to Starbucks. When I was in the psychology building (Gilmer Hall) in Charlottesville and saw a graduate student walking by, I would greet them with a very curt “hey.” When I saw the same graduate student at a conference in Las Vegas, I went “Hey, Gary, so nice to see you!” and almost hugged him."
+        }
+      ],
+      "boundaryRepair": "sentence-boundaries-2026-10-25",
+      "fingerprint": "1ba685c3f7c6a76c572eb5c35f822cc76cc5c1f96f7265e8f5cc7242de02672e"
+    },
+    {
+      "id": "qe-c10-0112",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-043",
+      "parentQuestionId": "q-c10-064",
+      "chapterId": "c10",
+      "sectionId": "c10-s07",
+      "paragraphId": "c10-s07-p114-00750",
+      "readingUnitId": "c10-s07-p114-00750-r001-004",
+      "sentenceIds": [
+        "c10-s07-p114-00750-s001",
+        "c10-s07-p114-00750-s002",
+        "c10-s07-p114-00750-s003",
+        "c10-s07-p114-00750-s004",
+        "c10-s07-p114-00750-s005"
+      ],
+      "passage": "When I was in Charlottesville, I would go to a local coffee shop every day and never went to Starbucks. But when I was traveling, I would realize that all of a sudden I loved going to Starbucks. When I was in the psychology building (Gilmer Hall) in Charlottesville and saw a graduate student walking by, I would greet them with a very curt “hey.” When I saw the same graduate student at a conference in Las Vegas, I went “Hey, Gary, so nice to see you!” and almost hugged him.",
+      "prompt": "What was the author's coffee-shop habit in Charlottesville?",
+      "promptZh": "作者在 Charlottesville 的咖啡店习惯是什么？",
+      "options": [
+        "A daily local coffee shop rather than Starbucks.",
+        "Starbucks every day and no local coffee shops.",
+        "No coffee-shop visits of any kind.",
+        "A chain store visited only on weekends in Charlottesville."
+      ],
+      "optionsZh": [
+        "每天去本地咖啡店，不去 Starbucks。",
+        "每天 Starbucks，完全不去本地店。",
+        "从不去任何咖啡店。",
+        "只在 Charlottesville 周末去某连锁店。"
+      ],
+      "answer": 0,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A local every day、never Starbucks 限定该时期地点。",
+        "B 把旅行时的 Starbucks 偏好前移并反转本地习惯。",
+        "C every day 明确有到店。",
+        "D every day local shop 与仅周末连锁不符，不能把频率和店型同时替换。"
+      ],
+      "vocabulary": [
+        {
+          "word": "every day",
+          "meaning": "每天",
+          "context": "在 Charlottesville 那段回忆中限定频率，不能延展为其一生每一天。",
+          "example": "During that visit, she went to a local café every day.",
+          "collocations": [
+            "a local coffee shop every day",
+            "When I was in Charlottesville"
+          ]
+        }
+      ],
+      "translation": "在 Charlottesville，我天天去本地咖啡店，从不去 Starbucks。但旅行时，我忽然发现自己爱去 Starbucks。在 Charlottesville 的心理学楼 Gilmer Hall 看到研究生经过，我会很简短地说声 hey。在 Las Vegas 的会议看到同一名学生，我会说：“嘿，Gary，见到你真高兴！”而且差点拥抱他。",
+      "evidenceTargetIds": [
+        "c10-s07-p114-00750-s001"
+      ],
+      "evidence": [
+        {
+          "quote": "When I was in Charlottesville, I would go to a local coffee shop every day and never went to Starbucks. But when I was traveling, I would realize that all of a sudden I loved going to Starbucks. When I was in the psychology building (Gilmer Hall) in Charlottesville and saw a graduate student walking by, I would greet them with a very curt “hey.” When I saw the same graduate student at a conference in Las Vegas, I went “Hey, Gary, so nice to see you!” and almost hugged him.",
+          "sentenceIds": [
+            "c10-s07-p114-00750-s001",
+            "c10-s07-p114-00750-s002",
+            "c10-s07-p114-00750-s003",
+            "c10-s07-p114-00750-s004",
+            "c10-s07-p114-00750-s005"
+          ],
+          "sources": [
+            {
+              "pdfPage": 114,
+              "block": 0,
+              "bbox": [
+                76.99,
+                75,
+                535.01,
+                265.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "sourceSegments": [
+        {
+          "paragraphId": "c10-s07-p114-00750",
+          "start": 0,
+          "end": 477,
+          "separator": "",
+          "text": "When I was in Charlottesville, I would go to a local coffee shop every day and never went to Starbucks. But when I was traveling, I would realize that all of a sudden I loved going to Starbucks. When I was in the psychology building (Gilmer Hall) in Charlottesville and saw a graduate student walking by, I would greet them with a very curt “hey.” When I saw the same graduate student at a conference in Las Vegas, I went “Hey, Gary, so nice to see you!” and almost hugged him."
+        }
+      ],
+      "fingerprint": "cb5179ea48cc757aed5e614799be129cb03be0f76126978e7e3dc8ee725c86dd"
+    },
+    {
+      "id": "qe-c10-0113",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-043",
+      "parentQuestionId": "q-c10-064",
+      "chapterId": "c10",
+      "sectionId": "c10-s07",
+      "paragraphId": "c10-s07-p114-00750",
+      "readingUnitId": "c10-s07-p114-00750-r001-004",
+      "sentenceIds": [
+        "c10-s07-p114-00750-s001",
+        "c10-s07-p114-00750-s002",
+        "c10-s07-p114-00750-s003",
+        "c10-s07-p114-00750-s004",
+        "c10-s07-p114-00750-s005"
+      ],
+      "passage": "When I was in Charlottesville, I would go to a local coffee shop every day and never went to Starbucks. But when I was traveling, I would realize that all of a sudden I loved going to Starbucks. When I was in the psychology building (Gilmer Hall) in Charlottesville and saw a graduate student walking by, I would greet them with a very curt “hey.” When I saw the same graduate student at a conference in Las Vegas, I went “Hey, Gary, so nice to see you!” and almost hugged him.",
+      "prompt": "What does 'curt' suggest about the usual Gilmer Hall greeting?",
+      "promptZh": "curt 暗示平常 Gilmer Hall 招呼怎样？",
+      "options": [
+        "A prolonged enthusiastic embrace on every occasion.",
+        "A brief, abrupt greeting, contrasting with the warmer conference encounter.",
+        "A guarantee that the student was objectively disliked in all settings.",
+        "A formally scheduled interview using a long questionnaire."
+      ],
+      "optionsZh": [
+        "每次都是长时间热情拥抱。",
+        "简短略生硬的招呼，与会议更热情相对。",
+        "保证在所有场合客观讨厌该学生。",
+        "按长问卷安排的正式采访。"
+      ],
+      "answer": 1,
+      "type": "语境词义",
+      "support": "explicit",
+      "analyses": [
+        "A curt hey 与后面 almost hug 不同。",
+        "B very curt hey 是短促日常招呼，后面同一学生在 Vegas 得热烈反应。",
+        "C 简短招呼不证明内心绝对厌恶，情境差异是本段重点。",
+        "D 没有正式问卷或采访；别从语气推成学生人格好坏已测。"
+      ],
+      "vocabulary": [
+        {
+          "word": "curt",
+          "meaning": "简短生硬的；短促的",
+          "context": "描述招呼形式，不能自动升级成明确仇视。",
+          "example": "He gave a curt greeting before returning to work.",
+          "collocations": [
+            "a very curt hey",
+            "greet them"
+          ]
+        }
+      ],
+      "translation": "在 Charlottesville，我天天去本地咖啡店，从不去 Starbucks。但旅行时，我忽然发现自己爱去 Starbucks。在 Charlottesville 的心理学楼 Gilmer Hall 看到研究生经过，我会很简短地说声 hey。在 Las Vegas 的会议看到同一名学生，我会说：“嘿，Gary，见到你真高兴！”而且差点拥抱他。",
+      "evidenceTargetIds": [
+        "c10-s07-p114-00750-s003"
+      ],
+      "evidence": [
+        {
+          "quote": "When I was in Charlottesville, I would go to a local coffee shop every day and never went to Starbucks. But when I was traveling, I would realize that all of a sudden I loved going to Starbucks. When I was in the psychology building (Gilmer Hall) in Charlottesville and saw a graduate student walking by, I would greet them with a very curt “hey.” When I saw the same graduate student at a conference in Las Vegas, I went “Hey, Gary, so nice to see you!” and almost hugged him.",
+          "sentenceIds": [
+            "c10-s07-p114-00750-s001",
+            "c10-s07-p114-00750-s002",
+            "c10-s07-p114-00750-s003",
+            "c10-s07-p114-00750-s004",
+            "c10-s07-p114-00750-s005"
+          ],
+          "sources": [
+            {
+              "pdfPage": 114,
+              "block": 0,
+              "bbox": [
+                76.99,
+                75,
+                535.01,
+                265.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "sourceSegments": [
+        {
+          "paragraphId": "c10-s07-p114-00750",
+          "start": 0,
+          "end": 477,
+          "separator": "",
+          "text": "When I was in Charlottesville, I would go to a local coffee shop every day and never went to Starbucks. But when I was traveling, I would realize that all of a sudden I loved going to Starbucks. When I was in the psychology building (Gilmer Hall) in Charlottesville and saw a graduate student walking by, I would greet them with a very curt “hey.” When I saw the same graduate student at a conference in Las Vegas, I went “Hey, Gary, so nice to see you!” and almost hugged him."
+        }
+      ],
+      "fingerprint": "c67f22907f40d0eb4d16a0018cef612d845006634fad0bd033bdda5c1881fd8d"
+    },
+    {
+      "id": "qe-c10-0114",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-043",
+      "parentQuestionId": "q-c10-064",
+      "chapterId": "c10",
+      "sectionId": "c10-s07",
+      "paragraphId": "c10-s07-p114-00750",
+      "readingUnitId": "c10-s07-p114-00750-r001-004",
+      "sentenceIds": [
+        "c10-s07-p114-00750-s001",
+        "c10-s07-p114-00750-s002",
+        "c10-s07-p114-00750-s003",
+        "c10-s07-p114-00750-s004",
+        "c10-s07-p114-00750-s005"
+      ],
+      "passage": "When I was in Charlottesville, I would go to a local coffee shop every day and never went to Starbucks. But when I was traveling, I would realize that all of a sudden I loved going to Starbucks. When I was in the psychology building (Gilmer Hall) in Charlottesville and saw a graduate student walking by, I would greet them with a very curt “hey.” When I saw the same graduate student at a conference in Las Vegas, I went “Hey, Gary, so nice to see you!” and almost hugged him.",
+      "prompt": "What does 'almost hugged him' establish about the conference encounter?",
+      "promptZh": "almost hugged him 对会议相遇确立什么？",
+      "options": [
+        "It reports a completed hug repeated daily at Gilmer Hall.",
+        "It says no warm response came close to occurring.",
+        "It describes coming close to a hug without stating that the hug was completed.",
+        "It proves every stranger at the conference received a hug."
+      ],
+      "optionsZh": [
+        "报告在 Gilmer Hall 每天重复完成拥抱。",
+        "说完全没有接近发生任何热情反应。",
+        "描述差点拥抱，并未说已完成拥抱。",
+        "证明会议每位陌生人都被拥抱。"
+      ],
+      "answer": 2,
+      "type": "语气与范围",
+      "support": "explicit",
+      "analyses": [
+        "A 地点与 almost 两项都被偷换。",
+        "B enthusiastic Hey,Gary 与 almost hug 显示热情，不是无暖意。",
+        "C almost 保留接近而未陈述完成，him 由同段同一研究生 Gary 定位。",
+        "D 一位熟人不等于所有陌生人；原候选 and... 是前句延续，完整上下文引用不擅改单词。"
+      ],
+      "vocabulary": [
+        {
+          "word": "almost",
+          "meaning": "几乎；差一点",
+          "context": "此处不能把未陈述完成的动作写成实际已拥抱，更不能泛化成每人都如此。",
+          "example": "She almost called his name, but decided to wait.",
+          "collocations": [
+            "and almost hugged him",
+            "the same graduate student"
+          ]
+        }
+      ],
+      "translation": "在 Charlottesville，我天天去本地咖啡店，从不去 Starbucks。但旅行时，我忽然发现自己爱去 Starbucks。在 Charlottesville 的心理学楼 Gilmer Hall 看到研究生经过，我会很简短地说声 hey。在 Las Vegas 的会议看到同一名学生，我会说：“嘿，Gary，见到你真高兴！”而且差点拥抱他。",
+      "evidenceTargetIds": [
+        "c10-s07-p114-00750-s005"
+      ],
+      "evidence": [
+        {
+          "quote": "When I was in Charlottesville, I would go to a local coffee shop every day and never went to Starbucks. But when I was traveling, I would realize that all of a sudden I loved going to Starbucks. When I was in the psychology building (Gilmer Hall) in Charlottesville and saw a graduate student walking by, I would greet them with a very curt “hey.” When I saw the same graduate student at a conference in Las Vegas, I went “Hey, Gary, so nice to see you!” and almost hugged him.",
+          "sentenceIds": [
+            "c10-s07-p114-00750-s001",
+            "c10-s07-p114-00750-s002",
+            "c10-s07-p114-00750-s003",
+            "c10-s07-p114-00750-s004",
+            "c10-s07-p114-00750-s005"
+          ],
+          "sources": [
+            {
+              "pdfPage": 114,
+              "block": 0,
+              "bbox": [
+                76.99,
+                75,
+                535.01,
+                265.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "sourceSegments": [
+        {
+          "paragraphId": "c10-s07-p114-00750",
+          "start": 0,
+          "end": 477,
+          "separator": "",
+          "text": "When I was in Charlottesville, I would go to a local coffee shop every day and never went to Starbucks. But when I was traveling, I would realize that all of a sudden I loved going to Starbucks. When I was in the psychology building (Gilmer Hall) in Charlottesville and saw a graduate student walking by, I would greet them with a very curt “hey.” When I saw the same graduate student at a conference in Las Vegas, I went “Hey, Gary, so nice to see you!” and almost hugged him."
+        }
+      ],
+      "fingerprint": "aa4ea7140ce7a36040224a8d7df178f3b8d6ecbf968218e8858350079f1ae254"
+    },
+    {
+      "id": "q-c10-065",
+      "version": 2,
+      "readingUnitId": "c10-s07-p114-00750-r005-008",
+      "chapterId": "c10",
+      "sectionId": "c10-s07",
+      "paragraphId": "c10-s07-p114-00750",
+      "sentenceIds": [
+        "c10-s07-p114-00750-s006",
+        "c10-s07-p114-00750-s007",
+        "c10-s07-p114-00750-s008"
+      ],
+      "passage": "Would I ever hug him in Gilmer Hall? No chance. So, a familiar person or store seems to be particularly attractive when you are away from familiar places and surrounded by strangers.",
+      "prompt": "What tentative explanation follows the author’s near-hug?",
+      "options": [
+        "He habitually hugged Gary in Gilmer Hall.",
+        "Strangers become less noticeable in familiar places.",
+        "Familiar people or stores may seem especially attractive amid unfamiliar surroundings.",
+        "Every traveller always embraces familiar students."
+      ],
+      "answer": 2,
+      "type": "推断",
+      "promptZh": "差点拥抱之后，作者提出什么初步解释？",
+      "optionsZh": [
+        "在 Gilmer Hall 习惯拥抱 Gary。",
+        "熟悉地方让陌生人较不显眼。",
+        "陌生环境中，熟人或熟悉店铺可能格外有吸引力。",
+        "每位旅客总会拥抱熟悉学生。"
+      ],
+      "analyses": [
+        "A No chance 否定在校内拥抱。",
+        "B 不是当前解释的内容。",
+        "C seems...particularly...away...strangers 是作者的暂时概括，不能去掉限定。",
+        "D almost 指差点拥抱，不是实际拥抱；个人轶事也不能扩大为所有旅客的固定行为。"
+      ],
+      "evidence": [
+        {
+          "quote": "a familiar person or store seems to be particularly attractive when you are away from familiar places and surrounded by strangers.",
+          "sentenceIds": [
+            "c10-s07-p114-00750-s008"
+          ],
+          "sources": [
+            {
+              "pdfPage": 114,
+              "block": 0,
+              "bbox": [
+                76.99,
+                75,
+                535.01,
+                265.02
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "surrounded",
+          "meaning": "被围绕；身处……之中",
+          "context": "身处陌生人中时熟悉者的吸引可能更突出",
+          "example": "She felt reassured by a familiar face when surrounded by strangers.",
+          "collocations": [
+            "surrounded by strangers",
+            "away from familiar places"
+          ]
+        }
+      ],
+      "translation": "我会在 Gilmer Hall 拥抱他吗？绝不可能。因此，当你远离熟悉地点、身处陌生人之中时，一个熟人或熟悉店铺似乎会格外有吸引力。",
+      "support": "explicit",
+      "editorialStatus": "按实际PDF修复相邻单元断句；原字符、源ID与阅读次序保留，旧版本和作答快照不改写。",
+      "sourceSegments": [
+        {
+          "paragraphId": "c10-s07-p114-00750",
+          "start": 478,
+          "end": 660,
+          "separator": "",
+          "text": "Would I ever hug him in Gilmer Hall? No chance. So, a familiar person or store seems to be particularly attractive when you are away from familiar places and surrounded by strangers."
+        }
+      ],
+      "boundaryRepair": "sentence-boundaries-2026-10-25",
+      "fingerprint": "d405d6d938e5f744108b4748132c0e436eaa089fc01eac9d73dfdd4bb82dc57f"
+    },
+    {
+      "id": "qe-c10-0115",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-043",
+      "parentQuestionId": "q-c10-065",
+      "chapterId": "c10",
+      "sectionId": "c10-s07",
+      "paragraphId": "c10-s07-p114-00750",
+      "readingUnitId": "c10-s07-p114-00750-r005-008",
+      "sentenceIds": [
+        "c10-s07-p114-00750-s006",
+        "c10-s07-p114-00750-s007",
+        "c10-s07-p114-00750-s008"
+      ],
+      "passage": "Would I ever hug him in Gilmer Hall? No chance. So, a familiar person or store seems to be particularly attractive when you are away from familiar places and surrounded by strangers.",
+      "prompt": "What contrast is raised by asking whether he would hug the student in Gilmer Hall?",
+      "promptZh": "问是否会在 Gilmer Hall 拥抱学生，提出什么对照？",
+      "options": [
+        "The same familiar person's appeal can differ between a usual setting and an unfamiliar one.",
+        "The student has been proved to be a different person at each location.",
+        "Everyone at every conference must be hugged before speaking.",
+        "The author is asking the user to initiate contact with the student."
+      ],
+      "optionsZh": [
+        "同一熟人在惯常环境与陌生环境中的吸引力可不同。",
+        "证明每个地点的学生其实是不同人。",
+        "每位会议参与者必须先拥抱才能说话。",
+        "作者要求用户与该学生接触。"
+      ],
+      "answer": 0,
+      "type": "作者意图",
+      "support": "explicit",
+      "analyses": [
+        "A 问 Gilmer Hall 后 No chance，再概括离开熟悉地方时熟人更有吸引力，呈现情境差别。",
+        "B him 为同一熟人，不是身份被替换。",
+        "C 自家故事不构成对每位参会者的规则。",
+        "D 书中自问不是网站联系指令；seems 保留个人解释的语气。"
+      ],
+      "vocabulary": [
+        {
+          "word": "away from familiar places",
+          "meaning": "远离熟悉地点；身处陌生环境",
+          "context": "作为熟人或店铺更有吸引力的情境，不是说熟悉的人本身客观改变。",
+          "example": "Away from familiar places, the traveller welcomed a recognisable face.",
+          "collocations": [
+            "away from familiar places",
+            "surrounded by strangers"
+          ]
+        }
+      ],
+      "translation": "我会在 Gilmer Hall 拥抱他吗？绝不可能。因此，当你远离熟悉地点、身处陌生人之中时，一个熟人或熟悉店铺似乎会格外有吸引力。",
+      "evidenceTargetIds": [
+        "c10-s07-p114-00750-s006"
+      ],
+      "evidence": [
+        {
+          "quote": "Would I ever hug him in Gilmer Hall? No chance. So, a familiar person or store seems to be particularly attractive when you are away from familiar places and surrounded by strangers.",
+          "sentenceIds": [
+            "c10-s07-p114-00750-s006",
+            "c10-s07-p114-00750-s007",
+            "c10-s07-p114-00750-s008"
+          ],
+          "sources": [
+            {
+              "pdfPage": 114,
+              "block": 0,
+              "bbox": [
+                76.99,
+                75,
+                535.01,
+                265.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "sourceSegments": [
+        {
+          "paragraphId": "c10-s07-p114-00750",
+          "start": 478,
+          "end": 660,
+          "separator": "",
+          "text": "Would I ever hug him in Gilmer Hall? No chance. So, a familiar person or store seems to be particularly attractive when you are away from familiar places and surrounded by strangers."
+        }
+      ],
+      "fingerprint": "94d57911d33a34d5fb38f027813952c6f371304a6be1ef338d483efe7a3dbb0e"
+    },
+    {
+      "id": "qe-c10-0116",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-043",
+      "parentQuestionId": "q-c10-065",
+      "chapterId": "c10",
+      "sectionId": "c10-s07",
+      "paragraphId": "c10-s07-p114-00750",
+      "readingUnitId": "c10-s07-p114-00750-r005-008",
+      "sentenceIds": [
+        "c10-s07-p114-00750-s006",
+        "c10-s07-p114-00750-s007",
+        "c10-s07-p114-00750-s008"
+      ],
+      "passage": "Would I ever hug him in Gilmer Hall? No chance. So, a familiar person or store seems to be particularly attractive when you are away from familiar places and surrounded by strangers.",
+      "prompt": "How should 'No chance' be read in the response about Gilmer Hall?",
+      "promptZh": "回答 Gilmer Hall 的 No chance 应怎样理解？",
+      "options": [
+        "As a measured zero probability applying to all future human meetings.",
+        "As confirmation that he hugged everyone there daily.",
+        "As an emphatic conversational rejection of that imagined local hug.",
+        "As a statement that the conference had been cancelled."
+      ],
+      "optionsZh": [
+        "作为适用于所有未来见面的测得零概率。",
+        "确认每天拥抱那里每个人。",
+        "对设想中的本地拥抱作口语上的强烈否定。",
+        "表示会议已取消。"
+      ],
+      "answer": 2,
+      "type": "语境词义",
+      "support": "explicit",
+      "analyses": [
+        "A 口语强调不是概率实验的精确全称零。",
+        "B 与 No 的回答及当地平常招呼相反。",
+        "C 紧接 Would I ever hug him in Gilmer Hall，省略回答的动作，不改写成真实已拥抱。",
+        "D 不是会议是否发生的问题；原文片段保留，不扩成普遍社交规则。"
+      ],
+      "vocabulary": [
+        {
+          "word": "No chance",
+          "meaning": "绝不可能；不会（此处为口语强烈否定）",
+          "context": "回答作者设想，区别统计上已测为零或所有人的终身禁令。",
+          "example": "Would the narrator repeat that greeting at home? No chance.",
+          "collocations": [
+            "Would I ever hug him",
+            "No chance"
+          ]
+        }
+      ],
+      "translation": "我会在 Gilmer Hall 拥抱他吗？绝不可能。因此，当你远离熟悉地点、身处陌生人之中时，一个熟人或熟悉店铺似乎会格外有吸引力。",
+      "evidenceTargetIds": [
+        "c10-s07-p114-00750-s007"
+      ],
+      "evidence": [
+        {
+          "quote": "Would I ever hug him in Gilmer Hall? No chance. So, a familiar person or store seems to be particularly attractive when you are away from familiar places and surrounded by strangers.",
+          "sentenceIds": [
+            "c10-s07-p114-00750-s006",
+            "c10-s07-p114-00750-s007",
+            "c10-s07-p114-00750-s008"
+          ],
+          "sources": [
+            {
+              "pdfPage": 114,
+              "block": 0,
+              "bbox": [
+                76.99,
+                75,
+                535.01,
+                265.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "sourceSegments": [
+        {
+          "paragraphId": "c10-s07-p114-00750",
+          "start": 478,
+          "end": 660,
+          "separator": "",
+          "text": "Would I ever hug him in Gilmer Hall? No chance. So, a familiar person or store seems to be particularly attractive when you are away from familiar places and surrounded by strangers."
+        }
+      ],
+      "fingerprint": "bc5e8bad222927ae5ba80cc1d3f36774a3b38bb65466a45eedf8cf28f51807ea"
+    },
+    {
+      "id": "q-c10-068",
+      "version": 1,
+      "readingUnitId": "c10-s07-p114-02700-r002-004",
+      "chapterId": "c10",
+      "sectionId": "c10-s07",
+      "paragraphId": "c10-s07-p114-02700",
+      "sentenceIds": [
+        "c10-s07-p114-02700-s002",
+        "c10-s07-p114-02700-s003",
+        "c10-s07-p114-02700-s004"
+      ],
+      "passage": "We tested whether there were more national chain stores such as Chili’s, Whole Foods, and Payless Shoes in mobile states such as Nevada and Florida than in stable states such as Pennsylvania and West Virginia. The idea is that national chain stores are more familiar than local stores in a new town and offer psychological comfort. If so, national chain stores should be more popular in U.S. states where there are a lot of newcomers, such as Nevada and Florida.",
+      "prompt": "Why were national chains predicted to be more popular in mobile states?",
+      "options": [
+        "They were assumed to sell only local products.",
+        "Their familiarity might offer newcomers psychological comfort.",
+        "They were proven to have lower prices in every state.",
+        "They prevented all residents from moving again."
+      ],
+      "answer": 1,
+      "type": "逻辑关系",
+      "promptZh": "为何预期全国连锁在高流动州更受欢迎？",
+      "optionsZh": [
+        "假设只卖当地产品。",
+        "熟悉感可能给新来者心理安慰。",
+        "已证明各州价格总更低。",
+        "能阻止所有居民再搬家。"
+      ],
+      "analyses": [
+        "A local stores 是比较对象，不是连锁仅售本地产品。",
+        "B more familiar...offer psychological comfort 是提出预测的机制设想。",
+        "C 没比较价格。",
+        "D 没声称店铺阻止搬迁。If so 标记假说推演，当前短段还未报告检验结果。"
+      ],
+      "evidence": [
+        {
+          "quote": "national chain stores are more familiar than local stores in a new town and offer psychological comfort.",
+          "sentenceIds": [
+            "c10-s07-p114-02700-s003"
+          ],
+          "sources": [
+            {
+              "pdfPage": 114,
+              "block": 1,
+              "bbox": [
+                76.99,
+                270,
+                535.01,
+                538.02
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "newcomers",
+          "meaning": "新来者",
+          "context": "新迁入一州或城镇的人，不等于所有居民",
+          "example": "Newcomers often recognize national store names.",
+          "collocations": [
+            "a lot of newcomers",
+            "offer newcomers comfort"
+          ]
+        }
+      ],
+      "translation": "我们检验，Nevada、Florida 等高流动州是否比 Pennsylvania、West Virginia 等稳定州有更多 Chili’s、Whole Foods、Payless Shoes 这样的全国连锁店。想法是，在新城镇，全国连锁比本地店更熟悉，能提供心理安慰。如果如此，连锁应在 Nevada、Florida 这类新来者很多的州更受欢迎。",
+      "support": "explicit",
+      "editorialStatus": "完整PDF111–115原页视觉核对及跨页拼接。词频观察与无意义词、汉字、人像和课堂曝光实验分开；假称Turkish不作真实语言事实；课堂评分量表、出席次数和主观熟悉/明确认识分开，linearly保留作者措辞但不编精确等差。机制实验不把早前观察婚配研究改成随机试验。购物/旅行属个人轶事；普查流动性是代理指标、统计控制非因果保证；成长经历观察与想象工作心态实验分开，every other year译隔年。and almost为既有跨单元句片，保留ID与连续阅读。末段完整审阅含尚未配题结果，不提前倒灌证据，不宣称逐句直接证据全覆盖。",
+      "fingerprint": "1679ace32fd09be5fb28dbc8e706a2f0170799a733a8e25f18eb63c5f4ae6b4a"
+    },
+    {
+      "id": "qe-c10-0117",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-043",
+      "parentQuestionId": "q-c10-068",
+      "chapterId": "c10",
+      "sectionId": "c10-s07",
+      "paragraphId": "c10-s07-p114-02700",
+      "readingUnitId": "c10-s07-p114-02700-r002-004",
+      "sentenceIds": [
+        "c10-s07-p114-02700-s002",
+        "c10-s07-p114-02700-s003",
+        "c10-s07-p114-02700-s004"
+      ],
+      "passage": "We tested whether there were more national chain stores such as Chili’s, Whole Foods, and Payless Shoes in mobile states such as Nevada and Florida than in stable states such as Pennsylvania and West Virginia. The idea is that national chain stores are more familiar than local stores in a new town and offer psychological comfort. If so, national chain stores should be more popular in U.S. states where there are a lot of newcomers, such as Nevada and Florida.",
+      "prompt": "What comparison did the chain-store study test?",
+      "promptZh": "连锁店研究检验什么比较？",
+      "options": [
+        "Whether every local café was owned by Starbucks.",
+        "Whether states with more residential mobility had more national chains than more stable states.",
+        "Whether mobile-phone ownership directly changed every person's marriage choice.",
+        "Whether every state had exactly the same population and income."
+      ],
+      "optionsZh": [
+        "每家本地咖啡店是否都由 Starbucks 持有。",
+        "居住流动较高州是否比稳定州有更多全国连锁店。",
+        "手机拥有是否直接改变每人择偶。",
+        "每州人口收入是否恰好相同。"
+      ],
+      "answer": 1,
+      "type": "研究设计",
+      "support": "explicit",
+      "analyses": [
+        "A 店铺种类或熟悉性对比不是所有权调查。",
+        "B mobile Nevada/Florida 与 stable Pennsylvania/WestVirginia 加 national chains 对应。",
+        "C mobile 指居住搬迁，不是手机。",
+        "D 后面控制人口收入不等于两指标在每州恰一样；不自行说州被随机分派流动程度。"
+      ],
+      "vocabulary": [
+        {
+          "word": "mobile states",
+          "meaning": "人口居住流动性高的州",
+          "context": "不是手机信号州、移动的州或政治阵营标签；与 stable states 相对。",
+          "example": "The study compared mobile states with more residentially stable ones.",
+          "collocations": [
+            "mobile states such as Nevada and Florida",
+            "stable states such as Pennsylvania and West Virginia"
+          ]
+        }
+      ],
+      "translation": "我们检验，Nevada、Florida 等高流动州是否比 Pennsylvania、West Virginia 等稳定州有更多 Chili’s、Whole Foods、Payless Shoes 这样的全国连锁店。想法是，在新城镇，全国连锁比本地店更熟悉，能提供心理安慰。如果如此，连锁应在 Nevada、Florida 这类新来者很多的州更受欢迎。",
+      "evidenceTargetIds": [
+        "c10-s07-p114-02700-s002"
+      ],
+      "evidence": [
+        {
+          "quote": "We tested whether there were more national chain stores such as Chili’s, Whole Foods, and Payless Shoes in mobile states such as Nevada and Florida than in stable states such as Pennsylvania and West Virginia. The idea is that national chain stores are more familiar than local stores in a new town and offer psychological comfort. If so, national chain stores should be more popular in U.S. states where there are a lot of newcomers, such as Nevada and Florida.",
+          "sentenceIds": [
+            "c10-s07-p114-02700-s002",
+            "c10-s07-p114-02700-s003",
+            "c10-s07-p114-02700-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 114,
+              "block": 1,
+              "bbox": [
+                76.99,
+                270,
+                535.01,
+                538.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "6454f6c8a31083b1f85ff70abd9f3246e98d3bf5ec014963d25e7e136a950183"
+    },
+    {
+      "id": "qe-c10-0118",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-043",
+      "parentQuestionId": "q-c10-068",
+      "chapterId": "c10",
+      "sectionId": "c10-s07",
+      "paragraphId": "c10-s07-p114-02700",
+      "readingUnitId": "c10-s07-p114-02700-r002-004",
+      "sentenceIds": [
+        "c10-s07-p114-02700-s002",
+        "c10-s07-p114-02700-s003",
+        "c10-s07-p114-02700-s004"
+      ],
+      "passage": "We tested whether there were more national chain stores such as Chili’s, Whole Foods, and Payless Shoes in mobile states such as Nevada and Florida than in stable states such as Pennsylvania and West Virginia. The idea is that national chain stores are more familiar than local stores in a new town and offer psychological comfort. If so, national chain stores should be more popular in U.S. states where there are a lot of newcomers, such as Nevada and Florida.",
+      "prompt": "What status does 'If so ... should' give the prediction about chains and newcomers?",
+      "promptZh": "If so...should 使连锁店与新来者的说法处于什么性质？",
+      "options": [
+        "A complete denial that familiar stores could offer comfort.",
+        "A new claim that every newcomer has already bought from every chain.",
+        "A current guarantee that all named branches are open.",
+        "A conditional prediction based on familiar chains providing comfort in a new town."
+      ],
+      "optionsZh": [
+        "完全否认熟悉店可带安慰。",
+        "新主张每位新来者已买遍所有连锁。",
+        "保证所列门店现在全营业。",
+        "基于新城镇熟悉连锁提供安慰这一想法的条件性预测。"
+      ],
+      "answer": 3,
+      "type": "研究逻辑",
+      "support": "explicit",
+      "analyses": [
+        "A 前句 idea 正是 more familiar...comfort。",
+        "B popular 不表示每人已光顾每店。",
+        "C 历史研究例不等于当前营业核验。",
+        "D If so 回指解释，should 表预测，不是直接把心理安慰机制写成已经独立全部验证。"
+      ],
+      "vocabulary": [
+        {
+          "word": "newcomers",
+          "meaning": "新来者；刚迁入某地的人",
+          "context": "在本研究与居住流动相关，不是首次购买某平台会员的特定人群。",
+          "example": "Newcomers may recognise a familiar shop sign in an unfamiliar town.",
+          "collocations": [
+            "a lot of newcomers",
+            "should be more popular"
+          ]
+        }
+      ],
+      "translation": "我们检验，Nevada、Florida 等高流动州是否比 Pennsylvania、West Virginia 等稳定州有更多 Chili’s、Whole Foods、Payless Shoes 这样的全国连锁店。想法是，在新城镇，全国连锁比本地店更熟悉，能提供心理安慰。如果如此，连锁应在 Nevada、Florida 这类新来者很多的州更受欢迎。",
+      "evidenceTargetIds": [
+        "c10-s07-p114-02700-s004"
+      ],
+      "evidence": [
+        {
+          "quote": "We tested whether there were more national chain stores such as Chili’s, Whole Foods, and Payless Shoes in mobile states such as Nevada and Florida than in stable states such as Pennsylvania and West Virginia. The idea is that national chain stores are more familiar than local stores in a new town and offer psychological comfort. If so, national chain stores should be more popular in U.S. states where there are a lot of newcomers, such as Nevada and Florida.",
+          "sentenceIds": [
+            "c10-s07-p114-02700-s002",
+            "c10-s07-p114-02700-s003",
+            "c10-s07-p114-02700-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 114,
+              "block": 1,
+              "bbox": [
+                76.99,
+                270,
+                535.01,
+                538.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "bad05d5535e80d185ff9ea47cf331047fd9eaf53a7832721b1b735797492505a"
+    },
+    {
+      "id": "q-c10-069",
+      "version": 1,
+      "readingUnitId": "c10-s07-p114-02700-r005-006",
+      "chapterId": "c10",
+      "sectionId": "c10-s07",
+      "paragraphId": "c10-s07-p114-02700",
+      "sentenceIds": [
+        "c10-s07-p114-02700-s005",
+        "c10-s07-p114-02700-s006"
+      ],
+      "passage": "Sure enough, there are more national chain stores in mobile states than in stable states. This is true even when controlling for median income and the total population (as richer, more populated states would attract more businesses).",
+      "prompt": "What does the statistical adjustment establish in the reported comparison?",
+      "options": [
+        "Income and population explain the entire association.",
+        "All possible confounders have been removed.",
+        "The chain-store difference persists after accounting for median income and population.",
+        "The analysis randomly assigned states to mobility conditions."
+      ],
+      "answer": 2,
+      "type": "推断",
+      "promptZh": "所报统计调整说明什么？",
+      "optionsZh": [
+        "收入人口解释全部关联。",
+        "所有潜在混杂都已消除。",
+        "考虑收入中位数和人口后，连锁数量差异仍在。",
+        "随机把州分配到流动条件。"
+      ],
+      "analyses": [
+        "A true even when controlling 表明考虑两因素后结果仍在。",
+        "B 只列两项控制，不能推成全部混杂排除。",
+        "C 保留结果与控制变量的准确范围。",
+        "D 统计控制不是随机分组，也不能单独证明搬迁导致连锁增长。"
+      ],
+      "evidence": [
+        {
+          "quote": "This is true even when controlling for median income and the total population",
+          "sentenceIds": [
+            "c10-s07-p114-02700-s006"
+          ],
+          "sources": [
+            {
+              "pdfPage": 114,
+              "block": 1,
+              "bbox": [
+                76.99,
+                270,
+                535.01,
+                538.02
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "controlling for",
+          "meaning": "控制；统计上考虑",
+          "context": "分析中考虑收入和人口差异，不是实验操纵两者",
+          "example": "The association remained after controlling for income.",
+          "collocations": [
+            "control for median income",
+            "control for population"
+          ]
+        }
+      ],
+      "translation": "果然，高流动州比稳定州有更多全国连锁店。即使控制收入中位数和总人口，结果仍如此，因为较富、人口较多的州也会吸引更多商家。",
+      "support": "explicit",
+      "editorialStatus": "完整PDF111–115原页视觉核对及跨页拼接。词频观察与无意义词、汉字、人像和课堂曝光实验分开；假称Turkish不作真实语言事实；课堂评分量表、出席次数和主观熟悉/明确认识分开，linearly保留作者措辞但不编精确等差。机制实验不把早前观察婚配研究改成随机试验。购物/旅行属个人轶事；普查流动性是代理指标、统计控制非因果保证；成长经历观察与想象工作心态实验分开，every other year译隔年。and almost为既有跨单元句片，保留ID与连续阅读。末段完整审阅含尚未配题结果，不提前倒灌证据，不宣称逐句直接证据全覆盖。",
+      "fingerprint": "c60324ced1f75c3f23d7cdba7709ca21eae3be9b1d2a97a743a1a5fbf1bb41c6"
+    },
+    {
+      "id": "qe-c10-0119",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-043",
+      "parentQuestionId": "q-c10-069",
+      "chapterId": "c10",
+      "sectionId": "c10-s07",
+      "paragraphId": "c10-s07-p114-02700",
+      "readingUnitId": "c10-s07-p114-02700-r005-006",
+      "sentenceIds": [
+        "c10-s07-p114-02700-s005",
+        "c10-s07-p114-02700-s006"
+      ],
+      "passage": "Sure enough, there are more national chain stores in mobile states than in stable states. This is true even when controlling for median income and the total population (as richer, more populated states would attract more businesses).",
+      "prompt": "What did the state comparison report about national chains?",
+      "promptZh": "州级比较报告全国连锁店怎样？",
+      "options": [
+        "More chains in mobile states than stable states, including after the stated statistical controls.",
+        "Fewer chains in mobile states once all stores were individually randomised.",
+        "No chains in either kind of state.",
+        "Identical counts in all states, with no relationship reported."
+      ],
+      "optionsZh": [
+        "高流动州比稳定州更多，所述统计控制后仍如此。",
+        "逐店随机分派后，高流动州更少。",
+        "两类州都无连锁店。",
+        "各州计数完全同，无关联报告。"
+      ],
+      "answer": 0,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A Sure enough 后明确更多，后句控制 median income 与 total population 仍成立。",
+        "B 方向反了，也没有逐店随机分派。",
+        "C more national chains 不等于两类零。",
+        "D 不同计数不是全同；统计控制不能自动排除所有其他原因或独立证明每位迁居者心理机制。"
+      ],
+      "vocabulary": [
+        {
+          "word": "controlling for",
+          "meaning": "在统计上控制……的影响",
+          "context": "此处收入中位数与人口，非让州收入人口物理完全一样，也非随机化证明所有因果。",
+          "example": "The association remained after controlling for population size.",
+          "collocations": [
+            "controlling for median income",
+            "the total population"
+          ]
+        }
+      ],
+      "translation": "果然，高流动州比稳定州有更多全国连锁店。即使控制收入中位数和总人口，结果仍如此，因为较富、人口较多的州也会吸引更多商家。",
+      "evidenceTargetIds": [
+        "c10-s07-p114-02700-s005"
+      ],
+      "evidence": [
+        {
+          "quote": "Sure enough, there are more national chain stores in mobile states than in stable states. This is true even when controlling for median income and the total population (as richer, more populated states would attract more businesses).",
+          "sentenceIds": [
+            "c10-s07-p114-02700-s005",
+            "c10-s07-p114-02700-s006"
+          ],
+          "sources": [
+            {
+              "pdfPage": 114,
+              "block": 1,
+              "bbox": [
+                76.99,
+                270,
+                535.01,
+                538.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "fedc90895a9d7eaab562a865f9fede0452258cb8507f7b1f783d2fe337ea2fa8"
+    },
+    {
+      "id": "q-c10-073",
+      "version": 1,
+      "readingUnitId": "c10-s07-p115-01140-r001-003",
+      "chapterId": "c10",
+      "sectionId": "c10-s07",
+      "paragraphId": "c10-s07-p115-01140",
+      "sentenceIds": [
+        "c10-s07-p115-01140-s001",
+        "c10-s07-p115-01140-s002",
+        "c10-s07-p115-01140-s003"
+      ],
+      "passage": "In all three conditions, we observed the mere exposure effect, replicating the earlier findings. Most importantly, though, we found that in the residential mobility condition participants showed a particularly strong familiarity-liking effect. That is, when they thought about moving around frequently in the future, they liked a familiar Chinese character or a familiar face more than when they thought about staying in one place for a long time or about a typical day.",
+      "prompt": "Which condition produced a particularly strong familiarity-liking effect?",
+      "options": [
+        "Imagining a typical day.",
+        "Imagining staying in one place.",
+        "Imagining frequent future moves.",
+        "Every condition produced an identical effect."
+      ],
+      "answer": 2,
+      "type": "细节",
+      "promptZh": "哪个条件下熟悉与喜欢的效应特别强？",
+      "optionsZh": [
+        "想象普通一天。",
+        "想象长期定居。",
+        "想象未来频繁搬迁。",
+        "各条件效应完全相同。"
+      ],
+      "analyses": [
+        "A 是比较条件之一，非特别强者。",
+        "B 长期稳定条件比搬迁条件弱。",
+        "C thought about moving around frequently 与更喜欢熟悉刺激对应。",
+        "D all three 有效应不等于强度相同。实验操纵想象心态，不是让参与者真实多年搬家。"
+      ],
+      "evidence": [
+        {
+          "quote": "in the residential mobility condition participants showed a particularly strong familiarity-liking effect.",
+          "sentenceIds": [
+            "c10-s07-p115-01140-s002"
+          ],
+          "sources": [
+            {
+              "pdfPage": 115,
+              "block": 1,
+              "bbox": [
+                76.99,
+                114,
+                535.01,
+                323.52
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "particularly",
+          "meaning": "尤其；特别",
+          "context": "强调搬迁心态条件效应较强，不否认其他组也有",
+          "example": "The effect was particularly strong in the new setting.",
+          "collocations": [
+            "particularly strong",
+            "particularly attractive"
+          ]
+        }
+      ],
+      "translation": "三个条件下都观察到单纯曝光效应，复现此前发现。不过最重要的是，居住流动条件下，参与者表现出特别强的熟悉—喜欢效应。也就是说，想象未来频繁搬迁时，比起想象长期留在一处或普通一天，他们更喜欢熟悉汉字或熟悉面孔。",
+      "support": "explicit",
+      "editorialStatus": "完整PDF115–118原页视觉核对与跨页拼接。搬迁心态实验区别真实迁居，焦虑用词相关不冒充独立随机中介操纵；Bates和购房经历为作者轶事，节目仅限作者观看且非盲评。杯子先设想后述实验典型结果，主观所有权估值非客观市价必升；零食计划与一次购买分开。英镑期望值非保证收益，原书称loss aversion但当前正向收益例不编损失条件、不视作独立证明；条件式舒适区论证不扩为无条件冒险。保留旧题和句界，不宣称逐句证据全覆盖。",
+      "fingerprint": "ed52185500ca65f13af8df5827a5a23cef81cc701be28c501f70504a96f463a3"
+    },
+    {
+      "id": "qe-c10-0120",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-043",
+      "parentQuestionId": "q-c10-073",
+      "chapterId": "c10",
+      "sectionId": "c10-s07",
+      "paragraphId": "c10-s07-p115-01140",
+      "readingUnitId": "c10-s07-p115-01140-r001-003",
+      "sentenceIds": [
+        "c10-s07-p115-01140-s001",
+        "c10-s07-p115-01140-s002",
+        "c10-s07-p115-01140-s003"
+      ],
+      "passage": "In all three conditions, we observed the mere exposure effect, replicating the earlier findings. Most importantly, though, we found that in the residential mobility condition participants showed a particularly strong familiarity-liking effect. That is, when they thought about moving around frequently in the future, they liked a familiar Chinese character or a familiar face more than when they thought about staying in one place for a long time or about a typical day.",
+      "prompt": "What does observing the effect 'in all three conditions' establish?",
+      "promptZh": "all three conditions 都观察到效应，确立什么？",
+      "options": [
+        "Every condition had exactly identical effect strength.",
+        "The mobility condition was the only one showing any exposure effect.",
+        "The general exposure pattern appeared in all conditions, while its strength could still differ.",
+        "All participants had actually relocated three times."
+      ],
+      "optionsZh": [
+        "每条件效应强度完全相同。",
+        "只有搬迁条件存在任何曝光效应。",
+        "各条件都有一般曝光模式，但强度仍可不同。",
+        "所有参与者实际都搬家三次。"
+      ],
+      "answer": 2,
+      "type": "语气与范围",
+      "support": "explicit",
+      "analyses": [
+        "A 下一句 particularly strong in mobility 明确强度差别。",
+        "B all three 不能只保留一个。",
+        "C 复现一般模式与某条件增强可同时成立，不混同有效与等强。",
+        "D 条件为想象情境，非实际搬家次数。"
+      ],
+      "vocabulary": [
+        {
+          "word": "conditions",
+          "meaning": "实验条件；分组情境",
+          "context": "本段三个思考情境，不是三次实际搬家或每个参与者都经历三种人生。",
+          "example": "The response appeared in all three conditions, but varied in strength.",
+          "collocations": [
+            "In all three conditions",
+            "residential mobility condition"
+          ]
+        }
+      ],
+      "translation": "三个条件下都观察到单纯曝光效应，复现此前发现。不过最重要的是，居住流动条件下，参与者表现出特别强的熟悉—喜欢效应。也就是说，想象未来频繁搬迁时，比起想象长期留在一处或普通一天，他们更喜欢熟悉汉字或熟悉面孔。",
+      "evidenceTargetIds": [
+        "c10-s07-p115-01140-s001"
+      ],
+      "evidence": [
+        {
+          "quote": "In all three conditions, we observed the mere exposure effect, replicating the earlier findings. Most importantly, though, we found that in the residential mobility condition participants showed a particularly strong familiarity-liking effect. That is, when they thought about moving around frequently in the future, they liked a familiar Chinese character or a familiar face more than when they thought about staying in one place for a long time or about a typical day.",
+          "sentenceIds": [
+            "c10-s07-p115-01140-s001",
+            "c10-s07-p115-01140-s002",
+            "c10-s07-p115-01140-s003"
+          ],
+          "sources": [
+            {
+              "pdfPage": 115,
+              "block": 1,
+              "bbox": [
+                76.99,
+                114,
+                535.01,
+                323.52
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "ef109126ed79a78128227e5c490ce4d27ce7d4ad8fdbdc917d32432d028e93b4"
+    },
+    {
+      "id": "qe-c10-0121",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-043",
+      "parentQuestionId": "q-c10-073",
+      "chapterId": "c10",
+      "sectionId": "c10-s07",
+      "paragraphId": "c10-s07-p115-01140",
+      "readingUnitId": "c10-s07-p115-01140-r001-003",
+      "sentenceIds": [
+        "c10-s07-p115-01140-s001",
+        "c10-s07-p115-01140-s002",
+        "c10-s07-p115-01140-s003"
+      ],
+      "passage": "In all three conditions, we observed the mere exposure effect, replicating the earlier findings. Most importantly, though, we found that in the residential mobility condition participants showed a particularly strong familiarity-liking effect. That is, when they thought about moving around frequently in the future, they liked a familiar Chinese character or a familiar face more than when they thought about staying in one place for a long time or about a typical day.",
+      "prompt": "What distinguishes the stronger-liking condition in the explanatory sentence?",
+      "promptZh": "解释句中，更强喜欢反应的条件有什么特点？",
+      "options": [
+        "Participants were physically forced to move to a new city during the experiment.",
+        "Participants thought about frequent future moves rather than staying put or an ordinary day.",
+        "The familiar faces were guaranteed to be personal friends of every participant.",
+        "Participants were asked only about the current price of a Chinese painting."
+      ],
+      "optionsZh": [
+        "实验中被实际强迫迁入新城。",
+        "想象未来频繁搬迁，而非长期原地或普通一天。",
+        "熟悉面孔保证是每位参与者私人朋友。",
+        "只问中国画当前价格。"
+      ],
+      "answer": 1,
+      "type": "研究设计",
+      "support": "explicit",
+      "analyses": [
+        "A thought about 不是真迁居。",
+        "B when they thought...future 与另外两个条件直接对比，材料是熟悉汉字或面孔。",
+        "C familiar stimuli 不等于私交朋友。",
+        "D 没有画价任务；思维操纵不代表参与者真实未来一定搬迁。"
+      ],
+      "vocabulary": [
+        {
+          "word": "thought about",
+          "meaning": "想象；思考某种情境",
+          "context": "这里是研究操纵的未来生活设想，非已经发生的搬家记录。",
+          "example": "The group thought about living in one place for many years.",
+          "collocations": [
+            "thought about moving around frequently",
+            "in the future"
+          ]
+        }
+      ],
+      "translation": "三个条件下都观察到单纯曝光效应，复现此前发现。不过最重要的是，居住流动条件下，参与者表现出特别强的熟悉—喜欢效应。也就是说，想象未来频繁搬迁时，比起想象长期留在一处或普通一天，他们更喜欢熟悉汉字或熟悉面孔。",
+      "evidenceTargetIds": [
+        "c10-s07-p115-01140-s003"
+      ],
+      "evidence": [
+        {
+          "quote": "In all three conditions, we observed the mere exposure effect, replicating the earlier findings. Most importantly, though, we found that in the residential mobility condition participants showed a particularly strong familiarity-liking effect. That is, when they thought about moving around frequently in the future, they liked a familiar Chinese character or a familiar face more than when they thought about staying in one place for a long time or about a typical day.",
+          "sentenceIds": [
+            "c10-s07-p115-01140-s001",
+            "c10-s07-p115-01140-s002",
+            "c10-s07-p115-01140-s003"
+          ],
+          "sources": [
+            {
+              "pdfPage": 115,
+              "block": 1,
+              "bbox": [
+                76.99,
+                114,
+                535.01,
+                323.52
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "49f284de0e7d01ff28276c21afc121af130a7a4efa7c9ad0bbf7fc0ee5499743"
+    },
+    {
+      "id": "q-c10-074",
+      "version": 1,
+      "readingUnitId": "c10-s07-p115-01140-r004-005",
+      "chapterId": "c10",
+      "sectionId": "c10-s07",
+      "paragraphId": "c10-s07-p115-01140",
+      "sentenceIds": [
+        "c10-s07-p115-01140-s004",
+        "c10-s07-p115-01140-s005"
+      ],
+      "passage": "It turned out that those in the mobility condition used more anxiety-related words while describing their future mobile lives than those in the stability or the control conditions, and that the more anxiety-related words participants used, the stronger familiarity-liking effect they showed. In other words, stress and anxiety amplify our tendency to like a familiar object.",
+      "prompt": "What relationship was reported between anxiety-related language and the effect?",
+      "options": [
+        "More anxiety-related words accompanied a stronger familiarity-liking effect.",
+        "More anxiety words accompanied a weaker effect.",
+        "All conditions used the same number of anxiety words.",
+        "Anxiety words were independently assigned to each person."
+      ],
+      "answer": 0,
+      "type": "细节",
+      "promptZh": "焦虑相关用词与效应之间报告什么关系？",
+      "optionsZh": [
+        "焦虑词更多伴随更强熟悉偏好。",
+        "焦虑词更多伴随更弱效应。",
+        "各组焦虑词数量相同。",
+        "焦虑词被独立随机分配给各人。"
+      ],
+      "analyses": [
+        "A the more...the stronger 明确同向关系。",
+        "B 方向反转。",
+        "C mobility condition 用词比另两组多。",
+        "D 用词是描述未来生活时观察到的，不是此处独立操纵的焦虑剂量。作者随后概括压力焦虑作用，不能将用词相关单独改成已随机验证的中介因果。"
+      ],
+      "evidence": [
+        {
+          "quote": "the more anxiety-related words participants used, the stronger familiarity-liking effect they showed.",
+          "sentenceIds": [
+            "c10-s07-p115-01140-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 115,
+              "block": 1,
+              "bbox": [
+                76.99,
+                114,
+                535.01,
+                323.52
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "amplify",
+          "meaning": "增强；放大",
+          "context": "作者以此概括压力焦虑下熟悉偏好的增强",
+          "example": "Uncertainty may amplify a preference for familiar routines.",
+          "collocations": [
+            "amplify a tendency",
+            "amplify an effect"
+          ]
+        }
+      ],
+      "translation": "结果，搬迁条件参与者描述未来流动生活时，比稳定组或控制组使用更多焦虑相关词；用这类词越多，熟悉—喜欢效应越强。换言之，压力与焦虑会增强我们喜欢熟悉事物的倾向。",
+      "support": "explicit",
+      "editorialStatus": "完整PDF115–118原页视觉核对与跨页拼接。搬迁心态实验区别真实迁居，焦虑用词相关不冒充独立随机中介操纵；Bates和购房经历为作者轶事，节目仅限作者观看且非盲评。杯子先设想后述实验典型结果，主观所有权估值非客观市价必升；零食计划与一次购买分开。英镑期望值非保证收益，原书称loss aversion但当前正向收益例不编损失条件、不视作独立证明；条件式舒适区论证不扩为无条件冒险。保留旧题和句界，不宣称逐句证据全覆盖。",
+      "fingerprint": "9cdad90965f3939244a9ca8d9aaad8d8745095fa27024488f563d31d782ba7f1"
+    },
+    {
+      "id": "qe-c10-0122",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-043",
+      "parentQuestionId": "q-c10-074",
+      "chapterId": "c10",
+      "sectionId": "c10-s07",
+      "paragraphId": "c10-s07-p115-01140",
+      "readingUnitId": "c10-s07-p115-01140-r004-005",
+      "sentenceIds": [
+        "c10-s07-p115-01140-s004",
+        "c10-s07-p115-01140-s005"
+      ],
+      "passage": "It turned out that those in the mobility condition used more anxiety-related words while describing their future mobile lives than those in the stability or the control conditions, and that the more anxiety-related words participants used, the stronger familiarity-liking effect they showed. In other words, stress and anxiety amplify our tendency to like a familiar object.",
+      "prompt": "How is the stress-and-anxiety sentence connected to the preceding result?",
+      "promptZh": "压力焦虑句与前面结果如何相连？",
+      "options": [
+        "It proves a clinical diagnosis for every participant.",
+        "It reverses the reported relation so more anxiety words mean weaker familiarity preference.",
+        "It reports that stress was independently eliminated in all conditions.",
+        "It restates the author's interpretation of stronger familiarity preference alongside more anxiety-related language."
+      ],
+      "optionsZh": [
+        "证明每个参与者临床诊断。",
+        "反转为焦虑词越多、熟悉偏好越弱。",
+        "报告所有条件压力均被独立消除。",
+        "重述作者对更多焦虑语言伴随更强熟悉偏好的解释。"
+      ],
+      "answer": 3,
+      "type": "研究解释",
+      "support": "explicit",
+      "analyses": [
+        "A anxiety-related words 不等于诊断焦虑障碍。",
+        "B stronger 方向不能反写。",
+        "C 没有压力消除治疗或操纵的说明。",
+        "D In other words 接作者机制性解释；焦虑词与效应强度关联不单独证明压力是排除一切他因的唯一原因。"
+      ],
+      "vocabulary": [
+        {
+          "word": "amplify",
+          "meaning": "增强；放大",
+          "context": "在此描述熟悉偏好的强度，不是所有物体客观价值或安全性都提高。",
+          "example": "The context appeared to amplify the preference for familiar images.",
+          "collocations": [
+            "stress and anxiety amplify",
+            "our tendency to like a familiar object"
+          ]
+        }
+      ],
+      "translation": "结果，搬迁条件参与者描述未来流动生活时，比稳定组或控制组使用更多焦虑相关词；用这类词越多，熟悉—喜欢效应越强。换言之，压力与焦虑会增强我们喜欢熟悉事物的倾向。",
+      "evidenceTargetIds": [
+        "c10-s07-p115-01140-s005"
+      ],
+      "evidence": [
+        {
+          "quote": "It turned out that those in the mobility condition used more anxiety-related words while describing their future mobile lives than those in the stability or the control conditions, and that the more anxiety-related words participants used, the stronger familiarity-liking effect they showed. In other words, stress and anxiety amplify our tendency to like a familiar object.",
+          "sentenceIds": [
+            "c10-s07-p115-01140-s004",
+            "c10-s07-p115-01140-s005"
+          ],
+          "sources": [
+            {
+              "pdfPage": 115,
+              "block": 1,
+              "bbox": [
+                76.99,
+                114,
+                535.01,
+                323.52
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "d60a9f6ce1e9085c1b2c36d4060d0bef530670b932bdc4d3b1bc709e794e4a08"
+    },
+    {
+      "id": "q-c10-075",
+      "version": 1,
+      "readingUnitId": "c10-s07-p115-03285-r001-004",
+      "chapterId": "c10",
+      "sectionId": "c10-s07",
+      "paragraphId": "c10-s07-p115-03285",
+      "sentenceIds": [
+        "c10-s07-p115-03285-s001",
+        "c10-s07-p115-03285-s002",
+        "c10-s07-p115-03285-s003",
+        "c10-s07-p115-03285-s004"
+      ],
+      "passage": "The mere exposure effect is a replicable phenomenon and fun to read about. But let’s think about its implications critically. What about the secretary problem as it applies to finding a partner? You are supposed to explore unfamiliar candidates before settling down in order to make an optimal decision.",
+      "prompt": "Why does the author return to the secretary problem?",
+      "options": [
+        "To deny that exposure effects can be replicated.",
+        "To present a new marriage experiment here.",
+        "To claim familiarity always produces optimal decisions.",
+        "To critically examine what familiarity implies for exploring potential partners."
+      ],
+      "answer": 3,
+      "type": "作者意图",
+      "promptZh": "作者为何回到秘书问题？",
+      "optionsZh": [
+        "否认曝光效应可复现。",
+        "在此报告新婚姻实验。",
+        "声称熟悉总带来最优选择。",
+        "批判思考熟悉偏好对探索潜在伴侣的含义。"
+      ],
+      "analyses": [
+        "A 开头明确 replicable。",
+        "B 当前是联系决策模型的讨论，非新试验。",
+        "C 应先探索陌生候选，恰提示熟悉偏好的局限。",
+        "D critically 与 partner 设问引出应用层面反思；模型建议不等于现实婚恋保证。"
+      ],
+      "evidence": [
+        {
+          "quote": "But let’s think about its implications critically.",
+          "sentenceIds": [
+            "c10-s07-p115-03285-s002"
+          ],
+          "sources": [
+            {
+              "pdfPage": 115,
+              "block": 2,
+              "bbox": [
+                76.99,
+                328.5,
+                535.01,
+                538.02
+              ]
+            }
+          ]
+        },
+        {
+          "quote": "explore unfamiliar candidates before settling down",
+          "sentenceIds": [
+            "c10-s07-p115-03285-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 115,
+              "block": 2,
+              "bbox": [
+                76.99,
+                328.5,
+                535.01,
+                538.02
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "implications",
+          "meaning": "含义；可能影响",
+          "context": "研究现象对实际决策意味着什么",
+          "example": "The team discussed the implications for everyday choices.",
+          "collocations": [
+            "practical implications",
+            "think about implications critically"
+          ]
+        }
+      ],
+      "translation": "单纯曝光效应可重复验证，读起来也有趣。但让我们批判地思考它的含义。秘书问题应用到寻找伴侣会如何？为作最优决定，你本应先探索陌生候选，再安定下来。",
+      "support": "explicit",
+      "editorialStatus": "完整PDF115–118原页视觉核对与跨页拼接。搬迁心态实验区别真实迁居，焦虑用词相关不冒充独立随机中介操纵；Bates和购房经历为作者轶事，节目仅限作者观看且非盲评。杯子先设想后述实验典型结果，主观所有权估值非客观市价必升；零食计划与一次购买分开。英镑期望值非保证收益，原书称loss aversion但当前正向收益例不编损失条件、不视作独立证明；条件式舒适区论证不扩为无条件冒险。保留旧题和句界，不宣称逐句证据全覆盖。",
+      "fingerprint": "6ad38824d822e298350d220fa016d3fdf1aff301549bad2e7a8e23f2af705fb0"
+    },
+    {
+      "id": "qe-c10-0123",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-043",
+      "parentQuestionId": "q-c10-075",
+      "chapterId": "c10",
+      "sectionId": "c10-s07",
+      "paragraphId": "c10-s07-p115-03285",
+      "readingUnitId": "c10-s07-p115-03285-r001-004",
+      "sentenceIds": [
+        "c10-s07-p115-03285-s001",
+        "c10-s07-p115-03285-s002",
+        "c10-s07-p115-03285-s003",
+        "c10-s07-p115-03285-s004"
+      ],
+      "passage": "The mere exposure effect is a replicable phenomenon and fun to read about. But let’s think about its implications critically. What about the secretary problem as it applies to finding a partner? You are supposed to explore unfamiliar candidates before settling down in order to make an optimal decision.",
+      "prompt": "How does calling the effect 'replicable' fit the next sentence?",
+      "promptZh": "称效应 replicable 与下一句怎样配合？",
+      "options": [
+        "The author acknowledges repeated findings but then asks readers to consider their implications critically.",
+        "Replicable means its implications must never be questioned.",
+        "It declares every prior experiment false.",
+        "It guarantees the effect alone produces the best choice in every real situation."
+      ],
+      "optionsZh": [
+        "作者承认可复现发现，继而要求批判思考其含义。",
+        "可复现意味着其含义绝不许质疑。",
+        "宣告此前每项实验都虚假。",
+        "保证效应单独令每个现实情境都最佳选择。"
+      ],
+      "answer": 0,
+      "type": "篇章结构",
+      "support": "explicit",
+      "analyses": [
+        "A 先肯定 replicable/fun，再 But think implications critically，区别存在效应与其是否总有益。",
+        "B 可复现不免于评估后果。",
+        "C critical 不是否认所有资料。",
+        "D 接着秘书问题讨论熟悉偏好可能限制探索，非总最优保证。"
+      ],
+      "vocabulary": [
+        {
+          "word": "replicable",
+          "meaning": "可复现的；可重复得到相应模式的",
+          "context": "不等于每个含义都无条件有益，也不替代当前研究范围限制。",
+          "example": "The authors describe a replicable pattern while questioning its consequences.",
+          "collocations": [
+            "a replicable phenomenon",
+            "implications critically"
+          ]
+        }
+      ],
+      "translation": "单纯曝光效应可重复验证，读起来也有趣。但让我们批判地思考它的含义。秘书问题应用到寻找伴侣会如何？为作最优决定，你本应先探索陌生候选，再安定下来。",
+      "evidenceTargetIds": [
+        "c10-s07-p115-03285-s001"
+      ],
+      "evidence": [
+        {
+          "quote": "The mere exposure effect is a replicable phenomenon and fun to read about. But let’s think about its implications critically. What about the secretary problem as it applies to finding a partner? You are supposed to explore unfamiliar candidates before settling down in order to make an optimal decision.",
+          "sentenceIds": [
+            "c10-s07-p115-03285-s001",
+            "c10-s07-p115-03285-s002",
+            "c10-s07-p115-03285-s003",
+            "c10-s07-p115-03285-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 115,
+              "block": 2,
+              "bbox": [
+                76.99,
+                328.5,
+                535.01,
+                538.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "3fe9a77d35b2db8a527ee138d5d12ba34f1c4a885e52473faebade9dd1d47b42"
+    },
+    {
+      "id": "qe-c10-0124",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-043",
+      "parentQuestionId": "q-c10-075",
+      "chapterId": "c10",
+      "sectionId": "c10-s07",
+      "paragraphId": "c10-s07-p115-03285",
+      "readingUnitId": "c10-s07-p115-03285-r001-004",
+      "sentenceIds": [
+        "c10-s07-p115-03285-s001",
+        "c10-s07-p115-03285-s002",
+        "c10-s07-p115-03285-s003",
+        "c10-s07-p115-03285-s004"
+      ],
+      "passage": "The mere exposure effect is a replicable phenomenon and fun to read about. But let’s think about its implications critically. What about the secretary problem as it applies to finding a partner? You are supposed to explore unfamiliar candidates before settling down in order to make an optimal decision.",
+      "prompt": "Why return to the secretary problem after the familiarity results?",
+      "promptZh": "熟悉感结果后为何回到秘书问题？",
+      "options": [
+        "To state that no choice requires considering any unfamiliar option.",
+        "To say every participant has already been hired as a secretary.",
+        "To consider a tension between liking familiarity and exploring unfamiliar options before committing.",
+        "To replace the entire discussion with a current job advertisement."
+      ],
+      "optionsZh": [
+        "表示任何选择都无需考虑陌生选项。",
+        "说每位参与者已当秘书被雇。",
+        "考察喜欢熟悉事物与定下来前探索陌生选项的张力。",
+        "以当前招聘广告替代整段讨论。"
+      ],
+      "answer": 2,
+      "type": "作者意图",
+      "support": "explicit",
+      "analyses": [
+        "A 后句 supposed to explore unfamiliar 明说相反。",
+        "B secretary problem 为模型名，不是研究者聘用了每人。",
+        "C 问句应用择偶，再与先探索要求相连，承接 critical implications。",
+        "D 不是现实招聘或网站要执行的外部操作；不保证用该模型即可择到唯一最佳。"
+      ],
+      "vocabulary": [
+        {
+          "word": "as it applies to",
+          "meaning": "当它应用于……时；就其在……中的应用而言",
+          "context": "把模型放入找伴侣的讨论，不把模型等同真实关系全貌。",
+          "example": "The essay considers the rule as it applies to everyday choices.",
+          "collocations": [
+            "the secretary problem as it applies to finding a partner",
+            "explore unfamiliar candidates"
+          ]
+        }
+      ],
+      "translation": "单纯曝光效应可重复验证，读起来也有趣。但让我们批判地思考它的含义。秘书问题应用到寻找伴侣会如何？为作最优决定，你本应先探索陌生候选，再安定下来。",
+      "evidenceTargetIds": [
+        "c10-s07-p115-03285-s003"
+      ],
+      "evidence": [
+        {
+          "quote": "The mere exposure effect is a replicable phenomenon and fun to read about. But let’s think about its implications critically. What about the secretary problem as it applies to finding a partner? You are supposed to explore unfamiliar candidates before settling down in order to make an optimal decision.",
+          "sentenceIds": [
+            "c10-s07-p115-03285-s001",
+            "c10-s07-p115-03285-s002",
+            "c10-s07-p115-03285-s003",
+            "c10-s07-p115-03285-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 115,
+              "block": 2,
+              "bbox": [
+                76.99,
+                328.5,
+                535.01,
+                538.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "a01ad994ed334c432f336835a1f1bbcc5cea933ad087126745957290b1bb4d52"
+    }
+  ]
+}
