@@ -1,0 +1,1717 @@
+{
+  "schemaVersion": 1,
+  "batchId": "question-review-2026-10-28-045",
+  "sourceCommit": "ba46c9e045a7b04df5e1d095aa52eb700523114c",
+  "pdfSha256": "be25c859f1bd894a4b0d1cff024ded1297f6a96a8e8ddabea1e3abcf89160a50",
+  "frozenAt": "2026-10-29T03:39:05.145Z",
+  "questions": [
+    {
+      "id": "qe-c05-0053",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-015",
+      "parentQuestionId": "q-c05-033",
+      "chapterId": "c05",
+      "sectionId": "c05-s04",
+      "paragraphId": "c05-s04-p048-06525",
+      "readingUnitId": "c05-s04-p048-06525-r005-008",
+      "sentenceIds": [
+        "c05-s04-p048-06525-s005",
+        "c05-s04-p048-06525-s006",
+        "c05-s04-p048-06525-s007",
+        "c05-s04-p048-06525-s008"
+      ],
+      "passage": "Consequently, it is harder for students from a lower socioeconomic status to participate. I couldn’t have done it myself if I hadn’t gotten the Rotary International scholarship (which paid for full tuition, room and board, textbooks, round-trip airfare, and even a one-month summer English class!). When I got this scholarship, I asked my undergraduate advisor, Professor Hara, where I should go. He was a big fan of liberal arts colleges and recommended three in Maine.",
+      "prompt": "How is participation characterised for students with lower socioeconomic status?",
+      "promptZh": "对于社会经济地位较低的学生，原文怎样描述参与留学？",
+      "options": [
+        "Automatically easier because everyone receives full funding.",
+        "Formally prohibited by every university.",
+        "Evidence that they have lower academic ability.",
+        "Harder, without saying it is impossible or judging their ability."
+      ],
+      "optionsZh": [
+        "所有人都全额资助，所以自动更容易。",
+        "每所大学都正式禁止。",
+        "证明其学术能力较低。",
+        "更困难，但没有说不可能或评价其能力。"
+      ],
+      "answer": 3,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A 作者自己的奖学金不能扩大到所有人都有。",
+        "B harder 不等于正式禁令。",
+        "C 参与障碍不能改成智力或学术能力诊断。",
+        "D it is harder...to participate 保留比较程度，后面奖学金经历体现资源条件，而非绝对不可能。"
+      ],
+      "vocabulary": [
+        {
+          "word": "socioeconomic status",
+          "meaning": "社会经济地位",
+          "context": "这里与参与留学的资源障碍有关，不应转为能力或道德的优劣标签。",
+          "example": "The fictional survey considered socioeconomic status as one background variable.",
+          "collocations": [
+            "lower socioeconomic status",
+            "students from different socioeconomic backgrounds"
+          ]
+        }
+      ],
+      "translation": "因此，社会经济地位较低的学生更难参加。如果没获得 Rotary International 奖学金，我自己也做不到；它支付了全部学费、食宿、教材、往返机票，甚至一个月的暑期英语课！获得奖学金后，我问本科导师 Hara 教授该去哪里。他很推崇文理学院，推荐了缅因州的三所。",
+      "evidenceTargetIds": [
+        "c05-s04-p048-06525-s005"
+      ],
+      "evidence": [
+        {
+          "quote": "Consequently, it is harder for students from a lower socioeconomic status to participate.",
+          "sentenceIds": [
+            "c05-s04-p048-06525-s005"
+          ],
+          "sources": [
+            {
+              "pdfPage": 48,
+              "block": 5,
+              "bbox": [
+                76.99,
+                652.5,
+                535,
+                706.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "89d30e9df55a211f7b3dbfa2948d2f374f7a1052e875e0200f890551e7928c58"
+    },
+    {
+      "id": "qe-c05-0054",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-015",
+      "parentQuestionId": "q-c05-033",
+      "chapterId": "c05",
+      "sectionId": "c05-s04",
+      "paragraphId": "c05-s04-p048-06525",
+      "readingUnitId": "c05-s04-p048-06525-r005-008",
+      "sentenceIds": [
+        "c05-s04-p048-06525-s005",
+        "c05-s04-p048-06525-s006",
+        "c05-s04-p048-06525-s007",
+        "c05-s04-p048-06525-s008"
+      ],
+      "passage": "Consequently, it is harder for students from a lower socioeconomic status to participate. I couldn’t have done it myself if I hadn’t gotten the Rotary International scholarship (which paid for full tuition, room and board, textbooks, round-trip airfare, and even a one-month summer English class!). When I got this scholarship, I asked my undergraduate advisor, Professor Hara, where I should go. He was a big fan of liberal arts colleges and recommended three in Maine.",
+      "prompt": "Whom did the narrator consult after receiving the scholarship, and about what?",
+      "promptZh": "获奖学金后，作者请教谁、询问什么？",
+      "options": [
+        "Professor Hara about his favourite jazz musician.",
+        "Professor Hara about where he should study.",
+        "Dean Reese about which scholarship he should apply for.",
+        "A dormitory manager about the exact cost of every room."
+      ],
+      "optionsZh": [
+        "问 Hara 教授最喜欢的爵士乐手。",
+        "问 Hara 教授应该去哪里学习。",
+        "问 Reese 院长应该申请哪项奖学金。",
+        "问宿舍管理员每个房间确切费用。"
+      ],
+      "answer": 1,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A 音乐谈话属于后面与 Reese 的另一场景。",
+        "B asked my undergraduate advisor, Professor Hara, where I should go 明示对象和问题。",
+        "C 已经得到奖学金后请教去向，不能换成申请奖项及另一个人。",
+        "D 没有宿舍管理员的逐房费用询问。"
+      ],
+      "vocabulary": [
+        {
+          "word": "undergraduate advisor",
+          "meaning": "本科导师；本科阶段的指导教师",
+          "context": "明确 Hara 的关系，不是后面机场接人的院长或 Gopnik 的历史专家。",
+          "example": "Her undergraduate advisor suggested several possible courses.",
+          "collocations": [
+            "ask an undergraduate advisor",
+            "consult one's advisor"
+          ]
+        }
+      ],
+      "translation": "因此，社会经济地位较低的学生更难参加。如果没获得 Rotary International 奖学金，我自己也做不到；它支付了全部学费、食宿、教材、往返机票，甚至一个月的暑期英语课！获得奖学金后，我问本科导师 Hara 教授该去哪里。他很推崇文理学院，推荐了缅因州的三所。",
+      "evidenceTargetIds": [
+        "c05-s04-p048-06525-s007"
+      ],
+      "evidence": [
+        {
+          "quote": "When I got this scholarship, I asked my undergraduate advisor, Professor Hara, where I should go.",
+          "sentenceIds": [
+            "c05-s04-p048-06525-s007"
+          ],
+          "sources": [
+            {
+              "pdfPage": 49,
+              "block": 0,
+              "bbox": [
+                76.99,
+                75,
+                535.01,
+                421.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "7a1c81d298f6e679fb2e7dcc867b832d67e44c1375e30abac5836704b37d1aa9"
+    },
+    {
+      "id": "qe-c05-0055",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-015",
+      "parentQuestionId": "q-c05-033",
+      "chapterId": "c05",
+      "sectionId": "c05-s04",
+      "paragraphId": "c05-s04-p048-06525",
+      "readingUnitId": "c05-s04-p048-06525-r005-008",
+      "sentenceIds": [
+        "c05-s04-p048-06525-s005",
+        "c05-s04-p048-06525-s006",
+        "c05-s04-p048-06525-s007",
+        "c05-s04-p048-06525-s008"
+      ],
+      "passage": "Consequently, it is harder for students from a lower socioeconomic status to participate. I couldn’t have done it myself if I hadn’t gotten the Rotary International scholarship (which paid for full tuition, room and board, textbooks, round-trip airfare, and even a one-month summer English class!). When I got this scholarship, I asked my undergraduate advisor, Professor Hara, where I should go. He was a big fan of liberal arts colleges and recommended three in Maine.",
+      "prompt": "What did Professor Hara recommend?",
+      "promptZh": "Hara 教授推荐了什么？",
+      "options": [
+        "Three liberal arts colleges in Maine.",
+        "Three universities in Tokyo.",
+        "One liberal arts college in New York City.",
+        "Three technical institutes in California."
+      ],
+      "optionsZh": [
+        "缅因州三所文理学院。",
+        "东京三所大学。",
+        "纽约市一所文理学院。",
+        "加州三所技术学院。"
+      ],
+      "answer": 0,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A recommended three in Maine 中 three 承接 liberal arts colleges。",
+        "B 地区不是东京。",
+        "C 数量为三，地点也不是纽约市。",
+        "D 加州技术学院来自别处学术背景，不能替换此句。这是书中导师当时的建议，不是当前择校排名。"
+      ],
+      "vocabulary": [
+        {
+          "word": "liberal arts colleges",
+          "meaning": "文理学院；重视广博本科教育的学院",
+          "context": "是机构类别，不等同于政治自由派立场；本句也没有给出当前费用或招生信息。",
+          "example": "The student compared the teaching styles of several liberal arts colleges.",
+          "collocations": [
+            "a liberal arts college",
+            "a fan of liberal arts colleges"
+          ]
+        }
+      ],
+      "translation": "因此，社会经济地位较低的学生更难参加。如果没获得 Rotary International 奖学金，我自己也做不到；它支付了全部学费、食宿、教材、往返机票，甚至一个月的暑期英语课！获得奖学金后，我问本科导师 Hara 教授该去哪里。他很推崇文理学院，推荐了缅因州的三所。",
+      "evidenceTargetIds": [
+        "c05-s04-p048-06525-s008"
+      ],
+      "evidence": [
+        {
+          "quote": "He was a big fan of liberal arts colleges and recommended three in Maine.",
+          "sentenceIds": [
+            "c05-s04-p048-06525-s008"
+          ],
+          "sources": [
+            {
+              "pdfPage": 49,
+              "block": 0,
+              "bbox": [
+                76.99,
+                75,
+                535.01,
+                421.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "0933e10081491f775dfd9f28d440b5be622a75078dc54f96e559f7824768555c"
+    },
+    {
+      "id": "q-c05-034",
+      "version": 1,
+      "readingUnitId": "c05-s04-p048-06525-r009-012",
+      "chapterId": "c05",
+      "sectionId": "c05-s04",
+      "paragraphId": "c05-s04-p048-06525",
+      "sentenceIds": [
+        "c05-s04-p048-06525-s009",
+        "c05-s04-p048-06525-s010",
+        "c05-s04-p048-06525-s011",
+        "c05-s04-p048-06525-s012"
+      ],
+      "passage": "His assumption was that I would not see other Japanese students and would learn English best there. In July 1991, I left Tokyo for New York City. I spent one month at Wagner College on Staten Island studying English. Then I flew to Portland, Maine, in August.",
+      "prompt": "Which sequence matches the author’s travel account?",
+      "options": [
+        "Tokyo to Maine in July, followed by an August return to Tokyo.",
+        "Portland to Staten Island, then an English course in Tokyo.",
+        "A month at Wagner College before leaving Japan.",
+        "Tokyo to New York in July, a month studying English, then Portland in August."
+      ],
+      "answer": 3,
+      "type": "细节",
+      "promptZh": "哪组顺序符合作者的旅行叙述？",
+      "optionsZh": [
+        "七月东京赴缅因州，八月返东京。",
+        "Portland 到 Staten Island，然后在东京上英语课。",
+        "离开日本前先在 Wagner College 待一个月。",
+        "七月东京赴纽约，学一个月英语，八月赴 Portland。"
+      ],
+      "analyses": [
+        "A 七月目的地是 New York City，不是缅因州；未说八月返日。",
+        "B 地点顺序和课程地点都被改动。",
+        "C Wagner College 在 Staten Island，是离开东京之后。",
+        "D 三个阶段的时间与地点都正确。"
+      ],
+      "evidence": [
+        {
+          "quote": "In July 1991, I left Tokyo for New York City. I spent one month at Wagner College on Staten Island studying English. Then I flew to Portland, Maine, in August.",
+          "sentenceIds": [
+            "c05-s04-p048-06525-s010",
+            "c05-s04-p048-06525-s011",
+            "c05-s04-p048-06525-s012"
+          ],
+          "sources": [
+            {
+              "pdfPage": 49,
+              "block": 0,
+              "bbox": [
+                76.99,
+                75,
+                535.01,
+                421.02
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "assumption",
+          "meaning": "假定；设想",
+          "context": "导师关于英语学习环境的判断，并非已验证每位留学生的最优方案",
+          "example": "The plan rested on an assumption about travel time.",
+          "collocations": [
+            "an assumption that",
+            "make an assumption"
+          ]
+        }
+      ],
+      "translation": "他的设想是，我在那里不会遇到其他日本学生，能最好地学英语。1991 年七月，我离开东京前往纽约，在 Staten Island 的 Wagner College 学了一个月英语。然后八月飞往缅因州 Portland。",
+      "support": "explicit",
+      "editorialStatus": "PDF 第 41–49 页逐题核对；固定连续原句；区分个案、焦点小组自述和诗歌引例，不扩大研究范围或因果",
+      "fingerprint": "d26978c8b5c81193ee6020538cc6b22189020ecfe9b289250ad4217e41a3e16d"
+    },
+    {
+      "id": "qe-c05-0056",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-015",
+      "parentQuestionId": "q-c05-034",
+      "chapterId": "c05",
+      "sectionId": "c05-s04",
+      "paragraphId": "c05-s04-p048-06525",
+      "readingUnitId": "c05-s04-p048-06525-r009-012",
+      "sentenceIds": [
+        "c05-s04-p048-06525-s009",
+        "c05-s04-p048-06525-s010",
+        "c05-s04-p048-06525-s011",
+        "c05-s04-p048-06525-s012"
+      ],
+      "passage": "His assumption was that I would not see other Japanese students and would learn English best there. In July 1991, I left Tokyo for New York City. I spent one month at Wagner College on Staten Island studying English. Then I flew to Portland, Maine, in August.",
+      "prompt": "What expectation lay behind the advisor's recommendation?",
+      "promptZh": "导师推荐背后有什么设想？",
+      "options": [
+        "The narrator had already mastered English before departure.",
+        "Being geographically close to Japan was the primary goal.",
+        "Meeting only Japanese students would provide the best English practice.",
+        "The narrator would not meet other Japanese students there and would learn English best."
+      ],
+      "optionsZh": [
+        "作者出发前已完全掌握英语。",
+        "最主要目标是离日本地理上近。",
+        "只遇见日本学生能最好练英语。",
+        "作者在那里不会遇到其他日本学生，能最好地学习英语。"
+      ],
+      "answer": 3,
+      "type": "观点归属",
+      "support": "explicit",
+      "analyses": [
+        "A 没有出发前已经精通的事实。",
+        "B 本句没有地理邻近理由。",
+        "C 把 would not see other Japanese students 的方向倒置。",
+        "D His assumption was that 标明导师的预期，并给出两项内容；不能因此保证所有学生都在该地效果最好或宣称从未实际遇到日本人。"
+      ],
+      "vocabulary": [
+        {
+          "word": "assumption",
+          "meaning": "设想；未经此句独立验证的预期",
+          "context": "提示建议依据的判断地位，不是后来已证实的普遍结果。",
+          "example": "The plan depended on an assumption about how much time would be available.",
+          "collocations": [
+            "his assumption was that",
+            "make an assumption"
+          ]
+        }
+      ],
+      "translation": "他的设想是，我在那里不会遇到其他日本学生，能最好地学英语。1991 年七月，我离开东京前往纽约，在 Staten Island 的 Wagner College 学了一个月英语。然后八月飞往缅因州 Portland。",
+      "evidenceTargetIds": [
+        "c05-s04-p048-06525-s009"
+      ],
+      "evidence": [
+        {
+          "quote": "His assumption was that I would not see other Japanese students and would learn English best there.",
+          "sentenceIds": [
+            "c05-s04-p048-06525-s009"
+          ],
+          "sources": [
+            {
+              "pdfPage": 49,
+              "block": 0,
+              "bbox": [
+                76.99,
+                75,
+                535.01,
+                421.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "de729ac1363f1dcc6ec71441121ced22ae357aa1e6dc55b15d2c0ee4a6517e1b"
+    },
+    {
+      "id": "q-c05-035",
+      "version": 1,
+      "readingUnitId": "c05-s04-p048-06525-r013-016",
+      "chapterId": "c05",
+      "sectionId": "c05-s04",
+      "paragraphId": "c05-s04-p048-06525",
+      "sentenceIds": [
+        "c05-s04-p048-06525-s013",
+        "c05-s04-p048-06525-s014",
+        "c05-s04-p048-06525-s015",
+        "c05-s04-p048-06525-s016"
+      ],
+      "passage": "Dean James Reese picked me up at the airport and drove us up to Bates College in Lewiston. Thirty-plus years later, I still remember our conversation in the car on that warm afternoon. “What is your favorite music?” Dean Reese asked.",
+      "prompt": "What does the author remember more than thirty years later?",
+      "options": [
+        "A conversation in the car after Dean Reese picked him up at the airport.",
+        "A formal music examination in Tokyo before departure.",
+        "A conversation in which he drove Dean Reese to the airport.",
+        "A lecture given before he enrolled at Wagner College."
+      ],
+      "answer": 0,
+      "type": "细节",
+      "promptZh": "三十多年后，作者仍记得什么？",
+      "optionsZh": [
+        "Reese 院长到机场接他之后的一段车中谈话。",
+        "出发前在东京的正式音乐考试。",
+        "由他开车送 Reese 去机场时的谈话。",
+        "入读 Wagner College 之前的一堂课。"
+      ],
+      "analyses": [
+        "A picked me up 与 conversation in the car 直接对应。",
+        "B 没有考试，问题只是车中询问音乐偏好。",
+        "C picked me up 的接送主体被倒置。",
+        "D 本段是赴 Bates College 的接机经历，不是此前课程。"
+      ],
+      "evidence": [
+        {
+          "quote": "Thirty-plus years later, I still remember our conversation in the car on that warm afternoon.",
+          "sentenceIds": [
+            "c05-s04-p048-06525-s014"
+          ],
+          "sources": [
+            {
+              "pdfPage": 49,
+              "block": 0,
+              "bbox": [
+                76.99,
+                75,
+                535.01,
+                421.02
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "picked me up",
+          "meaning": "来接我",
+          "context": "这里指到机场接人，不是捡起物品",
+          "example": "My friend picked me up at the station.",
+          "collocations": [
+            "pick someone up at the airport",
+            "pick someone up from school"
+          ]
+        }
+      ],
+      "translation": "James Reese 院长到机场接我，开车带我们去 Lewiston 的 Bates College。三十多年后，我仍记得那个暖和下午的车中谈话。“你最喜欢什么音乐？”Reese 院长问。",
+      "support": "explicit",
+      "editorialStatus": "PDF 第 41–49 页逐题核对；固定连续原句；区分个案、焦点小组自述和诗歌引例，不扩大研究范围或因果",
+      "fingerprint": "9970e4ac61c24945ee0c2f5c8bbba37eb947c2d77f3543688739ad8c966831e1"
+    },
+    {
+      "id": "qe-c05-0057",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-015",
+      "parentQuestionId": "q-c05-035",
+      "chapterId": "c05",
+      "sectionId": "c05-s04",
+      "paragraphId": "c05-s04-p048-06525",
+      "readingUnitId": "c05-s04-p048-06525-r013-016",
+      "sentenceIds": [
+        "c05-s04-p048-06525-s013",
+        "c05-s04-p048-06525-s014",
+        "c05-s04-p048-06525-s015",
+        "c05-s04-p048-06525-s016"
+      ],
+      "passage": "Dean James Reese picked me up at the airport and drove us up to Bates College in Lewiston. Thirty-plus years later, I still remember our conversation in the car on that warm afternoon. “What is your favorite music?” Dean Reese asked.",
+      "prompt": "What did Dean James Reese do when the narrator arrived?",
+      "promptZh": "作者抵达时，James Reese 院长做了什么？",
+      "options": [
+        "He drove the narrator from Bates College back to the airport.",
+        "He took the narrator to Wagner College in New York.",
+        "He picked the narrator up at the airport and drove to Bates College in Lewiston.",
+        "Professor Hara, rather than Reese, drove the narrator to Bates."
+      ],
+      "optionsZh": [
+        "从 Bates College 送作者回机场。",
+        "带作者去纽约的 Wagner College。",
+        "到机场接作者，开车去 Lewiston 的 Bates College。",
+        "是 Hara 而非 Reese 开车带作者去 Bates。"
+      ],
+      "answer": 2,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A 接机去学院不是从学院回机场，方向颠倒。",
+        "B Wagner 是之前一个月英语学习地点，不是该次接送终点。",
+        "C picked me up at the airport and drove us up to Bates College in Lewiston 保留人、起点、终点。",
+        "D 与 Dean James Reese 作主语不符。"
+      ],
+      "vocabulary": [
+        {
+          "word": "picked me up",
+          "meaning": "来接我；接载我",
+          "context": "机场语境是接送，不是把人举起或说接电话。",
+          "example": "My friend picked me up at the station.",
+          "collocations": [
+            "pick someone up at the airport",
+            "pick someone up and drive"
+          ]
+        }
+      ],
+      "translation": "James Reese 院长到机场接我，开车带我们去 Lewiston 的 Bates College。三十多年后，我仍记得那个暖和下午的车中谈话。“你最喜欢什么音乐？”Reese 院长问。",
+      "evidenceTargetIds": [
+        "c05-s04-p048-06525-s013"
+      ],
+      "evidence": [
+        {
+          "quote": "Dean James Reese picked me up at the airport and drove us up to Bates College in Lewiston.",
+          "sentenceIds": [
+            "c05-s04-p048-06525-s013"
+          ],
+          "sources": [
+            {
+              "pdfPage": 49,
+              "block": 0,
+              "bbox": [
+                76.99,
+                75,
+                535.01,
+                421.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "a2717a51cc90c67e5a23301db6bcec10df8aedcd2057679a94e4253dd3de537e"
+    },
+    {
+      "id": "qe-c05-0058",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-015",
+      "parentQuestionId": "q-c05-035",
+      "chapterId": "c05",
+      "sectionId": "c05-s04",
+      "paragraphId": "c05-s04-p048-06525",
+      "readingUnitId": "c05-s04-p048-06525-r013-016",
+      "sentenceIds": [
+        "c05-s04-p048-06525-s013",
+        "c05-s04-p048-06525-s014",
+        "c05-s04-p048-06525-s015",
+        "c05-s04-p048-06525-s016"
+      ],
+      "passage": "Dean James Reese picked me up at the airport and drove us up to Bates College in Lewiston. Thirty-plus years later, I still remember our conversation in the car on that warm afternoon. “What is your favorite music?” Dean Reese asked.",
+      "prompt": "What kind of preference is requested by 'What is your favorite music'?",
+      "promptZh": "What is your favorite music 询问哪类喜好？",
+      "options": [
+        "A preferred kind of music.",
+        "A favourite named musician.",
+        "A preferred college major.",
+        "The date of the next music lesson."
+      ],
+      "optionsZh": [
+        "喜欢的音乐类型。",
+        "最喜欢的具体音乐家。",
+        "偏爱的大学专业。",
+        "下次音乐课日期。"
+      ],
+      "answer": 0,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A music 是音乐本身，后面的 Jazz 回答也与类型对应。",
+        "B musician 是后面另一问，不能把 music 与 musician 混同。",
+        "C 没有专业选择。",
+        "D 不是问课程时间。保留原页问句措辞，不擅把英文改写成另一问法。"
+      ],
+      "vocabulary": [
+        {
+          "word": "favorite",
+          "meaning": "最喜欢的；最偏爱的",
+          "context": "询问音乐偏好，不意味着只知道或只能喜欢一种音乐。",
+          "example": "What is your favorite kind of story?",
+          "collocations": [
+            "favorite music",
+            "a favorite musician"
+          ]
+        }
+      ],
+      "translation": "James Reese 院长到机场接我，开车带我们去 Lewiston 的 Bates College。三十多年后，我仍记得那个暖和下午的车中谈话。“你最喜欢什么音乐？”Reese 院长问。",
+      "evidenceTargetIds": [
+        "c05-s04-p048-06525-s015"
+      ],
+      "evidence": [
+        {
+          "quote": "“What is your favorite music?” Dean Reese asked.",
+          "sentenceIds": [
+            "c05-s04-p048-06525-s015",
+            "c05-s04-p048-06525-s016"
+          ],
+          "sources": [
+            {
+              "pdfPage": 49,
+              "block": 0,
+              "bbox": [
+                76.99,
+                75,
+                535.01,
+                421.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "fbd70639ab961e8b73bf69170fb12b2bad8020d60ca285cfd8862b9bfa8b1ed1"
+    },
+    {
+      "id": "qe-c05-0059",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-015",
+      "parentQuestionId": "q-c05-035",
+      "chapterId": "c05",
+      "sectionId": "c05-s04",
+      "paragraphId": "c05-s04-p048-06525",
+      "readingUnitId": "c05-s04-p048-06525-r013-016",
+      "sentenceIds": [
+        "c05-s04-p048-06525-s013",
+        "c05-s04-p048-06525-s014",
+        "c05-s04-p048-06525-s015",
+        "c05-s04-p048-06525-s016"
+      ],
+      "passage": "Dean James Reese picked me up at the airport and drove us up to Bates College in Lewiston. Thirty-plus years later, I still remember our conversation in the car on that warm afternoon. “What is your favorite music?” Dean Reese asked.",
+      "prompt": "Who asks the question about favourite music?",
+      "promptZh": "谁提出关于喜欢什么音乐的问题？",
+      "options": [
+        "The narrator.",
+        "Dean Reese.",
+        "Professor Hara.",
+        "Mike, the roommate."
+      ],
+      "optionsZh": [
+        "作者。",
+        "Reese 院长。",
+        "Hara 教授。",
+        "室友 Mike。"
+      ],
+      "answer": 1,
+      "type": "观点归属",
+      "support": "explicit",
+      "analyses": [
+        "A 作者在下一段作答，不是这句提问者。",
+        "B Dean Reese asked 是明确引语归属。",
+        "C Hara 是此前提供学院建议的人，不是机场车中这句的说话人。",
+        "D Mike 是后面电话故事里的室友，角色不可前移。完整证据把问句与报告分句连接，候选ID的拆分不当作两个独立完整陈述。"
+      ],
+      "vocabulary": [
+        {
+          "word": "asked",
+          "meaning": "问道；提出问题（引语报告动词）",
+          "context": "主语 Dean Reese 标记发问者，不是下一句回答者。",
+          "example": "'Where is the station?' she asked.",
+          "collocations": [
+            "Dean Reese asked",
+            "ask a question"
+          ]
+        }
+      ],
+      "translation": "James Reese 院长到机场接我，开车带我们去 Lewiston 的 Bates College。三十多年后，我仍记得那个暖和下午的车中谈话。“你最喜欢什么音乐？”Reese 院长问。",
+      "evidenceTargetIds": [
+        "c05-s04-p048-06525-s016"
+      ],
+      "evidence": [
+        {
+          "quote": "“What is your favorite music?” Dean Reese asked.",
+          "sentenceIds": [
+            "c05-s04-p048-06525-s015",
+            "c05-s04-p048-06525-s016"
+          ],
+          "sources": [
+            {
+              "pdfPage": 49,
+              "block": 0,
+              "bbox": [
+                76.99,
+                75,
+                535.01,
+                421.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "ba5d983933fa139d1b664fc3d19c8899b62ef7e258a49c224cf0d198a86e7981"
+    },
+    {
+      "id": "q-c05-036",
+      "version": 1,
+      "readingUnitId": "c05-s04-p048-06525-r017-020",
+      "chapterId": "c05",
+      "sectionId": "c05-s04",
+      "paragraphId": "c05-s04-p048-06525",
+      "sentenceIds": [
+        "c05-s04-p048-06525-s017",
+        "c05-s04-p048-06525-s018",
+        "c05-s04-p048-06525-s019",
+        "c05-s04-p048-06525-s020"
+      ],
+      "passage": "“Jazz,” I said. Dean Reese, who is Black, replied, “I love jazz, too!” He then asked, “Who’s your favorite musician?” Somehow the most well-known names, like Charlie Parker and Miles Davis, escaped me at that moment.",
+      "prompt": "What does “escaped me” mean in the context of the conversation?",
+      "options": [
+        "The musicians physically left the car.",
+        "The author refused to listen to jazz.",
+        "The familiar names temporarily failed to come to mind.",
+        "Dean Reese had never heard of the musicians."
+      ],
+      "answer": 2,
+      "type": "推断",
+      "promptZh": "这里 escaped me 是什么意思？",
+      "optionsZh": [
+        "音乐家亲自离开了车。",
+        "作者拒绝听爵士乐。",
+        "熟悉的名字一时想不起来。",
+        "Reese 从未听过那些音乐家。"
+      ],
+      "analyses": [
+        "A names 作主语，不是音乐家从车里逃离。",
+        "B 作者明确回答 Jazz，非拒绝听。",
+        "C at that moment 与 well-known names 表明暂时记忆提取失败。",
+        "D 没有关于 Reese 不认识这些人的说明。"
+      ],
+      "evidence": [
+        {
+          "quote": "the most well-known names, like Charlie Parker and Miles Davis, escaped me at that moment.",
+          "sentenceIds": [
+            "c05-s04-p048-06525-s020"
+          ],
+          "sources": [
+            {
+              "pdfPage": 49,
+              "block": 0,
+              "bbox": [
+                76.99,
+                75,
+                535.01,
+                421.02
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "escaped me",
+          "meaning": "让我一时想不起",
+          "context": "表示未能回忆起信息，不是信息主动逃跑",
+          "example": "Her name escaped me for a moment.",
+          "collocations": [
+            "a name escapes someone",
+            "the answer escaped me"
+          ]
+        }
+      ],
+      "translation": "“爵士乐。”我说。身为黑人的 Reese 院长回答：“我也爱爵士！”接着问：“你最喜欢哪位音乐家？”不知怎么，那一刻连 Charlie Parker、Miles Davis 这样最出名的名字，我都想不起来。",
+      "support": "inference",
+      "editorialStatus": "PDF 第 41–49 页逐题核对；固定连续原句；区分个案、焦点小组自述和诗歌引例，不扩大研究范围或因果",
+      "fingerprint": "7f54c44564e039fbb6b84c9934df260ed16a81488449889ce3070fe06a24ed05"
+    },
+    {
+      "id": "qe-c05-0060",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-015",
+      "parentQuestionId": "q-c05-036",
+      "chapterId": "c05",
+      "sectionId": "c05-s04",
+      "paragraphId": "c05-s04-p048-06525",
+      "readingUnitId": "c05-s04-p048-06525-r017-020",
+      "sentenceIds": [
+        "c05-s04-p048-06525-s017",
+        "c05-s04-p048-06525-s018",
+        "c05-s04-p048-06525-s019",
+        "c05-s04-p048-06525-s020"
+      ],
+      "passage": "“Jazz,” I said. Dean Reese, who is Black, replied, “I love jazz, too!” He then asked, “Who’s your favorite musician?” Somehow the most well-known names, like Charlie Parker and Miles Davis, escaped me at that moment.",
+      "prompt": "What answer does the narrator give about music?",
+      "promptZh": "作者对音乐喜好给出什么回答？",
+      "options": [
+        "Classical music.",
+        "Blues.",
+        "Jazz.",
+        "Rock."
+      ],
+      "optionsZh": [
+        "古典乐。",
+        "蓝调。",
+        "爵士乐。",
+        "摇滚乐。"
+      ],
+      "answer": 2,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A 当前原句没有回答古典乐。",
+        "B 不是 Blues。",
+        "C Jazz, I said 明示回答内容和说话者。",
+        "D 不是 Rock。后面人物也爱爵士不改变这里首先作答的是作者，不能把音乐类型当成某位音乐家姓名。"
+      ],
+      "vocabulary": [
+        {
+          "word": "Jazz",
+          "meaning": "爵士乐",
+          "context": "是被问到音乐类型时的回答，不是大学、乐手名字或来源国的证明。",
+          "example": "The café played jazz during the afternoon.",
+          "collocations": [
+            "listen to jazz",
+            "love jazz"
+          ]
+        }
+      ],
+      "translation": "“爵士乐。”我说。身为黑人的 Reese 院长回答：“我也爱爵士！”接着问：“你最喜欢哪位音乐家？”不知怎么，那一刻连 Charlie Parker、Miles Davis 这样最出名的名字，我都想不起来。",
+      "evidenceTargetIds": [
+        "c05-s04-p048-06525-s017"
+      ],
+      "evidence": [
+        {
+          "quote": "“Jazz,” I said.",
+          "sentenceIds": [
+            "c05-s04-p048-06525-s017"
+          ],
+          "sources": [
+            {
+              "pdfPage": 49,
+              "block": 0,
+              "bbox": [
+                76.99,
+                75,
+                535.01,
+                421.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "2057e3a34bbfd7932b0139d4b04fc536ed3ffca29272b4e0727e7f7a737214d3"
+    },
+    {
+      "id": "qe-c05-0061",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-016",
+      "parentQuestionId": "q-c05-036",
+      "chapterId": "c05",
+      "sectionId": "c05-s04",
+      "paragraphId": "c05-s04-p048-06525",
+      "readingUnitId": "c05-s04-p048-06525-r017-020",
+      "sentenceIds": [
+        "c05-s04-p048-06525-s017",
+        "c05-s04-p048-06525-s018",
+        "c05-s04-p048-06525-s019",
+        "c05-s04-p048-06525-s020"
+      ],
+      "passage": "“Jazz,” I said. Dean Reese, who is Black, replied, “I love jazz, too!” He then asked, “Who’s your favorite musician?” Somehow the most well-known names, like Charlie Parker and Miles Davis, escaped me at that moment.",
+      "prompt": "What does Reese's reply add to the conversation?",
+      "promptZh": "Reese 的回答为谈话补充了什么？",
+      "options": [
+        "He dislikes the music the narrator has named.",
+        "He shares the narrator's stated liking for jazz.",
+        "He asks the narrator to play a jazz instrument.",
+        "He identifies the narrator's favourite musician."
+      ],
+      "optionsZh": [
+        "他不喜欢作者刚说的音乐。",
+        "他也喜欢作者所说的爵士乐。",
+        "他让作者演奏爵士乐器。",
+        "他指出作者最喜欢的音乐家。"
+      ],
+      "answer": 1,
+      "type": "逻辑关系",
+      "support": "explicit",
+      "analyses": [
+        "A love jazz 与不喜欢相反。",
+        "B too 呼应上一句 Jazz，表示双方此刻表达的喜好一致。",
+        "C 没有要求演奏。",
+        "D 喜欢的音乐家是随后提问，不能当成这句已给出的信息；也不能由人物种族推定音乐偏好。"
+      ],
+      "vocabulary": [
+        {
+          "word": "too",
+          "meaning": "也；同样",
+          "context": "接在 I love jazz 后，连接两人的音乐喜好，而非说明程度太高。",
+          "example": "I enjoy quiet walks, too.",
+          "collocations": [
+            "I love jazz, too",
+            "me too"
+          ]
+        }
+      ],
+      "translation": "“爵士乐。”我说。身为黑人的 Reese 院长回答：“我也爱爵士！”接着问：“你最喜欢哪位音乐家？”不知怎么，那一刻连 Charlie Parker、Miles Davis 这样最出名的名字，我都想不起来。",
+      "evidenceTargetIds": [
+        "c05-s04-p048-06525-s018"
+      ],
+      "evidence": [
+        {
+          "quote": "“Jazz,” I said. Dean Reese, who is Black, replied, “I love jazz, too!” He then asked, “Who’s your favorite musician?” Somehow the most well-known names, like Charlie Parker and Miles Davis, escaped me at that moment.",
+          "sentenceIds": [
+            "c05-s04-p048-06525-s017",
+            "c05-s04-p048-06525-s018",
+            "c05-s04-p048-06525-s019",
+            "c05-s04-p048-06525-s020"
+          ],
+          "sources": [
+            {
+              "pdfPage": 49,
+              "block": 0,
+              "bbox": [
+                76.99,
+                75,
+                535.01,
+                421.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "b1ed4be2323673b718f3996116e1aac61e6e21143c5b28ab39f4723a789c46ef"
+    },
+    {
+      "id": "qe-c05-0062",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-016",
+      "parentQuestionId": "q-c05-036",
+      "chapterId": "c05",
+      "sectionId": "c05-s04",
+      "paragraphId": "c05-s04-p048-06525",
+      "readingUnitId": "c05-s04-p048-06525-r017-020",
+      "sentenceIds": [
+        "c05-s04-p048-06525-s017",
+        "c05-s04-p048-06525-s018",
+        "c05-s04-p048-06525-s019",
+        "c05-s04-p048-06525-s020"
+      ],
+      "passage": "“Jazz,” I said. Dean Reese, who is Black, replied, “I love jazz, too!” He then asked, “Who’s your favorite musician?” Somehow the most well-known names, like Charlie Parker and Miles Davis, escaped me at that moment.",
+      "prompt": "How does Reese's next question narrow the topic?",
+      "promptZh": "Reese 随后的问题怎样缩小话题范围？",
+      "options": [
+        "From music in general to a particular preferred musician.",
+        "From a musician's name to the narrator's college major.",
+        "From jazz to the price of concert tickets.",
+        "From favourite music to whether the narrator can speak English."
+      ],
+      "optionsZh": [
+        "从音乐喜好转到偏爱的具体音乐家。",
+        "从音乐家姓名转到作者大学专业。",
+        "从爵士乐转到音乐会票价。",
+        "从喜欢的音乐转到作者是否会说英语。"
+      ],
+      "answer": 0,
+      "type": "逻辑关系",
+      "support": "explicit",
+      "analyses": [
+        "A Who 和 musician 要求人物，比前一问 music 更具体。",
+        "B 没有大学专业信息。",
+        "C 未问演出票价。",
+        "D 后面忘记名字不是此处直接问英语能力。"
+      ],
+      "vocabulary": [
+        {
+          "word": "musician",
+          "meaning": "音乐家；乐手",
+          "context": "指从事音乐的人，与 music 音乐这一事物区分。",
+          "example": "The musician answered questions after the concert.",
+          "collocations": [
+            "favorite musician",
+            "a jazz musician"
+          ]
+        }
+      ],
+      "translation": "“爵士乐。”我说。身为黑人的 Reese 院长回答：“我也爱爵士！”接着问：“你最喜欢哪位音乐家？”不知怎么，那一刻连 Charlie Parker、Miles Davis 这样最出名的名字，我都想不起来。",
+      "evidenceTargetIds": [
+        "c05-s04-p048-06525-s019"
+      ],
+      "evidence": [
+        {
+          "quote": "“Jazz,” I said. Dean Reese, who is Black, replied, “I love jazz, too!” He then asked, “Who’s your favorite musician?” Somehow the most well-known names, like Charlie Parker and Miles Davis, escaped me at that moment.",
+          "sentenceIds": [
+            "c05-s04-p048-06525-s017",
+            "c05-s04-p048-06525-s018",
+            "c05-s04-p048-06525-s019",
+            "c05-s04-p048-06525-s020"
+          ],
+          "sources": [
+            {
+              "pdfPage": 49,
+              "block": 0,
+              "bbox": [
+                76.99,
+                75,
+                535.01,
+                421.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "0a0746419da05ceb2418cdbf2b541428b85974df9d640f4f26ec42f87400da3d"
+    },
+    {
+      "id": "q-c05-037",
+      "version": 1,
+      "readingUnitId": "c05-s04-p048-06525-r021-024",
+      "chapterId": "c05",
+      "sectionId": "c05-s04",
+      "paragraphId": "c05-s04-p048-06525",
+      "sentenceIds": [
+        "c05-s04-p048-06525-s021",
+        "c05-s04-p048-06525-s022",
+        "c05-s04-p048-06525-s023",
+        "c05-s04-p048-06525-s024"
+      ],
+      "passage": "After a long pause, I said, “Bill Evans.” Dean Reese immediately said, “Get out of here!” I was scared. I thought he meant that I should get out of the car right that moment.",
+      "prompt": "How did the author initially interpret Dean Reese’s words?",
+      "options": [
+        "As a request to turn up the music.",
+        "As an instruction to leave the car immediately.",
+        "As a confirmed invitation to perform jazz.",
+        "As a statement that Bill Evans was waiting outside."
+      ],
+      "answer": 1,
+      "type": "细节",
+      "promptZh": "作者最初怎样理解 Reese 院长的话？",
+      "optionsZh": [
+        "要求把音乐开大。",
+        "命令自己立刻下车。",
+        "确认邀请自己演奏爵士。",
+        "说 Bill Evans 正在外面等。"
+      ],
+      "analyses": [
+        "A 没有调节音乐音量的动作。",
+        "B I thought 明确交代作者当时以为应该立刻离开车。",
+        "C 未提演出邀请。",
+        "D 未说音乐家在场；只可确定作者的初始理解，不能据此认定 Reese 真在赶人。"
+      ],
+      "evidence": [
+        {
+          "quote": "I thought he meant that I should get out of the car right that moment.",
+          "sentenceIds": [
+            "c05-s04-p048-06525-s024"
+          ],
+          "sources": [
+            {
+              "pdfPage": 49,
+              "block": 0,
+              "bbox": [
+                76.99,
+                75,
+                535.01,
+                421.02
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "pause",
+          "meaning": "停顿",
+          "context": "long pause 指回答前较长沉默，不是旅程暂停",
+          "example": "After a brief pause, she answered the question.",
+          "collocations": [
+            "a long pause",
+            "after a pause"
+          ]
+        }
+      ],
+      "translation": "长长停顿之后，我说：“Bill Evans。”Reese 院长立刻说：“Get out of here!” 我吓坏了，以为他要我当场下车。",
+      "support": "explicit",
+      "editorialStatus": "PDF 第 41–49 页逐题核对；固定连续原句；区分个案、焦点小组自述和诗歌引例，不扩大研究范围或因果",
+      "fingerprint": "76e05fa4f49f5b40b51ff975d1d1d4a4838b85740e633816b7580e36b469d23f"
+    },
+    {
+      "id": "qe-c05-0063",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-016",
+      "parentQuestionId": "q-c05-037",
+      "chapterId": "c05",
+      "sectionId": "c05-s04",
+      "paragraphId": "c05-s04-p048-06525",
+      "readingUnitId": "c05-s04-p048-06525-r021-024",
+      "sentenceIds": [
+        "c05-s04-p048-06525-s021",
+        "c05-s04-p048-06525-s022",
+        "c05-s04-p048-06525-s023",
+        "c05-s04-p048-06525-s024"
+      ],
+      "passage": "After a long pause, I said, “Bill Evans.” Dean Reese immediately said, “Get out of here!” I was scared. I thought he meant that I should get out of the car right that moment.",
+      "prompt": "What does the timing of the narrator's answer indicate?",
+      "promptZh": "作者回答的时间信息说明什么？",
+      "options": [
+        "He answered before Reese finished asking.",
+        "Reese supplied the name Bill Evans first.",
+        "He immediately listed several musicians.",
+        "He paused for a considerable time before naming Bill Evans."
+      ],
+      "optionsZh": [
+        "Reese 还没问完他就回答了。",
+        "Reese 先提供 Bill Evans 这个名字。",
+        "他立刻列举了好几位音乐家。",
+        "他停顿较长时间后才说出 Bill Evans。"
+      ],
+      "answer": 3,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A After 表明在停顿之后，不是抢答。",
+        "B I said 明确名字由作者说出。",
+        "C long pause 与 immediately 相反，且只给一个名字。",
+        "D After a long pause 是直接时间依据；不据此诊断心理或记忆障碍。"
+      ],
+      "vocabulary": [
+        {
+          "word": "pause",
+          "meaning": "停顿；暂时停止说话",
+          "context": "long 修饰停顿时长，不是指旅途长短。",
+          "example": "After a brief pause, she answered the question.",
+          "collocations": [
+            "a long pause",
+            "after a pause"
+          ]
+        }
+      ],
+      "translation": "长长停顿之后，我说：“Bill Evans。”Reese 院长立刻说：“Get out of here!” 我吓坏了，以为他要我当场下车。",
+      "evidenceTargetIds": [
+        "c05-s04-p048-06525-s021"
+      ],
+      "evidence": [
+        {
+          "quote": "After a long pause, I said, “Bill Evans.”",
+          "sentenceIds": [
+            "c05-s04-p048-06525-s021"
+          ],
+          "sources": [
+            {
+              "pdfPage": 49,
+              "block": 0,
+              "bbox": [
+                76.99,
+                75,
+                535.01,
+                421.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "df97ca9dd1dba8715cc79778aec7a260482d93b57d1428ccc4beb1856fa29188"
+    },
+    {
+      "id": "qe-c05-0064",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-016",
+      "parentQuestionId": "q-c05-037",
+      "chapterId": "c05",
+      "sectionId": "c05-s04",
+      "paragraphId": "c05-s04-p048-06525",
+      "readingUnitId": "c05-s04-p048-06525-r021-024",
+      "sentenceIds": [
+        "c05-s04-p048-06525-s021",
+        "c05-s04-p048-06525-s022",
+        "c05-s04-p048-06525-s023",
+        "c05-s04-p048-06525-s024"
+      ],
+      "passage": "After a long pause, I said, “Bill Evans.” Dean Reese immediately said, “Get out of here!” I was scared. I thought he meant that I should get out of the car right that moment.",
+      "prompt": "What contrast is created by 'immediately' in Reese's response?",
+      "promptZh": "Reese 回答中的 immediately 形成什么对比？",
+      "options": [
+        "Reese's reaction was delayed longer than the narrator's answer.",
+        "Both speakers waited equally long before speaking.",
+        "Reese reacted straight away after the narrator's long pause.",
+        "The narrator immediately understood the expression correctly."
+      ],
+      "optionsZh": [
+        "Reese 比作者等得更久才回应。",
+        "两人发言前等了同样久。",
+        "作者长时间停顿后作答，Reese 则立刻反应。",
+        "作者马上正确理解了这个表达。"
+      ],
+      "answer": 2,
+      "type": "逻辑关系",
+      "support": "explicit",
+      "analyses": [
+        "A immediately 不支持更迟。",
+        "B long pause 与 immediately 形成快慢差异。",
+        "C 前后两个时间表达明确对比。",
+        "D 后文说作者害怕并以为要下车，不能把迅速回应改成迅速正确理解。此题不把 Get out of here 擅自认定为真实驱逐命令。"
+      ],
+      "vocabulary": [
+        {
+          "word": "immediately",
+          "meaning": "立刻；马上",
+          "context": "修饰 Reese 的回应速度，不修饰作者的理解是否正确。",
+          "example": "The receptionist immediately answered the call.",
+          "collocations": [
+            "immediately said",
+            "respond immediately"
+          ]
+        }
+      ],
+      "translation": "长长停顿之后，我说：“Bill Evans。”Reese 院长立刻说：“Get out of here!” 我吓坏了，以为他要我当场下车。",
+      "evidenceTargetIds": [
+        "c05-s04-p048-06525-s022"
+      ],
+      "evidence": [
+        {
+          "quote": "After a long pause, I said, “Bill Evans.” Dean Reese immediately said, “Get out of here!” I was scared. I thought he meant that I should get out of the car right that moment.",
+          "sentenceIds": [
+            "c05-s04-p048-06525-s021",
+            "c05-s04-p048-06525-s022",
+            "c05-s04-p048-06525-s023",
+            "c05-s04-p048-06525-s024"
+          ],
+          "sources": [
+            {
+              "pdfPage": 49,
+              "block": 0,
+              "bbox": [
+                76.99,
+                75,
+                535.01,
+                421.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "db8defc62b642b1715c95660eb860b15cb886817f4e1965494c5937c787177af"
+    },
+    {
+      "id": "qe-c05-0065",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-016",
+      "parentQuestionId": "q-c05-037",
+      "chapterId": "c05",
+      "sectionId": "c05-s04",
+      "paragraphId": "c05-s04-p048-06525",
+      "readingUnitId": "c05-s04-p048-06525-r021-024",
+      "sentenceIds": [
+        "c05-s04-p048-06525-s021",
+        "c05-s04-p048-06525-s022",
+        "c05-s04-p048-06525-s023",
+        "c05-s04-p048-06525-s024"
+      ],
+      "passage": "After a long pause, I said, “Bill Evans.” Dean Reese immediately said, “Get out of here!” I was scared. I thought he meant that I should get out of the car right that moment.",
+      "prompt": "Why is the narrator scared at this point in his account?",
+      "promptZh": "在这段叙述中，作者此时为什么害怕？",
+      "options": [
+        "He believes Reese wants him to leave the car at once.",
+        "He knows that Reese has lost the car keys.",
+        "He has been asked to perform jazz publicly.",
+        "He has already missed his flight to Japan."
+      ],
+      "optionsZh": [
+        "他以为 Reese 要他立刻下车。",
+        "他知道 Reese 丢了车钥匙。",
+        "他被要求公开演奏爵士乐。",
+        "他已经错过回日本的航班。"
+      ],
+      "answer": 0,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A 下一句 I thought he meant...get out of the car 直接解释恐惧来自自己的理解。",
+        "B 原文没有丢钥匙。",
+        "C 音乐喜好谈话不等于演出要求。",
+        "D 此段没有错过航班；必须区分作者当时以为的含义与 Reese 的真实意图。"
+      ],
+      "vocabulary": [
+        {
+          "word": "scared",
+          "meaning": "害怕的；受惊的",
+          "context": "描述作者对表达的当时反应，不是确认车里有客观危险。",
+          "example": "She felt scared when she misunderstood the warning.",
+          "collocations": [
+            "I was scared",
+            "feel scared"
+          ]
+        }
+      ],
+      "translation": "长长停顿之后，我说：“Bill Evans。”Reese 院长立刻说：“Get out of here!” 我吓坏了，以为他要我当场下车。",
+      "evidenceTargetIds": [
+        "c05-s04-p048-06525-s023"
+      ],
+      "evidence": [
+        {
+          "quote": "After a long pause, I said, “Bill Evans.” Dean Reese immediately said, “Get out of here!” I was scared. I thought he meant that I should get out of the car right that moment.",
+          "sentenceIds": [
+            "c05-s04-p048-06525-s021",
+            "c05-s04-p048-06525-s022",
+            "c05-s04-p048-06525-s023",
+            "c05-s04-p048-06525-s024"
+          ],
+          "sources": [
+            {
+              "pdfPage": 49,
+              "block": 0,
+              "bbox": [
+                76.99,
+                75,
+                535.01,
+                421.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "2d78c36855d87756340d82523d6fbf5ad03da54fb9a52947b385a174ceaeea20"
+    },
+    {
+      "id": "q-c05-039",
+      "version": 2,
+      "readingUnitId": "c05-s04-p049-04260-r001-004",
+      "chapterId": "c05",
+      "sectionId": "c05-s04",
+      "paragraphId": "c05-s04-p049-04260",
+      "sentenceIds": [
+        "c05-s04-p049-04260-s001",
+        "c05-s04-p049-04260-s002",
+        "c05-s04-p049-04260-s003",
+        "c05-s04-p049-04260-s004",
+        "c05-s04-p049-04260-s005"
+      ],
+      "passage": "I don’t remember many conversations I had in Tokyo with professors, deans, or even friends around that time. Yet many things that happened during my study abroad are still vivid in my memory. For instance, I shared my dorm room with a student named Mike. I’d often pick up the phone and hear, “Is Mike there?” and I’d say, “No.”",
+      "prompt": "What memory contrast introduces the dorm-room example?",
+      "options": [
+        "Many study-abroad events remain vivid, unlike numerous conversations from the same period in Tokyo.",
+        "The author remembers every Tokyo conversation but nothing from abroad.",
+        "Only conversations about music are remembered from either country.",
+        "All memories of his roommate Mike have disappeared."
+      ],
+      "answer": 0,
+      "type": "主旨",
+      "promptZh": "宿舍例子前，作者先作了什么记忆对比？",
+      "optionsZh": [
+        "许多留学事件仍清晰，而同期在东京的许多谈话已记不清。",
+        "东京每次谈话都记得，国外一件事也不记得。",
+        "两个国家都只记得音乐谈话。",
+        "与室友 Mike 有关的记忆全部消失。"
+      ],
+      "analyses": [
+        "A don’t remember many 对照 still vivid，正是例子引出的对比。",
+        "B 把两地的记忆状态倒置，并扩大为每次与全无。",
+        "C 本段没有 only music，下一例是接电话。",
+        "D 作者正举出与 Mike 同住和接电话的清晰记忆。"
+      ],
+      "evidence": [
+        {
+          "quote": "I don’t remember many conversations I had in Tokyo",
+          "sentenceIds": [
+            "c05-s04-p049-04260-s001"
+          ],
+          "sources": [
+            {
+              "pdfPage": 49,
+              "block": 1,
+              "bbox": [
+                76.99,
+                426,
+                535,
+                577.02
+              ]
+            }
+          ]
+        },
+        {
+          "quote": "many things that happened during my study abroad are still vivid in my memory.",
+          "sentenceIds": [
+            "c05-s04-p049-04260-s002"
+          ],
+          "sources": [
+            {
+              "pdfPage": 49,
+              "block": 1,
+              "bbox": [
+                76.99,
+                426,
+                535,
+                577.02
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "vivid",
+          "meaning": "鲜明的；清晰如在眼前的",
+          "context": "形容多年后留学记忆的鲜明程度，不保证每个细节绝对准确",
+          "example": "She has vivid memories of her first day in the city.",
+          "collocations": [
+            "a vivid memory",
+            "remain vivid"
+          ]
+        }
+      ],
+      "translation": "那段时期，在东京与教授、院长甚至朋友的许多谈话，我都记不清了。但留学期间发生的许多事情，仍在记忆中鲜明如昨。例如，我与一位叫 Mike 的学生同住宿舍。我常接起电话，听到：“Mike 在吗？”我便回答：“不在。”",
+      "support": "explicit",
+      "editorialStatus": "按实际PDF修复相邻单元断句；原字符、源ID与阅读次序保留，旧版本和作答快照不改写。",
+      "sourceSegments": [
+        {
+          "paragraphId": "c05-s04-p049-04260",
+          "start": 0,
+          "end": 328,
+          "separator": "",
+          "text": "I don’t remember many conversations I had in Tokyo with professors, deans, or even friends around that time. Yet many things that happened during my study abroad are still vivid in my memory. For instance, I shared my dorm room with a student named Mike. I’d often pick up the phone and hear, “Is Mike there?” and I’d say, “No.”"
+        }
+      ],
+      "boundaryRepair": "sentence-boundaries-2026-10-25",
+      "fingerprint": "fc9ebdc068e478897d5ddf17f09bb1e9fdb2fba24627f6e27eb8880cb5ce31b2"
+    },
+    {
+      "id": "qe-c05-0066",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-016",
+      "parentQuestionId": "q-c05-039",
+      "chapterId": "c05",
+      "sectionId": "c05-s04",
+      "paragraphId": "c05-s04-p049-04260",
+      "readingUnitId": "c05-s04-p049-04260-r001-004",
+      "sentenceIds": [
+        "c05-s04-p049-04260-s001",
+        "c05-s04-p049-04260-s002",
+        "c05-s04-p049-04260-s003",
+        "c05-s04-p049-04260-s004",
+        "c05-s04-p049-04260-s005"
+      ],
+      "passage": "I don’t remember many conversations I had in Tokyo with professors, deans, or even friends around that time. Yet many things that happened during my study abroad are still vivid in my memory. For instance, I shared my dorm room with a student named Mike. I’d often pick up the phone and hear, “Is Mike there?” and I’d say, “No.”",
+      "prompt": "What relationship did Mike have to the narrator?",
+      "promptZh": "Mike 与作者是什么关系？",
+      "options": [
+        "Mike was the narrator's English professor.",
+        "Mike was the dean who drove him from the airport.",
+        "Mike shared a dormitory room with him.",
+        "Mike was the caller's nickname for the narrator."
+      ],
+      "optionsZh": [
+        "Mike 是作者的英语教授。",
+        "Mike 是接机的院长。",
+        "Mike 与作者同住宿舍房间。",
+        "Mike 是来电者对作者的昵称。"
+      ],
+      "answer": 2,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A 原文明示 student 而非教授。",
+        "B 接机者是 Reese，不能混同角色。",
+        "C shared my dorm room with...Mike 明确为室友。",
+        "D Mike 是另一名学生，并非作者昵称。For instance 引出具体记忆例子。"
+      ],
+      "vocabulary": [
+        {
+          "word": "shared",
+          "meaning": "共用；与他人同住",
+          "context": "这里指两人使用同一宿舍房间，不是分享消息或共同拥有整栋楼。",
+          "example": "I shared a small room with another student.",
+          "collocations": [
+            "share a room with",
+            "shared my dorm room"
+          ]
+        }
+      ],
+      "translation": "那段时期，在东京与教授、院长甚至朋友的许多谈话，我都记不清了。但留学期间发生的许多事情，仍在记忆中鲜明如昨。例如，我与一位叫 Mike 的学生同住宿舍。我常接起电话，听到：“Mike 在吗？”我便回答：“不在。”",
+      "evidenceTargetIds": [
+        "c05-s04-p049-04260-s003"
+      ],
+      "evidence": [
+        {
+          "quote": "For instance, I shared my dorm room with a student named Mike.",
+          "sentenceIds": [
+            "c05-s04-p049-04260-s003"
+          ],
+          "sources": [
+            {
+              "pdfPage": 49,
+              "block": 1,
+              "bbox": [
+                76.99,
+                426,
+                535,
+                577.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "sourceSegments": [
+        {
+          "paragraphId": "c05-s04-p049-04260",
+          "start": 0,
+          "end": 328,
+          "separator": "",
+          "text": "I don’t remember many conversations I had in Tokyo with professors, deans, or even friends around that time. Yet many things that happened during my study abroad are still vivid in my memory. For instance, I shared my dorm room with a student named Mike. I’d often pick up the phone and hear, “Is Mike there?” and I’d say, “No.”"
+        }
+      ],
+      "fingerprint": "fce6ccabc7e3db6d0bd251e7eb340493ed6cefc00386e3c4d49d6601c485b14c"
+    },
+    {
+      "id": "qe-c05-0067",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-016",
+      "parentQuestionId": "q-c05-039",
+      "chapterId": "c05",
+      "sectionId": "c05-s04",
+      "paragraphId": "c05-s04-p049-04260",
+      "readingUnitId": "c05-s04-p049-04260-r001-004",
+      "sentenceIds": [
+        "c05-s04-p049-04260-s001",
+        "c05-s04-p049-04260-s002",
+        "c05-s04-p049-04260-s003",
+        "c05-s04-p049-04260-s004",
+        "c05-s04-p049-04260-s005"
+      ],
+      "passage": "I don’t remember many conversations I had in Tokyo with professors, deans, or even friends around that time. Yet many things that happened during my study abroad are still vivid in my memory. For instance, I shared my dorm room with a student named Mike. I’d often pick up the phone and hear, “Is Mike there?” and I’d say, “No.”",
+      "prompt": "What does 'I'd often pick up the phone' describe?",
+      "promptZh": "I'd often pick up the phone 描写什么？",
+      "options": [
+        "A future promise to buy a new phone.",
+        "A repeated past situation in which the narrator answered calls.",
+        "A single call that the narrator refused to answer.",
+        "Mike collecting the narrator from the airport."
+      ],
+      "optionsZh": [
+        "将来购买新电话的承诺。",
+        "作者过去多次接电话的情形。",
+        "作者拒接的一次电话。",
+        "Mike 到机场接作者。"
+      ],
+      "answer": 1,
+      "type": "语法与含义",
+      "support": "explicit",
+      "analyses": [
+        "A 此处 I'd 为 I would，结合回忆及 often 表过去习惯，不是购买计划。",
+        "B often 与 would 加动作共同表过去经常发生。",
+        "C 不是拒接，且 often 不是单次。",
+        "D pick up the phone 是接电话，与前文机场接人的 pick someone up 区分。"
+      ],
+      "vocabulary": [
+        {
+          "word": "pick up the phone",
+          "meaning": "接电话；拿起电话应答",
+          "context": "本段来电语境义，不是去机场接人。",
+          "example": "Could you pick up the phone while I finish this email?",
+          "collocations": [
+            "pick up the phone",
+            "hear a voice on the phone"
+          ]
+        }
+      ],
+      "translation": "那段时期，在东京与教授、院长甚至朋友的许多谈话，我都记不清了。但留学期间发生的许多事情，仍在记忆中鲜明如昨。例如，我与一位叫 Mike 的学生同住宿舍。我常接起电话，听到：“Mike 在吗？”我便回答：“不在。”",
+      "evidenceTargetIds": [
+        "c05-s04-p049-04260-s004"
+      ],
+      "evidence": [
+        {
+          "quote": "I’d often pick up the phone and hear, “Is Mike there?”",
+          "sentenceIds": [
+            "c05-s04-p049-04260-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 49,
+              "block": 1,
+              "bbox": [
+                76.99,
+                426,
+                535,
+                577.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "sourceSegments": [
+        {
+          "paragraphId": "c05-s04-p049-04260",
+          "start": 0,
+          "end": 328,
+          "separator": "",
+          "text": "I don’t remember many conversations I had in Tokyo with professors, deans, or even friends around that time. Yet many things that happened during my study abroad are still vivid in my memory. For instance, I shared my dorm room with a student named Mike. I’d often pick up the phone and hear, “Is Mike there?” and I’d say, “No.”"
+        }
+      ],
+      "fingerprint": "e9194bf16f83ff3a1bcc21356b0db852b35e233a82df9d53d462d8f94450bbfa"
+    },
+    {
+      "id": "qe-c05-0068",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-016",
+      "parentQuestionId": "q-c05-039",
+      "chapterId": "c05",
+      "sectionId": "c05-s04",
+      "paragraphId": "c05-s04-p049-04260",
+      "readingUnitId": "c05-s04-p049-04260-r001-004",
+      "sentenceIds": [
+        "c05-s04-p049-04260-s001",
+        "c05-s04-p049-04260-s002",
+        "c05-s04-p049-04260-s003",
+        "c05-s04-p049-04260-s004",
+        "c05-s04-p049-04260-s005"
+      ],
+      "passage": "I don’t remember many conversations I had in Tokyo with professors, deans, or even friends around that time. Yet many things that happened during my study abroad are still vivid in my memory. For instance, I shared my dorm room with a student named Mike. I’d often pick up the phone and hear, “Is Mike there?” and I’d say, “No.”",
+      "prompt": "In the exchange 'Is Mike there?'—'No', what is being denied?",
+      "promptZh": "Is Mike there?—No 这段对话中的否定针对什么？",
+      "options": [
+        "The narrator's ability to answer a phone.",
+        "Whether the caller has ever met Mike.",
+        "Whether Mike is a real person's name.",
+        "Mike's presence or availability at that moment."
+      ],
+      "optionsZh": [
+        "作者是否有能力接电话。",
+        "来电者是否曾见过 Mike。",
+        "Mike 是否是真人姓名。",
+        "Mike 当时是否在、能否接听。"
+      ],
+      "answer": 3,
+      "type": "语境词义",
+      "support": "explicit",
+      "analyses": [
+        "A 否定回答对应来电者的问题，不是否认接电话能力。",
+        "B 问句不问两人是否见过。",
+        "C 不是否认人物存在。",
+        "D there 在电话找人语境下指 Mike 此刻是否在场；不能扩成永远联系不上。"
+      ],
+      "vocabulary": [
+        {
+          "word": "there",
+          "meaning": "在那里；在场（电话中指人是否在）",
+          "context": "Is Mike there 询问当时能否找到 Mike，而非抽象地点知识。",
+          "example": "Is your sister there? I would like to speak to her.",
+          "collocations": [
+            "Is Mike there",
+            "be there"
+          ]
+        }
+      ],
+      "translation": "那段时期，在东京与教授、院长甚至朋友的许多谈话，我都记不清了。但留学期间发生的许多事情，仍在记忆中鲜明如昨。例如，我与一位叫 Mike 的学生同住宿舍。我常接起电话，听到：“Mike 在吗？”我便回答：“不在。”",
+      "evidenceTargetIds": [
+        "c05-s04-p049-04260-s005"
+      ],
+      "evidence": [
+        {
+          "quote": "I don’t remember many conversations I had in Tokyo with professors, deans, or even friends around that time. Yet many things that happened during my study abroad are still vivid in my memory. For instance, I shared my dorm room with a student named Mike. I’d often pick up the phone and hear, “Is Mike there?” and I’d say, “No.”",
+          "sentenceIds": [
+            "c05-s04-p049-04260-s001",
+            "c05-s04-p049-04260-s002",
+            "c05-s04-p049-04260-s003",
+            "c05-s04-p049-04260-s004",
+            "c05-s04-p049-04260-s005"
+          ],
+          "sources": [
+            {
+              "pdfPage": 49,
+              "block": 1,
+              "bbox": [
+                76.99,
+                426,
+                535,
+                577.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "sourceSegments": [
+        {
+          "paragraphId": "c05-s04-p049-04260",
+          "start": 0,
+          "end": 328,
+          "separator": "",
+          "text": "I don’t remember many conversations I had in Tokyo with professors, deans, or even friends around that time. Yet many things that happened during my study abroad are still vivid in my memory. For instance, I shared my dorm room with a student named Mike. I’d often pick up the phone and hear, “Is Mike there?” and I’d say, “No.”"
+        }
+      ],
+      "fingerprint": "dbfb64299c77f532f9ac59afd80ae61aba132bade684301b62722d3647b3583b"
+    }
+  ]
+}
