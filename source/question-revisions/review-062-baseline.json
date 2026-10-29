@@ -1,0 +1,573 @@
+{
+  "pdfSha256": "be25c859f1bd894a4b0d1cff024ded1297f6a96a8e8ddabea1e3abcf89160a50",
+  "sourceCommit": "1a097c161dc247d693a5a774230bcd24294da1e9",
+  "frozenTargetsSourceCommit": "88db9f240dd85e7e70a267e61b592dc2d3ef1cb8",
+  "questions": [
+    {
+      "id": "qe-c07-0049",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-025",
+      "parentQuestionId": "q-c07-029",
+      "chapterId": "c07",
+      "sectionId": "c07-s01",
+      "paragraphId": "c07-s01-p071-06795",
+      "readingUnitId": "c07-s01-p071-06795-r001-004",
+      "sentenceIds": [
+        "c07-s01-p071-06795-s001",
+        "c07-s01-p071-06795-s002",
+        "c07-s01-p071-06795-s003",
+        "c07-s01-p071-06795-s004"
+      ],
+      "passage": "The story of William James Sidis presents another cautionary tale. He is often considered the smartest man to have ever lived. At age eight, he passed the Harvard Medical School’s anatomy exam, as well as the entrance exam to MIT. When Sidis was eleven years old, he gave a lecture on astrophysics at Harvard.",
+      "prompt": "How is the 'smartest man' claim qualified?",
+      "promptZh": "smartest man 这一说法如何被限定？",
+      "options": [
+        "It is presented as something he is often considered to be.",
+        "It is proved by a newly supplied universal IQ test.",
+        "It is attributed to all later Nobel laureates without exception.",
+        "It means every prediction about his future was correct."
+      ],
+      "optionsZh": [
+        "表述为人们常这样认为。",
+        "由新提供的全球统一 IQ 测验证明。",
+        "归于所有后来的诺奖得主，无一例外。",
+        "意味着对他未来的每项预测都正确。"
+      ],
+      "answer": 0,
+      "type": "语气与范围",
+      "support": "explicit",
+      "analyses": [
+        "A often considered 标记社会评价归属与频率，非作者新测定。",
+        "B 没有给全球测试或分数。",
+        "C 未有所有诺奖者一致评价的来源。",
+        "D 对聪明的评价不保证未来预测正确，后段明确预测失准。"
+      ],
+      "vocabulary": [
+        {
+          "word": "is often considered",
+          "meaning": "常被认为；经常被视为",
+          "context": "转述评价，不等同提供可复核的绝对排名测量。",
+          "example": "The book is often considered an important early example.",
+          "collocations": [
+            "often considered the smartest",
+            "be considered to be"
+          ]
+        }
+      ],
+      "translation": "William James Sidis 的故事又是一个警示事例。他常被认为是史上最聪明的人。八岁时，他通过 Harvard Medical School 的解剖学考试，也通过 MIT 入学考试。十一岁时，他在 Harvard 作天体物理讲座。",
+      "evidenceTargetIds": [
+        "c07-s01-p071-06795-s002"
+      ],
+      "evidence": [
+        {
+          "quote": "The story of William James Sidis presents another cautionary tale. He is often considered the smartest man to have ever lived. At age eight, he passed the Harvard Medical School’s anatomy exam, as well as the entrance exam to MIT. When Sidis was eleven years old, he gave a lecture on astrophysics at Harvard.",
+          "sentenceIds": [
+            "c07-s01-p071-06795-s001",
+            "c07-s01-p071-06795-s002",
+            "c07-s01-p071-06795-s003",
+            "c07-s01-p071-06795-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 71,
+              "block": 3,
+              "bbox": [
+                76.99,
+                679.5,
+                535.01,
+                713.52
+              ]
+            },
+            {
+              "pdfPage": 72,
+              "block": 0,
+              "bbox": [
+                76.99,
+                75,
+                535.01,
+                245.52
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "e9e23f364c6068d8448bdfe15f485689ffee79f57022461732e8f03578076999"
+    },
+    {
+      "id": "q-c07-030",
+      "version": 1,
+      "readingUnitId": "c07-s01-p071-06795-r005-008",
+      "chapterId": "c07",
+      "sectionId": "c07-s01",
+      "paragraphId": "c07-s01-p071-06795",
+      "sentenceIds": [
+        "c07-s01-p071-06795-s005",
+        "c07-s01-p071-06795-s006",
+        "c07-s01-p071-06795-s007",
+        "c07-s01-p071-06795-s008"
+      ],
+      "passage": "An MIT physics professor in attendance remarked that Sidis would be a great astronomical mathematician and a scientific leader. But the professor’s prediction was wrong. Sidis burned out. Early specialization might dispel interest in other activities in life and could lead to early burnout.",
+      "prompt": "How should “might” and “could” affect the interpretation of the final claim?",
+      "options": [
+        "They present possible risks rather than a guaranteed outcome for every early specialist.",
+        "They prove that early specialisation was Sidis’s only cause of burnout.",
+        "They establish that the professor’s prediction was correct.",
+        "They show that no early specialist can retain other interests."
+      ],
+      "answer": 0,
+      "type": "推断",
+      "promptZh": "might 与 could 应怎样影响对结尾论断的理解？",
+      "optionsZh": [
+        "它们提出可能风险，而非每位早期专攻者必然遭遇的结果。",
+        "它们证明早期专攻是 Sidis 倦怠的唯一原因。",
+        "它们确立那位教授的预测正确。",
+        "它们表明早期专攻者都无法保有其他兴趣。"
+      ],
+      "analyses": [
+        "A 两个情态动词都限制确定程度；人物故事不能替代普遍因果实验。",
+        "B 片段没有排除其他原因或证明唯一原因。",
+        "C 原文明说 prediction was wrong。",
+        "D might dispel 不等于对每个人都必然剥夺兴趣。"
+      ],
+      "evidence": [
+        {
+          "quote": "Early specialization might dispel interest in other activities in life and could lead to early burnout.",
+          "sentenceIds": [
+            "c07-s01-p071-06795-s008"
+          ],
+          "sources": [
+            {
+              "pdfPage": 72,
+              "block": 0,
+              "bbox": [
+                76.99,
+                75,
+                535.01,
+                245.52
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "dispel",
+          "meaning": "消散；驱散；使消退",
+          "context": "此处说其他活动的兴趣可能消退，须保留 might 限定",
+          "example": "The new evidence helped dispel the misunderstanding.",
+          "collocations": [
+            "dispel interest",
+            "dispel a doubt"
+          ]
+        }
+      ],
+      "translation": "在场的一位 MIT 物理教授说，Sidis 将成为伟大的天文数学家与科学领袖。但教授的预测错了。Sidis 耗尽了热情。过早专攻，可能使人对生活中其他活动的兴趣消退，也可能导致早期倦怠。",
+      "support": "inference",
+      "editorialStatus": "PDF 第 69–73 页逐题原页核对；固定原句与来源；区分关联、比较、作者建议、文学引语和反事实；保留原书叙述时点、might/appears 等限定",
+      "fingerprint": "a9b27be135c5e7e6993edbc4ca2995e8730d422ea68d6b763d80f8c8454f814e"
+    },
+    {
+      "id": "qe-c07-0050",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-025",
+      "parentQuestionId": "q-c07-030",
+      "chapterId": "c07",
+      "sectionId": "c07-s01",
+      "paragraphId": "c07-s01-p071-06795",
+      "readingUnitId": "c07-s01-p071-06795-r005-008",
+      "sentenceIds": [
+        "c07-s01-p071-06795-s005",
+        "c07-s01-p071-06795-s006",
+        "c07-s01-p071-06795-s007",
+        "c07-s01-p071-06795-s008"
+      ],
+      "passage": "An MIT physics professor in attendance remarked that Sidis would be a great astronomical mathematician and a scientific leader. But the professor’s prediction was wrong. Sidis burned out. Early specialization might dispel interest in other activities in life and could lead to early burnout.",
+      "prompt": "What was the status of the MIT professor's statement about Sidis?",
+      "promptZh": "MIT 教授对 Sidis 的话属于什么性质？",
+      "options": [
+        "A report that the predicted career had already been completed.",
+        "A future prediction voiced by an attendee at the lecture.",
+        "The result of the later Nobel-versus-Leibniz comparison.",
+        "A direct statement by Sidis about his own final achievements."
+      ],
+      "optionsZh": [
+        "报告所预测职业已全部实现。",
+        "讲座在场者作出的未来预测。",
+        "后来诺奖与 Leibniz 比较的结果。",
+        "Sidis 对自己最终成就的直接陈述。"
+      ],
+      "answer": 1,
+      "type": "观点归属",
+      "support": "explicit",
+      "analyses": [
+        "A would be 表从过去看未来，不是已完成成就。",
+        "B An MIT physics professor in attendance...remarked 清楚标说话人及预测。",
+        "C 不是另一项科学职业研究结果。",
+        "D 不是 Sidis 本人自述，也不据此把讲座地点 Harvard 与教授任职 MIT 混同。"
+      ],
+      "vocabulary": [
+        {
+          "word": "in attendance",
+          "meaning": "在场的；出席的",
+          "context": "说明教授参加了所述讲座，不把他称作讲座的学生主讲者。",
+          "example": "Several researchers were in attendance at the lecture.",
+          "collocations": [
+            "a professor in attendance",
+            "in attendance at a lecture"
+          ]
+        }
+      ],
+      "translation": "在场的一位 MIT 物理教授说，Sidis 将成为伟大的天文数学家与科学领袖。但教授的预测错了。Sidis 耗尽了热情。过早专攻，可能使人对生活中其他活动的兴趣消退，也可能导致早期倦怠。",
+      "evidenceTargetIds": [
+        "c07-s01-p071-06795-s005"
+      ],
+      "evidence": [
+        {
+          "quote": "An MIT physics professor in attendance remarked that Sidis would be a great astronomical mathematician and a scientific leader. But the professor’s prediction was wrong. Sidis burned out. Early specialization might dispel interest in other activities in life and could lead to early burnout.",
+          "sentenceIds": [
+            "c07-s01-p071-06795-s005",
+            "c07-s01-p071-06795-s006",
+            "c07-s01-p071-06795-s007",
+            "c07-s01-p071-06795-s008"
+          ],
+          "sources": [
+            {
+              "pdfPage": 72,
+              "block": 0,
+              "bbox": [
+                76.99,
+                75,
+                535.01,
+                245.52
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "15bbf8e4a71a34ea03db6cf1082a8857b1802d0927760cf48773dc9814c0ea1b"
+    },
+    {
+      "id": "qe-c07-0051",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-025",
+      "parentQuestionId": "q-c07-030",
+      "chapterId": "c07",
+      "sectionId": "c07-s01",
+      "paragraphId": "c07-s01-p071-06795",
+      "readingUnitId": "c07-s01-p071-06795-r005-008",
+      "sentenceIds": [
+        "c07-s01-p071-06795-s005",
+        "c07-s01-p071-06795-s006",
+        "c07-s01-p071-06795-s007",
+        "c07-s01-p071-06795-s008"
+      ],
+      "passage": "An MIT physics professor in attendance remarked that Sidis would be a great astronomical mathematician and a scientific leader. But the professor’s prediction was wrong. Sidis burned out. Early specialization might dispel interest in other activities in life and could lead to early burnout.",
+      "prompt": "What does 'But the professor's prediction was wrong' contrast?",
+      "promptZh": "But the professor's prediction was wrong 对照什么？",
+      "options": [
+        "The professor and Sidis having identical names.",
+        "The professor never attending any lecture.",
+        "The idea that every early achievement was fabricated.",
+        "An optimistic forecast and the later outcome described as burnout."
+      ],
+      "optionsZh": [
+        "教授与 Sidis 姓名完全相同。",
+        "教授从未参加讲座。",
+        "每项早期成就都是编造的主张。",
+        "乐观预言与后来所述倦怠结局。"
+      ],
+      "answer": 3,
+      "type": "逻辑关系",
+      "support": "explicit",
+      "analyses": [
+        "A 不比较姓名。",
+        "B 与 in attendance 不符。",
+        "C 预测落空不等于此前考试讲座是假的。",
+        "D But 引出预测与实际走向差异，后句 burned out 支撑；不推到所有天才必有相同结局。"
+      ],
+      "vocabulary": [
+        {
+          "word": "prediction",
+          "meaning": "预测；对尚未发生之事的判断",
+          "context": "不同于已经观测到的结果；此处明确说未兑现。",
+          "example": "The later results did not match the initial prediction.",
+          "collocations": [
+            "the professor's prediction",
+            "a prediction was wrong"
+          ]
+        }
+      ],
+      "translation": "在场的一位 MIT 物理教授说，Sidis 将成为伟大的天文数学家与科学领袖。但教授的预测错了。Sidis 耗尽了热情。过早专攻，可能使人对生活中其他活动的兴趣消退，也可能导致早期倦怠。",
+      "evidenceTargetIds": [
+        "c07-s01-p071-06795-s006"
+      ],
+      "evidence": [
+        {
+          "quote": "An MIT physics professor in attendance remarked that Sidis would be a great astronomical mathematician and a scientific leader. But the professor’s prediction was wrong. Sidis burned out. Early specialization might dispel interest in other activities in life and could lead to early burnout.",
+          "sentenceIds": [
+            "c07-s01-p071-06795-s005",
+            "c07-s01-p071-06795-s006",
+            "c07-s01-p071-06795-s007",
+            "c07-s01-p071-06795-s008"
+          ],
+          "sources": [
+            {
+              "pdfPage": 72,
+              "block": 0,
+              "bbox": [
+                76.99,
+                75,
+                535.01,
+                245.52
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "96e7c07bd601182ca271d36eba9272936419b07df788c357a68772322576a270"
+    },
+    {
+      "id": "qe-c07-0052",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-025",
+      "parentQuestionId": "q-c07-030",
+      "chapterId": "c07",
+      "sectionId": "c07-s01",
+      "paragraphId": "c07-s01-p071-06795",
+      "readingUnitId": "c07-s01-p071-06795-r005-008",
+      "sentenceIds": [
+        "c07-s01-p071-06795-s005",
+        "c07-s01-p071-06795-s006",
+        "c07-s01-p071-06795-s007",
+        "c07-s01-p071-06795-s008"
+      ],
+      "passage": "An MIT physics professor in attendance remarked that Sidis would be a great astronomical mathematician and a scientific leader. But the professor’s prediction was wrong. Sidis burned out. Early specialization might dispel interest in other activities in life and could lead to early burnout.",
+      "prompt": "What does 'burned out' mean in the Sidis account?",
+      "promptZh": "Sidis 叙述中的 burned out 是什么意思？",
+      "options": [
+        "He was literally injured by a fire at the lecture.",
+        "He lost the ability to remember any fact.",
+        "He became exhausted or lost the drive to continue, as the book describes.",
+        "He fulfilled every optimistic career prediction."
+      ],
+      "optionsZh": [
+        "他在讲座中真的被火烧伤。",
+        "他失去记住任何事实的能力。",
+        "如书中所述，他耗尽精力或继续的动力。",
+        "他兑现所有乐观职业预测。"
+      ],
+      "answer": 2,
+      "type": "语境词义",
+      "support": "explicit",
+      "analyses": [
+        "A burnout 是状态习语，不是火灾事实。",
+        "B 不能加上全面失忆等未提供的病情。",
+        "C 后句说其他兴趣消退及早期倦怠，符合身心动力耗竭。",
+        "D 预测明确 wrong；不据本句作新的临床诊断，也不将 might,could 改为对所有人的确定因果。"
+      ],
+      "vocabulary": [
+        {
+          "word": "burned out",
+          "meaning": "精力或热情耗竭；倦怠",
+          "context": "与火燃尽的比喻有关，但此处不是实体烧伤。",
+          "example": "After months of uninterrupted work, he felt burned out.",
+          "collocations": [
+            "burned out",
+            "early burnout"
+          ]
+        }
+      ],
+      "translation": "在场的一位 MIT 物理教授说，Sidis 将成为伟大的天文数学家与科学领袖。但教授的预测错了。Sidis 耗尽了热情。过早专攻，可能使人对生活中其他活动的兴趣消退，也可能导致早期倦怠。",
+      "evidenceTargetIds": [
+        "c07-s01-p071-06795-s007"
+      ],
+      "evidence": [
+        {
+          "quote": "An MIT physics professor in attendance remarked that Sidis would be a great astronomical mathematician and a scientific leader. But the professor’s prediction was wrong. Sidis burned out. Early specialization might dispel interest in other activities in life and could lead to early burnout.",
+          "sentenceIds": [
+            "c07-s01-p071-06795-s005",
+            "c07-s01-p071-06795-s006",
+            "c07-s01-p071-06795-s007",
+            "c07-s01-p071-06795-s008"
+          ],
+          "sources": [
+            {
+              "pdfPage": 72,
+              "block": 0,
+              "bbox": [
+                76.99,
+                75,
+                535.01,
+                245.52
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "bdf9ce78b382483d9c288950d62cc2f5fab6ab218e94bf959ad53f31b8fbce95"
+    },
+    {
+      "id": "qe-c07-0054",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-025",
+      "parentQuestionId": "q-c07-032",
+      "chapterId": "c07",
+      "sectionId": "c07-s02",
+      "paragraphId": "c07-s02-p072-03015",
+      "readingUnitId": "c07-s02-p072-03015-r001-004",
+      "sentenceIds": [
+        "c07-s02-p072-03015-s001",
+        "c07-s02-p072-03015-s002",
+        "c07-s02-p072-03015-s003",
+        "c07-s02-p072-03015-s004"
+      ],
+      "passage": "The Major League Baseball season is long and grueling, consisting of 33 spring training games, 162 regular season games, and up to 22 postseason games—a total of 217 games! This schedule is especially demanding for Shohei Ohtani of the Dodgers, as he hits in most games and pitches at least once a week. He has grit and confidence. But he also has playfulness.",
+      "prompt": "Which two qualities are named before the contrast about playfulness?",
+      "promptZh": "提到玩心的转折前，点名哪两种品质？",
+      "options": [
+        "Grit and confidence.",
+        "Grit and playfulness.",
+        "Confidence and playfulness.",
+        "Talent and luck."
+      ],
+      "optionsZh": [
+        "坚毅与自信。",
+        "坚毅与玩心。",
+        "自信与玩心。",
+        "天赋与运气。"
+      ],
+      "answer": 0,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A He has grit and confidence 是转折前的完整两项。",
+        "B playfulness 在后一句被 also 增补，不能移到此前两项中。",
+        "C 保留 confidence 却用后句玩心替代 grit，混淆顺序。",
+        "D 其他人物段有天赋描述，当前句没有 luck；增补玩心不取消坚毅自信。"
+      ],
+      "vocabulary": [
+        {
+          "word": "grit",
+          "meaning": "坚毅；长期坚持的韧劲",
+          "context": "不同于字面砂砾，也不保证永远无困难或只许一种投入方式。",
+          "example": "Her grit helped her continue through several setbacks.",
+          "collocations": [
+            "grit and confidence",
+            "have grit"
+          ]
+        }
+      ],
+      "translation": "原书描述，MLB 赛季漫长而艰苦，包括 33 场春训赛、162 场常规赛，以及最多 22 场季后赛——所列上限合计 217 场！这安排对 Dodgers 的 Shohei Ohtani 尤其吃力，书中说他多数比赛打击，至少每周投球一次。他有坚毅与自信，也有玩心。",
+      "evidenceTargetIds": [
+        "c07-s02-p072-03015-s003"
+      ],
+      "evidence": [
+        {
+          "quote": "The Major League Baseball season is long and grueling, consisting of 33 spring training games, 162 regular season games, and up to 22 postseason games—a total of 217 games! This schedule is especially demanding for Shohei Ohtani of the Dodgers, as he hits in most games and pitches at least once a week. He has grit and confidence. But he also has playfulness.",
+          "sentenceIds": [
+            "c07-s02-p072-03015-s001",
+            "c07-s02-p072-03015-s002",
+            "c07-s02-p072-03015-s003",
+            "c07-s02-p072-03015-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 72,
+              "block": 2,
+              "bbox": [
+                76.99,
+                301.5,
+                535,
+                394.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "25b85ff682e2bcee822589a939ec94d0d75361fc67afc4a6cef2bf4d5e416e3c"
+    },
+    {
+      "id": "q-c07-035",
+      "version": 1,
+      "readingUnitId": "c07-s02-p072-05745-r001-004",
+      "chapterId": "c07",
+      "sectionId": "c07-s02",
+      "paragraphId": "c07-s02-p072-05745",
+      "sentenceIds": [
+        "c07-s02-p072-05745-s001",
+        "c07-s02-p072-05745-s002",
+        "c07-s02-p072-05745-s003",
+        "c07-s02-p072-05745-s004"
+      ],
+      "passage": "Shaquille O’Neal is another elite athlete who was feared as well as loved as a player. Unlike his teammate Kobe Bryant, who was known for his grueling work ethic, Shaq was known for not working as hard. In an interview with Patrick Bet-David, Shaq said, “Kobe was a beast, nobody works harder than him…. See, Kobe was just getting married and getting into his family, I’m already four kids in.",
+      "prompt": "Whom does Shaq praise as exceptionally hard-working in the interview quotation?",
+      "options": [
+        "Patrick Bet-David.",
+        "Shohei Ohtani.",
+        "Kobe Bryant.",
+        "Every player on the team without distinction."
+      ],
+      "answer": 2,
+      "type": "细节",
+      "promptZh": "访谈引语中，Shaq 赞扬谁格外勤奋？",
+      "optionsZh": [
+        "帕特里克·贝特-戴维（Patrick Bet-David）。",
+        "大谷翔平（Shohei Ohtani）。",
+        "科比·布莱恩特（Kobe Bryant）。",
+        "全队每个人，不作区别。"
+      ],
+      "analyses": [
+        "A 他是采访者，非这句话所赞扬对象。",
+        "B 这段访谈引语点名的是 Kobe。",
+        "C Kobe was a beast, nobody works harder than him 明确归属。",
+        "D 引语突出一个人，并非全队同等比较。这是 Shaq 访谈中的评价，不是本段对所有球员工时的客观实验测量。"
+      ],
+      "evidence": [
+        {
+          "quote": "“Kobe was a beast, nobody works harder than him",
+          "sentenceIds": [
+            "c07-s02-p072-05745-s003"
+          ],
+          "sources": [
+            {
+              "pdfPage": 72,
+              "block": 4,
+              "bbox": [
+                76.99,
+                574.5,
+                535.01,
+                706.02
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "work ethic",
+          "meaning": "敬业精神；工作投入的态度",
+          "context": "描述 Kobe 对艰苦训练的投入，不是正式工作时数的同义词",
+          "example": "Her strong work ethic was evident in the care she took over each task.",
+          "collocations": [
+            "a strong work ethic",
+            "a grueling work ethic"
+          ]
+        }
+      ],
+      "translation": "Shaquille O’Neal 是另一位顶级运动员，作为球员既令人敬畏，也受人喜爱。与以艰苦训练精神著称的队友 Kobe Bryant 不同，Shaq 被认为没那么刻苦。在 Patrick Bet-David 的采访中，他说：“Kobe 太猛了，没有人比他更努力……那时 Kobe 刚结婚、开始进入家庭生活，而我已是四个孩子的父亲。”",
+      "support": "explicit",
+      "editorialStatus": "PDF 第 69–73 页逐题原页核对；固定原句与来源；区分关联、比较、作者建议、文学引语和反事实；保留原书叙述时点、might/appears 等限定",
+      "fingerprint": "a9afd2d8845dcc5ecca92ff28abbb197e56dc44d0710a462c21422d78a2b026f"
+    }
+  ]
+}
