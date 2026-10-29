@@ -1,0 +1,1726 @@
+{
+  "schemaVersion": 1,
+  "batchId": "question-review-2026-10-28-104",
+  "sourceCommit": "4c22784fa31c4268d237f91d1c69d241f0e90b48",
+  "pdfSha256": "be25c859f1bd894a4b0d1cff024ded1297f6a96a8e8ddabea1e3abcf89160a50",
+  "frozenAt": "2026-10-29T23:20:49.508Z",
+  "questions": [
+    {
+      "id": "q-c11-027",
+      "version": 1,
+      "readingUnitId": "c11-s03-p126-01140-r005-008",
+      "chapterId": "c11",
+      "sectionId": "c11-s03",
+      "paragraphId": "c11-s03-p126-01140",
+      "sentenceIds": [
+        "c11-s03-p126-01140-s005",
+        "c11-s03-p126-01140-s006",
+        "c11-s03-p126-01140-s007",
+        "c11-s03-p126-01140-s008"
+      ],
+      "passage": "It’s nice. And then I would come back to New Orleans to where it was like a bomb had went off.” In 2018, Jordan could still see abandoned homes from Katrina, describing the storm as a “veil” that still covered the city. Despite the long-lasting damage, Jordan said, “I think we’re a better city because of it.",
+      "prompt": "What contrast is introduced by “Despite the long-lasting damage”?",
+      "options": [
+        "Jordan said every abandoned home had been repaired.",
+        "Joe preferred destruction to the beauty of D.C.",
+        "The storm’s impact had disappeared by 2018.",
+        "Persistent visible damage coexisted with Jordan’s positive judgment of the city."
+      ],
+      "answer": 3,
+      "type": "逻辑关系",
+      "promptZh": "Despite long-lasting damage 引入什么对照？",
+      "optionsZh": [
+        "Jordan说所有废屋已修复。",
+        "Joe偏好破坏胜过D.C.美景。",
+        "2018年影响已消失。",
+        "可见长期损害与Jordan对城市的积极评价并存。"
+      ],
+      "analyses": [
+        "A still see abandoned homes 相反。",
+        "B Joe描述冲击，未说偏好破坏。",
+        "C veil仍覆盖城市，非消失。",
+        "D Despite连接损害和I think...better city，后者是Jordan看法，非全城客观净收益测量。bomb是比喻，不改成真实轰炸事件。"
+      ],
+      "evidence": [
+        {
+          "quote": "Despite the long-lasting damage, Jordan said, “I think we’re a better city because of it.",
+          "sentenceIds": [
+            "c11-s03-p126-01140-s008"
+          ],
+          "sources": [
+            {
+              "pdfPage": 126,
+              "block": 1,
+              "bbox": [
+                76.99,
+                114,
+                535.01,
+                401.52
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "veil",
+          "meaning": "面纱；笼罩的阴影",
+          "context": "Jordan以比喻形容风暴影响持续笼罩城市",
+          "example": "The memory cast a veil over the neighborhood.",
+          "collocations": [
+            "a veil covering a city",
+            "long-lasting damage"
+          ]
+        }
+      ],
+      "translation": "“那里很好。回到New Orleans，却像炸弹炸过。”2018年Jordan仍看见Katrina留下的废屋，称风暴是一层仍罩城市的面纱。尽管损害长久，他说：“我觉得因为它，我们城市更好了。（引语续后段）",
+      "support": "explicit",
+      "editorialStatus": "完整PDF122–126原页视觉核对与跨页拼接。Nietzsche病痛回忆为个人归因且保留potential，非医疗试验；Kahneman论文4851为书载2022单年引用非今日累计，SS遭遇为其回忆不臆测照片身份或士兵内心、不美化纳粹迫害。严格区分本人interesting与作者psychologically rich；有意义/幸福非全称。Sandy触电按幸存者叙事译触电不误作死亡；37天住院/36年独立/500美元用途分开。Katrina迁移及2006返回与2018回顾分开，bomb/veil是比喻；幸存者纽带反思与灾难伤害并存，不作人人净获益保证。保留引语跨单元和原句指纹，不宣称逐句直接证据全覆盖。",
+      "fingerprint": "a9e2e660b51a58fe8f50ee88ba98960383d501183cd2864855d36e7577e1d50f"
+    },
+    {
+      "id": "qe-c11-0053",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-049",
+      "parentQuestionId": "q-c11-027",
+      "chapterId": "c11",
+      "sectionId": "c11-s03",
+      "paragraphId": "c11-s03-p126-01140",
+      "readingUnitId": "c11-s03-p126-01140-r005-008",
+      "sentenceIds": [
+        "c11-s03-p126-01140-s005",
+        "c11-s03-p126-01140-s006",
+        "c11-s03-p126-01140-s007",
+        "c11-s03-p126-01140-s008"
+      ],
+      "passage": "It’s nice. And then I would come back to New Orleans to where it was like a bomb had went off.” In 2018, Jordan could still see abandoned homes from Katrina, describing the storm as a “veil” that still covered the city. Despite the long-lasting damage, Jordan said, “I think we’re a better city because of it.",
+      "prompt": "What evaluation does the opening 'It's nice' express before the contrast?",
+      "promptZh": "在转入对比前，开头 It's nice 表达哪种评价？",
+      "options": [
+        "A negative appraisal that everything in that setting was already ruined.",
+        "A positive appraisal of the setting being discussed.",
+        "An exact count of buildings repaired after the hurricane.",
+        "A claim that the damaged city never experienced any harm."
+      ],
+      "optionsZh": [
+        "负面评价：那个环境里一切已毁。",
+        "对正在谈论的环境作正面评价。",
+        "灾后修复建筑的确切数量。",
+        "声称受损城市从未有任何损害。"
+      ],
+      "answer": 1,
+      "type": "作者语气",
+      "support": "explicit",
+      "analyses": [
+        "A nice是正面评价，不能直接等同ruined。",
+        "B nice承接引语中的好环境，后句And then转到回返时的强烈反差。",
+        "C 形容词评价不是修复建筑统计。",
+        "D 只看开头正面词不能覆盖后文损毁描述，且当前片段没有否认城市受害。"
+      ],
+      "vocabulary": [
+        {
+          "word": "nice",
+          "meaning": "好的；让人感觉舒适愉快的",
+          "context": "这里评价环境，不是精确的恢复程度或灾损数值。",
+          "example": "The setting seemed nice before he returned to the damaged neighbourhood.",
+          "collocations": [
+            "It’s nice",
+            "And then I would come back"
+          ]
+        }
+      ],
+      "translation": "“那里很好。回到New Orleans，却像炸弹炸过。”2018年Jordan仍看见Katrina留下的废屋，称风暴是一层仍罩城市的面纱。尽管损害长久，他说：“我觉得因为它，我们城市更好了。（引语续后段）",
+      "evidenceTargetIds": [
+        "c11-s03-p126-01140-s005"
+      ],
+      "evidence": [
+        {
+          "quote": "It’s nice. And then I would come back to New Orleans to where it was like a bomb had went off.” In 2018, Jordan could still see abandoned homes from Katrina, describing the storm as a “veil” that still covered the city. Despite the long-lasting damage, Jordan said, “I think we’re a better city because of it.",
+          "sentenceIds": [
+            "c11-s03-p126-01140-s005",
+            "c11-s03-p126-01140-s006",
+            "c11-s03-p126-01140-s007",
+            "c11-s03-p126-01140-s008"
+          ],
+          "sources": [
+            {
+              "pdfPage": 126,
+              "block": 1,
+              "bbox": [
+                76.99,
+                114,
+                535.01,
+                401.52
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "e244f859837d5774dfd38b1f26ec910d2951c3faec61aae63e78a9ada1b35037"
+    },
+    {
+      "id": "qe-c11-0054",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-049",
+      "parentQuestionId": "q-c11-027",
+      "chapterId": "c11",
+      "sectionId": "c11-s03",
+      "paragraphId": "c11-s03-p126-01140",
+      "readingUnitId": "c11-s03-p126-01140-r005-008",
+      "sentenceIds": [
+        "c11-s03-p126-01140-s005",
+        "c11-s03-p126-01140-s006",
+        "c11-s03-p126-01140-s007",
+        "c11-s03-p126-01140-s008"
+      ],
+      "passage": "It’s nice. And then I would come back to New Orleans to where it was like a bomb had went off.” In 2018, Jordan could still see abandoned homes from Katrina, describing the storm as a “veil” that still covered the city. Despite the long-lasting damage, Jordan said, “I think we’re a better city because of it.",
+      "prompt": "What does Joe's bomb comparison communicate about New Orleans?",
+      "promptZh": "Joe 用炸弹作比较，对New Orleans传达什么？",
+      "options": [
+        "A confirmed report that a bomb, rather than the hurricane, caused all the damage.",
+        "A statement that the city was completely unaffected.",
+        "A technical measurement of the exact energy released by the storm.",
+        "An impression of severe devastation on returning to the city."
+      ],
+      "optionsZh": [
+        "证实所有损害是炸弹而非飓风造成。",
+        "声明该城完全没受影响。",
+        "对风暴释放能量的精确技术测量。",
+        "返回城市时面对严重破坏的印象。"
+      ],
+      "answer": 3,
+      "type": "作者意图",
+      "support": "explicit",
+      "analyses": [
+        "A like标出比较，不能当实际爆炸因果报告。",
+        "B 炸弹意象与完全无损相反。",
+        "C 生动口语描写没有提供物理能量测量。",
+        "D 对比前面nice，呈现返回后的破败印象；原引语had went off照录，不暗中替换成修改后的措辞。"
+      ],
+      "vocabulary": [
+        {
+          "word": "like",
+          "meaning": "像……一样；用来引出比较",
+          "context": "此处是灾后景象的明喻标记，不等于报告真的有炸弹爆炸。",
+          "example": "The street looked like a scene of devastation.",
+          "collocations": [
+            "like a bomb had went off",
+            "come back to New Orleans"
+          ]
+        }
+      ],
+      "translation": "“那里很好。回到New Orleans，却像炸弹炸过。”2018年Jordan仍看见Katrina留下的废屋，称风暴是一层仍罩城市的面纱。尽管损害长久，他说：“我觉得因为它，我们城市更好了。（引语续后段）",
+      "evidenceTargetIds": [
+        "c11-s03-p126-01140-s006"
+      ],
+      "evidence": [
+        {
+          "quote": "It’s nice. And then I would come back to New Orleans to where it was like a bomb had went off.” In 2018, Jordan could still see abandoned homes from Katrina, describing the storm as a “veil” that still covered the city. Despite the long-lasting damage, Jordan said, “I think we’re a better city because of it.",
+          "sentenceIds": [
+            "c11-s03-p126-01140-s005",
+            "c11-s03-p126-01140-s006",
+            "c11-s03-p126-01140-s007",
+            "c11-s03-p126-01140-s008"
+          ],
+          "sources": [
+            {
+              "pdfPage": 126,
+              "block": 1,
+              "bbox": [
+                76.99,
+                114,
+                535.01,
+                401.52
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "f2958cd57a0ec0f96d4148f8a29b11b79a071f853d5b45d8a2efb9230f8dd93e"
+    },
+    {
+      "id": "qe-c11-0055",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-049",
+      "parentQuestionId": "q-c11-027",
+      "chapterId": "c11",
+      "sectionId": "c11-s03",
+      "paragraphId": "c11-s03-p126-01140",
+      "readingUnitId": "c11-s03-p126-01140-r005-008",
+      "sentenceIds": [
+        "c11-s03-p126-01140-s005",
+        "c11-s03-p126-01140-s006",
+        "c11-s03-p126-01140-s007",
+        "c11-s03-p126-01140-s008"
+      ],
+      "passage": "It’s nice. And then I would come back to New Orleans to where it was like a bomb had went off.” In 2018, Jordan could still see abandoned homes from Katrina, describing the storm as a “veil” that still covered the city. Despite the long-lasting damage, Jordan said, “I think we’re a better city because of it.",
+      "prompt": "What does the 'veil' image suggest in Jordan's 2018 description?",
+      "promptZh": "Jordan在2018年的描述中，veil意象暗示什么？",
+      "options": [
+        "The storm's effects still hung over the city, illustrated by abandoned homes.",
+        "All homes had been repaired and no trace of Katrina remained.",
+        "The city was literally covered by one continuous piece of fabric.",
+        "The description concerns only a moment before the storm first arrived."
+      ],
+      "optionsZh": [
+        "风暴影响仍笼罩城市，废弃房屋就是例子。",
+        "所有房屋已修好，Katrina痕迹全无。",
+        "城市真的盖着一整块布料。",
+        "描写只针对风暴首次到来前的一瞬。"
+      ],
+      "answer": 0,
+      "type": "语境词义",
+      "support": "explicit",
+      "analyses": [
+        "A still see abandoned homes与still covered共同强调多年后仍有痕迹。",
+        "B 与still和abandoned homes相反，也擅自扩大为全部修好。",
+        "C veil为笼罩感的比喻，不是布料覆盖的字面测量。",
+        "D In2018、from Katrina表示事后的持续影响，非风暴前。"
+      ],
+      "vocabulary": [
+        {
+          "word": "veil",
+          "meaning": "笼罩物；遮蔽事物的一层影响（比喻义）",
+          "context": "用风暴仍覆盖城市的形象说持续损害，不是每栋房屋同程度受灾的量化结论。",
+          "example": "Years later, the memory of the disaster still felt like a veil over the city.",
+          "collocations": [
+            "a “veil” that still covered the city",
+            "could still see abandoned homes"
+          ]
+        }
+      ],
+      "translation": "“那里很好。回到New Orleans，却像炸弹炸过。”2018年Jordan仍看见Katrina留下的废屋，称风暴是一层仍罩城市的面纱。尽管损害长久，他说：“我觉得因为它，我们城市更好了。（引语续后段）",
+      "evidenceTargetIds": [
+        "c11-s03-p126-01140-s007"
+      ],
+      "evidence": [
+        {
+          "quote": "It’s nice. And then I would come back to New Orleans to where it was like a bomb had went off.” In 2018, Jordan could still see abandoned homes from Katrina, describing the storm as a “veil” that still covered the city. Despite the long-lasting damage, Jordan said, “I think we’re a better city because of it.",
+          "sentenceIds": [
+            "c11-s03-p126-01140-s005",
+            "c11-s03-p126-01140-s006",
+            "c11-s03-p126-01140-s007",
+            "c11-s03-p126-01140-s008"
+          ],
+          "sources": [
+            {
+              "pdfPage": 126,
+              "block": 1,
+              "bbox": [
+                76.99,
+                114,
+                535.01,
+                401.52
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "1517e0da635a49a698771458b44d98c5016a7bf344373b4fa849022506008a65"
+    },
+    {
+      "id": "q-c11-028",
+      "version": 1,
+      "readingUnitId": "c11-s03-p126-01140-r009-012",
+      "chapterId": "c11",
+      "sectionId": "c11-s03",
+      "paragraphId": "c11-s03-p126-01140",
+      "sentenceIds": [
+        "c11-s03-p126-01140-s009",
+        "c11-s03-p126-01140-s010",
+        "c11-s03-p126-01140-s011",
+        "c11-s03-p126-01140-s012"
+      ],
+      "passage": "Much stronger, closer knit. Going through something as significant as Katrina with your loved ones and friends. Those bonds, you know, those are the things that are gonna last forever.” Hurricanes Katrina and Sandy destroyed many people’s lives.",
+      "prompt": "What should be preserved when interpreting the claim of stronger bonds?",
+      "options": [
+        "It is a survivor’s account of closeness alongside explicit acknowledgment of widespread devastation.",
+        "It proves the hurricanes benefited every resident overall.",
+        "The author denies any destruction occurred.",
+        "It establishes that all relationships last forever as a measured fact."
+      ],
+      "answer": 0,
+      "type": "推断",
+      "promptZh": "理解纽带更强时应保留什么？",
+      "optionsZh": [
+        "幸存者讲亲近，同时明确承认广泛毁坏。",
+        "证明飓风使每人总体受益。",
+        "作者否认破坏。",
+        "实测确立所有关系永存。"
+      ],
+      "analyses": [
+        "A 引语说关系长久，随后作者强调destroyed many lives，两面都须保留。",
+        "B 个体反思不能推广为人人净获益。",
+        "C 最后一句明确毁坏。",
+        "D gonna last forever 是受访者感情表达，不是长期测量定律。本段开头延续Jordan引语。"
+      ],
+      "evidence": [
+        {
+          "quote": "Those bonds, you know, those are the things that are gonna last forever.”",
+          "sentenceIds": [
+            "c11-s03-p126-01140-s011"
+          ],
+          "sources": [
+            {
+              "pdfPage": 126,
+              "block": 1,
+              "bbox": [
+                76.99,
+                114,
+                535.01,
+                401.52
+              ]
+            }
+          ]
+        },
+        {
+          "quote": "Hurricanes Katrina and Sandy destroyed many people’s lives.",
+          "sentenceIds": [
+            "c11-s03-p126-01140-s012"
+          ],
+          "sources": [
+            {
+              "pdfPage": 126,
+              "block": 1,
+              "bbox": [
+                76.99,
+                114,
+                535.01,
+                401.52
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "closer knit",
+          "meaning": "关系更紧密的",
+          "context": "受访者感受到亲友群体纽带增强，不代表所有居民",
+          "example": "The volunteers became a closer knit group.",
+          "collocations": [
+            "a closer knit community",
+            "closer knit bonds"
+          ]
+        }
+      ],
+      "translation": "“更坚强，联系更紧密。与亲友经历Katrina这样重大的事，那些纽带，你知道，会永远延续。”Katrina和Sandy摧毁了许多人的生活。",
+      "support": "explicit",
+      "editorialStatus": "完整PDF122–126原页视觉核对与跨页拼接。Nietzsche病痛回忆为个人归因且保留potential，非医疗试验；Kahneman论文4851为书载2022单年引用非今日累计，SS遭遇为其回忆不臆测照片身份或士兵内心、不美化纳粹迫害。严格区分本人interesting与作者psychologically rich；有意义/幸福非全称。Sandy触电按幸存者叙事译触电不误作死亡；37天住院/36年独立/500美元用途分开。Katrina迁移及2006返回与2018回顾分开，bomb/veil是比喻；幸存者纽带反思与灾难伤害并存，不作人人净获益保证。保留引语跨单元和原句指纹，不宣称逐句直接证据全覆盖。",
+      "fingerprint": "0d11c75a90a4e000036918fb11d088a2a7d073f97a8d9fb733f0bf0d4df9bd0c"
+    },
+    {
+      "id": "qe-c11-0056",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-049",
+      "parentQuestionId": "q-c11-028",
+      "chapterId": "c11",
+      "sectionId": "c11-s03",
+      "paragraphId": "c11-s03-p126-01140",
+      "readingUnitId": "c11-s03-p126-01140-r009-012",
+      "sentenceIds": [
+        "c11-s03-p126-01140-s009",
+        "c11-s03-p126-01140-s010",
+        "c11-s03-p126-01140-s011",
+        "c11-s03-p126-01140-s012"
+      ],
+      "passage": "Much stronger, closer knit. Going through something as significant as Katrina with your loved ones and friends. Those bonds, you know, those are the things that are gonna last forever.” Hurricanes Katrina and Sandy destroyed many people’s lives.",
+      "prompt": "What does 'closer knit' mean in the quoted reflection?",
+      "promptZh": "引语里的 closer knit 是什么意思？",
+      "options": [
+        "Every damaged building has been physically knitted back together.",
+        "All residents now hold identical views on every issue.",
+        "The people are more closely connected to one another.",
+        "The speaker has proved that no lasting damage remains."
+      ],
+      "optionsZh": [
+        "每栋受损建筑都已用针线缝合。",
+        "所有居民在任何问题上观点都完全一样。",
+        "人们彼此联系更加紧密。",
+        "说话者已证明没有任何长期损害。"
+      ],
+      "answer": 2,
+      "type": "语境词义",
+      "support": "explicit",
+      "analyses": [
+        "A knit在这里比喻人际联系，不是给房屋针线修补。",
+        "B 更紧密不等于每个观点相同。",
+        "C 与stronger并列，后文loved ones、friends、bonds说明联系更紧密的社会含义。",
+        "D 人际纽带增强不抹去灾害损害；这是说话者回顾，不是完整灾损审计。"
+      ],
+      "vocabulary": [
+        {
+          "word": "closer knit",
+          "meaning": "联系更紧密的；更团结的",
+          "context": "在这段口述中说人的纽带，不是物品编织密度或无灾损保证。",
+          "example": "The neighbours became a closer knit community after helping one another.",
+          "collocations": [
+            "Much stronger, closer knit",
+            "Those bonds"
+          ]
+        }
+      ],
+      "translation": "“更坚强，联系更紧密。与亲友经历Katrina这样重大的事，那些纽带，你知道，会永远延续。”Katrina和Sandy摧毁了许多人的生活。",
+      "evidenceTargetIds": [
+        "c11-s03-p126-01140-s009"
+      ],
+      "evidence": [
+        {
+          "quote": "Much stronger, closer knit.",
+          "sentenceIds": [
+            "c11-s03-p126-01140-s009"
+          ],
+          "sources": [
+            {
+              "pdfPage": 126,
+              "block": 1,
+              "bbox": [
+                76.99,
+                114,
+                535.01,
+                401.52
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "56f0c398c0b4c6143f4b4e31e0f1739a3a106b92504c446b7c8c9e7ba7c735fa"
+    },
+    {
+      "id": "qe-c11-0057",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-050",
+      "parentQuestionId": "q-c11-028",
+      "chapterId": "c11",
+      "sectionId": "c11-s03",
+      "paragraphId": "c11-s03-p126-01140",
+      "readingUnitId": "c11-s03-p126-01140-r009-012",
+      "sentenceIds": [
+        "c11-s03-p126-01140-s009",
+        "c11-s03-p126-01140-s010",
+        "c11-s03-p126-01140-s011",
+        "c11-s03-p126-01140-s012"
+      ],
+      "passage": "Much stronger, closer knit. Going through something as significant as Katrina with your loved ones and friends. Those bonds, you know, those are the things that are gonna last forever.” Hurricanes Katrina and Sandy destroyed many people’s lives.",
+      "prompt": "Which experience is emphasised in the quoted phrase about Katrina?",
+      "promptZh": "有关 Katrina 的引语片段强调哪种经历？",
+      "options": [
+        "Avoiding every contact with relatives throughout the disaster.",
+        "Treating the event as an intentionally chosen holiday.",
+        "A researcher randomly assigning families to experience a hurricane.",
+        "Going through a major event together with loved ones and friends."
+      ],
+      "optionsZh": [
+        "灾难中避开与亲人的一切联系。",
+        "把事件当作主动选择的假期。",
+        "研究者随机分派家庭经历飓风。",
+        "与亲友共同经历重大事件。"
+      ],
+      "answer": 3,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A with your loved ones and friends强调共同经历，不是隔绝。",
+        "B 本章明确为不利、非主动选择的事件，非度假。",
+        "C 口述不是随机让人受灾的试验。",
+        "D Going through...with...逐项对应；后句谈bonds说明其人际主题，但不据此保证每人都会从灾难受益。"
+      ],
+      "vocabulary": [
+        {
+          "word": "Going through",
+          "meaning": "经历；经受某件困难或重要的事",
+          "context": "此处为与亲友一起经受灾难，不是穿过一个具体门口。",
+          "example": "Going through a difficult period together changed their relationship.",
+          "collocations": [
+            "Going through something as significant as Katrina",
+            "with your loved ones and friends"
+          ]
+        }
+      ],
+      "translation": "“更坚强，联系更紧密。与亲友经历Katrina这样重大的事，那些纽带，你知道，会永远延续。”Katrina和Sandy摧毁了许多人的生活。",
+      "evidenceTargetIds": [
+        "c11-s03-p126-01140-s010"
+      ],
+      "evidence": [
+        {
+          "quote": "Much stronger, closer knit. Going through something as significant as Katrina with your loved ones and friends. Those bonds, you know, those are the things that are gonna last forever.” Hurricanes Katrina and Sandy destroyed many people’s lives.",
+          "sentenceIds": [
+            "c11-s03-p126-01140-s009",
+            "c11-s03-p126-01140-s010",
+            "c11-s03-p126-01140-s011",
+            "c11-s03-p126-01140-s012"
+          ],
+          "sources": [
+            {
+              "pdfPage": 126,
+              "block": 1,
+              "bbox": [
+                76.99,
+                114,
+                535.01,
+                401.52
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "f74157613757cee39a1ab5f14e348d9b544bbd0e3e498863ad4ec94713265cd1"
+    },
+    {
+      "id": "q-c11-030",
+      "version": 1,
+      "readingUnitId": "c11-s04-p126-04575-r001-004",
+      "chapterId": "c11",
+      "sectionId": "c11-s04",
+      "paragraphId": "c11-s04-p126-04575",
+      "sentenceIds": [
+        "c11-s04-p126-04575-s001",
+        "c11-s04-p126-04575-s002",
+        "c11-s04-p126-04575-s003",
+        "c11-s04-p126-04575-s004"
+      ],
+      "passage": "On January 17, 1995, a magnitude 7.3 earthquake shook Kobe and the surrounding areas of Japan. Known as the Hanshin-Awaji earthquake, its epicenter was close to downtown Kobe, a city with a population of 1.42 million people. Collapsed houses, ruined highways, and fires made it look like a war zone. Over 100,000 homes were completely destroyed and over 6,400 people died.",
+      "prompt": "Which numerical statement matches the account of the earthquake?",
+      "options": [
+        "The earthquake struck in 2001 with magnitude 1.42.",
+        "Exactly 100,000 people died.",
+        "More than 100,000 homes were completely destroyed.",
+        "Kobe had only 6,400 residents."
+      ],
+      "answer": 2,
+      "type": "细节",
+      "promptZh": "哪项数字与地震叙述一致？",
+      "optionsZh": [
+        "2001年发生，震级1.42。",
+        "恰好十万人死亡。",
+        "逾十万住宅彻底毁坏。",
+        "Kobe只有6400居民。"
+      ],
+      "analyses": [
+        "A 1995年1月17日、7.3级；1.42百万是人口。",
+        "B 十万为住宅，死亡逾6400且不是恰好。",
+        "C 数量、对象、程度都准确。",
+        "D 6400为死亡人数阈值，非人口。war zone为外观比喻，不是战争史。"
+      ],
+      "evidence": [
+        {
+          "quote": "Over 100,000 homes were completely destroyed and over 6,400 people died.",
+          "sentenceIds": [
+            "c11-s04-p126-04575-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 126,
+              "block": 3,
+              "bbox": [
+                76.99,
+                457.5,
+                535.01,
+                608.52
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "epicenter",
+          "meaning": "震中",
+          "context": "书中说靠近Kobe市中心，不等于全区域震度相同",
+          "example": "The epicenter was close to the city center.",
+          "collocations": [
+            "earthquake epicenter",
+            "close to the epicenter"
+          ]
+        }
+      ],
+      "translation": "1995年1月17日，7.3级地震震动Kobe及周边，称Hanshin-Awaji地震。震中近市中心，Kobe人口142万。倒塌房屋、毁坏公路和火灾使它看似战区。逾十万住宅彻底毁坏，逾6400人死亡。",
+      "support": "explicit",
+      "editorialStatus": "完整PDF126–130原页视觉核对及跨页拼接。Kobe物理修复和心理伤痕分开，调查波次与作者休假年分开，房损/失亲同时分析不作随机因果或变量全无关联。Solnit为引语/作者阐释，电视职业愿望为作者回忆。四川震前后为同校新组，as if/presumably保留，非研究者随机分配灾害；100供选/10获得/平均略逾1至约4为九岁结果，不补六岁或长期个体变化。市政申请按每职位且非实际就职，1989–2000与1995变化分开。COVID接触包括本人/家属/熟人，捐款奖金/加倍与结果分开，作者made价值解释不升级成随机感染因果或医学建议。承认长期损害，不强加受害者获益/感恩；不宣称逐句证据全覆盖。",
+      "fingerprint": "148025610749601937702ecaa639b4ca77a4ca4e81e5ebefe7771e302c8d7091"
+    },
+    {
+      "id": "qe-c11-0058",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-050",
+      "parentQuestionId": "q-c11-030",
+      "chapterId": "c11",
+      "sectionId": "c11-s04",
+      "paragraphId": "c11-s04-p126-04575",
+      "readingUnitId": "c11-s04-p126-04575-r001-004",
+      "sentenceIds": [
+        "c11-s04-p126-04575-s001",
+        "c11-s04-p126-04575-s002",
+        "c11-s04-p126-04575-s003",
+        "c11-s04-p126-04575-s004"
+      ],
+      "passage": "On January 17, 1995, a magnitude 7.3 earthquake shook Kobe and the surrounding areas of Japan. Known as the Hanshin-Awaji earthquake, its epicenter was close to downtown Kobe, a city with a population of 1.42 million people. Collapsed houses, ruined highways, and fires made it look like a war zone. Over 100,000 homes were completely destroyed and over 6,400 people died.",
+      "prompt": "Which details identify the earthquake introduced in the passage?",
+      "promptZh": "哪些细节标识了文中引入的地震？",
+      "options": [
+        "January 17, 1995; magnitude 7.3; Kobe and surrounding areas.",
+        "May 12, 2008; magnitude 7.3; Kobe alone.",
+        "January 17, 1995; magnitude 7.9; Sichuan and its surrounding areas.",
+        "October 29, 2012; magnitude 7.3; New York City."
+      ],
+      "optionsZh": [
+        "1995年1月17日；7.3级；Kobe及周边。",
+        "2008年5月12日；7.3级；仅Kobe。",
+        "1995年1月17日；7.9级；Sichuan及周边。",
+        "2012年10月29日；7.3级；New York City。"
+      ],
+      "answer": 0,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A 日期、量级、地点三组信息均对应。",
+        "B 混入Sichuan日期且把周边删去。",
+        "C 混入另一地震的量级与地点。",
+        "D Sandy日期地点不是本句地震；保留书中历史数值，不替换成自行校正的测量口径。"
+      ],
+      "vocabulary": [
+        {
+          "word": "magnitude",
+          "meaning": "震级；此处为地震强度量级的数值",
+          "context": "7.3属于震级，不能与人口或损毁房数混为同一单位。",
+          "example": "The report identifies an earthquake of magnitude 7.3.",
+          "collocations": [
+            "a magnitude 7.3 earthquake",
+            "Kobe and the surrounding areas"
+          ]
+        }
+      ],
+      "translation": "1995年1月17日，7.3级地震震动Kobe及周边，称Hanshin-Awaji地震。震中近市中心，Kobe人口142万。倒塌房屋、毁坏公路和火灾使它看似战区。逾十万住宅彻底毁坏，逾6400人死亡。",
+      "evidenceTargetIds": [
+        "c11-s04-p126-04575-s001"
+      ],
+      "evidence": [
+        {
+          "quote": "On January 17, 1995, a magnitude 7.3 earthquake shook Kobe and the surrounding areas of Japan. Known as the Hanshin-Awaji earthquake, its epicenter was close to downtown Kobe, a city with a population of 1.42 million people. Collapsed houses, ruined highways, and fires made it look like a war zone. Over 100,000 homes were completely destroyed and over 6,400 people died.",
+          "sentenceIds": [
+            "c11-s04-p126-04575-s001",
+            "c11-s04-p126-04575-s002",
+            "c11-s04-p126-04575-s003",
+            "c11-s04-p126-04575-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 126,
+              "block": 3,
+              "bbox": [
+                76.99,
+                457.5,
+                535.01,
+                608.52
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "63f504df65415c7db060e0f7ae91e4a9f8c57de2a7f04633a01ac5eb7df41e59"
+    },
+    {
+      "id": "qe-c11-0059",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-050",
+      "parentQuestionId": "q-c11-030",
+      "chapterId": "c11",
+      "sectionId": "c11-s04",
+      "paragraphId": "c11-s04-p126-04575",
+      "readingUnitId": "c11-s04-p126-04575-r001-004",
+      "sentenceIds": [
+        "c11-s04-p126-04575-s001",
+        "c11-s04-p126-04575-s002",
+        "c11-s04-p126-04575-s003",
+        "c11-s04-p126-04575-s004"
+      ],
+      "passage": "On January 17, 1995, a magnitude 7.3 earthquake shook Kobe and the surrounding areas of Japan. Known as the Hanshin-Awaji earthquake, its epicenter was close to downtown Kobe, a city with a population of 1.42 million people. Collapsed houses, ruined highways, and fires made it look like a war zone. Over 100,000 homes were completely destroyed and over 6,400 people died.",
+      "prompt": "What does the figure 1.42 million refer to in the sentence?",
+      "promptZh": "句中 1.42 million 指什么？",
+      "options": [
+        "The exact number of homes destroyed by the earthquake.",
+        "Kobe's population, not the earthquake's death toll.",
+        "The distance in kilometres from the epicentre to downtown Kobe.",
+        "The number of people who died in the earthquake."
+      ],
+      "optionsZh": [
+        "地震损毁住宅的确切数量。",
+        "Kobe的人口，而非地震死亡人数。",
+        "震中距Kobe市中心的公里数。",
+        "地震死亡人数。"
+      ],
+      "answer": 1,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A 后面住宅损毁是over100000，不是此人口数字。",
+        "B a city with a population of直接标明数字修饰对象。",
+        "C near downtown说明位置，没有给1.42million公里。",
+        "D 不把城市总人口换成伤亡数；原句也没有说全城人口均受同等损害。"
+      ],
+      "vocabulary": [
+        {
+          "word": "epicenter",
+          "meaning": "震中；地震在地表的对应中心位置",
+          "context": "此处说明其靠近Kobe市中心，不是人口总数的单位。",
+          "example": "The epicenter was close to the city centre.",
+          "collocations": [
+            "its epicenter was close to downtown Kobe",
+            "a population of 1.42 million people"
+          ]
+        }
+      ],
+      "translation": "1995年1月17日，7.3级地震震动Kobe及周边，称Hanshin-Awaji地震。震中近市中心，Kobe人口142万。倒塌房屋、毁坏公路和火灾使它看似战区。逾十万住宅彻底毁坏，逾6400人死亡。",
+      "evidenceTargetIds": [
+        "c11-s04-p126-04575-s002"
+      ],
+      "evidence": [
+        {
+          "quote": "On January 17, 1995, a magnitude 7.3 earthquake shook Kobe and the surrounding areas of Japan. Known as the Hanshin-Awaji earthquake, its epicenter was close to downtown Kobe, a city with a population of 1.42 million people. Collapsed houses, ruined highways, and fires made it look like a war zone. Over 100,000 homes were completely destroyed and over 6,400 people died.",
+          "sentenceIds": [
+            "c11-s04-p126-04575-s001",
+            "c11-s04-p126-04575-s002",
+            "c11-s04-p126-04575-s003",
+            "c11-s04-p126-04575-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 126,
+              "block": 3,
+              "bbox": [
+                76.99,
+                457.5,
+                535.01,
+                608.52
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "b3f1c72da63860fae991d0df10781a07e7ebc69f6347e76dd647c45084d8908b"
+    },
+    {
+      "id": "qe-c11-0060",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-050",
+      "parentQuestionId": "q-c11-030",
+      "chapterId": "c11",
+      "sectionId": "c11-s04",
+      "paragraphId": "c11-s04-p126-04575",
+      "readingUnitId": "c11-s04-p126-04575-r001-004",
+      "sentenceIds": [
+        "c11-s04-p126-04575-s001",
+        "c11-s04-p126-04575-s002",
+        "c11-s04-p126-04575-s003",
+        "c11-s04-p126-04575-s004"
+      ],
+      "passage": "On January 17, 1995, a magnitude 7.3 earthquake shook Kobe and the surrounding areas of Japan. Known as the Hanshin-Awaji earthquake, its epicenter was close to downtown Kobe, a city with a population of 1.42 million people. Collapsed houses, ruined highways, and fires made it look like a war zone. Over 100,000 homes were completely destroyed and over 6,400 people died.",
+      "prompt": "What is the purpose of the 'war zone' comparison?",
+      "promptZh": "war zone 这一比较起什么作用？",
+      "options": [
+        "To prove the earthquake was caused by an armed conflict.",
+        "To state that all roads were unharmed and no fires occurred.",
+        "To convey the severe appearance of collapsed houses, damaged highways, and fires.",
+        "To classify every resident as a member of an army."
+      ],
+      "optionsZh": [
+        "证明地震由武装冲突造成。",
+        "说明所有公路无损、没有火灾。",
+        "传达房屋倒塌、公路损毁与火灾造成的严重破坏景象。",
+        "把每位居民归类为军人。"
+      ],
+      "answer": 2,
+      "type": "作者意图",
+      "support": "explicit",
+      "analyses": [
+        "A look like是外观比较，不是地震成因。",
+        "B ruined highways和fires均明示损害。",
+        "C 三个并列景象使it看似战区，侧重破坏之严重。",
+        "D 地区外观的比喻不改变居民身份。"
+      ],
+      "vocabulary": [
+        {
+          "word": "war zone",
+          "meaning": "战区；这里比喻遭严重破坏的区域",
+          "context": "look like保留相似景象，而非确认战争实际发生。",
+          "example": "The ruined neighbourhood looked like a war zone.",
+          "collocations": [
+            "look like a war zone",
+            "Collapsed houses, ruined highways, and fires"
+          ]
+        }
+      ],
+      "translation": "1995年1月17日，7.3级地震震动Kobe及周边，称Hanshin-Awaji地震。震中近市中心，Kobe人口142万。倒塌房屋、毁坏公路和火灾使它看似战区。逾十万住宅彻底毁坏，逾6400人死亡。",
+      "evidenceTargetIds": [
+        "c11-s04-p126-04575-s003"
+      ],
+      "evidence": [
+        {
+          "quote": "On January 17, 1995, a magnitude 7.3 earthquake shook Kobe and the surrounding areas of Japan. Known as the Hanshin-Awaji earthquake, its epicenter was close to downtown Kobe, a city with a population of 1.42 million people. Collapsed houses, ruined highways, and fires made it look like a war zone. Over 100,000 homes were completely destroyed and over 6,400 people died.",
+          "sentenceIds": [
+            "c11-s04-p126-04575-s001",
+            "c11-s04-p126-04575-s002",
+            "c11-s04-p126-04575-s003",
+            "c11-s04-p126-04575-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 126,
+              "block": 3,
+              "bbox": [
+                76.99,
+                457.5,
+                535.01,
+                608.52
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "5e04f2b77c303d1e3e03f51da66b01950b1f2a57f330148a404cbea6d60ce6c3"
+    },
+    {
+      "id": "q-c11-031",
+      "version": 1,
+      "readingUnitId": "c11-s04-p126-04575-r005-006",
+      "chapterId": "c11",
+      "sectionId": "c11-s04",
+      "paragraphId": "c11-s04-p126-04575",
+      "sentenceIds": [
+        "c11-s04-p126-04575-s005",
+        "c11-s04-p126-04575-s006"
+      ],
+      "passage": "In Japan, the Tokyo and Tohoku areas are known for frequent earthquakes, whereas the Kobe and Kansai areas are not. So this earthquake surprised and devastated Kobe residents.",
+      "prompt": "Why does the author say residents were surprised?",
+      "options": [
+        "Kobe was described as the most earthquake-prone area.",
+        "No damage occurred in Kobe.",
+        "Tokyo had experienced this same earthquake first.",
+        "Kobe and Kansai were not known for frequent earthquakes, unlike Tokyo and Tohoku."
+      ],
+      "answer": 3,
+      "type": "逻辑关系",
+      "promptZh": "作者为何说居民惊讶？",
+      "optionsZh": [
+        "Kobe被描写为最频繁地震区。",
+        "Kobe无损害。",
+        "Tokyo先经历同场地震。",
+        "不同于Tokyo和Tohoku，Kobe和Kansai不以频震闻名。"
+      ],
+      "analyses": [
+        "A 与are not相反。",
+        "B devastated明确遭重创。",
+        "C 无同场先后事件。",
+        "D whereas...not 后So构成惊讶原因；不以频繁闻名不等于历史上从无地震。"
+      ],
+      "evidence": [
+        {
+          "quote": "the Tokyo and Tohoku areas are known for frequent earthquakes, whereas the Kobe and Kansai areas are not.",
+          "sentenceIds": [
+            "c11-s04-p126-04575-s005"
+          ],
+          "sources": [
+            {
+              "pdfPage": 126,
+              "block": 3,
+              "bbox": [
+                76.99,
+                457.5,
+                535.01,
+                608.52
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "whereas",
+          "meaning": "而；然而",
+          "context": "连接两个地区在频繁地震名声上的对比",
+          "example": "One area was familiar with the risk, whereas the other was not.",
+          "collocations": [
+            "whereas...are not",
+            "contrast with whereas"
+          ]
+        }
+      ],
+      "translation": "在日本，Tokyo和Tohoku以地震频繁著称，Kobe及Kansai却不是。因此，这次地震令Kobe居民惊讶而深受创伤。",
+      "support": "explicit",
+      "editorialStatus": "完整PDF126–130原页视觉核对及跨页拼接。Kobe物理修复和心理伤痕分开，调查波次与作者休假年分开，房损/失亲同时分析不作随机因果或变量全无关联。Solnit为引语/作者阐释，电视职业愿望为作者回忆。四川震前后为同校新组，as if/presumably保留，非研究者随机分配灾害；100供选/10获得/平均略逾1至约4为九岁结果，不补六岁或长期个体变化。市政申请按每职位且非实际就职，1989–2000与1995变化分开。COVID接触包括本人/家属/熟人，捐款奖金/加倍与结果分开，作者made价值解释不升级成随机感染因果或医学建议。承认长期损害，不强加受害者获益/感恩；不宣称逐句证据全覆盖。",
+      "fingerprint": "293fe682a5aec25dbd8dc0ad30807c0e9fc178b4578680f5f085daace2d603e3"
+    },
+    {
+      "id": "qe-c11-0061",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-050",
+      "parentQuestionId": "q-c11-031",
+      "chapterId": "c11",
+      "sectionId": "c11-s04",
+      "paragraphId": "c11-s04-p126-04575",
+      "readingUnitId": "c11-s04-p126-04575-r005-006",
+      "sentenceIds": [
+        "c11-s04-p126-04575-s005",
+        "c11-s04-p126-04575-s006"
+      ],
+      "passage": "In Japan, the Tokyo and Tohoku areas are known for frequent earthquakes, whereas the Kobe and Kansai areas are not. So this earthquake surprised and devastated Kobe residents.",
+      "prompt": "What does 'So' connect the residents' reaction to?",
+      "promptZh": "So 把居民反应与什么联系起来？",
+      "options": [
+        "The preceding contrast between earthquake-prone areas and Kobe's less expected exposure.",
+        "A claim that Tokyo had never experienced any earthquake.",
+        "A guarantee that Kobe could not be affected by a future earthquake.",
+        "The fact that every resident had expected precisely this devastation."
+      ],
+      "optionsZh": [
+        "前面地震频繁地区与Kobe较少预期风险的对照。",
+        "Tokyo从未发生地震的说法。",
+        "保证Kobe未来不可能遇地震。",
+        "每位居民都精确预期了这场重创这一事实。"
+      ],
+      "answer": 0,
+      "type": "逻辑关系",
+      "support": "explicit",
+      "analyses": [
+        "A 前句known for frequent earthquakes与Kobe/Kansai are not形成背景，So承接surprised and devastated的描述。",
+        "B 原文说Tokyo和Tohoku以频繁地震著称，不是从无地震。",
+        "C 不以频繁地震著称不等于绝不可能受灾。",
+        "D surprised与全员已精确预期相反，且原文未逐人测其预期。"
+      ],
+      "vocabulary": [
+        {
+          "word": "devastated",
+          "meaning": "深受打击的；遭重创的",
+          "context": "此处形容居民受到的严重影响，包含情绪与生活上的打击，不等于每人同一临床诊断。",
+          "example": "The sudden disaster left residents devastated.",
+          "collocations": [
+            "surprised and devastated Kobe residents",
+            "So this earthquake"
+          ]
+        }
+      ],
+      "translation": "在日本，Tokyo和Tohoku以地震频繁著称，Kobe及Kansai却不是。因此，这次地震令Kobe居民惊讶而深受创伤。",
+      "evidenceTargetIds": [
+        "c11-s04-p126-04575-s006"
+      ],
+      "evidence": [
+        {
+          "quote": "In Japan, the Tokyo and Tohoku areas are known for frequent earthquakes, whereas the Kobe and Kansai areas are not. So this earthquake surprised and devastated Kobe residents.",
+          "sentenceIds": [
+            "c11-s04-p126-04575-s005",
+            "c11-s04-p126-04575-s006"
+          ],
+          "sources": [
+            {
+              "pdfPage": 126,
+              "block": 3,
+              "bbox": [
+                76.99,
+                457.5,
+                535.01,
+                608.52
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "bbd49870edcf8ea4ee97fe1132f5536210e08b8b44a7b14dfe33fec18c5add37"
+    },
+    {
+      "id": "q-c11-032",
+      "version": 1,
+      "readingUnitId": "c11-s04-p126-06135-r001-004",
+      "chapterId": "c11",
+      "sectionId": "c11-s04",
+      "paragraphId": "c11-s04-p126-06135",
+      "sentenceIds": [
+        "c11-s04-p126-06135-s001",
+        "c11-s04-p126-06135-s002",
+        "c11-s04-p126-06135-s003",
+        "c11-s04-p126-06135-s004"
+      ],
+      "passage": "How deep are the psychological scars that these experiences leave? To investigate, I spent my sabbatical year (2012–2013) in Kobe. I analyzed the Hyogo Life Recovery Surveys, which were conducted across the city of Kobe and its surrounding areas in 2001, 2003, 2005, and 2011. Insurance companies examined damaged homes and classified them into four categories: complete damage, half, partial, and none.",
+      "prompt": "Who classified the damaged homes into four categories?",
+      "options": [
+        "Children selecting stickers.",
+        "Insurance companies examining the homes.",
+        "Applicants for municipal jobs.",
+        "The author during the 1995 earthquake itself."
+      ],
+      "answer": 1,
+      "type": "细节",
+      "promptZh": "谁将受损住宅分为四类？",
+      "optionsZh": [
+        "挑贴纸儿童。",
+        "检查住宅的保险公司。",
+        "市政岗位求职者。",
+        "作者在1995年地震现场。"
+      ],
+      "analyses": [
+        "A 属后续不同研究。",
+        "B Insurance companies examined...classified明示。",
+        "C 不属损害分级。",
+        "D 作者2012–2013休假研究，非1995现场分级。调查年份2001/2003/2005/2011与作者分析时间分开。"
+      ],
+      "evidence": [
+        {
+          "quote": "Insurance companies examined damaged homes and classified them into four categories",
+          "sentenceIds": [
+            "c11-s04-p126-06135-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 126,
+              "block": 4,
+              "bbox": [
+                76.99,
+                613.5,
+                535.01,
+                706.02
+              ]
+            },
+            {
+              "pdfPage": 127,
+              "block": 0,
+              "bbox": [
+                76.99,
+                75,
+                535.01,
+                187.02
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "sabbatical",
+          "meaning": "学术休假的",
+          "context": "研究者在2012–2013驻Kobe，区别调查收集年份",
+          "example": "She spent her sabbatical year studying recovery.",
+          "collocations": [
+            "sabbatical year",
+            "spend a sabbatical in"
+          ]
+        }
+      ],
+      "translation": "这些经历留下多深心理伤痕？为调查，我在Kobe度过2012–2013学术休假年，分析Hyogo Life Recovery Surveys。调查于2001、2003、2005、2011在Kobe及周边进行。保险公司检查住宅，分完全损坏、半损、部分损坏、无损四类。",
+      "support": "explicit",
+      "editorialStatus": "完整PDF126–130原页视觉核对及跨页拼接。Kobe物理修复和心理伤痕分开，调查波次与作者休假年分开，房损/失亲同时分析不作随机因果或变量全无关联。Solnit为引语/作者阐释，电视职业愿望为作者回忆。四川震前后为同校新组，as if/presumably保留，非研究者随机分配灾害；100供选/10获得/平均略逾1至约4为九岁结果，不补六岁或长期个体变化。市政申请按每职位且非实际就职，1989–2000与1995变化分开。COVID接触包括本人/家属/熟人，捐款奖金/加倍与结果分开，作者made价值解释不升级成随机感染因果或医学建议。承认长期损害，不强加受害者获益/感恩；不宣称逐句证据全覆盖。",
+      "fingerprint": "9427957eb2234016daef4144e37be48afd01b64bd857576f6cbca6711c7c7c02"
+    },
+    {
+      "id": "qe-c11-0062",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-050",
+      "parentQuestionId": "q-c11-032",
+      "chapterId": "c11",
+      "sectionId": "c11-s04",
+      "paragraphId": "c11-s04-p126-06135",
+      "readingUnitId": "c11-s04-p126-06135-r001-004",
+      "sentenceIds": [
+        "c11-s04-p126-06135-s001",
+        "c11-s04-p126-06135-s002",
+        "c11-s04-p126-06135-s003",
+        "c11-s04-p126-06135-s004"
+      ],
+      "passage": "How deep are the psychological scars that these experiences leave? To investigate, I spent my sabbatical year (2012–2013) in Kobe. I analyzed the Hyogo Life Recovery Surveys, which were conducted across the city of Kobe and its surrounding areas in 2001, 2003, 2005, and 2011. Insurance companies examined damaged homes and classified them into four categories: complete damage, half, partial, and none.",
+      "prompt": "What does the question about psychological scars introduce?",
+      "promptZh": "有关 psychological scars 的问句引入什么议题？",
+      "options": [
+        "Only an architectural plan for rebuilding the same houses.",
+        "The depth of the experiences' lasting psychological effects.",
+        "A count of visible cuts on each person's skin.",
+        "Proof that all emotional effects had already disappeared."
+      ],
+      "optionsZh": [
+        "仅是重建同样住宅的建筑方案。",
+        "这些经历留下的心理影响有多深。",
+        "逐人数皮肤可见伤口。",
+        "所有情绪影响已消失的证明。"
+      ],
+      "answer": 1,
+      "type": "篇章结构",
+      "support": "explicit",
+      "analyses": [
+        "A psychological明确心理层面，非仅建筑图。",
+        "B scars比喻留下的伤痕，问句为后续调查作引入。",
+        "C 这里不是测皮肤疤痕的医学检查。",
+        "D How deep提出问题，不能当作影响已全无的结论。"
+      ],
+      "vocabulary": [
+        {
+          "word": "psychological scars",
+          "meaning": "心理伤痕；经历留下的持续心理影响",
+          "context": "此处为比喻，不是皮肤伤疤或预先确定的个人诊断。",
+          "example": "The study asked how long the psychological scars might remain.",
+          "collocations": [
+            "How deep are the psychological scars",
+            "these experiences leave"
+          ]
+        }
+      ],
+      "translation": "这些经历留下多深心理伤痕？为调查，我在Kobe度过2012–2013学术休假年，分析Hyogo Life Recovery Surveys。调查于2001、2003、2005、2011在Kobe及周边进行。保险公司检查住宅，分完全损坏、半损、部分损坏、无损四类。",
+      "evidenceTargetIds": [
+        "c11-s04-p126-06135-s001"
+      ],
+      "evidence": [
+        {
+          "quote": "How deep are the psychological scars that these experiences leave? To investigate, I spent my sabbatical year (2012–2013) in Kobe. I analyzed the Hyogo Life Recovery Surveys, which were conducted across the city of Kobe and its surrounding areas in 2001, 2003, 2005, and 2011. Insurance companies examined damaged homes and classified them into four categories: complete damage, half, partial, and none.",
+          "sentenceIds": [
+            "c11-s04-p126-06135-s001",
+            "c11-s04-p126-06135-s002",
+            "c11-s04-p126-06135-s003",
+            "c11-s04-p126-06135-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 126,
+              "block": 4,
+              "bbox": [
+                76.99,
+                613.5,
+                535.01,
+                706.02
+              ]
+            },
+            {
+              "pdfPage": 127,
+              "block": 0,
+              "bbox": [
+                76.99,
+                75,
+                535.01,
+                187.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "93164b65aca37ac6a7db9267fddfc21852067dc01f819e812e6ccb252a8ef588"
+    },
+    {
+      "id": "qe-c11-0063",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-050",
+      "parentQuestionId": "q-c11-032",
+      "chapterId": "c11",
+      "sectionId": "c11-s04",
+      "paragraphId": "c11-s04-p126-06135",
+      "readingUnitId": "c11-s04-p126-06135-r001-004",
+      "sentenceIds": [
+        "c11-s04-p126-06135-s001",
+        "c11-s04-p126-06135-s002",
+        "c11-s04-p126-06135-s003",
+        "c11-s04-p126-06135-s004"
+      ],
+      "passage": "How deep are the psychological scars that these experiences leave? To investigate, I spent my sabbatical year (2012–2013) in Kobe. I analyzed the Hyogo Life Recovery Surveys, which were conducted across the city of Kobe and its surrounding areas in 2001, 2003, 2005, and 2011. Insurance companies examined damaged homes and classified them into four categories: complete damage, half, partial, and none.",
+      "prompt": "What did the author do in order to investigate the question?",
+      "promptZh": "为调查这一问题，作者做了什么？",
+      "options": [
+        "He spent his sabbatical in Kobe in 1995, the year the earthquake occurred.",
+        "He moved the first survey date to 2013 without explanation.",
+        "He spent his sabbatical year, 2012–2013, in Kobe.",
+        "He assigned every resident to live abroad for one year."
+      ],
+      "optionsZh": [
+        "他在地震发生的1995年于Kobe度过学术休假。",
+        "他不加解释地把首次调查日期改成2013。",
+        "他在Kobe度过2012–2013学术休假年。",
+        "他分派每位居民出国住一年。"
+      ],
+      "answer": 2,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A 混淆事件时间1995和学术休假时间2012–2013。",
+        "B 后句调查多年份早已给出，休假分析并非改写资料日期。",
+        "C To investigate给目的，I spent...year(2012–2013)in Kobe给行动、时间、地点。",
+        "D 不是居民随机迁移实验。"
+      ],
+      "vocabulary": [
+        {
+          "word": "sabbatical year",
+          "meaning": "学术休假年；暂离常规教学等工作以研究的时期",
+          "context": "这里是作者2012–2013的研究安排，不是地震发生年份。",
+          "example": "She spent her sabbatical year analysing recovery surveys.",
+          "collocations": [
+            "my sabbatical year (2012–2013)",
+            "To investigate"
+          ]
+        }
+      ],
+      "translation": "这些经历留下多深心理伤痕？为调查，我在Kobe度过2012–2013学术休假年，分析Hyogo Life Recovery Surveys。调查于2001、2003、2005、2011在Kobe及周边进行。保险公司检查住宅，分完全损坏、半损、部分损坏、无损四类。",
+      "evidenceTargetIds": [
+        "c11-s04-p126-06135-s002"
+      ],
+      "evidence": [
+        {
+          "quote": "How deep are the psychological scars that these experiences leave? To investigate, I spent my sabbatical year (2012–2013) in Kobe. I analyzed the Hyogo Life Recovery Surveys, which were conducted across the city of Kobe and its surrounding areas in 2001, 2003, 2005, and 2011. Insurance companies examined damaged homes and classified them into four categories: complete damage, half, partial, and none.",
+          "sentenceIds": [
+            "c11-s04-p126-06135-s001",
+            "c11-s04-p126-06135-s002",
+            "c11-s04-p126-06135-s003",
+            "c11-s04-p126-06135-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 126,
+              "block": 4,
+              "bbox": [
+                76.99,
+                613.5,
+                535.01,
+                706.02
+              ]
+            },
+            {
+              "pdfPage": 127,
+              "block": 0,
+              "bbox": [
+                76.99,
+                75,
+                535.01,
+                187.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "1dedb47af7e3aed7b6897b14397774cb13b40af976b26b17ce5561ce93d1a9a6"
+    },
+    {
+      "id": "qe-c11-0064",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-050",
+      "parentQuestionId": "q-c11-032",
+      "chapterId": "c11",
+      "sectionId": "c11-s04",
+      "paragraphId": "c11-s04-p126-06135",
+      "readingUnitId": "c11-s04-p126-06135-r001-004",
+      "sentenceIds": [
+        "c11-s04-p126-06135-s001",
+        "c11-s04-p126-06135-s002",
+        "c11-s04-p126-06135-s003",
+        "c11-s04-p126-06135-s004"
+      ],
+      "passage": "How deep are the psychological scars that these experiences leave? To investigate, I spent my sabbatical year (2012–2013) in Kobe. I analyzed the Hyogo Life Recovery Surveys, which were conducted across the city of Kobe and its surrounding areas in 2001, 2003, 2005, and 2011. Insurance companies examined damaged homes and classified them into four categories: complete damage, half, partial, and none.",
+      "prompt": "Which years belong to the Hyogo Life Recovery Surveys analysed here?",
+      "promptZh": "这里所分析的 Hyogo Life Recovery Surveys 是哪些年份进行的？",
+      "options": [
+        "Only 1995, when the earthquake happened.",
+        "Only 2012 and 2013, when the author was on sabbatical.",
+        "1989, 1995, and 2000, the years of a later job-application comparison.",
+        "2001, 2003, 2005, and 2011."
+      ],
+      "optionsZh": [
+        "仅1995年，即地震发生时。",
+        "仅2012和2013，即作者学术休假时。",
+        "1989、1995和2000，即后来求职比较的年份。",
+        "2001、2003、2005和2011。"
+      ],
+      "answer": 3,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A 把事件年份误作问卷年份。",
+        "B 作者何时分析不等于问卷何时收集。",
+        "C 将另一个研究时间范围混入。",
+        "D which were conducted后的四个年份明确列出，地区为Kobe及周边。"
+      ],
+      "vocabulary": [
+        {
+          "word": "conducted",
+          "meaning": "进行；开展调查或研究",
+          "context": "which回指Surveys，不是说地震在这些年份由研究者实施。",
+          "example": "The surveys were conducted in several different years.",
+          "collocations": [
+            "surveys, which were conducted",
+            "across the city of Kobe and its surrounding areas"
+          ]
+        }
+      ],
+      "translation": "这些经历留下多深心理伤痕？为调查，我在Kobe度过2012–2013学术休假年，分析Hyogo Life Recovery Surveys。调查于2001、2003、2005、2011在Kobe及周边进行。保险公司检查住宅，分完全损坏、半损、部分损坏、无损四类。",
+      "evidenceTargetIds": [
+        "c11-s04-p126-06135-s003"
+      ],
+      "evidence": [
+        {
+          "quote": "How deep are the psychological scars that these experiences leave? To investigate, I spent my sabbatical year (2012–2013) in Kobe. I analyzed the Hyogo Life Recovery Surveys, which were conducted across the city of Kobe and its surrounding areas in 2001, 2003, 2005, and 2011. Insurance companies examined damaged homes and classified them into four categories: complete damage, half, partial, and none.",
+          "sentenceIds": [
+            "c11-s04-p126-06135-s001",
+            "c11-s04-p126-06135-s002",
+            "c11-s04-p126-06135-s003",
+            "c11-s04-p126-06135-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 126,
+              "block": 4,
+              "bbox": [
+                76.99,
+                613.5,
+                535.01,
+                706.02
+              ]
+            },
+            {
+              "pdfPage": 127,
+              "block": 0,
+              "bbox": [
+                76.99,
+                75,
+                535.01,
+                187.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "6f44abf8eec0218fad21879e763a2bb573e3405eb7ca5846fdb8a46525efa6a4"
+    },
+    {
+      "id": "q-c11-034",
+      "version": 1,
+      "readingUnitId": "c11-s04-p127-01920-r001-004",
+      "chapterId": "c11",
+      "sectionId": "c11-s04",
+      "paragraphId": "c11-s04-p127-01920",
+      "sentenceIds": [
+        "c11-s04-p127-01920-s001",
+        "c11-s04-p127-01920-s002",
+        "c11-s04-p127-01920-s003",
+        "c11-s04-p127-01920-s004"
+      ],
+      "passage": "Yet psychological scars were still visible for those who had lost their homes. For instance, in 2001 Kobe residents whose houses were completely destroyed by the 1995 earthquake were significantly less satisfied with their lives and reported more negative emotions and more physical illnesses than those whose houses had suffered no damage in 1995. Time did not heal everything, because the results in 2003, 2005, and even 2011—sixteen years after the earthquake—were similar to those from 2001. The psychological immune system was not enough for the devastation of the earthquake.",
+      "prompt": "What central finding qualifies the idea that time heals everything?",
+      "options": [
+        "All group differences disappeared by 2003.",
+        "Only physical rebuilding mattered to the study.",
+        "Those who lost homes continued to report worse well-being as late as 2011.",
+        "No participant reported any physical illness."
+      ],
+      "answer": 2,
+      "type": "主旨",
+      "promptZh": "什么核心发现限定时间治愈一切的说法？",
+      "optionsZh": [
+        "2003组差全消失。",
+        "研究只关心物理重建。",
+        "失去住宅者到2011仍报告较差福祉。",
+        "无人报告身体病痛。"
+      ],
+      "analyses": [
+        "A later results similar to2001而非消失。",
+        "B psychological scars为主题。",
+        "C 2001及后续比较持续，2011距震十六年。",
+        "D more physical illnesses相反。心理免疫系统是作者概念比喻，不是检验免疫细胞或诊断每个人。"
+      ],
+      "evidence": [
+        {
+          "quote": "the results in 2003, 2005, and even 2011—sixteen years after the earthquake—were similar to those from 2001.",
+          "sentenceIds": [
+            "c11-s04-p127-01920-s003"
+          ],
+          "sources": [
+            {
+              "pdfPage": 127,
+              "block": 1,
+              "bbox": [
+                76.99,
+                192,
+                535.01,
+                382.02
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "devastation",
+          "meaning": "巨大破坏；重创",
+          "context": "强调灾害严重损失及长期影响",
+          "example": "Recovery from the devastation took many years.",
+          "collocations": [
+            "the devastation of an earthquake",
+            "psychological scars"
+          ]
+        }
+      ],
+      "translation": "但失去住宅者的心理伤痕仍可见。2001年，1995房全毁者比无损者生活满意度显著较低，并自报更多负面情绪与身体疾病。2003、2005，甚至2011——震后十六年——结果仍似2001，时间没治愈一切。心理免疫系统不足以抵御地震重创。",
+      "support": "explicit",
+      "editorialStatus": "完整PDF126–130原页视觉核对及跨页拼接。Kobe物理修复和心理伤痕分开，调查波次与作者休假年分开，房损/失亲同时分析不作随机因果或变量全无关联。Solnit为引语/作者阐释，电视职业愿望为作者回忆。四川震前后为同校新组，as if/presumably保留，非研究者随机分配灾害；100供选/10获得/平均略逾1至约4为九岁结果，不补六岁或长期个体变化。市政申请按每职位且非实际就职，1989–2000与1995变化分开。COVID接触包括本人/家属/熟人，捐款奖金/加倍与结果分开，作者made价值解释不升级成随机感染因果或医学建议。承认长期损害，不强加受害者获益/感恩；不宣称逐句证据全覆盖。",
+      "fingerprint": "d8ff129b4593da7b29081baedfc79511db7744494c792e14c1bd25228cf09a7b"
+    },
+    {
+      "id": "qe-c11-0065",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-050",
+      "parentQuestionId": "q-c11-034",
+      "chapterId": "c11",
+      "sectionId": "c11-s04",
+      "paragraphId": "c11-s04-p127-01920",
+      "readingUnitId": "c11-s04-p127-01920-r001-004",
+      "sentenceIds": [
+        "c11-s04-p127-01920-s001",
+        "c11-s04-p127-01920-s002",
+        "c11-s04-p127-01920-s003",
+        "c11-s04-p127-01920-s004"
+      ],
+      "passage": "Yet psychological scars were still visible for those who had lost their homes. For instance, in 2001 Kobe residents whose houses were completely destroyed by the 1995 earthquake were significantly less satisfied with their lives and reported more negative emotions and more physical illnesses than those whose houses had suffered no damage in 1995. Time did not heal everything, because the results in 2003, 2005, and even 2011—sixteen years after the earthquake—were similar to those from 2001. The psychological immune system was not enough for the devastation of the earthquake.",
+      "prompt": "What does 'still visible' indicate about the psychological scars?",
+      "promptZh": "still visible 对心理伤痕说明什么？",
+      "options": [
+        "The psychological scars were entirely absent among everyone who lost a home.",
+        "Psychological effects remained observable for people who had lost their homes.",
+        "A new earthquake had destroyed every repaired home again.",
+        "The researchers stopped examining well-being and looked only at construction costs."
+      ],
+      "optionsZh": [
+        "所有失家者的心理伤痕完全不存在。",
+        "失去住宅者的心理影响仍能被观察到。",
+        "又一场新地震再次毁掉所有修复房屋。",
+        "研究者不再考察福祉，只看建筑成本。"
+      ],
+      "answer": 1,
+      "type": "语境词义",
+      "support": "explicit",
+      "analyses": [
+        "A still visible与完全不存在相反。",
+        "B still表示持续；下句给满意度、情绪与健康报告的比较，说明并非影响已经消失，也不是仅凭外观诊断每个人。",
+        "C 当前片段未报告第二次地震，更没有全部再次毁坏。",
+        "D 后文生活满意度、负面情绪等仍是心理和健康指标。"
+      ],
+      "vocabulary": [
+        {
+          "word": "still visible",
+          "meaning": "仍然可见；仍可在结果中观察到",
+          "context": "psychological scars可见是影响持续的比喻，不是从外表就能给每位居民诊断。",
+          "example": "The effects were still visible in the later survey results.",
+          "collocations": [
+            "Yet psychological scars were still visible",
+            "those who had lost their homes"
+          ]
+        }
+      ],
+      "translation": "但失去住宅者的心理伤痕仍可见。2001年，1995房全毁者比无损者生活满意度显著较低，并自报更多负面情绪与身体疾病。2003、2005，甚至2011——震后十六年——结果仍似2001，时间没治愈一切。心理免疫系统不足以抵御地震重创。",
+      "evidenceTargetIds": [
+        "c11-s04-p127-01920-s001"
+      ],
+      "evidence": [
+        {
+          "quote": "Yet psychological scars were still visible for those who had lost their homes. For instance, in 2001 Kobe residents whose houses were completely destroyed by the 1995 earthquake were significantly less satisfied with their lives and reported more negative emotions and more physical illnesses than those whose houses had suffered no damage in 1995. Time did not heal everything, because the results in 2003, 2005, and even 2011—sixteen years after the earthquake—were similar to those from 2001. The psychological immune system was not enough for the devastation of the earthquake.",
+          "sentenceIds": [
+            "c11-s04-p127-01920-s001",
+            "c11-s04-p127-01920-s002",
+            "c11-s04-p127-01920-s003",
+            "c11-s04-p127-01920-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 127,
+              "block": 1,
+              "bbox": [
+                76.99,
+                192,
+                535.01,
+                382.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "19937ff35fb2df80f46e7ef17e6a3f7f30457eb0d4ee499cb6dffc6f349ff987"
+    },
+    {
+      "id": "qe-c11-0066",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-050",
+      "parentQuestionId": "q-c11-034",
+      "chapterId": "c11",
+      "sectionId": "c11-s04",
+      "paragraphId": "c11-s04-p127-01920",
+      "readingUnitId": "c11-s04-p127-01920-r001-004",
+      "sentenceIds": [
+        "c11-s04-p127-01920-s001",
+        "c11-s04-p127-01920-s002",
+        "c11-s04-p127-01920-s003",
+        "c11-s04-p127-01920-s004"
+      ],
+      "passage": "Yet psychological scars were still visible for those who had lost their homes. For instance, in 2001 Kobe residents whose houses were completely destroyed by the 1995 earthquake were significantly less satisfied with their lives and reported more negative emotions and more physical illnesses than those whose houses had suffered no damage in 1995. Time did not heal everything, because the results in 2003, 2005, and even 2011—sixteen years after the earthquake—were similar to those from 2001. The psychological immune system was not enough for the devastation of the earthquake.",
+      "prompt": "Which comparison is reported for Kobe residents in 2001?",
+      "promptZh": "对2001年Kobe居民，原文报告哪种比较？",
+      "options": [
+        "Those whose homes were destroyed reported higher satisfaction and fewer illnesses than the undamaged group.",
+        "Both groups were said to be identical on every well-being measure.",
+        "Those whose homes were completely destroyed reported lower satisfaction, more negative emotion, and more illness than those whose homes were undamaged.",
+        "The comparison concerns only people whose homes had suffered the same complete damage."
+      ],
+      "optionsZh": [
+        "房全毁者比无损者报告更高满意度、更少疾病。",
+        "两组在每项福祉指标都相同。",
+        "房全毁者比无损者报告较低满意度、更多负面情绪与疾病。",
+        "比较只涉及住宅都完全损坏的人。"
+      ],
+      "answer": 2,
+      "type": "同义改写",
+      "support": "explicit",
+      "analyses": [
+        "A 三项比较方向均反。",
+        "B less/more表明差异，不是所有指标相同。",
+        "C completely destroyed与no damage是两组，三类结果方向均保留，reported保留报告性质。",
+        "D 两组的1995年房损不同；不把观察性比较改为研究者随机拆毁住房的因果试验。"
+      ],
+      "vocabulary": [
+        {
+          "word": "satisfied with",
+          "meaning": "对……感到满意",
+          "context": "修饰生活满意度，区别损毁后房屋是否已修好以及研究者是否满意数据。",
+          "example": "Respondents were less satisfied with their lives in the comparison.",
+          "collocations": [
+            "less satisfied with their lives",
+            "reported more negative emotions"
+          ]
+        }
+      ],
+      "translation": "但失去住宅者的心理伤痕仍可见。2001年，1995房全毁者比无损者生活满意度显著较低，并自报更多负面情绪与身体疾病。2003、2005，甚至2011——震后十六年——结果仍似2001，时间没治愈一切。心理免疫系统不足以抵御地震重创。",
+      "evidenceTargetIds": [
+        "c11-s04-p127-01920-s002"
+      ],
+      "evidence": [
+        {
+          "quote": "Yet psychological scars were still visible for those who had lost their homes. For instance, in 2001 Kobe residents whose houses were completely destroyed by the 1995 earthquake were significantly less satisfied with their lives and reported more negative emotions and more physical illnesses than those whose houses had suffered no damage in 1995. Time did not heal everything, because the results in 2003, 2005, and even 2011—sixteen years after the earthquake—were similar to those from 2001. The psychological immune system was not enough for the devastation of the earthquake.",
+          "sentenceIds": [
+            "c11-s04-p127-01920-s001",
+            "c11-s04-p127-01920-s002",
+            "c11-s04-p127-01920-s003",
+            "c11-s04-p127-01920-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 127,
+              "block": 1,
+              "bbox": [
+                76.99,
+                192,
+                535.01,
+                382.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "4a57b68b340d91c7c687bca26308887c3749ae54d616c2669e435dd0144672c7"
+    },
+    {
+      "id": "qe-c11-0067",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-050",
+      "parentQuestionId": "q-c11-034",
+      "chapterId": "c11",
+      "sectionId": "c11-s04",
+      "paragraphId": "c11-s04-p127-01920",
+      "readingUnitId": "c11-s04-p127-01920-r001-004",
+      "sentenceIds": [
+        "c11-s04-p127-01920-s001",
+        "c11-s04-p127-01920-s002",
+        "c11-s04-p127-01920-s003",
+        "c11-s04-p127-01920-s004"
+      ],
+      "passage": "Yet psychological scars were still visible for those who had lost their homes. For instance, in 2001 Kobe residents whose houses were completely destroyed by the 1995 earthquake were significantly less satisfied with their lives and reported more negative emotions and more physical illnesses than those whose houses had suffered no damage in 1995. Time did not heal everything, because the results in 2003, 2005, and even 2011—sixteen years after the earthquake—were similar to those from 2001. The psychological immune system was not enough for the devastation of the earthquake.",
+      "prompt": "How is the 'psychological immune system' evaluated in this case?",
+      "promptZh": "本例如何评价 psychological immune system？",
+      "options": [
+        "It was insufficient to offset the devastation described.",
+        "It guaranteed that all effects vanished before the first survey.",
+        "It was measured only by counting antibodies in blood samples.",
+        "It made the groups identical on satisfaction, emotion, and illness."
+      ],
+      "optionsZh": [
+        "它不足以抵消所描述的重创。",
+        "它保证首次调查前一切影响消失。",
+        "它只通过数血样抗体来测量。",
+        "它使两组在满意度、情绪和疾病方面完全一样。"
+      ],
+      "answer": 0,
+      "type": "主旨",
+      "support": "explicit",
+      "analyses": [
+        "A not enough给不足判断，依据是前面持续的满意度、情绪与健康差异。",
+        "B Time did not heal everything与全消失相反。",
+        "C psychological immune system在此是心理适应的比喻概念，没有血液检验。",
+        "D 前文比较不同，不能改成全部相同；本例不足也不是否定一切心理适应可能。"
+      ],
+      "vocabulary": [
+        {
+          "word": "not enough",
+          "meaning": "不足以；不够应对",
+          "context": "限制为本次地震重创的情境，不自动推成所有心理适应都毫无作用。",
+          "example": "The available support was not enough to remove every lasting effect.",
+          "collocations": [
+            "was not enough for the devastation",
+            "The psychological immune system"
+          ]
+        }
+      ],
+      "translation": "但失去住宅者的心理伤痕仍可见。2001年，1995房全毁者比无损者生活满意度显著较低，并自报更多负面情绪与身体疾病。2003、2005，甚至2011——震后十六年——结果仍似2001，时间没治愈一切。心理免疫系统不足以抵御地震重创。",
+      "evidenceTargetIds": [
+        "c11-s04-p127-01920-s004"
+      ],
+      "evidence": [
+        {
+          "quote": "Yet psychological scars were still visible for those who had lost their homes. For instance, in 2001 Kobe residents whose houses were completely destroyed by the 1995 earthquake were significantly less satisfied with their lives and reported more negative emotions and more physical illnesses than those whose houses had suffered no damage in 1995. Time did not heal everything, because the results in 2003, 2005, and even 2011—sixteen years after the earthquake—were similar to those from 2001. The psychological immune system was not enough for the devastation of the earthquake.",
+          "sentenceIds": [
+            "c11-s04-p127-01920-s001",
+            "c11-s04-p127-01920-s002",
+            "c11-s04-p127-01920-s003",
+            "c11-s04-p127-01920-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 127,
+              "block": 1,
+              "bbox": [
+                76.99,
+                192,
+                535.01,
+                382.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "533888bea72d9c6280615f688cbd4363c0a72345bd2e76396b65244fca1c1db8"
+    }
+  ]
+}
