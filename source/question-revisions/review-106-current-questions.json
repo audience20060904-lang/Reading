@@ -1,0 +1,1985 @@
+{
+  "schemaVersion": 1,
+  "batchId": "question-review-2026-10-28-106",
+  "sourceCommit": "eca4f03827d92817f7604a78c76167b851078271",
+  "pdfSha256": "be25c859f1bd894a4b0d1cff024ded1297f6a96a8e8ddabea1e3abcf89160a50",
+  "frozenAt": "2026-10-29T23:31:43.859Z",
+  "questions": [
+    {
+      "id": "q-c11-047",
+      "version": 1,
+      "readingUnitId": "c11-s05-p129-02700-r001-003",
+      "chapterId": "c11",
+      "sectionId": "c11-s05",
+      "paragraphId": "c11-s05-p129-02700",
+      "sentenceIds": [
+        "c11-s05-p129-02700-s001",
+        "c11-s05-p129-02700-s002",
+        "c11-s05-p129-02700-s003"
+      ],
+      "passage": "Is there other evidence that shows the long-term effect of experiencing natural disasters on victims’ values and occupational preferences? To explore this question, we looked at trends in job applications at the municipality level from 1989 to 2000 in the Kobe and Tokyo areas, which were distinguished in that Kobe had experienced the major earthquake in that period, whereas Tokyo had not. We looked at how many people applied to become social workers, firefighters, and kindergarten teachers (jobs hired at the municipal level in Japan).",
+      "prompt": "What evidence was examined in the Kobe–Tokyo comparison?",
+      "options": [
+        "Only personal interviews with the same schoolchildren.",
+        "Municipal job-application trends from 1989 to 2000.",
+        "Applications to every private company worldwide.",
+        "Hospital records from the 1906 earthquake."
+      ],
+      "answer": 1,
+      "type": "细节",
+      "promptZh": "Kobe–Tokyo比较考察什么证据？",
+      "optionsZh": [
+        "只访问同一批小学生。",
+        "1989–2000市政职位申请趋势。",
+        "全球所有私企申请。",
+        "1906地震医院记录。"
+      ],
+      "analyses": [
+        "A 是职业资料，与贴纸儿童研究不同。",
+        "B 时间、尺度明确；社工消防员幼教为市政招聘例子。",
+        "C 非全球私企。",
+        "D 不是1906事件。Kobe有大地震、Tokyo该期没有该大地震，是比较基础而非保证地区所有条件相同。"
+      ],
+      "evidence": [
+        {
+          "quote": "trends in job applications at the municipality level from 1989 to 2000 in the Kobe and Tokyo areas",
+          "sentenceIds": [
+            "c11-s05-p129-02700-s002"
+          ],
+          "sources": [
+            {
+              "pdfPage": 129,
+              "block": 1,
+              "bbox": [
+                76.99,
+                270,
+                535.01,
+                460.02
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "municipality",
+          "meaning": "市镇；地方市政单位",
+          "context": "日本这些岗位由地方政府层面招聘",
+          "example": "The municipality advertised several public-service posts.",
+          "collocations": [
+            "municipality level",
+            "municipal jobs"
+          ]
+        }
+      ],
+      "translation": "灾难对价值和职业偏好的长期影响还有别的证据吗？我们看1989–2000 Kobe和Tokyo地方市政求职趋势，区别在于前者该期经历大地震而后者没有。考察社工、消防员、幼教申请人数，这些岗位在日本由市政层面招聘。",
+      "support": "explicit",
+      "editorialStatus": "完整PDF126–130原页视觉核对及跨页拼接。Kobe物理修复和心理伤痕分开，调查波次与作者休假年分开，房损/失亲同时分析不作随机因果或变量全无关联。Solnit为引语/作者阐释，电视职业愿望为作者回忆。四川震前后为同校新组，as if/presumably保留，非研究者随机分配灾害；100供选/10获得/平均略逾1至约4为九岁结果，不补六岁或长期个体变化。市政申请按每职位且非实际就职，1989–2000与1995变化分开。COVID接触包括本人/家属/熟人，捐款奖金/加倍与结果分开，作者made价值解释不升级成随机感染因果或医学建议。承认长期损害，不强加受害者获益/感恩；不宣称逐句证据全覆盖。",
+      "fingerprint": "8a5c74d7643bef1d7da812d3dcbce100a780a5cfe9812f86e2857198d7d11ef9"
+    },
+    {
+      "id": "qe-c11-0082",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-051",
+      "parentQuestionId": "q-c11-047",
+      "chapterId": "c11",
+      "sectionId": "c11-s05",
+      "paragraphId": "c11-s05-p129-02700",
+      "readingUnitId": "c11-s05-p129-02700-r001-003",
+      "sentenceIds": [
+        "c11-s05-p129-02700-s001",
+        "c11-s05-p129-02700-s002",
+        "c11-s05-p129-02700-s003"
+      ],
+      "passage": "Is there other evidence that shows the long-term effect of experiencing natural disasters on victims’ values and occupational preferences? To explore this question, we looked at trends in job applications at the municipality level from 1989 to 2000 in the Kobe and Tokyo areas, which were distinguished in that Kobe had experienced the major earthquake in that period, whereas Tokyo had not. We looked at how many people applied to become social workers, firefighters, and kindergarten teachers (jobs hired at the municipal level in Japan).",
+      "prompt": "What question motivates the job-application investigation?",
+      "promptZh": "什么问题推动了求职申请调查？",
+      "options": [
+        "Whether disasters have long-term effects on victims' values and occupational preferences.",
+        "Whether every earthquake survivor becomes a firefighter immediately.",
+        "Whether job applications measure only a person's momentary happiness.",
+        "Whether Kobe and Tokyo had exactly the same experience of the earthquake."
+      ],
+      "optionsZh": [
+        "灾害是否长期影响遭遇者的价值与职业偏好。",
+        "是否每个地震幸存者都会立即成为消防员。",
+        "求职申请是否只测瞬时幸福。",
+        "Kobe和Tokyo是否对该次地震有完全相同经历。"
+      ],
+      "answer": 0,
+      "type": "篇章结构",
+      "support": "explicit",
+      "analyses": [
+        "A long-term、values、occupational preferences在问句中明确给出，下文以求职趋势探索。",
+        "B 调查职业偏好不预设每人实际做同一职业。",
+        "C 问题范围是价值与职业选择，不是仅瞬间感受。",
+        "D 后句明示该期Kobe经历大地震而Tokyo没有，不是以两地经历完全相同为前提。"
+      ],
+      "vocabulary": [
+        {
+          "word": "occupational preferences",
+          "meaning": "职业偏好；对工作种类的倾向选择",
+          "context": "此处用求职趋势探察偏好，不等于所有申请者最终录用或永久从业。",
+          "example": "The study examined changes in occupational preferences after the event.",
+          "collocations": [
+            "values and occupational preferences",
+            "the long-term effect"
+          ]
+        }
+      ],
+      "translation": "灾难对价值和职业偏好的长期影响还有别的证据吗？我们看1989–2000 Kobe和Tokyo地方市政求职趋势，区别在于前者该期经历大地震而后者没有。考察社工、消防员、幼教申请人数，这些岗位在日本由市政层面招聘。",
+      "evidenceTargetIds": [
+        "c11-s05-p129-02700-s001"
+      ],
+      "evidence": [
+        {
+          "quote": "Is there other evidence that shows the long-term effect of experiencing natural disasters on victims’ values and occupational preferences? To explore this question, we looked at trends in job applications at the municipality level from 1989 to 2000 in the Kobe and Tokyo areas, which were distinguished in that Kobe had experienced the major earthquake in that period, whereas Tokyo had not. We looked at how many people applied to become social workers, firefighters, and kindergarten teachers (jobs hired at the municipal level in Japan).",
+          "sentenceIds": [
+            "c11-s05-p129-02700-s001",
+            "c11-s05-p129-02700-s002",
+            "c11-s05-p129-02700-s003"
+          ],
+          "sources": [
+            {
+              "pdfPage": 129,
+              "block": 1,
+              "bbox": [
+                76.99,
+                270,
+                535.01,
+                460.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "9fbc5b71e264718c1493920047674de5eb8c285fe408ace64dfb3d2a830d4298"
+    },
+    {
+      "id": "qe-c11-0083",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-051",
+      "parentQuestionId": "q-c11-047",
+      "chapterId": "c11",
+      "sectionId": "c11-s05",
+      "paragraphId": "c11-s05-p129-02700",
+      "readingUnitId": "c11-s05-p129-02700-r001-003",
+      "sentenceIds": [
+        "c11-s05-p129-02700-s001",
+        "c11-s05-p129-02700-s002",
+        "c11-s05-p129-02700-s003"
+      ],
+      "passage": "Is there other evidence that shows the long-term effect of experiencing natural disasters on victims’ values and occupational preferences? To explore this question, we looked at trends in job applications at the municipality level from 1989 to 2000 in the Kobe and Tokyo areas, which were distinguished in that Kobe had experienced the major earthquake in that period, whereas Tokyo had not. We looked at how many people applied to become social workers, firefighters, and kindergarten teachers (jobs hired at the municipal level in Japan).",
+      "prompt": "Which jobs were included in the application count?",
+      "promptZh": "申请人数统计涉及哪些工作？",
+      "options": [
+        "Only private-sector engineers and university professors.",
+        "All jobs in every country, with no limit on hiring level.",
+        "Social workers, firefighters, and kindergarten teachers hired at the municipal level in Japan.",
+        "Only the three occupations chosen by every child in the television interview."
+      ],
+      "optionsZh": [
+        "只有私人企业工程师和大学教授。",
+        "各国全部工作，不限招聘层级。",
+        "日本市政层面招聘的社工、消防员和幼教。",
+        "仅电视访谈中每个儿童都选的三种职业。"
+      ],
+      "answer": 2,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A 与本句列出的三个职位不同。",
+        "B 括号限定municipal level in Japan，不能扩大到各国所有职位。",
+        "C 三职业及招聘层级保留；看applied的人数，不等于已录用人数。",
+        "D 电视愿望与市政申请是不同资料来源，且前文Many不是每个儿童。"
+      ],
+      "vocabulary": [
+        {
+          "word": "municipal",
+          "meaning": "市政的；地方城市管理层面的",
+          "context": "限定招聘层级，区别全国统一招聘或国际机构职位。",
+          "example": "The positions were hired at the municipal level.",
+          "collocations": [
+            "the municipal level in Japan",
+            "applied to become social workers"
+          ]
+        }
+      ],
+      "translation": "灾难对价值和职业偏好的长期影响还有别的证据吗？我们看1989–2000 Kobe和Tokyo地方市政求职趋势，区别在于前者该期经历大地震而后者没有。考察社工、消防员、幼教申请人数，这些岗位在日本由市政层面招聘。",
+      "evidenceTargetIds": [
+        "c11-s05-p129-02700-s003"
+      ],
+      "evidence": [
+        {
+          "quote": "Is there other evidence that shows the long-term effect of experiencing natural disasters on victims’ values and occupational preferences? To explore this question, we looked at trends in job applications at the municipality level from 1989 to 2000 in the Kobe and Tokyo areas, which were distinguished in that Kobe had experienced the major earthquake in that period, whereas Tokyo had not. We looked at how many people applied to become social workers, firefighters, and kindergarten teachers (jobs hired at the municipal level in Japan).",
+          "sentenceIds": [
+            "c11-s05-p129-02700-s001",
+            "c11-s05-p129-02700-s002",
+            "c11-s05-p129-02700-s003"
+          ],
+          "sources": [
+            {
+              "pdfPage": 129,
+              "block": 1,
+              "bbox": [
+                76.99,
+                270,
+                535.01,
+                460.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "f823f1bd629af38c9c72ec42a6192b9ecb8be0789a9624713659c68097b58812"
+    },
+    {
+      "id": "q-c11-048",
+      "version": 1,
+      "readingUnitId": "c11-s05-p129-02700-r004-005",
+      "chapterId": "c11",
+      "sectionId": "c11-s05",
+      "paragraphId": "c11-s05-p129-02700",
+      "sentenceIds": [
+        "c11-s05-p129-02700-s004",
+        "c11-s05-p129-02700-s005"
+      ],
+      "passage": "We found that the number of applicants per position soared in 1995 in the Kobe area, but not in the Tokyo area. These findings suggest that the earthquake made prosocial jobs more desirable.",
+      "prompt": "What finding supports the author’s interpretation about prosocial jobs?",
+      "options": [
+        "Applications fell equally in both areas.",
+        "Every Kobe resident became a firefighter.",
+        "There were no changes anywhere in 1995.",
+        "Applicants per position rose sharply in Kobe in 1995, unlike Tokyo."
+      ],
+      "answer": 3,
+      "type": "推断",
+      "promptZh": "什么发现支持作者对亲社会职业的解释？",
+      "optionsZh": [
+        "两地申请同样下降。",
+        "每个居民成消防员。",
+        "1995到处没变化。",
+        "Kobe1995每岗申请者剧增，Tokyo没同样现象。"
+      ],
+      "analyses": [
+        "A soared是上升，非下降。",
+        "B 岗位申请非全体居民实际入职。",
+        "C Kobe明确变化。",
+        "D applicants per position保留分母；suggest是对趋势解释，不等于随机证明地震导致每个人职业转向。"
+      ],
+      "evidence": [
+        {
+          "quote": "the number of applicants per position soared in 1995 in the Kobe area, but not in the Tokyo area.",
+          "sentenceIds": [
+            "c11-s05-p129-02700-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 129,
+              "block": 1,
+              "bbox": [
+                76.99,
+                270,
+                535.01,
+                460.02
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "soared",
+          "meaning": "激增；迅速上升",
+          "context": "每个职位申请人数上升，而非岗位本身数目必上升",
+          "example": "The number of applicants per position soared.",
+          "collocations": [
+            "applications soared",
+            "soar in a particular year"
+          ]
+        }
+      ],
+      "translation": "我们发现，1995 Kobe每个岗位的申请者数剧增，Tokyo没有。发现提示地震使亲社会工作更具吸引力。",
+      "support": "explicit",
+      "editorialStatus": "完整PDF126–130原页视觉核对及跨页拼接。Kobe物理修复和心理伤痕分开，调查波次与作者休假年分开，房损/失亲同时分析不作随机因果或变量全无关联。Solnit为引语/作者阐释，电视职业愿望为作者回忆。四川震前后为同校新组，as if/presumably保留，非研究者随机分配灾害；100供选/10获得/平均略逾1至约4为九岁结果，不补六岁或长期个体变化。市政申请按每职位且非实际就职，1989–2000与1995变化分开。COVID接触包括本人/家属/熟人，捐款奖金/加倍与结果分开，作者made价值解释不升级成随机感染因果或医学建议。承认长期损害，不强加受害者获益/感恩；不宣称逐句证据全覆盖。",
+      "fingerprint": "a930c93b19bf0a3dfc26396e592a7be3c35c0a6c2458fdefa741b597e0066e55"
+    },
+    {
+      "id": "qe-c11-0084",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-051",
+      "parentQuestionId": "q-c11-048",
+      "chapterId": "c11",
+      "sectionId": "c11-s05",
+      "paragraphId": "c11-s05-p129-02700",
+      "readingUnitId": "c11-s05-p129-02700-r004-005",
+      "sentenceIds": [
+        "c11-s05-p129-02700-s004",
+        "c11-s05-p129-02700-s005"
+      ],
+      "passage": "We found that the number of applicants per position soared in 1995 in the Kobe area, but not in the Tokyo area. These findings suggest that the earthquake made prosocial jobs more desirable.",
+      "prompt": "How is the conclusion about prosocial jobs qualified?",
+      "promptZh": "关于亲社会职业的结论有何限定？",
+      "options": [
+        "It proves every survivor's final career was caused only by the earthquake.",
+        "The findings suggest greater desirability of prosocial jobs, rather than documenting every individual's eventual employment.",
+        "The application evidence shows that the number of available jobs had to increase by exactly the same amount.",
+        "The findings show an equal increase in both Kobe and Tokyo."
+      ],
+      "optionsZh": [
+        "证明每个幸存者最后职业只由地震造成。",
+        "发现提示亲社会职业更具吸引力，而非记录每个人最终就业。",
+        "申请证据说明岗位供给必按完全相同幅度增加。",
+        "发现Kobe和Tokyo都同样增加。"
+      ],
+      "answer": 1,
+      "type": "证据范围",
+      "support": "explicit",
+      "analyses": [
+        "A suggest不是排除全部其他原因的逐人职业证明。",
+        "B 前句每岗位申请者数增加被用来解释吸引力，保留suggest的推断强度。",
+        "C applicants per position不是岗位供给数，两者不能等同。",
+        "D 前句but not in Tokyo限定比较，不是两城一样。"
+      ],
+      "vocabulary": [
+        {
+          "word": "desirable",
+          "meaning": "有吸引力的；令人想选择的",
+          "context": "修饰职业被偏好的程度，不直接等于录用人数或工资必然更高。",
+          "example": "The work became more desirable to applicants in the comparison.",
+          "collocations": [
+            "prosocial jobs more desirable",
+            "These findings suggest"
+          ]
+        }
+      ],
+      "translation": "我们发现，1995 Kobe每个岗位的申请者数剧增，Tokyo没有。发现提示地震使亲社会工作更具吸引力。",
+      "evidenceTargetIds": [
+        "c11-s05-p129-02700-s005"
+      ],
+      "evidence": [
+        {
+          "quote": "We found that the number of applicants per position soared in 1995 in the Kobe area, but not in the Tokyo area. These findings suggest that the earthquake made prosocial jobs more desirable.",
+          "sentenceIds": [
+            "c11-s05-p129-02700-s004",
+            "c11-s05-p129-02700-s005"
+          ],
+          "sources": [
+            {
+              "pdfPage": 129,
+              "block": 1,
+              "bbox": [
+                76.99,
+                270,
+                535.01,
+                460.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "84892bd75a1fd36a8594e1d30b641a98662acb03b035d55a5d78b2006d14d215"
+    },
+    {
+      "id": "q-c11-049",
+      "version": 1,
+      "readingUnitId": "c11-s05-p129-04650-r001-004",
+      "chapterId": "c11",
+      "sectionId": "c11-s05",
+      "paragraphId": "c11-s05-p129-04650",
+      "sentenceIds": [
+        "c11-s05-p129-04650-s001",
+        "c11-s05-p129-04650-s002",
+        "c11-s05-p129-04650-s003",
+        "c11-s05-p129-04650-s004"
+      ],
+      "passage": "Recall that, even sixteen years after the Hanshin-Awaji earthquake, Kobe residents who had lost their houses in the quake were less satisfied with their lives and reported more physical symptoms than those whose houses had not been damaged. These findings show that the negative effects of natural disasters on the well-being of survivors are long-lasting. The tragedy becomes ingrained in their identities and life stories and can rob them of happiness and normalcy. No one wishes to suffer such a tragedy.",
+      "prompt": "What warning accompanies the discussion of prosocial change?",
+      "options": [
+        "Survivors’ losses can have lasting effects on well-being and ordinary life.",
+        "Every survivor necessarily forgets the tragedy within months.",
+        "Physical symptoms were absent sixteen years later.",
+        "The author recommends seeking disasters for happiness."
+      ],
+      "answer": 0,
+      "type": "主旨",
+      "promptZh": "亲社会改变讨论同时带来什么提醒？",
+      "optionsZh": [
+        "幸存者损失会长期影响福祉与正常生活。",
+        "每人几月内必忘悲剧。",
+        "十六年后无身体症状。",
+        "作者建议为快乐追求灾难。"
+      ],
+      "analyses": [
+        "A long-lasting/ingrained/rob them承认长期伤害。",
+        "B 记入身份人生故事，非全忘。",
+        "C more physical symptoms相反。",
+        "D No one wishes表明无人愿受，不给追求灾难建议。不能以亲社会可能性抵销损害。"
+      ],
+      "evidence": [
+        {
+          "quote": "the negative effects of natural disasters on the well-being of survivors are long-lasting.",
+          "sentenceIds": [
+            "c11-s05-p129-04650-s002"
+          ],
+          "sources": [
+            {
+              "pdfPage": 129,
+              "block": 2,
+              "bbox": [
+                76.99,
+                465,
+                535.01,
+                713.52
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "ingrained",
+          "meaning": "深嵌的；根深蒂固的",
+          "context": "悲剧进入身份与人生故事，不是短暂擦过",
+          "example": "The memory became ingrained in the family’s story.",
+          "collocations": [
+            "ingrained in identities",
+            "ingrained in life stories"
+          ]
+        }
+      ],
+      "translation": "记住，十六年后，失去住宅的Kobe居民仍比无房损者满意较低、身体症状更多。灾难对幸存者福祉的负面影响长久。悲剧嵌入身份与人生故事，可夺走幸福和常态。没人想受这种悲剧。",
+      "support": "explicit",
+      "editorialStatus": "完整PDF126–130原页视觉核对及跨页拼接。Kobe物理修复和心理伤痕分开，调查波次与作者休假年分开，房损/失亲同时分析不作随机因果或变量全无关联。Solnit为引语/作者阐释，电视职业愿望为作者回忆。四川震前后为同校新组，as if/presumably保留，非研究者随机分配灾害；100供选/10获得/平均略逾1至约4为九岁结果，不补六岁或长期个体变化。市政申请按每职位且非实际就职，1989–2000与1995变化分开。COVID接触包括本人/家属/熟人，捐款奖金/加倍与结果分开，作者made价值解释不升级成随机感染因果或医学建议。承认长期损害，不强加受害者获益/感恩；不宣称逐句证据全覆盖。",
+      "fingerprint": "1e037d5eb69460576034ba0c5d1cd4dafbdbc1054ec42b4c74dc0205bed9d861"
+    },
+    {
+      "id": "qe-c11-0085",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-051",
+      "parentQuestionId": "q-c11-049",
+      "chapterId": "c11",
+      "sectionId": "c11-s05",
+      "paragraphId": "c11-s05-p129-04650",
+      "readingUnitId": "c11-s05-p129-04650-r001-004",
+      "sentenceIds": [
+        "c11-s05-p129-04650-s001",
+        "c11-s05-p129-04650-s002",
+        "c11-s05-p129-04650-s003",
+        "c11-s05-p129-04650-s004"
+      ],
+      "passage": "Recall that, even sixteen years after the Hanshin-Awaji earthquake, Kobe residents who had lost their houses in the quake were less satisfied with their lives and reported more physical symptoms than those whose houses had not been damaged. These findings show that the negative effects of natural disasters on the well-being of survivors are long-lasting. The tragedy becomes ingrained in their identities and life stories and can rob them of happiness and normalcy. No one wishes to suffer such a tragedy.",
+      "prompt": "What contrast remained sixteen years after the earthquake?",
+      "promptZh": "地震十六年后仍有什么差异？",
+      "options": [
+        "Former home-loss residents reported higher satisfaction and fewer symptoms than the undamaged group.",
+        "Everyone in both groups had exactly the same health and satisfaction.",
+        "The study compared only two groups whose homes had both been completely destroyed.",
+        "Those who lost their houses were less satisfied with life and reported more physical symptoms than those with undamaged houses."
+      ],
+      "optionsZh": [
+        "原失家者比无房损者满意度更高、症状更少。",
+        "两组每人健康和满意度完全相同。",
+        "仅比较住宅都全毁的两组。",
+        "失家者比无房损者生活满意度低、自报身体症状更多。"
+      ],
+      "answer": 3,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A 两个比较方向都反了。",
+        "B less和more明示差异，不能说每人一样。",
+        "C 两组按是否房损区分，并非都全毁。",
+        "D 时间、分组及两项报告方向都对应；reported不应升级为对每个人同一疾病的临床诊断。"
+      ],
+      "vocabulary": [
+        {
+          "word": "physical symptoms",
+          "meaning": "身体症状；身体现象或不适的报告",
+          "context": "原句为reported more，不是说已通过同一临床检查证实人人相同病因。",
+          "example": "Respondents reported more physical symptoms in the later survey.",
+          "collocations": [
+            "reported more physical symptoms",
+            "even sixteen years after"
+          ]
+        }
+      ],
+      "translation": "记住，十六年后，失去住宅的Kobe居民仍比无房损者满意较低、身体症状更多。灾难对幸存者福祉的负面影响长久。悲剧嵌入身份与人生故事，可夺走幸福和常态。没人想受这种悲剧。",
+      "evidenceTargetIds": [
+        "c11-s05-p129-04650-s001"
+      ],
+      "evidence": [
+        {
+          "quote": "Recall that, even sixteen years after the Hanshin-Awaji earthquake, Kobe residents who had lost their houses in the quake were less satisfied with their lives and reported more physical symptoms than those whose houses had not been damaged. These findings show that the negative effects of natural disasters on the well-being of survivors are long-lasting. The tragedy becomes ingrained in their identities and life stories and can rob them of happiness and normalcy. No one wishes to suffer such a tragedy.",
+          "sentenceIds": [
+            "c11-s05-p129-04650-s001",
+            "c11-s05-p129-04650-s002",
+            "c11-s05-p129-04650-s003",
+            "c11-s05-p129-04650-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 129,
+              "block": 2,
+              "bbox": [
+                76.99,
+                465,
+                535.01,
+                713.52
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "424a9368a90ee050ee2954aad347bd49676db11ad0634c8d9e7a6b27273acac5"
+    },
+    {
+      "id": "qe-c11-0086",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-051",
+      "parentQuestionId": "q-c11-049",
+      "chapterId": "c11",
+      "sectionId": "c11-s05",
+      "paragraphId": "c11-s05-p129-04650",
+      "readingUnitId": "c11-s05-p129-04650-r001-004",
+      "sentenceIds": [
+        "c11-s05-p129-04650-s001",
+        "c11-s05-p129-04650-s002",
+        "c11-s05-p129-04650-s003",
+        "c11-s05-p129-04650-s004"
+      ],
+      "passage": "Recall that, even sixteen years after the Hanshin-Awaji earthquake, Kobe residents who had lost their houses in the quake were less satisfied with their lives and reported more physical symptoms than those whose houses had not been damaged. These findings show that the negative effects of natural disasters on the well-being of survivors are long-lasting. The tragedy becomes ingrained in their identities and life stories and can rob them of happiness and normalcy. No one wishes to suffer such a tragedy.",
+      "prompt": "What does the tragedy becoming 'ingrained' convey?",
+      "promptZh": "悲剧变得 ingrained 传达什么？",
+      "options": [
+        "Its effects can become deeply embedded in identity and life stories.",
+        "It is remembered only as an irrelevant detail with no possible lasting effect.",
+        "Every person necessarily forgets all parts of the event immediately.",
+        "All material damage is repaired solely by changing the wording of a life story."
+      ],
+      "optionsZh": [
+        "影响可能深嵌身份与人生故事。",
+        "它只被当无关细节，绝无长期作用。",
+        "每人必立即忘掉事件全部内容。",
+        "只改人生故事措辞就能修好所有物理损坏。"
+      ],
+      "answer": 0,
+      "type": "语境词义",
+      "support": "explicit",
+      "analyses": [
+        "A ingrained in说明深度嵌入，后接can rob...happiness and normalcy补出潜在代价。",
+        "B ingrained与毫无持续作用相反。",
+        "C 深嵌并非立即全忘，且原文没有every person。",
+        "D 心理身份叙述不等于实际修房的技术方法；can也不是每人必完全失去幸福。"
+      ],
+      "vocabulary": [
+        {
+          "word": "ingrained",
+          "meaning": "根深蒂固的；深深嵌入的",
+          "context": "这里说经历进入身份和人生叙述，不是表面一过性印象。",
+          "example": "The memory became ingrained in the family's story.",
+          "collocations": [
+            "ingrained in their identities and life stories",
+            "can rob them of happiness and normalcy"
+          ]
+        }
+      ],
+      "translation": "记住，十六年后，失去住宅的Kobe居民仍比无房损者满意较低、身体症状更多。灾难对幸存者福祉的负面影响长久。悲剧嵌入身份与人生故事，可夺走幸福和常态。没人想受这种悲剧。",
+      "evidenceTargetIds": [
+        "c11-s05-p129-04650-s003"
+      ],
+      "evidence": [
+        {
+          "quote": "Recall that, even sixteen years after the Hanshin-Awaji earthquake, Kobe residents who had lost their houses in the quake were less satisfied with their lives and reported more physical symptoms than those whose houses had not been damaged. These findings show that the negative effects of natural disasters on the well-being of survivors are long-lasting. The tragedy becomes ingrained in their identities and life stories and can rob them of happiness and normalcy. No one wishes to suffer such a tragedy.",
+          "sentenceIds": [
+            "c11-s05-p129-04650-s001",
+            "c11-s05-p129-04650-s002",
+            "c11-s05-p129-04650-s003",
+            "c11-s05-p129-04650-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 129,
+              "block": 2,
+              "bbox": [
+                76.99,
+                465,
+                535.01,
+                713.52
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "6de22bcb5bf9f1f0feb57a4c8b8a86f8ad6cc76b6e42bb11c9aef27547ad6723"
+    },
+    {
+      "id": "qe-c11-0087",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-051",
+      "parentQuestionId": "q-c11-049",
+      "chapterId": "c11",
+      "sectionId": "c11-s05",
+      "paragraphId": "c11-s05-p129-04650",
+      "readingUnitId": "c11-s05-p129-04650-r001-004",
+      "sentenceIds": [
+        "c11-s05-p129-04650-s001",
+        "c11-s05-p129-04650-s002",
+        "c11-s05-p129-04650-s003",
+        "c11-s05-p129-04650-s004"
+      ],
+      "passage": "Recall that, even sixteen years after the Hanshin-Awaji earthquake, Kobe residents who had lost their houses in the quake were less satisfied with their lives and reported more physical symptoms than those whose houses had not been damaged. These findings show that the negative effects of natural disasters on the well-being of survivors are long-lasting. The tragedy becomes ingrained in their identities and life stories and can rob them of happiness and normalcy. No one wishes to suffer such a tragedy.",
+      "prompt": "What stance does 'No one wishes to suffer such a tragedy' reinforce?",
+      "promptZh": "No one wishes to suffer such a tragedy 强化什么立场？",
+      "options": [
+        "That psychological richness requires deliberately seeking a disaster.",
+        "That all discussion of lasting harm is withdrawn.",
+        "That discussing possible richness does not make the tragedy something to wish for.",
+        "That every survivor reported exactly the same future wishes in a measured survey."
+      ],
+      "optionsZh": [
+        "心理丰富要求人故意寻找灾难。",
+        "撤回所有长期伤害讨论。",
+        "讨论可能的丰富性，并不使悲剧成为值得主动祈求的事。",
+        "每位幸存者在实测调查中报告完全相同未来愿望。"
+      ],
+      "answer": 2,
+      "type": "作者意图",
+      "support": "explicit",
+      "analyses": [
+        "A 原句正说没人愿受，不是劝人寻灾。",
+        "B 前文强调long-lasting负面影响，未撤回。",
+        "C 放在身份、幸福与常态的代价后，明确承认其不可欲，不因后文可能收益而美化悲剧。",
+        "D 这是作者的概括性立场，不是报告一份全体受访者逐人愿望一致的统计。"
+      ],
+      "vocabulary": [
+        {
+          "word": "suffer",
+          "meaning": "遭受；经历痛苦或损害",
+          "context": "在此搭配tragedy，表达事件的负担而非希望获得的奖赏。",
+          "example": "No one wished to suffer the loss described in the account.",
+          "collocations": [
+            "wishes to suffer such a tragedy",
+            "No one wishes"
+          ]
+        }
+      ],
+      "translation": "记住，十六年后，失去住宅的Kobe居民仍比无房损者满意较低、身体症状更多。灾难对幸存者福祉的负面影响长久。悲剧嵌入身份与人生故事，可夺走幸福和常态。没人想受这种悲剧。",
+      "evidenceTargetIds": [
+        "c11-s05-p129-04650-s004"
+      ],
+      "evidence": [
+        {
+          "quote": "Recall that, even sixteen years after the Hanshin-Awaji earthquake, Kobe residents who had lost their houses in the quake were less satisfied with their lives and reported more physical symptoms than those whose houses had not been damaged. These findings show that the negative effects of natural disasters on the well-being of survivors are long-lasting. The tragedy becomes ingrained in their identities and life stories and can rob them of happiness and normalcy. No one wishes to suffer such a tragedy.",
+          "sentenceIds": [
+            "c11-s05-p129-04650-s001",
+            "c11-s05-p129-04650-s002",
+            "c11-s05-p129-04650-s003",
+            "c11-s05-p129-04650-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 129,
+              "block": 2,
+              "bbox": [
+                76.99,
+                465,
+                535.01,
+                713.52
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "07b86c0134382b854f07d44a0733a406f2055c9f0c1d842270952d3cff373927"
+    },
+    {
+      "id": "q-c11-050",
+      "version": 1,
+      "readingUnitId": "c11-s05-p129-04650-r005-008",
+      "chapterId": "c11",
+      "sectionId": "c11-s05",
+      "paragraphId": "c11-s05-p129-04650",
+      "sentenceIds": [
+        "c11-s05-p129-04650-s005",
+        "c11-s05-p129-04650-s006",
+        "c11-s05-p129-04650-s007",
+        "c11-s05-p129-04650-s008"
+      ],
+      "passage": "Yet, even if happiness is impossible in the aftermath, survivors can still lead a good life. Indeed, some of the best qualities of humankind emerge as antidotes to grief in these difficult times: many survivors become more prosocial. The change of perspective experienced by earthquake survivors could mean that their lives are now psychologically richer than before. They discovered “a treasure amidst ruins.”",
+      "prompt": "What does “a treasure amidst ruins” suggest in this argument?",
+      "options": [
+        "All losses have been compensated financially.",
+        "There can be valuable perspective changes without denying devastation.",
+        "Ruined buildings literally contain hidden gold.",
+        "Every survivor must feel grateful for disaster."
+      ],
+      "answer": 1,
+      "type": "语境词义",
+      "promptZh": "treasure amidst ruins 在论证中暗示什么？",
+      "optionsZh": [
+        "一切损失已财务补足。",
+        "不否认破坏也可能有珍贵视角变化。",
+        "废墟字面藏金。",
+        "每位幸存者必须感激灾难。"
+      ],
+      "analyses": [
+        "A 没有赔偿结论。",
+        "B could mean/more prosocial把潜在丰富比作珍宝，并不取消痛苦。",
+        "C 语境是心理变化，非考古宝藏。",
+        "D many/could不等于人人必须，不能强加受害者感恩义务。幸福不可能是even if条件，不是声明所有人永不快乐。"
+      ],
+      "evidence": [
+        {
+          "quote": "The change of perspective experienced by earthquake survivors could mean that their lives are now psychologically richer than before.",
+          "sentenceIds": [
+            "c11-s05-p129-04650-s007"
+          ],
+          "sources": [
+            {
+              "pdfPage": 129,
+              "block": 2,
+              "bbox": [
+                76.99,
+                465,
+                535.01,
+                713.52
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "antidotes",
+          "meaning": "缓解或对抗某物的力量",
+          "context": "对悲伤的比喻性应对，非临床药物处方",
+          "example": "Community support can serve as an antidote to isolation.",
+          "collocations": [
+            "antidotes to grief",
+            "a treasure amidst ruins"
+          ]
+        }
+      ],
+      "translation": "然而，即使灾后无法幸福，幸存者仍能过好人生。艰难时人性一些最好品质可对抗悲伤，许多人更亲社会。视角改变可能意味着人生比从前心理更丰富。他们发现“废墟中的珍宝”。",
+      "support": "explicit",
+      "editorialStatus": "完整PDF126–130原页视觉核对及跨页拼接。Kobe物理修复和心理伤痕分开，调查波次与作者休假年分开，房损/失亲同时分析不作随机因果或变量全无关联。Solnit为引语/作者阐释，电视职业愿望为作者回忆。四川震前后为同校新组，as if/presumably保留，非研究者随机分配灾害；100供选/10获得/平均略逾1至约4为九岁结果，不补六岁或长期个体变化。市政申请按每职位且非实际就职，1989–2000与1995变化分开。COVID接触包括本人/家属/熟人，捐款奖金/加倍与结果分开，作者made价值解释不升级成随机感染因果或医学建议。承认长期损害，不强加受害者获益/感恩；不宣称逐句证据全覆盖。",
+      "fingerprint": "56fc2a093a60866aaa1cf105d9eac4c7aa85a4d9c3fe5b9f164ffab1c06374b2"
+    },
+    {
+      "id": "qe-c11-0088",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-051",
+      "parentQuestionId": "q-c11-050",
+      "chapterId": "c11",
+      "sectionId": "c11-s05",
+      "paragraphId": "c11-s05-p129-04650",
+      "readingUnitId": "c11-s05-p129-04650-r005-008",
+      "sentenceIds": [
+        "c11-s05-p129-04650-s005",
+        "c11-s05-p129-04650-s006",
+        "c11-s05-p129-04650-s007",
+        "c11-s05-p129-04650-s008"
+      ],
+      "passage": "Yet, even if happiness is impossible in the aftermath, survivors can still lead a good life. Indeed, some of the best qualities of humankind emerge as antidotes to grief in these difficult times: many survivors become more prosocial. The change of perspective experienced by earthquake survivors could mean that their lives are now psychologically richer than before. They discovered “a treasure amidst ruins.”",
+      "prompt": "How does the 'even if' sentence distinguish a good life from happiness?",
+      "promptZh": "even if句如何区分好人生与幸福？",
+      "options": [
+        "It defines a good life as possible only when every moment is happy.",
+        "It says the loss of happiness makes every other life value impossible.",
+        "It proves all survivors immediately become happy again.",
+        "It allows a good life to remain possible even when happiness is not available after the event."
+      ],
+      "optionsZh": [
+        "把好人生定义为只有每刻幸福时才可能。",
+        "说没有幸福就不可能有任何其他人生价值。",
+        "证明所有幸存者立刻重获幸福。",
+        "即使灾后无法获得幸福，仍允许好人生成为可能。"
+      ],
+      "answer": 3,
+      "type": "逻辑关系",
+      "support": "explicit",
+      "analyses": [
+        "A even if与can still保留不完全依赖幸福的可能，非每刻必幸福。",
+        "B 下一句还谈亲社会品质，不能删除其他价值。",
+        "C 条件式不是即时康复的统一实测结论。",
+        "D 让步承认幸福困难而保留good life的可能，不命令遭遇者必须感恩或把痛苦当好事。"
+      ],
+      "vocabulary": [
+        {
+          "word": "in the aftermath",
+          "meaning": "在事件之后；在灾难等造成后果的时期",
+          "context": "不是灾害发生前，亦不保证后果只持续一瞬。",
+          "example": "Support was needed in the aftermath of the disaster.",
+          "collocations": [
+            "happiness is impossible in the aftermath",
+            "can still lead a good life"
+          ]
+        }
+      ],
+      "translation": "然而，即使灾后无法幸福，幸存者仍能过好人生。艰难时人性一些最好品质可对抗悲伤，许多人更亲社会。视角改变可能意味着人生比从前心理更丰富。他们发现“废墟中的珍宝”。",
+      "evidenceTargetIds": [
+        "c11-s05-p129-04650-s005"
+      ],
+      "evidence": [
+        {
+          "quote": "Yet, even if happiness is impossible in the aftermath, survivors can still lead a good life. Indeed, some of the best qualities of humankind emerge as antidotes to grief in these difficult times: many survivors become more prosocial. The change of perspective experienced by earthquake survivors could mean that their lives are now psychologically richer than before. They discovered “a treasure amidst ruins.”",
+          "sentenceIds": [
+            "c11-s05-p129-04650-s005",
+            "c11-s05-p129-04650-s006",
+            "c11-s05-p129-04650-s007",
+            "c11-s05-p129-04650-s008"
+          ],
+          "sources": [
+            {
+              "pdfPage": 129,
+              "block": 2,
+              "bbox": [
+                76.99,
+                465,
+                535.01,
+                713.52
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "f89d9289a4ad22762b30be0d1a8c56b4452f9b6e92012424dbc9aca0f0b10cfb"
+    },
+    {
+      "id": "qe-c11-0089",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-051",
+      "parentQuestionId": "q-c11-050",
+      "chapterId": "c11",
+      "sectionId": "c11-s05",
+      "paragraphId": "c11-s05-p129-04650",
+      "readingUnitId": "c11-s05-p129-04650-r005-008",
+      "sentenceIds": [
+        "c11-s05-p129-04650-s005",
+        "c11-s05-p129-04650-s006",
+        "c11-s05-p129-04650-s007",
+        "c11-s05-p129-04650-s008"
+      ],
+      "passage": "Yet, even if happiness is impossible in the aftermath, survivors can still lead a good life. Indeed, some of the best qualities of humankind emerge as antidotes to grief in these difficult times: many survivors become more prosocial. The change of perspective experienced by earthquake survivors could mean that their lives are now psychologically richer than before. They discovered “a treasure amidst ruins.”",
+      "prompt": "What is presented as an 'antidote to grief' in this passage?",
+      "promptZh": "这段里什么被比作 antidote to grief？",
+      "options": [
+        "A drug proven in a clinical trial to remove all bereavement.",
+        "Positive human qualities, illustrated by many survivors becoming more prosocial.",
+        "The claim that survivors had no grief to begin with.",
+        "An instruction to stop helping other people in difficult times."
+      ],
+      "optionsZh": [
+        "临床试验证明能消除全部丧失痛苦的药。",
+        "人的积极品质，以许多幸存者变得更亲社会为例。",
+        "声称幸存者原先就从无悲伤。",
+        "要求困难时停止帮助他人。"
+      ],
+      "answer": 1,
+      "type": "作者意图",
+      "support": "explicit",
+      "analyses": [
+        "A antidotes是这里的比喻，非药物疗效试验。",
+        "B 冒号后many survivors...prosocial具体说明some best qualities如何发挥作用。",
+        "C to grief承认悲伤，而非否认。",
+        "D prosocial指向助人，与停止帮助相反；many也不能扩大为所有人必然。"
+      ],
+      "vocabulary": [
+        {
+          "word": "antidotes",
+          "meaning": "解药；这里比喻抵御某种消极影响的力量",
+          "context": "文中说人性品质对抗悲伤，不是医疗处方或完全消除悲痛的保证。",
+          "example": "Community support can feel like an antidote to isolation.",
+          "collocations": [
+            "antidotes to grief",
+            "many survivors become more prosocial"
+          ]
+        }
+      ],
+      "translation": "然而，即使灾后无法幸福，幸存者仍能过好人生。艰难时人性一些最好品质可对抗悲伤，许多人更亲社会。视角改变可能意味着人生比从前心理更丰富。他们发现“废墟中的珍宝”。",
+      "evidenceTargetIds": [
+        "c11-s05-p129-04650-s006"
+      ],
+      "evidence": [
+        {
+          "quote": "Yet, even if happiness is impossible in the aftermath, survivors can still lead a good life. Indeed, some of the best qualities of humankind emerge as antidotes to grief in these difficult times: many survivors become more prosocial. The change of perspective experienced by earthquake survivors could mean that their lives are now psychologically richer than before. They discovered “a treasure amidst ruins.”",
+          "sentenceIds": [
+            "c11-s05-p129-04650-s005",
+            "c11-s05-p129-04650-s006",
+            "c11-s05-p129-04650-s007",
+            "c11-s05-p129-04650-s008"
+          ],
+          "sources": [
+            {
+              "pdfPage": 129,
+              "block": 2,
+              "bbox": [
+                76.99,
+                465,
+                535.01,
+                713.52
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "f15c9bb0a88e34a07d575fafac32f1ed3890cc84ac46d513b248f422a21b4bc5"
+    },
+    {
+      "id": "qe-c11-0090",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-051",
+      "parentQuestionId": "q-c11-050",
+      "chapterId": "c11",
+      "sectionId": "c11-s05",
+      "paragraphId": "c11-s05-p129-04650",
+      "readingUnitId": "c11-s05-p129-04650-r005-008",
+      "sentenceIds": [
+        "c11-s05-p129-04650-s005",
+        "c11-s05-p129-04650-s006",
+        "c11-s05-p129-04650-s007",
+        "c11-s05-p129-04650-s008"
+      ],
+      "passage": "Yet, even if happiness is impossible in the aftermath, survivors can still lead a good life. Indeed, some of the best qualities of humankind emerge as antidotes to grief in these difficult times: many survivors become more prosocial. The change of perspective experienced by earthquake survivors could mean that their lives are now psychologically richer than before. They discovered “a treasure amidst ruins.”",
+      "prompt": "What does the image of 'a treasure amidst ruins' express here?",
+      "promptZh": "a treasure amidst ruins 这一意象在这里表达什么？",
+      "options": [
+        "Valuable changes or qualities may be found alongside devastating loss.",
+        "Every ruined house contained buried money.",
+        "Material loss no longer matters because all survivors became wealthy.",
+        "The earthquake is proved to be wholly beneficial with no lasting harm."
+      ],
+      "optionsZh": [
+        "严重损失之中仍可能发现有价值的变化或品质。",
+        "每栋废屋里都埋着钱。",
+        "因为所有幸存者变富，物质损失已无所谓。",
+        "证明地震全然有益、无长期伤害。"
+      ],
+      "answer": 0,
+      "type": "作者意图",
+      "support": "explicit",
+      "analyses": [
+        "A 前文prosocial与could mean richer提供treasure的比喻所指，ruins仍保留损失背景。",
+        "B treasure不是此处财物发现的字面报告。",
+        "C 心理丰富非财富增加，原文未说损失无所谓。",
+        "D 不能用结尾意象抹去前段长期损害或could的限定。"
+      ],
+      "vocabulary": [
+        {
+          "word": "amidst",
+          "meaning": "在……之中；周围为某种情境所包围",
+          "context": "此处表示价值与废墟困境并存，不是灾难前已无任何困难。",
+          "example": "They found solidarity amidst the disruption.",
+          "collocations": [
+            "a treasure amidst ruins",
+            "They discovered"
+          ]
+        }
+      ],
+      "translation": "然而，即使灾后无法幸福，幸存者仍能过好人生。艰难时人性一些最好品质可对抗悲伤，许多人更亲社会。视角改变可能意味着人生比从前心理更丰富。他们发现“废墟中的珍宝”。",
+      "evidenceTargetIds": [
+        "c11-s05-p129-04650-s008"
+      ],
+      "evidence": [
+        {
+          "quote": "Yet, even if happiness is impossible in the aftermath, survivors can still lead a good life. Indeed, some of the best qualities of humankind emerge as antidotes to grief in these difficult times: many survivors become more prosocial. The change of perspective experienced by earthquake survivors could mean that their lives are now psychologically richer than before. They discovered “a treasure amidst ruins.”",
+          "sentenceIds": [
+            "c11-s05-p129-04650-s005",
+            "c11-s05-p129-04650-s006",
+            "c11-s05-p129-04650-s007",
+            "c11-s05-p129-04650-s008"
+          ],
+          "sources": [
+            {
+              "pdfPage": 129,
+              "block": 2,
+              "bbox": [
+                76.99,
+                465,
+                535.01,
+                713.52
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "fc900cde45e1d2e1f9efe64784dcef4cd394dc0fd44dfbcd30488a8938668c82"
+    },
+    {
+      "id": "q-c11-051",
+      "version": 1,
+      "readingUnitId": "c11-s06-p130-00982-r001-004",
+      "chapterId": "c11",
+      "sectionId": "c11-s06",
+      "paragraphId": "c11-s06-p130-00982",
+      "sentenceIds": [
+        "c11-s06-p130-00982-s001",
+        "c11-s06-p130-00982-s002",
+        "c11-s06-p130-00982-s003",
+        "c11-s06-p130-00982-s004"
+      ],
+      "passage": "The COVID-19 pandemic disrupted all of our lives, changing the way we live and work. Has it changed the way we view the world? Has it enhanced psychological richness? One study examined whether individuals who were exposed to COVID-19 (that is, respondents themselves, a family member, or an acquaintance diagnosed with or died from COVID-19) during the early phase of the pandemic showed more prosocial behaviors than those who were not exposed.",
+      "prompt": "How is exposure to COVID-19 defined in the study described?",
+      "options": [
+        "Only the respondent’s own confirmed infection.",
+        "Anyone who had heard about the pandemic.",
+        "Diagnosis or death involving the respondent, a family member or an acquaintance.",
+        "Only employment in a hospital."
+      ],
+      "answer": 2,
+      "type": "细节",
+      "promptZh": "该研究怎样界定接触COVID-19？",
+      "optionsZh": [
+        "仅本人确认感染。",
+        "任何听说疫情的人。",
+        "本人、家人或熟人获诊断或死亡的经历。",
+        "只限医院工作。"
+      ],
+      "analyses": [
+        "A 明列family member/acquaintance，范围更广。",
+        "B hearing不是所给操作定义。",
+        "C 括号准确界定，不能统一改成全体本人患病。",
+        "D 无职业限定。研究比较既有接触与未接触，未说随机感染分组。"
+      ],
+      "evidence": [
+        {
+          "quote": "respondents themselves, a family member, or an acquaintance diagnosed with or died from COVID-19",
+          "sentenceIds": [
+            "c11-s06-p130-00982-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 130,
+              "block": 1,
+              "bbox": [
+                76.99,
+                98.25,
+                535.01,
+                385.77
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "acquaintance",
+          "meaning": "熟人；认识的人",
+          "context": "比家属更广的认识对象，非必为亲密好友",
+          "example": "An acquaintance shared news of the experience.",
+          "collocations": [
+            "a family member or an acquaintance",
+            "an acquaintance diagnosed with"
+          ]
+        }
+      ],
+      "translation": "COVID-19扰乱生活工作。它改变世界观了吗？增加心理丰富了吗？一项研究考察疫情早期接触过COVID-19者，即本人、家人或熟人确诊或死于COVID-19，是否比未接触者表现更多亲社会行为。",
+      "support": "explicit",
+      "editorialStatus": "完整PDF126–130原页视觉核对及跨页拼接。Kobe物理修复和心理伤痕分开，调查波次与作者休假年分开，房损/失亲同时分析不作随机因果或变量全无关联。Solnit为引语/作者阐释，电视职业愿望为作者回忆。四川震前后为同校新组，as if/presumably保留，非研究者随机分配灾害；100供选/10获得/平均略逾1至约4为九岁结果，不补六岁或长期个体变化。市政申请按每职位且非实际就职，1989–2000与1995变化分开。COVID接触包括本人/家属/熟人，捐款奖金/加倍与结果分开，作者made价值解释不升级成随机感染因果或医学建议。承认长期损害，不强加受害者获益/感恩；不宣称逐句证据全覆盖。",
+      "fingerprint": "84567bef7f48a0ef2e6f3dd09dab03ad169e717a9420a41c16a6860fe9256f18"
+    },
+    {
+      "id": "qe-c11-0091",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-051",
+      "parentQuestionId": "q-c11-051",
+      "chapterId": "c11",
+      "sectionId": "c11-s06",
+      "paragraphId": "c11-s06-p130-00982",
+      "readingUnitId": "c11-s06-p130-00982-r001-004",
+      "sentenceIds": [
+        "c11-s06-p130-00982-s001",
+        "c11-s06-p130-00982-s002",
+        "c11-s06-p130-00982-s003",
+        "c11-s06-p130-00982-s004"
+      ],
+      "passage": "The COVID-19 pandemic disrupted all of our lives, changing the way we live and work. Has it changed the way we view the world? Has it enhanced psychological richness? One study examined whether individuals who were exposed to COVID-19 (that is, respondents themselves, a family member, or an acquaintance diagnosed with or died from COVID-19) during the early phase of the pandemic showed more prosocial behaviors than those who were not exposed.",
+      "prompt": "What effect of the pandemic opens the next section?",
+      "promptZh": "下一节开头先指出疫情什么影响？",
+      "options": [
+        "It left the way people lived and worked completely unchanged.",
+        "It changed work alone while explicitly leaving all daily life unaffected.",
+        "It disrupted lives and changed how people lived and worked.",
+        "It gave every person an identical experience and outcome."
+      ],
+      "optionsZh": [
+        "生活工作方式完全没变。",
+        "只改工作，明确说日常生活完全未受影响。",
+        "它扰乱生活，改变人们生活和工作的方式。",
+        "每个人经历和结果完全一样。"
+      ],
+      "answer": 2,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A disrupted、changing均与完全未变相反。",
+        "B live and work两项，不是只工作。",
+        "C 主句与changing分词结构两层意思均保留，是作者开节的广泛描述。",
+        "D all of our lives不等于每人影响程度和结果相同。"
+      ],
+      "vocabulary": [
+        {
+          "word": "disrupted",
+          "meaning": "扰乱；打断原有秩序或安排",
+          "context": "这里说生活工作方式变化，不能仅凭此词推成每人相同心理结果。",
+          "example": "The event disrupted familiar routines at home and work.",
+          "collocations": [
+            "disrupted all of our lives",
+            "changing the way we live and work"
+          ]
+        }
+      ],
+      "translation": "COVID-19扰乱生活工作。它改变世界观了吗？增加心理丰富了吗？一项研究考察疫情早期接触过COVID-19者，即本人、家人或熟人确诊或死于COVID-19，是否比未接触者表现更多亲社会行为。",
+      "evidenceTargetIds": [
+        "c11-s06-p130-00982-s001"
+      ],
+      "evidence": [
+        {
+          "quote": "The COVID-19 pandemic disrupted all of our lives, changing the way we live and work. Has it changed the way we view the world? Has it enhanced psychological richness? One study examined whether individuals who were exposed to COVID-19 (that is, respondents themselves, a family member, or an acquaintance diagnosed with or died from COVID-19) during the early phase of the pandemic showed more prosocial behaviors than those who were not exposed.",
+          "sentenceIds": [
+            "c11-s06-p130-00982-s001",
+            "c11-s06-p130-00982-s002",
+            "c11-s06-p130-00982-s003",
+            "c11-s06-p130-00982-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 130,
+              "block": 1,
+              "bbox": [
+                76.99,
+                98.25,
+                535.01,
+                385.77
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "958d38dd049bac0bd393c7dd7be899477a6ff979e4b242ea6b14da4047aeeb05"
+    },
+    {
+      "id": "qe-c11-0092",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-051",
+      "parentQuestionId": "q-c11-051",
+      "chapterId": "c11",
+      "sectionId": "c11-s06",
+      "paragraphId": "c11-s06-p130-00982",
+      "readingUnitId": "c11-s06-p130-00982-r001-004",
+      "sentenceIds": [
+        "c11-s06-p130-00982-s001",
+        "c11-s06-p130-00982-s002",
+        "c11-s06-p130-00982-s003",
+        "c11-s06-p130-00982-s004"
+      ],
+      "passage": "The COVID-19 pandemic disrupted all of our lives, changing the way we live and work. Has it changed the way we view the world? Has it enhanced psychological richness? One study examined whether individuals who were exposed to COVID-19 (that is, respondents themselves, a family member, or an acquaintance diagnosed with or died from COVID-19) during the early phase of the pandemic showed more prosocial behaviors than those who were not exposed.",
+      "prompt": "What does the question about viewing the world ask?",
+      "promptZh": "关于 view the world 的问句问什么？",
+      "options": [
+        "Whether all geographic maps had been physically redrawn.",
+        "Whether the pandemic had changed people's outlook on the world.",
+        "Whether all participants had donated their full bonus already.",
+        "Whether psychological richness had already been proved identical to income."
+      ],
+      "optionsZh": [
+        "是否所有地图已被实际重画。",
+        "疫情是否改变人看世界的方式。",
+        "是否所有参与者早已捐出全部奖金。",
+        "心理丰富是否已被证明完全等于收入。"
+      ],
+      "answer": 1,
+      "type": "篇章结构",
+      "support": "explicit",
+      "analyses": [
+        "A view the world在此是看法与世界观，不是地图绘制。",
+        "B it承接pandemic，Has...changed提出视角变化问题。",
+        "C 捐赠是后续研究程序，非当前问句内容。",
+        "D 问句未把丰富性等同收入，更不是已证明的结论。"
+      ],
+      "vocabulary": [
+        {
+          "word": "view",
+          "meaning": "看待；理解和评价某事",
+          "context": "作动词指人的理解视角，不是作为名词的网页浏览次数。",
+          "example": "An unusual experience can change how a person views the world.",
+          "collocations": [
+            "the way we view the world",
+            "Has it changed"
+          ]
+        }
+      ],
+      "translation": "COVID-19扰乱生活工作。它改变世界观了吗？增加心理丰富了吗？一项研究考察疫情早期接触过COVID-19者，即本人、家人或熟人确诊或死于COVID-19，是否比未接触者表现更多亲社会行为。",
+      "evidenceTargetIds": [
+        "c11-s06-p130-00982-s002"
+      ],
+      "evidence": [
+        {
+          "quote": "The COVID-19 pandemic disrupted all of our lives, changing the way we live and work. Has it changed the way we view the world? Has it enhanced psychological richness? One study examined whether individuals who were exposed to COVID-19 (that is, respondents themselves, a family member, or an acquaintance diagnosed with or died from COVID-19) during the early phase of the pandemic showed more prosocial behaviors than those who were not exposed.",
+          "sentenceIds": [
+            "c11-s06-p130-00982-s001",
+            "c11-s06-p130-00982-s002",
+            "c11-s06-p130-00982-s003",
+            "c11-s06-p130-00982-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 130,
+              "block": 1,
+              "bbox": [
+                76.99,
+                98.25,
+                535.01,
+                385.77
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "d3db80b81321f337b7f848c831bcf8b8514303916d364e25258e584ecf4798d1"
+    },
+    {
+      "id": "qe-c11-0093",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-051",
+      "parentQuestionId": "q-c11-051",
+      "chapterId": "c11",
+      "sectionId": "c11-s06",
+      "paragraphId": "c11-s06-p130-00982",
+      "readingUnitId": "c11-s06-p130-00982-r001-004",
+      "sentenceIds": [
+        "c11-s06-p130-00982-s001",
+        "c11-s06-p130-00982-s002",
+        "c11-s06-p130-00982-s003",
+        "c11-s06-p130-00982-s004"
+      ],
+      "passage": "The COVID-19 pandemic disrupted all of our lives, changing the way we live and work. Has it changed the way we view the world? Has it enhanced psychological richness? One study examined whether individuals who were exposed to COVID-19 (that is, respondents themselves, a family member, or an acquaintance diagnosed with or died from COVID-19) during the early phase of the pandemic showed more prosocial behaviors than those who were not exposed.",
+      "prompt": "What is the role of the question about enhanced psychological richness?",
+      "promptZh": "关于 enhanced psychological richness 的问句有什么作用？",
+      "options": [
+        "It guarantees every person benefited from infection.",
+        "It states that the pandemic's harms were imaginary.",
+        "It defines richness exclusively as the size of a monetary bonus.",
+        "It raises a question about possible change in psychological richness for the following discussion to examine."
+      ],
+      "optionsZh": [
+        "保证每个人因感染获益。",
+        "宣称疫情伤害是虚构的。",
+        "把丰富性仅定义为奖金数额。",
+        "提出心理丰富是否可能变化的问题，留待后文考察。"
+      ],
+      "answer": 3,
+      "type": "篇章结构",
+      "support": "explicit",
+      "analyses": [
+        "A Has it enhanced是提问，不是对每人获益的保证。",
+        "B 开头仍承认disrupted，没有否认伤害。",
+        "C richness为本书心理概念，非奖金金额同义词。",
+        "D 问句引出探察，不应提前把它当作已经确证的单向因果结论。"
+      ],
+      "vocabulary": [
+        {
+          "word": "enhanced",
+          "meaning": "增加；提高；使某方面更强",
+          "context": "在问句中表示待考察的变化，不自带已经发生或对每人发生的肯定。",
+          "example": "The survey asked whether the experience had enhanced perceived richness.",
+          "collocations": [
+            "enhanced psychological richness",
+            "Has it enhanced"
+          ]
+        }
+      ],
+      "translation": "COVID-19扰乱生活工作。它改变世界观了吗？增加心理丰富了吗？一项研究考察疫情早期接触过COVID-19者，即本人、家人或熟人确诊或死于COVID-19，是否比未接触者表现更多亲社会行为。",
+      "evidenceTargetIds": [
+        "c11-s06-p130-00982-s003"
+      ],
+      "evidence": [
+        {
+          "quote": "The COVID-19 pandemic disrupted all of our lives, changing the way we live and work. Has it changed the way we view the world? Has it enhanced psychological richness? One study examined whether individuals who were exposed to COVID-19 (that is, respondents themselves, a family member, or an acquaintance diagnosed with or died from COVID-19) during the early phase of the pandemic showed more prosocial behaviors than those who were not exposed.",
+          "sentenceIds": [
+            "c11-s06-p130-00982-s001",
+            "c11-s06-p130-00982-s002",
+            "c11-s06-p130-00982-s003",
+            "c11-s06-p130-00982-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 130,
+              "block": 1,
+              "bbox": [
+                76.99,
+                98.25,
+                535.01,
+                385.77
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "b4ab2b6f863e1383c41b50633b3e2a89de38f735c19f76948122a0c0f66cf6b9"
+    },
+    {
+      "id": "q-c11-052",
+      "version": 1,
+      "readingUnitId": "c11-s06-p130-00982-r005-008",
+      "chapterId": "c11",
+      "sectionId": "c11-s06",
+      "paragraphId": "c11-s06-p130-00982",
+      "sentenceIds": [
+        "c11-s06-p130-00982-s005",
+        "c11-s06-p130-00982-s006",
+        "c11-s06-p130-00982-s007",
+        "c11-s06-p130-00982-s008"
+      ],
+      "passage": "Participants were given an unexpected monetary bonus: $5 in the U.S. and €4 in Italy. Then they were asked if they would like to donate some of the money to a charity in the state/region where they lived, a national charity, or an international charity. They were told that the amount they donated would be doubled by the researcher. Both American and Italian participants exposed to COVID-19 not only were more likely to donate to a charity than those who were unexposed, but also donated more.",
+      "prompt": "Which donation arrangement is accurately described?",
+      "options": [
+        "Every participant received both $5 and €4.",
+        "Only international charities were permitted.",
+        "The researchers kept half of each donation.",
+        "Participants could donate part of a country-specific bonus, and donations would be doubled."
+      ],
+      "answer": 3,
+      "type": "细节",
+      "promptZh": "哪项准确描述捐款安排？",
+      "optionsZh": [
+        "每人同时拿五美元四欧元。",
+        "只许国际慈善。",
+        "研究者留下一半捐款。",
+        "可捐所在国对应奖金一部分，捐款获加倍。"
+      ],
+      "analyses": [
+        "A 美国五美元、意大利四欧元，不是同人两份。",
+        "B 地方、全国、国际均可。",
+        "C doubled是加倍非抽一半。",
+        "D 金额安排、选择和匹配准确；更多人愿捐与捐得更多是两个结果。疫情接触非随机操纵，不由此保证感染改善道德。"
+      ],
+      "evidence": [
+        {
+          "quote": "the amount they donated would be doubled by the researcher.",
+          "sentenceIds": [
+            "c11-s06-p130-00982-s007"
+          ],
+          "sources": [
+            {
+              "pdfPage": 130,
+              "block": 1,
+              "bbox": [
+                76.99,
+                98.25,
+                535.01,
+                385.77
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "monetary",
+          "meaning": "金钱的；货币形式的",
+          "context": "意外奖金作为可捐资源，非健康改善奖赏",
+          "example": "Participants received an unexpected monetary bonus.",
+          "collocations": [
+            "monetary bonus",
+            "donate some of the money"
+          ]
+        }
+      ],
+      "translation": "参与者获意外奖金，美国五美元，意大利四欧元，再问是否捐一部分给所在地慈善、全国慈善或国际慈善。研究者告知捐额会加倍。两国接触过COVID-19者，不只比未接触者更可能捐，也捐得更多。",
+      "support": "explicit",
+      "editorialStatus": "完整PDF126–130原页视觉核对及跨页拼接。Kobe物理修复和心理伤痕分开，调查波次与作者休假年分开，房损/失亲同时分析不作随机因果或变量全无关联。Solnit为引语/作者阐释，电视职业愿望为作者回忆。四川震前后为同校新组，as if/presumably保留，非研究者随机分配灾害；100供选/10获得/平均略逾1至约4为九岁结果，不补六岁或长期个体变化。市政申请按每职位且非实际就职，1989–2000与1995变化分开。COVID接触包括本人/家属/熟人，捐款奖金/加倍与结果分开，作者made价值解释不升级成随机感染因果或医学建议。承认长期损害，不强加受害者获益/感恩；不宣称逐句证据全覆盖。",
+      "fingerprint": "0c6b0fd853231ad8b2d3b61bfe318cbea47179eec5f4116ba4c918487f35fe2b"
+    },
+    {
+      "id": "qe-c11-0094",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-051",
+      "parentQuestionId": "q-c11-052",
+      "chapterId": "c11",
+      "sectionId": "c11-s06",
+      "paragraphId": "c11-s06-p130-00982",
+      "readingUnitId": "c11-s06-p130-00982-r005-008",
+      "sentenceIds": [
+        "c11-s06-p130-00982-s005",
+        "c11-s06-p130-00982-s006",
+        "c11-s06-p130-00982-s007",
+        "c11-s06-p130-00982-s008"
+      ],
+      "passage": "Participants were given an unexpected monetary bonus: $5 in the U.S. and €4 in Italy. Then they were asked if they would like to donate some of the money to a charity in the state/region where they lived, a national charity, or an international charity. They were told that the amount they donated would be doubled by the researcher. Both American and Italian participants exposed to COVID-19 not only were more likely to donate to a charity than those who were unexposed, but also donated more.",
+      "prompt": "Which unexpected bonus was given in each country?",
+      "promptZh": "两国分别给了什么意外奖金？",
+      "options": [
+        "Five euros in the U.S. and four dollars in Italy.",
+        "The same ten-dollar bonus in both countries.",
+        "Five dollars in the U.S. and four euros in Italy.",
+        "A compulsory donation taken from participants before they received any money."
+      ],
+      "optionsZh": [
+        "美国五欧元、意大利四美元。",
+        "两国都十美元。",
+        "美国五美元、意大利四欧元。",
+        "尚未给钱就从参与者处强制收取捐款。"
+      ],
+      "answer": 2,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A 数字相近但货币与国家配错。",
+        "B 原文两国金额和币种不同。",
+        "C $5与U.S.、€4与Italy逐项对应，unexpected为额外奖金性质。",
+        "D given bonus不是先征收捐款；下一句捐赠还是if would like的选择。"
+      ],
+      "vocabulary": [
+        {
+          "word": "monetary bonus",
+          "meaning": "金钱奖励；额外给的钱",
+          "context": "此处是研究参与者意外获得的金额，不是他们已捐出的数额。",
+          "example": "Participants received an unexpected monetary bonus before making a choice.",
+          "collocations": [
+            "an unexpected monetary bonus",
+            "$5 in the U.S. and €4 in Italy"
+          ]
+        }
+      ],
+      "translation": "参与者获意外奖金，美国五美元，意大利四欧元，再问是否捐一部分给所在地慈善、全国慈善或国际慈善。研究者告知捐额会加倍。两国接触过COVID-19者，不只比未接触者更可能捐，也捐得更多。",
+      "evidenceTargetIds": [
+        "c11-s06-p130-00982-s005"
+      ],
+      "evidence": [
+        {
+          "quote": "Participants were given an unexpected monetary bonus: $5 in the U.S. and €4 in Italy. Then they were asked if they would like to donate some of the money to a charity in the state/region where they lived, a national charity, or an international charity. They were told that the amount they donated would be doubled by the researcher. Both American and Italian participants exposed to COVID-19 not only were more likely to donate to a charity than those who were unexposed, but also donated more.",
+          "sentenceIds": [
+            "c11-s06-p130-00982-s005",
+            "c11-s06-p130-00982-s006",
+            "c11-s06-p130-00982-s007",
+            "c11-s06-p130-00982-s008"
+          ],
+          "sources": [
+            {
+              "pdfPage": 130,
+              "block": 1,
+              "bbox": [
+                76.99,
+                98.25,
+                535.01,
+                385.77
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "270127170446f1cbb759bd7d339a4d57709653c5bf515324399520ad992b1ec8"
+    },
+    {
+      "id": "qe-c11-0095",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-051",
+      "parentQuestionId": "q-c11-052",
+      "chapterId": "c11",
+      "sectionId": "c11-s06",
+      "paragraphId": "c11-s06-p130-00982",
+      "readingUnitId": "c11-s06-p130-00982-r005-008",
+      "sentenceIds": [
+        "c11-s06-p130-00982-s005",
+        "c11-s06-p130-00982-s006",
+        "c11-s06-p130-00982-s007",
+        "c11-s06-p130-00982-s008"
+      ],
+      "passage": "Participants were given an unexpected monetary bonus: $5 in the U.S. and €4 in Italy. Then they were asked if they would like to donate some of the money to a charity in the state/region where they lived, a national charity, or an international charity. They were told that the amount they donated would be doubled by the researcher. Both American and Italian participants exposed to COVID-19 not only were more likely to donate to a charity than those who were unexposed, but also donated more.",
+      "prompt": "What donation options were participants offered?",
+      "promptZh": "参与者被提供哪些捐款去向？",
+      "options": [
+        "A charity in their state or region, a national charity, or an international charity.",
+        "Only a charity personally chosen by the researcher outside their country.",
+        "Only a fixed donation to a school classmate, with no other option.",
+        "A requirement to give all the money to every listed charity."
+      ],
+      "optionsZh": [
+        "所在地州或地区慈善、全国慈善或国际慈善。",
+        "仅研究者本人指定的外国慈善。",
+        "仅固定捐给学校同学，没有别项。",
+        "必须把全部钱同时给所有列出慈善。"
+      ],
+      "answer": 0,
+      "type": "研究设计",
+      "support": "explicit",
+      "analyses": [
+        "A 三种层级与or选择关系完整对应。",
+        "B 不是只有国外机构或单一指定者。",
+        "C 同学贴纸是前一研究，不能混入金钱任务。",
+        "D would like、some、or保留自愿份额和备选去向，非强制全部捐给全部机构。"
+      ],
+      "vocabulary": [
+        {
+          "word": "state/region",
+          "meaning": "州或地区；参与者居住的地方行政范围",
+          "context": "此处与national、international作层级区分，不是心理状态。",
+          "example": "They could choose a charity in the state or region where they lived.",
+          "collocations": [
+            "in the state/region where they lived",
+            "a national charity, or an international charity"
+          ]
+        }
+      ],
+      "translation": "参与者获意外奖金，美国五美元，意大利四欧元，再问是否捐一部分给所在地慈善、全国慈善或国际慈善。研究者告知捐额会加倍。两国接触过COVID-19者，不只比未接触者更可能捐，也捐得更多。",
+      "evidenceTargetIds": [
+        "c11-s06-p130-00982-s006"
+      ],
+      "evidence": [
+        {
+          "quote": "Participants were given an unexpected monetary bonus: $5 in the U.S. and €4 in Italy. Then they were asked if they would like to donate some of the money to a charity in the state/region where they lived, a national charity, or an international charity. They were told that the amount they donated would be doubled by the researcher. Both American and Italian participants exposed to COVID-19 not only were more likely to donate to a charity than those who were unexposed, but also donated more.",
+          "sentenceIds": [
+            "c11-s06-p130-00982-s005",
+            "c11-s06-p130-00982-s006",
+            "c11-s06-p130-00982-s007",
+            "c11-s06-p130-00982-s008"
+          ],
+          "sources": [
+            {
+              "pdfPage": 130,
+              "block": 1,
+              "bbox": [
+                76.99,
+                98.25,
+                535.01,
+                385.77
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "11df40ab5ab21398b82deef4ac5de764abaa3648b851165bffe3bc14a2afda6d"
+    },
+    {
+      "id": "qe-c11-0096",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-051",
+      "parentQuestionId": "q-c11-052",
+      "chapterId": "c11",
+      "sectionId": "c11-s06",
+      "paragraphId": "c11-s06-p130-00982",
+      "readingUnitId": "c11-s06-p130-00982-r005-008",
+      "sentenceIds": [
+        "c11-s06-p130-00982-s005",
+        "c11-s06-p130-00982-s006",
+        "c11-s06-p130-00982-s007",
+        "c11-s06-p130-00982-s008"
+      ],
+      "passage": "Participants were given an unexpected monetary bonus: $5 in the U.S. and €4 in Italy. Then they were asked if they would like to donate some of the money to a charity in the state/region where they lived, a national charity, or an international charity. They were told that the amount they donated would be doubled by the researcher. Both American and Italian participants exposed to COVID-19 not only were more likely to donate to a charity than those who were unexposed, but also donated more.",
+      "prompt": "Which two donation differences were reported for exposed participants?",
+      "promptZh": "接触过COVID-19的参与者被报告有哪两种捐赠差异？",
+      "options": [
+        "They were less likely to donate but always gave the same amount if they did.",
+        "Only the Italian group showed a difference, while the American group was identical.",
+        "Every exposed participant donated the entire bonus, with no exceptions.",
+        "In both countries, they were more likely to donate and also donated more than unexposed participants."
+      ],
+      "optionsZh": [
+        "他们较少捐，且只要捐就总给相同金额。",
+        "仅意大利组不同，美国组完全相同。",
+        "每位接触者都无例外捐出全部奖金。",
+        "两国中，他们比未接触者更可能捐、也捐得更多。"
+      ],
+      "answer": 3,
+      "type": "同义改写",
+      "support": "explicit",
+      "analyses": [
+        "A likely方向反了，also donated more也不是固定同额。",
+        "B Both American and Italian明确两国。",
+        "C more likely和more是群体比较，不能扩成每人全额。",
+        "D not only...but also并列捐赠发生与数量两个结果，不把这段观察改成随机分配感染的因果试验。"
+      ],
+      "vocabulary": [
+        {
+          "word": "not only",
+          "meaning": "不仅；与but also一起连接两个并列方面",
+          "context": "此处并列更可能捐与捐更多，不是只重复同一指标。",
+          "example": "The group not only volunteered more often but also contributed more time.",
+          "collocations": [
+            "not only were more likely to donate",
+            "but also donated more"
+          ]
+        }
+      ],
+      "translation": "参与者获意外奖金，美国五美元，意大利四欧元，再问是否捐一部分给所在地慈善、全国慈善或国际慈善。研究者告知捐额会加倍。两国接触过COVID-19者，不只比未接触者更可能捐，也捐得更多。",
+      "evidenceTargetIds": [
+        "c11-s06-p130-00982-s008"
+      ],
+      "evidence": [
+        {
+          "quote": "Participants were given an unexpected monetary bonus: $5 in the U.S. and €4 in Italy. Then they were asked if they would like to donate some of the money to a charity in the state/region where they lived, a national charity, or an international charity. They were told that the amount they donated would be doubled by the researcher. Both American and Italian participants exposed to COVID-19 not only were more likely to donate to a charity than those who were unexposed, but also donated more.",
+          "sentenceIds": [
+            "c11-s06-p130-00982-s005",
+            "c11-s06-p130-00982-s006",
+            "c11-s06-p130-00982-s007",
+            "c11-s06-p130-00982-s008"
+          ],
+          "sources": [
+            {
+              "pdfPage": 130,
+              "block": 1,
+              "bbox": [
+                76.99,
+                98.25,
+                535.01,
+                385.77
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "4e09ef14da65726c90e10ae1badbe9d351ee8bafb6a81d356483bdb20fe5be06"
+    },
+    {
+      "id": "q-c11-054",
+      "version": 1,
+      "readingUnitId": "c11-s06-p130-03908-r001-004",
+      "chapterId": "c11",
+      "sectionId": "c11-s06",
+      "paragraphId": "c11-s06-p130-03908",
+      "sentenceIds": [
+        "c11-s06-p130-03908-s001",
+        "c11-s06-p130-03908-s002",
+        "c11-s06-p130-03908-s003",
+        "c11-s06-p130-03908-s004"
+      ],
+      "passage": "Did an unusual experience of COVID-19 increase psychological richness? Micael Dahlen and Helge Thorbjørnsen directly tested this question. During the second week of April 2021, 973 Swedes anonymously filled out a questionnaire that asked about their COVID-19 status as well as whether they felt they were living a psychologically rich life. It turned out that those who had had COVID-19 reported more psychological richness than those who had not been infected.",
+      "prompt": "What did the April 2021 Swedish questionnaire find?",
+      "options": [
+        "Participants were randomly assigned to infection.",
+        "Those previously infected reported greater psychological richness.",
+        "All respondents reported identical richness.",
+        "Only hospital records were collected."
+      ],
+      "answer": 1,
+      "type": "细节",
+      "promptZh": "2021年4月瑞典问卷发现什么？",
+      "optionsZh": [
+        "随机分配感染。",
+        "既往感染者自报心理丰富更高。",
+        "所有人丰富度相同。",
+        "只收医院档案。"
+      ],
+      "analyses": [
+        "A 是匿名问卷，非随机感染。",
+        "B reported more...than 明示自报组间差异。",
+        "C more 比较方向清楚。",
+        "D 问卷问感染状态与主观人生感受，非只档案。973是受访人数，不证明感染导致丰富。"
+      ],
+      "evidence": [
+        {
+          "quote": "those who had had COVID-19 reported more psychological richness than those who had not been infected.",
+          "sentenceIds": [
+            "c11-s06-p130-03908-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 130,
+              "block": 2,
+              "bbox": [
+                76.99,
+                390.75,
+                535.01,
+                580.77
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "anonymously",
+          "meaning": "匿名地",
+          "context": "不具名填写问卷，不等于研究随机分组",
+          "example": "The respondents completed the questionnaire anonymously.",
+          "collocations": [
+            "fill out anonymously",
+            "an anonymous questionnaire"
+          ]
+        }
+      ],
+      "translation": "COVID-19这种异常经历增加心理丰富吗？Micael Dahlen与Helge Thorbjørnsen直接检验此问。2021年4月第二周，973名瑞典人匿名问卷，报告COVID状态与是否觉得人生心理丰富。曾患病者比未感染者自报更多心理丰富。",
+      "support": "explicit",
+      "editorialStatus": "完整PDF130–136原页视觉核对含章末132与章首133。瑞典2021两次调查为自报比较，保留反向因果；谣言不作事实、暴力明确谴责，韧性most/common不作人人无创伤。既有单元q-c11-062原文仅起).，为131页七転八起括号因换行提取的末字续片，保留既有ID/范围并编来源续接辨识题，明确非独立英文段或最终人工句界，不补造英文或新主张；词汇特记日语末字。James画作是哲学比喻，保留不幸受约束。Bush为作者可选叙述示范，probably/could不作客观证实；Tim Wilson区别Anne Wilson。父母回顾多年龄评分非几十年追踪；本科纵向6.35原九月/6.05当下十一月/5.74回忆九月分开，实际记录指原自评不是客观能力。末段整段审阅含后续未配题材料，不宣称逐句直接证据全覆盖。",
+      "fingerprint": "0f08db636de3f7a19dae32bf9f705beeb05247c84f07fbe4ea60eb366ed20e30"
+    },
+    {
+      "id": "qe-c11-0097",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-051",
+      "parentQuestionId": "q-c11-054",
+      "chapterId": "c11",
+      "sectionId": "c11-s06",
+      "paragraphId": "c11-s06-p130-03908",
+      "readingUnitId": "c11-s06-p130-03908-r001-004",
+      "sentenceIds": [
+        "c11-s06-p130-03908-s001",
+        "c11-s06-p130-03908-s002",
+        "c11-s06-p130-03908-s003",
+        "c11-s06-p130-03908-s004"
+      ],
+      "passage": "Did an unusual experience of COVID-19 increase psychological richness? Micael Dahlen and Helge Thorbjørnsen directly tested this question. During the second week of April 2021, 973 Swedes anonymously filled out a questionnaire that asked about their COVID-19 status as well as whether they felt they were living a psychologically rich life. It turned out that those who had had COVID-19 reported more psychological richness than those who had not been infected.",
+      "prompt": "Which outcome is the unusual COVID-19 experience being asked to increase?",
+      "promptZh": "这里问不寻常的COVID-19经历是否增加什么结果？",
+      "options": [
+        "The number of municipal job vacancies.",
+        "Psychological richness.",
+        "The exact cash bonus in the Italian donation task.",
+        "The size of the earthquake's physical damage."
+      ],
+      "optionsZh": [
+        "市政职位空缺数。",
+        "心理丰富性。",
+        "意大利捐赠任务的确切奖金。",
+        "地震物理损害的规模。"
+      ],
+      "answer": 1,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A 求职研究为前节问题，不是本问结果。",
+        "B increase psychological richness明确给被考察结果。",
+        "C 金钱任务在前段，但此处换为心理丰富问题。",
+        "D 地震房损是另一调查，不能移来；Did...提出问题不保证因果已证实。"
+      ],
+      "vocabulary": [
+        {
+          "word": "unusual",
+          "meaning": "不寻常的；不同于惯常体验的",
+          "context": "此处描述经历的异常性，不自带一定快乐、有益或值得追求之意。",
+          "example": "The questionnaire asked about an unusual experience and perceived richness.",
+          "collocations": [
+            "an unusual experience of COVID-19",
+            "increase psychological richness"
+          ]
+        }
+      ],
+      "translation": "COVID-19这种异常经历增加心理丰富吗？Micael Dahlen与Helge Thorbjørnsen直接检验此问。2021年4月第二周，973名瑞典人匿名问卷，报告COVID状态与是否觉得人生心理丰富。曾患病者比未感染者自报更多心理丰富。",
+      "evidenceTargetIds": [
+        "c11-s06-p130-03908-s001"
+      ],
+      "evidence": [
+        {
+          "quote": "Did an unusual experience of COVID-19 increase psychological richness? Micael Dahlen and Helge Thorbjørnsen directly tested this question. During the second week of April 2021, 973 Swedes anonymously filled out a questionnaire that asked about their COVID-19 status as well as whether they felt they were living a psychologically rich life. It turned out that those who had had COVID-19 reported more psychological richness than those who had not been infected.",
+          "sentenceIds": [
+            "c11-s06-p130-03908-s001",
+            "c11-s06-p130-03908-s002",
+            "c11-s06-p130-03908-s003",
+            "c11-s06-p130-03908-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 130,
+              "block": 2,
+              "bbox": [
+                76.99,
+                390.75,
+                535.01,
+                580.77
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "036560fe5f9c4dfdcc3e570e303a379f9310a68e43a2bd45ac097da65e8188dd"
+    },
+    {
+      "id": "qe-c11-0098",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-051",
+      "parentQuestionId": "q-c11-054",
+      "chapterId": "c11",
+      "sectionId": "c11-s06",
+      "paragraphId": "c11-s06-p130-03908",
+      "readingUnitId": "c11-s06-p130-03908-r001-004",
+      "sentenceIds": [
+        "c11-s06-p130-03908-s001",
+        "c11-s06-p130-03908-s002",
+        "c11-s06-p130-03908-s003",
+        "c11-s06-p130-03908-s004"
+      ],
+      "passage": "Did an unusual experience of COVID-19 increase psychological richness? Micael Dahlen and Helge Thorbjørnsen directly tested this question. During the second week of April 2021, 973 Swedes anonymously filled out a questionnaire that asked about their COVID-19 status as well as whether they felt they were living a psychologically rich life. It turned out that those who had had COVID-19 reported more psychological richness than those who had not been infected.",
+      "prompt": "Who directly tested the question introduced in this paragraph?",
+      "promptZh": "本段中谁直接检验了所引入的问题？",
+      "options": [
+        "Jean Decety and the team conducting the sticker task.",
+        "Epley and Schroeder on the commuter train.",
+        "Micael Dahlen and Helge Thorbjørnsen.",
+        "Nietzsche and the author of A Paradise Built in Hell."
+      ],
+      "optionsZh": [
+        "Jean Decety与贴纸任务团队。",
+        "列车研究的Epley、Schroeder。",
+        "Micael Dahlen与Helge Thorbjørnsen。",
+        "Nietzsche与A Paradise Built in Hell作者。"
+      ],
+      "answer": 2,
+      "type": "观点归属",
+      "support": "explicit",
+      "analyses": [
+        "A 是前节给予研究团队，不是这里两人。",
+        "B 是前章通勤研究团队。",
+        "C 两个人名紧跟问句，直接承担tested this question动作。",
+        "D 混合哲学人物与另一本书作者；directly tested不自动意味着随机感染实验，后句实际为匿名问卷。"
+      ],
+      "vocabulary": [
+        {
+          "word": "tested",
+          "meaning": "检验；以研究考察问题",
+          "context": "根据随后问卷程序理解，不能仅凭tested就假定为实验随机分组。",
+          "example": "The researchers tested the question using an anonymous survey.",
+          "collocations": [
+            "directly tested this question",
+            "Micael Dahlen and Helge Thorbjørnsen"
+          ]
+        }
+      ],
+      "translation": "COVID-19这种异常经历增加心理丰富吗？Micael Dahlen与Helge Thorbjørnsen直接检验此问。2021年4月第二周，973名瑞典人匿名问卷，报告COVID状态与是否觉得人生心理丰富。曾患病者比未感染者自报更多心理丰富。",
+      "evidenceTargetIds": [
+        "c11-s06-p130-03908-s002"
+      ],
+      "evidence": [
+        {
+          "quote": "Did an unusual experience of COVID-19 increase psychological richness? Micael Dahlen and Helge Thorbjørnsen directly tested this question. During the second week of April 2021, 973 Swedes anonymously filled out a questionnaire that asked about their COVID-19 status as well as whether they felt they were living a psychologically rich life. It turned out that those who had had COVID-19 reported more psychological richness than those who had not been infected.",
+          "sentenceIds": [
+            "c11-s06-p130-03908-s001",
+            "c11-s06-p130-03908-s002",
+            "c11-s06-p130-03908-s003",
+            "c11-s06-p130-03908-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 130,
+              "block": 2,
+              "bbox": [
+                76.99,
+                390.75,
+                535.01,
+                580.77
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "b1a78a8043502198b66b8707376a01522537030043a04ec590b57b72b53e9d76"
+    },
+    {
+      "id": "qe-c11-0099",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-051",
+      "parentQuestionId": "q-c11-054",
+      "chapterId": "c11",
+      "sectionId": "c11-s06",
+      "paragraphId": "c11-s06-p130-03908",
+      "readingUnitId": "c11-s06-p130-03908-r001-004",
+      "sentenceIds": [
+        "c11-s06-p130-03908-s001",
+        "c11-s06-p130-03908-s002",
+        "c11-s06-p130-03908-s003",
+        "c11-s06-p130-03908-s004"
+      ],
+      "passage": "Did an unusual experience of COVID-19 increase psychological richness? Micael Dahlen and Helge Thorbjørnsen directly tested this question. During the second week of April 2021, 973 Swedes anonymously filled out a questionnaire that asked about their COVID-19 status as well as whether they felt they were living a psychologically rich life. It turned out that those who had had COVID-19 reported more psychological richness than those who had not been infected.",
+      "prompt": "Which description matches the April 2021 questionnaire?",
+      "promptZh": "哪种描述符合2021年4月问卷？",
+      "options": [
+        "In the second week of April, 973 Swedes anonymously answered questions on COVID-19 status and perceived psychological richness.",
+        "In June, all Swedish residents were randomly infected before answering.",
+        "In April, 973 Italians each received exactly ten stickers and no questions.",
+        "The researchers clinically measured identical brain changes in every respondent without asking about experience."
+      ],
+      "optionsZh": [
+        "4月第二周，973名瑞典人匿名回答COVID状态和自感心理丰富的问题。",
+        "6月，全瑞典居民先被随机感染再作答。",
+        "4月，973名意大利人各领十张贴纸，没有问卷。",
+        "研究者不询问经历，只临床测得每人完全相同脑变化。"
+      ],
+      "answer": 0,
+      "type": "研究设计",
+      "support": "explicit",
+      "analyses": [
+        "A 时间、人数、国别、匿名及两项所问内容对应。",
+        "B June属第二调查，且不存在研究者随机感染全人口。",
+        "C 国别与研究方法都错配。",
+        "D felt与questionnaire是自报，不是全体同脑变化的临床测量。"
+      ],
+      "vocabulary": [
+        {
+          "word": "anonymously",
+          "meaning": "匿名地；不以姓名公开身份地作答",
+          "context": "表示问卷安排，不意味着抽样就覆盖全体国民或研究者分派疾病。",
+          "example": "Respondents anonymously completed the questionnaire.",
+          "collocations": [
+            "973 Swedes anonymously filled out a questionnaire",
+            "the second week of April 2021"
+          ]
+        }
+      ],
+      "translation": "COVID-19这种异常经历增加心理丰富吗？Micael Dahlen与Helge Thorbjørnsen直接检验此问。2021年4月第二周，973名瑞典人匿名问卷，报告COVID状态与是否觉得人生心理丰富。曾患病者比未感染者自报更多心理丰富。",
+      "evidenceTargetIds": [
+        "c11-s06-p130-03908-s003"
+      ],
+      "evidence": [
+        {
+          "quote": "Did an unusual experience of COVID-19 increase psychological richness? Micael Dahlen and Helge Thorbjørnsen directly tested this question. During the second week of April 2021, 973 Swedes anonymously filled out a questionnaire that asked about their COVID-19 status as well as whether they felt they were living a psychologically rich life. It turned out that those who had had COVID-19 reported more psychological richness than those who had not been infected.",
+          "sentenceIds": [
+            "c11-s06-p130-03908-s001",
+            "c11-s06-p130-03908-s002",
+            "c11-s06-p130-03908-s003",
+            "c11-s06-p130-03908-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 130,
+              "block": 2,
+              "bbox": [
+                76.99,
+                390.75,
+                535.01,
+                580.77
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "4cbe96d18ee5fa9d38f1abb436ead1ad9a00a52e39b6b58829689346914bfea5"
+    }
+  ]
+}
