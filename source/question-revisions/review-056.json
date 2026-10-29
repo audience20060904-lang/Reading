@@ -1,0 +1,188 @@
+{
+  "schemaVersion": 1,
+  "id": "question-review-2026-10-28-056",
+  "pdfSha256": "be25c859f1bd894a4b0d1cff024ded1297f6a96a8e8ddabea1e3abcf89160a50",
+  "scope": "Review 23 questions /25 source candidates on actual PDF63–64, plus PDF65 paragraph context. Probability and coping, conditional exploration, meaningfulness examples and dated biographies; append complete needed quotations without replacing old identities. Remove invisible context dependencies; preserve original book wording and history.",
+  "questions": [
+    {
+      "id": "q-c06-070",
+      "reason": "词义只据当前片段，不要求先读维持稳定的前段。",
+      "updates": {
+        "vocabulary": [
+          {
+            "word": "conscientiousness",
+            "meaning": "尽责性；认真负责的倾向",
+            "context": "conscientiousness 指尽责、认真负责的倾向；本段说它确实有帮助，并另列宜人性对两类关系的作用。",
+            "example": "Conscientiousness can be reflected in careful planning and follow-through.",
+            "collocations": [
+              "high conscientiousness",
+              "conscientiousness and agreeableness"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-c06-072",
+      "reason": "不同探索结果的解释需有正面条件，保留旧可能原因和负面结果引文，追加完整正面结果句及精确来源。",
+      "updates": {
+        "evidence": [
+          {
+            "quote": "One potential reason is the greater motivation to explore among open people.",
+            "sentenceIds": [
+              "c06-s05-p064-01140-s002"
+            ],
+            "sources": [
+              {
+                "pdfPage": 64,
+                "block": 1,
+                "bbox": [
+                  76.99,
+                  114,
+                  535.01,
+                  226.02
+                ]
+              }
+            ]
+          },
+          {
+            "quote": "But when the exploration results in a negative experience, it is not.",
+            "sentenceIds": [
+              "c06-s05-p064-01140-s004"
+            ],
+            "sources": [
+              {
+                "pdfPage": 64,
+                "block": 1,
+                "bbox": [
+                  76.99,
+                  114,
+                  535.01,
+                  226.02
+                ]
+              }
+            ]
+          },
+          {
+            "quote": "When an exploration (e.g., trying out a new restaurant) results in a positive outcome, it is associated with higher levels of happiness.",
+            "sentenceIds": [
+              "c06-s05-p064-01140-s003"
+            ],
+            "sources": [
+              {
+                "pdfPage": 64,
+                "block": 1,
+                "bbox": [
+                  76.99,
+                  114,
+                  535.01,
+                  226.02
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "qe-c06-0120",
+      "reason": "篇章转换题以当前明确引入的主题作答，去未显示的幸福人格前情。",
+      "updates": {
+        "options": [
+          "It turns attention to the personalities of people who lead meaningful lives.",
+          "From meaning to only the price of a good life.",
+          "From research findings to the exact spelling of every dictionary word.",
+          "From personality differences to declaring that political opponents agree on everything."
+        ],
+        "optionsZh": [
+          "把注意力转向过着有意义生活的人的人格。",
+          "从意义转到仅谈美好生活价格。",
+          "从研究转到每个词典词的确切拼写。",
+          "从人格差异转为宣布政治对立者事事一致。"
+        ],
+        "analyses": [
+          "A Now let’s think about 后直接点明有意义生活的人格主题；当前句不要求先知道上一节谈了什么。",
+          "B 不是金钱定价。",
+          "C 未回到拼写筛选。",
+          "D 后文比较人格共性，不等于政策意见一致。"
+        ]
+      }
+    },
+    {
+      "id": "qe-c06-0122",
+      "reason": "运动归属只据当前Her与Greta，不预告后面的Huckabee生平。",
+      "updates": {
+        "analyses": [
+          "A 牌上是 School Strike for Climate，Fridays for Future 是运动名，不可互换。",
+          "B dubbed 表被称为，名称与运动对应。",
+          "C Her movement 对应当前的 Greta 及她的气候行动，不能错配成另一人物的宗教事业。",
+          "D 名称不建立全世界只能某天行动的规则，spread 说传播而不是所有人参加。"
+        ]
+      }
+    },
+    {
+      "id": "q-c06-076",
+      "reason": "题干同时问离校目的与持续工作，旧优先工作引文保留，追加完整离校目的句支持两部分。",
+      "updates": {
+        "evidence": [
+          {
+            "quote": "She prioritizes her environmental activism work over other commitments and works relentlessly.",
+            "sentenceIds": [
+              "c06-s06-p064-03600-s006"
+            ],
+            "sources": [
+              {
+                "pdfPage": 64,
+                "block": 4,
+                "bbox": [
+                  76.99,
+                  360,
+                  535.01,
+                  530.52
+                ]
+              }
+            ]
+          },
+          {
+            "quote": "In 2019, she even took a sabbatical from school to dedicate all her energy to activism.",
+            "sentenceIds": [
+              "c06-s06-p064-03600-s005"
+            ],
+            "sources": [
+              {
+                "pdfPage": 64,
+                "block": 4,
+                "bbox": [
+                  76.99,
+                  360,
+                  535.01,
+                  530.52
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "qe-c06-0125",
+      "reason": "当前只显示she，题干不要求认出未显示的姓名。",
+      "updates": {
+        "prompt": "What purpose does the passage give for the 2019 sabbatical?",
+        "promptZh": "本段给出的2019年暂时离校的目的是什么？"
+      }
+    },
+    {
+      "id": "qe-c06-0127",
+      "reason": "四项分析只据当前生平，移除前章与另一人物未显示地点说明。",
+      "updates": {
+        "analyses": [
+          "A 当前句明确给出 Arkansas，而不是 Sweden，不能用另一个地点替换。",
+          "B was born in Arkansas 直接定位。",
+          "C 当前没有把 Singapore 列为他的出生地。",
+          "D 当前没有把 Hong Kong 列为他的出生地；本题只问出生地，不是后来的教育或任职地点。"
+        ]
+      }
+    }
+  ]
+}
