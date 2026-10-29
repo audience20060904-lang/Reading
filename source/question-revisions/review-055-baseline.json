@@ -1,0 +1,745 @@
+{
+  "pdfSha256": "be25c859f1bd894a4b0d1cff024ded1297f6a96a8e8ddabea1e3abcf89160a50",
+  "sourceCommit": "72d0cc6b0fdb62350255c76ce925f659ddef78d3",
+  "questions": [
+    {
+      "id": "qe-c06-0098",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-021",
+      "parentQuestionId": "q-c06-061",
+      "chapterId": "c06",
+      "sectionId": "c06-s04",
+      "paragraphId": "c06-s04-p062-03285",
+      "readingUnitId": "c06-s04-p062-03285-r005-007",
+      "sentenceIds": [
+        "c06-s04-p062-03285-s005",
+        "c06-s04-p062-03285-s006",
+        "c06-s04-p062-03285-s007"
+      ],
+      "passage": "Joy Ryan is again a great example here. Compared to other ninety-somethings, she is full of energy. Thanks to this, she can visit remote national parks and enjoy unusual, psychologically rich experiences.",
+      "prompt": "Why is Joy Ryan called a great example 'here'?",
+      "promptZh": "Joy Ryan 为什么在这里又被称为好例子？",
+      "options": [
+        "She is one of the students in the intramural athletics study.",
+        "She demonstrates that every ninety-year-old has equal energy.",
+        "Her energy helps her undertake unusual visits and experiences.",
+        "She proves personality alone always supplies money and opportunities."
+      ],
+      "optionsZh": [
+        "她是校内体育研究的学生之一。",
+        "她说明每位九旬者精力相同。",
+        "她的精力帮助她开展不寻常的游览体验。",
+        "她证明单凭性格总能提供钱与机会。"
+      ],
+      "answer": 2,
+      "type": "作者意图",
+      "support": "explicit",
+      "analyses": [
+        "A 生活例证不能冒称前一研究参与者。",
+        "B Compared to other...说明比较，不是人人相同。",
+        "C 后两句 full of energy 与 Thanks to this...visit 解释此处例证作用。",
+        "D 并未取消此前机会资源条件，人物故事不是普遍因果实验。"
+      ],
+      "vocabulary": [
+        {
+          "word": "ninety-somethings",
+          "meaning": "九十多岁的人",
+          "context": "年龄组约为90至99，不是正好九十岁或某个学生班级。",
+          "example": "The group included several active ninety-somethings.",
+          "collocations": [
+            "other ninety-somethings",
+            "compared to other ninety-somethings"
+          ]
+        }
+      ],
+      "translation": "Joy Ryan 在这里又是一个很好的例子。与其他九十多岁的人相比，她精力充沛。正因如此，她能游览偏远的国家公园，享受不同寻常、心理丰富的经历。",
+      "evidenceTargetIds": [
+        "c06-s04-p062-03285-s005"
+      ],
+      "evidence": [
+        {
+          "quote": "Joy Ryan is again a great example here. Compared to other ninety-somethings, she is full of energy. Thanks to this, she can visit remote national parks and enjoy unusual, psychologically rich experiences.",
+          "sentenceIds": [
+            "c06-s04-p062-03285-s005",
+            "c06-s04-p062-03285-s006",
+            "c06-s04-p062-03285-s007"
+          ],
+          "sources": [
+            {
+              "pdfPage": 62,
+              "block": 2,
+              "bbox": [
+                76.99,
+                328.5,
+                535.01,
+                479.52
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "b9486f01da0017b13d7c28b520cbec61ef62e22a206d52d5bce7f2af6e586c5f"
+    },
+    {
+      "id": "qe-c06-0102",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-021",
+      "parentQuestionId": "q-c06-062",
+      "chapterId": "c06",
+      "sectionId": "c06-s05",
+      "paragraphId": "c06-s05-p062-05355",
+      "readingUnitId": "c06-s05-p062-05355-r001-004",
+      "sentenceIds": [
+        "c06-s05-p062-05355-s001",
+        "c06-s05-p062-05355-s002",
+        "c06-s05-p062-05355-s003",
+        "c06-s05-p062-05355-s004"
+      ],
+      "passage": "Is a happy person different from a psychologically rich person? One example of a “happy” person is Mr. Rogers in Mister Rogers’ Neighborhood. In this show, he is a friendly neighbor with a cheerful smile. The show consists of lots of singing, dancing, and puppet shows.",
+      "prompt": "Which activities are said to be included in the show?",
+      "promptZh": "原文说节目包括哪些活动？",
+      "options": [
+        "Singing, dancing, and puppet shows.",
+        "Only college sports and volunteer work.",
+        "Stories, interviews, and discussions of travel.",
+        "Mostly tennis demonstrations and competitive sports."
+      ],
+      "optionsZh": [
+        "歌唱、舞蹈、木偶戏。",
+        "仅大学体育和志愿活动。",
+        "故事、访谈与旅行讨论。",
+        "主要为网球演示及竞技体育。"
+      ],
+      "answer": 0,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A consists of 后直接列三种节目内容。",
+        "B 混入前段大学活动，且 only 无据。",
+        "C 这是一组可信的节目形式，但当前句并未列出它们。",
+        "D 将其他段落体育活动误作本节目主要内容；也不把所列活动当成保证观众幸福的充分原因。"
+      ],
+      "vocabulary": [
+        {
+          "word": "consists of",
+          "meaning": "由……组成；包括所述内容",
+          "context": "以节目构成为主语，不是说所有幸福人生都必须包括同一清单。",
+          "example": "The performance consists of three short scenes.",
+          "collocations": [
+            "consists of singing",
+            "consist of several parts"
+          ]
+        }
+      ],
+      "translation": "幸福的人与心理丰富的人是否不同？Mister Rogers’ Neighborhood 中的 Mr. Rogers，是一个“幸福”人物的例子。在这档节目里，他是面带愉快笑容的友善邻居。节目包括许多歌唱、舞蹈和木偶戏。",
+      "evidenceTargetIds": [
+        "c06-s05-p062-05355-s004"
+      ],
+      "evidence": [
+        {
+          "quote": "Is a happy person different from a psychologically rich person? One example of a “happy” person is Mr. Rogers in Mister Rogers’ Neighborhood. In this show, he is a friendly neighbor with a cheerful smile. The show consists of lots of singing, dancing, and puppet shows.",
+          "sentenceIds": [
+            "c06-s05-p062-05355-s001",
+            "c06-s05-p062-05355-s002",
+            "c06-s05-p062-05355-s003",
+            "c06-s05-p062-05355-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 62,
+              "block": 4,
+              "bbox": [
+                76.99,
+                535.5,
+                535.02,
+                628.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "960b348fb92cd863a9abde51f66364460c77206cd8ff55fcf33831fd66d58fe7"
+    },
+    {
+      "id": "q-c06-064",
+      "version": 1,
+      "readingUnitId": "c06-s05-p062-06330-r001-003",
+      "chapterId": "c06",
+      "sectionId": "c06-s05",
+      "paragraphId": "c06-s05-p062-06330",
+      "sentenceIds": [
+        "c06-s05-p062-06330-s001",
+        "c06-s05-p062-06330-s002",
+        "c06-s05-p062-06330-s003"
+      ],
+      "passage": "Mr. Rogers demonstrates the essential characteristics of happy people: extraverted, emotionally stable (lacking neuroticism), conscientious, and agreeable. The patterns of correlation for psychological richness are quite different from those for happiness. According to Anglim and colleagues’ meta-analysis, a happy life is characterized by emotional stability, extraversion, conscientiousness, and agreeableness, but not by openness to experiences.",
+      "prompt": "Which trait is excluded from the happy-life pattern reported in the meta-analysis?",
+      "options": [
+        "Emotional stability.",
+        "Conscientiousness.",
+        "Openness to experiences.",
+        "Agreeableness."
+      ],
+      "answer": 2,
+      "type": "细节",
+      "promptZh": "这项元分析所报告的幸福人生模式，没有把哪个特质包括在内？",
+      "optionsZh": [
+        "情绪稳定性。",
+        "尽责性。",
+        "经验开放性。",
+        "宜人性。"
+      ],
+      "analyses": [
+        "A emotional stability 明列于模式中。",
+        "B conscientiousness 明列于模式中。",
+        "C but not by openness to experiences 明确排除它作为该模式的特征；不是说开放的人一定不幸福。",
+        "D agreeableness 明列其中。元分析的相关模式与电视人物引例作用不同，不能把后者当作实验。"
+      ],
+      "evidence": [
+        {
+          "quote": "a happy life is characterized by emotional stability, extraversion, conscientiousness, and agreeableness, but not by openness to experiences.",
+          "sentenceIds": [
+            "c06-s05-p062-06330-s003"
+          ],
+          "sources": [
+            {
+              "pdfPage": 62,
+              "block": 5,
+              "bbox": [
+                76.99,
+                633,
+                535.01,
+                706.02
+              ]
+            },
+            {
+              "pdfPage": 63,
+              "block": 0,
+              "bbox": [
+                76.99,
+                75,
+                535.01,
+                128.52
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "meta-analysis",
+          "meaning": "元分析；荟萃分析",
+          "context": "文中引用 Anglim 及同事综合研究的分析，不是只凭一个节目角色下结论",
+          "example": "The meta-analysis combined findings from several studies.",
+          "collocations": [
+            "a meta-analysis of studies",
+            "conduct a meta-analysis"
+          ]
+        }
+      ],
+      "translation": "Mr. Rogers 展现了幸福者的核心特征：外向、情绪稳定（较少神经质）、尽责、宜人。心理丰富性的相关模式，与幸福的模式相当不同。据 Anglim 及同事的元分析，幸福人生以情绪稳定、外向、尽责和宜人为特征，却不以经验开放性为特征。",
+      "support": "explicit",
+      "editorialStatus": "PDF 第 62–65 页逐题原页核对；保留固定原句、概率和 potential/probably 限定；区分作者解释、电视人物、历史叙述与政治人物引语归属",
+      "fingerprint": "e640c5e77ad159928ee6cbe643f9a85ae68f60c3b70ad296f9974fae3fe485a1"
+    },
+    {
+      "id": "qe-c06-0103",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-021",
+      "parentQuestionId": "q-c06-064",
+      "chapterId": "c06",
+      "sectionId": "c06-s05",
+      "paragraphId": "c06-s05-p062-06330",
+      "readingUnitId": "c06-s05-p062-06330-r001-003",
+      "sentenceIds": [
+        "c06-s05-p062-06330-s001",
+        "c06-s05-p062-06330-s002",
+        "c06-s05-p062-06330-s003"
+      ],
+      "passage": "Mr. Rogers demonstrates the essential characteristics of happy people: extraverted, emotionally stable (lacking neuroticism), conscientious, and agreeable. The patterns of correlation for psychological richness are quite different from those for happiness. According to Anglim and colleagues’ meta-analysis, a happy life is characterized by emotional stability, extraversion, conscientiousness, and agreeableness, but not by openness to experiences.",
+      "prompt": "Which list matches the happy-person characteristics illustrated by Mr. Rogers?",
+      "promptZh": "哪组符合 Mr. Rogers 所说明的幸福人格特征？",
+      "options": [
+        "Only openness and high intellectual ability.",
+        "Extraversion, emotional stability, conscientiousness, and agreeableness.",
+        "Emotional instability, unreliability, and hostility.",
+        "Only wealth and the number of unusual trips."
+      ],
+      "optionsZh": [
+        "仅开放性与高智力。",
+        "外向、情绪稳定、尽责、宜人。",
+        "情绪不稳定、不可靠、敌对。",
+        "仅财富与特别旅行次数。"
+      ],
+      "answer": 1,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A 不是原句所列，且不能把开放性与幸福模式混换。",
+        "B 四项与冒号后逐项对应。",
+        "C 大部分反写为相反描述。",
+        "D 原句列人格而非财产与旅行数；lacking neuroticism 是本段稳定性说明，不作临床诊断。"
+      ],
+      "vocabulary": [
+        {
+          "word": "emotionally stable",
+          "meaning": "情绪稳定的",
+          "context": "人格倾向描述，不等于永远没有悲伤、忧虑或任何负面情绪。",
+          "example": "She remained emotionally stable during the difficult transition.",
+          "collocations": [
+            "emotionally stable",
+            "emotional stability"
+          ]
+        }
+      ],
+      "translation": "Mr. Rogers 展现了幸福者的核心特征：外向、情绪稳定（较少神经质）、尽责、宜人。心理丰富性的相关模式，与幸福的模式相当不同。据 Anglim 及同事的元分析，幸福人生以情绪稳定、外向、尽责和宜人为特征，却不以经验开放性为特征。",
+      "evidenceTargetIds": [
+        "c06-s05-p062-06330-s001"
+      ],
+      "evidence": [
+        {
+          "quote": "Mr. Rogers demonstrates the essential characteristics of happy people: extraverted, emotionally stable (lacking neuroticism), conscientious, and agreeable. The patterns of correlation for psychological richness are quite different from those for happiness. According to Anglim and colleagues’ meta-analysis, a happy life is characterized by emotional stability, extraversion, conscientiousness, and agreeableness, but not by openness to experiences.",
+          "sentenceIds": [
+            "c06-s05-p062-06330-s001",
+            "c06-s05-p062-06330-s002",
+            "c06-s05-p062-06330-s003"
+          ],
+          "sources": [
+            {
+              "pdfPage": 62,
+              "block": 5,
+              "bbox": [
+                76.99,
+                633,
+                535.01,
+                706.02
+              ]
+            },
+            {
+              "pdfPage": 63,
+              "block": 0,
+              "bbox": [
+                76.99,
+                75,
+                535.01,
+                128.52
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "d8d5c4f7c5063f0effc305c461fc2f23faae0b1e8fa7358d0949ab7f197802ac"
+    },
+    {
+      "id": "qe-c06-0104",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-021",
+      "parentQuestionId": "q-c06-064",
+      "chapterId": "c06",
+      "sectionId": "c06-s05",
+      "paragraphId": "c06-s05-p062-06330",
+      "readingUnitId": "c06-s05-p062-06330-r001-003",
+      "sentenceIds": [
+        "c06-s05-p062-06330-s001",
+        "c06-s05-p062-06330-s002",
+        "c06-s05-p062-06330-s003"
+      ],
+      "passage": "Mr. Rogers demonstrates the essential characteristics of happy people: extraverted, emotionally stable (lacking neuroticism), conscientious, and agreeable. The patterns of correlation for psychological richness are quite different from those for happiness. According to Anglim and colleagues’ meta-analysis, a happy life is characterized by emotional stability, extraversion, conscientiousness, and agreeableness, but not by openness to experiences.",
+      "prompt": "What is being compared by 'those' in 'different from those for happiness'?",
+      "promptZh": "different from those for happiness 中 those 回指什么？",
+      "options": [
+        "The physical locations where happy people live.",
+        "The research assistants' personal friendships.",
+        "The patterns of correlation associated with happiness.",
+        "The dates on which the television show aired."
+      ],
+      "optionsZh": [
+        "幸福者居住的地理地点。",
+        "研究助理的私人友谊。",
+        "与幸福相关的相关模式。",
+        "节目播出的日期。"
+      ],
+      "answer": 2,
+      "type": "指代与逻辑",
+      "support": "explicit",
+      "analyses": [
+        "A 没有地理分布比较。",
+        "B 不比较评分者友谊。",
+        "C those 代替 patterns of correlation，避免重复该名词组。",
+        "D 不是节目时间；模式不同不等于完全没有共享特质或人群重叠。"
+      ],
+      "vocabulary": [
+        {
+          "word": "patterns of correlation",
+          "meaning": "相关模式；多项关联构成的图景",
+          "context": "讨论人格与不同生活维度的统计联系，不是确定因果链。",
+          "example": "The two surveys revealed different patterns of correlation.",
+          "collocations": [
+            "patterns of correlation for",
+            "different correlation patterns"
+          ]
+        }
+      ],
+      "translation": "Mr. Rogers 展现了幸福者的核心特征：外向、情绪稳定（较少神经质）、尽责、宜人。心理丰富性的相关模式，与幸福的模式相当不同。据 Anglim 及同事的元分析，幸福人生以情绪稳定、外向、尽责和宜人为特征，却不以经验开放性为特征。",
+      "evidenceTargetIds": [
+        "c06-s05-p062-06330-s002"
+      ],
+      "evidence": [
+        {
+          "quote": "Mr. Rogers demonstrates the essential characteristics of happy people: extraverted, emotionally stable (lacking neuroticism), conscientious, and agreeable. The patterns of correlation for psychological richness are quite different from those for happiness. According to Anglim and colleagues’ meta-analysis, a happy life is characterized by emotional stability, extraversion, conscientiousness, and agreeableness, but not by openness to experiences.",
+          "sentenceIds": [
+            "c06-s05-p062-06330-s001",
+            "c06-s05-p062-06330-s002",
+            "c06-s05-p062-06330-s003"
+          ],
+          "sources": [
+            {
+              "pdfPage": 62,
+              "block": 5,
+              "bbox": [
+                76.99,
+                633,
+                535.01,
+                706.02
+              ]
+            },
+            {
+              "pdfPage": 63,
+              "block": 0,
+              "bbox": [
+                76.99,
+                75,
+                535.01,
+                128.52
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "5f7e042f541cfa3b0b32fc91b1a6a485970b7fd1ab83f4c22a1f902f45c4147f"
+    },
+    {
+      "id": "q-c06-065",
+      "version": 1,
+      "readingUnitId": "c06-s05-p063-01335-r001-003",
+      "chapterId": "c06",
+      "sectionId": "c06-s05",
+      "paragraphId": "c06-s05-p063-01335",
+      "sentenceIds": [
+        "c06-s05-p063-01335-s001",
+        "c06-s05-p063-01335-s002",
+        "c06-s05-p063-01335-s003"
+      ],
+      "passage": "The two strongest personality predictors of a happy life are emotional stability and extraversion. Some personality scholars conceptualize extraversion as positive affectivity (good moods) and neuroticism as negative affectivity (bad moods). Since by definition a happy life is the preponderance of positive emotions and relative lack of negative emotions, it makes sense that extraversion and emotional stability are the most characteristic of a happy life.",
+      "prompt": "Why does the author say the two strongest predictors of happiness “make sense”?",
+      "options": [
+        "Their affective meanings align with a definition emphasising positive over negative emotions.",
+        "They prove that happy people never experience negative emotion.",
+        "They show that openness is the same thing as emotional stability.",
+        "Their names demonstrate that personality never changes."
+      ],
+      "answer": 0,
+      "type": "逻辑关系",
+      "promptZh": "作者为什么说幸福的两项最强预测因素“合乎道理”？",
+      "optionsZh": [
+        "它们的情感含义与积极情绪占优势、消极情绪相对较少的定义一致。",
+        "它们证明幸福者从不体验消极情绪。",
+        "它们说明开放性与情绪稳定性是同一概念。",
+        "它们的名称证明人格永不改变。"
+      ],
+      "analyses": [
+        "A some scholars 对外向性与神经质的概念化，和幸福的情绪定义相衔接，形成文中的理由。",
+        "B relative lack 是相对较少，不是绝对没有。",
+        "C 没有将开放性等同情绪稳定性。",
+        "D 本段讨论概念和关联，不讨论人格是否永不变化。"
+      ],
+      "evidence": [
+        {
+          "quote": "by definition a happy life is the preponderance of positive emotions and relative lack of negative emotions",
+          "sentenceIds": [
+            "c06-s05-p063-01335-s003"
+          ],
+          "sources": [
+            {
+              "pdfPage": 63,
+              "block": 1,
+              "bbox": [
+                76.99,
+                133.5,
+                535,
+                265.02
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "preponderance",
+          "meaning": "占优势；占较大比重",
+          "context": "表示积极情绪较多，不代表消极情绪完全不存在",
+          "example": "The report noted a preponderance of positive responses.",
+          "collocations": [
+            "a preponderance of",
+            "the preponderance of positive emotions"
+          ]
+        }
+      ],
+      "translation": "幸福人生的两项最强人格预测因素是情绪稳定性与外向性。一些人格学者把外向性理解为积极情感倾向（好心情），把神经质理解为消极情感倾向（坏心情）。按定义，幸福人生是积极情绪占优势、消极情绪相对较少；因此，外向与情绪稳定最能体现幸福人生，是合乎道理的。",
+      "support": "explicit",
+      "editorialStatus": "PDF 第 62–65 页逐题原页核对；保留固定原句、概率和 potential/probably 限定；区分作者解释、电视人物、历史叙述与政治人物引语归属",
+      "fingerprint": "182103f217babc2ec9460019573b6207d15ce5f92fa7285e771780715ee97aad"
+    },
+    {
+      "id": "qe-c06-0108",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-021",
+      "parentQuestionId": "q-c06-067",
+      "chapterId": "c06",
+      "sectionId": "c06-s05",
+      "paragraphId": "c06-s05-p063-04065",
+      "readingUnitId": "c06-s05-p063-04065-r001-004",
+      "sentenceIds": [
+        "c06-s05-p063-04065-s001",
+        "c06-s05-p063-04065-s002",
+        "c06-s05-p063-04065-s003",
+        "c06-s05-p063-04065-s004"
+      ],
+      "passage": "Why are emotional stability, extraversion, conscientiousness, and agreeableness good for a happy life? Primarily because the quality of social relationships is a big predictor of happiness. Who has good social relationships? Well, someone like Mr. Rogers: friendly, stable, reliable, and kind.",
+      "prompt": "What explanation is introduced for the four traits' link with happiness?",
+      "promptZh": "四项特质与幸福联系，接下来引入什么解释？",
+      "options": [
+        "Their guarantee that every life will be free of bad events.",
+        "The importance of good-quality social relationships as a predictor of happiness.",
+        "The claim that happy people never have to work at relationships.",
+        "The length of obituary articles as the only source of happiness."
+      ],
+      "optionsZh": [
+        "它们保证人生没有坏事。",
+        "高质量社会关系作为幸福预测因素的重要性。",
+        "幸福者从不需要经营关系的主张。",
+        "讣告篇幅作为幸福唯一来源。"
+      ],
+      "answer": 1,
+      "type": "逻辑关系",
+      "support": "explicit",
+      "analyses": [
+        "A 没有无坏事保证。",
+        "B Primarily because...quality of social relationships...big predictor 给理由。",
+        "C 后文反而说关系需努力，不能加 never。",
+        "D 与当前解释无关，primarily 也不等于唯一原因。"
+      ],
+      "vocabulary": [
+        {
+          "word": "Primarily",
+          "meaning": "主要地；首要地",
+          "context": "限定此处优先解释，不排除后文 Second、Third 补充其他角度。",
+          "example": "The delay was primarily due to the weather.",
+          "collocations": [
+            "Primarily because",
+            "primarily related to"
+          ]
+        }
+      ],
+      "translation": "为什么情绪稳定、外向、尽责与宜人有利于幸福人生？主要因为社交关系的质量是幸福的重要预测因素。谁拥有良好的社交关系？像 Mr. Rogers 这样的人：友善、稳定、可靠而善良。",
+      "evidenceTargetIds": [
+        "c06-s05-p063-04065-s001"
+      ],
+      "evidence": [
+        {
+          "quote": "Why are emotional stability, extraversion, conscientiousness, and agreeableness good for a happy life? Primarily because the quality of social relationships is a big predictor of happiness. Who has good social relationships? Well, someone like Mr. Rogers: friendly, stable, reliable, and kind.",
+          "sentenceIds": [
+            "c06-s05-p063-04065-s001",
+            "c06-s05-p063-04065-s002",
+            "c06-s05-p063-04065-s003",
+            "c06-s05-p063-04065-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 63,
+              "block": 3,
+              "bbox": [
+                76.99,
+                406.5,
+                535.02,
+                518.52
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "1ef69890b5ea9713c31638a023428a994e86a48928730dfc9058e704efd495c2"
+    },
+    {
+      "id": "qe-c06-0110",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-021",
+      "parentQuestionId": "q-c06-067",
+      "chapterId": "c06",
+      "sectionId": "c06-s05",
+      "paragraphId": "c06-s05-p063-04065",
+      "readingUnitId": "c06-s05-p063-04065-r001-004",
+      "sentenceIds": [
+        "c06-s05-p063-04065-s001",
+        "c06-s05-p063-04065-s002",
+        "c06-s05-p063-04065-s003",
+        "c06-s05-p063-04065-s004"
+      ],
+      "passage": "Why are emotional stability, extraversion, conscientiousness, and agreeableness good for a happy life? Primarily because the quality of social relationships is a big predictor of happiness. Who has good social relationships? Well, someone like Mr. Rogers: friendly, stable, reliable, and kind.",
+      "prompt": "What qualities are used to answer the question about good relationships?",
+      "promptZh": "回答谁有良好关系时列出哪些品质？",
+      "options": [
+        "Friendly, stable, reliable, and kind.",
+        "Famous, wealthy, and always adventurous.",
+        "Reserved, fearful, and unable to trust anyone.",
+        "Only imaginative and highly artistic."
+      ],
+      "optionsZh": [
+        "友善、稳定、可靠、善良。",
+        "知名、富有且总冒险。",
+        "内敛、胆怯且无法信任任何人。",
+        "仅富想象与艺术能力强。"
+      ],
+      "answer": 0,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A 冒号后四词逐项对应例子。",
+        "B 未列名望财富或不断冒险。",
+        "C 不符合所列品质，不能把内敛本身一概判成无关系能力。",
+        "D 混入开放性讨论；someone like 表举例，不是要求人格完全复制某人。"
+      ],
+      "vocabulary": [
+        {
+          "word": "reliable",
+          "meaning": "可靠的；值得信赖的（人）",
+          "context": "这里描写人的可靠性，与前文 ratings were reliable 的评分可靠性语境区分。",
+          "example": "A reliable friend keeps important promises.",
+          "collocations": [
+            "friendly, stable, reliable, and kind",
+            "a reliable person"
+          ]
+        }
+      ],
+      "translation": "为什么情绪稳定、外向、尽责与宜人有利于幸福人生？主要因为社交关系的质量是幸福的重要预测因素。谁拥有良好的社交关系？像 Mr. Rogers 这样的人：友善、稳定、可靠而善良。",
+      "evidenceTargetIds": [
+        "c06-s05-p063-04065-s004"
+      ],
+      "evidence": [
+        {
+          "quote": "Why are emotional stability, extraversion, conscientiousness, and agreeableness good for a happy life? Primarily because the quality of social relationships is a big predictor of happiness. Who has good social relationships? Well, someone like Mr. Rogers: friendly, stable, reliable, and kind.",
+          "sentenceIds": [
+            "c06-s05-p063-04065-s001",
+            "c06-s05-p063-04065-s002",
+            "c06-s05-p063-04065-s003",
+            "c06-s05-p063-04065-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 63,
+              "block": 3,
+              "bbox": [
+                76.99,
+                406.5,
+                535.02,
+                518.52
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "2865205f31b6d3a6fb45a478b324901a79b49d16e2b34c4c6199b59ad893fb79"
+    },
+    {
+      "id": "qe-c06-0111",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-021",
+      "parentQuestionId": "q-c06-069",
+      "chapterId": "c06",
+      "sectionId": "c06-s05",
+      "paragraphId": "c06-s05-p063-05235",
+      "readingUnitId": "c06-s05-p063-05235-r001-004",
+      "sentenceIds": [
+        "c06-s05-p063-05235-s001",
+        "c06-s05-p063-05235-s002",
+        "c06-s05-p063-05235-s003",
+        "c06-s05-p063-05235-s004"
+      ],
+      "passage": "Second, financial stability and relationship stability are important for a happy life. In order to achieve these, we must work hard on our finances and our relationships. We need to remember the deadlines of various tasks and the birthdays of children and in-laws. We need to do some things that we don’t want to do.",
+      "prompt": "Which two kinds of stability are introduced by 'Second'?",
+      "promptZh": "Second 引出哪两种稳定性？",
+      "options": [
+        "The stability of newspaper length and dictionary spelling.",
+        "Emotional stability and a perfectly unchanging personality.",
+        "Financial stability and relationship stability.",
+        "Only a fixed travel schedule and a permanent hobby."
+      ],
+      "optionsZh": [
+        "报纸篇幅与词典拼写稳定。",
+        "情绪稳定与完全不变的人格。",
+        "财务稳定与关系稳定。",
+        "仅固定旅行日程及永久爱好。"
+      ],
+      "answer": 2,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A 与句子财务关系主题无关。",
+        "B emotional stability 是此前特质，此句另外列财务与关系。",
+        "C financial...and relationship...直接对应。",
+        "D 未列旅行爱好，也不意味着巨额财富是幸福必要条件。"
+      ],
+      "vocabulary": [
+        {
+          "word": "financial stability",
+          "meaning": "财务稳定；财务状况较稳定",
+          "context": "与关系稳定并列，不能改成巨额财富是每个人幸福的必需条件。",
+          "example": "A predictable income can help a household maintain financial stability.",
+          "collocations": [
+            "financial stability",
+            "relationship stability"
+          ]
+        }
+      ],
+      "translation": "第二，财务稳定与关系稳定对幸福人生很重要。为了做到这些，我们必须在财务和人际关系上付出努力。我们需要记住各种任务的截止日期，以及孩子和姻亲的生日。我们也需要做一些自己不想做的事情。",
+      "evidenceTargetIds": [
+        "c06-s05-p063-05235-s001"
+      ],
+      "evidence": [
+        {
+          "quote": "Second, financial stability and relationship stability are important for a happy life.",
+          "sentenceIds": [
+            "c06-s05-p063-05235-s001"
+          ],
+          "sources": [
+            {
+              "pdfPage": 63,
+              "block": 4,
+              "bbox": [
+                76.99,
+                523.5,
+                535.01,
+                655.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "a93bb95f8285726304dd9af0c2673163b5823a277c8cd50f73ce8c91b8f02b4d"
+    }
+  ]
+}
