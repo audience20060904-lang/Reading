@@ -6,10 +6,10 @@
     "status": "in-progress",
     "taskRecord": "source/question-semantic-audit.json",
     "batchLimitSourceCandidates": 25,
-    "currentBatch": "047",
-    "currentBatchStatus": "published-and-verified",
-    "nextBatch": "048",
-    "remainingQuestions": 1853,
+    "currentBatch": "048",
+    "currentBatchStatus": "local-verified-awaiting-publication",
+    "nextBatch": "049",
+    "remainingQuestions": 1833,
     "lastSuccessfulRelease": "source/releases/question-review-047.json",
     "notice": "New per-question review scope; the earlier 261-candidate queue and its receipts remain complete and immutable.",
     "relatedFollowUpFindings": [
@@ -18,6 +18,12 @@
         "status": "specific-translation-check-pending-outside-current-audit-queue",
         "sourceRecord": "source/question-revisions/review-037-checkpoint.json",
         "reason": "Known shared intuition/is not translation precision issue in an already baseline-reviewed question; freeze a separate correction target and append a new version if justified. Do not increment this audit's reviewed count or alter baselineReviewedQuestions."
+      },
+      {
+        "questionId": "q-c06-005",
+        "status": "legacy-type-support-label-check-pending",
+        "sourceRecord": "source/question-revisions/review-048-report.json",
+        "reason": "Current answer directly paraphrases its sole source sentence, but existing type/support labels are 推断/inference. Preserve the correct question and historical labels for now; review versioned classification support in the compiler before a dedicated metadata correction. This is not an incorrect answer."
       }
     ],
     "lastDeploymentIncident": "source/question-revisions/review-039-deployment-incident.json"

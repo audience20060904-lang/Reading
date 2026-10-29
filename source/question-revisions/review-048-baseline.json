@@ -1,0 +1,598 @@
+{
+  "pdfSha256": "be25c859f1bd894a4b0d1cff024ded1297f6a96a8e8ddabea1e3abcf89160a50",
+  "sourceCommit": "a322cdcab9fcbaa251132292e3dfd544f60ac683",
+  "questions": [
+    {
+      "id": "q-c05-059",
+      "version": 1,
+      "readingUnitId": "c05-s06-p052-02040-r009-012",
+      "chapterId": "c05",
+      "sectionId": "c05-s06",
+      "paragraphId": "c05-s06-p052-02040",
+      "sentenceIds": [
+        "c05-s06-p052-02040-s009",
+        "c05-s06-p052-02040-s010",
+        "c05-s06-p052-02040-s011",
+        "c05-s06-p052-02040-s012"
+      ],
+      "passage": "Together, our findings paint a clear picture (see also Table 1 in Chapter 1). Simplifying one’s life so as to have reliably positive experiences, or contentment, is key to happiness. Dedicating one’s life to others with compassion is key to meaning. Experiencing the unusual, challenging oneself, and learning new things—though frustrating and unpleasant at times—are key to psychological richness.",
+      "prompt": "Which mapping preserves the author’s concluding distinction?",
+      "options": [
+        "Meaning: unusual experiences only; happiness: frustrating challenges only.",
+        "Richness: eliminating all unpleasantness; meaning: financial success only.",
+        "Happiness and meaning are both defined as avoiding other people.",
+        "Happiness: reliable positive experience; meaning: compassionate dedication; richness: unusual experience, challenge, and learning."
+      ],
+      "answer": 3,
+      "type": "主旨",
+      "promptZh": "哪组对应保留作者结尾的区分？",
+      "optionsZh": [
+        "意义只靠异常经历；幸福只靠令人沮丧的挑战。",
+        "丰富就是消除所有不快；意义只靠财务成功。",
+        "幸福和意义都被定义为回避他人。",
+        "幸福侧重稳定正面体验；意义侧重慈悲投入；丰富侧重异常经历、挑战和学习。"
+      ],
+      "analyses": [
+        "A 三个维度的重点被错配且添加 only。",
+        "B though...unpleasant 承认不快，意义也不是财务定义。",
+        "C Dedicating...to others 明确面向他人。",
+        "D 三句各自的侧重均保留，不把重点误作完全互斥类别。"
+      ],
+      "evidence": [
+        {
+          "quote": "Simplifying one’s life so as to have reliably positive experiences, or contentment, is key to happiness.",
+          "sentenceIds": [
+            "c05-s06-p052-02040-s010"
+          ],
+          "sources": [
+            {
+              "pdfPage": 52,
+              "block": 2,
+              "bbox": [
+                76.99,
+                204,
+                535.01,
+                433.02
+              ]
+            }
+          ]
+        },
+        {
+          "quote": "Dedicating one’s life to others with compassion is key to meaning.",
+          "sentenceIds": [
+            "c05-s06-p052-02040-s011"
+          ],
+          "sources": [
+            {
+              "pdfPage": 52,
+              "block": 2,
+              "bbox": [
+                76.99,
+                204,
+                535.01,
+                433.02
+              ]
+            }
+          ]
+        },
+        {
+          "quote": "Experiencing the unusual, challenging oneself, and learning new things",
+          "sentenceIds": [
+            "c05-s06-p052-02040-s012"
+          ],
+          "sources": [
+            {
+              "pdfPage": 52,
+              "block": 2,
+              "bbox": [
+                76.99,
+                204,
+                535.01,
+                433.02
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "compassion",
+          "meaning": "同情与关怀；慈悲",
+          "context": "修饰投入他人生活的态度，不是只追求个人成就",
+          "example": "She responded to the newcomer’s difficulties with compassion.",
+          "collocations": [
+            "with compassion",
+            "show compassion for others"
+          ]
+        }
+      ],
+      "translation": "这些发现共同描绘了一幅清楚图景（也见第 1 章表 1）。简化生活，获得稳定的正面体验或满足，是幸福的关键。带着慈悲把生命投入他人，是意义的关键。经历不寻常之事、挑战自己、学习新东西——尽管有时令人挫败或不愉快——则是心理丰富的关键。",
+      "support": "explicit",
+      "editorialStatus": "PDF 第 49–54 页逐题核对；固定连续原句；区分个案、观察研究、写作实验和讣告评分，不扩大因果或样本范围",
+      "fingerprint": "7891ab0bcec318cada0ba71d19d85053d03ffc1424af5149032d6f6bf59debef"
+    },
+    {
+      "id": "qe-c05-0099",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-017",
+      "parentQuestionId": "q-c05-059",
+      "chapterId": "c05",
+      "sectionId": "c05-s06",
+      "paragraphId": "c05-s06-p052-02040",
+      "readingUnitId": "c05-s06-p052-02040-r009-012",
+      "sentenceIds": [
+        "c05-s06-p052-02040-s009",
+        "c05-s06-p052-02040-s010",
+        "c05-s06-p052-02040-s011",
+        "c05-s06-p052-02040-s012"
+      ],
+      "passage": "Together, our findings paint a clear picture (see also Table 1 in Chapter 1). Simplifying one’s life so as to have reliably positive experiences, or contentment, is key to happiness. Dedicating one’s life to others with compassion is key to meaning. Experiencing the unusual, challenging oneself, and learning new things—though frustrating and unpleasant at times—are key to psychological richness.",
+      "prompt": "What does 'paint a clear picture' mean when applied to the findings?",
+      "promptZh": "把研究发现说成 paint a clear picture 是什么意思？",
+      "options": [
+        "The researchers replaced their results with an artwork.",
+        "Only visual experiences can produce psychological richness.",
+        "The findings collectively clarify the distinctions being summarised.",
+        "The findings prove that happiness, meaning, and richness are identical."
+      ],
+      "optionsZh": [
+        "研究者用艺术品替代结果。",
+        "只有视觉体验能带来心理丰富。",
+        "研究发现共同使总结的区别更清楚。",
+        "研究证明幸福、意义及丰富完全相同。"
+      ],
+      "answer": 2,
+      "type": "语境词义",
+      "support": "explicit",
+      "analyses": [
+        "A 是比喻，不是真正作画。",
+        "B picture 不限定体验感官。",
+        "C Together 指多项发现合起来说明后面的三个维度。",
+        "D 后文分别列各自关键因素，并未说等同。"
+      ],
+      "vocabulary": [
+        {
+          "word": "paint a clear picture",
+          "meaning": "清楚呈现整体情况；描绘清晰图景",
+          "context": "综合发现的比喻表达，不是视觉艺术实验。",
+          "example": "Together, the interviews paint a clear picture of daily life.",
+          "collocations": [
+            "findings paint a picture",
+            "paint a clear picture"
+          ]
+        }
+      ],
+      "translation": "这些发现共同描绘了一幅清楚图景（也见第 1 章表 1）。简化生活，获得稳定的正面体验或满足，是幸福的关键。带着慈悲把生命投入他人，是意义的关键。经历不寻常之事、挑战自己、学习新东西——尽管有时令人挫败或不愉快——则是心理丰富的关键。",
+      "evidenceTargetIds": [
+        "c05-s06-p052-02040-s009"
+      ],
+      "evidence": [
+        {
+          "quote": "Together, our findings paint a clear picture (see also Table 1 in Chapter 1). Simplifying one’s life so as to have reliably positive experiences, or contentment, is key to happiness. Dedicating one’s life to others with compassion is key to meaning. Experiencing the unusual, challenging oneself, and learning new things—though frustrating and unpleasant at times—are key to psychological richness.",
+          "sentenceIds": [
+            "c05-s06-p052-02040-s009",
+            "c05-s06-p052-02040-s010",
+            "c05-s06-p052-02040-s011",
+            "c05-s06-p052-02040-s012"
+          ],
+          "sources": [
+            {
+              "pdfPage": 52,
+              "block": 2,
+              "bbox": [
+                76.99,
+                204,
+                535.01,
+                433.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "b76fca5efd33da08a0f5f690fb33ce4cb8a37b5f905257ce82798740fd61d45f"
+    },
+    {
+      "id": "qe-c06-0006",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-017",
+      "parentQuestionId": "q-c06-003",
+      "chapterId": "c06",
+      "sectionId": "c06-s01",
+      "paragraphId": "c06-s01-p053-05408",
+      "readingUnitId": "c06-s01-p053-05408-r001-002",
+      "sentenceIds": [
+        "c06-s01-p053-05408-s001",
+        "c06-s01-p053-05408-s002"
+      ],
+      "passage": "We hired three research assistants and asked them to read and rate New York Times obituaries, 101 of them, in June 2016, using twelve different themes. Blind to our hypotheses, they rated the happiness, meaningfulness, and psychological richness of the lives described in each obituary.",
+      "prompt": "Which description correctly matches the obituary study's materials and raters?",
+      "promptZh": "哪项正确对应讣告研究的材料与评分者？",
+      "options": [
+        "Twelve assistants rated 101 obituaries using three themes.",
+        "Three assistants rated 101 student diaries rather than obituaries.",
+        "Three assistants rated twelve obituaries from June 2016.",
+        "Three assistants rated 101 New York Times obituaries using twelve themes in June 2016."
+      ],
+      "optionsZh": [
+        "十二名助理按三个主题评分101份讣告。",
+        "三名助理评分101份学生日记，而不是讣告。",
+        "三名助理评分2016年六月的十二份讣告。",
+        "三名助理在2016年六月按十二主题评分101份纽约时报讣告。"
+      ],
+      "answer": 3,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A 三名是助理数，十二是主题数，不能互换。",
+        "B 材料是 New York Times obituaries，不是前章的学生日记。",
+        "C 十二是主题数，不是讣告数。",
+        "D three、101、June 2016、twelve 分别修饰不同对象，不能互换。"
+      ],
+      "vocabulary": [
+        {
+          "word": "rate",
+          "meaning": "评分；评价",
+          "context": "read and rate 指阅读并评分，不是汇率或速度。",
+          "example": "Two reviewers will rate each account independently.",
+          "collocations": [
+            "read and rate",
+            "rate an obituary"
+          ]
+        }
+      ],
+      "translation": "我们聘请三名研究助理，在 2016 年六月阅读并按十二个主题评分《纽约时报》的 101 份讣告。他们不知道我们的研究假设，评价每份讣告所述人生的幸福、意义与心理丰富。",
+      "evidenceTargetIds": [
+        "c06-s01-p053-05408-s001"
+      ],
+      "evidence": [
+        {
+          "quote": "We hired three research assistants and asked them to read and rate New York Times obituaries, 101 of them, in June 2016, using twelve different themes.",
+          "sentenceIds": [
+            "c06-s01-p053-05408-s001"
+          ],
+          "sources": [
+            {
+              "pdfPage": 53,
+              "block": 7,
+              "bbox": [
+                76.99,
+                540.75,
+                535.01,
+                711.27
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "0ee0c9c2592701fb90083d7b52daa8b780f09c35ffbcd93cb60298589f3d9613"
+    },
+    {
+      "id": "qe-c06-0007",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-017",
+      "parentQuestionId": "q-c06-004",
+      "chapterId": "c06",
+      "sectionId": "c06-s01",
+      "paragraphId": "c06-s01-p053-05408",
+      "readingUnitId": "c06-s01-p053-05408-r003-004",
+      "sentenceIds": [
+        "c06-s01-p053-05408-s003",
+        "c06-s01-p053-05408-s004"
+      ],
+      "passage": "We started by giving the raters clear definitions of a happy life (a life in which a person is comfortable, satisfied, and joyful), a meaningful life (a life in which a person makes a contribution to society and makes a difference), and a psychologically rich life (a life in which a person encounters many diverse, unusual experiences). We then asked them to rate each life, on a scale of 1 to 5, by answering questions such as, “How happy was this person’s life?,” “How fulfilling?,” and “How interesting?”",
+      "prompt": "How were the raters asked to score each life?",
+      "promptZh": "评分者被要求怎样给每个人生打分？",
+      "options": [
+        "By ranking all 101 people from youngest to oldest.",
+        "By recording only a yes-or-no answer about employment.",
+        "On a 1-to-5 scale using questions about happiness, fulfilment, and interest.",
+        "On a twelve-point scale based only on the obituary's length."
+      ],
+      "optionsZh": [
+        "把101人按年龄从小到大排名。",
+        "仅记录是否就业的是非答案。",
+        "用一至五分量表，回答幸福、充实和有趣等问题。",
+        "用十二分制且仅按讣告长度。"
+      ],
+      "answer": 2,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A 不是年龄排名。",
+        "B 原文有多种生活评价，不是单一就业题。",
+        "C scale of1to5 及所举三类问题吻合。",
+        "D 十二主题不等于十二分制，也不是字数评分。"
+      ],
+      "vocabulary": [
+        {
+          "word": "scale",
+          "meaning": "评分量表；等级范围",
+          "context": "a scale of1to5 是评分范围，不是称重器、比例尺或样本人数。",
+          "example": "Please rate the difficulty on a scale of one to five.",
+          "collocations": [
+            "on a scale of",
+            "a five-point scale"
+          ]
+        }
+      ],
+      "translation": "首先，我们给评分者明确的定义：幸福生活是舒适、满足、愉悦的生活；有意义生活是对社会作贡献、产生影响的生活；心理丰富生活是遇到许多多样、不寻常经历的生活。然后请他们用一至五分评分，回答“此人的生活多幸福？”“多充实？”“多有趣？”等问题。",
+      "evidenceTargetIds": [
+        "c06-s01-p053-05408-s004"
+      ],
+      "evidence": [
+        {
+          "quote": "We then asked them to rate each life, on a scale of 1 to 5, by answering questions such as, “How happy was this person’s life?,” “How fulfilling?,” and “How interesting?”",
+          "sentenceIds": [
+            "c06-s01-p053-05408-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 53,
+              "block": 7,
+              "bbox": [
+                76.99,
+                540.75,
+                535.01,
+                711.27
+              ]
+            },
+            {
+              "pdfPage": 54,
+              "block": 0,
+              "bbox": [
+                76.99,
+                75,
+                535.01,
+                128.52
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "1b582ca83da613fe1c3e20e7477b82e29ae0dcd0f8e2560426a62b80fbe344c7"
+    },
+    {
+      "id": "qe-c06-0009",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-017",
+      "parentQuestionId": "q-c06-006",
+      "chapterId": "c06",
+      "sectionId": "c06-s01",
+      "paragraphId": "c06-s01-p054-01335",
+      "readingUnitId": "c06-s01-p054-01335-r001-004",
+      "sentenceIds": [
+        "c06-s01-p054-01335-s001",
+        "c06-s01-p054-01335-s002",
+        "c06-s01-p054-01335-s003",
+        "c06-s01-p054-01335-s004"
+      ],
+      "passage": "First, how many of the people profiled led a happy life, a meaningful life, or a psychologically rich life? In order for a person’s life to be classified as happy, meaningful, or psychologically rich, the three raters had to assign it an average score of at least 3.67 out of 5 across four items. This is quite a high bar. According to this criterion, fifteen people of the 101 obituaries featured in The New York Times that month led a psychologically rich life.",
+      "prompt": "What does the author call 'quite a high bar'?",
+      "promptZh": "作者所说 quite a high bar 指什么？",
+      "options": [
+        "The requirement of an average score of at least 3.67 out of 5 across four items.",
+        "The height of the newspaper's office building.",
+        "A rule that all101 lives must receive the same score.",
+        "The requirement that every score must be exactly5."
+      ],
+      "optionsZh": [
+        "四项指标上五分中平均至少3.67的要求。",
+        "报社办公楼高度。",
+        "要求101个人生全部同分的规则。",
+        "要求每个评分恰好为五分。"
+      ],
+      "answer": 0,
+      "type": "语境词义",
+      "support": "explicit",
+      "analyses": [
+        "A This 承接前句分类阈值；bar 比喻标准门槛。",
+        "B 不是实体高度。",
+        "C 分类阈值不是强制所有人同分。",
+        "D at least3.67 不是每次必须5；不能把平均与单项混同。"
+      ],
+      "vocabulary": [
+        {
+          "word": "high bar",
+          "meaning": "高标准；高门槛",
+          "context": "这里指分类阈值严格，不是高处的栏杆或酒吧。",
+          "example": "Requiring three independent approvals sets a high bar.",
+          "collocations": [
+            "quite a high bar",
+            "set a high bar"
+          ]
+        }
+      ],
+      "translation": "首先，这些被介绍的人中，有多少过着幸福、有意义或心理丰富的生活？要归入其中一类，三位评分者需在四项指标上给出五分中至少 3.67 的平均分。这是相当高的门槛。依此标准，当月《纽约时报》刊登的 101 份讣告中，十五人的生活被归为心理丰富。",
+      "evidenceTargetIds": [
+        "c06-s01-p054-01335-s003"
+      ],
+      "evidence": [
+        {
+          "quote": "First, how many of the people profiled led a happy life, a meaningful life, or a psychologically rich life? In order for a person’s life to be classified as happy, meaningful, or psychologically rich, the three raters had to assign it an average score of at least 3.67 out of 5 across four items. This is quite a high bar. According to this criterion, fifteen people of the 101 obituaries featured in The New York Times that month led a psychologically rich life.",
+          "sentenceIds": [
+            "c06-s01-p054-01335-s001",
+            "c06-s01-p054-01335-s002",
+            "c06-s01-p054-01335-s003",
+            "c06-s01-p054-01335-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 54,
+              "block": 1,
+              "bbox": [
+                76.99,
+                133.5,
+                535.01,
+                304.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "9a63a10120ccd12845493c1ef135920358b1909092ed0ab92d92b34e956fd1fa"
+    },
+    {
+      "id": "q-c06-006",
+      "version": 1,
+      "readingUnitId": "c06-s01-p054-01335-r001-004",
+      "chapterId": "c06",
+      "sectionId": "c06-s01",
+      "paragraphId": "c06-s01-p054-01335",
+      "sentenceIds": [
+        "c06-s01-p054-01335-s001",
+        "c06-s01-p054-01335-s002",
+        "c06-s01-p054-01335-s003",
+        "c06-s01-p054-01335-s004"
+      ],
+      "passage": "First, how many of the people profiled led a happy life, a meaningful life, or a psychologically rich life? In order for a person’s life to be classified as happy, meaningful, or psychologically rich, the three raters had to assign it an average score of at least 3.67 out of 5 across four items. This is quite a high bar. According to this criterion, fifteen people of the 101 obituaries featured in The New York Times that month led a psychologically rich life.",
+      "prompt": "What threshold did the study use to classify a life in one of the three dimensions?",
+      "options": [
+        "At least 3.67 out of 5, averaged across four items and the raters.",
+        "A perfect score on every item from every rater.",
+        "At least 3.67 people out of every five obituaries.",
+        "A score below 3.67 on a four-point scale."
+      ],
+      "answer": 0,
+      "type": "细节",
+      "promptZh": "研究用什么门槛把人生归入三个维度之一？",
+      "optionsZh": [
+        "评分者对四项指标给出的平均分至少为五分中的 3.67。",
+        "每位评分者的每一项都必须满分。",
+        "每五份讣告中至少有 3.67 个人。",
+        "四分量表中低于 3.67 分。"
+      ],
+      "analyses": [
+        "A at least、out of 5、average 和 four items 均对应原句。",
+        "B 高门槛不等于每项每人全满分。",
+        "C 把平均评分错作人数比例。",
+        "D 分值方向和量表上限都错；此处是所选讣告的评分分类，不是人口普查。"
+      ],
+      "evidence": [
+        {
+          "quote": "an average score of at least 3.67 out of 5 across four items.",
+          "sentenceIds": [
+            "c06-s01-p054-01335-s002"
+          ],
+          "sources": [
+            {
+              "pdfPage": 54,
+              "block": 1,
+              "bbox": [
+                76.99,
+                133.5,
+                535.01,
+                304.02
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "criterion",
+          "meaning": "标准；判据",
+          "context": "指把评分归入分类的门槛，不是每个人真实内心的直接测量",
+          "example": "The team applied the same criterion to every application.",
+          "collocations": [
+            "a classification criterion",
+            "meet a criterion"
+          ]
+        }
+      ],
+      "translation": "首先，这些被介绍的人中，有多少过着幸福、有意义或心理丰富的生活？要归入其中一类，三位评分者需在四项指标上给出五分中至少 3.67 的平均分。这是相当高的门槛。依此标准，当月《纽约时报》刊登的 101 份讣告中，十五人的生活被归为心理丰富。",
+      "support": "explicit",
+      "editorialStatus": "PDF 第 54–57 页逐题核对；固定连续原句；保留讣告评分范围、原书数字和条件语气；区分词条与独立特质；不暗改数值不一致",
+      "fingerprint": "bf9a58a92f8ec49104e1fd6848ec06cb3bfd643995694763e045c85e231be078"
+    },
+    {
+      "id": "qe-c06-0010",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-017",
+      "parentQuestionId": "q-c06-006",
+      "chapterId": "c06",
+      "sectionId": "c06-s01",
+      "paragraphId": "c06-s01-p054-01335",
+      "readingUnitId": "c06-s01-p054-01335-r001-004",
+      "sentenceIds": [
+        "c06-s01-p054-01335-s001",
+        "c06-s01-p054-01335-s002",
+        "c06-s01-p054-01335-s003",
+        "c06-s01-p054-01335-s004"
+      ],
+      "passage": "First, how many of the people profiled led a happy life, a meaningful life, or a psychologically rich life? In order for a person’s life to be classified as happy, meaningful, or psychologically rich, the three raters had to assign it an average score of at least 3.67 out of 5 across four items. This is quite a high bar. According to this criterion, fifteen people of the 101 obituaries featured in The New York Times that month led a psychologically rich life.",
+      "prompt": "Which statement preserves the scope of the fifteen-person result?",
+      "promptZh": "哪项保留了十五人结果的适用范围？",
+      "options": [
+        "Exactly fifteen people in the whole world have rich lives.",
+        "Fifteen participants in the earlier student diary study met the criterion.",
+        "Every newspaper obituary must be psychologically rich.",
+        "Fifteen of that month's101 profiled lives met the study's richness criterion."
+      ],
+      "optionsZh": [
+        "全世界恰好十五人心理丰富。",
+        "前一学生日记研究中十五位参与者达标。",
+        "所有报纸讣告都必然心理丰富。",
+        "按研究标准，当月101个被介绍的人生中十五个符合丰富类别。"
+      ],
+      "answer": 3,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A 把指定样本扩大为全世界。",
+        "B 十五来自当月讣告样本，不能移到前一日记研究。",
+        "C 未说每份讣告都达标。",
+        "D 保留 According to this criterion、that month 和101 的范围；不能把文本分类等同于全体人口比例。"
+      ],
+      "vocabulary": [
+        {
+          "word": "criterion",
+          "meaning": "判定标准；准则",
+          "context": "单数指刚说明的分类阈值，不是报纸销量或个人自述标准。",
+          "example": "Each application was checked against the same criterion.",
+          "collocations": [
+            "according to this criterion",
+            "meet a criterion"
+          ]
+        }
+      ],
+      "translation": "首先，这些被介绍的人中，有多少过着幸福、有意义或心理丰富的生活？要归入其中一类，三位评分者需在四项指标上给出五分中至少 3.67 的平均分。这是相当高的门槛。依此标准，当月《纽约时报》刊登的 101 份讣告中，十五人的生活被归为心理丰富。",
+      "evidenceTargetIds": [
+        "c06-s01-p054-01335-s004"
+      ],
+      "evidence": [
+        {
+          "quote": "First, how many of the people profiled led a happy life, a meaningful life, or a psychologically rich life? In order for a person’s life to be classified as happy, meaningful, or psychologically rich, the three raters had to assign it an average score of at least 3.67 out of 5 across four items. This is quite a high bar. According to this criterion, fifteen people of the 101 obituaries featured in The New York Times that month led a psychologically rich life.",
+          "sentenceIds": [
+            "c06-s01-p054-01335-s001",
+            "c06-s01-p054-01335-s002",
+            "c06-s01-p054-01335-s003",
+            "c06-s01-p054-01335-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 54,
+              "block": 1,
+              "bbox": [
+                76.99,
+                133.5,
+                535.01,
+                304.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "3a4fac1a0df1abdcf3780564e544f6911708f7dcebe3c9ba997afcff442e9a4e"
+    }
+  ]
+}
