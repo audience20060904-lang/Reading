@@ -1,0 +1,185 @@
+{
+  "schemaVersion": 1,
+  "id": "question-review-2026-10-28-087",
+  "pdfSha256": "be25c859f1bd894a4b0d1cff024ded1297f6a96a8e8ddabea1e3abcf89160a50",
+  "scope": "Resume frozen 21 questions /23 source candidates on actual PDF105–106. Preserve historical attribution and qualified belief, model constraints and the first-37-percent comparison sample, qualitative Very few, hypothetical dating costs and reciprocal choice, and limited-cost lab findings. Complete the secretary-problem introduction evidence and remove source-ID coverage notes, website recruitment distractions and unshown context dependencies. Source text, answer positions and submitted history remain unchanged.",
+  "questions": [
+    {
+      "id": "q-c10-013",
+      "reason": "秘书问题目标排除只据当前面试聘用任务，不前借未显示作品叙事。",
+      "updates": {
+        "analyses": [
+          "A a particular individual，不是每人都雇。",
+          "B 没有身高测量。",
+          "C 当前任务是通过面试作聘用决定，没有计算 Kepler 将写几部作品。",
+          "D best possible hiring decision...series of interviews 明示。Kepler probably 懂概率是作者推测，不证明他实际按某条规则行事。"
+        ]
+      }
+    },
+    {
+      "id": "qe-c10-0027",
+      "reason": "命名和随后解释的功能补完整任务句，旧引不动；去网站招聘项及未配题覆盖记账。",
+      "updates": {
+        "options": [
+          "It reports a historical appointment of a secretary as already completed.",
+          "It names a new novel written by Kepler.",
+          "It introduces a statistical decision problem before the paragraph explains its interview task.",
+          "It guarantees the best outcome for every real-life relationship."
+        ],
+        "optionsZh": [
+          "报告历史上一次秘书任命已经完成。",
+          "点名 Kepler 写的新小说。",
+          "在段落解释面试任务之前引入一个统计决策问题。",
+          "保证每段真实关系得到最佳结果。"
+        ],
+        "analyses": [
+          "A In statistics 引入的是统计学问题，并没有报告一次真实秘书任命已经完成。",
+          "B famous problem 不是小说书名。",
+          "C 前句点名这个统计问题，后句 In this task 随即解释通过连续面试作聘用决定的任务。",
+          "D 模型的最佳选择任务不能变真实婚姻保证，也不是建议必须以同一公式择偶。"
+        ],
+        "vocabulary": [
+          {
+            "word": "secretary problem",
+            "meaning": "秘书问题；按顺序考察候选并作选择的统计模型问题",
+            "context": "这里是连续考察候选并作聘用选择的统计决策问题名称，不指某位秘书的个人工作失误。",
+            "example": "The article uses the secretary problem to discuss sequential choice.",
+            "collocations": [
+              "a famous problem called the secretary problem",
+              "In statistics"
+            ]
+          }
+        ],
+        "evidence": [
+          {
+            "quote": "In statistics, there is a famous problem called the “secretary problem.”",
+            "sentenceIds": [
+              "c10-s02-p105-04882-s002"
+            ],
+            "sources": [
+              {
+                "pdfPage": 105,
+                "block": 3,
+                "bbox": [
+                  76.99,
+                  488.25,
+                  535.01,
+                  717.27
+                ]
+              }
+            ]
+          },
+          {
+            "quote": "In this task, you are supposed to make the best possible hiring decision based on a series of interviews.",
+            "sentenceIds": [
+              "c10-s02-p105-04882-s003"
+            ],
+            "sources": [
+              {
+                "pdfPage": 105,
+                "block": 3,
+                "bbox": [
+                  76.99,
+                  488.25,
+                  535.01,
+                  717.27
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "qe-c10-0028",
+      "reason": "搜索长度排除只据当前beforehire，不前借后面拒绝风险讨论。",
+      "updates": {
+        "analyses": [
+          "A 目标句明确 how many candidates interviewed before hire，不能删掉搜索数量。",
+          "B how many candidates...before deciding to hire 明确数量及决策时点。",
+          "C 交换 before 与 after，原文测作聘用决定前的考察量。",
+          "D 当前明确测作聘用决定前考察多少人，不是在测每位候选人是否接受邀约。"
+        ]
+      }
+    },
+    {
+      "id": "qe-c10-0029",
+      "reason": "模型约束解析和词境只说明不能回选、二元决定及停止条件，去网站和题库二进制备注。",
+      "updates": {
+        "analyses": [
+          "A cannot go back 明确禁止回选。",
+          "B 只作一次最终 hire，不是雇全体。",
+          "C must make binary decisions 与一直不决定相反。",
+          "D cannot go back、binary decisions 和 until...yes 分别给出不可回选、每步二元决定和聘用时停止三个条件。"
+        ],
+        "vocabulary": [
+          {
+            "word": "binary",
+            "meaning": "二元的；只有两种可能选择的",
+            "context": "括号中的 yes/no 明确每步只有两种决定，并在 yes（聘用）时停止搜索。",
+            "example": "The task required a binary decision at each stage.",
+            "collocations": [
+              "binary decisions (yes or no)",
+              "until you make a yes decision"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "qe-c10-0031",
+      "reason": "模型最优对实际采用问句的排除，只说明未给肯定结果，去缺失下一短段备注。",
+      "updates": {
+        "analyses": [
+          "A 37%在此是搜索策略比例，不是跟随者比例；当前短段尚未给实际人数答案。",
+          "B 不是词义定义。",
+          "C simulations show optimal 后追问 actually follow，区分规范模型与描述行为。",
+          "D 这里仍在询问人们实际采用规则的情况，并未报告所有现实决定都已最优的结果。"
+        ]
+      }
+    },
+    {
+      "id": "q-c10-015",
+      "reason": "Veryfew数量题可据词义独立回答，去短段ID句界记账及跨段译文说明，保留不一定为零。",
+      "updates": {
+        "analyses": [
+          "A few 不是全体。",
+          "B few 不等于 none，不能擅自改成零。",
+          "C very 加强“少”的程度，保留可能存在少数。",
+          "D very few 与大多数相反；这里只给很少的定性数量，没有精确人数或比例。"
+        ],
+        "translation": "极少数。"
+      }
+    },
+    {
+      "id": "qe-c10-0033",
+      "reason": "Probablynot按当前假设问答解释，词境去已知用户选择备注。",
+      "updates": {
+        "vocabulary": [
+          {
+            "word": "Probably not",
+            "meaning": "大概不会；很可能不",
+            "context": "probably 限定推测强度，not 否定前述计划，不表示绝不可能。",
+            "example": "Would everyone repeat the long process? Probably not.",
+            "collocations": [
+              "Probably not",
+              "dating so many people is costly"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-c10-017",
+      "reason": "相互喜欢标准只据当前well enough及likesback，不要求未显示前段拒绝情形。",
+      "updates": {
+        "analyses": [
+          "A likes you back 明确保留对方意愿。",
+          "B 相互喜欢不是完全未知就随便选。",
+          "C well enough 是足够好，不是保证全局最优。",
+          "D like well enough 和 likes you back 给出双方条件；Then、would 限定所考虑的情形，不能据此推出所有广泛搜索都没有价值。"
+        ]
+      }
+    }
+  ]
+}
