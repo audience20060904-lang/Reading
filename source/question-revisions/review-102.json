@@ -1,0 +1,320 @@
+{
+  "schemaVersion": 1,
+  "id": "question-review-2026-10-28-102",
+  "pdfSha256": "be25c859f1bd894a4b0d1cff024ded1297f6a96a8e8ddabea1e3abcf89160a50",
+  "scope": "Review frozen21 questions /23 source candidates against actual PDF124-125 with full paragraph context through123. Soldier encounter observations and actions, mother attribution, father intended transfer and escape route, academic interests before collaboration, and self-described interesting versus meaningful life. Avoid unshown narrator names/age, later events and motives; complete before-collaboration and self-description evidence; remove internal continuation notes. Original text, answer keys and history unchanged.",
+  "questions": [
+    {
+      "id": "q-c11-012",
+      "reason": "选项不要求当前未显示身份。；选项不要求当前未显示身份。；正确项及词境不要求未显示的孩子年龄身份。",
+      "updates": {
+        "options": [
+          "He beckoned the narrator over, picked him up, and hugged him.",
+          "He immediately inspected every garment.",
+          "He gave directions and walked away without contact.",
+          "He invited the entire family to his home."
+        ],
+        "optionsZh": [
+          "他示意叙述者过来，把他抱起并拥抱。",
+          "立即检查全部衣物。",
+          "指路后无接触离开。",
+          "邀请全家去家里。"
+        ],
+        "vocabulary": [
+          {
+            "word": "beckoned",
+            "meaning": "招手示意",
+            "context": "beckoned me over 指示意叙述者靠近，不是挥手让人离开。",
+            "example": "The visitor beckoned the child over.",
+            "collocations": [
+              "beckon someone over",
+              "look intently"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "qe-c11-0024",
+      "reason": "第一人称片段未给Kahneman姓名，题干用叙述者。；当前片段自足及范围校正。；当前片段自足及范围校正。",
+      "updates": {
+        "prompt": "What did the narrator see while walking down the empty street?",
+        "promptZh": "叙述者走在空街上时看见什么？",
+        "analyses": [
+          "A 当前只说叙述者看见一名德国士兵接近，没有写基督徒朋友在身旁并肩走。",
+          "B 身份相近但方向反了；approaching是接近。",
+          "C German soldier approaching 给身份与接近动作。",
+          "D 这次空街所见明确是德国士兵，并非父亲与雇主离开Drancy。"
+        ]
+      }
+    },
+    {
+      "id": "qe-c11-0025",
+      "reason": "题干不要求当前未显示的姓名。",
+      "updates": {
+        "prompt": "Why was the black uniform especially frightening in the narrator's recollection?",
+        "promptZh": "叙述者的回忆中，黑制服为何尤其令人害怕？"
+      }
+    },
+    {
+      "id": "qe-c11-0026",
+      "reason": "题干去未显示姓名及原文未说的past走过动作，只保靠近并试快走。；当前片段自足及范围校正。",
+      "updates": {
+        "prompt": "What did the narrator notice while approaching the soldier and trying to walk fast?",
+        "promptZh": "叙述者试着快步走、靠近士兵时，注意到了什么？",
+        "analyses": [
+          "A looking at me intently 与完全未注意相反。",
+          "B 未记母亲此时到场。",
+          "C 当前只写士兵专注地看着叙述者，没有说已经认出了毛衣内侧的星标。",
+          "D noticed that 后直接给观察；专注看不等于已经识别毛衣内侧标记，原句未确认其所知。"
+        ]
+      }
+    },
+    {
+      "id": "qe-c11-0027",
+      "reason": "题干及干扰项不用当前未显示的Kahneman名。；选项不要求当前未显示身份。；选项不要求当前未显示身份。；选项不要求当前未显示身份。；选项不要求当前未显示身份。；当前片段自足及范围校正。",
+      "updates": {
+        "prompt": "What does the narrator explicitly recall about the soldier's speech?",
+        "promptZh": "关于士兵讲话，叙述者明确回忆了什么？",
+        "options": [
+          "He spoke in German with great emotion.",
+          "He gave a fully quoted explanation in French that the narrator reports word for word.",
+          "He remained entirely silent throughout the encounter.",
+          "He told the narrator in English that he knew the star was hidden."
+        ],
+        "optionsZh": [
+          "他用德语带着强烈感情讲话。",
+          "他用法语解释，叙述者逐字报告了完整内容。",
+          "他在整个相遇中完全沉默。",
+          "他用英语告诉叙述者，自己知道藏着星标。"
+        ],
+        "analyses": [
+          "A great emotion 与 in German 两项准确。",
+          "B 当前句未给逐字讲话内容，且语言是 German。",
+          "C speaking 与全程沉默相反。",
+          "D 文中没有英语或已发现星标的声明，不能把叙述者的担忧当作士兵已经说出的事实。"
+        ]
+      }
+    },
+    {
+      "id": "qe-c11-0028",
+      "reason": "题干及干扰项不要求未显示姓名。；选项不要求当前未显示身份。；选项不要求当前未显示身份。",
+      "updates": {
+        "prompt": "Which sequence follows the soldier putting the narrator down?",
+        "promptZh": "士兵把叙述者放下后，发生哪组按序动作？",
+        "options": [
+          "He gave money, hid the wallet, and took a picture of the narrator.",
+          "He found the star, called another soldier, and arrested the boy.",
+          "He opened his wallet, showed a picture of a boy, and gave some money.",
+          "He returned the boy's wallet and demanded payment for the photograph."
+        ],
+        "optionsZh": [
+          "他先给钱，藏起钱包，再给叙述者拍照。",
+          "他发现星标，叫来另一士兵并抓捕孩子。",
+          "他打开钱包，展示男孩照片，并给一些钱。",
+          "他归还孩子钱包，并为照片索款。"
+        ]
+      }
+    },
+    {
+      "id": "q-c11-014",
+      "reason": "选项不要求当前未显示身份。；选项不要求当前未显示身份。；当前片段自足及范围校正。",
+      "updates": {
+        "options": [
+          "His father.",
+          "His mother.",
+          "The author of this book.",
+          "A teacher who organized the encounter."
+        ],
+        "optionsZh": [
+          "父亲。",
+          "母亲。",
+          "本书作者。",
+          "安排遭遇的教师。"
+        ],
+        "analyses": [
+          "A 当前明确写 He credited his mother，并未把成为心理学家的启发归功于父亲。",
+          "B He credited his mother 明示。",
+          "C 不是作者。",
+          "D 无教师安排。人的复杂有趣是本人回忆结论，不能由此美化迫害环境。"
+        ]
+      }
+    },
+    {
+      "id": "qe-c11-0030",
+      "reason": "当前片段自足及范围校正。；当前片段自足及范围校正。",
+      "updates": {
+        "analyses": [
+          "A 拘禁地为 Drancy，且 supposed to be sent 明确威胁。",
+          "B 原句只说明在Drancy被拘禁并原定转送灭绝营，没有说已经直接送往Palestine。",
+          "C was supposed to be sent 表示原定转送，不证明转送已经实际完成。",
+          "D 保留拘禁事实及原定转送的状态，不把意向程序偷换为已发生的转送。"
+        ]
+      }
+    },
+    {
+      "id": "qe-c11-0031",
+      "reason": "当前片段自足及范围校正。",
+      "updates": {
+        "analyses": [
+          "A Then...Vichy、after Germans arrived、once more...center of France 三项对应。",
+          "B 路线倒置并加上战后时间。",
+          "C had to escape once more 与永久停留相反。",
+          "D 当前路线先到Vichy，德国人到来后再逃往法国中部，不是从Drancy直接迁往Palestine。"
+        ]
+      }
+    },
+    {
+      "id": "q-c11-016",
+      "reason": "完整跨领域清单与Before Tversky合作前诸研究句入证，旧引ID来源不动。",
+      "updates": {
+        "evidence": [
+          {
+            "quote": "Many different subjects interested him, so he studied an eclectic mix of topics including subliminal perception, optical benches, personality assessments, Ludwig Wittgenstein, and the philosophy of science.",
+            "sentenceIds": [
+              "c11-s02-p124-03870-s006"
+            ],
+            "sources": [
+              {
+                "pdfPage": 124,
+                "block": 1,
+                "bbox": [
+                  76.99,
+                  387,
+                  535.01,
+                  694.02
+                ]
+              }
+            ]
+          },
+          {
+            "quote": "Before he started his famous collaboration with Amos Tversky on cognitive biases, Kahneman studied psychoanalysis, memory, vision, and motivation.",
+            "sentenceIds": [
+              "c11-s02-p124-03870-s007"
+            ],
+            "sources": [
+              {
+                "pdfPage": 124,
+                "block": 1,
+                "bbox": [
+                  76.99,
+                  387,
+                  535.01,
+                  694.02
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "qe-c11-0034",
+      "reason": "当前片段自足及范围校正。",
+      "updates": {
+        "analyses": [
+          "A cognitive biases 为后来合作主题，不是前期研究的完整列表。",
+          "B 当前列出 psychoanalysis、memory、vision 和 motivation，不是仅有古典语文学和古希腊文学。",
+          "C Before...studied 明确已有研究。",
+          "D 四个并列项完整保留，且不把 before 改为 after。"
+        ]
+      }
+    },
+    {
+      "id": "q-c11-018",
+      "reason": "共享译文去引语续后段内部说明，以间接叙述保2018和tried的尝试而非成功。；完整社会贡献到极有意义的预期与Wrong两句入证，旧ID来源不动。；当前片段自足及范围校正。",
+      "updates": {
+        "translation": "他作为军队领导者、教师、学者对社会贡献多样，你也许以为他会觉得人生极有意义吧？错了。他并不把人生描述为有意义。在2018年一次访谈中，他说自己记得与积极心理学创始人 Martin Seligman 的一次谈话，对方试图说服他，自己过了有意义的人生。",
+        "evidence": [
+          {
+            "quote": "With his diverse contributions to society as a military leader, teacher, and scholar, you might expect Kahneman to think his life was extremely meaningful, right? Wrong.",
+            "sentenceIds": [
+              "c11-s02-p125-00750-s001",
+              "c11-s02-p125-00750-s002"
+            ],
+            "sources": [
+              {
+                "pdfPage": 125,
+                "block": 0,
+                "bbox": [
+                  76.99,
+                  75,
+                  535.01,
+                  206.52
+                ]
+              }
+            ]
+          }
+        ],
+        "analyses": [
+          "A 开头承认diverse contributions。",
+          "B you might expect 后的自我评价被否定，不能用外部荣誉代替本人体验。",
+          "C 无否定访谈年份。",
+          "D 当前引语明确回忆了与Seligman的谈话，不能否认讨论曾发生。"
+        ]
+      }
+    },
+    {
+      "id": "qe-c11-0035",
+      "reason": "共享译文去引语续后段内部说明，以间接叙述保2018和tried的尝试而非成功。",
+      "updates": {
+        "translation": "他作为军队领导者、教师、学者对社会贡献多样，你也许以为他会觉得人生极有意义吧？错了。他并不把人生描述为有意义。在2018年一次访谈中，他说自己记得与积极心理学创始人 Martin Seligman 的一次谈话，对方试图说服他，自己过了有意义的人生。"
+      }
+    },
+    {
+      "id": "qe-c11-0036",
+      "reason": "共享译文去引语续后段内部说明，以间接叙述保2018和tried的尝试而非成功。；当前片段自足及范围校正。",
+      "updates": {
+        "translation": "他作为军队领导者、教师、学者对社会贡献多样，你也许以为他会觉得人生极有意义吧？错了。他并不把人生描述为有意义。在2018年一次访谈中，他说自己记得与积极心理学创始人 Martin Seligman 的一次谈话，对方试图说服他，自己过了有意义的人生。",
+        "analyses": [
+          "A he tried to convince me...meaningful life，he 为Seligman，me为叙述中的Kahneman。",
+          "B meaningful life与没有贡献不是所述劝说内容。",
+          "C founder是插入介绍，并非否认行为。",
+          "D tried 只表示尝试说服，不表示已经成功；当前还说Kahneman没有把自己的人生描述为有意义。"
+        ]
+      }
+    },
+    {
+      "id": "q-c11-019",
+      "reason": "第一人称片段未显示姓名，题干用说话者；完整insisted及today自述定位。",
+      "updates": {
+        "prompt": "What description did the speaker insist on?",
+        "promptZh": "说话者坚持用什么词描述自己的人生？",
+        "evidence": [
+          {
+            "quote": "I insisted—and I still think this today—that I had an interesting life.",
+            "sentenceIds": [
+              "c11-s02-p125-00750-s005"
+            ],
+            "sources": [
+              {
+                "pdfPage": 125,
+                "block": 0,
+                "bbox": [
+                  76.99,
+                  75,
+                  535.01,
+                  206.52
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "qe-c11-0037",
+      "reason": "题干不要求未显示姓名。；当前片段自足及范围校正。",
+      "updates": {
+        "prompt": "What does the speaker's remark about not understanding 'meaningful' express?",
+        "promptZh": "说话者说不理解 meaningful，表达什么？",
+        "analyses": [
+          "A isn’t something I understand 的I限定本人，非全体。",
+          "B 对词与描述的不认同，不是所有指标的客观无意义证明。",
+          "C 前句坚持 interesting，与meaningful形成区别，不是宣告必同义。",
+          "D I 限定本人的理解困难，同时前句坚持人生有趣；两个描述的区别不等于对人生客观价值作全面判定。"
+        ]
+      }
+    }
+  ]
+}
