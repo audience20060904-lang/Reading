@@ -7,10 +7,10 @@
     "taskRecord": "source/question-semantic-audit.json",
     "batchLimitSourceCandidates": 25,
     "currentBatch": "102",
-    "currentBatchStatus": "local-verified-awaiting-publication",
+    "currentBatchStatus": "published-and-verified",
     "nextBatch": "103",
     "remainingQuestions": 682,
-    "lastSuccessfulRelease": "source/releases/question-review-101.json",
+    "lastSuccessfulRelease": "source/releases/question-review-102.json",
     "notice": "New per-question review scope; the earlier 261-candidate queue and its receipts remain complete and immutable.",
     "relatedFollowUpFindings": [
       {
@@ -30,6 +30,12 @@
         "status": "specific-translation-disambiguation-pending-outside-current-audit-queue",
         "sourceRecord": "source/question-revisions/review-099-follow-up-findings.json",
         "reason": "The option His university friends' completed house in Japan currently has the Chinese wording 日本大学朋友已建好的房子. Disambiguate as 他大学朋友在日本建成的房子 in a separate new version; avoid suggesting Nihon University. Discovered during post-publication screenshot inspection. Do not rewrite batch099 or count this question as an additional pending audit record."
+      },
+      {
+        "questionId": "q-c11-018",
+        "status": "specific-option-translation-polarity-pending-outside-current-audit-queue",
+        "sourceRecord": "source/question-revisions/review-102-follow-up-findings.json",
+        "reason": "Post-publication screenshot inspection: option D says That Seligman had ever discussed meaning with him, but optionsZh[3] incorrectly says 从未与Seligman讨论意义. In a separate new version change it to Seligman曾与他讨论过意义 and explain that Wrong rejects the expected meaningful self-description rather than denying that conversation occurred. Preserve batch102 released fingerprint and old scores; do not add a duplicate pending semantic-audit record."
       }
     ],
     "lastDeploymentIncident": "source/question-revisions/review-039-deployment-incident.json",

@@ -1,0 +1,95 @@
+{
+  "schemaVersion": 1,
+  "status": "frozen-follow-up-awaiting-new-version",
+  "observedAt": "2026-10-29T23:12:15.071Z",
+  "questionId": "q-c11-018",
+  "currentVersion": 2,
+  "currentFingerprint": "8600371da65c2caa6ca1722df8768c9e7188f7a2e9ae8e47dad0bb6bf31d8a4c",
+  "currentQuestion": {
+    "id": "q-c11-018",
+    "version": 2,
+    "readingUnitId": "c11-s02-p125-00750-r001-004",
+    "chapterId": "c11",
+    "sectionId": "c11-s02",
+    "paragraphId": "c11-s02-p125-00750",
+    "sentenceIds": [
+      "c11-s02-p125-00750-s001",
+      "c11-s02-p125-00750-s002",
+      "c11-s02-p125-00750-s003",
+      "c11-s02-p125-00750-s004"
+    ],
+    "passage": "With his diverse contributions to society as a military leader, teacher, and scholar, you might expect Kahneman to think his life was extremely meaningful, right? Wrong. Kahneman didn’t characterize his life as meaningful. In a 2018 interview, he said, “I recall a conversation with Martin Seligman, the founder of positive psychology, in which he tried to convince me I had a meaningful life.",
+    "prompt": "What expectation does “Wrong” overturn?",
+    "options": [
+      "That Kahneman had never contributed to society.",
+      "That he would describe his own life as extremely meaningful because of his contributions.",
+      "That the interview occurred in 2018.",
+      "That Seligman had ever discussed meaning with him."
+    ],
+    "answer": 1,
+    "type": "作者意图",
+    "promptZh": "Wrong 推翻什么预期？",
+    "optionsZh": [
+      "从未贡献社会。",
+      "贡献多，所以本人会称人生极有意义。",
+      "访谈发生于2018。",
+      "从未与Seligman讨论意义。"
+    ],
+    "analyses": [
+      "A 开头承认diverse contributions。",
+      "B you might expect 后的自我评价被否定，不能用外部荣誉代替本人体验。",
+      "C 无否定访谈年份。",
+      "D 当前引语明确回忆了与Seligman的谈话，不能否认讨论曾发生。"
+    ],
+    "evidence": [
+      {
+        "quote": "With his diverse contributions to society as a military leader, teacher, and scholar, you might expect Kahneman to think his life was extremely meaningful, right? Wrong.",
+        "sentenceIds": [
+          "c11-s02-p125-00750-s001",
+          "c11-s02-p125-00750-s002"
+        ],
+        "sources": [
+          {
+            "pdfPage": 125,
+            "block": 0,
+            "bbox": [
+              76.99,
+              75,
+              535.01,
+              206.52
+            ]
+          }
+        ]
+      }
+    ],
+    "vocabulary": [
+      {
+        "word": "characterize",
+        "meaning": "将……描述为；刻画",
+        "context": "本人用何种词描述人生，不等于客观判定人生无价值",
+        "example": "She did not characterize the period as wholly happy.",
+        "collocations": [
+          "characterize a life as",
+          "didn’t characterize"
+        ]
+      }
+    ],
+    "translation": "他作为军队领导者、教师、学者对社会贡献多样，你也许以为他会觉得人生极有意义吧？错了。他并不把人生描述为有意义。在2018年一次访谈中，他说自己记得与积极心理学创始人 Martin Seligman 的一次谈话，对方试图说服他，自己过了有意义的人生。",
+    "support": "explicit",
+    "editorialStatus": "完整PDF122–126原页视觉核对与跨页拼接。Nietzsche病痛回忆为个人归因且保留potential，非医疗试验；Kahneman论文4851为书载2022单年引用非今日累计，SS遭遇为其回忆不臆测照片身份或士兵内心、不美化纳粹迫害。严格区分本人interesting与作者psychologically rich；有意义/幸福非全称。Sandy触电按幸存者叙事译触电不误作死亡；37天住院/36年独立/500美元用途分开。Katrina迁移及2006返回与2018回顾分开，bomb/veil是比喻；幸存者纽带反思与灾难伤害并存，不作人人净获益保证。保留引语跨单元和原句指纹，不宣称逐句直接证据全覆盖。",
+    "contentRevision": "question-review-2026-10-28-102",
+    "fingerprint": "8600371da65c2caa6ca1722df8768c9e7188f7a2e9ae8e47dad0bb6bf31d8a4c"
+  },
+  "sourceCandidateIds": [
+    "c11-s02-p125-00750-s001",
+    "c11-s02-p125-00750-s002",
+    "c11-s02-p125-00750-s003",
+    "c11-s02-p125-00750-s004"
+  ],
+  "finding": {
+    "questionId": "q-c11-018",
+    "status": "specific-option-translation-polarity-pending-outside-current-audit-queue",
+    "sourceRecord": "source/question-revisions/review-102-follow-up-findings.json",
+    "reason": "Post-publication screenshot inspection: option D says That Seligman had ever discussed meaning with him, but optionsZh[3] incorrectly says 从未与Seligman讨论意义. In a separate new version change it to Seligman曾与他讨论过意义 and explain that Wrong rejects the expected meaningful self-description rather than denying that conversation occurred. Preserve batch102 released fingerprint and old scores; do not add a duplicate pending semantic-audit record."
+  }
+}
