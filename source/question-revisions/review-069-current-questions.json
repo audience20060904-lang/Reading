@@ -1,0 +1,1609 @@
+{
+  "schemaVersion": 1,
+  "batchId": "question-review-2026-10-28-069",
+  "sourceCommit": "5f13ae5496fcaaf2c26d1d82b74d2b2ab578ccbf",
+  "pdfSha256": "be25c859f1bd894a4b0d1cff024ded1297f6a96a8e8ddabea1e3abcf89160a50",
+  "frozenAt": "2026-10-29T09:28:34.852Z",
+  "questions": [
+    {
+      "id": "q-c08-010",
+      "version": 1,
+      "readingUnitId": "c08-s01-p080-03870-r005-007",
+      "chapterId": "c08",
+      "sectionId": "c08-s01",
+      "paragraphId": "c08-s01-p080-03870",
+      "sentenceIds": [
+        "c08-s01-p080-03870-s005",
+        "c08-s01-p080-03870-s006",
+        "c08-s01-p080-03870-s007"
+      ],
+      "passage": "Now, well over one hundred years after this invention, you might think we’ve reached maximum productivity. After all, how much smaller can we make each operation? Yet companies like Amazon and Target are constantly looking for more ways to improve efficiency, from staffing changes to real-time inventory.",
+      "prompt": "What does “Yet” challenge in this passage?",
+      "options": [
+        "The claim that companies have never considered efficiency.",
+        "The assumption that productivity has already reached its maximum.",
+        "The fact that inventory can be tracked in real time.",
+        "The idea that assembly lines existed more than a century ago."
+      ],
+      "answer": 1,
+      "type": "逻辑关系",
+      "promptZh": "Yet 在本段挑战什么？",
+      "optionsZh": [
+        "公司从未考虑效率的说法。",
+        "生产力已经达到最大值的假定。",
+        "库存可以实时跟踪这一事实。",
+        "流水线已存在一百多年的想法。"
+      ],
+      "analyses": [
+        "A 前面没有说公司从未考虑效率。",
+        "B you might think...maximum 后用企业继续寻找改进作反差。",
+        "C real-time inventory 是改进的例子，不是被否定的对象。",
+        "D 文中承接百余年背景，没有否定它。constantly looking 是作者描述，不是今天逐家公司实时核验。"
+      ],
+      "evidence": [
+        {
+          "quote": "you might think we’ve reached maximum productivity.",
+          "sentenceIds": [
+            "c08-s01-p080-03870-s005"
+          ],
+          "sources": [
+            {
+              "pdfPage": 80,
+              "block": 2,
+              "bbox": [
+                76.99,
+                387,
+                535.02,
+                596.52
+              ]
+            }
+          ]
+        },
+        {
+          "quote": "Yet companies like Amazon and Target are constantly looking for more ways to improve efficiency",
+          "sentenceIds": [
+            "c08-s01-p080-03870-s007"
+          ],
+          "sources": [
+            {
+              "pdfPage": 80,
+              "block": 2,
+              "bbox": [
+                76.99,
+                387,
+                535.02,
+                596.52
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "inventory",
+          "meaning": "库存；存货",
+          "context": "real-time inventory 指持续更新的存货信息，是效率措施例子",
+          "example": "The shop updated its inventory after every delivery.",
+          "collocations": [
+            "real-time inventory",
+            "inventory management"
+          ]
+        }
+      ],
+      "translation": "这项发明已过去一百多年，你或许会以为生产力达到最大值了。毕竟，每道工序还能分得多细？然而，Amazon 和 Target 等公司仍不断找提升效率的方法，从人员调整到实时库存管理。",
+      "support": "explicit",
+      "editorialStatus": "PDF 第 77–82 页逐题原页核对；固定原句与来源；保留可能、反事实、近似转述、假设估算、eventually和观点归属；书中AI或建议均不触发程序操作",
+      "fingerprint": "9ec800e9379379445ddbb62670b468bbce78a94e45efe3306a1995d3eaf7f3df"
+    },
+    {
+      "id": "qe-c08-0018",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-029",
+      "parentQuestionId": "q-c08-010",
+      "chapterId": "c08",
+      "sectionId": "c08-s01",
+      "paragraphId": "c08-s01-p080-03870",
+      "readingUnitId": "c08-s01-p080-03870-r005-007",
+      "sentenceIds": [
+        "c08-s01-p080-03870-s005",
+        "c08-s01-p080-03870-s006",
+        "c08-s01-p080-03870-s007"
+      ],
+      "passage": "Now, well over one hundred years after this invention, you might think we’ve reached maximum productivity. After all, how much smaller can we make each operation? Yet companies like Amazon and Target are constantly looking for more ways to improve efficiency, from staffing changes to real-time inventory.",
+      "prompt": "What function does 'how much smaller can we make each operation?' serve?",
+      "promptZh": "how much smaller can we make each operation? 起什么作用？",
+      "options": [
+        "It proves that all companies have stopped seeking efficiency.",
+        "It supplies a measured minimum size for every industrial task.",
+        "It voices an apparent limit to task subdivision before the author counters with continued efficiency efforts.",
+        "It says every worker now produces exactly one pin daily."
+      ],
+      "optionsZh": [
+        "证明所有公司停止追求效率。",
+        "给每种工业任务测出最小尺寸。",
+        "提出工序细分似已有限的疑问，之后转向仍在持续的效率追求。",
+        "说现在每位工人仍日产一枚针。"
+      ],
+      "answer": 2,
+      "type": "作者意图",
+      "support": "explicit",
+      "analyses": [
+        "A Yet companies...looking for moreways与停止相反。",
+        "B 修辞问句不是尺寸测量报告。",
+        "C might think...maximum、After all问句与Yet转折构成先提可能预期再对照现实叙述。",
+        "D 把前面假设工厂误移为当下全体工人。"
+      ],
+      "vocabulary": [
+        {
+          "word": "After all",
+          "meaning": "毕竟；提供前述想法的理由或解释",
+          "context": "在此支持暂时预期，随后Yet给转折，不表示作者最终已证明效率极限。",
+          "example": "After all, the task has already been divided into many parts.",
+          "collocations": [
+            "After all, how much smaller",
+            "a rhetorical question"
+          ]
+        }
+      ],
+      "translation": "这项发明已过去一百多年，你或许会以为生产力达到最大值了。毕竟，每道工序还能分得多细？然而，Amazon 和 Target 等公司仍不断找提升效率的方法，从人员调整到实时库存管理。",
+      "evidenceTargetIds": [
+        "c08-s01-p080-03870-s006"
+      ],
+      "evidence": [
+        {
+          "quote": "Now, well over one hundred years after this invention, you might think we’ve reached maximum productivity. After all, how much smaller can we make each operation? Yet companies like Amazon and Target are constantly looking for more ways to improve efficiency, from staffing changes to real-time inventory.",
+          "sentenceIds": [
+            "c08-s01-p080-03870-s005",
+            "c08-s01-p080-03870-s006",
+            "c08-s01-p080-03870-s007"
+          ],
+          "sources": [
+            {
+              "pdfPage": 80,
+              "block": 2,
+              "bbox": [
+                76.99,
+                387,
+                535.02,
+                596.52
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "5017668437ac5928e7c4d28be14e04b6ac95c943a68450f1c99f8bc019f10204"
+    },
+    {
+      "id": "q-c08-011",
+      "version": 1,
+      "readingUnitId": "c08-s02-p080-06525-r001-004",
+      "chapterId": "c08",
+      "sectionId": "c08-s02",
+      "paragraphId": "c08-s02-p080-06525",
+      "sentenceIds": [
+        "c08-s02-p080-06525-s001",
+        "c08-s02-p080-06525-s002",
+        "c08-s02-p080-06525-s003",
+        "c08-s02-p080-06525-s004"
+      ],
+      "passage": "In the past, the division of labor was mostly limited to workplaces such as factories, farms, and restaurants. At home, most people were cooking, cleaning, and doing laundry by themselves until the 1990s, even as microwaves, laundry machines, and dishwashers made house chores easier and less time-consuming. Over the last two decades, however, economizing habits have thoroughly penetrated our life, resulting in further division of labor. Outsourcing is no longer a term reserved only for multinational corporations or the rich.",
+      "prompt": "What change in the reach of division of labor is described?",
+      "options": [
+        "Outsourcing has become reserved exclusively for wealthy corporations.",
+        "Domestic appliances eliminated every household responsibility immediately.",
+        "The division of labor disappeared from workplaces after the 1990s.",
+        "Economising and outsourcing have spread beyond workplaces into everyday life."
+      ],
+      "answer": 3,
+      "type": "主旨",
+      "promptZh": "本段描述劳动分工的范围发生什么变化？",
+      "optionsZh": [
+        "外包变得只允许富有公司使用。",
+        "家电立即消除了所有家庭责任。",
+        "1990 年代后分工从工作场所消失。",
+        "节约效率与外包从工作场所扩展到日常生活。"
+      ],
+      "analyses": [
+        "A no longer...reserved only 明确否定仅限富有者。",
+        "B easier and less time-consuming 不等于彻底消失。",
+        "C 原文是进一步分工，不是工作场所停止分工。",
+        "D 从 past mostly workplaces 到 economizing habits...our life，说明范围扩展。last two decades 以原书叙述为基准，不直接当作今日统计。"
+      ],
+      "evidence": [
+        {
+          "quote": "economizing habits have thoroughly penetrated our life, resulting in further division of labor.",
+          "sentenceIds": [
+            "c08-s02-p080-06525-s003"
+          ],
+          "sources": [
+            {
+              "pdfPage": 81,
+              "block": 0,
+              "bbox": [
+                76.99,
+                75,
+                535.01,
+                206.52
+              ]
+            }
+          ]
+        },
+        {
+          "quote": "Outsourcing is no longer a term reserved only for multinational corporations or the rich.",
+          "sentenceIds": [
+            "c08-s02-p080-06525-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 81,
+              "block": 0,
+              "bbox": [
+                76.99,
+                75,
+                535.01,
+                206.52
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "outsourcing",
+          "meaning": "外包；交给外部提供者完成",
+          "context": "从公司语境扩展到家务服务，不等于所有家务都已完全外包",
+          "example": "The firm considered outsourcing part of its cleaning work.",
+          "collocations": [
+            "outsource home cleaning",
+            "outsourcing services"
+          ]
+        }
+      ],
+      "translation": "过去，分工主要限于工厂、农场、餐厅等工作场所。到 1990 年代，家中多数人仍自己做饭、清洁、洗衣，尽管微波炉、洗衣机、洗碗机已使家务更轻松省时。然而原书所说的过去二十年，节约效率的习惯已深入生活，带来进一步分工。外包已不再只是跨国公司或富人的用语。",
+      "support": "explicit",
+      "editorialStatus": "PDF 第 77–82 页逐题原页核对；固定原句与来源；保留可能、反事实、近似转述、假设估算、eventually和观点归属；书中AI或建议均不触发程序操作",
+      "fingerprint": "d0fa6a53f4a50d9dab0c841301ff0f6aedc403e731052dc898b49d0bc721c62d"
+    },
+    {
+      "id": "qe-c08-0019",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-029",
+      "parentQuestionId": "q-c08-011",
+      "chapterId": "c08",
+      "sectionId": "c08-s02",
+      "paragraphId": "c08-s02-p080-06525",
+      "readingUnitId": "c08-s02-p080-06525-r001-004",
+      "sentenceIds": [
+        "c08-s02-p080-06525-s001",
+        "c08-s02-p080-06525-s002",
+        "c08-s02-p080-06525-s003",
+        "c08-s02-p080-06525-s004"
+      ],
+      "passage": "In the past, the division of labor was mostly limited to workplaces such as factories, farms, and restaurants. At home, most people were cooking, cleaning, and doing laundry by themselves until the 1990s, even as microwaves, laundry machines, and dishwashers made house chores easier and less time-consuming. Over the last two decades, however, economizing habits have thoroughly penetrated our life, resulting in further division of labor. Outsourcing is no longer a term reserved only for multinational corporations or the rich.",
+      "prompt": "Which qualification belongs to the description of division of labour in the past?",
+      "promptZh": "对过去劳动分工的描述，哪项保留限定？",
+      "options": [
+        "It was mostly limited to workplaces, with factories,farms,and restaurants as examples.",
+        "It was completely absent from every workplace.",
+        "It was only a term for modern multinational corporations.",
+        "Every household used the same outsourced services throughout history."
+      ],
+      "optionsZh": [
+        "主要限于工作场所，例如工厂、农场、餐厅。",
+        "在每个工作场所都完全不存在。",
+        "它只是现代跨国企业的术语。",
+        "历史上每户始终用同样外包服务。"
+      ],
+      "answer": 0,
+      "type": "语气与范围",
+      "support": "explicit",
+      "analyses": [
+        "A mostly与such as保留主要范围及非穷尽例子。",
+        "B 与分工存在的表述相反。",
+        "C 后文说outsourcing不再仅限跨国企业，不能当过去分工定义。",
+        "D 当前对照正讲家庭变化，不是所有历史无区别。"
+      ],
+      "vocabulary": [
+        {
+          "word": "mostly limited to",
+          "meaning": "主要限于；大多局限在",
+          "context": "mostly非完全排他，limited to的范围是所述工作场所。",
+          "example": "The activity was mostly limited to a few departments.",
+          "collocations": [
+            "mostly limited to workplaces",
+            "such as factories"
+          ]
+        }
+      ],
+      "translation": "过去，分工主要限于工厂、农场、餐厅等工作场所。到 1990 年代，家中多数人仍自己做饭、清洁、洗衣，尽管微波炉、洗衣机、洗碗机已使家务更轻松省时。然而原书所说的过去二十年，节约效率的习惯已深入生活，带来进一步分工。外包已不再只是跨国公司或富人的用语。",
+      "evidenceTargetIds": [
+        "c08-s02-p080-06525-s001"
+      ],
+      "evidence": [
+        {
+          "quote": "In the past, the division of labor was mostly limited to workplaces such as factories, farms, and restaurants. At home, most people were cooking, cleaning, and doing laundry by themselves until the 1990s, even as microwaves, laundry machines, and dishwashers made house chores easier and less time-consuming. Over the last two decades, however, economizing habits have thoroughly penetrated our life, resulting in further division of labor. Outsourcing is no longer a term reserved only for multinational corporations or the rich.",
+          "sentenceIds": [
+            "c08-s02-p080-06525-s001",
+            "c08-s02-p080-06525-s002",
+            "c08-s02-p080-06525-s003",
+            "c08-s02-p080-06525-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 80,
+              "block": 4,
+              "bbox": [
+                76.99,
+                652.5,
+                535.01,
+                706.02
+              ]
+            },
+            {
+              "pdfPage": 81,
+              "block": 0,
+              "bbox": [
+                76.99,
+                75,
+                535.01,
+                206.52
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "31e705c56fc51172bc6b7eca63e4c3abda478ec70a363b97fd5b84fe58211793"
+    },
+    {
+      "id": "qe-c08-0020",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-029",
+      "parentQuestionId": "q-c08-011",
+      "chapterId": "c08",
+      "sectionId": "c08-s02",
+      "paragraphId": "c08-s02-p080-06525",
+      "readingUnitId": "c08-s02-p080-06525-r001-004",
+      "sentenceIds": [
+        "c08-s02-p080-06525-s001",
+        "c08-s02-p080-06525-s002",
+        "c08-s02-p080-06525-s003",
+        "c08-s02-p080-06525-s004"
+      ],
+      "passage": "In the past, the division of labor was mostly limited to workplaces such as factories, farms, and restaurants. At home, most people were cooking, cleaning, and doing laundry by themselves until the 1990s, even as microwaves, laundry machines, and dishwashers made house chores easier and less time-consuming. Over the last two decades, however, economizing habits have thoroughly penetrated our life, resulting in further division of labor. Outsourcing is no longer a term reserved only for multinational corporations or the rich.",
+      "prompt": "What does 'even as' highlight about household appliances and chores?",
+      "promptZh": "even as 强调家电与家务怎样的关系？",
+      "options": [
+        "Appliances had no effect on how demanding chores were.",
+        "People still did many chores themselves while appliances were making them easier and quicker.",
+        "The arrival of appliances immediately meant nobody did chores personally.",
+        "Only factories,not households,were allowed to use appliances."
+      ],
+      "optionsZh": [
+        "家电对家务费力程度毫无影响。",
+        "家电使家务更轻松省时的同时，人们仍自己做许多家务。",
+        "家电一到便无人再亲做家务。",
+        "只有工厂而非家庭获准用家电。"
+      ],
+      "answer": 1,
+      "type": "逻辑关系",
+      "support": "explicit",
+      "analyses": [
+        "A made easier and less time-consuming明确有作用。",
+        "B 前半most...bythemselves与even as同步并带对照，按书中至1990年代的概述。",
+        "C 省力不等于立即完全外包，不能将器具帮助替换为他人代做。",
+        "D 没有这种使用禁令，也不把most改成all。"
+      ],
+      "vocabulary": [
+        {
+          "word": "less time-consuming",
+          "meaning": "更省时的；所需时间更少的",
+          "context": "比较家务耗时，不等于完全不需自己操作或任何时间。",
+          "example": "The new arrangement made the task less time-consuming.",
+          "collocations": [
+            "chores easier and less time-consuming",
+            "do laundry by themselves"
+          ]
+        }
+      ],
+      "translation": "过去，分工主要限于工厂、农场、餐厅等工作场所。到 1990 年代，家中多数人仍自己做饭、清洁、洗衣，尽管微波炉、洗衣机、洗碗机已使家务更轻松省时。然而原书所说的过去二十年，节约效率的习惯已深入生活，带来进一步分工。外包已不再只是跨国公司或富人的用语。",
+      "evidenceTargetIds": [
+        "c08-s02-p080-06525-s002"
+      ],
+      "evidence": [
+        {
+          "quote": "In the past, the division of labor was mostly limited to workplaces such as factories, farms, and restaurants. At home, most people were cooking, cleaning, and doing laundry by themselves until the 1990s, even as microwaves, laundry machines, and dishwashers made house chores easier and less time-consuming. Over the last two decades, however, economizing habits have thoroughly penetrated our life, resulting in further division of labor. Outsourcing is no longer a term reserved only for multinational corporations or the rich.",
+          "sentenceIds": [
+            "c08-s02-p080-06525-s001",
+            "c08-s02-p080-06525-s002",
+            "c08-s02-p080-06525-s003",
+            "c08-s02-p080-06525-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 80,
+              "block": 4,
+              "bbox": [
+                76.99,
+                652.5,
+                535.01,
+                706.02
+              ]
+            },
+            {
+              "pdfPage": 81,
+              "block": 0,
+              "bbox": [
+                76.99,
+                75,
+                535.01,
+                206.52
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "efa48df665bafee34b4f73bc556b1f4396bb7533d428d0c9433c6b393afdabe9"
+    },
+    {
+      "id": "q-c08-012",
+      "version": 1,
+      "readingUnitId": "c08-s02-p080-06525-r005-006",
+      "chapterId": "c08",
+      "sectionId": "c08-s02",
+      "paragraphId": "c08-s02-p080-06525",
+      "sentenceIds": [
+        "c08-s02-p080-06525-s005",
+        "c08-s02-p080-06525-s006"
+      ],
+      "passage": "Many middle-class households outsource home cleaning, lawn care, and even grocery shopping. Busy professionals use AIs for scheduling, planning, and even financial investments.",
+      "prompt": "Which services are explicitly described as outsourced by middle-class households?",
+      "options": [
+        "Home cleaning, lawn care and even grocery shopping.",
+        "Only university experiments and scientific interpretation.",
+        "All family relationships and every financial decision.",
+        "Only tasks carried out inside multinational factories."
+      ],
+      "answer": 0,
+      "type": "细节",
+      "promptZh": "中产家庭外包的服务，原文明列哪些？",
+      "optionsZh": [
+        "家庭清洁、草坪维护，甚至买杂货。",
+        "只有大学实验和科学解释。",
+        "全部家庭关系与每个财务决定。",
+        "只有跨国工厂内部任务。"
+      ],
+      "analyses": [
+        "A 三项服务在第一句逐一列出。",
+        "B 当前家庭例子不是大学科研分工。",
+        "C 所列服务不能扩展到全部关系；后句忙碌专业人士的 AI 使用也不是每个家庭的一切决策。",
+        "D 当前例子已从工厂进入家庭。本题只是理解原书描述，不是建议投资或为网站接入 AI。"
+      ],
+      "evidence": [
+        {
+          "quote": "outsource home cleaning, lawn care, and even grocery shopping.",
+          "sentenceIds": [
+            "c08-s02-p080-06525-s005"
+          ],
+          "sources": [
+            {
+              "pdfPage": 81,
+              "block": 0,
+              "bbox": [
+                76.99,
+                75,
+                535.01,
+                206.52
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "lawn care",
+          "meaning": "草坪维护；草地养护",
+          "context": "列为家庭可交给服务方的一项工作，不是 grocery shopping 的同义词",
+          "example": "The neighbours hired a local service for lawn care.",
+          "collocations": [
+            "outsource lawn care",
+            "lawn care services"
+          ]
+        }
+      ],
+      "translation": "许多中产家庭把居家清洁、草坪维护，甚至杂货购物外包。忙碌的专业人士使用 AI 来排程、规划，甚至进行金融投资。这是原书描述的现象，不是本网站的运行功能。",
+      "support": "explicit",
+      "editorialStatus": "PDF 第 77–82 页逐题原页核对；固定原句与来源；保留可能、反事实、近似转述、假设估算、eventually和观点归属；书中AI或建议均不触发程序操作",
+      "fingerprint": "54f568d241e19ae829957684f4680e03be491ce98527f3fc4fe2e18f51121547"
+    },
+    {
+      "id": "qe-c08-0021",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-029",
+      "parentQuestionId": "q-c08-012",
+      "chapterId": "c08",
+      "sectionId": "c08-s02",
+      "paragraphId": "c08-s02-p080-06525",
+      "readingUnitId": "c08-s02-p080-06525-r005-006",
+      "sentenceIds": [
+        "c08-s02-p080-06525-s005",
+        "c08-s02-p080-06525-s006"
+      ],
+      "passage": "Many middle-class households outsource home cleaning, lawn care, and even grocery shopping. Busy professionals use AIs for scheduling, planning, and even financial investments.",
+      "prompt": "What does 'and even financial investments' add to the book's AI-use examples?",
+      "promptZh": "and even financial investments 为书中AI使用例子补充什么？",
+      "options": [
+        "A claim that all investments are guaranteed to succeed.",
+        "Proof that every professional uses exactly one AI in the same way.",
+        "An instruction to connect an AI service before reading.",
+        "A further domain beyond scheduling and planning in the author's description."
+      ],
+      "optionsZh": [
+        "所有投资保证成功的主张。",
+        "证明每位专业人士都完全同法使用同一AI。",
+        "要求阅读前连接AI服务的指令。",
+        "在作者描述中，排程规划之外再加一个领域。"
+      ],
+      "answer": 3,
+      "type": "逻辑关系",
+      "support": "explicit",
+      "analyses": [
+        "A 提用途不等于提供投资收益保证。",
+        "B Busy professionals的概述非全员同工具同方法。",
+        "C 原文为现象描述，不是执行外部服务或投资的指令。",
+        "D even标出范围扩展到金融投资，不添加原文未给出的实际绩效或推荐。"
+      ],
+      "vocabulary": [
+        {
+          "word": "scheduling",
+          "meaning": "安排日程；排程",
+          "context": "与planning、financial investments并列，是书中外包趋势例子。",
+          "example": "The assistant helped with scheduling several appointments.",
+          "collocations": [
+            "scheduling and planning",
+            "use AIs for scheduling"
+          ]
+        }
+      ],
+      "translation": "许多中产家庭把居家清洁、草坪维护，甚至杂货购物外包。忙碌的专业人士使用 AI 来排程、规划，甚至进行金融投资。这是原书描述的现象，不是本网站的运行功能。",
+      "evidenceTargetIds": [
+        "c08-s02-p080-06525-s006"
+      ],
+      "evidence": [
+        {
+          "quote": "Many middle-class households outsource home cleaning, lawn care, and even grocery shopping. Busy professionals use AIs for scheduling, planning, and even financial investments.",
+          "sentenceIds": [
+            "c08-s02-p080-06525-s005",
+            "c08-s02-p080-06525-s006"
+          ],
+          "sources": [
+            {
+              "pdfPage": 81,
+              "block": 0,
+              "bbox": [
+                76.99,
+                75,
+                535.01,
+                206.52
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "249a7f31f0ae07a8ac3d8241f5100545c72277e2c45e962cc1f571f70cd20073"
+    },
+    {
+      "id": "q-c08-013",
+      "version": 1,
+      "readingUnitId": "c08-s02-p081-02115-r001-003",
+      "chapterId": "c08",
+      "sectionId": "c08-s02",
+      "paragraphId": "c08-s02-p081-02115",
+      "sentenceIds": [
+        "c08-s02-p081-02115-s001",
+        "c08-s02-p081-02115-s002",
+        "c08-s02-p081-02115-s003"
+      ],
+      "passage": "In academia, big team science is taking over traditional small lab science, requiring a great degree of division of labor. In big team social psychology, someone has to prepare experimental materials, someone else has to run the study, someone else has to clean up the data, someone else has to analyze it, someone else has to interpret it, and so on. Each team member does their part; then the team quickly assembles all the parts and moves on to the next paper.",
+      "prompt": "How does the passage describe big-team social psychology work?",
+      "options": [
+        "One person always performs every operation without collaborators.",
+        "Different people handle materials, study execution, data work and interpretation.",
+        "No team member has a distinct role.",
+        "The team stops after preparing materials and never assembles a paper."
+      ],
+      "answer": 1,
+      "type": "细节",
+      "promptZh": "本段怎样描述大型团队社会心理学工作？",
+      "optionsZh": [
+        "总由一人独自完成全部操作。",
+        "不同人分别处理材料、执行研究、数据与解释。",
+        "没有任何成员有不同分工。",
+        "准备材料后就停止，从不组装论文。"
+      ],
+      "analyses": [
+        "A 多个 someone else 明确不同人接手。",
+        "B materials、run、clean/analyze、interpret 依次列出任务。",
+        "C each...their part 表示各有分工。",
+        "D 后面明确 assemble...parts 然后进入下一篇；本段描述流程，不直接判定每篇质量或体验好坏。"
+      ],
+      "evidence": [
+        {
+          "quote": "someone has to prepare experimental materials, someone else has to run the study",
+          "sentenceIds": [
+            "c08-s02-p081-02115-s002"
+          ],
+          "sources": [
+            {
+              "pdfPage": 81,
+              "block": 1,
+              "bbox": [
+                76.99,
+                211.5,
+                535.01,
+                343.02
+              ]
+            }
+          ]
+        },
+        {
+          "quote": "someone else has to interpret it",
+          "sentenceIds": [
+            "c08-s02-p081-02115-s002"
+          ],
+          "sources": [
+            {
+              "pdfPage": 81,
+              "block": 1,
+              "bbox": [
+                76.99,
+                211.5,
+                535.01,
+                343.02
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "interpret",
+          "meaning": "解释；阐释意义",
+          "context": "这里是解释研究数据或结果，与清理和统计分析分列，不宜混为一项",
+          "example": "The team discussed how to interpret the results.",
+          "collocations": [
+            "interpret results",
+            "interpret the data"
+          ]
+        }
+      ],
+      "translation": "学术界，大团队科学正取代传统小实验室科学，需要高度分工。在大团队社会心理学中，有人备实验材料，有人执行研究，有人清数据，有人分析，有人解释，等等。每位成员做自己的部分，团队再快速组装，转向下一篇论文。",
+      "support": "explicit",
+      "editorialStatus": "PDF 第 77–82 页逐题原页核对；固定原句与来源；保留可能、反事实、近似转述、假设估算、eventually和观点归属；书中AI或建议均不触发程序操作",
+      "fingerprint": "64c2c3321e069587867278b662665d53291ad11f22af66281846490cc0957d0b"
+    },
+    {
+      "id": "qe-c08-0022",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-029",
+      "parentQuestionId": "q-c08-013",
+      "chapterId": "c08",
+      "sectionId": "c08-s02",
+      "paragraphId": "c08-s02-p081-02115",
+      "readingUnitId": "c08-s02-p081-02115-r001-003",
+      "sentenceIds": [
+        "c08-s02-p081-02115-s001",
+        "c08-s02-p081-02115-s002",
+        "c08-s02-p081-02115-s003"
+      ],
+      "passage": "In academia, big team science is taking over traditional small lab science, requiring a great degree of division of labor. In big team social psychology, someone has to prepare experimental materials, someone else has to run the study, someone else has to clean up the data, someone else has to analyze it, someone else has to interpret it, and so on. Each team member does their part; then the team quickly assembles all the parts and moves on to the next paper.",
+      "prompt": "What does the shift toward big-team science require in the passage?",
+      "promptZh": "片段说向大团队科学转变需要什么？",
+      "options": [
+        "Every member must independently perform the entire project without sharing.",
+        "The total disappearance of all small laboratories is already proved.",
+        "A substantial division of labour among team members.",
+        "Only a change in the newspaper used for obituaries."
+      ],
+      "optionsZh": [
+        "每人必须独做全项目且不共享。",
+        "已经证明所有小实验室完全消失。",
+        "团队成员之间高度分工。",
+        "仅更换讣告研究报纸。"
+      ],
+      "answer": 2,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A 后面各人备材料、执行、清理分析等是分担，不是人人全做。",
+        "B taking over描述趋势，不能擅加全体消失证明。",
+        "C requiring a great degree...与后续例子对应。",
+        "D 当前是研究组织方式，与选报纸无关。"
+      ],
+      "vocabulary": [
+        {
+          "word": "requiring",
+          "meaning": "需要；要求具备",
+          "context": "分词说明大团队趋势对劳动组织的要求，不是已采集每个实验室的全部数据。",
+          "example": "The project involves several stages, requiring careful coordination.",
+          "collocations": [
+            "requiring division of labor",
+            "big team science"
+          ]
+        }
+      ],
+      "translation": "学术界，大团队科学正取代传统小实验室科学，需要高度分工。在大团队社会心理学中，有人备实验材料，有人执行研究，有人清数据，有人分析，有人解释，等等。每位成员做自己的部分，团队再快速组装，转向下一篇论文。",
+      "evidenceTargetIds": [
+        "c08-s02-p081-02115-s001"
+      ],
+      "evidence": [
+        {
+          "quote": "In academia, big team science is taking over traditional small lab science, requiring a great degree of division of labor. In big team social psychology, someone has to prepare experimental materials, someone else has to run the study, someone else has to clean up the data, someone else has to analyze it, someone else has to interpret it, and so on. Each team member does their part; then the team quickly assembles all the parts and moves on to the next paper.",
+          "sentenceIds": [
+            "c08-s02-p081-02115-s001",
+            "c08-s02-p081-02115-s002",
+            "c08-s02-p081-02115-s003"
+          ],
+          "sources": [
+            {
+              "pdfPage": 81,
+              "block": 1,
+              "bbox": [
+                76.99,
+                211.5,
+                535.01,
+                343.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "9574adbdb268ee1d6fb16fc63f18705696bc4fdcd99dd69c8b041beb51e1cae5"
+    },
+    {
+      "id": "qe-c08-0023",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-029",
+      "parentQuestionId": "q-c08-013",
+      "chapterId": "c08",
+      "sectionId": "c08-s02",
+      "paragraphId": "c08-s02-p081-02115",
+      "readingUnitId": "c08-s02-p081-02115-r001-003",
+      "sentenceIds": [
+        "c08-s02-p081-02115-s001",
+        "c08-s02-p081-02115-s002",
+        "c08-s02-p081-02115-s003"
+      ],
+      "passage": "In academia, big team science is taking over traditional small lab science, requiring a great degree of division of labor. In big team social psychology, someone has to prepare experimental materials, someone else has to run the study, someone else has to clean up the data, someone else has to analyze it, someone else has to interpret it, and so on. Each team member does their part; then the team quickly assembles all the parts and moves on to the next paper.",
+      "prompt": "Which sequence describes how the team produces papers?",
+      "promptZh": "哪项符合团队产生论文的顺序？",
+      "options": [
+        "Members do separate parts, the team assembles them, then moves to the next paper.",
+        "The next paper is completed before any member begins their part.",
+        "Every member publishes a completely independent full study with no assembly.",
+        "The team stops permanently after preparing materials only."
+      ],
+      "optionsZh": [
+        "成员各做部分，团队组装，再转下一篇。",
+        "成员开始前下一篇已完成。",
+        "每人无组装地独立发表一整项研究。",
+        "只备材料后团队永久停止。"
+      ],
+      "answer": 0,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A does their part、then assembles、moves on给三个阶段。",
+        "B then顺序被反转。",
+        "C all the parts的组装过程不能删除。",
+        "D moves on不是永久停止，也不能把速度直接当作每个人体验更丰富的证明。"
+      ],
+      "vocabulary": [
+        {
+          "word": "assembles",
+          "meaning": "组装；把各部分整合起来",
+          "context": "这里将研究任务成果整合为论文，不是制造实体机械的唯一含义。",
+          "example": "The editor assembles the sections into a complete report.",
+          "collocations": [
+            "assembles all the parts",
+            "moves on to the next paper"
+          ]
+        }
+      ],
+      "translation": "学术界，大团队科学正取代传统小实验室科学，需要高度分工。在大团队社会心理学中，有人备实验材料，有人执行研究，有人清数据，有人分析，有人解释，等等。每位成员做自己的部分，团队再快速组装，转向下一篇论文。",
+      "evidenceTargetIds": [
+        "c08-s02-p081-02115-s003"
+      ],
+      "evidence": [
+        {
+          "quote": "In academia, big team science is taking over traditional small lab science, requiring a great degree of division of labor. In big team social psychology, someone has to prepare experimental materials, someone else has to run the study, someone else has to clean up the data, someone else has to analyze it, someone else has to interpret it, and so on. Each team member does their part; then the team quickly assembles all the parts and moves on to the next paper.",
+          "sentenceIds": [
+            "c08-s02-p081-02115-s001",
+            "c08-s02-p081-02115-s002",
+            "c08-s02-p081-02115-s003"
+          ],
+          "sources": [
+            {
+              "pdfPage": 81,
+              "block": 1,
+              "bbox": [
+                76.99,
+                211.5,
+                535.01,
+                343.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "14e78dc522b4f40009f0e26f810f3eec6b632b0a9c865b6c5ae57ddfcb4b0cad"
+    },
+    {
+      "id": "q-c08-017",
+      "version": 1,
+      "readingUnitId": "c08-s03-p081-05745-r001-003",
+      "chapterId": "c08",
+      "sectionId": "c08-s03",
+      "paragraphId": "c08-s03-p081-05745",
+      "sentenceIds": [
+        "c08-s03-p081-05745-s001",
+        "c08-s03-p081-05745-s002",
+        "c08-s03-p081-05745-s003"
+      ],
+      "passage": "To be clear, Kagan was not complaining about the productivity of team scientists. Instead, he was lamenting the psychological and experiential aspects of doing science today. Karl Marx famously speculated about various negative consequences of the division of labor.",
+      "prompt": "What misunderstanding does the author explicitly correct about Kagan?",
+      "options": [
+        "That Kagan believed every team produced no papers.",
+        "That his concern was about output quantity rather than the psychological experience of science.",
+        "That Kagan had ever worked with a graduate student.",
+        "That Marx’s speculation was an experiment measuring team productivity."
+      ],
+      "answer": 1,
+      "type": "作者意图",
+      "promptZh": "作者明确纠正关于 Kagan 的什么误解？",
+      "optionsZh": [
+        "Kagan 认为所有团队都不写论文。",
+        "他的关切只是产出数量，而非做科研的心理体验。",
+        "Kagan 曾与研究生合作。",
+        "Marx 的推测是测量团队产出的实验。"
+      ],
+      "analyses": [
+        "A 原文没有归给 Kagan “团队零产出”的观点。",
+        "B not complaining about productivity 后用 Instead 转向 psychological and experiential aspects，正是在纠正这一误解。",
+        "C 本段没有撤回研究生合作的回顾。",
+        "D speculated 表示理论性推测，不是实验；第三句引出 Marx，不能把前面 Kagan 的体验批评全改归 Marx。"
+      ],
+      "evidence": [
+        {
+          "quote": "Kagan was not complaining about the productivity of team scientists. Instead, he was lamenting the psychological and experiential aspects of doing science today.",
+          "sentenceIds": [
+            "c08-s03-p081-05745-s001",
+            "c08-s03-p081-05745-s002"
+          ],
+          "sources": [
+            {
+              "pdfPage": 81,
+              "block": 4,
+              "bbox": [
+                76.99,
+                574.5,
+                535.01,
+                706.02
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "experiential",
+          "meaning": "体验的；亲历方面的",
+          "context": "区别于产出数量，指做科研过程中的亲身感受",
+          "example": "The course included an experiential component in the workshop.",
+          "collocations": [
+            "experiential aspects",
+            "psychological and experiential"
+          ]
+        }
+      ],
+      "translation": "说清楚，Kagan 并不是抱怨团队科学家的生产力，而是在惋惜当今做科学的心理与体验层面。Karl Marx 则曾就劳动分工的多种负面后果作过著名推测。",
+      "support": "explicit",
+      "editorialStatus": "PDF 第 77–82 页逐题原页核对；固定原句与来源；保留可能、反事实、近似转述、假设估算、eventually和观点归属；书中AI或建议均不触发程序操作",
+      "fingerprint": "f69098bad6ed351c3b37177901f9036d36c137e6c914ce19c6ad3349a1a9f0d8"
+    },
+    {
+      "id": "qe-c08-0024",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-029",
+      "parentQuestionId": "q-c08-017",
+      "chapterId": "c08",
+      "sectionId": "c08-s03",
+      "paragraphId": "c08-s03-p081-05745",
+      "readingUnitId": "c08-s03-p081-05745-r001-003",
+      "sentenceIds": [
+        "c08-s03-p081-05745-s001",
+        "c08-s03-p081-05745-s002",
+        "c08-s03-p081-05745-s003"
+      ],
+      "passage": "To be clear, Kagan was not complaining about the productivity of team scientists. Instead, he was lamenting the psychological and experiential aspects of doing science today. Karl Marx famously speculated about various negative consequences of the division of labor.",
+      "prompt": "What status does 'speculated' give Marx's discussion at this point?",
+      "promptZh": "speculated 给此处 Marx 的讨论标出什么性质？",
+      "options": [
+        "An already reported randomised clinical trial.",
+        "Theoretical reflection on possible negative consequences of labour division.",
+        "A denial that labour division has any consequences.",
+        "A freshly measured result about every team scientist today."
+      ],
+      "optionsZh": [
+        "已报告的随机临床试验。",
+        "对劳动分工可能负面后果的理论思考。",
+        "否认分工有任何后果。",
+        "对今天每位团队科学家新测结果。"
+      ],
+      "answer": 1,
+      "type": "观点归属",
+      "support": "explicit",
+      "analyses": [
+        "A speculated不是控制临床试验。",
+        "B Marx...various negative consequences点明思考对象与理论地位。",
+        "C negative consequences不是没有后果。",
+        "D 此句非今日全体科研人员测量；前文Kagan体验批评也不应与Marx完全合并。"
+      ],
+      "vocabulary": [
+        {
+          "word": "speculated",
+          "meaning": "推测；作理论性思考",
+          "context": "与后面另述实证支持有区别，不直接等同本句已证明。",
+          "example": "The writer speculated about how the change might affect daily work.",
+          "collocations": [
+            "speculated about consequences",
+            "negative consequences of division"
+          ]
+        }
+      ],
+      "translation": "说清楚，Kagan 并不是抱怨团队科学家的生产力，而是在惋惜当今做科学的心理与体验层面。Karl Marx 则曾就劳动分工的多种负面后果作过著名推测。",
+      "evidenceTargetIds": [
+        "c08-s03-p081-05745-s003"
+      ],
+      "evidence": [
+        {
+          "quote": "To be clear, Kagan was not complaining about the productivity of team scientists. Instead, he was lamenting the psychological and experiential aspects of doing science today. Karl Marx famously speculated about various negative consequences of the division of labor.",
+          "sentenceIds": [
+            "c08-s03-p081-05745-s001",
+            "c08-s03-p081-05745-s002",
+            "c08-s03-p081-05745-s003"
+          ],
+          "sources": [
+            {
+              "pdfPage": 81,
+              "block": 4,
+              "bbox": [
+                76.99,
+                574.5,
+                535.01,
+                706.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "6ea3d553626da38678743db35326f1b3ddd24d81b93c350c730730f4bc6f21df"
+    },
+    {
+      "id": "q-c08-019",
+      "version": 1,
+      "readingUnitId": "c08-s03-p081-05745-r005-006",
+      "chapterId": "c08",
+      "sectionId": "c08-s03",
+      "paragraphId": "c08-s03-p081-05745",
+      "sentenceIds": [
+        "c08-s03-p081-05745-s005",
+        "c08-s03-p081-05745-s006"
+      ],
+      "passage": "Marx was further concerned that the division of labor would make laborers simpletons: “It increases the social productive power of labor, not only for the benefit of the capitalist instead of for that of the labourer, but it does this by crippling the individual labourers.” Marx argued that the division of labor “mortifies the body and ruins the mind.”",
+      "prompt": "How does the quoted Marx passage qualify the increase in productive power?",
+      "options": [
+        "It benefits laborers by developing all their faculties.",
+        "It reduces social output while enriching individual workers.",
+        "It benefits capitalists without affecting individual laborers.",
+        "It benefits capitalists while damaging individual laborers."
+      ],
+      "answer": 3,
+      "type": "作者意图",
+      "promptZh": "引述的 Marx 论述怎样限定生产力的提高？",
+      "optionsZh": [
+        "通过发展全部能力而使劳动者受益。",
+        "降低社会产出，同时丰富个体劳动者。",
+        "使资本家受益，却不影响个体劳动者。",
+        "使资本家受益，同时损害个体劳动者。"
+      ],
+      "analyses": [
+        "A instead of for...the labourer 否定了这里把劳动者当作主要受益者的读法。",
+        "B It increases 明说提高生产力；不能把个体受损改成社会产出下降。",
+        "C by crippling 表明提高生产力伴随个体受损，不是毫无影响。",
+        "D for the benefit of the capitalist 与 crippling the individual labourers 同时支持此项。mortifies...ruins 是 Marx 的批判性措辞，不是本段测得的普遍医学结果。"
+      ],
+      "evidence": [
+        {
+          "quote": "for the benefit of the capitalist instead of for that of the labourer",
+          "sentenceIds": [
+            "c08-s03-p081-05745-s005"
+          ],
+          "sources": [
+            {
+              "pdfPage": 82,
+              "block": 0,
+              "bbox": [
+                76.99,
+                75,
+                535.01,
+                206.52
+              ]
+            }
+          ]
+        },
+        {
+          "quote": "by crippling the individual labourers.",
+          "sentenceIds": [
+            "c08-s03-p081-05745-s005"
+          ],
+          "sources": [
+            {
+              "pdfPage": 82,
+              "block": 0,
+              "bbox": [
+                76.99,
+                75,
+                535.01,
+                206.52
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "crippling",
+          "meaning": "使受严重损害；使能力受限",
+          "context": "引语中批评劳动者受到压抑，不能据此认定所有人出现同种身体损伤",
+          "example": "The restrictions were crippling the group’s ability to respond.",
+          "collocations": [
+            "cripple individual labourers",
+            "cripple someone’s ability"
+          ]
+        }
+      ],
+      "translation": "Marx 进一步担心劳动分工会使劳动者变得愚钝：“它提高劳动的社会生产力，不是为了劳动者，而是为了资本家的利益；而它又是通过使个体劳动者残缺受损来做到这一点的。”Marx 认为，劳动分工“折磨肉体并摧毁心智”。",
+      "support": "explicit",
+      "editorialStatus": "PDF 第 81–85 页逐题原页核对；固定原句与来源；保留理论推测、调查相关、自报、团队分组、假想工作预测及行为指标的边界；原文连续无重复",
+      "fingerprint": "8a018a7e78f7ae1d22d1e68f6e54de27bd836bd32db7633134f9a327bac3bc73"
+    },
+    {
+      "id": "qe-c08-0025",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-029",
+      "parentQuestionId": "q-c08-019",
+      "chapterId": "c08",
+      "sectionId": "c08-s03",
+      "paragraphId": "c08-s03-p081-05745",
+      "readingUnitId": "c08-s03-p081-05745-r005-006",
+      "sentenceIds": [
+        "c08-s03-p081-05745-s005",
+        "c08-s03-p081-05745-s006"
+      ],
+      "passage": "Marx was further concerned that the division of labor would make laborers simpletons: “It increases the social productive power of labor, not only for the benefit of the capitalist instead of for that of the labourer, but it does this by crippling the individual labourers.” Marx argued that the division of labor “mortifies the body and ruins the mind.”",
+      "prompt": "Whose claim is that division of labour 'mortifies the body and ruins the mind'?",
+      "promptZh": "分工mortifies the body and ruins the mind这一主张归于谁？",
+      "options": [
+        "A participant giving a score in the diary study.",
+        "The current reader reporting a medical diagnosis.",
+        "Kai Erikson presenting a new laboratory test in this sentence.",
+        "Marx, in the quoted theoretical criticism described by the book."
+      ],
+      "optionsZh": [
+        "日记研究里给分的参与者。",
+        "当前读者报告医学诊断。",
+        "Kai Erikson在本句提出新实验室试验。",
+        "本书所述理论批评中的Marx。"
+      ],
+      "answer": 3,
+      "type": "观点归属",
+      "support": "explicit",
+      "analyses": [
+        "A 没有日记参与者来源。",
+        "B 不是读者病情或历史。",
+        "C Kai Erikson在下段另有历史演讲，不可前移。",
+        "D Marx argued that...直接标引语归属；强烈批评不当成作者新作身体或心理诊断。"
+      ],
+      "vocabulary": [
+        {
+          "word": "mortifies",
+          "meaning": "折磨；使受损或受压抑（该批评中的措辞）",
+          "context": "此处读引语的强烈批评意义，不据它给实际个体作生理或心理判断。",
+          "example": "The quotation uses mortifies to stress the writer's severe criticism.",
+          "collocations": [
+            "mortifies the body",
+            "ruins the mind"
+          ]
+        }
+      ],
+      "translation": "Marx 进一步担心劳动分工会使劳动者变得愚钝：“它提高劳动的社会生产力，不是为了劳动者，而是为了资本家的利益；而它又是通过使个体劳动者残缺受损来做到这一点的。”Marx 认为，劳动分工“折磨肉体并摧毁心智”。",
+      "evidenceTargetIds": [
+        "c08-s03-p081-05745-s006"
+      ],
+      "evidence": [
+        {
+          "quote": "Marx was further concerned that the division of labor would make laborers simpletons: “It increases the social productive power of labor, not only for the benefit of the capitalist instead of for that of the labourer, but it does this by crippling the individual labourers.” Marx argued that the division of labor “mortifies the body and ruins the mind.”",
+          "sentenceIds": [
+            "c08-s03-p081-05745-s005",
+            "c08-s03-p081-05745-s006"
+          ],
+          "sources": [
+            {
+              "pdfPage": 82,
+              "block": 0,
+              "bbox": [
+                76.99,
+                75,
+                535.01,
+                206.52
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "e8db64e1cdf9642dff439d0964cbbc67fb7a11bad4da5e0f7cdcdac00e011aa9"
+    },
+    {
+      "id": "q-c08-020",
+      "version": 1,
+      "readingUnitId": "c08-s03-p082-02115-r001-003",
+      "chapterId": "c08",
+      "sectionId": "c08-s03",
+      "paragraphId": "c08-s03-p082-02115",
+      "sentenceIds": [
+        "c08-s03-p082-02115-s001",
+        "c08-s03-p082-02115-s002",
+        "c08-s03-p082-02115-s003"
+      ],
+      "passage": "In his presidential address to the American Sociological Association in 1985, Kai Erikson discussed how Marx’s theory of alienation is still relevant in the modern workplace. Specifically, he argued that the key sources of alienation boil down to “those structures in the modern workplace that subdivide labor into narrower and narrower specialties, and, second, those structures in the modern workplace that limit the amount of control workers exercise over the work they do.” Clerical workers are subject to quotas, routines, and constant monitoring by their managers.",
+      "prompt": "Which two workplace features does Erikson identify as key sources of alienation?",
+      "options": [
+        "Narrower specialties and restricted worker control.",
+        "Broader responsibilities and stronger worker control.",
+        "Lower quotas and less managerial monitoring.",
+        "More routine work and complete worker autonomy."
+      ],
+      "answer": 0,
+      "type": "细节",
+      "promptZh": "Erikson 把哪两项工作场所特征视为异化的主要来源？",
+      "optionsZh": [
+        "专业分工越来越窄，工人控制权受限。",
+        "职责更加广泛，工人控制权更强。",
+        "配额减少，管理监督减弱。",
+        "工作更例行化，而工人完全自主。"
+      ],
+      "analyses": [
+        "A narrower and narrower specialties 与 limit...control 是并列的两项结构性来源。",
+        "B 把两者方向都反转了。",
+        "C quotas 和 constant monitoring 是后文例子，不是降低配额和监督。",
+        "D 第一部分接近例子，但 complete autonomy 与限制控制权矛盾。题目考观点定位，不意味着本段以实验确立唯一原因。"
+      ],
+      "evidence": [
+        {
+          "quote": "subdivide labor into narrower and narrower specialties",
+          "sentenceIds": [
+            "c08-s03-p082-02115-s002"
+          ],
+          "sources": [
+            {
+              "pdfPage": 82,
+              "block": 1,
+              "bbox": [
+                76.99,
+                211.5,
+                535.01,
+                401.52
+              ]
+            }
+          ]
+        },
+        {
+          "quote": "limit the amount of control workers exercise over the work they do.",
+          "sentenceIds": [
+            "c08-s03-p082-02115-s002"
+          ],
+          "sources": [
+            {
+              "pdfPage": 82,
+              "block": 1,
+              "bbox": [
+                76.99,
+                211.5,
+                535.01,
+                401.52
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "boil down to",
+          "meaning": "归结为；主要在于",
+          "context": "将异化的主要来源概括为两类工作结构",
+          "example": "The disagreement boils down to who controls the schedule.",
+          "collocations": [
+            "boil down to two factors",
+            "sources boil down to"
+          ]
+        }
+      ],
+      "translation": "1985 年，在美国社会学协会的主席演讲中，Kai Erikson 讨论了 Marx 的异化理论如何仍适用于现代工作场所。具体来说，他认为异化的主要来源归结为“现代工作场所中把劳动细分为越来越狭窄专业的那些结构，以及第二类结构——限制工人对自己所做工作行使多少控制权的结构”。文职人员受到配额、例行程序和管理者持续监督的约束。",
+      "support": "explicit",
+      "editorialStatus": "PDF 第 81–85 页逐题原页核对；固定原句与来源；保留理论推测、调查相关、自报、团队分组、假想工作预测及行为指标的边界；原文连续无重复",
+      "fingerprint": "c85daf08133f30ce375364c6a0c7981a37dc2485e5ccb21dc840ed0cfa1ba3ab"
+    },
+    {
+      "id": "qe-c08-0026",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-029",
+      "parentQuestionId": "q-c08-020",
+      "chapterId": "c08",
+      "sectionId": "c08-s03",
+      "paragraphId": "c08-s03-p082-02115",
+      "readingUnitId": "c08-s03-p082-02115-r001-003",
+      "sentenceIds": [
+        "c08-s03-p082-02115-s001",
+        "c08-s03-p082-02115-s002",
+        "c08-s03-p082-02115-s003"
+      ],
+      "passage": "In his presidential address to the American Sociological Association in 1985, Kai Erikson discussed how Marx’s theory of alienation is still relevant in the modern workplace. Specifically, he argued that the key sources of alienation boil down to “those structures in the modern workplace that subdivide labor into narrower and narrower specialties, and, second, those structures in the modern workplace that limit the amount of control workers exercise over the work they do.” Clerical workers are subject to quotas, routines, and constant monitoring by their managers.",
+      "prompt": "Which setting is given for Kai Erikson's discussion?",
+      "promptZh": "Kai Erikson 的讨论被放在哪个场合？",
+      "options": [
+        "Erik Erikson's lecture defining playfulness in 1980.",
+        "Adam Smith's original 1776 pin-factory visit.",
+        "His 1985 presidential address to the American Sociological Association.",
+        "A present-day clinical session held for every factory worker."
+      ],
+      "optionsZh": [
+        "Erik Erikson在1980年定义玩心的讲座。",
+        "Adam Smith1776年首次针厂访问。",
+        "1985年对美国社会学协会的主席演讲。",
+        "对每位工厂工人进行的当代临床会谈。"
+      ],
+      "answer": 2,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A Kai Erikson与前章Erik Erikson姓名不可混同，本句也未给该1980玩心讲座。",
+        "B 不是Smith例子或1776年。",
+        "C In his presidential address...in1985明确人物、组织及时间；presidential在此非美国总统国情演说。",
+        "D 理论相关性讨论不是全体工人的新临床会谈，也不以modern一词冒称当前已核验。"
+      ],
+      "vocabulary": [
+        {
+          "word": "presidential address",
+          "meaning": "协会主席演讲；会长致辞",
+          "context": "由to the American Sociological Association限定组织角色，不是指美国国家总统。",
+          "example": "The association published its presidential address after the meeting.",
+          "collocations": [
+            "presidential address to an association",
+            "Marx's theory of alienation"
+          ]
+        }
+      ],
+      "translation": "1985 年，在美国社会学协会的主席演讲中，Kai Erikson 讨论了 Marx 的异化理论如何仍适用于现代工作场所。具体来说，他认为异化的主要来源归结为“现代工作场所中把劳动细分为越来越狭窄专业的那些结构，以及第二类结构——限制工人对自己所做工作行使多少控制权的结构”。文职人员受到配额、例行程序和管理者持续监督的约束。",
+      "evidenceTargetIds": [
+        "c08-s03-p082-02115-s001"
+      ],
+      "evidence": [
+        {
+          "quote": "In his presidential address to the American Sociological Association in 1985, Kai Erikson discussed how Marx’s theory of alienation is still relevant in the modern workplace.",
+          "sentenceIds": [
+            "c08-s03-p082-02115-s001"
+          ],
+          "sources": [
+            {
+              "pdfPage": 82,
+              "block": 1,
+              "bbox": [
+                76.99,
+                211.5,
+                535.01,
+                401.52
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "7be0cad5aad74d3bb42f58d5ed51aa56fb66b35165b7c973bb04fb291b25367e"
+    },
+    {
+      "id": "qe-c08-0027",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-030",
+      "parentQuestionId": "q-c08-020",
+      "chapterId": "c08",
+      "sectionId": "c08-s03",
+      "paragraphId": "c08-s03-p082-02115",
+      "readingUnitId": "c08-s03-p082-02115-r001-003",
+      "sentenceIds": [
+        "c08-s03-p082-02115-s001",
+        "c08-s03-p082-02115-s002",
+        "c08-s03-p082-02115-s003"
+      ],
+      "passage": "In his presidential address to the American Sociological Association in 1985, Kai Erikson discussed how Marx’s theory of alienation is still relevant in the modern workplace. Specifically, he argued that the key sources of alienation boil down to “those structures in the modern workplace that subdivide labor into narrower and narrower specialties, and, second, those structures in the modern workplace that limit the amount of control workers exercise over the work they do.” Clerical workers are subject to quotas, routines, and constant monitoring by their managers.",
+      "prompt": "What conditions are said to constrain clerical workers?",
+      "promptZh": "文职人员被说成受到哪些条件约束？",
+      "options": [
+        "Only self-chosen tasks with no supervision.",
+        "No routines and unlimited control in every workplace.",
+        "Quotas, routines, and constant managerial monitoring.",
+        "Only the time of the association's presidential speech."
+      ],
+      "optionsZh": [
+        "只有自选任务、没有监督。",
+        "每个工作场所无惯例且无限控制。",
+        "配额、例行程序和管理者持续监督。",
+        "仅协会主席演讲时间。"
+      ],
+      "answer": 2,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A subject to...monitoring与无监督相反。",
+        "B 原句列routines，未说无限控制。",
+        "C 三个并列名词组完整对应，their managers为监督者。",
+        "D 职场约束不是演讲时间；不把概述当每位文职人员都完全相同的经历。"
+      ],
+      "vocabulary": [
+        {
+          "word": "are subject to",
+          "meaning": "受制于；受到……约束",
+          "context": "与quotas等连用，非指这些工人就是研究课题的唯一意思。",
+          "example": "The staff are subject to regular reporting requirements.",
+          "collocations": [
+            "subject to quotas",
+            "constant monitoring"
+          ]
+        }
+      ],
+      "translation": "1985 年，在美国社会学协会的主席演讲中，Kai Erikson 讨论了 Marx 的异化理论如何仍适用于现代工作场所。具体来说，他认为异化的主要来源归结为“现代工作场所中把劳动细分为越来越狭窄专业的那些结构，以及第二类结构——限制工人对自己所做工作行使多少控制权的结构”。文职人员受到配额、例行程序和管理者持续监督的约束。",
+      "evidenceTargetIds": [
+        "c08-s03-p082-02115-s003"
+      ],
+      "evidence": [
+        {
+          "quote": "In his presidential address to the American Sociological Association in 1985, Kai Erikson discussed how Marx’s theory of alienation is still relevant in the modern workplace. Specifically, he argued that the key sources of alienation boil down to “those structures in the modern workplace that subdivide labor into narrower and narrower specialties, and, second, those structures in the modern workplace that limit the amount of control workers exercise over the work they do.” Clerical workers are subject to quotas, routines, and constant monitoring by their managers.",
+          "sentenceIds": [
+            "c08-s03-p082-02115-s001",
+            "c08-s03-p082-02115-s002",
+            "c08-s03-p082-02115-s003"
+          ],
+          "sources": [
+            {
+              "pdfPage": 82,
+              "block": 1,
+              "bbox": [
+                76.99,
+                211.5,
+                535.01,
+                401.52
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "f69bd0db8e6476ab85774e84ab83b81fdbecd53eba2e42be44870aacfa57ba3c"
+    },
+    {
+      "id": "q-c08-022",
+      "version": 1,
+      "readingUnitId": "c08-s03-p082-04065-r001-003",
+      "chapterId": "c08",
+      "sectionId": "c08-s03",
+      "paragraphId": "c08-s03-p082-04065",
+      "sentenceIds": [
+        "c08-s03-p082-04065-s001",
+        "c08-s03-p082-04065-s002",
+        "c08-s03-p082-04065-s003"
+      ],
+      "passage": "Sociologist Melvin Kohn found some evidence in support of Marx’s speculations. For instance, he looked at survey data from 3,101 Americans employed in civilian occupations. He measured three dimensions of labor: closeness of supervision, routinization of work, and substantive complexity of work, as well as four specific aspects of alienation: powerlessness, self-estrangement, normlessness, and cultural estrangement.",
+      "prompt": "What did Kohn’s study examine in the survey sample?",
+      "options": [
+        "Only productivity and wages among factory managers.",
+        "Three labor dimensions and four alienation aspects among 3,101 employed Americans.",
+        "Four labor dimensions and three alienation aspects among 3,101 students.",
+        "A randomized change of supervision among all American workers."
+      ],
+      "answer": 1,
+      "type": "细节",
+      "promptZh": "Kohn 的研究在调查样本中考察了什么？",
+      "optionsZh": [
+        "只考察工厂经理的产出与工资。",
+        "在 3,101 名就业美国人中考察三项劳动维度与四项异化方面。",
+        "在 3,101 名学生中考察四项劳动维度与三项异化方面。",
+        "随机改变全体美国工人的监督方式。"
+      ],
+      "analyses": [
+        "A 列出的指标是监督、例行化、复杂性及异化，非仅工资产出，也没限定工厂经理。",
+        "B 三项劳动维度、四项异化方面与 3,101 Americans employed in civilian occupations 均匹配。",
+        "C 对调三和四，还把就业样本换成学生。",
+        "D survey data 不等于随机干预；样本不等于全体工人。some evidence 支持理论，不是彻底证明全部推测。"
+      ],
+      "evidence": [
+        {
+          "quote": "survey data from 3,101 Americans employed in civilian occupations.",
+          "sentenceIds": [
+            "c08-s03-p082-04065-s002"
+          ],
+          "sources": [
+            {
+              "pdfPage": 82,
+              "block": 2,
+              "bbox": [
+                76.99,
+                406.5,
+                535.01,
+                596.52
+              ]
+            }
+          ]
+        },
+        {
+          "quote": "three dimensions of labor",
+          "sentenceIds": [
+            "c08-s03-p082-04065-s003"
+          ],
+          "sources": [
+            {
+              "pdfPage": 82,
+              "block": 2,
+              "bbox": [
+                76.99,
+                406.5,
+                535.01,
+                596.52
+              ]
+            }
+          ]
+        },
+        {
+          "quote": "four specific aspects of alienation",
+          "sentenceIds": [
+            "c08-s03-p082-04065-s003"
+          ],
+          "sources": [
+            {
+              "pdfPage": 82,
+              "block": 2,
+              "bbox": [
+                76.99,
+                406.5,
+                535.01,
+                596.52
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "substantive complexity",
+          "meaning": "实质复杂性",
+          "context": "描述工作本身的内容是否复杂，是所测三项劳动维度之一",
+          "example": "The study compared jobs with different levels of substantive complexity.",
+          "collocations": [
+            "substantive complexity of work",
+            "measure work complexity"
+          ]
+        }
+      ],
+      "translation": "社会学家 Melvin Kohn 找到了一些支持 Marx 推测的证据。例如，他研究了 3,101 名从事非军职工作的美国人的调查数据。他测量了劳动的三个维度：监督的严密程度、工作的例行化程度和工作的实质复杂性；还测量了异化的四个具体方面：无力感、自我疏离、失范和文化疏离。",
+      "support": "explicit",
+      "editorialStatus": "PDF 第 81–85 页逐题原页核对；固定原句与来源；保留理论推测、调查相关、自报、团队分组、假想工作预测及行为指标的边界；原文连续无重复",
+      "fingerprint": "dc89cb98e69167838d24cc25439a58087eab00f3e0b23316a33428912686cea6"
+    },
+    {
+      "id": "qe-c08-0028",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-030",
+      "parentQuestionId": "q-c08-022",
+      "chapterId": "c08",
+      "sectionId": "c08-s03",
+      "paragraphId": "c08-s03-p082-04065",
+      "readingUnitId": "c08-s03-p082-04065-r001-003",
+      "sentenceIds": [
+        "c08-s03-p082-04065-s001",
+        "c08-s03-p082-04065-s002",
+        "c08-s03-p082-04065-s003"
+      ],
+      "passage": "Sociologist Melvin Kohn found some evidence in support of Marx’s speculations. For instance, he looked at survey data from 3,101 Americans employed in civilian occupations. He measured three dimensions of labor: closeness of supervision, routinization of work, and substantive complexity of work, as well as four specific aspects of alienation: powerlessness, self-estrangement, normlessness, and cultural estrangement.",
+      "prompt": "What strength of support does Kohn's finding provide in this introduction?",
+      "promptZh": "引言说 Kohn 的发现提供什么强度的支持？",
+      "options": [
+        "Some survey-based evidence supporting Marx's speculations.",
+        "Complete proof of every part of Marx's theory in every society.",
+        "A new randomised clinical test treating all workers.",
+        "No evidence of any kind about work and alienation."
+      ],
+      "optionsZh": [
+        "一些基于调查的证据支持Marx推测。",
+        "对Marx全部理论在各社会的完整证明。",
+        "为全体工人治疗的新随机临床试验。",
+        "完全没有关于工作与异化的任何证据。"
+      ],
+      "answer": 0,
+      "type": "语气与范围",
+      "support": "explicit",
+      "analyses": [
+        "A some evidence及随后3,101人surveydata明确程度与资料类型。",
+        "B some非所有理论完整普遍证明。",
+        "C 调查数据不是给所有人随机治疗。",
+        "D foundsomeevidence不能改成零；当前所述为非军职美国雇员样本，不推广全部人口。"
+      ],
+      "vocabulary": [
+        {
+          "word": "in support of",
+          "meaning": "支持……；为……提供证据",
+          "context": "不等于已证明全部细节，也不同于反对或忽略。",
+          "example": "The survey provided some evidence in support of the hypothesis.",
+          "collocations": [
+            "evidence in support of",
+            "Marx's speculations"
+          ]
+        }
+      ],
+      "translation": "社会学家 Melvin Kohn 找到了一些支持 Marx 推测的证据。例如，他研究了 3,101 名从事非军职工作的美国人的调查数据。他测量了劳动的三个维度：监督的严密程度、工作的例行化程度和工作的实质复杂性；还测量了异化的四个具体方面：无力感、自我疏离、失范和文化疏离。",
+      "evidenceTargetIds": [
+        "c08-s03-p082-04065-s001"
+      ],
+      "evidence": [
+        {
+          "quote": "Sociologist Melvin Kohn found some evidence in support of Marx’s speculations. For instance, he looked at survey data from 3,101 Americans employed in civilian occupations. He measured three dimensions of labor: closeness of supervision, routinization of work, and substantive complexity of work, as well as four specific aspects of alienation: powerlessness, self-estrangement, normlessness, and cultural estrangement.",
+          "sentenceIds": [
+            "c08-s03-p082-04065-s001",
+            "c08-s03-p082-04065-s002",
+            "c08-s03-p082-04065-s003"
+          ],
+          "sources": [
+            {
+              "pdfPage": 82,
+              "block": 2,
+              "bbox": [
+                76.99,
+                406.5,
+                535.01,
+                596.52
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "3c63512dcf3ee167264e29fde62818413efa72db3f995055f34e0707d93b1267"
+    }
+  ]
+}
