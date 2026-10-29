@@ -1,0 +1,1880 @@
+{
+  "schemaVersion": 1,
+  "batchId": "question-review-2026-10-28-089",
+  "sourceCommit": "3a9eee9d356450f0450e1f3fde365e8b4cda74c1",
+  "pdfSha256": "be25c859f1bd894a4b0d1cff024ded1297f6a96a8e8ddabea1e3abcf89160a50",
+  "frozenAt": "2026-10-29T14:48:25.945Z",
+  "questions": [
+    {
+      "id": "q-c10-027",
+      "version": 1,
+      "readingUnitId": "c10-s03-p107-03285-r010-011",
+      "chapterId": "c10",
+      "sectionId": "c10-s03",
+      "paragraphId": "c10-s03-p107-03285",
+      "sentenceIds": [
+        "c10-s03-p107-03285-s010",
+        "c10-s03-p107-03285-s011"
+      ],
+      "passage": "In the case of 1,000 potential mates, you would need to look at 30 mates carefully and pick the next one that is better than the best of the first 30. A lot more reasonable than the 37 percent rule.",
+      "prompt": "Which statement restates the rule for 1,000 potential mates?",
+      "options": [
+        "Choose one of the first 30 without comparing later candidates.",
+        "Use the best of the first 30 as a benchmark for a subsequent choice.",
+        "Wait until all 1,000 have been considered before choosing.",
+        "Treat the first 30 as the only acceptable partners."
+      ],
+      "answer": 1,
+      "type": "同义改写",
+      "promptZh": "哪项准确改述 1,000 个候选时的规则？",
+      "optionsZh": [
+        "不比较后来对象，直接选前 30 个之一。",
+        "以前 30 个中最好者为基准，选择后来的对象。",
+        "看完全部 1,000 个才选择。",
+        "只有前 30 个才可接受。"
+      ],
+      "analyses": [
+        "A next one 表示选择在基准组之后。",
+        "B better than the best of the first 30 保留基准与后续选择关系。",
+        "C 无需看遍全部的步骤。",
+        "D 前 30 个用于考察，不是唯一获选范围。末句是作者认为更合理的评价，不是保证每人幸福。"
+      ],
+      "evidence": [
+        {
+          "quote": "look at 30 mates carefully and pick the next one that is better than the best of the first 30.",
+          "sentenceIds": [
+            "c10-s03-p107-03285-s010"
+          ],
+          "sources": [
+            {
+              "pdfPage": 107,
+              "block": 1,
+              "bbox": [
+                76.99,
+                328.5,
+                535.01,
+                655.02
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "reasonable",
+          "meaning": "合理的；切实的",
+          "context": "评价比 37% 的搜索负担更可行",
+          "example": "The revised target seemed more reasonable.",
+          "collocations": [
+            "more reasonable than",
+            "a reasonable search strategy"
+          ]
+        }
+      ],
+      "translation": "若有 1,000 个潜在对象，你需要仔细考察 30 个，再选接下来比前 30 个中最佳者更好的人。这比 37% 规则合理多了。",
+      "support": "explicit",
+      "editorialStatus": "完整PDF106–111原页视觉核对及跨页拼接；CDC关联不作因果保证；100/1000候选、14%/3%与前10%目标分开。费城许可证、荷兰个人筛选与MIT友谊提名单位分开，众数/中位数与测量时点不混用；Cupid为比喻；宿舍随机背景按作者概括保留，不冒充完整随机试验方案。功能距离研究与后续曝光机制实验分开。末段完整审阅含未配题词频比较，未声称全书逐句证据覆盖。",
+      "fingerprint": "61139ba116d3701e3b9baa4fe8a3f17258656d84725482f5f926f3540d24b1ca"
+    },
+    {
+      "id": "qe-c10-0050",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-040",
+      "parentQuestionId": "q-c10-027",
+      "chapterId": "c10",
+      "sectionId": "c10-s03",
+      "paragraphId": "c10-s03-p107-03285",
+      "readingUnitId": "c10-s03-p107-03285-r010-011",
+      "sentenceIds": [
+        "c10-s03-p107-03285-s010",
+        "c10-s03-p107-03285-s011"
+      ],
+      "passage": "In the case of 1,000 potential mates, you would need to look at 30 mates carefully and pick the next one that is better than the best of the first 30. A lot more reasonable than the 37 percent rule.",
+      "prompt": "What does 'A lot more reasonable than the 37 percent rule' evaluate here?",
+      "promptZh": "A lot more reasonable than the 37 percent rule 在这里评价什么？",
+      "options": [
+        "The claim that every real relationship can be guaranteed by a formula.",
+        "A measured physical difference between human and pigeon brains.",
+        "An instruction to ignore all remaining choices after seeing only one person.",
+        "The practicality of the smaller initial search described for the 1,000-option case."
+      ],
+      "optionsZh": [
+        "公式能保证每段真实关系的主张。",
+        "人脑鸟脑之间测得的身体差异。",
+        "只见一人便忽略所有剩余选择的指令。",
+        "所述1,000项情形较小初始搜索量的实际可行性。"
+      ],
+      "answer": 3,
+      "type": "作者意图",
+      "support": "explicit",
+      "analyses": [
+        "A reasonable 是作者比较评价，不是关系结果保证。",
+        "B 此段谈搜索策略，不是脑测量。",
+        "C 前句考察30个并继续选超过样本最佳者，不是一人就停。",
+        "D 在1000潜在选项先看30的说明后作可行性比较，仍属模型应用论述。"
+      ],
+      "vocabulary": [
+        {
+          "word": "reasonable",
+          "meaning": "合理的；在所述条件下较可行的",
+          "context": "评价搜索负担，不自动等于已证每种现实问题绝对最优。",
+          "example": "The shorter initial search seemed more reasonable under the revised goal.",
+          "collocations": [
+            "A lot more reasonable than",
+            "the first 30"
+          ]
+        }
+      ],
+      "translation": "若有 1,000 个潜在对象，你需要仔细考察 30 个，再选接下来比前 30 个中最佳者更好的人。这比 37% 规则合理多了。",
+      "evidenceTargetIds": [
+        "c10-s03-p107-03285-s011"
+      ],
+      "evidence": [
+        {
+          "quote": "In the case of 1,000 potential mates, you would need to look at 30 mates carefully and pick the next one that is better than the best of the first 30. A lot more reasonable than the 37 percent rule.",
+          "sentenceIds": [
+            "c10-s03-p107-03285-s010",
+            "c10-s03-p107-03285-s011"
+          ],
+          "sources": [
+            {
+              "pdfPage": 107,
+              "block": 1,
+              "bbox": [
+                76.99,
+                328.5,
+                535.01,
+                655.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "2a83f20f2dc37c1e19ec19d29c1d9a9e5f1908de37b219ed99e2e6a8b6cc5599"
+    },
+    {
+      "id": "q-c10-028",
+      "version": 1,
+      "readingUnitId": "c10-s03-p107-06600-r001-004",
+      "chapterId": "c10",
+      "sectionId": "c10-s03",
+      "paragraphId": "c10-s03-p107-06600",
+      "sentenceIds": [
+        "c10-s03-p107-06600-s001",
+        "c10-s03-p107-06600-s002",
+        "c10-s03-p107-06600-s003",
+        "c10-s03-p107-06600-s004"
+      ],
+      "passage": "In the end, Todd and Miller argue that the “take a dozen” heuristic, regardless of the problem set, does a pretty good job of finding a top 10 percent option. This means when you next look for a new romantic partner or a new apartment, you had better consider at least a dozen before making a decision. Though it is a lot easier than the 37 percent rule, the “take a dozen” heuristic is still pretty demanding. How do people have twelve serious relationships before marriage?",
+      "prompt": "Why does the author ask about twelve serious relationships?",
+      "options": [
+        "To report that twelve relationships guarantee a successful marriage.",
+        "To show that apartments and partners have identical search costs.",
+        "To question whether a simpler heuristic can still be difficult in practice.",
+        "To claim that Todd and Miller require exactly twelve marriages."
+      ],
+      "answer": 2,
+      "type": "作者意图",
+      "promptZh": "作者为何追问怎样拥有十二段认真交往？",
+      "optionsZh": [
+        "报告十二段关系保证婚姻成功。",
+        "表明找房和择偶成本完全一样。",
+        "质疑较简单的经验规则在现实中仍可能很难。",
+        "称两研究者要求恰好十二次婚姻。"
+      ],
+      "analyses": [
+        "A does a pretty good job 是启发式评价，不是保证。",
+        "B 两种寻找情境作例子，未比较成本相等。",
+        "C Though...easier...still pretty demanding 后的设问突出实践难度。",
+        "D serious relationships 是认真交往，既不是十二次婚姻，也不是精确必须十二。"
+      ],
+      "evidence": [
+        {
+          "quote": "Though it is a lot easier than the 37 percent rule, the “take a dozen” heuristic is still pretty demanding.",
+          "sentenceIds": [
+            "c10-s03-p107-06600-s003"
+          ],
+          "sources": [
+            {
+              "pdfPage": 108,
+              "block": 0,
+              "bbox": [
+                76.99,
+                75,
+                535.01,
+                187.02
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "heuristic",
+          "meaning": "启发式方法；经验规则",
+          "context": "简化搜索的参考方法，不是保证最优的定理",
+          "example": "The team used a simple heuristic to narrow the list.",
+          "collocations": [
+            "a useful heuristic",
+            "the “take a dozen” heuristic"
+          ]
+        }
+      ],
+      "translation": "最终，Todd 和 Miller 认为，无论问题集合如何，“先考察一打”的经验规则在找到前 10% 选项方面表现相当不错。这意味着，下次找新伴侣或新公寓，最好至少考察一打再决定。尽管比 37% 规则容易得多，它仍很苛刻。人们怎么在结婚前拥有十二段认真的交往呢？",
+      "support": "explicit",
+      "editorialStatus": "完整PDF106–111原页视觉核对及跨页拼接；CDC关联不作因果保证；100/1000候选、14%/3%与前10%目标分开。费城许可证、荷兰个人筛选与MIT友谊提名单位分开，众数/中位数与测量时点不混用；Cupid为比喻；宿舍随机背景按作者概括保留，不冒充完整随机试验方案。功能距离研究与后续曝光机制实验分开。末段完整审阅含未配题词频比较，未声称全书逐句证据覆盖。",
+      "fingerprint": "6b7d3ed7b95f06b59d5db2b5d2d2380d7507b472232e989ef16292b71424beb2"
+    },
+    {
+      "id": "qe-c10-0051",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-040",
+      "parentQuestionId": "q-c10-028",
+      "chapterId": "c10",
+      "sectionId": "c10-s03",
+      "paragraphId": "c10-s03-p107-06600",
+      "readingUnitId": "c10-s03-p107-06600-r001-004",
+      "sentenceIds": [
+        "c10-s03-p107-06600-s001",
+        "c10-s03-p107-06600-s002",
+        "c10-s03-p107-06600-s003",
+        "c10-s03-p107-06600-s004"
+      ],
+      "passage": "In the end, Todd and Miller argue that the “take a dozen” heuristic, regardless of the problem set, does a pretty good job of finding a top 10 percent option. This means when you next look for a new romantic partner or a new apartment, you had better consider at least a dozen before making a decision. Though it is a lot easier than the 37 percent rule, the “take a dozen” heuristic is still pretty demanding. How do people have twelve serious relationships before marriage?",
+      "prompt": "What goal is attributed to the 'take a dozen' heuristic?",
+      "promptZh": "take a dozen 经验规则被归述有什么目标？",
+      "options": [
+        "Hiring exactly twelve people at the same time.",
+        "Doing a fairly good job of finding an option in the top ten percent.",
+        "Guaranteeing the single best option in every possible case.",
+        "Proving that no further choice is needed after the twelfth candidate."
+      ],
+      "optionsZh": [
+        "同时恰雇十二人。",
+        "在找到前10%选项方面表现相当不错。",
+        "保证每个可能情形都选唯一最佳。",
+        "证明第十二人之后不再需要选择。"
+      ],
+      "answer": 1,
+      "type": "观点归属",
+      "support": "explicit",
+      "analyses": [
+        "A take a dozen 是先考察的启发规则，不是同时录用数。",
+        "B Todd and Miller argue...pretty good...top10percent 对应归属、强度与成功目标。",
+        "C 较好机会找优质一项不是 guaranteed unique best。",
+        "D 当前没有自动选第12人的规则；不把经验规则写成普遍无条件定理。"
+      ],
+      "vocabulary": [
+        {
+          "word": "heuristic",
+          "meaning": "启发式；经验性简化决策规则",
+          "context": "区别严格保证每次最优的算法或必须遵守的法律。",
+          "example": "The article proposes a heuristic for narrowing the options.",
+          "collocations": [
+            "the take a dozen heuristic",
+            "a top 10 percent option"
+          ]
+        }
+      ],
+      "translation": "最终，Todd 和 Miller 认为，无论问题集合如何，“先考察一打”的经验规则在找到前 10% 选项方面表现相当不错。这意味着，下次找新伴侣或新公寓，最好至少考察一打再决定。尽管比 37% 规则容易得多，它仍很苛刻。人们怎么在结婚前拥有十二段认真的交往呢？",
+      "evidenceTargetIds": [
+        "c10-s03-p107-06600-s001"
+      ],
+      "evidence": [
+        {
+          "quote": "In the end, Todd and Miller argue that the “take a dozen” heuristic, regardless of the problem set, does a pretty good job of finding a top 10 percent option. This means when you next look for a new romantic partner or a new apartment, you had better consider at least a dozen before making a decision.",
+          "sentenceIds": [
+            "c10-s03-p107-06600-s001",
+            "c10-s03-p107-06600-s002"
+          ],
+          "sources": [
+            {
+              "pdfPage": 107,
+              "block": 2,
+              "bbox": [
+                76.99,
+                660,
+                535,
+                713.52
+              ]
+            },
+            {
+              "pdfPage": 108,
+              "block": 0,
+              "bbox": [
+                76.99,
+                75,
+                535.01,
+                187.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "8ab51f2c09d7f25f8dd5f16bb1f97eefac724aa8a21fa77ff5101d28c47c23e2"
+    },
+    {
+      "id": "qe-c10-0052",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-040",
+      "parentQuestionId": "q-c10-028",
+      "chapterId": "c10",
+      "sectionId": "c10-s03",
+      "paragraphId": "c10-s03-p107-06600",
+      "readingUnitId": "c10-s03-p107-06600-r001-004",
+      "sentenceIds": [
+        "c10-s03-p107-06600-s001",
+        "c10-s03-p107-06600-s002",
+        "c10-s03-p107-06600-s003",
+        "c10-s03-p107-06600-s004"
+      ],
+      "passage": "In the end, Todd and Miller argue that the “take a dozen” heuristic, regardless of the problem set, does a pretty good job of finding a top 10 percent option. This means when you next look for a new romantic partner or a new apartment, you had better consider at least a dozen before making a decision. Though it is a lot easier than the 37 percent rule, the “take a dozen” heuristic is still pretty demanding. How do people have twelve serious relationships before marriage?",
+      "prompt": "Which non-romantic search does the author include in applying the heuristic?",
+      "promptZh": "作者应用这一经验规则时，列出哪项非恋爱搜索？",
+      "options": [
+        "Finding a new apartment.",
+        "Choosing a species of bird for a laboratory experiment.",
+        "Checking a film critic's exact review count.",
+        "Selecting the final NBA playoff opponent."
+      ],
+      "optionsZh": [
+        "找新公寓。",
+        "选择实验室鸟种。",
+        "查影评人精确评论数。",
+        "挑 NBA 季后赛最终对手。"
+      ],
+      "answer": 0,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A new romantic partner or a new apartment 两个例中后者明确。",
+        "B 鸟类属于前文不同研究，不在此应用清单。",
+        "C Ebert 是前章例，不是该规则任务。",
+        "D 不是挑体育对手；consider at least a dozen 表最低考察数，非网站要求用户实际租房或拥有十二段关系。"
+      ],
+      "vocabulary": [
+        {
+          "word": "at least a dozen",
+          "meaning": "至少一打；不少于十二个",
+          "context": "在作者应用例中为考察下限，不等于只许精确十二、十二套都购买或十二次婚姻。",
+          "example": "The fictional planner considered at least a dozen options before choosing.",
+          "collocations": [
+            "consider at least a dozen",
+            "before making a decision"
+          ]
+        }
+      ],
+      "translation": "最终，Todd 和 Miller 认为，无论问题集合如何，“先考察一打”的经验规则在找到前 10% 选项方面表现相当不错。这意味着，下次找新伴侣或新公寓，最好至少考察一打再决定。尽管比 37% 规则容易得多，它仍很苛刻。人们怎么在结婚前拥有十二段认真的交往呢？",
+      "evidenceTargetIds": [
+        "c10-s03-p107-06600-s002"
+      ],
+      "evidence": [
+        {
+          "quote": "In the end, Todd and Miller argue that the “take a dozen” heuristic, regardless of the problem set, does a pretty good job of finding a top 10 percent option. This means when you next look for a new romantic partner or a new apartment, you had better consider at least a dozen before making a decision.",
+          "sentenceIds": [
+            "c10-s03-p107-06600-s001",
+            "c10-s03-p107-06600-s002"
+          ],
+          "sources": [
+            {
+              "pdfPage": 107,
+              "block": 2,
+              "bbox": [
+                76.99,
+                660,
+                535,
+                713.52
+              ]
+            },
+            {
+              "pdfPage": 108,
+              "block": 0,
+              "bbox": [
+                76.99,
+                75,
+                535.01,
+                187.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "78688ce0938139108c8a97aa34e74f69f12fc5968a95f68cd9216560b963fa6d"
+    },
+    {
+      "id": "qe-c10-0053",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-041",
+      "parentQuestionId": "q-c10-028",
+      "chapterId": "c10",
+      "sectionId": "c10-s03",
+      "paragraphId": "c10-s03-p107-06600",
+      "readingUnitId": "c10-s03-p107-06600-r001-004",
+      "sentenceIds": [
+        "c10-s03-p107-06600-s001",
+        "c10-s03-p107-06600-s002",
+        "c10-s03-p107-06600-s003",
+        "c10-s03-p107-06600-s004"
+      ],
+      "passage": "In the end, Todd and Miller argue that the “take a dozen” heuristic, regardless of the problem set, does a pretty good job of finding a top 10 percent option. This means when you next look for a new romantic partner or a new apartment, you had better consider at least a dozen before making a decision. Though it is a lot easier than the 37 percent rule, the “take a dozen” heuristic is still pretty demanding. How do people have twelve serious relationships before marriage?",
+      "prompt": "Why ask how people could have twelve serious relationships before marriage?",
+      "promptZh": "为何追问人们怎能婚前有十二段认真关系？",
+      "options": [
+        "To record that every participant actually had twelve marriages.",
+        "To guarantee that the heuristic has no practical burden.",
+        "To highlight the remaining demands of the supposedly simpler heuristic.",
+        "To say the thirty-seven-percent rule requires no search."
+      ],
+      "optionsZh": [
+        "记录每位参与者实际结过十二次婚。",
+        "保证经验规则没有实际负担。",
+        "突出这个较简化经验规则仍然苛刻。",
+        "说37%规则无需搜索。"
+      ],
+      "answer": 2,
+      "type": "作者意图",
+      "support": "explicit",
+      "analyses": [
+        "A serious relationships 不等于十二次婚姻，更不是已发生的全体记录。",
+        "B 前句 still pretty demanding 明说负担。",
+        "C Though easier...still demanding 后的反问将实践难度具体化，不是要求用户完成十二段关系。",
+        "D 原比较说比37%容易，不是后者无搜索；提问未给实际人数调查。"
+      ],
+      "vocabulary": [
+        {
+          "word": "demanding",
+          "meaning": "要求高的；费力的",
+          "context": "形容规则落地负担，不是说每个人都已执行。",
+          "example": "The simplified procedure was still demanding in practice.",
+          "collocations": [
+            "still pretty demanding",
+            "twelve serious relationships"
+          ]
+        }
+      ],
+      "translation": "最终，Todd 和 Miller 认为，无论问题集合如何，“先考察一打”的经验规则在找到前 10% 选项方面表现相当不错。这意味着，下次找新伴侣或新公寓，最好至少考察一打再决定。尽管比 37% 规则容易得多，它仍很苛刻。人们怎么在结婚前拥有十二段认真的交往呢？",
+      "evidenceTargetIds": [
+        "c10-s03-p107-06600-s004"
+      ],
+      "evidence": [
+        {
+          "quote": "In the end, Todd and Miller argue that the “take a dozen” heuristic, regardless of the problem set, does a pretty good job of finding a top 10 percent option. This means when you next look for a new romantic partner or a new apartment, you had better consider at least a dozen before making a decision. Though it is a lot easier than the 37 percent rule, the “take a dozen” heuristic is still pretty demanding. How do people have twelve serious relationships before marriage?",
+          "sentenceIds": [
+            "c10-s03-p107-06600-s001",
+            "c10-s03-p107-06600-s002",
+            "c10-s03-p107-06600-s003",
+            "c10-s03-p107-06600-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 107,
+              "block": 2,
+              "bbox": [
+                76.99,
+                660,
+                535,
+                713.52
+              ]
+            },
+            {
+              "pdfPage": 108,
+              "block": 0,
+              "bbox": [
+                76.99,
+                75,
+                535.01,
+                187.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "12a3517a010183b4b21707dceb111e332eb25337291d6e0442bb8ba2542f20fd"
+    },
+    {
+      "id": "q-c10-030",
+      "version": 1,
+      "readingUnitId": "c10-s04-p108-02430-r001-003",
+      "chapterId": "c10",
+      "sectionId": "c10-s04",
+      "paragraphId": "c10-s04-p108-02430",
+      "sentenceIds": [
+        "c10-s04-p108-02430-s001",
+        "c10-s04-p108-02430-s002",
+        "c10-s04-p108-02430-s003"
+      ],
+      "passage": "If Kepler and the statisticians above have figured out the optimal solution to many of our decisions, why don’t we explore more? Aside from search cost and rejection probability, what else is key? And can it tell us something about the psychologically rich life?",
+      "prompt": "What question organizes this short passage?",
+      "options": [
+        "How to calculate a new exact search percentage.",
+        "Whether all decisions have already been experimentally solved.",
+        "Why rejection never affects real choices.",
+        "What besides cost and possible rejection may explain limited exploration."
+      ],
+      "answer": 3,
+      "type": "主旨",
+      "promptZh": "本短段围绕什么问题？",
+      "optionsZh": [
+        "如何计算新的精确搜索比例。",
+        "是否所有决策都已被实验解决。",
+        "为何拒绝从不影响选择。",
+        "成本和拒绝风险之外，什么解释探索不足。"
+      ],
+      "analyses": [
+        "A 没有新比例计算。",
+        "B If 是设问前提，不是全部问题已解决的结论。",
+        "C Aside from 承认已有这两因素，不是否认。",
+        "D why don’t we explore more 与 what else is key 概括中心，并连向心理丰富人生。"
+      ],
+      "evidence": [
+        {
+          "quote": "Aside from search cost and rejection probability, what else is key?",
+          "sentenceIds": [
+            "c10-s04-p108-02430-s002"
+          ],
+          "sources": [
+            {
+              "pdfPage": 108,
+              "block": 2,
+              "bbox": [
+                76.99,
+                243,
+                535,
+                316.02
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "Aside from",
+          "meaning": "除了……之外",
+          "context": "暂把已讨论的因素放一边，追问其他解释",
+          "example": "Aside from time, access also affects exploration.",
+          "collocations": [
+            "aside from cost",
+            "aside from these factors"
+          ]
+        }
+      ],
+      "translation": "如果 Kepler 和上述统计学家已找出许多决策的最优解，我们为何不多探索？除了搜索成本与被拒概率，还有什么关键因素？它能告诉我们关于心理丰富人生的什么呢？",
+      "support": "explicit",
+      "editorialStatus": "完整PDF106–111原页视觉核对及跨页拼接；CDC关联不作因果保证；100/1000候选、14%/3%与前10%目标分开。费城许可证、荷兰个人筛选与MIT友谊提名单位分开，众数/中位数与测量时点不混用；Cupid为比喻；宿舍随机背景按作者概括保留，不冒充完整随机试验方案。功能距离研究与后续曝光机制实验分开。末段完整审阅含未配题词频比较，未声称全书逐句证据覆盖。",
+      "fingerprint": "b9716312f9a1881f4f8263e01f5322a2be2c56ad958a4f04befcdb21e10adb83"
+    },
+    {
+      "id": "qe-c10-0054",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-041",
+      "parentQuestionId": "q-c10-030",
+      "chapterId": "c10",
+      "sectionId": "c10-s04",
+      "paragraphId": "c10-s04-p108-02430",
+      "readingUnitId": "c10-s04-p108-02430-r001-003",
+      "sentenceIds": [
+        "c10-s04-p108-02430-s001",
+        "c10-s04-p108-02430-s002",
+        "c10-s04-p108-02430-s003"
+      ],
+      "passage": "If Kepler and the statisticians above have figured out the optimal solution to many of our decisions, why don’t we explore more? Aside from search cost and rejection probability, what else is key? And can it tell us something about the psychologically rich life?",
+      "prompt": "What problem is raised by asking why people do not explore more?",
+      "promptZh": "问人们为何不多探索，提出什么问题？",
+      "options": [
+        "Why actual behaviour may fall short of the proposed optimal search approach.",
+        "Why Kepler was not a mathematician at all.",
+        "Why every real person has already followed the model perfectly.",
+        "Why no practical influence other than mathematics can exist."
+      ],
+      "optionsZh": [
+        "现实行为为何可能没有充分采用所述最优搜索方式。",
+        "Kepler 为何完全不是数学家。",
+        "每个人为何已完美遵循模型。",
+        "为何数学之外不可能有实践影响。"
+      ],
+      "answer": 0,
+      "type": "篇章结构",
+      "support": "explicit",
+      "analyses": [
+        "A If...optimal solution 与 why don’t we explore more 对比理论与行为，后面追问其他关键因素。",
+        "B 不否认其数学身份。",
+        "C 问句恰是对行为不足的追问，不能改成全已做到。",
+        "D Aside from costs/rejection 问 what else，正承认还有影响，不是排除全部其他因素。"
+      ],
+      "vocabulary": [
+        {
+          "word": "Aside from",
+          "meaning": "除……之外；撇开已提因素再看",
+          "context": "这里承认搜索成本、拒绝概率后追问其他关键因素，不是说两者不重要。",
+          "example": "Aside from cost, the discussion considers opportunities for meeting people.",
+          "collocations": [
+            "Aside from search cost and rejection probability",
+            "what else is key"
+          ]
+        }
+      ],
+      "translation": "如果 Kepler 和上述统计学家已找出许多决策的最优解，我们为何不多探索？除了搜索成本与被拒概率，还有什么关键因素？它能告诉我们关于心理丰富人生的什么呢？",
+      "evidenceTargetIds": [
+        "c10-s04-p108-02430-s001"
+      ],
+      "evidence": [
+        {
+          "quote": "If Kepler and the statisticians above have figured out the optimal solution to many of our decisions, why don’t we explore more? Aside from search cost and rejection probability, what else is key? And can it tell us something about the psychologically rich life?",
+          "sentenceIds": [
+            "c10-s04-p108-02430-s001",
+            "c10-s04-p108-02430-s002",
+            "c10-s04-p108-02430-s003"
+          ],
+          "sources": [
+            {
+              "pdfPage": 108,
+              "block": 2,
+              "bbox": [
+                76.99,
+                243,
+                535,
+                316.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "7011ad2d21096dbda5fadf20ae2c72c5c6a0600d80ee4d5d59e430fdf339c78c"
+    },
+    {
+      "id": "qe-c10-0055",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-041",
+      "parentQuestionId": "q-c10-030",
+      "chapterId": "c10",
+      "sectionId": "c10-s04",
+      "paragraphId": "c10-s04-p108-02430",
+      "readingUnitId": "c10-s04-p108-02430-r001-003",
+      "sentenceIds": [
+        "c10-s04-p108-02430-s001",
+        "c10-s04-p108-02430-s002",
+        "c10-s04-p108-02430-s003"
+      ],
+      "passage": "If Kepler and the statisticians above have figured out the optimal solution to many of our decisions, why don’t we explore more? Aside from search cost and rejection probability, what else is key? And can it tell us something about the psychologically rich life?",
+      "prompt": "What does the final question link the search discussion to?",
+      "promptZh": "末尾问句把搜索讨论连到什么？",
+      "options": [
+        "The idea that search costs alone already explain every pattern of human choice.",
+        "A claim that every dating decision is already guaranteed correct.",
+        "The exact legal procedure for applying for a marriage licence today.",
+        "The broader issue of a psychologically rich life."
+      ],
+      "optionsZh": [
+        "仅搜索成本已经解释人类所有选择模式的看法。",
+        "每次约会决定已保证正确的主张。",
+        "今天申请结婚许可的精确法律流程。",
+        "心理丰富人生这个更广议题。"
+      ],
+      "answer": 3,
+      "type": "篇章结构",
+      "support": "explicit",
+      "analyses": [
+        "A 上一问 aside from costs/rejection 追问还有什么，末问再联系心理丰富人生，并非宣布成本独占解释。",
+        "B can it tell us... 是待探索问题，不是结果保证。",
+        "C 不讨论当前法律手续。",
+        "D psychologically rich life 原文明示，将决策主题拉回全书关注；不凭当前短段预先指定下一段结论。"
+      ],
+      "vocabulary": [
+        {
+          "word": "tell us something about",
+          "meaning": "给我们某方面启示；帮助理解",
+          "context": "此处为研究意义联系，不表示所有心理丰富机制已被证明。",
+          "example": "The pattern may tell us something about how choices are constrained.",
+          "collocations": [
+            "tell us something about",
+            "the psychologically rich life"
+          ]
+        }
+      ],
+      "translation": "如果 Kepler 和上述统计学家已找出许多决策的最优解，我们为何不多探索？除了搜索成本与被拒概率，还有什么关键因素？它能告诉我们关于心理丰富人生的什么呢？",
+      "evidenceTargetIds": [
+        "c10-s04-p108-02430-s003"
+      ],
+      "evidence": [
+        {
+          "quote": "If Kepler and the statisticians above have figured out the optimal solution to many of our decisions, why don’t we explore more? Aside from search cost and rejection probability, what else is key? And can it tell us something about the psychologically rich life?",
+          "sentenceIds": [
+            "c10-s04-p108-02430-s001",
+            "c10-s04-p108-02430-s002",
+            "c10-s04-p108-02430-s003"
+          ],
+          "sources": [
+            {
+              "pdfPage": 108,
+              "block": 2,
+              "bbox": [
+                76.99,
+                243,
+                535,
+                316.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "be41c4cde7ef3f3ecf80fda3053214c523afb72c5359b51f36eff7cb1360b8cf"
+    },
+    {
+      "id": "q-c10-031",
+      "version": 1,
+      "readingUnitId": "c10-s04-p108-03210-r001-004",
+      "chapterId": "c10",
+      "sectionId": "c10-s04",
+      "paragraphId": "c10-s04-p108-03210",
+      "sentenceIds": [
+        "c10-s04-p108-03210-s001",
+        "c10-s04-p108-03210-s002",
+        "c10-s04-p108-03210-s003",
+        "c10-s04-p108-03210-s004"
+      ],
+      "passage": "An answer might lie in sociology and social psychology. James Bossard, a sociologist at the University of Pennsylvania, obtained 5,000 marriage licenses submitted in Philadelphia and surrounding counties in 1931, and examined where the pairs had lived at the time of application. In order to learn about the geography of marriage in Philadelphia, Bossard wanted to see how far people lived from each other before they decided to get married. If bachelors and bachelorettes explored their options widely, many would marry someone who lived far away from them.",
+      "prompt": "What did Bossard examine in the marriage licenses?",
+      "options": [
+        "How satisfied each couple was after fifty years.",
+        "Where each partner had lived when applying.",
+        "Whether online dating caused their marriage.",
+        "The number of rejected proposals per applicant."
+      ],
+      "answer": 1,
+      "type": "细节",
+      "promptZh": "Bossard 在结婚许可资料中考察什么？",
+      "optionsZh": [
+        "五十年后婚姻满意度。",
+        "双方提出申请时住在哪里。",
+        "网恋是否导致结婚。",
+        "每位申请者求婚被拒次数。"
+      ],
+      "analyses": [
+        "A 未报告长期满意度追踪。",
+        "B examined where...at the time of application 明示住址与时点。",
+        "C 资料是 1931 年，当前片段也没网恋变量。",
+        "D 未记录求婚拒绝次数。5,000 是许可证数，不是每人的候选人数。"
+      ],
+      "evidence": [
+        {
+          "quote": "obtained 5,000 marriage licenses submitted in Philadelphia and surrounding counties in 1931, and examined where the pairs had lived at the time of application.",
+          "sentenceIds": [
+            "c10-s04-p108-03210-s002"
+          ],
+          "sources": [
+            {
+              "pdfPage": 108,
+              "block": 3,
+              "bbox": [
+                76.99,
+                321,
+                535.01,
+                472.02
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "licenses",
+          "meaning": "许可证；执照",
+          "context": "这里是结婚许可资料，提供配对和住址信息",
+          "example": "The researcher examined historical marriage licenses.",
+          "collocations": [
+            "marriage licenses",
+            "submit a license application"
+          ]
+        }
+      ],
+      "translation": "答案也许在社会学和社会心理学中。宾夕法尼亚大学社会学家 James Bossard 获得 1931 年费城及周边各县提交的 5,000 份结婚许可，考察双方申请时的住址。为了解费城婚姻的地理分布，他想看人们决定结婚前相隔多远。如果单身男女广泛探索，许多人就会与住得很远的人结婚。",
+      "support": "explicit",
+      "editorialStatus": "完整PDF106–111原页视觉核对及跨页拼接；CDC关联不作因果保证；100/1000候选、14%/3%与前10%目标分开。费城许可证、荷兰个人筛选与MIT友谊提名单位分开，众数/中位数与测量时点不混用；Cupid为比喻；宿舍随机背景按作者概括保留，不冒充完整随机试验方案。功能距离研究与后续曝光机制实验分开。末段完整审阅含未配题词频比较，未声称全书逐句证据覆盖。",
+      "fingerprint": "19e1845eca1ed9d09a85b1dd4ff28587add8bb9c84fdd420286dd266062b8522"
+    },
+    {
+      "id": "qe-c10-0056",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-041",
+      "parentQuestionId": "q-c10-031",
+      "chapterId": "c10",
+      "sectionId": "c10-s04",
+      "paragraphId": "c10-s04-p108-03210",
+      "readingUnitId": "c10-s04-p108-03210-r001-004",
+      "sentenceIds": [
+        "c10-s04-p108-03210-s001",
+        "c10-s04-p108-03210-s002",
+        "c10-s04-p108-03210-s003",
+        "c10-s04-p108-03210-s004"
+      ],
+      "passage": "An answer might lie in sociology and social psychology. James Bossard, a sociologist at the University of Pennsylvania, obtained 5,000 marriage licenses submitted in Philadelphia and surrounding counties in 1931, and examined where the pairs had lived at the time of application. In order to learn about the geography of marriage in Philadelphia, Bossard wanted to see how far people lived from each other before they decided to get married. If bachelors and bachelorettes explored their options widely, many would marry someone who lived far away from them.",
+      "prompt": "How does 'An answer might lie in sociology and social psychology' frame the next discussion?",
+      "promptZh": "An answer might lie in sociology and social psychology 怎样框定后文？",
+      "options": [
+        "As a certainty that all statistical models are irrelevant.",
+        "As a possible explanation to be sought through those social-science perspectives.",
+        "As a confirmed claim that every marriage is determined by one law.",
+        "As an instruction to ignore every observation of where people live."
+      ],
+      "optionsZh": [
+        "确定所有统计模型都无关。",
+        "可能从这些社会科学视角寻求解释。",
+        "已确认每段婚姻由一条定律决定。",
+        "要求忽略人们住址的所有观察。"
+      ],
+      "answer": 1,
+      "type": "语气与范围",
+      "support": "explicit",
+      "analyses": [
+        "A 转入其他视角不等于抹去所有模型。",
+        "B might lie 保留解释可能性，接 Bossard 地理婚姻研究。",
+        "C 不是单一决定论确证。",
+        "D 后面正检验居住距离，不是禁止观察。"
+      ],
+      "vocabulary": [
+        {
+          "word": "might lie in",
+          "meaning": "可能在于；答案或解释可能位于某方面",
+          "context": "lie 在此为存在于，不是撒谎或躺下。",
+          "example": "The explanation might lie in the way opportunities are distributed.",
+          "collocations": [
+            "An answer might lie in",
+            "sociology and social psychology"
+          ]
+        }
+      ],
+      "translation": "答案也许在社会学和社会心理学中。宾夕法尼亚大学社会学家 James Bossard 获得 1931 年费城及周边各县提交的 5,000 份结婚许可，考察双方申请时的住址。为了解费城婚姻的地理分布，他想看人们决定结婚前相隔多远。如果单身男女广泛探索，许多人就会与住得很远的人结婚。",
+      "evidenceTargetIds": [
+        "c10-s04-p108-03210-s001"
+      ],
+      "evidence": [
+        {
+          "quote": "An answer might lie in sociology and social psychology. James Bossard, a sociologist at the University of Pennsylvania, obtained 5,000 marriage licenses submitted in Philadelphia and surrounding counties in 1931, and examined where the pairs had lived at the time of application. In order to learn about the geography of marriage in Philadelphia, Bossard wanted to see how far people lived from each other before they decided to get married. If bachelors and bachelorettes explored their options widely, many would marry someone who lived far away from them.",
+          "sentenceIds": [
+            "c10-s04-p108-03210-s001",
+            "c10-s04-p108-03210-s002",
+            "c10-s04-p108-03210-s003",
+            "c10-s04-p108-03210-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 108,
+              "block": 3,
+              "bbox": [
+                76.99,
+                321,
+                535.01,
+                472.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "509dd232caece32d7d92b8b2f61da903b8598ee8ede7a2d4d871f3e76d82e2d8"
+    },
+    {
+      "id": "qe-c10-0057",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-041",
+      "parentQuestionId": "q-c10-031",
+      "chapterId": "c10",
+      "sectionId": "c10-s04",
+      "paragraphId": "c10-s04-p108-03210",
+      "readingUnitId": "c10-s04-p108-03210-r001-004",
+      "sentenceIds": [
+        "c10-s04-p108-03210-s001",
+        "c10-s04-p108-03210-s002",
+        "c10-s04-p108-03210-s003",
+        "c10-s04-p108-03210-s004"
+      ],
+      "passage": "An answer might lie in sociology and social psychology. James Bossard, a sociologist at the University of Pennsylvania, obtained 5,000 marriage licenses submitted in Philadelphia and surrounding counties in 1931, and examined where the pairs had lived at the time of application. In order to learn about the geography of marriage in Philadelphia, Bossard wanted to see how far people lived from each other before they decided to get married. If bachelors and bachelorettes explored their options widely, many would marry someone who lived far away from them.",
+      "prompt": "What did Bossard want to examine before couples decided to marry?",
+      "promptZh": "Bossard 想考察双方决定结婚前的什么？",
+      "options": [
+        "How far apart they had lived.",
+        "Whether every partner had dated exactly twelve people.",
+        "Only the amount of money each partner earned before applying.",
+        "Only the number of guests attending the wedding."
+      ],
+      "optionsZh": [
+        "双方此前住得多远。",
+        "每人是否恰约会十二人。",
+        "只有申请前双方各自收入。",
+        "只有婚礼来宾人数。"
+      ],
+      "answer": 0,
+      "type": "研究设计",
+      "support": "explicit",
+      "analyses": [
+        "A how far people lived from each other before... 明确变量与时间，许可证为资料来源。",
+        "B 模型十二并非本研究测量目标。",
+        "C 所述 geography 与 how far 明确测住址距离，不是仅婚前收入。",
+        "D geography of marriage 不是婚礼宾客名单；5,000份许可不是5,000次实际约会。"
+      ],
+      "vocabulary": [
+        {
+          "word": "the geography of marriage",
+          "meaning": "婚姻形成的地理分布与距离关系",
+          "context": "此处关注双方婚前居住距离，不是婚礼会场布置或当前结婚法律。",
+          "example": "The study used addresses to explore the geography of marriage.",
+          "collocations": [
+            "how far people lived from each other",
+            "before they decided to get married"
+          ]
+        }
+      ],
+      "translation": "答案也许在社会学和社会心理学中。宾夕法尼亚大学社会学家 James Bossard 获得 1931 年费城及周边各县提交的 5,000 份结婚许可，考察双方申请时的住址。为了解费城婚姻的地理分布，他想看人们决定结婚前相隔多远。如果单身男女广泛探索，许多人就会与住得很远的人结婚。",
+      "evidenceTargetIds": [
+        "c10-s04-p108-03210-s003"
+      ],
+      "evidence": [
+        {
+          "quote": "An answer might lie in sociology and social psychology. James Bossard, a sociologist at the University of Pennsylvania, obtained 5,000 marriage licenses submitted in Philadelphia and surrounding counties in 1931, and examined where the pairs had lived at the time of application. In order to learn about the geography of marriage in Philadelphia, Bossard wanted to see how far people lived from each other before they decided to get married. If bachelors and bachelorettes explored their options widely, many would marry someone who lived far away from them.",
+          "sentenceIds": [
+            "c10-s04-p108-03210-s001",
+            "c10-s04-p108-03210-s002",
+            "c10-s04-p108-03210-s003",
+            "c10-s04-p108-03210-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 108,
+              "block": 3,
+              "bbox": [
+                76.99,
+                321,
+                535.01,
+                472.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "e7bfde6525903bdff381dcaef8fe263af61570cfd60b7ee4ef8e0cc22f196821"
+    },
+    {
+      "id": "qe-c10-0058",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-041",
+      "parentQuestionId": "q-c10-031",
+      "chapterId": "c10",
+      "sectionId": "c10-s04",
+      "paragraphId": "c10-s04-p108-03210",
+      "readingUnitId": "c10-s04-p108-03210-r001-004",
+      "sentenceIds": [
+        "c10-s04-p108-03210-s001",
+        "c10-s04-p108-03210-s002",
+        "c10-s04-p108-03210-s003",
+        "c10-s04-p108-03210-s004"
+      ],
+      "passage": "An answer might lie in sociology and social psychology. James Bossard, a sociologist at the University of Pennsylvania, obtained 5,000 marriage licenses submitted in Philadelphia and surrounding counties in 1931, and examined where the pairs had lived at the time of application. In order to learn about the geography of marriage in Philadelphia, Bossard wanted to see how far people lived from each other before they decided to get married. If bachelors and bachelorettes explored their options widely, many would marry someone who lived far away from them.",
+      "prompt": "What expectation follows the hypothetical of people exploring widely?",
+      "promptZh": "人们广泛探索这一假设带来什么预期？",
+      "options": [
+        "Everyone must marry the geographically nearest person.",
+        "No one would ever choose to get married.",
+        "The hypothesis states that all participants already married distant partners.",
+        "Many would marry someone living far away."
+      ],
+      "optionsZh": [
+        "每人必须与地理最近者结婚。",
+        "无人会选择结婚。",
+        "假设说所有参与者实际已与远处人结婚。",
+        "许多人会与住得远的人结婚。"
+      ],
+      "answer": 3,
+      "type": "逻辑关系",
+      "support": "explicit",
+      "analyses": [
+        "A widely 与预测 far away 不支持只最近。",
+        "B 未说探索取消结婚。",
+        "C If...would 是待对照预期，不是已观察结果，many 也非 all。",
+        "D 原文明示作者用于考察广泛探索的条件性预期，不保证每个人距离必远。"
+      ],
+      "vocabulary": [
+        {
+          "word": "widely",
+          "meaning": "广泛地；跨较大范围地",
+          "context": "在此指探索可能对象的范围，不是每次交谈音量或固定数量。",
+          "example": "They searched widely before narrowing the options.",
+          "collocations": [
+            "explored their options widely",
+            "lived far away"
+          ]
+        }
+      ],
+      "translation": "答案也许在社会学和社会心理学中。宾夕法尼亚大学社会学家 James Bossard 获得 1931 年费城及周边各县提交的 5,000 份结婚许可，考察双方申请时的住址。为了解费城婚姻的地理分布，他想看人们决定结婚前相隔多远。如果单身男女广泛探索，许多人就会与住得很远的人结婚。",
+      "evidenceTargetIds": [
+        "c10-s04-p108-03210-s004"
+      ],
+      "evidence": [
+        {
+          "quote": "An answer might lie in sociology and social psychology. James Bossard, a sociologist at the University of Pennsylvania, obtained 5,000 marriage licenses submitted in Philadelphia and surrounding counties in 1931, and examined where the pairs had lived at the time of application. In order to learn about the geography of marriage in Philadelphia, Bossard wanted to see how far people lived from each other before they decided to get married. If bachelors and bachelorettes explored their options widely, many would marry someone who lived far away from them.",
+          "sentenceIds": [
+            "c10-s04-p108-03210-s001",
+            "c10-s04-p108-03210-s002",
+            "c10-s04-p108-03210-s003",
+            "c10-s04-p108-03210-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 108,
+              "block": 3,
+              "bbox": [
+                76.99,
+                321,
+                535.01,
+                472.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "37e366d0d75fdd633b477e7cdcd502978b768e137b7cbde4d4e04701f9208afe"
+    },
+    {
+      "id": "q-c10-032",
+      "version": 1,
+      "readingUnitId": "c10-s04-p108-04770-r001-004",
+      "chapterId": "c10",
+      "sectionId": "c10-s04",
+      "paragraphId": "c10-s04-p108-04770",
+      "sentenceIds": [
+        "c10-s04-p108-04770-s001",
+        "c10-s04-p108-04770-s002",
+        "c10-s04-p108-04770-s003",
+        "c10-s04-p108-04770-s004"
+      ],
+      "passage": "It turned out that Philadelphians in the 1930s found their partners nearby. Only 890 couples, or 17.8 percent, were made up of a partner living in Philadelphia and the other living outside the city before marriage. The remaining 82.2 percent of the couples had lived separately in Philadelphia before marriage. The most famous findings from this research were that over half of the couples had lived within twenty blocks of each other before marriage, and that 33.58 percent of them had lived within five blocks or less!",
+      "prompt": "Which numerical statement accurately describes the findings?",
+      "options": [
+        "82.2 percent had lived together before marriage.",
+        "17.8 percent had both lived outside Philadelphia.",
+        "Over half had lived within twenty blocks of each other.",
+        "33.58 percent had lived more than twenty blocks apart."
+      ],
+      "answer": 2,
+      "type": "细节",
+      "promptZh": "哪项数字描述符合结果？",
+      "optionsZh": [
+        "82.2% 婚前已同居。",
+        "17.8% 双方均住市外。",
+        "超过一半婚前相距不超过二十个街区。",
+        "33.58% 相距超过二十个街区。"
+      ],
+      "analyses": [
+        "A lived separately 是各自居住，并非同居。",
+        "B 17.8% 是一方市内、一方市外。",
+        "C over half...within twenty blocks 直接支持。",
+        "D 33.58% 对应五个街区或更近，不是二十个以上。各百分比描述的范围不能混用。"
+      ],
+      "evidence": [
+        {
+          "quote": "over half of the couples had lived within twenty blocks of each other before marriage",
+          "sentenceIds": [
+            "c10-s04-p108-04770-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 108,
+              "block": 4,
+              "bbox": [
+                76.99,
+                477,
+                535.01,
+                686.52
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "separately",
+          "meaning": "分开地；各自地",
+          "context": "双方都在费城，但婚前各自居住",
+          "example": "The two researchers worked separately before comparing notes.",
+          "collocations": [
+            "live separately",
+            "separately in the same city"
+          ]
+        }
+      ],
+      "translation": "结果表明，1930 年代费城人在附近找到伴侣。只有 890 对，即 17.8%，婚前一方住费城、一方住市外。其余 82.2% 婚前各自住在费城。最著名的结果是，超过一半的夫妻婚前彼此住在二十个街区内，33.58% 相距五个街区或更近！",
+      "support": "explicit",
+      "editorialStatus": "完整PDF106–111原页视觉核对及跨页拼接；CDC关联不作因果保证；100/1000候选、14%/3%与前10%目标分开。费城许可证、荷兰个人筛选与MIT友谊提名单位分开，众数/中位数与测量时点不混用；Cupid为比喻；宿舍随机背景按作者概括保留，不冒充完整随机试验方案。功能距离研究与后续曝光机制实验分开。末段完整审阅含未配题词频比较，未声称全书逐句证据覆盖。",
+      "fingerprint": "f3c2bfe64b2d2380834ac0061f92e4b384db5b8a8dfcbc41af920706b13f832f"
+    },
+    {
+      "id": "qe-c10-0059",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-041",
+      "parentQuestionId": "q-c10-032",
+      "chapterId": "c10",
+      "sectionId": "c10-s04",
+      "paragraphId": "c10-s04-p108-04770",
+      "readingUnitId": "c10-s04-p108-04770-r001-004",
+      "sentenceIds": [
+        "c10-s04-p108-04770-s001",
+        "c10-s04-p108-04770-s002",
+        "c10-s04-p108-04770-s003",
+        "c10-s04-p108-04770-s004"
+      ],
+      "passage": "It turned out that Philadelphians in the 1930s found their partners nearby. Only 890 couples, or 17.8 percent, were made up of a partner living in Philadelphia and the other living outside the city before marriage. The remaining 82.2 percent of the couples had lived separately in Philadelphia before marriage. The most famous findings from this research were that over half of the couples had lived within twenty blocks of each other before marriage, and that 33.58 percent of them had lived within five blocks or less!",
+      "prompt": "What did the 1930s Philadelphia findings show in the author's summary?",
+      "promptZh": "作者概括中，1930年代费城结果显示什么？",
+      "options": [
+        "Most people had moved to the Netherlands before marrying.",
+        "People tended to find partners nearby.",
+        "No couple had lived in the same city before marriage.",
+        "The study proved online dating caused every match."
+      ],
+      "optionsZh": [
+        "多数人婚前搬到荷兰。",
+        "人们倾向在附近找到伴侣。",
+        "没有夫妻婚前在同城住。",
+        "研究证明在线约会导致每次配对。"
+      ],
+      "answer": 1,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A Netherlands 属后面的2004研究，不是本次结果。",
+        "B It turned out...found partners nearby 直接对应。",
+        "C 后文82.2%各自住费城，方向相反。",
+        "D 1930年代研究非现代在线因果实验；总结不代表当今每个城市的必然规律。"
+      ],
+      "vocabulary": [
+        {
+          "word": "nearby",
+          "meaning": "在附近；距离较近地",
+          "context": "与 far away 的广泛探索预期对照，不等于婚前已经住同一屋。",
+          "example": "The records showed that many partners had lived nearby.",
+          "collocations": [
+            "found their partners nearby",
+            "Philadelphians in the 1930s"
+          ]
+        }
+      ],
+      "translation": "结果表明，1930 年代费城人在附近找到伴侣。只有 890 对，即 17.8%，婚前一方住费城、一方住市外。其余 82.2% 婚前各自住在费城。最著名的结果是，超过一半的夫妻婚前彼此住在二十个街区内，33.58% 相距五个街区或更近！",
+      "evidenceTargetIds": [
+        "c10-s04-p108-04770-s001"
+      ],
+      "evidence": [
+        {
+          "quote": "It turned out that Philadelphians in the 1930s found their partners nearby. Only 890 couples, or 17.8 percent, were made up of a partner living in Philadelphia and the other living outside the city before marriage. The remaining 82.2 percent of the couples had lived separately in Philadelphia before marriage. The most famous findings from this research were that over half of the couples had lived within twenty blocks of each other before marriage, and that 33.58 percent of them had lived within five blocks or less!",
+          "sentenceIds": [
+            "c10-s04-p108-04770-s001",
+            "c10-s04-p108-04770-s002",
+            "c10-s04-p108-04770-s003",
+            "c10-s04-p108-04770-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 108,
+              "block": 4,
+              "bbox": [
+                76.99,
+                477,
+                535.01,
+                686.52
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "a72953e8db00dc1fac0079a1a586963b2133e4084c0209b64ae7b62d23aac772"
+    },
+    {
+      "id": "qe-c10-0060",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-041",
+      "parentQuestionId": "q-c10-032",
+      "chapterId": "c10",
+      "sectionId": "c10-s04",
+      "paragraphId": "c10-s04-p108-04770",
+      "readingUnitId": "c10-s04-p108-04770-r001-004",
+      "sentenceIds": [
+        "c10-s04-p108-04770-s001",
+        "c10-s04-p108-04770-s002",
+        "c10-s04-p108-04770-s003",
+        "c10-s04-p108-04770-s004"
+      ],
+      "passage": "It turned out that Philadelphians in the 1930s found their partners nearby. Only 890 couples, or 17.8 percent, were made up of a partner living in Philadelphia and the other living outside the city before marriage. The remaining 82.2 percent of the couples had lived separately in Philadelphia before marriage. The most famous findings from this research were that over half of the couples had lived within twenty blocks of each other before marriage, and that 33.58 percent of them had lived within five blocks or less!",
+      "prompt": "What does the figure of 890 couples, or 17.8 percent, represent?",
+      "promptZh": "890对、17.8%代表什么？",
+      "options": [
+        "Both partners lived outside Philadelphia before marriage.",
+        "Both partners had already lived in the same household.",
+        "One lived in Philadelphia and the other outside the city before marriage.",
+        "All couples who lived within five blocks of one another."
+      ],
+      "optionsZh": [
+        "双方婚前都住费城外。",
+        "双方已同住一户。",
+        "婚前一方住费城、一方住市外。",
+        "所有相距五个街区内的夫妻。"
+      ],
+      "answer": 2,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A 是一内一外，不是双方都外。",
+        "B 地址城市分布不等于已经同住。",
+        "C a partner living in Philadelphia and the other outside 及数字对应。",
+        "D 五街区是后面33.58%，不能把不同距离指标混用。"
+      ],
+      "vocabulary": [
+        {
+          "word": "were made up of",
+          "meaning": "由……组成；包含相应成员",
+          "context": "这里为一内一外的一对，不是编造 made up 的另一词义。",
+          "example": "The group was made up of people from two neighbouring areas.",
+          "collocations": [
+            "couples were made up of",
+            "a partner living in Philadelphia"
+          ]
+        }
+      ],
+      "translation": "结果表明，1930 年代费城人在附近找到伴侣。只有 890 对，即 17.8%，婚前一方住费城、一方住市外。其余 82.2% 婚前各自住在费城。最著名的结果是，超过一半的夫妻婚前彼此住在二十个街区内，33.58% 相距五个街区或更近！",
+      "evidenceTargetIds": [
+        "c10-s04-p108-04770-s002"
+      ],
+      "evidence": [
+        {
+          "quote": "It turned out that Philadelphians in the 1930s found their partners nearby. Only 890 couples, or 17.8 percent, were made up of a partner living in Philadelphia and the other living outside the city before marriage. The remaining 82.2 percent of the couples had lived separately in Philadelphia before marriage. The most famous findings from this research were that over half of the couples had lived within twenty blocks of each other before marriage, and that 33.58 percent of them had lived within five blocks or less!",
+          "sentenceIds": [
+            "c10-s04-p108-04770-s001",
+            "c10-s04-p108-04770-s002",
+            "c10-s04-p108-04770-s003",
+            "c10-s04-p108-04770-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 108,
+              "block": 4,
+              "bbox": [
+                76.99,
+                477,
+                535.01,
+                686.52
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "c74e5a4407f57bf32e71798fc5e5bbe05957f08a34080aa9c32a080961a1d9fe"
+    },
+    {
+      "id": "qe-c10-0061",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-041",
+      "parentQuestionId": "q-c10-032",
+      "chapterId": "c10",
+      "sectionId": "c10-s04",
+      "paragraphId": "c10-s04-p108-04770",
+      "readingUnitId": "c10-s04-p108-04770-r001-004",
+      "sentenceIds": [
+        "c10-s04-p108-04770-s001",
+        "c10-s04-p108-04770-s002",
+        "c10-s04-p108-04770-s003",
+        "c10-s04-p108-04770-s004"
+      ],
+      "passage": "It turned out that Philadelphians in the 1930s found their partners nearby. Only 890 couples, or 17.8 percent, were made up of a partner living in Philadelphia and the other living outside the city before marriage. The remaining 82.2 percent of the couples had lived separately in Philadelphia before marriage. The most famous findings from this research were that over half of the couples had lived within twenty blocks of each other before marriage, and that 33.58 percent of them had lived within five blocks or less!",
+      "prompt": "What does 'had lived separately in Philadelphia' mean for the remaining couples?",
+      "promptZh": "其余夫妻 had lived separately in Philadelphia 是什么意思？",
+      "options": [
+        "Both had separate residences within Philadelphia before marriage.",
+        "They were all divorced before the study began.",
+        "They lived in different cities outside Philadelphia.",
+        "They were already cohabiting at one address in Philadelphia."
+      ],
+      "optionsZh": [
+        "婚前双方各自住在费城市内。",
+        "研究开始前全已离婚。",
+        "在费城外不同城市住。",
+        "已在费城同一地址共同生活。"
+      ],
+      "answer": 0,
+      "type": "语境理解",
+      "support": "explicit",
+      "analyses": [
+        "A separately 表婚前各自住，in Philadelphia 限定同一城市。",
+        "B separately 不是已婚后 separation 或离婚结果。",
+        "C 与 in Philadelphia 相反。",
+        "D 各自住不能等同同地址同居；82.2%是相应城市类别比例，非五街区比例。"
+      ],
+      "vocabulary": [
+        {
+          "word": "separately",
+          "meaning": "分别地；各自地",
+          "context": "此处描述婚前住址，不是已婚双方分居或离婚的法律身份。",
+          "example": "The two future partners had lived separately in the same town.",
+          "collocations": [
+            "had lived separately in Philadelphia",
+            "before marriage"
+          ]
+        }
+      ],
+      "translation": "结果表明，1930 年代费城人在附近找到伴侣。只有 890 对，即 17.8%，婚前一方住费城、一方住市外。其余 82.2% 婚前各自住在费城。最著名的结果是，超过一半的夫妻婚前彼此住在二十个街区内，33.58% 相距五个街区或更近！",
+      "evidenceTargetIds": [
+        "c10-s04-p108-04770-s003"
+      ],
+      "evidence": [
+        {
+          "quote": "It turned out that Philadelphians in the 1930s found their partners nearby. Only 890 couples, or 17.8 percent, were made up of a partner living in Philadelphia and the other living outside the city before marriage. The remaining 82.2 percent of the couples had lived separately in Philadelphia before marriage. The most famous findings from this research were that over half of the couples had lived within twenty blocks of each other before marriage, and that 33.58 percent of them had lived within five blocks or less!",
+          "sentenceIds": [
+            "c10-s04-p108-04770-s001",
+            "c10-s04-p108-04770-s002",
+            "c10-s04-p108-04770-s003",
+            "c10-s04-p108-04770-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 108,
+              "block": 4,
+              "bbox": [
+                76.99,
+                477,
+                535.01,
+                686.52
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "a21fab588dbdcec9ce2ab673bf34128678c89612bc1ad611f320b56d15cfa02a"
+    },
+    {
+      "id": "q-c10-033",
+      "version": 1,
+      "readingUnitId": "c10-s04-p108-04770-r005-007",
+      "chapterId": "c10",
+      "sectionId": "c10-s04",
+      "paragraphId": "c10-s04-p108-04770",
+      "sentenceIds": [
+        "c10-s04-p108-04770-s005",
+        "c10-s04-p108-04770-s006",
+        "c10-s04-p108-04770-s007"
+      ],
+      "passage": "Although eligible bachelors and bachelorettes in a large city like Philadelphia have literally hundreds of thousands of potential mates, the majority of them appeared to consider only those who lived close to them. How else would the majority of matches have been made within twenty city blocks? Reflecting upon his findings, Bossard commented, “Cupid may have wings, but apparently they are not adapted for long flights.”",
+      "prompt": "What does Bossard’s comment about Cupid’s wings illustrate?",
+      "options": [
+        "Partners often came from a restricted local area despite many possible candidates.",
+        "The study measured the actual flight distance of birds.",
+        "Most couples deliberately compared every candidate in the city.",
+        "The city offered very few potential partners in total."
+      ],
+      "answer": 0,
+      "type": "作者意图",
+      "promptZh": "Bossard 关于丘比特翅膀的评论说明什么？",
+      "optionsZh": [
+        "虽有众多潜在人选，伴侣常来自有限的邻近区域。",
+        "研究测量鸟的实际飞行距离。",
+        "多数夫妇刻意比较过全市每个候选。",
+        "全市潜在伴侣总数极少。"
+      ],
+      "analyses": [
+        "A hundreds of thousands 与 only...close 对照，翅膀比喻概括局部配对。",
+        "B Cupid 是引述中的比喻，不是鸟类实验。",
+        "C appeared to consider only 并非核实每人所有考察行为，更不支持全市比较。",
+        "D 城市候选数恰被说成非常多。"
+      ],
+      "evidence": [
+        {
+          "quote": "the majority of them appeared to consider only those who lived close to them.",
+          "sentenceIds": [
+            "c10-s04-p108-04770-s005"
+          ],
+          "sources": [
+            {
+              "pdfPage": 108,
+              "block": 4,
+              "bbox": [
+                76.99,
+                477,
+                535.01,
+                686.52
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "eligible",
+          "meaning": "符合条件的；适宜的",
+          "context": "eligible bachelors and bachelorettes 指适婚单身男女",
+          "example": "The event welcomed eligible applicants from nearby towns.",
+          "collocations": [
+            "eligible bachelors",
+            "eligible candidates"
+          ]
+        }
+      ],
+      "translation": "虽然费城这样的大城市中，适婚单身男女确有数十万潜在伴侣，多数人似乎只考虑住得近的人。否则，怎么会有多数配对出现在二十个街区内？Bossard 回顾结果时评论：“丘比特也许有翅膀，但显然不适合长途飞行。”",
+      "support": "explicit",
+      "editorialStatus": "完整PDF106–111原页视觉核对及跨页拼接；CDC关联不作因果保证；100/1000候选、14%/3%与前10%目标分开。费城许可证、荷兰个人筛选与MIT友谊提名单位分开，众数/中位数与测量时点不混用；Cupid为比喻；宿舍随机背景按作者概括保留，不冒充完整随机试验方案。功能距离研究与后续曝光机制实验分开。末段完整审阅含未配题词频比较，未声称全书逐句证据覆盖。",
+      "fingerprint": "95114cb42dbffe0c0de9ddaa4ca55ac9674d098f9cc7bdbc23d22810f3e14351"
+    },
+    {
+      "id": "qe-c10-0062",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-041",
+      "parentQuestionId": "q-c10-033",
+      "chapterId": "c10",
+      "sectionId": "c10-s04",
+      "paragraphId": "c10-s04-p108-04770",
+      "readingUnitId": "c10-s04-p108-04770-r005-007",
+      "sentenceIds": [
+        "c10-s04-p108-04770-s005",
+        "c10-s04-p108-04770-s006",
+        "c10-s04-p108-04770-s007"
+      ],
+      "passage": "Although eligible bachelors and bachelorettes in a large city like Philadelphia have literally hundreds of thousands of potential mates, the majority of them appeared to consider only those who lived close to them. How else would the majority of matches have been made within twenty city blocks? Reflecting upon his findings, Bossard commented, “Cupid may have wings, but apparently they are not adapted for long flights.”",
+      "prompt": "What does the question about matches within twenty blocks support?",
+      "promptZh": "关于二十个街区内配对的问句支持什么？",
+      "options": [
+        "A conclusion that all matches in the world occur within exactly twenty blocks.",
+        "A denial that geographic proximity could affect opportunities.",
+        "A calculation of the literal flying speed of Cupid.",
+        "The interpretation that many people considered nearby options despite a large potential pool."
+      ],
+      "optionsZh": [
+        "全世界配对都恰在二十街区内的结论。",
+        "否认地理邻近能影响机会。",
+        "丘比特真实飞行速度计算。",
+        "尽管可选群体很大，许多人仍考虑近处对象的解释。"
+      ],
+      "answer": 3,
+      "type": "作者意图",
+      "support": "explicit",
+      "analyses": [
+        "A majority 和当前研究不能变全世界全体或恰二十。",
+        "B 问句为前面 close-to-them 解释服务，不是否认距离。",
+        "C 之后 Cupid 为比喻，不是飞行研究。",
+        "D How else 以已述近距离集中支持作者解释，但不排除文化和接触机会等其他因素。"
+      ],
+      "vocabulary": [
+        {
+          "word": "matches",
+          "meaning": "配对；形成的伴侣组合",
+          "context": "此处非火柴、体育赛或软件精确匹配记录。",
+          "example": "The historical records showed that many matches were local.",
+          "collocations": [
+            "the majority of matches",
+            "within twenty city blocks"
+          ]
+        }
+      ],
+      "translation": "虽然费城这样的大城市中，适婚单身男女确有数十万潜在伴侣，多数人似乎只考虑住得近的人。否则，怎么会有多数配对出现在二十个街区内？Bossard 回顾结果时评论：“丘比特也许有翅膀，但显然不适合长途飞行。”",
+      "evidenceTargetIds": [
+        "c10-s04-p108-04770-s006"
+      ],
+      "evidence": [
+        {
+          "quote": "Although eligible bachelors and bachelorettes in a large city like Philadelphia have literally hundreds of thousands of potential mates, the majority of them appeared to consider only those who lived close to them. How else would the majority of matches have been made within twenty city blocks? Reflecting upon his findings, Bossard commented, “Cupid may have wings, but apparently they are not adapted for long flights.”",
+          "sentenceIds": [
+            "c10-s04-p108-04770-s005",
+            "c10-s04-p108-04770-s006",
+            "c10-s04-p108-04770-s007"
+          ],
+          "sources": [
+            {
+              "pdfPage": 108,
+              "block": 4,
+              "bbox": [
+                76.99,
+                477,
+                535.01,
+                686.52
+              ]
+            },
+            {
+              "pdfPage": 109,
+              "block": 0,
+              "bbox": [
+                76.99,
+                75,
+                535,
+                109.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "b296c3a773186c7efe991f8b7aa2719ba9e6fb4cda115974a9d64128cdf6076e"
+    },
+    {
+      "id": "qe-c10-0063",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-041",
+      "parentQuestionId": "q-c10-033",
+      "chapterId": "c10",
+      "sectionId": "c10-s04",
+      "paragraphId": "c10-s04-p108-04770",
+      "readingUnitId": "c10-s04-p108-04770-r005-007",
+      "sentenceIds": [
+        "c10-s04-p108-04770-s005",
+        "c10-s04-p108-04770-s006",
+        "c10-s04-p108-04770-s007"
+      ],
+      "passage": "Although eligible bachelors and bachelorettes in a large city like Philadelphia have literally hundreds of thousands of potential mates, the majority of them appeared to consider only those who lived close to them. How else would the majority of matches have been made within twenty city blocks? Reflecting upon his findings, Bossard commented, “Cupid may have wings, but apparently they are not adapted for long flights.”",
+      "prompt": "What does Bossard's remark about Cupid's short flights convey?",
+      "promptZh": "Bossard 关于丘比特短途飞行的评论传达什么？",
+      "options": [
+        "A literal biological limit measured in a winged animal.",
+        "A metaphor for the local geographical pattern in partner selection.",
+        "Proof that no distant relationship has ever existed.",
+        "An instruction that people today must never travel to meet anyone."
+      ],
+      "optionsZh": [
+        "测出的有翅动物真实生物极限。",
+        "择偶地理范围较近的比喻。",
+        "从未存在任何远距离关系的证明。",
+        "要求今天人们绝不可旅行相识的指令。"
+      ],
+      "answer": 1,
+      "type": "修辞理解",
+      "support": "explicit",
+      "analyses": [
+        "A Cupid 为爱神拟人意象，不是鸟类实验对象。",
+        "B wings 却不适 long flights 映射 nearby matches 的观察。",
+        "C may、apparently 与研究比例不支持 no distant ever。",
+        "D 是历史研究评论，非现代约会禁令；不把比喻当因果实验。"
+      ],
+      "vocabulary": [
+        {
+          "word": "adapted for",
+          "meaning": "适合于；适应某用途",
+          "context": "在此借丘比特翅膀说不适合远飞，属于距离模式的修辞。",
+          "example": "The metaphor described wings not adapted for long flights.",
+          "collocations": [
+            "not adapted for long flights",
+            "Cupid may have wings"
+          ]
+        }
+      ],
+      "translation": "虽然费城这样的大城市中，适婚单身男女确有数十万潜在伴侣，多数人似乎只考虑住得近的人。否则，怎么会有多数配对出现在二十个街区内？Bossard 回顾结果时评论：“丘比特也许有翅膀，但显然不适合长途飞行。”",
+      "evidenceTargetIds": [
+        "c10-s04-p108-04770-s007"
+      ],
+      "evidence": [
+        {
+          "quote": "Although eligible bachelors and bachelorettes in a large city like Philadelphia have literally hundreds of thousands of potential mates, the majority of them appeared to consider only those who lived close to them. How else would the majority of matches have been made within twenty city blocks? Reflecting upon his findings, Bossard commented, “Cupid may have wings, but apparently they are not adapted for long flights.”",
+          "sentenceIds": [
+            "c10-s04-p108-04770-s005",
+            "c10-s04-p108-04770-s006",
+            "c10-s04-p108-04770-s007"
+          ],
+          "sources": [
+            {
+              "pdfPage": 108,
+              "block": 4,
+              "bbox": [
+                76.99,
+                477,
+                535.01,
+                686.52
+              ]
+            },
+            {
+              "pdfPage": 109,
+              "block": 0,
+              "bbox": [
+                76.99,
+                75,
+                535,
+                109.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "247b8a1d108177aced3ecc90edc646a1b1935b8529754144a2c86b3c825da56f"
+    },
+    {
+      "id": "q-c10-034",
+      "version": 1,
+      "readingUnitId": "c10-s04-p109-01140-r001-004",
+      "chapterId": "c10",
+      "sectionId": "c10-s04",
+      "paragraphId": "c10-s04-p109-01140",
+      "sentenceIds": [
+        "c10-s04-p109-01140-s001",
+        "c10-s04-p109-01140-s002",
+        "c10-s04-p109-01140-s003",
+        "c10-s04-p109-01140-s004"
+      ],
+      "passage": "Living nearby could indicate many factors. For one thing, in 1931 Philadelphia was ethnically and racially segregated. Thus, proximity also meant shared cultural, linguistic, and religious backgrounds, which was particularly important then. Proximity also meant that people were more likely to have interactions nearby than they would with people who lived farther away.",
+      "prompt": "Why should proximity in 1931 Philadelphia not be treated as an isolated explanation?",
+      "options": [
+        "Residents had been randomly allocated to all neighborhoods.",
+        "Distance was measured only after marriage.",
+        "Shared backgrounds were explicitly ruled out.",
+        "Nearby residence could also reflect shared backgrounds and more opportunities to interact."
+      ],
+      "answer": 3,
+      "type": "推断",
+      "promptZh": "为何不能把 1931 年费城的近距离当成孤立解释？",
+      "optionsZh": [
+        "居民已被随机分配至所有街区。",
+        "只在结婚后量距离。",
+        "共同背景被明确排除。",
+        "住得近也可能反映共同背景和更多接触机会。"
+      ],
+      "analyses": [
+        "A 原文描述族裔和种族隔离，而非随机分配。",
+        "B 此处解释近邻可能意味着什么，未改测量时点。",
+        "C shared...backgrounds 明确列为可能因素。",
+        "D many factors 后列两类机制，不能由观察直接断定纯距离因果。"
+      ],
+      "evidence": [
+        {
+          "quote": "Living nearby could indicate many factors.",
+          "sentenceIds": [
+            "c10-s04-p109-01140-s001"
+          ],
+          "sources": [
+            {
+              "pdfPage": 109,
+              "block": 1,
+              "bbox": [
+                76.99,
+                114,
+                535,
+                245.52
+              ]
+            }
+          ]
+        },
+        {
+          "quote": "proximity also meant shared cultural, linguistic, and religious backgrounds",
+          "sentenceIds": [
+            "c10-s04-p109-01140-s003"
+          ],
+          "sources": [
+            {
+              "pdfPage": 109,
+              "block": 1,
+              "bbox": [
+                76.99,
+                114,
+                535,
+                245.52
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "segregated",
+          "meaning": "隔离的；分隔居住的",
+          "context": "描述当时按族裔和种族形成的居住格局",
+          "example": "The historical map showed a segregated city.",
+          "collocations": [
+            "ethnically segregated",
+            "racially segregated"
+          ]
+        }
+      ],
+      "translation": "住得近可能意味着许多因素。首先，1931 年费城存在族裔与种族隔离。因此，近距离也意味着共同的文化、语言、宗教背景，这在当时尤其重要。近距离还意味着，人们比起远处的人，更可能与附近的人发生接触。",
+      "support": "explicit",
+      "editorialStatus": "完整PDF106–111原页视觉核对及跨页拼接；CDC关联不作因果保证；100/1000候选、14%/3%与前10%目标分开。费城许可证、荷兰个人筛选与MIT友谊提名单位分开，众数/中位数与测量时点不混用；Cupid为比喻；宿舍随机背景按作者概括保留，不冒充完整随机试验方案。功能距离研究与后续曝光机制实验分开。末段完整审阅含未配题词频比较，未声称全书逐句证据覆盖。",
+      "fingerprint": "5a947023ea6b1a1d2315fa4362f6108d40f8fcf81d8dacfe1308ca47c4bd1796"
+    },
+    {
+      "id": "qe-c10-0064",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-041",
+      "parentQuestionId": "q-c10-034",
+      "chapterId": "c10",
+      "sectionId": "c10-s04",
+      "paragraphId": "c10-s04-p109-01140",
+      "readingUnitId": "c10-s04-p109-01140-r001-004",
+      "sentenceIds": [
+        "c10-s04-p109-01140-s001",
+        "c10-s04-p109-01140-s002",
+        "c10-s04-p109-01140-s003",
+        "c10-s04-p109-01140-s004"
+      ],
+      "passage": "Living nearby could indicate many factors. For one thing, in 1931 Philadelphia was ethnically and racially segregated. Thus, proximity also meant shared cultural, linguistic, and religious backgrounds, which was particularly important then. Proximity also meant that people were more likely to have interactions nearby than they would with people who lived farther away.",
+      "prompt": "Why is segregation in 1931 Philadelphia mentioned?",
+      "promptZh": "为何提到1931年费城的隔离状况？",
+      "options": [
+        "To state that current laws everywhere are identical to those of 1931.",
+        "To prove geography had no connection with cultural background.",
+        "To show that living nearby could also reflect shared backgrounds, complicating interpretation of proximity.",
+        "To claim the study randomly assigned every person's race and religion."
+      ],
+      "optionsZh": [
+        "说明当今各地法律与1931相同。",
+        "证明地理与文化背景无关。",
+        "说明住得近还可能反映共同背景，使邻近解释更复杂。",
+        "声称研究随机分派每个人种族宗教。"
+      ],
+      "answer": 2,
+      "type": "研究解释",
+      "support": "explicit",
+      "analyses": [
+        "A 这是一段书中历史语境，不是现行法律判断。",
+        "B Thus 后说 shared cultural,linguistic,religious backgrounds，方向相反。",
+        "C For one thing 举多因素之一，不能把附近婚姻全部归于纯空间距离因果。",
+        "D 历史许可证资料不是随机分派人口身份；避免把群体语境作个体刻板定论。"
+      ],
+      "vocabulary": [
+        {
+          "word": "segregated",
+          "meaning": "被隔离分开的；此处指历史族裔与种族居住隔离",
+          "context": "解释研究环境，不是对当前世界法律或所有个人的普遍断言。",
+          "example": "The account describes how a segregated city shaped opportunities to meet.",
+          "collocations": [
+            "ethnically and racially segregated",
+            "in 1931 Philadelphia"
+          ]
+        }
+      ],
+      "translation": "住得近可能意味着许多因素。首先，1931 年费城存在族裔与种族隔离。因此，近距离也意味着共同的文化、语言、宗教背景，这在当时尤其重要。近距离还意味着，人们比起远处的人，更可能与附近的人发生接触。",
+      "evidenceTargetIds": [
+        "c10-s04-p109-01140-s002"
+      ],
+      "evidence": [
+        {
+          "quote": "Living nearby could indicate many factors. For one thing, in 1931 Philadelphia was ethnically and racially segregated. Thus, proximity also meant shared cultural, linguistic, and religious backgrounds, which was particularly important then. Proximity also meant that people were more likely to have interactions nearby than they would with people who lived farther away.",
+          "sentenceIds": [
+            "c10-s04-p109-01140-s001",
+            "c10-s04-p109-01140-s002",
+            "c10-s04-p109-01140-s003",
+            "c10-s04-p109-01140-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 109,
+              "block": 1,
+              "bbox": [
+                76.99,
+                114,
+                535,
+                245.52
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "8dae6c93ab0d0b047e9b846803fb0a479a536b6a5bceddcf27749e1927738199"
+    },
+    {
+      "id": "qe-c10-0065",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-041",
+      "parentQuestionId": "q-c10-034",
+      "chapterId": "c10",
+      "sectionId": "c10-s04",
+      "paragraphId": "c10-s04-p109-01140",
+      "readingUnitId": "c10-s04-p109-01140-r001-004",
+      "sentenceIds": [
+        "c10-s04-p109-01140-s001",
+        "c10-s04-p109-01140-s002",
+        "c10-s04-p109-01140-s003",
+        "c10-s04-p109-01140-s004"
+      ],
+      "passage": "Living nearby could indicate many factors. For one thing, in 1931 Philadelphia was ethnically and racially segregated. Thus, proximity also meant shared cultural, linguistic, and religious backgrounds, which was particularly important then. Proximity also meant that people were more likely to have interactions nearby than they would with people who lived farther away.",
+      "prompt": "What additional explanation does the passage give for proximity's importance?",
+      "promptZh": "片段对邻近的重要性还给出什么解释？",
+      "options": [
+        "Nearby people are guaranteed to become partners on first meeting.",
+        "People farther away never have any interaction at all.",
+        "Living close removes all shared cultural or religious backgrounds.",
+        "Nearby people have more opportunities to interact than people farther apart."
+      ],
+      "optionsZh": [
+        "附近的人首次见面必成伴侣。",
+        "远处的人完全不可能接触。",
+        "住得近消除共同文化宗教背景。",
+        "近处人比远处人有更多接触机会。"
+      ],
+      "answer": 3,
+      "type": "逻辑关系",
+      "support": "explicit",
+      "analyses": [
+        "A more likely 不是必成关系。",
+        "B 比较概率不等于远处接触绝无可能。",
+        "C 前句相反说明可能共享背景。",
+        "D 追加互动机会机制，区别前一 shared backgrounds，不把两种解释合成已分离验证的唯一因果。"
+      ],
+      "vocabulary": [
+        {
+          "word": "interactions",
+          "meaning": "互动；接触往来",
+          "context": "这里为机会接触，不自动是恋爱或婚姻已经形成。",
+          "example": "Shared spaces increase opportunities for informal interactions.",
+          "collocations": [
+            "more likely to have interactions nearby",
+            "people who lived farther away"
+          ]
+        }
+      ],
+      "translation": "住得近可能意味着许多因素。首先，1931 年费城存在族裔与种族隔离。因此，近距离也意味着共同的文化、语言、宗教背景，这在当时尤其重要。近距离还意味着，人们比起远处的人，更可能与附近的人发生接触。",
+      "evidenceTargetIds": [
+        "c10-s04-p109-01140-s004"
+      ],
+      "evidence": [
+        {
+          "quote": "Living nearby could indicate many factors. For one thing, in 1931 Philadelphia was ethnically and racially segregated. Thus, proximity also meant shared cultural, linguistic, and religious backgrounds, which was particularly important then. Proximity also meant that people were more likely to have interactions nearby than they would with people who lived farther away.",
+          "sentenceIds": [
+            "c10-s04-p109-01140-s001",
+            "c10-s04-p109-01140-s002",
+            "c10-s04-p109-01140-s003",
+            "c10-s04-p109-01140-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 109,
+              "block": 1,
+              "bbox": [
+                76.99,
+                114,
+                535,
+                245.52
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "27639f1dcaa02e595c1679dcc37fee90cabd5645fba0d1e9253e9c93435dbfd4"
+    }
+  ]
+}
