@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "id": "question-review-2026-10-28-054",
+  "pdfSha256": "be25c859f1bd894a4b0d1cff024ded1297f6a96a8e8ddabea1e3abcf89160a50",
+  "scope": "Resume frozen 24 questions /24 source candidates on actual PDF61–62. Preserve author social examples, probability and subjective threat; complete exact familiar-person evidence and avoid treating meeting a new person as friendship. Source text and answer keys unchanged.",
+  "questions": [
+    {
+      "id": "qe-c06-0080",
+      "reason": "省略结构解释保留原文might not be，不拼出未出现且不合语法的might not obvious。",
+      "updates": {
+        "analyses": [
+          "A seems obvious 说的是联系看起来明显，不是无关；might not be 承接 obvious，也不是说外向性保证丰富。",
+          "B 明显程度对照不是相同系数证明。",
+          "C 此处 While 不是时间先后。",
+          "D 保留 seems 与 might not 的谨慎语气，对比联系的直观程度而非否定外向性作用。"
+        ]
+      }
+    },
+    {
+      "id": "q-c06-054",
+      "reason": "正确项包括熟人、人数和较深入交谈；保留旧s003引文映射，追加完整s002句及其精确PDF引用，不改任何原书来源ID。",
+      "updates": {
+        "evidence": [
+          {
+            "quote": "I usually stick with one or two people and try to have a deeper conversation.",
+            "sentenceIds": [
+              "c06-s04-p061-05160-s003"
+            ],
+            "sources": [
+              {
+                "pdfPage": 61,
+                "block": 4,
+                "bbox": [
+                  76.99,
+                  516,
+                  535.01,
+                  686.52
+                ]
+              }
+            ]
+          },
+          {
+            "quote": "I am an introvert, so I gravitate toward someone I already know.",
+            "sentenceIds": [
+              "c06-s04-p061-05160-s002"
+            ],
+            "sources": [
+              {
+                "pdfPage": 61,
+                "block": 4,
+                "bbox": [
+                  76.99,
+                  516,
+                  535.01,
+                  686.52
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "qe-c06-0083",
+      "reason": "修辞问句分析去网站实现说明，直接说明原文没有提交资料要求。",
+      "updates": {
+        "analyses": [
+          "A 这是引出聚会社交情境的修辞问句，没有要求提交联系人名单。",
+          "B 随后作者举自己的内向式交谈，再提外向者策略。",
+          "C 不是讣告分类问题。",
+          "D 对比策略恰与人人相同不符。"
+        ]
+      }
+    },
+    {
+      "id": "q-c06-057",
+      "reason": "meeting a new person译认识新的人，不暗示已经成为朋友；保留一个因素、自信条件与主观威胁感。",
+      "updates": {
+        "translation": "从基本层面看，外向者为什么会更多地探索社交世界？一个因素是他们的自信与自我确信。当你自信时，认识一个新的人不会令你感到受威胁。有什么可损失的呢？"
+      }
+    },
+    {
+      "id": "qe-c06-0089",
+      "reason": "meeting a new person译认识新的人，不暗示已经成为朋友；保留一个因素、自信条件与主观威胁感。；排除只据当前解释，不预告下一段精力内容。",
+      "updates": {
+        "translation": "从基本层面看，外向者为什么会更多地探索社交世界？一个因素是他们的自信与自我确信。当你自信时，认识一个新的人不会令你感到受威胁。有什么可损失的呢？",
+        "analyses": [
+          "A 当前给出的解释是 confidence and self-assurance；One factor 表示一个因素，没有在本片段提出精力为唯一因素。",
+          "B 后文解释自信如何减轻顾虑，不是阻止。",
+          "C 没有转换为财务问题。",
+          "D why 后 One factor...给出解释方向，不能视为所有人的必然定律。"
+        ]
+      }
+    },
+    {
+      "id": "qe-c06-0090",
+      "reason": "meeting a new person译认识新的人，不暗示已经成为朋友；保留一个因素、自信条件与主观威胁感。；中文题干明确询问自信对见面感受的影响，避免不自然被动句。",
+      "updates": {
+        "translation": "从基本层面看，外向者为什么会更多地探索社交世界？一个因素是他们的自信与自我确信。当你自信时，认识一个新的人不会令你感到受威胁。有什么可损失的呢？",
+        "promptZh": "作者认为，自信会怎样影响结识新人时的感受？"
+      }
+    },
+    {
+      "id": "qe-c06-0091",
+      "reason": "meeting a new person译认识新的人，不暗示已经成为朋友；保留一个因素、自信条件与主观威胁感。",
+      "updates": {
+        "translation": "从基本层面看，外向者为什么会更多地探索社交世界？一个因素是他们的自信与自我确信。当你自信时，认识一个新的人不会令你感到受威胁。有什么可损失的呢？"
+      }
+    },
+    {
+      "id": "qe-c06-0095",
+      "reason": "词义解释依当前another与might，不要求先读未显示的自信或社交网络机制。",
+      "updates": {
+        "vocabulary": [
+          {
+            "word": "aspect",
+            "meaning": "方面；某一侧面",
+            "context": "another aspect 指再提出一个可能相关的方面；might 保留不确定性，并非指定唯一因素。",
+            "example": "The report considers another aspect of the problem.",
+            "collocations": [
+              "another aspect of",
+              "an aspect related to"
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}
