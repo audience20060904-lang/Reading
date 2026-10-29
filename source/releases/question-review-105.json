@@ -1,0 +1,105 @@
+{
+  "schemaVersion": 1,
+  "id": "question-review-2026-10-28-105",
+  "status": "published-and-verified",
+  "verifiedAt": "2026-10-29T23:31:38.662Z",
+  "url": "https://audience20060904-lang.github.io/Reading/",
+  "sourceCommit": "7a1d1ba789c3b1bd4718b9bf7c7026cace8b8f50",
+  "deploymentCommit": "0fc848f1dea7df2645014031a4c2e8095e406bdd",
+  "offlineVersion": "7c78f324158fd474",
+  "previousBatch": "source/releases/question-review-104.json",
+  "questionFingerprints": {
+    "q-c11-036": "2158f8480c5f231218363abf74877d20726d204328443869d52e7442a11a9fdd",
+    "q-c11-038": "a602a4bb963121ecff87fceea3b392dcfd89c6a17b540e0184eb98cdd2e1088e",
+    "qe-c11-0070": "9f51c82c5dd3828fed271f8609f8ffc86cb1f096e70f64dd147efb4f70d9f029",
+    "q-c11-039": "fa60eca34d110642cdda5d81dffd2affeef220aa4858646b2d79bb231b74cba2",
+    "q-c11-041": "b2f91021f4763af91719ecfa9c1ebf7cd5dbff555f0c81c6631ee73969a59f70",
+    "qe-c11-0073": "ef0fd93709da6133265245569e591d248b952a37bc890619259a39999262ae6b",
+    "qe-c11-0074": "8405cd29acef4fe11b0ac04a69f5f30bdf077157b630472bbac6aa668b41fef8",
+    "qe-c11-0075": "08e64e3c4b2ace3f4ab8f6f8c3b0108bfe1b26eb74ee04bf4ac7e48fbf3567e1",
+    "q-c11-043": "08ac06b69579ab64531d0c4a4aabb1589de7d8e4bf00d1fae2d7656e35b0163f",
+    "qe-c11-0076": "ab50197e2fc1c7c77badaeca28da0ba6784c8fd3952f8e84e99da393d76ae08d"
+  },
+  "content": {
+    "totalQuestions": 2709,
+    "manuallyReviewedQuestions": 19,
+    "reviewedSourceCandidates": 24,
+    "revisedQuestions": 10,
+    "totalRevisedQuestions": 1063,
+    "changedAnswerPositions": 0,
+    "remainingQuestionReviews": 620,
+    "fullQuestionBankHumanReview": false
+  },
+  "validation": {
+    "unitTestsPassed": 731,
+    "build": "npm run build:pages passed",
+    "pdf": {
+      "sha256": "be25c859f1bd894a4b0d1cff024ded1297f6a96a8e8ddabea1e3abcf89160a50",
+      "pagesVisuallyReviewed": [
+        127,
+        128,
+        129
+      ],
+      "sourceBlocksTextMatched": 7
+    },
+    "localBrowser": [
+      "全部缓存资产及Service Worker与本次生产构建逐字节匹配",
+      "提交前无证据标记；提交后精确标出依据且原文不变、淡蓝色查词仍可用",
+      "相近题型合并为一行并按提交次数计算50%正确率，原始标签和历史记录不变",
+      "逐题提交10道校对题，交替验证正误、四项译文与分析、整段译文及完整快照；提交前不显示中文解析",
+      "真实浏览器恢复旧选项、旧译文、旧错题成绩与用时；重练采用新版，新增记录且不改历史",
+      "390px和320px深色视口，选项、解析和整段译文均无横向溢出",
+      "旧未提交选择遇到改版时清空，新版位置保留；已提交解析正常刷新恢复",
+      "启动资源全部入离线清单，实际Service Worker缓存逐字节匹配；禁用HTTP缓存后继续离线验证",
+      "离线模拟恢复新旧两版成绩；本地另实际停止HTTP服务后缓存恢复新版题目与译文"
+    ],
+    "liveBrowser": [
+      "全部缓存资产及Service Worker与本次生产构建逐字节匹配",
+      "提交前无证据标记；提交后精确标出依据且原文不变、淡蓝色查词仍可用",
+      "相近题型合并为一行并按提交次数计算50%正确率，原始标签和历史记录不变",
+      "逐题提交10道校对题，交替验证正误、四项译文与分析、整段译文及完整快照；提交前不显示中文解析",
+      "真实浏览器恢复旧选项、旧译文、旧错题成绩与用时；重练采用新版，新增记录且不改历史",
+      "390px和320px深色视口，选项、解析和整段译文均无横向溢出",
+      "旧未提交选择遇到改版时清空，新版位置保留；已提交解析正常刷新恢复",
+      "启动资源全部入离线清单，实际Service Worker缓存逐字节匹配；禁用HTTP缓存后继续离线验证",
+      "离线模拟恢复新旧两版成绩；本地另实际停止HTTP服务后缓存恢复新版题目与译文"
+    ],
+    "liveRevisedQuestionsVisited": 10,
+    "assets": "All 13 manifest assets and the service worker byte-match the tested build.",
+    "history": "All 104 previous editorial batch fingerprints preserved. Source text, original question banks, reading plan, completed prior audit and submitted snapshots unchanged.",
+    "integrity": {
+      "passed": true,
+      "protectedBase": "48552be4956ee61a3f1b1a59a4ed1c4c67f67e03",
+      "protectedPaths": 73,
+      "publishedReceiptsVerified": 105,
+      "chapter1QuestionReviews": 137,
+      "totalReviewedQuestionIds": 2089,
+      "remainingQuestionReviews": 620,
+      "fullQuestionBankHumanReview": false
+    }
+  },
+  "report": "source/question-revisions/review-105-report.json",
+  "continuation": "source/question-semantic-audit.json",
+  "limits": [
+    "Isolated synthetic data only; Prewritten versioned editorial corrections checked against their current records. Mobile is a viewport, not a physical phone.",
+    "Live offline checks use browser simulation; actual HTTP-server shutdown performed locally.",
+    "The remaining 620 questions await expanded per-question review; this is not a count of known errors or missing questions."
+  ],
+  "lookupRevisionFingerprints": [
+    {
+      "revisionId": "question-review-2026-10-28-014",
+      "occurrenceId": "c01-s02-p010-05625@390:398",
+      "sha256": "3f1c35d38c91722bcc39c64b5b0a8840e39e25f13b54a64c3b17e3e3b65c9119"
+    },
+    {
+      "revisionId": "question-review-2026-10-28-017",
+      "occurrenceId": "c01-s04-p013-05662@523:538",
+      "sha256": "e668951b5f0d67dc54eead608d4705f185d33b045e245438d51e00add8ec2342"
+    },
+    {
+      "revisionId": "question-review-2026-10-28-017",
+      "occurrenceId": "c01-s04-p013-05662@694:709",
+      "sha256": "779785898d0be134c0bfc0aed22cd7705803b476a9c3a4a0c2205b5d92278e1d"
+    }
+  ]
+}
