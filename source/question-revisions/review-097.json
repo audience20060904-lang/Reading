@@ -1,0 +1,228 @@
+{
+  "schemaVersion": 1,
+  "id": "question-review-2026-10-28-097",
+  "pdfSha256": "be25c859f1bd894a4b0d1cff024ded1297f6a96a8e8ddabea1e3abcf89160a50",
+  "scope": "Review frozen22 questions /24 source candidates on actual PDF118-119 with full paragraph context through120. Commuter recruitment, instructions, return counts, randomised self-report comparison and separate imagined task; Jobs attribution and transition to broader evidence. Complete comparisons and attribution evidence, remove unshown earlier/later experiment dependencies and website notes. Source text, answer keys and history unchanged.",
+  "questions": [
+    {
+      "id": "q-c10-099",
+      "reason": "当前片段自足及范围校正。",
+      "updates": {
+        "analyses": [
+          "A underestimate 明说预测有偏差。",
+          "B 方向反转，原文是低估。",
+          "C actual...far more than we think 概括主题。",
+          "D 车站只是招募背景，文中没有比较旅客对车站的喜好；118 指研究助理接触的通勤者人数。"
+        ]
+      }
+    },
+    {
+      "id": "qe-c10-0171",
+      "reason": "当前片段自足及范围校正。；当前片段自足及范围校正。",
+      "updates": {
+        "analyses": [
+          "A tested how much people enjoy 明确当前因变量是感受，不是认知能力测验。",
+          "B tested how much enjoy talking strangers 明确研究问题与实地场景。",
+          "C 当前研究问题明确是交谈乐趣，没有测量通勤者各自住址之间的精确距离。",
+          "D 当前检验的是与陌生人交谈有多愉快，不是面试候选人后何时停止搜索。"
+        ]
+      }
+    },
+    {
+      "id": "qe-c10-0172",
+      "reason": "当前片段自足及范围校正。；当前片段自足及范围校正。",
+      "updates": {
+        "analyses": [
+          "A 片段给出的是在 Homewood Metra 站接触118人；Millennium 是快线通向的车站，不是这里点名的招募站。",
+          "B 当前明确说 approached 118 commuters，并没有在这段描述招募105人进行想象任务。",
+          "C 不是全城人口普查。",
+          "D 数量、人员和地点逐项对应，不将历史研究招募变成当前列车时刻信息。"
+        ]
+      }
+    },
+    {
+      "id": "qe-c10-0173",
+      "reason": "当前片段自足及范围校正。",
+      "updates": {
+        "analyses": [
+          "A first third 引文的三项动作准确，限定实验分组指令。",
+          "B 属独处条件而非交谈。",
+          "C 是控制条件。",
+          "D 当前交谈条件要求与新认识的人交谈、尝试建立联系并了解有趣之处，没有把进站前完成问卷列为该条件的定义。"
+        ]
+      }
+    },
+    {
+      "id": "q-c10-101",
+      "reason": "完整随机聊天自报结果句补齐独处和控制比较对象，旧引ID来源不动。",
+      "updates": {
+        "evidence": [
+          {
+            "quote": "The commuters randomly assigned to talk to a stranger reported that their commutes were significantly happier and more pleasant than those assigned to the solitude or control conditions.",
+            "sentenceIds": [
+              "c10-s08-p118-03675-s014"
+            ],
+            "sources": [
+              {
+                "pdfPage": 119,
+                "block": 0,
+                "bbox": [
+                  76.99,
+                  75,
+                  535,
+                  128.52
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "qe-c10-0175",
+      "reason": "词境去网站及学习备份说明。",
+      "updates": {
+        "vocabulary": [
+          {
+            "word": "return envelope",
+            "meaning": "回邮信封；用于寄回问卷的信封",
+            "context": "文中供参与者寄回问卷，且信封带邮票；区别实际回寄与仅被要求回寄。",
+            "example": "The questionnaire included a stamped return envelope.",
+            "collocations": [
+              "at the end of their train ride",
+              "mail it back"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "qe-c10-0176",
+      "reason": "数字干扰项不借未显示后续研究身份。；当前片段自足及范围校正。",
+      "updates": {
+        "options": [
+          "One hundred and eighteen, so no response was missing.",
+          "One hundred and five.",
+          "Ninety-seven percent, rather than a count of ninety-seven people.",
+          "Ninety-seven."
+        ],
+        "optionsZh": [
+          "118，因此无缺失回卷。",
+          "105。",
+          "百分之九十七，而非97人。",
+          "97。"
+        ],
+        "analyses": [
+          "A Out of118,97returned，并非全回。",
+          "B 当前原句明确是97人回寄，而不是105人。",
+          "C 原句97为人数，不是给出的回卷百分比；不能交换计数和比例。",
+          "D 计数直接给出；97不是97%，也不据此假设三组各恰同等整数或未回者体验已知。"
+        ]
+      }
+    },
+    {
+      "id": "qe-c10-0177",
+      "reason": "当前片段未显示先前实际乘车程序，题干和正确项只问105人的想象任务。；当前片段自足及范围校正。",
+      "updates": {
+        "prompt": "What task were the additional 105 commuters asked to perform?",
+        "promptZh": "另外105名通勤者被要求完成什么任务？",
+        "options": [
+          "Imagine how they would feel in the talk-to-a-stranger, solitude, and control conditions.",
+          "They were the same 97 respondents counted again as 105.",
+          "They all repeated the physical conversation condition and reported only afterwards.",
+          "They were original participants whose post-ride envelopes merely arrived later."
+        ],
+        "optionsZh": [
+          "想象处于交谈、独处和控制条件时各会有什么感受。",
+          "他们就是97回卷者被重算成105。",
+          "他们都实际重做交谈条件后才报告。",
+          "他们是原参与者，只是车程后信封较迟寄到。"
+        ],
+        "analyses": [
+          "A another105、simply imagine 明确另一群体及预测任务，不是实际体验重复。",
+          "B another 105 commuters 指又招募的一组通勤者，没有把97人重算为105人。",
+          "C 想象三条件不是全体真实交谈。",
+          "D another105与simplyimagine表新任务新群体，不是原样本迟回问卷。"
+        ]
+      }
+    },
+    {
+      "id": "q-c10-103",
+      "reason": "题干直接问当前主张，不要求未显示实验结果。",
+      "updates": {
+        "prompt": "What action does the author advocate in this passage?",
+        "promptZh": "作者在本片段提倡什么行动？"
+      }
+    },
+    {
+      "id": "q-c10-104",
+      "reason": "完整Yet years later及he credits归因句定位后来益处，旧引ID来源不动。",
+      "updates": {
+        "evidence": [
+          {
+            "quote": "Yet, years later, he credits his experiences in India for giving him confidence to trust his intuition.",
+            "sentenceIds": [
+              "c10-s09-p119-04185-s003"
+            ],
+            "sources": [
+              {
+                "pdfPage": 119,
+                "block": 3,
+                "bbox": [
+                  76.99,
+                  418.5,
+                  535,
+                  530.52
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-c10-105",
+      "reason": "完整研究者积累证据句支撑由个案转广泛证据，保seem，旧引ID来源不变。",
+      "updates": {
+        "evidence": [
+          {
+            "quote": "Is there anything generalizable from his experience in India?",
+            "sentenceIds": [
+              "c10-s09-p119-05355-s002"
+            ],
+            "sources": [
+              {
+                "pdfPage": 119,
+                "block": 4,
+                "bbox": [
+                  76.99,
+                  535.5,
+                  535.01,
+                  706.02
+                ]
+              }
+            ]
+          },
+          {
+            "quote": "Social psychologists Angela Ka-yee Leung, William Maddux, Adam Galinsky, and Chi-yue Chiu have amassed evidence showing that multicultural experiences seem to increase creativity.",
+            "sentenceIds": [
+              "c10-s09-p119-05355-s004"
+            ],
+            "sources": [
+              {
+                "pdfPage": 119,
+                "block": 4,
+                "bbox": [
+                  76.99,
+                  535.5,
+                  535.01,
+                  706.02
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}
