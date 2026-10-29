@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 1,
+  "status": "frozen-follow-up-awaiting-new-version",
+  "observedAt": "2026-10-29T22:56:55.664Z",
+  "questionId": "qe-c10-0203",
+  "currentVersion": 2,
+  "currentFingerprint": "acd0943bf2d42ccfcf69434468e632973e7877771ec4f82541cdd4e9ecb6de67",
+  "currentQuestion": {
+    "id": "qe-c10-0203",
+    "version": 2,
+    "family": "sentence-evidence",
+    "batchId": "evidence-047",
+    "parentQuestionId": "q-c10-112",
+    "chapterId": "c10",
+    "sectionId": "c10-s09",
+    "paragraphId": "c10-s09-p120-04065",
+    "readingUnitId": "c10-s09-p120-04065-r005-008",
+    "sentenceIds": [
+      "c10-s09-p120-04065-s005",
+      "c10-s09-p120-04065-s006",
+      "c10-s09-p120-04065-s007",
+      "c10-s09-p120-04065-s008"
+    ],
+    "passage": "Now, when I go back to Japan, I have to consciously try not to smile. For example, I went to a fancy department store in Ginza, Tokyo, on one trip. I entered an elevator and looked at the others already in it. I noticed that their faces froze; they were scared of me.",
+    "prompt": "Where did the author go on the trip used as an example?",
+    "promptZh": "作者用作例子的那次出行去了哪里？",
+    "options": [
+      "A small railway station outside Tokyo.",
+      "A building site in an American suburb.",
+      "A fancy department store in Ginza, Tokyo.",
+      "His university friends' completed house in Japan."
+    ],
+    "optionsZh": [
+      "东京外的小火车站。",
+      "美国郊区的一处建筑工地。",
+      "东京银座一家高档百货商店。",
+      "日本大学朋友已建好的房子。"
+    ],
+    "answer": 2,
+    "type": "细节",
+    "support": "explicit",
+    "analyses": [
+      "A 这里明确是东京银座的高档百货商店，不是东京外的小火车站。",
+      "B 本次出行地点是 Ginza, Tokyo 的百货商店，不是美国郊区建筑工地。",
+      "C fancy department store 与 Ginza, Tokyo 两项明确对应。",
+      "D 当前没有参观朋友房屋的叙述；地点明确是 a fancy department store。"
+    ],
+    "vocabulary": [
+      {
+        "word": "fancy",
+        "meaning": "高档的；精致讲究的",
+        "context": "此处修饰百货商店，不是动词想象或形容幻想中的。",
+        "example": "They visited a fancy department store during the trip.",
+        "collocations": [
+          "a fancy department store",
+          "on one trip"
+        ]
+      }
+    ],
+    "translation": "如今回日本，我得刻意试着别微笑。例如有次去 Tokyo 的 Ginza 一家高档百货。我进电梯，看着里面的人，发现他们表情僵住；他们在怕我。",
+    "evidenceTargetIds": [
+      "c10-s09-p120-04065-s006"
+    ],
+    "evidence": [
+      {
+        "quote": "Now, when I go back to Japan, I have to consciously try not to smile. For example, I went to a fancy department store in Ginza, Tokyo, on one trip. I entered an elevator and looked at the others already in it. I noticed that their faces froze; they were scared of me.",
+        "sentenceIds": [
+          "c10-s09-p120-04065-s005",
+          "c10-s09-p120-04065-s006",
+          "c10-s09-p120-04065-s007",
+          "c10-s09-p120-04065-s008"
+        ],
+        "sources": [
+          {
+            "pdfPage": 120,
+            "block": 2,
+            "bbox": [
+              76.99,
+              406.5,
+              535.01,
+              713.52
+            ]
+          }
+        ]
+      }
+    ],
+    "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+    "contentRevision": "question-review-2026-10-28-099",
+    "fingerprint": "acd0943bf2d42ccfcf69434468e632973e7877771ec4f82541cdd4e9ecb6de67"
+  },
+  "sourceCandidateIds": [
+    "c10-s09-p120-04065-s005",
+    "c10-s09-p120-04065-s006",
+    "c10-s09-p120-04065-s007",
+    "c10-s09-p120-04065-s008"
+  ],
+  "finding": {
+    "questionId": "qe-c10-0203",
+    "status": "specific-translation-disambiguation-pending-outside-current-audit-queue",
+    "sourceRecord": "source/question-revisions/review-099-follow-up-findings.json",
+    "reason": "The option His university friends' completed house in Japan currently has the Chinese wording 日本大学朋友已建好的房子. Disambiguate as 他大学朋友在日本建成的房子 in a separate new version; avoid suggesting Nihon University. Discovered during post-publication screenshot inspection. Do not rewrite batch099 or count this question as an additional pending audit record."
+  }
+}
