@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 1,
+  "id": "question-review-2026-10-28-075",
+  "status": "published-and-verified",
+  "verifiedAt": "2026-10-29T10:32:09.072Z",
+  "url": "https://audience20060904-lang.github.io/Reading/",
+  "sourceCommit": "aa7cfb433f09d119501ab583d1e5af4148f3b75f",
+  "deploymentCommit": "3306525630ebbf90d4151337d45b593b95bfe9f5",
+  "offlineVersion": "58e3cbfe2605de7c",
+  "previousBatch": "source/releases/question-review-074.json",
+  "questionFingerprints": {
+    "q-c08-061": "67bf554873d5a6e377b41b0d7957aff89358f0747ff748ad42864e96e728f09e",
+    "qe-c09-0004": "3090faf8228a754a2b5c7233305402e0ae5073946e9c3129938fcae9c0723aaf",
+    "q-c09-003": "99d537f43b4c65ff3e4019e9ae12d5fc55c0a6c8d8e7e65f150083c24cf1ff34",
+    "qe-c09-0005": "760f4129951e95885777c3bf55d07869d35f1215ab5c565ffc38c2e41b3a40e1",
+    "qe-c09-0006": "6f2300eb42d89cccf229e5636febcafa9d9a2b7d6d5364b45341ca717faeeabf",
+    "qe-c09-0007": "21bd4785fda2b919fe16b7709e2c1419d84537979ba06956ccc0b190822c23ad",
+    "q-c09-006": "49d26894f2df4bced6e739cff340e0d395a94edc9fa32f2e285244419d7980d2",
+    "q-c09-007": "f20ecab4019e8820a0bf83f1288cffc0e61e1575cabb420ee8fe57ca17cea3f9",
+    "qe-c09-0013": "cc3cdeba270a40f3438834e4b1a403888fd83ba5eb6301607327bab75b32ad95"
+  },
+  "content": {
+    "totalQuestions": 2709,
+    "manuallyReviewedQuestions": 22,
+    "reviewedSourceCandidates": 23,
+    "revisedQuestions": 9,
+    "totalRevisedQuestions": 724,
+    "changedAnswerPositions": 0,
+    "remainingQuestionReviews": 1265,
+    "fullQuestionBankHumanReview": false
+  },
+  "validation": {
+    "unitTestsPassed": 611,
+    "build": "npm run build:pages passed",
+    "pdf": {
+      "sha256": "be25c859f1bd894a4b0d1cff024ded1297f6a96a8e8ddabea1e3abcf89160a50",
+      "pagesVisuallyReviewed": [
+        88,
+        89,
+        90
+      ],
+      "sourceBlocksTextMatched": 6
+    },
+    "localBrowser": [
+      "全部缓存资产及Service Worker与本次生产构建逐字节匹配",
+      "提交前无证据标记；提交后精确标出依据且原文不变、淡蓝色查词仍可用",
+      "相近题型合并为一行并按提交次数计算50%正确率，原始标签和历史记录不变",
+      "逐题提交9道校对题，交替验证正误、四项译文与分析、整段译文及完整快照；提交前不显示中文解析",
+      "真实浏览器恢复旧选项、旧译文、旧错题成绩与用时；重练采用新版，新增记录且不改历史",
+      "390px和320px深色视口，选项、解析和整段译文均无横向溢出",
+      "旧未提交选择遇到改版时清空，新版位置保留；已提交解析正常刷新恢复",
+      "启动资源全部入离线清单，实际Service Worker缓存逐字节匹配；禁用HTTP缓存后继续离线验证",
+      "离线模拟恢复新旧两版成绩；本地另实际停止HTTP服务后缓存恢复新版题目与译文"
+    ],
+    "liveBrowser": [
+      "全部缓存资产及Service Worker与本次生产构建逐字节匹配",
+      "提交前无证据标记；提交后精确标出依据且原文不变、淡蓝色查词仍可用",
+      "相近题型合并为一行并按提交次数计算50%正确率，原始标签和历史记录不变",
+      "逐题提交9道校对题，交替验证正误、四项译文与分析、整段译文及完整快照；提交前不显示中文解析",
+      "真实浏览器恢复旧选项、旧译文、旧错题成绩与用时；重练采用新版，新增记录且不改历史",
+      "390px和320px深色视口，选项、解析和整段译文均无横向溢出",
+      "旧未提交选择遇到改版时清空，新版位置保留；已提交解析正常刷新恢复",
+      "启动资源全部入离线清单，实际Service Worker缓存逐字节匹配；禁用HTTP缓存后继续离线验证",
+      "离线模拟恢复新旧两版成绩；本地另实际停止HTTP服务后缓存恢复新版题目与译文"
+    ],
+    "liveRevisedQuestionsVisited": 9,
+    "assets": "All 13 manifest assets and the service worker byte-match the tested build.",
+    "history": "All 74 previous editorial batch fingerprints preserved. Source text, original question banks, reading plan, completed prior audit and submitted snapshots unchanged.",
+    "integrity": {
+      "passed": true,
+      "protectedBase": "48552be4956ee61a3f1b1a59a4ed1c4c67f67e03",
+      "protectedPaths": 73,
+      "publishedReceiptsVerified": 75,
+      "chapter1QuestionReviews": 137,
+      "totalReviewedQuestionIds": 1444,
+      "remainingQuestionReviews": 1265,
+      "fullQuestionBankHumanReview": false
+    }
+  },
+  "report": "source/question-revisions/review-075-report.json",
+  "continuation": "source/question-semantic-audit.json",
+  "limits": [
+    "Isolated synthetic data only; Prewritten versioned editorial corrections checked against their current records. Mobile is a viewport, not a physical phone.",
+    "Live offline checks use browser simulation; actual HTTP-server shutdown performed locally.",
+    "The remaining 1265 questions await expanded per-question review; this is not a count of known errors or missing questions."
+  ],
+  "lookupRevisionFingerprints": [
+    {
+      "revisionId": "question-review-2026-10-28-014",
+      "occurrenceId": "c01-s02-p010-05625@390:398",
+      "sha256": "3f1c35d38c91722bcc39c64b5b0a8840e39e25f13b54a64c3b17e3e3b65c9119"
+    },
+    {
+      "revisionId": "question-review-2026-10-28-017",
+      "occurrenceId": "c01-s04-p013-05662@523:538",
+      "sha256": "e668951b5f0d67dc54eead608d4705f185d33b045e245438d51e00add8ec2342"
+    },
+    {
+      "revisionId": "question-review-2026-10-28-017",
+      "occurrenceId": "c01-s04-p013-05662@694:709",
+      "sha256": "779785898d0be134c0bfc0aed22cd7705803b476a9c3a4a0c2205b5d92278e1d"
+    }
+  ]
+}
