@@ -1,0 +1,114 @@
+{
+  "schemaVersion": 1,
+  "id": "question-review-2026-10-28-078",
+  "status": "published-and-verified",
+  "verifiedAt": "2026-10-29T10:52:57.740Z",
+  "url": "https://audience20060904-lang.github.io/Reading/",
+  "sourceCommit": "2599b7182133d792f1f95ed50ad2b39987586fba",
+  "deploymentCommit": "f2c8b7a1610650c83ff29118f3000837b941c1bb",
+  "offlineVersion": "4a1e8b6ba4f94676",
+  "previousBatch": "source/releases/question-review-077.json",
+  "questionFingerprints": {
+    "q-c09-022": "ed36ebcd3d1ce6491eac5023dfeda96a64bbdc2edb1df57ef86bff5419ad5a7f",
+    "q-c09-023": "bcc0b26f3a95ebe64256aba3fd8fe4ed0326132fa086e47eaf60cdd23dd0ad2d",
+    "qe-c09-0043": "df85dd7fbecf6bbffead2f410163ec85639930360689e91b5668c07ab609867c",
+    "qe-c09-0044": "e47e7fbf93361d0a46cd94311b00a1ad00f7d20a336da48ea7a624a5d58f5050",
+    "qe-c09-0045": "3ed12e614eb19ebe641765e019b7ae24e192171f19ae2d7a5e5aa6f15230216d",
+    "qe-c09-0047": "488254dfc923882d16b301baad98a8a64544a708a9a73e13e6a3781d031bbbb1",
+    "q-c09-025": "7d10667756fdf5390aef1a82d61c30b3461b854516a6160f395260d3f6519d88",
+    "qe-c09-0049": "03e2314b04bad706d2e3f23189689c65098c9de93ddf15725f0244d82dd43349",
+    "qe-c09-0050": "91e8b25c640d16cb98e53d22ff16daef646c1c782e3adb4b2c18ca510266045b",
+    "qe-c09-0051": "710e67fd444e4e887a37e727a879241bbda6838589ed979f0e59f3e96ffd3ef1",
+    "qe-c09-0052": "087e990f4896f01b54ab7481a0be844715ceda790d7180ac42f4f1e27a909405",
+    "q-c09-027": "2696dfe45e758ea8f85575ece40f2f0e40ded2249e13f67c5ab0caa70d345aa1",
+    "qe-c09-0053": "ed5d737dc71cfd1c439dc0097627f0cec458bbcdd743d423810b9430a33ee6fe",
+    "qe-c09-0054": "4d2de3b67cc9b445a07283b18dbe87573c4db4162dd8b87cd3ff70e8b24195a5",
+    "qe-c09-0055": "e1beb5e82a1245473cf96b4097553670ad20cf6901a850331635ac128ca9333e",
+    "q-c09-028": "02fc92cbf30539012655581231c8e33fb42e34c4555636c45ca7ef7e35a56a48",
+    "qe-c09-0056": "e6b8ffbf4e0a0921fbce3fca31d5d4b5d7d03aafbaf64bb22863723247d6b667",
+    "qe-c09-0057": "d364a15ae9b22ccc896dd839fd2752d2fc076616fdeb05538274c1b56f86defd",
+    "qe-c09-0058": "13c4781c68fc7d89ccd6b81bafab387c0276ee76f772483b93bb28b67ff510b8"
+  },
+  "content": {
+    "totalQuestions": 2709,
+    "manuallyReviewedQuestions": 24,
+    "reviewedSourceCandidates": 25,
+    "revisedQuestions": 19,
+    "totalRevisedQuestions": 762,
+    "changedAnswerPositions": 0,
+    "remainingQuestionReviews": 1200,
+    "fullQuestionBankHumanReview": false
+  },
+  "validation": {
+    "unitTestsPassed": 623,
+    "build": "npm run build:pages passed",
+    "pdf": {
+      "sha256": "be25c859f1bd894a4b0d1cff024ded1297f6a96a8e8ddabea1e3abcf89160a50",
+      "pagesVisuallyReviewed": [
+        92,
+        93
+      ],
+      "sourceBlocksTextMatched": 4
+    },
+    "localBrowser": [
+      "全部缓存资产及Service Worker与本次生产构建逐字节匹配",
+      "提交前无证据标记；提交后精确标出依据且原文不变、淡蓝色查词仍可用",
+      "相近题型合并为一行并按提交次数计算50%正确率，原始标签和历史记录不变",
+      "逐题提交19道校对题，交替验证正误、四项译文与分析、整段译文及完整快照；提交前不显示中文解析",
+      "真实浏览器恢复旧选项、旧译文、旧错题成绩与用时；重练采用新版，新增记录且不改历史",
+      "390px和320px深色视口，选项、解析和整段译文均无横向溢出",
+      "旧未提交选择遇到改版时清空，新版位置保留；已提交解析正常刷新恢复",
+      "启动资源全部入离线清单，实际Service Worker缓存逐字节匹配；禁用HTTP缓存后继续离线验证",
+      "离线模拟恢复新旧两版成绩；本地另实际停止HTTP服务后缓存恢复新版题目与译文"
+    ],
+    "liveBrowser": [
+      "全部缓存资产及Service Worker与本次生产构建逐字节匹配",
+      "提交前无证据标记；提交后精确标出依据且原文不变、淡蓝色查词仍可用",
+      "相近题型合并为一行并按提交次数计算50%正确率，原始标签和历史记录不变",
+      "逐题提交19道校对题，交替验证正误、四项译文与分析、整段译文及完整快照；提交前不显示中文解析",
+      "真实浏览器恢复旧选项、旧译文、旧错题成绩与用时；重练采用新版，新增记录且不改历史",
+      "390px和320px深色视口，选项、解析和整段译文均无横向溢出",
+      "旧未提交选择遇到改版时清空，新版位置保留；已提交解析正常刷新恢复",
+      "启动资源全部入离线清单，实际Service Worker缓存逐字节匹配；禁用HTTP缓存后继续离线验证",
+      "离线模拟恢复新旧两版成绩；本地另实际停止HTTP服务后缓存恢复新版题目与译文"
+    ],
+    "liveRevisedQuestionsVisited": 19,
+    "assets": "All 13 manifest assets and the service worker byte-match the tested build.",
+    "history": "All 77 previous editorial batch fingerprints preserved. Source text, original question banks, reading plan, completed prior audit and submitted snapshots unchanged.",
+    "integrity": {
+      "passed": true,
+      "protectedBase": "48552be4956ee61a3f1b1a59a4ed1c4c67f67e03",
+      "protectedPaths": 73,
+      "publishedReceiptsVerified": 78,
+      "chapter1QuestionReviews": 137,
+      "totalReviewedQuestionIds": 1509,
+      "remainingQuestionReviews": 1200,
+      "fullQuestionBankHumanReview": false
+    },
+    "transportRetry": "One proxy manifest fetch returned curl schannel TLS handshake error 35; a subsequent ordinary TLS retry succeeded. Asset and actual cache byte verification remained required and passed."
+  },
+  "report": "source/question-revisions/review-078-report.json",
+  "continuation": "source/question-semantic-audit.json",
+  "limits": [
+    "Isolated synthetic data only; Prewritten versioned editorial corrections checked against their current records. Mobile is a viewport, not a physical phone.",
+    "Live offline checks use browser simulation; actual HTTP-server shutdown performed locally.",
+    "The remaining 1200 questions await expanded per-question review; this is not a count of known errors or missing questions."
+  ],
+  "lookupRevisionFingerprints": [
+    {
+      "revisionId": "question-review-2026-10-28-014",
+      "occurrenceId": "c01-s02-p010-05625@390:398",
+      "sha256": "3f1c35d38c91722bcc39c64b5b0a8840e39e25f13b54a64c3b17e3e3b65c9119"
+    },
+    {
+      "revisionId": "question-review-2026-10-28-017",
+      "occurrenceId": "c01-s04-p013-05662@523:538",
+      "sha256": "e668951b5f0d67dc54eead608d4705f185d33b045e245438d51e00add8ec2342"
+    },
+    {
+      "revisionId": "question-review-2026-10-28-017",
+      "occurrenceId": "c01-s04-p013-05662@694:709",
+      "sha256": "779785898d0be134c0bfc0aed22cd7705803b476a9c3a4a0c2205b5d92278e1d"
+    }
+  ]
+}
