@@ -1,0 +1,716 @@
+{
+  "pdfSha256": "be25c859f1bd894a4b0d1cff024ded1297f6a96a8e8ddabea1e3abcf89160a50",
+  "sourceCommit": "4a683b376ea99f0f5753c80279a2d5b6d0b25836",
+  "frozenTargetsSourceCommit": "5707aeedb5769c29ec92765f946d3f5d3e4d4aff",
+  "questions": [
+    {
+      "id": "qe-c10-0155",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-045",
+      "parentQuestionId": "q-c10-092",
+      "chapterId": "c10",
+      "sectionId": "c10-s08",
+      "paragraphId": "c10-s08-p117-05040",
+      "readingUnitId": "c10-s08-p117-05040-r001-004",
+      "sentenceIds": [
+        "c10-s08-p117-05040-s001",
+        "c10-s08-p117-05040-s002",
+        "c10-s08-p117-05040-s003",
+        "c10-s08-p117-05040-s004"
+      ],
+      "passage": "The lesson here is that we like the idea of variety, but in the end we tend to choose the same old products. We like the idea of going to a different restaurant every week, but we actually tend to stick with our favorite restaurant again and again. In the planning phase, we seek variety. Imagining different snacks is exciting!",
+      "prompt": "At which stage does the author say people seek variety?",
+      "promptZh": "作者说人在哪个阶段追求多样性？",
+      "options": [
+        "The planning phase.",
+        "Only after every option has been physically consumed.",
+        "Exclusively when a purchase has already been completed.",
+        "A stage in which no imagined alternatives are available."
+      ],
+      "optionsZh": [
+        "计划阶段。",
+        "只有把每项都吃完后。",
+        "仅在已经完成购买时。",
+        "没有任何想象备选的阶段。"
+      ],
+      "answer": 0,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A In the planning phase 直接给阶段。",
+        "B 不是吃完后的回顾。",
+        "C 与本段 idea/imagining 不同，不把计划偷换为实施。",
+        "D 此时正有不同零食餐厅的想象，非无备选；不据一句话推成每个人每次计划都如此。"
+      ],
+      "vocabulary": [
+        {
+          "word": "phase",
+          "meaning": "阶段；过程中的一段",
+          "context": "在此为 planning 阶段，区别下一段 implementation 阶段，不是月相。",
+          "example": "The planning phase differed from the implementation phase.",
+          "collocations": [
+            "In the planning phase",
+            "we seek variety"
+          ]
+        }
+      ],
+      "translation": "这里的教训是，我们喜欢多样性的想法，最后却倾向选老产品。喜欢每周换家餐厅的想法，实际上却一次次去最爱的餐厅。在计划阶段，我们追求变化。想象不同零食令人兴奋！",
+      "evidenceTargetIds": [
+        "c10-s08-p117-05040-s003"
+      ],
+      "evidence": [
+        {
+          "quote": "The lesson here is that we like the idea of variety, but in the end we tend to choose the same old products. We like the idea of going to a different restaurant every week, but we actually tend to stick with our favorite restaurant again and again. In the planning phase, we seek variety. Imagining different snacks is exciting!",
+          "sentenceIds": [
+            "c10-s08-p117-05040-s001",
+            "c10-s08-p117-05040-s002",
+            "c10-s08-p117-05040-s003",
+            "c10-s08-p117-05040-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 117,
+              "block": 2,
+              "bbox": [
+                76.99,
+                504,
+                535.01,
+                694.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "a5107a508f8948f8428656314a8775da4be4db811c9b444d26a38ff43ff86317"
+    },
+    {
+      "id": "q-c10-093",
+      "version": 1,
+      "readingUnitId": "c10-s08-p117-05040-r005-008",
+      "chapterId": "c10",
+      "sectionId": "c10-s08",
+      "paragraphId": "c10-s08-p117-05040",
+      "sentenceIds": [
+        "c10-s08-p117-05040-s005",
+        "c10-s08-p117-05040-s006",
+        "c10-s08-p117-05040-s007",
+        "c10-s08-p117-05040-s008"
+      ],
+      "passage": "Imagining a hike in the Alps is exciting! In the implementation phase, however, we tend to seek familiarity and ease, because we become aware of other practical factors (e.g., a long flight to Switzerland). When faced with an actual choice, we tend to choose a sure “winner” rather than a risky product. We’ll settle for something familiar because trying something new is too much work.",
+      "prompt": "Why may implementation favor familiarity over novelty?",
+      "options": [
+        "Practical costs become salient when an imagined plan turns into an actual choice.",
+        "Long flights disappear from consideration when acting.",
+        "Every unfamiliar product is proven to fail.",
+        "Actual choices involve no effort or uncertainty."
+      ],
+      "answer": 0,
+      "type": "逻辑关系",
+      "promptZh": "为何实施时可能偏向熟悉而非新奇？",
+      "optionsZh": [
+        "想象变为实际选择时，现实成本变得显眼。",
+        "行动时长途飞行不再需考虑。",
+        "每个陌生产品都被证明失败。",
+        "实际选择完全不涉及努力或不确定。"
+      ],
+      "analyses": [
+        "A become aware...practical factors 给出原因，航程为例。",
+        "B long flight 恰进入考虑。",
+        "C risky 不是已证明失败。",
+        "D trying...too much work 强调费力。sure winner 的引号表示主观把握，不是市场收益保证。"
+      ],
+      "evidence": [
+        {
+          "quote": "we tend to seek familiarity and ease, because we become aware of other practical factors",
+          "sentenceIds": [
+            "c10-s08-p117-05040-s006"
+          ],
+          "sources": [
+            {
+              "pdfPage": 117,
+              "block": 2,
+              "bbox": [
+                76.99,
+                504,
+                535.01,
+                694.02
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "implementation",
+          "meaning": "实施；执行",
+          "context": "把计划落实成实际选择的阶段",
+          "example": "Implementation brought practical costs into focus.",
+          "collocations": [
+            "implementation phase",
+            "planning and implementation"
+          ]
+        }
+      ],
+      "translation": "想象去 Alps 徒步令人兴奋！但实施时，我们倾向寻找熟悉与轻松，因为注意到其他现实因素，例如飞去 Switzerland 的长途航程。实际选择时，我们往往选稳妥的“赢家”，不选有风险的产品。我们会满足于熟悉的，因为尝试新东西太费力。",
+      "support": "explicit",
+      "editorialStatus": "完整PDF115–118原页视觉核对与跨页拼接。搬迁心态实验区别真实迁居，焦虑用词相关不冒充独立随机中介操纵；Bates和购房经历为作者轶事，节目仅限作者观看且非盲评。杯子先设想后述实验典型结果，主观所有权估值非客观市价必升；零食计划与一次购买分开。英镑期望值非保证收益，原书称loss aversion但当前正向收益例不编损失条件、不视作独立证明；条件式舒适区论证不扩为无条件冒险。保留旧题和句界，不宣称逐句证据全覆盖。",
+      "fingerprint": "d5ca2facc2daedd210c8ea16eff554d4813ee28689c5e08bf7334a03b561f424"
+    },
+    {
+      "id": "q-c10-095",
+      "version": 1,
+      "readingUnitId": "c10-s08-p118-01140-r001-004",
+      "chapterId": "c10",
+      "sectionId": "c10-s08",
+      "paragraphId": "c10-s08-p118-01140",
+      "sentenceIds": [
+        "c10-s08-p118-01140-s001",
+        "c10-s08-p118-01140-s002",
+        "c10-s08-p118-01140-s003",
+        "c10-s08-p118-01140-s004"
+      ],
+      "passage": "This is also related to a larger human tendency: loss aversion. Daniel Kahneman and Amos Tversky asked subjects: Given a 50 percent chance of winning £1,000 vs. a 100 percent chance of winning £450, which would you prefer? Logically, we are supposed to choose the former because its expected value is £500, which is greater than the expected value of the latter, £450. Nevertheless, most of us would choose the latter.",
+      "prompt": "Which option has the higher expected monetary value in the example?",
+      "options": [
+        "The certain £450, with an expected value of £1,000.",
+        "Both options have an expected value of £450.",
+        "The 50 percent chance of £1,000, with an expected value of £500.",
+        "The certain £450, with an expected value of £500."
+      ],
+      "answer": 2,
+      "type": "细节",
+      "promptZh": "例中哪项的货币期望值更高？",
+      "optionsZh": [
+        "确定四百五十镑，期望一千。",
+        "两项期望都四百五十镑。",
+        "一半概率得一千镑，期望五百。",
+        "确定四百五十镑，期望五百。"
+      ],
+      "analyses": [
+        "A 确定四百五十的期望仍四百五十。",
+        "B 风险选项为 0.5×1000=500。",
+        "C 原文给出五百大于四百五十；期望不是保证拿到五百。",
+        "D 混淆两项数值。作者按期望值说逻辑上应选前者，不代表所有效用偏好都等价于货币期望最大化；这里只问计算。"
+      ],
+      "evidence": [
+        {
+          "quote": "its expected value is £500, which is greater than the expected value of the latter, £450.",
+          "sentenceIds": [
+            "c10-s08-p118-01140-s003"
+          ],
+          "sources": [
+            {
+              "pdfPage": 118,
+              "block": 1,
+              "bbox": [
+                76.99,
+                114,
+                535.01,
+                362.52
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "expected value",
+          "meaning": "期望值",
+          "context": "按概率加权的货币均值，不是保证收益",
+          "example": "The expected value differs from the guaranteed payment.",
+          "collocations": [
+            "expected monetary value",
+            "calculate an expected value"
+          ]
+        }
+      ],
+      "translation": "这还关联更普遍的人类倾向：损失厌恶。Daniel Kahneman 和 Amos Tversky 问参与者：一半概率赢一千镑，与确定赢四百五十镑，喜欢哪个？按作者所说的逻辑，我们应选前者，因为期望五百镑，高于后者四百五十镑。尽管如此，多数人会选后者。",
+      "support": "explicit",
+      "editorialStatus": "完整PDF115–118原页视觉核对与跨页拼接。搬迁心态实验区别真实迁居，焦虑用词相关不冒充独立随机中介操纵；Bates和购房经历为作者轶事，节目仅限作者观看且非盲评。杯子先设想后述实验典型结果，主观所有权估值非客观市价必升；零食计划与一次购买分开。英镑期望值非保证收益，原书称loss aversion但当前正向收益例不编损失条件、不视作独立证明；条件式舒适区论证不扩为无条件冒险。保留旧题和句界，不宣称逐句证据全覆盖。",
+      "fingerprint": "ce44c695ed67f751b2a95827ce059ee2a0969baff57b58aa453e28fff28dc46c"
+    },
+    {
+      "id": "qe-c10-0161",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-045",
+      "parentQuestionId": "q-c10-095",
+      "chapterId": "c10",
+      "sectionId": "c10-s08",
+      "paragraphId": "c10-s08-p118-01140",
+      "readingUnitId": "c10-s08-p118-01140-r001-004",
+      "sentenceIds": [
+        "c10-s08-p118-01140-s001",
+        "c10-s08-p118-01140-s002",
+        "c10-s08-p118-01140-s003",
+        "c10-s08-p118-01140-s004"
+      ],
+      "passage": "This is also related to a larger human tendency: loss aversion. Daniel Kahneman and Amos Tversky asked subjects: Given a 50 percent chance of winning £1,000 vs. a 100 percent chance of winning £450, which would you prefer? Logically, we are supposed to choose the former because its expected value is £500, which is greater than the expected value of the latter, £450. Nevertheless, most of us would choose the latter.",
+      "prompt": "What tendency does the author name at the start of the next paragraph?",
+      "promptZh": "下一段开头作者点名什么倾向？",
+      "options": [
+        "Loss aversion.",
+        "The mere exposure effect alone, with no connection to another tendency.",
+        "The endowment effect as an ownership-price phenomenon.",
+        "Essentialism as a fixed-label approach to people and things."
+      ],
+      "optionsZh": [
+        "损失厌恶。",
+        "仅单纯曝光效应，未联系其他倾向。",
+        "作为所有权估值现象的禀赋效应。",
+        "给人和事固定标签的本质化。"
+      ],
+      "answer": 0,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A 冒号后 loss aversion 直接命名，保留这是原书连接的概念。",
+        "B This is also related to a larger tendency 后明确命名另一概念。",
+        "C 是前面的相关主题，本句冒号后实际点名 loss aversion。",
+        "D 本质化属先前阅读复杂性讨论，不是此句名称。"
+      ],
+      "vocabulary": [
+        {
+          "word": "aversion",
+          "meaning": "厌恶；回避某种不利可能的倾向",
+          "context": "loss aversion 为本书点名概念，不能理解为主动追求损失。",
+          "example": "The passage links the choice to an aversion to possible loss.",
+          "collocations": [
+            "loss aversion",
+            "a larger human tendency"
+          ]
+        }
+      ],
+      "translation": "这还关联更普遍的人类倾向：损失厌恶。Daniel Kahneman 和 Amos Tversky 问参与者：一半概率赢一千镑，与确定赢四百五十镑，喜欢哪个？按作者所说的逻辑，我们应选前者，因为期望五百镑，高于后者四百五十镑。尽管如此，多数人会选后者。",
+      "evidenceTargetIds": [
+        "c10-s08-p118-01140-s001"
+      ],
+      "evidence": [
+        {
+          "quote": "This is also related to a larger human tendency: loss aversion. Daniel Kahneman and Amos Tversky asked subjects: Given a 50 percent chance of winning £1,000 vs. a 100 percent chance of winning £450, which would you prefer? Logically, we are supposed to choose the former because its expected value is £500, which is greater than the expected value of the latter, £450. Nevertheless, most of us would choose the latter.",
+          "sentenceIds": [
+            "c10-s08-p118-01140-s001",
+            "c10-s08-p118-01140-s002",
+            "c10-s08-p118-01140-s003",
+            "c10-s08-p118-01140-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 118,
+              "block": 1,
+              "bbox": [
+                76.99,
+                114,
+                535.01,
+                362.52
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "25101271b76d84b7f9f8e24b782e647b6527a4c7b72466f376ee0680eaef7c08"
+    },
+    {
+      "id": "qe-c10-0164",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-045",
+      "parentQuestionId": "q-c10-096",
+      "chapterId": "c10",
+      "sectionId": "c10-s08",
+      "paragraphId": "c10-s08-p118-01140",
+      "readingUnitId": "c10-s08-p118-01140-r005-008",
+      "sentenceIds": [
+        "c10-s08-p118-01140-s005",
+        "c10-s08-p118-01140-s006",
+        "c10-s08-p118-01140-s007",
+        "c10-s08-p118-01140-s008"
+      ],
+      "passage": "We want a sure gain rather than a hypothetical gain, even when the hypothetical gain could be larger than the sure gain. A sure win is pleasant and comfortable. A hypothetical win is risky, anxiety-provoking, and uncomfortable. Loss aversion makes us conservative in many decision-making situations.",
+      "prompt": "What preference is described by 'a sure gain rather than a hypothetical gain'?",
+      "promptZh": "a sure gain rather than a hypothetical gain 描写什么偏好？",
+      "options": [
+        "The two gains are guaranteed to have identical probabilities.",
+        "The uncertain offer is said to have no possible monetary value.",
+        "Certainty is preferred even though an uncertain gain could be larger.",
+        "The text requires every reader to take the largest risky offer."
+      ],
+      "optionsZh": [
+        "两种收益概率保证相同。",
+        "不确定方案被说成绝无可能金额价值。",
+        "即使不确定收益可能更大，人仍偏确定。",
+        "文本要求每位读者选最大风险方案。"
+      ],
+      "answer": 2,
+      "type": "逻辑关系",
+      "support": "explicit",
+      "analyses": [
+        "A sure 与 hypothetical/risky 作差别，不是同概率。",
+        "B could be larger 明说可能金额，非零可能价值。",
+        "C rather than 与 even when 构成偏好和让步，区分舒适确定与风险预期。",
+        "D 作者描述倾向，不是对用户现实行动命令；也未规定所有人必须有相同风险偏好。"
+      ],
+      "vocabulary": [
+        {
+          "word": "hypothetical gain",
+          "meaning": "假设可能取得的收益；尚不确定的收益",
+          "context": "在此与 sure 对照，不表示实际每次收到或逻辑上绝不可能。",
+          "example": "The example contrasts a certain gain with a hypothetical gain.",
+          "collocations": [
+            "a sure gain rather than a hypothetical gain",
+            "could be larger"
+          ]
+        }
+      ],
+      "translation": "我们想要确定收益而非假设可能获得的收益，即使后者可能更大。确定获胜令人愉快舒适。可能的获胜有风险，引人焦虑、不舒服。损失厌恶使我们在许多决策情境中趋于保守。",
+      "evidenceTargetIds": [
+        "c10-s08-p118-01140-s005"
+      ],
+      "evidence": [
+        {
+          "quote": "We want a sure gain rather than a hypothetical gain, even when the hypothetical gain could be larger than the sure gain. A sure win is pleasant and comfortable. A hypothetical win is risky, anxiety-provoking, and uncomfortable. Loss aversion makes us conservative in many decision-making situations.",
+          "sentenceIds": [
+            "c10-s08-p118-01140-s005",
+            "c10-s08-p118-01140-s006",
+            "c10-s08-p118-01140-s007",
+            "c10-s08-p118-01140-s008"
+          ],
+          "sources": [
+            {
+              "pdfPage": 118,
+              "block": 1,
+              "bbox": [
+                76.99,
+                114,
+                535.01,
+                362.52
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "eb8b0b85b08810463740bd0f4ead82cae28e2cb30b09def04b9c9f3bbf417d14"
+    },
+    {
+      "id": "qe-c10-0165",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-045",
+      "parentQuestionId": "q-c10-096",
+      "chapterId": "c10",
+      "sectionId": "c10-s08",
+      "paragraphId": "c10-s08-p118-01140",
+      "readingUnitId": "c10-s08-p118-01140-r005-008",
+      "sentenceIds": [
+        "c10-s08-p118-01140-s005",
+        "c10-s08-p118-01140-s006",
+        "c10-s08-p118-01140-s007",
+        "c10-s08-p118-01140-s008"
+      ],
+      "passage": "We want a sure gain rather than a hypothetical gain, even when the hypothetical gain could be larger than the sure gain. A sure win is pleasant and comfortable. A hypothetical win is risky, anxiety-provoking, and uncomfortable. Loss aversion makes us conservative in many decision-making situations.",
+      "prompt": "What does 'conservative' mean in the decision-making sentence?",
+      "promptZh": "决策句中的 conservative 是什么意思？",
+      "options": [
+        "Cautious about risk or reluctant to leave a secure option.",
+        "A statement of every participant's political party membership.",
+        "A requirement to preserve every object in a museum.",
+        "A guarantee of choosing the highest monetary expectation every time."
+      ],
+      "optionsZh": [
+        "对风险谨慎，或不愿离开稳妥选项。",
+        "每位参与者政治党籍的声明。",
+        "保全每件博物馆物品的要求。",
+        "保证每次选择最高金额期望。"
+      ],
+      "answer": 0,
+      "type": "语境词义",
+      "support": "explicit",
+      "analyses": [
+        "A 连到确定收益舒服、风险焦虑，表示求稳，限定 many decision situations。",
+        "B 此处不是政治身份分类。",
+        "C 不在谈文物保存。",
+        "D 段落正描述可能偏确定而非最高金额期望，不能反写或扩大 always。"
+      ],
+      "vocabulary": [
+        {
+          "word": "conservative",
+          "meaning": "谨慎保守的；不愿冒险的",
+          "context": "本段为选择风险倾向，不是给读者或受试者推断政治立场。",
+          "example": "The decision-maker took a conservative approach to uncertain options.",
+          "collocations": [
+            "conservative in many decision-making situations",
+            "loss aversion"
+          ]
+        }
+      ],
+      "translation": "我们想要确定收益而非假设可能获得的收益，即使后者可能更大。确定获胜令人愉快舒适。可能的获胜有风险，引人焦虑、不舒服。损失厌恶使我们在许多决策情境中趋于保守。",
+      "evidenceTargetIds": [
+        "c10-s08-p118-01140-s008"
+      ],
+      "evidence": [
+        {
+          "quote": "We want a sure gain rather than a hypothetical gain, even when the hypothetical gain could be larger than the sure gain. A sure win is pleasant and comfortable. A hypothetical win is risky, anxiety-provoking, and uncomfortable. Loss aversion makes us conservative in many decision-making situations.",
+          "sentenceIds": [
+            "c10-s08-p118-01140-s005",
+            "c10-s08-p118-01140-s006",
+            "c10-s08-p118-01140-s007",
+            "c10-s08-p118-01140-s008"
+          ],
+          "sources": [
+            {
+              "pdfPage": 118,
+              "block": 1,
+              "bbox": [
+                76.99,
+                114,
+                535.01,
+                362.52
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "f79f6b82cf90000c9e0d5b364b39474de2b7be3fe8177cbc211b91ffe3f059e2"
+    },
+    {
+      "id": "q-c10-097",
+      "version": 1,
+      "readingUnitId": "c10-s08-p118-01140-r009-010",
+      "chapterId": "c10",
+      "sectionId": "c10-s08",
+      "paragraphId": "c10-s08-p118-01140",
+      "sentenceIds": [
+        "c10-s08-p118-01140-s009",
+        "c10-s08-p118-01140-s010"
+      ],
+      "passage": "But if we always chose a sure bet, we would never venture outside of our comfort zone. If we never ventured outside of our comfort zone, we would never encounter anything unexpected.",
+      "prompt": "What consequence follows from always choosing the sure bet in the author’s argument?",
+      "options": [
+        "We would miss unexpected experiences by never leaving our comfort zone.",
+        "We would guarantee a psychologically rich life.",
+        "Unexpected experiences would become certain.",
+        "All risky choices would automatically become desirable."
+      ],
+      "answer": 0,
+      "type": "推断",
+      "promptZh": "按作者论证，总选稳妥选项会有什么后果？",
+      "optionsZh": [
+        "不离开舒适区，便错过意外体验。",
+        "保证心理丰富人生。",
+        "意外体验会变成确定事件。",
+        "所有风险选择自动值得做。"
+      ],
+      "analyses": [
+        "A 两个 if 连成假设链：总求稳→不出舒适区→不遇意外。",
+        "B 与作者担心失去探索相反。",
+        "C unexpected 不是把意外确定化。",
+        "D 论述代价不等于劝做每种风险行为。保留 always 与条件句，不把有限论证扩大为无条件冒险要求。"
+      ],
+      "evidence": [
+        {
+          "quote": "If we never ventured outside of our comfort zone, we would never encounter anything unexpected.",
+          "sentenceIds": [
+            "c10-s08-p118-01140-s010"
+          ],
+          "sources": [
+            {
+              "pdfPage": 118,
+              "block": 1,
+              "bbox": [
+                76.99,
+                114,
+                535.01,
+                362.52
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "venture",
+          "meaning": "冒险前往；大胆迈出",
+          "context": "走出熟悉舒适范围，不必等于危险行动",
+          "example": "They ventured beyond their usual routine.",
+          "collocations": [
+            "venture outside a comfort zone",
+            "venture into unfamiliar territory"
+          ]
+        }
+      ],
+      "translation": "但如果我们总选稳妥的一注，就永远不会走出舒适区。如果永远不走出舒适区，就永远遇不到任何意料之外的事。",
+      "support": "explicit",
+      "editorialStatus": "完整PDF115–118原页视觉核对与跨页拼接。搬迁心态实验区别真实迁居，焦虑用词相关不冒充独立随机中介操纵；Bates和购房经历为作者轶事，节目仅限作者观看且非盲评。杯子先设想后述实验典型结果，主观所有权估值非客观市价必升；零食计划与一次购买分开。英镑期望值非保证收益，原书称loss aversion但当前正向收益例不编损失条件、不视作独立证明；条件式舒适区论证不扩为无条件冒险。保留旧题和句界，不宣称逐句证据全覆盖。",
+      "fingerprint": "03321c97687dc4056d247b5d92009be5e8489d7c4ddb464259cf0323eb4c8733"
+    },
+    {
+      "id": "qe-c10-0168",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-045",
+      "parentQuestionId": "q-c10-098",
+      "chapterId": "c10",
+      "sectionId": "c10-s08",
+      "paragraphId": "c10-s08-p118-03675",
+      "readingUnitId": "c10-s08-p118-03675-r001-004",
+      "sentenceIds": [
+        "c10-s08-p118-03675-s001",
+        "c10-s08-p118-03675-s002",
+        "c10-s08-p118-03675-s003",
+        "c10-s08-p118-03675-s004"
+      ],
+      "passage": "There is endless empirical and real-life evidence for the mere exposure effect and the power of familiarity or certainty, which seems to spell doom for psychological richness. At the same time, there is an interesting twist here. We may not know what we want. We tend to think it won’t be fun to talk to a stranger.",
+      "prompt": "What possibility is introduced by 'an interesting twist here'?",
+      "promptZh": "an interesting twist here 引入什么可能性？",
+      "options": [
+        "People must always prefer solitude in actual experience.",
+        "No one has any prediction about unfamiliar events.",
+        "Every forecast has already been measured as perfectly accurate.",
+        "People may misunderstand what they want or expect to enjoy."
+      ],
+      "optionsZh": [
+        "人实际体验必须总偏独处。",
+        "无人对陌生事件有预测。",
+        "每个预测已测为完全准确。",
+        "人可能误解自己想要或会享受什么。"
+      ],
+      "answer": 3,
+      "type": "篇章结构",
+      "support": "explicit",
+      "analyses": [
+        "A 当前 parent 说 tend think不fun，不是实际结论总独处好。",
+        "B 反而举预计陌生交谈不快乐。",
+        "C We may not know 表怀疑预测准确，非全准。",
+        "D 紧后句 may not know what we want 给转折内容；当前片段尚未给新实验结果，不凭空当已证每人都错。"
+      ],
+      "vocabulary": [
+        {
+          "word": "twist",
+          "meaning": "转折；改变原先理解的意外发展",
+          "context": "此处为论证方向的变化，不是身体扭转或研究数据被篡改。",
+          "example": "The comparison introduced a twist in the argument.",
+          "collocations": [
+            "an interesting twist",
+            "At the same time"
+          ]
+        }
+      ],
+      "translation": "单纯曝光效应及熟悉、确定性的力量有无数实证和现实证据，似乎让心理丰富前景黯淡。同时，这里有个有趣转折：我们可能不知道自己想要什么。我们倾向认为与陌生人交谈不好玩。",
+      "evidenceTargetIds": [
+        "c10-s08-p118-03675-s002"
+      ],
+      "evidence": [
+        {
+          "quote": "There is endless empirical and real-life evidence for the mere exposure effect and the power of familiarity or certainty, which seems to spell doom for psychological richness. At the same time, there is an interesting twist here. We may not know what we want. We tend to think it won’t be fun to talk to a stranger.",
+          "sentenceIds": [
+            "c10-s08-p118-03675-s001",
+            "c10-s08-p118-03675-s002",
+            "c10-s08-p118-03675-s003",
+            "c10-s08-p118-03675-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 118,
+              "block": 2,
+              "bbox": [
+                76.99,
+                367.5,
+                535.01,
+                713.52
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "0f59edac8c3af1ebb496b14ba167c1db3eb415e4ac98c5d3c5094d5949e7dfc5"
+    },
+    {
+      "id": "qe-c10-0169",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-045",
+      "parentQuestionId": "q-c10-098",
+      "chapterId": "c10",
+      "sectionId": "c10-s08",
+      "paragraphId": "c10-s08-p118-03675",
+      "readingUnitId": "c10-s08-p118-03675-r001-004",
+      "sentenceIds": [
+        "c10-s08-p118-03675-s001",
+        "c10-s08-p118-03675-s002",
+        "c10-s08-p118-03675-s003",
+        "c10-s08-p118-03675-s004"
+      ],
+      "passage": "There is endless empirical and real-life evidence for the mere exposure effect and the power of familiarity or certainty, which seems to spell doom for psychological richness. At the same time, there is an interesting twist here. We may not know what we want. We tend to think it won’t be fun to talk to a stranger.",
+      "prompt": "What kind of statement is 'We tend to think it won’t be fun to talk to a stranger'?",
+      "promptZh": "We tend to think...not fun to talk to a stranger 是哪类陈述？",
+      "options": [
+        "An anticipated evaluation, not a report of how all actual conversations felt.",
+        "A measured result that every stranger interaction was unpleasant.",
+        "A statement that nobody has ever spoken with a stranger.",
+        "A guarantee that every person deliberately avoids all social contact."
+      ],
+      "optionsZh": [
+        "预期评价，不是所有实际交谈感受的报告。",
+        "每次陌生互动都不愉快的实测结果。",
+        "无人曾与陌生人说话的声明。",
+        "保证每人故意避开全部交往。"
+      ],
+      "answer": 0,
+      "type": "证据判断",
+      "support": "explicit",
+      "analyses": [
+        "A tend to think 和 won’t be 将评价放在预想，区别实际经历。",
+        "B 将想象负面升级为全部实测。",
+        "C 不fun的预期不等于从来没发生交谈。",
+        "D tend 不是 every，think 也非全部实际回避行为；不为读者编造社交史。"
+      ],
+      "vocabulary": [
+        {
+          "word": "tend to think",
+          "meaning": "倾向认为；常作某种预期判断",
+          "context": "是一般看法趋势，不自动对应实际结果或每人行为。",
+          "example": "People may tend to think an unfamiliar task will be unpleasant.",
+          "collocations": [
+            "We tend to think",
+            "it won’t be fun"
+          ]
+        }
+      ],
+      "translation": "单纯曝光效应及熟悉、确定性的力量有无数实证和现实证据，似乎让心理丰富前景黯淡。同时，这里有个有趣转折：我们可能不知道自己想要什么。我们倾向认为与陌生人交谈不好玩。",
+      "evidenceTargetIds": [
+        "c10-s08-p118-03675-s004"
+      ],
+      "evidence": [
+        {
+          "quote": "There is endless empirical and real-life evidence for the mere exposure effect and the power of familiarity or certainty, which seems to spell doom for psychological richness. At the same time, there is an interesting twist here. We may not know what we want. We tend to think it won’t be fun to talk to a stranger.",
+          "sentenceIds": [
+            "c10-s08-p118-03675-s001",
+            "c10-s08-p118-03675-s002",
+            "c10-s08-p118-03675-s003",
+            "c10-s08-p118-03675-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 118,
+              "block": 2,
+              "bbox": [
+                76.99,
+                367.5,
+                535.01,
+                713.52
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "03ac048d6aa89b3f052f6dcf89563d38ef7018317d7a1ed06abd55db75b18528"
+    }
+  ]
+}

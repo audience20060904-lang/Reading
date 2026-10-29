@@ -1,0 +1,224 @@
+{
+  "schemaVersion": 1,
+  "id": "question-review-2026-10-28-096",
+  "pdfSha256": "be25c859f1bd894a4b0d1cff024ded1297f6a96a8e8ddabea1e3abcf89160a50",
+  "scope": "Review frozen 23 questions /24 source candidates on actual PDF117-118, with complete paragraph context through119. Planning and implementation, long/short preferences, monetary expectations and the book-named loss-aversion discussion, comfort-zone conditional chain and predicted stranger interaction. Complete evidence for implementation conditions, offers and two linked conditionals; retain correct qualified statements. Source text, answer keys and historical results unchanged.",
+  "questions": [
+    {
+      "id": "qe-c10-0155",
+      "reason": "词境不依赖下一片段的implementation。",
+      "updates": {
+        "vocabulary": [
+          {
+            "word": "phase",
+            "meaning": "阶段；过程中的一段",
+            "context": "这里指 planning，即预先设想与安排的阶段；不是月相。",
+            "example": "The planning phase differed from the implementation phase.",
+            "collocations": [
+              "In the planning phase",
+              "we seek variety"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-c10-093",
+      "reason": "完整实施阶段句保however、tend及长途航程实例，旧引ID来源保持。",
+      "updates": {
+        "evidence": [
+          {
+            "quote": "In the implementation phase, however, we tend to seek familiarity and ease, because we become aware of other practical factors (e.g., a long flight to Switzerland).",
+            "sentenceIds": [
+              "c10-s08-p117-05040-s006"
+            ],
+            "sources": [
+              {
+                "pdfPage": 117,
+                "block": 2,
+                "bbox": [
+                  76.99,
+                  504,
+                  535.01,
+                  694.02
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-c10-095",
+      "reason": "比较前后者期望的完整主句及两报价概率完整入证，500为计算值非确定支付，旧ID来源保持。",
+      "updates": {
+        "evidence": [
+          {
+            "quote": "Logically, we are supposed to choose the former because its expected value is £500, which is greater than the expected value of the latter, £450.",
+            "sentenceIds": [
+              "c10-s08-p118-01140-s003"
+            ],
+            "sources": [
+              {
+                "pdfPage": 118,
+                "block": 1,
+                "bbox": [
+                  76.99,
+                  114,
+                  535.01,
+                  362.52
+                ]
+              }
+            ]
+          },
+          {
+            "quote": "Daniel Kahneman and Amos Tversky asked subjects: Given a 50 percent chance of winning £1,000 vs. a 100 percent chance of winning £450, which would you prefer?",
+            "sentenceIds": [
+              "c10-s08-p118-01140-s002"
+            ],
+            "sources": [
+              {
+                "pdfPage": 118,
+                "block": 1,
+                "bbox": [
+                  76.99,
+                  114,
+                  535.01,
+                  362.52
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "qe-c10-0161",
+      "reason": "干扰概念不要求未显示前章定义与归属，解析只当前命名。；当前片段独立解释及文字校正。；当前片段独立解释及文字校正。",
+      "updates": {
+        "options": [
+          "Loss aversion.",
+          "The mere exposure effect alone, with no connection to another tendency.",
+          "The endowment effect.",
+          "Essentialism."
+        ],
+        "optionsZh": [
+          "损失厌恶。",
+          "仅单纯曝光效应，未联系其他倾向。",
+          "禀赋效应。",
+          "本质化。"
+        ],
+        "analyses": [
+          "A 冒号后 loss aversion 直接命名，保留这是原书连接的概念。",
+          "B This is also related to a larger tendency 后明确命名另一概念。",
+          "C 当前冒号后明确写的是 loss aversion，并非 endowment effect。",
+          "D 此句点名 loss aversion，而非 essentialism。"
+        ]
+      }
+    },
+    {
+      "id": "qe-c10-0164",
+      "reason": "当前片段独立解释及文字校正。",
+      "updates": {
+        "analyses": [
+          "A sure 与 hypothetical/risky 作差别，不是同概率。",
+          "B could be larger 明说可能金额，非零可能价值。",
+          "C rather than 与 even when 构成偏好和让步，区分舒适确定与风险预期。",
+          "D 这段描述偏好确定收益，并没有要求所有人都选择金额最大的风险项。"
+        ]
+      }
+    },
+    {
+      "id": "qe-c10-0165",
+      "reason": "当前片段独立解释及文字校正。；词境只释风险求稳而非读者分类。",
+      "updates": {
+        "analyses": [
+          "A 连到确定收益舒服、风险焦虑，表示求稳，限定 many decision situations。",
+          "B 此处不是政治身份分类。",
+          "C 不在谈文物保存。",
+          "D 对风险求稳不等于保证每次都选中货币期望值最高的方案；many decision-making situations 也不等于 every time。"
+        ],
+        "vocabulary": [
+          {
+            "word": "conservative",
+            "meaning": "谨慎保守的；不愿冒险的",
+            "context": "这里指决策时对风险谨慎、偏向稳妥选项，不是在谈政治党派。",
+            "example": "The decision-maker took a conservative approach to uncertain options.",
+            "collocations": [
+              "conservative in many decision-making situations",
+              "loss aversion"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-c10-097",
+      "reason": "总选surebet到不出舒适区的第一条件句补齐，两if链完整；原第二条件引文不动。",
+      "updates": {
+        "evidence": [
+          {
+            "quote": "If we never ventured outside of our comfort zone, we would never encounter anything unexpected.",
+            "sentenceIds": [
+              "c10-s08-p118-01140-s010"
+            ],
+            "sources": [
+              {
+                "pdfPage": 118,
+                "block": 1,
+                "bbox": [
+                  76.99,
+                  114,
+                  535.01,
+                  362.52
+                ]
+              }
+            ]
+          },
+          {
+            "quote": "But if we always chose a sure bet, we would never venture outside of our comfort zone.",
+            "sentenceIds": [
+              "c10-s08-p118-01140-s009"
+            ],
+            "sources": [
+              {
+                "pdfPage": 118,
+                "block": 1,
+                "bbox": [
+                  76.99,
+                  114,
+                  535.01,
+                  362.52
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "qe-c10-0168",
+      "reason": "当前片段独立解释及文字校正。",
+      "updates": {
+        "analyses": [
+          "A 当前说的是对陌生交谈是否好玩的预期，并没有说实际体验总是独处更好。",
+          "B 反而举预计陌生交谈不快乐。",
+          "C We may not know 表怀疑预测准确，非全准。",
+          "D 紧后句 may not know what we want 给转折内容；当前片段尚未给新实验结果，不凭空当已证每人都错。"
+        ]
+      }
+    },
+    {
+      "id": "qe-c10-0169",
+      "reason": "当前片段独立解释及文字校正。",
+      "updates": {
+        "analyses": [
+          "A tend to think 和 won’t be 将评价放在预想，区别实际经历。",
+          "B 将想象负面升级为全部实测。",
+          "C 不fun的预期不等于从来没发生交谈。",
+          "D tend 表示倾向而非每个人，think 描述看法而非已经避开全部社交的行为。"
+        ]
+      }
+    }
+  ]
+}
