@@ -1,0 +1,1753 @@
+{
+  "schemaVersion": 1,
+  "batchId": "question-review-2026-10-28-086",
+  "sourceCommit": "c2f2ca116d575359e6d6d2411f4adf73576c9cce",
+  "pdfSha256": "be25c859f1bd894a4b0d1cff024ded1297f6a96a8e8ddabea1e3abcf89160a50",
+  "frozenAt": "2026-10-29T14:28:28.495Z",
+  "questions": [
+    {
+      "id": "q-c10-004",
+      "version": 1,
+      "readingUnitId": "c10-s01-p103-05212-r005-006",
+      "chapterId": "c10",
+      "sectionId": "c10-s01",
+      "paragraphId": "c10-s01-p103-05212",
+      "sentenceIds": [
+        "c10-s01-p103-05212-s005",
+        "c10-s01-p103-05212-s006"
+      ],
+      "passage": "When one patch was far better than the other (e.g., 50 percent difference in food availability), the great tits explored a bit (about ten hops), figured out which one was better, and stuck with the better one, or “exploited” it. When the difference in food availability was small (e.g., 10 percent difference), they explored a lot more (over forty hops on average) before settling on the slightly better one.",
+      "prompt": "How did exploration differ when the food gap was smaller?",
+      "options": [
+        "The birds explored more, averaging over forty hops before settling.",
+        "They always stopped after exactly ten hops.",
+        "They explored less because the better patch was obvious.",
+        "Forty percent of the birds refused to choose any patch."
+      ],
+      "answer": 0,
+      "type": "细节",
+      "promptZh": "食物供应差距较小时，探索怎样不同？",
+      "optionsZh": [
+        "探索更多，定下来前平均跳四十多次。",
+        "总在恰好十跳停止。",
+        "因为优势明显而探索更少。",
+        "百分之四十的鸟拒绝选择。"
+      ],
+      "analyses": [
+        "A small...10 percent difference 对应 over forty hops on average。",
+        "B about ten 是差距大时，about 也不是精确十次。",
+        "C 差距小反而 a lot more。",
+        "D forty 是跳跃次数，不是鸟的百分比。50%与10%是食物供应差异，不能和行为次数或样本比例互换。"
+      ],
+      "evidence": [
+        {
+          "quote": "When the difference in food availability was small",
+          "sentenceIds": [
+            "c10-s01-p103-05212-s006"
+          ],
+          "sources": [
+            {
+              "pdfPage": 103,
+              "block": 6,
+              "bbox": [
+                76.99,
+                521.25,
+                535.01,
+                691.77
+              ]
+            },
+            {
+              "pdfPage": 104,
+              "block": 0,
+              "bbox": [
+                76.99,
+                75,
+                535,
+                109.02
+              ]
+            }
+          ]
+        },
+        {
+          "quote": "they explored a lot more (over forty hops on average)",
+          "sentenceIds": [
+            "c10-s01-p103-05212-s006"
+          ],
+          "sources": [
+            {
+              "pdfPage": 103,
+              "block": 6,
+              "bbox": [
+                76.99,
+                521.25,
+                535.01,
+                691.77
+              ]
+            },
+            {
+              "pdfPage": 104,
+              "block": 0,
+              "bbox": [
+                76.99,
+                75,
+                535,
+                109.02
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "exploited",
+          "meaning": "利用；持续使用已发现的资源",
+          "context": "这里是找到较优觅食点后留在那里利用，不是道德意义的剥削",
+          "example": "After testing several routes, the team exploited the most reliable one.",
+          "collocations": [
+            "explore then exploit",
+            "exploit a better food patch"
+          ]
+        }
+      ],
+      "translation": "当一片明显优于另一片，例如食物供应差50%，大山雀只探索少许，约十跳，就找出更好的一片并留在那里“利用”它。差距较小时，例如10%，它们探索多得多，平均四十多跳，才定在稍好的一片。",
+      "support": "explicit",
+      "editorialStatus": "PDF第102–107页原页核对；引述/设问/调查偏好/模拟/历史叙事分开；百分比与跳跃次数保持单位，37%模型不当现实保证；Very few保留省略回答原样，图4辅助材料不冒充已结构化",
+      "fingerprint": "fd8053aeaef3f1257355847e3df8268bd981ea81d5baf1600dc492a2c495ff8c"
+    },
+    {
+      "id": "qe-c10-0009",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-039",
+      "parentQuestionId": "q-c10-004",
+      "chapterId": "c10",
+      "sectionId": "c10-s01",
+      "paragraphId": "c10-s01-p103-05212",
+      "readingUnitId": "c10-s01-p103-05212-r005-006",
+      "sentenceIds": [
+        "c10-s01-p103-05212-s005",
+        "c10-s01-p103-05212-s006"
+      ],
+      "passage": "When one patch was far better than the other (e.g., 50 percent difference in food availability), the great tits explored a bit (about ten hops), figured out which one was better, and stuck with the better one, or “exploited” it. When the difference in food availability was small (e.g., 10 percent difference), they explored a lot more (over forty hops on average) before settling on the slightly better one.",
+      "prompt": "What did the birds do when one patch offered much more food?",
+      "promptZh": "一片区域食物明显更多时，鸟怎样行动？",
+      "options": [
+        "Explored forever without settling on any patch.",
+        "Immediately avoided the better patch in favour of the worse one.",
+        "Used over forty hops on average in the large-difference example.",
+        "Explored briefly, identified the better patch, and stayed to use it."
+      ],
+      "optionsZh": [
+        "一直探索，永不选择区域。",
+        "立即避开较好区而选较差区。",
+        "在差距大例子中平均四十多跳。",
+        "短暂探索、识别较好区，然后留在那利用。"
+      ],
+      "answer": 3,
+      "type": "逻辑关系",
+      "support": "explicit",
+      "analyses": [
+        "A stuck with better one 表明停止一味探索。",
+        "B 选择方向反了。",
+        "C over forty 属10%小差距，不能挪给50%大差距。",
+        "D about ten hops 后 figure out、stick with 构成先探索后利用；不把跳数改人数或把例示50%当所有情境。"
+      ],
+      "vocabulary": [
+        {
+          "word": "exploited",
+          "meaning": "利用已有较佳资源；持续从已知选项获益",
+          "context": "在觅食策略语境不是剥削他人，区别继续搜寻新选项的 exploration。",
+          "example": "After sampling the options, the animal exploited the better food source.",
+          "collocations": [
+            "stuck with the better one",
+            "explore then exploit"
+          ]
+        }
+      ],
+      "translation": "当一片明显优于另一片，例如食物供应差50%，大山雀只探索少许，约十跳，就找出更好的一片并留在那里“利用”它。差距较小时，例如10%，它们探索多得多，平均四十多跳，才定在稍好的一片。",
+      "evidenceTargetIds": [
+        "c10-s01-p103-05212-s005"
+      ],
+      "evidence": [
+        {
+          "quote": "When one patch was far better than the other (e.g., 50 percent difference in food availability), the great tits explored a bit (about ten hops), figured out which one was better, and stuck with the better one, or “exploited” it. When the difference in food availability was small (e.g., 10 percent difference), they explored a lot more (over forty hops on average) before settling on the slightly better one.",
+          "sentenceIds": [
+            "c10-s01-p103-05212-s005",
+            "c10-s01-p103-05212-s006"
+          ],
+          "sources": [
+            {
+              "pdfPage": 103,
+              "block": 6,
+              "bbox": [
+                76.99,
+                521.25,
+                535.01,
+                691.77
+              ]
+            },
+            {
+              "pdfPage": 104,
+              "block": 0,
+              "bbox": [
+                76.99,
+                75,
+                535,
+                109.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "0fce6426177bb9c0b285d037427f56ae44d013eb9d9ef106b50ea7256191ebd5"
+    },
+    {
+      "id": "q-c10-005",
+      "version": 1,
+      "readingUnitId": "c10-s01-p104-01140-r001-003",
+      "chapterId": "c10",
+      "sectionId": "c10-s01",
+      "paragraphId": "c10-s01-p104-01140",
+      "sentenceIds": [
+        "c10-s01-p104-01140-s001",
+        "c10-s01-p104-01140-s002",
+        "c10-s01-p104-01140-s003"
+      ],
+      "passage": "The scientists also ran computer simulations and compared simulated optimal results with the actual experimental data from the great tits. Shockingly, the great tits’ choices were almost identical to the ideal simulated behaviors. That is, great tits instinctively used an ideal, explore-then-exploit foraging strategy and adjusted the degree of exploration depending on the levels of food availability in different patches.",
+      "prompt": "Which summary preserves the comparison with computer simulations?",
+      "options": [
+        "The birds followed the simulated ideal perfectly in every observation.",
+        "The simulations showed that exploration never depends on food availability.",
+        "The scientists replaced actual observations with imaginary birds only.",
+        "The observed choices closely matched the ideal simulation, with exploration adjusted to the circumstances."
+      ],
+      "answer": 3,
+      "type": "同义改写",
+      "promptZh": "哪种概括保留了与计算机模拟的比较？",
+      "optionsZh": [
+        "每个观察中鸟都完美符合模拟。",
+        "模拟表明探索绝不随食物供应变。",
+        "研究只用想象的鸟取代实际观察。",
+        "观察选择非常接近理想模拟，探索程度按处境调整。"
+      ],
+      "analyses": [
+        "A almost identical 不等于完全无例外。",
+        "B adjusted...depending on...availability 明确会调整。",
+        "C compared...actual experimental data 同时有真实数据。",
+        "D closely matched 保留 almost，且保留策略随资源差异变动。这里是鸟类任务，不证明所有人的选择都最优。"
+      ],
+      "evidence": [
+        {
+          "quote": "the great tits’ choices were almost identical to the ideal simulated behaviors.",
+          "sentenceIds": [
+            "c10-s01-p104-01140-s002"
+          ],
+          "sources": [
+            {
+              "pdfPage": 104,
+              "block": 1,
+              "bbox": [
+                76.99,
+                114,
+                535.01,
+                226.02
+              ]
+            }
+          ]
+        },
+        {
+          "quote": "adjusted the degree of exploration depending on the levels of food availability",
+          "sentenceIds": [
+            "c10-s01-p104-01140-s003"
+          ],
+          "sources": [
+            {
+              "pdfPage": 104,
+              "block": 1,
+              "bbox": [
+                76.99,
+                114,
+                535.01,
+                226.02
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "instinctively",
+          "meaning": "本能地",
+          "context": "作者描述鸟采用策略的方式，不是鸟理解概率公式的证据",
+          "example": "The animal instinctively searched for shelter.",
+          "collocations": [
+            "instinctively use a strategy",
+            "respond instinctively"
+          ]
+        }
+      ],
+      "translation": "科学家还运行计算机模拟，把模拟最优结果与大山雀实际实验数据比较。令人惊讶的是，鸟的选择几乎与理想模拟行为相同。也就是说，大山雀本能地采用理想的先探索后利用觅食策略，并按不同区域食物供应调整探索程度。",
+      "support": "explicit",
+      "editorialStatus": "PDF第102–107页原页核对；引述/设问/调查偏好/模拟/历史叙事分开；百分比与跳跃次数保持单位，37%模型不当现实保证；Very few保留省略回答原样，图4辅助材料不冒充已结构化",
+      "fingerprint": "b6457f924ecc0575b5fa313e1cdb64a82aa58c250398988641054562841c8a25"
+    },
+    {
+      "id": "qe-c10-0010",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-039",
+      "parentQuestionId": "q-c10-005",
+      "chapterId": "c10",
+      "sectionId": "c10-s01",
+      "paragraphId": "c10-s01-p104-01140",
+      "readingUnitId": "c10-s01-p104-01140-r001-003",
+      "sentenceIds": [
+        "c10-s01-p104-01140-s001",
+        "c10-s01-p104-01140-s002",
+        "c10-s01-p104-01140-s003"
+      ],
+      "passage": "The scientists also ran computer simulations and compared simulated optimal results with the actual experimental data from the great tits. Shockingly, the great tits’ choices were almost identical to the ideal simulated behaviors. That is, great tits instinctively used an ideal, explore-then-exploit foraging strategy and adjusted the degree of exploration depending on the levels of food availability in different patches.",
+      "prompt": "What did the scientists compare with the birds' actual experimental data?",
+      "promptZh": "科学家把什么与鸟的实际实验数据比较？",
+      "options": [
+        "The birds' own written probability calculations.",
+        "Optimal outcomes generated by computer simulations.",
+        "The final grades of university seniors.",
+        "Only one untested story about a bird in a novel."
+      ],
+      "optionsZh": [
+        "鸟自己写出的概率计算。",
+        "计算机模拟产生的最优结果。",
+        "大学四年级最终成绩。",
+        "只有小说中一个未经测试的鸟故事。"
+      ],
+      "answer": 1,
+      "type": "研究设计",
+      "support": "explicit",
+      "analyses": [
+        "A 没有鸟会书面概率计算的声明。",
+        "B simulated optimal results 与 actual experimental data 两者明确区分。",
+        "C 学年调查是后例，不能混入模拟比较。",
+        "D ran simulations、actual data 表明非仅文学故事；几乎相同的结果也不等于鸟实际操作计算机。"
+      ],
+      "vocabulary": [
+        {
+          "word": "simulations",
+          "meaning": "模拟；用模型产生的情境或结果",
+          "context": "与实际观察数据分开，不能把模型输出冒充真实鸟观察。",
+          "example": "The researchers compared simulations with observations.",
+          "collocations": [
+            "ran computer simulations",
+            "simulated optimal results"
+          ]
+        }
+      ],
+      "translation": "科学家还运行计算机模拟，把模拟最优结果与大山雀实际实验数据比较。令人惊讶的是，鸟的选择几乎与理想模拟行为相同。也就是说，大山雀本能地采用理想的先探索后利用觅食策略，并按不同区域食物供应调整探索程度。",
+      "evidenceTargetIds": [
+        "c10-s01-p104-01140-s001"
+      ],
+      "evidence": [
+        {
+          "quote": "The scientists also ran computer simulations and compared simulated optimal results with the actual experimental data from the great tits. Shockingly, the great tits’ choices were almost identical to the ideal simulated behaviors. That is, great tits instinctively used an ideal, explore-then-exploit foraging strategy and adjusted the degree of exploration depending on the levels of food availability in different patches.",
+          "sentenceIds": [
+            "c10-s01-p104-01140-s001",
+            "c10-s01-p104-01140-s002",
+            "c10-s01-p104-01140-s003"
+          ],
+          "sources": [
+            {
+              "pdfPage": 104,
+              "block": 1,
+              "bbox": [
+                76.99,
+                114,
+                535.01,
+                226.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "78f93e589524d5f142f97a342dfe8720bb470fbeaa7eb85542f95853e2fba88c"
+    },
+    {
+      "id": "q-c10-006",
+      "version": 1,
+      "readingUnitId": "c10-s01-p104-02310-r001-003",
+      "chapterId": "c10",
+      "sectionId": "c10-s01",
+      "paragraphId": "c10-s01-p104-02310",
+      "sentenceIds": [
+        "c10-s01-p104-02310-s001",
+        "c10-s01-p104-02310-s002",
+        "c10-s01-p104-02310-s003"
+      ],
+      "passage": "By definition, a psychologically rich life leans toward “exploration” strategies rather than “exploitation” strategies. Like the great tits, people seem to vary their strategies according to their circumstances. In fall 2019, when we asked 585 UVA students what kind of college life they would like to have, we found that the degree to which they chose the psychologically rich life dramatically differed by what year of college they were in.",
+      "prompt": "What varied among the 585 UVA students surveyed in fall 2019?",
+      "options": [
+        "Whether every student had actually completed four years of follow-up.",
+        "Their experimentally assigned financial resources.",
+        "Preference for a psychologically rich college life according to year of college.",
+        "The number of bird-feeding patches allocated to them."
+      ],
+      "answer": 2,
+      "type": "细节",
+      "promptZh": "2019年秋调查的585名 UVA 学生中，什么随年级不同？",
+      "optionsZh": [
+        "是否人人完成四年追踪。",
+        "随机分配的财务资源。",
+        "对心理丰富大学生活的偏好。",
+        "分配给他们的鸟类觅食区数量。"
+      ],
+      "analyses": [
+        "A 本段是同一时期不同年级比较，没有四年追踪。",
+        "B 没有财务干预。",
+        "C degree...chose...rich life...differed by...year 直接对应。",
+        "D 鸟是类比，不是学生任务的实体食物区。would like 问理想偏好，不是测实际生活已多丰富。"
+      ],
+      "evidence": [
+        {
+          "quote": "we asked 585 UVA students what kind of college life they would like to have",
+          "sentenceIds": [
+            "c10-s01-p104-02310-s003"
+          ],
+          "sources": [
+            {
+              "pdfPage": 104,
+              "block": 2,
+              "bbox": [
+                76.99,
+                231,
+                535.01,
+                343.02
+              ]
+            }
+          ]
+        },
+        {
+          "quote": "differed by what year of college they were in.",
+          "sentenceIds": [
+            "c10-s01-p104-02310-s003"
+          ],
+          "sources": [
+            {
+              "pdfPage": 104,
+              "block": 2,
+              "bbox": [
+                76.99,
+                231,
+                535.01,
+                343.02
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "leans toward",
+          "meaning": "倾向于",
+          "context": "按定义，丰富人生偏向探索；不是完全排斥利用",
+          "example": "Her approach leans toward experimentation.",
+          "collocations": [
+            "lean toward exploration",
+            "lean toward a strategy"
+          ]
+        }
+      ],
+      "translation": "按定义，心理丰富人生偏向“探索”而非“利用”策略。像大山雀，人似乎也按处境改变策略。2019年秋，我们问585名 UVA 学生想过什么大学生活，发现对心理丰富人生的选择程度随年级明显不同。",
+      "support": "explicit",
+      "editorialStatus": "PDF第102–107页原页核对；引述/设问/调查偏好/模拟/历史叙事分开；百分比与跳跃次数保持单位，37%模型不当现实保证；Very few保留省略回答原样，图4辅助材料不冒充已结构化",
+      "fingerprint": "836ec4241065f04560c0c73e02d083e0b7ebf9c76a70c501f053ce9c006b4c51"
+    },
+    {
+      "id": "qe-c10-0011",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-039",
+      "parentQuestionId": "q-c10-006",
+      "chapterId": "c10",
+      "sectionId": "c10-s01",
+      "paragraphId": "c10-s01-p104-02310",
+      "readingUnitId": "c10-s01-p104-02310-r001-003",
+      "sentenceIds": [
+        "c10-s01-p104-02310-s001",
+        "c10-s01-p104-02310-s002",
+        "c10-s01-p104-02310-s003"
+      ],
+      "passage": "By definition, a psychologically rich life leans toward “exploration” strategies rather than “exploitation” strategies. Like the great tits, people seem to vary their strategies according to their circumstances. In fall 2019, when we asked 585 UVA students what kind of college life they would like to have, we found that the degree to which they chose the psychologically rich life dramatically differed by what year of college they were in.",
+      "prompt": "Toward which strategy does the author say psychological richness leans?",
+      "promptZh": "作者说心理丰富性偏向哪种策略？",
+      "options": [
+        "Exploration rather than exploitation.",
+        "Exploitation alone, with exploration explicitly forbidden.",
+        "A rule of never changing behaviour under any circumstances.",
+        "A guarantee that only the best-known option is ever chosen."
+      ],
+      "optionsZh": [
+        "偏探索而非利用。",
+        "只有利用，明确禁止探索。",
+        "无论处境都永不改变行为。",
+        "保证永远只选最熟悉选项。"
+      ],
+      "answer": 0,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A leans toward exploration rather than exploitation 原文明示倾向。",
+        "B 倒置方向且添加禁止。",
+        "C 后句按 circumstance 变化，不支持永不改变。",
+        "D 倾向探索不等于固定选已知最佳；leans 不是完全排除利用。"
+      ],
+      "vocabulary": [
+        {
+          "word": "leans toward",
+          "meaning": "倾向于；较偏好某方向",
+          "context": "表示侧重而非绝对只许一种策略。",
+          "example": "The discussion leans toward exploration while recognising practical limits.",
+          "collocations": [
+            "leans toward exploration strategies",
+            "rather than exploitation strategies"
+          ]
+        }
+      ],
+      "translation": "按定义，心理丰富人生偏向“探索”而非“利用”策略。像大山雀，人似乎也按处境改变策略。2019年秋，我们问585名 UVA 学生想过什么大学生活，发现对心理丰富人生的选择程度随年级明显不同。",
+      "evidenceTargetIds": [
+        "c10-s01-p104-02310-s001"
+      ],
+      "evidence": [
+        {
+          "quote": "By definition, a psychologically rich life leans toward “exploration” strategies rather than “exploitation” strategies. Like the great tits, people seem to vary their strategies according to their circumstances. In fall 2019, when we asked 585 UVA students what kind of college life they would like to have, we found that the degree to which they chose the psychologically rich life dramatically differed by what year of college they were in.",
+          "sentenceIds": [
+            "c10-s01-p104-02310-s001",
+            "c10-s01-p104-02310-s002",
+            "c10-s01-p104-02310-s003"
+          ],
+          "sources": [
+            {
+              "pdfPage": 104,
+              "block": 2,
+              "bbox": [
+                76.99,
+                231,
+                535.01,
+                343.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "81e195c228b4df7ec39555b6faa574b77f595a30b9f3d6a7f889e404ad3d0aef"
+    },
+    {
+      "id": "qe-c10-0012",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-039",
+      "parentQuestionId": "q-c10-006",
+      "chapterId": "c10",
+      "sectionId": "c10-s01",
+      "paragraphId": "c10-s01-p104-02310",
+      "readingUnitId": "c10-s01-p104-02310-r001-003",
+      "sentenceIds": [
+        "c10-s01-p104-02310-s001",
+        "c10-s01-p104-02310-s002",
+        "c10-s01-p104-02310-s003"
+      ],
+      "passage": "By definition, a psychologically rich life leans toward “exploration” strategies rather than “exploitation” strategies. Like the great tits, people seem to vary their strategies according to their circumstances. In fall 2019, when we asked 585 UVA students what kind of college life they would like to have, we found that the degree to which they chose the psychologically rich life dramatically differed by what year of college they were in.",
+      "prompt": "What qualification accompanies the comparison between people and great tits?",
+      "promptZh": "人与大山雀的比较附带什么限定？",
+      "options": [
+        "All humans have been proved to choose identically to every bird.",
+        "College year has been randomly assigned and followed for each student over four years.",
+        "People seem to adapt strategies to circumstances, rather than being said to use one fixed rule always.",
+        "Every person must follow the same strategy regardless of available options."
+      ],
+      "optionsZh": [
+        "已证明所有人与每只鸟选择完全相同。",
+        "每人年级被随机分派并被追踪四年。",
+        "人似乎会按处境调策略，而非永远用单一固定规则。",
+        "每个人不论可选项都必须同策。"
+      ],
+      "answer": 2,
+      "type": "语气与范围",
+      "support": "explicit",
+      "analyses": [
+        "A Like 是类比，seem 又保留语气，非全体同一性。",
+        "B 2019秋585名不同年级学生的调查，不自动是四年纵向随机追踪。",
+        "C vary according to circumstances 与 seem 均保留。",
+        "D 与按情境变化相反；不同年级偏好不单独证明年级造成每个人改变。"
+      ],
+      "vocabulary": [
+        {
+          "word": "circumstances",
+          "meaning": "处境；具体条件",
+          "context": "解释策略可能因条件不同而变化，不只指年龄或固定人格。",
+          "example": "The appropriate choice depends on the circumstances.",
+          "collocations": [
+            "according to their circumstances",
+            "seem to vary their strategies"
+          ]
+        }
+      ],
+      "translation": "按定义，心理丰富人生偏向“探索”而非“利用”策略。像大山雀，人似乎也按处境改变策略。2019年秋，我们问585名 UVA 学生想过什么大学生活，发现对心理丰富人生的选择程度随年级明显不同。",
+      "evidenceTargetIds": [
+        "c10-s01-p104-02310-s002"
+      ],
+      "evidence": [
+        {
+          "quote": "By definition, a psychologically rich life leans toward “exploration” strategies rather than “exploitation” strategies. Like the great tits, people seem to vary their strategies according to their circumstances. In fall 2019, when we asked 585 UVA students what kind of college life they would like to have, we found that the degree to which they chose the psychologically rich life dramatically differed by what year of college they were in.",
+          "sentenceIds": [
+            "c10-s01-p104-02310-s001",
+            "c10-s01-p104-02310-s002",
+            "c10-s01-p104-02310-s003"
+          ],
+          "sources": [
+            {
+              "pdfPage": 104,
+              "block": 2,
+              "bbox": [
+                76.99,
+                231,
+                535.01,
+                343.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "19f24390315d38ec497056337fbd8af4d8a1134152825a0a4510b3fb305bce33"
+    },
+    {
+      "id": "q-c10-007",
+      "version": 1,
+      "readingUnitId": "c10-s01-p104-05048-r001-004",
+      "chapterId": "c10",
+      "sectionId": "c10-s01",
+      "paragraphId": "c10-s01-p104-05048",
+      "sentenceIds": [
+        "c10-s01-p104-05048-s001",
+        "c10-s01-p104-05048-s002",
+        "c10-s01-p104-05048-s003",
+        "c10-s01-p104-05048-s004"
+      ],
+      "passage": "Among first-year students, a psychologically rich college life was the most popular option, a happy life second, and a meaningful life last. Among sophomores, a happy life was the top answer, followed by a psychologically rich life. Among juniors, all three options were equally attractive. Finally, among seniors, a meaningful life was the most popular, closely followed by a happy life.",
+      "prompt": "What ranking is reported for first-year students?",
+      "options": [
+        "Meaning first, happiness second, richness last.",
+        "Richness first, happiness second, meaning last.",
+        "Happiness first, meaning second, richness last.",
+        "All three were exactly equal for first-year students."
+      ],
+      "answer": 1,
+      "type": "细节",
+      "promptZh": "大一学生的偏好顺序是什么？",
+      "optionsZh": [
+        "意义第一、幸福第二、丰富最后。",
+        "丰富第一、幸福第二、意义最后。",
+        "幸福第一、意义第二、丰富最后。",
+        "大一三者完全相等。"
+      ],
+      "analyses": [
+        "A 将大四最偏意义的方向移给大一。",
+        "B first-year...rich most popular...happy second...meaningful last 逐项对应。",
+        "C happy top 属大二，不是大一。",
+        "D 大一有明确顺序。正文对大三“同样吸引”是概括；原页图4为33.9%、33.9%、32.1%，不能解释成三项精确相等或据此编精确相等题。"
+      ],
+      "evidence": [
+        {
+          "quote": "Among first-year students, a psychologically rich college life was the most popular option, a happy life second, and a meaningful life last.",
+          "sentenceIds": [
+            "c10-s01-p104-05048-s001"
+          ],
+          "sources": [
+            {
+              "pdfPage": 104,
+              "block": 9,
+              "bbox": [
+                76.99,
+                504.75,
+                535.01,
+                694.77
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "sophomores",
+          "meaning": "大学二年级学生",
+          "context": "与first-year、juniors、seniors组成不同年级的比较",
+          "example": "The seminar included freshmen and sophomores.",
+          "collocations": [
+            "among sophomores",
+            "college sophomores"
+          ]
+        }
+      ],
+      "translation": "大一最偏好心理丰富大学生活，幸福第二，意义最后。大二最偏幸福，其次心理丰富。大三三种选择吸引力相近。大四最偏意义，幸福紧随其后。",
+      "support": "explicit",
+      "editorialStatus": "PDF第102–107页原页核对；引述/设问/调查偏好/模拟/历史叙事分开；百分比与跳跃次数保持单位，37%模型不当现实保证；Very few保留省略回答原样，图4辅助材料不冒充已结构化",
+      "fingerprint": "ae25edd3ad8acdd6d40b7e197c156d420ee8fe497ee9dffbce4219fe9314d113"
+    },
+    {
+      "id": "qe-c10-0013",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-039",
+      "parentQuestionId": "q-c10-007",
+      "chapterId": "c10",
+      "sectionId": "c10-s01",
+      "paragraphId": "c10-s01-p104-05048",
+      "readingUnitId": "c10-s01-p104-05048-r001-004",
+      "sentenceIds": [
+        "c10-s01-p104-05048-s001",
+        "c10-s01-p104-05048-s002",
+        "c10-s01-p104-05048-s003",
+        "c10-s01-p104-05048-s004"
+      ],
+      "passage": "Among first-year students, a psychologically rich college life was the most popular option, a happy life second, and a meaningful life last. Among sophomores, a happy life was the top answer, followed by a psychologically rich life. Among juniors, all three options were equally attractive. Finally, among seniors, a meaningful life was the most popular, closely followed by a happy life.",
+      "prompt": "Which two preferences are ranked first and second among sophomores?",
+      "promptZh": "大二学生中，排名前两位的偏好是什么？",
+      "options": [
+        "Meaningful first, happy second.",
+        "Psychologically rich first, meaningful second.",
+        "Meaningful first, psychologically rich second.",
+        "Happy first, psychologically rich second."
+      ],
+      "optionsZh": [
+        "意义第一、幸福第二。",
+        "心理丰富第一、意义第二。",
+        "意义第一、心理丰富第二。",
+        "幸福第一、心理丰富第二。"
+      ],
+      "answer": 3,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A 意义第一属大四，不是大二。",
+        "B 心理丰富最受欢迎属大一，且其次幸福。",
+        "C 与大二正文 top happy、followed by rich 不符。",
+        "D sophomores 的这两项顺序准确；不同年级群体不能当同一批人的必然逐年转变。"
+      ],
+      "vocabulary": [
+        {
+          "word": "sophomores",
+          "meaning": "大学二年级学生",
+          "context": "在本调查与 first-year,juniors,seniors 区分，不等于二年级小学生或研究生。",
+          "example": "The survey compared sophomores with students in other years.",
+          "collocations": [
+            "Among sophomores",
+            "a happy life was the top answer"
+          ]
+        }
+      ],
+      "translation": "大一最偏好心理丰富大学生活，幸福第二，意义最后。大二最偏幸福，其次心理丰富。大三三种选择吸引力相近。大四最偏意义，幸福紧随其后。",
+      "evidenceTargetIds": [
+        "c10-s01-p104-05048-s002"
+      ],
+      "evidence": [
+        {
+          "quote": "Among first-year students, a psychologically rich college life was the most popular option, a happy life second, and a meaningful life last. Among sophomores, a happy life was the top answer, followed by a psychologically rich life. Among juniors, all three options were equally attractive. Finally, among seniors, a meaningful life was the most popular, closely followed by a happy life.",
+          "sentenceIds": [
+            "c10-s01-p104-05048-s001",
+            "c10-s01-p104-05048-s002",
+            "c10-s01-p104-05048-s003",
+            "c10-s01-p104-05048-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 104,
+              "block": 9,
+              "bbox": [
+                76.99,
+                504.75,
+                535.01,
+                694.77
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "220522c2a36efd52edbbeadebfd0f0f6f4701acd3634a64c5cf6c49cf5fdd5ff"
+    },
+    {
+      "id": "qe-c10-0014",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-039",
+      "parentQuestionId": "q-c10-007",
+      "chapterId": "c10",
+      "sectionId": "c10-s01",
+      "paragraphId": "c10-s01-p104-05048",
+      "readingUnitId": "c10-s01-p104-05048-r001-004",
+      "sentenceIds": [
+        "c10-s01-p104-05048-s001",
+        "c10-s01-p104-05048-s002",
+        "c10-s01-p104-05048-s003",
+        "c10-s01-p104-05048-s004"
+      ],
+      "passage": "Among first-year students, a psychologically rich college life was the most popular option, a happy life second, and a meaningful life last. Among sophomores, a happy life was the top answer, followed by a psychologically rich life. Among juniors, all three options were equally attractive. Finally, among seniors, a meaningful life was the most popular, closely followed by a happy life.",
+      "prompt": "How does the prose describe the three options among juniors?",
+      "promptZh": "正文怎样概括大三学生对三种选项的态度？",
+      "options": [
+        "Meaning is said to be overwhelmingly preferred, with the others rejected.",
+        "All three are described as equally attractive.",
+        "Psychological richness alone receives every vote.",
+        "All three are described as equally unattractive and no one makes a choice."
+      ],
+      "optionsZh": [
+        "说意义压倒性第一、其他都被排斥。",
+        "三项被描述为同样有吸引力。",
+        "仅心理丰富获所有票。",
+        "三项同样没吸引力、无人作选择。"
+      ],
+      "answer": 1,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A 正文不是压倒性意义偏好，那也不能混同大四最受欢迎。",
+        "B 按正文 equally attractive 理解为三项吸引力相近；不能额外写成每项恰33.3%。",
+        "C equally 不支持一项包揽。",
+        "D attractive 不是 unattractive；正文概括并不等于三项百分比精确相同。"
+      ],
+      "vocabulary": [
+        {
+          "word": "equally attractive",
+          "meaning": "同样有吸引力；吸引力相近",
+          "context": "这里保留正文概括，不凭此把表格比例重算为完全一致。",
+          "example": "The two proposals seemed equally attractive to the group.",
+          "collocations": [
+            "all three options were equally attractive",
+            "Among juniors"
+          ]
+        }
+      ],
+      "translation": "大一最偏好心理丰富大学生活，幸福第二，意义最后。大二最偏幸福，其次心理丰富。大三三种选择吸引力相近。大四最偏意义，幸福紧随其后。",
+      "evidenceTargetIds": [
+        "c10-s01-p104-05048-s003"
+      ],
+      "evidence": [
+        {
+          "quote": "Among first-year students, a psychologically rich college life was the most popular option, a happy life second, and a meaningful life last. Among sophomores, a happy life was the top answer, followed by a psychologically rich life. Among juniors, all three options were equally attractive. Finally, among seniors, a meaningful life was the most popular, closely followed by a happy life.",
+          "sentenceIds": [
+            "c10-s01-p104-05048-s001",
+            "c10-s01-p104-05048-s002",
+            "c10-s01-p104-05048-s003",
+            "c10-s01-p104-05048-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 104,
+              "block": 9,
+              "bbox": [
+                76.99,
+                504.75,
+                535.01,
+                694.77
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "9b69798f914f8731b32d35c063e1f044ce00b88e029e19f498bcd61bb299bd17"
+    },
+    {
+      "id": "qe-c10-0015",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-039",
+      "parentQuestionId": "q-c10-007",
+      "chapterId": "c10",
+      "sectionId": "c10-s01",
+      "paragraphId": "c10-s01-p104-05048",
+      "readingUnitId": "c10-s01-p104-05048-r001-004",
+      "sentenceIds": [
+        "c10-s01-p104-05048-s001",
+        "c10-s01-p104-05048-s002",
+        "c10-s01-p104-05048-s003",
+        "c10-s01-p104-05048-s004"
+      ],
+      "passage": "Among first-year students, a psychologically rich college life was the most popular option, a happy life second, and a meaningful life last. Among sophomores, a happy life was the top answer, followed by a psychologically rich life. Among juniors, all three options were equally attractive. Finally, among seniors, a meaningful life was the most popular, closely followed by a happy life.",
+      "prompt": "Which preference was most popular among seniors, and what closely followed it?",
+      "promptZh": "大四学生最偏好什么，紧随其后的是什么？",
+      "options": [
+        "Psychological richness first, meaning close behind.",
+        "Happiness first, psychological richness close behind.",
+        "All three were described as exactly the same numerical percentage.",
+        "Meaning first, happiness close behind."
+      ],
+      "optionsZh": [
+        "心理丰富第一、意义紧随。",
+        "幸福第一、心理丰富紧随。",
+        "三项被说成数值百分比精确相等。",
+        "意义第一、幸福紧随。"
+      ],
+      "answer": 3,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A 与 seniors 的排序不符。",
+        "B 属大二顺序，不能跨年级挪用。",
+        "C 正文对 juniors 的概括不属于 seniors，也不能化为精确等比例。",
+        "D meaningful most popular、closely followed by happy 原文直接给出；不凭此预测每个个体未来必选意义。"
+      ],
+      "vocabulary": [
+        {
+          "word": "closely followed by",
+          "meaning": "紧随其后；差距不大地排在之后",
+          "context": "说明相对排序及接近，不能擅自补精确百分点差或写成并列第一。",
+          "example": "The first choice was closely followed by a second proposal.",
+          "collocations": [
+            "the most popular, closely followed by",
+            "among seniors"
+          ]
+        }
+      ],
+      "translation": "大一最偏好心理丰富大学生活，幸福第二，意义最后。大二最偏幸福，其次心理丰富。大三三种选择吸引力相近。大四最偏意义，幸福紧随其后。",
+      "evidenceTargetIds": [
+        "c10-s01-p104-05048-s004"
+      ],
+      "evidence": [
+        {
+          "quote": "Among first-year students, a psychologically rich college life was the most popular option, a happy life second, and a meaningful life last. Among sophomores, a happy life was the top answer, followed by a psychologically rich life. Among juniors, all three options were equally attractive. Finally, among seniors, a meaningful life was the most popular, closely followed by a happy life.",
+          "sentenceIds": [
+            "c10-s01-p104-05048-s001",
+            "c10-s01-p104-05048-s002",
+            "c10-s01-p104-05048-s003",
+            "c10-s01-p104-05048-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 104,
+              "block": 9,
+              "bbox": [
+                76.99,
+                504.75,
+                535.01,
+                694.77
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "85f812a87cbb4d44f1f93aaa246aedfe2de7fed1e901cd3c16a7e9c7aa82c124"
+    },
+    {
+      "id": "q-c10-008",
+      "version": 1,
+      "readingUnitId": "c10-s01-p104-05048-r005-007",
+      "chapterId": "c10",
+      "sectionId": "c10-s01",
+      "paragraphId": "c10-s01-p104-05048",
+      "sentenceIds": [
+        "c10-s01-p104-05048-s005",
+        "c10-s01-p104-05048-s006",
+        "c10-s01-p104-05048-s007"
+      ],
+      "passage": "Early on, many college students prefer exploration. However, just like great tits, once they figure out what they want to do, their priorities seem to shift toward dedicating themselves to achieving a meaningful life. We learned that UVA students tend, like the great tits, to use the explore-then-exploit strategy.",
+      "prompt": "How does the author interpret the changing student priorities?",
+      "options": [
+        "As proof that all people should explore forever without commitment.",
+        "As evidence that no students ever seek meaning.",
+        "As a tendency to explore first and later commit to meaningful goals.",
+        "As proof that the same students were experimentally tracked for four years."
+      ],
+      "answer": 2,
+      "type": "作者意图",
+      "promptZh": "作者怎样解读学生重点的变化？",
+      "optionsZh": [
+        "证明所有人都应永远探索不投入。",
+        "证明没有学生追求意义。",
+        "倾向先探索，之后投入有意义目标。",
+        "证明同一批学生被实验追踪四年。"
+      ],
+      "analyses": [
+        "A once they figure out...dedicating themselves 包含后续投入。",
+        "B achieving a meaningful life 明确包括意义。",
+        "C 此项概括作者的 explore-then-exploit 解读。",
+        "D 段落没有同人四年追踪；这里仍是对年级偏好差异的解释。seem、tend 保留倾向，不能当每个人必遵循的阶段定律。"
+      ],
+      "evidence": [
+        {
+          "quote": "their priorities seem to shift toward dedicating themselves to achieving a meaningful life.",
+          "sentenceIds": [
+            "c10-s01-p104-05048-s006"
+          ],
+          "sources": [
+            {
+              "pdfPage": 104,
+              "block": 9,
+              "bbox": [
+                76.99,
+                504.75,
+                535.01,
+                694.77
+              ]
+            }
+          ]
+        },
+        {
+          "quote": "tend, like the great tits, to use the explore-then-exploit strategy.",
+          "sentenceIds": [
+            "c10-s01-p104-05048-s007"
+          ],
+          "sources": [
+            {
+              "pdfPage": 104,
+              "block": 9,
+              "bbox": [
+                76.99,
+                504.75,
+                535.01,
+                694.77
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "priorities",
+          "meaning": "优先事项；重视的目标",
+          "context": "指学生较重视哪类人生，不等于已经达到目标",
+          "example": "Her priorities shifted after she discovered a new interest.",
+          "collocations": [
+            "priorities shift toward",
+            "changing priorities"
+          ]
+        }
+      ],
+      "translation": "早期许多大学生偏好探索。不过，像大山雀，一旦弄清想做什么，他们的重心似乎会转向投入有意义人生。我们发现，UVA 学生往往像大山雀，采用先探索后利用策略。",
+      "support": "explicit",
+      "editorialStatus": "PDF第102–107页原页核对；引述/设问/调查偏好/模拟/历史叙事分开；百分比与跳跃次数保持单位，37%模型不当现实保证；Very few保留省略回答原样，图4辅助材料不冒充已结构化",
+      "fingerprint": "ea452ef0893c13c9faf2663aca4a145d9606aea9023a4e00c8ebdc5cf2cd7040"
+    },
+    {
+      "id": "qe-c10-0016",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-039",
+      "parentQuestionId": "q-c10-008",
+      "chapterId": "c10",
+      "sectionId": "c10-s01",
+      "paragraphId": "c10-s01-p104-05048",
+      "readingUnitId": "c10-s01-p104-05048-r005-007",
+      "sentenceIds": [
+        "c10-s01-p104-05048-s005",
+        "c10-s01-p104-05048-s006",
+        "c10-s01-p104-05048-s007"
+      ],
+      "passage": "Early on, many college students prefer exploration. However, just like great tits, once they figure out what they want to do, their priorities seem to shift toward dedicating themselves to achieving a meaningful life. We learned that UVA students tend, like the great tits, to use the explore-then-exploit strategy.",
+      "prompt": "What limits the claim that students initially prefer exploration?",
+      "promptZh": "对学生起初偏好探索的说法，有什么限定？",
+      "options": [
+        "Many students early on are described this way, not every student at all stages.",
+        "Every student must explore forever without committing to anything.",
+        "The passage says none of the students ever changes priorities.",
+        "Only one particular named student's entire life has been measured."
+      ],
+      "optionsZh": [
+        "描述早期许多学生，而非各阶段每个学生。",
+        "每人必须永久探索，不投入任何目标。",
+        "说没有学生曾改变重点。",
+        "只测过某一个具名学生的完整一生。"
+      ],
+      "answer": 0,
+      "type": "语气与范围",
+      "support": "explicit",
+      "analyses": [
+        "A Early on、many 限定阶段与人数，后文 seem shift 保留转变语气。",
+        "B 后面投入 meaningful life，不是永久不选择。",
+        "C However 后描述重点似乎转移。",
+        "D 当前为群体调查论述，不是单人的终身追踪；不据年级差异直接确证每个人的纵向因果。"
+      ],
+      "vocabulary": [
+        {
+          "word": "Early on",
+          "meaning": "在初期；起初",
+          "context": "与后来弄清想做什么后的重心比较，不是所有人生时期。",
+          "example": "Early on, the group tried several different activities.",
+          "collocations": [
+            "Early on, many college students",
+            "their priorities seem to shift"
+          ]
+        }
+      ],
+      "translation": "早期许多大学生偏好探索。不过，像大山雀，一旦弄清想做什么，他们的重心似乎会转向投入有意义人生。我们发现，UVA 学生往往像大山雀，采用先探索后利用策略。",
+      "evidenceTargetIds": [
+        "c10-s01-p104-05048-s005"
+      ],
+      "evidence": [
+        {
+          "quote": "Early on, many college students prefer exploration. However, just like great tits, once they figure out what they want to do, their priorities seem to shift toward dedicating themselves to achieving a meaningful life. We learned that UVA students tend, like the great tits, to use the explore-then-exploit strategy.",
+          "sentenceIds": [
+            "c10-s01-p104-05048-s005",
+            "c10-s01-p104-05048-s006",
+            "c10-s01-p104-05048-s007"
+          ],
+          "sources": [
+            {
+              "pdfPage": 104,
+              "block": 9,
+              "bbox": [
+                76.99,
+                504.75,
+                535.01,
+                694.77
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "881c493e0a2b425238cc869b3ef365f1e3884ac0f764da78177329d2658bb371"
+    },
+    {
+      "id": "q-c10-009",
+      "version": 1,
+      "readingUnitId": "c10-s02-p105-00982-r001-004",
+      "chapterId": "c10",
+      "sectionId": "c10-s02",
+      "paragraphId": "c10-s02-p105-00982",
+      "sentenceIds": [
+        "c10-s02-p105-00982-s001",
+        "c10-s02-p105-00982-s002",
+        "c10-s02-p105-00982-s003",
+        "c10-s02-p105-00982-s004"
+      ],
+      "passage": "But are these UVA students following the optimal strategy? Do humans use the optimal exploration-exploitation strategy in general? Cognitive psychologists Peter Todd and Geoffrey Miller are in a better position than myself to answer these questions, as they are the experts on the optimal explore-exploit strategy in various decision-making situations. They authored a fun and informative article entitled “From Pride and Prejudice to Persuasion: Satisficing in Mate Search.”",
+      "prompt": "Why does the author turn to Todd and Miller?",
+      "options": [
+        "They specialize in optimal exploration-exploitation strategies across decision situations.",
+        "They have already proved every UVA student follows an optimal rule.",
+        "They deny that choices can ever be studied scientifically.",
+        "They personally arranged all of Kepler’s interviews."
+      ],
+      "answer": 0,
+      "type": "作者意图",
+      "promptZh": "作者为什么转向 Todd 与 Miller？",
+      "optionsZh": [
+        "他们专门研究多种决策中的最优探索利用策略。",
+        "已证明每个 UVA 学生都遵循最优规则。",
+        "否认选择可科学研究。",
+        "亲自安排 Kepler 的全部访谈。"
+      ],
+      "analyses": [
+        "A as they are the experts...various decision-making situations 说明求助专业知识的理由。",
+        "B 前两句正在问是否最优，尚非确认。",
+        "C 研究专家身份与否认研究相反。",
+        "D 文章讲述历史故事，不是两人亲历安排。better position 表示相对更有资格回答，不是地理位置更近。"
+      ],
+      "evidence": [
+        {
+          "quote": "they are the experts on the optimal explore-exploit strategy in various decision-making situations.",
+          "sentenceIds": [
+            "c10-s02-p105-00982-s003"
+          ],
+          "sources": [
+            {
+              "pdfPage": 105,
+              "block": 1,
+              "bbox": [
+                76.99,
+                98.25,
+                535.01,
+                229.77
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "in a better position",
+          "meaning": "更有条件；更有资格",
+          "context": "此处指专业知识使两人更能回答，而非实体座位",
+          "example": "The specialist is in a better position to assess the evidence.",
+          "collocations": [
+            "in a better position to answer",
+            "be well positioned to explain"
+          ]
+        }
+      ],
+      "translation": "但 UVA 学生采取的是最优策略吗？一般人会用最优探索利用策略吗？认知心理学家 Peter Todd 与 Geoffrey Miller 比我更有资格回答，因为他们是各种决策中最优探索利用策略的专家。他们写过一篇有趣、信息丰富的文章 From Pride and Prejudice to Persuasion: Satisficing in Mate Search。",
+      "support": "explicit",
+      "editorialStatus": "PDF第102–107页原页核对；引述/设问/调查偏好/模拟/历史叙事分开；百分比与跳跃次数保持单位，37%模型不当现实保证；Very few保留省略回答原样，图4辅助材料不冒充已结构化",
+      "fingerprint": "fdc1ae499e91c679bd47b0fb33a6bfb7dbd30cbb4a520375f5757b73ac1633ac"
+    },
+    {
+      "id": "qe-c10-0017",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-039",
+      "parentQuestionId": "q-c10-009",
+      "chapterId": "c10",
+      "sectionId": "c10-s02",
+      "paragraphId": "c10-s02-p105-00982",
+      "readingUnitId": "c10-s02-p105-00982-r001-004",
+      "sentenceIds": [
+        "c10-s02-p105-00982-s001",
+        "c10-s02-p105-00982-s002",
+        "c10-s02-p105-00982-s003",
+        "c10-s02-p105-00982-s004"
+      ],
+      "passage": "But are these UVA students following the optimal strategy? Do humans use the optimal exploration-exploitation strategy in general? Cognitive psychologists Peter Todd and Geoffrey Miller are in a better position than myself to answer these questions, as they are the experts on the optimal explore-exploit strategy in various decision-making situations. They authored a fun and informative article entitled “From Pride and Prejudice to Persuasion: Satisficing in Mate Search.”",
+      "prompt": "Does the question about UVA students' 'optimal strategy' itself establish that their strategy is optimal?",
+      "promptZh": "关于 UVA 学生 optimal strategy 的问句，本身是否确立其最优？",
+      "options": [
+        "Yes; any stated student preference automatically proves optimality.",
+        "Yes; it reports the final mathematical solution before any discussion.",
+        "No; it opens a question about optimality that the next discussion will examine.",
+        "No; it states that every student strategy is certainly the worst possible."
+      ],
+      "optionsZh": [
+        "是；任何学生偏好自动证明最优。",
+        "是；讨论前已报告最终数学解。",
+        "否；它提出后续将探索的最优性问题。",
+        "否；它断言所有学生策略必然最差。"
+      ],
+      "answer": 2,
+      "type": "研究逻辑",
+      "support": "explicit",
+      "analyses": [
+        "A observed preference 与最优标准是两件事。",
+        "B 问句不是已完成的证明，后面引入专家。",
+        "C But are... 明确从此前策略描述转向是否最优的追问。",
+        "D 提问未确证最优也不等于确证全最差，避免把未知反写成反面定论。"
+      ],
+      "vocabulary": [
+        {
+          "word": "optimal",
+          "meaning": "最优的；在给定条件标准下最好的",
+          "context": "不同于常见或个人喜欢，问其是否最优不代表已经证明。",
+          "example": "A popular choice is not necessarily the optimal choice under every condition.",
+          "collocations": [
+            "following the optimal strategy",
+            "various decision-making situations"
+          ]
+        }
+      ],
+      "translation": "但 UVA 学生采取的是最优策略吗？一般人会用最优探索利用策略吗？认知心理学家 Peter Todd 与 Geoffrey Miller 比我更有资格回答，因为他们是各种决策中最优探索利用策略的专家。他们写过一篇有趣、信息丰富的文章 From Pride and Prejudice to Persuasion: Satisficing in Mate Search。",
+      "evidenceTargetIds": [
+        "c10-s02-p105-00982-s001"
+      ],
+      "evidence": [
+        {
+          "quote": "But are these UVA students following the optimal strategy? Do humans use the optimal exploration-exploitation strategy in general? Cognitive psychologists Peter Todd and Geoffrey Miller are in a better position than myself to answer these questions, as they are the experts on the optimal explore-exploit strategy in various decision-making situations. They authored a fun and informative article entitled “From Pride and Prejudice to Persuasion: Satisficing in Mate Search.”",
+          "sentenceIds": [
+            "c10-s02-p105-00982-s001",
+            "c10-s02-p105-00982-s002",
+            "c10-s02-p105-00982-s003",
+            "c10-s02-p105-00982-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 105,
+              "block": 1,
+              "bbox": [
+                76.99,
+                98.25,
+                535.01,
+                229.77
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "5182ac5c413f4e1e2c587cbb00123da729d8f605daf9b4abfc68e310a06d3250"
+    },
+    {
+      "id": "qe-c10-0018",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-039",
+      "parentQuestionId": "q-c10-009",
+      "chapterId": "c10",
+      "sectionId": "c10-s02",
+      "paragraphId": "c10-s02-p105-00982",
+      "readingUnitId": "c10-s02-p105-00982-r001-004",
+      "sentenceIds": [
+        "c10-s02-p105-00982-s001",
+        "c10-s02-p105-00982-s002",
+        "c10-s02-p105-00982-s003",
+        "c10-s02-p105-00982-s004"
+      ],
+      "passage": "But are these UVA students following the optimal strategy? Do humans use the optimal exploration-exploitation strategy in general? Cognitive psychologists Peter Todd and Geoffrey Miller are in a better position than myself to answer these questions, as they are the experts on the optimal explore-exploit strategy in various decision-making situations. They authored a fun and informative article entitled “From Pride and Prejudice to Persuasion: Satisficing in Mate Search.”",
+      "prompt": "How does the second question broaden the first one?",
+      "promptZh": "第二个问句怎样扩大第一个问句的范围？",
+      "options": [
+        "It changes from humans to the food availability of plants alone.",
+        "It moves from these UVA students to human exploration-exploitation strategy in general.",
+        "It limits the problem to just one named senior.",
+        "It turns the question into a report that all people always choose optimally."
+      ],
+      "optionsZh": [
+        "从人类改成仅植物食物供应。",
+        "从这些 UVA 学生扩展到一般人类的探索利用策略。",
+        "限缩到一位具名大四学生。",
+        "转成所有人始终最优选择的报告。"
+      ],
+      "answer": 1,
+      "type": "篇章结构",
+      "support": "explicit",
+      "analyses": [
+        "A humans 明确仍研究人，不是只讨论植物。",
+        "B these UVA students 与 humans...in general 构成范围扩展。",
+        "C 从特定群体到一般人是扩大，不是单人。",
+        "D 仍为 Do...问句，不能当肯定结果。"
+      ],
+      "vocabulary": [
+        {
+          "word": "in general",
+          "meaning": "一般而言；从普遍层面看",
+          "context": "扩大提问对象，非已确认每个个体每次都最优。",
+          "example": "The question concerns decision-making in general rather than one particular choice.",
+          "collocations": [
+            "Do humans ... in general",
+            "exploration-exploitation strategy"
+          ]
+        }
+      ],
+      "translation": "但 UVA 学生采取的是最优策略吗？一般人会用最优探索利用策略吗？认知心理学家 Peter Todd 与 Geoffrey Miller 比我更有资格回答，因为他们是各种决策中最优探索利用策略的专家。他们写过一篇有趣、信息丰富的文章 From Pride and Prejudice to Persuasion: Satisficing in Mate Search。",
+      "evidenceTargetIds": [
+        "c10-s02-p105-00982-s002"
+      ],
+      "evidence": [
+        {
+          "quote": "But are these UVA students following the optimal strategy? Do humans use the optimal exploration-exploitation strategy in general? Cognitive psychologists Peter Todd and Geoffrey Miller are in a better position than myself to answer these questions, as they are the experts on the optimal explore-exploit strategy in various decision-making situations. They authored a fun and informative article entitled “From Pride and Prejudice to Persuasion: Satisficing in Mate Search.”",
+          "sentenceIds": [
+            "c10-s02-p105-00982-s001",
+            "c10-s02-p105-00982-s002",
+            "c10-s02-p105-00982-s003",
+            "c10-s02-p105-00982-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 105,
+              "block": 1,
+              "bbox": [
+                76.99,
+                98.25,
+                535.01,
+                229.77
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "b8c79577852fd54395c82cf7787e3e600b34b03c4475ea70339d192d2c3398b7"
+    },
+    {
+      "id": "qe-c10-0019",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-039",
+      "parentQuestionId": "q-c10-009",
+      "chapterId": "c10",
+      "sectionId": "c10-s02",
+      "paragraphId": "c10-s02-p105-00982",
+      "readingUnitId": "c10-s02-p105-00982-r001-004",
+      "sentenceIds": [
+        "c10-s02-p105-00982-s001",
+        "c10-s02-p105-00982-s002",
+        "c10-s02-p105-00982-s003",
+        "c10-s02-p105-00982-s004"
+      ],
+      "passage": "But are these UVA students following the optimal strategy? Do humans use the optimal exploration-exploitation strategy in general? Cognitive psychologists Peter Todd and Geoffrey Miller are in a better position than myself to answer these questions, as they are the experts on the optimal explore-exploit strategy in various decision-making situations. They authored a fun and informative article entitled “From Pride and Prejudice to Persuasion: Satisficing in Mate Search.”",
+      "prompt": "Who are 'They' in the sentence introducing the article on mate search?",
+      "promptZh": "介绍择偶搜索文章的 They 指谁？",
+      "options": [
+        "Peter Todd and Geoffrey Miller, the cognitive psychologists just named.",
+        "John Richard Krebs and the birds in his experiment.",
+        "The college juniors who chose three options.",
+        "Kepler and the candidate he eventually married."
+      ],
+      "optionsZh": [
+        "刚提到的认知心理学家 Peter Todd 与 Geoffrey Miller。",
+        "John Richard Krebs 及实验中的鸟。",
+        "选择三选项的大三学生。",
+        "Kepler 与后来结婚的对象。"
+      ],
+      "answer": 0,
+      "type": "指代",
+      "support": "explicit",
+      "analyses": [
+        "A 紧前 Cognitive psychologists 两位是专家，They authored 接其合著文章。",
+        "B 当前不是鸟类研究团队或鸟写文章。",
+        "C 学生是前一调查对象，不是此处文章作者。",
+        "D Kepler 是后面文章故事的人物，不是被称两位认知心理学家的人。"
+      ],
+      "vocabulary": [
+        {
+          "word": "authored",
+          "meaning": "撰写；作为作者写成",
+          "context": "指两位专家写文章，不是给所有读者发命令或创造故事中每个人。",
+          "example": "The researchers authored an article explaining the model.",
+          "collocations": [
+            "They authored ... an article entitled",
+            "Satisficing in Mate Search"
+          ]
+        }
+      ],
+      "translation": "但 UVA 学生采取的是最优策略吗？一般人会用最优探索利用策略吗？认知心理学家 Peter Todd 与 Geoffrey Miller 比我更有资格回答，因为他们是各种决策中最优探索利用策略的专家。他们写过一篇有趣、信息丰富的文章 From Pride and Prejudice to Persuasion: Satisficing in Mate Search。",
+      "evidenceTargetIds": [
+        "c10-s02-p105-00982-s004"
+      ],
+      "evidence": [
+        {
+          "quote": "But are these UVA students following the optimal strategy? Do humans use the optimal exploration-exploitation strategy in general? Cognitive psychologists Peter Todd and Geoffrey Miller are in a better position than myself to answer these questions, as they are the experts on the optimal explore-exploit strategy in various decision-making situations. They authored a fun and informative article entitled “From Pride and Prejudice to Persuasion: Satisficing in Mate Search.”",
+          "sentenceIds": [
+            "c10-s02-p105-00982-s001",
+            "c10-s02-p105-00982-s002",
+            "c10-s02-p105-00982-s003",
+            "c10-s02-p105-00982-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 105,
+              "block": 1,
+              "bbox": [
+                76.99,
+                98.25,
+                535.01,
+                229.77
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "600f982e073b2c2e2433cb08504af0bc285b4a1e617f829c09d079cfd88b8f3d"
+    },
+    {
+      "id": "q-c10-010",
+      "version": 1,
+      "readingUnitId": "c10-s02-p105-02348-r001-004",
+      "chapterId": "c10",
+      "sectionId": "c10-s02",
+      "paragraphId": "c10-s02-p105-02348",
+      "sentenceIds": [
+        "c10-s02-p105-02348-s001",
+        "c10-s02-p105-02348-s002",
+        "c10-s02-p105-02348-s003",
+        "c10-s02-p105-02348-s004"
+      ],
+      "passage": "The chapter starts with the story of Johannes Kepler, a German astronomer and mathematician. His first wife died of cholera in 1611; Kepler did not mourn much, as his first marriage was not a happy one. Soon afterward, he began a methodical search for a new wife. He thoroughly courted and interviewed eleven women over a two-year period.",
+      "prompt": "How is Kepler’s search for a second wife described?",
+      "options": [
+        "He immediately chose the first person without speaking to others.",
+        "He interviewed eleven women over eleven years.",
+        "He courted and interviewed eleven women methodically over two years.",
+        "He conducted a randomized experiment on the women’s mathematical ability."
+      ],
+      "answer": 2,
+      "type": "细节",
+      "promptZh": "原文怎样描述 Kepler 寻找第二任妻子？",
+      "optionsZh": [
+        "立即选第一个人，从未接触其他人。",
+        "用十一年访谈十一人。",
+        "用两年有系统地追求、访谈十一人。",
+        "随机实验测试她们数学能力。"
+      ],
+      "analyses": [
+        "A methodical search 与多位访谈否定立即停下。",
+        "B two-year period，不是十一年。",
+        "C eleven women 与两年、系统搜索完全吻合。",
+        "D 历史择偶叙事不是数学能力随机试验。第一任婚姻与死因均按本书叙述，不作独立传记核实。"
+      ],
+      "evidence": [
+        {
+          "quote": "He thoroughly courted and interviewed eleven women over a two-year period.",
+          "sentenceIds": [
+            "c10-s02-p105-02348-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 105,
+              "block": 2,
+              "bbox": [
+                76.99,
+                234.75,
+                535.01,
+                483.27
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "methodical",
+          "meaning": "有系统的；有条理的",
+          "context": "形容寻找伴侣的步骤和投入，不等于无感情的实验",
+          "example": "She used a methodical approach to compare the options.",
+          "collocations": [
+            "a methodical search",
+            "a methodical approach"
+          ]
+        }
+      ],
+      "translation": "该章以德国天文学家、数学家 Johannes Kepler 的故事开始。第一任妻子1611年死于霍乱；本书说，因为第一段婚姻不幸福，他并未过度哀悼。很快他有系统地寻找新妻，两年中仔细追求、访谈十一名女性。",
+      "support": "explicit",
+      "editorialStatus": "PDF第102–107页原页核对；引述/设问/调查偏好/模拟/历史叙事分开；百分比与跳跃次数保持单位，37%模型不当现实保证；Very few保留省略回答原样，图4辅助材料不冒充已结构化",
+      "fingerprint": "f43af152f0b0551f592818f71006bd51e59b84fdb8c0cab499d5318aee414558"
+    },
+    {
+      "id": "qe-c10-0020",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-039",
+      "parentQuestionId": "q-c10-010",
+      "chapterId": "c10",
+      "sectionId": "c10-s02",
+      "paragraphId": "c10-s02-p105-02348",
+      "readingUnitId": "c10-s02-p105-02348-r001-004",
+      "sentenceIds": [
+        "c10-s02-p105-02348-s001",
+        "c10-s02-p105-02348-s002",
+        "c10-s02-p105-02348-s003",
+        "c10-s02-p105-02348-s004"
+      ],
+      "passage": "The chapter starts with the story of Johannes Kepler, a German astronomer and mathematician. His first wife died of cholera in 1611; Kepler did not mourn much, as his first marriage was not a happy one. Soon afterward, he began a methodical search for a new wife. He thoroughly courted and interviewed eleven women over a two-year period.",
+      "prompt": "How is Johannes Kepler introduced in the story?",
+      "promptZh": "故事怎样介绍 Johannes Kepler？",
+      "options": [
+        "As an English zoologist studying the great tit.",
+        "As a current UVA student in the survey.",
+        "As the original author of Life in Three Dimensions.",
+        "As a German astronomer and mathematician."
+      ],
+      "optionsZh": [
+        "研究大山雀的英国动物学家。",
+        "调查中当代 UVA 学生。",
+        "Life in Three Dimensions 原作者。",
+        "德国天文学家与数学家。"
+      ],
+      "answer": 3,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A 动物学家为前文 Krebs，不能交换身份。",
+        "B 是历史人物故事，不是当前学生样本。",
+        "C 本书作者另有其人，Kepler 是被叙述人物。",
+        "D 国别及双职业同位语原文明示；不把历史故事误作本项目任务指令。"
+      ],
+      "vocabulary": [
+        {
+          "word": "astronomer",
+          "meaning": "天文学家",
+          "context": "与 mathematician 并列为人物身份，区别 zoologist 或 astrologer 等词。",
+          "example": "The astronomer used mathematical models to study the sky.",
+          "collocations": [
+            "a German astronomer and mathematician",
+            "the story of Johannes Kepler"
+          ]
+        }
+      ],
+      "translation": "该章以德国天文学家、数学家 Johannes Kepler 的故事开始。第一任妻子1611年死于霍乱；本书说，因为第一段婚姻不幸福，他并未过度哀悼。很快他有系统地寻找新妻，两年中仔细追求、访谈十一名女性。",
+      "evidenceTargetIds": [
+        "c10-s02-p105-02348-s001"
+      ],
+      "evidence": [
+        {
+          "quote": "The chapter starts with the story of Johannes Kepler, a German astronomer and mathematician. His first wife died of cholera in 1611; Kepler did not mourn much, as his first marriage was not a happy one. Soon afterward, he began a methodical search for a new wife. He thoroughly courted and interviewed eleven women over a two-year period.",
+          "sentenceIds": [
+            "c10-s02-p105-02348-s001",
+            "c10-s02-p105-02348-s002",
+            "c10-s02-p105-02348-s003",
+            "c10-s02-p105-02348-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 105,
+              "block": 2,
+              "bbox": [
+                76.99,
+                234.75,
+                535.01,
+                483.27
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "6bf866006f4fe6f2d8666d38ed741db11e68c09f8063c790c44c9bc02b4d45c2"
+    },
+    {
+      "id": "qe-c10-0021",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-039",
+      "parentQuestionId": "q-c10-010",
+      "chapterId": "c10",
+      "sectionId": "c10-s02",
+      "paragraphId": "c10-s02-p105-02348",
+      "readingUnitId": "c10-s02-p105-02348-r001-004",
+      "sentenceIds": [
+        "c10-s02-p105-02348-s001",
+        "c10-s02-p105-02348-s002",
+        "c10-s02-p105-02348-s003",
+        "c10-s02-p105-02348-s004"
+      ],
+      "passage": "The chapter starts with the story of Johannes Kepler, a German astronomer and mathematician. His first wife died of cholera in 1611; Kepler did not mourn much, as his first marriage was not a happy one. Soon afterward, he began a methodical search for a new wife. He thoroughly courted and interviewed eleven women over a two-year period.",
+      "prompt": "What explanation does the book give for Kepler's limited mourning?",
+      "promptZh": "本书怎样解释 Kepler 没有过度哀悼？",
+      "options": [
+        "It says he had already completed a new marriage before 1611.",
+        "It says the first wife did not die, despite the opening clause.",
+        "It links his response to an unhappy first marriage.",
+        "It establishes a universal rule that nobody mourns after an unhappy marriage."
+      ],
+      "optionsZh": [
+        "说他1611年前已完成新婚。",
+        "尽管前句说死亡，却说第一任妻子没去世。",
+        "把其反应与第一段婚姻不幸福联系起来。",
+        "确立所有不幸婚姻之后无人会哀悼的普遍规则。"
+      ],
+      "answer": 2,
+      "type": "逻辑关系",
+      "support": "explicit",
+      "analyses": [
+        "A 新搜索 Soon afterward 在后，不是此前已新婚。",
+        "B died of cholera in1611 在书中明确，不能反写。",
+        "C as his first marriage was not a happy one 是此历史叙述给的解释，不是新独立心理诊断。",
+        "D 个别传记归述不构成所有人的哀悼定律，也非应该如何哀悼的建议。"
+      ],
+      "vocabulary": [
+        {
+          "word": "mourn",
+          "meaning": "哀悼；为失去某人悲伤",
+          "context": "此处为历史叙述人物反应，不判断读者该怎样悲伤。",
+          "example": "The memoir describes how the family mourned its loss.",
+          "collocations": [
+            "did not mourn much",
+            "his first marriage was not a happy one"
+          ]
+        }
+      ],
+      "translation": "该章以德国天文学家、数学家 Johannes Kepler 的故事开始。第一任妻子1611年死于霍乱；本书说，因为第一段婚姻不幸福，他并未过度哀悼。很快他有系统地寻找新妻，两年中仔细追求、访谈十一名女性。",
+      "evidenceTargetIds": [
+        "c10-s02-p105-02348-s002"
+      ],
+      "evidence": [
+        {
+          "quote": "The chapter starts with the story of Johannes Kepler, a German astronomer and mathematician. His first wife died of cholera in 1611; Kepler did not mourn much, as his first marriage was not a happy one. Soon afterward, he began a methodical search for a new wife. He thoroughly courted and interviewed eleven women over a two-year period.",
+          "sentenceIds": [
+            "c10-s02-p105-02348-s001",
+            "c10-s02-p105-02348-s002",
+            "c10-s02-p105-02348-s003",
+            "c10-s02-p105-02348-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 105,
+              "block": 2,
+              "bbox": [
+                76.99,
+                234.75,
+                535.01,
+                483.27
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "432565675aff04388c557500a4963a1e0bc2a78f88a3cd46be744bbb5589c3bb"
+    },
+    {
+      "id": "qe-c10-0022",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-039",
+      "parentQuestionId": "q-c10-010",
+      "chapterId": "c10",
+      "sectionId": "c10-s02",
+      "paragraphId": "c10-s02-p105-02348",
+      "readingUnitId": "c10-s02-p105-02348-r001-004",
+      "sentenceIds": [
+        "c10-s02-p105-02348-s001",
+        "c10-s02-p105-02348-s002",
+        "c10-s02-p105-02348-s003",
+        "c10-s02-p105-02348-s004"
+      ],
+      "passage": "The chapter starts with the story of Johannes Kepler, a German astronomer and mathematician. His first wife died of cholera in 1611; Kepler did not mourn much, as his first marriage was not a happy one. Soon afterward, he began a methodical search for a new wife. He thoroughly courted and interviewed eleven women over a two-year period.",
+      "prompt": "What does 'methodical' suggest about Kepler's later search?",
+      "promptZh": "methodical 对 Kepler 后来的搜索暗示什么？",
+      "options": [
+        "A choice made without any consideration of alternatives.",
+        "A systematic, organised process rather than an entirely haphazard one.",
+        "A guarantee that every step followed a proved optimal probability formula.",
+        "A refusal to meet any potential partner at all."
+      ],
+      "optionsZh": [
+        "不考虑任何备选便作决定。",
+        "有系统、有组织，而非全然随意的过程。",
+        "保证每一步都遵循已证最优概率公式。",
+        "拒绝见任何潜在伴侣。"
+      ],
+      "answer": 1,
+      "type": "语境词义",
+      "support": "explicit",
+      "analyses": [
+        "A 后句两年考察十一人，不是从无比较。",
+        "B methodical 与 thoroughly courted/interviewed 相呼应。",
+        "C 有系统不等于已证明遵循数学最优规则，后段 probably 仍是推测。",
+        "D began a search 及会见描述与拒绝全体相反。"
+      ],
+      "vocabulary": [
+        {
+          "word": "methodical",
+          "meaning": "有条理的；系统进行的",
+          "context": "不自动等于最优或毫无情感，只说明做法有组织。",
+          "example": "She took a methodical approach to comparing the options.",
+          "collocations": [
+            "a methodical search",
+            "thoroughly courted and interviewed"
+          ]
+        }
+      ],
+      "translation": "该章以德国天文学家、数学家 Johannes Kepler 的故事开始。第一任妻子1611年死于霍乱；本书说，因为第一段婚姻不幸福，他并未过度哀悼。很快他有系统地寻找新妻，两年中仔细追求、访谈十一名女性。",
+      "evidenceTargetIds": [
+        "c10-s02-p105-02348-s003"
+      ],
+      "evidence": [
+        {
+          "quote": "The chapter starts with the story of Johannes Kepler, a German astronomer and mathematician. His first wife died of cholera in 1611; Kepler did not mourn much, as his first marriage was not a happy one. Soon afterward, he began a methodical search for a new wife. He thoroughly courted and interviewed eleven women over a two-year period.",
+          "sentenceIds": [
+            "c10-s02-p105-02348-s001",
+            "c10-s02-p105-02348-s002",
+            "c10-s02-p105-02348-s003",
+            "c10-s02-p105-02348-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 105,
+              "block": 2,
+              "bbox": [
+                76.99,
+                234.75,
+                535.01,
+                483.27
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "e7924f32a9091ebf77352ae0aca1ec08eee0ca103d6613c941ceea5b699a451e"
+    }
+  ]
+}
