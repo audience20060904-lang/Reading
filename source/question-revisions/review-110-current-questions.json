@@ -1,0 +1,1662 @@
+{
+  "schemaVersion": 1,
+  "batchId": "question-review-2026-10-28-110",
+  "sourceCommit": "a91634f5868ca99fc82743137fc2b8ef14ada8da",
+  "pdfSha256": "be25c859f1bd894a4b0d1cff024ded1297f6a96a8e8ddabea1e3abcf89160a50",
+  "frozenAt": "2026-10-29T23:56:04.083Z",
+  "questions": [
+    {
+      "id": "q-c12-020",
+      "version": 1,
+      "readingUnitId": "c12-s03-p136-04380-r001-004",
+      "chapterId": "c12",
+      "sectionId": "c12-s03",
+      "paragraphId": "c12-s03-p136-04380",
+      "sentenceIds": [
+        "c12-s03-p136-04380-s001",
+        "c12-s03-p136-04380-s002",
+        "c12-s03-p136-04380-s003",
+        "c12-s03-p136-04380-s004"
+      ],
+      "passage": "But, even on more objective measures, people are drawn to a narrative about personal growth. Tim Wilson and Patricia Linville carried out an intriguing experiment to show how that can take place. They recruited second-semester first-year students at Duke who did not do well in the first semester of college. Half of them watched an interview with upper-class students talking about how they did poorly in their first year but improved over time.",
+      "prompt": "Who received the interview material in the experiment described here?",
+      "options": [
+        "Only upper-class students who had always performed well.",
+        "Every first-year student at Duke University.",
+        "Half of recruited first-year students who had struggled in their first semester.",
+        "Only participants already selected for a large GPA increase."
+      ],
+      "answer": 2,
+      "type": "细节",
+      "promptZh": "本段实验中，谁观看了访谈材料？",
+      "optionsZh": [
+        "只有一直成绩很好的高年级学生。",
+        "杜克所有一年级学生。",
+        "招募的一年级首学期表现不佳学生中的一半。",
+        "只有已因GPA大涨而选中的参与者。"
+      ],
+      "analyses": [
+        "A 混淆提供访谈故事的高年级学生与实验参与者；故事还包含早期表现不佳。",
+        "B recruited且Half限定样本和接受材料的比例。",
+        "C 招募对象为第二学期的一年级学生，首学期不佳；其中一半看改善经历访谈。",
+        "D GPA上涨是故事内容或后续考察，不是此处招募条件。没有据此补写随机分配细节。"
+      ],
+      "evidence": [
+        {
+          "quote": "They recruited second-semester first-year students at Duke who did not do well in the first semester of college.",
+          "sentenceIds": [
+            "c12-s03-p136-04380-s003"
+          ],
+          "sources": [
+            {
+              "pdfPage": 136,
+              "block": 3,
+              "bbox": [
+                76.99,
+                438,
+                535.01,
+                686.52
+              ]
+            }
+          ]
+        },
+        {
+          "quote": "Half of them watched an interview with upper-class students",
+          "sentenceIds": [
+            "c12-s03-p136-04380-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 136,
+              "block": 3,
+              "bbox": [
+                76.99,
+                438,
+                535.01,
+                686.52
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "upper-class students",
+          "meaning": "高年级学生",
+          "context": "大学较高年级学生，非社会经济上层阶级",
+          "example": "Upper-class students shared advice with new students.",
+          "collocations": [
+            "interview upper-class students",
+            "recruit first-year students"
+          ]
+        }
+      ],
+      "translation": "不过，即便是较客观的衡量指标，人们也会被个人成长叙事吸引。Tim Wilson与Patricia Linville做了一个引人兴趣的实验，展示这种情况如何发生。他们招募了杜克大学一年级第二学期、但第一学期表现不佳的学生。其中一半观看高年级学生访谈，听他们讲第一年成绩差、后来逐渐提高的经历。",
+      "support": "explicit",
+      "editorialStatus": "完整PDF135–139原页视觉核对。Wilson/Ross的自我评价与Tim Wilson/Linville干预分开；跑步时间是假设且用时增加不作提高；GPA信息组+0.34/转出5%与控制组-0.05/25%不交换，GRE表现与GPA预期分开，不补随机化或人人效果。科学家材料分挣扎/成就而后相同三节课，25年属爱因斯坦未完成尝试；must have normalized是作者机制推断，不当已直接测量。故事编辑保留坏经历不编造事件；Woolf为I bet修辞而非实验，不建议主动经历灾害。人生故事访谈从目录到场景再未来与主题，引用提示为材料不执行。保留既有切分中的单句短单元及未闭合引号跨单元，不重复句子；E = mc2保持提取原文。整段审阅若含后续未配题句另计，绝不宣称逐句直接证据全覆盖。",
+      "fingerprint": "2c582038e831de0b14df3b0cdc84141a361bbf589c302bdb680f7a69781eeb75"
+    },
+    {
+      "id": "qe-c12-0028",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-053",
+      "parentQuestionId": "q-c12-020",
+      "chapterId": "c12",
+      "sectionId": "c12-s03",
+      "paragraphId": "c12-s03-p136-04380",
+      "readingUnitId": "c12-s03-p136-04380-r001-004",
+      "sentenceIds": [
+        "c12-s03-p136-04380-s001",
+        "c12-s03-p136-04380-s002",
+        "c12-s03-p136-04380-s003",
+        "c12-s03-p136-04380-s004"
+      ],
+      "passage": "But, even on more objective measures, people are drawn to a narrative about personal growth. Tim Wilson and Patricia Linville carried out an intriguing experiment to show how that can take place. They recruited second-semester first-year students at Duke who did not do well in the first semester of college. Half of them watched an interview with upper-class students talking about how they did poorly in their first year but improved over time.",
+      "prompt": "What qualification does 'even on more objective measures' introduce?",
+      "promptZh": "even on more objective measures 引入什么补充？",
+      "options": [
+        "Objective results guarantee that growth narratives have no appeal.",
+        "Only wholly invented achievements can interest people.",
+        "The author abandons all discussion of personal growth.",
+        "People remain attracted to growth narratives even when the measures are more objective."
+      ],
+      "optionsZh": [
+        "客观结果保证成长叙事毫无吸引力。",
+        "只有完全虚构成就才吸引人。",
+        "作者放弃一切成长议题。",
+        "即使衡量更客观，人仍会被成长叙事吸引。"
+      ],
+      "answer": 3,
+      "type": "逻辑关系",
+      "support": "explicit",
+      "analyses": [
+        "A But...even转折指出仍有吸引力，不是零吸引。",
+        "B drawn to narrative不等于必须虚构成就。",
+        "C 下一句还介绍展示此事的实验，未放弃议题。",
+        "D even保留出人意料的让步，people are drawn to给心理倾向，非保证每个干预对每个人有效。"
+      ],
+      "vocabulary": [
+        {
+          "word": "drawn to",
+          "meaning": "被吸引到；对某事产生倾向或兴趣",
+          "context": "这里不是画图，而是个人成长叙事的吸引力。",
+          "example": "People can be drawn to a narrative of improvement.",
+          "collocations": [
+            "drawn to a narrative",
+            "about personal growth"
+          ]
+        }
+      ],
+      "translation": "不过，即便是较客观的衡量指标，人们也会被个人成长叙事吸引。Tim Wilson与Patricia Linville做了一个引人兴趣的实验，展示这种情况如何发生。他们招募了杜克大学一年级第二学期、但第一学期表现不佳的学生。其中一半观看高年级学生访谈，听他们讲第一年成绩差、后来逐渐提高的经历。",
+      "evidenceTargetIds": [
+        "c12-s03-p136-04380-s001"
+      ],
+      "evidence": [
+        {
+          "quote": "But, even on more objective measures, people are drawn to a narrative about personal growth. Tim Wilson and Patricia Linville carried out an intriguing experiment to show how that can take place. They recruited second-semester first-year students at Duke who did not do well in the first semester of college. Half of them watched an interview with upper-class students talking about how they did poorly in their first year but improved over time.",
+          "sentenceIds": [
+            "c12-s03-p136-04380-s001",
+            "c12-s03-p136-04380-s002",
+            "c12-s03-p136-04380-s003",
+            "c12-s03-p136-04380-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 136,
+              "block": 3,
+              "bbox": [
+                76.99,
+                438,
+                535.01,
+                686.52
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "9f69befb428c0b59a139777d56495e90f3cb0871beeef477752f61c9d4578de8"
+    },
+    {
+      "id": "qe-c12-0029",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-053",
+      "parentQuestionId": "q-c12-020",
+      "chapterId": "c12",
+      "sectionId": "c12-s03",
+      "paragraphId": "c12-s03-p136-04380",
+      "readingUnitId": "c12-s03-p136-04380-r001-004",
+      "sentenceIds": [
+        "c12-s03-p136-04380-s001",
+        "c12-s03-p136-04380-s002",
+        "c12-s03-p136-04380-s003",
+        "c12-s03-p136-04380-s004"
+      ],
+      "passage": "But, even on more objective measures, people are drawn to a narrative about personal growth. Tim Wilson and Patricia Linville carried out an intriguing experiment to show how that can take place. They recruited second-semester first-year students at Duke who did not do well in the first semester of college. Half of them watched an interview with upper-class students talking about how they did poorly in their first year but improved over time.",
+      "prompt": "Who carried out the experiment introduced after the personal-growth claim?",
+      "promptZh": "个人成长论述后引入的实验是谁开展的？",
+      "options": [
+        "Anne Wilson and Michael Ross, studying recollections alone.",
+        "Jean Decety and colleagues, using the earthquake sticker task.",
+        "Tim Wilson and Patricia Linville.",
+        "Huang-Yao Hong and Xiaodong Lin-Siegler, in the scientist-story comparison."
+      ],
+      "optionsZh": [
+        "Anne Wilson与Michael Ross，只研究回忆。",
+        "Jean Decety与同事，用地震贴纸任务。",
+        "Tim Wilson与Patricia Linville。",
+        "Huang-Yao Hong与Xiaodong Lin-Siegler，做科学家故事比较。"
+      ],
+      "answer": 2,
+      "type": "观点归属",
+      "support": "explicit",
+      "analyses": [
+        "A 是前文纵向自我评价研究的作者配对，非此处。",
+        "B 是上一章给予研究。",
+        "C 两人紧跟But后被明确点名，随后招募Duke新生。",
+        "D 这一研究在后面物理教学例子，不能与此处大学生实验对调。"
+      ],
+      "vocabulary": [
+        {
+          "word": "carried out",
+          "meaning": "开展；实施某项研究或工作",
+          "context": "在此指进行了实验，不是把物品从房间搬出去。",
+          "example": "The team carried out an experiment with first-year students.",
+          "collocations": [
+            "carried out an intriguing experiment",
+            "to show how that can take place"
+          ]
+        }
+      ],
+      "translation": "不过，即便是较客观的衡量指标，人们也会被个人成长叙事吸引。Tim Wilson与Patricia Linville做了一个引人兴趣的实验，展示这种情况如何发生。他们招募了杜克大学一年级第二学期、但第一学期表现不佳的学生。其中一半观看高年级学生访谈，听他们讲第一年成绩差、后来逐渐提高的经历。",
+      "evidenceTargetIds": [
+        "c12-s03-p136-04380-s002"
+      ],
+      "evidence": [
+        {
+          "quote": "But, even on more objective measures, people are drawn to a narrative about personal growth. Tim Wilson and Patricia Linville carried out an intriguing experiment to show how that can take place. They recruited second-semester first-year students at Duke who did not do well in the first semester of college. Half of them watched an interview with upper-class students talking about how they did poorly in their first year but improved over time.",
+          "sentenceIds": [
+            "c12-s03-p136-04380-s001",
+            "c12-s03-p136-04380-s002",
+            "c12-s03-p136-04380-s003",
+            "c12-s03-p136-04380-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 136,
+              "block": 3,
+              "bbox": [
+                76.99,
+                438,
+                535.01,
+                686.52
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "b8618d5779f08511d21491606f8f24cd4defa1db0f025cd36299393c5d01691b"
+    },
+    {
+      "id": "q-c12-021",
+      "version": 1,
+      "readingUnitId": "c12-s03-p136-04380-r005-007",
+      "chapterId": "c12",
+      "sectionId": "c12-s03",
+      "paragraphId": "c12-s03-p136-04380",
+      "sentenceIds": [
+        "c12-s03-p136-04380-s005",
+        "c12-s03-p136-04380-s006",
+        "c12-s03-p136-04380-s007"
+      ],
+      "passage": "One interviewee said his GPA increased from 2.0 to 2.6 to 3.2. Participants in the experimental condition were also shown the survey results of upper-class students: “67% said their freshman grades were lower than they had anticipated; 62% of the students said their GPA had improved significantly from the first semester of their freshman year to their upper-class years.” The other half of the participants did not receive any information.",
+      "prompt": "Which comparison correctly reports the survey information shown to the experimental group?",
+      "options": [
+        "67% had improved GPAs, and 62% had exceeded their first-year expectations.",
+        "Both percentages refer to the experiment’s no-information group.",
+        "The sequence 2.0, 2.6, 3.2 describes every participant’s GPA.",
+        "67% had lower freshman grades than expected; 62% reported later GPA improvement."
+      ],
+      "answer": 3,
+      "type": "细节",
+      "promptZh": "哪项正确报告展示给实验组的调查信息？",
+      "optionsZh": [
+        "67%GPA提高，62%大一超预期。",
+        "两个百分比均指实验的无信息组。",
+        "2.0、2.6、3.2是每位参与者的GPA。",
+        "67%大一成绩低于预期；62%报告后来GPA提高。"
+      ],
+      "analyses": [
+        "A 交换两个比例对应的事实，且把低于预期反为超过。",
+        "B 百分比来自高年级调查资料，控制组未收到信息。",
+        "C GPA序列只是一位受访者的经历。",
+        "D 67对应首年低于期待，62对应首学期到高年级显著提高，准确保留对象和时间。"
+      ],
+      "evidence": [
+        {
+          "quote": "67% said their freshman grades were lower than they had anticipated; 62% of the students said their GPA had improved significantly",
+          "sentenceIds": [
+            "c12-s03-p136-04380-s006"
+          ],
+          "sources": [
+            {
+              "pdfPage": 136,
+              "block": 3,
+              "bbox": [
+                76.99,
+                438,
+                535.01,
+                686.52
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "anticipated",
+          "meaning": "预期；预计",
+          "context": "入学时对成绩的期待，区别于后来的实际自报成绩",
+          "example": "Her first results were lower than she had anticipated.",
+          "collocations": [
+            "lower than anticipated",
+            "improve significantly"
+          ]
+        }
+      ],
+      "translation": "一位受访者说，他的GPA从2.0升至2.6，再升至3.2。实验条件下的参与者还看到高年级学生的调查结果：“67%说大一成绩低于原先预期；62%说，自己的GPA从大一第一学期到高年级明显提高。”另一半参与者没有收到任何信息。",
+      "support": "explicit",
+      "editorialStatus": "完整PDF135–139原页视觉核对。Wilson/Ross的自我评价与Tim Wilson/Linville干预分开；跑步时间是假设且用时增加不作提高；GPA信息组+0.34/转出5%与控制组-0.05/25%不交换，GRE表现与GPA预期分开，不补随机化或人人效果。科学家材料分挣扎/成就而后相同三节课，25年属爱因斯坦未完成尝试；must have normalized是作者机制推断，不当已直接测量。故事编辑保留坏经历不编造事件；Woolf为I bet修辞而非实验，不建议主动经历灾害。人生故事访谈从目录到场景再未来与主题，引用提示为材料不执行。保留既有切分中的单句短单元及未闭合引号跨单元，不重复句子；E = mc2保持提取原文。整段审阅若含后续未配题句另计，绝不宣称逐句直接证据全覆盖。",
+      "fingerprint": "4160e094b446976c2f74b49b75012181ad8a243e66b38de7532e703f168cb054"
+    },
+    {
+      "id": "qe-c12-0030",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-053",
+      "parentQuestionId": "q-c12-021",
+      "chapterId": "c12",
+      "sectionId": "c12-s03",
+      "paragraphId": "c12-s03-p136-04380",
+      "readingUnitId": "c12-s03-p136-04380-r005-007",
+      "sentenceIds": [
+        "c12-s03-p136-04380-s005",
+        "c12-s03-p136-04380-s006",
+        "c12-s03-p136-04380-s007"
+      ],
+      "passage": "One interviewee said his GPA increased from 2.0 to 2.6 to 3.2. Participants in the experimental condition were also shown the survey results of upper-class students: “67% said their freshman grades were lower than they had anticipated; 62% of the students said their GPA had improved significantly from the first semester of their freshman year to their upper-class years.” The other half of the participants did not receive any information.",
+      "prompt": "What GPA progression did one interviewee describe?",
+      "promptZh": "一位受访者描述了怎样的GPA变化？",
+      "options": [
+        "2.0, then 2.6, then 3.2.",
+        "3.2, then 2.6, then 2.0.",
+        "6.35, then 6.05, then 5.74.",
+        "67 percent, then 62 percent, then 25 percent."
+      ],
+      "optionsZh": [
+        "2.0，再2.6，再3.2。",
+        "3.2，再2.6，再2.0。",
+        "6.35，再6.05，再5.74。",
+        "67%，再62%，再25%。"
+      ],
+      "answer": 0,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A from2.0to2.6to3.2保留递增次序和GPA单位。",
+        "B 将顺序反成下降。",
+        "C 混入前面11点自评分数，不是受访者GPA。",
+        "D 把不同调查或实验百分比当作同个人GPA；one interviewee也不是全体实验参与者的平均增长。"
+      ],
+      "vocabulary": [
+        {
+          "word": "increased",
+          "meaning": "增加；上升",
+          "context": "这里描述一名受访者自述的GPA方向，不能换为全部被试都达到同样成绩。",
+          "example": "The interviewee said his grade average increased over time.",
+          "collocations": [
+            "his GPA increased",
+            "from 2.0 to 2.6 to 3.2"
+          ]
+        }
+      ],
+      "translation": "一位受访者说，他的GPA从2.0升至2.6，再升至3.2。实验条件下的参与者还看到高年级学生的调查结果：“67%说大一成绩低于原先预期；62%说，自己的GPA从大一第一学期到高年级明显提高。”另一半参与者没有收到任何信息。",
+      "evidenceTargetIds": [
+        "c12-s03-p136-04380-s005"
+      ],
+      "evidence": [
+        {
+          "quote": "One interviewee said his GPA increased from 2.0 to 2.6 to 3.2. Participants in the experimental condition were also shown the survey results of upper-class students: “67% said their freshman grades were lower than they had anticipated; 62% of the students said their GPA had improved significantly from the first semester of their freshman year to their upper-class years.” The other half of the participants did not receive any information.",
+          "sentenceIds": [
+            "c12-s03-p136-04380-s005",
+            "c12-s03-p136-04380-s006",
+            "c12-s03-p136-04380-s007"
+          ],
+          "sources": [
+            {
+              "pdfPage": 136,
+              "block": 3,
+              "bbox": [
+                76.99,
+                438,
+                535.01,
+                686.52
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "9c000f2401423f1bff045d55a1a2ebe9117dc4b80a70344c03a0bbdb12cea416"
+    },
+    {
+      "id": "qe-c12-0031",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-053",
+      "parentQuestionId": "q-c12-021",
+      "chapterId": "c12",
+      "sectionId": "c12-s03",
+      "paragraphId": "c12-s03-p136-04380",
+      "readingUnitId": "c12-s03-p136-04380-r005-007",
+      "sentenceIds": [
+        "c12-s03-p136-04380-s005",
+        "c12-s03-p136-04380-s006",
+        "c12-s03-p136-04380-s007"
+      ],
+      "passage": "One interviewee said his GPA increased from 2.0 to 2.6 to 3.2. Participants in the experimental condition were also shown the survey results of upper-class students: “67% said their freshman grades were lower than they had anticipated; 62% of the students said their GPA had improved significantly from the first semester of their freshman year to their upper-class years.” The other half of the participants did not receive any information.",
+      "prompt": "What distinguishes the other half of the participants in this passage?",
+      "promptZh": "本段中另一半参与者有什么区别？",
+      "options": [
+        "They were shown the same GPA information twice as often.",
+        "They were excluded from all later questionnaires by this sentence.",
+        "They had already been proved to have the highest grades before the experiment.",
+        "They did not receive the GPA-related information provided to the experimental group."
+      ],
+      "optionsZh": [
+        "他们看同样GPA资料的次数多一倍。",
+        "本句说他们被排除在所有后续问卷之外。",
+        "实验前已证实他们成绩全体最高。",
+        "他们没有收到实验组看到的GPA相关信息。"
+      ],
+      "answer": 3,
+      "type": "研究设计",
+      "support": "explicit",
+      "analyses": [
+        "A did not receive与多看相反。",
+        "B 不收该信息不代表不参加后续测验，不能扩大程序限制。",
+        "C 原句不说他们基线最高，更未给这种分组依据。",
+        "D other half承接前面访谈与高年级调查信息，构成信息条件的对照，而非完全不参与研究。"
+      ],
+      "vocabulary": [
+        {
+          "word": "the other half",
+          "meaning": "另一半；在前述一半之外的那部分参与者",
+          "context": "区分信息呈现条件，不能直接推成相同参与者重复观看。",
+          "example": "The other half did not receive the background information.",
+          "collocations": [
+            "The other half of the participants",
+            "did not receive any information"
+          ]
+        }
+      ],
+      "translation": "一位受访者说，他的GPA从2.0升至2.6，再升至3.2。实验条件下的参与者还看到高年级学生的调查结果：“67%说大一成绩低于原先预期；62%说，自己的GPA从大一第一学期到高年级明显提高。”另一半参与者没有收到任何信息。",
+      "evidenceTargetIds": [
+        "c12-s03-p136-04380-s007"
+      ],
+      "evidence": [
+        {
+          "quote": "One interviewee said his GPA increased from 2.0 to 2.6 to 3.2. Participants in the experimental condition were also shown the survey results of upper-class students: “67% said their freshman grades were lower than they had anticipated; 62% of the students said their GPA had improved significantly from the first semester of their freshman year to their upper-class years.” The other half of the participants did not receive any information.",
+          "sentenceIds": [
+            "c12-s03-p136-04380-s005",
+            "c12-s03-p136-04380-s006",
+            "c12-s03-p136-04380-s007"
+          ],
+          "sources": [
+            {
+              "pdfPage": 136,
+              "block": 3,
+              "bbox": [
+                76.99,
+                438,
+                535.01,
+                686.52
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "0470220d5d4aa8515206b0674511a6daee66d3a818fd0887fa33a21b86d0e964"
+    },
+    {
+      "id": "q-c12-022",
+      "version": 1,
+      "readingUnitId": "c12-s03-p136-04380-r008-008",
+      "chapterId": "c12",
+      "sectionId": "c12-s03",
+      "paragraphId": "c12-s03-p136-04380",
+      "sentenceIds": [
+        "c12-s03-p136-04380-s008"
+      ],
+      "passage": "All the participants completed a questionnaire, then a brief version of GRE reading comprehension and anagram problems, and another version of GRE reading comprehension and anagram problems one week later.",
+      "prompt": "Which sequence matches the assessment procedure?",
+      "options": [
+        "A GRE task, a questionnaire, then the identical task the next day.",
+        "A questionnaire, an initial set of tasks, then another version a week later.",
+        "An anagram task only, followed by the questionnaire one year later.",
+        "Different subjects’ GPAs were compared without any reading task."
+      ],
+      "answer": 1,
+      "type": "逻辑关系",
+      "promptZh": "哪一顺序符合测量程序？",
+      "optionsZh": [
+        "GRE任务、问卷、次日完全相同任务。",
+        "问卷、首次任务组、一周后另一版本。",
+        "只有字谜，一年后问卷。",
+        "仅比较不同人的GPA，没有阅读任务。"
+      ],
+      "analyses": [
+        "A questionnaire在前；间隔一周而非次日；another version不等于完全相同题。",
+        "B then及one week later给出顺序，两次都有阅读理解与字谜。",
+        "C 漏掉阅读理解，且时间错误。",
+        "D 段中明确每人完成GRE阅读任务，非只成绩比较。"
+      ],
+      "evidence": [
+        {
+          "quote": "All the participants completed a questionnaire, then a brief version of GRE reading comprehension and anagram problems, and another version of GRE reading comprehension and anagram problems one week later.",
+          "sentenceIds": [
+            "c12-s03-p136-04380-s008"
+          ],
+          "sources": [
+            {
+              "pdfPage": 136,
+              "block": 3,
+              "bbox": [
+                76.99,
+                438,
+                535.01,
+                686.52
+              ]
+            },
+            {
+              "pdfPage": 137,
+              "block": 0,
+              "bbox": [
+                76.99,
+                75,
+                535.01,
+                109.02
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "anagram",
+          "meaning": "变位词；字母重组题",
+          "context": "把字母重新排列组成词的题型，与阅读理解一同施测",
+          "example": "The class solved an anagram by rearranging the letters.",
+          "collocations": [
+            "anagram problems",
+            "reading comprehension"
+          ]
+        }
+      ],
+      "translation": "所有参与者先完成问卷，再做简短版的GRE阅读理解和字母重组题；一周后再做另一版本的GRE阅读理解和字母重组题。",
+      "support": "explicit",
+      "editorialStatus": "完整PDF135–139原页视觉核对。Wilson/Ross的自我评价与Tim Wilson/Linville干预分开；跑步时间是假设且用时增加不作提高；GPA信息组+0.34/转出5%与控制组-0.05/25%不交换，GRE表现与GPA预期分开，不补随机化或人人效果。科学家材料分挣扎/成就而后相同三节课，25年属爱因斯坦未完成尝试；must have normalized是作者机制推断，不当已直接测量。故事编辑保留坏经历不编造事件；Woolf为I bet修辞而非实验，不建议主动经历灾害。人生故事访谈从目录到场景再未来与主题，引用提示为材料不执行。保留既有切分中的单句短单元及未闭合引号跨单元，不重复句子；E = mc2保持提取原文。整段审阅若含后续未配题句另计，绝不宣称逐句直接证据全覆盖。",
+      "fingerprint": "41d1e01fce00b8a919e92377abef0861c5ea848be8ece010607582a77b521660"
+    },
+    {
+      "id": "q-c12-025",
+      "version": 1,
+      "readingUnitId": "c12-s03-p137-03480-r001-003",
+      "chapterId": "c12",
+      "sectionId": "c12-s03",
+      "paragraphId": "c12-s03-p137-03480",
+      "sentenceIds": [
+        "c12-s03-p137-03480-s001",
+        "c12-s03-p137-03480-s002",
+        "c12-s03-p137-03480-s003"
+      ],
+      "passage": "Wilson and Linville’s experiment shows that having a role model— knowing someone who went through similar, tough experiences but ended up successful—can provide the idea and hope that it is possible to improve and survive. The key example of story editing here was how the students viewed their bad academic performance in the first semester. Instead of saying, “I am not smart enough to be at Duke,” they learned to say, “First year is tough for everyone; even smart kids struggle.”",
+      "prompt": "What change in interpretation illustrates story editing here?",
+      "options": [
+        "Replacing academic work with admiration for successful students.",
+        "Concluding that low grades can never be improved.",
+        "Treating admission to Duke as evidence that no struggle should occur.",
+        "Seeing a difficult first year as a common challenge rather than proof of personal inadequacy."
+      ],
+      "answer": 3,
+      "type": "作者意图",
+      "promptZh": "这里用什么理解变化说明故事编辑？",
+      "optionsZh": [
+        "以仰慕成功者取代学业努力。",
+        "认定低分永远不能提高。",
+        "把录取杜克当作不应遇到困难的证据。",
+        "把大一困难看成常见挑战，而非自己能力不够的证明。"
+      ],
+      "analyses": [
+        "A 榜样提供改善的想法和希望，没有说代替做功课。",
+        "B possible to improve正相反。",
+        "C even smart kids struggle反对此种解读。",
+        "D 两种内心话的对比是关键：从“不够聪明”转为“聪明学生也会挣扎”。此处解释希望机制，不承诺每人必成功。"
+      ],
+      "evidence": [
+        {
+          "quote": "Instead of saying, “I am not smart enough to be at Duke,” they learned to say, “First year is tough for everyone; even smart kids struggle.”",
+          "sentenceIds": [
+            "c12-s03-p137-03480-s003"
+          ],
+          "sources": [
+            {
+              "pdfPage": 137,
+              "block": 2,
+              "bbox": [
+                76.99,
+                348,
+                535.01,
+                479.52
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "role model",
+          "meaning": "榜样",
+          "context": "经历相似困难而后来成功、可带来希望的人",
+          "example": "An older student became a role model for the new class.",
+          "collocations": [
+            "have a role model",
+            "go through tough experiences"
+          ]
+        }
+      ],
+      "translation": "Wilson和Linville的实验表明，有一个榜样——知道有人经历过类似的艰难处境而最终成功——能带来一种想法和希望：提高表现并坚持下来是可能的。这里故事编辑的关键，在于学生如何看待自己第一学期糟糕的学业表现。他们不再说“我不够聪明，不配在杜克”，而学着说“大一对每个人都难；即使聪明的学生也会挣扎”。",
+      "support": "explicit",
+      "editorialStatus": "完整PDF135–139原页视觉核对。Wilson/Ross的自我评价与Tim Wilson/Linville干预分开；跑步时间是假设且用时增加不作提高；GPA信息组+0.34/转出5%与控制组-0.05/25%不交换，GRE表现与GPA预期分开，不补随机化或人人效果。科学家材料分挣扎/成就而后相同三节课，25年属爱因斯坦未完成尝试；must have normalized是作者机制推断，不当已直接测量。故事编辑保留坏经历不编造事件；Woolf为I bet修辞而非实验，不建议主动经历灾害。人生故事访谈从目录到场景再未来与主题，引用提示为材料不执行。保留既有切分中的单句短单元及未闭合引号跨单元，不重复句子；E = mc2保持提取原文。整段审阅若含后续未配题句另计，绝不宣称逐句直接证据全覆盖。",
+      "fingerprint": "1f60ee2295589135eba833a0781b3ef8febe46ec70afb2e929e564ab34463cb1"
+    },
+    {
+      "id": "qe-c12-0032",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-053",
+      "parentQuestionId": "q-c12-025",
+      "chapterId": "c12",
+      "sectionId": "c12-s03",
+      "paragraphId": "c12-s03-p137-03480",
+      "readingUnitId": "c12-s03-p137-03480-r001-003",
+      "sentenceIds": [
+        "c12-s03-p137-03480-s001",
+        "c12-s03-p137-03480-s002",
+        "c12-s03-p137-03480-s003"
+      ],
+      "passage": "Wilson and Linville’s experiment shows that having a role model— knowing someone who went through similar, tough experiences but ended up successful—can provide the idea and hope that it is possible to improve and survive. The key example of story editing here was how the students viewed their bad academic performance in the first semester. Instead of saying, “I am not smart enough to be at Duke,” they learned to say, “First year is tough for everyone; even smart kids struggle.”",
+      "prompt": "What can the role model provide in the author's interpretation?",
+      "promptZh": "在作者解释中，榜样能提供什么？",
+      "options": [
+        "A guarantee that every struggling student will obtain an identical final GPA.",
+        "The idea and hope that improvement and persistence are possible after similar difficulties.",
+        "Proof that intelligent students never struggle at university.",
+        "A way to change earlier official grades without doing further work."
+      ],
+      "optionsZh": [
+        "保证每个困难学生最后GPA完全相同。",
+        "经历类似困难后仍可能进步、坚持下来的想法与希望。",
+        "证明聪明学生在大学从不挣扎。",
+        "不用后续努力就能修改早期正式分数的方法。"
+      ],
+      "answer": 1,
+      "type": "作者观点",
+      "support": "explicit",
+      "analyses": [
+        "A can provide hope不是保证统一成绩。",
+        "B 破折号定义role model为类似艰难中后来成功者，can和possible保留可能。",
+        "C 末句even smart kids struggle反对这种理解。",
+        "D 改变对困难的看法不是改动既成成绩单。"
+      ],
+      "vocabulary": [
+        {
+          "word": "role model",
+          "meaning": "榜样；能让人参考其经历或做法的人",
+          "context": "本句重点是经历类似困难而后来成功者，不只是没有挫折的成就名人。",
+          "example": "A role model who had struggled made improvement seem possible.",
+          "collocations": [
+            "having a role model",
+            "went through similar, tough experiences"
+          ]
+        }
+      ],
+      "translation": "Wilson和Linville的实验表明，有一个榜样——知道有人经历过类似的艰难处境而最终成功——能带来一种想法和希望：提高表现并坚持下来是可能的。这里故事编辑的关键，在于学生如何看待自己第一学期糟糕的学业表现。他们不再说“我不够聪明，不配在杜克”，而学着说“大一对每个人都难；即使聪明的学生也会挣扎”。",
+      "evidenceTargetIds": [
+        "c12-s03-p137-03480-s001"
+      ],
+      "evidence": [
+        {
+          "quote": "Wilson and Linville’s experiment shows that having a role model— knowing someone who went through similar, tough experiences but ended up successful—can provide the idea and hope that it is possible to improve and survive. The key example of story editing here was how the students viewed their bad academic performance in the first semester. Instead of saying, “I am not smart enough to be at Duke,” they learned to say, “First year is tough for everyone; even smart kids struggle.”",
+          "sentenceIds": [
+            "c12-s03-p137-03480-s001",
+            "c12-s03-p137-03480-s002",
+            "c12-s03-p137-03480-s003"
+          ],
+          "sources": [
+            {
+              "pdfPage": 137,
+              "block": 2,
+              "bbox": [
+                76.99,
+                348,
+                535.01,
+                479.52
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "2a5f3541eb31c8fa2b81a7bbf7992074f880a02899bb51eff85bb2487cf26560"
+    },
+    {
+      "id": "qe-c12-0033",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-053",
+      "parentQuestionId": "q-c12-025",
+      "chapterId": "c12",
+      "sectionId": "c12-s03",
+      "paragraphId": "c12-s03-p137-03480",
+      "readingUnitId": "c12-s03-p137-03480-r001-003",
+      "sentenceIds": [
+        "c12-s03-p137-03480-s001",
+        "c12-s03-p137-03480-s002",
+        "c12-s03-p137-03480-s003"
+      ],
+      "passage": "Wilson and Linville’s experiment shows that having a role model— knowing someone who went through similar, tough experiences but ended up successful—can provide the idea and hope that it is possible to improve and survive. The key example of story editing here was how the students viewed their bad academic performance in the first semester. Instead of saying, “I am not smart enough to be at Duke,” they learned to say, “First year is tough for everyone; even smart kids struggle.”",
+      "prompt": "What was being reinterpreted in this example of story editing?",
+      "promptZh": "这个故事编辑例子重新解释的对象是什么？",
+      "options": [
+        "The students' first-semester poor academic performance.",
+        "Only the university's city and founding date.",
+        "Einstein's completed unification of every physical theory.",
+        "The researchers' own childhood GPA rather than the participants' experiences."
+      ],
+      "optionsZh": [
+        "学生第一学期不佳的学业表现。",
+        "只有大学所在城市与创校日期。",
+        "Einstein已完成的全部物理理论统一。",
+        "研究者自己童年GPA，而非参与者经历。"
+      ],
+      "answer": 0,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A how students viewed...bad academic performance in first semester明确给对象。",
+        "B 没有把校史地理作此处重述对象。",
+        "C 物理例子尚在后面，也没有说统一已完成。",
+        "D students指参与学生，不能把自我解释主体换成研究者童年。"
+      ],
+      "vocabulary": [
+        {
+          "word": "viewed",
+          "meaning": "看待；怎样理解某经历",
+          "context": "与bad performance搭配，讨论解释方式，不等于已经改变过去成绩。",
+          "example": "They changed how they viewed the difficult first semester.",
+          "collocations": [
+            "how the students viewed",
+            "their bad academic performance"
+          ]
+        }
+      ],
+      "translation": "Wilson和Linville的实验表明，有一个榜样——知道有人经历过类似的艰难处境而最终成功——能带来一种想法和希望：提高表现并坚持下来是可能的。这里故事编辑的关键，在于学生如何看待自己第一学期糟糕的学业表现。他们不再说“我不够聪明，不配在杜克”，而学着说“大一对每个人都难；即使聪明的学生也会挣扎”。",
+      "evidenceTargetIds": [
+        "c12-s03-p137-03480-s002"
+      ],
+      "evidence": [
+        {
+          "quote": "Wilson and Linville’s experiment shows that having a role model— knowing someone who went through similar, tough experiences but ended up successful—can provide the idea and hope that it is possible to improve and survive. The key example of story editing here was how the students viewed their bad academic performance in the first semester. Instead of saying, “I am not smart enough to be at Duke,” they learned to say, “First year is tough for everyone; even smart kids struggle.”",
+          "sentenceIds": [
+            "c12-s03-p137-03480-s001",
+            "c12-s03-p137-03480-s002",
+            "c12-s03-p137-03480-s003"
+          ],
+          "sources": [
+            {
+              "pdfPage": 137,
+              "block": 2,
+              "bbox": [
+                76.99,
+                348,
+                535.01,
+                479.52
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "ea81e59d99c4ddeb0a2f3310a81caacf21964e33730fa136a189e9a989345265"
+    },
+    {
+      "id": "q-c12-026",
+      "version": 1,
+      "readingUnitId": "c12-s03-p137-04845-r001-004",
+      "chapterId": "c12",
+      "sectionId": "c12-s03",
+      "paragraphId": "c12-s03-p137-04845",
+      "sentenceIds": [
+        "c12-s03-p137-04845-s001",
+        "c12-s03-p137-04845-s002",
+        "c12-s03-p137-04845-s003",
+        "c12-s03-p137-04845-s004"
+      ],
+      "passage": "Similarly, for most of us, physics is a tough subject. When we think about geniuses such as Galileo, Newton, and Einstein, we think that everything comes naturally to them and they are totally different from us. So, when we must learn E = mc2, it is hard for us to identify with Einstein. But what if you were told that Einstein struggled too?",
+      "prompt": "What purpose does the final question about Einstein’s struggles serve?",
+      "options": [
+        "It asks readers to prove the equation before continuing.",
+        "It challenges the assumption that scientific ability makes effort unnecessary.",
+        "It reports that all students already identify closely with Einstein.",
+        "It establishes that the named scientists had identical lives."
+      ],
+      "answer": 1,
+      "type": "作者意图",
+      "promptZh": "末句问爱因斯坦也曾挣扎，有什么作用？",
+      "optionsZh": [
+        "要求读者先证明公式。",
+        "挑战有科学才能就无需努力的假设。",
+        "报告所有学生已很认同爱因斯坦。",
+        "确立三位科学家人生相同。"
+      ],
+      "analyses": [
+        "A 文中是引出新视角的反问，不是解公式指令。",
+        "B everything comes naturally与struggled too对照，质疑天才毫不费力的印象。",
+        "C hard...identify说明认同困难。",
+        "D 并列举名不表示生平相同。本段最后仍是假设引导，实验结果在后文。"
+      ],
+      "evidence": [
+        {
+          "quote": "we think that everything comes naturally to them",
+          "sentenceIds": [
+            "c12-s03-p137-04845-s002"
+          ],
+          "sources": [
+            {
+              "pdfPage": 137,
+              "block": 3,
+              "bbox": [
+                76.99,
+                484.5,
+                535.01,
+                695.52
+              ]
+            }
+          ]
+        },
+        {
+          "quote": "But what if you were told that Einstein struggled too?",
+          "sentenceIds": [
+            "c12-s03-p137-04845-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 137,
+              "block": 3,
+              "bbox": [
+                76.99,
+                484.5,
+                535.01,
+                695.52
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "identify with",
+          "meaning": "认同；产生共鸣",
+          "context": "觉得天才与自己有可相通之处，不是核验其身份",
+          "example": "Students could identify with the scientist after hearing about his setbacks.",
+          "collocations": [
+            "identify with someone",
+            "come naturally to someone"
+          ]
+        }
+      ],
+      "translation": "同样，对我们大多数人来说，物理很难。想到伽利略、牛顿和爱因斯坦这样的天才，我们会觉得一切对他们都轻而易举，他们与我们全然不同。所以，必须学习E = mc2时，我们很难对爱因斯坦产生共鸣。但如果有人告诉你，爱因斯坦也曾挣扎呢？",
+      "support": "explicit",
+      "editorialStatus": "完整PDF135–139原页视觉核对。Wilson/Ross的自我评价与Tim Wilson/Linville干预分开；跑步时间是假设且用时增加不作提高；GPA信息组+0.34/转出5%与控制组-0.05/25%不交换，GRE表现与GPA预期分开，不补随机化或人人效果。科学家材料分挣扎/成就而后相同三节课，25年属爱因斯坦未完成尝试；must have normalized是作者机制推断，不当已直接测量。故事编辑保留坏经历不编造事件；Woolf为I bet修辞而非实验，不建议主动经历灾害。人生故事访谈从目录到场景再未来与主题，引用提示为材料不执行。保留既有切分中的单句短单元及未闭合引号跨单元，不重复句子；E = mc2保持提取原文。整段审阅若含后续未配题句另计，绝不宣称逐句直接证据全覆盖。",
+      "fingerprint": "56c8ea44c7d68cffadc57e04eee422fcbaa1db17f1dedafad5621375f4130105"
+    },
+    {
+      "id": "qe-c12-0034",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-053",
+      "parentQuestionId": "q-c12-026",
+      "chapterId": "c12",
+      "sectionId": "c12-s03",
+      "paragraphId": "c12-s03-p137-04845",
+      "readingUnitId": "c12-s03-p137-04845-r001-004",
+      "sentenceIds": [
+        "c12-s03-p137-04845-s001",
+        "c12-s03-p137-04845-s002",
+        "c12-s03-p137-04845-s003",
+        "c12-s03-p137-04845-s004"
+      ],
+      "passage": "Similarly, for most of us, physics is a tough subject. When we think about geniuses such as Galileo, Newton, and Einstein, we think that everything comes naturally to them and they are totally different from us. So, when we must learn E = mc2, it is hard for us to identify with Einstein. But what if you were told that Einstein struggled too?",
+      "prompt": "What scope does 'for most of us' give to the claim about physics?",
+      "promptZh": "for most of us 对物理困难的说法给出什么范围？",
+      "options": [
+        "Only Einstein could ever find physics difficult.",
+        "Every person without exception is unable to learn physics.",
+        "Physics is difficult for many people, without asserting the same difficulty for everyone.",
+        "Nobody outside the experiment has ever studied physics."
+      ],
+      "optionsZh": [
+        "只有Einstein才可能觉得物理难。",
+        "每个人都无例外学不会物理。",
+        "对许多人物理很难，但未断言人人困难相同。",
+        "实验外从没人学过物理。"
+      ],
+      "answer": 2,
+      "type": "证据范围",
+      "support": "explicit",
+      "analyses": [
+        "A most of us不是只一个历史人物。",
+        "B tough subject不等于永远学不会，most也非every。",
+        "C 保留多数范围和tough的难度描述，不推出能力永久缺失。",
+        "D 本句未限制到实验内人数，亦不否认外界学物理。"
+      ],
+      "vocabulary": [
+        {
+          "word": "tough",
+          "meaning": "困难的；具有挑战的",
+          "context": "修饰学科难度，不等于个人永远不可能理解。",
+          "example": "Physics can be a tough subject without being impossible to learn.",
+          "collocations": [
+            "physics is a tough subject",
+            "for most of us"
+          ]
+        }
+      ],
+      "translation": "同样，对我们大多数人来说，物理很难。想到伽利略、牛顿和爱因斯坦这样的天才，我们会觉得一切对他们都轻而易举，他们与我们全然不同。所以，必须学习E = mc2时，我们很难对爱因斯坦产生共鸣。但如果有人告诉你，爱因斯坦也曾挣扎呢？",
+      "evidenceTargetIds": [
+        "c12-s03-p137-04845-s001"
+      ],
+      "evidence": [
+        {
+          "quote": "Similarly, for most of us, physics is a tough subject. When we think about geniuses such as Galileo, Newton, and Einstein, we think that everything comes naturally to them and they are totally different from us. So, when we must learn E = mc2, it is hard for us to identify with Einstein. But what if you were told that Einstein struggled too?",
+          "sentenceIds": [
+            "c12-s03-p137-04845-s001",
+            "c12-s03-p137-04845-s002",
+            "c12-s03-p137-04845-s003",
+            "c12-s03-p137-04845-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 137,
+              "block": 3,
+              "bbox": [
+                76.99,
+                484.5,
+                535.01,
+                695.52
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "e93b11e84fa4a7ba4c632fcd9dbddffe4c8076e733f3416057e55e1e398f744e"
+    },
+    {
+      "id": "qe-c12-0035",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-053",
+      "parentQuestionId": "q-c12-026",
+      "chapterId": "c12",
+      "sectionId": "c12-s03",
+      "paragraphId": "c12-s03-p137-04845",
+      "readingUnitId": "c12-s03-p137-04845-r001-004",
+      "sentenceIds": [
+        "c12-s03-p137-04845-s001",
+        "c12-s03-p137-04845-s002",
+        "c12-s03-p137-04845-s003",
+        "c12-s03-p137-04845-s004"
+      ],
+      "passage": "Similarly, for most of us, physics is a tough subject. When we think about geniuses such as Galileo, Newton, and Einstein, we think that everything comes naturally to them and they are totally different from us. So, when we must learn E = mc2, it is hard for us to identify with Einstein. But what if you were told that Einstein struggled too?",
+      "prompt": "What does 'identify with Einstein' mean in this context?",
+      "promptZh": "这里 identify with Einstein 是什么意思？",
+      "options": [
+        "Recognise only the spelling of Einstein's name.",
+        "Prove that one has personally written Einstein's theory.",
+        "State that every learner has exactly the same achievements as Einstein.",
+        "Relate to Einstein or see his experience as connected with one's own struggles."
+      ],
+      "optionsZh": [
+        "只认出Einstein姓名拼法。",
+        "证明自己亲自写了Einstein理论。",
+        "宣称每个学习者都取得与Einstein完全相同成就。",
+        "对Einstein产生共鸣，把他的经历与自己的困难联系起来。"
+      ],
+      "answer": 3,
+      "type": "语境词义",
+      "support": "explicit",
+      "analyses": [
+        "A identify with是产生共鸣，不是仅认名字。",
+        "B 理解共鸣不等于认领理论作者身份。",
+        "C 能联系经历不要求成就一模一样。",
+        "D 前面totally different使难共鸣，后句Einstein struggled too为转折可能；保留书中线性提取的公式原文，不增写物理推导。"
+      ],
+      "vocabulary": [
+        {
+          "word": "identify with",
+          "meaning": "认同；对某人的经历产生共鸣",
+          "context": "在此是学习者与被视为天才者之间的心理距离，不是身份证明。",
+          "example": "Students found it easier to identify with a scientist who had struggled.",
+          "collocations": [
+            "hard for us to identify with Einstein",
+            "Einstein struggled too"
+          ]
+        }
+      ],
+      "translation": "同样，对我们大多数人来说，物理很难。想到伽利略、牛顿和爱因斯坦这样的天才，我们会觉得一切对他们都轻而易举，他们与我们全然不同。所以，必须学习E = mc2时，我们很难对爱因斯坦产生共鸣。但如果有人告诉你，爱因斯坦也曾挣扎呢？",
+      "evidenceTargetIds": [
+        "c12-s03-p137-04845-s003"
+      ],
+      "evidence": [
+        {
+          "quote": "Similarly, for most of us, physics is a tough subject. When we think about geniuses such as Galileo, Newton, and Einstein, we think that everything comes naturally to them and they are totally different from us. So, when we must learn E = mc2, it is hard for us to identify with Einstein. But what if you were told that Einstein struggled too?",
+          "sentenceIds": [
+            "c12-s03-p137-04845-s001",
+            "c12-s03-p137-04845-s002",
+            "c12-s03-p137-04845-s003",
+            "c12-s03-p137-04845-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 137,
+              "block": 3,
+              "bbox": [
+                76.99,
+                484.5,
+                535.01,
+                695.52
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "655846e070c8d19c295027e74781c60814e5f795ecf5c4b0e42707bc58a642c0"
+    },
+    {
+      "id": "q-c12-027",
+      "version": 1,
+      "readingUnitId": "c12-s03-p137-04845-r005-008",
+      "chapterId": "c12",
+      "sectionId": "c12-s03",
+      "paragraphId": "c12-s03-p137-04845",
+      "sentenceIds": [
+        "c12-s03-p137-04845-s005",
+        "c12-s03-p137-04845-s006",
+        "c12-s03-p137-04845-s007",
+        "c12-s03-p137-04845-s008"
+      ],
+      "passage": "He was dissatisfied with his theory of relativity because it did not include electromagnetism. He tried to integrate electromagnetic and gravitational phenomena. Unfortunately, he was never able to do this, despite the fact that he spent the last twenty-five years of his life on it. Knowing this, Huang-Yao Hong and Xiaodong Lin-Siegler carried out an experiment telling one group of tenth-grade students about the struggles of Galileo, Newton, and Einstein, while telling another group only about their extraordinary accomplishments.",
+      "prompt": "How did the information given to the two student groups differ?",
+      "options": [
+        "One group heard about scientific struggles; the other heard only extraordinary achievements.",
+        "One group heard about Einstein; the other heard only about Galileo.",
+        "One group studied electromagnetism; the other studied only gravity.",
+        "One group received twenty-five years of instruction; the other received none."
+      ],
+      "answer": 0,
+      "type": "细节",
+      "promptZh": "给两组学生的信息有何差别？",
+      "optionsZh": [
+        "一组听科学家的挣扎，另一组只听非凡成就。",
+        "一组只听爱因斯坦，另一组只听伽利略。",
+        "一组学电磁学，另一组只学引力。",
+        "一组受教25年，另一组不受教。"
+      ],
+      "analyses": [
+        "A while对照描述信息的侧重：struggles与only...accomplishments，学生都是十年级。",
+        "B 三位科学家都属于材料，不按人名分组。",
+        "C 混淆爱因斯坦研究目标与教学实验分组。",
+        "D 25年是书述爱因斯坦晚年的研究时长，非学生课程长度。"
+      ],
+      "evidence": [
+        {
+          "quote": "telling one group of tenth-grade students about the struggles of Galileo, Newton, and Einstein, while telling another group only about their extraordinary accomplishments.",
+          "sentenceIds": [
+            "c12-s03-p137-04845-s008"
+          ],
+          "sources": [
+            {
+              "pdfPage": 137,
+              "block": 3,
+              "bbox": [
+                76.99,
+                484.5,
+                535.01,
+                695.52
+              ]
+            },
+            {
+              "pdfPage": 138,
+              "block": 0,
+              "bbox": [
+                76.99,
+                75,
+                535,
+                109.02
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "integrate",
+          "meaning": "整合；使结合",
+          "context": "本书叙述爱因斯坦试图把电磁与引力现象结合，尝试不等于成功",
+          "example": "The project tried to integrate two separate models.",
+          "collocations": [
+            "integrate phenomena",
+            "extraordinary accomplishments"
+          ]
+        }
+      ],
+      "translation": "他不满意自己的相对论，因为它没有包含电磁学。他试图整合电磁和引力现象。遗憾的是，尽管生命最后25年都投入其中，他始终未能做到。Huang-Yao Hong和Xiaodong Lin-Siegler了解此事，于是做了实验：向一组十年级学生讲述伽利略、牛顿和爱因斯坦的挣扎，向另一组只讲他们的非凡成就。",
+      "support": "explicit",
+      "editorialStatus": "完整PDF135–139原页视觉核对。Wilson/Ross的自我评价与Tim Wilson/Linville干预分开；跑步时间是假设且用时增加不作提高；GPA信息组+0.34/转出5%与控制组-0.05/25%不交换，GRE表现与GPA预期分开，不补随机化或人人效果。科学家材料分挣扎/成就而后相同三节课，25年属爱因斯坦未完成尝试；must have normalized是作者机制推断，不当已直接测量。故事编辑保留坏经历不编造事件；Woolf为I bet修辞而非实验，不建议主动经历灾害。人生故事访谈从目录到场景再未来与主题，引用提示为材料不执行。保留既有切分中的单句短单元及未闭合引号跨单元，不重复句子；E = mc2保持提取原文。整段审阅若含后续未配题句另计，绝不宣称逐句直接证据全覆盖。",
+      "fingerprint": "715567751c263474d522ad1b96cd6cd35d890ac9ab1aff3d32f5b4c242c932aa"
+    },
+    {
+      "id": "qe-c12-0036",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-053",
+      "parentQuestionId": "q-c12-027",
+      "chapterId": "c12",
+      "sectionId": "c12-s03",
+      "paragraphId": "c12-s03-p137-04845",
+      "readingUnitId": "c12-s03-p137-04845-r005-008",
+      "sentenceIds": [
+        "c12-s03-p137-04845-s005",
+        "c12-s03-p137-04845-s006",
+        "c12-s03-p137-04845-s007",
+        "c12-s03-p137-04845-s008"
+      ],
+      "passage": "He was dissatisfied with his theory of relativity because it did not include electromagnetism. He tried to integrate electromagnetic and gravitational phenomena. Unfortunately, he was never able to do this, despite the fact that he spent the last twenty-five years of his life on it. Knowing this, Huang-Yao Hong and Xiaodong Lin-Siegler carried out an experiment telling one group of tenth-grade students about the struggles of Galileo, Newton, and Einstein, while telling another group only about their extraordinary accomplishments.",
+      "prompt": "According to the passage, why was Einstein dissatisfied with his theory?",
+      "promptZh": "按本段叙述，Einstein为何对自己的理论不满意？",
+      "options": [
+        "He believed it already explained every phenomenon without any gap.",
+        "It did not include electromagnetism.",
+        "He had never developed any theory at all.",
+        "It required students to receive GPA information at Duke."
+      ],
+      "optionsZh": [
+        "他认为它已无遗漏地解释每种现象。",
+        "它没有包含电磁学。",
+        "他从未提出任何理论。",
+        "它要求学生在Duke接受GPA信息。"
+      ],
+      "answer": 1,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A because it did not include明确一个不足，不是毫无缺口。",
+        "B 原句because后的原因直接对应，保持这是本书的科学家经历叙述。",
+        "C his theory of relativity并非从无理论。",
+        "D 把前一教育实验与科学史对象混合，不能当本句原因。"
+      ],
+      "vocabulary": [
+        {
+          "word": "dissatisfied",
+          "meaning": "不满意的；认为尚有不足的",
+          "context": "不自动等于他否定理论的一切成果或认为自己从未成功。",
+          "example": "The scientist was dissatisfied with a theory that left something unexplained.",
+          "collocations": [
+            "dissatisfied with his theory of relativity",
+            "because it did not include electromagnetism"
+          ]
+        }
+      ],
+      "translation": "他不满意自己的相对论，因为它没有包含电磁学。他试图整合电磁和引力现象。遗憾的是，尽管生命最后25年都投入其中，他始终未能做到。Huang-Yao Hong和Xiaodong Lin-Siegler了解此事，于是做了实验：向一组十年级学生讲述伽利略、牛顿和爱因斯坦的挣扎，向另一组只讲他们的非凡成就。",
+      "evidenceTargetIds": [
+        "c12-s03-p137-04845-s005"
+      ],
+      "evidence": [
+        {
+          "quote": "He was dissatisfied with his theory of relativity because it did not include electromagnetism. He tried to integrate electromagnetic and gravitational phenomena. Unfortunately, he was never able to do this, despite the fact that he spent the last twenty-five years of his life on it. Knowing this, Huang-Yao Hong and Xiaodong Lin-Siegler carried out an experiment telling one group of tenth-grade students about the struggles of Galileo, Newton, and Einstein, while telling another group only about their extraordinary accomplishments.",
+          "sentenceIds": [
+            "c12-s03-p137-04845-s005",
+            "c12-s03-p137-04845-s006",
+            "c12-s03-p137-04845-s007",
+            "c12-s03-p137-04845-s008"
+          ],
+          "sources": [
+            {
+              "pdfPage": 137,
+              "block": 3,
+              "bbox": [
+                76.99,
+                484.5,
+                535.01,
+                695.52
+              ]
+            },
+            {
+              "pdfPage": 138,
+              "block": 0,
+              "bbox": [
+                76.99,
+                75,
+                535,
+                109.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "01a1f851f84aff9e7b028ce55bbbbe89eb6bb17f32f35351af0de2192ab459d8"
+    },
+    {
+      "id": "qe-c12-0037",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-053",
+      "parentQuestionId": "q-c12-027",
+      "chapterId": "c12",
+      "sectionId": "c12-s03",
+      "paragraphId": "c12-s03-p137-04845",
+      "readingUnitId": "c12-s03-p137-04845-r005-008",
+      "sentenceIds": [
+        "c12-s03-p137-04845-s005",
+        "c12-s03-p137-04845-s006",
+        "c12-s03-p137-04845-s007",
+        "c12-s03-p137-04845-s008"
+      ],
+      "passage": "He was dissatisfied with his theory of relativity because it did not include electromagnetism. He tried to integrate electromagnetic and gravitational phenomena. Unfortunately, he was never able to do this, despite the fact that he spent the last twenty-five years of his life on it. Knowing this, Huang-Yao Hong and Xiaodong Lin-Siegler carried out an experiment telling one group of tenth-grade students about the struggles of Galileo, Newton, and Einstein, while telling another group only about their extraordinary accomplishments.",
+      "prompt": "Which integration did Einstein attempt in this account?",
+      "promptZh": "在本段叙述里，Einstein试图整合什么？",
+      "options": [
+        "Electromagnetic and gravitational phenomena.",
+        "Only students' GPA scores and memory ratings.",
+        "Every scientific biography into a single fictional narrative.",
+        "The schools' donation tasks with municipal hiring procedures."
+      ],
+      "optionsZh": [
+        "电磁现象与引力现象。",
+        "仅学生GPA与回忆评分。",
+        "把所有科学家传记拼成一篇虚构故事。",
+        "学校捐赠任务与市政招聘程序。"
+      ],
+      "answer": 0,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A integrate后两个并列形容词限定phenomena，直接给目标。",
+        "B 数值来自其他研究，不是所述物理目标。",
+        "C 本句不是编辑全部传记的文学任务。",
+        "D 混入前章研究程序；tried只表尝试，不等于目标已完成。"
+      ],
+      "vocabulary": [
+        {
+          "word": "integrate",
+          "meaning": "整合；把不同部分纳入统一体系",
+          "context": "这里是试图统一电磁与引力现象的解释，保留尝试状态。",
+          "example": "He tried to integrate the two sets of phenomena in one account.",
+          "collocations": [
+            "integrate electromagnetic and gravitational phenomena",
+            "He tried to"
+          ]
+        }
+      ],
+      "translation": "他不满意自己的相对论，因为它没有包含电磁学。他试图整合电磁和引力现象。遗憾的是，尽管生命最后25年都投入其中，他始终未能做到。Huang-Yao Hong和Xiaodong Lin-Siegler了解此事，于是做了实验：向一组十年级学生讲述伽利略、牛顿和爱因斯坦的挣扎，向另一组只讲他们的非凡成就。",
+      "evidenceTargetIds": [
+        "c12-s03-p137-04845-s006"
+      ],
+      "evidence": [
+        {
+          "quote": "He was dissatisfied with his theory of relativity because it did not include electromagnetism. He tried to integrate electromagnetic and gravitational phenomena. Unfortunately, he was never able to do this, despite the fact that he spent the last twenty-five years of his life on it. Knowing this, Huang-Yao Hong and Xiaodong Lin-Siegler carried out an experiment telling one group of tenth-grade students about the struggles of Galileo, Newton, and Einstein, while telling another group only about their extraordinary accomplishments.",
+          "sentenceIds": [
+            "c12-s03-p137-04845-s005",
+            "c12-s03-p137-04845-s006",
+            "c12-s03-p137-04845-s007",
+            "c12-s03-p137-04845-s008"
+          ],
+          "sources": [
+            {
+              "pdfPage": 137,
+              "block": 3,
+              "bbox": [
+                76.99,
+                484.5,
+                535.01,
+                695.52
+              ]
+            },
+            {
+              "pdfPage": 138,
+              "block": 0,
+              "bbox": [
+                76.99,
+                75,
+                535,
+                109.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "ed0a2b8179cc7a08443862dd84080e1ed8670dffb2131e01c832ffb7e01453a3"
+    },
+    {
+      "id": "qe-c12-0038",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-053",
+      "parentQuestionId": "q-c12-027",
+      "chapterId": "c12",
+      "sectionId": "c12-s03",
+      "paragraphId": "c12-s03-p137-04845",
+      "readingUnitId": "c12-s03-p137-04845-r005-008",
+      "sentenceIds": [
+        "c12-s03-p137-04845-s005",
+        "c12-s03-p137-04845-s006",
+        "c12-s03-p137-04845-s007",
+        "c12-s03-p137-04845-s008"
+      ],
+      "passage": "He was dissatisfied with his theory of relativity because it did not include electromagnetism. He tried to integrate electromagnetic and gravitational phenomena. Unfortunately, he was never able to do this, despite the fact that he spent the last twenty-five years of his life on it. Knowing this, Huang-Yao Hong and Xiaodong Lin-Siegler carried out an experiment telling one group of tenth-grade students about the struggles of Galileo, Newton, and Einstein, while telling another group only about their extraordinary accomplishments.",
+      "prompt": "What contrast is made by 'despite' in the account of Einstein's effort?",
+      "promptZh": "despite 在Einstein努力的叙述中形成什么对照？",
+      "options": [
+        "He succeeded immediately without spending time on the problem.",
+        "He gave up all scientific work before attempting the problem.",
+        "He spent his final twenty-five years on the integration but was never able to achieve it.",
+        "The passage says every contribution he ever made was a failure."
+      ],
+      "optionsZh": [
+        "他没花时间就立刻成功。",
+        "他尝试前已放弃一切科学工作。",
+        "他花生命最后25年做整合，却始终未能完成。",
+        "原文说他一生所有贡献都是失败。"
+      ],
+      "answer": 2,
+      "type": "逻辑关系",
+      "support": "explicit",
+      "analyses": [
+        "A never able与立即成功相反，且有长期投入。",
+        "B spent...on it与尚未尝试就停止不符。",
+        "C 时间投入与未实现该特定目标构成让步反差。",
+        "D this/it回指特定整合目标，不应扩大成一生所有理论成果均失败。"
+      ],
+      "vocabulary": [
+        {
+          "word": "despite",
+          "meaning": "尽管；引出与结果相反的条件或付出",
+          "context": "此处强调长期投入并未保证该目标成功，不否定一切科研价值。",
+          "example": "Despite years of effort, that particular goal remained unfinished.",
+          "collocations": [
+            "despite the fact that",
+            "spent the last twenty-five years of his life on it"
+          ]
+        }
+      ],
+      "translation": "他不满意自己的相对论，因为它没有包含电磁学。他试图整合电磁和引力现象。遗憾的是，尽管生命最后25年都投入其中，他始终未能做到。Huang-Yao Hong和Xiaodong Lin-Siegler了解此事，于是做了实验：向一组十年级学生讲述伽利略、牛顿和爱因斯坦的挣扎，向另一组只讲他们的非凡成就。",
+      "evidenceTargetIds": [
+        "c12-s03-p137-04845-s007"
+      ],
+      "evidence": [
+        {
+          "quote": "He was dissatisfied with his theory of relativity because it did not include electromagnetism. He tried to integrate electromagnetic and gravitational phenomena. Unfortunately, he was never able to do this, despite the fact that he spent the last twenty-five years of his life on it. Knowing this, Huang-Yao Hong and Xiaodong Lin-Siegler carried out an experiment telling one group of tenth-grade students about the struggles of Galileo, Newton, and Einstein, while telling another group only about their extraordinary accomplishments.",
+          "sentenceIds": [
+            "c12-s03-p137-04845-s005",
+            "c12-s03-p137-04845-s006",
+            "c12-s03-p137-04845-s007",
+            "c12-s03-p137-04845-s008"
+          ],
+          "sources": [
+            {
+              "pdfPage": 137,
+              "block": 3,
+              "bbox": [
+                76.99,
+                484.5,
+                535.01,
+                695.52
+              ]
+            },
+            {
+              "pdfPage": 138,
+              "block": 0,
+              "bbox": [
+                76.99,
+                75,
+                535,
+                109.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "e764870a74bd5b3e72791bc9f60c7e6b2f856e7a3ad6a04d92a7bfef8099802c"
+    },
+    {
+      "id": "q-c12-028",
+      "version": 1,
+      "readingUnitId": "c12-s03-p137-04845-r009-009",
+      "chapterId": "c12",
+      "sectionId": "c12-s03",
+      "paragraphId": "c12-s03-p137-04845",
+      "sentenceIds": [
+        "c12-s03-p137-04845-s009"
+      ],
+      "passage": "All the students then attended three identical physics lessons.",
+      "prompt": "What does this sentence establish about the lessons?",
+      "options": [
+        "Only the achievement group attended physics lessons.",
+        "The lessons differed in number between groups.",
+        "Students selected different subjects after the stories.",
+        "The students received the same three physics lessons."
+      ],
+      "answer": 3,
+      "type": "推断",
+      "promptZh": "本句确立了课程的什么信息？",
+      "optionsZh": [
+        "仅成就组参加物理课。",
+        "两组课次数不同。",
+        "听故事后学生选了不同科目。",
+        "学生上了相同的三节物理课。"
+      ],
+      "analyses": [
+        "A All包括所有学生。",
+        "B three identical不支持次数差异。",
+        "C 句中没有选科安排。",
+        "D identical明确内容相同、three明确次数；这限制了用不同课堂内容解释组间结果，但单句本身不报告效果。"
+      ],
+      "evidence": [
+        {
+          "quote": "All the students then attended three identical physics lessons.",
+          "sentenceIds": [
+            "c12-s03-p137-04845-s009"
+          ],
+          "sources": [
+            {
+              "pdfPage": 138,
+              "block": 0,
+              "bbox": [
+                76.99,
+                75,
+                535,
+                109.02
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "identical",
+          "meaning": "完全相同的",
+          "context": "修饰三节物理课，说明两组之后接受同样课程",
+          "example": "Both groups received identical instructions.",
+          "collocations": [
+            "identical lessons",
+            "attend a lesson"
+          ]
+        }
+      ],
+      "translation": "随后，所有学生都上了相同的三节物理课。",
+      "support": "limited-inference",
+      "editorialStatus": "完整PDF135–139原页视觉核对。Wilson/Ross的自我评价与Tim Wilson/Linville干预分开；跑步时间是假设且用时增加不作提高；GPA信息组+0.34/转出5%与控制组-0.05/25%不交换，GRE表现与GPA预期分开，不补随机化或人人效果。科学家材料分挣扎/成就而后相同三节课，25年属爱因斯坦未完成尝试；must have normalized是作者机制推断，不当已直接测量。故事编辑保留坏经历不编造事件；Woolf为I bet修辞而非实验，不建议主动经历灾害。人生故事访谈从目录到场景再未来与主题，引用提示为材料不执行。保留既有切分中的单句短单元及未闭合引号跨单元，不重复句子；E = mc2保持提取原文。整段审阅若含后续未配题句另计，绝不宣称逐句直接证据全覆盖。",
+      "fingerprint": "6adfbdd11f45db7a98fa642ae00a851b727bad50872a212aa5b3865c3f0d5f19"
+    },
+    {
+      "id": "q-c12-029",
+      "version": 1,
+      "readingUnitId": "c12-s03-p138-01140-r001-003",
+      "chapterId": "c12",
+      "sectionId": "c12-s03",
+      "paragraphId": "c12-s03-p138-01140",
+      "sentenceIds": [
+        "c12-s03-p138-01140-s001",
+        "c12-s03-p138-01140-s002",
+        "c12-s03-p138-01140-s003"
+      ],
+      "passage": "Amazingly, the students who heard about the struggles of the greatest scientists were more interested in science at the end of the study than those who heard only the major accomplishments of the greatest scientists. Furthermore, they remembered the key concepts learned during the three subsequent lessons better than those in the accomplishment condition. They also thought that Galileo, Newton, and Einstein had to work hard, whereas those in the accomplishment condition thought they were born geniuses.",
+      "prompt": "Which outcome was reported for students who heard about struggles?",
+      "options": [
+        "They remembered less but believed effort was unnecessary.",
+        "They were more interested and retained key concepts better.",
+        "They became convinced the scientists were simply born geniuses.",
+        "They were tested on a different set of subsequent lessons."
+      ],
+      "answer": 1,
+      "type": "细节",
+      "promptZh": "听挣扎故事的学生报告了哪项结果？",
+      "optionsZh": [
+        "记得较少，且认为无需努力。",
+        "兴趣更高，对关键概念记得更好。",
+        "更相信科学家只是天生天才。",
+        "测的是另一套后续课程。"
+      ],
+      "analyses": [
+        "A 两个方向都反了。",
+        "B more interested与remembered...better明确支持，比较对象为只听主要成就者。",
+        "C born geniuses是成就条件学生的看法；挣扎组想到努力。",
+        "D 文中the three subsequent lessons指先前共同课程，不能凭结果捏造不同教学。"
+      ],
+      "evidence": [
+        {
+          "quote": "were more interested in science at the end of the study",
+          "sentenceIds": [
+            "c12-s03-p138-01140-s001"
+          ],
+          "sources": [
+            {
+              "pdfPage": 138,
+              "block": 1,
+              "bbox": [
+                76.99,
+                114,
+                535.01,
+                557.52
+              ]
+            }
+          ]
+        },
+        {
+          "quote": "they remembered the key concepts learned during the three subsequent lessons better",
+          "sentenceIds": [
+            "c12-s03-p138-01140-s002"
+          ],
+          "sources": [
+            {
+              "pdfPage": 138,
+              "block": 1,
+              "bbox": [
+                76.99,
+                114,
+                535.01,
+                557.52
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "subsequent",
+          "meaning": "随后的；后续的",
+          "context": "故事材料之后的三节物理课",
+          "example": "The subsequent lesson revisited the same concept.",
+          "collocations": [
+            "subsequent lessons",
+            "remember key concepts"
+          ]
+        }
+      ],
+      "translation": "令人惊讶的是，到研究结束时，听过伟大科学家挣扎经历的学生，比只听过主要成就的学生对科学更有兴趣。此外，他们对随后三节课中学到的关键概念记得也更好。他们还认为伽利略、牛顿和爱因斯坦必须努力工作；而成就条件下学生认为这些人是天生的天才。",
+      "support": "explicit",
+      "editorialStatus": "完整PDF135–139原页视觉核对。Wilson/Ross的自我评价与Tim Wilson/Linville干预分开；跑步时间是假设且用时增加不作提高；GPA信息组+0.34/转出5%与控制组-0.05/25%不交换，GRE表现与GPA预期分开，不补随机化或人人效果。科学家材料分挣扎/成就而后相同三节课，25年属爱因斯坦未完成尝试；must have normalized是作者机制推断，不当已直接测量。故事编辑保留坏经历不编造事件；Woolf为I bet修辞而非实验，不建议主动经历灾害。人生故事访谈从目录到场景再未来与主题，引用提示为材料不执行。保留既有切分中的单句短单元及未闭合引号跨单元，不重复句子；E = mc2保持提取原文。整段审阅若含后续未配题句另计，绝不宣称逐句直接证据全覆盖。",
+      "fingerprint": "4958c14f44f18a91e040b85d18cf80b2e13ceb7409784fb43f2b8224e20b2534"
+    },
+    {
+      "id": "qe-c12-0039",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-053",
+      "parentQuestionId": "q-c12-029",
+      "chapterId": "c12",
+      "sectionId": "c12-s03",
+      "paragraphId": "c12-s03-p138-01140",
+      "readingUnitId": "c12-s03-p138-01140-r001-003",
+      "sentenceIds": [
+        "c12-s03-p138-01140-s001",
+        "c12-s03-p138-01140-s002",
+        "c12-s03-p138-01140-s003"
+      ],
+      "passage": "Amazingly, the students who heard about the struggles of the greatest scientists were more interested in science at the end of the study than those who heard only the major accomplishments of the greatest scientists. Furthermore, they remembered the key concepts learned during the three subsequent lessons better than those in the accomplishment condition. They also thought that Galileo, Newton, and Einstein had to work hard, whereas those in the accomplishment condition thought they were born geniuses.",
+      "prompt": "How did the two conditions differ in views of the scientists?",
+      "promptZh": "两种条件下，学生对科学家的看法有什么不同？",
+      "options": [
+        "Both groups were reported as holding exactly the same view with no contrast.",
+        "The struggle group thought effort was unnecessary, while the accomplishment group emphasised hard work.",
+        "Only the researchers, not any students, expressed a view about ability.",
+        "The struggle group saw hard work as necessary, whereas the accomplishment group saw born geniuses."
+      ],
+      "optionsZh": [
+        "报告两组看法完全相同，没有对照。",
+        "挣扎组认为不需努力，成就组强调努力。",
+        "只有研究者表达能力看法，没有学生表达。",
+        "挣扎组看到必须努力，成就组则看作天生的天才。"
+      ],
+      "answer": 3,
+      "type": "同义改写",
+      "support": "explicit",
+      "analyses": [
+        "A whereas明确对比，不是看法一致。",
+        "B 将两组观点交换。",
+        "C They/those in condition是参与学生，不是只研究者。",
+        "D 观点方向与heard struggles/only accomplishments对应；thought说明学生看法，不是研究证明先天或后天能力的全部生物机制。"
+      ],
+      "vocabulary": [
+        {
+          "word": "whereas",
+          "meaning": "而；相比之下（连接对照）",
+          "context": "此处对照两条件的认识，不是先后时间连接词。",
+          "example": "One group emphasised effort, whereas the other emphasised innate talent.",
+          "collocations": [
+            "whereas those in the accomplishment condition",
+            "they were born geniuses"
+          ]
+        }
+      ],
+      "translation": "令人惊讶的是，到研究结束时，听过伟大科学家挣扎经历的学生，比只听过主要成就的学生对科学更有兴趣。此外，他们对随后三节课中学到的关键概念记得也更好。他们还认为伽利略、牛顿和爱因斯坦必须努力工作；而成就条件下学生认为这些人是天生的天才。",
+      "evidenceTargetIds": [
+        "c12-s03-p138-01140-s003"
+      ],
+      "evidence": [
+        {
+          "quote": "Amazingly, the students who heard about the struggles of the greatest scientists were more interested in science at the end of the study than those who heard only the major accomplishments of the greatest scientists. Furthermore, they remembered the key concepts learned during the three subsequent lessons better than those in the accomplishment condition. They also thought that Galileo, Newton, and Einstein had to work hard, whereas those in the accomplishment condition thought they were born geniuses.",
+          "sentenceIds": [
+            "c12-s03-p138-01140-s001",
+            "c12-s03-p138-01140-s002",
+            "c12-s03-p138-01140-s003"
+          ],
+          "sources": [
+            {
+              "pdfPage": 138,
+              "block": 1,
+              "bbox": [
+                76.99,
+                114,
+                535.01,
+                557.52
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "93268c29d9a638a0cd8267c8e5dc864384d6ce40ed421e5a64802f105f803d6d"
+    }
+  ]
+}
