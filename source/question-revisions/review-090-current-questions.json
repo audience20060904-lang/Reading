@@ -1,0 +1,1859 @@
+{
+  "schemaVersion": 1,
+  "batchId": "question-review-2026-10-28-090",
+  "sourceCommit": "24c1e26e8cc841af80de5b34e3319872c76eb174",
+  "pdfSha256": "be25c859f1bd894a4b0d1cff024ded1297f6a96a8e8ddabea1e3abcf89160a50",
+  "frozenAt": "2026-10-29T14:54:28.837Z",
+  "questions": [
+    {
+      "id": "q-c10-036",
+      "version": 1,
+      "readingUnitId": "c10-s04-p109-02505-r001-004",
+      "chapterId": "c10",
+      "sectionId": "c10-s04",
+      "paragraphId": "c10-s04-p109-02505",
+      "sentenceIds": [
+        "c10-s04-p109-02505-s001",
+        "c10-s04-p109-02505-s002",
+        "c10-s04-p109-02505-s003",
+        "c10-s04-p109-02505-s004"
+      ],
+      "passage": "You might say, well, the Philadelphia study is great, but that was 1931. A lot has changed, including where people live, how they meet, and whom they marry. In 1931, it was nearly impossible to marry someone of a different race. Even among the white population, people from different religions rarely married each other.",
+      "prompt": "Why does the author introduce the objection that the study was conducted in 1931?",
+      "options": [
+        "To invite consideration of whether findings transfer across changing social conditions.",
+        "To announce that the original licenses were fabricated.",
+        "To show that cross-religious marriage was then the norm.",
+        "To establish that where people live has remained unchanged."
+      ],
+      "answer": 0,
+      "type": "作者意图",
+      "promptZh": "作者为何引入“那可是 1931 年”的异议？",
+      "optionsZh": [
+        "引导考虑社会条件改变后结果是否仍适用。",
+        "宣布原许可系伪造。",
+        "说明当时跨宗教婚姻是常态。",
+        "确立居住方式从未变化。"
+      ],
+      "analyses": [
+        "A A lot has changed 后列居住、相识和婚配变化，提出时代适用性问题。",
+        "B 没质疑资料真实性。",
+        "C rarely married 恰表明罕见。",
+        "D changed 明示变化。作者引入可能反驳，不代表此处已判定邻近效应消失。"
+      ],
+      "evidence": [
+        {
+          "quote": "A lot has changed, including where people live, how they meet, and whom they marry.",
+          "sentenceIds": [
+            "c10-s04-p109-02505-s002"
+          ],
+          "sources": [
+            {
+              "pdfPage": 109,
+              "block": 2,
+              "bbox": [
+                76.99,
+                250.5,
+                535.01,
+                382.02
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "rarely",
+          "meaning": "很少；罕有",
+          "context": "修饰当时白人中跨宗教婚配的频率，不能改成绝不发生",
+          "example": "They rarely met outside their neighborhood.",
+          "collocations": [
+            "rarely marry",
+            "rarely encounter"
+          ]
+        }
+      ],
+      "translation": "你也许会说，费城研究不错，但那是 1931 年。许多事情已经改变，包括住在哪里、怎样相识、与谁结婚。1931 年，与不同种族的人结婚几乎不可能。即使白人内部，不同宗教的人也很少通婚。",
+      "support": "explicit",
+      "editorialStatus": "完整PDF106–111原页视觉核对及跨页拼接；CDC关联不作因果保证；100/1000候选、14%/3%与前10%目标分开。费城许可证、荷兰个人筛选与MIT友谊提名单位分开，众数/中位数与测量时点不混用；Cupid为比喻；宿舍随机背景按作者概括保留，不冒充完整随机试验方案。功能距离研究与后续曝光机制实验分开。末段完整审阅含未配题词频比较，未声称全书逐句证据覆盖。",
+      "fingerprint": "8b7c8a4dfa79a4f606413f15f79d37e463b94cecd5723c78f1cb3926b9dd38a6"
+    },
+    {
+      "id": "qe-c10-0066",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-041",
+      "parentQuestionId": "q-c10-036",
+      "chapterId": "c10",
+      "sectionId": "c10-s04",
+      "paragraphId": "c10-s04-p109-02505",
+      "readingUnitId": "c10-s04-p109-02505-r001-004",
+      "sentenceIds": [
+        "c10-s04-p109-02505-s001",
+        "c10-s04-p109-02505-s002",
+        "c10-s04-p109-02505-s003",
+        "c10-s04-p109-02505-s004"
+      ],
+      "passage": "You might say, well, the Philadelphia study is great, but that was 1931. A lot has changed, including where people live, how they meet, and whom they marry. In 1931, it was nearly impossible to marry someone of a different race. Even among the white population, people from different religions rarely married each other.",
+      "prompt": "What objection does 'but that was 1931' introduce?",
+      "promptZh": "but that was 1931 引入什么质疑？",
+      "options": [
+        "Whether the older study's pattern still applies after changes in living, meeting, and marriage.",
+        "Whether the study actually took place in 2004 Netherlands.",
+        "Whether the author has deleted all previous evidence.",
+        "Whether every later relationship must have exactly the same distance."
+      ],
+      "optionsZh": [
+        "居住相识婚姻方式改变后，旧研究模式是否仍适用。",
+        "研究是否其实发生在2004荷兰。",
+        "作者是否已删除此前全部证据。",
+        "之后每段关系是否必须恰同距离。"
+      ],
+      "answer": 0,
+      "type": "作者意图",
+      "support": "explicit",
+      "analyses": [
+        "A You might say 代拟时间相关性的异议，后句列改变领域。",
+        "B 是质疑旧数据推广，不是改写原年份地点。",
+        "C 没有删除证据。",
+        "D 追问后续是否仍邻近，不预设距离精确相同，也不是记录用户真的提出过异议。"
+      ],
+      "vocabulary": [
+        {
+          "word": "A lot has changed",
+          "meaning": "许多事情已经改变",
+          "context": "指出历史到后来社会情境的差别，不声称每件事都完全相反。",
+          "example": "A lot has changed since the earlier survey was conducted.",
+          "collocations": [
+            "A lot has changed",
+            "but that was 1931"
+          ]
+        }
+      ],
+      "translation": "你也许会说，费城研究不错，但那是 1931 年。许多事情已经改变，包括住在哪里、怎样相识、与谁结婚。1931 年，与不同种族的人结婚几乎不可能。即使白人内部，不同宗教的人也很少通婚。",
+      "evidenceTargetIds": [
+        "c10-s04-p109-02505-s001"
+      ],
+      "evidence": [
+        {
+          "quote": "You might say, well, the Philadelphia study is great, but that was 1931. A lot has changed, including where people live, how they meet, and whom they marry. In 1931, it was nearly impossible to marry someone of a different race. Even among the white population, people from different religions rarely married each other.",
+          "sentenceIds": [
+            "c10-s04-p109-02505-s001",
+            "c10-s04-p109-02505-s002",
+            "c10-s04-p109-02505-s003",
+            "c10-s04-p109-02505-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 109,
+              "block": 2,
+              "bbox": [
+                76.99,
+                250.5,
+                535.01,
+                382.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "708c9d68f366ed4875ef8201123bdfb3802a94c5fa31c68b329143d5b512065c"
+    },
+    {
+      "id": "qe-c10-0067",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-041",
+      "parentQuestionId": "q-c10-036",
+      "chapterId": "c10",
+      "sectionId": "c10-s04",
+      "paragraphId": "c10-s04-p109-02505",
+      "readingUnitId": "c10-s04-p109-02505-r001-004",
+      "sentenceIds": [
+        "c10-s04-p109-02505-s001",
+        "c10-s04-p109-02505-s002",
+        "c10-s04-p109-02505-s003",
+        "c10-s04-p109-02505-s004"
+      ],
+      "passage": "You might say, well, the Philadelphia study is great, but that was 1931. A lot has changed, including where people live, how they meet, and whom they marry. In 1931, it was nearly impossible to marry someone of a different race. Even among the white population, people from different religions rarely married each other.",
+      "prompt": "How should 'nearly impossible' be understood in the historical marriage discussion?",
+      "promptZh": "历史婚姻讨论中的 nearly impossible 应如何理解？",
+      "options": [
+        "As current legal guidance for every country in the world.",
+        "As proof that no interracial marriage ever occurred anywhere.",
+        "As the book's description of a severe barrier in the 1931 context, without turning 'nearly' into an absolute none.",
+        "As a claim that all relationships then crossed racial boundaries easily."
+      ],
+      "optionsZh": [
+        "作为当今每国现行法律指导。",
+        "作为任何地方从无跨种族婚姻的证明。",
+        "作为本书对1931语境下严重障碍的描述，不把几乎变为绝对零。",
+        "作为当时所有关系都轻易跨族界的主张。"
+      ],
+      "answer": 2,
+      "type": "语气与范围",
+      "support": "explicit",
+      "analyses": [
+        "A 当前是书中历史叙述，不是法律咨询或现行规则。",
+        "B nearly 保留程度，不能升级为全球所有年代无一例。",
+        "C 保留时间语境与强度，不自行补未述具体法条。",
+        "D 与 severe barrier 方向相反；不将历史群体描述用于评判现实个人。"
+      ],
+      "vocabulary": [
+        {
+          "word": "nearly",
+          "meaning": "几乎；接近但不等于绝对",
+          "context": "限制 impossible 的强度，仍需保留书中1931历史语境。",
+          "example": "The passage describes a task as nearly impossible, not logically impossible.",
+          "collocations": [
+            "nearly impossible to marry",
+            "In 1931"
+          ]
+        }
+      ],
+      "translation": "你也许会说，费城研究不错，但那是 1931 年。许多事情已经改变，包括住在哪里、怎样相识、与谁结婚。1931 年，与不同种族的人结婚几乎不可能。即使白人内部，不同宗教的人也很少通婚。",
+      "evidenceTargetIds": [
+        "c10-s04-p109-02505-s003"
+      ],
+      "evidence": [
+        {
+          "quote": "You might say, well, the Philadelphia study is great, but that was 1931. A lot has changed, including where people live, how they meet, and whom they marry. In 1931, it was nearly impossible to marry someone of a different race. Even among the white population, people from different religions rarely married each other.",
+          "sentenceIds": [
+            "c10-s04-p109-02505-s001",
+            "c10-s04-p109-02505-s002",
+            "c10-s04-p109-02505-s003",
+            "c10-s04-p109-02505-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 109,
+              "block": 2,
+              "bbox": [
+                76.99,
+                250.5,
+                535.01,
+                382.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "ca98926ecea57a6815ec0dc76975abeab0bc56048c6e4f3e18abe4df7ebe69e6"
+    },
+    {
+      "id": "qe-c10-0068",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-041",
+      "parentQuestionId": "q-c10-036",
+      "chapterId": "c10",
+      "sectionId": "c10-s04",
+      "paragraphId": "c10-s04-p109-02505",
+      "readingUnitId": "c10-s04-p109-02505-r001-004",
+      "sentenceIds": [
+        "c10-s04-p109-02505-s001",
+        "c10-s04-p109-02505-s002",
+        "c10-s04-p109-02505-s003",
+        "c10-s04-p109-02505-s004"
+      ],
+      "passage": "You might say, well, the Philadelphia study is great, but that was 1931. A lot has changed, including where people live, how they meet, and whom they marry. In 1931, it was nearly impossible to marry someone of a different race. Even among the white population, people from different religions rarely married each other.",
+      "prompt": "What does 'Even among the white population' add to the discussion?",
+      "promptZh": "Even among the white population 对讨论增加什么？",
+      "options": [
+        "It proves every person shared an identical religion.",
+        "It shows that religious boundaries could also limit marriage within a racial category in that historical account.",
+        "It says the study measured current genetic compatibility.",
+        "It denies the possibility of any marriage at all in 1931."
+      ],
+      "optionsZh": [
+        "证明每个人宗教完全相同。",
+        "说明在该历史叙述中，同一种族类别内也可能有宗教婚配界线。",
+        "说研究测了当今遗传匹配。",
+        "否认1931年任何婚姻可能。"
+      ],
+      "answer": 1,
+      "type": "逻辑关系",
+      "support": "explicit",
+      "analyses": [
+        "A people from different religions 明确存在差别。",
+        "B Even 引出在种族类别内部仍有宗教界线的补充，rarely 不是 never。",
+        "C 无遗传检测，不能加生物决定论。",
+        "D 少有跨宗教婚姻不等于没有任何婚姻，且不推广到当前每个人。"
+      ],
+      "vocabulary": [
+        {
+          "word": "Even among",
+          "meaning": "即使在……内部；甚至在……之中",
+          "context": "扩大论证细度，指出同一大类别不自动没有其他社会界线。",
+          "example": "Even among close neighbours, experiences can differ.",
+          "collocations": [
+            "Even among the white population",
+            "different religions rarely married"
+          ]
+        }
+      ],
+      "translation": "你也许会说，费城研究不错，但那是 1931 年。许多事情已经改变，包括住在哪里、怎样相识、与谁结婚。1931 年，与不同种族的人结婚几乎不可能。即使白人内部，不同宗教的人也很少通婚。",
+      "evidenceTargetIds": [
+        "c10-s04-p109-02505-s004"
+      ],
+      "evidence": [
+        {
+          "quote": "You might say, well, the Philadelphia study is great, but that was 1931. A lot has changed, including where people live, how they meet, and whom they marry. In 1931, it was nearly impossible to marry someone of a different race. Even among the white population, people from different religions rarely married each other.",
+          "sentenceIds": [
+            "c10-s04-p109-02505-s001",
+            "c10-s04-p109-02505-s002",
+            "c10-s04-p109-02505-s003",
+            "c10-s04-p109-02505-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 109,
+              "block": 2,
+              "bbox": [
+                76.99,
+                250.5,
+                535.01,
+                382.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "4df7239d3159a39cf3c5e379d85926cc6c1eaf746596940954e8c3ab6fe1c160"
+    },
+    {
+      "id": "q-c10-038",
+      "version": 1,
+      "readingUnitId": "c10-s04-p109-03870-r001-003",
+      "chapterId": "c10",
+      "sectionId": "c10-s04",
+      "paragraphId": "c10-s04-p109-03870",
+      "sentenceIds": [
+        "c10-s04-p109-03870-s001",
+        "c10-s04-p109-03870-s002",
+        "c10-s04-p109-03870-s003"
+      ],
+      "passage": "Karen Haandrikman and her colleagues asked this exact question, looking at the vital statistics for the entire population of the Netherlands. Yes, you read that right: the entire population of the Netherlands. More specifically, they selected 289,248 individuals who started cohabitation as domestic partners between January 1, 2004, and December 31, 2004.",
+      "prompt": "Who was specifically selected for the Dutch study?",
+      "options": [
+        "289,248 newly married couples from all European countries.",
+        "Every Dutch citizen regardless of relationship status or year.",
+        "Only people who met through online dating platforms.",
+        "289,248 individuals who began cohabiting as domestic partners during 2004."
+      ],
+      "answer": 3,
+      "type": "细节",
+      "promptZh": "荷兰研究具体选取了谁？",
+      "optionsZh": [
+        "欧洲各国 289,248 对新婚夫妻。",
+        "不论关系和年份的每位荷兰公民。",
+        "只选在线平台认识的人。",
+        "2004 年开始以伴侣身份同居的 289,248 名个人。"
+      ],
+      "analyses": [
+        "A individuals 不是 couples，且范围是荷兰。",
+        "B entire population 描述总体统计资料，More specifically 后有实际筛选条件。",
+        "C 没按认识平台筛选。",
+        "D 人数、身份与全年起止日期准确。不能把个人数当夫妻对数。"
+      ],
+      "evidence": [
+        {
+          "quote": "they selected 289,248 individuals who started cohabitation as domestic partners between January 1, 2004, and December 31, 2004.",
+          "sentenceIds": [
+            "c10-s04-p109-03870-s003"
+          ],
+          "sources": [
+            {
+              "pdfPage": 109,
+              "block": 3,
+              "bbox": [
+                76.99,
+                387,
+                535,
+                479.52
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "cohabitation",
+          "meaning": "同居",
+          "context": "以伴侣身份开始共同居住，不等于办理婚姻",
+          "example": "The study recorded addresses before cohabitation.",
+          "collocations": [
+            "start cohabitation",
+            "prior to cohabitation"
+          ]
+        }
+      ],
+      "translation": "Karen Haandrikman 及同事提出了同一问题，查看荷兰全体人口的人口动态统计。没错，你没看错：荷兰全体人口。更具体说，他们选取 2004 年 1 月 1 日至 12 月 31 日开始以伴侣身份同居的 289,248 名个人。",
+      "support": "explicit",
+      "editorialStatus": "完整PDF106–111原页视觉核对及跨页拼接；CDC关联不作因果保证；100/1000候选、14%/3%与前10%目标分开。费城许可证、荷兰个人筛选与MIT友谊提名单位分开，众数/中位数与测量时点不混用；Cupid为比喻；宿舍随机背景按作者概括保留，不冒充完整随机试验方案。功能距离研究与后续曝光机制实验分开。末段完整审阅含未配题词频比较，未声称全书逐句证据覆盖。",
+      "fingerprint": "32776c5cfe684c728a6e749089bc8c017b64ab6683d4694a7ba8bc1c7a36ca88"
+    },
+    {
+      "id": "qe-c10-0069",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-041",
+      "parentQuestionId": "q-c10-038",
+      "chapterId": "c10",
+      "sectionId": "c10-s04",
+      "paragraphId": "c10-s04-p109-03870",
+      "readingUnitId": "c10-s04-p109-03870-r001-003",
+      "sentenceIds": [
+        "c10-s04-p109-03870-s001",
+        "c10-s04-p109-03870-s002",
+        "c10-s04-p109-03870-s003"
+      ],
+      "passage": "Karen Haandrikman and her colleagues asked this exact question, looking at the vital statistics for the entire population of the Netherlands. Yes, you read that right: the entire population of the Netherlands. More specifically, they selected 289,248 individuals who started cohabitation as domestic partners between January 1, 2004, and December 31, 2004.",
+      "prompt": "What kind of data did Haandrikman and colleagues consult?",
+      "promptZh": "Haandrikman 及同事查阅哪类数据？",
+      "options": [
+        "Population vital-statistics records for the Netherlands.",
+        "Only blood pressure and pulse readings from hospital patients.",
+        "A random assignment of people to live with distant partners.",
+        "The 1931 Philadelphia licences collected by Bossard alone."
+      ],
+      "optionsZh": [
+        "荷兰的人口动态统计登记资料。",
+        "只有医院患者血压脉搏。",
+        "随机分派人们与远处伴侣同住。",
+        "仅 Bossard 收集的1931费城许可。"
+      ],
+      "answer": 0,
+      "type": "研究设计",
+      "support": "explicit",
+      "analyses": [
+        "A vital statistics 在此为全国人口相关登记，后文选新同居人群。",
+        "B 不要将 vital 误读成体征测量，当前不是临床病人研究。",
+        "C 查阅登记不是随机安排人住处。",
+        "D 同主题的不同国家年代研究，资料来源不可互换。"
+      ],
+      "vocabulary": [
+        {
+          "word": "vital statistics",
+          "meaning": "人口动态统计；人口事件登记数据",
+          "context": "此处涉及同居住址等登记，不是生命体征或广告中的重要数字。",
+          "example": "The researchers used vital statistics to identify a defined cohort.",
+          "collocations": [
+            "the vital statistics for the entire population",
+            "Karen Haandrikman and her colleagues"
+          ]
+        }
+      ],
+      "translation": "Karen Haandrikman 及同事提出了同一问题，查看荷兰全体人口的人口动态统计。没错，你没看错：荷兰全体人口。更具体说，他们选取 2004 年 1 月 1 日至 12 月 31 日开始以伴侣身份同居的 289,248 名个人。",
+      "evidenceTargetIds": [
+        "c10-s04-p109-03870-s001"
+      ],
+      "evidence": [
+        {
+          "quote": "Karen Haandrikman and her colleagues asked this exact question, looking at the vital statistics for the entire population of the Netherlands. Yes, you read that right: the entire population of the Netherlands. More specifically, they selected 289,248 individuals who started cohabitation as domestic partners between January 1, 2004, and December 31, 2004.",
+          "sentenceIds": [
+            "c10-s04-p109-03870-s001",
+            "c10-s04-p109-03870-s002",
+            "c10-s04-p109-03870-s003"
+          ],
+          "sources": [
+            {
+              "pdfPage": 109,
+              "block": 3,
+              "bbox": [
+                76.99,
+                387,
+                535,
+                479.52
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "6224206829569283a6d187f93638224fdb125da5bcfe5fdad77e297c7549c7fc"
+    },
+    {
+      "id": "qe-c10-0070",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-041",
+      "parentQuestionId": "q-c10-038",
+      "chapterId": "c10",
+      "sectionId": "c10-s04",
+      "paragraphId": "c10-s04-p109-03870",
+      "readingUnitId": "c10-s04-p109-03870-r001-003",
+      "sentenceIds": [
+        "c10-s04-p109-03870-s001",
+        "c10-s04-p109-03870-s002",
+        "c10-s04-p109-03870-s003"
+      ],
+      "passage": "Karen Haandrikman and her colleagues asked this exact question, looking at the vital statistics for the entire population of the Netherlands. Yes, you read that right: the entire population of the Netherlands. More specifically, they selected 289,248 individuals who started cohabitation as domestic partners between January 1, 2004, and December 31, 2004.",
+      "prompt": "How is the emphasis on 'the entire population' qualified by the next sentence?",
+      "promptZh": "the entire population 的强调如何被下一句具体限定？",
+      "options": [
+        "Every Dutch resident is said to have started cohabiting in 2004.",
+        "Exactly 289,248 couples are said to be the entire national population.",
+        "Only thirteen people are said to have been selected from a hospital.",
+        "The records cover the population, while the analysis selects 289,248 individuals starting cohabitation in 2004."
+      ],
+      "optionsZh": [
+        "说每位荷兰居民都在2004开始同居。",
+        "说289,248对夫妻就是全国全部人口。",
+        "说只从医院选十三人。",
+        "登记覆盖全国，而分析选取2004开始同居的289,248名个人。"
+      ],
+      "answer": 3,
+      "type": "研究设计",
+      "support": "explicit",
+      "analyses": [
+        "A 全国登记范围不等于每位居民都属于2004新同居队列。",
+        "B individuals 是个人不是夫妻对数，也非全国总人口。",
+        "C 13%为后续距离比例，不能改成抽十三人或医院样本。",
+        "D More specifically 给研究队列及时间，清楚区分资料覆盖、选择对象与单位。"
+      ],
+      "vocabulary": [
+        {
+          "word": "individuals",
+          "meaning": "个人；一个个的人",
+          "context": "289,248计个人而非同数夫妻对，不能无据翻倍或把它当全国人口总量。",
+          "example": "The cohort contained individuals who met the stated entry criteria.",
+          "collocations": [
+            "selected 289,248 individuals",
+            "More specifically"
+          ]
+        }
+      ],
+      "translation": "Karen Haandrikman 及同事提出了同一问题，查看荷兰全体人口的人口动态统计。没错，你没看错：荷兰全体人口。更具体说，他们选取 2004 年 1 月 1 日至 12 月 31 日开始以伴侣身份同居的 289,248 名个人。",
+      "evidenceTargetIds": [
+        "c10-s04-p109-03870-s002"
+      ],
+      "evidence": [
+        {
+          "quote": "Karen Haandrikman and her colleagues asked this exact question, looking at the vital statistics for the entire population of the Netherlands. Yes, you read that right: the entire population of the Netherlands. More specifically, they selected 289,248 individuals who started cohabitation as domestic partners between January 1, 2004, and December 31, 2004.",
+          "sentenceIds": [
+            "c10-s04-p109-03870-s001",
+            "c10-s04-p109-03870-s002",
+            "c10-s04-p109-03870-s003"
+          ],
+          "sources": [
+            {
+              "pdfPage": 109,
+              "block": 3,
+              "bbox": [
+                76.99,
+                387,
+                535,
+                479.52
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "6756f450c003b913c3e520e3baffe9f5ad21ae60c91060ad082a7ab83eca994c"
+    },
+    {
+      "id": "q-c10-039",
+      "version": 1,
+      "readingUnitId": "c10-s04-p109-04845-r001-003",
+      "chapterId": "c10",
+      "sectionId": "c10-s04",
+      "paragraphId": "c10-s04-p109-04845",
+      "sentenceIds": [
+        "c10-s04-p109-04845-s001",
+        "c10-s04-p109-04845-s002",
+        "c10-s04-p109-04845-s003"
+      ],
+      "passage": "First, the researchers looked at where each individual had lived prior to cohabitation. Because there was a chance that those who submitted the cohabitation application as partners during 2004 had already been living together, the researchers also looked at the residential distance between each partner roughly five years prior to cohabitation. Both sets of data showed that the most common residential distance between partners prior to cohabitation was just one kilometer, or .62 miles.",
+      "prompt": "Why did researchers also examine addresses roughly five years earlier?",
+      "options": [
+        "Some applicants might already have been living together when submitting their application.",
+        "Earlier addresses were guaranteed to reveal each person’s birthplace.",
+        "The application records contained no residential information.",
+        "All partners had separated exactly five years before applying."
+      ],
+      "answer": 0,
+      "type": "逻辑关系",
+      "promptZh": "为何还考察约五年前的住址？",
+      "optionsZh": [
+        "部分申请者提出申请时可能已经同居。",
+        "早期住址保证等于出生地。",
+        "申请记录完全没有住址信息。",
+        "所有伴侣都在申请前恰好五年分开。"
+      ],
+      "analyses": [
+        "A Because...chance...already been living together 给出补充测量的理由。",
+        "B 五年前地址不等于出生地。",
+        "C First...looked at where...lived 表明有住址资料。",
+        "D 没有分手时间信息，roughly 也非精确五年。两套数据的最常见距离是众数，不能称所有人都隔一公里。"
+      ],
+      "evidence": [
+        {
+          "quote": "there was a chance that those who submitted the cohabitation application as partners during 2004 had already been living together",
+          "sentenceIds": [
+            "c10-s04-p109-04845-s002"
+          ],
+          "sources": [
+            {
+              "pdfPage": 109,
+              "block": 4,
+              "bbox": [
+                76.99,
+                484.5,
+                535.01,
+                713.52
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "prior to",
+          "meaning": "在……之前",
+          "context": "标记测量相对于开始同居的时间",
+          "example": "They compared the records prior to publication.",
+          "collocations": [
+            "prior to cohabitation",
+            "five years prior to"
+          ]
+        }
+      ],
+      "translation": "首先，研究者查看每个人开始同居前住在哪里。因为 2004 年以伴侣身份提交同居申请的人可能已经住在一起，研究者也查看双方在开始同居大约五年前的居住距离。两套数据都表明，同居前双方最常见的居住距离只有一公里，即 0.62 英里。",
+      "support": "explicit",
+      "editorialStatus": "完整PDF106–111原页视觉核对及跨页拼接；CDC关联不作因果保证；100/1000候选、14%/3%与前10%目标分开。费城许可证、荷兰个人筛选与MIT友谊提名单位分开，众数/中位数与测量时点不混用；Cupid为比喻；宿舍随机背景按作者概括保留，不冒充完整随机试验方案。功能距离研究与后续曝光机制实验分开。末段完整审阅含未配题词频比较，未声称全书逐句证据覆盖。",
+      "fingerprint": "810ecf3e1dec1e838c55b1c5ea339a975059e3db8315895aeba7d57380166585"
+    },
+    {
+      "id": "qe-c10-0071",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-041",
+      "parentQuestionId": "q-c10-039",
+      "chapterId": "c10",
+      "sectionId": "c10-s04",
+      "paragraphId": "c10-s04-p109-04845",
+      "readingUnitId": "c10-s04-p109-04845-r001-003",
+      "sentenceIds": [
+        "c10-s04-p109-04845-s001",
+        "c10-s04-p109-04845-s002",
+        "c10-s04-p109-04845-s003"
+      ],
+      "passage": "First, the researchers looked at where each individual had lived prior to cohabitation. Because there was a chance that those who submitted the cohabitation application as partners during 2004 had already been living together, the researchers also looked at the residential distance between each partner roughly five years prior to cohabitation. Both sets of data showed that the most common residential distance between partners prior to cohabitation was just one kilometer, or .62 miles.",
+      "prompt": "What did the researchers examine first about each person?",
+      "promptZh": "研究者首先考察每个人的什么？",
+      "options": [
+        "Their current birthplace coordinates after moving in together.",
+        "Where they had lived before cohabitation.",
+        "Only the wedding venue chosen after marriage.",
+        "How far each person travelled after the study ended."
+      ],
+      "optionsZh": [
+        "同住之后当前出生地坐标。",
+        "开始同居前的住址。",
+        "仅婚后所选婚礼地点。",
+        "研究结束后每人旅行多远。"
+      ],
+      "answer": 1,
+      "type": "研究设计",
+      "support": "explicit",
+      "analyses": [
+        "A 居住地与出生地不同，before 也非 after。",
+        "B where each individual had lived prior to cohabitation 对应变量及时间。",
+        "C 当前研究同居前距离，不是婚礼地点。",
+        "D 不涉及研究结束后旅行；后面再查看五年前以处理可能已同住的情况。"
+      ],
+      "vocabulary": [
+        {
+          "word": "prior to",
+          "meaning": "在……之前",
+          "context": "明确先于 cohabitation，区别申请时、同居后及出生时。",
+          "example": "The records describe the addresses prior to the move.",
+          "collocations": [
+            "prior to cohabitation",
+            "had lived prior to"
+          ]
+        }
+      ],
+      "translation": "首先，研究者查看每个人开始同居前住在哪里。因为 2004 年以伴侣身份提交同居申请的人可能已经住在一起，研究者也查看双方在开始同居大约五年前的居住距离。两套数据都表明，同居前双方最常见的居住距离只有一公里，即 0.62 英里。",
+      "evidenceTargetIds": [
+        "c10-s04-p109-04845-s001"
+      ],
+      "evidence": [
+        {
+          "quote": "First, the researchers looked at where each individual had lived prior to cohabitation. Because there was a chance that those who submitted the cohabitation application as partners during 2004 had already been living together, the researchers also looked at the residential distance between each partner roughly five years prior to cohabitation. Both sets of data showed that the most common residential distance between partners prior to cohabitation was just one kilometer, or .62 miles.",
+          "sentenceIds": [
+            "c10-s04-p109-04845-s001",
+            "c10-s04-p109-04845-s002",
+            "c10-s04-p109-04845-s003"
+          ],
+          "sources": [
+            {
+              "pdfPage": 109,
+              "block": 4,
+              "bbox": [
+                76.99,
+                484.5,
+                535.01,
+                713.52
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "9d230099236013965847521c4d6dd59593f5b6191001349ef923549dcfbe7e45"
+    },
+    {
+      "id": "qe-c10-0072",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-041",
+      "parentQuestionId": "q-c10-039",
+      "chapterId": "c10",
+      "sectionId": "c10-s04",
+      "paragraphId": "c10-s04-p109-04845",
+      "readingUnitId": "c10-s04-p109-04845-r001-003",
+      "sentenceIds": [
+        "c10-s04-p109-04845-s001",
+        "c10-s04-p109-04845-s002",
+        "c10-s04-p109-04845-s003"
+      ],
+      "passage": "First, the researchers looked at where each individual had lived prior to cohabitation. Because there was a chance that those who submitted the cohabitation application as partners during 2004 had already been living together, the researchers also looked at the residential distance between each partner roughly five years prior to cohabitation. Both sets of data showed that the most common residential distance between partners prior to cohabitation was just one kilometer, or .62 miles.",
+      "prompt": "What was the most common residential distance in both sets of data?",
+      "promptZh": "两套数据中，最常见居住距离是多少？",
+      "options": [
+        "6.2 kilometres, because that was the immediate median.",
+        "7.8 kilometres, because that was the five-years-earlier median.",
+        "One kilometre, or .62 miles.",
+        "22.9 kilometres, because that was the birth-distance median."
+      ],
+      "optionsZh": [
+        "6.2公里，因为是同居前中位数。",
+        "7.8公里，因为是五年前中位数。",
+        "一公里，即0.62英里。",
+        "22.9公里，因为是出生地距离中位数。"
+      ],
+      "answer": 2,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A 将 most common 与后段 median 混同。",
+        "B 五年前中位数也不是最常见距离。",
+        "C Both sets...most common...one kilometer 原文直接给出，保留原英文 .62 写法。",
+        "D 出生地中位数不是这两套居住地址的众数，也不把公里当英里。"
+      ],
+      "vocabulary": [
+        {
+          "word": "most common",
+          "meaning": "最常见的；出现频率最高的",
+          "context": "对应频数最多的距离，不等于平均数或中位数。",
+          "example": "The most common response differed from the median numerical value.",
+          "collocations": [
+            "the most common residential distance",
+            "both sets of data"
+          ]
+        }
+      ],
+      "translation": "首先，研究者查看每个人开始同居前住在哪里。因为 2004 年以伴侣身份提交同居申请的人可能已经住在一起，研究者也查看双方在开始同居大约五年前的居住距离。两套数据都表明，同居前双方最常见的居住距离只有一公里，即 0.62 英里。",
+      "evidenceTargetIds": [
+        "c10-s04-p109-04845-s003"
+      ],
+      "evidence": [
+        {
+          "quote": "First, the researchers looked at where each individual had lived prior to cohabitation. Because there was a chance that those who submitted the cohabitation application as partners during 2004 had already been living together, the researchers also looked at the residential distance between each partner roughly five years prior to cohabitation. Both sets of data showed that the most common residential distance between partners prior to cohabitation was just one kilometer, or .62 miles.",
+          "sentenceIds": [
+            "c10-s04-p109-04845-s001",
+            "c10-s04-p109-04845-s002",
+            "c10-s04-p109-04845-s003"
+          ],
+          "sources": [
+            {
+              "pdfPage": 109,
+              "block": 4,
+              "bbox": [
+                76.99,
+                484.5,
+                535.01,
+                713.52
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "4bfa6ab6187f12f35271a45809acff8fe273a47edb1ce8f67604ce2999ee73c7"
+    },
+    {
+      "id": "q-c10-040",
+      "version": 1,
+      "readingUnitId": "c10-s04-p109-04845-r004-006",
+      "chapterId": "c10",
+      "sectionId": "c10-s04",
+      "paragraphId": "c10-s04-p109-04845",
+      "sentenceIds": [
+        "c10-s04-p109-04845-s004",
+        "c10-s04-p109-04845-s005",
+        "c10-s04-p109-04845-s006"
+      ],
+      "passage": "Roughly 13 percent of newly cohabiting couples had lived roughly one kilometer away from each other right before they started cohabitating; roughly 10.5 percent of them had lived roughly one kilometer away five years before they started cohabitating. The median distance was 6.2 kilometers (3.85 miles) right before cohabitation, 7.8 kilometers (4.85 miles) five years before, and 22.9 kilometers (14.23 miles) at birth. That is, half of Dutch people who started cohabitating in 2004 chose a partner who had been born less than fifteen miles away from their own birthplace.",
+      "prompt": "Which statement correctly interprets the reported distances?",
+      "options": [
+        "One kilometer was the median distance at birth.",
+        "The median distance at birth was 22.9 kilometers.",
+        "Thirteen percent had lived one kilometer apart five years earlier.",
+        "Every couple had lived less than fifteen miles apart before cohabitation."
+      ],
+      "answer": 1,
+      "type": "细节",
+      "promptZh": "哪项正确理解所报距离？",
+      "optionsZh": [
+        "出生地距离中位数是一公里。",
+        "出生地之间距离中位数为 22.9 公里。",
+        "五年前相距一公里者占 13%。",
+        "每对伴侣同居前都相距不到十五英里。"
+      ],
+      "analyses": [
+        "A 一公里是前文最常见距离，此处出生地中位数为 22.9 公里。",
+        "B 22.9...at birth 精确对应。",
+        "C 13% 是即将同居前，五年前约 10.5%。",
+        "D half 与出生地关系不能变成所有人同居前住址。中位数 6.2/7.8/22.9 需分别对应三个时点。"
+      ],
+      "evidence": [
+        {
+          "quote": "The median distance was 6.2 kilometers (3.85 miles) right before cohabitation, 7.8 kilometers (4.85 miles) five years before, and 22.9 kilometers (14.23 miles) at birth.",
+          "sentenceIds": [
+            "c10-s04-p109-04845-s005"
+          ],
+          "sources": [
+            {
+              "pdfPage": 109,
+              "block": 4,
+              "bbox": [
+                76.99,
+                484.5,
+                535.01,
+                713.52
+              ]
+            },
+            {
+              "pdfPage": 110,
+              "block": 0,
+              "bbox": [
+                76.99,
+                75,
+                535.01,
+                206.52
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "median",
+          "meaning": "中位数的",
+          "context": "按大小排序处于中间位置的距离，不是平均数或最常见值",
+          "example": "The median distance was lower than the mean.",
+          "collocations": [
+            "median distance",
+            "median value"
+          ]
+        }
+      ],
+      "translation": "新同居伴侣中，约 13% 在开始同居前相距约一公里；约 10.5% 在开始同居五年前相距约一公里。同居前即刻的距离中位数为 6.2 公里（3.85 英里），五年前为 7.8 公里（4.85 英里），出生时为 22.9 公里（14.23 英里）。也就是说，2004 年开始同居的荷兰人中，一半选择的伴侣，其出生地离自己的出生地不到十五英里。",
+      "support": "explicit",
+      "editorialStatus": "完整PDF106–111原页视觉核对及跨页拼接；CDC关联不作因果保证；100/1000候选、14%/3%与前10%目标分开。费城许可证、荷兰个人筛选与MIT友谊提名单位分开，众数/中位数与测量时点不混用；Cupid为比喻；宿舍随机背景按作者概括保留，不冒充完整随机试验方案。功能距离研究与后续曝光机制实验分开。末段完整审阅含未配题词频比较，未声称全书逐句证据覆盖。",
+      "fingerprint": "c930b48913468c6fe36df5154c075f81b5ea1dda59534186400a5db94204ee1c"
+    },
+    {
+      "id": "qe-c10-0073",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-041",
+      "parentQuestionId": "q-c10-040",
+      "chapterId": "c10",
+      "sectionId": "c10-s04",
+      "paragraphId": "c10-s04-p109-04845",
+      "readingUnitId": "c10-s04-p109-04845-r004-006",
+      "sentenceIds": [
+        "c10-s04-p109-04845-s004",
+        "c10-s04-p109-04845-s005",
+        "c10-s04-p109-04845-s006"
+      ],
+      "passage": "Roughly 13 percent of newly cohabiting couples had lived roughly one kilometer away from each other right before they started cohabitating; roughly 10.5 percent of them had lived roughly one kilometer away five years before they started cohabitating. The median distance was 6.2 kilometers (3.85 miles) right before cohabitation, 7.8 kilometers (4.85 miles) five years before, and 22.9 kilometers (14.23 miles) at birth. That is, half of Dutch people who started cohabitating in 2004 chose a partner who had been born less than fifteen miles away from their own birthplace.",
+      "prompt": "Which pairing of proportion and timing is stated for living about one kilometre apart?",
+      "promptZh": "约相距一公里的比例与时点，哪组对应正确？",
+      "options": [
+        "About 13 percent immediately before cohabitation, and about 10.5 percent five years earlier.",
+        "About 10.5 percent immediately before, and about 13 percent five years earlier.",
+        "About 13 percent at birth, and about 10.5 percent five years after cohabitation.",
+        "About half immediately before, and about half at every earlier date."
+      ],
+      "optionsZh": [
+        "同居前即刻约13%，五年前约10.5%。",
+        "同居前即刻约10.5%，五年前约13%。",
+        "出生时约13%，同居五年后约10.5%。",
+        "同居前约一半，此前每时点也约一半。"
+      ],
+      "answer": 0,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A 两个 roughly 比例与 right before、five years before 逐项对应，不能假装精确无误差。",
+        "B 交换时间配对。",
+        "C 出生地和 after 都不是这两项。",
+        "D 半数出现在出生地不到15英里概括，不是一公里比例，也非每时点全相同。"
+      ],
+      "vocabulary": [
+        {
+          "word": "Roughly",
+          "meaning": "大约；粗略而言",
+          "context": "在同句修饰比例和距离，保留原文近似程度。",
+          "example": "Roughly a tenth of the responses fell in this category.",
+          "collocations": [
+            "Roughly 13 percent",
+            "roughly one kilometer away"
+          ]
+        }
+      ],
+      "translation": "新同居伴侣中，约 13% 在开始同居前相距约一公里；约 10.5% 在开始同居五年前相距约一公里。同居前即刻的距离中位数为 6.2 公里（3.85 英里），五年前为 7.8 公里（4.85 英里），出生时为 22.9 公里（14.23 英里）。也就是说，2004 年开始同居的荷兰人中，一半选择的伴侣，其出生地离自己的出生地不到十五英里。",
+      "evidenceTargetIds": [
+        "c10-s04-p109-04845-s004"
+      ],
+      "evidence": [
+        {
+          "quote": "Roughly 13 percent of newly cohabiting couples had lived roughly one kilometer away from each other right before they started cohabitating; roughly 10.5 percent of them had lived roughly one kilometer away five years before they started cohabitating. The median distance was 6.2 kilometers (3.85 miles) right before cohabitation, 7.8 kilometers (4.85 miles) five years before, and 22.9 kilometers (14.23 miles) at birth. That is, half of Dutch people who started cohabitating in 2004 chose a partner who had been born less than fifteen miles away from their own birthplace.",
+          "sentenceIds": [
+            "c10-s04-p109-04845-s004",
+            "c10-s04-p109-04845-s005",
+            "c10-s04-p109-04845-s006"
+          ],
+          "sources": [
+            {
+              "pdfPage": 109,
+              "block": 4,
+              "bbox": [
+                76.99,
+                484.5,
+                535.01,
+                713.52
+              ]
+            },
+            {
+              "pdfPage": 110,
+              "block": 0,
+              "bbox": [
+                76.99,
+                75,
+                535.01,
+                206.52
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "36c5f608518f2dcf12178ea5c31f463a3fd7e8adf0dbfbe56540ec2f863953ea"
+    },
+    {
+      "id": "qe-c10-0074",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-041",
+      "parentQuestionId": "q-c10-040",
+      "chapterId": "c10",
+      "sectionId": "c10-s04",
+      "paragraphId": "c10-s04-p109-04845",
+      "readingUnitId": "c10-s04-p109-04845-r004-006",
+      "sentenceIds": [
+        "c10-s04-p109-04845-s004",
+        "c10-s04-p109-04845-s005",
+        "c10-s04-p109-04845-s006"
+      ],
+      "passage": "Roughly 13 percent of newly cohabiting couples had lived roughly one kilometer away from each other right before they started cohabitating; roughly 10.5 percent of them had lived roughly one kilometer away five years before they started cohabitating. The median distance was 6.2 kilometers (3.85 miles) right before cohabitation, 7.8 kilometers (4.85 miles) five years before, and 22.9 kilometers (14.23 miles) at birth. That is, half of Dutch people who started cohabitating in 2004 chose a partner who had been born less than fifteen miles away from their own birthplace.",
+      "prompt": "What distance is described in the statement about half of the 2004 cohabiting cohort?",
+      "promptZh": "关于2004新同居队列一半人的句子，描述哪种距离？",
+      "options": [
+        "The distance between every Dutch person's current workplace and home.",
+        "The one-kilometre distance that every couple had at the moment of marriage.",
+        "The length of their daily journey five years after moving in together.",
+        "The distance between the partners' birthplaces, less than fifteen miles in the author's summary."
+      ],
+      "optionsZh": [
+        "每位荷兰人当前工作地到家的距离。",
+        "每对夫妻结婚时都相距一公里。",
+        "同居五年后每天路程长度。",
+        "双方出生地距离，作者概括为不到十五英里。"
+      ],
+      "answer": 3,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A 没测通勤，也不能泛为每位荷兰人。",
+        "B 半数不是每对，birthplace 不是婚时住址，一公里不是此项阈值。",
+        "C 时间与变量均错。",
+        "D born、own birthplace、less than fifteen miles 明确，限定2004开始同居队列，不是当前所有人或同居地址。"
+      ],
+      "vocabulary": [
+        {
+          "word": "birthplace",
+          "meaning": "出生地",
+          "context": "与 residence、cohabitation 地址区分，不能把出生地距离当当时同居前距离。",
+          "example": "The records allowed the team to compare each partner's birthplace.",
+          "collocations": [
+            "their own birthplace",
+            "born less than fifteen miles away"
+          ]
+        }
+      ],
+      "translation": "新同居伴侣中，约 13% 在开始同居前相距约一公里；约 10.5% 在开始同居五年前相距约一公里。同居前即刻的距离中位数为 6.2 公里（3.85 英里），五年前为 7.8 公里（4.85 英里），出生时为 22.9 公里（14.23 英里）。也就是说，2004 年开始同居的荷兰人中，一半选择的伴侣，其出生地离自己的出生地不到十五英里。",
+      "evidenceTargetIds": [
+        "c10-s04-p109-04845-s006"
+      ],
+      "evidence": [
+        {
+          "quote": "Roughly 13 percent of newly cohabiting couples had lived roughly one kilometer away from each other right before they started cohabitating; roughly 10.5 percent of them had lived roughly one kilometer away five years before they started cohabitating. The median distance was 6.2 kilometers (3.85 miles) right before cohabitation, 7.8 kilometers (4.85 miles) five years before, and 22.9 kilometers (14.23 miles) at birth. That is, half of Dutch people who started cohabitating in 2004 chose a partner who had been born less than fifteen miles away from their own birthplace.",
+          "sentenceIds": [
+            "c10-s04-p109-04845-s004",
+            "c10-s04-p109-04845-s005",
+            "c10-s04-p109-04845-s006"
+          ],
+          "sources": [
+            {
+              "pdfPage": 109,
+              "block": 4,
+              "bbox": [
+                76.99,
+                484.5,
+                535.01,
+                713.52
+              ]
+            },
+            {
+              "pdfPage": 110,
+              "block": 0,
+              "bbox": [
+                76.99,
+                75,
+                535.01,
+                206.52
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "a738fa919638cb4dd4767478854aa61cc4090fba759a4eb6d08876f20edb0ba3"
+    },
+    {
+      "id": "q-c10-041",
+      "version": 1,
+      "readingUnitId": "c10-s04-p109-04845-r007-010",
+      "chapterId": "c10",
+      "sectionId": "c10-s04",
+      "paragraphId": "c10-s04-p109-04845",
+      "sentenceIds": [
+        "c10-s04-p109-04845-s007",
+        "c10-s04-p109-04845-s008",
+        "c10-s04-p109-04845-s009",
+        "c10-s04-p109-04845-s010"
+      ],
+      "passage": "These statistics suggest an astonishingly small world, even for a quite cosmopolitan European country. Online dating became popular in the early 2000s. Yet Cupid in the Netherlands in 2004 was no different from Cupid in Philadelphia in 1931—not adapted for long flights. What does this tell us?",
+      "prompt": "What does the comparison with Cupid in Philadelphia suggest?",
+      "options": [
+        "Every Dutch partner in 2004 had met online.",
+        "The Internet had proved incapable of forming any relationship.",
+        "Geographical closeness still characterized partnerships in the Dutch data.",
+        "The two studies measured exactly the same distance percentages."
+      ],
+      "answer": 2,
+      "type": "推断",
+      "promptZh": "与费城丘比特的比较提示什么？",
+      "optionsZh": [
+        "2004 年所有荷兰伴侣都在网上认识。",
+        "互联网被证明不能形成任何关系。",
+        "荷兰数据中的伴侣配对仍有地理邻近特征。",
+        "两研究测得完全相同的距离百分比。"
+      ],
+      "analyses": [
+        "A online dating became popular 是时代背景，不是每人的相识渠道。",
+        "B 未实验检验互联网能否形成关系。",
+        "C Yet...no different...not adapted for long flights 比喻邻近现象仍在。",
+        "D 比较的是共同趋势，不是统计量完全相等。这些数据不能单独识别网恋的因果效果。"
+      ],
+      "evidence": [
+        {
+          "quote": "Yet Cupid in the Netherlands in 2004 was no different from Cupid in Philadelphia in 1931—not adapted for long flights.",
+          "sentenceIds": [
+            "c10-s04-p109-04845-s009"
+          ],
+          "sources": [
+            {
+              "pdfPage": 110,
+              "block": 0,
+              "bbox": [
+                76.99,
+                75,
+                535.01,
+                206.52
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "cosmopolitan",
+          "meaning": "国际化的；文化多元的",
+          "context": "强调即便在这样的国家，配对地理范围仍出人意料地小",
+          "example": "The city is known for its cosmopolitan population.",
+          "collocations": [
+            "a cosmopolitan country",
+            "a cosmopolitan city"
+          ]
+        }
+      ],
+      "translation": "这些统计提示，即使对一个相当国际化的欧洲国家，世界也小得惊人。在线约会在 2000 年代初流行起来。然而，2004 年荷兰的丘比特与 1931 年费城的并无不同——不适合长途飞行。这告诉我们什么？",
+      "support": "explicit",
+      "editorialStatus": "完整PDF106–111原页视觉核对及跨页拼接；CDC关联不作因果保证；100/1000候选、14%/3%与前10%目标分开。费城许可证、荷兰个人筛选与MIT友谊提名单位分开，众数/中位数与测量时点不混用；Cupid为比喻；宿舍随机背景按作者概括保留，不冒充完整随机试验方案。功能距离研究与后续曝光机制实验分开。末段完整审阅含未配题词频比较，未声称全书逐句证据覆盖。",
+      "fingerprint": "b9f8ad15cd6a92769cf8085b5e51be8e61b39385ddfc9c83edeba7329eecd080"
+    },
+    {
+      "id": "qe-c10-0075",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-041",
+      "parentQuestionId": "q-c10-041",
+      "chapterId": "c10",
+      "sectionId": "c10-s04",
+      "paragraphId": "c10-s04-p109-04845",
+      "readingUnitId": "c10-s04-p109-04845-r007-010",
+      "sentenceIds": [
+        "c10-s04-p109-04845-s007",
+        "c10-s04-p109-04845-s008",
+        "c10-s04-p109-04845-s009",
+        "c10-s04-p109-04845-s010"
+      ],
+      "passage": "These statistics suggest an astonishingly small world, even for a quite cosmopolitan European country. Online dating became popular in the early 2000s. Yet Cupid in the Netherlands in 2004 was no different from Cupid in Philadelphia in 1931—not adapted for long flights. What does this tell us?",
+      "prompt": "What does 'an astonishingly small world' mean in this discussion?",
+      "promptZh": "本段 astonishingly small world 是什么意思？",
+      "options": [
+        "The physical size of the Netherlands has literally shrunk.",
+        "The described partner distances suggest surprisingly local choices despite a cosmopolitan setting.",
+        "All Dutch people are proved never to travel anywhere.",
+        "Online dating is proved incapable of creating any distant relationship."
+      ],
+      "optionsZh": [
+        "荷兰物理面积真的缩小。",
+        "尽管环境国际化，所述伴侣距离仍显示选择出乎意料地近。",
+        "证明全体荷兰人从不旅行。",
+        "证明在线约会不可能形成任何远距离关系。"
+      ],
+      "answer": 1,
+      "type": "语境理解",
+      "support": "explicit",
+      "analyses": [
+        "A small world 为社会地理范围的比喻，不是国土收缩。",
+        "B statistics suggest、even cosmopolitan 构成意外的局部择偶模式。",
+        "C 伴侣住址不等于所有旅游行为。",
+        "D 群体距离模式不能排除任何远距离例，更无随机平台因果检验。"
+      ],
+      "vocabulary": [
+        {
+          "word": "cosmopolitan",
+          "meaning": "国际化的；接触多种文化的",
+          "context": "这里描述国家背景，不能因此推断每个个体都远距离择偶。",
+          "example": "The city was cosmopolitan,but many everyday contacts remained local.",
+          "collocations": [
+            "a quite cosmopolitan European country",
+            "an astonishingly small world"
+          ]
+        }
+      ],
+      "translation": "这些统计提示，即使对一个相当国际化的欧洲国家，世界也小得惊人。在线约会在 2000 年代初流行起来。然而，2004 年荷兰的丘比特与 1931 年费城的并无不同——不适合长途飞行。这告诉我们什么？",
+      "evidenceTargetIds": [
+        "c10-s04-p109-04845-s007"
+      ],
+      "evidence": [
+        {
+          "quote": "These statistics suggest an astonishingly small world, even for a quite cosmopolitan European country. Online dating became popular in the early 2000s. Yet Cupid in the Netherlands in 2004 was no different from Cupid in Philadelphia in 1931—not adapted for long flights. What does this tell us?",
+          "sentenceIds": [
+            "c10-s04-p109-04845-s007",
+            "c10-s04-p109-04845-s008",
+            "c10-s04-p109-04845-s009",
+            "c10-s04-p109-04845-s010"
+          ],
+          "sources": [
+            {
+              "pdfPage": 110,
+              "block": 0,
+              "bbox": [
+                76.99,
+                75,
+                535.01,
+                206.52
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "2df07d0e2c7f8bfa074ef3c533c7044aac13a494795b4a1ad3b6722c8486698c"
+    },
+    {
+      "id": "qe-c10-0076",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-041",
+      "parentQuestionId": "q-c10-041",
+      "chapterId": "c10",
+      "sectionId": "c10-s04",
+      "paragraphId": "c10-s04-p109-04845",
+      "readingUnitId": "c10-s04-p109-04845-r007-010",
+      "sentenceIds": [
+        "c10-s04-p109-04845-s007",
+        "c10-s04-p109-04845-s008",
+        "c10-s04-p109-04845-s009",
+        "c10-s04-p109-04845-s010"
+      ],
+      "passage": "These statistics suggest an astonishingly small world, even for a quite cosmopolitan European country. Online dating became popular in the early 2000s. Yet Cupid in the Netherlands in 2004 was no different from Cupid in Philadelphia in 1931—not adapted for long flights. What does this tell us?",
+      "prompt": "When does the author place the rise in popularity of online dating?",
+      "promptZh": "作者把在线约会的流行放在哪个时期？",
+      "options": [
+        "Only in Philadelphia in 1931.",
+        "Precisely after every participant began cohabiting in 2004.",
+        "In the early 2000s.",
+        "Only in the late 1940s dormitory study."
+      ],
+      "optionsZh": [
+        "仅1931年费城。",
+        "精确在每位参与者2004开始同居之后。",
+        "2000年代初。",
+        "仅1940年代末宿舍研究。"
+      ],
+      "answer": 2,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A 1931属旧研究，非此变化时期。",
+        "B early2000s 是时期概括，不是每人同居后才开始的精确因果时序。",
+        "C 原句直接给 early2000s，不能当最新平台发展统计。",
+        "D 后续宿舍研究年代不是网络约会；流行不证明该队列每个人都用过平台。"
+      ],
+      "vocabulary": [
+        {
+          "word": "became popular",
+          "meaning": "变得流行；开始被广泛采用",
+          "context": "不是发明的精确日期，也不保证全人口都使用。",
+          "example": "The service became popular during the period described in the book.",
+          "collocations": [
+            "Online dating became popular",
+            "in the early 2000s"
+          ]
+        }
+      ],
+      "translation": "这些统计提示，即使对一个相当国际化的欧洲国家，世界也小得惊人。在线约会在 2000 年代初流行起来。然而，2004 年荷兰的丘比特与 1931 年费城的并无不同——不适合长途飞行。这告诉我们什么？",
+      "evidenceTargetIds": [
+        "c10-s04-p109-04845-s008"
+      ],
+      "evidence": [
+        {
+          "quote": "These statistics suggest an astonishingly small world, even for a quite cosmopolitan European country. Online dating became popular in the early 2000s. Yet Cupid in the Netherlands in 2004 was no different from Cupid in Philadelphia in 1931—not adapted for long flights. What does this tell us?",
+          "sentenceIds": [
+            "c10-s04-p109-04845-s007",
+            "c10-s04-p109-04845-s008",
+            "c10-s04-p109-04845-s009",
+            "c10-s04-p109-04845-s010"
+          ],
+          "sources": [
+            {
+              "pdfPage": 110,
+              "block": 0,
+              "bbox": [
+                76.99,
+                75,
+                535.01,
+                206.52
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "69a3134cb5ccd9a4b49074ceff39df87d5ad06e6a84fb7b64879be235b7fb15a"
+    },
+    {
+      "id": "qe-c10-0077",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-041",
+      "parentQuestionId": "q-c10-041",
+      "chapterId": "c10",
+      "sectionId": "c10-s04",
+      "paragraphId": "c10-s04-p109-04845",
+      "readingUnitId": "c10-s04-p109-04845-r007-010",
+      "sentenceIds": [
+        "c10-s04-p109-04845-s007",
+        "c10-s04-p109-04845-s008",
+        "c10-s04-p109-04845-s009",
+        "c10-s04-p109-04845-s010"
+      ],
+      "passage": "These statistics suggest an astonishingly small world, even for a quite cosmopolitan European country. Online dating became popular in the early 2000s. Yet Cupid in the Netherlands in 2004 was no different from Cupid in Philadelphia in 1931—not adapted for long flights. What does this tell us?",
+      "prompt": "What does the closing 'What does this tell us?' invite?",
+      "promptZh": "结尾 What does this tell us? 邀请读者做什么？",
+      "options": [
+        "Accept that all previous figures have been withdrawn as false.",
+        "Compute a new exact percentage that the paragraph has not supplied.",
+        "Assume every modern relationship follows an identical historical path.",
+        "Consider what the reported local-distance pattern implies, leading into further explanation."
+      ],
+      "optionsZh": [
+        "接受此前所有数字已被撤回为假。",
+        "计算段落未提供的新精确百分比。",
+        "假定每段现代关系遵循相同历史路径。",
+        "思考所报近距离模式的含义，引向后续解释。"
+      ],
+      "answer": 3,
+      "type": "篇章结构",
+      "support": "explicit",
+      "analyses": [
+        "A 问解释不是撤销资料。",
+        "B 本句未要求新运算，也不给足额外数据。",
+        "C 对比1931和2004不等于每个人生路径相同。",
+        "D this 回顾统计与丘比特比喻，作为转入后文解释的桥梁；当前段未给出的后续机制不虚构成已在本题证明。"
+      ],
+      "vocabulary": [
+        {
+          "word": "suggest",
+          "meaning": "提示；使人推想",
+          "context": "本段用 statistics suggest，解释强度不同于证明唯一原因或全部个体必然如此。",
+          "example": "The pattern may suggest a role for opportunities to meet.",
+          "collocations": [
+            "These statistics suggest",
+            "What does this tell us"
+          ]
+        }
+      ],
+      "translation": "这些统计提示，即使对一个相当国际化的欧洲国家，世界也小得惊人。在线约会在 2000 年代初流行起来。然而，2004 年荷兰的丘比特与 1931 年费城的并无不同——不适合长途飞行。这告诉我们什么？",
+      "evidenceTargetIds": [
+        "c10-s04-p109-04845-s010"
+      ],
+      "evidence": [
+        {
+          "quote": "These statistics suggest an astonishingly small world, even for a quite cosmopolitan European country. Online dating became popular in the early 2000s. Yet Cupid in the Netherlands in 2004 was no different from Cupid in Philadelphia in 1931—not adapted for long flights. What does this tell us?",
+          "sentenceIds": [
+            "c10-s04-p109-04845-s007",
+            "c10-s04-p109-04845-s008",
+            "c10-s04-p109-04845-s009",
+            "c10-s04-p109-04845-s010"
+          ],
+          "sources": [
+            {
+              "pdfPage": 110,
+              "block": 0,
+              "bbox": [
+                76.99,
+                75,
+                535.01,
+                206.52
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "f646e879e6fadc3c03f47ff576f101f2260c0278ff42341d4db9a3fea769421a"
+    },
+    {
+      "id": "q-c10-042",
+      "version": 1,
+      "readingUnitId": "c10-s05-p110-02625-r001-002",
+      "chapterId": "c10",
+      "sectionId": "c10-s05",
+      "paragraphId": "c10-s05-p110-02625",
+      "sentenceIds": [
+        "c10-s05-p110-02625-s001",
+        "c10-s05-p110-02625-s002"
+      ],
+      "passage": "In the late 1940s, social psychologists Leon Festinger, Stan Schachter, and Kurt Back were also interested in distance and relationships when they set out to examine friendship formation in two MIT residential complexes: Westgate and Westgate West. Unlike the city of Philadelphia, there were no ethnic enclaves—no Chinatown where Chinese immigrants would gravitate, for example—so the selection effect (i.e., a resident choosing to live in a particular area) was kept to a minimum.",
+      "prompt": "Why was the selection effect minimized in the MIT setting?",
+      "options": [
+        "Unlike Philadelphia, the complexes lacked ethnic enclaves that attracted particular groups.",
+        "Researchers required all residents to choose the same three friends.",
+        "The study excluded every resident born outside the city.",
+        "Every resident was allowed to select a neighborhood by religion."
+      ],
+      "answer": 0,
+      "type": "逻辑关系",
+      "promptZh": "MIT 场景为何使选择效应减小？",
+      "optionsZh": [
+        "不同于费城，公寓群没有吸引特定群体的族裔聚居区。",
+        "研究者要求大家选同样三个朋友。",
+        "排除了所有外地出生居民。",
+        "每人可按宗教自选社区。"
+      ],
+      "analyses": [
+        "A no ethnic enclaves 后 so 给出减小居住自选效应的原因。",
+        "B 选择朋友的提问不等于指定朋友。",
+        "C 没有这类排除标准。",
+        "D 按背景自选正是要尽量减小的效应。minimum 是尽量少，不等于所有混杂因素均被完全消除。"
+      ],
+      "evidence": [
+        {
+          "quote": "there were no ethnic enclaves",
+          "sentenceIds": [
+            "c10-s05-p110-02625-s002"
+          ],
+          "sources": [
+            {
+              "pdfPage": 110,
+              "block": 2,
+              "bbox": [
+                76.99,
+                262.5,
+                535.01,
+                394.02
+              ]
+            }
+          ]
+        },
+        {
+          "quote": "the selection effect (i.e., a resident choosing to live in a particular area) was kept to a minimum.",
+          "sentenceIds": [
+            "c10-s05-p110-02625-s002"
+          ],
+          "sources": [
+            {
+              "pdfPage": 110,
+              "block": 2,
+              "bbox": [
+                76.99,
+                262.5,
+                535.01,
+                394.02
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "enclaves",
+          "meaning": "聚居区；飞地",
+          "context": "ethnic enclaves 指特定族裔集中居住的区域",
+          "example": "The historian studied ethnic enclaves in the port city.",
+          "collocations": [
+            "ethnic enclaves",
+            "live in an enclave"
+          ]
+        }
+      ],
+      "translation": "1940 年代末，社会心理学家 Leon Festinger、Stan Schachter 和 Kurt Back 考察 MIT 的 Westgate 与 Westgate West 两处住宅群中的友谊形成，也关注距离与关系。不同于费城，这里没有族裔聚居区，例如吸引中国移民聚居的唐人街，因此选择效应（居民选择住在某个特定区域）被尽量减小。",
+      "support": "explicit",
+      "editorialStatus": "完整PDF106–111原页视觉核对及跨页拼接；CDC关联不作因果保证；100/1000候选、14%/3%与前10%目标分开。费城许可证、荷兰个人筛选与MIT友谊提名单位分开，众数/中位数与测量时点不混用；Cupid为比喻；宿舍随机背景按作者概括保留，不冒充完整随机试验方案。功能距离研究与后续曝光机制实验分开。末段完整审阅含未配题词频比较，未声称全书逐句证据覆盖。",
+      "fingerprint": "c61b507a1b115c78d1e53f9317918515e5eeefde0c8fb5db76eab832f2df06e7"
+    },
+    {
+      "id": "qe-c10-0078",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-042",
+      "parentQuestionId": "q-c10-042",
+      "chapterId": "c10",
+      "sectionId": "c10-s05",
+      "paragraphId": "c10-s05-p110-02625",
+      "readingUnitId": "c10-s05-p110-02625-r001-002",
+      "sentenceIds": [
+        "c10-s05-p110-02625-s001",
+        "c10-s05-p110-02625-s002"
+      ],
+      "passage": "In the late 1940s, social psychologists Leon Festinger, Stan Schachter, and Kurt Back were also interested in distance and relationships when they set out to examine friendship formation in two MIT residential complexes: Westgate and Westgate West. Unlike the city of Philadelphia, there were no ethnic enclaves—no Chinatown where Chinese immigrants would gravitate, for example—so the selection effect (i.e., a resident choosing to live in a particular area) was kept to a minimum.",
+      "prompt": "What did Festinger, Schachter, and Back set out to study in the MIT complexes?",
+      "promptZh": "Festinger、Schachter 与 Back 在 MIT 住宅群中研究什么？",
+      "options": [
+        "How every resident's marriage ended in divorce.",
+        "The formation of friendships in relation to distance.",
+        "Which students obtained the highest examination marks.",
+        "The population growth of Philadelphia in 1931 alone."
+      ],
+      "optionsZh": [
+        "每个居民的婚姻如何离婚结束。",
+        "与距离相关的友谊形成。",
+        "哪些学生考试分最高。",
+        "仅1931年费城人口增长。"
+      ],
+      "answer": 1,
+      "type": "研究设计",
+      "support": "explicit",
+      "analyses": [
+        "A friendship formation 不是全部婚姻结局。",
+        "B distance and relationships、examine friendship formation 两项明确，地点为 Westgate 与 Westgate West。",
+        "C 无成绩测验。",
+        "D 这是1940年代末 MIT 住宅环境研究，不能混成前面的费城婚姻资料；未限定全是本科生或补入未述身份。"
+      ],
+      "vocabulary": [
+        {
+          "word": "set out to",
+          "meaning": "着手；以做某事为目标开始",
+          "context": "说明研究目标，不是说先前已证明全部机制。",
+          "example": "The team set out to examine how shared spaces affected meetings.",
+          "collocations": [
+            "set out to examine friendship formation",
+            "two MIT residential complexes"
+          ]
+        }
+      ],
+      "translation": "1940 年代末，社会心理学家 Leon Festinger、Stan Schachter 和 Kurt Back 考察 MIT 的 Westgate 与 Westgate West 两处住宅群中的友谊形成，也关注距离与关系。不同于费城，这里没有族裔聚居区，例如吸引中国移民聚居的唐人街，因此选择效应（居民选择住在某个特定区域）被尽量减小。",
+      "evidenceTargetIds": [
+        "c10-s05-p110-02625-s001"
+      ],
+      "evidence": [
+        {
+          "quote": "In the late 1940s, social psychologists Leon Festinger, Stan Schachter, and Kurt Back were also interested in distance and relationships when they set out to examine friendship formation in two MIT residential complexes: Westgate and Westgate West. Unlike the city of Philadelphia, there were no ethnic enclaves—no Chinatown where Chinese immigrants would gravitate, for example—so the selection effect (i.e., a resident choosing to live in a particular area) was kept to a minimum.",
+          "sentenceIds": [
+            "c10-s05-p110-02625-s001",
+            "c10-s05-p110-02625-s002"
+          ],
+          "sources": [
+            {
+              "pdfPage": 110,
+              "block": 2,
+              "bbox": [
+                76.99,
+                262.5,
+                535.01,
+                394.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "a7b1a32fda0abe04be0ec10f7c5a36c71aaca9263ee6c9fc8f91a88664708d2c"
+    },
+    {
+      "id": "q-c10-043",
+      "version": 1,
+      "readingUnitId": "c10-s05-p110-03990-r001-004",
+      "chapterId": "c10",
+      "sectionId": "c10-s05",
+      "paragraphId": "c10-s05-p110-03990",
+      "sentenceIds": [
+        "c10-s05-p110-03990-s001",
+        "c10-s05-p110-03990-s002",
+        "c10-s05-p110-03990-s003",
+        "c10-s05-p110-03990-s004"
+      ],
+      "passage": "Festinger and colleagues knew exactly where all the participants in this study lived, and asked one simple question: “What three people in Westgate or Westgate West do you see most of socially?” In the microcosm of a college dorm, their research replicated the Philadelphia and Dutch findings: 112 out of the possible 187 friendship nominations, or 60 percent, lived next door or in the unit connected directly through staircases. Only seven nominations were made of someone living four units away or more. So, physical distance clearly matters.",
+      "prompt": "What does the figure of 112 out of 187 refer to?",
+      "options": [
+        "Participants who had exactly three next-door friends.",
+        "Residents who lived four or more units away from everyone.",
+        "Couples who had applied for marriage licenses.",
+        "Friendship nominations involving someone next door or directly linked by stairs."
+      ],
+      "answer": 3,
+      "type": "细节",
+      "promptZh": "112/187 这个数字指什么？",
+      "optionsZh": [
+        "恰有三个隔壁朋友的参与者。",
+        "与所有人都相隔四个单元以上的居民。",
+        "申请结婚许可的夫妇。",
+        "被提名朋友住隔壁或在楼梯直接连通单元的提名。"
+      ],
+      "analyses": [
+        "A 分母为 friendship nominations，不是满足某条件的人数。",
+        "B 四单元或以上只有七次提名。",
+        "C 当前是友谊研究，非结婚许可。",
+        "D 112...187...60 percent 对应紧邻或楼梯直连。提名次数不能自动当独立居民数。"
+      ],
+      "evidence": [
+        {
+          "quote": "112 out of the possible 187 friendship nominations, or 60 percent, lived next door or in the unit connected directly through staircases.",
+          "sentenceIds": [
+            "c10-s05-p110-03990-s002"
+          ],
+          "sources": [
+            {
+              "pdfPage": 110,
+              "block": 3,
+              "bbox": [
+                76.99,
+                399,
+                535.01,
+                686.52
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "nominations",
+          "meaning": "提名；被指名的对象记录",
+          "context": "受访者说出常社交的朋友产生的记录，不是随机分配",
+          "example": "The survey collected friendship nominations from residents.",
+          "collocations": [
+            "friendship nominations",
+            "make a nomination"
+          ]
+        }
+      ],
+      "translation": "Festinger 及同事确切知道参与者住在哪里，并问一个简单问题：“你在 Westgate 或 Westgate West 社交见得最多的三个人是谁？”在大学宿舍这个小世界里，结果重现了费城与荷兰的发现：187 个可能的友谊提名中，112 个，即 60%，住在隔壁或楼梯直接连通的单元。只有七次提名指向相隔四个单元或更远的人。所以，物理距离显然重要。",
+      "support": "explicit",
+      "editorialStatus": "完整PDF106–111原页视觉核对及跨页拼接；CDC关联不作因果保证；100/1000候选、14%/3%与前10%目标分开。费城许可证、荷兰个人筛选与MIT友谊提名单位分开，众数/中位数与测量时点不混用；Cupid为比喻；宿舍随机背景按作者概括保留，不冒充完整随机试验方案。功能距离研究与后续曝光机制实验分开。末段完整审阅含未配题词频比较，未声称全书逐句证据覆盖。",
+      "fingerprint": "764c51a47dcb0c3fa01d330335cf1b8c1c519d4486378e22409d70d980c68d1a"
+    },
+    {
+      "id": "qe-c10-0079",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-042",
+      "parentQuestionId": "q-c10-043",
+      "chapterId": "c10",
+      "sectionId": "c10-s05",
+      "paragraphId": "c10-s05-p110-03990",
+      "readingUnitId": "c10-s05-p110-03990-r001-004",
+      "sentenceIds": [
+        "c10-s05-p110-03990-s001",
+        "c10-s05-p110-03990-s002",
+        "c10-s05-p110-03990-s003",
+        "c10-s05-p110-03990-s004"
+      ],
+      "passage": "Festinger and colleagues knew exactly where all the participants in this study lived, and asked one simple question: “What three people in Westgate or Westgate West do you see most of socially?” In the microcosm of a college dorm, their research replicated the Philadelphia and Dutch findings: 112 out of the possible 187 friendship nominations, or 60 percent, lived next door or in the unit connected directly through staircases. Only seven nominations were made of someone living four units away or more. So, physical distance clearly matters.",
+      "prompt": "What were residents asked to name in the study?",
+      "promptZh": "研究要求居民说出什么？",
+      "options": [
+        "Every person they had ever married.",
+        "The three units with the largest rooms.",
+        "The three people in the complexes whom they saw most socially.",
+        "The three geographically farthest strangers they had never met."
+      ],
+      "optionsZh": [
+        "所有曾结婚对象。",
+        "面积最大的三个单元。",
+        "在住宅群中社交见得最多的三个人。",
+        "从未见过且地理最远的三个陌生人。"
+      ],
+      "answer": 2,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A 当前是社交提名，不是婚史调查。",
+        "B three people 不是房间面积或单元排名。",
+        "C 问句 what three people...see most of socially 明确对象及社交标准。",
+        "D 见得最多不能换成从没见过；居民地址已知用于分析距离，不是要求只报最远者。"
+      ],
+      "vocabulary": [
+        {
+          "word": "socially",
+          "meaning": "在社交上；作为交往接触地",
+          "context": "界定谁最常见，不等于仅工作通信、家族血缘或恋爱关系。",
+          "example": "The residents reported whom they saw most often socially.",
+          "collocations": [
+            "see most of socially",
+            "friendship nominations"
+          ]
+        }
+      ],
+      "translation": "Festinger 及同事确切知道参与者住在哪里，并问一个简单问题：“你在 Westgate 或 Westgate West 社交见得最多的三个人是谁？”在大学宿舍这个小世界里，结果重现了费城与荷兰的发现：187 个可能的友谊提名中，112 个，即 60%，住在隔壁或楼梯直接连通的单元。只有七次提名指向相隔四个单元或更远的人。所以，物理距离显然重要。",
+      "evidenceTargetIds": [
+        "c10-s05-p110-03990-s001"
+      ],
+      "evidence": [
+        {
+          "quote": "Festinger and colleagues knew exactly where all the participants in this study lived, and asked one simple question: “What three people in Westgate or Westgate West do you see most of socially?” In the microcosm of a college dorm, their research replicated the Philadelphia and Dutch findings: 112 out of the possible 187 friendship nominations, or 60 percent, lived next door or in the unit connected directly through staircases. Only seven nominations were made of someone living four units away or more. So, physical distance clearly matters.",
+          "sentenceIds": [
+            "c10-s05-p110-03990-s001",
+            "c10-s05-p110-03990-s002",
+            "c10-s05-p110-03990-s003",
+            "c10-s05-p110-03990-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 110,
+              "block": 3,
+              "bbox": [
+                76.99,
+                399,
+                535.01,
+                686.52
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "41adc5b09fe29ec91c279acd51ad15427248dd4a14f47c201a178f2494695cac"
+    },
+    {
+      "id": "qe-c10-0080",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-042",
+      "parentQuestionId": "q-c10-043",
+      "chapterId": "c10",
+      "sectionId": "c10-s05",
+      "paragraphId": "c10-s05-p110-03990",
+      "readingUnitId": "c10-s05-p110-03990-r001-004",
+      "sentenceIds": [
+        "c10-s05-p110-03990-s001",
+        "c10-s05-p110-03990-s002",
+        "c10-s05-p110-03990-s003",
+        "c10-s05-p110-03990-s004"
+      ],
+      "passage": "Festinger and colleagues knew exactly where all the participants in this study lived, and asked one simple question: “What three people in Westgate or Westgate West do you see most of socially?” In the microcosm of a college dorm, their research replicated the Philadelphia and Dutch findings: 112 out of the possible 187 friendship nominations, or 60 percent, lived next door or in the unit connected directly through staircases. Only seven nominations were made of someone living four units away or more. So, physical distance clearly matters.",
+      "prompt": "What does the number seven refer to in the nomination finding?",
+      "promptZh": "提名结果里的 seven 指什么？",
+      "options": [
+        "Nominations of someone living four units away or more.",
+        "The total number of all residents in both complexes.",
+        "Seven percent of every possible marriage in Philadelphia.",
+        "The number of staircases every participant had to climb."
+      ],
+      "optionsZh": [
+        "提名相距四个单元或更远者的次数。",
+        "两住宅群全部居民总数。",
+        "费城每种可能婚姻的7%。",
+        "每人必须爬的楼梯数。"
+      ],
+      "answer": 0,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A seven nominations、four units away or more 是计数与距离类别对应。",
+        "B 不是居民总人数。",
+        "C seven 为次数非7%，也非费城婚姻。",
+        "D 楼梯与功能接近有关，但此数字不计楼梯；不把同一人的多次提名必当独立夫妻对。"
+      ],
+      "vocabulary": [
+        {
+          "word": "nominations",
+          "meaning": "提名；受试者指认的社交对象记录",
+          "context": "不同于独立居民总数或婚姻数量，统计单位不能互换。",
+          "example": "The survey recorded nominations of frequent social contacts.",
+          "collocations": [
+            "Only seven nominations",
+            "four units away or more"
+          ]
+        }
+      ],
+      "translation": "Festinger 及同事确切知道参与者住在哪里，并问一个简单问题：“你在 Westgate 或 Westgate West 社交见得最多的三个人是谁？”在大学宿舍这个小世界里，结果重现了费城与荷兰的发现：187 个可能的友谊提名中，112 个，即 60%，住在隔壁或楼梯直接连通的单元。只有七次提名指向相隔四个单元或更远的人。所以，物理距离显然重要。",
+      "evidenceTargetIds": [
+        "c10-s05-p110-03990-s003"
+      ],
+      "evidence": [
+        {
+          "quote": "Festinger and colleagues knew exactly where all the participants in this study lived, and asked one simple question: “What three people in Westgate or Westgate West do you see most of socially?” In the microcosm of a college dorm, their research replicated the Philadelphia and Dutch findings: 112 out of the possible 187 friendship nominations, or 60 percent, lived next door or in the unit connected directly through staircases. Only seven nominations were made of someone living four units away or more. So, physical distance clearly matters.",
+          "sentenceIds": [
+            "c10-s05-p110-03990-s001",
+            "c10-s05-p110-03990-s002",
+            "c10-s05-p110-03990-s003",
+            "c10-s05-p110-03990-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 110,
+              "block": 3,
+              "bbox": [
+                76.99,
+                399,
+                535.01,
+                686.52
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "1e1c466f97d6ce2248ea585917e246f0df4b4e521e82b899ee3ce3af7afed054"
+    },
+    {
+      "id": "qe-c10-0081",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-042",
+      "parentQuestionId": "q-c10-043",
+      "chapterId": "c10",
+      "sectionId": "c10-s05",
+      "paragraphId": "c10-s05-p110-03990",
+      "readingUnitId": "c10-s05-p110-03990-r001-004",
+      "sentenceIds": [
+        "c10-s05-p110-03990-s001",
+        "c10-s05-p110-03990-s002",
+        "c10-s05-p110-03990-s003",
+        "c10-s05-p110-03990-s004"
+      ],
+      "passage": "Festinger and colleagues knew exactly where all the participants in this study lived, and asked one simple question: “What three people in Westgate or Westgate West do you see most of socially?” In the microcosm of a college dorm, their research replicated the Philadelphia and Dutch findings: 112 out of the possible 187 friendship nominations, or 60 percent, lived next door or in the unit connected directly through staircases. Only seven nominations were made of someone living four units away or more. So, physical distance clearly matters.",
+      "prompt": "What does 'So, physical distance clearly matters' do after the numbers?",
+      "promptZh": "数字之后 So,physical distance clearly matters 做什么？",
+      "options": [
+        "It denies any relation between residence and social contact.",
+        "It proves physical distance is the sole sufficient cause of every friendship.",
+        "It starts a new experiment that measures no relationships.",
+        "It draws the author's conclusion from the reported pattern of nearby nominations."
+      ],
+      "optionsZh": [
+        "否认住址与交往有任何联系。",
+        "证明物理距离是每段友谊唯一充分原因。",
+        "开始不测关系的新实验。",
+        "根据近处提名模式得出作者结论。"
+      ],
+      "answer": 3,
+      "type": "逻辑关系",
+      "support": "explicit",
+      "analyses": [
+        "A So 接总结而非否认。",
+        "B matters 不等于 only cause，也不保证住得近必为朋友。",
+        "C 无新样本或新方法。",
+        "D 近邻或楼梯直接连通多、四单元外少，支持作者所述重要性；不要将该句独自当排除了所有其他因素的随机因果证明。"
+      ],
+      "vocabulary": [
+        {
+          "word": "matters",
+          "meaning": "重要；起作用",
+          "context": "在结论中说明值得考虑的影响，不是唯一决定一切，也非名词事件。",
+          "example": "The pattern suggests that opportunities for contact matter.",
+          "collocations": [
+            "physical distance clearly matters",
+            "So, physical distance"
+          ]
+        }
+      ],
+      "translation": "Festinger 及同事确切知道参与者住在哪里，并问一个简单问题：“你在 Westgate 或 Westgate West 社交见得最多的三个人是谁？”在大学宿舍这个小世界里，结果重现了费城与荷兰的发现：187 个可能的友谊提名中，112 个，即 60%，住在隔壁或楼梯直接连通的单元。只有七次提名指向相隔四个单元或更远的人。所以，物理距离显然重要。",
+      "evidenceTargetIds": [
+        "c10-s05-p110-03990-s004"
+      ],
+      "evidence": [
+        {
+          "quote": "Festinger and colleagues knew exactly where all the participants in this study lived, and asked one simple question: “What three people in Westgate or Westgate West do you see most of socially?” In the microcosm of a college dorm, their research replicated the Philadelphia and Dutch findings: 112 out of the possible 187 friendship nominations, or 60 percent, lived next door or in the unit connected directly through staircases. Only seven nominations were made of someone living four units away or more. So, physical distance clearly matters.",
+          "sentenceIds": [
+            "c10-s05-p110-03990-s001",
+            "c10-s05-p110-03990-s002",
+            "c10-s05-p110-03990-s003",
+            "c10-s05-p110-03990-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 110,
+              "block": 3,
+              "bbox": [
+                76.99,
+                399,
+                535.01,
+                686.52
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "07dc6bbe16fb0b0a23f6d82cd1569e624ae77d2f5671fe1920c5ba31e70b90e8"
+    }
+  ]
+}
