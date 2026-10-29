@@ -1,0 +1,1692 @@
+{
+  "schemaVersion": 1,
+  "batchId": "question-review-2026-10-28-071",
+  "sourceCommit": "00eb6f03de4b4f1663ea00fde1434dbc9dbc13a1",
+  "pdfSha256": "be25c859f1bd894a4b0d1cff024ded1297f6a96a8e8ddabea1e3abcf89160a50",
+  "frozenAt": "2026-10-29T09:48:03.183Z",
+  "questions": [
+    {
+      "id": "q-c08-031",
+      "version": 1,
+      "readingUnitId": "c08-s04-p083-06405-r005-008",
+      "chapterId": "c08",
+      "sectionId": "c08-s04",
+      "paragraphId": "c08-s04-p083-06405",
+      "sentenceIds": [
+        "c08-s04-p083-06405-s005",
+        "c08-s04-p083-06405-s006",
+        "c08-s04-p083-06405-s007",
+        "c08-s04-p083-06405-s008"
+      ],
+      "passage": "Participants in both conditions reported similar levels of meaningfulness when asked about the task. However, the participants in the division of labor condition reported significantly lower levels of psychological richness than those in the whole production condition. That is, the division of labor made the task more boring, monotonous, and less interesting. Assembling a whole motorcycle by yourself was not efficient.",
+      "prompt": "What contrast is introduced by “However” in this report?",
+      "options": [
+        "Meaningfulness was similar, whereas psychological richness was lower under division of labor.",
+        "Meaningfulness was lower, whereas psychological richness was the same.",
+        "Division of labor made the task both richer and more interesting.",
+        "Whole production was more efficient but less psychologically rich."
+      ],
+      "answer": 0,
+      "type": "逻辑关系",
+      "promptZh": "报告中的 However 引出什么对比？",
+      "optionsZh": [
+        "意义感相似，但分工条件下心理丰富性较低。",
+        "意义感较低，但心理丰富性相同。",
+        "分工使任务既更丰富又更有趣。",
+        "独立完整生产效率更高，却较不丰富。"
+      ],
+      "analyses": [
+        "A similar levels of meaningfulness 后转向 significantly lower...richness，构成不同维度的结果对比。",
+        "B 对调相似和较低所属的指标。",
+        "C more boring, monotonous, less interesting 与更有趣方向相反。",
+        "D not efficient 指完整组装效率不高，不能改成更高。这是该线上任务的报告，不能直接断言所有真实工作的长期心理结果。"
+      ],
+      "evidence": [
+        {
+          "quote": "similar levels of meaningfulness",
+          "sentenceIds": [
+            "c08-s04-p083-06405-s005"
+          ],
+          "sources": [
+            {
+              "pdfPage": 83,
+              "block": 2,
+              "bbox": [
+                76.99,
+                640.5,
+                535.01,
+                713.52
+              ]
+            },
+            {
+              "pdfPage": 84,
+              "block": 0,
+              "bbox": [
+                76.99,
+                75,
+                535,
+                187.02
+              ]
+            }
+          ]
+        },
+        {
+          "quote": "the participants in the division of labor condition reported significantly lower levels of psychological richness",
+          "sentenceIds": [
+            "c08-s04-p083-06405-s006"
+          ],
+          "sources": [
+            {
+              "pdfPage": 84,
+              "block": 0,
+              "bbox": [
+                76.99,
+                75,
+                535,
+                187.02
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "monotonous",
+          "meaning": "单调的；缺少变化的",
+          "context": "与 more boring、less interesting 并列描述分工任务的体验",
+          "example": "Repeating the same step soon became monotonous.",
+          "collocations": [
+            "a monotonous task",
+            "boring and monotonous"
+          ]
+        }
+      ],
+      "translation": "当被问及任务时，两种条件下的参与者报告了相似程度的意义感。然而，分工条件的参与者报告的心理丰富性显著低于独立完成整个生产过程的参与者。也就是说，分工使任务更无聊、更单调、更缺乏趣味。独自组装完整摩托车并不高效。",
+      "support": "explicit",
+      "editorialStatus": "PDF 第 81–85 页逐题原页核对；固定原句与来源；保留理论推测、调查相关、自报、团队分组、假想工作预测及行为指标的边界；原文连续无重复",
+      "fingerprint": "d0872c37b2c534ad727c78ef1e63c6c61e82fb45796d5755d336d71004840658"
+    },
+    {
+      "id": "qe-c08-0041",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-030",
+      "parentQuestionId": "q-c08-031",
+      "chapterId": "c08",
+      "sectionId": "c08-s04",
+      "paragraphId": "c08-s04-p083-06405",
+      "readingUnitId": "c08-s04-p083-06405-r005-008",
+      "sentenceIds": [
+        "c08-s04-p083-06405-s005",
+        "c08-s04-p083-06405-s006",
+        "c08-s04-p083-06405-s007",
+        "c08-s04-p083-06405-s008"
+      ],
+      "passage": "Participants in both conditions reported similar levels of meaningfulness when asked about the task. However, the participants in the division of labor condition reported significantly lower levels of psychological richness than those in the whole production condition. That is, the division of labor made the task more boring, monotonous, and less interesting. Assembling a whole motorcycle by yourself was not efficient.",
+      "prompt": "What does 'That is' restate in the boredom sentence?",
+      "promptZh": "无聊句中的 That is 重述什么？",
+      "options": [
+        "That the two conditions had no difference in any outcome.",
+        "That division of labour necessarily destroyed all happiness.",
+        "That assembling a whole motorcycle was less interesting.",
+        "The lower richness of divided work as greater boredom,monotony,and reduced interest in this task."
+      ],
+      "optionsZh": [
+        "两条件在任何结果都无差异。",
+        "分工必然摧毁全部幸福。",
+        "组装整车更没趣。",
+        "将本任务分工的较低丰富性重述为更无聊、单调、兴趣较少。"
+      ],
+      "answer": 3,
+      "type": "同义改写",
+      "support": "explicit",
+      "analyses": [
+        "A However前后已区分意义相似与丰富不同。",
+        "B 当前比较不支持幸福全毁。",
+        "C 较低丰富的是division条件，非whole。",
+        "D That is解释前句较低psychological richness，不是突然增加新样本或全行业定律。"
+      ],
+      "vocabulary": [
+        {
+          "word": "monotonous",
+          "meaning": "单调的；反复相似而缺变化的",
+          "context": "与boring,less interesting并列描述本任务体验，不等同毫无生产效率。",
+          "example": "The repeated task became monotonous after several rounds.",
+          "collocations": [
+            "boring and monotonous",
+            "less interesting work"
+          ]
+        }
+      ],
+      "translation": "当被问及任务时，两种条件下的参与者报告了相似程度的意义感。然而，分工条件的参与者报告的心理丰富性显著低于独立完成整个生产过程的参与者。也就是说，分工使任务更无聊、更单调、更缺乏趣味。独自组装完整摩托车并不高效。",
+      "evidenceTargetIds": [
+        "c08-s04-p083-06405-s007"
+      ],
+      "evidence": [
+        {
+          "quote": "Participants in both conditions reported similar levels of meaningfulness when asked about the task. However, the participants in the division of labor condition reported significantly lower levels of psychological richness than those in the whole production condition. That is, the division of labor made the task more boring, monotonous, and less interesting. Assembling a whole motorcycle by yourself was not efficient.",
+          "sentenceIds": [
+            "c08-s04-p083-06405-s005",
+            "c08-s04-p083-06405-s006",
+            "c08-s04-p083-06405-s007",
+            "c08-s04-p083-06405-s008"
+          ],
+          "sources": [
+            {
+              "pdfPage": 83,
+              "block": 2,
+              "bbox": [
+                76.99,
+                640.5,
+                535.01,
+                713.52
+              ]
+            },
+            {
+              "pdfPage": 84,
+              "block": 0,
+              "bbox": [
+                76.99,
+                75,
+                535,
+                187.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "2042bcdb19f91c03136f14b6ae75608b897c46fdd9a7d13b32a454eb26f4bf69"
+    },
+    {
+      "id": "qe-c08-0042",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-030",
+      "parentQuestionId": "q-c08-031",
+      "chapterId": "c08",
+      "sectionId": "c08-s04",
+      "paragraphId": "c08-s04-p083-06405",
+      "readingUnitId": "c08-s04-p083-06405-r005-008",
+      "sentenceIds": [
+        "c08-s04-p083-06405-s005",
+        "c08-s04-p083-06405-s006",
+        "c08-s04-p083-06405-s007",
+        "c08-s04-p083-06405-s008"
+      ],
+      "passage": "Participants in both conditions reported similar levels of meaningfulness when asked about the task. However, the participants in the division of labor condition reported significantly lower levels of psychological richness than those in the whole production condition. That is, the division of labor made the task more boring, monotonous, and less interesting. Assembling a whole motorcycle by yourself was not efficient.",
+      "prompt": "Which aspect is criticised by 'assembling a whole motorcycle ... was not efficient'?",
+      "promptZh": "独自组装整车was not efficient批评的是哪个方面？",
+      "options": [
+        "Efficiency of production, rather than automatically every psychological dimension.",
+        "The worker's moral character in every part of life.",
+        "A proven absence of any interest in complete assembly.",
+        "The truth of every earlier subjective response."
+      ],
+      "optionsZh": [
+        "生产效率，而不自动涉及所有心理维度。",
+        "工人所有生活层面的道德。",
+        "已证明整车组装毫无兴趣。",
+        "此前所有主观回应的真实性。"
+      ],
+      "answer": 0,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A efficient限定任务效率，可与另一条件更丰富并存。",
+        "B 无道德评判。",
+        "C 前文whole条件更丰富，不支持必无兴趣。",
+        "D 效率不高不表示回应全假，也不擅扩为任何完整工作必无效率。"
+      ],
+      "vocabulary": [
+        {
+          "word": "efficient",
+          "meaning": "高效的；以较少时间或投入取得较多产出的",
+          "context": "此处谈组装效率，不是生活价值或全部心理体验。",
+          "example": "The faster method was efficient but less varied.",
+          "collocations": [
+            "not efficient",
+            "whole motorcycle assembly"
+          ]
+        }
+      ],
+      "translation": "当被问及任务时，两种条件下的参与者报告了相似程度的意义感。然而，分工条件的参与者报告的心理丰富性显著低于独立完成整个生产过程的参与者。也就是说，分工使任务更无聊、更单调、更缺乏趣味。独自组装完整摩托车并不高效。",
+      "evidenceTargetIds": [
+        "c08-s04-p083-06405-s008"
+      ],
+      "evidence": [
+        {
+          "quote": "Participants in both conditions reported similar levels of meaningfulness when asked about the task. However, the participants in the division of labor condition reported significantly lower levels of psychological richness than those in the whole production condition. That is, the division of labor made the task more boring, monotonous, and less interesting. Assembling a whole motorcycle by yourself was not efficient.",
+          "sentenceIds": [
+            "c08-s04-p083-06405-s005",
+            "c08-s04-p083-06405-s006",
+            "c08-s04-p083-06405-s007",
+            "c08-s04-p083-06405-s008"
+          ],
+          "sources": [
+            {
+              "pdfPage": 83,
+              "block": 2,
+              "bbox": [
+                76.99,
+                640.5,
+                535.01,
+                713.52
+              ]
+            },
+            {
+              "pdfPage": 84,
+              "block": 0,
+              "bbox": [
+                76.99,
+                75,
+                535,
+                187.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "e7b8e02f8fa3e7d3a0577c0b6c478c42c9718c63280095780c7de5798a02f4ab"
+    },
+    {
+      "id": "q-c08-032",
+      "version": 1,
+      "readingUnitId": "c08-s04-p083-06405-r009-010",
+      "chapterId": "c08",
+      "sectionId": "c08-s04",
+      "paragraphId": "c08-s04-p083-06405",
+      "sentenceIds": [
+        "c08-s04-p083-06405-s009",
+        "c08-s04-p083-06405-s010"
+      ],
+      "passage": "Indeed, it was quite the opposite. Even so, it was a far more interesting experience.",
+      "prompt": "What does “Even so” signal between the two statements?",
+      "options": [
+        "The later statement corrects the earlier statement as false.",
+        "The later statement gives the cause of the earlier one.",
+        "The later statement repeats the earlier one without a contrast.",
+        "The positive assessment remains despite the preceding negative assessment."
+      ],
+      "answer": 3,
+      "type": "逻辑关系",
+      "promptZh": "这两个陈述之间的 Even so 表示什么？",
+      "optionsZh": [
+        "后句纠正前句，认定前句错误。",
+        "后句给出前句的原因。",
+        "后句没有对比地重复前句。",
+        "尽管先前有负面评价，后面的正面评价仍成立。"
+      ],
+      "analyses": [
+        "A Even so 是让步，不是撤销上一判断。",
+        "B 不表示 because 式因果。",
+        "C quite the opposite 后仍说 far more interesting，转折让步明显。",
+        "D 即便如此，体验仍有趣，保留两项判断并存。本短段的 it、the opposite 承接前文；只凭这里不能新增精确产量、条件分配或长期工作结论。"
+      ],
+      "evidence": [
+        {
+          "quote": "Even so, it was a far more interesting experience.",
+          "sentenceIds": [
+            "c08-s04-p083-06405-s010"
+          ],
+          "sources": [
+            {
+              "pdfPage": 84,
+              "block": 0,
+              "bbox": [
+                76.99,
+                75,
+                535,
+                187.02
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "Even so",
+          "meaning": "即便如此；尽管这样",
+          "context": "承认前面的不利评价，同时保留“更有趣”的评价",
+          "example": "The route was slow. Even so, we enjoyed the journey.",
+          "collocations": [
+            "even so, it was",
+            "even so, the experience"
+          ]
+        }
+      ],
+      "translation": "事实上，情况恰好相反。即便如此，这仍是一次有趣得多的体验。",
+      "support": "explicit",
+      "editorialStatus": "PDF 第 81–85 页逐题原页核对；固定原句与来源；保留理论推测、调查相关、自报、团队分组、假想工作预测及行为指标的边界；原文连续无重复",
+      "fingerprint": "bd65c66bedcb1edd955261790908e343fc79defbca32e7f37d94fc150d2f1e9e"
+    },
+    {
+      "id": "qe-c08-0043",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-030",
+      "parentQuestionId": "q-c08-032",
+      "chapterId": "c08",
+      "sectionId": "c08-s04",
+      "paragraphId": "c08-s04-p083-06405",
+      "readingUnitId": "c08-s04-p083-06405-r009-010",
+      "sentenceIds": [
+        "c08-s04-p083-06405-s009",
+        "c08-s04-p083-06405-s010"
+      ],
+      "passage": "Indeed, it was quite the opposite. Even so, it was a far more interesting experience.",
+      "prompt": "What does 'quite the opposite' signal in this brief excerpt?",
+      "promptZh": "这个短片段里 quite the opposite 表示什么？",
+      "options": [
+        "Exact sameness with the preceding description.",
+        "A strong reversal of the previously mentioned quality.",
+        "A measured equality of happiness and meaning.",
+        "A change of the number of research participants."
+      ],
+      "optionsZh": [
+        "与前述描述完全相同。",
+        "对前面所提性质作强烈反向强调。",
+        "对幸福意义测得完全相等。",
+        "改变研究参与者人数。"
+      ],
+      "answer": 1,
+      "type": "语境词义",
+      "support": "explicit",
+      "analyses": [
+        "A opposite不是same。",
+        "B quite加强opposite，Indeed也强调；本短段未重述完整比较轴，当前题只问反向表达，不凭此独立补出未显示数字或属性。",
+        "C 无相等数据。",
+        "D 不涉及人数；Even so后继续让步，并非取消反向含义。"
+      ],
+      "vocabulary": [
+        {
+          "word": "quite the opposite",
+          "meaning": "恰恰相反；完全是反面情形",
+          "context": "需承接前文具体比较，不能在短句没有提供时自行编造比较对象。",
+          "example": "It was not easier; quite the opposite.",
+          "collocations": [
+            "Indeed, quite the opposite",
+            "Even so"
+          ]
+        }
+      ],
+      "translation": "事实上，情况恰好相反。即便如此，这仍是一次有趣得多的体验。",
+      "evidenceTargetIds": [
+        "c08-s04-p083-06405-s009"
+      ],
+      "evidence": [
+        {
+          "quote": "Indeed, it was quite the opposite. Even so, it was a far more interesting experience.",
+          "sentenceIds": [
+            "c08-s04-p083-06405-s009",
+            "c08-s04-p083-06405-s010"
+          ],
+          "sources": [
+            {
+              "pdfPage": 84,
+              "block": 0,
+              "bbox": [
+                76.99,
+                75,
+                535,
+                187.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "fd3a368bf36bb3c15a8b01d4927fe1f03672bbcdb685905df0350f0eb53b7d2e"
+    },
+    {
+      "id": "q-c08-033",
+      "version": 1,
+      "readingUnitId": "c08-s05-p084-02430-r001-003",
+      "chapterId": "c08",
+      "sectionId": "c08-s05",
+      "paragraphId": "c08-s05-p084-02430",
+      "sentenceIds": [
+        "c08-s05-p084-02430-s001",
+        "c08-s05-p084-02430-s002",
+        "c08-s05-p084-02430-s003"
+      ],
+      "passage": "Imagine working at a consulting firm and being placed on a big collaborative project with many others. Within this team, imagine specializing in one area and repeating similar tasks every day. What would it be like to have a job like this?",
+      "prompt": "What work pattern is imagined in the first consulting scenario?",
+      "options": [
+        "A lone generalist completing many unrelated projects.",
+        "A team whose members exchange specialties every day.",
+        "A member of a large collaborative project repeating tasks in one specialty.",
+        "An experienced consultant reporting what actually happened at work."
+      ],
+      "answer": 2,
+      "type": "细节",
+      "promptZh": "第一个咨询情境设想了什么工作模式？",
+      "optionsZh": [
+        "独自做许多不相干项目的通才。",
+        "每天互换专业的团队。",
+        "大合作项目中的一员，在同一专业内重复任务。",
+        "有经验的顾问报告实际工作经历。"
+      ],
+      "analyses": [
+        "A 原文是 with many others，且只给一个大项目。",
+        "B specializing in one area 不等于每天换专业。",
+        "C big collaborative project、one area、repeating similar tasks 三点均对应。",
+        "D Imagine 明确为设想，不是实际职业调查。题目只要求识别情境，不能把情境本身当作已观察到的结果。"
+      ],
+      "evidence": [
+        {
+          "quote": "specializing in one area and repeating similar tasks every day.",
+          "sentenceIds": [
+            "c08-s05-p084-02430-s002"
+          ],
+          "sources": [
+            {
+              "pdfPage": 84,
+              "block": 2,
+              "bbox": [
+                76.99,
+                243,
+                535,
+                316.02
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "collaborative",
+          "meaning": "合作的；协作的",
+          "context": "说明项目由多人共同参与，与独立工作的另一情境形成对照",
+          "example": "The students completed a collaborative project on local history.",
+          "collocations": [
+            "a collaborative project",
+            "collaborative work"
+          ]
+        }
+      ],
+      "translation": "想象你在一家咨询公司工作，被安排与许多人一起参与一个大型合作项目。在这个团队里，想象你专攻一个领域，每天重复类似任务。这样的工作会是什么感受？",
+      "support": "explicit",
+      "editorialStatus": "PDF 第 81–85 页逐题原页核对；固定原句与来源；保留理论推测、调查相关、自报、团队分组、假想工作预测及行为指标的边界；原文连续无重复",
+      "fingerprint": "cd79f2b952957ae8780e68a725896a706e0e5307ea300fe16a81f7fe1c1abf5f"
+    },
+    {
+      "id": "qe-c08-0044",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-030",
+      "parentQuestionId": "q-c08-033",
+      "chapterId": "c08",
+      "sectionId": "c08-s05",
+      "paragraphId": "c08-s05-p084-02430",
+      "readingUnitId": "c08-s05-p084-02430-r001-003",
+      "sentenceIds": [
+        "c08-s05-p084-02430-s001",
+        "c08-s05-p084-02430-s002",
+        "c08-s05-p084-02430-s003"
+      ],
+      "passage": "Imagine working at a consulting firm and being placed on a big collaborative project with many others. Within this team, imagine specializing in one area and repeating similar tasks every day. What would it be like to have a job like this?",
+      "prompt": "What is the status of the consulting-firm opening?",
+      "promptZh": "咨询公司开头的情境属于什么？",
+      "options": [
+        "An instruction for the reader to accept an actual job.",
+        "A report that every consulting firm has the same job structure.",
+        "A newly measured career history of the reader.",
+        "An imagined collaborative setting used to consider a specialised job."
+      ],
+      "optionsZh": [
+        "要求读者接受一份实际工作的指令。",
+        "报告每家咨询公司岗位都相同。",
+        "刚测得读者职业史。",
+        "用于思考专才工作的假想合作场景。"
+      ],
+      "answer": 3,
+      "type": "观点归属",
+      "support": "explicit",
+      "analyses": [
+        "A Imagine为设想，不是执行就业行动。",
+        "B 单一场景不能覆盖每家机构。",
+        "C 非用户真实资料。",
+        "D large collaborative project及specialising,repeating tasks界定此设定，尚不是参与者已实际任职的生活。"
+      ],
+      "vocabulary": [
+        {
+          "word": "collaborative project",
+          "meaning": "合作项目；与多人协作承担的工作",
+          "context": "当前是设想情境，不是对读者分配真实任务。",
+          "example": "The course includes a collaborative project with several roles.",
+          "collocations": [
+            "a big collaborative project",
+            "specializing in one area"
+          ]
+        }
+      ],
+      "translation": "想象你在一家咨询公司工作，被安排与许多人一起参与一个大型合作项目。在这个团队里，想象你专攻一个领域，每天重复类似任务。这样的工作会是什么感受？",
+      "evidenceTargetIds": [
+        "c08-s05-p084-02430-s001"
+      ],
+      "evidence": [
+        {
+          "quote": "Imagine working at a consulting firm and being placed on a big collaborative project with many others. Within this team, imagine specializing in one area and repeating similar tasks every day. What would it be like to have a job like this?",
+          "sentenceIds": [
+            "c08-s05-p084-02430-s001",
+            "c08-s05-p084-02430-s002",
+            "c08-s05-p084-02430-s003"
+          ],
+          "sources": [
+            {
+              "pdfPage": 84,
+              "block": 2,
+              "bbox": [
+                76.99,
+                243,
+                535,
+                316.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "6cb67ff5beb420a7c7600f7b18bc0f87176702502e774c39a090e89fb411d760"
+    },
+    {
+      "id": "qe-c08-0045",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-030",
+      "parentQuestionId": "q-c08-033",
+      "chapterId": "c08",
+      "sectionId": "c08-s05",
+      "paragraphId": "c08-s05-p084-02430",
+      "readingUnitId": "c08-s05-p084-02430-r001-003",
+      "sentenceIds": [
+        "c08-s05-p084-02430-s001",
+        "c08-s05-p084-02430-s002",
+        "c08-s05-p084-02430-s003"
+      ],
+      "passage": "Imagine working at a consulting firm and being placed on a big collaborative project with many others. Within this team, imagine specializing in one area and repeating similar tasks every day. What would it be like to have a job like this?",
+      "prompt": "What does the question about a job 'like this' invite in the first scenario?",
+      "promptZh": "第一个情境中，关于这样的工作会怎样的问句引导什么？",
+      "options": [
+        "Prediction of what experiencing a narrow,repetitive role might feel like.",
+        "A count of actual clients in every consulting office.",
+        "A conclusion that the reader has already completed the imagined job.",
+        "Proof that repeated tasks always improve every life dimension."
+      ],
+      "optionsZh": [
+        "预想体验狭窄、重复职责可能有何感受。",
+        "计算每个咨询办公室实际客户数。",
+        "认定读者已完成这项假想工作。",
+        "证明重复任务总提升一切生活维度。"
+      ],
+      "answer": 0,
+      "type": "作者意图",
+      "support": "explicit",
+      "analyses": [
+        "A 当前前两句设合作大项目中单领域重复任务，问体验而非直接给实测结论。",
+        "B 没客户计数。",
+        "C 想象邀请不是已完成职业记录。",
+        "D 问句不能当作预先证明所有益处。"
+      ],
+      "vocabulary": [
+        {
+          "word": "repeating similar tasks",
+          "meaning": "重复类似任务",
+          "context": "定义专门化岗位的假想体验，不意味着所做每次动作物理上完全一样。",
+          "example": "The role involved repeating similar tasks throughout the day.",
+          "collocations": [
+            "repeating similar tasks every day",
+            "a specialised role"
+          ]
+        }
+      ],
+      "translation": "想象你在一家咨询公司工作，被安排与许多人一起参与一个大型合作项目。在这个团队里，想象你专攻一个领域，每天重复类似任务。这样的工作会是什么感受？",
+      "evidenceTargetIds": [
+        "c08-s05-p084-02430-s003"
+      ],
+      "evidence": [
+        {
+          "quote": "Imagine working at a consulting firm and being placed on a big collaborative project with many others. Within this team, imagine specializing in one area and repeating similar tasks every day. What would it be like to have a job like this?",
+          "sentenceIds": [
+            "c08-s05-p084-02430-s001",
+            "c08-s05-p084-02430-s002",
+            "c08-s05-p084-02430-s003"
+          ],
+          "sources": [
+            {
+              "pdfPage": 84,
+              "block": 2,
+              "bbox": [
+                76.99,
+                243,
+                535,
+                316.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "0f8c5187446d15b276ad1542c03c3f6033b7f19c8126874dfa7cebe4d3f3e003"
+    },
+    {
+      "id": "q-c08-034",
+      "version": 1,
+      "readingUnitId": "c08-s05-p084-03210-r001-004",
+      "chapterId": "c08",
+      "sectionId": "c08-s05",
+      "paragraphId": "c08-s05-p084-03210",
+      "sentenceIds": [
+        "c08-s05-p084-03210-s001",
+        "c08-s05-p084-03210-s002",
+        "c08-s05-p084-03210-s003",
+        "c08-s05-p084-03210-s004"
+      ],
+      "passage": "Now imagine working in a consulting firm where you work independently. You are assigned to a big project that demands various tasks. Working independently, you have to be a generalist, doing many different tasks by yourself. What would it be like to have a job like this?",
+      "prompt": "What does “generalist” mean in the independent consulting scenario?",
+      "options": [
+        "A person doing many different tasks rather than one specialized part.",
+        "A person managing others while doing none of the project’s tasks.",
+        "A person repeating a single specialty as part of a large team.",
+        "A person who has already proved happier in a real consulting job."
+      ],
+      "answer": 0,
+      "type": "语境词义",
+      "promptZh": "在独立咨询情境中，generalist 是什么意思？",
+      "optionsZh": [
+        "承担多种不同任务，而非只做一个专业环节的人。",
+        "管理别人但不做项目任务的人。",
+        "在大团队中重复某一专业任务的人。",
+        "已在真实咨询工作中被证明更快乐的人。"
+      ],
+      "analyses": [
+        "A 后置 doing many different tasks by yourself 直接解释 generalist。",
+        "B 自己完成多种任务，不是只管理不做。",
+        "C 将上一情境的 specialist 放到当前情境。",
+        "D 当前只有 Imagine，既没有真实从业测量，也未给幸福结果。词义题优先利用同句解释，不凭日常对职位的印象判断。"
+      ],
+      "evidence": [
+        {
+          "quote": "you have to be a generalist, doing many different tasks by yourself.",
+          "sentenceIds": [
+            "c08-s05-p084-03210-s003"
+          ],
+          "sources": [
+            {
+              "pdfPage": 84,
+              "block": 3,
+              "bbox": [
+                76.99,
+                321,
+                535,
+                394.02
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "generalist",
+          "meaning": "通才；承担多种任务的人",
+          "context": "在设想中独立处理一个大项目所需的不同任务，不等于事事精通",
+          "example": "As a generalist, she handled research, design and testing.",
+          "collocations": [
+            "be a generalist",
+            "a generalist role"
+          ]
+        }
+      ],
+      "translation": "现在想象你在一家咨询公司独立工作。你被分配到一个需要多种任务的大项目。独立工作时，你必须成为通才，自己完成许多不同任务。这样的工作会是什么感受？",
+      "support": "explicit",
+      "editorialStatus": "PDF 第 81–85 页逐题原页核对；固定原句与来源；保留理论推测、调查相关、自报、团队分组、假想工作预测及行为指标的边界；原文连续无重复",
+      "fingerprint": "947787158aa87c7bf96832014e6277c0460ecbf15fdf971fe54cc382aa4028e5"
+    },
+    {
+      "id": "qe-c08-0046",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-030",
+      "parentQuestionId": "q-c08-034",
+      "chapterId": "c08",
+      "sectionId": "c08-s05",
+      "paragraphId": "c08-s05-p084-03210",
+      "readingUnitId": "c08-s05-p084-03210-r001-004",
+      "sentenceIds": [
+        "c08-s05-p084-03210-s001",
+        "c08-s05-p084-03210-s002",
+        "c08-s05-p084-03210-s003",
+        "c08-s05-p084-03210-s004"
+      ],
+      "passage": "Now imagine working in a consulting firm where you work independently. You are assigned to a big project that demands various tasks. Working independently, you have to be a generalist, doing many different tasks by yourself. What would it be like to have a job like this?",
+      "prompt": "What change does 'Now imagine ... work independently' introduce?",
+      "promptZh": "Now imagine...work independently引入什么变化？",
+      "options": [
+        "A switch from consulting to a different country by train.",
+        "A guarantee that independent work has no demands.",
+        "A contrasting scenario in which one person handles varied work independently.",
+        "A statement that all team members now perform the same narrow task."
+      ],
+      "optionsZh": [
+        "从咨询改乘火车去另一国家。",
+        "保证独立工作没有要求。",
+        "引入一个人独立承担多样工作的对照情境。",
+        "说全部团队成员改做同一狭窄任务。"
+      ],
+      "answer": 2,
+      "type": "篇章结构",
+      "support": "explicit",
+      "analyses": [
+        "A 仍是咨询公司，非旅行场景。",
+        "B demands various tasks说明有要求。",
+        "C Now与independently引入对照，后句generalist解释。",
+        "D 不是同一个狭窄专才情境的重复；也不证明哪个情境对每个人必定最好。"
+      ],
+      "vocabulary": [
+        {
+          "word": "independently",
+          "meaning": "独立地；自己完成所述工作",
+          "context": "在本情境指一个人处理多项任务，不等于没有项目或无需任何技能。",
+          "example": "She handled the varied project independently.",
+          "collocations": [
+            "work independently",
+            "a generalist role"
+          ]
+        }
+      ],
+      "translation": "现在想象你在一家咨询公司独立工作。你被分配到一个需要多种任务的大项目。独立工作时，你必须成为通才，自己完成许多不同任务。这样的工作会是什么感受？",
+      "evidenceTargetIds": [
+        "c08-s05-p084-03210-s001"
+      ],
+      "evidence": [
+        {
+          "quote": "Now imagine working in a consulting firm where you work independently. You are assigned to a big project that demands various tasks. Working independently, you have to be a generalist, doing many different tasks by yourself. What would it be like to have a job like this?",
+          "sentenceIds": [
+            "c08-s05-p084-03210-s001",
+            "c08-s05-p084-03210-s002",
+            "c08-s05-p084-03210-s003",
+            "c08-s05-p084-03210-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 84,
+              "block": 3,
+              "bbox": [
+                76.99,
+                321,
+                535,
+                394.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "81c58ceb5bb2f65d7dffa9c4080de585a35ae82eafab3fcfc06853bb5497488f"
+    },
+    {
+      "id": "qe-c08-0047",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-030",
+      "parentQuestionId": "q-c08-034",
+      "chapterId": "c08",
+      "sectionId": "c08-s05",
+      "paragraphId": "c08-s05-p084-03210",
+      "readingUnitId": "c08-s05-p084-03210-r001-004",
+      "sentenceIds": [
+        "c08-s05-p084-03210-s001",
+        "c08-s05-p084-03210-s002",
+        "c08-s05-p084-03210-s003",
+        "c08-s05-p084-03210-s004"
+      ],
+      "passage": "Now imagine working in a consulting firm where you work independently. You are assigned to a big project that demands various tasks. Working independently, you have to be a generalist, doing many different tasks by yourself. What would it be like to have a job like this?",
+      "prompt": "What does 'various tasks' imply for this independent project?",
+      "promptZh": "这个独立项目中的 various tasks 意味着什么？",
+      "options": [
+        "Every task is exactly the same repeated action.",
+        "Only one operation is assigned to the person.",
+        "The person has no work to do after joining the project.",
+        "The project requires more than one kind of task."
+      ],
+      "optionsZh": [
+        "每项任务都是完全相同动作。",
+        "只分给此人一道操作。",
+        "加入项目后无事可做。",
+        "项目需要不止一种类型任务。"
+      ],
+      "answer": 3,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A various与同一动作矛盾。",
+        "B 正区别只专一领域。",
+        "C demands不是没有工作。",
+        "D 后句many different tasks by yourself进一步解释多样范围，不擅加具体未列出的任务名称。"
+      ],
+      "vocabulary": [
+        {
+          "word": "various",
+          "meaning": "各种的；多样的",
+          "context": "强调任务种类多，不给具体数量或保证每项都新奇。",
+          "example": "The project required various kinds of preparation.",
+          "collocations": [
+            "demands various tasks",
+            "many different tasks"
+          ]
+        }
+      ],
+      "translation": "现在想象你在一家咨询公司独立工作。你被分配到一个需要多种任务的大项目。独立工作时，你必须成为通才，自己完成许多不同任务。这样的工作会是什么感受？",
+      "evidenceTargetIds": [
+        "c08-s05-p084-03210-s002"
+      ],
+      "evidence": [
+        {
+          "quote": "Now imagine working in a consulting firm where you work independently. You are assigned to a big project that demands various tasks. Working independently, you have to be a generalist, doing many different tasks by yourself. What would it be like to have a job like this?",
+          "sentenceIds": [
+            "c08-s05-p084-03210-s001",
+            "c08-s05-p084-03210-s002",
+            "c08-s05-p084-03210-s003",
+            "c08-s05-p084-03210-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 84,
+              "block": 3,
+              "bbox": [
+                76.99,
+                321,
+                535,
+                394.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "b05a8e8a5f73e56000ac0f0c767b0f8ca746333f01655c433dfb6647595e7414"
+    },
+    {
+      "id": "qe-c08-0048",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-030",
+      "parentQuestionId": "q-c08-034",
+      "chapterId": "c08",
+      "sectionId": "c08-s05",
+      "paragraphId": "c08-s05-p084-03210",
+      "readingUnitId": "c08-s05-p084-03210-r001-004",
+      "sentenceIds": [
+        "c08-s05-p084-03210-s001",
+        "c08-s05-p084-03210-s002",
+        "c08-s05-p084-03210-s003",
+        "c08-s05-p084-03210-s004"
+      ],
+      "passage": "Now imagine working in a consulting firm where you work independently. You are assigned to a big project that demands various tasks. Working independently, you have to be a generalist, doing many different tasks by yourself. What would it be like to have a job like this?",
+      "prompt": "What does 'like this' refer to in the independent-job question?",
+      "promptZh": "独立工作结尾问句中的 like this 回指什么？",
+      "options": [
+        "The earlier49-team corporate survey itself.",
+        "The imagined generalist job requiring many different tasks done by oneself.",
+        "A narrow role in which other people perform every different task.",
+        "The reader's actual past employment record."
+      ],
+      "optionsZh": [
+        "此前49团队企业调查本身。",
+        "需要自己做多种任务的假想通才工作。",
+        "所有其他任务都由别人做的狭窄职责。",
+        "读者真实既往就业记录。"
+      ],
+      "answer": 1,
+      "type": "指代与逻辑",
+      "support": "explicit",
+      "analyses": [
+        "A 当前短段已经设咨询工作，不回指公司调查本身。",
+        "B 最近几句independently,generalist,many different tasks是this的先行内容。",
+        "C 把通才独做换成专才分工。",
+        "D Imagine并非真实履历；问题询问预想体验，不能虚构已答结果。"
+      ],
+      "vocabulary": [
+        {
+          "word": "generalist",
+          "meaning": "通才；处理多个领域或多种任务的人",
+          "context": "与只专攻一环的specialist对照，不等于每个领域都已达最高专家水平。",
+          "example": "A generalist may handle several stages of a small project.",
+          "collocations": [
+            "have to be a generalist",
+            "generalist job"
+          ]
+        }
+      ],
+      "translation": "现在想象你在一家咨询公司独立工作。你被分配到一个需要多种任务的大项目。独立工作时，你必须成为通才，自己完成许多不同任务。这样的工作会是什么感受？",
+      "evidenceTargetIds": [
+        "c08-s05-p084-03210-s004"
+      ],
+      "evidence": [
+        {
+          "quote": "Now imagine working in a consulting firm where you work independently. You are assigned to a big project that demands various tasks. Working independently, you have to be a generalist, doing many different tasks by yourself. What would it be like to have a job like this?",
+          "sentenceIds": [
+            "c08-s05-p084-03210-s001",
+            "c08-s05-p084-03210-s002",
+            "c08-s05-p084-03210-s003",
+            "c08-s05-p084-03210-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 84,
+              "block": 3,
+              "bbox": [
+                76.99,
+                321,
+                535,
+                394.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "241ba047dc9d5bfd708ec789ea5a0f288e30b749abfbfb1ded4542aeed2cfd91"
+    },
+    {
+      "id": "q-c08-035",
+      "version": 1,
+      "readingUnitId": "c08-s05-p084-03990-r001-004",
+      "chapterId": "c08",
+      "sectionId": "c08-s05",
+      "paragraphId": "c08-s05-p084-03990",
+      "sentenceIds": [
+        "c08-s05-p084-03990-s001",
+        "c08-s05-p084-03990-s002",
+        "c08-s05-p084-03990-s003",
+        "c08-s05-p084-03990-s004"
+      ],
+      "passage": "In a study to test this, we asked half of a sample of UVA students to imagine the first scenario, and the other half to imagine the second scenario. To our surprise, the students expected that they would be happier in the specialized job on a collaborative project than in the generalist job on an independent project. They predicted similar levels of meaning. But most importantly, the students thought that their life would be psychologically richer in the generalist job than in the specialist job.",
+      "prompt": "Which pattern did the UVA students predict across the two imagined jobs?",
+      "options": [
+        "Greater happiness and richness in the specialist job, with similar meaning.",
+        "Greater happiness in the specialist job, similar meaning, and greater richness in the generalist job.",
+        "Greater happiness and meaning in the generalist job, with similar richness.",
+        "Identical happiness, meaning and richness in both jobs."
+      ],
+      "answer": 1,
+      "type": "细节",
+      "promptZh": "UVA 学生对两种假想工作的预测呈现什么模式？",
+      "optionsZh": [
+        "专才工作更幸福且更丰富，意义相似。",
+        "专才工作更幸福，意义相似，通才工作更丰富。",
+        "通才工作更幸福且更有意义，丰富性相似。",
+        "两种工作的幸福、意义和丰富性完全相同。"
+      ],
+      "analyses": [
+        "A rich 的方向错配，原文将较丰富归于 generalist。",
+        "B happier...specialized、similar meaning、richer...generalist 三项逐一对应。",
+        "C 幸福方向相反，意义也并非通才更高。",
+        "D 三项并不全相同；similar meaning 不能扩为所有指标完全相等。expected、predicted、thought 都是想象预测，并非真实任职后的长期体验。"
+      ],
+      "evidence": [
+        {
+          "quote": "happier in the specialized job on a collaborative project",
+          "sentenceIds": [
+            "c08-s05-p084-03990-s002"
+          ],
+          "sources": [
+            {
+              "pdfPage": 84,
+              "block": 4,
+              "bbox": [
+                76.99,
+                399,
+                535.01,
+                589.02
+              ]
+            }
+          ]
+        },
+        {
+          "quote": "They predicted similar levels of meaning.",
+          "sentenceIds": [
+            "c08-s05-p084-03990-s003"
+          ],
+          "sources": [
+            {
+              "pdfPage": 84,
+              "block": 4,
+              "bbox": [
+                76.99,
+                399,
+                535.01,
+                589.02
+              ]
+            }
+          ]
+        },
+        {
+          "quote": "psychologically richer in the generalist job than in the specialist job.",
+          "sentenceIds": [
+            "c08-s05-p084-03990-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 84,
+              "block": 4,
+              "bbox": [
+                76.99,
+                399,
+                535.01,
+                589.02
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "predicted",
+          "meaning": "预测；预期",
+          "context": "学生想象未来感受，未实际从事这两种工作后再评价",
+          "example": "The students predicted that the varied task would be engaging.",
+          "collocations": [
+            "predict similar levels",
+            "predict how one would feel"
+          ]
+        }
+      ],
+      "translation": "为检验这一点，我们让一组 UVA 学生样本中的一半想象第一个情境，另一半想象第二个情境。令我们意外的是，学生预期，在合作项目中担任专才会比在独立项目中担任通才更幸福。他们预测两者意义感相似。但最重要的是，学生认为，在通才工作中的生活会比在专才工作中更有心理丰富性。",
+      "support": "explicit",
+      "editorialStatus": "PDF 第 81–85 页逐题原页核对；固定原句与来源；保留理论推测、调查相关、自报、团队分组、假想工作预测及行为指标的边界；原文连续无重复",
+      "fingerprint": "b82c20ea8f6fcf43e55a1c0b7a1888892679d09050151c7e516c83fbaeecd0e1"
+    },
+    {
+      "id": "qe-c08-0049",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-030",
+      "parentQuestionId": "q-c08-035",
+      "chapterId": "c08",
+      "sectionId": "c08-s05",
+      "paragraphId": "c08-s05-p084-03990",
+      "readingUnitId": "c08-s05-p084-03990-r001-004",
+      "sentenceIds": [
+        "c08-s05-p084-03990-s001",
+        "c08-s05-p084-03990-s002",
+        "c08-s05-p084-03990-s003",
+        "c08-s05-p084-03990-s004"
+      ],
+      "passage": "In a study to test this, we asked half of a sample of UVA students to imagine the first scenario, and the other half to imagine the second scenario. To our surprise, the students expected that they would be happier in the specialized job on a collaborative project than in the generalist job on an independent project. They predicted similar levels of meaning. But most importantly, the students thought that their life would be psychologically richer in the generalist job than in the specialist job.",
+      "prompt": "What did the UVA student sample actually do in the scenario study?",
+      "promptZh": "UVA学生样本在情境研究中实际做了什么？",
+      "options": [
+        "Half imagined the first job scenario and the other half imagined the second.",
+        "All worked in both consulting jobs for several years.",
+        "All assembled motorcycles before becoming paid consultants.",
+        "Each was individually randomised to a permanent real-world career, as expressly stated."
+      ],
+      "optionsZh": [
+        "一半想象第一情境，另一半想象第二情境。",
+        "全体在两种咨询岗位各任职多年。",
+        "全体先组装摩托车后成为付费顾问。",
+        "原文明说逐人随机分到永久真实职业。"
+      ],
+      "answer": 0,
+      "type": "研究设计",
+      "support": "explicit",
+      "analyses": [
+        "A asked half...imagine,other half...imagine明确任务与分配范围。",
+        "B 想象非实际多年工作。",
+        "C 摩托车是另一实验，不能合并参与者经历。",
+        "D half未明说个人随机机制，更非永久职业；后面结果是预期感受，不是长期实职测量。"
+      ],
+      "vocabulary": [
+        {
+          "word": "a sample of",
+          "meaning": "一个……样本；所取的一组对象",
+          "context": "UVA学生样本不是全体成年人或所有咨询从业者，也未给此句总人数。",
+          "example": "The researchers asked a sample of students to compare two descriptions.",
+          "collocations": [
+            "half of a sample of UVA students",
+            "imagine the first scenario"
+          ]
+        }
+      ],
+      "translation": "为检验这一点，我们让一组 UVA 学生样本中的一半想象第一个情境，另一半想象第二个情境。令我们意外的是，学生预期，在合作项目中担任专才会比在独立项目中担任通才更幸福。他们预测两者意义感相似。但最重要的是，学生认为，在通才工作中的生活会比在专才工作中更有心理丰富性。",
+      "evidenceTargetIds": [
+        "c08-s05-p084-03990-s001"
+      ],
+      "evidence": [
+        {
+          "quote": "In a study to test this, we asked half of a sample of UVA students to imagine the first scenario, and the other half to imagine the second scenario. To our surprise, the students expected that they would be happier in the specialized job on a collaborative project than in the generalist job on an independent project. They predicted similar levels of meaning. But most importantly, the students thought that their life would be psychologically richer in the generalist job than in the specialist job.",
+          "sentenceIds": [
+            "c08-s05-p084-03990-s001",
+            "c08-s05-p084-03990-s002",
+            "c08-s05-p084-03990-s003",
+            "c08-s05-p084-03990-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 84,
+              "block": 4,
+              "bbox": [
+                76.99,
+                399,
+                535.01,
+                589.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "c331947b99f9b7d488b59f7fe3519fc7de3af611d8738904a856f40a0495ed4b"
+    },
+    {
+      "id": "q-c08-037",
+      "version": 1,
+      "readingUnitId": "c08-s05-p084-05940-r001-004",
+      "chapterId": "c08",
+      "sectionId": "c08-s05",
+      "paragraphId": "c08-s05-p084-05940",
+      "sentenceIds": [
+        "c08-s05-p084-05940-s001",
+        "c08-s05-p084-05940-s002",
+        "c08-s05-p084-05940-s003",
+        "c08-s05-p084-05940-s004"
+      ],
+      "passage": "Of course, participants’ predictions about an imagined life are not always correct. To account for this, we ran another experiment, this time measuring behavioral curiosity. We kept the experimental setup for this study the same as for the consulting scenario experiment. However, instead of asking them how they would feel when thinking about their lives working in a consulting firm, we asked participants to complete a trivia task.",
+      "prompt": "Why did the researchers introduce a trivia task in the next experiment?",
+      "options": [
+        "To verify that participants had actually worked as consultants.",
+        "To replace the consulting setup with a factory production line.",
+        "To add a behavioral curiosity measure because imagined-life predictions may be inaccurate.",
+        "To ask the same feelings questions without changing the outcome measure."
+      ],
+      "answer": 2,
+      "type": "逻辑关系",
+      "promptZh": "研究者为什么在下一实验中引入常识问答任务？",
+      "optionsZh": [
+        "核实参与者确实做过咨询顾问。",
+        "把咨询设定换成工厂流水线。",
+        "因为假想生活预测可能不准，改用行为好奇心指标。",
+        "不改变结果指标，只重问相同感受问题。"
+      ],
+      "analyses": [
+        "A 没有核实真实顾问工作经历。",
+        "B kept...setup...the same 保留咨询情境设定，不是改成工厂。",
+        "C predictions...not always correct 与 measuring behavioral curiosity 直接构成动机和方法。",
+        "D instead of asking...feel 说明更换测量，而非原样重问。行为指标可补充预测，但并不自动证明真实职业生活的长期结果。"
+      ],
+      "evidence": [
+        {
+          "quote": "participants’ predictions about an imagined life are not always correct.",
+          "sentenceIds": [
+            "c08-s05-p084-05940-s001"
+          ],
+          "sources": [
+            {
+              "pdfPage": 84,
+              "block": 5,
+              "bbox": [
+                76.99,
+                594,
+                535,
+                706.02
+              ]
+            }
+          ]
+        },
+        {
+          "quote": "this time measuring behavioral curiosity.",
+          "sentenceIds": [
+            "c08-s05-p084-05940-s002"
+          ],
+          "sources": [
+            {
+              "pdfPage": 84,
+              "block": 5,
+              "bbox": [
+                76.99,
+                594,
+                535,
+                706.02
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "account for",
+          "meaning": "考虑到；应对；把……纳入考量",
+          "context": "To account for this 指针对预测可能不准的问题作方法调整",
+          "example": "The researchers changed the measure to account for possible reporting errors.",
+          "collocations": [
+            "account for this limitation",
+            "account for prediction errors"
+          ]
+        }
+      ],
+      "translation": "当然，参与者对假想生活的预测并不总是正确。为应对这一点，我们又做了一项实验，这次测量行为上的好奇心。研究的实验设定仍与咨询情境实验相同。不过，我们不再询问他们在设想咨询公司工作生活时会有何感受，而是让参与者完成常识问答任务。",
+      "support": "explicit",
+      "editorialStatus": "PDF 第 81–85 页逐题原页核对；固定原句与来源；保留理论推测、调查相关、自报、团队分组、假想工作预测及行为指标的边界；原文连续无重复",
+      "fingerprint": "d71d39c21395ece7ce8a20a441534ab88c5e94cd4416946161cf3707cc4f0699"
+    },
+    {
+      "id": "qe-c08-0050",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-030",
+      "parentQuestionId": "q-c08-037",
+      "chapterId": "c08",
+      "sectionId": "c08-s05",
+      "paragraphId": "c08-s05-p084-05940",
+      "readingUnitId": "c08-s05-p084-05940-r001-004",
+      "sentenceIds": [
+        "c08-s05-p084-05940-s001",
+        "c08-s05-p084-05940-s002",
+        "c08-s05-p084-05940-s003",
+        "c08-s05-p084-05940-s004"
+      ],
+      "passage": "Of course, participants’ predictions about an imagined life are not always correct. To account for this, we ran another experiment, this time measuring behavioral curiosity. We kept the experimental setup for this study the same as for the consulting scenario experiment. However, instead of asking them how they would feel when thinking about their lives working in a consulting firm, we asked participants to complete a trivia task.",
+      "prompt": "What was kept the same in the later study, according to the excerpt?",
+      "promptZh": "据片段，后一研究保持什么相同？",
+      "options": [
+        "The participants' predicted feelings were required to be identical.",
+        "Every actual career outcome was held equal.",
+        "The experimental setup was retained from the consulting-scenario experiment.",
+        "The original imagined feelings remained the only measure used."
+      ],
+      "optionsZh": [
+        "参与者预期感受被要求相同。",
+        "所有实际职业结果保持相等。",
+        "保留咨询情境实验的实验设定。",
+        "原来的假想感受仍是唯一测量。"
+      ],
+      "answer": 2,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A 相同setup不保证回应相同。",
+        "B 没有实职人生结果操纵。",
+        "C kept...setup...same直接给保留项。",
+        "D 下句instead改为triviatask，不能说只有原感受测量；也不据same推定两研究必为同一批人。"
+      ],
+      "vocabulary": [
+        {
+          "word": "experimental setup",
+          "meaning": "实验设定；任务与条件的安排",
+          "context": "与结果数值或被试身份不同，setup相同不等于所有方面一模一样。",
+          "example": "The experimental setup remained similar while the final task changed.",
+          "collocations": [
+            "kept the experimental setup the same",
+            "consulting scenario experiment"
+          ]
+        }
+      ],
+      "translation": "当然，参与者对假想生活的预测并不总是正确。为应对这一点，我们又做了一项实验，这次测量行为上的好奇心。研究的实验设定仍与咨询情境实验相同。不过，我们不再询问他们在设想咨询公司工作生活时会有何感受，而是让参与者完成常识问答任务。",
+      "evidenceTargetIds": [
+        "c08-s05-p084-05940-s003"
+      ],
+      "evidence": [
+        {
+          "quote": "Of course, participants’ predictions about an imagined life are not always correct. To account for this, we ran another experiment, this time measuring behavioral curiosity. We kept the experimental setup for this study the same as for the consulting scenario experiment. However, instead of asking them how they would feel when thinking about their lives working in a consulting firm, we asked participants to complete a trivia task.",
+          "sentenceIds": [
+            "c08-s05-p084-05940-s001",
+            "c08-s05-p084-05940-s002",
+            "c08-s05-p084-05940-s003",
+            "c08-s05-p084-05940-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 84,
+              "block": 5,
+              "bbox": [
+                76.99,
+                594,
+                535,
+                706.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "888aead8be4666ce319fad93d11eaad38f2355987cd3a22826f70b3e2f6518cc"
+    },
+    {
+      "id": "qe-c08-0051",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-030",
+      "parentQuestionId": "q-c08-037",
+      "chapterId": "c08",
+      "sectionId": "c08-s05",
+      "paragraphId": "c08-s05-p084-05940",
+      "readingUnitId": "c08-s05-p084-05940-r001-004",
+      "sentenceIds": [
+        "c08-s05-p084-05940-s001",
+        "c08-s05-p084-05940-s002",
+        "c08-s05-p084-05940-s003",
+        "c08-s05-p084-05940-s004"
+      ],
+      "passage": "Of course, participants’ predictions about an imagined life are not always correct. To account for this, we ran another experiment, this time measuring behavioral curiosity. We kept the experimental setup for this study the same as for the consulting scenario experiment. However, instead of asking them how they would feel when thinking about their lives working in a consulting firm, we asked participants to complete a trivia task.",
+      "prompt": "What change does 'instead of asking them how they would feel' identify?",
+      "promptZh": "instead of asking them how they would feel指出什么改变？",
+      "options": [
+        "The participants were sent to work in real consulting firms.",
+        "The researchers stopped using any task or measure.",
+        "The study merely repeated the same imagined-feelings question without change.",
+        "Participants completed a trivia task rather than only forecasting feelings about the imagined job."
+      ],
+      "optionsZh": [
+        "参与者被派去真实咨询公司任职。",
+        "研究者停止使用任何任务测量。",
+        "研究只原样重复同一假想感受问题。",
+        "参与者做常识问答，而非只预测假想岗位感受。"
+      ],
+      "answer": 3,
+      "type": "逻辑关系",
+      "support": "explicit",
+      "analyses": [
+        "A 未派实际职业。",
+        "B trivia为新任务，不是无测量。",
+        "C instead of明确替换询问方式。",
+        "D 前文说测behavioral curiosity，下句用triviatask替代原感受预测；当前短段还未列具体好奇指标，不擅补未显示的操作步骤。"
+      ],
+      "vocabulary": [
+        {
+          "word": "trivia task",
+          "meaning": "常识问答任务；一般知识问题任务",
+          "context": "研究中改以行为任务测好奇，不是让参与者实际到公司任职；当前段落尚未展开具体测量步骤。",
+          "example": "They completed a short trivia task after reading the description.",
+          "collocations": [
+            "complete a trivia task",
+            "measuring behavioral curiosity"
+          ]
+        }
+      ],
+      "translation": "当然，参与者对假想生活的预测并不总是正确。为应对这一点，我们又做了一项实验，这次测量行为上的好奇心。研究的实验设定仍与咨询情境实验相同。不过，我们不再询问他们在设想咨询公司工作生活时会有何感受，而是让参与者完成常识问答任务。",
+      "evidenceTargetIds": [
+        "c08-s05-p084-05940-s004"
+      ],
+      "evidence": [
+        {
+          "quote": "Of course, participants’ predictions about an imagined life are not always correct. To account for this, we ran another experiment, this time measuring behavioral curiosity. We kept the experimental setup for this study the same as for the consulting scenario experiment. However, instead of asking them how they would feel when thinking about their lives working in a consulting firm, we asked participants to complete a trivia task.",
+          "sentenceIds": [
+            "c08-s05-p084-05940-s001",
+            "c08-s05-p084-05940-s002",
+            "c08-s05-p084-05940-s003",
+            "c08-s05-p084-05940-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 84,
+              "block": 5,
+              "bbox": [
+                76.99,
+                594,
+                535,
+                706.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "99d97167a7ab1096aa08103cf9ddf60792ec4af817db8a404a0eb8a54d17e04a"
+    },
+    {
+      "id": "q-c08-038",
+      "version": 1,
+      "readingUnitId": "c08-s05-p084-05940-r005-007",
+      "chapterId": "c08",
+      "sectionId": "c08-s05",
+      "paragraphId": "c08-s05-p084-05940",
+      "sentenceIds": [
+        "c08-s05-p084-05940-s005",
+        "c08-s05-p084-05940-s006",
+        "c08-s05-p084-05940-s007"
+      ],
+      "passage": "This task involved questions like: Who was the only U.S. president to also hold a patent for an invention? In this task, after a question was presented, there were two response options: a wait button and a skip button. If participants hit the skip button, then the answer was not shown and they moved on to the next question.",
+      "prompt": "What happened when participants selected the skip button?",
+      "options": [
+        "They moved to the next question without seeing the answer.",
+        "They saw the answer immediately and then moved on.",
+        "They waited before receiving the current answer.",
+        "They were returned to the consulting-scenario instructions."
+      ],
+      "answer": 0,
+      "type": "细节",
+      "promptZh": "参与者选择 skip 按钮时会发生什么？",
+      "optionsZh": [
+        "不看答案，直接进入下一题。",
+        "立即看到答案后再继续。",
+        "等待后得到当前答案。",
+        "回到咨询情境的说明。"
+      ],
+      "analyses": [
+        "A answer was not shown 与 moved on to the next question 都明确。",
+        "B 把没有展示改成立即展示。",
+        "C 将 wait 按钮的机制错安给 skip。",
+        "D 没有返回情境说明的步骤。本段所举总统问题是实验题例，不需要用外部知识回答本题。"
+      ],
+      "evidence": [
+        {
+          "quote": "If participants hit the skip button, then the answer was not shown and they moved on to the next question.",
+          "sentenceIds": [
+            "c08-s05-p084-05940-s007"
+          ],
+          "sources": [
+            {
+              "pdfPage": 85,
+              "block": 0,
+              "bbox": [
+                76.99,
+                75,
+                535,
+                265.02
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "skip",
+          "meaning": "跳过；略过",
+          "context": "任务按钮的作用是放弃查看当前答案，继续下一道",
+          "example": "You may skip a question and return to it later.",
+          "collocations": [
+            "hit the skip button",
+            "skip to the next question"
+          ]
+        }
+      ],
+      "translation": "任务包含这样的问题：哪位美国总统还持有一项发明专利？在这项任务中，每显示一道问题，就有两种回应选项：等待按钮和跳过按钮。如果参与者按跳过，答案不会显示，他们就进入下一题。",
+      "support": "explicit",
+      "editorialStatus": "PDF 第 81–85 页逐题原页核对；固定原句与来源；保留理论推测、调查相关、自报、团队分组、假想工作预测及行为指标的边界；原文连续无重复",
+      "fingerprint": "810d7f39e0ae839756991206d8946d32ca0acb595e6856c551054ae87a3af026"
+    },
+    {
+      "id": "qe-c08-0052",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-031",
+      "parentQuestionId": "q-c08-038",
+      "chapterId": "c08",
+      "sectionId": "c08-s05",
+      "paragraphId": "c08-s05-p084-05940",
+      "readingUnitId": "c08-s05-p084-05940-r005-007",
+      "sentenceIds": [
+        "c08-s05-p084-05940-s005",
+        "c08-s05-p084-05940-s006",
+        "c08-s05-p084-05940-s007"
+      ],
+      "passage": "This task involved questions like: Who was the only U.S. president to also hold a patent for an invention? In this task, after a question was presented, there were two response options: a wait button and a skip button. If participants hit the skip button, then the answer was not shown and they moved on to the next question.",
+      "prompt": "What does the president-and-patent question illustrate in this excerpt?",
+      "promptZh": "总统与发明专利的问题在片段中说明什么？",
+      "options": [
+        "A patent-law assessment of professional expertise.",
+        "A fact every participant was required to know before joining.",
+        "An example of the factual questions presented in the task.",
+        "A prompt assigning a specialist job according to whether the answer was correct."
+      ],
+      "optionsZh": [
+        "对专利法职业能力的测验。",
+        "每人参加前必须已知的事实。",
+        "任务呈现的事实常识问题例子。",
+        "根据答对与否分配专才工作的提示。"
+      ],
+      "answer": 2,
+      "type": "作者意图",
+      "support": "explicit",
+      "analyses": [
+        "A 片段不把题作为专利法职业能力评定。",
+        "B 参与者可选择等待答案，未要求事前已知所有事实。",
+        "C questions like 后直接给问题，展示该任务题目类型；此阅读题不要求猜原问题答案。",
+        "D 岗位想象条件不是按此题答对与否分派，不能倒置实验程序。"
+      ],
+      "vocabulary": [
+        {
+          "word": "a patent",
+          "meaning": "一项发明专利；保护发明的权利",
+          "context": "在hold a patent语境是名词，不是形容词明显的含义。",
+          "example": "The inventor held a patent for a small device.",
+          "collocations": [
+            "hold a patent for an invention",
+            "a trivia question"
+          ]
+        }
+      ],
+      "translation": "任务包含这样的问题：哪位美国总统还持有一项发明专利？在这项任务中，每显示一道问题，就有两种回应选项：等待按钮和跳过按钮。如果参与者按跳过，答案不会显示，他们就进入下一题。",
+      "evidenceTargetIds": [
+        "c08-s05-p084-05940-s005"
+      ],
+      "evidence": [
+        {
+          "quote": "This task involved questions like: Who was the only U.S. president to also hold a patent for an invention? In this task, after a question was presented, there were two response options: a wait button and a skip button. If participants hit the skip button, then the answer was not shown and they moved on to the next question.",
+          "sentenceIds": [
+            "c08-s05-p084-05940-s005",
+            "c08-s05-p084-05940-s006",
+            "c08-s05-p084-05940-s007"
+          ],
+          "sources": [
+            {
+              "pdfPage": 84,
+              "block": 5,
+              "bbox": [
+                76.99,
+                594,
+                535,
+                706.02
+              ]
+            },
+            {
+              "pdfPage": 85,
+              "block": 0,
+              "bbox": [
+                76.99,
+                75,
+                535,
+                265.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "442db9c3318d4548a2f93601dc14e232fa3e873bd192ba36e992b60e31feb413"
+    },
+    {
+      "id": "qe-c08-0053",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-031",
+      "parentQuestionId": "q-c08-038",
+      "chapterId": "c08",
+      "sectionId": "c08-s05",
+      "paragraphId": "c08-s05-p084-05940",
+      "readingUnitId": "c08-s05-p084-05940-r005-007",
+      "sentenceIds": [
+        "c08-s05-p084-05940-s005",
+        "c08-s05-p084-05940-s006",
+        "c08-s05-p084-05940-s007"
+      ],
+      "passage": "This task involved questions like: Who was the only U.S. president to also hold a patent for an invention? In this task, after a question was presented, there were two response options: a wait button and a skip button. If participants hit the skip button, then the answer was not shown and they moved on to the next question.",
+      "prompt": "Which responses were available after each trivia question appeared?",
+      "promptZh": "每个常识问题出现后，提供哪两种回应？",
+      "options": [
+        "Wait or skip.",
+        "Approve or reject a job offer.",
+        "Buy a service or buy a product.",
+        "Select a correct factual answer from four knowledge alternatives."
+      ],
+      "optionsZh": [
+        "等待或跳过。",
+        "接受或拒绝工作邀约。",
+        "买服务或买实物。",
+        "从四个事实答案中选择正确项。"
+      ],
+      "answer": 0,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A a wait button and a skip button为两项原文。",
+        "B 混入假想咨询岗位，不是当前按钮。",
+        "C 是后面省时消费研究，不可前移。",
+        "D 当前实验明示wait和skip，不是在此列出四个知识答案供选，不能把常见常识测验形式移入原文。"
+      ],
+      "vocabulary": [
+        {
+          "word": "response options",
+          "meaning": "回应选择；可采取的反应选项",
+          "context": "这里为wait/skip两种行为，不是必然包含常识答案文本。",
+          "example": "The task offered two response options after each item.",
+          "collocations": [
+            "two response options",
+            "a wait button and a skip button"
+          ]
+        }
+      ],
+      "translation": "任务包含这样的问题：哪位美国总统还持有一项发明专利？在这项任务中，每显示一道问题，就有两种回应选项：等待按钮和跳过按钮。如果参与者按跳过，答案不会显示，他们就进入下一题。",
+      "evidenceTargetIds": [
+        "c08-s05-p084-05940-s006"
+      ],
+      "evidence": [
+        {
+          "quote": "This task involved questions like: Who was the only U.S. president to also hold a patent for an invention? In this task, after a question was presented, there were two response options: a wait button and a skip button. If participants hit the skip button, then the answer was not shown and they moved on to the next question.",
+          "sentenceIds": [
+            "c08-s05-p084-05940-s005",
+            "c08-s05-p084-05940-s006",
+            "c08-s05-p084-05940-s007"
+          ],
+          "sources": [
+            {
+              "pdfPage": 84,
+              "block": 5,
+              "bbox": [
+                76.99,
+                594,
+                535,
+                706.02
+              ]
+            },
+            {
+              "pdfPage": 85,
+              "block": 0,
+              "bbox": [
+                76.99,
+                75,
+                535,
+                265.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "1924a638495448dfcada4ae335a0284a0fe3ed0e4fb783fe4bcf8b69d2fed18f"
+    }
+  ]
+}
