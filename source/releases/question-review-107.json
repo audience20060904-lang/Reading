@@ -1,0 +1,114 @@
+{
+  "schemaVersion": 1,
+  "id": "question-review-2026-10-28-107",
+  "status": "published-and-verified",
+  "verifiedAt": "2026-10-29T23:41:58.089Z",
+  "url": "https://audience20060904-lang.github.io/Reading/",
+  "sourceCommit": "2404958da85bd6a2595dbdacb523443a0219f1d7",
+  "deploymentCommit": "50e6a2edcfc91db27b4deb7348ba23fe123bbb15",
+  "offlineVersion": "9445993ed64e5ca3",
+  "previousBatch": "source/releases/question-review-106.json",
+  "questionFingerprints": {
+    "q-c11-055": "6ce08891499c828ee8816d2e290747fa8c73fcbd30e70fd6eee12600d0c973f3",
+    "q-c11-056": "cb39dcfdb931f647f0013b8233a0e73fa66fb328cddf5109aec0197f5209deac",
+    "qe-c11-0101": "209545ae8f3ff7feb34d8483cc4dbd0632d833b63e6905522b118337bdc581b5",
+    "qe-c11-0102": "07209309ead496f6a96dafca24f82c759a7e6cb6d59de2773b8234b42927e2f6",
+    "qe-c11-0103": "24afc21aef9055491887ba45a95cb83db068cc49f6755b992f82c20946472c94",
+    "q-c11-058": "c0d40983b0f56fbae72ffd3e5930134e583986903d86c83e597d983c71a18d53",
+    "qe-c11-0104": "c377693cee63879f43b61ea17e6274b8f9b69db86ea07d69e8384dabb7af0ac3",
+    "qe-c11-0106": "c37761b52baf97a01d2f2e4385ad65ced0289a3ad707d9c55206b988bfd87a90",
+    "qe-c11-0108": "15bb7c82d57be27f0d329afee381297178e53bc6f9459758908b15da1cff9105",
+    "q-c11-060": "bb2165eb72330e26f8b4e960360d07fc55eab5ba3445225c711adb585e2bbc58",
+    "qe-c11-0109": "aa2b6ed3ba502a371b93adb16898b5981d35948a24311c678dbddd91bd32a160",
+    "qe-c11-0110": "9313381ebd045bd871351b87f82e5211cbe70a343692d0c391930911daf8b73a",
+    "qe-c11-0111": "6419ac01d7dfadc2c27fbb453c43d08d5d10b36e9b4fbb95405ac306d2ce219f",
+    "q-c11-061": "d94abd3f639cb3303ed8ab204af86c5011733a6c2c0271c315dd869c1cc1aca5",
+    "qe-c11-0112": "32fcab093aa26d83d566c7038b2ed4731b4786c43c83c620d21f6e58ca2b2d5a",
+    "q-c11-063": "46d416ea11667e60a85d933262dfed47af70990552fdaa86065be6f5171f2518",
+    "qe-c11-0114": "8af73b7e309f03544715c3e970002b50b6c36d7b308fd5e3fabbe2128859c529",
+    "q-c11-064": "9ccf1de25b81ccf9ff568f238748a193235376ab843e6519e0e3f67a284672ae",
+    "qe-c11-0115": "1f19c4c2c4eea9d8ffefac693793d24b527f798bb82ee829e1277366e63952d9"
+  },
+  "content": {
+    "totalQuestions": 2709,
+    "manuallyReviewedQuestions": 24,
+    "reviewedSourceCandidates": 25,
+    "revisedQuestions": 19,
+    "totalRevisedQuestions": 1095,
+    "changedAnswerPositions": 0,
+    "remainingQuestionReviews": 571,
+    "fullQuestionBankHumanReview": false
+  },
+  "validation": {
+    "unitTestsPassed": 739,
+    "build": "npm run build:pages passed",
+    "pdf": {
+      "sha256": "be25c859f1bd894a4b0d1cff024ded1297f6a96a8e8ddabea1e3abcf89160a50",
+      "pagesVisuallyReviewed": [
+        130,
+        131,
+        132
+      ],
+      "sourceBlocksTextMatched": 7
+    },
+    "localBrowser": [
+      "全部缓存资产及Service Worker与本次生产构建逐字节匹配",
+      "提交前无证据标记；提交后精确标出依据且原文不变、淡蓝色查词仍可用",
+      "相近题型合并为一行并按提交次数计算50%正确率，原始标签和历史记录不变",
+      "逐题提交19道校对题，交替验证正误、四项译文与分析、整段译文及完整快照；提交前不显示中文解析",
+      "真实浏览器恢复旧选项、旧译文、旧错题成绩与用时；重练采用新版，新增记录且不改历史",
+      "390px和320px深色视口，选项、解析和整段译文均无横向溢出",
+      "旧未提交选择遇到改版时清空，新版位置保留；已提交解析正常刷新恢复",
+      "启动资源全部入离线清单，实际Service Worker缓存逐字节匹配；禁用HTTP缓存后继续离线验证",
+      "离线模拟恢复新旧两版成绩；本地另实际停止HTTP服务后缓存恢复新版题目与译文"
+    ],
+    "liveBrowser": [
+      "全部缓存资产及Service Worker与本次生产构建逐字节匹配",
+      "提交前无证据标记；提交后精确标出依据且原文不变、淡蓝色查词仍可用",
+      "相近题型合并为一行并按提交次数计算50%正确率，原始标签和历史记录不变",
+      "逐题提交19道校对题，交替验证正误、四项译文与分析、整段译文及完整快照；提交前不显示中文解析",
+      "真实浏览器恢复旧选项、旧译文、旧错题成绩与用时；重练采用新版，新增记录且不改历史",
+      "390px和320px深色视口，选项、解析和整段译文均无横向溢出",
+      "旧未提交选择遇到改版时清空，新版位置保留；已提交解析正常刷新恢复",
+      "启动资源全部入离线清单，实际Service Worker缓存逐字节匹配；禁用HTTP缓存后继续离线验证",
+      "离线模拟恢复新旧两版成绩；本地另实际停止HTTP服务后缓存恢复新版题目与译文"
+    ],
+    "liveRevisedQuestionsVisited": 19,
+    "assets": "All 13 manifest assets and the service worker byte-match the tested build.",
+    "history": "All 106 previous editorial batch fingerprints preserved. Source text, original question banks, reading plan, completed prior audit and submitted snapshots unchanged.",
+    "integrity": {
+      "passed": true,
+      "protectedBase": "48552be4956ee61a3f1b1a59a4ed1c4c67f67e03",
+      "protectedPaths": 73,
+      "publishedReceiptsVerified": 107,
+      "chapter1QuestionReviews": 137,
+      "totalReviewedQuestionIds": 2138,
+      "remainingQuestionReviews": 571,
+      "fullQuestionBankHumanReview": false
+    }
+  },
+  "report": "source/question-revisions/review-107-report.json",
+  "continuation": "source/question-semantic-audit.json",
+  "limits": [
+    "Isolated synthetic data only; Prewritten versioned editorial corrections checked against their current records. Mobile is a viewport, not a physical phone.",
+    "Live offline checks use browser simulation; actual HTTP-server shutdown performed locally.",
+    "The remaining 571 questions await expanded per-question review; this is not a count of known errors or missing questions."
+  ],
+  "lookupRevisionFingerprints": [
+    {
+      "revisionId": "question-review-2026-10-28-014",
+      "occurrenceId": "c01-s02-p010-05625@390:398",
+      "sha256": "3f1c35d38c91722bcc39c64b5b0a8840e39e25f13b54a64c3b17e3e3b65c9119"
+    },
+    {
+      "revisionId": "question-review-2026-10-28-017",
+      "occurrenceId": "c01-s04-p013-05662@523:538",
+      "sha256": "e668951b5f0d67dc54eead608d4705f185d33b045e245438d51e00add8ec2342"
+    },
+    {
+      "revisionId": "question-review-2026-10-28-017",
+      "occurrenceId": "c01-s04-p013-05662@694:709",
+      "sha256": "779785898d0be134c0bfc0aed22cd7705803b476a9c3a4a0c2205b5d92278e1d"
+    }
+  ]
+}
