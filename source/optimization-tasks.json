@@ -6,9 +6,9 @@
     "status": "in-progress",
     "taskRecord": "source/question-semantic-audit.json",
     "batchLimitSourceCandidates": 25,
-    "currentBatch": "107",
-    "currentBatchStatus": "published-and-verified",
-    "nextBatch": "108",
+    "currentBatch": "108",
+    "currentBatchStatus": "targets-frozen-awaiting-source-review",
+    "nextBatch": "109",
     "remainingQuestions": 571,
     "lastSuccessfulRelease": "source/releases/question-review-107.json",
     "notice": "New per-question review scope; the earlier 261-candidate queue and its receipts remain complete and immutable.",
@@ -41,7 +41,7 @@
     "lastDeploymentIncident": "source/question-revisions/review-039-deployment-incident.json",
     "verificationOrder": "Run npm run build:pages before the full unit suite because offline tests inspect dist. Then run fresh local/live browsers; never accept results from a previous build.",
     "offlineVerification": "Require HTML startup assets in offline manifest; byte-verify actual versioned Service Worker CacheStorage and disable HTTP caching before offline reload and local HTTP-server shutdown.",
-    "checkpoint": "source/question-revisions/review-107-checkpoint.json"
+    "checkpoint": "source/question-revisions/review-108-checkpoint.json"
   },
   "interface": [
     {
