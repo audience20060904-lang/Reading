@@ -1,0 +1,877 @@
+{
+  "pdfSha256": "be25c859f1bd894a4b0d1cff024ded1297f6a96a8e8ddabea1e3abcf89160a50",
+  "sourceCommit": "a448cc292f855eb9842010cca2e7ae3b1571d581",
+  "questions": [
+    {
+      "id": "q-c06-046",
+      "version": 1,
+      "readingUnitId": "c06-s03-p060-02115-r005-008",
+      "chapterId": "c06",
+      "sectionId": "c06-s03",
+      "paragraphId": "c06-s03-p060-02115",
+      "sentenceIds": [
+        "c06-s03-p060-02115-s005",
+        "c06-s03-p060-02115-s006",
+        "c06-s03-p060-02115-s007",
+        "c06-s03-p060-02115-s008"
+      ],
+      "passage": "He died at age 103. Simon started out working for large corporations but got sick of the bureaucracy. So he started his own company in a former barbershop, where he developed an initial prototype of an ICBM. He was also interested in other topics, including tennis strategy—he later wrote a book on that, too.",
+      "prompt": "What reason is given for Ramo’s move from large corporations to his own company?",
+      "options": [
+        "He became tired of corporate bureaucracy.",
+        "He had stopped being interested in engineering.",
+        "He needed a company devoted only to tennis books.",
+        "His employer required him to become a barber."
+      ],
+      "answer": 0,
+      "type": "逻辑关系",
+      "promptZh": "本段给出 Ramo 离开大公司、创办自己公司的什么原因？",
+      "optionsZh": [
+        "他厌倦了公司官僚作风。",
+        "他不再对工程感兴趣。",
+        "他需要一家只写网球书的公司。",
+        "雇主要求他改当理发师。"
+      ],
+      "analyses": [
+        "A got sick of the bureaucracy 后用 So 引出创办公司，原因明确。",
+        "B 创业后仍开发导弹初始原型。",
+        "C 网球是另一个兴趣，only 扩大并限制了业务范围。",
+        "D former barbershop 是创业场地，不能据此改写职业或雇主要求。"
+      ],
+      "evidence": [
+        {
+          "quote": "got sick of the bureaucracy. So he started his own company in a former barbershop",
+          "sentenceIds": [
+            "c06-s03-p060-02115-s006",
+            "c06-s03-p060-02115-s007"
+          ],
+          "sources": [
+            {
+              "pdfPage": 60,
+              "block": 1,
+              "bbox": [
+                76.99,
+                211.5,
+                535.01,
+                499.02
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "bureaucracy",
+          "meaning": "官僚体制；繁琐规章",
+          "context": "指令他厌倦的大公司运作方式，不是字面疾病",
+          "example": "The team reduced bureaucracy to speed up decisions.",
+          "collocations": [
+            "corporate bureaucracy",
+            "cut through bureaucracy"
+          ]
+        }
+      ],
+      "translation": "他于一百零三岁去世。Simon 最初在大公司工作，却厌倦官僚作风。因此他在一间原来的理发店创办自己的公司，在那里开发洲际弹道导弹的初始原型。他也对其他主题有兴趣，包括网球策略——后来他还为此写了一本书。",
+      "support": "explicit",
+      "editorialStatus": "PDF 第 58–62 页逐题原页核对；固定原句和已有单元边界；区分相关、自报、作者推论与个人叙事；保留概率语气及短语尾段",
+      "fingerprint": "5affb5b5fe6a346aa971c70a11afc31370b245b1e2b96f4103cd9aac44a983b3"
+    },
+    {
+      "id": "qe-c06-0067",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-020",
+      "parentQuestionId": "q-c06-046",
+      "chapterId": "c06",
+      "sectionId": "c06-s03",
+      "paragraphId": "c06-s03-p060-02115",
+      "readingUnitId": "c06-s03-p060-02115-r005-008",
+      "sentenceIds": [
+        "c06-s03-p060-02115-s005",
+        "c06-s03-p060-02115-s006",
+        "c06-s03-p060-02115-s007",
+        "c06-s03-p060-02115-s008"
+      ],
+      "passage": "He died at age 103. Simon started out working for large corporations but got sick of the bureaucracy. So he started his own company in a former barbershop, where he developed an initial prototype of an ICBM. He was also interested in other topics, including tennis strategy—he later wrote a book on that, too.",
+      "prompt": "Which age is given for Ramo's death?",
+      "promptZh": "原文给出 Ramo 去世时几岁？",
+      "options": [
+        "103.",
+        "100.",
+        "Thirty.",
+        "Sixty-two."
+      ],
+      "optionsZh": [
+        "103岁。",
+        "100岁。",
+        "30岁。",
+        "62岁。"
+      ],
+      "answer": 0,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A died at age103 直接说明。",
+        "B 一百岁是前段最后专利年龄，不是去世年龄。",
+        "C 三十涉及此前专利成就的年龄界限。",
+        "D 六十二是出版书数，不是寿命；必须区分不同数字的单位。"
+      ],
+      "vocabulary": [
+        {
+          "word": "at age",
+          "meaning": "在……岁时",
+          "context": "把103标为去世年龄，不是年份或专利数。",
+          "example": "She began studying the instrument at age sixty.",
+          "collocations": [
+            "died at age 103",
+            "at age one hundred"
+          ]
+        }
+      ],
+      "translation": "他于一百零三岁去世。Simon 最初在大公司工作，却厌倦官僚作风。因此他在一间原来的理发店创办自己的公司，在那里开发洲际弹道导弹的初始原型。他也对其他主题有兴趣，包括网球策略——后来他还为此写了一本书。",
+      "evidenceTargetIds": [
+        "c06-s03-p060-02115-s005"
+      ],
+      "evidence": [
+        {
+          "quote": "He died at age 103. Simon started out working for large corporations but got sick of the bureaucracy. So he started his own company in a former barbershop, where he developed an initial prototype of an ICBM. He was also interested in other topics, including tennis strategy—he later wrote a book on that, too.",
+          "sentenceIds": [
+            "c06-s03-p060-02115-s005",
+            "c06-s03-p060-02115-s006",
+            "c06-s03-p060-02115-s007",
+            "c06-s03-p060-02115-s008"
+          ],
+          "sources": [
+            {
+              "pdfPage": 60,
+              "block": 1,
+              "bbox": [
+                76.99,
+                211.5,
+                535.01,
+                499.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "7b48d940ef2c8c7d41f5cc5f7503c0669b49076c527093c9c3ca8e3058077c81"
+    },
+    {
+      "id": "qe-c06-0068",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-020",
+      "parentQuestionId": "q-c06-046",
+      "chapterId": "c06",
+      "sectionId": "c06-s03",
+      "paragraphId": "c06-s03-p060-02115",
+      "readingUnitId": "c06-s03-p060-02115-r005-008",
+      "sentenceIds": [
+        "c06-s03-p060-02115-s005",
+        "c06-s03-p060-02115-s006",
+        "c06-s03-p060-02115-s007",
+        "c06-s03-p060-02115-s008"
+      ],
+      "passage": "He died at age 103. Simon started out working for large corporations but got sick of the bureaucracy. So he started his own company in a former barbershop, where he developed an initial prototype of an ICBM. He was also interested in other topics, including tennis strategy—he later wrote a book on that, too.",
+      "prompt": "What does the tennis-strategy detail add to Ramo's profile?",
+      "promptZh": "网球策略的细节为 Ramo 生平补充什么？",
+      "options": [
+        "He gave up every other interest to become a professional tennis player.",
+        "His interests extended beyond engineering, and he wrote a book on tennis strategy.",
+        "He developed tennis as a new engineering degree.",
+        "His sixty-two books were all about exactly the same sport."
+      ],
+      "optionsZh": [
+        "他放弃其他兴趣而成为职业网球选手。",
+        "兴趣延伸到工程之外，并写过网球策略的书。",
+        "他把网球发展成新工程学位。",
+        "他的六十二本书全写同一种运动。"
+      ],
+      "answer": 1,
+      "type": "作者意图",
+      "support": "explicit",
+      "analyses": [
+        "A interested 不等于职业运动员或放弃其他兴趣。",
+        "B other topics 与 wrote a book on that 表明多样兴趣和后续写作。",
+        "C 学位属于前面教育史，不能与兴趣合并。",
+        "D a book 不能扩大成所有书同题。"
+      ],
+      "vocabulary": [
+        {
+          "word": "strategy",
+          "meaning": "策略；有计划的应对方式",
+          "context": "tennis strategy 指网球策略，不仅限军事或商业。",
+          "example": "The coach explained a new strategy for the next match.",
+          "collocations": [
+            "tennis strategy",
+            "a book on strategy"
+          ]
+        }
+      ],
+      "translation": "他于一百零三岁去世。Simon 最初在大公司工作，却厌倦官僚作风。因此他在一间原来的理发店创办自己的公司，在那里开发洲际弹道导弹的初始原型。他也对其他主题有兴趣，包括网球策略——后来他还为此写了一本书。",
+      "evidenceTargetIds": [
+        "c06-s03-p060-02115-s008"
+      ],
+      "evidence": [
+        {
+          "quote": "He died at age 103. Simon started out working for large corporations but got sick of the bureaucracy. So he started his own company in a former barbershop, where he developed an initial prototype of an ICBM. He was also interested in other topics, including tennis strategy—he later wrote a book on that, too.",
+          "sentenceIds": [
+            "c06-s03-p060-02115-s005",
+            "c06-s03-p060-02115-s006",
+            "c06-s03-p060-02115-s007",
+            "c06-s03-p060-02115-s008"
+          ],
+          "sources": [
+            {
+              "pdfPage": 60,
+              "block": 1,
+              "bbox": [
+                76.99,
+                211.5,
+                535.01,
+                499.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "81a6e5d4bc71d5cd46c8306d5d62860701009848919e412af3ace3524fecebf5"
+    },
+    {
+      "id": "qe-c06-0071",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-020",
+      "parentQuestionId": "q-c06-048",
+      "chapterId": "c06",
+      "sectionId": "c06-s03",
+      "paragraphId": "c06-s03-p060-05040",
+      "readingUnitId": "c06-s03-p060-05040-r001-004",
+      "sentenceIds": [
+        "c06-s03-p060-05040-s001",
+        "c06-s03-p060-05040-s002",
+        "c06-s03-p060-05040-s003",
+        "c06-s03-p060-05040-s004"
+      ],
+      "passage": "Another example of a person who lived a psychologically rich life is novelist Louis Cha (also known as Jin Yong), whose obituary was featured in the Straits Times. Cha was born in China and started out as a journalist in Shanghai before transferring to his newspaper’s Hong Kong office in the 1950s. He wrote an enormously popular series of novels inspired by martial arts history from 1955 until 1972. Despite his popularity, Cha didn’t write any new novels after this period.",
+      "prompt": "How does the passage identify Louis Cha?",
+      "promptZh": "这段怎样介绍 Louis Cha？",
+      "options": [
+        "An aerospace engineer whose profile appeared only in the New York Times.",
+        "The professor who recommended three colleges in Maine.",
+        "A novelist also known as Jin Yong, whose obituary appeared in the Straits Times.",
+        "A research assistant who created the Big Five factors."
+      ],
+      "optionsZh": [
+        "只在纽约时报出现生平的航天工程师。",
+        "推荐缅因三所学院的教授。",
+        "亦称 Jin Yong 的小说家，讣告刊于海峡时报。",
+        "创建大五因子的研究助理。"
+      ],
+      "answer": 2,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A 混同 Ramo 的职业与报纸。",
+        "B 混同 Hara。",
+        "C 身份、别名及报纸均来自原句。",
+        "D 他是人生例证而非研究评分助理。"
+      ],
+      "vocabulary": [
+        {
+          "word": "also known as",
+          "meaning": "也叫；又名",
+          "context": "连接 Louis Cha 与 Jin Yong 两个名称，不是两位不同作者。",
+          "example": "The island is also known as the Emerald Isle.",
+          "collocations": [
+            "also known as Jin Yong",
+            "be known as"
+          ]
+        }
+      ],
+      "translation": "另一个心理丰富人生的例子是小说家 Louis Cha（亦即 Jin Yong、金庸），他的讣告刊于《海峡时报》。Cha 出生于中国，最初在上海当记者，1950 年代转到报纸的香港办事处。他在 1955 至 1972 年间，写了一系列受武术历史启发、极受欢迎的小说。尽管备受欢迎，这一时期之后他没有再写新小说。",
+      "evidenceTargetIds": [
+        "c06-s03-p060-05040-s001"
+      ],
+      "evidence": [
+        {
+          "quote": "Another example of a person who lived a psychologically rich life is novelist Louis Cha (also known as Jin Yong), whose obituary was featured in the Straits Times. Cha was born in China and started out as a journalist in Shanghai before transferring to his newspaper’s Hong Kong office in the 1950s. He wrote an enormously popular series of novels inspired by martial arts history from 1955 until 1972. Despite his popularity, Cha didn’t write any new novels after this period.",
+          "sentenceIds": [
+            "c06-s03-p060-05040-s001",
+            "c06-s03-p060-05040-s002",
+            "c06-s03-p060-05040-s003",
+            "c06-s03-p060-05040-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 60,
+              "block": 2,
+              "bbox": [
+                76.99,
+                504,
+                535.01,
+                713.52
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "6255a74656b63b7f6e0b5d3ffbdf0972b5e04d5a0d4e76fd4ba962dc821b7827"
+    },
+    {
+      "id": "qe-c06-0072",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-020",
+      "parentQuestionId": "q-c06-048",
+      "chapterId": "c06",
+      "sectionId": "c06-s03",
+      "paragraphId": "c06-s03-p060-05040",
+      "readingUnitId": "c06-s03-p060-05040-r001-004",
+      "sentenceIds": [
+        "c06-s03-p060-05040-s001",
+        "c06-s03-p060-05040-s002",
+        "c06-s03-p060-05040-s003",
+        "c06-s03-p060-05040-s004"
+      ],
+      "passage": "Another example of a person who lived a psychologically rich life is novelist Louis Cha (also known as Jin Yong), whose obituary was featured in the Straits Times. Cha was born in China and started out as a journalist in Shanghai before transferring to his newspaper’s Hong Kong office in the 1950s. He wrote an enormously popular series of novels inspired by martial arts history from 1955 until 1972. Despite his popularity, Cha didn’t write any new novels after this period.",
+      "prompt": "Which career movement is described for Cha?",
+      "promptZh": "原文描述 Cha 怎样的职业迁移？",
+      "options": [
+        "He moved from Hong Kong to Shanghai after becoming an engineer.",
+        "He started as a journalist in Shanghai, then transferred to the paper's Hong Kong office in the 1950 s.",
+        "He left a Singapore newspaper to teach at Caltech.",
+        "He began as a novelist in Maine and later moved to Tokyo."
+      ],
+      "optionsZh": [
+        "成为工程师后由香港转上海。",
+        "先在上海当记者，1950年代转到报纸香港办事处。",
+        "离开新加坡报社去 Caltech 教书。",
+        "先在缅因写小说，后去东京。"
+      ],
+      "answer": 1,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A 起终点颠倒，职业也换了。",
+        "B started out...before transferring 明确记者身份、两地及先后。",
+        "C 海峡时报是后文讣告刊载处，不等于他曾在该报任职。",
+        "D 与其他人物求学地点混淆。"
+      ],
+      "vocabulary": [
+        {
+          "word": "transferring",
+          "meaning": "调任；转到另一办事处",
+          "context": "指同一报纸的工作地点变动，不是转学或换成工程师职业。",
+          "example": "She considered transferring to the company's regional office.",
+          "collocations": [
+            "transferring to an office",
+            "transfer to Hong Kong"
+          ]
+        }
+      ],
+      "translation": "另一个心理丰富人生的例子是小说家 Louis Cha（亦即 Jin Yong、金庸），他的讣告刊于《海峡时报》。Cha 出生于中国，最初在上海当记者，1950 年代转到报纸的香港办事处。他在 1955 至 1972 年间，写了一系列受武术历史启发、极受欢迎的小说。尽管备受欢迎，这一时期之后他没有再写新小说。",
+      "evidenceTargetIds": [
+        "c06-s03-p060-05040-s002"
+      ],
+      "evidence": [
+        {
+          "quote": "Another example of a person who lived a psychologically rich life is novelist Louis Cha (also known as Jin Yong), whose obituary was featured in the Straits Times. Cha was born in China and started out as a journalist in Shanghai before transferring to his newspaper’s Hong Kong office in the 1950s. He wrote an enormously popular series of novels inspired by martial arts history from 1955 until 1972. Despite his popularity, Cha didn’t write any new novels after this period.",
+          "sentenceIds": [
+            "c06-s03-p060-05040-s001",
+            "c06-s03-p060-05040-s002",
+            "c06-s03-p060-05040-s003",
+            "c06-s03-p060-05040-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 60,
+              "block": 2,
+              "bbox": [
+                76.99,
+                504,
+                535.01,
+                713.52
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "69ec60ce5b4b3eb73da3870e5c14734c842abf49c5db878f2e05727b34c05fcf"
+    },
+    {
+      "id": "qe-c06-0073",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-020",
+      "parentQuestionId": "q-c06-048",
+      "chapterId": "c06",
+      "sectionId": "c06-s03",
+      "paragraphId": "c06-s03-p060-05040",
+      "readingUnitId": "c06-s03-p060-05040-r001-004",
+      "sentenceIds": [
+        "c06-s03-p060-05040-s001",
+        "c06-s03-p060-05040-s002",
+        "c06-s03-p060-05040-s003",
+        "c06-s03-p060-05040-s004"
+      ],
+      "passage": "Another example of a person who lived a psychologically rich life is novelist Louis Cha (also known as Jin Yong), whose obituary was featured in the Straits Times. Cha was born in China and started out as a journalist in Shanghai before transferring to his newspaper’s Hong Kong office in the 1950s. He wrote an enormously popular series of novels inspired by martial arts history from 1955 until 1972. Despite his popularity, Cha didn’t write any new novels after this period.",
+      "prompt": "What inspired Cha's popular novels, and when did he write the series described?",
+      "promptZh": "Cha 的畅销小说受什么启发，所述系列在何时写成？",
+      "options": [
+        "Aerospace engineering, from 1936 to 1955.",
+        "The Big Five dictionary project, during 2016.",
+        "Only his Singapore exile, after 1972.",
+        "Martial arts history, from 1955 until 1972."
+      ],
+      "optionsZh": [
+        "航天工程，1936至1955年。",
+        "大五词典项目，2016年。",
+        "仅新加坡避难，1972年后。",
+        "武术历史，1955至1972年。"
+      ],
+      "answer": 3,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A 把 Ramo 领域与人格词典年份移入。",
+        "B 不是讣告研究年份的写作。",
+        "C 不符合 from1955until1972，且 only 无据。",
+        "D 原句明确灵感来源和创作时间段；不能把历史启发等同于所写虚构情节全部为史实。"
+      ],
+      "vocabulary": [
+        {
+          "word": "inspired by",
+          "meaning": "受……启发的",
+          "context": "指创作灵感来源，不保证小说每个情节都实际发生。",
+          "example": "The story was inspired by a local legend.",
+          "collocations": [
+            "novels inspired by",
+            "inspired by martial arts history"
+          ]
+        }
+      ],
+      "translation": "另一个心理丰富人生的例子是小说家 Louis Cha（亦即 Jin Yong、金庸），他的讣告刊于《海峡时报》。Cha 出生于中国，最初在上海当记者，1950 年代转到报纸的香港办事处。他在 1955 至 1972 年间，写了一系列受武术历史启发、极受欢迎的小说。尽管备受欢迎，这一时期之后他没有再写新小说。",
+      "evidenceTargetIds": [
+        "c06-s03-p060-05040-s003"
+      ],
+      "evidence": [
+        {
+          "quote": "Another example of a person who lived a psychologically rich life is novelist Louis Cha (also known as Jin Yong), whose obituary was featured in the Straits Times. Cha was born in China and started out as a journalist in Shanghai before transferring to his newspaper’s Hong Kong office in the 1950s. He wrote an enormously popular series of novels inspired by martial arts history from 1955 until 1972. Despite his popularity, Cha didn’t write any new novels after this period.",
+          "sentenceIds": [
+            "c06-s03-p060-05040-s001",
+            "c06-s03-p060-05040-s002",
+            "c06-s03-p060-05040-s003",
+            "c06-s03-p060-05040-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 60,
+              "block": 2,
+              "bbox": [
+                76.99,
+                504,
+                535.01,
+                713.52
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "93582bc721a394da385d95575642f967295f48ebe60938b1e6392ff938c53d6b"
+    },
+    {
+      "id": "q-c06-049",
+      "version": 1,
+      "readingUnitId": "c06-s03-p060-05040-r005-008",
+      "chapterId": "c06",
+      "sectionId": "c06-s03",
+      "paragraphId": "c06-s03-p060-05040",
+      "sentenceIds": [
+        "c06-s03-p060-05040-s005",
+        "c06-s03-p060-05040-s006",
+        "c06-s03-p060-05040-s007",
+        "c06-s03-p060-05040-s008"
+      ],
+      "passage": "Instead, he reread his own novels and continued to revise them. He would cry while reading his favorite characters’ breakup in his own novel. He was unconventional, even defiant. In the late 1960s he wrote a series of anti-Mao articles, which put Cha on the Chinese Communist Party’s assassination list.",
+      "prompt": "What did Cha continue doing instead of producing new novels?",
+      "options": [
+        "Replacing every favorite character with a historical journalist.",
+        "Moving all his writing work back to Shanghai.",
+        "Revising only the newspaper articles of other writers.",
+        "Rereading and revising his own novels."
+      ],
+      "answer": 3,
+      "type": "细节",
+      "promptZh": "Cha 没有再写新小说，而是继续做什么？",
+      "optionsZh": [
+        "把所有喜爱的人物换成历史记者。",
+        "把全部写作工作搬回上海。",
+        "只修订其他作者的报纸文章。",
+        "重读并修订自己的小说。"
+      ],
+      "analyses": [
+        "A 人物分手使他落泪，不是替换人物。",
+        "B 本段没有回迁上海的信息。",
+        "C own novels 明确是自己的小说。",
+        "D Instead 引出 reread...continued to revise，正面说明替代活动。后面的政治经历按作者叙述保留，不据此推出普遍结论。"
+      ],
+      "evidence": [
+        {
+          "quote": "Instead, he reread his own novels and continued to revise them.",
+          "sentenceIds": [
+            "c06-s03-p060-05040-s005"
+          ],
+          "sources": [
+            {
+              "pdfPage": 60,
+              "block": 2,
+              "bbox": [
+                76.99,
+                504,
+                535.01,
+                713.52
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "defiant",
+          "meaning": "反抗的；不屈服的",
+          "context": "作者用来加强 unconventional 的人物特征，后接政治写作经历",
+          "example": "She remained defiant in the face of pressure to withdraw.",
+          "collocations": [
+            "a defiant attitude",
+            "remain defiant"
+          ]
+        }
+      ],
+      "translation": "他转而重读自己的小说，不断修订。在自己的小说里读到最喜爱人物的分手，他会落泪。他不循常规，甚至带有反抗精神。1960 年代末，他写了一系列反毛文章，原文叙述这使他被列入中国共产党的暗杀名单。",
+      "support": "explicit",
+      "editorialStatus": "PDF 第 58–62 页逐题原页核对；固定原句和已有单元边界；区分相关、自报、作者推论与个人叙事；保留概率语气及短语尾段",
+      "fingerprint": "f24de0ee7d9fb992e9fad4f0b223d89f591569bbf38fb88d38730d9a8a9b75a0"
+    },
+    {
+      "id": "qe-c06-0076",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-020",
+      "parentQuestionId": "q-c06-049",
+      "chapterId": "c06",
+      "sectionId": "c06-s03",
+      "paragraphId": "c06-s03-p060-05040",
+      "readingUnitId": "c06-s03-p060-05040-r005-008",
+      "sentenceIds": [
+        "c06-s03-p060-05040-s005",
+        "c06-s03-p060-05040-s006",
+        "c06-s03-p060-05040-s007",
+        "c06-s03-p060-05040-s008"
+      ],
+      "passage": "Instead, he reread his own novels and continued to revise them. He would cry while reading his favorite characters’ breakup in his own novel. He was unconventional, even defiant. In the late 1960s he wrote a series of anti-Mao articles, which put Cha on the Chinese Communist Party’s assassination list.",
+      "prompt": "According to the book's account, what consequence followed Cha's late 1960 s articles?",
+      "promptZh": "按本书叙述，Cha 在1960年代末的文章带来什么后果？",
+      "options": [
+        "He became one of the obituary study's raters.",
+        "He was awarded Ramo's engineering doctorate.",
+        "He was ordered to revise every fictional character.",
+        "He was put on an assassination list."
+      ],
+      "optionsZh": [
+        "他成为讣告研究评分者之一。",
+        "他获 Ramo 的工程博士。",
+        "他被要求改写每位虚构人物。",
+        "他被列入暗杀名单。"
+      ],
+      "answer": 3,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A 研究评分助理与传记人物混淆。",
+        "B 两个人的教育史不能互换。",
+        "C 改写小说是另一句叙述，不是该文章后果。",
+        "D which put Cha... 明确本书记载的后果；此题核对书中叙述，不冒称另行独立史料核验。"
+      ],
+      "vocabulary": [
+        {
+          "word": "which",
+          "meaning": "关系代词；此处回指前述写作行为",
+          "context": "非限定性从句说明本书所述结果，不只修饰某个孤立年代数字。",
+          "example": "She missed the last bus, which delayed her arrival.",
+          "collocations": [
+            "which put Cha on",
+            "a consequence which followed"
+          ]
+        }
+      ],
+      "translation": "他转而重读自己的小说，不断修订。在自己的小说里读到最喜爱人物的分手，他会落泪。他不循常规，甚至带有反抗精神。1960 年代末，他写了一系列反毛文章，原文叙述这使他被列入中国共产党的暗杀名单。",
+      "evidenceTargetIds": [
+        "c06-s03-p060-05040-s008"
+      ],
+      "evidence": [
+        {
+          "quote": "Instead, he reread his own novels and continued to revise them. He would cry while reading his favorite characters’ breakup in his own novel. He was unconventional, even defiant. In the late 1960s he wrote a series of anti-Mao articles, which put Cha on the Chinese Communist Party’s assassination list.",
+          "sentenceIds": [
+            "c06-s03-p060-05040-s005",
+            "c06-s03-p060-05040-s006",
+            "c06-s03-p060-05040-s007",
+            "c06-s03-p060-05040-s008"
+          ],
+          "sources": [
+            {
+              "pdfPage": 60,
+              "block": 2,
+              "bbox": [
+                76.99,
+                504,
+                535.01,
+                713.52
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "01043d874c9dec1fefe83ad66a14c2917e6f6b863dbe7e1048cc97cc5e1a2442"
+    },
+    {
+      "id": "q-c06-051",
+      "version": 1,
+      "readingUnitId": "c06-s03-p061-01335-r001-003",
+      "chapterId": "c06",
+      "sectionId": "c06-s03",
+      "paragraphId": "c06-s03-p061-01335",
+      "sentenceIds": [
+        "c06-s03-p061-01335-s001",
+        "c06-s03-p061-01335-s002",
+        "c06-s03-p061-01335-s003"
+      ],
+      "passage": "Personality psychologists have classified openness to experience into two subfactors: openness and intellect. People high in openness tend to have more creative accomplishments in the arts, whereas people high in intellect tend to have more creative accomplishments both in arts and sciences. Simon Ramo must have been high in the intellect dimension of openness to experience, as he explored and found many creative solutions to diverse engineering problems, while Louis Cha must have been high in the openness dimension, as he led an emotionally rich, imaginative life.",
+      "prompt": "Which distinction between the two subfactors is described?",
+      "options": [
+        "Openness predicts only scientific work, while intellect excludes the arts.",
+        "Both subfactors are described as having no connection with creativity.",
+        "Openness is linked with creative arts, while intellect is linked with arts and sciences.",
+        "Intellect and openness are simply two names for the same subfactor."
+      ],
+      "answer": 2,
+      "type": "细节",
+      "promptZh": "本段怎样区分两个子因子？",
+      "optionsZh": [
+        "开放子因子只对应科学，智性排除艺术。",
+        "两个子因子都与创造无关。",
+        "开放子因子与艺术创造有关，智性与艺术和科学创造都有关。",
+        "智性与开放只是同一子因子的两个名称。"
+      ],
+      "analyses": [
+        "A 将领域颠倒，还把智性涉及艺术这一点删去。",
+        "B 原文明确说 more creative accomplishments。",
+        "C 对应 arts 与 both in arts and sciences；tend to 表示倾向，不是所有人的决定性规则。",
+        "D 原文明确 two subfactors。作者把 Ramo 与 Cha 作示例属于人物解释，并未报告两人的直接量表测量。"
+      ],
+      "evidence": [
+        {
+          "quote": "People high in openness tend to have more creative accomplishments in the arts, whereas people high in intellect tend to have more creative accomplishments both in arts and sciences.",
+          "sentenceIds": [
+            "c06-s03-p061-01335-s002"
+          ],
+          "sources": [
+            {
+              "pdfPage": 61,
+              "block": 1,
+              "bbox": [
+                76.99,
+                133.5,
+                535.01,
+                284.52
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "subfactors",
+          "meaning": "子因子",
+          "context": "经验开放性这一较大因子之下的开放与智性两个分支，不是两个全新的大五因子",
+          "example": "The model divides the broad category into two subfactors.",
+          "collocations": [
+            "two subfactors",
+            "classify into subfactors"
+          ]
+        }
+      ],
+      "translation": "人格心理学家把经验开放性分成两个子因子：开放与智性。开放子因子高的人往往有更多艺术创造成就，而智性高的人在艺术与科学两方面都往往有更多创造成就。作者推断，Simon Ramo 的经验开放性中，智性维度一定很高，因为他探索并创造性解决了各种工程问题；Louis Cha 的开放维度一定很高，因为他过着情感丰富、富于想象的人生。",
+      "support": "explicit",
+      "editorialStatus": "PDF 第 58–62 页逐题原页核对；固定原句和已有单元边界；区分相关、自报、作者推论与个人叙事；保留概率语气及短语尾段",
+      "fingerprint": "c1010f0b54a8a6def0420b3f3ab65e48593039d52c637b6c71df70befa87c1ce"
+    },
+    {
+      "id": "qe-c06-0078",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-020",
+      "parentQuestionId": "q-c06-051",
+      "chapterId": "c06",
+      "sectionId": "c06-s03",
+      "paragraphId": "c06-s03-p061-01335",
+      "readingUnitId": "c06-s03-p061-01335-r001-003",
+      "sentenceIds": [
+        "c06-s03-p061-01335-s001",
+        "c06-s03-p061-01335-s002",
+        "c06-s03-p061-01335-s003"
+      ],
+      "passage": "Personality psychologists have classified openness to experience into two subfactors: openness and intellect. People high in openness tend to have more creative accomplishments in the arts, whereas people high in intellect tend to have more creative accomplishments both in arts and sciences. Simon Ramo must have been high in the intellect dimension of openness to experience, as he explored and found many creative solutions to diverse engineering problems, while Louis Cha must have been high in the openness dimension, as he led an emotionally rich, imaginative life.",
+      "prompt": "Which two subfactors of openness to experience are named?",
+      "promptZh": "经验开放性被分为哪两个子因子？",
+      "options": [
+        "Extraversion and agreeableness.",
+        "Openness and intellect.",
+        "Happiness and meaning.",
+        "Opportunity and income."
+      ],
+      "optionsZh": [
+        "外向性与宜人性。",
+        "开放与智性。",
+        "幸福与意义。",
+        "机会与收入。"
+      ],
+      "answer": 1,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A 是其他大五维度，不是此处两子因子。",
+        "B into two subfactors 后直接点名 openness and intellect。",
+        "C 是生活维度，不是人格子因子。",
+        "D 机会资源非这两个特质分类；应区分大维度与其内部子维度。"
+      ],
+      "vocabulary": [
+        {
+          "word": "subfactors",
+          "meaning": "子因子；较大维度中的细分因素",
+          "context": "此处不是说大五只有两维，而是经验开放性内部细分。",
+          "example": "The model separates this broad ability into two subfactors.",
+          "collocations": [
+            "two subfactors",
+            "classified into subfactors"
+          ]
+        }
+      ],
+      "translation": "人格心理学家把经验开放性分成两个子因子：开放与智性。开放子因子高的人往往有更多艺术创造成就，而智性高的人在艺术与科学两方面都往往有更多创造成就。作者推断，Simon Ramo 的经验开放性中，智性维度一定很高，因为他探索并创造性解决了各种工程问题；Louis Cha 的开放维度一定很高，因为他过着情感丰富、富于想象的人生。",
+      "evidenceTargetIds": [
+        "c06-s03-p061-01335-s001"
+      ],
+      "evidence": [
+        {
+          "quote": "Personality psychologists have classified openness to experience into two subfactors: openness and intellect. People high in openness tend to have more creative accomplishments in the arts, whereas people high in intellect tend to have more creative accomplishments both in arts and sciences. Simon Ramo must have been high in the intellect dimension of openness to experience, as he explored and found many creative solutions to diverse engineering problems, while Louis Cha must have been high in the openness dimension, as he led an emotionally rich, imaginative life.",
+          "sentenceIds": [
+            "c06-s03-p061-01335-s001",
+            "c06-s03-p061-01335-s002",
+            "c06-s03-p061-01335-s003"
+          ],
+          "sources": [
+            {
+              "pdfPage": 61,
+              "block": 1,
+              "bbox": [
+                76.99,
+                133.5,
+                535.01,
+                284.52
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "f533c29e5203e2368dbb69d7f0eb61f21627e0c7bdd6aa21f9858997a56df949"
+    },
+    {
+      "id": "qe-c06-0079",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-020",
+      "parentQuestionId": "q-c06-051",
+      "chapterId": "c06",
+      "sectionId": "c06-s03",
+      "paragraphId": "c06-s03-p061-01335",
+      "readingUnitId": "c06-s03-p061-01335-r001-003",
+      "sentenceIds": [
+        "c06-s03-p061-01335-s001",
+        "c06-s03-p061-01335-s002",
+        "c06-s03-p061-01335-s003"
+      ],
+      "passage": "Personality psychologists have classified openness to experience into two subfactors: openness and intellect. People high in openness tend to have more creative accomplishments in the arts, whereas people high in intellect tend to have more creative accomplishments both in arts and sciences. Simon Ramo must have been high in the intellect dimension of openness to experience, as he explored and found many creative solutions to diverse engineering problems, while Louis Cha must have been high in the openness dimension, as he led an emotionally rich, imaginative life.",
+      "prompt": "How does the author use Ramo and Cha to illustrate the two subfactors?",
+      "promptZh": "作者怎样用 Ramo 与 Cha 说明两个子因子？",
+      "options": [
+        "He reports that both personally completed the same trait questionnaire.",
+        "He assigns Ramo to emotional imagination and Cha only to engineering.",
+        "He infers intellect from Ramo's engineering solutions and openness from Cha's imaginative emotional life.",
+        "He proves neither had creative accomplishments."
+      ],
+      "optionsZh": [
+        "报告两人亲自完成了同一特质量表。",
+        "把 Ramo 归于情绪想象，Cha 只归于工程。",
+        "从 Ramo 的工程解题推断智性，从 Cha 的情感想象人生推断开放。",
+        "证明两人都无创造成就。"
+      ],
+      "answer": 2,
+      "type": "观点归属",
+      "support": "explicit",
+      "analyses": [
+        "A must have been 是作者追溯推断，不是量表实测报告。",
+        "B 例证对应反了。",
+        "C 两个 as 从句分别给推断依据，while 对照人物。",
+        "D 明确举 creative solutions 与 imaginative life，不能反写或断言每人只可能高一维。"
+      ],
+      "vocabulary": [
+        {
+          "word": "must have been",
+          "meaning": "想必曾经是；根据迹象对过去作强推断",
+          "context": "此处体现作者判断，不等同有两人实测分数；不把 must 当外部义务。",
+          "example": "The room is empty; they must have been here earlier.",
+          "collocations": [
+            "must have been high in",
+            "a retrospective inference"
+          ]
+        }
+      ],
+      "translation": "人格心理学家把经验开放性分成两个子因子：开放与智性。开放子因子高的人往往有更多艺术创造成就，而智性高的人在艺术与科学两方面都往往有更多创造成就。作者推断，Simon Ramo 的经验开放性中，智性维度一定很高，因为他探索并创造性解决了各种工程问题；Louis Cha 的开放维度一定很高，因为他过着情感丰富、富于想象的人生。",
+      "evidenceTargetIds": [
+        "c06-s03-p061-01335-s003"
+      ],
+      "evidence": [
+        {
+          "quote": "Personality psychologists have classified openness to experience into two subfactors: openness and intellect. People high in openness tend to have more creative accomplishments in the arts, whereas people high in intellect tend to have more creative accomplishments both in arts and sciences. Simon Ramo must have been high in the intellect dimension of openness to experience, as he explored and found many creative solutions to diverse engineering problems, while Louis Cha must have been high in the openness dimension, as he led an emotionally rich, imaginative life.",
+          "sentenceIds": [
+            "c06-s03-p061-01335-s001",
+            "c06-s03-p061-01335-s002",
+            "c06-s03-p061-01335-s003"
+          ],
+          "sources": [
+            {
+              "pdfPage": 61,
+              "block": 1,
+              "bbox": [
+                76.99,
+                133.5,
+                535.01,
+                284.52
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "79801e95815604dacd93d3c2824c0406c6b68d05861ee741aecc10674124d706"
+    }
+  ]
+}

@@ -1,0 +1,158 @@
+{
+  "schemaVersion": 1,
+  "id": "question-review-2026-10-28-053",
+  "pdfSha256": "be25c859f1bd894a4b0d1cff024ded1297f6a96a8e8ddabea1e3abcf89160a50",
+  "scope": "Review 19 questions /22 source candidates on actual PDF60–61. Simon biography and idiom, Cha identity and dated literary account, excerpt-contained references, and author retrospective inference about openness subfactors. Preserve all original historical claims and source IDs; this is PDF interpretation, not an independent historical investigation.",
+  "questions": [
+    {
+      "id": "q-c06-046",
+      "reason": "题干用当前显示的Simon姓名，词义区分官僚程序与got sick of厌倦。",
+      "updates": {
+        "prompt": "What reason is given for Simon’s move from large corporations to his own company?",
+        "promptZh": "本段给出Simon离开大公司、创办自己公司的什么原因？",
+        "vocabulary": [
+          {
+            "word": "bureaucracy",
+            "meaning": "官僚体制；繁琐规章",
+            "context": "bureaucracy 指令他厌倦的大公司官僚式管理与繁琐程序；got sick of 是厌倦，不是生病。",
+            "example": "The team reduced bureaucracy to speed up decisions.",
+            "collocations": [
+              "corporate bureaucracy",
+              "cut through bureaucracy"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "qe-c06-0067",
+      "reason": "年龄题直接定位当前首句，不需知道未显示姓氏，分析不借上一段专利和书数。",
+      "updates": {
+        "prompt": "What age at death is stated in the opening sentence?",
+        "promptZh": "开头第一句给出的去世年龄是多少？",
+        "analyses": [
+          "A He died at age 103 直接给出去世年龄。",
+          "B 当前死亡年龄写的是103，而不是100。",
+          "C at age 103 修饰 died，不能把所述年龄改成30。",
+          "D 原句的年龄数字是103，不是62；这里查的是去世年龄。"
+        ]
+      }
+    },
+    {
+      "id": "qe-c06-0068",
+      "reason": "网球兴趣排除不借前段学历史。",
+      "updates": {
+        "analyses": [
+          "A interested 不等于职业运动员或放弃其他兴趣。",
+          "B other topics 与 wrote a book on that 表明多样兴趣和后续写作。",
+          "C 当前只是说对网球策略感兴趣并为此写书，没有把网球说成一种工程学位。",
+          "D a book 不能扩大成所有书同题。"
+        ]
+      }
+    },
+    {
+      "id": "qe-c06-0071",
+      "reason": "身份排除只据当前novelist/Jin Yong/Straits Times，不借Ramo或Hara前情。",
+      "updates": {
+        "analyses": [
+          "A 当前称他为 novelist，并说讣告刊于 the Straits Times，不是只在《纽约时报》出现的航空航天工程师。",
+          "B 当前介绍的是又名 Jin Yong 的小说家，没有把他称为推荐缅因学院的教授。",
+          "C 身份、别名及报纸均来自原句。",
+          "D 他是人生例证而非研究评分助理。"
+        ]
+      }
+    },
+    {
+      "id": "qe-c06-0072",
+      "reason": "1950s恢复正确年代写法，刊载报纸不混任职报社，排除只据当前地点。",
+      "updates": {
+        "options": [
+          "He moved from Hong Kong to Shanghai after becoming an engineer.",
+          "He started as a journalist in Shanghai, then transferred to the paper's Hong Kong office in the 1950s.",
+          "He left a Singapore newspaper to teach at Caltech.",
+          "He began as a novelist in Maine and later moved to Tokyo."
+        ],
+        "analyses": [
+          "A 起终点颠倒，职业也换了。",
+          "B started out...before transferring 明确记者身份、两地及先后。",
+          "C 《海峡时报》是本段提到的讣告刊载报纸，没有说Cha曾在该报任职或到Caltech教书。",
+          "D 原文职业地点顺序是上海到香港，不是缅因到东京。"
+        ]
+      }
+    },
+    {
+      "id": "qe-c06-0073",
+      "reason": "popular不译为未经此句支持的畅销销量，年份和领域排除不借其他人物研究前情。",
+      "updates": {
+        "promptZh": "Cha 的受欢迎小说受什么启发，所述系列在何时写成？",
+        "analyses": [
+          "A 原文给的是 martial arts history 以及1955至1972年，不是航空航天工程或1936至1955年。",
+          "B 当前创作来源是 martial arts history，时间为1955至1972年，不是大五词典项目或2016年。",
+          "C 不符合 from1955until1972，且 only 无据。",
+          "D 原句明确灵感来源和创作时间段；不能把历史启发等同于所写虚构情节全部为史实。"
+        ]
+      }
+    },
+    {
+      "id": "q-c06-049",
+      "reason": "当前Instead的替代对象未显示，题干只询问其引入活动，不依赖上一段停止写新小说信息。",
+      "updates": {
+        "prompt": "What activity does “Instead” introduce at the start of the passage?",
+        "promptZh": "片段开头的 Instead 引出了什么活动？",
+        "analyses": [
+          "A 人物分手使他落泪，不是替换人物。",
+          "B 本段没有回迁上海的信息。",
+          "C own novels 明确是自己的小说。",
+          "D Instead 引出 reread his own novels 和 continued to revise them；重读和修订的对象都是他自己的小说。"
+        ]
+      }
+    },
+    {
+      "id": "qe-c06-0076",
+      "reason": "1960s恢复年代词距，后果题排除不借Ramo教育史。",
+      "updates": {
+        "prompt": "According to the book's account, what consequence followed Cha's late 1960s articles?",
+        "analyses": [
+          "A 研究评分助理与传记人物混淆。",
+          "B 当前句说的是文章引出的暗杀名单后果，没有颁发工程博士学位的内容。",
+          "C 改写小说是另一句叙述，不是该文章后果。",
+          "D which put Cha... 明确本书记载的后果；此题核对书中叙述，不冒称另行独立史料核验。"
+        ],
+        "promptZh": "按本书叙述，Cha 在1960年代末的文章带来什么后果？"
+      }
+    },
+    {
+      "id": "q-c06-051",
+      "reason": "must have been译想必保留对过去的强推断及作者判断性质，不与两人量表实测混同。",
+      "updates": {
+        "translation": "人格心理学家把经验开放性分成两个子因子：开放与智性。开放子因子高的人往往有更多艺术创造成就，而智性高的人在艺术与科学两方面都往往有更多创造成就。作者推断，Simon Ramo 的经验开放性中，智性维度想必很高，因为他探索并创造性解决了各种工程问题；Louis Cha 的开放维度想必很高，因为他过着情感丰富、富于想象的人生。"
+      }
+    },
+    {
+      "id": "qe-c06-0078",
+      "reason": "must have been译想必保留对过去的强推断及作者判断性质，不与两人量表实测混同。",
+      "updates": {
+        "translation": "人格心理学家把经验开放性分成两个子因子：开放与智性。开放子因子高的人往往有更多艺术创造成就，而智性高的人在艺术与科学两方面都往往有更多创造成就。作者推断，Simon Ramo 的经验开放性中，智性维度想必很高，因为他探索并创造性解决了各种工程问题；Louis Cha 的开放维度想必很高，因为他过着情感丰富、富于想象的人生。"
+      }
+    },
+    {
+      "id": "qe-c06-0079",
+      "reason": "must have been译想必保留对过去的强推断及作者判断性质，不与两人量表实测混同。；语法例句提供能支持过去推断的常见迹象，避免空房间无据推出先前有人。",
+      "updates": {
+        "translation": "人格心理学家把经验开放性分成两个子因子：开放与智性。开放子因子高的人往往有更多艺术创造成就，而智性高的人在艺术与科学两方面都往往有更多创造成就。作者推断，Simon Ramo 的经验开放性中，智性维度想必很高，因为他探索并创造性解决了各种工程问题；Louis Cha 的开放维度想必很高，因为他过着情感丰富、富于想象的人生。",
+        "vocabulary": [
+          {
+            "word": "must have been",
+            "meaning": "想必曾经是；根据迹象对过去作强推断",
+            "context": "此处体现作者判断，不等同有两人实测分数；不把 must 当外部义务。",
+            "example": "The ground is wet; it must have been raining.",
+            "collocations": [
+              "must have been high in",
+              "a retrospective inference"
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}
