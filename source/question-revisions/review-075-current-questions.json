@@ -1,0 +1,1742 @@
+{
+  "schemaVersion": 1,
+  "batchId": "question-review-2026-10-28-075",
+  "sourceCommit": "fa656e7e29a6c3c066ec9fe50a184cfb7a94141f",
+  "pdfSha256": "be25c859f1bd894a4b0d1cff024ded1297f6a96a8e8ddabea1e3abcf89160a50",
+  "frozenAt": "2026-10-29T10:25:29.606Z",
+  "questions": [
+    {
+      "id": "q-c08-061",
+      "version": 1,
+      "readingUnitId": "c08-s07-p088-00982-r009-011",
+      "chapterId": "c08",
+      "sectionId": "c08-s07",
+      "paragraphId": "c08-s07-p088-00982",
+      "sentenceIds": [
+        "c08-s07-p088-00982-s009",
+        "c08-s07-p088-00982-s010",
+        "c08-s07-p088-00982-s011"
+      ],
+      "passage": "Is efficiency everything? Escape the productivity trap once in a while. Think of a slower way to do the same thing —bake your own bread; hand-grind your own coffee beans…do it yourself, and add some spice to your life.",
+      "prompt": "What change does the closing invitation recommend?",
+      "options": [
+        "Never paying attention to productivity in any area of life.",
+        "Replacing all paid work permanently with bread making.",
+        "Finding the fastest available method for every everyday activity.",
+        "Occasionally choosing a slower hands-on way to add variety to life."
+      ],
+      "answer": 3,
+      "type": "作者意图",
+      "promptZh": "结尾的邀请建议作什么改变？",
+      "optionsZh": [
+        "生活任何领域都永不考虑生产力。",
+        "永久把所有有偿工作换成烤面包。",
+        "为每项日常活动寻找最快方法。",
+        "偶尔选较慢、亲手做的方式，为生活增添变化。"
+      ],
+      "analyses": [
+        "A once in a while 限定为偶尔，不是永不考虑。",
+        "B bake...hand-grind 是生活例子，不是永久改职业。",
+        "C slower way 与一律最快相反。",
+        "D 偶尔离开效率优先、用DIY增添 spice 的意思完整。spice 是比喻性的趣味变化，不要求实际给咖啡或面包加某种香料。"
+      ],
+      "evidence": [
+        {
+          "quote": "Escape the productivity trap once in a while.",
+          "sentenceIds": [
+            "c08-s07-p088-00982-s010"
+          ],
+          "sources": [
+            {
+              "pdfPage": 88,
+              "block": 1,
+              "bbox": [
+                76.99,
+                98.25,
+                535.01,
+                346.77
+              ]
+            }
+          ]
+        },
+        {
+          "quote": "Think of a slower way to do the same thing",
+          "sentenceIds": [
+            "c08-s07-p088-00982-s011"
+          ],
+          "sources": [
+            {
+              "pdfPage": 88,
+              "block": 1,
+              "bbox": [
+                76.99,
+                98.25,
+                535.01,
+                346.77
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "once in a while",
+          "meaning": "偶尔；有时",
+          "context": "限定离开生产力陷阱的频率，不是彻底放弃效率",
+          "example": "Once in a while, we cook a meal entirely from scratch.",
+          "collocations": [
+            "once in a while",
+            "escape the routine once in a while"
+          ]
+        }
+      ],
+      "translation": "效率就是一切吗？偶尔逃离生产力陷阱吧。想一种较慢的方式来做同一件事——自己烤面包，亲手研磨咖啡豆……自己动手，为生活增添一点趣味。",
+      "support": "explicit",
+      "editorialStatus": "PDF 第 85–90 页逐题原页核对；固定原句与来源；保留外包调查与实验、自报、未实证推测、DIY回忆和反事实、文学引述及原书时点；原文连续无重复",
+      "fingerprint": "fcbcb9f83a4a9a4d757b0e4dedc22f9eb3574034a034434102baf9f73d6ed30c"
+    },
+    {
+      "id": "qe-c08-0098",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-032",
+      "parentQuestionId": "q-c08-061",
+      "chapterId": "c08",
+      "sectionId": "c08-s07",
+      "paragraphId": "c08-s07-p088-00982",
+      "readingUnitId": "c08-s07-p088-00982-r009-011",
+      "sentenceIds": [
+        "c08-s07-p088-00982-s009",
+        "c08-s07-p088-00982-s010",
+        "c08-s07-p088-00982-s011"
+      ],
+      "passage": "Is efficiency everything? Escape the productivity trap once in a while. Think of a slower way to do the same thing —bake your own bread; hand-grind your own coffee beans…do it yourself, and add some spice to your life.",
+      "prompt": "How does 'Is efficiency everything?' relate to the advice that follows?",
+      "promptZh": "Is efficiency everything? 与后面建议怎样关联？",
+      "options": [
+        "It establishes efficiency as the only valid goal without exception.",
+        "It questions making efficiency the sole priority and introduces occasional slower activities.",
+        "It tells the reader never to use any efficient method again.",
+        "It reports a completed experiment on every form of baking and coffee-making."
+      ],
+      "optionsZh": [
+        "毫无例外地确立效率为唯一目标。",
+        "质疑唯效率优先，并引出偶尔选择较慢活动。",
+        "要求读者从此绝不使用高效方法。",
+        "报告对所有烘焙与磨咖啡方式已完成的实验。"
+      ],
+      "answer": 1,
+      "type": "作者意图",
+      "support": "explicit",
+      "analyses": [
+        "A 反问与 Escape the productivity trap 方向相反。",
+        "B once in a while 限定偶尔，后面烤面包、手磨咖啡举较慢亲自动手的例子。",
+        "C 把偶尔扩大为永不，超出原文。",
+        "D 是建议及例子，不是报告全形式实验。"
+      ],
+      "vocabulary": [
+        {
+          "word": "once in a while",
+          "meaning": "偶尔；时不时",
+          "context": "限定摆脱生产力陷阱的频率，不是要求时时刻刻拒绝效率。",
+          "example": "Once in a while, he takes the longer path home.",
+          "collocations": [
+            "Escape the productivity trap once in a while",
+            "a slower way"
+          ]
+        }
+      ],
+      "translation": "效率就是一切吗？偶尔逃离生产力陷阱吧。想一种较慢的方式来做同一件事——自己烤面包，亲手研磨咖啡豆……自己动手，为生活增添一点趣味。",
+      "evidenceTargetIds": [
+        "c08-s07-p088-00982-s009"
+      ],
+      "evidence": [
+        {
+          "quote": "Is efficiency everything? Escape the productivity trap once in a while. Think of a slower way to do the same thing —bake your own bread; hand-grind your own coffee beans…do it yourself, and add some spice to your life.",
+          "sentenceIds": [
+            "c08-s07-p088-00982-s009",
+            "c08-s07-p088-00982-s010",
+            "c08-s07-p088-00982-s011"
+          ],
+          "sources": [
+            {
+              "pdfPage": 88,
+              "block": 1,
+              "bbox": [
+                76.99,
+                98.25,
+                535.01,
+                346.77
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "594fe487a29bff9549e84644b5cd9265bb33215e924b9a30990a255b38b3fcc8"
+    },
+    {
+      "id": "q-c09-001",
+      "version": 1,
+      "readingUnitId": "c09-s01-p089-03458-r001-002",
+      "chapterId": "c09",
+      "sectionId": "c09-s01",
+      "paragraphId": "c09-s01-p089-03458",
+      "sentenceIds": [
+        "c09-s01-p089-03458-s001",
+        "c09-s01-p089-03458-s002"
+      ],
+      "passage": "Most psychologically rich experiences I have discussed so far are firsthand, direct experiences, like study abroad and building a patio. Can aesthetic experiences such as reading novels produce the same kind of psychological richness?",
+      "prompt": "What question opens the discussion of aesthetic experience?",
+      "options": [
+        "Whether direct experiences have ever been discussed before.",
+        "Whether reading novels can offer richness comparable to direct experiences.",
+        "Whether building a patio is a form of publishing a novel.",
+        "Whether study abroad is the only possible source of richness."
+      ],
+      "answer": 1,
+      "type": "作者意图",
+      "promptZh": "关于审美体验的讨论以什么问题开头？",
+      "optionsZh": [
+        "此前是否曾讨论直接体验。",
+        "读小说能否提供与直接体验相似的心理丰富性。",
+        "建露台是否是一种出版小说的行为。",
+        "留学是否是心理丰富性的唯一来源。"
+      ],
+      "analyses": [
+        "A I have discussed so far 承认此前已有讨论。",
+        "B 把 firsthand 的例子与 aesthetic experiences such as reading novels 联系起来，正是章节设问。",
+        "C 两类体验在比较，不是说建造就是出版。",
+        "D like...and... 提供多个例子，没有 only。Can 是引出主题的设问，此处还不是新实验发现。"
+      ],
+      "evidence": [
+        {
+          "quote": "Can aesthetic experiences such as reading novels produce the same kind of psychological richness?",
+          "sentenceIds": [
+            "c09-s01-p089-03458-s002"
+          ],
+          "sources": [
+            {
+              "pdfPage": 89,
+              "block": 5,
+              "bbox": [
+                76.99,
+                345.75,
+                535.01,
+                418.77
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "firsthand",
+          "meaning": "亲身的；直接经历的",
+          "context": "留学、建露台属于自己参与的体验，与通过小说的体验相对照",
+          "example": "The report included firsthand accounts from local residents.",
+          "collocations": [
+            "firsthand experience",
+            "firsthand accounts"
+          ]
+        }
+      ],
+      "translation": "到目前为止，我讨论的大多数心理丰富体验都是亲身、直接的体验，例如留学和建露台。读小说这样的审美体验，能产生同样的心理丰富性吗？",
+      "support": "explicit",
+      "editorialStatus": "PDF 第 85–90 页逐题原页核对；固定原句与来源；保留外包调查与实验、自报、未实证推测、DIY回忆和反事实、文学引述及原书时点；原文连续无重复",
+      "fingerprint": "9946df8e7bfcd152a4991058a60855bcd0f7790e1c2842865852d2219a428a45"
+    },
+    {
+      "id": "qe-c09-0001",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-032",
+      "parentQuestionId": "q-c09-001",
+      "chapterId": "c09",
+      "sectionId": "c09-s01",
+      "paragraphId": "c09-s01-p089-03458",
+      "readingUnitId": "c09-s01-p089-03458-r001-002",
+      "sentenceIds": [
+        "c09-s01-p089-03458-s001",
+        "c09-s01-p089-03458-s002"
+      ],
+      "passage": "Most psychologically rich experiences I have discussed so far are firsthand, direct experiences, like study abroad and building a patio. Can aesthetic experiences such as reading novels produce the same kind of psychological richness?",
+      "prompt": "What kind of experience has the author mainly discussed up to this point?",
+      "promptZh": "到此为止，作者主要讨论哪类体验？",
+      "options": [
+        "Firsthand experiences, illustrated by studying abroad and building a patio.",
+        "Only aesthetic experiences obtained entirely through novels.",
+        "Every possible kind of experience without any exceptions.",
+        "Only laboratory tasks completed by professional booksellers."
+      ],
+      "optionsZh": [
+        "亲身体验，例如留学与建露台。",
+        "只有完全通过小说获得的审美体验。",
+        "毫无例外地谈过所有可能体验。",
+        "只有专业书商完成的实验室任务。"
+      ],
+      "answer": 0,
+      "type": "篇章结构",
+      "support": "explicit",
+      "analyses": [
+        "A Most 与 so far 作回顾范围，firsthand, direct 后面给两个例子。",
+        "B 小说审美体验是后一个新问题，不是此前主要对象。",
+        "C Most 不是 all，discussed so far 也不是穷尽所有体验。",
+        "D 没有把此前材料都限定成书商实验；本段在为新的审美维度铺垫。"
+      ],
+      "vocabulary": [
+        {
+          "word": "firsthand",
+          "meaning": "亲身的；直接经历的",
+          "context": "与通过阅读获得的审美体验作区分，不是二手转述。",
+          "example": "Her firsthand experience of the city shaped the memoir.",
+          "collocations": [
+            "firsthand, direct experiences",
+            "study abroad and building a patio"
+          ]
+        }
+      ],
+      "translation": "到目前为止，我讨论的大多数心理丰富体验都是亲身、直接的体验，例如留学和建露台。读小说这样的审美体验，能产生同样的心理丰富性吗？",
+      "evidenceTargetIds": [
+        "c09-s01-p089-03458-s001"
+      ],
+      "evidence": [
+        {
+          "quote": "Most psychologically rich experiences I have discussed so far are firsthand, direct experiences, like study abroad and building a patio. Can aesthetic experiences such as reading novels produce the same kind of psychological richness?",
+          "sentenceIds": [
+            "c09-s01-p089-03458-s001",
+            "c09-s01-p089-03458-s002"
+          ],
+          "sources": [
+            {
+              "pdfPage": 89,
+              "block": 5,
+              "bbox": [
+                76.99,
+                345.75,
+                535.01,
+                418.77
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "f4d469a11e5e09c99a6c0a7f3fb8c7d53e283b2b78b4a2a5f020237b2e04ad4a"
+    },
+    {
+      "id": "q-c09-002",
+      "version": 1,
+      "readingUnitId": "c09-s01-p089-04238-r001-004",
+      "chapterId": "c09",
+      "sectionId": "c09-s01",
+      "paragraphId": "c09-s01-p089-04238",
+      "sentenceIds": [
+        "c09-s01-p089-04238-s001",
+        "c09-s01-p089-04238-s002",
+        "c09-s01-p089-04238-s003",
+        "c09-s01-p089-04238-s004"
+      ],
+      "passage": "Mohammed Aziz would certainly say yes. Aziz is a seventy-two-year-old bookseller in Rabat Medina, Morocco. He was orphaned at age six. He became a fisherman to try to make a living and achieve his dream of graduating high school.",
+      "prompt": "What purpose is given for Aziz’s becoming a fisherman?",
+      "options": [
+        "To make a living and try to realize his dream of finishing high school.",
+        "To finance a bookstore he already owned at age six.",
+        "To avoid ever returning to education because he disliked books.",
+        "To retire from bookselling after a completed university degree."
+      ],
+      "answer": 0,
+      "type": "细节",
+      "promptZh": "原文说 Aziz 为什么成为渔夫？",
+      "optionsZh": [
+        "谋生，并努力实现高中毕业的梦想。",
+        "为六岁时已拥有的书店筹款。",
+        "因讨厌书而永不再上学。",
+        "大学毕业后从卖书退休。"
+      ],
+      "analyses": [
+        "A make a living 与 dream of graduating high school 是两个明示目的；try 表示努力，不等于已毕业。",
+        "B 六岁时发生的是失去父母，不是已有书店。",
+        "C 本片段给出求学梦想，没有厌书或放弃一切教育的动机。",
+        "D 没有大学学位或退休信息。seventy-two-year-old 是书中人物叙述的年龄，不能直接当作现在年龄。"
+      ],
+      "evidence": [
+        {
+          "quote": "He became a fisherman to try to make a living and achieve his dream of graduating high school.",
+          "sentenceIds": [
+            "c09-s01-p089-04238-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 89,
+              "block": 6,
+              "bbox": [
+                76.99,
+                423.75,
+                535.01,
+                633.27
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "orphaned",
+          "meaning": "成为孤儿的；失去父母的",
+          "context": "说明 Aziz 六岁时的处境，不是六岁开始经营书店",
+          "example": "The story follows a child orphaned at an early age.",
+          "collocations": [
+            "be orphaned at age six",
+            "an orphaned child"
+          ]
+        }
+      ],
+      "translation": "Mohammed Aziz 肯定会回答“能”。Aziz 是 Morocco 的 Rabat Medina 一位七十二岁的书商。他六岁时成了孤儿。他做渔夫，试图维持生计，并实现高中毕业的梦想。",
+      "support": "explicit",
+      "editorialStatus": "PDF 第 85–90 页逐题原页核对；固定原句与来源；保留外包调查与实验、自报、未实证推测、DIY回忆和反事实、文学引述及原书时点；原文连续无重复",
+      "fingerprint": "2c1cc7083f0c12b61b08a951b5e1db7e8c88ee38e685bac04a17e010b0432151"
+    },
+    {
+      "id": "qe-c09-0002",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-032",
+      "parentQuestionId": "q-c09-002",
+      "chapterId": "c09",
+      "sectionId": "c09-s01",
+      "paragraphId": "c09-s01-p089-04238",
+      "readingUnitId": "c09-s01-p089-04238-r001-004",
+      "sentenceIds": [
+        "c09-s01-p089-04238-s001",
+        "c09-s01-p089-04238-s002",
+        "c09-s01-p089-04238-s003",
+        "c09-s01-p089-04238-s004"
+      ],
+      "passage": "Mohammed Aziz would certainly say yes. Aziz is a seventy-two-year-old bookseller in Rabat Medina, Morocco. He was orphaned at age six. He became a fisherman to try to make a living and achieve his dream of graduating high school.",
+      "prompt": "What does 'would certainly say yes' convey about Aziz's expected response?",
+      "promptZh": "would certainly say yes 表达作者预计 Aziz 会怎样回应？",
+      "options": [
+        "A cautious rejection presented as unlikely.",
+        "An answer recorded as a numerical result from a controlled experiment.",
+        "A confident expectation of an affirmative response.",
+        "An explicit statement that Aziz refused to express any view."
+      ],
+      "optionsZh": [
+        "被说成不太可能的谨慎否定。",
+        "作为对照实验数值结果记录的回答。",
+        "有把握地预计他会作肯定回应。",
+        "明确说 Aziz 拒绝表达任何观点。"
+      ],
+      "answer": 2,
+      "type": "语气与范围",
+      "support": "explicit",
+      "analyses": [
+        "A yes 是肯定，certainly 也不是不太可能。",
+        "B 句子是叙事中的预期表述，不是实验统计值。",
+        "C would 配 certainly，呈现作者对其肯定回应的把握；本短段不把这句话当逐字采访引语。",
+        "D would say yes 与拒绝表达不同；不添加原文未给的测量或直接引语。"
+      ],
+      "vocabulary": [
+        {
+          "word": "certainly",
+          "meaning": "肯定地；无疑地",
+          "context": "修饰作者预计的肯定回应，区分语气确定与新实验已证因果。",
+          "example": "She would certainly welcome another chance to read the manuscript.",
+          "collocations": [
+            "would certainly say yes",
+            "an affirmative response"
+          ]
+        }
+      ],
+      "translation": "Mohammed Aziz 肯定会回答“能”。Aziz 是 Morocco 的 Rabat Medina 一位七十二岁的书商。他六岁时成了孤儿。他做渔夫，试图维持生计，并实现高中毕业的梦想。",
+      "evidenceTargetIds": [
+        "c09-s01-p089-04238-s001"
+      ],
+      "evidence": [
+        {
+          "quote": "Mohammed Aziz would certainly say yes.",
+          "sentenceIds": [
+            "c09-s01-p089-04238-s001"
+          ],
+          "sources": [
+            {
+              "pdfPage": 89,
+              "block": 6,
+              "bbox": [
+                76.99,
+                423.75,
+                535.01,
+                633.27
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "868bf022fc1485d667a0f530c9c3e77e98e562ecc12b7d339f562409bbb0eb22"
+    },
+    {
+      "id": "qe-c09-0003",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-032",
+      "parentQuestionId": "q-c09-002",
+      "chapterId": "c09",
+      "sectionId": "c09-s01",
+      "paragraphId": "c09-s01-p089-04238",
+      "readingUnitId": "c09-s01-p089-04238-r001-004",
+      "sentenceIds": [
+        "c09-s01-p089-04238-s001",
+        "c09-s01-p089-04238-s002",
+        "c09-s01-p089-04238-s003",
+        "c09-s01-p089-04238-s004"
+      ],
+      "passage": "Mohammed Aziz would certainly say yes. Aziz is a seventy-two-year-old bookseller in Rabat Medina, Morocco. He was orphaned at age six. He became a fisherman to try to make a living and achieve his dream of graduating high school.",
+      "prompt": "How is Aziz identified in this passage?",
+      "promptZh": "片段如何介绍 Aziz 的身份？",
+      "options": [
+        "A six-year-old textbook author working abroad.",
+        "A seventy-two-year-old fisherman living in Japan.",
+        "A Moroccan university graduate whose age is not given.",
+        "A seventy-two-year-old bookseller in Rabat Medina, Morocco."
+      ],
+      "optionsZh": [
+        "在国外工作的六岁教材作者。",
+        "住在日本的七十二岁渔夫。",
+        "年龄未说明的摩洛哥大学毕业生。",
+        "摩洛哥 Rabat Medina 的七十二岁书商。"
+      ],
+      "answer": 3,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A six 是成为孤儿时的年龄，不是此处书商年龄，也非教材作者。",
+        "B 后文渔夫是过去谋生经历，地点并非日本。",
+        "C 原文给年龄，梦想是高中毕业，并没有说大学毕业。",
+        "D 年龄、职业和地点均逐项对应；按书中叙述时点，不将年龄当今天实时年龄。"
+      ],
+      "vocabulary": [
+        {
+          "word": "bookseller",
+          "meaning": "书商；售书人",
+          "context": "区别于作家、出版者及过去的渔夫身份。",
+          "example": "The bookseller recommended a short novel to a visitor.",
+          "collocations": [
+            "a seventy-two-year-old bookseller",
+            "a bookseller in Rabat Medina"
+          ]
+        }
+      ],
+      "translation": "Mohammed Aziz 肯定会回答“能”。Aziz 是 Morocco 的 Rabat Medina 一位七十二岁的书商。他六岁时成了孤儿。他做渔夫，试图维持生计，并实现高中毕业的梦想。",
+      "evidenceTargetIds": [
+        "c09-s01-p089-04238-s002"
+      ],
+      "evidence": [
+        {
+          "quote": "Aziz is a seventy-two-year-old bookseller in Rabat Medina, Morocco.",
+          "sentenceIds": [
+            "c09-s01-p089-04238-s002"
+          ],
+          "sources": [
+            {
+              "pdfPage": 89,
+              "block": 6,
+              "bbox": [
+                76.99,
+                423.75,
+                535.01,
+                633.27
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "df1f6d57ae24525b9b53d6f0383fde90c5e7c919d37492a5a4f78086f485f438"
+    },
+    {
+      "id": "qe-c09-0004",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-033",
+      "parentQuestionId": "q-c09-002",
+      "chapterId": "c09",
+      "sectionId": "c09-s01",
+      "paragraphId": "c09-s01-p089-04238",
+      "readingUnitId": "c09-s01-p089-04238-r001-004",
+      "sentenceIds": [
+        "c09-s01-p089-04238-s001",
+        "c09-s01-p089-04238-s002",
+        "c09-s01-p089-04238-s003",
+        "c09-s01-p089-04238-s004"
+      ],
+      "passage": "Mohammed Aziz would certainly say yes. Aziz is a seventy-two-year-old bookseller in Rabat Medina, Morocco. He was orphaned at age six. He became a fisherman to try to make a living and achieve his dream of graduating high school.",
+      "prompt": "Which event is specifically placed at age six in Aziz's account?",
+      "promptZh": "Aziz 的经历中，哪件事明确发生在六岁？",
+      "options": [
+        "Becoming an orphan.",
+        "Dropping out because of textbook costs.",
+        "Opening the bookstore he now owns.",
+        "Completing his high-school education."
+      ],
+      "optionsZh": [
+        "成为孤儿。",
+        "因教材费用退学。",
+        "开设如今拥有的书店。",
+        "完成高中教育。"
+      ],
+      "answer": 0,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A orphaned at age six 明确对应，未添加父母死亡的具体原因。",
+        "B 不能把后文十五岁退学前移到六岁。",
+        "C 开书店的年龄在此未给。",
+        "D achieve his dream 是后来努力的目标，不能写成六岁已完成；按书中人物自述背景理解。"
+      ],
+      "vocabulary": [
+        {
+          "word": "orphaned",
+          "meaning": "成为孤儿的；失去父母的",
+          "context": "此处被动 was orphaned 描述幼年处境，不表示他收养别人。",
+          "example": "The story follows a child who was orphaned at an early age.",
+          "collocations": [
+            "orphaned at age six",
+            "was orphaned"
+          ]
+        }
+      ],
+      "translation": "Mohammed Aziz 肯定会回答“能”。Aziz 是 Morocco 的 Rabat Medina 一位七十二岁的书商。他六岁时成了孤儿。他做渔夫，试图维持生计，并实现高中毕业的梦想。",
+      "evidenceTargetIds": [
+        "c09-s01-p089-04238-s003"
+      ],
+      "evidence": [
+        {
+          "quote": "Mohammed Aziz would certainly say yes. Aziz is a seventy-two-year-old bookseller in Rabat Medina, Morocco. He was orphaned at age six. He became a fisherman to try to make a living and achieve his dream of graduating high school.",
+          "sentenceIds": [
+            "c09-s01-p089-04238-s001",
+            "c09-s01-p089-04238-s002",
+            "c09-s01-p089-04238-s003",
+            "c09-s01-p089-04238-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 89,
+              "block": 6,
+              "bbox": [
+                76.99,
+                423.75,
+                535.01,
+                633.27
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "95486dc82363b4cac92d214076b6819368bbe4556c540b7b4d92b83db31237b7"
+    },
+    {
+      "id": "q-c09-003",
+      "version": 1,
+      "readingUnitId": "c09-s01-p089-04238-r005-008",
+      "chapterId": "c09",
+      "sectionId": "c09-s01",
+      "paragraphId": "c09-s01-p089-04238",
+      "sentenceIds": [
+        "c09-s01-p089-04238-s005",
+        "c09-s01-p089-04238-s006",
+        "c09-s01-p089-04238-s007",
+        "c09-s01-p089-04238-s008"
+      ],
+      "passage": "However, at age fifteen, the high cost of textbooks forced him to drop out. He channeled this frustration into a career selling books, starting out with only a rug and nine books set up in the shade under a tree. Now he owns a bookstore and spends six to eight hours a day reading. In an interview, he said, “My life revolves around reading….",
+      "prompt": "What forced Aziz to leave school at fifteen?",
+      "options": [
+        "His lack of interest in reading novels.",
+        "The cost of maintaining a bookstore he already owned.",
+        "The high price of textbooks.",
+        "A requirement to spend eight hours a day selling books."
+      ],
+      "answer": 2,
+      "type": "细节",
+      "promptZh": "什么迫使 Aziz 十五岁时退学？",
+      "optionsZh": [
+        "他对读小说毫无兴趣。",
+        "维持已拥有书店的费用。",
+        "教材价格高昂。",
+        "每天必须卖书八小时的规定。"
+      ],
+      "analyses": [
+        "A high cost 是财务原因，不是缺乏读书兴趣。",
+        "B 原因是教材费用，开卖书事业发生在挫折之后。",
+        "C the high cost of textbooks 直接对应。",
+        "D six to eight hours 是书中所述每天阅读时间，不是当年卖书的规定。末尾引语在既有短段边界处续到下一段，保留原英文省略号，不补造引文。Now 指书中叙述时点。"
+      ],
+      "evidence": [
+        {
+          "quote": "at age fifteen, the high cost of textbooks forced him to drop out.",
+          "sentenceIds": [
+            "c09-s01-p089-04238-s005"
+          ],
+          "sources": [
+            {
+              "pdfPage": 89,
+              "block": 6,
+              "bbox": [
+                76.99,
+                423.75,
+                535.01,
+                633.27
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "channeled",
+          "meaning": "把……转向；将情绪投入某方向",
+          "context": "把退学挫折转化为卖书事业的动力，而非情绪消失的测量",
+          "example": "She channeled her frustration into learning a new skill.",
+          "collocations": [
+            "channel frustration into a career",
+            "channel energy into something"
+          ]
+        }
+      ],
+      "translation": "然而，十五岁时，高昂的教材费用迫使他退学。他把这种挫折转向卖书的事业，起初只有一张地毯和九本书，摆在树荫下。如今他拥有一家书店，每天花六至八小时阅读。在访谈中他说：“我的生活围绕阅读展开……（引语续下段）",
+      "support": "explicit",
+      "editorialStatus": "PDF 第 85–90 页逐题原页核对；固定原句与来源；保留外包调查与实验、自报、未实证推测、DIY回忆和反事实、文学引述及原书时点；原文连续无重复",
+      "fingerprint": "d0ceaca6f07b9a9408eef65d32252beaa42b86f08968cb9d7dd279431d0b2ccd"
+    },
+    {
+      "id": "qe-c09-0005",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-033",
+      "parentQuestionId": "q-c09-003",
+      "chapterId": "c09",
+      "sectionId": "c09-s01",
+      "paragraphId": "c09-s01-p089-04238",
+      "readingUnitId": "c09-s01-p089-04238-r005-008",
+      "sentenceIds": [
+        "c09-s01-p089-04238-s005",
+        "c09-s01-p089-04238-s006",
+        "c09-s01-p089-04238-s007",
+        "c09-s01-p089-04238-s008"
+      ],
+      "passage": "However, at age fifteen, the high cost of textbooks forced him to drop out. He channeled this frustration into a career selling books, starting out with only a rug and nine books set up in the shade under a tree. Now he owns a bookstore and spends six to eight hours a day reading. In an interview, he said, “My life revolves around reading….",
+      "prompt": "How did Aziz respond to the frustration described in this excerpt?",
+      "promptZh": "Aziz 如何回应片段中的挫折？",
+      "options": [
+        "He immediately bought a large bookstore with extensive stock.",
+        "He stopped having any involvement with books.",
+        "He redirected it into selling books, beginning with a rug and nine books under a tree.",
+        "He used the nine books as proof he had graduated from high school."
+      ],
+      "optionsZh": [
+        "立即买下藏书丰富的大书店。",
+        "从此不再与书有任何关系。",
+        "把挫折转向售书，起初只有树下一张地毯和九本书。",
+        "以九本书证明自己已高中毕业。"
+      ],
+      "answer": 2,
+      "type": "逻辑关系",
+      "support": "explicit",
+      "analyses": [
+        "A starting out with only 表明简陋起步，大书店属于后来。",
+        "B career selling books 与离开书相反。",
+        "C channeled this frustration into 说明把退学挫折转化为职业行动，保留仅九本书的起点。",
+        "D 售书起步并不证明毕业；原句说教材贵迫使退学。"
+      ],
+      "vocabulary": [
+        {
+          "word": "channeled",
+          "meaning": "把……引向；转化用于某方向",
+          "context": "把情绪投入售书事业，不是字面修水渠，也不是假定挫折自动带来成功。",
+          "example": "She channeled her frustration into learning a new skill.",
+          "collocations": [
+            "channeled this frustration into a career",
+            "starting out with only"
+          ]
+        }
+      ],
+      "translation": "然而，十五岁时，高昂的教材费用迫使他退学。他把这种挫折转向卖书的事业，起初只有一张地毯和九本书，摆在树荫下。如今他拥有一家书店，每天花六至八小时阅读。在访谈中他说：“我的生活围绕阅读展开……（引语续下段）",
+      "evidenceTargetIds": [
+        "c09-s01-p089-04238-s006"
+      ],
+      "evidence": [
+        {
+          "quote": "However, at age fifteen, the high cost of textbooks forced him to drop out. He channeled this frustration into a career selling books, starting out with only a rug and nine books set up in the shade under a tree. Now he owns a bookstore and spends six to eight hours a day reading. In an interview, he said, “My life revolves around reading….",
+          "sentenceIds": [
+            "c09-s01-p089-04238-s005",
+            "c09-s01-p089-04238-s006",
+            "c09-s01-p089-04238-s007",
+            "c09-s01-p089-04238-s008"
+          ],
+          "sources": [
+            {
+              "pdfPage": 89,
+              "block": 6,
+              "bbox": [
+                76.99,
+                423.75,
+                535.01,
+                633.27
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "53e6280f41927ead0e9e92624fad96853dfbfe793af3239adbbeb18400c6651e"
+    },
+    {
+      "id": "qe-c09-0006",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-033",
+      "parentQuestionId": "q-c09-003",
+      "chapterId": "c09",
+      "sectionId": "c09-s01",
+      "paragraphId": "c09-s01-p089-04238",
+      "readingUnitId": "c09-s01-p089-04238-r005-008",
+      "sentenceIds": [
+        "c09-s01-p089-04238-s005",
+        "c09-s01-p089-04238-s006",
+        "c09-s01-p089-04238-s007",
+        "c09-s01-p089-04238-s008"
+      ],
+      "passage": "However, at age fifteen, the high cost of textbooks forced him to drop out. He channeled this frustration into a career selling books, starting out with only a rug and nine books set up in the shade under a tree. Now he owns a bookstore and spends six to eight hours a day reading. In an interview, he said, “My life revolves around reading….",
+      "prompt": "What does the book say about Aziz's daily reading at this later stage?",
+      "promptZh": "书中说 Aziz 到这一阶段每天如何阅读？",
+      "options": [
+        "He reads for twelve hours and works for only six.",
+        "He owns a bookstore and spends six to eight hours a day reading.",
+        "He reads nine books every hour under the same tree.",
+        "He no longer reads because selling has replaced reading entirely."
+      ],
+      "optionsZh": [
+        "阅读十二小时，只工作六小时。",
+        "拥有书店，每天阅读六至八小时。",
+        "仍在同一树下每小时读九本。",
+        "售书完全替代阅读，所以不再读。"
+      ],
+      "answer": 1,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A 将别段十二小时工作与六至八小时阅读错配。",
+        "B Now he owns...and spends six to eight hours... 两项准确对应。",
+        "C nine 是起步的书本数量，不是每小时阅读速度。",
+        "D 原文明确每天花时间读；Now 是书中叙述阶段，不是已核实的今日状态。"
+      ],
+      "vocabulary": [
+        {
+          "word": "spends",
+          "meaning": "花费；投入时间",
+          "context": "spend hours reading 是投入阅读时间，不是这里花钱买书。",
+          "example": "He spends an hour a day reading short stories.",
+          "collocations": [
+            "spends six to eight hours a day reading",
+            "spend time doing something"
+          ]
+        }
+      ],
+      "translation": "然而，十五岁时，高昂的教材费用迫使他退学。他把这种挫折转向卖书的事业，起初只有一张地毯和九本书，摆在树荫下。如今他拥有一家书店，每天花六至八小时阅读。在访谈中他说：“我的生活围绕阅读展开……（引语续下段）",
+      "evidenceTargetIds": [
+        "c09-s01-p089-04238-s007"
+      ],
+      "evidence": [
+        {
+          "quote": "However, at age fifteen, the high cost of textbooks forced him to drop out. He channeled this frustration into a career selling books, starting out with only a rug and nine books set up in the shade under a tree. Now he owns a bookstore and spends six to eight hours a day reading. In an interview, he said, “My life revolves around reading….",
+          "sentenceIds": [
+            "c09-s01-p089-04238-s005",
+            "c09-s01-p089-04238-s006",
+            "c09-s01-p089-04238-s007",
+            "c09-s01-p089-04238-s008"
+          ],
+          "sources": [
+            {
+              "pdfPage": 89,
+              "block": 6,
+              "bbox": [
+                76.99,
+                423.75,
+                535.01,
+                633.27
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "915512a9bb9e63a09fda121c28de4418aceb6d5d92b0e8e3f406f5bf98569e1f"
+    },
+    {
+      "id": "qe-c09-0007",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-033",
+      "parentQuestionId": "q-c09-003",
+      "chapterId": "c09",
+      "sectionId": "c09-s01",
+      "paragraphId": "c09-s01-p089-04238",
+      "readingUnitId": "c09-s01-p089-04238-r005-008",
+      "sentenceIds": [
+        "c09-s01-p089-04238-s005",
+        "c09-s01-p089-04238-s006",
+        "c09-s01-p089-04238-s007",
+        "c09-s01-p089-04238-s008"
+      ],
+      "passage": "However, at age fifteen, the high cost of textbooks forced him to drop out. He channeled this frustration into a career selling books, starting out with only a rug and nine books set up in the shade under a tree. Now he owns a bookstore and spends six to eight hours a day reading. In an interview, he said, “My life revolves around reading….",
+      "prompt": "What does Aziz mean by saying his life 'revolves around reading'?",
+      "promptZh": "Aziz 说生活 revolves around reading 是什么意思？",
+      "options": [
+        "He reads only as a minor activity unrelated to the rest of his life.",
+        "He avoids reading unless it produces immediate sales.",
+        "His daily schedule literally moves in a circle around a bookcase.",
+        "Reading is a central organising part of his life."
+      ],
+      "optionsZh": [
+        "阅读只是与其他生活无关的小活动。",
+        "除非立即带来销售，否则不读。",
+        "日程真的绕书柜作圆周运动。",
+        "阅读是其生活中居于核心、组织生活的部分。"
+      ],
+      "answer": 3,
+      "type": "语境词义",
+      "support": "explicit",
+      "analyses": [
+        "A revolves around 强调核心而非边缘。",
+        "B 没有只为即时销售才读的限制。",
+        "C 是比喻性中心，不是物理旋转。",
+        "D 与前句每天六至八小时阅读相呼应，保留采访归属；引语在下一短段继续，不能假装当前截段已是完整引语。"
+      ],
+      "vocabulary": [
+        {
+          "word": "revolves around",
+          "meaning": "以……为中心；围绕……展开",
+          "context": "在人物采访中指生活重心，不是天体或物体的轨道。",
+          "example": "Her weekly routine revolves around caring for the garden.",
+          "collocations": [
+            "My life revolves around reading",
+            "revolve around an interest"
+          ]
+        }
+      ],
+      "translation": "然而，十五岁时，高昂的教材费用迫使他退学。他把这种挫折转向卖书的事业，起初只有一张地毯和九本书，摆在树荫下。如今他拥有一家书店，每天花六至八小时阅读。在访谈中他说：“我的生活围绕阅读展开……（引语续下段）",
+      "evidenceTargetIds": [
+        "c09-s01-p089-04238-s008"
+      ],
+      "evidence": [
+        {
+          "quote": "However, at age fifteen, the high cost of textbooks forced him to drop out. He channeled this frustration into a career selling books, starting out with only a rug and nine books set up in the shade under a tree. Now he owns a bookstore and spends six to eight hours a day reading. In an interview, he said, “My life revolves around reading….",
+          "sentenceIds": [
+            "c09-s01-p089-04238-s005",
+            "c09-s01-p089-04238-s006",
+            "c09-s01-p089-04238-s007",
+            "c09-s01-p089-04238-s008"
+          ],
+          "sources": [
+            {
+              "pdfPage": 89,
+              "block": 6,
+              "bbox": [
+                76.99,
+                423.75,
+                535.01,
+                633.27
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "e86fd7656c499045f5a270fc64c7d25865b95562e42a8cb6de416dfae85125e8"
+    },
+    {
+      "id": "q-c09-004",
+      "version": 1,
+      "readingUnitId": "c09-s01-p089-04238-r009-011",
+      "chapterId": "c09",
+      "sectionId": "c09-s01",
+      "paragraphId": "c09-s01-p089-04238",
+      "sentenceIds": [
+        "c09-s01-p089-04238-s009",
+        "c09-s01-p089-04238-s010",
+        "c09-s01-p089-04238-s011"
+      ],
+      "passage": "I’ve read more than 4,000 books, so I’ve lived more than 4,000 lives.” Aziz works twelve hours a day and rarely takes vacations. All the same, he has accumulated a wealth of psychologically rich experiences by living 4,000 lives through 4,000 books.",
+      "prompt": "What is meant by Aziz’s statement about living more than 4,000 lives?",
+      "options": [
+        "He has held more than 4,000 paid jobs during his lifetime.",
+        "Reading many books has let him imaginatively experience many lives.",
+        "He has taken more than 4,000 separate vacations.",
+        "The passage reports a scientific count of literal reincarnations."
+      ],
+      "answer": 1,
+      "type": "语境词义",
+      "promptZh": "Aziz 所说活过四千多种人生是什么意思？",
+      "optionsZh": [
+        "一生做过四千多份有薪工作。",
+        "阅读许多书，让他在想象中体验许多人生。",
+        "他已度过四千多次独立假期。",
+        "片段报告对真实轮回次数的科学计数。"
+      ],
+      "analyses": [
+        "A lives 由 books 的阅读经验引出，不是职业数量。",
+        "B read...books, so...lives 将阅读与想象中的人生体验联系，是比喻。",
+        "C rarely takes vacations 恰好表明很少休假。",
+        "D 这是人物引语与作者阐释，没有转世实验。十二小时工作与心理丰富并列，不能把长工时本身当成丰富性的确定原因。"
+      ],
+      "evidence": [
+        {
+          "quote": "I’ve read more than 4,000 books, so I’ve lived more than 4,000 lives.",
+          "sentenceIds": [
+            "c09-s01-p089-04238-s009"
+          ],
+          "sources": [
+            {
+              "pdfPage": 89,
+              "block": 6,
+              "bbox": [
+                76.99,
+                423.75,
+                535.01,
+                633.27
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "All the same",
+          "meaning": "尽管如此；仍然",
+          "context": "在工作时间长、很少休假后，转向仍通过阅读积累丰富体验",
+          "example": "The journey was tiring. All the same, we were glad we went.",
+          "collocations": [
+            "all the same, he has",
+            "all the same, the experience"
+          ]
+        }
+      ],
+      "translation": "“我读过四千多本书，所以我活过四千多种人生。”Aziz 每天工作十二小时，很少休假。尽管如此，通过四千本书活过四千种人生，他积累了大量心理丰富的体验。",
+      "support": "explicit",
+      "editorialStatus": "PDF 第 85–90 页逐题原页核对；固定原句与来源；保留外包调查与实验、自报、未实证推测、DIY回忆和反事实、文学引述及原书时点；原文连续无重复",
+      "fingerprint": "5ad61b148ac2b06b5f2055edc8df01c428fb46657a30e54c055e7051028ade8f"
+    },
+    {
+      "id": "qe-c09-0008",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-033",
+      "parentQuestionId": "q-c09-004",
+      "chapterId": "c09",
+      "sectionId": "c09-s01",
+      "paragraphId": "c09-s01-p089-04238",
+      "readingUnitId": "c09-s01-p089-04238-r009-011",
+      "sentenceIds": [
+        "c09-s01-p089-04238-s009",
+        "c09-s01-p089-04238-s010",
+        "c09-s01-p089-04238-s011"
+      ],
+      "passage": "I’ve read more than 4,000 books, so I’ve lived more than 4,000 lives.” Aziz works twelve hours a day and rarely takes vacations. All the same, he has accumulated a wealth of psychologically rich experiences by living 4,000 lives through 4,000 books.",
+      "prompt": "What combination describes Aziz's work and holidays?",
+      "promptZh": "哪组描述符合 Aziz 的工作与休假？",
+      "options": [
+        "He works twelve hours a day and seldom takes holidays.",
+        "He reads twelve books each day and never works.",
+        "He works four thousand hours before every holiday.",
+        "He takes frequent holidays in order to work only a few hours."
+      ],
+      "optionsZh": [
+        "每天工作十二小时，很少休假。",
+        "每天读十二本书且从不工作。",
+        "每次休假前工作四千小时。",
+        "为每天只工作几小时而经常休假。"
+      ],
+      "answer": 0,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A twelve hours a day 与 rarely takes vacations 同时对应，rarely 不是绝对 never。",
+        "B twelve 计工作时数，不能换成读书数量。",
+        "C 四千关联书与人生比喻，不是连续工时。",
+        "D 与长工时、少休假两项均反；不据此推断所有时间分配完全不重叠。"
+      ],
+      "vocabulary": [
+        {
+          "word": "rarely",
+          "meaning": "很少；不常",
+          "context": "频率低但不等于绝无一次，避免把少休假加强成从不休假。",
+          "example": "The shopkeeper rarely closes the shop early.",
+          "collocations": [
+            "rarely takes vacations",
+            "works twelve hours a day"
+          ]
+        }
+      ],
+      "translation": "“我读过四千多本书，所以我活过四千多种人生。”Aziz 每天工作十二小时，很少休假。尽管如此，通过四千本书活过四千种人生，他积累了大量心理丰富的体验。",
+      "evidenceTargetIds": [
+        "c09-s01-p089-04238-s010"
+      ],
+      "evidence": [
+        {
+          "quote": "I’ve read more than 4,000 books, so I’ve lived more than 4,000 lives.” Aziz works twelve hours a day and rarely takes vacations. All the same, he has accumulated a wealth of psychologically rich experiences by living 4,000 lives through 4,000 books.",
+          "sentenceIds": [
+            "c09-s01-p089-04238-s009",
+            "c09-s01-p089-04238-s010",
+            "c09-s01-p089-04238-s011"
+          ],
+          "sources": [
+            {
+              "pdfPage": 89,
+              "block": 6,
+              "bbox": [
+                76.99,
+                423.75,
+                535.01,
+                633.27
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "3d1a7f05341d141ebebd63e6c83ade393083123669529507ad5b2e586352580b"
+    },
+    {
+      "id": "qe-c09-0009",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-033",
+      "parentQuestionId": "q-c09-004",
+      "chapterId": "c09",
+      "sectionId": "c09-s01",
+      "paragraphId": "c09-s01-p089-04238",
+      "readingUnitId": "c09-s01-p089-04238-r009-011",
+      "sentenceIds": [
+        "c09-s01-p089-04238-s009",
+        "c09-s01-p089-04238-s010",
+        "c09-s01-p089-04238-s011"
+      ],
+      "passage": "I’ve read more than 4,000 books, so I’ve lived more than 4,000 lives.” Aziz works twelve hours a day and rarely takes vacations. All the same, he has accumulated a wealth of psychologically rich experiences by living 4,000 lives through 4,000 books.",
+      "prompt": "What does 'All the same' signal in the description of Aziz?",
+      "promptZh": "介绍 Aziz 时，All the same 表示什么？",
+      "options": [
+        "The author is retracting the claim that Aziz reads books.",
+        "Every book necessarily gives every reader exactly the same experience.",
+        "Despite long working days and few holidays, books have provided abundant rich experiences.",
+        "Aziz has physically lived four thousand separate biological lives."
+      ],
+      "optionsZh": [
+        "作者撤回 Aziz 读书的说法。",
+        "每本书必给每个读者完全相同的体验。",
+        "尽管工作时间长、少休假，书仍带来丰富体验。",
+        "Aziz 在生物学上真的活了四千次。"
+      ],
+      "answer": 2,
+      "type": "逻辑关系",
+      "support": "explicit",
+      "analyses": [
+        "A 是让步转折，不是撤回阅读事实。",
+        "B 不是 all readers the same，也无必然同效。",
+        "C All the same 承接工时与少假，转出通过阅读积累体验。",
+        "D living 4,000 lives 是借书体验人生的比喻，不是真实寿命或样本数。"
+      ],
+      "vocabulary": [
+        {
+          "word": "All the same",
+          "meaning": "尽管如此；仍然",
+          "context": "连接受限的外出休假条件与通过阅读获得丰富体验的反差。",
+          "example": "The journey was tiring; all the same, she was glad she had gone.",
+          "collocations": [
+            "All the same, he has accumulated",
+            "a wealth of experiences"
+          ]
+        }
+      ],
+      "translation": "“我读过四千多本书，所以我活过四千多种人生。”Aziz 每天工作十二小时，很少休假。尽管如此，通过四千本书活过四千种人生，他积累了大量心理丰富的体验。",
+      "evidenceTargetIds": [
+        "c09-s01-p089-04238-s011"
+      ],
+      "evidence": [
+        {
+          "quote": "I’ve read more than 4,000 books, so I’ve lived more than 4,000 lives.” Aziz works twelve hours a day and rarely takes vacations. All the same, he has accumulated a wealth of psychologically rich experiences by living 4,000 lives through 4,000 books.",
+          "sentenceIds": [
+            "c09-s01-p089-04238-s009",
+            "c09-s01-p089-04238-s010",
+            "c09-s01-p089-04238-s011"
+          ],
+          "sources": [
+            {
+              "pdfPage": 89,
+              "block": 6,
+              "bbox": [
+                76.99,
+                423.75,
+                535.01,
+                633.27
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "436a1a72ed2a92d3b9186945b427f2405c859a4ef75853b21f6a9886f0d237e5"
+    },
+    {
+      "id": "q-c09-005",
+      "version": 1,
+      "readingUnitId": "c09-s01-p089-06382-r001-002",
+      "chapterId": "c09",
+      "sectionId": "c09-s01",
+      "paragraphId": "c09-s01-p089-06382",
+      "sentenceIds": [
+        "c09-s01-p089-06382-s001",
+        "c09-s01-p089-06382-s002"
+      ],
+      "passage": "In Swann’s Way, the opening volume of his masterpiece In Search of Lost Time, Marcel Proust reflects upon his own reading experiences: “These afternoons were crammed with more dramatic events than occur, often, in a whole lifetime. These were the events taking place in the book I was reading.”",
+      "prompt": "Where did the dramatic events filling Proust’s afternoons take place?",
+      "options": [
+        "In journeys he physically made during every afternoon.",
+        "In experiments comparing readers with nonreaders.",
+        "In meetings with the novelist at his house.",
+        "In the book he was reading."
+      ],
+      "answer": 3,
+      "type": "细节",
+      "promptZh": "填满 Proust 下午时光的戏剧性事件发生在哪里？",
+      "optionsZh": [
+        "他每个下午亲身进行的旅行中。",
+        "比较读者与不读书者的实验中。",
+        "他家中与小说家的会面中。",
+        "他正在阅读的书中。"
+      ],
+      "analyses": [
+        "A events taking place in the book 明确是书中事件，不是每次实际旅行。",
+        "B 此处文学反思，不是实验设计。",
+        "C 没有会见小说家的场景。",
+        "D 第二句引语直接说明事件发生位置。whole lifetime 是对阅读强度的文学比较，不是实际统计每个读者人生事件数量。"
+      ],
+      "evidence": [
+        {
+          "quote": "These were the events taking place in the book I was reading.",
+          "sentenceIds": [
+            "c09-s01-p089-06382-s002"
+          ],
+          "sources": [
+            {
+              "pdfPage": 89,
+              "block": 7,
+              "bbox": [
+                76.99,
+                638.25,
+                535.01,
+                711.27
+              ]
+            },
+            {
+              "pdfPage": 90,
+              "block": 0,
+              "bbox": [
+                76.99,
+                75,
+                535.01,
+                187.02
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "crammed with",
+          "meaning": "挤满；充满",
+          "context": "形容阅读的下午密集经历戏剧性事件，不是屋里挤满实体人物",
+          "example": "The short visit was crammed with unexpected discoveries.",
+          "collocations": [
+            "be crammed with events",
+            "afternoons crammed with drama"
+          ]
+        }
+      ],
+      "translation": "在其杰作 In Search of Lost Time 的开篇卷 Swann’s Way 中，Marcel Proust 回顾自己的阅读体验：“那些下午充满了戏剧性事件，其数量往往超过一生中发生的事件。那些都是发生在我正在阅读的书里的事件。”",
+      "support": "explicit",
+      "editorialStatus": "PDF 第 85–90 页逐题原页核对；固定原句与来源；保留外包调查与实验、自报、未实证推测、DIY回忆和反事实、文学引述及原书时点；原文连续无重复",
+      "fingerprint": "03c1e8570ece6221077cedb779ae94c6b8e665840f22250811deed9c8be83876"
+    },
+    {
+      "id": "qe-c09-0010",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-033",
+      "parentQuestionId": "q-c09-005",
+      "chapterId": "c09",
+      "sectionId": "c09-s01",
+      "paragraphId": "c09-s01-p089-06382",
+      "readingUnitId": "c09-s01-p089-06382-r001-002",
+      "sentenceIds": [
+        "c09-s01-p089-06382-s001",
+        "c09-s01-p089-06382-s002"
+      ],
+      "passage": "In Swann’s Way, the opening volume of his masterpiece In Search of Lost Time, Marcel Proust reflects upon his own reading experiences: “These afternoons were crammed with more dramatic events than occur, often, in a whole lifetime. These were the events taking place in the book I was reading.”",
+      "prompt": "How should Proust's account of dramatic afternoons be understood in this excerpt?",
+      "promptZh": "片段中，应如何理解 Proust 对戏剧性下午的描述？",
+      "options": [
+        "As a controlled measurement of how many events occur in every person's life.",
+        "As a literary reflection on experiencing many dramatic events through a book.",
+        "As a report that those events all physically happened in his room.",
+        "As the author's new survey comparing every novel ever published."
+      ],
+      "optionsZh": [
+        "对每个人一生事件数的对照测量。",
+        "通过书体验许多戏剧事件的文学回顾。",
+        "那些事都在其房间真实发生的报道。",
+        "本书作者对全部已出版小说的新调查。"
+      ],
+      "answer": 1,
+      "type": "观点归属",
+      "support": "explicit",
+      "analyses": [
+        "A literary quotation 不是对照试验，often 也非人人定量。",
+        "B Proust reflects upon... 后的引文，下一句明确 events taking place in the book。",
+        "C 将叙事世界事件错当现实房间事件。",
+        "D 没有全体小说抽样或新调查；Swann’s Way 是 In Search of Lost Time 开篇卷。"
+      ],
+      "vocabulary": [
+        {
+          "word": "crammed with",
+          "meaning": "充满；挤满",
+          "context": "在引文中强调书中戏剧事件的密集，不是房间被实体物品塞满。",
+          "example": "The short diary was crammed with vivid details.",
+          "collocations": [
+            "crammed with dramatic events",
+            "reflects upon reading experiences"
+          ]
+        }
+      ],
+      "translation": "在其杰作 In Search of Lost Time 的开篇卷 Swann’s Way 中，Marcel Proust 回顾自己的阅读体验：“那些下午充满了戏剧性事件，其数量往往超过一生中发生的事件。那些都是发生在我正在阅读的书里的事件。”",
+      "evidenceTargetIds": [
+        "c09-s01-p089-06382-s001"
+      ],
+      "evidence": [
+        {
+          "quote": "In Swann’s Way, the opening volume of his masterpiece In Search of Lost Time, Marcel Proust reflects upon his own reading experiences: “These afternoons were crammed with more dramatic events than occur, often, in a whole lifetime. These were the events taking place in the book I was reading.”",
+          "sentenceIds": [
+            "c09-s01-p089-06382-s001",
+            "c09-s01-p089-06382-s002"
+          ],
+          "sources": [
+            {
+              "pdfPage": 89,
+              "block": 7,
+              "bbox": [
+                76.99,
+                638.25,
+                535.01,
+                711.27
+              ]
+            },
+            {
+              "pdfPage": 90,
+              "block": 0,
+              "bbox": [
+                76.99,
+                75,
+                535.01,
+                187.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "05a7faae74c279d5fc648db58dab1b98d5f90faaed1e3cada8df63bba53912e5"
+    },
+    {
+      "id": "q-c09-006",
+      "version": 1,
+      "readingUnitId": "c09-s01-p089-06382-r003-004",
+      "chapterId": "c09",
+      "sectionId": "c09-s01",
+      "paragraphId": "c09-s01-p089-06382",
+      "sentenceIds": [
+        "c09-s01-p089-06382-s003",
+        "c09-s01-p089-06382-s004"
+      ],
+      "passage": "He went on to describe the magic novelists wield, remarking how “for the space of an hour he [the novelist] sets free within us all the joys and sorrows in the world, a few of which only we should have to spend years of our actual life in getting to know, and the most intense of which would never be revealed to us.” So, yes, it is possible to lead a psychologically rich life via books.",
+      "prompt": "What conclusion does the author draw from the novelist’s power described here?",
+      "options": [
+        "Books can make a psychologically rich life possible through access to many emotions.",
+        "Only direct travel can reveal emotions to a reader.",
+        "Every reader is guaranteed to feel all emotions within exactly one hour.",
+        "Reading removes the need for any firsthand experience in every life."
+      ],
+      "answer": 0,
+      "type": "主旨",
+      "promptZh": "作者从这里描述的小说家力量得出什么结论？",
+      "optionsZh": [
+        "书能让人接触多种情绪，从而使心理丰富人生成为可能。",
+        "只有亲自旅行能让读者认识情绪。",
+        "每位读者都保证在恰好一小时内体验全部情绪。",
+        "阅读使每个人都不再需要任何亲身体验。"
+      ],
+      "analyses": [
+        "A 最后 possible...via books 明示可能性，前面的 joys and sorrows 提供文学说明。",
+        "B 小说家的作用就是让人接触原本需要多年或不会亲历的情绪，不限旅行。",
+        "C 文学引语的 hour 不是给所有人的实测时限与保证。",
+        "D possible via books 不是阅读排除或替代全部直接体验。应区分作者结论与作为支持例子的 Proust 文学引述。"
+      ],
+      "evidence": [
+        {
+          "quote": "it is possible to lead a psychologically rich life via books.",
+          "sentenceIds": [
+            "c09-s01-p089-06382-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 90,
+              "block": 0,
+              "bbox": [
+                76.99,
+                75,
+                535.01,
+                187.02
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "wield",
+          "meaning": "运用；施展",
+          "context": "形容小说家运用文字使读者感受情绪的文学力量，不是挥舞实物",
+          "example": "The writer wields language with unusual precision.",
+          "collocations": [
+            "wield magic",
+            "wield the power of words"
+          ]
+        }
+      ],
+      "translation": "他接着描述小说家施展的魔力，说“在一个小时里，他［小说家］在我们内心释放世间全部喜悦与悲伤；其中仅仅少数，就需我们花真实人生中的多年才能认识，而最强烈的一些原本永远不会向我们显露”。因此，确实有可能通过书籍过一种心理丰富的人生。",
+      "support": "explicit",
+      "editorialStatus": "PDF 第 85–90 页逐题原页核对；固定原句与来源；保留外包调查与实验、自报、未实证推测、DIY回忆和反事实、文学引述及原书时点；原文连续无重复",
+      "fingerprint": "75f53fc767eb6784484f1e41fadb538e13b35e6354b1c92cf0d8d735d2a26ee0"
+    },
+    {
+      "id": "qe-c09-0011",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-033",
+      "parentQuestionId": "q-c09-006",
+      "chapterId": "c09",
+      "sectionId": "c09-s01",
+      "paragraphId": "c09-s01-p089-06382",
+      "readingUnitId": "c09-s01-p089-06382-r003-004",
+      "sentenceIds": [
+        "c09-s01-p089-06382-s003",
+        "c09-s01-p089-06382-s004"
+      ],
+      "passage": "He went on to describe the magic novelists wield, remarking how “for the space of an hour he [the novelist] sets free within us all the joys and sorrows in the world, a few of which only we should have to spend years of our actual life in getting to know, and the most intense of which would never be revealed to us.” So, yes, it is possible to lead a psychologically rich life via books.",
+      "prompt": "What power does the quoted passage attribute to novelists?",
+      "promptZh": "引文将怎样的力量归给小说家？",
+      "options": [
+        "They guarantee that readers will never experience sadness.",
+        "They replace all years of actual life with one literal hour.",
+        "They prove that every reader feels every emotion to an identical degree.",
+        "They can evoke intense joys and sorrows that real life might reveal only slowly or not at all."
+      ],
+      "optionsZh": [
+        "保证读者永远不悲伤。",
+        "用真实一小时取代全部真实人生。",
+        "证明每位读者以相同程度感到每种情绪。",
+        "能唤起现实人生可能需很久甚至从未显露的强烈喜悲。"
+      ],
+      "answer": 3,
+      "type": "主旨",
+      "support": "explicit",
+      "analyses": [
+        "A joys and sorrows 并列，不能只保留愉快。",
+        "B for the space of an hour 与 spend years 作体验对照，不是时间真的被替换。",
+        "C 文学修辞没有建立人人同效的测量结论。",
+        "D 对比小说中短时接触情感与现实多年或永不接触；保留引述归属，不将 all 修辞当严格实验全称结果。"
+      ],
+      "vocabulary": [
+        {
+          "word": "wield",
+          "meaning": "运用；施展某种力量",
+          "context": "这里搭配 magic，比喻小说家的感染力，不是字面挥动兵器。",
+          "example": "The writer wields imagery to make an unfamiliar scene vivid.",
+          "collocations": [
+            "the magic novelists wield",
+            "joys and sorrows"
+          ]
+        }
+      ],
+      "translation": "他接着描述小说家施展的魔力，说“在一个小时里，他［小说家］在我们内心释放世间全部喜悦与悲伤；其中仅仅少数，就需我们花真实人生中的多年才能认识，而最强烈的一些原本永远不会向我们显露”。因此，确实有可能通过书籍过一种心理丰富的人生。",
+      "evidenceTargetIds": [
+        "c09-s01-p089-06382-s003"
+      ],
+      "evidence": [
+        {
+          "quote": "He went on to describe the magic novelists wield, remarking how “for the space of an hour he [the novelist] sets free within us all the joys and sorrows in the world, a few of which only we should have to spend years of our actual life in getting to know, and the most intense of which would never be revealed to us.” So, yes, it is possible to lead a psychologically rich life via books.",
+          "sentenceIds": [
+            "c09-s01-p089-06382-s003",
+            "c09-s01-p089-06382-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 90,
+              "block": 0,
+              "bbox": [
+                76.99,
+                75,
+                535.01,
+                187.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "7273f020b169bcb8d0778f1b4f76e614218d370a4e9a737551f2949b83d0a48a"
+    },
+    {
+      "id": "q-c09-007",
+      "version": 1,
+      "readingUnitId": "c09-s01-p090-01920-r001-003",
+      "chapterId": "c09",
+      "sectionId": "c09-s01",
+      "paragraphId": "c09-s01-p090-01920",
+      "sentenceIds": [
+        "c09-s01-p090-01920-s001",
+        "c09-s01-p090-01920-s002",
+        "c09-s01-p090-01920-s003"
+      ],
+      "passage": "To me, Kazuo Ishiguro’s The Remains of the Day is not just an engrossing novel about Mr. Stevens, a British butler who works for the nobleman Lord Darlington until the end of World War II; it is also about moral dilemmas and the meaning of life. In the novel, Mr. Stevens (played by Anthony Hopkins in the film version) served Lord Darlington as best as he could. At the peak of his career, he managed a staff of twenty-eight as Lord Darlington hosted many important meetings during World War II.",
+      "prompt": "What does the author see in The Remains of the Day beyond an engaging story?",
+      "options": [
+        "A practical manual for managing a household.",
+        "An exploration of moral dilemmas and life’s meaning.",
+        "A statistical history of every British butler.",
+        "A film review concerned only with the actors."
+      ],
+      "answer": 1,
+      "type": "主旨",
+      "promptZh": "作者认为 The Remains of the Day 除了引人入胜的故事，还探讨什么？",
+      "optionsZh": [
+        "管理家务的实用手册。",
+        "道德困境与人生意义。",
+        "所有英国管家的统计史。",
+        "只关注演员的影评。"
+      ],
+      "analyses": [
+        "A 管家职责是故事背景，不是本段所说的额外主题。",
+        "B not just...also about moral dilemmas and the meaning of life 直接定位主题。",
+        "C in the novel 限定虚构人物，非全体管家统计。",
+        "D 电影演员是括号补充，不能覆盖小说主题。"
+      ],
+      "evidence": [
+        {
+          "quote": "it is also about moral dilemmas and the meaning of life.",
+          "sentenceIds": [
+            "c09-s01-p090-01920-s001"
+          ],
+          "sources": [
+            {
+              "pdfPage": 90,
+              "block": 1,
+              "bbox": [
+                76.99,
+                192,
+                535.01,
+                479.52
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "engrossing",
+          "meaning": "引人入胜的",
+          "context": "形容小说吸引注意力，与它还有道德主题并不矛盾",
+          "example": "The engrossing story kept her reading until midnight.",
+          "collocations": [
+            "an engrossing novel",
+            "an engrossing story"
+          ]
+        }
+      ],
+      "translation": "对我而言，Kazuo Ishiguro 的 The Remains of the Day 不仅是一部引人入胜的小说，讲述英国管家 Stevens 为贵族 Darlington 服务直到二战结束，也讨论道德困境与人生意义。小说中，Stevens——电影版由 Anthony Hopkins 饰演——尽力侍奉 Darlington。在事业巅峰，他管理二十八名员工，而 Darlington 在二战期间主持许多重要会议。",
+      "support": "explicit",
+      "editorialStatus": "PDF第90–93页逐题核对；人物引语、个人反思、假设、比喻和哲学论述分别归属；跨短段引号按原书保留",
+      "fingerprint": "0b20079e9e2af4edfb24ca4f1c6a26b134ec5a6d3223b596f6d5e92d5633737c"
+    },
+    {
+      "id": "qe-c09-0012",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-033",
+      "parentQuestionId": "q-c09-007",
+      "chapterId": "c09",
+      "sectionId": "c09-s01",
+      "paragraphId": "c09-s01-p090-01920",
+      "readingUnitId": "c09-s01-p090-01920-r001-003",
+      "sentenceIds": [
+        "c09-s01-p090-01920-s001",
+        "c09-s01-p090-01920-s002",
+        "c09-s01-p090-01920-s003"
+      ],
+      "passage": "To me, Kazuo Ishiguro’s The Remains of the Day is not just an engrossing novel about Mr. Stevens, a British butler who works for the nobleman Lord Darlington until the end of World War II; it is also about moral dilemmas and the meaning of life. In the novel, Mr. Stevens (played by Anthony Hopkins in the film version) served Lord Darlington as best as he could. At the peak of his career, he managed a staff of twenty-eight as Lord Darlington hosted many important meetings during World War II.",
+      "prompt": "Who is Anthony Hopkins in relation to Mr. Stevens in this passage?",
+      "promptZh": "片段中 Anthony Hopkins 与 Stevens 是什么关系？",
+      "options": [
+        "The actor who portrays Stevens in the film version.",
+        "The novelist who created Stevens in the original book.",
+        "The nobleman for whom Stevens works in the novel.",
+        "The narrator who conducted a laboratory experiment on Stevens."
+      ],
+      "optionsZh": [
+        "在电影版扮演 Stevens 的演员。",
+        "原小说中创造 Stevens 的作家。",
+        "小说里雇用 Stevens 的贵族。",
+        "对 Stevens 做实验的叙述者。"
+      ],
+      "answer": 0,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A played by...in the film version 明确演员与角色。",
+        "B 原作者为 Kazuo Ishiguro，不能把电影演员当作家。",
+        "C 贵族是 Lord Darlington，不是 Hopkins。",
+        "D Stevens 是小说角色，此处没有对他实施实验；括号区分媒介与身份。"
+      ],
+      "vocabulary": [
+        {
+          "word": "played by",
+          "meaning": "由……饰演",
+          "context": "在 film version 语境指演员扮演角色，不是角色雇用演员。",
+          "example": "In the adaptation, the teacher was played by a well-known actor.",
+          "collocations": [
+            "played by Anthony Hopkins",
+            "in the film version"
+          ]
+        }
+      ],
+      "translation": "对我而言，Kazuo Ishiguro 的 The Remains of the Day 不仅是一部引人入胜的小说，讲述英国管家 Stevens 为贵族 Darlington 服务直到二战结束，也讨论道德困境与人生意义。小说中，Stevens——电影版由 Anthony Hopkins 饰演——尽力侍奉 Darlington。在事业巅峰，他管理二十八名员工，而 Darlington 在二战期间主持许多重要会议。",
+      "evidenceTargetIds": [
+        "c09-s01-p090-01920-s002"
+      ],
+      "evidence": [
+        {
+          "quote": "To me, Kazuo Ishiguro’s The Remains of the Day is not just an engrossing novel about Mr. Stevens, a British butler who works for the nobleman Lord Darlington until the end of World War II; it is also about moral dilemmas and the meaning of life. In the novel, Mr. Stevens (played by Anthony Hopkins in the film version) served Lord Darlington as best as he could. At the peak of his career, he managed a staff of twenty-eight as Lord Darlington hosted many important meetings during World War II.",
+          "sentenceIds": [
+            "c09-s01-p090-01920-s001",
+            "c09-s01-p090-01920-s002",
+            "c09-s01-p090-01920-s003"
+          ],
+          "sources": [
+            {
+              "pdfPage": 90,
+              "block": 1,
+              "bbox": [
+                76.99,
+                192,
+                535.01,
+                479.52
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "e771a3c1daa3a1a0bca53476b92bbb63ddef53f45527b42ea6a004a38adf9553"
+    },
+    {
+      "id": "qe-c09-0013",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-033",
+      "parentQuestionId": "q-c09-007",
+      "chapterId": "c09",
+      "sectionId": "c09-s01",
+      "paragraphId": "c09-s01-p090-01920",
+      "readingUnitId": "c09-s01-p090-01920-r001-003",
+      "sentenceIds": [
+        "c09-s01-p090-01920-s001",
+        "c09-s01-p090-01920-s002",
+        "c09-s01-p090-01920-s003"
+      ],
+      "passage": "To me, Kazuo Ishiguro’s The Remains of the Day is not just an engrossing novel about Mr. Stevens, a British butler who works for the nobleman Lord Darlington until the end of World War II; it is also about moral dilemmas and the meaning of life. In the novel, Mr. Stevens (played by Anthony Hopkins in the film version) served Lord Darlington as best as he could. At the peak of his career, he managed a staff of twenty-eight as Lord Darlington hosted many important meetings during World War II.",
+      "prompt": "What did Stevens manage at the peak of his career in the novel's account?",
+      "promptZh": "小说叙述中，Stevens 在事业巅峰管理什么？",
+      "options": [
+        "Four staff members while Farraday held postwar meetings.",
+        "Twenty-eight houses independently owned by each worker.",
+        "A staff of twenty-eight while Lord Darlington hosted important wartime meetings.",
+        "A film crew of twenty-eight actors led by Anthony Hopkins."
+      ],
+      "optionsZh": [
+        "Farraday 主持战后会议时的四名员工。",
+        "每个工人独立拥有的二十八所房屋。",
+        "Darlington 主持重要战时会议时的二十八名员工。",
+        "Hopkins 领导的二十八名电影演员。"
+      ],
+      "answer": 2,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A 四名为后文战后的缩减人数，不能前移至巅峰。",
+        "B staff 指员工群体，不是房屋数。",
+        "C twenty-eight 修饰 staff，as 将其与 Darlington 举行会议的时期联系起来。",
+        "D 括号中的电影演员身份不是把小说员工改成剧组；保留原书对小说的叙述，不作额外历史核验断言。"
+      ],
+      "vocabulary": [
+        {
+          "word": "a staff of",
+          "meaning": "一支……人的员工队伍",
+          "context": "staff 在此为员工集合，不是手杖，也不是贵族家族成员数。",
+          "example": "The library operated with a staff of ten.",
+          "collocations": [
+            "managed a staff of twenty-eight",
+            "at the peak of his career"
+          ]
+        }
+      ],
+      "translation": "对我而言，Kazuo Ishiguro 的 The Remains of the Day 不仅是一部引人入胜的小说，讲述英国管家 Stevens 为贵族 Darlington 服务直到二战结束，也讨论道德困境与人生意义。小说中，Stevens——电影版由 Anthony Hopkins 饰演——尽力侍奉 Darlington。在事业巅峰，他管理二十八名员工，而 Darlington 在二战期间主持许多重要会议。",
+      "evidenceTargetIds": [
+        "c09-s01-p090-01920-s003"
+      ],
+      "evidence": [
+        {
+          "quote": "To me, Kazuo Ishiguro’s The Remains of the Day is not just an engrossing novel about Mr. Stevens, a British butler who works for the nobleman Lord Darlington until the end of World War II; it is also about moral dilemmas and the meaning of life. In the novel, Mr. Stevens (played by Anthony Hopkins in the film version) served Lord Darlington as best as he could. At the peak of his career, he managed a staff of twenty-eight as Lord Darlington hosted many important meetings during World War II.",
+          "sentenceIds": [
+            "c09-s01-p090-01920-s001",
+            "c09-s01-p090-01920-s002",
+            "c09-s01-p090-01920-s003"
+          ],
+          "sources": [
+            {
+              "pdfPage": 90,
+              "block": 1,
+              "bbox": [
+                76.99,
+                192,
+                535.01,
+                479.52
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "2cddb6d5dd5f2336d550070d75eca00f7dd3fc5777257257b93c4b4d9ace804d"
+    }
+  ]
+}
