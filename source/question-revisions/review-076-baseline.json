@@ -1,0 +1,978 @@
+{
+  "pdfSha256": "be25c859f1bd894a4b0d1cff024ded1297f6a96a8e8ddabea1e3abcf89160a50",
+  "sourceCommit": "a16528714875dfb2f83a0f0725d6c1d4cb911545",
+  "frozenTargetsSourceCommit": "715d4ebb4122b5bb7e8146cb8a51d50ee9f4e9b0",
+  "questions": [
+    {
+      "id": "q-c09-008",
+      "version": 1,
+      "readingUnitId": "c09-s01-p090-01920-r004-006",
+      "chapterId": "c09",
+      "sectionId": "c09-s01",
+      "paragraphId": "c09-s01-p090-01920",
+      "sentenceIds": [
+        "c09-s01-p090-01920-s004",
+        "c09-s01-p090-01920-s005",
+        "c09-s01-p090-01920-s006"
+      ],
+      "passage": "His greatest pride was his professionalism and ability to carefully plan and perfectly execute all his duties around the house. After the war, however, Darlington Hall, which had been kept in the Darlington family for many generations, was eventually sold to an American businessman, Mr. Farraday, and Mr. Stevens was reduced to managing a staff of only four. For the first time in his professional life, Mr. Stevens is given a real vacation, and he decides to take a trip to western England.",
+      "prompt": "What changed for Stevens after the Hall was sold?",
+      "options": [
+        "He became the American owner of the estate.",
+        "His staff expanded and he abandoned all holidays.",
+        "He continued managing twenty-eight people without interruption.",
+        "He managed only four staff and received his first real professional vacation."
+      ],
+      "answer": 3,
+      "type": "细节",
+      "promptZh": "庄园售出后，Stevens 的处境发生什么变化？",
+      "optionsZh": [
+        "成为庄园的美国主人。",
+        "员工增加，并放弃一切假期。",
+        "一直管理二十八人，没有变化。",
+        "只管理四名员工，并得到职业生涯首次真正假期。"
+      ],
+      "analyses": [
+        "A 美国买主是 Farraday，不是 Stevens。",
+        "B reduced...only four 表示减少，且有假期。",
+        "C 沿用上一阶段人数，忽略 however 后的变化。",
+        "D four 与 first time...real vacation 都明示。这是小说情节，不作真实人物履历核实。"
+      ],
+      "evidence": [
+        {
+          "quote": "Mr. Stevens was reduced to managing a staff of only four.",
+          "sentenceIds": [
+            "c09-s01-p090-01920-s005"
+          ],
+          "sources": [
+            {
+              "pdfPage": 90,
+              "block": 1,
+              "bbox": [
+                76.99,
+                192,
+                535.01,
+                479.52
+              ]
+            }
+          ]
+        },
+        {
+          "quote": "Mr. Stevens is given a real vacation",
+          "sentenceIds": [
+            "c09-s01-p090-01920-s006"
+          ],
+          "sources": [
+            {
+              "pdfPage": 90,
+              "block": 1,
+              "bbox": [
+                76.99,
+                192,
+                535.01,
+                479.52
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "execute",
+          "meaning": "执行；完成",
+          "context": "指妥善完成家务职责，不是处刑的词义",
+          "example": "She planned the event carefully and executed each task well.",
+          "collocations": [
+            "execute duties",
+            "carefully plan and execute"
+          ]
+        }
+      ],
+      "translation": "他最自豪的是自己的专业素养，以及周密计划、完美执行家中一切职责的能力。然而战后，Darlington 家族世代持有的庄园最终卖给美国商人 Farraday，Stevens 管理的员工减至四人。他职业生涯首次获得真正的假期，决定去英格兰西部旅行。",
+      "support": "explicit",
+      "editorialStatus": "PDF第90–93页逐题核对；人物引语、个人反思、假设、比喻和哲学论述分别归属；跨短段引号按原书保留",
+      "fingerprint": "0342fb64bb07ea979bacf134c0925f6702b4f0dd7251d5cacda3ad2ea9291c61"
+    },
+    {
+      "id": "qe-c09-0014",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-033",
+      "parentQuestionId": "q-c09-008",
+      "chapterId": "c09",
+      "sectionId": "c09-s01",
+      "paragraphId": "c09-s01-p090-01920",
+      "readingUnitId": "c09-s01-p090-01920-r004-006",
+      "sentenceIds": [
+        "c09-s01-p090-01920-s004",
+        "c09-s01-p090-01920-s005",
+        "c09-s01-p090-01920-s006"
+      ],
+      "passage": "His greatest pride was his professionalism and ability to carefully plan and perfectly execute all his duties around the house. After the war, however, Darlington Hall, which had been kept in the Darlington family for many generations, was eventually sold to an American businessman, Mr. Farraday, and Mr. Stevens was reduced to managing a staff of only four. For the first time in his professional life, Mr. Stevens is given a real vacation, and he decides to take a trip to western England.",
+      "prompt": "What was Stevens most proud of?",
+      "promptZh": "Stevens 最引以为傲的是什么？",
+      "options": [
+        "Owning Darlington Hall after purchasing it himself.",
+        "His professionalism and ability to plan and carry out household duties precisely.",
+        "Being given holidays throughout every year of his career.",
+        "Having already judged every political decision made by his employer correctly."
+      ],
+      "optionsZh": [
+        "自己买下并拥有 Darlington 庄园。",
+        "专业素养，以及精细计划、执行家中职责的能力。",
+        "职业生涯每年都获得假期。",
+        "已经正确判断雇主的每个政治决定。"
+      ],
+      "answer": 1,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A 他是管家，后文买家是 Farraday。",
+        "B greatest pride 后面 professionalism 与 plan and execute 两项明确。",
+        "C 后文首次真正假期并非一直休假。",
+        "D 对家务执行的自豪不等于政治判断正确，不能把专业熟练推成道德全知。"
+      ],
+      "vocabulary": [
+        {
+          "word": "execute",
+          "meaning": "执行；实施",
+          "context": "这里宾语 duties，指完成职责；不是处决、也不是创作某物的全部含义。",
+          "example": "The team planned carefully before executing the repair.",
+          "collocations": [
+            "perfectly execute all his duties",
+            "carefully plan and execute"
+          ]
+        }
+      ],
+      "translation": "他最自豪的是自己的专业素养，以及周密计划、完美执行家中一切职责的能力。然而战后，Darlington 家族世代持有的庄园最终卖给美国商人 Farraday，Stevens 管理的员工减至四人。他职业生涯首次获得真正的假期，决定去英格兰西部旅行。",
+      "evidenceTargetIds": [
+        "c09-s01-p090-01920-s004"
+      ],
+      "evidence": [
+        {
+          "quote": "His greatest pride was his professionalism and ability to carefully plan and perfectly execute all his duties around the house. After the war, however, Darlington Hall, which had been kept in the Darlington family for many generations, was eventually sold to an American businessman, Mr. Farraday, and Mr. Stevens was reduced to managing a staff of only four. For the first time in his professional life, Mr. Stevens is given a real vacation, and he decides to take a trip to western England.",
+          "sentenceIds": [
+            "c09-s01-p090-01920-s004",
+            "c09-s01-p090-01920-s005",
+            "c09-s01-p090-01920-s006"
+          ],
+          "sources": [
+            {
+              "pdfPage": 90,
+              "block": 1,
+              "bbox": [
+                76.99,
+                192,
+                535.01,
+                479.52
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "dd50953242351d23f6a86c61c802f3d19bb77b003d70e9d4a36353c2f54c7ffd"
+    },
+    {
+      "id": "q-c09-010",
+      "version": 1,
+      "readingUnitId": "c09-s01-p090-04845-r001-004",
+      "chapterId": "c09",
+      "sectionId": "c09-s01",
+      "paragraphId": "c09-s01-p090-04845",
+      "sentenceIds": [
+        "c09-s01-p090-04845-s001",
+        "c09-s01-p090-04845-s002",
+        "c09-s01-p090-04845-s003",
+        "c09-s01-p090-04845-s004"
+      ],
+      "passage": "Mr. Stevens dedicated his whole life to Lord Darlington and Darlington Hall. He had a purpose in life. He had meaning in life—that is, until the war ended and Lord Darlington turned out to be a Nazi sympathizer and a naive, amateur diplomat whose actions ultimately harmed England. Did this render Mr. Stevens’s life a complete waste, or was his dedication worth something on its own?",
+      "prompt": "What moral question does the passage raise about Stevens’s dedication?",
+      "options": [
+        "Whether a clear purpose necessarily proves that its cause is good.",
+        "Whether Darlington’s actions were harmless to England.",
+        "Whether dedication retains value when the cause served proves morally compromised.",
+        "Whether Stevens secretly opposed Darlington throughout the war."
+      ],
+      "answer": 2,
+      "type": "作者意图",
+      "promptZh": "片段就 Stevens 的奉献提出什么道德问题？",
+      "optionsZh": [
+        "目标明确是否必能证明目标善良。",
+        "Darlington 的行为是否对英国无害。",
+        "所服务事业道德有问题时，奉献本身是否仍有价值。",
+        "Stevens 是否整个战争中都暗中反对主人。"
+      ],
+      "analyses": [
+        "A 接近主题，但末尾具体问的是人生是否白费、奉献有无自身价值，并未直接作这个一般断言。",
+        "B harmed England 已给小说中的判断。",
+        "C complete waste or...worth something on its own 准确概括开放设问。",
+        "D 没有暗中反对的证据，不能补造动机。设问不等于作者已经裁定人生全部无价值。"
+      ],
+      "evidence": [
+        {
+          "quote": "Did this render Mr. Stevens’s life a complete waste, or was his dedication worth something on its own?",
+          "sentenceIds": [
+            "c09-s01-p090-04845-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 90,
+              "block": 2,
+              "bbox": [
+                76.99,
+                484.5,
+                535.01,
+                694.02
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "render",
+          "meaning": "使成为；使处于某状态",
+          "context": "render...a complete waste 在设问中指是否使人生完全白费",
+          "example": "The missing evidence rendered the conclusion uncertain.",
+          "collocations": [
+            "render something worthless",
+            "render a life a waste"
+          ]
+        }
+      ],
+      "translation": "Stevens 把整个人生奉献给 Darlington 和庄园。他有生活目标，也有意义——直到战争结束，Darlington 被揭示为纳粹同情者和天真的业余外交活动者，其行为最终损害英国。这是否使 Stevens 的一生彻底白费，还是他的奉献本身也有某种价值？",
+      "support": "explicit",
+      "editorialStatus": "PDF第90–93页逐题核对；人物引语、个人反思、假设、比喻和哲学论述分别归属；跨短段引号按原书保留",
+      "fingerprint": "5b3cbf6d859bffcfdc89927568f11ad77af631a7ff1df6abe8ab2421a68ce403"
+    },
+    {
+      "id": "qe-c09-0015",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-033",
+      "parentQuestionId": "q-c09-010",
+      "chapterId": "c09",
+      "sectionId": "c09-s01",
+      "paragraphId": "c09-s01-p090-04845",
+      "readingUnitId": "c09-s01-p090-04845-r001-004",
+      "sentenceIds": [
+        "c09-s01-p090-04845-s001",
+        "c09-s01-p090-04845-s002",
+        "c09-s01-p090-04845-s003",
+        "c09-s01-p090-04845-s004"
+      ],
+      "passage": "Mr. Stevens dedicated his whole life to Lord Darlington and Darlington Hall. He had a purpose in life. He had meaning in life—that is, until the war ended and Lord Darlington turned out to be a Nazi sympathizer and a naive, amateur diplomat whose actions ultimately harmed England. Did this render Mr. Stevens’s life a complete waste, or was his dedication worth something on its own?",
+      "prompt": "To what did Stevens dedicate his whole life in the account?",
+      "promptZh": "叙述中 Stevens 将整个人生奉献给什么？",
+      "options": [
+        "A bookstore and its readers in Morocco.",
+        "His own independent diplomatic career after leaving service.",
+        "Only the four staff members during a short holiday.",
+        "Lord Darlington and Darlington Hall."
+      ],
+      "optionsZh": [
+        "摩洛哥的一家书店及读者。",
+        "离职后自己独立的外交生涯。",
+        "仅短暂假期中的四名员工。",
+        "Darlington 勋爵与 Darlington 庄园。"
+      ],
+      "answer": 3,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A 是 Aziz 段的售书背景，不能混同小说人物。",
+        "B diplomat 描述后面雇主，非管家独立职业。",
+        "C whole life 不是只在短假服侍四人。",
+        "D 两个奉献对象原文明示；小说角色的终身投入不自动证明投入的事业在道德上正确。"
+      ],
+      "vocabulary": [
+        {
+          "word": "dedicated",
+          "meaning": "奉献；把时间精力投入",
+          "context": "dedicated his whole life to 强调长期投入，未由词本身保证对象正当。",
+          "example": "She dedicated many years to preserving the archive.",
+          "collocations": [
+            "dedicated his whole life to",
+            "dedication to a cause"
+          ]
+        }
+      ],
+      "translation": "Stevens 把整个人生奉献给 Darlington 和庄园。他有生活目标，也有意义——直到战争结束，Darlington 被揭示为纳粹同情者和天真的业余外交活动者，其行为最终损害英国。这是否使 Stevens 的一生彻底白费，还是他的奉献本身也有某种价值？",
+      "evidenceTargetIds": [
+        "c09-s01-p090-04845-s001"
+      ],
+      "evidence": [
+        {
+          "quote": "Mr. Stevens dedicated his whole life to Lord Darlington and Darlington Hall. He had a purpose in life. He had meaning in life—that is, until the war ended and Lord Darlington turned out to be a Nazi sympathizer and a naive, amateur diplomat whose actions ultimately harmed England. Did this render Mr. Stevens’s life a complete waste, or was his dedication worth something on its own?",
+          "sentenceIds": [
+            "c09-s01-p090-04845-s001",
+            "c09-s01-p090-04845-s002",
+            "c09-s01-p090-04845-s003",
+            "c09-s01-p090-04845-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 90,
+              "block": 2,
+              "bbox": [
+                76.99,
+                484.5,
+                535.01,
+                694.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "3ee1665ff6fc597abf7b7cac35d1cc2a7de2e652695a90702cd77a43842272d1"
+    },
+    {
+      "id": "q-c09-011",
+      "version": 1,
+      "readingUnitId": "c09-s01-p090-04845-r005-008",
+      "chapterId": "c09",
+      "sectionId": "c09-s01",
+      "paragraphId": "c09-s01-p090-04845",
+      "sentenceIds": [
+        "c09-s01-p090-04845-s005",
+        "c09-s01-p090-04845-s006",
+        "c09-s01-p090-04845-s007",
+        "c09-s01-p090-04845-s008"
+      ],
+      "passage": "At the end of the novel, Mr. Stevens states: “Lord Darlington wasn’t a bad man. He wasn’t a bad man at all…. His lordship was a courageous man. He chose a certain path in life, it proved to be a misguided one, but there, he chose it, he can say that at least.",
+      "prompt": "Which view is expressed by Stevens in this quotation?",
+      "options": [
+        "Darlington chose the correct path and caused no harm.",
+        "Darlington chose his own path, even though it proved misguided.",
+        "Darlington never made any choices for himself.",
+        "The author has experimentally established Darlington’s courage."
+      ],
+      "answer": 1,
+      "type": "细节",
+      "promptZh": "这段引语中，Stevens 表达什么看法？",
+      "optionsZh": [
+        "Darlington 道路正确且未造成伤害。",
+        "Darlington 至少自行选过道路，尽管后来证明误入歧途。",
+        "Darlington 从未自行选择。",
+        "作者通过实验证明其勇气。"
+      ],
+      "analyses": [
+        "A proved...misguided 否定道路正确。",
+        "B chose...misguided...at least 三处共同支持。",
+        "C 与 he chose it 相反。",
+        "D 这是小说人物的辩解和评价，不是作者实验或认可其道德。引语在下一短段续接，不能把没出现的结尾补入当前原文。"
+      ],
+      "evidence": [
+        {
+          "quote": "He chose a certain path in life, it proved to be a misguided one",
+          "sentenceIds": [
+            "c09-s01-p090-04845-s008"
+          ],
+          "sources": [
+            {
+              "pdfPage": 90,
+              "block": 2,
+              "bbox": [
+                76.99,
+                484.5,
+                535.01,
+                694.02
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "misguided",
+          "meaning": "被误导的；方向错误的",
+          "context": "人物承认所选择道路出错，并非正确路线的同义词",
+          "example": "The plan was based on a misguided assumption.",
+          "collocations": [
+            "a misguided path",
+            "a misguided decision"
+          ]
+        }
+      ],
+      "translation": "小说结尾，Stevens 说：“Darlington 不是坏人。他一点也不坏……阁下是个勇敢的人。他在人生中选择了一条路，后来证明那是错路，但他毕竟作了选择，至少他还能这样说。（引语续下段）",
+      "support": "explicit",
+      "editorialStatus": "PDF第90–93页逐题核对；人物引语、个人反思、假设、比喻和哲学论述分别归属；跨短段引号按原书保留",
+      "fingerprint": "5c74d3b5dc1126221ebea80edb0da6cbe3c8cb97a706e29d2a50cecbc0193583"
+    },
+    {
+      "id": "qe-c09-0018",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-033",
+      "parentQuestionId": "q-c09-011",
+      "chapterId": "c09",
+      "sectionId": "c09-s01",
+      "paragraphId": "c09-s01-p090-04845",
+      "readingUnitId": "c09-s01-p090-04845-r005-008",
+      "sentenceIds": [
+        "c09-s01-p090-04845-s005",
+        "c09-s01-p090-04845-s006",
+        "c09-s01-p090-04845-s007",
+        "c09-s01-p090-04845-s008"
+      ],
+      "passage": "At the end of the novel, Mr. Stevens states: “Lord Darlington wasn’t a bad man. He wasn’t a bad man at all…. His lordship was a courageous man. He chose a certain path in life, it proved to be a misguided one, but there, he chose it, he can say that at least.",
+      "prompt": "Who says 'Lord Darlington wasn’t a bad man' in the quoted passage?",
+      "promptZh": "引文中是谁说 Lord Darlington wasn’t a bad man？",
+      "options": [
+        "The bookseller Aziz during a Moroccan interview.",
+        "Mr. Stevens, speaking at the end of the novel.",
+        "Lord Darlington describing Stevens's character.",
+        "The author reporting the conclusion of a controlled psychology study."
+      ],
+      "optionsZh": [
+        "在摩洛哥采访中的书商 Aziz。",
+        "小说结尾发言的 Stevens。",
+        "Darlington 在描述 Stevens 性格。",
+        "报告心理对照研究结论的本书作者。"
+      ],
+      "answer": 1,
+      "type": "观点归属",
+      "support": "explicit",
+      "analyses": [
+        "A 人物及书目错配，当前引语非 Aziz。",
+        "B At the end of the novel, Mr. Stevens states 标明发言者与时点。",
+        "C Darlington 是被评价的人，不是这句的说话者。",
+        "D 角色台词不等于作者独立背书或研究结论；前段还揭示雇主行为造成伤害。"
+      ],
+      "vocabulary": [
+        {
+          "word": "states",
+          "meaning": "说出；陈述",
+          "context": "这里引入小说人物台词，不表示经外部实验确认事实。",
+          "example": "At the end of the story, the narrator states his regret.",
+          "collocations": [
+            "Mr. Stevens states",
+            "at the end of the novel"
+          ]
+        }
+      ],
+      "translation": "小说结尾，Stevens 说：“Darlington 不是坏人。他一点也不坏……阁下是个勇敢的人。他在人生中选择了一条路，后来证明那是错路，但他毕竟作了选择，至少他还能这样说。（引语续下段）",
+      "evidenceTargetIds": [
+        "c09-s01-p090-04845-s005"
+      ],
+      "evidence": [
+        {
+          "quote": "At the end of the novel, Mr. Stevens states: “Lord Darlington wasn’t a bad man. He wasn’t a bad man at all…. His lordship was a courageous man. He chose a certain path in life, it proved to be a misguided one, but there, he chose it, he can say that at least.",
+          "sentenceIds": [
+            "c09-s01-p090-04845-s005",
+            "c09-s01-p090-04845-s006",
+            "c09-s01-p090-04845-s007",
+            "c09-s01-p090-04845-s008"
+          ],
+          "sources": [
+            {
+              "pdfPage": 90,
+              "block": 2,
+              "bbox": [
+                76.99,
+                484.5,
+                535.01,
+                694.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "abcefe511bd020cf320ec194b9541639d492405ecebbe9c45369511698b578e4"
+    },
+    {
+      "id": "qe-c09-0019",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-033",
+      "parentQuestionId": "q-c09-011",
+      "chapterId": "c09",
+      "sectionId": "c09-s01",
+      "paragraphId": "c09-s01-p090-04845",
+      "readingUnitId": "c09-s01-p090-04845-r005-008",
+      "sentenceIds": [
+        "c09-s01-p090-04845-s005",
+        "c09-s01-p090-04845-s006",
+        "c09-s01-p090-04845-s007",
+        "c09-s01-p090-04845-s008"
+      ],
+      "passage": "At the end of the novel, Mr. Stevens states: “Lord Darlington wasn’t a bad man. He wasn’t a bad man at all…. His lordship was a courageous man. He chose a certain path in life, it proved to be a misguided one, but there, he chose it, he can say that at least.",
+      "prompt": "What does 'at all' add to Stevens's repeated claim that Darlington was not a bad man?",
+      "promptZh": "Stevens 重复说 Darlington 不是坏人时，at all 增加什么？",
+      "options": [
+        "It changes 'not bad' into a claim that he was sometimes bad.",
+        "It makes the line an objective finding accepted by every narrator.",
+        "It identifies all of Darlington's staff as the speakers.",
+        "It strengthens his denial that Darlington was a bad man."
+      ],
+      "optionsZh": [
+        "把不坏变成有时坏。",
+        "使这句成为每个叙述者公认的客观发现。",
+        "说明所有员工共同发言。",
+        "加强 Stevens 对 Darlington 是坏人这一评价的否认。"
+      ],
+      "answer": 3,
+      "type": "语气与范围",
+      "support": "explicit",
+      "analyses": [
+        "A not ... at all 加强否定，不是有时。",
+        "B 语气强化不改变观点归属，不能成为作者或所有人认证。",
+        "C all 属否定强调结构，不是 all staff 主语。",
+        "D wasn’t a bad man at all 强化前句辩护；仍是角色的自述立场，不抹去前面揭示的伤害。"
+      ],
+      "vocabulary": [
+        {
+          "word": "at all",
+          "meaning": "丝毫；一点也（用于否定强调）",
+          "context": "与 wasn’t 连用加强人物的否认，不是全体人的数量概念。",
+          "example": "The narrator insisted that the task was not easy at all.",
+          "collocations": [
+            "wasn’t a bad man at all",
+            "not ... at all"
+          ]
+        }
+      ],
+      "translation": "小说结尾，Stevens 说：“Darlington 不是坏人。他一点也不坏……阁下是个勇敢的人。他在人生中选择了一条路，后来证明那是错路，但他毕竟作了选择，至少他还能这样说。（引语续下段）",
+      "evidenceTargetIds": [
+        "c09-s01-p090-04845-s006"
+      ],
+      "evidence": [
+        {
+          "quote": "At the end of the novel, Mr. Stevens states: “Lord Darlington wasn’t a bad man. He wasn’t a bad man at all…. His lordship was a courageous man. He chose a certain path in life, it proved to be a misguided one, but there, he chose it, he can say that at least.",
+          "sentenceIds": [
+            "c09-s01-p090-04845-s005",
+            "c09-s01-p090-04845-s006",
+            "c09-s01-p090-04845-s007",
+            "c09-s01-p090-04845-s008"
+          ],
+          "sources": [
+            {
+              "pdfPage": 90,
+              "block": 2,
+              "bbox": [
+                76.99,
+                484.5,
+                535.01,
+                694.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "532435b28737116c223a2193f494aa1fb2c3d33d6a928432ce65da793c8f6cbc"
+    },
+    {
+      "id": "qe-c09-0020",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-033",
+      "parentQuestionId": "q-c09-011",
+      "chapterId": "c09",
+      "sectionId": "c09-s01",
+      "paragraphId": "c09-s01-p090-04845",
+      "readingUnitId": "c09-s01-p090-04845-r005-008",
+      "sentenceIds": [
+        "c09-s01-p090-04845-s005",
+        "c09-s01-p090-04845-s006",
+        "c09-s01-p090-04845-s007",
+        "c09-s01-p090-04845-s008"
+      ],
+      "passage": "At the end of the novel, Mr. Stevens states: “Lord Darlington wasn’t a bad man. He wasn’t a bad man at all…. His lordship was a courageous man. He chose a certain path in life, it proved to be a misguided one, but there, he chose it, he can say that at least.",
+      "prompt": "How is 'His lordship was a courageous man' presented?",
+      "promptZh": "His lordship was a courageous man 以何种方式呈现？",
+      "options": [
+        "As Stevens's description of Darlington within his speech, not independent proof that the chosen path was right.",
+        "As evidence that Darlington never made a misguided choice.",
+        "As a description of the bookseller's courage in starting a business.",
+        "As the narrator's measured comparison of every wartime diplomat."
+      ],
+      "optionsZh": [
+        "作为 Stevens 台词中对 Darlington 的描述，不独立证明所选道路正确。",
+        "作为 Darlington 从未选错的证据。",
+        "描述书商创业的勇气。",
+        "作为叙述者对所有战时外交者的测量比较。"
+      ],
+      "answer": 0,
+      "type": "观点归属",
+      "support": "explicit",
+      "analyses": [
+        "A 当前引文归 Stevens，后句又承认 path proved misguided，勇敢与正确不可等同。",
+        "B misguided one 明示选路错误。",
+        "C His lordship 在此指 Darlington，不是 Aziz。",
+        "D 没有全体外交者测量，更不可把角色褒词改成历史实验结论。"
+      ],
+      "vocabulary": [
+        {
+          "word": "courageous",
+          "meaning": "勇敢的；有勇气的",
+          "context": "此处是角色对雇主的评价，不能据此推出其行为正当或有益。",
+          "example": "A courageous choice can still have unforeseen consequences.",
+          "collocations": [
+            "a courageous man",
+            "a misguided path"
+          ]
+        }
+      ],
+      "translation": "小说结尾，Stevens 说：“Darlington 不是坏人。他一点也不坏……阁下是个勇敢的人。他在人生中选择了一条路，后来证明那是错路，但他毕竟作了选择，至少他还能这样说。（引语续下段）",
+      "evidenceTargetIds": [
+        "c09-s01-p090-04845-s007"
+      ],
+      "evidence": [
+        {
+          "quote": "At the end of the novel, Mr. Stevens states: “Lord Darlington wasn’t a bad man. He wasn’t a bad man at all…. His lordship was a courageous man. He chose a certain path in life, it proved to be a misguided one, but there, he chose it, he can say that at least.",
+          "sentenceIds": [
+            "c09-s01-p090-04845-s005",
+            "c09-s01-p090-04845-s006",
+            "c09-s01-p090-04845-s007",
+            "c09-s01-p090-04845-s008"
+          ],
+          "sources": [
+            {
+              "pdfPage": 90,
+              "block": 2,
+              "bbox": [
+                76.99,
+                484.5,
+                535.01,
+                694.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "c9dc1110f599ac825d8bcd7fab6e12578e3d494d9eb822161339f705ff7fbffb"
+    },
+    {
+      "id": "q-c09-012",
+      "version": 1,
+      "readingUnitId": "c09-s01-p090-04845-r009-012",
+      "chapterId": "c09",
+      "sectionId": "c09-s01",
+      "paragraphId": "c09-s01-p090-04845",
+      "sentenceIds": [
+        "c09-s01-p090-04845-s009",
+        "c09-s01-p090-04845-s010",
+        "c09-s01-p090-04845-s011",
+        "c09-s01-p090-04845-s012"
+      ],
+      "passage": "As for myself, I cannot even claim that. You see, I trusted. I trusted in his lordship’s wisdom. All those years I served him, I trusted I was doing something worthwhile.”",
+      "prompt": "What does Stevens emphasize about his own service?",
+      "options": [
+        "He relied on his lord’s wisdom and believed his work was worthwhile.",
+        "He had independently designed every political action.",
+        "He had known all along that his work was pointless.",
+        "He had never trusted Darlington at any time."
+      ],
+      "answer": 0,
+      "type": "主旨",
+      "promptZh": "Stevens 强调自己服务经历中的什么？",
+      "optionsZh": [
+        "依赖主人的智慧，相信自己在做值得的事。",
+        "每个政治行动都由他独立设计。",
+        "一直明知工作毫无价值。",
+        "从未信任过主人。"
+      ],
+      "analyses": [
+        "A 重复 trusted 并以 worthwhile 说明当时的信念。",
+        "B 依赖判断不等于独立设计所有政治行动。",
+        "C 当时相信有价值，不是明知无意义。",
+        "D trusted 的反复出现直接反驳。信念是人物自述，不能由此证明其工作事实上有益。"
+      ],
+      "evidence": [
+        {
+          "quote": "I trusted in his lordship’s wisdom.",
+          "sentenceIds": [
+            "c09-s01-p090-04845-s011"
+          ],
+          "sources": [
+            {
+              "pdfPage": 90,
+              "block": 2,
+              "bbox": [
+                76.99,
+                484.5,
+                535.01,
+                694.02
+              ]
+            }
+          ]
+        },
+        {
+          "quote": "I trusted I was doing something worthwhile.",
+          "sentenceIds": [
+            "c09-s01-p090-04845-s012"
+          ],
+          "sources": [
+            {
+              "pdfPage": 90,
+              "block": 2,
+              "bbox": [
+                76.99,
+                484.5,
+                535.01,
+                694.02
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "worthwhile",
+          "meaning": "值得的；有价值的",
+          "context": "人物相信自己的服务有意义，不是作者已证实其结果有益",
+          "example": "She wanted to spend her time on something worthwhile.",
+          "collocations": [
+            "do something worthwhile",
+            "a worthwhile task"
+          ]
+        }
+      ],
+      "translation": "“至于我自己，我连这一点都不能声称。你看，我信任过。我信任阁下的智慧。那些年侍奉他，我一直相信自己在做值得的事情。”",
+      "support": "explicit",
+      "editorialStatus": "PDF第90–93页逐题核对；人物引语、个人反思、假设、比喻和哲学论述分别归属；跨短段引号按原书保留",
+      "fingerprint": "0a16e9bac371a0630a155207dbe3d6f240eabad058b711fc1d55b683c2d01b0b"
+    },
+    {
+      "id": "qe-c09-0021",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-033",
+      "parentQuestionId": "q-c09-012",
+      "chapterId": "c09",
+      "sectionId": "c09-s01",
+      "paragraphId": "c09-s01-p090-04845",
+      "readingUnitId": "c09-s01-p090-04845-r009-012",
+      "sentenceIds": [
+        "c09-s01-p090-04845-s009",
+        "c09-s01-p090-04845-s010",
+        "c09-s01-p090-04845-s011",
+        "c09-s01-p090-04845-s012"
+      ],
+      "passage": "As for myself, I cannot even claim that. You see, I trusted. I trusted in his lordship’s wisdom. All those years I served him, I trusted I was doing something worthwhile.”",
+      "prompt": "What does 'claim' mean in 'I cannot even claim that'?",
+      "promptZh": "I cannot even claim that 中 claim 是什么意思？",
+      "options": [
+        "To take legal ownership of Darlington Hall.",
+        "To request payment for unfinished work.",
+        "To assert that something is true of himself.",
+        "To promise that his employer will return."
+      ],
+      "optionsZh": [
+        "取得 Darlington 庄园的法律所有权。",
+        "为未完成工作索要报酬。",
+        "声称某事对自己成立。",
+        "承诺雇主会回来。"
+      ],
+      "answer": 2,
+      "type": "语境词义",
+      "support": "explicit",
+      "analyses": [
+        "A claim 可涉索有权，但这里宾语 that 指一项说法，不是房产。",
+        "B 没有 payment 或索赔。",
+        "C cannot even claim 表示连作这项自我声称都不能；语境是反思与信任。",
+        "D claim 不是 promise，且无回来内容；当前短段未完整重述 that 的上文，题目不要求凭缺失前文判定具体指代。"
+      ],
+      "vocabulary": [
+        {
+          "word": "claim",
+          "meaning": "声称；断言",
+          "context": "在此不是认领、索赔，也不保证所声称的事必真。",
+          "example": "He could not claim that he had checked every page.",
+          "collocations": [
+            "cannot even claim that",
+            "claim something is true"
+          ]
+        }
+      ],
+      "translation": "“至于我自己，我连这一点都不能声称。你看，我信任过。我信任阁下的智慧。那些年侍奉他，我一直相信自己在做值得的事情。”",
+      "evidenceTargetIds": [
+        "c09-s01-p090-04845-s009"
+      ],
+      "evidence": [
+        {
+          "quote": "As for myself, I cannot even claim that. You see, I trusted. I trusted in his lordship’s wisdom. All those years I served him, I trusted I was doing something worthwhile.”",
+          "sentenceIds": [
+            "c09-s01-p090-04845-s009",
+            "c09-s01-p090-04845-s010",
+            "c09-s01-p090-04845-s011",
+            "c09-s01-p090-04845-s012"
+          ],
+          "sources": [
+            {
+              "pdfPage": 90,
+              "block": 2,
+              "bbox": [
+                76.99,
+                484.5,
+                535.01,
+                694.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "adcc69d746f7be00b951562d92159b213cc95d129dddd09941d42ca01886fafd"
+    },
+    {
+      "id": "qe-c09-0022",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-033",
+      "parentQuestionId": "q-c09-012",
+      "chapterId": "c09",
+      "sectionId": "c09-s01",
+      "paragraphId": "c09-s01-p090-04845",
+      "readingUnitId": "c09-s01-p090-04845-r009-012",
+      "sentenceIds": [
+        "c09-s01-p090-04845-s009",
+        "c09-s01-p090-04845-s010",
+        "c09-s01-p090-04845-s011",
+        "c09-s01-p090-04845-s012"
+      ],
+      "passage": "As for myself, I cannot even claim that. You see, I trusted. I trusted in his lordship’s wisdom. All those years I served him, I trusted I was doing something worthwhile.”",
+      "prompt": "What basis does Stevens repeatedly give for believing his service was worthwhile?",
+      "promptZh": "Stevens 反复给出什么依据，说明自己为何相信侍奉有价值？",
+      "options": [
+        "Independent checks of every decision before obeying it.",
+        "Trust in his lordship's wisdom.",
+        "Proof that no one had ever been harmed.",
+        "A plan to replace his employer with his own political programme."
+      ],
+      "optionsZh": [
+        "服从前对每个决定独立核验。",
+        "信任阁下的智慧。",
+        "无人受害的证明。",
+        "以自己的政治纲领取代雇主的计划。"
+      ],
+      "answer": 1,
+      "type": "逻辑关系",
+      "support": "explicit",
+      "analyses": [
+        "A 原句强调 trusted，不是逐个独立核验。",
+        "B I trusted 的重复由 I trusted in his lordship’s wisdom 展开，最后连接相信自己做 worthwhile 的事。",
+        "C 自己信任不等于证明从无伤害。",
+        "D 没有替代政治计划；保留人物回顾中的依赖与悔意，不把信念当客观正确证据。"
+      ],
+      "vocabulary": [
+        {
+          "word": "trusted",
+          "meaning": "信任；相信",
+          "context": "重复突出对他人判断的依赖；不表示已验证那判断正确。",
+          "example": "She trusted the guide's judgement without knowing the route herself.",
+          "collocations": [
+            "trusted in his lordship’s wisdom",
+            "doing something worthwhile"
+          ]
+        }
+      ],
+      "translation": "“至于我自己，我连这一点都不能声称。你看，我信任过。我信任阁下的智慧。那些年侍奉他，我一直相信自己在做值得的事情。”",
+      "evidenceTargetIds": [
+        "c09-s01-p090-04845-s010"
+      ],
+      "evidence": [
+        {
+          "quote": "As for myself, I cannot even claim that. You see, I trusted. I trusted in his lordship’s wisdom. All those years I served him, I trusted I was doing something worthwhile.”",
+          "sentenceIds": [
+            "c09-s01-p090-04845-s009",
+            "c09-s01-p090-04845-s010",
+            "c09-s01-p090-04845-s011",
+            "c09-s01-p090-04845-s012"
+          ],
+          "sources": [
+            {
+              "pdfPage": 90,
+              "block": 2,
+              "bbox": [
+                76.99,
+                484.5,
+                535.01,
+                694.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "3402a797ead67013e315a1649ce91225298862f7bae5c56409c8ee12bf4d2e75"
+    },
+    {
+      "id": "q-c09-013",
+      "version": 1,
+      "readingUnitId": "c09-s01-p091-00750-r001-003",
+      "chapterId": "c09",
+      "sectionId": "c09-s01",
+      "paragraphId": "c09-s01-p091-00750",
+      "sentenceIds": [
+        "c09-s01-p091-00750-s001",
+        "c09-s01-p091-00750-s002",
+        "c09-s01-p091-00750-s003"
+      ],
+      "passage": "While reading this novel, I was mentally transported to Darlington Hall and the events of the 1930s and the early 1940s. For the first time, I wondered, could my dedication to something turn out to be completely misguided and harm humanity more than help? Being Japanese, I have always thought of imperial Japanese colonels and politicians as being pure evil, but I had never considered the morality of those who worked for them, who dedicated their lives to supporting them.",
+      "prompt": "What new concern did reading the novel prompt in the author?",
+      "options": [
+        "Whether the novel was a literal record of his own travels.",
+        "Whether every act of dedication necessarily benefits humanity.",
+        "Whether he should become a British butler immediately.",
+        "Whether his own dedication could be misguided and do more harm than good."
+      ],
+      "answer": 3,
+      "type": "作者意图",
+      "promptZh": "读小说使作者产生什么新忧虑？",
+      "optionsZh": [
+        "小说是否真实记录了自己的旅行。",
+        "每种奉献是否必然有益人类。",
+        "是否应立即成为英国管家。",
+        "自己的奉献是否也可能方向错误，害处大于益处。"
+      ],
+      "analyses": [
+        "A mentally transported 是想象进入故事，不是亲自去过的记录。",
+        "B 将 could 的个人疑问改成普遍必然，还偏离具体自我反省。",
+        "C 没有改行决定。",
+        "D could my dedication...harm...more than help 直接对应。他也开始考虑支持掌权者的工作人员的道德处境，并非替伤害开脱。"
+      ],
+      "evidence": [
+        {
+          "quote": "could my dedication to something turn out to be completely misguided and harm humanity more than help?",
+          "sentenceIds": [
+            "c09-s01-p091-00750-s002"
+          ],
+          "sources": [
+            {
+              "pdfPage": 91,
+              "block": 0,
+              "bbox": [
+                76.99,
+                75,
+                535,
+                343.02
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "mentally transported",
+          "meaning": "在想象中被带入",
+          "context": "读者注意和想象进入小说时代与场所，不是身体移动",
+          "example": "The vivid account mentally transported her to the old harbour.",
+          "collocations": [
+            "be mentally transported to",
+            "transport a reader into a story"
+          ]
+        }
+      ],
+      "translation": "读这部小说时，我仿佛在想象中来到 Darlington 庄园，以及二十世纪三十年代和四十年代初的事件之中。我第一次想：自己的奉献会不会也完全误入歧途，对人类伤害多于帮助？作为日本人，我一直认为帝国日本的上校和政客纯属邪恶，但此前从未考虑那些为他们工作、把一生用于支持他们的人的道德问题。",
+      "support": "explicit",
+      "editorialStatus": "PDF第90–93页逐题核对；人物引语、个人反思、假设、比喻和哲学论述分别归属；跨短段引号按原书保留",
+      "fingerprint": "901ef564bb10e6664d6acf7c156ca7edf5168a3ea3a45356f268e5c4c1ab49a6"
+    }
+  ]
+}
