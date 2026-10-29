@@ -1,0 +1,1936 @@
+{
+  "schemaVersion": 1,
+  "batchId": "question-review-2026-10-28-107",
+  "sourceCommit": "f017096df99aa2b014debf88178b99229b063656",
+  "pdfSha256": "be25c859f1bd894a4b0d1cff024ded1297f6a96a8e8ddabea1e3abcf89160a50",
+  "frozenAt": "2026-10-29T23:38:13.714Z",
+  "questions": [
+    {
+      "id": "q-c11-055",
+      "version": 1,
+      "readingUnitId": "c11-s06-p130-03908-r005-006",
+      "chapterId": "c11",
+      "sectionId": "c11-s06",
+      "paragraphId": "c11-s06-p130-03908",
+      "sentenceIds": [
+        "c11-s06-p130-03908-s005",
+        "c11-s06-p130-03908-s006"
+      ],
+      "passage": "Respondents with the experience of having COVID-19 were also less likely to say that they would like to erase the pandemic time period from their life than those without the experience of having the virus. That is, those who’d had COVID-19 regretted less than those who had not.",
+      "prompt": "Which statement preserves the comparison about erasing pandemic time?",
+      "options": [
+        "Previously infected respondents were less inclined to erase that period.",
+        "Every infected person wanted to erase the period.",
+        "The groups expressed equal regret.",
+        "Less regret proves there was no suffering."
+      ],
+      "answer": 0,
+      "type": "同义改写",
+      "promptZh": "哪项保留抹去疫情时段的比较？",
+      "optionsZh": [
+        "曾感染者更不倾向抹掉该时期。",
+        "每位感染者都想抹掉。",
+        "两组后悔一样。",
+        "较少后悔证明从无痛苦。"
+      ],
+      "analyses": [
+        "A less likely...erase 对应较低倾向。",
+        "B 把群体较少变每人都要，且方向相反。",
+        "C regretted less 不是相等。",
+        "D 后悔与痛苦不同，不能推为没有伤害。"
+      ],
+      "evidence": [
+        {
+          "quote": "less likely to say that they would like to erase the pandemic time period from their life",
+          "sentenceIds": [
+            "c11-s06-p130-03908-s005"
+          ],
+          "sources": [
+            {
+              "pdfPage": 130,
+              "block": 2,
+              "bbox": [
+                76.99,
+                390.75,
+                535.01,
+                580.77
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "erase",
+          "meaning": "抹去；删除",
+          "context": "假设从人生中除去一段时光的反事实偏好",
+          "example": "She would not erase the difficult period from her life.",
+          "collocations": [
+            "erase a time period",
+            "erase from one’s life"
+          ]
+        }
+      ],
+      "translation": "曾患COVID-19的受访者，也比未患者更少说想从人生抹掉疫情时期。换言之，患过者比未患者后悔更少。",
+      "support": "explicit",
+      "editorialStatus": "完整PDF130–136原页视觉核对含章末132与章首133。瑞典2021两次调查为自报比较，保留反向因果；谣言不作事实、暴力明确谴责，韧性most/common不作人人无创伤。既有单元q-c11-062原文仅起).，为131页七転八起括号因换行提取的末字续片，保留既有ID/范围并编来源续接辨识题，明确非独立英文段或最终人工句界，不补造英文或新主张；词汇特记日语末字。James画作是哲学比喻，保留不幸受约束。Bush为作者可选叙述示范，probably/could不作客观证实；Tim Wilson区别Anne Wilson。父母回顾多年龄评分非几十年追踪；本科纵向6.35原九月/6.05当下十一月/5.74回忆九月分开，实际记录指原自评不是客观能力。末段整段审阅含后续未配题材料，不宣称逐句直接证据全覆盖。",
+      "fingerprint": "211a4d04a034eb130e0bc7169057807c42966315b5e1598acfa9ced07038e4e3"
+    },
+    {
+      "id": "qe-c11-0100",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-051",
+      "parentQuestionId": "q-c11-055",
+      "chapterId": "c11",
+      "sectionId": "c11-s06",
+      "paragraphId": "c11-s06-p130-03908",
+      "readingUnitId": "c11-s06-p130-03908-r005-006",
+      "sentenceIds": [
+        "c11-s06-p130-03908-s005",
+        "c11-s06-p130-03908-s006"
+      ],
+      "passage": "Respondents with the experience of having COVID-19 were also less likely to say that they would like to erase the pandemic time period from their life than those without the experience of having the virus. That is, those who’d had COVID-19 regretted less than those who had not.",
+      "prompt": "How does 'regretted less' relate to the preceding survey response?",
+      "promptZh": "regretted less 如何对应前面的问卷回答？",
+      "options": [
+        "Every previously infected respondent said no part of life had ever been regrettable.",
+        "Previously infected respondents were more eager to erase the pandemic period.",
+        "The study showed that physical symptoms had all disappeared.",
+        "Previously infected respondents were less likely to want to erase the pandemic period from their life."
+      ],
+      "optionsZh": [
+        "每名曾感染者说人生任何部分都从无遗憾。",
+        "曾感染者更想抹去疫情时期。",
+        "研究表明身体症状已全消失。",
+        "曾感染者更少表示想从人生抹去疫情时期。"
+      ],
+      "answer": 3,
+      "type": "同义改写",
+      "support": "explicit",
+      "analyses": [
+        "A less是比较，非never或每人零遗憾。",
+        "B less likely方向相反。",
+        "C 遗憾回答不等于症状或医学康复测量。",
+        "D That is重述前句erase pandemic period的愿望，比较曾感染与未感染者，而非证明感染导致所有遗憾减少。"
+      ],
+      "vocabulary": [
+        {
+          "word": "regretted",
+          "meaning": "感到遗憾；希望某经历未曾发生",
+          "context": "此处由是否希望抹去疫情时段来说明，不是报告身体病情。",
+          "example": "Some respondents regretted the period less than others did.",
+          "collocations": [
+            "regretted less",
+            "would like to erase the pandemic time period"
+          ]
+        }
+      ],
+      "translation": "曾患COVID-19的受访者，也比未患者更少说想从人生抹掉疫情时期。换言之，患过者比未患者后悔更少。",
+      "evidenceTargetIds": [
+        "c11-s06-p130-03908-s006"
+      ],
+      "evidence": [
+        {
+          "quote": "Respondents with the experience of having COVID-19 were also less likely to say that they would like to erase the pandemic time period from their life than those without the experience of having the virus. That is, those who’d had COVID-19 regretted less than those who had not.",
+          "sentenceIds": [
+            "c11-s06-p130-03908-s005",
+            "c11-s06-p130-03908-s006"
+          ],
+          "sources": [
+            {
+              "pdfPage": 130,
+              "block": 2,
+              "bbox": [
+                76.99,
+                390.75,
+                535.01,
+                580.77
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "4bb87ff2e481be18a80c5ddd7a67448c6829061c937ece575ba978044169429e"
+    },
+    {
+      "id": "q-c11-056",
+      "version": 1,
+      "readingUnitId": "c11-s06-p130-05858-r001-004",
+      "chapterId": "c11",
+      "sectionId": "c11-s06",
+      "paragraphId": "c11-s06-p130-05858",
+      "sentenceIds": [
+        "c11-s06-p130-05858-s001",
+        "c11-s06-p130-05858-s002",
+        "c11-s06-p130-05858-s003",
+        "c11-s06-p130-05858-s004"
+      ],
+      "passage": "Dahlen and Thorbjørnsen then conducted a second survey from a representative sample of Swedes in June 2021. Replicating the results from the first study, those who’d previously caught COVID-19 reported that their lives were psychologically richer than those who had not. Furthermore, the COVID-19 respondents reported lower levels of death anxiety than those who had not had the illness. So it appears that the experience of COVID-19 made them less afraid of death and helped them live without fear.",
+      "prompt": "What additional result did the June survey report?",
+      "options": [
+        "It measured no psychological outcomes.",
+        "Every respondent had ceased fearing death completely.",
+        "Only uninfected respondents were included.",
+        "Previously infected respondents reported lower death anxiety."
+      ],
+      "answer": 3,
+      "type": "细节",
+      "promptZh": "六月调查另报告什么结果？",
+      "optionsZh": [
+        "没测心理结果。",
+        "每人完全不怕死。",
+        "仅含未感染者。",
+        "曾感染者自报死亡焦虑较低。"
+      ],
+      "analyses": [
+        "A 同时报告心理丰富与死亡焦虑。",
+        "B lower levels不是全部归零；作者live without fear为解释。",
+        "C 比较曾感染与未患病者。",
+        "D Furthermore 后明示结果，保持自报和代表性样本范围。两次调查复现不自动确立因果。"
+      ],
+      "evidence": [
+        {
+          "quote": "the COVID-19 respondents reported lower levels of death anxiety than those who had not had the illness.",
+          "sentenceIds": [
+            "c11-s06-p130-05858-s003"
+          ],
+          "sources": [
+            {
+              "pdfPage": 130,
+              "block": 3,
+              "bbox": [
+                76.99,
+                585.75,
+                535.01,
+                717.27
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "representative",
+          "meaning": "有代表性的",
+          "context": "第二次从瑞典代表性样本调查，不等于每名瑞典人都参加",
+          "example": "The researchers surveyed a representative sample.",
+          "collocations": [
+            "a representative sample",
+            "reported lower levels"
+          ]
+        }
+      ],
+      "translation": "两研究者于2021年6月再调查一组代表性瑞典样本。复现首次结果：曾患COVID-19者自报人生比未患者更丰富，也自报更低死亡焦虑。因此看来患病经历使他们较不怕死、较能无惧生活。（下一短段保留反向因果限定。）",
+      "support": "explicit",
+      "editorialStatus": "完整PDF130–136原页视觉核对含章末132与章首133。瑞典2021两次调查为自报比较，保留反向因果；谣言不作事实、暴力明确谴责，韧性most/common不作人人无创伤。既有单元q-c11-062原文仅起).，为131页七転八起括号因换行提取的末字续片，保留既有ID/范围并编来源续接辨识题，明确非独立英文段或最终人工句界，不补造英文或新主张；词汇特记日语末字。James画作是哲学比喻，保留不幸受约束。Bush为作者可选叙述示范，probably/could不作客观证实；Tim Wilson区别Anne Wilson。父母回顾多年龄评分非几十年追踪；本科纵向6.35原九月/6.05当下十一月/5.74回忆九月分开，实际记录指原自评不是客观能力。末段整段审阅含后续未配题材料，不宣称逐句直接证据全覆盖。",
+      "fingerprint": "ad73a6fa9e769792d4a9e762fba849351183c15c33bd69e0416af24452eb5ce5"
+    },
+    {
+      "id": "qe-c11-0101",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-051",
+      "parentQuestionId": "q-c11-056",
+      "chapterId": "c11",
+      "sectionId": "c11-s06",
+      "paragraphId": "c11-s06-p130-05858",
+      "readingUnitId": "c11-s06-p130-05858-r001-004",
+      "sentenceIds": [
+        "c11-s06-p130-05858-s001",
+        "c11-s06-p130-05858-s002",
+        "c11-s06-p130-05858-s003",
+        "c11-s06-p130-05858-s004"
+      ],
+      "passage": "Dahlen and Thorbjørnsen then conducted a second survey from a representative sample of Swedes in June 2021. Replicating the results from the first study, those who’d previously caught COVID-19 reported that their lives were psychologically richer than those who had not. Furthermore, the COVID-19 respondents reported lower levels of death anxiety than those who had not had the illness. So it appears that the experience of COVID-19 made them less afraid of death and helped them live without fear.",
+      "prompt": "What distinguishes the second survey as described?",
+      "promptZh": "原文如何描述第二次调查？",
+      "options": [
+        "It occurred before April 2021 and used the identical 973 respondents by definition.",
+        "It used a representative Swedish sample in June 2021.",
+        "It replaced all questionnaires with random exposure to infection.",
+        "It was limited to the Italian participants receiving four euros."
+      ],
+      "optionsZh": [
+        "发生在2021年4月前，而且按定义仍是原973人。",
+        "2021年6月使用一组代表性瑞典样本。",
+        "把问卷全部换成随机感染。",
+        "仅限领取四欧元的意大利参与者。"
+      ],
+      "answer": 1,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A then与June在April之后，代表性样本不自动等于同一973人。",
+        "B second survey、representative sample、Swedes、June2021均对应。",
+        "C 调查不是分派感染。",
+        "D 意大利奖金为前一研究，不能混配到瑞典调查。"
+      ],
+      "vocabulary": [
+        {
+          "word": "representative sample",
+          "meaning": "代表性样本；旨在反映所研究总体的样本",
+          "context": "不等于对全体瑞典人普查，也不自动证明和首调查同一批个体。",
+          "example": "The second survey used a representative sample of adults.",
+          "collocations": [
+            "a representative sample of Swedes",
+            "in June 2021"
+          ]
+        }
+      ],
+      "translation": "两研究者于2021年6月再调查一组代表性瑞典样本。复现首次结果：曾患COVID-19者自报人生比未患者更丰富，也自报更低死亡焦虑。因此看来患病经历使他们较不怕死、较能无惧生活。（下一短段保留反向因果限定。）",
+      "evidenceTargetIds": [
+        "c11-s06-p130-05858-s001"
+      ],
+      "evidence": [
+        {
+          "quote": "Dahlen and Thorbjørnsen then conducted a second survey from a representative sample of Swedes in June 2021. Replicating the results from the first study, those who’d previously caught COVID-19 reported that their lives were psychologically richer than those who had not. Furthermore, the COVID-19 respondents reported lower levels of death anxiety than those who had not had the illness. So it appears that the experience of COVID-19 made them less afraid of death and helped them live without fear.",
+          "sentenceIds": [
+            "c11-s06-p130-05858-s001",
+            "c11-s06-p130-05858-s002",
+            "c11-s06-p130-05858-s003",
+            "c11-s06-p130-05858-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 130,
+              "block": 3,
+              "bbox": [
+                76.99,
+                585.75,
+                535.01,
+                717.27
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "6b1a9ed602ed65ace85f638cb11fd9a246417b4b816795f54f994843628f355f"
+    },
+    {
+      "id": "qe-c11-0102",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-051",
+      "parentQuestionId": "q-c11-056",
+      "chapterId": "c11",
+      "sectionId": "c11-s06",
+      "paragraphId": "c11-s06-p130-05858",
+      "readingUnitId": "c11-s06-p130-05858-r001-004",
+      "sentenceIds": [
+        "c11-s06-p130-05858-s001",
+        "c11-s06-p130-05858-s002",
+        "c11-s06-p130-05858-s003",
+        "c11-s06-p130-05858-s004"
+      ],
+      "passage": "Dahlen and Thorbjørnsen then conducted a second survey from a representative sample of Swedes in June 2021. Replicating the results from the first study, those who’d previously caught COVID-19 reported that their lives were psychologically richer than those who had not. Furthermore, the COVID-19 respondents reported lower levels of death anxiety than those who had not had the illness. So it appears that the experience of COVID-19 made them less afraid of death and helped them live without fear.",
+      "prompt": "Which result was replicated in the second survey?",
+      "promptZh": "第二次调查复现哪项结果？",
+      "options": [
+        "Those previously infected reported psychologically richer lives than those not previously infected.",
+        "Every participant reported exactly the same richness score regardless of status.",
+        "Those never infected reported greater richness than the previously infected group.",
+        "The study proved every person should become infected to improve their life."
+      ],
+      "optionsZh": [
+        "曾感染者比未曾感染者自报人生心理更丰富。",
+        "每人不论状态丰富性分数完全相同。",
+        "从未感染者比曾感染者报告更高丰富性。",
+        "研究证明每个人都应感染以改善人生。"
+      ],
+      "answer": 0,
+      "type": "证据范围",
+      "support": "explicit",
+      "analyses": [
+        "A previously caught、reported、richer than三项都保留。",
+        "B 比较有方向，不是所有得分相同。",
+        "C 颠倒分组方向。",
+        "D 自报组间差异不是对感染行为的建议，也不是排除反向因果的随机试验证明。"
+      ],
+      "vocabulary": [
+        {
+          "word": "Replicating",
+          "meaning": "复现；再次观察到此前的结果模式",
+          "context": "此处指第二调查报告类似组间关系，不代表每个人的分数或经历完全相同。",
+          "example": "Replicating the first result, the second survey found a similar association.",
+          "collocations": [
+            "Replicating the results from the first study",
+            "reported that their lives were psychologically richer"
+          ]
+        }
+      ],
+      "translation": "两研究者于2021年6月再调查一组代表性瑞典样本。复现首次结果：曾患COVID-19者自报人生比未患者更丰富，也自报更低死亡焦虑。因此看来患病经历使他们较不怕死、较能无惧生活。（下一短段保留反向因果限定。）",
+      "evidenceTargetIds": [
+        "c11-s06-p130-05858-s002"
+      ],
+      "evidence": [
+        {
+          "quote": "Dahlen and Thorbjørnsen then conducted a second survey from a representative sample of Swedes in June 2021. Replicating the results from the first study, those who’d previously caught COVID-19 reported that their lives were psychologically richer than those who had not. Furthermore, the COVID-19 respondents reported lower levels of death anxiety than those who had not had the illness. So it appears that the experience of COVID-19 made them less afraid of death and helped them live without fear.",
+          "sentenceIds": [
+            "c11-s06-p130-05858-s001",
+            "c11-s06-p130-05858-s002",
+            "c11-s06-p130-05858-s003",
+            "c11-s06-p130-05858-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 130,
+              "block": 3,
+              "bbox": [
+                76.99,
+                585.75,
+                535.01,
+                717.27
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "4d20f48db8efd9f020b45e6ac8b14b2054bfda81b87075c7cff11c93a0c62275"
+    },
+    {
+      "id": "qe-c11-0103",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-051",
+      "parentQuestionId": "q-c11-056",
+      "chapterId": "c11",
+      "sectionId": "c11-s06",
+      "paragraphId": "c11-s06-p130-05858",
+      "readingUnitId": "c11-s06-p130-05858-r001-004",
+      "sentenceIds": [
+        "c11-s06-p130-05858-s001",
+        "c11-s06-p130-05858-s002",
+        "c11-s06-p130-05858-s003",
+        "c11-s06-p130-05858-s004"
+      ],
+      "passage": "Dahlen and Thorbjørnsen then conducted a second survey from a representative sample of Swedes in June 2021. Replicating the results from the first study, those who’d previously caught COVID-19 reported that their lives were psychologically richer than those who had not. Furthermore, the COVID-19 respondents reported lower levels of death anxiety than those who had not had the illness. So it appears that the experience of COVID-19 made them less afraid of death and helped them live without fear.",
+      "prompt": "What level of certainty is conveyed by 'So it appears' in the interpretation?",
+      "promptZh": "So it appears 在解释中传达什么确定程度？",
+      "options": [
+        "It reports a mathematical proof that excludes every alternative explanation.",
+        "It says there was no reported difference in death anxiety at all.",
+        "It introduces an apparent interpretation of the reported pattern, rather than an unqualified causal proof.",
+        "It defines fear as a monetary donation amount."
+      ],
+      "optionsZh": [
+        "报告排除一切其他解释的数学证明。",
+        "说死亡焦虑完全没有自报差异。",
+        "引出对所报告模式的表面解释，而非无条件因果证明。",
+        "把恐惧定义为捐款金额。"
+      ],
+      "answer": 2,
+      "type": "逻辑关系",
+      "support": "explicit",
+      "analyses": [
+        "A appears保留判断程度，调查资料不是排除全部替代解释的证明。",
+        "B 前句明确reported lower levels of death anxiety。",
+        "C So连到前面自报模式，it appears表示作者的解释性判断；原书随后还讨论反向因果，不把made改写成研究者已随机操纵感染。",
+        "D fear与donation属不同概念和段落，不能等同。"
+      ],
+      "vocabulary": [
+        {
+          "word": "appears",
+          "meaning": "看来；呈现出某种可能解释",
+          "context": "在此标记判断的保留程度，不是必然因果或全无恐惧的临床断言。",
+          "example": "It appears that the groups differed, though the survey alone cannot settle why.",
+          "collocations": [
+            "So it appears that",
+            "less afraid of death"
+          ]
+        }
+      ],
+      "translation": "两研究者于2021年6月再调查一组代表性瑞典样本。复现首次结果：曾患COVID-19者自报人生比未患者更丰富，也自报更低死亡焦虑。因此看来患病经历使他们较不怕死、较能无惧生活。（下一短段保留反向因果限定。）",
+      "evidenceTargetIds": [
+        "c11-s06-p130-05858-s004"
+      ],
+      "evidence": [
+        {
+          "quote": "Dahlen and Thorbjørnsen then conducted a second survey from a representative sample of Swedes in June 2021. Replicating the results from the first study, those who’d previously caught COVID-19 reported that their lives were psychologically richer than those who had not. Furthermore, the COVID-19 respondents reported lower levels of death anxiety than those who had not had the illness. So it appears that the experience of COVID-19 made them less afraid of death and helped them live without fear.",
+          "sentenceIds": [
+            "c11-s06-p130-05858-s001",
+            "c11-s06-p130-05858-s002",
+            "c11-s06-p130-05858-s003",
+            "c11-s06-p130-05858-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 130,
+              "block": 3,
+              "bbox": [
+                76.99,
+                585.75,
+                535.01,
+                717.27
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "88837e8fbeb65aa7a2ad7a8899ec73cbe10e23dec2f032c3cd9ae78dd9af8280"
+    },
+    {
+      "id": "q-c11-058",
+      "version": 1,
+      "readingUnitId": "c11-s07-p131-01845-r001-004",
+      "chapterId": "c11",
+      "sectionId": "c11-s07",
+      "paragraphId": "c11-s07-p131-01845",
+      "sentenceIds": [
+        "c11-s07-p131-01845-s001",
+        "c11-s07-p131-01845-s002",
+        "c11-s07-p131-01845-s003",
+        "c11-s07-p131-01845-s004"
+      ],
+      "passage": "Clearly, I am not arguing that tragic events like war and pandemics are positive. Beyond the events themselves, some disasters trigger even worse consequences, such as massacre or mass violence. A day after the Great Kanto earthquake in 1923, a rumor that Koreans were looting and rioting spread quickly. A panic ensued, and at least 6,000 Koreans were killed in the greater Tokyo area.",
+      "prompt": "Why does the author mention the 1923 massacre?",
+      "options": [
+        "To demonstrate harms that rule out calling tragedies simply positive.",
+        "To endorse the rumor as verified fact.",
+        "To claim all disaster effects are beneficial.",
+        "To attribute the killings to the earthquake’s physical shaking alone."
+      ],
+      "answer": 0,
+      "type": "作者意图",
+      "promptZh": "作者为何提1923屠杀？",
+      "optionsZh": [
+        "展示灾难更坏后果，拒绝简单称正面。",
+        "认可谣言为事实。",
+        "声称灾难影响全有益。",
+        "说仅由物理震动直接杀害。"
+      ],
+      "analyses": [
+        "A not arguing...positive 与worse consequences构成论证。",
+        "B rumor明说传言，不能当韩国人实际抢劫证据。",
+        "C 开头明确否认。",
+        "D panic及massacre是社会暴力后果，不等于房屋震塌死亡。at least6000为书载数字，非本工具外部核验。"
+      ],
+      "evidence": [
+        {
+          "quote": "I am not arguing that tragic events like war and pandemics are positive.",
+          "sentenceIds": [
+            "c11-s07-p131-01845-s001"
+          ],
+          "sources": [
+            {
+              "pdfPage": 131,
+              "block": 2,
+              "bbox": [
+                76.99,
+                184.5,
+                535.01,
+                374.52
+              ]
+            }
+          ]
+        },
+        {
+          "quote": "some disasters trigger even worse consequences",
+          "sentenceIds": [
+            "c11-s07-p131-01845-s002"
+          ],
+          "sources": [
+            {
+              "pdfPage": 131,
+              "block": 2,
+              "bbox": [
+                76.99,
+                184.5,
+                535.01,
+                374.52
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "rumor",
+          "meaning": "谣言；未经证实的传闻",
+          "context": "在此是引发恐慌的指控，非可靠事实",
+          "example": "A rumor spread rapidly through the frightened crowd.",
+          "collocations": [
+            "a rumor spread",
+            "a panic ensued"
+          ]
+        }
+      ],
+      "translation": "显然，我不是说战争和疫情这样的悲剧是正面的。事件之外，有些灾难引发更糟后果，如屠杀或大规模暴力。1923 Great Kanto地震次日，韩国人抢掠暴乱的谣言迅速传播，恐慌随之而来，大Tokyo地区至少6000名韩国人被杀。",
+      "support": "explicit",
+      "editorialStatus": "完整PDF130–136原页视觉核对含章末132与章首133。瑞典2021两次调查为自报比较，保留反向因果；谣言不作事实、暴力明确谴责，韧性most/common不作人人无创伤。既有单元q-c11-062原文仅起).，为131页七転八起括号因换行提取的末字续片，保留既有ID/范围并编来源续接辨识题，明确非独立英文段或最终人工句界，不补造英文或新主张；词汇特记日语末字。James画作是哲学比喻，保留不幸受约束。Bush为作者可选叙述示范，probably/could不作客观证实；Tim Wilson区别Anne Wilson。父母回顾多年龄评分非几十年追踪；本科纵向6.35原九月/6.05当下十一月/5.74回忆九月分开，实际记录指原自评不是客观能力。末段整段审阅含后续未配题材料，不宣称逐句直接证据全覆盖。",
+      "fingerprint": "309c0857eb53ce82ffe996b329770a93508db0aff9ed92f05df1191fa58cae3b"
+    },
+    {
+      "id": "qe-c11-0104",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-051",
+      "parentQuestionId": "q-c11-058",
+      "chapterId": "c11",
+      "sectionId": "c11-s07",
+      "paragraphId": "c11-s07-p131-01845",
+      "readingUnitId": "c11-s07-p131-01845-r001-004",
+      "sentenceIds": [
+        "c11-s07-p131-01845-s001",
+        "c11-s07-p131-01845-s002",
+        "c11-s07-p131-01845-s003",
+        "c11-s07-p131-01845-s004"
+      ],
+      "passage": "Clearly, I am not arguing that tragic events like war and pandemics are positive. Beyond the events themselves, some disasters trigger even worse consequences, such as massacre or mass violence. A day after the Great Kanto earthquake in 1923, a rumor that Koreans were looting and rioting spread quickly. A panic ensued, and at least 6,000 Koreans were killed in the greater Tokyo area.",
+      "prompt": "How is the claim about Koreans after the 1923 earthquake presented?",
+      "promptZh": "关于1923年地震后韩国人的说法，原文如何定性？",
+      "options": [
+        "As a verified finding that every Korean resident committed a crime.",
+        "As a rapidly spreading rumour on the day after the Great Kanto earthquake.",
+        "As an accusation first reported only after Hurricane Katrina in New Orleans.",
+        "As the author's endorsement of violence against that population."
+      ],
+      "optionsZh": [
+        "经证实每名韩国居民均犯罪的发现。",
+        "Great Kanto地震次日迅速传播的谣言。",
+        "仅在New Orleans的Katrina后首次出现的指控。",
+        "作者赞同对这一群体施暴的立场。"
+      ],
+      "answer": 1,
+      "type": "证据范围",
+      "support": "explicit",
+      "analyses": [
+        "A a rumor that标出传言内容，不是事实核验，更非每名居民。",
+        "B 日期相对关系、事件与rumor性质保留。",
+        "C 与1923Kanto和后面Katrina两事件错配。",
+        "D 本段以更糟后果作警示，不为传言或暴力背书；避免把嵌在谣言中的说法当原文明示的事实。"
+      ],
+      "vocabulary": [
+        {
+          "word": "rumor",
+          "meaning": "谣言；传播中的未经证实说法",
+          "context": "本句that后是传言内容，并非作者确认的族群行为事实。",
+          "example": "A rumor spread quickly, although its allegation was not established.",
+          "collocations": [
+            "a rumor that",
+            "spread quickly"
+          ]
+        }
+      ],
+      "translation": "显然，我不是说战争和疫情这样的悲剧是正面的。事件之外，有些灾难引发更糟后果，如屠杀或大规模暴力。1923 Great Kanto地震次日，韩国人抢掠暴乱的谣言迅速传播，恐慌随之而来，大Tokyo地区至少6000名韩国人被杀。",
+      "evidenceTargetIds": [
+        "c11-s07-p131-01845-s003"
+      ],
+      "evidence": [
+        {
+          "quote": "Clearly, I am not arguing that tragic events like war and pandemics are positive. Beyond the events themselves, some disasters trigger even worse consequences, such as massacre or mass violence. A day after the Great Kanto earthquake in 1923, a rumor that Koreans were looting and rioting spread quickly. A panic ensued, and at least 6,000 Koreans were killed in the greater Tokyo area.",
+          "sentenceIds": [
+            "c11-s07-p131-01845-s001",
+            "c11-s07-p131-01845-s002",
+            "c11-s07-p131-01845-s003",
+            "c11-s07-p131-01845-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 131,
+              "block": 2,
+              "bbox": [
+                76.99,
+                184.5,
+                535.01,
+                374.52
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "2f1ec7c97c3966a1b8ac61c883441ecd0bc264ed8f1c2296b1dab67a3ebad617"
+    },
+    {
+      "id": "qe-c11-0105",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-051",
+      "parentQuestionId": "q-c11-058",
+      "chapterId": "c11",
+      "sectionId": "c11-s07",
+      "paragraphId": "c11-s07-p131-01845",
+      "readingUnitId": "c11-s07-p131-01845-r001-004",
+      "sentenceIds": [
+        "c11-s07-p131-01845-s001",
+        "c11-s07-p131-01845-s002",
+        "c11-s07-p131-01845-s003",
+        "c11-s07-p131-01845-s004"
+      ],
+      "passage": "Clearly, I am not arguing that tragic events like war and pandemics are positive. Beyond the events themselves, some disasters trigger even worse consequences, such as massacre or mass violence. A day after the Great Kanto earthquake in 1923, a rumor that Koreans were looting and rioting spread quickly. A panic ensued, and at least 6,000 Koreans were killed in the greater Tokyo area.",
+      "prompt": "What consequence followed the panic in the book's account?",
+      "promptZh": "按书中叙述，恐慌随后造成什么后果？",
+      "options": [
+        "The passage reports that no one was harmed.",
+        "Every resident left Tokyo with no violence occurring.",
+        "The figure describes the whole population of New Orleans rather than deaths.",
+        "At least 6,000 Koreans were killed in the greater Tokyo area."
+      ],
+      "optionsZh": [
+        "原文报告无人受害。",
+        "每名居民都离开Tokyo，完全没有暴力。",
+        "数字指New Orleans总人口而非死亡。",
+        "大Tokyo地区至少6000名韩国人被杀。"
+      ],
+      "answer": 3,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A were killed与无人受害相反。",
+        "B 文中未说全员安全离开，且有杀害后果。",
+        "C 地区、指标和事件都错配。",
+        "D at least保留下限，Koreans与greater Tokyo限定群体及地区；这是本书的历史叙述，不把恐慌等同对暴力正当性的证明。"
+      ],
+      "vocabulary": [
+        {
+          "word": "ensued",
+          "meaning": "随之发生；接着出现",
+          "context": "说明前述传言后恐慌发生的顺序，不是作者要求恐慌出现。",
+          "example": "Confusion spread and panic ensued.",
+          "collocations": [
+            "A panic ensued",
+            "at least 6,000 Koreans were killed"
+          ]
+        }
+      ],
+      "translation": "显然，我不是说战争和疫情这样的悲剧是正面的。事件之外，有些灾难引发更糟后果，如屠杀或大规模暴力。1923 Great Kanto地震次日，韩国人抢掠暴乱的谣言迅速传播，恐慌随之而来，大Tokyo地区至少6000名韩国人被杀。",
+      "evidenceTargetIds": [
+        "c11-s07-p131-01845-s004"
+      ],
+      "evidence": [
+        {
+          "quote": "Clearly, I am not arguing that tragic events like war and pandemics are positive. Beyond the events themselves, some disasters trigger even worse consequences, such as massacre or mass violence. A day after the Great Kanto earthquake in 1923, a rumor that Koreans were looting and rioting spread quickly. A panic ensued, and at least 6,000 Koreans were killed in the greater Tokyo area.",
+          "sentenceIds": [
+            "c11-s07-p131-01845-s001",
+            "c11-s07-p131-01845-s002",
+            "c11-s07-p131-01845-s003",
+            "c11-s07-p131-01845-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 131,
+              "block": 2,
+              "bbox": [
+                76.99,
+                184.5,
+                535.01,
+                374.52
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "c9c874c229a030ca02ea8fa9994419f66ecbec54158fcca7c1b9cbfc8b645835"
+    },
+    {
+      "id": "q-c11-059",
+      "version": 1,
+      "readingUnitId": "c11-s07-p131-01845-r005-008",
+      "chapterId": "c11",
+      "sectionId": "c11-s07",
+      "paragraphId": "c11-s07-p131-01845",
+      "sentenceIds": [
+        "c11-s07-p131-01845-s005",
+        "c11-s07-p131-01845-s006",
+        "c11-s07-p131-01845-s007",
+        "c11-s07-p131-01845-s008"
+      ],
+      "passage": "Likewise, right after Hurricane Katrina, there was an “elite panic,” or excessive fear of social disorder. Vigilantes were formed and they inflicted unprovoked violence on Black residents. Incidents like this should not have happened. Some people are traumatized for a long time; others decide to end their lives after a natural disaster.",
+      "prompt": "How is “elite panic” explained here?",
+      "options": [
+        "A measured lack of fear in all survivors.",
+        "Excessive fear of social disorder.",
+        "A formally proven increase in community safety.",
+        "A justification the author endorses for violence."
+      ],
+      "answer": 1,
+      "type": "细节",
+      "promptZh": "此处elite panic怎样解释？",
+      "optionsZh": [
+        "所有幸存者完全无惧。",
+        "对社会失序的过度恐惧。",
+        "正式证明社区安全增加。",
+        "作者认可暴力的理由。"
+      ],
+      "analyses": [
+        "A excessive fear与无惧相反。",
+        "B or后给出定义。",
+        "C 未给安全效益测量。",
+        "D should not have happened明确谴责；unprovoked violence不是合理正当防卫。末句承认长期创伤及悲惨结局，不强加人人复原。"
+      ],
+      "evidence": [
+        {
+          "quote": "an “elite panic,” or excessive fear of social disorder.",
+          "sentenceIds": [
+            "c11-s07-p131-01845-s005"
+          ],
+          "sources": [
+            {
+              "pdfPage": 131,
+              "block": 2,
+              "bbox": [
+                76.99,
+                184.5,
+                535.01,
+                374.52
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "unprovoked",
+          "meaning": "无端的；未受挑衅的",
+          "context": "描写针对Black居民的暴力，非认可它",
+          "example": "The account condemned unprovoked violence.",
+          "collocations": [
+            "unprovoked violence",
+            "inflict violence on"
+          ]
+        }
+      ],
+      "translation": "同样，Katrina后出现elite panic，即过分害怕社会失序。自警团体成立，对Black居民施加无端暴力。这类事件不该发生。有人长期创伤，有人灾后选择结束生命。",
+      "support": "explicit",
+      "editorialStatus": "完整PDF130–136原页视觉核对含章末132与章首133。瑞典2021两次调查为自报比较，保留反向因果；谣言不作事实、暴力明确谴责，韧性most/common不作人人无创伤。既有单元q-c11-062原文仅起).，为131页七転八起括号因换行提取的末字续片，保留既有ID/范围并编来源续接辨识题，明确非独立英文段或最终人工句界，不补造英文或新主张；词汇特记日语末字。James画作是哲学比喻，保留不幸受约束。Bush为作者可选叙述示范，probably/could不作客观证实；Tim Wilson区别Anne Wilson。父母回顾多年龄评分非几十年追踪；本科纵向6.35原九月/6.05当下十一月/5.74回忆九月分开，实际记录指原自评不是客观能力。末段整段审阅含后续未配题材料，不宣称逐句直接证据全覆盖。",
+      "fingerprint": "f6b0ee667fd821d449243fd8195ca911eb9abb730bdf79283af8e1abbb90db58"
+    },
+    {
+      "id": "qe-c11-0106",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-051",
+      "parentQuestionId": "q-c11-059",
+      "chapterId": "c11",
+      "sectionId": "c11-s07",
+      "paragraphId": "c11-s07-p131-01845",
+      "readingUnitId": "c11-s07-p131-01845-r005-008",
+      "sentenceIds": [
+        "c11-s07-p131-01845-s005",
+        "c11-s07-p131-01845-s006",
+        "c11-s07-p131-01845-s007",
+        "c11-s07-p131-01845-s008"
+      ],
+      "passage": "Likewise, right after Hurricane Katrina, there was an “elite panic,” or excessive fear of social disorder. Vigilantes were formed and they inflicted unprovoked violence on Black residents. Incidents like this should not have happened. Some people are traumatized for a long time; others decide to end their lives after a natural disaster.",
+      "prompt": "Which description preserves the account of the vigilantes' actions?",
+      "promptZh": "哪种描述保留原文对自警团体行为的叙述？",
+      "options": [
+        "They inflicted unprovoked violence on Black residents.",
+        "They were described as using violence only after an attack by every Black resident.",
+        "The passage says they performed no violent acts.",
+        "They were identified as the researchers collecting donation envelopes."
+      ],
+      "optionsZh": [
+        "他们对Black居民施加无端暴力。",
+        "被描述为只在每名Black居民攻击后才施暴。",
+        "原文说他们没有任何暴力行为。",
+        "他们就是收集捐赠信封的研究者。"
+      ],
+      "answer": 0,
+      "type": "同义改写",
+      "support": "explicit",
+      "analyses": [
+        "A inflicted、unprovoked violence、Black residents三个要素均保留。",
+        "B unprovoked与被攻击后正当反应不符，还新增every。",
+        "C 与inflicted violence相反。",
+        "D 受灾暴力情境与前面的研究程序是不同叙述，不能混为一组人；保留作者对无端暴力的批判，不把恐慌当正当化理由。"
+      ],
+      "vocabulary": [
+        {
+          "word": "unprovoked",
+          "meaning": "无端的；未经对方挑衅而发生的",
+          "context": "修饰暴力，不能删去以暗示受害者先行造成或理应受害。",
+          "example": "The account condemns unprovoked violence against residents.",
+          "collocations": [
+            "inflicted unprovoked violence",
+            "on Black residents"
+          ]
+        }
+      ],
+      "translation": "同样，Katrina后出现elite panic，即过分害怕社会失序。自警团体成立，对Black居民施加无端暴力。这类事件不该发生。有人长期创伤，有人灾后选择结束生命。",
+      "evidenceTargetIds": [
+        "c11-s07-p131-01845-s006"
+      ],
+      "evidence": [
+        {
+          "quote": "Vigilantes were formed and they inflicted unprovoked violence on Black residents.",
+          "sentenceIds": [
+            "c11-s07-p131-01845-s006"
+          ],
+          "sources": [
+            {
+              "pdfPage": 131,
+              "block": 2,
+              "bbox": [
+                76.99,
+                184.5,
+                535.01,
+                374.52
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "d645bcf165a292ee0c5768b96b1061674837c8ff535216e0256e60a91b005e71"
+    },
+    {
+      "id": "qe-c11-0107",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-052",
+      "parentQuestionId": "q-c11-059",
+      "chapterId": "c11",
+      "sectionId": "c11-s07",
+      "paragraphId": "c11-s07-p131-01845",
+      "readingUnitId": "c11-s07-p131-01845-r005-008",
+      "sentenceIds": [
+        "c11-s07-p131-01845-s005",
+        "c11-s07-p131-01845-s006",
+        "c11-s07-p131-01845-s007",
+        "c11-s07-p131-01845-s008"
+      ],
+      "passage": "Likewise, right after Hurricane Katrina, there was an “elite panic,” or excessive fear of social disorder. Vigilantes were formed and they inflicted unprovoked violence on Black residents. Incidents like this should not have happened. Some people are traumatized for a long time; others decide to end their lives after a natural disaster.",
+      "prompt": "What does 'should not have happened' express about the incidents?",
+      "promptZh": "should not have happened 对这些事件表达什么？",
+      "options": [
+        "The author approves of the violence because people feared disorder.",
+        "The author says the incidents are only planned for the future.",
+        "The author denies the incidents occurred at all.",
+        "The author judges the described violence as wrong and regrettable."
+      ],
+      "optionsZh": [
+        "作者因人们害怕失序而赞同暴力。",
+        "作者说事件仅计划在未来发生。",
+        "作者否认事件曾发生。",
+        "作者认为所述暴力不应该发生，表达谴责与遗憾。"
+      ],
+      "answer": 3,
+      "type": "作者态度",
+      "support": "explicit",
+      "analyses": [
+        "A 与should not相反，不能把恐慌当作者的赞同。",
+        "B have happened指向过去，非未来计划。",
+        "C 对已经描述的事件作规范判断，不等于否认事实。",
+        "D should not have happened表达对过去事情的不赞同，保持作者批判而不增加他未说的处罚方案。"
+      ],
+      "vocabulary": [
+        {
+          "word": "should not have happened",
+          "meaning": "本不该发生；对过去事情表达不应如此的判断",
+          "context": "不等于did not happen的事实否定，也不是尚未发生的预测。",
+          "example": "The report concludes that such violence should not have happened.",
+          "collocations": [
+            "Incidents like this",
+            "should not have happened"
+          ]
+        }
+      ],
+      "translation": "同样，Katrina后出现elite panic，即过分害怕社会失序。自警团体成立，对Black居民施加无端暴力。这类事件不该发生。有人长期创伤，有人灾后选择结束生命。",
+      "evidenceTargetIds": [
+        "c11-s07-p131-01845-s007"
+      ],
+      "evidence": [
+        {
+          "quote": "Likewise, right after Hurricane Katrina, there was an “elite panic,” or excessive fear of social disorder. Vigilantes were formed and they inflicted unprovoked violence on Black residents. Incidents like this should not have happened. Some people are traumatized for a long time; others decide to end their lives after a natural disaster.",
+          "sentenceIds": [
+            "c11-s07-p131-01845-s005",
+            "c11-s07-p131-01845-s006",
+            "c11-s07-p131-01845-s007",
+            "c11-s07-p131-01845-s008"
+          ],
+          "sources": [
+            {
+              "pdfPage": 131,
+              "block": 2,
+              "bbox": [
+                76.99,
+                184.5,
+                535.01,
+                374.52
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "f33e99797773924d19662e7c984b6ed7f6c76d88971a271520a56607917bbf8c"
+    },
+    {
+      "id": "qe-c11-0108",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-052",
+      "parentQuestionId": "q-c11-059",
+      "chapterId": "c11",
+      "sectionId": "c11-s07",
+      "paragraphId": "c11-s07-p131-01845",
+      "readingUnitId": "c11-s07-p131-01845-r005-008",
+      "sentenceIds": [
+        "c11-s07-p131-01845-s005",
+        "c11-s07-p131-01845-s006",
+        "c11-s07-p131-01845-s007",
+        "c11-s07-p131-01845-s008"
+      ],
+      "passage": "Likewise, right after Hurricane Katrina, there was an “elite panic,” or excessive fear of social disorder. Vigilantes were formed and they inflicted unprovoked violence on Black residents. Incidents like this should not have happened. Some people are traumatized for a long time; others decide to end their lives after a natural disaster.",
+      "prompt": "Why does the passage mention prolonged trauma and other severe personal consequences after disaster?",
+      "promptZh": "段落为何提及灾后长期创伤及其他严重个人后果？",
+      "options": [
+        "To acknowledge severe possible consequences alongside any later discussion of resilience.",
+        "To prove that every survivor experiences exactly the same outcome.",
+        "To advise readers to imitate the harmful outcomes mentioned.",
+        "To state that no psychological harm can last beyond the event."
+      ],
+      "optionsZh": [
+        "承认严重后果的可能，为随后谈韧性保留受害与例外。",
+        "证明每位幸存者结果完全相同。",
+        "建议读者模仿所述伤害结果。",
+        "声明任何心理伤害都不能延续到灾后。"
+      ],
+      "answer": 0,
+      "type": "作者意图",
+      "support": "explicit",
+      "analyses": [
+        "A some...others列不同严重遭遇，不让后续most resilient抹去伤害。",
+        "B some和others不是every或完全同样。",
+        "C 这是后果叙述，绝非对读者的行为建议。",
+        "D for a long time明确长期可能，不能反读成影响瞬间结束。"
+      ],
+      "vocabulary": [
+        {
+          "word": "traumatized",
+          "meaning": "受到心理创伤的；深受冲击的",
+          "context": "用于原文对部分灾后遭遇者的描述，不是据阅读一句话给所有幸存者或读者作诊断。",
+          "example": "The account acknowledges that some survivors remained traumatized for a long time.",
+          "collocations": [
+            "traumatized for a long time",
+            "after a natural disaster"
+          ]
+        }
+      ],
+      "translation": "同样，Katrina后出现elite panic，即过分害怕社会失序。自警团体成立，对Black居民施加无端暴力。这类事件不该发生。有人长期创伤，有人灾后选择结束生命。",
+      "evidenceTargetIds": [
+        "c11-s07-p131-01845-s008"
+      ],
+      "evidence": [
+        {
+          "quote": "Likewise, right after Hurricane Katrina, there was an “elite panic,” or excessive fear of social disorder. Vigilantes were formed and they inflicted unprovoked violence on Black residents. Incidents like this should not have happened. Some people are traumatized for a long time; others decide to end their lives after a natural disaster.",
+          "sentenceIds": [
+            "c11-s07-p131-01845-s005",
+            "c11-s07-p131-01845-s006",
+            "c11-s07-p131-01845-s007",
+            "c11-s07-p131-01845-s008"
+          ],
+          "sources": [
+            {
+              "pdfPage": 131,
+              "block": 2,
+              "bbox": [
+                76.99,
+                184.5,
+                535.01,
+                374.52
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "81a634fc6077dad00b9445c21eb7b331f9255016da831c69ec760aec956da57f"
+    },
+    {
+      "id": "q-c11-060",
+      "version": 1,
+      "readingUnitId": "c11-s07-p131-03795-r001-004",
+      "chapterId": "c11",
+      "sectionId": "c11-s07",
+      "paragraphId": "c11-s07-p131-03795",
+      "sentenceIds": [
+        "c11-s07-p131-03795-s001",
+        "c11-s07-p131-03795-s002",
+        "c11-s07-p131-03795-s003",
+        "c11-s07-p131-03795-s004"
+      ],
+      "passage": "However, research shows that most people are remarkably resilient. Most people do move on. Ann Masten, the world authority on psychological resilience, summarized decades of resilience research as follows: “Early images of resilience in both scholarly work and mass media implied that there was something remarkable or special about these children, often described by words such as invulnerable, or invincible…. The idea of resilient children as remarkable individuals possessing extraordinary strength or inner resilience has lingered, even in scholarly work….",
+      "prompt": "What earlier image of resilient children does Masten describe?",
+      "options": [
+        "They had no capacity to adapt.",
+        "They recovered only because every danger vanished.",
+        "They were often portrayed as extraordinary or invulnerable individuals.",
+        "Every scholar had always viewed resilience as ordinary."
+      ],
+      "answer": 2,
+      "type": "主旨",
+      "promptZh": "Masten描述早期怎样看待韧性儿童？",
+      "optionsZh": [
+        "完全不能适应。",
+        "只因危险全部消失才复原。",
+        "常被描写为非凡或刀枪不入的个体。",
+        "学者从来都视韧性为普通。"
+      ],
+      "analyses": [
+        "A exceptional strength不是无能力。",
+        "B 未说外部危险全消失。",
+        "C early images/invulnerable/invincible 是早期形象，不能错作作者无条件认可。",
+        "D lingered表明特殊英雄观长期存在。most不是人人，下一段才给研究惊喜。"
+      ],
+      "evidence": [
+        {
+          "quote": "often described by words such as invulnerable, or invincible",
+          "sentenceIds": [
+            "c11-s07-p131-03795-s003"
+          ],
+          "sources": [
+            {
+              "pdfPage": 131,
+              "block": 3,
+              "bbox": [
+                76.99,
+                379.5,
+                535.02,
+                608.52
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "resilient",
+          "meaning": "有复原力的；能适应逆境的",
+          "context": "不等于从不受伤或人人免于长期创伤",
+          "example": "Many people are resilient after difficult changes.",
+          "collocations": [
+            "psychologically resilient",
+            "resilient children"
+          ]
+        }
+      ],
+      "translation": "然而研究表明，多数人韧性惊人，多数确实继续生活。心理韧性专家Ann Masten总结数十年研究：早期学术和媒体把这些儿童描写得非凡特殊，常用不受伤害、不可战胜等词。这种认为韧性儿童有超凡力量的想法，甚至在学术中也延续。（引语续下段）",
+      "support": "explicit",
+      "editorialStatus": "完整PDF130–136原页视觉核对含章末132与章首133。瑞典2021两次调查为自报比较，保留反向因果；谣言不作事实、暴力明确谴责，韧性most/common不作人人无创伤。既有单元q-c11-062原文仅起).，为131页七転八起括号因换行提取的末字续片，保留既有ID/范围并编来源续接辨识题，明确非独立英文段或最终人工句界，不补造英文或新主张；词汇特记日语末字。James画作是哲学比喻，保留不幸受约束。Bush为作者可选叙述示范，probably/could不作客观证实；Tim Wilson区别Anne Wilson。父母回顾多年龄评分非几十年追踪；本科纵向6.35原九月/6.05当下十一月/5.74回忆九月分开，实际记录指原自评不是客观能力。末段整段审阅含后续未配题材料，不宣称逐句直接证据全覆盖。",
+      "fingerprint": "f5cbd2d5fabc829f4f36d70c90a94a876fc206dc67ed12d05a50bf4acf463e39"
+    },
+    {
+      "id": "qe-c11-0109",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-052",
+      "parentQuestionId": "q-c11-060",
+      "chapterId": "c11",
+      "sectionId": "c11-s07",
+      "paragraphId": "c11-s07-p131-03795",
+      "readingUnitId": "c11-s07-p131-03795-r001-004",
+      "sentenceIds": [
+        "c11-s07-p131-03795-s001",
+        "c11-s07-p131-03795-s002",
+        "c11-s07-p131-03795-s003",
+        "c11-s07-p131-03795-s004"
+      ],
+      "passage": "However, research shows that most people are remarkably resilient. Most people do move on. Ann Masten, the world authority on psychological resilience, summarized decades of resilience research as follows: “Early images of resilience in both scholarly work and mass media implied that there was something remarkable or special about these children, often described by words such as invulnerable, or invincible…. The idea of resilient children as remarkable individuals possessing extraordinary strength or inner resilience has lingered, even in scholarly work….",
+      "prompt": "What limitation is carried by 'most people' in the resilience claim?",
+      "promptZh": "韧性论述中的 most people 有什么范围限定？",
+      "options": [
+        "Only a single exceptional individual can ever adapt.",
+        "The claim concerns a majority, without denying that some suffer lasting harm.",
+        "Every person is immune to all injury and loss.",
+        "No person can ever move forward after adversity."
+      ],
+      "optionsZh": [
+        "只有一个超常个体才可能适应。",
+        "论述指多数，未否认有人长期受害。",
+        "每个人都完全不受伤害损失。",
+        "任何人都绝不可能在逆境后继续生活。"
+      ],
+      "answer": 1,
+      "type": "证据范围",
+      "support": "explicit",
+      "analyses": [
+        "A most与仅一个特殊个体不同。",
+        "B most限定多数；However转向韧性并不取消前段的部分严重遭遇。",
+        "C resilient不等于invulnerable，most也不能改为every。",
+        "D 作者明确most resilient，不能读成无人能向前。"
+      ],
+      "vocabulary": [
+        {
+          "word": "resilient",
+          "meaning": "有韧性的；能在打击后适应和恢复的",
+          "context": "不是永远不会受伤或经历无痛，文中后面还将韧性说明为常见现象。",
+          "example": "Many people are resilient while still being affected by loss.",
+          "collocations": [
+            "most people are remarkably resilient",
+            "research shows"
+          ]
+        }
+      ],
+      "translation": "然而研究表明，多数人韧性惊人，多数确实继续生活。心理韧性专家Ann Masten总结数十年研究：早期学术和媒体把这些儿童描写得非凡特殊，常用不受伤害、不可战胜等词。这种认为韧性儿童有超凡力量的想法，甚至在学术中也延续。（引语续下段）",
+      "evidenceTargetIds": [
+        "c11-s07-p131-03795-s001"
+      ],
+      "evidence": [
+        {
+          "quote": "However, research shows that most people are remarkably resilient. Most people do move on. Ann Masten, the world authority on psychological resilience, summarized decades of resilience research as follows: “Early images of resilience in both scholarly work and mass media implied that there was something remarkable or special about these children, often described by words such as invulnerable, or invincible…. The idea of resilient children as remarkable individuals possessing extraordinary strength or inner resilience has lingered, even in scholarly work….",
+          "sentenceIds": [
+            "c11-s07-p131-03795-s001",
+            "c11-s07-p131-03795-s002",
+            "c11-s07-p131-03795-s003",
+            "c11-s07-p131-03795-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 131,
+              "block": 3,
+              "bbox": [
+                76.99,
+                379.5,
+                535.02,
+                608.52
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "b6cb990a027f201eedf1f440190c503c5a9bc2a9bdd829728414b244233b0a23"
+    },
+    {
+      "id": "qe-c11-0110",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-052",
+      "parentQuestionId": "q-c11-060",
+      "chapterId": "c11",
+      "sectionId": "c11-s07",
+      "paragraphId": "c11-s07-p131-03795",
+      "readingUnitId": "c11-s07-p131-03795-r001-004",
+      "sentenceIds": [
+        "c11-s07-p131-03795-s001",
+        "c11-s07-p131-03795-s002",
+        "c11-s07-p131-03795-s003",
+        "c11-s07-p131-03795-s004"
+      ],
+      "passage": "However, research shows that most people are remarkably resilient. Most people do move on. Ann Masten, the world authority on psychological resilience, summarized decades of resilience research as follows: “Early images of resilience in both scholarly work and mass media implied that there was something remarkable or special about these children, often described by words such as invulnerable, or invincible…. The idea of resilient children as remarkable individuals possessing extraordinary strength or inner resilience has lingered, even in scholarly work….",
+      "prompt": "What does the emphatic 'do' add in 'Most people do move on'?",
+      "promptZh": "Most people do move on 中，强调用 do 起什么作用？",
+      "options": [
+        "It negates the action and means most people never move on.",
+        "It turns the statement into a command that every reader must obey immediately.",
+        "It stresses that moving on really does occur for most people.",
+        "It changes the statement into a question about physical transport only."
+      ],
+      "optionsZh": [
+        "否定动作，表示多数人从不继续生活。",
+        "把陈述变成每个读者必须立即服从的命令。",
+        "强调多数人确实能继续生活。",
+        "把句子变成只问交通移动的问题。"
+      ],
+      "answer": 2,
+      "type": "语法",
+      "support": "explicit",
+      "analyses": [
+        "A do在此不是do not，不能加上否定。",
+        "B 主语Most people后的陈述强调，非以动词开头的强制祈使。",
+        "C do加动词原形move表示加强肯定语气；保留most的范围。",
+        "D move on在此是从困难中继续生活，不只指搬家乘车，句子也不是疑问。"
+      ],
+      "vocabulary": [
+        {
+          "word": "move on",
+          "meaning": "继续生活；从某段困难经历往前走",
+          "context": "不必表示全忘记损失、毫无痛苦或真的换住所。",
+          "example": "After a difficult period, many people do move on.",
+          "collocations": [
+            "Most people do move on",
+            "do move on"
+          ]
+        }
+      ],
+      "translation": "然而研究表明，多数人韧性惊人，多数确实继续生活。心理韧性专家Ann Masten总结数十年研究：早期学术和媒体把这些儿童描写得非凡特殊，常用不受伤害、不可战胜等词。这种认为韧性儿童有超凡力量的想法，甚至在学术中也延续。（引语续下段）",
+      "evidenceTargetIds": [
+        "c11-s07-p131-03795-s002"
+      ],
+      "evidence": [
+        {
+          "quote": "However, research shows that most people are remarkably resilient. Most people do move on. Ann Masten, the world authority on psychological resilience, summarized decades of resilience research as follows: “Early images of resilience in both scholarly work and mass media implied that there was something remarkable or special about these children, often described by words such as invulnerable, or invincible…. The idea of resilient children as remarkable individuals possessing extraordinary strength or inner resilience has lingered, even in scholarly work….",
+          "sentenceIds": [
+            "c11-s07-p131-03795-s001",
+            "c11-s07-p131-03795-s002",
+            "c11-s07-p131-03795-s003",
+            "c11-s07-p131-03795-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 131,
+              "block": 3,
+              "bbox": [
+                76.99,
+                379.5,
+                535.02,
+                608.52
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "c1ad9e9f02e0f1ea440dde1744029d8a8ae7da6e5f7c88746346f65490b5adc0"
+    },
+    {
+      "id": "qe-c11-0111",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-052",
+      "parentQuestionId": "q-c11-060",
+      "chapterId": "c11",
+      "sectionId": "c11-s07",
+      "paragraphId": "c11-s07-p131-03795",
+      "readingUnitId": "c11-s07-p131-03795-r001-004",
+      "sentenceIds": [
+        "c11-s07-p131-03795-s001",
+        "c11-s07-p131-03795-s002",
+        "c11-s07-p131-03795-s003",
+        "c11-s07-p131-03795-s004"
+      ],
+      "passage": "However, research shows that most people are remarkably resilient. Most people do move on. Ann Masten, the world authority on psychological resilience, summarized decades of resilience research as follows: “Early images of resilience in both scholarly work and mass media implied that there was something remarkable or special about these children, often described by words such as invulnerable, or invincible…. The idea of resilient children as remarkable individuals possessing extraordinary strength or inner resilience has lingered, even in scholarly work….",
+      "prompt": "What idea does Masten say has lingered in accounts of resilient children?",
+      "promptZh": "Masten 说对韧性儿童的叙述中，什么观念延续下来？",
+      "options": [
+        "The belief that they are extraordinary individuals with exceptional inner strength.",
+        "The conclusion that resilience has never been studied in scholarly work.",
+        "The claim that every child lacks any ability to adapt.",
+        "The finding that no media account ever described children as special."
+      ],
+      "optionsZh": [
+        "认为他们是内在力量超常的非凡个体。",
+        "韧性从未在学术中被研究的结论。",
+        "每个儿童都无适应能力的说法。",
+        "从无媒体把儿童描写为特殊的发现。"
+      ],
+      "answer": 0,
+      "type": "观点归属",
+      "support": "explicit",
+      "analyses": [
+        "A remarkable individuals、extraordinary strength正是has lingered的观念内容。",
+        "B even in scholarly work说学术中也有该观念，不是无人研究。",
+        "C 该历史观念把部分儿童描写得强，非全体都不能适应。",
+        "D 前面Early images在学术与媒体中均有special描写；这里报告旧观念的延续，不是认可只有超人才能有韧性。"
+      ],
+      "vocabulary": [
+        {
+          "word": "lingered",
+          "meaning": "延续；久久仍在",
+          "context": "这里指一种观念仍有影响，不是研究已证明该观念正确。",
+          "example": "The old image lingered even after new evidence appeared.",
+          "collocations": [
+            "has lingered, even in scholarly work",
+            "possessing extraordinary strength"
+          ]
+        }
+      ],
+      "translation": "然而研究表明，多数人韧性惊人，多数确实继续生活。心理韧性专家Ann Masten总结数十年研究：早期学术和媒体把这些儿童描写得非凡特殊，常用不受伤害、不可战胜等词。这种认为韧性儿童有超凡力量的想法，甚至在学术中也延续。（引语续下段）",
+      "evidenceTargetIds": [
+        "c11-s07-p131-03795-s004"
+      ],
+      "evidence": [
+        {
+          "quote": "However, research shows that most people are remarkably resilient. Most people do move on. Ann Masten, the world authority on psychological resilience, summarized decades of resilience research as follows: “Early images of resilience in both scholarly work and mass media implied that there was something remarkable or special about these children, often described by words such as invulnerable, or invincible…. The idea of resilient children as remarkable individuals possessing extraordinary strength or inner resilience has lingered, even in scholarly work….",
+          "sentenceIds": [
+            "c11-s07-p131-03795-s001",
+            "c11-s07-p131-03795-s002",
+            "c11-s07-p131-03795-s003",
+            "c11-s07-p131-03795-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 131,
+              "block": 3,
+              "bbox": [
+                76.99,
+                379.5,
+                535.02,
+                608.52
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "b61549294e9ea5c3cf4b45329a9adc34a3642843a3771675873b4b1dc361bfc2"
+    },
+    {
+      "id": "q-c11-061",
+      "version": 2,
+      "readingUnitId": "c11-s07-p131-03795-r005-007",
+      "chapterId": "c11",
+      "sectionId": "c11-s07",
+      "paragraphId": "c11-s07-p131-03795",
+      "sentenceIds": [
+        "c11-s07-p131-03795-s005",
+        "c11-s07-p131-03795-s006"
+      ],
+      "passage": "The great surprise of resilience research is the ordinariness of the phenomena. Resilience appears to be a common phenomenon that results in most cases from the operation of basic human adaptational systems.”",
+      "prompt": "What is the surprising conclusion about resilience?",
+      "options": [
+        "It commonly emerges from basic human adaptation rather than rare invincibility.",
+        "It is always a property possessed by only one exceptional child.",
+        "It guarantees that no survivor feels pain.",
+        "It requires falling exactly seven times in a literal test."
+      ],
+      "answer": 0,
+      "type": "主旨",
+      "promptZh": "关于韧性的惊人结论是什么？",
+      "optionsZh": [
+        "常来自基本适应系统，而非罕见无敌。",
+        "永远只属一名特殊儿童。",
+        "保证幸存者无痛。",
+        "必须真实测试恰跌七次。"
+      ],
+      "analyses": [
+        "A ordinariness/common/basic adaptational systems共同支持。",
+        "B common与only相反。",
+        "C 韧性不是无痛保证。",
+        "D 本段讲韧性与基本适应机制，并没有设置或规定跌倒次数的实验。"
+      ],
+      "evidence": [
+        {
+          "quote": "Resilience appears to be a common phenomenon that results in most cases from the operation of basic human adaptational systems.",
+          "sentenceIds": [
+            "c11-s07-p131-03795-s006"
+          ],
+          "sources": [
+            {
+              "pdfPage": 131,
+              "block": 3,
+              "bbox": [
+                76.99,
+                379.5,
+                535.02,
+                608.52
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "ordinariness",
+          "meaning": "普通性；普遍性",
+          "context": "与把韧性视为超人特质的旧印象对照",
+          "example": "The review emphasized the ordinariness of resilience.",
+          "collocations": [
+            "ordinariness of a phenomenon",
+            "basic adaptational systems"
+          ]
+        }
+      ],
+      "translation": "韧性研究最大的惊喜是这一现象的普通性。韧性看来很常见，多数情况下源自人类基本适应系统的运作。",
+      "support": "explicit",
+      "editorialStatus": "按实际PDF修复相邻单元断句；原字符、源ID与阅读次序保留，旧版本和作答快照不改写。",
+      "sourceSegments": [
+        {
+          "paragraphId": "c11-s07-p131-03795",
+          "start": 562,
+          "end": 770,
+          "separator": "",
+          "text": "The great surprise of resilience research is the ordinariness of the phenomena. Resilience appears to be a common phenomenon that results in most cases from the operation of basic human adaptational systems.”"
+        }
+      ],
+      "boundaryRepair": "sentence-boundaries-2026-10-25",
+      "fingerprint": "84e01ba1ee5561efa8b3856e5aea3d33368ee966baec32b3ec8fefb186fd8f35"
+    },
+    {
+      "id": "qe-c11-0112",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-052",
+      "parentQuestionId": "q-c11-061",
+      "chapterId": "c11",
+      "sectionId": "c11-s07",
+      "paragraphId": "c11-s07-p131-03795",
+      "readingUnitId": "c11-s07-p131-03795-r005-007",
+      "sentenceIds": [
+        "c11-s07-p131-03795-s005",
+        "c11-s07-p131-03795-s006"
+      ],
+      "passage": "The great surprise of resilience research is the ordinariness of the phenomena. Resilience appears to be a common phenomenon that results in most cases from the operation of basic human adaptational systems.”",
+      "prompt": "What is surprising about resilience in the research summary?",
+      "promptZh": "研究总结认为韧性有哪点令人惊讶？",
+      "options": [
+        "It occurs only in people with supernatural powers.",
+        "It can never arise from ordinary human adaptation.",
+        "It is defined as proof that nobody has been harmed.",
+        "It is an ordinary, common phenomenon rather than only an extraordinary exception."
+      ],
+      "optionsZh": [
+        "它只存在于有超自然力量者。",
+        "它绝不能来自普通的人类适应。",
+        "它被定义为没人受过伤的证明。",
+        "它是普通常见现象，而非仅超常的例外。"
+      ],
+      "answer": 3,
+      "type": "主旨",
+      "support": "explicit",
+      "analyses": [
+        "A 后句common和basic adaptational systems与超自然排他要求不同。",
+        "B results...basic human adaptational systems方向相反。",
+        "C 韧性与从未受伤不能等同。",
+        "D ordinariness在本句给核心反差，后句common补充，保留appears与most cases，不声称全员必然。"
+      ],
+      "vocabulary": [
+        {
+          "word": "ordinariness",
+          "meaning": "普通性；平常而非特别罕见的性质",
+          "context": "与上一叙述remarkable/extraordinary形成反差，不表示现象不重要。",
+          "example": "The surprise was the ordinariness of a process once thought exceptional.",
+          "collocations": [
+            "the ordinariness of the phenomena",
+            "The great surprise of resilience research"
+          ]
+        }
+      ],
+      "translation": "韧性研究最大的惊喜是这一现象的普通性。韧性看来很常见，多数情况下源自人类基本适应系统的运作。",
+      "evidenceTargetIds": [
+        "c11-s07-p131-03795-s005"
+      ],
+      "evidence": [
+        {
+          "quote": "The great surprise of resilience research is the ordinariness of the phenomena. Resilience appears to be a common phenomenon that results in most cases from the operation of basic human adaptational systems.”",
+          "sentenceIds": [
+            "c11-s07-p131-03795-s005",
+            "c11-s07-p131-03795-s006"
+          ],
+          "sources": [
+            {
+              "pdfPage": 131,
+              "block": 3,
+              "bbox": [
+                76.99,
+                379.5,
+                535.02,
+                608.52
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "sourceSegments": [
+        {
+          "paragraphId": "c11-s07-p131-03795",
+          "start": 562,
+          "end": 770,
+          "separator": "",
+          "text": "The great surprise of resilience research is the ordinariness of the phenomena. Resilience appears to be a common phenomenon that results in most cases from the operation of basic human adaptational systems.”"
+        }
+      ],
+      "fingerprint": "2d95adf44cab53b8e831f2929c21ddf7676c07be51603e738bc4fa84886824f0"
+    },
+    {
+      "id": "q-c11-063",
+      "version": 1,
+      "readingUnitId": "c11-s07-p131-06330-r001-003",
+      "chapterId": "c11",
+      "sectionId": "c11-s07",
+      "paragraphId": "c11-s07-p131-06330",
+      "sentenceIds": [
+        "c11-s07-p131-06330-s001",
+        "c11-s07-p131-06330-s002",
+        "c11-s07-p131-06330-s003"
+      ],
+      "passage": "During hard times, when happiness feels out of reach, there are other values with which we can frame our lives. One way to think about an unfortunate event is that it might unintentionally enrich our lives, even when the “enriching” experience is far from a happy one. A painting by Guido Reni shows St. Michael putting his foot on Satan’s neck.",
+      "prompt": "What possibility does the author offer when happiness seems unavailable?",
+      "options": [
+        "Other values may frame a difficult life, including richness without happiness.",
+        "Every unfortunate event must be pleasant.",
+        "People should arrange disasters for themselves.",
+        "The painting proves a universal experimental result."
+      ],
+      "answer": 0,
+      "type": "主旨",
+      "promptZh": "幸福遥不可及时，作者提出什么可能？",
+      "optionsZh": [
+        "可用其他价值理解人生，丰富未必快乐。",
+        "每个不幸事件必须愉快。",
+        "应安排自己遭灾。",
+        "画作证明普世实验结果。"
+      ],
+      "analyses": [
+        "A other values/might enrich/far from happy保留可能与区别。",
+        "B far from happy相反。",
+        "C 没鼓励主动受难。",
+        "D 画是作者例子，非实验数据。"
+      ],
+      "evidence": [
+        {
+          "quote": "it might unintentionally enrich our lives, even when the “enriching” experience is far from a happy one.",
+          "sentenceIds": [
+            "c11-s07-p131-06330-s002"
+          ],
+          "sources": [
+            {
+              "pdfPage": 131,
+              "block": 5,
+              "bbox": [
+                76.99,
+                633,
+                535.01,
+                706.02
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "frame",
+          "meaning": "理解；赋予解释框架",
+          "context": "用其他价值看艰难人生，不是伪造事件",
+          "example": "She used a different value to frame the experience.",
+          "collocations": [
+            "frame our lives",
+            "frame an unfortunate event"
+          ]
+        }
+      ],
+      "translation": "困难时幸福遥不可及，还有其他价值可用来理解人生。一种看待不幸的方式是，它也许无意丰富人生，即使“丰富”的体验远不快乐。Guido Reni一幅画描绘St. Michael踩住Satan脖颈。",
+      "support": "explicit",
+      "editorialStatus": "完整PDF130–136原页视觉核对含章末132与章首133。瑞典2021两次调查为自报比较，保留反向因果；谣言不作事实、暴力明确谴责，韧性most/common不作人人无创伤。既有单元q-c11-062原文仅起).，为131页七転八起括号因换行提取的末字续片，保留既有ID/范围并编来源续接辨识题，明确非独立英文段或最终人工句界，不补造英文或新主张；词汇特记日语末字。James画作是哲学比喻，保留不幸受约束。Bush为作者可选叙述示范，probably/could不作客观证实；Tim Wilson区别Anne Wilson。父母回顾多年龄评分非几十年追踪；本科纵向6.35原九月/6.05当下十一月/5.74回忆九月分开，实际记录指原自评不是客观能力。末段整段审阅含后续未配题材料，不宣称逐句直接证据全覆盖。",
+      "fingerprint": "3e1e6524b6fe8738b8ff1919395da9a830355c40f82bdbcc373aee566b0e9099"
+    },
+    {
+      "id": "qe-c11-0113",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-052",
+      "parentQuestionId": "q-c11-063",
+      "chapterId": "c11",
+      "sectionId": "c11-s07",
+      "paragraphId": "c11-s07-p131-06330",
+      "readingUnitId": "c11-s07-p131-06330-r001-003",
+      "sentenceIds": [
+        "c11-s07-p131-06330-s001",
+        "c11-s07-p131-06330-s002",
+        "c11-s07-p131-06330-s003"
+      ],
+      "passage": "During hard times, when happiness feels out of reach, there are other values with which we can frame our lives. One way to think about an unfortunate event is that it might unintentionally enrich our lives, even when the “enriching” experience is far from a happy one. A painting by Guido Reni shows St. Michael putting his foot on Satan’s neck.",
+      "prompt": "What option does the author present when happiness feels out of reach?",
+      "promptZh": "幸福感觉遥不可及时，作者提出什么可能？",
+      "options": [
+        "Only happiness may ever be used to interpret a life.",
+        "Other values can also provide a way to frame one's life.",
+        "Every person must immediately claim to feel happy.",
+        "The absence of happiness proves that no valuable life is possible."
+      ],
+      "optionsZh": [
+        "只有幸福可用于理解人生。",
+        "也可用其他价值来理解人生。",
+        "每个人必须立刻声称幸福。",
+        "没有幸福就证明不可能有有价值人生。"
+      ],
+      "answer": 1,
+      "type": "作者观点",
+      "support": "explicit",
+      "analyses": [
+        "A other values明示不止幸福。",
+        "B other values with which...frame our lives直接对应，when从句承认当前困难。",
+        "C 不是强迫自称快乐；后句还说enriching experience far from happy。",
+        "D 与作者保留其他价值的主张相反，不把这段价值讨论写成个体治疗保证。"
+      ],
+      "vocabulary": [
+        {
+          "word": "out of reach",
+          "meaning": "难以达到的；似乎够不到的",
+          "context": "此处比喻幸福难以获得，不是手臂物理长度。",
+          "example": "During that period, ordinary happiness felt out of reach.",
+          "collocations": [
+            "happiness feels out of reach",
+            "other values with which we can frame our lives"
+          ]
+        }
+      ],
+      "translation": "困难时幸福遥不可及，还有其他价值可用来理解人生。一种看待不幸的方式是，它也许无意丰富人生，即使“丰富”的体验远不快乐。Guido Reni一幅画描绘St. Michael踩住Satan脖颈。",
+      "evidenceTargetIds": [
+        "c11-s07-p131-06330-s001"
+      ],
+      "evidence": [
+        {
+          "quote": "During hard times, when happiness feels out of reach, there are other values with which we can frame our lives. One way to think about an unfortunate event is that it might unintentionally enrich our lives, even when the “enriching” experience is far from a happy one. A painting by Guido Reni shows St. Michael putting his foot on Satan’s neck.",
+          "sentenceIds": [
+            "c11-s07-p131-06330-s001",
+            "c11-s07-p131-06330-s002",
+            "c11-s07-p131-06330-s003"
+          ],
+          "sources": [
+            {
+              "pdfPage": 131,
+              "block": 5,
+              "bbox": [
+                76.99,
+                633,
+                535.01,
+                706.02
+              ]
+            },
+            {
+              "pdfPage": 132,
+              "block": 0,
+              "bbox": [
+                76.99,
+                75,
+                535.01,
+                167.52
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "4be5ffa92278046eeb896e6d7d340fe1e52d71cc9bb842df0ffe05700bae902c"
+    },
+    {
+      "id": "qe-c11-0114",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-052",
+      "parentQuestionId": "q-c11-063",
+      "chapterId": "c11",
+      "sectionId": "c11-s07",
+      "paragraphId": "c11-s07-p131-06330",
+      "readingUnitId": "c11-s07-p131-06330-r001-003",
+      "sentenceIds": [
+        "c11-s07-p131-06330-s001",
+        "c11-s07-p131-06330-s002",
+        "c11-s07-p131-06330-s003"
+      ],
+      "passage": "During hard times, when happiness feels out of reach, there are other values with which we can frame our lives. One way to think about an unfortunate event is that it might unintentionally enrich our lives, even when the “enriching” experience is far from a happy one. A painting by Guido Reni shows St. Michael putting his foot on Satan’s neck.",
+      "prompt": "Which pairing matches the painting and the action it depicts?",
+      "promptZh": "哪组对应符合画作及画中动作？",
+      "options": [
+        "William James paints Satan placing a foot on St. Michael's neck.",
+        "Guido Reni is shown stepping on William James's neck.",
+        "A painting by Guido Reni shows St. Michael putting his foot on Satan's neck.",
+        "A painting by St. Michael shows Guido Reni placing his foot on Satan."
+      ],
+      "optionsZh": [
+        "William James画Satan踩St. Michael脖颈。",
+        "Guido Reni在画里踩William James脖颈。",
+        "Guido Reni的画描绘St. Michael踩Satan脖颈。",
+        "St. Michael作画，画Guido Reni踩Satan。"
+      ],
+      "answer": 2,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A James为后面评论者，且画中施动者反了。",
+        "B 将画家与后面的评论者误作画中双方。",
+        "C by Guido Reni说明画家，shows后才是St. Michael的动作和Satan这一承受对象。",
+        "D 把画家与角色互换；保留原文St.缩写及精确归属，不据画面叙述补造实验结论。"
+      ],
+      "vocabulary": [
+        {
+          "word": "shows",
+          "meaning": "描绘；呈现画中的场景",
+          "context": "本句动词指画作内容，不是研究用数据显示某因果。",
+          "example": "The painting shows one figure restraining another.",
+          "collocations": [
+            "A painting by Guido Reni shows",
+            "St. Michael putting his foot"
+          ]
+        }
+      ],
+      "translation": "困难时幸福遥不可及，还有其他价值可用来理解人生。一种看待不幸的方式是，它也许无意丰富人生，即使“丰富”的体验远不快乐。Guido Reni一幅画描绘St. Michael踩住Satan脖颈。",
+      "evidenceTargetIds": [
+        "c11-s07-p131-06330-s003"
+      ],
+      "evidence": [
+        {
+          "quote": "During hard times, when happiness feels out of reach, there are other values with which we can frame our lives. One way to think about an unfortunate event is that it might unintentionally enrich our lives, even when the “enriching” experience is far from a happy one. A painting by Guido Reni shows St. Michael putting his foot on Satan’s neck.",
+          "sentenceIds": [
+            "c11-s07-p131-06330-s001",
+            "c11-s07-p131-06330-s002",
+            "c11-s07-p131-06330-s003"
+          ],
+          "sources": [
+            {
+              "pdfPage": 131,
+              "block": 5,
+              "bbox": [
+                76.99,
+                633,
+                535.01,
+                706.02
+              ]
+            },
+            {
+              "pdfPage": 132,
+              "block": 0,
+              "bbox": [
+                76.99,
+                75,
+                535.01,
+                167.52
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "3664779668c416974fad2291aab0b0a11c82fc123f34fa27f4981704b7272bc7"
+    },
+    {
+      "id": "q-c11-064",
+      "version": 1,
+      "readingUnitId": "c11-s07-p131-06330-r004-005",
+      "chapterId": "c11",
+      "sectionId": "c11-s07",
+      "paragraphId": "c11-s07-p131-06330",
+      "sentenceIds": [
+        "c11-s07-p131-06330-s004",
+        "c11-s07-p131-06330-s005"
+      ],
+      "passage": "William James commented on this painting, saying that “the world is all the richer for having a devil in it, so long as we keep our foot upon his neck.” Psychological richness and misfortune can coexist, so long as the misfortune is kept in check.",
+      "prompt": "What condition qualifies the coexistence of richness and misfortune?",
+      "options": [
+        "Misfortune must be allowed to grow without limit.",
+        "The misfortune must be kept in check.",
+        "Richness requires all suffering to be called happiness.",
+        "Every viewer must believe the painting literally predicts the future."
+      ],
+      "answer": 1,
+      "type": "逻辑关系",
+      "promptZh": "丰富与不幸并存有什么条件？",
+      "optionsZh": [
+        "不幸须无限扩大。",
+        "不幸须得到约束。",
+        "须把所有痛苦称幸福。",
+        "须相信画字面预测未来。"
+      ],
+      "analyses": [
+        "A kept in check与无限扩张相反。",
+        "B so long as两次限定，不能省略。",
+        "C coexist不是同义，前段区分快乐。",
+        "D William James评论为哲学艺术比喻，不是因果实验或预言。"
+      ],
+      "evidence": [
+        {
+          "quote": "Psychological richness and misfortune can coexist, so long as the misfortune is kept in check.",
+          "sentenceIds": [
+            "c11-s07-p131-06330-s005"
+          ],
+          "sources": [
+            {
+              "pdfPage": 132,
+              "block": 0,
+              "bbox": [
+                76.99,
+                75,
+                535.01,
+                167.52
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "kept in check",
+          "meaning": "受约束；得到控制",
+          "context": "限定不幸不能失控，非对所有受害者保证能控制遭遇",
+          "example": "The danger had to be kept in check.",
+          "collocations": [
+            "keep misfortune in check",
+            "so long as"
+          ]
+        }
+      ],
+      "translation": "William James评论此画：只要仍把脚踩在魔鬼脖颈上，世界因有魔鬼而更丰富。只要不幸得到约束，心理丰富与不幸能够共存。",
+      "support": "explicit",
+      "editorialStatus": "完整PDF130–136原页视觉核对含章末132与章首133。瑞典2021两次调查为自报比较，保留反向因果；谣言不作事实、暴力明确谴责，韧性most/common不作人人无创伤。既有单元q-c11-062原文仅起).，为131页七転八起括号因换行提取的末字续片，保留既有ID/范围并编来源续接辨识题，明确非独立英文段或最终人工句界，不补造英文或新主张；词汇特记日语末字。James画作是哲学比喻，保留不幸受约束。Bush为作者可选叙述示范，probably/could不作客观证实；Tim Wilson区别Anne Wilson。父母回顾多年龄评分非几十年追踪；本科纵向6.35原九月/6.05当下十一月/5.74回忆九月分开，实际记录指原自评不是客观能力。末段整段审阅含后续未配题材料，不宣称逐句直接证据全覆盖。",
+      "fingerprint": "dad125e258928d9737c380cbe652fed14fe8a57a0ec5e3c66824a2d53248786f"
+    },
+    {
+      "id": "qe-c11-0115",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-052",
+      "parentQuestionId": "q-c11-064",
+      "chapterId": "c11",
+      "sectionId": "c11-s07",
+      "paragraphId": "c11-s07-p131-06330",
+      "readingUnitId": "c11-s07-p131-06330-r004-005",
+      "sentenceIds": [
+        "c11-s07-p131-06330-s004",
+        "c11-s07-p131-06330-s005"
+      ],
+      "passage": "William James commented on this painting, saying that “the world is all the richer for having a devil in it, so long as we keep our foot upon his neck.” Psychological richness and misfortune can coexist, so long as the misfortune is kept in check.",
+      "prompt": "Which condition is essential to James's quoted comment about a richer world?",
+      "promptZh": "James 关于世界更丰富的引述中，哪个条件不可省略？",
+      "options": [
+        "Evil is allowed to do unlimited harm without restraint.",
+        "Everyone must seek misfortune to deserve a good life.",
+        "The painter must be treated as the speaker of James's words.",
+        "The devil is kept underfoot, corresponding to misfortune being kept in check."
+      ],
+      "optionsZh": [
+        "允许邪恶无约束地造成伤害。",
+        "每个人必须寻求不幸才配好人生。",
+        "必须把画家当James引语的说话人。",
+        "魔鬼仍被踩制住，对应不幸受到约束。"
+      ],
+      "answer": 3,
+      "type": "逻辑关系",
+      "support": "explicit",
+      "analyses": [
+        "A so long as明确约束条件，非无限放任。",
+        "B can coexist不等于必须寻求不幸或受害者有义务赞美。",
+        "C commented...saying的主语是William James，非Guido Reni。",
+        "D 保留so long as与下一句kept in check的呼应，哲学评论不作人人受难获益的实验证明。"
+      ],
+      "vocabulary": [
+        {
+          "word": "so long as",
+          "meaning": "只要；在……条件满足时",
+          "context": "此处引必要保留的条件，不能删成无条件庆祝邪恶存在。",
+          "example": "Richness and difficulty may coexist so long as the difficulty is kept in check.",
+          "collocations": [
+            "so long as we keep our foot upon his neck",
+            "misfortune is kept in check"
+          ]
+        }
+      ],
+      "translation": "William James评论此画：只要仍把脚踩在魔鬼脖颈上，世界因有魔鬼而更丰富。只要不幸得到约束，心理丰富与不幸能够共存。",
+      "evidenceTargetIds": [
+        "c11-s07-p131-06330-s004"
+      ],
+      "evidence": [
+        {
+          "quote": "William James commented on this painting, saying that “the world is all the richer for having a devil in it, so long as we keep our foot upon his neck.” Psychological richness and misfortune can coexist, so long as the misfortune is kept in check.",
+          "sentenceIds": [
+            "c11-s07-p131-06330-s004",
+            "c11-s07-p131-06330-s005"
+          ],
+          "sources": [
+            {
+              "pdfPage": 132,
+              "block": 0,
+              "bbox": [
+                76.99,
+                75,
+                535.01,
+                167.52
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "ff6716b2689c3e1517e993f88c0633f3316eca258b22c09482faadf14733afa2"
+    }
+  ]
+}
