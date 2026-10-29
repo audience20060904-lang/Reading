@@ -1,0 +1,1785 @@
+{
+  "schemaVersion": 1,
+  "batchId": "question-review-2026-10-28-088",
+  "sourceCommit": "063c775c8920b19ca121565280a3c2e71dd4f507",
+  "pdfSha256": "be25c859f1bd894a4b0d1cff024ded1297f6a96a8e8ddabea1e3abcf89160a50",
+  "frozenAt": "2026-10-29T14:39:36.829Z",
+  "questions": [
+    {
+      "id": "q-c10-019",
+      "version": 1,
+      "readingUnitId": "c10-s02-p106-02115-r003-005",
+      "chapterId": "c10",
+      "sectionId": "c10-s02",
+      "paragraphId": "c10-s02-p106-02115",
+      "sentenceIds": [
+        "c10-s02-p106-02115-s003",
+        "c10-s02-p106-02115-s004",
+        "c10-s02-p106-02115-s005"
+      ],
+      "passage": "For instance, only 30 percent of college students followed the 37 percent rule under experimental conditions, though college students were slightly better than pigeons, of which only 17 percent followed the rule. Herbranson and colleagues concluded as follows: “Across three experiments, pigeons and humans failed to consistently use the optimal solution to the SP. Most importantly, both species failed to do so in the same way: They made selections too soon, before considering the ideal number of options.”",
+      "prompt": "What deviation did humans and pigeons share across the experiments?",
+      "options": [
+        "They selected too soon, before considering the ideal number of options.",
+        "They consistently waited beyond the optimal point.",
+        "Pigeons followed the rule more often than students.",
+        "Exactly 37 percent of each species followed the rule."
+      ],
+      "answer": 0,
+      "type": "细节",
+      "promptZh": "这些实验中，人和鸽子共有怎样的偏离？",
+      "optionsZh": [
+        "尚未考虑理想数量就过早选择。",
+        "一贯等到超过最优时点才选。",
+        "鸽子比学生更常遵循规则。",
+        "两个物种都恰有37%遵循。"
+      ],
+      "analyses": [
+        "A They made selections too soon...before...ideal number 明示共同方向。",
+        "B too soon 与等太久相反。",
+        "C 学生30%，鸽子17%，不是鸽子更高。",
+        "D 37%是规则中的候选截点；30%和17%才是本段遵循率。跨三次实验的共同偏离不等于两物种全部认知能力相同。"
+      ],
+      "evidence": [
+        {
+          "quote": "They made selections too soon, before considering the ideal number of options.",
+          "sentenceIds": [
+            "c10-s02-p106-02115-s005"
+          ],
+          "sources": [
+            {
+              "pdfPage": 106,
+              "block": 1,
+              "bbox": [
+                76.99,
+                211.5,
+                535.01,
+                440.52
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "consistently",
+          "meaning": "一贯地；稳定地",
+          "context": "failed to consistently use 不等于没有任何个体曾用过最优解",
+          "example": "The group did not consistently choose the same strategy.",
+          "collocations": [
+            "consistently use a strategy",
+            "fail to consistently apply"
+          ]
+        }
+      ],
+      "translation": "例如，实验条件下只有30%大学生遵循37%规则，不过略好于鸽子的17%。Herbranson 及同事总结：“三次实验中，鸽子与人都没能稳定采用秘书问题的最优解。更重要的是，两物种以同样方式偏离：还没考虑理想数量的选项，就过早作选择。”",
+      "support": "explicit",
+      "editorialStatus": "PDF第102–107页原页核对；引述/设问/调查偏好/模拟/历史叙事分开；百分比与跳跃次数保持单位，37%模型不当现实保证；Very few保留省略回答原样，图4辅助材料不冒充已结构化",
+      "fingerprint": "a065d338824f00f4acdf732e0e2d70cf4edd1514e226772d5280bf5d52914051"
+    },
+    {
+      "id": "qe-c10-0036",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-040",
+      "parentQuestionId": "q-c10-019",
+      "chapterId": "c10",
+      "sectionId": "c10-s02",
+      "paragraphId": "c10-s02-p106-02115",
+      "readingUnitId": "c10-s02-p106-02115-r003-005",
+      "sentenceIds": [
+        "c10-s02-p106-02115-s003",
+        "c10-s02-p106-02115-s004",
+        "c10-s02-p106-02115-s005"
+      ],
+      "passage": "For instance, only 30 percent of college students followed the 37 percent rule under experimental conditions, though college students were slightly better than pigeons, of which only 17 percent followed the rule. Herbranson and colleagues concluded as follows: “Across three experiments, pigeons and humans failed to consistently use the optimal solution to the SP. Most importantly, both species failed to do so in the same way: They made selections too soon, before considering the ideal number of options.”",
+      "prompt": "Which comparison is reported for following the rule under experimental conditions?",
+      "promptZh": "实验条件下遵循规则的比例怎样比较？",
+      "options": [
+        "30 percent of students versus 17 percent of pigeons.",
+        "37 percent of students versus 30 percent of pigeons.",
+        "17 percent of students versus 30 percent of pigeons.",
+        "All students versus no pigeons."
+      ],
+      "optionsZh": [
+        "大学生30%，鸽子17%。",
+        "大学生37%，鸽子30%。",
+        "大学生17%，鸽子30%。",
+        "全部大学生，而鸽子零。"
+      ],
+      "answer": 0,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A 物种与数字均原文给出，且大学生稍高。",
+        "B 把策略名37%当跟随者比例，并移错鸽子数。",
+        "C 交换物种对应比例。",
+        "D only 部分群体，不是全有与全无；本实验跟随率不代表每种现实决策。"
+      ],
+      "vocabulary": [
+        {
+          "word": "under experimental conditions",
+          "meaning": "在实验条件下",
+          "context": "限制统计适用语境，不是已测所有学生和鸽子全部生活决定。",
+          "example": "The difference appeared under experimental conditions.",
+          "collocations": [
+            "30 percent of college students",
+            "17 percent followed the rule"
+          ]
+        }
+      ],
+      "translation": "例如，实验条件下只有30%大学生遵循37%规则，不过略好于鸽子的17%。Herbranson 及同事总结：“三次实验中，鸽子与人都没能稳定采用秘书问题的最优解。更重要的是，两物种以同样方式偏离：还没考虑理想数量的选项，就过早作选择。”",
+      "evidenceTargetIds": [
+        "c10-s02-p106-02115-s003"
+      ],
+      "evidence": [
+        {
+          "quote": "For instance, only 30 percent of college students followed the 37 percent rule under experimental conditions, though college students were slightly better than pigeons, of which only 17 percent followed the rule. Herbranson and colleagues concluded as follows: “Across three experiments, pigeons and humans failed to consistently use the optimal solution to the SP. Most importantly, both species failed to do so in the same way: They made selections too soon, before considering the ideal number of options.”",
+          "sentenceIds": [
+            "c10-s02-p106-02115-s003",
+            "c10-s02-p106-02115-s004",
+            "c10-s02-p106-02115-s005"
+          ],
+          "sources": [
+            {
+              "pdfPage": 106,
+              "block": 1,
+              "bbox": [
+                76.99,
+                211.5,
+                535.01,
+                440.52
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "5477793f064a87fad6cf5fd77c23084c237d566ab3a3e7ffcea1a8f9fce84cbf"
+    },
+    {
+      "id": "qe-c10-0037",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-040",
+      "parentQuestionId": "q-c10-019",
+      "chapterId": "c10",
+      "sectionId": "c10-s02",
+      "paragraphId": "c10-s02-p106-02115",
+      "readingUnitId": "c10-s02-p106-02115-r003-005",
+      "sentenceIds": [
+        "c10-s02-p106-02115-s003",
+        "c10-s02-p106-02115-s004",
+        "c10-s02-p106-02115-s005"
+      ],
+      "passage": "For instance, only 30 percent of college students followed the 37 percent rule under experimental conditions, though college students were slightly better than pigeons, of which only 17 percent followed the rule. Herbranson and colleagues concluded as follows: “Across three experiments, pigeons and humans failed to consistently use the optimal solution to the SP. Most importantly, both species failed to do so in the same way: They made selections too soon, before considering the ideal number of options.”",
+      "prompt": "What common departure from the optimal solution do Herbranson and colleagues describe?",
+      "promptZh": "Herbranson 等描述两物种怎样共同偏离最优解？",
+      "options": [
+        "They both waited beyond every possible candidate without selecting.",
+        "Only pigeons selected too early, while all humans were optimal.",
+        "Neither species was ever able to make any selection at all.",
+        "Both tended to choose too soon, before considering the ideal number of options."
+      ],
+      "optionsZh": [
+        "两者都等到所有候选结束还不选择。",
+        "仅鸽子太早选，人全部最优。",
+        "两物种都完全无法作任何选择。",
+        "两者都在考察理想选项数之前过早选择。"
+      ],
+      "answer": 3,
+      "type": "研究结论",
+      "support": "explicit",
+      "analyses": [
+        "A too soon 是过早，不是等过全部。",
+        "B both species failed in same way，不能只归鸽子。",
+        "C failed to consistently use optimal 不等于不能选择或从未成功。",
+        "D full quoted conclusion 明确 before considering ideal number，保留三项实验范围。"
+      ],
+      "vocabulary": [
+        {
+          "word": "consistently",
+          "meaning": "稳定一贯地；持续按相同标准地",
+          "context": "否定 consistently 不必等于一次也没做到。",
+          "example": "The participants did not consistently apply the same rule.",
+          "collocations": [
+            "failed to consistently use",
+            "made selections too soon"
+          ]
+        }
+      ],
+      "translation": "例如，实验条件下只有30%大学生遵循37%规则，不过略好于鸽子的17%。Herbranson 及同事总结：“三次实验中，鸽子与人都没能稳定采用秘书问题的最优解。更重要的是，两物种以同样方式偏离：还没考虑理想数量的选项，就过早作选择。”",
+      "evidenceTargetIds": [
+        "c10-s02-p106-02115-s004"
+      ],
+      "evidence": [
+        {
+          "quote": "For instance, only 30 percent of college students followed the 37 percent rule under experimental conditions, though college students were slightly better than pigeons, of which only 17 percent followed the rule. Herbranson and colleagues concluded as follows: “Across three experiments, pigeons and humans failed to consistently use the optimal solution to the SP. Most importantly, both species failed to do so in the same way: They made selections too soon, before considering the ideal number of options.”",
+          "sentenceIds": [
+            "c10-s02-p106-02115-s003",
+            "c10-s02-p106-02115-s004",
+            "c10-s02-p106-02115-s005"
+          ],
+          "sources": [
+            {
+              "pdfPage": 106,
+              "block": 1,
+              "bbox": [
+                76.99,
+                211.5,
+                535.01,
+                440.52
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "4d91ea61c6f8b811aae97a69bc9deb5a0bc5e955b0e38e72225bf93d5e6da23f"
+    },
+    {
+      "id": "q-c10-020",
+      "version": 1,
+      "readingUnitId": "c10-s02-p106-04455-r001-003",
+      "chapterId": "c10",
+      "sectionId": "c10-s02",
+      "paragraphId": "c10-s02-p106-04455",
+      "sentenceIds": [
+        "c10-s02-p106-04455-s001",
+        "c10-s02-p106-04455-s002",
+        "c10-s02-p106-04455-s003"
+      ],
+      "passage": "If people make a selection too early in a task with little search cost, then they are far more likely to make a selection too early in a real mating task with high search cost and rejection probability. Indeed, economists argue that people make suboptimal choices in mate selection because they do not explore enough. For most people, the more exploration they do, the better choices they make.",
+      "prompt": "What argument does the author make about real mate selection?",
+      "options": [
+        "Laboratory results guarantee the best partner for every individual.",
+        "Early selection may be even more likely when real searches involve high costs and possible rejection.",
+        "More exploration is said to harm everyone’s choices.",
+        "The passage reports a new randomized marriage trial."
+      ],
+      "answer": 1,
+      "type": "作者意图",
+      "promptZh": "作者对真实择偶提出什么论证？",
+      "optionsZh": [
+        "实验结果保证每人选到最佳伴侣。",
+        "现实搜索成本高、可能被拒，过早选择也许更易发生。",
+        "更多探索被说成损害所有人选择。",
+        "片段报告新的随机婚姻试验。"
+      ],
+      "analyses": [
+        "A 没有对每个人的保证。",
+        "B If...little cost...then...real...high cost and rejection probability 是作者外推论证。",
+        "C For most...better choices 与所有人受害相反；most 也不等于全部。",
+        "D 这里是论证和经济学家观点，非新增随机婚姻干预。不能把论述改写为针对个人的无限约会处方。"
+      ],
+      "evidence": [
+        {
+          "quote": "far more likely to make a selection too early in a real mating task with high search cost and rejection probability.",
+          "sentenceIds": [
+            "c10-s02-p106-04455-s001"
+          ],
+          "sources": [
+            {
+              "pdfPage": 106,
+              "block": 2,
+              "bbox": [
+                76.99,
+                445.5,
+                535.01,
+                557.52
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "suboptimal",
+          "meaning": "次优的；非最优的",
+          "context": "指按所讨论目标未达最优，不是婚姻必失败的标签",
+          "example": "The rushed process produced a suboptimal choice.",
+          "collocations": [
+            "suboptimal choices",
+            "a suboptimal strategy"
+          ]
+        }
+      ],
+      "translation": "如果搜索成本很小的任务里人都过早选择，那么成本高又可能被拒的真实择偶中，就更可能太早选择。经济学家确实认为，探索不足会使择偶不够理想。对多数人而言，探索越多，选择越好。",
+      "support": "explicit",
+      "editorialStatus": "PDF第102–107页原页核对；引述/设问/调查偏好/模拟/历史叙事分开；百分比与跳跃次数保持单位，37%模型不当现实保证；Very few保留省略回答原样，图4辅助材料不冒充已结构化",
+      "fingerprint": "e77df48922b17ad671aa6b4b7d88d317ba738607956b7b429012ff5009bbaa12"
+    },
+    {
+      "id": "qe-c10-0038",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-040",
+      "parentQuestionId": "q-c10-020",
+      "chapterId": "c10",
+      "sectionId": "c10-s02",
+      "paragraphId": "c10-s02-p106-04455",
+      "readingUnitId": "c10-s02-p106-04455-r001-003",
+      "sentenceIds": [
+        "c10-s02-p106-04455-s001",
+        "c10-s02-p106-04455-s002",
+        "c10-s02-p106-04455-s003"
+      ],
+      "passage": "If people make a selection too early in a task with little search cost, then they are far more likely to make a selection too early in a real mating task with high search cost and rejection probability. Indeed, economists argue that people make suboptimal choices in mate selection because they do not explore enough. For most people, the more exploration they do, the better choices they make.",
+      "prompt": "Whose argument links suboptimal mate selection to insufficient exploration?",
+      "promptZh": "谁的论点将不够理想的择偶与探索不足相连？",
+      "options": [
+        "Herbranson, reporting a study of pigeons choosing real mates.",
+        "Economists, as attributed by the author.",
+        "Kepler giving a recorded statement about the experiment.",
+        "Cohen and Todd, reporting randomly assigned marital durations."
+      ],
+      "optionsZh": [
+        "Herbranson，报告鸽子实际择偶研究。",
+        "作者归述的经济学家。",
+        "Kepler 对该实验留下的话。",
+        "Cohen 与 Todd，报告随机分派婚姻时长。"
+      ],
+      "answer": 1,
+      "type": "观点归属",
+      "support": "explicit",
+      "analyses": [
+        "A Herbranson 前文结论是秘书任务过早选择，当前现实择偶解释明确归 economists。",
+        "B economists argue 明确观点来源，不能作用户经历或普遍独立定理。",
+        "C 历史故事不等于 Kepler 对现代实验发言。",
+        "D 当前未如此归属，后续两位分析 CDC 观察数据也非随机分派婚姻时长。"
+      ],
+      "vocabulary": [
+        {
+          "word": "suboptimal",
+          "meaning": "非最优的；未达到模型或评价标准的最好结果",
+          "context": "不等于所有方面彻底失败，也不是对真实用户关系的评判。",
+          "example": "The model may classify a quick choice as suboptimal.",
+          "collocations": [
+            "make suboptimal choices",
+            "do not explore enough"
+          ]
+        }
+      ],
+      "translation": "如果搜索成本很小的任务里人都过早选择，那么成本高又可能被拒的真实择偶中，就更可能太早选择。经济学家确实认为，探索不足会使择偶不够理想。对多数人而言，探索越多，选择越好。",
+      "evidenceTargetIds": [
+        "c10-s02-p106-04455-s002"
+      ],
+      "evidence": [
+        {
+          "quote": "If people make a selection too early in a task with little search cost, then they are far more likely to make a selection too early in a real mating task with high search cost and rejection probability. Indeed, economists argue that people make suboptimal choices in mate selection because they do not explore enough. For most people, the more exploration they do, the better choices they make.",
+          "sentenceIds": [
+            "c10-s02-p106-04455-s001",
+            "c10-s02-p106-04455-s002",
+            "c10-s02-p106-04455-s003"
+          ],
+          "sources": [
+            {
+              "pdfPage": 106,
+              "block": 2,
+              "bbox": [
+                76.99,
+                445.5,
+                535.01,
+                557.52
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "3314046d5ae43571ed2b806c1ff118cb129650ac4dc6596aed965e9ada71026e"
+    },
+    {
+      "id": "qe-c10-0039",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-040",
+      "parentQuestionId": "q-c10-020",
+      "chapterId": "c10",
+      "sectionId": "c10-s02",
+      "paragraphId": "c10-s02-p106-04455",
+      "readingUnitId": "c10-s02-p106-04455-r001-003",
+      "sentenceIds": [
+        "c10-s02-p106-04455-s001",
+        "c10-s02-p106-04455-s002",
+        "c10-s02-p106-04455-s003"
+      ],
+      "passage": "If people make a selection too early in a task with little search cost, then they are far more likely to make a selection too early in a real mating task with high search cost and rejection probability. Indeed, economists argue that people make suboptimal choices in mate selection because they do not explore enough. For most people, the more exploration they do, the better choices they make.",
+      "prompt": "What limitation is expressed by 'For most people' in the exploration claim?",
+      "promptZh": "探索主张中的 For most people 表达什么限定？",
+      "options": [
+        "The claim is restricted to exactly one named participant.",
+        "More exploration is said to guarantee perfection for every person without any cost.",
+        "The generalisation concerns most people, not an exceptionless guarantee for everyone.",
+        "The paragraph says exploration is irrelevant in every real decision."
+      ],
+      "optionsZh": [
+        "主张限于恰一位具名参与者。",
+        "更多探索保证每人毫无成本地完美。",
+        "概括面向多数人，而非对所有人无例外保证。",
+        "段落说探索对任何现实决定都无关。"
+      ],
+      "answer": 2,
+      "type": "语气与范围",
+      "support": "explicit",
+      "analyses": [
+        "A most 是多数，不是单人。",
+        "B 删掉人群限定，也忽略前文搜索成本与拒绝。",
+        "C 方向性概括有范围，不可升级为无限搜索始终更好或个人必得理想关系。",
+        "D 该段恰谈 exploration 与选择，不是否认相关性；保留作者论述来源。"
+      ],
+      "vocabulary": [
+        {
+          "word": "For most people",
+          "meaning": "对大多数人而言",
+          "context": "限定概括范围，不给个体确定预测，也不表示搜索成本不存在。",
+          "example": "For most people, the task required more than one comparison.",
+          "collocations": [
+            "For most people",
+            "the more exploration ... the better choices"
+          ]
+        }
+      ],
+      "translation": "如果搜索成本很小的任务里人都过早选择，那么成本高又可能被拒的真实择偶中，就更可能太早选择。经济学家确实认为，探索不足会使择偶不够理想。对多数人而言，探索越多，选择越好。",
+      "evidenceTargetIds": [
+        "c10-s02-p106-04455-s003"
+      ],
+      "evidence": [
+        {
+          "quote": "If people make a selection too early in a task with little search cost, then they are far more likely to make a selection too early in a real mating task with high search cost and rejection probability. Indeed, economists argue that people make suboptimal choices in mate selection because they do not explore enough. For most people, the more exploration they do, the better choices they make.",
+          "sentenceIds": [
+            "c10-s02-p106-04455-s001",
+            "c10-s02-p106-04455-s002",
+            "c10-s02-p106-04455-s003"
+          ],
+          "sources": [
+            {
+              "pdfPage": 106,
+              "block": 2,
+              "bbox": [
+                76.99,
+                445.5,
+                535.01,
+                557.52
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "c3f98e2a81899a3bb0e3452a0ce1fd684dcf6d8e476031162083c0645f25eff7"
+    },
+    {
+      "id": "q-c10-021",
+      "version": 1,
+      "readingUnitId": "c10-s03-p106-06135-r001-003",
+      "chapterId": "c10",
+      "sectionId": "c10-s03",
+      "paragraphId": "c10-s03-p106-06135",
+      "sentenceIds": [
+        "c10-s03-p106-06135-s001",
+        "c10-s03-p106-06135-s002",
+        "c10-s03-p106-06135-s003"
+      ],
+      "passage": "Psychologists Samantha Cohen and Peter Todd analyzed nationally representative data collected by the Centers for Disease Control to gain insight into the exploration-exploitation trade-off in real marital decisions. They learned that some people spend a long time dating several people before getting married, whereas others spend a short time dating a few and settle down quickly. In explore-exploit trade-off terminology, the first group explored for a long time before exploiting, whereas the second group explored for a short period before exploiting.",
+      "prompt": "In the explore-exploit terminology, how is the first group characterized?",
+      "options": [
+        "They exploit before doing any exploration at all.",
+        "They search for fewer people over less time than the second group.",
+        "They are experimentally assigned to divorce quickly.",
+        "They explore for longer before committing to a choice."
+      ],
+      "answer": 3,
+      "type": "细节",
+      "promptZh": "按探索利用术语，第一组有什么特征？",
+      "optionsZh": [
+        "完全没探索就先利用。",
+        "比第二组花更少时间接触更少人。",
+        "被随机分配迅速离婚。",
+        "投入选择前先探索较久。"
+      ],
+      "analyses": [
+        "A explored...before exploiting 明示先后。",
+        "B first group...long time...several，与短时少人组相反。",
+        "C analyzed data 是数据分析，不是随机分配离婚。",
+        "D 长期接触多人后结婚，对应 long exploration。当前片段还未报告后续婚姻稳定结果，不能提前写入证据。"
+      ],
+      "evidence": [
+        {
+          "quote": "the first group explored for a long time before exploiting",
+          "sentenceIds": [
+            "c10-s03-p106-06135-s003"
+          ],
+          "sources": [
+            {
+              "pdfPage": 107,
+              "block": 0,
+              "bbox": [
+                76.99,
+                75,
+                535.01,
+                323.52
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "trade-off",
+          "meaning": "权衡；取舍",
+          "context": "继续探索与投入既定选择之间的取舍，不表示二者永远不能先后结合",
+          "example": "The team considered the trade-off between searching longer and acting now.",
+          "collocations": [
+            "exploration-exploitation trade-off",
+            "a trade-off in decisions"
+          ]
+        }
+      ],
+      "translation": "心理学家 Samantha Cohen 与 Peter Todd 分析 CDC 收集的全国代表性数据，了解真实婚姻决策中的探索利用取舍。他们发现，有人长期与多人约会才结婚，有人短期接触少数人就安定。按探索利用术语，第一组探索较久再利用，第二组探索较短再利用。",
+      "support": "explicit",
+      "editorialStatus": "PDF第102–107页原页核对；引述/设问/调查偏好/模拟/历史叙事分开；百分比与跳跃次数保持单位，37%模型不当现实保证；Very few保留省略回答原样，图4辅助材料不冒充已结构化",
+      "fingerprint": "d17e5afc46723c597bdcd6d82f15ac8e56451782588dc5b45b5facaa4c858444"
+    },
+    {
+      "id": "qe-c10-0040",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-040",
+      "parentQuestionId": "q-c10-021",
+      "chapterId": "c10",
+      "sectionId": "c10-s03",
+      "paragraphId": "c10-s03-p106-06135",
+      "readingUnitId": "c10-s03-p106-06135-r001-003",
+      "sentenceIds": [
+        "c10-s03-p106-06135-s001",
+        "c10-s03-p106-06135-s002",
+        "c10-s03-p106-06135-s003"
+      ],
+      "passage": "Psychologists Samantha Cohen and Peter Todd analyzed nationally representative data collected by the Centers for Disease Control to gain insight into the exploration-exploitation trade-off in real marital decisions. They learned that some people spend a long time dating several people before getting married, whereas others spend a short time dating a few and settle down quickly. In explore-exploit trade-off terminology, the first group explored for a long time before exploiting, whereas the second group explored for a short period before exploiting.",
+      "prompt": "Which source did Cohen and Todd analyse for real marital decisions?",
+      "promptZh": "Cohen 与 Todd 为研究真实婚姻决定分析什么来源？",
+      "options": [
+        "A new experiment randomly assigning marriage length to participants.",
+        "New marriage records personally collected through random assignments by Cohen and Todd.",
+        "Nationally representative data collected by the Centers for Disease Control.",
+        "The birds' laboratory card-flipping responses alone."
+      ],
+      "optionsZh": [
+        "给参与者随机分派婚姻长度的新实验。",
+        "Cohen 与 Todd 亲自随机分派后收集的新婚姻记录。",
+        "Centers for Disease Control 收集的全国代表性数据。",
+        "只有鸟在实验室翻卡的反应。"
+      ],
+      "answer": 2,
+      "type": "研究设计",
+      "support": "explicit",
+      "analyses": [
+        "A analysed data 非随机操纵婚姻或约会时长。",
+        "B analyzed CDC data 不等于两人通过随机分派亲自生成资料。",
+        "C 研究分析者是两位心理学家，资料收集来源为 CDC，角色不可互换。",
+        "D 鸟类实验是前文不同证据，不是此项真实婚姻数据。"
+      ],
+      "vocabulary": [
+        {
+          "word": "nationally representative",
+          "meaning": "具有全国代表性的",
+          "context": "描述样本覆盖与代表性，不自动让观察数据成为因果试验。",
+          "example": "The survey used nationally representative data.",
+          "collocations": [
+            "nationally representative data",
+            "collected by the Centers for Disease Control"
+          ]
+        }
+      ],
+      "translation": "心理学家 Samantha Cohen 与 Peter Todd 分析 CDC 收集的全国代表性数据，了解真实婚姻决策中的探索利用取舍。他们发现，有人长期与多人约会才结婚，有人短期接触少数人就安定。按探索利用术语，第一组探索较久再利用，第二组探索较短再利用。",
+      "evidenceTargetIds": [
+        "c10-s03-p106-06135-s001"
+      ],
+      "evidence": [
+        {
+          "quote": "Psychologists Samantha Cohen and Peter Todd analyzed nationally representative data collected by the Centers for Disease Control to gain insight into the exploration-exploitation trade-off in real marital decisions. They learned that some people spend a long time dating several people before getting married, whereas others spend a short time dating a few and settle down quickly. In explore-exploit trade-off terminology, the first group explored for a long time before exploiting, whereas the second group explored for a short period before exploiting.",
+          "sentenceIds": [
+            "c10-s03-p106-06135-s001",
+            "c10-s03-p106-06135-s002",
+            "c10-s03-p106-06135-s003"
+          ],
+          "sources": [
+            {
+              "pdfPage": 106,
+              "block": 4,
+              "bbox": [
+                76.99,
+                613.5,
+                535,
+                706.02
+              ]
+            },
+            {
+              "pdfPage": 107,
+              "block": 0,
+              "bbox": [
+                76.99,
+                75,
+                535.01,
+                323.52
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "5ab42fb2f418d38cc68e50f03787abc96db70d88b163ddc57cb5743c0935f542"
+    },
+    {
+      "id": "qe-c10-0041",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-040",
+      "parentQuestionId": "q-c10-021",
+      "chapterId": "c10",
+      "sectionId": "c10-s03",
+      "paragraphId": "c10-s03-p106-06135",
+      "readingUnitId": "c10-s03-p106-06135-r001-003",
+      "sentenceIds": [
+        "c10-s03-p106-06135-s001",
+        "c10-s03-p106-06135-s002",
+        "c10-s03-p106-06135-s003"
+      ],
+      "passage": "Psychologists Samantha Cohen and Peter Todd analyzed nationally representative data collected by the Centers for Disease Control to gain insight into the exploration-exploitation trade-off in real marital decisions. They learned that some people spend a long time dating several people before getting married, whereas others spend a short time dating a few and settle down quickly. In explore-exploit trade-off terminology, the first group explored for a long time before exploiting, whereas the second group explored for a short period before exploiting.",
+      "prompt": "What contrast in premarital search does the analysis describe?",
+      "promptZh": "分析描述婚前搜索的什么对照？",
+      "options": [
+        "Some date several people over longer periods, while others date a few and settle down sooner.",
+        "Everyone dates exactly twelve people for the same length of time.",
+        "Those who marry quickly always meet more people than those who search longer.",
+        "No difference is found in how people approach marriage."
+      ],
+      "optionsZh": [
+        "有人较久接触多人，有人短期接触少数人就安定。",
+        "每人都约会恰十二人、时长相同。",
+        "很快结婚者总比搜索久者接触更多人。",
+        "没发现人们走向婚姻的方式有差异。"
+      ],
+      "answer": 0,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A whereas 将时长与人数的两种模式并列，保留 some/others。",
+        "B 文中未给全体固定十二，更无同长保证。",
+        "C 当前对照恰是 long/several 与 short/few，不可反转再加 always。",
+        "D 描述多种模式，不是无差别；也非给每位现实个人下分类诊断。"
+      ],
+      "vocabulary": [
+        {
+          "word": "settle down",
+          "meaning": "安定下来；在这里指建立稳定伴侣关系",
+          "context": "与探索阶段相对，不是单指坐下或气温降低。",
+          "example": "The character travelled widely before deciding to settle down.",
+          "collocations": [
+            "date a few and settle down quickly",
+            "a long time dating several people"
+          ]
+        }
+      ],
+      "translation": "心理学家 Samantha Cohen 与 Peter Todd 分析 CDC 收集的全国代表性数据，了解真实婚姻决策中的探索利用取舍。他们发现，有人长期与多人约会才结婚，有人短期接触少数人就安定。按探索利用术语，第一组探索较久再利用，第二组探索较短再利用。",
+      "evidenceTargetIds": [
+        "c10-s03-p106-06135-s002"
+      ],
+      "evidence": [
+        {
+          "quote": "Psychologists Samantha Cohen and Peter Todd analyzed nationally representative data collected by the Centers for Disease Control to gain insight into the exploration-exploitation trade-off in real marital decisions. They learned that some people spend a long time dating several people before getting married, whereas others spend a short time dating a few and settle down quickly. In explore-exploit trade-off terminology, the first group explored for a long time before exploiting, whereas the second group explored for a short period before exploiting.",
+          "sentenceIds": [
+            "c10-s03-p106-06135-s001",
+            "c10-s03-p106-06135-s002",
+            "c10-s03-p106-06135-s003"
+          ],
+          "sources": [
+            {
+              "pdfPage": 106,
+              "block": 4,
+              "bbox": [
+                76.99,
+                613.5,
+                535,
+                706.02
+              ]
+            },
+            {
+              "pdfPage": 107,
+              "block": 0,
+              "bbox": [
+                76.99,
+                75,
+                535.01,
+                323.52
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "e289de95c12b09e9535a62d2714dbb5fe6f43f837696dfd47f1d7ecada132631"
+    },
+    {
+      "id": "q-c10-022",
+      "version": 1,
+      "readingUnitId": "c10-s03-p106-06135-r004-007",
+      "chapterId": "c10",
+      "sectionId": "c10-s03",
+      "paragraphId": "c10-s03-p106-06135",
+      "sentenceIds": [
+        "c10-s03-p106-06135-s004",
+        "c10-s03-p106-06135-s005",
+        "c10-s03-p106-06135-s006",
+        "c10-s03-p106-06135-s007"
+      ],
+      "passage": "The animal behavior literature and computer simulations both suggest that insufficient exploration results in more errors. Of course, if one mate were far better than the rest, there would be no need to explore—the choice would be obvious. But in a real mating context, there are many potential mates with only slight differences in overall value. This means that it is better to explore more before settling down on one mate.",
+      "prompt": "Why does the passage argue for more exploration in the real mating context?",
+      "options": [
+        "Many potential partners differ only slightly, unlike a case with one obviously superior choice.",
+        "One partner is assumed to be overwhelmingly better in every real situation.",
+        "Computer simulations are said to prove all marriages have identical outcomes.",
+        "Exploration is claimed to have no cost under any circumstances."
+      ],
+      "answer": 0,
+      "type": "逻辑关系",
+      "promptZh": "为什么片段主张现实择偶中多探索？",
+      "optionsZh": [
+        "许多潜在对象差别较小，不像一个选项明显最优的情形。",
+        "假设每个真实情境都有一人压倒性更好。",
+        "模拟证明所有婚姻结果一致。",
+        "探索在任何情况下都无成本。"
+      ],
+      "analyses": [
+        "A if one...far better 的例外，与 But...many...slight differences 的现实描述形成论证。",
+        "B 把反事实条件例外当成所有现实。",
+        "C 模型错误率不等于所有婚姻结果一致。",
+        "D 前文已讨论成本，本片段没有否认成本。当前是模型与动物文献引出的推论，不把尚未在本片段出现的CDC结果倒灌成因果证明。"
+      ],
+      "evidence": [
+        {
+          "quote": "there are many potential mates with only slight differences in overall value.",
+          "sentenceIds": [
+            "c10-s03-p106-06135-s006"
+          ],
+          "sources": [
+            {
+              "pdfPage": 107,
+              "block": 0,
+              "bbox": [
+                76.99,
+                75,
+                535.01,
+                323.52
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "insufficient",
+          "meaning": "不足的；不充分的",
+          "context": "指未探索够多选项，与永远越多越好的无限要求不同",
+          "example": "Insufficient information made the comparison difficult.",
+          "collocations": [
+            "insufficient exploration",
+            "insufficient information"
+          ]
+        }
+      ],
+      "translation": "动物行为文献与计算机模拟都提示，探索不足会带来更多错误。当然，若一个对象远优于其余，就无需探索，选择很明显。但真实择偶中，许多潜在对象的总体差别不大。这意味着，安定选择某一人之前，较多探索会更好。",
+      "support": "explicit",
+      "editorialStatus": "PDF第102–107页原页核对；引述/设问/调查偏好/模拟/历史叙事分开；百分比与跳跃次数保持单位，37%模型不当现实保证；Very few保留省略回答原样，图4辅助材料不冒充已结构化",
+      "fingerprint": "e7b1583ea0013bf249816f1e036ee2bcbd56b11656d0af84ee4e6ee73076d1e4"
+    },
+    {
+      "id": "qe-c10-0042",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-040",
+      "parentQuestionId": "q-c10-022",
+      "chapterId": "c10",
+      "sectionId": "c10-s03",
+      "paragraphId": "c10-s03-p106-06135",
+      "readingUnitId": "c10-s03-p106-06135-r004-007",
+      "sentenceIds": [
+        "c10-s03-p106-06135-s004",
+        "c10-s03-p106-06135-s005",
+        "c10-s03-p106-06135-s006",
+        "c10-s03-p106-06135-s007"
+      ],
+      "passage": "The animal behavior literature and computer simulations both suggest that insufficient exploration results in more errors. Of course, if one mate were far better than the rest, there would be no need to explore—the choice would be obvious. But in a real mating context, there are many potential mates with only slight differences in overall value. This means that it is better to explore more before settling down on one mate.",
+      "prompt": "What do the animal-behaviour literature and simulations suggest here?",
+      "promptZh": "此处动物行为文献与模拟共同提示什么？",
+      "options": [
+        "All errors disappear whenever search continues indefinitely.",
+        "No exploratory information can ever improve a decision.",
+        "The CDC data alone prove every individual's future relationship outcome.",
+        "Insufficient exploration is linked in those accounts to more errors."
+      ],
+      "optionsZh": [
+        "只要无限搜索，全部错误便消失。",
+        "探索信息绝不能改善决定。",
+        "仅 CDC 数据证明每个人未来关系结果。",
+        "这些证据提示探索不足会有更多错误。"
+      ],
+      "answer": 3,
+      "type": "观点归属",
+      "support": "explicit",
+      "analyses": [
+        "A insufficient 与 more errors 不推出无限搜索必零错。",
+        "B 与所述方向相反。",
+        "C 原句来源是 literature 与 simulations，不是将 CDC 当个体预测仪。",
+        "D both suggest 保留证据来源与推断力度，不等于每个人每一选择都已因果确证。"
+      ],
+      "vocabulary": [
+        {
+          "word": "insufficient",
+          "meaning": "不足的；未达到所需程度的",
+          "context": "与 more errors 相连，不是声称任何有限搜索都无价值。",
+          "example": "Insufficient information made the comparison harder.",
+          "collocations": [
+            "insufficient exploration",
+            "suggest that ... more errors"
+          ]
+        }
+      ],
+      "translation": "动物行为文献与计算机模拟都提示，探索不足会带来更多错误。当然，若一个对象远优于其余，就无需探索，选择很明显。但真实择偶中，许多潜在对象的总体差别不大。这意味着，安定选择某一人之前，较多探索会更好。",
+      "evidenceTargetIds": [
+        "c10-s03-p106-06135-s004"
+      ],
+      "evidence": [
+        {
+          "quote": "The animal behavior literature and computer simulations both suggest that insufficient exploration results in more errors. Of course, if one mate were far better than the rest, there would be no need to explore—the choice would be obvious. But in a real mating context, there are many potential mates with only slight differences in overall value. This means that it is better to explore more before settling down on one mate.",
+          "sentenceIds": [
+            "c10-s03-p106-06135-s004",
+            "c10-s03-p106-06135-s005",
+            "c10-s03-p106-06135-s006",
+            "c10-s03-p106-06135-s007"
+          ],
+          "sources": [
+            {
+              "pdfPage": 107,
+              "block": 0,
+              "bbox": [
+                76.99,
+                75,
+                535.01,
+                323.52
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "258159251b0495759c901fb9bcf73a72cfbc033de4aeb45dbc2831a8a9f882eb"
+    },
+    {
+      "id": "qe-c10-0043",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-040",
+      "parentQuestionId": "q-c10-022",
+      "chapterId": "c10",
+      "sectionId": "c10-s03",
+      "paragraphId": "c10-s03-p106-06135",
+      "readingUnitId": "c10-s03-p106-06135-r004-007",
+      "sentenceIds": [
+        "c10-s03-p106-06135-s004",
+        "c10-s03-p106-06135-s005",
+        "c10-s03-p106-06135-s006",
+        "c10-s03-p106-06135-s007"
+      ],
+      "passage": "The animal behavior literature and computer simulations both suggest that insufficient exploration results in more errors. Of course, if one mate were far better than the rest, there would be no need to explore—the choice would be obvious. But in a real mating context, there are many potential mates with only slight differences in overall value. This means that it is better to explore more before settling down on one mate.",
+      "prompt": "What is the role of the case where one mate is far better than the rest?",
+      "promptZh": "一个对象远优于其余的情形起什么作用？",
+      "options": [
+        "It reports that every real choice always has such a clear winner.",
+        "It states a hypothetical exception in which extensive comparison would not be needed.",
+        "It proves all potential mates have exactly equal qualities.",
+        "It requires every reader to assign a numerical rank to real people."
+      ],
+      "optionsZh": [
+        "报告每个现实选择总有这样明显赢家。",
+        "提出一个假设例外：此时无需广泛比较。",
+        "证明所有潜在对象特征完全相同。",
+        "要求每位读者给真人数字排名。"
+      ],
+      "answer": 1,
+      "type": "逻辑关系",
+      "support": "explicit",
+      "analyses": [
+        "A if one...were 是假设，后面 But 转到真实情境差别较小。",
+        "B far better 会使选择 obvious，为探索必要性设条件边界。",
+        "C 说一位远优不是全同。",
+        "D 是作者模型论述，不是网站向用户分派现实择偶任务。"
+      ],
+      "vocabulary": [
+        {
+          "word": "obvious",
+          "meaning": "明显的；容易识别的",
+          "context": "在假设差别极大时无需许多额外信息，不表示现实每次都如此。",
+          "example": "If one option clearly meets every requirement, the choice may be obvious.",
+          "collocations": [
+            "the choice would be obvious",
+            "far better than the rest"
+          ]
+        }
+      ],
+      "translation": "动物行为文献与计算机模拟都提示，探索不足会带来更多错误。当然，若一个对象远优于其余，就无需探索，选择很明显。但真实择偶中，许多潜在对象的总体差别不大。这意味着，安定选择某一人之前，较多探索会更好。",
+      "evidenceTargetIds": [
+        "c10-s03-p106-06135-s005"
+      ],
+      "evidence": [
+        {
+          "quote": "The animal behavior literature and computer simulations both suggest that insufficient exploration results in more errors. Of course, if one mate were far better than the rest, there would be no need to explore—the choice would be obvious. But in a real mating context, there are many potential mates with only slight differences in overall value. This means that it is better to explore more before settling down on one mate.",
+          "sentenceIds": [
+            "c10-s03-p106-06135-s004",
+            "c10-s03-p106-06135-s005",
+            "c10-s03-p106-06135-s006",
+            "c10-s03-p106-06135-s007"
+          ],
+          "sources": [
+            {
+              "pdfPage": 107,
+              "block": 0,
+              "bbox": [
+                76.99,
+                75,
+                535.01,
+                323.52
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "1c94e58b039469e49411e860e56aba93339f90147ce6292eb6d57964b0cd9c08"
+    },
+    {
+      "id": "qe-c10-0044",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-040",
+      "parentQuestionId": "q-c10-022",
+      "chapterId": "c10",
+      "sectionId": "c10-s03",
+      "paragraphId": "c10-s03-p106-06135",
+      "readingUnitId": "c10-s03-p106-06135-r004-007",
+      "sentenceIds": [
+        "c10-s03-p106-06135-s004",
+        "c10-s03-p106-06135-s005",
+        "c10-s03-p106-06135-s006",
+        "c10-s03-p106-06135-s007"
+      ],
+      "passage": "The animal behavior literature and computer simulations both suggest that insufficient exploration results in more errors. Of course, if one mate were far better than the rest, there would be no need to explore—the choice would be obvious. But in a real mating context, there are many potential mates with only slight differences in overall value. This means that it is better to explore more before settling down on one mate.",
+      "prompt": "What premise supports 'it is better to explore more' in this paragraph?",
+      "promptZh": "本段中，什么前提支持 it is better to explore more？",
+      "options": [
+        "Many potential options have only small differences, making comparison useful before settling.",
+        "The author has just proved one option is always overwhelmingly superior.",
+        "Searching is stated to have no possible costs under any circumstances.",
+        "The task has no alternatives, so no comparison can occur."
+      ],
+      "optionsZh": [
+        "许多可能选项差别较小，选定前比较有用。",
+        "作者刚证明永远有一个压倒性最佳。",
+        "已说任何情境搜索都绝无成本。",
+        "任务没有备选，无法比较。"
+      ],
+      "answer": 0,
+      "type": "逻辑关系",
+      "support": "explicit",
+      "analyses": [
+        "A 紧前 many potential mates with only slight differences 是 This means 的推理前提。",
+        "B far better 是上一假设例外，不是现实普遍结论。",
+        "C 当前未取消前文讨论的搜索成本。",
+        "D 多个备选明确存在；不把该推理扩成无限多搜索对每个个体总更好。"
+      ],
+      "vocabulary": [
+        {
+          "word": "settling down on",
+          "meaning": "选定；最终确定某一选项",
+          "context": "在此强调搜索后承诺选择的阶段，非保证选择永不变化。",
+          "example": "The group compared several designs before settling down on one.",
+          "collocations": [
+            "before settling down on one mate",
+            "only slight differences"
+          ]
+        }
+      ],
+      "translation": "动物行为文献与计算机模拟都提示，探索不足会带来更多错误。当然，若一个对象远优于其余，就无需探索，选择很明显。但真实择偶中，许多潜在对象的总体差别不大。这意味着，安定选择某一人之前，较多探索会更好。",
+      "evidenceTargetIds": [
+        "c10-s03-p106-06135-s007"
+      ],
+      "evidence": [
+        {
+          "quote": "The animal behavior literature and computer simulations both suggest that insufficient exploration results in more errors. Of course, if one mate were far better than the rest, there would be no need to explore—the choice would be obvious. But in a real mating context, there are many potential mates with only slight differences in overall value. This means that it is better to explore more before settling down on one mate.",
+          "sentenceIds": [
+            "c10-s03-p106-06135-s004",
+            "c10-s03-p106-06135-s005",
+            "c10-s03-p106-06135-s006",
+            "c10-s03-p106-06135-s007"
+          ],
+          "sources": [
+            {
+              "pdfPage": 107,
+              "block": 0,
+              "bbox": [
+                76.99,
+                75,
+                535.01,
+                323.52
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "4b7540c070fa0e2708d371d04ef4ef22b40d4a208e19a461db611ec5f81c74ab"
+    },
+    {
+      "id": "q-c10-023",
+      "version": 1,
+      "readingUnitId": "c10-s03-p106-06135-r008-009",
+      "chapterId": "c10",
+      "sectionId": "c10-s03",
+      "paragraphId": "c10-s03-p106-06135",
+      "sentenceIds": [
+        "c10-s03-p106-06135-s008",
+        "c10-s03-p106-06135-s009"
+      ],
+      "passage": "The CDC data indicates that those who spend less time exploring (those who get married quickly after starting a serious relationship) are indeed more likely to end their marriage in divorce than those who spend more time exploring before marriage. So, on average, the more exploration, the more marital stability.",
+      "prompt": "Which conclusion is supported by the CDC data as described?",
+      "options": [
+        "Longer exploration guarantees that a marriage will last.",
+        "Shorter exploration is associated with a greater likelihood of divorce.",
+        "Divorce causes couples to shorten their premarital exploration.",
+        "Every long exploration ends in marriage."
+      ],
+      "answer": 1,
+      "type": "推断",
+      "promptZh": "按片段描述，CDC 数据支持哪项结论？",
+      "optionsZh": [
+        "探索久保证婚姻持续。",
+        "探索较短与更高离婚可能性相关。",
+        "离婚导致婚前探索缩短。",
+        "每次长期探索都以婚姻告终。"
+      ],
+      "analyses": [
+        "A on average 是平均趋势，不能保证个体结果。",
+        "B more likely 明示两组离婚可能性的比较；观察性数据不能单独证明因果。",
+        "C 颠倒时间和论证方向，原文没有检验反向因果。",
+        "D 数据讨论已婚者的稳定性，没有追踪每次探索是否结婚。"
+      ],
+      "evidence": [
+        {
+          "quote": "more likely to end their marriage in divorce than those who spend more time exploring before marriage.",
+          "sentenceIds": [
+            "c10-s03-p106-06135-s008"
+          ],
+          "sources": [
+            {
+              "pdfPage": 107,
+              "block": 0,
+              "bbox": [
+                76.99,
+                75,
+                535.01,
+                323.52
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "marital stability",
+          "meaning": "婚姻稳定性",
+          "context": "指婚姻维持的平均趋势，不是个人必然结果",
+          "example": "The survey examined marital stability over time.",
+          "collocations": [
+            "marital stability",
+            "greater marital stability"
+          ]
+        }
+      ],
+      "translation": "CDC 数据表明，花较少时间探索的人（开始认真交往后很快结婚的人），确实比婚前花更多时间探索的人更可能以离婚结束婚姻。因此，平均而言，探索越多，婚姻越稳定。",
+      "support": "explicit",
+      "editorialStatus": "完整PDF106–111原页视觉核对及跨页拼接；CDC关联不作因果保证；100/1000候选、14%/3%与前10%目标分开。费城许可证、荷兰个人筛选与MIT友谊提名单位分开，众数/中位数与测量时点不混用；Cupid为比喻；宿舍随机背景按作者概括保留，不冒充完整随机试验方案。功能距离研究与后续曝光机制实验分开。末段完整审阅含未配题词频比较，未声称全书逐句证据覆盖。",
+      "fingerprint": "7df1e69ea58df3190c2a96e0bbec1e6e9ceb111baa06da58f64124b13fa50d5f"
+    },
+    {
+      "id": "qe-c10-0045",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-040",
+      "parentQuestionId": "q-c10-023",
+      "chapterId": "c10",
+      "sectionId": "c10-s03",
+      "paragraphId": "c10-s03-p106-06135",
+      "readingUnitId": "c10-s03-p106-06135-r008-009",
+      "sentenceIds": [
+        "c10-s03-p106-06135-s008",
+        "c10-s03-p106-06135-s009"
+      ],
+      "passage": "The CDC data indicates that those who spend less time exploring (those who get married quickly after starting a serious relationship) are indeed more likely to end their marriage in divorce than those who spend more time exploring before marriage. So, on average, the more exploration, the more marital stability.",
+      "prompt": "What does 'on average' limit in the marital-stability statement?",
+      "promptZh": "婚姻稳定性句中的 on average 限制什么？",
+      "options": [
+        "It predicts that every longer search prevents every divorce.",
+        "It proves the researchers randomly assigned dating duration.",
+        "It describes an average association, allowing individual variation rather than guaranteeing an outcome.",
+        "It says no relationship can last without exactly 37 percent sampling."
+      ],
+      "optionsZh": [
+        "预测每次较长搜索都防止全部离婚。",
+        "证明研究者随机分派约会时长。",
+        "描述平均关联，允许个体不同而非保证结果。",
+        "说不精确考察37%就没有关系能长久。"
+      ],
+      "answer": 2,
+      "type": "语气与范围",
+      "support": "explicit",
+      "analyses": [
+        "A more likely、on average 都不是零例外保证。",
+        "B CDC 观察数据不是随机操纵时长。",
+        "C 当前群体数据关联不可单独升级为多约会必导致个人稳定。",
+        "D 没有精确37%作为所有婚姻必需阈值；区分统计倾向和强制规则。"
+      ],
+      "vocabulary": [
+        {
+          "word": "on average",
+          "meaning": "平均而言；就群体总体倾向看",
+          "context": "保留个体差异，不是每位参与者都等于平均数。",
+          "example": "On average, the groups differed, but individual responses varied.",
+          "collocations": [
+            "on average, the more exploration",
+            "marital stability"
+          ]
+        }
+      ],
+      "translation": "CDC 数据表明，花较少时间探索的人（开始认真交往后很快结婚的人），确实比婚前花更多时间探索的人更可能以离婚结束婚姻。因此，平均而言，探索越多，婚姻越稳定。",
+      "evidenceTargetIds": [
+        "c10-s03-p106-06135-s009"
+      ],
+      "evidence": [
+        {
+          "quote": "The CDC data indicates that those who spend less time exploring (those who get married quickly after starting a serious relationship) are indeed more likely to end their marriage in divorce than those who spend more time exploring before marriage. So, on average, the more exploration, the more marital stability.",
+          "sentenceIds": [
+            "c10-s03-p106-06135-s008",
+            "c10-s03-p106-06135-s009"
+          ],
+          "sources": [
+            {
+              "pdfPage": 107,
+              "block": 0,
+              "bbox": [
+                76.99,
+                75,
+                535.01,
+                323.52
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "de93da6aaec0333a8a7f3fcb33a7cf621b8862ce5896edf2222ef220ced8dbab"
+    },
+    {
+      "id": "q-c10-024",
+      "version": 1,
+      "readingUnitId": "c10-s03-p107-03285-r001-004",
+      "chapterId": "c10",
+      "sectionId": "c10-s03",
+      "paragraphId": "c10-s03-p107-03285",
+      "sentenceIds": [
+        "c10-s03-p107-03285-s001",
+        "c10-s03-p107-03285-s002",
+        "c10-s03-p107-03285-s003",
+        "c10-s03-p107-03285-s004"
+      ],
+      "passage": "The CDC data are consistent with the 37 percent rule. However, Peter Todd and Geoffrey Miller take issue with the 37 percent rule on several grounds. For example, animals can’t really tell the difference between the best possible mate and a top 10 percent mate. Also, for animals, finding the best mate isn’t critical.",
+      "prompt": "Why do Todd and Miller question the 37 percent rule here?",
+      "options": [
+        "CDC data directly contradict all search models.",
+        "Animals can always identify the single best mate.",
+        "Finding a top-tier mate may matter more than identifying the single best one.",
+        "The rule requires animals to choose the worst available mate."
+      ],
+      "answer": 2,
+      "type": "逻辑关系",
+      "promptZh": "Todd 和 Miller 在这里为何质疑 37% 规则？",
+      "optionsZh": [
+        "CDC 数据直接反驳全部搜索模型。",
+        "动物总能辨认唯一最优配偶。",
+        "找到优质对象可能比认出唯一最优者更重要。",
+        "规则要求动物选最差对象。"
+      ],
+      "analyses": [
+        "A consistent with 明说数据与规则相符，不是矛盾。",
+        "B can’t really tell 恰表明难以区分。",
+        "C best possible 与 top 10 percent 的区别，以及 isn’t critical，支持改变最优目标的质疑。",
+        "D 文中没有最差对象这一要求。这里只列质疑理由，尚未给新搜索比例。"
+      ],
+      "evidence": [
+        {
+          "quote": "animals can’t really tell the difference between the best possible mate and a top 10 percent mate.",
+          "sentenceIds": [
+            "c10-s03-p107-03285-s003"
+          ],
+          "sources": [
+            {
+              "pdfPage": 107,
+              "block": 1,
+              "bbox": [
+                76.99,
+                328.5,
+                535.01,
+                655.02
+              ]
+            }
+          ]
+        },
+        {
+          "quote": "for animals, finding the best mate isn’t critical.",
+          "sentenceIds": [
+            "c10-s03-p107-03285-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 107,
+              "block": 1,
+              "bbox": [
+                76.99,
+                328.5,
+                535.01,
+                655.02
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "take issue with",
+          "meaning": "对……提出异议",
+          "context": "对规则的适用理由提出质疑，不等于全盘否定数据",
+          "example": "The reviewer took issue with the proposed criterion.",
+          "collocations": [
+            "take issue with a rule",
+            "take issue on several grounds"
+          ]
+        }
+      ],
+      "translation": "CDC 数据与 37% 规则相符。不过，Peter Todd 和 Geoffrey Miller 从几个方面质疑该规则。例如，动物实际上难以区分最好的配偶与位居前 10% 的配偶。而且，对动物来说，找到最好的配偶并非至关重要。",
+      "support": "explicit",
+      "editorialStatus": "完整PDF106–111原页视觉核对及跨页拼接；CDC关联不作因果保证；100/1000候选、14%/3%与前10%目标分开。费城许可证、荷兰个人筛选与MIT友谊提名单位分开，众数/中位数与测量时点不混用；Cupid为比喻；宿舍随机背景按作者概括保留，不冒充完整随机试验方案。功能距离研究与后续曝光机制实验分开。末段完整审阅含未配题词频比较，未声称全书逐句证据覆盖。",
+      "fingerprint": "9f0d8718b43b7179a81f3ecd43cd8d77773966c2439876d29ee637e5ed4fcffc"
+    },
+    {
+      "id": "qe-c10-0046",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-040",
+      "parentQuestionId": "q-c10-024",
+      "chapterId": "c10",
+      "sectionId": "c10-s03",
+      "paragraphId": "c10-s03-p107-03285",
+      "readingUnitId": "c10-s03-p107-03285-r001-004",
+      "sentenceIds": [
+        "c10-s03-p107-03285-s001",
+        "c10-s03-p107-03285-s002",
+        "c10-s03-p107-03285-s003",
+        "c10-s03-p107-03285-s004"
+      ],
+      "passage": "The CDC data are consistent with the 37 percent rule. However, Peter Todd and Geoffrey Miller take issue with the 37 percent rule on several grounds. For example, animals can’t really tell the difference between the best possible mate and a top 10 percent mate. Also, for animals, finding the best mate isn’t critical.",
+      "prompt": "What does 'consistent with the 37 percent rule' establish about the CDC data?",
+      "promptZh": "CDC 数据 consistent with the 37 percent rule 确立到哪一步？",
+      "options": [
+        "It proves the precise 37 percent threshold is optimal for every real marriage.",
+        "It makes every criticism of the rule impossible.",
+        "It says the data directly came from a randomised 37 percent dating assignment.",
+        "The described pattern is compatible with the rule, without by itself proving every exact prescription."
+      ],
+      "optionsZh": [
+        "证明精确37%阈值对每段现实婚姻都最优。",
+        "使对规则的一切批评都不可能。",
+        "说数据直接来自随机分派37%约会的任务。",
+        "所述模式与规则相容，但不单独证明每项精确处方。"
+      ],
+      "answer": 3,
+      "type": "证据判断",
+      "support": "explicit",
+      "analyses": [
+        "A consistent 不等于证实精确最优或全部关系的因果。",
+        "B However 后正介绍质疑。",
+        "C 资料为观察性婚姻数据，不是分派的实验比例。",
+        "D 相容与完全证成不同，不能让宽泛平均关联替代模型所有条件的验证。"
+      ],
+      "vocabulary": [
+        {
+          "word": "consistent with",
+          "meaning": "与……相符；不矛盾",
+          "context": "这里是证据相容性，不自动等于唯一解释、因果证明或精确参数估计。",
+          "example": "The result was consistent with the idea, but did not prove it on its own.",
+          "collocations": [
+            "data are consistent with",
+            "the 37 percent rule"
+          ]
+        }
+      ],
+      "translation": "CDC 数据与 37% 规则相符。不过，Peter Todd 和 Geoffrey Miller 从几个方面质疑该规则。例如，动物实际上难以区分最好的配偶与位居前 10% 的配偶。而且，对动物来说，找到最好的配偶并非至关重要。",
+      "evidenceTargetIds": [
+        "c10-s03-p107-03285-s001"
+      ],
+      "evidence": [
+        {
+          "quote": "The CDC data are consistent with the 37 percent rule. However, Peter Todd and Geoffrey Miller take issue with the 37 percent rule on several grounds. For example, animals can’t really tell the difference between the best possible mate and a top 10 percent mate. Also, for animals, finding the best mate isn’t critical.",
+          "sentenceIds": [
+            "c10-s03-p107-03285-s001",
+            "c10-s03-p107-03285-s002",
+            "c10-s03-p107-03285-s003",
+            "c10-s03-p107-03285-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 107,
+              "block": 1,
+              "bbox": [
+                76.99,
+                328.5,
+                535.01,
+                655.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "562112fdc9bcb4c243bbb9b07dcff312d79c16e9e86d31e389da7197e3b4f101"
+    },
+    {
+      "id": "qe-c10-0047",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-040",
+      "parentQuestionId": "q-c10-024",
+      "chapterId": "c10",
+      "sectionId": "c10-s03",
+      "paragraphId": "c10-s03-p107-03285",
+      "readingUnitId": "c10-s03-p107-03285-r001-004",
+      "sentenceIds": [
+        "c10-s03-p107-03285-s001",
+        "c10-s03-p107-03285-s002",
+        "c10-s03-p107-03285-s003",
+        "c10-s03-p107-03285-s004"
+      ],
+      "passage": "The CDC data are consistent with the 37 percent rule. However, Peter Todd and Geoffrey Miller take issue with the 37 percent rule on several grounds. For example, animals can’t really tell the difference between the best possible mate and a top 10 percent mate. Also, for animals, finding the best mate isn’t critical.",
+      "prompt": "What does 'take issue with' signal about Todd and Miller's position?",
+      "promptZh": "take issue with 表明 Todd 与 Miller 的何种立场？",
+      "options": [
+        "They reproduce the rule without any qualification.",
+        "They challenge aspects of the rule on several grounds.",
+        "They physically take a magazine issue from the researchers.",
+        "They reject the existence of all choice problems."
+      ],
+      "optionsZh": [
+        "毫无限定地重复规则。",
+        "从数个理由质疑规则的某些方面。",
+        "实际拿走研究者一期杂志。",
+        "否认一切选择问题存在。"
+      ],
+      "answer": 1,
+      "type": "语境词义",
+      "support": "explicit",
+      "analyses": [
+        "A However 与 take issue 表异议，不是无保留认可。",
+        "B on several grounds 后面给绝对最佳与前10%难分等理由。",
+        "C issue 此短语不是期刊期号的实体拿取。",
+        "D 对特定规则质疑不能扩大到否认所有决策问题。"
+      ],
+      "vocabulary": [
+        {
+          "word": "grounds",
+          "meaning": "理由；依据",
+          "context": "on several grounds 是多个论据，不是土壤或操场。",
+          "example": "The proposal was questioned on several grounds.",
+          "collocations": [
+            "take issue with",
+            "on several grounds"
+          ]
+        }
+      ],
+      "translation": "CDC 数据与 37% 规则相符。不过，Peter Todd 和 Geoffrey Miller 从几个方面质疑该规则。例如，动物实际上难以区分最好的配偶与位居前 10% 的配偶。而且，对动物来说，找到最好的配偶并非至关重要。",
+      "evidenceTargetIds": [
+        "c10-s03-p107-03285-s002"
+      ],
+      "evidence": [
+        {
+          "quote": "The CDC data are consistent with the 37 percent rule. However, Peter Todd and Geoffrey Miller take issue with the 37 percent rule on several grounds. For example, animals can’t really tell the difference between the best possible mate and a top 10 percent mate. Also, for animals, finding the best mate isn’t critical.",
+          "sentenceIds": [
+            "c10-s03-p107-03285-s001",
+            "c10-s03-p107-03285-s002",
+            "c10-s03-p107-03285-s003",
+            "c10-s03-p107-03285-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 107,
+              "block": 1,
+              "bbox": [
+                76.99,
+                328.5,
+                535.01,
+                655.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "e978278d8ecf041c9f8e7c363c344fe7001b6e7b88cc0e57126d26a21971f179"
+    },
+    {
+      "id": "q-c10-025",
+      "version": 1,
+      "readingUnitId": "c10-s03-p107-03285-r005-007",
+      "chapterId": "c10",
+      "sectionId": "c10-s03",
+      "paragraphId": "c10-s03-p107-03285",
+      "sentenceIds": [
+        "c10-s03-p107-03285-s005",
+        "c10-s03-p107-03285-s006",
+        "c10-s03-p107-03285-s007"
+      ],
+      "passage": "Rather, being able to find one of the best options is (e.g., the top 10 percent). What if we change the criterion from the best option to one of the best options? Now a more cursory search—looking at the first 14 percent instead of the first 37 percent—yields the highest probability of success, when the number of potential mates is set to 100.",
+      "prompt": "Under what condition does examining the first 14 percent yield the highest success probability?",
+      "options": [
+        "There are 100 potential mates and success means finding one of the best options.",
+        "There are 1,000 potential mates and success means finding the single best.",
+        "The goal remains the single best among 100 candidates.",
+        "The first 14 percent must all become partners."
+      ],
+      "answer": 0,
+      "type": "细节",
+      "promptZh": "在什么条件下，先看 14% 的成功概率最高？",
+      "optionsZh": [
+        "100 个候选，成功目标是优质选项之一。",
+        "1,000 个候选，目标是唯一最优者。",
+        "100 个候选，目标仍是唯一最优者。",
+        "前 14% 必须全成为伴侣。"
+      ],
+      "analyses": [
+        "A change...one of the best 与 set to 100 同时限定结果。",
+        "B 候选数和成功标准都换了。",
+        "C 忽略从 best 到 one of the best 的关键变化。",
+        "D looking at 是考察，不是与所有人建立伴侣关系。模型概率不能当现实成功承诺。"
+      ],
+      "evidence": [
+        {
+          "quote": "change the criterion from the best option to one of the best options?",
+          "sentenceIds": [
+            "c10-s03-p107-03285-s006"
+          ],
+          "sources": [
+            {
+              "pdfPage": 107,
+              "block": 1,
+              "bbox": [
+                76.99,
+                328.5,
+                535.01,
+                655.02
+              ]
+            }
+          ]
+        },
+        {
+          "quote": "looking at the first 14 percent instead of the first 37 percent",
+          "sentenceIds": [
+            "c10-s03-p107-03285-s007"
+          ],
+          "sources": [
+            {
+              "pdfPage": 107,
+              "block": 1,
+              "bbox": [
+                76.99,
+                328.5,
+                535.01,
+                655.02
+              ]
+            }
+          ]
+        },
+        {
+          "quote": "when the number of potential mates is set to 100.",
+          "sentenceIds": [
+            "c10-s03-p107-03285-s007"
+          ],
+          "sources": [
+            {
+              "pdfPage": 107,
+              "block": 1,
+              "bbox": [
+                76.99,
+                328.5,
+                535.01,
+                655.02
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "cursory",
+          "meaning": "简略的；较不深入的",
+          "context": "相对于考察 37%，先考察的比例更小",
+          "example": "A cursory search revealed several promising choices.",
+          "collocations": [
+            "a cursory search",
+            "a more cursory search"
+          ]
+        }
+      ],
+      "translation": "相反，重要的是能找到最佳选项中的一个（如前 10%）。如果把标准从唯一最佳改成最佳选项之一，会怎样？当潜在配偶数设为 100 时，更简略的搜索——先看 14% 而不是 37%——带来最高成功概率。",
+      "support": "explicit",
+      "editorialStatus": "完整PDF106–111原页视觉核对及跨页拼接；CDC关联不作因果保证；100/1000候选、14%/3%与前10%目标分开。费城许可证、荷兰个人筛选与MIT友谊提名单位分开，众数/中位数与测量时点不混用；Cupid为比喻；宿舍随机背景按作者概括保留，不冒充完整随机试验方案。功能距离研究与后续曝光机制实验分开。末段完整审阅含未配题词频比较，未声称全书逐句证据覆盖。",
+      "fingerprint": "ecb16e572083ce4b96d8fa5e672b86dbbcecea8d7e834f2179bfdbc5b5e1afdf"
+    },
+    {
+      "id": "qe-c10-0048",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-040",
+      "parentQuestionId": "q-c10-025",
+      "chapterId": "c10",
+      "sectionId": "c10-s03",
+      "paragraphId": "c10-s03-p107-03285",
+      "readingUnitId": "c10-s03-p107-03285-r005-007",
+      "sentenceIds": [
+        "c10-s03-p107-03285-s005",
+        "c10-s03-p107-03285-s006",
+        "c10-s03-p107-03285-s007"
+      ],
+      "passage": "Rather, being able to find one of the best options is (e.g., the top 10 percent). What if we change the criterion from the best option to one of the best options? Now a more cursory search—looking at the first 14 percent instead of the first 37 percent—yields the highest probability of success, when the number of potential mates is set to 100.",
+      "prompt": "What alternative target is proposed by 'one of the best options'?",
+      "promptZh": "one of the best options 提出什么替代目标？",
+      "options": [
+        "Finding an option within a high-quality group, such as the top ten percent, rather than the unique best.",
+        "Selecting the worst available option as quickly as possible.",
+        "Guaranteeing that every possible option will be selected.",
+        "Treating exactly ten candidates as the whole pool regardless of its size."
+      ],
+      "optionsZh": [
+        "找高质量群体中一项，如前10%，而非唯一最佳。",
+        "尽快选最差可选项。",
+        "保证每个备选都会被选。",
+        "不论总量都把恰十人当整个池。"
+      ],
+      "answer": 0,
+      "type": "逻辑关系",
+      "support": "explicit",
+      "analyses": [
+        "A one of、e.g.top10percent 明示从唯一最优转为优质集合中的一项。",
+        "B best 不是 worst。",
+        "C one 不等于全部。",
+        "D top10percent 是质量分位，不是固定十个或池的总数；末尾 is 承接前文 critical 的省略，不另造新标准。"
+      ],
+      "vocabulary": [
+        {
+          "word": "criterion",
+          "meaning": "标准；衡量成功的要求",
+          "context": "本段从唯一最佳改为最佳者之一，最优搜索比例也随任务目标变化。",
+          "example": "Changing the criterion changed which strategy counted as successful.",
+          "collocations": [
+            "change the criterion",
+            "one of the best options"
+          ]
+        }
+      ],
+      "translation": "相反，重要的是能找到最佳选项中的一个（如前 10%）。如果把标准从唯一最佳改成最佳选项之一，会怎样？当潜在配偶数设为 100 时，更简略的搜索——先看 14% 而不是 37%——带来最高成功概率。",
+      "evidenceTargetIds": [
+        "c10-s03-p107-03285-s005"
+      ],
+      "evidence": [
+        {
+          "quote": "Rather, being able to find one of the best options is (e.g., the top 10 percent). What if we change the criterion from the best option to one of the best options? Now a more cursory search—looking at the first 14 percent instead of the first 37 percent—yields the highest probability of success, when the number of potential mates is set to 100.",
+          "sentenceIds": [
+            "c10-s03-p107-03285-s005",
+            "c10-s03-p107-03285-s006",
+            "c10-s03-p107-03285-s007"
+          ],
+          "sources": [
+            {
+              "pdfPage": 107,
+              "block": 1,
+              "bbox": [
+                76.99,
+                328.5,
+                535.01,
+                655.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "6b729dd0a8946ca35a58a0dc08de0d0ef3d4ff2093d94330d7c271d3971343e8"
+    },
+    {
+      "id": "q-c10-026",
+      "version": 1,
+      "readingUnitId": "c10-s03-p107-03285-r008-009",
+      "chapterId": "c10",
+      "sectionId": "c10-s03",
+      "paragraphId": "c10-s03-p107-03285",
+      "sentenceIds": [
+        "c10-s03-p107-03285-s008",
+        "c10-s03-p107-03285-s009"
+      ],
+      "passage": "When the number of potential mates is set to 1,000, an even more cursory search of just 3 percent yields the highest probability of finding someone from the top 10 percent. In other words, if there were 100 potential mates, you would only need to look at the first 14 mates carefully and then pick the next mate that is better than the best one from the first 14.",
+      "prompt": "What procedure is described for 100 potential mates?",
+      "options": [
+        "Reject all candidates after examining the first 14.",
+        "Choose the best of the first 14 retrospectively.",
+        "Select exactly the fourteenth candidate regardless of quality.",
+        "Examine the first 14, then choose the next candidate who exceeds their best."
+      ],
+      "answer": 3,
+      "type": "细节",
+      "promptZh": "100 个潜在对象时，片段描述什么步骤？",
+      "optionsZh": [
+        "考察前 14 个后拒绝所有人。",
+        "回头选择前 14 个中最好的。",
+        "不论质量直接选第 14 个。",
+        "考察前 14 个，再选随后超过其中最佳者的对象。"
+      ],
+      "analyses": [
+        "A then pick 明确还要选择。",
+        "B next mate 表示随后遇见者，不是回头挑。",
+        "C 14 是基准样本数，不是固定获选序号。",
+        "D better than the best one from the first 14 明示比较门槛。开头 3% 是 1,000 候选时的搜索比例，不是前 10% 的质量标准。"
+      ],
+      "evidence": [
+        {
+          "quote": "look at the first 14 mates carefully and then pick the next mate that is better than the best one from the first 14.",
+          "sentenceIds": [
+            "c10-s03-p107-03285-s009"
+          ],
+          "sources": [
+            {
+              "pdfPage": 107,
+              "block": 1,
+              "bbox": [
+                76.99,
+                328.5,
+                535.01,
+                655.02
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "potential",
+          "meaning": "潜在的；可能的",
+          "context": "尚未成为实际伴侣的候选对象",
+          "example": "The list included a hundred potential applicants.",
+          "collocations": [
+            "potential mates",
+            "potential candidates"
+          ]
+        }
+      ],
+      "translation": "当潜在配偶数设为 1,000 时，只先搜索 3% 这一更简略的做法，找到前 10% 对象的概率最高。换句话说，若有 100 个潜在对象，你只需仔细考察前 14 个，再选随后遇到的、比前 14 个中最佳者更好的人。",
+      "support": "explicit",
+      "editorialStatus": "完整PDF106–111原页视觉核对及跨页拼接；CDC关联不作因果保证；100/1000候选、14%/3%与前10%目标分开。费城许可证、荷兰个人筛选与MIT友谊提名单位分开，众数/中位数与测量时点不混用；Cupid为比喻；宿舍随机背景按作者概括保留，不冒充完整随机试验方案。功能距离研究与后续曝光机制实验分开。末段完整审阅含未配题词频比较，未声称全书逐句证据覆盖。",
+      "fingerprint": "da31547818f585d67c50463992701b4a0d73036e5a345b1a7d5abf243ad02a7c"
+    },
+    {
+      "id": "qe-c10-0049",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-040",
+      "parentQuestionId": "q-c10-026",
+      "chapterId": "c10",
+      "sectionId": "c10-s03",
+      "paragraphId": "c10-s03-p107-03285",
+      "readingUnitId": "c10-s03-p107-03285-r008-009",
+      "sentenceIds": [
+        "c10-s03-p107-03285-s008",
+        "c10-s03-p107-03285-s009"
+      ],
+      "passage": "When the number of potential mates is set to 1,000, an even more cursory search of just 3 percent yields the highest probability of finding someone from the top 10 percent. In other words, if there were 100 potential mates, you would only need to look at the first 14 mates carefully and then pick the next mate that is better than the best one from the first 14.",
+      "prompt": "For a pool of 1,000, what initial search proportion is reported for finding a top-ten-percent option?",
+      "promptZh": "候选池1,000时，为找到前10%一项，所报初始搜索比例是多少？",
+      "options": [
+        "Fourteen percent, the proportion from the 100-option case.",
+        "Thirty-seven percent under every possible success criterion.",
+        "Three percent.",
+        "Ten percent simply because the quality target is the top ten percent."
+      ],
+      "optionsZh": [
+        "100项情形中的14%。",
+        "不论成功标准都为37%。",
+        "3%。",
+        "因目标前10%所以搜索也10%。"
+      ],
+      "answer": 2,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A 将100项条件的14%挪给1,000项。",
+        "B 不同成功标准已改变策略，不能坚持全情境37%。",
+        "C set to1,000、just3percent、top10percent 三要素对应，不能混同池规模和质量阈值。",
+        "D top10%是质量目标，不是初始考察比例；模型概率最高也不是每次必成功。"
+      ],
+      "vocabulary": [
+        {
+          "word": "cursory",
+          "meaning": "较简略的；不作同等广泛考察的",
+          "context": "此处指初始搜索量更少，不等于文中已证明粗心必胜或无需比较。",
+          "example": "The revised model allowed a more cursory initial search.",
+          "collocations": [
+            "an even more cursory search",
+            "just 3 percent"
+          ]
+        }
+      ],
+      "translation": "当潜在配偶数设为 1,000 时，只先搜索 3% 这一更简略的做法，找到前 10% 对象的概率最高。换句话说，若有 100 个潜在对象，你只需仔细考察前 14 个，再选随后遇到的、比前 14 个中最佳者更好的人。",
+      "evidenceTargetIds": [
+        "c10-s03-p107-03285-s008"
+      ],
+      "evidence": [
+        {
+          "quote": "When the number of potential mates is set to 1,000, an even more cursory search of just 3 percent yields the highest probability of finding someone from the top 10 percent. In other words, if there were 100 potential mates, you would only need to look at the first 14 mates carefully and then pick the next mate that is better than the best one from the first 14.",
+          "sentenceIds": [
+            "c10-s03-p107-03285-s008",
+            "c10-s03-p107-03285-s009"
+          ],
+          "sources": [
+            {
+              "pdfPage": 107,
+              "block": 1,
+              "bbox": [
+                76.99,
+                328.5,
+                535.01,
+                655.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "fe66b88bfd71164bc81af8a31eb7156466af5caaac0a124fb3884deca783649f"
+    }
+  ]
+}
