@@ -1,0 +1,1828 @@
+{
+  "schemaVersion": 1,
+  "batchId": "question-review-2026-10-28-091",
+  "sourceCommit": "47e888534f24f38d8fdb8f844ba45019160631d2",
+  "pdfSha256": "be25c859f1bd894a4b0d1cff024ded1297f6a96a8e8ddabea1e3abcf89160a50",
+  "frozenAt": "2026-10-29T14:59:21.575Z",
+  "questions": [
+    {
+      "id": "q-c10-044",
+      "version": 1,
+      "readingUnitId": "c10-s05-p110-03990-r005-007",
+      "chapterId": "c10",
+      "sectionId": "c10-s05",
+      "paragraphId": "c10-s05-p110-03990",
+      "sentenceIds": [
+        "c10-s05-p110-03990-s005",
+        "c10-s05-p110-03990-s006",
+        "c10-s05-p110-03990-s007"
+      ],
+      "passage": "The other interesting finding from the study was that functional distance also matters. Those who lived close to the staircases were far more likely to become friends with someone living on a different floor than those who lived farther away from the staircases. What this suggests is that physical and functional distance dictate the probability of a chance meeting, and that the more frequently one meets someone informally, the more likely it is that a friendship emerges.",
+      "prompt": "What does functional distance help explain here?",
+      "options": [
+        "Why floor numbers alone perfectly predict every friendship.",
+        "Why everyone near stairs becomes friends immediately.",
+        "Why convenient routes can increase informal encounters and friendship opportunities.",
+        "Why physical distance ceases to matter near staircases."
+      ],
+      "answer": 2,
+      "type": "同义改写",
+      "promptZh": "这里的功能距离帮助解释什么？",
+      "optionsZh": [
+        "仅靠楼层号码便能完美预测每段友谊。",
+        "为何楼梯旁的人马上全成朋友。",
+        "方便的动线为何增加非正式相遇与交友机会。",
+        "为何楼梯附近物理距离就无关紧要。"
+      ],
+      "analyses": [
+        "A 文中比较相遇机会，没有确定性预测。",
+        "B more likely 是概率而非必然，且没有立即的时限。",
+        "C 楼梯位置影响跨楼层接触，反复偶遇提高形成友谊可能性。",
+        "D physical and functional 表明两者都相关。这里是研究结果和机制解释，不是此片段中的随机曝光实验。"
+      ],
+      "evidence": [
+        {
+          "quote": "Those who lived close to the staircases were far more likely to become friends with someone living on a different floor",
+          "sentenceIds": [
+            "c10-s05-p110-03990-s006"
+          ],
+          "sources": [
+            {
+              "pdfPage": 110,
+              "block": 3,
+              "bbox": [
+                76.99,
+                399,
+                535.01,
+                686.52
+              ]
+            }
+          ]
+        },
+        {
+          "quote": "the more frequently one meets someone informally, the more likely it is that a friendship emerges.",
+          "sentenceIds": [
+            "c10-s05-p110-03990-s007"
+          ],
+          "sources": [
+            {
+              "pdfPage": 110,
+              "block": 3,
+              "bbox": [
+                76.99,
+                399,
+                535.01,
+                686.52
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "functional distance",
+          "meaning": "功能距离",
+          "context": "受楼梯等通行动线影响的实际接触便利程度",
+          "example": "A shared entrance can reduce functional distance between neighbors.",
+          "collocations": [
+            "physical and functional distance",
+            "reduce functional distance"
+          ]
+        }
+      ],
+      "translation": "研究另一个有趣发现是，功能距离也重要。住楼梯旁的人比离楼梯远的人，更可能与不同楼层的人交朋友。这提示，物理距离与功能距离决定偶遇概率；非正式见某人越频繁，越可能产生友谊。",
+      "support": "explicit",
+      "editorialStatus": "完整PDF106–111原页视觉核对及跨页拼接；CDC关联不作因果保证；100/1000候选、14%/3%与前10%目标分开。费城许可证、荷兰个人筛选与MIT友谊提名单位分开，众数/中位数与测量时点不混用；Cupid为比喻；宿舍随机背景按作者概括保留，不冒充完整随机试验方案。功能距离研究与后续曝光机制实验分开。末段完整审阅含未配题词频比较，未声称全书逐句证据覆盖。",
+      "fingerprint": "7ae17eba32ade46b8e9660a0a8be0268a89e364bde655c12686db864c84f8fe9"
+    },
+    {
+      "id": "qe-c10-0082",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-042",
+      "parentQuestionId": "q-c10-044",
+      "chapterId": "c10",
+      "sectionId": "c10-s05",
+      "paragraphId": "c10-s05-p110-03990",
+      "readingUnitId": "c10-s05-p110-03990-r005-007",
+      "sentenceIds": [
+        "c10-s05-p110-03990-s005",
+        "c10-s05-p110-03990-s006",
+        "c10-s05-p110-03990-s007"
+      ],
+      "passage": "The other interesting finding from the study was that functional distance also matters. Those who lived close to the staircases were far more likely to become friends with someone living on a different floor than those who lived farther away from the staircases. What this suggests is that physical and functional distance dictate the probability of a chance meeting, and that the more frequently one meets someone informally, the more likely it is that a friendship emerges.",
+      "prompt": "What does 'functional distance' add beyond simple physical distance?",
+      "promptZh": "functional distance 比简单物理距离多强调什么？",
+      "options": [
+        "How routes such as staircases affect opportunities to meet across floors.",
+        "Only the straight-line number of metres, with all routes irrelevant.",
+        "The official ranking of a resident's job function.",
+        "A guarantee that every pair on different floors never becomes friends."
+      ],
+      "optionsZh": [
+        "楼梯等通行路线怎样影响跨楼层见面机会。",
+        "只有直线米数，路线全无关。",
+        "居民职业职能的官方排名。",
+        "保证不同楼层者绝不会成朋友。"
+      ],
+      "answer": 0,
+      "type": "研究解释",
+      "support": "explicit",
+      "analyses": [
+        "A 住楼梯近者更可能跨层交友，体现实际通行造成的功能接近。",
+        "B also matters 与楼梯比较不支持完全无关。",
+        "C function 不是职业排名。",
+        "D far more likely 指不同机会，不是不同楼层绝无友谊；概率增加不等于每次会面必成友。"
+      ],
+      "vocabulary": [
+        {
+          "word": "functional distance",
+          "meaning": "功能距离；实际通行与遇见机会造成的接近程度",
+          "context": "区别单纯直线距离，关注路线如何让人更易碰面。",
+          "example": "The staircase reduced functional distance between residents on different floors.",
+          "collocations": [
+            "functional distance also matters",
+            "close to the staircases"
+          ]
+        }
+      ],
+      "translation": "研究另一个有趣发现是，功能距离也重要。住楼梯旁的人比离楼梯远的人，更可能与不同楼层的人交朋友。这提示，物理距离与功能距离决定偶遇概率；非正式见某人越频繁，越可能产生友谊。",
+      "evidenceTargetIds": [
+        "c10-s05-p110-03990-s005"
+      ],
+      "evidence": [
+        {
+          "quote": "The other interesting finding from the study was that functional distance also matters. Those who lived close to the staircases were far more likely to become friends with someone living on a different floor than those who lived farther away from the staircases. What this suggests is that physical and functional distance dictate the probability of a chance meeting, and that the more frequently one meets someone informally, the more likely it is that a friendship emerges.",
+          "sentenceIds": [
+            "c10-s05-p110-03990-s005",
+            "c10-s05-p110-03990-s006",
+            "c10-s05-p110-03990-s007"
+          ],
+          "sources": [
+            {
+              "pdfPage": 110,
+              "block": 3,
+              "bbox": [
+                76.99,
+                399,
+                535.01,
+                686.52
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "031d0562bf1e075293f3d1e07e5746c9a43d4e167b2dec50cb70fe0db3def763"
+    },
+    {
+      "id": "q-c10-046",
+      "version": 1,
+      "readingUnitId": "c10-s06-p111-01650-r001-003",
+      "chapterId": "c10",
+      "sectionId": "c10-s06",
+      "paragraphId": "c10-s06-p111-01650",
+      "sentenceIds": [
+        "c10-s06-p111-01650-s001",
+        "c10-s06-p111-01650-s002",
+        "c10-s06-p111-01650-s003"
+      ],
+      "passage": "At their best, social psychologists work by identifying an association between two variables in the real world (e.g., residential proximity and friendship), then test causal mechanisms, or what accounts for the observed correlation. What repeated chance meetings do is increase familiarity. Bob Zajonc, one of the greatest social psychologists of all time, zeroed in on the familiarity effect, or what he called the “mere exposure effect,” in a series of experiments.",
+      "prompt": "What research sequence does the author describe?",
+      "options": [
+        "Observe a correlation and immediately declare it causal.",
+        "Identify a real-world association, then test possible causal mechanisms.",
+        "Reject all field observations before examining any variables.",
+        "Treat familiarity as identical to residential distance."
+      ],
+      "answer": 1,
+      "type": "逻辑关系",
+      "promptZh": "作者描述了怎样的研究顺序？",
+      "optionsZh": [
+        "观察相关后马上宣布因果。",
+        "先识别现实关联，再检验可能的因果机制。",
+        "考察变量前拒绝全部实地观察。",
+        "把熟悉感等同居住距离。"
+      ],
+      "analyses": [
+        "A then test 表明相关之后还需检验，不能直接宣称因果。",
+        "B identifying...association...then test causal mechanisms 对应研究顺序。",
+        "C 现实观察是出发点而非被全盘拒绝。",
+        "D 重复相遇增加熟悉感，不是熟悉感等于米数。Zajonc 实验被引入，但本段未给完整实验条件。"
+      ],
+      "evidence": [
+        {
+          "quote": "identifying an association between two variables in the real world",
+          "sentenceIds": [
+            "c10-s06-p111-01650-s001"
+          ],
+          "sources": [
+            {
+              "pdfPage": 111,
+              "block": 2,
+              "bbox": [
+                76.99,
+                165,
+                535.01,
+                277.02
+              ]
+            }
+          ]
+        },
+        {
+          "quote": "then test causal mechanisms, or what accounts for the observed correlation.",
+          "sentenceIds": [
+            "c10-s06-p111-01650-s001"
+          ],
+          "sources": [
+            {
+              "pdfPage": 111,
+              "block": 2,
+              "bbox": [
+                76.99,
+                165,
+                535.01,
+                277.02
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "zeroed in on",
+          "meaning": "集中研究；把注意力对准",
+          "context": "表示 Zajonc 聚焦熟悉感效应",
+          "example": "The investigator zeroed in on a possible mechanism.",
+          "collocations": [
+            "zero in on a mechanism",
+            "zero in on an effect"
+          ]
+        }
+      ],
+      "translation": "社会心理学家做得最好时，会先识别现实中两个变量的关联（例如居住邻近与友谊），再检验因果机制，也就是解释所观察相关的因素。反复偶遇会增加熟悉感。Bob Zajonc 是最杰出的社会心理学家之一，他通过一系列实验聚焦熟悉感效应，或他所称的“单纯曝光效应”。",
+      "support": "explicit",
+      "editorialStatus": "完整PDF106–111原页视觉核对及跨页拼接；CDC关联不作因果保证；100/1000候选、14%/3%与前10%目标分开。费城许可证、荷兰个人筛选与MIT友谊提名单位分开，众数/中位数与测量时点不混用；Cupid为比喻；宿舍随机背景按作者概括保留，不冒充完整随机试验方案。功能距离研究与后续曝光机制实验分开。末段完整审阅含未配题词频比较，未声称全书逐句证据覆盖。",
+      "fingerprint": "5bf700c363ebc9e99ba6240987e26e72cc6f1f3f097f912799cb29c85c970bff"
+    },
+    {
+      "id": "qe-c10-0083",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-042",
+      "parentQuestionId": "q-c10-046",
+      "chapterId": "c10",
+      "sectionId": "c10-s06",
+      "paragraphId": "c10-s06-p111-01650",
+      "readingUnitId": "c10-s06-p111-01650-r001-003",
+      "sentenceIds": [
+        "c10-s06-p111-01650-s001",
+        "c10-s06-p111-01650-s002",
+        "c10-s06-p111-01650-s003"
+      ],
+      "passage": "At their best, social psychologists work by identifying an association between two variables in the real world (e.g., residential proximity and friendship), then test causal mechanisms, or what accounts for the observed correlation. What repeated chance meetings do is increase familiarity. Bob Zajonc, one of the greatest social psychologists of all time, zeroed in on the familiarity effect, or what he called the “mere exposure effect,” in a series of experiments.",
+      "prompt": "What do repeated chance meetings increase in the stated explanation?",
+      "promptZh": "所述解释中，反复偶遇增加什么？",
+      "options": [
+        "A guarantee that everyone shares identical objective traits.",
+        "The physical length of the residence corridor.",
+        "Familiarity.",
+        "The number of countries recorded in the marriage study."
+      ],
+      "optionsZh": [
+        "所有人客观特质相同的保证。",
+        "住宅走廊实体长度。",
+        "熟悉感。",
+        "婚姻研究记录的国家数。"
+      ],
+      "answer": 2,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A familiarity 不是客观性格相同。",
+        "B 不会由会面本身增加走廊长度。",
+        "C What repeated chance meetings do is increase familiarity 直接对应，后面引入实验。",
+        "D 不是国家数；当前机制解释也不意味着每个熟悉对象都必受喜爱。"
+      ],
+      "vocabulary": [
+        {
+          "word": "familiarity",
+          "meaning": "熟悉感；因多次接触而不陌生的程度",
+          "context": "不同于已确认事实知识、客观相似或真正建立深厚友谊。",
+          "example": "Repeated encounters increased familiarity with the faces.",
+          "collocations": [
+            "increase familiarity",
+            "repeated chance meetings"
+          ]
+        }
+      ],
+      "translation": "社会心理学家做得最好时，会先识别现实中两个变量的关联（例如居住邻近与友谊），再检验因果机制，也就是解释所观察相关的因素。反复偶遇会增加熟悉感。Bob Zajonc 是最杰出的社会心理学家之一，他通过一系列实验聚焦熟悉感效应，或他所称的“单纯曝光效应”。",
+      "evidenceTargetIds": [
+        "c10-s06-p111-01650-s002"
+      ],
+      "evidence": [
+        {
+          "quote": "At their best, social psychologists work by identifying an association between two variables in the real world (e.g., residential proximity and friendship), then test causal mechanisms, or what accounts for the observed correlation. What repeated chance meetings do is increase familiarity. Bob Zajonc, one of the greatest social psychologists of all time, zeroed in on the familiarity effect, or what he called the “mere exposure effect,” in a series of experiments.",
+          "sentenceIds": [
+            "c10-s06-p111-01650-s001",
+            "c10-s06-p111-01650-s002",
+            "c10-s06-p111-01650-s003"
+          ],
+          "sources": [
+            {
+              "pdfPage": 111,
+              "block": 2,
+              "bbox": [
+                76.99,
+                165,
+                535.01,
+                277.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "b309acd92e3aed0b51012bcf217d417bd2b2c7e670b51a6b81b9d8e9997fccad"
+    },
+    {
+      "id": "qe-c10-0084",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-042",
+      "parentQuestionId": "q-c10-046",
+      "chapterId": "c10",
+      "sectionId": "c10-s06",
+      "paragraphId": "c10-s06-p111-01650",
+      "readingUnitId": "c10-s06-p111-01650-r001-003",
+      "sentenceIds": [
+        "c10-s06-p111-01650-s001",
+        "c10-s06-p111-01650-s002",
+        "c10-s06-p111-01650-s003"
+      ],
+      "passage": "At their best, social psychologists work by identifying an association between two variables in the real world (e.g., residential proximity and friendship), then test causal mechanisms, or what accounts for the observed correlation. What repeated chance meetings do is increase familiarity. Bob Zajonc, one of the greatest social psychologists of all time, zeroed in on the familiarity effect, or what he called the “mere exposure effect,” in a series of experiments.",
+      "prompt": "What did Zajonc 'zero in on' in the experiments described here?",
+      "promptZh": "这里 Zajonc 的实验 zero in on 什么？",
+      "options": [
+        "The mating choices of every Dutch resident.",
+        "The proximity of Philadelphia marriage-licence offices.",
+        "The relative salaries of secretaries after hiring.",
+        "The familiarity effect, also called the mere exposure effect."
+      ],
+      "optionsZh": [
+        "每位荷兰居民的择偶。",
+        "费城结婚许可办公室的邻近。",
+        "秘书聘后的相对薪资。",
+        "熟悉感效应，也称单纯曝光效应。"
+      ],
+      "answer": 3,
+      "type": "语境词义",
+      "support": "explicit",
+      "analyses": [
+        "A 荷兰资料是前文不同研究。",
+        "B 不是办公室位置研究。",
+        "C 不属于秘书模型聘后工资任务。",
+        "D zeroed in on 指聚焦，后接 familiarity effect 与另称，非把效应缩成零。"
+      ],
+      "vocabulary": [
+        {
+          "word": "zeroed in on",
+          "meaning": "聚焦于；把注意力集中到",
+          "context": "不是降低为零或忽略，描述研究焦点。",
+          "example": "The experiment zeroed in on the effect of repeated presentation.",
+          "collocations": [
+            "zeroed in on the familiarity effect",
+            "the mere exposure effect"
+          ]
+        }
+      ],
+      "translation": "社会心理学家做得最好时，会先识别现实中两个变量的关联（例如居住邻近与友谊），再检验因果机制，也就是解释所观察相关的因素。反复偶遇会增加熟悉感。Bob Zajonc 是最杰出的社会心理学家之一，他通过一系列实验聚焦熟悉感效应，或他所称的“单纯曝光效应”。",
+      "evidenceTargetIds": [
+        "c10-s06-p111-01650-s003"
+      ],
+      "evidence": [
+        {
+          "quote": "At their best, social psychologists work by identifying an association between two variables in the real world (e.g., residential proximity and friendship), then test causal mechanisms, or what accounts for the observed correlation. What repeated chance meetings do is increase familiarity. Bob Zajonc, one of the greatest social psychologists of all time, zeroed in on the familiarity effect, or what he called the “mere exposure effect,” in a series of experiments.",
+          "sentenceIds": [
+            "c10-s06-p111-01650-s001",
+            "c10-s06-p111-01650-s002",
+            "c10-s06-p111-01650-s003"
+          ],
+          "sources": [
+            {
+              "pdfPage": 111,
+              "block": 2,
+              "bbox": [
+                76.99,
+                165,
+                535.01,
+                277.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "eeb6af5c1bc0405016e1b5879a02e191899f2f3cdc31234a67e20f35970498e9"
+    },
+    {
+      "id": "q-c10-047",
+      "version": 1,
+      "readingUnitId": "c10-s06-p111-02820-r001-003",
+      "chapterId": "c10",
+      "sectionId": "c10-s06",
+      "paragraphId": "c10-s06-p111-02820",
+      "sentenceIds": [
+        "c10-s06-p111-02820-s001",
+        "c10-s06-p111-02820-s002",
+        "c10-s06-p111-02820-s003"
+      ],
+      "passage": "Even before he conducted this series of experiments, Zajonc made an ingenious refinement of previous research on word frequency and its link to perceived “desirability” of a word (i.e., how good or bad a word sounds). Word frequency was measured by how often each word appeared in published books and magazines in the 1920s and 1930s, in painstaking work conducted by Edward Thorndike and Irving Lorge. Desirability was determined by aggregating English speakers’ ratings of various English words.",
+      "prompt": "How was word desirability determined in the earlier work?",
+      "options": [
+        "By counting printed occurrences without asking any speakers.",
+        "By measuring how long words took to pronounce.",
+        "By checking whether words came from Turkish.",
+        "By combining English speakers’ ratings of English words."
+      ],
+      "answer": 3,
+      "type": "细节",
+      "promptZh": "早期研究如何确定词语的讨喜程度？",
+      "optionsZh": [
+        "不问说话者，只数印刷出现次数。",
+        "测量发音所需时间。",
+        "检查词是否来自土耳其语。",
+        "汇总英语使用者对英语词语的评分。"
+      ],
+      "analyses": [
+        "A 印刷出现次数测 word frequency，不是 desirability。",
+        "B 没用发音时长定义好坏感受。",
+        "C 当前片段未涉及土耳其语；不能把后续实验材料提前当此处方法。",
+        "D aggregating...ratings 直接给出操作定义。这里介绍既有测量和改进背景，尚不能由此断定词频导致喜欢。"
+      ],
+      "evidence": [
+        {
+          "quote": "Desirability was determined by aggregating English speakers’ ratings of various English words.",
+          "sentenceIds": [
+            "c10-s06-p111-02820-s003"
+          ],
+          "sources": [
+            {
+              "pdfPage": 111,
+              "block": 3,
+              "bbox": [
+                76.99,
+                282,
+                535.01,
+                530.52
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "aggregating",
+          "meaning": "汇总；合并",
+          "context": "将多个英语使用者评分合并，区别于统计词出现次数",
+          "example": "The analyst summarized the results by aggregating individual ratings.",
+          "collocations": [
+            "aggregate ratings",
+            "aggregate individual responses"
+          ]
+        }
+      ],
+      "translation": "甚至在做这一系列实验之前，Zajonc 就对以往词频及其与词语“讨喜程度”（即一个词听起来多好或多不好）关系的研究作了巧妙改进。词频按每个词在 1920 与 1930 年代出版的书籍和杂志中出现的次数测量，这是 Edward Thorndike 与 Irving Lorge 细致辛劳的成果。讨喜程度则通过汇总英语使用者对各种英语词的评分确定。",
+      "support": "explicit",
+      "editorialStatus": "完整PDF106–111原页视觉核对及跨页拼接；CDC关联不作因果保证；100/1000候选、14%/3%与前10%目标分开。费城许可证、荷兰个人筛选与MIT友谊提名单位分开，众数/中位数与测量时点不混用；Cupid为比喻；宿舍随机背景按作者概括保留，不冒充完整随机试验方案。功能距离研究与后续曝光机制实验分开。末段完整审阅含未配题词频比较，未声称全书逐句证据覆盖。",
+      "fingerprint": "a013dfcb903378c967410977b6481caa4d7c44c047110ac9a91af8828a60b0fe"
+    },
+    {
+      "id": "qe-c10-0085",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-042",
+      "parentQuestionId": "q-c10-047",
+      "chapterId": "c10",
+      "sectionId": "c10-s06",
+      "paragraphId": "c10-s06-p111-02820",
+      "readingUnitId": "c10-s06-p111-02820-r001-003",
+      "sentenceIds": [
+        "c10-s06-p111-02820-s001",
+        "c10-s06-p111-02820-s002",
+        "c10-s06-p111-02820-s003"
+      ],
+      "passage": "Even before he conducted this series of experiments, Zajonc made an ingenious refinement of previous research on word frequency and its link to perceived “desirability” of a word (i.e., how good or bad a word sounds). Word frequency was measured by how often each word appeared in published books and magazines in the 1920s and 1930s, in painstaking work conducted by Edward Thorndike and Irving Lorge. Desirability was determined by aggregating English speakers’ ratings of various English words.",
+      "prompt": "When did Zajonc refine the earlier word-frequency research relative to this series of experiments?",
+      "promptZh": "相对这一系列实验，Zajonc 何时改进早前词频研究？",
+      "options": [
+        "Only after the classroom experiment had ended.",
+        "Before he conducted this series of experiments.",
+        "Only after collecting the Dutch cohabitation records.",
+        "At a time the passage explicitly says cannot be placed in order."
+      ],
+      "optionsZh": [
+        "仅课堂实验结束后。",
+        "在他开展这一系列实验之前。",
+        "仅收集荷兰同居记录之后。",
+        "段落明确说无法判顺序的时候。"
+      ],
+      "answer": 1,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A Even before 与 only after 相反。",
+        "B 开头 even before conducted this series 给出时序，refinement 对已有研究而言。",
+        "C 荷兰记录不在此研究时序中。",
+        "D 本句已明示先后，不是未给；不添加未述精确年份。"
+      ],
+      "vocabulary": [
+        {
+          "word": "refinement",
+          "meaning": "改进；使既有方法或论证更精细",
+          "context": "不同于第一次凭空发明全部研究，也非结果已变因果定律。",
+          "example": "The researcher proposed a refinement of the earlier comparison.",
+          "collocations": [
+            "an ingenious refinement",
+            "Even before he conducted"
+          ]
+        }
+      ],
+      "translation": "甚至在做这一系列实验之前，Zajonc 就对以往词频及其与词语“讨喜程度”（即一个词听起来多好或多不好）关系的研究作了巧妙改进。词频按每个词在 1920 与 1930 年代出版的书籍和杂志中出现的次数测量，这是 Edward Thorndike 与 Irving Lorge 细致辛劳的成果。讨喜程度则通过汇总英语使用者对各种英语词的评分确定。",
+      "evidenceTargetIds": [
+        "c10-s06-p111-02820-s001"
+      ],
+      "evidence": [
+        {
+          "quote": "Even before he conducted this series of experiments, Zajonc made an ingenious refinement of previous research on word frequency and its link to perceived “desirability” of a word (i.e., how good or bad a word sounds). Word frequency was measured by how often each word appeared in published books and magazines in the 1920s and 1930s, in painstaking work conducted by Edward Thorndike and Irving Lorge. Desirability was determined by aggregating English speakers’ ratings of various English words.",
+          "sentenceIds": [
+            "c10-s06-p111-02820-s001",
+            "c10-s06-p111-02820-s002",
+            "c10-s06-p111-02820-s003"
+          ],
+          "sources": [
+            {
+              "pdfPage": 111,
+              "block": 3,
+              "bbox": [
+                76.99,
+                282,
+                535.01,
+                530.52
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "448a2a37c823f090c888c4da596de6aac883ee332304bde97fffa92cc11ec2fa"
+    },
+    {
+      "id": "qe-c10-0086",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-042",
+      "parentQuestionId": "q-c10-047",
+      "chapterId": "c10",
+      "sectionId": "c10-s06",
+      "paragraphId": "c10-s06-p111-02820",
+      "readingUnitId": "c10-s06-p111-02820-r001-003",
+      "sentenceIds": [
+        "c10-s06-p111-02820-s001",
+        "c10-s06-p111-02820-s002",
+        "c10-s06-p111-02820-s003"
+      ],
+      "passage": "Even before he conducted this series of experiments, Zajonc made an ingenious refinement of previous research on word frequency and its link to perceived “desirability” of a word (i.e., how good or bad a word sounds). Word frequency was measured by how often each word appeared in published books and magazines in the 1920s and 1930s, in painstaking work conducted by Edward Thorndike and Irving Lorge. Desirability was determined by aggregating English speakers’ ratings of various English words.",
+      "prompt": "How was word frequency measured in the earlier work?",
+      "promptZh": "早先工作怎样测量词频？",
+      "options": [
+        "By counting appearances in published books and magazines from the 1920s and 1930s.",
+        "Only by asking speakers which word sounded most pleasant.",
+        "By counting how often each participant attended the lecture.",
+        "By measuring how long a person took to pronounce a nonsense word once."
+      ],
+      "optionsZh": [
+        "数1920、1930年代出版书籍杂志中的出现次数。",
+        "只问哪个词最悦耳。",
+        "数每人上课次数。",
+        "测读一次无意义词所需时长。"
+      ],
+      "answer": 0,
+      "type": "研究设计",
+      "support": "explicit",
+      "analyses": [
+        "A how often appeared、books/magazines、年代对应；计数工作归 Thorndike 与 Lorge。",
+        "B 那是讨喜程度评分，不是词频。",
+        "C 属后面的课堂曝光设计，不能挪来。",
+        "D 发音任务属于后续实验，且这里未测发音时长。"
+      ],
+      "vocabulary": [
+        {
+          "word": "painstaking",
+          "meaning": "细致费力的；不厌其烦的",
+          "context": "形容早期词频计数工作的投入，不是参与者感到身体痛。",
+          "example": "The catalogue was the result of painstaking counting.",
+          "collocations": [
+            "in painstaking work",
+            "Edward Thorndike and Irving Lorge"
+          ]
+        }
+      ],
+      "translation": "甚至在做这一系列实验之前，Zajonc 就对以往词频及其与词语“讨喜程度”（即一个词听起来多好或多不好）关系的研究作了巧妙改进。词频按每个词在 1920 与 1930 年代出版的书籍和杂志中出现的次数测量，这是 Edward Thorndike 与 Irving Lorge 细致辛劳的成果。讨喜程度则通过汇总英语使用者对各种英语词的评分确定。",
+      "evidenceTargetIds": [
+        "c10-s06-p111-02820-s002"
+      ],
+      "evidence": [
+        {
+          "quote": "Even before he conducted this series of experiments, Zajonc made an ingenious refinement of previous research on word frequency and its link to perceived “desirability” of a word (i.e., how good or bad a word sounds). Word frequency was measured by how often each word appeared in published books and magazines in the 1920s and 1930s, in painstaking work conducted by Edward Thorndike and Irving Lorge. Desirability was determined by aggregating English speakers’ ratings of various English words.",
+          "sentenceIds": [
+            "c10-s06-p111-02820-s001",
+            "c10-s06-p111-02820-s002",
+            "c10-s06-p111-02820-s003"
+          ],
+          "sources": [
+            {
+              "pdfPage": 111,
+              "block": 3,
+              "bbox": [
+                76.99,
+                282,
+                535.01,
+                530.52
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "589d52569c7d3b20712f1312a9d3e4ffde10f9aa5a077c0caecb108ab684d526"
+    },
+    {
+      "id": "q-c10-048",
+      "version": 1,
+      "readingUnitId": "c10-s06-p111-02820-r004-007",
+      "chapterId": "c10",
+      "sectionId": "c10-s06",
+      "paragraphId": "c10-s06-p111-02820",
+      "sentenceIds": [
+        "c10-s06-p111-02820-s004",
+        "c10-s06-p111-02820-s005",
+        "c10-s06-p111-02820-s006",
+        "c10-s06-p111-02820-s007"
+      ],
+      "passage": "Everyone agrees that the word “good” is good, but not as good as the word “better.” But, in terms of word frequency, the word “good” is used far more often than the word “better.” So, if frequent encounters increase the desirability of a word, then the word “good” should be more desirable than the word “better.” Indeed, participants in a psychology experiment reported that the word “good” is more desirable than the word “better”!",
+      "prompt": "Why might “good” be rated more desirable than “better” in the reported task?",
+      "options": [
+        "It has a more positive dictionary meaning.",
+        "It is encountered more frequently in use.",
+        "It was the only word participants knew.",
+        "It had fewer printed appearances."
+      ],
+      "answer": 1,
+      "type": "逻辑关系",
+      "promptZh": "为什么所报任务中 good 可能比 better 更讨喜？",
+      "optionsZh": [
+        "字典意义更积极。",
+        "使用中出现得更频繁。",
+        "参与者只认识这一个词。",
+        "印刷出现次数更少。"
+      ],
+      "analyses": [
+        "A 作者先承认通常意义上 better 更好，结果与这一预期形成反差。",
+        "B far more often 提供熟悉程度的解释；报告的是被试评价。",
+        "C 没说被试不认识 better。",
+        "D 与频率比较方向相反。此片段的频率与喜欢关系不能独自确立因果。"
+      ],
+      "evidence": [
+        {
+          "quote": "the word “good” is used far more often than the word “better.”",
+          "sentenceIds": [
+            "c10-s06-p111-02820-s005"
+          ],
+          "sources": [
+            {
+              "pdfPage": 111,
+              "block": 3,
+              "bbox": [
+                76.99,
+                282,
+                535.01,
+                530.52
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "desirability",
+          "meaning": "讨喜程度；吸引力",
+          "context": "词给人的正面感受，不等于字典中比较级的逻辑顺序",
+          "example": "The survey measured the desirability of each design.",
+          "collocations": [
+            "the desirability of a word",
+            "increase desirability"
+          ]
+        }
+      ],
+      "translation": "大家都同意 good 是好的，但不如 better 那么好。不过就词频而言，good 的使用频率远高于 better。因此，如果经常遇见会增加一个词的讨喜程度，good 就应该比 better 更讨喜。果然，心理实验参与者报告，good 比 better 更讨喜！",
+      "support": "explicit",
+      "editorialStatus": "完整PDF111–115原页视觉核对及跨页拼接。词频观察与无意义词、汉字、人像和课堂曝光实验分开；假称Turkish不作真实语言事实；课堂评分量表、出席次数和主观熟悉/明确认识分开，linearly保留作者措辞但不编精确等差。机制实验不把早前观察婚配研究改成随机试验。购物/旅行属个人轶事；普查流动性是代理指标、统计控制非因果保证；成长经历观察与想象工作心态实验分开，every other year译隔年。and almost为既有跨单元句片，保留ID与连续阅读。末段完整审阅含尚未配题结果，不提前倒灌证据，不宣称逐句直接证据全覆盖。",
+      "fingerprint": "0e6fe236fa4ade885a842384e76dba8f8b7b88f49e604bdcd127b154df57e81b"
+    },
+    {
+      "id": "qe-c10-0087",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-042",
+      "parentQuestionId": "q-c10-048",
+      "chapterId": "c10",
+      "sectionId": "c10-s06",
+      "paragraphId": "c10-s06-p111-02820",
+      "readingUnitId": "c10-s06-p111-02820-r004-007",
+      "sentenceIds": [
+        "c10-s06-p111-02820-s004",
+        "c10-s06-p111-02820-s005",
+        "c10-s06-p111-02820-s006",
+        "c10-s06-p111-02820-s007"
+      ],
+      "passage": "Everyone agrees that the word “good” is good, but not as good as the word “better.” But, in terms of word frequency, the word “good” is used far more often than the word “better.” So, if frequent encounters increase the desirability of a word, then the word “good” should be more desirable than the word “better.” Indeed, participants in a psychology experiment reported that the word “good” is more desirable than the word “better”!",
+      "prompt": "What contrast does the opening comment about 'good' and 'better' prepare?",
+      "promptZh": "关于 good 与 better 的开头评论为哪种对照作铺垫？",
+      "options": [
+        "A rule that good is the grammatical comparative of better.",
+        "A finding that every English speaker always dislikes both words.",
+        "The difference between the words' comparative meaning and later frequency-related desirability ratings.",
+        "A claim that better occurs more often than good in the described counts."
+      ],
+      "optionsZh": [
+        "good 是 better 比较级的语法规则。",
+        "每位英语使用者总讨厌两个词的发现。",
+        "词语比较意义与后面词频相关讨喜评分之间的区别。",
+        "所述计数中 better 比 good 更常见。"
+      ],
+      "answer": 2,
+      "type": "作者意图",
+      "support": "explicit",
+      "analyses": [
+        "A 英语比较关系并非如此，当前也不把喜好评分改成语法规则。",
+        "B Everyone agrees 是作者行文开场，不是全英语人群厌恶测量。",
+        "C 通常语义 better 比 good 更好，与后面 good 因高频却更讨喜构成引人注意的反差。",
+        "D 下一句明确 good used far more often；保持词义、词频和主观评分三者分开。"
+      ],
+      "vocabulary": [
+        {
+          "word": "in terms of",
+          "meaning": "就……而言；从……方面看",
+          "context": "同段转到 word frequency 的评价维度，不把语义优劣当词频统计。",
+          "example": "In terms of frequency, the shorter word appeared more often.",
+          "collocations": [
+            "in terms of word frequency",
+            "the word good is used far more often"
+          ]
+        }
+      ],
+      "translation": "大家都同意 good 是好的，但不如 better 那么好。不过就词频而言，good 的使用频率远高于 better。因此，如果经常遇见会增加一个词的讨喜程度，good 就应该比 better 更讨喜。果然，心理实验参与者报告，good 比 better 更讨喜！",
+      "evidenceTargetIds": [
+        "c10-s06-p111-02820-s004"
+      ],
+      "evidence": [
+        {
+          "quote": "Everyone agrees that the word “good” is good, but not as good as the word “better.” But, in terms of word frequency, the word “good” is used far more often than the word “better.” So, if frequent encounters increase the desirability of a word, then the word “good” should be more desirable than the word “better.” Indeed, participants in a psychology experiment reported that the word “good” is more desirable than the word “better”!",
+          "sentenceIds": [
+            "c10-s06-p111-02820-s004",
+            "c10-s06-p111-02820-s005",
+            "c10-s06-p111-02820-s006",
+            "c10-s06-p111-02820-s007"
+          ],
+          "sources": [
+            {
+              "pdfPage": 111,
+              "block": 3,
+              "bbox": [
+                76.99,
+                282,
+                535.01,
+                530.52
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "77e5b177394a629f0efa33ee9b1aad1bca9ea89dcc7f333f3ad0317b3687f7e7"
+    },
+    {
+      "id": "qe-c10-0088",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-042",
+      "parentQuestionId": "q-c10-048",
+      "chapterId": "c10",
+      "sectionId": "c10-s06",
+      "paragraphId": "c10-s06-p111-02820",
+      "readingUnitId": "c10-s06-p111-02820-r004-007",
+      "sentenceIds": [
+        "c10-s06-p111-02820-s004",
+        "c10-s06-p111-02820-s005",
+        "c10-s06-p111-02820-s006",
+        "c10-s06-p111-02820-s007"
+      ],
+      "passage": "Everyone agrees that the word “good” is good, but not as good as the word “better.” But, in terms of word frequency, the word “good” is used far more often than the word “better.” So, if frequent encounters increase the desirability of a word, then the word “good” should be more desirable than the word “better.” Indeed, participants in a psychology experiment reported that the word “good” is more desirable than the word “better”!",
+      "prompt": "What status does the 'if ... then ... should' sentence give the claim about good's desirability?",
+      "promptZh": "if...then...should 句使 good 更讨喜处于什么性质？",
+      "options": [
+        "A definition requiring every person to prefer good regardless of evidence.",
+        "A completed proof that frequency alone caused all English preferences.",
+        "An instruction to replace every use of better with good.",
+        "A conditional prediction derived from higher encounter frequency."
+      ],
+      "optionsZh": [
+        "不论证据都要求每人偏好 good 的定义。",
+        "已完成频率单独造成全部英语偏好的证明。",
+        "要求把所有 better 替换 good。",
+        "从较高接触频率推导的条件性预测。"
+      ],
+      "answer": 3,
+      "type": "研究逻辑",
+      "support": "explicit",
+      "analyses": [
+        "A should 在预测中不是强制个人喜好。",
+        "B if 标记假设，后续原书还明确此词频证据仍相关性。",
+        "C 不是写作替换指令。",
+        "D 若多接触增讨喜，加上 good 更高频，就预测它评分更高；区别预测与因果已证。"
+      ],
+      "vocabulary": [
+        {
+          "word": "should",
+          "meaning": "按假设推理应当会；预期会",
+          "context": "这里为预测而非道德命令，不能改成已在所有人中证实。",
+          "example": "If the hypothesis is right, the repeated image should receive a higher rating.",
+          "collocations": [
+            "if frequent encounters increase",
+            "should be more desirable"
+          ]
+        }
+      ],
+      "translation": "大家都同意 good 是好的，但不如 better 那么好。不过就词频而言，good 的使用频率远高于 better。因此，如果经常遇见会增加一个词的讨喜程度，good 就应该比 better 更讨喜。果然，心理实验参与者报告，good 比 better 更讨喜！",
+      "evidenceTargetIds": [
+        "c10-s06-p111-02820-s006"
+      ],
+      "evidence": [
+        {
+          "quote": "Everyone agrees that the word “good” is good, but not as good as the word “better.” But, in terms of word frequency, the word “good” is used far more often than the word “better.” So, if frequent encounters increase the desirability of a word, then the word “good” should be more desirable than the word “better.” Indeed, participants in a psychology experiment reported that the word “good” is more desirable than the word “better”!",
+          "sentenceIds": [
+            "c10-s06-p111-02820-s004",
+            "c10-s06-p111-02820-s005",
+            "c10-s06-p111-02820-s006",
+            "c10-s06-p111-02820-s007"
+          ],
+          "sources": [
+            {
+              "pdfPage": 111,
+              "block": 3,
+              "bbox": [
+                76.99,
+                282,
+                535.01,
+                530.52
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "52f64044520c5cf9d1a7c1231bc8f7b3137f60014f03e8c86c02e05e10fccaba"
+    },
+    {
+      "id": "qe-c10-0089",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-042",
+      "parentQuestionId": "q-c10-048",
+      "chapterId": "c10",
+      "sectionId": "c10-s06",
+      "paragraphId": "c10-s06-p111-02820",
+      "readingUnitId": "c10-s06-p111-02820-r004-007",
+      "sentenceIds": [
+        "c10-s06-p111-02820-s004",
+        "c10-s06-p111-02820-s005",
+        "c10-s06-p111-02820-s006",
+        "c10-s06-p111-02820-s007"
+      ],
+      "passage": "Everyone agrees that the word “good” is good, but not as good as the word “better.” But, in terms of word frequency, the word “good” is used far more often than the word “better.” So, if frequent encounters increase the desirability of a word, then the word “good” should be more desirable than the word “better.” Indeed, participants in a psychology experiment reported that the word “good” is more desirable than the word “better”!",
+      "prompt": "How does 'Indeed' connect the reported participant ratings to the preceding prediction?",
+      "promptZh": "Indeed 怎样把参与者评分与前面预测联系？",
+      "options": [
+        "It introduces a finding that directly reverses the stated prediction.",
+        "It introduces reported ratings consistent with good being rated more desirable than better.",
+        "It changes better's grammatical meaning into worse.",
+        "It says no participant provided a rating."
+      ],
+      "optionsZh": [
+        "引入直接反转原预测的发现。",
+        "引入与 good 比 better 更讨喜相符的自报评分。",
+        "把 better 的语法意义改为 worse。",
+        "说没有参与者评分。"
+      ],
+      "answer": 1,
+      "type": "篇章结构",
+      "support": "explicit",
+      "analyses": [
+        "A reported good more desirable 与前句预测同向，非反转。",
+        "B Indeed 表果然，participants reported 是该评分结果；不等于改变单词的词典比较意义。",
+        "C 主观讨喜不是比较级语义改写。",
+        "D 原句明说 reported；这种相符也不能删掉后文对相关证据的因果限制。"
+      ],
+      "vocabulary": [
+        {
+          "word": "Indeed",
+          "meaning": "果然；的确（此处承接相符结果）",
+          "context": "连接预测和观察，不自动使全部证据成为因果实验。",
+          "example": "The prediction favoured the repeated item; indeed, it received higher ratings.",
+          "collocations": [
+            "Indeed,participants ... reported",
+            "more desirable than"
+          ]
+        }
+      ],
+      "translation": "大家都同意 good 是好的，但不如 better 那么好。不过就词频而言，good 的使用频率远高于 better。因此，如果经常遇见会增加一个词的讨喜程度，good 就应该比 better 更讨喜。果然，心理实验参与者报告，good 比 better 更讨喜！",
+      "evidenceTargetIds": [
+        "c10-s06-p111-02820-s007"
+      ],
+      "evidence": [
+        {
+          "quote": "Everyone agrees that the word “good” is good, but not as good as the word “better.” But, in terms of word frequency, the word “good” is used far more often than the word “better.” So, if frequent encounters increase the desirability of a word, then the word “good” should be more desirable than the word “better.” Indeed, participants in a psychology experiment reported that the word “good” is more desirable than the word “better”!",
+          "sentenceIds": [
+            "c10-s06-p111-02820-s004",
+            "c10-s06-p111-02820-s005",
+            "c10-s06-p111-02820-s006",
+            "c10-s06-p111-02820-s007"
+          ],
+          "sources": [
+            {
+              "pdfPage": 111,
+              "block": 3,
+              "bbox": [
+                76.99,
+                282,
+                535.01,
+                530.52
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "aff8e953d001045d5fc0d53abe96584bbfaa0e139f18e4ac4d8f4fe0803bcd5e"
+    },
+    {
+      "id": "q-c10-049",
+      "version": 1,
+      "readingUnitId": "c10-s06-p111-05355-r001-004",
+      "chapterId": "c10",
+      "sectionId": "c10-s06",
+      "paragraphId": "c10-s06-p111-05355",
+      "sentenceIds": [
+        "c10-s06-p111-05355-s001",
+        "c10-s06-p111-05355-s002",
+        "c10-s06-p111-05355-s003",
+        "c10-s06-p111-05355-s004"
+      ],
+      "passage": "The findings from this research on word frequency are fascinating, but they are still correlational. That is, we cannot infer a causal effect between frequency and liking a word. So Zajonc designed an experiment in which participants were presented with nonsense words such as “iktitaf,” “afworbu,” and “saricik.” The experimenter told the participants that these were “Turkish” words (they weren’t) and showed them how to pronounce each.",
+      "prompt": "Why did Zajonc move from word-frequency findings to a new experiment?",
+      "options": [
+        "Earlier findings proved that frequency had no effect.",
+        "The earlier words were all genuinely Turkish.",
+        "A correlation alone could not establish a causal effect.",
+        "Pronunciation had already explained every rating."
+      ],
+      "answer": 2,
+      "type": "作者意图",
+      "promptZh": "Zajonc 为什么从词频发现转向新实验？",
+      "optionsZh": [
+        "早期发现证明频率无效。",
+        "早期词全部是真土耳其语。",
+        "仅有相关不能确立因果效应。",
+        "发音已解释全部评分。"
+      ],
+      "analyses": [
+        "A 不能推断因果不等于证明无效。",
+        "B they weren’t 明确否定所称语言身份。",
+        "C still correlational 后明确 cannot infer a causal effect，是新实验动机。",
+        "D 未报告发音解释了全部评分。无意义词被称作土耳其语是实验说明，不是真实语言知识。"
+      ],
+      "evidence": [
+        {
+          "quote": "we cannot infer a causal effect between frequency and liking a word.",
+          "sentenceIds": [
+            "c10-s06-p111-05355-s002"
+          ],
+          "sources": [
+            {
+              "pdfPage": 111,
+              "block": 4,
+              "bbox": [
+                76.99,
+                535.5,
+                535.01,
+                706.02
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "correlational",
+          "meaning": "相关性的",
+          "context": "两个变量共同变化的发现，不自动证明原因",
+          "example": "The correlational evidence prompted a controlled experiment.",
+          "collocations": [
+            "correlational findings",
+            "infer a causal effect"
+          ]
+        }
+      ],
+      "translation": "这些词频研究发现很有趣，但仍属相关性结果。也就是说，我们不能据此推断频率与喜欢某词之间的因果效应。因此 Zajonc 设计实验，向参与者呈现 iktitaf、afworbu、saricik 等无意义词。实验者称其为“土耳其语”词（其实不是），并教他们各词的发音。",
+      "support": "explicit",
+      "editorialStatus": "完整PDF111–115原页视觉核对及跨页拼接。词频观察与无意义词、汉字、人像和课堂曝光实验分开；假称Turkish不作真实语言事实；课堂评分量表、出席次数和主观熟悉/明确认识分开，linearly保留作者措辞但不编精确等差。机制实验不把早前观察婚配研究改成随机试验。购物/旅行属个人轶事；普查流动性是代理指标、统计控制非因果保证；成长经历观察与想象工作心态实验分开，every other year译隔年。and almost为既有跨单元句片，保留ID与连续阅读。末段完整审阅含尚未配题结果，不提前倒灌证据，不宣称逐句直接证据全覆盖。",
+      "fingerprint": "aaa9624e718eddb207f7da7d53a6dc8425c3779307e62195660de8980b26b6de"
+    },
+    {
+      "id": "qe-c10-0090",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-042",
+      "parentQuestionId": "q-c10-049",
+      "chapterId": "c10",
+      "sectionId": "c10-s06",
+      "paragraphId": "c10-s06-p111-05355",
+      "readingUnitId": "c10-s06-p111-05355-r001-004",
+      "sentenceIds": [
+        "c10-s06-p111-05355-s001",
+        "c10-s06-p111-05355-s002",
+        "c10-s06-p111-05355-s003",
+        "c10-s06-p111-05355-s004"
+      ],
+      "passage": "The findings from this research on word frequency are fascinating, but they are still correlational. That is, we cannot infer a causal effect between frequency and liking a word. So Zajonc designed an experiment in which participants were presented with nonsense words such as “iktitaf,” “afworbu,” and “saricik.” The experimenter told the participants that these were “Turkish” words (they weren’t) and showed them how to pronounce each.",
+      "prompt": "What limitation remains in the earlier word-frequency findings?",
+      "promptZh": "早先词频发现还存在什么限制？",
+      "options": [
+        "They are correlational and do not by themselves establish a causal effect of frequency on liking.",
+        "They prove that frequency can have no possible effect on liking.",
+        "They show every word has been presented an experimentally identical number of times.",
+        "They contain no observations or ratings of words at all."
+      ],
+      "optionsZh": [
+        "仍是相关性结果，不能单凭它确立频率对喜欢的因果。",
+        "证明频率绝不可能影响喜欢。",
+        "表明每个词都被实验呈现相同次数。",
+        "完全没有词语观察或评分。"
+      ],
+      "answer": 0,
+      "type": "证据判断",
+      "support": "explicit",
+      "analyses": [
+        "A still correlational 后明确 cannot infer causal effect，区分有联系与因果已识别。",
+        "B 不能推因果不等于证明无效。",
+        "C 词频自然差别是先前资料，不是各词实验次数相同。",
+        "D 有计数与评分，局限不等于从无证据。"
+      ],
+      "vocabulary": [
+        {
+          "word": "infer",
+          "meaning": "推断；从证据得出结论",
+          "context": "cannot infer 因果限定证据所能支持的强度，不是说研究毫无价值。",
+          "example": "The pattern alone does not allow us to infer causation.",
+          "collocations": [
+            "cannot infer a causal effect",
+            "still correlational"
+          ]
+        }
+      ],
+      "translation": "这些词频研究发现很有趣，但仍属相关性结果。也就是说，我们不能据此推断频率与喜欢某词之间的因果效应。因此 Zajonc 设计实验，向参与者呈现 iktitaf、afworbu、saricik 等无意义词。实验者称其为“土耳其语”词（其实不是），并教他们各词的发音。",
+      "evidenceTargetIds": [
+        "c10-s06-p111-05355-s001"
+      ],
+      "evidence": [
+        {
+          "quote": "The findings from this research on word frequency are fascinating, but they are still correlational. That is, we cannot infer a causal effect between frequency and liking a word. So Zajonc designed an experiment in which participants were presented with nonsense words such as “iktitaf,” “afworbu,” and “saricik.” The experimenter told the participants that these were “Turkish” words (they weren’t) and showed them how to pronounce each.",
+          "sentenceIds": [
+            "c10-s06-p111-05355-s001",
+            "c10-s06-p111-05355-s002",
+            "c10-s06-p111-05355-s003",
+            "c10-s06-p111-05355-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 111,
+              "block": 4,
+              "bbox": [
+                76.99,
+                535.5,
+                535.01,
+                706.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "cb574e7df83999d03400f34c53c8624008d61f34d44963d77d13556c968c2828"
+    },
+    {
+      "id": "qe-c10-0091",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-042",
+      "parentQuestionId": "q-c10-049",
+      "chapterId": "c10",
+      "sectionId": "c10-s06",
+      "paragraphId": "c10-s06-p111-05355",
+      "readingUnitId": "c10-s06-p111-05355-r001-004",
+      "sentenceIds": [
+        "c10-s06-p111-05355-s001",
+        "c10-s06-p111-05355-s002",
+        "c10-s06-p111-05355-s003",
+        "c10-s06-p111-05355-s004"
+      ],
+      "passage": "The findings from this research on word frequency are fascinating, but they are still correlational. That is, we cannot infer a causal effect between frequency and liking a word. So Zajonc designed an experiment in which participants were presented with nonsense words such as “iktitaf,” “afworbu,” and “saricik.” The experimenter told the participants that these were “Turkish” words (they weren’t) and showed them how to pronounce each.",
+      "prompt": "How do the new materials differ from the earlier comparison of existing words?",
+      "promptZh": "新材料与早先既有词比较有何区别？",
+      "options": [
+        "They are verified translations of every English comparison word.",
+        "They are all selected from actual Turkish dictionaries with known meanings.",
+        "They introduce nonsense words in an experiment rather than relying only on existing word-frequency associations.",
+        "They replace repeated exposure with a study of marriage addresses."
+      ],
+      "optionsZh": [
+        "它们是每个英语比较词已核实的译文。",
+        "全选自真实土耳其词典且词义已知。",
+        "实验引入无意义词，而非只依靠既有词频关联。",
+        "以婚姻地址研究替代反复曝光。"
+      ],
+      "answer": 2,
+      "type": "研究设计",
+      "support": "explicit",
+      "analyses": [
+        "A 不是给 good/better 一一翻译。",
+        "B 紧后 they weren’t 明确是假词，不是真实土耳其词表。",
+        "C So designed experiment...nonsense words 明确从相关结果转新实验。",
+        "D 并非地址研究；不自行添加未述随机化细节或每个假词真实释义。"
+      ],
+      "vocabulary": [
+        {
+          "word": "nonsense words",
+          "meaning": "无意义词；实验中编造的词形",
+          "context": "此处不具备供学习的真实土耳其词义，不能写进词汇表当真实外语词。",
+          "example": "The experiment used nonsense words to create unfamiliar stimuli.",
+          "collocations": [
+            "presented with nonsense words",
+            "such as iktitaf,afworbu,and saricik"
+          ]
+        }
+      ],
+      "translation": "这些词频研究发现很有趣，但仍属相关性结果。也就是说，我们不能据此推断频率与喜欢某词之间的因果效应。因此 Zajonc 设计实验，向参与者呈现 iktitaf、afworbu、saricik 等无意义词。实验者称其为“土耳其语”词（其实不是），并教他们各词的发音。",
+      "evidenceTargetIds": [
+        "c10-s06-p111-05355-s003"
+      ],
+      "evidence": [
+        {
+          "quote": "The findings from this research on word frequency are fascinating, but they are still correlational. That is, we cannot infer a causal effect between frequency and liking a word. So Zajonc designed an experiment in which participants were presented with nonsense words such as “iktitaf,” “afworbu,” and “saricik.” The experimenter told the participants that these were “Turkish” words (they weren’t) and showed them how to pronounce each.",
+          "sentenceIds": [
+            "c10-s06-p111-05355-s001",
+            "c10-s06-p111-05355-s002",
+            "c10-s06-p111-05355-s003",
+            "c10-s06-p111-05355-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 111,
+              "block": 4,
+              "bbox": [
+                76.99,
+                535.5,
+                535.01,
+                706.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "a8f1645dbb54a775e60dc6bf9c16d769b7c32e9051ee2c33acdf7d5e63a75550"
+    },
+    {
+      "id": "qe-c10-0092",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-042",
+      "parentQuestionId": "q-c10-049",
+      "chapterId": "c10",
+      "sectionId": "c10-s06",
+      "paragraphId": "c10-s06-p111-05355",
+      "readingUnitId": "c10-s06-p111-05355-r001-004",
+      "sentenceIds": [
+        "c10-s06-p111-05355-s001",
+        "c10-s06-p111-05355-s002",
+        "c10-s06-p111-05355-s003",
+        "c10-s06-p111-05355-s004"
+      ],
+      "passage": "The findings from this research on word frequency are fascinating, but they are still correlational. That is, we cannot infer a causal effect between frequency and liking a word. So Zajonc designed an experiment in which participants were presented with nonsense words such as “iktitaf,” “afworbu,” and “saricik.” The experimenter told the participants that these were “Turkish” words (they weren’t) and showed them how to pronounce each.",
+      "prompt": "Why is the parenthesis 'they weren’t' important after 'Turkish' words?",
+      "promptZh": "Turkish words 后的 they weren’t 为何重要？",
+      "options": [
+        "It says the participants were not human.",
+        "It distinguishes the experimenter's cover description from the words' actual status.",
+        "It proves the participants already knew genuine Turkish fluently.",
+        "It cancels the instruction that each pronunciation was demonstrated."
+      ],
+      "optionsZh": [
+        "说参与者不是人。",
+        "区别实验者的掩饰性说法与词的实际性质。",
+        "证明参与者已流利掌握真正土耳其语。",
+        "取消每词发音曾被示范的说明。"
+      ],
+      "answer": 1,
+      "type": "语境理解",
+      "support": "explicit",
+      "analyses": [
+        "A they 指这些词，不是人类身份。",
+        "B told...Turkish 与 weren’t 揭示给参与者的说法非真实语种归属。",
+        "C 不可从给假词猜意思推出掌握真实语言。",
+        "D showed how to pronounce 仍成立；不把文中掩饰当本网站应对读者撒谎的指令。"
+      ],
+      "vocabulary": [
+        {
+          "word": "pronounce",
+          "meaning": "读出发音；发出某词的声音",
+          "context": "示范读音不等于这些词有真实土耳其语词义。",
+          "example": "The instructor showed how to pronounce each unfamiliar string.",
+          "collocations": [
+            "showed them how to pronounce each",
+            "these were Turkish words (they weren’t)"
+          ]
+        }
+      ],
+      "translation": "这些词频研究发现很有趣，但仍属相关性结果。也就是说，我们不能据此推断频率与喜欢某词之间的因果效应。因此 Zajonc 设计实验，向参与者呈现 iktitaf、afworbu、saricik 等无意义词。实验者称其为“土耳其语”词（其实不是），并教他们各词的发音。",
+      "evidenceTargetIds": [
+        "c10-s06-p111-05355-s004"
+      ],
+      "evidence": [
+        {
+          "quote": "The findings from this research on word frequency are fascinating, but they are still correlational. That is, we cannot infer a causal effect between frequency and liking a word. So Zajonc designed an experiment in which participants were presented with nonsense words such as “iktitaf,” “afworbu,” and “saricik.” The experimenter told the participants that these were “Turkish” words (they weren’t) and showed them how to pronounce each.",
+          "sentenceIds": [
+            "c10-s06-p111-05355-s001",
+            "c10-s06-p111-05355-s002",
+            "c10-s06-p111-05355-s003",
+            "c10-s06-p111-05355-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 111,
+              "block": 4,
+              "bbox": [
+                76.99,
+                535.5,
+                535.01,
+                706.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "904a022f55efea5d1f185073b18eb4dd5a32291e955df0eecdf4d915c0b9af1d"
+    },
+    {
+      "id": "q-c10-050",
+      "version": 1,
+      "readingUnitId": "c10-s06-p111-05355-r005-008",
+      "chapterId": "c10",
+      "sectionId": "c10-s06",
+      "paragraphId": "c10-s06-p111-05355",
+      "sentenceIds": [
+        "c10-s06-p111-05355-s005",
+        "c10-s06-p111-05355-s006",
+        "c10-s06-p111-05355-s007",
+        "c10-s06-p111-05355-s008"
+      ],
+      "passage": "The participants were then asked to pronounce each word. Afterward, they were asked to guess the meaning of each “Turkish” word in terms of how good or bad they are. Some words were presented only once or twice, while others were presented ten or twenty-five times. That was how Zajonc manipulated familiarity.",
+      "prompt": "How was familiarity manipulated in this task?",
+      "options": [
+        "By presenting different words different numbers of times.",
+        "By teaching participants accurate Turkish translations.",
+        "By showing every word exactly twelve times.",
+        "By letting participants choose their own exposure frequency."
+      ],
+      "answer": 0,
+      "type": "细节",
+      "promptZh": "任务怎样操纵熟悉度？",
+      "optionsZh": [
+        "使不同词出现不同次数。",
+        "教准确土耳其语翻译。",
+        "每词恰好呈现十二次。",
+        "让参与者自选呈现次数。"
+      ],
+      "analyses": [
+        "A once or twice 与 ten or twenty-five 对照，末句直接说明操纵。",
+        "B 参与者是猜好坏含义，没有教授准确译义。",
+        "C 十二是后续材料数量，当前呈现次数有多档。",
+        "D 没说参与者自行安排频率。"
+      ],
+      "evidence": [
+        {
+          "quote": "Some words were presented only once or twice, while others were presented ten or twenty-five times.",
+          "sentenceIds": [
+            "c10-s06-p111-05355-s007"
+          ],
+          "sources": [
+            {
+              "pdfPage": 111,
+              "block": 4,
+              "bbox": [
+                76.99,
+                535.5,
+                535.01,
+                706.02
+              ]
+            },
+            {
+              "pdfPage": 112,
+              "block": 0,
+              "bbox": [
+                76.99,
+                75,
+                535.01,
+                226.02
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "manipulated",
+          "meaning": "操纵；系统改变",
+          "context": "实验者改变呈现频率以操作熟悉度，不是贬义欺骗的泛指",
+          "example": "The experiment manipulated the number of repetitions.",
+          "collocations": [
+            "manipulate familiarity",
+            "manipulate a variable"
+          ]
+        }
+      ],
+      "translation": "随后参与者被要求读出每个词。之后，他们要从好或坏的角度猜测各“土耳其语”词的意思。一些词只呈现一两次，另一些呈现十次或二十五次。Zajonc 就这样操纵熟悉度。",
+      "support": "explicit",
+      "editorialStatus": "完整PDF111–115原页视觉核对及跨页拼接。词频观察与无意义词、汉字、人像和课堂曝光实验分开；假称Turkish不作真实语言事实；课堂评分量表、出席次数和主观熟悉/明确认识分开，linearly保留作者措辞但不编精确等差。机制实验不把早前观察婚配研究改成随机试验。购物/旅行属个人轶事；普查流动性是代理指标、统计控制非因果保证；成长经历观察与想象工作心态实验分开，every other year译隔年。and almost为既有跨单元句片，保留ID与连续阅读。末段完整审阅含尚未配题结果，不提前倒灌证据，不宣称逐句直接证据全覆盖。",
+      "fingerprint": "4254396af19e3698b246ec755f517fb72ba3e8daae7c85797a579e7cb070ff9f"
+    },
+    {
+      "id": "qe-c10-0093",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-042",
+      "parentQuestionId": "q-c10-050",
+      "chapterId": "c10",
+      "sectionId": "c10-s06",
+      "paragraphId": "c10-s06-p111-05355",
+      "readingUnitId": "c10-s06-p111-05355-r005-008",
+      "sentenceIds": [
+        "c10-s06-p111-05355-s005",
+        "c10-s06-p111-05355-s006",
+        "c10-s06-p111-05355-s007",
+        "c10-s06-p111-05355-s008"
+      ],
+      "passage": "The participants were then asked to pronounce each word. Afterward, they were asked to guess the meaning of each “Turkish” word in terms of how good or bad they are. Some words were presented only once or twice, while others were presented ten or twenty-five times. That was how Zajonc manipulated familiarity.",
+      "prompt": "What were participants asked to do before judging the words' meanings?",
+      "promptZh": "判断词的意思前，参与者被要求做什么？",
+      "options": [
+        "Look up every item in a real Turkish dictionary.",
+        "Give a goodness rating before trying to pronounce any item.",
+        "Study verified dictionary definitions before any pronunciation.",
+        "Pronounce each word."
+      ],
+      "optionsZh": [
+        "在真实土耳其词典查每个词。",
+        "先评好坏，再尝试读出任何词。",
+        "发音前学习已核实的词典定义。",
+        "读出每个词。"
+      ],
+      "answer": 3,
+      "type": "研究设计",
+      "support": "explicit",
+      "analyses": [
+        "A 不是查真实翻译。",
+        "B then pronounce 后 Afterward 才猜好坏，顺序不能颠倒。",
+        "C 当前为无意义词，无真实词典释义学习步骤。",
+        "D then asked to pronounce，Afterward 才猜好坏意味，顺序明确；读词不等于已知真词义。"
+      ],
+      "vocabulary": [
+        {
+          "word": "Afterward",
+          "meaning": "随后；在那之后",
+          "context": "连接读出词与接下来猜意义的步骤，不是先后任意。",
+          "example": "Participants read the items aloud; afterward, they rated them.",
+          "collocations": [
+            "The participants were then asked",
+            "Afterward,they were asked"
+          ]
+        }
+      ],
+      "translation": "随后参与者被要求读出每个词。之后，他们要从好或坏的角度猜测各“土耳其语”词的意思。一些词只呈现一两次，另一些呈现十次或二十五次。Zajonc 就这样操纵熟悉度。",
+      "evidenceTargetIds": [
+        "c10-s06-p111-05355-s005"
+      ],
+      "evidence": [
+        {
+          "quote": "The participants were then asked to pronounce each word. Afterward, they were asked to guess the meaning of each “Turkish” word in terms of how good or bad they are. Some words were presented only once or twice, while others were presented ten or twenty-five times. That was how Zajonc manipulated familiarity.",
+          "sentenceIds": [
+            "c10-s06-p111-05355-s005",
+            "c10-s06-p111-05355-s006",
+            "c10-s06-p111-05355-s007",
+            "c10-s06-p111-05355-s008"
+          ],
+          "sources": [
+            {
+              "pdfPage": 111,
+              "block": 4,
+              "bbox": [
+                76.99,
+                535.5,
+                535.01,
+                706.02
+              ]
+            },
+            {
+              "pdfPage": 112,
+              "block": 0,
+              "bbox": [
+                76.99,
+                75,
+                535.01,
+                226.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "1697d23e8b346cabba38740037adc499123b102565dbb3eae4f3c3b0d1897c02"
+    },
+    {
+      "id": "qe-c10-0094",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-042",
+      "parentQuestionId": "q-c10-050",
+      "chapterId": "c10",
+      "sectionId": "c10-s06",
+      "paragraphId": "c10-s06-p111-05355",
+      "readingUnitId": "c10-s06-p111-05355-r005-008",
+      "sentenceIds": [
+        "c10-s06-p111-05355-s005",
+        "c10-s06-p111-05355-s006",
+        "c10-s06-p111-05355-s007",
+        "c10-s06-p111-05355-s008"
+      ],
+      "passage": "The participants were then asked to pronounce each word. Afterward, they were asked to guess the meaning of each “Turkish” word in terms of how good or bad they are. Some words were presented only once or twice, while others were presented ten or twenty-five times. That was how Zajonc manipulated familiarity.",
+      "prompt": "What kind of meaning judgement were participants asked to make?",
+      "promptZh": "参与者被要求作哪种词义判断？",
+      "options": [
+        "To guess how good or bad the supposed words were.",
+        "To give a verified dictionary translation from Turkish into English.",
+        "To identify which printed magazine each word had come from.",
+        "Report how often each item appeared in books of the 1920s and 1930s."
+      ],
+      "optionsZh": [
+        "猜这些所谓词的意思是好还是坏。",
+        "给出经核实土耳其语到英语词典翻译。",
+        "辨认每词来自哪本杂志。",
+        "报告每项在1920、1930年代书中出现次数。"
+      ],
+      "answer": 0,
+      "type": "研究设计",
+      "support": "explicit",
+      "analyses": [
+        "A guess meaning...in terms of how good or bad 是情感效价判断，不是准确译词测验。",
+        "B 无意义词无该项真实词典答案。",
+        "C 书刊词频属早前研究，不能移给编造刺激。",
+        "D 是前面自然词频资料，不是当前假词的好坏猜测任务。"
+      ],
+      "vocabulary": [
+        {
+          "word": "in terms of",
+          "meaning": "从……角度；按某一维度",
+          "context": "这里限定 good/bad 情感判断，不是所有语言语义能力。",
+          "example": "The responses were compared in terms of how positive they seemed.",
+          "collocations": [
+            "in terms of how good or bad",
+            "guess the meaning"
+          ]
+        }
+      ],
+      "translation": "随后参与者被要求读出每个词。之后，他们要从好或坏的角度猜测各“土耳其语”词的意思。一些词只呈现一两次，另一些呈现十次或二十五次。Zajonc 就这样操纵熟悉度。",
+      "evidenceTargetIds": [
+        "c10-s06-p111-05355-s006"
+      ],
+      "evidence": [
+        {
+          "quote": "The participants were then asked to pronounce each word. Afterward, they were asked to guess the meaning of each “Turkish” word in terms of how good or bad they are. Some words were presented only once or twice, while others were presented ten or twenty-five times. That was how Zajonc manipulated familiarity.",
+          "sentenceIds": [
+            "c10-s06-p111-05355-s005",
+            "c10-s06-p111-05355-s006",
+            "c10-s06-p111-05355-s007",
+            "c10-s06-p111-05355-s008"
+          ],
+          "sources": [
+            {
+              "pdfPage": 111,
+              "block": 4,
+              "bbox": [
+                76.99,
+                535.5,
+                535.01,
+                706.02
+              ]
+            },
+            {
+              "pdfPage": 112,
+              "block": 0,
+              "bbox": [
+                76.99,
+                75,
+                535.01,
+                226.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "4d388b4ac48ef02c3bdf0039593a24f381cc2f72739564d310ed97b2be09d882"
+    },
+    {
+      "id": "qe-c10-0095",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-042",
+      "parentQuestionId": "q-c10-050",
+      "chapterId": "c10",
+      "sectionId": "c10-s06",
+      "paragraphId": "c10-s06-p111-05355",
+      "readingUnitId": "c10-s06-p111-05355-r005-008",
+      "sentenceIds": [
+        "c10-s06-p111-05355-s005",
+        "c10-s06-p111-05355-s006",
+        "c10-s06-p111-05355-s007",
+        "c10-s06-p111-05355-s008"
+      ],
+      "passage": "The participants were then asked to pronounce each word. Afterward, they were asked to guess the meaning of each “Turkish” word in terms of how good or bad they are. Some words were presented only once or twice, while others were presented ten or twenty-five times. That was how Zajonc manipulated familiarity.",
+      "prompt": "How did Zajonc manipulate familiarity in this task?",
+      "promptZh": "这项任务中 Zajonc 怎样操纵熟悉度？",
+      "options": [
+        "Change the positivity of each definition while keeping presentation counts identical.",
+        "By giving every word the identical exposure count.",
+        "By varying presentation frequency, with some words shown once or twice and others ten or twenty-five times.",
+        "By telling participants the true Turkish meaning of every item."
+      ],
+      "optionsZh": [
+        "保持呈现次数相同，只改变每词定义的正面程度。",
+        "给每个词相同曝光次数。",
+        "改变呈现频率：一些一两次，另一些十次或二十五次。",
+        "给每项真实土耳其词义。"
+      ],
+      "answer": 2,
+      "type": "研究设计",
+      "support": "explicit",
+      "analyses": [
+        "A 实际操纵出现次数，不是给相同次数后改变真定义。",
+        "B counts 明确不同，不是同次数。",
+        "C Some...while others 的差别是 That was how 回指的操纵。",
+        "D 假词不是真土耳其词，且操纵的是次数而非真实释义；不把次数自动写成所有人的相同觉察。"
+      ],
+      "vocabulary": [
+        {
+          "word": "manipulated",
+          "meaning": "在实验中有意改变；操纵变量",
+          "context": "这里是调整刺激出现次数，不是操控真实人的思想或伪造数据。",
+          "example": "The researchers manipulated exposure by varying the number of presentations.",
+          "collocations": [
+            "manipulated familiarity",
+            "presented ten or twenty-five times"
+          ]
+        }
+      ],
+      "translation": "随后参与者被要求读出每个词。之后，他们要从好或坏的角度猜测各“土耳其语”词的意思。一些词只呈现一两次，另一些呈现十次或二十五次。Zajonc 就这样操纵熟悉度。",
+      "evidenceTargetIds": [
+        "c10-s06-p111-05355-s008"
+      ],
+      "evidence": [
+        {
+          "quote": "The participants were then asked to pronounce each word. Afterward, they were asked to guess the meaning of each “Turkish” word in terms of how good or bad they are. Some words were presented only once or twice, while others were presented ten or twenty-five times. That was how Zajonc manipulated familiarity.",
+          "sentenceIds": [
+            "c10-s06-p111-05355-s005",
+            "c10-s06-p111-05355-s006",
+            "c10-s06-p111-05355-s007",
+            "c10-s06-p111-05355-s008"
+          ],
+          "sources": [
+            {
+              "pdfPage": 111,
+              "block": 4,
+              "bbox": [
+                76.99,
+                535.5,
+                535.01,
+                706.02
+              ]
+            },
+            {
+              "pdfPage": 112,
+              "block": 0,
+              "bbox": [
+                76.99,
+                75,
+                535.01,
+                226.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "828a50fc1ac85fb5fa23b5ea6b1ee9235197b08709e9f232e11dd175ab6a7c2d"
+    },
+    {
+      "id": "q-c10-051",
+      "version": 1,
+      "readingUnitId": "c10-s06-p111-05355-r009-011",
+      "chapterId": "c10",
+      "sectionId": "c10-s06",
+      "paragraphId": "c10-s06-p111-05355",
+      "sentenceIds": [
+        "c10-s06-p111-05355-s009",
+        "c10-s06-p111-05355-s010",
+        "c10-s06-p111-05355-s011"
+      ],
+      "passage": "He found that all twelve nonsense words were rated higher on goodness when presented more frequently than when presented less frequently. He then replicated this initial finding with Chinese characters. In the next experiment, Zajonc used photos of graduating Michigan State University seniors and replicated again that those same photos were better liked when presented more frequently to the participants than when they were presented less frequently.",
+      "prompt": "What pattern was replicated across the materials described?",
+      "options": [
+        "Chinese characters were always preferred to photographs.",
+        "All photographs received identical ratings.",
+        "Only real words benefited from repetition.",
+        "More frequent presentation increased positive evaluations of the same stimuli."
+      ],
+      "answer": 3,
+      "type": "主旨",
+      "promptZh": "不同材料中重复出现什么结果模式？",
+      "optionsZh": [
+        "汉字总比照片受欢迎。",
+        "所有照片评分相同。",
+        "只有真实词重复后才受益。",
+        "同一刺激呈现更频繁时，正面评价更高。"
+      ],
+      "analyses": [
+        "A 没有汉字与照片之间的偏好排名。",
+        "B same photos 是相同照片在不同频率条件下比较，不是评分全相等。",
+        "C nonsense words 也有结果。",
+        "D 十二无意义词、汉字、毕业生照片都重现更频繁呈现与更积极评价的模式；不等于每种现实关系都必定获益。"
+      ],
+      "evidence": [
+        {
+          "quote": "all twelve nonsense words were rated higher on goodness when presented more frequently",
+          "sentenceIds": [
+            "c10-s06-p111-05355-s009"
+          ],
+          "sources": [
+            {
+              "pdfPage": 112,
+              "block": 0,
+              "bbox": [
+                76.99,
+                75,
+                535.01,
+                226.02
+              ]
+            }
+          ]
+        },
+        {
+          "quote": "those same photos were better liked when presented more frequently",
+          "sentenceIds": [
+            "c10-s06-p111-05355-s011"
+          ],
+          "sources": [
+            {
+              "pdfPage": 112,
+              "block": 0,
+              "bbox": [
+                76.99,
+                75,
+                535.01,
+                226.02
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "replicated",
+          "meaning": "重复验证；复现",
+          "context": "用不同材料重现原先结果模式",
+          "example": "The team replicated the finding with a new set of images.",
+          "collocations": [
+            "replicate a finding",
+            "replicate an experiment"
+          ]
+        }
+      ],
+      "translation": "他发现，全部十二个无意义词在呈现较频繁时，好的程度评分都高于呈现较少时。随后他用汉字重复验证这一初步发现。接着，他使用 Michigan State University 应届毕业生的照片，再次发现同样的照片在向参与者呈现更频繁时，比呈现较少时更受喜欢。",
+      "support": "explicit",
+      "editorialStatus": "完整PDF111–115原页视觉核对及跨页拼接。词频观察与无意义词、汉字、人像和课堂曝光实验分开；假称Turkish不作真实语言事实；课堂评分量表、出席次数和主观熟悉/明确认识分开，linearly保留作者措辞但不编精确等差。机制实验不把早前观察婚配研究改成随机试验。购物/旅行属个人轶事；普查流动性是代理指标、统计控制非因果保证；成长经历观察与想象工作心态实验分开，every other year译隔年。and almost为既有跨单元句片，保留ID与连续阅读。末段完整审阅含尚未配题结果，不提前倒灌证据，不宣称逐句直接证据全覆盖。",
+      "fingerprint": "4e941d878f1e6794de74ef2472ec90e9fad2978c00c85c21920b5b9a685be96a"
+    },
+    {
+      "id": "qe-c10-0096",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-042",
+      "parentQuestionId": "q-c10-051",
+      "chapterId": "c10",
+      "sectionId": "c10-s06",
+      "paragraphId": "c10-s06-p111-05355",
+      "readingUnitId": "c10-s06-p111-05355-r009-011",
+      "sentenceIds": [
+        "c10-s06-p111-05355-s009",
+        "c10-s06-p111-05355-s010",
+        "c10-s06-p111-05355-s011"
+      ],
+      "passage": "He found that all twelve nonsense words were rated higher on goodness when presented more frequently than when presented less frequently. He then replicated this initial finding with Chinese characters. In the next experiment, Zajonc used photos of graduating Michigan State University seniors and replicated again that those same photos were better liked when presented more frequently to the participants than when they were presented less frequently.",
+      "prompt": "What new material was used to replicate the initial nonsense-word finding?",
+      "promptZh": "复现初始无意义词发现时，用了什么新材料？",
+      "options": [
+        "Marriage licences from Philadelphia only.",
+        "Dormitory floor plans instead of any visual symbols.",
+        "The same English pair good and better without any new material.",
+        "Chinese characters."
+      ],
+      "optionsZh": [
+        "只有费城结婚许可。",
+        "不用视觉符号而用宿舍平面图。",
+        "没有新材料，仅原英语 good/better。",
+        "汉字。"
+      ],
+      "answer": 3,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A 是别节不同数据。",
+        "B 当前没有改用宿舍图。",
+        "C then replicated...with Chinese characters 明确不同材料。",
+        "D 直接对应，后面照片又是下一实验；不能把用汉字写成参与者一定是中国人或全会中文。"
+      ],
+      "vocabulary": [
+        {
+          "word": "replicated",
+          "meaning": "重复验证；以另一材料再现所述模式",
+          "context": "不等于机械复制字形，也不保证任何刺激、任何情境总同效。",
+          "example": "The team replicated the pattern with a different set of images.",
+          "collocations": [
+            "replicated this initial finding",
+            "with Chinese characters"
+          ]
+        }
+      ],
+      "translation": "他发现，全部十二个无意义词在呈现较频繁时，好的程度评分都高于呈现较少时。随后他用汉字重复验证这一初步发现。接着，他使用 Michigan State University 应届毕业生的照片，再次发现同样的照片在向参与者呈现更频繁时，比呈现较少时更受喜欢。",
+      "evidenceTargetIds": [
+        "c10-s06-p111-05355-s010"
+      ],
+      "evidence": [
+        {
+          "quote": "He found that all twelve nonsense words were rated higher on goodness when presented more frequently than when presented less frequently. He then replicated this initial finding with Chinese characters. In the next experiment, Zajonc used photos of graduating Michigan State University seniors and replicated again that those same photos were better liked when presented more frequently to the participants than when they were presented less frequently.",
+          "sentenceIds": [
+            "c10-s06-p111-05355-s009",
+            "c10-s06-p111-05355-s010",
+            "c10-s06-p111-05355-s011"
+          ],
+          "sources": [
+            {
+              "pdfPage": 112,
+              "block": 0,
+              "bbox": [
+                76.99,
+                75,
+                535.01,
+                226.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "5bc964e7877040c5cb1ac14c73001b69eac004cc9a4e3b792266b2d0fb03fb40"
+    }
+  ]
+}
