@@ -1,0 +1,1572 @@
+{
+  "schemaVersion": 1,
+  "batchId": "question-review-2026-10-28-105",
+  "sourceCommit": "102337bd1c9c812e3ed7a98892b71fcf0b97603b",
+  "pdfSha256": "be25c859f1bd894a4b0d1cff024ded1297f6a96a8e8ddabea1e3abcf89160a50",
+  "frozenAt": "2026-10-29T23:28:15.237Z",
+  "questions": [
+    {
+      "id": "q-c11-036",
+      "version": 1,
+      "readingUnitId": "c11-s04-p127-03870-r001-004",
+      "chapterId": "c11",
+      "sectionId": "c11-s04",
+      "paragraphId": "c11-s04-p127-03870",
+      "sentenceIds": [
+        "c11-s04-p127-03870-s001",
+        "c11-s04-p127-03870-s002",
+        "c11-s04-p127-03870-s003",
+        "c11-s04-p127-03870-s004"
+      ],
+      "passage": "Our surveys also indicated the more home damage they had incurred, the more likely it was that they had lost a loved one. This human loss could also have a lingering negative effect on well-being. So, we examined housing damage simultaneously with human losses. Our analyses showed that housing damage and human loss each had an independent effect on well-being, such that the more housing damage and human loss respondents incurred, the less life satisfaction and more negative emotions and health problems they reported.",
+      "prompt": "Why examine housing damage and human loss simultaneously?",
+      "options": [
+        "To assume the two forms of loss could never co-occur.",
+        "To consider each contribution to well-being while accounting for the other.",
+        "To prove that bereavement was harmless.",
+        "To replace survey reports with randomized disasters."
+      ],
+      "answer": 1,
+      "type": "逻辑关系",
+      "promptZh": "为何同时考察住宅与亲人损失？",
+      "optionsZh": [
+        "假定两者绝不共存。",
+        "考虑另一因素时分析各自对福祉的贡献。",
+        "证明失亲无害。",
+        "以随机灾害替代问卷。"
+      ],
+      "analyses": [
+        "A 前面明说房损越多越可能失亲。",
+        "B 因两类损失相伴，simultaneously后分析各自独立作用；不是变量统计上完全无关。",
+        "C lingering negative effect相反。",
+        "D 共同分析不是随机分配损失，不能据此保证排除全部混杂。"
+      ],
+      "evidence": [
+        {
+          "quote": "we examined housing damage simultaneously with human losses.",
+          "sentenceIds": [
+            "c11-s04-p127-03870-s003"
+          ],
+          "sources": [
+            {
+              "pdfPage": 127,
+              "block": 2,
+              "bbox": [
+                76.99,
+                387,
+                535.01,
+                557.52
+              ]
+            }
+          ]
+        },
+        {
+          "quote": "housing damage and human loss each had an independent effect on well-being",
+          "sentenceIds": [
+            "c11-s04-p127-03870-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 127,
+              "block": 2,
+              "bbox": [
+                76.99,
+                387,
+                535.01,
+                557.52
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "lingering",
+          "meaning": "持续不去的；长期残留的",
+          "context": "失亲负面影响可能长久残留",
+          "example": "The loss had a lingering effect on well-being.",
+          "collocations": [
+            "lingering negative effect",
+            "lingering grief"
+          ]
+        }
+      ],
+      "translation": "调查还显示，房损越多，越可能失去亲人。失亲也可能长期损害福祉。因此我们同时分析房损与失亲。结果显示两者对福祉各有独立作用：损失越大，生活满意度越低，负面情绪和健康问题越多。",
+      "support": "explicit",
+      "editorialStatus": "完整PDF126–130原页视觉核对及跨页拼接。Kobe物理修复和心理伤痕分开，调查波次与作者休假年分开，房损/失亲同时分析不作随机因果或变量全无关联。Solnit为引语/作者阐释，电视职业愿望为作者回忆。四川震前后为同校新组，as if/presumably保留，非研究者随机分配灾害；100供选/10获得/平均略逾1至约4为九岁结果，不补六岁或长期个体变化。市政申请按每职位且非实际就职，1989–2000与1995变化分开。COVID接触包括本人/家属/熟人，捐款奖金/加倍与结果分开，作者made价值解释不升级成随机感染因果或医学建议。承认长期损害，不强加受害者获益/感恩；不宣称逐句证据全覆盖。",
+      "fingerprint": "0ef9b23faf7c1fb1cf0ea65704496c13187b2c263f1e37421912eaf15c3b4ec6"
+    },
+    {
+      "id": "qe-c11-0068",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-050",
+      "parentQuestionId": "q-c11-036",
+      "chapterId": "c11",
+      "sectionId": "c11-s04",
+      "paragraphId": "c11-s04-p127-03870",
+      "readingUnitId": "c11-s04-p127-03870-r001-004",
+      "sentenceIds": [
+        "c11-s04-p127-03870-s001",
+        "c11-s04-p127-03870-s002",
+        "c11-s04-p127-03870-s003",
+        "c11-s04-p127-03870-s004"
+      ],
+      "passage": "Our surveys also indicated the more home damage they had incurred, the more likely it was that they had lost a loved one. This human loss could also have a lingering negative effect on well-being. So, we examined housing damage simultaneously with human losses. Our analyses showed that housing damage and human loss each had an independent effect on well-being, such that the more housing damage and human loss respondents incurred, the less life satisfaction and more negative emotions and health problems they reported.",
+      "prompt": "What relationship did the surveys indicate between housing damage and bereavement?",
+      "promptZh": "调查显示房损与失亲之间有什么关系？",
+      "options": [
+        "Greater housing damage guaranteed that every resident lost a relative.",
+        "Housing damage and losing a loved one were reported as perfectly unrelated.",
+        "Losing a loved one necessarily caused the earlier earthquake's physical damage.",
+        "Greater housing damage was associated with a higher likelihood of having lost a loved one."
+      ],
+      "optionsZh": [
+        "房损较大保证每位居民都失去亲人。",
+        "报告称房损和失亲完全无关。",
+        "失亲必然造成了之前地震中的物理损毁。",
+        "房损越大，与曾失去亲人的较高可能性相联系。"
+      ],
+      "answer": 3,
+      "type": "逻辑关系",
+      "support": "explicit",
+      "analyses": [
+        "A more likely是概率倾向，不是每人必然。",
+        "B the more...the more likely明确方向关系。",
+        "C 句中未给这类因果链，也不能倒置地震与人的损失。",
+        "D 比较级结构与having lost的过去经历保留；调查关联不是研究者随机分配伤亡。"
+      ],
+      "vocabulary": [
+        {
+          "word": "incurred",
+          "meaning": "遭受；蒙受损失",
+          "context": "在此与home damage搭配，不是主动选择寻求破坏。",
+          "example": "The survey recorded how much damage each household had incurred.",
+          "collocations": [
+            "home damage they had incurred",
+            "the more likely it was"
+          ]
+        }
+      ],
+      "translation": "调查还显示，房损越多，越可能失去亲人。失亲也可能长期损害福祉。因此我们同时分析房损与失亲。结果显示两者对福祉各有独立作用：损失越大，生活满意度越低，负面情绪和健康问题越多。",
+      "evidenceTargetIds": [
+        "c11-s04-p127-03870-s001"
+      ],
+      "evidence": [
+        {
+          "quote": "Our surveys also indicated the more home damage they had incurred, the more likely it was that they had lost a loved one. This human loss could also have a lingering negative effect on well-being. So, we examined housing damage simultaneously with human losses. Our analyses showed that housing damage and human loss each had an independent effect on well-being, such that the more housing damage and human loss respondents incurred, the less life satisfaction and more negative emotions and health problems they reported.",
+          "sentenceIds": [
+            "c11-s04-p127-03870-s001",
+            "c11-s04-p127-03870-s002",
+            "c11-s04-p127-03870-s003",
+            "c11-s04-p127-03870-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 127,
+              "block": 2,
+              "bbox": [
+                76.99,
+                387,
+                535.01,
+                557.52
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "5fccd075fece3b87b111f81aa802f5c5d042767b67d718f72ba1ca288da9d7be"
+    },
+    {
+      "id": "qe-c11-0069",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-050",
+      "parentQuestionId": "q-c11-036",
+      "chapterId": "c11",
+      "sectionId": "c11-s04",
+      "paragraphId": "c11-s04-p127-03870",
+      "readingUnitId": "c11-s04-p127-03870-r001-004",
+      "sentenceIds": [
+        "c11-s04-p127-03870-s001",
+        "c11-s04-p127-03870-s002",
+        "c11-s04-p127-03870-s003",
+        "c11-s04-p127-03870-s004"
+      ],
+      "passage": "Our surveys also indicated the more home damage they had incurred, the more likely it was that they had lost a loved one. This human loss could also have a lingering negative effect on well-being. So, we examined housing damage simultaneously with human losses. Our analyses showed that housing damage and human loss each had an independent effect on well-being, such that the more housing damage and human loss respondents incurred, the less life satisfaction and more negative emotions and health problems they reported.",
+      "prompt": "What does 'This human loss' refer to, and how is its effect qualified?",
+      "promptZh": "This human loss 回指什么，其影响有何限定？",
+      "options": [
+        "Only the physical loss of a building, with no possible emotional effect.",
+        "A loss that the study says affected every person in exactly the same way.",
+        "The death of a loved one, which could have a lasting negative effect on well-being.",
+        "The researchers' failure to find any association between bereavement and housing damage."
+      ],
+      "optionsZh": [
+        "仅建筑物理损失，且不可能有情绪影响。",
+        "研究称对每个人都有完全相同作用的损失。",
+        "失去亲人，可能对福祉有持续负面影响。",
+        "研究者未发现失亲与房损有任何关联。"
+      ],
+      "answer": 2,
+      "type": "指代",
+      "support": "explicit",
+      "analyses": [
+        "A 前句lost a loved one确定human loss，非只指房屋。",
+        "B could保留可能性，并未说每人作用相同。",
+        "C 回指对象与could、lingering negative effect三项都保留。",
+        "D 前句明确有the more...more likely关系，不是未发现；本句也不是宣布失亲由住房损坏单一造成。"
+      ],
+      "vocabulary": [
+        {
+          "word": "lingering",
+          "meaning": "持续不去的；久久存在的",
+          "context": "修饰负面影响的持续性，不是说永远无任何改善可能。",
+          "example": "The loss could have a lingering effect on well-being.",
+          "collocations": [
+            "a lingering negative effect",
+            "This human loss could also"
+          ]
+        }
+      ],
+      "translation": "调查还显示，房损越多，越可能失去亲人。失亲也可能长期损害福祉。因此我们同时分析房损与失亲。结果显示两者对福祉各有独立作用：损失越大，生活满意度越低，负面情绪和健康问题越多。",
+      "evidenceTargetIds": [
+        "c11-s04-p127-03870-s002"
+      ],
+      "evidence": [
+        {
+          "quote": "Our surveys also indicated the more home damage they had incurred, the more likely it was that they had lost a loved one. This human loss could also have a lingering negative effect on well-being. So, we examined housing damage simultaneously with human losses. Our analyses showed that housing damage and human loss each had an independent effect on well-being, such that the more housing damage and human loss respondents incurred, the less life satisfaction and more negative emotions and health problems they reported.",
+          "sentenceIds": [
+            "c11-s04-p127-03870-s001",
+            "c11-s04-p127-03870-s002",
+            "c11-s04-p127-03870-s003",
+            "c11-s04-p127-03870-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 127,
+              "block": 2,
+              "bbox": [
+                76.99,
+                387,
+                535.01,
+                557.52
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "5e39da44774e4b2369ec941c7db0da1ce42be4b8b908c1487631f25f6e0703af"
+    },
+    {
+      "id": "q-c11-038",
+      "version": 1,
+      "readingUnitId": "c11-s05-p127-06135-r001-003",
+      "chapterId": "c11",
+      "sectionId": "c11-s05",
+      "paragraphId": "c11-s05-p127-06135",
+      "sentenceIds": [
+        "c11-s05-p127-06135-s001",
+        "c11-s05-p127-06135-s002",
+        "c11-s05-p127-06135-s003"
+      ],
+      "passage": "In A Paradise Built in Hell, Rebecca Solnit documents numerous examples of prosocial actions among disaster victims. For instance, right after the 1906 San Francisco earthquake, Anna Holshouser started a makeshift soup kitchen in an evacuation camp. With the support from Oakland across the bay, she served two to three hundred people a day.",
+      "prompt": "What did Anna Holshouser do after the 1906 earthquake?",
+      "options": [
+        "Conducted a randomized survey of all survivors.",
+        "Served only two people per week.",
+        "Started a temporary soup kitchen serving two to three hundred people a day.",
+        "Opened a permanent restaurant in every Oakland neighborhood."
+      ],
+      "answer": 2,
+      "type": "细节",
+      "promptZh": "1906地震后Anna做什么？",
+      "optionsZh": [
+        "对全部幸存者随机调查。",
+        "每周仅服务两人。",
+        "设临时施食处，日供二三百人。",
+        "在Oakland每街区开永久餐厅。"
+      ],
+      "analyses": [
+        "A 书中记录善行，不是这项试验。",
+        "B 数量与单位错误。",
+        "C makeshift/evacuation camp及日供人数准确。",
+        "D Oakland为支援来源，不是遍地餐厅。"
+      ],
+      "evidence": [
+        {
+          "quote": "Anna Holshouser started a makeshift soup kitchen in an evacuation camp.",
+          "sentenceIds": [
+            "c11-s05-p127-06135-s002"
+          ],
+          "sources": [
+            {
+              "pdfPage": 127,
+              "block": 4,
+              "bbox": [
+                76.99,
+                613.5,
+                535.01,
+                706.02
+              ]
+            }
+          ]
+        },
+        {
+          "quote": "she served two to three hundred people a day.",
+          "sentenceIds": [
+            "c11-s05-p127-06135-s003"
+          ],
+          "sources": [
+            {
+              "pdfPage": 127,
+              "block": 4,
+              "bbox": [
+                76.99,
+                613.5,
+                535.01,
+                706.02
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "makeshift",
+          "meaning": "临时凑合的；权宜的",
+          "context": "应急营地中搭建的施食厨房",
+          "example": "Volunteers opened a makeshift kitchen.",
+          "collocations": [
+            "a makeshift soup kitchen",
+            "a makeshift shelter"
+          ]
+        }
+      ],
+      "translation": "Rebecca Solnit在A Paradise Built in Hell记录灾民许多亲社会行动。例如1906 San Francisco地震后，Anna Holshouser在疏散营地设临时施食厨房。湾对岸Oakland支援下，她每天供食二三百人。",
+      "support": "explicit",
+      "editorialStatus": "完整PDF126–130原页视觉核对及跨页拼接。Kobe物理修复和心理伤痕分开，调查波次与作者休假年分开，房损/失亲同时分析不作随机因果或变量全无关联。Solnit为引语/作者阐释，电视职业愿望为作者回忆。四川震前后为同校新组，as if/presumably保留，非研究者随机分配灾害；100供选/10获得/平均略逾1至约4为九岁结果，不补六岁或长期个体变化。市政申请按每职位且非实际就职，1989–2000与1995变化分开。COVID接触包括本人/家属/熟人，捐款奖金/加倍与结果分开，作者made价值解释不升级成随机感染因果或医学建议。承认长期损害，不强加受害者获益/感恩；不宣称逐句证据全覆盖。",
+      "fingerprint": "e291be6161e99339eef17d2592349494f02696d190bf082b234986a34f299300"
+    },
+    {
+      "id": "qe-c11-0070",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-050",
+      "parentQuestionId": "q-c11-038",
+      "chapterId": "c11",
+      "sectionId": "c11-s05",
+      "paragraphId": "c11-s05-p127-06135",
+      "readingUnitId": "c11-s05-p127-06135-r001-003",
+      "sentenceIds": [
+        "c11-s05-p127-06135-s001",
+        "c11-s05-p127-06135-s002",
+        "c11-s05-p127-06135-s003"
+      ],
+      "passage": "In A Paradise Built in Hell, Rebecca Solnit documents numerous examples of prosocial actions among disaster victims. For instance, right after the 1906 San Francisco earthquake, Anna Holshouser started a makeshift soup kitchen in an evacuation camp. With the support from Oakland across the bay, she served two to three hundred people a day.",
+      "prompt": "What does the passage say Solnit documents in her book?",
+      "promptZh": "原文说 Solnit 在书中记录什么？",
+      "options": [
+        "Numerous examples of prosocial actions among disaster victims.",
+        "Only a controlled laboratory test of sticker donation.",
+        "Evidence that disaster victims never help one another.",
+        "A list of every building repaired in Kobe by 2001."
+      ],
+      "optionsZh": [
+        "灾民中许多亲社会行动的例子。",
+        "仅一次贴纸捐赠的控制实验。",
+        "灾民从不互助的证据。",
+        "Kobe在2001年前修复每栋建筑的清单。"
+      ],
+      "answer": 0,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A documents numerous examples...prosocial actions直接对应；后举临时厨房说明。",
+        "B 贴纸实验是后来Decety研究，不应转给Solnit。",
+        "C prosocial examples与从不互助相反。",
+        "D 修复Kobe是前节背景，不是这句介绍的书中清单。"
+      ],
+      "vocabulary": [
+        {
+          "word": "prosocial",
+          "meaning": "亲社会的；帮助他人、促进共同福祉的",
+          "context": "下文供餐例说明助人行动，不是单纯喜欢热闹或社交次数多。",
+          "example": "The volunteer kitchen was an example of prosocial action.",
+          "collocations": [
+            "prosocial actions among disaster victims",
+            "documents numerous examples"
+          ]
+        }
+      ],
+      "translation": "Rebecca Solnit在A Paradise Built in Hell记录灾民许多亲社会行动。例如1906 San Francisco地震后，Anna Holshouser在疏散营地设临时施食厨房。湾对岸Oakland支援下，她每天供食二三百人。",
+      "evidenceTargetIds": [
+        "c11-s05-p127-06135-s001"
+      ],
+      "evidence": [
+        {
+          "quote": "In A Paradise Built in Hell, Rebecca Solnit documents numerous examples of prosocial actions among disaster victims. For instance, right after the 1906 San Francisco earthquake, Anna Holshouser started a makeshift soup kitchen in an evacuation camp. With the support from Oakland across the bay, she served two to three hundred people a day.",
+          "sentenceIds": [
+            "c11-s05-p127-06135-s001",
+            "c11-s05-p127-06135-s002",
+            "c11-s05-p127-06135-s003"
+          ],
+          "sources": [
+            {
+              "pdfPage": 127,
+              "block": 4,
+              "bbox": [
+                76.99,
+                613.5,
+                535.01,
+                706.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "3b9a0172eb6cdb4226db6f644fb92b9d3ee0db19d9f5fe754b5fd2c57fb51c15"
+    },
+    {
+      "id": "q-c11-039",
+      "version": 1,
+      "readingUnitId": "c11-s05-p127-06135-r004-005",
+      "chapterId": "c11",
+      "sectionId": "c11-s05",
+      "paragraphId": "c11-s05-p127-06135",
+      "sentenceIds": [
+        "c11-s05-p127-06135-s004",
+        "c11-s05-p127-06135-s005"
+      ],
+      "passage": "Solnit concludes: “Surrounding them [the wounded, killed, orphaned], often in the same city or even neighborhood, is a periphery of many more who are largely undamaged but profoundly disrupted—and it is the disruptive power of disaster that matters here, the ability of disasters to topple old orders and open new possibilities…. The very depth of emotion, the connecting to the core of one’s being, the calling into play one’s strongest feelings and abilities, can be rich, even on deathbeds, in wars and emergencies.”",
+      "prompt": "What possibility does Solnit emphasize in this quotation?",
+      "options": [
+        "Disasters leave every person physically undamaged.",
+        "Disaster can disrupt old orders and call forth deep feelings and capacities.",
+        "All emergencies guarantee happiness.",
+        "Only directly injured people experience disruption."
+      ],
+      "answer": 1,
+      "type": "主旨",
+      "promptZh": "Solnit引语强调什么可能性？",
+      "optionsZh": [
+        "每个人身体都无损。",
+        "灾难可打破旧秩序，唤起深层情感能力。",
+        "所有紧急状况保证幸福。",
+        "只有直接受伤者受扰乱。"
+      ],
+      "analyses": [
+        "A wounded/killed/orphaned承认严重伤害。",
+        "B disruptive power/new possibilities和calling into play串联核心。",
+        "C can be rich不等于guarantee happiness。",
+        "D periphery...largely undamaged...profoundly disrupted指旁及人群。这里是著作引语的观点，不是实验概率估计。"
+      ],
+      "evidence": [
+        {
+          "quote": "the ability of disasters to topple old orders and open new possibilities",
+          "sentenceIds": [
+            "c11-s05-p127-06135-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 127,
+              "block": 4,
+              "bbox": [
+                76.99,
+                613.5,
+                535.01,
+                706.02
+              ]
+            },
+            {
+              "pdfPage": 128,
+              "block": 0,
+              "bbox": [
+                76.99,
+                75,
+                535.01,
+                304.02
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "topple",
+          "meaning": "推翻；使倾覆",
+          "context": "形容旧社会秩序被扰动的比喻",
+          "example": "The crisis threatened to topple the old order.",
+          "collocations": [
+            "topple old orders",
+            "open new possibilities"
+          ]
+        }
+      ],
+      "translation": "Solnit总结：伤者、死者、失孤者周围，同城甚至同社区还有更多大体无损却深受扰动者。关键是灾难打破旧秩序、开启新可能的扰动力量。情感深度、触及存在核心、调动最强情绪和能力，即使在病榻、战争和紧急状况中，也可能丰富。",
+      "support": "explicit",
+      "editorialStatus": "完整PDF126–130原页视觉核对及跨页拼接。Kobe物理修复和心理伤痕分开，调查波次与作者休假年分开，房损/失亲同时分析不作随机因果或变量全无关联。Solnit为引语/作者阐释，电视职业愿望为作者回忆。四川震前后为同校新组，as if/presumably保留，非研究者随机分配灾害；100供选/10获得/平均略逾1至约4为九岁结果，不补六岁或长期个体变化。市政申请按每职位且非实际就职，1989–2000与1995变化分开。COVID接触包括本人/家属/熟人，捐款奖金/加倍与结果分开，作者made价值解释不升级成随机感染因果或医学建议。承认长期损害，不强加受害者获益/感恩；不宣称逐句证据全覆盖。",
+      "fingerprint": "d304d258f5392b57c199c391e5f1309ef110a499989c5c52876b6d9e33dbe4e5"
+    },
+    {
+      "id": "qe-c11-0071",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-050",
+      "parentQuestionId": "q-c11-039",
+      "chapterId": "c11",
+      "sectionId": "c11-s05",
+      "paragraphId": "c11-s05-p127-06135",
+      "readingUnitId": "c11-s05-p127-06135-r004-005",
+      "sentenceIds": [
+        "c11-s05-p127-06135-s004",
+        "c11-s05-p127-06135-s005"
+      ],
+      "passage": "Solnit concludes: “Surrounding them [the wounded, killed, orphaned], often in the same city or even neighborhood, is a periphery of many more who are largely undamaged but profoundly disrupted—and it is the disruptive power of disaster that matters here, the ability of disasters to topple old orders and open new possibilities…. The very depth of emotion, the connecting to the core of one’s being, the calling into play one’s strongest feelings and abilities, can be rich, even on deathbeds, in wars and emergencies.”",
+      "prompt": "Which claim best preserves the scope of Solnit's quoted conclusion?",
+      "promptZh": "哪项最准确保留 Solnit 引述结论的范围？",
+      "options": [
+        "All emergencies necessarily make every victim happier than before.",
+        "Serious loss is denied because emotional depth removes all harm.",
+        "Richness is defined only as financial compensation after a disaster.",
+        "Deep emotion and the use of one's strongest feelings and abilities can be rich even in extreme circumstances."
+      ],
+      "optionsZh": [
+        "所有紧急状况必让每个受害者比以前更快乐。",
+        "因情感深度消除一切伤害，所以否认严重损失。",
+        "丰富性仅被定义为灾后经济补偿。",
+        "深刻情感及调动最强情绪和能力，即使在极端处境也可能丰富。"
+      ],
+      "answer": 3,
+      "type": "证据范围",
+      "support": "explicit",
+      "analyses": [
+        "A can不是necessarily，rich也不等于更幸福。",
+        "B 引语提wounded、killed、orphaned，没有否认损失。",
+        "C 这里谈情感与存在深度，不是只谈钱。",
+        "D can be rich与even保留可能及反常处境，且归属为Solnit的论述，不冒充对每名灾民的实验证明。"
+      ],
+      "vocabulary": [
+        {
+          "word": "calling into play",
+          "meaning": "调动；使某种能力发挥作用",
+          "context": "此处调动情感与能力，不是叫儿童来做游戏。",
+          "example": "The challenge called into play skills she had rarely used.",
+          "collocations": [
+            "calling into play one’s strongest feelings and abilities",
+            "can be rich"
+          ]
+        }
+      ],
+      "translation": "Solnit总结：伤者、死者、失孤者周围，同城甚至同社区还有更多大体无损却深受扰动者。关键是灾难打破旧秩序、开启新可能的扰动力量。情感深度、触及存在核心、调动最强情绪和能力，即使在病榻、战争和紧急状况中，也可能丰富。",
+      "evidenceTargetIds": [
+        "c11-s05-p127-06135-s005"
+      ],
+      "evidence": [
+        {
+          "quote": "Solnit concludes: “Surrounding them [the wounded, killed, orphaned], often in the same city or even neighborhood, is a periphery of many more who are largely undamaged but profoundly disrupted—and it is the disruptive power of disaster that matters here, the ability of disasters to topple old orders and open new possibilities…. The very depth of emotion, the connecting to the core of one’s being, the calling into play one’s strongest feelings and abilities, can be rich, even on deathbeds, in wars and emergencies.”",
+          "sentenceIds": [
+            "c11-s05-p127-06135-s004",
+            "c11-s05-p127-06135-s005"
+          ],
+          "sources": [
+            {
+              "pdfPage": 127,
+              "block": 4,
+              "bbox": [
+                76.99,
+                613.5,
+                535.01,
+                706.02
+              ]
+            },
+            {
+              "pdfPage": 128,
+              "block": 0,
+              "bbox": [
+                76.99,
+                75,
+                535.01,
+                304.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "e3079ae9662794cfc509d827829fc205bc76af5fb4e1bd0e0bed7ef1ce07d26d"
+    },
+    {
+      "id": "q-c11-041",
+      "version": 1,
+      "readingUnitId": "c11-s05-p128-03090-r001-004",
+      "chapterId": "c11",
+      "sectionId": "c11-s05",
+      "paragraphId": "c11-s05-p128-03090",
+      "sentenceIds": [
+        "c11-s05-p128-03090-s001",
+        "c11-s05-p128-03090-s002",
+        "c11-s05-p128-03090-s003",
+        "c11-s05-p128-03090-s004"
+      ],
+      "passage": "So, according to Solnit, even devastating natural disasters such as the 1995 Hanshin-Awaji earthquake should have some silver linings. I remember watching surviving children who were interviewed on TV back in 1995. They were asked what they wanted to become. Many said nurses, firefighters, and doctors.",
+      "prompt": "What occupations did many interviewed surviving children mention?",
+      "options": [
+        "Nurses, firefighters and doctors.",
+        "Only professional athletes.",
+        "Every municipal role listed elsewhere in the chapter.",
+        "Their parents’ jobs, without any examples."
+      ],
+      "answer": 0,
+      "type": "细节",
+      "promptZh": "许多受访幸存儿童提了哪些职业？",
+      "optionsZh": [
+        "护士、消防员、医生。",
+        "仅职业运动员。",
+        "本章别处所有市政职业。",
+        "父母职业且无例子。"
+      ],
+      "analyses": [
+        "A 最后一句明列三项。",
+        "B 无运动员例子。",
+        "C 不应把后文社工幼教并入当前电视回忆。",
+        "D 有明确职业，但未称皆父母职业。作者记忆不是已量化的代表性职业追踪；silver linings为依Solnit推论。"
+      ],
+      "evidence": [
+        {
+          "quote": "Many said nurses, firefighters, and doctors.",
+          "sentenceIds": [
+            "c11-s05-p128-03090-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 128,
+              "block": 1,
+              "bbox": [
+                76.99,
+                309,
+                535.01,
+                440.52
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "silver linings",
+          "meaning": "困境中的积极一面",
+          "context": "不取消灾害破坏的潜在亮点比喻",
+          "example": "They looked for silver linings without denying the loss.",
+          "collocations": [
+            "some silver linings",
+            "a silver lining in adversity"
+          ]
+        }
+      ],
+      "translation": "依Solnit，即使1995 Hanshin-Awaji这样毁灭性地震，也应有些困境中的亮点。我记得看1995年电视访问幸存儿童，问他们长大想做什么，许多人说护士、消防员、医生。",
+      "support": "explicit",
+      "editorialStatus": "完整PDF126–130原页视觉核对及跨页拼接。Kobe物理修复和心理伤痕分开，调查波次与作者休假年分开，房损/失亲同时分析不作随机因果或变量全无关联。Solnit为引语/作者阐释，电视职业愿望为作者回忆。四川震前后为同校新组，as if/presumably保留，非研究者随机分配灾害；100供选/10获得/平均略逾1至约4为九岁结果，不补六岁或长期个体变化。市政申请按每职位且非实际就职，1989–2000与1995变化分开。COVID接触包括本人/家属/熟人，捐款奖金/加倍与结果分开，作者made价值解释不升级成随机感染因果或医学建议。承认长期损害，不强加受害者获益/感恩；不宣称逐句证据全覆盖。",
+      "fingerprint": "897b9f022eba03b1751685cab23c4636daf3cf405c0fb2d0bdd206c523c9fccb"
+    },
+    {
+      "id": "qe-c11-0072",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-050",
+      "parentQuestionId": "q-c11-041",
+      "chapterId": "c11",
+      "sectionId": "c11-s05",
+      "paragraphId": "c11-s05-p128-03090",
+      "readingUnitId": "c11-s05-p128-03090-r001-004",
+      "sentenceIds": [
+        "c11-s05-p128-03090-s001",
+        "c11-s05-p128-03090-s002",
+        "c11-s05-p128-03090-s003",
+        "c11-s05-p128-03090-s004"
+      ],
+      "passage": "So, according to Solnit, even devastating natural disasters such as the 1995 Hanshin-Awaji earthquake should have some silver linings. I remember watching surviving children who were interviewed on TV back in 1995. They were asked what they wanted to become. Many said nurses, firefighters, and doctors.",
+      "prompt": "How should the statement about 'silver linings' be read?",
+      "promptZh": "关于 silver linings 的陈述应怎样理解？",
+      "options": [
+        "As an unqualified guarantee that all disasters have only good outcomes.",
+        "As a Solnit-attributed expectation of some positive aspects amid devastation.",
+        "As a claim that every damaged house contained silver objects.",
+        "As proof that the author has already tracked all survivors for their entire lives."
+      ],
+      "optionsZh": [
+        "无条件保证所有灾难只有好结果。",
+        "归于Solnit的一种判断：巨大破坏中可能仍有些积极方面。",
+        "声称每栋受损房屋都藏着银器。",
+        "证明作者已追踪所有幸存者一生。"
+      ],
+      "answer": 1,
+      "type": "观点归属",
+      "support": "explicit",
+      "analyses": [
+        "A even devastating、some表明好坏可并存，非only good。",
+        "B according to Solnit明确归属，some silver linings是困境中的亮点。",
+        "C silver linings为习语，不是物品清点。",
+        "D 本句没有全体终生追踪；should have表达此处论述期待而非已证实人人获益。"
+      ],
+      "vocabulary": [
+        {
+          "word": "silver linings",
+          "meaning": "困境中的亮点；不幸中的积极一面",
+          "context": "在此承认devastating的同时谈some好处，不抵消损害。",
+          "example": "The story described a silver lining without denying the loss.",
+          "collocations": [
+            "some silver linings",
+            "according to Solnit"
+          ]
+        }
+      ],
+      "translation": "依Solnit，即使1995 Hanshin-Awaji这样毁灭性地震，也应有些困境中的亮点。我记得看1995年电视访问幸存儿童，问他们长大想做什么，许多人说护士、消防员、医生。",
+      "evidenceTargetIds": [
+        "c11-s05-p128-03090-s001"
+      ],
+      "evidence": [
+        {
+          "quote": "So, according to Solnit, even devastating natural disasters such as the 1995 Hanshin-Awaji earthquake should have some silver linings. I remember watching surviving children who were interviewed on TV back in 1995. They were asked what they wanted to become. Many said nurses, firefighters, and doctors.",
+          "sentenceIds": [
+            "c11-s05-p128-03090-s001",
+            "c11-s05-p128-03090-s002",
+            "c11-s05-p128-03090-s003",
+            "c11-s05-p128-03090-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 128,
+              "block": 1,
+              "bbox": [
+                76.99,
+                309,
+                535.01,
+                440.52
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "391af0b15680bc4ba457beda1c58540b1cac61516dded8654b038e936e7775f0"
+    },
+    {
+      "id": "qe-c11-0073",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-050",
+      "parentQuestionId": "q-c11-041",
+      "chapterId": "c11",
+      "sectionId": "c11-s05",
+      "paragraphId": "c11-s05-p128-03090",
+      "readingUnitId": "c11-s05-p128-03090-r001-004",
+      "sentenceIds": [
+        "c11-s05-p128-03090-s001",
+        "c11-s05-p128-03090-s002",
+        "c11-s05-p128-03090-s003",
+        "c11-s05-p128-03090-s004"
+      ],
+      "passage": "So, according to Solnit, even devastating natural disasters such as the 1995 Hanshin-Awaji earthquake should have some silver linings. I remember watching surviving children who were interviewed on TV back in 1995. They were asked what they wanted to become. Many said nurses, firefighters, and doctors.",
+      "prompt": "What source does the author recall when introducing the surviving children?",
+      "promptZh": "引入幸存儿童时，作者回忆的来源是什么？",
+      "options": [
+        "Watching television interviews with surviving children in 1995.",
+        "A new online survey conducted by the reading website.",
+        "His own interviews with every child in every affected school.",
+        "A television interview that took place before the earthquake in 1989."
+      ],
+      "optionsZh": [
+        "1995年观看电视对幸存儿童的采访。",
+        "阅读网站新进行的线上调查。",
+        "他本人对每所受灾学校所有儿童的采访。",
+        "1989年地震前的一次电视采访。"
+      ],
+      "answer": 0,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A I remember watching、interviewed on TV、back in1995共同限定来源与时间。",
+        "B 网站没有开展此研究，也非原文所述。",
+        "C watching与作者亲自采访所有儿童不同。",
+        "D 原句明示1995，不能替换成1989或灾前追踪。"
+      ],
+      "vocabulary": [
+        {
+          "word": "surviving",
+          "meaning": "幸存的；从灾难中生还的",
+          "context": "修饰受访儿童，不表示他们原先计划经历灾害。",
+          "example": "The broadcast interviewed surviving children after the disaster.",
+          "collocations": [
+            "surviving children",
+            "interviewed on TV back in 1995"
+          ]
+        }
+      ],
+      "translation": "依Solnit，即使1995 Hanshin-Awaji这样毁灭性地震，也应有些困境中的亮点。我记得看1995年电视访问幸存儿童，问他们长大想做什么，许多人说护士、消防员、医生。",
+      "evidenceTargetIds": [
+        "c11-s05-p128-03090-s002"
+      ],
+      "evidence": [
+        {
+          "quote": "So, according to Solnit, even devastating natural disasters such as the 1995 Hanshin-Awaji earthquake should have some silver linings. I remember watching surviving children who were interviewed on TV back in 1995. They were asked what they wanted to become. Many said nurses, firefighters, and doctors.",
+          "sentenceIds": [
+            "c11-s05-p128-03090-s001",
+            "c11-s05-p128-03090-s002",
+            "c11-s05-p128-03090-s003",
+            "c11-s05-p128-03090-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 128,
+              "block": 1,
+              "bbox": [
+                76.99,
+                309,
+                535.01,
+                440.52
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "2312841fbe74ed818a59d44aa02e7d3b84e2e5ac5c058dce8e29df7320e8f154"
+    },
+    {
+      "id": "qe-c11-0074",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-050",
+      "parentQuestionId": "q-c11-041",
+      "chapterId": "c11",
+      "sectionId": "c11-s05",
+      "paragraphId": "c11-s05-p128-03090",
+      "readingUnitId": "c11-s05-p128-03090-r001-004",
+      "sentenceIds": [
+        "c11-s05-p128-03090-s001",
+        "c11-s05-p128-03090-s002",
+        "c11-s05-p128-03090-s003",
+        "c11-s05-p128-03090-s004"
+      ],
+      "passage": "So, according to Solnit, even devastating natural disasters such as the 1995 Hanshin-Awaji earthquake should have some silver linings. I remember watching surviving children who were interviewed on TV back in 1995. They were asked what they wanted to become. Many said nurses, firefighters, and doctors.",
+      "prompt": "What were the children asked about in the television interviews?",
+      "promptZh": "电视采访问儿童什么问题？",
+      "options": [
+        "How many stickers they had already donated in Decety's task.",
+        "What jobs they had already held for decades.",
+        "What they wanted to become in the future.",
+        "The exact insurance category of every neighbour's home."
+      ],
+      "optionsZh": [
+        "他们在Decety任务里已捐多少贴纸。",
+        "他们已经做了数十年的职业。",
+        "他们将来想成为什么样的人、从事什么职业。",
+        "每位邻居住宅的确切保险损害类别。"
+      ],
+      "answer": 2,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A 贴纸任务属于后面的另一研究，非这次TV提问。",
+        "B wanted to become面向愿望，不是多年实际职业史。",
+        "C 问句内容在what they wanted to become直接给出，后句职业回答印证。",
+        "D 保险分类属于前面调查，不是儿童理想提问。"
+      ],
+      "vocabulary": [
+        {
+          "word": "wanted to become",
+          "meaning": "想成为；希望未来从事某种角色",
+          "context": "表示志向而非已经完成职业选择或后来实际就业结果。",
+          "example": "The interviewer asked what the children wanted to become.",
+          "collocations": [
+            "asked what they wanted to become",
+            "Many said nurses, firefighters, and doctors"
+          ]
+        }
+      ],
+      "translation": "依Solnit，即使1995 Hanshin-Awaji这样毁灭性地震，也应有些困境中的亮点。我记得看1995年电视访问幸存儿童，问他们长大想做什么，许多人说护士、消防员、医生。",
+      "evidenceTargetIds": [
+        "c11-s05-p128-03090-s003"
+      ],
+      "evidence": [
+        {
+          "quote": "So, according to Solnit, even devastating natural disasters such as the 1995 Hanshin-Awaji earthquake should have some silver linings. I remember watching surviving children who were interviewed on TV back in 1995. They were asked what they wanted to become. Many said nurses, firefighters, and doctors.",
+          "sentenceIds": [
+            "c11-s05-p128-03090-s001",
+            "c11-s05-p128-03090-s002",
+            "c11-s05-p128-03090-s003",
+            "c11-s05-p128-03090-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 128,
+              "block": 1,
+              "bbox": [
+                76.99,
+                309,
+                535.01,
+                440.52
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "ec57a571eecf238ec26d815304cc19977baf8003192498e61456be557d29cbe1"
+    },
+    {
+      "id": "q-c11-043",
+      "version": 1,
+      "readingUnitId": "c11-s05-p128-04455-r001-004",
+      "chapterId": "c11",
+      "sectionId": "c11-s05",
+      "paragraphId": "c11-s05-p128-04455",
+      "sentenceIds": [
+        "c11-s05-p128-04455-s001",
+        "c11-s05-p128-04455-s002",
+        "c11-s05-p128-04455-s003",
+        "c11-s05-p128-04455-s004"
+      ],
+      "passage": "The best, most direct evidence for this can be found in studies conducted by Jean Decety and his colleagues. They collected data on altruistic giving from six- and nine-year-old Chinese children living in Sichuan, China, in April 2008. Just one month later, on May 12, 2008, a magnitude 7.9 earthquake hit Sichuan. One month after the earthquake, the researchers collected data from a new group of six- and nine-year-olds from the same schools.",
+      "prompt": "How was the post-earthquake group obtained?",
+      "options": [
+        "By retesting exactly the same children a decade later.",
+        "By recruiting only adults from another province.",
+        "By selecting a new group of six- and nine-year-olds from the same schools.",
+        "By asking only children whose homes were destroyed."
+      ],
+      "answer": 2,
+      "type": "细节",
+      "promptZh": "震后样本怎样取得？",
+      "optionsZh": [
+        "十年后重测同一批孩子。",
+        "只招另一省成人。",
+        "从同样学校取新一批六和九岁儿童。",
+        "只问住宅全毁者。"
+      ],
+      "analyses": [
+        "A new group不是同个体，且震后一月。",
+        "B Chinese children in Sichuan不是外省成人。",
+        "C 年龄、学校和新组均准确。",
+        "D 未限定住宅全毁。四月震前与五月十二地震、之后一月时间要分开。"
+      ],
+      "evidence": [
+        {
+          "quote": "One month after the earthquake, the researchers collected data from a new group of six- and nine-year-olds from the same schools.",
+          "sentenceIds": [
+            "c11-s05-p128-04455-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 128,
+              "block": 2,
+              "bbox": [
+                76.99,
+                445.5,
+                535.01,
+                655.02
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "altruistic",
+          "meaning": "利他的",
+          "context": "通过给出自身资源帮助同学来考察",
+          "example": "The study examined altruistic giving among children.",
+          "collocations": [
+            "altruistic giving",
+            "data on altruistic giving"
+          ]
+        }
+      ],
+      "translation": "最直接证据可见Jean Decety及同事研究。他们2008年4月收集Sichuan六岁九岁儿童的利他给予资料。一月后，5月12日，7.9级地震袭击Sichuan。震后一月，他们从相同学校新一组六岁九岁儿童再收集数据。",
+      "support": "explicit",
+      "editorialStatus": "完整PDF126–130原页视觉核对及跨页拼接。Kobe物理修复和心理伤痕分开，调查波次与作者休假年分开，房损/失亲同时分析不作随机因果或变量全无关联。Solnit为引语/作者阐释，电视职业愿望为作者回忆。四川震前后为同校新组，as if/presumably保留，非研究者随机分配灾害；100供选/10获得/平均略逾1至约4为九岁结果，不补六岁或长期个体变化。市政申请按每职位且非实际就职，1989–2000与1995变化分开。COVID接触包括本人/家属/熟人，捐款奖金/加倍与结果分开，作者made价值解释不升级成随机感染因果或医学建议。承认长期损害，不强加受害者获益/感恩；不宣称逐句证据全覆盖。",
+      "fingerprint": "5767e4fe83143d210fdc8d8bf77f70a76bfa2ad80b3670f4992a082afbb22dc2"
+    },
+    {
+      "id": "qe-c11-0075",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-050",
+      "parentQuestionId": "q-c11-043",
+      "chapterId": "c11",
+      "sectionId": "c11-s05",
+      "paragraphId": "c11-s05-p128-04455",
+      "readingUnitId": "c11-s05-p128-04455-r001-004",
+      "sentenceIds": [
+        "c11-s05-p128-04455-s001",
+        "c11-s05-p128-04455-s002",
+        "c11-s05-p128-04455-s003",
+        "c11-s05-p128-04455-s004"
+      ],
+      "passage": "The best, most direct evidence for this can be found in studies conducted by Jean Decety and his colleagues. They collected data on altruistic giving from six- and nine-year-old Chinese children living in Sichuan, China, in April 2008. Just one month later, on May 12, 2008, a magnitude 7.9 earthquake hit Sichuan. One month after the earthquake, the researchers collected data from a new group of six- and nine-year-olds from the same schools.",
+      "prompt": "Whose studies does the author identify as the best, most direct evidence here?",
+      "promptZh": "作者在这里把谁的研究称为最好、最直接的证据？",
+      "options": [
+        "Only Solnit's examples of soup kitchens.",
+        "Nietzsche's retrospective philosophical quotations alone.",
+        "The earlier Epley and Schroeder train conversation study.",
+        "Studies conducted by Jean Decety and his colleagues."
+      ],
+      "optionsZh": [
+        "只有Solnit的施食厨房例子。",
+        "只有Nietzsche回顾性的哲学引语。",
+        "此前Epley、Schroeder的列车交谈研究。",
+        "Jean Decety及同事开展的研究。"
+      ],
+      "answer": 3,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A 当前句从事例讨论转向点名研究，不是仅用厨房。",
+        "B 未把哲学引语称作此处儿童给予资料。",
+        "C 通勤研究是另一问题、另一组作者。",
+        "D conducted by之后明确列Jean Decety and his colleagues；best,most direct保留作者此处的评价，不升级为网站已完成最新证据排名。"
+      ],
+      "vocabulary": [
+        {
+          "word": "evidence",
+          "meaning": "证据；支持某种看法或解释的资料",
+          "context": "本句为作者如何引入研究的描述，不表示任何单项研究排除所有其他可能解释。",
+          "example": "The researcher looked for evidence about changes in giving.",
+          "collocations": [
+            "the best, most direct evidence",
+            "studies conducted by"
+          ]
+        }
+      ],
+      "translation": "最直接证据可见Jean Decety及同事研究。他们2008年4月收集Sichuan六岁九岁儿童的利他给予资料。一月后，5月12日，7.9级地震袭击Sichuan。震后一月，他们从相同学校新一组六岁九岁儿童再收集数据。",
+      "evidenceTargetIds": [
+        "c11-s05-p128-04455-s001"
+      ],
+      "evidence": [
+        {
+          "quote": "The best, most direct evidence for this can be found in studies conducted by Jean Decety and his colleagues. They collected data on altruistic giving from six- and nine-year-old Chinese children living in Sichuan, China, in April 2008. Just one month later, on May 12, 2008, a magnitude 7.9 earthquake hit Sichuan. One month after the earthquake, the researchers collected data from a new group of six- and nine-year-olds from the same schools.",
+          "sentenceIds": [
+            "c11-s05-p128-04455-s001",
+            "c11-s05-p128-04455-s002",
+            "c11-s05-p128-04455-s003",
+            "c11-s05-p128-04455-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 128,
+              "block": 2,
+              "bbox": [
+                76.99,
+                445.5,
+                535.01,
+                655.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "b6ce46e0974a12951df5a88ed221150f436e6e56d69bb33024aa226743233e9c"
+    },
+    {
+      "id": "qe-c11-0076",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-050",
+      "parentQuestionId": "q-c11-043",
+      "chapterId": "c11",
+      "sectionId": "c11-s05",
+      "paragraphId": "c11-s05-p128-04455",
+      "readingUnitId": "c11-s05-p128-04455-r001-004",
+      "sentenceIds": [
+        "c11-s05-p128-04455-s001",
+        "c11-s05-p128-04455-s002",
+        "c11-s05-p128-04455-s003",
+        "c11-s05-p128-04455-s004"
+      ],
+      "passage": "The best, most direct evidence for this can be found in studies conducted by Jean Decety and his colleagues. They collected data on altruistic giving from six- and nine-year-old Chinese children living in Sichuan, China, in April 2008. Just one month later, on May 12, 2008, a magnitude 7.9 earthquake hit Sichuan. One month after the earthquake, the researchers collected data from a new group of six- and nine-year-olds from the same schools.",
+      "prompt": "Which children and time describe the first data collection mentioned?",
+      "promptZh": "首先提到的数据收集针对哪些儿童、在什么时候？",
+      "options": [
+        "Six- and nine-year-old children in Sichuan, in April 2008.",
+        "Only nine-year-old children in Kobe, in May 1995.",
+        "The same children selected after the earthquake, but interviewed in 2011.",
+        "Six- and nine-year-old children in Tokyo, after the 2012 hurricane."
+      ],
+      "optionsZh": [
+        "2008年4月，Sichuan的六岁与九岁儿童。",
+        "1995年5月，仅Kobe九岁儿童。",
+        "震后才选的同一批儿童，但在2011年采访。",
+        "2012飓风后，Tokyo六岁与九岁儿童。"
+      ],
+      "answer": 0,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A 年龄、地区及April2008三组都符合。",
+        "B 交换地区事件、年龄范围与日期。",
+        "C first collection为震前；本句未声称同一批震后儿童。",
+        "D 地区与事件错配，不能只凭年龄匹配就选。"
+      ],
+      "vocabulary": [
+        {
+          "word": "altruistic giving",
+          "meaning": "利他给予；把自己的资源提供给他人的行为",
+          "context": "这里收集儿童给予资料，后面以贴纸捐出数量操作化，而非仅问他们自称多善良。",
+          "example": "The task used sticker donations to study altruistic giving.",
+          "collocations": [
+            "data on altruistic giving",
+            "six- and nine-year-old Chinese children"
+          ]
+        }
+      ],
+      "translation": "最直接证据可见Jean Decety及同事研究。他们2008年4月收集Sichuan六岁九岁儿童的利他给予资料。一月后，5月12日，7.9级地震袭击Sichuan。震后一月，他们从相同学校新一组六岁九岁儿童再收集数据。",
+      "evidenceTargetIds": [
+        "c11-s05-p128-04455-s002"
+      ],
+      "evidence": [
+        {
+          "quote": "The best, most direct evidence for this can be found in studies conducted by Jean Decety and his colleagues. They collected data on altruistic giving from six- and nine-year-old Chinese children living in Sichuan, China, in April 2008. Just one month later, on May 12, 2008, a magnitude 7.9 earthquake hit Sichuan. One month after the earthquake, the researchers collected data from a new group of six- and nine-year-olds from the same schools.",
+          "sentenceIds": [
+            "c11-s05-p128-04455-s001",
+            "c11-s05-p128-04455-s002",
+            "c11-s05-p128-04455-s003",
+            "c11-s05-p128-04455-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 128,
+              "block": 2,
+              "bbox": [
+                76.99,
+                445.5,
+                535.01,
+                655.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "ef91860dd72d5e8b7601855d3abb8d2f842afe5b4184f8abde0eb6ce526b3f13"
+    },
+    {
+      "id": "qe-c11-0077",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-050",
+      "parentQuestionId": "q-c11-043",
+      "chapterId": "c11",
+      "sectionId": "c11-s05",
+      "paragraphId": "c11-s05-p128-04455",
+      "readingUnitId": "c11-s05-p128-04455-r001-004",
+      "sentenceIds": [
+        "c11-s05-p128-04455-s001",
+        "c11-s05-p128-04455-s002",
+        "c11-s05-p128-04455-s003",
+        "c11-s05-p128-04455-s004"
+      ],
+      "passage": "The best, most direct evidence for this can be found in studies conducted by Jean Decety and his colleagues. They collected data on altruistic giving from six- and nine-year-old Chinese children living in Sichuan, China, in April 2008. Just one month later, on May 12, 2008, a magnitude 7.9 earthquake hit Sichuan. One month after the earthquake, the researchers collected data from a new group of six- and nine-year-olds from the same schools.",
+      "prompt": "How does the earthquake's timing relate to the April data collection?",
+      "promptZh": "地震时间与四月资料收集有什么关系？",
+      "options": [
+        "The earthquake occurred a full year before the first collection.",
+        "Both collections are explicitly dated to exactly the same day as the earthquake.",
+        "It occurred about a month later, on May 12, 2008.",
+        "It occurred only after the researchers had finished collecting all post-earthquake data."
+      ],
+      "optionsZh": [
+        "地震在首次收集前整一年发生。",
+        "两次收集都被明确记在地震同一天。",
+        "约一个月后，即2008年5月12日发生。",
+        "直到研究者收完所有震后资料之后，地震才发生。"
+      ],
+      "answer": 2,
+      "type": "阅读顺序",
+      "support": "explicit",
+      "analyses": [
+        "A Just one month later与前一年相反。",
+        "B 首次April、地震May12、再一月后新组资料，不能合并同日。",
+        "C later的参照是前句April2008，保留约一月与准确地震日，不擅算两次收集都恰隔30天。",
+        "D post-earthquake按定义和下句均在地震之后，不是先收完再发生。"
+      ],
+      "vocabulary": [
+        {
+          "word": "later",
+          "meaning": "之后；比前述时间更晚",
+          "context": "此处承接April资料收集，不是以前或与所有步骤同日。",
+          "example": "The second event occurred about a month later.",
+          "collocations": [
+            "Just one month later",
+            "on May 12, 2008"
+          ]
+        }
+      ],
+      "translation": "最直接证据可见Jean Decety及同事研究。他们2008年4月收集Sichuan六岁九岁儿童的利他给予资料。一月后，5月12日，7.9级地震袭击Sichuan。震后一月，他们从相同学校新一组六岁九岁儿童再收集数据。",
+      "evidenceTargetIds": [
+        "c11-s05-p128-04455-s003"
+      ],
+      "evidence": [
+        {
+          "quote": "The best, most direct evidence for this can be found in studies conducted by Jean Decety and his colleagues. They collected data on altruistic giving from six- and nine-year-old Chinese children living in Sichuan, China, in April 2008. Just one month later, on May 12, 2008, a magnitude 7.9 earthquake hit Sichuan. One month after the earthquake, the researchers collected data from a new group of six- and nine-year-olds from the same schools.",
+          "sentenceIds": [
+            "c11-s05-p128-04455-s001",
+            "c11-s05-p128-04455-s002",
+            "c11-s05-p128-04455-s003",
+            "c11-s05-p128-04455-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 128,
+              "block": 2,
+              "bbox": [
+                76.99,
+                445.5,
+                535.01,
+                655.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "00837f714f78b8182cf351d517cff9c02a72db9db319bc401210f949791cc84e"
+    },
+    {
+      "id": "q-c11-045",
+      "version": 1,
+      "readingUnitId": "c11-s05-p128-06600-r001-003",
+      "chapterId": "c11",
+      "sectionId": "c11-s05",
+      "paragraphId": "c11-s05-p128-06600",
+      "sentenceIds": [
+        "c11-s05-p128-06600-s001",
+        "c11-s05-p128-06600-s002",
+        "c11-s05-p128-06600-s003"
+      ],
+      "passage": "The experiment went like this: One child at a time was invited to a quiet room in their school, where they were greeted by a female researcher who told them they could pick ten stickers for themselves out of a hundred stickers. After the children picked their favorite ten, they were told that some of their classmates had not been selected to play this game and would not receive any stickers. However, if they wanted to donate some stickers out of the ten they had received, they could.",
+      "prompt": "What donation opportunity did each child receive?",
+      "options": [
+        "They could voluntarily give some of their chosen ten stickers.",
+        "They were required to donate all one hundred stickers.",
+        "They could donate only stickers they had not chosen.",
+        "They had to buy stickers with their own money."
+      ],
+      "answer": 0,
+      "type": "细节",
+      "promptZh": "每个孩子获什么捐赠机会？",
+      "optionsZh": [
+        "可自愿捐所选十张中的一些。",
+        "必须全捐一百张。",
+        "只能捐没选的贴纸。",
+        "须用自己的钱购买。"
+      ],
+      "analyses": [
+        "A if they wanted...out of the ten 明示自主与资源范围。",
+        "B 一百是可挑总量，十张是获得量，无强制全捐。",
+        "C out of ten they received相反。",
+        "D 由任务提供，不是付钱买。没有把自愿捐赠改成服从要求。"
+      ],
+      "evidence": [
+        {
+          "quote": "if they wanted to donate some stickers out of the ten they had received, they could.",
+          "sentenceIds": [
+            "c11-s05-p128-06600-s003"
+          ],
+          "sources": [
+            {
+              "pdfPage": 129,
+              "block": 0,
+              "bbox": [
+                76.99,
+                75,
+                535.01,
+                265.02
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "donate",
+          "meaning": "捐赠；给出以帮助他人",
+          "context": "从自己的十张中自愿给没有获选的同学",
+          "example": "The children could donate part of their stickers.",
+          "collocations": [
+            "donate some stickers",
+            "donate out of one’s own share"
+          ]
+        }
+      ],
+      "translation": "实验每次邀一名儿童到校内安静房间，由女性研究者接待，说可从一百张选十张给自己。选好最爱十张后，告知部分同学未获选玩游戏、不会得到贴纸。不过若愿意，可从获给的十张中捐一些。",
+      "support": "explicit",
+      "editorialStatus": "完整PDF126–130原页视觉核对及跨页拼接。Kobe物理修复和心理伤痕分开，调查波次与作者休假年分开，房损/失亲同时分析不作随机因果或变量全无关联。Solnit为引语/作者阐释，电视职业愿望为作者回忆。四川震前后为同校新组，as if/presumably保留，非研究者随机分配灾害；100供选/10获得/平均略逾1至约4为九岁结果，不补六岁或长期个体变化。市政申请按每职位且非实际就职，1989–2000与1995变化分开。COVID接触包括本人/家属/熟人，捐款奖金/加倍与结果分开，作者made价值解释不升级成随机感染因果或医学建议。承认长期损害，不强加受害者获益/感恩；不宣称逐句证据全覆盖。",
+      "fingerprint": "4895c22fdd7f5fb5bd449b6b920ca048c786ec919087cd4a9330f9207d8f3d90"
+    },
+    {
+      "id": "qe-c11-0078",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-050",
+      "parentQuestionId": "q-c11-045",
+      "chapterId": "c11",
+      "sectionId": "c11-s05",
+      "paragraphId": "c11-s05-p128-06600",
+      "readingUnitId": "c11-s05-p128-06600-r001-003",
+      "sentenceIds": [
+        "c11-s05-p128-06600-s001",
+        "c11-s05-p128-06600-s002",
+        "c11-s05-p128-06600-s003"
+      ],
+      "passage": "The experiment went like this: One child at a time was invited to a quiet room in their school, where they were greeted by a female researcher who told them they could pick ten stickers for themselves out of a hundred stickers. After the children picked their favorite ten, they were told that some of their classmates had not been selected to play this game and would not receive any stickers. However, if they wanted to donate some stickers out of the ten they had received, they could.",
+      "prompt": "Which arrangement matches the beginning of the sticker task?",
+      "promptZh": "哪种安排符合贴纸任务的开始？",
+      "options": [
+        "The whole class entered together and each child kept all one hundred stickers.",
+        "One child at a time entered a quiet school room and could choose ten of a hundred stickers for themselves.",
+        "The researcher selected every sticker for the child and allowed no choice.",
+        "Each child was required to give away one hundred stickers before entering the room."
+      ],
+      "optionsZh": [
+        "全班一起进入，每名儿童保留全部一百张。",
+        "每次一名儿童到校内安静房间，可从一百张中选十张给自己。",
+        "研究者为儿童选好全部贴纸，不让其选择。",
+        "每名儿童入室前必须捐出一百张。"
+      ],
+      "answer": 1,
+      "type": "研究设计",
+      "support": "explicit",
+      "analyses": [
+        "A One child at a time与全班一起不同，ten out of hundred也不是每人百张。",
+        "B 人数安排、场地、选择权和数量配对完整保留。",
+        "C told them they could pick是儿童自己选，不是研究者包办。",
+        "D 捐赠为随后可选步骤，不能前移为强制百张。"
+      ],
+      "vocabulary": [
+        {
+          "word": "One child at a time",
+          "meaning": "每次一名儿童；逐个进行",
+          "context": "说明进入安静房间的安排，不是同时把全班分派到同一桌。",
+          "example": "One child at a time was invited to take part in the task.",
+          "collocations": [
+            "One child at a time was invited",
+            "pick ten stickers for themselves"
+          ]
+        }
+      ],
+      "translation": "实验每次邀一名儿童到校内安静房间，由女性研究者接待，说可从一百张选十张给自己。选好最爱十张后，告知部分同学未获选玩游戏、不会得到贴纸。不过若愿意，可从获给的十张中捐一些。",
+      "evidenceTargetIds": [
+        "c11-s05-p128-06600-s001"
+      ],
+      "evidence": [
+        {
+          "quote": "The experiment went like this: One child at a time was invited to a quiet room in their school, where they were greeted by a female researcher who told them they could pick ten stickers for themselves out of a hundred stickers. After the children picked their favorite ten, they were told that some of their classmates had not been selected to play this game and would not receive any stickers. However, if they wanted to donate some stickers out of the ten they had received, they could.",
+          "sentenceIds": [
+            "c11-s05-p128-06600-s001",
+            "c11-s05-p128-06600-s002",
+            "c11-s05-p128-06600-s003"
+          ],
+          "sources": [
+            {
+              "pdfPage": 128,
+              "block": 3,
+              "bbox": [
+                76.99,
+                660,
+                535.01,
+                713.52
+              ]
+            },
+            {
+              "pdfPage": 129,
+              "block": 0,
+              "bbox": [
+                76.99,
+                75,
+                535.01,
+                265.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "5e81888251e15a40a968db49e468e7fcfcc12bbd20ed798984fdc5a5d6967567"
+    },
+    {
+      "id": "qe-c11-0079",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-050",
+      "parentQuestionId": "q-c11-045",
+      "chapterId": "c11",
+      "sectionId": "c11-s05",
+      "paragraphId": "c11-s05-p128-06600",
+      "readingUnitId": "c11-s05-p128-06600-r001-003",
+      "sentenceIds": [
+        "c11-s05-p128-06600-s001",
+        "c11-s05-p128-06600-s002",
+        "c11-s05-p128-06600-s003"
+      ],
+      "passage": "The experiment went like this: One child at a time was invited to a quiet room in their school, where they were greeted by a female researcher who told them they could pick ten stickers for themselves out of a hundred stickers. After the children picked their favorite ten, they were told that some of their classmates had not been selected to play this game and would not receive any stickers. However, if they wanted to donate some stickers out of the ten they had received, they could.",
+      "prompt": "What information were children given after choosing their favourite ten stickers?",
+      "promptZh": "选好最爱十张贴纸后，儿童被告知什么？",
+      "options": [
+        "Some classmates had not been selected for the game and would receive no stickers.",
+        "All classmates had already received a hundred stickers each.",
+        "The unselected classmates had refused every offer of help.",
+        "The children were required to return all ten stickers because they had chosen incorrectly."
+      ],
+      "optionsZh": [
+        "有些同学未获选参加游戏，将得不到贴纸。",
+        "所有同学已各获一百张。",
+        "未获选的同学拒绝过一切帮助。",
+        "他们选错了，所以必须交回全部十张。"
+      ],
+      "answer": 0,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A after...told that后的信息准确对应。",
+        "B some未选且would not receive，非全员已获百张。",
+        "C 未被选不代表拒绝帮助，更非道德评判。",
+        "D favorite ten是自己的选择，原文没有选错惩罚或强制全部收回。"
+      ],
+      "vocabulary": [
+        {
+          "word": "selected",
+          "meaning": "被选中；获得参加资格",
+          "context": "此处是否被选玩游戏，不说明同学是否值得帮助或是否拒绝帮助。",
+          "example": "Some classmates had not been selected to play the game.",
+          "collocations": [
+            "had not been selected",
+            "would not receive any stickers"
+          ]
+        }
+      ],
+      "translation": "实验每次邀一名儿童到校内安静房间，由女性研究者接待，说可从一百张选十张给自己。选好最爱十张后，告知部分同学未获选玩游戏、不会得到贴纸。不过若愿意，可从获给的十张中捐一些。",
+      "evidenceTargetIds": [
+        "c11-s05-p128-06600-s002"
+      ],
+      "evidence": [
+        {
+          "quote": "The experiment went like this: One child at a time was invited to a quiet room in their school, where they were greeted by a female researcher who told them they could pick ten stickers for themselves out of a hundred stickers. After the children picked their favorite ten, they were told that some of their classmates had not been selected to play this game and would not receive any stickers. However, if they wanted to donate some stickers out of the ten they had received, they could.",
+          "sentenceIds": [
+            "c11-s05-p128-06600-s001",
+            "c11-s05-p128-06600-s002",
+            "c11-s05-p128-06600-s003"
+          ],
+          "sources": [
+            {
+              "pdfPage": 128,
+              "block": 3,
+              "bbox": [
+                76.99,
+                660,
+                535.01,
+                713.52
+              ]
+            },
+            {
+              "pdfPage": 129,
+              "block": 0,
+              "bbox": [
+                76.99,
+                75,
+                535.01,
+                265.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "bfe8d4079ca1d54176f281b02a472b8a01eacd0d2675a82b3bca42a37b84fab9"
+    },
+    {
+      "id": "qe-c11-0080",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-050",
+      "parentQuestionId": "q-c11-046",
+      "chapterId": "c11",
+      "sectionId": "c11-s05",
+      "paragraphId": "c11-s05-p128-06600",
+      "readingUnitId": "c11-s05-p128-06600-r004-007",
+      "sentenceIds": [
+        "c11-s05-p128-06600-s004",
+        "c11-s05-p128-06600-s005",
+        "c11-s05-p128-06600-s006",
+        "c11-s05-p128-06600-s007"
+      ],
+      "passage": "They were given an empty envelope for any stickers they wanted to donate to an anonymous classmate. After the session was over, the researcher counted how many stickers each child donated as a behavioral measure of altruistic giving. Before the earthquake, nine-year-olds gave, on average, slightly more than one out of the ten stickers. One month after the earthquake, nine-year-olds gave, on average, about four out of the ten stickers.",
+      "prompt": "What were the empty envelopes intended for?",
+      "promptZh": "空信封用于什么？",
+      "options": [
+        "Returning every sticker to the researcher as a compulsory fee.",
+        "Giving ten additional stickers to every participant before the task.",
+        "Writing the recipient's full name so the donor could receive public credit.",
+        "Holding any stickers a child chose to donate to an anonymous classmate."
+      ],
+      "optionsZh": [
+        "强制把全部贴纸还给研究者作为费用。",
+        "任务前给每名参与者再加十张贴纸。",
+        "写收件人全名，让捐赠者获得公开表扬。",
+        "装儿童自愿捐给一名匿名同学的贴纸。"
+      ],
+      "answer": 3,
+      "type": "研究设计",
+      "support": "explicit",
+      "analyses": [
+        "A any...wanted to donate表示自愿份额，非必交费用。",
+        "B 信封为装捐出贴纸，不是新增奖励来源。",
+        "C anonymous不指定同学姓名，文中也没说公开奖励捐者。",
+        "D 物品用途、自愿性与受益同学的匿名性都保留；不把匿名受益者误成必须认识的指定朋友。"
+      ],
+      "vocabulary": [
+        {
+          "word": "anonymous",
+          "meaning": "匿名的；身份不指明的",
+          "context": "修饰classmate，说明受益者不具体指名，不是同学不存在。",
+          "example": "The donation was intended for an anonymous classmate.",
+          "collocations": [
+            "an anonymous classmate",
+            "an empty envelope"
+          ]
+        }
+      ],
+      "translation": "他们拿空信封，装想捐给一名匿名同学的贴纸。结束后，研究者数捐出数量，作为利他给予的行为测量。震前九岁儿童平均捐十张中略多于一张；震后一月平均约四张。",
+      "evidenceTargetIds": [
+        "c11-s05-p128-06600-s004"
+      ],
+      "evidence": [
+        {
+          "quote": "They were given an empty envelope for any stickers they wanted to donate to an anonymous classmate.",
+          "sentenceIds": [
+            "c11-s05-p128-06600-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 129,
+              "block": 0,
+              "bbox": [
+                76.99,
+                75,
+                535.01,
+                265.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "5d20e7a80803761f95adbff27770afe4e3ba715dcaf52e1ffa179adc48581a97"
+    }
+  ]
+}
