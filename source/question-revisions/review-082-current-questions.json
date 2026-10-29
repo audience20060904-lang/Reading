@@ -1,0 +1,1725 @@
+{
+  "schemaVersion": 1,
+  "batchId": "question-review-2026-10-28-082",
+  "sourceCommit": "b9ae0e13ca8a83070888a9c29dd132fb17d76aa5",
+  "pdfSha256": "be25c859f1bd894a4b0d1cff024ded1297f6a96a8e8ddabea1e3abcf89160a50",
+  "frozenAt": "2026-10-29T13:59:28.656Z",
+  "questions": [
+    {
+      "id": "q-c09-052",
+      "version": 1,
+      "readingUnitId": "c09-s04-p096-06210-r004-006",
+      "chapterId": "c09",
+      "sectionId": "c09-s04",
+      "paragraphId": "c09-s04-p096-06210",
+      "sentenceIds": [
+        "c09-s04-p096-06210-s004",
+        "c09-s04-p096-06210-s005",
+        "c09-s04-p096-06210-s006"
+      ],
+      "passage": "For instance, early romance readers tended to hold a more simplistic view of the world: Joe is a jerk, Jill is an angel, baseball is a bore, opera is for old people, and so on. In contrast, those who grew up reading a lot of literary fiction were less likely to essentialize and more likely to think that Joe could be a jerk to some but also sweet and generous to homeless people, for example. Third, these findings were replicated using other measures, such as the essentialism scale.",
+      "prompt": "What contrast does the example of Joe illustrate?",
+      "options": [
+        "A single fixed label versus recognizing behavior may vary across relationships.",
+        "Proof that Joe is a real participant who always behaves identically.",
+        "Evidence that every romance reader dislikes both sport and opera.",
+        "The claim that no one can ever act generously."
+      ],
+      "answer": 0,
+      "type": "逻辑关系",
+      "promptZh": "Joe 的例子说明什么对比？",
+      "optionsZh": [
+        "单一固定标签，与认识行为可随关系而不同。",
+        "证明 Joe 是实际参与者且总行为一致。",
+        "证明每位言情读者都讨厌运动和歌剧。",
+        "没人能慷慨的主张。"
+      ],
+      "analyses": [
+        "A jerk 对照对某些人不好却能对无家者慷慨，展示非单一本质化。",
+        "B for example 是说明性人物，不能当真实追踪对象。",
+        "C tended 和例子均不能扩大到每位读者；opera is for old people 也非同义于讨厌。",
+        "D sweet and generous 直接允许慷慨。其他量表复现不等于已证明阅读造成变化。"
+      ],
+      "evidence": [
+        {
+          "quote": "Joe could be a jerk to some but also sweet and generous to homeless people",
+          "sentenceIds": [
+            "c09-s04-p096-06210-s005"
+          ],
+          "sources": [
+            {
+              "pdfPage": 97,
+              "block": 0,
+              "bbox": [
+                76.99,
+                75,
+                535.01,
+                304.02
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "essentialize",
+          "meaning": "本质化；用固定本质概括",
+          "context": "把人或事简化成单一不变标签，与考虑多种情境原因对照",
+          "example": "We should avoid essentializing people from a single action.",
+          "collocations": [
+            "essentialize a person",
+            "less likely to essentialize"
+          ]
+        }
+      ],
+      "translation": "例如，早期言情读者往往持较简化世界观：Joe 是讨厌鬼，Jill 是天使，棒球无聊，歌剧给老人看，等等。相反，童年读很多文学小说的人较不本质化，更可能想到 Joe 对某些人很差，却也可能对无家者友善慷慨。第三，这些发现用其他指标，如本质主义量表，也得到复现。",
+      "support": "explicit",
+      "editorialStatus": "PDF第93–97页原页核对；哲学和人物引述、个人反应、实验评分与回顾调查分别归属；maybe和相关限制保留，不扩大因果或群体标签",
+      "fingerprint": "14fdffe8c20bc5d194628bbd660ef4209437d6e30452699e32fb38ca582aff26"
+    },
+    {
+      "id": "qe-c09-0103",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-036",
+      "parentQuestionId": "q-c09-052",
+      "chapterId": "c09",
+      "sectionId": "c09-s04",
+      "paragraphId": "c09-s04-p096-06210",
+      "readingUnitId": "c09-s04-p096-06210-r004-006",
+      "sentenceIds": [
+        "c09-s04-p096-06210-s004",
+        "c09-s04-p096-06210-s005",
+        "c09-s04-p096-06210-s006"
+      ],
+      "passage": "For instance, early romance readers tended to hold a more simplistic view of the world: Joe is a jerk, Jill is an angel, baseball is a bore, opera is for old people, and so on. In contrast, those who grew up reading a lot of literary fiction were less likely to essentialize and more likely to think that Joe could be a jerk to some but also sweet and generous to homeless people, for example. Third, these findings were replicated using other measures, such as the essentialism scale.",
+      "prompt": "What do the Joe, Jill, baseball, and opera examples illustrate?",
+      "promptZh": "Joe、Jill、棒球与歌剧的例子说明什么？",
+      "options": [
+        "The researchers' verified moral judgements about four actual participants.",
+        "A detailed account of several competing reasons for every person's behaviour.",
+        "The simplified, fixed-label outlook used to illustrate the tendency being discussed.",
+        "A rule that every reader must dislike baseball and avoid opera."
+      ],
+      "optionsZh": [
+        "研究者对四位真实参与者已核实的道德评价。",
+        "对每个人行为多种竞争原因的详细解释。",
+        "用来说明所述倾向的简化、固定贴标签视角。",
+        "每位读者必须讨厌棒球、避开歌剧的规则。"
+      ],
+      "answer": 2,
+      "type": "作者意图",
+      "support": "explicit",
+      "analyses": [
+        "A For instance 是示例，不是这几位真实受试者的人格认证。",
+        "B jerk、angel、bore 等固定标签展示 simplistic，非细致多因解释。",
+        "C 举例把 more simplistic view 具体化；tended 保留倾向，不能扩大全部言情读者。",
+        "D 观点例子不是作者命令或对读者偏好的真实记录，也不能当体裁导致本质化的证明。"
+      ],
+      "vocabulary": [
+        {
+          "word": "simplistic",
+          "meaning": "过度简单化的；忽略复杂性的",
+          "context": "不同于仅仅清晰或简洁，当前用固定标签说明忽略情境。",
+          "example": "The essay rejected a simplistic explanation of the character's choice.",
+          "collocations": [
+            "a more simplistic view of the world",
+            "tended to hold a view"
+          ]
+        }
+      ],
+      "translation": "例如，早期言情读者往往持较简化世界观：Joe 是讨厌鬼，Jill 是天使，棒球无聊，歌剧给老人看，等等。相反，童年读很多文学小说的人较不本质化，更可能想到 Joe 对某些人很差，却也可能对无家者友善慷慨。第三，这些发现用其他指标，如本质主义量表，也得到复现。",
+      "evidenceTargetIds": [
+        "c09-s04-p096-06210-s004"
+      ],
+      "evidence": [
+        {
+          "quote": "For instance, early romance readers tended to hold a more simplistic view of the world: Joe is a jerk, Jill is an angel, baseball is a bore, opera is for old people, and so on.",
+          "sentenceIds": [
+            "c09-s04-p096-06210-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 97,
+              "block": 0,
+              "bbox": [
+                76.99,
+                75,
+                535.01,
+                304.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "c7df70cf9b878f18f8083beed6d6786aecf851a6b3cc804adb2d9a53c50f7bd6"
+    },
+    {
+      "id": "qe-c09-0104",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-037",
+      "parentQuestionId": "q-c09-052",
+      "chapterId": "c09",
+      "sectionId": "c09-s04",
+      "paragraphId": "c09-s04-p096-06210",
+      "readingUnitId": "c09-s04-p096-06210-r004-006",
+      "sentenceIds": [
+        "c09-s04-p096-06210-s004",
+        "c09-s04-p096-06210-s005",
+        "c09-s04-p096-06210-s006"
+      ],
+      "passage": "For instance, early romance readers tended to hold a more simplistic view of the world: Joe is a jerk, Jill is an angel, baseball is a bore, opera is for old people, and so on. In contrast, those who grew up reading a lot of literary fiction were less likely to essentialize and more likely to think that Joe could be a jerk to some but also sweet and generous to homeless people, for example. Third, these findings were replicated using other measures, such as the essentialism scale.",
+      "prompt": "What does the passage say was replicated using other measures?",
+      "promptZh": "片段说用其他指标复现了什么？",
+      "options": [
+        "The findings about reading histories and the described cognitive tendencies.",
+        "The exact wording of every novel participants had read.",
+        "A causal effect proved by assigning childhood reading at random.",
+        "The claim that one essentialism item was the only measure used."
+      ],
+      "optionsZh": [
+        "关于阅读经历与所述认知倾向的发现。",
+        "参与者所读每本小说的精确措辞。",
+        "通过随机分派童年阅读已证实的因果效应。",
+        "只用一个本质主义题目的说法。"
+      ],
+      "answer": 0,
+      "type": "研究逻辑",
+      "support": "explicit",
+      "analyses": [
+        "A these findings 回指前述体裁与认知倾向，other measures 如 essentialism scale 是换测量角度的支持。",
+        "B 复现结果不是复制小说文本。",
+        "C 当前为相关调查，不能补入随机童年分派或因果证明。",
+        "D other measures、such as 都表不限一种，不是只有一题，也不据此断言一定换了一批独立参与者。"
+      ],
+      "vocabulary": [
+        {
+          "word": "replicated",
+          "meaning": "复现；以其他测量再次得到相应结果",
+          "context": "此处明确 using other measures，不自动表示随机实验或新样本独立因果复现。",
+          "example": "The pattern was replicated using a second questionnaire.",
+          "collocations": [
+            "replicated using other measures",
+            "the essentialism scale"
+          ]
+        }
+      ],
+      "translation": "例如，早期言情读者往往持较简化世界观：Joe 是讨厌鬼，Jill 是天使，棒球无聊，歌剧给老人看，等等。相反，童年读很多文学小说的人较不本质化，更可能想到 Joe 对某些人很差，却也可能对无家者友善慷慨。第三，这些发现用其他指标，如本质主义量表，也得到复现。",
+      "evidenceTargetIds": [
+        "c09-s04-p096-06210-s006"
+      ],
+      "evidence": [
+        {
+          "quote": "For instance, early romance readers tended to hold a more simplistic view of the world: Joe is a jerk, Jill is an angel, baseball is a bore, opera is for old people, and so on. In contrast, those who grew up reading a lot of literary fiction were less likely to essentialize and more likely to think that Joe could be a jerk to some but also sweet and generous to homeless people, for example. Third, these findings were replicated using other measures, such as the essentialism scale.",
+          "sentenceIds": [
+            "c09-s04-p096-06210-s004",
+            "c09-s04-p096-06210-s005",
+            "c09-s04-p096-06210-s006"
+          ],
+          "sources": [
+            {
+              "pdfPage": 97,
+              "block": 0,
+              "bbox": [
+                76.99,
+                75,
+                535.01,
+                304.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "f8e6ceb6302f005651ffbd663820b130f0ace50fad97a42125502b456979c76d"
+    },
+    {
+      "id": "q-c09-054",
+      "version": 1,
+      "readingUnitId": "c09-s04-p097-03090-r001-002",
+      "chapterId": "c09",
+      "sectionId": "c09-s04",
+      "paragraphId": "c09-s04-p097-03090",
+      "sentenceIds": [
+        "c09-s04-p097-03090-s001",
+        "c09-s04-p097-03090-s002"
+      ],
+      "passage": "In the end, we found empirical support for Lionel Trilling’s main thesis in his 1950 book The Liberal Imagination: “Literature is the human activity that takes the fullest and most precise account of variousness, possibilities, complexity, and difficulty.” Our studies were correlational, so the causal role of reading literature needs to be tested in the future.",
+      "prompt": "What limitation accompanies the empirical support for Trilling’s thesis?",
+      "options": [
+        "The studies measured only historical book prices.",
+        "No relationship was observed at all.",
+        "Reading was experimentally proved to cause all reported differences.",
+        "The studies were correlational, leaving causality for future tests."
+      ],
+      "answer": 3,
+      "type": "逻辑关系",
+      "promptZh": "对 Trilling 论点的实证支持附带什么限制？",
+      "optionsZh": [
+        "研究只测历史书价。",
+        "完全没发现关系。",
+        "实验已证明阅读造成全部差异。",
+        "研究是相关性的，因果仍需未来检验。"
+      ],
+      "analyses": [
+        "A 没有书价测量。",
+        "B empirical support 不等于没关联。",
+        "C correlational 明确排除此处的因果证明。",
+        "D 最后一句直接给出限制。哲学文学论点获部分数据支持，也不使其每句话成为实验定律。"
+      ],
+      "evidence": [
+        {
+          "quote": "Our studies were correlational, so the causal role of reading literature needs to be tested in the future.",
+          "sentenceIds": [
+            "c09-s04-p097-03090-s002"
+          ],
+          "sources": [
+            {
+              "pdfPage": 97,
+              "block": 1,
+              "bbox": [
+                76.99,
+                309,
+                535.01,
+                479.52
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "correlational",
+          "meaning": "相关性的",
+          "context": "观察变量之间联系，未据此确立阅读的因果作用",
+          "example": "A correlational study can identify a link without proving its cause.",
+          "collocations": [
+            "correlational studies",
+            "a correlational finding"
+          ]
+        }
+      ],
+      "translation": "最终，我们找到了支持 Lionel Trilling 在 1950 年 The Liberal Imagination 中主要论点的实证证据：“文学是最充分、最精确考虑多样性、可能性、复杂性与困难的人类活动。”我们的研究是相关性的，所以阅读文学的因果作用仍需未来检验。",
+      "support": "explicit",
+      "editorialStatus": "PDF第93–97页原页核对；哲学和人物引述、个人反应、实验评分与回顾调查分别归属；maybe和相关限制保留，不扩大因果或群体标签",
+      "fingerprint": "f5c07ba3c9296058d194df9eea829e9b6ae168013cb54c12b1e37af1130d2385"
+    },
+    {
+      "id": "qe-c09-0105",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-037",
+      "parentQuestionId": "q-c09-054",
+      "chapterId": "c09",
+      "sectionId": "c09-s04",
+      "paragraphId": "c09-s04-p097-03090",
+      "readingUnitId": "c09-s04-p097-03090-r001-002",
+      "sentenceIds": [
+        "c09-s04-p097-03090-s001",
+        "c09-s04-p097-03090-s002"
+      ],
+      "passage": "In the end, we found empirical support for Lionel Trilling’s main thesis in his 1950 book The Liberal Imagination: “Literature is the human activity that takes the fullest and most precise account of variousness, possibilities, complexity, and difficulty.” Our studies were correlational, so the causal role of reading literature needs to be tested in the future.",
+      "prompt": "How is the empirical support for Trilling's thesis qualified in this passage?",
+      "promptZh": "片段如何限定对 Trilling 论点的实证支持？",
+      "options": [
+        "It proves every reader's causal response to every novel.",
+        "It removes the need for any future investigation.",
+        "It supports the view about literature while the studies remain correlational and causality still needs testing.",
+        "It shows Trilling personally conducted the author's modern survey."
+      ],
+      "optionsZh": [
+        "证明每位读者对每本小说的因果反应。",
+        "消除所有未来研究需要。",
+        "支持有关文学的观点，但研究仍是相关性的，因果尚需检验。",
+        "表明 Trilling 亲自实施作者的现代调查。"
+      ],
+      "answer": 2,
+      "type": "语气与范围",
+      "support": "explicit",
+      "analyses": [
+        "A empirical support 不能删除后一整句 correlational 限制。",
+        "B needs to be tested in the future 明说仍需研究。",
+        "C 保留对论点的支持与证据边界，不把哲学引文当实验数据。",
+        "D 1950 是书的资料，不是此项调查由 Trilling 实施的证据。"
+      ],
+      "vocabulary": [
+        {
+          "word": "correlational",
+          "meaning": "相关性的；研究变量间联系的",
+          "context": "区别于足以确立阅读导致认知变化的因果实验。",
+          "example": "The authors described the survey as correlational rather than causal.",
+          "collocations": [
+            "Our studies were correlational",
+            "the causal role needs to be tested"
+          ]
+        }
+      ],
+      "translation": "最终，我们找到了支持 Lionel Trilling 在 1950 年 The Liberal Imagination 中主要论点的实证证据：“文学是最充分、最精确考虑多样性、可能性、复杂性与困难的人类活动。”我们的研究是相关性的，所以阅读文学的因果作用仍需未来检验。",
+      "evidenceTargetIds": [
+        "c09-s04-p097-03090-s001"
+      ],
+      "evidence": [
+        {
+          "quote": "In the end, we found empirical support for Lionel Trilling’s main thesis in his 1950 book The Liberal Imagination: “Literature is the human activity that takes the fullest and most precise account of variousness, possibilities, complexity, and difficulty.” Our studies were correlational, so the causal role of reading literature needs to be tested in the future.",
+          "sentenceIds": [
+            "c09-s04-p097-03090-s001",
+            "c09-s04-p097-03090-s002"
+          ],
+          "sources": [
+            {
+              "pdfPage": 97,
+              "block": 1,
+              "bbox": [
+                76.99,
+                309,
+                535.01,
+                479.52
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "8e5968c8bfd2bfbfe73c61ec2e00fcbee922d7ff158d23e670ee5b8a9583db70"
+    },
+    {
+      "id": "q-c09-056",
+      "version": 1,
+      "readingUnitId": "c09-s04-p097-04845-r001-002",
+      "chapterId": "c09",
+      "sectionId": "c09-s04",
+      "paragraphId": "c09-s04-p097-04845",
+      "sentenceIds": [
+        "c09-s04-p097-04845-s001",
+        "c09-s04-p097-04845-s002"
+      ],
+      "passage": "I have repeatedly argued that a perspective change is a key to a psychologically rich experience, though so far I have not provided empirical evidence for this claim. In a series of experiments, Jordan Axt, Hyewon Choi, and I tested whether a figure with multiple views, like a figure-ground drawing, would be more visually rich than a figure with one view.",
+      "prompt": "What question is introduced for the new series of experiments?",
+      "options": [
+        "Whether a multiple-view figure would be visually richer than a single-view figure.",
+        "Whether the earlier correlational survey had already proved causality.",
+        "Whether every painting has exactly the same complexity.",
+        "Whether perspective change has already been empirically confirmed in all contexts."
+      ],
+      "answer": 0,
+      "type": "作者意图",
+      "promptZh": "新一系列实验引入什么问题？",
+      "optionsZh": [
+        "多视角图是否比单视角图在视觉上更丰富。",
+        "此前相关调查是否已证明因果。",
+        "每幅画是否复杂度完全相同。",
+        "视角改变是否已在所有场景实证确认。"
+      ],
+      "analyses": [
+        "A tested whether 后明示 multiple views 与 one view 的比较。",
+        "B 本段转换到视觉实验，不是宣布先前调查因果成立。",
+        "C 比较视图数量，不是所有画相同。",
+        "D so far...not provided empirical evidence 明确承认此前未给证据。本片段只提出检验，未报告结果，不提前把后文答案写入当前证据。"
+      ],
+      "evidence": [
+        {
+          "quote": "tested whether a figure with multiple views, like a figure-ground drawing, would be more visually rich than a figure with one view.",
+          "sentenceIds": [
+            "c09-s04-p097-04845-s002"
+          ],
+          "sources": [
+            {
+              "pdfPage": 97,
+              "block": 2,
+              "bbox": [
+                76.99,
+                484.5,
+                535.01,
+                577.02
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "figure-ground",
+          "meaning": "图形与背景的；图底关系的",
+          "context": "可通过图形和背景的切换产生不同视图，是比较例子",
+          "example": "The figure-ground drawing could be interpreted in two ways.",
+          "collocations": [
+            "a figure-ground drawing",
+            "figure-ground perception"
+          ]
+        }
+      ],
+      "translation": "我反复主张，视角改变是心理丰富体验的关键，但到此为止尚未为该主张提供实证证据。在一系列实验中，Jordan Axt、Hyewon Choi 和我检验：像图底关系图那样有多个视角的图形，是否比只有一个视角的图形在视觉上更丰富。",
+      "support": "explicit",
+      "editorialStatus": "PDF第93–97页原页核对；哲学和人物引述、个人反应、实验评分与回顾调查分别归属；maybe和相关限制保留，不扩大因果或群体标签",
+      "fingerprint": "0b1b20cd1d6d2d09044d2233184d599a978b5bce99f93ba5c86f84a4af7ed36e"
+    },
+    {
+      "id": "qe-c09-0106",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-037",
+      "parentQuestionId": "q-c09-056",
+      "chapterId": "c09",
+      "sectionId": "c09-s04",
+      "paragraphId": "c09-s04-p097-04845",
+      "readingUnitId": "c09-s04-p097-04845-r001-002",
+      "sentenceIds": [
+        "c09-s04-p097-04845-s001",
+        "c09-s04-p097-04845-s002"
+      ],
+      "passage": "I have repeatedly argued that a perspective change is a key to a psychologically rich experience, though so far I have not provided empirical evidence for this claim. In a series of experiments, Jordan Axt, Hyewon Choi, and I tested whether a figure with multiple views, like a figure-ground drawing, would be more visually rich than a figure with one view.",
+      "prompt": "What does the author concede before introducing the perspective-change experiments?",
+      "promptZh": "引入视角改变实验前，作者承认什么？",
+      "options": [
+        "He has never argued for a link between perspective and richness.",
+        "Up to this point, he has argued the link without yet supplying empirical evidence for that claim.",
+        "All later experiments have already failed before being described.",
+        "A figure with one view has already been proved richer than every multi-view figure."
+      ],
+      "optionsZh": [
+        "从未主张视角与丰富性的联系。",
+        "到此为止主张过该联系，但尚未提供这项主张的实证证据。",
+        "尚未介绍便已知所有后续实验失败。",
+        "单视图已证明比每种多视图更丰富。"
+      ],
+      "answer": 1,
+      "type": "研究逻辑",
+      "support": "explicit",
+      "analyses": [
+        "A repeatedly argued 明说多次主张。",
+        "B though so far I have not provided... 对此前证据缺口作让步，接着才说明检验。",
+        "C 尚待介绍的结果不能凭空判失败。",
+        "D tested whether 是研究问题，不是反方向已证结论；so far 有叙事时点限制。"
+      ],
+      "vocabulary": [
+        {
+          "word": "so far",
+          "meaning": "到目前这个叙述节点为止",
+          "context": "不等于永远没有证据，后文正引入实验。",
+          "example": "So far, the chapter has introduced the question but not the results.",
+          "collocations": [
+            "so far I have not provided",
+            "empirical evidence for this claim"
+          ]
+        }
+      ],
+      "translation": "我反复主张，视角改变是心理丰富体验的关键，但到此为止尚未为该主张提供实证证据。在一系列实验中，Jordan Axt、Hyewon Choi 和我检验：像图底关系图那样有多个视角的图形，是否比只有一个视角的图形在视觉上更丰富。",
+      "evidenceTargetIds": [
+        "c09-s04-p097-04845-s001"
+      ],
+      "evidence": [
+        {
+          "quote": "I have repeatedly argued that a perspective change is a key to a psychologically rich experience, though so far I have not provided empirical evidence for this claim. In a series of experiments, Jordan Axt, Hyewon Choi, and I tested whether a figure with multiple views, like a figure-ground drawing, would be more visually rich than a figure with one view.",
+          "sentenceIds": [
+            "c09-s04-p097-04845-s001",
+            "c09-s04-p097-04845-s002"
+          ],
+          "sources": [
+            {
+              "pdfPage": 97,
+              "block": 2,
+              "bbox": [
+                76.99,
+                484.5,
+                535.01,
+                577.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "e15c48b25936e6eaa80d13656404a4d315872198252e7e580bc0d15f8f3a086f"
+    },
+    {
+      "id": "q-c09-057",
+      "version": 1,
+      "readingUnitId": "c09-s04-p098-04042-r001-004",
+      "chapterId": "c09",
+      "sectionId": "c09-s04",
+      "paragraphId": "c09-s04-p098-04042",
+      "sentenceIds": [
+        "c09-s04-p098-04042-s001",
+        "c09-s04-p098-04042-s002",
+        "c09-s04-p098-04042-s003",
+        "c09-s04-p098-04042-s004"
+      ],
+      "passage": "Look at Noma Bar’s drawing of a skinny, tall glass filled with beer (Figure 2, above). The foam on top is shaped so that, when viewed a certain way, it looks like a face. In one experiment, we showed this image on screen and asked participants a question: “What do you see?” After they wrote their answer, they moved on to another page with a new question: “Now, what else do you see?”",
+      "prompt": "What did participants do after answering the first question about the drawing?",
+      "options": [
+        "They received an explanation of the correct interpretation.",
+        "They immediately rated their happiness without seeing another question.",
+        "They drew a different beer glass from memory.",
+        "They moved to another page asking what else they could see."
+      ],
+      "answer": 3,
+      "type": "细节",
+      "promptZh": "回答关于画的第一个问题后，参与者做了什么？",
+      "optionsZh": [
+        "得到正确解释的说明。",
+        "不再看其他问题，立即评幸福。",
+        "凭记忆另画一杯啤酒。",
+        "到另一页回答还能看见什么。"
+      ],
+      "analyses": [
+        "A 没有先给正确解读的步骤。",
+        "B moved on...new question 明示还有新问题；心情评价并非此时已给结果。",
+        "C wrote their answer 是写回答，不是重画。",
+        "D After...another page...Now, what else do you see 按序对应。本题依靠文字程序，不要求识别未在此片段显示的图像。"
+      ],
+      "evidence": [
+        {
+          "quote": "After they wrote their answer, they moved on to another page with a new question: “Now, what else do you see?”",
+          "sentenceIds": [
+            "c09-s04-p098-04042-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 98,
+              "block": 1,
+              "bbox": [
+                76.99,
+                404.25,
+                535.01,
+                555.27
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "foam",
+          "meaning": "泡沫",
+          "context": "啤酒杯顶端泡沫的形状可形成另一种观看方式",
+          "example": "Foam covered the top of the drink.",
+          "collocations": [
+            "foam on top",
+            "a layer of foam"
+          ]
+        }
+      ],
+      "translation": "看 Noma Bar 画的装满啤酒的细长杯子，即上方图2。顶部泡沫的形状，从某个角度看像张脸。一项实验中，我们在屏幕显示图像，问参与者：“你看见什么？”他们写完答案，进入另一页回答新问题：“现在，你还看见什么？”",
+      "support": "explicit",
+      "editorialStatus": "PDF第98–102页原页核对；视觉丰富与心情分开，perhaps不改已测，体育为原书历史叙事，Proust是文学引述；题目文字证据独立于图像识别，保留所有旧题和原句",
+      "fingerprint": "af540728d5dd390561a6bebee1cae6d7d721cbaef913a35b29781851fcdcb95f"
+    },
+    {
+      "id": "qe-c09-0107",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-037",
+      "parentQuestionId": "q-c09-057",
+      "chapterId": "c09",
+      "sectionId": "c09-s04",
+      "paragraphId": "c09-s04-p098-04042",
+      "readingUnitId": "c09-s04-p098-04042-r001-004",
+      "sentenceIds": [
+        "c09-s04-p098-04042-s001",
+        "c09-s04-p098-04042-s002",
+        "c09-s04-p098-04042-s003",
+        "c09-s04-p098-04042-s004"
+      ],
+      "passage": "Look at Noma Bar’s drawing of a skinny, tall glass filled with beer (Figure 2, above). The foam on top is shaped so that, when viewed a certain way, it looks like a face. In one experiment, we showed this image on screen and asked participants a question: “What do you see?” After they wrote their answer, they moved on to another page with a new question: “Now, what else do you see?”",
+      "prompt": "What is the initial object described in Noma Bar's drawing?",
+      "promptZh": "原文首先怎样描述 Noma Bar 图中的物体？",
+      "options": [
+        "A wide bowl filled with water and floating leaves.",
+        "A portrait in which no drinking vessel is mentioned.",
+        "A symmetrical geometric pattern containing no foam.",
+        "A skinny, tall glass filled with beer."
+      ],
+      "optionsZh": [
+        "装水与漂浮树叶的宽碗。",
+        "完全没提饮用容器的肖像。",
+        "没有泡沫的对称几何图案。",
+        "一只装满啤酒的细长高杯。"
+      ],
+      "answer": 3,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A 容器形状与内容都错配。",
+        "B 后面可看成脸，不抹掉首先描述的杯子。",
+        "C 不是前面几何图实验的材料。",
+        "D skinny,tall glass filled with beer 原文明示，可仅凭文字回答，不要求网页展示原图。"
+      ],
+      "vocabulary": [
+        {
+          "word": "skinny",
+          "meaning": "细瘦的；细长的",
+          "context": "修饰杯子形状，不是形容参与者的身体或产品低热量。",
+          "example": "The illustration showed a skinny glass beside a wide jug.",
+          "collocations": [
+            "a skinny, tall glass",
+            "filled with beer"
+          ]
+        }
+      ],
+      "translation": "看 Noma Bar 画的装满啤酒的细长杯子，即上方图2。顶部泡沫的形状，从某个角度看像张脸。一项实验中，我们在屏幕显示图像，问参与者：“你看见什么？”他们写完答案，进入另一页回答新问题：“现在，你还看见什么？”",
+      "evidenceTargetIds": [
+        "c09-s04-p098-04042-s001"
+      ],
+      "evidence": [
+        {
+          "quote": "Look at Noma Bar’s drawing of a skinny, tall glass filled with beer (Figure 2, above). The foam on top is shaped so that, when viewed a certain way, it looks like a face. In one experiment, we showed this image on screen and asked participants a question: “What do you see?” After they wrote their answer, they moved on to another page with a new question: “Now, what else do you see?”",
+          "sentenceIds": [
+            "c09-s04-p098-04042-s001",
+            "c09-s04-p098-04042-s002",
+            "c09-s04-p098-04042-s003",
+            "c09-s04-p098-04042-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 98,
+              "block": 1,
+              "bbox": [
+                76.99,
+                404.25,
+                535.01,
+                555.27
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "262c0cf0319c70790f596b67fbdb9a8f3985aad15e4a5754ddd00ebe84cfde6a"
+    },
+    {
+      "id": "qe-c09-0108",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-037",
+      "parentQuestionId": "q-c09-057",
+      "chapterId": "c09",
+      "sectionId": "c09-s04",
+      "paragraphId": "c09-s04-p098-04042",
+      "readingUnitId": "c09-s04-p098-04042-r001-004",
+      "sentenceIds": [
+        "c09-s04-p098-04042-s001",
+        "c09-s04-p098-04042-s002",
+        "c09-s04-p098-04042-s003",
+        "c09-s04-p098-04042-s004"
+      ],
+      "passage": "Look at Noma Bar’s drawing of a skinny, tall glass filled with beer (Figure 2, above). The foam on top is shaped so that, when viewed a certain way, it looks like a face. In one experiment, we showed this image on screen and asked participants a question: “What do you see?” After they wrote their answer, they moved on to another page with a new question: “Now, what else do you see?”",
+      "prompt": "Under what condition can the foam look like a face?",
+      "promptZh": "泡沫在什么条件下能看起来像脸？",
+      "options": [
+        "When the image is viewed in a certain way.",
+        "Only after the researchers replace the glass with a real person.",
+        "Only if the beer is physically removed from the glass.",
+        "When the viewer is guaranteed never to shift perspective."
+      ],
+      "optionsZh": [
+        "以某种方式观看图像时。",
+        "只有研究者把杯换成真人后。",
+        "只有实际移去杯中啤酒后。",
+        "保证观看者绝不改变视角时。"
+      ],
+      "answer": 0,
+      "type": "逻辑关系",
+      "support": "explicit",
+      "analyses": [
+        "A when viewed a certain way 限定知觉方式，shape 允许同图不同解读。",
+        "B looks like 不是变成真实的人。",
+        "C 该句并未要求移走饮料。",
+        "D 与特定观看方式的条件相反，不把某种可能知觉当人人必见。"
+      ],
+      "vocabulary": [
+        {
+          "word": "looks like",
+          "meaning": "看起来像；在形态上类似",
+          "context": "表示图像可被知觉为脸，不宣称泡沫实际是人脸。",
+          "example": "From one angle, the shadow looks like a bird.",
+          "collocations": [
+            "it looks like a face",
+            "when viewed a certain way"
+          ]
+        }
+      ],
+      "translation": "看 Noma Bar 画的装满啤酒的细长杯子，即上方图2。顶部泡沫的形状，从某个角度看像张脸。一项实验中，我们在屏幕显示图像，问参与者：“你看见什么？”他们写完答案，进入另一页回答新问题：“现在，你还看见什么？”",
+      "evidenceTargetIds": [
+        "c09-s04-p098-04042-s002"
+      ],
+      "evidence": [
+        {
+          "quote": "Look at Noma Bar’s drawing of a skinny, tall glass filled with beer (Figure 2, above). The foam on top is shaped so that, when viewed a certain way, it looks like a face. In one experiment, we showed this image on screen and asked participants a question: “What do you see?” After they wrote their answer, they moved on to another page with a new question: “Now, what else do you see?”",
+          "sentenceIds": [
+            "c09-s04-p098-04042-s001",
+            "c09-s04-p098-04042-s002",
+            "c09-s04-p098-04042-s003",
+            "c09-s04-p098-04042-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 98,
+              "block": 1,
+              "bbox": [
+                76.99,
+                404.25,
+                535.01,
+                555.27
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "8ec71c9d4cbb6c5c9ba453a10f14ff78c946910a990deac0aec72ab12ccae88b"
+    },
+    {
+      "id": "qe-c09-0109",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-037",
+      "parentQuestionId": "q-c09-057",
+      "chapterId": "c09",
+      "sectionId": "c09-s04",
+      "paragraphId": "c09-s04-p098-04042",
+      "readingUnitId": "c09-s04-p098-04042-r001-004",
+      "sentenceIds": [
+        "c09-s04-p098-04042-s001",
+        "c09-s04-p098-04042-s002",
+        "c09-s04-p098-04042-s003",
+        "c09-s04-p098-04042-s004"
+      ],
+      "passage": "Look at Noma Bar’s drawing of a skinny, tall glass filled with beer (Figure 2, above). The foam on top is shaped so that, when viewed a certain way, it looks like a face. In one experiment, we showed this image on screen and asked participants a question: “What do you see?” After they wrote their answer, they moved on to another page with a new question: “Now, what else do you see?”",
+      "prompt": "What was participants' first task after the image appeared on screen?",
+      "promptZh": "图像出现在屏幕后，参与者首先做什么？",
+      "options": [
+        "Were told both interpretations before they could answer.",
+        "Compared the market value of two paintings.",
+        "Answered the question asking what they could see.",
+        "Reported childhood reading habits before seeing any image."
+      ],
+      "optionsZh": [
+        "作答前被告知两种解释。",
+        "比较两幅画市价。",
+        "回答自己看见什么的问题。",
+        "看图前先报童年阅读习惯。"
+      ],
+      "answer": 2,
+      "type": "研究设计",
+      "support": "explicit",
+      "analyses": [
+        "A 首问开放地问 What do you see，并未说预先告知全部解释。",
+        "B 不是画价任务。",
+        "C showed image on screen 后 asked...What do you see，下一页才问还看见什么。",
+        "D 混入前面阅读调查，顺序与当前实验均不符。"
+      ],
+      "vocabulary": [
+        {
+          "word": "on screen",
+          "meaning": "在屏幕上",
+          "context": "交代呈现图像方式，不代表问卷已在本网站替读者提交。",
+          "example": "The image appeared on screen before the question.",
+          "collocations": [
+            "showed this image on screen",
+            "What do you see"
+          ]
+        }
+      ],
+      "translation": "看 Noma Bar 画的装满啤酒的细长杯子，即上方图2。顶部泡沫的形状，从某个角度看像张脸。一项实验中，我们在屏幕显示图像，问参与者：“你看见什么？”他们写完答案，进入另一页回答新问题：“现在，你还看见什么？”",
+      "evidenceTargetIds": [
+        "c09-s04-p098-04042-s003"
+      ],
+      "evidence": [
+        {
+          "quote": "Look at Noma Bar’s drawing of a skinny, tall glass filled with beer (Figure 2, above). The foam on top is shaped so that, when viewed a certain way, it looks like a face. In one experiment, we showed this image on screen and asked participants a question: “What do you see?” After they wrote their answer, they moved on to another page with a new question: “Now, what else do you see?”",
+          "sentenceIds": [
+            "c09-s04-p098-04042-s001",
+            "c09-s04-p098-04042-s002",
+            "c09-s04-p098-04042-s003",
+            "c09-s04-p098-04042-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 98,
+              "block": 1,
+              "bbox": [
+                76.99,
+                404.25,
+                535.01,
+                555.27
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "a86a0e0829aaba6542b0746ebae135b0f1c3155fbb04623cc26e284695140ecd"
+    },
+    {
+      "id": "q-c09-058",
+      "version": 1,
+      "readingUnitId": "c09-s04-p098-04042-r005-007",
+      "chapterId": "c09",
+      "sectionId": "c09-s04",
+      "paragraphId": "c09-s04-p098-04042",
+      "sentenceIds": [
+        "c09-s04-p098-04042-s005",
+        "c09-s04-p098-04042-s006",
+        "c09-s04-p098-04042-s007"
+      ],
+      "passage": "Most see a glass of beer first. But afterward, many see a face— that is, an eye, nose, and mouth. Depending on your perspective, you see beer or a face.",
+      "prompt": "Which sequence of perceptions is described?",
+      "options": [
+        "Everyone sees a face first and never sees a glass.",
+        "Most first see beer, and many later see a face.",
+        "Only the researchers see either object.",
+        "All participants report the same view at every stage."
+      ],
+      "answer": 1,
+      "type": "细节",
+      "promptZh": "原文描述怎样的观看顺序？",
+      "optionsZh": [
+        "所有人先见脸，永不见杯。",
+        "大多数先见啤酒，后来许多人见脸。",
+        "只有研究者能看见任一物体。",
+        "所有阶段人人看法相同。"
+      ],
+      "analyses": [
+        "A first 是 beer，且 most/many 不是 everyone。",
+        "B Most...first 与 afterward, many 对应。",
+        "C 没有只有研究者的限定。",
+        "D Depending on your perspective 表示可有不同观看方式。不能把许多人转变改成每个人必转变。"
+      ],
+      "evidence": [
+        {
+          "quote": "Most see a glass of beer first. But afterward, many see a face",
+          "sentenceIds": [
+            "c09-s04-p098-04042-s005",
+            "c09-s04-p098-04042-s006"
+          ],
+          "sources": [
+            {
+              "pdfPage": 98,
+              "block": 1,
+              "bbox": [
+                76.99,
+                404.25,
+                535.01,
+                555.27
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "afterward",
+          "meaning": "随后；之后",
+          "context": "标记第一次识别之后可能出现第二视图，不是同时或事前",
+          "example": "She noticed the pattern only afterward.",
+          "collocations": [
+            "but afterward",
+            "notice something afterward"
+          ]
+        }
+      ],
+      "translation": "大多数人先看见一杯啤酒。随后，许多人看见一张脸——眼睛、鼻子和嘴。视角不同，你看见啤酒或脸。",
+      "support": "explicit",
+      "editorialStatus": "PDF第98–102页原页核对；视觉丰富与心情分开，perhaps不改已测，体育为原书历史叙事，Proust是文学引述；题目文字证据独立于图像识别，保留所有旧题和原句",
+      "fingerprint": "a413bc69fd5e29b3286a8d74de23c7f0a2613c2caf9b6a95763506fae585a148"
+    },
+    {
+      "id": "qe-c09-0110",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-037",
+      "parentQuestionId": "q-c09-058",
+      "chapterId": "c09",
+      "sectionId": "c09-s04",
+      "paragraphId": "c09-s04-p098-04042",
+      "readingUnitId": "c09-s04-p098-04042-r005-007",
+      "sentenceIds": [
+        "c09-s04-p098-04042-s005",
+        "c09-s04-p098-04042-s006",
+        "c09-s04-p098-04042-s007"
+      ],
+      "passage": "Most see a glass of beer first. But afterward, many see a face— that is, an eye, nose, and mouth. Depending on your perspective, you see beer or a face.",
+      "prompt": "What changes when the viewer sees beer rather than a face?",
+      "promptZh": "观看者看见啤酒而不是脸时，发生变化的是什么？",
+      "options": [
+        "The text says the image is physically replaced every time.",
+        "The perspective or interpretation applied to the image.",
+        "The artist's identity changes from Noma Bar to Monet.",
+        "The passage proves that every viewer sees both at exactly the same instant."
+      ],
+      "optionsZh": [
+        "文本说每次都实际更换图像。",
+        "观看图像的视角或解释。",
+        "画家身份从 Noma Bar 变为 Monet。",
+        "片段证明每位观看者在同一瞬间都看见两者。"
+      ],
+      "answer": 1,
+      "type": "语境理解",
+      "support": "explicit",
+      "analyses": [
+        "A current parent 是先见杯、后来许多人见脸，不是每次换图。",
+        "B Depending on your perspective 明确不同解读的条件。",
+        "C 不涉及画家更换。",
+        "D Most、many 与先后过程不支持每人同一瞬间同时看全。"
+      ],
+      "vocabulary": [
+        {
+          "word": "Depending on",
+          "meaning": "取决于；视……而定",
+          "context": "在此把所见对象与视角相连，不是按已给随机条件对全部反应作确定保证。",
+          "example": "Depending on the angle, the shape can look quite different.",
+          "collocations": [
+            "Depending on your perspective",
+            "beer or a face"
+          ]
+        }
+      ],
+      "translation": "大多数人先看见一杯啤酒。随后，许多人看见一张脸——眼睛、鼻子和嘴。视角不同，你看见啤酒或脸。",
+      "evidenceTargetIds": [
+        "c09-s04-p098-04042-s007"
+      ],
+      "evidence": [
+        {
+          "quote": "Most see a glass of beer first. But afterward, many see a face— that is, an eye, nose, and mouth. Depending on your perspective, you see beer or a face.",
+          "sentenceIds": [
+            "c09-s04-p098-04042-s005",
+            "c09-s04-p098-04042-s006",
+            "c09-s04-p098-04042-s007"
+          ],
+          "sources": [
+            {
+              "pdfPage": 98,
+              "block": 1,
+              "bbox": [
+                76.99,
+                404.25,
+                535.01,
+                555.27
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "7eaeea11e7eca7b761e4f57fc2a2269a0110e47cf35b2e295b53b31d82264281"
+    },
+    {
+      "id": "q-c09-059",
+      "version": 1,
+      "readingUnitId": "c09-s04-p098-05602-r001-004",
+      "chapterId": "c09",
+      "sectionId": "c09-s04",
+      "paragraphId": "c09-s04-p098-05602",
+      "sentenceIds": [
+        "c09-s04-p098-05602-s001",
+        "c09-s04-p098-05602-s002",
+        "c09-s04-p098-05602-s003",
+        "c09-s04-p098-05602-s004"
+      ],
+      "passage": "Another group of participants saw an altered image of the beer glass (Figure 3). Everything is the same except that the foam in this glass does not look like a face, because I removed the bubble that was the “eye” in the first drawing. That is, the altered image is just a glass filled with beer. We asked the same two questions: “What do you see?”",
+      "prompt": "What was removed to make the altered image?",
+      "options": [
+        "The entire beer glass.",
+        "All of the foam and the background.",
+        "The bubble that had functioned as an eye.",
+        "The question asking participants what they saw."
+      ],
+      "answer": 2,
+      "type": "细节",
+      "promptZh": "修改图像时移除了什么？",
+      "optionsZh": [
+        "整个啤酒杯。",
+        "全部泡沫与背景。",
+        "原先充当眼睛的气泡。",
+        "询问看见什么的问题。"
+      ],
+      "analyses": [
+        "A altered image 仍是 glass filled with beer。",
+        "B 只说明 removed the bubble，不是全泡沫与背景。",
+        "C bubble...“eye” 直接给出改变。",
+        "D same two questions 保留程序。文字提供了可答证据，无需凭图猜测额外改动。"
+      ],
+      "evidence": [
+        {
+          "quote": "I removed the bubble that was the “eye” in the first drawing.",
+          "sentenceIds": [
+            "c09-s04-p098-05602-s002"
+          ],
+          "sources": [
+            {
+              "pdfPage": 98,
+              "block": 2,
+              "bbox": [
+                76.99,
+                560.25,
+                535.01,
+                711.27
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "altered",
+          "meaning": "改动过的；修改后的",
+          "context": "指图像细节变化，整体啤酒杯仍保留",
+          "example": "The altered image retained most of the original design.",
+          "collocations": [
+            "an altered image",
+            "slightly altered drawings"
+          ]
+        }
+      ],
+      "translation": "另一组看的是修改过的啤酒杯图，即图3。一切相同，只是泡沫不再像脸，因为我移除了第一幅图中充当“眼睛”的气泡。也就是说，修改图只是装满啤酒的杯子。我们问同样两个问题：“你看见什么？”",
+      "support": "explicit",
+      "editorialStatus": "PDF第98–102页原页核对；视觉丰富与心情分开，perhaps不改已测，体育为原书历史叙事，Proust是文学引述；题目文字证据独立于图像识别，保留所有旧题和原句",
+      "fingerprint": "13ba9cfbf44962fc0320ed4cdfaedf5bc8a339557d5ccee02c17701d09bdd8d3"
+    },
+    {
+      "id": "qe-c09-0111",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-037",
+      "parentQuestionId": "q-c09-059",
+      "chapterId": "c09",
+      "sectionId": "c09-s04",
+      "paragraphId": "c09-s04-p098-05602",
+      "readingUnitId": "c09-s04-p098-05602-r001-004",
+      "sentenceIds": [
+        "c09-s04-p098-05602-s001",
+        "c09-s04-p098-05602-s002",
+        "c09-s04-p098-05602-s003",
+        "c09-s04-p098-05602-s004"
+      ],
+      "passage": "Another group of participants saw an altered image of the beer glass (Figure 3). Everything is the same except that the foam in this glass does not look like a face, because I removed the bubble that was the “eye” in the first drawing. That is, the altered image is just a glass filled with beer. We asked the same two questions: “What do you see?”",
+      "prompt": "What image did the other participant group receive?",
+      "promptZh": "另一组参与者收到什么图像？",
+      "options": [
+        "A completely unrelated image with every feature changed.",
+        "The original glass plus an additional painted human eye.",
+        "A picture of a different drink chosen by the participants.",
+        "An altered version of the beer-glass drawing."
+      ],
+      "optionsZh": [
+        "所有特征全变的无关图像。",
+        "原杯图再加一只画出来的人眼。",
+        "参与者自己选的另一种饮品图。",
+        "啤酒杯图的修改版本。"
+      ],
+      "answer": 3,
+      "type": "研究设计",
+      "support": "explicit",
+      "analyses": [
+        "A Everything is the same except...限定局部修改，不是全部更换。",
+        "B 原文 removed bubble，不是增加眼睛。",
+        "C 没有参与者自选饮品。",
+        "D Another group saw an altered image 明示材料分组，不据此增加未述的分派方法。"
+      ],
+      "vocabulary": [
+        {
+          "word": "altered",
+          "meaning": "修改过的；作了变化的",
+          "context": "此处为保留主体、去掉关键细节的版本，不等于全新无关图。",
+          "example": "The second group saw an altered version with one detail removed.",
+          "collocations": [
+            "an altered image of the beer glass",
+            "Everything is the same except"
+          ]
+        }
+      ],
+      "translation": "另一组看的是修改过的啤酒杯图，即图3。一切相同，只是泡沫不再像脸，因为我移除了第一幅图中充当“眼睛”的气泡。也就是说，修改图只是装满啤酒的杯子。我们问同样两个问题：“你看见什么？”",
+      "evidenceTargetIds": [
+        "c09-s04-p098-05602-s001"
+      ],
+      "evidence": [
+        {
+          "quote": "Another group of participants saw an altered image of the beer glass (Figure 3). Everything is the same except that the foam in this glass does not look like a face, because I removed the bubble that was the “eye” in the first drawing. That is, the altered image is just a glass filled with beer. We asked the same two questions: “What do you see?”",
+          "sentenceIds": [
+            "c09-s04-p098-05602-s001",
+            "c09-s04-p098-05602-s002",
+            "c09-s04-p098-05602-s003",
+            "c09-s04-p098-05602-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 98,
+              "block": 2,
+              "bbox": [
+                76.99,
+                560.25,
+                535.01,
+                711.27
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "ad396d8facfe11065057efe2938a517e7c531e15f443f86673c14af5d08be50f"
+    },
+    {
+      "id": "qe-c09-0112",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-037",
+      "parentQuestionId": "q-c09-059",
+      "chapterId": "c09",
+      "sectionId": "c09-s04",
+      "paragraphId": "c09-s04-p098-05602",
+      "readingUnitId": "c09-s04-p098-05602-r001-004",
+      "sentenceIds": [
+        "c09-s04-p098-05602-s001",
+        "c09-s04-p098-05602-s002",
+        "c09-s04-p098-05602-s003",
+        "c09-s04-p098-05602-s004"
+      ],
+      "passage": "Another group of participants saw an altered image of the beer glass (Figure 3). Everything is the same except that the foam in this glass does not look like a face, because I removed the bubble that was the “eye” in the first drawing. That is, the altered image is just a glass filled with beer. We asked the same two questions: “What do you see?”",
+      "prompt": "What does 'just a glass filled with beer' clarify about the altered image?",
+      "promptZh": "just a glass filled with beer 澄清修改图的什么特点？",
+      "options": [
+        "It retains the beer-glass interpretation without the face-like foam interpretation described before.",
+        "It contains a clearer human face than the original drawing.",
+        "It is a real glass handed to each participant rather than an image.",
+        "It no longer contains any beer-glass shape at all."
+      ],
+      "optionsZh": [
+        "保留啤酒杯解读，但没有先前泡沫像脸的解读。",
+        "比原图含更清楚的人脸。",
+        "是给每个参与者的真实杯子，不是图。",
+        "完全没有啤酒杯形状。"
+      ],
+      "answer": 0,
+      "type": "语境理解",
+      "support": "explicit",
+      "analyses": [
+        "A That is 重述移去眼睛气泡后不再像脸的修改，just 限定单一所见。",
+        "B no longer face-like 方向相反。",
+        "C 仍是 image，不是分发实物饮料。",
+        "D just a glass 明示杯子仍在，不是整体删光。"
+      ],
+      "vocabulary": [
+        {
+          "word": "just",
+          "meaning": "仅仅；只是",
+          "context": "此处限制可识别对象，并非时间上刚刚，也不是评价公正的形容词。",
+          "example": "The altered shape is just a circle, without the hidden image.",
+          "collocations": [
+            "just a glass filled with beer",
+            "That is, the altered image"
+          ]
+        }
+      ],
+      "translation": "另一组看的是修改过的啤酒杯图，即图3。一切相同，只是泡沫不再像脸，因为我移除了第一幅图中充当“眼睛”的气泡。也就是说，修改图只是装满啤酒的杯子。我们问同样两个问题：“你看见什么？”",
+      "evidenceTargetIds": [
+        "c09-s04-p098-05602-s003"
+      ],
+      "evidence": [
+        {
+          "quote": "Another group of participants saw an altered image of the beer glass (Figure 3). Everything is the same except that the foam in this glass does not look like a face, because I removed the bubble that was the “eye” in the first drawing. That is, the altered image is just a glass filled with beer. We asked the same two questions: “What do you see?”",
+          "sentenceIds": [
+            "c09-s04-p098-05602-s001",
+            "c09-s04-p098-05602-s002",
+            "c09-s04-p098-05602-s003",
+            "c09-s04-p098-05602-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 98,
+              "block": 2,
+              "bbox": [
+                76.99,
+                560.25,
+                535.01,
+                711.27
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "e1515d5383a06deea408ef23836e42aeaf31e323e2c11a2dcaa9e3b37d2cd6c0"
+    },
+    {
+      "id": "qe-c09-0113",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-037",
+      "parentQuestionId": "q-c09-059",
+      "chapterId": "c09",
+      "sectionId": "c09-s04",
+      "paragraphId": "c09-s04-p098-05602",
+      "readingUnitId": "c09-s04-p098-05602-r001-004",
+      "sentenceIds": [
+        "c09-s04-p098-05602-s001",
+        "c09-s04-p098-05602-s002",
+        "c09-s04-p098-05602-s003",
+        "c09-s04-p098-05602-s004"
+      ],
+      "passage": "Another group of participants saw an altered image of the beer glass (Figure 3). Everything is the same except that the foam in this glass does not look like a face, because I removed the bubble that was the “eye” in the first drawing. That is, the altered image is just a glass filled with beer. We asked the same two questions: “What do you see?”",
+      "prompt": "What does 'the same two questions' show about the altered-image procedure?",
+      "promptZh": "修改图程序中的 the same two questions 说明什么？",
+      "options": [
+        "The group answered no perception questions at all.",
+        "The task was changed to a memory test about two novels.",
+        "The perception prompts were retained rather than replaced when the image changed.",
+        "The altered image was shown only after all answers had been given."
+      ],
+      "optionsZh": [
+        "该组完全不答知觉问题。",
+        "任务改为两本小说记忆测验。",
+        "修改图时仍保留知觉提问，而非换掉提问。",
+        "全部答案给出后才显示修改图。"
+      ],
+      "answer": 2,
+      "type": "研究设计",
+      "support": "explicit",
+      "analyses": [
+        "A We asked 明确有提问。",
+        "B two 计提问，不是小说。",
+        "C same two questions 控制提问内容相同，接着先问 What do you see；第二问续下一原文短段。",
+        "D 问题是看图后程序，不是看前答完；同问不自动表示所有未述实验条件完全相同。"
+      ],
+      "vocabulary": [
+        {
+          "word": "the same",
+          "meaning": "同样的；相同的",
+          "context": "限定所述两个问题不变，不扩成参与者、图像每处或全部程序均无变化。",
+          "example": "Both groups received the same instructions.",
+          "collocations": [
+            "the same two questions",
+            "We asked the same two questions"
+          ]
+        }
+      ],
+      "translation": "另一组看的是修改过的啤酒杯图，即图3。一切相同，只是泡沫不再像脸，因为我移除了第一幅图中充当“眼睛”的气泡。也就是说，修改图只是装满啤酒的杯子。我们问同样两个问题：“你看见什么？”",
+      "evidenceTargetIds": [
+        "c09-s04-p098-05602-s004"
+      ],
+      "evidence": [
+        {
+          "quote": "Another group of participants saw an altered image of the beer glass (Figure 3). Everything is the same except that the foam in this glass does not look like a face, because I removed the bubble that was the “eye” in the first drawing. That is, the altered image is just a glass filled with beer. We asked the same two questions: “What do you see?”",
+          "sentenceIds": [
+            "c09-s04-p098-05602-s001",
+            "c09-s04-p098-05602-s002",
+            "c09-s04-p098-05602-s003",
+            "c09-s04-p098-05602-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 98,
+              "block": 2,
+              "bbox": [
+                76.99,
+                560.25,
+                535.01,
+                711.27
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "6f860417f1637d19ab36a62cbb4b1a33fcb1c2c542f6722ff5d43f5d0024ad2f"
+    },
+    {
+      "id": "q-c09-060",
+      "version": 1,
+      "readingUnitId": "c09-s04-p098-05602-r005-008",
+      "chapterId": "c09",
+      "sectionId": "c09-s04",
+      "paragraphId": "c09-s04-p098-05602",
+      "sentenceIds": [
+        "c09-s04-p098-05602-s005",
+        "c09-s04-p098-05602-s006",
+        "c09-s04-p098-05602-s007",
+        "c09-s04-p098-05602-s008"
+      ],
+      "passage": "Then, “What else do you see?” Again, most of them saw a glass of beer. But none of them saw a face. The first group of participants saw a series of figure-ground drawings one at a time and were asked to write about what they saw.",
+      "prompt": "What was reported about seeing a face in the altered-image group?",
+      "options": [
+        "None of them saw a face.",
+        "Most saw a face before noticing the beer.",
+        "Every participant reported both views.",
+        "They were explicitly instructed to draw faces."
+      ],
+      "answer": 0,
+      "type": "细节",
+      "promptZh": "修改图组关于看见脸的报告是什么？",
+      "optionsZh": [
+        "没有人看见脸。",
+        "大多数先见脸再见啤酒。",
+        "每个人都报告两种视图。",
+        "被明确要求画脸。"
+      ],
+      "analyses": [
+        "A none of them saw a face 明示该组结果。",
+        "B most...glass of beer 指看啤酒，不是先看脸。",
+        "C 与 none 相反。",
+        "D write about what they saw 不是画脸指令。none 限定这组实验参与者，不应扩大为任何人在任何修改图上都不可能发现新物体。"
+      ],
+      "evidence": [
+        {
+          "quote": "Again, most of them saw a glass of beer. But none of them saw a face.",
+          "sentenceIds": [
+            "c09-s04-p098-05602-s006",
+            "c09-s04-p098-05602-s007"
+          ],
+          "sources": [
+            {
+              "pdfPage": 98,
+              "block": 2,
+              "bbox": [
+                76.99,
+                560.25,
+                535.01,
+                711.27
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "one at a time",
+          "meaning": "一次一个；逐个",
+          "context": "第一组逐幅观看图底关系图，而非整组图同时呈现",
+          "example": "The images appeared one at a time.",
+          "collocations": [
+            "show drawings one at a time",
+            "view one at a time"
+          ]
+        }
+      ],
+      "translation": "然后问：“你还看见什么？”同样，大多数看见一杯啤酒，但没人看见脸。第一组参与者一次看一幅图底关系图，并写下看见什么。",
+      "support": "explicit",
+      "editorialStatus": "PDF第98–102页原页核对；视觉丰富与心情分开，perhaps不改已测，体育为原书历史叙事，Proust是文学引述；题目文字证据独立于图像识别，保留所有旧题和原句",
+      "fingerprint": "4689340cc49ebc5156a665ddfa4e05fe271802ea9f18e7cbf737c8dae305535a"
+    },
+    {
+      "id": "qe-c09-0114",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-037",
+      "parentQuestionId": "q-c09-060",
+      "chapterId": "c09",
+      "sectionId": "c09-s04",
+      "paragraphId": "c09-s04-p098-05602",
+      "readingUnitId": "c09-s04-p098-05602-r005-008",
+      "sentenceIds": [
+        "c09-s04-p098-05602-s005",
+        "c09-s04-p098-05602-s006",
+        "c09-s04-p098-05602-s007",
+        "c09-s04-p098-05602-s008"
+      ],
+      "passage": "Then, “What else do you see?” Again, most of them saw a glass of beer. But none of them saw a face. The first group of participants saw a series of figure-ground drawings one at a time and were asked to write about what they saw.",
+      "prompt": "What does 'else' ask participants to look for in the follow-up question?",
+      "promptZh": "后续提问中 else 要参与者寻找什么？",
+      "options": [
+        "A reason to stop answering and leave the study.",
+        "Something additional beyond what they had already identified.",
+        "The price of a different image outside the experiment.",
+        "An instruction to erase their first answer before proceeding."
+      ],
+      "optionsZh": [
+        "停止回答、离开研究的理由。",
+        "在已经识别的东西之外，是否还有别的。",
+        "实验外另一图的价格。",
+        "继续前先删掉首答的指令。"
+      ],
+      "answer": 1,
+      "type": "语境词义",
+      "support": "explicit",
+      "analyses": [
+        "A What else do you see 是继续探问，不是退出。",
+        "B else 表另一个或其他，探是否可识别额外对象。",
+        "C 不谈价钱。",
+        "D 没要求删除首答；后面 none saw a face 是该组结果，不能当提问本身已保证答案。"
+      ],
+      "vocabulary": [
+        {
+          "word": "else",
+          "meaning": "别的；其他的",
+          "context": "询问已见对象之外的内容，不等于直接告诉参与者必然有脸。",
+          "example": "What else can you notice in the picture?",
+          "collocations": [
+            "What else do you see",
+            "a follow-up question"
+          ]
+        }
+      ],
+      "translation": "然后问：“你还看见什么？”同样，大多数看见一杯啤酒，但没人看见脸。第一组参与者一次看一幅图底关系图，并写下看见什么。",
+      "evidenceTargetIds": [
+        "c09-s04-p098-05602-s005"
+      ],
+      "evidence": [
+        {
+          "quote": "Then, “What else do you see?” Again, most of them saw a glass of beer. But none of them saw a face. The first group of participants saw a series of figure-ground drawings one at a time and were asked to write about what they saw.",
+          "sentenceIds": [
+            "c09-s04-p098-05602-s005",
+            "c09-s04-p098-05602-s006",
+            "c09-s04-p098-05602-s007",
+            "c09-s04-p098-05602-s008"
+          ],
+          "sources": [
+            {
+              "pdfPage": 98,
+              "block": 2,
+              "bbox": [
+                76.99,
+                560.25,
+                535.01,
+                711.27
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "3e17684578162114b28f158da9ab0f7f8ecb098a48e145061b20a41c5204c204"
+    },
+    {
+      "id": "qe-c09-0115",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-037",
+      "parentQuestionId": "q-c09-060",
+      "chapterId": "c09",
+      "sectionId": "c09-s04",
+      "paragraphId": "c09-s04-p098-05602",
+      "readingUnitId": "c09-s04-p098-05602-r005-008",
+      "sentenceIds": [
+        "c09-s04-p098-05602-s005",
+        "c09-s04-p098-05602-s006",
+        "c09-s04-p098-05602-s007",
+        "c09-s04-p098-05602-s008"
+      ],
+      "passage": "Then, “What else do you see?” Again, most of them saw a glass of beer. But none of them saw a face. The first group of participants saw a series of figure-ground drawings one at a time and were asked to write about what they saw.",
+      "prompt": "How were the first group's figure-ground drawings presented?",
+      "promptZh": "第一组的图底关系图如何呈现？",
+      "options": [
+        "All at once, with no written responses permitted.",
+        "Only as a single photograph of a real museum visit.",
+        "After the researchers supplied a complete description of every secondary object.",
+        "One at a time, with participants asked to write what they saw."
+      ],
+      "optionsZh": [
+        "全部一次显示，不许书面回答。",
+        "仅一张真实博物馆参观照片。",
+        "研究者先完整描述每个第二物体后才显示。",
+        "一次一幅，并要求写出所见。"
+      ],
+      "answer": 3,
+      "type": "研究设计",
+      "support": "explicit",
+      "analyses": [
+        "A one at a time 与 write 两项均相反。",
+        "B series of figure-ground drawings 不等于单次参观照片。",
+        "C 没有先给完整对象答案的步骤。",
+        "D 呈现顺序和书面任务逐项对应，不能从 write 推断他们因此必须见到某个特定对象。"
+      ],
+      "vocabulary": [
+        {
+          "word": "one at a time",
+          "meaning": "一次一个；逐一地",
+          "context": "说明系列图的呈现方式，不是所有图同时出现，也不是每组只有一人。",
+          "example": "The cards were shown one at a time.",
+          "collocations": [
+            "drawings one at a time",
+            "write about what they saw"
+          ]
+        }
+      ],
+      "translation": "然后问：“你还看见什么？”同样，大多数看见一杯啤酒，但没人看见脸。第一组参与者一次看一幅图底关系图，并写下看见什么。",
+      "evidenceTargetIds": [
+        "c09-s04-p098-05602-s008"
+      ],
+      "evidence": [
+        {
+          "quote": "Then, “What else do you see?” Again, most of them saw a glass of beer. But none of them saw a face. The first group of participants saw a series of figure-ground drawings one at a time and were asked to write about what they saw.",
+          "sentenceIds": [
+            "c09-s04-p098-05602-s005",
+            "c09-s04-p098-05602-s006",
+            "c09-s04-p098-05602-s007",
+            "c09-s04-p098-05602-s008"
+          ],
+          "sources": [
+            {
+              "pdfPage": 98,
+              "block": 2,
+              "bbox": [
+                76.99,
+                560.25,
+                535.01,
+                711.27
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "d037d860590aa359a623737b884a78fb4ef9215eedb25056b0dff66bd0648f81"
+    },
+    {
+      "id": "q-c09-061",
+      "version": 1,
+      "readingUnitId": "c09-s04-p098-05602-r009-010",
+      "chapterId": "c09",
+      "sectionId": "c09-s04",
+      "paragraphId": "c09-s04-p098-05602",
+      "sentenceIds": [
+        "c09-s04-p098-05602-s009",
+        "c09-s04-p098-05602-s010"
+      ],
+      "passage": "The second group saw a series of slightly altered drawings—essentially the same images as the first group saw, but lacking the secondary object—and were asked to write about what they saw. Then all the participants were asked to evaluate the drawings and report their current moods.",
+      "prompt": "What did all participants do after writing about the drawings?",
+      "options": [
+        "They reported only their childhood reading habits.",
+        "They were told which group had won the experiment.",
+        "They altered the secondary objects themselves.",
+        "They evaluated the drawings and reported their current moods."
+      ],
+      "answer": 3,
+      "type": "细节",
+      "promptZh": "写完图像观察后，所有参与者做什么？",
+      "optionsZh": [
+        "只报告童年阅读习惯。",
+        "获知哪个组赢了实验。",
+        "自己修改次要物体。",
+        "评价图画并报告当前心情。"
+      ],
+      "analyses": [
+        "A 将前文阅读调查的指标移入当前实验。",
+        "B 没有比赛胜负或获胜组。",
+        "C 第二组看已修改的图，不是自己修改。",
+        "D evaluate the drawings 与 report current moods 是后续两类测量。这里只列测量，尚未给结果，不能先断言哪组更幸福。"
+      ],
+      "evidence": [
+        {
+          "quote": "Then all the participants were asked to evaluate the drawings and report their current moods.",
+          "sentenceIds": [
+            "c09-s04-p098-05602-s010"
+          ],
+          "sources": [
+            {
+              "pdfPage": 99,
+              "block": 0,
+              "bbox": [
+                76.99,
+                75,
+                535.01,
+                148.02
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "secondary object",
+          "meaning": "次要物体；第二种可识别对象",
+          "context": "图中另一种视图被移除，非指另摆一件实体物品",
+          "example": "Without the small detail, the secondary object was harder to recognize.",
+          "collocations": [
+            "lack the secondary object",
+            "identify a secondary object"
+          ]
+        }
+      ],
+      "translation": "第二组看略经修改的一系列图——基本与第一组相同，却缺少第二种物体——并写出看见什么。随后，所有参与者评价图画，报告当前心情。",
+      "support": "explicit",
+      "editorialStatus": "PDF第98–102页原页核对；视觉丰富与心情分开，perhaps不改已测，体育为原书历史叙事，Proust是文学引述；题目文字证据独立于图像识别，保留所有旧题和原句",
+      "fingerprint": "a557c24a8b1585f19d90359150d5fb3734042d75f256f435e91e64b0748c3b31"
+    },
+    {
+      "id": "qe-c09-0116",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-037",
+      "parentQuestionId": "q-c09-061",
+      "chapterId": "c09",
+      "sectionId": "c09-s04",
+      "paragraphId": "c09-s04-p098-05602",
+      "readingUnitId": "c09-s04-p098-05602-r009-010",
+      "sentenceIds": [
+        "c09-s04-p098-05602-s009",
+        "c09-s04-p098-05602-s010"
+      ],
+      "passage": "The second group saw a series of slightly altered drawings—essentially the same images as the first group saw, but lacking the secondary object—and were asked to write about what they saw. Then all the participants were asked to evaluate the drawings and report their current moods.",
+      "prompt": "How did the second group's drawings differ from the first group's?",
+      "promptZh": "第二组图画与第一组有何不同？",
+      "options": [
+        "They added several new secondary objects to every drawing.",
+        "They kept essentially the same images but removed the secondary object.",
+        "They replaced all pictures with written poetry.",
+        "They displayed all the first group's answers before showing an image."
+      ],
+      "optionsZh": [
+        "给每幅图新增多个第二物体。",
+        "基本保留相同图像，但去掉第二种物体。",
+        "把所有图替换成诗歌文字。",
+        "先显示第一组全部答案再显示图。"
+      ],
+      "answer": 1,
+      "type": "研究设计",
+      "support": "explicit",
+      "analyses": [
+        "A lacking 不是新增。",
+        "B essentially the same...but lacking secondary object 明确关键差别，两组都写所见。",
+        "C 不是前面的诗理解实验。",
+        "D 未说预先显示他组答案；不自行添加额外提示或分派程序。"
+      ],
+      "vocabulary": [
+        {
+          "word": "lacking",
+          "meaning": "缺少；没有",
+          "context": "指修改图少了可识别第二物体的特征，非全部图像内容被删光。",
+          "example": "The altered drawing was lacking the detail that suggested a face.",
+          "collocations": [
+            "lacking the secondary object",
+            "slightly altered drawings"
+          ]
+        }
+      ],
+      "translation": "第二组看略经修改的一系列图——基本与第一组相同，却缺少第二种物体——并写出看见什么。随后，所有参与者评价图画，报告当前心情。",
+      "evidenceTargetIds": [
+        "c09-s04-p098-05602-s009"
+      ],
+      "evidence": [
+        {
+          "quote": "The second group saw a series of slightly altered drawings—essentially the same images as the first group saw, but lacking the secondary object—and were asked to write about what they saw. Then all the participants were asked to evaluate the drawings and report their current moods.",
+          "sentenceIds": [
+            "c09-s04-p098-05602-s009",
+            "c09-s04-p098-05602-s010"
+          ],
+          "sources": [
+            {
+              "pdfPage": 98,
+              "block": 2,
+              "bbox": [
+                76.99,
+                560.25,
+                535.01,
+                711.27
+              ]
+            },
+            {
+              "pdfPage": 99,
+              "block": 0,
+              "bbox": [
+                76.99,
+                75,
+                535.01,
+                148.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "53cc8f257fd48ad609cb87a2c31b3d35bf86e0d905ba472664e939cefde9fb34"
+    }
+  ]
+}
