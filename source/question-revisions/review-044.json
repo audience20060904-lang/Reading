@@ -1,0 +1,141 @@
+{
+  "schemaVersion": 1,
+  "id": "question-review-2026-10-28-044",
+  "pdfSha256": "be25c859f1bd894a4b0d1cff024ded1297f6a96a8e8ddabea1e3abcf89160a50",
+  "scope": "Review 15 questions /23 source candidates with evidence on PDF47–48 and additional paragraph context on PDF49. Diary reports, explicit comparison baselines, well-being terminology, conditional ranking and fee fragments; no source-text changes.",
+  "questions": [
+    {
+      "id": "q-c05-025",
+      "reason": "清单选项保留原文明确的视频游戏类别，不泛成任意games。",
+      "updates": {
+        "options": [
+          "Only students’ grades and family income.",
+          "The researcher’s judgement of which activity students should choose.",
+          "Whether students had volunteered, attended concerts, hiked, played video games, and similar activities.",
+          "Only whether the day had been happy, with no questions about behaviour."
+        ],
+        "optionsZh": [
+          "只问成绩与家庭收入。",
+          "研究者判断学生应该选哪项活动。",
+          "是否志愿服务、听音乐会、徒步、玩电子游戏等。",
+          "只问当天是否幸福，完全不问行为。"
+        ]
+      }
+    },
+    {
+      "id": "qe-c05-0043",
+      "reason": "well-being统称三个方面，不译成只剩happiness的维度；随机分派排除语句明确当前没有该信息。",
+      "updates": {
+        "promptZh": "除幸福、意义和心理丰富三个方面外，还询问了哪些信息？",
+        "analyses": [
+          "A 没有家族病史清单。",
+          "B 当前询问参与者已经参与的日常活动，没有随机分派他们参加事件的信息。",
+          "C how typical/atypical、routine activities、free time 与三种 new 信息都在本句。",
+          "D them 指参与者报告自身一天，不是仅猜陌生人。"
+        ]
+      }
+    },
+    {
+      "id": "qe-c05-0044",
+      "reason": "概况题不把尚未显示的不同日常模式先当成已呈现结果。",
+      "updates": {
+        "analyses": [
+          "A picture 在此不是照片。",
+          "B 报告活动与感受，构成生活模式的总体图景。",
+          "C nice 不表示完美无误，daily reports 仍是自报资料。",
+          "D 提供学生日常概况，不等于证明所有学生的所有日子都相同；当前没有这种统一结论。"
+        ]
+      }
+    },
+    {
+      "id": "q-c05-026",
+      "reason": "共享结果译文去编辑备注，按associated与most students reported保留日子比较与自报范围，不额外写成随机干预因果；三方面译名一致。",
+      "updates": {
+        "translation": "首先，我们发现一些与幸福、意义和心理丰富这三个方面都相关的共同因素。结果显示，在做新事、吃新食物或遇见新人的日子里，心理丰富感、幸福感与意义感都更高。也就是说，多数学生报告，自己做新事、吃新食物或遇见新人的那一天更幸福、更有意义，心理体验也更丰富。"
+      }
+    },
+    {
+      "id": "qe-c05-0045",
+      "reason": "共享结果译文去编辑备注，按associated与most students reported保留日子比较与自报范围，不额外写成随机干预因果；三方面译名一致。",
+      "updates": {
+        "translation": "首先，我们发现一些与幸福、意义和心理丰富这三个方面都相关的共同因素。结果显示，在做新事、吃新食物或遇见新人的日子里，心理丰富感、幸福感与意义感都更高。也就是说，多数学生报告，自己做新事、吃新食物或遇见新人的那一天更幸福、更有意义，心理体验也更丰富。",
+        "optionsZh": [
+          "只与经济收入有关。",
+          "只属于心理丰富而与幸福无关。",
+          "证明每位参与者偏好完全相同。",
+          "与幸福、意义和心理丰富三个方面都有关联。"
+        ]
+      }
+    },
+    {
+      "id": "qe-c05-0046",
+      "reason": "共享结果译文去编辑备注，按associated与most students reported保留日子比较与自报范围，不额外写成随机干预因果；三方面译名一致。",
+      "updates": {
+        "translation": "首先，我们发现一些与幸福、意义和心理丰富这三个方面都相关的共同因素。结果显示，在做新事、吃新食物或遇见新人的日子里，心理丰富感、幸福感与意义感都更高。也就是说，多数学生报告，自己做新事、吃新食物或遇见新人的那一天更幸福、更有意义，心理体验也更丰富。",
+        "analyses": [
+          "A not only psychological richness but also happiness and meaning 明示三项，后一句用 most students reported 解释报告范围。",
+          "B alone 删掉其他两项。",
+          "C not only 正是说不止心理丰富。",
+          "D 意义也不是唯一一项。most students reported 限定的是报告模式，不能升级为随机干预后所有人的必然提高。"
+        ]
+      }
+    },
+    {
+      "id": "qe-c05-0047",
+      "reason": "独特预测因素题不借上段common标签，直接依当前对照例子。",
+      "updates": {
+        "analyses": [
+          "A unique 及当前两个例子强调区分性预测：更丰富并不同时意味着更幸福或更有意义，不是每一方面都完全相同的共享因素。",
+          "B 没有日记成本问题。",
+          "C 后例 atypical 更丰富却不更幸福、空闲更丰富却不更有意义，说明区分性预测。",
+          "D 不是说其他维度全为零，差异比较不可当成不存在。predictor 也不自动等于因果。"
+        ]
+      }
+    },
+    {
+      "id": "qe-c05-0049",
+      "reason": "同段译文保留比较单位为日子，移除编辑备注，不额外保证工作量对每个人都有因果益处。",
+      "updates": {
+        "translation": "最后，必须完成的工作更多的一天，比这类工作较少的一天更幸福、更有意义。也就是说，完成事务的日子更幸福、更有意义，而做不寻常事情的日子心理上更丰富。无论短途去葡萄园、走进城里陌生街区、看棒球赛，还是给小学老友打电话，做平时不常做的事，都比每天重复的事更有趣、更具心理丰富性。"
+      }
+    },
+    {
+      "id": "qe-c05-0050",
+      "reason": "同段译文保留比较单位为日子，移除编辑备注，不额外保证工作量对每个人都有因果益处。",
+      "updates": {
+        "translation": "最后，必须完成的工作更多的一天，比这类工作较少的一天更幸福、更有意义。也就是说，完成事务的日子更幸福、更有意义，而做不寻常事情的日子心理上更丰富。无论短途去葡萄园、走进城里陌生街区、看棒球赛，还是给小学老友打电话，做平时不常做的事，都比每天重复的事更有趣、更具心理丰富性。"
+      }
+    },
+    {
+      "id": "q-c05-029",
+      "reason": "正确项明确丰富日子的比较基准是typical day，避免省略后误读为相对幸福日子两类情绪都更多。",
+      "updates": {
+        "options": [
+          "Happy days contain more negative emotions than rich days by definition.",
+          "Rich days are defined by the complete absence of negative feelings.",
+          "Happy days involved many positive and few negative emotions; rich days involved more emotions of both kinds than a typical day.",
+          "Both kinds of day require watching news that agrees with one’s views."
+        ],
+        "optionsZh": [
+          "按定义，幸福日子的负面情绪比丰富日子更多。",
+          "丰富日子被定义为完全没有负面感受。",
+          "幸福日子正面情绪多、负面少；心理丰富的日子比平常日子有更多正面与负面情绪。",
+          "两者都要求观看与自己观点一致的新闻。"
+        ],
+        "analyses": [
+          "A 本段不是这种负面情绪比较，幸福日子是 not many negative。",
+          "B both positive and negative 明确保留负面。",
+          "C 保留前句幸福日子的正负情绪特征，以及后句心理丰富日子相对于 typical day 的比较基准，不能把后者基准换成幸福日子。",
+          "D Fox/CNN 是作者关于可能兴趣与不悦的例子，不是所有人的必要条件。"
+        ]
+      }
+    },
+    {
+      "id": "qe-c05-0052",
+      "reason": "must rank是if前提下的强推断，中文用想必保留论断性质，不误成已有实测或无条件必然。",
+      "updates": {
+        "translation": "如果新奇、复杂性和视角变化是心理丰富的关键成分，那么留学想必会在心理丰富事件中名列前茅。毕竟，留学让自己进入陌生文化，面对不同景观、习俗和规范——全新的生活方式。这令人兴奋，却也在许多层面充满挑战。"
+      }
+    }
+  ]
+}
