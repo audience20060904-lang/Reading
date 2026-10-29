@@ -1,0 +1,1769 @@
+{
+  "schemaVersion": 1,
+  "batchId": "question-review-2026-10-28-098",
+  "sourceCommit": "9bb03413a1308e4c7a2d76d8e49bd89986538dc3",
+  "pdfSha256": "be25c859f1bd894a4b0d1cff024ded1297f6a96a8e8ddabea1e3abcf89160a50",
+  "frozenAt": "2026-10-29T22:49:52.388Z",
+  "questions": [
+    {
+      "id": "q-c10-106",
+      "version": 1,
+      "readingUnitId": "c10-s09-p119-05355-r005-008",
+      "chapterId": "c10",
+      "sectionId": "c10-s09",
+      "paragraphId": "c10-s09-p119-05355",
+      "sentenceIds": [
+        "c10-s09-p119-05355-s005",
+        "c10-s09-p119-05355-s006",
+        "c10-s09-p119-05355-s007",
+        "c10-s09-p119-05355-s008"
+      ],
+      "passage": "For instance, participants were asked to solve the Duncker candle problem. You have a candle, a pack of matches, and a box of tacks. Can you attach a candle to a wall so that the candle will burn properly and won’t drip wax on the table or floor? (The answer is in the endnotes.)",
+      "prompt": "What must a solution to the candle task achieve?",
+      "options": [
+        "Fix the candle to a wall so it burns properly without dripping wax on the table or floor.",
+        "Extinguish the candle before any wax melts.",
+        "Use a candle without matches or tacks.",
+        "Place the candle directly on the floor."
+      ],
+      "answer": 0,
+      "type": "细节",
+      "promptZh": "蜡烛任务的解法须达到什么目标？",
+      "optionsZh": [
+        "固定墙上正常燃烧且不滴蜡到桌地。",
+        "融蜡前熄灭。",
+        "不使用火柴图钉。",
+        "直接放地上。"
+      ],
+      "analyses": [
+        "A 两个条件 burn properly 与 won’t drip 都保留。",
+        "B 要能正常烧，不是立即熄灭。",
+        "C 材料包含火柴和盒装图钉，未禁止使用。",
+        "D 位置须墙上。当前只述问题，答案指向尾注；不编入未核对尾注解法。"
+      ],
+      "evidence": [
+        {
+          "quote": "attach a candle to a wall so that the candle will burn properly and won’t drip wax on the table or floor?",
+          "sentenceIds": [
+            "c10-s09-p119-05355-s007"
+          ],
+          "sources": [
+            {
+              "pdfPage": 119,
+              "block": 4,
+              "bbox": [
+                76.99,
+                535.5,
+                535.01,
+                706.02
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "tacks",
+          "meaning": "图钉",
+          "context": "任务提供的盒装材料之一",
+          "example": "The box contained a handful of tacks.",
+          "collocations": [
+            "a box of tacks",
+            "a pack of matches"
+          ]
+        }
+      ],
+      "translation": "例如，参与者被要求解 Duncker 蜡烛问题：你有一支蜡烛、一包火柴和一盒图钉。能把蜡烛固定墙上，让它正常燃烧又不把蜡滴到桌子或地板吗？答案见尾注。",
+      "support": "explicit",
+      "editorialStatus": "完整PDF118–122原页视觉核对和跨页拼接。列车118接触/97回收/另105想象者分开，随机分组结果是自报愉快不作长期普适保证。Jobs自我归因与作者传记叙述非实验；海外生活MBA比较不擅加随机性；多文化机制保留speculate/seem、综述不冒充全部因果。DIY及微笑为作者个人文化经验，不推广为全体日本人规范；道德相对主义和作弊保留correlated，不诊断个体。Jobs艺术引语不当实证，奖励保留might。第11章逆境先设问，Nietzsche地震是哲学隐喻并承认破坏，非受害者必然成长或医学处方。不宣称逐句直接证据全覆盖。",
+      "fingerprint": "880c3fcb911bf78edb70fec733bf030d8aa1b40764c5e9c60a911a2e8ed8577f"
+    },
+    {
+      "id": "qe-c10-0186",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-046",
+      "parentQuestionId": "q-c10-106",
+      "chapterId": "c10",
+      "sectionId": "c10-s09",
+      "paragraphId": "c10-s09-p119-05355",
+      "readingUnitId": "c10-s09-p119-05355-r005-008",
+      "sentenceIds": [
+        "c10-s09-p119-05355-s005",
+        "c10-s09-p119-05355-s006",
+        "c10-s09-p119-05355-s007",
+        "c10-s09-p119-05355-s008"
+      ],
+      "passage": "For instance, participants were asked to solve the Duncker candle problem. You have a candle, a pack of matches, and a box of tacks. Can you attach a candle to a wall so that the candle will burn properly and won’t drip wax on the table or floor? (The answer is in the endnotes.)",
+      "prompt": "What were participants asked to do in the example introduced by 'For instance'?",
+      "promptZh": "For instance 引入的例子要求参与者做什么？",
+      "options": [
+        "Record only the countries they hoped to visit.",
+        "Solve the Duncker candle problem.",
+        "Construct a complete house using ordinary timber.",
+        "Choose a favourite commuting route without a task."
+      ],
+      "optionsZh": [
+        "只记录希望去的国家。",
+        "解答 Duncker 蜡烛问题。",
+        "用普通木材建整所房子。",
+        "不做任务，只选喜爱的通勤路线。"
+      ],
+      "answer": 1,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A 当前句是任务而非旅行意愿问卷。",
+        "B were asked to solve 后给任务名称。",
+        "C 造房属于下一段作者的文化例子，不是此处实验任务。",
+        "D 通勤属于前一小节，不能移作此处研究程序。"
+      ],
+      "vocabulary": [
+        {
+          "word": "solve",
+          "meaning": "解决；找出问题的解法",
+          "context": "这里是尝试解题的要求，不代表全部参与者都解出。",
+          "example": "Participants were asked to solve a practical puzzle.",
+          "collocations": [
+            "asked to solve",
+            "the Duncker candle problem"
+          ]
+        }
+      ],
+      "translation": "例如，参与者被要求解 Duncker 蜡烛问题：你有一支蜡烛、一包火柴和一盒图钉。能把蜡烛固定墙上，让它正常燃烧又不把蜡滴到桌子或地板吗？答案见尾注。",
+      "evidenceTargetIds": [
+        "c10-s09-p119-05355-s005"
+      ],
+      "evidence": [
+        {
+          "quote": "For instance, participants were asked to solve the Duncker candle problem. You have a candle, a pack of matches, and a box of tacks. Can you attach a candle to a wall so that the candle will burn properly and won’t drip wax on the table or floor? (The answer is in the endnotes.)",
+          "sentenceIds": [
+            "c10-s09-p119-05355-s005",
+            "c10-s09-p119-05355-s006",
+            "c10-s09-p119-05355-s007",
+            "c10-s09-p119-05355-s008"
+          ],
+          "sources": [
+            {
+              "pdfPage": 119,
+              "block": 4,
+              "bbox": [
+                76.99,
+                535.5,
+                535.01,
+                706.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "a521b097f6757198717153c316e9a1f8d158e9c3f41f2cabc9be8a7a3c23e377"
+    },
+    {
+      "id": "qe-c10-0187",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-046",
+      "parentQuestionId": "q-c10-106",
+      "chapterId": "c10",
+      "sectionId": "c10-s09",
+      "paragraphId": "c10-s09-p119-05355",
+      "readingUnitId": "c10-s09-p119-05355-r005-008",
+      "sentenceIds": [
+        "c10-s09-p119-05355-s005",
+        "c10-s09-p119-05355-s006",
+        "c10-s09-p119-05355-s007",
+        "c10-s09-p119-05355-s008"
+      ],
+      "passage": "For instance, participants were asked to solve the Duncker candle problem. You have a candle, a pack of matches, and a box of tacks. Can you attach a candle to a wall so that the candle will burn properly and won’t drip wax on the table or floor? (The answer is in the endnotes.)",
+      "prompt": "Which set of materials is provided for the candle problem?",
+      "promptZh": "蜡烛问题提供哪组材料？",
+      "options": [
+        "A candle, a wall hook, and a ready-made candle holder.",
+        "A bookcase, timber, and a box of nails.",
+        "A candle, a pack of matches, and a box of tacks.",
+        "A candle, a pack of tacks, and a box of matches."
+      ],
+      "optionsZh": [
+        "蜡烛、墙钩和现成烛台。",
+        "书柜、木材和一盒钉子。",
+        "蜡烛、一包火柴和一盒图钉。",
+        "蜡烛、一包图钉和一盒火柴。"
+      ],
+      "answer": 2,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A 增加了未给的墙钩与烛台，改变任务。",
+        "B 混入后来 DIY 房屋例子的材料。",
+        "C 三个物品及 pack/box 的搭配逐项对应原句。",
+        "D 交换 matches 与 tacks 对应的容器；细节题需核对完整名词组。"
+      ],
+      "vocabulary": [
+        {
+          "word": "tacks",
+          "meaning": "图钉；短而头部较大的小钉子",
+          "context": "此处是材料清单的一项，不是航行路线或应对方式。",
+          "example": "The box of tacks was one of the puzzle's materials.",
+          "collocations": [
+            "a box of tacks",
+            "a pack of matches"
+          ]
+        }
+      ],
+      "translation": "例如，参与者被要求解 Duncker 蜡烛问题：你有一支蜡烛、一包火柴和一盒图钉。能把蜡烛固定墙上，让它正常燃烧又不把蜡滴到桌子或地板吗？答案见尾注。",
+      "evidenceTargetIds": [
+        "c10-s09-p119-05355-s006"
+      ],
+      "evidence": [
+        {
+          "quote": "For instance, participants were asked to solve the Duncker candle problem. You have a candle, a pack of matches, and a box of tacks. Can you attach a candle to a wall so that the candle will burn properly and won’t drip wax on the table or floor? (The answer is in the endnotes.)",
+          "sentenceIds": [
+            "c10-s09-p119-05355-s005",
+            "c10-s09-p119-05355-s006",
+            "c10-s09-p119-05355-s007",
+            "c10-s09-p119-05355-s008"
+          ],
+          "sources": [
+            {
+              "pdfPage": 119,
+              "block": 4,
+              "bbox": [
+                76.99,
+                535.5,
+                535.01,
+                706.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "2cde083d91bce31e0c74fe66dca67c1dda18b505fee5d22cd758fed52a5840c6"
+    },
+    {
+      "id": "qe-c10-0188",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-046",
+      "parentQuestionId": "q-c10-106",
+      "chapterId": "c10",
+      "sectionId": "c10-s09",
+      "paragraphId": "c10-s09-p119-05355",
+      "readingUnitId": "c10-s09-p119-05355-r005-008",
+      "sentenceIds": [
+        "c10-s09-p119-05355-s005",
+        "c10-s09-p119-05355-s006",
+        "c10-s09-p119-05355-s007",
+        "c10-s09-p119-05355-s008"
+      ],
+      "passage": "For instance, participants were asked to solve the Duncker candle problem. You have a candle, a pack of matches, and a box of tacks. Can you attach a candle to a wall so that the candle will burn properly and won’t drip wax on the table or floor? (The answer is in the endnotes.)",
+      "prompt": "What is the function of the parenthetical note about the endnotes?",
+      "promptZh": "有关 endnotes 的括号说明起什么作用？",
+      "options": [
+        "It directs readers to where the candle problem's answer can be found.",
+        "It states that every participant has solved the task correctly.",
+        "It supplies the complete solution in the current sentence.",
+        "It says the answer is absent from the book."
+      ],
+      "optionsZh": [
+        "指出读者可在何处找到蜡烛问题答案。",
+        "宣称每位参与者均已正确解题。",
+        "在当前句给出完整解法。",
+        "说本书没有答案。"
+      ],
+      "answer": 0,
+      "type": "作者意图",
+      "support": "explicit",
+      "analyses": [
+        "A in the endnotes 是答案位置提示。",
+        "B 指出答案位置不等于统计解题成功率。",
+        "C 本句只有指向信息，未展开解法。",
+        "D 与 is in 的肯定表达相反；不把这个书内提示当作当前英文阅读题的答案。"
+      ],
+      "vocabulary": [
+        {
+          "word": "endnotes",
+          "meaning": "尾注；书末集中列出的注释",
+          "context": "本句把读者引向书末，并非本段脚下的脚注。",
+          "example": "The reader was directed to the endnotes for the solution.",
+          "collocations": [
+            "in the endnotes",
+            "The answer is in"
+          ]
+        }
+      ],
+      "translation": "例如，参与者被要求解 Duncker 蜡烛问题：你有一支蜡烛、一包火柴和一盒图钉。能把蜡烛固定墙上，让它正常燃烧又不把蜡滴到桌子或地板吗？答案见尾注。",
+      "evidenceTargetIds": [
+        "c10-s09-p119-05355-s008"
+      ],
+      "evidence": [
+        {
+          "quote": "For instance, participants were asked to solve the Duncker candle problem. You have a candle, a pack of matches, and a box of tacks. Can you attach a candle to a wall so that the candle will burn properly and won’t drip wax on the table or floor? (The answer is in the endnotes.)",
+          "sentenceIds": [
+            "c10-s09-p119-05355-s005",
+            "c10-s09-p119-05355-s006",
+            "c10-s09-p119-05355-s007",
+            "c10-s09-p119-05355-s008"
+          ],
+          "sources": [
+            {
+              "pdfPage": 119,
+              "block": 4,
+              "bbox": [
+                76.99,
+                535.5,
+                535.01,
+                706.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "323732b9ddf8bd9a50485f03ba3e9dabcd695a4a21a5d1044fa0556f5c488d93"
+    },
+    {
+      "id": "q-c10-107",
+      "version": 1,
+      "readingUnitId": "c10-s09-p119-05355-r009-011",
+      "chapterId": "c10",
+      "sectionId": "c10-s09",
+      "paragraphId": "c10-s09-p119-05355",
+      "sentenceIds": [
+        "c10-s09-p119-05355-s009",
+        "c10-s09-p119-05355-s010",
+        "c10-s09-p119-05355-s011"
+      ],
+      "passage": "This is a widely used task for testing creativity. Among MBA students, those with more experience living abroad were more likely to solve the Duncker candle problem than those with less foreign experience. These findings were also replicated using different types of creativity tasks.",
+      "prompt": "Which conclusion is supported by the MBA comparison?",
+      "options": [
+        "Every student who lived abroad solved the task.",
+        "Foreign experience was randomly assigned in this comparison.",
+        "More experience living abroad was associated with a higher likelihood of solving the task.",
+        "The finding applied only to a single creativity task."
+      ],
+      "answer": 2,
+      "type": "推断",
+      "promptZh": "MBA 比较支持什么结论？",
+      "optionsZh": [
+        "所有海外生活者都解出。",
+        "比较中随机分配海外经验。",
+        "海外生活更多与解出概率较高相关。",
+        "发现只限一个创造力任务。"
+      ],
+      "analyses": [
+        "A more likely 是概率比较，不是全部成功。",
+        "B 没说随机安排出国。",
+        "C more...more likely 忠实保留比较；单凭这里不能定因果。",
+        "D different types...replicated 明说其他任务也重现。"
+      ],
+      "evidence": [
+        {
+          "quote": "those with more experience living abroad were more likely to solve the Duncker candle problem than those with less foreign experience.",
+          "sentenceIds": [
+            "c10-s09-p119-05355-s010"
+          ],
+          "sources": [
+            {
+              "pdfPage": 120,
+              "block": 0,
+              "bbox": [
+                76.99,
+                75,
+                535.01,
+                148.02
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "replicated",
+          "meaning": "复现；重复验证",
+          "context": "用不同创造力任务得到相似模式",
+          "example": "The result was replicated using another task.",
+          "collocations": [
+            "replicate findings",
+            "different types of tasks"
+          ]
+        }
+      ],
+      "translation": "这是广泛用于测试创造力的任务。MBA 学生中，海外生活经验更多者，比海外经验较少者更可能解出 Duncker 蜡烛问题。用不同创造力任务也复现了这些发现。",
+      "support": "explicit",
+      "editorialStatus": "完整PDF118–122原页视觉核对和跨页拼接。列车118接触/97回收/另105想象者分开，随机分组结果是自报愉快不作长期普适保证。Jobs自我归因与作者传记叙述非实验；海外生活MBA比较不擅加随机性；多文化机制保留speculate/seem、综述不冒充全部因果。DIY及微笑为作者个人文化经验，不推广为全体日本人规范；道德相对主义和作弊保留correlated，不诊断个体。Jobs艺术引语不当实证，奖励保留might。第11章逆境先设问，Nietzsche地震是哲学隐喻并承认破坏，非受害者必然成长或医学处方。不宣称逐句直接证据全覆盖。",
+      "fingerprint": "8797b508acee103c3f38eefd8cd6c66a3f79ec3f982149385df95be401924db6"
+    },
+    {
+      "id": "qe-c10-0189",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-046",
+      "parentQuestionId": "q-c10-107",
+      "chapterId": "c10",
+      "sectionId": "c10-s09",
+      "paragraphId": "c10-s09-p119-05355",
+      "readingUnitId": "c10-s09-p119-05355-r009-011",
+      "sentenceIds": [
+        "c10-s09-p119-05355-s009",
+        "c10-s09-p119-05355-s010",
+        "c10-s09-p119-05355-s011"
+      ],
+      "passage": "This is a widely used task for testing creativity. Among MBA students, those with more experience living abroad were more likely to solve the Duncker candle problem than those with less foreign experience. These findings were also replicated using different types of creativity tasks.",
+      "prompt": "What purpose is the candle task widely used for, according to the passage?",
+      "promptZh": "按原文，蜡烛任务被广泛用于什么目的？",
+      "options": [
+        "Checking whether all participants have travelled to India.",
+        "Measuring only a person's ability to remember train times.",
+        "Testing whether every person can build a house.",
+        "Testing creativity."
+      ],
+      "optionsZh": [
+        "查验所有参与者是否去过印度。",
+        "仅测记忆列车时刻的能力。",
+        "检验每人能否造房。",
+        "测试创造力。"
+      ],
+      "answer": 3,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A 旅游经历与题目表现可被比较，但任务目的不是查出入境。",
+        "B 未提列车时刻记忆。",
+        "C 把后续文化例子误移到当前任务。",
+        "D for testing creativity 明确给用途；广泛采用不表示单个任务穷尽创造力全部方面。"
+      ],
+      "vocabulary": [
+        {
+          "word": "widely used",
+          "meaning": "广泛使用的；被许多人采用的",
+          "context": "描述任务使用范围，不是保证任何人都会解题。",
+          "example": "The exercise is widely used as a creativity task.",
+          "collocations": [
+            "a widely used task",
+            "for testing creativity"
+          ]
+        }
+      ],
+      "translation": "这是广泛用于测试创造力的任务。MBA 学生中，海外生活经验更多者，比海外经验较少者更可能解出 Duncker 蜡烛问题。用不同创造力任务也复现了这些发现。",
+      "evidenceTargetIds": [
+        "c10-s09-p119-05355-s009"
+      ],
+      "evidence": [
+        {
+          "quote": "This is a widely used task for testing creativity. Among MBA students, those with more experience living abroad were more likely to solve the Duncker candle problem than those with less foreign experience. These findings were also replicated using different types of creativity tasks.",
+          "sentenceIds": [
+            "c10-s09-p119-05355-s009",
+            "c10-s09-p119-05355-s010",
+            "c10-s09-p119-05355-s011"
+          ],
+          "sources": [
+            {
+              "pdfPage": 119,
+              "block": 4,
+              "bbox": [
+                76.99,
+                535.5,
+                535.01,
+                706.02
+              ]
+            },
+            {
+              "pdfPage": 120,
+              "block": 0,
+              "bbox": [
+                76.99,
+                75,
+                535.01,
+                148.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "ad3967577ab07d79e5186a9f61f28f472810f64d4873ed3915c65dd6d23cf691"
+    },
+    {
+      "id": "qe-c10-0190",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-046",
+      "parentQuestionId": "q-c10-107",
+      "chapterId": "c10",
+      "sectionId": "c10-s09",
+      "paragraphId": "c10-s09-p119-05355",
+      "readingUnitId": "c10-s09-p119-05355-r009-011",
+      "sentenceIds": [
+        "c10-s09-p119-05355-s009",
+        "c10-s09-p119-05355-s010",
+        "c10-s09-p119-05355-s011"
+      ],
+      "passage": "This is a widely used task for testing creativity. Among MBA students, those with more experience living abroad were more likely to solve the Duncker candle problem than those with less foreign experience. These findings were also replicated using different types of creativity tasks.",
+      "prompt": "What does the replication sentence add to the candle-task findings?",
+      "promptZh": "复现结果的句子为蜡烛任务发现补充什么？",
+      "options": [
+        "The findings appeared only when exactly the same candle task was repeated.",
+        "The findings were reproduced using other kinds of creativity tasks too.",
+        "Every participant became equally creative after moving abroad.",
+        "No creativity task other than the candle problem was used."
+      ],
+      "optionsZh": [
+        "发现只在完全重复同一蜡烛任务时出现。",
+        "使用其他种类创造力任务，也复现了这些发现。",
+        "每个参与者出国后都变得同样有创造力。",
+        "除蜡烛问题外，未使用其他创造力任务。"
+      ],
+      "answer": 1,
+      "type": "证据范围",
+      "support": "explicit",
+      "analyses": [
+        "A different types 恰说明不限于同一任务。",
+        "B also replicated 扩大到不同任务的复现，但没有说每人结果一致。",
+        "C 前文是海外经历与解题表现的关系，不能补成人人出国后的统一因果变化。",
+        "D 与 different types of creativity tasks 明示相反。"
+      ],
+      "vocabulary": [
+        {
+          "word": "replicated",
+          "meaning": "复现；用研究再次得到相似发现",
+          "context": "不是抄写试题，也不是声称一次结果已被全部可能任务证明。",
+          "example": "The pattern was replicated with a different creativity task.",
+          "collocations": [
+            "findings were also replicated",
+            "different types of creativity tasks"
+          ]
+        }
+      ],
+      "translation": "这是广泛用于测试创造力的任务。MBA 学生中，海外生活经验更多者，比海外经验较少者更可能解出 Duncker 蜡烛问题。用不同创造力任务也复现了这些发现。",
+      "evidenceTargetIds": [
+        "c10-s09-p119-05355-s011"
+      ],
+      "evidence": [
+        {
+          "quote": "This is a widely used task for testing creativity. Among MBA students, those with more experience living abroad were more likely to solve the Duncker candle problem than those with less foreign experience. These findings were also replicated using different types of creativity tasks.",
+          "sentenceIds": [
+            "c10-s09-p119-05355-s009",
+            "c10-s09-p119-05355-s010",
+            "c10-s09-p119-05355-s011"
+          ],
+          "sources": [
+            {
+              "pdfPage": 119,
+              "block": 4,
+              "bbox": [
+                76.99,
+                535.5,
+                535.01,
+                706.02
+              ]
+            },
+            {
+              "pdfPage": 120,
+              "block": 0,
+              "bbox": [
+                76.99,
+                75,
+                535.01,
+                148.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "5d5e0b855f5197988b223173ce8f9f77a9c05f83c2e426c27e52d08af81dce41"
+    },
+    {
+      "id": "q-c10-108",
+      "version": 1,
+      "readingUnitId": "c10-s09-p120-01530-r001-004",
+      "chapterId": "c10",
+      "sectionId": "c10-s09",
+      "paragraphId": "c10-s09-p120-01530",
+      "sentenceIds": [
+        "c10-s09-p120-01530-s001",
+        "c10-s09-p120-01530-s002",
+        "c10-s09-p120-01530-s003",
+        "c10-s09-p120-01530-s004"
+      ],
+      "passage": "So, why should multicultural experiences be associated with creativity? Leung and colleagues speculate that people acquire novel ideas and concepts from multicultural experiences. One new concept I learned about when I moved to the U.S. was the possibility of building or renovating your own house. For an American reader, this is an ordinary idea.",
+      "prompt": "What mechanism do Leung and colleagues speculate about here?",
+      "options": [
+        "Exposure prevents people from learning any new concepts.",
+        "Multicultural experience introduces novel ideas and concepts.",
+        "Every American builds a house personally.",
+        "All creativity arises from house renovation alone."
+      ],
+      "answer": 1,
+      "type": "逻辑关系",
+      "promptZh": "Leung 及同事在此推测什么机制？",
+      "optionsZh": [
+        "接触阻止学习新概念。",
+        "多文化经历带来新想法和概念。",
+        "每个美国人亲手造房。",
+        "所有创造力只来自装修。"
+      ],
+      "analyses": [
+        "A acquire novel 与阻止相反。",
+        "B speculate 明确机制推测；建房是作者个人例子。",
+        "C ordinary idea 不等于人人实际亲自做。",
+        "D 一个例子不能限缩为唯一来源。"
+      ],
+      "evidence": [
+        {
+          "quote": "people acquire novel ideas and concepts from multicultural experiences.",
+          "sentenceIds": [
+            "c10-s09-p120-01530-s002"
+          ],
+          "sources": [
+            {
+              "pdfPage": 120,
+              "block": 1,
+              "bbox": [
+                76.99,
+                153,
+                535.01,
+                401.52
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "speculate",
+          "meaning": "推测；提出可能解释",
+          "context": "机制尚以推测表达，不改成该段独立实验证明",
+          "example": "The researchers speculate that new concepts support flexibility.",
+          "collocations": [
+            "speculate that",
+            "speculate about a mechanism"
+          ]
+        }
+      ],
+      "translation": "为何多文化经历应与创造力关联？Leung 及同事推测，人从中获得新想法和概念。我到美国后新学的概念之一，是自己建造或翻新房子的可能性。对美国读者，这是普通想法。",
+      "support": "explicit",
+      "editorialStatus": "完整PDF118–122原页视觉核对和跨页拼接。列车118接触/97回收/另105想象者分开，随机分组结果是自报愉快不作长期普适保证。Jobs自我归因与作者传记叙述非实验；海外生活MBA比较不擅加随机性；多文化机制保留speculate/seem、综述不冒充全部因果。DIY及微笑为作者个人文化经验，不推广为全体日本人规范；道德相对主义和作弊保留correlated，不诊断个体。Jobs艺术引语不当实证，奖励保留might。第11章逆境先设问，Nietzsche地震是哲学隐喻并承认破坏，非受害者必然成长或医学处方。不宣称逐句直接证据全覆盖。",
+      "fingerprint": "330c8494618235f1ff18d47880859a3be3ceb333def747722d8e86158fd325c8"
+    },
+    {
+      "id": "qe-c10-0191",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-046",
+      "parentQuestionId": "q-c10-108",
+      "chapterId": "c10",
+      "sectionId": "c10-s09",
+      "paragraphId": "c10-s09-p120-01530",
+      "readingUnitId": "c10-s09-p120-01530-r001-004",
+      "sentenceIds": [
+        "c10-s09-p120-01530-s001",
+        "c10-s09-p120-01530-s002",
+        "c10-s09-p120-01530-s003",
+        "c10-s09-p120-01530-s004"
+      ],
+      "passage": "So, why should multicultural experiences be associated with creativity? Leung and colleagues speculate that people acquire novel ideas and concepts from multicultural experiences. One new concept I learned about when I moved to the U.S. was the possibility of building or renovating your own house. For an American reader, this is an ordinary idea.",
+      "prompt": "What does the opening 'why' question ask the paragraph to explain?",
+      "promptZh": "段首 why 问句要下文解释什么？",
+      "options": [
+        "Whether the author ever travelled outside Japan.",
+        "Why every person abroad necessarily becomes a professional builder.",
+        "How to solve the candle problem using only the information in this sentence.",
+        "Why multicultural experiences might be linked with creativity."
+      ],
+      "optionsZh": [
+        "作者是否曾离开日本。",
+        "为何每个出国者都必成专业建筑工。",
+        "如何仅凭当前句解开蜡烛问题。",
+        "多文化经历为何可能与创造力相联系。"
+      ],
+      "answer": 3,
+      "type": "篇章结构",
+      "support": "explicit",
+      "analyses": [
+        "A 下文个人例子辅助解释，并非段首所问的经历核验。",
+        "B 从关联到人人必成建筑工，范围和结果都被扩大。",
+        "C 问的是关系解释，非蜡烛操作解法。",
+        "D associated with 标出关联，后句 speculate 再给一种解释设想；问句本身不证明因果机制。"
+      ],
+      "vocabulary": [
+        {
+          "word": "associated with",
+          "meaning": "与……相关联",
+          "context": "此处保持相关措辞，后续解释仍由 speculate 限定。",
+          "example": "The researchers asked why the experience was associated with creativity.",
+          "collocations": [
+            "be associated with creativity",
+            "multicultural experiences"
+          ]
+        }
+      ],
+      "translation": "为何多文化经历应与创造力关联？Leung 及同事推测，人从中获得新想法和概念。我到美国后新学的概念之一，是自己建造或翻新房子的可能性。对美国读者，这是普通想法。",
+      "evidenceTargetIds": [
+        "c10-s09-p120-01530-s001"
+      ],
+      "evidence": [
+        {
+          "quote": "So, why should multicultural experiences be associated with creativity? Leung and colleagues speculate that people acquire novel ideas and concepts from multicultural experiences. One new concept I learned about when I moved to the U.S. was the possibility of building or renovating your own house. For an American reader, this is an ordinary idea.",
+          "sentenceIds": [
+            "c10-s09-p120-01530-s001",
+            "c10-s09-p120-01530-s002",
+            "c10-s09-p120-01530-s003",
+            "c10-s09-p120-01530-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 120,
+              "block": 1,
+              "bbox": [
+                76.99,
+                153,
+                535.01,
+                401.52
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "0bfba3f2e53df34cbb13e6dcd24fad8e98fbee791c4968dc5964c69a1a1ae2f6"
+    },
+    {
+      "id": "qe-c10-0192",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-046",
+      "parentQuestionId": "q-c10-108",
+      "chapterId": "c10",
+      "sectionId": "c10-s09",
+      "paragraphId": "c10-s09-p120-01530",
+      "readingUnitId": "c10-s09-p120-01530-r001-004",
+      "sentenceIds": [
+        "c10-s09-p120-01530-s001",
+        "c10-s09-p120-01530-s002",
+        "c10-s09-p120-01530-s003",
+        "c10-s09-p120-01530-s004"
+      ],
+      "passage": "So, why should multicultural experiences be associated with creativity? Leung and colleagues speculate that people acquire novel ideas and concepts from multicultural experiences. One new concept I learned about when I moved to the U.S. was the possibility of building or renovating your own house. For an American reader, this is an ordinary idea.",
+      "prompt": "What new possibility did the author learn about after moving to the U.S.?",
+      "promptZh": "搬到美国后，作者了解到什么新的可能？",
+      "options": [
+        "Building or renovating one's own house.",
+        "The fact that no house can ever be renovated.",
+        "A requirement that every resident hire the same builder.",
+        "The claim that shelves are unknown in Japan."
+      ],
+      "optionsZh": [
+        "自己建造或翻新房屋。",
+        "任何房屋都绝不能翻新这一事实。",
+        "每位居民都必须雇同一建筑工的规定。",
+        "日本没有架子的说法。"
+      ],
+      "answer": 0,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A possibility of building or renovating your own house 直接对应。",
+        "B renovating 与绝不可能翻新相反。",
+        "C 自己动手的可能性不是统一雇人的要求。",
+        "D 后段反而列架子、书柜作为日本 DIY 例子；不能把作者学到的新概念扩大为两国绝对无例外的事实。"
+      ],
+      "vocabulary": [
+        {
+          "word": "renovating",
+          "meaning": "翻新；修缮更新",
+          "context": "与 building 并列，区分改造已有房屋与新建房屋。",
+          "example": "She was considering renovating her own house.",
+          "collocations": [
+            "building or renovating",
+            "your own house"
+          ]
+        }
+      ],
+      "translation": "为何多文化经历应与创造力关联？Leung 及同事推测，人从中获得新想法和概念。我到美国后新学的概念之一，是自己建造或翻新房子的可能性。对美国读者，这是普通想法。",
+      "evidenceTargetIds": [
+        "c10-s09-p120-01530-s003"
+      ],
+      "evidence": [
+        {
+          "quote": "So, why should multicultural experiences be associated with creativity? Leung and colleagues speculate that people acquire novel ideas and concepts from multicultural experiences. One new concept I learned about when I moved to the U.S. was the possibility of building or renovating your own house. For an American reader, this is an ordinary idea.",
+          "sentenceIds": [
+            "c10-s09-p120-01530-s001",
+            "c10-s09-p120-01530-s002",
+            "c10-s09-p120-01530-s003",
+            "c10-s09-p120-01530-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 120,
+              "block": 1,
+              "bbox": [
+                76.99,
+                153,
+                535.01,
+                401.52
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "d708c5cf047d72b6e40ccfd335809949b101fa903a46c9a0dcbc6153f8c58f70"
+    },
+    {
+      "id": "qe-c10-0193",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-046",
+      "parentQuestionId": "q-c10-108",
+      "chapterId": "c10",
+      "sectionId": "c10-s09",
+      "paragraphId": "c10-s09-p120-01530",
+      "readingUnitId": "c10-s09-p120-01530-r001-004",
+      "sentenceIds": [
+        "c10-s09-p120-01530-s001",
+        "c10-s09-p120-01530-s002",
+        "c10-s09-p120-01530-s003",
+        "c10-s09-p120-01530-s004"
+      ],
+      "passage": "So, why should multicultural experiences be associated with creativity? Leung and colleagues speculate that people acquire novel ideas and concepts from multicultural experiences. One new concept I learned about when I moved to the U.S. was the possibility of building or renovating your own house. For an American reader, this is an ordinary idea.",
+      "prompt": "For whom is the idea described as ordinary?",
+      "promptZh": "文中对谁而言，这个想法很普通？",
+      "options": [
+        "Only the author's Tokyo college friends, as proved by their recorded replies.",
+        "Every reader regardless of cultural background, with no distinction.",
+        "An American reader.",
+        "The author before he had ever heard of it."
+      ],
+      "optionsZh": [
+        "仅限作者的东京大学朋友，且有实际回复证明。",
+        "不分文化背景的所有读者，毫无区别。",
+        "美国读者。",
+        "从未听过这个想法之前的作者。"
+      ],
+      "answer": 2,
+      "type": "观点归属",
+      "support": "explicit",
+      "analyses": [
+        "A 此处未给朋友实际回复，其假设反应在后面。",
+        "B For an American reader 限定视角，不能删除。",
+        "C ordinary 的判断被放在美国读者视角。",
+        "D 作者前句把它称为自己学到的新概念，下一段还强调其新颖。"
+      ],
+      "vocabulary": [
+        {
+          "word": "ordinary",
+          "meaning": "平常的；不特别新奇的",
+          "context": "本句明确限定看待想法的文化视角，不表示想法无用。",
+          "example": "An idea that seems ordinary to one reader may surprise another.",
+          "collocations": [
+            "For an American reader",
+            "an ordinary idea"
+          ]
+        }
+      ],
+      "translation": "为何多文化经历应与创造力关联？Leung 及同事推测，人从中获得新想法和概念。我到美国后新学的概念之一，是自己建造或翻新房子的可能性。对美国读者，这是普通想法。",
+      "evidenceTargetIds": [
+        "c10-s09-p120-01530-s004"
+      ],
+      "evidence": [
+        {
+          "quote": "So, why should multicultural experiences be associated with creativity? Leung and colleagues speculate that people acquire novel ideas and concepts from multicultural experiences. One new concept I learned about when I moved to the U.S. was the possibility of building or renovating your own house. For an American reader, this is an ordinary idea.",
+          "sentenceIds": [
+            "c10-s09-p120-01530-s001",
+            "c10-s09-p120-01530-s002",
+            "c10-s09-p120-01530-s003",
+            "c10-s09-p120-01530-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 120,
+              "block": 1,
+              "bbox": [
+                76.99,
+                153,
+                535.01,
+                401.52
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "3597d4fab631a36b3d569cdf92b9eb5bce98403c6b0b4c79c2ba4bb0ce3e11e4"
+    },
+    {
+      "id": "q-c10-109",
+      "version": 1,
+      "readingUnitId": "c10-s09-p120-01530-r005-008",
+      "chapterId": "c10",
+      "sectionId": "c10-s09",
+      "paragraphId": "c10-s09-p120-01530",
+      "sentenceIds": [
+        "c10-s09-p120-01530-s005",
+        "c10-s09-p120-01530-s006",
+        "c10-s09-p120-01530-s007",
+        "c10-s09-p120-01530-s008"
+      ],
+      "passage": "To me, it was a radical idea. To be clear, DIY does exist in Japan, but it typically involves small projects like building shelves or bookcases. I had never imagined that nonprofessionals would try to renovate or build a whole house by themselves. That aspiration, that frontier spirit, was new to me.",
+      "prompt": "What was new to the author about DIY?",
+      "options": [
+        "DIY was entirely absent from Japan.",
+        "Japanese DIY always involved constructing whole houses.",
+        "Only licensed professionals could ever make shelves.",
+        "Nonprofessionals might renovate or build an entire house themselves."
+      ],
+      "answer": 3,
+      "type": "细节",
+      "promptZh": "DIY 的什么对作者新鲜？",
+      "optionsZh": [
+        "日本完全无 DIY。",
+        "日本 DIY 总是整屋建造。",
+        "只有持证专业者能做架子。",
+        "非专业人士也可能自己翻新或建整屋。"
+      ],
+      "analyses": [
+        "A 明确 DIY does exist。",
+        "B typically small projects，而非总整屋。",
+        "C 没有资格限制陈述。",
+        "D had never imagined...whole house 对应新观念，非全日本人的统一经历。"
+      ],
+      "evidence": [
+        {
+          "quote": "I had never imagined that nonprofessionals would try to renovate or build a whole house by themselves.",
+          "sentenceIds": [
+            "c10-s09-p120-01530-s007"
+          ],
+          "sources": [
+            {
+              "pdfPage": 120,
+              "block": 1,
+              "bbox": [
+                76.99,
+                153,
+                535.01,
+                401.52
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "nonprofessionals",
+          "meaning": "非专业人士",
+          "context": "不以此为专业的普通人尝试整屋工程",
+          "example": "The workshop introduced simple repairs to nonprofessionals.",
+          "collocations": [
+            "nonprofessionals would try",
+            "build a whole house"
+          ]
+        }
+      ],
+      "translation": "对我却是激进想法。说清楚，日本确实有 DIY，但通常是架子、书柜等小工程。我从没想过，非专业人士会试着亲自翻新或造整所房。那种志向、开拓精神，对我都是新的。",
+      "support": "explicit",
+      "editorialStatus": "完整PDF118–122原页视觉核对和跨页拼接。列车118接触/97回收/另105想象者分开，随机分组结果是自报愉快不作长期普适保证。Jobs自我归因与作者传记叙述非实验；海外生活MBA比较不擅加随机性；多文化机制保留speculate/seem、综述不冒充全部因果。DIY及微笑为作者个人文化经验，不推广为全体日本人规范；道德相对主义和作弊保留correlated，不诊断个体。Jobs艺术引语不当实证，奖励保留might。第11章逆境先设问，Nietzsche地震是哲学隐喻并承认破坏，非受害者必然成长或医学处方。不宣称逐句直接证据全覆盖。",
+      "fingerprint": "30266bb3e338ba037137f984572bbd58da7a59a9294b613e38fcd8465336ce4b"
+    },
+    {
+      "id": "qe-c10-0194",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-046",
+      "parentQuestionId": "q-c10-109",
+      "chapterId": "c10",
+      "sectionId": "c10-s09",
+      "paragraphId": "c10-s09-p120-01530",
+      "readingUnitId": "c10-s09-p120-01530-r005-008",
+      "sentenceIds": [
+        "c10-s09-p120-01530-s005",
+        "c10-s09-p120-01530-s006",
+        "c10-s09-p120-01530-s007",
+        "c10-s09-p120-01530-s008"
+      ],
+      "passage": "To me, it was a radical idea. To be clear, DIY does exist in Japan, but it typically involves small projects like building shelves or bookcases. I had never imagined that nonprofessionals would try to renovate or build a whole house by themselves. That aspiration, that frontier spirit, was new to me.",
+      "prompt": "How does 'To me, it was a radical idea' position the author's response?",
+      "promptZh": "To me, it was a radical idea 如何描述作者的反应？",
+      "options": [
+        "He says the idea was already familiar to him from childhood.",
+        "He regards the idea as a striking departure from his previous expectations.",
+        "He reports that Japanese law prohibited all DIY.",
+        "He defines radical as a political party's official building policy."
+      ],
+      "optionsZh": [
+        "他说自己自幼已熟悉这个想法。",
+        "他认为这个想法显著突破自己原先的预期。",
+        "他报告日本法律禁止一切 DIY。",
+        "他把 radical 定义为某政党的正式建筑政策。"
+      ],
+      "answer": 1,
+      "type": "语境词义",
+      "support": "explicit",
+      "analyses": [
+        "A radical 与此前习以为常相反。",
+        "B To me 限定个人视角，radical 强调与旧想法差距大；不要求它对每个读者都新。",
+        "C 后句 does exist 还承认日本有 DIY，未提禁令。",
+        "D 语境是自己翻新或造房的新观念，不是政治归属。"
+      ],
+      "vocabulary": [
+        {
+          "word": "radical",
+          "meaning": "突破原有观念的；很不寻常的",
+          "context": "此处说作者感受到的新颖程度，非必然危险或政治极端。",
+          "example": "Building a whole house seemed a radical idea to the newcomer.",
+          "collocations": [
+            "a radical idea",
+            "To me"
+          ]
+        }
+      ],
+      "translation": "对我却是激进想法。说清楚，日本确实有 DIY，但通常是架子、书柜等小工程。我从没想过，非专业人士会试着亲自翻新或造整所房。那种志向、开拓精神，对我都是新的。",
+      "evidenceTargetIds": [
+        "c10-s09-p120-01530-s005"
+      ],
+      "evidence": [
+        {
+          "quote": "To me, it was a radical idea. To be clear, DIY does exist in Japan, but it typically involves small projects like building shelves or bookcases. I had never imagined that nonprofessionals would try to renovate or build a whole house by themselves. That aspiration, that frontier spirit, was new to me.",
+          "sentenceIds": [
+            "c10-s09-p120-01530-s005",
+            "c10-s09-p120-01530-s006",
+            "c10-s09-p120-01530-s007",
+            "c10-s09-p120-01530-s008"
+          ],
+          "sources": [
+            {
+              "pdfPage": 120,
+              "block": 1,
+              "bbox": [
+                76.99,
+                153,
+                535.01,
+                401.52
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "2bfcbf2381bb8085f2e0f0aedf081eeadb764fd50378b0b9875c1569bc556d96"
+    },
+    {
+      "id": "qe-c10-0195",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-046",
+      "parentQuestionId": "q-c10-109",
+      "chapterId": "c10",
+      "sectionId": "c10-s09",
+      "paragraphId": "c10-s09-p120-01530",
+      "readingUnitId": "c10-s09-p120-01530-r005-008",
+      "sentenceIds": [
+        "c10-s09-p120-01530-s005",
+        "c10-s09-p120-01530-s006",
+        "c10-s09-p120-01530-s007",
+        "c10-s09-p120-01530-s008"
+      ],
+      "passage": "To me, it was a radical idea. To be clear, DIY does exist in Japan, but it typically involves small projects like building shelves or bookcases. I had never imagined that nonprofessionals would try to renovate or build a whole house by themselves. That aspiration, that frontier spirit, was new to me.",
+      "prompt": "What qualification does the author make about DIY in Japan?",
+      "promptZh": "作者对日本 DIY 作了什么限定说明？",
+      "options": [
+        "It is said not to exist there in any form.",
+        "It typically means that every amateur constructs an entire house.",
+        "It refers exclusively to buying finished furniture with no work involved.",
+        "It exists, but usually involves smaller projects such as shelves or bookcases."
+      ],
+      "optionsZh": [
+        "说它在日本完全不存在。",
+        "它通常意味着每位业余者造整所房。",
+        "它仅指不动手购买成品家具。",
+        "它存在，但通常是架子、书柜等较小项目。"
+      ],
+      "answer": 3,
+      "type": "逻辑关系",
+      "support": "explicit",
+      "analyses": [
+        "A does exist 强调确有，不能读成不存在。",
+        "B but 后范围是 small projects，非人人造整房。",
+        "C building shelves or bookcases 明确包含动手制作。",
+        "D 让步确认存在，再以 typically 限定常见规模；没有说绝无较大例外。"
+      ],
+      "vocabulary": [
+        {
+          "word": "typically",
+          "meaning": "通常；一般情况下",
+          "context": "标示常见倾向，避免把 small projects 改成无例外的唯一范围。",
+          "example": "DIY typically involved small furniture projects in his account.",
+          "collocations": [
+            "it typically involves",
+            "small projects"
+          ]
+        }
+      ],
+      "translation": "对我却是激进想法。说清楚，日本确实有 DIY，但通常是架子、书柜等小工程。我从没想过，非专业人士会试着亲自翻新或造整所房。那种志向、开拓精神，对我都是新的。",
+      "evidenceTargetIds": [
+        "c10-s09-p120-01530-s006"
+      ],
+      "evidence": [
+        {
+          "quote": "To me, it was a radical idea. To be clear, DIY does exist in Japan, but it typically involves small projects like building shelves or bookcases. I had never imagined that nonprofessionals would try to renovate or build a whole house by themselves. That aspiration, that frontier spirit, was new to me.",
+          "sentenceIds": [
+            "c10-s09-p120-01530-s005",
+            "c10-s09-p120-01530-s006",
+            "c10-s09-p120-01530-s007",
+            "c10-s09-p120-01530-s008"
+          ],
+          "sources": [
+            {
+              "pdfPage": 120,
+              "block": 1,
+              "bbox": [
+                76.99,
+                153,
+                535.01,
+                401.52
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "ae0fc5f1d618e0c9cb345cab60ef26502b5d9842c9e2db9f5f21bfb05a91acbe"
+    },
+    {
+      "id": "qe-c10-0196",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-046",
+      "parentQuestionId": "q-c10-109",
+      "chapterId": "c10",
+      "sectionId": "c10-s09",
+      "paragraphId": "c10-s09-p120-01530",
+      "readingUnitId": "c10-s09-p120-01530-r005-008",
+      "sentenceIds": [
+        "c10-s09-p120-01530-s005",
+        "c10-s09-p120-01530-s006",
+        "c10-s09-p120-01530-s007",
+        "c10-s09-p120-01530-s008"
+      ],
+      "passage": "To me, it was a radical idea. To be clear, DIY does exist in Japan, but it typically involves small projects like building shelves or bookcases. I had never imagined that nonprofessionals would try to renovate or build a whole house by themselves. That aspiration, that frontier spirit, was new to me.",
+      "prompt": "What is being described as new in 'That aspiration, that frontier spirit'?",
+      "promptZh": "That aspiration, that frontier spirit 说什么对作者是新的？",
+      "options": [
+        "The ambition for nonprofessionals to renovate or build a whole house themselves.",
+        "The discovery that no one had ever built a shelf in Japan.",
+        "An actual order from all of his Tokyo friends to build a house.",
+        "A promise that an amateur house will always cost nothing."
+      ],
+      "optionsZh": [
+        "非专业人士亲自翻新或建整所房的志向。",
+        "发现日本从未有人做过架子。",
+        "他所有东京朋友发出的实际造房指令。",
+        "业余者造房总是零花费的承诺。"
+      ],
+      "answer": 0,
+      "type": "指代",
+      "support": "explicit",
+      "analyses": [
+        "A That 回指前句 nonprofessionals...whole house...by themselves，frontier spirit 概括这种敢于尝试的志向。",
+        "B 原文已列日本架子项目，并非无人做过。",
+        "C 没有实际指令或朋友调查。",
+        "D 本段不交代免费，更不保证成本为零；不把精神比喻读成地理边境或成本结论。"
+      ],
+      "vocabulary": [
+        {
+          "word": "aspiration",
+          "meaning": "志向；想实现某件事的愿望",
+          "context": "这里是自行完成较大建房项目的进取愿望，不是呼吸动作。",
+          "example": "That aspiration to undertake a larger project surprised him.",
+          "collocations": [
+            "That aspiration",
+            "that frontier spirit"
+          ]
+        }
+      ],
+      "translation": "对我却是激进想法。说清楚，日本确实有 DIY，但通常是架子、书柜等小工程。我从没想过，非专业人士会试着亲自翻新或造整所房。那种志向、开拓精神，对我都是新的。",
+      "evidenceTargetIds": [
+        "c10-s09-p120-01530-s008"
+      ],
+      "evidence": [
+        {
+          "quote": "To me, it was a radical idea. To be clear, DIY does exist in Japan, but it typically involves small projects like building shelves or bookcases. I had never imagined that nonprofessionals would try to renovate or build a whole house by themselves. That aspiration, that frontier spirit, was new to me.",
+          "sentenceIds": [
+            "c10-s09-p120-01530-s005",
+            "c10-s09-p120-01530-s006",
+            "c10-s09-p120-01530-s007",
+            "c10-s09-p120-01530-s008"
+          ],
+          "sources": [
+            {
+              "pdfPage": 120,
+              "block": 1,
+              "bbox": [
+                76.99,
+                153,
+                535.01,
+                401.52
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "3d31c2987bc2683443925427581319936d5bd5b07497d988d4449e550583f069"
+    },
+    {
+      "id": "q-c10-110",
+      "version": 1,
+      "readingUnitId": "c10-s09-p120-01530-r009-011",
+      "chapterId": "c10",
+      "sectionId": "c10-s09",
+      "paragraphId": "c10-s09-p120-01530",
+      "sentenceIds": [
+        "c10-s09-p120-01530-s009",
+        "c10-s09-p120-01530-s010",
+        "c10-s09-p120-01530-s011"
+      ],
+      "passage": "American balloon framing is a genius invention that makes constructing houses easier. These concepts were totally out-of-box thinking to me, but now seem quite normal. I bet my college friends in Tokyo would think I was crazy if I decided to build my own house.",
+      "prompt": "What change in the author’s outlook is described?",
+      "options": [
+        "Previously unconventional concepts now seem normal to him.",
+        "His friends had already helped him build a house.",
+        "He had proved that every Tokyo friend opposed DIY.",
+        "Balloon framing made construction more difficult."
+      ],
+      "answer": 0,
+      "type": "推断",
+      "promptZh": "作者描述什么观念变化？",
+      "optionsZh": [
+        "原先跳出常规的概念如今显得正常。",
+        "朋友已帮他造房。",
+        "已证明每位东京朋友都反对 DIY。",
+        "轻木框架令建造更难。"
+      ],
+      "analyses": [
+        "A totally out-of-box...but now...normal 明确前后变化。",
+        "B if I decided 是假设，不是已建成。",
+        "C I bet 是猜想朋友反应，非调查全部友人。",
+        "D makes...easier 明说更容易。"
+      ],
+      "evidence": [
+        {
+          "quote": "These concepts were totally out-of-box thinking to me, but now seem quite normal.",
+          "sentenceIds": [
+            "c10-s09-p120-01530-s010"
+          ],
+          "sources": [
+            {
+              "pdfPage": 120,
+              "block": 1,
+              "bbox": [
+                76.99,
+                153,
+                535.01,
+                401.52
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "out-of-box",
+          "meaning": "跳出框架的；不循常规的",
+          "context": "相对于作者原有经验的新颖思路",
+          "example": "The approach encouraged out-of-box thinking.",
+          "collocations": [
+            "out-of-box thinking",
+            "seem quite normal"
+          ]
+        }
+      ],
+      "translation": "美国的 balloon framing 轻木框架是一项巧妙发明，让造房更容易。这些概念对我曾完全跳出框架，如今却很正常。我打赌，若决定自己造房，Tokyo 的大学朋友会觉得我疯了。",
+      "support": "explicit",
+      "editorialStatus": "完整PDF118–122原页视觉核对和跨页拼接。列车118接触/97回收/另105想象者分开，随机分组结果是自报愉快不作长期普适保证。Jobs自我归因与作者传记叙述非实验；海外生活MBA比较不擅加随机性；多文化机制保留speculate/seem、综述不冒充全部因果。DIY及微笑为作者个人文化经验，不推广为全体日本人规范；道德相对主义和作弊保留correlated，不诊断个体。Jobs艺术引语不当实证，奖励保留might。第11章逆境先设问，Nietzsche地震是哲学隐喻并承认破坏，非受害者必然成长或医学处方。不宣称逐句直接证据全覆盖。",
+      "fingerprint": "825ff88aec6f9d12082b01b9e5edab039c771c9ff73a611803f94ec71831f106"
+    },
+    {
+      "id": "qe-c10-0197",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-046",
+      "parentQuestionId": "q-c10-110",
+      "chapterId": "c10",
+      "sectionId": "c10-s09",
+      "paragraphId": "c10-s09-p120-01530",
+      "readingUnitId": "c10-s09-p120-01530-r009-011",
+      "sentenceIds": [
+        "c10-s09-p120-01530-s009",
+        "c10-s09-p120-01530-s010",
+        "c10-s09-p120-01530-s011"
+      ],
+      "passage": "American balloon framing is a genius invention that makes constructing houses easier. These concepts were totally out-of-box thinking to me, but now seem quite normal. I bet my college friends in Tokyo would think I was crazy if I decided to build my own house.",
+      "prompt": "What benefit does the author attribute to American balloon framing?",
+      "promptZh": "作者把什么好处归于 American balloon framing？",
+      "options": [
+        "It makes construction unnecessary because houses already exist.",
+        "It makes building a house more difficult for every person.",
+        "It makes constructing houses easier.",
+        "It is said to be an invention made by the author himself."
+      ],
+      "optionsZh": [
+        "让造房不再必要，因为房子本已存在。",
+        "让每个人造房都更难。",
+        "让建造房屋更容易。",
+        "被说成作者本人的发明。"
+      ],
+      "answer": 2,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A easier 是容易些，并非无需建造。",
+        "B 方向与 makes...easier 相反。",
+        "C that 从句给出作者赞许这项发明的作用。",
+        "D American 不等于由叙述者发明，文中没有作者自认发明者；这里只按书中介绍理解，不增加具体技术规格。"
+      ],
+      "vocabulary": [
+        {
+          "word": "constructing",
+          "meaning": "建造；搭建",
+          "context": "在此指房屋建造，不是构造一个论证。",
+          "example": "The method made constructing a small house easier.",
+          "collocations": [
+            "makes constructing houses easier",
+            "a genius invention"
+          ]
+        }
+      ],
+      "translation": "美国的 balloon framing 轻木框架是一项巧妙发明，让造房更容易。这些概念对我曾完全跳出框架，如今却很正常。我打赌，若决定自己造房，Tokyo 的大学朋友会觉得我疯了。",
+      "evidenceTargetIds": [
+        "c10-s09-p120-01530-s009"
+      ],
+      "evidence": [
+        {
+          "quote": "American balloon framing is a genius invention that makes constructing houses easier. These concepts were totally out-of-box thinking to me, but now seem quite normal. I bet my college friends in Tokyo would think I was crazy if I decided to build my own house.",
+          "sentenceIds": [
+            "c10-s09-p120-01530-s009",
+            "c10-s09-p120-01530-s010",
+            "c10-s09-p120-01530-s011"
+          ],
+          "sources": [
+            {
+              "pdfPage": 120,
+              "block": 1,
+              "bbox": [
+                76.99,
+                153,
+                535.01,
+                401.52
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "b8e349d2b0a81f5656ee4b0dedeca6bfdac9ca44da30b9caf287ccac7f7a330a"
+    },
+    {
+      "id": "qe-c10-0198",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-046",
+      "parentQuestionId": "q-c10-110",
+      "chapterId": "c10",
+      "sectionId": "c10-s09",
+      "paragraphId": "c10-s09-p120-01530",
+      "readingUnitId": "c10-s09-p120-01530-r009-011",
+      "sentenceIds": [
+        "c10-s09-p120-01530-s009",
+        "c10-s09-p120-01530-s010",
+        "c10-s09-p120-01530-s011"
+      ],
+      "passage": "American balloon framing is a genius invention that makes constructing houses easier. These concepts were totally out-of-box thinking to me, but now seem quite normal. I bet my college friends in Tokyo would think I was crazy if I decided to build my own house.",
+      "prompt": "What is the status of the claim about the author's college friends in Tokyo?",
+      "promptZh": "关于东京大学朋友的说法属于哪种状态？",
+      "options": [
+        "It records their actual responses after visiting his completed house.",
+        "It is his conjecture about how they would react if he decided to build his own house.",
+        "It reports that every friend has already built an identical house.",
+        "It is a direct quotation from a survey completed by those friends."
+      ],
+      "optionsZh": [
+        "记录他们参观他已建房后的实际回应。",
+        "是作者对自己若决定造房时，他们会如何反应的猜想。",
+        "报告每个朋友都已造同款房。",
+        "是这些朋友填写的调查中的直接引语。"
+      ],
+      "answer": 1,
+      "type": "证据范围",
+      "support": "explicit",
+      "analyses": [
+        "A if I decided 仍为假设，非完成建房后的反馈。",
+        "B I bet 与 would...if 显示作者预计反应，并非朋友实际报告。",
+        "C 句中无朋友造房事实。",
+        "D 无调查或朋友引语，不能把叙述者猜测转作实测证据。"
+      ],
+      "vocabulary": [
+        {
+          "word": "I bet",
+          "meaning": "我敢说；我料想",
+          "context": "此处是表达很有把握的推测，不是实际下注记录或确证。",
+          "example": "I bet my friends would be surprised if I changed careers.",
+          "collocations": [
+            "I bet my college friends",
+            "if I decided to build"
+          ]
+        }
+      ],
+      "translation": "美国的 balloon framing 轻木框架是一项巧妙发明，让造房更容易。这些概念对我曾完全跳出框架，如今却很正常。我打赌，若决定自己造房，Tokyo 的大学朋友会觉得我疯了。",
+      "evidenceTargetIds": [
+        "c10-s09-p120-01530-s011"
+      ],
+      "evidence": [
+        {
+          "quote": "American balloon framing is a genius invention that makes constructing houses easier. These concepts were totally out-of-box thinking to me, but now seem quite normal. I bet my college friends in Tokyo would think I was crazy if I decided to build my own house.",
+          "sentenceIds": [
+            "c10-s09-p120-01530-s009",
+            "c10-s09-p120-01530-s010",
+            "c10-s09-p120-01530-s011"
+          ],
+          "sources": [
+            {
+              "pdfPage": 120,
+              "block": 1,
+              "bbox": [
+                76.99,
+                153,
+                535.01,
+                401.52
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "f3e06d956dddb41283f0aa564deb12c56d807eed8aaad54304f57a69fd366228"
+    },
+    {
+      "id": "q-c10-111",
+      "version": 1,
+      "readingUnitId": "c10-s09-p120-04065-r001-004",
+      "chapterId": "c10",
+      "sectionId": "c10-s09",
+      "paragraphId": "c10-s09-p120-04065",
+      "sentenceIds": [
+        "c10-s09-p120-04065-s001",
+        "c10-s09-p120-04065-s002",
+        "c10-s09-p120-04065-s003",
+        "c10-s09-p120-04065-s004"
+      ],
+      "passage": "Leung and colleagues also speculate that multicultural experiences teach us to recognize that the same behavior can have different meanings. A smile is a good example. I was raised not to smile in front of people because it could come across as impolite. But when I came to the U.S., everyone told me to smile more because it would be more polite!",
+      "prompt": "What does the smile example illustrate?",
+      "options": [
+        "Smiling has exactly the same meaning everywhere.",
+        "Multicultural experience erases all cultural interpretation.",
+        "The same behavior can carry different meanings in different settings.",
+        "The author was never told to change his behavior."
+      ],
+      "answer": 2,
+      "type": "主旨",
+      "promptZh": "微笑例子说明什么？",
+      "optionsZh": [
+        "到处含义完全相同。",
+        "多文化经历消除全部文化解释。",
+        "同一行为在不同环境可有不同含义。",
+        "作者从未被要求改行为。"
+      ],
+      "analyses": [
+        "A same behavior...different meanings 正相反。",
+        "B 是认识多种意义，非消除解释。",
+        "C 作者成长中与到美国后的礼貌反馈对照。",
+        "D 被告知 smile more。这是个人文化经历与研究者推测，不把日本所有情境都简化成禁止微笑。"
+      ],
+      "evidence": [
+        {
+          "quote": "the same behavior can have different meanings.",
+          "sentenceIds": [
+            "c10-s09-p120-04065-s001"
+          ],
+          "sources": [
+            {
+              "pdfPage": 120,
+              "block": 2,
+              "bbox": [
+                76.99,
+                406.5,
+                535.01,
+                713.52
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "come across as",
+          "meaning": "给人……印象",
+          "context": "微笑在作者成长规范下可能被认为不礼貌",
+          "example": "A brief reply can come across as impolite.",
+          "collocations": [
+            "come across as impolite",
+            "come across as friendly"
+          ]
+        }
+      ],
+      "translation": "Leung 及同事还推测，多文化经历教我们认识，同一行为会有不同意义。微笑是好例子。我从小受教在人前别微笑，因为可能显得不礼貌。但到美国，人人叫我多笑，说这样更礼貌！",
+      "support": "explicit",
+      "editorialStatus": "完整PDF118–122原页视觉核对和跨页拼接。列车118接触/97回收/另105想象者分开，随机分组结果是自报愉快不作长期普适保证。Jobs自我归因与作者传记叙述非实验；海外生活MBA比较不擅加随机性；多文化机制保留speculate/seem、综述不冒充全部因果。DIY及微笑为作者个人文化经验，不推广为全体日本人规范；道德相对主义和作弊保留correlated，不诊断个体。Jobs艺术引语不当实证，奖励保留might。第11章逆境先设问，Nietzsche地震是哲学隐喻并承认破坏，非受害者必然成长或医学处方。不宣称逐句直接证据全覆盖。",
+      "fingerprint": "b02ae423d4acbe126eb5c585803a81e288ecc39e4f0ced8519f50bc585d7c691"
+    },
+    {
+      "id": "qe-c10-0199",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-046",
+      "parentQuestionId": "q-c10-111",
+      "chapterId": "c10",
+      "sectionId": "c10-s09",
+      "paragraphId": "c10-s09-p120-04065",
+      "readingUnitId": "c10-s09-p120-04065-r001-004",
+      "sentenceIds": [
+        "c10-s09-p120-04065-s001",
+        "c10-s09-p120-04065-s002",
+        "c10-s09-p120-04065-s003",
+        "c10-s09-p120-04065-s004"
+      ],
+      "passage": "Leung and colleagues also speculate that multicultural experiences teach us to recognize that the same behavior can have different meanings. A smile is a good example. I was raised not to smile in front of people because it could come across as impolite. But when I came to the U.S., everyone told me to smile more because it would be more polite!",
+      "prompt": "What does the example of a smile illustrate in this paragraph?",
+      "promptZh": "微笑例子在本段说明什么？",
+      "options": [
+        "The same behaviour must have exactly the same meaning everywhere.",
+        "The author has measured the facial muscles of every reader.",
+        "A smile is the only human action that can carry a social meaning.",
+        "The same behaviour can be interpreted differently in different cultural settings."
+      ],
+      "optionsZh": [
+        "同一行为在各处必须意义完全相同。",
+        "作者测量了每位读者的面部肌肉。",
+        "微笑是唯一有社会意义的人的行为。",
+        "同一行为在不同文化环境中可被不同解读。"
+      ],
+      "answer": 3,
+      "type": "作者意图",
+      "support": "explicit",
+      "analyses": [
+        "A 前句 different meanings 指向相反结论。",
+        "B 是个人经历的说明例，不是面部肌肉普查。",
+        "C good example 不等于唯一可带意义的行为。",
+        "D A smile 接上同一行为不同意义的观点，下两句展示礼貌判断的反差；并非宣称每个文化中的所有个人都一致。"
+      ],
+      "vocabulary": [
+        {
+          "word": "example",
+          "meaning": "例子；用于说明前述观点的事例",
+          "context": "这里微笑用于说明行为含义可变，不是已经单独证实机制的实验。",
+          "example": "A greeting can serve as an example of culturally variable meaning.",
+          "collocations": [
+            "A smile is a good example",
+            "different meanings"
+          ]
+        }
+      ],
+      "translation": "Leung 及同事还推测，多文化经历教我们认识，同一行为会有不同意义。微笑是好例子。我从小受教在人前别微笑，因为可能显得不礼貌。但到美国，人人叫我多笑，说这样更礼貌！",
+      "evidenceTargetIds": [
+        "c10-s09-p120-04065-s002"
+      ],
+      "evidence": [
+        {
+          "quote": "Leung and colleagues also speculate that multicultural experiences teach us to recognize that the same behavior can have different meanings. A smile is a good example. I was raised not to smile in front of people because it could come across as impolite. But when I came to the U.S., everyone told me to smile more because it would be more polite!",
+          "sentenceIds": [
+            "c10-s09-p120-04065-s001",
+            "c10-s09-p120-04065-s002",
+            "c10-s09-p120-04065-s003",
+            "c10-s09-p120-04065-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 120,
+              "block": 2,
+              "bbox": [
+                76.99,
+                406.5,
+                535.01,
+                713.52
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "9481f2272533ad9444bfef18386ea58897158434648f2b097a7c7f48570d5947"
+    },
+    {
+      "id": "qe-c10-0200",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-046",
+      "parentQuestionId": "q-c10-111",
+      "chapterId": "c10",
+      "sectionId": "c10-s09",
+      "paragraphId": "c10-s09-p120-04065",
+      "readingUnitId": "c10-s09-p120-04065-r001-004",
+      "sentenceIds": [
+        "c10-s09-p120-04065-s001",
+        "c10-s09-p120-04065-s002",
+        "c10-s09-p120-04065-s003",
+        "c10-s09-p120-04065-s004"
+      ],
+      "passage": "Leung and colleagues also speculate that multicultural experiences teach us to recognize that the same behavior can have different meanings. A smile is a good example. I was raised not to smile in front of people because it could come across as impolite. But when I came to the U.S., everyone told me to smile more because it would be more polite!",
+      "prompt": "Why had the author been brought up not to smile in front of people?",
+      "promptZh": "作者从小为何被教导在人前不要微笑？",
+      "options": [
+        "It could be perceived as impolite.",
+        "Everyone had told him that smiling was the only polite behaviour.",
+        "He had been taught that smiling was physically impossible.",
+        "He had measured every stranger's emotions before learning this rule."
+      ],
+      "optionsZh": [
+        "这可能会显得不礼貌。",
+        "所有人都告诉他微笑是唯一礼貌行为。",
+        "他被教导微笑在生理上不可能。",
+        "学习这一规则前，他测量过每位陌生人的情绪。"
+      ],
+      "answer": 0,
+      "type": "逻辑关系",
+      "support": "explicit",
+      "analyses": [
+        "A because it could come across as impolite 明示他接受这种教导的理由，could 保留可能性。",
+        "B 把后一美国经历的劝告移到此前成长经历，且增添 only。",
+        "C not to 是社会行为教导，不是生理不能。",
+        "D 原句没有这种测量程序，也不是对所有陌生人情绪的检验。"
+      ],
+      "vocabulary": [
+        {
+          "word": "come across as",
+          "meaning": "给人以……印象；被理解为……",
+          "context": "此处说社交行为可能如何被感知，不是偶然找到某物。",
+          "example": "A direct remark can come across as impolite in some settings.",
+          "collocations": [
+            "come across as impolite",
+            "I was raised not to smile"
+          ]
+        }
+      ],
+      "translation": "Leung 及同事还推测，多文化经历教我们认识，同一行为会有不同意义。微笑是好例子。我从小受教在人前别微笑，因为可能显得不礼貌。但到美国，人人叫我多笑，说这样更礼貌！",
+      "evidenceTargetIds": [
+        "c10-s09-p120-04065-s003"
+      ],
+      "evidence": [
+        {
+          "quote": "Leung and colleagues also speculate that multicultural experiences teach us to recognize that the same behavior can have different meanings. A smile is a good example. I was raised not to smile in front of people because it could come across as impolite. But when I came to the U.S., everyone told me to smile more because it would be more polite!",
+          "sentenceIds": [
+            "c10-s09-p120-04065-s001",
+            "c10-s09-p120-04065-s002",
+            "c10-s09-p120-04065-s003",
+            "c10-s09-p120-04065-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 120,
+              "block": 2,
+              "bbox": [
+                76.99,
+                406.5,
+                535.01,
+                713.52
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "78b47f19d24fa1b9100b476a53351493bae516fc22db7c69f8533265b8101bb6"
+    },
+    {
+      "id": "qe-c10-0201",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-046",
+      "parentQuestionId": "q-c10-111",
+      "chapterId": "c10",
+      "sectionId": "c10-s09",
+      "paragraphId": "c10-s09-p120-04065",
+      "readingUnitId": "c10-s09-p120-04065-r001-004",
+      "sentenceIds": [
+        "c10-s09-p120-04065-s001",
+        "c10-s09-p120-04065-s002",
+        "c10-s09-p120-04065-s003",
+        "c10-s09-p120-04065-s004"
+      ],
+      "passage": "Leung and colleagues also speculate that multicultural experiences teach us to recognize that the same behavior can have different meanings. A smile is a good example. I was raised not to smile in front of people because it could come across as impolite. But when I came to the U.S., everyone told me to smile more because it would be more polite!",
+      "prompt": "What change in advice did the author encounter in the U.S.?",
+      "promptZh": "到美国后，作者遇到的建议有何变化？",
+      "options": [
+        "People told him to smile less for exactly the same reason as before.",
+        "No one offered any advice about smiling at all.",
+        "People told him to smile more because doing so would be more polite.",
+        "He was told that all social behaviour has no possible cultural meaning."
+      ],
+      "optionsZh": [
+        "人们因与先前完全相同的理由叫他少笑。",
+        "完全无人就微笑给过建议。",
+        "人们叫他多微笑，因为这样会更礼貌。",
+        "他被告知一切社会行为都不可能有文化意义。"
+      ],
+      "answer": 2,
+      "type": "逻辑关系",
+      "support": "explicit",
+      "analyses": [
+        "A smile more 与少笑方向相反。",
+        "B everyone told me 明确写有劝告，不能删去事件。",
+        "C But 引出与成长教导相反的建议，同一微笑被连到更礼貌。",
+        "D 段落恰讨论文化含义，不是否认所有含义；everyone 是作者回忆中的概括，不能扩成全美每个人均受调查。"
+      ],
+      "vocabulary": [
+        {
+          "word": "polite",
+          "meaning": "礼貌的；合乎社交礼节的",
+          "context": "此处的礼貌评价与作者此前成长教导形成对照，不是测量得出的全球统一规则。",
+          "example": "In that setting, a smile was considered polite.",
+          "collocations": [
+            "smile more",
+            "it would be more polite"
+          ]
+        }
+      ],
+      "translation": "Leung 及同事还推测，多文化经历教我们认识，同一行为会有不同意义。微笑是好例子。我从小受教在人前别微笑，因为可能显得不礼貌。但到美国，人人叫我多笑，说这样更礼貌！",
+      "evidenceTargetIds": [
+        "c10-s09-p120-04065-s004"
+      ],
+      "evidence": [
+        {
+          "quote": "Leung and colleagues also speculate that multicultural experiences teach us to recognize that the same behavior can have different meanings. A smile is a good example. I was raised not to smile in front of people because it could come across as impolite. But when I came to the U.S., everyone told me to smile more because it would be more polite!",
+          "sentenceIds": [
+            "c10-s09-p120-04065-s001",
+            "c10-s09-p120-04065-s002",
+            "c10-s09-p120-04065-s003",
+            "c10-s09-p120-04065-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 120,
+              "block": 2,
+              "bbox": [
+                76.99,
+                406.5,
+                535.01,
+                713.52
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "1a2f12319ec02dac8c3e656163c615868542c55b7b542c031c932c5f0a4d9628"
+    }
+  ]
+}
