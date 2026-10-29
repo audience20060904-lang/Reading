@@ -1,0 +1,982 @@
+{
+  "pdfSha256": "be25c859f1bd894a4b0d1cff024ded1297f6a96a8e8ddabea1e3abcf89160a50",
+  "sourceCommit": "0ca432b6c9421c9df2c60f752add0dbc7a80a460",
+  "frozenTargetsSourceCommit": "c1b528a2a7b23582ff986ace1b155d42e83a2b4d",
+  "questions": [
+    {
+      "id": "q-c10-052",
+      "version": 1,
+      "readingUnitId": "c10-s06-p112-02310-r001-004",
+      "chapterId": "c10",
+      "sectionId": "c10-s06",
+      "paragraphId": "c10-s06-p112-02310",
+      "sentenceIds": [
+        "c10-s06-p112-02310-s001",
+        "c10-s06-p112-02310-s002",
+        "c10-s06-p112-02310-s003",
+        "c10-s06-p112-02310-s004"
+      ],
+      "passage": "The story of the mere exposure effect doesn’t stop here. Richard Moreland and Bob Zajonc ran a field experiment in a real college classroom. They selected four female research assistants who were rated as equally attractive to attend an introduction to psychology class with various degrees of frequency. One woman never attended the lecture, the second woman attended five times, the third woman attended ten times, and the fourth one attended fifteen times over the course of the semester.",
+      "prompt": "Which feature distinguished the four women’s participation in the classroom experiment?",
+      "options": [
+        "They attended different subjects at different universities.",
+        "They attended the same course with different frequencies.",
+        "They were selected to differ greatly in attractiveness.",
+        "Each attended all lectures throughout the semester."
+      ],
+      "answer": 1,
+      "type": "细节",
+      "promptZh": "四名女性在课堂实验中的参与有什么差别？",
+      "optionsZh": [
+        "在不同大学上不同科目。",
+        "同一课程的出席频率不同。",
+        "专门挑选外貌吸引力差很多的人。",
+        "每个人整个学期全勤。"
+      ],
+      "analyses": [
+        "A 是同一心理学导论课程的实地实验。",
+        "B 从零、五、十到十五次，改变课堂曝光频率。",
+        "C rated as equally attractive 表示最初评定吸引力相同。",
+        "D 有人一次也没来，非全勤。四人是研究助理，不是四组全部被试人数。"
+      ],
+      "evidence": [
+        {
+          "quote": "four female research assistants who were rated as equally attractive",
+          "sentenceIds": [
+            "c10-s06-p112-02310-s003"
+          ],
+          "sources": [
+            {
+              "pdfPage": 112,
+              "block": 1,
+              "bbox": [
+                76.99,
+                231,
+                535.01,
+                401.52
+              ]
+            }
+          ]
+        },
+        {
+          "quote": "never attended the lecture, the second woman attended five times, the third woman attended ten times, and the fourth one attended fifteen times",
+          "sentenceIds": [
+            "c10-s06-p112-02310-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 112,
+              "block": 1,
+              "bbox": [
+                76.99,
+                231,
+                535.01,
+                401.52
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "field experiment",
+          "meaning": "实地实验",
+          "context": "在真实大学课堂实施，区别于仅在实验室呈现词语",
+          "example": "The researchers conducted a field experiment in a classroom.",
+          "collocations": [
+            "run a field experiment",
+            "a real college classroom"
+          ]
+        }
+      ],
+      "translation": "单纯曝光效应的故事不止于此。Richard Moreland 和 Bob Zajonc 在真实大学课堂开展实地实验。他们挑选四名被评为吸引力相同的女性研究助理，以不同频率参加心理学导论课。一人从不来，第二人来五次，第三人来十次，第四人在学期中来十五次。",
+      "support": "explicit",
+      "editorialStatus": "完整PDF111–115原页视觉核对及跨页拼接。词频观察与无意义词、汉字、人像和课堂曝光实验分开；假称Turkish不作真实语言事实；课堂评分量表、出席次数和主观熟悉/明确认识分开，linearly保留作者措辞但不编精确等差。机制实验不把早前观察婚配研究改成随机试验。购物/旅行属个人轶事；普查流动性是代理指标、统计控制非因果保证；成长经历观察与想象工作心态实验分开，every other year译隔年。and almost为既有跨单元句片，保留ID与连续阅读。末段完整审阅含尚未配题结果，不提前倒灌证据，不宣称逐句直接证据全覆盖。",
+      "fingerprint": "96b3c210d8ab5be9ba30226a899ea9cd73137f539e51d24b52a49fa37cf4c0e2"
+    },
+    {
+      "id": "qe-c10-0097",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-042",
+      "parentQuestionId": "q-c10-052",
+      "chapterId": "c10",
+      "sectionId": "c10-s06",
+      "paragraphId": "c10-s06-p112-02310",
+      "readingUnitId": "c10-s06-p112-02310-r001-004",
+      "sentenceIds": [
+        "c10-s06-p112-02310-s001",
+        "c10-s06-p112-02310-s002",
+        "c10-s06-p112-02310-s003",
+        "c10-s06-p112-02310-s004"
+      ],
+      "passage": "The story of the mere exposure effect doesn’t stop here. Richard Moreland and Bob Zajonc ran a field experiment in a real college classroom. They selected four female research assistants who were rated as equally attractive to attend an introduction to psychology class with various degrees of frequency. One woman never attended the lecture, the second woman attended five times, the third woman attended ten times, and the fourth one attended fifteen times over the course of the semester.",
+      "prompt": "What does 'The story ... doesn’t stop here' prepare the reader for?",
+      "promptZh": "The story...doesn’t stop here 为后文做什么铺垫？",
+      "options": [
+        "The retraction of every prior result as fabricated.",
+        "An extension from earlier laboratory examples to a real-classroom field experiment.",
+        "The claim that only nonsense words can ever be liked.",
+        "The end of the chapter before any further example."
+      ],
+      "optionsZh": [
+        "把此前全部结果撤回为编造。",
+        "从早前实验室例子延伸到真实课堂实地实验。",
+        "声称只有无意义词能受喜欢。",
+        "不给更多例子便结束本章。"
+      ],
+      "answer": 1,
+      "type": "篇章结构",
+      "support": "explicit",
+      "analyses": [
+        "A 继续不是撤回，也无 fabricated 声明。",
+        "B 下一句 field experiment...real college classroom 明确扩展。",
+        "C 已有汉字与照片，非仅假词。",
+        "D doesn’t stop 正与结束相反；不把故事一词误解成所有研究都为小说。"
+      ],
+      "vocabulary": [
+        {
+          "word": "doesn’t stop here",
+          "meaning": "不止于此；还有后续",
+          "context": "过渡标记，接更多证据而非宣布此前无效。",
+          "example": "The argument doesn't stop here; another setting is examined next.",
+          "collocations": [
+            "The story ... doesn’t stop here",
+            "ran a field experiment"
+          ]
+        }
+      ],
+      "translation": "单纯曝光效应的故事不止于此。Richard Moreland 和 Bob Zajonc 在真实大学课堂开展实地实验。他们挑选四名被评为吸引力相同的女性研究助理，以不同频率参加心理学导论课。一人从不来，第二人来五次，第三人来十次，第四人在学期中来十五次。",
+      "evidenceTargetIds": [
+        "c10-s06-p112-02310-s001"
+      ],
+      "evidence": [
+        {
+          "quote": "The story of the mere exposure effect doesn’t stop here. Richard Moreland and Bob Zajonc ran a field experiment in a real college classroom. They selected four female research assistants who were rated as equally attractive to attend an introduction to psychology class with various degrees of frequency. One woman never attended the lecture, the second woman attended five times, the third woman attended ten times, and the fourth one attended fifteen times over the course of the semester.",
+          "sentenceIds": [
+            "c10-s06-p112-02310-s001",
+            "c10-s06-p112-02310-s002",
+            "c10-s06-p112-02310-s003",
+            "c10-s06-p112-02310-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 112,
+              "block": 1,
+              "bbox": [
+                76.99,
+                231,
+                535.01,
+                401.52
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "35b9a66d29e498dc45d55e0e81aeaed51d923a5d75e052d8f185c76157de8143"
+    },
+    {
+      "id": "qe-c10-0098",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-042",
+      "parentQuestionId": "q-c10-052",
+      "chapterId": "c10",
+      "sectionId": "c10-s06",
+      "paragraphId": "c10-s06-p112-02310",
+      "readingUnitId": "c10-s06-p112-02310-r001-004",
+      "sentenceIds": [
+        "c10-s06-p112-02310-s001",
+        "c10-s06-p112-02310-s002",
+        "c10-s06-p112-02310-s003",
+        "c10-s06-p112-02310-s004"
+      ],
+      "passage": "The story of the mere exposure effect doesn’t stop here. Richard Moreland and Bob Zajonc ran a field experiment in a real college classroom. They selected four female research assistants who were rated as equally attractive to attend an introduction to psychology class with various degrees of frequency. One woman never attended the lecture, the second woman attended five times, the third woman attended ten times, and the fourth one attended fifteen times over the course of the semester.",
+      "prompt": "Where did Moreland and Zajonc conduct the field experiment described here?",
+      "promptZh": "这里 Moreland 与 Zajonc 在哪里开展实地实验？",
+      "options": [
+        "In a real college classroom.",
+        "Only in a language laboratory with no real students attending class.",
+        "At the Philadelphia marriage-licence office in 1931.",
+        "In Kepler's household during the seventeenth century."
+      ],
+      "optionsZh": [
+        "真实大学课堂。",
+        "仅无人真实上课的语言实验室。",
+        "1931费城结婚许可办公室。",
+        "十七世纪 Kepler 家里。"
+      ],
+      "answer": 0,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A real college classroom 与后文心理学导论课对应。",
+        "B 与真实课堂限定相反。",
+        "C 是前文不同研究。",
+        "D 历史故事不是现代课堂研究；不把 field experiment 当只要观察地址、不操纵任何条件的意思。"
+      ],
+      "vocabulary": [
+        {
+          "word": "field experiment",
+          "meaning": "实地实验；在真实生活环境进行的实验",
+          "context": "此处课堂里改变出席频率，区别早前实验室材料与单纯观察性记录。",
+          "example": "A field experiment tested the idea during an ordinary course.",
+          "collocations": [
+            "ran a field experiment",
+            "in a real college classroom"
+          ]
+        }
+      ],
+      "translation": "单纯曝光效应的故事不止于此。Richard Moreland 和 Bob Zajonc 在真实大学课堂开展实地实验。他们挑选四名被评为吸引力相同的女性研究助理，以不同频率参加心理学导论课。一人从不来，第二人来五次，第三人来十次，第四人在学期中来十五次。",
+      "evidenceTargetIds": [
+        "c10-s06-p112-02310-s002"
+      ],
+      "evidence": [
+        {
+          "quote": "The story of the mere exposure effect doesn’t stop here. Richard Moreland and Bob Zajonc ran a field experiment in a real college classroom. They selected four female research assistants who were rated as equally attractive to attend an introduction to psychology class with various degrees of frequency. One woman never attended the lecture, the second woman attended five times, the third woman attended ten times, and the fourth one attended fifteen times over the course of the semester.",
+          "sentenceIds": [
+            "c10-s06-p112-02310-s001",
+            "c10-s06-p112-02310-s002",
+            "c10-s06-p112-02310-s003",
+            "c10-s06-p112-02310-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 112,
+              "block": 1,
+              "bbox": [
+                76.99,
+                231,
+                535.01,
+                401.52
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "3ce8c0cdec1f3b91e57953edd592e6d2136545cc916c221438db55844e2d8435"
+    },
+    {
+      "id": "q-c10-053",
+      "version": 1,
+      "readingUnitId": "c10-s06-p112-02310-r005-006",
+      "chapterId": "c10",
+      "sectionId": "c10-s06",
+      "paragraphId": "c10-s06-p112-02310",
+      "sentenceIds": [
+        "c10-s06-p112-02310-s005",
+        "c10-s06-p112-02310-s006"
+      ],
+      "passage": "They were instructed to enter the lecture hall, walk the same staircases, and sit in the same area, so that most students could see them. They were all dressed in a casual fashion.",
+      "prompt": "Why were the assistants instructed to use the same staircases and seating area?",
+      "options": [
+        "To ensure that they never became visible.",
+        "To test differences in formal clothing.",
+        "To make them visible to most students in a similar way.",
+        "To require them to talk to every student."
+      ],
+      "answer": 2,
+      "type": "逻辑关系",
+      "promptZh": "为何要求助理走相同楼梯、坐同一区域？",
+      "optionsZh": [
+        "确保始终不可见。",
+        "测试正装差异。",
+        "让大多数学生以相似方式看见她们。",
+        "要求与每位学生谈话。"
+      ],
+      "analyses": [
+        "A so that most students could see 正相反。",
+        "B casually dressed 是便装，未设正装比较。",
+        "C so that 直接给安排的目的。",
+        "D 当前只规定进入、路线、座位和着装，没有规定与每人交谈。"
+      ],
+      "evidence": [
+        {
+          "quote": "walk the same staircases, and sit in the same area, so that most students could see them.",
+          "sentenceIds": [
+            "c10-s06-p112-02310-s005"
+          ],
+          "sources": [
+            {
+              "pdfPage": 112,
+              "block": 1,
+              "bbox": [
+                76.99,
+                231,
+                535.01,
+                401.52
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "casual",
+          "meaning": "随意的；非正式的",
+          "context": "指助理统一采用便装风格，而非频率随机的意思",
+          "example": "The participants wore casual clothing.",
+          "collocations": [
+            "casual fashion",
+            "casual clothing"
+          ]
+        }
+      ],
+      "translation": "她们被要求走进讲堂，走相同楼梯，坐在同一区域，好让大多数学生能看见她们。她们都穿便装。",
+      "support": "explicit",
+      "editorialStatus": "完整PDF111–115原页视觉核对及跨页拼接。词频观察与无意义词、汉字、人像和课堂曝光实验分开；假称Turkish不作真实语言事实；课堂评分量表、出席次数和主观熟悉/明确认识分开，linearly保留作者措辞但不编精确等差。机制实验不把早前观察婚配研究改成随机试验。购物/旅行属个人轶事；普查流动性是代理指标、统计控制非因果保证；成长经历观察与想象工作心态实验分开，every other year译隔年。and almost为既有跨单元句片，保留ID与连续阅读。末段完整审阅含尚未配题结果，不提前倒灌证据，不宣称逐句直接证据全覆盖。",
+      "fingerprint": "58bbcf7fa2f29a25f0ade5bf1af2f2899892182efaa6953d96632b85b1d3b816"
+    },
+    {
+      "id": "qe-c10-0099",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-042",
+      "parentQuestionId": "q-c10-053",
+      "chapterId": "c10",
+      "sectionId": "c10-s06",
+      "paragraphId": "c10-s06-p112-02310",
+      "readingUnitId": "c10-s06-p112-02310-r005-006",
+      "sentenceIds": [
+        "c10-s06-p112-02310-s005",
+        "c10-s06-p112-02310-s006"
+      ],
+      "passage": "They were instructed to enter the lecture hall, walk the same staircases, and sit in the same area, so that most students could see them. They were all dressed in a casual fashion.",
+      "prompt": "Who is described as dressed casually, according to this passage?",
+      "promptZh": "据片段，谁被描述为穿便装？",
+      "options": [
+        "All Dutch people who started cohabiting in 2004.",
+        "Only the lecturer, while no assistants attended.",
+        "The women instructed to enter the lecture hall and sit where students could see them.",
+        "Every student in all universities throughout the semester."
+      ],
+      "optionsZh": [
+        "2004开始同居的所有荷兰人。",
+        "只有讲师，且无助理出席。",
+        "被要求进讲堂并坐在学生可见处的女性。",
+        "整学期所有大学的每个学生。"
+      ],
+      "answer": 2,
+      "type": "指代",
+      "support": "explicit",
+      "analyses": [
+        "A They 延续课堂女性助理，不是荷兰队列。",
+        "B enter...walk...sit 的行动主体不是仅讲师。",
+        "C They...all dressed casual 归属明确，但不能添加她们服装每处完全相同。",
+        "D all 限定这些行动者，不扩成所有大学学生；casual 也不是不在意实验。"
+      ],
+      "vocabulary": [
+        {
+          "word": "in a casual fashion",
+          "meaning": "以日常随意的穿着方式；穿便装",
+          "context": "fashion 在此为方式或风格，不表示最新流行或相同品牌。",
+          "example": "The assistants were dressed in a casual fashion.",
+          "collocations": [
+            "dressed in a casual fashion",
+            "sit in the same area"
+          ]
+        }
+      ],
+      "translation": "她们被要求走进讲堂，走相同楼梯，坐在同一区域，好让大多数学生能看见她们。她们都穿便装。",
+      "evidenceTargetIds": [
+        "c10-s06-p112-02310-s006"
+      ],
+      "evidence": [
+        {
+          "quote": "They were instructed to enter the lecture hall, walk the same staircases, and sit in the same area, so that most students could see them. They were all dressed in a casual fashion.",
+          "sentenceIds": [
+            "c10-s06-p112-02310-s005",
+            "c10-s06-p112-02310-s006"
+          ],
+          "sources": [
+            {
+              "pdfPage": 112,
+              "block": 1,
+              "bbox": [
+                76.99,
+                231,
+                535.01,
+                401.52
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "2c5391430ffa4a018b327bdee325145e2dc970179d76f44ff72041ab59dbaa0e"
+    },
+    {
+      "id": "q-c10-058",
+      "version": 1,
+      "readingUnitId": "c10-s06-p113-00750-r001-004",
+      "chapterId": "c10",
+      "sectionId": "c10-s06",
+      "paragraphId": "c10-s06-p113-00750",
+      "sentenceIds": [
+        "c10-s06-p113-00750-s001",
+        "c10-s06-p113-00750-s002",
+        "c10-s06-p113-00750-s003",
+        "c10-s06-p113-00750-s004"
+      ],
+      "passage": "In this series of experiments, Zajonc and colleagues showed that repeated exposure amplifies not only familiarity, but also perceived similarity (to the rater) and favorability. Previous research already convincingly demonstrated that perceived similarity leads to attraction. New experiments showed that residential proximity increases both familiarity and perceived similarity, thereby enhancing the interpersonal attractiveness of those around us. These elegant experiments demonstrate that mere exposure increases favorability, providing a compelling causal claim for the Philadelphia marriage study and the Dutch cohabitation study.",
+      "prompt": "How does the author connect the experiments to the earlier geographical studies?",
+      "options": [
+        "The experiments offer a causal mechanism involving familiarity, similarity and favorability.",
+        "The geographical studies had randomly assigned every marriage.",
+        "Repeated exposure reduces all perceived similarity.",
+        "The experiments prove that proximity guarantees marriage."
+      ],
+      "answer": 0,
+      "type": "主旨",
+      "promptZh": "作者怎样将实验与此前地理研究联系起来？",
+      "optionsZh": [
+        "实验提供涉及熟悉感、相似感和好感的因果机制解释。",
+        "地理研究随机分配了每段婚姻。",
+        "重复曝光降低所有相似感。",
+        "实验证明近距离保证结婚。"
+      ],
+      "analyses": [
+        "A 作者从 repeated exposure 到 familiarity/similarity/favorability，再解释先前观察研究。",
+        "B 早前婚姻与同居资料并非随机分配。",
+        "C amplifies 与降低方向相反。",
+        "D 实验支持机制的因果论证，不把整体观察资料变成随机试验，也不保证任何特定婚姻。"
+      ],
+      "evidence": [
+        {
+          "quote": "repeated exposure amplifies not only familiarity, but also perceived similarity (to the rater) and favorability.",
+          "sentenceIds": [
+            "c10-s06-p113-00750-s001"
+          ],
+          "sources": [
+            {
+              "pdfPage": 113,
+              "block": 0,
+              "bbox": [
+                76.99,
+                75,
+                535.01,
+                265.02
+              ]
+            }
+          ]
+        },
+        {
+          "quote": "providing a compelling causal claim for the Philadelphia marriage study and the Dutch cohabitation study.",
+          "sentenceIds": [
+            "c10-s06-p113-00750-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 113,
+              "block": 0,
+              "bbox": [
+                76.99,
+                75,
+                535.01,
+                265.02
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "amplifies",
+          "meaning": "增强；放大",
+          "context": "描述重复曝光对熟悉、主观相似及好感的作用",
+          "example": "Repetition amplifies the sense of familiarity.",
+          "collocations": [
+            "amplify familiarity",
+            "amplify favorability"
+          ]
+        }
+      ],
+      "translation": "在这一系列实验中，Zajonc 及同事表明，反复曝光不只增强熟悉感，也增强与评分者的主观相似感和好感。此前研究已令人信服地表明，主观相似会带来吸引。新实验表明，居住邻近增加熟悉感与主观相似感，从而提升周围人的人际吸引力。这些精巧实验表明单纯曝光增加好感，为费城婚姻研究和荷兰同居研究提供了有力的因果论证。",
+      "support": "explicit",
+      "editorialStatus": "完整PDF111–115原页视觉核对及跨页拼接。词频观察与无意义词、汉字、人像和课堂曝光实验分开；假称Turkish不作真实语言事实；课堂评分量表、出席次数和主观熟悉/明确认识分开，linearly保留作者措辞但不编精确等差。机制实验不把早前观察婚配研究改成随机试验。购物/旅行属个人轶事；普查流动性是代理指标、统计控制非因果保证；成长经历观察与想象工作心态实验分开，every other year译隔年。and almost为既有跨单元句片，保留ID与连续阅读。末段完整审阅含尚未配题结果，不提前倒灌证据，不宣称逐句直接证据全覆盖。",
+      "fingerprint": "3c3ede7f24bcdb6f1ad3ddc57562077379ee75a382aa712bfb6f4f3d6e4066dd"
+    },
+    {
+      "id": "qe-c10-0102",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-042",
+      "parentQuestionId": "q-c10-058",
+      "chapterId": "c10",
+      "sectionId": "c10-s06",
+      "paragraphId": "c10-s06-p113-00750",
+      "readingUnitId": "c10-s06-p113-00750-r001-004",
+      "sentenceIds": [
+        "c10-s06-p113-00750-s001",
+        "c10-s06-p113-00750-s002",
+        "c10-s06-p113-00750-s003",
+        "c10-s06-p113-00750-s004"
+      ],
+      "passage": "In this series of experiments, Zajonc and colleagues showed that repeated exposure amplifies not only familiarity, but also perceived similarity (to the rater) and favorability. Previous research already convincingly demonstrated that perceived similarity leads to attraction. New experiments showed that residential proximity increases both familiarity and perceived similarity, thereby enhancing the interpersonal attractiveness of those around us. These elegant experiments demonstrate that mere exposure increases favorability, providing a compelling causal claim for the Philadelphia marriage study and the Dutch cohabitation study.",
+      "prompt": "What relation is attributed to previous research in the target sentence?",
+      "promptZh": "目标句把哪种关系归于此前研究？",
+      "options": [
+        "Perceived similarity leads to attraction.",
+        "Attraction necessarily makes all people objectively identical.",
+        "Every chance meeting inevitably results in marriage.",
+        "Residential distance has been proved irrelevant to any encounter."
+      ],
+      "optionsZh": [
+        "主观相似感带来吸引。",
+        "吸引必使所有人客观相同。",
+        "每次偶遇必然导致婚姻。",
+        "住址距离已证明与任何接触无关。"
+      ],
+      "answer": 0,
+      "type": "观点归属",
+      "support": "explicit",
+      "analyses": [
+        "A previous research...perceived similarity leads to attraction 明示方向和 perceived 限定。",
+        "B 倒置方向并将主观感受偷换成客观同一。",
+        "C attraction 不是每次婚姻的充分条件；全段机制总结不能作关系保证。",
+        "D 前文讨论邻近与接触，不是距离无关的结论；本题引用目标句，不提前计入其他未配句。"
+      ],
+      "vocabulary": [
+        {
+          "word": "perceived",
+          "meaning": "被感知的；主观认为的",
+          "context": "区分评分者眼中的相似与客观已核实特征，不声称人的实际背景因曝光改变。",
+          "example": "Perceived similarity may differ from objectively shared traits.",
+          "collocations": [
+            "perceived similarity leads to attraction",
+            "Previous research"
+          ]
+        }
+      ],
+      "translation": "在这一系列实验中，Zajonc 及同事表明，反复曝光不只增强熟悉感，也增强与评分者的主观相似感和好感。此前研究已令人信服地表明，主观相似会带来吸引。新实验表明，居住邻近增加熟悉感与主观相似感，从而提升周围人的人际吸引力。这些精巧实验表明单纯曝光增加好感，为费城婚姻研究和荷兰同居研究提供了有力的因果论证。",
+      "evidenceTargetIds": [
+        "c10-s06-p113-00750-s002"
+      ],
+      "evidence": [
+        {
+          "quote": "Previous research already convincingly demonstrated that perceived similarity leads to attraction.",
+          "sentenceIds": [
+            "c10-s06-p113-00750-s002"
+          ],
+          "sources": [
+            {
+              "pdfPage": 113,
+              "block": 0,
+              "bbox": [
+                76.99,
+                75,
+                535.01,
+                265.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "60acf94fbbaf8cab6dd2574c43163d94b6a492b45441218b8d2695d64abdc5fd"
+    },
+    {
+      "id": "q-c10-060",
+      "version": 1,
+      "readingUnitId": "c10-s07-p113-03210-r001-004",
+      "chapterId": "c10",
+      "sectionId": "c10-s07",
+      "paragraphId": "c10-s07-p113-03210",
+      "sentenceIds": [
+        "c10-s07-p113-03210-s001",
+        "c10-s07-p113-03210-s002",
+        "c10-s07-p113-03210-s003",
+        "c10-s07-p113-03210-s004"
+      ],
+      "passage": "These mere exposure effects may influence other aspects of our lives, too. For instance, have you wondered why American cities and suburbs look alike? When I first went to a large shopping mall in Staten Island, New York, I was impressed by the size and number of stores. When I later went to a medium-sized shopping mall in a suburb of Portland, Maine, I was puzzled.",
+      "prompt": "Why does the author introduce his visits to two shopping malls?",
+      "options": [
+        "To report a randomized comparison of store sizes.",
+        "To open a new question about exposure effects beyond interpersonal relationships.",
+        "To establish that smaller malls contain more stores.",
+        "To prove that all American cities are objectively identical."
+      ],
+      "answer": 1,
+      "type": "作者意图",
+      "promptZh": "作者为何引入逛两个商场的经历？",
+      "optionsZh": [
+        "报告商场大小随机比较。",
+        "引出人际关系之外曝光效应的新问题。",
+        "确立小商场商店更多。",
+        "证明美国所有城市客观相同。"
+      ],
+      "analyses": [
+        "A first-person 经历不是随机实验。",
+        "B other aspects of our lives 后举商场经验，将主题延伸到城市与消费。",
+        "C 只说第一次惊叹规模，没给数量比较结论。",
+        "D look alike 为疑问与感受，不是所有城市客观同一的证明。"
+      ],
+      "evidence": [
+        {
+          "quote": "These mere exposure effects may influence other aspects of our lives, too.",
+          "sentenceIds": [
+            "c10-s07-p113-03210-s001"
+          ],
+          "sources": [
+            {
+              "pdfPage": 113,
+              "block": 2,
+              "bbox": [
+                76.99,
+                321,
+                535.01,
+                452.52
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "puzzled",
+          "meaning": "困惑的；不解的",
+          "context": "第二次商场体验引出疑问，与第一次惊叹不同",
+          "example": "She was puzzled by the similarity of the two buildings.",
+          "collocations": [
+            "feel puzzled",
+            "be puzzled by"
+          ]
+        }
+      ],
+      "translation": "这些单纯曝光效应也可能影响生活其他方面。例如，你想过美国城市和郊区为什么看着相似吗？我第一次去纽约 Staten Island 的大型商场时，对其规模和店铺数量印象深刻。后来去缅因州 Portland 郊区的一处中型商场时，我困惑了。",
+      "support": "explicit",
+      "editorialStatus": "完整PDF111–115原页视觉核对及跨页拼接。词频观察与无意义词、汉字、人像和课堂曝光实验分开；假称Turkish不作真实语言事实；课堂评分量表、出席次数和主观熟悉/明确认识分开，linearly保留作者措辞但不编精确等差。机制实验不把早前观察婚配研究改成随机试验。购物/旅行属个人轶事；普查流动性是代理指标、统计控制非因果保证；成长经历观察与想象工作心态实验分开，every other year译隔年。and almost为既有跨单元句片，保留ID与连续阅读。末段完整审阅含尚未配题结果，不提前倒灌证据，不宣称逐句直接证据全覆盖。",
+      "fingerprint": "67ddd6e79b03cdc4fc0f6c4cc00358236e6a993da94aa28eb7b90425dbd0fed1"
+    },
+    {
+      "id": "qe-c10-0104",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-043",
+      "parentQuestionId": "q-c10-060",
+      "chapterId": "c10",
+      "sectionId": "c10-s07",
+      "paragraphId": "c10-s07-p113-03210",
+      "readingUnitId": "c10-s07-p113-03210-r001-004",
+      "sentenceIds": [
+        "c10-s07-p113-03210-s001",
+        "c10-s07-p113-03210-s002",
+        "c10-s07-p113-03210-s003",
+        "c10-s07-p113-03210-s004"
+      ],
+      "passage": "These mere exposure effects may influence other aspects of our lives, too. For instance, have you wondered why American cities and suburbs look alike? When I first went to a large shopping mall in Staten Island, New York, I was impressed by the size and number of stores. When I later went to a medium-sized shopping mall in a suburb of Portland, Maine, I was puzzled.",
+      "prompt": "What does the question about American cities looking alike introduce?",
+      "promptZh": "美国城市看着相似的问句引入什么？",
+      "options": [
+        "An example extending the possible effects of familiarity beyond interpersonal relationships.",
+        "A record that the current reader has visited every American city.",
+        "Proof that all city buildings are physically identical.",
+        "A claim that the author has already tested every country's retail industry."
+      ],
+      "optionsZh": [
+        "把熟悉效应可能影响扩展到人际关系外的例子。",
+        "记录当前读者已访每座美国城市。",
+        "证明所有城市建筑物理完全相同。",
+        "声称作者已测试每国零售业。"
+      ],
+      "answer": 0,
+      "type": "篇章结构",
+      "support": "explicit",
+      "analyses": [
+        "A 前句 other aspects...may influence 后 For instance 转向城市商场，扩展应用范围。",
+        "B have you wondered 是行文邀请，不是用户行程资料。",
+        "C look alike 的观察不能升级所有建筑逐一相同。",
+        "D 没有全部国家实测；本句也未单独证明连锁相似的唯一原因。"
+      ],
+      "vocabulary": [
+        {
+          "word": "For instance",
+          "meaning": "例如；举例说",
+          "context": "将城市与商场作为更广应用的例子，而非穷尽全部领域。",
+          "example": "The idea may apply elsewhere; for instance, consider familiar shop signs.",
+          "collocations": [
+            "For instance,have you wondered",
+            "other aspects of our lives"
+          ]
+        }
+      ],
+      "translation": "这些单纯曝光效应也可能影响生活其他方面。例如，你想过美国城市和郊区为什么看着相似吗？我第一次去纽约 Staten Island 的大型商场时，对其规模和店铺数量印象深刻。后来去缅因州 Portland 郊区的一处中型商场时，我困惑了。",
+      "evidenceTargetIds": [
+        "c10-s07-p113-03210-s002"
+      ],
+      "evidence": [
+        {
+          "quote": "These mere exposure effects may influence other aspects of our lives, too. For instance, have you wondered why American cities and suburbs look alike? When I first went to a large shopping mall in Staten Island, New York, I was impressed by the size and number of stores. When I later went to a medium-sized shopping mall in a suburb of Portland, Maine, I was puzzled.",
+          "sentenceIds": [
+            "c10-s07-p113-03210-s001",
+            "c10-s07-p113-03210-s002",
+            "c10-s07-p113-03210-s003",
+            "c10-s07-p113-03210-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 113,
+              "block": 2,
+              "bbox": [
+                76.99,
+                321,
+                535.01,
+                452.52
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "79e6ed20e184c4434242aec352f699c4182e8977b4aa8f229851c11a8b7b919c"
+    },
+    {
+      "id": "qe-c10-0106",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-043",
+      "parentQuestionId": "q-c10-060",
+      "chapterId": "c10",
+      "sectionId": "c10-s07",
+      "paragraphId": "c10-s07-p113-03210",
+      "readingUnitId": "c10-s07-p113-03210-r001-004",
+      "sentenceIds": [
+        "c10-s07-p113-03210-s001",
+        "c10-s07-p113-03210-s002",
+        "c10-s07-p113-03210-s003",
+        "c10-s07-p113-03210-s004"
+      ],
+      "passage": "These mere exposure effects may influence other aspects of our lives, too. For instance, have you wondered why American cities and suburbs look alike? When I first went to a large shopping mall in Staten Island, New York, I was impressed by the size and number of stores. When I later went to a medium-sized shopping mall in a suburb of Portland, Maine, I was puzzled.",
+      "prompt": "Where was the later medium-sized mall that puzzled the author?",
+      "promptZh": "后来让作者困惑的中型商场在哪里？",
+      "options": [
+        "Staten Island, New York, at the very first visit.",
+        "A suburb of Portland, Maine.",
+        "The downtown area of Tokyo.",
+        "Portland, Oregon, which the passage explicitly names."
+      ],
+      "optionsZh": [
+        "第一次去的纽约 Staten Island。",
+        "缅因州 Portland 郊区。",
+        "东京市中心。",
+        "文中明确点名的俄勒冈州 Portland。"
+      ],
+      "answer": 1,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A 将 first 的纽约商场与 later 混同。",
+        "B medium-sized、suburb、Portland,Maine 三项对应。",
+        "C Tokyo 属下一对照，不是此商场。",
+        "D 原文 Maine 不是 Oregon，不能凭常见城市联想替换地点；puzzled 也未在本句独自给全部原因。"
+      ],
+      "vocabulary": [
+        {
+          "word": "puzzled",
+          "meaning": "困惑的；感到不解的",
+          "context": "描述后来商场引起的问题，不等于已经断定其不好或危险。",
+          "example": "The visitor was puzzled by the resemblance between the places.",
+          "collocations": [
+            "I was puzzled",
+            "When I later went"
+          ]
+        }
+      ],
+      "translation": "这些单纯曝光效应也可能影响生活其他方面。例如，你想过美国城市和郊区为什么看着相似吗？我第一次去纽约 Staten Island 的大型商场时，对其规模和店铺数量印象深刻。后来去缅因州 Portland 郊区的一处中型商场时，我困惑了。",
+      "evidenceTargetIds": [
+        "c10-s07-p113-03210-s004"
+      ],
+      "evidence": [
+        {
+          "quote": "These mere exposure effects may influence other aspects of our lives, too. For instance, have you wondered why American cities and suburbs look alike? When I first went to a large shopping mall in Staten Island, New York, I was impressed by the size and number of stores. When I later went to a medium-sized shopping mall in a suburb of Portland, Maine, I was puzzled.",
+          "sentenceIds": [
+            "c10-s07-p113-03210-s001",
+            "c10-s07-p113-03210-s002",
+            "c10-s07-p113-03210-s003",
+            "c10-s07-p113-03210-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 113,
+              "block": 2,
+              "bbox": [
+                76.99,
+                321,
+                535.01,
+                452.52
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "94539bfabbf90718302e8ac62bafd5dcb8ad1707556defb2d193699c4cbf91fa"
+    },
+    {
+      "id": "qe-c10-0107",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-043",
+      "parentQuestionId": "q-c10-062",
+      "chapterId": "c10",
+      "sectionId": "c10-s07",
+      "paragraphId": "c10-s07-p113-04575",
+      "readingUnitId": "c10-s07-p113-04575-r001-004",
+      "sentenceIds": [
+        "c10-s07-p113-04575-s001",
+        "c10-s07-p113-04575-s002",
+        "c10-s07-p113-04575-s003",
+        "c10-s07-p113-04575-s004"
+      ],
+      "passage": "As a graduate student, I started going to psychology conferences in various cities around the U.S. and experienced a similar feeling. I would fly into a large airport, which was usually located in a faraway suburb of a major city. A taxi then takes a huge multilane highway, passing cookie-cutter housing developments, box stores, and shopping malls before finally reaching the downtown area where the conference usually takes place. Why do all these cities look alike?",
+      "prompt": "In what setting did the author experience the similar feeling described next?",
+      "promptZh": "接下来作者在何种情境有类似感受？",
+      "options": [
+        "As a graduate student attending psychology conferences in different U.S. cities.",
+        "As the only researcher conducting the1931 Philadelphia licence study.",
+        "As a professional basketball player on the Rockets.",
+        "As a visiting sports journalist covering professional basketball games."
+      ],
+      "optionsZh": [
+        "读研究生时去美国不同城市参加心理学会议。",
+        "独自实施1931费城许可研究时。",
+        "作为 Rockets 职业篮球员时。",
+        "以访问体育记者身份报道职业篮球赛。"
+      ],
+      "answer": 0,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A As a graduate student、psychology conferences、various U.S.cities 明确人物阶段与活动。",
+        "B Bossard 的历史研究不能改成本书作者亲自做。",
+        "C 作者前章观赛经历非球员身份。",
+        "D 这里明确 graduate student 与 psychology conferences，不能把前章观赛经历转成职业记者身份。"
+      ],
+      "vocabulary": [
+        {
+          "word": "various",
+          "meaning": "各种的；多个不同的",
+          "context": "描述会议涉及多座美国城市，不是每个城市都已全部走访。",
+          "example": "The student attended seminars in various cities.",
+          "collocations": [
+            "conferences in various cities",
+            "As a graduate student"
+          ]
+        }
+      ],
+      "translation": "读研时，我开始去美国各城市参加心理学会议，也有类似感受。我会飞抵大机场，机场通常在大城市远郊。然后出租车走宽阔多车道公路，经过千篇一律的住宅开发区、大型卖场和商场，最后到达会议通常举办的市中心。这些城市为什么都看着相似？",
+      "evidenceTargetIds": [
+        "c10-s07-p113-04575-s001"
+      ],
+      "evidence": [
+        {
+          "quote": "As a graduate student, I started going to psychology conferences in various cities around the U.S. and experienced a similar feeling. I would fly into a large airport, which was usually located in a faraway suburb of a major city. A taxi then takes a huge multilane highway, passing cookie-cutter housing developments, box stores, and shopping malls before finally reaching the downtown area where the conference usually takes place. Why do all these cities look alike?",
+          "sentenceIds": [
+            "c10-s07-p113-04575-s001",
+            "c10-s07-p113-04575-s002",
+            "c10-s07-p113-04575-s003",
+            "c10-s07-p113-04575-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 113,
+              "block": 3,
+              "bbox": [
+                76.99,
+                457.5,
+                535.01,
+                706.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "8e73aa28016ab403180f0f60cbad179d52eca448c1d6b9621508a6c22e4b7900"
+    },
+    {
+      "id": "qe-c10-0108",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-043",
+      "parentQuestionId": "q-c10-062",
+      "chapterId": "c10",
+      "sectionId": "c10-s07",
+      "paragraphId": "c10-s07-p113-04575",
+      "readingUnitId": "c10-s07-p113-04575-r001-004",
+      "sentenceIds": [
+        "c10-s07-p113-04575-s001",
+        "c10-s07-p113-04575-s002",
+        "c10-s07-p113-04575-s003",
+        "c10-s07-p113-04575-s004"
+      ],
+      "passage": "As a graduate student, I started going to psychology conferences in various cities around the U.S. and experienced a similar feeling. I would fly into a large airport, which was usually located in a faraway suburb of a major city. A taxi then takes a huge multilane highway, passing cookie-cutter housing developments, box stores, and shopping malls before finally reaching the downtown area where the conference usually takes place. Why do all these cities look alike?",
+      "prompt": "What does 'I would fly into a large airport' describe in this paragraph?",
+      "promptZh": "本段 I would fly into a large airport 描述什么？",
+      "options": [
+        "A single future flight already booked by the user.",
+        "A rule that every airport in the world lies in a city centre.",
+        "A hypothetical task randomly assigned to all participants.",
+        "A repeated pattern in the author's past conference travel."
+      ],
+      "optionsZh": [
+        "用户已预订的一次未来航班。",
+        "全球所有机场都在市中心的规则。",
+        "随机给全体参与者的假想任务。",
+        "作者过去参加会议旅行的反复模式。"
+      ],
+      "answer": 3,
+      "type": "语法与语境",
+      "support": "explicit",
+      "analyses": [
+        "A would 在 As a graduate student 的过去叙述中表习惯，不是用户订票。",
+        "B usually located faraway suburb 既不是 every 也不是市中心。",
+        "C 此段为个人回忆，不是分派实验。",
+        "D 连续 wouldfly 与通常到会城市路线体现惯常经历，保留 usually 的范围。"
+      ],
+      "vocabulary": [
+        {
+          "word": "would",
+          "meaning": "过去常常会；在回忆中表习惯性动作",
+          "context": "区别未来预测、条件句或读者必须执行的义务。",
+          "example": "During those years, I would take the early train to meetings.",
+          "collocations": [
+            "I would fly into a large airport",
+            "usually located in a faraway suburb"
+          ]
+        }
+      ],
+      "translation": "读研时，我开始去美国各城市参加心理学会议，也有类似感受。我会飞抵大机场，机场通常在大城市远郊。然后出租车走宽阔多车道公路，经过千篇一律的住宅开发区、大型卖场和商场，最后到达会议通常举办的市中心。这些城市为什么都看着相似？",
+      "evidenceTargetIds": [
+        "c10-s07-p113-04575-s002"
+      ],
+      "evidence": [
+        {
+          "quote": "As a graduate student, I started going to psychology conferences in various cities around the U.S. and experienced a similar feeling. I would fly into a large airport, which was usually located in a faraway suburb of a major city. A taxi then takes a huge multilane highway, passing cookie-cutter housing developments, box stores, and shopping malls before finally reaching the downtown area where the conference usually takes place. Why do all these cities look alike?",
+          "sentenceIds": [
+            "c10-s07-p113-04575-s001",
+            "c10-s07-p113-04575-s002",
+            "c10-s07-p113-04575-s003",
+            "c10-s07-p113-04575-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 113,
+              "block": 3,
+              "bbox": [
+                76.99,
+                457.5,
+                535.01,
+                706.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "864e2943e62bdb046c8daef3a34457719fb6960449b5b619618ce2549f84ec64"
+    }
+  ]
+}

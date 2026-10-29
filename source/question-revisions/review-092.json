@@ -1,0 +1,320 @@
+{
+  "schemaVersion": 1,
+  "id": "question-review-2026-10-28-092",
+  "pdfSha256": "be25c859f1bd894a4b0d1cff024ded1297f6a96a8e8ddabea1e3abcf89160a50",
+  "scope": "Resume frozen 20 questions /23 source candidates on actual PDF112–113. Classroom participation, visibility and pronoun identity, awareness and mechanism attribution, and the transition to city/shopping experiences. Use visible actors rather than unshown female-assistant identity; make correct options self-contained for the shown transition, complete same-course and shopping evidence, and remove unshown historical-study or travel dependencies and user-record distractions. Source text, answer positions and submitted history remain unchanged.",
+  "questions": [
+    {
+      "id": "q-c10-052",
+      "reason": "同一课程不同频率的正确项需完整选人及上心理学导论课句，旧引用身份不动。",
+      "updates": {
+        "evidence": [
+          {
+            "quote": "They selected four female research assistants who were rated as equally attractive to attend an introduction to psychology class with various degrees of frequency.",
+            "sentenceIds": [
+              "c10-s06-p112-02310-s003"
+            ],
+            "sources": [
+              {
+                "pdfPage": 112,
+                "block": 1,
+                "bbox": [
+                  76.99,
+                  231,
+                  535.01,
+                  401.52
+                ]
+              }
+            ]
+          },
+          {
+            "quote": "never attended the lecture, the second woman attended five times, the third woman attended ten times, and the fourth one attended fifteen times",
+            "sentenceIds": [
+              "c10-s06-p112-02310-s004"
+            ],
+            "sources": [
+              {
+                "pdfPage": 112,
+                "block": 1,
+                "bbox": [
+                  76.99,
+                  231,
+                  535.01,
+                  401.52
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "qe-c10-0097",
+      "reason": "过渡功能正确项不要求未显示前段实验室背景，C不前借汉字照片。",
+      "updates": {
+        "options": [
+          "The retraction of every prior result as fabricated.",
+          "A further example testing the effect in a real college classroom.",
+          "The claim that only nonsense words can ever be liked.",
+          "The end of the chapter before any further example."
+        ],
+        "optionsZh": [
+          "把此前全部结果撤回为编造。",
+          "在真实大学课堂检验这一效应的进一步例子。",
+          "声称只有无意义词能受喜欢。",
+          "不给更多例子便结束本章。"
+        ],
+        "analyses": [
+          "A 继续不是撤回，也无 fabricated 声明。",
+          "B doesn’t stop here 引出进一步例子，下一句 field experiment...real college classroom 明确新场景。",
+          "C 当前引出课堂中对人的曝光研究，不支持仅无意义词才会被喜欢的说法。",
+          "D doesn’t stop 正与结束相反；不把故事一词误解成所有研究都为小说。"
+        ]
+      }
+    },
+    {
+      "id": "qe-c10-0098",
+      "reason": "场所及实地实验只据当前课堂操纵，不借旧章节资料身份或实验室材料。",
+      "updates": {
+        "analyses": [
+          "A real college classroom 与后文心理学导论课对应。",
+          "B 与真实课堂限定相反。",
+          "C 当前地点明确是 real college classroom，不是1931年费城结婚许可办公室。",
+          "D 当前描述真实大学课堂，没有把实验放在十七世纪某个家庭中。"
+        ],
+        "vocabulary": [
+          {
+            "word": "field experiment",
+            "meaning": "实地实验；在真实生活环境进行的实验",
+            "context": "在真实课堂中改变出席频率，是实验操纵；不能只因在生活环境进行，就把它当作没有操纵的观察记录。",
+            "example": "A field experiment tested the idea during an ordinary course.",
+            "collocations": [
+              "ran a field experiment",
+              "in a real college classroom"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-c10-053",
+      "reason": "片段只显示They及行动，不要求未显示助理身份，题干用当前行动者表述。",
+      "updates": {
+        "prompt": "Why were the people in this passage instructed to use the same staircases and seating area?",
+        "promptZh": "为何要求片段中的人走相同楼梯、坐同一区域？",
+        "vocabulary": [
+          {
+            "word": "casual",
+            "meaning": "随意的；非正式的",
+            "context": "指片段中这些人都穿便装，而不是出席频率随机的意思。",
+            "example": "The participants wore casual clothing.",
+            "collocations": [
+              "casual fashion",
+              "casual clothing"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "qe-c10-0099",
+      "reason": "当前片段没有女性助理身份，正确项只按可见行动识别They，原答案位置不变。",
+      "updates": {
+        "options": [
+          "All Dutch people who started cohabiting in 2004.",
+          "Only the lecturer, while no assistants attended.",
+          "The people instructed to enter the lecture hall and sit where students could see them.",
+          "Every student in all universities throughout the semester."
+        ],
+        "optionsZh": [
+          "2004开始同居的所有荷兰人。",
+          "只有讲师，且无助理出席。",
+          "被要求进讲堂并坐在学生可见处的人。",
+          "整学期所有大学的每个学生。"
+        ],
+        "analyses": [
+          "A 当前 They 指前句被要求进讲堂、走楼梯并坐下的人，不是选项所称的荷兰同居队列。",
+          "B enter...walk...sit 的行动主体不是仅讲师。",
+          "C They were all dressed 的主体就是前句执行进入、行走和入座安排的人，不能据此添加服装每处完全相同的细节。",
+          "D all 限定这些行动者，不扩成所有大学学生；casual 也不是不在意实验。"
+        ]
+      }
+    },
+    {
+      "id": "q-c10-058",
+      "reason": "机制与地理研究关系只据当前因果论证，不要求未显示历史资料设计。",
+      "updates": {
+        "analyses": [
+          "A 作者从 repeated exposure 到 familiarity/similarity/favorability，再解释先前观察研究。",
+          "B 当前没有说地理研究曾随机分派每段婚姻；这里讨论实验怎样为地理配对现象提供机制解释。",
+          "C amplifies 与降低方向相反。",
+          "D 实验支持机制的因果论证，不把整体观察资料变成随机试验，也不保证任何特定婚姻。"
+        ]
+      }
+    },
+    {
+      "id": "qe-c10-0102",
+      "reason": "目标句关系排除只据当前相似到吸引，去未配句覆盖记账。",
+      "updates": {
+        "analyses": [
+          "A previous research...perceived similarity leads to attraction 明示方向和 perceived 限定。",
+          "B 倒置方向并将主观感受偷换成客观同一。",
+          "C attraction 不是每次婚姻的充分条件；全段机制总结不能作关系保证。",
+          "D 当前说主观相似感带来吸引，并未说距离与相遇完全无关。"
+        ]
+      }
+    },
+    {
+      "id": "q-c10-060",
+      "reason": "正确项不依赖未显示上节人际主题，补城市设问与商场例子，旧首引不动。",
+      "updates": {
+        "options": [
+          "To report a randomized comparison of store sizes.",
+          "To introduce a possible exposure effect in everyday city and shopping experiences.",
+          "To establish that smaller malls contain more stores.",
+          "To prove that all American cities are objectively identical."
+        ],
+        "optionsZh": [
+          "报告商场大小随机比较。",
+          "引出曝光效应可能影响日常城市与购物体验的新问题。",
+          "确立小商场商店更多。",
+          "证明美国所有城市客观相同。"
+        ],
+        "evidence": [
+          {
+            "quote": "These mere exposure effects may influence other aspects of our lives, too.",
+            "sentenceIds": [
+              "c10-s07-p113-03210-s001"
+            ],
+            "sources": [
+              {
+                "pdfPage": 113,
+                "block": 2,
+                "bbox": [
+                  76.99,
+                  321,
+                  535.01,
+                  452.52
+                ]
+              }
+            ]
+          },
+          {
+            "quote": "For instance, have you wondered why American cities and suburbs look alike?",
+            "sentenceIds": [
+              "c10-s07-p113-03210-s002"
+            ],
+            "sources": [
+              {
+                "pdfPage": 113,
+                "block": 2,
+                "bbox": [
+                  76.99,
+                  321,
+                  535.01,
+                  452.52
+                ]
+              }
+            ]
+          },
+          {
+            "quote": "When I first went to a large shopping mall in Staten Island, New York, I was impressed by the size and number of stores.",
+            "sentenceIds": [
+              "c10-s07-p113-03210-s003"
+            ],
+            "sources": [
+              {
+                "pdfPage": 113,
+                "block": 2,
+                "bbox": [
+                  76.99,
+                  321,
+                  535.01,
+                  452.52
+                ]
+              }
+            ]
+          }
+        ],
+        "analyses": [
+          "A first-person 经历不是随机实验。",
+          "B 前句说这些效应 may 影响生活其他方面，随后用商场经历举例，把讨论引向城市与购物。",
+          "C 只说第一次惊叹规模，没给数量比较结论。",
+          "D look alike 为疑问与感受，不是所有城市客观同一的证明。"
+        ]
+      }
+    },
+    {
+      "id": "qe-c10-0104",
+      "reason": "应用范围不要求未显示上节人际关系，去当前用户行程记录干扰项。",
+      "updates": {
+        "options": [
+          "An example of possible exposure effects in city and shopping experiences.",
+          "A report that every person has already visited all American cities.",
+          "Proof that all city buildings are physically identical.",
+          "A claim that the author has already tested every country's retail industry."
+        ],
+        "optionsZh": [
+          "曝光效应可能影响城市与购物体验的例子。",
+          "报告每个人都已经去过美国所有城市。",
+          "证明所有城市建筑物理完全相同。",
+          "声称作者已测试每国零售业。"
+        ],
+        "analyses": [
+          "A 前句 other aspects...may influence 后 For instance 转向城市商场，扩展应用范围。",
+          "B have you wondered 是引导思考的问句，不是在报告每个人都已遍访美国城市。",
+          "C look alike 的观察不能升级所有建筑逐一相同。",
+          "D 没有全部国家实测；本句也未单独证明连锁相似的唯一原因。"
+        ]
+      }
+    },
+    {
+      "id": "qe-c10-0106",
+      "reason": "商场地点只据PortlandMaine，不前借下一片段东京对照。",
+      "updates": {
+        "analyses": [
+          "A 将 first 的纽约商场与 later 混同。",
+          "B medium-sized、suburb、Portland,Maine 三项对应。",
+          "C 当前明确写的是 Portland, Maine 郊区，没有说东京市中心。",
+          "D 原文 Maine 不是 Oregon，不能凭常见城市联想替换地点；puzzled 也未在本句独自给全部原因。"
+        ]
+      }
+    },
+    {
+      "id": "qe-c10-0107",
+      "reason": "人物阶段活动只据当前研究生赴会，不前借Bossard或前章观赛背景。",
+      "updates": {
+        "analyses": [
+          "A As a graduate student、psychology conferences、various U.S.cities 明确人物阶段与活动。",
+          "B 当前作者在回忆读研时赴会议的经历，不是声称亲自实施1931年费城许可研究。",
+          "C 当前身份是研究生、活动是参加心理学会议，不是 Rockets 职业球员。",
+          "D 这里明确 graduate student 与 psychology conferences，没有说作者以职业体育记者身份报道篮球比赛。"
+        ]
+      }
+    },
+    {
+      "id": "qe-c10-0108",
+      "reason": "would过去习惯对未来单次，干扰项去用户订票记录。",
+      "updates": {
+        "options": [
+          "One specific future flight the author has already booked.",
+          "A rule that every airport in the world lies in a city centre.",
+          "A hypothetical task randomly assigned to all participants.",
+          "A repeated pattern in the author's past conference travel."
+        ],
+        "optionsZh": [
+          "作者已预订的一次具体未来航班。",
+          "全球所有机场都在市中心的规则。",
+          "随机给全体参与者的假想任务。",
+          "作者过去参加会议旅行的反复模式。"
+        ],
+        "analyses": [
+          "A would 在 As a graduate student 的过去叙述中表习惯，并非报告已预订的一次未来航班。",
+          "B usually located faraway suburb 既不是 every 也不是市中心。",
+          "C 此段为个人回忆，不是分派实验。",
+          "D 连续 wouldfly 与通常到会城市路线体现惯常经历，保留 usually 的范围。"
+        ]
+      }
+    }
+  ]
+}
