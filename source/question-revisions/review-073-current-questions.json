@@ -1,0 +1,1627 @@
+{
+  "schemaVersion": 1,
+  "batchId": "question-review-2026-10-28-073",
+  "sourceCommit": "5eb341e2feee281d46eed1432f1d116d3ac0d68e",
+  "pdfSha256": "be25c859f1bd894a4b0d1cff024ded1297f6a96a8e8ddabea1e3abcf89160a50",
+  "frozenAt": "2026-10-29T10:05:41.533Z",
+  "questions": [
+    {
+      "id": "q-c08-047",
+      "version": 1,
+      "readingUnitId": "c08-s06-p086-03675-r001-004",
+      "chapterId": "c08",
+      "sectionId": "c08-s06",
+      "paragraphId": "c08-s06-p086-03675",
+      "sentenceIds": [
+        "c08-s06-p086-03675-s001",
+        "c08-s06-p086-03675-s002",
+        "c08-s06-p086-03675-s003",
+        "c08-s06-p086-03675-s004"
+      ],
+      "passage": "Unlike division of labor, outsourcing does not involve repetitive tasks and inhumane working conditions (at least not for the person paying). It is all about freeing up time. To the extent that you are paying someone to do the tasks you don’t want to do and as a result gaining free time, it should increase your happiness. But does outsourcing detract from psychological richness, just as specialization and division of labor do?",
+      "prompt": "Whose perspective qualifies the claim about repetitive tasks and working conditions?",
+      "options": [
+        "Only the professional hired to perform the task.",
+        "Every person involved in the outsourcing arrangement.",
+        "At least the person paying for the service.",
+        "Only workers on a factory assembly line."
+      ],
+      "answer": 2,
+      "type": "作者意图",
+      "promptZh": "关于重复劳动和工作条件的陈述，原文限定在哪一方的视角？",
+      "optionsZh": [
+        "只限被雇来做事的专业人士。",
+        "外包安排中的每一个人。",
+        "至少指付钱购买服务的人。",
+        "只限工厂流水线工人。"
+      ],
+      "analyses": [
+        "A 括号中说 paying，不是执行工作的受雇者。",
+        "B at least not for the person paying 不能扩大成所有参与者的条件都相同。",
+        "C 括号明确承认论述至少适用于付费者。",
+        "D division of labor 是对照，非括号限定的服务购买者。should 的幸福预期与末尾丰富性设问也应分开，不能把后者当已测结果。"
+      ],
+      "evidence": [
+        {
+          "quote": "at least not for the person paying",
+          "sentenceIds": [
+            "c08-s06-p086-03675-s001"
+          ],
+          "sources": [
+            {
+              "pdfPage": 86,
+              "block": 2,
+              "bbox": [
+                76.99,
+                367.5,
+                535.01,
+                518.52
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "detract from",
+          "meaning": "减损；降低……的价值或程度",
+          "context": "此处设问外包是否会减少心理丰富性，尚未给实证答案",
+          "example": "The delay did not detract from our enjoyment of the visit.",
+          "collocations": [
+            "detract from psychological richness",
+            "detract from an experience"
+          ]
+        }
+      ],
+      "translation": "与劳动分工不同，外包不涉及重复任务和不人道的工作条件——至少对付钱的人而言如此。它的核心是腾出时间。只要你花钱让人做自己不想做的任务，并因此获得空闲时间，它应该会增加幸福。但外包是否也会像专门化和劳动分工那样，减损心理丰富性？",
+      "support": "explicit",
+      "editorialStatus": "PDF 第 85–90 页逐题原页核对；固定原句与来源；保留外包调查与实验、自报、未实证推测、DIY回忆和反事实、文学引述及原书时点；原文连续无重复",
+      "fingerprint": "ee4f4b133f343db125e72ecdbb88c7b281d7ccdd1f75d9271820cdec52ec47d4"
+    },
+    {
+      "id": "qe-c08-0071",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-031",
+      "parentQuestionId": "q-c08-047",
+      "chapterId": "c08",
+      "sectionId": "c08-s06",
+      "paragraphId": "c08-s06-p086-03675",
+      "readingUnitId": "c08-s06-p086-03675-r001-004",
+      "sentenceIds": [
+        "c08-s06-p086-03675-s001",
+        "c08-s06-p086-03675-s002",
+        "c08-s06-p086-03675-s003",
+        "c08-s06-p086-03675-s004"
+      ],
+      "passage": "Unlike division of labor, outsourcing does not involve repetitive tasks and inhumane working conditions (at least not for the person paying). It is all about freeing up time. To the extent that you are paying someone to do the tasks you don’t want to do and as a result gaining free time, it should increase your happiness. But does outsourcing detract from psychological richness, just as specialization and division of labor do?",
+      "prompt": "What does 'It is all about freeing up time' identify as the focus?",
+      "promptZh": "It is all about freeing up time 指出什么核心？",
+      "options": [
+        "Guaranteeing ideal conditions for every worker providing a service.",
+        "Eliminating every obligation from every person's life.",
+        "Making time available for the person paying for the outsourcing.",
+        "Requiring the payer to repeat more tasks in the same time."
+      ],
+      "optionsZh": [
+        "保证提供服务的每位工人条件理想。",
+        "消除每人生活的所有义务。",
+        "为付钱外包的人腾出时间。",
+        "要求付钱者在同段时间重复更多任务。"
+      ],
+      "answer": 2,
+      "type": "主旨",
+      "support": "explicit",
+      "analyses": [
+        "A 前句at least not for person paying限定视角，不保证服务者。",
+        "B freeing up time不等于所有义务消失。",
+        "C It承接outsourcing及付款者视角，后句gaining free time解释。",
+        "D 与腾出时间相反，也不从此断言心理丰富一定提高。"
+      ],
+      "vocabulary": [
+        {
+          "word": "freeing up time",
+          "meaning": "腾出时间；使时间可供其他用途",
+          "context": "与有更多空闲相关，不是字面让时间消失或对所有相关人都同样有益。",
+          "example": "Delegating one task helped free up time for the project.",
+          "collocations": [
+            "all about freeing up time",
+            "gaining free time"
+          ]
+        }
+      ],
+      "translation": "与劳动分工不同，外包不涉及重复任务和不人道的工作条件——至少对付钱的人而言如此。它的核心是腾出时间。只要你花钱让人做自己不想做的任务，并因此获得空闲时间，它应该会增加幸福。但外包是否也会像专门化和劳动分工那样，减损心理丰富性？",
+      "evidenceTargetIds": [
+        "c08-s06-p086-03675-s002"
+      ],
+      "evidence": [
+        {
+          "quote": "Unlike division of labor, outsourcing does not involve repetitive tasks and inhumane working conditions (at least not for the person paying). It is all about freeing up time. To the extent that you are paying someone to do the tasks you don’t want to do and as a result gaining free time, it should increase your happiness. But does outsourcing detract from psychological richness, just as specialization and division of labor do?",
+          "sentenceIds": [
+            "c08-s06-p086-03675-s001",
+            "c08-s06-p086-03675-s002",
+            "c08-s06-p086-03675-s003",
+            "c08-s06-p086-03675-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 86,
+              "block": 2,
+              "bbox": [
+                76.99,
+                367.5,
+                535.01,
+                518.52
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "bf01fd7a07b5208cc391ab1526547f7668b62cb7a764bf38c8cca0810f87b9df"
+    },
+    {
+      "id": "qe-c08-0072",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-031",
+      "parentQuestionId": "q-c08-047",
+      "chapterId": "c08",
+      "sectionId": "c08-s06",
+      "paragraphId": "c08-s06-p086-03675",
+      "readingUnitId": "c08-s06-p086-03675-r001-004",
+      "sentenceIds": [
+        "c08-s06-p086-03675-s001",
+        "c08-s06-p086-03675-s002",
+        "c08-s06-p086-03675-s003",
+        "c08-s06-p086-03675-s004"
+      ],
+      "passage": "Unlike division of labor, outsourcing does not involve repetitive tasks and inhumane working conditions (at least not for the person paying). It is all about freeing up time. To the extent that you are paying someone to do the tasks you don’t want to do and as a result gaining free time, it should increase your happiness. But does outsourcing detract from psychological richness, just as specialization and division of labor do?",
+      "prompt": "What condition does 'To the extent that' preserve in the happiness claim?",
+      "promptZh": "幸福主张中的 To the extent that 保留什么条件？",
+      "options": [
+        "Paying for unwanted tasks actually gains free time for the payer.",
+        "Any spending,regardless of purpose or result,guarantees happiness.",
+        "The person providing the service is guaranteed equal free time.",
+        "There is no need to distinguish tasks or whether time is saved."
+      ],
+      "optionsZh": [
+        "为不想做的任务付费确实给付款者带来空闲。",
+        "无论用途结果，任何花钱都保证幸福。",
+        "提供服务者保证得到同样空闲。",
+        "无需区别任务或是否省时。"
+      ],
+      "answer": 0,
+      "type": "逻辑关系",
+      "support": "explicit",
+      "analyses": [
+        "A paying someone...tasks don't want...as a result gaining time构成限制条件，should也非绝对保证。",
+        "B 删除条件、扩大任何消费且加强强度。",
+        "C 视角是付款者，不能擅推提供者同益。",
+        "D 原句明确gaining time是推理的一部分。"
+      ],
+      "vocabulary": [
+        {
+          "word": "To the extent that",
+          "meaning": "在……程度或条件下；就……而言",
+          "context": "把结论系于所述机制是否成立，不等于无条件所有花费。",
+          "example": "To the extent that the change saves time, it may reduce pressure.",
+          "collocations": [
+            "To the extent that you are paying",
+            "as a result gaining free time"
+          ]
+        }
+      ],
+      "translation": "与劳动分工不同，外包不涉及重复任务和不人道的工作条件——至少对付钱的人而言如此。它的核心是腾出时间。只要你花钱让人做自己不想做的任务，并因此获得空闲时间，它应该会增加幸福。但外包是否也会像专门化和劳动分工那样，减损心理丰富性？",
+      "evidenceTargetIds": [
+        "c08-s06-p086-03675-s003"
+      ],
+      "evidence": [
+        {
+          "quote": "Unlike division of labor, outsourcing does not involve repetitive tasks and inhumane working conditions (at least not for the person paying). It is all about freeing up time. To the extent that you are paying someone to do the tasks you don’t want to do and as a result gaining free time, it should increase your happiness. But does outsourcing detract from psychological richness, just as specialization and division of labor do?",
+          "sentenceIds": [
+            "c08-s06-p086-03675-s001",
+            "c08-s06-p086-03675-s002",
+            "c08-s06-p086-03675-s003",
+            "c08-s06-p086-03675-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 86,
+              "block": 2,
+              "bbox": [
+                76.99,
+                367.5,
+                535.01,
+                518.52
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "a558f63bd25d77fca4ff4b7afd0cc7756c4b1eea6e91d432b7a3cdf19c63cf6d"
+    },
+    {
+      "id": "qe-c08-0073",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-031",
+      "parentQuestionId": "q-c08-047",
+      "chapterId": "c08",
+      "sectionId": "c08-s06",
+      "paragraphId": "c08-s06-p086-03675",
+      "readingUnitId": "c08-s06-p086-03675-r001-004",
+      "sentenceIds": [
+        "c08-s06-p086-03675-s001",
+        "c08-s06-p086-03675-s002",
+        "c08-s06-p086-03675-s003",
+        "c08-s06-p086-03675-s004"
+      ],
+      "passage": "Unlike division of labor, outsourcing does not involve repetitive tasks and inhumane working conditions (at least not for the person paying). It is all about freeing up time. To the extent that you are paying someone to do the tasks you don’t want to do and as a result gaining free time, it should increase your happiness. But does outsourcing detract from psychological richness, just as specialization and division of labor do?",
+      "prompt": "What new question is introduced by 'But does outsourcing detract from psychological richness'?",
+      "promptZh": "But does outsourcing detract from psychological richness 引入什么新问题？",
+      "options": [
+        "Whether the experiment proves all forms of outsourcing have identical effects.",
+        "Whether every payer has already become psychologically richer.",
+        "Whether happiness and psychological richness are exactly the same outcome.",
+        "Whether outsourcing may have a different cost for richness despite possible happiness benefits."
+      ],
+      "optionsZh": [
+        "实验是否证明所有外包效果相同。",
+        "每位付款者是否已经心理更丰富。",
+        "幸福与心理丰富是否完全同一结果。",
+        "外包即使可能有幸福益处，是否对丰富性另有代价。"
+      ],
+      "answer": 3,
+      "type": "作者意图",
+      "support": "explicit",
+      "analyses": [
+        "A 句子是在提问，不是已证明全类同效。",
+        "B 不断言每个人已更丰富。",
+        "C 转换维度说明不能等同。",
+        "D But在幸福讨论后提出丰富性是否受损，当前片段并未直接回答此新问题或报告新证据。"
+      ],
+      "vocabulary": [
+        {
+          "word": "detract from",
+          "meaning": "减损；削弱某种价值或体验",
+          "context": "此处为疑问可能成本，不预设所有外包都必受损。",
+          "example": "The repetition may detract from the variety of the experience.",
+          "collocations": [
+            "detract from psychological richness",
+            "a different psychological cost"
+          ]
+        }
+      ],
+      "translation": "与劳动分工不同，外包不涉及重复任务和不人道的工作条件——至少对付钱的人而言如此。它的核心是腾出时间。只要你花钱让人做自己不想做的任务，并因此获得空闲时间，它应该会增加幸福。但外包是否也会像专门化和劳动分工那样，减损心理丰富性？",
+      "evidenceTargetIds": [
+        "c08-s06-p086-03675-s004"
+      ],
+      "evidence": [
+        {
+          "quote": "Unlike division of labor, outsourcing does not involve repetitive tasks and inhumane working conditions (at least not for the person paying). It is all about freeing up time. To the extent that you are paying someone to do the tasks you don’t want to do and as a result gaining free time, it should increase your happiness. But does outsourcing detract from psychological richness, just as specialization and division of labor do?",
+          "sentenceIds": [
+            "c08-s06-p086-03675-s001",
+            "c08-s06-p086-03675-s002",
+            "c08-s06-p086-03675-s003",
+            "c08-s06-p086-03675-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 86,
+              "block": 2,
+              "bbox": [
+                76.99,
+                367.5,
+                535.01,
+                518.52
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "6868437784acbecfc9506f4475b9ec58ea06a4011890448629d4d04c1791b0d4"
+    },
+    {
+      "id": "q-c08-048",
+      "version": 1,
+      "readingUnitId": "c08-s06-p086-03675-r005-005",
+      "chapterId": "c08",
+      "sectionId": "c08-s06",
+      "paragraphId": "c08-s06-p086-03675",
+      "sentenceIds": [
+        "c08-s06-p086-03675-s005"
+      ],
+      "passage": "We have not empirically tested this, but there is a possibility that outsourcing could reduce psychological richness.",
+      "prompt": "Which statement preserves the evidence status of this claim?",
+      "options": [
+        "A reduction in richness is possible, but the authors have not tested it empirically.",
+        "The authors’ experiment conclusively proved that outsourcing reduces richness.",
+        "The authors have ruled out any effect on psychological richness.",
+        "The authors have tested only workers and confirmed the effect for purchasers."
+      ],
+      "answer": 0,
+      "type": "同义改写",
+      "promptZh": "哪一陈述保留了这项主张的证据状态？",
+      "optionsZh": [
+        "丰富性可能减少，但作者尚未做实证检验。",
+        "作者的实验已确凿证明外包降低丰富性。",
+        "作者已排除外包对丰富性的任何影响。",
+        "作者只检验了工人，却确认了购买者的效果。"
+      ],
+      "analyses": [
+        "A not empirically tested 与 possibility...could 同时保留。",
+        "B 把明确未检验改成已证实。",
+        "C 可能降低不等于排除任何影响。",
+        "D 没有工人样本或购买者确认的资料。IELTS 判断证据强度时，应把未实证的可能性与前面的幸福实验结果分开。"
+      ],
+      "evidence": [
+        {
+          "quote": "We have not empirically tested this, but there is a possibility that outsourcing could reduce psychological richness.",
+          "sentenceIds": [
+            "c08-s06-p086-03675-s005"
+          ],
+          "sources": [
+            {
+              "pdfPage": 86,
+              "block": 2,
+              "bbox": [
+                76.99,
+                367.5,
+                535.01,
+                518.52
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "empirically",
+          "meaning": "以实证方式；通过实际观察或数据检验",
+          "context": "作者明确承认尚未用实证数据测试外包对丰富性的这个判断",
+          "example": "The hypothesis still needs to be tested empirically.",
+          "collocations": [
+            "empirically test a claim",
+            "not empirically tested"
+          ]
+        }
+      ],
+      "translation": "我们还没有对这一点进行实证检验，但外包有可能会减少心理丰富性。",
+      "support": "explicit",
+      "editorialStatus": "PDF 第 85–90 页逐题原页核对；固定原句与来源；保留外包调查与实验、自报、未实证推测、DIY回忆和反事实、文学引述及原书时点；原文连续无重复",
+      "fingerprint": "1a2827323e7569a32fa27fbf35f6a61a439dfb5641721783b22512f9c36cfe13"
+    },
+    {
+      "id": "q-c08-049",
+      "version": 1,
+      "readingUnitId": "c08-s06-p086-05235-r001-004",
+      "chapterId": "c08",
+      "sectionId": "c08-s06",
+      "paragraphId": "c08-s06-p086-05235",
+      "sentenceIds": [
+        "c08-s06-p086-05235-s001",
+        "c08-s06-p086-05235-s002",
+        "c08-s06-p086-05235-s003",
+        "c08-s06-p086-05235-s004"
+      ],
+      "passage": "A while ago, my wife and I were thinking about converting our unkempt side yard to a brick patio. After getting a few estimates, the lowest price we found was $9,000. We checked the material cost, which was about $4,000. We thought to ourselves, couldn’t we do all the digging and labor ourselves if it meant saving at least $5,000?",
+      "prompt": "What made the couple consider doing the patio work themselves?",
+      "options": [
+        "A contractor guaranteed they would finish for $4,000.",
+        "They had already earned $9,000 by selling the bricks.",
+        "They had confirmed the final project would save exactly $5,000.",
+        "The lowest quote was $9,000 while materials were about $4,000."
+      ],
+      "answer": 3,
+      "type": "细节",
+      "promptZh": "什么让夫妇考虑亲自动手修露台？",
+      "optionsZh": [
+        "承包商保证四千美元全部完工。",
+        "他们已通过卖砖赚了九千美元。",
+        "他们已确认最终恰好节省五千美元。",
+        "最低报价九千美元，而材料约四千美元。"
+      ],
+      "analyses": [
+        "A 四千是材料成本，不是承包商全包保证。",
+        "B 原文只提估价与成本，没有卖砖收入。",
+        "C thought...couldn’t we 是当时的预计，不是完工后已确认的实际节省。",
+        "D 两个估计的差额让他们想到自己承担挖掘与劳动。这是个人项目价格，不是普遍施工报价或确保收益。"
+      ],
+      "evidence": [
+        {
+          "quote": "the lowest price we found was $9,000. We checked the material cost, which was about $4,000.",
+          "sentenceIds": [
+            "c08-s06-p086-05235-s002",
+            "c08-s06-p086-05235-s003"
+          ],
+          "sources": [
+            {
+              "pdfPage": 86,
+              "block": 3,
+              "bbox": [
+                76.99,
+                523.5,
+                535.01,
+                713.52
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "estimates",
+          "meaning": "估价；报价",
+          "context": "雇人修露台前得到的费用预估，并非最终实际开销",
+          "example": "We requested several estimates before choosing a builder.",
+          "collocations": [
+            "get a few estimates",
+            "the lowest estimate"
+          ]
+        }
+      ],
+      "translation": "一段时间以前，我和妻子考虑把杂乱的侧院改成砖砌露台。询了几个价，找到的最低报价是九千美元。我们查了材料成本，约四千美元。我们想，如果能省下至少五千美元，难道不能自己完成所有挖掘和劳动吗？",
+      "support": "explicit",
+      "editorialStatus": "PDF 第 85–90 页逐题原页核对；固定原句与来源；保留外包调查与实验、自报、未实证推测、DIY回忆和反事实、文学引述及原书时点；原文连续无重复",
+      "fingerprint": "1360b8366ef2a0b9b440733f68e9ba72063701a16a6b903f1957f2d48523779d"
+    },
+    {
+      "id": "qe-c08-0074",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-031",
+      "parentQuestionId": "q-c08-049",
+      "chapterId": "c08",
+      "sectionId": "c08-s06",
+      "paragraphId": "c08-s06-p086-05235",
+      "readingUnitId": "c08-s06-p086-05235-r001-004",
+      "sentenceIds": [
+        "c08-s06-p086-05235-s001",
+        "c08-s06-p086-05235-s002",
+        "c08-s06-p086-05235-s003",
+        "c08-s06-p086-05235-s004"
+      ],
+      "passage": "A while ago, my wife and I were thinking about converting our unkempt side yard to a brick patio. After getting a few estimates, the lowest price we found was $9,000. We checked the material cost, which was about $4,000. We thought to ourselves, couldn’t we do all the digging and labor ourselves if it meant saving at least $5,000?",
+      "prompt": "What home project were the author and his wife considering?",
+      "promptZh": "作者与妻子考虑哪项居家工程？",
+      "options": [
+        "Moving the whole house to a different city.",
+        "Replacing the brick patio with an office laboratory.",
+        "Turning an untidy side yard into a brick patio.",
+        "Building a factory to assemble motorcycles professionally."
+      ],
+      "optionsZh": [
+        "把整栋房屋迁至另一城市。",
+        "把砖露台改为办公室实验室。",
+        "把杂乱的侧院变成砖砌露台。",
+        "建摩托车专业组装厂。"
+      ],
+      "answer": 2,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A 没有搬屋计划。",
+        "B 方向反了且没有办公室。",
+        "C converting our unkempt side yard to a brick patio对应起点及目标。",
+        "D 与前面实验混同；这是作者个人故事，不是受试样本或读者家的真实状况。"
+      ],
+      "vocabulary": [
+        {
+          "word": "unkempt",
+          "meaning": "疏于整理的；杂乱的",
+          "context": "修饰侧院，不表示无人居住或读者本人品格。",
+          "example": "The unkempt garden needed attention after the winter.",
+          "collocations": [
+            "an unkempt side yard",
+            "convert to a brick patio"
+          ]
+        }
+      ],
+      "translation": "一段时间以前，我和妻子考虑把杂乱的侧院改成砖砌露台。询了几个价，找到的最低报价是九千美元。我们查了材料成本，约四千美元。我们想，如果能省下至少五千美元，难道不能自己完成所有挖掘和劳动吗？",
+      "evidenceTargetIds": [
+        "c08-s06-p086-05235-s001"
+      ],
+      "evidence": [
+        {
+          "quote": "A while ago, my wife and I were thinking about converting our unkempt side yard to a brick patio. After getting a few estimates, the lowest price we found was $9,000. We checked the material cost, which was about $4,000. We thought to ourselves, couldn’t we do all the digging and labor ourselves if it meant saving at least $5,000?",
+          "sentenceIds": [
+            "c08-s06-p086-05235-s001",
+            "c08-s06-p086-05235-s002",
+            "c08-s06-p086-05235-s003",
+            "c08-s06-p086-05235-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 86,
+              "block": 3,
+              "bbox": [
+                76.99,
+                523.5,
+                535.01,
+                713.52
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "9a31bc0f06e91a4208e1bd67e213dfeb14fd8b5cb1985e5befc00c4f8e7fac44"
+    },
+    {
+      "id": "qe-c08-0075",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-031",
+      "parentQuestionId": "q-c08-049",
+      "chapterId": "c08",
+      "sectionId": "c08-s06",
+      "paragraphId": "c08-s06-p086-05235",
+      "readingUnitId": "c08-s06-p086-05235-r001-004",
+      "sentenceIds": [
+        "c08-s06-p086-05235-s001",
+        "c08-s06-p086-05235-s002",
+        "c08-s06-p086-05235-s003",
+        "c08-s06-p086-05235-s004"
+      ],
+      "passage": "A while ago, my wife and I were thinking about converting our unkempt side yard to a brick patio. After getting a few estimates, the lowest price we found was $9,000. We checked the material cost, which was about $4,000. We thought to ourselves, couldn’t we do all the digging and labor ourselves if it meant saving at least $5,000?",
+      "prompt": "What motivates the question about doing the digging and labour themselves?",
+      "promptZh": "为何提出自己挖掘、劳动的想法？",
+      "options": [
+        "They had already completed the work for exactly $5,000.",
+        "They hoped to save at least $5,000 relative to the quoted work cost.",
+        "They believed no materials would ever be needed.",
+        "They aimed to save the entire $9,000 quoted amount rather than the labour portion."
+      ],
+      "optionsZh": [
+        "他们已恰花五千完成工程。",
+        "相对于报价，他们希望至少省五千美元。",
+        "他们认为完全不需材料。",
+        "他们想省全部九千美元报价，而非劳动部分。"
+      ],
+      "answer": 1,
+      "type": "逻辑关系",
+      "support": "explicit",
+      "analyses": [
+        "A thought to ourselves、couldn't we、if meant为决策时设想，不是已完工账本。",
+        "B 最低报价9,000及材料about4,000支持预期劳动自做节省，at least为原句目标。",
+        "C 前句明确材料约4,000。",
+        "D 前句材料约四千仍需考虑，原句目标at least五千对应自做挖掘与劳动，不能把整笔报价都当净节省。"
+      ],
+      "vocabulary": [
+        {
+          "word": "saving at least",
+          "meaning": "至少节省；以某数额为节省下限目标",
+          "context": "在此为夫妇考虑的条件性预期，不是今天市场报价或最终实际收益。",
+          "example": "They considered doing the work themselves if it meant saving at least that amount.",
+          "collocations": [
+            "saving at least five thousand dollars",
+            "do the digging ourselves"
+          ]
+        }
+      ],
+      "translation": "一段时间以前，我和妻子考虑把杂乱的侧院改成砖砌露台。询了几个价，找到的最低报价是九千美元。我们查了材料成本，约四千美元。我们想，如果能省下至少五千美元，难道不能自己完成所有挖掘和劳动吗？",
+      "evidenceTargetIds": [
+        "c08-s06-p086-05235-s004"
+      ],
+      "evidence": [
+        {
+          "quote": "A while ago, my wife and I were thinking about converting our unkempt side yard to a brick patio. After getting a few estimates, the lowest price we found was $9,000. We checked the material cost, which was about $4,000. We thought to ourselves, couldn’t we do all the digging and labor ourselves if it meant saving at least $5,000?",
+          "sentenceIds": [
+            "c08-s06-p086-05235-s001",
+            "c08-s06-p086-05235-s002",
+            "c08-s06-p086-05235-s003",
+            "c08-s06-p086-05235-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 86,
+              "block": 3,
+              "bbox": [
+                76.99,
+                523.5,
+                535.01,
+                713.52
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "d0cad6d1494b2cb4fee908d555e323f13544c8edc5ce5e4a5c70f1488b638488"
+    },
+    {
+      "id": "q-c08-050",
+      "version": 1,
+      "readingUnitId": "c08-s06-p086-05235-r005-008",
+      "chapterId": "c08",
+      "sectionId": "c08-s06",
+      "paragraphId": "c08-s06-p086-05235",
+      "sentenceIds": [
+        "c08-s06-p086-05235-s005",
+        "c08-s06-p086-05235-s006",
+        "c08-s06-p086-05235-s007",
+        "c08-s06-p086-05235-s008"
+      ],
+      "passage": "We watched a couple of YouTube videos, and it seemed doable. Being cheap, we decided to do it ourselves. The rest is your typical DIY story. It was a lot more work than we had ever anticipated.",
+      "prompt": "How did the couple’s later experience compare with their initial impression?",
+      "options": [
+        "The videos made the work seem impossible, but it proved effortless.",
+        "The work seemed manageable at first but required much more effort than expected.",
+        "They hired the video makers to complete all of the work.",
+        "They had anticipated the full workload before deciding to begin."
+      ],
+      "answer": 1,
+      "type": "逻辑关系",
+      "promptZh": "实际经历与夫妇最初的印象有什么差异？",
+      "optionsZh": [
+        "视频使工程看似不可能，实际却毫不费力。",
+        "起初看似可行，实际劳动远超预期。",
+        "他们雇视频制作者完成全部工作。",
+        "决定开工前，他们已完全预料工作量。"
+      ],
+      "analyses": [
+        "A seemed doable 与 more work 把这个方向反转。",
+        "B doable 是起初判断，more...than...anticipated 是后来落差。",
+        "C decided to do it ourselves 是自己干，不是聘视频作者。",
+        "D more...than anticipated 明确表明低估。动机 Being cheap 是作者对自己的描述，不是实验对所有DIY者的结论。"
+      ],
+      "evidence": [
+        {
+          "quote": "it seemed doable.",
+          "sentenceIds": [
+            "c08-s06-p086-05235-s005"
+          ],
+          "sources": [
+            {
+              "pdfPage": 86,
+              "block": 3,
+              "bbox": [
+                76.99,
+                523.5,
+                535.01,
+                713.52
+              ]
+            }
+          ]
+        },
+        {
+          "quote": "It was a lot more work than we had ever anticipated.",
+          "sentenceIds": [
+            "c08-s06-p086-05235-s008"
+          ],
+          "sources": [
+            {
+              "pdfPage": 86,
+              "block": 3,
+              "bbox": [
+                76.99,
+                523.5,
+                535.01,
+                713.52
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "doable",
+          "meaning": "可行的；做得到的",
+          "context": "看视频后觉得可亲手完成，语气 seemed 并非客观保证容易",
+          "example": "The repair seemed doable with the tools we had.",
+          "collocations": [
+            "seem doable",
+            "a doable project"
+          ]
+        }
+      ],
+      "translation": "我们看了几个 YouTube 视频，感觉可行。为了省钱，我们决定自己做。接下来就是典型的 DIY 故事了。工作量比我们原先预想的多得多。",
+      "support": "explicit",
+      "editorialStatus": "PDF 第 85–90 页逐题原页核对；固定原句与来源；保留外包调查与实验、自报、未实证推测、DIY回忆和反事实、文学引述及原书时点；原文连续无重复",
+      "fingerprint": "e545781a4d17deb98a114f24adbc98a5ffa9c9ad24c5b3137f24d14cc2dfa1db"
+    },
+    {
+      "id": "qe-c08-0076",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-031",
+      "parentQuestionId": "q-c08-050",
+      "chapterId": "c08",
+      "sectionId": "c08-s06",
+      "paragraphId": "c08-s06-p086-05235",
+      "readingUnitId": "c08-s06-p086-05235-r005-008",
+      "sentenceIds": [
+        "c08-s06-p086-05235-s005",
+        "c08-s06-p086-05235-s006",
+        "c08-s06-p086-05235-s007",
+        "c08-s06-p086-05235-s008"
+      ],
+      "passage": "We watched a couple of YouTube videos, and it seemed doable. Being cheap, we decided to do it ourselves. The rest is your typical DIY story. It was a lot more work than we had ever anticipated.",
+      "prompt": "What sense of 'Being cheap' explains the DIY decision?",
+      "promptZh": "Being cheap 用哪种含义解释DIY决定？",
+      "options": [
+        "The narrator portrays reluctance to spend money as a reason for doing the work themselves.",
+        "The finished patio had already been proved poor in quality.",
+        "The family had already been measured as unable to afford any service.",
+        "The decision was to hire the most expensive provider regardless of cost."
+      ],
+      "optionsZh": [
+        "作者以不愿多花钱的自我描述解释亲自做。",
+        "完工露台已证明质量低劣。",
+        "家庭已被测得完全付不起任何服务。",
+        "决定不论成本都雇最贵服务商。"
+      ],
+      "answer": 0,
+      "type": "语境词义",
+      "support": "explicit",
+      "analyses": [
+        "A Being cheap修饰we，作为省钱动机的自我描述；前句看视频觉得可行也属背景。",
+        "B cheap说人动机，不是已完工材料质量。",
+        "C 节省偏好不证明贫穷或支付能力。",
+        "D do it ourselves与hiremostexpensive相反；本题不假定工程最终工作量或成果已如预期。"
+      ],
+      "vocabulary": [
+        {
+          "word": "Being cheap",
+          "meaning": "因为不愿花钱；出于节省的心态（作者自嘲）",
+          "context": "cheap可形容物品便宜或质量低，但此处形容人不愿花钱，不能错配成品。",
+          "example": "Being cheap, he tried repairing the old chair before buying another.",
+          "collocations": [
+            "Being cheap, we decided",
+            "do it ourselves"
+          ]
+        }
+      ],
+      "translation": "我们看了几个 YouTube 视频，感觉可行。为了省钱，我们决定自己做。接下来就是典型的 DIY 故事了。工作量比我们原先预想的多得多。",
+      "evidenceTargetIds": [
+        "c08-s06-p086-05235-s006"
+      ],
+      "evidence": [
+        {
+          "quote": "We watched a couple of YouTube videos, and it seemed doable. Being cheap, we decided to do it ourselves.",
+          "sentenceIds": [
+            "c08-s06-p086-05235-s005",
+            "c08-s06-p086-05235-s006"
+          ],
+          "sources": [
+            {
+              "pdfPage": 86,
+              "block": 3,
+              "bbox": [
+                76.99,
+                523.5,
+                535.01,
+                713.52
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "f51dbf01a7a96cd15027bddcf1482d957f09a2fac1c279b79d0ae60973f32950"
+    },
+    {
+      "id": "qe-c08-0077",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-032",
+      "parentQuestionId": "q-c08-050",
+      "chapterId": "c08",
+      "sectionId": "c08-s06",
+      "paragraphId": "c08-s06-p086-05235",
+      "readingUnitId": "c08-s06-p086-05235-r005-008",
+      "sentenceIds": [
+        "c08-s06-p086-05235-s005",
+        "c08-s06-p086-05235-s006",
+        "c08-s06-p086-05235-s007",
+        "c08-s06-p086-05235-s008"
+      ],
+      "passage": "We watched a couple of YouTube videos, and it seemed doable. Being cheap, we decided to do it ourselves. The rest is your typical DIY story. It was a lot more work than we had ever anticipated.",
+      "prompt": "What does 'your typical DIY story' prepare the reader for here?",
+      "promptZh": "这里 your typical DIY story 为后文作什么铺垫？",
+      "options": [
+        "A project completed without any unexpected effort.",
+        "A familiar pattern of a job proving harder than expected.",
+        "A technical instruction written by the reader.",
+        "An account in which hiring professionals was the final decision."
+      ],
+      "optionsZh": [
+        "毫无意外工作量便完成的工程。",
+        "工程比预料困难这一常见模式。",
+        "由读者撰写的技术指令。",
+        "最终决定聘请专业人员的经历。"
+      ],
+      "answer": 1,
+      "type": "作者意图",
+      "support": "explicit",
+      "analyses": [
+        "A 紧接 a lot more work than anticipated，方向相反。",
+        "B typical 引向常见的 DIY 低估工作量叙述，后句给出具体内容。",
+        "C your 是泛指用法，不是读者写的施工指南。",
+        "D 前句明确 decided to do it ourselves，不能改成最后雇人；这段是作者经历，不是普遍实验结果。"
+      ],
+      "vocabulary": [
+        {
+          "word": "anticipated",
+          "meaning": "预料到；事先预计",
+          "context": "这里是事前对工作量的估计，实际工作更多。",
+          "example": "The repair required more time than we had anticipated.",
+          "collocations": [
+            "more work than anticipated",
+            "a typical DIY story"
+          ]
+        }
+      ],
+      "translation": "我们看了几个 YouTube 视频，感觉可行。为了省钱，我们决定自己做。接下来就是典型的 DIY 故事了。工作量比我们原先预想的多得多。",
+      "evidenceTargetIds": [
+        "c08-s06-p086-05235-s007"
+      ],
+      "evidence": [
+        {
+          "quote": "We watched a couple of YouTube videos, and it seemed doable. Being cheap, we decided to do it ourselves. The rest is your typical DIY story. It was a lot more work than we had ever anticipated.",
+          "sentenceIds": [
+            "c08-s06-p086-05235-s005",
+            "c08-s06-p086-05235-s006",
+            "c08-s06-p086-05235-s007",
+            "c08-s06-p086-05235-s008"
+          ],
+          "sources": [
+            {
+              "pdfPage": 86,
+              "block": 3,
+              "bbox": [
+                76.99,
+                523.5,
+                535.01,
+                713.52
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "6a3259b0dcb877b747747753bdc97f6c3b7237fbaf4f182f8ddd27cbd7455a15"
+    },
+    {
+      "id": "q-c08-051",
+      "version": 1,
+      "readingUnitId": "c08-s06-p086-05235-r009-012",
+      "chapterId": "c08",
+      "sectionId": "c08-s06",
+      "paragraphId": "c08-s06-p086-05235",
+      "sentenceIds": [
+        "c08-s06-p086-05235-s009",
+        "c08-s06-p086-05235-s010",
+        "c08-s06-p086-05235-s011",
+        "c08-s06-p086-05235-s012"
+      ],
+      "passage": "Digging nine inches of a sloped, tree-root-filled, rock-hard clay-soil twenty-by-twenty-four-foot yard was hard. Tamping down the ground to create a firm and level base for bricks was taxing. Our house sat on the top of a hill and our worksite was on the opposite side of the driveway, making transporting three hundred bags of gravel and sand with a wheelbarrow an insanely difficult task. Not to mention carrying 2,000 bricks—it was literally backbreaking.",
+      "prompt": "What does “taxing” mean in the description of preparing the ground?",
+      "options": [
+        "Requiring payment of a government charge.",
+        "Increasing the value of the house automatically.",
+        "Physically demanding and tiring.",
+        "Reducing the number of bricks needed."
+      ],
+      "answer": 2,
+      "type": "语境词义",
+      "promptZh": "在准备地面的描述中，taxing 是什么意思？",
+      "optionsZh": [
+        "需要缴纳政府税费。",
+        "自动提高房屋价值。",
+        "费体力、令人疲惫的。",
+        "减少所需砖块数量。"
+      ],
+      "analyses": [
+        "A tax 可指税，但这里形容夯实地面的劳动，不是税务。",
+        "B 没有房屋估值信息。",
+        "C hard、insanely difficult、backbreaking 构成费力语境，支持 demanding。",
+        "D 任务目的是形成平整牢固底座，未说减少砖数。这里报告艰难体力经历；不能仅凭 backbreaking 一词给出骨折诊断。"
+      ],
+      "evidence": [
+        {
+          "quote": "Tamping down the ground to create a firm and level base for bricks was taxing.",
+          "sentenceIds": [
+            "c08-s06-p086-05235-s010"
+          ],
+          "sources": [
+            {
+              "pdfPage": 86,
+              "block": 3,
+              "bbox": [
+                76.99,
+                523.5,
+                535.01,
+                713.52
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "taxing",
+          "meaning": "费力的；使人劳累的",
+          "context": "这里指夯实地基费体力，不是征税",
+          "example": "Carrying heavy boxes upstairs was a taxing task.",
+          "collocations": [
+            "a taxing task",
+            "physically taxing"
+          ]
+        }
+      ],
+      "translation": "在二十乘二十四英尺、倾斜、布满树根且黏土硬如石头的院子里挖下九英寸，很不容易。把地面夯实，为砖块做出牢固平整的底座，也很费力。房子在山坡顶，工地又在车道另一侧，用独轮车搬三百袋碎石和沙子，极其困难。更别提搬两千块砖了——真让人腰背累垮。",
+      "support": "explicit",
+      "editorialStatus": "PDF 第 85–90 页逐题原页核对；固定原句与来源；保留外包调查与实验、自报、未实证推测、DIY回忆和反事实、文学引述及原书时点；原文连续无重复",
+      "fingerprint": "5288fdb2953c110b4efae389286a5623df0ab084af408fab972c2391a932f371"
+    },
+    {
+      "id": "qe-c08-0078",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-032",
+      "parentQuestionId": "q-c08-051",
+      "chapterId": "c08",
+      "sectionId": "c08-s06",
+      "paragraphId": "c08-s06-p086-05235",
+      "readingUnitId": "c08-s06-p086-05235-r009-012",
+      "sentenceIds": [
+        "c08-s06-p086-05235-s009",
+        "c08-s06-p086-05235-s010",
+        "c08-s06-p086-05235-s011",
+        "c08-s06-p086-05235-s012"
+      ],
+      "passage": "Digging nine inches of a sloped, tree-root-filled, rock-hard clay-soil twenty-by-twenty-four-foot yard was hard. Tamping down the ground to create a firm and level base for bricks was taxing. Our house sat on the top of a hill and our worksite was on the opposite side of the driveway, making transporting three hundred bags of gravel and sand with a wheelbarrow an insanely difficult task. Not to mention carrying 2,000 bricks—it was literally backbreaking.",
+      "prompt": "Which description explains why digging the yard was difficult?",
+      "promptZh": "哪种描述说明挖院子为何困难？",
+      "options": [
+        "A flat, empty plot with soft soil needed only surface sweeping.",
+        "The yard was nine feet deep and contained no roots.",
+        "Only the number of bricks made digging difficult.",
+        "The sloping yard had roots and very hard clay, and required digging down nine inches."
+      ],
+      "optionsZh": [
+        "平坦、空旷且土松，只需扫表面。",
+        "院子深九英尺且没有树根。",
+        "只有砖块数量使挖掘困难。",
+        "院子倾斜、有树根、黏土很硬，且需向下挖九英寸。"
+      ],
+      "answer": 3,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A sloped、tree-root-filled、rock-hard 与这些描述逐项相反。",
+        "B nine inches 不是 nine feet，且原文有根。",
+        "C 砖块搬运是另项困难，不能替代本句土质与地形。",
+        "D 多个修饰语共同描写施工条件；twenty-by-twenty-four-foot 是院子平面尺寸，不是挖掘深度。"
+      ],
+      "vocabulary": [
+        {
+          "word": "rock-hard",
+          "meaning": "硬如石头的；极硬的",
+          "context": "形容黏土坚硬，不表示院子全部由岩石砌成。",
+          "example": "The dry ground was rock-hard after weeks without rain.",
+          "collocations": [
+            "rock-hard clay-soil",
+            "a tree-root-filled yard"
+          ]
+        }
+      ],
+      "translation": "在二十乘二十四英尺、倾斜、布满树根且黏土硬如石头的院子里挖下九英寸，很不容易。把地面夯实，为砖块做出牢固平整的底座，也很费力。房子在山坡顶，工地又在车道另一侧，用独轮车搬三百袋碎石和沙子，极其困难。更别提搬两千块砖了——真让人腰背累垮。",
+      "evidenceTargetIds": [
+        "c08-s06-p086-05235-s009"
+      ],
+      "evidence": [
+        {
+          "quote": "Digging nine inches of a sloped, tree-root-filled, rock-hard clay-soil twenty-by-twenty-four-foot yard was hard. Tamping down the ground to create a firm and level base for bricks was taxing. Our house sat on the top of a hill and our worksite was on the opposite side of the driveway, making transporting three hundred bags of gravel and sand with a wheelbarrow an insanely difficult task. Not to mention carrying 2,000 bricks—it was literally backbreaking.",
+          "sentenceIds": [
+            "c08-s06-p086-05235-s009",
+            "c08-s06-p086-05235-s010",
+            "c08-s06-p086-05235-s011",
+            "c08-s06-p086-05235-s012"
+          ],
+          "sources": [
+            {
+              "pdfPage": 86,
+              "block": 3,
+              "bbox": [
+                76.99,
+                523.5,
+                535.01,
+                713.52
+              ]
+            },
+            {
+              "pdfPage": 87,
+              "block": 0,
+              "bbox": [
+                76.99,
+                75,
+                535.01,
+                265.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "6ccef38f8f90a74c50646afee25f6060b189c8ed1117269383e54f31e3cb8aee"
+    },
+    {
+      "id": "qe-c08-0079",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-032",
+      "parentQuestionId": "q-c08-051",
+      "chapterId": "c08",
+      "sectionId": "c08-s06",
+      "paragraphId": "c08-s06-p086-05235",
+      "readingUnitId": "c08-s06-p086-05235-r009-012",
+      "sentenceIds": [
+        "c08-s06-p086-05235-s009",
+        "c08-s06-p086-05235-s010",
+        "c08-s06-p086-05235-s011",
+        "c08-s06-p086-05235-s012"
+      ],
+      "passage": "Digging nine inches of a sloped, tree-root-filled, rock-hard clay-soil twenty-by-twenty-four-foot yard was hard. Tamping down the ground to create a firm and level base for bricks was taxing. Our house sat on the top of a hill and our worksite was on the opposite side of the driveway, making transporting three hundred bags of gravel and sand with a wheelbarrow an insanely difficult task. Not to mention carrying 2,000 bricks—it was literally backbreaking.",
+      "prompt": "Why was moving the gravel and sand especially difficult?",
+      "promptZh": "搬碎石与沙子为何特别困难？",
+      "options": [
+        "The uphill house and worksite across the driveway complicated moving three hundred bags by wheelbarrow.",
+        "The materials were already beside the completed patio and needed no moving.",
+        "Three hundred workers had to share a single bag of sand.",
+        "The worksite was inside a flat room at the foot of the hill."
+      ],
+      "optionsZh": [
+        "房子在坡顶、工地在车道另一侧，用独轮车搬三百袋很困难。",
+        "材料已在完工露台旁，无需搬运。",
+        "三百工人必须共用一袋沙。",
+        "工地在山脚平坦房间里。"
+      ],
+      "answer": 0,
+      "type": "逻辑关系",
+      "support": "explicit",
+      "analyses": [
+        "A 地形、位置、数量和运输方式对应原句 making 后说明的困难。",
+        "B 不是已放妥，也不是已经完工后才搬。",
+        "C three hundred bags 是袋数，不是人数。",
+        "D on the top of a hill 以及 opposite side of the driveway 不能改成山脚室内；这是该工程的叙述。"
+      ],
+      "vocabulary": [
+        {
+          "word": "a wheelbarrow",
+          "meaning": "独轮手推车",
+          "context": "这里是运材料的工具，并非车辆或工人数。",
+          "example": "They moved the sand across the garden with a wheelbarrow.",
+          "collocations": [
+            "with a wheelbarrow",
+            "bags of gravel and sand"
+          ]
+        }
+      ],
+      "translation": "在二十乘二十四英尺、倾斜、布满树根且黏土硬如石头的院子里挖下九英寸，很不容易。把地面夯实，为砖块做出牢固平整的底座，也很费力。房子在山坡顶，工地又在车道另一侧，用独轮车搬三百袋碎石和沙子，极其困难。更别提搬两千块砖了——真让人腰背累垮。",
+      "evidenceTargetIds": [
+        "c08-s06-p086-05235-s011"
+      ],
+      "evidence": [
+        {
+          "quote": "Digging nine inches of a sloped, tree-root-filled, rock-hard clay-soil twenty-by-twenty-four-foot yard was hard. Tamping down the ground to create a firm and level base for bricks was taxing. Our house sat on the top of a hill and our worksite was on the opposite side of the driveway, making transporting three hundred bags of gravel and sand with a wheelbarrow an insanely difficult task. Not to mention carrying 2,000 bricks—it was literally backbreaking.",
+          "sentenceIds": [
+            "c08-s06-p086-05235-s009",
+            "c08-s06-p086-05235-s010",
+            "c08-s06-p086-05235-s011",
+            "c08-s06-p086-05235-s012"
+          ],
+          "sources": [
+            {
+              "pdfPage": 86,
+              "block": 3,
+              "bbox": [
+                76.99,
+                523.5,
+                535.01,
+                713.52
+              ]
+            },
+            {
+              "pdfPage": 87,
+              "block": 0,
+              "bbox": [
+                76.99,
+                75,
+                535.01,
+                265.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "0f42203e3c6babf905cd7bff01881a5db9e631a462add90b13a69a2f31b90c2a"
+    },
+    {
+      "id": "qe-c08-0080",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-032",
+      "parentQuestionId": "q-c08-051",
+      "chapterId": "c08",
+      "sectionId": "c08-s06",
+      "paragraphId": "c08-s06-p086-05235",
+      "readingUnitId": "c08-s06-p086-05235-r009-012",
+      "sentenceIds": [
+        "c08-s06-p086-05235-s009",
+        "c08-s06-p086-05235-s010",
+        "c08-s06-p086-05235-s011",
+        "c08-s06-p086-05235-s012"
+      ],
+      "passage": "Digging nine inches of a sloped, tree-root-filled, rock-hard clay-soil twenty-by-twenty-four-foot yard was hard. Tamping down the ground to create a firm and level base for bricks was taxing. Our house sat on the top of a hill and our worksite was on the opposite side of the driveway, making transporting three hundred bags of gravel and sand with a wheelbarrow an insanely difficult task. Not to mention carrying 2,000 bricks—it was literally backbreaking.",
+      "prompt": "What does 'Not to mention' do before the reference to 2,000 bricks?",
+      "promptZh": "两千块砖前的 Not to mention 起什么作用？",
+      "options": [
+        "It retracts the claim that moving sand was difficult.",
+        "It states that the bricks did not have to be carried.",
+        "It adds another strenuous task to the difficulties already described.",
+        "It identifies two thousand as the number of days spent working."
+      ],
+      "optionsZh": [
+        "撤回搬沙困难的说法。",
+        "表示砖不必搬运。",
+        "在已述困难上再加一项费力任务。",
+        "把两千确定为施工天数。"
+      ],
+      "answer": 2,
+      "type": "篇章结构",
+      "support": "explicit",
+      "analyses": [
+        "A 这是补充，不是撤回。",
+        "B not to mention 不能逐字误解为没有这项工作。",
+        "C 在搬三百袋材料之后追加搬两千块砖，强化劳累感。",
+        "D 2,000 修饰 bricks；backbreaking 的叙述也不提供医学上确诊骨折的证据。"
+      ],
+      "vocabulary": [
+        {
+          "word": "Not to mention",
+          "meaning": "更不用说；还不算上",
+          "context": "用来补充另一个有分量的例子，强调工作之重。",
+          "example": "The move was tiring, not to mention carrying the heavy shelves.",
+          "collocations": [
+            "Not to mention carrying",
+            "a backbreaking task"
+          ]
+        }
+      ],
+      "translation": "在二十乘二十四英尺、倾斜、布满树根且黏土硬如石头的院子里挖下九英寸，很不容易。把地面夯实，为砖块做出牢固平整的底座，也很费力。房子在山坡顶，工地又在车道另一侧，用独轮车搬三百袋碎石和沙子，极其困难。更别提搬两千块砖了——真让人腰背累垮。",
+      "evidenceTargetIds": [
+        "c08-s06-p086-05235-s012"
+      ],
+      "evidence": [
+        {
+          "quote": "Digging nine inches of a sloped, tree-root-filled, rock-hard clay-soil twenty-by-twenty-four-foot yard was hard. Tamping down the ground to create a firm and level base for bricks was taxing. Our house sat on the top of a hill and our worksite was on the opposite side of the driveway, making transporting three hundred bags of gravel and sand with a wheelbarrow an insanely difficult task. Not to mention carrying 2,000 bricks—it was literally backbreaking.",
+          "sentenceIds": [
+            "c08-s06-p086-05235-s009",
+            "c08-s06-p086-05235-s010",
+            "c08-s06-p086-05235-s011",
+            "c08-s06-p086-05235-s012"
+          ],
+          "sources": [
+            {
+              "pdfPage": 86,
+              "block": 3,
+              "bbox": [
+                76.99,
+                523.5,
+                535.01,
+                713.52
+              ]
+            },
+            {
+              "pdfPage": 87,
+              "block": 0,
+              "bbox": [
+                76.99,
+                75,
+                535.01,
+                265.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "af3ce41f21d37881b2a4a16f3c5a26b31a7c5fb655d31c1d5101c27f73e0b47d"
+    },
+    {
+      "id": "q-c08-052",
+      "version": 1,
+      "readingUnitId": "c08-s06-p086-05235-r013-016",
+      "chapterId": "c08",
+      "sectionId": "c08-s06",
+      "paragraphId": "c08-s06-p086-05235",
+      "sentenceIds": [
+        "c08-s06-p086-05235-s013",
+        "c08-s06-p086-05235-s014",
+        "c08-s06-p086-05235-s015",
+        "c08-s06-p086-05235-s016"
+      ],
+      "passage": "There were many mornings when I was unable to get up because of the back pain. We questioned our decision many times. We blamed each other many times. We regretted not hiring someone else to do it instead.",
+      "prompt": "What reaction to the DIY decision is reported during the project?",
+      "options": [
+        "They consistently felt certain they had made the best choice.",
+        "They blamed only the contractor who had done the work.",
+        "They regretted spending the project’s entire budget on hired labor.",
+        "They repeatedly questioned the choice and regretted not hiring help."
+      ],
+      "answer": 3,
+      "type": "细节",
+      "promptZh": "项目进行时，他们对 DIY 决定有什么反应？",
+      "optionsZh": [
+        "始终确信自己作了最佳选择。",
+        "只责怪完成工程的承包商。",
+        "后悔把全部预算花在雇人上。",
+        "反复质疑选择，后悔没请人来做。"
+      ],
+      "analyses": [
+        "A questioned...many times 与始终确信相反。",
+        "B blamed each other 是互相埋怨，没有已雇的承包商。",
+        "C regretted not hiring 指没雇人，而非雇工超支。",
+        "D 疼痛、质疑、互责和后悔没雇人是此时的经历。这里有很多早晨无法起床的自述，不宜改成三个月每一天都无法活动。"
+      ],
+      "evidence": [
+        {
+          "quote": "We questioned our decision many times. We blamed each other many times. We regretted not hiring someone else to do it instead.",
+          "sentenceIds": [
+            "c08-s06-p086-05235-s014",
+            "c08-s06-p086-05235-s015",
+            "c08-s06-p086-05235-s016"
+          ],
+          "sources": [
+            {
+              "pdfPage": 87,
+              "block": 0,
+              "bbox": [
+                76.99,
+                75,
+                535.01,
+                265.02
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "regretted",
+          "meaning": "后悔；感到遗憾",
+          "context": "regretted not hiring 表示后悔当初没有请人，不是后悔请了人",
+          "example": "They regretted not asking for advice earlier.",
+          "collocations": [
+            "regret not doing something",
+            "regret a decision"
+          ]
+        }
+      ],
+      "translation": "有许多个早晨，我因为背痛起不来。我们多次质疑自己的决定，多次互相埋怨，后悔没有请别人来做这件事。",
+      "support": "explicit",
+      "editorialStatus": "PDF 第 85–90 页逐题原页核对；固定原句与来源；保留外包调查与实验、自报、未实证推测、DIY回忆和反事实、文学引述及原书时点；原文连续无重复",
+      "fingerprint": "b0b81d3a3f3003cd7ab734e153b7016accfbc15a8c9b5ac03e14dc00fcc86be3"
+    },
+    {
+      "id": "qe-c08-0081",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-032",
+      "parentQuestionId": "q-c08-052",
+      "chapterId": "c08",
+      "sectionId": "c08-s06",
+      "paragraphId": "c08-s06-p086-05235",
+      "readingUnitId": "c08-s06-p086-05235-r013-016",
+      "sentenceIds": [
+        "c08-s06-p086-05235-s013",
+        "c08-s06-p086-05235-s014",
+        "c08-s06-p086-05235-s015",
+        "c08-s06-p086-05235-s016"
+      ],
+      "passage": "There were many mornings when I was unable to get up because of the back pain. We questioned our decision many times. We blamed each other many times. We regretted not hiring someone else to do it instead.",
+      "prompt": "What prevented the author from getting up on many mornings?",
+      "promptZh": "许多个早晨，什么使作者起不来？",
+      "options": [
+        "Waiting for the professional team to arrive each morning.",
+        "Back pain associated with the described work.",
+        "Choosing to rest because no demanding tasks remained.",
+        "Worry about the price, rather than any bodily pain."
+      ],
+      "optionsZh": [
+        "每天早晨等待专业团队到来。",
+        "所述劳动中的背痛。",
+        "因为已无费力工作而自愿休息。",
+        "担心价格而非任何身体疼痛。"
+      ],
+      "answer": 1,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A 此处并未雇团队，也不是等待导致不能起身。",
+        "B because of the back pain 明确原因，many mornings 不等于每天。",
+        "C unable 是不能，不是工作已结束后自愿休息。",
+        "D 明示身体背痛，不能以价格担忧替换；本题仅还原作者自述，不新增诊断。"
+      ],
+      "vocabulary": [
+        {
+          "word": "because of",
+          "meaning": "由于；因为",
+          "context": "后接名词短语 back pain，指出起不来的原因。",
+          "example": "The match was delayed because of heavy rain.",
+          "collocations": [
+            "because of the back pain",
+            "unable to get up"
+          ]
+        }
+      ],
+      "translation": "有许多个早晨，我因为背痛起不来。我们多次质疑自己的决定，多次互相埋怨，后悔没有请别人来做这件事。",
+      "evidenceTargetIds": [
+        "c08-s06-p086-05235-s013"
+      ],
+      "evidence": [
+        {
+          "quote": "There were many mornings when I was unable to get up because of the back pain. We questioned our decision many times. We blamed each other many times. We regretted not hiring someone else to do it instead.",
+          "sentenceIds": [
+            "c08-s06-p086-05235-s013",
+            "c08-s06-p086-05235-s014",
+            "c08-s06-p086-05235-s015",
+            "c08-s06-p086-05235-s016"
+          ],
+          "sources": [
+            {
+              "pdfPage": 87,
+              "block": 0,
+              "bbox": [
+                76.99,
+                75,
+                535.01,
+                265.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "a8267651e31f9968793951f826e99f98620c2f3c13ea45cb984ded7251ec2475"
+    },
+    {
+      "id": "q-c08-053",
+      "version": 1,
+      "readingUnitId": "c08-s06-p086-05235-r017-019",
+      "chapterId": "c08",
+      "sectionId": "c08-s06",
+      "paragraphId": "c08-s06-p086-05235",
+      "sentenceIds": [
+        "c08-s06-p086-05235-s017",
+        "c08-s06-p086-05235-s018",
+        "c08-s06-p086-05235-s019"
+      ],
+      "passage": "It took us almost three months to complete. In the end, the result was pretty good, but clearly not as good as what $9,000 would have accomplished in three to four days! Given how many hours we spent on the project, we weren’t sure if we’d saved much money in the end, either.",
+      "prompt": "What uncertainty remains in the author’s assessment after completion?",
+      "options": [
+        "Whether much money was really saved once their time was considered.",
+        "Whether they had completed the patio at all.",
+        "Whether the hired contractor actually took three months.",
+        "Whether their result was better than professional work."
+      ],
+      "answer": 0,
+      "type": "有限推断",
+      "promptZh": "完工后的评价中，作者仍不确定什么？",
+      "optionsZh": [
+        "考虑投入时间后，究竟有没有省下很多钱。",
+        "是否真的完成了露台。",
+        "已雇承包商是否实际做了三个月。",
+        "他们的成果是否胜过专业施工。"
+      ],
+      "analyses": [
+        "A Given how many hours...weren’t sure 明确对实际节省存疑。",
+        "B took...to complete 表明已完成。",
+        "C 三个月是自己施工；三至四天是作者设想九千美元专业施工可达到的比较，不是已经雇人后实测。",
+        "D clearly not as good 已给评价，并非仍不确定成果是否更好。个人工时价值未给出，不能编造最终准确盈亏。"
+      ],
+      "evidence": [
+        {
+          "quote": "Given how many hours we spent on the project, we weren’t sure if we’d saved much money in the end, either.",
+          "sentenceIds": [
+            "c08-s06-p086-05235-s019"
+          ],
+          "sources": [
+            {
+              "pdfPage": 87,
+              "block": 0,
+              "bbox": [
+                76.99,
+                75,
+                535.01,
+                265.02
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "accomplished",
+          "meaning": "完成；实现",
+          "context": "would have accomplished 指作者设想专业施工本可达到的效果，不是已发生的第二次工程",
+          "example": "The team accomplished the repair in two days.",
+          "collocations": [
+            "accomplish a project",
+            "what the payment would have accomplished"
+          ]
+        }
+      ],
+      "translation": "工程花了我们将近三个月才完成。最终效果相当不错，但显然不如花九千美元本可在三至四天实现的效果！考虑到投入了那么多小时，我们也不确定最后是否真的省了很多钱。",
+      "support": "limited-inference",
+      "editorialStatus": "PDF 第 85–90 页逐题原页核对；固定原句与来源；保留外包调查与实验、自报、未实证推测、DIY回忆和反事实、文学引述及原书时点；原文连续无重复",
+      "fingerprint": "513a5d50bb9ce0b807dde274953e99317f457119aaa1d302a1dace56d7bc5706"
+    },
+    {
+      "id": "qe-c08-0082",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-032",
+      "parentQuestionId": "q-c08-053",
+      "chapterId": "c08",
+      "sectionId": "c08-s06",
+      "paragraphId": "c08-s06-p086-05235",
+      "readingUnitId": "c08-s06-p086-05235-r017-019",
+      "sentenceIds": [
+        "c08-s06-p086-05235-s017",
+        "c08-s06-p086-05235-s018",
+        "c08-s06-p086-05235-s019"
+      ],
+      "passage": "It took us almost three months to complete. In the end, the result was pretty good, but clearly not as good as what $9,000 would have accomplished in three to four days! Given how many hours we spent on the project, we weren’t sure if we’d saved much money in the end, either.",
+      "prompt": "How long did the couple's patio project take to finish?",
+      "promptZh": "夫妇的露台工程用了多久完成？",
+      "options": [
+        "Exactly three to four days.",
+        "Nine months before work began.",
+        "Three hours in total.",
+        "Almost three months."
+      ],
+      "optionsZh": [
+        "恰好三至四天。",
+        "开工前九个月。",
+        "总共三小时。",
+        "将近三个月。"
+      ],
+      "answer": 3,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A 三至四天属于作者对九千美元专业施工的对照，不是他们实际工期。",
+        "B nine 不能从前段挖掘英寸数挪来当月份。",
+        "C 原句不是 hours。",
+        "D almost three months 直接对应；almost 不能删成精确三个月。"
+      ],
+      "vocabulary": [
+        {
+          "word": "almost",
+          "meaning": "几乎；将近",
+          "context": "这里保留接近三个月而非精确整三个月的程度。",
+          "example": "The restoration took almost three months to finish.",
+          "collocations": [
+            "almost three months",
+            "take time to complete"
+          ]
+        }
+      ],
+      "translation": "工程花了我们将近三个月才完成。最终效果相当不错，但显然不如花九千美元本可在三至四天实现的效果！考虑到投入了那么多小时，我们也不确定最后是否真的省了很多钱。",
+      "evidenceTargetIds": [
+        "c08-s06-p086-05235-s017"
+      ],
+      "evidence": [
+        {
+          "quote": "It took us almost three months to complete. In the end, the result was pretty good, but clearly not as good as what $9,000 would have accomplished in three to four days! Given how many hours we spent on the project, we weren’t sure if we’d saved much money in the end, either.",
+          "sentenceIds": [
+            "c08-s06-p086-05235-s017",
+            "c08-s06-p086-05235-s018",
+            "c08-s06-p086-05235-s019"
+          ],
+          "sources": [
+            {
+              "pdfPage": 87,
+              "block": 0,
+              "bbox": [
+                76.99,
+                75,
+                535.01,
+                265.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "df6ca657045820f7c75e8b1a6492e965f4788da3f07d2786695eb12e2cc78a46"
+    },
+    {
+      "id": "qe-c08-0083",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-032",
+      "parentQuestionId": "q-c08-053",
+      "chapterId": "c08",
+      "sectionId": "c08-s06",
+      "paragraphId": "c08-s06-p086-05235",
+      "readingUnitId": "c08-s06-p086-05235-r017-019",
+      "sentenceIds": [
+        "c08-s06-p086-05235-s017",
+        "c08-s06-p086-05235-s018",
+        "c08-s06-p086-05235-s019"
+      ],
+      "passage": "It took us almost three months to complete. In the end, the result was pretty good, but clearly not as good as what $9,000 would have accomplished in three to four days! Given how many hours we spent on the project, we weren’t sure if we’d saved much money in the end, either.",
+      "prompt": "How does the author assess the finished patio against the paid alternative?",
+      "promptZh": "作者如何将完工露台与付费方案比较？",
+      "options": [
+        "It was fairly good, but he thought the paid job could have produced a better result much faster.",
+        "It was poor in every respect, while the paid alternative would take longer.",
+        "Both alternatives were tested and proved identical in quality and time.",
+        "The DIY result was clearly better than any professional work could be."
+      ],
+      "optionsZh": [
+        "效果相当好，但他认为付费施工本可更快且更好。",
+        "各方面都差，付费方案还会更慢。",
+        "两方案均被实际测试，质量和时间完全相同。",
+        "DIY 明显胜过任何专业施工。"
+      ],
+      "answer": 0,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A pretty good 与 not as good、three to four days 对照其几乎三个月，保留作者评估性质。",
+        "B pretty good 不是一无是处，工期方向也反了。",
+        "C what $9,000 would have accomplished 是未选方案的反事实比较，不是两个实际项目的实验。",
+        "D not as good as 不能改成胜过一切专业者，也不保证实际最终净省五千。"
+      ],
+      "vocabulary": [
+        {
+          "word": "would have accomplished",
+          "meaning": "本可以实现的；本会完成的",
+          "context": "在未采用的付费方案中作反事实比较，不是已做过的第二次工程记录。",
+          "example": "A larger team would have accomplished the task more quickly.",
+          "collocations": [
+            "what the payment would have accomplished",
+            "in three to four days"
+          ]
+        }
+      ],
+      "translation": "工程花了我们将近三个月才完成。最终效果相当不错，但显然不如花九千美元本可在三至四天实现的效果！考虑到投入了那么多小时，我们也不确定最后是否真的省了很多钱。",
+      "evidenceTargetIds": [
+        "c08-s06-p086-05235-s018"
+      ],
+      "evidence": [
+        {
+          "quote": "It took us almost three months to complete. In the end, the result was pretty good, but clearly not as good as what $9,000 would have accomplished in three to four days! Given how many hours we spent on the project, we weren’t sure if we’d saved much money in the end, either.",
+          "sentenceIds": [
+            "c08-s06-p086-05235-s017",
+            "c08-s06-p086-05235-s018",
+            "c08-s06-p086-05235-s019"
+          ],
+          "sources": [
+            {
+              "pdfPage": 87,
+              "block": 0,
+              "bbox": [
+                76.99,
+                75,
+                535.01,
+                265.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "78f3d8105d4a86cda08af6593ce4e8d607ebb019ceecd509c32ccc45e13a9b9d"
+    }
+  ]
+}
