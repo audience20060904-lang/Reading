@@ -1,0 +1,1801 @@
+{
+  "schemaVersion": 1,
+  "batchId": "question-review-2026-10-28-081",
+  "sourceCommit": "ed1ad16b362c01d90944b545a62f99e8971dbeda",
+  "pdfSha256": "be25c859f1bd894a4b0d1cff024ded1297f6a96a8e8ddabea1e3abcf89160a50",
+  "frozenAt": "2026-10-29T13:49:27.296Z",
+  "questions": [
+    {
+      "id": "q-c09-044",
+      "version": 1,
+      "readingUnitId": "c09-s04-p095-05550-r001-004",
+      "chapterId": "c09",
+      "sectionId": "c09-s04",
+      "paragraphId": "c09-s04-p095-05550",
+      "sentenceIds": [
+        "c09-s04-p095-05550-s001",
+        "c09-s04-p095-05550-s002",
+        "c09-s04-p095-05550-s003",
+        "c09-s04-p095-05550-s004"
+      ],
+      "passage": "More recently, Paul Silvia and Samuel Turner Jr. conducted an intriguing experiment on aesthetic judgments. Participants looked at thirteen classical paintings, six of which were calming, such as Dance Foyer at the Opera by Edgar Degas and The Water Lily Pond by Claude Monet. The other seven were disturbing, such as Francis Bacon’s Figure with Meat (the pope in horror surrounded by two cow carcasses) and Francisco Goya’s Saturn Devouring His Son (yes, a god eating human flesh).",
+      "prompt": "How were the thirteen paintings divided in the study?",
+      "options": [
+        "Seven calming and six disturbing paintings.",
+        "Thirteen calming paintings and no disturbing ones.",
+        "Six calming and seven disturbing paintings.",
+        "Six geometric figures and seven poems."
+      ],
+      "answer": 2,
+      "type": "细节",
+      "promptZh": "研究中的十三幅画怎样分组？",
+      "optionsZh": [
+        "七幅平静、六幅扰人。",
+        "十三幅都平静，没有扰人的。",
+        "六幅平静、七幅扰人。",
+        "六个几何图与七首诗。"
+      ],
+      "analyses": [
+        "A 对调六和七。",
+        "B The other seven were disturbing 明示另一类。",
+        "C thirteen...six...other seven 数量与分类吻合。",
+        "D 当前是 classical paintings，不是前后研究刺激混合。题目考材料构成，不把作品描绘事件当现实发生或实验行为。"
+      ],
+      "evidence": [
+        {
+          "quote": "thirteen classical paintings, six of which were calming",
+          "sentenceIds": [
+            "c09-s04-p095-05550-s003"
+          ],
+          "sources": [
+            {
+              "pdfPage": 95,
+              "block": 4,
+              "bbox": [
+                76.99,
+                555,
+                535.01,
+                706.02
+              ]
+            }
+          ]
+        },
+        {
+          "quote": "The other seven were disturbing",
+          "sentenceIds": [
+            "c09-s04-p095-05550-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 95,
+              "block": 4,
+              "bbox": [
+                76.99,
+                555,
+                535.01,
+                706.02
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "disturbing",
+          "meaning": "令人不安的；令人震动的",
+          "context": "描述作品给观者的感受类别，不是指实验中实际伤害了人",
+          "example": "The unsettling image was disturbing to some viewers.",
+          "collocations": [
+            "a disturbing painting",
+            "calming versus disturbing"
+          ]
+        }
+      ],
+      "translation": "较近时候，Paul Silvia 与 Samuel Turner Jr. 做了一项有趣审美判断实验。参与者看十三幅古典画，其中六幅平静，如 Edgar Degas 的 Dance Foyer at the Opera 和 Claude Monet 的 The Water Lily Pond。另七幅令人不安，如 Francis Bacon 的 Figure with Meat——惊恐教皇周围两具牛尸——和 Francisco Goya 的 Saturn Devouring His Son，即神吞食人肉的画面。",
+      "support": "explicit",
+      "editorialStatus": "PDF第93–97页原页核对；哲学和人物引述、个人反应、实验评分与回顾调查分别归属；maybe和相关限制保留，不扩大因果或群体标签",
+      "fingerprint": "6b5d7f69408b5151617e15fb3b37fc2be78a93095bf1e4216df13b8598e50964"
+    },
+    {
+      "id": "qe-c09-0089",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-036",
+      "parentQuestionId": "q-c09-044",
+      "chapterId": "c09",
+      "sectionId": "c09-s04",
+      "paragraphId": "c09-s04-p095-05550",
+      "readingUnitId": "c09-s04-p095-05550-r001-004",
+      "sentenceIds": [
+        "c09-s04-p095-05550-s001",
+        "c09-s04-p095-05550-s002",
+        "c09-s04-p095-05550-s003",
+        "c09-s04-p095-05550-s004"
+      ],
+      "passage": "More recently, Paul Silvia and Samuel Turner Jr. conducted an intriguing experiment on aesthetic judgments. Participants looked at thirteen classical paintings, six of which were calming, such as Dance Foyer at the Opera by Edgar Degas and The Water Lily Pond by Claude Monet. The other seven were disturbing, such as Francis Bacon’s Figure with Meat (the pope in horror surrounded by two cow carcasses) and Francisco Goya’s Saturn Devouring His Son (yes, a god eating human flesh).",
+      "prompt": "Which researchers are named at the start of the later painting experiment account?",
+      "promptZh": "较后绘画实验介绍的开头点名哪两位研究者？",
+      "options": [
+        "Paul Silvia and Samuel Turner Jr.",
+        "Daniel Berlyne and Claude Monet.",
+        "Scott MacLeod and Mark Rothko.",
+        "Erin Westgate and Nick Buttrick."
+      ],
+      "optionsZh": [
+        "Paul Silvia 与 Samuel Turner Jr.。",
+        "Daniel Berlyne 与 Claude Monet。",
+        "Scott MacLeod 与 Mark Rothko。",
+        "Erin Westgate 与 Nick Buttrick。"
+      ],
+      "answer": 0,
+      "type": "观点归属",
+      "support": "explicit",
+      "analyses": [
+        "A 两位名字在 More recently 后明确，Jr. 是姓名后缀，非句子实际终结。",
+        "B 混合此前研究者与画家。",
+        "C 是诗人与画家，不是此项研究组合。",
+        "D 属后面的作者阅读调查合作团队，不能挪来；recently 相对书中叙述，不是最新研究认证。"
+      ],
+      "vocabulary": [
+        {
+          "word": "More recently",
+          "meaning": "在较近的时候；后来",
+          "context": "这里为原书研究叙事中的相对时间，不声称当前最新研究。",
+          "example": "More recently, the team examined a different type of task.",
+          "collocations": [
+            "More recently, Paul Silvia",
+            "Samuel Turner Jr."
+          ]
+        }
+      ],
+      "translation": "较近时候，Paul Silvia 与 Samuel Turner Jr. 做了一项有趣审美判断实验。参与者看十三幅古典画，其中六幅平静，如 Edgar Degas 的 Dance Foyer at the Opera 和 Claude Monet 的 The Water Lily Pond。另七幅令人不安，如 Francis Bacon 的 Figure with Meat——惊恐教皇周围两具牛尸——和 Francisco Goya 的 Saturn Devouring His Son，即神吞食人肉的画面。",
+      "evidenceTargetIds": [
+        "c09-s04-p095-05550-s001"
+      ],
+      "evidence": [
+        {
+          "quote": "More recently, Paul Silvia and Samuel Turner Jr. conducted an intriguing experiment on aesthetic judgments. Participants looked at thirteen classical paintings, six of which were calming, such as Dance Foyer at the Opera by Edgar Degas and The Water Lily Pond by Claude Monet. The other seven were disturbing, such as Francis Bacon’s Figure with Meat (the pope in horror surrounded by two cow carcasses) and Francisco Goya’s Saturn Devouring His Son (yes, a god eating human flesh).",
+          "sentenceIds": [
+            "c09-s04-p095-05550-s001",
+            "c09-s04-p095-05550-s002",
+            "c09-s04-p095-05550-s003",
+            "c09-s04-p095-05550-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 95,
+              "block": 4,
+              "bbox": [
+                76.99,
+                555,
+                535.01,
+                706.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "57bc977d6a9a49721d7887e2ef9fd6b318321ef115d7bb901112bbd3d59f71b3"
+    },
+    {
+      "id": "qe-c09-0090",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-036",
+      "parentQuestionId": "q-c09-044",
+      "chapterId": "c09",
+      "sectionId": "c09-s04",
+      "paragraphId": "c09-s04-p095-05550",
+      "readingUnitId": "c09-s04-p095-05550-r001-004",
+      "sentenceIds": [
+        "c09-s04-p095-05550-s001",
+        "c09-s04-p095-05550-s002",
+        "c09-s04-p095-05550-s003",
+        "c09-s04-p095-05550-s004"
+      ],
+      "passage": "More recently, Paul Silvia and Samuel Turner Jr. conducted an intriguing experiment on aesthetic judgments. Participants looked at thirteen classical paintings, six of which were calming, such as Dance Foyer at the Opera by Edgar Degas and The Water Lily Pond by Claude Monet. The other seven were disturbing, such as Francis Bacon’s Figure with Meat (the pope in horror surrounded by two cow carcasses) and Francisco Goya’s Saturn Devouring His Son (yes, a god eating human flesh).",
+      "prompt": "What was the topic of the experiment conducted by Silvia and Turner?",
+      "promptZh": "Silvia 与 Turner 所做实验的主题是什么？",
+      "options": [
+        "Verifying the actors' biographies in The Matrix.",
+        "Measuring the price of every classical painting.",
+        "Aesthetic judgements, using participants' responses to paintings.",
+        "Testing childhood reading by assigning children lifelong genres."
+      ],
+      "optionsZh": [
+        "核实 The Matrix 演员生平。",
+        "测每幅古典画价格。",
+        "通过参与者对画作反应研究审美判断。",
+        "给儿童分派终身阅读类型来测童年阅读。"
+      ],
+      "answer": 2,
+      "type": "研究设计",
+      "support": "explicit",
+      "analyses": [
+        "A 不是电影人物生平任务。",
+        "B 看画并评分，不是价格研究。",
+        "C conducted...on aesthetic judgments 后说明十三幅画及评价，引用完整原句连接被 Jr. 误断的主语与谓语。",
+        "D 童年阅读调查在后文，且不能写成随机指定终身体裁。"
+      ],
+      "vocabulary": [
+        {
+          "word": "aesthetic judgments",
+          "meaning": "审美判断；对作品体验特征的评价",
+          "context": "此处通过画作反应研究，不是仅按市场价格判价值。",
+          "example": "The study compared aesthetic judgments across several images.",
+          "collocations": [
+            "an intriguing experiment on aesthetic judgments",
+            "participants looked at paintings"
+          ]
+        }
+      ],
+      "translation": "较近时候，Paul Silvia 与 Samuel Turner Jr. 做了一项有趣审美判断实验。参与者看十三幅古典画，其中六幅平静，如 Edgar Degas 的 Dance Foyer at the Opera 和 Claude Monet 的 The Water Lily Pond。另七幅令人不安，如 Francis Bacon 的 Figure with Meat——惊恐教皇周围两具牛尸——和 Francisco Goya 的 Saturn Devouring His Son，即神吞食人肉的画面。",
+      "evidenceTargetIds": [
+        "c09-s04-p095-05550-s002"
+      ],
+      "evidence": [
+        {
+          "quote": "More recently, Paul Silvia and Samuel Turner Jr. conducted an intriguing experiment on aesthetic judgments. Participants looked at thirteen classical paintings, six of which were calming, such as Dance Foyer at the Opera by Edgar Degas and The Water Lily Pond by Claude Monet. The other seven were disturbing, such as Francis Bacon’s Figure with Meat (the pope in horror surrounded by two cow carcasses) and Francisco Goya’s Saturn Devouring His Son (yes, a god eating human flesh).",
+          "sentenceIds": [
+            "c09-s04-p095-05550-s001",
+            "c09-s04-p095-05550-s002",
+            "c09-s04-p095-05550-s003",
+            "c09-s04-p095-05550-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 95,
+              "block": 4,
+              "bbox": [
+                76.99,
+                555,
+                535.01,
+                706.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "ca72f09e58feac4c93c0918fd400c7617db2ebcd48ae278491d44fe0a8d46701"
+    },
+    {
+      "id": "q-c09-045",
+      "version": 1,
+      "readingUnitId": "c09-s04-p095-05550-r005-008",
+      "chapterId": "c09",
+      "sectionId": "c09-s04",
+      "paragraphId": "c09-s04-p095-05550",
+      "sentenceIds": [
+        "c09-s04-p095-05550-s005",
+        "c09-s04-p095-05550-s006",
+        "c09-s04-p095-05550-s007",
+        "c09-s04-p095-05550-s008"
+      ],
+      "passage": "These paintings are quite shocking and grotesque, particularly in comparison to the famously serene, warm painting by Monet. After looking at each painting, participants reported how interesting or uninteresting, boring or engaging, enjoyable or unenjoyable, pleasing or displeasing, comprehensible or incomprehensible, familiar or unfamiliar each painting was. Results showed that pleasantness ratings were predicted by comprehensibleness, familiarity, and simpleness. In other words, the easier to understand and simpler the paintings were, the more pleasant they were.",
+      "prompt": "Which characteristics predicted pleasantness ratings?",
+      "options": [
+        "Comprehensibility, familiarity and simplicity.",
+        "Disturbingness and unpleasantness alone.",
+        "The number of novels read by the artist.",
+        "Participants’ ability to identify the painter’s death date."
+      ],
+      "answer": 0,
+      "type": "细节",
+      "promptZh": "哪些特征预测愉悦评分？",
+      "optionsZh": [
+        "可理解性、熟悉性与简单性。",
+        "只有扰人程度和不愉悦。",
+        "画家读过的小说数量。",
+        "参与者识别画家死亡日期的能力。"
+      ],
+      "analyses": [
+        "A predicted by 后明确列三项，解释句也强调易懂和简单。",
+        "B 是下一部分关于趣味的方向，非愉悦预测。",
+        "C 没有画家阅读量。",
+        "D 没有死亡日期测试。评分之间的预测关系不自动证明改变任一特征就必然造成每个人更快乐。"
+      ],
+      "evidence": [
+        {
+          "quote": "pleasantness ratings were predicted by comprehensibleness, familiarity, and simpleness.",
+          "sentenceIds": [
+            "c09-s04-p095-05550-s007"
+          ],
+          "sources": [
+            {
+              "pdfPage": 96,
+              "block": 0,
+              "bbox": [
+                76.99,
+                75,
+                535.01,
+                245.52
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "comprehensible",
+          "meaning": "可理解的；易懂的",
+          "context": "指参与者觉得画容易理解的程度，不是客观唯一正确解读",
+          "example": "The short explanation made the abstract image more comprehensible.",
+          "collocations": [
+            "more comprehensible",
+            "comprehensible or incomprehensible"
+          ]
+        }
+      ],
+      "translation": "这些画相当震撼、怪诞，尤其与 Monet 著名的宁静温暖画作相比。每看完一幅，参与者报告它多有趣或无趣、多无聊或吸引人、多享受或不享受、多愉悦或不愉悦、多可理解或难懂、多熟悉或陌生。结果显示，可理解性、熟悉性与简单性可预测愉悦评分。也就是说，画越易懂、越简单，就越愉悦。",
+      "support": "explicit",
+      "editorialStatus": "PDF第93–97页原页核对；哲学和人物引述、个人反应、实验评分与回顾调查分别归属；maybe和相关限制保留，不扩大因果或群体标签",
+      "fingerprint": "d8123b96298bc8d1d043e14bd5a8232036b95b5d49cf5a31927724f0f432889f"
+    },
+    {
+      "id": "qe-c09-0091",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-036",
+      "parentQuestionId": "q-c09-045",
+      "chapterId": "c09",
+      "sectionId": "c09-s04",
+      "paragraphId": "c09-s04-p095-05550",
+      "readingUnitId": "c09-s04-p095-05550-r005-008",
+      "sentenceIds": [
+        "c09-s04-p095-05550-s005",
+        "c09-s04-p095-05550-s006",
+        "c09-s04-p095-05550-s007",
+        "c09-s04-p095-05550-s008"
+      ],
+      "passage": "These paintings are quite shocking and grotesque, particularly in comparison to the famously serene, warm painting by Monet. After looking at each painting, participants reported how interesting or uninteresting, boring or engaging, enjoyable or unenjoyable, pleasing or displeasing, comprehensible or incomprehensible, familiar or unfamiliar each painting was. Results showed that pleasantness ratings were predicted by comprehensibleness, familiarity, and simpleness. In other words, the easier to understand and simpler the paintings were, the more pleasant they were.",
+      "prompt": "What contrast is made with Monet's painting?",
+      "promptZh": "与 Monet 画作作了什么对照？",
+      "options": [
+        "Monet's work is described as the most grotesque of all the paintings.",
+        "All paintings are said to be equally serene with no meaningful difference.",
+        "The paintings under discussion are shocking and grotesque by comparison with Monet's serene warmth.",
+        "Monet is described as the participant rather than the painter."
+      ],
+      "optionsZh": [
+        "Monet 作品被说成全部画中最怪诞。",
+        "所有画都同样宁静、毫无区别。",
+        "所谈画相对 Monet 的宁静温暖显得震撼怪诞。",
+        "Monet 被说成参与者而非画家。"
+      ],
+      "answer": 2,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A serene,warm 修饰 Monet，不能反向归 grotesque。",
+        "B particularly in comparison 明确对照。",
+        "C 两组形容词及比较对象原文明示；当前短段不要求猜未重述的前段作品名。",
+        "D by Monet 表作者归属，不是评分参与者。"
+      ],
+      "vocabulary": [
+        {
+          "word": "grotesque",
+          "meaning": "怪诞的；奇异而令人不适的",
+          "context": "与 serene,warm 对照，不等同作者在此判定作品没有价值或无趣。",
+          "example": "The unusual masks gave the scene a grotesque quality.",
+          "collocations": [
+            "shocking and grotesque",
+            "in comparison to"
+          ]
+        }
+      ],
+      "translation": "这些画相当震撼、怪诞，尤其与 Monet 著名的宁静温暖画作相比。每看完一幅，参与者报告它多有趣或无趣、多无聊或吸引人、多享受或不享受、多愉悦或不愉悦、多可理解或难懂、多熟悉或陌生。结果显示，可理解性、熟悉性与简单性可预测愉悦评分。也就是说，画越易懂、越简单，就越愉悦。",
+      "evidenceTargetIds": [
+        "c09-s04-p095-05550-s005"
+      ],
+      "evidence": [
+        {
+          "quote": "These paintings are quite shocking and grotesque, particularly in comparison to the famously serene, warm painting by Monet. After looking at each painting, participants reported how interesting or uninteresting, boring or engaging, enjoyable or unenjoyable, pleasing or displeasing, comprehensible or incomprehensible, familiar or unfamiliar each painting was. Results showed that pleasantness ratings were predicted by comprehensibleness, familiarity, and simpleness. In other words, the easier to understand and simpler the paintings were, the more pleasant they were.",
+          "sentenceIds": [
+            "c09-s04-p095-05550-s005",
+            "c09-s04-p095-05550-s006",
+            "c09-s04-p095-05550-s007",
+            "c09-s04-p095-05550-s008"
+          ],
+          "sources": [
+            {
+              "pdfPage": 95,
+              "block": 4,
+              "bbox": [
+                76.99,
+                555,
+                535.01,
+                706.02
+              ]
+            },
+            {
+              "pdfPage": 96,
+              "block": 0,
+              "bbox": [
+                76.99,
+                75,
+                535.01,
+                245.52
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "de77b19b9747890cfc755077c010b99da0ff1af3b8bd48dbac39cc377ce8ba49"
+    },
+    {
+      "id": "qe-c09-0092",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-036",
+      "parentQuestionId": "q-c09-045",
+      "chapterId": "c09",
+      "sectionId": "c09-s04",
+      "paragraphId": "c09-s04-p095-05550",
+      "readingUnitId": "c09-s04-p095-05550-r005-008",
+      "sentenceIds": [
+        "c09-s04-p095-05550-s005",
+        "c09-s04-p095-05550-s006",
+        "c09-s04-p095-05550-s007",
+        "c09-s04-p095-05550-s008"
+      ],
+      "passage": "These paintings are quite shocking and grotesque, particularly in comparison to the famously serene, warm painting by Monet. After looking at each painting, participants reported how interesting or uninteresting, boring or engaging, enjoyable or unenjoyable, pleasing or displeasing, comprehensible or incomprehensible, familiar or unfamiliar each painting was. Results showed that pleasantness ratings were predicted by comprehensibleness, familiarity, and simpleness. In other words, the easier to understand and simpler the paintings were, the more pleasant they were.",
+      "prompt": "What did participants do after looking at each painting?",
+      "promptZh": "参与者每看完一幅画后做什么？",
+      "options": [
+        "Reported their experience along several contrasting dimensions, including interest, pleasure, comprehension, and familiarity.",
+        "Reported objective artist identities and art-history facts rather than their impressions.",
+        "Gave only a single overall enjoyment rating, with interest and comprehension omitted.",
+        "Described one selected painting from memory before looking at it."
+      ],
+      "optionsZh": [
+        "沿多组对照维度报告体验，包括趣味、愉悦、理解与熟悉程度。",
+        "报告客观画家身份与艺术史事实，而非感受。",
+        "只给单一整体享受分，省略兴趣与理解。",
+        "观看前先凭记忆描述一幅选定画。"
+      ],
+      "answer": 0,
+      "type": "研究设计",
+      "support": "explicit",
+      "analyses": [
+        "A how...多个对照词说明多维主观评分，不能把 interesting 与 enjoyable 合成一项。",
+        "B how...interesting、enjoyable 等是体验维度，不是事实测验。",
+        "C 列表明确含兴趣、理解等多个维度，不能合并成单一享受。",
+        "D After looking at each painting 限定每幅看完后报告，不是看前仅凭记忆一幅。"
+      ],
+      "vocabulary": [
+        {
+          "word": "engaging",
+          "meaning": "吸引人的；使人投入的",
+          "context": "与 boring 对照，指体验投入程度，不是这里订婚的词义。",
+          "example": "The unfamiliar story was engaging despite its difficult structure.",
+          "collocations": [
+            "boring or engaging",
+            "interesting or uninteresting"
+          ]
+        }
+      ],
+      "translation": "这些画相当震撼、怪诞，尤其与 Monet 著名的宁静温暖画作相比。每看完一幅，参与者报告它多有趣或无趣、多无聊或吸引人、多享受或不享受、多愉悦或不愉悦、多可理解或难懂、多熟悉或陌生。结果显示，可理解性、熟悉性与简单性可预测愉悦评分。也就是说，画越易懂、越简单，就越愉悦。",
+      "evidenceTargetIds": [
+        "c09-s04-p095-05550-s006"
+      ],
+      "evidence": [
+        {
+          "quote": "These paintings are quite shocking and grotesque, particularly in comparison to the famously serene, warm painting by Monet. After looking at each painting, participants reported how interesting or uninteresting, boring or engaging, enjoyable or unenjoyable, pleasing or displeasing, comprehensible or incomprehensible, familiar or unfamiliar each painting was. Results showed that pleasantness ratings were predicted by comprehensibleness, familiarity, and simpleness. In other words, the easier to understand and simpler the paintings were, the more pleasant they were.",
+          "sentenceIds": [
+            "c09-s04-p095-05550-s005",
+            "c09-s04-p095-05550-s006",
+            "c09-s04-p095-05550-s007",
+            "c09-s04-p095-05550-s008"
+          ],
+          "sources": [
+            {
+              "pdfPage": 95,
+              "block": 4,
+              "bbox": [
+                76.99,
+                555,
+                535.01,
+                706.02
+              ]
+            },
+            {
+              "pdfPage": 96,
+              "block": 0,
+              "bbox": [
+                76.99,
+                75,
+                535.01,
+                245.52
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "e4c41c6f14076721012f662a84fce1db1f69462fb935165df23e1688354b10a0"
+    },
+    {
+      "id": "qe-c09-0093",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-036",
+      "parentQuestionId": "q-c09-045",
+      "chapterId": "c09",
+      "sectionId": "c09-s04",
+      "paragraphId": "c09-s04-p095-05550",
+      "readingUnitId": "c09-s04-p095-05550-r005-008",
+      "sentenceIds": [
+        "c09-s04-p095-05550-s005",
+        "c09-s04-p095-05550-s006",
+        "c09-s04-p095-05550-s007",
+        "c09-s04-p095-05550-s008"
+      ],
+      "passage": "These paintings are quite shocking and grotesque, particularly in comparison to the famously serene, warm painting by Monet. After looking at each painting, participants reported how interesting or uninteresting, boring or engaging, enjoyable or unenjoyable, pleasing or displeasing, comprehensible or incomprehensible, familiar or unfamiliar each painting was. Results showed that pleasantness ratings were predicted by comprehensibleness, familiarity, and simpleness. In other words, the easier to understand and simpler the paintings were, the more pleasant they were.",
+      "prompt": "What relationship is restated by 'In other words'?",
+      "promptZh": "In other words 重述哪种关系？",
+      "options": [
+        "Less comprehensible and more complicated paintings received higher pleasantness ratings.",
+        "All paintings were rated equally pleasant, regardless of their features.",
+        "The passage establishes that familiarity is irrelevant to every viewer.",
+        "Easier-to-understand and simpler paintings were rated as more pleasant in the reported results."
+      ],
+      "optionsZh": [
+        "越难懂越复杂的画，愉悦评分越高。",
+        "所有画不论特征都同样愉悦。",
+        "确立熟悉性与每个观众都无关。",
+        "所报结果中，越易懂、越简单的画愉悦评分越高。"
+      ],
+      "answer": 3,
+      "type": "同义改写",
+      "support": "explicit",
+      "analyses": [
+        "A 两个比较方向反了。",
+        "B the...the... 表随特征变化的关系，不是全同。",
+        "C 前句熟悉性也预测 pleasantness，不能说无关。",
+        "D 重述 ease、simplicity 与 pleasantness 的对应；predicted by 不自动证明每个特征对所有人有独立确定因果。"
+      ],
+      "vocabulary": [
+        {
+          "word": "In other words",
+          "meaning": "换句话说；也就是说",
+          "context": "重述前句结果，不是引入新的样本或全新实验。",
+          "example": "The task required retention; in other words, the details had to stay in memory.",
+          "collocations": [
+            "In other words",
+            "the easier ... the more pleasant"
+          ]
+        }
+      ],
+      "translation": "这些画相当震撼、怪诞，尤其与 Monet 著名的宁静温暖画作相比。每看完一幅，参与者报告它多有趣或无趣、多无聊或吸引人、多享受或不享受、多愉悦或不愉悦、多可理解或难懂、多熟悉或陌生。结果显示，可理解性、熟悉性与简单性可预测愉悦评分。也就是说，画越易懂、越简单，就越愉悦。",
+      "evidenceTargetIds": [
+        "c09-s04-p095-05550-s008"
+      ],
+      "evidence": [
+        {
+          "quote": "These paintings are quite shocking and grotesque, particularly in comparison to the famously serene, warm painting by Monet. After looking at each painting, participants reported how interesting or uninteresting, boring or engaging, enjoyable or unenjoyable, pleasing or displeasing, comprehensible or incomprehensible, familiar or unfamiliar each painting was. Results showed that pleasantness ratings were predicted by comprehensibleness, familiarity, and simpleness. In other words, the easier to understand and simpler the paintings were, the more pleasant they were.",
+          "sentenceIds": [
+            "c09-s04-p095-05550-s005",
+            "c09-s04-p095-05550-s006",
+            "c09-s04-p095-05550-s007",
+            "c09-s04-p095-05550-s008"
+          ],
+          "sources": [
+            {
+              "pdfPage": 95,
+              "block": 4,
+              "bbox": [
+                76.99,
+                555,
+                535.01,
+                706.02
+              ]
+            },
+            {
+              "pdfPage": 96,
+              "block": 0,
+              "bbox": [
+                76.99,
+                75,
+                535.01,
+                245.52
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "c77994f865b29b68ac29dec8b58a2e37b10e0cdccaf26d481c6bf8839795b8b3"
+    },
+    {
+      "id": "q-c09-046",
+      "version": 1,
+      "readingUnitId": "c09-s04-p095-05550-r009-010",
+      "chapterId": "c09",
+      "sectionId": "c09-s04",
+      "paragraphId": "c09-s04-p095-05550",
+      "sentenceIds": [
+        "c09-s04-p095-05550-s009",
+        "c09-s04-p095-05550-s010"
+      ],
+      "passage": "In contrast, interestingness ratings were predicted by disturbingness and unpleasantness. That is, the more disturbing and unpleasant they were, the more interesting the paintings were.",
+      "prompt": "What pattern is reported for interestingness?",
+      "options": [
+        "Only calming paintings were found interesting.",
+        "Interestingness and unpleasantness always moved in opposite directions.",
+        "The findings prove all distressing events enrich real life.",
+        "More disturbing and unpleasant paintings received greater interestingness ratings."
+      ],
+      "answer": 3,
+      "type": "逻辑关系",
+      "promptZh": "关于趣味性，报告什么模式？",
+      "optionsZh": [
+        "只有平静画被认为有趣。",
+        "趣味和不愉悦总反向变化。",
+        "结果证明所有现实痛苦事件都丰富人生。",
+        "更扰人、更不愉悦的画得到更高趣味评价。"
+      ],
+      "analyses": [
+        "A more disturbing...more interesting 不限平静画。",
+        "B 本片段二者同向，非总反向。",
+        "C 画作评分不能推广为所有真实痛苦都益于人生。",
+        "D In contrast 引出与愉悦不同的预测关系，保留 paintings 的范围。interesting 不能直接改成 happy。"
+      ],
+      "evidence": [
+        {
+          "quote": "the more disturbing and unpleasant they were, the more interesting the paintings were.",
+          "sentenceIds": [
+            "c09-s04-p095-05550-s010"
+          ],
+          "sources": [
+            {
+              "pdfPage": 96,
+              "block": 0,
+              "bbox": [
+                76.99,
+                75,
+                535.01,
+                245.52
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "unpleasantness",
+          "meaning": "不愉悦性；令人不舒服的程度",
+          "context": "画作可能不舒服却有趣，两个评分维度分开",
+          "example": "Unpleasantness and interest were rated separately.",
+          "collocations": [
+            "ratings of unpleasantness",
+            "disturbingness and unpleasantness"
+          ]
+        }
+      ],
+      "translation": "相比之下，扰人程度与不愉悦程度预测趣味评分。也就是说，画越扰人、越不愉悦，反而越有趣。",
+      "support": "explicit",
+      "editorialStatus": "PDF第93–97页原页核对；哲学和人物引述、个人反应、实验评分与回顾调查分别归属；maybe和相关限制保留，不扩大因果或群体标签",
+      "fingerprint": "dfeab37f52f6ce793f0844985d05d9f6a0666ed15466d12b44e46389743d6639"
+    },
+    {
+      "id": "qe-c09-0094",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-036",
+      "parentQuestionId": "q-c09-046",
+      "chapterId": "c09",
+      "sectionId": "c09-s04",
+      "paragraphId": "c09-s04-p095-05550",
+      "readingUnitId": "c09-s04-p095-05550-r009-010",
+      "sentenceIds": [
+        "c09-s04-p095-05550-s009",
+        "c09-s04-p095-05550-s010"
+      ],
+      "passage": "In contrast, interestingness ratings were predicted by disturbingness and unpleasantness. That is, the more disturbing and unpleasant they were, the more interesting the paintings were.",
+      "prompt": "Which features predicted interestingness ratings in this account?",
+      "promptZh": "此处哪些特征预测趣味评分？",
+      "options": [
+        "Comprehensibleness and familiarity, exactly as for pleasantness.",
+        "Disturbingness and unpleasantness.",
+        "Symmetry and a small number of geometric elements.",
+        "Familiarity alone, with no contribution from unpleasantness."
+      ],
+      "optionsZh": [
+        "与愉悦完全相同的可理解性和熟悉性。",
+        "扰人程度与不愉悦程度。",
+        "对称性与少量几何元素。",
+        "仅熟悉性，不愉悦没有贡献。"
+      ],
+      "answer": 1,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A 将前面愉悦的预测特征直接移给趣味，忽略 In contrast。",
+        "B 原句明确两项 predictors，不能换成 pleasantness 的变量。",
+        "C 对称及元素数属前面几何图操纵，不能替代此项画作评分结果。",
+        "D 原文明确 unpleasantness，不能删除；统计预测不升级为必然因果。"
+      ],
+      "vocabulary": [
+        {
+          "word": "predicted by",
+          "meaning": "由……在统计上预测；与所述评分相关",
+          "context": "此处描述评价指标之间的结果，不单凭这词认定独立因果或未来人人必然反应。",
+          "example": "In the analysis, interest ratings were predicted by novelty.",
+          "collocations": [
+            "ratings were predicted by",
+            "disturbingness and unpleasantness"
+          ]
+        }
+      ],
+      "translation": "相比之下，扰人程度与不愉悦程度预测趣味评分。也就是说，画越扰人、越不愉悦，反而越有趣。",
+      "evidenceTargetIds": [
+        "c09-s04-p095-05550-s009"
+      ],
+      "evidence": [
+        {
+          "quote": "In contrast, interestingness ratings were predicted by disturbingness and unpleasantness. That is, the more disturbing and unpleasant they were, the more interesting the paintings were.",
+          "sentenceIds": [
+            "c09-s04-p095-05550-s009",
+            "c09-s04-p095-05550-s010"
+          ],
+          "sources": [
+            {
+              "pdfPage": 96,
+              "block": 0,
+              "bbox": [
+                76.99,
+                75,
+                535.01,
+                245.52
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "5247d67a2fbf5765ab3cfd23307271396f403d73af1ec7a4b8ffbf305ceda021"
+    },
+    {
+      "id": "q-c09-047",
+      "version": 1,
+      "readingUnitId": "c09-s04-p096-02505-r001-004",
+      "chapterId": "c09",
+      "sectionId": "c09-s04",
+      "paragraphId": "c09-s04-p096-02505",
+      "sentenceIds": [
+        "c09-s04-p096-02505-s001",
+        "c09-s04-p096-02505-s002",
+        "c09-s04-p096-02505-s003",
+        "c09-s04-p096-02505-s004"
+      ],
+      "passage": "In another experiment, Silvia explored the role of comprehension. For instance, participants were asked to read Scott MacLeod’s famously abstract poem The Life of Haifisch. Those who were not provided with any background information could not understand it and did not find it interesting. In contrast, the other participants who read the same poem but with more background information, such as its title and the explanation that Haifisch means “shark” in German, found it more comprehensible and far more interesting.",
+      "prompt": "What differed between the groups reading the abstract poem?",
+      "options": [
+        "They were given entirely different poems.",
+        "One group received background information about the same poem.",
+        "One group was told to avoid reading the title under all conditions.",
+        "Only one group was permitted to report interest."
+      ],
+      "answer": 1,
+      "type": "细节",
+      "promptZh": "阅读抽象诗的组别之间什么不同？",
+      "optionsZh": [
+        "读完全不同的诗。",
+        "其中一组获得同一首诗的背景信息。",
+        "一组被要求在所有条件下避开标题。",
+        "只有一组可以报告趣味。"
+      ],
+      "analyses": [
+        "A same poem 明确刺激文本相同。",
+        "B with more background information 包括标题和 Haifisch 的词义。",
+        "C 原文对比有无信息，不是要求所有条件避标题。",
+        "D 两组都涉及理解与兴趣，没有只准一组评价。不要补写未给出的随机分组或长期影响。"
+      ],
+      "evidence": [
+        {
+          "quote": "read the same poem but with more background information",
+          "sentenceIds": [
+            "c09-s04-p096-02505-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 96,
+              "block": 1,
+              "bbox": [
+                76.99,
+                250.5,
+                535.01,
+                421.02
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "background information",
+          "meaning": "背景信息",
+          "context": "例如诗题与 Haifisch 的德语词义，用来帮助理解同一诗作",
+          "example": "Background information helped the class interpret the poem.",
+          "collocations": [
+            "provide background information",
+            "with more background information"
+          ]
+        }
+      ],
+      "translation": "另一实验中，Silvia 探索理解的作用。例如，让参与者读 Scott MacLeod 著名的抽象诗 The Life of Haifisch。没有任何背景信息的人无法理解，也不觉得有趣。相比之下，读同一首诗却得到更多背景信息的人——如标题和 Haifisch 在德语中意为“鲨鱼”的解释——觉得它更易懂、有趣得多。",
+      "support": "explicit",
+      "editorialStatus": "PDF第93–97页原页核对；哲学和人物引述、个人反应、实验评分与回顾调查分别归属；maybe和相关限制保留，不扩大因果或群体标签",
+      "fingerprint": "22d49b48193308313e3162bc76e053f46902bbfa01d1a175b98c3e81c0770985"
+    },
+    {
+      "id": "qe-c09-0095",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-036",
+      "parentQuestionId": "q-c09-047",
+      "chapterId": "c09",
+      "sectionId": "c09-s04",
+      "paragraphId": "c09-s04-p096-02505",
+      "readingUnitId": "c09-s04-p096-02505-r001-004",
+      "sentenceIds": [
+        "c09-s04-p096-02505-s001",
+        "c09-s04-p096-02505-s002",
+        "c09-s04-p096-02505-s003",
+        "c09-s04-p096-02505-s004"
+      ],
+      "passage": "In another experiment, Silvia explored the role of comprehension. For instance, participants were asked to read Scott MacLeod’s famously abstract poem The Life of Haifisch. Those who were not provided with any background information could not understand it and did not find it interesting. In contrast, the other participants who read the same poem but with more background information, such as its title and the explanation that Haifisch means “shark” in German, found it more comprehensible and far more interesting.",
+      "prompt": "What question did Silvia explore in the other experiment introduced here?",
+      "promptZh": "这里介绍的另一项实验探索什么？",
+      "options": [
+        "The role of comprehension in responding to art.",
+        "Whether the same painting could be sold at thirteen prices.",
+        "Whether childhood reading had already been randomly assigned.",
+        "The actual historical biography of Mr. Stevens."
+      ],
+      "optionsZh": [
+        "理解在艺术反应中的作用。",
+        "同一画能否按十三个价格售出。",
+        "童年阅读是否已被随机分派。",
+        "Stevens 的真实历史生平。"
+      ],
+      "answer": 0,
+      "type": "研究设计",
+      "support": "explicit",
+      "analyses": [
+        "A role of comprehension 明确研究焦点，后面诗与背景资料说明实施。",
+        "B thirteen 属前项画作数，不是价格条件。",
+        "C 未说对童年长期阅读随机分派。",
+        "D 不是小说角色史实核验；与前绘画评分区分为 another experiment。"
+      ],
+      "vocabulary": [
+        {
+          "word": "comprehension",
+          "meaning": "理解；理解所读内容的能力或程度",
+          "context": "在此为能否读懂作品，不是简单喜欢、记住或熟悉三个概念的同义词。",
+          "example": "Background information improved comprehension of the poem.",
+          "collocations": [
+            "the role of comprehension",
+            "more comprehensible"
+          ]
+        }
+      ],
+      "translation": "另一实验中，Silvia 探索理解的作用。例如，让参与者读 Scott MacLeod 著名的抽象诗 The Life of Haifisch。没有任何背景信息的人无法理解，也不觉得有趣。相比之下，读同一首诗却得到更多背景信息的人——如标题和 Haifisch 在德语中意为“鲨鱼”的解释——觉得它更易懂、有趣得多。",
+      "evidenceTargetIds": [
+        "c09-s04-p096-02505-s001"
+      ],
+      "evidence": [
+        {
+          "quote": "In another experiment, Silvia explored the role of comprehension. For instance, participants were asked to read Scott MacLeod’s famously abstract poem The Life of Haifisch. Those who were not provided with any background information could not understand it and did not find it interesting. In contrast, the other participants who read the same poem but with more background information, such as its title and the explanation that Haifisch means “shark” in German, found it more comprehensible and far more interesting.",
+          "sentenceIds": [
+            "c09-s04-p096-02505-s001",
+            "c09-s04-p096-02505-s002",
+            "c09-s04-p096-02505-s003",
+            "c09-s04-p096-02505-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 96,
+              "block": 1,
+              "bbox": [
+                76.99,
+                250.5,
+                535.01,
+                421.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "5c57151528c9cad9e2215a421bd79a615a8aedec11c4583627b0f837bae6ece8"
+    },
+    {
+      "id": "qe-c09-0096",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-036",
+      "parentQuestionId": "q-c09-047",
+      "chapterId": "c09",
+      "sectionId": "c09-s04",
+      "paragraphId": "c09-s04-p096-02505",
+      "readingUnitId": "c09-s04-p096-02505-r001-004",
+      "sentenceIds": [
+        "c09-s04-p096-02505-s001",
+        "c09-s04-p096-02505-s002",
+        "c09-s04-p096-02505-s003",
+        "c09-s04-p096-02505-s004"
+      ],
+      "passage": "In another experiment, Silvia explored the role of comprehension. For instance, participants were asked to read Scott MacLeod’s famously abstract poem The Life of Haifisch. Those who were not provided with any background information could not understand it and did not find it interesting. In contrast, the other participants who read the same poem but with more background information, such as its title and the explanation that Haifisch means “shark” in German, found it more comprehensible and far more interesting.",
+      "prompt": "What material were participants asked to read in the example?",
+      "promptZh": "例子中，参与者被要求读什么材料？",
+      "options": [
+        "A technical guide written by Claude Monet.",
+        "The novel The Remains of the Day by Paul Silvia.",
+        "Scott MacLeod's abstract poem The Life of Haifisch.",
+        "A new biography of the participants themselves."
+      ],
+      "optionsZh": [
+        "Claude Monet 写的技术指南。",
+        "Paul Silvia 写的 The Remains of the Day。",
+        "Scott MacLeod 的抽象诗 The Life of Haifisch。",
+        "参与者自己的新传记。"
+      ],
+      "answer": 2,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A Monet 是前面画家，不是此处作者。",
+        "B 书名、作者与媒介均错配。",
+        "C 名字、作品名与 abstract poem 在本句准确对应。",
+        "D 没有参与者自传任务；不从诗名直接添加未述完整诗内容。"
+      ],
+      "vocabulary": [
+        {
+          "word": "abstract",
+          "meaning": "抽象的；不易按具体叙事直读的",
+          "context": "这里形容诗的表达，不是名词摘要或自动等于无意义。",
+          "example": "The abstract poem became clearer after a brief introduction.",
+          "collocations": [
+            "a famously abstract poem",
+            "Scott MacLeod’s poem"
+          ]
+        }
+      ],
+      "translation": "另一实验中，Silvia 探索理解的作用。例如，让参与者读 Scott MacLeod 著名的抽象诗 The Life of Haifisch。没有任何背景信息的人无法理解，也不觉得有趣。相比之下，读同一首诗却得到更多背景信息的人——如标题和 Haifisch 在德语中意为“鲨鱼”的解释——觉得它更易懂、有趣得多。",
+      "evidenceTargetIds": [
+        "c09-s04-p096-02505-s002"
+      ],
+      "evidence": [
+        {
+          "quote": "In another experiment, Silvia explored the role of comprehension. For instance, participants were asked to read Scott MacLeod’s famously abstract poem The Life of Haifisch. Those who were not provided with any background information could not understand it and did not find it interesting. In contrast, the other participants who read the same poem but with more background information, such as its title and the explanation that Haifisch means “shark” in German, found it more comprehensible and far more interesting.",
+          "sentenceIds": [
+            "c09-s04-p096-02505-s001",
+            "c09-s04-p096-02505-s002",
+            "c09-s04-p096-02505-s003",
+            "c09-s04-p096-02505-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 96,
+              "block": 1,
+              "bbox": [
+                76.99,
+                250.5,
+                535.01,
+                421.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "028c2bacc1fe6e4b2b767cb4112e77be75e17b77a0f92054e62f2fa2fb01118d"
+    },
+    {
+      "id": "qe-c09-0097",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-036",
+      "parentQuestionId": "q-c09-047",
+      "chapterId": "c09",
+      "sectionId": "c09-s04",
+      "paragraphId": "c09-s04-p096-02505",
+      "readingUnitId": "c09-s04-p096-02505-r001-004",
+      "sentenceIds": [
+        "c09-s04-p096-02505-s001",
+        "c09-s04-p096-02505-s002",
+        "c09-s04-p096-02505-s003",
+        "c09-s04-p096-02505-s004"
+      ],
+      "passage": "In another experiment, Silvia explored the role of comprehension. For instance, participants were asked to read Scott MacLeod’s famously abstract poem The Life of Haifisch. Those who were not provided with any background information could not understand it and did not find it interesting. In contrast, the other participants who read the same poem but with more background information, such as its title and the explanation that Haifisch means “shark” in German, found it more comprehensible and far more interesting.",
+      "prompt": "How did the participants without background information respond to the poem?",
+      "promptZh": "没有背景资料的参与者对诗怎样反应？",
+      "options": [
+        "They understood it fully and found it the most interesting text possible.",
+        "They reported the same comprehension advantage as the informed group.",
+        "They were given the German meaning of Haifisch before reading.",
+        "They could not understand it and did not find it interesting in this reported comparison."
+      ],
+      "optionsZh": [
+        "完全理解，并认为它是最有趣的文本。",
+        "报告与获资料组相同的理解优势。",
+        "阅读前已获 Haifisch 的德语释义。",
+        "在所述比较中无法理解，也不觉得有趣。"
+      ],
+      "answer": 3,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A 与两项否定都反。",
+        "B In contrast 后另一组更易懂更有趣，并非同样优势。",
+        "C shark 释义给另一组，不能挪给无背景组。",
+        "D not provided、could not understand、did not find interesting 三项对应，不推广成所有难诗都永远不可欣赏。"
+      ],
+      "vocabulary": [
+        {
+          "word": "background information",
+          "meaning": "背景信息；帮助理解作品的资料",
+          "context": "此实验如标题和词义提示，不是改变诗文本或参与者的童年。",
+          "example": "A little background information helped readers follow the unusual poem.",
+          "collocations": [
+            "not provided with any background information",
+            "the same poem but with more background information"
+          ]
+        }
+      ],
+      "translation": "另一实验中，Silvia 探索理解的作用。例如，让参与者读 Scott MacLeod 著名的抽象诗 The Life of Haifisch。没有任何背景信息的人无法理解，也不觉得有趣。相比之下，读同一首诗却得到更多背景信息的人——如标题和 Haifisch 在德语中意为“鲨鱼”的解释——觉得它更易懂、有趣得多。",
+      "evidenceTargetIds": [
+        "c09-s04-p096-02505-s003"
+      ],
+      "evidence": [
+        {
+          "quote": "In another experiment, Silvia explored the role of comprehension. For instance, participants were asked to read Scott MacLeod’s famously abstract poem The Life of Haifisch. Those who were not provided with any background information could not understand it and did not find it interesting. In contrast, the other participants who read the same poem but with more background information, such as its title and the explanation that Haifisch means “shark” in German, found it more comprehensible and far more interesting.",
+          "sentenceIds": [
+            "c09-s04-p096-02505-s001",
+            "c09-s04-p096-02505-s002",
+            "c09-s04-p096-02505-s003",
+            "c09-s04-p096-02505-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 96,
+              "block": 1,
+              "bbox": [
+                76.99,
+                250.5,
+                535.01,
+                421.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "ebfb9b88e2b5d4ad1edb06f2b1d99ce2741dd2723f35417d1b59c3660ee82ead"
+    },
+    {
+      "id": "q-c09-048",
+      "version": 1,
+      "readingUnitId": "c09-s04-p096-02505-r005-006",
+      "chapterId": "c09",
+      "sectionId": "c09-s04",
+      "paragraphId": "c09-s04-p096-02505",
+      "sentenceIds": [
+        "c09-s04-p096-02505-s005",
+        "c09-s04-p096-02505-s006"
+      ],
+      "passage": "There is an intricate line. For art to be appreciated, it must be at least minimally comprehensible.",
+      "prompt": "What condition is stated for appreciating art?",
+      "options": [
+        "At least a minimal degree of comprehensibility.",
+        "Complete simplicity with no ambiguity.",
+        "Total incomprehensibility for every viewer.",
+        "A requirement to know every detail of the artist’s life."
+      ],
+      "answer": 0,
+      "type": "逻辑关系",
+      "promptZh": "欣赏艺术需要什么条件？",
+      "optionsZh": [
+        "至少最低程度的可理解性。",
+        "完全简单且无歧义。",
+        "对每个观众都完全难懂。",
+        "必须知道艺术家全部生平细节。"
+      ],
+      "analyses": [
+        "A at least minimally comprehensible 直接对应。",
+        "B 最低可理解不等于完全简单或无歧义。",
+        "C 与 must be...comprehensible 相反。",
+        "D 没有生平细节的必要要求。必要条件也不是充分保证：能理解不等于一定喜欢。"
+      ],
+      "evidence": [
+        {
+          "quote": "For art to be appreciated, it must be at least minimally comprehensible.",
+          "sentenceIds": [
+            "c09-s04-p096-02505-s006"
+          ],
+          "sources": [
+            {
+              "pdfPage": 96,
+              "block": 1,
+              "bbox": [
+                76.99,
+                250.5,
+                535.01,
+                421.02
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "minimally",
+          "meaning": "最低限度地",
+          "context": "给出理解门槛，而不是要求完全透明、毫无复杂性",
+          "example": "The instructions must be minimally clear before the task begins.",
+          "collocations": [
+            "at least minimally comprehensible",
+            "minimally clear"
+          ]
+        }
+      ],
+      "translation": "这里有一条微妙的界线。艺术要被欣赏，至少必须有最低限度的可理解性。",
+      "support": "explicit",
+      "editorialStatus": "PDF第93–97页原页核对；哲学和人物引述、个人反应、实验评分与回顾调查分别归属；maybe和相关限制保留，不扩大因果或群体标签",
+      "fingerprint": "5ef22638a81e8f724dda3452bf385ca085fa4f3293c8d3a8defc63df724a095b"
+    },
+    {
+      "id": "qe-c09-0098",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-036",
+      "parentQuestionId": "q-c09-048",
+      "chapterId": "c09",
+      "sectionId": "c09-s04",
+      "paragraphId": "c09-s04-p096-02505",
+      "readingUnitId": "c09-s04-p096-02505-r005-006",
+      "sentenceIds": [
+        "c09-s04-p096-02505-s005",
+        "c09-s04-p096-02505-s006"
+      ],
+      "passage": "There is an intricate line. For art to be appreciated, it must be at least minimally comprehensible.",
+      "prompt": "What does 'an intricate line' mean in this short passage?",
+      "promptZh": "短段里的 an intricate line 是什么意思？",
+      "options": [
+        "A line physically drawn on a painting to hide its title.",
+        "A subtle boundary concerning how comprehensible art needs to be for appreciation.",
+        "A fixed queue of participants waiting outside the museum.",
+        "An instruction that complete incomprehensibility is necessary for appreciation."
+      ],
+      "optionsZh": [
+        "画上实际画来遮标题的线。",
+        "关于艺术至少须多可理解才能欣赏的微妙界线。",
+        "博物馆外参与者固定队列。",
+        "认为欣赏必须完全无法理解的要求。"
+      ],
+      "answer": 1,
+      "type": "语境词义",
+      "support": "explicit",
+      "analyses": [
+        "A 下一句谈欣赏条件，不是画面线条。",
+        "B intricate 描写关系微妙，must be at least minimally comprehensible 给界线内容。",
+        "C line 在此不是排队。",
+        "D minimally comprehensible 是至少最低限度能懂，不能反成完全难懂。"
+      ],
+      "vocabulary": [
+        {
+          "word": "intricate",
+          "meaning": "复杂精细的；微妙的",
+          "context": "这里形容概念界线，并非统计上已给出固定分数阈值。",
+          "example": "The debate revealed an intricate relationship between difficulty and interest.",
+          "collocations": [
+            "an intricate line",
+            "at least minimally comprehensible"
+          ]
+        }
+      ],
+      "translation": "这里有一条微妙的界线。艺术要被欣赏，至少必须有最低限度的可理解性。",
+      "evidenceTargetIds": [
+        "c09-s04-p096-02505-s005"
+      ],
+      "evidence": [
+        {
+          "quote": "There is an intricate line. For art to be appreciated, it must be at least minimally comprehensible.",
+          "sentenceIds": [
+            "c09-s04-p096-02505-s005",
+            "c09-s04-p096-02505-s006"
+          ],
+          "sources": [
+            {
+              "pdfPage": 96,
+              "block": 1,
+              "bbox": [
+                76.99,
+                250.5,
+                535.01,
+                421.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "7087e4705f0be612edeba87a5de782105ed39bb283ed62990678bfc1024abd51"
+    },
+    {
+      "id": "q-c09-049",
+      "version": 1,
+      "readingUnitId": "c09-s04-p096-04260-r001-003",
+      "chapterId": "c09",
+      "sectionId": "c09-s04",
+      "paragraphId": "c09-s04-p096-04260",
+      "sentenceIds": [
+        "c09-s04-p096-04260-s001",
+        "c09-s04-p096-04260-s002",
+        "c09-s04-p096-04260-s003"
+      ],
+      "passage": "While at the University of Virginia, I had the chance to work with two students, Erin Westgate and Nick Buttrick, with whom I read the existing literature on experimental aesthetics such as Paul Silvia’s. We wondered if reading all kinds of books early on in life helped readers appreciate more complexity and lead an intellectually rich life. So we asked over 5,000 people about their reading habits during childhood, their current cognitive styles, and their perceived levels of psychological richness.",
+      "prompt": "What information did the researchers ask over 5,000 people to report?",
+      "options": [
+        "Only their scores on a randomly assigned childhood reading program.",
+        "Only their parents’ political views and school grades.",
+        "Childhood reading habits, current cognitive styles and perceived richness.",
+        "The physiological effects of viewing Rothko paintings."
+      ],
+      "answer": 2,
+      "type": "细节",
+      "promptZh": "研究者向五千多人询问什么？",
+      "optionsZh": [
+        "仅询问随机分配的童年阅读项目得分。",
+        "仅父母政见与学校成绩。",
+        "童年阅读习惯、当前认知风格和自觉丰富性。",
+        "观看 Rothko 画作的生理反应。"
+      ],
+      "analyses": [
+        "A asked...habits 是回顾询问，不是随机给童年项目。",
+        "B 当前列项没有父母政见或成绩。",
+        "C 三个项目均与末句逐一对应。",
+        "D 把此前个人观画与当前调查混淆。over 5,000 是五千多，非恰好五千；perceived 是自我感知，不是全知客观评分。"
+      ],
+      "evidence": [
+        {
+          "quote": "their reading habits during childhood, their current cognitive styles, and their perceived levels of psychological richness.",
+          "sentenceIds": [
+            "c09-s04-p096-04260-s003"
+          ],
+          "sources": [
+            {
+              "pdfPage": 96,
+              "block": 2,
+              "bbox": [
+                76.99,
+                426,
+                535.01,
+                616.02
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "perceived",
+          "meaning": "感知到的；自认为的",
+          "context": "限定丰富性是受访者对自身的评价",
+          "example": "The survey measured perceived levels of stress.",
+          "collocations": [
+            "perceived psychological richness",
+            "perceived levels of"
+          ]
+        }
+      ],
+      "translation": "在 University of Virginia 时，我有机会与两位学生 Erin Westgate 和 Nick Buttrick 合作，一起阅读 Paul Silvia 等人的实验美学文献。我们想知道，早年读各种书是否帮助读者欣赏更多复杂性、过更丰富的智性生活。于是向五千多人询问童年阅读习惯、当前认知风格，以及自觉心理丰富程度。",
+      "support": "explicit",
+      "editorialStatus": "PDF第93–97页原页核对；哲学和人物引述、个人反应、实验评分与回顾调查分别归属；maybe和相关限制保留，不扩大因果或群体标签",
+      "fingerprint": "169220808cda0b7acedac7ab657e0ba317f1fb2dbe8b43330251165d761d6294"
+    },
+    {
+      "id": "qe-c09-0099",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-036",
+      "parentQuestionId": "q-c09-049",
+      "chapterId": "c09",
+      "sectionId": "c09-s04",
+      "paragraphId": "c09-s04-p096-04260",
+      "readingUnitId": "c09-s04-p096-04260-r001-003",
+      "sentenceIds": [
+        "c09-s04-p096-04260-s001",
+        "c09-s04-p096-04260-s002",
+        "c09-s04-p096-04260-s003"
+      ],
+      "passage": "While at the University of Virginia, I had the chance to work with two students, Erin Westgate and Nick Buttrick, with whom I read the existing literature on experimental aesthetics such as Paul Silvia’s. We wondered if reading all kinds of books early on in life helped readers appreciate more complexity and lead an intellectually rich life. So we asked over 5,000 people about their reading habits during childhood, their current cognitive styles, and their perceived levels of psychological richness.",
+      "prompt": "What did the author do with Westgate and Buttrick at the University of Virginia?",
+      "promptZh": "作者在 University of Virginia 与 Westgate、Buttrick 一起做什么？",
+      "options": [
+        "Read the existing research literature on experimental aesthetics.",
+        "Wrote the abstract poem used in Silvia's experiment.",
+        "Managed Darlington Hall during the war.",
+        "Assigned each participant a lifelong profession in art."
+      ],
+      "optionsZh": [
+        "阅读已有实验美学研究文献。",
+        "创作 Silvia 实验所用抽象诗。",
+        "在战争中管理 Darlington 庄园。",
+        "给每个参与者分派终身艺术职业。"
+      ],
+      "answer": 0,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A with whom I read the existing literature...such as Paul Silvia’s 对应，literature 在这里是学术文献。",
+        "B 诗已归 Scott MacLeod，不能当本组创作。",
+        "C 混入小说人物经历。",
+        "D 没有终身岗位分派；原文交代两位当时学生的合作背景，不声称其当前身份仍相同。"
+      ],
+      "vocabulary": [
+        {
+          "word": "literature",
+          "meaning": "研究文献；某领域已有学术著述",
+          "context": "在 existing literature on experimental aesthetics 中不是专指文学小说，与下一句 books 研究对象区分。",
+          "example": "The team reviewed the literature before designing the survey.",
+          "collocations": [
+            "the existing literature on experimental aesthetics",
+            "read the existing literature"
+          ]
+        }
+      ],
+      "translation": "在 University of Virginia 时，我有机会与两位学生 Erin Westgate 和 Nick Buttrick 合作，一起阅读 Paul Silvia 等人的实验美学文献。我们想知道，早年读各种书是否帮助读者欣赏更多复杂性、过更丰富的智性生活。于是向五千多人询问童年阅读习惯、当前认知风格，以及自觉心理丰富程度。",
+      "evidenceTargetIds": [
+        "c09-s04-p096-04260-s001"
+      ],
+      "evidence": [
+        {
+          "quote": "While at the University of Virginia, I had the chance to work with two students, Erin Westgate and Nick Buttrick, with whom I read the existing literature on experimental aesthetics such as Paul Silvia’s. We wondered if reading all kinds of books early on in life helped readers appreciate more complexity and lead an intellectually rich life. So we asked over 5,000 people about their reading habits during childhood, their current cognitive styles, and their perceived levels of psychological richness.",
+          "sentenceIds": [
+            "c09-s04-p096-04260-s001",
+            "c09-s04-p096-04260-s002",
+            "c09-s04-p096-04260-s003"
+          ],
+          "sources": [
+            {
+              "pdfPage": 96,
+              "block": 2,
+              "bbox": [
+                76.99,
+                426,
+                535.01,
+                616.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "d1a41d664c8a7ac192b7047d52efead23af992270a685e3ffcd25338107d342d"
+    },
+    {
+      "id": "qe-c09-0100",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-036",
+      "parentQuestionId": "q-c09-049",
+      "chapterId": "c09",
+      "sectionId": "c09-s04",
+      "paragraphId": "c09-s04-p096-04260",
+      "readingUnitId": "c09-s04-p096-04260-r001-003",
+      "sentenceIds": [
+        "c09-s04-p096-04260-s001",
+        "c09-s04-p096-04260-s002",
+        "c09-s04-p096-04260-s003"
+      ],
+      "passage": "While at the University of Virginia, I had the chance to work with two students, Erin Westgate and Nick Buttrick, with whom I read the existing literature on experimental aesthetics such as Paul Silvia’s. We wondered if reading all kinds of books early on in life helped readers appreciate more complexity and lead an intellectually rich life. So we asked over 5,000 people about their reading habits during childhood, their current cognitive styles, and their perceived levels of psychological richness.",
+      "prompt": "What status does 'We wondered if' give the proposed link about early reading?",
+      "promptZh": "We wondered if 使关于早期阅读的联系处于什么状态？",
+      "options": [
+        "It is a completed causal proof before data are collected.",
+        "It records each participant's actual childhood reading choice as random assignment.",
+        "It introduces a research question that the later survey was intended to explore.",
+        "It says every kind of book has already been proved equally beneficial."
+      ],
+      "optionsZh": [
+        "收集资料前已完成因果证明。",
+        "把每个人童年阅读选择记录为随机分派。",
+        "提出后来调查拟探索的研究问题。",
+        "说所有体裁已证明同样有益。"
+      ],
+      "answer": 2,
+      "type": "研究逻辑",
+      "support": "explicit",
+      "analyses": [
+        "A wondered if 是待探问题，不是已证结果。",
+        "B 后面 asked people about childhood habits，是回顾调查而非分派童年。",
+        "C 接 So we asked over 5,000 people，清楚呈现提问与调查顺序。",
+        "D all kinds 是想探索的范围，不是证实每体裁同效；不从措辞 helped 擅定因果已成立。"
+      ],
+      "vocabulary": [
+        {
+          "word": "wondered if",
+          "meaning": "想知道是否；对某可能联系提出疑问",
+          "context": "标示研究问题，区别后文结果与作者原先假设。",
+          "example": "They wondered if the activity was related to later interests.",
+          "collocations": [
+            "We wondered if reading",
+            "asked over 5,000 people"
+          ]
+        }
+      ],
+      "translation": "在 University of Virginia 时，我有机会与两位学生 Erin Westgate 和 Nick Buttrick 合作，一起阅读 Paul Silvia 等人的实验美学文献。我们想知道，早年读各种书是否帮助读者欣赏更多复杂性、过更丰富的智性生活。于是向五千多人询问童年阅读习惯、当前认知风格，以及自觉心理丰富程度。",
+      "evidenceTargetIds": [
+        "c09-s04-p096-04260-s002"
+      ],
+      "evidence": [
+        {
+          "quote": "While at the University of Virginia, I had the chance to work with two students, Erin Westgate and Nick Buttrick, with whom I read the existing literature on experimental aesthetics such as Paul Silvia’s. We wondered if reading all kinds of books early on in life helped readers appreciate more complexity and lead an intellectually rich life. So we asked over 5,000 people about their reading habits during childhood, their current cognitive styles, and their perceived levels of psychological richness.",
+          "sentenceIds": [
+            "c09-s04-p096-04260-s001",
+            "c09-s04-p096-04260-s002",
+            "c09-s04-p096-04260-s003"
+          ],
+          "sources": [
+            {
+              "pdfPage": 96,
+              "block": 2,
+              "bbox": [
+                76.99,
+                426,
+                535.01,
+                616.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "a67ae6bb1f9ed90653e762045a338c616c7305cd20b8067ff3b9f63f5712fcfd"
+    },
+    {
+      "id": "q-c09-050",
+      "version": 1,
+      "readingUnitId": "c09-s04-p096-04260-r004-005",
+      "chapterId": "c09",
+      "sectionId": "c09-s04",
+      "paragraphId": "c09-s04-p096-04260",
+      "sentenceIds": [
+        "c09-s04-p096-04260-s004",
+        "c09-s04-p096-04260-s005"
+      ],
+      "passage": "We assumed that reading in general would be associated with a more flexible cognitive style and more psychological richness. Our findings were more intricate than we had anticipated.",
+      "prompt": "What does the second sentence signal about the original assumption?",
+      "options": [
+        "It confirms every genre had an identical effect.",
+        "It proves reading was randomly assigned in childhood.",
+        "It says the researchers had made no prediction.",
+        "The findings were more complicated than the general prediction."
+      ],
+      "answer": 3,
+      "type": "作者意图",
+      "promptZh": "第二句怎样回应最初假设？",
+      "optionsZh": [
+        "确认每类书效果相同。",
+        "证明童年阅读被随机分配。",
+        "说研究者完全没作预测。",
+        "结果比一般性预测更复杂。"
+      ],
+      "analyses": [
+        "A more intricate 不等于完全相同。",
+        "B 没有随机分配，associated 也非因果。",
+        "C We assumed 明示原先预测。",
+        "D than...anticipated 表示实际结果超出原先简单预想。本片段尚未列出具体书类差异，不提前编写方向。"
+      ],
+      "evidence": [
+        {
+          "quote": "Our findings were more intricate than we had anticipated.",
+          "sentenceIds": [
+            "c09-s04-p096-04260-s005"
+          ],
+          "sources": [
+            {
+              "pdfPage": 96,
+              "block": 2,
+              "bbox": [
+                76.99,
+                426,
+                535.01,
+                616.02
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "intricate",
+          "meaning": "复杂而细致的",
+          "context": "结果具有不止一种简单关系，尚未在此句展开",
+          "example": "The analysis revealed an intricate pattern.",
+          "collocations": [
+            "intricate findings",
+            "more intricate than anticipated"
+          ]
+        }
+      ],
+      "translation": "我们原先假设，一般而言阅读会与更灵活的认知风格、更高心理丰富性相关。但结果比预料的更复杂。",
+      "support": "explicit",
+      "editorialStatus": "PDF第93–97页原页核对；哲学和人物引述、个人反应、实验评分与回顾调查分别归属；maybe和相关限制保留，不扩大因果或群体标签",
+      "fingerprint": "6af32e115f34cb84d066f9ff56bf971460ce1a97c6d7692536a747efff785175"
+    },
+    {
+      "id": "qe-c09-0101",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-036",
+      "parentQuestionId": "q-c09-050",
+      "chapterId": "c09",
+      "sectionId": "c09-s04",
+      "paragraphId": "c09-s04-p096-04260",
+      "readingUnitId": "c09-s04-p096-04260-r004-005",
+      "sentenceIds": [
+        "c09-s04-p096-04260-s004",
+        "c09-s04-p096-04260-s005"
+      ],
+      "passage": "We assumed that reading in general would be associated with a more flexible cognitive style and more psychological richness. Our findings were more intricate than we had anticipated.",
+      "prompt": "How should 'We assumed that reading ... would be associated with' be read?",
+      "promptZh": "We assumed that reading...would be associated with 应怎样理解？",
+      "options": [
+        "As an already established result that the researchers are simply repeating.",
+        "As final proof that every genre independently causes cognitive flexibility.",
+        "As a report that the findings were exactly as simple as expected.",
+        "As an initial expectation of an association, followed by the admission that results were more intricate."
+      ],
+      "optionsZh": [
+        "作为研究者仅仅复述的既定结果。",
+        "作为每种体裁独立导致认知灵活的最终证明。",
+        "作为结果正如预期简单的报告。",
+        "作为最初对相关的预期，后面承认结果更复杂。"
+      ],
+      "answer": 3,
+      "type": "研究逻辑",
+      "support": "explicit",
+      "analyses": [
+        "A assumed 标记事前预期，不是已确立发现；下一句才谈结果比预期更复杂。",
+        "B assumed 不是 proved，associated with 不是必然导致。",
+        "C next sentence more intricate than anticipated 恰与简单完全一致相反。",
+        "D 保留假设与结果的时序、相关与因果的区别，不让预期代替发现。"
+      ],
+      "vocabulary": [
+        {
+          "word": "associated with",
+          "meaning": "与……相关；存在联系",
+          "context": "不是仅凭词组即证明前者造成后者，也不能删除 assumed 的预期性质。",
+          "example": "The survey examined whether reading was associated with greater flexibility.",
+          "collocations": [
+            "would be associated with",
+            "a more flexible cognitive style"
+          ]
+        }
+      ],
+      "translation": "我们原先假设，一般而言阅读会与更灵活的认知风格、更高心理丰富性相关。但结果比预料的更复杂。",
+      "evidenceTargetIds": [
+        "c09-s04-p096-04260-s004"
+      ],
+      "evidence": [
+        {
+          "quote": "We assumed that reading in general would be associated with a more flexible cognitive style and more psychological richness. Our findings were more intricate than we had anticipated.",
+          "sentenceIds": [
+            "c09-s04-p096-04260-s004",
+            "c09-s04-p096-04260-s005"
+          ],
+          "sources": [
+            {
+              "pdfPage": 96,
+              "block": 2,
+              "bbox": [
+                76.99,
+                426,
+                535.01,
+                616.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "4c551c94131269a650c14cb15b07915296fc0e7c163af78174acca69b4556521"
+    },
+    {
+      "id": "q-c09-051",
+      "version": 1,
+      "readingUnitId": "c09-s04-p096-06210-r001-003",
+      "chapterId": "c09",
+      "sectionId": "c09-s04",
+      "paragraphId": "c09-s04-p096-06210",
+      "sentenceIds": [
+        "c09-s04-p096-06210-s001",
+        "c09-s04-p096-06210-s002",
+        "c09-s04-p096-06210-s003"
+      ],
+      "passage": "First, as predicted, individuals who grew up reading a lot of literary fiction were indeed more attributionally complex (i.e., able to think of multiple reasons why someone might behave a certain way) and led a psychologically richer life as adults than those who did not. Second, unexpectedly, those who grew up reading a lot of romance novels were significantly less attributionally complex than those who did not. These readers seemed to “essentialize” to a greater degree than those who had read less romance.",
+      "prompt": "Which contrast between childhood reading groups is reported?",
+      "options": [
+        "Literary-fiction readers were less attributionally complex; romance readers more so.",
+        "Literary-fiction readers showed greater attributional complexity, while heavy romance readers showed less.",
+        "Both groups were reported to have exactly identical cognitive styles.",
+        "The researchers assigned adults to become lifelong romance readers."
+      ],
+      "answer": 1,
+      "type": "细节",
+      "promptZh": "报告了两类童年阅读群体什么差别？",
+      "optionsZh": [
+        "文学小说读者归因复杂性较低，言情读者较高。",
+        "文学小说读者较高，而大量言情读者较低。",
+        "两组认知风格完全一样。",
+        "研究者把成人随机变成终身言情读者。"
+      ],
+      "analyses": [
+        "A 两个方向都反转。",
+        "B indeed more...literary fiction 与 unexpectedly...romance...less 对应。",
+        "C 结果明确不同，不是完全一样。",
+        "D grew up reading 是既有经历，不是被分配的人生。这是群体关联，不能把阅读类型当因果或给每位读者贴能力标签。"
+      ],
+      "evidence": [
+        {
+          "quote": "reading a lot of literary fiction were indeed more attributionally complex",
+          "sentenceIds": [
+            "c09-s04-p096-06210-s001"
+          ],
+          "sources": [
+            {
+              "pdfPage": 96,
+              "block": 3,
+              "bbox": [
+                76.99,
+                621,
+                535.01,
+                713.52
+              ]
+            }
+          ]
+        },
+        {
+          "quote": "reading a lot of romance novels were significantly less attributionally complex",
+          "sentenceIds": [
+            "c09-s04-p096-06210-s002"
+          ],
+          "sources": [
+            {
+              "pdfPage": 96,
+              "block": 3,
+              "bbox": [
+                76.99,
+                621,
+                535.01,
+                713.52
+              ]
+            },
+            {
+              "pdfPage": 97,
+              "block": 0,
+              "bbox": [
+                76.99,
+                75,
+                535.01,
+                304.02
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "attributionally complex",
+          "meaning": "归因复杂的",
+          "context": "能想到一个人某行为的多种原因，而非只贴单一标签",
+          "example": "An attributionally complex explanation considered several motives.",
+          "collocations": [
+            "attributional complexity",
+            "more attributionally complex"
+          ]
+        }
+      ],
+      "translation": "首先，如预测，童年读很多文学小说的人，归因更复杂——即能想到某人为何那样行动的多种原因——成年心理生活也比没这样读的人更丰富。其次，出乎意料，童年读很多言情小说的人，归因复杂性显著低于没这样读的人。与较少读言情者相比，他们似乎更倾向“本质化”。",
+      "support": "explicit",
+      "editorialStatus": "PDF第93–97页原页核对；哲学和人物引述、个人反应、实验评分与回顾调查分别归属；maybe和相关限制保留，不扩大因果或群体标签",
+      "fingerprint": "3f47fffd1f3c6b775fa7cc29844f9312049d8e41ea67073d96b8dca3af3d34f8"
+    },
+    {
+      "id": "qe-c09-0102",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-036",
+      "parentQuestionId": "q-c09-051",
+      "chapterId": "c09",
+      "sectionId": "c09-s04",
+      "paragraphId": "c09-s04-p096-06210",
+      "readingUnitId": "c09-s04-p096-06210-r001-003",
+      "sentenceIds": [
+        "c09-s04-p096-06210-s001",
+        "c09-s04-p096-06210-s002",
+        "c09-s04-p096-06210-s003"
+      ],
+      "passage": "First, as predicted, individuals who grew up reading a lot of literary fiction were indeed more attributionally complex (i.e., able to think of multiple reasons why someone might behave a certain way) and led a psychologically richer life as adults than those who did not. Second, unexpectedly, those who grew up reading a lot of romance novels were significantly less attributionally complex than those who did not. These readers seemed to “essentialize” to a greater degree than those who had read less romance.",
+      "prompt": "What comparison is made about readers who grew up reading more romance?",
+      "promptZh": "对童年更多读言情的人作了什么比较？",
+      "options": [
+        "They all necessarily became incapable of considering any alternative reason.",
+        "They seemed to essentialize more than those who had read less romance.",
+        "They were randomly assigned to read no other books for life.",
+        "They were shown to be more attributionally complex than every literary-fiction reader."
+      ],
+      "optionsZh": [
+        "他们全必然无法考虑任何其他原因。",
+        "他们似乎比较少读言情者更倾向本质化。",
+        "他们被随机分派终身不得读其他书。",
+        "证明他们比每个文学小说读者都更有归因复杂性。"
+      ],
+      "answer": 1,
+      "type": "语气与范围",
+      "support": "explicit",
+      "analyses": [
+        "A seemed 和 greater degree 不是全称绝对能力缺失。",
+        "B 原句比较对象、方向、程度及似乎均对应；这些是回顾调查联系。",
+        "C 无终身体裁随机分派。",
+        "D 文段方向相反，也不能将组间倾向写成每个个体的排序或确定因果。"
+      ],
+      "vocabulary": [
+        {
+          "word": "essentialize",
+          "meaning": "本质化；以固定简单特质概括人或事",
+          "context": "结合本段归因复杂性，区别考虑多种原因；不是这里把某事变重要。",
+          "example": "The discussion warned against essentializing people with a single label.",
+          "collocations": [
+            "seemed to essentialize",
+            "to a greater degree than"
+          ]
+        }
+      ],
+      "translation": "首先，如预测，童年读很多文学小说的人，归因更复杂——即能想到某人为何那样行动的多种原因——成年心理生活也比没这样读的人更丰富。其次，出乎意料，童年读很多言情小说的人，归因复杂性显著低于没这样读的人。与较少读言情者相比，他们似乎更倾向“本质化”。",
+      "evidenceTargetIds": [
+        "c09-s04-p096-06210-s003"
+      ],
+      "evidence": [
+        {
+          "quote": "First, as predicted, individuals who grew up reading a lot of literary fiction were indeed more attributionally complex (i.e., able to think of multiple reasons why someone might behave a certain way) and led a psychologically richer life as adults than those who did not. Second, unexpectedly, those who grew up reading a lot of romance novels were significantly less attributionally complex than those who did not. These readers seemed to “essentialize” to a greater degree than those who had read less romance.",
+          "sentenceIds": [
+            "c09-s04-p096-06210-s001",
+            "c09-s04-p096-06210-s002",
+            "c09-s04-p096-06210-s003"
+          ],
+          "sources": [
+            {
+              "pdfPage": 96,
+              "block": 3,
+              "bbox": [
+                76.99,
+                621,
+                535.01,
+                713.52
+              ]
+            },
+            {
+              "pdfPage": 97,
+              "block": 0,
+              "bbox": [
+                76.99,
+                75,
+                535.01,
+                304.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "9136acb7cd7f495ba2f3ea66e8edd653f3dd1011589d67e162c11d9aa5602646"
+    }
+  ]
+}
