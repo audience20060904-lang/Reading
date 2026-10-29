@@ -1,0 +1,273 @@
+{
+  "schemaVersion": 1,
+  "id": "question-review-2026-10-28-068",
+  "pdfSha256": "be25c859f1bd894a4b0d1cff024ded1297f6a96a8e8ddabea1e3abcf89160a50",
+  "scope": "Resume frozen 25 questions /25 source candidates on actual PDF79–80. Productivity obsession and DIY, partial advertising explanation, Krueger paraphrase attribution, personal reading counterfactual and English book naming, pin-factory assumptions and outputs, Ford timeline. Preserve intended/unintended distinction, far more degree and current-passage support without changing original wording or historical grades.",
+  "questions": [
+    {
+      "id": "q-c08-003",
+      "reason": "unintended保留非本意而非必定未预见，正确项中英、整句译文与词义同步。",
+      "updates": {
+        "options": [
+          "What unintended psychological consequences might result from an obsession with efficiency?",
+          "Which factory has already removed every psychological difficulty?",
+          "How can every task be completed with no possible trade-off?",
+          "Why is efficiency proved to be harmful in every circumstance?"
+        ],
+        "optionsZh": [
+          "迷恋效率可能带来什么并非本意的心理后果？",
+          "哪家工厂已消除所有心理困难？",
+          "如何让每项任务都没有任何取舍？",
+          "为什么已证明效率在任何情形都坏？"
+        ],
+        "analyses": [
+          "A might 保留可能性，unintended 指并非有意达到的后果，psychological 限定为心理层面。",
+          "B 没有工厂或已消除困难的结论。",
+          "C 原句恰在追问潜在代价，而非声称可以没有取舍。",
+          "D 问句并未给出普遍有害的证明。"
+        ],
+        "vocabulary": [
+          {
+            "word": "unintended",
+            "meaning": "非本意的；并非有意造成的",
+            "context": "指并非追求效率时有意达到的心理后果；这个词本身不说明后果此前无法预见，也不说明已全部证实。",
+            "example": "The change had an unintended effect on daily routines.",
+            "collocations": [
+              "unintended consequences",
+              "an unintended effect"
+            ]
+          }
+        ],
+        "translation": "我们对效率的迷恋，可能产生什么并非本意的心理后果？"
+      }
+    },
+    {
+      "id": "q-c08-004",
+      "reason": "something along the lines表大意转述，不额外断言出自回忆；同句补Krueger导言归属，旧两引文身份保留。",
+      "updates": {
+        "options": [
+          "As a verbatim transcript certified by an experiment.",
+          "As a criticism that economics has no foundational book.",
+          "As proof that Smith’s book contains no stories.",
+          "As the author’s approximate paraphrase of a comment praising the book’s storytelling."
+        ],
+        "optionsZh": [
+          "经实验证明的逐字记录。",
+          "批评经济学没有奠基著作。",
+          "证明 Smith 的书没有故事。",
+          "作者对赞扬该书叙事能力的评论作大意转述。"
+        ],
+        "evidence": [
+          {
+            "quote": "The copy I bought has a lovely introduction by the brilliant economist Alan Krueger, in which he says something along the lines of this: economics students are lucky because the foundational book on modern economics was written by a great storyteller.",
+            "sentenceIds": [
+              "c08-s01-p079-06578-s002"
+            ],
+            "sources": [
+              {
+                "pdfPage": 79,
+                "block": 7,
+                "bbox": [
+                  76.99,
+                  657.75,
+                  535,
+                  711.27
+                ]
+              },
+              {
+                "pdfPage": 80,
+                "block": 0,
+                "bbox": [
+                  76.99,
+                  75,
+                  535.01,
+                  167.52
+                ]
+              }
+            ]
+          },
+          {
+            "quote": "the foundational book on modern economics was written by a great storyteller.",
+            "sentenceIds": [
+              "c08-s01-p079-06578-s002"
+            ],
+            "sources": [
+              {
+                "pdfPage": 79,
+                "block": 7,
+                "bbox": [
+                  76.99,
+                  657.75,
+                  535,
+                  711.27
+                ]
+              },
+              {
+                "pdfPage": 80,
+                "block": 0,
+                "bbox": [
+                  76.99,
+                  75,
+                  535.01,
+                  167.52
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "qe-c08-0005",
+      "reason": "喜爱题分析不预告下段自己的书名。",
+      "updates": {
+        "analyses": [
+          "A 当前的 I like 句明确说的是 Adam Smith 的 The Wealth of Nations，没有说只谈作者自己的书。",
+          "B 作者与作品不可错配。",
+          "C Krueger写的是所购版本导言，不是原著替代。",
+          "D I like...明确作者个人阅读态度，不把喜欢一本书等同完全赞同其所有理论。"
+        ]
+      }
+    },
+    {
+      "id": "qe-c08-0008",
+      "reason": "命名题仅考当前明确书名与首部英文范围，不依赖未显示的欣赏前情。",
+      "updates": {
+        "prompt": "What does the narrator explicitly say about naming his own book?",
+        "promptZh": "关于自己书的命名，作者明确说了什么？",
+        "options": [
+          "He had actually chosen economics rather than psychology as his final profession.",
+          "The two books were written by the same eighteenth-century author.",
+          "It was his first book in any language, as explicitly stated.",
+          "He named his first book written in English The Psychological Wealth of Nations."
+        ],
+        "optionsZh": [
+          "他已实际选经济学取代心理学为最终职业。",
+          "两书都是同一18世纪作者所写。",
+          "它明确是任何语言中的第一本书。",
+          "他把自己首部英文书命名为 The Psychological Wealth of Nations。"
+        ],
+        "analyses": [
+          "A 前句If...might have是假设过去，不是实际转行。",
+          "B 当前把 Principles of Psychology 归于 William James，把另一部说成 I wrote，不能把两者说成同一位18世纪作者所写。",
+          "C first book I wrote in English有限英文范围，不是任意语言。",
+          "D I even named 明确给出首部英文书的题名，in English 限定这项“首部”的语言范围。"
+        ]
+      }
+    },
+    {
+      "id": "q-c08-006",
+      "reason": "初始针厂排除只据当前，不借后段历史年份归属。",
+      "updates": {
+        "analyses": [
+          "A 初始情境尚未分工，也没出现该每人产量。",
+          "B all the operations 明说有完整工序。",
+          "C If...all operations 与 maybe one pin a day 给出假设及近似产量。",
+          "D 当前只是假设每人做全部工序的产量，没有把 1913 年或流水线建设作为开始工作的条件。Imagine 表示设想场景。"
+        ]
+      }
+    },
+    {
+      "id": "qe-c08-0011",
+      "reason": "十人总量分析不预告下段分工日产量。",
+      "updates": {
+        "analyses": [
+          "A 若一人独做全部工序约一枚，十人独做则总计十枚，按例子假设。",
+          "B 把单人产量当成十人总量。",
+          "C 当前按十人各自独做计算总量，不支持每人 4,800 枚或已经分工的设定。",
+          "D 组总量与单人、独做与分工都被混淆；maybe与would表例子设定，非每厂实测。"
+        ]
+      }
+    },
+    {
+      "id": "q-c08-007",
+      "reason": "分工日产量分析只据当前组总量和人均，不依赖未显示独做基线。",
+      "updates": {
+        "analyses": [
+          "A 颠倒全组与人均，且无法与十人相合。",
+          "B 当前是分工情况下十人日产 48,000 枚的估算，不是全组十枚、每人一枚。",
+          "C 48,000 是十人合计，不是每人。",
+          "D ten workers、48,000 pins a day 与 4,800 per worker 对应，必须区分十人合计与人均日产；estimated 和 could 保留估算性质，并非所有工厂的保证值。"
+        ]
+      }
+    },
+    {
+      "id": "q-c08-009",
+      "reason": "far more efficient译效率高得多的分工，保留程度及比较而非仅高效；1908、1913及eventually不改。",
+      "updates": {
+        "translation": "The Wealth of Nations 出版于 1776 年，也就是美国宣布独立的一年。原书概述，当时美国主要是农业社会，没有工厂。1908 年，Henry Ford 开始生产受欢迎的 Model T。起初工厂一天仅能生产几辆；1913 年引入流水线这种效率高得多的分工后，最终能日产超过一万辆。"
+      }
+    },
+    {
+      "id": "qe-c08-0015",
+      "reason": "far more efficient译效率高得多的分工，保留程度及比较而非仅高效；1908、1913及eventually不改。；1990年代格式修正，分析不借下一节家务分工。",
+      "updates": {
+        "translation": "The Wealth of Nations 出版于 1776 年，也就是美国宣布独立的一年。原书概述，当时美国主要是农业社会，没有工厂。1908 年，Henry Ford 开始生产受欢迎的 Model T。起初工厂一天仅能生产几辆；1913 年引入流水线这种效率高得多的分工后，最终能日产超过一万辆。",
+        "options": [
+          "1908.",
+          "1913.",
+          "1776.",
+          "The 1990s."
+        ],
+        "analyses": [
+          "A 1908是后面ModelT开始生产年份。",
+          "B 1913是后面流水线引入年份。",
+          "C was published in1776明确出版时间，并与美国宣布独立同年联系。",
+          "D 当前明确给出出版年份 1776，没有把该书出版定为 1990 年代。"
+        ]
+      }
+    },
+    {
+      "id": "qe-c08-0016",
+      "reason": "far more efficient译效率高得多的分工，保留程度及比较而非仅高效；1908、1913及eventually不改。；Model T名称词距与中文同步，社会对照排除不预告后文科研分工。",
+      "updates": {
+        "translation": "The Wealth of Nations 出版于 1776 年，也就是美国宣布独立的一年。原书概述，当时美国主要是农业社会，没有工厂。1908 年，Henry Ford 开始生产受欢迎的 Model T。起初工厂一天仅能生产几辆；1913 年引入流水线这种效率高得多的分工后，最终能日产超过一万辆。",
+        "options": [
+          "As largely agricultural, in contrast with the later factory-production example.",
+          "As already producing over 10,000 Model T cars daily in 1776.",
+          "As a society organised entirely around large research teams.",
+          "As having introduced Ford's 1913 assembly line before the book was published."
+        ],
+        "optionsZh": [
+          "以农业为主，与后面工厂生产例子对照。",
+          "1776 年已日产逾一万辆 Model T。",
+          "完全围绕大科研团队组织的社会。",
+          "在该书出版前就引入Ford1913年流水线。"
+        ],
+        "analyses": [
+          "A largely agricultural society是原书概述，用于历史阶段对照；不冒称另行完整历史核验。",
+          "B 将后来的工厂产量移到1776。",
+          "C 当前概述是 largely an agricultural society，没有说社会完全围绕大型科研团队组织。",
+          "D 把出版与流水线的先后颠倒；原书without any factories措辞保留，不擅改英文或扩成独立历史证明。"
+        ]
+      }
+    },
+    {
+      "id": "qe-c08-0017",
+      "reason": "far more efficient译效率高得多的分工，保留程度及比较而非仅高效；1908、1913及eventually不改。；Model T题干和选项词距修正；分析聚焦实际时序，去来源候选ID技术备注及未显示针厂前情。",
+      "updates": {
+        "translation": "The Wealth of Nations 出版于 1776 年，也就是美国宣布独立的一年。原书概述，当时美国主要是农业社会，没有工厂。1908 年，Henry Ford 开始生产受欢迎的 Model T。起初工厂一天仅能生产几辆；1913 年引入流水线这种效率高得多的分工后，最终能日产超过一万辆。",
+        "prompt": "Which description matches Model T production before the assembly-line change?",
+        "promptZh": "引入流水线之前，Model T 的生产情况哪项符合原文？",
+        "options": [
+          "The factory already exceeded 10,000 cars per day from the first day.",
+          "The book says Model T production began only after 1913.",
+          "The factory was making pins rather than vehicles in 1908.",
+          "Production began in 1908, with only a few models made per day at first."
+        ],
+        "optionsZh": [
+          "工厂第一天就日产逾一万辆。",
+          "书中说Model T到1913后才开产。",
+          "1908年工厂造针而非车辆。",
+          "1908年开始生产，起初每天仅几辆。"
+        ],
+        "analyses": [
+          "A over10,000是afterassemblyline后最终产量，不是起初。",
+          "B began1908，不能与1913改进同年。",
+          "C 当前明确是 Ford 的 Model T，不是造针；没有说 1908 年工厂生产的是针。",
+          "D In 1908 与 At first 分别给出开产年份和初期日产仅几辆；不能把后来的最终产量提前到开产时。"
+        ]
+      }
+    }
+  ]
+}
