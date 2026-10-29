@@ -6,9 +6,9 @@
     "status": "in-progress",
     "taskRecord": "source/question-semantic-audit.json",
     "batchLimitSourceCandidates": 25,
-    "currentBatch": "041",
-    "currentBatchStatus": "published-and-verified",
-    "nextBatch": "042",
+    "currentBatch": "042",
+    "currentBatchStatus": "targets-frozen-awaiting-source-review",
+    "nextBatch": "043",
     "remainingQuestions": 1969,
     "lastSuccessfulRelease": "source/releases/question-review-041.json",
     "notice": "New per-question review scope; the earlier 261-candidate queue and its receipts remain complete and immutable.",
@@ -20,7 +20,8 @@
         "reason": "Known shared intuition/is not translation precision issue in an already baseline-reviewed question; freeze a separate correction target and append a new version if justified. Do not increment this audit's reviewed count or alter baselineReviewedQuestions."
       }
     ],
-    "lastDeploymentIncident": "source/question-revisions/review-039-deployment-incident.json"
+    "lastDeploymentIncident": "source/question-revisions/review-039-deployment-incident.json",
+    "checkpoint": "source/question-revisions/review-042-checkpoint.json"
   },
   "interface": [
     {
