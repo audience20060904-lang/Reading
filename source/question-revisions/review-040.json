@@ -1,0 +1,90 @@
+{
+  "schemaVersion": 1,
+  "id": "question-review-2026-10-28-040",
+  "pdfSha256": "be25c859f1bd894a4b0d1cff024ded1297f6a96a8e8ddabea1e3abcf89160a50",
+  "scope": "Review 15 questions /23 source candidates on PDF42–44: finish the current Chapter 4 queue and begin Chapter 5. Preserve personal explanations, qualified appraisals and source sentence joins; remove unshown identities and technical extraction notes from lesson analyses.",
+  "questions": [
+    {
+      "id": "qe-c04-0079",
+      "reason": "叙述推进题不借当前未显示的出租车背景。",
+      "updates": {
+        "analyses": [
+          "A more interesting from there 表示继续推进，不是结束。",
+          "B 下句转到捐肾经历，首句是对叙述进一步展开的铺垫。",
+          "C 更有趣不等于前文已被证伪。",
+          "D 当前没有说听者早已知道所有后续细节；from there 推进故事的讲述，不必理解成换了物理地点。"
+        ]
+      }
+    },
+    {
+      "id": "qe-c04-0080",
+      "reason": "当前未显示Linda姓名，题干用she；排除项只核捐赠对象，不借先前家庭经历。",
+      "updates": {
+        "prompt": "To whom did she say she had donated a kidney?",
+        "promptZh": "她说自己把一个肾捐给了谁？",
+        "analyses": [
+          "A 当前 to her ex-husband 明确受捐者是前夫，不是女婿。",
+          "B ex-husband 的 ex- 不能删除。",
+          "C 当前受捐者没有写成女儿，而是 ex-husband。",
+          "D donated one of her kidneys to her ex-husband 明示受捐者。mentioned 标明她所述经历，不是当前医疗建议。"
+        ]
+      }
+    },
+    {
+      "id": "qe-c04-0081",
+      "reason": "双胞胎题的解析去候选ID误分的技术说明，词汇不借先前亲自孕育孙辈的故事。",
+      "updates": {
+        "analyses": [
+          "A two of the four (twins!) 明示她四个子女中的两人，随后接生育时点。",
+          "B 把 children 的四人集合换成孙辈七人集合。",
+          "C two 不能扩大为四个同胎。",
+          "D two of the four (twins!) 只说明四个子女中的两个是双胞胎，没有说全部四个由两对双胞胎组成。"
+        ],
+        "vocabulary": [
+          {
+            "word": "twins",
+            "meaning": "双胞胎",
+            "context": "括号说明四个子女中的两个是一对双胞胎；所指集合是她的孩子，不是孙辈。",
+            "example": "The twins chose different subjects at university.",
+            "collocations": [
+              "a pair of twins",
+              "have twins"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "qe-c04-0082",
+      "reason": "年龄和相识顺序只核当前十八岁及before，不借先前52/55岁经历；去候选ID说明。",
+      "updates": {
+        "analyses": [
+          "A 当前明示 at age eighteen，不是 fifty-two，且 before they met 与 after 相反。",
+          "B 本句年龄为十八岁，也没有把生育时点说成退休之后。",
+          "C at age eighteen before they met 接在 had had two of the four (twins!) 之后，保留年龄与相识之前的顺序。",
+          "D before they met 表示相识之前，不能反转成 after they met。"
+        ]
+      }
+    },
+    {
+      "id": "qe-c04-0083",
+      "reason": "价值解释题不借前一单元对利他标签的回应，只依当前说明。",
+      "updates": {
+        "analyses": [
+          "A 解释回顾曾有的稳定支持，没有未来交易条件。",
+          "B 当前她以曾得到的家庭稳定支持解释捐赠，没有明确自称极度利他，不能补成她主动宣称这一标签。",
+          "C 原文说孩子都 very successful，不是都失败。",
+          "D Linda explained 和结句 right thing to do 连在一起表达她的伦理理解；并非对其他人作同样医疗或道德要求。"
+        ]
+      }
+    },
+    {
+      "id": "qe-c04-0085",
+      "reason": "当前旅行片段以she开头，题干不补未显示Linda姓名，时间和地点配对不改。",
+      "updates": {
+        "prompt": "Which travel timeline matches her account?",
+        "promptZh": "哪条旅行时间线符合她的叙述？"
+      }
+    }
+  ]
+}
