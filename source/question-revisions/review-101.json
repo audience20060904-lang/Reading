@@ -1,0 +1,215 @@
+{
+  "schemaVersion": 1,
+  "id": "question-review-2026-10-28-101",
+  "pdfSha256": "be25c859f1bd894a4b0d1cff024ded1297f6a96a8e8ddabea1e3abcf89160a50",
+  "scope": "Review frozen20 questions /24 source candidates against actual PDF122-124 and three complete paragraphs. Nietzsche biographical chronology, retrospective thinking and potential-richness interpretation; Kahneman scholarly influence, citation count and dated childhood recollection. Complete attribution and late-return evidence; remove unshown names, other biographies, later dates and internal continuation notes. Original source, answer positions and historical results unchanged.",
+  "questions": [
+    {
+      "id": "qe-c11-0012",
+      "reason": "片段只显示he任教传记，题干不要求未显示Nietzsche姓名。",
+      "updates": {
+        "prompt": "Why did the scholar take leave from Basel in 1876?",
+        "promptZh": "这位学者在1876年为何从 Basel 请假？"
+      }
+    },
+    {
+      "id": "q-c11-007",
+      "reason": "完整Nietzsche credited与suggesting potential限定入证，旧ID来源不动。",
+      "updates": {
+        "evidence": [
+          {
+            "quote": "Nietzsche credited his illness as a source of perspective change and wisdom, suggesting that adversity has the potential to generate psychological richness.",
+            "sentenceIds": [
+              "c11-s01-p122-06608-s015"
+            ],
+            "sources": [
+              {
+                "pdfPage": 123,
+                "block": 0,
+                "bbox": [
+                  76.99,
+                  75,
+                  535.01,
+                  401.52
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "qe-c11-0018",
+      "reason": "当前片段自足及范围校正。；当前片段自足及范围校正。",
+      "updates": {
+        "analyses": [
+          "A 当前获奖年明确是2002年，而不是1974年。",
+          "B 年份相同但领域错；原文为 economics。",
+          "C 2002 与 economics 都由原句直接给出。",
+          "D 当前原句是2002年获经济学奖，没有说2022年获奖。"
+        ]
+      }
+    },
+    {
+      "id": "qe-c11-0019",
+      "reason": "当前片段自足及范围校正。；当前片段自足及范围校正。",
+      "updates": {
+        "analyses": [
+          "A 合作者、两年代和 influential papers 均对应原句。",
+          "B 当前写与 Amos Tversky 在1970和1980年代发表论文，不是与Nietzsche在1869年合作。",
+          "C establishing himself 把声望与所述论文联系，不是完全否认论文作用。",
+          "D 当前讨论人类认知与经济理性，没有说两人只研究古典语言历史。"
+        ]
+      }
+    },
+    {
+      "id": "qe-c11-0020",
+      "reason": "当前片段自足及范围校正。",
+      "updates": {
+        "analyses": [
+          "A 后两项并非本句三种启发式名称。",
+          "B 原文三项名称中没有诺奖评选或疾病康复，可得性之外的两项不对应。",
+          "C 三项完整对应；anchoring and adjustment 为第三项的组合名称。",
+          "D 原文 three，不能把第三组合名拆成两种再计为四种。"
+        ]
+      }
+    },
+    {
+      "id": "q-c11-010",
+      "reason": "共享译文去引语续后段的内部说明，用间接叙述保回忆与约略时间，不伪造完整引语。；完整Kahneman句与personalstory支撑由荣誉转个人故事，旧ID来源不动。；当前片段自足及范围校正。；当前片段自足及范围校正。",
+      "updates": {
+        "translation": "但2024年九十岁去世的 Kahneman 不只是诺奖得主。他有非凡个人故事，七岁时逃离纳粹占领的Paris。在诺奖传记中，他回忆起一件惊险的事，说那应该是1941年底或1942年初。",
+        "evidence": [
+          {
+            "quote": "But Kahneman, who died at age ninety in 2024, was not just a Nobel laureate. He had an extraordinary personal story.",
+            "sentenceIds": [
+              "c11-s02-p123-06720-s001",
+              "c11-s02-p123-06720-s002"
+            ],
+            "sources": [
+              {
+                "pdfPage": 123,
+                "block": 3,
+                "bbox": [
+                  76.99,
+                  672,
+                  535.01,
+                  706.02
+                ]
+              }
+            ]
+          }
+        ],
+        "analyses": [
+          "A not just 是补充维度，不是否定。",
+          "B 逃离纳粹占领及scary表明危险。",
+          "C 当前只引出个人往事，并给出回忆事件的大致时间，没有完整展开事件经过。",
+          "D not just a Nobel laureate 后接 extraordinary personal story，明确从学术荣誉转向个人经历。"
+        ]
+      }
+    },
+    {
+      "id": "qe-c11-0021",
+      "reason": "共享译文去引语续后段的内部说明，用间接叙述保回忆与约略时间，不伪造完整引语。；年龄干扰项不要求未显示另一人物的任命背景。；当前片段自足及范围校正。",
+      "updates": {
+        "translation": "但2024年九十岁去世的 Kahneman 不只是诺奖得主。他有非凡个人故事，七岁时逃离纳粹占领的Paris。在诺奖传记中，他回忆起一件惊险的事，说那应该是1941年底或1942年初。",
+        "options": [
+          "Ninety, the age mentioned in the preceding sentence.",
+          "Seven.",
+          "Twenty-four.",
+          "The passage gives no age for this escape."
+        ],
+        "optionsZh": [
+          "九十岁，即前句所说年龄。",
+          "七岁。",
+          "二十四岁。",
+          "原文未给这次逃离时的年龄。"
+        ],
+        "analyses": [
+          "A 九十是去世年龄，不能挪为童年逃离年龄。",
+          "B when he was seven 明确标出。",
+          "C 逃离年龄原句明确为seven，而不是twenty-four。",
+          "D 原句直接给 seven；这里只依据书中历史叙述，不扩写未提供的逃离细节。"
+        ]
+      }
+    },
+    {
+      "id": "qe-c11-0022",
+      "reason": "共享译文去引语续后段的内部说明，用间接叙述保回忆与约略时间，不伪造完整引语。；当前片段自足及范围校正。",
+      "updates": {
+        "translation": "但2024年九十岁去世的 Kahneman 不只是诺奖得主。他有非凡个人故事，七岁时逃离纳粹占领的Paris。在诺奖传记中，他回忆起一件惊险的事，说那应该是1941年底或1942年初。",
+        "analyses": [
+          "A late...or early... 未提供确切日时。",
+          "B 两候选时段均不是战后。",
+          "C 原文给出late1941或early1942的约略范围，并没有把事件确定为1944年中。",
+          "D must have been 在回忆中表示对过去的推断，or 保留时间范围；不是要求事件在某时发生的命令。"
+        ]
+      }
+    },
+    {
+      "id": "q-c11-011",
+      "reason": "完整与朋友玩且逗留太晚的句子入证，保旧ID来源；解析不借后星标位置。；当前片段自足及范围校正。",
+      "updates": {
+        "evidence": [
+          {
+            "quote": "Jews were required to wear the Star of David and to obey a 6 p.m. curfew.",
+            "sentenceIds": [
+              "c11-s02-p123-06720-s005",
+              "c11-s02-p123-06720-s006"
+            ],
+            "sources": [
+              {
+                "pdfPage": 124,
+                "block": 0,
+                "bbox": [
+                  76.99,
+                  75,
+                  535.01,
+                  382.02
+                ]
+              }
+            ]
+          },
+          {
+            "quote": "I had gone to play with a Christian friend and had stayed too late.",
+            "sentenceIds": [
+              "c11-s02-p123-06720-s007"
+            ],
+            "sources": [
+              {
+                "pdfPage": 124,
+                "block": 0,
+                "bbox": [
+                  76.99,
+                  75,
+                  535.01,
+                  382.02
+                ]
+              }
+            ]
+          }
+        ],
+        "analyses": [
+          "A stayed too late 不支持按时获准。",
+          "B 两项强制规则加逗留过晚构成背景。",
+          "C 无遗忘城市。",
+          "D 文中只说逗留太晚，未要求整夜留在朋友家。inside out 是把衣物里外翻转，此处没有明确说明翻面的动机。"
+        ]
+      }
+    },
+    {
+      "id": "qe-c11-0023",
+      "reason": "当前第一人称片段不显示姓名，题干称叙述者；B不借后士兵制服身份。；当前片段自足及范围校正。",
+      "updates": {
+        "prompt": "What did the narrator do to his sweater before walking home?",
+        "promptZh": "叙述者走回家前对毛衣做了什么？",
+        "analyses": [
+          "A turned...inside out 与 brown sweater 直接对应动作及对象。",
+          "B 原句是把棕色毛衣里外翻转，没有说买一套黑制服来替换。",
+          "C 原句在回家路前翻面，不是之前留家。",
+          "D inside out 是已翻面的动作，与保持原样相反。"
+        ]
+      }
+    }
+  ]
+}
