@@ -1,0 +1,105 @@
+{
+  "schemaVersion": 1,
+  "id": "question-review-2026-10-28-080",
+  "status": "published-and-verified",
+  "verifiedAt": "2026-10-29T13:49:21.928Z",
+  "url": "https://audience20060904-lang.github.io/Reading/",
+  "sourceCommit": "ae4e0edf17054d1f81e124a4ac85e0c345b1efee",
+  "deploymentCommit": "809379bdbd2d7d5cf19c89328a495f2e8527a302",
+  "offlineVersion": "0bc052ac53ef950f",
+  "previousBatch": "source/releases/question-review-079.json",
+  "questionFingerprints": {
+    "q-c09-036": "9c112bef778da8cb4d5905ff3ee116a9edc6c6be35a04d81c339f25e2c753598",
+    "q-c09-037": "cd958f69670deeb67fbddf8005d3f88c6f2a9f181eb8da160c989ae170122d9e",
+    "qe-c09-0078": "3282c792725ff6ba3e57d8a7889c34cdb440d0a356407da5c8ff33d59c519b5d",
+    "q-c09-039": "a95f65c59d9c432a7c568b13296de16f1957b3091bb7c8159fde86ec13aaf54a",
+    "qe-c09-0080": "a2fd838f23d545c28df916160bc1341307056c723aeed7f0c1f0d242d0e64559",
+    "qe-c09-0081": "898b116b1529a38a11a4fae7381916ef817a5225da32d070897df9201b1bc0da",
+    "qe-c09-0083": "65d4ee7c62f9bb7c04dd7a20385ff2efbbea0c7050aa4d7e1bb377e85350d119",
+    "q-c09-042": "fd0ba9f805faf104912e0a33b4ae94ffab20195e88492a23024262f0fd2cdfb7",
+    "qe-c09-0085": "ec7044874e74566cd70b6e1a83ff3348d156c20f1c4be83f41e254d66c37cdc5",
+    "qe-c09-0086": "79c407da36f56405760513766fb23cac39e18f9a6c657eccaf6585937a8ea47f",
+    "qe-c09-0087": "c3b87f15eecea8251a988488dfde871aef3153d99d41f44cec1934ae2d7312c1"
+  },
+  "content": {
+    "totalQuestions": 2709,
+    "manuallyReviewedQuestions": 25,
+    "reviewedSourceCandidates": 25,
+    "revisedQuestions": 11,
+    "totalRevisedQuestions": 783,
+    "changedAnswerPositions": 0,
+    "remainingQuestionReviews": 1156,
+    "fullQuestionBankHumanReview": false
+  },
+  "validation": {
+    "unitTestsPassed": 631,
+    "build": "npm run build:pages passed",
+    "pdf": {
+      "sha256": "be25c859f1bd894a4b0d1cff024ded1297f6a96a8e8ddabea1e3abcf89160a50",
+      "pagesVisuallyReviewed": [
+        94,
+        95
+      ],
+      "sourceBlocksTextMatched": 5
+    },
+    "localBrowser": [
+      "全部缓存资产及Service Worker与本次生产构建逐字节匹配",
+      "提交前无证据标记；提交后精确标出依据且原文不变、淡蓝色查词仍可用",
+      "相近题型合并为一行并按提交次数计算50%正确率，原始标签和历史记录不变",
+      "逐题提交11道校对题，交替验证正误、四项译文与分析、整段译文及完整快照；提交前不显示中文解析",
+      "真实浏览器恢复旧选项、旧译文、旧错题成绩与用时；重练采用新版，新增记录且不改历史",
+      "390px和320px深色视口，选项、解析和整段译文均无横向溢出",
+      "旧未提交选择遇到改版时清空，新版位置保留；已提交解析正常刷新恢复",
+      "启动资源全部入离线清单，实际Service Worker缓存逐字节匹配；禁用HTTP缓存后继续离线验证",
+      "离线模拟恢复新旧两版成绩；本地另实际停止HTTP服务后缓存恢复新版题目与译文"
+    ],
+    "liveBrowser": [
+      "全部缓存资产及Service Worker与本次生产构建逐字节匹配",
+      "提交前无证据标记；提交后精确标出依据且原文不变、淡蓝色查词仍可用",
+      "相近题型合并为一行并按提交次数计算50%正确率，原始标签和历史记录不变",
+      "逐题提交11道校对题，交替验证正误、四项译文与分析、整段译文及完整快照；提交前不显示中文解析",
+      "真实浏览器恢复旧选项、旧译文、旧错题成绩与用时；重练采用新版，新增记录且不改历史",
+      "390px和320px深色视口，选项、解析和整段译文均无横向溢出",
+      "旧未提交选择遇到改版时清空，新版位置保留；已提交解析正常刷新恢复",
+      "启动资源全部入离线清单，实际Service Worker缓存逐字节匹配；禁用HTTP缓存后继续离线验证",
+      "离线模拟恢复新旧两版成绩；本地另实际停止HTTP服务后缓存恢复新版题目与译文"
+    ],
+    "liveRevisedQuestionsVisited": 11,
+    "assets": "All 13 manifest assets and the service worker byte-match the tested build.",
+    "history": "All 79 previous editorial batch fingerprints preserved. Source text, original question banks, reading plan, completed prior audit and submitted snapshots unchanged.",
+    "integrity": {
+      "passed": true,
+      "protectedBase": "48552be4956ee61a3f1b1a59a4ed1c4c67f67e03",
+      "protectedPaths": 73,
+      "publishedReceiptsVerified": 80,
+      "chapter1QuestionReviews": 137,
+      "totalReviewedQuestionIds": 1553,
+      "remainingQuestionReviews": 1156,
+      "fullQuestionBankHumanReview": false
+    }
+  },
+  "report": "source/question-revisions/review-080-report.json",
+  "continuation": "source/question-semantic-audit.json",
+  "limits": [
+    "Isolated synthetic data only; Prewritten versioned editorial corrections checked against their current records. Mobile is a viewport, not a physical phone.",
+    "Live offline checks use browser simulation; actual HTTP-server shutdown performed locally.",
+    "The remaining 1156 questions await expanded per-question review; this is not a count of known errors or missing questions."
+  ],
+  "lookupRevisionFingerprints": [
+    {
+      "revisionId": "question-review-2026-10-28-014",
+      "occurrenceId": "c01-s02-p010-05625@390:398",
+      "sha256": "3f1c35d38c91722bcc39c64b5b0a8840e39e25f13b54a64c3b17e3e3b65c9119"
+    },
+    {
+      "revisionId": "question-review-2026-10-28-017",
+      "occurrenceId": "c01-s04-p013-05662@523:538",
+      "sha256": "e668951b5f0d67dc54eead608d4705f185d33b045e245438d51e00add8ec2342"
+    },
+    {
+      "revisionId": "question-review-2026-10-28-017",
+      "occurrenceId": "c01-s04-p013-05662@694:709",
+      "sha256": "779785898d0be134c0bfc0aed22cd7705803b476a9c3a4a0c2205b5d92278e1d"
+    }
+  ]
+}
