@@ -1,0 +1,344 @@
+{
+  "schemaVersion": 1,
+  "id": "question-review-2026-10-28-085",
+  "pdfSha256": "be25c859f1bd894a4b0d1cff024ded1297f6a96a8e8ddabea1e3abcf89160a50",
+  "scope": "Resume frozen 23 questions /25 source candidates on actual PDF102–104. Aesthetic experience, Ebert quotations and reflective comparison, chapter-opening examples and imagined challenges, and the great tit introduction. Preserve conditions and quantities, complete film and rhetorical-role evidence, remove unshown context and website or prior-batch notes, and retain correct source text, answers and submitted history.",
+  "questions": [
+    {
+      "id": "q-c09-081",
+      "reason": "单句未显示Proust身份和具体限制，题干只问当前Even so的让步关系，解析不前借常病少远行。",
+      "updates": {
+        "prompt": "What contrast does “Even so” express in this sentence?",
+        "promptZh": "本句中，Even so 表达什么对比？",
+        "analyses": [
+          "A experienced multiple worlds 与阻止相反。",
+          "B 没有健康改善或广泛实体旅行的证据。",
+          "C Even so 承认前述某种限制，而 thanks to art 仍使他体验跨时空的多个世界；当前句没有具体说明那项限制。",
+          "D 这是加强艺术可提供体验，不是撤回。across time and geography 指艺术带来的体验，不能改成真实穿越时间。"
+        ]
+      }
+    },
+    {
+      "id": "q-c09-082",
+      "reason": "保留原定位身份，补完整Ebert引述的留心条件与好电影限定，不只引欲望恐惧短语。",
+      "updates": {
+        "evidence": [
+          {
+            "quote": "Ebert explained that “if you pay attention to the movies they will tell you what people desire and fear in their deepest secrets. At least, the good ones will.",
+            "sentenceIds": [
+              "c09-s06-p102-03675-s003",
+              "c09-s06-p102-03675-s004"
+            ],
+            "sources": [
+              {
+                "pdfPage": 102,
+                "block": 2,
+                "bbox": [
+                  76.99,
+                  367.5,
+                  535.01,
+                  577.02
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-c09-083",
+      "reason": "共享译文保留the more触动越多的范围，不仅写成触动深度；原引语与作者论述分开。",
+      "updates": {
+        "translation": "“所以我们去看，盼望那些隐秘之处被触动。”那些隐秘之处受到的触动越多，你的内心生活就越具有心理丰富性。Ebert 生于 Urbana，毕业于 University of Illinois at Urbana-Champaign，成年生活在 Chicago；他或许没有过实体地理探索的人生，却确实过着审美与思想探索的人生。"
+      }
+    },
+    {
+      "id": "qe-c09-0148",
+      "reason": "共享译文保留the more触动越多的范围，不仅写成触动深度；原引语与作者论述分开。",
+      "updates": {
+        "translation": "“所以我们去看，盼望那些隐秘之处被触动。”那些隐秘之处受到的触动越多，你的内心生活就越具有心理丰富性。Ebert 生于 Urbana，毕业于 University of Illinois at Urbana-Champaign，成年生活在 Chicago；他或许没有过实体地理探索的人生，却确实过着审美与思想探索的人生。"
+      }
+    },
+    {
+      "id": "qe-c09-0149",
+      "reason": "共享译文保留the more触动越多的范围，不仅写成触动深度；原引语与作者论述分开。",
+      "updates": {
+        "translation": "“所以我们去看，盼望那些隐秘之处被触动。”那些隐秘之处受到的触动越多，你的内心生活就越具有心理丰富性。Ebert 生于 Urbana，毕业于 University of Illinois at Urbana-Champaign，成年生活在 Chicago；他或许没有过实体地理探索的人生，却确实过着审美与思想探索的人生。"
+      }
+    },
+    {
+      "id": "qe-c09-0150",
+      "reason": "中文分析去混入的expands，准确解释后句不同体验与sometimes视角变化。",
+      "updates": {
+        "analyses": [
+          "A 复杂叙事也可带入，不是实际运输。",
+          "B transformed 指体验层面，不是修改片长。",
+          "C 后句明列 different thoughts and emotions。",
+          "D 后句说明这种超出日常的体验会带来不同思想与情绪，并且有时带来新视角；保留 sometimes，不保证每次都改变。"
+        ]
+      }
+    },
+    {
+      "id": "qe-c09-0151",
+      "reason": "时长排除只解释In short总结功能，去原文残句和实验命题记账。",
+      "updates": {
+        "analyses": [
+          "A In short 是总结标记，名词短语收束前述沉浸、不同思想及可能新视角。",
+          "B 无新方法、样本或结果。",
+          "C 前文 that is different 与此相反。",
+          "D In short 在此表示简言之、概括而言，不是在描述运动时长。"
+        ]
+      }
+    },
+    {
+      "id": "q-c10-001",
+      "reason": "三种例子共同作用的正确项包含电影情绪，补完整电影句，原比赛和公园引用不变。",
+      "updates": {
+        "evidence": [
+          {
+            "quote": "A WWE match could be an interesting weekend outing.",
+            "sentenceIds": [
+              "c10-s01-p103-03848-s001"
+            ],
+            "sources": [
+              {
+                "pdfPage": 103,
+                "block": 5,
+                "bbox": [
+                  76.99,
+                  384.75,
+                  535.01,
+                  516.27
+                ]
+              }
+            ]
+          },
+          {
+            "quote": "A visit to a national park might evoke awe and wonder",
+            "sentenceIds": [
+              "c10-s01-p103-03848-s002"
+            ],
+            "sources": [
+              {
+                "pdfPage": 103,
+                "block": 5,
+                "bbox": [
+                  76.99,
+                  384.75,
+                  535.01,
+                  516.27
+                ]
+              }
+            ]
+          },
+          {
+            "quote": "Schindler’s List will make you cry and cry.",
+            "sentenceIds": [
+              "c10-s01-p103-03848-s003"
+            ],
+            "sources": [
+              {
+                "pdfPage": 103,
+                "block": 5,
+                "bbox": [
+                  76.99,
+                  384.75,
+                  535.01,
+                  516.27
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "qe-c10-0001",
+      "reason": "作者修辞预测与真实观影记录区分，解析和词境去网站记账。",
+      "updates": {
+        "analyses": [
+          "A cry and cry 不等于欢快，体验情绪可以不同。",
+          "B WWE 的 interesting、公园 awe 后以电影强烈情绪扩展示例。",
+          "C will make you 是作者面向读者的表达，不是在报告某位读者已经看过并落泪的实录。",
+          "D 没研究设计，不能将修辞预测升级成所有人的实测保证。"
+        ],
+        "vocabulary": [
+          {
+            "word": "cry and cry",
+            "meaning": "不停地哭；反复落泪",
+            "context": "重复 cry 强调落泪的持续和情绪强度；这是作者的表达，不是对每位观众反应的实际测量。",
+            "example": "The ending made the fictional viewer cry and cry.",
+            "collocations": [
+              "will make you cry and cry",
+              "awe and wonder"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "qe-c10-0002",
+      "reason": "So what的论证作用需可定位消遣与真正益处问句；去未配句待办说明，旧首引不动。",
+      "updates": {
+        "evidence": [
+          {
+            "quote": "“So what?”",
+            "sentenceIds": [
+              "c10-s01-p103-03848-s004"
+            ],
+            "sources": [
+              {
+                "pdfPage": 103,
+                "block": 5,
+                "bbox": [
+                  76.99,
+                  384.75,
+                  535.01,
+                  516.27
+                ]
+              }
+            ]
+          },
+          {
+            "quote": "Aren’t these activities all what the philosopher Blaise Pascal would have called “diversions”?",
+            "sentenceIds": [
+              "c10-s01-p103-03848-s006"
+            ],
+            "sources": [
+              {
+                "pdfPage": 103,
+                "block": 5,
+                "bbox": [
+                  76.99,
+                  384.75,
+                  535.01,
+                  516.27
+                ]
+              }
+            ]
+          },
+          {
+            "quote": "Other than filling people’s time to avoid boredom, do these activities have any genuine benefits?",
+            "sentenceIds": [
+              "c10-s01-p103-03848-s007"
+            ],
+            "sources": [
+              {
+                "pdfPage": 103,
+                "block": 5,
+                "bbox": [
+                  76.99,
+                  384.75,
+                  535.01,
+                  516.27
+                ]
+              }
+            ]
+          }
+        ],
+        "analyses": [
+          "A So what 是追问重要性，不是无条件接受所有益处。",
+          "B 后面连续问 benefits 与 point of exploration，显然开启议题。",
+          "C 后句将挑战展开为除避免无聊之外是否有真正益处。",
+          "D 这里设置一个有待回答的质疑，不能把问句当作作者已经否定探索价值的最终结论。"
+        ]
+      }
+    },
+    {
+      "id": "qe-c10-0003",
+      "reason": "可能读者反应与实录的对照保持，去网站数据、前批题目和用户完成记录说明。",
+      "updates": {
+        "options": [
+          "An actual reader's question has been recorded in the text.",
+          "The author imagines a possible reader response rather than reporting an actual submission.",
+          "Every reader has certainly asked the identical question already.",
+          "The quoted question was asked by Pascal in a documented interview."
+        ],
+        "optionsZh": [
+          "文中记下了某位读者真实提出的问题。",
+          "作者设想读者可能的反应，而非报告真实提交。",
+          "每位读者肯定已经问过相同问题。",
+          "该问题来自已记录的 Pascal 采访。"
+        ],
+        "analyses": [
+          "A might ask 设想读者可能提出疑问，不是记录某位读者已经提出的真实问题。",
+          "B might 保留可能，despite reading last chapter 为作者设定的行文情境。",
+          "C 不能把 might 升级成 everyone already。",
+          "D 当前 you 指作者设想的读者，并非 Pascal 在一次真实采访中提问。"
+        ],
+        "vocabulary": [
+          {
+            "word": "despite",
+            "meaning": "尽管；即使有……情况",
+            "context": "指读过前章仍可能追问，保留让步关系，不把可能反应说成每位读者都已发问。",
+            "example": "Despite reading the explanation, the fictional reader might still have a question.",
+            "collocations": [
+              "despite reading the last chapter",
+              "you might ask"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "qe-c10-0005",
+      "reason": "重述问题的排除项改为活动完成速度，去无关网站判题，修正词境重复字。",
+      "updates": {
+        "options": [
+          "Whether these activities have real benefits beyond filling time and avoiding boredom.",
+          "Which physical compass direction every traveller should choose.",
+          "How quickly these activities should be completed.",
+          "Whether the last chapter has been deleted from the book."
+        ],
+        "optionsZh": [
+          "这些活动除填时间、避免无聊之外是否有真正益处。",
+          "每位旅者应选哪个指南针方向。",
+          "这些活动应当多快完成。",
+          "上一章是否已从书中删除。"
+        ],
+        "analyses": [
+          "A 紧前 genuine benefits 的问题被概括成 point of exploration，非另开地理方向题。",
+          "B point 指意义目的，不是方位点。",
+          "C 问题关心真正益处和探索的意义，没有询问活动应当多快完成。",
+          "D reading last chapter 不是删除它；重述问句不等于已经给出否定答案。"
+        ],
+        "vocabulary": [
+          {
+            "word": "the point of",
+            "meaning": "……的意义；……的目的或价值",
+            "context": "此处问探索为何值得，指意义、目的或价值，不是标点或空间坐标。",
+            "example": "The essay asks what the point of collecting new experiences is.",
+            "collocations": [
+              "the point of exploration",
+              "In other words"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "qe-c10-0006",
+      "reason": "自然可能给答案仅据当前觅食研究引入，不要求未显示价值问句和后续策略结果。；may不等探索永胜利用，当前尚未呈现具体试验结果。",
+      "updates": {
+        "analyses": [
+          "A may 不是确定，后文动物研究不证明所有人完全同。",
+          "B may have an answer 是引入而非否认。",
+          "C 后面接大山雀的介绍与觅食试验，表明作者可能从这种自然例子中寻找启示。",
+          "D may 引出一种可能的答案，当前尚不能据此断言探索永远优于利用。"
+        ]
+      }
+    },
+    {
+      "id": "qe-c10-0008",
+      "reason": "地区排除只据当前四地，不前借尚未显示学生调查地点。",
+      "updates": {
+        "analyses": [
+          "A 漏掉并列三地，添加 only。",
+          "B 原文未列这些地区。",
+          "C 四个地点逐项一致，仅重述书中介绍，不声称做了最新分布调查。",
+          "D 当前列的是欧洲、北非、中东和中亚，并非仅一个美国校园；common 也不表示世界所有角落都有。"
+        ]
+      }
+    }
+  ]
+}
