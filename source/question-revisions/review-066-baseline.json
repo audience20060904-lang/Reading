@@ -1,0 +1,924 @@
+{
+  "pdfSha256": "be25c859f1bd894a4b0d1cff024ded1297f6a96a8e8ddabea1e3abcf89160a50",
+  "sourceCommit": "ab55f7400f2cfb0a4b992f8065b87406183de891",
+  "frozenTargetsSourceCommit": "666ca4070dad037454e69635e110797d57ef0f56",
+  "questions": [
+    {
+      "id": "q-c07-061",
+      "version": 1,
+      "readingUnitId": "c07-s06-p076-05355-r005-008",
+      "chapterId": "c07",
+      "sectionId": "c07-s06",
+      "paragraphId": "c07-s06-p076-05355",
+      "sentenceIds": [
+        "c07-s06-p076-05355-s005",
+        "c07-s06-p076-05355-s006",
+        "c07-s06-p076-05355-s007",
+        "c07-s06-p076-05355-s008"
+      ],
+      "passage": "With this level of focus, it’s easy for a lot of time to pass without fun or laughter. That might be one of the reasons why so many of the world’s best athletes, such as Michael Phelps, Simone Biles, and Naomi Osaka, have suffered from burnout. They have talent, determination, and a ton of grit. Nevertheless, at some point the sports they loved became their jobs and livelihoods, sucking the fun out of the whole thing.",
+      "prompt": "How is the proposed link between intense focus and burnout qualified?",
+      "options": [
+        "It is presented as possibly one reason, rather than the sole proven explanation.",
+        "It is established as the only cause of every athlete’s difficulties.",
+        "It means talent and determination prevent every loss of enjoyment.",
+        "It shows that sport can never become a livelihood."
+      ],
+      "answer": 0,
+      "type": "逻辑关系",
+      "promptZh": "高度专注与倦怠的联系，在本段怎样被限定？",
+      "optionsZh": [
+        "它被提出为一种可能原因，而非唯一且已证明的解释。",
+        "它被确立为每位选手困难的唯一原因。",
+        "它表示天赋和决心避免每一种乐趣流失。",
+        "它说明运动永不可能成为生计。"
+      ],
+      "analyses": [
+        "A might be one of the reasons 同时限定可能性和非唯一性。",
+        "B one of 不能改成唯一，might 不能改成确定证明。",
+        "C Nevertheless 后说明有天赋、坚毅，仍可能失去乐趣。",
+        "D 原文明说 became their jobs and livelihoods。人物例子不能作为网站新增临床诊断。"
+      ],
+      "evidence": [
+        {
+          "quote": "That might be one of the reasons",
+          "sentenceIds": [
+            "c07-s06-p076-05355-s006"
+          ],
+          "sources": [
+            {
+              "pdfPage": 76,
+              "block": 3,
+              "bbox": [
+                76.99,
+                535.5,
+                535.01,
+                706.02
+              ]
+            }
+          ]
+        },
+        {
+          "quote": "the sports they loved became their jobs and livelihoods, sucking the fun out of the whole thing.",
+          "sentenceIds": [
+            "c07-s06-p076-05355-s008"
+          ],
+          "sources": [
+            {
+              "pdfPage": 76,
+              "block": 3,
+              "bbox": [
+                76.99,
+                535.5,
+                535.01,
+                706.02
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "livelihoods",
+          "meaning": "生计；谋生方式",
+          "context": "与 jobs 并列，指运动变成谋生工作后的负担情境，不单指爱好",
+          "example": "Many families depend on fishing for their livelihoods.",
+          "collocations": [
+            "jobs and livelihoods",
+            "earn a livelihood"
+          ]
+        }
+      ],
+      "translation": "如此专注，很容易让大量时间过去，却没有趣味或笑声。这可能是 Michael Phelps、Simone Biles、Naomi Osaka 等世界顶尖选手发生倦怠的原因之一。他们有天赋、决心和大量坚毅。尽管如此，某一刻，他们热爱的运动变成了工作与生计，使整件事失去趣味。",
+      "support": "explicit",
+      "editorialStatus": "PDF 第 73–77 页逐题原页核对；固定原句和来源；区分随机干预的实测、自报、未测推测、团队调查、私人叙事、假设情境和电影引例",
+      "fingerprint": "6b0e6b02d9e1a5ef104c3a724037748a638f8af42e495e7ed47121c49ee64c2f"
+    },
+    {
+      "id": "qe-c07-0104",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-027",
+      "parentQuestionId": "q-c07-061",
+      "chapterId": "c07",
+      "sectionId": "c07-s06",
+      "paragraphId": "c07-s06-p076-05355",
+      "readingUnitId": "c07-s06-p076-05355-r005-008",
+      "sentenceIds": [
+        "c07-s06-p076-05355-s005",
+        "c07-s06-p076-05355-s006",
+        "c07-s06-p076-05355-s007",
+        "c07-s06-p076-05355-s008"
+      ],
+      "passage": "With this level of focus, it’s easy for a lot of time to pass without fun or laughter. That might be one of the reasons why so many of the world’s best athletes, such as Michael Phelps, Simone Biles, and Naomi Osaka, have suffered from burnout. They have talent, determination, and a ton of grit. Nevertheless, at some point the sports they loved became their jobs and livelihoods, sucking the fun out of the whole thing.",
+      "prompt": "What possible cost of intense focus is identified?",
+      "promptZh": "高度专注被指出有什么可能代价？",
+      "options": [
+        "It guarantees all goals fail immediately.",
+        "It proves every professional never enjoys anything.",
+        "Much time can pass with little fun or laughter.",
+        "It means focus has no value for skill acquisition."
+      ],
+      "optionsZh": [
+        "保证所有目标立即失败。",
+        "证明每位专业人士从不享受任何事。",
+        "许多时间可能在缺少趣味笑声中过去。",
+        "意味着专注对技能获得没有价值。"
+      ],
+      "answer": 2,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A 没保证失败。",
+        "B easy for a lot of time...不是every professional永远如此。",
+        "C 当前句明确时间流逝与缺趣味笑声的风险。",
+        "D 代价可能存在不等于否定技能价值；接下来might one reason仍非单因确定诊断。"
+      ],
+      "vocabulary": [
+        {
+          "word": "without fun or laughter",
+          "meaning": "缺少趣味或笑声",
+          "context": "当前指出的一种生活体验风险，不是测得所有人的永久状态。",
+          "example": "Several busy weeks passed without much fun or laughter.",
+          "collocations": [
+            "time pass without fun",
+            "with this level of focus"
+          ]
+        }
+      ],
+      "translation": "如此专注，很容易让大量时间过去，却没有趣味或笑声。这可能是 Michael Phelps、Simone Biles、Naomi Osaka 等世界顶尖选手发生倦怠的原因之一。他们有天赋、决心和大量坚毅。尽管如此，某一刻，他们热爱的运动变成了工作与生计，使整件事失去趣味。",
+      "evidenceTargetIds": [
+        "c07-s06-p076-05355-s005"
+      ],
+      "evidence": [
+        {
+          "quote": "With this level of focus, it’s easy for a lot of time to pass without fun or laughter. That might be one of the reasons why so many of the world’s best athletes, such as Michael Phelps, Simone Biles, and Naomi Osaka, have suffered from burnout. They have talent, determination, and a ton of grit. Nevertheless, at some point the sports they loved became their jobs and livelihoods, sucking the fun out of the whole thing.",
+          "sentenceIds": [
+            "c07-s06-p076-05355-s005",
+            "c07-s06-p076-05355-s006",
+            "c07-s06-p076-05355-s007",
+            "c07-s06-p076-05355-s008"
+          ],
+          "sources": [
+            {
+              "pdfPage": 76,
+              "block": 3,
+              "bbox": [
+                76.99,
+                535.5,
+                535.01,
+                706.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "94898986c4478bc7a806f6ff2bd72d7080a92c99304b0b7c6ff6b1096f166ce5"
+    },
+    {
+      "id": "qe-c07-0105",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-027",
+      "parentQuestionId": "q-c07-061",
+      "chapterId": "c07",
+      "sectionId": "c07-s06",
+      "paragraphId": "c07-s06-p076-05355",
+      "readingUnitId": "c07-s06-p076-05355-r005-008",
+      "sentenceIds": [
+        "c07-s06-p076-05355-s005",
+        "c07-s06-p076-05355-s006",
+        "c07-s06-p076-05355-s007",
+        "c07-s06-p076-05355-s008"
+      ],
+      "passage": "With this level of focus, it’s easy for a lot of time to pass without fun or laughter. That might be one of the reasons why so many of the world’s best athletes, such as Michael Phelps, Simone Biles, and Naomi Osaka, have suffered from burnout. They have talent, determination, and a ton of grit. Nevertheless, at some point the sports they loved became their jobs and livelihoods, sucking the fun out of the whole thing.",
+      "prompt": "What does the statement about talent, determination, and grit contribute?",
+      "promptZh": "关于天赋、决心与坚毅的陈述补充什么？",
+      "options": [
+        "It proves that all three qualities prevent every difficulty.",
+        "It denies that the athletes ever had abilities.",
+        "It says that a lack of effort is their only problem.",
+        "It recognises strong qualities even while discussing their loss of enjoyment and burnout."
+      ],
+      "optionsZh": [
+        "证明这三品质阻止所有困难。",
+        "否认运动员曾有能力。",
+        "说不努力是他们唯一问题。",
+        "在讨论乐趣流失与倦怠时仍承认其强大品质。"
+      ],
+      "answer": 3,
+      "type": "逻辑关系",
+      "support": "explicit",
+      "analyses": [
+        "A 人物讨论正说明强项不保证无困难。",
+        "B have talent 是肯定，不是否认。",
+        "C determination与grit反对简单归因不努力。",
+        "D They 承接段中所举运动员，Nevertheless 后转向工作生计的体验；不据此为人物作新诊断。"
+      ],
+      "vocabulary": [
+        {
+          "word": "a ton of",
+          "meaning": "大量的；很强的（口语比喻）",
+          "context": "修饰grit程度，不是以吨称量人格或提供量表精确分数。",
+          "example": "The project required a ton of patience.",
+          "collocations": [
+            "a ton of grit",
+            "talent and determination"
+          ]
+        }
+      ],
+      "translation": "如此专注，很容易让大量时间过去，却没有趣味或笑声。这可能是 Michael Phelps、Simone Biles、Naomi Osaka 等世界顶尖选手发生倦怠的原因之一。他们有天赋、决心和大量坚毅。尽管如此，某一刻，他们热爱的运动变成了工作与生计，使整件事失去趣味。",
+      "evidenceTargetIds": [
+        "c07-s06-p076-05355-s007"
+      ],
+      "evidence": [
+        {
+          "quote": "With this level of focus, it’s easy for a lot of time to pass without fun or laughter. That might be one of the reasons why so many of the world’s best athletes, such as Michael Phelps, Simone Biles, and Naomi Osaka, have suffered from burnout. They have talent, determination, and a ton of grit. Nevertheless, at some point the sports they loved became their jobs and livelihoods, sucking the fun out of the whole thing.",
+          "sentenceIds": [
+            "c07-s06-p076-05355-s005",
+            "c07-s06-p076-05355-s006",
+            "c07-s06-p076-05355-s007",
+            "c07-s06-p076-05355-s008"
+          ],
+          "sources": [
+            {
+              "pdfPage": 76,
+              "block": 3,
+              "bbox": [
+                76.99,
+                535.5,
+                535.01,
+                706.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "86a78c2218a6bfa92b16819a9395263e3783f59feb75150dbd9242c0262ad268"
+    },
+    {
+      "id": "qe-c07-0106",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-027",
+      "parentQuestionId": "q-c07-062",
+      "chapterId": "c07",
+      "sectionId": "c07-s06",
+      "paragraphId": "c07-s06-p076-05355",
+      "readingUnitId": "c07-s06-p076-05355-r009-012",
+      "sentenceIds": [
+        "c07-s06-p076-05355-s009",
+        "c07-s06-p076-05355-s010",
+        "c07-s06-p076-05355-s011",
+        "c07-s06-p076-05355-s012"
+      ],
+      "passage": "There are, of course, other important factors that caused their mental health issues, such as his parents’ divorce, in the case of Phelps, or sexual abuse, in the case of Biles. To be sure, it is not just seriousness and dedication that brought about their burnout and depression. However, the bottom line is that elite athletes’ lives are tough. They must train hard.",
+      "prompt": "Why does the author acknowledge other important factors in the athletes' difficulties?",
+      "promptZh": "作者为何承认运动员困难中还有其他重要因素？",
+      "options": [
+        "To reduce every difficulty to dedication alone.",
+        "To claim all athletes share exactly the same biography.",
+        "To avoid presenting seriousness and dedication as the sole explanation.",
+        "To show that all previous achievements were invalid."
+      ],
+      "optionsZh": [
+        "把每种困难都归于投入一项。",
+        "声称所有运动员生平完全相同。",
+        "避免把严肃与投入当成唯一解释。",
+        "说明此前成就全无效。"
+      ],
+      "answer": 2,
+      "type": "作者意图",
+      "support": "explicit",
+      "analyses": [
+        "A other factors与not just正限制单因归属。",
+        "B 原句in the case of分别对应不同人物经历，不能一概相同。",
+        "C 举其他因素并下一句not just，承认复杂背景；这是本书所述，不作新的个体临床判断或轻率单因归责。",
+        "D 经历困难不否定成就资格，亦不等于每个运动员有同一原因。"
+      ],
+      "vocabulary": [
+        {
+          "word": "such as",
+          "meaning": "例如；诸如（非穷尽举例）",
+          "context": "引出书中给出的不同经历例子，不表示已列尽全部因素或所有人都一样。",
+          "example": "The archive includes material such as letters and notebooks.",
+          "collocations": [
+            "other factors such as",
+            "in the case of"
+          ]
+        }
+      ],
+      "translation": "当然，原书还列出引发他们心理健康问题的其他重要因素，例如 Phelps 的父母离异，或 Biles 经历的性虐待。必须明确，并非只有严肃与投入带来了他们的倦怠和抑郁。然而，核心是精英运动员的生活艰难。他们必须刻苦训练。",
+      "evidenceTargetIds": [
+        "c07-s06-p076-05355-s009"
+      ],
+      "evidence": [
+        {
+          "quote": "There are, of course, other important factors that caused their mental health issues, such as his parents’ divorce, in the case of Phelps, or sexual abuse, in the case of Biles. To be sure, it is not just seriousness and dedication that brought about their burnout and depression.",
+          "sentenceIds": [
+            "c07-s06-p076-05355-s009",
+            "c07-s06-p076-05355-s010"
+          ],
+          "sources": [
+            {
+              "pdfPage": 76,
+              "block": 3,
+              "bbox": [
+                76.99,
+                535.5,
+                535.01,
+                706.02
+              ]
+            },
+            {
+              "pdfPage": 77,
+              "block": 0,
+              "bbox": [
+                76.99,
+                75,
+                535.01,
+                226.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "3f437ab8fdd6d380ce78d9bd5897db6fb64f753ae7505f26903dea8b9979b34e"
+    },
+    {
+      "id": "q-c07-064",
+      "version": 1,
+      "readingUnitId": "c07-s06-p077-02310-r001-004",
+      "chapterId": "c07",
+      "sectionId": "c07-s06",
+      "paragraphId": "c07-s06-p077-02310",
+      "sentenceIds": [
+        "c07-s06-p077-02310-s001",
+        "c07-s06-p077-02310-s002",
+        "c07-s06-p077-02310-s003",
+        "c07-s06-p077-02310-s004"
+      ],
+      "passage": "To be clear, specialization and professionalism are great for skill acquisition and improvement. But remember the fate of Jack (played by Jack Nicholson) in Stanley Kubrick’s movie The Shining: all work and no play not only make Jack a dull boy, but also make him go nuts at the end. When winning becomes everything, life gets too heavy. A playful mindset can help people who are psychologically stuck move past their low points and enjoy the journey, not just the outcome.",
+      "prompt": "Which balance does the author advocate in this passage?",
+      "options": [
+        "Reject skill development because professionalism has no value.",
+        "Value specialisation while using playfulness to enjoy the journey beyond winning alone.",
+        "Treat the fictional film as experimental proof about every professional.",
+        "Measure a life only by whether it wins every competition."
+      ],
+      "answer": 1,
+      "type": "主旨",
+      "promptZh": "本段作者主张什么平衡？",
+      "optionsZh": [
+        "专业化没有价值，因此拒绝技能发展。",
+        "肯定专攻的价值，同时用玩心享受过程，不只盯获胜。",
+        "把虚构电影当作关于所有专业人士的实验证明。",
+        "只用能否赢每次比赛衡量人生。"
+      ],
+      "analyses": [
+        "A 首句明确肯定技能习得与提高。",
+        "B 肯定 specialization 后转向 all winning 的沉重，再用 journey, not just outcome 提出平衡。",
+        "C Jack 是 The Shining 的电影角色，不能当临床或因果实验结论。",
+        "D winning becomes everything 正是作者所质疑的状态。can help 不等于对所有心理困难的治疗保证。"
+      ],
+      "evidence": [
+        {
+          "quote": "specialization and professionalism are great for skill acquisition and improvement.",
+          "sentenceIds": [
+            "c07-s06-p077-02310-s001"
+          ],
+          "sources": [
+            {
+              "pdfPage": 77,
+              "block": 1,
+              "bbox": [
+                76.99,
+                231,
+                535.01,
+                499.02
+              ]
+            }
+          ]
+        },
+        {
+          "quote": "enjoy the journey, not just the outcome.",
+          "sentenceIds": [
+            "c07-s06-p077-02310-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 77,
+              "block": 1,
+              "bbox": [
+                76.99,
+                231,
+                535.01,
+                499.02
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "skill acquisition",
+          "meaning": "技能习得；获得技能的过程",
+          "context": "作者明确承认专业化的益处，不能因后面的玩心论述而删去",
+          "example": "Consistent practice supports skill acquisition over time.",
+          "collocations": [
+            "skill acquisition and improvement",
+            "support skill acquisition"
+          ]
+        }
+      ],
+      "translation": "说清楚，专攻与专业化很有利于技能习得和提高。但想想 Stanley Kubrick 电影 The Shining 中 Jack（Jack Nicholson 饰）的命运：只工作不玩耍，不仅让 Jack 无趣，最后也让他失去理智。当获胜成了一切，生活便过于沉重。游戏般轻松的心态，能帮助心理上卡住的人走过低谷，享受旅程，而不只是结果。",
+      "support": "explicit",
+      "editorialStatus": "PDF 第 73–77 页逐题原页核对；固定原句和来源；区分随机干预的实测、自报、未测推测、团队调查、私人叙事、假设情境和电影引例",
+      "fingerprint": "e16b38bf7f273535074347218074ccf80c76543feb17a81164338889c5925f1d"
+    },
+    {
+      "id": "qe-c07-0111",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-028",
+      "parentQuestionId": "q-c07-064",
+      "chapterId": "c07",
+      "sectionId": "c07-s06",
+      "paragraphId": "c07-s06-p077-02310",
+      "readingUnitId": "c07-s06-p077-02310-r001-004",
+      "sentenceIds": [
+        "c07-s06-p077-02310-s001",
+        "c07-s06-p077-02310-s002",
+        "c07-s06-p077-02310-s003",
+        "c07-s06-p077-02310-s004"
+      ],
+      "passage": "To be clear, specialization and professionalism are great for skill acquisition and improvement. But remember the fate of Jack (played by Jack Nicholson) in Stanley Kubrick’s movie The Shining: all work and no play not only make Jack a dull boy, but also make him go nuts at the end. When winning becomes everything, life gets too heavy. A playful mindset can help people who are psychologically stuck move past their low points and enjoy the journey, not just the outcome.",
+      "prompt": "What kind of illustration is the reference to Jack in The Shining?",
+      "promptZh": "The Shining 中 Jack 的例子属于什么性质？",
+      "options": [
+        "A newly conducted experiment proving overwork always causes illness.",
+        "A verified biography of every elite athlete.",
+        "A quotation that denies any value in skill acquisition.",
+        "A fictional film example used to illustrate the danger of all work and no play."
+      ],
+      "optionsZh": [
+        "证明过劳总致病的新实验。",
+        "每位精英运动员的已核实传记。",
+        "否定技能获得任何价值的引语。",
+        "用虚构电影情节说明只工作不玩耍的危险。"
+      ],
+      "answer": 3,
+      "type": "观点归属",
+      "support": "explicit",
+      "analyses": [
+        "A 电影不是控制实验，不升级成所有人的确定病因。",
+        "B Jack 为电影角色，演员Jack Nicholson另有身份。",
+        "C 前句正承认专攻专业化有技能价值。",
+        "D movie、角色及饰演者明确，属于说明性影视例子；不把剧情当临床研究。"
+      ],
+      "vocabulary": [
+        {
+          "word": "the fate of",
+          "meaning": "……的命运或结局",
+          "context": "此处指电影角色故事结局，不是预测读者或所有运动员未来。",
+          "example": "The ending reveals the fate of the fictional explorer.",
+          "collocations": [
+            "the fate of Jack",
+            "played by Jack Nicholson"
+          ]
+        }
+      ],
+      "translation": "说清楚，专攻与专业化很有利于技能习得和提高。但想想 Stanley Kubrick 电影 The Shining 中 Jack（Jack Nicholson 饰）的命运：只工作不玩耍，不仅让 Jack 无趣，最后也让他失去理智。当获胜成了一切，生活便过于沉重。游戏般轻松的心态，能帮助心理上卡住的人走过低谷，享受旅程，而不只是结果。",
+      "evidenceTargetIds": [
+        "c07-s06-p077-02310-s002"
+      ],
+      "evidence": [
+        {
+          "quote": "To be clear, specialization and professionalism are great for skill acquisition and improvement. But remember the fate of Jack (played by Jack Nicholson) in Stanley Kubrick’s movie The Shining: all work and no play not only make Jack a dull boy, but also make him go nuts at the end. When winning becomes everything, life gets too heavy. A playful mindset can help people who are psychologically stuck move past their low points and enjoy the journey, not just the outcome.",
+          "sentenceIds": [
+            "c07-s06-p077-02310-s001",
+            "c07-s06-p077-02310-s002",
+            "c07-s06-p077-02310-s003",
+            "c07-s06-p077-02310-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 77,
+              "block": 1,
+              "bbox": [
+                76.99,
+                231,
+                535.01,
+                499.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "c25d045901712b0587907355a3472627497baf55f15e662c9d663d2753f8b6b6"
+    },
+    {
+      "id": "qe-c07-0112",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-028",
+      "parentQuestionId": "q-c07-064",
+      "chapterId": "c07",
+      "sectionId": "c07-s06",
+      "paragraphId": "c07-s06-p077-02310",
+      "readingUnitId": "c07-s06-p077-02310-r001-004",
+      "sentenceIds": [
+        "c07-s06-p077-02310-s001",
+        "c07-s06-p077-02310-s002",
+        "c07-s06-p077-02310-s003",
+        "c07-s06-p077-02310-s004"
+      ],
+      "passage": "To be clear, specialization and professionalism are great for skill acquisition and improvement. But remember the fate of Jack (played by Jack Nicholson) in Stanley Kubrick’s movie The Shining: all work and no play not only make Jack a dull boy, but also make him go nuts at the end. When winning becomes everything, life gets too heavy. A playful mindset can help people who are psychologically stuck move past their low points and enjoy the journey, not just the outcome.",
+      "prompt": "What does 'life gets too heavy' express when winning becomes everything?",
+      "promptZh": "当获胜成了一切时 life gets too heavy 表达什么？",
+      "options": [
+        "A literal increase in every athlete's body weight.",
+        "A rule that all goals must be abandoned immediately.",
+        "Life feels burdened when the outcome dominates everything else.",
+        "A guarantee that any competition is always enjoyable."
+      ],
+      "optionsZh": [
+        "每位运动员体重字面增加。",
+        "必须立即放弃所有目标的规则。",
+        "当结果支配一切，生活变得负担沉重。",
+        "任何竞争都保证一直愉快。"
+      ],
+      "answer": 2,
+      "type": "语境词义",
+      "support": "explicit",
+      "analyses": [
+        "A heavy 是心理负担比喻，不是体重数据。",
+        "B 批评winning everything不等于取消全部目标。",
+        "C 与后文享受journey不只outcome相接，强调对结果过度集中。",
+        "D 与too heavy方向相反，但不能从此推出获胜或努力本身无价值。"
+      ],
+      "vocabulary": [
+        {
+          "word": "too heavy",
+          "meaning": "过于沉重；负担太大（比喻）",
+          "context": "描写生活感受，不是物理称量或对某个人新作诊断。",
+          "example": "The expectations made the task feel too heavy.",
+          "collocations": [
+            "life gets too heavy",
+            "winning becomes everything"
+          ]
+        }
+      ],
+      "translation": "说清楚，专攻与专业化很有利于技能习得和提高。但想想 Stanley Kubrick 电影 The Shining 中 Jack（Jack Nicholson 饰）的命运：只工作不玩耍，不仅让 Jack 无趣，最后也让他失去理智。当获胜成了一切，生活便过于沉重。游戏般轻松的心态，能帮助心理上卡住的人走过低谷，享受旅程，而不只是结果。",
+      "evidenceTargetIds": [
+        "c07-s06-p077-02310-s003"
+      ],
+      "evidence": [
+        {
+          "quote": "To be clear, specialization and professionalism are great for skill acquisition and improvement. But remember the fate of Jack (played by Jack Nicholson) in Stanley Kubrick’s movie The Shining: all work and no play not only make Jack a dull boy, but also make him go nuts at the end. When winning becomes everything, life gets too heavy. A playful mindset can help people who are psychologically stuck move past their low points and enjoy the journey, not just the outcome.",
+          "sentenceIds": [
+            "c07-s06-p077-02310-s001",
+            "c07-s06-p077-02310-s002",
+            "c07-s06-p077-02310-s003",
+            "c07-s06-p077-02310-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 77,
+              "block": 1,
+              "bbox": [
+                76.99,
+                231,
+                535.01,
+                499.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "53d143e49018f4bd0f02e18fb881b600f194b9f92b6507639b2e2f454115109a"
+    },
+    {
+      "id": "qe-c07-0114",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-028",
+      "parentQuestionId": "q-c07-065",
+      "chapterId": "c07",
+      "sectionId": "c07-s06",
+      "paragraphId": "c07-s06-p077-02310",
+      "readingUnitId": "c07-s06-p077-02310-r005-008",
+      "sentenceIds": [
+        "c07-s06-p077-02310-s005",
+        "c07-s06-p077-02310-s006",
+        "c07-s06-p077-02310-s007",
+        "c07-s06-p077-02310-s008"
+      ],
+      "passage": "A spontaneous action could help us experience life without prior planning. Some of the most interesting experiences we have are often things we do on a whim. In my case, I was driving my family from Baltimore to Charlottesville one day when I saw a sign for Annapolis. I asked my wife and two kids, “Does anyone want to go to Annapolis?”",
+      "prompt": "Which paraphrase preserves 'Some ... often ... on a whim'?",
+      "promptZh": "哪项改述保留 Some...often...on a whim 的范围？",
+      "options": [
+        "Every interesting event is always planned far ahead.",
+        "Some especially interesting experiences arise from unplanned impulses.",
+        "Only careless decisions can ever produce interest.",
+        "All planned experiences are necessarily uninteresting."
+      ],
+      "optionsZh": [
+        "每件有趣事总提前很久安排。",
+        "一些特别有趣的经历来自临时兴起。",
+        "只有粗心决定才有可能有趣。",
+        "所有计划内经历必定无趣。"
+      ],
+      "answer": 1,
+      "type": "同义改写",
+      "support": "explicit",
+      "analyses": [
+        "A 与on a whim对照且擅加every。",
+        "B Some和often不是全部，on a whim为临时念头。",
+        "C 自发不等于粗心，更非only条件。",
+        "D 未否定计划体验的所有乐趣；后面家庭故事为个例。"
+      ],
+      "vocabulary": [
+        {
+          "word": "on a whim",
+          "meaning": "一时兴起；临时起意",
+          "context": "可指有趣自发决定，不自动等于危险、粗心或完全无意识。",
+          "example": "They visited the small museum on a whim.",
+          "collocations": [
+            "do something on a whim",
+            "an experience on a whim"
+          ]
+        }
+      ],
+      "translation": "自发行动可能让我们体验未经预先计划的生活。我们最有趣的一些经历，往往是一时兴起做的事。就我而言，有一天我带家人从 Baltimore 开车去 Charlottesville，看到 Annapolis 的路牌，便问妻子和两个孩子：“有人想去 Annapolis 吗？”",
+      "evidenceTargetIds": [
+        "c07-s06-p077-02310-s006"
+      ],
+      "evidence": [
+        {
+          "quote": "A spontaneous action could help us experience life without prior planning. Some of the most interesting experiences we have are often things we do on a whim. In my case, I was driving my family from Baltimore to Charlottesville one day when I saw a sign for Annapolis. I asked my wife and two kids, “Does anyone want to go to Annapolis?”",
+          "sentenceIds": [
+            "c07-s06-p077-02310-s005",
+            "c07-s06-p077-02310-s006",
+            "c07-s06-p077-02310-s007",
+            "c07-s06-p077-02310-s008"
+          ],
+          "sources": [
+            {
+              "pdfPage": 77,
+              "block": 1,
+              "bbox": [
+                76.99,
+                231,
+                535.01,
+                499.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "f7ff75340c2ca92851dc987a49485f5e2043d1beb1e95f005371ff0c883c825c"
+    },
+    {
+      "id": "qe-c07-0115",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-028",
+      "parentQuestionId": "q-c07-065",
+      "chapterId": "c07",
+      "sectionId": "c07-s06",
+      "paragraphId": "c07-s06-p077-02310",
+      "readingUnitId": "c07-s06-p077-02310-r005-008",
+      "sentenceIds": [
+        "c07-s06-p077-02310-s005",
+        "c07-s06-p077-02310-s006",
+        "c07-s06-p077-02310-s007",
+        "c07-s06-p077-02310-s008"
+      ],
+      "passage": "A spontaneous action could help us experience life without prior planning. Some of the most interesting experiences we have are often things we do on a whim. In my case, I was driving my family from Baltimore to Charlottesville one day when I saw a sign for Annapolis. I asked my wife and two kids, “Does anyone want to go to Annapolis?”",
+      "prompt": "What does the narrator ask his family after seeing the sign?",
+      "promptZh": "看见路牌后，作者问家人什么？",
+      "options": [
+        "Whether they have already booked a long-planned cruise.",
+        "Whether everyone refuses to travel to Charlottesville.",
+        "Whether they want to move permanently to Baltimore.",
+        "Whether anyone wants to visit Annapolis."
+      ],
+      "optionsZh": [
+        "是否已预订长期计划的游船。",
+        "是否每个人拒去Charlottesville。",
+        "是否想永久搬到Baltimore。",
+        "是否有人想去Annapolis。"
+      ],
+      "answer": 3,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A 游船是后面活动，不是已预订安排。",
+        "B 原句不是对原目的地的全体拒绝。",
+        "C 看到路牌后问临时游览，不是永久搬家。",
+        "D Does anyone want to go to Annapolis 与wife,two kids对应提问对象，不将作者家人等同读者家庭。"
+      ],
+      "vocabulary": [
+        {
+          "word": "Does anyone want to",
+          "meaning": "有人想……吗（询问意愿）",
+          "context": "是作者对家人的提议，不是已经人人同意或真实用户被提问记录。",
+          "example": "Does anyone want to try a different route?",
+          "collocations": [
+            "Does anyone want to go",
+            "ask his wife and two kids"
+          ]
+        }
+      ],
+      "translation": "自发行动可能让我们体验未经预先计划的生活。我们最有趣的一些经历，往往是一时兴起做的事。就我而言，有一天我带家人从 Baltimore 开车去 Charlottesville，看到 Annapolis 的路牌，便问妻子和两个孩子：“有人想去 Annapolis 吗？”",
+      "evidenceTargetIds": [
+        "c07-s06-p077-02310-s008"
+      ],
+      "evidence": [
+        {
+          "quote": "A spontaneous action could help us experience life without prior planning. Some of the most interesting experiences we have are often things we do on a whim. In my case, I was driving my family from Baltimore to Charlottesville one day when I saw a sign for Annapolis. I asked my wife and two kids, “Does anyone want to go to Annapolis?”",
+          "sentenceIds": [
+            "c07-s06-p077-02310-s005",
+            "c07-s06-p077-02310-s006",
+            "c07-s06-p077-02310-s007",
+            "c07-s06-p077-02310-s008"
+          ],
+          "sources": [
+            {
+              "pdfPage": 77,
+              "block": 1,
+              "bbox": [
+                76.99,
+                231,
+                535.01,
+                499.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "598c3d39c0c576a8f94d82f92f06a31dfc621257fbec9923a2feb4c617d0fe07"
+    },
+    {
+      "id": "q-c07-066",
+      "version": 1,
+      "readingUnitId": "c07-s06-p077-02310-r009-011",
+      "chapterId": "c07",
+      "sectionId": "c07-s06",
+      "paragraphId": "c07-s06-p077-02310",
+      "sentenceIds": [
+        "c07-s06-p077-02310-s009",
+        "c07-s06-p077-02310-s010",
+        "c07-s06-p077-02310-s011"
+      ],
+      "passage": "To my surprise, everyone said, “Why not!” So we went to Annapolis, totally unplanned. We wandered around town and hopped on a cruise that my son still talks about.",
+      "prompt": "Which sequence is described after the family’s reply?",
+      "options": [
+        "They rejected the suggestion and drove straight home.",
+        "They moved to Annapolis and gave up travelling.",
+        "They visited without planning, wandered around and took a cruise.",
+        "They cancelled a cruise that had been booked months earlier."
+      ],
+      "answer": 2,
+      "type": "细节",
+      "promptZh": "家人回答后，发生了哪一顺序？",
+      "optionsZh": [
+        "他们拒绝建议，直接回家。",
+        "搬到 Annapolis 后放弃旅行。",
+        "未经计划前往、在城里闲逛，又乘游船。",
+        "取消几个月前订好的游船。"
+      ],
+      "analyses": [
+        "A everyone said Why not 是接受，非拒绝。",
+        "B went to 不等于迁居。",
+        "C totally unplanned、wandered、hopped on a cruise 依次对应。",
+        "D 原文说实际乘船，没给提前订票或取消的信息；儿子仍提起此事是个人记忆叙事，不是对所有家庭的实验。"
+      ],
+      "evidence": [
+        {
+          "quote": "So we went to Annapolis, totally unplanned. We wandered around town and hopped on a cruise",
+          "sentenceIds": [
+            "c07-s06-p077-02310-s010",
+            "c07-s06-p077-02310-s011"
+          ],
+          "sources": [
+            {
+              "pdfPage": 77,
+              "block": 1,
+              "bbox": [
+                76.99,
+                231,
+                535.01,
+                499.02
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "hopped on",
+          "meaning": "登上；顺势上了",
+          "context": "在这里轻松描述乘上游船，不一定指真的跳跃上船",
+          "example": "We hopped on a bus to explore the old town.",
+          "collocations": [
+            "hop on a cruise",
+            "hop on a bus"
+          ]
+        }
+      ],
+      "translation": "出乎我意料，每个人都说：“为什么不呢！”于是我们完全没计划地去了 Annapolis。我们在城里闲逛，还乘了一次游船，儿子至今仍会说起。",
+      "support": "explicit",
+      "editorialStatus": "PDF 第 77–82 页逐题原页核对；固定原句与来源；保留可能、反事实、近似转述、假设估算、eventually和观点归属；书中AI或建议均不触发程序操作",
+      "fingerprint": "de665d84ce390ac220d5075ef893dbb5d3d6b1896bb0072b185504c90871aea4"
+    },
+    {
+      "id": "qe-c07-0116",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-028",
+      "parentQuestionId": "q-c07-066",
+      "chapterId": "c07",
+      "sectionId": "c07-s06",
+      "paragraphId": "c07-s06-p077-02310",
+      "readingUnitId": "c07-s06-p077-02310-r009-011",
+      "sentenceIds": [
+        "c07-s06-p077-02310-s009",
+        "c07-s06-p077-02310-s010",
+        "c07-s06-p077-02310-s011"
+      ],
+      "passage": "To my surprise, everyone said, “Why not!” So we went to Annapolis, totally unplanned. We wandered around town and hopped on a cruise that my son still talks about.",
+      "prompt": "What does the family's 'Why not!' indicate in this context?",
+      "promptZh": "家人的 Why not! 在此表示什么？",
+      "options": [
+        "A collective rejection of the proposed detour.",
+        "A request for formal research proof before travelling.",
+        "Acceptance of the spontaneous suggestion, which surprises the narrator.",
+        "A statement that the trip was planned months earlier."
+      ],
+      "optionsZh": [
+        "集体拒绝绕行提议。",
+        "出发前要求正式研究证明。",
+        "接受临时提议，使作者意外。",
+        "说旅程几个月前就安排好。"
+      ],
+      "answer": 2,
+      "type": "语境词义",
+      "support": "explicit",
+      "analyses": [
+        "A 此处 Why not 为愿意尝试，后句实际去了。",
+        "B 没有研究要求。",
+        "C To my surprise 与everyone said说明作者意外家人都接受。",
+        "D totally unplanned 不是早已安排；everyone 指该家庭场景，不扩为所有人。"
+      ],
+      "vocabulary": [
+        {
+          "word": "Why not",
+          "meaning": "何妨；好啊（接受建议的回应）",
+          "context": "这里为肯定接受，不是带否定意思拒绝。",
+          "example": "'Shall we explore this street?' 'Why not!'",
+          "collocations": [
+            "everyone said Why not",
+            "accept a suggestion"
+          ]
+        }
+      ],
+      "translation": "出乎我意料，每个人都说：“为什么不呢！”于是我们完全没计划地去了 Annapolis。我们在城里闲逛，还乘了一次游船，儿子至今仍会说起。",
+      "evidenceTargetIds": [
+        "c07-s06-p077-02310-s009"
+      ],
+      "evidence": [
+        {
+          "quote": "To my surprise, everyone said, “Why not!” So we went to Annapolis, totally unplanned. We wandered around town and hopped on a cruise that my son still talks about.",
+          "sentenceIds": [
+            "c07-s06-p077-02310-s009",
+            "c07-s06-p077-02310-s010",
+            "c07-s06-p077-02310-s011"
+          ],
+          "sources": [
+            {
+              "pdfPage": 77,
+              "block": 1,
+              "bbox": [
+                76.99,
+                231,
+                535.01,
+                499.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "6d9d09e460fbefdd5afab5c0529fd51dd32cb936b4dcea2ac819df7cbceb5c92"
+    }
+  ]
+}
