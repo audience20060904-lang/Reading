@@ -3,7 +3,7 @@ import {createHash} from 'node:crypto';
 import {join,relative} from 'node:path';
 const root='dist';
 async function files(dir){return (await Promise.all((await readdir(dir,{withFileTypes:true})).map(e=>e.isDirectory()?files(join(dir,e.name)):[join(dir,e.name)]))).flat();}
-const paths=(await files(root)).filter(p=>!p.endsWith('sw.js'));
+const paths=(await files(root)).filter(p=>relative(root,p).replaceAll('\\','/')!=='sw.js');
 // Include cache-generation logic so worker fixes also invalidate an older cache.
 const hash=createHash('sha256');hash.update(await readFile(new URL(import.meta.url)));for(const p of paths.sort())hash.update(await readFile(p));
 const version=hash.digest('hex').slice(0,16),urls=paths.map(p=>'./'+relative(root,p).replaceAll('\\','/'));

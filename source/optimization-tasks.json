@@ -6,10 +6,10 @@
     "status": "in-progress",
     "taskRecord": "source/question-semantic-audit.json",
     "batchLimitSourceCandidates": 25,
-    "currentBatch": "060",
-    "currentBatchStatus": "published-and-verified",
-    "nextBatch": "061",
-    "remainingQuestions": 1582,
+    "currentBatch": "061",
+    "currentBatchStatus": "local-verified-awaiting-publication",
+    "nextBatch": "062",
+    "remainingQuestions": 1558,
     "lastSuccessfulRelease": "source/releases/question-review-060.json",
     "notice": "New per-question review scope; the earlier 261-candidate queue and its receipts remain complete and immutable.",
     "relatedFollowUpFindings": [
@@ -26,7 +26,9 @@
         "reason": "Current answer directly paraphrases its sole source sentence, but existing type/support labels are 推断/inference. Preserve the correct question and historical labels for now; review versioned classification support in the compiler before a dedicated metadata correction. This is not an incorrect answer."
       }
     ],
-    "lastDeploymentIncident": "source/question-revisions/review-039-deployment-incident.json"
+    "lastDeploymentIncident": "source/question-revisions/review-039-deployment-incident.json",
+    "verificationOrder": "Run npm run build:pages before the full unit suite because offline tests inspect dist. Then run fresh local/live browsers; never accept results from a previous build.",
+    "offlineVerification": "Require HTML startup assets in offline manifest; byte-verify actual versioned Service Worker CacheStorage and disable HTTP caching before offline reload and local HTTP-server shutdown."
   },
   "interface": [
     {

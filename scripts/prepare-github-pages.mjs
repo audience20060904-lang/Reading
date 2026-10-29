@@ -10,7 +10,12 @@ const cache=JSON.parse(await readFile(resolve(root,'offline-manifest.json'),'utf
 const manifest=JSON.parse(await readFile(resolve(root,'manifest.webmanifest'),'utf8'));
 assert.equal(manifest.scope,'./');
 assert.equal(manifest.start_url,'./');
-const urls=[...cache.files,...[...html.matchAll(/(?:src|href)="([^"]+)"/g)].map(m=>m[1])];
+const entryUrls=[...html.matchAll(/(?:src|href)="([^"]+)"/g)].map(m=>m[1]);
+const cachedPaths=new Set(cache.files.map(path=>new URL(path,base).pathname));
+for(const path of entryUrls){
+  assert(cachedPaths.has(new URL(path,base).pathname),`Startup resource missing from offline cache: ${path}`);
+}
+const urls=[...cache.files,...entryUrls];
 for(const path of urls){
   const url=new URL(path,base);
   assert.equal(url.origin,base.origin,`External resource: ${path}`);
