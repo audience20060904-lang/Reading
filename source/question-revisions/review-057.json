@@ -1,0 +1,182 @@
+{
+  "schemaVersion": 1,
+  "id": "question-review-2026-10-28-057",
+  "pdfSha256": "be25c859f1bd894a4b0d1cff024ded1297f6a96a8e8ddabea1e3abcf89160a50",
+  "scope": "Review 19 questions /22 source candidates on actual PDF64–65 and PDF66 paragraph context. Quoted hypothetical analogy versus data, speaker identity available within excerpts, probability and portrayed beliefs; exact small-minority scope and current summary logic. Preserve all original claims, source IDs, answer positions and historical snapshots.",
+  "questions": [
+    {
+      "id": "q-c06-078",
+      "reason": "当前片段只显示He，不要求从前段认出姓名；仍考宗教视角与食物类比。",
+      "updates": {
+        "prompt": "What does the food example illustrate about the speaker’s presentation of policy views?",
+        "promptZh": "食物例子说明这位说话人怎样表达政策观点？"
+      }
+    },
+    {
+      "id": "qe-c06-0129",
+      "reason": "题干去未显示姓名；释义保留原词距与重量单位，移除候选分句技术备注。",
+      "updates": {
+        "prompt": "What is measured by “5 lb.” in the quoted hypothetical example?",
+        "promptZh": "所引假设例子中的5 lb.衡量什么？",
+        "analyses": [
+          "A about 10 是后面的花生颗数，与重量单位不同。",
+          "B lb. 是重量缩写，不是比例。",
+          "C 5 lb. bag of peanuts 中，lb. 是磅，5 lb. 表示一袋花生的重量，不是颗数或百分比。",
+          "D 是假设类比，非儿童实验报告，不把数字当难民实际风险统计。"
+        ],
+        "vocabulary": [
+          {
+            "word": "lb.",
+            "meaning": "磅的缩写；重量单位",
+            "context": "5 lb. 表示假设情境下一袋花生的重量，不是有毒花生的颗数或比例。",
+            "example": "The parcel weighs 5 lb.",
+            "collocations": [
+              "a 5 lb. bag",
+              "pounds in weight"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "qe-c06-0130",
+      "reason": "正确项以当前he said引语归属为依据，不要求未显示姓名。",
+      "updates": {
+        "options": [
+          "A conditional analogy attributed to the speaker quoted in the passage.",
+          "An experiment actually conducted on the reader's children.",
+          "A measured rate of harm among refugees.",
+          "A finding from the student diary research."
+        ],
+        "optionsZh": [
+          "归于本段所引说话人的条件类比。",
+          "实际对读者孩子做的实验。",
+          "实测的难民伤害发生率。",
+          "学生日记研究的发现。"
+        ]
+      }
+    },
+    {
+      "id": "qe-c06-0131",
+      "reason": "引语回答归属当前说话人而非前段姓名，保留非研究结果。",
+      "updates": {
+        "options": [
+          "A separate scientific panel reporting an experiment.",
+          "The quoted speaker, answering his own rhetorical question in the analogy.",
+          "Every refugee responding to a questionnaire.",
+          "The narrator reporting the reader's personal answer."
+        ],
+        "optionsZh": [
+          "另一个科学小组报告实验。",
+          "被引用的说话人，在类比中回答自己的修辞问题。",
+          "每位难民回答问卷。",
+          "作者记录读者真实答案。"
+        ]
+      }
+    },
+    {
+      "id": "q-c06-079",
+      "reason": "当前He probably thinks足以判语气，题干与干扰项去未显示姓名。",
+      "updates": {
+        "prompt": "What does “probably” signal about the explanation of the man’s sense of meaning?",
+        "promptZh": "解释这个人的意义感时，probably 表示什么？",
+        "options": [
+          "The book reports his exact answer to a meaning questionnaire.",
+          "The author has proved that all religious people share the same motivation.",
+          "The author offers an interpretation rather than a directly verified inner report.",
+          "The man is described as having no clear guiding principles."
+        ],
+        "optionsZh": [
+          "书中报告了他在意义感问卷上的确切回答。",
+          "作者已证明所有宗教人士的动机相同。",
+          "作者给出解释性推测，而非直接核实的内心自报。",
+          "书中说这个人没有明确的指导原则。"
+        ]
+      }
+    },
+    {
+      "id": "qe-c06-0132",
+      "reason": "概括题只据当前人物原则与投入，去姓名和未显示政治两端前情。",
+      "updates": {
+        "prompt": "What does “A man of conviction” summarise about the man’s portrayal?",
+        "promptZh": "A man of conviction 概括这个人的何种人物呈现？",
+        "analyses": [
+          "A 此处 conviction 是信念，不是法院判罪。",
+          "B 当前没有说所有政治对手同意他的政策；有明确原则也不能推出这一点。",
+          "C 与 guided by clear principles 相反。",
+          "D 概括前句的宗教事业、他人影响与原则；probably thinks 保留作者对其自我意义感的推测，不等于认可所有政策。"
+        ]
+      }
+    },
+    {
+      "id": "qe-c06-0134",
+      "reason": "排除选项只据当前helpful与too much，不预告未显示后文。",
+      "updates": {
+        "analyses": [
+          "A Thus 是结论标记，括号 not worrying too much 呼应前文。",
+          "B 是较低有帮助，不是最大忧虑。",
+          "C 无诊断或日期。",
+          "D 当前只说较低水平有帮助，too much 又限定为过度担忧；不能推出任何焦虑都排除意义。"
+        ]
+      }
+    },
+    {
+      "id": "q-c06-083",
+      "reason": "共享译文保留is difficult断言强度及a small minority范围；继续明确人物信念归属而非群体实测。",
+      "updates": {
+        "translation": "相比之下，对于信念坚定的人来说，保持开放是困难的。人很容易对自己的事业自以为正义。作者认为，Huckabee 不太可能对来自穆斯林国家的移民开放，因为他坚信其中一小部分人可能是恐怖分子；Thunberg 不太可能接纳气候变化否认者的意见，因为她确信气候变化由人类活动驱动。这里保留作者的人物信念归属，不把前一说法当作关于实际群体风险的研究结论。"
+      }
+    },
+    {
+      "id": "qe-c06-0137",
+      "reason": "共享译文保留is difficult断言强度及a small minority范围；继续明确人物信念归属而非群体实测。",
+      "updates": {
+        "translation": "相比之下，对于信念坚定的人来说，保持开放是困难的。人很容易对自己的事业自以为正义。作者认为，Huckabee 不太可能对来自穆斯林国家的移民开放，因为他坚信其中一小部分人可能是恐怖分子；Thunberg 不太可能接纳气候变化否认者的意见，因为她确信气候变化由人类活动驱动。这里保留作者的人物信念归属，不把前一说法当作关于实际群体风险的研究结论。"
+      }
+    },
+    {
+      "id": "qe-c06-0138",
+      "reason": "共享译文保留is difficult断言强度及a small minority范围；继续明确人物信念归属而非群体实测。；选项中文也保留small minority的小范围和could可能性。",
+      "updates": {
+        "translation": "相比之下，对于信念坚定的人来说，保持开放是困难的。人很容易对自己的事业自以为正义。作者认为，Huckabee 不太可能对来自穆斯林国家的移民开放，因为他坚信其中一小部分人可能是恐怖分子；Thunberg 不太可能接纳气候变化否认者的意见，因为她确信气候变化由人类活动驱动。这里保留作者的人物信念归属，不把前一说法当作关于实际群体风险的研究结论。",
+        "optionsZh": [
+          "实测证明每位移民都危险。",
+          "他同意所有其他政治人物意见。",
+          "归于他的信念：其中一小部分人可能是恐怖分子。",
+          "他毫无宗教或政治信念。"
+        ]
+      }
+    },
+    {
+      "id": "qe-c06-0139",
+      "reason": "共享译文保留is difficult断言强度及a small minority范围；继续明确人物信念归属而非群体实测。",
+      "updates": {
+        "translation": "相比之下，对于信念坚定的人来说，保持开放是困难的。人很容易对自己的事业自以为正义。作者认为，Huckabee 不太可能对来自穆斯林国家的移民开放，因为他坚信其中一小部分人可能是恐怖分子；Thunberg 不太可能接纳气候变化否认者的意见，因为她确信气候变化由人类活动驱动。这里保留作者的人物信念归属，不把前一说法当作关于实际群体风险的研究结论。"
+      }
+    },
+    {
+      "id": "qe-c06-0140",
+      "reason": "总结作用以当前问答及概率限定为依据，不要求知道本章此前主问题。",
+      "updates": {
+        "options": [
+          "It introduces a new obituary sample without reference to previous findings.",
+          "It declares a deterministic rule with no possible exceptions.",
+          "It asks only which person owns the most money.",
+          "It takes up the question of who is likely to lead a rich life and gives a qualified summary."
+        ],
+        "optionsZh": [
+          "无关前文地引入新讣告样本。",
+          "宣布无例外的决定性定律。",
+          "仅问谁最有钱。",
+          "提出谁较可能过心理丰富生活的问题，并给出有限定的总结。"
+        ],
+        "analyses": [
+          "A 当前问句引出人格倾向说明，没有引入新的讣告样本或方法。",
+          "B likely 及末句 not deterministic 限制强度。",
+          "C rich 是心理丰富而非财富。",
+          "D 问句随后由人格特质与more likely作答，末句not deterministic保留非必然性。"
+        ]
+      }
+    }
+  ]
+}
