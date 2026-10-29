@@ -1,0 +1,751 @@
+{
+  "pdfSha256": "be25c859f1bd894a4b0d1cff024ded1297f6a96a8e8ddabea1e3abcf89160a50",
+  "sourceCommit": "f3cd14dc4d7799f3f65466ac3cfe1bd5bd2e33ab",
+  "questions": [
+    {
+      "id": "qe-c06-0041",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-019",
+      "parentQuestionId": "q-c06-027",
+      "chapterId": "c06",
+      "sectionId": "c06-s02",
+      "paragraphId": "c06-s02-p057-04260",
+      "readingUnitId": "c06-s02-p057-04260-r001-004",
+      "sentenceIds": [
+        "c06-s02-p057-04260-s001",
+        "c06-s02-p057-04260-s002",
+        "c06-s02-p057-04260-s003",
+        "c06-s02-p057-04260-s004"
+      ],
+      "passage": "But why rely on words to illuminate an inner quality? Allport and Odbert argued, “If many human beings were not in fact egotistic, aggressive, or timid, the epithets would not have found a permanent place in language. If traits exist at all it is natural and proper to name them.” If there is a trait name, there must be some corresponding pattern of behavior, thinking, or feeling.",
+      "prompt": "What reasoning supports Allport and Odbert's use of trait words?",
+      "promptZh": "什么推理支持 Allport 与 Odbert 使用特质词？",
+      "options": [
+        "All words automatically describe a unique personality factor.",
+        "Only dictionaries can cause people to develop traits.",
+        "A permanent place in language proves that every person has the same traits.",
+        "Established trait labels are taken as signs of recurring human qualities."
+      ],
+      "optionsZh": [
+        "所有词都自动对应唯一人格因子。",
+        "只有词典能导致人格形成。",
+        "语言永久收录证明人人特质相同。",
+        "稳定存在的特质名称被视为反复出现的人类品质的迹象。"
+      ],
+      "answer": 3,
+      "type": "逻辑关系",
+      "support": "explicit",
+      "analyses": [
+        "A 引文不证明每词独立一因子，后文还批评同义词。",
+        "B 论证方向是人有品质而语言有称谓，不是词典制造品质。",
+        "C many 不等于 every，也非人人相同。",
+        "D 反事实句说若人实际无这些特质，称谓就不会稳定进入语言；这是他们的方法论论证，不是本段随机实验发现。"
+      ],
+      "vocabulary": [
+        {
+          "word": "epithets",
+          "meaning": "称谓；描述性称呼",
+          "context": "这里承接 egotistic,aggressive,timid 等特质标签，不专指姓名或必然辱骂。",
+          "example": "Such epithets can reveal how a community describes behaviour.",
+          "collocations": [
+            "the epithets",
+            "a descriptive epithet"
+          ]
+        }
+      ],
+      "translation": "但为什么靠词语说明内在品质？Allport 与 Odbert 认为：“如果许多人实际上并不自我中心、好斗或胆怯，这些称谓就不会在语言中占有永久位置。只要特质存在，给它们命名便自然且恰当。”如果有一个特质名称，就一定有相对应的行为、思维或感受模式。",
+      "evidenceTargetIds": [
+        "c06-s02-p057-04260-s002"
+      ],
+      "evidence": [
+        {
+          "quote": "But why rely on words to illuminate an inner quality? Allport and Odbert argued, “If many human beings were not in fact egotistic, aggressive, or timid, the epithets would not have found a permanent place in language. If traits exist at all it is natural and proper to name them.” If there is a trait name, there must be some corresponding pattern of behavior, thinking, or feeling.",
+          "sentenceIds": [
+            "c06-s02-p057-04260-s001",
+            "c06-s02-p057-04260-s002",
+            "c06-s02-p057-04260-s003",
+            "c06-s02-p057-04260-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 57,
+              "block": 2,
+              "bbox": [
+                76.99,
+                426,
+                535.01,
+                518.52
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "0cedf6e867a90ba34379d995d6e00b576db5437fe6b37a14bb31e1671f4b6a46"
+    },
+    {
+      "id": "q-c06-028",
+      "version": 1,
+      "readingUnitId": "c06-s02-p057-05235-r001-004",
+      "chapterId": "c06",
+      "sectionId": "c06-s02",
+      "paragraphId": "c06-s02-p057-05235",
+      "sentenceIds": [
+        "c06-s02-p057-05235-s001",
+        "c06-s02-p057-05235-s002",
+        "c06-s02-p057-05235-s003",
+        "c06-s02-p057-05235-s004"
+      ],
+      "passage": "Some criticized Allport and Odbert’s research, claiming there were too many synonyms. For instance, the pure personality traits list included both “adventurous” and “venturous.” Are they two separate personality traits? (Not really.)",
+      "prompt": "What problem do “adventurous” and “venturous” illustrate?",
+      "options": [
+        "The list had excluded every word about adventure.",
+        "The words were both counts of participants.",
+        "Different words can overlap in meaning instead of representing distinct traits.",
+        "The research contained too few words to describe anybody."
+      ],
+      "answer": 2,
+      "type": "逻辑关系",
+      "promptZh": "adventurous 与 venturous 说明什么问题？",
+      "optionsZh": [
+        "名单排除了所有冒险相关词。",
+        "两个词都是参与者数量。",
+        "不同词可能同义重叠，而非各代表独立特质。",
+        "研究的词太少，无法描述任何人。"
+      ],
+      "analyses": [
+        "A 名单明确 included both，非全排除。",
+        "B 两者是人格描述词，不是人数。",
+        "C too many synonyms 与 Not really 回应是否两种独立特质。",
+        "D 批评是同义词过多，不是词太少。"
+      ],
+      "evidence": [
+        {
+          "quote": "claiming there were too many synonyms.",
+          "sentenceIds": [
+            "c06-s02-p057-05235-s001"
+          ],
+          "sources": [
+            {
+              "pdfPage": 57,
+              "block": 3,
+              "bbox": [
+                76.99,
+                523.5,
+                535,
+                694.02
+              ]
+            }
+          ]
+        },
+        {
+          "quote": "Are they two separate personality traits? (Not really.)",
+          "sentenceIds": [
+            "c06-s02-p057-05235-s003",
+            "c06-s02-p057-05235-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 57,
+              "block": 3,
+              "bbox": [
+                76.99,
+                523.5,
+                535,
+                694.02
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "synonyms",
+          "meaning": "同义词",
+          "context": "强调不同词形可能表达近似内容，不应简单把词数当独立特质数",
+          "example": "The editor replaced repeated terms with suitable synonyms.",
+          "collocations": [
+            "near synonyms",
+            "a list of synonyms"
+          ]
+        }
+      ],
+      "translation": "有人批评 Allport 与 Odbert 的研究，认为同义词太多。例如，“纯”人格词名单同时包括 adventurous 与 venturous。这真是两种独立人格特质吗？（并不真是。）",
+      "support": "explicit",
+      "editorialStatus": "PDF 第 54–57 页逐题核对；固定连续原句；保留讣告评分范围、原书数字和条件语气；区分词条与独立特质；不暗改数值不一致",
+      "fingerprint": "970aa47ea17c2811f93c40e15f9e9c27ecf91317aecd0e407546c452baf14200"
+    },
+    {
+      "id": "qe-c06-0042",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-019",
+      "parentQuestionId": "q-c06-028",
+      "chapterId": "c06",
+      "sectionId": "c06-s02",
+      "paragraphId": "c06-s02-p057-05235",
+      "readingUnitId": "c06-s02-p057-05235-r001-004",
+      "sentenceIds": [
+        "c06-s02-p057-05235-s001",
+        "c06-s02-p057-05235-s002",
+        "c06-s02-p057-05235-s003",
+        "c06-s02-p057-05235-s004"
+      ],
+      "passage": "Some criticized Allport and Odbert’s research, claiming there were too many synonyms. For instance, the pure personality traits list included both “adventurous” and “venturous.” Are they two separate personality traits? (Not really.)",
+      "prompt": "Why is the pair 'adventurous' and 'venturous' mentioned?",
+      "promptZh": "为什么提 adventurous 与 venturous 这一对词？",
+      "options": [
+        "To show that near-synonyms can duplicate what looks like separate traits.",
+        "To show that the two terms describe completely opposite personalities.",
+        "To prove that both words refer only to temporary moods.",
+        "To show that all trait words must be archaic."
+      ],
+      "optionsZh": [
+        "说明近义词可能让同一特质被重复计数。",
+        "说明两词描写完全相反人格。",
+        "证明两词都只指暂时心情。",
+        "说明所有特质词必定过时。"
+      ],
+      "answer": 0,
+      "type": "作者意图",
+      "support": "explicit",
+      "analyses": [
+        "A 之前 too many synonyms 与后面 Not really 解释例子作用。",
+        "B 并非反义对照。",
+        "C 此例的批评是重复而非暂时性。",
+        "D 过时词是后续另一批评，不能扩大到 all。"
+      ],
+      "vocabulary": [
+        {
+          "word": "synonyms",
+          "meaning": "同义词；意义相近的词",
+          "context": "不同词形未必对应不同人格特质，是词数与特质数区分。",
+          "example": "The two expressions are close synonyms in this context.",
+          "collocations": [
+            "too many synonyms",
+            "a pair of synonyms"
+          ]
+        }
+      ],
+      "translation": "有人批评 Allport 与 Odbert 的研究，认为同义词太多。例如，“纯”人格词名单同时包括 adventurous 与 venturous。这真是两种独立人格特质吗？（并不真是。）",
+      "evidenceTargetIds": [
+        "c06-s02-p057-05235-s002"
+      ],
+      "evidence": [
+        {
+          "quote": "Some criticized Allport and Odbert’s research, claiming there were too many synonyms. For instance, the pure personality traits list included both “adventurous” and “venturous.” Are they two separate personality traits? (Not really.)",
+          "sentenceIds": [
+            "c06-s02-p057-05235-s001",
+            "c06-s02-p057-05235-s002",
+            "c06-s02-p057-05235-s003",
+            "c06-s02-p057-05235-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 57,
+              "block": 3,
+              "bbox": [
+                76.99,
+                523.5,
+                535,
+                694.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "dc9668f66d1f958ac4e6e3168612ca6c49a7e9f69fb2793a40ab9cb9145d67d5"
+    },
+    {
+      "id": "qe-c06-0043",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-019",
+      "parentQuestionId": "q-c06-029",
+      "chapterId": "c06",
+      "sectionId": "c06-s02",
+      "paragraphId": "c06-s02-p057-05235",
+      "readingUnitId": "c06-s02-p057-05235-r005-008",
+      "sentenceIds": [
+        "c06-s02-p057-05235-s005",
+        "c06-s02-p057-05235-s006",
+        "c06-s02-p057-05235-s007",
+        "c06-s02-p057-05235-s008"
+      ],
+      "passage": "Others argued that many of the words, like “aery” and “breme,” were archaic and most people didn’t use them. (Indeed, these words are not very useful.) Yet others argued that there were large individual differences in vocabulary and that esoteric terms should be removed. (Probably true.)",
+      "prompt": "What does the parenthetical 'Indeed' comment endorse?",
+      "promptZh": "括号中 Indeed 的评论赞同什么？",
+      "options": [
+        "That all uncommon words are equally useful to all speakers.",
+        "That the whole lexical approach should be discarded immediately.",
+        "That the archaic words just named have limited usefulness.",
+        "That the researchers had used no dictionary at all."
+      ],
+      "optionsZh": [
+        "所有罕见词对每位说话者同样有用。",
+        "整套词汇方法都应立即抛弃。",
+        "刚列举的过时词用途有限。",
+        "研究者完全没用词典。"
+      ],
+      "answer": 2,
+      "type": "逻辑关系",
+      "support": "explicit",
+      "analyses": [
+        "A not very useful 与普遍有用相反。",
+        "B 局部认可批评不等于否定整个方法。",
+        "C these words 回指 aery 与 breme 等 archaic 词。",
+        "D 前面明确词典研究；括号是叙述者评论，不是新实验结果。"
+      ],
+      "vocabulary": [
+        {
+          "word": "archaic",
+          "meaning": "古旧的；已不常用的",
+          "context": "本段解释多数人不用某些词，不是说词形拼错或人格特质消失。",
+          "example": "The poem contains several archaic expressions.",
+          "collocations": [
+            "archaic words",
+            "archaic terms"
+          ]
+        }
+      ],
+      "translation": "另一些人认为，aery、breme 等许多词已经过时，多数人不用。（这些词的确不太有用。）还有人说，个人词汇量差异很大，应删去晦涩词语。（大概如此。）",
+      "evidenceTargetIds": [
+        "c06-s02-p057-05235-s006"
+      ],
+      "evidence": [
+        {
+          "quote": "Others argued that many of the words, like “aery” and “breme,” were archaic and most people didn’t use them. (Indeed, these words are not very useful.) Yet others argued that there were large individual differences in vocabulary and that esoteric terms should be removed. (Probably true.)",
+          "sentenceIds": [
+            "c06-s02-p057-05235-s005",
+            "c06-s02-p057-05235-s006",
+            "c06-s02-p057-05235-s007",
+            "c06-s02-p057-05235-s008"
+          ],
+          "sources": [
+            {
+              "pdfPage": 57,
+              "block": 3,
+              "bbox": [
+                76.99,
+                523.5,
+                535,
+                694.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "a631fd7550b37af88574b1ffee092ed27803fb0e06b2a4314379a534b593ce03"
+    },
+    {
+      "id": "qe-c06-0045",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-019",
+      "parentQuestionId": "q-c06-032",
+      "chapterId": "c06",
+      "sectionId": "c06-s02",
+      "paragraphId": "c06-s02-p058-00750",
+      "readingUnitId": "c06-s02-p058-00750-r005-005",
+      "sentenceIds": [
+        "c06-s02-p058-00750-s002",
+        "c06-s02-p058-00750-s003",
+        "c06-s02-p058-00750-s004",
+        "c06-s02-p058-00750-s005"
+      ],
+      "passage": "For example, Lew Goldberg had 187 college students rate themselves on 1,710 terms: “How jolly are you in general? How reserved are you in general? How sadistic are you in general?” and so on.",
+      "prompt": "Who rated whom in Goldberg's example?",
+      "promptZh": "Goldberg 例子中，谁给谁评分？",
+      "options": [
+        "187 college students rated themselves using 1,710 terms.",
+        "1,710 students rated 187 obituary subjects.",
+        "Goldberg alone rated each student's entire future.",
+        "The obituary assistants rated themselves on twelve themes."
+      ],
+      "optionsZh": [
+        "187名大学生用1,710个词自评。",
+        "1,710名学生给187个讣告对象评分。",
+        "Goldberg 独自评价每位学生全部未来。",
+        "讣告助理按十二主题给自己评分。"
+      ],
+      "answer": 0,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A students rate themselves 保留人数、词数及自评方向。",
+        "B 人数与词数互换，又将材料改成讣告。",
+        "C 评分者是学生本人，不是他独自预测人生。",
+        "D 不同研究的助理与主题不可混入本例。"
+      ],
+      "vocabulary": [
+        {
+          "word": "rate themselves",
+          "meaning": "给自己评分；自我评估",
+          "context": "区别于先前助理根据他人讣告作他评。",
+          "example": "Participants rate themselves on a series of descriptive words.",
+          "collocations": [
+            "students rate themselves",
+            "self-rating terms"
+          ]
+        }
+      ],
+      "translation": "例如，Lew Goldberg 让 187 名大学生就 1,710 个词自评：“你一般有多快活？一般有多内敛？一般有多残虐？”等等。",
+      "evidenceTargetIds": [
+        "c06-s02-p058-00750-s002"
+      ],
+      "evidence": [
+        {
+          "quote": "For example, Lew Goldberg had 187 college students rate themselves on 1,710 terms: “How jolly are you in general? How reserved are you in general? How sadistic are you in general?” and so on.",
+          "sentenceIds": [
+            "c06-s02-p058-00750-s002",
+            "c06-s02-p058-00750-s003",
+            "c06-s02-p058-00750-s004",
+            "c06-s02-p058-00750-s005"
+          ],
+          "sources": [
+            {
+              "pdfPage": 58,
+              "block": 0,
+              "bbox": [
+                76.99,
+                75,
+                535.01,
+                187.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "sourceSegments": [
+        {
+          "paragraphId": "c06-s02-p058-00750",
+          "start": 229,
+          "end": 420,
+          "separator": "",
+          "text": "For example, Lew Goldberg had 187 college students rate themselves on 1,710 terms: “How jolly are you in general? How reserved are you in general? How sadistic are you in general?” and so on."
+        }
+      ],
+      "fingerprint": "4b98b9a012f8eb519ba9cc8833cdfa5c5ae31a153cbef1d422b56ee1d08c6115"
+    },
+    {
+      "id": "q-c06-033",
+      "version": 1,
+      "readingUnitId": "c06-s02-p058-01920-r001-004",
+      "chapterId": "c06",
+      "sectionId": "c06-s02",
+      "paragraphId": "c06-s02-p058-01920",
+      "sentenceIds": [
+        "c06-s02-p058-01920-s001",
+        "c06-s02-p058-01920-s002",
+        "c06-s02-p058-01920-s003",
+        "c06-s02-p058-01920-s004"
+      ],
+      "passage": "Goldberg’s study and others like it found that many personality traits cluster neatly into the following five factors: extraversion (e.g., jolly, talkative, sociable, active), neuroticism (e.g., touchy, fearful, self-critical), conscientiousness (e.g., persistent, tidy, dependable), agreeableness (e.g., generous, kind, trustful), and openness to experience (e.g., literary, insightful, perceptive). In a sense, personality psychologists created a map. Like cities and towns across the world, there are countless words descriptive of personality. By classifying all these words into five factors, personality psychologists essentially organized them into “continents” on the map.",
+      "prompt": "What does the comparison with continents help explain?",
+      "options": [
+        "Many personality-describing words are organised into a few broad factors.",
+        "Each personality trait belongs to a particular geographical continent.",
+        "The five factors correspond to five named countries.",
+        "Psychologists count only traits associated with large cities."
+      ],
+      "answer": 0,
+      "type": "作者意图",
+      "promptZh": "把人格因子比作大陆，有助于说明什么？",
+      "optionsZh": [
+        "大量人格描述词被整理为少数宽泛因子。",
+        "每种人格特质都属于某个地理大陆。",
+        "五个因子分别对应五个具名国家。",
+        "心理学家只统计与大城市有关的特质。"
+      ],
+      "analyses": [
+        "A words 对应城镇，five factors 对应大陆，突出归类层级。",
+        "B 比喻不能改成真实地理归属。",
+        "C 原文五因子是外向、神经质、尽责、宜人和经验开放性，没有五国配对。",
+        "D countless words 表示广泛词汇，并非只筛城市有关的特质。"
+      ],
+      "evidence": [
+        {
+          "quote": "By classifying all these words into five factors, personality psychologists essentially organized them into “continents” on the map.",
+          "sentenceIds": [
+            "c06-s02-p058-01920-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 58,
+              "block": 1,
+              "bbox": [
+                76.99,
+                192,
+                535.01,
+                401.52
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "cluster",
+          "meaning": "聚集；归成群",
+          "context": "人格描述词按关联形成较大的组，并非地理迁移",
+          "example": "The responses cluster around three broad themes.",
+          "collocations": [
+            "cluster into groups",
+            "cluster around a theme"
+          ]
+        }
+      ],
+      "translation": "Goldberg 的研究及类似研究发现，许多人格特质可以整齐归入五个因子：外向性（如快活、健谈、合群、活跃），神经质（如易怒、胆怯、自我批评），尽责性（如坚持、整洁、可靠），宜人性（如慷慨、友善、信任他人），以及经验开放性（如爱好文学、有洞见、感知敏锐）。从某种意义说，人格心理学家创造了一张地图。像世界各地的城镇一样，描述人格的词数不胜数。把这些词归为五个因子，就相当于把它们整理为地图上的“大陆”。",
+      "support": "explicit",
+      "editorialStatus": "PDF 第 58–62 页逐题原页核对；固定原句和已有单元边界；区分相关、自报、作者推论与个人叙事；保留概率语气及短语尾段",
+      "fingerprint": "7e4e4fb093b2bbb1b534dcc382b5c40a3928a93f9cf6ea10df7872881d811b0f"
+    },
+    {
+      "id": "qe-c06-0048",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-019",
+      "parentQuestionId": "q-c06-033",
+      "chapterId": "c06",
+      "sectionId": "c06-s02",
+      "paragraphId": "c06-s02-p058-01920",
+      "readingUnitId": "c06-s02-p058-01920-r001-004",
+      "sentenceIds": [
+        "c06-s02-p058-01920-s001",
+        "c06-s02-p058-01920-s002",
+        "c06-s02-p058-01920-s003",
+        "c06-s02-p058-01920-s004"
+      ],
+      "passage": "Goldberg’s study and others like it found that many personality traits cluster neatly into the following five factors: extraversion (e.g., jolly, talkative, sociable, active), neuroticism (e.g., touchy, fearful, self-critical), conscientiousness (e.g., persistent, tidy, dependable), agreeableness (e.g., generous, kind, trustful), and openness to experience (e.g., literary, insightful, perceptive). In a sense, personality psychologists created a map. Like cities and towns across the world, there are countless words descriptive of personality. By classifying all these words into five factors, personality psychologists essentially organized them into “continents” on the map.",
+      "prompt": "Which pair belongs to conscientiousness in the factor list?",
+      "promptZh": "因子列表中，哪一对属于尽责性？",
+      "options": [
+        "Jolly and talkative.",
+        "Fearful and self-critical.",
+        "Persistent and dependable.",
+        "Literary and perceptive."
+      ],
+      "optionsZh": [
+        "快活与健谈。",
+        "胆怯与自我批评。",
+        "坚持与可靠。",
+        "爱好文学与感知敏锐。"
+      ],
+      "answer": 2,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A 该对列在 extraversion。",
+        "B 该对列在 neuroticism。",
+        "C conscientiousness 括号内包括 persistent,tidy,dependable。",
+        "D 该对列在 openness to experience；这些是分类例词，不是每人都须完全匹配的标签诊断。"
+      ],
+      "vocabulary": [
+        {
+          "word": "conscientiousness",
+          "meaning": "尽责性；认真可靠、坚持有序的倾向",
+          "context": "五因素之一，例词为 persistent,tidy,dependable，不等于道德上优于所有人。",
+          "example": "Conscientiousness is reflected in her careful planning.",
+          "collocations": [
+            "conscientiousness and dependability",
+            "the conscientiousness factor"
+          ]
+        }
+      ],
+      "translation": "Goldberg 的研究及类似研究发现，许多人格特质可以整齐归入五个因子：外向性（如快活、健谈、合群、活跃），神经质（如易怒、胆怯、自我批评），尽责性（如坚持、整洁、可靠），宜人性（如慷慨、友善、信任他人），以及经验开放性（如爱好文学、有洞见、感知敏锐）。从某种意义说，人格心理学家创造了一张地图。像世界各地的城镇一样，描述人格的词数不胜数。把这些词归为五个因子，就相当于把它们整理为地图上的“大陆”。",
+      "evidenceTargetIds": [
+        "c06-s02-p058-01920-s001"
+      ],
+      "evidence": [
+        {
+          "quote": "Goldberg’s study and others like it found that many personality traits cluster neatly into the following five factors: extraversion (e.g., jolly, talkative, sociable, active), neuroticism (e.g., touchy, fearful, self-critical), conscientiousness (e.g., persistent, tidy, dependable), agreeableness (e.g., generous, kind, trustful), and openness to experience (e.g., literary, insightful, perceptive).",
+          "sentenceIds": [
+            "c06-s02-p058-01920-s001"
+          ],
+          "sources": [
+            {
+              "pdfPage": 58,
+              "block": 1,
+              "bbox": [
+                76.99,
+                192,
+                535.01,
+                401.52
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "e1e1c33666cc7b7a540a578e5f38ee09d8da7966e81e1aa3fd037401e5f64171"
+    },
+    {
+      "id": "qe-c06-0049",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-019",
+      "parentQuestionId": "q-c06-033",
+      "chapterId": "c06",
+      "sectionId": "c06-s02",
+      "paragraphId": "c06-s02-p058-01920",
+      "readingUnitId": "c06-s02-p058-01920-r001-004",
+      "sentenceIds": [
+        "c06-s02-p058-01920-s001",
+        "c06-s02-p058-01920-s002",
+        "c06-s02-p058-01920-s003",
+        "c06-s02-p058-01920-s004"
+      ],
+      "passage": "Goldberg’s study and others like it found that many personality traits cluster neatly into the following five factors: extraversion (e.g., jolly, talkative, sociable, active), neuroticism (e.g., touchy, fearful, self-critical), conscientiousness (e.g., persistent, tidy, dependable), agreeableness (e.g., generous, kind, trustful), and openness to experience (e.g., literary, insightful, perceptive). In a sense, personality psychologists created a map. Like cities and towns across the world, there are countless words descriptive of personality. By classifying all these words into five factors, personality psychologists essentially organized them into “continents” on the map.",
+      "prompt": "What is the 'map' a metaphor for in this discussion?",
+      "promptZh": "这里 map 比喻什么？",
+      "options": [
+        "A geographical map of the students' home towns.",
+        "The exact location of personality inside the brain.",
+        "An organisation of many personality descriptors into broader factors.",
+        "A schedule assigning each participant a travel destination."
+      ],
+      "optionsZh": [
+        "学生家乡的地理地图。",
+        "人格在大脑中的确切位置。",
+        "把大量人格描述词整理成较大因子的体系。",
+        "给每位参与者分配旅程目的地的时间表。"
+      ],
+      "answer": 2,
+      "type": "语境词义",
+      "support": "explicit",
+      "analyses": [
+        "A 后文城市与大陆是类比，不是真实制图。",
+        "B 没有神经定位证据。",
+        "C 五因子如大陆，众多描述词如城镇，强调分类组织。",
+        "D 不涉及出行分派。In a sense 保留比喻性质。"
+      ],
+      "vocabulary": [
+        {
+          "word": "In a sense",
+          "meaning": "从某种意义上说",
+          "context": "提示接下来的地图是比喻，而不是字面地理发现。",
+          "example": "In a sense, the outline is a map of the argument.",
+          "collocations": [
+            "In a sense",
+            "in one sense"
+          ]
+        }
+      ],
+      "translation": "Goldberg 的研究及类似研究发现，许多人格特质可以整齐归入五个因子：外向性（如快活、健谈、合群、活跃），神经质（如易怒、胆怯、自我批评），尽责性（如坚持、整洁、可靠），宜人性（如慷慨、友善、信任他人），以及经验开放性（如爱好文学、有洞见、感知敏锐）。从某种意义说，人格心理学家创造了一张地图。像世界各地的城镇一样，描述人格的词数不胜数。把这些词归为五个因子，就相当于把它们整理为地图上的“大陆”。",
+      "evidenceTargetIds": [
+        "c06-s02-p058-01920-s002"
+      ],
+      "evidence": [
+        {
+          "quote": "Goldberg’s study and others like it found that many personality traits cluster neatly into the following five factors: extraversion (e.g., jolly, talkative, sociable, active), neuroticism (e.g., touchy, fearful, self-critical), conscientiousness (e.g., persistent, tidy, dependable), agreeableness (e.g., generous, kind, trustful), and openness to experience (e.g., literary, insightful, perceptive). In a sense, personality psychologists created a map. Like cities and towns across the world, there are countless words descriptive of personality. By classifying all these words into five factors, personality psychologists essentially organized them into “continents” on the map.",
+          "sentenceIds": [
+            "c06-s02-p058-01920-s001",
+            "c06-s02-p058-01920-s002",
+            "c06-s02-p058-01920-s003",
+            "c06-s02-p058-01920-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 58,
+              "block": 1,
+              "bbox": [
+                76.99,
+                192,
+                535.01,
+                401.52
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "6df934ef67b28ee63955105a75a7d5abb72aae953e0a6b3047643da66caf895c"
+    },
+    {
+      "id": "qe-c06-0050",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-019",
+      "parentQuestionId": "q-c06-033",
+      "chapterId": "c06",
+      "sectionId": "c06-s02",
+      "paragraphId": "c06-s02-p058-01920",
+      "readingUnitId": "c06-s02-p058-01920-r001-004",
+      "sentenceIds": [
+        "c06-s02-p058-01920-s001",
+        "c06-s02-p058-01920-s002",
+        "c06-s02-p058-01920-s003",
+        "c06-s02-p058-01920-s004"
+      ],
+      "passage": "Goldberg’s study and others like it found that many personality traits cluster neatly into the following five factors: extraversion (e.g., jolly, talkative, sociable, active), neuroticism (e.g., touchy, fearful, self-critical), conscientiousness (e.g., persistent, tidy, dependable), agreeableness (e.g., generous, kind, trustful), and openness to experience (e.g., literary, insightful, perceptive). In a sense, personality psychologists created a map. Like cities and towns across the world, there are countless words descriptive of personality. By classifying all these words into five factors, personality psychologists essentially organized them into “continents” on the map.",
+      "prompt": "What do cities and towns correspond to in the analogy?",
+      "promptZh": "类比中的城市与城镇对应什么？",
+      "options": [
+        "Only the five broad personality factors.",
+        "The many words used to describe personality.",
+        "The five countries in which students were tested.",
+        "Places where each personality trait can exist exclusively."
+      ],
+      "optionsZh": [
+        "仅五个宽泛人格因子。",
+        "大量描写人格的词。",
+        "对学生测试的五个国家。",
+        "每种特质只能存在的专属地点。"
+      ],
+      "answer": 1,
+      "type": "逻辑关系",
+      "support": "explicit",
+      "analyses": [
+        "A 五因子后文比作大陆，不是城镇。",
+        "B there are countless words 紧接城市城镇，构成多数量级对应。",
+        "C 未给五国测试设定。",
+        "D 地理类比不是说人格特质按地点排他分布。"
+      ],
+      "vocabulary": [
+        {
+          "word": "countless",
+          "meaning": "数不胜数的；非常多的",
+          "context": "强调词汇数量繁多，非数学上已证明不可计数。",
+          "example": "There are countless ways to describe a memorable day.",
+          "collocations": [
+            "countless words",
+            "countless examples"
+          ]
+        }
+      ],
+      "translation": "Goldberg 的研究及类似研究发现，许多人格特质可以整齐归入五个因子：外向性（如快活、健谈、合群、活跃），神经质（如易怒、胆怯、自我批评），尽责性（如坚持、整洁、可靠），宜人性（如慷慨、友善、信任他人），以及经验开放性（如爱好文学、有洞见、感知敏锐）。从某种意义说，人格心理学家创造了一张地图。像世界各地的城镇一样，描述人格的词数不胜数。把这些词归为五个因子，就相当于把它们整理为地图上的“大陆”。",
+      "evidenceTargetIds": [
+        "c06-s02-p058-01920-s003"
+      ],
+      "evidence": [
+        {
+          "quote": "Goldberg’s study and others like it found that many personality traits cluster neatly into the following five factors: extraversion (e.g., jolly, talkative, sociable, active), neuroticism (e.g., touchy, fearful, self-critical), conscientiousness (e.g., persistent, tidy, dependable), agreeableness (e.g., generous, kind, trustful), and openness to experience (e.g., literary, insightful, perceptive). In a sense, personality psychologists created a map. Like cities and towns across the world, there are countless words descriptive of personality. By classifying all these words into five factors, personality psychologists essentially organized them into “continents” on the map.",
+          "sentenceIds": [
+            "c06-s02-p058-01920-s001",
+            "c06-s02-p058-01920-s002",
+            "c06-s02-p058-01920-s003",
+            "c06-s02-p058-01920-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 58,
+              "block": 1,
+              "bbox": [
+                76.99,
+                192,
+                535.01,
+                401.52
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "263b8ebcb3c30d9cae2f82c9dbc6eaa1328f7c0350fa0011145e1e19d3a58b98"
+    }
+  ]
+}

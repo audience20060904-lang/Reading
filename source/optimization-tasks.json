@@ -6,10 +6,10 @@
     "status": "in-progress",
     "taskRecord": "source/question-semantic-audit.json",
     "batchLimitSourceCandidates": 25,
-    "currentBatch": "050",
-    "currentBatchStatus": "published-and-verified",
-    "nextBatch": "051",
-    "remainingQuestions": 1791,
+    "currentBatch": "051",
+    "currentBatchStatus": "local-verified-awaiting-publication",
+    "nextBatch": "052",
+    "remainingQuestions": 1771,
     "lastSuccessfulRelease": "source/releases/question-review-050.json",
     "notice": "New per-question review scope; the earlier 261-candidate queue and its receipts remain complete and immutable.",
     "relatedFollowUpFindings": [
@@ -26,8 +26,7 @@
         "reason": "Current answer directly paraphrases its sole source sentence, but existing type/support labels are 推断/inference. Preserve the correct question and historical labels for now; review versioned classification support in the compiler before a dedicated metadata correction. This is not an incorrect answer."
       }
     ],
-    "lastDeploymentIncident": "source/question-revisions/review-039-deployment-incident.json",
-    "checkpoint": "source/question-revisions/review-050-checkpoint.json"
+    "lastDeploymentIncident": "source/question-revisions/review-039-deployment-incident.json"
   },
   "interface": [
     {
