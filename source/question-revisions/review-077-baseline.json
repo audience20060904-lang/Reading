@@ -1,0 +1,554 @@
+{
+  "pdfSha256": "be25c859f1bd894a4b0d1cff024ded1297f6a96a8e8ddabea1e3abcf89160a50",
+  "sourceCommit": "e239b2146762b4e3b04d10ebd4365bc4b7f8a71c",
+  "frozenTargetsSourceCommit": "0a53593fdf56e88bdcb03fe50c7fb49eb206d345",
+  "questions": [
+    {
+      "id": "qe-c09-0028",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-033",
+      "parentQuestionId": "q-c09-015",
+      "chapterId": "c09",
+      "sectionId": "c09-s02",
+      "paragraphId": "c09-s02-p091-03990",
+      "readingUnitId": "c09-s02-p091-03990-r001-004",
+      "sentenceIds": [
+        "c09-s02-p091-03990-s001",
+        "c09-s02-p091-03990-s002",
+        "c09-s02-p091-03990-s003",
+        "c09-s02-p091-03990-s004"
+      ],
+      "passage": "As the above example shows, it is possible to achieve psychological richness indirectly through books, movies, and art. But not all reading or watching experiences are rich. So what is the key to a psychologically rich aesthetic experience? First, while reading or watching, one gets so immersed in the narrative world described in the story that they don’t notice minor changes in the physical world around them (e.g., someone entering the room): a complete melding of attention, imagery, and feeling that psychologists call “transportation.”",
+      "prompt": "What possibility does the opening sentence establish about books, movies, and art?",
+      "promptZh": "开头这句对书、电影与艺术确立什么可能性？",
+      "options": [
+        "They can provide psychological richness indirectly, without every such experience necessarily doing so.",
+        "They can enrich a life only after physical travel to the events portrayed.",
+        "Every reading or viewing experience automatically produces equal richness.",
+        "They produce happiness only and cannot be relevant to psychological richness."
+      ],
+      "optionsZh": [
+        "它们能间接带来心理丰富性，但并非每次体验必然如此。",
+        "只有实际旅行到所述事件中才可使生活丰富。",
+        "每次阅读观看自动产生同等丰富性。",
+        "只能产生幸福，与心理丰富性无关。"
+      ],
+      "answer": 0,
+      "type": "主旨",
+      "support": "explicit",
+      "analyses": [
+        "A possible 与 indirectly 表达可通过媒介获得；后句 not all 阻止将可能性夸大为必然。",
+        "B indirectly 与必须实际到场相反。",
+        "C 删除 possible 并违背 not all，也无同等效果。",
+        "D 本句明确 psychological richness；作者从前面的阅读例子过渡到一般审美体验，不是新统计结论。"
+      ],
+      "vocabulary": [
+        {
+          "word": "indirectly",
+          "meaning": "间接地；通过媒介而非亲历地",
+          "context": "此处以书、电影、艺术体验叙事，不要求自己实际经历故事中的事件。",
+          "example": "The reader encountered the unfamiliar setting indirectly through fiction.",
+          "collocations": [
+            "achieve psychological richness indirectly",
+            "through books, movies, and art"
+          ]
+        }
+      ],
+      "translation": "如上述例子，确有可能通过书、电影和艺术间接获得心理丰富性。但并非所有阅读或观看都丰富。那么丰富的审美体验关键是什么？首先，读或看时，人会如此沉浸在故事世界，以至于不注意外界的小变化，例如有人进房间：注意、想象与情感完全融合，心理学家称为“叙事沉浸”。",
+      "evidenceTargetIds": [
+        "c09-s02-p091-03990-s001"
+      ],
+      "evidence": [
+        {
+          "quote": "As the above example shows, it is possible to achieve psychological richness indirectly through books, movies, and art.",
+          "sentenceIds": [
+            "c09-s02-p091-03990-s001"
+          ],
+          "sources": [
+            {
+              "pdfPage": 91,
+              "block": 2,
+              "bbox": [
+                76.99,
+                399,
+                535.01,
+                686.52
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "164ccdc8f1a2d679cb065e33a2bc6bbbcb969662126cf93b323dfab71bc6acbe"
+    },
+    {
+      "id": "q-c09-017",
+      "version": 1,
+      "readingUnitId": "c09-s02-p091-03990-r009-010",
+      "chapterId": "c09",
+      "sectionId": "c09-s02",
+      "paragraphId": "c09-s02-p091-03990",
+      "sentenceIds": [
+        "c09-s02-p091-03990-s009",
+        "c09-s02-p091-03990-s010"
+      ],
+      "passage": "In order for the reading or watching experience to be rich, it has to remain vivid in one’s memory. In other words, unless these experiences are retained in your mind, they are not enriching your life.",
+      "prompt": "How is retaining an experience related to richness here?",
+      "options": [
+        "Retention is presented as necessary for the experience to enrich one’s life.",
+        "Retention alone is said to guarantee every form of richness.",
+        "Forgetting is presented as the key to enrichment.",
+        "Vivid memories are said to prevent indirect experiences."
+      ],
+      "answer": 0,
+      "type": "逻辑关系",
+      "promptZh": "这里保留体验记忆与丰富性有什么关系？",
+      "optionsZh": [
+        "保留记忆被视为体验丰富人生的必要条件。",
+        "只要记住，就保证所有丰富性。",
+        "遗忘被视为丰富人生的关键。",
+        "鲜明记忆会阻止间接体验。"
+      ],
+      "analyses": [
+        "A unless...retained...not enriching 支持必要条件。",
+        "B 必要不等于充分，不能加 alone guarantee。",
+        "C not enriching 与遗忘有益相反。",
+        "D 这里谈阅读观看，未排除间接体验。IELTS 逻辑题注意 unless 表示条件，而非把条件倒转。"
+      ],
+      "evidence": [
+        {
+          "quote": "unless these experiences are retained in your mind, they are not enriching your life.",
+          "sentenceIds": [
+            "c09-s02-p091-03990-s010"
+          ],
+          "sources": [
+            {
+              "pdfPage": 91,
+              "block": 2,
+              "bbox": [
+                76.99,
+                399,
+                535.01,
+                686.52
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "retained",
+          "meaning": "被保留；被记住",
+          "context": "经验留存在心中，而非保留实体票据",
+          "example": "Details of the journey were retained in her memory.",
+          "collocations": [
+            "be retained in memory",
+            "retain an experience"
+          ]
+        }
+      ],
+      "translation": "要让阅读或观看体验丰富，它必须在记忆中保持鲜明。换句话说，除非这些体验保留在心里，否则它们没有在丰富你的人生。",
+      "support": "explicit",
+      "editorialStatus": "PDF第90–93页逐题核对；人物引语、个人反思、假设、比喻和哲学论述分别归属；跨短段引号按原书保留",
+      "fingerprint": "0f5ba1a4866f63a4850290d1787e33eb1936af7f1effd3aa0bb1860fc13c3625"
+    },
+    {
+      "id": "q-c09-018",
+      "version": 1,
+      "readingUnitId": "c09-s02-p092-00750-r001-004",
+      "chapterId": "c09",
+      "sectionId": "c09-s02",
+      "paragraphId": "c09-s02-p092-00750",
+      "sentenceIds": [
+        "c09-s02-p092-00750-s001",
+        "c09-s02-p092-00750-s002",
+        "c09-s02-p092-00750-s003",
+        "c09-s02-p092-00750-s004"
+      ],
+      "passage": "Just as material wealth requires the accumulation of money, psychological richness requires the accumulation of interesting experiences, directly or indirectly. Some sensation-seekers go all over the world only to find that these diverse experiences do not seem to add up to a satisfying life. They constantly need new experiences. They are like high-income individuals who spend all the money they earn.",
+      "prompt": "What does the comparison with high earners illustrate?",
+      "options": [
+        "Frequent travel always produces a satisfying life.",
+        "Psychological richness requires literally earning more money.",
+        "Having many experiences need not build lasting richness if they do not accumulate.",
+        "All sensation-seekers have low incomes."
+      ],
+      "answer": 2,
+      "type": "作者意图",
+      "promptZh": "与高收入者的比较说明什么？",
+      "optionsZh": [
+        "频繁旅行总会带来满意人生。",
+        "丰富性要求真的赚更多钱。",
+        "若体验未积累，经历很多也未必形成持续丰富性。",
+        "所有寻刺激者收入都低。"
+      ],
+      "analyses": [
+        "A some...do not seem...satisfying 正是反例。",
+        "B money 是类比，不是心理丰富的字面门槛。",
+        "C 经历不断发生却不积累，类比赚得多却花光；保留 some 的范围。",
+        "D 没有寻刺激者收入调查。类比帮助说明观点，不是实验验证所有旅行者。"
+      ],
+      "evidence": [
+        {
+          "quote": "psychological richness requires the accumulation of interesting experiences",
+          "sentenceIds": [
+            "c09-s02-p092-00750-s001"
+          ],
+          "sources": [
+            {
+              "pdfPage": 92,
+              "block": 0,
+              "bbox": [
+                76.99,
+                75,
+                535.01,
+                226.02
+              ]
+            }
+          ]
+        },
+        {
+          "quote": "They are like high-income individuals who spend all the money they earn.",
+          "sentenceIds": [
+            "c09-s02-p092-00750-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 92,
+              "block": 0,
+              "bbox": [
+                76.99,
+                75,
+                535.01,
+                226.02
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "accumulation",
+          "meaning": "积累",
+          "context": "强调体验留存成整体，而不只是不断追新",
+          "example": "The archive grew through the accumulation of small discoveries.",
+          "collocations": [
+            "the accumulation of experiences",
+            "gradual accumulation"
+          ]
+        }
+      ],
+      "translation": "如同物质财富需要积累金钱，心理丰富也需要积累直接或间接的有趣体验。有些寻刺激者走遍世界，却发现这些多样经历似乎没合成令人满意的人生。他们不断需要新体验，就像把收入全花光的高收入者。",
+      "support": "explicit",
+      "editorialStatus": "PDF第90–93页逐题核对；人物引语、个人反思、假设、比喻和哲学论述分别归属；跨短段引号按原书保留",
+      "fingerprint": "62354113a9a9b612c186a4cff930e7bac32ba8baaa2066dd4d5e79896cfc0c66"
+    },
+    {
+      "id": "q-c09-019",
+      "version": 1,
+      "readingUnitId": "c09-s02-p092-00750-r005-006",
+      "chapterId": "c09",
+      "sectionId": "c09-s02",
+      "paragraphId": "c09-s02-p092-00750",
+      "sentenceIds": [
+        "c09-s02-p092-00750-s005",
+        "c09-s02-p092-00750-s006"
+      ],
+      "passage": "Just as high-income individuals need to save money in order to be materially rich, the psychologically rich need to remember and cherish their experiences. The memory is crucial.",
+      "prompt": "What corresponds to saving money in the psychological-richness analogy?",
+      "options": [
+        "Constantly replacing one experience with another.",
+        "Remembering and cherishing one’s experiences.",
+        "Avoiding all new experiences.",
+        "Turning each memory into a financial asset."
+      ],
+      "answer": 1,
+      "type": "同义改写",
+      "promptZh": "心理丰富性的类比中，什么对应于存钱？",
+      "optionsZh": [
+        "不断用新体验替换旧体验。",
+        "记住并珍惜自己的经历。",
+        "避开全部新体验。",
+        "把每个记忆变成金融资产。"
+      ],
+      "analyses": [
+        "A 对应不断消费，不是保留。",
+        "B remember and cherish 是明确对应。",
+        "C 保留旧经历不等于不尝试新事物。",
+        "D 没有把记忆交易变现的要求。类比映射“保存”，不是把两类财富混成同一东西。"
+      ],
+      "evidence": [
+        {
+          "quote": "the psychologically rich need to remember and cherish their experiences.",
+          "sentenceIds": [
+            "c09-s02-p092-00750-s005"
+          ],
+          "sources": [
+            {
+              "pdfPage": 92,
+              "block": 0,
+              "bbox": [
+                76.99,
+                75,
+                535.01,
+                226.02
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "cherish",
+          "meaning": "珍惜；珍爱",
+          "context": "珍视经历，让它们在记忆中积累",
+          "example": "They cherish the memories of their first journey together.",
+          "collocations": [
+            "cherish an experience",
+            "cherish memories"
+          ]
+        }
+      ],
+      "translation": "如同高收入者需存钱才会物质富有，心理丰富的人也需要记住、珍惜经历。记忆至关重要。",
+      "support": "explicit",
+      "editorialStatus": "PDF第90–93页逐题核对；人物引语、个人反思、假设、比喻和哲学论述分别归属；跨短段引号按原书保留",
+      "fingerprint": "2f83287b776090e9f2810ac09d18fc5e7a8aedb71aef1066f34255718458b4a2"
+    },
+    {
+      "id": "qe-c09-0037",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-034",
+      "parentQuestionId": "q-c09-020",
+      "chapterId": "c09",
+      "sectionId": "c09-s02",
+      "paragraphId": "c09-s02-p092-02310",
+      "readingUnitId": "c09-s02-p092-02310-r001-003",
+      "sentenceIds": [
+        "c09-s02-p092-02310-s001",
+        "c09-s02-p092-02310-s002",
+        "c09-s02-p092-02310-s003"
+      ],
+      "passage": "Lastly, in order for reading and watching to be rich, it has to have some complexity and eventually change your perspective. The film Home Alone is highly immersive, fun, and even memorable. But it was not that psychologically rich, mainly because it did not have much complexity and did not change my perspective in life.",
+      "prompt": "What additional qualities are introduced by 'Lastly'?",
+      "promptZh": "Lastly 引入哪项额外要求？",
+      "options": [
+        "Only a longer running time and more expensive tickets.",
+        "Some complexity and an eventual change in perspective.",
+        "Complete absence of thought once immersion begins.",
+        "Memorability without any other possible condition."
+      ],
+      "optionsZh": [
+        "仅更长片长与更贵票价。",
+        "一定复杂性，以及最终视角改变。",
+        "沉浸开始后完全不思考。",
+        "只要记得，便不需任何其他条件。"
+      ],
+      "answer": 1,
+      "type": "逻辑关系",
+      "support": "explicit",
+      "analyses": [
+        "A 原文未提片长或价钱。",
+        "B complexity 与 eventually change your perspective 并列，是在沉浸和记忆之外补充。",
+        "C 复杂性、视角改变与不思考不符。",
+        "D Lastly 恰说明还有要求，不能把记得当充分保证。"
+      ],
+      "vocabulary": [
+        {
+          "word": "perspective",
+          "meaning": "看法；理解事物的视角",
+          "context": "这里为人生看法，而非摄影机位置或画面透视技术。",
+          "example": "The memoir changed her perspective on responsibility.",
+          "collocations": [
+            "change your perspective",
+            "some complexity"
+          ]
+        }
+      ],
+      "translation": "最后，要让阅读观看丰富，它还须有一定复杂性，并最终改变视角。Home Alone 很沉浸、好玩，甚至令人记得，但对我而言并不特别心理丰富，主要因为不够复杂，也未改变我看人生的方式。",
+      "evidenceTargetIds": [
+        "c09-s02-p092-02310-s001"
+      ],
+      "evidence": [
+        {
+          "quote": "Lastly, in order for reading and watching to be rich, it has to have some complexity and eventually change your perspective. The film Home Alone is highly immersive, fun, and even memorable. But it was not that psychologically rich, mainly because it did not have much complexity and did not change my perspective in life.",
+          "sentenceIds": [
+            "c09-s02-p092-02310-s001",
+            "c09-s02-p092-02310-s002",
+            "c09-s02-p092-02310-s003"
+          ],
+          "sources": [
+            {
+              "pdfPage": 92,
+              "block": 1,
+              "bbox": [
+                76.99,
+                231,
+                535.01,
+                323.52
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "f9670c455b020c8117fdba2aae594831b5c7735486034e10ae51abd94370147f"
+    },
+    {
+      "id": "q-c09-021",
+      "version": 1,
+      "readingUnitId": "c09-s02-p092-03285-r001-004",
+      "chapterId": "c09",
+      "sectionId": "c09-s02",
+      "paragraphId": "c09-s02-p092-03285",
+      "sentenceIds": [
+        "c09-s02-p092-03285-s001",
+        "c09-s02-p092-03285-s002",
+        "c09-s02-p092-03285-s003",
+        "c09-s02-p092-03285-s004"
+      ],
+      "passage": "What psychologically rich films have you watched? For me, Akira Kurosawa’s 1950 film Rashomon falls into this category of a rich aesthetic experience. The film revolves around a single event, the murder of a samurai, but the four main characters each provide completely different accounts of what happened. Each character leads the audience to believe that their version is the truth, but the next version goes on to contradict the previous one just as convincingly.",
+      "prompt": "What narrative feature of Rashomon is described?",
+      "options": [
+        "Four unrelated crimes are solved by one consistent witness.",
+        "The audience receives one account that nobody disputes.",
+        "The final version is identified here as objectively proven true.",
+        "Four characters give conflicting but convincing accounts of one event."
+      ],
+      "answer": 3,
+      "type": "细节",
+      "promptZh": "这里描述 Rashomon 的什么叙事特点？",
+      "optionsZh": [
+        "四件无关案件由同一证人解决。",
+        "只有一个无人争议的版本。",
+        "本段指出最终版本已客观证实。",
+        "四个人对同一事件给出冲突却可信的叙述。"
+      ],
+      "analyses": [
+        "A single event 而非四件案。",
+        "B completely different 与 contradict 表示多版本冲突。",
+        "C 片段没判定哪个客观为真。",
+        "D 四个角色、同一事件、相互推翻却同样有说服力都吻合。这是电影结构，不是四份现实证词的研究。"
+      ],
+      "evidence": [
+        {
+          "quote": "the four main characters each provide completely different accounts of what happened.",
+          "sentenceIds": [
+            "c09-s02-p092-03285-s003"
+          ],
+          "sources": [
+            {
+              "pdfPage": 92,
+              "block": 2,
+              "bbox": [
+                76.99,
+                328.5,
+                535.01,
+                557.52
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "accounts",
+          "meaning": "叙述；说法",
+          "context": "对同一事件的版本，不是银行账户",
+          "example": "The witnesses gave different accounts of the meeting.",
+          "collocations": [
+            "conflicting accounts",
+            "an account of what happened"
+          ]
+        }
+      ],
+      "translation": "你看过哪些心理丰富电影？对我而言，Akira Kurosawa 的 1950 年电影 Rashomon 属于此类。影片围绕武士被杀这一事件，但四个主要角色各说出完全不同的经过。每人让观众相信自己的版本是真相，下一版本却又同样令人信服地反驳前一版本。",
+      "support": "explicit",
+      "editorialStatus": "PDF第90–93页逐题核对；人物引语、个人反思、假设、比喻和哲学论述分别归属；跨短段引号按原书保留",
+      "fingerprint": "705784a7b53498ff1db07cb0e79d17688c5a5246d970b210e94a53f4be257820"
+    },
+    {
+      "id": "qe-c09-0039",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-034",
+      "parentQuestionId": "q-c09-021",
+      "chapterId": "c09",
+      "sectionId": "c09-s02",
+      "paragraphId": "c09-s02-p092-03285",
+      "readingUnitId": "c09-s02-p092-03285-r001-004",
+      "sentenceIds": [
+        "c09-s02-p092-03285-s001",
+        "c09-s02-p092-03285-s002",
+        "c09-s02-p092-03285-s003",
+        "c09-s02-p092-03285-s004"
+      ],
+      "passage": "What psychologically rich films have you watched? For me, Akira Kurosawa’s 1950 film Rashomon falls into this category of a rich aesthetic experience. The film revolves around a single event, the murder of a samurai, but the four main characters each provide completely different accounts of what happened. Each character leads the audience to believe that their version is the truth, but the next version goes on to contradict the previous one just as convincingly.",
+      "prompt": "What purpose is served by the question inviting readers to name psychologically rich films?",
+      "promptZh": "What psychologically rich films have you watched? 起什么作用？",
+      "options": [
+        "It supplies the reader's actual viewing history.",
+        "It declares that only the author's favourite film can be rich.",
+        "It ends the discussion without any example.",
+        "It invites reflection and introduces the author's example of Rashomon."
+      ],
+      "optionsZh": [
+        "提供读者真实观影历史。",
+        "宣告只有作者最喜欢的片才丰富。",
+        "不举例便终止讨论。",
+        "邀请反思，并引出作者的 Rashomon 例子。"
+      ],
+      "answer": 3,
+      "type": "作者意图",
+      "support": "explicit",
+      "analyses": [
+        "A 提问不等于网站已有或虚构读者历史。",
+        "B 没有 only 或排他作品标准。",
+        "C 下一句立即给 For me 例子。",
+        "D 向读者发问后转作者个人例子，不要求读者事先看过该片才能理解当前文字。"
+      ],
+      "vocabulary": [
+        {
+          "word": "psychologically rich films",
+          "meaning": "带来心理丰富性的电影",
+          "context": "描述一种体验维度，不等同单纯票房高、欢乐或片长长。",
+          "example": "The discussion asked which psychologically rich films had stayed with the viewers.",
+          "collocations": [
+            "psychologically rich films",
+            "a rich aesthetic experience"
+          ]
+        }
+      ],
+      "translation": "你看过哪些心理丰富电影？对我而言，Akira Kurosawa 的 1950 年电影 Rashomon 属于此类。影片围绕武士被杀这一事件，但四个主要角色各说出完全不同的经过。每人让观众相信自己的版本是真相，下一版本却又同样令人信服地反驳前一版本。",
+      "evidenceTargetIds": [
+        "c09-s02-p092-03285-s001"
+      ],
+      "evidence": [
+        {
+          "quote": "What psychologically rich films have you watched? For me, Akira Kurosawa’s 1950 film Rashomon falls into this category of a rich aesthetic experience. The film revolves around a single event, the murder of a samurai, but the four main characters each provide completely different accounts of what happened. Each character leads the audience to believe that their version is the truth, but the next version goes on to contradict the previous one just as convincingly.",
+          "sentenceIds": [
+            "c09-s02-p092-03285-s001",
+            "c09-s02-p092-03285-s002",
+            "c09-s02-p092-03285-s003",
+            "c09-s02-p092-03285-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 92,
+              "block": 2,
+              "bbox": [
+                76.99,
+                328.5,
+                535.01,
+                557.52
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "6af1480b7e585a9662bf369ff4edfc6ccaa4f1b57ad5af766d85da8064531daf"
+    }
+  ]
+}
