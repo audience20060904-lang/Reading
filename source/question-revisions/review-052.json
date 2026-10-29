@@ -1,0 +1,160 @@
+{
+  "schemaVersion": 1,
+  "id": "question-review-2026-10-28-052",
+  "pdfSha256": "be25c859f1bd894a4b0d1cff024ded1297f6a96a8e8ddabea1e3abcf89160a50",
+  "scope": "Review 20 questions /22 source candidates on actual PDF59–60. Correlation and exceptions, comparative sentence evidence, opportunity constraints, pronoun-contained prompts and biographical degree/patent chronology. No original wording, source IDs or answer keys changed.",
+  "questions": [
+    {
+      "id": "q-c06-041",
+      "reason": "问题比较高低开放学生，逐字证据补齐同句than those low in openness，不仅截取比较前半句，来源ID不变。",
+      "updates": {
+        "evidence": [
+          {
+            "quote": "Students who are open to experience are more likely to study abroad, an activity known to enhance psychological richness, than those low in openness.",
+            "sentenceIds": [
+              "c06-s03-p059-03870-s004"
+            ],
+            "sources": [
+              {
+                "pdfPage": 59,
+                "block": 2,
+                "bbox": [
+                  76.99,
+                  387,
+                  535.02,
+                  674.52
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "qe-c06-0057",
+      "reason": "排除大声说话只据当前列举，不借外向性定义。",
+      "updates": {
+        "analyses": [
+          "A 与 interested 相反。",
+          "B 当前列出的是想象力、好奇心及知识和艺术兴趣，没有说仅凭总是大声说话就能识别。",
+          "C imaginative,curious 与两类 pursuits 均为原句。",
+          "D 兴趣特征不等于已完成所有活动或拥有资源。"
+        ]
+      }
+    },
+    {
+      "id": "qe-c06-0061",
+      "reason": "解析去父段这一数据层术语，直接指当前首句与机会条件。",
+      "updates": {
+        "analyses": [
+          "A might 保留推测，非终生测量证明。",
+          "B 把可能一直开放反写为确定不开放。",
+          "C 与后文缺少机会相结合，有限推论区分性格和探索机会。",
+          "D 当前第一句就说开放性不一定保证心理丰富，后文又说明探索机会有限，不能省略机会条件。"
+        ]
+      }
+    },
+    {
+      "id": "qe-c06-0062",
+      "reason": "当前hooked题不预告下一短段想继续的句子。",
+      "updates": {
+        "analyses": [
+          "A hooked 在此是着迷，结合前文机会有限的经历理解。",
+          "B 不是被钩住或困住的字面义。",
+          "C 当前只说接触公园后她着迷了，没有说已经游遍全部国家公园。",
+          "D 与着迷相反，不擅作成瘾诊断。"
+        ]
+      }
+    },
+    {
+      "id": "qe-c06-0063",
+      "reason": "当前只显示She，题干不要求知道前段Joy姓名；排除不借前面词典研究。",
+      "updates": {
+        "prompt": "What did she want to do thereafter?",
+        "promptZh": "她此后想做什么？",
+        "analyses": [
+          "A even more new experiences 与停止相反。",
+          "B 当前愿望明确为 wanted to visit all the national parks，没有编写人格词典的内容。",
+          "C wanted to visit all...明确愿望，不等于已完成。",
+          "D 下一句恰把机会资源与性格并列，不支持从不重要。"
+        ],
+        "vocabulary": [
+          {
+            "word": "thereafter",
+            "meaning": "此后；在那以后",
+            "context": "thereafter 承接她变得更愿尝试新经历，标记之后想做的事；愿望不代表已经完成。",
+            "example": "She joined one walk and thereafter attended the group regularly.",
+            "collocations": [
+              "thereafter wanted to",
+              "thereafter became"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-c06-045",
+      "reason": "aerospace完整译航空航天，学历机构补中文并保留英文，讣告评级保留文本所述人生语境。；专利时序题不额外借智力标签推断人群。",
+      "updates": {
+        "translation": "除了机会和资源，智力与艺术能力也是因素。Simon Ramo 是一名航空航天工程师，《纽约时报》讣告对他人生的记述被评为心理体验格外丰富。他在加州理工学院（California Institute of Technology）获得物理与工程博士学位，后来研制洲际弹道导弹，即ICBM。他一生出版了六十二本书；三十岁以前就有二十五项专利，并在一百岁时取得最后一项专利。",
+        "analyses": [
+          "A 把早年专利与晚年最后一项合并为同一时间。",
+          "B 原文最后一项在 age one hundred。",
+          "C sixty-two 指书的数量，不是专利数。",
+          "D twenty-five、before he was thirty、final patent 和 at age one hundred 分别对应数量与时间；这里是个人事例，不能推广为每个人必然如此。"
+        ]
+      }
+    },
+    {
+      "id": "qe-c06-0064",
+      "reason": "aerospace完整译航空航天，学历机构补中文并保留英文，讣告评级保留文本所述人生语境。",
+      "updates": {
+        "translation": "除了机会和资源，智力与艺术能力也是因素。Simon Ramo 是一名航空航天工程师，《纽约时报》讣告对他人生的记述被评为心理体验格外丰富。他在加州理工学院（California Institute of Technology）获得物理与工程博士学位，后来研制洲际弹道导弹，即ICBM。他一生出版了六十二本书；三十岁以前就有二十五项专利，并在一百岁时取得最后一项专利。"
+      }
+    },
+    {
+      "id": "qe-c06-0065",
+      "reason": "aerospace完整译航空航天，学历机构补中文并保留英文，讣告评级保留文本所述人生语境。；职业排除只据当前主句，不借未显示Louis Cha或Joy前后文，中文职业范围一致。",
+      "updates": {
+        "translation": "除了机会和资源，智力与艺术能力也是因素。Simon Ramo 是一名航空航天工程师，《纽约时报》讣告对他人生的记述被评为心理体验格外丰富。他在加州理工学院（California Institute of Technology）获得物理与工程博士学位，后来研制洲际弹道导弹，即ICBM。他一生出版了六十二本书；三十岁以前就有二十五项专利，并在一百岁时取得最后一项专利。",
+        "analyses": [
+          "A 他的讣告被评分，不等于他写所有讣告。",
+          "B was an aerospace engineer 是主句职业。",
+          "C 当前明确职业是 aerospace engineer，而不是以金庸著称的小说家。",
+          "D 当前主句是 was an aerospace engineer，没有说国家公园导游；whose 从句是在说明他的讣告。"
+        ],
+        "optionsZh": [
+          "撰写全部讣告的报纸编辑。",
+          "航空航天工程师。",
+          "以金庸著称的小说家。",
+          "国家公园导游。"
+        ]
+      }
+    },
+    {
+      "id": "qe-c06-0066",
+      "reason": "aerospace完整译航空航天，学历机构补中文并保留英文，讣告评级保留文本所述人生语境。；正确项沿用当前显示的机构全称，无需额外识别Caltech缩写；去无关技术制作备注。",
+      "updates": {
+        "translation": "除了机会和资源，智力与艺术能力也是因素。Simon Ramo 是一名航空航天工程师，《纽约时报》讣告对他人生的记述被评为心理体验格外丰富。他在加州理工学院（California Institute of Technology）获得物理与工程博士学位，后来研制洲际弹道导弹，即ICBM。他一生出版了六十二本书；三十岁以前就有二十五项专利，并在一百岁时取得最后一项专利。",
+        "options": [
+          "He developed ICBMs before receiving any education mentioned in the passage.",
+          "He earned a literature degree and then became a tennis coach.",
+          "He earned a PhD in physics and engineering from the California Institute of Technology, then developed ICBMs.",
+          "He earned his PhD from the Straits Times and later wrote its obituaries."
+        ],
+        "optionsZh": [
+          "在本段所提教育之前研制 ICBM。",
+          "获得文学学位后成为网球教练。",
+          "在加州理工学院获物理与工程博士，后来研制ICBM。",
+          "在海峡时报获博士后为其写讣告。"
+        ],
+        "analyses": [
+          "A later 指研制在获学位之后。",
+          "B 专业和后续职业被替换。",
+          "C 保留 California Institute of Technology、physics and engineering 以及 later 的先后顺序。",
+          "D 原文博士授予机构是 California Institute of Technology，不是 The Straits Times。"
+        ]
+      }
+    }
+  ]
+}
