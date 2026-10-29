@@ -1,0 +1,1941 @@
+{
+  "schemaVersion": 1,
+  "batchId": "question-review-2026-10-28-072",
+  "sourceCommit": "99a89463f30fbb4046fa5e3df993f0c951475b98",
+  "pdfSha256": "be25c859f1bd894a4b0d1cff024ded1297f6a96a8e8ddabea1e3abcf89160a50",
+  "frozenAt": "2026-10-29T09:56:58.671Z",
+  "questions": [
+    {
+      "id": "q-c08-039",
+      "version": 1,
+      "readingUnitId": "c08-s05-p084-05940-r008-011",
+      "chapterId": "c08",
+      "sectionId": "c08-s05",
+      "paragraphId": "c08-s05-p084-05940",
+      "sentenceIds": [
+        "c08-s05-p084-05940-s008",
+        "c08-s05-p084-05940-s009",
+        "c08-s05-p084-05940-s010",
+        "c08-s05-p084-05940-s011"
+      ],
+      "passage": "If they hit the wait button, they had to wait for a certain amount of time (the precise time was randomized between ten and fifteen seconds) to get an answer (e.g., Abraham Lincoln). Typically, curious people wanted to know the answer, so they were willing to wait. Our experiment consisted of fifteen questions. The more answers someone waited for, the more curious they were.",
+      "prompt": "How was curiosity operationalized in the fifteen-question task?",
+      "options": [
+        "By the speed with which a person pressed skip.",
+        "By how many answers a person was willing to wait for.",
+        "By whether a person already knew the president’s name.",
+        "By the number of seconds participants chose for each delay."
+      ],
+      "answer": 1,
+      "type": "细节",
+      "promptZh": "十五题任务怎样把好奇心转化为可观察指标？",
+      "optionsZh": [
+        "按下跳过按钮的速度。",
+        "愿意等待多少个答案。",
+        "是否本来就知道总统姓名。",
+        "参与者为每次延迟自行选择多少秒。"
+      ],
+      "analyses": [
+        "A 原文使用等待答案的数量，不是跳过速度。",
+        "B The more answers...the more curious 直接给出操作指标。",
+        "C Lincoln 是答案例子，预存知识不是文中计分规则。",
+        "D 等待时长由程序在十至十五秒之间随机确定，不是参与者挑选。本指标反映本任务的等待行为，不能当作个人永久性格的全能测量。"
+      ],
+      "evidence": [
+        {
+          "quote": "The more answers someone waited for, the more curious they were.",
+          "sentenceIds": [
+            "c08-s05-p084-05940-s011"
+          ],
+          "sources": [
+            {
+              "pdfPage": 85,
+              "block": 0,
+              "bbox": [
+                76.99,
+                75,
+                535,
+                265.02
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "willing",
+          "meaning": "愿意的；乐意的",
+          "context": "表示为获得答案而承受等待的意愿",
+          "example": "She was willing to wait for a clearer explanation.",
+          "collocations": [
+            "be willing to wait",
+            "willing to know more"
+          ]
+        }
+      ],
+      "translation": "如果按等待，他们必须等一段时间才能得到答案，例如 Abraham Lincoln；精确等待时长在十至十五秒之间随机确定。通常，好奇的人想知道答案，所以愿意等待。我们的实验共有十五道题。一个人等待查看的答案越多，就被视为越好奇。",
+      "support": "explicit",
+      "editorialStatus": "PDF 第 81–85 页逐题原页核对；固定原句与来源；保留理论推测、调查相关、自报、团队分组、假想工作预测及行为指标的边界；原文连续无重复",
+      "fingerprint": "df51b1597e7f941c868dc64e08ab80f3870d5ee269092506705409d38affc77e"
+    },
+    {
+      "id": "qe-c08-0054",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-031",
+      "parentQuestionId": "q-c08-039",
+      "chapterId": "c08",
+      "sectionId": "c08-s05",
+      "paragraphId": "c08-s05-p084-05940",
+      "readingUnitId": "c08-s05-p084-05940-r008-011",
+      "sentenceIds": [
+        "c08-s05-p084-05940-s008",
+        "c08-s05-p084-05940-s009",
+        "c08-s05-p084-05940-s010",
+        "c08-s05-p084-05940-s011"
+      ],
+      "passage": "If they hit the wait button, they had to wait for a certain amount of time (the precise time was randomized between ten and fifteen seconds) to get an answer (e.g., Abraham Lincoln). Typically, curious people wanted to know the answer, so they were willing to wait. Our experiment consisted of fifteen questions. The more answers someone waited for, the more curious they were.",
+      "prompt": "What exactly was randomised between ten and fifteen seconds?",
+      "promptZh": "十至十五秒之间被随机确定的到底是什么？",
+      "options": [
+        "The total number of questions in the experiment.",
+        "The participants' age at starting their job.",
+        "The amount of money paid for each answer.",
+        "The delay before an answer was shown after choosing to wait."
+      ],
+      "optionsZh": [
+        "实验问题总数。",
+        "参与者开始职业的年龄。",
+        "每个答案支付的钱。",
+        "选择等待后显示答案前的延迟。"
+      ],
+      "answer": 3,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A fifteen questions与seconds单位不同。",
+        "B 无职业起始年龄随机分派。",
+        "C 原句没有答案付费金额。",
+        "D precise time was randomized明确延迟，十至十五秒不等于每次固定十五，也不据此添加所有其他程序都随机。"
+      ],
+      "vocabulary": [
+        {
+          "word": "the precise time",
+          "meaning": "具体等待时长；精确的时间量",
+          "context": "在本任务指等待答案的延迟，不是实验开始的钟点或题目数量。",
+          "example": "The precise time varied within the stated interval.",
+          "collocations": [
+            "the precise time was randomized",
+            "between ten and fifteen seconds"
+          ]
+        }
+      ],
+      "translation": "如果按等待，他们必须等一段时间才能得到答案，例如 Abraham Lincoln；精确等待时长在十至十五秒之间随机确定。通常，好奇的人想知道答案，所以愿意等待。我们的实验共有十五道题。一个人等待查看的答案越多，就被视为越好奇。",
+      "evidenceTargetIds": [
+        "c08-s05-p084-05940-s008"
+      ],
+      "evidence": [
+        {
+          "quote": "If they hit the wait button, they had to wait for a certain amount of time (the precise time was randomized between ten and fifteen seconds) to get an answer (e.g., Abraham Lincoln). Typically, curious people wanted to know the answer, so they were willing to wait. Our experiment consisted of fifteen questions. The more answers someone waited for, the more curious they were.",
+          "sentenceIds": [
+            "c08-s05-p084-05940-s008",
+            "c08-s05-p084-05940-s009",
+            "c08-s05-p084-05940-s010",
+            "c08-s05-p084-05940-s011"
+          ],
+          "sources": [
+            {
+              "pdfPage": 85,
+              "block": 0,
+              "bbox": [
+                76.99,
+                75,
+                535,
+                265.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "5ddd307b1a64f40656bf7a82281fb218828b5021dd728aff0699075c80799972"
+    },
+    {
+      "id": "qe-c08-0055",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-031",
+      "parentQuestionId": "q-c08-039",
+      "chapterId": "c08",
+      "sectionId": "c08-s05",
+      "paragraphId": "c08-s05-p084-05940",
+      "readingUnitId": "c08-s05-p084-05940-r008-011",
+      "sentenceIds": [
+        "c08-s05-p084-05940-s008",
+        "c08-s05-p084-05940-s009",
+        "c08-s05-p084-05940-s010",
+        "c08-s05-p084-05940-s011"
+      ],
+      "passage": "If they hit the wait button, they had to wait for a certain amount of time (the precise time was randomized between ten and fifteen seconds) to get an answer (e.g., Abraham Lincoln). Typically, curious people wanted to know the answer, so they were willing to wait. Our experiment consisted of fifteen questions. The more answers someone waited for, the more curious they were.",
+      "prompt": "Why were curious participants typically willing to wait?",
+      "promptZh": "好奇的参与者通常为什么愿意等待？",
+      "options": [
+        "Waiting guaranteed a higher salary in the imagined job.",
+        "They wanted to learn the answer.",
+        "The skip button was never available.",
+        "They had been promised all answers before choosing."
+      ],
+      "optionsZh": [
+        "等待保证假想工作薪水更高。",
+        "他们想知道答案。",
+        "跳过按钮从不可用。",
+        "选择前已被承诺并展示全部答案。"
+      ],
+      "answer": 1,
+      "type": "逻辑关系",
+      "support": "explicit",
+      "analyses": [
+        "A 没工资奖励。",
+        "B wanted to know...so willing to wait明确动机链。",
+        "C 另一回应选项存在，愿等不是因无选择。",
+        "D 答案需等待才显示，不是事前已读全部；Typically保留一般倾向，不定每人都如此。"
+      ],
+      "vocabulary": [
+        {
+          "word": "willing to wait",
+          "meaning": "愿意等待",
+          "context": "是想知道答案而接受延迟的行为，不等于不能跳过或具有全情境耐心。",
+          "example": "She was willing to wait because she wanted to see the result.",
+          "collocations": [
+            "willing to wait for an answer",
+            "typically curious people"
+          ]
+        }
+      ],
+      "translation": "如果按等待，他们必须等一段时间才能得到答案，例如 Abraham Lincoln；精确等待时长在十至十五秒之间随机确定。通常，好奇的人想知道答案，所以愿意等待。我们的实验共有十五道题。一个人等待查看的答案越多，就被视为越好奇。",
+      "evidenceTargetIds": [
+        "c08-s05-p084-05940-s009"
+      ],
+      "evidence": [
+        {
+          "quote": "If they hit the wait button, they had to wait for a certain amount of time (the precise time was randomized between ten and fifteen seconds) to get an answer (e.g., Abraham Lincoln). Typically, curious people wanted to know the answer, so they were willing to wait. Our experiment consisted of fifteen questions. The more answers someone waited for, the more curious they were.",
+          "sentenceIds": [
+            "c08-s05-p084-05940-s008",
+            "c08-s05-p084-05940-s009",
+            "c08-s05-p084-05940-s010",
+            "c08-s05-p084-05940-s011"
+          ],
+          "sources": [
+            {
+              "pdfPage": 85,
+              "block": 0,
+              "bbox": [
+                76.99,
+                75,
+                535,
+                265.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "c289a80a8cfadeecbe8dac8eb3f70a9640ad78a7df97db78ad4674a62a4c1284"
+    },
+    {
+      "id": "qe-c08-0056",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-031",
+      "parentQuestionId": "q-c08-039",
+      "chapterId": "c08",
+      "sectionId": "c08-s05",
+      "paragraphId": "c08-s05-p084-05940",
+      "readingUnitId": "c08-s05-p084-05940-r008-011",
+      "sentenceIds": [
+        "c08-s05-p084-05940-s008",
+        "c08-s05-p084-05940-s009",
+        "c08-s05-p084-05940-s010",
+        "c08-s05-p084-05940-s011"
+      ],
+      "passage": "If they hit the wait button, they had to wait for a certain amount of time (the precise time was randomized between ten and fifteen seconds) to get an answer (e.g., Abraham Lincoln). Typically, curious people wanted to know the answer, so they were willing to wait. Our experiment consisted of fifteen questions. The more answers someone waited for, the more curious they were.",
+      "prompt": "What does the number fifteen count in 'our experiment consisted of fifteen questions'?",
+      "promptZh": "our experiment consisted of fifteen questions中的十五计算什么？",
+      "options": [
+        "The number of participants in every team.",
+        "The exact delay for every single response.",
+        "The questions making up the experiment.",
+        "The number of jobs every student actually held."
+      ],
+      "optionsZh": [
+        "每队参与人数。",
+        "每次回应的固定延迟。",
+        "构成这项实验的问题数。",
+        "每个学生实际做过的工作数。"
+      ],
+      "answer": 2,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A 人数与题数不可换。",
+        "B 延迟在十至十五秒随机，fifteen questions是题量。",
+        "C consisted of后给实验所含十五题。",
+        "D 是想象岗位研究后的常识任务，非真实职业数。"
+      ],
+      "vocabulary": [
+        {
+          "word": "consisted of",
+          "meaning": "由……组成；包含……",
+          "context": "说明任务项目总量，不把题数等同答案等待次数或被试人数。",
+          "example": "The questionnaire consisted of fifteen items.",
+          "collocations": [
+            "consisted of fifteen questions",
+            "the experiment consisted of"
+          ]
+        }
+      ],
+      "translation": "如果按等待，他们必须等一段时间才能得到答案，例如 Abraham Lincoln；精确等待时长在十至十五秒之间随机确定。通常，好奇的人想知道答案，所以愿意等待。我们的实验共有十五道题。一个人等待查看的答案越多，就被视为越好奇。",
+      "evidenceTargetIds": [
+        "c08-s05-p084-05940-s010"
+      ],
+      "evidence": [
+        {
+          "quote": "If they hit the wait button, they had to wait for a certain amount of time (the precise time was randomized between ten and fifteen seconds) to get an answer (e.g., Abraham Lincoln). Typically, curious people wanted to know the answer, so they were willing to wait. Our experiment consisted of fifteen questions. The more answers someone waited for, the more curious they were.",
+          "sentenceIds": [
+            "c08-s05-p084-05940-s008",
+            "c08-s05-p084-05940-s009",
+            "c08-s05-p084-05940-s010",
+            "c08-s05-p084-05940-s011"
+          ],
+          "sources": [
+            {
+              "pdfPage": 85,
+              "block": 0,
+              "bbox": [
+                76.99,
+                75,
+                535,
+                265.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "e016428dafce501eb5ce7457d710298ba5d99b80805631f4982830db2e31b9bd"
+    },
+    {
+      "id": "q-c08-040",
+      "version": 1,
+      "readingUnitId": "c08-s05-p085-02700-r001-003",
+      "chapterId": "c08",
+      "sectionId": "c08-s05",
+      "paragraphId": "c08-s05-p085-02700",
+      "sentenceIds": [
+        "c08-s05-p085-02700-s001",
+        "c08-s05-p085-02700-s002",
+        "c08-s05-p085-02700-s003"
+      ],
+      "passage": "Participants imagining they were generalists proved behaviorally more curious and more willing to wait for answers than those who were imagining a specialist job, conceptually replicating the psychological richness findings. In other words, when you are assigned to be a specialist, you lose interest in other seemingly irrelevant matters. When you are assigned to be a generalist, you are more curious about other things.",
+      "prompt": "Which conclusion matches the reported behavioral comparison?",
+      "options": [
+        "All working specialists became uninterested in everything beyond their jobs.",
+        "Generalists already knew more trivia answers before the task.",
+        "The study directly measured years of real consulting work.",
+        "Participants imagining a generalist role waited for answers more readily than those imagining a specialist role."
+      ],
+      "answer": 3,
+      "type": "有限推断",
+      "promptZh": "哪项结论符合报告的行为比较？",
+      "optionsZh": [
+        "所有在职专才都对工作之外的一切失去兴趣。",
+        "任务开始前，通才已知道更多常识答案。",
+        "研究直接测量多年真实咨询工作。",
+        "想象通才角色者比想象专才角色者更愿意等待答案。"
+      ],
+      "analyses": [
+        "A 从 imagining 的实验场景扩大到全体在职专才，并把 other seemingly irrelevant 扩成一切。",
+        "B 本片段没有报告事前知识差异。",
+        "C 任务测量等待行为，不是多年职业追踪。",
+        "D 更愿等待及比较对象均与首句一致。作者后两句概括角色影响，解释时仍应保留假想角色与本任务行为的证据范围。"
+      ],
+      "evidence": [
+        {
+          "quote": "Participants imagining they were generalists proved behaviorally more curious and more willing to wait for answers than those who were imagining a specialist job",
+          "sentenceIds": [
+            "c08-s05-p085-02700-s001"
+          ],
+          "sources": [
+            {
+              "pdfPage": 85,
+              "block": 1,
+              "bbox": [
+                76.99,
+                270,
+                535,
+                382.02
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "seemingly",
+          "meaning": "看似；表面上",
+          "context": "信息对当前专业似乎无关，不等于它客观上毫无价值",
+          "example": "The seemingly unrelated examples helped her understand the problem.",
+          "collocations": [
+            "seemingly irrelevant matters",
+            "seemingly unrelated information"
+          ]
+        }
+      ],
+      "translation": "想象自己是通才的参与者，在行为上表现出更强的好奇心，比想象自己从事专才工作的人更愿意等待答案；这在概念上复现了心理丰富性的发现。换言之，当你被安排成为专才时，你会对其他看似无关的事失去兴趣；当你被安排成为通才时，你会对其他事情更好奇。",
+      "support": "limited-inference",
+      "editorialStatus": "PDF 第 81–85 页逐题原页核对；固定原句与来源；保留理论推测、调查相关、自报、团队分组、假想工作预测及行为指标的边界；原文连续无重复",
+      "fingerprint": "8208fc9c91fae097a76b5bb37fc3dab5bedf2b431e68e78a61b14b9fef5e924e"
+    },
+    {
+      "id": "qe-c08-0057",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-031",
+      "parentQuestionId": "q-c08-040",
+      "chapterId": "c08",
+      "sectionId": "c08-s05",
+      "paragraphId": "c08-s05-p085-02700",
+      "readingUnitId": "c08-s05-p085-02700-r001-003",
+      "sentenceIds": [
+        "c08-s05-p085-02700-s001",
+        "c08-s05-p085-02700-s002",
+        "c08-s05-p085-02700-s003"
+      ],
+      "passage": "Participants imagining they were generalists proved behaviorally more curious and more willing to wait for answers than those who were imagining a specialist job, conceptually replicating the psychological richness findings. In other words, when you are assigned to be a specialist, you lose interest in other seemingly irrelevant matters. When you are assigned to be a generalist, you are more curious about other things.",
+      "prompt": "What does 'seemingly irrelevant' imply about the other matters?",
+      "promptZh": "seemingly irrelevant对其他事情暗示什么？",
+      "options": [
+        "They appear unrelated to the speciality, rather than being proved worthless in every sense.",
+        "They have been conclusively shown to have no value for anyone.",
+        "They are guaranteed to belong to the person's exact speciality.",
+        "The participant has never encountered any other topic."
+      ],
+      "optionsZh": [
+        "它们显得与专门领域无关，并非已证明任何意义都无价值。",
+        "已经确证对任何人都无价值。",
+        "保证它们都属于此人的确切专业。",
+        "参与者从未接触其他任何主题。"
+      ],
+      "answer": 0,
+      "type": "语境词义",
+      "support": "explicit",
+      "analyses": [
+        "A seemingly限定表面或主观相关性，不等于普遍无价值。",
+        "B 把看似无关升级成全体价值为零。",
+        "C 与irrelevant方向相反。",
+        "D lose interest不证明从未遇过；本段是对想象专才条件下任务行为的解释，不是终身定论。"
+      ],
+      "vocabulary": [
+        {
+          "word": "seemingly",
+          "meaning": "似乎；看起来",
+          "context": "保留表象或当时视角，不自动是客观最终事实。",
+          "example": "A seemingly minor detail later became important.",
+          "collocations": [
+            "seemingly irrelevant matters",
+            "seemingly unrelated information"
+          ]
+        }
+      ],
+      "translation": "想象自己是通才的参与者，在行为上表现出更强的好奇心，比想象自己从事专才工作的人更愿意等待答案；这在概念上复现了心理丰富性的发现。换言之，当你被安排成为专才时，你会对其他看似无关的事失去兴趣；当你被安排成为通才时，你会对其他事情更好奇。",
+      "evidenceTargetIds": [
+        "c08-s05-p085-02700-s002"
+      ],
+      "evidence": [
+        {
+          "quote": "Participants imagining they were generalists proved behaviorally more curious and more willing to wait for answers than those who were imagining a specialist job, conceptually replicating the psychological richness findings. In other words, when you are assigned to be a specialist, you lose interest in other seemingly irrelevant matters. When you are assigned to be a generalist, you are more curious about other things.",
+          "sentenceIds": [
+            "c08-s05-p085-02700-s001",
+            "c08-s05-p085-02700-s002",
+            "c08-s05-p085-02700-s003"
+          ],
+          "sources": [
+            {
+              "pdfPage": 85,
+              "block": 1,
+              "bbox": [
+                76.99,
+                270,
+                535,
+                382.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "a477c6514167e645f415b0f38a366c6bad96ee91c13f02234fb30714191fec72"
+    },
+    {
+      "id": "qe-c08-0058",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-031",
+      "parentQuestionId": "q-c08-040",
+      "chapterId": "c08",
+      "sectionId": "c08-s05",
+      "paragraphId": "c08-s05-p085-02700",
+      "readingUnitId": "c08-s05-p085-02700-r001-003",
+      "sentenceIds": [
+        "c08-s05-p085-02700-s001",
+        "c08-s05-p085-02700-s002",
+        "c08-s05-p085-02700-s003"
+      ],
+      "passage": "Participants imagining they were generalists proved behaviorally more curious and more willing to wait for answers than those who were imagining a specialist job, conceptually replicating the psychological richness findings. In other words, when you are assigned to be a specialist, you lose interest in other seemingly irrelevant matters. When you are assigned to be a generalist, you are more curious about other things.",
+      "prompt": "What comparison is made for the imagined generalist role?",
+      "promptZh": "对想象中的通才角色，原文作什么比较？",
+      "options": [
+        "Generalists are proved to know every answer already.",
+        "They are described as more curious about other things in this experimental account.",
+        "They are guaranteed permanent happiness in all real jobs.",
+        "They never choose to wait for any answer."
+      ],
+      "optionsZh": [
+        "证明通才原本就知道所有答案。",
+        "在此实验叙述中，他们被描述为对其他事更好奇。",
+        "保证他们在所有真实岗位永久幸福。",
+        "他们从不选等待任何答案。"
+      ],
+      "answer": 1,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A 等答案以了解不同于已经全知。",
+        "B assigned generalist...more curious对应，前句用愿等答案支持行为比较。",
+        "C 组别是imagining，不能扩成永久实职幸福。",
+        "D 前句more willing to wait与从不等相反。"
+      ],
+      "vocabulary": [
+        {
+          "word": "more curious about",
+          "meaning": "对……更好奇；更想知道",
+          "context": "比较研究任务中的兴趣，不等于已掌握所有信息或人格永远改变。",
+          "example": "The activity made the students more curious about unfamiliar topics.",
+          "collocations": [
+            "more curious about other things",
+            "imagining a generalist role"
+          ]
+        }
+      ],
+      "translation": "想象自己是通才的参与者，在行为上表现出更强的好奇心，比想象自己从事专才工作的人更愿意等待答案；这在概念上复现了心理丰富性的发现。换言之，当你被安排成为专才时，你会对其他看似无关的事失去兴趣；当你被安排成为通才时，你会对其他事情更好奇。",
+      "evidenceTargetIds": [
+        "c08-s05-p085-02700-s003"
+      ],
+      "evidence": [
+        {
+          "quote": "Participants imagining they were generalists proved behaviorally more curious and more willing to wait for answers than those who were imagining a specialist job, conceptually replicating the psychological richness findings. In other words, when you are assigned to be a specialist, you lose interest in other seemingly irrelevant matters. When you are assigned to be a generalist, you are more curious about other things.",
+          "sentenceIds": [
+            "c08-s05-p085-02700-s001",
+            "c08-s05-p085-02700-s002",
+            "c08-s05-p085-02700-s003"
+          ],
+          "sources": [
+            {
+              "pdfPage": 85,
+              "block": 1,
+              "bbox": [
+                76.99,
+                270,
+                535,
+                382.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "2c6862f236007182dcf29556de39e1c56e7cce4d62cd460e0aa9228ef53b22a3"
+    },
+    {
+      "id": "q-c08-041",
+      "version": 1,
+      "readingUnitId": "c08-s05-p085-03870-r001-004",
+      "chapterId": "c08",
+      "sectionId": "c08-s05",
+      "paragraphId": "c08-s05-p085-03870",
+      "sentenceIds": [
+        "c08-s05-p085-03870-s001",
+        "c08-s05-p085-03870-s002",
+        "c08-s05-p085-03870-s003",
+        "c08-s05-p085-03870-s004"
+      ],
+      "passage": "But why? Well, when you specialize in something, you are selectively attending to what is relevant to your specialty and trying to ignore irrelevant information. If you are a healthcare consultant, for instance, you need to learn so much about the healthcare business that you might need to ignore information unrelated to that industry. Specialization gives you deep knowledge in certain topics and marketable skills.",
+      "prompt": "What mechanism does the author propose for specialization’s selective focus?",
+      "options": [
+        "Learning much about one specialty may require ignoring information outside it.",
+        "Developing deep knowledge requires attending equally to every topic.",
+        "Marketable skills remove the need to learn about one’s industry.",
+        "A healthcare consultant is shown to lack any knowledge of healthcare."
+      ],
+      "answer": 0,
+      "type": "逻辑关系",
+      "promptZh": "作者提出什么机制来解释专门化的选择性注意？",
+      "optionsZh": [
+        "深入学习一个专业可能需要忽略该领域以外的信息。",
+        "形成深厚知识需要同等注意每个话题。",
+        "可就业技能消除了学习本行业的需要。",
+        "医疗顾问被证明完全不懂医疗。"
+      ],
+      "analyses": [
+        "A selectively attending、ignore irrelevant information 及 might need 给出可能的注意力取舍机制。",
+        "B ignore 与同等注意所有话题不符。",
+        "C 原文 need to learn so much 恰好强调学习需求。",
+        "D 医疗顾问是假设例子，强调行业知识多，不是无知证明。末句保留专业知识与技能的收益；不要把解释读成专门化毫无价值。"
+      ],
+      "evidence": [
+        {
+          "quote": "you need to learn so much about the healthcare business that you might need to ignore information unrelated to that industry.",
+          "sentenceIds": [
+            "c08-s05-p085-03870-s003"
+          ],
+          "sources": [
+            {
+              "pdfPage": 85,
+              "block": 2,
+              "bbox": [
+                76.99,
+                387,
+                535.01,
+                557.52
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "marketable",
+          "meaning": "有市场需求的；有就业价值的",
+          "context": "形容可在就业市场中发挥价值的专业技能",
+          "example": "The course helped her develop marketable analytical skills.",
+          "collocations": [
+            "marketable skills",
+            "develop marketable expertise"
+          ]
+        }
+      ],
+      "translation": "但为什么会这样？当你专攻某件事时，你会选择性地关注与专业有关的信息，并努力忽略无关信息。例如，如果你是医疗咨询顾问，需要学习大量医疗行业知识，以至于可能不得不忽略与该行业无关的信息。专门化让你拥有某些领域的深厚知识，以及有就业价值的技能。",
+      "support": "explicit",
+      "editorialStatus": "PDF 第 81–85 页逐题原页核对；固定原句与来源；保留理论推测、调查相关、自报、团队分组、假想工作预测及行为指标的边界；原文连续无重复",
+      "fingerprint": "87d7b3c27ff8541aa285fcf5030399e699e0ca4a2ff9994d8cde2c2c38363bb7"
+    },
+    {
+      "id": "qe-c08-0059",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-031",
+      "parentQuestionId": "q-c08-041",
+      "chapterId": "c08",
+      "sectionId": "c08-s05",
+      "paragraphId": "c08-s05-p085-03870",
+      "readingUnitId": "c08-s05-p085-03870-r001-004",
+      "sentenceIds": [
+        "c08-s05-p085-03870-s001",
+        "c08-s05-p085-03870-s002",
+        "c08-s05-p085-03870-s003",
+        "c08-s05-p085-03870-s004"
+      ],
+      "passage": "But why? Well, when you specialize in something, you are selectively attending to what is relevant to your specialty and trying to ignore irrelevant information. If you are a healthcare consultant, for instance, you need to learn so much about the healthcare business that you might need to ignore information unrelated to that industry. Specialization gives you deep knowledge in certain topics and marketable skills.",
+      "prompt": "What does 'But why?' introduce after the curiosity finding?",
+      "promptZh": "好奇心发现后的 But why? 引入什么？",
+      "options": [
+        "A new claim that the results never existed.",
+        "An instruction to abandon the topic without explanation.",
+        "A definitive clinical diagnosis of every specialist.",
+        "An explanation based on selective attention to relevant information."
+      ],
+      "optionsZh": [
+        "声称此前结果根本不存在。",
+        "不解释便放弃主题的要求。",
+        "对每位专才的确定临床诊断。",
+        "以选择性关注相关信息来解释。"
+      ],
+      "answer": 3,
+      "type": "篇章结构",
+      "support": "explicit",
+      "analyses": [
+        "A 问原因不是撤销结果。",
+        "B 紧接Well及相关/无关信息说明，非中止。",
+        "C 无临床诊断。",
+        "D why引向作者机制性解释，不能把解释问句本身当新随机实验已经证明所有步骤。"
+      ],
+      "vocabulary": [
+        {
+          "word": "selectively attending to",
+          "meaning": "选择性地关注",
+          "context": "把注意资源集中在相关方面，不等于有意识贬低所有其他生活领域。",
+          "example": "The task involved selectively attending to one feature of the display.",
+          "collocations": [
+            "selectively attending to relevant information",
+            "ignore irrelevant information"
+          ]
+        }
+      ],
+      "translation": "但为什么会这样？当你专攻某件事时，你会选择性地关注与专业有关的信息，并努力忽略无关信息。例如，如果你是医疗咨询顾问，需要学习大量医疗行业知识，以至于可能不得不忽略与该行业无关的信息。专门化让你拥有某些领域的深厚知识，以及有就业价值的技能。",
+      "evidenceTargetIds": [
+        "c08-s05-p085-03870-s001"
+      ],
+      "evidence": [
+        {
+          "quote": "But why? Well, when you specialize in something, you are selectively attending to what is relevant to your specialty and trying to ignore irrelevant information. If you are a healthcare consultant, for instance, you need to learn so much about the healthcare business that you might need to ignore information unrelated to that industry. Specialization gives you deep knowledge in certain topics and marketable skills.",
+          "sentenceIds": [
+            "c08-s05-p085-03870-s001",
+            "c08-s05-p085-03870-s002",
+            "c08-s05-p085-03870-s003",
+            "c08-s05-p085-03870-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 85,
+              "block": 2,
+              "bbox": [
+                76.99,
+                387,
+                535.01,
+                557.52
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "c267fd6eaa544b99320a371c661f9ddeb6ecf0f9e3ac405f8af4fd822094adbc"
+    },
+    {
+      "id": "qe-c08-0060",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-031",
+      "parentQuestionId": "q-c08-041",
+      "chapterId": "c08",
+      "sectionId": "c08-s05",
+      "paragraphId": "c08-s05-p085-03870",
+      "readingUnitId": "c08-s05-p085-03870-r001-004",
+      "sentenceIds": [
+        "c08-s05-p085-03870-s001",
+        "c08-s05-p085-03870-s002",
+        "c08-s05-p085-03870-s003",
+        "c08-s05-p085-03870-s004"
+      ],
+      "passage": "But why? Well, when you specialize in something, you are selectively attending to what is relevant to your specialty and trying to ignore irrelevant information. If you are a healthcare consultant, for instance, you need to learn so much about the healthcare business that you might need to ignore information unrelated to that industry. Specialization gives you deep knowledge in certain topics and marketable skills.",
+      "prompt": "How are relevant and irrelevant information contrasted in the explanation?",
+      "promptZh": "解释中，相关与无关信息怎样对照？",
+      "options": [
+        "Both are guaranteed exactly equal attention at every moment.",
+        "All information outside the speciality is proved factually false.",
+        "Attention is directed to speciality-relevant material while unrelated material is set aside.",
+        "The person is unable to learn any specialised information."
+      ],
+      "optionsZh": [
+        "两者每一刻都保证获得完全同样注意。",
+        "专业外所有信息都已证明是假的。",
+        "注意指向专业相关资料，同时暂置无关资料。",
+        "此人无法学任何专业信息。"
+      ],
+      "answer": 2,
+      "type": "逻辑关系",
+      "support": "explicit",
+      "analyses": [
+        "A selectively与trying to ignore不支持同量注意。",
+        "B irrelevant不是false，也不是无价值的证据。",
+        "C attending to与ignore形成注意分配对照。",
+        "D 后面深知识与技能说明专门学习收益，并非学不了。"
+      ],
+      "vocabulary": [
+        {
+          "word": "relevant to",
+          "meaning": "与……有关的；对某目的相关的",
+          "context": "相对于specialty界定，不表示其他信息真伪或人生价值。",
+          "example": "Choose examples relevant to the question.",
+          "collocations": [
+            "relevant to your specialty",
+            "information unrelated to an industry"
+          ]
+        }
+      ],
+      "translation": "但为什么会这样？当你专攻某件事时，你会选择性地关注与专业有关的信息，并努力忽略无关信息。例如，如果你是医疗咨询顾问，需要学习大量医疗行业知识，以至于可能不得不忽略与该行业无关的信息。专门化让你拥有某些领域的深厚知识，以及有就业价值的技能。",
+      "evidenceTargetIds": [
+        "c08-s05-p085-03870-s002"
+      ],
+      "evidence": [
+        {
+          "quote": "But why? Well, when you specialize in something, you are selectively attending to what is relevant to your specialty and trying to ignore irrelevant information. If you are a healthcare consultant, for instance, you need to learn so much about the healthcare business that you might need to ignore information unrelated to that industry. Specialization gives you deep knowledge in certain topics and marketable skills.",
+          "sentenceIds": [
+            "c08-s05-p085-03870-s001",
+            "c08-s05-p085-03870-s002",
+            "c08-s05-p085-03870-s003",
+            "c08-s05-p085-03870-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 85,
+              "block": 2,
+              "bbox": [
+                76.99,
+                387,
+                535.01,
+                557.52
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "29b1b4262dd6351b7a99c8a1db08801fad598e2f2e0c4a707c3162d930ef0ea4"
+    },
+    {
+      "id": "qe-c08-0061",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-031",
+      "parentQuestionId": "q-c08-041",
+      "chapterId": "c08",
+      "sectionId": "c08-s05",
+      "paragraphId": "c08-s05-p085-03870",
+      "readingUnitId": "c08-s05-p085-03870-r001-004",
+      "sentenceIds": [
+        "c08-s05-p085-03870-s001",
+        "c08-s05-p085-03870-s002",
+        "c08-s05-p085-03870-s003",
+        "c08-s05-p085-03870-s004"
+      ],
+      "passage": "But why? Well, when you specialize in something, you are selectively attending to what is relevant to your specialty and trying to ignore irrelevant information. If you are a healthcare consultant, for instance, you need to learn so much about the healthcare business that you might need to ignore information unrelated to that industry. Specialization gives you deep knowledge in certain topics and marketable skills.",
+      "prompt": "What positive benefit of specialisation is explicitly acknowledged?",
+      "promptZh": "原文明示承认专门化有什么正面收益？",
+      "options": [
+        "Deep knowledge in particular subjects and skills valued in employment.",
+        "A guarantee that every other topic becomes interesting.",
+        "A promise of the same salary for every specialist.",
+        "The elimination of all need for ongoing learning."
+      ],
+      "optionsZh": [
+        "特定主题的深知识及有就业价值的技能。",
+        "保证其他每个主题都更有趣。",
+        "承诺每个专才薪水相同。",
+        "消除继续学习的全部需要。"
+      ],
+      "answer": 0,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A deep knowledge和marketable skills两项并列收益。",
+        "B 后文反而警惕其他领域兴趣，无此保证。",
+        "C marketable不提供同薪或确切收益。",
+        "D 例子说need learn so much，不是无需学习；承认收益与警惕代价可并存。"
+      ],
+      "vocabulary": [
+        {
+          "word": "marketable skills",
+          "meaning": "有就业市场价值的技能；可用于工作的技能",
+          "context": "可帮助就业不等于保证固定收入或把技能作为实体商品出售。",
+          "example": "The course helps students develop marketable skills.",
+          "collocations": [
+            "deep knowledge and marketable skills",
+            "skills useful for work"
+          ]
+        }
+      ],
+      "translation": "但为什么会这样？当你专攻某件事时，你会选择性地关注与专业有关的信息，并努力忽略无关信息。例如，如果你是医疗咨询顾问，需要学习大量医疗行业知识，以至于可能不得不忽略与该行业无关的信息。专门化让你拥有某些领域的深厚知识，以及有就业价值的技能。",
+      "evidenceTargetIds": [
+        "c08-s05-p085-03870-s004"
+      ],
+      "evidence": [
+        {
+          "quote": "But why? Well, when you specialize in something, you are selectively attending to what is relevant to your specialty and trying to ignore irrelevant information. If you are a healthcare consultant, for instance, you need to learn so much about the healthcare business that you might need to ignore information unrelated to that industry. Specialization gives you deep knowledge in certain topics and marketable skills.",
+          "sentenceIds": [
+            "c08-s05-p085-03870-s001",
+            "c08-s05-p085-03870-s002",
+            "c08-s05-p085-03870-s003",
+            "c08-s05-p085-03870-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 85,
+              "block": 2,
+              "bbox": [
+                76.99,
+                387,
+                535.01,
+                557.52
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "30ab6e2922af554c502d8444e7c076b9e85ee7eac864d3608ff5b8f4480e7fcd"
+    },
+    {
+      "id": "q-c08-042",
+      "version": 1,
+      "readingUnitId": "c08-s05-p085-03870-r005-006",
+      "chapterId": "c08",
+      "sectionId": "c08-s05",
+      "paragraphId": "c08-s05-p085-03870",
+      "sentenceIds": [
+        "c08-s05-p085-03870-s005",
+        "c08-s05-p085-03870-s006"
+      ],
+      "passage": "But unintentionally, specialization leaves you uninterested in other areas of life. It’s like going to the Louvre, being so focused on the Mona Lisa that you forget to look to your right, left, and back and miss all the other masterpieces!",
+      "prompt": "What does the Louvre comparison illustrate?",
+      "options": [
+        "A documented study showing the Mona Lisa is less valuable than other paintings.",
+        "A deliberate decision to avoid learning anything about one’s own specialty.",
+        "Narrow attention to one focus can cause other worthwhile experiences to be missed.",
+        "Evidence that every museum visitor ignores paintings on the same side."
+      ],
+      "answer": 2,
+      "type": "作者意图",
+      "promptZh": "Louvre 的比喻要说明什么？",
+      "optionsZh": [
+        "一项证明 Mona Lisa 比其他画价值低的研究。",
+        "有意决定不学习自己的专业。",
+        "注意力过于集中在一点，可能错过其他有价值的体验。",
+        "所有博物馆参观者都忽略同一侧画作的证据。"
+      ],
+      "analyses": [
+        "A It’s like 引出比喻，没有艺术价值实验或排名。",
+        "B unintentionally 是无意后果，且讨论忽略专业之外领域。",
+        "C 只盯 Mona Lisa 而错过其他杰作，对应专门化后对生活其他领域少了兴趣。",
+        "D 比喻不是对所有游客实际行为的统计；right, left, back 也不是同一侧。作者意图题要说明类比映射，不把形象例子当实测证据。"
+      ],
+      "evidence": [
+        {
+          "quote": "being so focused on the Mona Lisa that you forget to look to your right, left, and back and miss all the other masterpieces!",
+          "sentenceIds": [
+            "c08-s05-p085-03870-s006"
+          ],
+          "sources": [
+            {
+              "pdfPage": 85,
+              "block": 2,
+              "bbox": [
+                76.99,
+                387,
+                535.01,
+                557.52
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "unintentionally",
+          "meaning": "无意地；并非有意地",
+          "context": "把对其他生活领域失去兴趣说成专门化的非预期代价",
+          "example": "He unintentionally overlooked several useful suggestions.",
+          "collocations": [
+            "unintentionally miss something",
+            "an unintended consequence"
+          ]
+        }
+      ],
+      "translation": "但无意间，专门化会让你对生活其他领域不再感兴趣。这就像去 Louvre，太专注于 Mona Lisa，以至于忘记看看右边、左边和身后，错过了所有其他杰作！",
+      "support": "explicit",
+      "editorialStatus": "PDF 第 81–85 页逐题原页核对；固定原句与来源；保留理论推测、调查相关、自报、团队分组、假想工作预测及行为指标的边界；原文连续无重复",
+      "fingerprint": "484e30fc2a6ecbf3e492bb2385c8372d13e647ea1f303800e983b777b0e271b8"
+    },
+    {
+      "id": "qe-c08-0062",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-031",
+      "parentQuestionId": "q-c08-042",
+      "chapterId": "c08",
+      "sectionId": "c08-s05",
+      "paragraphId": "c08-s05-p085-03870",
+      "readingUnitId": "c08-s05-p085-03870-r005-006",
+      "sentenceIds": [
+        "c08-s05-p085-03870-s005",
+        "c08-s05-p085-03870-s006"
+      ],
+      "passage": "But unintentionally, specialization leaves you uninterested in other areas of life. It’s like going to the Louvre, being so focused on the Mona Lisa that you forget to look to your right, left, and back and miss all the other masterpieces!",
+      "prompt": "What does 'unintentionally' add to the claim about lost interest elsewhere?",
+      "promptZh": "unintentionally为对其他领域兴趣流失的说法增加什么？",
+      "options": [
+        "It proves that specialists deliberately decide to dislike all art.",
+        "It says the loss is the only intended aim of training.",
+        "It guarantees every individual has the exact same outcome.",
+        "It presents the narrowing of interest as an unintended consequence."
+      ],
+      "optionsZh": [
+        "证明专才故意决定讨厌所有艺术。",
+        "说兴趣流失是训练唯一意图。",
+        "保证每个个体结局完全相同。",
+        "将兴趣变窄呈现为非刻意后果。"
+      ],
+      "answer": 3,
+      "type": "语气与范围",
+      "support": "explicit",
+      "analyses": [
+        "A unintentionally不是deliberately，Louvre例子也非所有艺术厌恶。",
+        "B 前文深知识与技能为收益，非只想消除兴趣。",
+        "C 作者解释不能改成每人固定结果。",
+        "D 意在专业提升却可能错失其他体验，后面MonaLisa比喻说明；不当作去美术馆的实际受试试验。"
+      ],
+      "vocabulary": [
+        {
+          "word": "unintentionally",
+          "meaning": "无意间；非刻意地",
+          "context": "区别于有意识选择消灭其他兴趣，保留副作用性质。",
+          "example": "The new rule unintentionally reduced informal conversation.",
+          "collocations": [
+            "But unintentionally",
+            "an unintended consequence"
+          ]
+        }
+      ],
+      "translation": "但无意间，专门化会让你对生活其他领域不再感兴趣。这就像去 Louvre，太专注于 Mona Lisa，以至于忘记看看右边、左边和身后，错过了所有其他杰作！",
+      "evidenceTargetIds": [
+        "c08-s05-p085-03870-s005"
+      ],
+      "evidence": [
+        {
+          "quote": "But unintentionally, specialization leaves you uninterested in other areas of life. It’s like going to the Louvre, being so focused on the Mona Lisa that you forget to look to your right, left, and back and miss all the other masterpieces!",
+          "sentenceIds": [
+            "c08-s05-p085-03870-s005",
+            "c08-s05-p085-03870-s006"
+          ],
+          "sources": [
+            {
+              "pdfPage": 85,
+              "block": 2,
+              "bbox": [
+                76.99,
+                387,
+                535.01,
+                557.52
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "36fe2c5a71f1d4a8c7817f972949862b102cd2a0464c26bc69c8e534a660e572"
+    },
+    {
+      "id": "q-c08-043",
+      "version": 1,
+      "readingUnitId": "c08-s06-p085-06135-r001-004",
+      "chapterId": "c08",
+      "sectionId": "c08-s06",
+      "paragraphId": "c08-s06-p085-06135",
+      "sentenceIds": [
+        "c08-s06-p085-06135-s001",
+        "c08-s06-p085-06135-s002",
+        "c08-s06-p085-06135-s003",
+        "c08-s06-p085-06135-s004"
+      ],
+      "passage": "Outsourcing is a modern way to live more efficiently. Professionals do jobs such as mowing the lawn and cleaning the gutters much better and more quickly than individuals can. The primary goal of outsourcing in this context is to gain time. For instance, you pay $200 for a person to clean your house.",
+      "prompt": "What is the primary aim of outsourcing in the examples given?",
+      "options": [
+        "To learn the professional’s specialist skills.",
+        "To make routine household work take longer.",
+        "To gain time by paying someone else to do the work.",
+        "To reduce the number of household tasks that exist."
+      ],
+      "answer": 2,
+      "type": "细节",
+      "promptZh": "这些例子中，外包的首要目的是什么？",
+      "optionsZh": [
+        "学习专业人士的专门技能。",
+        "让例行家务花更长时间。",
+        "付钱请别人做工作，以腾出时间。",
+        "减少家务本身的种类或数量。"
+      ],
+      "analyses": [
+        "A 这里说请专业人士完成任务，没有说付费上课。",
+        "B more quickly 和 gain time 指节省时间，不是延长家务。",
+        "C primary goal...gain time 直接给出目的，清洁房屋只是例子。",
+        "D 任务由别人完成，不等于家务不再存在。$200 是举例价格，不是网站服务收费或普遍市场报价。"
+      ],
+      "evidence": [
+        {
+          "quote": "The primary goal of outsourcing in this context is to gain time.",
+          "sentenceIds": [
+            "c08-s06-p085-06135-s003"
+          ],
+          "sources": [
+            {
+              "pdfPage": 85,
+              "block": 4,
+              "bbox": [
+                76.99,
+                613.5,
+                535.01,
+                706.02
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "outsourcing",
+          "meaning": "外包；请他人代做",
+          "context": "把清洁等任务交给付费专业人士，以换取自己的时间",
+          "example": "The family considered outsourcing the weekly cleaning.",
+          "collocations": [
+            "outsource household tasks",
+            "outsourcing routine work"
+          ]
+        }
+      ],
+      "translation": "外包是让现代生活更高效的一种方式。专业人士割草、清理排水沟，通常比个人做得更好、更快。在这里，外包的首要目的是获得时间。例如，你付二百美元请人清洁房屋。",
+      "support": "explicit",
+      "editorialStatus": "PDF 第 85–90 页逐题原页核对；固定原句与来源；保留外包调查与实验、自报、未实证推测、DIY回忆和反事实、文学引述及原书时点；原文连续无重复",
+      "fingerprint": "934a15078d3c1703b7dae6f9949975c8ec9158286757fe70aaf5233f9a2192e4"
+    },
+    {
+      "id": "qe-c08-0063",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-031",
+      "parentQuestionId": "q-c08-043",
+      "chapterId": "c08",
+      "sectionId": "c08-s06",
+      "paragraphId": "c08-s06-p085-06135",
+      "readingUnitId": "c08-s06-p085-06135-r001-004",
+      "sentenceIds": [
+        "c08-s06-p085-06135-s001",
+        "c08-s06-p085-06135-s002",
+        "c08-s06-p085-06135-s003",
+        "c08-s06-p085-06135-s004"
+      ],
+      "passage": "Outsourcing is a modern way to live more efficiently. Professionals do jobs such as mowing the lawn and cleaning the gutters much better and more quickly than individuals can. The primary goal of outsourcing in this context is to gain time. For instance, you pay $200 for a person to clean your house.",
+      "prompt": "What kind of advantage introduces outsourcing here?",
+      "promptZh": "此处引入外包时强调哪类优势？",
+      "options": [
+        "It guarantees every person's happiness regardless of cost.",
+        "It is presented as a way to live more efficiently, especially by gaining time.",
+        "It requires each person to perform every task alone.",
+        "It proves no outsourced worker ever faces difficult conditions."
+      ],
+      "optionsZh": [
+        "不论成本都保证每人幸福。",
+        "把它呈现为更高效生活、尤其获取时间的方式。",
+        "要求每人独做全部任务。",
+        "证明所有承接外包者从无艰难条件。"
+      ],
+      "answer": 1,
+      "type": "主旨",
+      "support": "explicit",
+      "analyses": [
+        "A 首段给效率方式及时间目标，不是无条件幸福保证。",
+        "B efficiently与primary goal...gain time相接。",
+        "C outsourcing不是全部亲做。",
+        "D 当前未提供所有劳动者条件的这种证明，后文还区分付钱者视角。"
+      ],
+      "vocabulary": [
+        {
+          "word": "Outsourcing",
+          "meaning": "外包；把某些任务交由外部人士或服务完成",
+          "context": "与亲自完成对照，不保证每种任务都值得交出或成本都相同。",
+          "example": "The article discusses outsourcing routine household tasks.",
+          "collocations": [
+            "outsourcing to gain time",
+            "live more efficiently"
+          ]
+        }
+      ],
+      "translation": "外包是让现代生活更高效的一种方式。专业人士割草、清理排水沟，通常比个人做得更好、更快。在这里，外包的首要目的是获得时间。例如，你付二百美元请人清洁房屋。",
+      "evidenceTargetIds": [
+        "c08-s06-p085-06135-s001"
+      ],
+      "evidence": [
+        {
+          "quote": "Outsourcing is a modern way to live more efficiently. Professionals do jobs such as mowing the lawn and cleaning the gutters much better and more quickly than individuals can. The primary goal of outsourcing in this context is to gain time. For instance, you pay $200 for a person to clean your house.",
+          "sentenceIds": [
+            "c08-s06-p085-06135-s001",
+            "c08-s06-p085-06135-s002",
+            "c08-s06-p085-06135-s003",
+            "c08-s06-p085-06135-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 85,
+              "block": 4,
+              "bbox": [
+                76.99,
+                613.5,
+                535.01,
+                706.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "f42c7f2b05393e4e4de27a202d647f848b4b6641341f18521146737770b49a2b"
+    },
+    {
+      "id": "qe-c08-0064",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-031",
+      "parentQuestionId": "q-c08-043",
+      "chapterId": "c08",
+      "sectionId": "c08-s06",
+      "paragraphId": "c08-s06-p085-06135",
+      "readingUnitId": "c08-s06-p085-06135-r001-004",
+      "sentenceIds": [
+        "c08-s06-p085-06135-s001",
+        "c08-s06-p085-06135-s002",
+        "c08-s06-p085-06135-s003",
+        "c08-s06-p085-06135-s004"
+      ],
+      "passage": "Outsourcing is a modern way to live more efficiently. Professionals do jobs such as mowing the lawn and cleaning the gutters much better and more quickly than individuals can. The primary goal of outsourcing in this context is to gain time. For instance, you pay $200 for a person to clean your house.",
+      "prompt": "Which tasks illustrate the claimed professional advantage in this paragraph?",
+      "promptZh": "本段用哪些任务说明作者所说专业人士的优势？",
+      "options": [
+        "Completing every stage of a scientific paper alone.",
+        "Predicting every possible financial investment outcome.",
+        "Waiting ten to fifteen seconds for a trivia answer.",
+        "Mowing lawns and cleaning gutters better and more quickly."
+      ],
+      "optionsZh": [
+        "独自完成科研论文所有环节。",
+        "预测每项投资所有结果。",
+        "等十至十五秒看常识答案。",
+        "更好更快地割草、清排水沟。"
+      ],
+      "answer": 3,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A 是另一个分工主题的联想，不是此处所列服务。",
+        "B 没有所有投资预测保证。",
+        "C 属前面的好奇心任务，不是家务服务。",
+        "D such as后两个例子直接对应，比较限本书所述专业服务优势，非每次每人表现保证。"
+      ],
+      "vocabulary": [
+        {
+          "word": "gutters",
+          "meaning": "檐槽；屋檐排水沟",
+          "context": "住宅维护语境，不是道路车流或人物道德低下的比喻。",
+          "example": "Leaves had collected in the gutters after the storm.",
+          "collocations": [
+            "cleaning the gutters",
+            "mowing the lawn"
+          ]
+        }
+      ],
+      "translation": "外包是让现代生活更高效的一种方式。专业人士割草、清理排水沟，通常比个人做得更好、更快。在这里，外包的首要目的是获得时间。例如，你付二百美元请人清洁房屋。",
+      "evidenceTargetIds": [
+        "c08-s06-p085-06135-s002"
+      ],
+      "evidence": [
+        {
+          "quote": "Outsourcing is a modern way to live more efficiently. Professionals do jobs such as mowing the lawn and cleaning the gutters much better and more quickly than individuals can. The primary goal of outsourcing in this context is to gain time. For instance, you pay $200 for a person to clean your house.",
+          "sentenceIds": [
+            "c08-s06-p085-06135-s001",
+            "c08-s06-p085-06135-s002",
+            "c08-s06-p085-06135-s003",
+            "c08-s06-p085-06135-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 85,
+              "block": 4,
+              "bbox": [
+                76.99,
+                613.5,
+                535.01,
+                706.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "fa65bc21837ba9903384e7e24dd0c4622b3be62a9bed602bb8442f4c2a77c26d"
+    },
+    {
+      "id": "qe-c08-0065",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-031",
+      "parentQuestionId": "q-c08-043",
+      "chapterId": "c08",
+      "sectionId": "c08-s06",
+      "paragraphId": "c08-s06-p085-06135",
+      "readingUnitId": "c08-s06-p085-06135-r001-004",
+      "sentenceIds": [
+        "c08-s06-p085-06135-s001",
+        "c08-s06-p085-06135-s002",
+        "c08-s06-p085-06135-s003",
+        "c08-s06-p085-06135-s004"
+      ],
+      "passage": "Outsourcing is a modern way to live more efficiently. Professionals do jobs such as mowing the lawn and cleaning the gutters much better and more quickly than individuals can. The primary goal of outsourcing in this context is to gain time. For instance, you pay $200 for a person to clean your house.",
+      "prompt": "What is the status of the $200 house-cleaning payment?",
+      "promptZh": "二百美元清洁房屋的付款在文中是什么性质？",
+      "options": [
+        "An illustrative example of buying time through a service.",
+        "A verified price that every reader must pay today.",
+        "The money paid to each trivia participant.",
+        "Proof that all cleaning jobs take exactly two hundred minutes."
+      ],
+      "optionsZh": [
+        "通过服务买回时间的说明例子。",
+        "每位读者今天必须付的已核实价格。",
+        "付给每位常识任务参与者的钱。",
+        "证明所有清洁都恰耗二百分钟。"
+      ],
+      "answer": 0,
+      "type": "作者意图",
+      "support": "explicit",
+      "analyses": [
+        "A For instance把金额置于例子中，承接gain time目标。",
+        "B 不是当前市场报价、用户账单或统一要求。",
+        "C 非前面实验报酬。",
+        "D 金额不是时间单位，也未指定所有清洁工时相同。"
+      ],
+      "vocabulary": [
+        {
+          "word": "For instance",
+          "meaning": "例如；举一个非穷尽的例子",
+          "context": "引出假定付款情境，不使该例金额变成普遍价格。",
+          "example": "A service can save time; for instance, someone may clean the house.",
+          "collocations": [
+            "For instance, you pay",
+            "pay for a time-saving service"
+          ]
+        }
+      ],
+      "translation": "外包是让现代生活更高效的一种方式。专业人士割草、清理排水沟，通常比个人做得更好、更快。在这里，外包的首要目的是获得时间。例如，你付二百美元请人清洁房屋。",
+      "evidenceTargetIds": [
+        "c08-s06-p085-06135-s004"
+      ],
+      "evidence": [
+        {
+          "quote": "Outsourcing is a modern way to live more efficiently. Professionals do jobs such as mowing the lawn and cleaning the gutters much better and more quickly than individuals can. The primary goal of outsourcing in this context is to gain time. For instance, you pay $200 for a person to clean your house.",
+          "sentenceIds": [
+            "c08-s06-p085-06135-s001",
+            "c08-s06-p085-06135-s002",
+            "c08-s06-p085-06135-s003",
+            "c08-s06-p085-06135-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 85,
+              "block": 4,
+              "bbox": [
+                76.99,
+                613.5,
+                535.01,
+                706.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "0760d2134a884c82b375d50e61fb161183efb9051774adb447b2f6ba7e4554ca"
+    },
+    {
+      "id": "q-c08-044",
+      "version": 1,
+      "readingUnitId": "c08-s06-p085-06135-r005-008",
+      "chapterId": "c08",
+      "sectionId": "c08-s06",
+      "paragraphId": "c08-s06-p085-06135",
+      "sentenceIds": [
+        "c08-s06-p085-06135-s005",
+        "c08-s06-p085-06135-s006",
+        "c08-s06-p085-06135-s007",
+        "c08-s06-p085-06135-s008"
+      ],
+      "passage": "You save a few hours of free time, which presumably translates into more happiness. Ashley Whillans and colleagues found that, across 4,469 respondents, those who spent some money every month to save free time were happier than those who didn’t. This was in part explained by time stress measured by prompts such as, “I feel pressed for time today.” That is, those who spent money on time-saving services were less stressed about time, and the less stressed about time someone is, the more satisfied they are with their lives overall.",
+      "prompt": "What does the reported survey pattern support?",
+      "options": [
+        "Time-saving spending was linked with greater happiness and lower time stress in the respondents.",
+        "All respondents became happier after being randomly given cleaning services.",
+        "Material purchases were experimentally shown to cause time stress in all 4,469 respondents.",
+        "Time stress completely explained every difference in life satisfaction."
+      ],
+      "answer": 0,
+      "type": "有限推断",
+      "promptZh": "这里报告的调查模式支持什么？",
+      "optionsZh": [
+        "在受访者中，节省时间的支出与更幸福、较少时间压力相关。",
+        "所有受访者都被随机赠送清洁服务后变得更幸福。",
+        "实验表明实物购买使全部 4,469 人产生时间压力。",
+        "时间压力完全解释生活满意度的每一项差异。"
+      ],
+      "analyses": [
+        "A were happier 与 less stressed 描述样本中的联系，适合用 linked with 表述。",
+        "B respondents 不代表随机赠送服务；也没有 all 均改善的结果。",
+        "C 当前是调查，未给实物购买的实验比较。",
+        "D in part 明确只是部分解释，不能写成完全解释。presumably 与 survey 不能合并成已证明普遍因果。"
+      ],
+      "evidence": [
+        {
+          "quote": "across 4,469 respondents, those who spent some money every month to save free time were happier than those who didn’t.",
+          "sentenceIds": [
+            "c08-s06-p085-06135-s006"
+          ],
+          "sources": [
+            {
+              "pdfPage": 86,
+              "block": 0,
+              "bbox": [
+                76.99,
+                75,
+                535.01,
+                206.52
+              ]
+            }
+          ]
+        },
+        {
+          "quote": "This was in part explained by time stress",
+          "sentenceIds": [
+            "c08-s06-p085-06135-s007"
+          ],
+          "sources": [
+            {
+              "pdfPage": 86,
+              "block": 0,
+              "bbox": [
+                76.99,
+                75,
+                535.01,
+                206.52
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "pressed for time",
+          "meaning": "时间紧迫的；赶时间的",
+          "context": "问卷提示语测量当天主观时间压力，不是测量实际工作分钟数",
+          "example": "I felt pressed for time before the deadline.",
+          "collocations": [
+            "feel pressed for time",
+            "be pressed for time today"
+          ]
+        }
+      ],
+      "translation": "你省下几小时空闲时间，这想来会转化为更多幸福。Ashley Whillans 及同事发现，在 4,469 名受访者中，每月花一些钱来腾出空闲时间的人，比不这样做的人更幸福。这部分可以用时间压力解释；时间压力由“我今天觉得时间紧迫”这样的提示语测量。也就是说，花钱购买省时服务的人时间压力较小，而一个人越少为时间发愁，对整体生活就越满意。",
+      "support": "limited-inference",
+      "editorialStatus": "PDF 第 85–90 页逐题原页核对；固定原句与来源；保留外包调查与实验、自报、未实证推测、DIY回忆和反事实、文学引述及原书时点；原文连续无重复",
+      "fingerprint": "c083c2cd16eefcb5423790072fd787c1a30bb16b536e4b6f088821bca03e5deb"
+    },
+    {
+      "id": "qe-c08-0066",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-031",
+      "parentQuestionId": "q-c08-044",
+      "chapterId": "c08",
+      "sectionId": "c08-s06",
+      "paragraphId": "c08-s06-p085-06135",
+      "readingUnitId": "c08-s06-p085-06135-r005-008",
+      "sentenceIds": [
+        "c08-s06-p085-06135-s005",
+        "c08-s06-p085-06135-s006",
+        "c08-s06-p085-06135-s007",
+        "c08-s06-p085-06135-s008"
+      ],
+      "passage": "You save a few hours of free time, which presumably translates into more happiness. Ashley Whillans and colleagues found that, across 4,469 respondents, those who spent some money every month to save free time were happier than those who didn’t. This was in part explained by time stress measured by prompts such as, “I feel pressed for time today.” That is, those who spent money on time-saving services were less stressed about time, and the less stressed about time someone is, the more satisfied they are with their lives overall.",
+      "prompt": "What does 'presumably' do in the sentence linking free time with happiness?",
+      "promptZh": "将空闲时间与幸福相连的句子中 presumably 有什么作用？",
+      "options": [
+        "It changes the expected benefit into a mathematically certain outcome.",
+        "It says every purchased service has no possible benefit.",
+        "It marks an expectation or plausible inference rather than an unconditional guarantee.",
+        "It proves all respondents had identical happiness scores."
+      ],
+      "optionsZh": [
+        "把预期收益改成数学确定结果。",
+        "说每种购买服务都无可能益处。",
+        "标记预期或合理推断，而非无条件保证。",
+        "证明所有受访者幸福分一样。"
+      ],
+      "answer": 2,
+      "type": "语气与范围",
+      "support": "explicit",
+      "analyses": [
+        "A presumably保留判断强度，不能删为必然。",
+        "B 不是无益的否定。",
+        "C 省下几小时想来可转化幸福，后面调查提供另层证据而非让任何花费都必有效。",
+        "D 未给全员同分，且4,469为调查受访者数。"
+      ],
+      "vocabulary": [
+        {
+          "word": "presumably",
+          "meaning": "想来；大概；据合理推测",
+          "context": "区分作者预期与普遍确定性，不等同已验证每人的具体结果。",
+          "example": "The extra time will presumably make the preparation easier.",
+          "collocations": [
+            "presumably translates into",
+            "save a few hours"
+          ]
+        }
+      ],
+      "translation": "你省下几小时空闲时间，这想来会转化为更多幸福。Ashley Whillans 及同事发现，在 4,469 名受访者中，每月花一些钱来腾出空闲时间的人，比不这样做的人更幸福。这部分可以用时间压力解释；时间压力由“我今天觉得时间紧迫”这样的提示语测量。也就是说，花钱购买省时服务的人时间压力较小，而一个人越少为时间发愁，对整体生活就越满意。",
+      "evidenceTargetIds": [
+        "c08-s06-p085-06135-s005"
+      ],
+      "evidence": [
+        {
+          "quote": "You save a few hours of free time, which presumably translates into more happiness. Ashley Whillans and colleagues found that, across 4,469 respondents, those who spent some money every month to save free time were happier than those who didn’t. This was in part explained by time stress measured by prompts such as, “I feel pressed for time today.” That is, those who spent money on time-saving services were less stressed about time, and the less stressed about time someone is, the more satisfied they are with their lives overall.",
+          "sentenceIds": [
+            "c08-s06-p085-06135-s005",
+            "c08-s06-p085-06135-s006",
+            "c08-s06-p085-06135-s007",
+            "c08-s06-p085-06135-s008"
+          ],
+          "sources": [
+            {
+              "pdfPage": 85,
+              "block": 4,
+              "bbox": [
+                76.99,
+                613.5,
+                535.01,
+                706.02
+              ]
+            },
+            {
+              "pdfPage": 86,
+              "block": 0,
+              "bbox": [
+                76.99,
+                75,
+                535.01,
+                206.52
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "9d54a6b6177d8e3de3ce309bb5300debec1efa5af8461a3342f6421d26fe2798"
+    },
+    {
+      "id": "qe-c08-0067",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-031",
+      "parentQuestionId": "q-c08-044",
+      "chapterId": "c08",
+      "sectionId": "c08-s06",
+      "paragraphId": "c08-s06-p085-06135",
+      "readingUnitId": "c08-s06-p085-06135-r005-008",
+      "sentenceIds": [
+        "c08-s06-p085-06135-s005",
+        "c08-s06-p085-06135-s006",
+        "c08-s06-p085-06135-s007",
+        "c08-s06-p085-06135-s008"
+      ],
+      "passage": "You save a few hours of free time, which presumably translates into more happiness. Ashley Whillans and colleagues found that, across 4,469 respondents, those who spent some money every month to save free time were happier than those who didn’t. This was in part explained by time stress measured by prompts such as, “I feel pressed for time today.” That is, those who spent money on time-saving services were less stressed about time, and the less stressed about time someone is, the more satisfied they are with their lives overall.",
+      "prompt": "Which relationship is described in the time-stress explanation?",
+      "promptZh": "时间压力解释描述什么关系？",
+      "options": [
+        "More time stress necessarily means greater satisfaction.",
+        "Less time stress is linked with greater overall life satisfaction.",
+        "Only material purchases can reduce time pressure.",
+        "Every respondent's lack of time is the sole cause of all unhappiness."
+      ],
+      "optionsZh": [
+        "更大时间压力必意味着更满意。",
+        "较少时间压力与更高整体生活满意度相联。",
+        "只有实物购买能减轻时间压力。",
+        "每位受访者时间不足是所有不幸福唯一原因。"
+      ],
+      "answer": 1,
+      "type": "逻辑关系",
+      "support": "explicit",
+      "analyses": [
+        "A 比较方向颠倒。",
+        "B the less stressed...the more satisfied与省时服务者较少时间压力相接。",
+        "C 本段恰说省时服务，不是only material。",
+        "D in part解释不是唯一全因，也不能把调查关联直接当所有人的确定因果。"
+      ],
+      "vocabulary": [
+        {
+          "word": "stressed about time",
+          "meaning": "为时间感到压力；感觉时间紧迫",
+          "context": "不是诊断某种疾病，量表例句为I feel pressed for time today。",
+          "example": "She felt less stressed about time after simplifying the schedule.",
+          "collocations": [
+            "less stressed about time",
+            "overall life satisfaction"
+          ]
+        }
+      ],
+      "translation": "你省下几小时空闲时间，这想来会转化为更多幸福。Ashley Whillans 及同事发现，在 4,469 名受访者中，每月花一些钱来腾出空闲时间的人，比不这样做的人更幸福。这部分可以用时间压力解释；时间压力由“我今天觉得时间紧迫”这样的提示语测量。也就是说，花钱购买省时服务的人时间压力较小，而一个人越少为时间发愁，对整体生活就越满意。",
+      "evidenceTargetIds": [
+        "c08-s06-p085-06135-s008"
+      ],
+      "evidence": [
+        {
+          "quote": "You save a few hours of free time, which presumably translates into more happiness. Ashley Whillans and colleagues found that, across 4,469 respondents, those who spent some money every month to save free time were happier than those who didn’t. This was in part explained by time stress measured by prompts such as, “I feel pressed for time today.” That is, those who spent money on time-saving services were less stressed about time, and the less stressed about time someone is, the more satisfied they are with their lives overall.",
+          "sentenceIds": [
+            "c08-s06-p085-06135-s005",
+            "c08-s06-p085-06135-s006",
+            "c08-s06-p085-06135-s007",
+            "c08-s06-p085-06135-s008"
+          ],
+          "sources": [
+            {
+              "pdfPage": 85,
+              "block": 4,
+              "bbox": [
+                76.99,
+                613.5,
+                535.01,
+                706.02
+              ]
+            },
+            {
+              "pdfPage": 86,
+              "block": 0,
+              "bbox": [
+                76.99,
+                75,
+                535.01,
+                206.52
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "f693f2d9c2e1ba3e99a9352045db31cda3fd0565dc62b2916eff90dccb74a66b"
+    },
+    {
+      "id": "q-c08-045",
+      "version": 1,
+      "readingUnitId": "c08-s06-p086-02115-r001-004",
+      "chapterId": "c08",
+      "sectionId": "c08-s06",
+      "paragraphId": "c08-s06-p086-02115",
+      "sentenceIds": [
+        "c08-s06-p086-02115-s001",
+        "c08-s06-p086-02115-s002",
+        "c08-s06-p086-02115-s003",
+        "c08-s06-p086-02115-s004"
+      ],
+      "passage": "Whillans and colleagues then conducted an experiment to test the causal role of time-saving spending. They gave participants $80 and told them to spend $40 on a time-saving service one weekend and spend the other $40 on a material purchase another weekend. Participants were contacted on the days they spent $40. Participants reported more positive emotions and less negative emotions after the time-saving spending than after the material purchase.",
+      "prompt": "How was spending compared in the experiment?",
+      "options": [
+        "Two groups each spent $80 on the same weekend.",
+        "Participants freely chose whether to spend all $80 on services.",
+        "Each participant spent $40 on services and materials together in one purchase.",
+        "Participants spent $40 on a time-saving service one weekend and $40 on a material purchase another weekend."
+      ],
+      "answer": 3,
+      "type": "细节",
+      "promptZh": "实验怎样比较两种支出？",
+      "optionsZh": [
+        "两组各在同一周末花八十美元。",
+        "参与者自由选择是否把八十美元全用于服务。",
+        "每人一次购买把四十美元同时用于服务和实物。",
+        "参与者一个周末用四十美元购买省时服务，另一周末用四十美元买实物。"
+      ],
+      "analyses": [
+        "A 原文不是两组各花八十，也不是同一周末。",
+        "B told them to spend 给定两种用途，不是自由把全部钱用于服务。",
+        "C 拆为两个周末、各四十美元，非同一次混合购买。",
+        "D 两种消费由参与者在不同周末分别完成，联系发生在花钱当天。此处是为检验因果所做的实验，但本段没说周末顺序如何随机化，不能擅自补充。"
+      ],
+      "evidence": [
+        {
+          "quote": "spend $40 on a time-saving service one weekend and spend the other $40 on a material purchase another weekend.",
+          "sentenceIds": [
+            "c08-s06-p086-02115-s002"
+          ],
+          "sources": [
+            {
+              "pdfPage": 86,
+              "block": 1,
+              "bbox": [
+                76.99,
+                211.5,
+                535.01,
+                362.52
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "material purchase",
+          "meaning": "实物购买；购买物质商品",
+          "context": "与付钱节省时间的服务相比较的消费类别",
+          "example": "She compared a material purchase with paying for a useful service.",
+          "collocations": [
+            "make a material purchase",
+            "a time-saving service versus a material purchase"
+          ]
+        }
+      ],
+      "translation": "随后，Whillans 及同事进行了实验，以检验省时支出的因果作用。他们给参与者八十美元，要求一个周末花四十美元购买省时服务，另一个周末把其余四十美元用于实物购买。研究者在参与者花这四十美元的当天联系他们。与买实物后相比，参与者报告在购买省时服务后有更多积极情绪、更少消极情绪。",
+      "support": "explicit",
+      "editorialStatus": "PDF 第 85–90 页逐题原页核对；固定原句与来源；保留外包调查与实验、自报、未实证推测、DIY回忆和反事实、文学引述及原书时点；原文连续无重复",
+      "fingerprint": "951a48f65bc09e87acae09794dba75eee8974e80850e63266f1a7a8b9dc1bc05"
+    },
+    {
+      "id": "qe-c08-0068",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-031",
+      "parentQuestionId": "q-c08-045",
+      "chapterId": "c08",
+      "sectionId": "c08-s06",
+      "paragraphId": "c08-s06-p086-02115",
+      "readingUnitId": "c08-s06-p086-02115-r001-004",
+      "sentenceIds": [
+        "c08-s06-p086-02115-s001",
+        "c08-s06-p086-02115-s002",
+        "c08-s06-p086-02115-s003",
+        "c08-s06-p086-02115-s004"
+      ],
+      "passage": "Whillans and colleagues then conducted an experiment to test the causal role of time-saving spending. They gave participants $80 and told them to spend $40 on a time-saving service one weekend and spend the other $40 on a material purchase another weekend. Participants were contacted on the days they spent $40. Participants reported more positive emotions and less negative emotions after the time-saving spending than after the material purchase.",
+      "prompt": "Why did Whillans and colleagues conduct the subsequent experiment?",
+      "promptZh": "Whillans 及同事为何随后做实验？",
+      "options": [
+        "To establish today's price for every household service.",
+        "To prove all material purchases are harmful in every context.",
+        "To replace every psychological outcome with motorcycle output.",
+        "To test the causal role of spending on time-saving services."
+      ],
+      "optionsZh": [
+        "建立今天每种家务服务价格。",
+        "证明任何情形所有实物消费都有害。",
+        "用摩托车产量替代所有心理结果。",
+        "检验省时服务支出的因果作用。"
+      ],
+      "answer": 3,
+      "type": "作者意图",
+      "support": "explicit",
+      "analyses": [
+        "A 不是物价调查。",
+        "B 未把比较扩成所有物质消费都有害。",
+        "C 混入另一个实验。",
+        "D to test the causal role直接说明目的，后面同一参与者两个周末分别使用四十美元；不增添原文未写明的顺序随机化。"
+      ],
+      "vocabulary": [
+        {
+          "word": "causal role",
+          "meaning": "因果作用；是否对结果产生影响的角色",
+          "context": "这里是实验要检验的目标，区别前段单纯受访者关联，不等于任意花费的普遍保证。",
+          "example": "The experiment was designed to test a possible causal role.",
+          "collocations": [
+            "test the causal role",
+            "time-saving spending"
+          ]
+        }
+      ],
+      "translation": "随后，Whillans 及同事进行了实验，以检验省时支出的因果作用。他们给参与者八十美元，要求一个周末花四十美元购买省时服务，另一个周末把其余四十美元用于实物购买。研究者在参与者花这四十美元的当天联系他们。与买实物后相比，参与者报告在购买省时服务后有更多积极情绪、更少消极情绪。",
+      "evidenceTargetIds": [
+        "c08-s06-p086-02115-s001"
+      ],
+      "evidence": [
+        {
+          "quote": "Whillans and colleagues then conducted an experiment to test the causal role of time-saving spending. They gave participants $80 and told them to spend $40 on a time-saving service one weekend and spend the other $40 on a material purchase another weekend. Participants were contacted on the days they spent $40. Participants reported more positive emotions and less negative emotions after the time-saving spending than after the material purchase.",
+          "sentenceIds": [
+            "c08-s06-p086-02115-s001",
+            "c08-s06-p086-02115-s002",
+            "c08-s06-p086-02115-s003",
+            "c08-s06-p086-02115-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 86,
+              "block": 1,
+              "bbox": [
+                76.99,
+                211.5,
+                535.01,
+                362.52
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "b9f84846ddc6da49aa23ecd596f1d417516d04b17223bde49c604ccd1d059686"
+    },
+    {
+      "id": "qe-c08-0069",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-031",
+      "parentQuestionId": "q-c08-045",
+      "chapterId": "c08",
+      "sectionId": "c08-s06",
+      "paragraphId": "c08-s06-p086-02115",
+      "readingUnitId": "c08-s06-p086-02115-r001-004",
+      "sentenceIds": [
+        "c08-s06-p086-02115-s001",
+        "c08-s06-p086-02115-s002",
+        "c08-s06-p086-02115-s003",
+        "c08-s06-p086-02115-s004"
+      ],
+      "passage": "Whillans and colleagues then conducted an experiment to test the causal role of time-saving spending. They gave participants $80 and told them to spend $40 on a time-saving service one weekend and spend the other $40 on a material purchase another weekend. Participants were contacted on the days they spent $40. Participants reported more positive emotions and less negative emotions after the time-saving spending than after the material purchase.",
+      "prompt": "When were participants contacted in the spending experiment?",
+      "promptZh": "消费实验中，何时联系参与者？",
+      "options": [
+        "On the days they spent the $40.",
+        "Only three months before either purchase.",
+        "After spending the full $80 on one purchase in one day.",
+        "Only after completing every trivia question in the earlier experiment."
+      ],
+      "optionsZh": [
+        "他们花四十美元的当天。",
+        "只在任一购买前三个月。",
+        "一天把八十美元全用一笔后。",
+        "仅在完成前一个实验所有常识题后。"
+      ],
+      "answer": 0,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A on the days they spent$40明确测量联系时点。",
+        "B 不是另项研究的三个月后随访，更非购买前三个月。",
+        "C 两个周末各40，不能合并成单天全80。",
+        "D 两项实验不能合并参与者程序，也不把当天自报改为多年生涯测量。"
+      ],
+      "vocabulary": [
+        {
+          "word": "were contacted",
+          "meaning": "被联系；研究者与他们取得联系",
+          "context": "此处为收集花费当日体验的程序，不代表作者和读者实际私下通信。",
+          "example": "Participants were contacted after completing each activity.",
+          "collocations": [
+            "contacted on the days",
+            "spending forty dollars"
+          ]
+        }
+      ],
+      "translation": "随后，Whillans 及同事进行了实验，以检验省时支出的因果作用。他们给参与者八十美元，要求一个周末花四十美元购买省时服务，另一个周末把其余四十美元用于实物购买。研究者在参与者花这四十美元的当天联系他们。与买实物后相比，参与者报告在购买省时服务后有更多积极情绪、更少消极情绪。",
+      "evidenceTargetIds": [
+        "c08-s06-p086-02115-s003"
+      ],
+      "evidence": [
+        {
+          "quote": "Whillans and colleagues then conducted an experiment to test the causal role of time-saving spending. They gave participants $80 and told them to spend $40 on a time-saving service one weekend and spend the other $40 on a material purchase another weekend. Participants were contacted on the days they spent $40. Participants reported more positive emotions and less negative emotions after the time-saving spending than after the material purchase.",
+          "sentenceIds": [
+            "c08-s06-p086-02115-s001",
+            "c08-s06-p086-02115-s002",
+            "c08-s06-p086-02115-s003",
+            "c08-s06-p086-02115-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 86,
+              "block": 1,
+              "bbox": [
+                76.99,
+                211.5,
+                535.01,
+                362.52
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "67b24d1a722af2c6d5595a141ded5fd215ab733dcad8b999291be26ddfff4afc"
+    },
+    {
+      "id": "qe-c08-0070",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-031",
+      "parentQuestionId": "q-c08-045",
+      "chapterId": "c08",
+      "sectionId": "c08-s06",
+      "paragraphId": "c08-s06-p086-02115",
+      "readingUnitId": "c08-s06-p086-02115-r001-004",
+      "sentenceIds": [
+        "c08-s06-p086-02115-s001",
+        "c08-s06-p086-02115-s002",
+        "c08-s06-p086-02115-s003",
+        "c08-s06-p086-02115-s004"
+      ],
+      "passage": "Whillans and colleagues then conducted an experiment to test the causal role of time-saving spending. They gave participants $80 and told them to spend $40 on a time-saving service one weekend and spend the other $40 on a material purchase another weekend. Participants were contacted on the days they spent $40. Participants reported more positive emotions and less negative emotions after the time-saving spending than after the material purchase.",
+      "prompt": "What emotional pattern followed time-saving spending relative to material buying?",
+      "promptZh": "相对于实物消费，省时支出后报告哪种情绪模式？",
+      "options": [
+        "Both positive and negative emotions necessarily became zero.",
+        "More positive emotions and fewer negative emotions.",
+        "Fewer positive emotions and more negative emotions.",
+        "Only a higher motorcycle-production total with no feeling reports."
+      ],
+      "optionsZh": [
+        "正负情绪都必为零。",
+        "更多正面、更少负面情绪。",
+        "更少正面、更多负面情绪。",
+        "只有摩托车产量更高，不报告感受。"
+      ],
+      "answer": 1,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A 相对更多更少不是双双归零。",
+        "B reported more positive...less negative...than material逐项对应，保留自报及所述实验范围。",
+        "C 两个方向都相反。",
+        "D 不是组装研究；本句未测全部心理丰富性或保证每人终生效果。"
+      ],
+      "vocabulary": [
+        {
+          "word": "material purchase",
+          "meaning": "实物购买；购买可持有的物品",
+          "context": "与购买省时服务对照，不指两种都为同一服务。",
+          "example": "The study contrasted a material purchase with a time-saving service.",
+          "collocations": [
+            "after the material purchase",
+            "time-saving spending"
+          ]
+        }
+      ],
+      "translation": "随后，Whillans 及同事进行了实验，以检验省时支出的因果作用。他们给参与者八十美元，要求一个周末花四十美元购买省时服务，另一个周末把其余四十美元用于实物购买。研究者在参与者花这四十美元的当天联系他们。与买实物后相比，参与者报告在购买省时服务后有更多积极情绪、更少消极情绪。",
+      "evidenceTargetIds": [
+        "c08-s06-p086-02115-s004"
+      ],
+      "evidence": [
+        {
+          "quote": "Whillans and colleagues then conducted an experiment to test the causal role of time-saving spending. They gave participants $80 and told them to spend $40 on a time-saving service one weekend and spend the other $40 on a material purchase another weekend. Participants were contacted on the days they spent $40. Participants reported more positive emotions and less negative emotions after the time-saving spending than after the material purchase.",
+          "sentenceIds": [
+            "c08-s06-p086-02115-s001",
+            "c08-s06-p086-02115-s002",
+            "c08-s06-p086-02115-s003",
+            "c08-s06-p086-02115-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 86,
+              "block": 1,
+              "bbox": [
+                76.99,
+                211.5,
+                535.01,
+                362.52
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "520c64ce863a09a660b3337a38113d6b3d62573752362a96e13c60b73897b995"
+    }
+  ]
+}
