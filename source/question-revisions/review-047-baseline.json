@@ -1,0 +1,904 @@
+{
+  "pdfSha256": "be25c859f1bd894a4b0d1cff024ded1297f6a96a8e8ddabea1e3abcf89160a50",
+  "sourceCommit": "7d8ed51b93499efe9ffe3db1a6bb8c9c8556a940",
+  "questions": [
+    {
+      "id": "q-c05-049",
+      "version": 1,
+      "readingUnitId": "c05-s04-p050-05820-r001-004",
+      "chapterId": "c05",
+      "sectionId": "c05-s04",
+      "paragraphId": "c05-s04-p050-05820",
+      "sentenceIds": [
+        "c05-s04-p050-05820-s001",
+        "c05-s04-p050-05820-s002",
+        "c05-s04-p050-05820-s003",
+        "c05-s04-p050-05820-s004"
+      ],
+      "passage": "How come? We looked deeper into the weekly reports and found that study abroad students were far more likely to engage in artistic activities (e.g., going to concerts and museums), shop, party, and take short trips. They were far less likely to engage in club meetings, sporting events, video games, or volunteer activities than on-campus students. Analyses showed that the more artistic activities they engaged in, the richer they reported their lives to be at the end of the semester.",
+      "prompt": "Which interpretation keeps the activity finding within its reported scope?",
+      "options": [
+        "Shopping was experimentally shown to cause richness in everyone.",
+        "Artistic activity was the only activity any abroad student ever did.",
+        "More artistic activity was associated with greater reported richness at semester’s end.",
+        "The researchers assigned every student to the same number of museum visits."
+      ],
+      "answer": 2,
+      "type": "推断",
+      "promptZh": "哪种理解保留了活动结果的实际范围？",
+      "optionsZh": [
+        "购物经实验证明让所有人丰富。",
+        "艺术活动是任何留学生唯一做过的活动。",
+        "更多艺术活动与学期末更高的自报丰富程度相联。",
+        "研究者给每人分配相同次数的博物馆参观。"
+      ],
+      "analyses": [
+        "A 原文是 weekly reports，且最后分析聚焦艺术活动，不是普遍购物因果。",
+        "B 还列出购物、派对、短途旅行等。",
+        "C more...richer they reported 保留观察关联与自报性质。",
+        "D engaged in 不表示研究者操控次数。"
+      ],
+      "evidence": [
+        {
+          "quote": "the more artistic activities they engaged in, the richer they reported their lives to be at the end of the semester.",
+          "sentenceIds": [
+            "c05-s04-p050-05820-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 50,
+              "block": 3,
+              "bbox": [
+                76.99,
+                582,
+                535.01,
+                713.52
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "engage in",
+          "meaning": "参与；从事",
+          "context": "表示学生实际参加的活动，不自动指研究者安排的干预",
+          "example": "Participants engage in several community activities.",
+          "collocations": [
+            "engage in artistic activities",
+            "engage in volunteer work"
+          ]
+        }
+      ],
+      "translation": "为什么？深入分析周报发现，留学生更可能参加艺术活动（如音乐会、博物馆）、购物、派对和短途旅行；比留校学生更少参加社团会议、体育赛事、电子游戏或志愿活动。分析显示，艺术活动参加越多，学期末他们自报的人生越丰富。",
+      "support": "inference",
+      "editorialStatus": "PDF 第 49–54 页逐题核对；固定连续原句；区分个案、观察研究、写作实验和讣告评分，不扩大因果或样本范围",
+      "fingerprint": "8cdd06e032658e23aad22bd376ab8ec1c62ae2bb83decaf827fff14cee5f43a2"
+    },
+    {
+      "id": "qe-c05-0082",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-016",
+      "parentQuestionId": "q-c05-049",
+      "chapterId": "c05",
+      "sectionId": "c05-s04",
+      "paragraphId": "c05-s04-p050-05820",
+      "readingUnitId": "c05-s04-p050-05820-r001-004",
+      "sentenceIds": [
+        "c05-s04-p050-05820-s001",
+        "c05-s04-p050-05820-s002",
+        "c05-s04-p050-05820-s003",
+        "c05-s04-p050-05820-s004"
+      ],
+      "passage": "How come? We looked deeper into the weekly reports and found that study abroad students were far more likely to engage in artistic activities (e.g., going to concerts and museums), shop, party, and take short trips. They were far less likely to engage in club meetings, sporting events, video games, or volunteer activities than on-campus students. Analyses showed that the more artistic activities they engaged in, the richer they reported their lives to be at the end of the semester.",
+      "prompt": "What function does 'How come?' serve before the report analysis?",
+      "promptZh": "周报分析前的 How come? 起什么作用？",
+      "options": [
+        "It asks which flight the students booked.",
+        "It ends the investigation without further explanation.",
+        "It introduces a search for an explanation through closer examination of reports.",
+        "It claims that the researchers have proved every activity causes richness."
+      ],
+      "optionsZh": [
+        "询问学生订了哪趟航班。",
+        "不再解释，结束调查。",
+        "引出通过更深入查看报告寻找解释。",
+        "宣称已证明每种活动都会造成心理丰富。"
+      ],
+      "answer": 2,
+      "type": "作者意图",
+      "support": "explicit",
+      "analyses": [
+        "A 不是询问交通方式。",
+        "B 紧接 We looked deeper，不是终止。",
+        "C 问因表达引出对活动差异和自报体验的分析。",
+        "D 问因不等于已经给出所有活动的普遍因果证明。"
+      ],
+      "vocabulary": [
+        {
+          "word": "How come",
+          "meaning": "为什么；怎么会这样",
+          "context": "这里是引出解释的简短问句，不是 how 与 come 的字面交通组合。",
+          "example": "The library closed early. How come?",
+          "collocations": [
+            "How come?",
+            "ask how come"
+          ]
+        }
+      ],
+      "translation": "为什么？深入分析周报发现，留学生更可能参加艺术活动（如音乐会、博物馆）、购物、派对和短途旅行；比留校学生更少参加社团会议、体育赛事、电子游戏或志愿活动。分析显示，艺术活动参加越多，学期末他们自报的人生越丰富。",
+      "evidenceTargetIds": [
+        "c05-s04-p050-05820-s001"
+      ],
+      "evidence": [
+        {
+          "quote": "How come? We looked deeper into the weekly reports and found that study abroad students were far more likely to engage in artistic activities (e.g., going to concerts and museums), shop, party, and take short trips. They were far less likely to engage in club meetings, sporting events, video games, or volunteer activities than on-campus students. Analyses showed that the more artistic activities they engaged in, the richer they reported their lives to be at the end of the semester.",
+          "sentenceIds": [
+            "c05-s04-p050-05820-s001",
+            "c05-s04-p050-05820-s002",
+            "c05-s04-p050-05820-s003",
+            "c05-s04-p050-05820-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 50,
+              "block": 3,
+              "bbox": [
+                76.99,
+                582,
+                535.01,
+                713.52
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "2d329453c5f6c41d0c9772059337577ed9c471f788d68bb866e18e4cf5b85aeb"
+    },
+    {
+      "id": "qe-c05-0083",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-016",
+      "parentQuestionId": "q-c05-049",
+      "chapterId": "c05",
+      "sectionId": "c05-s04",
+      "paragraphId": "c05-s04-p050-05820",
+      "readingUnitId": "c05-s04-p050-05820-r001-004",
+      "sentenceIds": [
+        "c05-s04-p050-05820-s001",
+        "c05-s04-p050-05820-s002",
+        "c05-s04-p050-05820-s003",
+        "c05-s04-p050-05820-s004"
+      ],
+      "passage": "How come? We looked deeper into the weekly reports and found that study abroad students were far more likely to engage in artistic activities (e.g., going to concerts and museums), shop, party, and take short trips. They were far less likely to engage in club meetings, sporting events, video games, or volunteer activities than on-campus students. Analyses showed that the more artistic activities they engaged in, the richer they reported their lives to be at the end of the semester.",
+      "prompt": "Which activities were more common among the study-abroad students?",
+      "promptZh": "留学生更可能参加哪组活动？",
+      "options": [
+        "Artistic activities, shopping, parties, and short trips.",
+        "Club meetings, sporting events, video games, and volunteering.",
+        "Only required work, with all other activities excluded.",
+        "The same activities at exactly the same rates as campus students."
+      ],
+      "optionsZh": [
+        "艺术活动、购物、派对、短途旅行。",
+        "社团会议、体育赛事、电子游戏、志愿活动。",
+        "只有必做工作，排除所有其他活动。",
+        "与留校学生每项频率完全相同。"
+      ],
+      "answer": 0,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A far more likely 后列举这四类。",
+        "B 下一句列为 far less likely，方向倒置。",
+        "C 排他限定并不存在。",
+        "D more likely 明确表示差异，不能改成完全相同。报告频率差异不自动证明每项活动的因果效应。"
+      ],
+      "vocabulary": [
+        {
+          "word": "engage in",
+          "meaning": "参加；从事",
+          "context": "指投入某种活动，不是订婚或聘请某个人。",
+          "example": "Students can engage in artistic activities after class.",
+          "collocations": [
+            "engage in artistic activities",
+            "engage in volunteer activities"
+          ]
+        }
+      ],
+      "translation": "为什么？深入分析周报发现，留学生更可能参加艺术活动（如音乐会、博物馆）、购物、派对和短途旅行；比留校学生更少参加社团会议、体育赛事、电子游戏或志愿活动。分析显示，艺术活动参加越多，学期末他们自报的人生越丰富。",
+      "evidenceTargetIds": [
+        "c05-s04-p050-05820-s002"
+      ],
+      "evidence": [
+        {
+          "quote": "We looked deeper into the weekly reports and found that study abroad students were far more likely to engage in artistic activities (e.g., going to concerts and museums), shop, party, and take short trips.",
+          "sentenceIds": [
+            "c05-s04-p050-05820-s002"
+          ],
+          "sources": [
+            {
+              "pdfPage": 50,
+              "block": 3,
+              "bbox": [
+                76.99,
+                582,
+                535.01,
+                713.52
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "df4ed9488538915e44539dbc32fdc30014b89ddf25bfbe9f6b575c94aa0abfff"
+    },
+    {
+      "id": "qe-c05-0084",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-016",
+      "parentQuestionId": "q-c05-049",
+      "chapterId": "c05",
+      "sectionId": "c05-s04",
+      "paragraphId": "c05-s04-p050-05820",
+      "readingUnitId": "c05-s04-p050-05820-r001-004",
+      "sentenceIds": [
+        "c05-s04-p050-05820-s001",
+        "c05-s04-p050-05820-s002",
+        "c05-s04-p050-05820-s003",
+        "c05-s04-p050-05820-s004"
+      ],
+      "passage": "How come? We looked deeper into the weekly reports and found that study abroad students were far more likely to engage in artistic activities (e.g., going to concerts and museums), shop, party, and take short trips. They were far less likely to engage in club meetings, sporting events, video games, or volunteer activities than on-campus students. Analyses showed that the more artistic activities they engaged in, the richer they reported their lives to be at the end of the semester.",
+      "prompt": "What does the comparison with on-campus students show about club meetings and similar activities?",
+      "promptZh": "与留校学生相比，社团会议等活动呈现什么差异？",
+      "options": [
+        "All study-abroad students were forbidden to participate.",
+        "Study-abroad students were less likely to take part.",
+        "Only study-abroad students took part.",
+        "Both groups reported identical participation."
+      ],
+      "optionsZh": [
+        "所有留学生都被禁止参加。",
+        "留学生参加的可能性更低。",
+        "只有留学生参加。",
+        "两组报告完全一致的参与情况。"
+      ],
+      "answer": 1,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A far less likely 不是制度禁止，更不是所有人都未参加。",
+        "B than on-campus students 明确比较对象与较低方向。",
+        "C 与较少参加相反。",
+        "D 未报告无差别；They 承接留学生，不能把主语换成留校学生。"
+      ],
+      "vocabulary": [
+        {
+          "word": "far less likely",
+          "meaning": "可能性低得多；远不如……可能",
+          "context": "是相对频率方向，不等于零概率或被禁止。",
+          "example": "They were far less likely to drive when buses were available.",
+          "collocations": [
+            "far less likely to engage",
+            "less likely than"
+          ]
+        }
+      ],
+      "translation": "为什么？深入分析周报发现，留学生更可能参加艺术活动（如音乐会、博物馆）、购物、派对和短途旅行；比留校学生更少参加社团会议、体育赛事、电子游戏或志愿活动。分析显示，艺术活动参加越多，学期末他们自报的人生越丰富。",
+      "evidenceTargetIds": [
+        "c05-s04-p050-05820-s003"
+      ],
+      "evidence": [
+        {
+          "quote": "How come? We looked deeper into the weekly reports and found that study abroad students were far more likely to engage in artistic activities (e.g., going to concerts and museums), shop, party, and take short trips. They were far less likely to engage in club meetings, sporting events, video games, or volunteer activities than on-campus students. Analyses showed that the more artistic activities they engaged in, the richer they reported their lives to be at the end of the semester.",
+          "sentenceIds": [
+            "c05-s04-p050-05820-s001",
+            "c05-s04-p050-05820-s002",
+            "c05-s04-p050-05820-s003",
+            "c05-s04-p050-05820-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 50,
+              "block": 3,
+              "bbox": [
+                76.99,
+                582,
+                535.01,
+                713.52
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "41e036d9a991ad7ed2c3227c8d50ae36d1b291b312aa552da0c1a15e8a887dde"
+    },
+    {
+      "id": "q-c05-051",
+      "version": 1,
+      "readingUnitId": "c05-s05-p051-01650-r001-003",
+      "chapterId": "c05",
+      "sectionId": "c05-s05",
+      "paragraphId": "c05-s05-p051-01650",
+      "sentenceIds": [
+        "c05-s05-p051-01650-s001",
+        "c05-s05-p051-01650-s002",
+        "c05-s05-p051-01650-s003"
+      ],
+      "passage": "In her popular book Bittersweet, Susan Cain contends that “light and dark, birth and death—bitter and sweet—are forever paired” and that negative emotions such as sorrow and longing “make us whole.” She argues that negative emotions play a central role in our emotional lives and make us more empathetic and even more creative. Similarly, I think that negative emotions such as sorrow and longing, along with positive emotions, make our lives psychologically richer.",
+      "prompt": "How does the author position his view alongside Susan Cain’s?",
+      "options": [
+        "Both accounts give negative emotions a role, and the author links their combination with positive emotions to richness.",
+        "The author rejects Cain because he thinks only positive feelings matter.",
+        "Cain is described as having conducted the author’s final experiment.",
+        "Both claim that negative emotions guarantee happiness in every person."
+      ],
+      "answer": 0,
+      "type": "观点归属",
+      "promptZh": "作者怎样把自己的观点与 Susan Cain 的观点联系起来？",
+      "optionsZh": [
+        "两者都赋予负面情绪作用，作者把正负情绪的组合与丰富性相连。",
+        "作者认为只有正面情绪重要，所以否定 Cain。",
+        "Cain 被说成开展了作者最后的实验。",
+        "两者都断言负面情绪保证所有人幸福。"
+      ],
+      "analyses": [
+        "A Similarly 引出与 Cain 相似的重视，同时明确 along with positive emotions。",
+        "B Similarly 是相呼应，并非否定或只保留正面。",
+        "C 本段引书与观点，没有实验执行者说明。",
+        "D richer 不是幸福保证，且 I think 和 argues 均标明观点归属。"
+      ],
+      "evidence": [
+        {
+          "quote": "Similarly, I think that negative emotions such as sorrow and longing, along with positive emotions, make our lives psychologically richer.",
+          "sentenceIds": [
+            "c05-s05-p051-01650-s003"
+          ],
+          "sources": [
+            {
+              "pdfPage": 51,
+              "block": 2,
+              "bbox": [
+                76.99,
+                165,
+                535.01,
+                296.52
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "longing",
+          "meaning": "渴望；思念",
+          "context": "与 sorrow 一起作为负面或苦甜情绪的例子，不等于疾病诊断",
+          "example": "The letter expressed her longing for home.",
+          "collocations": [
+            "a longing for home",
+            "sorrow and longing"
+          ]
+        }
+      ],
+      "translation": "Susan Cain 在畅销书《Bittersweet》中主张：“明与暗、生与死——苦与甜——永远相伴”，悲伤、渴望等负面情绪“使我们完整”。她认为，负面情绪在情感生活中居核心位置，让人更有同理心，甚至更有创造力。类似地，我认为悲伤、渴望等负面情绪与正面情绪一起，让人生心理上更丰富。",
+      "support": "explicit",
+      "editorialStatus": "PDF 第 49–54 页逐题核对；固定连续原句；区分个案、观察研究、写作实验和讣告评分，不扩大因果或样本范围",
+      "fingerprint": "b03fdf9f8444a74f4c4c25f36a03eb28204059c5d89813b9644d41703956a03e"
+    },
+    {
+      "id": "qe-c05-0086",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-017",
+      "parentQuestionId": "q-c05-051",
+      "chapterId": "c05",
+      "sectionId": "c05-s05",
+      "paragraphId": "c05-s05-p051-01650",
+      "readingUnitId": "c05-s05-p051-01650-r001-003",
+      "sentenceIds": [
+        "c05-s05-p051-01650-s001",
+        "c05-s05-p051-01650-s002",
+        "c05-s05-p051-01650-s003"
+      ],
+      "passage": "In her popular book Bittersweet, Susan Cain contends that “light and dark, birth and death—bitter and sweet—are forever paired” and that negative emotions such as sorrow and longing “make us whole.” She argues that negative emotions play a central role in our emotional lives and make us more empathetic and even more creative. Similarly, I think that negative emotions such as sorrow and longing, along with positive emotions, make our lives psychologically richer.",
+      "prompt": "Whose position is expressed by the claim that sorrow and longing 'make us whole'?",
+      "promptZh": "悲伤与渴望使我们完整，这一主张归属于谁？",
+      "options": [
+        "The participants who completed the diary survey.",
+        "The three obituary raters.",
+        "Susan Cain in Bittersweet.",
+        "A quoted college student's anonymous report."
+      ],
+      "optionsZh": [
+        "填写日记问卷的参与者。",
+        "三位讣告评分者。",
+        "《Bittersweet》中的 Susan Cain。",
+        "某匿名大学生报告的引文。"
+      ],
+      "answer": 2,
+      "type": "观点归属",
+      "support": "explicit",
+      "analyses": [
+        "A 不是日记参与者的话。",
+        "B 讣告研究在下一章，不是该引语来源。",
+        "C Susan Cain contends that 明示观点归属。",
+        "D 没有匿名大学生发言；引述一本书的主张不能直接当成本段新实验结论。"
+      ],
+      "vocabulary": [
+        {
+          "word": "contends",
+          "meaning": "主张；认为",
+          "context": "引出 Cain 在书中的论点，不等于作者此句已以实验独立证实。",
+          "example": "The essay contends that ordinary experiences deserve attention.",
+          "collocations": [
+            "contends that",
+            "contend in a book"
+          ]
+        }
+      ],
+      "translation": "Susan Cain 在畅销书《Bittersweet》中主张：“明与暗、生与死——苦与甜——永远相伴”，悲伤、渴望等负面情绪“使我们完整”。她认为，负面情绪在情感生活中居核心位置，让人更有同理心，甚至更有创造力。类似地，我认为悲伤、渴望等负面情绪与正面情绪一起，让人生心理上更丰富。",
+      "evidenceTargetIds": [
+        "c05-s05-p051-01650-s001"
+      ],
+      "evidence": [
+        {
+          "quote": "In her popular book Bittersweet, Susan Cain contends that “light and dark, birth and death—bitter and sweet—are forever paired” and that negative emotions such as sorrow and longing “make us whole.”",
+          "sentenceIds": [
+            "c05-s05-p051-01650-s001"
+          ],
+          "sources": [
+            {
+              "pdfPage": 51,
+              "block": 2,
+              "bbox": [
+                76.99,
+                165,
+                535.01,
+                296.52
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "17ac19702c56d98d7009e0122522b203509c4717a7784b524e2ee07eb7c84741"
+    },
+    {
+      "id": "qe-c05-0087",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-017",
+      "parentQuestionId": "q-c05-051",
+      "chapterId": "c05",
+      "sectionId": "c05-s05",
+      "paragraphId": "c05-s05-p051-01650",
+      "readingUnitId": "c05-s05-p051-01650-r001-003",
+      "sentenceIds": [
+        "c05-s05-p051-01650-s001",
+        "c05-s05-p051-01650-s002",
+        "c05-s05-p051-01650-s003"
+      ],
+      "passage": "In her popular book Bittersweet, Susan Cain contends that “light and dark, birth and death—bitter and sweet—are forever paired” and that negative emotions such as sorrow and longing “make us whole.” She argues that negative emotions play a central role in our emotional lives and make us more empathetic and even more creative. Similarly, I think that negative emotions such as sorrow and longing, along with positive emotions, make our lives psychologically richer.",
+      "prompt": "Which capacities does Cain link to negative emotions?",
+      "promptZh": "Cain 把哪些能力与负面情绪联系起来？",
+      "options": [
+        "Greater empathy and creativity.",
+        "Better hearing and faster reading.",
+        "Perfect happiness with no sorrow.",
+        "Reduced ability to understand other people."
+      ],
+      "optionsZh": [
+        "更强同理心与创造力。",
+        "更好听力与更快阅读。",
+        "没有悲伤的完美幸福。",
+        "更弱的理解他人能力。"
+      ],
+      "answer": 0,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A more empathetic and even more creative 直接对应。",
+        "B 本句不讨论听力阅读。",
+        "C 主张负面情绪的作用，不是消除悲伤。",
+        "D empathetic 指更能体会他人，与选项相反；She 仍指 Cain，而非未具名研究参与者。"
+      ],
+      "vocabulary": [
+        {
+          "word": "empathetic",
+          "meaning": "有同理心的；能体会他人感受的",
+          "context": "描述 Cain 所主张的理解他人能力，不只是自己情绪强烈。",
+          "example": "An empathetic listener tries to understand another person's feelings.",
+          "collocations": [
+            "more empathetic",
+            "an empathetic response"
+          ]
+        }
+      ],
+      "translation": "Susan Cain 在畅销书《Bittersweet》中主张：“明与暗、生与死——苦与甜——永远相伴”，悲伤、渴望等负面情绪“使我们完整”。她认为，负面情绪在情感生活中居核心位置，让人更有同理心，甚至更有创造力。类似地，我认为悲伤、渴望等负面情绪与正面情绪一起，让人生心理上更丰富。",
+      "evidenceTargetIds": [
+        "c05-s05-p051-01650-s002"
+      ],
+      "evidence": [
+        {
+          "quote": "In her popular book Bittersweet, Susan Cain contends that “light and dark, birth and death—bitter and sweet—are forever paired” and that negative emotions such as sorrow and longing “make us whole.” She argues that negative emotions play a central role in our emotional lives and make us more empathetic and even more creative. Similarly, I think that negative emotions such as sorrow and longing, along with positive emotions, make our lives psychologically richer.",
+          "sentenceIds": [
+            "c05-s05-p051-01650-s001",
+            "c05-s05-p051-01650-s002",
+            "c05-s05-p051-01650-s003"
+          ],
+          "sources": [
+            {
+              "pdfPage": 51,
+              "block": 2,
+              "bbox": [
+                76.99,
+                165,
+                535.01,
+                296.52
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "f07bf81c204be6a4ff069a2888c863fe78b1a3dc6a13087623c34ec455f5fb56"
+    },
+    {
+      "id": "qe-c05-0092",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-017",
+      "parentQuestionId": "q-c05-054",
+      "chapterId": "c05",
+      "sectionId": "c05-s05",
+      "paragraphId": "c05-s05-p051-04770",
+      "readingUnitId": "c05-s05-p051-04770-r001-003",
+      "sentenceIds": [
+        "c05-s05-p051-04770-s001",
+        "c05-s05-p051-04770-s002",
+        "c05-s05-p051-04770-s003"
+      ],
+      "passage": "In the final experiment, we tested whether we could make people feel like they had a richer week. Some participants wrote about the best event and the worst event they had experienced over the previous seven days, while other participants wrote about their best event and their second-best event. After the writing task, they evaluated their lives over the previous week, reflecting on how much the writing task had made them think differently about themselves and the world (perspective change, in other words).",
+      "prompt": "When and what did the participants evaluate after writing?",
+      "promptZh": "写作后，参与者评价了什么以及哪个时间范围？",
+      "options": [
+        "Their previous week and how differently they now thought about themselves and the world.",
+        "Their entire future and guaranteed career success.",
+        "The researchers' handwriting before starting the task.",
+        "Only the number of words in another participant's essay."
+      ],
+      "optionsZh": [
+        "过去一周，以及对自身和世界的看法改变多少。",
+        "整个未来及确定的事业成功。",
+        "开始任务前研究者的字迹。",
+        "仅另一位参与者文章的字数。"
+      ],
+      "answer": 0,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A After 与 previous week 标明评价时点和回顾范围，括号解释为视角变化。",
+        "B 不是未来预测，更非保证事业。",
+        "C 时序和评价对象都不对。",
+        "D 不评价他人文章字数。"
+      ],
+      "vocabulary": [
+        {
+          "word": "reflecting on",
+          "meaning": "反思；认真回想",
+          "context": "此处指思考写作使看法改变多少，不是镜面反射。",
+          "example": "She spent the evening reflecting on what she had learned.",
+          "collocations": [
+            "reflect on an experience",
+            "reflecting on how much"
+          ]
+        }
+      ],
+      "translation": "最后一个实验检验，能否让人觉得自己度过了更丰富的一周。有些参与者写此前七天最好和最坏的事，另一些写最好和第二好的事。写完后，他们评价过去一周，反思任务让自己对自身与世界的看法改变多少——也就是视角变化。",
+      "evidenceTargetIds": [
+        "c05-s05-p051-04770-s003"
+      ],
+      "evidence": [
+        {
+          "quote": "In the final experiment, we tested whether we could make people feel like they had a richer week. Some participants wrote about the best event and the worst event they had experienced over the previous seven days, while other participants wrote about their best event and their second-best event. After the writing task, they evaluated their lives over the previous week, reflecting on how much the writing task had made them think differently about themselves and the world (perspective change, in other words).",
+          "sentenceIds": [
+            "c05-s05-p051-04770-s001",
+            "c05-s05-p051-04770-s002",
+            "c05-s05-p051-04770-s003"
+          ],
+          "sources": [
+            {
+              "pdfPage": 51,
+              "block": 4,
+              "bbox": [
+                76.99,
+                477,
+                535.01,
+                706.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "6debecf38d9f3d76947f36b5ad47cb3c9283cee3f541254c45fb56b34ae3d76f"
+    },
+    {
+      "id": "q-c05-055",
+      "version": 1,
+      "readingUnitId": "c05-s05-p051-04770-r004-007",
+      "chapterId": "c05",
+      "sectionId": "c05-s05",
+      "paragraphId": "c05-s05-p051-04770",
+      "sentenceIds": [
+        "c05-s05-p051-04770-s004",
+        "c05-s05-p051-04770-s005",
+        "c05-s05-p051-04770-s006",
+        "c05-s05-p051-04770-s007"
+      ],
+      "passage": "We found that compared to the participants who wrote about two positive events, those who wrote about both the best and the worst events reported a greater degree of perspective change. Writing about the worst event, in short, increased the likelihood of perspective change. Most important, the more perspective changes they reported, the psychologically richer they reported their lives to be. Interestingly, the more perspective change they reported, the less happiness they reported.",
+      "prompt": "What pattern of reports accompanies greater perspective change?",
+      "options": [
+        "Less richness and more happiness.",
+        "More richness and more happiness in every individual.",
+        "No relationship with richness but a guaranteed rise in meaning.",
+        "Greater reported richness and lower reported happiness."
+      ],
+      "answer": 3,
+      "type": "逻辑关系",
+      "promptZh": "更多视角变化伴随怎样的报告模式？",
+      "optionsZh": [
+        "更少丰富，更多幸福。",
+        "每个人都更丰富且更幸福。",
+        "与丰富无关，却保证意义上升。",
+        "自报更丰富，同时自报幸福更少。"
+      ],
+      "analyses": [
+        "A 把两个方向都读反。",
+        "B 最后一句是 less happiness，不是全体都更多幸福。",
+        "C 这里没有关于意义保证的结果。",
+        "D 两个 the more... 分别对应 richness 增和 happiness 减；报告间关联不能扩成所有人的必然因果。"
+      ],
+      "evidence": [
+        {
+          "quote": "the more perspective changes they reported, the psychologically richer they reported their lives to be.",
+          "sentenceIds": [
+            "c05-s05-p051-04770-s006"
+          ],
+          "sources": [
+            {
+              "pdfPage": 51,
+              "block": 4,
+              "bbox": [
+                76.99,
+                477,
+                535.01,
+                706.02
+              ]
+            },
+            {
+              "pdfPage": 52,
+              "block": 0,
+              "bbox": [
+                76.99,
+                75,
+                535.01,
+                148.02
+              ]
+            }
+          ]
+        },
+        {
+          "quote": "the more perspective change they reported, the less happiness they reported.",
+          "sentenceIds": [
+            "c05-s05-p051-04770-s007"
+          ],
+          "sources": [
+            {
+              "pdfPage": 52,
+              "block": 0,
+              "bbox": [
+                76.99,
+                75,
+                535.01,
+                148.02
+              ]
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "likelihood",
+          "meaning": "可能性",
+          "context": "increased the likelihood 描述更可能发生，不等于每个人必然发生",
+          "example": "Clear instructions increased the likelihood of completing the task.",
+          "collocations": [
+            "the likelihood of change",
+            "increase the likelihood"
+          ]
+        }
+      ],
+      "translation": "相比写两件正面事件的人，写最好与最坏事件的人报告了更大程度的视角变化。简言之，写最坏事件提高了视角变化的可能性。最重要的是，报告的视角变化越多，他们自报的人生越心理丰富。有趣的是，视角变化报告越多，幸福报告越少。",
+      "support": "explicit",
+      "editorialStatus": "PDF 第 49–54 页逐题核对；固定连续原句；区分个案、观察研究、写作实验和讣告评分，不扩大因果或样本范围",
+      "fingerprint": "264ee50705c5f48ff2a915109d75cf4abbec26142f523226804e1557859d6ece"
+    },
+    {
+      "id": "qe-c05-0093",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-017",
+      "parentQuestionId": "q-c05-055",
+      "chapterId": "c05",
+      "sectionId": "c05-s05",
+      "paragraphId": "c05-s05-p051-04770",
+      "readingUnitId": "c05-s05-p051-04770-r004-007",
+      "sentenceIds": [
+        "c05-s05-p051-04770-s004",
+        "c05-s05-p051-04770-s005",
+        "c05-s05-p051-04770-s006",
+        "c05-s05-p051-04770-s007"
+      ],
+      "passage": "We found that compared to the participants who wrote about two positive events, those who wrote about both the best and the worst events reported a greater degree of perspective change. Writing about the worst event, in short, increased the likelihood of perspective change. Most important, the more perspective changes they reported, the psychologically richer they reported their lives to be. Interestingly, the more perspective change they reported, the less happiness they reported.",
+      "prompt": "Which group reported a greater degree of perspective change?",
+      "promptZh": "哪组报告的视角变化程度更大？",
+      "options": [
+        "Participants who wrote about two positive events.",
+        "The people who did not complete any writing task.",
+        "Participants who wrote about both their best and worst events.",
+        "Both groups reported precisely equal change."
+      ],
+      "optionsZh": [
+        "写两件正面事件者。",
+        "完全没做写作任务者。",
+        "写最好和最坏事件者。",
+        "两组报告完全相等。"
+      ],
+      "answer": 2,
+      "type": "细节",
+      "support": "explicit",
+      "analyses": [
+        "A 把比较方向倒置。",
+        "B 本句比较的是两种写作条件，不是未写作组。",
+        "C both the best and the worst 对应较大自报变化。",
+        "D greater degree 排除完全相等；reported 应保留，不能说已客观量尽所有认知变化。"
+      ],
+      "vocabulary": [
+        {
+          "word": "degree",
+          "meaning": "程度",
+          "context": "修饰 perspective change 的多少，不指学历或温度。",
+          "example": "The two accounts show a different degree of detail.",
+          "collocations": [
+            "a greater degree of",
+            "degree of perspective change"
+          ]
+        }
+      ],
+      "translation": "相比写两件正面事件的人，写最好与最坏事件的人报告了更大程度的视角变化。简言之，写最坏事件提高了视角变化的可能性。最重要的是，报告的视角变化越多，他们自报的人生越心理丰富。有趣的是，视角变化报告越多，幸福报告越少。",
+      "evidenceTargetIds": [
+        "c05-s05-p051-04770-s004"
+      ],
+      "evidence": [
+        {
+          "quote": "We found that compared to the participants who wrote about two positive events, those who wrote about both the best and the worst events reported a greater degree of perspective change.",
+          "sentenceIds": [
+            "c05-s05-p051-04770-s004"
+          ],
+          "sources": [
+            {
+              "pdfPage": 51,
+              "block": 4,
+              "bbox": [
+                76.99,
+                477,
+                535.01,
+                706.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "999cd8ce6aad16731bfc94de9ae65e41ed48905cc2a479206c0c97bb583bd197"
+    },
+    {
+      "id": "qe-c05-0094",
+      "version": 1,
+      "family": "sentence-evidence",
+      "batchId": "evidence-017",
+      "parentQuestionId": "q-c05-055",
+      "chapterId": "c05",
+      "sectionId": "c05-s05",
+      "paragraphId": "c05-s05-p051-04770",
+      "readingUnitId": "c05-s05-p051-04770-r004-007",
+      "sentenceIds": [
+        "c05-s05-p051-04770-s004",
+        "c05-s05-p051-04770-s005",
+        "c05-s05-p051-04770-s006",
+        "c05-s05-p051-04770-s007"
+      ],
+      "passage": "We found that compared to the participants who wrote about two positive events, those who wrote about both the best and the worst events reported a greater degree of perspective change. Writing about the worst event, in short, increased the likelihood of perspective change. Most important, the more perspective changes they reported, the psychologically richer they reported their lives to be. Interestingly, the more perspective change they reported, the less happiness they reported.",
+      "prompt": "What does 'increased the likelihood' mean in the account of the writing task?",
+      "promptZh": "关于写作任务的 increased the likelihood 表示什么？",
+      "options": [
+        "Every participant necessarily changed perspective.",
+        "Perspective change became more likely in the reported experiment.",
+        "Perspective change was eliminated.",
+        "Writing proved that happiness and richness are identical."
+      ],
+      "optionsZh": [
+        "每位参与者都必然改变视角。",
+        "在所述实验中，视角变化的可能性提高。",
+        "视角变化被消除。",
+        "写作证明幸福等于心理丰富。"
+      ],
+      "answer": 1,
+      "type": "语境词义",
+      "support": "explicit",
+      "analyses": [
+        "A 可能性提高不等于百分之百。",
+        "B 忠实保留 likelihood 的概率强度与本实验范围。",
+        "C increased 不是消除。",
+        "D 本句不建立两个维度等同，也不证明所有生活场景都同效。"
+      ],
+      "vocabulary": [
+        {
+          "word": "likelihood",
+          "meaning": "可能性；发生的概率",
+          "context": "不同于确定发生；限定本段写作实验的描述。",
+          "example": "The new timetable increased the likelihood of arriving on time.",
+          "collocations": [
+            "increase the likelihood",
+            "likelihood of perspective change"
+          ]
+        }
+      ],
+      "translation": "相比写两件正面事件的人，写最好与最坏事件的人报告了更大程度的视角变化。简言之，写最坏事件提高了视角变化的可能性。最重要的是，报告的视角变化越多，他们自报的人生越心理丰富。有趣的是，视角变化报告越多，幸福报告越少。",
+      "evidenceTargetIds": [
+        "c05-s05-p051-04770-s005"
+      ],
+      "evidence": [
+        {
+          "quote": "We found that compared to the participants who wrote about two positive events, those who wrote about both the best and the worst events reported a greater degree of perspective change. Writing about the worst event, in short, increased the likelihood of perspective change. Most important, the more perspective changes they reported, the psychologically richer they reported their lives to be. Interestingly, the more perspective change they reported, the less happiness they reported.",
+          "sentenceIds": [
+            "c05-s05-p051-04770-s004",
+            "c05-s05-p051-04770-s005",
+            "c05-s05-p051-04770-s006",
+            "c05-s05-p051-04770-s007"
+          ],
+          "sources": [
+            {
+              "pdfPage": 51,
+              "block": 4,
+              "bbox": [
+                76.99,
+                477,
+                535.01,
+                706.02
+              ]
+            },
+            {
+              "pdfPage": 52,
+              "block": 0,
+              "bbox": [
+                76.99,
+                75,
+                535.01,
+                148.02
+              ]
+            }
+          ]
+        }
+      ],
+      "editorialStatus": "逐题作者稿；已核对实际PDF原页；定位到此前未直接配题的候选句，不改写原句、不把上下文当作直接证据。",
+      "fingerprint": "f366c4979d71f4107dd8f0f0024ab5c7fd89481fa90b697082ef83713e51dfd3"
+    }
+  ]
+}
