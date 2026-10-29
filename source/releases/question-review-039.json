@@ -1,0 +1,143 @@
+{
+  "schemaVersion": 1,
+  "id": "question-review-2026-10-28-039",
+  "status": "published-and-verified",
+  "verifiedAt": "2026-10-29T00:23:27.078Z",
+  "url": "https://audience20060904-lang.github.io/Reading/",
+  "sourceCommit": "53f1954e92ea3aa09be1dd4a6df7912b4a05eac0",
+  "deploymentCommit": "5636d45936da4a5c6939213d636311b9b96d82e7",
+  "offlineVersion": "0901b1d6d14c626b",
+  "previousBatch": "source/releases/question-review-038.json",
+  "questionFingerprints": {
+    "qe-c04-0062": "20fb231f1492312e73ed911e2dda381306f45033a4baf384fb27d17b310010fa",
+    "qe-c04-0065": "8866aa5fca76c39e722291d47d7a40c0c8441b42d80743a0872cc27688b5ad7e",
+    "qe-c04-0066": "d850f5025fbdbf56da71a04b23da51e7c07c84ef1d77f4f92ae6b855a809f9ba",
+    "qe-c04-0067": "25a5f178fec3c37e5a7048160dfeb9a27e300d3555a2f0151d9e3fd875dc4e5d",
+    "qe-c04-0068": "5dc4f67ded467c4c0f287bdfd469dbf1eb16985ec04b5190d88adde08c46d3e0",
+    "qe-c04-0069": "cbf692651aafa18bc81fd419f94455259e2f95e59fd117e3554d5c313c2702bd",
+    "q-c04-046": "bd1a5e3d46733fb3e0cb416327fa02b9369d4ac1c7e95e270eec6ffc4eda46af",
+    "qe-c04-0070": "8aeb65ef7bee5fae792101e1d609485dd52c4d89122f39c623c76da1fab9acbc",
+    "qe-c04-0072": "69f6897461d79b29d36441129704ca02a4b3737c0cfbfdc8f3e5d1b15be8028d",
+    "q-c04-048": "ba710c9a4c9c7d97ab5ee7453ced9e407c06addb528ba9b3ffe31c095fabbcc8",
+    "qe-c04-0076": "4574dc5c4ba242c9913af03bdfb59bf4e4942ea8c2298f138c12cda107ca4f39"
+  },
+  "content": {
+    "totalQuestions": 2709,
+    "manuallyReviewedQuestions": 19,
+    "reviewedSourceCandidates": 25,
+    "revisedQuestions": 11,
+    "totalRevisedQuestions": 336,
+    "changedAnswerPositions": 0,
+    "remainingQuestionReviews": 2000,
+    "fullQuestionBankHumanReview": false
+  },
+  "validation": {
+    "unitTestsPassed": 465,
+    "build": "npm run build:pages passed",
+    "pdf": {
+      "sha256": "be25c859f1bd894a4b0d1cff024ded1297f6a96a8e8ddabea1e3abcf89160a50",
+      "pagesVisuallyReviewed": [
+        40,
+        41,
+        42
+      ],
+      "sourceBlocksTextMatched": 6
+    },
+    "localBrowser": [
+      "全部缓存资产及Service Worker与本次生产构建逐字节匹配",
+      "提交前无证据标记；提交后精确标出依据且原文不变、淡蓝色查词仍可用",
+      "相近题型合并为一行并按提交次数计算50%正确率，原始标签和历史记录不变",
+      "逐题提交11道校对题，交替验证正误、四项译文与分析、整段译文及完整快照；提交前不显示中文解析",
+      "真实浏览器恢复旧选项、旧译文、旧错题成绩与用时；重练采用新版，新增记录且不改历史",
+      "390px和320px深色视口，选项、解析和整段译文均无横向溢出",
+      "旧未提交选择遇到改版时清空，新版位置保留；已提交解析正常刷新恢复",
+      "离线模拟恢复新旧两版成绩；本地另实际停止HTTP服务后缓存恢复新版题目与译文"
+    ],
+    "liveBrowser": [
+      "全部缓存资产及Service Worker与本次生产构建逐字节匹配",
+      "提交前无证据标记；提交后精确标出依据且原文不变、淡蓝色查词仍可用",
+      "相近题型合并为一行并按提交次数计算50%正确率，原始标签和历史记录不变",
+      "逐题提交11道校对题，交替验证正误、四项译文与分析、整段译文及完整快照；提交前不显示中文解析",
+      "真实浏览器恢复旧选项、旧译文、旧错题成绩与用时；重练采用新版，新增记录且不改历史",
+      "390px和320px深色视口，选项、解析和整段译文均无横向溢出",
+      "旧未提交选择遇到改版时清空，新版位置保留；已提交解析正常刷新恢复",
+      "离线模拟恢复新旧两版成绩；本地另实际停止HTTP服务后缓存恢复新版题目与译文"
+    ],
+    "liveRevisedQuestionsVisited": 11,
+    "assets": "All 13 manifest assets and the service worker byte-match the tested build.",
+    "history": "All 38 previous editorial batch fingerprints preserved. Source text, original question banks, reading plan, completed prior audit and submitted snapshots unchanged.",
+    "integrity": {
+      "passed": true,
+      "protectedBase": "48552be4956ee61a3f1b1a59a4ed1c4c67f67e03",
+      "protectedPaths": 73,
+      "publishedReceiptsVerified": 39,
+      "chapter1QuestionReviews": 137,
+      "totalReviewedQuestionIds": 709,
+      "remainingQuestionReviews": 2000,
+      "fullQuestionBankHumanReview": false
+    },
+    "deploymentRecovery": {
+      "workflowRunId": 40790657192,
+      "url": "https://github.com/audience20060904-lang/Reading/actions/runs/40790657192",
+      "firstAttempt": {
+        "conclusion": "failure",
+        "failedJobId": 123174825029,
+        "cause": "GitHub Pages OIDC token request timed out before deployment. Build and report-build-status jobs passed.",
+        "completedAt": "2026-10-28T23:56:07Z"
+      },
+      "firstRetry": {
+        "operation": "Re-run failed jobs only via connected GitHub app",
+        "result": "Accepted but remained queued for over twenty minutes without a new attempt/job."
+      },
+      "retry": {
+        "operation": "Request existing Pages branch build using the authorized local GitHub credential; no new source or deployment commit",
+        "request": {
+          "operation": "request-existing-gh-pages-build-without-new-commit",
+          "expectedCommit": "5636d45936da4a5c6939213d636311b9b96d82e7",
+          "httpStatus": 201,
+          "status": "queued",
+          "url": "https://api.github.com/repositories/1427798556/pages/builds/latest",
+          "message": null
+        },
+        "workflowRunId": 40793521955,
+        "url": "https://github.com/audience20060904-lang/Reading/actions/runs/40793521955",
+        "runAttempt": 1,
+        "conclusion": "success",
+        "updatedAt": "2026-10-29T00:21:57Z"
+      },
+      "stalledRetryCancellation": {
+        "operation": "cancel-stalled-queued-retry-after-replacement-started",
+        "staleRunId": 40790657192,
+        "replacementRunId": 40793521955,
+        "expectedCommit": "5636d45936da4a5c6939213d636311b9b96d82e7",
+        "httpStatus": 409,
+        "message": "Cannot cancel a workflow re-run that has not yet queued."
+      },
+      "verifiedBy": "The successful replacement build was followed by all manifest assets and the service worker byte-matching the same local build, plus the live browser content/history/offline-simulation checks."
+    }
+  },
+  "report": "source/question-revisions/review-039-report.json",
+  "continuation": "source/question-semantic-audit.json",
+  "limits": [
+    "Isolated synthetic data only; Prewritten versioned editorial corrections checked against their current records. Mobile is a viewport, not a physical phone.",
+    "Live offline checks use browser simulation; actual HTTP-server shutdown performed locally.",
+    "The remaining 2000 questions await expanded per-question review; this is not a count of known errors or missing questions."
+  ],
+  "lookupRevisionFingerprints": [
+    {
+      "revisionId": "question-review-2026-10-28-014",
+      "occurrenceId": "c01-s02-p010-05625@390:398",
+      "sha256": "3f1c35d38c91722bcc39c64b5b0a8840e39e25f13b54a64c3b17e3e3b65c9119"
+    },
+    {
+      "revisionId": "question-review-2026-10-28-017",
+      "occurrenceId": "c01-s04-p013-05662@523:538",
+      "sha256": "e668951b5f0d67dc54eead608d4705f185d33b045e245438d51e00add8ec2342"
+    },
+    {
+      "revisionId": "question-review-2026-10-28-017",
+      "occurrenceId": "c01-s04-p013-05662@694:709",
+      "sha256": "779785898d0be134c0bfc0aed22cd7705803b476a9c3a4a0c2205b5d92278e1d"
+    }
+  ]
+}

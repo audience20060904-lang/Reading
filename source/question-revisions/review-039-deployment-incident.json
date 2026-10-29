@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "batchId": "question-review-2026-10-28-039",
+  "status": "resolved-after-retry-and-live-verification",
+  "workflowRunId": 40790657192,
+  "failedJobId": 123174825029,
+  "workflowUrl": "https://github.com/audience20060904-lang/Reading/actions/runs/40790657192",
+  "sourceCommit": "53f1954e92ea3aa09be1dd4a6df7912b4a05eac0",
+  "deploymentCommit": "5636d45936da4a5c6939213d636311b9b96d82e7",
+  "expectedOfflineVersion": "0901b1d6d14c626b",
+  "lastVerifiedLiveOfflineVersion": "50b55c53840b035d",
+  "observedFailure": "Deploy job: Failed to get ID Token; OIDC endpoint request timed out. Build and report-build-status jobs succeeded.",
+  "retry": "Connected GitHub app accepted re-run failed jobs only; success=true. Verify the actual workflow result and all online bytes before issuing a release receipt.",
+  "continuation": "Do not re-author or re-push question content. Resume this already pushed batch, verify the deployment retry, then run the live browser test and finalizer. Batch 040 is only prepared in ignored QA scripts and is not counted reviewed yet.",
+  "latestObservedWorkflowState": {
+    "observedAt": "2026-10-29T00:03:52.151Z",
+    "id": 40790657192,
+    "status": "queued",
+    "conclusion": null,
+    "runAttempt": 1,
+    "updatedAt": "2026-10-28T23:58:48Z"
+  },
+  "localVerification": {
+    "unitTestsPassed": 465,
+    "productionBuild": true,
+    "localBrowserPassed": true,
+    "actualLocalHttpShutdown": true
+  },
+  "recoveryCommands": [
+    "Verify workflow run 40790657192 succeeded on deployment commit 5636d45936da4a5c6939213d636311b9b96d82e7.",
+    "Wait for offline manifest version 0901b1d6d14c626b. Run REVIEW_BATCH=039 live browser test with the existing proxy.",
+    "Save qa/question-review-039-recovered-run.json with actual result; node qa/finalize-question-review-039.mjs; node qa/record-question-review-039-deploy-recovery.mjs.",
+    "Commit receipt, report, deployment incident and optimization task metadata only, ordinary push main. Resume prepared batch 040 only afterward."
+  ],
+  "additionalRecovery": {
+    "operation": "POST existing Pages branch build via current authorized local GitHub credential",
+    "reason": "The failed-job retry remained queued for over twenty minutes without a new job or attempt. Legacy Pages latest-build remained building on the same verified deployment commit.",
+    "request": {
+      "operation": "request-existing-gh-pages-build-without-new-commit",
+      "expectedCommit": "5636d45936da4a5c6939213d636311b9b96d82e7",
+      "httpStatus": 201,
+      "status": "queued",
+      "url": "https://api.github.com/repositories/1427798556/pages/builds/latest",
+      "message": null
+    },
+    "notice": "Accepted rebuild request is not proof of deployment. Verify a successful workflow on the same commit, live version and exact asset bytes before recording release success."
+  },
+  "resolution": {
+    "operation": "Request existing Pages branch build using the authorized local GitHub credential; no new source or deployment commit",
+    "request": {
+      "operation": "request-existing-gh-pages-build-without-new-commit",
+      "expectedCommit": "5636d45936da4a5c6939213d636311b9b96d82e7",
+      "httpStatus": 201,
+      "status": "queued",
+      "url": "https://api.github.com/repositories/1427798556/pages/builds/latest",
+      "message": null
+    },
+    "workflowRunId": 40793521955,
+    "url": "https://github.com/audience20060904-lang/Reading/actions/runs/40793521955",
+    "runAttempt": 1,
+    "conclusion": "success",
+    "updatedAt": "2026-10-29T00:21:57Z"
+  },
+  "releaseReceipt": "source/releases/question-review-039.json"
+}
